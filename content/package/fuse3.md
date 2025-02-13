@@ -12,7 +12,7 @@ size = "127572"
 usize = "485840"
 sha1sum = "fb39aefc1f7b8e31bbe081a92da1229231e00ca3"
 depends = "['fuse-common', 'glibc>=2.34']"
-reverse_depends = "['freerdp', 'freerdp2', 'gvfs-fuse', 'kio-fuse', 'ostree', 'python3-pyfuse3', 'qemu', 'sshfs', 'unionfs-fuse', 'wimlib', 'xdg-desktop-portal']"
+reverse_depends = "['freerdp', 'freerdp2', 'gvfs-fuse', 'kio-fuse', 'ostree', 'python3-pyfuse3', 'qemu', 'sshfs', 'unionfs-fuse', 'wimlib', 'xdg-desktop-portal', 'xrdp']"
 +++
 ### Description: 
 An interface for filesystems implemented in userspace.

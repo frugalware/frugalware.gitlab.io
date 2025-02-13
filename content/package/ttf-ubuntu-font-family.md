@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ttf-ubuntu-font-family 0.83-4"
-version = "0.83-4"
+title = "ttf-ubuntu-font-family 0.83-5"
+version = "0.83-5"
 description = "Ubuntu font family"
-date = "2022-05-17T12:49:09"
+date = "2025-02-13T20:39:48"
 aliases = "/packages/136105"
 categories = ['xlib-extra']
 upstreamurl = "https://design.ubuntu.com/font/"
 arch = "x86_64"
-size = "1442924"
-usize = "4395289"
-sha1sum = "82d2c188df95ec9270c09fbaebc57d82e8ca30e3"
-depends = "['fontconfig', 'fontconfig', 'mkfontscale']"
+size = "1444268"
+usize = "4390990"
+sha1sum = "87e1bcc0eaf962e7afe565e14ecc0507ad0a6f54"
+depends = "['fontconfig', 'mkfontscale']"
 +++
 ### Description: 
 Ubuntu font family

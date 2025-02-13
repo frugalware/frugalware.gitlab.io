@@ -12,7 +12,7 @@ size = "154532"
 usize = "639011"
 sha1sum = "7233b1ee7792c1b7e27dbe04ce2c08a4352edf51"
 depends = "['fuse-common', 'glibc>=2.34']"
-reverse_depends = "['cryfs', 'encfs', 'fuseiso', 'grub2-mount', 'ifuse', 'libguestfs', 'libvirt', 'ntfs-3g', 'ntfsprogs', 'obsidian', 'rclone', 'squashfuse', 'xrdp']"
+reverse_depends = "['cryfs', 'encfs', 'fuseiso', 'grub2-mount', 'ifuse', 'libguestfs', 'libvirt', 'ntfs-3g', 'ntfsprogs', 'obsidian', 'rclone', 'squashfuse']"
 +++
 ### Description: 
 An interface for filesystems implemented in userspace.
