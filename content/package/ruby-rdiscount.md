@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ruby-rdiscount 2.2.7.3-2"
-version = "2.2.7.3-2"
+title = "ruby-rdiscount 2.2.7.3-3"
+version = "2.2.7.3-3"
 description = "Fast Implementation of Gruber's Markdown in C"
-date = "2024-12-25T16:36:07"
+date = "2025-02-13T17:34:01"
 aliases = "/packages/219489"
 categories = ['devel-extra']
 upstreamurl = "http://dafoster.net/projects/rdiscount/"
 arch = "x86_64"
-size = "178160"
-usize = "513268"
-sha1sum = "da5e7d1dd9b19f92c402a47cbd9b778ce82375cf"
-depends = "['ruby>=3.4.1', 'ruby>=3.4.1']"
+size = "178168"
+usize = "513084"
+sha1sum = "b3df841390c66a6a14cdc36c27e9bf39ef245e72"
+depends = "['ruby>=3.4.1']"
 reverse_depends = "['ruby-ronn-ng']"
 +++
 ### Description: 

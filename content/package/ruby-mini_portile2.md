@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ruby-mini_portile2 2.8.8-1"
-version = "2.8.8-1"
+title = "ruby-mini_portile2 2.8.8-2"
+version = "2.8.8-2"
 description = "Simple autoconf builder for developers"
-date = "2024-12-27T10:30:39"
+date = "2025-02-13T17:28:51"
 aliases = "/packages/222609"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/flavorjones/mini_portile"
 arch = "x86_64"
-size = "64916"
+size = "65040"
 usize = "145114"
-sha1sum = "835f75d935e62de6667e670c3b6d714ae8eb2f44"
-depends = "['ruby>=3.4.1', 'ruby>=3.4.0']"
+sha1sum = "fad9e7bb459dae87f15bbb0e7640c6c54329e4e9"
+depends = "['ruby>=3.4.1']"
 reverse_depends = "['ruby-nokogiri']"
 +++
 ### Description: 
