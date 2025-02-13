@@ -12,7 +12,7 @@ size = "188048"
 usize = "617577"
 sha1sum = "9ca63edae681fe203044f696829468850678be86"
 depends = "['perl>=5.34.0', 'perl-net-ssleay>=1.85-3', 'perl-uri>=1.76-2']"
-reverse_depends = "['spamassassin', 'spamassassin']"
+reverse_depends = "['spamassassin']"
 +++
 ### Description: 
 Perl extension Nearly transparent SSL encapsulation for IO::Socket::INET
