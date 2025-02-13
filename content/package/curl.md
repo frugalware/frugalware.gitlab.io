@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "curl 8.12.0-1"
-version = "8.12.0-1"
+title = "curl 8.12.1-1"
+version = "8.12.1-1"
 description = "A command line tool for transferring data specified with URL syntax."
-date = "2025-02-07T21:54:20"
+date = "2025-02-13T14:08:21"
 aliases = "/packages/2359"
 categories = ['network']
 upstreamurl = "http://curl.haxx.se"
 arch = "x86_64"
-size = "1237484"
-usize = "2171941"
-sha1sum = "8b613ddb74f3d912060f155a69c6def77c91cf0b"
+size = "1227924"
+usize = "2151644"
+sha1sum = "388ccdb8c4db27030068a73e78670920f39abc2b"
 depends = "['brotli', 'c-ares>=1.13.0-2', 'libidn2>=2.0.0-5', 'libpsl>=0.21.5', 'libssh2>=1.8.2-2', 'nghttp2>=1.37.0-2', 'nghttp3', 'openssl>=3.1.0', 'zstd']"
 reverse_depends = "['alienarena', 'apache', 'appstream', 'appstream-glib', 'assaultcube', 'cargo-c', 'chromium-browser', 'clamav', 'claws-mail-plugin-libravatar', 'claws-mail-plugin-rssyl', 'claws-mail-plugin-spam-report', 'claws-mail-plugin-vcalendar', 'cmake', 'cryfs', 'dovecot', 'elfutils-debuginfod', 'enigma', 'exiv2', 'facter', 'feh', 'firefox', 'flickcurl', 'flutter', 'freeciv', 'freetuxtv', 'get_steam', 'git', 'glyr', 'gmic', 'gnunet', 'hw-probe', 'icecast', 'julia', 'keepassxc', 'kvm', 'libclastfm', 'libcmis', 'libmediainfo', 'libmicrohttpd', 'liboauth', 'libofx', 'libproxy', 'libqalculate', 'libquvi', 'libreswan', 'libvirt', 'libvirt-glib', 'luanti', 'manaplus', 'megaglest', 'mod_security', 'mpd', 'mupdf', 'ncmpcpp', 'networkmanager', 'nushell', 'obs-studio', 'octave', 'openscenegraph', 'ostree', 'pdns', 'pdns-recursor', 'php', 'poppler', 'proj', 'pycurl', 'qemu', 'qmmp', 'r', 'raptor', 'rng-tools', 'rsyslog', 'rust', 'rustup', 'sane-backends', 'scummvm', 'seafile', 'spamassassin', 'spring', 'strongswan', 'supertux', 'supertuxkart', 'sysdig', 'systemd-pull', 'tpm2-tss', 'transmission-cli', 'ufoai', 'uget', 'uwsgi-plugin-curl', 'virtualbox', 'vorbis-tools', 'warzone2100', 'weechat', 'wesnoth', 'xcfa', 'xine-ui', 'xmlrpc-c', 'xonotic']"
 +++
@@ -37,9 +37,9 @@ A command line tool for transferring data specified with URL syntax.
 * /usr/lib/libcurl.so.4.8.0
 * /usr/lib/pkgconfig/libcurl.pc
 * /usr/share/aclocal/libcurl.m4
-* /usr/share/doc/curl-8.12.0/COPYING
-* /usr/share/doc/curl-8.12.0/README
-* /usr/share/doc/curl-8.12.0/RELEASE-NOTES
+* /usr/share/doc/curl-8.12.1/COPYING
+* /usr/share/doc/curl-8.12.1/README
+* /usr/share/doc/curl-8.12.1/RELEASE-NOTES
 * /usr/share/fish/vendor_completions.d/curl.fish
 * /usr/share/man/man1/curl-config.1.gz
 * /usr/share/man/man1/curl.1.gz
