@@ -1,34 +1,34 @@
 +++
 draft = false
-title = "perl-ip-country 2.28-6"
-version = "2.28-6"
+title = "perl-ip-country 2.28-7"
+version = "2.28-7"
 description = "Perl extension for fast lookup of country codes from IP addresses"
-date = "2022-02-21T15:04:25"
+date = "2025-02-13T15:22:47"
 aliases = "/packages/10714"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "274316"
-usize = "637735"
-sha1sum = "875329420e5bbe4495a705a008a478ca1b9e4d80"
-depends = "['perl>=5.28.2', 'perl>=5.34.0']"
+size = "272592"
+usize = "634968"
+sha1sum = "74e1ad486a9cc4f87710c525b195e7b8067d1db6"
+depends = "['perl>=5.34.0']"
 reverse_depends = "['spamassassin']"
 +++
 ### Description: 
 Perl extension for fast lookup of country codes from IP addresses
 
 ### Files: 
-* /usr/bin/ip2cc
-* /usr/lib/perl5/site_perl/current/IP/Authority.pm
-* /usr/lib/perl5/site_perl/current/IP/Authority/auth.gif
-* /usr/lib/perl5/site_perl/current/IP/Authority/ipauth.gif
-* /usr/lib/perl5/site_perl/current/IP/Country.pm
-* /usr/lib/perl5/site_perl/current/IP/Country/Fast.pm
-* /usr/lib/perl5/site_perl/current/IP/Country/Fast/cc.gif
-* /usr/lib/perl5/site_perl/current/IP/Country/Fast/ip.gif
-* /usr/lib/perl5/site_perl/current/IP/Country/MaxMind.pm
-* /usr/lib/perl5/site_perl/current/IP/Country/Medium.pm
-* /usr/lib/perl5/site_perl/current/IP/Country/Slow.pm
+* /usr/bin/site_perl/ip2cc
+* /usr/lib/perl5/site_perl/IP/Authority.pm
+* /usr/lib/perl5/site_perl/IP/Authority/auth.gif
+* /usr/lib/perl5/site_perl/IP/Authority/ipauth.gif
+* /usr/lib/perl5/site_perl/IP/Country.pm
+* /usr/lib/perl5/site_perl/IP/Country/Fast.pm
+* /usr/lib/perl5/site_perl/IP/Country/Fast/cc.gif
+* /usr/lib/perl5/site_perl/IP/Country/Fast/ip.gif
+* /usr/lib/perl5/site_perl/IP/Country/MaxMind.pm
+* /usr/lib/perl5/site_perl/IP/Country/Medium.pm
+* /usr/lib/perl5/site_perl/IP/Country/Slow.pm
 * /usr/share/doc/perl-ip-country-2.28/CHANGES
 * /usr/share/doc/perl-ip-country-2.28/INSTALL
 * /usr/share/doc/perl-ip-country-2.28/MANIFEST

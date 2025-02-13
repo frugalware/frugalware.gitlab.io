@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "opencv 4.11.0-2"
-version = "4.11.0-2"
+title = "opencv 4.11.0-3"
+version = "4.11.0-3"
 description = "Intel(R) Open Source Computer Vision Library"
-date = "2025-02-03T18:30:33"
+date = "2025-02-13T15:13:11"
 aliases = "/packages/118859"
 categories = ['xmultimedia-extra']
 upstreamurl = "http://opencv.org/"
 arch = "x86_64"
-size = "24386628"
-usize = "98837491"
-sha1sum = "bee3c2357f1ea34844f46f338fec60ceca476dea"
-depends = "['eigen', 'ffmpeg>=7.0', 'gdal', 'gst1-plugins-base', 'hdf5', 'intel-tbb', 'jasper>=2.0.10', 'jasper', 'libdc1394>=2.2.7', 'libglvnd', 'libgphoto2', 'libjpeg-turbo', 'libpng', 'libsm', 'libtiff', 'libwebp>=0.6.0', 'libxt', 'mesa-libglx', 'openexr>=3.3.0', 'protobuf>=3.2.0', 'qt6-5compat>=6.8.2', 'tesseract-ocr', 'v4l-utils', 'vtk', 'xine-lib>=1.2.8-3']"
+size = "24393980"
+usize = "98837493"
+sha1sum = "aa2663c4fc2881fc83b46fd0e478685b588b9813"
+depends = "['eigen', 'ffmpeg>=7.0', 'gdal', 'gst1-plugins-base', 'hdf5', 'intel-tbb', 'jasper>=2.0.10', 'libdc1394>=2.2.7', 'libglvnd', 'libgphoto2', 'libjpeg-turbo', 'libpng', 'libsm', 'libtiff', 'libwebp>=0.6.0', 'libxt', 'mesa-libglx', 'openexr>=3.3.0', 'protobuf>=3.2.0', 'qt6-5compat>=6.8.2', 'tesseract-ocr', 'v4l-utils', 'vtk', 'xine-lib>=1.2.8-3']"
 reverse_depends = "['digikam', 'gmic', 'gst1-plugins-bad-opencv', 'howdy', 'mlt-opencv', 'nomacs', 'opencv-cuda', 'opencv-python3', 'opencv-samples', 'openimageio', 'opentrack', 'performous', 'spectacle']"
 +++
 ### Description: 

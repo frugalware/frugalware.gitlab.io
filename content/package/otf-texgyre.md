@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "otf-texgyre 2.501-1"
-version = "2.501-1"
+title = "otf-texgyre 2.501-2"
+version = "2.501-2"
 description = "High quality open source opentype font collection resembling Helvetica, Times, Palatino, Courier, Gothic, Bookman, Schoolbook, and Chancery."
-date = "2018-05-16T19:24:11"
+date = "2025-02-13T15:17:26"
 aliases = "/packages/200213"
 categories = ['fonts-extra']
 upstreamurl = "http://www.gust.org.pl/projects/e-foundry/tex-gyre"
 arch = "x86_64"
-size = "1539184"
-usize = "4843488"
-sha1sum = "77ed2ec6cee75d25aa389190d849c03b2e0c04fd"
-depends = "['font-util', 'fontconfig', 'fontconfig', 'mkfontscale']"
+size = "1538952"
+usize = "4818912"
+sha1sum = "2ff7be9d452acd5e0ec13c4bf42114bd546197cb"
+depends = "['font-util', 'fontconfig', 'mkfontscale']"
 +++
 ### Description: 
 High quality open source opentype font collection resembling Helvetica, Times, Palatino, Courier, Gothic, Bookman, Schoolbook, and Chancery.

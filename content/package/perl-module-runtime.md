@@ -12,7 +12,7 @@ size = "13340"
 usize = "25632"
 sha1sum = "ba346fb69d20d0e1f9312d1183757e68754a4d4f"
 depends = "['perl>=5.34.0', 'perl-module-build']"
-reverse_depends = "['perl-import-into', 'perl-moo', 'perl-moo']"
+reverse_depends = "['perl-import-into', 'perl-moo']"
 +++
 ### Description: 
 runtime module handling

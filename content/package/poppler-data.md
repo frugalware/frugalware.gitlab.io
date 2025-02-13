@@ -12,7 +12,7 @@ size = "1591028"
 usize = "12965982"
 sha1sum = "b6e699590097d7fec0eb85b085093dda7021ae08"
 depends = "[]"
-reverse_depends = "['poppler', 'poppler']"
+reverse_depends = "['poppler']"
 +++
 ### Description: 
 Encoding files for poppler

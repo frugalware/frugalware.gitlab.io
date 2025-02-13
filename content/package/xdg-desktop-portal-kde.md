@@ -12,7 +12,7 @@ size = "410680"
 usize = "1747356"
 sha1sum = "4d86e16484107a66615b7305d89f93b0e55a02e5"
 depends = "['kio>=6.10.0', 'kio-fuse', 'kirigami>=6.10.0', 'kstatusnotifieritem>=6.10.0', 'kwayland>=_6.3.0']"
-reverse_depends = "['plasma-integration', 'plasma-integration', 'plasma-wayland-session']"
+reverse_depends = "['plasma-integration', 'plasma-wayland-session']"
 +++
 ### Description: 
 A backend implementation for xdg-desktop-portal using Qt/KF5

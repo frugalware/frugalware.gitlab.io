@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "opencv-samples 4.11.0-2"
-version = "4.11.0-2"
+title = "opencv-samples 4.11.0-3"
+version = "4.11.0-3"
 description = "Intel(R) Open Source Computer Vision Library Examples"
-date = "2025-02-03T18:30:33"
+date = "2025-02-13T15:13:11"
 aliases = "/packages/218388"
 categories = ['xapps-extra']
 upstreamurl = "http://opencv.org/"
 arch = "x86_64"
-size = "33648944"
+size = "33635704"
 usize = "56724786"
-sha1sum = "450bbf5689c1050f9d00f97ba53e0ad55152572b"
+sha1sum = "84f5ba7b200bff462d9667bbdbf8885cc89d66c3"
 depends = "['opencv>=4.11.0']"
 +++
 ### Description: 
