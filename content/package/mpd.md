@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "mpd 0.23.16-1"
-version = "0.23.16-1"
+title = "mpd 0.23.17-1"
+version = "0.23.17-1"
 description = "the Music Player Daemon"
-date = "2024-12-24T17:21:35"
+date = "2025-02-14T15:29:49"
 aliases = "/packages/3231"
 categories = ['multimedia-extra']
 upstreamurl = "http://www.musicpd.org/"
 arch = "x86_64"
-size = "782648"
-usize = "2685889"
-sha1sum = "e12e4eb3470602d5452bed88be0524613eaabc45"
-depends = "['audiofile', 'avahi', 'curl', 'ffmpeg>=7.0', 'flac>=1.4.0', 'fluidsynth>=2.0.0', 'fmtlib>=11.0.1', 'icu4c>=76.1', 'libao', 'libmad', 'libmms', 'libmodplug', 'libmpdclient', 'libmpg123', 'libnfs>=6.0.2', 'libsamplerate', 'libshout', 'libsmbclient', 'libsystemd', 'libupnp>=1.14.10', 'liburing', 'opus', 'talloc', 'twolame', 'wavpack', 'wildmidi>=0.4.1', 'yajl>=2.1.0-4', 'zziplib']"
+size = "761104"
+usize = "2621764"
+sha1sum = "f1bcdb22ee6ec21b4193bb64a806ec85ee55f750"
+depends = "['audiofile', 'avahi', 'curl', 'ffmpeg>=7.0', 'flac>=1.5.0', 'fluidsynth>=2.0.0', 'fmtlib>=11.0.1', 'icu4c>=76.1', 'libao', 'libmad', 'libmms', 'libmodplug', 'libmpdclient', 'libmpg123', 'libnfs>=6.0.2', 'libsamplerate', 'libshout', 'libsmbclient', 'libsystemd', 'libupnp>=1.14.10', 'liburing', 'opus', 'talloc', 'twolame', 'wavpack', 'wildmidi>=0.4.1', 'yajl>=2.1.0-4', 'zziplib']"
 +++
 ### Description: 
 the Music Player Daemon
@@ -23,10 +23,10 @@ the Music Player Daemon
 * /usr/lib/systemd/system/mpd.socket
 * /usr/lib/systemd/user/mpd.service
 * /usr/lib/systemd/user/mpd.socket
-* /usr/share/doc/mpd-0.23.16/AUTHORS
-* /usr/share/doc/mpd-0.23.16/COPYING
-* /usr/share/doc/mpd-0.23.16/NEWS
-* /usr/share/doc/mpd-0.23.16/README.md
+* /usr/share/doc/mpd-0.23.17/AUTHORS
+* /usr/share/doc/mpd-0.23.17/COPYING
+* /usr/share/doc/mpd-0.23.17/NEWS
+* /usr/share/doc/mpd-0.23.17/README.md
 * /usr/share/doc/mpd/AUTHORS
 * /usr/share/doc/mpd/COPYING
 * /usr/share/doc/mpd/html/.buildinfo

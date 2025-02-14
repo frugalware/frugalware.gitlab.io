@@ -12,7 +12,7 @@ size = "140320"
 usize = "1039057"
 sha1sum = "33ad80d7efdf5180c37aa3c9c52171859d954842"
 depends = "['glibc>=2.34']"
-reverse_depends = "['performous', 'sysdig']"
+reverse_depends = "['mumble', 'performous', 'sysdig']"
 +++
 ### Description: 
 JSON for Modern C++

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "sfml 3.0.0-2"
-version = "3.0.0-2"
+title = "sfml 3.0.0-3"
+version = "3.0.0-3"
 description = "SFML is a free multimedia C++ API."
-date = "2025-01-03T14:39:43"
+date = "2025-02-14T15:15:42"
 aliases = "/packages/218691"
 categories = ['xlib-extra']
 upstreamurl = "http://sfml-dev.org/"
 arch = "x86_64"
-size = "562880"
-usize = "2406730"
-sha1sum = "0105790248632397ff63c2ec7db5298f9edf291a"
-depends = "['flac>=1.4.0', 'freetype2', 'glew>=1.10.0', 'libjpeg-turbo', 'libsndfile', 'libudev', 'libxcursor', 'libxrandr', 'openal', 'xcb-util-image']"
+size = "562748"
+usize = "2406426"
+sha1sum = "6d924327512ea7c46d10eb432f0a2d105a073e39"
+depends = "['flac>=1.5.0', 'freetype2', 'glew>=1.10.0', 'libjpeg-turbo', 'libsndfile', 'libudev', 'libxcursor', 'libxrandr', 'openal', 'xcb-util-image']"
 +++
 ### Description: 
 SFML is a free multimedia C++ API.
