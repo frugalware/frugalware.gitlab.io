@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "scummvm 2.9.0-1"
-version = "2.9.0-1"
+title = "scummvm 2.9.0-2"
+version = "2.9.0-2"
 description = "ScummVM is a program which allows you to run certain classic graphical point-and-click adventure games."
-date = "2025-01-05T15:27:58"
+date = "2025-02-14T19:12:35"
 aliases = "/packages/16071"
 categories = ['games-extra']
 upstreamurl = "http://www.scummvm.org/"
 arch = "x86_64"
-size = "104501796"
-usize = "190646251"
-sha1sum = "cc6371e62ec0c56dcbe240f9fd6e2745c8719fac"
-depends = "['curl', 'faad2', 'fluidsynth', 'freetype2', 'fribidi', 'glib2', 'libjpeg-turbo', 'libmad', 'libtheora', 'sdl2_net']"
+size = "104616212"
+usize = "191771435"
+sha1sum = "e39387a2d21b805b90f117a5683d05c447a21765"
+depends = "['curl', 'faad2', 'flac>=1.5.0', 'fluidsynth', 'freetype2', 'fribidi', 'glib2', 'libjpeg-turbo', 'libmad', 'libtheora', 'sdl2_net']"
 reverse_depends = "['scummvm-tools']"
 +++
 ### Description: 
