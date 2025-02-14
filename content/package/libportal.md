@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libportal 0.9.0-2"
-version = "0.9.0-2"
+title = "libportal 0.9.1-1"
+version = "0.9.1-1"
 description = "GIO-style async APIs for most Flatpak portals"
-date = "2025-02-03T16:00:24"
+date = "2025-02-14T09:47:51"
 aliases = "/packages/220842"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/flatpak/libportal"
 arch = "x86_64"
-size = "1206496"
-usize = "3795456"
-sha1sum = "e61612828a4c041b3cb1c6063e7d8da65d9f2fc4"
+size = "1209584"
+usize = "3810787"
+sha1sum = "4309798f32253471263fb70e3970d0d8af81e61f"
 depends = "['glib2']"
 reverse_depends = "['libportal-gtk3', 'libportal-gtk4', 'libportal-qt5', 'libportal-qt6', 'xdg-desktop-portal']"
 +++
@@ -51,9 +51,9 @@ GIO-style async APIs for most Flatpak portals
 * /usr/lib/libportal.so.1
 * /usr/lib/libportal.so.1.0.0
 * /usr/lib/pkgconfig/libportal.pc
-* /usr/share/doc/libportal-0.9.0/COPYING
-* /usr/share/doc/libportal-0.9.0/NEWS
-* /usr/share/doc/libportal-0.9.0/README.md
+* /usr/share/doc/libportal-0.9.1/COPYING
+* /usr/share/doc/libportal-0.9.1/NEWS
+* /usr/share/doc/libportal-0.9.1/README.md
 * /usr/share/doc/libportal-1/class.InputCapturePointerBarrier.html
 * /usr/share/doc/libportal-1/class.InputCaptureSession.html
 * /usr/share/doc/libportal-1/class.InputCaptureZone.html

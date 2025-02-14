@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-flac 1.4.3-4"
-version = "1.4.3-4"
+title = "lib32-flac 1.5.0-1"
+version = "1.5.0-1"
 description = "Free Lossless Audio Coder ( 32bit )"
-date = "2024-05-16T00:55:42"
+date = "2025-02-14T09:23:29"
 aliases = "/packages/217935"
 categories = ['lib32-extra']
 upstreamurl = "https://xiph.org/flac/"
 arch = "x86_64"
-size = "383884"
-usize = "1400454"
-sha1sum = "252204347d6566d05153e800cf8ed3f4dcaa523b"
+size = "403176"
+usize = "1452088"
+sha1sum = "80247c518005c8817b539ba1276316c66a7d5b92"
 depends = "['lib32-libogg>=1.3.4']"
 reverse_depends = "['lib32-libsndfile']"
 +++
@@ -35,10 +35,10 @@ Free Lossless Audio Coder ( 32bit )
 * /usr/i686-frugalware-linux/include/FLAC/stream_decoder.h
 * /usr/i686-frugalware-linux/include/FLAC/stream_encoder.h
 * /usr/lib32/libFLAC++.so
-* /usr/lib32/libFLAC++.so.10
-* /usr/lib32/libFLAC++.so.10.0.1
+* /usr/lib32/libFLAC++.so.11
+* /usr/lib32/libFLAC++.so.11.0.0
 * /usr/lib32/libFLAC.so
-* /usr/lib32/libFLAC.so.12
-* /usr/lib32/libFLAC.so.12.1.0
+* /usr/lib32/libFLAC.so.14
+* /usr/lib32/libFLAC.so.14.0.0
 * /usr/lib32/pkgconfig/flac++.pc
 * /usr/lib32/pkgconfig/flac.pc

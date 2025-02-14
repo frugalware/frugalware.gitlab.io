@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "poco 1.14.0-1"
-version = "1.14.0-1"
+title = "poco 1.14.1-1"
+version = "1.14.1-1"
 description = "C++ class libraries for network-centric, portable applications, complete edition with debug libraries"
-date = "2024-12-12T22:33:05"
+date = "2025-02-14T09:32:38"
 aliases = "/packages/220567"
 categories = ['lib-extra']
 upstreamurl = "https://www.pocoproject.org"
 arch = "x86_64"
-size = "4236952"
-usize = "19240229"
-sha1sum = "27faad0ac547210c161c689cde7eac455e249b17"
+size = "4239244"
+usize = "19247433"
+sha1sum = "e3f6c3ac55df31af8114b7158eff46b4a95895b9"
 depends = "['libatomic', 'mariadb-libs', 'openssl>=3.1.0', 'unixodbc']"
 reverse_depends = "['mumble']"
 +++
@@ -935,44 +935,44 @@ C++ class libraries for network-centric, portable applications, complete edition
 * /usr/lib/cmake/Poco/PocoZipTargets-release.cmake
 * /usr/lib/cmake/Poco/PocoZipTargets.cmake
 * /usr/lib/libPocoActiveRecord.so
-* /usr/lib/libPocoActiveRecord.so.110
+* /usr/lib/libPocoActiveRecord.so.111
 * /usr/lib/libPocoCrypto.so
-* /usr/lib/libPocoCrypto.so.110
+* /usr/lib/libPocoCrypto.so.111
 * /usr/lib/libPocoData.so
-* /usr/lib/libPocoData.so.110
+* /usr/lib/libPocoData.so.111
 * /usr/lib/libPocoDataMySQL.so
-* /usr/lib/libPocoDataMySQL.so.110
+* /usr/lib/libPocoDataMySQL.so.111
 * /usr/lib/libPocoDataODBC.so
-* /usr/lib/libPocoDataODBC.so.110
+* /usr/lib/libPocoDataODBC.so.111
 * /usr/lib/libPocoDataSQLite.so
-* /usr/lib/libPocoDataSQLite.so.110
+* /usr/lib/libPocoDataSQLite.so.111
 * /usr/lib/libPocoEncodings.so
-* /usr/lib/libPocoEncodings.so.110
+* /usr/lib/libPocoEncodings.so.111
 * /usr/lib/libPocoFoundation.so
-* /usr/lib/libPocoFoundation.so.110
+* /usr/lib/libPocoFoundation.so.111
 * /usr/lib/libPocoJSON.so
-* /usr/lib/libPocoJSON.so.110
+* /usr/lib/libPocoJSON.so.111
 * /usr/lib/libPocoJWT.so
-* /usr/lib/libPocoJWT.so.110
+* /usr/lib/libPocoJWT.so.111
 * /usr/lib/libPocoMongoDB.so
-* /usr/lib/libPocoMongoDB.so.110
+* /usr/lib/libPocoMongoDB.so.111
 * /usr/lib/libPocoNet.so
-* /usr/lib/libPocoNet.so.110
+* /usr/lib/libPocoNet.so.111
 * /usr/lib/libPocoNetSSL.so
-* /usr/lib/libPocoNetSSL.so.110
+* /usr/lib/libPocoNetSSL.so.111
 * /usr/lib/libPocoPrometheus.so
-* /usr/lib/libPocoPrometheus.so.110
+* /usr/lib/libPocoPrometheus.so.111
 * /usr/lib/libPocoRedis.so
-* /usr/lib/libPocoRedis.so.110
+* /usr/lib/libPocoRedis.so.111
 * /usr/lib/libPocoUtil.so
-* /usr/lib/libPocoUtil.so.110
+* /usr/lib/libPocoUtil.so.111
 * /usr/lib/libPocoXML.so
-* /usr/lib/libPocoXML.so.110
+* /usr/lib/libPocoXML.so.111
 * /usr/lib/libPocoZip.so
-* /usr/lib/libPocoZip.so.110
-* /usr/share/doc/poco-1.14.0/CHANGELOG
-* /usr/share/doc/poco-1.14.0/CONTRIBUTORS
-* /usr/share/doc/poco-1.14.0/LICENSE
-* /usr/share/doc/poco-1.14.0/MANIFEST
-* /usr/share/doc/poco-1.14.0/README
-* /usr/share/doc/poco-1.14.0/VERSION
+* /usr/lib/libPocoZip.so.111
+* /usr/share/doc/poco-1.14.1/CHANGELOG
+* /usr/share/doc/poco-1.14.1/CONTRIBUTORS
+* /usr/share/doc/poco-1.14.1/LICENSE
+* /usr/share/doc/poco-1.14.1/MANIFEST
+* /usr/share/doc/poco-1.14.1/README
+* /usr/share/doc/poco-1.14.1/VERSION
