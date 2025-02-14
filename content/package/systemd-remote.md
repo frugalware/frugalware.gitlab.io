@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "systemd-remote 257.2-1"
-version = "257.2-1"
+title = "systemd-remote 257.3-1"
+version = "257.3-1"
 description = "systemd remote journald"
-date = "2025-01-08T08:08:42"
+date = "2025-02-14T08:41:36"
 aliases = "/packages/217488"
 categories = ['base-extra']
 upstreamurl = "http://www.freedesktop.org/wiki/Software/systemd"
 arch = "x86_64"
-size = "87980"
-usize = "180327"
-sha1sum = "7f7f6d5c2a06fc1fb658b86fa1092dc000e9a8e4"
-depends = "['libmicrohttpd>=0.9.58-2', 'lz4>=1.8.1.2-2', 'openssl>=3.0.7', 'systemd=257.2']"
+size = "87924"
+usize = "180231"
+sha1sum = "8cf1c2f4c523440b8d84c10d0f75abf3c3e5ee08"
+depends = "['libmicrohttpd>=0.9.58-2', 'lz4>=1.8.1.2-2', 'openssl>=3.0.7', 'systemd=257.3']"
 +++
 ### Description: 
 systemd remote journald

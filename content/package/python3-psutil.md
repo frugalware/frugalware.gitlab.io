@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-psutil 6.1.1-1"
-version = "6.1.1-1"
+title = "python3-psutil 7.0.0-1"
+version = "7.0.0-1"
 description = "A cross-platform process ans system utilities module for Python"
-date = "2024-12-20T22:24:01"
+date = "2025-02-14T09:08:56"
 aliases = "/packages/220004"
 categories = ['lib']
 upstreamurl = "http://pypi.python.org/pypi/psutil"
 arch = "x86_64"
-size = "452896"
-usize = "3284780"
-sha1sum = "977bb87b41ce3ad2fda028acf15be4f16cba30cc"
+size = "433700"
+usize = "3166631"
+sha1sum = "ca31f935425442517221c484c2101a0ca8e32f2f"
 depends = "['python3>=3.12']"
 reverse_depends = "['bpytop', 'drkonqi', 'python3-pidfile', 'python3-xapp', 'vorta', 'yin-yang']"
 +++
@@ -18,12 +18,12 @@ reverse_depends = "['bpytop', 'drkonqi', 'python3-pidfile', 'python3-xapp', 'vor
 A cross-platform process ans system utilities module for Python
 
 ### Files: 
-* /usr/lib/python3.13/site-packages/psutil-6.1.1-py3.13.egg-info/dependency_links.txt
-* /usr/lib/python3.13/site-packages/psutil-6.1.1-py3.13.egg-info/not-zip-safe
-* /usr/lib/python3.13/site-packages/psutil-6.1.1-py3.13.egg-info/PKG-INFO
-* /usr/lib/python3.13/site-packages/psutil-6.1.1-py3.13.egg-info/requires.txt
-* /usr/lib/python3.13/site-packages/psutil-6.1.1-py3.13.egg-info/SOURCES.txt
-* /usr/lib/python3.13/site-packages/psutil-6.1.1-py3.13.egg-info/top_level.txt
+* /usr/lib/python3.13/site-packages/psutil-7.0.0-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/psutil-7.0.0-py3.13.egg-info/not-zip-safe
+* /usr/lib/python3.13/site-packages/psutil-7.0.0-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/psutil-7.0.0-py3.13.egg-info/requires.txt
+* /usr/lib/python3.13/site-packages/psutil-7.0.0-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/psutil-7.0.0-py3.13.egg-info/top_level.txt
 * /usr/lib/python3.13/site-packages/psutil/tests/test_aix.py
 * /usr/lib/python3.13/site-packages/psutil/tests/test_bsd.py
 * /usr/lib/python3.13/site-packages/psutil/tests/test_connections.py
@@ -35,6 +35,7 @@ A cross-platform process ans system utilities module for Python
 * /usr/lib/python3.13/site-packages/psutil/tests/test_posix.py
 * /usr/lib/python3.13/site-packages/psutil/tests/test_process.py
 * /usr/lib/python3.13/site-packages/psutil/tests/test_process_all.py
+* /usr/lib/python3.13/site-packages/psutil/tests/test_scripts.py
 * /usr/lib/python3.13/site-packages/psutil/tests/test_sunos.py
 * /usr/lib/python3.13/site-packages/psutil/tests/test_system.py
 * /usr/lib/python3.13/site-packages/psutil/tests/test_testutils.py
@@ -64,6 +65,8 @@ A cross-platform process ans system utilities module for Python
 * /usr/lib/python3.13/site-packages/psutil/tests/__pycache__/test_process.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/psutil/tests/__pycache__/test_process_all.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/psutil/tests/__pycache__/test_process_all.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/psutil/tests/__pycache__/test_scripts.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/psutil/tests/__pycache__/test_scripts.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/psutil/tests/__pycache__/test_sunos.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/psutil/tests/__pycache__/test_sunos.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/psutil/tests/__pycache__/test_system.cpython-313.opt-1.pyc
@@ -79,7 +82,6 @@ A cross-platform process ans system utilities module for Python
 * /usr/lib/python3.13/site-packages/psutil/tests/__pycache__/__main__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/psutil/tests/__pycache__/__main__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/psutil/_common.py
-* /usr/lib/python3.13/site-packages/psutil/_compat.py
 * /usr/lib/python3.13/site-packages/psutil/_psaix.py
 * /usr/lib/python3.13/site-packages/psutil/_psbsd.py
 * /usr/lib/python3.13/site-packages/psutil/_pslinux.py
@@ -92,8 +94,6 @@ A cross-platform process ans system utilities module for Python
 * /usr/lib/python3.13/site-packages/psutil/__init__.py
 * /usr/lib/python3.13/site-packages/psutil/__pycache__/_common.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/psutil/__pycache__/_common.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/psutil/__pycache__/_compat.cpython-313.opt-1.pyc
-* /usr/lib/python3.13/site-packages/psutil/__pycache__/_compat.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/psutil/__pycache__/_psaix.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/psutil/__pycache__/_psaix.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/psutil/__pycache__/_psbsd.cpython-313.opt-1.pyc
@@ -110,7 +110,7 @@ A cross-platform process ans system utilities module for Python
 * /usr/lib/python3.13/site-packages/psutil/__pycache__/_pswindows.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/psutil/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/psutil/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/python3-psutil-6.1.1/CREDITS
-* /usr/share/doc/python3-psutil-6.1.1/INSTALL.rst
-* /usr/share/doc/python3-psutil-6.1.1/LICENSE
-* /usr/share/doc/python3-psutil-6.1.1/README.rst
+* /usr/share/doc/python3-psutil-7.0.0/CREDITS
+* /usr/share/doc/python3-psutil-7.0.0/INSTALL.rst
+* /usr/share/doc/python3-psutil-7.0.0/LICENSE
+* /usr/share/doc/python3-psutil-7.0.0/README.rst

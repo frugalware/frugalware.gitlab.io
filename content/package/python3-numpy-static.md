@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-numpy-static 2.2.2-1"
-version = "2.2.2-1"
+title = "python3-numpy-static 2.2.3-1"
+version = "2.2.3-1"
 description = "Numerical Python3 static files."
-date = "2025-01-19T19:51:32"
+date = "2025-02-14T08:51:51"
 aliases = "/packages/219940"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/numpy"
 arch = "x86_64"
-size = "283356"
-usize = "373520"
-sha1sum = "ad1153b8ae27a47f20960b6a90284545bc9ae12a"
+size = "282812"
+usize = "373248"
+sha1sum = "138ef2e9e0d8380d9e35be5a1cd1ab414d54e423"
 depends = "['python3>=3.12']"
 +++
 ### Description: 
