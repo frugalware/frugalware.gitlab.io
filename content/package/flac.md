@@ -12,7 +12,7 @@ size = "432680"
 usize = "1454823"
 sha1sum = "52421cb41c1c64656695ce4da626e06cb11a1841"
 depends = "['libogg>=1.3.4', 'libstdc++>=11.2']"
-reverse_depends = "['audiocd-kio', 'chromium-browser', 'efl', 'enlightenment', 'gst1-plugins-good-flac', 'kwave', 'libpulse', 'libsndfile', 'minidlna', 'mkvtoolnix', 'mpd', 'rubberband', 'scummvm-tools', 'sdlmame', 'sfml', 'terminology', 'twolame', 'vlc-flac', 'vorbis-tools', 'xine-lib']"
+reverse_depends = "['audiocd-kio', 'chromium-browser', 'efl', 'enlightenment', 'gst1-plugins-good-flac', 'kwave', 'libopenmpt', 'libsndfile', 'minidlna', 'mkvtoolnix', 'mpd', 'rubberband', 'scummvm-tools', 'sdlmame', 'sfml', 'sox', 'terminology', 'twolame', 'vlc-flac', 'vorbis-tools', 'xine-lib']"
 +++
 ### Description: 
 Free Lossless Audio Coder

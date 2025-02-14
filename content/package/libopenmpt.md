@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libopenmpt 0.7.13-1"
-version = "0.7.13-1"
+title = "libopenmpt 0.7.13-2"
+version = "0.7.13-2"
 description = "A library to render tracker music to a PCM audio stream"
-date = "2025-01-09T18:28:00"
+date = "2025-02-14T15:03:40"
 aliases = "/packages/221244"
 categories = ['lib']
 upstreamurl = "https://lib.openmpt.org/libopenmpt"
 arch = "x86_64"
-size = "774520"
-usize = "2310263"
-sha1sum = "928ea1c9dd4073ec58e0e4d1b67d18b964dabe74"
-depends = "['libmpg123', 'libpulse', 'portaudio']"
+size = "774560"
+usize = "2309175"
+sha1sum = "5d521d4153d3176a2ea6bec34f37f4ada54970e9"
+depends = "['flac>=1.5.0', 'libmpg123', 'libpulse', 'portaudio']"
 reverse_depends = "['ffmpeg', 'gst1-plugins-bad-openmpt', 'jazz2']"
 +++
 ### Description: 

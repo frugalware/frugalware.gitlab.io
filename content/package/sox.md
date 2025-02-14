@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "sox 14.4.2-9"
-version = "14.4.2-9"
+title = "sox 14.4.2-10"
+version = "14.4.2-10"
 description = "A universal sound converter, player, and recorder"
-date = "2024-12-18T22:00:58"
+date = "2025-02-14T15:05:36"
 aliases = "/packages/3340"
 categories = ['multimedia']
 upstreamurl = "https://sourceforge.net/projects/sox"
 arch = "x86_64"
-size = "401216"
-usize = "1163346"
-sha1sum = "f9ed2ed8b7739073dd11972585fd4c901144cd81"
-depends = "['lame', 'libgomp', 'libmad', 'libpng', 'libpulse', 'wavpack']"
+size = "401200"
+usize = "1163010"
+sha1sum = "16cebdfe7173446a29d5cae19f68b77cd5d7bbb5"
+depends = "['flac>=1.5.0', 'lame', 'libgomp', 'libmad', 'libpng', 'libpulse', 'wavpack']"
 reverse_depends = "['mlt', 'realrekord']"
 +++
 ### Description: 

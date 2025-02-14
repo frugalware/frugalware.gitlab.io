@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pulseaudio-x11 17.0-6"
-version = "17.0-6"
+title = "pulseaudio-x11 17.0-7"
+version = "17.0-7"
 description = "x11 module for PulseAudio sound server"
-date = "2025-01-22T11:00:39"
+date = "2025-02-14T15:01:33"
 aliases = "/packages/61051"
 categories = ['xmultimedia']
 upstreamurl = "http://www.freedesktop.org/wiki/Software/PulseAudio/"
 arch = "x86_64"
-size = "20384"
-usize = "64744"
-sha1sum = "ae7e81b2e405324ce84acaae905314758204c252"
+size = "20392"
+usize = "64792"
+sha1sum = "242fdb592e0f747986fb7dcdc0ea6445b092569e"
 depends = "['libsm>=1.2.2-3', 'libxtst>=1.2.2-3', 'pulseaudio>=17.0']"
 +++
 ### Description: 

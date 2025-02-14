@@ -12,7 +12,7 @@ size = "282552"
 usize = "851378"
 sha1sum = "39f6d32cbd4eda270d84660e3dd55230a2e51081"
 depends = "['lib32-libtool']"
-reverse_depends = "['get_steam']"
+reverse_depends = "['get_steam', 'lib32-libsndfile']"
 +++
 ### Description: 
 libmpg123 is the API used by the mpg123 audio player (32-bit)

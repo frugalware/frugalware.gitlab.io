@@ -12,6 +12,7 @@ size = "73996"
 usize = "200890"
 sha1sum = "52ff7c24b7db50cdb52d46a49de33f03524dc4cf"
 depends = "['lib32-libogg>=1.3.2-8', 'lib32-speexdsp>=1.2rc3-6']"
+reverse_depends = "['lib32-libsndfile']"
 +++
 ### Description: 
 Speex is an audio codec tuned for speech ( 32bit )
