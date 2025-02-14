@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kwave 24.12.2-1"
-version = "24.12.2-1"
+title = "kwave 24.12.2-2"
+version = "24.12.2-2"
 description = "Kwave is a sound editor for KDE"
-date = "2025-02-07T13:33:05"
+date = "2025-02-14T11:09:47"
 aliases = "/packages/218945"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "5358948"
-usize = "15085440"
-sha1sum = "d4b1f47bea53a0cc07de192cf44efd8ae541ee9b"
-depends = "['audiofile', 'flac>=1.4.0', 'id3lib', 'kio>=6.10.0', 'libmad', 'libsamplerate', 'opus', 'qt6-multimedia']"
+size = "5359396"
+usize = "15086432"
+sha1sum = "ed06e6827b767d387ca62cd5d4cdacd82a1c6a63"
+depends = "['audiofile', 'flac>=1.5.0', 'id3lib', 'kio>=6.10.0', 'libmad', 'libsamplerate', 'opus', 'qt6-multimedia']"
 +++
 ### Description: 
 Kwave is a sound editor for KDE
