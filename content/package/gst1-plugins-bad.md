@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gst1-plugins-bad 1.24.12-2"
-version = "1.24.12-2"
+title = "gst1-plugins-bad 1.24.12-3"
+version = "1.24.12-3"
 description = "Plugins for GStreamer (Bad)"
-date = "2025-02-14T09:53:04"
+date = "2025-02-15T11:47:06"
 aliases = "/packages/168830"
 categories = ['xmultimedia']
 upstreamurl = "http://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "2920084"
+size = "2917604"
 usize = "12621196"
-sha1sum = "efda94f78ef0cd5dc11fc0e3802e9d0c1c52991a"
+sha1sum = "9dbdedf962ed03a1570d5bad431e61afdc35c722"
 depends = "['gst1-plugins-base>=1.24.12', 'ldacbt', 'libass>=0.13.6', 'libffi>=3.2.1-2', 'libfreeaptx', 'libgudev>=230-7', 'libjpeg-turbo', 'libpng>=1.6.27', 'libsoup', 'libwpe', 'lilv', 'mjpegtools>=2.2.1', 'nettle>=3.6', 'nice', 'openjpeg>=2.2.0', 'openssl>=3.1.0', 'pango']"
 reverse_depends = "['gst1-plugins-bad-bluez', 'gst1-plugins-bad-bzip2', 'gst1-plugins-bad-chromaprint', 'gst1-plugins-bad-cuda', 'gst1-plugins-bad-de265', 'gst1-plugins-bad-dts', 'gst1-plugins-bad-faac', 'gst1-plugins-bad-faad2', 'gst1-plugins-bad-fdk-aac', 'gst1-plugins-bad-gtk-wayland', 'gst1-plugins-bad-json', 'gst1-plugins-bad-ladspa', 'gst1-plugins-bad-libdc1394', 'gst1-plugins-bad-libva', 'gst1-plugins-bad-mpeg2enc', 'gst1-plugins-bad-neon', 'gst1-plugins-bad-opencv', 'gst1-plugins-bad-openh264', 'gst1-plugins-bad-openmpt', 'gst1-plugins-bad-opus', 'gst1-plugins-bad-qroverlay', 'gst1-plugins-bad-resindvd', 'gst1-plugins-bad-sbc', 'gst1-plugins-bad-soundtouch', 'gst1-plugins-bad-srtp', 'gst1-plugins-bad-vulkan', 'gst1-plugins-bad-wayland', 'gst1-plugins-bad-webrtc', 'gst1-plugins-bad-wildmidi', 'gst1-plugins-bad-zxing', 'gtk+4', 'pulseaudio-bluetooth', 'qt5-gstreamer', 'qt5-multimedia', 'qt6-multimedia-gstreamer', 'spice-glib']"
 +++

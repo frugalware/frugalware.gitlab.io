@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "extra-cmake-modules 6.10.0-2"
-version = "6.10.0-2"
+title = "extra-cmake-modules 6.11.0-1"
+version = "6.11.0-1"
 description = "Extra CMake modules."
-date = "2025-02-01T19:14:51"
+date = "2025-02-15T12:09:50"
 aliases = "/packages/218262"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "428832"
-usize = "2062632"
-sha1sum = "03c71a3f24101b596567f83838ba3212f115cc7e"
+size = "433008"
+usize = "2085046"
+sha1sum = "fa35bf5a227bef62af38b8152d23597c50f3e0ec"
 depends = "[]"
 +++
 ### Description: 
@@ -88,6 +88,7 @@ Extra CMake modules.
 * /usr/share/doc/ECM/html/module/ECMGeneratePkgConfigFile.html
 * /usr/share/doc/ECM/html/module/ECMGeneratePriFile.html
 * /usr/share/doc/ECM/html/module/ECMGeneratePythonBindings.html
+* /usr/share/doc/ECM/html/module/ECMGenerateQDoc.html
 * /usr/share/doc/ECM/html/module/ECMGenerateQmlTypes.html
 * /usr/share/doc/ECM/html/module/ECMInstallIcons.html
 * /usr/share/doc/ECM/html/module/ECMMarkAsTest.html
@@ -177,6 +178,7 @@ Extra CMake modules.
 * /usr/share/doc/ECM/html/_sources/module/ECMGeneratePkgConfigFile.rst.txt
 * /usr/share/doc/ECM/html/_sources/module/ECMGeneratePriFile.rst.txt
 * /usr/share/doc/ECM/html/_sources/module/ECMGeneratePythonBindings.rst.txt
+* /usr/share/doc/ECM/html/_sources/module/ECMGenerateQDoc.rst.txt
 * /usr/share/doc/ECM/html/_sources/module/ECMGenerateQmlTypes.rst.txt
 * /usr/share/doc/ECM/html/_sources/module/ECMInstallIcons.rst.txt
 * /usr/share/doc/ECM/html/_sources/module/ECMMarkAsTest.rst.txt
@@ -210,9 +212,9 @@ Extra CMake modules.
 * /usr/share/doc/ECM/html/_static/searchtools.js
 * /usr/share/doc/ECM/html/_static/sidebar.js
 * /usr/share/doc/ECM/html/_static/sphinx_highlight.js
-* /usr/share/doc/extra-cmake-modules-6.10.0/COPYING-CMAKE-SCRIPTS
-* /usr/share/doc/extra-cmake-modules-6.10.0/README.md
-* /usr/share/doc/extra-cmake-modules-6.10.0/README.rst
+* /usr/share/doc/extra-cmake-modules-6.11.0/COPYING-CMAKE-SCRIPTS
+* /usr/share/doc/extra-cmake-modules-6.11.0/README.md
+* /usr/share/doc/extra-cmake-modules-6.11.0/README.rst
 * /usr/share/ECM/cmake/ECMConfig.cmake
 * /usr/share/ECM/cmake/ECMConfigVersion.cmake
 * /usr/share/ECM/find-modules/ECMFindModuleHelpersStub.cmake
@@ -300,6 +302,7 @@ Extra CMake modules.
 * /usr/share/ECM/modules/ECMGeneratePythonBindings.cmake
 * /usr/share/ECM/modules/ECMGeneratePythonBindings.toml.in
 * /usr/share/ECM/modules/ECMGeneratePythonBindings.toml.in.license
+* /usr/share/ECM/modules/ECMGenerateQDoc.cmake
 * /usr/share/ECM/modules/ECMGenerateQmlTypes.cmake
 * /usr/share/ECM/modules/ECMInstallIcons.cmake
 * /usr/share/ECM/modules/ECMMarkAsTest.cmake

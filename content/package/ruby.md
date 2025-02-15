@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ruby 3.4.1-1"
-version = "3.4.1-1"
+title = "ruby 3.4.2-1"
+version = "3.4.2-1"
 description = "An object-oriented programming language."
-date = "2024-12-25T15:52:54"
+date = "2025-02-15T12:05:56"
 aliases = "/packages/3323"
 categories = ['devel']
 upstreamurl = "http://www.ruby-lang.org"
 arch = "x86_64"
-size = "11394992"
-usize = "50798339"
-sha1sum = "7154b4be34bbd8e9938fc3809485ed12d213594b"
+size = "11412776"
+usize = "50847811"
+sha1sum = "37c290894cfb8197a6a3f4b5620b20c439a5abe6"
 depends = "['gdbm>=1.15', 'gmp>=6.1.1-4', 'libffi>=3.4', 'libxml2>=2.9.4-3', 'libyaml', 'ncurses>=6.0-18', 'openssl>=3.1.0', 'readline>=8.0']"
 reverse_depends = "['facter', 'flvtool2', 'fxruby-1.2', 'hivex-ruby', 'insight-toolkit', 'isaac', 'kross-interpreters', 'libselinux', 'rake', 'ruby-asciidoctor', 'ruby-bundler', 'ruby-hiera', 'ruby-mini_portile2', 'ruby-mustache', 'ruby-nokogiri', 'ruby-rdiscount', 'ruby-ronn-ng', 'ruby-sass', 'ruby-sdoc', 'uwsgi-plugin-rack', 'uwsgi-plugin-ruby', 'weechat']"
 +++
@@ -226,7 +226,7 @@ An object-oriented programming language.
 * /usr/include/ruby-3.4.0/x86_64-linux/ruby/config.h
 * /usr/lib/libruby.so
 * /usr/lib/libruby.so.3.4
-* /usr/lib/libruby.so.3.4.1
+* /usr/lib/libruby.so.3.4.2
 * /usr/lib/pkgconfig/ruby-3.4.pc
 * /usr/lib/ruby/3.4.0/benchmark.rb
 * /usr/lib/ruby/3.4.0/bundled_gems.rb
@@ -1471,9 +1471,9 @@ An object-oriented programming language.
 * /usr/lib/ruby/gems/3.4.0/cache/minitest-5.25.4.gem
 * /usr/lib/ruby/gems/3.4.0/cache/mutex_m-0.3.0.gem
 * /usr/lib/ruby/gems/3.4.0/cache/net-ftp-0.3.8.gem
-* /usr/lib/ruby/gems/3.4.0/cache/net-imap-0.5.4.gem
+* /usr/lib/ruby/gems/3.4.0/cache/net-imap-0.5.6.gem
 * /usr/lib/ruby/gems/3.4.0/cache/net-pop-0.1.2.gem
-* /usr/lib/ruby/gems/3.4.0/cache/net-smtp-0.5.0.gem
+* /usr/lib/ruby/gems/3.4.0/cache/net-smtp-0.5.1.gem
 * /usr/lib/ruby/gems/3.4.0/cache/nkf-0.2.0.gem
 * /usr/lib/ruby/gems/3.4.0/cache/observer-0.1.2.gem
 * /usr/lib/ruby/gems/3.4.0/cache/power_assert-2.0.5.gem
@@ -1694,77 +1694,78 @@ An object-oriented programming language.
 * /usr/lib/ruby/gems/3.4.0/gems/net-ftp-0.3.8/LICENSE.txt
 * /usr/lib/ruby/gems/3.4.0/gems/net-ftp-0.3.8/Rakefile
 * /usr/lib/ruby/gems/3.4.0/gems/net-ftp-0.3.8/README.md
-* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.4/BSDL
-* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.4/COPYING
-* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.4/docs/styles.css
-* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.4/Gemfile
-* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.4/lib/net/imap.rb
-* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.4/lib/net/imap/authenticators.rb
-* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.4/lib/net/imap/command_data.rb
-* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.4/lib/net/imap/config.rb
-* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.4/lib/net/imap/config/attr_accessors.rb
-* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.4/lib/net/imap/config/attr_inheritance.rb
-* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.4/lib/net/imap/config/attr_type_coercion.rb
-* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.4/lib/net/imap/data_encoding.rb
-* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.4/lib/net/imap/data_lite.rb
-* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.4/lib/net/imap/deprecated_client_options.rb
-* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.4/lib/net/imap/errors.rb
-* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.4/lib/net/imap/esearch_result.rb
-* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.4/lib/net/imap/fetch_data.rb
-* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.4/lib/net/imap/flags.rb
-* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.4/lib/net/imap/response_data.rb
-* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.4/lib/net/imap/response_parser.rb
-* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.4/lib/net/imap/response_parser/parser_utils.rb
-* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.4/lib/net/imap/sasl.rb
-* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.4/lib/net/imap/sasl/anonymous_authenticator.rb
-* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.4/lib/net/imap/sasl/authentication_exchange.rb
-* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.4/lib/net/imap/sasl/authenticators.rb
-* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.4/lib/net/imap/sasl/client_adapter.rb
-* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.4/lib/net/imap/sasl/cram_md5_authenticator.rb
-* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.4/lib/net/imap/sasl/digest_md5_authenticator.rb
-* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.4/lib/net/imap/sasl/external_authenticator.rb
-* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.4/lib/net/imap/sasl/gs2_header.rb
-* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.4/lib/net/imap/sasl/login_authenticator.rb
-* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.4/lib/net/imap/sasl/oauthbearer_authenticator.rb
-* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.4/lib/net/imap/sasl/plain_authenticator.rb
-* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.4/lib/net/imap/sasl/protocol_adapters.rb
-* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.4/lib/net/imap/sasl/scram_algorithm.rb
-* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.4/lib/net/imap/sasl/scram_authenticator.rb
-* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.4/lib/net/imap/sasl/stringprep.rb
-* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.4/lib/net/imap/sasl/xoauth2_authenticator.rb
-* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.4/lib/net/imap/sasl_adapter.rb
-* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.4/lib/net/imap/search_result.rb
-* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.4/lib/net/imap/sequence_set.rb
-* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.4/lib/net/imap/stringprep.rb
-* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.4/lib/net/imap/stringprep/nameprep.rb
-* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.4/lib/net/imap/stringprep/saslprep.rb
-* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.4/lib/net/imap/stringprep/saslprep_tables.rb
-* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.4/lib/net/imap/stringprep/tables.rb
-* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.4/lib/net/imap/stringprep/trace.rb
-* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.4/lib/net/imap/vanished_data.rb
-* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.4/LICENSE.txt
-* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.4/Rakefile
-* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.4/rakelib/benchmarks.rake
-* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.4/rakelib/rdoc.rake
-* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.4/rakelib/rfcs.rake
-* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.4/rakelib/saslprep.rake
-* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.4/rakelib/string_prep_tables_generator.rb
-* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.4/README.md
-* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.4/sample/net-imap.rb
+* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.6/BSDL
+* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.6/COPYING
+* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.6/docs/styles.css
+* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.6/Gemfile
+* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.6/lib/net/imap.rb
+* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.6/lib/net/imap/authenticators.rb
+* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.6/lib/net/imap/command_data.rb
+* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.6/lib/net/imap/config.rb
+* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.6/lib/net/imap/config/attr_accessors.rb
+* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.6/lib/net/imap/config/attr_inheritance.rb
+* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.6/lib/net/imap/config/attr_type_coercion.rb
+* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.6/lib/net/imap/data_encoding.rb
+* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.6/lib/net/imap/data_lite.rb
+* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.6/lib/net/imap/deprecated_client_options.rb
+* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.6/lib/net/imap/errors.rb
+* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.6/lib/net/imap/esearch_result.rb
+* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.6/lib/net/imap/fetch_data.rb
+* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.6/lib/net/imap/flags.rb
+* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.6/lib/net/imap/response_data.rb
+* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.6/lib/net/imap/response_parser.rb
+* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.6/lib/net/imap/response_parser/parser_utils.rb
+* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.6/lib/net/imap/sasl.rb
+* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.6/lib/net/imap/sasl/anonymous_authenticator.rb
+* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.6/lib/net/imap/sasl/authentication_exchange.rb
+* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.6/lib/net/imap/sasl/authenticators.rb
+* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.6/lib/net/imap/sasl/client_adapter.rb
+* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.6/lib/net/imap/sasl/cram_md5_authenticator.rb
+* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.6/lib/net/imap/sasl/digest_md5_authenticator.rb
+* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.6/lib/net/imap/sasl/external_authenticator.rb
+* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.6/lib/net/imap/sasl/gs2_header.rb
+* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.6/lib/net/imap/sasl/login_authenticator.rb
+* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.6/lib/net/imap/sasl/oauthbearer_authenticator.rb
+* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.6/lib/net/imap/sasl/plain_authenticator.rb
+* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.6/lib/net/imap/sasl/protocol_adapters.rb
+* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.6/lib/net/imap/sasl/scram_algorithm.rb
+* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.6/lib/net/imap/sasl/scram_authenticator.rb
+* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.6/lib/net/imap/sasl/stringprep.rb
+* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.6/lib/net/imap/sasl/xoauth2_authenticator.rb
+* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.6/lib/net/imap/sasl_adapter.rb
+* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.6/lib/net/imap/search_result.rb
+* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.6/lib/net/imap/sequence_set.rb
+* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.6/lib/net/imap/stringprep.rb
+* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.6/lib/net/imap/stringprep/nameprep.rb
+* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.6/lib/net/imap/stringprep/saslprep.rb
+* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.6/lib/net/imap/stringprep/saslprep_tables.rb
+* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.6/lib/net/imap/stringprep/tables.rb
+* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.6/lib/net/imap/stringprep/trace.rb
+* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.6/lib/net/imap/uidplus_data.rb
+* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.6/lib/net/imap/vanished_data.rb
+* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.6/LICENSE.txt
+* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.6/Rakefile
+* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.6/rakelib/benchmarks.rake
+* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.6/rakelib/rdoc.rake
+* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.6/rakelib/rfcs.rake
+* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.6/rakelib/saslprep.rake
+* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.6/rakelib/string_prep_tables_generator.rb
+* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.6/README.md
+* /usr/lib/ruby/gems/3.4.0/gems/net-imap-0.5.6/sample/net-imap.rb
 * /usr/lib/ruby/gems/3.4.0/gems/net-pop-0.1.2/Gemfile
 * /usr/lib/ruby/gems/3.4.0/gems/net-pop-0.1.2/lib/net/pop.rb
 * /usr/lib/ruby/gems/3.4.0/gems/net-pop-0.1.2/LICENSE.txt
 * /usr/lib/ruby/gems/3.4.0/gems/net-pop-0.1.2/Rakefile
 * /usr/lib/ruby/gems/3.4.0/gems/net-pop-0.1.2/README.md
-* /usr/lib/ruby/gems/3.4.0/gems/net-smtp-0.5.0/lib/net/smtp.rb
-* /usr/lib/ruby/gems/3.4.0/gems/net-smtp-0.5.0/lib/net/smtp/authenticator.rb
-* /usr/lib/ruby/gems/3.4.0/gems/net-smtp-0.5.0/lib/net/smtp/auth_cram_md5.rb
-* /usr/lib/ruby/gems/3.4.0/gems/net-smtp-0.5.0/lib/net/smtp/auth_login.rb
-* /usr/lib/ruby/gems/3.4.0/gems/net-smtp-0.5.0/lib/net/smtp/auth_plain.rb
-* /usr/lib/ruby/gems/3.4.0/gems/net-smtp-0.5.0/lib/net/smtp/auth_xoauth2.rb
-* /usr/lib/ruby/gems/3.4.0/gems/net-smtp-0.5.0/LICENSE.txt
-* /usr/lib/ruby/gems/3.4.0/gems/net-smtp-0.5.0/NEWS.md
-* /usr/lib/ruby/gems/3.4.0/gems/net-smtp-0.5.0/README.md
+* /usr/lib/ruby/gems/3.4.0/gems/net-smtp-0.5.1/lib/net/smtp.rb
+* /usr/lib/ruby/gems/3.4.0/gems/net-smtp-0.5.1/lib/net/smtp/authenticator.rb
+* /usr/lib/ruby/gems/3.4.0/gems/net-smtp-0.5.1/lib/net/smtp/auth_cram_md5.rb
+* /usr/lib/ruby/gems/3.4.0/gems/net-smtp-0.5.1/lib/net/smtp/auth_login.rb
+* /usr/lib/ruby/gems/3.4.0/gems/net-smtp-0.5.1/lib/net/smtp/auth_plain.rb
+* /usr/lib/ruby/gems/3.4.0/gems/net-smtp-0.5.1/lib/net/smtp/auth_xoauth2.rb
+* /usr/lib/ruby/gems/3.4.0/gems/net-smtp-0.5.1/LICENSE.txt
+* /usr/lib/ruby/gems/3.4.0/gems/net-smtp-0.5.1/NEWS.md
+* /usr/lib/ruby/gems/3.4.0/gems/net-smtp-0.5.1/README.md
 * /usr/lib/ruby/gems/3.4.0/gems/nkf-0.2.0/bin/console
 * /usr/lib/ruby/gems/3.4.0/gems/nkf-0.2.0/bin/setup
 * /usr/lib/ruby/gems/3.4.0/gems/nkf-0.2.0/ext/java/org/jruby/ext/nkf/Command.java
@@ -2744,9 +2745,9 @@ An object-oriented programming language.
 * /usr/lib/ruby/gems/3.4.0/specifications/minitest-5.25.4.gemspec
 * /usr/lib/ruby/gems/3.4.0/specifications/mutex_m-0.3.0.gemspec
 * /usr/lib/ruby/gems/3.4.0/specifications/net-ftp-0.3.8.gemspec
-* /usr/lib/ruby/gems/3.4.0/specifications/net-imap-0.5.4.gemspec
+* /usr/lib/ruby/gems/3.4.0/specifications/net-imap-0.5.6.gemspec
 * /usr/lib/ruby/gems/3.4.0/specifications/net-pop-0.1.2.gemspec
-* /usr/lib/ruby/gems/3.4.0/specifications/net-smtp-0.5.0.gemspec
+* /usr/lib/ruby/gems/3.4.0/specifications/net-smtp-0.5.1.gemspec
 * /usr/lib/ruby/gems/3.4.0/specifications/nkf-0.2.0.gemspec
 * /usr/lib/ruby/gems/3.4.0/specifications/observer-0.1.2.gemspec
 * /usr/lib/ruby/gems/3.4.0/specifications/power_assert-2.0.5.gemspec
@@ -2762,14 +2763,14 @@ An object-oriented programming language.
 * /usr/lib/ruby/gems/3.4.0/specifications/syslog-0.2.0.gemspec
 * /usr/lib/ruby/gems/3.4.0/specifications/test-unit-3.6.7.gemspec
 * /usr/lib/ruby/gems/3.4.0/specifications/typeprof-0.30.1.gemspec
-* /usr/share/doc/ruby-3.4.1/ChangeLog
-* /usr/share/doc/ruby-3.4.1/COPYING
-* /usr/share/doc/ruby-3.4.1/COPYING.ja
-* /usr/share/doc/ruby-3.4.1/KNOWNBUGS.rb
-* /usr/share/doc/ruby-3.4.1/README.EXT
-* /usr/share/doc/ruby-3.4.1/README.EXT.ja
-* /usr/share/doc/ruby-3.4.1/README.ja.md
-* /usr/share/doc/ruby-3.4.1/README.md
+* /usr/share/doc/ruby-3.4.2/ChangeLog
+* /usr/share/doc/ruby-3.4.2/COPYING
+* /usr/share/doc/ruby-3.4.2/COPYING.ja
+* /usr/share/doc/ruby-3.4.2/KNOWNBUGS.rb
+* /usr/share/doc/ruby-3.4.2/README.EXT
+* /usr/share/doc/ruby-3.4.2/README.EXT.ja
+* /usr/share/doc/ruby-3.4.2/README.ja.md
+* /usr/share/doc/ruby-3.4.2/README.md
 * /usr/share/man/man1/erb.1.gz
 * /usr/share/man/man1/irb.1.gz
 * /usr/share/man/man1/ri.1.gz
