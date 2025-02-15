@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "chromium-browser 132.0.6834.159-1"
-version = "132.0.6834.159-1"
+title = "chromium-browser 133.0.6943.98-1"
+version = "133.0.6943.98-1"
 description = "Chromium browser"
-date = "2025-01-31T12:37:24"
+date = "2025-02-15T02:19:27"
 aliases = "/packages/74224"
 categories = ['xapps-extra']
 upstreamurl = "http://www.chromium.org/"
 arch = "x86_64"
-size = "125333168"
-usize = "484927626"
-sha1sum = "93e7b2100ca6654da632d5aa8fb67e8aac81202c"
-depends = "['curl', 'flac>=1.4.0', 'fontconfig', 'freetype2', 'gtk+4', 'harfbuzz>=3.0.0', 'json-glib', 'libatomic', 'libcups', 'libdrm', 'libffi', 'libjpeg-turbo', 'libpulse>=7.1-4', 'libusb1', 'libva', 'libwebp', 'libxkbcommon', 'libxscrnsaver>=1.2.2-2', 'libxslt', 'libxtst>=1.2.2-2', 'nss>=3.21-3', 'openh264', 'opus', 'pango', 'pciutils>=3.5', 'snappy>=1.1.6', 'speech-dispatcher>=0.7.1-4']"
+size = "126449720"
+usize = "488448556"
+sha1sum = "b71e34c7e16c6fb638f79fd65b62ead4f726aa36"
+depends = "['curl', 'flac>=1.5.0', 'fontconfig', 'freetype2', 'gtk+4', 'harfbuzz>=3.0.0', 'json-glib', 'libatomic', 'libcups', 'libdrm', 'libffi', 'libjpeg-turbo', 'libpulse>=7.1-4', 'libusb1', 'libva', 'libwebp', 'libxkbcommon', 'libxscrnsaver>=1.2.2-2', 'libxslt', 'libxtst>=1.2.2-2', 'nss>=3.21-3', 'openh264>=2.6.0', 'opus', 'pango', 'pciutils>=3.5', 'snappy>=1.1.6', 'speech-dispatcher>=0.7.1-4']"
 license = "BSD"
 +++
 ### Description: 
@@ -153,14 +153,15 @@ Chromium browser
 * /usr/lib/chromium/resources/accessibility/reading_mode_gdocs_helper_manifest.json
 * /usr/lib/chromium/resources/inspector_overlay/inspector_overlay_resources.grd
 * /usr/lib/chromium/resources/inspector_overlay/main.js
+* /usr/lib/chromium/resources/tts_engine/background.js
 * /usr/lib/chromium/snapshot_blob.bin
 * /usr/lib/chromium/v8_context_snapshot.bin
 * /usr/lib/chromium/vk_swiftshader_icd.json
 * /usr/share/applications/chromium.desktop
-* /usr/share/doc/chromium-browser-132.0.6834.159/AUTHORS
-* /usr/share/doc/chromium-browser-132.0.6834.159/LICENSE
-* /usr/share/doc/chromium-browser-132.0.6834.159/LICENSE.chromium_os
-* /usr/share/doc/chromium-browser-132.0.6834.159/README.md
+* /usr/share/doc/chromium-browser-133.0.6943.98/AUTHORS
+* /usr/share/doc/chromium-browser-133.0.6943.98/LICENSE
+* /usr/share/doc/chromium-browser-133.0.6943.98/LICENSE.chromium_os
+* /usr/share/doc/chromium-browser-133.0.6943.98/README.md
 * /usr/share/icons/hicolor/128x128/apps/chromium.png
 * /usr/share/icons/hicolor/16x16/apps/chromium.png
 * /usr/share/icons/hicolor/24x24/apps/chromium.png
