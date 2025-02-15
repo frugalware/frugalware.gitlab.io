@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "streamlink 7.1.2-1"
-version = "7.1.2-1"
+title = "streamlink 7.1.3-1"
+version = "7.1.3-1"
 description = "CLI program that launches streams from various streaming services in a custom video player"
-date = "2025-01-17T13:30:42"
+date = "2025-02-15T19:10:18"
 aliases = "/packages/220284"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/streamlink/streamlink"
 arch = "x86_64"
-size = "808628"
-usize = "4056834"
-sha1sum = "8f4ea5a36b4b263be8c6875671b3856c1e7b2510"
+size = "806060"
+usize = "4044179"
+sha1sum = "1c97d9fa2b0867b91d9b675f2f413e83bdc3cfef"
 depends = "['ffmpeg', 'python3-isodate', 'python3-pycountry', 'python3-pycryptodome', 'python3-requests', 'python3-websocket_client', 'rtmpdump']"
 +++
 ### Description: 
@@ -152,7 +152,6 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.13/site-packages/streamlink/plugins/ssh101.py
 * /usr/lib/python3.13/site-packages/streamlink/plugins/stadium.py
 * /usr/lib/python3.13/site-packages/streamlink/plugins/steam.py
-* /usr/lib/python3.13/site-packages/streamlink/plugins/streamable.py
 * /usr/lib/python3.13/site-packages/streamlink/plugins/streann.py
 * /usr/lib/python3.13/site-packages/streamlink/plugins/stv.py
 * /usr/lib/python3.13/site-packages/streamlink/plugins/svtplay.py
@@ -165,7 +164,6 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.13/site-packages/streamlink/plugins/turkuvaz.py
 * /usr/lib/python3.13/site-packages/streamlink/plugins/tv360.py
 * /usr/lib/python3.13/site-packages/streamlink/plugins/tv3cat.py
-* /usr/lib/python3.13/site-packages/streamlink/plugins/tv4play.py
 * /usr/lib/python3.13/site-packages/streamlink/plugins/tv5monde.py
 * /usr/lib/python3.13/site-packages/streamlink/plugins/tv8.py
 * /usr/lib/python3.13/site-packages/streamlink/plugins/tv999.py
@@ -293,7 +291,6 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.13/site-packages/streamlink/plugins/__pycache__/ssh101.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink/plugins/__pycache__/stadium.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink/plugins/__pycache__/steam.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/streamlink/plugins/__pycache__/streamable.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink/plugins/__pycache__/streann.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink/plugins/__pycache__/stv.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink/plugins/__pycache__/svtplay.cpython-313.pyc
@@ -306,7 +303,6 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.13/site-packages/streamlink/plugins/__pycache__/turkuvaz.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink/plugins/__pycache__/tv360.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink/plugins/__pycache__/tv3cat.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/streamlink/plugins/__pycache__/tv4play.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink/plugins/__pycache__/tv5monde.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink/plugins/__pycache__/tv8.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink/plugins/__pycache__/tv999.cpython-313.pyc
@@ -530,6 +526,6 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.13/site-packages/streamlink_cli/__pycache__/_parser.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink_cli/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink_cli/__pycache__/__main__.cpython-313.pyc
-* /usr/share/doc/streamlink-7.1.2/AUTHORS
-* /usr/share/doc/streamlink-7.1.2/LICENSE
-* /usr/share/doc/streamlink-7.1.2/README.md
+* /usr/share/doc/streamlink-7.1.3/AUTHORS
+* /usr/share/doc/streamlink-7.1.3/LICENSE
+* /usr/share/doc/streamlink-7.1.3/README.md
