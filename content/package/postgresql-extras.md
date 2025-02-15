@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "postgresql-extras 17.2-1"
-version = "17.2-1"
+title = "postgresql-extras 17.3-1"
+version = "17.3-1"
 description = "PostgreSQL extra tools"
-date = "2024-11-22T11:04:16"
+date = "2025-02-15T15:39:34"
 aliases = "/packages/14944"
 categories = ['apps-extra']
 upstreamurl = "http://www.postgresql.org/"
 arch = "x86_64"
-size = "486672"
-usize = "2012026"
-sha1sum = "e2924fdef0f91e9980f9c2b39796581f9e8b6c6e"
-depends = "['libpq>=17.2', 'libxml2>=2.9.4-3', 'openssl>=3.0.7', 'python3>=3.13']"
+size = "488436"
+usize = "2013017"
+sha1sum = "5e37bdeb06d4568f0d9cbbf1b47e9ea18a9a2d25"
+depends = "['libpq>=17.3', 'libxml2>=2.9.4-3', 'openssl>=3.0.7', 'python3>=3.13']"
 +++
 ### Description: 
 PostgreSQL extra tools
@@ -78,10 +78,10 @@ PostgreSQL extra tools
 * /usr/lib/postgresql/tsm_system_time.so
 * /usr/lib/postgresql/unaccent.so
 * /usr/lib/postgresql/_int.so
-* /usr/share/doc/postgresql-17.2/extension/autoinc.example
-* /usr/share/doc/postgresql-17.2/extension/insert_username.example
-* /usr/share/doc/postgresql-17.2/extension/moddatetime.example
-* /usr/share/doc/postgresql-17.2/extension/refint.example
+* /usr/share/doc/postgresql-17.3/extension/autoinc.example
+* /usr/share/doc/postgresql-17.3/extension/insert_username.example
+* /usr/share/doc/postgresql-17.3/extension/moddatetime.example
+* /usr/share/doc/postgresql-17.3/extension/refint.example
 * /usr/share/pgsql/extension/amcheck--1.0--1.1.sql
 * /usr/share/pgsql/extension/amcheck--1.0.sql
 * /usr/share/pgsql/extension/amcheck--1.1--1.2.sql
@@ -134,6 +134,7 @@ PostgreSQL extra tools
 * /usr/share/pgsql/extension/dict_xsyn--1.0.sql
 * /usr/share/pgsql/extension/dict_xsyn.control
 * /usr/share/pgsql/extension/earthdistance--1.0--1.1.sql
+* /usr/share/pgsql/extension/earthdistance--1.1--1.2.sql
 * /usr/share/pgsql/extension/earthdistance--1.1.sql
 * /usr/share/pgsql/extension/earthdistance.control
 * /usr/share/pgsql/extension/file_fdw--1.0.sql

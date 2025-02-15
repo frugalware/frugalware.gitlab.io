@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "postgresql-upgrade-from-16 16.6-1"
-version = "16.6-1"
+title = "postgresql-upgrade-from-16 16.7-1"
+version = "16.7-1"
 description = "Seperate latest 16 PGSQL for pg_upgrade"
-date = "2024-11-22T11:33:39"
+date = "2025-02-15T16:36:49"
 aliases = "/packages/222560"
 categories = ['apps-extra']
 upstreamurl = "http://www.postgresql.org/"
 arch = "x86_64"
-size = "502976"
-usize = "2089592"
-sha1sum = "557cc27a636ee188e889a4a56f5ace8076e7509b"
-depends = "['libpq>=16.6', 'libxml2>=2.9.4-3', 'ncurses>=6.0-16', 'openssl>=3.1.0', 'python3>=3.13', 'readline>=6.3-14']"
+size = "503480"
+usize = "2090279"
+sha1sum = "cb1f2c82265c932f40b0bfa3e6295c5f634e4047"
+depends = "['libpq>=16.7', 'libxml2>=2.9.4-3', 'ncurses>=6.0-16', 'openssl>=3.1.0', 'python3>=3.13', 'readline>=6.3-14']"
 +++
 ### Description: 
 Seperate latest 16 PGSQL for pg_upgrade
@@ -136,6 +136,7 @@ Seperate latest 16 PGSQL for pg_upgrade
 * /opt/pgsql-16/share/extension/dict_xsyn--1.0.sql
 * /opt/pgsql-16/share/extension/dict_xsyn.control
 * /opt/pgsql-16/share/extension/earthdistance--1.0--1.1.sql
+* /opt/pgsql-16/share/extension/earthdistance--1.1--1.2.sql
 * /opt/pgsql-16/share/extension/earthdistance--1.1.sql
 * /opt/pgsql-16/share/extension/earthdistance.control
 * /opt/pgsql-16/share/extension/file_fdw--1.0.sql
@@ -298,11 +299,11 @@ Seperate latest 16 PGSQL for pg_upgrade
 * /opt/pgsql-16/share/extension/xml2.control
 * /opt/pgsql-16/share/tsearch_data/unaccent.rules
 * /opt/pgsql-16/share/tsearch_data/xsyn_sample.rules
-* /usr/share/doc/postgresql-upgrade-from-16-16.6/COPYRIGHT
-* /usr/share/doc/postgresql-upgrade-from-16-16.6/extension/autoinc.example
-* /usr/share/doc/postgresql-upgrade-from-16-16.6/extension/insert_username.example
-* /usr/share/doc/postgresql-upgrade-from-16-16.6/extension/moddatetime.example
-* /usr/share/doc/postgresql-upgrade-from-16-16.6/extension/refint.example
-* /usr/share/doc/postgresql-upgrade-from-16-16.6/HISTORY
-* /usr/share/doc/postgresql-upgrade-from-16-16.6/INSTALL
-* /usr/share/doc/postgresql-upgrade-from-16-16.6/README
+* /usr/share/doc/postgresql-upgrade-from-16-16.7/COPYRIGHT
+* /usr/share/doc/postgresql-upgrade-from-16-16.7/extension/autoinc.example
+* /usr/share/doc/postgresql-upgrade-from-16-16.7/extension/insert_username.example
+* /usr/share/doc/postgresql-upgrade-from-16-16.7/extension/moddatetime.example
+* /usr/share/doc/postgresql-upgrade-from-16-16.7/extension/refint.example
+* /usr/share/doc/postgresql-upgrade-from-16-16.7/HISTORY
+* /usr/share/doc/postgresql-upgrade-from-16-16.7/INSTALL
+* /usr/share/doc/postgresql-upgrade-from-16-16.7/README

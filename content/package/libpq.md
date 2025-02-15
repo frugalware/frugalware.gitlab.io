@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "libpq 17.2-1"
-version = "17.2-1"
+title = "libpq 17.3-1"
+version = "17.3-1"
 description = "PostgreSQL Library."
-date = "2024-11-22T11:04:16"
+date = "2025-02-15T15:39:34"
 aliases = "/packages/10588"
 categories = ['lib']
 upstreamurl = "http://www.postgresql.org/"
 arch = "x86_64"
-size = "123524"
-usize = "360734"
-sha1sum = "ff8a7ca8bc691bf276fad4ecfc6e645aade1fb08"
+size = "123920"
+usize = "361150"
+sha1sum = "f3e8bc6a0e1f0ce704bc212332337657c13c2ece"
 depends = "['openssl>=3.1.0']"
-reverse_depends = "['courier-authlib', 'cyrus-sasl-sql', 'dovecot', 'gdal', 'gnokii-pq', 'librdf', 'libreoffice-postgresql', 'luanti', 'openvas-manager', 'pdal-postgresql', 'pdns', 'php', 'postfix', 'postgresql', 'postgresql-extras', 'postgresql-upgrade-from-12', 'postgresql-upgrade-from-13', 'postgresql-upgrade-from-14', 'postgresql-upgrade-from-15', 'postgresql-upgrade-from-16', 'qt5-base-postgresql', 'qt6-base-postgresql', 'rsyslog-pgsql', 'uwsgi-plugin-emperor_pg']"
+reverse_depends = "['courier-authlib', 'cyrus-sasl-sql', 'dovecot', 'gdal', 'gnokii-pq', 'librdf', 'libreoffice-postgresql', 'luanti', 'openvas-manager', 'pdal-postgresql', 'pdns', 'php', 'postfix', 'postgresql', 'postgresql-extras', 'postgresql-upgrade-from-13', 'postgresql-upgrade-from-14', 'postgresql-upgrade-from-15', 'postgresql-upgrade-from-16', 'qt5-base-postgresql', 'qt6-base-postgresql', 'rsyslog-pgsql', 'uwsgi-plugin-emperor_pg']"
 +++
 ### Description: 
 PostgreSQL Library.

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "postgresql-upgrade-from-15 15.10-1"
-version = "15.10-1"
+title = "postgresql-upgrade-from-15 15.11-1"
+version = "15.11-1"
 description = "Seperate latest 15 PGSQL for pg_upgrade"
-date = "2024-11-22T11:35:52"
+date = "2025-02-15T16:34:30"
 aliases = "/packages/221121"
 categories = ['apps-extra']
 upstreamurl = "http://www.postgresql.org/"
 arch = "x86_64"
-size = "498056"
-usize = "2083431"
-sha1sum = "1dccf931af8607a47abd812ae96dc5076158886c"
-depends = "['libpq>=15.10', 'libxml2>=2.9.4-3', 'ncurses>=6.0-16', 'openssl>=3.1.0', 'python3>=3.13', 'readline>=6.3-14']"
+size = "497160"
+usize = "2081631"
+sha1sum = "a9d638cc4baf2ac9a1a2b26b6dfd359d5f3c9817"
+depends = "['libpq>=15.11', 'libxml2>=2.9.4-3', 'ncurses>=6.0-16', 'openssl>=3.1.0', 'python3>=3.13', 'readline>=6.3-14']"
 +++
 ### Description: 
 Seperate latest 15 PGSQL for pg_upgrade
@@ -294,11 +294,11 @@ Seperate latest 15 PGSQL for pg_upgrade
 * /opt/pgsql-15/share/extension/xml2.control
 * /opt/pgsql-15/share/tsearch_data/unaccent.rules
 * /opt/pgsql-15/share/tsearch_data/xsyn_sample.rules
-* /usr/share/doc/postgresql-upgrade-from-15-15.10/COPYRIGHT
-* /usr/share/doc/postgresql-upgrade-from-15-15.10/extension/autoinc.example
-* /usr/share/doc/postgresql-upgrade-from-15-15.10/extension/insert_username.example
-* /usr/share/doc/postgresql-upgrade-from-15-15.10/extension/moddatetime.example
-* /usr/share/doc/postgresql-upgrade-from-15-15.10/extension/refint.example
-* /usr/share/doc/postgresql-upgrade-from-15-15.10/HISTORY
-* /usr/share/doc/postgresql-upgrade-from-15-15.10/INSTALL
-* /usr/share/doc/postgresql-upgrade-from-15-15.10/README
+* /usr/share/doc/postgresql-upgrade-from-15-15.11/COPYRIGHT
+* /usr/share/doc/postgresql-upgrade-from-15-15.11/extension/autoinc.example
+* /usr/share/doc/postgresql-upgrade-from-15-15.11/extension/insert_username.example
+* /usr/share/doc/postgresql-upgrade-from-15-15.11/extension/moddatetime.example
+* /usr/share/doc/postgresql-upgrade-from-15-15.11/extension/refint.example
+* /usr/share/doc/postgresql-upgrade-from-15-15.11/HISTORY
+* /usr/share/doc/postgresql-upgrade-from-15-15.11/INSTALL
+* /usr/share/doc/postgresql-upgrade-from-15-15.11/README
