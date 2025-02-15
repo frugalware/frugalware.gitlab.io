@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "mariadb 11.6.2-3"
-version = "11.6.2-3"
+title = "mariadb 11.7.2-1"
+version = "11.7.2-1"
 description = "A fast SQL database server"
-date = "2025-01-07T15:49:54"
+date = "2025-02-15T14:26:13"
 aliases = "/packages/219549"
 categories = ['apps-extra']
 upstreamurl = "https://mariadb.org"
 arch = "x86_64"
-size = "45666492"
-usize = "406848994"
-sha1sum = "d98c0f26b61140590115fbbe13d9fb68322b04d4"
-depends = "['jemalloc', 'libaio', 'libsystemd', 'libxml2', 'lzo', 'mariadb-libs>=11.6.2', 'openssl>=3.1.0', 'readline', 'snappy']"
+size = "45732988"
+usize = "409874622"
+sha1sum = "52cb7eb396d5ec7273adbacb5e900ce703a48f1d"
+depends = "['jemalloc', 'libaio', 'libsystemd', 'libxml2', 'lzo', 'mariadb-libs>=11.7.2', 'openssl>=3.1.0', 'readline', 'snappy']"
 reverse_depends = "['postfixadmin']"
 +++
 ### Description: 
@@ -305,6 +305,7 @@ A fast SQL database server
 * /usr/mariadb-test/include/ctype_special_chars.inc
 * /usr/mariadb-test/include/ctype_strtoll10.inc
 * /usr/mariadb-test/include/ctype_str_to_date.inc
+* /usr/mariadb-test/include/ctype_supplementary_chars.inc
 * /usr/mariadb-test/include/ctype_thai.inc
 * /usr/mariadb-test/include/ctype_uca1400_ids_using_convert.inc
 * /usr/mariadb-test/include/ctype_uca1400_ids_using_set_names.inc
@@ -416,6 +417,7 @@ A fast SQL database server
 * /usr/mariadb-test/include/have_case_insensitive_file_system.inc
 * /usr/mariadb-test/include/have_case_insensitive_fs.inc
 * /usr/mariadb-test/include/have_case_sensitive_file_system.inc
+* /usr/mariadb-test/include/have_cet_timezone.require
 * /usr/mariadb-test/include/have_cgroupv2.inc
 * /usr/mariadb-test/include/have_collation.inc
 * /usr/mariadb-test/include/have_compress.inc
@@ -470,7 +472,6 @@ A fast SQL database server
 * /usr/mariadb-test/include/have_max_indexes_64.inc
 * /usr/mariadb-test/include/have_metadata_lock_info.inc
 * /usr/mariadb-test/include/have_metadata_lock_info.opt
-* /usr/mariadb-test/include/have_met_timezone.require
 * /usr/mariadb-test/include/have_moscow_leap_timezone.require
 * /usr/mariadb-test/include/have_mutex_deadlock_detector.inc
 * /usr/mariadb-test/include/have_normal_zlib.inc
@@ -564,6 +565,7 @@ A fast SQL database server
 * /usr/mariadb-test/include/is_embedded.inc
 * /usr/mariadb-test/include/is_embedded_no_privileges.inc
 * /usr/mariadb-test/include/json_hb_histogram.inc
+* /usr/mariadb-test/include/keyword_non_reserved.inc
 * /usr/mariadb-test/include/kill_and_restart_mysqld.inc
 * /usr/mariadb-test/include/kill_binlog_dump_threads.inc
 * /usr/mariadb-test/include/kill_galera.inc
@@ -576,7 +578,6 @@ A fast SQL database server
 * /usr/mariadb-test/include/libdaemon_example.ini
 * /usr/mariadb-test/include/linux.inc
 * /usr/mariadb-test/include/linux_sys_vars.inc
-* /usr/mariadb-test/include/loaddata_autocom.inc
 * /usr/mariadb-test/include/load_dump_and_upgrade.inc
 * /usr/mariadb-test/include/load_sysvars.inc
 * /usr/mariadb-test/include/log_bin.combinations
@@ -783,7 +784,6 @@ A fast SQL database server
 * /usr/mariadb-test/include/wait_for_binlog_checkpoint.inc
 * /usr/mariadb-test/include/wait_for_binlog_event.inc
 * /usr/mariadb-test/include/wait_for_line_count_in_file.inc
-* /usr/mariadb-test/include/wait_for_pattern_in_file.inc
 * /usr/mariadb-test/include/wait_for_purge.inc
 * /usr/mariadb-test/include/wait_for_query_to_fail.inc
 * /usr/mariadb-test/include/wait_for_query_to_succeed.inc
@@ -1274,6 +1274,8 @@ A fast SQL database server
 * /usr/mariadb-test/main/ctype_euckr.test
 * /usr/mariadb-test/main/ctype_filename.result
 * /usr/mariadb-test/main/ctype_filename.test
+* /usr/mariadb-test/main/ctype_filename_innodb.result
+* /usr/mariadb-test/main/ctype_filename_innodb.test
 * /usr/mariadb-test/main/ctype_filesystem-master.opt
 * /usr/mariadb-test/main/ctype_filesystem.result
 * /usr/mariadb-test/main/ctype_filesystem.test
@@ -1312,6 +1314,8 @@ A fast SQL database server
 * /usr/mariadb-test/main/ctype_recoding.test
 * /usr/mariadb-test/main/ctype_sjis.result
 * /usr/mariadb-test/main/ctype_sjis.test
+* /usr/mariadb-test/main/ctype_sjis_innodb.result
+* /usr/mariadb-test/main/ctype_sjis_innodb.test
 * /usr/mariadb-test/main/ctype_swe7.result
 * /usr/mariadb-test/main/ctype_swe7.test
 * /usr/mariadb-test/main/ctype_tis620.result
@@ -1366,6 +1370,8 @@ A fast SQL database server
 * /usr/mariadb-test/main/ctype_utf32_def.test
 * /usr/mariadb-test/main/ctype_utf32_innodb.result
 * /usr/mariadb-test/main/ctype_utf32_innodb.test
+* /usr/mariadb-test/main/ctype_utf32_not_embedded.result
+* /usr/mariadb-test/main/ctype_utf32_not_embedded.test
 * /usr/mariadb-test/main/ctype_utf32_uca.result
 * /usr/mariadb-test/main/ctype_utf32_uca.test
 * /usr/mariadb-test/main/ctype_utf8-master.opt
@@ -1385,6 +1391,8 @@ A fast SQL database server
 * /usr/mariadb-test/main/ctype_utf8mb3_general_mysql500_ci_casefold.test
 * /usr/mariadb-test/main/ctype_utf8mb3_general_mysql500_ci_ws.result
 * /usr/mariadb-test/main/ctype_utf8mb3_general_mysql500_ci_ws.test
+* /usr/mariadb-test/main/ctype_utf8mb3_innodb.result
+* /usr/mariadb-test/main/ctype_utf8mb3_innodb.test
 * /usr/mariadb-test/main/ctype_utf8mb3_turkish_ci_casefold.result
 * /usr/mariadb-test/main/ctype_utf8mb3_turkish_ci_casefold.test
 * /usr/mariadb-test/main/ctype_utf8mb3_uca1400_ai_ci.result
@@ -1394,6 +1402,10 @@ A fast SQL database server
 * /usr/mariadb-test/main/ctype_utf8mb4-master.opt
 * /usr/mariadb-test/main/ctype_utf8mb4.result
 * /usr/mariadb-test/main/ctype_utf8mb4.test
+* /usr/mariadb-test/main/ctype_utf8mb4_0900.result
+* /usr/mariadb-test/main/ctype_utf8mb4_0900.test
+* /usr/mariadb-test/main/ctype_utf8mb4_0900_ai_ci_casefold.result
+* /usr/mariadb-test/main/ctype_utf8mb4_0900_ai_ci_casefold.test
 * /usr/mariadb-test/main/ctype_utf8mb4_bin.result
 * /usr/mariadb-test/main/ctype_utf8mb4_bin.test
 * /usr/mariadb-test/main/ctype_utf8mb4_general1400_as_ci_casefold.result
@@ -2074,8 +2086,8 @@ A fast SQL database server
 * /usr/mariadb-test/main/limit_rows_examined.test
 * /usr/mariadb-test/main/loaddata.result
 * /usr/mariadb-test/main/loaddata.test
-* /usr/mariadb-test/main/loaddata_autocom_innodb.result
-* /usr/mariadb-test/main/loaddata_autocom_innodb.test
+* /usr/mariadb-test/main/loaddata_innodb.result
+* /usr/mariadb-test/main/loaddata_innodb.test
 * /usr/mariadb-test/main/loadxml.result
 * /usr/mariadb-test/main/loadxml.test
 * /usr/mariadb-test/main/locale.opt
@@ -2111,6 +2123,8 @@ A fast SQL database server
 * /usr/mariadb-test/main/log_errchk.test
 * /usr/mariadb-test/main/log_slow.result
 * /usr/mariadb-test/main/log_slow.test
+* /usr/mariadb-test/main/log_slow_always_query_time.result
+* /usr/mariadb-test/main/log_slow_always_query_time.test
 * /usr/mariadb-test/main/log_slow_debug.result
 * /usr/mariadb-test/main/log_slow_debug.test
 * /usr/mariadb-test/main/log_slow_filter.opt
@@ -2213,6 +2227,8 @@ A fast SQL database server
 * /usr/mariadb-test/main/mdev-25830.test
 * /usr/mariadb-test/main/mdev-31636.result
 * /usr/mariadb-test/main/mdev-31636.test
+* /usr/mariadb-test/main/mdev-35046.result
+* /usr/mariadb-test/main/mdev-35046.test
 * /usr/mariadb-test/main/mdev13607.result
 * /usr/mariadb-test/main/mdev13607.test
 * /usr/mariadb-test/main/mdev19198.result
@@ -2234,6 +2250,8 @@ A fast SQL database server
 * /usr/mariadb-test/main/mdl_sync-master.opt
 * /usr/mariadb-test/main/mdl_sync.result
 * /usr/mariadb-test/main/mdl_sync.test
+* /usr/mariadb-test/main/memory_used.result
+* /usr/mariadb-test/main/memory_used.test
 * /usr/mariadb-test/main/metadata.result
 * /usr/mariadb-test/main/metadata.test
 * /usr/mariadb-test/main/mix2_myisam.result
@@ -2971,6 +2989,8 @@ A fast SQL database server
 * /usr/mariadb-test/main/servers.test
 * /usr/mariadb-test/main/session_tracker_sysvar.result
 * /usr/mariadb-test/main/session_tracker_sysvar.test
+* /usr/mariadb-test/main/session_user.result
+* /usr/mariadb-test/main/session_user.test
 * /usr/mariadb-test/main/set_operation.result
 * /usr/mariadb-test/main/set_operation.test
 * /usr/mariadb-test/main/set_operation_oracle.result
@@ -3051,6 +3071,8 @@ A fast SQL database server
 * /usr/mariadb-test/main/skip_name_resolve.test
 * /usr/mariadb-test/main/slowlog_enospace-10508.result
 * /usr/mariadb-test/main/slowlog_enospace-10508.test
+* /usr/mariadb-test/main/slowlog_integrity.result
+* /usr/mariadb-test/main/slowlog_integrity.test
 * /usr/mariadb-test/main/sp-anchor-row-type-cursor.result
 * /usr/mariadb-test/main/sp-anchor-row-type-cursor.test
 * /usr/mariadb-test/main/sp-anchor-row-type-table.result
@@ -3194,6 +3216,8 @@ A fast SQL database server
 * /usr/mariadb-test/main/ssl_verify_ip.test
 * /usr/mariadb-test/main/stack-crash.result
 * /usr/mariadb-test/main/stack-crash.test
+* /usr/mariadb-test/main/stack.result
+* /usr/mariadb-test/main/stack.test
 * /usr/mariadb-test/main/statement-expr.result
 * /usr/mariadb-test/main/statement-expr.test
 * /usr/mariadb-test/main/statistics.result
@@ -3377,7 +3401,6 @@ A fast SQL database server
 * /usr/mariadb-test/main/table_elim_debug.test
 * /usr/mariadb-test/main/table_keyinfo-6838.result
 * /usr/mariadb-test/main/table_keyinfo-6838.test
-* /usr/mariadb-test/main/table_options-5867.opt
 * /usr/mariadb-test/main/table_options-5867.result
 * /usr/mariadb-test/main/table_options-5867.test
 * /usr/mariadb-test/main/table_options.result
@@ -3405,6 +3428,7 @@ A fast SQL database server
 * /usr/mariadb-test/main/timeout.result
 * /usr/mariadb-test/main/timeout.test
 * /usr/mariadb-test/main/timezone-master.opt
+* /usr/mariadb-test/main/timezone.opt
 * /usr/mariadb-test/main/timezone.result
 * /usr/mariadb-test/main/timezone.test
 * /usr/mariadb-test/main/timezone2.result
@@ -3444,8 +3468,8 @@ A fast SQL database server
 * /usr/mariadb-test/main/trigger_notembedded.test
 * /usr/mariadb-test/main/trigger_no_defaults-11698.result
 * /usr/mariadb-test/main/trigger_no_defaults-11698.test
-* /usr/mariadb-test/main/trigger_null-8605.result
-* /usr/mariadb-test/main/trigger_null-8605.test
+* /usr/mariadb-test/main/trigger_null.result
+* /usr/mariadb-test/main/trigger_null.test
 * /usr/mariadb-test/main/trigger_wl3253.result
 * /usr/mariadb-test/main/trigger_wl3253.test
 * /usr/mariadb-test/main/truncate-stale-6500.result
@@ -3614,6 +3638,25 @@ A fast SQL database server
 * /usr/mariadb-test/main/variables.test
 * /usr/mariadb-test/main/variables_community.result
 * /usr/mariadb-test/main/variables_community.test
+* /usr/mariadb-test/main/vector,aria.rdiff
+* /usr/mariadb-test/main/vector,myisam.rdiff
+* /usr/mariadb-test/main/vector.combinations
+* /usr/mariadb-test/main/vector.result
+* /usr/mariadb-test/main/vector.test
+* /usr/mariadb-test/main/vector2.result
+* /usr/mariadb-test/main/vector2.test
+* /usr/mariadb-test/main/vector2_notembedded.result
+* /usr/mariadb-test/main/vector2_notembedded.test
+* /usr/mariadb-test/main/vector_aria.result
+* /usr/mariadb-test/main/vector_aria.test
+* /usr/mariadb-test/main/vector_debug.result
+* /usr/mariadb-test/main/vector_debug.test
+* /usr/mariadb-test/main/vector_funcs.result
+* /usr/mariadb-test/main/vector_funcs.test
+* /usr/mariadb-test/main/vector_innodb.result
+* /usr/mariadb-test/main/vector_innodb.test
+* /usr/mariadb-test/main/vector_partition.result
+* /usr/mariadb-test/main/vector_partition.test
 * /usr/mariadb-test/main/view.result
 * /usr/mariadb-test/main/view.test
 * /usr/mariadb-test/main/view_alias.result
@@ -3969,8 +4012,80 @@ A fast SQL database server
 * /usr/mariadb-test/plugin/example/mtr/t/test2.rdiff
 * /usr/mariadb-test/plugin/example/mtr/t/testsh-master.sh
 * /usr/mariadb-test/plugin/example/README
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_big5_bin.result
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_big5_bin.test
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_big5_chinese_ci.result
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_big5_chinese_ci.test
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_big5_chinese_nopad_ci.result
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_big5_chinese_nopad_ci.test
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_big5_nopad_bin.result
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_big5_nopad_bin.test
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_binary.result
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_binary.test
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_cp1250_czech_cs.result
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_cp1250_czech_cs.test
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_gb2312_bin.result
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_gb2312_bin.test
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_gb2312_chinese_ci.result
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_gb2312_chinese_ci.test
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_gb2312_chinese_nopad_ci.result
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_gb2312_chinese_nopad_ci.test
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_gb2312_nopad_bin.result
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_gb2312_nopad_bin.test
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_latin1_bin.result
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_latin1_bin.test
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_latin1_german2_ci.result
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_latin1_german2_ci.test
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_latin1_nopad_bin.result
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_latin1_nopad_bin.test
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_latin1_swedish_ci.result
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_latin1_swedish_ci.test
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_latin1_swedish_nopad_ci.result
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_latin1_swedish_nopad_ci.test
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_latin2_czech_cs.result
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_latin2_czech_cs.test
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_tis620_bin.result
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_tis620_bin.test
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_tis620_nopad_bin.result
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_tis620_nopad_bin.test
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_tis620_thai_ci.result
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_tis620_thai_ci.test
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_tis620_thai_nopad_ci.result
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_tis620_thai_nopad_ci.test
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_utf8mb3_bin.result
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_utf8mb3_bin.test
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_utf8mb3_general_ci.result
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_utf8mb3_general_ci.test
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_utf8mb3_general_nopad_ci.result
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_utf8mb3_general_nopad_ci.test
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_utf8mb3_nopad_bin.result
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_utf8mb3_nopad_bin.test
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_utf8mb4_bin.result
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_utf8mb4_bin.test
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_utf8mb4_general1400_as_ci.result
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_utf8mb4_general1400_as_ci.test
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_utf8mb4_general_ci.result
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_utf8mb4_general_ci.test
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_utf8mb4_general_nopad_ci.result
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_utf8mb4_general_nopad_ci.test
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_utf8mb4_nopad_bin.result
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_utf8mb4_nopad_bin.test
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_utf8mb4_uca1400_ai_ci.result
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_utf8mb4_uca1400_ai_ci.test
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_utf8mb4_uca1400_as_ci.result
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_utf8mb4_uca1400_as_ci.test
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_utf8mb4_uca1400_as_cs.result
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_utf8mb4_uca1400_as_cs.test
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_utf8mb4_uca1400_czech_ai_ci.result
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_utf8mb4_uca1400_czech_ai_ci.test
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_utf8mb4_unicode_ci.result
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_utf8mb4_unicode_ci.test
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_utf8mb4_unicode_nopad_ci.result
+* /usr/mariadb-test/plugin/func_test/func_test/ctype_utf8mb4_unicode_nopad_ci.test
 * /usr/mariadb-test/plugin/func_test/func_test/func_test.result
 * /usr/mariadb-test/plugin/func_test/func_test/func_test.test
+* /usr/mariadb-test/plugin/func_test/func_test/strnxfrm_sp_create.inc
+* /usr/mariadb-test/plugin/func_test/func_test/strnxfrm_sp_drop.inc
 * /usr/mariadb-test/plugin/func_test/func_test/suite.opt
 * /usr/mariadb-test/plugin/func_test/func_test/suite.pm
 * /usr/mariadb-test/plugin/hashicorp_key_management/vault/include/have_hashicorp_key_management_plugin.inc
@@ -6014,6 +6129,7 @@ A fast SQL database server
 * /usr/mariadb-test/plugin/rocksdb/rocksdb/r/use_direct_reads_writes.result
 * /usr/mariadb-test/plugin/rocksdb/rocksdb/r/validate_datadic.result
 * /usr/mariadb-test/plugin/rocksdb/rocksdb/r/varbinary_format.result
+* /usr/mariadb-test/plugin/rocksdb/rocksdb/r/vector.result
 * /usr/mariadb-test/plugin/rocksdb/rocksdb/r/write_sync.result
 * /usr/mariadb-test/plugin/rocksdb/rocksdb/r/xa.result
 * /usr/mariadb-test/plugin/rocksdb/rocksdb/slow_query_log.awk
@@ -6491,6 +6607,7 @@ A fast SQL database server
 * /usr/mariadb-test/plugin/rocksdb/rocksdb/t/use_direct_reads_writes.test
 * /usr/mariadb-test/plugin/rocksdb/rocksdb/t/validate_datadic.test
 * /usr/mariadb-test/plugin/rocksdb/rocksdb/t/varbinary_format.test
+* /usr/mariadb-test/plugin/rocksdb/rocksdb/t/vector.test
 * /usr/mariadb-test/plugin/rocksdb/rocksdb/t/write_sync.test
 * /usr/mariadb-test/plugin/rocksdb/rocksdb/t/xa-master.opt
 * /usr/mariadb-test/plugin/rocksdb/rocksdb/t/xa.test
@@ -7200,6 +7317,8 @@ A fast SQL database server
 * /usr/mariadb-test/plugin/spider/spider/bugfix/r/mdev_27233.result
 * /usr/mariadb-test/plugin/spider/spider/bugfix/r/mdev_27239.result
 * /usr/mariadb-test/plugin/spider/spider/bugfix/r/mdev_27240.result
+* /usr/mariadb-test/plugin/spider/spider/bugfix/r/mdev_27438.result
+* /usr/mariadb-test/plugin/spider/spider/bugfix/r/mdev_27438_spider_table.result
 * /usr/mariadb-test/plugin/spider/spider/bugfix/r/mdev_27575.result
 * /usr/mariadb-test/plugin/spider/spider/bugfix/r/mdev_27902.result
 * /usr/mariadb-test/plugin/spider/spider/bugfix/r/mdev_28105.result
@@ -7240,6 +7359,7 @@ A fast SQL database server
 * /usr/mariadb-test/plugin/spider/spider/bugfix/r/mdev_30370.result
 * /usr/mariadb-test/plugin/spider/spider/bugfix/r/mdev_30392.result
 * /usr/mariadb-test/plugin/spider/spider/bugfix/r/mdev_30408.result
+* /usr/mariadb-test/plugin/spider/spider/bugfix/r/mdev_30649.result
 * /usr/mariadb-test/plugin/spider/spider/bugfix/r/mdev_30727.result
 * /usr/mariadb-test/plugin/spider/spider/bugfix/r/mdev_30981.result
 * /usr/mariadb-test/plugin/spider/spider/bugfix/r/mdev_31117.result
@@ -7276,6 +7396,10 @@ A fast SQL database server
 * /usr/mariadb-test/plugin/spider/spider/bugfix/r/mdev_34636.result
 * /usr/mariadb-test/plugin/spider/spider/bugfix/r/mdev_34659.result
 * /usr/mariadb-test/plugin/spider/spider/bugfix/r/mdev_34682.result
+* /usr/mariadb-test/plugin/spider/spider/bugfix/r/mdev_34849.result
+* /usr/mariadb-test/plugin/spider/spider/bugfix/r/mdev_35064.result
+* /usr/mariadb-test/plugin/spider/spider/bugfix/r/mdev_35326.result
+* /usr/mariadb-test/plugin/spider/spider/bugfix/r/mdev_35422.result
 * /usr/mariadb-test/plugin/spider/spider/bugfix/r/perfschema.result
 * /usr/mariadb-test/plugin/spider/spider/bugfix/r/plugin_load_add_all.result
 * /usr/mariadb-test/plugin/spider/spider/bugfix/r/plugin_load_add_spider.result
@@ -7384,6 +7508,8 @@ A fast SQL database server
 * /usr/mariadb-test/plugin/spider/spider/bugfix/t/mdev_27239.test
 * /usr/mariadb-test/plugin/spider/spider/bugfix/t/mdev_27240.cnf
 * /usr/mariadb-test/plugin/spider/spider/bugfix/t/mdev_27240.test
+* /usr/mariadb-test/plugin/spider/spider/bugfix/t/mdev_27438.test
+* /usr/mariadb-test/plugin/spider/spider/bugfix/t/mdev_27438_spider_table.test
 * /usr/mariadb-test/plugin/spider/spider/bugfix/t/mdev_27575.test
 * /usr/mariadb-test/plugin/spider/spider/bugfix/t/mdev_27902.test
 * /usr/mariadb-test/plugin/spider/spider/bugfix/t/mdev_28105.opt
@@ -7442,6 +7568,8 @@ A fast SQL database server
 * /usr/mariadb-test/plugin/spider/spider/bugfix/t/mdev_30370.test
 * /usr/mariadb-test/plugin/spider/spider/bugfix/t/mdev_30392.test
 * /usr/mariadb-test/plugin/spider/spider/bugfix/t/mdev_30408.test
+* /usr/mariadb-test/plugin/spider/spider/bugfix/t/mdev_30649.cnf
+* /usr/mariadb-test/plugin/spider/spider/bugfix/t/mdev_30649.test
 * /usr/mariadb-test/plugin/spider/spider/bugfix/t/mdev_30727.test
 * /usr/mariadb-test/plugin/spider/spider/bugfix/t/mdev_30981.test
 * /usr/mariadb-test/plugin/spider/spider/bugfix/t/mdev_31117.test
@@ -7484,6 +7612,10 @@ A fast SQL database server
 * /usr/mariadb-test/plugin/spider/spider/bugfix/t/mdev_34636.test
 * /usr/mariadb-test/plugin/spider/spider/bugfix/t/mdev_34659.test
 * /usr/mariadb-test/plugin/spider/spider/bugfix/t/mdev_34682.test
+* /usr/mariadb-test/plugin/spider/spider/bugfix/t/mdev_34849.test
+* /usr/mariadb-test/plugin/spider/spider/bugfix/t/mdev_35064.test
+* /usr/mariadb-test/plugin/spider/spider/bugfix/t/mdev_35326.test
+* /usr/mariadb-test/plugin/spider/spider/bugfix/t/mdev_35422.test
 * /usr/mariadb-test/plugin/spider/spider/bugfix/t/perfschema.opt
 * /usr/mariadb-test/plugin/spider/spider/bugfix/t/perfschema.test
 * /usr/mariadb-test/plugin/spider/spider/bugfix/t/plugin_load_add_all.opt
@@ -7675,6 +7807,7 @@ A fast SQL database server
 * /usr/mariadb-test/plugin/spider/spider/my_3_2.cnf
 * /usr/mariadb-test/plugin/spider/spider/my_3_3.cnf
 * /usr/mariadb-test/plugin/spider/spider/my_4_1.cnf
+* /usr/mariadb-test/plugin/spider/spider/r/alter_server.result
 * /usr/mariadb-test/plugin/spider/spider/r/auto_increment.result
 * /usr/mariadb-test/plugin/spider/spider/r/basic_sql.result
 * /usr/mariadb-test/plugin/spider/spider/r/basic_sql_part.result
@@ -7698,6 +7831,7 @@ A fast SQL database server
 * /usr/mariadb-test/plugin/spider/spider/r/function.result
 * /usr/mariadb-test/plugin/spider/spider/r/ha.result
 * /usr/mariadb-test/plugin/spider/spider/r/ha_part.result
+* /usr/mariadb-test/plugin/spider/spider/r/mdev_28009.result
 * /usr/mariadb-test/plugin/spider/spider/r/partition_cond_push.result
 * /usr/mariadb-test/plugin/spider/spider/r/partition_fulltext.result
 * /usr/mariadb-test/plugin/spider/spider/r/partition_join_pushdown_for_single_partition.result
@@ -7717,6 +7851,7 @@ A fast SQL database server
 * /usr/mariadb-test/plugin/spider/spider/r/timestamp.result
 * /usr/mariadb-test/plugin/spider/spider/r/udf_pushdown.result
 * /usr/mariadb-test/plugin/spider/spider/r/variable_deprecation.result
+* /usr/mariadb-test/plugin/spider/spider/r/vector.result
 * /usr/mariadb-test/plugin/spider/spider/r/vp_fixes.result
 * /usr/mariadb-test/plugin/spider/spider/regression/e1121/include/direct_join_by_pkey_key_deinit.inc
 * /usr/mariadb-test/plugin/spider/spider/regression/e1121/include/direct_join_by_pkey_key_init.inc
@@ -7805,6 +7940,8 @@ A fast SQL database server
 * /usr/mariadb-test/plugin/spider/spider/regression/e112122/t/load_data_part_replace_ddi1.test
 * /usr/mariadb-test/plugin/spider/spider/suite.opt
 * /usr/mariadb-test/plugin/spider/spider/suite.pm
+* /usr/mariadb-test/plugin/spider/spider/t/alter_server.cnf
+* /usr/mariadb-test/plugin/spider/spider/t/alter_server.test
 * /usr/mariadb-test/plugin/spider/spider/t/auto_increment.test
 * /usr/mariadb-test/plugin/spider/spider/t/auto_increment_deinit.inc
 * /usr/mariadb-test/plugin/spider/spider/t/auto_increment_init.inc
@@ -7848,6 +7985,8 @@ A fast SQL database server
 * /usr/mariadb-test/plugin/spider/spider/t/ha_test_init.inc
 * /usr/mariadb-test/plugin/spider/spider/t/hs_test_deinit.inc
 * /usr/mariadb-test/plugin/spider/spider/t/hs_test_init.inc
+* /usr/mariadb-test/plugin/spider/spider/t/mdev_28009.opt
+* /usr/mariadb-test/plugin/spider/spider/t/mdev_28009.test
 * /usr/mariadb-test/plugin/spider/spider/t/partition_cond_push.test
 * /usr/mariadb-test/plugin/spider/spider/t/partition_fulltext.test
 * /usr/mariadb-test/plugin/spider/spider/t/partition_join_pushdown_for_single_partition.test
@@ -7875,6 +8014,7 @@ A fast SQL database server
 * /usr/mariadb-test/plugin/spider/spider/t/udf_pushdown.inc
 * /usr/mariadb-test/plugin/spider/spider/t/udf_pushdown.test
 * /usr/mariadb-test/plugin/spider/spider/t/variable_deprecation.test
+* /usr/mariadb-test/plugin/spider/spider/t/vector.test
 * /usr/mariadb-test/plugin/spider/spider/t/vp_fixes.test
 * /usr/mariadb-test/plugin/test_sql_discovery/archive/discover.test
 * /usr/mariadb-test/plugin/test_sql_discovery/main/t/create.test
@@ -7989,6 +8129,8 @@ A fast SQL database server
 * /usr/mariadb-test/plugin/type_inet/type_inet/type_inet6_partition.test
 * /usr/mariadb-test/plugin/type_inet/type_inet/type_inet6_plugin.result
 * /usr/mariadb-test/plugin/type_inet/type_inet/type_inet6_plugin.test
+* /usr/mariadb-test/plugin/type_inet/type_inet/type_inet6_ps.result
+* /usr/mariadb-test/plugin/type_inet/type_inet/type_inet6_ps.test
 * /usr/mariadb-test/plugin/type_inet/type_inet/type_inet6_search_condition.result
 * /usr/mariadb-test/plugin/type_inet/type_inet/type_inet6_search_condition.test
 * /usr/mariadb-test/plugin/type_inet/type_inet/type_inet6_stat_tables.result
@@ -8021,12 +8163,34 @@ A fast SQL database server
 * /usr/mariadb-test/plugin/type_uuid/type_uuid/func_uuid.test
 * /usr/mariadb-test/plugin/type_uuid/type_uuid/func_uuid_plugin.result
 * /usr/mariadb-test/plugin/type_uuid/type_uuid/func_uuid_plugin.test
+* /usr/mariadb-test/plugin/type_uuid/type_uuid/func_uuid_v4.result
+* /usr/mariadb-test/plugin/type_uuid/type_uuid/func_uuid_v4.test
+* /usr/mariadb-test/plugin/type_uuid/type_uuid/func_uuid_v4_debug.result
+* /usr/mariadb-test/plugin/type_uuid/type_uuid/func_uuid_v4_debug.test
+* /usr/mariadb-test/plugin/type_uuid/type_uuid/func_uuid_v4_plugin.result
+* /usr/mariadb-test/plugin/type_uuid/type_uuid/func_uuid_v4_plugin.test
+* /usr/mariadb-test/plugin/type_uuid/type_uuid/func_uuid_v4_random.result
+* /usr/mariadb-test/plugin/type_uuid/type_uuid/func_uuid_v4_random.test
+* /usr/mariadb-test/plugin/type_uuid/type_uuid/func_uuid_v4_version_revision.result
+* /usr/mariadb-test/plugin/type_uuid/type_uuid/func_uuid_v4_version_revision.test
+* /usr/mariadb-test/plugin/type_uuid/type_uuid/func_uuid_v7.result
+* /usr/mariadb-test/plugin/type_uuid/type_uuid/func_uuid_v7.test
+* /usr/mariadb-test/plugin/type_uuid/type_uuid/func_uuid_v7_debug.result
+* /usr/mariadb-test/plugin/type_uuid/type_uuid/func_uuid_v7_debug.test
+* /usr/mariadb-test/plugin/type_uuid/type_uuid/func_uuid_v7_plugin.result
+* /usr/mariadb-test/plugin/type_uuid/type_uuid/func_uuid_v7_plugin.test
+* /usr/mariadb-test/plugin/type_uuid/type_uuid/func_uuid_v7_random.result
+* /usr/mariadb-test/plugin/type_uuid/type_uuid/func_uuid_v7_random.test
+* /usr/mariadb-test/plugin/type_uuid/type_uuid/func_uuid_v7_version_revision.result
+* /usr/mariadb-test/plugin/type_uuid/type_uuid/func_uuid_v7_version_revision.test
 * /usr/mariadb-test/plugin/type_uuid/type_uuid/order.result
 * /usr/mariadb-test/plugin/type_uuid/type_uuid/order.test
 * /usr/mariadb-test/plugin/type_uuid/type_uuid/rpl_row_binary_to_uuid.result
 * /usr/mariadb-test/plugin/type_uuid/type_uuid/rpl_row_binary_to_uuid.test
 * /usr/mariadb-test/plugin/type_uuid/type_uuid/rpl_row_uuid_to_binary.result
 * /usr/mariadb-test/plugin/type_uuid/type_uuid/rpl_row_uuid_to_binary.test
+* /usr/mariadb-test/plugin/type_uuid/type_uuid/rpl_row_uuid_v7.result
+* /usr/mariadb-test/plugin/type_uuid/type_uuid/rpl_row_uuid_v7.test
 * /usr/mariadb-test/plugin/type_uuid/type_uuid/rpl_type_uuid.result
 * /usr/mariadb-test/plugin/type_uuid/type_uuid/rpl_type_uuid.test
 * /usr/mariadb-test/plugin/type_uuid/type_uuid/std_data/mdev-29959.frm
@@ -8042,6 +8206,8 @@ A fast SQL database server
 * /usr/mariadb-test/plugin/type_uuid/type_uuid/type_uuid_csv.result
 * /usr/mariadb-test/plugin/type_uuid/type_uuid/type_uuid_csv.test
 * /usr/mariadb-test/plugin/type_uuid/type_uuid/type_uuid_engines.inc
+* /usr/mariadb-test/plugin/type_uuid/type_uuid/type_uuid_in.result
+* /usr/mariadb-test/plugin/type_uuid/type_uuid/type_uuid_in.test
 * /usr/mariadb-test/plugin/type_uuid/type_uuid/type_uuid_innodb.result
 * /usr/mariadb-test/plugin/type_uuid/type_uuid/type_uuid_innodb.test
 * /usr/mariadb-test/plugin/type_uuid/type_uuid/type_uuid_mariadb101104.result
@@ -8066,6 +8232,8 @@ A fast SQL database server
 * /usr/mariadb-test/plugin/type_uuid/type_uuid/type_uuid_partition.test
 * /usr/mariadb-test/plugin/type_uuid/type_uuid/type_uuid_plugin.result
 * /usr/mariadb-test/plugin/type_uuid/type_uuid/type_uuid_plugin.test
+* /usr/mariadb-test/plugin/type_uuid/type_uuid/type_uuid_ps.result
+* /usr/mariadb-test/plugin/type_uuid/type_uuid/type_uuid_ps.test
 * /usr/mariadb-test/plugin/type_uuid/type_uuid/type_uuid_stat_tables.result
 * /usr/mariadb-test/plugin/type_uuid/type_uuid/type_uuid_stat_tables.test
 * /usr/mariadb-test/plugin/type_uuid/type_uuid/type_uuid_sum.result
@@ -8269,6 +8437,7 @@ A fast SQL database server
 * /usr/mariadb-test/std_data/mdev17909.frm
 * /usr/mariadb-test/std_data/mdev17909.par
 * /usr/mariadb-test/std_data/mdev29078-mysql-bin.000001
+* /usr/mariadb-test/std_data/mdev35643_mysql_80_binlog.000001
 * /usr/mariadb-test/std_data/mdev5029_1.frm
 * /usr/mariadb-test/std_data/mdev5029_2.frm
 * /usr/mariadb-test/std_data/mdev5029_2.MAD
@@ -8559,6 +8728,8 @@ A fast SQL database server
 * /usr/mariadb-test/suite/atomic/rename_view.test
 * /usr/mariadb-test/suite/atomic/rename_view2.result
 * /usr/mariadb-test/suite/atomic/rename_view2.test
+* /usr/mariadb-test/suite/atomic/vector.result
+* /usr/mariadb-test/suite/atomic/vector.test
 * /usr/mariadb-test/suite/binlog/combinations
 * /usr/mariadb-test/suite/binlog/disabled.def
 * /usr/mariadb-test/suite/binlog/include/binlog.test
@@ -8604,6 +8775,7 @@ A fast SQL database server
 * /usr/mariadb-test/suite/binlog/r/binlog_checkpoint.result
 * /usr/mariadb-test/suite/binlog/r/binlog_checkpoint_flush_logs.result
 * /usr/mariadb-test/suite/binlog/r/binlog_checksum.result
+* /usr/mariadb-test/suite/binlog/r/binlog_commit_by_rotate_atomic.result
 * /usr/mariadb-test/suite/binlog/r/binlog_commit_wait.result
 * /usr/mariadb-test/suite/binlog/r/binlog_database.result
 * /usr/mariadb-test/suite/binlog/r/binlog_delete_and_flush_index.result
@@ -8654,11 +8826,13 @@ A fast SQL database server
 * /usr/mariadb-test/suite/binlog/r/binlog_mysqlbinlog_stop_never.result
 * /usr/mariadb-test/suite/binlog/r/binlog_mysqlbinlog_suppress_O_TMPFILE.result
 * /usr/mariadb-test/suite/binlog/r/binlog_mysqlbinlog_warn_stop_datetime.result
+* /usr/mariadb-test/suite/binlog/r/binlog_mysqlbinlog_warn_stop_position.result
 * /usr/mariadb-test/suite/binlog/r/binlog_no_uniqfile_crash.result
 * /usr/mariadb-test/suite/binlog/r/binlog_parallel_replication_ddl.result
 * /usr/mariadb-test/suite/binlog/r/binlog_parallel_replication_marks_row.result
 * /usr/mariadb-test/suite/binlog/r/binlog_parallel_replication_marks_stm_mix.result
 * /usr/mariadb-test/suite/binlog/r/binlog_query_filter_rules.result
+* /usr/mariadb-test/suite/binlog/r/binlog_recover_async_rollback_trx.result
 * /usr/mariadb-test/suite/binlog/r/binlog_recover_checksum_error.result
 * /usr/mariadb-test/suite/binlog/r/binlog_rotate_perf.result
 * /usr/mariadb-test/suite/binlog/r/binlog_row_annotate.result
@@ -8741,6 +8915,8 @@ A fast SQL database server
 * /usr/mariadb-test/suite/binlog/r/show_concurrent_rotate.result
 * /usr/mariadb-test/suite/binlog/r/start_alter_mysqlbinlog_replay.result
 * /usr/mariadb-test/suite/binlog/r/temptable_uservar_disconnect-7938.result
+* /usr/mariadb-test/suite/binlog/r/type_datetime_func_current_timestamp.result
+* /usr/mariadb-test/suite/binlog/r/type_timestamp_func_current_timestamp.result
 * /usr/mariadb-test/suite/binlog/std_data/update-full-row.binlog
 * /usr/mariadb-test/suite/binlog/std_data/update-partial-row.binlog
 * /usr/mariadb-test/suite/binlog/std_data/write-full-row.binlog
@@ -8757,6 +8933,7 @@ A fast SQL database server
 * /usr/mariadb-test/suite/binlog/t/binlog_checkpoint.test
 * /usr/mariadb-test/suite/binlog/t/binlog_checkpoint_flush_logs.test
 * /usr/mariadb-test/suite/binlog/t/binlog_checksum.test
+* /usr/mariadb-test/suite/binlog/t/binlog_commit_by_rotate_atomic.test
 * /usr/mariadb-test/suite/binlog/t/binlog_commit_wait.test
 * /usr/mariadb-test/suite/binlog/t/binlog_database.test
 * /usr/mariadb-test/suite/binlog/t/binlog_delete_and_flush_index-master.opt
@@ -8822,13 +8999,17 @@ A fast SQL database server
 * /usr/mariadb-test/suite/binlog/t/binlog_mysqlbinlog_start_alter_verbose.test
 * /usr/mariadb-test/suite/binlog/t/binlog_mysqlbinlog_stop_never.test
 * /usr/mariadb-test/suite/binlog/t/binlog_mysqlbinlog_suppress_O_TMPFILE.test
+* /usr/mariadb-test/suite/binlog/t/binlog_mysqlbinlog_warn_stop_datetime.inc
 * /usr/mariadb-test/suite/binlog/t/binlog_mysqlbinlog_warn_stop_datetime.test
+* /usr/mariadb-test/suite/binlog/t/binlog_mysqlbinlog_warn_stop_position.inc
+* /usr/mariadb-test/suite/binlog/t/binlog_mysqlbinlog_warn_stop_position.test
 * /usr/mariadb-test/suite/binlog/t/binlog_no_uniqfile_crash.test
 * /usr/mariadb-test/suite/binlog/t/binlog_parallel_replication_ddl.test
 * /usr/mariadb-test/suite/binlog/t/binlog_parallel_replication_marks_row.test
 * /usr/mariadb-test/suite/binlog/t/binlog_parallel_replication_marks_stm_mix.test
 * /usr/mariadb-test/suite/binlog/t/binlog_query_filter_rules-master.opt
 * /usr/mariadb-test/suite/binlog/t/binlog_query_filter_rules.test
+* /usr/mariadb-test/suite/binlog/t/binlog_recover_async_rollback_trx.test
 * /usr/mariadb-test/suite/binlog/t/binlog_recover_checksum_error.test
 * /usr/mariadb-test/suite/binlog/t/binlog_rotate_perf.test
 * /usr/mariadb-test/suite/binlog/t/binlog_row_annotate-master.opt
@@ -8936,6 +9117,8 @@ A fast SQL database server
 * /usr/mariadb-test/suite/binlog/t/show_concurrent_rotate.test
 * /usr/mariadb-test/suite/binlog/t/start_alter_mysqlbinlog_replay.test
 * /usr/mariadb-test/suite/binlog/t/temptable_uservar_disconnect-7938.test
+* /usr/mariadb-test/suite/binlog/t/type_datetime_func_current_timestamp.test
+* /usr/mariadb-test/suite/binlog/t/type_timestamp_func_current_timestamp.test
 * /usr/mariadb-test/suite/binlog_encryption/binlog_incident.combinations
 * /usr/mariadb-test/suite/binlog_encryption/binlog_incident.result
 * /usr/mariadb-test/suite/binlog_encryption/binlog_incident.test
@@ -9102,6 +9285,8 @@ A fast SQL database server
 * /usr/mariadb-test/suite/binlog_encryption/rpl_typeconv.test
 * /usr/mariadb-test/suite/binlog_encryption/suite.pm
 * /usr/mariadb-test/suite/binlog_encryption/testdata.inc
+* /usr/mariadb-test/suite/client/client-env-variable.result
+* /usr/mariadb-test/suite/client/client-env-variable.test
 * /usr/mariadb-test/suite/client/mariadb-conv-cp932.result
 * /usr/mariadb-test/suite/client/mariadb-conv-cp932.test
 * /usr/mariadb-test/suite/client/mariadb-conv-utf16.result
@@ -9157,6 +9342,7 @@ A fast SQL database server
 * /usr/mariadb-test/suite/compat/oracle/r/rpl_sp_package_variables.result
 * /usr/mariadb-test/suite/compat/oracle/r/sequence.result
 * /usr/mariadb-test/suite/compat/oracle/r/sp-anchor-row-type-table.result
+* /usr/mariadb-test/suite/compat/oracle/r/sp-anchor-type.result
 * /usr/mariadb-test/suite/compat/oracle/r/sp-anonymous.result
 * /usr/mariadb-test/suite/compat/oracle/r/sp-code.result
 * /usr/mariadb-test/suite/compat/oracle/r/sp-cursor-decl.result
@@ -9193,6 +9379,7 @@ A fast SQL database server
 * /usr/mariadb-test/suite/compat/oracle/r/type_raw.result
 * /usr/mariadb-test/suite/compat/oracle/r/type_varchar.result
 * /usr/mariadb-test/suite/compat/oracle/r/type_varchar2.result
+* /usr/mariadb-test/suite/compat/oracle/r/update.result
 * /usr/mariadb-test/suite/compat/oracle/r/update_innodb.result
 * /usr/mariadb-test/suite/compat/oracle/r/variables.result
 * /usr/mariadb-test/suite/compat/oracle/r/vcol.result
@@ -9242,6 +9429,7 @@ A fast SQL database server
 * /usr/mariadb-test/suite/compat/oracle/t/rpl_sp_package_variables.test
 * /usr/mariadb-test/suite/compat/oracle/t/sequence.test
 * /usr/mariadb-test/suite/compat/oracle/t/sp-anchor-row-type-table.test
+* /usr/mariadb-test/suite/compat/oracle/t/sp-anchor-type.test
 * /usr/mariadb-test/suite/compat/oracle/t/sp-anonymous.test
 * /usr/mariadb-test/suite/compat/oracle/t/sp-cache-invalidate.inc
 * /usr/mariadb-test/suite/compat/oracle/t/sp-code.test
@@ -9282,6 +9470,7 @@ A fast SQL database server
 * /usr/mariadb-test/suite/compat/oracle/t/type_raw.test
 * /usr/mariadb-test/suite/compat/oracle/t/type_varchar.test
 * /usr/mariadb-test/suite/compat/oracle/t/type_varchar2.test
+* /usr/mariadb-test/suite/compat/oracle/t/update.test
 * /usr/mariadb-test/suite/compat/oracle/t/update_innodb.test
 * /usr/mariadb-test/suite/compat/oracle/t/variables.test
 * /usr/mariadb-test/suite/compat/oracle/t/vcol.test
@@ -9308,12 +9497,14 @@ A fast SQL database server
 * /usr/mariadb-test/suite/encryption/include/innodb-util.pl
 * /usr/mariadb-test/suite/encryption/my.cnf
 * /usr/mariadb-test/suite/encryption/r/aria_tiny.result
+* /usr/mariadb-test/suite/encryption/r/binlog_cache_encrypt.result
 * /usr/mariadb-test/suite/encryption/r/bulk_insert.result
 * /usr/mariadb-test/suite/encryption/r/compressed_import_tablespace.result
 * /usr/mariadb-test/suite/encryption/r/corrupted_during_recovery.result
 * /usr/mariadb-test/suite/encryption/r/create_or_replace.result
 * /usr/mariadb-test/suite/encryption/r/create_or_replace_big.result
 * /usr/mariadb-test/suite/encryption/r/debug_key_management.result
+* /usr/mariadb-test/suite/encryption/r/doublewrite_debug.result
 * /usr/mariadb-test/suite/encryption/r/encryption_force.result
 * /usr/mariadb-test/suite/encryption/r/encryption_key_corruption.result
 * /usr/mariadb-test/suite/encryption/r/encrypt_and_grep,undo3.rdiff
@@ -9380,11 +9571,14 @@ A fast SQL database server
 * /usr/mariadb-test/suite/encryption/r/innodb_page_encryption_key_change.result
 * /usr/mariadb-test/suite/encryption/r/instant_alter_import.result
 * /usr/mariadb-test/suite/encryption/r/key_version_rotation.result
+* /usr/mariadb-test/suite/encryption/r/recovery_memory.result
 * /usr/mariadb-test/suite/encryption/r/second_plugin-12863.result
 * /usr/mariadb-test/suite/encryption/r/tempfiles.result
 * /usr/mariadb-test/suite/encryption/r/tempfiles_encrypted.result
 * /usr/mariadb-test/suite/encryption/suite.pm
 * /usr/mariadb-test/suite/encryption/t/aria_tiny.test
+* /usr/mariadb-test/suite/encryption/t/binlog_cache_encrypt-master.opt
+* /usr/mariadb-test/suite/encryption/t/binlog_cache_encrypt.test
 * /usr/mariadb-test/suite/encryption/t/bulk_insert.opt
 * /usr/mariadb-test/suite/encryption/t/bulk_insert.test
 * /usr/mariadb-test/suite/encryption/t/compressed_import_tablespace.opt
@@ -9397,6 +9591,8 @@ A fast SQL database server
 * /usr/mariadb-test/suite/encryption/t/create_or_replace_big.test
 * /usr/mariadb-test/suite/encryption/t/debug_key_management.opt
 * /usr/mariadb-test/suite/encryption/t/debug_key_management.test
+* /usr/mariadb-test/suite/encryption/t/doublewrite_debug.opt
+* /usr/mariadb-test/suite/encryption/t/doublewrite_debug.test
 * /usr/mariadb-test/suite/encryption/t/encryption_force.opt
 * /usr/mariadb-test/suite/encryption/t/encryption_force.test
 * /usr/mariadb-test/suite/encryption/t/encryption_key_corruption.combinations
@@ -9521,6 +9717,8 @@ A fast SQL database server
 * /usr/mariadb-test/suite/encryption/t/instant_alter_import.test
 * /usr/mariadb-test/suite/encryption/t/key_version_rotation.opt
 * /usr/mariadb-test/suite/encryption/t/key_version_rotation.test
+* /usr/mariadb-test/suite/encryption/t/recovery_memory.opt
+* /usr/mariadb-test/suite/encryption/t/recovery_memory.test
 * /usr/mariadb-test/suite/encryption/t/second_plugin-12863.test
 * /usr/mariadb-test/suite/encryption/t/tempfiles.combinations
 * /usr/mariadb-test/suite/encryption/t/tempfiles.opt
@@ -10877,6 +11075,7 @@ A fast SQL database server
 * /usr/mariadb-test/suite/galera/disabled.def
 * /usr/mariadb-test/suite/galera/galera_2nodes.cnf
 * /usr/mariadb-test/suite/galera/galera_2nodes_as_master.cnf
+* /usr/mariadb-test/suite/galera/galera_2nodes_as_replica_2primary.cnf
 * /usr/mariadb-test/suite/galera/galera_2nodes_as_slave.cnf
 * /usr/mariadb-test/suite/galera/galera_2x2nodes.cnf
 * /usr/mariadb-test/suite/galera/galera_3nodes_as_slave.cnf
@@ -10919,6 +11118,7 @@ A fast SQL database server
 * /usr/mariadb-test/suite/galera/r/galera#500.result
 * /usr/mariadb-test/suite/galera/r/galera#505.result
 * /usr/mariadb-test/suite/galera/r/galera-features#117.result
+* /usr/mariadb-test/suite/galera/r/galera_2primary_replica.result
 * /usr/mariadb-test/suite/galera/r/galera_admin.result
 * /usr/mariadb-test/suite/galera/r/galera_alter_engine_innodb.result
 * /usr/mariadb-test/suite/galera/r/galera_alter_engine_myisam.result
@@ -10934,6 +11134,7 @@ A fast SQL database server
 * /usr/mariadb-test/suite/galera/r/galera_as_slave_gtid_auto_engine.result
 * /usr/mariadb-test/suite/galera/r/galera_as_slave_gtid_myisam.result
 * /usr/mariadb-test/suite/galera/r/galera_as_slave_nonprim.result
+* /usr/mariadb-test/suite/galera/r/galera_as_slave_parallel_retry.result
 * /usr/mariadb-test/suite/galera/r/galera_as_slave_replay.result
 * /usr/mariadb-test/suite/galera/r/galera_autoinc_sst_mariabackup.result
 * /usr/mariadb-test/suite/galera/r/galera_backup_stage.result
@@ -10966,6 +11167,7 @@ A fast SQL database server
 * /usr/mariadb-test/suite/galera/r/galera_cache_index.result
 * /usr/mariadb-test/suite/galera/r/galera_can_run_toi.result
 * /usr/mariadb-test/suite/galera/r/galera_change_user.result
+* /usr/mariadb-test/suite/galera/r/galera_circular_replication.result
 * /usr/mariadb-test/suite/galera/r/galera_commit_empty.result
 * /usr/mariadb-test/suite/galera/r/galera_concurrent_ctas.result
 * /usr/mariadb-test/suite/galera/r/galera_create_function.result
@@ -11145,6 +11347,7 @@ A fast SQL database server
 * /usr/mariadb-test/suite/galera/r/galera_sst_mariabackup_no_auth.result
 * /usr/mariadb-test/suite/galera/r/galera_sst_mariabackup_qpress.result
 * /usr/mariadb-test/suite/galera/r/galera_sst_mariabackup_table_options.result
+* /usr/mariadb-test/suite/galera/r/galera_sst_mariabackup_use_memory.result
 * /usr/mariadb-test/suite/galera/r/galera_sst_mysqldump,debug.rdiff
 * /usr/mariadb-test/suite/galera/r/galera_sst_mysqldump,release.rdiff
 * /usr/mariadb-test/suite/galera/r/galera_sst_mysqldump.result
@@ -11177,6 +11380,7 @@ A fast SQL database server
 * /usr/mariadb-test/suite/galera/r/galera_sync_wait_upto.result
 * /usr/mariadb-test/suite/galera/r/galera_table_with_hyphen.result
 * /usr/mariadb-test/suite/galera/r/galera_temporary_sequences.result
+* /usr/mariadb-test/suite/galera/r/galera_threadpool.result
 * /usr/mariadb-test/suite/galera/r/galera_toi_alter_auto_increment.result
 * /usr/mariadb-test/suite/galera/r/galera_toi_ddl_error.result
 * /usr/mariadb-test/suite/galera/r/galera_toi_ddl_fk_insert.result
@@ -11287,6 +11491,7 @@ A fast SQL database server
 * /usr/mariadb-test/suite/galera/r/MDEV-25731.result
 * /usr/mariadb-test/suite/galera/r/MDEV-25740.result
 * /usr/mariadb-test/suite/galera/r/mdev-26175.result
+* /usr/mariadb-test/suite/galera/r/MDEV-26266.result
 * /usr/mariadb-test/suite/galera/r/MDEV-26499.result
 * /usr/mariadb-test/suite/galera/r/MDEV-26575.result
 * /usr/mariadb-test/suite/galera/r/MDEV-26597.result
@@ -11316,6 +11521,9 @@ A fast SQL database server
 * /usr/mariadb-test/suite/galera/r/MDEV-33828.result
 * /usr/mariadb-test/suite/galera/r/MDEV-34594.result
 * /usr/mariadb-test/suite/galera/r/MDEV-34647.result
+* /usr/mariadb-test/suite/galera/r/MDEV-35018.result
+* /usr/mariadb-test/suite/galera/r/MDEV-35446.result
+* /usr/mariadb-test/suite/galera/r/MDEV-35852.result
 * /usr/mariadb-test/suite/galera/r/MDEV-6860.result
 * /usr/mariadb-test/suite/galera/r/mdev_10518.result
 * /usr/mariadb-test/suite/galera/r/mdev_18730.result
@@ -11385,6 +11593,8 @@ A fast SQL database server
 * /usr/mariadb-test/suite/galera/t/galera#505.test
 * /usr/mariadb-test/suite/galera/t/galera-features#117.cnf
 * /usr/mariadb-test/suite/galera/t/galera-features#117.test
+* /usr/mariadb-test/suite/galera/t/galera_2primary_replica.cnf
+* /usr/mariadb-test/suite/galera/t/galera_2primary_replica.test
 * /usr/mariadb-test/suite/galera/t/galera_admin.test
 * /usr/mariadb-test/suite/galera/t/galera_alter_engine_innodb.test
 * /usr/mariadb-test/suite/galera/t/galera_alter_engine_myisam.test
@@ -11413,6 +11623,8 @@ A fast SQL database server
 * /usr/mariadb-test/suite/galera/t/galera_as_slave_gtid_replicate_do_db_cc.cnf
 * /usr/mariadb-test/suite/galera/t/galera_as_slave_nonprim.cnf
 * /usr/mariadb-test/suite/galera/t/galera_as_slave_nonprim.test
+* /usr/mariadb-test/suite/galera/t/galera_as_slave_parallel_retry.cnf
+* /usr/mariadb-test/suite/galera/t/galera_as_slave_parallel_retry.test
 * /usr/mariadb-test/suite/galera/t/galera_as_slave_replay.cnf
 * /usr/mariadb-test/suite/galera/t/galera_as_slave_replay.test
 * /usr/mariadb-test/suite/galera/t/galera_autoinc_sst_mariabackup.cnf
@@ -11459,7 +11671,10 @@ A fast SQL database server
 * /usr/mariadb-test/suite/galera/t/galera_cache_index.test
 * /usr/mariadb-test/suite/galera/t/galera_can_run_toi.test
 * /usr/mariadb-test/suite/galera/t/galera_change_user.test
+* /usr/mariadb-test/suite/galera/t/galera_circular_replication.cnf
+* /usr/mariadb-test/suite/galera/t/galera_circular_replication.test
 * /usr/mariadb-test/suite/galera/t/galera_commit_empty.test
+* /usr/mariadb-test/suite/galera/t/galera_concurrent_ctas.combinations
 * /usr/mariadb-test/suite/galera/t/galera_concurrent_ctas.test
 * /usr/mariadb-test/suite/galera/t/galera_create_function.test
 * /usr/mariadb-test/suite/galera/t/galera_create_procedure.test
@@ -11468,6 +11683,7 @@ A fast SQL database server
 * /usr/mariadb-test/suite/galera/t/galera_create_trigger.test
 * /usr/mariadb-test/suite/galera/t/galera_create_view.test
 * /usr/mariadb-test/suite/galera/t/galera_ctas.test
+* /usr/mariadb-test/suite/galera/t/galera_ddl_fk_conflict.cnf
 * /usr/mariadb-test/suite/galera/t/galera_ddl_fk_conflict.inc
 * /usr/mariadb-test/suite/galera/t/galera_ddl_fk_conflict.test
 * /usr/mariadb-test/suite/galera/t/galera_ddl_fk_conflict_with_tmp.inc
@@ -11702,6 +11918,8 @@ A fast SQL database server
 * /usr/mariadb-test/suite/galera/t/galera_sst_mariabackup_qpress.test
 * /usr/mariadb-test/suite/galera/t/galera_sst_mariabackup_table_options.cnf
 * /usr/mariadb-test/suite/galera/t/galera_sst_mariabackup_table_options.test
+* /usr/mariadb-test/suite/galera/t/galera_sst_mariabackup_use_memory.cnf
+* /usr/mariadb-test/suite/galera/t/galera_sst_mariabackup_use_memory.test
 * /usr/mariadb-test/suite/galera/t/galera_sst_mysqldump.cnf
 * /usr/mariadb-test/suite/galera/t/galera_sst_mysqldump.test
 * /usr/mariadb-test/suite/galera/t/galera_sst_mysqldump_with_key.cnf
@@ -11738,6 +11956,8 @@ A fast SQL database server
 * /usr/mariadb-test/suite/galera/t/galera_table_with_hyphen.inc
 * /usr/mariadb-test/suite/galera/t/galera_table_with_hyphen.test
 * /usr/mariadb-test/suite/galera/t/galera_temporary_sequences.test
+* /usr/mariadb-test/suite/galera/t/galera_threadpool.cnf
+* /usr/mariadb-test/suite/galera/t/galera_threadpool.test
 * /usr/mariadb-test/suite/galera/t/galera_toi_alter_auto_increment.test
 * /usr/mariadb-test/suite/galera/t/galera_toi_ddl_error.test
 * /usr/mariadb-test/suite/galera/t/galera_toi_ddl_fk_insert.test
@@ -11876,6 +12096,8 @@ A fast SQL database server
 * /usr/mariadb-test/suite/galera/t/MDEV-25731.test
 * /usr/mariadb-test/suite/galera/t/MDEV-25740.test
 * /usr/mariadb-test/suite/galera/t/mdev-26175.test
+* /usr/mariadb-test/suite/galera/t/MDEV-26266.cnf
+* /usr/mariadb-test/suite/galera/t/MDEV-26266.test
 * /usr/mariadb-test/suite/galera/t/MDEV-26499.test
 * /usr/mariadb-test/suite/galera/t/MDEV-26575.test
 * /usr/mariadb-test/suite/galera/t/MDEV-26597.test
@@ -11914,6 +12136,11 @@ A fast SQL database server
 * /usr/mariadb-test/suite/galera/t/MDEV-33828.test
 * /usr/mariadb-test/suite/galera/t/MDEV-34594.test
 * /usr/mariadb-test/suite/galera/t/MDEV-34647.test
+* /usr/mariadb-test/suite/galera/t/MDEV-35018.test
+* /usr/mariadb-test/suite/galera/t/MDEV-35446.cnf
+* /usr/mariadb-test/suite/galera/t/MDEV-35446.test
+* /usr/mariadb-test/suite/galera/t/MDEV-35852.cnf
+* /usr/mariadb-test/suite/galera/t/MDEV-35852.test
 * /usr/mariadb-test/suite/galera/t/MDEV-6860.cnf
 * /usr/mariadb-test/suite/galera/t/MDEV-6860.test
 * /usr/mariadb-test/suite/galera/t/mdev_10518.cnf
@@ -11944,6 +12171,7 @@ A fast SQL database server
 * /usr/mariadb-test/suite/galera/t/MW-369.inc
 * /usr/mariadb-test/suite/galera/t/MW-369.test
 * /usr/mariadb-test/suite/galera/t/MW-388.test
+* /usr/mariadb-test/suite/galera/t/MW-402.combinations
 * /usr/mariadb-test/suite/galera/t/MW-402.test
 * /usr/mariadb-test/suite/galera/t/MW-416.test
 * /usr/mariadb-test/suite/galera/t/MW-44-master.opt
@@ -12217,7 +12445,9 @@ A fast SQL database server
 * /usr/mariadb-test/suite/galera_sr/r/MDEV-30862.result
 * /usr/mariadb-test/suite/galera_sr/r/MDEV-32051.result
 * /usr/mariadb-test/suite/galera_sr/r/MDEV-34836.result
+* /usr/mariadb-test/suite/galera_sr/r/MDEV-35281.result
 * /usr/mariadb-test/suite/galera_sr/r/mdev_18631.result
+* /usr/mariadb-test/suite/galera_sr/r/MENT-2038.result
 * /usr/mariadb-test/suite/galera_sr/r/mysql-wsrep#215.result
 * /usr/mariadb-test/suite/galera_sr/r/mysql-wsrep-bugs-900.result
 * /usr/mariadb-test/suite/galera_sr/r/mysql-wsrep-features#136.result
@@ -12332,8 +12562,10 @@ A fast SQL database server
 * /usr/mariadb-test/suite/galera_sr/t/MDEV-30862.test
 * /usr/mariadb-test/suite/galera_sr/t/MDEV-32051.test
 * /usr/mariadb-test/suite/galera_sr/t/MDEV-34836.test
+* /usr/mariadb-test/suite/galera_sr/t/MDEV-35281.test
 * /usr/mariadb-test/suite/galera_sr/t/mdev_18631.cnf
 * /usr/mariadb-test/suite/galera_sr/t/mdev_18631.test
+* /usr/mariadb-test/suite/galera_sr/t/MENT-2038.test
 * /usr/mariadb-test/suite/galera_sr/t/mysql-wsrep#215.test
 * /usr/mariadb-test/suite/galera_sr/t/mysql-wsrep-bugs-900.test
 * /usr/mariadb-test/suite/galera_sr/t/mysql-wsrep-features#136-master.opt
@@ -12479,6 +12711,8 @@ A fast SQL database server
 * /usr/mariadb-test/suite/handler/disconnect_4480.result
 * /usr/mariadb-test/suite/handler/disconnect_4480.test
 * /usr/mariadb-test/suite/handler/handler.inc
+* /usr/mariadb-test/suite/handler/handler_warnings.result
+* /usr/mariadb-test/suite/handler/handler_warnings.test
 * /usr/mariadb-test/suite/handler/heap.result
 * /usr/mariadb-test/suite/handler/heap.test
 * /usr/mariadb-test/suite/handler/init.inc
@@ -12503,6 +12737,9 @@ A fast SQL database server
 * /usr/mariadb-test/suite/heap/heap_btree.test
 * /usr/mariadb-test/suite/heap/heap_hash.result
 * /usr/mariadb-test/suite/heap/heap_hash.test
+* /usr/mariadb-test/suite/heap/heap_memory_used,32bit.rdiff
+* /usr/mariadb-test/suite/heap/heap_memory_used.result
+* /usr/mariadb-test/suite/heap/heap_memory_used.test
 * /usr/mariadb-test/suite/innodb/include/alter_table_pk_no_sort.inc
 * /usr/mariadb-test/suite/innodb/include/autoinc_persist_alter.inc
 * /usr/mariadb-test/suite/innodb/include/crc32.pl
@@ -12577,12 +12814,15 @@ A fast SQL database server
 * /usr/mariadb-test/suite/innodb/r/autoinc_persist,desc.rdiff
 * /usr/mariadb-test/suite/innodb/r/autoinc_persist.result
 * /usr/mariadb-test/suite/innodb/r/auto_increment_dup.result
+* /usr/mariadb-test/suite/innodb/r/auto_increment_lock_mode.result
+* /usr/mariadb-test/suite/innodb/r/avoid_deadlock_with_blocked.result
 * /usr/mariadb-test/suite/innodb/r/binlog_consistent.result
 * /usr/mariadb-test/suite/innodb/r/blob-crash.result
 * /usr/mariadb-test/suite/innodb/r/blob-update-debug.result
 * /usr/mariadb-test/suite/innodb/r/blob_cmp_empty.result
 * /usr/mariadb-test/suite/innodb/r/blob_unique2pk.result
 * /usr/mariadb-test/suite/innodb/r/buf_pool_resize_oom.result
+* /usr/mariadb-test/suite/innodb/r/bulk_load.result
 * /usr/mariadb-test/suite/innodb/r/cascade_lock_wait.result
 * /usr/mariadb-test/suite/innodb/r/change_column_collation.result
 * /usr/mariadb-test/suite/innodb/r/check_ibd_filesize,32k.rdiff
@@ -12642,6 +12882,10 @@ A fast SQL database server
 * /usr/mariadb-test/suite/innodb/r/foreign_key_not_windows.result
 * /usr/mariadb-test/suite/innodb/r/foreign_null,COPY.rdiff
 * /usr/mariadb-test/suite/innodb/r/foreign_null.result
+* /usr/mariadb-test/suite/innodb/r/foreign_sql_mode,COPY,NON-STRICT.rdiff
+* /usr/mariadb-test/suite/innodb/r/foreign_sql_mode,COPY,NOSTRICT.rdiff
+* /usr/mariadb-test/suite/innodb/r/foreign_sql_mode,INPLACE,NON-STRICT.rdiff
+* /usr/mariadb-test/suite/innodb/r/foreign_sql_mode.result
 * /usr/mariadb-test/suite/innodb/r/full_crc32_import.result
 * /usr/mariadb-test/suite/innodb/r/gap_locks.result
 * /usr/mariadb-test/suite/innodb/r/gap_lock_split.result
@@ -12656,6 +12900,7 @@ A fast SQL database server
 * /usr/mariadb-test/suite/innodb/r/implicit_gap_lock_convertion.result
 * /usr/mariadb-test/suite/innodb/r/import.result
 * /usr/mariadb-test/suite/innodb/r/import_bugs.result
+* /usr/mariadb-test/suite/innodb/r/import_cfg.result
 * /usr/mariadb-test/suite/innodb/r/import_corrupted.result
 * /usr/mariadb-test/suite/innodb/r/import_hidden_fts.result
 * /usr/mariadb-test/suite/innodb/r/import_hidden_fts_debug.result
@@ -12669,9 +12914,12 @@ A fast SQL database server
 * /usr/mariadb-test/suite/innodb/r/index_tree_operation.result
 * /usr/mariadb-test/suite/innodb/r/index_vcol_purge_startup.result
 * /usr/mariadb-test/suite/innodb/r/information_schema_grants.result
+* /usr/mariadb-test/suite/innodb/r/innochecksum_undo_page.result
 * /usr/mariadb-test/suite/innodb/r/innodb-16k.result
 * /usr/mariadb-test/suite/innodb/r/innodb-32k-crash.result
 * /usr/mariadb-test/suite/innodb/r/innodb-32k.result
+* /usr/mariadb-test/suite/innodb/r/innodb-64k-crash,dynamic.rdiff
+* /usr/mariadb-test/suite/innodb/r/innodb-64k-crash,redundant.rdiff
 * /usr/mariadb-test/suite/innodb/r/innodb-64k-crash.result
 * /usr/mariadb-test/suite/innodb/r/innodb-64k.result
 * /usr/mariadb-test/suite/innodb/r/innodb-ac-non-locking-select.result
@@ -12723,6 +12971,7 @@ A fast SQL database server
 * /usr/mariadb-test/suite/innodb/r/innodb-online-alter-gis.result
 * /usr/mariadb-test/suite/innodb/r/innodb-page_compression_none.result
 * /usr/mariadb-test/suite/innodb/r/innodb-read-view.result
+* /usr/mariadb-test/suite/innodb/r/innodb-replace,INPLACE.rdiff
 * /usr/mariadb-test/suite/innodb/r/innodb-replace-debug.result
 * /usr/mariadb-test/suite/innodb/r/innodb-replace.result
 * /usr/mariadb-test/suite/innodb/r/innodb-rollback.result
@@ -12874,6 +13123,7 @@ A fast SQL database server
 * /usr/mariadb-test/suite/innodb/r/insert_into_empty,32k.rdiff
 * /usr/mariadb-test/suite/innodb/r/insert_into_empty,4k.rdiff
 * /usr/mariadb-test/suite/innodb/r/insert_into_empty,64k.rdiff
+* /usr/mariadb-test/suite/innodb/r/insert_into_empty,8k.rdiff
 * /usr/mariadb-test/suite/innodb/r/insert_into_empty.result
 * /usr/mariadb-test/suite/innodb/r/insert_into_empty_debug.result
 * /usr/mariadb-test/suite/innodb/r/insert_into_empty_notembedded.result
@@ -12958,6 +13208,7 @@ A fast SQL database server
 * /usr/mariadb-test/suite/innodb/r/page_reorganize.result
 * /usr/mariadb-test/suite/innodb/r/partition_locking.result
 * /usr/mariadb-test/suite/innodb/r/purge.result
+* /usr/mariadb-test/suite/innodb/r/purge_pessimistic.result
 * /usr/mariadb-test/suite/innodb/r/purge_secondary.result
 * /usr/mariadb-test/suite/innodb/r/readahead.result
 * /usr/mariadb-test/suite/innodb/r/read_only_recovery.result
@@ -12980,6 +13231,7 @@ A fast SQL database server
 * /usr/mariadb-test/suite/innodb/r/row_size_error_log_warnings_3.result
 * /usr/mariadb-test/suite/innodb/r/scrub.result
 * /usr/mariadb-test/suite/innodb/r/scrub_debug.result
+* /usr/mariadb-test/suite/innodb/r/shrink_cached_undo.result
 * /usr/mariadb-test/suite/innodb/r/skip_locked_nowait.result
 * /usr/mariadb-test/suite/innodb/r/skip_symbolic_links.result
 * /usr/mariadb-test/suite/innodb/r/snapshot.result
@@ -13085,6 +13337,9 @@ A fast SQL database server
 * /usr/mariadb-test/suite/innodb/t/autoinc_persist.test
 * /usr/mariadb-test/suite/innodb/t/auto_increment_dup.opt
 * /usr/mariadb-test/suite/innodb/t/auto_increment_dup.test
+* /usr/mariadb-test/suite/innodb/t/auto_increment_lock_mode.combinations
+* /usr/mariadb-test/suite/innodb/t/auto_increment_lock_mode.test
+* /usr/mariadb-test/suite/innodb/t/avoid_deadlock_with_blocked.test
 * /usr/mariadb-test/suite/innodb/t/binlog_consistent.test
 * /usr/mariadb-test/suite/innodb/t/blob-crash.test
 * /usr/mariadb-test/suite/innodb/t/blob-update-debug.test
@@ -13092,6 +13347,8 @@ A fast SQL database server
 * /usr/mariadb-test/suite/innodb/t/blob_unique2pk.test
 * /usr/mariadb-test/suite/innodb/t/buf_pool_resize_oom.opt
 * /usr/mariadb-test/suite/innodb/t/buf_pool_resize_oom.test
+* /usr/mariadb-test/suite/innodb/t/bulk_load.opt
+* /usr/mariadb-test/suite/innodb/t/bulk_load.test
 * /usr/mariadb-test/suite/innodb/t/cascade_lock_wait.test
 * /usr/mariadb-test/suite/innodb/t/change_column_collation.test
 * /usr/mariadb-test/suite/innodb/t/check_ibd_filesize.test
@@ -13147,6 +13404,8 @@ A fast SQL database server
 * /usr/mariadb-test/suite/innodb/t/foreign_key_not_windows.test
 * /usr/mariadb-test/suite/innodb/t/foreign_null.combinations
 * /usr/mariadb-test/suite/innodb/t/foreign_null.test
+* /usr/mariadb-test/suite/innodb/t/foreign_sql_mode.combinations
+* /usr/mariadb-test/suite/innodb/t/foreign_sql_mode.test
 * /usr/mariadb-test/suite/innodb/t/full_crc32_import.test
 * /usr/mariadb-test/suite/innodb/t/gap_locks.test
 * /usr/mariadb-test/suite/innodb/t/gap_lock_split.test
@@ -13167,6 +13426,7 @@ A fast SQL database server
 * /usr/mariadb-test/suite/innodb/t/implicit_gap_lock_convertion.test
 * /usr/mariadb-test/suite/innodb/t/import.test
 * /usr/mariadb-test/suite/innodb/t/import_bugs.test
+* /usr/mariadb-test/suite/innodb/t/import_cfg.test
 * /usr/mariadb-test/suite/innodb/t/import_corrupted.test
 * /usr/mariadb-test/suite/innodb/t/import_hidden_fts.test
 * /usr/mariadb-test/suite/innodb/t/import_hidden_fts_debug.test
@@ -13183,6 +13443,8 @@ A fast SQL database server
 * /usr/mariadb-test/suite/innodb/t/index_vcol_purge_startup.test
 * /usr/mariadb-test/suite/innodb/t/information_schema_grants.opt
 * /usr/mariadb-test/suite/innodb/t/information_schema_grants.test
+* /usr/mariadb-test/suite/innodb/t/innochecksum_undo_page.opt
+* /usr/mariadb-test/suite/innodb/t/innochecksum_undo_page.test
 * /usr/mariadb-test/suite/innodb/t/innodb-16k-master.opt
 * /usr/mariadb-test/suite/innodb/t/innodb-16k.test
 * /usr/mariadb-test/suite/innodb/t/innodb-32k-crash-master.opt
@@ -13190,6 +13452,7 @@ A fast SQL database server
 * /usr/mariadb-test/suite/innodb/t/innodb-32k-master.opt
 * /usr/mariadb-test/suite/innodb/t/innodb-32k.test
 * /usr/mariadb-test/suite/innodb/t/innodb-64k-crash-master.opt
+* /usr/mariadb-test/suite/innodb/t/innodb-64k-crash.opt
 * /usr/mariadb-test/suite/innodb/t/innodb-64k-crash.test
 * /usr/mariadb-test/suite/innodb/t/innodb-64k-master.opt
 * /usr/mariadb-test/suite/innodb/t/innodb-64k.test
@@ -13257,6 +13520,7 @@ A fast SQL database server
 * /usr/mariadb-test/suite/innodb/t/innodb-page_compression_none.test
 * /usr/mariadb-test/suite/innodb/t/innodb-read-view.test
 * /usr/mariadb-test/suite/innodb/t/innodb-replace-debug.test
+* /usr/mariadb-test/suite/innodb/t/innodb-replace.combinations
 * /usr/mariadb-test/suite/innodb/t/innodb-replace.test
 * /usr/mariadb-test/suite/innodb/t/innodb-rollback.test
 * /usr/mariadb-test/suite/innodb/t/innodb-semi-consistent-master.opt
@@ -13511,6 +13775,8 @@ A fast SQL database server
 * /usr/mariadb-test/suite/innodb/t/page_reorganize.test
 * /usr/mariadb-test/suite/innodb/t/partition_locking.test
 * /usr/mariadb-test/suite/innodb/t/purge.test
+* /usr/mariadb-test/suite/innodb/t/purge_pessimistic.opt
+* /usr/mariadb-test/suite/innodb/t/purge_pessimistic.test
 * /usr/mariadb-test/suite/innodb/t/purge_secondary.opt
 * /usr/mariadb-test/suite/innodb/t/purge_secondary.test
 * /usr/mariadb-test/suite/innodb/t/readahead.test
@@ -13530,6 +13796,8 @@ A fast SQL database server
 * /usr/mariadb-test/suite/innodb/t/row_size_error_log_warnings_3.test
 * /usr/mariadb-test/suite/innodb/t/scrub.test
 * /usr/mariadb-test/suite/innodb/t/scrub_debug.test
+* /usr/mariadb-test/suite/innodb/t/shrink_cached_undo.opt
+* /usr/mariadb-test/suite/innodb/t/shrink_cached_undo.test
 * /usr/mariadb-test/suite/innodb/t/skip_locked_nowait.test
 * /usr/mariadb-test/suite/innodb/t/skip_symbolic_links.opt
 * /usr/mariadb-test/suite/innodb/t/skip_symbolic_links.test
@@ -13666,8 +13934,6 @@ A fast SQL database server
 * /usr/mariadb-test/suite/innodb_fts/r/subexpr.result
 * /usr/mariadb-test/suite/innodb_fts/r/sync.result
 * /usr/mariadb-test/suite/innodb_fts/r/sync_block.result
-* /usr/mariadb-test/suite/innodb_fts/r/sync_ddl,vers.rdiff
-* /usr/mariadb-test/suite/innodb_fts/r/sync_ddl,vers_trx.rdiff
 * /usr/mariadb-test/suite/innodb_fts/r/sync_ddl.result
 * /usr/mariadb-test/suite/innodb_fts/r/versioning,prepare.result
 * /usr/mariadb-test/suite/innodb_fts/r/versioning.result
@@ -14413,6 +14679,9 @@ A fast SQL database server
 * /usr/mariadb-test/suite/mariabackup/backup_ssl.test
 * /usr/mariadb-test/suite/mariabackup/backup_ssl_not_win.result
 * /usr/mariadb-test/suite/mariabackup/backup_ssl_not_win.test
+* /usr/mariadb-test/suite/mariabackup/backup_ssl_system_ca.opt
+* /usr/mariadb-test/suite/mariabackup/backup_ssl_system_ca.result
+* /usr/mariadb-test/suite/mariabackup/backup_ssl_system_ca.test
 * /usr/mariadb-test/suite/mariabackup/big_innodb_log.result
 * /usr/mariadb-test/suite/mariabackup/big_innodb_log.test
 * /usr/mariadb-test/suite/mariabackup/binlog.result
@@ -14507,6 +14776,7 @@ A fast SQL database server
 * /usr/mariadb-test/suite/mariabackup/innodb_ddl_on_intermediate_table.test
 * /usr/mariadb-test/suite/mariabackup/innodb_force_recovery.result
 * /usr/mariadb-test/suite/mariabackup/innodb_force_recovery.test
+* /usr/mariadb-test/suite/mariabackup/innodb_redo_log_overwrite.combinations
 * /usr/mariadb-test/suite/mariabackup/innodb_redo_log_overwrite.opt
 * /usr/mariadb-test/suite/mariabackup/innodb_redo_log_overwrite.result
 * /usr/mariadb-test/suite/mariabackup/innodb_redo_log_overwrite.test
@@ -14589,12 +14859,18 @@ A fast SQL database server
 * /usr/mariadb-test/suite/mariabackup/undo_space_id.opt
 * /usr/mariadb-test/suite/mariabackup/undo_space_id.result
 * /usr/mariadb-test/suite/mariabackup/undo_space_id.test
+* /usr/mariadb-test/suite/mariabackup/undo_truncate.combinations
+* /usr/mariadb-test/suite/mariabackup/undo_truncate.opt
+* /usr/mariadb-test/suite/mariabackup/undo_truncate.result
+* /usr/mariadb-test/suite/mariabackup/undo_truncate.test
 * /usr/mariadb-test/suite/mariabackup/undo_upgrade.result
 * /usr/mariadb-test/suite/mariabackup/undo_upgrade.test
 * /usr/mariadb-test/suite/mariabackup/unencrypted_page_compressed.result
 * /usr/mariadb-test/suite/mariabackup/unencrypted_page_compressed.test
 * /usr/mariadb-test/suite/mariabackup/unsupported_redo.result
 * /usr/mariadb-test/suite/mariabackup/unsupported_redo.test
+* /usr/mariadb-test/suite/mariabackup/vector.result
+* /usr/mariadb-test/suite/mariabackup/vector.test
 * /usr/mariadb-test/suite/mariabackup/xbstream.result
 * /usr/mariadb-test/suite/mariabackup/xbstream.test
 * /usr/mariadb-test/suite/mariabackup/xb_aws_key_management.opt
@@ -16267,6 +16543,7 @@ A fast SQL database server
 * /usr/mariadb-test/suite/perfschema/t/table_schema.test
 * /usr/mariadb-test/suite/perfschema/t/temp_table_io.test
 * /usr/mariadb-test/suite/perfschema/t/threads_history.test
+* /usr/mariadb-test/suite/perfschema/t/threads_innodb.opt
 * /usr/mariadb-test/suite/perfschema/t/threads_innodb.test
 * /usr/mariadb-test/suite/perfschema/t/threads_mysql-master.opt
 * /usr/mariadb-test/suite/perfschema/t/threads_mysql.test
@@ -16356,6 +16633,7 @@ A fast SQL database server
 * /usr/mariadb-test/suite/plugins/r/qc_info_priv.result
 * /usr/mariadb-test/suite/plugins/r/rpl_auth.result
 * /usr/mariadb-test/suite/plugins/r/server_audit.result
+* /usr/mariadb-test/suite/plugins/r/server_audit_pwd_mask.result
 * /usr/mariadb-test/suite/plugins/r/show_all_plugins.result
 * /usr/mariadb-test/suite/plugins/r/simple_password_check.result
 * /usr/mariadb-test/suite/plugins/r/sql_error_log.result
@@ -16408,6 +16686,7 @@ A fast SQL database server
 * /usr/mariadb-test/suite/plugins/t/rpl_auth.test
 * /usr/mariadb-test/suite/plugins/t/server_audit.opt
 * /usr/mariadb-test/suite/plugins/t/server_audit.test
+* /usr/mariadb-test/suite/plugins/t/server_audit_pwd_mask.test
 * /usr/mariadb-test/suite/plugins/t/show_all_plugins.test
 * /usr/mariadb-test/suite/plugins/t/simple_password_check.test
 * /usr/mariadb-test/suite/plugins/t/sql_error_log.test
@@ -16677,6 +16956,7 @@ A fast SQL database server
 * /usr/mariadb-test/suite/rpl/r/parallel_backup.result
 * /usr/mariadb-test/suite/rpl/r/parallel_backup_lsu_off.result
 * /usr/mariadb-test/suite/rpl/r/parallel_backup_slave_binlog_off.result
+* /usr/mariadb-test/suite/rpl/r/parallel_backup_xa_debug.result
 * /usr/mariadb-test/suite/rpl/r/parallel_conflicts.result
 * /usr/mariadb-test/suite/rpl/r/password_expiration.result
 * /usr/mariadb-test/suite/rpl/r/purge_binlog.result
@@ -16706,6 +16986,7 @@ A fast SQL database server
 * /usr/mariadb-test/suite/rpl/r/rpl_begin_commit_rollback.result
 * /usr/mariadb-test/suite/rpl/r/rpl_binlog_cache_disk_full_loaddata.result
 * /usr/mariadb-test/suite/rpl/r/rpl_binlog_cache_disk_full_row.result
+* /usr/mariadb-test/suite/rpl/r/rpl_binlog_commit_by_rotate.result
 * /usr/mariadb-test/suite/rpl/r/rpl_binlog_compress.result
 * /usr/mariadb-test/suite/rpl/r/rpl_binlog_corruption.result
 * /usr/mariadb-test/suite/rpl/r/rpl_binlog_dump_slave_gtid_state_info.result
@@ -16756,6 +17037,7 @@ A fast SQL database server
 * /usr/mariadb-test/suite/rpl/r/rpl_create_tmp_table_if_not_exists.result
 * /usr/mariadb-test/suite/rpl/r/rpl_critical_errors.result
 * /usr/mariadb-test/suite/rpl/r/rpl_critical_errors.result.txt
+* /usr/mariadb-test/suite/rpl/r/rpl_csv.result
 * /usr/mariadb-test/suite/rpl/r/rpl_ctype_collate_implicit.result
 * /usr/mariadb-test/suite/rpl/r/rpl_ctype_latin1.result
 * /usr/mariadb-test/suite/rpl/r/rpl_current_user.result
@@ -16803,6 +17085,7 @@ A fast SQL database server
 * /usr/mariadb-test/suite/rpl/r/rpl_flush_logs.result
 * /usr/mariadb-test/suite/rpl/r/rpl_foreign_key_innodb.result
 * /usr/mariadb-test/suite/rpl/r/rpl_free_items.result
+* /usr/mariadb-test/suite/rpl/r/rpl_from_mysql80.result
 * /usr/mariadb-test/suite/rpl/r/rpl_function_defaults.result
 * /usr/mariadb-test/suite/rpl/r/rpl_geometry.result
 * /usr/mariadb-test/suite/rpl/r/rpl_get_lock.result
@@ -16897,6 +17180,7 @@ A fast SQL database server
 * /usr/mariadb-test/suite/rpl/r/rpl_mdev-11092.result
 * /usr/mariadb-test/suite/rpl/r/rpl_mdev10863.result
 * /usr/mariadb-test/suite/rpl/r/rpl_mdev12179.result
+* /usr/mariadb-test/suite/rpl/r/rpl_mdev13831.result
 * /usr/mariadb-test/suite/rpl/r/rpl_mdev33798.result
 * /usr/mariadb-test/suite/rpl/r/rpl_mdev359.result
 * /usr/mariadb-test/suite/rpl/r/rpl_mdev382.result
@@ -17124,6 +17408,7 @@ A fast SQL database server
 * /usr/mariadb-test/suite/rpl/r/rpl_semisync_ali_issues.result
 * /usr/mariadb-test/suite/rpl/r/rpl_semi_sync.result
 * /usr/mariadb-test/suite/rpl/r/rpl_semi_sync_after_sync.result
+* /usr/mariadb-test/suite/rpl/r/rpl_semi_sync_after_sync_coord_consistency.result
 * /usr/mariadb-test/suite/rpl/r/rpl_semi_sync_after_sync_row.result
 * /usr/mariadb-test/suite/rpl/r/rpl_semi_sync_cond_var_per_thd.result
 * /usr/mariadb-test/suite/rpl/r/rpl_semi_sync_event.result
@@ -17232,6 +17517,7 @@ A fast SQL database server
 * /usr/mariadb-test/suite/rpl/r/rpl_strict_password_validation.result
 * /usr/mariadb-test/suite/rpl/r/rpl_switch_stm_row_mixed.result
 * /usr/mariadb-test/suite/rpl/r/rpl_sync.result
+* /usr/mariadb-test/suite/rpl/r/rpl_system_versioning_partitions.result
 * /usr/mariadb-test/suite/rpl/r/rpl_table_options.result
 * /usr/mariadb-test/suite/rpl/r/rpl_temporal_format_default_to_default.result
 * /usr/mariadb-test/suite/rpl/r/rpl_temporal_format_mariadb53_to_mariadb53.result
@@ -17286,9 +17572,11 @@ A fast SQL database server
 * /usr/mariadb-test/suite/rpl/r/semisync_memleak_4066.result
 * /usr/mariadb-test/suite/rpl/r/sequence.result
 * /usr/mariadb-test/suite/rpl/r/show_status_stop_slave_race-7126.result
+* /usr/mariadb-test/suite/rpl/r/slave_abort_blocking_timeout.result
 * /usr/mariadb-test/suite/rpl/r/temporal_row-9560,old2new.rdiff
 * /usr/mariadb-test/suite/rpl/r/temporal_row-9560.result
 * /usr/mariadb-test/suite/rpl/r/tmp_space_usage.result
+* /usr/mariadb-test/suite/rpl/r/vector.result
 * /usr/mariadb-test/suite/rpl/README
 * /usr/mariadb-test/suite/rpl/rpl_1slave_base.cnf
 * /usr/mariadb-test/suite/rpl/t/circular_serverid0.cnf
@@ -17331,6 +17619,7 @@ A fast SQL database server
 * /usr/mariadb-test/suite/rpl/t/parallel_backup_slave_binlog_off-slave.opt
 * /usr/mariadb-test/suite/rpl/t/parallel_backup_slave_binlog_off.test
 * /usr/mariadb-test/suite/rpl/t/parallel_backup_xa.inc
+* /usr/mariadb-test/suite/rpl/t/parallel_backup_xa_debug.test
 * /usr/mariadb-test/suite/rpl/t/password_expiration.test
 * /usr/mariadb-test/suite/rpl/t/purge_binlog.test
 * /usr/mariadb-test/suite/rpl/t/rename.test
@@ -17364,6 +17653,7 @@ A fast SQL database server
 * /usr/mariadb-test/suite/rpl/t/rpl_begin_commit_rollback.test
 * /usr/mariadb-test/suite/rpl/t/rpl_binlog_cache_disk_full_loaddata.test
 * /usr/mariadb-test/suite/rpl/t/rpl_binlog_cache_disk_full_row.test
+* /usr/mariadb-test/suite/rpl/t/rpl_binlog_commit_by_rotate.test
 * /usr/mariadb-test/suite/rpl/t/rpl_binlog_compress.test
 * /usr/mariadb-test/suite/rpl/t/rpl_binlog_corruption.test
 * /usr/mariadb-test/suite/rpl/t/rpl_binlog_dump_slave_gtid_state_info.test
@@ -17426,6 +17716,7 @@ A fast SQL database server
 * /usr/mariadb-test/suite/rpl/t/rpl_create_tmp_table_if_not_exists.test
 * /usr/mariadb-test/suite/rpl/t/rpl_create_xa_prepared.inc
 * /usr/mariadb-test/suite/rpl/t/rpl_critical_errors.test
+* /usr/mariadb-test/suite/rpl/t/rpl_csv.test
 * /usr/mariadb-test/suite/rpl/t/rpl_ctype_collate_implicit.test
 * /usr/mariadb-test/suite/rpl/t/rpl_ctype_latin1.test
 * /usr/mariadb-test/suite/rpl/t/rpl_current_user.cnf
@@ -17484,6 +17775,7 @@ A fast SQL database server
 * /usr/mariadb-test/suite/rpl/t/rpl_foreign_key_innodb.test
 * /usr/mariadb-test/suite/rpl/t/rpl_free_items-slave.opt
 * /usr/mariadb-test/suite/rpl/t/rpl_free_items.test
+* /usr/mariadb-test/suite/rpl/t/rpl_from_mysql80.test
 * /usr/mariadb-test/suite/rpl/t/rpl_function_defaults.test
 * /usr/mariadb-test/suite/rpl/t/rpl_geometry.test
 * /usr/mariadb-test/suite/rpl/t/rpl_get_lock.test
@@ -17618,6 +17910,7 @@ A fast SQL database server
 * /usr/mariadb-test/suite/rpl/t/rpl_mdev-11092.test
 * /usr/mariadb-test/suite/rpl/t/rpl_mdev10863.test
 * /usr/mariadb-test/suite/rpl/t/rpl_mdev12179.test
+* /usr/mariadb-test/suite/rpl/t/rpl_mdev13831.test
 * /usr/mariadb-test/suite/rpl/t/rpl_mdev33798.cnf
 * /usr/mariadb-test/suite/rpl/t/rpl_mdev33798.test
 * /usr/mariadb-test/suite/rpl/t/rpl_mdev359.test
@@ -17898,6 +18191,7 @@ A fast SQL database server
 * /usr/mariadb-test/suite/rpl/t/rpl_semisync_ali_issues.test
 * /usr/mariadb-test/suite/rpl/t/rpl_semi_sync.test
 * /usr/mariadb-test/suite/rpl/t/rpl_semi_sync_after_sync.test
+* /usr/mariadb-test/suite/rpl/t/rpl_semi_sync_after_sync_coord_consistency.test
 * /usr/mariadb-test/suite/rpl/t/rpl_semi_sync_after_sync_row.test
 * /usr/mariadb-test/suite/rpl/t/rpl_semi_sync_cond_var_per_thd.cnf
 * /usr/mariadb-test/suite/rpl/t/rpl_semi_sync_cond_var_per_thd.test
@@ -18048,6 +18342,8 @@ A fast SQL database server
 * /usr/mariadb-test/suite/rpl/t/rpl_sync-master.opt
 * /usr/mariadb-test/suite/rpl/t/rpl_sync-slave.opt
 * /usr/mariadb-test/suite/rpl/t/rpl_sync.test
+* /usr/mariadb-test/suite/rpl/t/rpl_system_versioning_partitions.cnf
+* /usr/mariadb-test/suite/rpl/t/rpl_system_versioning_partitions.test
 * /usr/mariadb-test/suite/rpl/t/rpl_table_options.test
 * /usr/mariadb-test/suite/rpl/t/rpl_temporal_format_default_to_default.test
 * /usr/mariadb-test/suite/rpl/t/rpl_temporal_format_mariadb53_to_mariadb53.test
@@ -18115,10 +18411,12 @@ A fast SQL database server
 * /usr/mariadb-test/suite/rpl/t/sequence.cnf
 * /usr/mariadb-test/suite/rpl/t/sequence.test
 * /usr/mariadb-test/suite/rpl/t/show_status_stop_slave_race-7126.test
+* /usr/mariadb-test/suite/rpl/t/slave_abort_blocking_timeout.test
 * /usr/mariadb-test/suite/rpl/t/temporal_row-9560-master.opt
 * /usr/mariadb-test/suite/rpl/t/temporal_row-9560.combinations
 * /usr/mariadb-test/suite/rpl/t/temporal_row-9560.test
 * /usr/mariadb-test/suite/rpl/t/tmp_space_usage.test
+* /usr/mariadb-test/suite/rpl/t/vector.test
 * /usr/mariadb-test/suite/s3/alter.result
 * /usr/mariadb-test/suite/s3/alter.test
 * /usr/mariadb-test/suite/s3/alter2.result
@@ -20535,7 +20833,6 @@ A fast SQL database server
 * /usr/mariadb-test/suite/versioning/r/foreign.result
 * /usr/mariadb-test/suite/versioning/r/insert.result
 * /usr/mariadb-test/suite/versioning/r/insert2.result
-* /usr/mariadb-test/suite/versioning/r/load_data.result
 * /usr/mariadb-test/suite/versioning/r/misc.result
 * /usr/mariadb-test/suite/versioning/r/not_embedded.result
 * /usr/mariadb-test/suite/versioning/r/old_timestamp.result
@@ -20574,7 +20871,6 @@ A fast SQL database server
 * /usr/mariadb-test/suite/versioning/t/foreign.test
 * /usr/mariadb-test/suite/versioning/t/insert.test
 * /usr/mariadb-test/suite/versioning/t/insert2.test
-* /usr/mariadb-test/suite/versioning/t/load_data.test
 * /usr/mariadb-test/suite/versioning/t/misc.test
 * /usr/mariadb-test/suite/versioning/t/not_embedded.test
 * /usr/mariadb-test/suite/versioning/t/old_timestamp.test
@@ -20620,6 +20916,7 @@ A fast SQL database server
 * /usr/mariadb-test/suite/wsrep/r/wsrep-recover-v25.result
 * /usr/mariadb-test/suite/wsrep/r/wsrep-recover.result
 * /usr/mariadb-test/suite/wsrep/r/wsrep_on_basic.result
+* /usr/mariadb-test/suite/wsrep/r/wsrep_protocol_versions.result
 * /usr/mariadb-test/suite/wsrep/r/wsrep_provider_plugin.result
 * /usr/mariadb-test/suite/wsrep/r/wsrep_provider_plugin_basic.result
 * /usr/mariadb-test/suite/wsrep/r/wsrep_provider_plugin_defaults.result
@@ -20671,6 +20968,8 @@ A fast SQL database server
 * /usr/mariadb-test/suite/wsrep/t/wsrep-recover.test
 * /usr/mariadb-test/suite/wsrep/t/wsrep_on_basic.opt
 * /usr/mariadb-test/suite/wsrep/t/wsrep_on_basic.test
+* /usr/mariadb-test/suite/wsrep/t/wsrep_protocol_versions.cnf
+* /usr/mariadb-test/suite/wsrep/t/wsrep_protocol_versions.test
 * /usr/mariadb-test/suite/wsrep/t/wsrep_provider_plugin.cnf
 * /usr/mariadb-test/suite/wsrep/t/wsrep_provider_plugin.test
 * /usr/mariadb-test/suite/wsrep/t/wsrep_provider_plugin_basic.cnf
@@ -20686,19 +20985,19 @@ A fast SQL database server
 * /usr/mariadb-test/suite/wsrep/t/wsrep_variables_wsrep_off.cnf
 * /usr/mariadb-test/suite/wsrep/t/wsrep_variables_wsrep_off.test
 * /usr/mariadb-test/valgrind.supp
-* /usr/share/doc/mariadb-11.6.2/COPYING
-* /usr/share/doc/mariadb-11.6.2/CREDITS
-* /usr/share/doc/mariadb-11.6.2/INSTALL-SOURCE
-* /usr/share/doc/mariadb-11.6.2/INSTALL-WIN-SOURCE
-* /usr/share/doc/mariadb-11.6.2/KNOWN_BUGS.txt
-* /usr/share/doc/mariadb-11.6.2/README.md
-* /usr/share/doc/mariadb-11.6.2/VERSION
-* /usr/share/doc/mysql-11.6.2/COPYING
-* /usr/share/doc/mysql-11.6.2/CREDITS
-* /usr/share/doc/mysql-11.6.2/INSTALL-BINARY
-* /usr/share/doc/mysql-11.6.2/README-wsrep
-* /usr/share/doc/mysql-11.6.2/README.md
-* /usr/share/doc/mysql-11.6.2/THIRDPARTY
+* /usr/share/doc/mariadb-11.7.2/COPYING
+* /usr/share/doc/mariadb-11.7.2/CREDITS
+* /usr/share/doc/mariadb-11.7.2/INSTALL-SOURCE
+* /usr/share/doc/mariadb-11.7.2/INSTALL-WIN-SOURCE
+* /usr/share/doc/mariadb-11.7.2/KNOWN_BUGS.txt
+* /usr/share/doc/mariadb-11.7.2/README.md
+* /usr/share/doc/mariadb-11.7.2/VERSION
+* /usr/share/doc/mysql-11.7.2/COPYING
+* /usr/share/doc/mysql-11.7.2/CREDITS
+* /usr/share/doc/mysql-11.7.2/INSTALL-BINARY
+* /usr/share/doc/mysql-11.7.2/README-wsrep
+* /usr/share/doc/mysql-11.7.2/README.md
+* /usr/share/doc/mysql-11.7.2/THIRDPARTY
 * /usr/share/docs/hashicorp_key_management.txt
 * /usr/share/groonga-normalizer-mysql/lgpl-2.0.txt
 * /usr/share/groonga-normalizer-mysql/README.md

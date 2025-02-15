@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mariadb-libs 11.6.2-3"
-version = "11.6.2-3"
+title = "mariadb-libs 11.7.2-1"
+version = "11.7.2-1"
 description = "Mariadb library."
-date = "2025-01-07T15:49:54"
+date = "2025-02-15T14:26:13"
 aliases = "/packages/219863"
 categories = ['lib']
 upstreamurl = "https://mariadb.org"
 arch = "x86_64"
-size = "22768764"
-usize = "104017749"
-sha1sum = "557a9c92fb554b7cf35cb6a4000e4d128ce91934"
+size = "22900820"
+usize = "105095792"
+sha1sum = "d1fabb3f4868871a91326c567bfdc9e5f82b8c65"
 depends = "['bzip2', 'libaio', 'liburing', 'lz4', 'lzo', 'openssl>=3.0.7', 'xz']"
 reverse_depends = "['courier-authlib', 'cyrus-sasl-sql', 'dovecot', 'gammu', 'gnokii-mysql', 'libreoffice', 'lighttpd', 'mariadb', 'neko', 'pdns', 'php', 'poco', 'postfix', 'proftpd', 'pure-ftpd', 'python3-mariadb-connector', 'qt5-base-mysql', 'qt6-base-mysql', 'rsyslog-mysql', 'vtk-mysql']"
 +++
@@ -96,6 +96,7 @@ Mariadb library.
 * /usr/include/mysql/server/mysql/service_json.h
 * /usr/include/mysql/server/mysql/service_kill_statement.h
 * /usr/include/mysql/server/mysql/service_logger.h
+* /usr/include/mysql/server/mysql/service_log_warnings.h
 * /usr/include/mysql/server/mysql/service_md5.h
 * /usr/include/mysql/server/mysql/service_my_crypt.h
 * /usr/include/mysql/server/mysql/service_my_print_error.h
@@ -125,6 +126,7 @@ Mariadb library.
 * /usr/include/mysql/server/my_alloca.h
 * /usr/include/mysql/server/my_attribute.h
 * /usr/include/mysql/server/my_byteorder.h
+* /usr/include/mysql/server/my_cmp.h
 * /usr/include/mysql/server/my_compiler.h
 * /usr/include/mysql/server/my_config.h
 * /usr/include/mysql/server/my_dbug.h
@@ -149,7 +151,7 @@ Mariadb library.
 * /usr/include/mysql/server/private/atomic/solaris.h
 * /usr/include/mysql/server/private/authors.h
 * /usr/include/mysql/server/private/backup.h
-* /usr/include/mysql/server/private/bounded_queue.h
+* /usr/include/mysql/server/private/bloom_filters.h
 * /usr/include/mysql/server/private/charset_collations.h
 * /usr/include/mysql/server/private/char_buffer.h
 * /usr/include/mysql/server/private/client_settings.h
@@ -211,6 +213,7 @@ Mariadb library.
 * /usr/include/mysql/server/private/item_subselect.h
 * /usr/include/mysql/server/private/item_sum.h
 * /usr/include/mysql/server/private/item_timefunc.h
+* /usr/include/mysql/server/private/item_vectorfunc.h
 * /usr/include/mysql/server/private/item_vers.h
 * /usr/include/mysql/server/private/item_windowfunc.h
 * /usr/include/mysql/server/private/item_xmlfunc.h
@@ -404,6 +407,7 @@ Mariadb library.
 * /usr/include/mysql/server/private/sql_prepare.h
 * /usr/include/mysql/server/private/sql_priv.h
 * /usr/include/mysql/server/private/sql_profile.h
+* /usr/include/mysql/server/private/sql_queue.h
 * /usr/include/mysql/server/private/sql_reload.h
 * /usr/include/mysql/server/private/sql_rename.h
 * /usr/include/mysql/server/private/sql_repl.h
@@ -431,6 +435,7 @@ Mariadb library.
 * /usr/include/mysql/server/private/sql_type_real.h
 * /usr/include/mysql/server/private/sql_type_string.h
 * /usr/include/mysql/server/private/sql_type_timeofday.h
+* /usr/include/mysql/server/private/sql_type_vector.h
 * /usr/include/mysql/server/private/sql_udf.h
 * /usr/include/mysql/server/private/sql_union.h
 * /usr/include/mysql/server/private/sql_update.h
@@ -456,6 +461,7 @@ Mariadb library.
 * /usr/include/mysql/server/private/t_ctype.h
 * /usr/include/mysql/server/private/uniques.h
 * /usr/include/mysql/server/private/unireg.h
+* /usr/include/mysql/server/private/vector_mhnsw.h
 * /usr/include/mysql/server/private/violite.h
 * /usr/include/mysql/server/private/waiting_threads.h
 * /usr/include/mysql/server/private/welcome_copyright_notice.h
