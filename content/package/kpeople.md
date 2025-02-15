@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kpeople 6.10.0-2"
-version = "6.10.0-2"
+title = "kpeople 6.11.0-1"
+version = "6.11.0-1"
 description = "A library that provides access to all contacts and the people who hold them."
-date = "2025-02-01T19:51:37"
+date = "2025-02-15T13:08:43"
 aliases = "/packages/221342"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "158340"
-usize = "625633"
-sha1sum = "cacc1cfbe74c13cc38454f7616c5edd3c7af24f3"
-depends = "['kcontacts>=6.10.0', 'kitemviews=>6.10.0', 'kwidgetsaddons>=6.10.0']"
+size = "158532"
+usize = "625601"
+sha1sum = "edc61fe92eaccd4b5cfec0d5015cb22518eef747"
+depends = "['kcontacts>=6.11.0', 'kitemviews=>6.11.0', 'kwidgetsaddons>=6.11.0']"
 reverse_depends = "['calindori', 'kdeconnect-kde', 'kpeoplevcard', 'plasma-desktop']"
 +++
 ### Description: 
@@ -61,20 +61,20 @@ A library that provides access to all contacts and the people who hold them.
 * /usr/lib/cmake/KF6People/KPeopleTargets.cmake
 * /usr/lib/libKF6People.so
 * /usr/lib/libKF6People.so.6
-* /usr/lib/libKF6People.so.6.10.0
+* /usr/lib/libKF6People.so.6.11.0
 * /usr/lib/libKF6PeopleBackend.so
 * /usr/lib/libKF6PeopleBackend.so.6
-* /usr/lib/libKF6PeopleBackend.so.6.10.0
+* /usr/lib/libKF6PeopleBackend.so.6.11.0
 * /usr/lib/libKF6PeopleWidgets.so
 * /usr/lib/libKF6PeopleWidgets.so.6
-* /usr/lib/libKF6PeopleWidgets.so.6.10.0
+* /usr/lib/libKF6PeopleWidgets.so.6.11.0
 * /usr/lib/qt6/plugins/kpeople/datasource/KPeopleVCard.so
 * /usr/lib/qt6/qml/org/kde/people/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/people/KF6PeopleDeclarative.qmltypes
 * /usr/lib/qt6/qml/org/kde/people/libKF6PeopleDeclarative.so
 * /usr/lib/qt6/qml/org/kde/people/qmldir
-* /usr/share/doc/kpeople-6.10.0/README.md
-* /usr/share/doc/kpeople-6.10.0/README.md.license
+* /usr/share/doc/kpeople-6.11.0/README.md
+* /usr/share/doc/kpeople-6.11.0/README.md.license
 * /usr/share/locale/ar/LC_MESSAGES/kpeople6.mo
 * /usr/share/locale/ast/LC_MESSAGES/kpeople6.mo
 * /usr/share/locale/az/LC_MESSAGES/kpeople6.mo

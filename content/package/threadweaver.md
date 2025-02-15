@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "threadweaver 6.10.0-2"
-version = "6.10.0-2"
+title = "threadweaver 6.11.0-1"
+version = "6.11.0-1"
 description = "KDE Helper for multithreaded programming."
-date = "2025-02-01T19:26:37"
+date = "2025-02-15T12:28:53"
 aliases = "/packages/218421"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "78672"
+size = "78920"
 usize = "294645"
-sha1sum = "307d0abd43c447e7e58b8aca3690aeaaf369f49e"
+sha1sum = "6fc8727d020d1073a6662a0c2663730b1f943852"
 depends = "['qt6-base>=6.8.2']"
 reverse_depends = "['digikam', 'kasts', 'kate', 'krunner', 'okular']"
 +++
@@ -92,6 +92,6 @@ KDE Helper for multithreaded programming.
 * /usr/lib/cmake/KF6ThreadWeaver/KF6ThreadWeaverTargets.cmake
 * /usr/lib/libKF6ThreadWeaver.so
 * /usr/lib/libKF6ThreadWeaver.so.6
-* /usr/lib/libKF6ThreadWeaver.so.6.10.0
-* /usr/share/doc/threadweaver-6.10.0/COPYING.LIB
-* /usr/share/doc/threadweaver-6.10.0/README.md
+* /usr/lib/libKF6ThreadWeaver.so.6.11.0
+* /usr/share/doc/threadweaver-6.11.0/COPYING.LIB
+* /usr/share/doc/threadweaver-6.11.0/README.md

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "breeze-icons 6.10.0-2"
-version = "6.10.0-2"
+title = "breeze-icons 6.11.0-1"
+version = "6.11.0-1"
 description = "Icons for the Breeze visual style for the Plasma Desktop."
-date = "2025-02-01T19:19:07"
+date = "2025-02-15T12:16:07"
 aliases = "/packages/218259"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "7846136"
-usize = "57747390"
-sha1sum = "46f4886baa1a07d7c91f06ce060b8701c60fa97f"
+size = "7847048"
+usize = "57746031"
+sha1sum = "5c4dd629e0a2fecbc32e97dabbfcc6560adfc00c"
 depends = "[]"
 reverse_depends = "['kiconthemes']"
 +++
@@ -28,15 +28,17 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/lib/cmake/KF6BreezeIcons/KF6BreezeIconsTargets.cmake
 * /usr/lib/libKF6BreezeIcons.so
 * /usr/lib/libKF6BreezeIcons.so.6
-* /usr/lib/libKF6BreezeIcons.so.6.10.0
-* /usr/share/doc/breeze-icons-6.10.0/COPYING-ICONS
-* /usr/share/doc/breeze-icons-6.10.0/COPYING.LIB
-* /usr/share/doc/breeze-icons-6.10.0/README.md
+* /usr/lib/libKF6BreezeIcons.so.6.11.0
+* /usr/share/doc/breeze-icons-6.11.0/COPYING-ICONS
+* /usr/share/doc/breeze-icons-6.11.0/COPYING.LIB
+* /usr/share/doc/breeze-icons-6.11.0/README.md
 * /usr/share/icons/breeze-dark/actions/12/mobile-close-app.svg
 * /usr/share/icons/breeze-dark/actions/12/mobile-task-switcher.svg
 * /usr/share/icons/breeze-dark/actions/12/object-fill.svg
 * /usr/share/icons/breeze-dark/actions/12/object-stroke-style.svg
 * /usr/share/icons/breeze-dark/actions/12/object-stroke.svg
+* /usr/share/icons/breeze-dark/actions/12/open-link-symbolic.svg
+* /usr/share/icons/breeze-dark/actions/12/open-link.svg
 * /usr/share/icons/breeze-dark/actions/12/transform-affect-gradient.svg
 * /usr/share/icons/breeze-dark/actions/12/transform-affect-pattern.svg
 * /usr/share/icons/breeze-dark/actions/12/transform-affect-rounded-corners.svg
@@ -9564,6 +9566,7 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/applets/48/weather-storm-night.svg
 * /usr/share/icons/breeze-dark/applets/48/weather-storm-symbolic.svg
 * /usr/share/icons/breeze-dark/applets/48/weather-storm.svg
+* /usr/share/icons/breeze-dark/applets/64/applets-screenshooter.svg
 * /usr/share/icons/breeze-dark/applets/64/osd-duplicate.svg
 * /usr/share/icons/breeze-dark/applets/64/osd-rotate-ccw.svg
 * /usr/share/icons/breeze-dark/applets/64/osd-rotate-cw.svg
@@ -16138,6 +16141,8 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/actions/12/object-fill.svg
 * /usr/share/icons/breeze/actions/12/object-stroke-style.svg
 * /usr/share/icons/breeze/actions/12/object-stroke.svg
+* /usr/share/icons/breeze/actions/12/open-link-symbolic.svg
+* /usr/share/icons/breeze/actions/12/open-link.svg
 * /usr/share/icons/breeze/actions/12/transform-affect-gradient.svg
 * /usr/share/icons/breeze/actions/12/transform-affect-pattern.svg
 * /usr/share/icons/breeze/actions/12/transform-affect-rounded-corners.svg
@@ -25678,6 +25683,7 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/applets/48/weather-storm-night.svg
 * /usr/share/icons/breeze/applets/48/weather-storm-symbolic.svg
 * /usr/share/icons/breeze/applets/48/weather-storm.svg
+* /usr/share/icons/breeze/applets/64/applets-screenshooter.svg
 * /usr/share/icons/breeze/applets/64/osd-duplicate.svg
 * /usr/share/icons/breeze/applets/64/osd-rotate-ccw.svg
 * /usr/share/icons/breeze/applets/64/osd-rotate-cw.svg

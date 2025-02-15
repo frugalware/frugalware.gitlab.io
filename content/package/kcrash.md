@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kcrash 6.10.0-2"
-version = "6.10.0-2"
+title = "kcrash 6.11.0-1"
+version = "6.11.0-1"
 description = "Gracefull handling of application crashes."
-date = "2025-02-01T19:36:54"
+date = "2025-02-15T12:46:11"
 aliases = "/packages/218287"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "20688"
-usize = "57740"
-sha1sum = "bdb0c7fa9603a7edc5b90d0f116084c7dd3d79f7"
-depends = "['kcoreaddons>=6.10.0', 'kwindowsystem>=6.10.0']"
+size = "25052"
+usize = "72089"
+sha1sum = "4fdd0dfcc1c67992ef92f9a66813d8cc89438a38"
+depends = "['kcoreaddons>=6.11.0', 'kwindowsystem>=6.11.0']"
 reverse_depends = "['accessibility-inspector', 'audex', 'audiotube', 'dolphin', 'isoimagewriter', 'kalm', 'kglobalacceld', 'kservice', 'kwin', 'polkit-kde-agent-1', 'skladnik', 'smb4k', 'sweeper', 'telly-skout']"
 +++
 ### Description: 
@@ -28,7 +28,7 @@ Gracefull handling of application crashes.
 * /usr/lib/cmake/KF6Crash/KF6CrashTargets.cmake
 * /usr/lib/libKF6Crash.so
 * /usr/lib/libKF6Crash.so.6
-* /usr/lib/libKF6Crash.so.6.10.0
-* /usr/share/doc/kcrash-6.10.0/README.md
+* /usr/lib/libKF6Crash.so.6.11.0
+* /usr/share/doc/kcrash-6.11.0/README.md
 * /usr/share/qlogging-categories6/kcrash.categories
 * /usr/share/qlogging-categories6/kcrash.renamecategories
