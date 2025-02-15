@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "dirmngr-ldap 2.5.3-1"
-version = "2.5.3-1"
+title = "dirmngr-ldap 2.5.4-1"
+version = "2.5.4-1"
 description = "GnuPG dirmngr with LDAP support"
-date = "2025-01-14T16:02:16"
+date = "2025-02-15T13:52:59"
 aliases = "/packages/217504"
 categories = ['apps-extra']
 upstreamurl = "https://www.gnupg.org"
 arch = "x86_64"
-size = "209736"
-usize = "503896"
-sha1sum = "388a19793f741378334e87db0afd5a68a8789063"
+size = "209612"
+usize = "504472"
+sha1sum = "e5ceb578ca395fbfaa1cf88c0bcb91352395417c"
 depends = "['gnutls>=3.4.8', 'libassuan>=3.0.1', 'libffi>=3.2.1', 'libgcrypt>=1.6.4-3', 'libidn>=1.32-4', 'libksba>=1.3.3-3', 'libldap>=2.5.4', 'npth>=1.5-2']"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kapidox 6.10.0-2"
-version = "6.10.0-2"
+title = "kapidox 6.11.0-1"
+version = "6.11.0-1"
 description = "Frameworks API Documentation Tools."
-date = "2025-02-01T20:10:06"
+date = "2025-02-15T13:37:14"
 aliases = "/packages/218273"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "70916"
-usize = "243750"
-sha1sum = "e86cbc0d845a9bc86f4e6849bc5bcf01dc3c0af3"
+size = "71036"
+usize = "243880"
+sha1sum = "6f2e0930d36d715b7d9632a0a7ee19d60ea0b46f"
 depends = "['python3>=3.13']"
 +++
 ### Description: 
@@ -21,12 +21,12 @@ Frameworks API Documentation Tools.
 * /usr/bin/kapidox-depdiagram-generate
 * /usr/bin/kapidox-depdiagram-prepare
 * /usr/bin/kapidox-generate
-* /usr/lib/python3.13/site-packages/kapidox-6.10.0-py3.13.egg-info/dependency_links.txt
-* /usr/lib/python3.13/site-packages/kapidox-6.10.0-py3.13.egg-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/kapidox-6.10.0-py3.13.egg-info/PKG-INFO
-* /usr/lib/python3.13/site-packages/kapidox-6.10.0-py3.13.egg-info/requires.txt
-* /usr/lib/python3.13/site-packages/kapidox-6.10.0-py3.13.egg-info/SOURCES.txt
-* /usr/lib/python3.13/site-packages/kapidox-6.10.0-py3.13.egg-info/top_level.txt
+* /usr/lib/python3.13/site-packages/kapidox-6.11.0-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/kapidox-6.11.0-py3.13.egg-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/kapidox-6.11.0-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/kapidox-6.11.0-py3.13.egg-info/requires.txt
+* /usr/lib/python3.13/site-packages/kapidox-6.11.0-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/kapidox-6.11.0-py3.13.egg-info/top_level.txt
 * /usr/lib/python3.13/site-packages/kapidox/argparserutils.py
 * /usr/lib/python3.13/site-packages/kapidox/depdiagram/block.py
 * /usr/lib/python3.13/site-packages/kapidox/depdiagram/framework.py
@@ -61,4 +61,4 @@ Frameworks API Documentation Tools.
 * /usr/lib/python3.13/site-packages/kapidox/__pycache__/preprocessing.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/kapidox/__pycache__/utils.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/kapidox/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/kapidox-6.10.0/README.md
+* /usr/share/doc/kapidox-6.11.0/README.md

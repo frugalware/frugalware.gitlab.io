@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "double-conversion 3.3.0-3"
-version = "3.3.0-3"
+title = "double-conversion 3.3.1-1"
+version = "3.3.1-1"
 description = "Binary-decimal and decimal-binary routines for IEEE doubles"
-date = "2024-05-16T00:38:01"
+date = "2025-02-15T14:09:19"
 aliases = "/packages/219885"
 categories = ['lib']
 upstreamurl = "https://github.com/google/double-conversion"
 arch = "x86_64"
-size = "49216"
-usize = "178144"
-sha1sum = "aa9aa6588d84dfbbcaba06569ff576484869b8b1"
+size = "49768"
+usize = "173619"
+sha1sum = "02fc51fe0c8c2112082c5ea04b26bdd38ae985a1"
 depends = "['libstdc++>=11.2']"
 reverse_depends = "['inkscape', 'qt5-base', 'qt6-base']"
 +++
@@ -18,6 +18,7 @@ reverse_depends = "['inkscape', 'qt5-base', 'qt6-base']"
 Binary-decimal and decimal-binary routines for IEEE doubles
 
 ### Files: 
+* /usr/include/double-conversion/bignum-dtoa.h
 * /usr/include/double-conversion/bignum.h
 * /usr/include/double-conversion/cached-powers.h
 * /usr/include/double-conversion/diy-fp.h
@@ -36,8 +37,8 @@ Binary-decimal and decimal-binary routines for IEEE doubles
 * /usr/lib/libdouble-conversion.so
 * /usr/lib/libdouble-conversion.so.3
 * /usr/lib/libdouble-conversion.so.3.3.0
-* /usr/share/doc/double-conversion-3.3.0/AUTHORS
-* /usr/share/doc/double-conversion-3.3.0/Changelog
-* /usr/share/doc/double-conversion-3.3.0/COPYING
-* /usr/share/doc/double-conversion-3.3.0/LICENSE
-* /usr/share/doc/double-conversion-3.3.0/README.md
+* /usr/share/doc/double-conversion-3.3.1/AUTHORS
+* /usr/share/doc/double-conversion-3.3.1/Changelog
+* /usr/share/doc/double-conversion-3.3.1/COPYING
+* /usr/share/doc/double-conversion-3.3.1/LICENSE
+* /usr/share/doc/double-conversion-3.3.1/README.md

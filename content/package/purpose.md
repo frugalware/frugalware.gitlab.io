@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "purpose 6.10.0-2"
-version = "6.10.0-2"
+title = "purpose 6.11.0-1"
+version = "6.11.0-1"
 description = "Offers the possibility to create integrate services and actions on any application."
-date = "2025-02-01T20:05:32"
+date = "2025-02-15T13:30:14"
 aliases = "/packages/219557"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "342544"
-usize = "1783185"
-sha1sum = "bd5cecdc55d31cbc20346b84612c8d4e9e738ab0"
-depends = "['accounts-qml-module', 'kconfig>=6.10.0', 'kcoreaddons>=6.10.0', 'kdeclarative>=6.10.0', 'ki18n>=6.10.0', 'kio>=6.10.0', 'kirigami>=6.10.0']"
+size = "338604"
+usize = "1756381"
+sha1sum = "12ca694c74a33d90102c3c91cb4521fb727f07de"
+depends = "['accounts-qml-module', 'kconfig>=6.11.0', 'kcoreaddons>=6.11.0', 'kdeclarative>=6.11.0', 'ki18n>=6.11.0', 'kio>=6.11.0', 'kirigami>=6.11.0']"
 reverse_depends = "['angelfish', 'discover', 'falkon-kde', 'gwenview', 'kdenlive', 'kdeplasma-addons', 'labplot', 'neochat', 'okular', 'pimcommon', 'plasma-browser-integration', 'plasmatube', 'skanpage', 'spectacle', 'tokodon']"
 +++
 ### Description: 
@@ -37,10 +37,10 @@ Offers the possibility to create integrate services and actions on any applicati
 * /usr/lib/cmake/KF6Purpose/KF6PurposeTargets.cmake
 * /usr/lib/libKF6Purpose.so
 * /usr/lib/libKF6Purpose.so.6
-* /usr/lib/libKF6Purpose.so.6.10.0
+* /usr/lib/libKF6Purpose.so.6.11.0
 * /usr/lib/libKF6PurposeWidgets.so
 * /usr/lib/libKF6PurposeWidgets.so.6
-* /usr/lib/libKF6PurposeWidgets.so.6.10.0
+* /usr/lib/libKF6PurposeWidgets.so.6.11.0
 * /usr/lib/purpose/kf6/purposeprocess
 * /usr/lib/qt6/plugins/kf6/kfileitemaction/sharefileitemaction.so
 * /usr/lib/qt6/plugins/kf6/purpose/barcodeplugin.so
@@ -55,7 +55,6 @@ Offers the possibility to create integrate services and actions on any applicati
 * /usr/lib/qt6/plugins/kf6/purpose/reviewboardplugin.so
 * /usr/lib/qt6/plugins/kf6/purpose/saveasplugin.so
 * /usr/lib/qt6/plugins/kf6/purpose/telegramplugin.so
-* /usr/lib/qt6/plugins/kf6/purpose/twitterplugin.so
 * /usr/lib/qt6/qml/org/kde/purpose/AlternativesView.qml
 * /usr/lib/qt6/qml/org/kde/purpose/JobView.qml
 * /usr/lib/qt6/qml/org/kde/purpose/kde-qmlmodule.version
@@ -70,7 +69,7 @@ Offers the possibility to create integrate services and actions on any applicati
 * /usr/lib/qt6/qml/org/kde/purpose/qmldir
 * /usr/lib/qt6/qml/org/kde/purpose/reviewboard/librbpurposequickplugin.so
 * /usr/lib/qt6/qml/org/kde/purpose/reviewboard/qmldir
-* /usr/share/doc/purpose-6.10.0/README.md
+* /usr/share/doc/purpose-6.11.0/README.md
 * /usr/share/icons/hicolor/128x128/apps/phabricator-purpose6.png
 * /usr/share/icons/hicolor/128x128/apps/reviewboard-purpose6.png
 * /usr/share/icons/hicolor/16x16/apps/phabricator-purpose6.png

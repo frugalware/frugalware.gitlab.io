@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kio 6.10.0-2"
-version = "6.10.0-2"
+title = "kio 6.11.0-1"
+version = "6.11.0-1"
 description = "Network transparent access to files and data."
-date = "2025-02-01T19:56:49"
+date = "2025-02-15T13:16:35"
 aliases = "/packages/218323"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3438180"
-usize = "19105508"
-sha1sum = "b6f79df696ca6e4569a7407709f884b42808ba7d"
-depends = "['karchive>=6.10.0', 'kauth>=6.10.0', 'kbookmarks>=6.10.0', 'kded>=6.10.0', 'kjobwidgets>=6.10.0', 'kwallet>=', 'solid>=6.10.0', 'switcheroo-control']"
+size = "3448388"
+usize = "19151144"
+sha1sum = "4fe472f4812e90f3eeb804fef997665d65689da8"
+depends = "['karchive>=6.11.0', 'kauth>=6.11.0', 'kbookmarks>=6.11.0', 'kded>=6.11.0', 'kjobwidgets>=6.11.0', 'kwallet>=', 'solid>=6.11.0', 'switcheroo-control']"
 reverse_depends = "['akonadi', 'akonadi-contacts', 'akonadi-mime', 'audex', 'baloo', 'bluedevil5', 'calligra', 'discover', 'dolphin', 'drkonqi', 'falkon-kde', 'ffmpegthumbs', 'frameworkintegration', 'juk', 'kactivitymanagerd', 'kalgebra', 'kamera', 'kapptemplate', 'kbackup', 'kcachegrind', 'kcron', 'kdav', 'kdeclarative', 'kdegraphics-mobipocket', 'kdegraphics-thumbnailers', 'kdenetwork-filesharing', 'kdeplasma-addons', 'kdesdk-kio', 'kdesdk-thumbnailers', 'kdf', 'kdialog', 'kglobalacceld', 'kgoldrunner', 'kimap', 'kio-admin', 'kio-fuse', 'kio-gdrive', 'kio-zeroconf', 'kiten', 'kldap', 'kmag', 'kmenuedit', 'kmouth', 'knewstuff', 'knotifyconfig', 'koko', 'kolourpaint', 'kparts', 'kpimtextedit', 'ksmtp', 'ksystemlog', 'ktextaddons', 'ktimer', 'kturtle', 'kvirc', 'kwave', 'labplot', 'libkcddb', 'libkeduvocdocument', 'libkgapi', 'libkomparediff2', 'libktorrent', 'lokalize', 'neochat', 'partitionmanager', 'plasma-activities', 'plasma-activities-stats', 'plasma-browser-integration', 'plasma-integration', 'print-manager', 'purpose', 'skanlite', 'skladnik', 'smb4k', 'spectacle', 'syndication', 'tokodon', 'wacomtablet', 'xdg-desktop-portal-kde']"
 +++
 ### Description: 
@@ -264,16 +264,16 @@ Network transparent access to files and data.
 * /usr/lib/kio/kf6/kioworker
 * /usr/lib/libKF6KIOCore.so
 * /usr/lib/libKF6KIOCore.so.6
-* /usr/lib/libKF6KIOCore.so.6.10.0
+* /usr/lib/libKF6KIOCore.so.6.11.0
 * /usr/lib/libKF6KIOFileWidgets.so
 * /usr/lib/libKF6KIOFileWidgets.so.6
-* /usr/lib/libKF6KIOFileWidgets.so.6.10.0
+* /usr/lib/libKF6KIOFileWidgets.so.6.11.0
 * /usr/lib/libKF6KIOGui.so
 * /usr/lib/libKF6KIOGui.so.6
-* /usr/lib/libKF6KIOGui.so.6.10.0
+* /usr/lib/libKF6KIOGui.so.6.11.0
 * /usr/lib/libKF6KIOWidgets.so
 * /usr/lib/libKF6KIOWidgets.so.6
-* /usr/lib/libKF6KIOWidgets.so.6.10.0
+* /usr/lib/libKF6KIOWidgets.so.6.11.0
 * /usr/lib/libkuriikwsfiltereng_private.so
 * /usr/lib/qt6/plugins/designer/kio6widgets.so
 * /usr/lib/qt6/plugins/kf6/kded/remotenotifier.so
@@ -287,6 +287,7 @@ Network transparent access to files and data.
 * /usr/lib/qt6/plugins/kf6/kiod/kioexecd.so
 * /usr/lib/qt6/plugins/kf6/kiod/kpasswdserver.so
 * /usr/lib/qt6/plugins/kf6/kiod/kssld.so
+* /usr/lib/qt6/plugins/kf6/kio_dnd/dropintonewfolder.so
 * /usr/lib/qt6/plugins/kf6/urifilters/fixhosturifilter.so
 * /usr/lib/qt6/plugins/kf6/urifilters/kshorturifilter.so
 * /usr/lib/qt6/plugins/kf6/urifilters/kuriikwsfilter.so
@@ -558,8 +559,8 @@ Network transparent access to files and data.
 * /usr/share/doc/HTML/uk/kioworker6/http/index.docbook
 * /usr/share/doc/HTML/uk/kioworker6/webdav/index.cache.bz2
 * /usr/share/doc/HTML/uk/kioworker6/webdav/index.docbook
-* /usr/share/doc/kio-6.10.0/README.KF6.md
-* /usr/share/doc/kio-6.10.0/README.md
+* /usr/share/doc/kio-6.11.0/README.KF6.md
+* /usr/share/doc/kio-6.11.0/README.md
 * /usr/share/kdevappwizard/templates/kioworker6.tar.bz2
 * /usr/share/kf6/searchproviders/7digital.desktop
 * /usr/share/kf6/searchproviders/acronym.desktop
@@ -575,6 +576,7 @@ Network transparent access to files and data.
 * /usr/share/kf6/searchproviders/boo.desktop
 * /usr/share/kf6/searchproviders/bug.desktop
 * /usr/share/kf6/searchproviders/call.desktop
+* /usr/share/kf6/searchproviders/caniuse.desktop
 * /usr/share/kf6/searchproviders/cia.desktop
 * /usr/share/kf6/searchproviders/citeseer.desktop
 * /usr/share/kf6/searchproviders/codeberg.desktop
@@ -590,6 +592,7 @@ Network transparent access to files and data.
 * /usr/share/kf6/searchproviders/deepl.desktop
 * /usr/share/kf6/searchproviders/dictfr.desktop
 * /usr/share/kf6/searchproviders/docbook.desktop
+* /usr/share/kf6/searchproviders/dockerhub.desktop
 * /usr/share/kf6/searchproviders/doi.desktop
 * /usr/share/kf6/searchproviders/duckduckgo.desktop
 * /usr/share/kf6/searchproviders/duckduckgo_info.desktop
@@ -649,6 +652,7 @@ Network transparent access to files and data.
 * /usr/share/kf6/searchproviders/leo.desktop
 * /usr/share/kf6/searchproviders/linguee.desktop
 * /usr/share/kf6/searchproviders/magnatune.desktop
+* /usr/share/kf6/searchproviders/mdn.desktop
 * /usr/share/kf6/searchproviders/metacrawler.desktop
 * /usr/share/kf6/searchproviders/microsoft_cpp.desktop
 * /usr/share/kf6/searchproviders/msdn.desktop
@@ -659,8 +663,10 @@ Network transparent access to files and data.
 * /usr/share/kf6/searchproviders/multitran-itru.desktop
 * /usr/share/kf6/searchproviders/multitran-nlru.desktop
 * /usr/share/kf6/searchproviders/netcraft.desktop
+* /usr/share/kf6/searchproviders/nixpkgs.desktop
 * /usr/share/kf6/searchproviders/nl-telephone.desktop
 * /usr/share/kf6/searchproviders/nl-teletekst.desktop
+* /usr/share/kf6/searchproviders/npm.desktop
 * /usr/share/kf6/searchproviders/opendesktop.desktop
 * /usr/share/kf6/searchproviders/opensuse.desktop
 * /usr/share/kf6/searchproviders/pgpkeys.desktop

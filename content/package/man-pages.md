@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "man-pages 6.10-1"
-version = "6.10-1"
+title = "man-pages 6.11-1"
+version = "6.11-1"
 description = "Man pages are online documentation for Linux"
-date = "2025-01-23T09:13:44"
+date = "2025-02-15T14:07:40"
 aliases = "/packages/3222"
 categories = ['apps']
 upstreamurl = "http://www.kernel.org/doc/man-pages/index.html"
 arch = "x86_64"
-size = "5745940"
-usize = "5777232"
-sha1sum = "583b29a365638cfe79784b675d8545e0965b454b"
+size = "5742412"
+usize = "5773759"
+sha1sum = "4a58d6a8436938035d53bc141e555a5f1f061e38"
 depends = "[]"
 +++
 ### Description: 
@@ -21,10 +21,10 @@ Man pages are online documentation for Linux
 * /usr/bin/mansect
 * /usr/bin/pdfman
 * /usr/bin/sortman
-* /usr/share/doc/man-pages-6.10/INSTALL
-* /usr/share/doc/man-pages-6.10/POSIX-COPYRIGHT
-* /usr/share/doc/man-pages-6.10/README
-* /usr/share/doc/man-pages-6.10/RELEASE
+* /usr/share/doc/man-pages-6.11/INSTALL
+* /usr/share/doc/man-pages-6.11/POSIX-COPYRIGHT
+* /usr/share/doc/man-pages-6.11/README
+* /usr/share/doc/man-pages-6.11/RELEASE
 * /usr/share/man/man0p/aio.h.0p.gz
 * /usr/share/man/man0p/arpa_inet.h.0p.gz
 * /usr/share/man/man0p/assert.h.0p.gz
@@ -4022,6 +4022,7 @@ Man pages are online documentation for Linux
 * /usr/share/man/man7/numa.7.gz
 * /usr/share/man/man7/operator.7.gz
 * /usr/share/man/man7/packet.7.gz
+* /usr/share/man/man7/pathname.7.gz
 * /usr/share/man/man7/path_resolution.7.gz
 * /usr/share/man/man7/persistent-keyring.7.gz
 * /usr/share/man/man7/pid_namespaces.7.gz

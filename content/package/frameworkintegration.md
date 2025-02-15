@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "frameworkintegration 6.10.0-2"
-version = "6.10.0-2"
+title = "frameworkintegration 6.11.0-1"
+version = "6.11.0-1"
 description = "Framework providing components to allow applications to integrate with a KDE Workspace."
-date = "2025-02-01T20:01:44"
+date = "2025-02-15T13:23:58"
 aliases = "/packages/218263"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "66716"
-usize = "238196"
-sha1sum = "62d08681f8aa867aa0586f496360ea549f28a437"
-depends = "['appstream-qt>=1.0.0', 'kio>=6.10.0', 'knewstuff>=6.10.0', 'kpackage>=6.10.0', 'noto-fonts', 'packagekit-qt6>=1.0.1']"
+size = "66880"
+usize = "238557"
+sha1sum = "5ff953c0c93977f6227716035aeb7511053e8479"
+depends = "['appstream-qt>=1.0.0', 'kio>=6.11.0', 'knewstuff>=6.11.0', 'kpackage>=6.11.0', 'noto-fonts', 'packagekit-qt6>=1.0.1']"
 reverse_depends = "['breeze', 'oxygen']"
 +++
 ### Description: 
@@ -30,7 +30,7 @@ Framework providing components to allow applications to integrate with a KDE Wor
 * /usr/lib/frameworkintegration/kf6/kpackagehandlers/knshandler
 * /usr/lib/libKF6Style.so
 * /usr/lib/libKF6Style.so.6
-* /usr/lib/libKF6Style.so.6.10.0
+* /usr/lib/libKF6Style.so.6.11.0
 * /usr/lib/qt6/plugins/kf6/FrameworkIntegrationPlugin.so
-* /usr/share/doc/frameworkintegration-6.10.0/README.md
+* /usr/share/doc/frameworkintegration-6.11.0/README.md
 * /usr/share/knotifications6/plasma_workspace.notifyrc
