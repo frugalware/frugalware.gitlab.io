@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "cifs-utils 7.1-1"
-version = "7.1-1"
+title = "cifs-utils 7.2-1"
+version = "7.2-1"
 description = "A set of user-space tools for the in-kernel CIFS filesystem"
-date = "2024-11-27T13:21:21"
+date = "2025-02-16T12:42:56"
 aliases = "/packages/152519"
 categories = ['network-extra']
 upstreamurl = "http://wiki.samba.org/index.php/LinuxCIFS_utils"
 arch = "x86_64"
-size = "109400"
-usize = "299993"
-sha1sum = "a7544307ecb0248144b22d694dd3cce3e7c73a23"
+size = "111308"
+usize = "303828"
+sha1sum = "e834537cefefcff2bd5df9274add95183e0b3291"
 depends = "['keyutils', 'libkrb5', 'libwbclient', 'talloc']"
 +++
 ### Description: 
@@ -29,12 +29,12 @@ A set of user-space tools for the in-kernel CIFS filesystem
 * /usr/include/cifsidmap.h
 * /usr/lib/cifs-utils/idmapwb.so
 * /usr/lib/security/pam_cifscreds.so
-* /usr/share/doc/cifs-utils-7.1/AUTHORS
-* /usr/share/doc/cifs-utils-7.1/ChangeLog
-* /usr/share/doc/cifs-utils-7.1/COPYING
-* /usr/share/doc/cifs-utils-7.1/INSTALL
-* /usr/share/doc/cifs-utils-7.1/NEWS
-* /usr/share/doc/cifs-utils-7.1/README
+* /usr/share/doc/cifs-utils-7.2/AUTHORS
+* /usr/share/doc/cifs-utils-7.2/ChangeLog
+* /usr/share/doc/cifs-utils-7.2/COPYING
+* /usr/share/doc/cifs-utils-7.2/INSTALL
+* /usr/share/doc/cifs-utils-7.2/NEWS
+* /usr/share/doc/cifs-utils-7.2/README
 * /usr/share/man/man1/cifscreds.1.gz
 * /usr/share/man/man1/getcifsacl.1.gz
 * /usr/share/man/man1/setcifsacl.1.gz

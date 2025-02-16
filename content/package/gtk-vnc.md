@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gtk-vnc 1.4.0-1"
-version = "1.4.0-1"
+title = "gtk-vnc 1.5.0-1"
+version = "1.5.0-1"
 description = "VNC viewer wigdet for GTK+"
-date = "2025-01-07T20:47:24"
+date = "2025-02-16T12:45:56"
 aliases = "/packages/73207"
 categories = ['gnome']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "187456"
-usize = "1057336"
-sha1sum = "f6b0e9ebfe31b5b816f8de8c51c1b1d13ce18f67"
+size = "189464"
+usize = "1066189"
+sha1sum = "5b437676b9df86ae91088bad626817f6bd93ccb8"
 depends = "['cyrus-sasl', 'gtk+3>=3.24.0', 'libgcrypt>=1.7.3-2', 'libpulse>=9.0-2', 'python3']"
 reverse_depends = "['virt-manager']"
 +++
@@ -55,11 +55,11 @@ VNC viewer wigdet for GTK+
 * /usr/lib/pkgconfig/gtk-vnc-2.0.pc
 * /usr/lib/pkgconfig/gvnc-1.0.pc
 * /usr/lib/pkgconfig/gvncpulse-1.0.pc
-* /usr/share/doc/gtk-vnc-1.4.0/AUTHORS
-* /usr/share/doc/gtk-vnc-1.4.0/ChangeLog
-* /usr/share/doc/gtk-vnc-1.4.0/COPYING.LIB
-* /usr/share/doc/gtk-vnc-1.4.0/NEWS
-* /usr/share/doc/gtk-vnc-1.4.0/README
+* /usr/share/doc/gtk-vnc-1.5.0/AUTHORS
+* /usr/share/doc/gtk-vnc-1.5.0/ChangeLog
+* /usr/share/doc/gtk-vnc-1.5.0/COPYING.LIB
+* /usr/share/doc/gtk-vnc-1.5.0/NEWS
+* /usr/share/doc/gtk-vnc-1.5.0/README
 * /usr/share/gir-1.0/GtkVnc-2.0.gir
 * /usr/share/gir-1.0/GVnc-1.0.gir
 * /usr/share/gir-1.0/GVncPulse-1.0.gir
