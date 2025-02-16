@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "webkit-gtk3 2.46.5-1"
-version = "2.46.5-1"
+title = "webkit-gtk3 2.46.6-1"
+version = "2.46.6-1"
 description = "Open source web browser engine gtk+3"
-date = "2024-12-31T18:38:27"
+date = "2025-02-16T16:06:58"
 aliases = "/packages/118799"
 categories = ['xlib-extra']
 upstreamurl = "http://www.webkitgtk.org"
 arch = "x86_64"
-size = "34836036"
-usize = "147318404"
-sha1sum = "d43d3869e27af6b34ff1346cef843269b7269344"
+size = "33502228"
+usize = "142654936"
+sha1sum = "b30d0e867928b5268f75c6ddce8a59746fe53f2e"
 depends = "['bubblewrap', 'enchant', 'gperf', 'gst-libav', 'gst1-plugins-bad-webrtc', 'gst1-plugins-good', 'gtk+3', 'harfbuzz-icu', 'hyphen', 'libatomic', 'libavif>=1.0.1', 'libgudev', 'libmanette', 'libnotify', 'libseccomp', 'libsecret', 'libsoup', 'libsysprof-capture', 'libwebp', 'libxslt', 'libxt', 'openjpeg', 'woff2', 'wpebackend-fdo', 'xdg-dbus-proxy']"
 reverse_depends = "['geany-plugins', 'nm-openconnect', 'remmina-www', 'telegram-desktop', 'wxwidgets']"
 +++
@@ -243,10 +243,10 @@ Open source web browser engine gtk+3
 * /usr/lib/girepository-1.0/WebKit2WebExtension-4.0.typelib
 * /usr/lib/libjavascriptcoregtk-4.0.so
 * /usr/lib/libjavascriptcoregtk-4.0.so.18
-* /usr/lib/libjavascriptcoregtk-4.0.so.18.25.14
+* /usr/lib/libjavascriptcoregtk-4.0.so.18.25.15
 * /usr/lib/libwebkit2gtk-4.0.so
 * /usr/lib/libwebkit2gtk-4.0.so.37
-* /usr/lib/libwebkit2gtk-4.0.so.37.71.7
+* /usr/lib/libwebkit2gtk-4.0.so.37.71.8
 * /usr/lib/pkgconfig/javascriptcoregtk-4.0.pc
 * /usr/lib/pkgconfig/webkit2gtk-4.0.pc
 * /usr/lib/pkgconfig/webkit2gtk-web-extension-4.0.pc
@@ -459,9 +459,7 @@ Open source web browser engine gtk+3
 * /usr/share/doc/javascriptcoregtk-4.0/style.css
 * /usr/share/doc/javascriptcoregtk-4.0/type_func.Context.get_current.html
 * /usr/share/doc/javascriptcoregtk-4.0/urlmap.js
-* /usr/share/doc/webkit-gtk3-2.46.5/LICENSE
-* /usr/share/doc/webkit-gtk3-2.46.5/NEWS
-* /usr/share/doc/webkit-gtk3-2.46.5/README.md
+* /usr/share/doc/webkit-gtk3-2.46.6/NEWS
 * /usr/share/doc/webkit2gtk-4.0/callback.URISchemeRequestCallback.html
 * /usr/share/doc/webkit2gtk-4.0/class.AuthenticationRequest.html
 * /usr/share/doc/webkit2gtk-4.0/class.AutomationSession.html

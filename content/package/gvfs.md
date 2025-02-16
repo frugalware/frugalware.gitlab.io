@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gvfs 1.56.1-1"
-version = "1.56.1-1"
+title = "gvfs 1.57.2-1"
+version = "1.57.2-1"
 description = "gvfs is a userspace virtual filesystem designed to work with the i/o abstractions of gio."
-date = "2024-11-26T10:38:02"
+date = "2025-02-16T15:20:15"
 aliases = "/packages/49980"
 categories = ['xapps-extra']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "944148"
-usize = "5567172"
-sha1sum = "d5cd27220885e107f44a288ea0b859ffc3d03f84"
+size = "942376"
+usize = "5564076"
+sha1sum = "4d1276980ef0f845b3bc58812a78a458285160d1"
 depends = "['avahi-glib>=0.6.31-9', 'dbus>=1.10.10-4', 'gcr', 'glib2>=2.56.0', 'gsettings-desktop-schemas', 'gtk+3>=3.22.29', 'libarchive>=3.2.1', 'libbluray', 'libcdio>=2.1.0', 'libcdio-paranoia>=10.2+0.93+1-3', 'libsecret>=0.18.5-5', 'libsoup3', 'udisks2>=2.7.6']"
 reverse_depends = "['gvfs-apple', 'gvfs-fuse', 'gvfs-gphoto2', 'gvfs-mtp', 'gvfs-smb']"
 +++
@@ -51,9 +51,9 @@ gvfs is a userspace virtual filesystem designed to work with the i/o abstraction
 * /usr/share/dbus-1/services/org.gtk.vfs.Daemon.service
 * /usr/share/dbus-1/services/org.gtk.vfs.Metadata.service
 * /usr/share/dbus-1/services/org.gtk.vfs.UDisks2VolumeMonitor.service
-* /usr/share/doc/gvfs-1.56.1/COPYING
-* /usr/share/doc/gvfs-1.56.1/NEWS
-* /usr/share/doc/gvfs-1.56.1/README.md
+* /usr/share/doc/gvfs-1.57.2/COPYING
+* /usr/share/doc/gvfs-1.57.2/NEWS
+* /usr/share/doc/gvfs-1.57.2/README.md
 * /usr/share/GConf/gsettings/gvfs-dns-sd.convert
 * /usr/share/GConf/gsettings/gvfs-smb.convert
 * /usr/share/glib-2.0/schemas/org.gnome.system.dns_sd.gschema.xml

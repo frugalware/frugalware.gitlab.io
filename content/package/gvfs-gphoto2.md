@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gvfs-gphoto2 1.56.1-1"
-version = "1.56.1-1"
+title = "gvfs-gphoto2 1.57.2-1"
+version = "1.57.2-1"
 description = "gvfs with gphoto2 support"
-date = "2024-11-26T10:38:02"
+date = "2025-02-16T15:20:15"
 aliases = "/packages/103864"
 categories = ['xapps-extra']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "41620"
-usize = "154261"
-sha1sum = "388bca3149d3ea9b668babc4939c2a92b71aa943"
-depends = "['gphoto2>=2.5.9-2', 'gvfs>=1.56.1']"
+size = "41704"
+usize = "154077"
+sha1sum = "d277c2e314d7b1422552804fe160bdbe4dbd7193"
+depends = "['gphoto2>=2.5.9-2', 'gvfs>=1.57.2']"
 +++
 ### Description: 
 gvfs with gphoto2 support

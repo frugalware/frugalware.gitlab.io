@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gvfs-mtp 1.56.1-1"
-version = "1.56.1-1"
+title = "gvfs-mtp 1.57.2-1"
+version = "1.57.2-1"
 description = "gvfs with MTP support"
-date = "2024-11-26T10:38:02"
+date = "2025-02-16T15:20:15"
 aliases = "/packages/217559"
 categories = ['xapps-extra']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "41820"
-usize = "156159"
-sha1sum = "358c2807f0253f9aba471fa331bba447724f15b4"
-depends = "['gvfs>=1.56.1', 'libmtp>=1.1.10-3']"
+size = "42296"
+usize = "156551"
+sha1sum = "1109f2f599a339b2b5067e5e793c5fb53750a2cc"
+depends = "['gvfs>=1.57.2', 'libmtp>=1.1.10-3']"
 +++
 ### Description: 
 gvfs with MTP support
