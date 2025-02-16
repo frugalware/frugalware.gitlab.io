@@ -12,7 +12,7 @@ size = "128588"
 usize = "665539"
 sha1sum = "eb9e4cb0bee6c412981ed71695c5ee872bf96c47"
 depends = "['lib32-expat>=2.1.0-6', 'lib32-libffi>=3.4', 'lib32-libxml2']"
-reverse_depends = "['lib32-libegl', 'lib32-libgbm', 'lib32-libva', 'lib32-mangohud', 'lib32-mesa-libegl', 'lib32-vulkan-mesa-layers', 'vulkan-mesa-layers']"
+reverse_depends = "['lib32-libegl', 'lib32-libgbm', 'lib32-libva', 'lib32-mangohud', 'lib32-mesa-libegl', 'lib32-vulkan-mesa-layers', 'vulkan-mesa-layers', 'wine', 'wine-devel']"
 +++
 ### Description: 
 Wayland is intended as a simpler replacement for Xorg. ( 32bit )

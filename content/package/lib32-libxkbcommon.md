@@ -12,7 +12,7 @@ size = "194924"
 usize = "798539"
 sha1sum = "6ecdc1d8bd47151ec5acbdabdadb84cbf7bb7b90"
 depends = "['lib32-libxcb>=1.12-2', 'lib32-libxml2']"
-reverse_depends = "['lib32-mangohud']"
+reverse_depends = "['lib32-mangohud', 'wine', 'wine-devel']"
 +++
 ### Description: 
 Keymap compiler and support library for the XKB specification. ( 32bit )

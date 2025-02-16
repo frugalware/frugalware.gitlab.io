@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "wine-devel 9.17-1"
-version = "9.17-1"
+title = "wine-devel 10.1-1"
+version = "10.1-1"
 description = "An Open Source implementation of the Windows API on top of X and Unix. (Development)"
-date = "2024-09-11T19:20:23"
+date = "2025-02-16T11:28:59"
 aliases = "/packages/136362"
 categories = ['xapps-extra']
 upstreamurl = "http://www.winehq.org"
 arch = "x86_64"
-size = "72983084"
-usize = "575756042"
-sha1sum = "92dae387019ca7676c9f13e76846e1a56a6ce203"
-depends = "['faudio', 'gettext', 'gst1-plugins-base', 'gst1-plugins-base', 'lcms2', 'lib32-faudio', 'lib32-freetype2', 'lib32-lcms2', 'lib32-libldap>=2.5.4', 'lib32-libosmesa', 'lib32-libxcomposite', 'lib32-libxcursor', 'lib32-libxi', 'lib32-libxinerama', 'lib32-libxml2', 'lib32-libxrandr', 'lib32-libxrender', 'lib32-ncurses', 'lib32-ocl-icd', 'lib32-vkd3d', 'lib32-vulkan-icd-loader', 'libglu', 'libgphoto2', 'libldap>=2.5.4', 'libmpg123', 'libosmesa', 'libpcap', 'libpulse', 'libxcomposite', 'libxcursor', 'libxi', 'libxinerama', 'libxkbcommon', 'libxml2', 'libxrandr', 'libxrender', 'libxslt', 'ocl-icd', 'openal', 'pcsc-lite', 'sane-backends', 'v4l-utils', 'vkd3d', 'vulkan-icd-loader']"
+size = "74521136"
+usize = "602722994"
+sha1sum = "fe9f11c7fa573cbca60453ecca5fa2fded636f5a"
+depends = "['faudio', 'gettext', 'gst1-plugins-base', 'lcms2', 'lib32-faudio', 'lib32-freetype2', 'lib32-lcms2', 'lib32-libldap>=2.5.4', 'lib32-libosmesa', 'lib32-libxcomposite', 'lib32-libxcursor', 'lib32-libxi', 'lib32-libxinerama', 'lib32-libxkbcommon', 'lib32-libxml2', 'lib32-libxrandr', 'lib32-libxrender', 'lib32-ncurses', 'lib32-ocl-icd', 'lib32-vkd3d', 'lib32-vulkan-icd-loader', 'lib32-wayland', 'libglu', 'libgphoto2', 'libldap>=2.5.4', 'libmpg123', 'libosmesa', 'libpcap', 'libpulse', 'libxcomposite', 'libxcursor', 'libxi', 'libxinerama', 'libxkbcommon', 'libxml2', 'libxrandr', 'libxrender', 'libxslt', 'ocl-icd', 'openal', 'pcsc-lite', 'sane-backends', 'v4l-utils', 'vkd3d', 'vulkan-icd-loader', 'wayland']"
 +++
 ### Description: 
 An Open Source implementation of the Windows API on top of X and Unix. (Development)
@@ -198,6 +198,8 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/include/wine/windows/bits5_0.idl
 * /usr/include/wine/windows/bitsmsg.h
 * /usr/include/wine/windows/bluetoothapis.h
+* /usr/include/wine/windows/bthdef.h
+* /usr/include/wine/windows/bthioctl.h
 * /usr/include/wine/windows/bthsdpdef.h
 * /usr/include/wine/windows/cderr.h
 * /usr/include/wine/windows/cdosys.h
@@ -313,6 +315,8 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/include/wine/windows/d3d8types.h
 * /usr/include/wine/windows/d3d9.h
 * /usr/include/wine/windows/d3d9caps.h
+* /usr/include/wine/windows/d3d9on12.h
+* /usr/include/wine/windows/d3d9on12.idl
 * /usr/include/wine/windows/d3d9types.h
 * /usr/include/wine/windows/d3dcaps.h
 * /usr/include/wine/windows/d3dcommon.h
@@ -461,6 +465,8 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/include/wine/windows/dplobby.h
 * /usr/include/wine/windows/dplobby8.h
 * /usr/include/wine/windows/dpnathlp.h
+* /usr/include/wine/windows/dragdropinterop.h
+* /usr/include/wine/windows/dragdropinterop.idl
 * /usr/include/wine/windows/driverspecs.h
 * /usr/include/wine/windows/drmexternals.h
 * /usr/include/wine/windows/drmexternals.idl
@@ -512,6 +518,8 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/include/wine/windows/dxva.h
 * /usr/include/wine/windows/dxva2api.h
 * /usr/include/wine/windows/dxva2api.idl
+* /usr/include/wine/windows/dxvahd.h
+* /usr/include/wine/windows/dxvahd.idl
 * /usr/include/wine/windows/dyngraph.idl
 * /usr/include/wine/windows/endpointvolume.h
 * /usr/include/wine/windows/endpointvolume.idl
@@ -913,10 +921,14 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/include/wine/windows/rpcsal.h
 * /usr/include/wine/windows/rstbas.idl
 * /usr/include/wine/windows/rstchg.idl
+* /usr/include/wine/windows/rstfnd.idl
+* /usr/include/wine/windows/rstidn.idl
 * /usr/include/wine/windows/rstinf.idl
 * /usr/include/wine/windows/rstloc.idl
 * /usr/include/wine/windows/rstnot.idl
+* /usr/include/wine/windows/rstscr.idl
 * /usr/include/wine/windows/rstupd.idl
+* /usr/include/wine/windows/rstxsc.idl
 * /usr/include/wine/windows/rtlsupportapi.h
 * /usr/include/wine/windows/rtutils.h
 * /usr/include/wine/windows/rtworkq.h
@@ -1081,6 +1093,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/include/wine/windows/weakreference.h
 * /usr/include/wine/windows/weakreference.idl
 * /usr/include/wine/windows/webservices.h
+* /usr/include/wine/windows/websocket.h
 * /usr/include/wine/windows/werapi.h
 * /usr/include/wine/windows/wfext.h
 * /usr/include/wine/windows/wia.h
@@ -1110,10 +1123,18 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/include/wine/windows/windows.applicationmodel.background.idl
 * /usr/include/wine/windows/windows.applicationmodel.core.h
 * /usr/include/wine/windows/windows.applicationmodel.core.idl
+* /usr/include/wine/windows/windows.applicationmodel.datatransfer.dragdrop.core.h
+* /usr/include/wine/windows/windows.applicationmodel.datatransfer.dragdrop.core.idl
+* /usr/include/wine/windows/windows.applicationmodel.datatransfer.dragdrop.h
+* /usr/include/wine/windows/windows.applicationmodel.datatransfer.dragdrop.idl
+* /usr/include/wine/windows/windows.applicationmodel.datatransfer.h
+* /usr/include/wine/windows/windows.applicationmodel.datatransfer.idl
 * /usr/include/wine/windows/windows.applicationmodel.h
 * /usr/include/wine/windows/windows.applicationmodel.idl
 * /usr/include/wine/windows/windows.data.json.h
 * /usr/include/wine/windows/windows.data.json.idl
+* /usr/include/wine/windows/windows.data.xml.dom.h
+* /usr/include/wine/windows/windows.data.xml.dom.idl
 * /usr/include/wine/windows/windows.devices.bluetooth.h
 * /usr/include/wine/windows/windows.devices.bluetooth.idl
 * /usr/include/wine/windows/windows.devices.enumeration.h
@@ -1195,12 +1216,16 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/include/wine/windows/windows.perception.spatial.surfaces.idl
 * /usr/include/wine/windows/windows.security.authentication.onlineid.h
 * /usr/include/wine/windows/windows.security.authentication.onlineid.idl
+* /usr/include/wine/windows/windows.security.authorization.appcapabilityaccess.h
+* /usr/include/wine/windows/windows.security.authorization.appcapabilityaccess.idl
 * /usr/include/wine/windows/windows.security.credentials.h
 * /usr/include/wine/windows/windows.security.credentials.idl
 * /usr/include/wine/windows/windows.security.credentials.ui.h
 * /usr/include/wine/windows/windows.security.credentials.ui.idl
 * /usr/include/wine/windows/windows.security.cryptography.h
 * /usr/include/wine/windows/windows.security.cryptography.idl
+* /usr/include/wine/windows/windows.security.enterprisedata.h
+* /usr/include/wine/windows/windows.security.enterprisedata.idl
 * /usr/include/wine/windows/windows.security.exchangeactivesyncprovisioning.h
 * /usr/include/wine/windows/windows.security.exchangeactivesyncprovisioning.idl
 * /usr/include/wine/windows/windows.security.isolation.h
@@ -1235,10 +1260,16 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/include/wine/windows/windows.ui.idl
 * /usr/include/wine/windows/windows.ui.input.h
 * /usr/include/wine/windows/windows.ui.input.idl
+* /usr/include/wine/windows/windows.ui.notifications.h
+* /usr/include/wine/windows/windows.ui.notifications.idl
 * /usr/include/wine/windows/windows.ui.viewmanagement.h
 * /usr/include/wine/windows/windows.ui.viewmanagement.idl
+* /usr/include/wine/windows/windows.ui.xaml.h
 * /usr/include/wine/windows/windows.ui.xaml.hosting.desktopwindowxamlsource.h
 * /usr/include/wine/windows/windows.ui.xaml.hosting.desktopwindowxamlsource.idl
+* /usr/include/wine/windows/windows.ui.xaml.idl
+* /usr/include/wine/windows/windows.ui.xaml.interop.h
+* /usr/include/wine/windows/windows.ui.xaml.interop.idl
 * /usr/include/wine/windows/windowscontracts.h
 * /usr/include/wine/windows/windowscontracts.idl
 * /usr/include/wine/windows/windowsx.h
@@ -1494,6 +1525,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib/wine/x86_64-unix/d3dx9_42.dll.so
 * /usr/lib/wine/x86_64-unix/d3dx9_43.dll.so
 * /usr/lib/wine/x86_64-unix/d3dxof.dll.so
+* /usr/lib/wine/x86_64-unix/dataexchange.dll.so
 * /usr/lib/wine/x86_64-unix/davclnt.dll.so
 * /usr/lib/wine/x86_64-unix/dbgeng.dll.so
 * /usr/lib/wine/x86_64-unix/dbghelp.dll.so
@@ -1501,6 +1533,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib/wine/x86_64-unix/dcomp.dll.so
 * /usr/lib/wine/x86_64-unix/ddraw.dll.so
 * /usr/lib/wine/x86_64-unix/ddrawex.dll.so
+* /usr/lib/wine/x86_64-unix/desk.cpl.so
 * /usr/lib/wine/x86_64-unix/devenum.dll.so
 * /usr/lib/wine/x86_64-unix/dhcpcsvc.dll.so
 * /usr/lib/wine/x86_64-unix/dhcpcsvc6.dll.so
@@ -1599,8 +1632,10 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib/wine/x86_64-unix/icacls.exe.so
 * /usr/lib/wine/x86_64-unix/iccvid.dll.so
 * /usr/lib/wine/x86_64-unix/icinfo.exe.so
+* /usr/lib/wine/x86_64-unix/icmui.dll.so
 * /usr/lib/wine/x86_64-unix/ieframe.dll.so
 * /usr/lib/wine/x86_64-unix/ieproxy.dll.so
+* /usr/lib/wine/x86_64-unix/iertutil.dll.so
 * /usr/lib/wine/x86_64-unix/iexplore.exe.so
 * /usr/lib/wine/x86_64-unix/imaadp32.acm.so
 * /usr/lib/wine/x86_64-unix/imagehlp.dll.so
@@ -1690,7 +1725,9 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib/wine/x86_64-unix/libd3dx11.a
 * /usr/lib/wine/x86_64-unix/libd3dx11_42.a
 * /usr/lib/wine/x86_64-unix/libd3dx9.a
+* /usr/lib/wine/x86_64-unix/libd3dx9_43.a
 * /usr/lib/wine/x86_64-unix/libd3dxof.a
+* /usr/lib/wine/x86_64-unix/libdataexchange.a
 * /usr/lib/wine/x86_64-unix/libdbgeng.a
 * /usr/lib/wine/x86_64-unix/libdbghelp.a
 * /usr/lib/wine/x86_64-unix/libdciman32.a
@@ -1723,6 +1760,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib/wine/x86_64-unix/libhlink.a
 * /usr/lib/wine/x86_64-unix/libhtmlhelp.a
 * /usr/lib/wine/x86_64-unix/libhttpapi.a
+* /usr/lib/wine/x86_64-unix/libicmui.a
 * /usr/lib/wine/x86_64-unix/libieframe.a
 * /usr/lib/wine/x86_64-unix/libimagehlp.a
 * /usr/lib/wine/x86_64-unix/libimm32.a
@@ -1847,6 +1885,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib/wine/x86_64-unix/libwindowscodecsext.a
 * /usr/lib/wine/x86_64-unix/libwinecrt0.a
 * /usr/lib/wine/x86_64-unix/libwined3d.a
+* /usr/lib/wine/x86_64-unix/libwinedmo.a
 * /usr/lib/wine/x86_64-unix/libwinegstreamer.a
 * /usr/lib/wine/x86_64-unix/libwinevulkan.a
 * /usr/lib/wine/x86_64-unix/libwing32.a
@@ -1858,6 +1897,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib/wine/x86_64-unix/libwinspool.a
 * /usr/lib/wine/x86_64-unix/libwintab32.a
 * /usr/lib/wine/x86_64-unix/libwintrust.a
+* /usr/lib/wine/x86_64-unix/libwintypes.a
 * /usr/lib/wine/x86_64-unix/libwlanapi.a
 * /usr/lib/wine/x86_64-unix/libwldap32.a
 * /usr/lib/wine/x86_64-unix/libwmcodecdspuuid.a
@@ -2126,6 +2166,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib/wine/x86_64-unix/slc.dll.so
 * /usr/lib/wine/x86_64-unix/snmpapi.dll.so
 * /usr/lib/wine/x86_64-unix/softpub.dll.so
+* /usr/lib/wine/x86_64-unix/sort.exe.so
 * /usr/lib/wine/x86_64-unix/spoolss.dll.so
 * /usr/lib/wine/x86_64-unix/spoolsv.exe.so
 * /usr/lib/wine/x86_64-unix/sppc.dll.so
@@ -2212,6 +2253,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib/wine/x86_64-unix/windows.media.dll.so
 * /usr/lib/wine/x86_64-unix/windows.media.mediacontrol.dll.so
 * /usr/lib/wine/x86_64-unix/windows.media.speech.dll.so
+* /usr/lib/wine/x86_64-unix/windows.networking.connectivity.dll.so
 * /usr/lib/wine/x86_64-unix/windows.networking.dll.so
 * /usr/lib/wine/x86_64-unix/windows.networking.hostname.dll.so
 * /usr/lib/wine/x86_64-unix/windows.perception.stub.dll.so
@@ -2220,6 +2262,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib/wine/x86_64-unix/windows.storage.applicationdata.dll.so
 * /usr/lib/wine/x86_64-unix/windows.system.profile.systemmanufacturers.dll.so
 * /usr/lib/wine/x86_64-unix/windows.ui.dll.so
+* /usr/lib/wine/x86_64-unix/windows.ui.xaml.dll.so
 * /usr/lib/wine/x86_64-unix/windows.web.dll.so
 * /usr/lib/wine/x86_64-unix/windowscodecs.dll.so
 * /usr/lib/wine/x86_64-unix/windowscodecsext.dll.so
@@ -2227,6 +2270,8 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib/wine/x86_64-unix/winealsa.so
 * /usr/lib/wine/x86_64-unix/wineboot.exe.so
 * /usr/lib/wine/x86_64-unix/winebrowser.exe.so
+* /usr/lib/wine/x86_64-unix/winebth.so
+* /usr/lib/wine/x86_64-unix/winebth.sys.so
 * /usr/lib/wine/x86_64-unix/winebus.so
 * /usr/lib/wine/x86_64-unix/winebus.sys.so
 * /usr/lib/wine/x86_64-unix/winecfg.exe.so
@@ -2234,6 +2279,8 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib/wine/x86_64-unix/wined3d.dll.so
 * /usr/lib/wine/x86_64-unix/winedbg.exe.so
 * /usr/lib/wine/x86_64-unix/winedevice.exe.so
+* /usr/lib/wine/x86_64-unix/winedmo.dll.so
+* /usr/lib/wine/x86_64-unix/winedmo.so
 * /usr/lib/wine/x86_64-unix/winefile.exe.so
 * /usr/lib/wine/x86_64-unix/winegstreamer.dll.so
 * /usr/lib/wine/x86_64-unix/winegstreamer.so
@@ -2281,6 +2328,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib/wine/x86_64-unix/wmadmod.dll.so
 * /usr/lib/wine/x86_64-unix/wmasf.dll.so
 * /usr/lib/wine/x86_64-unix/wmic.exe.so
+* /usr/lib/wine/x86_64-unix/wmilib.sys.so
 * /usr/lib/wine/x86_64-unix/wmiutils.dll.so
 * /usr/lib/wine/x86_64-unix/wmp.dll.so
 * /usr/lib/wine/x86_64-unix/wmphoto.dll.so
@@ -2485,6 +2533,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib/wine/x86_64-windows/d3dx9_42.dll
 * /usr/lib/wine/x86_64-windows/d3dx9_43.dll
 * /usr/lib/wine/x86_64-windows/d3dxof.dll
+* /usr/lib/wine/x86_64-windows/dataexchange.dll
 * /usr/lib/wine/x86_64-windows/davclnt.dll
 * /usr/lib/wine/x86_64-windows/dbgeng.dll
 * /usr/lib/wine/x86_64-windows/dbghelp.dll
@@ -2492,6 +2541,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib/wine/x86_64-windows/dcomp.dll
 * /usr/lib/wine/x86_64-windows/ddraw.dll
 * /usr/lib/wine/x86_64-windows/ddrawex.dll
+* /usr/lib/wine/x86_64-windows/desk.cpl
 * /usr/lib/wine/x86_64-windows/devenum.dll
 * /usr/lib/wine/x86_64-windows/dhcpcsvc.dll
 * /usr/lib/wine/x86_64-windows/dhcpcsvc6.dll
@@ -2588,8 +2638,10 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib/wine/x86_64-windows/iccvid.dll
 * /usr/lib/wine/x86_64-windows/icinfo.exe
 * /usr/lib/wine/x86_64-windows/icmp.dll
+* /usr/lib/wine/x86_64-windows/icmui.dll
 * /usr/lib/wine/x86_64-windows/ieframe.dll
 * /usr/lib/wine/x86_64-windows/ieproxy.dll
+* /usr/lib/wine/x86_64-windows/iertutil.dll
 * /usr/lib/wine/x86_64-windows/iexplore.exe
 * /usr/lib/wine/x86_64-windows/imaadp32.acm
 * /usr/lib/wine/x86_64-windows/imagehlp.dll
@@ -2873,6 +2925,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib/wine/x86_64-windows/slc.dll
 * /usr/lib/wine/x86_64-windows/snmpapi.dll
 * /usr/lib/wine/x86_64-windows/softpub.dll
+* /usr/lib/wine/x86_64-windows/sort.exe
 * /usr/lib/wine/x86_64-windows/spoolss.dll
 * /usr/lib/wine/x86_64-windows/spoolsv.exe
 * /usr/lib/wine/x86_64-windows/sppc.dll
@@ -2962,6 +3015,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib/wine/x86_64-windows/windows.media.dll
 * /usr/lib/wine/x86_64-windows/windows.media.mediacontrol.dll
 * /usr/lib/wine/x86_64-windows/windows.media.speech.dll
+* /usr/lib/wine/x86_64-windows/windows.networking.connectivity.dll
 * /usr/lib/wine/x86_64-windows/windows.networking.dll
 * /usr/lib/wine/x86_64-windows/windows.networking.hostname.dll
 * /usr/lib/wine/x86_64-windows/windows.perception.stub.dll
@@ -2970,18 +3024,21 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib/wine/x86_64-windows/windows.storage.applicationdata.dll
 * /usr/lib/wine/x86_64-windows/windows.system.profile.systemmanufacturers.dll
 * /usr/lib/wine/x86_64-windows/windows.ui.dll
+* /usr/lib/wine/x86_64-windows/windows.ui.xaml.dll
 * /usr/lib/wine/x86_64-windows/windows.web.dll
 * /usr/lib/wine/x86_64-windows/windowscodecs.dll
 * /usr/lib/wine/x86_64-windows/windowscodecsext.dll
 * /usr/lib/wine/x86_64-windows/winealsa.drv
 * /usr/lib/wine/x86_64-windows/wineboot.exe
 * /usr/lib/wine/x86_64-windows/winebrowser.exe
+* /usr/lib/wine/x86_64-windows/winebth.sys
 * /usr/lib/wine/x86_64-windows/winebus.sys
 * /usr/lib/wine/x86_64-windows/winecfg.exe
 * /usr/lib/wine/x86_64-windows/wineconsole.exe
 * /usr/lib/wine/x86_64-windows/wined3d.dll
 * /usr/lib/wine/x86_64-windows/winedbg.exe
 * /usr/lib/wine/x86_64-windows/winedevice.exe
+* /usr/lib/wine/x86_64-windows/winedmo.dll
 * /usr/lib/wine/x86_64-windows/winefile.exe
 * /usr/lib/wine/x86_64-windows/winegstreamer.dll
 * /usr/lib/wine/x86_64-windows/winehid.sys
@@ -3021,6 +3078,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib/wine/x86_64-windows/wmasf.dll
 * /usr/lib/wine/x86_64-windows/wmi.dll
 * /usr/lib/wine/x86_64-windows/wmic.exe
+* /usr/lib/wine/x86_64-windows/wmilib.sys
 * /usr/lib/wine/x86_64-windows/wmiutils.dll
 * /usr/lib/wine/x86_64-windows/wmp.dll
 * /usr/lib/wine/x86_64-windows/wmphoto.dll
@@ -3231,6 +3289,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib32/wine/i386-unix/d3dx9_42.dll.so
 * /usr/lib32/wine/i386-unix/d3dx9_43.dll.so
 * /usr/lib32/wine/i386-unix/d3dxof.dll.so
+* /usr/lib32/wine/i386-unix/dataexchange.dll.so
 * /usr/lib32/wine/i386-unix/davclnt.dll.so
 * /usr/lib32/wine/i386-unix/dbgeng.dll.so
 * /usr/lib32/wine/i386-unix/dbghelp.dll.so
@@ -3239,6 +3298,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib32/wine/i386-unix/ddeml.dll16.so
 * /usr/lib32/wine/i386-unix/ddraw.dll.so
 * /usr/lib32/wine/i386-unix/ddrawex.dll.so
+* /usr/lib32/wine/i386-unix/desk.cpl.so
 * /usr/lib32/wine/i386-unix/devenum.dll.so
 * /usr/lib32/wine/i386-unix/dhcpcsvc.dll.so
 * /usr/lib32/wine/i386-unix/dhcpcsvc6.dll.so
@@ -3338,8 +3398,10 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib32/wine/i386-unix/icacls.exe.so
 * /usr/lib32/wine/i386-unix/iccvid.dll.so
 * /usr/lib32/wine/i386-unix/icinfo.exe.so
+* /usr/lib32/wine/i386-unix/icmui.dll.so
 * /usr/lib32/wine/i386-unix/ieframe.dll.so
 * /usr/lib32/wine/i386-unix/ieproxy.dll.so
+* /usr/lib32/wine/i386-unix/iertutil.dll.so
 * /usr/lib32/wine/i386-unix/iexplore.exe.so
 * /usr/lib32/wine/i386-unix/ifsmgr.vxd.so
 * /usr/lib32/wine/i386-unix/imaadp32.acm.so
@@ -3433,7 +3495,9 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib32/wine/i386-unix/libd3dx11.a
 * /usr/lib32/wine/i386-unix/libd3dx11_42.a
 * /usr/lib32/wine/i386-unix/libd3dx9.a
+* /usr/lib32/wine/i386-unix/libd3dx9_43.a
 * /usr/lib32/wine/i386-unix/libd3dxof.a
+* /usr/lib32/wine/i386-unix/libdataexchange.a
 * /usr/lib32/wine/i386-unix/libdbgeng.a
 * /usr/lib32/wine/i386-unix/libdbghelp.a
 * /usr/lib32/wine/i386-unix/libdciman32.a
@@ -3466,6 +3530,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib32/wine/i386-unix/libhlink.a
 * /usr/lib32/wine/i386-unix/libhtmlhelp.a
 * /usr/lib32/wine/i386-unix/libhttpapi.a
+* /usr/lib32/wine/i386-unix/libicmui.a
 * /usr/lib32/wine/i386-unix/libieframe.a
 * /usr/lib32/wine/i386-unix/libimagehlp.a
 * /usr/lib32/wine/i386-unix/libimm32.a
@@ -3591,6 +3656,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib32/wine/i386-unix/libwindowscodecsext.a
 * /usr/lib32/wine/i386-unix/libwinecrt0.a
 * /usr/lib32/wine/i386-unix/libwined3d.a
+* /usr/lib32/wine/i386-unix/libwinedmo.a
 * /usr/lib32/wine/i386-unix/libwinevulkan.a
 * /usr/lib32/wine/i386-unix/libwing32.a
 * /usr/lib32/wine/i386-unix/libwinhttp.a
@@ -3600,6 +3666,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib32/wine/i386-unix/libwinspool.a
 * /usr/lib32/wine/i386-unix/libwintab32.a
 * /usr/lib32/wine/i386-unix/libwintrust.a
+* /usr/lib32/wine/i386-unix/libwintypes.a
 * /usr/lib32/wine/i386-unix/libwlanapi.a
 * /usr/lib32/wine/i386-unix/libwldap32.a
 * /usr/lib32/wine/i386-unix/libwmcodecdspuuid.a
@@ -3886,6 +3953,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib32/wine/i386-unix/slc.dll.so
 * /usr/lib32/wine/i386-unix/snmpapi.dll.so
 * /usr/lib32/wine/i386-unix/softpub.dll.so
+* /usr/lib32/wine/i386-unix/sort.exe.so
 * /usr/lib32/wine/i386-unix/sound.drv16.so
 * /usr/lib32/wine/i386-unix/spoolss.dll.so
 * /usr/lib32/wine/i386-unix/spoolsv.exe.so
@@ -3992,6 +4060,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib32/wine/i386-unix/windows.media.dll.so
 * /usr/lib32/wine/i386-unix/windows.media.mediacontrol.dll.so
 * /usr/lib32/wine/i386-unix/windows.media.speech.dll.so
+* /usr/lib32/wine/i386-unix/windows.networking.connectivity.dll.so
 * /usr/lib32/wine/i386-unix/windows.networking.dll.so
 * /usr/lib32/wine/i386-unix/windows.networking.hostname.dll.so
 * /usr/lib32/wine/i386-unix/windows.perception.stub.dll.so
@@ -4000,11 +4069,14 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib32/wine/i386-unix/windows.storage.applicationdata.dll.so
 * /usr/lib32/wine/i386-unix/windows.system.profile.systemmanufacturers.dll.so
 * /usr/lib32/wine/i386-unix/windows.ui.dll.so
+* /usr/lib32/wine/i386-unix/windows.ui.xaml.dll.so
 * /usr/lib32/wine/i386-unix/windows.web.dll.so
 * /usr/lib32/wine/i386-unix/windowscodecs.dll.so
 * /usr/lib32/wine/i386-unix/windowscodecsext.dll.so
 * /usr/lib32/wine/i386-unix/wineboot.exe.so
 * /usr/lib32/wine/i386-unix/winebrowser.exe.so
+* /usr/lib32/wine/i386-unix/winebth.so
+* /usr/lib32/wine/i386-unix/winebth.sys.so
 * /usr/lib32/wine/i386-unix/winebus.so
 * /usr/lib32/wine/i386-unix/winebus.sys.so
 * /usr/lib32/wine/i386-unix/winecfg.exe.so
@@ -4012,6 +4084,8 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib32/wine/i386-unix/wined3d.dll.so
 * /usr/lib32/wine/i386-unix/winedbg.exe.so
 * /usr/lib32/wine/i386-unix/winedevice.exe.so
+* /usr/lib32/wine/i386-unix/winedmo.dll.so
+* /usr/lib32/wine/i386-unix/winedmo.so
 * /usr/lib32/wine/i386-unix/winefile.exe.so
 * /usr/lib32/wine/i386-unix/winehid.sys.so
 * /usr/lib32/wine/i386-unix/winemapi.dll.so
@@ -4025,6 +4099,8 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib32/wine/i386-unix/winevdm.exe.so
 * /usr/lib32/wine/i386-unix/winevulkan.dll.so
 * /usr/lib32/wine/i386-unix/winevulkan.so
+* /usr/lib32/wine/i386-unix/winewayland.drv.so
+* /usr/lib32/wine/i386-unix/winewayland.so
 * /usr/lib32/wine/i386-unix/winex11.drv.so
 * /usr/lib32/wine/i386-unix/winex11.so
 * /usr/lib32/wine/i386-unix/winexinput.sys.so
@@ -4057,6 +4133,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib32/wine/i386-unix/wmadmod.dll.so
 * /usr/lib32/wine/i386-unix/wmasf.dll.so
 * /usr/lib32/wine/i386-unix/wmic.exe.so
+* /usr/lib32/wine/i386-unix/wmilib.sys.so
 * /usr/lib32/wine/i386-unix/wmiutils.dll.so
 * /usr/lib32/wine/i386-unix/wmp.dll.so
 * /usr/lib32/wine/i386-unix/wmphoto.dll.so
@@ -4266,6 +4343,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib32/wine/i386-windows/d3dx9_42.dll
 * /usr/lib32/wine/i386-windows/d3dx9_43.dll
 * /usr/lib32/wine/i386-windows/d3dxof.dll
+* /usr/lib32/wine/i386-windows/dataexchange.dll
 * /usr/lib32/wine/i386-windows/davclnt.dll
 * /usr/lib32/wine/i386-windows/dbgeng.dll
 * /usr/lib32/wine/i386-windows/dbghelp.dll
@@ -4274,6 +4352,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib32/wine/i386-windows/ddeml.dll16
 * /usr/lib32/wine/i386-windows/ddraw.dll
 * /usr/lib32/wine/i386-windows/ddrawex.dll
+* /usr/lib32/wine/i386-windows/desk.cpl
 * /usr/lib32/wine/i386-windows/devenum.dll
 * /usr/lib32/wine/i386-windows/dhcpcsvc.dll
 * /usr/lib32/wine/i386-windows/dhcpcsvc6.dll
@@ -4372,8 +4451,10 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib32/wine/i386-windows/iccvid.dll
 * /usr/lib32/wine/i386-windows/icinfo.exe
 * /usr/lib32/wine/i386-windows/icmp.dll
+* /usr/lib32/wine/i386-windows/icmui.dll
 * /usr/lib32/wine/i386-windows/ieframe.dll
 * /usr/lib32/wine/i386-windows/ieproxy.dll
+* /usr/lib32/wine/i386-windows/iertutil.dll
 * /usr/lib32/wine/i386-windows/iexplore.exe
 * /usr/lib32/wine/i386-windows/ifsmgr.vxd
 * /usr/lib32/wine/i386-windows/imaadp32.acm
@@ -4679,6 +4760,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib32/wine/i386-windows/slc.dll
 * /usr/lib32/wine/i386-windows/snmpapi.dll
 * /usr/lib32/wine/i386-windows/softpub.dll
+* /usr/lib32/wine/i386-windows/sort.exe
 * /usr/lib32/wine/i386-windows/sound.drv16
 * /usr/lib32/wine/i386-windows/spoolss.dll
 * /usr/lib32/wine/i386-windows/spoolsv.exe
@@ -4788,6 +4870,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib32/wine/i386-windows/windows.media.dll
 * /usr/lib32/wine/i386-windows/windows.media.mediacontrol.dll
 * /usr/lib32/wine/i386-windows/windows.media.speech.dll
+* /usr/lib32/wine/i386-windows/windows.networking.connectivity.dll
 * /usr/lib32/wine/i386-windows/windows.networking.dll
 * /usr/lib32/wine/i386-windows/windows.networking.hostname.dll
 * /usr/lib32/wine/i386-windows/windows.perception.stub.dll
@@ -4796,17 +4879,20 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib32/wine/i386-windows/windows.storage.applicationdata.dll
 * /usr/lib32/wine/i386-windows/windows.system.profile.systemmanufacturers.dll
 * /usr/lib32/wine/i386-windows/windows.ui.dll
+* /usr/lib32/wine/i386-windows/windows.ui.xaml.dll
 * /usr/lib32/wine/i386-windows/windows.web.dll
 * /usr/lib32/wine/i386-windows/windowscodecs.dll
 * /usr/lib32/wine/i386-windows/windowscodecsext.dll
 * /usr/lib32/wine/i386-windows/wineboot.exe
 * /usr/lib32/wine/i386-windows/winebrowser.exe
+* /usr/lib32/wine/i386-windows/winebth.sys
 * /usr/lib32/wine/i386-windows/winebus.sys
 * /usr/lib32/wine/i386-windows/winecfg.exe
 * /usr/lib32/wine/i386-windows/wineconsole.exe
 * /usr/lib32/wine/i386-windows/wined3d.dll
 * /usr/lib32/wine/i386-windows/winedbg.exe
 * /usr/lib32/wine/i386-windows/winedevice.exe
+* /usr/lib32/wine/i386-windows/winedmo.dll
 * /usr/lib32/wine/i386-windows/winefile.exe
 * /usr/lib32/wine/i386-windows/winehid.sys
 * /usr/lib32/wine/i386-windows/winemapi.dll
@@ -4818,6 +4904,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib32/wine/i386-windows/wineps16.drv16
 * /usr/lib32/wine/i386-windows/winevdm.exe
 * /usr/lib32/wine/i386-windows/winevulkan.dll
+* /usr/lib32/wine/i386-windows/winewayland.drv
 * /usr/lib32/wine/i386-windows/winex11.drv
 * /usr/lib32/wine/i386-windows/winexinput.sys
 * /usr/lib32/wine/i386-windows/wing.dll16
@@ -4849,6 +4936,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib32/wine/i386-windows/wmasf.dll
 * /usr/lib32/wine/i386-windows/wmi.dll
 * /usr/lib32/wine/i386-windows/wmic.exe
+* /usr/lib32/wine/i386-windows/wmilib.sys
 * /usr/lib32/wine/i386-windows/wmiutils.dll
 * /usr/lib32/wine/i386-windows/wmp.dll
 * /usr/lib32/wine/i386-windows/wmphoto.dll
@@ -4919,11 +5007,11 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib32/wine/i386-windows/xpsprint.dll
 * /usr/lib32/wine/i386-windows/xpssvcs.dll
 * /usr/share/applications/wine.desktop
-* /usr/share/doc/wine-devel-9.17/AUTHORS
-* /usr/share/doc/wine-devel-9.17/COPYING.LIB
-* /usr/share/doc/wine-devel-9.17/LICENSE
-* /usr/share/doc/wine-devel-9.17/README.md
-* /usr/share/doc/wine-devel-9.17/VERSION
+* /usr/share/doc/wine-devel-10.1/AUTHORS
+* /usr/share/doc/wine-devel-10.1/COPYING.LIB
+* /usr/share/doc/wine-devel-10.1/LICENSE
+* /usr/share/doc/wine-devel-10.1/README.md
+* /usr/share/doc/wine-devel-10.1/VERSION
 * /usr/share/man/de.UTF-8/man1/wine.1.gz
 * /usr/share/man/de.UTF-8/man1/winemaker.1.gz
 * /usr/share/man/de.UTF-8/man1/wineserver.1.gz
