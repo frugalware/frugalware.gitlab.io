@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qpdf 11.10.0-1"
-version = "11.10.0-1"
+title = "qpdf 11.10.1-1"
+version = "11.10.1-1"
 description = "QPDF do structural, content-preserving transformations on PDF files."
-date = "2025-02-12T09:16:52"
+date = "2025-02-16T10:10:49"
 aliases = "/packages/168930"
 categories = ['apps']
 upstreamurl = "https://sourceforge.net/projects/qpdf"
 arch = "x86_64"
-size = "1020052"
-usize = "3763138"
-sha1sum = "49fe48a29b04efe5a9bd73081c32f3de6edc59c1"
+size = "1020508"
+usize = "3763551"
+sha1sum = "3d46964c728f116651898c06321dc6837022a2e2"
 depends = "['libjpeg-turbo', 'libstdc++>=11.2', 'openssl>=3.1.0', 'pcre>=8.37-4']"
 reverse_depends = "['libcupsfilters']"
 +++
@@ -97,16 +97,16 @@ QPDF do structural, content-preserving transformations on PDF files.
 * /usr/lib/cmake/qpdf/qpdfConfigVersion.cmake
 * /usr/lib/libqpdf.so
 * /usr/lib/libqpdf.so.29
-* /usr/lib/libqpdf.so.29.10.0
+* /usr/lib/libqpdf.so.29.10.1
 * /usr/lib/pkgconfig/libqpdf.pc
-* /usr/share/doc/qpdf-11.10.0/ChangeLog
-* /usr/share/doc/qpdf-11.10.0/README-appimage.md
-* /usr/share/doc/qpdf-11.10.0/README-doc.txt
-* /usr/share/doc/qpdf-11.10.0/README-hardening.md
-* /usr/share/doc/qpdf-11.10.0/README-maintainer.md
-* /usr/share/doc/qpdf-11.10.0/README-what-to-download.md
-* /usr/share/doc/qpdf-11.10.0/README-windows.md
-* /usr/share/doc/qpdf-11.10.0/README.md
+* /usr/share/doc/qpdf-11.10.1/ChangeLog
+* /usr/share/doc/qpdf-11.10.1/README-appimage.md
+* /usr/share/doc/qpdf-11.10.1/README-doc.txt
+* /usr/share/doc/qpdf-11.10.1/README-hardening.md
+* /usr/share/doc/qpdf-11.10.1/README-maintainer.md
+* /usr/share/doc/qpdf-11.10.1/README-what-to-download.md
+* /usr/share/doc/qpdf-11.10.1/README-windows.md
+* /usr/share/doc/qpdf-11.10.1/README.md
 * /usr/share/doc/qpdf/examples/extend-c-api-impl.cc
 * /usr/share/doc/qpdf/examples/extend-c-api.c
 * /usr/share/doc/qpdf/examples/extend-c-api.h

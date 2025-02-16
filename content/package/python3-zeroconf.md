@@ -1,26 +1,26 @@
 +++
 draft = false
-title = "python3-zeroconf 0.144.3-1"
-version = "0.144.3-1"
+title = "python3-zeroconf 0.145.0-1"
+version = "0.145.0-1"
 description = "A pure python implementation of multicast DNS service discovery"
-date = "2025-02-15T14:10:46"
+date = "2025-02-16T09:48:56"
 aliases = "/packages/220272"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/python-zeroconf/python-zeroconf"
 arch = "x86_64"
-size = "1119556"
+size = "1119252"
 usize = "5855851"
-sha1sum = "5e079d149e2a2d8a85e916d42e7475626b1ca63a"
+sha1sum = "e4c36b20919df8625d0db35dd906270219b9d9b2"
 depends = "['python3-ifaddr', 'python3-netifaces', 'python3-six']"
 +++
 ### Description: 
 A pure python implementation of multicast DNS service discovery
 
 ### Files: 
-* /usr/lib/python3.13/site-packages/zeroconf-0.144.3.dist-info/COPYING
-* /usr/lib/python3.13/site-packages/zeroconf-0.144.3.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/zeroconf-0.144.3.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/zeroconf-0.144.3.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/zeroconf-0.145.0.dist-info/COPYING
+* /usr/lib/python3.13/site-packages/zeroconf-0.145.0.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/zeroconf-0.145.0.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/zeroconf-0.145.0.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/zeroconf/asyncio.py
 * /usr/lib/python3.13/site-packages/zeroconf/const.py
 * /usr/lib/python3.13/site-packages/zeroconf/py.typed
@@ -157,5 +157,5 @@ A pure python implementation of multicast DNS service discovery
 * /usr/lib/python3.13/site-packages/zeroconf/__pycache__/_updates.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/zeroconf/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/zeroconf/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/python3-zeroconf-0.144.3/COPYING
-* /usr/share/doc/python3-zeroconf-0.144.3/README.rst
+* /usr/share/doc/python3-zeroconf-0.145.0/COPYING
+* /usr/share/doc/python3-zeroconf-0.145.0/README.rst
