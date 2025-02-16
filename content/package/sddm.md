@@ -12,7 +12,7 @@ size = "3662584"
 usize = "5535378"
 sha1sum = "7295007f192fa586128c428f76ad74ef3332c2e1"
 depends = "['hack', 'libsystemd>=242-4', 'libxau', 'qt5-declarative', 'qt5-virtualkeyboard', 'qt6-declarative>=6.8.2', 'qt6-virtualkeyboard', 'xauth']"
-reverse_depends = "['abstractdark-sddm-theme', 'hills', 'joe-theme1', 'lumina-desktop', 'sddm-deepin', 'sddm-kcm', 'solarized_sddm_theme', 'stellar']"
+reverse_depends = "['hills', 'lumina-desktop', 'sddm-kcm', 'solarized_sddm_theme', 'stellar']"
 +++
 ### Description: 
 QML based X11 display manager

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "stunnel 5.74-1"
-version = "5.74-1"
+title = "stunnel 5.74-2"
+version = "5.74-2"
 description = "Universal SSL Wrapper"
-date = "2024-12-23T17:20:32"
+date = "2025-02-16T14:14:41"
 aliases = "/packages/38977"
 categories = ['network-extra']
 upstreamurl = "https://www.stunnel.org"
 arch = "x86_64"
-size = "198580"
-usize = "586015"
-sha1sum = "3f392106841f7e9443d4cca59630db32b5dedea4"
-depends = "['openssl>=3.1.0', 'perl']"
+size = "198600"
+usize = "585975"
+sha1sum = "1a6cfe8047bd71743e0ee2f2bd7408d6d301e724"
+depends = "['mimalloc>=3.0.1', 'openssl>=3.1.0', 'perl']"
 +++
 ### Description: 
 Universal SSL Wrapper

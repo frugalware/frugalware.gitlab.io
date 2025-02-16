@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pylint 3.3.3-1"
-version = "3.3.3-1"
+title = "pylint 3.3.4-1"
+version = "3.3.4-1"
 description = "Python code checker."
-date = "2025-01-07T20:28:49"
+date = "2025-02-16T15:10:41"
 aliases = "/packages/219604"
 categories = ['devel-extra']
 upstreamurl = "http://www.logilab.org/project/pylint"
 arch = "x86_64"
-size = "881716"
-usize = "5927495"
-sha1sum = "e1f0f58abb6e7cfe8d26c500225236c9359a7b03"
+size = "882656"
+usize = "5932647"
+sha1sum = "3df94980d8c82f64ba8cc5c6b5d1b8f38b41ec76"
 depends = "['python3>=3.13', 'python3-astroid', 'python3-isort', 'python3-mccabe']"
 +++
 ### Description: 
@@ -21,13 +21,13 @@ Python code checker.
 * /usr/bin/pylint-config
 * /usr/bin/pyreverse
 * /usr/bin/symilar
-* /usr/lib/python3.13/site-packages/pylint-3.3.3.dist-info/CONTRIBUTORS.txt
-* /usr/lib/python3.13/site-packages/pylint-3.3.3.dist-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/pylint-3.3.3.dist-info/LICENSE
-* /usr/lib/python3.13/site-packages/pylint-3.3.3.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/pylint-3.3.3.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/pylint-3.3.3.dist-info/top_level.txt
-* /usr/lib/python3.13/site-packages/pylint-3.3.3.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/pylint-3.3.4.dist-info/CONTRIBUTORS.txt
+* /usr/lib/python3.13/site-packages/pylint-3.3.4.dist-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/pylint-3.3.4.dist-info/LICENSE
+* /usr/lib/python3.13/site-packages/pylint-3.3.4.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/pylint-3.3.4.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/pylint-3.3.4.dist-info/top_level.txt
+* /usr/lib/python3.13/site-packages/pylint-3.3.4.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/pylint/checkers/async.py
 * /usr/lib/python3.13/site-packages/pylint/checkers/bad_chained_comparison.py
 * /usr/lib/python3.13/site-packages/pylint/checkers/base/basic_checker.py
@@ -555,5 +555,5 @@ Python code checker.
 * /usr/lib/python3.13/site-packages/pylint/__pycache__/__main__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pylint/__pycache__/__pkginfo__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pylint/__pycache__/__pkginfo__.cpython-313.pyc
-* /usr/share/doc/pylint-3.3.3/LICENSE
-* /usr/share/doc/pylint-3.3.3/README.rst
+* /usr/share/doc/pylint-3.3.4/LICENSE
+* /usr/share/doc/pylint-3.3.4/README.rst

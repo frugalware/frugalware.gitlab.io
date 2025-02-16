@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gparted 1.6.0-1"
-version = "1.6.0-1"
+title = "gparted 1.7.0-1"
+version = "1.7.0-1"
 description = "Parted GUI written in C++ using gtkmm as Graphical Toolkit"
-date = "2024-04-25T15:57:09"
+date = "2025-02-16T15:08:39"
 aliases = "/packages/4214"
 categories = ['xapps-extra']
 upstreamurl = "http://gparted.sourceforge.net"
 arch = "x86_64"
-size = "1184044"
-usize = "6504663"
-sha1sum = "f5090caf542dee3f95bba411a1a748d0572c7aaa"
+size = "1199636"
+usize = "6604708"
+sha1sum = "4e3d77f0cdc871034041b732fa9ed66777ec949a"
 depends = "['freetype2', 'gtk+3', 'gtkmm3', 'pango>=1.40.3-2', 'parted>=3.3']"
 +++
 ### Description: 
@@ -21,12 +21,12 @@ Parted GUI written in C++ using gtkmm as Graphical Toolkit
 * /usr/lib/gparted/gpartedbin
 * /usr/share/applications/gparted.desktop
 * /usr/share/applications/kde/gparted.desktop
-* /usr/share/doc/gparted-1.6.0/AUTHORS
-* /usr/share/doc/gparted-1.6.0/ChangeLog
-* /usr/share/doc/gparted-1.6.0/COPYING
-* /usr/share/doc/gparted-1.6.0/INSTALL
-* /usr/share/doc/gparted-1.6.0/NEWS
-* /usr/share/doc/gparted-1.6.0/README
+* /usr/share/doc/gparted-1.7.0/AUTHORS
+* /usr/share/doc/gparted-1.7.0/ChangeLog
+* /usr/share/doc/gparted-1.7.0/COPYING
+* /usr/share/doc/gparted-1.7.0/INSTALL
+* /usr/share/doc/gparted-1.7.0/NEWS
+* /usr/share/doc/gparted-1.7.0/README
 * /usr/share/icons/hicolor/16x16/apps/gparted.png
 * /usr/share/icons/hicolor/22x22/apps/gparted.png
 * /usr/share/icons/hicolor/24x24/apps/gparted.png
@@ -59,6 +59,7 @@ Parted GUI written in C++ using gtkmm as Graphical Toolkit
 * /usr/share/locale/gl/LC_MESSAGES/gparted.mo
 * /usr/share/locale/gu/LC_MESSAGES/gparted.mo
 * /usr/share/locale/he/LC_MESSAGES/gparted.mo
+* /usr/share/locale/hi/LC_MESSAGES/gparted.mo
 * /usr/share/locale/hr/LC_MESSAGES/gparted.mo
 * /usr/share/locale/hu/LC_MESSAGES/gparted.mo
 * /usr/share/locale/id/LC_MESSAGES/gparted.mo
@@ -101,3 +102,4 @@ Parted GUI written in C++ using gtkmm as Graphical Toolkit
 * /usr/share/locale/zh_TW/LC_MESSAGES/gparted.mo
 * /usr/share/man/man8/gparted.8.gz
 * /usr/share/metainfo/gparted.appdata.xml
+* /usr/share/polkit-1/actions/org.gnome.gparted.policy

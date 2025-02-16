@@ -12,7 +12,7 @@ size = "670484"
 usize = "879227"
 sha1sum = "38090718a2c174fe589b4ac0bf181a084a8019d6"
 depends = "['glibc>=2.29-6']"
-reverse_depends = "['mold']"
+reverse_depends = "['mold', 'stunnel']"
 +++
 ### Description: 
 General-purpose allocator with excellent performance characteristics

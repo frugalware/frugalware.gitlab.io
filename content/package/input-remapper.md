@@ -1,23 +1,22 @@
 +++
 draft = false
-title = "input-remapper 2.1.0-1"
-version = "2.1.0-1"
+title = "input-remapper 2.1.1-1"
+version = "2.1.1-1"
 description = "A tool to change and program the mapping of your input device buttons."
-date = "2025-02-09T11:47:49"
+date = "2025-02-16T15:02:27"
 aliases = "/packages/220472"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/sezanzeb/input-remapper"
 arch = "x86_64"
-size = "348168"
-usize = "1681799"
-sha1sum = "719808064c09b54bc91dd41da260f09e05a17851"
+size = "342912"
+usize = "1661826"
+sha1sum = "124b0eaec8899dc04f2247a033c2347208234996"
 depends = "['gtk+3', 'gtksourceview4', 'pygobject3', 'pygobject3-cairo', 'python3-evdev', 'python3-packaging', 'python3-pydantic', 'python3-pydbus', 'xmodmap']"
 +++
 ### Description: 
 A tool to change and program the mapping of your input device buttons.
 
 ### Files: 
-* /etc/dbus-1/system.d/inputremapper.Control.conf
 * /etc/xdg/autostart/input-remapper-autoload.desktop
 * /usr/bin/input-remapper-control
 * /usr/bin/input-remapper-gtk
@@ -229,16 +228,17 @@ A tool to change and program the mapping of your input device buttons.
 * /usr/lib/python3.13/site-packages/inputremapper/__pycache__/user.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/inputremapper/__pycache__/utils.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/inputremapper/__pycache__/__init__.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/input_remapper-2.1.0-py3.13.egg-info/dependency_links.txt
-* /usr/lib/python3.13/site-packages/input_remapper-2.1.0-py3.13.egg-info/PKG-INFO
-* /usr/lib/python3.13/site-packages/input_remapper-2.1.0-py3.13.egg-info/requires.txt
-* /usr/lib/python3.13/site-packages/input_remapper-2.1.0-py3.13.egg-info/SOURCES.txt
-* /usr/lib/python3.13/site-packages/input_remapper-2.1.0-py3.13.egg-info/top_level.txt
+* /usr/lib/python3.13/site-packages/input_remapper-2.1.1-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/input_remapper-2.1.1-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/input_remapper-2.1.1-py3.13.egg-info/requires.txt
+* /usr/lib/python3.13/site-packages/input_remapper-2.1.1-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/input_remapper-2.1.1-py3.13.egg-info/top_level.txt
 * /usr/lib/systemd/system/input-remapper.service
 * /usr/lib/udev/rules.d/99-input-remapper.rules
 * /usr/share/applications/input-remapper-gtk.desktop
-* /usr/share/doc/input-remapper-2.1.0/LICENSE
-* /usr/share/doc/input-remapper-2.1.0/README.md
+* /usr/share/dbus-1/system.d/inputremapper.Control.conf
+* /usr/share/doc/input-remapper-2.1.1/LICENSE
+* /usr/share/doc/input-remapper-2.1.1/README.md
 * /usr/share/icons/hicolor/scalable/apps/input-remapper.svg
 * /usr/share/input-remapper/99-input-remapper.rules
 * /usr/share/input-remapper/input-remapper-autoload.desktop

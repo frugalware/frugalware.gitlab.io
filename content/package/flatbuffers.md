@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "flatbuffers 24.12.23-1"
-version = "24.12.23-1"
+title = "flatbuffers 25.2.10-1"
+version = "25.2.10-1"
 description = "Memory Efficient Serialization Library."
-date = "2024-12-24T18:03:24"
+date = "2025-02-16T14:17:06"
 aliases = "/packages/219070"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/google/flatbuffers"
 arch = "x86_64"
-size = "3703748"
-usize = "8333013"
-sha1sum = "de6946518b5f84676b55a4f157cef9a2d2f49212"
+size = "3701796"
+usize = "8329326"
+sha1sum = "e773a8ff5280a8c3b15d146a9be160e4121d2a99"
 depends = "['glibc>=2.34', 'libgcc>=11.2', 'libstdc++>=11.2']"
 +++
 ### Description: 
@@ -61,7 +61,7 @@ Memory Efficient Serialization Library.
 * /usr/lib/cmake/flatbuffers/FlatcTargets.cmake
 * /usr/lib/libflatbuffers.a
 * /usr/lib/libflatbuffers.so
-* /usr/lib/libflatbuffers.so.24.12.23
+* /usr/lib/libflatbuffers.so.25.2.10
 * /usr/lib/pkgconfig/flatbuffers.pc
-* /usr/share/doc/flatbuffers-24.12.23/LICENSE
-* /usr/share/doc/flatbuffers-24.12.23/README.md
+* /usr/share/doc/flatbuffers-25.2.10/LICENSE
+* /usr/share/doc/flatbuffers-25.2.10/README.md
