@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lincity-ng 2.13.0-1"
-version = "2.13.0-1"
+title = "lincity-ng 2.13.1-1"
+version = "2.13.1-1"
 description = "A City Simulation Game. It is a polished and improved version of the classic LinCity game."
-date = "2025-02-08T16:35:38"
+date = "2025-02-16T13:29:23"
 aliases = "/packages/38889"
 categories = ['games-extra']
 upstreamurl = "https://github.com/lincity-ng/lincity-ng"
 arch = "x86_64"
-size = "45517060"
-usize = "56663607"
-sha1sum = "43919a27cf7d5a45bc299fd1ab33e81b9b595961"
+size = "45513524"
+usize = "56663848"
+sha1sum = "fea95fa3dc6a54e5cee549414b6709ad97be14c1"
 depends = "['libxml++2', 'libxslt', 'physfs>=2.0.3-3', 'sdl2_gfx', 'sdl2_image', 'sdl2_mixer', 'sdl2_ttf', 'sdlimage>=1.2.12-2']"
 license = "GPL"
 +++
@@ -20,11 +20,11 @@ A City Simulation Game. It is a polished and improved version of the classic Lin
 ### Files: 
 * /usr/bin/lincity-ng
 * /usr/share/applications/lincity-ng.desktop
-* /usr/share/doc/lincity-ng-2.13.0/COPYING
-* /usr/share/doc/lincity-ng-2.13.0/COPYING-data.txt
-* /usr/share/doc/lincity-ng-2.13.0/COPYING-dll.txt
-* /usr/share/doc/lincity-ng-2.13.0/COPYING-fonts.txt
-* /usr/share/doc/lincity-ng-2.13.0/README.md
+* /usr/share/doc/lincity-ng-2.13.1/COPYING
+* /usr/share/doc/lincity-ng-2.13.1/COPYING-data.txt
+* /usr/share/doc/lincity-ng-2.13.1/COPYING-dll.txt
+* /usr/share/doc/lincity-ng-2.13.1/COPYING-fonts.txt
+* /usr/share/doc/lincity-ng-2.13.1/README.md
 * /usr/share/doc/lincity-ng/CHANGELOG.md
 * /usr/share/doc/lincity-ng/CONTRIBUTING.md
 * /usr/share/doc/lincity-ng/COPYING

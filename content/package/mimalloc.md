@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mimalloc 2.1.7-1"
-version = "2.1.7-1"
+title = "mimalloc 3.0.1-2"
+version = "3.0.1-2"
 description = "General-purpose allocator with excellent performance characteristics"
-date = "2024-09-11T15:08:05"
+date = "2025-02-16T14:09:08"
 aliases = "/packages/222531"
 categories = ['devel-core']
 upstreamurl = "https://github.com/microsoft/mimalloc"
 arch = "x86_64"
-size = "52740"
-usize = "167430"
-sha1sum = "9615ecdb189d55acaa56b203c03f22c5464b9cc1"
+size = "670484"
+usize = "879227"
+sha1sum = "38090718a2c174fe589b4ac0bf181a084a8019d6"
 depends = "['glibc>=2.29-6']"
 reverse_depends = "['mold']"
 +++
@@ -26,7 +26,8 @@ General-purpose allocator with excellent performance characteristics
 * /usr/lib/cmake/mimalloc/mimalloc-release.cmake
 * /usr/lib/cmake/mimalloc/mimalloc.cmake
 * /usr/lib/libmimalloc.so
-* /usr/lib/libmimalloc.so.2
-* /usr/lib/libmimalloc.so.2.1
+* /usr/lib/libmimalloc.so.3
+* /usr/lib/libmimalloc.so.3.0
+* /usr/lib/mimalloc.o
 * /usr/lib/pkgconfig/mimalloc.pc
-* /usr/share/doc/mimalloc-2.1.7/LICENSE
+* /usr/share/doc/mimalloc-3.0.1/LICENSE

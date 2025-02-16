@@ -12,7 +12,7 @@ size = "591444"
 usize = "4316750"
 sha1sum = "e09a3182ef51ec6863e7bb29fc4de2e7756a5dfb"
 depends = "['python3']"
-reverse_depends = "['alpaca']"
+reverse_depends = "['alpaca', 'psutils']"
 +++
 ### Description: 
 Python library for manipulating pages of PDF files

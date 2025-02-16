@@ -12,7 +12,7 @@ size = "48888"
 usize = "149203"
 sha1sum = "aac2fd46cabd358cbde8f9ff144064ab1c475b71"
 depends = "['glibc>=2.34']"
-reverse_depends = "['a2ps', 'cups', 'ghostscript', 'libgs', 'texlive']"
+reverse_depends = "['a2ps', 'cups', 'ghostscript', 'libgs', 'psutils', 'texlive']"
 +++
 ### Description: 
 The paper library provides a simple way for applications to take actions based on a user-defined paper size
