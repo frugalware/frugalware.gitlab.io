@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "2546944"
 usize = "12756755"
 sha1sum = "f79f391a560073a5cc63bd8cec13122dfd15f77d"
-depends = "['insight-toolkit>=5.4.0', 'qt6-5compat>=6.7.3', 'qt6-base>=6.8.0', 'qt6-base-sql-common>=6.7.3']"
+depends = "['qt6-5compat>=6.7.3', 'qt6-base>=6.8.0', 'qt6-base-sql-common>=6.7.3']"
 +++
 ### Description: 
 Qt6 DICOM Viewer
