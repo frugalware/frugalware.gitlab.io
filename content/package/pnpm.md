@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pnpm 10.3.0-1"
-version = "10.3.0-1"
+title = "pnpm 10.4.1-1"
+version = "10.4.1-1"
 description = "Fast, disk space efficient package manager"
-date = "2025-02-11T16:04:56"
+date = "2025-02-17T12:29:40"
 aliases = "/packages/221562"
 categories = ['devel-extra']
 upstreamurl = "https://pnpm.io"
 arch = "x86_64"
-size = "1364808"
-usize = "9369878"
-sha1sum = "309d17ef422b1b0678cdea464485967e0c36d117"
+size = "1365376"
+usize = "9374119"
+sha1sum = "903a69e8cd20fdc78af145a3ce1999bce84598dc"
 depends = "['node-gyp']"
 +++
 ### Description: 
@@ -29,5 +29,5 @@ Fast, disk space efficient package manager
 * /usr/lib/node_modules/pnpm/dist/templates/completion.zsh
 * /usr/lib/node_modules/pnpm/dist/worker.js
 * /usr/lib/node_modules/pnpm/package.json
-* /usr/share/doc/pnpm-10.3.0/LICENSE
-* /usr/share/doc/pnpm-10.3.0/README.md
+* /usr/share/doc/pnpm-10.4.1/LICENSE
+* /usr/share/doc/pnpm-10.4.1/README.md
