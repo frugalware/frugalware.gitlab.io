@@ -1,23 +1,23 @@
 +++
 draft = false
-title = "hunspell-fr 6.4.1-1"
-version = "6.4.1-1"
+title = "hunspell-fr 7.0-1"
+version = "7.0-1"
 description = "French dictionary for Hunspell"
-date = "2019-04-12T12:56:26"
+date = "2025-02-17T17:11:55"
 aliases = "/packages/9404"
 categories = ['locale-extra']
-upstreamurl = "http://www.dicollecte.org"
+upstreamurl = "https://grammalecte.net"
 arch = "x86_64"
-size = "396404"
-usize = "11436266"
-sha1sum = "3067a6fddac4d8447f427d1614dac84fde0f63b1"
+size = "384004"
+usize = "8719682"
+sha1sum = "db755be36a5be852d68d8074903ab14cc53bab8b"
 depends = "['hunspell>=1.1.3']"
 +++
 ### Description: 
 French dictionary for Hunspell
 
 ### Files: 
-* /usr/share/doc/hunspell-fr-6.4.1/README_dict_fr.txt
+* /usr/share/doc/hunspell-fr-7.0/README_dict_fr.txt
 * /usr/share/myspell/fr-classique+reforme1990.aff
 * /usr/share/myspell/fr-classique+reforme1990.dic
 * /usr/share/myspell/fr-classique,reforme1990.aff
@@ -26,8 +26,6 @@ French dictionary for Hunspell
 * /usr/share/myspell/fr-classique-reforme1990.dic
 * /usr/share/myspell/fr-classique.aff
 * /usr/share/myspell/fr-classique.dic
-* /usr/share/myspell/fr-moderne.aff
-* /usr/share/myspell/fr-moderne.dic
 * /usr/share/myspell/fr-reforme1990.aff
 * /usr/share/myspell/fr-reforme1990.dic
 * /usr/share/myspell/fr-toutesvariantes.aff

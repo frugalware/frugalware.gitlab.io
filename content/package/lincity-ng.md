@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "lincity-ng 2.13.1-1"
-version = "2.13.1-1"
+title = "lincity-ng 2.13.1-2"
+version = "2.13.1-2"
 description = "A City Simulation Game. It is a polished and improved version of the classic LinCity game."
-date = "2025-02-16T13:29:23"
+date = "2025-02-17T16:38:51"
 aliases = "/packages/38889"
 categories = ['games-extra']
 upstreamurl = "https://github.com/lincity-ng/lincity-ng"
 arch = "x86_64"
-size = "45513524"
+size = "45521064"
 usize = "56663848"
-sha1sum = "fea95fa3dc6a54e5cee549414b6709ad97be14c1"
-depends = "['libxml++2', 'libxslt', 'physfs>=2.0.3-3', 'sdl2_gfx', 'sdl2_image', 'sdl2_mixer', 'sdl2_ttf', 'sdlimage>=1.2.12-2']"
+sha1sum = "4ff52a0e7d7b34b5b325b02598cfe0493cb43eb9"
+depends = "['libxml++2', 'libxslt', 'physfs>=2.0.3-3', 'sdl2_gfx', 'sdl2_image', 'sdl2_mixer', 'sdl2_ttf']"
 license = "GPL"
 +++
 ### Description: 
