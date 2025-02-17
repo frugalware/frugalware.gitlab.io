@@ -12,7 +12,7 @@ size = "260052"
 usize = "312701"
 sha1sum = "4459ad9d68db13c18571081693b9c7354c12c780"
 depends = "['gnuinetlib', 'jaf']"
-reverse_depends = "['avalon-logkit', 'bcmail', 'bouncycastle-mail']"
+reverse_depends = "['bcmail', 'bouncycastle-mail']"
 +++
 ### Description: 
 GNU implementation of the Javamail API

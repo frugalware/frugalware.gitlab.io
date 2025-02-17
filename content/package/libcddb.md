@@ -12,7 +12,7 @@ size = "68128"
 usize = "269918"
 sha1sum = "53048d3829c92fa3d196ee5ed2f8c2aad167a007"
 depends = "['glibc>=2.34']"
-reverse_depends = "['libcdio', 'vlc-cdda', 'xcfa']"
+reverse_depends = "['libcdio', 'vlc-cdda']"
 license = "GPL2"
 +++
 ### Description: 

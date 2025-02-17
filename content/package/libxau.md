@@ -12,7 +12,7 @@ size = "32980"
 usize = "88984"
 sha1sum = "1b0ab2c0edbd623a8afcf7f57b891f895077dba6"
 depends = "['glibc>=2.3.4']"
-reverse_depends = "['distcc-gui', 'efl', 'enlightenment', 'firefox', 'guvcview', 'libextractor', 'libx11', 'libxcb', 'libxp', 'libxres', 'libxv', 'printoxx', 'sddm', 'terminology', 'xcb-util', 'xcb-util-image', 'xcb-util-wm', 'xcfa', 'xorg-server-fbdev', 'xpad', 'xrdp']"
+reverse_depends = "['distcc-gui', 'efl', 'enlightenment', 'firefox', 'guvcview', 'libextractor', 'libx11', 'libxcb', 'libxp', 'libxres', 'libxv', 'printoxx', 'sddm', 'terminology', 'xcb-util', 'xcb-util-image', 'xcb-util-wm', 'xorg-server-fbdev', 'xpad', 'xrdp']"
 license = "GPL2"
 +++
 ### Description: 

@@ -12,7 +12,7 @@ size = "365672"
 usize = "1520335"
 sha1sum = "d990493d7afd1bc8f1a20363d18e43129016889e"
 depends = "['libcddb>=1.3.2-5', 'libstdc++>=11.2', 'ncurses>=6.5']"
-reverse_depends = "['gst1-plugins-ugly-cdio', 'gvfs', 'kiso', 'libcdio-paranoia', 'vcdimager', 'xcfa']"
+reverse_depends = "['gst1-plugins-ugly-cdio', 'gvfs', 'kiso', 'libcdio-paranoia', 'vcdimager']"
 license = "GPL2"
 +++
 ### Description: 

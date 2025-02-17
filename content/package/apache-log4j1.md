@@ -12,7 +12,6 @@ size = "359556"
 usize = "430460"
 sha1sum = "de5399680095a0feaead297bf3d47be3b14780ff"
 depends = "['openjre']"
-reverse_depends = "['avalon-logkit']"
 +++
 ### Description: 
 A low-overhead robust logging package for Java.

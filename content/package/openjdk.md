@@ -12,7 +12,7 @@ size = "86316520"
 usize = "96102899"
 sha1sum = "69fd7bb185afc39eabdc0f5831311796e3976f33"
 depends = "['openjre=23.0.2-1']"
-reverse_depends = "['flutter', 'maven', 'openjdk-source', 'testng']"
+reverse_depends = "['flutter', 'maven', 'openjdk-source']"
 +++
 ### Description: 
 Open-source Java Development Kit implementation.
