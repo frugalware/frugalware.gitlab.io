@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "luanti 5.10.0-1"
-version = "5.10.0-1"
+title = "luanti 5.11.0-1"
+version = "5.11.0-1"
 description = "Luanti is an infinite-world block sandbox game and a game engine, inspired by InfiniMiner and Minecraft."
-date = "2024-11-12T10:56:07"
+date = "2025-02-17T17:22:16"
 aliases = "/packages/222575"
 categories = ['games-extra']
 upstreamurl = "https://www.luanti.org"
 arch = "x86_64"
-size = "7018012"
-usize = "20129168"
-sha1sum = "f033c2fcccfa100b12df49de43b2531e75bcaf43"
+size = "7052532"
+usize = "20232043"
+sha1sum = "8e9ed96792c044955e0ed62919fa3ad91997b7e5"
 depends = "['curl', 'jsoncpp>=1.9.6', 'libpq', 'luajit2', 'openal']"
 +++
 ### Description: 
@@ -20,8 +20,8 @@ Luanti is an infinite-world block sandbox game and a game engine, inspired by In
 * /usr/bin/luanti
 * /usr/bin/minetest
 * /usr/share/applications/net.minetest.minetest.desktop
-* /usr/share/doc/luanti-5.10.0/COPYING.LESSER
-* /usr/share/doc/luanti-5.10.0/README.md
+* /usr/share/doc/luanti-5.11.0/COPYING.LESSER
+* /usr/share/doc/luanti-5.11.0/README.md
 * /usr/share/doc/luanti/client_lua_api.md
 * /usr/share/doc/luanti/lua_api.md
 * /usr/share/doc/luanti/menu_lua_api.md
@@ -48,6 +48,13 @@ Luanti is an infinite-world block sandbox game and a game engine, inspired by In
 * /usr/share/luanti/builtin/common/mod_storage.lua
 * /usr/share/luanti/builtin/common/register.lua
 * /usr/share/luanti/builtin/common/serialize.lua
+* /usr/share/luanti/builtin/common/settings/components.lua
+* /usr/share/luanti/builtin/common/settings/dlg_change_mapgen_flags.lua
+* /usr/share/luanti/builtin/common/settings/dlg_settings.lua
+* /usr/share/luanti/builtin/common/settings/generate_from_settingtypes.lua
+* /usr/share/luanti/builtin/common/settings/init.lua
+* /usr/share/luanti/builtin/common/settings/settingtypes.lua
+* /usr/share/luanti/builtin/common/settings/shadows_component.lua
 * /usr/share/luanti/builtin/common/strict.lua
 * /usr/share/luanti/builtin/common/tests/after_spec.lua
 * /usr/share/luanti/builtin/common/tests/math_spec.lua
@@ -153,6 +160,7 @@ Luanti is an infinite-world block sandbox game and a game engine, inspired by In
 * /usr/share/luanti/builtin/mainmenu/content/tests/pkgmgr_spec.lua
 * /usr/share/luanti/builtin/mainmenu/content/update_detector.lua
 * /usr/share/luanti/builtin/mainmenu/credits.json
+* /usr/share/luanti/builtin/mainmenu/dlg_clients_list.lua
 * /usr/share/luanti/builtin/mainmenu/dlg_config_world.lua
 * /usr/share/luanti/builtin/mainmenu/dlg_create_world.lua
 * /usr/share/luanti/builtin/mainmenu/dlg_delete_content.lua
@@ -160,24 +168,19 @@ Luanti is an infinite-world block sandbox game and a game engine, inspired by In
 * /usr/share/luanti/builtin/mainmenu/dlg_register.lua
 * /usr/share/luanti/builtin/mainmenu/dlg_reinstall_mtg.lua
 * /usr/share/luanti/builtin/mainmenu/dlg_rename_modpack.lua
+* /usr/share/luanti/builtin/mainmenu/dlg_server_list_mods.lua
 * /usr/share/luanti/builtin/mainmenu/dlg_version_info.lua
 * /usr/share/luanti/builtin/mainmenu/game_theme.lua
 * /usr/share/luanti/builtin/mainmenu/init.lua
 * /usr/share/luanti/builtin/mainmenu/serverlistmgr.lua
-* /usr/share/luanti/builtin/mainmenu/settings/components.lua
-* /usr/share/luanti/builtin/mainmenu/settings/dlg_change_mapgen_flags.lua
-* /usr/share/luanti/builtin/mainmenu/settings/dlg_settings.lua
-* /usr/share/luanti/builtin/mainmenu/settings/generate_from_settingtypes.lua
-* /usr/share/luanti/builtin/mainmenu/settings/init.lua
-* /usr/share/luanti/builtin/mainmenu/settings/settingtypes.lua
-* /usr/share/luanti/builtin/mainmenu/settings/shader_warning_component.lua
-* /usr/share/luanti/builtin/mainmenu/settings/shadows_component.lua
 * /usr/share/luanti/builtin/mainmenu/tab_about.lua
 * /usr/share/luanti/builtin/mainmenu/tab_content.lua
 * /usr/share/luanti/builtin/mainmenu/tab_local.lua
 * /usr/share/luanti/builtin/mainmenu/tab_online.lua
 * /usr/share/luanti/builtin/mainmenu/tests/favorites_wellformed.txt
 * /usr/share/luanti/builtin/mainmenu/tests/serverlistmgr_spec.lua
+* /usr/share/luanti/builtin/pause_menu/init.lua
+* /usr/share/luanti/builtin/pause_menu/register.lua
 * /usr/share/luanti/builtin/profiler/init.lua
 * /usr/share/luanti/builtin/profiler/instrumentation.lua
 * /usr/share/luanti/builtin/profiler/reporter.lua
@@ -195,8 +198,6 @@ Luanti is an infinite-world block sandbox game and a game engine, inspired by In
 * /usr/share/luanti/client/shaders/blur_v/opengl_vertex.glsl
 * /usr/share/luanti/client/shaders/cloud_shader/opengl_fragment.glsl
 * /usr/share/luanti/client/shaders/cloud_shader/opengl_vertex.glsl
-* /usr/share/luanti/client/shaders/default_shader/opengl_fragment.glsl
-* /usr/share/luanti/client/shaders/default_shader/opengl_vertex.glsl
 * /usr/share/luanti/client/shaders/extract_bloom/opengl_fragment.glsl
 * /usr/share/luanti/client/shaders/extract_bloom/opengl_vertex.glsl
 * /usr/share/luanti/client/shaders/fxaa/opengl_fragment.glsl
@@ -320,6 +321,12 @@ Luanti is an infinite-world block sandbox game and a game engine, inspired by In
 * /usr/share/luanti/textures/base/pack/server_ping_3.png
 * /usr/share/luanti/textures/base/pack/server_ping_4.png
 * /usr/share/luanti/textures/base/pack/server_public.png
+* /usr/share/luanti/textures/base/pack/server_url.png
+* /usr/share/luanti/textures/base/pack/server_url_unavailable.png
+* /usr/share/luanti/textures/base/pack/server_view_clients.png
+* /usr/share/luanti/textures/base/pack/server_view_clients_unavailable.png
+* /usr/share/luanti/textures/base/pack/server_view_mods.png
+* /usr/share/luanti/textures/base/pack/server_view_mods_unavailable.png
 * /usr/share/luanti/textures/base/pack/settings_btn.png
 * /usr/share/luanti/textures/base/pack/settings_info.png
 * /usr/share/luanti/textures/base/pack/settings_reset.png
