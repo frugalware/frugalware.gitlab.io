@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libksysguard 6.3.0-1"
-version = "6.3.0-1"
+title = "libksysguard 6.3.1-1"
+version = "6.3.1-1"
 description = "Task management and system monitoring library."
-date = "2025-02-11T12:46:19"
+date = "2025-02-18T16:36:20"
 aliases = "/packages/221363"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "542908"
-usize = "3080908"
-sha1sum = "be092b9b84762c88c3f3ff194d92ba9de5ccba73"
-depends = "['kconfigwidgets>=6.10.0', 'knewstuff>=6.10.0', 'kwindowsystem>=6.10.0', 'libnl', 'libxres>=1.0.7-4', 'lmsensors', 'qt6-webengine>=6.8.2']"
+size = "543464"
+usize = "3084011"
+sha1sum = "e747d4ceb27fcc681b4d6baa23f9ffa9b105657c"
+depends = "['kconfigwidgets>=6.11.0', 'knewstuff>=6.11.0', 'kwindowsystem>=6.11.0', 'libnl', 'libxres>=1.0.7-4', 'lmsensors', 'qt6-webengine>=6.8.2']"
 reverse_depends = "['kdevelop', 'ksystemstats', 'plasma-vault', 'plasma-workspace', 'plasma5support']"
 +++
 ### Description: 
@@ -62,19 +62,19 @@ Task management and system monitoring library.
 * /usr/lib/kauth/kf6/kauth/ksysguardprocesslist_helper
 * /usr/lib/libKSysGuardFormatter.so
 * /usr/lib/libKSysGuardFormatter.so.2
-* /usr/lib/libKSysGuardFormatter.so.6.3.0
+* /usr/lib/libKSysGuardFormatter.so.6.3.1
 * /usr/lib/libKSysGuardSensorFaces.so
 * /usr/lib/libKSysGuardSensorFaces.so.2
-* /usr/lib/libKSysGuardSensorFaces.so.6.3.0
+* /usr/lib/libKSysGuardSensorFaces.so.6.3.1
 * /usr/lib/libKSysGuardSensors.so
 * /usr/lib/libKSysGuardSensors.so.2
-* /usr/lib/libKSysGuardSensors.so.6.3.0
+* /usr/lib/libKSysGuardSensors.so.6.3.1
 * /usr/lib/libKSysGuardSystemStats.so
 * /usr/lib/libKSysGuardSystemStats.so.2
-* /usr/lib/libKSysGuardSystemStats.so.6.3.0
+* /usr/lib/libKSysGuardSystemStats.so.6.3.1
 * /usr/lib/libprocesscore.so
 * /usr/lib/libprocesscore.so.10
-* /usr/lib/libprocesscore.so.6.3.0
+* /usr/lib/libprocesscore.so.6.3.1
 * /usr/lib/qt6/plugins/kf6/packagestructure/ksysguard_sensorface.so
 * /usr/lib/qt6/plugins/ksysguard/process/ksysguard_plugin_nvidia.so
 * /usr/lib/qt6/qml/org/kde/ksysguard/faces/Choices.qml
