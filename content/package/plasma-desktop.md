@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "plasma-desktop 6.3.0-1"
-version = "6.3.0-1"
+title = "plasma-desktop 6.3.1-1"
+version = "6.3.1-1"
 description = "KDE Plasma Desktop."
-date = "2025-02-11T14:20:47"
+date = "2025-02-18T17:31:54"
 aliases = "/packages/218423"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "17444264"
-usize = "34344735"
-sha1sum = "b8fcec1b5bb5237d28255604282434b8bb9d7579"
-depends = "['hack', 'kactivitymanagerd>=6.3.0', 'kauth>=6.10.0', 'kcmutils>=6.10.0', 'knewstuff>=6.10.0', 'knotifyconfig>=6.10.0', 'kpeople>=6.10.0', 'kpipewire', 'krunner>=6.10.0', 'libcanberra>=0.30-14', 'libxft>=2.3.2-2', 'libxkbfile>=1.0.9-3', 'packagekit-qt6>=1.0.1', 'plasma-activities-stats>=6.3.0', 'plasma-workspace>=6.3.0', 'qqc2-desktop-style>=6.10.0', 'setxkbmap', 'xf86-input-libinput', 'xkeyboard-config']"
+size = "17445272"
+usize = "34364506"
+sha1sum = "df11a89f6c11ae9349bbb129353f2b6a8352f90f"
+depends = "['hack', 'kactivitymanagerd>=6.3.1', 'kauth>=6.11.0', 'kcmutils>=6.11.0', 'knewstuff>=6.11.0', 'knotifyconfig>=6.11.0', 'kpeople>=6.11.0', 'kpipewire', 'krunner>=6.11.0', 'libcanberra>=0.30-14', 'libxft>=2.3.2-2', 'libxkbfile>=1.0.9-3', 'packagekit-qt6>=1.0.1', 'plasma-activities-stats>=6.3.1', 'plasma-workspace>=6.3.1', 'qqc2-desktop-style>=6.11.0', 'setxkbmap', 'xf86-input-libinput', 'xkeyboard-config']"
 +++
 ### Description: 
 KDE Plasma Desktop.
@@ -844,8 +844,8 @@ KDE Plasma Desktop.
 * /usr/share/doc/HTML/uk/plasma-desktop/application-launcher-settings.png
 * /usr/share/doc/HTML/uk/plasma-desktop/index.cache.bz2
 * /usr/share/doc/HTML/uk/plasma-desktop/index.docbook
-* /usr/share/doc/plasma-desktop-6.3.0/COPYING.DOC
-* /usr/share/doc/plasma-desktop-6.3.0/README.md
+* /usr/share/doc/plasma-desktop-6.3.1/COPYING.DOC
+* /usr/share/doc/plasma-desktop-6.3.1/README.md
 * /usr/share/icons/hicolor/128x128/devices/input-touchpad.png
 * /usr/share/icons/hicolor/16x16/devices/input-touchpad.png
 * /usr/share/icons/hicolor/22x22/devices/input-touchpad.png

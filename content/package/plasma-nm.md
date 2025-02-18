@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "plasma-nm 6.3.0-1"
-version = "6.3.0-1"
+title = "plasma-nm 6.3.1-1"
+version = "6.3.1-1"
 description = "Plasma applet written in QML for managing network connections."
-date = "2025-02-11T14:15:52"
+date = "2025-02-18T17:26:50"
 aliases = "/packages/218399"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1401592"
-usize = "9526826"
-sha1sum = "fb3c237438a15019bba1815590743093d43f6fdb"
-depends = "['mobile-broadband-provider-info', 'modemmanager-qt>=6.10.0', 'networkmanager-qt>=6.10.0', 'plasma-workspace>=6.3.0', 'qca>=2.1.1-6', 'qcoro']"
+size = "1405512"
+usize = "9546339"
+sha1sum = "eac63025ea25a3241a36ef500eecb94c1a1c7e86"
+depends = "['mobile-broadband-provider-info', 'modemmanager-qt>=6.11.0', 'networkmanager-qt>=6.11.0', 'plasma-workspace>=6.3.1', 'qca>=2.1.1-6', 'qcoro']"
 +++
 ### Description: 
 Plasma applet written in QML for managing network connections.
@@ -37,7 +37,7 @@ Plasma applet written in QML for managing network connections.
 * /usr/lib/qt6/qml/org/kde/plasma/networkmanagement/qmldir
 * /usr/share/applications/kcm_networkmanagement.desktop
 * /usr/share/applications/org.kde.vpnimport.desktop
-* /usr/share/doc/plasma-nm-6.3.0/README.md
+* /usr/share/doc/plasma-nm-6.3.1/README.md
 * /usr/share/kcm_networkmanagement/qml/AddConnectionDialog.qml
 * /usr/share/kcm_networkmanagement/qml/ConfigurationDialog.qml
 * /usr/share/kcm_networkmanagement/qml/ConnectionItem.qml
@@ -50,6 +50,7 @@ Plasma applet written in QML for managing network connections.
 * /usr/share/locale/ar/LC_MESSAGES/plasmanetworkmanagement_iodineui.mo
 * /usr/share/locale/ar/LC_MESSAGES/plasmanetworkmanagement_l2tpui.mo
 * /usr/share/locale/ar/LC_MESSAGES/plasmanetworkmanagement_openvpnui.mo
+* /usr/share/locale/ar/LC_MESSAGES/plasmanetworkmanagement_strongswanui.mo
 * /usr/share/locale/ar/LC_MESSAGES/plasmanetworkmanagement_vpncui.mo
 * /usr/share/locale/ar/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
 * /usr/share/locale/ast/LC_MESSAGES/plasmanetworkmanagement-kcm.mo
