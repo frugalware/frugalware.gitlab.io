@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openssh 9.9-1"
-version = "9.9-1"
+title = "openssh 9.9-2"
+version = "9.9-2"
 description = "Secure Shell daemon and clients"
-date = "2024-09-21T17:39:21"
+date = "2025-02-18T13:05:38"
 aliases = "/packages/2421"
 categories = ['network']
 upstreamurl = "http://www.openssh.com/"
 arch = "x86_64"
-size = "1268424"
-usize = "5734631"
-sha1sum = "49da6a3e5b4deeb92fdc96769120576b86d6f5fc"
+size = "1251276"
+usize = "5673052"
+sha1sum = "06d7269950889f5756377b2eecf6a43bc4ae2f14"
 depends = "['glibc>=2.35', 'ldns', 'libedit', 'libfido2>=1.10', 'openssl>=3.1', 'pam']"
 reverse_depends = "['autossh', 'gnome-keyring', 'keychain', 'kssh', 'seahorse', 'ssh-contact', 'sshcode']"
 +++

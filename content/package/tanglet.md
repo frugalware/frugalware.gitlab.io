@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "tanglet 1.6.6-2"
-version = "1.6.6-2"
+title = "tanglet 1.6.7-1"
+version = "1.6.7-1"
 description = "Tanglet is a single player word finding game based on Boggle(tm)."
-date = "2025-02-04T12:43:59"
+date = "2025-02-18T12:30:31"
 aliases = "/packages/184385"
 categories = ['games-extra']
 upstreamurl = "https://gottcode.org/tanglet"
 arch = "x86_64"
-size = "22567736"
-usize = "25006322"
-sha1sum = "53a54169e1aa2d9b137cc226a757a2a09714d806"
+size = "22568232"
+usize = "25007277"
+sha1sum = "44876e84e71b6a0b879df4980fcbfaf23d02143a"
 depends = "['qt6-base>=6.8.2']"
 +++
 ### Description: 
@@ -19,11 +19,11 @@ Tanglet is a single player word finding game based on Boggle(tm).
 ### Files: 
 * /usr/bin/tanglet
 * /usr/share/applications/tanglet.desktop
-* /usr/share/doc/tanglet-1.6.6/ChangeLog
-* /usr/share/doc/tanglet-1.6.6/COPYING
-* /usr/share/doc/tanglet-1.6.6/CREDITS
-* /usr/share/doc/tanglet-1.6.6/INSTALL
-* /usr/share/doc/tanglet-1.6.6/README
+* /usr/share/doc/tanglet-1.6.7/ChangeLog
+* /usr/share/doc/tanglet-1.6.7/COPYING
+* /usr/share/doc/tanglet-1.6.7/CREDITS
+* /usr/share/doc/tanglet-1.6.7/INSTALL
+* /usr/share/doc/tanglet-1.6.7/README
 * /usr/share/icons/hicolor/1024x1024/apps/tanglet.png
 * /usr/share/icons/hicolor/128x128/apps/tanglet.png
 * /usr/share/icons/hicolor/16x16/apps/tanglet.png
