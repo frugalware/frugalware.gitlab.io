@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libsmbclient 4.21.3-1"
-version = "4.21.3-1"
+title = "libsmbclient 4.21.4-1"
+version = "4.21.4-1"
 description = "SMB client library."
-date = "2025-01-07T09:22:26"
+date = "2025-02-18T11:34:33"
 aliases = "/packages/10586"
 categories = ['lib']
 upstreamurl = "http://www.samba.org"
 arch = "x86_64"
-size = "7638792"
-usize = "32553880"
-sha1sum = "1c796bfb15df0ff4a1e0d38bbdd74d12e939e3a4"
-depends = "['gpgme', 'icu4c>=76.1', 'jansson', 'libldap>=2.5.4', 'libldb>=4.21.3', 'libwbclient>=4.21.3', 'libxcrypt', 'lmdb', 'python3>=3.13', 'tevent']"
+size = "7616140"
+usize = "32077806"
+sha1sum = "44c4696c82259131ec80b5cf15dd24fa8151d4ea"
+depends = "['gpgme', 'icu4c>=76.1', 'jansson', 'libldap>=2.5.4', 'libldb>=4.21.4', 'libwbclient>=4.21.4', 'libxcrypt', 'lmdb', 'python3>=3.13', 'tevent']"
 reverse_depends = "['gvfs-smb', 'libldb', 'libwbclient', 'mpd', 'samba-client', 'smb4k', 'vlc-smb']"
 +++
 ### Description: 
@@ -237,6 +237,7 @@ SMB client library.
 * /usr/lib/samba/libtdb-wrap-private-samba.so
 * /usr/lib/samba/libtime-basic-private-samba.so
 * /usr/lib/samba/libtorture-private-samba.so
+* /usr/lib/samba/libutil-crypt-private-samba.so
 * /usr/lib/samba/libutil-reg-private-samba.so
 * /usr/lib/samba/libutil-setid-private-samba.so
 * /usr/lib/samba/libutil-tdb-private-samba.so
