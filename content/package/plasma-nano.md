@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "plasma-nano 6.3.0-1"
-version = "6.3.0-1"
+title = "plasma-nano 6.3.1-1"
+version = "6.3.1-1"
 description = "A minimal Plasma shell package"
-date = "2025-02-11T14:41:11"
+date = "2025-02-18T19:33:32"
 aliases = "/packages/220612"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "36088"
-usize = "157073"
-sha1sum = "cc866ebdfb09834947024eb3f31be0f06d9d515e"
-depends = "['kitemmodels>=6.10.0', 'kwayland>=', 'libplasma>=6.3.0']"
+size = "36092"
+usize = "157063"
+sha1sum = "2a6528cb51bb3833346f912b0d84d864aee340f6"
+depends = "['kitemmodels>=6.11.0', 'kwayland>=', 'libplasma>=6.3.1']"
 +++
 ### Description: 
 A minimal Plasma shell package
@@ -20,7 +20,7 @@ A minimal Plasma shell package
 * /usr/lib/qt6/qml/org/kde/plasma/private/nanoshell/libplasmananoshellprivateplugin.so
 * /usr/lib/qt6/qml/org/kde/plasma/private/nanoshell/qml/StartupFeedback.qml
 * /usr/lib/qt6/qml/org/kde/plasma/private/nanoshell/qmldir
-* /usr/share/doc/plasma-nano-6.3.0/README.md
+* /usr/share/doc/plasma-nano-6.3.1/README.md
 * /usr/share/locale/ar/LC_MESSAGES/plasma_shell_org.kde.plasma.nano.mo
 * /usr/share/locale/ast/LC_MESSAGES/plasma_shell_org.kde.plasma.nano.mo
 * /usr/share/locale/az/LC_MESSAGES/plasma_shell_org.kde.plasma.nano.mo
