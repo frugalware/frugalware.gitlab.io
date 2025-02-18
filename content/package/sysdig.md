@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "sysdig 0.39.0-23"
-version = "0.39.0-23"
+title = "sysdig 0.39.0-24"
+version = "0.39.0-24"
 description = "Open source system-level exploration and troubleshooting tool"
-date = "2025-02-09T10:47:05"
+date = "2025-02-18T10:32:50"
 aliases = "/packages/219877"
 categories = ['apps-extra']
 upstreamurl = "https://www.sysdig.com/"
 arch = "x86_64"
-size = "2139576"
+size = "2140316"
 usize = "16696631"
-sha1sum = "fa26af537b726330272d4d7bb68332f48b667bc1"
-depends = "['curl', 'grpc>=1.70.0', 'intel-tbb', 'jq', 'jsoncpp>=1.9.2', 'kernel=6.13.2-1', 'libb64', 'libbpf', 'luajit2', 'nlohmann-json', 'yaml-cpp']"
+sha1sum = "852005c07ddfc3e7130b1e16b7805aad71658d04"
+depends = "['curl', 'grpc>=1.70.0', 'intel-tbb', 'jq', 'jsoncpp>=1.9.2', 'kernel=6.13.3-1', 'libb64', 'libbpf', 'luajit2', 'nlohmann-json', 'yaml-cpp']"
 +++
 ### Description: 
 Open source system-level exploration and troubleshooting tool
