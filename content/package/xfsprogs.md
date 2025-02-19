@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "xfsprogs 6.12.0-1"
-version = "6.12.0-1"
+title = "xfsprogs 6.13.0-1"
+version = "6.13.0-1"
 description = "XFS filesystem-specific static libraries and headers."
-date = "2024-12-06T22:51:00"
+date = "2025-02-19T10:38:46"
 aliases = "/packages/2462"
 categories = ['apps']
 upstreamurl = "http://xfs.org"
 arch = "x86_64"
-size = "1195916"
-usize = "4077996"
-sha1sum = "dfbb50240330e7cb86eea4df89d7f998b408245d"
+size = "1259796"
+usize = "4353144"
+sha1sum = "962f876ac0040bbcdf53c30306fd665bf8964c82"
 depends = "['glibc>=2.35', 'icu4c>=76.1', 'inih', 'liburcu', 'libuuid>=2.40.2', 'readline>=8.0']"
 reverse_depends = "['kernel-initrd', 'kernel-lts-initrd', 'partitionmanager', 'qtparted']"
 +++
@@ -36,6 +36,7 @@ XFS filesystem-specific static libraries and headers.
 * /usr/bin/xfs_mkfile
 * /usr/bin/xfs_ncheck
 * /usr/bin/xfs_property
+* /usr/bin/xfs_protofile
 * /usr/bin/xfs_quota
 * /usr/bin/xfs_repair
 * /usr/bin/xfs_rtcp
@@ -68,8 +69,8 @@ XFS filesystem-specific static libraries and headers.
 * /usr/lib/systemd/system/xfs_scrub_media_fail@.service
 * /usr/lib/udev/rules.d/64-xfs.rules
 * /usr/lib/xfsprogs/xfsprogs/xfs_scrub_fail
-* /usr/share/doc/xfsprogs-6.12.0/README
-* /usr/share/doc/xfsprogs-6.12.0/VERSION
+* /usr/share/doc/xfsprogs-6.13.0/README
+* /usr/share/doc/xfsprogs-6.13.0/VERSION
 * /usr/share/doc/xfsprogs/CHANGES.gz
 * /usr/share/doc/xfsprogs/CREDITS
 * /usr/share/doc/xfsprogs/README
@@ -77,6 +78,7 @@ XFS filesystem-specific static libraries and headers.
 * /usr/share/locale/pl/LC_MESSAGES/xfsprogs.mo
 * /usr/share/man/man2/ioctl_xfs_ag_geometry.2.gz
 * /usr/share/man/man2/ioctl_xfs_bulkstat.2.gz
+* /usr/share/man/man2/ioctl_xfs_commit_range.2.gz
 * /usr/share/man/man2/ioctl_xfs_exchange_range.2.gz
 * /usr/share/man/man2/ioctl_xfs_fsbulkstat.2.gz
 * /usr/share/man/man2/ioctl_xfs_fscounts.2.gz
@@ -92,6 +94,7 @@ XFS filesystem-specific static libraries and headers.
 * /usr/share/man/man2/ioctl_xfs_getresblks.2.gz
 * /usr/share/man/man2/ioctl_xfs_goingdown.2.gz
 * /usr/share/man/man2/ioctl_xfs_inumbers.2.gz
+* /usr/share/man/man2/ioctl_xfs_rtgroup_geometry.2.gz
 * /usr/share/man/man2/ioctl_xfs_scrubv_metadata.2.gz
 * /usr/share/man/man2/ioctl_xfs_scrub_metadata.2.gz
 * /usr/share/man/man2/ioctl_xfs_setresblks.2.gz
@@ -130,6 +133,7 @@ XFS filesystem-specific static libraries and headers.
 * /usr/share/man/man8/xfs_mkfile.8.gz
 * /usr/share/man/man8/xfs_ncheck.8.gz
 * /usr/share/man/man8/xfs_property.8.gz
+* /usr/share/man/man8/xfs_protofile.8.gz
 * /usr/share/man/man8/xfs_quota.8.gz
 * /usr/share/man/man8/xfs_repair.8.gz
 * /usr/share/man/man8/xfs_rtcp.8.gz
