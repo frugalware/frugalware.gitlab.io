@@ -12,7 +12,7 @@ size = "510508"
 usize = "1359646"
 sha1sum = "eee762d34ee0cde3ac28f26ce48427e78bdffc0a"
 depends = "['lib32-libgpg-error>=1.36-2']"
-reverse_depends = "['lib32-libgl', 'lib32-libmicrohttpd', 'lib32-libsystemd', 'lib32-pipewire', 'lib32-rtmpdump']"
+reverse_depends = "['lib32-libmicrohttpd', 'lib32-libsystemd', 'lib32-pipewire', 'lib32-rtmpdump']"
 +++
 ### Description: 
 Libgcrypt is a general purpose cryptographic library based on the code from GnuPG. ( 32bit )

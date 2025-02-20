@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "81536"
 usize = "315423"
 sha1sum = "b43b339f8067c55f207d9a950a626cc1aa79d081"
-depends = "['libgl>=12.0.3-2']"
+depends = "[]"
 +++
 ### Description: 
 Glx library for XOrg.

@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "5447358"
 usize = "10976648"
 sha1sum = "c72769abf33fc88dac8aab00d764a0fc0a131af0"
-depends = "['file', 'libdrm', 'libgl', 'libstdc++', 'libxi', 'libxmu', 'libxxf86vm']"
+depends = "['file', 'libdrm', 'libstdc++', 'libxi', 'libxmu', 'libxxf86vm']"
 license = "GPL2"
 +++
 ### Description: 

@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "13783880"
 usize = "49243922"
 sha1sum = "958536693609944d0e46bc144a31068cdd46e792"
-depends = "['dbus', 'fontconfig', 'freetype2', 'harfbuzz', 'hicolor-icon-theme', 'imagemagick>=7.1.1', 'lcms2', 'libcanberra', 'libgl', 'librsync', 'libx11', 'libxi', 'libxkbcommon', 'python3>=3.13', 'python3-pygments', 'wayland']"
+depends = "['dbus', 'fontconfig', 'freetype2', 'harfbuzz', 'hicolor-icon-theme', 'imagemagick>=7.1.1', 'lcms2', 'libcanberra', 'librsync', 'libx11', 'libxi', 'libxkbcommon', 'python3>=3.13', 'python3-pygments', 'wayland']"
 +++
 ### Description: 
 A modern, hackable, featureful, OpenGL-based terminal emulator

@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "190613"
 usize = "773123"
 sha1sum = "28db397c9707a87b6b00851073b8b71660078c2e"
-depends = "['libgl', 'libstdc++', 'libxdamage', 'libxi', 'libxmu']"
+depends = "['libstdc++', 'libxdamage', 'libxi', 'libxmu']"
 +++
 ### Description: 
 Maxemum TV-Guide is a KDE TV-guide.

@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "36439876"
 usize = "184231099"
 sha1sum = "305ff9119072a6105a812c072548aa63ac4a9a1e"
-depends = "['brotli', 'libgl', 'python3', 'qt6-base', 'qt6-multimedia', 'qt6-svg', 'qt6-wayland']"
+depends = "['brotli', 'python3', 'qt6-base', 'qt6-multimedia', 'qt6-svg', 'qt6-wayland']"
 +++
 ### Description: 
 Web browser built from scratch using the SerenityOS LibWeb engine

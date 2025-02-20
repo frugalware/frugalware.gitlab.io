@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libnotify 0.8.3-1"
-version = "0.8.3-1"
+title = "libnotify 0.8.4-1"
+version = "0.8.4-1"
 description = "libnotify is a library for sending desktop notifications"
-date = "2023-11-06T12:33:17"
+date = "2025-02-20T09:38:07"
 aliases = "/packages/9208"
 categories = ['xlib']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "1106916"
-usize = "1696712"
-sha1sum = "64b6d0e5783fe7071762b29eff40ff00b2b9c6e1"
+size = "1112040"
+usize = "1725676"
+sha1sum = "27f0e02b0156941cfd676794d3e5848ffde48db6"
 depends = "['gdk-pixbuf2>=2.36.11-3', 'libffi>=3.2.1-2', 'libpng>=1.6.25']"
 reverse_depends = "['claws-mail-plugin-notification', 'discord', 'firefox', 'freetuxtv', 'geoclue2', 'gtk-handbrake', 'hexchat', 'ibus', 'nm-applet', 'notification-daemon', 'r2modman', 'sunflower', 'thunderbird', 'uget', 'usbguard-notifier', 'volumeicon', 'webkit-gtk3', 'wxwidgets']"
 +++
@@ -28,10 +28,10 @@ libnotify is a library for sending desktop notifications
 * /usr/lib/libnotify.so.4
 * /usr/lib/libnotify.so.4.0.0
 * /usr/lib/pkgconfig/libnotify.pc
-* /usr/share/doc/libnotify-0.8.3/AUTHORS
-* /usr/share/doc/libnotify-0.8.3/COPYING
-* /usr/share/doc/libnotify-0.8.3/NEWS
-* /usr/share/doc/libnotify-0.8.3/README.md
+* /usr/share/doc/libnotify-0.8.4/AUTHORS
+* /usr/share/doc/libnotify-0.8.4/COPYING
+* /usr/share/doc/libnotify-0.8.4/NEWS
+* /usr/share/doc/libnotify-0.8.4/README.md
 * /usr/share/doc/libnotify-0/callback.ActionCallback.html
 * /usr/share/doc/libnotify-0/class.Notification.html
 * /usr/share/doc/libnotify-0/classes_hierarchy.html
@@ -46,11 +46,13 @@ libnotify is a library for sending desktop notifications
 * /usr/share/doc/libnotify-0/fonts.css
 * /usr/share/doc/libnotify-0/func.ACTION_CALLBACK.html
 * /usr/share/doc/libnotify-0/func.CHECK_VERSION.html
+* /usr/share/doc/libnotify-0/func.get_app_icon.html
 * /usr/share/doc/libnotify-0/func.get_app_name.html
 * /usr/share/doc/libnotify-0/func.get_server_caps.html
 * /usr/share/doc/libnotify-0/func.get_server_info.html
 * /usr/share/doc/libnotify-0/func.init.html
 * /usr/share/doc/libnotify-0/func.is_initted.html
+* /usr/share/doc/libnotify-0/func.set_app_icon.html
 * /usr/share/doc/libnotify-0/func.set_app_name.html
 * /usr/share/doc/libnotify-0/func.uninit.html
 * /usr/share/doc/libnotify-0/fzy.js
@@ -65,6 +67,7 @@ libnotify is a library for sending desktop notifications
 * /usr/share/doc/libnotify-0/method.Notification.close.html
 * /usr/share/doc/libnotify-0/method.Notification.get_activation_token.html
 * /usr/share/doc/libnotify-0/method.Notification.get_closed_reason.html
+* /usr/share/doc/libnotify-0/method.Notification.set_app_icon.html
 * /usr/share/doc/libnotify-0/method.Notification.set_app_name.html
 * /usr/share/doc/libnotify-0/method.Notification.set_category.html
 * /usr/share/doc/libnotify-0/method.Notification.set_hint.html
@@ -81,6 +84,7 @@ libnotify is a library for sending desktop notifications
 * /usr/share/doc/libnotify-0/method.Notification.show.html
 * /usr/share/doc/libnotify-0/method.Notification.update.html
 * /usr/share/doc/libnotify-0/opensearch.xml
+* /usr/share/doc/libnotify-0/property.Notification.app-icon.html
 * /usr/share/doc/libnotify-0/property.Notification.app-name.html
 * /usr/share/doc/libnotify-0/property.Notification.body.html
 * /usr/share/doc/libnotify-0/property.Notification.closed-reason.html

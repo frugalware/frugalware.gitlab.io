@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "0"
 usize = "0"
 sha1sum = ""
-depends = "['curl', 'freeglut', 'freetype2', 'libgl', 'libjpeg', 'libvorbis', 'libxxf86dga', 'libxxf86vm', 'ode', 'openal', 'sdl']"
+depends = "['curl', 'freeglut', 'freetype2', 'libjpeg', 'libvorbis', 'libxxf86dga', 'libxxf86vm', 'ode', 'openal', 'sdl']"
 +++
 ### Description: 
 Multiplayer retro sci-fi deathmatch game

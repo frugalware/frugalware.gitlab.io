@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libcupsfilters 2.1.0-2"
-version = "2.1.0-2"
+title = "libcupsfilters 2.1.1-1"
+version = "2.1.1-1"
 description = "OpenPrinting CUPS Filters - contains all the code of the filters of the former cups-filters package as library functions"
-date = "2025-01-13T16:57:14"
+date = "2025-02-20T09:39:37"
 aliases = "/packages/221455"
 categories = ['lib']
 upstreamurl = "https://github.com/OpenPrinting/libcupsfilters"
 arch = "x86_64"
-size = "602184"
-usize = "1780617"
-sha1sum = "ecdd9aa37a96d45ae1e8bcc13e43c276f4429a9c"
+size = "603280"
+usize = "1784252"
+sha1sum = "96367032c90d46b0f35041299f96a7e9b1b2b95a"
 depends = "['libcups', 'libexif', 'poppler>=25.01.0', 'qpdf']"
 reverse_depends = "['libppd']"
 +++
@@ -57,14 +57,14 @@ OpenPrinting CUPS Filters - contains all the code of the filters of the former c
 * /usr/share/cups/data/testprint
 * /usr/share/cups/data/topsecret.pdf
 * /usr/share/cups/data/unclassified.pdf
-* /usr/share/doc/libcupsfilters-2.1.0/ABOUT-NLS
-* /usr/share/doc/libcupsfilters-2.1.0/AUTHORS
-* /usr/share/doc/libcupsfilters-2.1.0/CHANGES-1.x.md
-* /usr/share/doc/libcupsfilters-2.1.0/CHANGES.md
-* /usr/share/doc/libcupsfilters-2.1.0/CONTRIBUTING.md
-* /usr/share/doc/libcupsfilters-2.1.0/COPYING
-* /usr/share/doc/libcupsfilters-2.1.0/DEVELOPING.md
-* /usr/share/doc/libcupsfilters-2.1.0/INSTALL.md
-* /usr/share/doc/libcupsfilters-2.1.0/LICENSE
-* /usr/share/doc/libcupsfilters-2.1.0/NOTICE
-* /usr/share/doc/libcupsfilters-2.1.0/README.md
+* /usr/share/doc/libcupsfilters-2.1.1/ABOUT-NLS
+* /usr/share/doc/libcupsfilters-2.1.1/AUTHORS
+* /usr/share/doc/libcupsfilters-2.1.1/CHANGES-1.x.md
+* /usr/share/doc/libcupsfilters-2.1.1/CHANGES.md
+* /usr/share/doc/libcupsfilters-2.1.1/CONTRIBUTING.md
+* /usr/share/doc/libcupsfilters-2.1.1/COPYING
+* /usr/share/doc/libcupsfilters-2.1.1/DEVELOPING.md
+* /usr/share/doc/libcupsfilters-2.1.1/INSTALL.md
+* /usr/share/doc/libcupsfilters-2.1.1/LICENSE
+* /usr/share/doc/libcupsfilters-2.1.1/NOTICE
+* /usr/share/doc/libcupsfilters-2.1.1/README.md

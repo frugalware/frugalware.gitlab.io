@@ -12,7 +12,7 @@ size = "11676"
 usize = "27433"
 sha1sum = "27dbec627cb9b50fb00b1f011fc037df32b6cec3"
 depends = "['lib32-libx11>=1.6.5-2', 'lib32-libxext>=1.3.3-3']"
-reverse_depends = "['lib32-libepoxy', 'lib32-libgl', 'lib32-mesa-libglx']"
+reverse_depends = "['lib32-libepoxy', 'lib32-mesa-libglx']"
 +++
 ### Description: 
 X.Org Xxf86vm library ( 32bit )

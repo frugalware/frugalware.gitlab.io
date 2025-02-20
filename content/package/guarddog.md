@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "433958"
 usize = "1348075"
 sha1sum = "830ecb6ff056af31a43027917586f1c7f4646495"
-depends = "['expat', 'iptables', 'libdrm', 'libgl', 'libstdc++', 'libxi', 'libxmu', 'libxxf86vm']"
+depends = "['expat', 'iptables', 'libdrm', 'libstdc++', 'libxi', 'libxmu', 'libxxf86vm']"
 +++
 ### Description: 
 Guarddog is a firewall configuration utility for Linux systems.

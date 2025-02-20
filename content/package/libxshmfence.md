@@ -12,7 +12,7 @@ size = "10304"
 usize = "27708"
 sha1sum = "838930f32d65d51df6a889d84d597cd68c9c9b1a"
 depends = "['glibc>=2.34']"
-reverse_depends = "['efl', 'libegl', 'libepoxy', 'libgl', 'mesa-dri-drivers', 'mesa-libegl', 'mesa-libglx', 'mesa-vulkan-intel', 'qt6-webengine', 'xf86-video-intel']"
+reverse_depends = "['efl', 'libegl', 'libepoxy', 'mesa-dri-drivers', 'mesa-libegl', 'mesa-libglx', 'mesa-vulkan-intel', 'qt6-webengine', 'xf86-video-intel']"
 license = "GPL2"
 +++
 ### Description: 

@@ -12,7 +12,7 @@ size = "12001576"
 usize = "48444395"
 sha1sum = "e260cae4cd21170cbee01553eb25973f8276563d"
 depends = "['elfutils>=0.167-2', 'expat>=2.1.0-6', 'libdrm>=2.4.71', 'libffi>=3.2.1-2', 'libgbm', 'libunwind', 'libxshmfence', 'llvm-libs>=19.1.1', 'lmsensors>=3.5.0', 'spirv-tools', 'zstd']"
-reverse_depends = "['libgl', 'qt6-webengine', 'virtualbox-guest-additions', 'xorg-server']"
+reverse_depends = "['qt6-webengine', 'virtualbox-guest-additions', 'xorg-server']"
 +++
 ### Description: 
 Mesa OpenGL DRI drivers.

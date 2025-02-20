@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "43608548"
 usize = "51818521"
 sha1sum = "f9abd8f977784a7ef36f5360979a57f487c65d5e"
-depends = "['curl', 'libgl', 'libvorbis', 'openal', 'sdl2_image']"
+depends = "['curl', 'libvorbis', 'openal', 'sdl2_image']"
 +++
 ### Description: 
 A realistic team oriented multiplayer FPS based on the Cube engine

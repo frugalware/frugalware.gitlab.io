@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "3386196"
 usize = "12690896"
 sha1sum = "96c01ccf35c53b3a9d4fb0637131006c3d5fcb0a"
-depends = "['curl', 'ftgl', 'glew>=1.13', 'libgl', 'libircclient', 'libvlc', 'libvorbis', 'lua', 'megaglest-data>=$pkgver', 'miniupnpc>=1.9', 'openal', 'xerces-c>=3.1.1']"
+depends = "['curl', 'ftgl', 'glew>=1.13', 'libircclient', 'libvlc', 'libvorbis', 'lua', 'megaglest-data>=$pkgver', 'miniupnpc>=1.9', 'openal', 'xerces-c>=3.1.1']"
 +++
 ### Description: 
 Fork of Glest, a 3D real-time strategy game in a fantastic world.

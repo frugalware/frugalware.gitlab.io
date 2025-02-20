@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "80028"
 usize = "304431"
 sha1sum = "9a61330caf013b6d37e1f4ed93f7393828a86842"
-depends = "['libgl', 'libpng', 'libsm', 'libstdc++', 'libxcursor', 'libxdamage', 'libxft', 'libxi', 'libxinerama', 'libxmu', 'libxrandr', 'xfsprogs-attr']"
+depends = "['libpng', 'libsm', 'libstdc++', 'libxcursor', 'libxdamage', 'libxft', 'libxi', 'libxinerama', 'libxmu', 'libxrandr', 'xfsprogs-attr']"
 +++
 ### Description: 
 A subtitle editor for KDE

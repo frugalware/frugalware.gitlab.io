@@ -12,7 +12,7 @@ size = "30776"
 usize = "81668"
 sha1sum = "5921165e405ec1d45a85e7113053f3c35e287518"
 depends = "['libx11>=1.6.5-2', 'libxext>=1.3.3-3']"
-reverse_depends = "['alienarena', 'allegro', 'argyllcms', 'efl', 'freeglut', 'geogram', 'guarddog', 'irrlicht', 'knoda', 'koverartist', 'libepoxy', 'libgl', 'mesa-libglx', 'mpv', 'nvidia-settings', 'opendiablo2', 'openxr', 'redshift', 'wxwidgets', 'xgamma', 'xonotic', 'xvidtune']"
+reverse_depends = "['alienarena', 'allegro', 'argyllcms', 'efl', 'freeglut', 'geogram', 'guarddog', 'irrlicht', 'knoda', 'koverartist', 'libepoxy', 'mesa-libglx', 'mpv', 'nvidia-settings', 'opendiablo2', 'openxr', 'redshift', 'wxwidgets', 'xgamma', 'xonotic', 'xvidtune']"
 license = "GPL2"
 +++
 ### Description: 

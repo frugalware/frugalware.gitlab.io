@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "3492"
 usize = "4096"
 sha1sum = "19e35630361d53a7720caa7e18cb6ad1f781a3be"
-depends = "['libgl', 'libxext']"
+depends = "['libxext']"
 +++
 ### Description: 
 KOffice Chart Generator

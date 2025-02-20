@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "xorg-server 21.1.15-1"
-version = "21.1.15-1"
+title = "xorg-server 21.1.15-2"
+version = "21.1.15-2"
 description = "Modular X.Org X Server"
-date = "2024-12-18T09:30:42"
+date = "2025-02-20T09:31:45"
 aliases = "/packages/4942"
 categories = ['x11']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "3793136"
-usize = "17395811"
-sha1sum = "90af3d427e00a9163fdd01271b856a31237d47e4"
+size = "3802748"
+usize = "17467987"
+sha1sum = "084738d6623aa0296b12d784be0bcfe5f7651093"
 depends = "['dbus', 'libepoxy>=1.5.2', 'libgbm>=19.0.0', 'libglvnd', 'libsystemd>=242', 'libudev>=242', 'libxcvt', 'libxfont2>=2.0.1', 'mesa-dri-drivers', 'mesa-libegl>=19.0.0', 'mesa-libglx>=19.0.0', 'pam', 'pixman>=0.32.8-3', 'xf86-input-evdev']"
 reverse_depends = "['i3', 'ksynaptics', 'lumina-desktop', 'xf86-input-acecad', 'xf86-input-elographics', 'xf86-input-evdev', 'xf86-input-fpit', 'xf86-input-hyperpen', 'xf86-input-joystick', 'xf86-input-libinput', 'xf86-input-mouse', 'xf86-input-mtrack', 'xf86-input-mutouch', 'xf86-input-penmount', 'xf86-input-synaptics', 'xf86-input-vmmouse', 'xf86-input-void', 'xf86-input-wacom', 'xf86-video-amdgpu', 'xf86-video-ast', 'xf86-video-ati', 'xf86-video-chips', 'xf86-video-dummy', 'xf86-video-fbdev', 'xf86-video-i810', 'xf86-video-intel', 'xf86-video-nouveau', 'xf86-video-qxl', 'xf86-video-s3virge', 'xf86-video-sunbw2', 'xf86-video-suncg14', 'xf86-video-suncg3', 'xf86-video-suncg6', 'xf86-video-sunffb', 'xf86-video-sunleo', 'xf86-video-suntcx', 'xf86-video-vboxvideo', 'xf86-video-vesa', 'xf86-video-vmware', 'xorg-compat']"
 license = "GPL2"

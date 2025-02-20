@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "0"
 usize = "0"
 sha1sum = ""
-depends = "['freetype2', 'libgl', 'sdl2_image', 'sdl2_mixer']"
+depends = "['freetype2', 'sdl2_image', 'sdl2_mixer']"
 +++
 ### Description: 
 A single-player and multi-player first-person ego-shooter, built as a total conversion of Cube Engine 2

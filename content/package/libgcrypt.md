@@ -12,7 +12,7 @@ size = "893112"
 usize = "2911495"
 sha1sum = "22ff6bccae60071751bf0194b2a7e014aed57dc6"
 depends = "['libgpg-error>=1.36-2']"
-reverse_depends = "['dirmngr', 'dirmngr-ldap', 'efl', 'enlightenment', 'freeipmi', 'fsarchiver', 'gcr-1', 'gnunet', 'gpg-agent', 'gtk-vnc', 'kvm', 'kwallet-pam', 'lftp', 'libgl', 'libgnome-keyring', 'libmicrohttpd', 'libotr', 'libquvi', 'libsecret', 'libssh', 'libsystemd', 'libvlc', 'libvncserver', 'libxslt', 'networkmanager', 'otter-browser', 'qca-gcrypt', 'rasqal', 'remmina', 'rng-tools', 'rtmpdump', 'systemd-pull', 'systemd-sysvinit', 'terminology', 'vpnc', 'weechat']"
+reverse_depends = "['dirmngr', 'dirmngr-ldap', 'efl', 'enlightenment', 'freeipmi', 'fsarchiver', 'gcr-1', 'gnunet', 'gpg-agent', 'gtk-vnc', 'kvm', 'kwallet-pam', 'lftp', 'libgnome-keyring', 'libmicrohttpd', 'libotr', 'libquvi', 'libsecret', 'libssh', 'libsystemd', 'libvlc', 'libvncserver', 'libxslt', 'networkmanager', 'otter-browser', 'qca-gcrypt', 'rasqal', 'remmina', 'rng-tools', 'rtmpdump', 'systemd-pull', 'systemd-sysvinit', 'terminology', 'vpnc', 'weechat']"
 +++
 ### Description: 
 Libgcrypt is a general purpose cryptographic library based on the code from GnuPG.

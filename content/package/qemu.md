@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "128156544"
 usize = "846037631"
 sha1sum = "052f692c2a084d6f6c4e33d9c518ac2b30679412"
-depends = "['alsa-lib', 'bluez', 'curl', 'cyrus-sasl', 'dtc', 'fuse3', 'jemalloc', 'libaio', 'libbpf', 'libepoxy', 'libgbm', 'libgl', 'libglu', 'libjpeg-turbo', 'libpng>=1.6.20', 'libseccomp', 'libssh2', 'libsysprof-capture', 'liburing', 'libx11', 'lzo', 'ncurses>=6.0-3', 'nettle>=3.6', 'nss', 'numactl', 'pipewire', 'pixman', 'pulseaudio', 'snappy', 'spice-protocol', 'usbredir>=0.8.0', 'vte3', 'xkeyboard-config']"
+depends = "['alsa-lib', 'bluez', 'curl', 'cyrus-sasl', 'dtc', 'fuse3', 'jemalloc', 'libaio', 'libbpf', 'libepoxy', 'libgbm', 'libglu', 'libjpeg-turbo', 'libpng>=1.6.20', 'libseccomp', 'libssh2', 'libsysprof-capture', 'liburing', 'libx11', 'lzo', 'ncurses>=6.0-3', 'nettle>=3.6', 'nss', 'numactl', 'pipewire', 'pixman', 'pulseaudio', 'snappy', 'spice-protocol', 'usbredir>=0.8.0', 'vte3', 'xkeyboard-config']"
 reverse_depends = "['libguestfs']"
 +++
 ### Description: 

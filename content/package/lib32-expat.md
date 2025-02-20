@@ -12,7 +12,7 @@ size = "89528"
 usize = "272297"
 sha1sum = "b0fae1774be0eb6ee3c5f157b32852dc5f672672"
 depends = "[]"
-reverse_depends = "['lib32-dbus-glib', 'lib32-fontconfig', 'lib32-libarchive', 'lib32-libgl', 'lib32-libosmesa', 'lib32-libva-mesa-driver', 'lib32-libxatracker', 'lib32-mesa-dri-drivers', 'lib32-mesa-libglx', 'lib32-mesa-nine', 'lib32-mesa-vdpau-drivers', 'lib32-polkit', 'lib32-wayland']"
+reverse_depends = "['lib32-dbus-glib', 'lib32-fontconfig', 'lib32-libarchive', 'lib32-libosmesa', 'lib32-libva-mesa-driver', 'lib32-libxatracker', 'lib32-mesa-dri-drivers', 'lib32-mesa-libglx', 'lib32-mesa-nine', 'lib32-mesa-vdpau-drivers', 'lib32-polkit', 'lib32-wayland']"
 +++
 ### Description: 
 An XML Parser library written in C ( 32bit )

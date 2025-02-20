@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "2408"
 usize = "0"
 sha1sum = "6cbc1a7e7ef90a39e893584a68810c472cf903bb"
-depends = "['curl', 'desktop-file-utils', 'freetype2', 'gdk-pixbuf2', 'hicolor-icon-theme', 'lib32-alsa-lib', 'lib32-fontconfig', 'lib32-lcms2', 'lib32-libglu', 'lib32-libmpg123', 'lib32-libxcrypt-compat', 'lib32-libxml2', 'lib32-mesa-libglx', 'lib32-openal', 'libgl', 'libx11', 'make', 'pulseaudio', 'wget', 'xdg-user-dirs', 'zenity']"
+depends = "['curl', 'desktop-file-utils', 'freetype2', 'gdk-pixbuf2', 'hicolor-icon-theme', 'lib32-alsa-lib', 'lib32-fontconfig', 'lib32-lcms2', 'lib32-libglu', 'lib32-libmpg123', 'lib32-libxcrypt-compat', 'lib32-libxml2', 'lib32-mesa-libglx', 'lib32-openal', 'libx11', 'make', 'pulseaudio', 'wget', 'xdg-user-dirs', 'zenity']"
 reverse_depends = "['steam-native']"
 +++
 ### Description: 
