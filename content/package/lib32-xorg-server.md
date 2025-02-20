@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "2196188"
 usize = "10755960"
 sha1sum = "c17f948853da5fb9f6ec47752206928b16b8292f"
-depends = "['lib32-libdbus', 'lib32-libepoxy>=1.5.2', 'lib32-libgbm>=19.0.0', 'lib32-libglapi>=19.0.0', 'lib32-libglvnd', 'lib32-libsystemd>=231-17', 'lib32-libudev', 'lib32-libxcvt', 'lib32-libxfont2>=2.0.1', 'lib32-mesa-dri-drivers>=19.0.0', 'lib32-mesa-libegl>=19.0.0', 'lib32-mesa-libglx>=19.0.0', 'lib32-pam', 'lib32-pixman>=0.32.8-3']"
+depends = "['lib32-libdbus', 'lib32-libepoxy>=1.5.2', 'lib32-libgbm>=19.0.0', 'lib32-libglvnd', 'lib32-libsystemd>=231-17', 'lib32-libudev', 'lib32-libxcvt', 'lib32-libxfont2>=2.0.1', 'lib32-mesa-dri-drivers>=19.0.0', 'lib32-mesa-libegl>=19.0.0', 'lib32-mesa-libglx>=19.0.0', 'lib32-pam', 'lib32-pixman>=0.32.8-3']"
 +++
 ### Description: 
 Modular X.Org X Server (32-bit)

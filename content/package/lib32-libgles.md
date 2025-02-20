@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "67320"
 usize = "746680"
 sha1sum = "fcd72be298af735b2b06e92f569001b7e1d355e2"
-depends = "['glibc>=2.24-4', 'lib32-libglapi']"
+depends = "['glibc>=2.24-4']"
 +++
 ### Description: 
 Mesa OpenGL ES1/ES2 libraries. (32-bit)
