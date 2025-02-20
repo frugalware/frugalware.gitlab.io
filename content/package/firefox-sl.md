@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-sl 135.0-1"
-version = "135.0-1"
+title = "firefox-sl 135.0.1-1"
+version = "135.0.1-1"
 description = "Slovenian language support for Firefox"
-date = "2025-02-06T15:09:03"
+date = "2025-02-20T12:00:15"
 aliases = "/packages/3592"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "381620"
-usize = "434148"
-sha1sum = "69e0e98ba0b95f6c035d10e0a3ecf5fc3332f8cb"
-depends = "['firefox>=135.0']"
+size = "381252"
+usize = "434139"
+sha1sum = "46819f742f7e921c24c53e4ec19a594fb885eb69"
+depends = "['firefox>=135.0.1']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 
