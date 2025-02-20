@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gsl 2.8-1"
-version = "2.8-1"
+title = "gsl 2.8-2"
+version = "2.8-2"
 description = "The GNU Scientific Library (GSL) is a numerical library for C and C++ programmers."
-date = "2024-05-28T09:59:17"
+date = "2025-02-20T17:11:41"
 aliases = "/packages/9230"
 categories = ['lib']
 upstreamurl = "http://www.gnu.org/software/gsl/"
 arch = "x86_64"
-size = "1637580"
-usize = "5205019"
-sha1sum = "53e221d21a0ac33cf6ca00c5dc1da585a5587338"
-depends = "['glibc>=2.34']"
+size = "1554876"
+usize = "4939407"
+sha1sum = "66293dc655c6793bc72e6f403271051a1e7de5b5"
+depends = "['libcblas']"
 reverse_depends = "['clight', 'easyeffects', 'enblend-enfuse', 'guvcview', 'inkscape', 'krita', 'kstars', 'labplot', 'stellarsolver', 'step']"
 +++
 ### Description: 
@@ -292,8 +292,6 @@ The GNU Scientific Library (GSL) is a numerical library for C and C++ programmer
 * /usr/lib/libgsl.so.28
 * /usr/lib/libgsl.so.28.0.0
 * /usr/lib/libgslcblas.so
-* /usr/lib/libgslcblas.so.0
-* /usr/lib/libgslcblas.so.0.0.0
 * /usr/lib/pkgconfig/gsl.pc
 * /usr/share/aclocal/gsl.m4
 * /usr/share/doc/gsl-2.8/AUTHORS

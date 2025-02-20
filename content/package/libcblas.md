@@ -12,7 +12,7 @@ size = "47924"
 usize = "238399"
 sha1sum = "26025790b06d50510ca2894cfb16e534c63813bb"
 depends = "['libblas>=3.12.1', 'libgfortran>=11.2']"
-reverse_depends = "['dlib', 'python3-scipy']"
+reverse_depends = "['dlib', 'gsl', 'python3-scipy']"
 +++
 ### Description: 
 C Standard Interface to BLAS Basic Linear Algebra Subprograms.

@@ -1,17 +1,18 @@
 +++
 draft = false
-title = "folly 2025.02.17.00-1"
-version = "2025.02.17.00-1"
+title = "folly 2025.02.17.00-2"
+version = "2025.02.17.00-2"
 description = "An open-source C++ library developed and used at Facebook"
-date = "2025-02-20T14:40:29"
+date = "2025-02-20T16:54:34"
 aliases = "/packages/222636"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/facebook/folly"
 arch = "x86_64"
-size = "2809408"
-usize = "12898964"
-sha1sum = "49e35d19159865ffcc500a24fe7cbf4571020a69"
+size = "2837392"
+usize = "13022157"
+sha1sum = "926cf74834564676cfd2dee7097be8b98b1021f6"
 depends = "['double-conversion', 'fmtlib', 'google-glog', 'libaio', 'libboost', 'libevent', 'libsodium', 'libunwind', 'liburing', 'snappy']"
+reverse_depends = "['fizz']"
 +++
 ### Description: 
 An open-source C++ library developed and used at Facebook
@@ -77,6 +78,8 @@ An open-source C++ library developed and used at Facebook
 * /usr/include/folly/chrono/Clock.h
 * /usr/include/folly/chrono/Conv.h
 * /usr/include/folly/chrono/Hardware.h
+* /usr/include/folly/cli/NestedCommandLineApp.h
+* /usr/include/folly/cli/ProgramOptions.h
 * /usr/include/folly/ClockGettimeWrappers.h
 * /usr/include/folly/compression/Compression.h
 * /usr/include/folly/compression/CompressionContextPool.h

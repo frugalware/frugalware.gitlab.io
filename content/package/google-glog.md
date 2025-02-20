@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "google-glog 0.7.1-1"
-version = "0.7.1-1"
+title = "google-glog 0.7.1-2"
+version = "0.7.1-2"
 description = "Logging library for C++"
-date = "2024-06-09T19:28:23"
+date = "2025-02-20T16:41:58"
 aliases = "/packages/220119"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/google/glog"
 arch = "x86_64"
-size = "127420"
-usize = "416980"
-sha1sum = "131939e4c1d41eb5161bc333662c029f6817e742"
-depends = "['libstdc++']"
+size = "129592"
+usize = "424734"
+sha1sum = "0c292976fb64f127c2bb548d04757a5c824db759"
+depends = "['gflags']"
 reverse_depends = "['ceres-solver', 'folly']"
 +++
 ### Description: 
@@ -35,6 +35,7 @@ Logging library for C++
 * /usr/lib/libglog.so
 * /usr/lib/libglog.so.0.7.1
 * /usr/lib/libglog.so.2
+* /usr/lib/pkgconfig/libglog.pc
 * /usr/share/doc/google-glog-0.7.1/AUTHORS
 * /usr/share/doc/google-glog-0.7.1/ChangeLog
 * /usr/share/doc/google-glog-0.7.1/CONTRIBUTORS
