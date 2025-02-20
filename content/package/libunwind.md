@@ -12,7 +12,7 @@ size = "128840"
 usize = "657060"
 sha1sum = "a4fef15fcb393f8d28cdc0df765fd2af76f551b7"
 depends = "['xz>=5.2.2-4']"
-reverse_depends = "['efl', 'enlightenment', 'intel-gpu-tools', 'julia', 'libcamera', 'mesa-dri-drivers', 'pdal', 'spring', 'sysprof', 'terminology']"
+reverse_depends = "['efl', 'enlightenment', 'folly', 'intel-gpu-tools', 'julia', 'libcamera', 'mesa-dri-drivers', 'pdal', 'spring', 'sysprof', 'terminology']"
 +++
 ### Description: 
 Portable and efficient C programming interface (API) to determine the call-chain of a program

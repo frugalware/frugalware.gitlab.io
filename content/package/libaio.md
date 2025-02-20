@@ -12,7 +12,7 @@ size = "15956"
 usize = "52789"
 sha1sum = "a3cfa24ba7ffdb5583a0e74b2978f184ba34bb33"
 depends = "['glibc>=2.34']"
-reverse_depends = "['libiio', 'lvm2', 'mariadb', 'mariadb-libs', 'multipath-tools', 'nginx', 'qemu']"
+reverse_depends = "['folly', 'libiio', 'lvm2', 'mariadb', 'mariadb-libs', 'multipath-tools', 'nginx', 'qemu']"
 +++
 ### Description: 
 Asynchronous input/output library that uses the kernels native interface

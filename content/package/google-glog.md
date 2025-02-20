@@ -12,7 +12,7 @@ size = "127420"
 usize = "416980"
 sha1sum = "131939e4c1d41eb5161bc333662c029f6817e742"
 depends = "['libstdc++']"
-reverse_depends = "['ceres-solver']"
+reverse_depends = "['ceres-solver', 'folly']"
 +++
 ### Description: 
 Logging library for C++

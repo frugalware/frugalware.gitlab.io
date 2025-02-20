@@ -12,7 +12,7 @@ size = "49768"
 usize = "173619"
 sha1sum = "02fc51fe0c8c2112082c5ea04b26bdd38ae985a1"
 depends = "['libstdc++>=11.2']"
-reverse_depends = "['inkscape', 'qt5-base', 'qt6-base']"
+reverse_depends = "['folly', 'inkscape', 'qt5-base', 'qt6-base']"
 +++
 ### Description: 
 Binary-decimal and decimal-binary routines for IEEE doubles
