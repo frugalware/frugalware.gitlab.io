@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "thunderbird-lt 128.7.0-1"
-version = "128.7.0-1"
+title = "thunderbird-lt 128.7.1-1"
+version = "128.7.1-1"
 description = "Lithuanian language support for Thunderbird"
-date = "2025-02-06T10:08:50"
+date = "2025-02-20T10:43:22"
 aliases = "/packages/16127"
 categories = ['locale-extra']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "635408"
-usize = "701409"
-sha1sum = "8d4b91539e1c9a88a09c38db4d5d72cf7c3f3110"
-depends = "['thunderbird>=128.7.0']"
+size = "635432"
+usize = "701408"
+sha1sum = "66b442f36e781b7b89ebe880a8bb0bd5e9795245"
+depends = "['thunderbird>=128.7.1']"
 reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 

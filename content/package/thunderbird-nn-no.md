@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "thunderbird-nn-no 128.7.0-1"
-version = "128.7.0-1"
+title = "thunderbird-nn-no 128.7.1-1"
+version = "128.7.1-1"
 description = "Norwegian Nynorsk language support for Thunderbird"
-date = "2025-02-06T10:08:50"
+date = "2025-02-20T10:43:22"
 aliases = "/packages/73781"
 categories = ['locale-extra']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "663104"
-usize = "729660"
-sha1sum = "d5a71a9a4e11880c20320ba2496377443330bc8a"
-depends = "['thunderbird>=128.7.0']"
+size = "663100"
+usize = "729657"
+sha1sum = "d9508676c4d578b817f6ac247d29e72bb400798d"
+depends = "['thunderbird>=128.7.1']"
 reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 

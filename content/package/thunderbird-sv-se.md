@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "thunderbird-sv-se 128.7.0-1"
-version = "128.7.0-1"
+title = "thunderbird-sv-se 128.7.1-1"
+version = "128.7.1-1"
 description = "Swedish language support for Thunderbird"
-date = "2025-02-06T10:08:50"
+date = "2025-02-20T10:43:22"
 aliases = "/packages/73787"
 categories = ['locale-extra']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "688756"
-usize = "754939"
-sha1sum = "959a9c97435cef1e10b97169b6116f6b9189353e"
-depends = "['thunderbird>=128.7.0']"
+size = "688688"
+usize = "754938"
+sha1sum = "2d0b0d1cce9e21980208b2a2e017851b489839a8"
+depends = "['thunderbird>=128.7.1']"
 reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 
