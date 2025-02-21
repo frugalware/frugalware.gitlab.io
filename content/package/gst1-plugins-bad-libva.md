@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gst1-plugins-bad-libva 1.24.12-3"
-version = "1.24.12-3"
+title = "gst1-plugins-bad-libva 1.24.12-4"
+version = "1.24.12-4"
 description = "GStreamer libva plugin (Bad)."
-date = "2025-02-15T11:47:06"
+date = "2025-02-21T14:16:30"
 aliases = "/packages/221276"
 categories = ['xmultimedia']
 upstreamurl = "http://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "425860"
+size = "425900"
 usize = "1250284"
-sha1sum = "9f226b0fe4c026a187dc30e991f98de80087cba1"
+sha1sum = "0b92cb05c4fca3b69b7570cb1ad38afbd7551653"
 depends = "['gst1-plugins-bad>=1.24.12', 'gst1-plugins-base>=1.24.12', 'libva']"
 +++
 ### Description: 

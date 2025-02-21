@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ngtcp2 1.10.0-1"
-version = "1.10.0-1"
+title = "ngtcp2 1.11.0-1"
+version = "1.11.0-1"
 description = "Implementation of IETF QUIC protocol"
-date = "2024-12-20T22:25:52"
+date = "2025-02-21T14:45:40"
 aliases = "/packages/221496"
 categories = ['chroot-core']
 upstreamurl = "https://nghttp2.org"
 arch = "x86_64"
-size = "152364"
-usize = "503479"
-sha1sum = "65b4fcc1b954c3c33525f53efc83f5f22da16a4f"
+size = "153688"
+usize = "510821"
+sha1sum = "58832d184c8507d4650b4ec9033a2eab832f4ea2"
 depends = "['glibc>=2.3.4']"
 reverse_depends = "['nodejs']"
 +++
@@ -22,10 +22,10 @@ Implementation of IETF QUIC protocol
 * /usr/include/ngtcp2/version.h
 * /usr/lib/libngtcp2.so
 * /usr/lib/libngtcp2.so.16
-* /usr/lib/libngtcp2.so.16.2.8
+* /usr/lib/libngtcp2.so.16.2.9
 * /usr/lib/pkgconfig/libngtcp2.pc
-* /usr/share/doc/ngtcp2-1.10.0/AUTHORS
-* /usr/share/doc/ngtcp2-1.10.0/COPYING
-* /usr/share/doc/ngtcp2-1.10.0/INSTALL
-* /usr/share/doc/ngtcp2-1.10.0/README
-* /usr/share/doc/ngtcp2-1.10.0/README.rst
+* /usr/share/doc/ngtcp2-1.11.0/AUTHORS
+* /usr/share/doc/ngtcp2-1.11.0/COPYING
+* /usr/share/doc/ngtcp2-1.11.0/INSTALL
+* /usr/share/doc/ngtcp2-1.11.0/README
+* /usr/share/doc/ngtcp2-1.11.0/README.rst

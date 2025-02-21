@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "inetutils 2.5-4"
-version = "2.5-4"
+title = "inetutils 2.6-1"
+version = "2.6-1"
 description = "A collection of common network programs"
-date = "2024-04-28T12:45:37"
+date = "2025-02-21T14:24:22"
 aliases = "/packages/220321"
 categories = ['base']
 upstreamurl = "https://www.gnu.org/software/inetutils/"
 arch = "x86_64"
-size = "346096"
-usize = "1278825"
-sha1sum = "b41890a265c2825d0e3209fcbea3a09c17a6d0ef"
+size = "370084"
+usize = "1296551"
+sha1sum = "b3a504993ce0c355b797229e40967655e54130d6"
 depends = "['libcap', 'libxcrypt', 'ncurses', 'pam']"
 +++
 ### Description: 
@@ -33,6 +33,7 @@ A collection of common network programs
 * /usr/bin/rcp
 * /usr/bin/rlogin
 * /usr/bin/rsh
+* /usr/bin/talk
 * /usr/bin/telnet
 * /usr/lib/inetutils/ftpd
 * /usr/lib/inetutils/rlogind
@@ -48,14 +49,14 @@ A collection of common network programs
 * /usr/lib/systemd/system/talk.socket
 * /usr/lib/systemd/system/telnet.socket
 * /usr/lib/systemd/system/telnet@.service
-* /usr/share/doc/inetutils-2.5/AUTHORS
-* /usr/share/doc/inetutils-2.5/ChangeLog
-* /usr/share/doc/inetutils-2.5/COPYING
-* /usr/share/doc/inetutils-2.5/INSTALL
-* /usr/share/doc/inetutils-2.5/NEWS
-* /usr/share/doc/inetutils-2.5/README
-* /usr/share/doc/inetutils-2.5/THANKS
-* /usr/share/doc/inetutils-2.5/TODO
+* /usr/share/doc/inetutils-2.6/AUTHORS
+* /usr/share/doc/inetutils-2.6/ChangeLog
+* /usr/share/doc/inetutils-2.6/COPYING
+* /usr/share/doc/inetutils-2.6/INSTALL
+* /usr/share/doc/inetutils-2.6/NEWS
+* /usr/share/doc/inetutils-2.6/README
+* /usr/share/doc/inetutils-2.6/THANKS
+* /usr/share/doc/inetutils-2.6/TODO
 * /usr/share/info/inetutils.info.gz
 * /usr/share/man/man1/dnsdomainname.1.gz
 * /usr/share/man/man1/ftp.1.gz
@@ -64,6 +65,7 @@ A collection of common network programs
 * /usr/share/man/man1/rcp.1.gz
 * /usr/share/man/man1/rlogin.1.gz
 * /usr/share/man/man1/rsh.1.gz
+* /usr/share/man/man1/talk.1.gz
 * /usr/share/man/man1/telnet.1.gz
 * /usr/share/man/man8/ftpd.8.gz
 * /usr/share/man/man8/rlogind.8.gz

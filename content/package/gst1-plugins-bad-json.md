@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gst1-plugins-bad-json 1.24.12-3"
-version = "1.24.12-3"
+title = "gst1-plugins-bad-json 1.24.12-4"
+version = "1.24.12-4"
 description = "GStreamer JSON plugin (Bad)."
-date = "2025-02-15T11:47:06"
+date = "2025-02-21T14:16:30"
 aliases = "/packages/221265"
 categories = ['xmultimedia']
 upstreamurl = "http://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "32596"
+size = "32636"
 usize = "75192"
-sha1sum = "4a6f2ffffb71b267f2f49fe6b148256e636ce25d"
+sha1sum = "daff9598e3994f743156a38e3559f8cd67c0bf76"
 depends = "['gst1-plugins-bad>=1.24.12', 'gst1-plugins-base>=1.24.12', 'json-glib']"
 +++
 ### Description: 

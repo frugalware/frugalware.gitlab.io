@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "calamares-frugalware 3.3.13-2"
-version = "3.3.13-2"
+title = "calamares-frugalware 3.3.14-1"
+version = "3.3.14-1"
 description = "Distribution-independent installer framework"
-date = "2025-02-04T16:20:22"
+date = "2025-02-21T14:43:35"
 aliases = "/packages/218846"
 categories = ['installer-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "4086248"
-usize = "9402659"
-sha1sum = "decf942c282a641218bef64b28681dd2b438e22a"
+size = "4087328"
+usize = "9408926"
+sha1sum = "4236795e231e2d866fd5051322c7527f5fd95ac4"
 depends = "['icu4c>=76.1', 'kconfig', 'kcoreaddons', 'kdbusaddons', 'kpmcore>=22.04.3', 'libboost>=1.85.0', 'libpwquality', 'parted', 'polkit-qt5-1', 'python3>=3.12', 'qt6-declarative>=6.8.2', 'qt6-svg>=6.8.2', 'rsync', 'squashfs', 'yaml-cpp>=0.8.0']"
 +++
 ### Description: 
@@ -77,11 +77,7 @@ Distribution-independent installer framework
 * /usr/include/libcalamares/partition/PartitionSize.h
 * /usr/include/libcalamares/partition/Sync.h
 * /usr/include/libcalamares/ProcessJob.h
-* /usr/include/libcalamares/PythonHelper.h
-* /usr/include/libcalamares/PythonJob.h
-* /usr/include/libcalamares/PythonJobApi.h
 * /usr/include/libcalamares/Settings.h
-* /usr/include/libcalamares/utils/BoostPython.h
 * /usr/include/libcalamares/utils/CommandList.h
 * /usr/include/libcalamares/utils/Dirs.h
 * /usr/include/libcalamares/utils/Entropy.h
@@ -239,10 +235,10 @@ Distribution-independent installer framework
 * /usr/lib/fvbe/calamares-locale-setup
 * /usr/lib/libcalamares.so
 * /usr/lib/libcalamares.so.3.3
-* /usr/lib/libcalamares.so.3.3.13
+* /usr/lib/libcalamares.so.3.3.14
 * /usr/lib/libcalamaresui.so
 * /usr/lib/libcalamaresui.so.3.3
-* /usr/lib/libcalamaresui.so.3.3.13
+* /usr/lib/libcalamaresui.so.3.3.14
 * /usr/lib/systemd/system/calamares-locale.service
 * /usr/share/calamares/branding/default/banner.png
 * /usr/share/calamares/branding/default/banner.png.license
@@ -266,8 +262,8 @@ Distribution-independent installer framework
 * /usr/share/calamares/qml/calamares/slideshow/qmldir.license
 * /usr/share/calamares/qml/calamares/slideshow/Slide.qml
 * /usr/share/calamares/qml/calamares/slideshow/SlideCounter.qml
-* /usr/share/doc/calamares-frugalware-3.3.13/AUTHORS
-* /usr/share/doc/calamares-frugalware-3.3.13/README.md
+* /usr/share/doc/calamares-frugalware-3.3.14/AUTHORS
+* /usr/share/doc/calamares-frugalware-3.3.14/README.md
 * /usr/share/icons/hicolor/scalable/apps/calamares-frugalware.svg
 * /usr/share/icons/hicolor/scalable/apps/calamares.svg
 * /usr/share/locale/ar/LC_MESSAGES/calamares-python.mo

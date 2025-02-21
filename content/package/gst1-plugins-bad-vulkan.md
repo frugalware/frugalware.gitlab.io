@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gst1-plugins-bad-vulkan 1.24.12-3"
-version = "1.24.12-3"
+title = "gst1-plugins-bad-vulkan 1.24.12-4"
+version = "1.24.12-4"
 description = "GStreamer Vulkan plugin (Bad)."
-date = "2025-02-15T11:47:06"
+date = "2025-02-21T14:16:30"
 aliases = "/packages/221258"
 categories = ['xmultimedia']
 upstreamurl = "http://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "194700"
+size = "194848"
 usize = "745881"
-sha1sum = "7706afd62e43aa9266032e59c8380165c0edf001"
+sha1sum = "278dc279e550588f758ffc20d32158cb10831eb5"
 depends = "['gst1-plugins-bad>=1.24.12', 'gst1-plugins-base>=1.24.12', 'libxkbcommon', 'vulkan-icd-loader', 'wayland']"
 +++
 ### Description: 
