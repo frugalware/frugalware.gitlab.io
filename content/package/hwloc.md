@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "hwloc 2.11.2-1"
-version = "2.11.2-1"
+title = "hwloc 2.12.0-1"
+version = "2.12.0-1"
 description = "Portable Hardware Locality is a portable abstraction of hierarchical architectures"
-date = "2024-10-02T10:07:39"
+date = "2025-02-21T08:29:29"
 aliases = "/packages/221188"
 categories = ['lib-extra']
 upstreamurl = "https://www.open-mpi.org"
 arch = "x86_64"
-size = "2509288"
-usize = "3938252"
-sha1sum = "b6a67758ef026b167610e8ad9547a544ff129cd0"
+size = "2531324"
+usize = "3978075"
+sha1sum = "168ab91a7f131946ac46775df4e62d0c60b6a587"
 depends = "['libcap', 'libudev', 'libxml2', 'ncurses']"
 reverse_depends = "['openpmix']"
 +++
@@ -61,17 +61,17 @@ Portable Hardware Locality is a portable abstraction of hierarchical architectur
 * /usr/lib/hwloc/hwloc_xml_libxml.so
 * /usr/lib/libhwloc.so
 * /usr/lib/libhwloc.so.15
-* /usr/lib/libhwloc.so.15.8.1
+* /usr/lib/libhwloc.so.15.9.0
 * /usr/lib/pkgconfig/hwloc.pc
 * /usr/share/bash-completion/completions/hwloc
-* /usr/share/doc/hwloc-2.11.2/AUTHORS
-* /usr/share/doc/hwloc-2.11.2/COPYING
-* /usr/share/doc/hwloc-2.11.2/dynamic_SVG_example.html
-* /usr/share/doc/hwloc-2.11.2/hwloc-a4.pdf
-* /usr/share/doc/hwloc-2.11.2/hwloc-letter.pdf
-* /usr/share/doc/hwloc-2.11.2/NEWS
-* /usr/share/doc/hwloc-2.11.2/README
-* /usr/share/doc/hwloc-2.11.2/VERSION
+* /usr/share/doc/hwloc-2.12.0/AUTHORS
+* /usr/share/doc/hwloc-2.12.0/COPYING
+* /usr/share/doc/hwloc-2.12.0/dynamic_SVG_example.html
+* /usr/share/doc/hwloc-2.12.0/hwloc-a4.pdf
+* /usr/share/doc/hwloc-2.12.0/hwloc-letter.pdf
+* /usr/share/doc/hwloc-2.12.0/NEWS
+* /usr/share/doc/hwloc-2.12.0/README
+* /usr/share/doc/hwloc-2.12.0/VERSION
 * /usr/share/hwloc/hwloc-dump-hwdata.service
 * /usr/share/hwloc/hwloc-ps.www/assets/index.html
 * /usr/share/hwloc/hwloc-ps.www/assets/main.css
@@ -341,6 +341,8 @@ Portable Hardware Locality is a portable abstraction of hierarchical architectur
 * /usr/share/man/man3/hwloc_info_s.3.gz
 * /usr/share/man/man3/hwloc_levelzero_get_device_cpuset.3.gz
 * /usr/share/man/man3/hwloc_levelzero_get_device_osdev.3.gz
+* /usr/share/man/man3/hwloc_levelzero_get_sysman_device_cpuset.3.gz
+* /usr/share/man/man3/hwloc_levelzero_get_sysman_device_osdev.3.gz
 * /usr/share/man/man3/hwloc_linux_get_tid_cpubind.3.gz
 * /usr/share/man/man3/hwloc_linux_get_tid_last_cpu_location.3.gz
 * /usr/share/man/man3/hwloc_linux_read_path_as_cpumask.3.gz
@@ -522,6 +524,7 @@ Portable Hardware Locality is a portable abstraction of hierarchical architectur
 * /usr/share/man/man3/hwloc_topology_get_allowed_nodeset.3.gz
 * /usr/share/man/man3/hwloc_topology_get_complete_cpuset.3.gz
 * /usr/share/man/man3/hwloc_topology_get_complete_nodeset.3.gz
+* /usr/share/man/man3/hwloc_topology_get_default_nodeset.3.gz
 * /usr/share/man/man3/hwloc_topology_get_depth.3.gz
 * /usr/share/man/man3/hwloc_topology_get_flags.3.gz
 * /usr/share/man/man3/hwloc_topology_get_topology_cpuset.3.gz

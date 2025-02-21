@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libfprint 1.94.8-1"
-version = "1.94.8-1"
+title = "libfprint 1.94.9-1"
+version = "1.94.9-1"
 description = "Fingerprint Reader Library"
-date = "2024-09-10T18:29:46"
+date = "2025-02-21T08:37:47"
 aliases = "/packages/74502"
 categories = ['xlib-extra']
 upstreamurl = "http://www.freedesktop.org/wiki/Software/fprint/libfprint"
 arch = "x86_64"
-size = "6913348"
-usize = "25497468"
-sha1sum = "eb298d491be97dc1579bb37741b8cdb2989b2e34"
+size = "6915712"
+usize = "25537086"
+sha1sum = "8ecf494b7525617ce0bb67beedc32a547bfe1c41"
 depends = "['gobject-introspection', 'libgusb', 'nss', 'pixman']"
 reverse_depends = "['fprintd']"
 +++
@@ -35,16 +35,15 @@ Fingerprint Reader Library
 * /usr/lib/libfprint/installed-tests/libfprint-2/umockdev-test.py
 * /usr/lib/pkgconfig/libfprint-2.pc
 * /usr/lib/udev/rules.d/70-libfprint-2.rules
-* /usr/share/doc/libfprint-1.94.8/AUTHORS
-* /usr/share/doc/libfprint-1.94.8/COPYING
-* /usr/share/doc/libfprint-1.94.8/INSTALL
-* /usr/share/doc/libfprint-1.94.8/NEWS
-* /usr/share/doc/libfprint-1.94.8/README.md
-* /usr/share/doc/libfprint-1.94.8/THANKS
+* /usr/share/doc/libfprint-1.94.9/AUTHORS
+* /usr/share/doc/libfprint-1.94.9/COPYING
+* /usr/share/doc/libfprint-1.94.9/INSTALL
+* /usr/share/doc/libfprint-1.94.9/NEWS
+* /usr/share/doc/libfprint-1.94.9/README.md
+* /usr/share/doc/libfprint-1.94.9/THANKS
 * /usr/share/gir-1.0/FPrint-2.0.gir
 * /usr/share/gtk-doc/html/libfprint-2/advanced-topics.html
 * /usr/share/gtk-doc/html/libfprint-2/api-index.html
-* /usr/share/gtk-doc/html/libfprint-2/deprecated-api-index.html
 * /usr/share/gtk-doc/html/libfprint-2/driver-dev.html
 * /usr/share/gtk-doc/html/libfprint-2/driver-helpers.html
 * /usr/share/gtk-doc/html/libfprint-2/driver-img.html
@@ -71,6 +70,7 @@ Fingerprint Reader Library
 * /usr/share/gtk-doc/html/libfprint-2/libfprint-2-Sequential-state-machine.html
 * /usr/share/gtk-doc/html/libfprint-2/libfprint-2-SPI-transfer-helpers.html
 * /usr/share/gtk-doc/html/libfprint-2/libfprint-2-USB-transfer-helpers.html
+* /usr/share/gtk-doc/html/libfprint-2/libfprint-2.devhelp2
 * /usr/share/gtk-doc/html/libfprint-2/pt01.html
 * /usr/share/gtk-doc/html/libfprint-2/pt02.html
 * /usr/share/gtk-doc/html/libfprint-2/pt03.html
@@ -198,3 +198,4 @@ Fingerprint Reader Library
 * /usr/share/installed-tests/libfprint-2/vfs7552/capture.ioctl
 * /usr/share/installed-tests/libfprint-2/vfs7552/capture.png
 * /usr/share/installed-tests/libfprint-2/vfs7552/device
+* /usr/share/metainfo/org.freedesktop.libfprint.metainfo.xml

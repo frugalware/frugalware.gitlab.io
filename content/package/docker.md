@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "docker 27.5.1-1"
-version = "27.5.1-1"
+title = "docker 28.0.0-1"
+version = "28.0.0-1"
 description = "Docker - the Linux container runtime"
-date = "2025-01-26T11:27:29"
+date = "2025-02-21T08:31:58"
 aliases = "/packages/217244"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/docker/cli"
 arch = "x86_64"
-size = "29773312"
-usize = "126511365"
-sha1sum = "3d9142c7c47c562d30f2e03d61d4d63ca4b92e2e"
+size = "25604896"
+usize = "109626329"
+sha1sum = "a439912d8d2bf574efd959fe7b0531502c7bf4b8"
 depends = "['bridge-utils', 'btrfs-progs>=4.10-2', 'containerd', 'iproute2', 'lvm2', 'runc', 'sqlite3', 'tini']"
 reverse_depends = "['docker-compose']"
 +++
@@ -217,5 +217,4 @@ Docker - the Linux container runtime
 * /usr/share/man/man1/docker.1.gz
 * /usr/share/man/man5/docker-config-json.5.gz
 * /usr/share/man/man5/Dockerfile.5.gz
-* /usr/share/man/man8/dockerd.8.gz
 * /usr/share/zsh/site-functions/_docker

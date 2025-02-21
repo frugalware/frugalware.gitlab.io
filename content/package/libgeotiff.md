@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libgeotiff 1.7.3-1"
-version = "1.7.3-1"
+title = "libgeotiff 1.7.4-1"
+version = "1.7.4-1"
 description = "A TIFF based interchange format for georeferenced raster imagery"
-date = "2024-06-03T11:59:34"
+date = "2025-02-21T08:21:06"
 aliases = "/packages/220255"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/OSGeo/libgeotiff"
 arch = "x86_64"
-size = "86504"
-usize = "420702"
-sha1sum = "2c3203a8f51c568cd53d8bb1becf07cd2fd20873"
+size = "95020"
+usize = "406180"
+sha1sum = "5f1d2e39310f3437e35e993b092b16d55675c6dc"
 depends = "['libtiff', 'proj>=9.4.0']"
 reverse_depends = "['pdal']"
 +++
@@ -48,7 +48,7 @@ A TIFF based interchange format for georeferenced raster imagery
 * /usr/lib/libgeotiff.so.5
 * /usr/lib/libgeotiff.so.5.2.3
 * /usr/lib/pkgconfig/libgeotiff.pc
-* /usr/share/doc/libgeotiff-1.7.3/README.md
+* /usr/share/doc/libgeotiff-1.7.4/README.md
 * /usr/share/man/man1/applygeo.1.gz
 * /usr/share/man/man1/geotifcp.1.gz
 * /usr/share/man/man1/listgeo.1.gz

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "xdg-desktop-portal 1.18.4-1"
-version = "1.18.4-1"
+title = "xdg-desktop-portal 1.20.0-1"
+version = "1.20.0-1"
 description = "Desktop integration portals for sandboxed apps"
-date = "2024-04-22T09:17:48"
+date = "2025-02-21T08:26:29"
 aliases = "/packages/220846"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/flatpak/xdg-desktop-portal"
 arch = "x86_64"
-size = "347948"
-usize = "2327547"
-sha1sum = "1a552d5be5fe641bc74a236e48f303447c819521"
-depends = "['fuse3', 'geoclue2', 'glib2', 'libportal', 'pipewire', 'rtkit', 'systemd']"
+size = "356264"
+usize = "1802016"
+sha1sum = "088d5dc74ebb0661697bbffdbfb3bd090562b35d"
+depends = "['fuse3', 'geoclue2', 'glib2', 'gst1-plugins-base', 'libportal', 'pipewire', 'rtkit', 'systemd']"
 reverse_depends = "['plasma-wayland-session', 'xdg-desktop-portal-gtk']"
 +++
 ### Description: 
@@ -25,8 +25,10 @@ Desktop integration portals for sandboxed apps
 * /usr/lib/xdg-desktop-portal/xdg-desktop-portal
 * /usr/lib/xdg-desktop-portal/xdg-desktop-portal-rewrite-launchers
 * /usr/lib/xdg-desktop-portal/xdg-desktop-portal-validate-icon
+* /usr/lib/xdg-desktop-portal/xdg-desktop-portal-validate-sound
 * /usr/lib/xdg-desktop-portal/xdg-document-portal
 * /usr/lib/xdg-desktop-portal/xdg-permission-store
+* /usr/share/dbus-1/interfaces/org.freedesktop.host.portal.Registry.xml
 * /usr/share/dbus-1/interfaces/org.freedesktop.impl.portal.Access.xml
 * /usr/share/dbus-1/interfaces/org.freedesktop.impl.portal.Account.xml
 * /usr/share/dbus-1/interfaces/org.freedesktop.impl.portal.AppChooser.xml
@@ -49,12 +51,12 @@ Desktop integration portals for sandboxed apps
 * /usr/share/dbus-1/interfaces/org.freedesktop.impl.portal.Secret.xml
 * /usr/share/dbus-1/interfaces/org.freedesktop.impl.portal.Session.xml
 * /usr/share/dbus-1/interfaces/org.freedesktop.impl.portal.Settings.xml
+* /usr/share/dbus-1/interfaces/org.freedesktop.impl.portal.Usb.xml
 * /usr/share/dbus-1/interfaces/org.freedesktop.impl.portal.Wallpaper.xml
 * /usr/share/dbus-1/interfaces/org.freedesktop.portal.Account.xml
 * /usr/share/dbus-1/interfaces/org.freedesktop.portal.Background.xml
 * /usr/share/dbus-1/interfaces/org.freedesktop.portal.Camera.xml
 * /usr/share/dbus-1/interfaces/org.freedesktop.portal.Clipboard.xml
-* /usr/share/dbus-1/interfaces/org.freedesktop.portal.Device.xml
 * /usr/share/dbus-1/interfaces/org.freedesktop.portal.Documents.xml
 * /usr/share/dbus-1/interfaces/org.freedesktop.portal.DynamicLauncher.xml
 * /usr/share/dbus-1/interfaces/org.freedesktop.portal.Email.xml
@@ -81,17 +83,14 @@ Desktop integration portals for sandboxed apps
 * /usr/share/dbus-1/interfaces/org.freedesktop.portal.Session.xml
 * /usr/share/dbus-1/interfaces/org.freedesktop.portal.Settings.xml
 * /usr/share/dbus-1/interfaces/org.freedesktop.portal.Trash.xml
+* /usr/share/dbus-1/interfaces/org.freedesktop.portal.Usb.xml
 * /usr/share/dbus-1/interfaces/org.freedesktop.portal.Wallpaper.xml
 * /usr/share/dbus-1/services/org.freedesktop.impl.portal.PermissionStore.service
 * /usr/share/dbus-1/services/org.freedesktop.portal.Desktop.service
 * /usr/share/dbus-1/services/org.freedesktop.portal.Documents.service
-* /usr/share/doc/xdg-desktop-portal-1.18.4/COPYING
-* /usr/share/doc/xdg-desktop-portal-1.18.4/NEWS
-* /usr/share/doc/xdg-desktop-portal-1.18.4/README.md
-* /usr/share/doc/xdg-desktop-portal-1.18.4/RELEASE_HOWTO.md
-* /usr/share/doc/xdg-desktop-portal/docbook.css
-* /usr/share/doc/xdg-desktop-portal/portal-docs.html
-* /usr/share/doc/xdg-desktop-portal/redirect.html
+* /usr/share/doc/xdg-desktop-portal-1.20.0/COPYING
+* /usr/share/doc/xdg-desktop-portal-1.20.0/README.md
+* /usr/share/doc/xdg-desktop-portal-1.20.0/RELEASE_HOWTO.md
 * /usr/share/locale/be/LC_MESSAGES/xdg-desktop-portal.mo
 * /usr/share/locale/ca/LC_MESSAGES/xdg-desktop-portal.mo
 * /usr/share/locale/cs/LC_MESSAGES/xdg-desktop-portal.mo
@@ -106,7 +105,9 @@ Desktop integration portals for sandboxed apps
 * /usr/share/locale/hr/LC_MESSAGES/xdg-desktop-portal.mo
 * /usr/share/locale/hu/LC_MESSAGES/xdg-desktop-portal.mo
 * /usr/share/locale/id/LC_MESSAGES/xdg-desktop-portal.mo
+* /usr/share/locale/ie/LC_MESSAGES/xdg-desktop-portal.mo
 * /usr/share/locale/it/LC_MESSAGES/xdg-desktop-portal.mo
+* /usr/share/locale/ja/LC_MESSAGES/xdg-desktop-portal.mo
 * /usr/share/locale/ka/LC_MESSAGES/xdg-desktop-portal.mo
 * /usr/share/locale/lt/LC_MESSAGES/xdg-desktop-portal.mo
 * /usr/share/locale/nl/LC_MESSAGES/xdg-desktop-portal.mo
@@ -117,10 +118,12 @@ Desktop integration portals for sandboxed apps
 * /usr/share/locale/ro/LC_MESSAGES/xdg-desktop-portal.mo
 * /usr/share/locale/ru/LC_MESSAGES/xdg-desktop-portal.mo
 * /usr/share/locale/sk/LC_MESSAGES/xdg-desktop-portal.mo
+* /usr/share/locale/sl/LC_MESSAGES/xdg-desktop-portal.mo
 * /usr/share/locale/sr/LC_MESSAGES/xdg-desktop-portal.mo
 * /usr/share/locale/sv/LC_MESSAGES/xdg-desktop-portal.mo
 * /usr/share/locale/tr/LC_MESSAGES/xdg-desktop-portal.mo
 * /usr/share/locale/uk/LC_MESSAGES/xdg-desktop-portal.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/xdg-desktop-portal.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/xdg-desktop-portal.mo
+* /usr/share/man/man5/portals.conf.5.gz
 * /usr/share/pkgconfig/xdg-desktop-portal.pc

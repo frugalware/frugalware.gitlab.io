@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "level-zero-devel 1.20.5-1"
-version = "1.20.5-1"
+title = "level-zero-devel 1.20.6-1"
+version = "1.20.6-1"
 description = "level-zero devel"
-date = "2025-02-15T12:00:25"
+date = "2025-02-21T08:12:16"
 aliases = "/packages/220868"
 categories = ['devel-extra']
 upstreamurl = "https://spec.oneapi.com/versions/latest/elements/l0/source/index.html"
 arch = "x86_64"
-size = "131816"
-usize = "1851082"
-sha1sum = "583d63c3e05b8411aa03da48ec634fdf086588e2"
+size = "132024"
+usize = "1851970"
+sha1sum = "2e306a9fe24d7954c2a796e0be5e0f577d7c8437"
 depends = "['glibc']"
 +++
 ### Description: 
@@ -27,5 +27,6 @@ level-zero devel
 * /usr/include/level_zero/zet_ddi.h
 * /usr/include/level_zero/ze_api.h
 * /usr/include/level_zero/ze_ddi.h
+* /usr/include/level_zero/ze_ddi_common.h
 * /usr/lib/pkgconfig/level-zero.pc
 * /usr/lib/pkgconfig/libze_loader.pc

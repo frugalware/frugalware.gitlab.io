@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vkd3d 1.14-1"
-version = "1.14-1"
+title = "vkd3d 1.15-1"
+version = "1.15-1"
 description = "Direct3D 12 to Vulkan translation library"
-date = "2024-11-22T09:46:55"
+date = "2025-02-21T08:19:51"
 aliases = "/packages/219840"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/d3d12/vkd3d"
 arch = "x86_64"
-size = "726704"
-usize = "3502001"
-sha1sum = "0f39829d4f5d468f6d7127146e6dbe1848d76435"
+size = "745844"
+usize = "3557385"
+sha1sum = "b672e318d0c326d35aa4aea49f7de3eb4f9a4e91"
 depends = "['ncurses>=6.5', 'vulkan-icd-loader']"
 reverse_depends = "['wine', 'wine-devel']"
 +++
@@ -37,19 +37,19 @@ Direct3D 12 to Vulkan translation library
 * /usr/include/vkd3d/vkd3d_windows.h
 * /usr/lib/libvkd3d-shader.so
 * /usr/lib/libvkd3d-shader.so.1
-* /usr/lib/libvkd3d-shader.so.1.12.0
+* /usr/lib/libvkd3d-shader.so.1.13.0
 * /usr/lib/libvkd3d-utils.so
 * /usr/lib/libvkd3d-utils.so.1
-* /usr/lib/libvkd3d-utils.so.1.6.0
+* /usr/lib/libvkd3d-utils.so.1.6.1
 * /usr/lib/libvkd3d.so
 * /usr/lib/libvkd3d.so.1
-* /usr/lib/libvkd3d.so.1.14.0
+* /usr/lib/libvkd3d.so.1.15.0
 * /usr/lib/pkgconfig/libvkd3d-shader.pc
 * /usr/lib/pkgconfig/libvkd3d-utils.pc
 * /usr/lib/pkgconfig/libvkd3d.pc
-* /usr/share/doc/vkd3d-1.14/ANNOUNCE
-* /usr/share/doc/vkd3d-1.14/AUTHORS
-* /usr/share/doc/vkd3d-1.14/COPYING
-* /usr/share/doc/vkd3d-1.14/INSTALL
-* /usr/share/doc/vkd3d-1.14/LICENSE
-* /usr/share/doc/vkd3d-1.14/README
+* /usr/share/doc/vkd3d-1.15/ANNOUNCE
+* /usr/share/doc/vkd3d-1.15/AUTHORS
+* /usr/share/doc/vkd3d-1.15/COPYING
+* /usr/share/doc/vkd3d-1.15/INSTALL
+* /usr/share/doc/vkd3d-1.15/LICENSE
+* /usr/share/doc/vkd3d-1.15/README
