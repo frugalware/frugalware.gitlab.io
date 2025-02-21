@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "socat 1.8.0.2-1"
-version = "1.8.0.2-1"
+title = "socat 1.8.0.3-1"
+version = "1.8.0.3-1"
 description = "Relay for bidirectional data transfer between two independent data channels"
-date = "2024-12-12T09:15:32"
+date = "2025-02-21T20:49:55"
 aliases = "/packages/49487"
 categories = ['network']
 upstreamurl = "http://www.dest-unreach.org/socat/"
 arch = "x86_64"
-size = "262808"
-usize = "738002"
-sha1sum = "3cbb40926c2e6d5790f4eab9e8391b5444ad7621"
+size = "270588"
+usize = "760482"
+sha1sum = "7b345b8961d6017320b1a0a15df3d287762c3067"
 depends = "['openssl>=3.1.0', 'readline>=8.0']"
 reverse_depends = "['flatpak', 'kwallet-pam']"
 +++
@@ -25,13 +25,13 @@ Relay for bidirectional data transfer between two independent data channels
 * /usr/bin/socat-chain.sh
 * /usr/bin/socat-mux.sh
 * /usr/bin/socat1
-* /usr/share/doc/socat-1.8.0.2/CHANGES
-* /usr/share/doc/socat-1.8.0.2/COPYING
-* /usr/share/doc/socat-1.8.0.2/COPYING.OpenSSL
-* /usr/share/doc/socat-1.8.0.2/FAQ
-* /usr/share/doc/socat-1.8.0.2/FILES
-* /usr/share/doc/socat-1.8.0.2/README
-* /usr/share/doc/socat-1.8.0.2/README.FIPS
-* /usr/share/doc/socat-1.8.0.2/VERSION
+* /usr/share/doc/socat-1.8.0.3/CHANGES
+* /usr/share/doc/socat-1.8.0.3/COPYING
+* /usr/share/doc/socat-1.8.0.3/COPYING.OpenSSL
+* /usr/share/doc/socat-1.8.0.3/FAQ
+* /usr/share/doc/socat-1.8.0.3/FILES
+* /usr/share/doc/socat-1.8.0.3/README
+* /usr/share/doc/socat-1.8.0.3/README.FIPS
+* /usr/share/doc/socat-1.8.0.3/VERSION
 * /usr/share/man/man1/socat.1.gz
 * /usr/share/man/man1/socat1.1.gz

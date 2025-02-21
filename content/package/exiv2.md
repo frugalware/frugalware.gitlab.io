@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "exiv2 0.28.4-1"
-version = "0.28.4-1"
+title = "exiv2 0.28.5-1"
+version = "0.28.5-1"
 description = "Exiv2 is a C++ library and a command line utility to access image metadata."
-date = "2025-02-12T09:18:42"
+date = "2025-02-21T20:54:58"
 aliases = "/packages/14730"
 categories = ['apps']
 upstreamurl = "http://www.exiv2.org"
 arch = "x86_64"
-size = "2795988"
-usize = "16754004"
-sha1sum = "da68229b87c131a38e0021dc00ade5c8212b3841"
+size = "2790968"
+usize = "16756438"
+sha1sum = "32e9675f31300c8fa0f92078c54e4c7f30396008"
 depends = "['curl>=7.50.3-2', 'expat>=2.1.0-6', 'inih', 'libssh>=0.7.4-2', 'libstdc++>=11.2']"
 reverse_depends = "['darktable', 'gwenview', 'kfilemetadata', 'koko', 'krename', 'krita', 'libextractor', 'libgexiv2', 'libkexiv2', 'mlt', 'nomacs', 'nufraw', 'stellarium']"
 +++
@@ -69,18 +69,18 @@ Exiv2 is a C++ library and a command line utility to access image metadata.
 * /usr/include/exiv2/xmp_exiv2.hpp
 * /usr/lib/cmake/exiv2/exiv2Config.cmake
 * /usr/lib/cmake/exiv2/exiv2ConfigVersion.cmake
-* /usr/lib/cmake/exiv2/exiv2Export-release.cmake
-* /usr/lib/cmake/exiv2/exiv2Export.cmake
+* /usr/lib/cmake/exiv2/exiv2Targets-release.cmake
+* /usr/lib/cmake/exiv2/exiv2Targets.cmake
 * /usr/lib/libexiv2.so
-* /usr/lib/libexiv2.so.0.28.4
+* /usr/lib/libexiv2.so.0.28.5
 * /usr/lib/libexiv2.so.28
 * /usr/lib/pkgconfig/exiv2.pc
-* /usr/share/doc/exiv2-0.28.4/AUTHORS
-* /usr/share/doc/exiv2-0.28.4/COPYING
-* /usr/share/doc/exiv2-0.28.4/README-CONAN.md
-* /usr/share/doc/exiv2-0.28.4/README-meson
-* /usr/share/doc/exiv2-0.28.4/README-SAMPLES.md
-* /usr/share/doc/exiv2-0.28.4/README.md
+* /usr/share/doc/exiv2-0.28.5/AUTHORS
+* /usr/share/doc/exiv2-0.28.5/COPYING
+* /usr/share/doc/exiv2-0.28.5/README-CONAN.md
+* /usr/share/doc/exiv2-0.28.5/README-meson
+* /usr/share/doc/exiv2-0.28.5/README-SAMPLES.md
+* /usr/share/doc/exiv2-0.28.5/README.md
 * /usr/share/locale/bs/LC_MESSAGES/exiv2.mo
 * /usr/share/locale/ca/LC_MESSAGES/exiv2.mo
 * /usr/share/locale/da/LC_MESSAGES/exiv2.mo

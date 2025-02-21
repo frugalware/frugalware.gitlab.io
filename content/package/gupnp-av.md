@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gupnp-av 0.14.1-1"
-version = "0.14.1-1"
+title = "gupnp-av 0.14.3-1"
+version = "0.14.3-1"
 description = "GUPnP-AV is a collection of helpers for building audio/video applications using GUPnP"
-date = "2023-03-06T13:13:03"
+date = "2025-02-21T20:13:22"
 aliases = "/packages/50251"
 categories = ['xlib-extra']
 upstreamurl = "http://www.gupnp.org"
 arch = "x86_64"
-size = "112076"
-usize = "816942"
-sha1sum = "4d2a039b8ded252f29d52e2e671c842544fa5ae6"
+size = "112056"
+usize = "808503"
+sha1sum = "8918b94de5f1430ebaa4f460e278443d3351b6fd"
 depends = "['gupnp>=1.0.0']"
 reverse_depends = "['gupnp-tools']"
 +++
@@ -41,12 +41,12 @@ GUPnP-AV is a collection of helpers for building audio/video applications using 
 * /usr/lib/girepository-1.0/GUPnPAV-1.0.typelib
 * /usr/lib/libgupnp-av-1.0.so
 * /usr/lib/libgupnp-av-1.0.so.3
-* /usr/lib/libgupnp-av-1.0.so.3.14.1
+* /usr/lib/libgupnp-av-1.0.so.3.14.3
 * /usr/lib/pkgconfig/gupnp-av-1.0.pc
-* /usr/share/doc/gupnp-av-0.14.1/AUTHORS
-* /usr/share/doc/gupnp-av-0.14.1/COPYING
-* /usr/share/doc/gupnp-av-0.14.1/NEWS
-* /usr/share/doc/gupnp-av-0.14.1/README.md
+* /usr/share/doc/gupnp-av-0.14.3/AUTHORS
+* /usr/share/doc/gupnp-av-0.14.3/COPYING
+* /usr/share/doc/gupnp-av-0.14.3/NEWS
+* /usr/share/doc/gupnp-av-0.14.3/README.md
 * /usr/share/gir-1.0/GUPnPAV-1.0.gir
 * /usr/share/gupnp-av/av.xsd
 * /usr/share/gupnp-av/didl-lite-v2.xsd

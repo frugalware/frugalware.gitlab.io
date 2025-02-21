@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pangomm 2.54.0-1"
-version = "2.54.0-1"
+title = "pangomm 2.56.1-1"
+version = "2.56.1-1"
 description = "Pangomm is a C++ wrapper for the pango library."
-date = "2024-11-14T10:57:43"
+date = "2025-02-21T20:26:18"
 aliases = "/packages/49380"
 categories = ['xlib-extra']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "457000"
-usize = "5202989"
-sha1sum = "16a0ae92118b30a0779fbca7036ba780866f2279"
+size = "424680"
+usize = "5670787"
+sha1sum = "29c78dd7f34f41485f2627722d9ed42e2f403a17"
 depends = "['cairomm>=1.12.2', 'glibmm>=2.68.1', 'pango>=1.42.4-2']"
 reverse_depends = "['gtkmm']"
 +++
@@ -435,6 +435,7 @@ Pangomm is a C++ wrapper for the pango library.
 * /usr/share/doc/pangomm-2.48/reference/html/since_2_50.html
 * /usr/share/doc/pangomm-2.48/reference/html/since_2_52.html
 * /usr/share/doc/pangomm-2.48/reference/html/since_2_54.html
+* /usr/share/doc/pangomm-2.48/reference/html/since_2_56.html
 * /usr/share/doc/pangomm-2.48/reference/html/splitbar.png
 * /usr/share/doc/pangomm-2.48/reference/html/splitbard.png
 * /usr/share/doc/pangomm-2.48/reference/html/structPango_1_1AttributeTraits-members.html
@@ -452,9 +453,9 @@ Pangomm is a C++ wrapper for the pango library.
 * /usr/share/doc/pangomm-2.48/reference/html/tab_sd.png
 * /usr/share/doc/pangomm-2.48/reference/html/topics.html
 * /usr/share/doc/pangomm-2.48/reference/pangomm-2.48.tag
-* /usr/share/doc/pangomm-2.54.0/ChangeLog
-* /usr/share/doc/pangomm-2.54.0/COPYING
-* /usr/share/doc/pangomm-2.54.0/COPYING.tools
-* /usr/share/doc/pangomm-2.54.0/NEWS
-* /usr/share/doc/pangomm-2.54.0/README.md
-* /usr/share/doc/pangomm-2.54.0/README.win32.md
+* /usr/share/doc/pangomm-2.56.1/ChangeLog
+* /usr/share/doc/pangomm-2.56.1/COPYING
+* /usr/share/doc/pangomm-2.56.1/COPYING.tools
+* /usr/share/doc/pangomm-2.56.1/NEWS
+* /usr/share/doc/pangomm-2.56.1/README.md
+* /usr/share/doc/pangomm-2.56.1/README.win32.md

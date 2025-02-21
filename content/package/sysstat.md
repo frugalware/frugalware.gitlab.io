@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "sysstat 12.7.6-1"
-version = "12.7.6-1"
+title = "sysstat 12.7.7-1"
+version = "12.7.7-1"
 description = "A collection of performance monitoring tools for Linux"
-date = "2024-08-04T19:11:53"
+date = "2025-02-21T20:36:30"
 aliases = "/packages/218626"
 categories = ['base-extra']
 upstreamurl = "http://sebastien.godard.pagesperso-orange.fr/"
 arch = "x86_64"
-size = "364976"
-usize = "1116941"
-sha1sum = "0d4d8d39357a777cf9edc77bd64bc94b6f3704bc"
+size = "369112"
+usize = "1129530"
+sha1sum = "f0e99a568e1115abf5e2a5a83657a8d8236edcbc"
 depends = "['lmsensors>=3.5.0']"
 reverse_depends = "['lumina-desktop']"
 +++
@@ -38,12 +38,12 @@ A collection of performance monitoring tools for Linux
 * /usr/lib/systemd/system/sysstat-summary.service
 * /usr/lib/systemd/system/sysstat-summary.timer
 * /usr/lib/systemd/system/sysstat.service
-* /usr/share/doc/sysstat-12.7.6/CHANGES
-* /usr/share/doc/sysstat-12.7.6/COPYING
-* /usr/share/doc/sysstat-12.7.6/CREDITS
-* /usr/share/doc/sysstat-12.7.6/FAQ.md
-* /usr/share/doc/sysstat-12.7.6/INSTALL
-* /usr/share/doc/sysstat-12.7.6/README.md
+* /usr/share/doc/sysstat-12.7.7/CHANGES
+* /usr/share/doc/sysstat-12.7.7/COPYING
+* /usr/share/doc/sysstat-12.7.7/CREDITS
+* /usr/share/doc/sysstat-12.7.7/FAQ.md
+* /usr/share/doc/sysstat-12.7.7/INSTALL
+* /usr/share/doc/sysstat-12.7.7/README.md
 * /usr/share/man/man1/cifsiostat.1.xz.gz
 * /usr/share/man/man1/iostat.1.xz.gz
 * /usr/share/man/man1/mpstat.1.xz.gz

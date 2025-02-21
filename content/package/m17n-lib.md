@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "m17n-lib 1.8.4-1"
-version = "1.8.4-1"
+title = "m17n-lib 1.8.5-1"
+version = "1.8.5-1"
 description = "A multilingual text processing library."
-date = "2024-11-14T12:17:01"
+date = "2025-02-21T20:30:17"
 aliases = "/packages/217649"
 categories = ['xlib-extra']
 upstreamurl = "http://www.m17n.org/"
 arch = "x86_64"
-size = "326196"
-usize = "958912"
-sha1sum = "6f69a38b9b8033b1920900d377f41ed13e191c57"
+size = "325532"
+usize = "955629"
+sha1sum = "0828fb96a87f8f976be5037c94c12e4af2363a14"
 depends = "['anthy', 'fontconfig', 'gd>=2.1.1-4', 'libotf>=0.9.16', 'libxaw>=1.0.5-1', 'libxft>=2.1.13-2', 'libxml2>=2.7.8', 'm17n-db>=1.8.0']"
 +++
 ### Description: 
@@ -48,10 +48,10 @@ A multilingual text processing library.
 * /usr/lib/pkgconfig/m17n-flt.pc
 * /usr/lib/pkgconfig/m17n-gui.pc
 * /usr/lib/pkgconfig/m17n-shell.pc
-* /usr/share/doc/m17n-lib-1.8.4/AUTHORS
-* /usr/share/doc/m17n-lib-1.8.4/ChangeLog
-* /usr/share/doc/m17n-lib-1.8.4/COPYING
-* /usr/share/doc/m17n-lib-1.8.4/INSTALL
-* /usr/share/doc/m17n-lib-1.8.4/NEWS
-* /usr/share/doc/m17n-lib-1.8.4/README
-* /usr/share/doc/m17n-lib-1.8.4/TODO
+* /usr/share/doc/m17n-lib-1.8.5/AUTHORS
+* /usr/share/doc/m17n-lib-1.8.5/ChangeLog
+* /usr/share/doc/m17n-lib-1.8.5/COPYING
+* /usr/share/doc/m17n-lib-1.8.5/INSTALL
+* /usr/share/doc/m17n-lib-1.8.5/NEWS
+* /usr/share/doc/m17n-lib-1.8.5/README
+* /usr/share/doc/m17n-lib-1.8.5/TODO

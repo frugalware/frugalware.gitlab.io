@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gupnp 1.6.7-1"
-version = "1.6.7-1"
+title = "gupnp 1.6.8-1"
+version = "1.6.8-1"
 description = "GUPnP implements the UPnP specification of GUPnP framework."
-date = "2024-11-14T12:53:23"
+date = "2025-02-21T20:31:49"
 aliases = "/packages/50250"
 categories = ['xlib-extra']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "137560"
-usize = "801048"
-sha1sum = "df7baeef64467d63df1636a67a43ef175a74bb85"
+size = "138136"
+usize = "804042"
+sha1sum = "c95bfe537bf71624b320077d2208661cbbf26cb0"
 depends = "['gssdp>=1.6.2']"
 reverse_depends = "['gupnp-av']"
 +++
@@ -42,12 +42,12 @@ GUPnP implements the UPnP specification of GUPnP framework.
 * /usr/lib/girepository-1.0/GUPnP-1.6.typelib
 * /usr/lib/libgupnp-1.6.so
 * /usr/lib/libgupnp-1.6.so.0
-* /usr/lib/libgupnp-1.6.so.0.106.7
+* /usr/lib/libgupnp-1.6.so.0.106.8
 * /usr/lib/pkgconfig/gupnp-1.6.pc
-* /usr/share/doc/gupnp-1.6.7/AUTHORS
-* /usr/share/doc/gupnp-1.6.7/COPYING
-* /usr/share/doc/gupnp-1.6.7/NEWS
-* /usr/share/doc/gupnp-1.6.7/README.md
+* /usr/share/doc/gupnp-1.6.8/AUTHORS
+* /usr/share/doc/gupnp-1.6.8/COPYING
+* /usr/share/doc/gupnp-1.6.8/NEWS
+* /usr/share/doc/gupnp-1.6.8/README.md
 * /usr/share/gir-1.0/GUPnP-1.6.gir
 * /usr/share/vala/vapi/gupnp-1.6.deps
 * /usr/share/vala/vapi/gupnp-1.6.vapi

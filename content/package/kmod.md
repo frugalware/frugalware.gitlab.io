@@ -12,7 +12,7 @@ size = "137780"
 usize = "363306"
 sha1sum = "dd5334d187c7af4e3a9aa6412d27e4ff06da85d9"
 depends = "['openssl>=3.1.0', 'xz>=5.2.4-2', 'zlib-ng', 'zstd>=1.4.4']"
-reverse_depends = "['dracut', 'hwdata', 'intel-gpu-tools', 'inxi', 'kernel', 'kernel-initrd', 'kernel-lts', 'kernel-lts-initrd', 'libndctl', 'ndctl', 'systemd', 'systemd-nspawn', 'systemd-systemctl', 'systemd-sysvinit']"
+reverse_depends = "['dracut', 'hwdata', 'intel-gpu-tools', 'inxi', 'iscsi', 'kernel', 'kernel-initrd', 'kernel-lts', 'kernel-lts-initrd', 'libndctl', 'ndctl', 'systemd', 'systemd-nspawn', 'systemd-systemctl', 'systemd-sysvinit']"
 +++
 ### Description: 
 Utilities for inserting and removing modules from the Linux kernel
