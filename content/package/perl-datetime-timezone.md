@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "perl-datetime-timezone 2.63-1"
-version = "2.63-1"
+title = "perl-datetime-timezone 2.64-1"
+version = "2.64-1"
 description = "Time zone object base class and factory"
-date = "2024-11-14T09:32:03"
+date = "2025-02-21T11:53:47"
 aliases = "/packages/60092"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "241784"
-usize = "6291334"
-sha1sum = "6cc76343a5df54c80bc347c4841590bf1277b49e"
+size = "241508"
+usize = "6336543"
+sha1sum = "0a70f64f8955c424630356de199bef727e21f8eb"
 depends = "['perl>=5.34.0', 'perl-class-singleton', 'perl-params-validate']"
 reverse_depends = "['perl-datetime']"
 +++
@@ -343,10 +343,10 @@ Time zone object base class and factory
 * /usr/lib/perl5/site_perl/DateTime/TimeZone/Pacific/Tarawa.pm
 * /usr/lib/perl5/site_perl/DateTime/TimeZone/Pacific/Tongatapu.pm
 * /usr/lib/perl5/site_perl/DateTime/TimeZone/UTC.pm
-* /usr/share/doc/perl-datetime-timezone-2.63/INSTALL
-* /usr/share/doc/perl-datetime-timezone-2.63/LICENSE
-* /usr/share/doc/perl-datetime-timezone-2.63/MANIFEST
-* /usr/share/doc/perl-datetime-timezone-2.63/README.md
+* /usr/share/doc/perl-datetime-timezone-2.64/INSTALL
+* /usr/share/doc/perl-datetime-timezone-2.64/LICENSE
+* /usr/share/doc/perl-datetime-timezone-2.64/MANIFEST
+* /usr/share/doc/perl-datetime-timezone-2.64/README.md
 * /usr/share/man/man3/DateTime::TimeZone.3perl.gz
 * /usr/share/man/man3/DateTime::TimeZone::Catalog.3perl.gz
 * /usr/share/man/man3/DateTime::TimeZone::Floating.3perl.gz

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "perl-libwww 6.77-2"
-version = "6.77-2"
+title = "perl-libwww 6.78-1"
+version = "6.78-1"
 description = "A set of Perl modules which provides a simple and consistent API to the WWW."
-date = "2024-06-11T13:28:42"
+date = "2025-02-21T11:59:25"
 aliases = "/packages/3282"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "142328"
-usize = "352812"
-sha1sum = "cb46afbe5ca897eb0fae8b1493be30d87273f9c9"
+size = "142188"
+usize = "352974"
+sha1sum = "0cbecf0921356a7d2244c6431a05a00cce5da90e"
 depends = "['perl>=5.34.0', 'perl-file-listing', 'perl-html-parser', 'perl-http-cookies', 'perl-http-daemon', 'perl-http-negotiate', 'perl-net-http', 'perl-www-robotrules']"
 reverse_depends = "['spamassassin']"
 +++
@@ -47,10 +47,10 @@ A set of Perl modules which provides a simple and consistent API to the WWW.
 * /usr/lib/perl5/site_perl/LWP/UserAgent.pm
 * /usr/lib/perl5/site_perl/lwpcook.pod
 * /usr/lib/perl5/site_perl/lwptut.pod
-* /usr/share/doc/perl-libwww-6.77/INSTALL
-* /usr/share/doc/perl-libwww-6.77/LICENSE
-* /usr/share/doc/perl-libwww-6.77/MANIFEST
-* /usr/share/doc/perl-libwww-6.77/README.SSL
+* /usr/share/doc/perl-libwww-6.78/INSTALL
+* /usr/share/doc/perl-libwww-6.78/LICENSE
+* /usr/share/doc/perl-libwww-6.78/MANIFEST
+* /usr/share/doc/perl-libwww-6.78/README.SSL
 * /usr/share/man/man1/lwp-download.1perl.gz
 * /usr/share/man/man1/lwp-dump.1perl.gz
 * /usr/share/man/man1/lwp-mirror.1perl.gz

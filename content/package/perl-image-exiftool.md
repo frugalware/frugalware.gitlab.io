@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "perl-image-exiftool 13.00-1"
-version = "13.00-1"
+title = "perl-image-exiftool 13.10-1"
+version = "13.10-1"
 description = "Read and write meta information"
-date = "2024-11-14T09:57:23"
+date = "2025-02-21T12:02:45"
 aliases = "/packages/217581"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "4414476"
-usize = "19695162"
-sha1sum = "64e75b830ca9536244564b4092fb14b7f0f909d3"
+size = "4459208"
+usize = "19821028"
+sha1sum = "fa9f57ddc4289880c4c9d4643b3921d4c42e9c61"
 depends = "['perl>=5.34.0']"
 reverse_depends = "['darktable']"
 +++
@@ -201,6 +201,7 @@ Read and write meta information
 * /usr/lib/perl5/site_perl/Image/ExifTool/PostScript.pm
 * /usr/lib/perl5/site_perl/Image/ExifTool/PPM.pm
 * /usr/lib/perl5/site_perl/Image/ExifTool/PrintIM.pm
+* /usr/lib/perl5/site_perl/Image/ExifTool/Protobuf.pm
 * /usr/lib/perl5/site_perl/Image/ExifTool/PSP.pm
 * /usr/lib/perl5/site_perl/Image/ExifTool/Qualcomm.pm
 * /usr/lib/perl5/site_perl/Image/ExifTool/QuickTime.pm
@@ -254,8 +255,8 @@ Read and write meta information
 * /usr/lib/perl5/site_perl/Image/ExifTool/XMPStruct.pl
 * /usr/lib/perl5/site_perl/Image/ExifTool/ZIP.pm
 * /usr/lib/perl5/site_perl/Image/ExifTool/ZISRAW.pm
-* /usr/share/doc/perl-image-exiftool-13.00/MANIFEST
-* /usr/share/doc/perl-image-exiftool-13.00/README
+* /usr/share/doc/perl-image-exiftool-13.10/MANIFEST
+* /usr/share/doc/perl-image-exiftool-13.10/README
 * /usr/share/man/man1/exiftool.1perl.gz
 * /usr/share/man/man3/File::RandomAccess.3perl.gz
 * /usr/share/man/man3/Image::ExifTool.3perl.gz
@@ -403,6 +404,7 @@ Read and write meta information
 * /usr/share/man/man3/Image::ExifTool::PostScript.3perl.gz
 * /usr/share/man/man3/Image::ExifTool::PPM.3perl.gz
 * /usr/share/man/man3/Image::ExifTool::PrintIM.3perl.gz
+* /usr/share/man/man3/Image::ExifTool::Protobuf.3perl.gz
 * /usr/share/man/man3/Image::ExifTool::PSP.3perl.gz
 * /usr/share/man/man3/Image::ExifTool::Qualcomm.3perl.gz
 * /usr/share/man/man3/Image::ExifTool::QuickTime.3perl.gz

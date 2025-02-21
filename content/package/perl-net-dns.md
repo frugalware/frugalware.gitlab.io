@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "perl-net-dns 1.48-1"
-version = "1.48-1"
+title = "perl-net-dns 1.50-1"
+version = "1.50-1"
 description = "Perl interface to the DNS resolver"
-date = "2024-11-14T09:58:36"
+date = "2025-02-21T12:03:58"
 aliases = "/packages/3784"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "310620"
-usize = "841033"
-sha1sum = "236ca4c997e422aa9d935533708078385ccc6b7f"
+size = "315640"
+usize = "846944"
+sha1sum = "77d95a1b22bdbef35c129fb8eff9dfca82ccce4b"
 depends = "['perl>=5.34.0', 'perl-digest-hmac', 'perl-io-socket-inet6>=2.72-2', 'perl-net-ip']"
 reverse_depends = "['perl-mail-dkim', 'perl-mail-spf', 'perl-net-dns-resolver-programmable', 'spamassassin']"
 +++
@@ -54,6 +54,7 @@ Perl interface to the DNS resolver
 * /usr/lib/perl5/site_perl/Net/DNS/RR/DNAME.pm
 * /usr/lib/perl5/site_perl/Net/DNS/RR/DNSKEY.pm
 * /usr/lib/perl5/site_perl/Net/DNS/RR/DS.pm
+* /usr/lib/perl5/site_perl/Net/DNS/RR/DSYNC.pm
 * /usr/lib/perl5/site_perl/Net/DNS/RR/EUI48.pm
 * /usr/lib/perl5/site_perl/Net/DNS/RR/EUI64.pm
 * /usr/lib/perl5/site_perl/Net/DNS/RR/GPOS.pm
@@ -84,6 +85,7 @@ Perl interface to the DNS resolver
 * /usr/lib/perl5/site_perl/Net/DNS/RR/OPT.pm
 * /usr/lib/perl5/site_perl/Net/DNS/RR/PTR.pm
 * /usr/lib/perl5/site_perl/Net/DNS/RR/PX.pm
+* /usr/lib/perl5/site_perl/Net/DNS/RR/RESINFO.pm
 * /usr/lib/perl5/site_perl/Net/DNS/RR/RP.pm
 * /usr/lib/perl5/site_perl/Net/DNS/RR/RRSIG.pm
 * /usr/lib/perl5/site_perl/Net/DNS/RR/RT.pm
@@ -104,9 +106,9 @@ Perl interface to the DNS resolver
 * /usr/lib/perl5/site_perl/Net/DNS/Text.pm
 * /usr/lib/perl5/site_perl/Net/DNS/Update.pm
 * /usr/lib/perl5/site_perl/Net/DNS/ZoneFile.pm
-* /usr/share/doc/perl-net-dns-1.48/LICENSE
-* /usr/share/doc/perl-net-dns-1.48/MANIFEST
-* /usr/share/doc/perl-net-dns-1.48/README
+* /usr/share/doc/perl-net-dns-1.50/LICENSE
+* /usr/share/doc/perl-net-dns-1.50/MANIFEST
+* /usr/share/doc/perl-net-dns-1.50/README
 * /usr/share/man/man3/Net::DNS.3perl.gz
 * /usr/share/man/man3/Net::DNS::Domain.3perl.gz
 * /usr/share/man/man3/Net::DNS::DomainName.3perl.gz
@@ -143,6 +145,7 @@ Perl interface to the DNS resolver
 * /usr/share/man/man3/Net::DNS::RR::DNAME.3perl.gz
 * /usr/share/man/man3/Net::DNS::RR::DNSKEY.3perl.gz
 * /usr/share/man/man3/Net::DNS::RR::DS.3perl.gz
+* /usr/share/man/man3/Net::DNS::RR::DSYNC.3perl.gz
 * /usr/share/man/man3/Net::DNS::RR::EUI48.3perl.gz
 * /usr/share/man/man3/Net::DNS::RR::EUI64.3perl.gz
 * /usr/share/man/man3/Net::DNS::RR::GPOS.3perl.gz
@@ -173,6 +176,7 @@ Perl interface to the DNS resolver
 * /usr/share/man/man3/Net::DNS::RR::OPT.3perl.gz
 * /usr/share/man/man3/Net::DNS::RR::PTR.3perl.gz
 * /usr/share/man/man3/Net::DNS::RR::PX.3perl.gz
+* /usr/share/man/man3/Net::DNS::RR::RESINFO.3perl.gz
 * /usr/share/man/man3/Net::DNS::RR::RP.3perl.gz
 * /usr/share/man/man3/Net::DNS::RR::RRSIG.3perl.gz
 * /usr/share/man/man3/Net::DNS::RR::RT.3perl.gz

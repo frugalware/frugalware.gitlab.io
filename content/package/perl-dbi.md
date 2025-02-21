@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "perl-dbi 1.645-1"
-version = "1.645-1"
+title = "perl-dbi 1.647-1"
+version = "1.647-1"
 description = "Database independent interface for Perl"
-date = "2024-11-14T09:46:36"
+date = "2025-02-21T11:55:16"
 aliases = "/packages/3279"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "818960"
-usize = "2463103"
-sha1sum = "22b81245734b2ca93234252e3d598231b0bdbd31"
+size = "822684"
+usize = "2589485"
+sha1sum = "3ea931a458c099f1f154b3637aae9f4a60b20b69"
 depends = "['perl>=5.34.0']"
 reverse_depends = "['spamassassin']"
 +++
@@ -84,10 +84,11 @@ Database independent interface for Perl
 * /usr/lib/perl5/5.40/site_perl/DBI/W32ODBC.pm
 * /usr/lib/perl5/5.40/site_perl/dbixs_rev.pl
 * /usr/lib/perl5/5.40/site_perl/Win32/DBIODBC.pm
-* /usr/share/doc/perl-dbi-1.645/INSTALL
-* /usr/share/doc/perl-dbi-1.645/LICENSE
-* /usr/share/doc/perl-dbi-1.645/MANIFEST
-* /usr/share/doc/perl-dbi-1.645/README.md
+* /usr/share/doc/perl-dbi-1.647/ChangeLog
+* /usr/share/doc/perl-dbi-1.647/INSTALL
+* /usr/share/doc/perl-dbi-1.647/LICENSE
+* /usr/share/doc/perl-dbi-1.647/MANIFEST
+* /usr/share/doc/perl-dbi-1.647/README.md
 * /usr/share/man/man1/dbilogstrip.1perl.gz
 * /usr/share/man/man1/dbiprof.1perl.gz
 * /usr/share/man/man1/dbiproxy.1perl.gz
