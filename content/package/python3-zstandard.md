@@ -12,6 +12,7 @@ size = "606932"
 usize = "2359185"
 sha1sum = "97fa4be7426c28f7ba72adbef07107376001cfcb"
 depends = "['python3-cffi']"
+reverse_depends = "['fbthrift']"
 +++
 ### Description: 
 Python bindings to the Zstandard (zstd) compression library

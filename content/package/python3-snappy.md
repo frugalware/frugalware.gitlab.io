@@ -12,6 +12,7 @@ size = "14320"
 usize = "67148"
 sha1sum = "9253bc982617604898f447a28def0c6ba3cfc34d"
 depends = "['python3-cramjam']"
+reverse_depends = "['fbthrift']"
 +++
 ### Description: 
 Python bindings for the snappy compression library.

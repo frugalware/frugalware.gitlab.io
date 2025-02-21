@@ -12,6 +12,7 @@ size = "333600"
 usize = "1289389"
 sha1sum = "9307ed552e6d32e03de3985952359d8fd1dc55ed"
 depends = "['fizz']"
+reverse_depends = "['fbthrift']"
 +++
 ### Description: 
 C++ networking library providing client/server abstractions for building services

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openvswitch 3.4.1-1"
-version = "3.4.1-1"
+title = "openvswitch 3.5.0-1"
+version = "3.5.0-1"
 description = "A production quality, multilayer virtual switch"
-date = "2024-12-23T17:28:12"
+date = "2025-02-21T16:05:43"
 aliases = "/packages/200352"
 categories = ['network-extra']
 upstreamurl = "http://openvswitch.org/"
 arch = "x86_64"
-size = "2819312"
-usize = "11059982"
-sha1sum = "62223cc201a5f62b52acc52972fad1bb9db85bb9"
+size = "2853320"
+usize = "11221809"
+sha1sum = "6e94cc96dc1dc0522cdc188ead42b64e6f484f47"
 depends = "['libcap-ng', 'openssl>=3.1.0']"
 license = "Apache"
 +++
@@ -107,9 +107,9 @@ A production quality, multilayer virtual switch
 * /usr/lib/pkgconfig/libopenvswitch.pc
 * /usr/lib/pkgconfig/libovsdb.pc
 * /usr/lib/pkgconfig/libsflow.pc
-* /usr/share/doc/openvswitch-3.4.1/LICENSE
-* /usr/share/doc/openvswitch-3.4.1/NEWS
-* /usr/share/doc/openvswitch-3.4.1/README.rst
+* /usr/share/doc/openvswitch-3.5.0/LICENSE
+* /usr/share/doc/openvswitch-3.5.0/NEWS
+* /usr/share/doc/openvswitch-3.5.0/README.rst
 * /usr/share/man/man1/ovs-pcap.1.gz
 * /usr/share/man/man1/ovsdb-client.1.gz
 * /usr/share/man/man1/ovsdb-server.1.gz
@@ -162,6 +162,23 @@ A production quality, multilayer virtual switch
 * /usr/share/openvswitch/python/ovs/flow/ofp_act.py
 * /usr/share/openvswitch/python/ovs/flow/ofp_fields.py
 * /usr/share/openvswitch/python/ovs/flow/__init__.py
+* /usr/share/openvswitch/python/ovs/flowviz/console.py
+* /usr/share/openvswitch/python/ovs/flowviz/format.py
+* /usr/share/openvswitch/python/ovs/flowviz/html_format.py
+* /usr/share/openvswitch/python/ovs/flowviz/main.py
+* /usr/share/openvswitch/python/ovs/flowviz/odp/cli.py
+* /usr/share/openvswitch/python/ovs/flowviz/odp/graph.py
+* /usr/share/openvswitch/python/ovs/flowviz/odp/html.py
+* /usr/share/openvswitch/python/ovs/flowviz/odp/tree.py
+* /usr/share/openvswitch/python/ovs/flowviz/odp/__init__.py
+* /usr/share/openvswitch/python/ovs/flowviz/ofp/cli.py
+* /usr/share/openvswitch/python/ovs/flowviz/ofp/html.py
+* /usr/share/openvswitch/python/ovs/flowviz/ofp/logic.py
+* /usr/share/openvswitch/python/ovs/flowviz/ofp/__init__.py
+* /usr/share/openvswitch/python/ovs/flowviz/ovs-flowviz
+* /usr/share/openvswitch/python/ovs/flowviz/ovs-flowviz.conf
+* /usr/share/openvswitch/python/ovs/flowviz/process.py
+* /usr/share/openvswitch/python/ovs/flowviz/__init__.py
 * /usr/share/openvswitch/python/ovs/json.py
 * /usr/share/openvswitch/python/ovs/jsonrpc.py
 * /usr/share/openvswitch/python/ovs/ovsuuid.py
@@ -205,7 +222,7 @@ A production quality, multilayer virtual switch
 * /usr/share/openvswitch/scripts/ovs-save
 * /usr/share/openvswitch/scripts/ovs-vtep
 * /usr/share/openvswitch/scripts/usdt/bridge_loop.bt
-* /usr/share/openvswitch/scripts/usdt/dpif_nl_exec_monitor.py
+* /usr/share/openvswitch/scripts/usdt/dpif_op_nl_monitor.py
 * /usr/share/openvswitch/scripts/usdt/flow_reval_monitor.py
 * /usr/share/openvswitch/scripts/usdt/kernel_delay.py
 * /usr/share/openvswitch/scripts/usdt/kernel_delay.rst
