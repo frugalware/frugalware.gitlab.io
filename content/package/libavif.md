@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libavif 1.1.1-1"
-version = "1.1.1-1"
+title = "libavif 1.1.1-2"
+version = "1.1.1-2"
 description = "Library for encoding and decoding .avif files"
-date = "2024-08-01T11:42:51"
+date = "2025-02-21T09:37:39"
 aliases = "/packages/220807"
 categories = ['lib']
 upstreamurl = "https://github.com/AOMediaCodec/libavif"
 arch = "x86_64"
-size = "148448"
-usize = "427699"
-sha1sum = "1e63ee883e6871df3de0685649956a5545305e5f"
-depends = "['aom', 'dav1d>=1.3.0', 'libpng', 'libyuv', 'rav1e', 'svt-av1>=2.0.0']"
+size = "148088"
+usize = "428979"
+sha1sum = "d6ea6e8feafef84d21b6c29014175f49a5fd8cf9"
+depends = "['aom', 'dav1d>=1.3.0', 'libpng', 'libyuv', 'rav1e', 'svt-av1>=3.0.0']"
 reverse_depends = "['darktable', 'gd', 'kimageformats', 'kimageformats5', 'sdl2_image', 'sdl3_image', 'webkit-gtk3']"
 +++
 ### Description: 

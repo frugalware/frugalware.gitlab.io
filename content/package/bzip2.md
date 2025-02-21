@@ -12,7 +12,7 @@ size = "64496"
 usize = "156014"
 sha1sum = "027c16c28a86215f4a28678145a5a216adcc371c"
 depends = "['bash>=4.4.12-4', 'glibc>=2.37']"
-reverse_depends = "['botan', 'coin-or-coinutils', 'efl', 'elfutils', 'enlightenment', 'file', 'firefox', 'fontconfig', 'fox-1.2', 'freetype2', 'fsarchiver', 'gfs2-utils', 'gnunet', 'gtans', 'john', 'kdebase-runtime-kstyles', 'libarchive', 'librsync', 'libsystemd', 'libzip', 'lighttpd', 'links', 'lrzip', 'mariadb-libs', 'minizip-ng', 'nushell', 'oxygen-gtk', 'partimage', 'pbzip2', 'pcre', 'pcre2', 'python3', 'sequoia-sq', 'terminology', 'thunderbird', 'xorriso', 'zip']"
+reverse_depends = "['botan', 'coin-or-coinutils', 'efl', 'elfutils', 'enlightenment', 'file', 'firefox', 'fontconfig', 'fox-1.2', 'freetype2', 'fsarchiver', 'gfs2-utils', 'gnunet', 'gtans', 'john', 'kdebase-runtime-kstyles', 'libarchive', 'librsync', 'libsystemd', 'libzip', 'lighttpd', 'links', 'lrzip', 'mariadb-libs', 'minizip-ng', 'nushell', 'oxygen-gtk', 'partimage', 'pbzip2', 'pcre', 'pcre2', 'python3', 'python3-cramjam', 'sequoia-sq', 'terminology', 'thunderbird', 'xorriso', 'zip']"
 +++
 ### Description: 
 A block-sorting file compressor
