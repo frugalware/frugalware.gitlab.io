@@ -12,6 +12,7 @@ size = "831652"
 usize = "3184681"
 sha1sum = "3d12d37659ce9a65166c416c55d2b7b04bed2b10"
 depends = "['folly']"
+reverse_depends = "['mvfst', 'wangle']"
 +++
 ### Description: 
 C++14 implementation of the TLS-1.3 standard
