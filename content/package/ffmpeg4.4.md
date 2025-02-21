@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ffmpeg4.4 4.4.5-3"
-version = "4.4.5-3"
+title = "ffmpeg4.4 4.4.5-4"
+version = "4.4.5-4"
 description = "FFMpeg compatibility version"
-date = "2024-11-25T13:36:43"
+date = "2025-02-21T13:57:31"
 aliases = "/packages/221503"
 categories = ['xmultimedia-extra']
 upstreamurl = "https://www.ffmpeg.org"
 arch = "x86_64"
-size = "8408700"
-usize = "25437995"
-sha1sum = "c1c010ae8af11c3fa2ffd8140cfb98e98e07c49c"
-depends = "['a52dec>=0.7.4-6', 'alsa-lib>=1.1.2-2', 'dav1d>=0.8.0', 'faac>=1.28-5', 'faad2>=2.7-5', 'gnutls', 'gsm>=1.0.18-2', 'imlib2>=1.4.7-3', 'lame>=3.99.5-5', 'libass>=0.13.6', 'libbluray>=1.1.1-2', 'libcaca>=0.99.beta19-5', 'libdc1394>=2.2.7', 'libidn2', 'libpulse>=12.2-8', 'libstdc++>=9.1.0-3', 'libtheora>=1.1.1-5', 'libva>=2.3', 'libvdpau>=1.1.1-2', 'libvorbis>=1.3.5-5', 'libvpx>=1.13.0', 'libxcb>=1.11.1-3', 'libxfixes>=5.0.1-2', 'opencore-amr>=0.1.3-2', 'openjpeg>=2.2.0', 'rav1e', 'rtmpdump>=2.4-9', 'speex>=1.2rc2-4', 'svt-av1', 'v4l-utils>=1.8.1-3', 'x264>==20230712.ga8b68eb', 'x265>=4.1', 'xvidcore>=1.3.4-3']"
+size = "8404600"
+usize = "25434971"
+sha1sum = "d5009aed84c6627422b3185f4d1017566919c34b"
+depends = "['a52dec>=0.7.4-6', 'alsa-lib>=1.1.2-2', 'dav1d>=0.8.0', 'faac>=1.28-5', 'faad2>=2.7-5', 'gnutls', 'gsm>=1.0.18-2', 'imlib2>=1.4.7-3', 'lame>=3.99.5-5', 'libass>=0.13.6', 'libbluray>=1.1.1-2', 'libcaca>=0.99.beta19-5', 'libdc1394>=2.2.7', 'libidn2', 'libpulse>=12.2-8', 'libstdc++>=9.1.0-3', 'libtheora>=1.1.1-5', 'libva>=2.3', 'libvdpau>=1.1.1-2', 'libvorbis>=1.3.5-5', 'libvpx>=1.13.0', 'libxcb>=1.11.1-3', 'libxfixes>=5.0.1-2', 'opencore-amr>=0.1.3-2', 'openjpeg>=2.2.0', 'rav1e', 'rtmpdump>=2.4-9', 'speex>=1.2rc2-4', 'svt-av1>=3.0.0', 'v4l-utils>=1.8.1-3', 'x264>==20230712.ga8b68eb', 'x265>=4.1', 'xvidcore>=1.3.4-3']"
 reverse_depends = "['openjfx', 'vlc-ffmpeg']"
 +++
 ### Description: 
