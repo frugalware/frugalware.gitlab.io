@@ -1,23 +1,23 @@
 +++
 draft = false
-title = "virtualbox-modules 7.1.6-6"
-version = "7.1.6-6"
+title = "virtualbox-modules 7.1.6-7"
+version = "7.1.6-7"
 description = "Kernel modules for VirtualBox"
-date = "2025-02-18T10:47:32"
+date = "2025-02-22T13:46:49"
 aliases = "/packages/49977"
 categories = ['apps-extra']
 upstreamurl = "http://www.virtualbox.org"
 arch = "x86_64"
-size = "298288"
-usize = "260541"
-sha1sum = "016dc91a75f0f53a05bce3d334fa1863fd48644e"
-depends = "['kernel=6.13.3-1']"
+size = "298524"
+usize = "260588"
+sha1sum = "6854bb970fe9286b4ba3d03a048343895eb64006"
+depends = "['kernel=6.13.4-1']"
 reverse_depends = "['virtualbox']"
 +++
 ### Description: 
 Kernel modules for VirtualBox
 
 ### Files: 
-* /usr/lib/modules/6.13.3-fw1/kernel/misc/vboxdrv.ko.zst
-* /usr/lib/modules/6.13.3-fw1/kernel/misc/vboxnetadp.ko.zst
-* /usr/lib/modules/6.13.3-fw1/kernel/misc/vboxnetflt.ko.zst
+* /usr/lib/modules/6.13.4-fw1/kernel/misc/vboxdrv.ko.zst
+* /usr/lib/modules/6.13.4-fw1/kernel/misc/vboxnetadp.ko.zst
+* /usr/lib/modules/6.13.4-fw1/kernel/misc/vboxnetflt.ko.zst
