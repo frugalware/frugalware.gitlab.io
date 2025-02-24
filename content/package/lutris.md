@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lutris 0.5.18-1"
-version = "0.5.18-1"
+title = "lutris 0.5.19-1"
+version = "0.5.19-1"
 description = "Open Gaming Platform"
-date = "2024-12-02T09:14:16"
+date = "2025-02-24T11:49:48"
 aliases = "/packages/220203"
 categories = ['games-extra']
 upstreamurl = "https://lutris.net"
 arch = "x86_64"
-size = "1420684"
-usize = "5566306"
-sha1sum = "1209824f827fc8f9b846573a0ca752a6dca8a071"
+size = "1439408"
+usize = "5645003"
+sha1sum = "d742398fef7c220dc939a7755ca338df96b0f3df"
 depends = "['gnome-desktop', 'gobject-introspection', 'python3-astroid', 'python3-cffi', 'python3-cryptography', 'python3-evdev', 'python3-idna', 'python3-lazy-object-proxy', 'python3-mccabe', 'python3-pycairo', 'python3-pycparser', 'python3-requests', 'python3-six', 'python3-sqlite3', 'python3-urllib3', 'python3-wrapt', 'pyyaml3', 'xrandr']"
 +++
 ### Description: 
@@ -18,12 +18,12 @@ Open Gaming Platform
 
 ### Files: 
 * /usr/bin/lutris
-* /usr/lib/python3.13/site-packages/lutris-0.5.18-py3.13.egg-info/dependency_links.txt
-* /usr/lib/python3.13/site-packages/lutris-0.5.18-py3.13.egg-info/not-zip-safe
-* /usr/lib/python3.13/site-packages/lutris-0.5.18-py3.13.egg-info/PKG-INFO
-* /usr/lib/python3.13/site-packages/lutris-0.5.18-py3.13.egg-info/requires.txt
-* /usr/lib/python3.13/site-packages/lutris-0.5.18-py3.13.egg-info/SOURCES.txt
-* /usr/lib/python3.13/site-packages/lutris-0.5.18-py3.13.egg-info/top_level.txt
+* /usr/lib/python3.13/site-packages/lutris-0.5.19-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/lutris-0.5.19-py3.13.egg-info/not-zip-safe
+* /usr/lib/python3.13/site-packages/lutris-0.5.19-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/lutris-0.5.19-py3.13.egg-info/requires.txt
+* /usr/lib/python3.13/site-packages/lutris-0.5.19-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/lutris-0.5.19-py3.13.egg-info/top_level.txt
 * /usr/lib/python3.13/site-packages/lutris/api.py
 * /usr/lib/python3.13/site-packages/lutris/cache.py
 * /usr/lib/python3.13/site-packages/lutris/config.py
@@ -67,6 +67,7 @@ Open Gaming Platform
 * /usr/lib/python3.13/site-packages/lutris/gui/config/storage_box.py
 * /usr/lib/python3.13/site-packages/lutris/gui/config/sysinfo_box.py
 * /usr/lib/python3.13/site-packages/lutris/gui/config/updates_box.py
+* /usr/lib/python3.13/site-packages/lutris/gui/config/widget_generator.py
 * /usr/lib/python3.13/site-packages/lutris/gui/config/__init__.py
 * /usr/lib/python3.13/site-packages/lutris/gui/config/__pycache__/accounts_box.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/lutris/gui/config/__pycache__/add_game_dialog.cpython-313.pyc
@@ -86,6 +87,7 @@ Open Gaming Platform
 * /usr/lib/python3.13/site-packages/lutris/gui/config/__pycache__/storage_box.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/lutris/gui/config/__pycache__/sysinfo_box.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/lutris/gui/config/__pycache__/updates_box.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/lutris/gui/config/__pycache__/widget_generator.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/lutris/gui/config/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/lutris/gui/dialogs/cache.py
 * /usr/lib/python3.13/site-packages/lutris/gui/dialogs/delegates.py
@@ -150,7 +152,7 @@ Open Gaming Platform
 * /usr/lib/python3.13/site-packages/lutris/gui/widgets/notifications.py
 * /usr/lib/python3.13/site-packages/lutris/gui/widgets/progress_box.py
 * /usr/lib/python3.13/site-packages/lutris/gui/widgets/scaled_image.py
-* /usr/lib/python3.13/site-packages/lutris/gui/widgets/searchable_combobox.py
+* /usr/lib/python3.13/site-packages/lutris/gui/widgets/searchable_entrybox.py
 * /usr/lib/python3.13/site-packages/lutris/gui/widgets/sidebar.py
 * /usr/lib/python3.13/site-packages/lutris/gui/widgets/status_icon.py
 * /usr/lib/python3.13/site-packages/lutris/gui/widgets/utils.py
@@ -168,7 +170,7 @@ Open Gaming Platform
 * /usr/lib/python3.13/site-packages/lutris/gui/widgets/__pycache__/notifications.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/lutris/gui/widgets/__pycache__/progress_box.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/lutris/gui/widgets/__pycache__/scaled_image.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/lutris/gui/widgets/__pycache__/searchable_combobox.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/lutris/gui/widgets/__pycache__/searchable_entrybox.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/lutris/gui/widgets/__pycache__/sidebar.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/lutris/gui/widgets/__pycache__/status_icon.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/lutris/gui/widgets/__pycache__/utils.cpython-313.pyc
@@ -198,7 +200,7 @@ Open Gaming Platform
 * /usr/lib/python3.13/site-packages/lutris/installer/__pycache__/steam_installer.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/lutris/installer/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/lutris/migrations/mess_to_mame.py
-* /usr/lib/python3.13/site-packages/lutris/migrations/migrate_banners.py
+* /usr/lib/python3.13/site-packages/lutris/migrations/migrate_ge_proton.py
 * /usr/lib/python3.13/site-packages/lutris/migrations/migrate_hidden_category.py
 * /usr/lib/python3.13/site-packages/lutris/migrations/migrate_hidden_ids.py
 * /usr/lib/python3.13/site-packages/lutris/migrations/migrate_sortname.py
@@ -206,7 +208,7 @@ Open Gaming Platform
 * /usr/lib/python3.13/site-packages/lutris/migrations/retrieve_discord_appids.py
 * /usr/lib/python3.13/site-packages/lutris/migrations/__init__.py
 * /usr/lib/python3.13/site-packages/lutris/migrations/__pycache__/mess_to_mame.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/lutris/migrations/__pycache__/migrate_banners.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/lutris/migrations/__pycache__/migrate_ge_proton.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/lutris/migrations/__pycache__/migrate_hidden_category.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/lutris/migrations/__pycache__/migrate_hidden_ids.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/lutris/migrations/__pycache__/migrate_sortname.cpython-313.pyc
@@ -388,6 +390,7 @@ Open Gaming Platform
 * /usr/lib/python3.13/site-packages/lutris/util/egs/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/lutris/util/extract.py
 * /usr/lib/python3.13/site-packages/lutris/util/fileio.py
+* /usr/lib/python3.13/site-packages/lutris/util/files.py
 * /usr/lib/python3.13/site-packages/lutris/util/flatpak.py
 * /usr/lib/python3.13/site-packages/lutris/util/gamecontrollerdb.py
 * /usr/lib/python3.13/site-packages/lutris/util/game_finder.py
@@ -431,7 +434,9 @@ Open Gaming Platform
 * /usr/lib/python3.13/site-packages/lutris/util/process_watcher.py
 * /usr/lib/python3.13/site-packages/lutris/util/resources.py
 * /usr/lib/python3.13/site-packages/lutris/util/retroarch/core_config.py
+* /usr/lib/python3.13/site-packages/lutris/util/retroarch/firmware.py
 * /usr/lib/python3.13/site-packages/lutris/util/retroarch/__pycache__/core_config.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/lutris/util/retroarch/__pycache__/firmware.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/lutris/util/savesync.py
 * /usr/lib/python3.13/site-packages/lutris/util/settings.py
 * /usr/lib/python3.13/site-packages/lutris/util/shell.py
@@ -508,6 +513,7 @@ Open Gaming Platform
 * /usr/lib/python3.13/site-packages/lutris/util/__pycache__/downloader.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/lutris/util/__pycache__/extract.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/lutris/util/__pycache__/fileio.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/lutris/util/__pycache__/files.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/lutris/util/__pycache__/flatpak.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/lutris/util/__pycache__/gamecontrollerdb.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/lutris/util/__pycache__/game_finder.cpython-313.pyc
@@ -559,19 +565,18 @@ Open Gaming Platform
 * /usr/lib/python3.13/site-packages/lutris/__pycache__/sysoptions.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/lutris/__pycache__/__init__.cpython-313.pyc
 * /usr/share/applications/net.lutris.Lutris.desktop
-* /usr/share/doc/lutris-0.5.18/AUTHORS
-* /usr/share/doc/lutris-0.5.18/INSTALL.rst
-* /usr/share/doc/lutris-0.5.18/LICENSE
-* /usr/share/doc/lutris-0.5.18/README.md
-* /usr/share/doc/lutris-0.5.18/README.rst
-* /usr/share/icons/hicolor/128x128/apps/lutris.png
-* /usr/share/icons/hicolor/16x16/apps/lutris.png
-* /usr/share/icons/hicolor/22x22/apps/lutris.png
-* /usr/share/icons/hicolor/24x24/apps/lutris.png
-* /usr/share/icons/hicolor/32x32/apps/lutris.png
-* /usr/share/icons/hicolor/48x48/apps/lutris.png
-* /usr/share/icons/hicolor/64x64/apps/lutris.png
-* /usr/share/icons/hicolor/scalable/apps/lutris.svg
+* /usr/share/doc/lutris-0.5.19/AUTHORS
+* /usr/share/doc/lutris-0.5.19/INSTALL.rst
+* /usr/share/doc/lutris-0.5.19/LICENSE
+* /usr/share/doc/lutris-0.5.19/README.rst
+* /usr/share/icons/hicolor/128x128/apps/net.lutris.Lutris.png
+* /usr/share/icons/hicolor/16x16/apps/net.lutris.Lutris.png
+* /usr/share/icons/hicolor/22x22/apps/net.lutris.Lutris.png
+* /usr/share/icons/hicolor/24x24/apps/net.lutris.Lutris.png
+* /usr/share/icons/hicolor/32x32/apps/net.lutris.Lutris.png
+* /usr/share/icons/hicolor/48x48/apps/net.lutris.Lutris.png
+* /usr/share/icons/hicolor/64x64/apps/net.lutris.Lutris.png
+* /usr/share/icons/hicolor/scalable/apps/net.lutris.Lutris.svg
 * /usr/share/lutris/bin/lutris-wrapper
 * /usr/share/lutris/conf/origin-openssl3.cnf
 * /usr/share/lutris/json/86box.json

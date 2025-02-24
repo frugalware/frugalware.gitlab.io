@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "edencommon 2025.02.17.00-1"
-version = "2025.02.17.00-1"
+title = "edencommon 2025.02.17.00-2"
+version = "2025.02.17.00-2"
 description = "Shared library for Watchman and Eden projects"
-date = "2025-02-24T09:17:31"
+date = "2025-02-24T11:54:55"
 aliases = "/packages/222649"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/facebookexperimental/edencommon"
 arch = "x86_64"
-size = "368152"
-usize = "1372590"
-sha1sum = "cf0c2488f1da7cdc87f1f4099331c257904cdf5c"
+size = "341296"
+usize = "1182678"
+sha1sum = "9c5fd213e16e553da4d03201cc73cb571539fa34"
 depends = "['fb303']"
 reverse_depends = "['watchman']"
 +++

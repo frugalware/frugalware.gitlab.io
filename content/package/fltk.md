@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "fltk 1.4.1-1"
-version = "1.4.1-1"
+title = "fltk 1.4.2-1"
+version = "1.4.2-1"
 description = "FLTK is a cross-platform C++ GUI toolkit for X"
-date = "2024-12-24T16:12:36"
+date = "2025-02-24T11:09:26"
 aliases = "/packages/4220"
 categories = ['xlib-extra']
 upstreamurl = "http://www.fltk.org/"
 arch = "x86_64"
-size = "11886980"
-usize = "19365201"
-sha1sum = "8fa077d56ceefc335f9a85bdab27a50888777ba9"
+size = "11930680"
+usize = "19393759"
+sha1sum = "78638cc407ed1a723320290e708524abc932d67b"
 depends = "['gtk+3']"
 reverse_depends = "['htmldoc', 'octave', 'pinentry-fltk']"
 +++
@@ -189,33 +189,33 @@ FLTK is a cross-platform C++ GUI toolkit for X
 * /usr/lib/libfltk.a
 * /usr/lib/libfltk.so
 * /usr/lib/libfltk.so.1.4
-* /usr/lib/libfltk.so.1.4.1
+* /usr/lib/libfltk.so.1.4.2
 * /usr/lib/libfltk_forms.a
 * /usr/lib/libfltk_forms.so
 * /usr/lib/libfltk_forms.so.1.4
-* /usr/lib/libfltk_forms.so.1.4.1
+* /usr/lib/libfltk_forms.so.1.4.2
 * /usr/lib/libfltk_gl.a
 * /usr/lib/libfltk_gl.so
 * /usr/lib/libfltk_gl.so.1.4
-* /usr/lib/libfltk_gl.so.1.4.1
+* /usr/lib/libfltk_gl.so.1.4.2
 * /usr/lib/libfltk_images.a
 * /usr/lib/libfltk_images.so
 * /usr/lib/libfltk_images.so.1.4
-* /usr/lib/libfltk_images.so.1.4.1
+* /usr/lib/libfltk_images.so.1.4.2
 * /usr/share/applications/fltk-options.desktop
 * /usr/share/applications/fluid.desktop
-* /usr/share/doc/fltk-1.4.1/COPYING
-* /usr/share/doc/fltk-1.4.1/README.abi-version.txt
-* /usr/share/doc/fltk-1.4.1/README.Cairo.txt
-* /usr/share/doc/fltk-1.4.1/README.CMake.txt
-* /usr/share/doc/fltk-1.4.1/README.experimental.txt
-* /usr/share/doc/fltk-1.4.1/README.IDE.txt
-* /usr/share/doc/fltk-1.4.1/README.macOS.md
-* /usr/share/doc/fltk-1.4.1/README.md
-* /usr/share/doc/fltk-1.4.1/README.txt
-* /usr/share/doc/fltk-1.4.1/README.Unix.txt
-* /usr/share/doc/fltk-1.4.1/README.Wayland.txt
-* /usr/share/doc/fltk-1.4.1/README.Windows.txt
+* /usr/share/doc/fltk-1.4.2/COPYING
+* /usr/share/doc/fltk-1.4.2/README.abi-version.txt
+* /usr/share/doc/fltk-1.4.2/README.Cairo.txt
+* /usr/share/doc/fltk-1.4.2/README.CMake.txt
+* /usr/share/doc/fltk-1.4.2/README.experimental.txt
+* /usr/share/doc/fltk-1.4.2/README.IDE.txt
+* /usr/share/doc/fltk-1.4.2/README.macOS.md
+* /usr/share/doc/fltk-1.4.2/README.md
+* /usr/share/doc/fltk-1.4.2/README.txt
+* /usr/share/doc/fltk-1.4.2/README.Unix.txt
+* /usr/share/doc/fltk-1.4.2/README.Wayland.txt
+* /usr/share/doc/fltk-1.4.2/README.Windows.txt
 * /usr/share/fltk/FLTK-Functions.cmake
 * /usr/share/fltk/FLTK-Targets-release.cmake
 * /usr/share/fltk/FLTK-Targets.cmake

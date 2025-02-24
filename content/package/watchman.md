@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "watchman 2025.02.17.00-1"
-version = "2025.02.17.00-1"
+title = "watchman 2025.02.17.00-2"
+version = "2025.02.17.00-2"
 description = "Watches files and records, or triggers actions, when they change"
-date = "2025-02-24T10:44:39"
+date = "2025-02-24T12:02:45"
 aliases = "/packages/222651"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/facebook/watchman"
 arch = "x86_64"
-size = "1577784"
-usize = "5283197"
-sha1sum = "d2737ce1abe66d6e0b0f307a2a29875eab882971"
+size = "2262548"
+usize = "9497165"
+sha1sum = "f9148b5c6573ba638392bf68e94757e892fc8d9e"
 depends = "['edencommon']"
 +++
 ### Description: 
