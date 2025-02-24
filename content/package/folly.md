@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "folly 2025.02.17.00-2"
-version = "2025.02.17.00-2"
+title = "folly 2025.02.17.00-4"
+version = "2025.02.17.00-4"
 description = "An open-source C++ library developed and used at Facebook"
-date = "2025-02-20T16:54:34"
+date = "2025-02-24T09:11:31"
 aliases = "/packages/222636"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/facebook/folly"
 arch = "x86_64"
-size = "2837392"
-usize = "13022157"
-sha1sum = "926cf74834564676cfd2dee7097be8b98b1021f6"
+size = "2858044"
+usize = "13012781"
+sha1sum = "294c4ed4d520f68ffca020848204e4321010e477"
 depends = "['double-conversion', 'fmtlib', 'google-glog', 'libaio', 'libboost', 'libevent', 'libsodium', 'libunwind', 'liburing', 'snappy']"
 reverse_depends = "['fizz']"
 +++
