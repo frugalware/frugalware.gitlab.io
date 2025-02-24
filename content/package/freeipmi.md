@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "freeipmi 1.6.14-1"
-version = "1.6.14-1"
+title = "freeipmi 1.6.15-1"
+version = "1.6.15-1"
 description = "GNU Intelligent Platform Management Interface implementation."
-date = "2024-11-26T12:32:34"
+date = "2025-02-24T14:32:20"
 aliases = "/packages/219534"
 categories = ['apps-extra']
 upstreamurl = "https://www.gnu.org/software/freeipmi/"
 arch = "x86_64"
-size = "2152632"
-usize = "12821461"
-sha1sum = "281a404b37bf3602cf0d9fa9129b6de17b9d2a96"
+size = "2152236"
+usize = "12820910"
+sha1sum = "d2907835bd09a4b878375dfa7edd8b2426a32a8f"
 depends = "['glibc', 'libgcrypt', 'libgpg-error']"
 +++
 ### Description: 
@@ -308,10 +308,10 @@ GNU Intelligent Platform Management Interface implementation.
 * /usr/include/ipmi_monitoring_offsets.h
 * /usr/lib/libfreeipmi.so
 * /usr/lib/libfreeipmi.so.17
-* /usr/lib/libfreeipmi.so.17.2.12
+* /usr/lib/libfreeipmi.so.17.2.13
 * /usr/lib/libipmiconsole.so
 * /usr/lib/libipmiconsole.so.2
-* /usr/lib/libipmiconsole.so.2.3.6
+* /usr/lib/libipmiconsole.so.2.3.7
 * /usr/lib/libipmidetect.so
 * /usr/lib/libipmidetect.so.0
 * /usr/lib/libipmidetect.so.0.0.1
@@ -322,64 +322,64 @@ GNU Intelligent Platform Management Interface implementation.
 * /usr/lib/pkgconfig/libipmiconsole.pc
 * /usr/lib/pkgconfig/libipmidetect.pc
 * /usr/lib/pkgconfig/libipmimonitoring.pc
-* /usr/share/doc/freeipmi-1.6.14/AUTHORS
-* /usr/share/doc/freeipmi-1.6.14/ChangeLog
-* /usr/share/doc/freeipmi-1.6.14/ChangeLog.0
-* /usr/share/doc/freeipmi-1.6.14/contrib/ganglia/ganglia_ipmi_sensors.pl
-* /usr/share/doc/freeipmi-1.6.14/contrib/ganglia/README
-* /usr/share/doc/freeipmi-1.6.14/contrib/libipmimonitoring/ipmimonitoring-sel.c
-* /usr/share/doc/freeipmi-1.6.14/contrib/libipmimonitoring/ipmimonitoring-sensors.c
-* /usr/share/doc/freeipmi-1.6.14/contrib/nagios/nagios_ipmi_sensors.pl
-* /usr/share/doc/freeipmi-1.6.14/contrib/nagios/README
-* /usr/share/doc/freeipmi-1.6.14/contrib/pet/check_rmcpping
-* /usr/share/doc/freeipmi-1.6.14/contrib/pet/ipminodes.cfg
-* /usr/share/doc/freeipmi-1.6.14/contrib/pet/petalert.pl
-* /usr/share/doc/freeipmi-1.6.14/contrib/pet/README
-* /usr/share/doc/freeipmi-1.6.14/COPYING
-* /usr/share/doc/freeipmi-1.6.14/COPYING.bmc-watchdog
-* /usr/share/doc/freeipmi-1.6.14/COPYING.ipmi-dcmi
-* /usr/share/doc/freeipmi-1.6.14/COPYING.ipmi-fru
-* /usr/share/doc/freeipmi-1.6.14/COPYING.ipmiconsole
-* /usr/share/doc/freeipmi-1.6.14/COPYING.ipmidetect
-* /usr/share/doc/freeipmi-1.6.14/COPYING.ipmimonitoring
-* /usr/share/doc/freeipmi-1.6.14/COPYING.ipmiping
-* /usr/share/doc/freeipmi-1.6.14/COPYING.ipmipower
-* /usr/share/doc/freeipmi-1.6.14/COPYING.ipmiseld
-* /usr/share/doc/freeipmi-1.6.14/COPYING.pstdout
-* /usr/share/doc/freeipmi-1.6.14/COPYING.sunbmc
-* /usr/share/doc/freeipmi-1.6.14/COPYING.ZRESEARCH
-* /usr/share/doc/freeipmi-1.6.14/DISCLAIMER.bmc-watchdog
-* /usr/share/doc/freeipmi-1.6.14/DISCLAIMER.bmc-watchdog.UC
-* /usr/share/doc/freeipmi-1.6.14/DISCLAIMER.ipmi-dcmi
-* /usr/share/doc/freeipmi-1.6.14/DISCLAIMER.ipmi-fru
-* /usr/share/doc/freeipmi-1.6.14/DISCLAIMER.ipmi-fru.UC
-* /usr/share/doc/freeipmi-1.6.14/DISCLAIMER.ipmiconsole
-* /usr/share/doc/freeipmi-1.6.14/DISCLAIMER.ipmiconsole.UC
-* /usr/share/doc/freeipmi-1.6.14/DISCLAIMER.ipmidetect
-* /usr/share/doc/freeipmi-1.6.14/DISCLAIMER.ipmidetect.UC
-* /usr/share/doc/freeipmi-1.6.14/DISCLAIMER.ipmimonitoring
-* /usr/share/doc/freeipmi-1.6.14/DISCLAIMER.ipmimonitoring.UC
-* /usr/share/doc/freeipmi-1.6.14/DISCLAIMER.ipmiping
-* /usr/share/doc/freeipmi-1.6.14/DISCLAIMER.ipmiping.UC
-* /usr/share/doc/freeipmi-1.6.14/DISCLAIMER.ipmipower
-* /usr/share/doc/freeipmi-1.6.14/DISCLAIMER.ipmipower.UC
-* /usr/share/doc/freeipmi-1.6.14/DISCLAIMER.ipmiseld
-* /usr/share/doc/freeipmi-1.6.14/DISCLAIMER.pstdout
-* /usr/share/doc/freeipmi-1.6.14/DISCLAIMER.pstdout.UC
-* /usr/share/doc/freeipmi-1.6.14/freeipmi-bugs-issues-and-workarounds.txt
-* /usr/share/doc/freeipmi-1.6.14/freeipmi-coding.txt
-* /usr/share/doc/freeipmi-1.6.14/freeipmi-design.txt
-* /usr/share/doc/freeipmi-1.6.14/freeipmi-hostrange.txt
-* /usr/share/doc/freeipmi-1.6.14/freeipmi-libraries.txt
-* /usr/share/doc/freeipmi-1.6.14/freeipmi-oem-documentation-requirements.txt
-* /usr/share/doc/freeipmi-1.6.14/freeipmi-testing.txt
-* /usr/share/doc/freeipmi-1.6.14/INSTALL
-* /usr/share/doc/freeipmi-1.6.14/NEWS
-* /usr/share/doc/freeipmi-1.6.14/README
-* /usr/share/doc/freeipmi-1.6.14/README.argp
-* /usr/share/doc/freeipmi-1.6.14/README.build
-* /usr/share/doc/freeipmi-1.6.14/README.openipmi
-* /usr/share/doc/freeipmi-1.6.14/TODO
+* /usr/share/doc/freeipmi-1.6.15/AUTHORS
+* /usr/share/doc/freeipmi-1.6.15/ChangeLog
+* /usr/share/doc/freeipmi-1.6.15/ChangeLog.0
+* /usr/share/doc/freeipmi-1.6.15/contrib/ganglia/ganglia_ipmi_sensors.pl
+* /usr/share/doc/freeipmi-1.6.15/contrib/ganglia/README
+* /usr/share/doc/freeipmi-1.6.15/contrib/libipmimonitoring/ipmimonitoring-sel.c
+* /usr/share/doc/freeipmi-1.6.15/contrib/libipmimonitoring/ipmimonitoring-sensors.c
+* /usr/share/doc/freeipmi-1.6.15/contrib/nagios/nagios_ipmi_sensors.pl
+* /usr/share/doc/freeipmi-1.6.15/contrib/nagios/README
+* /usr/share/doc/freeipmi-1.6.15/contrib/pet/check_rmcpping
+* /usr/share/doc/freeipmi-1.6.15/contrib/pet/ipminodes.cfg
+* /usr/share/doc/freeipmi-1.6.15/contrib/pet/petalert.pl
+* /usr/share/doc/freeipmi-1.6.15/contrib/pet/README
+* /usr/share/doc/freeipmi-1.6.15/COPYING
+* /usr/share/doc/freeipmi-1.6.15/COPYING.bmc-watchdog
+* /usr/share/doc/freeipmi-1.6.15/COPYING.ipmi-dcmi
+* /usr/share/doc/freeipmi-1.6.15/COPYING.ipmi-fru
+* /usr/share/doc/freeipmi-1.6.15/COPYING.ipmiconsole
+* /usr/share/doc/freeipmi-1.6.15/COPYING.ipmidetect
+* /usr/share/doc/freeipmi-1.6.15/COPYING.ipmimonitoring
+* /usr/share/doc/freeipmi-1.6.15/COPYING.ipmiping
+* /usr/share/doc/freeipmi-1.6.15/COPYING.ipmipower
+* /usr/share/doc/freeipmi-1.6.15/COPYING.ipmiseld
+* /usr/share/doc/freeipmi-1.6.15/COPYING.pstdout
+* /usr/share/doc/freeipmi-1.6.15/COPYING.sunbmc
+* /usr/share/doc/freeipmi-1.6.15/COPYING.ZRESEARCH
+* /usr/share/doc/freeipmi-1.6.15/DISCLAIMER.bmc-watchdog
+* /usr/share/doc/freeipmi-1.6.15/DISCLAIMER.bmc-watchdog.UC
+* /usr/share/doc/freeipmi-1.6.15/DISCLAIMER.ipmi-dcmi
+* /usr/share/doc/freeipmi-1.6.15/DISCLAIMER.ipmi-fru
+* /usr/share/doc/freeipmi-1.6.15/DISCLAIMER.ipmi-fru.UC
+* /usr/share/doc/freeipmi-1.6.15/DISCLAIMER.ipmiconsole
+* /usr/share/doc/freeipmi-1.6.15/DISCLAIMER.ipmiconsole.UC
+* /usr/share/doc/freeipmi-1.6.15/DISCLAIMER.ipmidetect
+* /usr/share/doc/freeipmi-1.6.15/DISCLAIMER.ipmidetect.UC
+* /usr/share/doc/freeipmi-1.6.15/DISCLAIMER.ipmimonitoring
+* /usr/share/doc/freeipmi-1.6.15/DISCLAIMER.ipmimonitoring.UC
+* /usr/share/doc/freeipmi-1.6.15/DISCLAIMER.ipmiping
+* /usr/share/doc/freeipmi-1.6.15/DISCLAIMER.ipmiping.UC
+* /usr/share/doc/freeipmi-1.6.15/DISCLAIMER.ipmipower
+* /usr/share/doc/freeipmi-1.6.15/DISCLAIMER.ipmipower.UC
+* /usr/share/doc/freeipmi-1.6.15/DISCLAIMER.ipmiseld
+* /usr/share/doc/freeipmi-1.6.15/DISCLAIMER.pstdout
+* /usr/share/doc/freeipmi-1.6.15/DISCLAIMER.pstdout.UC
+* /usr/share/doc/freeipmi-1.6.15/freeipmi-bugs-issues-and-workarounds.txt
+* /usr/share/doc/freeipmi-1.6.15/freeipmi-coding.txt
+* /usr/share/doc/freeipmi-1.6.15/freeipmi-design.txt
+* /usr/share/doc/freeipmi-1.6.15/freeipmi-hostrange.txt
+* /usr/share/doc/freeipmi-1.6.15/freeipmi-libraries.txt
+* /usr/share/doc/freeipmi-1.6.15/freeipmi-oem-documentation-requirements.txt
+* /usr/share/doc/freeipmi-1.6.15/freeipmi-testing.txt
+* /usr/share/doc/freeipmi-1.6.15/INSTALL
+* /usr/share/doc/freeipmi-1.6.15/NEWS
+* /usr/share/doc/freeipmi-1.6.15/README
+* /usr/share/doc/freeipmi-1.6.15/README.argp
+* /usr/share/doc/freeipmi-1.6.15/README.build
+* /usr/share/doc/freeipmi-1.6.15/README.openipmi
+* /usr/share/doc/freeipmi-1.6.15/TODO
 * /usr/share/info/freeipmi-faq.info.gz
 * /usr/share/man/man3/libfreeipmi.3.gz
 * /usr/share/man/man3/libipmiconsole.3.gz

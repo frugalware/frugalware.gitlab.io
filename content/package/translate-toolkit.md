@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "translate-toolkit 3.14.5-1"
-version = "3.14.5-1"
+title = "translate-toolkit 3.15.0-1"
+version = "3.15.0-1"
 description = "A toolkit to convert between various different translation formats."
-date = "2025-01-03T22:07:05"
+date = "2025-02-24T14:44:14"
 aliases = "/packages/15245"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/translate/translate"
 arch = "x86_64"
-size = "851164"
-usize = "6275847"
-sha1sum = "fa4cf41e9e02959b909adaf894ef3d107769713c"
+size = "870100"
+usize = "6260660"
+sha1sum = "6efeef1bda2a3b97d95ed65c206a71ed7251f598"
 depends = "['python3']"
 +++
 ### Description: 
@@ -868,13 +868,12 @@ A toolkit to convert between various different translation formats.
 * /usr/lib/python3.13/site-packages/translate/__pycache__/__version__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/translate/__pycache__/__version__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/translate/__version__.py
-* /usr/lib/python3.13/site-packages/translate_toolkit-3.14.5-py3.13.egg-info/dependency_links.txt
-* /usr/lib/python3.13/site-packages/translate_toolkit-3.14.5-py3.13.egg-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/translate_toolkit-3.14.5-py3.13.egg-info/not-zip-safe
-* /usr/lib/python3.13/site-packages/translate_toolkit-3.14.5-py3.13.egg-info/PKG-INFO
-* /usr/lib/python3.13/site-packages/translate_toolkit-3.14.5-py3.13.egg-info/requires.txt
-* /usr/lib/python3.13/site-packages/translate_toolkit-3.14.5-py3.13.egg-info/SOURCES.txt
-* /usr/lib/python3.13/site-packages/translate_toolkit-3.14.5-py3.13.egg-info/top_level.txt
-* /usr/share/doc/translate-toolkit-3.14.5/COPYING
-* /usr/share/doc/translate-toolkit-3.14.5/CREDITS
-* /usr/share/doc/translate-toolkit-3.14.5/README.rst
+* /usr/lib/python3.13/site-packages/translate_toolkit-3.15.0.dist-info/COPYING
+* /usr/lib/python3.13/site-packages/translate_toolkit-3.15.0.dist-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/translate_toolkit-3.15.0.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/translate_toolkit-3.15.0.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/translate_toolkit-3.15.0.dist-info/top_level.txt
+* /usr/lib/python3.13/site-packages/translate_toolkit-3.15.0.dist-info/WHEEL
+* /usr/share/doc/translate-toolkit-3.15.0/COPYING
+* /usr/share/doc/translate-toolkit-3.15.0/CREDITS
+* /usr/share/doc/translate-toolkit-3.15.0/README.rst

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mtd-utils 2.2.1-1"
-version = "2.2.1-1"
+title = "mtd-utils 2.3.0-1"
+version = "2.3.0-1"
 description = "Utilities for dealing with MTD (flash) devices"
-date = "2024-11-26T10:56:20"
+date = "2025-02-24T14:23:35"
 aliases = "/packages/137096"
 categories = ['apps-extra']
 upstreamurl = "http://www.linux-mtd.infradead.org/"
 arch = "x86_64"
-size = "431352"
-usize = "1868771"
-sha1sum = "7fb038bfce9b0be29f9203efef0e28ecebdfdefd"
+size = "464048"
+usize = "1818274"
+sha1sum = "3b642fff51eb8cdc2283d5ac2460b3070946f676"
 depends = "['libuuid>=2.40.2', 'lzo', 'openssl>=3.1.0', 'zstd']"
 +++
 ### Description: 
@@ -30,6 +30,7 @@ Utilities for dealing with MTD (flash) devices
 * /usr/bin/flash_otp_lock
 * /usr/bin/flash_otp_write
 * /usr/bin/flash_unlock
+* /usr/bin/fsck.ubifs
 * /usr/bin/ftl_check
 * /usr/bin/ftl_format
 * /usr/bin/jffs2dump
@@ -66,55 +67,8 @@ Utilities for dealing with MTD (flash) devices
 * /usr/bin/ubirsvol
 * /usr/bin/ubiscan
 * /usr/bin/ubiupdatevol
-* /usr/lib/mtd-utils/mtd-utils/checkfs
-* /usr/lib/mtd-utils/mtd-utils/filljffs2.sh
-* /usr/lib/mtd-utils/mtd-utils/flash_readtest
-* /usr/lib/mtd-utils/mtd-utils/flash_speed
-* /usr/lib/mtd-utils/mtd-utils/flash_stress
-* /usr/lib/mtd-utils/mtd-utils/flash_torture
-* /usr/lib/mtd-utils/mtd-utils/free_space
-* /usr/lib/mtd-utils/mtd-utils/fstest_monitor
-* /usr/lib/mtd-utils/mtd-utils/fs_help_all.sh
-* /usr/lib/mtd-utils/mtd-utils/fs_run_all.sh
-* /usr/lib/mtd-utils/mtd-utils/fs_stress00.sh
-* /usr/lib/mtd-utils/mtd-utils/fs_stress01.sh
-* /usr/lib/mtd-utils/mtd-utils/ftrunc
-* /usr/lib/mtd-utils/mtd-utils/fwrite00
-* /usr/lib/mtd-utils/mtd-utils/gcd_hupper
-* /usr/lib/mtd-utils/mtd-utils/integ
-* /usr/lib/mtd-utils/mtd-utils/integck
-* /usr/lib/mtd-utils/mtd-utils/io_basic
-* /usr/lib/mtd-utils/mtd-utils/io_paral
-* /usr/lib/mtd-utils/mtd-utils/io_read
-* /usr/lib/mtd-utils/mtd-utils/io_update
-* /usr/lib/mtd-utils/mtd-utils/JitterTest
-* /usr/lib/mtd-utils/mtd-utils/load_nandsim.sh
-* /usr/lib/mtd-utils/mtd-utils/makefiles
-* /usr/lib/mtd-utils/mtd-utils/mkvol_bad
-* /usr/lib/mtd-utils/mtd-utils/mkvol_basic
-* /usr/lib/mtd-utils/mtd-utils/mkvol_paral
-* /usr/lib/mtd-utils/mtd-utils/nandbiterrs
-* /usr/lib/mtd-utils/mtd-utils/nandpagetest
-* /usr/lib/mtd-utils/mtd-utils/nandsubpagetest
-* /usr/lib/mtd-utils/mtd-utils/orph
-* /usr/lib/mtd-utils/mtd-utils/pdfrun
-* /usr/lib/mtd-utils/mtd-utils/perf
-* /usr/lib/mtd-utils/mtd-utils/plotJittervsFill
-* /usr/lib/mtd-utils/mtd-utils/rmdir00
-* /usr/lib/mtd-utils/mtd-utils/rndrm00
-* /usr/lib/mtd-utils/mtd-utils/rndrm99
-* /usr/lib/mtd-utils/mtd-utils/rndwrite00
-* /usr/lib/mtd-utils/mtd-utils/rsvol
-* /usr/lib/mtd-utils/mtd-utils/runubitests.sh
-* /usr/lib/mtd-utils/mtd-utils/stress_1
-* /usr/lib/mtd-utils/mtd-utils/stress_2
-* /usr/lib/mtd-utils/mtd-utils/stress_3
-* /usr/lib/mtd-utils/mtd-utils/test_1
-* /usr/lib/mtd-utils/mtd-utils/test_2
-* /usr/lib/mtd-utils/mtd-utils/ubi-stress-test.sh
-* /usr/lib/mtd-utils/mtd-utils/volrefcnt
-* /usr/share/doc/mtd-utils-2.2.1/COPYING
-* /usr/share/doc/mtd-utils-2.2.1/README.txt
+* /usr/share/doc/mtd-utils-2.3.0/COPYING
+* /usr/share/doc/mtd-utils-2.3.0/README.txt
 * /usr/share/man/man1/mkfs.jffs2.1.gz
 * /usr/share/man/man8/lsmtd.8.gz
 * /usr/share/man/man8/ubinize.8.gz

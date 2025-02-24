@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "wireshark 4.4.2-2"
-version = "4.4.2-2"
+title = "wireshark 4.4.4-1"
+version = "4.4.4-1"
 description = "The world's most popular network protocol analyzer."
-date = "2024-12-05T22:12:11"
+date = "2025-02-24T14:52:59"
 aliases = "/packages/10556"
 categories = ['xapps-extra']
 upstreamurl = "http://www.wireshark.org/"
 arch = "x86_64"
-size = "27213520"
-usize = "138395634"
-sha1sum = "5b87d45d9ffa7b45d8aadfeb532f61ffb998cef7"
+size = "27236200"
+usize = "138763118"
+sha1sum = "16d53dd57415f4c48b704c2f7c397ad14f6f000f"
 depends = "['c-ares', 'dbus', 'geoip', 'glib2', 'gnutls', 'libkrb5', 'libnl', 'libpcap', 'libssh', 'libusb1', 'lua', 'lua51', 'nghttp2', 'opus', 'snappy', 'speexdsp']"
 reverse_depends = "['wireshark-qt']"
 +++
@@ -32,10 +32,10 @@ The world's most popular network protocol analyzer.
 * /usr/bin/tshark
 * /usr/lib/libwireshark.so
 * /usr/lib/libwireshark.so.18
-* /usr/lib/libwireshark.so.18.0.2
+* /usr/lib/libwireshark.so.18.0.4
 * /usr/lib/libwiretap.so
 * /usr/lib/libwiretap.so.15
-* /usr/lib/libwiretap.so.15.0.2
+* /usr/lib/libwiretap.so.15.0.4
 * /usr/lib/libwsutil.so
 * /usr/lib/libwsutil.so.16
 * /usr/lib/libwsutil.so.16.0.0
@@ -65,16 +65,16 @@ The world's most popular network protocol analyzer.
 * /usr/lib/wireshark/plugins/4.4/epan/wimaxasncp.so
 * /usr/lib/wireshark/plugins/4.4/epan/wimaxmacphy.so
 * /usr/lib/wireshark/plugins/4.4/wiretap/usbdump.so
-* /usr/share/doc/wireshark-4.4.2/AUTHORS
-* /usr/share/doc/wireshark-4.4.2/ChangeLog
-* /usr/share/doc/wireshark-4.4.2/COPYING
-* /usr/share/doc/wireshark-4.4.2/INSTALL
-* /usr/share/doc/wireshark-4.4.2/README.bsd
-* /usr/share/doc/wireshark-4.4.2/README.DECT
-* /usr/share/doc/wireshark-4.4.2/README.linux
-* /usr/share/doc/wireshark-4.4.2/README.macos
-* /usr/share/doc/wireshark-4.4.2/README.md
-* /usr/share/doc/wireshark-4.4.2/README.msys2
+* /usr/share/doc/wireshark-4.4.4/AUTHORS
+* /usr/share/doc/wireshark-4.4.4/ChangeLog
+* /usr/share/doc/wireshark-4.4.4/COPYING
+* /usr/share/doc/wireshark-4.4.4/INSTALL
+* /usr/share/doc/wireshark-4.4.4/README.bsd
+* /usr/share/doc/wireshark-4.4.4/README.DECT
+* /usr/share/doc/wireshark-4.4.4/README.linux
+* /usr/share/doc/wireshark-4.4.4/README.macos
+* /usr/share/doc/wireshark-4.4.4/README.md
+* /usr/share/doc/wireshark-4.4.4/README.msys2
 * /usr/share/doc/wireshark/androiddump.html
 * /usr/share/doc/wireshark/capinfos.html
 * /usr/share/doc/wireshark/captype.html

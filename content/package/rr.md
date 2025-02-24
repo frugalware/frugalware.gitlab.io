@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "rr 5.8.0-1"
-version = "5.8.0-1"
+title = "rr 5.9.0-1"
+version = "5.9.0-1"
 description = "Record and Replay Framework"
-date = "2024-11-26T14:29:32"
+date = "2025-02-24T14:37:05"
 aliases = "/packages/219766"
 categories = ['apps-extra']
 upstreamurl = "https://rr-project.org"
 arch = "x86_64"
-size = "1464592"
-usize = "4362173"
-sha1sum = "2927bdd944c27cde590659d45b712e6eb851c73a"
+size = "1491204"
+usize = "4422372"
+sha1sum = "4ebf8b786a97b14decfa0787432f13448f38e00c"
 depends = "['capnproto', 'gdb', 'libstdc++', 'pexpect']"
 +++
 ### Description: 
@@ -25,8 +25,8 @@ Record and Replay Framework
 * /usr/lib/rr/librrpage.so
 * /usr/lib/rr/librrpreload.so
 * /usr/share/bash-completion/completions/rr
-* /usr/share/doc/rr-5.8.0/LICENSE
-* /usr/share/doc/rr-5.8.0/README.md
+* /usr/share/doc/rr-5.9.0/LICENSE
+* /usr/share/doc/rr-5.9.0/README.md
 * /usr/share/rr/32bit-avx.xml
 * /usr/share/rr/32bit-core.xml
 * /usr/share/rr/32bit-linux.xml
@@ -41,12 +41,6 @@ Record and Replay Framework
 * /usr/share/rr/aarch64-core.xml
 * /usr/share/rr/aarch64-fpu.xml
 * /usr/share/rr/aarch64-pauth.xml
-* /usr/share/rr/amd64-avx-linux.xml
-* /usr/share/rr/amd64-linux.xml
-* /usr/share/rr/amd64-pkeys-linux.xml
-* /usr/share/rr/i386-avx-linux.xml
-* /usr/share/rr/i386-linux.xml
-* /usr/share/rr/i386-pkeys-linux.xml
 * /usr/share/rr/src/preload/overrides.c
 * /usr/share/rr/src/preload/preload_interface.h
 * /usr/share/rr/src/preload/raw_syscall.S
@@ -58,3 +52,4 @@ Record and Replay Framework
 * /usr/share/rr/src/preload/syscallbuf.c
 * /usr/share/rr/src/preload/syscallbuf.h
 * /usr/share/rr/src/preload/syscall_hook.S
+* /usr/share/zsh/site-functions/_rr
