@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "suitesparse 7.8.3-1"
-version = "7.8.3-1"
+title = "suitesparse 7.9.0-1"
+version = "7.9.0-1"
 description = "A collection of sparse matrix libraries"
-date = "2024-11-11T13:31:55"
+date = "2025-02-24T09:36:55"
 aliases = "/packages/220120"
 categories = ['lib-extra']
 upstreamurl = "http://faculty.cse.tamu.edu/davis/suitesparse.html"
 arch = "x86_64"
-size = "16665656"
-usize = "120470463"
-sha1sum = "fd740226b0ba50d918f560bfffed731d47678614"
+size = "8514220"
+usize = "51619525"
+sha1sum = "c3b18e8d020dd3f3962714623d66ca228e6b5d5f"
 depends = "['gmp', 'lapack', 'libgomp', 'mpfr']"
 reverse_depends = "['ceres-solver', 'coin-or-clp', 'gegl', 'julia']"
 +++
@@ -142,7 +142,7 @@ A collection of sparse matrix libraries
 * /usr/lib/libccolamd.so.3.3.4
 * /usr/lib/libcholmod.so
 * /usr/lib/libcholmod.so.5
-* /usr/lib/libcholmod.so.5.3.0
+* /usr/lib/libcholmod.so.5.3.1
 * /usr/lib/libcolamd.so
 * /usr/lib/libcolamd.so.3
 * /usr/lib/libcolamd.so.3.3.4
@@ -151,7 +151,7 @@ A collection of sparse matrix libraries
 * /usr/lib/libcxsparse.so.4.4.1
 * /usr/lib/libgraphblas.so
 * /usr/lib/libgraphblas.so.9
-* /usr/lib/libgraphblas.so.9.3.1
+* /usr/lib/libgraphblas.so.9.4.5
 * /usr/lib/libklu.so
 * /usr/lib/libklu.so.2
 * /usr/lib/libklu.so.2.3.5
@@ -160,10 +160,10 @@ A collection of sparse matrix libraries
 * /usr/lib/libklu_cholmod.so.2.3.5
 * /usr/lib/liblagraph.so
 * /usr/lib/liblagraph.so.1
-* /usr/lib/liblagraph.so.1.1.4
+* /usr/lib/liblagraph.so.1.1.5
 * /usr/lib/liblagraphx.so
 * /usr/lib/liblagraphx.so.1
-* /usr/lib/liblagraphx.so.1.1.4
+* /usr/lib/liblagraphx.so.1.1.5
 * /usr/lib/libldl.so
 * /usr/lib/libldl.so.3
 * /usr/lib/libldl.so.3.3.2
@@ -175,16 +175,16 @@ A collection of sparse matrix libraries
 * /usr/lib/librbio.so.4.3.4
 * /usr/lib/libspex.so
 * /usr/lib/libspex.so.3
-* /usr/lib/libspex.so.3.2.1
+* /usr/lib/libspex.so.3.2.3
 * /usr/lib/libspexpython.so
 * /usr/lib/libspexpython.so.3
-* /usr/lib/libspexpython.so.3.2.1
+* /usr/lib/libspexpython.so.3.2.3
 * /usr/lib/libspqr.so
 * /usr/lib/libspqr.so.4
 * /usr/lib/libspqr.so.4.3.4
 * /usr/lib/libsuitesparseconfig.so
 * /usr/lib/libsuitesparseconfig.so.7
-* /usr/lib/libsuitesparseconfig.so.7.8.3
+* /usr/lib/libsuitesparseconfig.so.7.9.0
 * /usr/lib/libsuitesparse_mongoose.so
 * /usr/lib/libsuitesparse_mongoose.so.3
 * /usr/lib/libumfpack.so
@@ -209,5 +209,5 @@ A collection of sparse matrix libraries
 * /usr/lib/pkgconfig/SuiteSparse_config.pc
 * /usr/lib/pkgconfig/SuiteSparse_Mongoose.pc
 * /usr/lib/pkgconfig/UMFPACK.pc
-* /usr/share/doc/suitesparse-7.8.3/ChangeLog
-* /usr/share/doc/suitesparse-7.8.3/README.md
+* /usr/share/doc/suitesparse-7.9.0/ChangeLog
+* /usr/share/doc/suitesparse-7.9.0/README.md

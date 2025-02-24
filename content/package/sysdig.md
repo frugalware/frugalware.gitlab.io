@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "sysdig 0.39.0-25"
-version = "0.39.0-25"
+title = "sysdig 0.40.0-1"
+version = "0.40.0-1"
 description = "Open source system-level exploration and troubleshooting tool"
-date = "2025-02-22T13:32:30"
+date = "2025-02-24T10:10:47"
 aliases = "/packages/219877"
 categories = ['apps-extra']
 upstreamurl = "https://www.sysdig.com/"
 arch = "x86_64"
-size = "2140664"
-usize = "16696631"
-sha1sum = "a711f889e2ebf5620b1d07480ba032108da89a84"
+size = "2407476"
+usize = "22780099"
+sha1sum = "af954806b0e80827185abc75cf6a5627f56d2b25"
 depends = "['curl', 'grpc>=1.70.0', 'intel-tbb', 'jq', 'jsoncpp>=1.9.2', 'kernel=6.13.4-1', 'libb64', 'libbpf', 'luajit2', 'nlohmann-json', 'yaml-cpp']"
 +++
 ### Description: 
@@ -65,6 +65,11 @@ Open source system-level exploration and troubleshooting tool
 * /usr/include/sysdig/libscap/engine/nodriver/nodriver.h
 * /usr/include/sysdig/libscap/engine/nodriver/nodriver_public.h
 * /usr/include/sysdig/libscap/engine/noop/noop.h
+* /usr/include/sysdig/libscap/engine/savefile/converter/converter.h
+* /usr/include/sysdig/libscap/engine/savefile/converter/debug_macro.h
+* /usr/include/sysdig/libscap/engine/savefile/converter/results.h
+* /usr/include/sysdig/libscap/engine/savefile/converter/table.h
+* /usr/include/sysdig/libscap/engine/savefile/converter/types.h
 * /usr/include/sysdig/libscap/engine/savefile/savefile.h
 * /usr/include/sysdig/libscap/engine/savefile/savefile_platform.h
 * /usr/include/sysdig/libscap/engine/savefile/savefile_public.h
@@ -131,7 +136,10 @@ Open source system-level exploration and troubleshooting tool
 * /usr/include/sysdig/libsinsp/cgroup_limits.h
 * /usr/include/sysdig/libsinsp/cgroup_list_counter.h
 * /usr/include/sysdig/libsinsp/container.h
+* /usr/include/sysdig/libsinsp/containers.grpc.pb.h
+* /usr/include/sysdig/libsinsp/containers.pb.h
 * /usr/include/sysdig/libsinsp/container_engine/bpm.h
+* /usr/include/sysdig/libsinsp/container_engine/containerd.h
 * /usr/include/sysdig/libsinsp/container_engine/container_async_source.h
 * /usr/include/sysdig/libsinsp/container_engine/container_cache_interface.h
 * /usr/include/sysdig/libsinsp/container_engine/container_engine_base.h
@@ -149,7 +157,13 @@ Open source system-level exploration and troubleshooting tool
 * /usr/include/sysdig/libsinsp/container_engine/sinsp_container_type.h
 * /usr/include/sysdig/libsinsp/container_engine/static_container.h
 * /usr/include/sysdig/libsinsp/container_info.h
+* /usr/include/sysdig/libsinsp/cri-v1.grpc.pb.h
+* /usr/include/sysdig/libsinsp/cri-v1.pb.h
+* /usr/include/sysdig/libsinsp/cri-v1alpha2.grpc.pb.h
+* /usr/include/sysdig/libsinsp/cri-v1alpha2.pb.h
 * /usr/include/sysdig/libsinsp/cri.h
+* /usr/include/sysdig/libsinsp/descriptor.grpc.pb.h
+* /usr/include/sysdig/libsinsp/descriptor.pb.h
 * /usr/include/sysdig/libsinsp/dns_manager.h
 * /usr/include/sysdig/libsinsp/dumper.h
 * /usr/include/sysdig/libsinsp/event.h
@@ -171,6 +185,9 @@ Open source system-level exploration and troubleshooting tool
 * /usr/include/sysdig/libsinsp/grpc_channel_registry.h
 * /usr/include/sysdig/libsinsp/gvisor_config.h
 * /usr/include/sysdig/libsinsp/ifinfo.h
+* /usr/include/sysdig/libsinsp/images.grpc.pb.h
+* /usr/include/sysdig/libsinsp/images.pb.h
+* /usr/include/sysdig/libsinsp/linux/resource_utilization.h
 * /usr/include/sysdig/libsinsp/logger.h
 * /usr/include/sysdig/libsinsp/logger_macros.h
 * /usr/include/sysdig/libsinsp/memmem.h
@@ -212,7 +229,14 @@ Open source system-level exploration and troubleshooting tool
 * /usr/include/sysdig/libsinsp/sinsp_filtercheck_tracer.h
 * /usr/include/sysdig/libsinsp/sinsp_filtercheck_user.h
 * /usr/include/sysdig/libsinsp/sinsp_filtercheck_utils.h
-* /usr/include/sysdig/libsinsp/sinsp_filter_transformer.h
+* /usr/include/sysdig/libsinsp/sinsp_filter_transformers.h
+* /usr/include/sysdig/libsinsp/sinsp_filter_transformers/sinsp_filter_transformer.h
+* /usr/include/sysdig/libsinsp/sinsp_filter_transformers/sinsp_filter_transformer_base64.h
+* /usr/include/sysdig/libsinsp/sinsp_filter_transformers/sinsp_filter_transformer_basename.h
+* /usr/include/sysdig/libsinsp/sinsp_filter_transformers/sinsp_filter_transformer_len.h
+* /usr/include/sysdig/libsinsp/sinsp_filter_transformers/sinsp_filter_transformer_storage.h
+* /usr/include/sysdig/libsinsp/sinsp_filter_transformers/sinsp_filter_transformer_tolower.h
+* /usr/include/sysdig/libsinsp/sinsp_filter_transformers/sinsp_filter_transformer_toupper.h
 * /usr/include/sysdig/libsinsp/sinsp_inet.h
 * /usr/include/sysdig/libsinsp/sinsp_int.h
 * /usr/include/sysdig/libsinsp/sinsp_observer.h
@@ -242,9 +266,9 @@ Open source system-level exploration and troubleshooting tool
 * /usr/lib/pkgconfig/libscap.pc
 * /usr/lib/pkgconfig/libsinsp.pc
 * /usr/share/bash-completion/completions/sysdig
-* /usr/share/doc/sysdig-0.39.0/COPYING
-* /usr/share/doc/sysdig-0.39.0/LICENSE
-* /usr/share/doc/sysdig-0.39.0/README.md
+* /usr/share/doc/sysdig-0.40.0/COPYING
+* /usr/share/doc/sysdig-0.40.0/LICENSE
+* /usr/share/doc/sysdig-0.40.0/README.md
 * /usr/share/man/man8/csysdig.8.gz
 * /usr/share/man/man8/sysdig.8.gz
 * /usr/share/sysdig/chisels/ansiterminal.lua
@@ -352,6 +376,10 @@ Open source system-level exploration and troubleshooting tool
 * /usr/src/scap-0.0.0-local/bpf/configure/RSS_STAT_ARRAY/Makefile
 * /usr/src/scap-0.0.0-local/bpf/configure/RSS_STAT_ARRAY/Makefile.inc
 * /usr/src/scap-0.0.0-local/bpf/configure/RSS_STAT_ARRAY/test.c
+* /usr/src/scap-0.0.0-local/bpf/configure/TASK_PIDS_FIELD/build.sh
+* /usr/src/scap-0.0.0-local/bpf/configure/TASK_PIDS_FIELD/Makefile
+* /usr/src/scap-0.0.0-local/bpf/configure/TASK_PIDS_FIELD/Makefile.inc
+* /usr/src/scap-0.0.0-local/bpf/configure/TASK_PIDS_FIELD/test.c
 * /usr/src/scap-0.0.0-local/bpf/driver_config.h
 * /usr/src/scap-0.0.0-local/bpf/event_stats.h
 * /usr/src/scap-0.0.0-local/bpf/feature_gates.h
