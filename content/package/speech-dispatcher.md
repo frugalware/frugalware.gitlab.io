@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "speech-dispatcher 0.11.5-4"
-version = "0.11.5-4"
+title = "speech-dispatcher 0.12.0-1"
+version = "0.12.0-1"
 description = "speech-dispatcher speech synthesis interface"
-date = "2024-11-03T12:21:44"
+date = "2025-02-24T13:14:19"
 aliases = "/packages/119250"
 categories = ['xapps']
 upstreamurl = "https://devel.freebsoft.org/speechd"
 arch = "x86_64"
-size = "3950396"
-usize = "27824272"
-sha1sum = "5402f2531bf440b0ea171f8ff3173a10a9dcdfe8"
+size = "4116928"
+usize = "29479785"
+sha1sum = "ddaf5985bcfc01ee59b6154d2cbb25e8b1ecedf4"
 depends = "['dotconf', 'libao', 'libpulse>=9.0-2', 'libsndfile', 'libsystemd', 'python3>=3.13']"
 reverse_depends = "['chromium-browser', 'mumble', 'qt5-speech', 'qt6-speech']"
 +++
@@ -32,6 +32,7 @@ speech-dispatcher speech synthesis interface
 * /etc/speech-dispatcher/modules/llia_phon-generic.conf
 * /etc/speech-dispatcher/modules/mary-generic.conf
 * /etc/speech-dispatcher/modules/mimic3-generic.conf
+* /etc/speech-dispatcher/modules/openjtalk.conf
 * /etc/speech-dispatcher/modules/swift-generic.conf
 * /etc/speech-dispatcher/speechd.conf
 * /usr/bin/spd-conf
@@ -41,36 +42,48 @@ speech-dispatcher speech synthesis interface
 * /usr/include/speech-dispatcher/libspeechd.h
 * /usr/include/speech-dispatcher/libspeechd_version.h
 * /usr/include/speech-dispatcher/spd_audio_plugin.h
+* /usr/include/speech-dispatcher/spd_module_main.h
 * /usr/include/speech-dispatcher/speechd_defines.h
 * /usr/include/speech-dispatcher/speechd_types.h
 * /usr/lib/libspeechd.so
 * /usr/lib/libspeechd.so.2
 * /usr/lib/libspeechd.so.2.6.0
+* /usr/lib/libspeechd_module.so
+* /usr/lib/libspeechd_module.so.0
+* /usr/lib/libspeechd_module.so.0.0.0
 * /usr/lib/pkgconfig/speech-dispatcher.pc
 * /usr/lib/python3.13/site-packages/speechd/client.py
 * /usr/lib/python3.13/site-packages/speechd/paths.py
 * /usr/lib/python3.13/site-packages/speechd/_test.py
 * /usr/lib/python3.13/site-packages/speechd/__init__.py
 * /usr/lib/python3.13/site-packages/speechd/__pycache__/client.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/speechd/__pycache__/client.cpython-313.opt-2.pyc
 * /usr/lib/python3.13/site-packages/speechd/__pycache__/client.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/speechd/__pycache__/paths.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/speechd/__pycache__/paths.cpython-313.opt-2.pyc
 * /usr/lib/python3.13/site-packages/speechd/__pycache__/paths.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/speechd/__pycache__/_test.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/speechd/__pycache__/_test.cpython-313.opt-2.pyc
 * /usr/lib/python3.13/site-packages/speechd/__pycache__/_test.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/speechd/__pycache__/__init__.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/speechd/__pycache__/__init__.cpython-313.opt-2.pyc
 * /usr/lib/python3.13/site-packages/speechd/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/speechd_config/buildconfig.py
 * /usr/lib/python3.13/site-packages/speechd_config/config.py
 * /usr/lib/python3.13/site-packages/speechd_config/__init__.py
 * /usr/lib/python3.13/site-packages/speechd_config/__pycache__/buildconfig.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/speechd_config/__pycache__/buildconfig.cpython-313.opt-2.pyc
 * /usr/lib/python3.13/site-packages/speechd_config/__pycache__/buildconfig.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/speechd_config/__pycache__/config.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/speechd_config/__pycache__/config.cpython-313.opt-2.pyc
 * /usr/lib/python3.13/site-packages/speechd_config/__pycache__/config.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/speechd_config/__pycache__/__init__.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/speechd_config/__pycache__/__init__.cpython-313.opt-2.pyc
 * /usr/lib/python3.13/site-packages/speechd_config/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/speech-dispatcher/spd_alsa.so
 * /usr/lib/speech-dispatcher/spd_libao.so
 * /usr/lib/speech-dispatcher/spd_oss.so
+* /usr/lib/speech-dispatcher/spd_pipewire.so
 * /usr/lib/speech-dispatcher/spd_pulse.so
 * /usr/lib/speech-dispatcher/speech-dispatcher-modules/sd_cicero
 * /usr/lib/speech-dispatcher/speech-dispatcher-modules/sd_dummy
@@ -78,22 +91,25 @@ speech-dispatcher speech synthesis interface
 * /usr/lib/speech-dispatcher/speech-dispatcher-modules/sd_espeak-ng-mbrola
 * /usr/lib/speech-dispatcher/speech-dispatcher-modules/sd_festival
 * /usr/lib/speech-dispatcher/speech-dispatcher-modules/sd_generic
+* /usr/lib/speech-dispatcher/speech-dispatcher-modules/sd_openjtalk
 * /usr/lib/systemd/system/speech-dispatcherd.service
-* /usr/share/doc/speech-dispatcher-0.11.5/ANNOUNCE
-* /usr/share/doc/speech-dispatcher-0.11.5/AUTHORS
-* /usr/share/doc/speech-dispatcher-0.11.5/BUGS
-* /usr/share/doc/speech-dispatcher-0.11.5/COPYING.GPL-2
-* /usr/share/doc/speech-dispatcher-0.11.5/COPYING.GPL-3
-* /usr/share/doc/speech-dispatcher-0.11.5/COPYING.LGPL
-* /usr/share/doc/speech-dispatcher-0.11.5/FAQ
-* /usr/share/doc/speech-dispatcher-0.11.5/INSTALL
-* /usr/share/doc/speech-dispatcher-0.11.5/NEWS
-* /usr/share/doc/speech-dispatcher-0.11.5/README.md
-* /usr/share/doc/speech-dispatcher-0.11.5/README.overview.md
-* /usr/share/doc/speech-dispatcher-0.11.5/README.packagers
-* /usr/share/doc/speech-dispatcher-0.11.5/README.style.md
-* /usr/share/doc/speech-dispatcher-0.11.5/README.translators
-* /usr/share/doc/speech-dispatcher-0.11.5/TODO
+* /usr/lib/systemd/user/speech-dispatcher.service
+* /usr/lib/systemd/user/speech-dispatcher.socket
+* /usr/share/doc/speech-dispatcher-0.12.0/ANNOUNCE
+* /usr/share/doc/speech-dispatcher-0.12.0/AUTHORS
+* /usr/share/doc/speech-dispatcher-0.12.0/BUGS
+* /usr/share/doc/speech-dispatcher-0.12.0/COPYING.GPL-2
+* /usr/share/doc/speech-dispatcher-0.12.0/COPYING.GPL-3
+* /usr/share/doc/speech-dispatcher-0.12.0/COPYING.LGPL
+* /usr/share/doc/speech-dispatcher-0.12.0/FAQ
+* /usr/share/doc/speech-dispatcher-0.12.0/INSTALL
+* /usr/share/doc/speech-dispatcher-0.12.0/NEWS
+* /usr/share/doc/speech-dispatcher-0.12.0/README.md
+* /usr/share/doc/speech-dispatcher-0.12.0/README.overview.md
+* /usr/share/doc/speech-dispatcher-0.12.0/README.packagers
+* /usr/share/doc/speech-dispatcher-0.12.0/README.style.md
+* /usr/share/doc/speech-dispatcher-0.12.0/README.translators
+* /usr/share/doc/speech-dispatcher-0.12.0/TODO
 * /usr/share/info/spd-say.info.gz
 * /usr/share/info/speech-dispatcher-cs.info.gz
 * /usr/share/info/speech-dispatcher.info.gz
@@ -103,10 +119,13 @@ speech-dispatcher speech synthesis interface
 * /usr/share/locale/eo/LC_MESSAGES/speech-dispatcher.mo
 * /usr/share/locale/fr/LC_MESSAGES/speech-dispatcher.mo
 * /usr/share/locale/hu/LC_MESSAGES/speech-dispatcher.mo
+* /usr/share/locale/ka/LC_MESSAGES/speech-dispatcher.mo
 * /usr/share/locale/nb_NO/LC_MESSAGES/speech-dispatcher.mo
 * /usr/share/locale/pt/LC_MESSAGES/speech-dispatcher.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/speech-dispatcher.mo
 * /usr/share/locale/ru/LC_MESSAGES/speech-dispatcher.mo
+* /usr/share/locale/sv/LC_MESSAGES/speech-dispatcher.mo
+* /usr/share/locale/tr/LC_MESSAGES/speech-dispatcher.mo
 * /usr/share/sounds/speech-dispatcher/dummy-message.wav
 * /usr/share/sounds/speech-dispatcher/test.wav
 * /usr/share/speech-dispatcher/conf/clients/emacs.conf
@@ -135,10 +154,11 @@ speech-dispatcher speech synthesis interface
 * /usr/share/speech-dispatcher/locale/base/font-variants.dic
 * /usr/share/speech-dispatcher/locale/base/orca-chars.dic
 * /usr/share/speech-dispatcher/locale/base/orca.dic
-* /usr/share/speech-dispatcher/locale/base/symbols.dic
+* /usr/share/speech-dispatcher/locale/base/symbols-fallback.dic
 * /usr/share/speech-dispatcher/locale/be/emojis.dic
 * /usr/share/speech-dispatcher/locale/be/orca-chars.dic
 * /usr/share/speech-dispatcher/locale/be/orca.dic
+* /usr/share/speech-dispatcher/locale/bew/emojis.dic
 * /usr/share/speech-dispatcher/locale/bg/emojis.dic
 * /usr/share/speech-dispatcher/locale/bg/orca-chars.dic
 * /usr/share/speech-dispatcher/locale/bg/orca.dic
@@ -169,6 +189,7 @@ speech-dispatcher speech synthesis interface
 * /usr/share/speech-dispatcher/locale/cs/orca-chars.dic
 * /usr/share/speech-dispatcher/locale/cs/orca.dic
 * /usr/share/speech-dispatcher/locale/cs/symbols.dic
+* /usr/share/speech-dispatcher/locale/cv/emojis.dic
 * /usr/share/speech-dispatcher/locale/cy/emojis.dic
 * /usr/share/speech-dispatcher/locale/da/emojis.dic
 * /usr/share/speech-dispatcher/locale/da/orca-chars.dic
@@ -368,6 +389,7 @@ speech-dispatcher speech synthesis interface
 * /usr/share/speech-dispatcher/locale/pt_PT/symbols.dic
 * /usr/share/speech-dispatcher/locale/qu/emojis.dic
 * /usr/share/speech-dispatcher/locale/quc/emojis.dic
+* /usr/share/speech-dispatcher/locale/rhg/emojis.dic
 * /usr/share/speech-dispatcher/locale/rm/emojis.dic
 * /usr/share/speech-dispatcher/locale/ro/emojis.dic
 * /usr/share/speech-dispatcher/locale/ro/orca-chars.dic
@@ -411,6 +433,7 @@ speech-dispatcher speech synthesis interface
 * /usr/share/speech-dispatcher/locale/sw_KE/emojis.dic
 * /usr/share/speech-dispatcher/locale/ta/emojis.dic
 * /usr/share/speech-dispatcher/locale/ta/orca-chars.dic
+* /usr/share/speech-dispatcher/locale/ta/orca.dic
 * /usr/share/speech-dispatcher/locale/ta/symbols.dic
 * /usr/share/speech-dispatcher/locale/te/emojis.dic
 * /usr/share/speech-dispatcher/locale/te/orca-chars.dic

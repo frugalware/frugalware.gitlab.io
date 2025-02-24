@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "usbredir 0.14.0-1"
-version = "0.14.0-1"
+title = "usbredir 0.15.0-1"
+version = "0.15.0-1"
 description = "USB network redirection protocol libraries"
-date = "2024-11-14T12:59:13"
+date = "2025-02-24T13:24:03"
 aliases = "/packages/153054"
 categories = ['lib-extra']
 upstreamurl = "https://www.spice-space.org/usbredir.html"
 arch = "x86_64"
-size = "51444"
-usize = "178200"
-sha1sum = "0d8d46a52f475ea88f1cd3cef54888e3803933fb"
+size = "51432"
+usize = "178216"
+sha1sum = "279f0e19e0f16a1b1e4a69401b34cca00be5824e"
 depends = "['libusb1']"
 reverse_depends = "['qemu', 'spice-glib']"
 +++
@@ -31,8 +31,8 @@ USB network redirection protocol libraries
 * /usr/lib/libusbredirparser.so.1.2.1
 * /usr/lib/pkgconfig/libusbredirhost.pc
 * /usr/lib/pkgconfig/libusbredirparser-0.5.pc
-* /usr/share/doc/usbredir-0.14.0/COPYING
-* /usr/share/doc/usbredir-0.14.0/COPYING.LIB
-* /usr/share/doc/usbredir-0.14.0/README.md
-* /usr/share/doc/usbredir-0.14.0/TODO
+* /usr/share/doc/usbredir-0.15.0/COPYING
+* /usr/share/doc/usbredir-0.15.0/COPYING.LIB
+* /usr/share/doc/usbredir-0.15.0/README.md
+* /usr/share/doc/usbredir-0.15.0/TODO
 * /usr/share/man/man1/usbredirect.1.gz

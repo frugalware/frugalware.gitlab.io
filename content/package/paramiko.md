@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "paramiko 3.5.0-1"
-version = "3.5.0-1"
+title = "paramiko 3.5.1-1"
+version = "3.5.1-1"
 description = "SSH2 protocol for python."
-date = "2025-01-03T20:54:19"
+date = "2025-02-24T14:14:18"
 aliases = "/packages/10790"
 categories = ['lib-extra']
 upstreamurl = "http://www.paramiko.org/"
 arch = "x86_64"
-size = "337092"
-usize = "1626425"
-sha1sum = "e65cba7ef7b64ea602c9356da4616546cbec5562"
+size = "337356"
+usize = "1627379"
+sha1sum = "0f53587c3c865d0d8777e983a3321469542a1062"
 depends = "['python3-cryptography>=2.1.4', 'python3-pyasn1>=0.4.2']"
 reverse_depends = "['python3-dulwich']"
 +++
@@ -18,11 +18,11 @@ reverse_depends = "['python3-dulwich']"
 SSH2 protocol for python.
 
 ### Files: 
-* /usr/lib/python3.13/site-packages/paramiko-3.5.0-py3.13.egg-info/dependency_links.txt
-* /usr/lib/python3.13/site-packages/paramiko-3.5.0-py3.13.egg-info/PKG-INFO
-* /usr/lib/python3.13/site-packages/paramiko-3.5.0-py3.13.egg-info/requires.txt
-* /usr/lib/python3.13/site-packages/paramiko-3.5.0-py3.13.egg-info/SOURCES.txt
-* /usr/lib/python3.13/site-packages/paramiko-3.5.0-py3.13.egg-info/top_level.txt
+* /usr/lib/python3.13/site-packages/paramiko-3.5.1-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/paramiko-3.5.1-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/paramiko-3.5.1-py3.13.egg-info/requires.txt
+* /usr/lib/python3.13/site-packages/paramiko-3.5.1-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/paramiko-3.5.1-py3.13.egg-info/top_level.txt
 * /usr/lib/python3.13/site-packages/paramiko/agent.py
 * /usr/lib/python3.13/site-packages/paramiko/auth_handler.py
 * /usr/lib/python3.13/site-packages/paramiko/auth_strategy.py
@@ -115,6 +115,6 @@ SSH2 protocol for python.
 * /usr/lib/python3.13/site-packages/paramiko/__pycache__/_version.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/paramiko/__pycache__/_winapi.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/paramiko/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/paramiko-3.5.0/LICENSE
-* /usr/share/doc/paramiko-3.5.0/README.rst
-* /usr/share/doc/paramiko-3.5.0/TODO
+* /usr/share/doc/paramiko-3.5.1/LICENSE
+* /usr/share/doc/paramiko-3.5.1/README.rst
+* /usr/share/doc/paramiko-3.5.1/TODO

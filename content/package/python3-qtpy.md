@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-qtpy 2.4.2-1"
-version = "2.4.2-1"
+title = "python3-qtpy 2.4.3-1"
+version = "2.4.3-1"
 description = "Provides an uniform layer to support PyQt5 and PySide2 with a single codebase"
-date = "2024-12-24T12:54:06"
+date = "2025-02-24T13:26:39"
 aliases = "/packages/222546"
 categories = ['xlib-extra']
 upstreamurl = "https://github.com/spyder-ide/qtpy"
 arch = "x86_64"
-size = "110568"
-usize = "718206"
-sha1sum = "6fbc65ba4a0a3447d03d92946a0a057d01535349"
+size = "110284"
+usize = "715732"
+sha1sum = "02679bf53f1d4d2ed82a093a4cea51ed6e3ee0cc"
 depends = "['python3-packaging']"
 reverse_depends = "['git-cola']"
 +++
@@ -19,13 +19,13 @@ Provides an uniform layer to support PyQt5 and PySide2 with a single codebase
 
 ### Files: 
 * /usr/bin/qtpy
-* /usr/lib/python3.13/site-packages/QtPy-2.4.2.dist-info/AUTHORS.md
-* /usr/lib/python3.13/site-packages/QtPy-2.4.2.dist-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/QtPy-2.4.2.dist-info/LICENSE.txt
-* /usr/lib/python3.13/site-packages/QtPy-2.4.2.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/QtPy-2.4.2.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/QtPy-2.4.2.dist-info/top_level.txt
-* /usr/lib/python3.13/site-packages/QtPy-2.4.2.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/QtPy-2.4.3.dist-info/AUTHORS.md
+* /usr/lib/python3.13/site-packages/QtPy-2.4.3.dist-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/QtPy-2.4.3.dist-info/LICENSE.txt
+* /usr/lib/python3.13/site-packages/QtPy-2.4.3.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/QtPy-2.4.3.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/QtPy-2.4.3.dist-info/top_level.txt
+* /usr/lib/python3.13/site-packages/QtPy-2.4.3.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/qtpy/cli.py
 * /usr/lib/python3.13/site-packages/qtpy/compat.py
 * /usr/lib/python3.13/site-packages/qtpy/enums_compat.py
@@ -440,5 +440,5 @@ Provides an uniform layer to support PyQt5 and PySide2 with a single codebase
 * /usr/lib/python3.13/site-packages/qtpy/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/qtpy/__pycache__/__main__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/qtpy/__pycache__/__main__.cpython-313.pyc
-* /usr/share/doc/python3-qtpy-2.4.2/README.md
-* /usr/share/doc/python3-qtpy-2.4.2/RELEASE.md
+* /usr/share/doc/python3-qtpy-2.4.3/README.md
+* /usr/share/doc/python3-qtpy-2.4.3/RELEASE.md

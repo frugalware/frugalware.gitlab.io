@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ncmpc 0.51-1"
-version = "0.51-1"
+title = "ncmpc 0.52-1"
+version = "0.52-1"
 description = "ncmpc is a ncurses based music manager for mpd"
-date = "2025-01-07T19:53:55"
+date = "2025-02-24T13:23:20"
 aliases = "/packages/23441"
 categories = ['multimedia-extra']
 upstreamurl = "http://www.musicpd.org"
 arch = "x86_64"
-size = "216372"
-usize = "807538"
-sha1sum = "931fd54b979b98bf8715008913ff73397ffece85"
+size = "219900"
+usize = "838577"
+sha1sum = "bab0abdb5ad369a9aeba573ed62f915b8b7e1c7e"
 depends = "['libboost>=1.72.0', 'libmpdclient', 'ncurses>=6.0-12']"
 license = "GPL2"
 +++
@@ -19,10 +19,10 @@ ncmpc is a ncurses based music manager for mpd
 
 ### Files: 
 * /usr/bin/ncmpc
-* /usr/share/doc/ncmpc-0.51/AUTHORS
-* /usr/share/doc/ncmpc-0.51/COPYING
-* /usr/share/doc/ncmpc-0.51/NEWS
-* /usr/share/doc/ncmpc-0.51/README.rst
+* /usr/share/doc/ncmpc-0.52/AUTHORS
+* /usr/share/doc/ncmpc-0.52/COPYING
+* /usr/share/doc/ncmpc-0.52/NEWS
+* /usr/share/doc/ncmpc-0.52/README.rst
 * /usr/share/doc/ncmpc/AUTHORS
 * /usr/share/doc/ncmpc/config.sample
 * /usr/share/doc/ncmpc/COPYING
@@ -55,5 +55,6 @@ ncmpc is a ncurses based music manager for mpd
 * /usr/share/locale/ru/LC_MESSAGES/ncmpc.mo
 * /usr/share/locale/sk/LC_MESSAGES/ncmpc.mo
 * /usr/share/locale/sv/LC_MESSAGES/ncmpc.mo
+* /usr/share/locale/ta/LC_MESSAGES/ncmpc.mo
 * /usr/share/locale/uk/LC_MESSAGES/ncmpc.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/ncmpc.mo
