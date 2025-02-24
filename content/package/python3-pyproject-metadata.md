@@ -12,7 +12,7 @@ size = "17108"
 usize = "81848"
 sha1sum = "bd5b19895f1c19483b0841e3f4a26e0cd3a1e788"
 depends = "['python3-packaging']"
-reverse_depends = "['meson-python']"
+reverse_depends = "['meson-python', 'python3-pdm-backend']"
 +++
 ### Description: 
 PEP 621 metadata parsing

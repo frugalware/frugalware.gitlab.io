@@ -12,7 +12,7 @@ size = "126336"
 usize = "719906"
 sha1sum = "bb3f88561286b2651b5ddc6c79d5e21506a85ca5"
 depends = "['python3-mdurl']"
-reverse_depends = "['python3-mdit_py_plugins']"
+reverse_depends = "['python3-mdit_py_plugins', 'python3-rich']"
 +++
 ### Description: 
 Python port of markdown-it. Markdown parsing, done right!

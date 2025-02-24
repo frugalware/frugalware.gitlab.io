@@ -12,7 +12,7 @@ size = "197604"
 usize = "1244078"
 sha1sum = "a08af614a2018c17f131aecdd2b5a1c1a271d0d0"
 depends = "['python3']"
-reverse_depends = "['face_recognition', 'howdy', 'python3-userpath']"
+reverse_depends = "['face_recognition', 'howdy', 'python3-typer', 'python3-userpath']"
 +++
 ### Description: 
 Simple wrapper around optparse for powerful command line utilities

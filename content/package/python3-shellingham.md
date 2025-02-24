@@ -12,7 +12,7 @@ size = "15524"
 usize = "60272"
 sha1sum = "41b70e4596f40ef72cf52cd2e15450ef740593fc"
 depends = "['python3']"
-reverse_depends = "['python3-poetry']"
+reverse_depends = "['python3-poetry', 'python3-typer']"
 +++
 ### Description: 
 Detect what shell the current Python executable is running in

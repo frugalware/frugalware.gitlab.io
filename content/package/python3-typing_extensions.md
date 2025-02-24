@@ -12,7 +12,7 @@ size = "72336"
 usize = "442332"
 sha1sum = "addd3ca3bb980b37969a7b65a03ddb68e7a2c604"
 depends = "['python3>=3.13']"
-reverse_depends = "['python3-async-timeout', 'python3-cleo', 'python3-jsonschema', 'python3-lark-parser', 'python3-platformdirs', 'python3-pydantic-core', 'python3-selenium', 'python3-setuptools-rust', 'python3-setuptools_scm', 'python3-twisted']"
+reverse_depends = "['python3-async-timeout', 'python3-cleo', 'python3-jsonschema', 'python3-lark-parser', 'python3-platformdirs', 'python3-pydantic-core', 'python3-selenium', 'python3-setuptools-rust', 'python3-setuptools_scm', 'python3-twisted', 'python3-typer']"
 +++
 ### Description: 
 Backported and Experimental Type Hints for Python 3.5+
