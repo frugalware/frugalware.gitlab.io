@@ -12,6 +12,7 @@ size = "368152"
 usize = "1372590"
 sha1sum = "cf0c2488f1da7cdc87f1f4099331c257904cdf5c"
 depends = "['fb303']"
+reverse_depends = "['watchman']"
 +++
 ### Description: 
 Shared library for Watchman and Eden projects
