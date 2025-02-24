@@ -12,6 +12,7 @@ size = "2262548"
 usize = "9497165"
 sha1sum = "f9148b5c6573ba638392bf68e94757e892fc8d9e"
 depends = "['edencommon']"
+reverse_depends = "['rs-git-fsmonitor']"
 +++
 ### Description: 
 Watches files and records, or triggers actions, when they change

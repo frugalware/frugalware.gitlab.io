@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "boost 1.87.0-2"
-version = "1.87.0-2"
+title = "boost 1.87.0-3"
+version = "1.87.0-3"
 description = "Boost header files, examples and tools"
-date = "2025-01-22T10:20:33"
+date = "2025-02-24T12:41:49"
 aliases = "/packages/3533"
 categories = ['devel-extra']
 upstreamurl = "http://boost.org/"
 arch = "x86_64"
-size = "10795848"
-usize = "150488671"
-sha1sum = "d62457c7a3b4c38fadb6829c528850c81db86d53"
+size = "10795312"
+usize = "150488675"
+sha1sum = "5afdc47ebaa5cb3d5da7c90f200bfb5dd419a047"
 depends = "[]"
 reverse_depends = "['python3-pythran']"
 +++
