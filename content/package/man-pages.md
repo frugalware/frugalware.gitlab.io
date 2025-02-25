@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "man-pages 6.11-1"
-version = "6.11-1"
+title = "man-pages 6.12-1"
+version = "6.12-1"
 description = "Man pages are online documentation for Linux"
-date = "2025-02-15T14:07:40"
+date = "2025-02-25T13:09:36"
 aliases = "/packages/3222"
 categories = ['apps']
 upstreamurl = "http://www.kernel.org/doc/man-pages/index.html"
 arch = "x86_64"
-size = "5742412"
-usize = "5773759"
-sha1sum = "4a58d6a8436938035d53bc141e555a5f1f061e38"
+size = "5747312"
+usize = "5779106"
+sha1sum = "6909c035d238f8026b690ff8310510a9690d6925"
 depends = "[]"
 +++
 ### Description: 
@@ -21,10 +21,10 @@ Man pages are online documentation for Linux
 * /usr/bin/mansect
 * /usr/bin/pdfman
 * /usr/bin/sortman
-* /usr/share/doc/man-pages-6.11/INSTALL
-* /usr/share/doc/man-pages-6.11/POSIX-COPYRIGHT
-* /usr/share/doc/man-pages-6.11/README
-* /usr/share/doc/man-pages-6.11/RELEASE
+* /usr/share/doc/man-pages-6.12/INSTALL
+* /usr/share/doc/man-pages-6.12/POSIX-COPYRIGHT
+* /usr/share/doc/man-pages-6.12/README
+* /usr/share/doc/man-pages-6.12/RELEASE
 * /usr/share/man/man0p/aio.h.0p.gz
 * /usr/share/man/man0p/arpa_inet.h.0p.gz
 * /usr/share/man/man0p/assert.h.0p.gz

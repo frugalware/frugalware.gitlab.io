@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "wxpython 4.2.2-1"
-version = "4.2.2-1"
+title = "wxpython 4.2.2-2"
+version = "4.2.2-2"
 description = "wxPython GUI toolkit"
-date = "2025-02-25T09:45:22"
+date = "2025-02-25T12:40:30"
 aliases = "/packages/222657"
 categories = ['xlib-extra']
 upstreamurl = "https://www.wxpython.org/"
 arch = "x86_64"
-size = "15067136"
-usize = "76948147"
-sha1sum = "8efe3b7ce2a4269a1a90980be0d6024d19b33f31"
-depends = "['python3-six', 'wxwidgets>=3.0.0-2']"
+size = "9795440"
+usize = "56688396"
+sha1sum = "7cea0f744fdb740ddb8564805d44567ab68eb5c1"
+depends = "['python3-numpy', 'python3-pillow', 'python3-six', 'wxwidgets>=3.0.0-2']"
 +++
 ### Description: 
 wxPython GUI toolkit
@@ -594,51 +594,6 @@ wxPython GUI toolkit
 * /usr/lib/python3.13/site-packages/wx/lib/__pycache__/wordwrap.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/wx/lib/__pycache__/wxpTag.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/wx/lib/__pycache__/__init__.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/wx/libwx_baseu-3.2.so
-* /usr/lib/python3.13/site-packages/wx/libwx_baseu-3.2.so.0
-* /usr/lib/python3.13/site-packages/wx/libwx_baseu-3.2.so.0.3.0
-* /usr/lib/python3.13/site-packages/wx/libwx_baseu_net-3.2.so
-* /usr/lib/python3.13/site-packages/wx/libwx_baseu_net-3.2.so.0
-* /usr/lib/python3.13/site-packages/wx/libwx_baseu_net-3.2.so.0.3.0
-* /usr/lib/python3.13/site-packages/wx/libwx_baseu_xml-3.2.so
-* /usr/lib/python3.13/site-packages/wx/libwx_baseu_xml-3.2.so.0
-* /usr/lib/python3.13/site-packages/wx/libwx_baseu_xml-3.2.so.0.3.0
-* /usr/lib/python3.13/site-packages/wx/libwx_gtk3u_adv-3.2.so
-* /usr/lib/python3.13/site-packages/wx/libwx_gtk3u_adv-3.2.so.0
-* /usr/lib/python3.13/site-packages/wx/libwx_gtk3u_adv-3.2.so.0.3.0
-* /usr/lib/python3.13/site-packages/wx/libwx_gtk3u_aui-3.2.so
-* /usr/lib/python3.13/site-packages/wx/libwx_gtk3u_aui-3.2.so.0
-* /usr/lib/python3.13/site-packages/wx/libwx_gtk3u_aui-3.2.so.0.3.0
-* /usr/lib/python3.13/site-packages/wx/libwx_gtk3u_core-3.2.so
-* /usr/lib/python3.13/site-packages/wx/libwx_gtk3u_core-3.2.so.0
-* /usr/lib/python3.13/site-packages/wx/libwx_gtk3u_core-3.2.so.0.3.0
-* /usr/lib/python3.13/site-packages/wx/libwx_gtk3u_gl-3.2.so
-* /usr/lib/python3.13/site-packages/wx/libwx_gtk3u_gl-3.2.so.0
-* /usr/lib/python3.13/site-packages/wx/libwx_gtk3u_gl-3.2.so.0.3.0
-* /usr/lib/python3.13/site-packages/wx/libwx_gtk3u_html-3.2.so
-* /usr/lib/python3.13/site-packages/wx/libwx_gtk3u_html-3.2.so.0
-* /usr/lib/python3.13/site-packages/wx/libwx_gtk3u_html-3.2.so.0.3.0
-* /usr/lib/python3.13/site-packages/wx/libwx_gtk3u_media-3.2.so
-* /usr/lib/python3.13/site-packages/wx/libwx_gtk3u_media-3.2.so.0
-* /usr/lib/python3.13/site-packages/wx/libwx_gtk3u_media-3.2.so.0.3.0
-* /usr/lib/python3.13/site-packages/wx/libwx_gtk3u_propgrid-3.2.so
-* /usr/lib/python3.13/site-packages/wx/libwx_gtk3u_propgrid-3.2.so.0
-* /usr/lib/python3.13/site-packages/wx/libwx_gtk3u_propgrid-3.2.so.0.3.0
-* /usr/lib/python3.13/site-packages/wx/libwx_gtk3u_ribbon-3.2.so
-* /usr/lib/python3.13/site-packages/wx/libwx_gtk3u_ribbon-3.2.so.0
-* /usr/lib/python3.13/site-packages/wx/libwx_gtk3u_ribbon-3.2.so.0.3.0
-* /usr/lib/python3.13/site-packages/wx/libwx_gtk3u_richtext-3.2.so
-* /usr/lib/python3.13/site-packages/wx/libwx_gtk3u_richtext-3.2.so.0
-* /usr/lib/python3.13/site-packages/wx/libwx_gtk3u_richtext-3.2.so.0.3.0
-* /usr/lib/python3.13/site-packages/wx/libwx_gtk3u_stc-3.2.so
-* /usr/lib/python3.13/site-packages/wx/libwx_gtk3u_stc-3.2.so.0
-* /usr/lib/python3.13/site-packages/wx/libwx_gtk3u_stc-3.2.so.0.3.0
-* /usr/lib/python3.13/site-packages/wx/libwx_gtk3u_webview-3.2.so
-* /usr/lib/python3.13/site-packages/wx/libwx_gtk3u_webview-3.2.so.0
-* /usr/lib/python3.13/site-packages/wx/libwx_gtk3u_webview-3.2.so.0.3.0
-* /usr/lib/python3.13/site-packages/wx/libwx_gtk3u_xrc-3.2.so
-* /usr/lib/python3.13/site-packages/wx/libwx_gtk3u_xrc-3.2.so.0
-* /usr/lib/python3.13/site-packages/wx/libwx_gtk3u_xrc-3.2.so.0.3.0
 * /usr/lib/python3.13/site-packages/wx/locale/af/LC_MESSAGES/wxstd.mo
 * /usr/lib/python3.13/site-packages/wx/locale/an/LC_MESSAGES/wxstd.mo
 * /usr/lib/python3.13/site-packages/wx/locale/ar/LC_MESSAGES/wxstd.mo
@@ -847,8 +802,4 @@ wxPython GUI toolkit
 * /usr/lib/python3.13/site-packages/wxPython-4.2.2-py3.13.egg-info/requires.txt
 * /usr/lib/python3.13/site-packages/wxPython-4.2.2-py3.13.egg-info/SOURCES.txt
 * /usr/lib/python3.13/site-packages/wxPython-4.2.2-py3.13.egg-info/top_level.txt
-* /usr/share/doc/wxpython-4.2.2/INSTALL.txt
-* /usr/share/doc/wxpython-4.2.2/LICENSE
-* /usr/share/doc/wxpython-4.2.2/LICENSE.README
-* /usr/share/doc/wxpython-4.2.2/README.md
 * /usr/share/doc/wxpython-4.2.2/README.rst
