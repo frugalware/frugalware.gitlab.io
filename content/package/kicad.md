@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kicad 8.0.7-1"
-version = "8.0.7-1"
+title = "kicad 9.0.0-1"
+version = "9.0.0-1"
 description = "Electronic schematic and printed circuid board design tools."
-date = "2024-12-29T13:12:28"
+date = "2025-02-25T16:21:44"
 aliases = "/packages/200581"
 categories = ['xapps-extra']
 upstreamurl = "https://www.kicad.org"
 arch = "x86_64"
-size = "43944880"
-usize = "195926321"
-sha1sum = "5f31e9bdd6d9ec66f9f9b627d3030e342e66c98f"
-depends = "['glew>=2.2.0', 'glm', 'libboost>=1.79.0', 'libgit2>=1.9.0', 'ngspice', 'opencascade>=7.8.1', 'openssl>=1.1.1', 'python3>=3.13', 'wxwidgets>=3.2.2.1']"
+size = "45346596"
+usize = "196516142"
+sha1sum = "ddc94ceddd7c44f9e6775a472bc63a2f23108bd3"
+depends = "['glew>=2.2.0', 'glm', 'libboost>=1.79.0', 'libgit2>=1.9.0', 'ngspice', 'nng', 'opencascade>=7.9.0', 'openssl>=1.1.1', 'python3>=3.13', 'wxpython']"
 +++
 ### Description: 
 Electronic schematic and printed circuid board design tools.
@@ -39,12 +39,14 @@ Electronic schematic and printed circuid board design tools.
 * /usr/lib/kicad/plugins/3d/libs3d_plugin_idf.so
 * /usr/lib/kicad/plugins/3d/libs3d_plugin_oce.so
 * /usr/lib/kicad/plugins/3d/libs3d_plugin_vrml.so
+* /usr/lib/libkiapi.so
+* /usr/lib/libkiapi.so.9.0.0
 * /usr/lib/libkicad_3dsg.so
 * /usr/lib/libkicad_3dsg.so.2.0.0
 * /usr/lib/libkicommon.so
-* /usr/lib/libkicommon.so.8.0.7
+* /usr/lib/libkicommon.so.9.0.0
 * /usr/lib/libkigal.so
-* /usr/lib/libkigal.so.8.0.7
+* /usr/lib/libkigal.so.9.0.0
 * /usr/lib/python3.13/site-packages/pcbnew.py
 * /usr/lib/python3.13/site-packages/_pcbnew.so
 * /usr/share/applications/org.kicad.bitmap2component.desktop
@@ -53,10 +55,10 @@ Electronic schematic and printed circuid board design tools.
 * /usr/share/applications/org.kicad.kicad.desktop
 * /usr/share/applications/org.kicad.pcbcalculator.desktop
 * /usr/share/applications/org.kicad.pcbnew.desktop
-* /usr/share/doc/kicad-8.0.7/INSTALL.txt
-* /usr/share/doc/kicad-8.0.7/LICENSE
-* /usr/share/doc/kicad-8.0.7/LICENSE.README
-* /usr/share/doc/kicad-8.0.7/README.md
+* /usr/share/doc/kicad-9.0.0/INSTALL.txt
+* /usr/share/doc/kicad-9.0.0/LICENSE
+* /usr/share/doc/kicad-9.0.0/LICENSE.README
+* /usr/share/doc/kicad-9.0.0/README.md
 * /usr/share/icons/hicolor/128x128/apps/bitmap2component.png
 * /usr/share/icons/hicolor/128x128/apps/eeschema.png
 * /usr/share/icons/hicolor/128x128/apps/gerbview.png
@@ -175,24 +177,46 @@ Electronic schematic and printed circuid board design tools.
 * /usr/share/kicad/demos/complex_hierarchy/complex_hierarchy.kicad_pcb
 * /usr/share/kicad/demos/complex_hierarchy/complex_hierarchy.kicad_pro
 * /usr/share/kicad/demos/complex_hierarchy/complex_hierarchy.kicad_sch
-* /usr/share/kicad/demos/complex_hierarchy/complex_hierarchy_schlib.kicad_sym
+* /usr/share/kicad/demos/complex_hierarchy/complex_hierarchy.kicad_sym
+* /usr/share/kicad/demos/complex_hierarchy/complex_hierarchy.pretty/Altech_AK300_1x02_P5.00mm_45-Degree.kicad_mod
+* /usr/share/kicad/demos/complex_hierarchy/complex_hierarchy.pretty/CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal.kicad_mod
+* /usr/share/kicad/demos/complex_hierarchy/complex_hierarchy.pretty/CP_Axial_L11.0mm_D6.0mm_P18.00mm_Horizontal.kicad_mod
+* /usr/share/kicad/demos/complex_hierarchy/complex_hierarchy.pretty/C_Disc_D5.0mm_W2.5mm_P5.00mm.kicad_mod
+* /usr/share/kicad/demos/complex_hierarchy/complex_hierarchy.pretty/DIP-8_W7.62mm_LongPads.kicad_mod
+* /usr/share/kicad/demos/complex_hierarchy/complex_hierarchy.pretty/D_DO-35_SOD27_P7.62mm_Horizontal.kicad_mod
+* /usr/share/kicad/demos/complex_hierarchy/complex_hierarchy.pretty/D_DO-41_SOD81_P12.70mm_Horizontal.kicad_mod
+* /usr/share/kicad/demos/complex_hierarchy/complex_hierarchy.pretty/Potentiometer_Bourns_3266W_Vertical.kicad_mod
+* /usr/share/kicad/demos/complex_hierarchy/complex_hierarchy.pretty/R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal.kicad_mod
+* /usr/share/kicad/demos/complex_hierarchy/complex_hierarchy.pretty/TO-92_HandSolder.kicad_mod
 * /usr/share/kicad/demos/complex_hierarchy/fp-lib-table
 * /usr/share/kicad/demos/complex_hierarchy/sym-lib-table
 * /usr/share/kicad/demos/custom_pads_test/custom_pads_schlib.kicad_sym
 * /usr/share/kicad/demos/custom_pads_test/custom_pads_test.kicad_pcb
 * /usr/share/kicad/demos/custom_pads_test/custom_pads_test.kicad_pro
 * /usr/share/kicad/demos/custom_pads_test/custom_pads_test.kicad_sch
+* /usr/share/kicad/demos/custom_pads_test/custom_pads_test.kicad_sym
+* /usr/share/kicad/demos/custom_pads_test/custom_pads_test.pretty/1pin.kicad_mod
+* /usr/share/kicad/demos/custom_pads_test/custom_pads_test.pretty/C2.kicad_mod
+* /usr/share/kicad/demos/custom_pads_test/custom_pads_test.pretty/DIP-14__300_ELL.kicad_mod
+* /usr/share/kicad/demos/custom_pads_test/custom_pads_test.pretty/DO-214AB.kicad_mod
+* /usr/share/kicad/demos/custom_pads_test/fp-lib-table
 * /usr/share/kicad/demos/custom_pads_test/sym-lib-table
 * /usr/share/kicad/demos/ecc83/3d_shapes/ecc83.wrl
 * /usr/share/kicad/demos/ecc83/ecc83-pp.kicad_pcb
 * /usr/share/kicad/demos/ecc83/ecc83-pp.kicad_pro
 * /usr/share/kicad/demos/ecc83/ecc83-pp.kicad_sch
+* /usr/share/kicad/demos/ecc83/ecc83-pp.kicad_sym
 * /usr/share/kicad/demos/ecc83/ecc83-pp_v2.kicad_pcb
 * /usr/share/kicad/demos/ecc83/ecc83-pp_v2.kicad_pro
 * /usr/share/kicad/demos/ecc83/ecc83-pp_v2.kicad_sch
-* /usr/share/kicad/demos/ecc83/ecc83_schlib.kicad_sym
 * /usr/share/kicad/demos/ecc83/footprints.pretty/Altech_AK300_1x02_P5.00mm_45-Degree.kicad_mod
+* /usr/share/kicad/demos/ecc83/footprints.pretty/CP_Radial_D10.0mm_P5.00mm.kicad_mod
+* /usr/share/kicad/demos/ecc83/footprints.pretty/CP_Radial_D12.5mm_P7.50mm.kicad_mod
+* /usr/share/kicad/demos/ecc83/footprints.pretty/C_Axial_L12.0mm_D6.5mm_P20.00mm_Horizontal.kicad_mod
+* /usr/share/kicad/demos/ecc83/footprints.pretty/C_Disc_D4.7mm_W2.5mm_P5.00mm.kicad_mod
 * /usr/share/kicad/demos/ecc83/footprints.pretty/MountingHole_3.2mm_M3_DIN965_Pad.kicad_mod
+* /usr/share/kicad/demos/ecc83/footprints.pretty/PinHeader_1x02_P2.54mm_Vertical.kicad_mod
+* /usr/share/kicad/demos/ecc83/footprints.pretty/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.kicad_mod
 * /usr/share/kicad/demos/ecc83/footprints.pretty/Valve_ECC-83-1.kicad_mod
 * /usr/share/kicad/demos/ecc83/footprints.pretty/Valve_ECC-83-2.kicad_mod
 * /usr/share/kicad/demos/ecc83/fp-lib-table
@@ -200,12 +224,25 @@ Electronic schematic and printed circuid board design tools.
 * /usr/share/kicad/demos/flat_hierarchy/flat_hierarchy.kicad_pcb
 * /usr/share/kicad/demos/flat_hierarchy/flat_hierarchy.kicad_pro
 * /usr/share/kicad/demos/flat_hierarchy/flat_hierarchy.kicad_sch
+* /usr/share/kicad/demos/flat_hierarchy/flat_hierarchy.kicad_sym
 * /usr/share/kicad/demos/flat_hierarchy/fp-lib-table
 * /usr/share/kicad/demos/flat_hierarchy/libs/3d_shapes/adjustable_rx2v4.wrl
-* /usr/share/kicad/demos/flat_hierarchy/libs/flat_hierarchy_schlib.kicad_sym
+* /usr/share/kicad/demos/flat_hierarchy/libs/pic_programmer_fp.pretty/Altech_AK300_1x02_P5.00mm_45-Degree.kicad_mod
+* /usr/share/kicad/demos/flat_hierarchy/libs/pic_programmer_fp.pretty/CP_Axial_L11.0mm_D6.0mm_P18.00mm_Horizontal.kicad_mod
+* /usr/share/kicad/demos/flat_hierarchy/libs/pic_programmer_fp.pretty/CP_Axial_L18.0mm_D6.5mm_P25.00mm_Horizontal.kicad_mod
+* /usr/share/kicad/demos/flat_hierarchy/libs/pic_programmer_fp.pretty/C_Disc_D5.1mm_W3.2mm_P5.00mm.kicad_mod
+* /usr/share/kicad/demos/flat_hierarchy/libs/pic_programmer_fp.pretty/DIP-14_W7.62mm_LongPads.kicad_mod
+* /usr/share/kicad/demos/flat_hierarchy/libs/pic_programmer_fp.pretty/DIP-18_W7.62mm_Socket_LongPads.kicad_mod
+* /usr/share/kicad/demos/flat_hierarchy/libs/pic_programmer_fp.pretty/DIP-28_W7.62mm_Socket_LongPads.kicad_mod
+* /usr/share/kicad/demos/flat_hierarchy/libs/pic_programmer_fp.pretty/DIP-40_W15.24mm_Socket_LongPads.kicad_mod
+* /usr/share/kicad/demos/flat_hierarchy/libs/pic_programmer_fp.pretty/DIP-8_W7.62mm_LongPads.kicad_mod
+* /usr/share/kicad/demos/flat_hierarchy/libs/pic_programmer_fp.pretty/DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm.kicad_mod
+* /usr/share/kicad/demos/flat_hierarchy/libs/pic_programmer_fp.pretty/D_DO-35_SOD27_P12.70mm_Horizontal.kicad_mod
 * /usr/share/kicad/demos/flat_hierarchy/libs/pic_programmer_fp.pretty/D_DO-35_SOD27_P7.62mm_Horizontal.kicad_mod
 * /usr/share/kicad/demos/flat_hierarchy/libs/pic_programmer_fp.pretty/INDUCTOR_V.kicad_mod
+* /usr/share/kicad/demos/flat_hierarchy/libs/pic_programmer_fp.pretty/LED_D5.0mm.kicad_mod
 * /usr/share/kicad/demos/flat_hierarchy/libs/pic_programmer_fp.pretty/MountingHole_4.3mm_M4_DIN965.kicad_mod
+* /usr/share/kicad/demos/flat_hierarchy/libs/pic_programmer_fp.pretty/PinHeader_1x02_P2.54mm_Vertical.kicad_mod
 * /usr/share/kicad/demos/flat_hierarchy/libs/pic_programmer_fp.pretty/RV2X4.kicad_mod
 * /usr/share/kicad/demos/flat_hierarchy/libs/pic_programmer_fp.pretty/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.kicad_mod
 * /usr/share/kicad/demos/flat_hierarchy/libs/pic_programmer_fp.pretty/TO-220-3_Horizontal_TabDown.kicad_mod
@@ -217,10 +254,21 @@ Electronic schematic and printed circuid board design tools.
 * /usr/share/kicad/demos/interf_u/interf_u.kicad_pcb
 * /usr/share/kicad/demos/interf_u/interf_u.kicad_pro
 * /usr/share/kicad/demos/interf_u/interf_u.kicad_sch
+* /usr/share/kicad/demos/interf_u/interf_u.kicad_sym
 * /usr/share/kicad/demos/interf_u/interf_u.pretty/BUS_PC.kicad_mod
+* /usr/share/kicad/demos/interf_u/interf_u.pretty/CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal.kicad_mod
+* /usr/share/kicad/demos/interf_u/interf_u.pretty/Crystal_HC18-U_Horizontal.kicad_mod
+* /usr/share/kicad/demos/interf_u/interf_u.pretty/C_Disc_D3.0mm_W2.0mm_P2.50mm.kicad_mod
+* /usr/share/kicad/demos/interf_u/interf_u.pretty/DIP-20_W7.62mm.kicad_mod
+* /usr/share/kicad/demos/interf_u/interf_u.pretty/DIP-24_W7.62mm.kicad_mod
+* /usr/share/kicad/demos/interf_u/interf_u.pretty/DIP-32_W15.24mm.kicad_mod
+* /usr/share/kicad/demos/interf_u/interf_u.pretty/DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm.kicad_mod
+* /usr/share/kicad/demos/interf_u/interf_u.pretty/LED_D5.0mm.kicad_mod
 * /usr/share/kicad/demos/interf_u/interf_u.pretty/PGA120.kicad_mod
+* /usr/share/kicad/demos/interf_u/interf_u.pretty/PinHeader_2x08_P2.54mm_Vertical.kicad_mod
+* /usr/share/kicad/demos/interf_u/interf_u.pretty/R_Array_SIP10.kicad_mod
+* /usr/share/kicad/demos/interf_u/interf_u.pretty/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.kicad_mod
 * /usr/share/kicad/demos/interf_u/interf_u.pretty/tux.kicad_mod
-* /usr/share/kicad/demos/interf_u/interf_u_schlib.kicad_sym
 * /usr/share/kicad/demos/interf_u/pagelayout_logo.kicad_wks
 * /usr/share/kicad/demos/interf_u/sym-lib-table
 * /usr/share/kicad/demos/interf_u/tux.bmp
@@ -231,15 +279,42 @@ Electronic schematic and printed circuid board design tools.
 * /usr/share/kicad/demos/kit-dev-coldfire-xilinx_5213/kit-dev-coldfire-xilinx_5213.kicad_pcb
 * /usr/share/kicad/demos/kit-dev-coldfire-xilinx_5213/kit-dev-coldfire-xilinx_5213.kicad_pro
 * /usr/share/kicad/demos/kit-dev-coldfire-xilinx_5213/kit-dev-coldfire-xilinx_5213.kicad_sch
+* /usr/share/kicad/demos/kit-dev-coldfire-xilinx_5213/kit-dev-coldfire-xilinx_5213.kicad_sym
+* /usr/share/kicad/demos/kit-dev-coldfire-xilinx_5213/kit-dev-coldfire.pretty/Altech_AK300_1x02_P5.00mm_45-Degree.kicad_mod
+* /usr/share/kicad/demos/kit-dev-coldfire-xilinx_5213/kit-dev-coldfire.pretty/CP_Radial_D8.0mm_P5.00mm.kicad_mod
+* /usr/share/kicad/demos/kit-dev-coldfire-xilinx_5213/kit-dev-coldfire.pretty/Crystal_HC18-U_Horizontal.kicad_mod
+* /usr/share/kicad/demos/kit-dev-coldfire-xilinx_5213/kit-dev-coldfire.pretty/C_0805_2012Metric.kicad_mod
+* /usr/share/kicad/demos/kit-dev-coldfire-xilinx_5213/kit-dev-coldfire.pretty/DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm.kicad_mod
+* /usr/share/kicad/demos/kit-dev-coldfire-xilinx_5213/kit-dev-coldfire.pretty/D_DO-15_P12.70mm_Horizontal.kicad_mod
 * /usr/share/kicad/demos/kit-dev-coldfire-xilinx_5213/kit-dev-coldfire.pretty/D_SOT-23_ANK.kicad_mod
 * /usr/share/kicad/demos/kit-dev-coldfire-xilinx_5213/kit-dev-coldfire.pretty/FSUPCMS.kicad_mod
 * /usr/share/kicad/demos/kit-dev-coldfire-xilinx_5213/kit-dev-coldfire.pretty/JACK_ALIM.kicad_mod
+* /usr/share/kicad/demos/kit-dev-coldfire-xilinx_5213/kit-dev-coldfire.pretty/LED_1206_3216Metric.kicad_mod
+* /usr/share/kicad/demos/kit-dev-coldfire-xilinx_5213/kit-dev-coldfire.pretty/LQFP-100_14x14mm_P0.5mm.kicad_mod
+* /usr/share/kicad/demos/kit-dev-coldfire-xilinx_5213/kit-dev-coldfire.pretty/PinHeader_1x01_P2.54mm_Vertical.kicad_mod
+* /usr/share/kicad/demos/kit-dev-coldfire-xilinx_5213/kit-dev-coldfire.pretty/PinHeader_1x02_P2.54mm_Vertical.kicad_mod
+* /usr/share/kicad/demos/kit-dev-coldfire-xilinx_5213/kit-dev-coldfire.pretty/PinHeader_1x03_P2.54mm_Vertical.kicad_mod
+* /usr/share/kicad/demos/kit-dev-coldfire-xilinx_5213/kit-dev-coldfire.pretty/PinHeader_1x06_P2.54mm_Vertical.kicad_mod
+* /usr/share/kicad/demos/kit-dev-coldfire-xilinx_5213/kit-dev-coldfire.pretty/PinHeader_2x02_P2.54mm_Vertical.kicad_mod
+* /usr/share/kicad/demos/kit-dev-coldfire-xilinx_5213/kit-dev-coldfire.pretty/PinHeader_2x03_P2.54mm_Vertical.kicad_mod
+* /usr/share/kicad/demos/kit-dev-coldfire-xilinx_5213/kit-dev-coldfire.pretty/PinHeader_2x04_P2.54mm_Vertical.kicad_mod
+* /usr/share/kicad/demos/kit-dev-coldfire-xilinx_5213/kit-dev-coldfire.pretty/PinHeader_2x13_P2.54mm_Vertical.kicad_mod
+* /usr/share/kicad/demos/kit-dev-coldfire-xilinx_5213/kit-dev-coldfire.pretty/PinHeader_2x20_P2.54mm_Vertical.kicad_mod
+* /usr/share/kicad/demos/kit-dev-coldfire-xilinx_5213/kit-dev-coldfire.pretty/PinHeader_2x30_P2.54mm_Vertical.kicad_mod
+* /usr/share/kicad/demos/kit-dev-coldfire-xilinx_5213/kit-dev-coldfire.pretty/R_0805_2012Metric.kicad_mod
+* /usr/share/kicad/demos/kit-dev-coldfire-xilinx_5213/kit-dev-coldfire.pretty/R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod
+* /usr/share/kicad/demos/kit-dev-coldfire-xilinx_5213/kit-dev-coldfire.pretty/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.kicad_mod
 * /usr/share/kicad/demos/kit-dev-coldfire-xilinx_5213/kit-dev-coldfire.pretty/SM1206POL.kicad_mod
+* /usr/share/kicad/demos/kit-dev-coldfire-xilinx_5213/kit-dev-coldfire.pretty/SOIC-14_3.9x8.7mm_P1.27mm.kicad_mod
+* /usr/share/kicad/demos/kit-dev-coldfire-xilinx_5213/kit-dev-coldfire.pretty/SOIC-16_3.9x9.9mm_P1.27mm.kicad_mod
+* /usr/share/kicad/demos/kit-dev-coldfire-xilinx_5213/kit-dev-coldfire.pretty/SOIC-8_3.9x4.9mm_P1.27mm.kicad_mod
 * /usr/share/kicad/demos/kit-dev-coldfire-xilinx_5213/kit-dev-coldfire.pretty/SOT23EBC.kicad_mod
 * /usr/share/kicad/demos/kit-dev-coldfire-xilinx_5213/kit-dev-coldfire.pretty/SOT353.kicad_mod
 * /usr/share/kicad/demos/kit-dev-coldfire-xilinx_5213/kit-dev-coldfire.pretty/SW_PUSH_SMALL.kicad_mod
 * /usr/share/kicad/demos/kit-dev-coldfire-xilinx_5213/kit-dev-coldfire.pretty/SW_SPDT.kicad_mod
-* /usr/share/kicad/demos/kit-dev-coldfire-xilinx_5213/prj.3dshapes/db9_female_pin90deg.wrl
+* /usr/share/kicad/demos/kit-dev-coldfire-xilinx_5213/kit-dev-coldfire.pretty/TO-263-5_TabPin3.kicad_mod
+* /usr/share/kicad/demos/kit-dev-coldfire-xilinx_5213/kit-dev-coldfire.pretty/TO-92.kicad_mod
+* /usr/share/kicad/demos/kit-dev-coldfire-xilinx_5213/kit-dev-coldfire.pretty/TQFP-144_20x20mm_P0.5mm.kicad_mod
 * /usr/share/kicad/demos/kit-dev-coldfire-xilinx_5213/prj.3dshapes/Device.switch_toggle_horizontal_right_angle_PC_terminal.wings
 * /usr/share/kicad/demos/kit-dev-coldfire-xilinx_5213/prj.3dshapes/Device.switch_toggle_horizontal_right_angle_PC_terminal.wrl
 * /usr/share/kicad/demos/kit-dev-coldfire-xilinx_5213/prj.3dshapes/Jack.wings
@@ -255,11 +330,30 @@ Electronic schematic and printed circuid board design tools.
 * /usr/share/kicad/demos/pic_programmer/libs/3d_shapes/adjustable_rx2v4.wrl
 * /usr/share/kicad/demos/pic_programmer/libs/3d_shapes/textool_40.wrl
 * /usr/share/kicad/demos/pic_programmer/libs/pic_programmer_fp.pretty/40tex-Ell600.kicad_mod
+* /usr/share/kicad/demos/pic_programmer/libs/pic_programmer_fp.pretty/Altech_AK300_1x02_P5.00mm_45-Degree.kicad_mod
+* /usr/share/kicad/demos/pic_programmer/libs/pic_programmer_fp.pretty/CP_Axial_L18.0mm_D6.5mm_P25.00mm_Horizontal.kicad_mod
+* /usr/share/kicad/demos/pic_programmer/libs/pic_programmer_fp.pretty/C_Axial_L12.0mm_D6.5mm_P20.00mm_Horizontal.kicad_mod
+* /usr/share/kicad/demos/pic_programmer/libs/pic_programmer_fp.pretty/C_Disc_D5.1mm_W3.2mm_P5.00mm.kicad_mod
+* /usr/share/kicad/demos/pic_programmer/libs/pic_programmer_fp.pretty/DIP-14_W7.62mm_LongPads.kicad_mod
+* /usr/share/kicad/demos/pic_programmer/libs/pic_programmer_fp.pretty/DIP-18_W7.62mm_Socket_LongPads.kicad_mod
+* /usr/share/kicad/demos/pic_programmer/libs/pic_programmer_fp.pretty/DIP-28_W7.62mm_Socket_LongPads.kicad_mod
+* /usr/share/kicad/demos/pic_programmer/libs/pic_programmer_fp.pretty/DIP-8_W7.62mm_LongPads.kicad_mod
+* /usr/share/kicad/demos/pic_programmer/libs/pic_programmer_fp.pretty/DIP-8_W7.62mm_Socket_LongPads.kicad_mod
+* /usr/share/kicad/demos/pic_programmer/libs/pic_programmer_fp.pretty/DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm.kicad_mod
+* /usr/share/kicad/demos/pic_programmer/libs/pic_programmer_fp.pretty/D_DO-35_SOD27_P12.70mm_Horizontal.kicad_mod
+* /usr/share/kicad/demos/pic_programmer/libs/pic_programmer_fp.pretty/D_DO-35_SOD27_P7.62mm_Horizontal.kicad_mod
+* /usr/share/kicad/demos/pic_programmer/libs/pic_programmer_fp.pretty/LED_D5.0mm.kicad_mod
+* /usr/share/kicad/demos/pic_programmer/libs/pic_programmer_fp.pretty/L_Radial_D7.8mm_P5.00mm_Fastron_07HCP.kicad_mod
+* /usr/share/kicad/demos/pic_programmer/libs/pic_programmer_fp.pretty/MountingHole_4.3mm_M4.kicad_mod
 * /usr/share/kicad/demos/pic_programmer/libs/pic_programmer_fp.pretty/RV2X4.kicad_mod
-* /usr/share/kicad/demos/pic_programmer/libs/pic_programmer_schlib.kicad_sym
+* /usr/share/kicad/demos/pic_programmer/libs/pic_programmer_fp.pretty/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.kicad_mod
+* /usr/share/kicad/demos/pic_programmer/libs/pic_programmer_fp.pretty/SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm.kicad_mod
+* /usr/share/kicad/demos/pic_programmer/libs/pic_programmer_fp.pretty/TO-220-3_Horizontal_TabDown.kicad_mod
+* /usr/share/kicad/demos/pic_programmer/libs/pic_programmer_fp.pretty/TO-92.kicad_mod
 * /usr/share/kicad/demos/pic_programmer/pic_programmer.kicad_pcb
 * /usr/share/kicad/demos/pic_programmer/pic_programmer.kicad_pro
 * /usr/share/kicad/demos/pic_programmer/pic_programmer.kicad_sch
+* /usr/share/kicad/demos/pic_programmer/pic_programmer.kicad_sym
 * /usr/share/kicad/demos/pic_programmer/pic_sockets.kicad_sch
 * /usr/share/kicad/demos/pic_programmer/sym-lib-table
 * /usr/share/kicad/demos/python_scripts_examples/action_menu_add_automatic_border.py
@@ -285,6 +379,8 @@ Electronic schematic and printed circuid board design tools.
 * /usr/share/kicad/demos/simulation/gain_control/VCA810.kicad_sym
 * /usr/share/kicad/demos/simulation/gain_control/vca810.lib
 * /usr/share/kicad/demos/simulation/generic_models/generic_opamp_bip.kicad_pro
+* /usr/share/kicad/demos/simulation/generic_models/generic_opamp_bip.kicad_sch
+* /usr/share/kicad/demos/simulation/generic_models/generic_opamp_bip.wbk
 * /usr/share/kicad/demos/simulation/ibis/ibis.kicad_pro
 * /usr/share/kicad/demos/simulation/ibis/ibis.kicad_sch
 * /usr/share/kicad/demos/simulation/ibis/ibis.wbk
@@ -346,9 +442,12 @@ Electronic schematic and printed circuid board design tools.
 * /usr/share/kicad/demos/simulation/sallen_key/sallen_key.kicad_sch
 * /usr/share/kicad/demos/simulation/sallen_key/sallen_key_schlib.kicad_sym
 * /usr/share/kicad/demos/simulation/sallen_key/sym-lib-table
+* /usr/share/kicad/demos/simulation/subsheets/mainsheet.kicad_pro
+* /usr/share/kicad/demos/simulation/subsheets/mainsheet.kicad_sch
+* /usr/share/kicad/demos/simulation/subsheets/project.kicad_sym
 * /usr/share/kicad/demos/simulation/subsheets/subsheet1.kicad_sch
 * /usr/share/kicad/demos/simulation/subsheets/subsheet2.kicad_sch
-* /usr/share/kicad/demos/simulation/subsheets/subsheets.kicad_sch
+* /usr/share/kicad/demos/simulation/subsheets/sym-lib-table
 * /usr/share/kicad/demos/simulation/up-down-counter/README
 * /usr/share/kicad/demos/simulation/up-down-counter/state-3bit-count.in
 * /usr/share/kicad/demos/simulation/up-down-counter/state-machine-3b-count.lib
@@ -364,7 +463,15 @@ Electronic schematic and printed circuid board design tools.
 * /usr/share/kicad/demos/sonde xilinx/sonde xilinx.kicad_pcb
 * /usr/share/kicad/demos/sonde xilinx/sonde xilinx.kicad_pro
 * /usr/share/kicad/demos/sonde xilinx/sonde xilinx.kicad_sch
-* /usr/share/kicad/demos/sonde xilinx/sonde_xilinx_schlib.kicad_sym
+* /usr/share/kicad/demos/sonde xilinx/sonde-xilinx.pretty/C_Axial_L5.1mm_D3.1mm_P12.50mm_Horizontal.kicad_mod
+* /usr/share/kicad/demos/sonde xilinx/sonde-xilinx.pretty/C_Disc_D5.1mm_W3.2mm_P5.00mm.kicad_mod
+* /usr/share/kicad/demos/sonde xilinx/sonde-xilinx.pretty/DIP-14_W7.62mm_LongPads.kicad_mod
+* /usr/share/kicad/demos/sonde xilinx/sonde-xilinx.pretty/DSUB-25_Male_EdgeMount_P2.77mm.kicad_mod
+* /usr/share/kicad/demos/sonde xilinx/sonde-xilinx.pretty/DSUB-9_Male_EdgeMount_P2.77mm.kicad_mod
+* /usr/share/kicad/demos/sonde xilinx/sonde-xilinx.pretty/D_A-405_P7.62mm_Horizontal.kicad_mod
+* /usr/share/kicad/demos/sonde xilinx/sonde-xilinx.pretty/PinHeader_1x06_P2.54mm_Vertical.kicad_mod
+* /usr/share/kicad/demos/sonde xilinx/sonde-xilinx.pretty/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.kicad_mod
+* /usr/share/kicad/demos/sonde xilinx/sonde_xilinx.kicad_sym
 * /usr/share/kicad/demos/sonde xilinx/sym-lib-table
 * /usr/share/kicad/demos/stickhub/3dmodels/APHB1608.step
 * /usr/share/kicad/demos/stickhub/3dmodels/Crystal_SMD_4P_2520.step
@@ -382,10 +489,12 @@ Electronic schematic and printed circuid board design tools.
 * /usr/share/kicad/demos/stickhub/footprints.pretty/Creative_Commons_SA_Mask.kicad_mod
 * /usr/share/kicad/demos/stickhub/footprints.pretty/Crystal_4-SMD_2.5x2mm.kicad_mod
 * /usr/share/kicad/demos/stickhub/footprints.pretty/Duo_LED_1.6x0.8_Kingbright_APHB1608LZGKSURKC.kicad_mod
+* /usr/share/kicad/demos/stickhub/footprints.pretty/D_0402.kicad_mod
 * /usr/share/kicad/demos/stickhub/footprints.pretty/JP-2_1.5x1.5.kicad_mod
 * /usr/share/kicad/demos/stickhub/footprints.pretty/JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal.kicad_mod
 * /usr/share/kicad/demos/stickhub/footprints.pretty/LQFP-48_7x7mm_P0.5mm.kicad_mod
 * /usr/share/kicad/demos/stickhub/footprints.pretty/Plain_Hole_3mm.kicad_mod
+* /usr/share/kicad/demos/stickhub/footprints.pretty/R_1005_C.kicad_mod
 * /usr/share/kicad/demos/stickhub/footprints.pretty/TDFN-8_1.5x2mm_Fused-Lead_JEDEC_MO-252_W2015D.kicad_mod
 * /usr/share/kicad/demos/stickhub/footprints.pretty/USB_A_PCB_traces_small.kicad_mod
 * /usr/share/kicad/demos/stickhub/fp-lib-table
@@ -408,8 +517,25 @@ Electronic schematic and printed circuid board design tools.
 * /usr/share/kicad/demos/test_xil_95108/carte_test.kicad_pro
 * /usr/share/kicad/demos/test_xil_95108/carte_test.kicad_sch
 * /usr/share/kicad/demos/test_xil_95108/carte_test_schlib.kicad_sym
+* /usr/share/kicad/demos/test_xil_95108/footprints.pretty/CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal.kicad_mod
+* /usr/share/kicad/demos/test_xil_95108/footprints.pretty/Crystal_HC18-U_Horizontal.kicad_mod
+* /usr/share/kicad/demos/test_xil_95108/footprints.pretty/C_1206_3216Metric_Pad1.33x1.80mm_HandSolder.kicad_mod
+* /usr/share/kicad/demos/test_xil_95108/footprints.pretty/DIP-14_W7.62mm_LongPads.kicad_mod
+* /usr/share/kicad/demos/test_xil_95108/footprints.pretty/DIP-16_W7.62mm_Socket_LongPads.kicad_mod
 * /usr/share/kicad/demos/test_xil_95108/footprints.pretty/DIP-28__300__600_ELL.kicad_mod
+* /usr/share/kicad/demos/test_xil_95108/footprints.pretty/DIP-8_W7.62mm_LongPads.kicad_mod
+* /usr/share/kicad/demos/test_xil_95108/footprints.pretty/DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm.kicad_mod
+* /usr/share/kicad/demos/test_xil_95108/footprints.pretty/DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm.kicad_mod
+* /usr/share/kicad/demos/test_xil_95108/footprints.pretty/D_DO-35_SOD27_P12.70mm_Horizontal.kicad_mod
+* /usr/share/kicad/demos/test_xil_95108/footprints.pretty/LED_D5.0mm.kicad_mod
+* /usr/share/kicad/demos/test_xil_95108/footprints.pretty/PinHeader_1x03_P2.54mm_Vertical.kicad_mod
+* /usr/share/kicad/demos/test_xil_95108/footprints.pretty/PinHeader_2x02_P2.54mm_Vertical.kicad_mod
 * /usr/share/kicad/demos/test_xil_95108/footprints.pretty/PLCC84.kicad_mod
+* /usr/share/kicad/demos/test_xil_95108/footprints.pretty/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.kicad_mod
+* /usr/share/kicad/demos/test_xil_95108/footprints.pretty/SW_PUSH_6mm_H4.3mm.kicad_mod
+* /usr/share/kicad/demos/test_xil_95108/footprints.pretty/TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal.kicad_mod
+* /usr/share/kicad/demos/test_xil_95108/footprints.pretty/TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal.kicad_mod
+* /usr/share/kicad/demos/test_xil_95108/footprints.pretty/TO-220-3_Horizontal_TabDown.kicad_mod
 * /usr/share/kicad/demos/test_xil_95108/fp-lib-table
 * /usr/share/kicad/demos/test_xil_95108/sym-lib-table
 * /usr/share/kicad/demos/tiny_tapeout/doc/demoboard-prelim-v1-0-3.pdf
@@ -472,16 +598,37 @@ Electronic schematic and printed circuid board design tools.
 * /usr/share/kicad/demos/video/fp-lib-table
 * /usr/share/kicad/demos/video/graphic.kicad_sch
 * /usr/share/kicad/demos/video/libs/footprints.pretty/BUSPCI.kicad_mod
+* /usr/share/kicad/demos/video/libs/footprints.pretty/CP_EIA-3528-21_Kemet-B_Pad1.50x2.35mm_HandSolder.kicad_mod
+* /usr/share/kicad/demos/video/libs/footprints.pretty/Crystal_HC18-U_Horizontal.kicad_mod
+* /usr/share/kicad/demos/video/libs/footprints.pretty/Crystal_HC18-U_Vertical.kicad_mod
 * /usr/share/kicad/demos/video/libs/footprints.pretty/CV3-30PF.kicad_mod
+* /usr/share/kicad/demos/video/libs/footprints.pretty/C_Disc_D3.0mm_W2.0mm_P2.50mm.kicad_mod
+* /usr/share/kicad/demos/video/libs/footprints.pretty/DIP-8_W7.62mm.kicad_mod
+* /usr/share/kicad/demos/video/libs/footprints.pretty/DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset14.56mm_Housed_MountingHolesOffset15.98mm.kicad_mod
 * /usr/share/kicad/demos/video/libs/footprints.pretty/D_DO-34_SOD68_P7.62mm_Horizontal.kicad_mod
 * /usr/share/kicad/demos/video/libs/footprints.pretty/LED_D3.0mm.kicad_mod
 * /usr/share/kicad/demos/video/libs/footprints.pretty/LRTDK.kicad_mod
+* /usr/share/kicad/demos/video/libs/footprints.pretty/PinHeader_1x01_P2.54mm_Vertical.kicad_mod
+* /usr/share/kicad/demos/video/libs/footprints.pretty/PinHeader_1x02_P2.54mm_Vertical.kicad_mod
+* /usr/share/kicad/demos/video/libs/footprints.pretty/PinHeader_1x05_P2.54mm_Vertical.kicad_mod
 * /usr/share/kicad/demos/video/libs/footprints.pretty/PLCC68.kicad_mod
 * /usr/share/kicad/demos/video/libs/footprints.pretty/PLCC84.kicad_mod
+* /usr/share/kicad/demos/video/libs/footprints.pretty/Potentiometer_Bourns_3314G_Vertical.kicad_mod
+* /usr/share/kicad/demos/video/libs/footprints.pretty/PQFP-100_14x20mm_P0.65mm.kicad_mod
+* /usr/share/kicad/demos/video/libs/footprints.pretty/PQFP-160_28x28mm_P0.65mm.kicad_mod
+* /usr/share/kicad/demos/video/libs/footprints.pretty/R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod
+* /usr/share/kicad/demos/video/libs/footprints.pretty/R_1210_3225Metric_Pad1.30x2.65mm_HandSolder.kicad_mod
+* /usr/share/kicad/demos/video/libs/footprints.pretty/R_1812_4532Metric_Pad1.30x3.40mm_HandSolder.kicad_mod
+* /usr/share/kicad/demos/video/libs/footprints.pretty/R_Array_SIP9.kicad_mod
 * /usr/share/kicad/demos/video/libs/footprints.pretty/sim72.kicad_mod
+* /usr/share/kicad/demos/video/libs/footprints.pretty/SOIC-20W_7.5x12.8mm_P1.27mm.kicad_mod
+* /usr/share/kicad/demos/video/libs/footprints.pretty/SOIC-24W_7.5x15.4mm_P1.27mm.kicad_mod
+* /usr/share/kicad/demos/video/libs/footprints.pretty/SOIC-28W_7.5x17.9mm_P1.27mm.kicad_mod
 * /usr/share/kicad/demos/video/libs/footprints.pretty/SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm.kicad_mod
 * /usr/share/kicad/demos/video/libs/footprints.pretty/SOT23EBC.kicad_mod
+* /usr/share/kicad/demos/video/libs/footprints.pretty/SSOP-8_3.95x5.21x3.27mm_P1.27mm.kicad_mod
 * /usr/share/kicad/demos/video/libs/footprints.pretty/subclick.kicad_mod
+* /usr/share/kicad/demos/video/libs/footprints.pretty/TQFP-100_14x14mm_P0.5mm.kicad_mod
 * /usr/share/kicad/demos/video/libs/fp.3dshapes/subclick_horiz.wings
 * /usr/share/kicad/demos/video/libs/fp.3dshapes/subclick_horiz.wrl
 * /usr/share/kicad/demos/video/libs/video_schlib.kicad_sym
@@ -504,6 +651,7 @@ Electronic schematic and printed circuid board design tools.
 * /usr/share/kicad/plugins/kicad_utils.py
 * /usr/share/kicad/plugins/README-bom.txt
 * /usr/share/kicad/resources/images.tar.gz
+* /usr/share/kicad/schemas/api.v1.schema.json
 * /usr/share/kicad/schemas/pcm.v1.schema.json
 * /usr/share/kicad/scripting/kicad_pyshell/kicad_pyeditor.py
 * /usr/share/kicad/scripting/kicad_pyshell/__init__.py
@@ -519,17 +667,14 @@ Electronic schematic and printed circuid board design tools.
 * /usr/share/kicad/scripting/plugins/qfn_wizard.py
 * /usr/share/kicad/scripting/plugins/qfp_wizard.py
 * /usr/share/kicad/scripting/plugins/qrcode_footprint_wizard.py
+* /usr/share/kicad/scripting/plugins/scrollwheel_wizard.py
 * /usr/share/kicad/scripting/plugins/sdip_wizard.py
 * /usr/share/kicad/scripting/plugins/touch_slider_wizard.py
 * /usr/share/kicad/scripting/plugins/uss39_barcode.py
 * /usr/share/kicad/scripting/plugins/zip_wizard.py
 * /usr/share/kicad/scripting/plugins/__init__.py
 * /usr/share/kicad/template/kicad.kicad_pro
-* /usr/share/locale/ar/LC_MESSAGES/kicad.mo
-* /usr/share/locale/bg/LC_MESSAGES/kicad.mo
-* /usr/share/locale/ca/LC_MESSAGES/kicad.mo
 * /usr/share/locale/cs/LC_MESSAGES/kicad.mo
-* /usr/share/locale/da/LC_MESSAGES/kicad.mo
 * /usr/share/locale/de/LC_MESSAGES/kicad.mo
 * /usr/share/locale/el/LC_MESSAGES/kicad.mo
 * /usr/share/locale/en/LC_MESSAGES/kicad.mo
@@ -538,30 +683,18 @@ Electronic schematic and printed circuid board design tools.
 * /usr/share/locale/et/LC_MESSAGES/kicad.mo
 * /usr/share/locale/fi/LC_MESSAGES/kicad.mo
 * /usr/share/locale/fr/LC_MESSAGES/kicad.mo
-* /usr/share/locale/hu/LC_MESSAGES/kicad.mo
-* /usr/share/locale/id/LC_MESSAGES/kicad.mo
 * /usr/share/locale/it/LC_MESSAGES/kicad.mo
 * /usr/share/locale/ja/LC_MESSAGES/kicad.mo
-* /usr/share/locale/ka/LC_MESSAGES/kicad.mo
 * /usr/share/locale/ko/LC_MESSAGES/kicad.mo
 * /usr/share/locale/lt/LC_MESSAGES/kicad.mo
-* /usr/share/locale/lv/LC_MESSAGES/kicad.mo
 * /usr/share/locale/nl/LC_MESSAGES/kicad.mo
-* /usr/share/locale/no/LC_MESSAGES/kicad.mo
 * /usr/share/locale/pl/LC_MESSAGES/kicad.mo
 * /usr/share/locale/pt/LC_MESSAGES/kicad.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/kicad.mo
-* /usr/share/locale/ro/LC_MESSAGES/kicad.mo
 * /usr/share/locale/ru/LC_MESSAGES/kicad.mo
-* /usr/share/locale/sk/LC_MESSAGES/kicad.mo
-* /usr/share/locale/sl/LC_MESSAGES/kicad.mo
-* /usr/share/locale/sr/LC_MESSAGES/kicad.mo
 * /usr/share/locale/sv/LC_MESSAGES/kicad.mo
-* /usr/share/locale/ta/LC_MESSAGES/kicad.mo
 * /usr/share/locale/th/LC_MESSAGES/kicad.mo
-* /usr/share/locale/tr/LC_MESSAGES/kicad.mo
 * /usr/share/locale/uk/LC_MESSAGES/kicad.mo
-* /usr/share/locale/vi/LC_MESSAGES/kicad.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/kicad.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kicad.mo
 * /usr/share/metainfo/org.kicad.kicad.metainfo.xml

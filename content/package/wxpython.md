@@ -12,6 +12,7 @@ size = "9795440"
 usize = "56688396"
 sha1sum = "7cea0f744fdb740ddb8564805d44567ab68eb5c1"
 depends = "['python3-numpy', 'python3-pillow', 'python3-six', 'wxwidgets>=3.0.0-2']"
+reverse_depends = "['kicad']"
 +++
 ### Description: 
 wxPython GUI toolkit

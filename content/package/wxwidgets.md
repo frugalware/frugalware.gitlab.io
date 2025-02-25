@@ -12,7 +12,7 @@ size = "6920224"
 usize = "31826878"
 sha1sum = "06e644c7880517e85da607056b62722734f4b343"
 depends = "['gspell>=1.14.0', 'libglu>=9.0.0-3', 'libmspack', 'libnotify>=0.7.6-3', 'libxslt>=1.1.28-3', 'libxxf86vm', 'sdl>=1.2.15-3', 'webkit-gtk3>=2.44.1']"
-reverse_depends = "['erlang', 'kicad', 'scummvm-tools', 'wxmaxima', 'wxpython']"
+reverse_depends = "['erlang', 'scummvm-tools', 'wxmaxima', 'wxpython']"
 +++
 ### Description: 
 GTK+ implementation of wxWidgets API for GUI (Development Release)

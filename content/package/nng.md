@@ -12,6 +12,7 @@ size = "232156"
 usize = "804523"
 sha1sum = "2b15655a7be89fb6ae3bd6627dcecc2f1ee27c91"
 depends = "['mbedtls']"
+reverse_depends = "['kicad']"
 +++
 ### Description: 
 A lightweight, broker-less library
