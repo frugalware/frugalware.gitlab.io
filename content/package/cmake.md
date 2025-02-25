@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "cmake 3.31.5-1"
-version = "3.31.5-1"
+title = "cmake 3.31.6-1"
+version = "3.31.6-1"
 description = "Cross platform make"
-date = "2025-01-24T10:00:17"
+date = "2025-02-25T13:22:10"
 aliases = "/packages/9148"
 categories = ['devel-extra']
 upstreamurl = "https://cmake.org"
 arch = "x86_64"
-size = "12984520"
-usize = "76328156"
-sha1sum = "7a1100b528ca029085757ccea933e3700c2f6df5"
+size = "12985912"
+usize = "76345049"
+sha1sum = "1c1eedc2160821dfa99d0fb93b698989fd657a58"
 depends = "['cppdap', 'curl', 'jsoncpp>=1.9.6', 'libarchive>=3.2.1', 'libuv', 'lz4', 'ncurses>=6.5', 'rhash']"
 reverse_depends = "['corrosion', 'lxqt-build-tools', 'qtcreator', 'rocm-cmake', 'scikit-build', 'scikit-build-core']"
 +++
@@ -3222,6 +3222,7 @@ Cross platform make
 * /usr/share/cmake/Modules/Platform/Linker/Apple-AppleClang-Fortran.cmake
 * /usr/share/cmake/Modules/Platform/Linker/Apple-AppleClang-OBJC.cmake
 * /usr/share/cmake/Modules/Platform/Linker/Apple-AppleClang-OBJCXX.cmake
+* /usr/share/cmake/Modules/Platform/Linker/Apple-AppleClang-Swift.cmake
 * /usr/share/cmake/Modules/Platform/Linker/Apple-AppleClang.cmake
 * /usr/share/cmake/Modules/Platform/Linker/Apple-ASM.cmake
 * /usr/share/cmake/Modules/Platform/Linker/Apple-C.cmake
@@ -3238,6 +3239,7 @@ Cross platform make
 * /usr/share/cmake/Modules/Platform/Linker/Apple-MOLD-OBJCXX.cmake
 * /usr/share/cmake/Modules/Platform/Linker/Apple-OBJC.cmake
 * /usr/share/cmake/Modules/Platform/Linker/Apple-OBJCXX.cmake
+* /usr/share/cmake/Modules/Platform/Linker/Apple-Swift.cmake
 * /usr/share/cmake/Modules/Platform/Linker/BSD-Linker-Initialize.cmake
 * /usr/share/cmake/Modules/Platform/Linker/CYGWIN-ASM.cmake
 * /usr/share/cmake/Modules/Platform/Linker/CYGWIN-C.cmake
@@ -3289,6 +3291,15 @@ Cross platform make
 * /usr/share/cmake/Modules/Platform/Linker/GNU-GNU-Fortran.cmake
 * /usr/share/cmake/Modules/Platform/Linker/GNU-GNU.cmake
 * /usr/share/cmake/Modules/Platform/Linker/GNU.cmake
+* /usr/share/cmake/Modules/Platform/Linker/Haiku-ASM.cmake
+* /usr/share/cmake/Modules/Platform/Linker/Haiku-C.cmake
+* /usr/share/cmake/Modules/Platform/Linker/Haiku-CXX.cmake
+* /usr/share/cmake/Modules/Platform/Linker/Haiku-GNU-ASM.cmake
+* /usr/share/cmake/Modules/Platform/Linker/Haiku-GNU-C.cmake
+* /usr/share/cmake/Modules/Platform/Linker/Haiku-GNU-CXX.cmake
+* /usr/share/cmake/Modules/Platform/Linker/Haiku-LLD-ASM.cmake
+* /usr/share/cmake/Modules/Platform/Linker/Haiku-LLD-C.cmake
+* /usr/share/cmake/Modules/Platform/Linker/Haiku-LLD-CXX.cmake
 * /usr/share/cmake/Modules/Platform/Linker/Linux-ASM.cmake
 * /usr/share/cmake/Modules/Platform/Linker/Linux-C.cmake
 * /usr/share/cmake/Modules/Platform/Linker/Linux-CUDA.cmake
@@ -3300,6 +3311,7 @@ Cross platform make
 * /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-CXX.cmake
 * /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-Fortran.cmake
 * /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-HIP.cmake
+* /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-Swift.cmake
 * /usr/share/cmake/Modules/Platform/Linker/Linux-GNU.cmake
 * /usr/share/cmake/Modules/Platform/Linker/Linux-GNUgold-ASM.cmake
 * /usr/share/cmake/Modules/Platform/Linker/Linux-GNUgold-C.cmake
@@ -3307,6 +3319,7 @@ Cross platform make
 * /usr/share/cmake/Modules/Platform/Linker/Linux-GNUgold-CXX.cmake
 * /usr/share/cmake/Modules/Platform/Linker/Linux-GNUgold-Fortran.cmake
 * /usr/share/cmake/Modules/Platform/Linker/Linux-GNUgold-HIP.cmake
+* /usr/share/cmake/Modules/Platform/Linker/Linux-GNUgold-Swift.cmake
 * /usr/share/cmake/Modules/Platform/Linker/Linux-HIP.cmake
 * /usr/share/cmake/Modules/Platform/Linker/Linux-LLD-ASM.cmake
 * /usr/share/cmake/Modules/Platform/Linker/Linux-LLD-C.cmake
@@ -3314,6 +3327,7 @@ Cross platform make
 * /usr/share/cmake/Modules/Platform/Linker/Linux-LLD-CXX.cmake
 * /usr/share/cmake/Modules/Platform/Linker/Linux-LLD-Fortran.cmake
 * /usr/share/cmake/Modules/Platform/Linker/Linux-LLD-HIP.cmake
+* /usr/share/cmake/Modules/Platform/Linker/Linux-LLD-Swift.cmake
 * /usr/share/cmake/Modules/Platform/Linker/Linux-LLD.cmake
 * /usr/share/cmake/Modules/Platform/Linker/Linux-MOLD-ASM.cmake
 * /usr/share/cmake/Modules/Platform/Linker/Linux-MOLD-C.cmake
@@ -3322,6 +3336,7 @@ Cross platform make
 * /usr/share/cmake/Modules/Platform/Linker/Linux-MOLD-Fortran.cmake
 * /usr/share/cmake/Modules/Platform/Linker/Linux-MOLD-HIP.cmake
 * /usr/share/cmake/Modules/Platform/Linker/Linux-MOLD.cmake
+* /usr/share/cmake/Modules/Platform/Linker/Linux-Swift.cmake
 * /usr/share/cmake/Modules/Platform/Linker/MirBSD-ASM.cmake
 * /usr/share/cmake/Modules/Platform/Linker/MirBSD-C.cmake
 * /usr/share/cmake/Modules/Platform/Linker/MirBSD-CXX.cmake
@@ -3413,7 +3428,9 @@ Cross platform make
 * /usr/share/cmake/Modules/Platform/Linker/Windows-MSVC-CXX.cmake
 * /usr/share/cmake/Modules/Platform/Linker/Windows-MSVC-Fortran.cmake
 * /usr/share/cmake/Modules/Platform/Linker/Windows-MSVC-HIP.cmake
+* /usr/share/cmake/Modules/Platform/Linker/Windows-MSVC-Swift.cmake
 * /usr/share/cmake/Modules/Platform/Linker/Windows-MSVC.cmake
+* /usr/share/cmake/Modules/Platform/Linker/Windows-Swift.cmake
 * /usr/share/cmake/Modules/Platform/Linker/WindowsCE-C.cmake
 * /usr/share/cmake/Modules/Platform/Linker/WindowsCE-CXX.cmake
 * /usr/share/cmake/Modules/Platform/Linker/WindowsCE-MSVC-C.cmake
@@ -3434,6 +3451,8 @@ Cross platform make
 * /usr/share/cmake/Modules/Platform/Linker/WindowsPhone-MSVC-ASM.cmake
 * /usr/share/cmake/Modules/Platform/Linker/WindowsPhone-MSVC-C.cmake
 * /usr/share/cmake/Modules/Platform/Linker/WindowsPhone-MSVC-CXX.cmake
+* /usr/share/cmake/Modules/Platform/Linker/WindowsPhone-MSVC-Swift.cmake
+* /usr/share/cmake/Modules/Platform/Linker/WindowsPhone-Swift.cmake
 * /usr/share/cmake/Modules/Platform/Linker/WindowsStore-ASM.cmake
 * /usr/share/cmake/Modules/Platform/Linker/WindowsStore-C.cmake
 * /usr/share/cmake/Modules/Platform/Linker/WindowsStore-CXX.cmake
@@ -3446,6 +3465,8 @@ Cross platform make
 * /usr/share/cmake/Modules/Platform/Linker/WindowsStore-MSVC-ASM.cmake
 * /usr/share/cmake/Modules/Platform/Linker/WindowsStore-MSVC-C.cmake
 * /usr/share/cmake/Modules/Platform/Linker/WindowsStore-MSVC-CXX.cmake
+* /usr/share/cmake/Modules/Platform/Linker/WindowsStore-MSVC-Swift.cmake
+* /usr/share/cmake/Modules/Platform/Linker/WindowsStore-Swift.cmake
 * /usr/share/cmake/Modules/Platform/Linux-Absoft-Fortran.cmake
 * /usr/share/cmake/Modules/Platform/Linux-Apple-Swift.cmake
 * /usr/share/cmake/Modules/Platform/Linux-CCur-Fortran.cmake
@@ -3769,7 +3790,7 @@ Cross platform make
 * /usr/share/cmake/Templates/Windows/SplashScreen.png
 * /usr/share/cmake/Templates/Windows/StoreLogo.png
 * /usr/share/cmake/Templates/Windows/Windows_TemporaryKey.pfx
-* /usr/share/doc/cmake-3.31.5/README.rst
+* /usr/share/doc/cmake-3.31.6/README.rst
 * /usr/share/doc/cmake/cmsys/Copyright.txt
 * /usr/share/doc/cmake/Copyright.txt
 * /usr/share/doc/cmake/html/command/add_compile_definitions.html
