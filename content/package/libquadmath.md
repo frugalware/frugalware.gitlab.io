@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libquadmath 14.2.0-3"
-version = "14.2.0-3"
+title = "libquadmath 14_20250222-1"
+version = "14_20250222-1"
 description = "Quadruple Precision Math library from GCC"
-date = "2024-10-23T12:05:37"
+date = "2025-02-25T15:58:58"
 aliases = "/packages/200570"
 categories = ['lib']
 upstreamurl = "http://gcc.gnu.org"
 arch = "x86_64"
-size = "392196"
-usize = "2137968"
-sha1sum = "dbb3b128d6873fc475b1422015f9c8086ed9b0b0"
+size = "392572"
+usize = "2139200"
+sha1sum = "2ac17de7617bd21db2e8db11c77b635bda3c860c"
 depends = "['glibc']"
 reverse_depends = "['libgfortran']"
 +++

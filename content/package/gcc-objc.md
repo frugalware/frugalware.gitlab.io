@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gcc-objc 14.2.0-3"
-version = "14.2.0-3"
+title = "gcc-objc 14_20250222-1"
+version = "14_20250222-1"
 description = "Objective-C support for GCC"
-date = "2024-10-23T12:05:37"
+date = "2025-02-25T15:58:58"
 aliases = "/packages/10527"
 categories = ['devel-extra']
 upstreamurl = "http://gcc.gnu.org"
 arch = "x86_64"
-size = "12011004"
-usize = "42512216"
-sha1sum = "1889791b69f7eeb857c737ac6143cd3c9187e390"
+size = "11998116"
+usize = "42491776"
+sha1sum = "0726947d7f2cdc01ce4cfd6d24bdb6c1d9422721"
 depends = "['gcc', 'libobjc']"
 reverse_depends = "['gcc-objc++']"
 +++
@@ -18,4 +18,4 @@ reverse_depends = "['gcc-objc++']"
 Objective-C support for GCC
 
 ### Files: 
-* /usr/lib/gcc/x86_64-frugalware-linux/14.2.0/cc1obj
+* /usr/lib/gcc/x86_64-frugalware-linux/14.2.1/cc1obj
