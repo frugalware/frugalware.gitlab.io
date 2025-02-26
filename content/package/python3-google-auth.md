@@ -12,6 +12,7 @@ size = "246032"
 usize = "2187500"
 sha1sum = "b03ae6b45d029bc7b3b8a8fa37986d05e3dbc5b9"
 depends = "['certifi', 'python3-cachetools', 'python3-cgi', 'python3-oauth2client', 'python3-packaging', 'python3-pyasn1-modules', 'python3-rsa']"
+reverse_depends = "['python3-kubernetes']"
 +++
 ### Description: 
 Google Authentication Library

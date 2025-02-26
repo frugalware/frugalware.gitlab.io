@@ -12,7 +12,7 @@ size = "154728"
 usize = "310782"
 sha1sum = "23d5f87cde434ed05b1c778cbbb0bb80798af068"
 depends = "['python3>=3.13']"
-reverse_depends = "['python3-google-auth', 'python3-selenium', 'python3-sentry-sdk']"
+reverse_depends = "['python3-google-auth', 'python3-kubernetes', 'python3-selenium', 'python3-sentry-sdk']"
 +++
 ### Description: 
 Python package for providing Mozilla's CA Bundle

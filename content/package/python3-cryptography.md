@@ -12,7 +12,7 @@ size = "1078248"
 usize = "5137710"
 sha1sum = "079a19160b6188d52142d45fd1f9cf437f1a9405"
 depends = "['openssl>=3.1.0', 'python3>=3.12', 'python3-asn1crypto', 'python3-cffi', 'python3-idna', 'python3-six']"
-reverse_depends = "['lutris', 'paramiko', 'python3-adal', 'python3-openssl', 'python3-secretstorage']"
+reverse_depends = "['lutris', 'paramiko', 'python3-adal', 'python3-oauthlib', 'python3-openssl', 'python3-secretstorage']"
 +++
 ### Description: 
 Cryptography expose cryptographic recipes and primitives in a python module

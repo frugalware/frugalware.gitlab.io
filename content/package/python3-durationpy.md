@@ -12,6 +12,7 @@ size = "5736"
 usize = "18821"
 sha1sum = "a6d64076e02e29aa6b40f5b598ad68b2e3d98723"
 depends = "['python3']"
+reverse_depends = "['python3-kubernetes']"
 +++
 ### Description: 
 Module for converting between datetime.timedelta and Go's time.Duration strings

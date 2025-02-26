@@ -12,6 +12,7 @@ size = "75220"
 usize = "494766"
 sha1sum = "41ac28b33cb86c9951a95d21fea6df5d7ab5ea3c"
 depends = "['python3-cryptography', 'python3-dateutil', 'python3-pyjwt', 'python3-requests']"
+reverse_depends = "['python3-kubernetes']"
 +++
 ### Description: 
 ADAL for Python

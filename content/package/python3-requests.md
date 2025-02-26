@@ -12,7 +12,7 @@ size = "109676"
 usize = "418131"
 sha1sum = "171d55d06447106ad5d2a34ddba31833c1cdccbe"
 depends = "['python3>=3.13', 'python3-idna', 'python3-urllib3']"
-reverse_depends = "['blender', 'discover-overlay', 'lutris', 'python3-adal', 'python3-cachecontrol', 'python3-requests-toolbelt', 'python3-sphinx', 'python3-youtube-transcript-api', 'python3-ytmusicapi', 'streamlink', 'system-config-printer', 'virt-manager']"
+reverse_depends = "['blender', 'discover-overlay', 'lutris', 'python3-adal', 'python3-cachecontrol', 'python3-requests-oauthlib', 'python3-requests-toolbelt', 'python3-sphinx', 'python3-youtube-transcript-api', 'python3-ytmusicapi', 'streamlink', 'system-config-printer', 'virt-manager']"
 +++
 ### Description: 
 Python HTTP for Humans.

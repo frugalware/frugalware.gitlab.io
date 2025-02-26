@@ -12,7 +12,7 @@ size = "104444"
 usize = "453083"
 sha1sum = "dc2cc2f6caddf3334d7c2be020d0bdf600258541"
 depends = "['python3>=3.13']"
-reverse_depends = "['discover-overlay', 'python3-selenium', 'streamlink']"
+reverse_depends = "['discover-overlay', 'python3-kubernetes', 'python3-selenium', 'streamlink']"
 +++
 ### Description: 
 WebSocket client for Python3. hybi13 is supported.
