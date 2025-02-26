@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kdecoration 6.3.1-1"
-version = "6.3.1-1"
+title = "kdecoration 6.3.2-1"
+version = "6.3.2-1"
 description = "KDE Decoration"
-date = "2025-02-18T16:44:37"
+date = "2025-02-26T09:07:37"
 aliases = "/packages/218295"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "85048"
-usize = "353544"
-sha1sum = "c62d827eaf66d109b389109d552227fa1f29f850"
+size = "85820"
+usize = "360108"
+sha1sum = "b0b8073f84cb872f2966ef39f6b4751833550f8b"
 depends = "['kcoreaddons>=6.11.0', 'ki18n>=6.11.0', 'qt6-base>=6.8.2']"
 reverse_depends = "['breeze', 'kde-gtk-config']"
 +++
@@ -50,11 +50,11 @@ KDE Decoration
 * /usr/lib/cmake/KDecoration3/KDecoration3Targets.cmake
 * /usr/lib/libkdecorations3.so
 * /usr/lib/libkdecorations3.so.6
-* /usr/lib/libkdecorations3.so.6.3.1
+* /usr/lib/libkdecorations3.so.6.3.2
 * /usr/lib/libkdecorations3private.so
-* /usr/lib/libkdecorations3private.so.1
-* /usr/lib/libkdecorations3private.so.6.3.1
-* /usr/share/doc/kdecoration-6.3.1/README.md
+* /usr/lib/libkdecorations3private.so.2
+* /usr/lib/libkdecorations3private.so.6.3.2
+* /usr/share/doc/kdecoration-6.3.2/README.md
 * /usr/share/locale/ar/LC_MESSAGES/kdecoration.mo
 * /usr/share/locale/ast/LC_MESSAGES/kdecoration.mo
 * /usr/share/locale/az/LC_MESSAGES/kdecoration.mo
@@ -86,6 +86,7 @@ KDE Decoration
 * /usr/share/locale/lt/LC_MESSAGES/kdecoration.mo
 * /usr/share/locale/lv/LC_MESSAGES/kdecoration.mo
 * /usr/share/locale/ml/LC_MESSAGES/kdecoration.mo
+* /usr/share/locale/nb/LC_MESSAGES/kdecoration.mo
 * /usr/share/locale/nl/LC_MESSAGES/kdecoration.mo
 * /usr/share/locale/nn/LC_MESSAGES/kdecoration.mo
 * /usr/share/locale/pa/LC_MESSAGES/kdecoration.mo

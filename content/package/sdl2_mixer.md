@@ -12,7 +12,7 @@ size = "157772"
 usize = "447557"
 sha1sum = "49dc0a1a9f06f7fa311fa2c4ba1891fd387980a6"
 depends = "['libmikmod>=3.3.10', 'libvorbis>=1.3.5-5']"
-reverse_depends = "['augustus', 'easyrpg-player', 'enigma', 'freeciv', 'julius', 'lincity-ng', 'manaplus', 'maxr', 'netpanzer', 'opencity', 'openclonk', 'opendiablo2', 'redeclipse', 'supertux', 'wesnoth']"
+reverse_depends = "['augustus', 'easyrpg-player', 'enigma', 'freeciv', 'julius', 'lincity-ng', 'manaplus', 'maxr', 'netpanzer', 'opencity', 'openclonk', 'opendiablo2', 'redeclipse', 'supertux']"
 +++
 ### Description: 
 SDL2 Mixer library

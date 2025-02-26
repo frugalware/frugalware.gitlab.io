@@ -12,7 +12,7 @@ size = "678264"
 usize = "1746199"
 sha1sum = "95460277bd31b8659b874204749e0a65b21737c9"
 depends = "['freetype2', 'libglvnd']"
-reverse_depends = "['crawl', 'crawl-tiles', 'enigma', 'freeciv', 'freerdp', 'freerdp2', 'lincity-ng', 'manaplus', 'motiontestsuite', 'netpanzer', 'sdlmame', 'solarus', 'wesnoth']"
+reverse_depends = "['crawl', 'crawl-tiles', 'enigma', 'freeciv', 'freerdp', 'freerdp2', 'lincity-ng', 'manaplus', 'motiontestsuite', 'netpanzer', 'sdlmame', 'solarus']"
 +++
 ### Description: 
 SDL_ttf is a TrueType font rendering library.
