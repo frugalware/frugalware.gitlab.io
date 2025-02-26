@@ -12,7 +12,7 @@ size = "128732"
 usize = "370119"
 sha1sum = "1923f96a5b8cdfd4689bfcad97bd1a6be34e0fa0"
 depends = "['python3>=3.12']"
-reverse_depends = "['python3-eventlet']"
+reverse_depends = "['python3-eventlet', 'python3-oauth2client']"
 +++
 ### Description: 
 A comprehensive HTTP client library.

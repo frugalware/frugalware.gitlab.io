@@ -12,7 +12,7 @@ size = "26528"
 usize = "90352"
 sha1sum = "91e4bba457a2278c372ad49fc73e88523cd0c50f"
 depends = "['python3>=3.13']"
-reverse_depends = "['freecell-solver', 'gtk-doc', 'html5lib-python', 'lutris', 'python3-astroid', 'python3-bcrypt', 'python3-cryptography', 'python3-dateutil', 'python3-pylast', 'python3-pythran', 'python3-setuptools', 'python3-suntime', 'python3-xlib', 'python3-zeroconf', 'rdflib', 'urlgrabber', 'vtk-python3', 'wxpython']"
+reverse_depends = "['freecell-solver', 'gtk-doc', 'html5lib-python', 'lutris', 'python3-astroid', 'python3-bcrypt', 'python3-cryptography', 'python3-dateutil', 'python3-oauth2client', 'python3-pylast', 'python3-pythran', 'python3-setuptools', 'python3-suntime', 'python3-xlib', 'python3-zeroconf', 'rdflib', 'urlgrabber', 'vtk-python3', 'wxpython']"
 +++
 ### Description: 
 Python 3 compatibility utilities

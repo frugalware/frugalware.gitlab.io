@@ -12,7 +12,7 @@ size = "307784"
 usize = "793871"
 sha1sum = "be8b6908206008b04b428830b83a81f38c5ac840"
 depends = "['python3-six']"
-reverse_depends = "['python3-suntime', 'vorta', 'yokadi']"
+reverse_depends = "['python3-adal', 'python3-suntime', 'vorta', 'yokadi']"
 +++
 ### Description: 
 Provides powerful extensions to the standard datetime module.

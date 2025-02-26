@@ -12,7 +12,7 @@ size = "118648"
 usize = "695647"
 sha1sum = "26c7968b06ed0055613be916675fc2869f646831"
 depends = "['python3>=3.13']"
-reverse_depends = "['borg', 'input-remapper', 'python3-build', 'python3-cx-freeze', 'python3-hatchling', 'python3-pdm-backend', 'python3-pipx', 'python3-poetry', 'python3-poetry-core', 'python3-puremagic', 'python3-pyproject-metadata', 'python3-pytest', 'python3-qtpy', 'python3-setuptools', 'python3-versioningit', 'python3-wheel', 'scikit-build-core', 'sip']"
+reverse_depends = "['borg', 'input-remapper', 'python3-build', 'python3-cx-freeze', 'python3-google-auth', 'python3-hatchling', 'python3-pdm-backend', 'python3-pipx', 'python3-poetry', 'python3-poetry-core', 'python3-puremagic', 'python3-pyproject-metadata', 'python3-pytest', 'python3-qtpy', 'python3-setuptools', 'python3-versioningit', 'python3-wheel', 'scikit-build-core', 'sip']"
 +++
 ### Description: 
 Core utilities for Python packages
