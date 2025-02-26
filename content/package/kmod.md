@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kmod 34-2"
-version = "34-2"
+title = "kmod 34-3"
+version = "34-3"
 description = "Utilities for inserting and removing modules from the Linux kernel"
-date = "2025-02-22T12:49:52"
+date = "2025-02-26T11:15:50"
 aliases = "/packages/221568"
 categories = ['base']
 upstreamurl = "http://kernel.org"
 arch = "x86_64"
-size = "150040"
-usize = "411971"
-sha1sum = "377d66b7ea82279b39b8ad593f3710314ab0c66c"
+size = "149996"
+usize = "411998"
+sha1sum = "d7444c3628d4a6833cfa593b88868f8d2174156c"
 depends = "['openssl>=3.1.0', 'xz>=5.2.4-2', 'zlib-ng', 'zstd>=1.4.4']"
 reverse_depends = "['dracut', 'hwdata', 'intel-gpu-tools', 'inxi', 'iscsi', 'kernel', 'kernel-initrd', 'kernel-lts', 'kernel-lts-initrd', 'libndctl', 'ndctl', 'systemd', 'systemd-nspawn', 'systemd-systemctl', 'systemd-sysvinit']"
 +++
