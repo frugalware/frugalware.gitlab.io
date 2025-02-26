@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kaccounts-provider-opendesktop 6.3.1.1-1"
-version = "6.3.1.1-1"
+title = "kaccounts-provider-opendesktop 6.3.2-1"
+version = "6.3.2-1"
 description = "OpenDesktop kaccount provider"
-date = "2025-02-20T22:07:25"
+date = "2025-02-26T10:28:08"
 aliases = "/packages/220242"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "24760"
-usize = "44996"
-sha1sum = "66173ffbf0d87c5811c98138186173a852fa2413"
+size = "24776"
+usize = "45012"
+sha1sum = "a6ab8604c886ec1ed10039980c73f7782311023e"
 depends = "['kaccounts-integration', 'signon-plugin-oauth2']"
 +++
 ### Description: 

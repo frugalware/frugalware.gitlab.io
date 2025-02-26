@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "flatpak-kcm 6.3.1-1"
-version = "6.3.1-1"
+title = "flatpak-kcm 6.3.2-1"
+version = "6.3.2-1"
 description = "Flatpak Permissions Management KCM"
-date = "2025-02-18T19:27:42"
+date = "2025-02-26T10:45:15"
 aliases = "/packages/220918"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "109176"
-usize = "420528"
-sha1sum = "711ea42dfb4d290322925bd835b9e6e6055bb139"
-depends = "['flatpak', 'systemsettings>=6.3.1']"
+size = "109316"
+usize = "421720"
+sha1sum = "eb3af5f020fbb8ce41f8a5bcd59755939536bd70"
+depends = "['flatpak', 'systemsettings>=6.3.2']"
 +++
 ### Description: 
 Flatpak Permissions Management KCM
@@ -19,7 +19,7 @@ Flatpak Permissions Management KCM
 ### Files: 
 * /usr/lib/qt6/plugins/plasma/kcms/systemsettings/kcm_flatpak.so
 * /usr/share/applications/kcm_flatpak.desktop
-* /usr/share/doc/flatpak-kcm-6.3.1/README.md
+* /usr/share/doc/flatpak-kcm-6.3.2/README.md
 * /usr/share/locale/ar/LC_MESSAGES/kcm_flatpak.mo
 * /usr/share/locale/ast/LC_MESSAGES/kcm_flatpak.mo
 * /usr/share/locale/ca/LC_MESSAGES/kcm_flatpak.mo
