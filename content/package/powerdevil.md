@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "powerdevil 6.3.1-1"
-version = "6.3.1-1"
+title = "powerdevil 6.3.2-1"
+version = "6.3.2-1"
 description = "KDE power management tools."
-date = "2025-02-18T17:17:25"
+date = "2025-02-26T10:13:47"
 aliases = "/packages/221379"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1280380"
-usize = "4920973"
-sha1sum = "068edab576aa444e66be4d27ae1257eee620cc35"
-depends = "['bluez-qt>=6.11.0', 'ddcutil', 'plasma-workspace>=6.3.1', 'power-profiles-daemon']"
+size = "1283940"
+usize = "4941911"
+sha1sum = "ada7ddea644687084a5928d166f6f2888a23d097"
+depends = "['bluez-qt>=6.11.0', 'ddcutil', 'plasma-workspace>=6.3.2', 'power-profiles-daemon']"
 +++
 ### Description: 
 KDE power management tools.
@@ -23,7 +23,7 @@ KDE power management tools.
 * /usr/lib/kauth/kf6/kauth/discretegpuhelper
 * /usr/lib/libpowerdevilcore.so
 * /usr/lib/libpowerdevilcore.so.2
-* /usr/lib/libpowerdevilcore.so.6.3.1
+* /usr/lib/libpowerdevilcore.so.6.3.2
 * /usr/lib/powerdevil/org_kde_powerdevil
 * /usr/lib/qt6/plugins/kf6/krunner/krunner_powerdevil.so
 * /usr/lib/qt6/plugins/plasma/kcms/systemsettings/kcm_powerdevilprofilesconfig.so
@@ -91,8 +91,8 @@ KDE power management tools.
 * /usr/share/doc/HTML/uk/kcontrol/powerdevil/energy.png
 * /usr/share/doc/HTML/uk/kcontrol/powerdevil/index.cache.bz2
 * /usr/share/doc/HTML/uk/kcontrol/powerdevil/index.docbook
-* /usr/share/doc/powerdevil-6.3.1/COPYING
-* /usr/share/doc/powerdevil-6.3.1/README.md
+* /usr/share/doc/powerdevil-6.3.2/COPYING
+* /usr/share/doc/powerdevil-6.3.2/README.md
 * /usr/share/knotifications6/powerdevil.notifyrc
 * /usr/share/locale/ar/LC_MESSAGES/kcm_powerdevilprofilesconfig.mo
 * /usr/share/locale/ar/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kwin 6.3.1-1"
-version = "6.3.1-1"
+title = "kwin 6.3.2.1-1"
+version = "6.3.2.1-1"
 description = "KDE Window Manager."
-date = "2025-02-18T17:08:14"
+date = "2025-02-26T10:04:53"
 aliases = "/packages/221357"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "10371760"
-usize = "32733035"
-sha1sum = "52261f5d497b62a1c801fb4a97c95b42ed1260db"
-depends = "['breeze>=6.3.1', 'kauth>=6.11.0', 'kcmutils>=6.11.0', 'kconfig>=6.11.0', 'kconfigwidgets>=6.11.0', 'kcoreaddons>=6.11.0', 'kcrash>=6.11.0', 'kdbusaddons>=6.11.0', 'kdeclarative>=6.11.0', 'kglobalacceld>=6.3.1', 'kguiaddons>=6.11.0', 'ki18n>=6.11.0', 'kidletime>=6.11.0', 'knewstuff>=6.11.0', 'kpackage>=6.11.0', 'kscreenlocker>=6.3.1', 'kservice>=6.11.0', 'ksvg>=6.11.0', 'kwayland>=6.3.1', 'kwidgetsaddons>=6.11.0', 'kwindowsystem>=6.11.0', 'kxmlgui>=6.11.0', 'lcms2', 'libdisplay-info>=0.2.0', 'libei', 'libplasma>=6.3.1', 'libqaccessibilityclient', 'libxcvt', 'pipewire', 'plasma-activities>=6.3.1', 'qt6-5compat>=_F_kdever_qt6', 'qt6-sensors>=6.8.2', 'qt6-tools>=6.8.2', 'qt6-wayland>=6.8.2']"
+size = "10386272"
+usize = "32872203"
+sha1sum = "b7a90a22198d52f95a25dd03698f81d77b7c8dbe"
+depends = "['breeze>=6.3.2', 'kauth>=6.11.0', 'kcmutils>=6.11.0', 'kconfig>=6.11.0', 'kconfigwidgets>=6.11.0', 'kcoreaddons>=6.11.0', 'kcrash>=6.11.0', 'kdbusaddons>=6.11.0', 'kdeclarative>=6.11.0', 'kglobalacceld>=6.3.2', 'kguiaddons>=6.11.0', 'ki18n>=6.11.0', 'kidletime>=6.11.0', 'knewstuff>=6.11.0', 'kpackage>=6.11.0', 'kscreenlocker>=6.3.2', 'kservice>=6.11.0', 'ksvg>=6.11.0', 'kwayland>=6.3.2', 'kwidgetsaddons>=6.11.0', 'kwindowsystem>=6.11.0', 'kxmlgui>=6.11.0', 'lcms2', 'libdisplay-info>=0.2.0', 'libei', 'libplasma>=6.3.2', 'libqaccessibilityclient', 'libxcvt', 'pipewire', 'plasma-activities>=6.3.2', 'qt6-5compat>=_F_kdever_qt6', 'qt6-sensors>=6.8.2', 'qt6-tools>=6.8.2', 'qt6-wayland>=6.8.2']"
 reverse_depends = "['oxygen', 'plasma-workspace']"
 +++
 ### Description: 
@@ -193,6 +193,7 @@ KDE Window Manager.
 * /usr/include/kwin/wayland/appmenu.h
 * /usr/include/kwin/wayland/blur.h
 * /usr/include/kwin/wayland/clientconnection.h
+* /usr/include/kwin/wayland/colormanagement_v1.h
 * /usr/include/kwin/wayland/compositor.h
 * /usr/include/kwin/wayland/contenttype_v1.h
 * /usr/include/kwin/wayland/contrast.h
@@ -238,12 +239,12 @@ KDE Window Manager.
 * /usr/include/kwin/wayland/primaryselectionsource_v1.h
 * /usr/include/kwin/wayland/quirks.h
 * /usr/include/kwin/wayland/qwayland-server-alpha-modifier-v1.h
+* /usr/include/kwin/wayland/qwayland-server-color-management-v1.h
 * /usr/include/kwin/wayland/qwayland-server-content-type-v1.h
 * /usr/include/kwin/wayland/qwayland-server-frog-color-management-v1.h
 * /usr/include/kwin/wayland/qwayland-server-kde-external-brightness-v1.h
 * /usr/include/kwin/wayland/qwayland-server-linux-drm-syncobj-v1.h
 * /usr/include/kwin/wayland/qwayland-server-presentation-time.h
-* /usr/include/kwin/wayland/qwayland-server-xx-color-management-v4.h
 * /usr/include/kwin/wayland/relativepointer_v1.h
 * /usr/include/kwin/wayland/screencast_v1.h
 * /usr/include/kwin/wayland/screenedge_v1.h
@@ -263,12 +264,12 @@ KDE Window Manager.
 * /usr/include/kwin/wayland/touch.h
 * /usr/include/kwin/wayland/viewporter.h
 * /usr/include/kwin/wayland/wayland-alpha-modifier-v1-server-protocol.h
+* /usr/include/kwin/wayland/wayland-color-management-v1-server-protocol.h
 * /usr/include/kwin/wayland/wayland-content-type-v1-server-protocol.h
 * /usr/include/kwin/wayland/wayland-frog-color-management-v1-server-protocol.h
 * /usr/include/kwin/wayland/wayland-kde-external-brightness-v1-server-protocol.h
 * /usr/include/kwin/wayland/wayland-linux-drm-syncobj-v1-server-protocol.h
 * /usr/include/kwin/wayland/wayland-presentation-time-server-protocol.h
-* /usr/include/kwin/wayland/wayland-xx-color-management-v4-server-protocol.h
 * /usr/include/kwin/wayland/xdgactivation_v1.h
 * /usr/include/kwin/wayland/xdgdecoration_v1.h
 * /usr/include/kwin/wayland/xdgdialog_v1.h
@@ -279,7 +280,6 @@ KDE Window Manager.
 * /usr/include/kwin/wayland/xdgtoplevelicon_v1.h
 * /usr/include/kwin/wayland/xwaylandkeyboardgrab_v1.h
 * /usr/include/kwin/wayland/xwaylandshell_v1.h
-* /usr/include/kwin/wayland/xx_colormanagement_v4.h
 * /usr/include/kwin/waylandshellintegration.h
 * /usr/include/kwin/waylandwindow.h
 * /usr/include/kwin/wayland_server.h
@@ -304,10 +304,10 @@ KDE Window Manager.
 * /usr/lib/kwin/kwin-applywindowdecoration
 * /usr/lib/kwin/kwin_killer_helper
 * /usr/lib/libkcmkwincommon.so.6
-* /usr/lib/libkcmkwincommon.so.6.3.1
+* /usr/lib/libkcmkwincommon.so.6.3.2
 * /usr/lib/libkwin.so
 * /usr/lib/libkwin.so.6
-* /usr/lib/libkwin.so.6.3.1
+* /usr/lib/libkwin.so.6.3.2
 * /usr/lib/qt6/plugins/kf6/packagestructure/kwin_aurorae.so
 * /usr/lib/qt6/plugins/kf6/packagestructure/kwin_decoration.so
 * /usr/lib/qt6/plugins/kf6/packagestructure/kwin_effect.so
@@ -738,7 +738,7 @@ KDE Window Manager.
 * /usr/share/doc/HTML/uk/kcontrol/windowbehaviour/index.docbook
 * /usr/share/doc/HTML/uk/kcontrol/windowspecific/index.cache.bz2
 * /usr/share/doc/HTML/uk/kcontrol/windowspecific/index.docbook
-* /usr/share/doc/kwin-6.3.1/README.md
+* /usr/share/doc/kwin-6.3.2.1/README.md
 * /usr/share/icons/hicolor/16x16/apps/kwin.png
 * /usr/share/icons/hicolor/32x32/apps/kwin.png
 * /usr/share/icons/hicolor/48x48/apps/kwin.png

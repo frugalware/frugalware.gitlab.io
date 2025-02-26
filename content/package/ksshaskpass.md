@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ksshaskpass 6.3.1-1"
-version = "6.3.1-1"
+title = "ksshaskpass 6.3.2-1"
+version = "6.3.2-1"
 description = "Kf5 implementation of ssh-askpass with Kwallet integration"
-date = "2025-02-18T16:34:40"
+date = "2025-02-26T09:35:58"
 aliases = "/packages/221349"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "28528"
-usize = "116380"
-sha1sum = "e4674f41369dbdd9b353c804e40b106ba5dc4668"
+size = "28532"
+usize = "116420"
+sha1sum = "c31af47d812d4a14b20d5c68a046f39739af1fe9"
 depends = "['kwallet>=6.11.0']"
 +++
 ### Description: 
@@ -20,9 +20,9 @@ Kf5 implementation of ssh-askpass with Kwallet integration
 * /etc/profile.d/ksshaskpass.sh
 * /usr/bin/ksshaskpass
 * /usr/share/applications/org.kde.ksshaskpass.desktop
-* /usr/share/doc/ksshaskpass-6.3.1/ChangeLog
-* /usr/share/doc/ksshaskpass-6.3.1/INSTALL
-* /usr/share/doc/ksshaskpass-6.3.1/README
+* /usr/share/doc/ksshaskpass-6.3.2/ChangeLog
+* /usr/share/doc/ksshaskpass-6.3.2/INSTALL
+* /usr/share/doc/ksshaskpass-6.3.2/README
 * /usr/share/locale/ar/LC_MESSAGES/ksshaskpass.mo
 * /usr/share/locale/ast/LC_MESSAGES/ksshaskpass.mo
 * /usr/share/locale/bg/LC_MESSAGES/ksshaskpass.mo

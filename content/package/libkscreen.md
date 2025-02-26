@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libkscreen 6.3.1-1"
-version = "6.3.1-1"
+title = "libkscreen 6.3.2-1"
+version = "6.3.2-1"
 description = "KDE screen management software."
-date = "2025-02-18T16:22:27"
+date = "2025-02-26T09:25:15"
 aliases = "/packages/221362"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "264876"
-usize = "1033097"
-sha1sum = "652e32b96287e8e3ef2c0737bde8ce24b7ca815e"
-depends = "['kconfig>=6.11.0', 'kwayland>=6.3.1', 'libxrandr>=1.5.0-5']"
+size = "264772"
+usize = "1033833"
+sha1sum = "e2d4051dc3d3770b5cf654e7b90fb81e038608cc"
+depends = "['kconfig>=6.11.0', 'kwayland>=6.3.2', 'libxrandr>=1.5.0-5']"
 reverse_depends = "['kscreen']"
 +++
 ### Description: 
@@ -52,10 +52,10 @@ KDE screen management software.
 * /usr/lib/cmake/KF6Screen/KF6ScreenTargets-release.cmake
 * /usr/lib/cmake/KF6Screen/KF6ScreenTargets.cmake
 * /usr/lib/libKF6Screen.so
-* /usr/lib/libKF6Screen.so.6.3.1
+* /usr/lib/libKF6Screen.so.6.3.2
 * /usr/lib/libKF6Screen.so.8
 * /usr/lib/libKF6ScreenDpms.so
-* /usr/lib/libKF6ScreenDpms.so.6.3.1
+* /usr/lib/libKF6ScreenDpms.so.6.3.2
 * /usr/lib/libKF6ScreenDpms.so.8
 * /usr/lib/libkscreen/kf6/kscreen_backend_launcher
 * /usr/lib/pkgconfig/KF6Screen.pc
@@ -65,7 +65,7 @@ KDE screen management software.
 * /usr/lib/qt6/plugins/kf6/kscreen/KSC_XRandR.so
 * /usr/lib/systemd/user/plasma-kscreen.service
 * /usr/share/dbus-1/services/org.kde.kscreen.service
-* /usr/share/doc/libkscreen-6.3.1/README.md
+* /usr/share/doc/libkscreen-6.3.2/README.md
 * /usr/share/locale/ar/LC_MESSAGES/libkscreen6_qt.qm
 * /usr/share/locale/ast/LC_MESSAGES/libkscreen6_qt.qm
 * /usr/share/locale/bg/LC_MESSAGES/libkscreen6_qt.qm
