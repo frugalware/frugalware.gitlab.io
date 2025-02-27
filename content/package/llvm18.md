@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "llvm18 18.1.8-1"
-version = "18.1.8-1"
+title = "llvm18 18.1.8-2"
+version = "18.1.8-2"
 description = "Low Level Virtual Machine (Compiler , Tools and Libs) Version 18"
-date = "2025-02-26T19:15:41"
+date = "2025-02-27T15:07:28"
 aliases = "/packages/222673"
 categories = ['devel-extra']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "32957796"
-usize = "153697773"
-sha1sum = "824a89780c849b6d8578ff141091ac4fefe5d19f"
-depends = "['libstdc++>=14.2.0', 'python3']"
+size = "32936728"
+usize = "153704237"
+sha1sum = "705eb9576d6b6b7bf4ad38637159b403e6bcb23c"
+depends = "['libstdc++>=14.2.0', 'llvm18-libs', 'python3']"
 +++
 ### Description: 
 Low Level Virtual Machine (Compiler , Tools and Libs) Version 18

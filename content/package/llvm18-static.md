@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "llvm18-static 18.1.8-1"
-version = "18.1.8-1"
+title = "llvm18-static 18.1.8-2"
+version = "18.1.8-2"
 description = "Low Level Virtual Machine (Compiler, Tools and Libs) Version 18(static)"
-date = "2025-02-26T19:15:41"
+date = "2025-02-27T15:07:28"
 aliases = "/packages/222679"
 categories = ['devel-extra-extra']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "41760240"
+size = "41773548"
 usize = "297906702"
-sha1sum = "ffd220a6d00b5f75d44bb15f585d7c7e75798cb9"
+sha1sum = "baedfe34d736b7410f87b2c3493352415c5655f3"
 depends = "[]"
 +++
 ### Description: 

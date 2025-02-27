@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "clang18 18.1.8-1"
-version = "18.1.8-1"
+title = "clang18 18.1.8-2"
+version = "18.1.8-2"
 description = "C/C++ language family frontend for LLVM18"
-date = "2025-02-26T19:15:41"
+date = "2025-02-27T15:07:28"
 aliases = "/packages/222674"
 categories = ['devel-extra']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "27125248"
-usize = "145515236"
-sha1sum = "bf339bbc6d6fbdc550facec0ca61844310c4385e"
-depends = "['libffi>=3.4', 'libxml2']"
+size = "27159424"
+usize = "145517860"
+sha1sum = "3f7a43723a5507fb3a36ec00379cc91167b2b52e"
+depends = "['clang18-libs>=18.1.8', 'libffi>=3.4', 'libxml2']"
 +++
 ### Description: 
 C/C++ language family frontend for LLVM18

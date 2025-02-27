@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "compiler-rt18-static 18.1.8-1"
-version = "18.1.8-1"
+title = "compiler-rt18-static 18.1.8-2"
+version = "18.1.8-2"
 description = "Compiler runtime libraries for clang (static)"
-date = "2025-02-26T19:15:41"
+date = "2025-02-27T15:07:28"
 aliases = "/packages/222680"
 categories = ['devel-extra-extra']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "2004696"
+size = "2005456"
 usize = "29040338"
-sha1sum = "05702ed03e5556c2bb4d698d70dd5c1a508b34c4"
+sha1sum = "dd75f91245e587eeae71c8571a114ce4d418eae6"
 depends = "[]"
 +++
 ### Description: 
