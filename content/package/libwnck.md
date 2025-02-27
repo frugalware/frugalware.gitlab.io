@@ -12,7 +12,7 @@ size = "165884"
 usize = "865833"
 sha1sum = "60ed2a3c5458ffc118a292e44cd7a59468694126"
 depends = "['gtk+3>=3.24.0', 'libffi>=3.2.1-2', 'libxres>=1.0.7-4', 'startup-notification>=0.12-6']"
-reverse_depends = "['notification-daemon']"
+reverse_depends = "['notification-daemon', 'soundux']"
 +++
 ### Description: 
 Window Navigator Construction Kit

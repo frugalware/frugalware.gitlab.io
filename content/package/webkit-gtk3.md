@@ -12,7 +12,7 @@ size = "33502228"
 usize = "142654936"
 sha1sum = "b30d0e867928b5268f75c6ddce8a59746fe53f2e"
 depends = "['bubblewrap', 'enchant', 'gperf', 'gst-libav', 'gst1-plugins-bad-webrtc', 'gst1-plugins-good', 'gtk+3', 'harfbuzz-icu', 'hyphen', 'libatomic', 'libavif>=1.0.1', 'libgudev', 'libmanette', 'libnotify', 'libseccomp', 'libsecret', 'libsoup', 'libsysprof-capture', 'libwebp', 'libxslt', 'libxt', 'openjpeg', 'woff2', 'wpebackend-fdo', 'xdg-dbus-proxy']"
-reverse_depends = "['geany-plugins', 'nm-openconnect', 'remmina-www', 'telegram-desktop', 'wxwidgets']"
+reverse_depends = "['geany-plugins', 'nm-openconnect', 'remmina-www', 'soundux', 'telegram-desktop', 'wxwidgets']"
 +++
 ### Description: 
 Open source web browser engine gtk+3
