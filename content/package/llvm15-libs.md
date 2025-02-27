@@ -12,7 +12,7 @@ size = "26697084"
 usize = "118353688"
 sha1sum = "5414e7d4ea10964da07cb036eb856d05e45a5b0a"
 depends = "['libedit>=20190324_3.1', 'libffi>=3.4', 'libxml2', 'ncurses>=6.0-16', 'zstd']"
-reverse_depends = "['clang15-libs', 'julia', 'llvm15']"
+reverse_depends = "['clang15-libs', 'llvm15']"
 +++
 ### Description: 
 LLVM15 shared libs

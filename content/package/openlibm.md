@@ -12,6 +12,7 @@ size = "103188"
 usize = "311320"
 sha1sum = "a43c5515fcf0084bfd597ed51c7980489f5251d9"
 depends = "['glibc']"
+reverse_depends = "['julia']"
 +++
 ### Description: 
 Standalone implementation of C mathematical functions

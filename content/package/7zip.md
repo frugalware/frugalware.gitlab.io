@@ -12,7 +12,7 @@ size = "2874612"
 usize = "11627010"
 sha1sum = "315be1efbcc97e71912aa6933906053bfa2d8404"
 depends = "['libstdc++>=11.2']"
-reverse_depends = "['element', 'julia']"
+reverse_depends = "['element', 'julia', 'julia']"
 +++
 ### Description: 
 7-Zip is a file archiver with high compression ratio.

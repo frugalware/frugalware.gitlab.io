@@ -12,7 +12,7 @@ size = "450608"
 usize = "875543"
 sha1sum = "850cbea6735b78d1b2aaaaeb229f83bceeba19d4"
 depends = "['glibc>=2.34']"
-reverse_depends = "['julia', 'qtermwidget', 'sdlmame', 'subversion']"
+reverse_depends = "['julia', 'julia', 'qtermwidget', 'sdlmame', 'subversion']"
 +++
 ### Description: 
 A clean C library for processing UTF-8 Unicode data.
