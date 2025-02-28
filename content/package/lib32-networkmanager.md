@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-networkmanager 1.50.0-1"
-version = "1.50.0-1"
+title = "lib32-networkmanager 1.52.0-1"
+version = "1.52.0-1"
 description = "Network Management daemon ( 32bit )"
-date = "2024-10-03T12:07:15"
+date = "2025-02-28T16:30:09"
 aliases = "/packages/218960"
 categories = ['lib32-extra']
-upstreamurl = "http://www.gnome.org/"
+upstreamurl = "https://networkmanager.dev"
 arch = "x86_64"
-size = "2574836"
-usize = "10394100"
-sha1sum = "1966cb0180c601f4ed6c866209f9e306653e1d00"
+size = "2610632"
+usize = "10556625"
+sha1sum = "798bdfe5f94310f23329eec5b0fc691d72f9f743"
 depends = "['lib32-curl', 'lib32-dbus-glib', 'lib32-glib2', 'lib32-jansson', 'lib32-libgudev', 'lib32-libndp', 'lib32-libnl', 'lib32-libpsl', 'lib32-modemmanager', 'lib32-newt', 'lib32-nss', 'lib32-polkit', 'lib32-readline']"
 reverse_depends = "['steam-native']"
 +++
@@ -47,6 +47,7 @@ Network Management daemon ( 32bit )
 * /usr/i686-frugalware-linux/include/libnm/nm-device-hsr.h
 * /usr/i686-frugalware-linux/include/libnm/nm-device-infiniband.h
 * /usr/i686-frugalware-linux/include/libnm/nm-device-ip-tunnel.h
+* /usr/i686-frugalware-linux/include/libnm/nm-device-ipvlan.h
 * /usr/i686-frugalware-linux/include/libnm/nm-device-loopback.h
 * /usr/i686-frugalware-linux/include/libnm/nm-device-macsec.h
 * /usr/i686-frugalware-linux/include/libnm/nm-device-macvlan.h
@@ -99,6 +100,7 @@ Network Management daemon ( 32bit )
 * /usr/i686-frugalware-linux/include/libnm/nm-setting-ip-tunnel.h
 * /usr/i686-frugalware-linux/include/libnm/nm-setting-ip4-config.h
 * /usr/i686-frugalware-linux/include/libnm/nm-setting-ip6-config.h
+* /usr/i686-frugalware-linux/include/libnm/nm-setting-ipvlan.h
 * /usr/i686-frugalware-linux/include/libnm/nm-setting-link.h
 * /usr/i686-frugalware-linux/include/libnm/nm-setting-loopback.h
 * /usr/i686-frugalware-linux/include/libnm/nm-setting-macsec.h
@@ -151,13 +153,13 @@ Network Management daemon ( 32bit )
 * /usr/lib32/libnm.so
 * /usr/lib32/libnm.so.0
 * /usr/lib32/libnm.so.0.1.0
-* /usr/lib32/NetworkManager/1.50.0/libnm-device-plugin-adsl.so
-* /usr/lib32/NetworkManager/1.50.0/libnm-device-plugin-bluetooth.so
-* /usr/lib32/NetworkManager/1.50.0/libnm-device-plugin-ovs.so
-* /usr/lib32/NetworkManager/1.50.0/libnm-device-plugin-wifi.so
-* /usr/lib32/NetworkManager/1.50.0/libnm-device-plugin-wwan.so
-* /usr/lib32/NetworkManager/1.50.0/libnm-ppp-plugin.so
-* /usr/lib32/NetworkManager/1.50.0/libnm-wwan.so
+* /usr/lib32/NetworkManager/1.52.0/libnm-device-plugin-adsl.so
+* /usr/lib32/NetworkManager/1.52.0/libnm-device-plugin-bluetooth.so
+* /usr/lib32/NetworkManager/1.52.0/libnm-device-plugin-ovs.so
+* /usr/lib32/NetworkManager/1.52.0/libnm-device-plugin-wifi.so
+* /usr/lib32/NetworkManager/1.52.0/libnm-device-plugin-wwan.so
+* /usr/lib32/NetworkManager/1.52.0/libnm-ppp-plugin.so
+* /usr/lib32/NetworkManager/1.52.0/libnm-wwan.so
 * /usr/lib32/networkmanager/nm-cloud-setup
 * /usr/lib32/networkmanager/nm-daemon-helper
 * /usr/lib32/networkmanager/nm-dhcp-helper
@@ -165,4 +167,4 @@ Network Management daemon ( 32bit )
 * /usr/lib32/networkmanager/nm-initrd-generator
 * /usr/lib32/networkmanager/nm-priv-helper
 * /usr/lib32/pkgconfig/libnm.pc
-* /usr/lib32/pppd/2.5.1/nm-pppd-plugin.so
+* /usr/lib32/pppd/2.5.2/nm-pppd-plugin.so
