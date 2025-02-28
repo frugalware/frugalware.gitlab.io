@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "dbus 1.16.0-1"
-version = "1.16.0-1"
+title = "dbus 1.16.2-1"
+version = "1.16.2-1"
 description = "A message bus system"
-date = "2024-12-16T18:49:32"
+date = "2025-02-28T09:23:28"
 aliases = "/packages/2961"
 categories = ['base']
 upstreamurl = "http://freedesktop.org/wiki/Software/dbus"
 arch = "x86_64"
-size = "498480"
-usize = "1623934"
-sha1sum = "87b6ea6eaf1cf582e6f64862ece5c01e8dae6235"
+size = "499096"
+usize = "1625218"
+sha1sum = "910d69b0ffeeb788be5ff7af4b410eb928f75d25"
 depends = "['expat>=2.1.0-5', 'libsystemd>=242', 'scriptlet-core']"
 reverse_depends = "['at-spi2-core', 'avahi', 'bluez', 'cef', 'cups', 'dbus-c++', 'dbus-glib', 'dbus-x11', 'dnsmasq', 'efl', 'enlightenment', 'gvfs', 'hexchat', 'inkscape', 'jack2', 'kdbus', 'kitty', 'libatspi', 'libnvme', 'libpcap', 'libproxy', 'libpulse', 'libvlc', 'lumina-desktop', 'mp3splt-gtk', 'pulseaudio', 'pulseaudio-bluetooth', 'qt5-base', 'rtkit', 'systemd', 'terminology', 'threema-desktop', 'whalebird', 'wireshark', 'wpa_supplicant', 'xorg-server']"
 +++
@@ -65,17 +65,17 @@ A message bus system
 * /usr/lib/tmpfiles.d/dbus.conf
 * /usr/share/dbus-1/session.conf
 * /usr/share/dbus-1/system.conf
-* /usr/share/doc/dbus-1.16.0/AUTHORS
-* /usr/share/doc/dbus-1.16.0/COPYING
-* /usr/share/doc/dbus-1.16.0/INSTALL
-* /usr/share/doc/dbus-1.16.0/NEWS
-* /usr/share/doc/dbus-1.16.0/README
-* /usr/share/doc/dbus-1.16.0/README.cmake
-* /usr/share/doc/dbus-1.16.0/README.cygwin
-* /usr/share/doc/dbus-1.16.0/README.launchd
-* /usr/share/doc/dbus-1.16.0/README.valgrind
-* /usr/share/doc/dbus-1.16.0/README.win
-* /usr/share/doc/dbus-1.16.0/README.wince
+* /usr/share/doc/dbus-1.16.2/AUTHORS
+* /usr/share/doc/dbus-1.16.2/COPYING
+* /usr/share/doc/dbus-1.16.2/INSTALL
+* /usr/share/doc/dbus-1.16.2/NEWS
+* /usr/share/doc/dbus-1.16.2/README
+* /usr/share/doc/dbus-1.16.2/README.cmake
+* /usr/share/doc/dbus-1.16.2/README.cygwin
+* /usr/share/doc/dbus-1.16.2/README.launchd
+* /usr/share/doc/dbus-1.16.2/README.valgrind
+* /usr/share/doc/dbus-1.16.2/README.win
+* /usr/share/doc/dbus-1.16.2/README.wince
 * /usr/share/doc/dbus/dbus-cleanup-sockets.1.html
 * /usr/share/doc/dbus/dbus-daemon.1.html
 * /usr/share/doc/dbus/dbus-faq.html

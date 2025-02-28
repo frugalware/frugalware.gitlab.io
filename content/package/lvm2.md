@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lvm2 2.03.30-1"
-version = "2.03.30-1"
+title = "lvm2 2.03.31-1"
+version = "2.03.31-1"
 description = "Logical Volume Manager 2 utilities"
-date = "2025-01-15T14:00:48"
+date = "2025-02-28T09:19:23"
 aliases = "/packages/3220"
 categories = ['base']
 upstreamurl = "http://sources.redhat.com/lvm2/"
 arch = "x86_64"
-size = "1484572"
-usize = "3776580"
-sha1sum = "d40bf332c72b2a748ebeaee1db1314f9665a2b3b"
+size = "1492372"
+usize = "3807015"
+sha1sum = "70a33f9ab4c6a90b53d112b62b6d37c251e2f3be"
 depends = "['libaio', 'libblkid>=2.31.1-3', 'libsystemd', 'libudev>=242', 'lvm2-libs', 'ncurses>=6.1', 'readline>=8.0', 'systemd-systemctl', 'thin-provisioning-tools>=1.0.2']"
 reverse_depends = "['docker', 'dracut', 'kernel-initrd', 'kernel-lts-initrd', 'libvirt', 'multipath-tools', 'parted', 'udisks2', 'virtualbox']"
 +++
@@ -102,13 +102,14 @@ Logical Volume Manager 2 utilities
 * /usr/lib/udev/rules.d/13-dm-disk.rules
 * /usr/lib/udev/rules.d/69-dm-lvm.rules
 * /usr/lib/udev/rules.d/95-dm-notify.rules
-* /usr/share/doc/lvm2-2.03.30/COPYING
-* /usr/share/doc/lvm2-2.03.30/COPYING.BSD
-* /usr/share/doc/lvm2-2.03.30/COPYING.LIB
-* /usr/share/doc/lvm2-2.03.30/INSTALL
-* /usr/share/doc/lvm2-2.03.30/README
-* /usr/share/doc/lvm2-2.03.30/README.Frugalware
-* /usr/share/doc/lvm2-2.03.30/VERSION
+* /usr/share/doc/lvm2-2.03.31/COPYING
+* /usr/share/doc/lvm2-2.03.31/COPYING.BSD
+* /usr/share/doc/lvm2-2.03.31/COPYING.LIB
+* /usr/share/doc/lvm2-2.03.31/INSTALL
+* /usr/share/doc/lvm2-2.03.31/README
+* /usr/share/doc/lvm2-2.03.31/README.Frugalware
+* /usr/share/doc/lvm2-2.03.31/README.md
+* /usr/share/doc/lvm2-2.03.31/VERSION
 * /usr/share/man/man5/lvm.conf.5.gz
 * /usr/share/man/man7/lvmautoactivation.7.gz
 * /usr/share/man/man7/lvmcache.7.gz
