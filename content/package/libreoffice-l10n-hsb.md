@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libreoffice-l10n-hsb 25.2.0.3-4"
-version = "25.2.0.3-4"
+title = "libreoffice-l10n-hsb 25.2.1.2-1"
+version = "25.2.1.2-1"
 description = "Installs Upper Sorbian support in LibreOffice"
-date = "2025-02-13T14:29:14"
+date = "2025-02-28T12:58:27"
 aliases = "/packages/219250"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4925956"
-usize = "36338476"
-sha1sum = "97c9d6d5682bac20bce588bf6e0869cbd83d93af"
-depends = "['libreoffice>=25.2.0.3']"
+size = "4949080"
+usize = "36447634"
+sha1sum = "0e23b43cbaa9a4a5b253419530a849136e77e130"
+depends = "['libreoffice>=25.2.1.2']"
 +++
 ### Description: 
 Installs Upper Sorbian support in LibreOffice

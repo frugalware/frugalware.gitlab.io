@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libreoffice-l10n-pa-in 25.2.0.3-4"
-version = "25.2.0.3-4"
+title = "libreoffice-l10n-pa-in 25.2.1.2-1"
+version = "25.2.1.2-1"
 description = "Installs Punjabi support in LibreOffice"
-date = "2025-02-13T14:29:14"
+date = "2025-02-28T12:58:27"
 aliases = "/packages/104102"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "422728"
-usize = "2615331"
-sha1sum = "0606d48450ffc170039ef0b7a5b9a24b4d6d7011"
-depends = "['libreoffice>=25.2.0.3']"
+size = "423936"
+usize = "2621466"
+sha1sum = "d3cdc8fbf3f23dbe0e36deaaaae8de8b6906625b"
+depends = "['libreoffice>=25.2.1.2']"
 +++
 ### Description: 
 Installs Punjabi support in LibreOffice

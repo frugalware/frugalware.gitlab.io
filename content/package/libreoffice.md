@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice 25.2.0.3-4"
-version = "25.2.0.3-4"
+title = "libreoffice 25.2.1.2-1"
+version = "25.2.1.2-1"
 description = "Free Software Productivity Suite"
-date = "2025-02-13T14:29:14"
+date = "2025-02-28T12:58:27"
 aliases = "/packages/104025"
 categories = ['xoffice']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "176141232"
-usize = "624859976"
-sha1sum = "aba676f61743d541e3c36b71e42673c2bf768640"
+size = "177664568"
+usize = "626759195"
+sha1sum = "2dd16d58db7fdba0bce994d765b1f8e7c74e2f22"
 depends = "['box2d', 'clucene', 'cups', 'desktop-file-utils', 'expat', 'flex', 'fontconfig', 'glew>=2.0.0-2', 'graphite2', 'harfbuzz-icu', 'hyphen', 'libabw', 'libboost>=1.87.0', 'libcdr>=0.0.10', 'libcmis>=0.6.2', 'libe-book', 'libepubgen', 'libetonyek', 'libexttextcat>=3.4.5', 'libfreehand', 'libgpgmepp', 'libjpeg-turbo', 'liblangtag', 'libmspub', 'libmwaw>=0.2.0', 'libnumbertext>=1.0.3', 'libodfgen', 'liborcus>=0.19.2', 'libpagemaker', 'libpng>=1.6.25', 'libqxp', 'librdf', 'libsndfile', 'libstaroffice', 'libvisio>=0.0.24-2', 'libwps>=0.4.0', 'libxaw>=1.0.5', 'libxml2', 'libxrandr', 'libxslt', 'libzmf>=0.0.2', 'lp_solve', 'mariadb-libs>=10.3.14', 'mythes', 'openjre', 'openjre-x', 'perl-archive-zip', 'poppler-glib>=25.02.0', 'python3>=3.13', 'sane-backends', 'startup-notification>=0.9-3', 'unixodbc>=2.3.1', 'unzip', 'xmlsec1>=1.2.25-2', 'zip', 'zxcvbn-c']"
 reverse_depends = "['libreoffice-gtk3', 'libreoffice-gtk3-kde5', 'libreoffice-kde5', 'libreoffice-l10n-ab', 'libreoffice-l10n-af', 'libreoffice-l10n-am', 'libreoffice-l10n-ar', 'libreoffice-l10n-as', 'libreoffice-l10n-ast', 'libreoffice-l10n-be', 'libreoffice-l10n-bg', 'libreoffice-l10n-bn', 'libreoffice-l10n-bn-in', 'libreoffice-l10n-bo', 'libreoffice-l10n-br', 'libreoffice-l10n-brx', 'libreoffice-l10n-bs', 'libreoffice-l10n-ca', 'libreoffice-l10n-ca-valencia', 'libreoffice-l10n-ckb', 'libreoffice-l10n-cs', 'libreoffice-l10n-cy', 'libreoffice-l10n-da', 'libreoffice-l10n-de', 'libreoffice-l10n-dgo', 'libreoffice-l10n-dsb', 'libreoffice-l10n-dz', 'libreoffice-l10n-el', 'libreoffice-l10n-en-gb', 'libreoffice-l10n-en-za', 'libreoffice-l10n-eo', 'libreoffice-l10n-es', 'libreoffice-l10n-et', 'libreoffice-l10n-eu', 'libreoffice-l10n-fa', 'libreoffice-l10n-fi', 'libreoffice-l10n-fr', 'libreoffice-l10n-fur', 'libreoffice-l10n-fy', 'libreoffice-l10n-ga', 'libreoffice-l10n-gd', 'libreoffice-l10n-gl', 'libreoffice-l10n-gu', 'libreoffice-l10n-gug', 'libreoffice-l10n-he', 'libreoffice-l10n-hi', 'libreoffice-l10n-hr', 'libreoffice-l10n-hsb', 'libreoffice-l10n-hu', 'libreoffice-l10n-hy', 'libreoffice-l10n-id', 'libreoffice-l10n-is', 'libreoffice-l10n-it', 'libreoffice-l10n-ja', 'libreoffice-l10n-ka', 'libreoffice-l10n-kab', 'libreoffice-l10n-kk', 'libreoffice-l10n-km', 'libreoffice-l10n-kmr-latn', 'libreoffice-l10n-kn', 'libreoffice-l10n-ko', 'libreoffice-l10n-kok', 'libreoffice-l10n-ks', 'libreoffice-l10n-lb', 'libreoffice-l10n-lo', 'libreoffice-l10n-lt', 'libreoffice-l10n-lv', 'libreoffice-l10n-mai', 'libreoffice-l10n-mk', 'libreoffice-l10n-ml', 'libreoffice-l10n-mn', 'libreoffice-l10n-mni', 'libreoffice-l10n-mr', 'libreoffice-l10n-my', 'libreoffice-l10n-nb', 'libreoffice-l10n-ne', 'libreoffice-l10n-nl', 'libreoffice-l10n-nn', 'libreoffice-l10n-nr', 'libreoffice-l10n-nso', 'libreoffice-l10n-oc', 'libreoffice-l10n-om', 'libreoffice-l10n-or', 'libreoffice-l10n-pa-in', 'libreoffice-l10n-pl', 'libreoffice-l10n-pt', 'libreoffice-l10n-pt-br', 'libreoffice-l10n-ro', 'libreoffice-l10n-ru', 'libreoffice-l10n-rw', 'libreoffice-l10n-sa-in', 'libreoffice-l10n-sat', 'libreoffice-l10n-sat-olck', 'libreoffice-l10n-sd', 'libreoffice-l10n-si', 'libreoffice-l10n-sid', 'libreoffice-l10n-sk', 'libreoffice-l10n-sl', 'libreoffice-l10n-sq', 'libreoffice-l10n-sr', 'libreoffice-l10n-sr-latn', 'libreoffice-l10n-ss', 'libreoffice-l10n-st', 'libreoffice-l10n-sv', 'libreoffice-l10n-sw-tz', 'libreoffice-l10n-szl', 'libreoffice-l10n-ta', 'libreoffice-l10n-te', 'libreoffice-l10n-tg', 'libreoffice-l10n-th', 'libreoffice-l10n-tl', 'libreoffice-l10n-tn', 'libreoffice-l10n-tr', 'libreoffice-l10n-ts', 'libreoffice-l10n-tt', 'libreoffice-l10n-ug', 'libreoffice-l10n-uk', 'libreoffice-l10n-uz', 'libreoffice-l10n-ve', 'libreoffice-l10n-vec', 'libreoffice-l10n-vi', 'libreoffice-l10n-xh', 'libreoffice-l10n-zh-cn', 'libreoffice-l10n-zh-tw', 'libreoffice-l10n-zu', 'libreoffice-nlpsolver', 'libreoffice-postgresql', 'libreoffice-report-builder', 'libreoffice-scripting-beanshell', 'libreoffice-scripting-javascript', 'libreoffice-scripting-python', 'unoconv']"
 +++
@@ -2726,6 +2726,55 @@ Free Software Productivity Suite
 * /usr/lib/libreoffice/share/gallery/arrows.sdv
 * /usr/lib/libreoffice/share/gallery/arrows.str
 * /usr/lib/libreoffice/share/gallery/arrows.thm
+* /usr/lib/libreoffice/share/gallery/backgrounds.sdg
+* /usr/lib/libreoffice/share/gallery/backgrounds.sdv
+* /usr/lib/libreoffice/share/gallery/backgrounds.str
+* /usr/lib/libreoffice/share/gallery/backgrounds.thm
+* /usr/lib/libreoffice/share/gallery/backgrounds/brick-wall.png
+* /usr/lib/libreoffice/share/gallery/backgrounds/cardboard.jpg
+* /usr/lib/libreoffice/share/gallery/backgrounds/circuit-board.jpg
+* /usr/lib/libreoffice/share/gallery/backgrounds/cloud.jpg
+* /usr/lib/libreoffice/share/gallery/backgrounds/coffee.jpg
+* /usr/lib/libreoffice/share/gallery/backgrounds/color-stripes.png
+* /usr/lib/libreoffice/share/gallery/backgrounds/concrete.jpg
+* /usr/lib/libreoffice/share/gallery/backgrounds/crumpled-paper.jpg
+* /usr/lib/libreoffice/share/gallery/backgrounds/fence.jpg
+* /usr/lib/libreoffice/share/gallery/backgrounds/floral.png
+* /usr/lib/libreoffice/share/gallery/backgrounds/fuzzy-darkgrey.jpg
+* /usr/lib/libreoffice/share/gallery/backgrounds/fuzzy-grey.jpg
+* /usr/lib/libreoffice/share/gallery/backgrounds/fuzzy-lightgrey.jpg
+* /usr/lib/libreoffice/share/gallery/backgrounds/giraffe.png
+* /usr/lib/libreoffice/share/gallery/backgrounds/graph-paper.png
+* /usr/lib/libreoffice/share/gallery/backgrounds/ice-light.jpg
+* /usr/lib/libreoffice/share/gallery/backgrounds/invoice-paper.jpg
+* /usr/lib/libreoffice/share/gallery/backgrounds/leaf.jpg
+* /usr/lib/libreoffice/share/gallery/backgrounds/maple-leaves.jpg
+* /usr/lib/libreoffice/share/gallery/backgrounds/marble.jpg
+* /usr/lib/libreoffice/share/gallery/backgrounds/painted-white.jpg
+* /usr/lib/libreoffice/share/gallery/backgrounds/painted-wood.jpg
+* /usr/lib/libreoffice/share/gallery/backgrounds/parchment-paper.jpg
+* /usr/lib/libreoffice/share/gallery/backgrounds/pebble-light.jpg
+* /usr/lib/libreoffice/share/gallery/backgrounds/pool.jpg
+* /usr/lib/libreoffice/share/gallery/backgrounds/rock-wall.jpg
+* /usr/lib/libreoffice/share/gallery/backgrounds/sand-light.jpg
+* /usr/lib/libreoffice/share/gallery/backgrounds/sand.jpg
+* /usr/lib/libreoffice/share/gallery/backgrounds/sky.jpg
+* /usr/lib/libreoffice/share/gallery/backgrounds/space.png
+* /usr/lib/libreoffice/share/gallery/backgrounds/stone-gray.jpg
+* /usr/lib/libreoffice/share/gallery/backgrounds/stone-wall.jpg
+* /usr/lib/libreoffice/share/gallery/backgrounds/stone.jpg
+* /usr/lib/libreoffice/share/gallery/backgrounds/stones.jpg
+* /usr/lib/libreoffice/share/gallery/backgrounds/studio.jpg
+* /usr/lib/libreoffice/share/gallery/backgrounds/surface-black.jpg
+* /usr/lib/libreoffice/share/gallery/backgrounds/surface.jpg
+* /usr/lib/libreoffice/share/gallery/backgrounds/texture-paper.jpg
+* /usr/lib/libreoffice/share/gallery/backgrounds/tiger.jpg
+* /usr/lib/libreoffice/share/gallery/backgrounds/tiles.jpg
+* /usr/lib/libreoffice/share/gallery/backgrounds/white-diffusion.jpg
+* /usr/lib/libreoffice/share/gallery/backgrounds/wood.jpg
+* /usr/lib/libreoffice/share/gallery/backgrounds/wooden-board.jpg
+* /usr/lib/libreoffice/share/gallery/backgrounds/wooden-fence.jpg
+* /usr/lib/libreoffice/share/gallery/backgrounds/zebra.png
 * /usr/lib/libreoffice/share/gallery/bigapple.gif
 * /usr/lib/libreoffice/share/gallery/bpmn.sdg
 * /usr/lib/libreoffice/share/gallery/bpmn.sdv
@@ -3492,14 +3541,14 @@ Free Software Productivity Suite
 * /usr/share/applications/libreoffice-startcenter.desktop
 * /usr/share/applications/libreoffice-writer.desktop
 * /usr/share/applications/libreoffice-xsltfilter.desktop
-* /usr/share/doc/libreoffice-25.2.0.3/ChangeLog
-* /usr/share/doc/libreoffice-25.2.0.3/COPYING
-* /usr/share/doc/libreoffice-25.2.0.3/COPYING.LGPL
-* /usr/share/doc/libreoffice-25.2.0.3/COPYING.MPL
-* /usr/share/doc/libreoffice-25.2.0.3/README.cross
-* /usr/share/doc/libreoffice-25.2.0.3/README.help.md
-* /usr/share/doc/libreoffice-25.2.0.3/README.md
-* /usr/share/doc/libreoffice-25.2.0.3/README.Solaris
+* /usr/share/doc/libreoffice-25.2.1.2/ChangeLog
+* /usr/share/doc/libreoffice-25.2.1.2/COPYING
+* /usr/share/doc/libreoffice-25.2.1.2/COPYING.LGPL
+* /usr/share/doc/libreoffice-25.2.1.2/COPYING.MPL
+* /usr/share/doc/libreoffice-25.2.1.2/README.cross
+* /usr/share/doc/libreoffice-25.2.1.2/README.help.md
+* /usr/share/doc/libreoffice-25.2.1.2/README.md
+* /usr/share/doc/libreoffice-25.2.1.2/README.Solaris
 * /usr/share/man/man1/libreoffice.1.gz
 * /usr/share/man/man1/unopkg.1.gz
 * /usr/share/mime/packages/libreoffice.xml

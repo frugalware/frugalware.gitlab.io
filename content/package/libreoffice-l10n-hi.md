@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libreoffice-l10n-hi 25.2.0.3-4"
-version = "25.2.0.3-4"
+title = "libreoffice-l10n-hi 25.2.1.2-1"
+version = "25.2.1.2-1"
 description = "Installs Hindi support in LibreOffice"
-date = "2025-02-13T14:29:14"
+date = "2025-02-28T12:58:27"
 aliases = "/packages/104065"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4142844"
-usize = "33898590"
-sha1sum = "672aa69cf80676dcbf1292cee4813624d09a713b"
-depends = "['libreoffice>=25.2.0.3']"
+size = "4151120"
+usize = "34006741"
+sha1sum = "771956729f9be3e8f810a5c056a73f328cc40aa1"
+depends = "['libreoffice>=25.2.1.2']"
 +++
 ### Description: 
 Installs Hindi support in LibreOffice

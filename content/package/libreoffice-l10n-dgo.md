@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libreoffice-l10n-dgo 25.2.0.3-4"
-version = "25.2.0.3-4"
+title = "libreoffice-l10n-dgo 25.2.1.2-1"
+version = "25.2.1.2-1"
 description = "Installs Dogri support in LibreOffice"
-date = "2025-02-13T14:29:14"
+date = "2025-02-28T12:58:27"
 aliases = "/packages/104048"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "305836"
-usize = "2049816"
-sha1sum = "6b61bc77e1fd65840fa8f8e333f053ddc06f510c"
-depends = "['libreoffice>=25.2.0.3']"
+size = "306296"
+usize = "2049802"
+sha1sum = "cbed0a0d597e3f94ef33e0ecb428ffc597501b3d"
+depends = "['libreoffice>=25.2.1.2']"
 +++
 ### Description: 
 Installs Dogri support in LibreOffice

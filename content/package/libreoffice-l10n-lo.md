@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libreoffice-l10n-lo 25.2.0.3-4"
-version = "25.2.0.3-4"
+title = "libreoffice-l10n-lo 25.2.1.2-1"
+version = "25.2.1.2-1"
 description = "Installs Lao support in LibreOffice"
-date = "2025-02-13T14:29:14"
+date = "2025-02-28T12:58:27"
 aliases = "/packages/104081"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "3865868"
-usize = "32162998"
-sha1sum = "4cb76512af2965ce4e978d412d6bb99951d2afab"
-depends = "['libreoffice>=25.2.0.3']"
+size = "3910756"
+usize = "32405574"
+sha1sum = "0bb8f6d3bdb1c083463491c2eec982ae5b24d7e4"
+depends = "['libreoffice>=25.2.1.2']"
 +++
 ### Description: 
 Installs Lao support in LibreOffice
