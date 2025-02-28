@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libwebsockets 4.3.3-1"
-version = "4.3.3-1"
+title = "libwebsockets 4.3.5-1"
+version = "4.3.5-1"
 description = "C library for websocket clients and servers"
-date = "2023-12-04T08:09:35"
+date = "2025-02-28T14:34:25"
 aliases = "/packages/220925"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/warmcat/libwebsockets"
 arch = "x86_64"
-size = "385992"
-usize = "1408321"
-sha1sum = "05464a2a8ef450267464c6665a59f1dd4054dce6"
+size = "387976"
+usize = "1388923"
+sha1sum = "c6e93197b5af37bb5a60b9a33ee637eb10def5b7"
 depends = "['glibc', 'libev', 'libuv', 'openssl>=3.1.0']"
 reverse_depends = "['seafile']"
 +++
@@ -115,5 +115,5 @@ C library for websocket clients and servers
 * /usr/lib/libwebsockets.so.19
 * /usr/lib/pkgconfig/libwebsockets.pc
 * /usr/lib/pkgconfig/libwebsockets_static.pc
-* /usr/share/doc/libwebsockets-4.3.3/LICENSE
-* /usr/share/doc/libwebsockets-4.3.3/README.md
+* /usr/share/doc/libwebsockets-4.3.5/LICENSE
+* /usr/share/doc/libwebsockets-4.3.5/README.md

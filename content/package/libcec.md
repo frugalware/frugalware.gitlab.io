@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libcec 6.0.2-2"
-version = "6.0.2-2"
+title = "libcec 7.0.0-1"
+version = "7.0.0-1"
 description = "Pulse-Eight's libcec for the Pulse-Eight USB-CEC adapter"
-date = "2024-04-28T12:57:06"
+date = "2025-02-28T14:32:36"
 aliases = "/packages/220614"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/Pulse-Eight/libcec"
 arch = "x86_64"
-size = "206372"
-usize = "797388"
-sha1sum = "4c739e90d312175a56f174a375c3c1780e0069ef"
+size = "207196"
+usize = "778597"
+sha1sum = "09d31f9233a139656715f369981721df2e48f82a"
 depends = "['libudev', 'libxrandr', 'ncurses>=6.5', 'p8-platform']"
 +++
 ### Description: 
@@ -18,9 +18,9 @@ Pulse-Eight's libcec for the Pulse-Eight USB-CEC adapter
 
 ### Files: 
 * /usr/bin/cec-client
-* /usr/bin/cec-client-6.0.2
+* /usr/bin/cec-client-7.0.0
 * /usr/bin/cecc-client
-* /usr/bin/cecc-client-6.0.2
+* /usr/bin/cecc-client-7.0.0
 * /usr/bin/pyCecClient
 * /usr/include/libcec/cec.h
 * /usr/include/libcec/cecc.h
@@ -29,10 +29,9 @@ Pulse-Eight's libcec for the Pulse-Eight USB-CEC adapter
 * /usr/include/libcec/cectypes.h
 * /usr/include/libcec/version.h
 * /usr/lib/libcec.so
-* /usr/lib/libcec.so.6
-* /usr/lib/libcec.so.6.0.2
+* /usr/lib/libcec.so.7
+* /usr/lib/libcec.so.7.0.0
 * /usr/lib/pkgconfig/libcec.pc
-* /usr/share/doc/libcec-6.0.2/AUTHORS
-* /usr/share/doc/libcec-6.0.2/ChangeLog
-* /usr/share/doc/libcec-6.0.2/COPYING
-* /usr/share/doc/libcec-6.0.2/README.md
+* /usr/share/doc/libcec-7.0.0/AUTHORS
+* /usr/share/doc/libcec-7.0.0/ChangeLog
+* /usr/share/doc/libcec-7.0.0/README.md
