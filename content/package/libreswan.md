@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreswan 5.1-1"
-version = "5.1-1"
+title = "libreswan 5.2-1"
+version = "5.2-1"
 description = "IPsec implementation with IKEv1 and IKEv2 keying protocols"
-date = "2024-10-27T15:05:32"
+date = "2025-02-28T16:01:24"
 aliases = "/packages/218629"
 categories = ['network-extra']
 upstreamurl = "http://libreswan.org/"
 arch = "x86_64"
-size = "1172488"
-usize = "4400404"
-sha1sum = "85597d8c0a99abee300e90930a731d54c8e576ed"
+size = "1206172"
+usize = "4541135"
+sha1sum = "983ed132dbda451cb1c1655155678be26e8aca45"
 depends = "['curl', 'ldns>=1.7.1', 'libcap-ng', 'libevent>=2.1.11', 'libsystemd', 'libxcrypt', 'nss', 'unbound>=1.18.0']"
 +++
 ### Description: 
@@ -59,14 +59,14 @@ IPsec implementation with IKEv1 and IKEv2 keying protocols
 * /usr/lib/ipsec/_vendoridcheck
 * /usr/lib/systemd/system/ipsec.service
 * /usr/lib/tmpfiles.d/libreswan.conf
-* /usr/share/doc/libreswan-5.1/CHANGES
-* /usr/share/doc/libreswan-5.1/COPYING
-* /usr/share/doc/libreswan-5.1/CREDITS
-* /usr/share/doc/libreswan-5.1/INSTALL
-* /usr/share/doc/libreswan-5.1/LICENSE
-* /usr/share/doc/libreswan-5.1/README.md
-* /usr/share/doc/libreswan-5.1/README.nss
-* /usr/share/doc/libreswan-5.1/README.x509
+* /usr/share/doc/libreswan-5.2/CHANGES
+* /usr/share/doc/libreswan-5.2/COPYING
+* /usr/share/doc/libreswan-5.2/CREDITS
+* /usr/share/doc/libreswan-5.2/INSTALL
+* /usr/share/doc/libreswan-5.2/LICENSE
+* /usr/share/doc/libreswan-5.2/README.md
+* /usr/share/doc/libreswan-5.2/README.nss
+* /usr/share/doc/libreswan-5.2/README.x509
 * /usr/share/doc/libreswan/ipsec.conf-sample
 * /usr/share/doc/libreswan/ipsec.d/policies/block
 * /usr/share/doc/libreswan/ipsec.d/policies/clear
