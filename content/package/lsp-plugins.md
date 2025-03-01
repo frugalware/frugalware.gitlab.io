@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lsp-plugins 1.2.20-1"
-version = "1.2.20-1"
+title = "lsp-plugins 1.2.21-1"
+version = "1.2.21-1"
 description = "Collection of open-source plugins"
-date = "2025-01-17T19:09:48"
+date = "2025-03-01T19:09:51"
 aliases = "/packages/221033"
 categories = ['multimedia-extra']
 upstreamurl = "https://lsp-plug.in"
 arch = "x86_64"
-size = "33410060"
-usize = "86353217"
-sha1sum = "8f1c63962f272aa486cdf586c6eb5149839b7c1a"
+size = "33400788"
+usize = "86430594"
+sha1sum = "c75fc7a7986ca81685f1c931fd5dd26e02d5c4a3"
 depends = "['cairo', 'jack2', 'libglvnd', 'libxrandr']"
 reverse_depends = "['easyeffects']"
 +++
@@ -205,7 +205,7 @@ Collection of open-source plugins
 * /usr/bin/lsp-plugins-trigger-stereo
 * /usr/lib/clap/lsp-plugins.clap
 * /usr/lib/ladspa/lsp-plugins-ladspa.so
-* /usr/lib/lsp-plugins/liblsp-plugins-jack-1.2.20.so
+* /usr/lib/lsp-plugins/liblsp-plugins-jack-1.2.21.so
 * /usr/lib/lv2/lsp-plugins.lv2/ab_tester_x2_mono.ttl
 * /usr/lib/lv2/lsp-plugins.lv2/ab_tester_x2_stereo.ttl
 * /usr/lib/lv2/lsp-plugins.lv2/ab_tester_x4_mono.ttl
@@ -758,10 +758,10 @@ Collection of open-source plugins
 * /usr/share/applications/in.lsp_plug.lsp_plugins_trigger_mono.desktop
 * /usr/share/applications/in.lsp_plug.lsp_plugins_trigger_stereo.desktop
 * /usr/share/desktop-directories/lsp-plugins.directory
-* /usr/share/doc/lsp-plugins-1.2.20/CHANGELOG
-* /usr/share/doc/lsp-plugins-1.2.20/COPYING
-* /usr/share/doc/lsp-plugins-1.2.20/COPYING.LESSER
-* /usr/share/doc/lsp-plugins-1.2.20/README.md
+* /usr/share/doc/lsp-plugins-1.2.21/CHANGELOG
+* /usr/share/doc/lsp-plugins-1.2.21/COPYING
+* /usr/share/doc/lsp-plugins-1.2.21/COPYING.LESSER
+* /usr/share/doc/lsp-plugins-1.2.21/README.md
 * /usr/share/doc/lsp-plugins/css/style.css
 * /usr/share/doc/lsp-plugins/fonts/notosansdisplay-condensed-webfont.woff
 * /usr/share/doc/lsp-plugins/fonts/notosansdisplay-condensed-webfont.woff2
