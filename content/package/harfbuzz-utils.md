@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "harfbuzz-utils 10.3.0-1"
-version = "10.3.0-1"
+title = "harfbuzz-utils 10.4.0-1"
+version = "10.4.0-1"
 description = "Is an implementation of the OpenType Layout engine. Utils"
-date = "2025-02-21T08:03:57"
+date = "2025-03-01T11:01:43"
 aliases = "/packages/221462"
 categories = ['xlib-extra']
 upstreamurl = "https://github.com/harfbuzz/harfbuzz"
 arch = "x86_64"
-size = "63356"
-usize = "234608"
-sha1sum = "14c5d38c6d386e4a70465c15610fb16bf0d3869a"
+size = "63700"
+usize = "234808"
+sha1sum = "f576a220f9d2568014e7a3c9f0806a3c3cb50aa0"
 depends = "['harfbuzz-utils', 'icu4c>=75.1']"
 reverse_depends = "['harfbuzz-utils']"
 +++

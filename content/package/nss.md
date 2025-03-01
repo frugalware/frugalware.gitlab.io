@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "nss 3.108-1"
-version = "3.108-1"
+title = "nss 3.109-1"
+version = "3.109-1"
 description = "NSS library from mozilla.org"
-date = "2025-02-07T20:55:33"
+date = "2025-03-01T10:33:09"
 aliases = "/packages/3265"
 categories = ['base']
 upstreamurl = "http://www.mozilla.org/projects/security/pki/nss/"
 arch = "x86_64"
-size = "1861480"
-usize = "6293394"
-sha1sum = "bf4534740d249802d1718b3d94a66bc29c849f85"
+size = "1860976"
+usize = "6297394"
+sha1sum = "89dec3d3e504019950c69f456891c8c7e6f66a73"
 depends = "['glibc>=2.35', 'libstdc++>=11.3', 'nspr>=4.34', 'sqlite3>=3.14.2-2', 'zlib-ng']"
 reverse_depends = "['apr-util', 'cef', 'chromium-browser', 'discord', 'firefox', 'libblockdev', 'libfprint', 'liboauth', 'libpurple', 'libreswan', 'networkmanager', 'nvu', 'openjre', 'pesign', 'poppler', 'qca', 'qca-nss', 'qca-qt5', 'qemu', 'qt5-webengine', 'qt6-webengine', 'quba', 'r2modman', 'slack-desktop', 'teams-for-linux', 'thunderbird', 'volume_key', 'whalebird', 'xmlsec1']"
 license = "MPL"
