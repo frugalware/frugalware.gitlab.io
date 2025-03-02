@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "xsimd 13.1.0-1"
-version = "13.1.0-1"
+title = "xsimd 13.2.0-1"
+version = "13.2.0-1"
 description = "QuantStack tools library - Multi-dimensional arrays with broadcasting and lazy computing"
-date = "2024-12-18T14:37:42"
+date = "2025-03-02T20:33:42"
 aliases = "/packages/220486"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/xtensor-stack/xsimd"
 arch = "x86_64"
-size = "125872"
-usize = "1458490"
-sha1sum = "ccac3ba24083fa4269683f63d4b7a6ade524a149"
+size = "127588"
+usize = "1481203"
+sha1sum = "731b3341a2ad5302e054c7973832f388da896a30"
 depends = "['glibc']"
 reverse_depends = "['python3-scipy']"
 +++
@@ -108,6 +108,6 @@ QuantStack tools library - Multi-dimensional arrays with broadcasting and lazy c
 * /usr/share/cmake/xsimd/xsimdConfig.cmake
 * /usr/share/cmake/xsimd/xsimdConfigVersion.cmake
 * /usr/share/cmake/xsimd/xsimdTargets.cmake
-* /usr/share/doc/xsimd-13.1.0/LICENSE
-* /usr/share/doc/xsimd-13.1.0/README.md
+* /usr/share/doc/xsimd-13.2.0/LICENSE
+* /usr/share/doc/xsimd-13.2.0/README.md
 * /usr/share/pkgconfig/xsimd.pc
