@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "lib32-sdl3_image 3.2.0-1"
-version = "3.2.0-1"
+title = "lib32-sdl3_image 3.2.2-1"
+version = "3.2.2-1"
 description = "Image loading library for SDL3 ( 32bit )"
-date = "2025-02-05T15:32:56"
+date = "2025-03-02T18:57:01"
 aliases = "/packages/222628"
 categories = ['lib32-extra']
 upstreamurl = "http://www.libsdl.org/"
 arch = "x86_64"
-size = "92664"
-usize = "275274"
-sha1sum = "0c9a34b419d69ce3157408a7f5e66863f65f9dca"
-depends = "['lib32-libtiff', 'lib32-libwebp', 'lib32-sdl2']"
+size = "93052"
+usize = "276050"
+sha1sum = "4cc0be49f8671483a8eab31917286b8471d5aafa"
+depends = "['lib32-libtiff', 'lib32-libwebp', 'lib32-sdl3']"
 +++
 ### Description: 
 Image loading library for SDL3 ( 32bit )
@@ -24,6 +24,6 @@ Image loading library for SDL3 ( 32bit )
 * /usr/lib32/cmake/SDL3_image/SDL3_imageConfigVersion.cmake
 * /usr/lib32/libSDL3_image.so
 * /usr/lib32/libSDL3_image.so.0
-* /usr/lib32/libSDL3_image.so.0.2.0
+* /usr/lib32/libSDL3_image.so.0.2.2
 * /usr/lib32/pkgconfig/sdl3-image.pc
 * /usr/share/licenses/SDL3_image/LICENSE.txt

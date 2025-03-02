@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "sdl3 3.2.4-1"
-version = "3.2.4-1"
+title = "sdl3 3.2.6-1"
+version = "3.2.6-1"
 description = "Simple DirectMedia Layer library v2"
-date = "2025-02-07T21:01:20"
+date = "2025-03-02T18:49:34"
 aliases = "/packages/222622"
 categories = ['xlib']
 upstreamurl = "http://libsdl.org"
 arch = "x86_64"
-size = "1295052"
-usize = "6252800"
-sha1sum = "ea71932ab2df0c17ec15a8ffb75faf6583108846"
+size = "1311208"
+usize = "6297979"
+sha1sum = "3425420e8a2c94be3db78160a21a89a3dd53f85f"
 depends = "['glibc>=2.34']"
 reverse_depends = "['sdl2-compat', 'sdl3_image']"
 +++
@@ -112,9 +112,9 @@ Simple DirectMedia Layer library v2
 * /usr/lib/cmake/SDL3/SDL3testTargets.cmake
 * /usr/lib/libSDL3.so
 * /usr/lib/libSDL3.so.0
-* /usr/lib/libSDL3.so.0.2.4
+* /usr/lib/libSDL3.so.0.2.6
 * /usr/lib/pkgconfig/sdl3.pc
-* /usr/share/doc/sdl3-3.2.4/BUGS.txt
-* /usr/share/doc/sdl3-3.2.4/INSTALL.md
-* /usr/share/doc/sdl3-3.2.4/README.md
+* /usr/share/doc/sdl3-3.2.6/BUGS.txt
+* /usr/share/doc/sdl3-3.2.6/INSTALL.md
+* /usr/share/doc/sdl3-3.2.6/README.md
 * /usr/share/licenses/SDL3/LICENSE.txt

@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "lib32-sdl3 3.2.4-1"
-version = "3.2.4-1"
+title = "lib32-sdl3 3.2.6-1"
+version = "3.2.6-1"
 description = "Simple DirectMedia Layer library v2 ( 32bit )"
-date = "2025-02-07T21:01:20"
+date = "2025-03-02T18:49:34"
 aliases = "/packages/222623"
 categories = ['lib32-extra']
 upstreamurl = "http://libsdl.org"
 arch = "x86_64"
-size = "1326240"
-usize = "6431648"
-sha1sum = "7e8e75608baad1269af314fa808700d4cae5a6d3"
+size = "1341456"
+usize = "6474907"
+sha1sum = "6ac2a2a954d7e4186f9b4a2b67977f6f672927af"
 depends = "[]"
-reverse_depends = "['lib32-sdl2-compat']"
+reverse_depends = "['lib32-sdl2-compat', 'lib32-sdl3_image']"
 +++
 ### Description: 
 Simple DirectMedia Layer library v2 ( 32bit )
@@ -112,5 +112,5 @@ Simple DirectMedia Layer library v2 ( 32bit )
 * /usr/lib32/cmake/SDL3/SDL3testTargets.cmake
 * /usr/lib32/libSDL3.so
 * /usr/lib32/libSDL3.so.0
-* /usr/lib32/libSDL3.so.0.2.4
+* /usr/lib32/libSDL3.so.0.2.6
 * /usr/lib32/pkgconfig/sdl3.pc

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-sdl2_image 2.8.5-1"
-version = "2.8.5-1"
+title = "lib32-sdl2_image 2.8.6-1"
+version = "2.8.6-1"
 description = "Image loading library for SDL2 ( 32bit )"
-date = "2025-02-08T10:11:16"
+date = "2025-03-02T18:21:01"
 aliases = "/packages/219948"
 categories = ['lib32-extra']
 upstreamurl = "http://www.libsdl.org/"
 arch = "x86_64"
-size = "92940"
-usize = "271214"
-sha1sum = "4211add6349df779bd008aadb3a346ebb46ebc97"
+size = "93072"
+usize = "271446"
+sha1sum = "a99f11492b46966432f1f431e7b19bf780cc875f"
 depends = "['lib32-libtiff', 'lib32-libwebp', 'lib32-sdl2']"
 reverse_depends = "['lib32-v4l-utils']"
 +++
@@ -24,6 +24,6 @@ Image loading library for SDL2 ( 32bit )
 * /usr/lib32/cmake/SDL2_image/sdl2_image-config-version.cmake
 * /usr/lib32/cmake/SDL2_image/sdl2_image-config.cmake
 * /usr/lib32/libSDL2_image-2.0.so.0
-* /usr/lib32/libSDL2_image-2.0.so.0.800.5
+* /usr/lib32/libSDL2_image-2.0.so.0.800.6
 * /usr/lib32/libSDL2_image.so
 * /usr/lib32/pkgconfig/SDL2_image.pc
