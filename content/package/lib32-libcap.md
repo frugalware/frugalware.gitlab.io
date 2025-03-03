@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libcap 2.73-1"
-version = "2.73-1"
+title = "lib32-libcap 2.74-1"
+version = "2.74-1"
 description = "POSIX 1003.1e capabilities ( 32bit )"
-date = "2024-12-02T13:15:28"
+date = "2025-03-03T15:35:30"
 aliases = "/packages/217738"
 categories = ['lib32-extra']
 upstreamurl = "https://www.kernel.org/pub/linux/libs/security/linux-privs/libcap2"
 arch = "x86_64"
-size = "54560"
-usize = "162866"
-sha1sum = "a9d10c68a3c619cfeee6de4e613438863c8865d2"
+size = "54584"
+usize = "162860"
+sha1sum = "0155d088bd3cf5962a3f08d58f13807a1eb10658"
 depends = "['glibc>=2.34']"
 reverse_depends = "['lib32-libsystemd', 'lib32-pipewire']"
 +++
@@ -26,10 +26,10 @@ POSIX 1003.1e capabilities ( 32bit )
 * /usr/i686-frugalware-linux/sbin/setcap
 * /usr/lib32/libcap.so
 * /usr/lib32/libcap.so.2
-* /usr/lib32/libcap.so.2.73
+* /usr/lib32/libcap.so.2.74
 * /usr/lib32/libpsx.so
 * /usr/lib32/libpsx.so.2
-* /usr/lib32/libpsx.so.2.73
+* /usr/lib32/libpsx.so.2.74
 * /usr/lib32/pkgconfig/libcap.pc
 * /usr/lib32/pkgconfig/libpsx.pc
 * /usr/lib32/security/pam_cap.so

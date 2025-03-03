@@ -12,7 +12,7 @@ size = "1311208"
 usize = "6297979"
 sha1sum = "3425420e8a2c94be3db78160a21a89a3dd53f85f"
 depends = "['glibc>=2.34']"
-reverse_depends = "['sdl2-compat', 'sdl3_image']"
+reverse_depends = "['sdl2-compat', 'sdl3_image', 'sdl3_ttf']"
 +++
 ### Description: 
 Simple DirectMedia Layer library v2

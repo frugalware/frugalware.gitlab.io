@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libheif-gdk-pixbuf 1.19.5-2"
-version = "1.19.5-2"
+title = "libheif-gdk-pixbuf 1.19.7-1"
+version = "1.19.7-1"
 description = "libheif gdk-pixbuf-loader"
-date = "2024-11-25T12:51:35"
+date = "2025-03-03T15:51:24"
 aliases = "/packages/220878"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/strukturag/libheif"
 arch = "x86_64"
-size = "4468"
-usize = "8944"
-sha1sum = "d29fa48a72698895c41f3c669d67e6ca67b51ce0"
+size = "4480"
+usize = "8888"
+sha1sum = "228ca7fcb8ca7988e984310098f99f3248b30e83"
 depends = "['gdk-pixbuf2', 'libheif']"
 +++
 ### Description: 
