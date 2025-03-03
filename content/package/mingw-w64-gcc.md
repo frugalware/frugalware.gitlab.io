@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mingw-w64-gcc 14_20250222-1"
-version = "14_20250222-1"
+title = "mingw-w64-gcc 14_20250301-1"
+version = "14_20250301-1"
 description = "Cross GCC for the MinGW-w64 cross-compiler"
-date = "2025-02-25T15:58:58"
+date = "2025-03-03T19:16:12"
 aliases = "/packages/222554"
 categories = ['devel-extra']
 upstreamurl = "http://gcc.gnu.org"
 arch = "x86_64"
-size = "74851260"
-usize = "279477164"
-sha1sum = "6f7ddffb29bdd81ddbea4c2605891ee8fced821a"
+size = "74842756"
+usize = "279475954"
+sha1sum = "80bba460d9733e7c0fdc548006690430750ec118"
 depends = "['mingw-w64-binutils', 'mingw-w64-crt', 'mingw-w64-headers', 'mingw-w64-winpthreads']"
 +++
 ### Description: 

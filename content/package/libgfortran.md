@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libgfortran 14_20250222-1"
-version = "14_20250222-1"
+title = "libgfortran 14_20250301-1"
+version = "14_20250301-1"
 description = "Fortran 95 runtime"
-date = "2025-02-25T15:58:58"
+date = "2025-03-03T19:16:12"
 aliases = "/packages/10525"
 categories = ['lib']
 upstreamurl = "http://gcc.gnu.org"
 arch = "x86_64"
-size = "1898288"
-usize = "16730926"
-sha1sum = "c275a2e6ed28f1f5807711b0f31d8668cd0af884"
+size = "1898828"
+usize = "16723568"
+sha1sum = "b311995dd98adc2e39e02b00aeeeddba256f5849"
 depends = "['libgcc', 'libquadmath']"
 reverse_depends = "['arpack-ng', 'gcc-gfortran', 'hdf5-fortran', 'julia', 'lapack', 'lapack64', 'libblas', 'libblas64', 'libcblas', 'libcblas64', 'liblapacke', 'liblapacke64', 'octave', 'openblas', 'openblas64', 'opencv-python3']"
 +++

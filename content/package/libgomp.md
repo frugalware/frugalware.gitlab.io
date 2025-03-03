@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libgomp 14_20250222-1"
-version = "14_20250222-1"
+title = "libgomp 14_20250301-1"
+version = "14_20250301-1"
 description = "GNU OpenMP runtime library"
-date = "2025-02-25T15:58:58"
+date = "2025-03-03T19:16:12"
 aliases = "/packages/23420"
 categories = ['lib']
 upstreamurl = "http://gcc.gnu.org"
 arch = "x86_64"
-size = "483852"
-usize = "1932497"
-sha1sum = "6cfc1810f06c38b249d916e804052e78ffdc6e1f"
+size = "483592"
+usize = "1928075"
+sha1sum = "bdb0d1619dc6ab262003b65167dcdea6fb177649"
 depends = "['glibc']"
 reverse_depends = "['ceres-solver', 'cryfs', 'flann', 'imagemagick', 'inkscape', 'kirigami', 'kirigami25', 'muparser', 'ngspice', 'nufraw', 'openblas', 'openucx', 'skanpage', 'sox', 'suitesparse']"
 +++
