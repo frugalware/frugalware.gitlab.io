@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ppxlib 0.35.0-1"
-version = "0.35.0-1"
+title = "ppxlib 0.36.0-1"
+version = "0.36.0-1"
 description = "Standard infrastructure for ppx rewriters"
-date = "2025-02-09T11:54:56"
+date = "2025-03-03T16:30:41"
 aliases = "/packages/221069"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/ocaml-ppx/ppxlib"
 arch = "x86_64"
-size = "26958004"
-usize = "79959954"
-sha1sum = "8e7557b1fc94f19ffebd3086649b726b8fa954ed"
+size = "27151988"
+usize = "79348363"
+sha1sum = "6de5eaf4427d01007ce98abb7796bb7be947d406"
 depends = "['ocaml-cmdliner', 'ocaml-compiler-libs-repackaged', 'ocaml-stdlib-shims', 'ppx_derivers', 'sexplib0']"
 reverse_depends = "['lwt']"
 +++
@@ -571,25 +571,25 @@ Standard infrastructure for ppx rewriters
 * /usr/lib/ocaml/ppxlib/__private__/ppx_foo_deriver/ppx_foo_deriver.cmxa
 * /usr/lib/ocaml/ppxlib/__private__/ppx_foo_deriver/ppx_foo_deriver.cmxs
 * /usr/lib/ocaml/ppxlib/__private__/ppx_foo_deriver/ppx_foo_deriver.ml
-* /usr/share/doc/ppxlib-0.35.0/ppxlib-bench/CHANGES.md
-* /usr/share/doc/ppxlib-0.35.0/ppxlib-bench/HISTORY.md
-* /usr/share/doc/ppxlib-0.35.0/ppxlib-bench/LICENSE.md
-* /usr/share/doc/ppxlib-0.35.0/ppxlib-bench/README.md
-* /usr/share/doc/ppxlib-0.35.0/ppxlib-tools/CHANGES.md
-* /usr/share/doc/ppxlib-0.35.0/ppxlib-tools/HISTORY.md
-* /usr/share/doc/ppxlib-0.35.0/ppxlib-tools/LICENSE.md
-* /usr/share/doc/ppxlib-0.35.0/ppxlib-tools/README.md
-* /usr/share/doc/ppxlib-0.35.0/ppxlib/CHANGES.md
-* /usr/share/doc/ppxlib-0.35.0/ppxlib/HISTORY.md
-* /usr/share/doc/ppxlib-0.35.0/ppxlib/LICENSE.md
-* /usr/share/doc/ppxlib-0.35.0/ppxlib/odoc-pages/ast-traversal.mld
-* /usr/share/doc/ppxlib-0.35.0/ppxlib/odoc-pages/driver.mld
-* /usr/share/doc/ppxlib-0.35.0/ppxlib/odoc-pages/examples.mld
-* /usr/share/doc/ppxlib-0.35.0/ppxlib/odoc-pages/generating-code.mld
-* /usr/share/doc/ppxlib-0.35.0/ppxlib/odoc-pages/good-practices.mld
-* /usr/share/doc/ppxlib-0.35.0/ppxlib/odoc-pages/index.mld
-* /usr/share/doc/ppxlib-0.35.0/ppxlib/odoc-pages/matching-code.mld
-* /usr/share/doc/ppxlib-0.35.0/ppxlib/odoc-pages/quick_intro.mld
-* /usr/share/doc/ppxlib-0.35.0/ppxlib/odoc-pages/writing-ppxs.mld
-* /usr/share/doc/ppxlib-0.35.0/ppxlib/README.md
-* /usr/share/doc/ppxlib-0.35.0/README.md
+* /usr/share/doc/ppxlib-0.36.0/ppxlib-bench/CHANGES.md
+* /usr/share/doc/ppxlib-0.36.0/ppxlib-bench/HISTORY.md
+* /usr/share/doc/ppxlib-0.36.0/ppxlib-bench/LICENSE.md
+* /usr/share/doc/ppxlib-0.36.0/ppxlib-bench/README.md
+* /usr/share/doc/ppxlib-0.36.0/ppxlib-tools/CHANGES.md
+* /usr/share/doc/ppxlib-0.36.0/ppxlib-tools/HISTORY.md
+* /usr/share/doc/ppxlib-0.36.0/ppxlib-tools/LICENSE.md
+* /usr/share/doc/ppxlib-0.36.0/ppxlib-tools/README.md
+* /usr/share/doc/ppxlib-0.36.0/ppxlib/CHANGES.md
+* /usr/share/doc/ppxlib-0.36.0/ppxlib/HISTORY.md
+* /usr/share/doc/ppxlib-0.36.0/ppxlib/LICENSE.md
+* /usr/share/doc/ppxlib-0.36.0/ppxlib/odoc-pages/ast-traversal.mld
+* /usr/share/doc/ppxlib-0.36.0/ppxlib/odoc-pages/driver.mld
+* /usr/share/doc/ppxlib-0.36.0/ppxlib/odoc-pages/examples.mld
+* /usr/share/doc/ppxlib-0.36.0/ppxlib/odoc-pages/generating-code.mld
+* /usr/share/doc/ppxlib-0.36.0/ppxlib/odoc-pages/good-practices.mld
+* /usr/share/doc/ppxlib-0.36.0/ppxlib/odoc-pages/index.mld
+* /usr/share/doc/ppxlib-0.36.0/ppxlib/odoc-pages/matching-code.mld
+* /usr/share/doc/ppxlib-0.36.0/ppxlib/odoc-pages/quick_intro.mld
+* /usr/share/doc/ppxlib-0.36.0/ppxlib/odoc-pages/writing-ppxs.mld
+* /usr/share/doc/ppxlib-0.36.0/ppxlib/README.md
+* /usr/share/doc/ppxlib-0.36.0/README.md

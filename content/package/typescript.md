@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "typescript 5.7.3-1"
-version = "5.7.3-1"
+title = "typescript 5.8.2-1"
+version = "5.8.2-1"
 description = "TypeScript is a language for application scale JavaScript development"
-date = "2025-01-18T12:13:49"
+date = "2025-03-03T16:32:06"
 aliases = "/packages/220286"
 categories = ['devel-extra']
 upstreamurl = "http://typescriptlang.org"
 arch = "x86_64"
-size = "2730128"
-usize = "22794798"
-sha1sum = "8e1b5b83814e99da18f266546a23813904271d37"
+size = "2742368"
+usize = "22918734"
+sha1sum = "6fee43ead6963b846551c697025ea78bf40472db"
 depends = "['glibc']"
 +++
 ### Description: 
@@ -75,7 +75,6 @@ TypeScript is a language for application scale JavaScript development
 * /usr/lib/node_modules/root/tests/test-urls.js
 * /usr/lib/node_modules/typescript/bin/tsc
 * /usr/lib/node_modules/typescript/bin/tsserver
-* /usr/lib/node_modules/typescript/lib/cancellationToken.js
 * /usr/lib/node_modules/typescript/lib/cs/diagnosticMessages.generated.json
 * /usr/lib/node_modules/typescript/lib/de/diagnosticMessages.generated.json
 * /usr/lib/node_modules/typescript/lib/es/diagnosticMessages.generated.json
@@ -171,9 +170,11 @@ TypeScript is a language for application scale JavaScript development
 * /usr/lib/node_modules/typescript/lib/lib.esnext.d.ts
 * /usr/lib/node_modules/typescript/lib/lib.esnext.decorators.d.ts
 * /usr/lib/node_modules/typescript/lib/lib.esnext.disposable.d.ts
+* /usr/lib/node_modules/typescript/lib/lib.esnext.float16.d.ts
 * /usr/lib/node_modules/typescript/lib/lib.esnext.full.d.ts
 * /usr/lib/node_modules/typescript/lib/lib.esnext.intl.d.ts
 * /usr/lib/node_modules/typescript/lib/lib.esnext.iterator.d.ts
+* /usr/lib/node_modules/typescript/lib/lib.esnext.promise.d.ts
 * /usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts
 * /usr/lib/node_modules/typescript/lib/lib.webworker.asynciterable.d.ts
 * /usr/lib/node_modules/typescript/lib/lib.webworker.d.ts
@@ -202,4 +203,4 @@ TypeScript is a language for application scale JavaScript development
 * /usr/lib/node_modules/typescript/README.md
 * /usr/lib/node_modules/typescript/SECURITY.md
 * /usr/lib/node_modules/typescript/ThirdPartyNoticeText.txt
-* /usr/share/doc/typescript-5.7.3/README.md
+* /usr/share/doc/typescript-5.8.2/README.md
