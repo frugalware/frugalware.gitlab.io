@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "poppler 25.02.0-2"
-version = "25.02.0-2"
+title = "poppler 25.03.0-1"
+version = "25.03.0-1"
 description = "A PDF rendering library"
-date = "2025-02-13T15:48:34"
+date = "2025-03-04T19:11:30"
 aliases = "/packages/3295"
 categories = ['xlib']
 upstreamurl = "https://poppler.freedesktop.org/"
 arch = "x86_64"
-size = "2045776"
-usize = "10210706"
-sha1sum = "2385709b4938b96efb2e121464072adf291b9200"
+size = "2056936"
+usize = "10269471"
+sha1sum = "bf0cef290b77ce99132fe152978ea564740b2754"
 depends = "['cairo>=1.14.6-4', 'curl', 'fontconfig>=2.12-2', 'libgpgmepp', 'libjpeg-turbo', 'libpng>=1.6.25', 'libstdc++>=9.1.0-3', 'nss', 'openjpeg>=2.2.0', 'poppler-data']"
 reverse_depends = "['efl', 'kitinerary', 'libcupsfilters', 'poppler-glib', 'poppler-pdftools', 'poppler-qt5', 'poppler-qt6', 'scribus', 'texlive']"
 +++
@@ -137,18 +137,18 @@ A PDF rendering library
 * /usr/lib/libpoppler-cpp.so.2
 * /usr/lib/libpoppler-cpp.so.2.0.0
 * /usr/lib/libpoppler.so
-* /usr/lib/libpoppler.so.146
-* /usr/lib/libpoppler.so.146.0.0
+* /usr/lib/libpoppler.so.147
+* /usr/lib/libpoppler.so.147.0.0
 * /usr/lib/pkgconfig/poppler-cpp.pc
 * /usr/lib/pkgconfig/poppler.pc
-* /usr/share/doc/poppler-25.02.0/AUTHORS
-* /usr/share/doc/poppler-25.02.0/ChangeLog
-* /usr/share/doc/poppler-25.02.0/COPYING
-* /usr/share/doc/poppler-25.02.0/COPYING3
-* /usr/share/doc/poppler-25.02.0/INSTALL
-* /usr/share/doc/poppler-25.02.0/NEWS
-* /usr/share/doc/poppler-25.02.0/README-XPDF
-* /usr/share/doc/poppler-25.02.0/README.contributors
-* /usr/share/doc/poppler-25.02.0/README.md
+* /usr/share/doc/poppler-25.03.0/AUTHORS
+* /usr/share/doc/poppler-25.03.0/ChangeLog
+* /usr/share/doc/poppler-25.03.0/COPYING
+* /usr/share/doc/poppler-25.03.0/COPYING3
+* /usr/share/doc/poppler-25.03.0/INSTALL
+* /usr/share/doc/poppler-25.03.0/NEWS
+* /usr/share/doc/poppler-25.03.0/README-XPDF
+* /usr/share/doc/poppler-25.03.0/README.contributors
+* /usr/share/doc/poppler-25.03.0/README.md
 * /usr/share/gir-1.0/Poppler-0.18.gir
 * /usr/share/locale/ca/LC_MESSAGES/pdfsig.mo
