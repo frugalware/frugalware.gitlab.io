@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-hsb 135.0.1-1"
-version = "135.0.1-1"
+title = "firefox-hsb 136.0-1"
+version = "136.0-1"
 description = "Upper Sorbian language support for Firefox"
-date = "2025-02-20T12:00:15"
+date = "2025-03-04T15:29:17"
 aliases = "/packages/200922"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "402860"
-usize = "457167"
-sha1sum = "bc4e56cf85090a4fb05e1a70838ee5a204a64ab7"
-depends = "['firefox>=135.0.1']"
+size = "403144"
+usize = "456429"
+sha1sum = "d888b0194291cf65b197bbfa5522690f4db6a581"
+depends = "['firefox>=136.0']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

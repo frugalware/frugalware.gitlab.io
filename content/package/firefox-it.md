@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-it 135.0.1-1"
-version = "135.0.1-1"
+title = "firefox-it 136.0-1"
+version = "136.0-1"
 description = "Italian language support for Firefox"
-date = "2025-02-20T12:00:15"
+date = "2025-03-04T15:29:17"
 aliases = "/packages/3581"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "381676"
-usize = "435816"
-sha1sum = "995bf999e2a5c2b975ba55a9540aa35e7be066a5"
-depends = "['firefox>=135.0.1']"
+size = "382824"
+usize = "434986"
+sha1sum = "21e5f8cb5d5ffb1c1a349e273602278871ca8742"
+depends = "['firefox>=136.0']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

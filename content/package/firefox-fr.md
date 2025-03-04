@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-fr 135.0.1-1"
-version = "135.0.1-1"
+title = "firefox-fr 136.0-1"
+version = "136.0-1"
 description = "French language support for Firefox"
-date = "2025-02-20T12:00:15"
+date = "2025-03-04T15:29:17"
 aliases = "/packages/3578"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "401164"
-usize = "453308"
-sha1sum = "fa276c3578213deb1d6eb6611040c4babfd213a4"
-depends = "['firefox>=135.0.1']"
+size = "399752"
+usize = "452377"
+sha1sum = "8b116278f067d15ddfb1f5829c337235262a37cc"
+depends = "['firefox>=136.0']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

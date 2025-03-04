@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-sv-se 135.0.1-1"
-version = "135.0.1-1"
+title = "firefox-sv-se 136.0-1"
+version = "136.0-1"
 description = "Swedish language support for Firefox"
-date = "2025-02-20T12:00:15"
+date = "2025-03-04T15:29:17"
 aliases = "/packages/39364"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "377020"
-usize = "431175"
-sha1sum = "33fec164489a852ad5de720a2d495617904f12ed"
-depends = "['firefox>=135.0.1']"
+size = "376444"
+usize = "430474"
+sha1sum = "a28b5a28bd0c83f419a693469d109d3973e8f6d6"
+depends = "['firefox>=136.0']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

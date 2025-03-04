@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-cs 135.0.1-1"
-version = "135.0.1-1"
+title = "firefox-cs 136.0-1"
+version = "136.0-1"
 description = "Czech language support for Firefox"
-date = "2025-02-20T12:00:15"
+date = "2025-03-04T15:29:17"
 aliases = "/packages/3572"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "418536"
-usize = "469979"
-sha1sum = "de11304655088cd7bbace271ec8567bae525c825"
-depends = "['firefox>=135.0.1']"
+size = "416928"
+usize = "468947"
+sha1sum = "badd43beb468f5d1749fb8fdf527c13d92ed4778"
+depends = "['firefox>=136.0']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

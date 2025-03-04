@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-rm 135.0.1-1"
-version = "135.0.1-1"
+title = "firefox-rm 136.0-1"
+version = "136.0-1"
 description = "Romansh language support for Firefox"
-date = "2025-02-20T12:00:15"
+date = "2025-03-04T15:29:17"
 aliases = "/packages/73648"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "382932"
-usize = "434738"
-sha1sum = "9ffa6334513197c04b799abc588a6c3a212839f7"
-depends = "['firefox>=135.0.1']"
+size = "381628"
+usize = "434104"
+sha1sum = "6ef9883085a80bf828deb7929db1ded66e5f6eb1"
+depends = "['firefox>=136.0']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 
