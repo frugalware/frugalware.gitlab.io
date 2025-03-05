@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-et 25.2.1.2-1"
-version = "25.2.1.2-1"
+title = "libreoffice-l10n-et 25.2.1.2-2"
+version = "25.2.1.2-2"
 description = "Installs Estonian support in LibreOffice"
-date = "2025-02-28T12:58:27"
+date = "2025-03-05T11:35:54"
 aliases = "/packages/104055"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4825244"
+size = "4824144"
 usize = "34834613"
-sha1sum = "fc18e56436649750cc41aecbea367422ea622700"
+sha1sum = "82ebb7dba5dee103e3a1d3151cb811807f14ddc9"
 depends = "['libreoffice>=25.2.1.2']"
 +++
 ### Description: 

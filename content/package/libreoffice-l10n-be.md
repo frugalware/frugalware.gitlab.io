@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-be 25.2.1.2-1"
-version = "25.2.1.2-1"
+title = "libreoffice-l10n-be 25.2.1.2-2"
+version = "25.2.1.2-2"
 description = "Installs Belarusian support in LibreOffice"
-date = "2025-02-28T12:58:27"
+date = "2025-03-05T11:35:54"
 aliases = "/packages/119422"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "461148"
+size = "461012"
 usize = "2648727"
-sha1sum = "f51cf7afbc293565ab7890dd023474578c45bfc5"
+sha1sum = "9d5d2e31b25a26fe480b20d0e9093a8268acf45e"
 depends = "['libreoffice>=25.2.1.2']"
 +++
 ### Description: 
