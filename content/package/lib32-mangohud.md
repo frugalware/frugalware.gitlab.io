@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-mangohud 0.8.0-1"
-version = "0.8.0-1"
+title = "lib32-mangohud 0.8.1-1"
+version = "0.8.1-1"
 description = "Vulkan overlay layer for monitoring FPS, temperatures, CPU/GPU load and more ( 32bit )"
-date = "2025-02-11T15:58:40"
+date = "2025-03-05T13:51:34"
 aliases = "/packages/220079"
 categories = ['lib32-extra']
 upstreamurl = "https://github.com/flightlessmango/mangohud"
 arch = "x86_64"
-size = "1455056"
-usize = "6828005"
-sha1sum = "f74ad04b42d6c51ff3f462dc822b91a026ab112d"
+size = "1447136"
+usize = "6853213"
+sha1sum = "79159b1f0feac94c5a220f34b049a07d80c1678b"
 depends = "['lib32-libx11', 'lib32-libxkbcommon', 'lib32-vulkan-icd-loader', 'lib32-wayland']"
 +++
 ### Description: 
