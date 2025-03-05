@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mono 6.12.0.206-1"
-version = "6.12.0.206-1"
+title = "mono 6.14.0-1"
+version = "6.14.0-1"
 description = "Mono runtime and class libraries, a C# compiler/interpreter"
-date = "2024-12-17T20:59:58"
+date = "2025-03-05T15:49:01"
 aliases = "/packages/3229"
 categories = ['devel']
 upstreamurl = "https://gitlab.winehq.org/mono/mono"
 arch = "x86_64"
-size = "126400040"
-usize = "331537379"
-sha1sum = "8c65a475254ba47097b863c952a78263184d56cb"
+size = "127850172"
+usize = "333687093"
+sha1sum = "e2dbbabd72f291a1d3c554483bea4ebd1326a127"
 depends = "['libstdc++>=9.1.0-3']"
 reverse_depends = "['dbus-sharp', 'dbus-sharp-glib', 'keepass', 'referenceassemblies-pcl', 'uwsgi', 'uwsgi-plugin-mono']"
 +++
@@ -130,6 +130,7 @@ Mono runtime and class libraries, a C# compiler/interpreter
 * /usr/bin/xsd
 * /usr/include/mono-2.0/mono/cil/opcode.def
 * /usr/include/mono-2.0/mono/jit/jit.h
+* /usr/include/mono-2.0/mono/jit/mono-private-unstable.h
 * /usr/include/mono-2.0/mono/metadata/appdomain.h
 * /usr/include/mono-2.0/mono/metadata/assembly.h
 * /usr/include/mono-2.0/mono/metadata/attrdefs.h
@@ -145,6 +146,7 @@ Mono runtime and class libraries, a C# compiler/interpreter
 * /usr/include/mono-2.0/mono/metadata/mono-config.h
 * /usr/include/mono-2.0/mono/metadata/mono-debug.h
 * /usr/include/mono-2.0/mono/metadata/mono-gc.h
+* /usr/include/mono-2.0/mono/metadata/mono-private-unstable.h
 * /usr/include/mono-2.0/mono/metadata/object-forward.h
 * /usr/include/mono-2.0/mono/metadata/object.h
 * /usr/include/mono-2.0/mono/metadata/opcodes.h
@@ -162,6 +164,7 @@ Mono runtime and class libraries, a C# compiler/interpreter
 * /usr/include/mono-2.0/mono/utils/mono-forward.h
 * /usr/include/mono-2.0/mono/utils/mono-jemalloc.h
 * /usr/include/mono-2.0/mono/utils/mono-logger.h
+* /usr/include/mono-2.0/mono/utils/mono-private-unstable.h
 * /usr/include/mono-2.0/mono/utils/mono-publib.h
 * /usr/lib/libikvm-native.a
 * /usr/lib/libikvm-native.so
@@ -3349,13 +3352,14 @@ Mono runtime and class libraries, a C# compiler/interpreter
 * /usr/lib/pkgconfig/system.web.mvc3.pc
 * /usr/lib/pkgconfig/wcf.pc
 * /usr/lib/pkgconfig/xbuild12.pc
-* /usr/share/doc/mono-6.12.0.206/COPYING.LIB
-* /usr/share/doc/mono-6.12.0.206/LICENSE
-* /usr/share/doc/mono-6.12.0.206/NEWS
-* /usr/share/doc/mono-6.12.0.206/README.md
+* /usr/share/doc/mono-6.14.0/COPYING.LIB
+* /usr/share/doc/mono-6.14.0/LICENSE
+* /usr/share/doc/mono-6.14.0/NEWS
+* /usr/share/doc/mono-6.14.0/README.md
 * /usr/share/locale/de/LC_MESSAGES/mcs.mo
 * /usr/share/locale/es/LC_MESSAGES/mcs.mo
 * /usr/share/locale/ja/LC_MESSAGES/mcs.mo
+* /usr/share/locale/ka/LC_MESSAGES/mcs.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/mcs.mo
 * /usr/share/man/man1/al.1.gz
 * /usr/share/man/man1/aprofutil.1.gz
