@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "dlib 19.24.7-1"
-version = "19.24.7-1"
+title = "dlib 19.24.8-1"
+version = "19.24.8-1"
 description = "Dlib is a general purpose cross-platform C++ library designed using contract programming and modern C++ techniques."
-date = "2025-03-01T16:57:11"
+date = "2025-03-05T16:47:34"
 aliases = "/packages/220483"
 categories = ['devel-extra']
 upstreamurl = "http://www.dlib.net"
 arch = "x86_64"
-size = "4588984"
-usize = "25243041"
-sha1sum = "c45b4349f9cb197965db83bd0a48f9b8a8802b12"
+size = "4588212"
+usize = "25240796"
+sha1sum = "246f4f6db71582dcc38e77c2eb72a4dfe88a8d41"
 depends = "['lapack', 'libcblas', 'libgif', 'libjpeg-turbo', 'libpng', 'libx11', 'pybind11', 'sqlite3']"
 reverse_depends = "['face_recognition', 'howdy']"
 +++
@@ -1102,12 +1102,12 @@ Dlib is a general purpose cross-platform C++ library designed using contract pro
 * /usr/lib/cmake/dlib/dlibConfig.cmake
 * /usr/lib/cmake/dlib/dlibConfigVersion.cmake
 * /usr/lib/pkgconfig/dlib-1.pc
-* /usr/lib/python3.13/site-packages/dlib-19.24.99-py3.13.egg-info/dependency_links.txt
-* /usr/lib/python3.13/site-packages/dlib-19.24.99-py3.13.egg-info/not-zip-safe
-* /usr/lib/python3.13/site-packages/dlib-19.24.99-py3.13.egg-info/PKG-INFO
-* /usr/lib/python3.13/site-packages/dlib-19.24.99-py3.13.egg-info/SOURCES.txt
-* /usr/lib/python3.13/site-packages/dlib-19.24.99-py3.13.egg-info/top_level.txt
+* /usr/lib/python3.13/site-packages/dlib-19.24.8-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/dlib-19.24.8-py3.13.egg-info/not-zip-safe
+* /usr/lib/python3.13/site-packages/dlib-19.24.8-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/dlib-19.24.8-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/dlib-19.24.8-py3.13.egg-info/top_level.txt
 * /usr/lib/python3.13/site-packages/dlib/__init__.py
 * /usr/lib/python3.13/site-packages/dlib/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/_dlib_pybind11.cpython-313-x86_64-linux-gnu.so
-* /usr/share/doc/dlib-19.24.7/README.md
+* /usr/share/doc/dlib-19.24.8/README.md
