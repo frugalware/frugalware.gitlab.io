@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "go 1.24.0-1"
-version = "1.24.0-1"
+title = "go 1.24.1-1"
+version = "1.24.1-1"
 description = "Compiler and tools for the Go programming language from Google"
-date = "2025-02-15T16:40:07"
+date = "2025-03-05T17:38:55"
 aliases = "/packages/200076"
 categories = ['devel-extra']
 upstreamurl = "http://golang.org/"
 arch = "x86_64"
-size = "118500160"
-usize = "326885030"
-sha1sum = "98867e6ef1853145754c3eab60f30e8a4e5c5c15"
+size = "118660428"
+usize = "327326382"
+sha1sum = "6a667687ab0f81c9ade0be4a22a270bdef949e0c"
 depends = "['gawk', 'perl>=5.28.2']"
 reverse_depends = "['audit-go']"
 +++
@@ -5620,8 +5620,13 @@ Compiler and tools for the Go programming language from Google
 * /usr/lib/go/src/debug/buildinfo/buildinfo_test.go
 * /usr/lib/go/src/debug/buildinfo/search_test.go
 * /usr/lib/go/src/debug/buildinfo/testdata/fuzz/FuzzRead/36aeb674e3454016
-* /usr/lib/go/src/debug/buildinfo/testdata/go117
-* /usr/lib/go/src/debug/buildinfo/testdata/notgo
+* /usr/lib/go/src/debug/buildinfo/testdata/go117/go.mod
+* /usr/lib/go/src/debug/buildinfo/testdata/go117/go117.base64
+* /usr/lib/go/src/debug/buildinfo/testdata/go117/main.go
+* /usr/lib/go/src/debug/buildinfo/testdata/go117/README.md
+* /usr/lib/go/src/debug/buildinfo/testdata/notgo/main.c
+* /usr/lib/go/src/debug/buildinfo/testdata/notgo/notgo.base64
+* /usr/lib/go/src/debug/buildinfo/testdata/notgo/README.md
 * /usr/lib/go/src/debug/dwarf/attr_string.go
 * /usr/lib/go/src/debug/dwarf/buf.go
 * /usr/lib/go/src/debug/dwarf/class_string.go
@@ -13209,6 +13214,12 @@ Compiler and tools for the Go programming language from Google
 * /usr/lib/go/test/fixedbugs/issue7129.go
 * /usr/lib/go/test/fixedbugs/issue7150.go
 * /usr/lib/go/test/fixedbugs/issue7153.go
+* /usr/lib/go/test/fixedbugs/issue71675.go
+* /usr/lib/go/test/fixedbugs/issue71675.out
+* /usr/lib/go/test/fixedbugs/issue71680.go
+* /usr/lib/go/test/fixedbugs/issue71852.go
+* /usr/lib/go/test/fixedbugs/issue71857.go
+* /usr/lib/go/test/fixedbugs/issue71932.go
 * /usr/lib/go/test/fixedbugs/issue7214.go
 * /usr/lib/go/test/fixedbugs/issue7223.go
 * /usr/lib/go/test/fixedbugs/issue7272.go
@@ -14143,9 +14154,9 @@ Compiler and tools for the Go programming language from Google
 * /usr/lib/go/test/writebarrier.go
 * /usr/lib/go/test/zerodivide.go
 * /usr/lib/go/test/zerosize.go
-* /usr/share/doc/go-1.24.0/LICENSE
-* /usr/share/doc/go-1.24.0/README.md
-* /usr/share/doc/go-1.24.0/VERSION
+* /usr/share/doc/go-1.24.1/LICENSE
+* /usr/share/doc/go-1.24.1/README.md
+* /usr/share/doc/go-1.24.1/VERSION
 * /usr/share/go/doc/asm.html
 * /usr/share/go/doc/go1.17_spec.html
 * /usr/share/go/doc/godebug.md
