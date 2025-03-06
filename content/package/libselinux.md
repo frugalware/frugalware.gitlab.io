@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libselinux 3.8-1"
-version = "3.8-1"
+title = "libselinux 3.8.1-1"
+version = "3.8.1-1"
 description = "SELinux library and simple utilities"
-date = "2025-01-30T08:53:53"
+date = "2025-03-06T07:05:42"
 aliases = "/packages/219881"
 categories = ['base']
 upstreamurl = "http://userspace.selinuxproject.org"
 arch = "x86_64"
-size = "1391764"
-usize = "2587037"
-sha1sum = "f974af52eab2926698107d04517a7846baded526"
+size = "1395592"
+usize = "2597690"
+sha1sum = "cd93278c93ee4f90875dde2637893b7462996475"
 depends = "['libsepol>=3.3', 'pcre2', 'python3>=3.13', 'ruby>=3.4.1']"
 reverse_depends = "['networkmanager', 'steam-native']"
 +++
@@ -60,10 +60,10 @@ SELinux library and simple utilities
 * /usr/lib/libselinux.so
 * /usr/lib/libselinux.so.1
 * /usr/lib/pkgconfig/libselinux.pc
-* /usr/lib/python3.13/site-packages/selinux-3.8-py3.13.egg-info/dependency_links.txt
-* /usr/lib/python3.13/site-packages/selinux-3.8-py3.13.egg-info/PKG-INFO
-* /usr/lib/python3.13/site-packages/selinux-3.8-py3.13.egg-info/SOURCES.txt
-* /usr/lib/python3.13/site-packages/selinux-3.8-py3.13.egg-info/top_level.txt
+* /usr/lib/python3.13/site-packages/selinux-3.8.1-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/selinux-3.8.1-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/selinux-3.8.1-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/selinux-3.8.1-py3.13.egg-info/top_level.txt
 * /usr/lib/python3.13/site-packages/selinux/audit2why.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/selinux/_selinux.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/selinux/__init__.py
@@ -71,8 +71,8 @@ SELinux library and simple utilities
 * /usr/lib/python3.13/site-packages/_selinux.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/ruby/vendor_ruby/3.4.0/x86_64-linux/selinux.so
 * /usr/lib/tmpfiles.d/libselinux.conf
-* /usr/share/doc/libselinux-3.8/LICENSE
-* /usr/share/doc/libselinux-3.8/VERSION
+* /usr/share/doc/libselinux-3.8.1/LICENSE
+* /usr/share/doc/libselinux-3.8.1/VERSION
 * /usr/share/man/man3/avc_add_callback.3.gz
 * /usr/share/man/man3/avc_audit.3.gz
 * /usr/share/man/man3/avc_av_stats.3.gz
