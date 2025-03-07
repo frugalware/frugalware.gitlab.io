@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "glib2 2.83.5-1"
-version = "2.83.5-1"
+title = "glib2 2.84.0-1"
+version = "2.84.0-1"
 description = "Common C routines used by GTK+ and other libraries"
-date = "2025-02-28T19:13:04"
+date = "2025-03-07T11:19:11"
 aliases = "/packages/2384"
 categories = ['base']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "11724432"
-usize = "100246990"
-sha1sum = "d45ebec8ea29a8678ce85ee2a155acb163776a39"
+size = "11757156"
+usize = "100301064"
+sha1sum = "7156bdb763d743389a57ce9cdbfdc3cf4bd2d272"
 depends = "['elfutils>=0.170-2', 'glibc>=2.34', 'libblkid>=2.33.2-2', 'libffi>=3.4', 'pcre2', 'python3', 'util-linux', 'zlib-ng']"
 reverse_depends = "['at-spi2-core', 'avahi-glib', 'bitlbee-common', 'bluez', 'cairo', 'colord', 'dbus-c++', 'dbus-glib', 'dbus-sharp-glib', 'ddcutil', 'desktop-file-utils', 'efl', 'enchant', 'enlightenment', 'gcab', 'gdk-pixbuf2', 'glib-networking', 'glibmm', 'glibmm24', 'glyr', 'gmime2', 'gmime3', 'gnokii-mysql', 'gnokii-pq', 'gobject-introspection', 'graphene', 'gsettings-desktop-schemas', 'gst1-plugins-base-gio', 'gstreamer1', 'gtk+3-immodules', 'gtk+3-immodules-xim', 'gtk+3-tools', 'gtk+4-tools', 'gvfs', 'harfbuzz', 'ifuse', 'iio-sensor-proxy', 'irqbalance', 'irssi', 'json-glib', 'keximdb', 'lensfun', 'libaccounts-glib', 'libatspi', 'libcroco', 'libdbusmenu', 'libdex', 'libgee', 'libgee8', 'libgexiv2', 'libgovirt', 'libgudev', 'libguestfs', 'libgusb', 'libhandy', 'libibus', 'libidl', 'liblqr', 'libmbim', 'libmms', 'libosinfo', 'libportal', 'libqalculate', 'libqrtr-glib', 'libseafile', 'libslirp', 'libsoup', 'libsoup3', 'libvterm', 'libwacom', 'libxmlb', 'loudmouth', 'mc', 'mcabber', 'mdbtools', 'meanwhile', 'msmtp', 'nm-libreswan', 'nm-openvpn', 'ofono', 'packagekit-glib', 'pacman-tools', 'pinentry', 'qt5-base', 'redshift', 'rspamd', 'scribus', 'scummvm', 'shared-mime-info', 'sofia-sip', 'sshfs', 'switcheroo-control', 'sylpheed', 'telegram-desktop', 'template-glib', 'terminology', 'threema-desktop', 'tootle', 'vala', 'whalebird', 'wireshark', 'wpebackend-fdo', 'xdg-dbus-proxy', 'xdg-desktop-portal']"
 +++
@@ -355,22 +355,22 @@ Common C routines used by GTK+ and other libraries
 * /usr/lib/glib2/gio-launch-desktop
 * /usr/lib/libgio-2.0.so
 * /usr/lib/libgio-2.0.so.0
-* /usr/lib/libgio-2.0.so.0.8305.0
+* /usr/lib/libgio-2.0.so.0.8400.0
 * /usr/lib/libgirepository-2.0.so
 * /usr/lib/libgirepository-2.0.so.0
-* /usr/lib/libgirepository-2.0.so.0.8305.0
+* /usr/lib/libgirepository-2.0.so.0.8400.0
 * /usr/lib/libglib-2.0.so
 * /usr/lib/libglib-2.0.so.0
-* /usr/lib/libglib-2.0.so.0.8305.0
+* /usr/lib/libglib-2.0.so.0.8400.0
 * /usr/lib/libgmodule-2.0.so
 * /usr/lib/libgmodule-2.0.so.0
-* /usr/lib/libgmodule-2.0.so.0.8305.0
+* /usr/lib/libgmodule-2.0.so.0.8400.0
 * /usr/lib/libgobject-2.0.so
 * /usr/lib/libgobject-2.0.so.0
-* /usr/lib/libgobject-2.0.so.0.8305.0
+* /usr/lib/libgobject-2.0.so.0.8400.0
 * /usr/lib/libgthread-2.0.so
 * /usr/lib/libgthread-2.0.so.0
-* /usr/lib/libgthread-2.0.so.0.8305.0
+* /usr/lib/libgthread-2.0.so.0.8400.0
 * /usr/lib/pkgconfig/gio-2.0.pc
 * /usr/lib/pkgconfig/gio-unix-2.0.pc
 * /usr/lib/pkgconfig/girepository-2.0.pc
@@ -4355,7 +4355,6 @@ Common C routines used by GTK+ and other libraries
 * /usr/share/doc/glib-2.0/callback.VoidFunc.html
 * /usr/share/doc/glib-2.0/character-set.html
 * /usr/share/doc/glib-2.0/checked-math.html
-* /usr/share/doc/glib-2.0/classes_hierarchy.html
 * /usr/share/doc/glib-2.0/compiling.html
 * /usr/share/doc/glib-2.0/const.ALLOCATOR_LIST.html
 * /usr/share/doc/glib-2.0/const.ALLOCATOR_NODE.html
@@ -6795,7 +6794,6 @@ Common C routines used by GTK+ and other libraries
 * /usr/share/doc/glib-2.0/version.html
 * /usr/share/doc/glib-2.0/warnings.html
 * /usr/share/doc/glib-unix-2.0/callback.FDSourceFunc.html
-* /usr/share/doc/glib-unix-2.0/classes_hierarchy.html
 * /usr/share/doc/glib-unix-2.0/enum.PipeEnd.html
 * /usr/share/doc/glib-unix-2.0/fonts.css
 * /usr/share/doc/glib-unix-2.0/func.closefrom.html
@@ -6860,13 +6858,12 @@ Common C routines used by GTK+ and other libraries
 * /usr/share/doc/glib-unix-2.0/type_func.Pipe.steal.html
 * /usr/share/doc/glib-unix-2.0/unix.html
 * /usr/share/doc/glib-unix-2.0/urlmap.js
-* /usr/share/doc/glib2-2.83.5/COPYING
-* /usr/share/doc/glib2-2.83.5/INSTALL.md
-* /usr/share/doc/glib2-2.83.5/NEWS
-* /usr/share/doc/glib2-2.83.5/README.md
+* /usr/share/doc/glib2-2.84.0/COPYING
+* /usr/share/doc/glib2-2.84.0/INSTALL.md
+* /usr/share/doc/glib2-2.84.0/NEWS
+* /usr/share/doc/glib2-2.84.0/README.md
 * /usr/share/doc/gmodule-2.0/callback.ModuleCheckInit.html
 * /usr/share/doc/gmodule-2.0/callback.ModuleUnload.html
-* /usr/share/doc/gmodule-2.0/classes_hierarchy.html
 * /usr/share/doc/gmodule-2.0/const.MODULE_IMPL_AR.html
 * /usr/share/doc/gmodule-2.0/const.MODULE_IMPL_DL.html
 * /usr/share/doc/gmodule-2.0/const.MODULE_IMPL_NONE.html
@@ -7911,8 +7908,8 @@ Common C routines used by GTK+ and other libraries
 * /usr/share/doc/gobject-2.0/vfunc.ParamSpec.value_validate.html
 * /usr/share/doc/gobject-2.0/vfunc.TypeModule.load.html
 * /usr/share/doc/gobject-2.0/vfunc.TypeModule.unload.html
-* /usr/share/gdb/auto-load/usr/lib/libglib-2.0.so.0.8305.0-gdb.py
-* /usr/share/gdb/auto-load/usr/lib/libgobject-2.0.so.0.8305.0-gdb.py
+* /usr/share/gdb/auto-load/usr/lib/libglib-2.0.so.0.8400.0-gdb.py
+* /usr/share/gdb/auto-load/usr/lib/libgobject-2.0.so.0.8400.0-gdb.py
 * /usr/share/gettext/its/gschema.its
 * /usr/share/gettext/its/gschema.loc
 * /usr/share/gir-1.0/Gio-2.0.gir
