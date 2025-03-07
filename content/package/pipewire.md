@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pipewire 1.2.7-4"
-version = "1.2.7-4"
+title = "pipewire 1.4.0-1"
+version = "1.4.0-1"
 description = "A project that aims to greatly improve handling of audio and video under Linux"
-date = "2025-01-26T12:21:58"
+date = "2025-03-07T10:27:36"
 aliases = "/packages/219857"
 categories = ['xmultimedia']
 upstreamurl = "https://pipewire.org/"
 arch = "x86_64"
-size = "3982316"
-usize = "39470122"
-sha1sum = "40b703c0299416f00ba52e16746b5ac8800090fb"
+size = "4523420"
+usize = "43318278"
+sha1sum = "af6a4aaffb7140c03864190b66fd14e8fc53a5b1"
 depends = "['fdk-aac', 'ldacbt', 'libcamera>=0.4.0', 'libcanberra', 'libfreeaptx', 'libmysofa', 'lilv', 'sbc', 'vulkan-icd-loader', 'webrtc-audio-processing>=2.1']"
 reverse_depends = "['clightd', 'easyeffects', 'kpipewire', 'kwin', 'obs-studio', 'qemu', 'telegram-desktop', 'weston', 'wireplumber', 'xdg-desktop-portal']"
 +++
@@ -111,6 +111,7 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/include/spa-0.2/spa/buffer/type-info.h
 * /usr/include/spa-0.2/spa/control/control.h
 * /usr/include/spa-0.2/spa/control/type-info.h
+* /usr/include/spa-0.2/spa/control/ump-utils.h
 * /usr/include/spa-0.2/spa/debug/buffer.h
 * /usr/include/spa-0.2/spa/debug/context.h
 * /usr/include/spa-0.2/spa/debug/dict.h
@@ -121,6 +122,7 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/include/spa-0.2/spa/debug/node.h
 * /usr/include/spa-0.2/spa/debug/pod.h
 * /usr/include/spa-0.2/spa/debug/types.h
+* /usr/include/spa-0.2/spa/filter-graph/filter-graph.h
 * /usr/include/spa-0.2/spa/graph/graph.h
 * /usr/include/spa-0.2/spa/interfaces/audio/aec.h
 * /usr/include/spa-0.2/spa/monitor/device.h
@@ -163,6 +165,7 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/include/spa-0.2/spa/param/audio/opus.h
 * /usr/include/spa-0.2/spa/param/audio/ra-utils.h
 * /usr/include/spa-0.2/spa/param/audio/ra.h
+* /usr/include/spa-0.2/spa/param/audio/raw-json.h
 * /usr/include/spa-0.2/spa/param/audio/raw-types.h
 * /usr/include/spa-0.2/spa/param/audio/raw-utils.h
 * /usr/include/spa-0.2/spa/param/audio/raw.h
@@ -240,8 +243,10 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/include/spa-0.2/spa/utils/defs.h
 * /usr/include/spa-0.2/spa/utils/dict.h
 * /usr/include/spa-0.2/spa/utils/dll.h
+* /usr/include/spa-0.2/spa/utils/endian.h
 * /usr/include/spa-0.2/spa/utils/enum-types.h
 * /usr/include/spa-0.2/spa/utils/hook.h
+* /usr/include/spa-0.2/spa/utils/json-core.h
 * /usr/include/spa-0.2/spa/utils/json-pod.h
 * /usr/include/spa-0.2/spa/utils/json.h
 * /usr/include/spa-0.2/spa/utils/keys.h
@@ -257,7 +262,7 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/lib/alsa-lib/libasound_module_pcm_pipewire.so
 * /usr/lib/libpipewire-0.3.so
 * /usr/lib/libpipewire-0.3.so.0
-* /usr/lib/libpipewire-0.3.so.0.1207.0
+* /usr/lib/libpipewire-0.3.so.0.1400.0
 * /usr/lib/pipewire-0.3/libpipewire-module-access.so
 * /usr/lib/pipewire-0.3/libpipewire-module-adapter.so
 * /usr/lib/pipewire-0.3/libpipewire-module-avb.so
@@ -266,8 +271,6 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/lib/pipewire-0.3/libpipewire-module-combine-stream.so
 * /usr/lib/pipewire-0.3/libpipewire-module-echo-cancel.so
 * /usr/lib/pipewire-0.3/libpipewire-module-fallback-sink.so
-* /usr/lib/pipewire-0.3/libpipewire-module-filter-chain-lv2.so
-* /usr/lib/pipewire-0.3/libpipewire-module-filter-chain-sofa.so
 * /usr/lib/pipewire-0.3/libpipewire-module-filter-chain.so
 * /usr/lib/pipewire-0.3/libpipewire-module-link-factory.so
 * /usr/lib/pipewire-0.3/libpipewire-module-loopback.so
@@ -309,12 +312,19 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/lib/spa-0.2/bluez5/libspa-codec-bluez5-aac.so
 * /usr/lib/spa-0.2/bluez5/libspa-codec-bluez5-aptx.so
 * /usr/lib/spa-0.2/bluez5/libspa-codec-bluez5-faststream.so
+* /usr/lib/spa-0.2/bluez5/libspa-codec-bluez5-g722.so
 * /usr/lib/spa-0.2/bluez5/libspa-codec-bluez5-ldac.so
 * /usr/lib/spa-0.2/bluez5/libspa-codec-bluez5-opus-g.so
 * /usr/lib/spa-0.2/bluez5/libspa-codec-bluez5-opus.so
 * /usr/lib/spa-0.2/bluez5/libspa-codec-bluez5-sbc.so
 * /usr/lib/spa-0.2/control/libspa-control.so
+* /usr/lib/spa-0.2/filter-graph/libspa-filter-graph-plugin-builtin.so
+* /usr/lib/spa-0.2/filter-graph/libspa-filter-graph-plugin-ladspa.so
+* /usr/lib/spa-0.2/filter-graph/libspa-filter-graph-plugin-lv2.so
+* /usr/lib/spa-0.2/filter-graph/libspa-filter-graph-plugin-sofa.so
+* /usr/lib/spa-0.2/filter-graph/libspa-filter-graph.so
 * /usr/lib/spa-0.2/libcamera/libspa-libcamera.so
+* /usr/lib/spa-0.2/libspa.so
 * /usr/lib/spa-0.2/support/libspa-dbus.so
 * /usr/lib/spa-0.2/support/libspa-journal.so
 * /usr/lib/spa-0.2/support/libspa-support.so
@@ -382,6 +392,7 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/share/alsa-card-profile/mixer/profile-sets/dell-dock-tb16-usb-audio.conf
 * /usr/share/alsa-card-profile/mixer/profile-sets/force-speaker-and-int-mic.conf
 * /usr/share/alsa-card-profile/mixer/profile-sets/force-speaker.conf
+* /usr/share/alsa-card-profile/mixer/profile-sets/hdmi-ac3.conf
 * /usr/share/alsa-card-profile/mixer/profile-sets/hp-tbt-dock-120w-g2.conf
 * /usr/share/alsa-card-profile/mixer/profile-sets/hp-tbt-dock-audio-module.conf
 * /usr/share/alsa-card-profile/mixer/profile-sets/kinect-audio.conf
@@ -401,11 +412,11 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/share/alsa-card-profile/mixer/profile-sets/texas-instruments-pcm2902.conf
 * /usr/share/alsa-card-profile/mixer/profile-sets/usb-gaming-headset.conf
 * /usr/share/alsa/alsa.conf.d/50-pipewire.conf
-* /usr/share/doc/pipewire-1.2.7/COPYING
-* /usr/share/doc/pipewire-1.2.7/INSTALL.md
-* /usr/share/doc/pipewire-1.2.7/LICENSE
-* /usr/share/doc/pipewire-1.2.7/NEWS
-* /usr/share/doc/pipewire-1.2.7/README.md
+* /usr/share/doc/pipewire-1.4.0/COPYING
+* /usr/share/doc/pipewire-1.4.0/INSTALL.md
+* /usr/share/doc/pipewire-1.4.0/LICENSE
+* /usr/share/doc/pipewire-1.4.0/NEWS
+* /usr/share/doc/pipewire-1.4.0/README.md
 * /usr/share/doc/pipewire/html/aac-types_8h.html
 * /usr/share/doc/pipewire/html/aac-types_8h_source.html
 * /usr/share/doc/pipewire/html/aac-utils_8h.html
@@ -439,6 +450,8 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/share/doc/pipewire/html/audio-capture_8c-example.html
 * /usr/share/doc/pipewire/html/audio-dsp-filter_8c-example.html
 * /usr/share/doc/pipewire/html/audio-dsp-src_8c-example.html
+* /usr/share/doc/pipewire/html/audio-src-ring2_8c-example.html
+* /usr/share/doc/pipewire/html/audio-src-ring_8c-example.html
 * /usr/share/doc/pipewire/html/audio-src_8c-example.html
 * /usr/share/doc/pipewire/html/audio_2dsp-utils_8h.html
 * /usr/share/doc/pipewire/html/audio_2dsp-utils_8h_source.html
@@ -519,6 +532,7 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/share/doc/pipewire/html/dir_6986fe1dc5665c3b6847aac90b04e9e9.html
 * /usr/share/doc/pipewire/html/dir_6bd25c25867debc7a223753ea0a0854b.html
 * /usr/share/doc/pipewire/html/dir_7129a66c92fe7beef816c2ac906ef0b3.html
+* /usr/share/doc/pipewire/html/dir_74d196f5cd72a1645749b796df28e947.html
 * /usr/share/doc/pipewire/html/dir_74ee4c511a6ff81cc2259ced20be9e7a.html
 * /usr/share/doc/pipewire/html/dir_829a904a692ff3f12932cec80d53c448.html
 * /usr/share/doc/pipewire/html/dir_847b9498d3ba6844b1972c87baa25147.html
@@ -550,6 +564,7 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/share/doc/pipewire/html/dynamic_8h_source.html
 * /usr/share/doc/pipewire/html/dynsections.js
 * /usr/share/doc/pipewire/html/encoded_8h_source.html
+* /usr/share/doc/pipewire/html/endian_8h_source.html
 * /usr/share/doc/pipewire/html/enum-types_8h.html
 * /usr/share/doc/pipewire/html/enum-types_8h_source.html
 * /usr/share/doc/pipewire/html/examples.html
@@ -562,6 +577,8 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/share/doc/pipewire/html/factory_8h_source.html
 * /usr/share/doc/pipewire/html/file_8h.html
 * /usr/share/doc/pipewire/html/file_8h_source.html
+* /usr/share/doc/pipewire/html/filter-graph_8h.html
+* /usr/share/doc/pipewire/html/filter-graph_8h_source.html
 * /usr/share/doc/pipewire/html/flac-utils_8h.html
 * /usr/share/doc/pipewire/html/flac-utils_8h_source.html
 * /usr/share/doc/pipewire/html/flac_8h.html
@@ -715,6 +732,7 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/share/doc/pipewire/html/globals_z.html
 * /usr/share/doc/pipewire/html/global_8h.html
 * /usr/share/doc/pipewire/html/global_8h_source.html
+* /usr/share/doc/pipewire/html/gmain_8c-example.html
 * /usr/share/doc/pipewire/html/graph_8h.html
 * /usr/share/doc/pipewire/html/graph_8h_source.html
 * /usr/share/doc/pipewire/html/group__api__pw__core.html
@@ -845,6 +863,8 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/share/doc/pipewire/html/group__spa__device.js
 * /usr/share/doc/pipewire/html/group__spa__dict.html
 * /usr/share/doc/pipewire/html/group__spa__dict.js
+* /usr/share/doc/pipewire/html/group__spa__filter__graph.html
+* /usr/share/doc/pipewire/html/group__spa__filter__graph.js
 * /usr/share/doc/pipewire/html/group__spa__graph.html
 * /usr/share/doc/pipewire/html/group__spa__graph.js
 * /usr/share/doc/pipewire/html/group__spa__handle.html
@@ -859,6 +879,7 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/share/doc/pipewire/html/group__spa__json.js
 * /usr/share/doc/pipewire/html/group__spa__json__pod.html
 * /usr/share/doc/pipewire/html/group__spa__json__pod.js
+* /usr/share/doc/pipewire/html/group__spa__json__utils.html
 * /usr/share/doc/pipewire/html/group__spa__keys.html
 * /usr/share/doc/pipewire/html/group__spa__keys.js
 * /usr/share/doc/pipewire/html/group__spa__list.html
@@ -942,6 +963,8 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/share/doc/pipewire/html/iter_8h.html
 * /usr/share/doc/pipewire/html/iter_8h_source.html
 * /usr/share/doc/pipewire/html/jquery.js
+* /usr/share/doc/pipewire/html/json-core_8h.html
+* /usr/share/doc/pipewire/html/json-core_8h_source.html
 * /usr/share/doc/pipewire/html/json-pod_8h.html
 * /usr/share/doc/pipewire/html/json-pod_8h_source.html
 * /usr/share/doc/pipewire/html/json_8h.html
@@ -1011,6 +1034,7 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/share/doc/pipewire/html/navtreeindex20.js
 * /usr/share/doc/pipewire/html/navtreeindex21.js
 * /usr/share/doc/pipewire/html/navtreeindex22.js
+* /usr/share/doc/pipewire/html/navtreeindex23.js
 * /usr/share/doc/pipewire/html/navtreeindex3.js
 * /usr/share/doc/pipewire/html/navtreeindex4.js
 * /usr/share/doc/pipewire/html/navtreeindex5.js
@@ -1121,6 +1145,10 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/share/doc/pipewire/html/page_module_rtp_source.html
 * /usr/share/doc/pipewire/html/page_module_session_manager.html
 * /usr/share/doc/pipewire/html/page_module_snapcast_discover.html
+* /usr/share/doc/pipewire/html/page_module_spa_device.html
+* /usr/share/doc/pipewire/html/page_module_spa_device_factory.html
+* /usr/share/doc/pipewire/html/page_module_spa_node.html
+* /usr/share/doc/pipewire/html/page_module_spa_node_factory.html
 * /usr/share/doc/pipewire/html/page_module_vban_recv.html
 * /usr/share/doc/pipewire/html/page_module_vban_send.html
 * /usr/share/doc/pipewire/html/page_module_x11_bell.html
@@ -1247,6 +1275,8 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/share/doc/pipewire/html/ra-utils_8h.html
 * /usr/share/doc/pipewire/html/ra-utils_8h_source.html
 * /usr/share/doc/pipewire/html/ratelimit_8h_source.html
+* /usr/share/doc/pipewire/html/raw-json_8h.html
+* /usr/share/doc/pipewire/html/raw-json_8h_source.html
 * /usr/share/doc/pipewire/html/ra_8h.html
 * /usr/share/doc/pipewire/html/ra_8h_source.html
 * /usr/share/doc/pipewire/html/resize.js
@@ -1330,6 +1360,7 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/share/doc/pipewire/html/search/files_f.js
 * /usr/share/doc/pipewire/html/search/functions_0.js
 * /usr/share/doc/pipewire/html/search/functions_1.js
+* /usr/share/doc/pipewire/html/search/functions_2.js
 * /usr/share/doc/pipewire/html/search/groups_0.js
 * /usr/share/doc/pipewire/html/search/groups_1.js
 * /usr/share/doc/pipewire/html/search/groups_10.js
@@ -1422,6 +1453,7 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/share/doc/pipewire/html/spa_2examples_2example-control_8c-example.html
 * /usr/share/doc/pipewire/html/spa_2examples_2local-libcamera_8c-example.html
 * /usr/share/doc/pipewire/html/spa_2examples_2local-v4l2_8c-example.html
+* /usr/share/doc/pipewire/html/spa_2examples_2local-videotestsrc_8c-example.html
 * /usr/share/doc/pipewire/html/spa_2include_2spa_2control_2control_8h.html
 * /usr/share/doc/pipewire/html/spa_2include_2spa_2control_2control_8h_source.html
 * /usr/share/doc/pipewire/html/spa_2include_2spa_2debug_2context_8h.html
@@ -1823,6 +1855,14 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/share/doc/pipewire/html/structspa__event.js
 * /usr/share/doc/pipewire/html/structspa__event__body.html
 * /usr/share/doc/pipewire/html/structspa__event__body.js
+* /usr/share/doc/pipewire/html/structspa__filter__graph.html
+* /usr/share/doc/pipewire/html/structspa__filter__graph.js
+* /usr/share/doc/pipewire/html/structspa__filter__graph__events.html
+* /usr/share/doc/pipewire/html/structspa__filter__graph__events.js
+* /usr/share/doc/pipewire/html/structspa__filter__graph__info.html
+* /usr/share/doc/pipewire/html/structspa__filter__graph__info.js
+* /usr/share/doc/pipewire/html/structspa__filter__graph__methods.html
+* /usr/share/doc/pipewire/html/structspa__filter__graph__methods.js
 * /usr/share/doc/pipewire/html/structspa__fraction.html
 * /usr/share/doc/pipewire/html/structspa__fraction.js
 * /usr/share/doc/pipewire/html/structspa__graph.html
@@ -2095,6 +2135,8 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/share/doc/pipewire/html/tutorial6_8c-example.html
 * /usr/share/doc/pipewire/html/types_8h.html
 * /usr/share/doc/pipewire/html/types_8h_source.html
+* /usr/share/doc/pipewire/html/ump-utils_8h.html
+* /usr/share/doc/pipewire/html/ump-utils_8h_source.html
 * /usr/share/doc/pipewire/html/utils_2dict_8h.html
 * /usr/share/doc/pipewire/html/utils_2dict_8h_source.html
 * /usr/share/doc/pipewire/html/utils_2type-info_8h.html
@@ -2199,6 +2241,10 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/share/man/man7/libpipewire-module-rtp-source.7.gz
 * /usr/share/man/man7/libpipewire-module-session-manager.7.gz
 * /usr/share/man/man7/libpipewire-module-snapcast-discover.7.gz
+* /usr/share/man/man7/libpipewire-module-spa-device-factory.7.gz
+* /usr/share/man/man7/libpipewire-module-spa-device.7.gz
+* /usr/share/man/man7/libpipewire-module-spa-node-factory.7.gz
+* /usr/share/man/man7/libpipewire-module-spa-node.7.gz
 * /usr/share/man/man7/libpipewire-module-vban-recv.7.gz
 * /usr/share/man/man7/libpipewire-module-vban-send.7.gz
 * /usr/share/man/man7/libpipewire-module-x11-bell.7.gz
@@ -2240,8 +2286,6 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/share/man/man7/pipewire-pulse-module-zeroconf-discover.7.gz
 * /usr/share/man/man7/pipewire-pulse-module-zeroconf-publish.7.gz
 * /usr/share/man/man7/pipewire-pulse-modules.7.gz
-* /usr/share/pipewire/client-rt.conf
-* /usr/share/pipewire/client-rt.conf.avail/20-upmix.conf
 * /usr/share/pipewire/client.conf
 * /usr/share/pipewire/client.conf.avail/20-upmix.conf
 * /usr/share/pipewire/filter-chain.conf
@@ -2251,6 +2295,7 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/share/pipewire/filter-chain/sink-make-LFE.conf
 * /usr/share/pipewire/filter-chain/sink-matrix-spatialiser.conf
 * /usr/share/pipewire/filter-chain/sink-mix-FL-FR.conf
+* /usr/share/pipewire/filter-chain/sink-upmix-5.1-filter.conf
 * /usr/share/pipewire/filter-chain/sink-virtual-surround-5.1-kemar.conf
 * /usr/share/pipewire/filter-chain/sink-virtual-surround-7.1-hesuvi.conf
 * /usr/share/pipewire/filter-chain/source-duplicate-FL.conf

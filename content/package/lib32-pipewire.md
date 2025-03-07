@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-pipewire 1.2.7-4"
-version = "1.2.7-4"
+title = "lib32-pipewire 1.4.0-1"
+version = "1.4.0-1"
 description = "A project that aims to greatly improve handling of audio and video under Linux ( 32bit )"
-date = "2025-01-26T12:21:58"
+date = "2025-03-07T10:27:36"
 aliases = "/packages/220575"
 categories = ['lib32-extra']
 upstreamurl = "https://pipewire.org/"
 arch = "x86_64"
-size = "1467116"
-usize = "6209174"
-sha1sum = "4944ab207b5515f21eb15425577f7649f5825841"
+size = "1840956"
+usize = "7615578"
+sha1sum = "1e636504ec17dab58b71e7ecead2a77b533a244b"
 depends = "['lib32-glib2', 'lib32-libcap', 'lib32-libdrm', 'lib32-libgcrypt', 'lib32-libpulse', 'lib32-libsystemd', 'lib32-zstd']"
 +++
 ### Description: 
@@ -21,16 +21,16 @@ A project that aims to greatly improve handling of audio and video under Linux (
 * /usr/lib32/alsa-lib/libasound_module_pcm_pipewire.so
 * /usr/lib32/libpipewire-0.3.so
 * /usr/lib32/libpipewire-0.3.so.0
-* /usr/lib32/libpipewire-0.3.so.0.1207.0
+* /usr/lib32/libpipewire-0.3.so.0.1400.0
 * /usr/lib32/pipewire-0.3/jack/libjack.so
 * /usr/lib32/pipewire-0.3/jack/libjack.so.0
-* /usr/lib32/pipewire-0.3/jack/libjack.so.0.3.1207
+* /usr/lib32/pipewire-0.3/jack/libjack.so.0.3.1400
 * /usr/lib32/pipewire-0.3/jack/libjacknet.so
 * /usr/lib32/pipewire-0.3/jack/libjacknet.so.0
-* /usr/lib32/pipewire-0.3/jack/libjacknet.so.0.3.1207
+* /usr/lib32/pipewire-0.3/jack/libjacknet.so.0.3.1400
 * /usr/lib32/pipewire-0.3/jack/libjackserver.so
 * /usr/lib32/pipewire-0.3/jack/libjackserver.so.0
-* /usr/lib32/pipewire-0.3/jack/libjackserver.so.0.3.1207
+* /usr/lib32/pipewire-0.3/jack/libjackserver.so.0.3.1400
 * /usr/lib32/pipewire-0.3/libpipewire-module-access.so
 * /usr/lib32/pipewire-0.3/libpipewire-module-adapter.so
 * /usr/lib32/pipewire-0.3/libpipewire-module-avb.so
@@ -76,6 +76,10 @@ A project that aims to greatly improve handling of audio and video under Linux (
 * /usr/lib32/spa-0.2/audiotestsrc/libspa-audiotestsrc.so
 * /usr/lib32/spa-0.2/avb/libspa-avb.so
 * /usr/lib32/spa-0.2/control/libspa-control.so
+* /usr/lib32/spa-0.2/filter-graph/libspa-filter-graph-plugin-builtin.so
+* /usr/lib32/spa-0.2/filter-graph/libspa-filter-graph-plugin-ladspa.so
+* /usr/lib32/spa-0.2/filter-graph/libspa-filter-graph.so
+* /usr/lib32/spa-0.2/libspa.so
 * /usr/lib32/spa-0.2/support/libspa-dbus.so
 * /usr/lib32/spa-0.2/support/libspa-journal.so
 * /usr/lib32/spa-0.2/support/libspa-support.so
