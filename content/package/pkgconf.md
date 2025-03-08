@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pkgconf 2.4.0-1"
-version = "2.4.0-1"
+title = "pkgconf 2.4.3-1"
+version = "2.4.3-1"
 description = "A system for managing library compile/link flags"
-date = "2025-03-06T08:09:10"
+date = "2025-03-08T14:34:19"
 aliases = "/packages/222559"
 categories = ['devel']
 upstreamurl = "https://gitea.treehouse.systems/ariadne/pkgconf"
 arch = "x86_64"
-size = "66884"
-usize = "207229"
-sha1sum = "bd92866bfff85235c182c037561b98694dfc28d7"
+size = "68592"
+usize = "212214"
+sha1sum = "1ae6dd5b2effa3dcd3715288c07b7ff206b8cbdc"
 depends = "['glibc']"
 +++
 ### Description: 
@@ -31,10 +31,10 @@ A system for managing library compile/link flags
 * /usr/lib/libpkgconf.so.6.0.0
 * /usr/lib/pkgconfig/libpkgconf.pc
 * /usr/share/aclocal/pkg.m4
-* /usr/share/doc/pkgconf-2.4.0/AUTHORS
-* /usr/share/doc/pkgconf-2.4.0/COPYING
-* /usr/share/doc/pkgconf-2.4.0/NEWS
-* /usr/share/doc/pkgconf-2.4.0/README.md
+* /usr/share/doc/pkgconf-2.4.3/AUTHORS
+* /usr/share/doc/pkgconf-2.4.3/COPYING
+* /usr/share/doc/pkgconf-2.4.3/NEWS
+* /usr/share/doc/pkgconf-2.4.3/README.md
 * /usr/share/doc/pkgconf/AUTHORS
 * /usr/share/doc/pkgconf/README.md
 * /usr/share/man/man1/pkgconf.1.gz
