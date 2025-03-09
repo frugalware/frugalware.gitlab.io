@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "xtrans 1.5.2-1"
-version = "1.5.2-1"
+title = "xtrans 1.6.0-1"
+version = "1.6.0-1"
 description = "Abstract Network code for X"
-date = "2024-11-10T00:52:35"
+date = "2025-03-09T18:42:06"
 aliases = "/packages/4961"
 categories = ['x11']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "76976"
-usize = "349766"
-sha1sum = "e5c675e4c98c6b0cf85f5dc03f9f96ee0004da65"
+size = "78480"
+usize = "358233"
+sha1sum = "1c6bdf461a4e8806d839da61ce432d79f776d0eb"
 depends = "[]"
 reverse_depends = "['x11-protos']"
 license = "GPL2"
@@ -28,9 +28,9 @@ Abstract Network code for X
 * /usr/include/X11/Xtrans/Xtransutil.c
 * /usr/lib/pkgconfig/xtrans.pc
 * /usr/share/aclocal/xtrans.m4
-* /usr/share/doc/xtrans-1.5.2/AUTHORS
-* /usr/share/doc/xtrans-1.5.2/ChangeLog
-* /usr/share/doc/xtrans-1.5.2/COPYING
-* /usr/share/doc/xtrans-1.5.2/INSTALL
-* /usr/share/doc/xtrans-1.5.2/README.md
-* /usr/share/doc/xtrans-1.5.2/xtrans.xml
+* /usr/share/doc/xtrans-1.6.0/AUTHORS
+* /usr/share/doc/xtrans-1.6.0/ChangeLog
+* /usr/share/doc/xtrans-1.6.0/COPYING
+* /usr/share/doc/xtrans-1.6.0/INSTALL
+* /usr/share/doc/xtrans-1.6.0/README.md
+* /usr/share/doc/xtrans-1.6.0/xtrans.xml

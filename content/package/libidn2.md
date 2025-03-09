@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libidn2 2.3.7-2"
-version = "2.3.7-2"
+title = "libidn2 2.3.8-1"
+version = "2.3.8-1"
 description = "GNU Libidn2 is an implementation of the Stringprep,Punycode and IDNA specification."
-date = "2024-05-15T19:40:18"
+date = "2025-03-09T18:37:48"
 aliases = "/packages/218917"
 categories = ['base']
 upstreamurl = "http://www.gnu.org/software/libidn/"
 arch = "x86_64"
-size = "161380"
-usize = "638870"
-sha1sum = "81dc3308d44f8d6401d3ed4c7dd476e96082fa19"
+size = "147344"
+usize = "486334"
+sha1sum = "60f3d55e57f1d453aa6fa96220268ef604ee4fdc"
 depends = "['libunistring>=1.1']"
 reverse_depends = "['aria2', 'curl', 'ffmpeg', 'ffmpeg4.4', 'gnutls', 'iputils', 'libpsl', 's-nail', 'systemd', 'systemd-nspawn', 'systemd-systemctl']"
 +++
@@ -25,16 +25,16 @@ GNU Libidn2 is an implementation of the Stringprep,Punycode and IDNA specificati
 * /usr/lib/libidn2.so.0
 * /usr/lib/libidn2.so.0.4.0
 * /usr/lib/pkgconfig/libidn2.pc
-* /usr/share/doc/libidn2-2.3.7/AUTHORS
-* /usr/share/doc/libidn2-2.3.7/ChangeLog
-* /usr/share/doc/libidn2-2.3.7/COPYING
-* /usr/share/doc/libidn2-2.3.7/COPYING.LESSERv3
-* /usr/share/doc/libidn2-2.3.7/COPYING.unicode
-* /usr/share/doc/libidn2-2.3.7/COPYINGv2
-* /usr/share/doc/libidn2-2.3.7/INSTALL
-* /usr/share/doc/libidn2-2.3.7/NEWS
-* /usr/share/doc/libidn2-2.3.7/README
-* /usr/share/doc/libidn2-2.3.7/README.md
+* /usr/share/doc/libidn2-2.3.8/AUTHORS
+* /usr/share/doc/libidn2-2.3.8/ChangeLog
+* /usr/share/doc/libidn2-2.3.8/COPYING
+* /usr/share/doc/libidn2-2.3.8/COPYING.LESSERv3
+* /usr/share/doc/libidn2-2.3.8/COPYING.unicode
+* /usr/share/doc/libidn2-2.3.8/COPYINGv2
+* /usr/share/doc/libidn2-2.3.8/INSTALL
+* /usr/share/doc/libidn2-2.3.8/NEWS
+* /usr/share/doc/libidn2-2.3.8/README
+* /usr/share/doc/libidn2-2.3.8/README.md
 * /usr/share/gtk-doc/html/libidn2/api-index-0.1.html
 * /usr/share/gtk-doc/html/libidn2/api-index-2.0.0.html
 * /usr/share/gtk-doc/html/libidn2/api-index-2.1.1.html
@@ -45,8 +45,6 @@ GNU Libidn2 is an implementation of the Stringprep,Punycode and IDNA specificati
 * /usr/share/gtk-doc/html/libidn2/index.html
 * /usr/share/gtk-doc/html/libidn2/left-insensitive.png
 * /usr/share/gtk-doc/html/libidn2/left.png
-* /usr/share/gtk-doc/html/libidn2/libidn2-idn2.h.html
-* /usr/share/gtk-doc/html/libidn2/libidn2.devhelp2
 * /usr/share/gtk-doc/html/libidn2/libidn2.html
 * /usr/share/gtk-doc/html/libidn2/right-insensitive.png
 * /usr/share/gtk-doc/html/libidn2/right.png
@@ -69,6 +67,7 @@ GNU Libidn2 is an implementation of the Stringprep,Punycode and IDNA specificati
 * /usr/share/locale/ja/LC_MESSAGES/libidn2.mo
 * /usr/share/locale/ka/LC_MESSAGES/libidn2.mo
 * /usr/share/locale/ko/LC_MESSAGES/libidn2.mo
+* /usr/share/locale/lv/LC_MESSAGES/libidn2.mo
 * /usr/share/locale/nl/LC_MESSAGES/libidn2.mo
 * /usr/share/locale/pl/LC_MESSAGES/libidn2.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/libidn2.mo

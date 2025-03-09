@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "xauth 1.1.3-1"
-version = "1.1.3-1"
+title = "xauth 1.1.4-1"
+version = "1.1.4-1"
 description = "X.Org xauth application"
-date = "2024-03-04T09:29:56"
+date = "2025-03-09T19:12:38"
 aliases = "/packages/4847"
 categories = ['x11']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "46208"
-usize = "130066"
-sha1sum = "3deae906cee3b7a75dbcd106d78d114a25bde0e2"
+size = "47844"
+usize = "129258"
+sha1sum = "a91230287463a719333d1e89fe0dce480e9a620d"
 depends = "['libx11>=1.6.3-4', 'libxext>=1.3.3-3', 'libxmu>=1.1.2-3']"
 reverse_depends = "['sddm']"
 license = "GPL2"
@@ -20,8 +20,8 @@ X.Org xauth application
 
 ### Files: 
 * /usr/bin/xauth
-* /usr/share/doc/xauth-1.1.3/ChangeLog
-* /usr/share/doc/xauth-1.1.3/COPYING
-* /usr/share/doc/xauth-1.1.3/INSTALL
-* /usr/share/doc/xauth-1.1.3/README.md
+* /usr/share/doc/xauth-1.1.4/ChangeLog
+* /usr/share/doc/xauth-1.1.4/COPYING
+* /usr/share/doc/xauth-1.1.4/INSTALL
+* /usr/share/doc/xauth-1.1.4/README.md
 * /usr/share/man/man1/xauth.1.gz

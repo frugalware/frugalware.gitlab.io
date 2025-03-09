@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "xdm 1.1.16-1"
-version = "1.1.16-1"
+title = "xdm 1.1.17-1"
+version = "1.1.17-1"
 description = "X.Org xdm application"
-date = "2024-04-05T18:36:29"
+date = "2025-03-09T19:11:11"
 aliases = "/packages/4860"
 categories = ['x11']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "148132"
-usize = "496014"
-sha1sum = "de259af56ce4af37163d57c6d4dba852dda44216"
+size = "149128"
+usize = "486797"
+sha1sum = "c3d79116e41551863f067e05ccf077a5f09b74d1"
 depends = "['libsystemd', 'libxaw>=1.0.13-2']"
 license = "GPL2"
 +++
@@ -36,10 +36,10 @@ X.Org xdm application
 * /usr/lib/X11/xdm/Xsetup_0
 * /usr/lib/X11/xdm/Xstartup
 * /usr/lib/X11/xdm/Xwilling
-* /usr/share/doc/xdm-1.1.16/AUTHORS
-* /usr/share/doc/xdm-1.1.16/ChangeLog
-* /usr/share/doc/xdm-1.1.16/COPYING
-* /usr/share/doc/xdm-1.1.16/INSTALL
-* /usr/share/doc/xdm-1.1.16/README.md
+* /usr/share/doc/xdm-1.1.17/AUTHORS
+* /usr/share/doc/xdm-1.1.17/ChangeLog
+* /usr/share/doc/xdm-1.1.17/COPYING
+* /usr/share/doc/xdm-1.1.17/INSTALL
+* /usr/share/doc/xdm-1.1.17/README.md
 * /usr/share/man/man8/xdm.8.gz
 * /usr/share/X11/app-defaults/Chooser
