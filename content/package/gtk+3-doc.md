@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gtk+3-doc 3.24.48-1"
-version = "3.24.48-1"
+title = "gtk+3-doc 3.24.49-1"
+version = "3.24.49-1"
 description = "gtk+3 documention"
-date = "2025-01-25T20:38:51"
+date = "2025-03-09T21:16:16"
 aliases = "/packages/217859"
 categories = ['gnome-docs']
 upstreamurl = "http://www.gtk.org/"
 arch = "x86_64"
-size = "3296104"
-usize = "23821393"
-sha1sum = "a79562acdea3a8deebbd4b5ec1b41116753f272d"
-depends = "['gtk+3>=3.24.48']"
+size = "3298900"
+usize = "23825028"
+sha1sum = "56c6083e50b314843251e84badc4ee35fdaed97a"
+depends = "['gtk+3>=3.24.49']"
 +++
 ### Description: 
 gtk+3 documention
@@ -31,6 +31,7 @@ gtk+3 documention
 * /usr/share/gtk-doc/html/gail-libgail-util3/up-insensitive.png
 * /usr/share/gtk-doc/html/gail-libgail-util3/up.png
 * /usr/share/gtk-doc/html/gdk3/alias_cursor.png
+* /usr/share/gtk-doc/html/gdk3/all_resize_cursor.png
 * /usr/share/gtk-doc/html/gdk3/all_scroll_cursor.png
 * /usr/share/gtk-doc/html/gdk3/annotation-glossary.html
 * /usr/share/gtk-doc/html/gdk3/api-index-full.html
@@ -58,6 +59,7 @@ gtk+3 documention
 * /usr/share/gtk-doc/html/gdk3/cross_reverse.png
 * /usr/share/gtk-doc/html/gdk3/default_cursor.png
 * /usr/share/gtk-doc/html/gdk3/diamond_cross.png
+* /usr/share/gtk-doc/html/gdk3/dnd_ask_cursor.png
 * /usr/share/gtk-doc/html/gdk3/dot.png
 * /usr/share/gtk-doc/html/gdk3/dotbox.png
 * /usr/share/gtk-doc/html/gdk3/double_arrow.png

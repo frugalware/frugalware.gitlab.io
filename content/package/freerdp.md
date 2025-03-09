@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "freerdp 3.12.0-1"
-version = "3.12.0-1"
+title = "freerdp 3.13.0-1"
+version = "3.13.0-1"
 description = "Remote Desktop Protocol cliente"
-date = "2025-02-15T12:02:53"
+date = "2025-03-09T21:34:17"
 aliases = "/packages/136181"
 categories = ['xapps']
 upstreamurl = "https://www.freerdp.com/"
 arch = "x86_64"
-size = "2546140"
-usize = "9496366"
-sha1sum = "47ea61177b2203de0823e52d19d2b9c28c6e30cc"
+size = "2447684"
+usize = "9249049"
+sha1sum = "35d4b5c2d47d1e83b59951b78f4e43c5bceeb33c"
 depends = "['ffmpeg>=7.0', 'fuse3', 'icu4c>=76.1', 'libcups', 'libkrb5', 'libxcursor', 'libxdamage', 'libxinerama', 'libxkbcommon', 'libxkbfile', 'libxrandr', 'pcsc-lite', 'sdl2_ttf']"
 reverse_depends = "['remmina-rdp', 'weston']"
 +++
@@ -314,28 +314,28 @@ Remote Desktop Protocol cliente
 * /usr/lib/freerdp/server/proxy/plugins/proxy-dyn-channel-dump-plugin.so
 * /usr/lib/libfreerdp-client3.so
 * /usr/lib/libfreerdp-client3.so.3
-* /usr/lib/libfreerdp-client3.so.3.12.0
+* /usr/lib/libfreerdp-client3.so.3.13.0
 * /usr/lib/libfreerdp-server-proxy3.so
 * /usr/lib/libfreerdp-server-proxy3.so.3
-* /usr/lib/libfreerdp-server-proxy3.so.3.12.0
+* /usr/lib/libfreerdp-server-proxy3.so.3.13.0
 * /usr/lib/libfreerdp-server3.so
 * /usr/lib/libfreerdp-server3.so.3
-* /usr/lib/libfreerdp-server3.so.3.12.0
+* /usr/lib/libfreerdp-server3.so.3.13.0
 * /usr/lib/libfreerdp-shadow-subsystem3.so
 * /usr/lib/libfreerdp-shadow-subsystem3.so.3
-* /usr/lib/libfreerdp-shadow-subsystem3.so.3.12.0
+* /usr/lib/libfreerdp-shadow-subsystem3.so.3.13.0
 * /usr/lib/libfreerdp-shadow3.so
 * /usr/lib/libfreerdp-shadow3.so.3
-* /usr/lib/libfreerdp-shadow3.so.3.12.0
+* /usr/lib/libfreerdp-shadow3.so.3.13.0
 * /usr/lib/libfreerdp3.so
 * /usr/lib/libfreerdp3.so.3
-* /usr/lib/libfreerdp3.so.3.12.0
+* /usr/lib/libfreerdp3.so.3.13.0
 * /usr/lib/libwinpr-tools3.so
 * /usr/lib/libwinpr-tools3.so.3
-* /usr/lib/libwinpr-tools3.so.3.12.0
+* /usr/lib/libwinpr-tools3.so.3.13.0
 * /usr/lib/libwinpr3.so
 * /usr/lib/libwinpr3.so.3
-* /usr/lib/libwinpr3.so.3.12.0
+* /usr/lib/libwinpr3.so.3.13.0
 * /usr/lib/pkgconfig/freerdp-client3.pc
 * /usr/lib/pkgconfig/freerdp-server-proxy3.pc
 * /usr/lib/pkgconfig/freerdp-server3.pc
@@ -343,9 +343,9 @@ Remote Desktop Protocol cliente
 * /usr/lib/pkgconfig/freerdp3.pc
 * /usr/lib/pkgconfig/winpr-tools3.pc
 * /usr/lib/pkgconfig/winpr3.pc
-* /usr/share/doc/freerdp-3.12.0/ChangeLog
-* /usr/share/doc/freerdp-3.12.0/LICENSE
-* /usr/share/doc/freerdp-3.12.0/README.md
+* /usr/share/doc/freerdp-3.13.0/ChangeLog
+* /usr/share/doc/freerdp-3.13.0/LICENSE
+* /usr/share/doc/freerdp-3.13.0/README.md
 * /usr/share/FreeRDP/images/test_icon.bmp
 * /usr/share/FreeRDP/images/test_icon.jpg
 * /usr/share/FreeRDP/images/test_icon.png

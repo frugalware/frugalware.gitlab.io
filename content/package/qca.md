@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qca 2.3.9-11"
-version = "2.3.9-11"
+title = "qca 2.3.10-1"
+version = "2.3.10-1"
 description = "QCA aims to provide a straightforward and cross-platform crypto API, using Qt5 datatypes and conventions."
-date = "2025-02-05T18:15:12"
+date = "2025-03-09T21:19:55"
 aliases = "/packages/5422"
 categories = ['xlib']
 upstreamurl = "http://delta.affinix.com/qca/"
 arch = "x86_64"
-size = "575284"
-usize = "2313511"
-sha1sum = "fe8fa47729e2e4134032eae88ad3c1ffdec09cb5"
+size = "574060"
+usize = "2316470"
+sha1sum = "2b36293fe1e5f31df787543ffe237ee32e15249d"
 depends = "['cyrus-sasl>=2.1.26-3', 'nss>=3.26', 'qt6-5compat>=6.8.2']"
 reverse_depends = "['kdepim-runtime', 'konversation', 'kpmcore', 'ksirk', 'kwallet', 'libktorrent', 'messagelib', 'okular', 'plasma-nm', 'qca-botan', 'qca-cyrus-sasl', 'qca-gcrypt', 'qca-gnupg', 'qca-nss', 'qca-ossl', 'quassel', 'skrooge']"
 license = "LGPL"
@@ -44,12 +44,12 @@ QCA aims to provide a straightforward and cross-platform crypto API, using Qt5 d
 * /usr/lib/cmake/Qca-qt6/Qca-qt6Targets.cmake
 * /usr/lib/libqca-qt6.so
 * /usr/lib/libqca-qt6.so.2
-* /usr/lib/libqca-qt6.so.2.3.9
+* /usr/lib/libqca-qt6.so.2.3.10
 * /usr/lib/qca-qt6/crypto/libqca-logger.so
 * /usr/lib/qca-qt6/crypto/libqca-softstore.so
-* /usr/share/doc/qca-2.3.9/COPYING
-* /usr/share/doc/qca-2.3.9/INSTALL
-* /usr/share/doc/qca-2.3.9/README
-* /usr/share/doc/qca-2.3.9/README.clang-format
-* /usr/share/doc/qca-2.3.9/TODO
+* /usr/share/doc/qca-2.3.10/COPYING
+* /usr/share/doc/qca-2.3.10/INSTALL
+* /usr/share/doc/qca-2.3.10/README
+* /usr/share/doc/qca-2.3.10/README.clang-format
+* /usr/share/doc/qca-2.3.10/TODO
 * /usr/share/man/man1/qcatool-qt6.1.gz

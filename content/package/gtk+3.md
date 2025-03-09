@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gtk+3 3.24.48-1"
-version = "3.24.48-1"
+title = "gtk+3 3.24.49-1"
+version = "3.24.49-1"
 description = "The GTK+ Toolkit (3.x series)"
-date = "2025-01-25T20:38:51"
+date = "2025-03-09T21:16:16"
 aliases = "/packages/103188"
 categories = ['xlib']
 upstreamurl = "http://www.gtk.org/"
 arch = "x86_64"
-size = "5606128"
-usize = "30311966"
-sha1sum = "611fa9c72b19adbfe4ccd43e226206de3848bc24"
+size = "5607160"
+usize = "30317732"
+sha1sum = "288a3056bc1767e24b0c2d1a6857984a48f59683"
 depends = "['adwaita-icon-theme', 'at-spi2-core>=2.32.0', 'colord', 'gdk-pixbuf2>=2.38.1-2', 'gtk+3-tools', 'gtk-update-icon-cache', 'iso-codes', 'libatspi>=2.32.0', 'libcups>=2.2.0-2', 'libepoxy>=1.3.1-3', 'libffi>=3.2.1-2', 'libpng>=1.6.25', 'libwayland-egl', 'libxcomposite>=0.4.4-2', 'libxcursor>=1.1.14-2', 'libxi', 'libxkbcommon>=0.5.0-3', 'libxrandr', 'pango>=1.42.4-2', 'shared-mime-info']"
 reverse_depends = "['appmenu-gtk', 'appstream-glib', 'castor', 'claws-mail', 'colord-gtk3', 'conky-manager', 'discord', 'discover-overlay', 'distcc-gui', 'firefox', 'fltk', 'fontforge', 'freeciv-gtk3', 'freetuxtv', 'gcr-1', 'gdl', 'geany', 'glade', 'gnome-panel-doc', 'gparted', 'gspell', 'gst1-plugins-bad-gtk-wayland', 'gtk+3-demos', 'gtk+3-doc', 'gtk+3-immodules', 'gtk+3-immodules-xim', 'gtk+3-tools', 'gtk-layer-shell', 'gtk-lshw', 'gtk-vnc', 'gtkmm3', 'gtksourceview4', 'gtkspell3', 'gupnp-tools', 'gvfs', 'gvim', 'ibus', 'input-remapper', 'libcanberra-gtk', 'libdbusmenu-gtk3', 'libhandy', 'libindicator', 'libinput-debug-events', 'libnma-gtk3', 'libportal-gtk3', 'libreoffice-gtk3', 'libreoffice-gtk3-kde5', 'libwnck', 'mesademos', 'mp3splt-gtk', 'neko', 'obs-studio', 'openclonk', 'openjfx', 'openrazer', 'plotinus', 'qt5-base-platformtheme-gtk3', 'qt6-base-platformtheme-gtk3', 'quba', 'r2modman', 'redshift-gtk', 'resetmsmice', 'signal-desktop', 'slack-desktop', 'spice-gtk', 'sunflower', 'swt', 'teams-for-linux', 'thunderbird', 'tootle', 'uget', 'volumeicon', 'webkit-gtk3', 'whalebird', 'xdg-desktop-portal-gnome', 'xdg-desktop-portal-gtk', 'xdg-user-dirs-gtk', 'yad', 'zeitgeist']"
 +++
@@ -446,10 +446,10 @@ The GTK+ Toolkit (3.x series)
 * /usr/lib/libgailutil-3.so.0.0.0
 * /usr/lib/libgdk-3.so
 * /usr/lib/libgdk-3.so.0
-* /usr/lib/libgdk-3.so.0.2416.32
+* /usr/lib/libgdk-3.so.0.2417.32
 * /usr/lib/libgtk-3.so
 * /usr/lib/libgtk-3.so.0
-* /usr/lib/libgtk-3.so.0.2416.32
+* /usr/lib/libgtk-3.so.0.2417.32
 * /usr/lib/pkgconfig/gail-3.0.pc
 * /usr/lib/pkgconfig/gdk-3.0.pc
 * /usr/lib/pkgconfig/gdk-broadway-3.0.pc
@@ -464,11 +464,11 @@ The GTK+ Toolkit (3.x series)
 * /usr/share/applications/gtk3-demo.desktop
 * /usr/share/applications/gtk3-icon-browser.desktop
 * /usr/share/applications/gtk3-widget-factory.desktop
-* /usr/share/doc/gtk+3-3.24.48/COPYING
-* /usr/share/doc/gtk+3-3.24.48/INSTALL.md
-* /usr/share/doc/gtk+3-3.24.48/NEWS
-* /usr/share/doc/gtk+3-3.24.48/README.md
-* /usr/share/doc/gtk+3-3.24.48/README.win32.md
+* /usr/share/doc/gtk+3-3.24.49/COPYING
+* /usr/share/doc/gtk+3-3.24.49/INSTALL.md
+* /usr/share/doc/gtk+3-3.24.49/NEWS
+* /usr/share/doc/gtk+3-3.24.49/README.md
+* /usr/share/doc/gtk+3-3.24.49/README.win32.md
 * /usr/share/gettext/its/gtkbuilder.its
 * /usr/share/gettext/its/gtkbuilder.loc
 * /usr/share/gir-1.0/Gdk-3.0.gir

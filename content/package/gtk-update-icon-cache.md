@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gtk-update-icon-cache 3.24.48-1"
-version = "3.24.48-1"
+title = "gtk-update-icon-cache 3.24.49-1"
+version = "3.24.49-1"
 description = "The GTK+ update icon cache tool."
-date = "2025-01-25T20:38:51"
+date = "2025-03-09T21:16:16"
 aliases = "/packages/217390"
 categories = ['xapps']
 upstreamurl = "http://www.gtk.org/"
 arch = "x86_64"
-size = "24896"
-usize = "31734"
-sha1sum = "d39dbc830969410bff6d81510b80d377574fc6ff"
+size = "25380"
+usize = "32926"
+sha1sum = "6e5a551c1e9b1740b0288fa726be91210ddc3994"
 depends = "['gdk-pixbuf2>=2.38.1-2', 'libffi>=3.2.1-2', 'pango>=1.42.0']"
 reverse_depends = "['adwaita-icon-theme', 'gtk+3', 'gtk+4']"
 +++

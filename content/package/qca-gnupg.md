@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qca-gnupg 2.3.9-11"
-version = "2.3.9-11"
+title = "qca-gnupg 2.3.10-1"
+version = "2.3.10-1"
 description = "Plugins for qca with gnupg"
-date = "2025-02-05T18:15:12"
+date = "2025-03-09T21:19:55"
 aliases = "/packages/217816"
 categories = ['xlib']
 upstreamurl = "http://delta.affinix.com/qca/"
 arch = "x86_64"
-size = "90348"
-usize = "305824"
-sha1sum = "c1d392d9981ee7afb635bc93af822c0e4121aefe"
+size = "90396"
+usize = "306192"
+sha1sum = "9318d1d6e0eeba30329f7fd0cfc0637eec5b96d6"
 depends = "['gnupg2>=2.1.15-2', 'qca']"
 +++
 ### Description: 

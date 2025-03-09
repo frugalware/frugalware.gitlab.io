@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libpng 1.6.45-1"
-version = "1.6.45-1"
+title = "lib32-libpng 1.6.47-1"
+version = "1.6.47-1"
 description = "A collection of routines used to create PNG format graphics files ( 32bit )"
-date = "2025-01-13T13:29:48"
+date = "2025-03-09T21:27:20"
 aliases = "/packages/217699"
 categories = ['lib32-extra']
 upstreamurl = "http://www.libpng.org/"
 arch = "x86_64"
-size = "174796"
-usize = "497203"
-sha1sum = "64a450f2812ceff9cb8732c69628f7549131f35a"
+size = "174388"
+usize = "498602"
+sha1sum = "43063892b130c37c5a12dc931d3b7a18fac20fb4"
 depends = "['lib32-zlib>=1.2.12']"
 reverse_depends = "['lib32-cairo', 'lib32-freetype2', 'lib32-gdk-pixbuf2', 'lib32-imlib2', 'lib32-libwebp', 'lib32-openjpeg', 'lib32-pango', 'lib32-pixman', 'lib32-vulkan-mesa-layers', 'openloco']"
 +++
@@ -31,6 +31,6 @@ A collection of routines used to create PNG format graphics files ( 32bit )
 * /usr/lib32/libpng.so
 * /usr/lib32/libpng16.so
 * /usr/lib32/libpng16.so.16
-* /usr/lib32/libpng16.so.16.45.0
+* /usr/lib32/libpng16.so.16.47.0
 * /usr/lib32/pkgconfig/libpng.pc
 * /usr/lib32/pkgconfig/libpng16.pc
