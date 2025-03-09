@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "samba 4.21.4-1"
-version = "4.21.4-1"
+title = "samba 4.22.0-1"
+version = "4.22.0-1"
 description = "SMB file and print server."
-date = "2025-02-18T11:34:33"
+date = "2025-03-09T19:27:31"
 aliases = "/packages/3326"
 categories = ['network']
 upstreamurl = "http://www.samba.org"
 arch = "x86_64"
-size = "8030540"
-usize = "60787683"
-sha1sum = "8fd3fc0303a73eda5c7bd8895d473d62cb5f552f"
-depends = "['libldap>=2.4.47-2', 'libsystemd>=231-10', 'ncurses>=6.0-15', 'openssl>=1.1.1', 'perl-parse-yapp', 'python3>=3.13', 'readline>=8.0', 'samba-client>=4.21.4', 'talloc>=2.4.0', 'tdb>=1.4.6']"
+size = "8193804"
+usize = "61845611"
+sha1sum = "1e6e08699958ba42ac6442a00c0d6d168c0f6ff8"
+depends = "['libldap>=2.4.47-2', 'libsystemd>=231-10', 'ncurses>=6.0-15', 'openssl>=1.1.1', 'perl-parse-yapp', 'python3>=3.13', 'readline>=8.0', 'samba-client>=4.22.0', 'talloc>=2.4.0', 'tdb>=1.4.6']"
 reverse_depends = "['nss-wins']"
 +++
 ### Description: 
@@ -556,6 +556,7 @@ SMB file and print server.
 * /usr/lib/python3.13/site-packages/samba/tests/krb5/kpasswd_tests.py
 * /usr/lib/python3.13/site-packages/samba/tests/krb5/lockout_tests.py
 * /usr/lib/python3.13/site-packages/samba/tests/krb5/ms_kile_client_principal_lookup_tests.py
+* /usr/lib/python3.13/site-packages/samba/tests/krb5/netlogon.py
 * /usr/lib/python3.13/site-packages/samba/tests/krb5/nt_hash_tests.py
 * /usr/lib/python3.13/site-packages/samba/tests/krb5/pac_align_tests.py
 * /usr/lib/python3.13/site-packages/samba/tests/krb5/pkinit_tests.py
@@ -624,6 +625,7 @@ SMB file and print server.
 * /usr/lib/python3.13/site-packages/samba/tests/py_credentials.py
 * /usr/lib/python3.13/site-packages/samba/tests/registry.py
 * /usr/lib/python3.13/site-packages/samba/tests/reparsepoints.py
+* /usr/lib/python3.13/site-packages/samba/tests/rust.py
 * /usr/lib/python3.13/site-packages/samba/tests/s3idmapdb.py
 * /usr/lib/python3.13/site-packages/samba/tests/s3param.py
 * /usr/lib/python3.13/site-packages/samba/tests/s3passdb.py
@@ -730,12 +732,12 @@ SMB file and print server.
 * /usr/lib/systemd/system/winbind.service
 * /usr/lib/systemd/system/winbindd.service
 * /usr/lib/tmpfiles.d/samba.conf
-* /usr/share/doc/samba-4.21.4/COPYING
-* /usr/share/doc/samba-4.21.4/README.cifs-utils
-* /usr/share/doc/samba-4.21.4/README.Coding.md
-* /usr/share/doc/samba-4.21.4/README.contributing
-* /usr/share/doc/samba-4.21.4/README.md
-* /usr/share/doc/samba-4.21.4/VERSION
+* /usr/share/doc/samba-4.22.0/COPYING
+* /usr/share/doc/samba-4.22.0/README.cifs-utils
+* /usr/share/doc/samba-4.22.0/README.Coding.md
+* /usr/share/doc/samba-4.22.0/README.contributing
+* /usr/share/doc/samba-4.22.0/README.md
+* /usr/share/doc/samba-4.22.0/VERSION
 * /usr/share/man/man1/dbwrap_tool.1.gz
 * /usr/share/man/man1/gentest.1.gz
 * /usr/share/man/man1/locktest.1.gz

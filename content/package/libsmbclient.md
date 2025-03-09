@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libsmbclient 4.21.4-1"
-version = "4.21.4-1"
+title = "libsmbclient 4.22.0-1"
+version = "4.22.0-1"
 description = "SMB client library."
-date = "2025-02-18T11:34:33"
+date = "2025-03-09T19:27:31"
 aliases = "/packages/10586"
 categories = ['lib']
 upstreamurl = "http://www.samba.org"
 arch = "x86_64"
-size = "7616140"
-usize = "32077806"
-sha1sum = "44c4696c82259131ec80b5cf15dd24fa8151d4ea"
-depends = "['gpgme', 'icu4c>=76.1', 'jansson', 'libldap>=2.5.4', 'libldb>=4.21.4', 'libwbclient>=4.21.4', 'libxcrypt', 'lmdb', 'python3>=3.13', 'tevent']"
+size = "7657124"
+usize = "32247703"
+sha1sum = "ad429380b06d739b151139837499b0b29cb0b185"
+depends = "['gpgme', 'icu4c>=76.1', 'jansson', 'libldap>=2.5.4', 'libldb>=4.22.0', 'libwbclient>=4.22.0', 'libxcrypt', 'lmdb', 'python3>=3.13', 'tevent']"
 reverse_depends = "['gvfs-smb', 'libldb', 'libwbclient', 'mpd', 'samba-client', 'smb4k', 'vlc-smb']"
 +++
 ### Description: 
@@ -45,8 +45,8 @@ SMB client library.
 * /usr/lib/libndr-standard.so.0
 * /usr/lib/libndr-standard.so.0.0.1
 * /usr/lib/libndr.so
-* /usr/lib/libndr.so.5
-* /usr/lib/libndr.so.5.0.0
+* /usr/lib/libndr.so.6
+* /usr/lib/libndr.so.6.0.0
 * /usr/lib/libnetapi.so
 * /usr/lib/libnetapi.so.1
 * /usr/lib/libnetapi.so.1.0.0

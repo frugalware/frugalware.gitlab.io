@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libldb 4.21.4-1"
-version = "4.21.4-1"
+title = "libldb 4.22.0-1"
+version = "4.22.0-1"
 description = "Schema-less, ldap like, API and database"
-date = "2025-02-18T11:34:33"
+date = "2025-03-09T19:27:31"
 aliases = "/packages/222544"
 categories = ['network']
 upstreamurl = "http://www.samba.org"
 arch = "x86_64"
-size = "443740"
-usize = "1807521"
-sha1sum = "7b312ad917dcabe0d782e02c48f3f7eb8697a196"
+size = "444248"
+usize = "1809094"
+sha1sum = "833a7f7fec488e78b9c2921b8abd6d1c678b5aed"
 depends = "['libsmbclient', 'lmdb', 'talloc', 'tdb']"
 reverse_depends = "['libsmbclient']"
 +++
@@ -32,7 +32,7 @@ Schema-less, ldap like, API and database
 * /usr/include/samba-4.0/ldb_wrap.h
 * /usr/lib/libldb.so
 * /usr/lib/libldb.so.2
-* /usr/lib/libldb.so.2.10.0
+* /usr/lib/libldb.so.2.11.0
 * /usr/lib/pkgconfig/ldb.pc
 * /usr/lib/python3.13/site-packages/ldb.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/_ldb_text.py
