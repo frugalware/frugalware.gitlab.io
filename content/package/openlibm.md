@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openlibm 0.8.5-1"
-version = "0.8.5-1"
+title = "openlibm 0.8.6-1"
+version = "0.8.6-1"
 description = "Standalone implementation of C mathematical functions"
-date = "2025-02-27T08:29:53"
+date = "2025-03-10T15:34:49"
 aliases = "/packages/222681"
 categories = ['lib-extra']
 upstreamurl = "https://openlibm.org/"
 arch = "x86_64"
-size = "103188"
-usize = "311320"
-sha1sum = "a43c5515fcf0084bfd597ed51c7980489f5251d9"
+size = "102536"
+usize = "322119"
+sha1sum = "64d764d5e80b5b3841a8bea0826fee50ae8892ce"
 depends = "['glibc']"
 reverse_depends = "['julia']"
 +++
@@ -34,6 +34,7 @@ Standalone implementation of C mathematical functions
 * /usr/include/openlibm/openlibm_complex.h
 * /usr/include/openlibm/openlibm_defs.h
 * /usr/include/openlibm/openlibm_fenv.h
+* /usr/include/openlibm/openlibm_fenv_aarch64.h
 * /usr/include/openlibm/openlibm_fenv_amd64.h
 * /usr/include/openlibm/openlibm_fenv_arm.h
 * /usr/include/openlibm/openlibm_fenv_i387.h
@@ -51,4 +52,4 @@ Standalone implementation of C mathematical functions
 * /usr/lib/libopenlibm.so.4
 * /usr/lib/libopenlibm.so.4.0
 * /usr/lib/pkgconfig/openlibm.pc
-* /usr/share/doc/openlibm-0.8.5/README.md
+* /usr/share/doc/openlibm-0.8.6/README.md
