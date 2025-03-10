@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kgraphviewer 24.12.2-1"
-version = "24.12.2-1"
+title = "kgraphviewer 24.12.3-1"
+version = "24.12.3-1"
 description = "GraphViz dot graph viewer"
-date = "2025-02-07T17:54:23"
+date = "2025-03-10T14:05:35"
 aliases = "/packages/222504"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1347064"
-usize = "3081248"
-sha1sum = "b196715f25e3d60af3daaaec941ac4f7e829eec1"
-depends = "['graphviz', 'kparts>=6.10.0']"
+size = "1347468"
+usize = "3083696"
+sha1sum = "e8cb39eb73f60d9b5dd02259de0867e2140e46f5"
+depends = "['graphviz', 'kparts>=6.11.0']"
 reverse_depends = "['massif-visualizer']"
 +++
 ### Description: 
@@ -25,7 +25,7 @@ GraphViz dot graph viewer
 * /usr/lib/cmake/KGraphViewerPart/KGraphViewerPartTargets.cmake
 * /usr/lib/libkgraphviewer.so
 * /usr/lib/libkgraphviewer.so.0
-* /usr/lib/libkgraphviewer.so.2.5.24122
+* /usr/lib/libkgraphviewer.so.2.5.24123
 * /usr/lib/qt6/plugins/kf6/parts/kgraphviewerpart.so
 * /usr/share/applications/org.kde.kgraphviewer.desktop
 * /usr/share/config.kcfg/kgraphviewersettings.kcfg
@@ -98,13 +98,13 @@ GraphViz dot graph viewer
 * /usr/share/doc/HTML/sv/kgraphviewer/kgraphviewer-snap-zmin.png
 * /usr/share/doc/HTML/uk/kgraphviewer/index.cache.bz2
 * /usr/share/doc/HTML/uk/kgraphviewer/index.docbook
-* /usr/share/doc/kgraphviewer-24.12.2/AUTHORS
-* /usr/share/doc/kgraphviewer-24.12.2/ChangeLog
-* /usr/share/doc/kgraphviewer-24.12.2/COPYING
-* /usr/share/doc/kgraphviewer-24.12.2/COPYING.DOC
-* /usr/share/doc/kgraphviewer-24.12.2/INSTALL
-* /usr/share/doc/kgraphviewer-24.12.2/README
-* /usr/share/doc/kgraphviewer-24.12.2/TODO
+* /usr/share/doc/kgraphviewer-24.12.3/AUTHORS
+* /usr/share/doc/kgraphviewer-24.12.3/ChangeLog
+* /usr/share/doc/kgraphviewer-24.12.3/COPYING
+* /usr/share/doc/kgraphviewer-24.12.3/COPYING.DOC
+* /usr/share/doc/kgraphviewer-24.12.3/INSTALL
+* /usr/share/doc/kgraphviewer-24.12.3/README
+* /usr/share/doc/kgraphviewer-24.12.3/TODO
 * /usr/share/icons/hicolor/16x16/apps/kgraphviewer.png
 * /usr/share/icons/hicolor/32x32/apps/kgraphviewer.png
 * /usr/share/locale/ar/LC_MESSAGES/kgraphviewer.mo

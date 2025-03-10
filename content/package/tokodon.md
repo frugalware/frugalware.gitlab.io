@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "tokodon 24.12.2-1"
-version = "24.12.2-1"
+title = "tokodon 24.12.3-1"
+version = "24.12.3-1"
 description = "A Mastodon client for Plasma"
-date = "2025-02-07T17:22:50"
+date = "2025-03-10T13:31:28"
 aliases = "/packages/220996"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1647584"
-usize = "9053580"
-sha1sum = "a5ba9dc292a35acc4f9ebcab6a79bb3e7f07c33d"
+size = "1652188"
+usize = "9148610"
+sha1sum = "09f9a693542910b2434a4cb51b70362bb89940cf"
 depends = "['kdbusaddons', 'kio', 'kirigami-addons', 'kitemmodels', 'knotifications', 'kunifiedpush', 'mpvqt', 'purpose', 'qqc2-desktop-style', 'qt6-websockets', 'qt6-webview', 'qtkeychain']"
 +++
 ### Description: 
@@ -21,7 +21,7 @@ A Mastodon client for Plasma
 * /usr/lib/qt6/plugins/kf6/purpose/tokodonplugin.so
 * /usr/share/applications/org.kde.tokodon.desktop
 * /usr/share/dbus-1/services/org.kde.tokodon.service
-* /usr/share/doc/tokodon-24.12.2/README.md
+* /usr/share/doc/tokodon-24.12.3/README.md
 * /usr/share/icons/hicolor/scalable/actions/tokodon-chat-reply.svg
 * /usr/share/icons/hicolor/scalable/actions/tokodon-post-bookmarked.svg
 * /usr/share/icons/hicolor/scalable/actions/tokodon-post-boost.svg
@@ -65,6 +65,7 @@ A Mastodon client for Plasma
 * /usr/share/locale/ru/LC_MESSAGES/tokodon.mo
 * /usr/share/locale/sk/LC_MESSAGES/tokodon.mo
 * /usr/share/locale/sl/LC_MESSAGES/tokodon.mo
+* /usr/share/locale/sq/LC_MESSAGES/tokodon.mo
 * /usr/share/locale/sv/LC_MESSAGES/tokodon.mo
 * /usr/share/locale/tr/LC_MESSAGES/tokodon.mo
 * /usr/share/locale/uk/LC_MESSAGES/tokodon.mo

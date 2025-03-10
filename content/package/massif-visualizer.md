@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "massif-visualizer 24.12.2-1"
-version = "24.12.2-1"
+title = "massif-visualizer 24.12.3-1"
+version = "24.12.3-1"
 description = "Visualizer for Valgrind Massif data files"
-date = "2025-02-07T17:51:06"
+date = "2025-03-10T14:02:06"
 aliases = "/packages/222506"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "177588"
-usize = "751721"
-sha1sum = "9e2db8089938098a39810c5bca12916a7e77e9bc"
+size = "177880"
+usize = "751909"
+sha1sum = "c4a71378cbd93b144bb66170bdfd8e2ed6752b91"
 depends = "['kdiagram', 'kgraphviewer>=']"
 +++
 ### Description: 
@@ -20,10 +20,10 @@ Visualizer for Valgrind Massif data files
 * /usr/bin/massif-visualizer
 * /usr/share/applications/org.kde.massif-visualizer.desktop
 * /usr/share/config.kcfg/massif-visualizer-settings.kcfg
-* /usr/share/doc/massif-visualizer-24.12.2/AUTHORS
-* /usr/share/doc/massif-visualizer-24.12.2/COPYING
-* /usr/share/doc/massif-visualizer-24.12.2/INSTALL
-* /usr/share/doc/massif-visualizer-24.12.2/README
+* /usr/share/doc/massif-visualizer-24.12.3/AUTHORS
+* /usr/share/doc/massif-visualizer-24.12.3/COPYING
+* /usr/share/doc/massif-visualizer-24.12.3/INSTALL
+* /usr/share/doc/massif-visualizer-24.12.3/README
 * /usr/share/icons/hicolor/scalable/apps/massif-visualizer.svg
 * /usr/share/locale/bg/LC_MESSAGES/massif-visualizer.mo
 * /usr/share/locale/bs/LC_MESSAGES/massif-visualizer.mo
