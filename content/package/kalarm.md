@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kalarm 24.12.2-1"
-version = "24.12.2-1"
+title = "kalarm 24.12.3-1"
+version = "24.12.3-1"
 description = "Personal Alarm Scheduler"
-date = "2025-02-07T12:45:47"
+date = "2025-03-10T11:20:03"
 aliases = "/packages/218930"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2997320"
-usize = "15050451"
-sha1sum = "c98b5125010b3cc4de1dee05ae5d57ec8622dabe"
-depends = "['kcalutils>=24.12.2', 'kholidays>=6.10.0', 'kidletime>=6.10.0', 'kmailtransport>=24.12.2', 'knotifyconfig>=6.10.0', 'kstatusnotifieritem>=6.10.0', 'mailcommon>=24.12.2', 'pimcommon>=24.12.2', 'vlc']"
+size = "3004944"
+usize = "15194198"
+sha1sum = "d2361e99fbee3de18232aad86e73ad8dc53e7e8e"
+depends = "['kcalutils>=24.12.3', 'kholidays>=6.11.0', 'kidletime>=6.11.0', 'kmailtransport>=24.12.3', 'knotifyconfig>=6.11.0', 'kstatusnotifieritem>=6.11.0', 'mailcommon>=24.12.3', 'pimcommon>=24.12.3', 'vlc']"
 reverse_depends = "['kdepim-runtime', 'pim-data-exporter']"
 +++
 ### Description: 
@@ -24,9 +24,9 @@ Personal Alarm Scheduler
 * /usr/lib/kauth/kf6/kauth/kalarm_helper
 * /usr/lib/kconf_update_bin/kalarm-3.10.0-run_mode
 * /usr/lib/libkalarmcalendar.so.6
-* /usr/lib/libkalarmcalendar.so.6.3.2
+* /usr/lib/libkalarmcalendar.so.6.3.3
 * /usr/lib/libkalarmplugin.so.6
-* /usr/lib/libkalarmplugin.so.6.3.2
+* /usr/lib/libkalarmplugin.so.6.3.3
 * /usr/lib/qt6/plugins/pim6/kalarm/akonadiplugin.so
 * /usr/share/applications/org.kde.kalarm.desktop
 * /usr/share/config.kcfg/kalarmconfig.kcfg
@@ -70,10 +70,10 @@ Personal Alarm Scheduler
 * /usr/share/doc/HTML/sv/kalarm/index.docbook
 * /usr/share/doc/HTML/uk/kalarm/index.cache.bz2
 * /usr/share/doc/HTML/uk/kalarm/index.docbook
-* /usr/share/doc/kalarm-24.12.2/AUTHORS
-* /usr/share/doc/kalarm-24.12.2/Changelog
-* /usr/share/doc/kalarm-24.12.2/INSTALL
-* /usr/share/doc/kalarm-24.12.2/README
+* /usr/share/doc/kalarm-24.12.3/AUTHORS
+* /usr/share/doc/kalarm-24.12.3/Changelog
+* /usr/share/doc/kalarm-24.12.3/INSTALL
+* /usr/share/doc/kalarm-24.12.3/README
 * /usr/share/icons/hicolor/128x128/apps/kalarm.png
 * /usr/share/icons/hicolor/16x16/apps/kalarm.png
 * /usr/share/icons/hicolor/22x22/actions/kalarm-disabled.png

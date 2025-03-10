@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "yakuake 24.12.2-1"
-version = "24.12.2-1"
+title = "yakuake 24.12.3-1"
+version = "24.12.3-1"
 description = "Yakuake is a Quake-style terminal emulator based on KDE Konsole technology."
-date = "2025-02-07T13:14:34"
+date = "2025-03-10T11:50:06"
 aliases = "/packages/5360"
 categories = ['kde6']
 upstreamurl = "http://yakuake.kde.org/"
 arch = "x86_64"
-size = "426108"
-usize = "2408689"
-sha1sum = "8ff5c37e1ef43d34d217e6be50f3266778ae28e6"
-depends = "['knewstuff>=6.10.0', 'knotifyconfig>=6.10.0', 'kparts>=6.10.0', 'kstatusnotifieritem>=6.10.0', 'kwayland>=6.2.5', 'qt6-svg>=6.8.2']"
+size = "426208"
+usize = "2408626"
+sha1sum = "92c3a606b69f1cd68ce15c8e4ab99e0030e74c5d"
+depends = "['knewstuff>=6.11.0', 'knotifyconfig>=6.11.0', 'kparts>=6.11.0', 'kstatusnotifieritem>=6.11.0', 'kwayland>=6.3.2', 'qt6-svg>=6.8.2']"
 license = "GPL"
 +++
 ### Description: 
@@ -21,11 +21,11 @@ Yakuake is a Quake-style terminal emulator based on KDE Konsole technology.
 * /usr/bin/yakuake
 * /usr/share/applications/org.kde.yakuake.desktop
 * /usr/share/dbus-1/services/org.kde.yakuake.service
-* /usr/share/doc/yakuake-24.12.2/AUTHORS
-* /usr/share/doc/yakuake-24.12.2/ChangeLog
-* /usr/share/doc/yakuake-24.12.2/NEWS
-* /usr/share/doc/yakuake-24.12.2/README.md
-* /usr/share/doc/yakuake-24.12.2/TODO
+* /usr/share/doc/yakuake-24.12.3/AUTHORS
+* /usr/share/doc/yakuake-24.12.3/ChangeLog
+* /usr/share/doc/yakuake-24.12.3/NEWS
+* /usr/share/doc/yakuake-24.12.3/README.md
+* /usr/share/doc/yakuake-24.12.3/TODO
 * /usr/share/icons/hicolor/128x128/apps/yakuake.png
 * /usr/share/icons/hicolor/16x16/apps/yakuake.png
 * /usr/share/icons/hicolor/22x22/apps/yakuake.png

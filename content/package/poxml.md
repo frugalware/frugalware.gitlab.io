@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "poxml 24.12.2-1"
-version = "24.12.2-1"
+title = "poxml 24.12.3-1"
+version = "24.12.3-1"
 description = "Tools that facilitate translating XML files using gettext message files."
-date = "2025-02-07T13:27:50"
+date = "2025-03-10T12:04:03"
 aliases = "/packages/168472"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "139592"
-usize = "351352"
-sha1sum = "a5ab6cf2e5b2e5260d46630a30b90d19ad6f761d"
+size = "139572"
+usize = "351448"
+sha1sum = "d43eedc1c83a5128c54b2223315e2f3546bc5f93"
 depends = "['gettext', 'qt6-base>=6.8.2']"
 +++
 ### Description: 
@@ -21,8 +21,8 @@ Tools that facilitate translating XML files using gettext message files.
 * /usr/bin/split2po
 * /usr/bin/swappo
 * /usr/bin/xml2pot
-* /usr/share/doc/poxml-24.12.2/COPYING
-* /usr/share/doc/poxml-24.12.2/COPYING.DOC
+* /usr/share/doc/poxml-24.12.3/COPYING
+* /usr/share/doc/poxml-24.12.3/COPYING.DOC
 * /usr/share/man/ca/man1/po2xml.1.gz
 * /usr/share/man/ca/man1/split2po.1.gz
 * /usr/share/man/ca/man1/swappo.1.gz

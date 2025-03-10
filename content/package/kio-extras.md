@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kio-extras 24.12.2-1"
-version = "24.12.2-1"
+title = "kio-extras 24.12.3-1"
+version = "24.12.3-1"
 description = "Additional components to increase the functionality of KIO."
-date = "2025-02-07T13:07:52"
+date = "2025-03-10T11:43:01"
 aliases = "/packages/218324"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1809952"
-usize = "7316801"
-sha1sum = "088266bad952e24404e9fd67983b60a2d868a54c"
-depends = "['icoutils', 'kcmutils>=6.10.0', 'kdnssd>=6.10.0', 'kdsoap-ws-discovery-client', 'kpty>=6.10.0', 'libappimage', 'libkexiv2>=24.12.2', 'libmtp>=1.1.12-2', 'libplist>=2.3.0', 'libssh>=0.7.3-2', 'libtirpc', 'openexr>=3.3.0', 'openslp>=2.0.0-3', 'plasma-activities-stats>=6.2.5', 'qcoro', 'qt6-webengine>=6.8.2', 'samba-client>=4.5.0', 'syntax-highlighting>=6.10.0', 'taglib>=2.0']"
+size = "1811324"
+usize = "7333464"
+sha1sum = "abc5cc2fc34b4897202a0691168aa781fec1e498"
+depends = "['icoutils', 'kcmutils>=6.11.0', 'kdnssd>=6.11.0', 'kdsoap-ws-discovery-client', 'kpty>=6.11.0', 'libappimage', 'libkexiv2>=24.12.3', 'libmtp>=1.1.12-2', 'libplist>=2.3.0', 'libssh>=0.7.3-2', 'libtirpc', 'openexr>=3.3.0', 'openslp>=2.0.0-3', 'plasma-activities-stats>=6.3.2', 'qcoro', 'qt6-webengine>=6.8.2', 'samba-client>=4.5.0', 'syntax-highlighting>=6.11.0', 'taglib>=2.0']"
 +++
 ### Description: 
 Additional components to increase the functionality of KIO.
@@ -1380,6 +1380,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/pt_BR/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/kio6_man.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/kio6_mtp.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/kio6_recentlyused.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/kio6_thumbnail.mo
