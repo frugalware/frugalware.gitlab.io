@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "obs-studio 31.0.1-3"
-version = "31.0.1-3"
+title = "obs-studio 31.0.2-1"
+version = "31.0.2-1"
 description = "Free, open source software for live streaming and recording"
-date = "2025-02-13T15:00:58"
+date = "2025-03-10T16:29:30"
 aliases = "/packages/219145"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/obsproject/obs-studio"
 arch = "x86_64"
-size = "7759948"
-usize = "30849653"
-sha1sum = "183f93968334136a38d74e3143d801748cc4c2b6"
+size = "7783452"
+usize = "30940669"
+sha1sum = "7efda9307af6070f12d2825c2ffde4fa0cd17f2d"
 depends = "['asio', 'curl', 'fdk-aac', 'ffmpeg>=7.0', 'gtk+3', 'jansson', 'libdatachannel', 'libxcomposite', 'libxinerama', 'libxkbcommon', 'luajit2', 'mbedtls>=2.27.0', 'pipewire', 'python3>=3.13', 'qr-code-generator', 'qt6-svg>=6.8.2', 'rnnoise', 'vlc', 'websocketpp', 'x264>=20230712.ga8b68eb']"
 +++
 ### Description: 
@@ -174,10 +174,10 @@ Free, open source software for live streaming and recording
 * /usr/lib/pkgconfig/libobs.pc
 * /usr/lib/pkgconfig/obs-frontend-api.pc
 * /usr/share/applications/com.obsproject.Studio.desktop
-* /usr/share/doc/obs-studio-31.0.1/AUTHORS
-* /usr/share/doc/obs-studio-31.0.1/COPYING
-* /usr/share/doc/obs-studio-31.0.1/INSTALL
-* /usr/share/doc/obs-studio-31.0.1/README.rst
+* /usr/share/doc/obs-studio-31.0.2/AUTHORS
+* /usr/share/doc/obs-studio-31.0.2/COPYING
+* /usr/share/doc/obs-studio-31.0.2/INSTALL
+* /usr/share/doc/obs-studio-31.0.2/README.rst
 * /usr/share/icons/hicolor/128x128/apps/com.obsproject.Studio.png
 * /usr/share/icons/hicolor/256x256/apps/com.obsproject.Studio.png
 * /usr/share/icons/hicolor/512x512/apps/com.obsproject.Studio.png

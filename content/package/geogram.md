@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "geogram 1.9.3-1"
-version = "1.9.3-1"
+title = "geogram 1.9.4-1"
+version = "1.9.4-1"
 description = "Library of geometric algorithms. It includes a simple yet efficient Mesh data structure."
-date = "2025-02-07T22:05:26"
+date = "2025-03-10T16:16:19"
 aliases = "/packages/220122"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/BrunoLevy/geogram"
 arch = "x86_64"
-size = "4578996"
-usize = "18722479"
-sha1sum = "85226ce1bde6988d0db5461d7a5fd6716f7d9775"
+size = "4584932"
+usize = "18749905"
+sha1sum = "0be694cb8a76479223cf4e15824de479eceea2ad"
 depends = "['glfw', 'libglu', 'libxcursor', 'libxi', 'libxinerama', 'libxrandr', 'libxxf86vm', 'zlib-ng']"
 +++
 ### Description: 
@@ -419,15 +419,15 @@ Library of geometric algorithms. It includes a simple yet efficient Mesh data st
 * /usr/lib/cmake/modules/FindGeogram.cmake
 * /usr/lib/libgeogram.so
 * /usr/lib/libgeogram.so.1
-* /usr/lib/libgeogram.so.1.9.3
+* /usr/lib/libgeogram.so.1.9.4
 * /usr/lib/libgeogram_gfx.so
 * /usr/lib/libgeogram_gfx.so.1
-* /usr/lib/libgeogram_gfx.so.1.9.3
+* /usr/lib/libgeogram_gfx.so.1.9.4
 * /usr/lib/libgeogram_num_3rdparty.so
 * /usr/lib/libgeogram_num_3rdparty.so.1
-* /usr/lib/libgeogram_num_3rdparty.so.1.9.3
+* /usr/lib/libgeogram_num_3rdparty.so.1.9.4
 * /usr/lib/pkgconfig/geogram1.pc
 * /usr/lib/pkgconfig/geogram_gfx1.pc
-* /usr/share/doc/geogram-1.9.3/geogram/VERSION.txt
-* /usr/share/doc/geogram-1.9.3/LICENSE
-* /usr/share/doc/geogram-1.9.3/README.md
+* /usr/share/doc/geogram-1.9.4/geogram/VERSION.txt
+* /usr/share/doc/geogram-1.9.4/LICENSE
+* /usr/share/doc/geogram-1.9.4/README.md
