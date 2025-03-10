@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kcalc 24.12.2-1"
-version = "24.12.2-1"
+title = "kcalc 24.12.3-1"
+version = "24.12.3-1"
 description = "A scientific calculator."
-date = "2025-02-07T10:49:45"
+date = "2025-03-10T09:12:00"
 aliases = "/packages/153201"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "673660"
-usize = "2992892"
-sha1sum = "711fe73888392e22ee04962544ebfb2417d89d79"
-depends = "['knotifications>=6.10.0', 'kxmlgui>=6.10.0']"
+size = "673476"
+usize = "2993082"
+sha1sum = "5def864648f87d75974be76018e7333e8a9733a9"
+depends = "['knotifications>=6.11.0', 'kxmlgui>=6.11.0']"
 +++
 ### Description: 
 A scientific calculator.
@@ -74,8 +74,8 @@ A scientific calculator.
 * /usr/share/doc/HTML/uk/kcalc/commands.docbook
 * /usr/share/doc/HTML/uk/kcalc/index.cache.bz2
 * /usr/share/doc/HTML/uk/kcalc/index.docbook
-* /usr/share/doc/kcalc-24.12.2/ChangeLog
-* /usr/share/doc/kcalc-24.12.2/README.md
+* /usr/share/doc/kcalc-24.12.3/ChangeLog
+* /usr/share/doc/kcalc-24.12.3/README.md
 * /usr/share/kconf_update/kcalcrc.upd
 * /usr/share/kglobalaccel/org.kde.kcalc.desktop
 * /usr/share/locale/af/LC_MESSAGES/kcalc.mo
