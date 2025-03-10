@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "newt 0.52.24-2"
-version = "0.52.24-2"
+title = "newt 0.52.25-1"
+version = "0.52.25-1"
 description = "A programming library for color text mode, widget based user interfaces."
-date = "2024-11-04T09:06:30"
+date = "2025-03-10T22:02:10"
 aliases = "/packages/137202"
 categories = ['base']
 upstreamurl = "https://pagure.io/newt"
 arch = "x86_64"
-size = "77800"
-usize = "219096"
-sha1sum = "aa545ec5442570ff5ecb2fb7f2ed1af9870abe66"
+size = "77680"
+usize = "218933"
+sha1sum = "a7c04d8af671b3e144c29cf1b797739a6e2a25f8"
 depends = "['popt>=1.16-7', 'slang>=2.3.0-4']"
 reverse_depends = "['networkmanager', 'partimage']"
 +++
@@ -23,12 +23,12 @@ A programming library for color text mode, widget based user interfaces.
 * /usr/include/newt.h
 * /usr/lib/libnewt.so
 * /usr/lib/libnewt.so.0.52
-* /usr/lib/libnewt.so.0.52.24
+* /usr/lib/libnewt.so.0.52.25
 * /usr/lib/pkgconfig/libnewt.pc
-* /usr/share/doc/newt-0.52.24/AUTHORS
-* /usr/share/doc/newt-0.52.24/CHANGES
-* /usr/share/doc/newt-0.52.24/COPYING
-* /usr/share/doc/newt-0.52.24/README
+* /usr/share/doc/newt-0.52.25/AUTHORS
+* /usr/share/doc/newt-0.52.25/CHANGES
+* /usr/share/doc/newt-0.52.25/COPYING
+* /usr/share/doc/newt-0.52.25/README
 * /usr/share/locale/ar/LC_MESSAGES/newt.mo
 * /usr/share/locale/as/LC_MESSAGES/newt.mo
 * /usr/share/locale/ast/LC_MESSAGES/newt.mo
