@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kanagram 24.12.2-1"
-version = "24.12.2-1"
+title = "kanagram 24.12.3-1"
+version = "24.12.3-1"
 description = "Letter Order Game."
-date = "2025-02-07T11:57:02"
+date = "2025-03-10T10:28:21"
 aliases = "/packages/152826"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "7039384"
-usize = "8144631"
-sha1sum = "63adbe8f1a9a305f1325762ebe61d0cf62d7af63"
-depends = "['kdeclarative>=6.10.0', 'knewstuff>=6.10.0', 'libkeduvocdocument>=24.12.2', 'qt6-declarative>=6.8.2', 'qt6-svg>=6.8.2']"
+size = "7040148"
+usize = "8144722"
+sha1sum = "cbb647a6b927a3a407770856f73ca67d7a1ba9dc"
+depends = "['kdeclarative>=6.11.0', 'knewstuff>=6.11.0', 'libkeduvocdocument>=24.12.3', 'qt6-declarative>=6.8.2', 'qt6-svg>=6.8.2']"
 +++
 ### Description: 
 Letter Order Game.
@@ -108,10 +108,10 @@ Letter Order Game.
 * /usr/share/doc/HTML/uk/kanagram/newstuff-dialog.png
 * /usr/share/doc/HTML/uk/kanagram/vocab-editor.png
 * /usr/share/doc/HTML/uk/kanagram/vocab-settings.png
-* /usr/share/doc/kanagram-24.12.2/ChangeLog
-* /usr/share/doc/kanagram-24.12.2/COPYING
-* /usr/share/doc/kanagram-24.12.2/COPYING.DOC
-* /usr/share/doc/kanagram-24.12.2/TODO
+* /usr/share/doc/kanagram-24.12.3/ChangeLog
+* /usr/share/doc/kanagram-24.12.3/COPYING
+* /usr/share/doc/kanagram-24.12.3/COPYING.DOC
+* /usr/share/doc/kanagram-24.12.3/TODO
 * /usr/share/icons/hicolor/128x128/apps/kanagram.png
 * /usr/share/icons/hicolor/16x16/apps/kanagram.png
 * /usr/share/icons/hicolor/24x24/apps/kanagram.png

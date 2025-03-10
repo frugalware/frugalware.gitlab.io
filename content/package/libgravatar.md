@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libgravatar 24.12.2-1"
-version = "24.12.2-1"
+title = "libgravatar 24.12.3-1"
+version = "24.12.3-1"
 description = "A library that provides an interface for the Gravatar API"
-date = "2025-02-07T12:23:27"
+date = "2025-03-10T10:56:37"
 aliases = "/packages/218469"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "43964"
-usize = "169690"
-sha1sum = "04e9fbb488306b0c458de73fb7856b3e57e6548a"
-depends = "['akonadi>=24.12.2', 'pimcommon>=24.12.2']"
+size = "44148"
+usize = "170016"
+sha1sum = "b0e39092473c76d152c9a81ae2d4e980632d9b71"
+depends = "['akonadi>=24.12.3', 'pimcommon>=24.12.3']"
 reverse_depends = "['messagelib']"
 +++
 ### Description: 
@@ -37,9 +37,9 @@ A library that provides an interface for the Gravatar API
 * /usr/lib/cmake/KPim6Gravatar/KPim6GravatarTargets.cmake
 * /usr/lib/libKPim6Gravatar.so
 * /usr/lib/libKPim6Gravatar.so.6
-* /usr/lib/libKPim6Gravatar.so.6.3.2
-* /usr/share/doc/libgravatar-24.12.2/README.md
-* /usr/share/doc/libgravatar-24.12.2/README.md.license
+* /usr/lib/libKPim6Gravatar.so.6.3.3
+* /usr/share/doc/libgravatar-24.12.3/README.md
+* /usr/share/doc/libgravatar-24.12.3/README.md.license
 * /usr/share/locale/ar/LC_MESSAGES/libgravatar6.mo
 * /usr/share/locale/ast/LC_MESSAGES/libgravatar6.mo
 * /usr/share/locale/bg/LC_MESSAGES/libgravatar6.mo
