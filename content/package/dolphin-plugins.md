@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "dolphin-plugins 24.12.2-1"
-version = "24.12.2-1"
+title = "dolphin-plugins 24.12.3-1"
+version = "24.12.3-1"
 description = "Extra Dolphin plugins."
-date = "2025-02-07T13:43:43"
+date = "2025-03-10T12:20:12"
 aliases = "/packages/218508"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "448892"
-usize = "2883443"
-sha1sum = "f51873fd5859312a59a42717f44e854fce70c4e4"
-depends = "['dolphin>=24.12.2', 'ktexteditor>=6.10.0']"
+size = "449280"
+usize = "2884138"
+sha1sum = "9327857072f6ee0692dcd745b558dd1ab0b4ec6a"
+depends = "['dolphin>=24.12.3', 'ktexteditor>=6.11.0']"
 +++
 ### Description: 
 Extra Dolphin plugins.

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdeconnect-kde 24.12.2-3"
-version = "24.12.2-3"
+title = "kdeconnect-kde 24.12.3-1"
+version = "24.12.3-1"
 description = "Adds communication between KDE and your smartphone"
-date = "2025-02-12T16:13:15"
+date = "2025-03-10T12:18:00"
 aliases = "/packages/220147"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "5541220"
-usize = "14469677"
-sha1sum = "781746b803178e2beb6322e6b8abf5e3e9f5098d"
-depends = "['kcmutils', 'kirigami-addons', 'kpeople', 'kstatusnotifieritem', 'libfakekey', 'modemmanager-qt', 'pulseaudio-qt', 'qqc2-desktop-style>=6.10.0', 'qt6-connectivity']"
+size = "5544664"
+usize = "14471905"
+sha1sum = "3c138ec6ad48e01ed67507c315acd1e0c5d5c01c"
+depends = "['kcmutils', 'kirigami-addons', 'kpeople', 'kstatusnotifieritem', 'libfakekey', 'modemmanager-qt', 'pulseaudio-qt', 'qqc2-desktop-style>=6.11.0', 'qt6-connectivity']"
 +++
 ### Description: 
 Adds communication between KDE and your smartphone
@@ -26,10 +26,10 @@ Adds communication between KDE and your smartphone
 * /usr/bin/kdeconnect-sms
 * /usr/bin/kdeconnectd
 * /usr/lib/libkdeconnectcore.so.24
-* /usr/lib/libkdeconnectcore.so.24.12.2
+* /usr/lib/libkdeconnectcore.so.24.12.3
 * /usr/lib/libkdeconnectinterfaces.a
 * /usr/lib/libkdeconnectpluginkcm.so.24
-* /usr/lib/libkdeconnectpluginkcm.so.24.12.2
+* /usr/lib/libkdeconnectpluginkcm.so.24.12.3
 * /usr/lib/qt6/plugins/kdeconnect/kcms/kdeconnect_clipboard_config.so
 * /usr/lib/qt6/plugins/kdeconnect/kcms/kdeconnect_findthisdevice_config.so
 * /usr/lib/qt6/plugins/kdeconnect/kcms/kdeconnect_pausemusic_config.so
@@ -119,7 +119,7 @@ Adds communication between KDE and your smartphone
 * /usr/share/doc/HTML/uk/kdeconnect-kde/index.docbook
 * /usr/share/doc/HTML/zh_CN/kdeconnect-kde/index.cache.bz2
 * /usr/share/doc/HTML/zh_CN/kdeconnect-kde/index.docbook
-* /usr/share/doc/kdeconnect-kde-24.12.2/README.md
+* /usr/share/doc/kdeconnect-kde-24.12.3/README.md
 * /usr/share/icons/hicolor/16x16/status/laptopconnected.svg
 * /usr/share/icons/hicolor/16x16/status/laptopdisconnected.svg
 * /usr/share/icons/hicolor/16x16/status/laptoptrusted.svg
