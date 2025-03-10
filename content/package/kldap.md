@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kldap 24.12.2-1"
-version = "24.12.2-1"
+title = "kldap 24.12.3-1"
+version = "24.12.3-1"
 description = "Desc: C++ API for LDAP access."
-date = "2025-02-07T11:12:45"
+date = "2025-03-10T09:38:59"
 aliases = "/packages/218330"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "228188"
-usize = "931709"
-sha1sum = "c6c64594605f55553000d83d0259ef6b9318e99a"
-depends = "['kcompletion>=6.10.0', 'ki18n>=6.10.0', 'kio>=6.10.0', 'kmbox>=24.12.2', 'libldap>=2.5.4', 'qtkeychain']"
+size = "228640"
+usize = "931733"
+sha1sum = "0fbfc0494bcb7c1a05f8591abb00a3e54a043b8d"
+depends = "['kcompletion>=6.11.0', 'ki18n>=6.11.0', 'kio>=6.11.0', 'kmbox>=24.12.3', 'libldap>=2.5.4', 'qtkeychain']"
 reverse_depends = "['libkdepim']"
 +++
 ### Description: 
@@ -80,10 +80,10 @@ Desc: C++ API for LDAP access.
 * /usr/lib/cmake/KPim6LdapWidgets/KPim6LdapWidgetsTargets.cmake
 * /usr/lib/libKPim6LdapCore.so
 * /usr/lib/libKPim6LdapCore.so.6
-* /usr/lib/libKPim6LdapCore.so.6.3.2
+* /usr/lib/libKPim6LdapCore.so.6.3.3
 * /usr/lib/libKPim6LdapWidgets.so
 * /usr/lib/libKPim6LdapWidgets.so.6
-* /usr/lib/libKPim6LdapWidgets.so.6.3.2
+* /usr/lib/libKPim6LdapWidgets.so.6.3.3
 * /usr/lib/qt6/plugins/kf6/kio/ldap.so
 * /usr/share/doc/HTML/ca/kioworker6/ldap/index.cache.bz2
 * /usr/share/doc/HTML/ca/kioworker6/ldap/index.docbook
@@ -123,8 +123,8 @@ Desc: C++ API for LDAP access.
 * /usr/share/doc/HTML/tr/kioworker6/ldap/index.docbook
 * /usr/share/doc/HTML/uk/kioworker6/ldap/index.cache.bz2
 * /usr/share/doc/HTML/uk/kioworker6/ldap/index.docbook
-* /usr/share/doc/kldap-24.12.2/README.md
-* /usr/share/doc/kldap-24.12.2/README.md.license
+* /usr/share/doc/kldap-24.12.3/README.md
+* /usr/share/doc/kldap-24.12.3/README.md.license
 * /usr/share/locale/af/LC_MESSAGES/kio_ldap.mo
 * /usr/share/locale/ar/LC_MESSAGES/kio_ldap.mo
 * /usr/share/locale/ar/LC_MESSAGES/libkldap6.mo

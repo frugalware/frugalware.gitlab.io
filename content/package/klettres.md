@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "klettres 24.12.2-1"
-version = "24.12.2-1"
+title = "klettres 24.12.3-1"
+version = "24.12.3-1"
 description = "Learn The Alphabet."
-date = "2025-02-07T11:43:53"
+date = "2025-03-10T10:13:39"
 aliases = "/packages/152832"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "39890208"
-usize = "50554214"
-sha1sum = "a38910c06e1b083c025829e9189f4bd9113ec7a3"
-depends = "['knotifyconfig>=6.10.0', 'libkdegames>=24.12.2']"
+size = "39890584"
+usize = "50554305"
+sha1sum = "17e306d1c224a25f657a92747d6da865589aed55"
+depends = "['knotifyconfig>=6.11.0', 'libkdegames>=24.12.3']"
 +++
 ### Description: 
 Learn The Alphabet.
@@ -111,12 +111,12 @@ Learn The Alphabet.
 * /usr/share/doc/HTML/uk/klettres/klettres4.png
 * /usr/share/doc/HTML/uk/klettres/klettres5.png
 * /usr/share/doc/HTML/uk/klettres/klettres6.png
-* /usr/share/doc/klettres-24.12.2/AUTHORS
-* /usr/share/doc/klettres-24.12.2/ChangeLog
-* /usr/share/doc/klettres-24.12.2/COPYING.DOC
-* /usr/share/doc/klettres-24.12.2/INSTALL
-* /usr/share/doc/klettres-24.12.2/README_packagers
-* /usr/share/doc/klettres-24.12.2/TODO
+* /usr/share/doc/klettres-24.12.3/AUTHORS
+* /usr/share/doc/klettres-24.12.3/ChangeLog
+* /usr/share/doc/klettres-24.12.3/COPYING.DOC
+* /usr/share/doc/klettres-24.12.3/INSTALL
+* /usr/share/doc/klettres-24.12.3/README_packagers
+* /usr/share/doc/klettres-24.12.3/TODO
 * /usr/share/icons/hicolor/128x128/apps/klettres.png
 * /usr/share/icons/hicolor/16x16/apps/klettres.png
 * /usr/share/icons/hicolor/22x22/apps/klettres.png

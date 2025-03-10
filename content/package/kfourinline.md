@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kfourinline 24.12.2-1"
-version = "24.12.2-1"
+title = "kfourinline 24.12.3-1"
+version = "24.12.3-1"
 description = "A four-in-a-row game."
-date = "2025-02-07T11:38:16"
+date = "2025-03-10T10:07:27"
 aliases = "/packages/184180"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1148224"
-usize = "2142874"
-sha1sum = "f73d1159101e7c42331c40d7b386677b1340ba7c"
-depends = "['knotifyconfig>=6.10.0', 'libkdegames>=24.12.2', 'qt6-svg>=6.8.2']"
+size = "1147752"
+usize = "2144296"
+sha1sum = "c0ed28691919ffec50c91070256340533055dc2b"
+depends = "['knotifyconfig>=6.11.0', 'libkdegames>=24.12.3', 'qt6-svg>=6.8.2']"
 +++
 ### Description: 
 A four-in-a-row game.
@@ -55,8 +55,8 @@ A four-in-a-row game.
 * /usr/share/doc/HTML/uk/kfourinline/index.cache.bz2
 * /usr/share/doc/HTML/uk/kfourinline/index.docbook
 * /usr/share/doc/HTML/uk/kfourinline/settings.png
-* /usr/share/doc/kfourinline-24.12.2/AUTHORS
-* /usr/share/doc/kfourinline-24.12.2/README.md
+* /usr/share/doc/kfourinline-24.12.3/AUTHORS
+* /usr/share/doc/kfourinline-24.12.3/README.md
 * /usr/share/icons/hicolor/128x128/apps/kfourinline.png
 * /usr/share/icons/hicolor/16x16/apps/kfourinline.png
 * /usr/share/icons/hicolor/22x22/apps/kfourinline.png

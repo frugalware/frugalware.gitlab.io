@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "konqueror 24.12.2-1"
-version = "24.12.2-1"
+title = "konqueror 24.12.3-1"
+version = "24.12.3-1"
 description = "Web browser and file manager"
-date = "2025-02-07T11:01:20"
+date = "2025-03-10T09:25:22"
 aliases = "/packages/218937"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "8458868"
-usize = "26882414"
-sha1sum = "db169f4da089e82efa8c3f037463549a5fe8d55b"
-depends = "['hunspell', 'kcmutils>=6.10.0', 'kdesu>=6.10.0', 'kparts>=6.10.0', 'plasma-activities>=6.2.5', 'qt6-speech>=6.8.2', 'qt6-webengine>=6.8.2', 'tidy>=5.6.0']"
+size = "8475564"
+usize = "27014422"
+sha1sum = "2c9b09334ee595ff832a326270bef2a484a4b095"
+depends = "['hunspell', 'kcmutils>=6.11.0', 'kdesu>=6.11.0', 'kparts>=6.11.0', 'plasma-activities>=6.3.2', 'qt6-speech>=6.8.2', 'qt6-webengine>=6.8.2', 'tidy>=5.6.0']"
 +++
 ### Description: 
 Web browser and file manager
@@ -52,9 +52,9 @@ Web browser and file manager
 * /usr/lib/libKF6KonqSettings.so.5.97.0
 * /usr/lib/libKF6KonqSettings.so.7
 * /usr/lib/libkonqsidebarplugin.so
-* /usr/lib/libkonqsidebarplugin.so.24.12.2
+* /usr/lib/libkonqsidebarplugin.so.24.12.3
 * /usr/lib/libkonqsidebarplugin.so.6
-* /usr/lib/libkonquerorprivate.so.24.12.2
+* /usr/lib/libkonquerorprivate.so.24.12.3
 * /usr/lib/libkonquerorprivate.so.5
 * /usr/lib/libkwebenginepart.so
 * /usr/lib/qt6/plugins/akregatorkonqfeedicon.so
@@ -627,8 +627,8 @@ Web browser and file manager
 * /usr/share/doc/HTML/uk/konqueror/viewproperties-dialog.png
 * /usr/share/doc/HTML/zh_CN/kcontrol/history/index.cache.bz2
 * /usr/share/doc/HTML/zh_CN/kcontrol/history/index.docbook
-* /usr/share/doc/konqueror-24.12.2/AUTHORS
-* /usr/share/doc/konqueror-24.12.2/ChangeLog
+* /usr/share/doc/konqueror-24.12.3/AUTHORS
+* /usr/share/doc/konqueror-24.12.3/ChangeLog
 * /usr/share/icons/hicolor/128x128/apps/konqueror.png
 * /usr/share/icons/hicolor/128x128/apps/webengine.png
 * /usr/share/icons/hicolor/16x16/actions/babelfish.png
@@ -734,6 +734,7 @@ Web browser and file manager
 * /usr/share/locale/ar/LC_MESSAGES/khtmlsettingsplugin.mo
 * /usr/share/locale/ar/LC_MESSAGES/khtmltts.mo
 * /usr/share/locale/ar/LC_MESSAGES/kio6_bookmarks.mo
+* /usr/share/locale/ar/LC_MESSAGES/konqsidebar.mo
 * /usr/share/locale/ar/LC_MESSAGES/konqueror.mo
 * /usr/share/locale/ar/LC_MESSAGES/kshellcmdplugin.mo
 * /usr/share/locale/ar/LC_MESSAGES/libkonq.mo
@@ -805,6 +806,7 @@ Web browser and file manager
 * /usr/share/locale/bg/LC_MESSAGES/khtmlsettingsplugin.mo
 * /usr/share/locale/bg/LC_MESSAGES/khtmltts.mo
 * /usr/share/locale/bg/LC_MESSAGES/kio6_bookmarks.mo
+* /usr/share/locale/bg/LC_MESSAGES/konqsidebar.mo
 * /usr/share/locale/bg/LC_MESSAGES/konqueror.mo
 * /usr/share/locale/bg/LC_MESSAGES/kshellcmdplugin.mo
 * /usr/share/locale/bg/LC_MESSAGES/libkonq.mo
@@ -883,6 +885,7 @@ Web browser and file manager
 * /usr/share/locale/ca/LC_MESSAGES/khtmlsettingsplugin.mo
 * /usr/share/locale/ca/LC_MESSAGES/khtmltts.mo
 * /usr/share/locale/ca/LC_MESSAGES/kio6_bookmarks.mo
+* /usr/share/locale/ca/LC_MESSAGES/konqsidebar.mo
 * /usr/share/locale/ca/LC_MESSAGES/konqueror.mo
 * /usr/share/locale/ca/LC_MESSAGES/kshellcmdplugin.mo
 * /usr/share/locale/ca/LC_MESSAGES/libkonq.mo
@@ -905,6 +908,7 @@ Web browser and file manager
 * /usr/share/locale/ca@valencia/LC_MESSAGES/khtmlsettingsplugin.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/khtmltts.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/kio6_bookmarks.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/konqsidebar.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/konqueror.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/kshellcmdplugin.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/libkonq.mo
@@ -1084,6 +1088,7 @@ Web browser and file manager
 * /usr/share/locale/es/LC_MESSAGES/khtmlsettingsplugin.mo
 * /usr/share/locale/es/LC_MESSAGES/khtmltts.mo
 * /usr/share/locale/es/LC_MESSAGES/kio6_bookmarks.mo
+* /usr/share/locale/es/LC_MESSAGES/konqsidebar.mo
 * /usr/share/locale/es/LC_MESSAGES/konqueror.mo
 * /usr/share/locale/es/LC_MESSAGES/kshellcmdplugin.mo
 * /usr/share/locale/es/LC_MESSAGES/libkonq.mo
@@ -1192,6 +1197,7 @@ Web browser and file manager
 * /usr/share/locale/fr/LC_MESSAGES/khtmlsettingsplugin.mo
 * /usr/share/locale/fr/LC_MESSAGES/khtmltts.mo
 * /usr/share/locale/fr/LC_MESSAGES/kio6_bookmarks.mo
+* /usr/share/locale/fr/LC_MESSAGES/konqsidebar.mo
 * /usr/share/locale/fr/LC_MESSAGES/konqueror.mo
 * /usr/share/locale/fr/LC_MESSAGES/kshellcmdplugin.mo
 * /usr/share/locale/fr/LC_MESSAGES/libkonq.mo
@@ -1254,6 +1260,7 @@ Web browser and file manager
 * /usr/share/locale/gl/LC_MESSAGES/khtmlsettingsplugin.mo
 * /usr/share/locale/gl/LC_MESSAGES/khtmltts.mo
 * /usr/share/locale/gl/LC_MESSAGES/kio6_bookmarks.mo
+* /usr/share/locale/gl/LC_MESSAGES/konqsidebar.mo
 * /usr/share/locale/gl/LC_MESSAGES/konqueror.mo
 * /usr/share/locale/gl/LC_MESSAGES/kshellcmdplugin.mo
 * /usr/share/locale/gl/LC_MESSAGES/libkonq.mo
@@ -1286,6 +1293,7 @@ Web browser and file manager
 * /usr/share/locale/he/LC_MESSAGES/khtmlsettingsplugin.mo
 * /usr/share/locale/he/LC_MESSAGES/khtmltts.mo
 * /usr/share/locale/he/LC_MESSAGES/kio6_bookmarks.mo
+* /usr/share/locale/he/LC_MESSAGES/konqsidebar.mo
 * /usr/share/locale/he/LC_MESSAGES/konqueror.mo
 * /usr/share/locale/he/LC_MESSAGES/kshellcmdplugin.mo
 * /usr/share/locale/he/LC_MESSAGES/libkonq.mo
@@ -1464,6 +1472,7 @@ Web browser and file manager
 * /usr/share/locale/it/LC_MESSAGES/khtmlsettingsplugin.mo
 * /usr/share/locale/it/LC_MESSAGES/khtmltts.mo
 * /usr/share/locale/it/LC_MESSAGES/kio6_bookmarks.mo
+* /usr/share/locale/it/LC_MESSAGES/konqsidebar.mo
 * /usr/share/locale/it/LC_MESSAGES/konqueror.mo
 * /usr/share/locale/it/LC_MESSAGES/kshellcmdplugin.mo
 * /usr/share/locale/it/LC_MESSAGES/libkonq.mo
@@ -1508,6 +1517,7 @@ Web browser and file manager
 * /usr/share/locale/ka/LC_MESSAGES/khtmlsettingsplugin.mo
 * /usr/share/locale/ka/LC_MESSAGES/khtmltts.mo
 * /usr/share/locale/ka/LC_MESSAGES/kio6_bookmarks.mo
+* /usr/share/locale/ka/LC_MESSAGES/konqsidebar.mo
 * /usr/share/locale/ka/LC_MESSAGES/konqueror.mo
 * /usr/share/locale/ka/LC_MESSAGES/kshellcmdplugin.mo
 * /usr/share/locale/ka/LC_MESSAGES/libkonq.mo
@@ -1850,6 +1860,7 @@ Web browser and file manager
 * /usr/share/locale/nl/LC_MESSAGES/khtmlsettingsplugin.mo
 * /usr/share/locale/nl/LC_MESSAGES/khtmltts.mo
 * /usr/share/locale/nl/LC_MESSAGES/kio6_bookmarks.mo
+* /usr/share/locale/nl/LC_MESSAGES/konqsidebar.mo
 * /usr/share/locale/nl/LC_MESSAGES/konqueror.mo
 * /usr/share/locale/nl/LC_MESSAGES/kshellcmdplugin.mo
 * /usr/share/locale/nl/LC_MESSAGES/libkonq.mo
@@ -2106,6 +2117,7 @@ Web browser and file manager
 * /usr/share/locale/sl/LC_MESSAGES/khtmlsettingsplugin.mo
 * /usr/share/locale/sl/LC_MESSAGES/khtmltts.mo
 * /usr/share/locale/sl/LC_MESSAGES/kio6_bookmarks.mo
+* /usr/share/locale/sl/LC_MESSAGES/konqsidebar.mo
 * /usr/share/locale/sl/LC_MESSAGES/konqueror.mo
 * /usr/share/locale/sl/LC_MESSAGES/kshellcmdplugin.mo
 * /usr/share/locale/sl/LC_MESSAGES/libkonq.mo
@@ -2230,6 +2242,7 @@ Web browser and file manager
 * /usr/share/locale/sv/LC_MESSAGES/khtmlsettingsplugin.mo
 * /usr/share/locale/sv/LC_MESSAGES/khtmltts.mo
 * /usr/share/locale/sv/LC_MESSAGES/kio6_bookmarks.mo
+* /usr/share/locale/sv/LC_MESSAGES/konqsidebar.mo
 * /usr/share/locale/sv/LC_MESSAGES/konqueror.mo
 * /usr/share/locale/sv/LC_MESSAGES/kshellcmdplugin.mo
 * /usr/share/locale/sv/LC_MESSAGES/libkonq.mo
@@ -2324,6 +2337,7 @@ Web browser and file manager
 * /usr/share/locale/tr/LC_MESSAGES/khtmlsettingsplugin.mo
 * /usr/share/locale/tr/LC_MESSAGES/khtmltts.mo
 * /usr/share/locale/tr/LC_MESSAGES/kio6_bookmarks.mo
+* /usr/share/locale/tr/LC_MESSAGES/konqsidebar.mo
 * /usr/share/locale/tr/LC_MESSAGES/konqueror.mo
 * /usr/share/locale/tr/LC_MESSAGES/kshellcmdplugin.mo
 * /usr/share/locale/tr/LC_MESSAGES/libkonq.mo
@@ -2367,6 +2381,7 @@ Web browser and file manager
 * /usr/share/locale/uk/LC_MESSAGES/khtmlsettingsplugin.mo
 * /usr/share/locale/uk/LC_MESSAGES/khtmltts.mo
 * /usr/share/locale/uk/LC_MESSAGES/kio6_bookmarks.mo
+* /usr/share/locale/uk/LC_MESSAGES/konqsidebar.mo
 * /usr/share/locale/uk/LC_MESSAGES/konqueror.mo
 * /usr/share/locale/uk/LC_MESSAGES/kshellcmdplugin.mo
 * /usr/share/locale/uk/LC_MESSAGES/libkonq.mo
@@ -2476,6 +2491,7 @@ Web browser and file manager
 * /usr/share/locale/zh_CN/LC_MESSAGES/khtmlsettingsplugin.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/khtmltts.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/kio6_bookmarks.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/konqsidebar.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/konqueror.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/kshellcmdplugin.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/libkonq.mo
