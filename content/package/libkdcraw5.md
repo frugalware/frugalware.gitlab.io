@@ -12,6 +12,7 @@ size = "39472"
 usize = "129905"
 sha1sum = "76025d5ff3cc053294a43e2ce7bfd6eb1a9ab3f1"
 depends = "['qt5-base>=5.15.16']"
+reverse_depends = "['krita']"
 +++
 ### Description: 
 KDE Paint Program. kf5

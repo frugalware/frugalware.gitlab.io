@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "krita 5.2.6-6"
-version = "5.2.6-6"
+title = "krita 5.2.9-1"
+version = "5.2.9-1"
 description = "Krita is a FREE sketching and painting program"
-date = "2025-01-13T16:54:44"
+date = "2025-03-11T09:30:39"
 aliases = "/packages/218645"
 categories = ['kde5-extra']
 upstreamurl = "https://krita.org/"
 arch = "x86_64"
-size = "76142804"
-usize = "173011622"
-sha1sum = "8ae7fe500a0530082155e67bbd74388747368f38"
-depends = "['eigen', 'exiv2>=0.28.1', 'gsl>=2.8', 'kcompletion5', 'kcrash5', 'kguiaddons5', 'ki18n5', 'kitemviews5', 'kseexpr', 'libkdcraw', 'libmypaint', 'libunibreak>=6.0', 'mlt', 'opencolorio', 'poppler-qt5>=25.01.0', 'python3>=3.13', 'qt5-svg', 'quazip>=1.4']"
+size = "76429464"
+usize = "174324254"
+sha1sum = "8999dfba670047ae270911e13b55e401f8f48819"
+depends = "['eigen', 'exiv2>=0.28.1', 'gsl>=2.8', 'kcompletion5', 'kcrash5', 'kguiaddons5', 'ki18n5', 'kitemviews5', 'kseexpr', 'libheif', 'libkdcraw5', 'libmypaint', 'libunibreak>=6.0', 'mlt', 'opencolorio', 'poppler-qt5>=25.01.0', 'python3>=3.13', 'qt5-svg', 'quazip>=1.4']"
 +++
 ### Description: 
 Krita is a FREE sketching and painting program
@@ -94,6 +94,8 @@ Krita is a FREE sketching and painting program
 * /usr/lib/kritaplugins/kritahairypaintop.so
 * /usr/lib/kritaplugins/kritahalftone.so
 * /usr/lib/kritaplugins/kritahatchingpaintop.so
+* /usr/lib/kritaplugins/kritaheifexport.so
+* /usr/lib/kritaplugins/kritaheifimport.so
 * /usr/lib/kritaplugins/kritaheightmapexport.so
 * /usr/lib/kritaplugins/kritaheightmapimport.so
 * /usr/lib/kritaplugins/kritahistogramdocker.so
@@ -198,6 +200,7 @@ Krita is a FREE sketching and painting program
 * /usr/lib/kritaplugins/krita_colorspaces_extensions.so
 * /usr/lib/kritaplugins/krita_flaketools.so
 * /usr/lib/kritaplugins/krita_karbontools.so
+* /usr/lib/kritaplugins/krita_raw_import.so
 * /usr/lib/kritaplugins/krita_shape_image.so
 * /usr/lib/kritaplugins/krita_shape_paths.so
 * /usr/lib/kritaplugins/krita_tool_svgtext.so
@@ -289,6 +292,7 @@ Krita is a FREE sketching and painting program
 * /usr/share/applications/krita_csv.desktop
 * /usr/share/applications/krita_exr.desktop
 * /usr/share/applications/krita_gif.desktop
+* /usr/share/applications/krita_heif.desktop
 * /usr/share/applications/krita_heightmap.desktop
 * /usr/share/applications/krita_jp2.desktop
 * /usr/share/applications/krita_jpeg.desktop
@@ -299,6 +303,7 @@ Krita is a FREE sketching and painting program
 * /usr/share/applications/krita_png.desktop
 * /usr/share/applications/krita_psd.desktop
 * /usr/share/applications/krita_qimageio.desktop
+* /usr/share/applications/krita_raw.desktop
 * /usr/share/applications/krita_spriter.desktop
 * /usr/share/applications/krita_svg.desktop
 * /usr/share/applications/krita_tga.desktop
@@ -348,13 +353,13 @@ Krita is a FREE sketching and painting program
 * /usr/share/color/icc/krita/sRGB-elle-V2-srgbtrc.icc
 * /usr/share/color/icc/krita/WideRGB-elle-V2-g22.icc
 * /usr/share/color/icc/krita/XYZ-D50-Identity-elle-V4.icc
-* /usr/share/doc/krita-5.2.6/AUTHORS
-* /usr/share/doc/krita-5.2.6/COPYING
-* /usr/share/doc/krita-5.2.6/COPYING-CMAKE-SCRIPTS
-* /usr/share/doc/krita-5.2.6/HACKING
-* /usr/share/doc/krita-5.2.6/README.android.md
-* /usr/share/doc/krita-5.2.6/README.md
-* /usr/share/doc/krita-5.2.6/README.packagers.md
+* /usr/share/doc/krita-5.2.9/AUTHORS
+* /usr/share/doc/krita-5.2.9/COPYING
+* /usr/share/doc/krita-5.2.9/COPYING-CMAKE-SCRIPTS
+* /usr/share/doc/krita-5.2.9/HACKING
+* /usr/share/doc/krita-5.2.9/README.android.md
+* /usr/share/doc/krita-5.2.9/README.md
+* /usr/share/doc/krita-5.2.9/README.packagers.md
 * /usr/share/icons/hicolor/1024x1024/apps/krita.png
 * /usr/share/icons/hicolor/1024x1024/mimetypes/application-x-krita.png
 * /usr/share/icons/hicolor/128x128/apps/krita.png
@@ -664,6 +669,10 @@ Krita is a FREE sketching and painting program
 * /usr/share/krita/pics/light_template_ratio_43.png
 * /usr/share/krita/pics/light_template_texture.png
 * /usr/share/krita/pics/light_template_web_design.png
+* /usr/share/krita/predefined_image_sizes/A1__300_ppi_.predefinedimage
+* /usr/share/krita/predefined_image_sizes/A1__600_ppi_.predefinedimage
+* /usr/share/krita/predefined_image_sizes/A2__300_ppi_.predefinedimage
+* /usr/share/krita/predefined_image_sizes/A2__600_ppi_.predefinedimage
 * /usr/share/krita/predefined_image_sizes/A3__300_ppi_.predefinedimage
 * /usr/share/krita/predefined_image_sizes/A3__600_ppi_.predefinedimage
 * /usr/share/krita/predefined_image_sizes/A4__300_ppi_.predefinedimage

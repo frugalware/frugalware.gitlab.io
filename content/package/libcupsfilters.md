@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libcupsfilters 2.1.1-1"
-version = "2.1.1-1"
+title = "libcupsfilters 2.1.1-2"
+version = "2.1.1-2"
 description = "OpenPrinting CUPS Filters - contains all the code of the filters of the former cups-filters package as library functions"
-date = "2025-02-20T09:39:37"
+date = "2025-03-11T09:49:01"
 aliases = "/packages/221455"
 categories = ['lib']
 upstreamurl = "https://github.com/OpenPrinting/libcupsfilters"
 arch = "x86_64"
-size = "603280"
-usize = "1784252"
-sha1sum = "96367032c90d46b0f35041299f96a7e9b1b2b95a"
-depends = "['libcups', 'libexif', 'poppler>=25.01.0', 'qpdf']"
+size = "603240"
+usize = "1781988"
+sha1sum = "e196710353be953dfc64df1fe0d957e202375be5"
+depends = "['dejavu-ttf', 'libcups', 'libexif', 'poppler>=25.01.0', 'qpdf>=12.0.0']"
 reverse_depends = "['libppd']"
 +++
 ### Description: 

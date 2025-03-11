@@ -12,7 +12,7 @@ size = "40624"
 usize = "130682"
 sha1sum = "ee2c350568ef4ae8174f6c47002f09d17273ac21"
 depends = "['libraw>=0.21.1', 'qt6-base>=6.8.2']"
-reverse_depends = "['gwenview', 'kdegraphics-thumbnailers', 'krita']"
+reverse_depends = "['gwenview', 'kdegraphics-thumbnailers']"
 +++
 ### Description: 
 KDE Paint Program.
