@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-be 136.0-1"
-version = "136.0-1"
+title = "firefox-be 136.0.1-1"
+version = "136.0.1-1"
 description = "Belarusian language support for Firefox"
-date = "2025-03-04T15:29:17"
+date = "2025-03-11T13:47:13"
 aliases = "/packages/219270"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "461884"
-usize = "513808"
-sha1sum = "c2c8db0ec9d42f6c3dca8dc4344a3743a82ed944"
-depends = "['firefox>=136.0']"
+size = "461732"
+usize = "513803"
+sha1sum = "2daf1f983f402fa070775f3e922e045f6c0a51cb"
+depends = "['firefox>=136.0.1']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

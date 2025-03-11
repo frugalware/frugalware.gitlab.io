@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-hu 136.0-1"
-version = "136.0-1"
+title = "firefox-hu 136.0.1-1"
+version = "136.0.1-1"
 description = "Hungarian language support for Firefox"
-date = "2025-03-04T15:29:17"
+date = "2025-03-11T13:47:13"
 aliases = "/packages/3580"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "408988"
-usize = "460489"
-sha1sum = "6ad4b0cba21e98dbdbfe9499e25db0ac46e0b793"
-depends = "['firefox>=136.0']"
+size = "408932"
+usize = "460492"
+sha1sum = "c66d33d39c7161831d8b153014cc9b86515261a3"
+depends = "['firefox>=136.0.1']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

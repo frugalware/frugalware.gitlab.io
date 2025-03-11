@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-is 136.0-1"
-version = "136.0-1"
+title = "firefox-is 136.0.1-1"
+version = "136.0.1-1"
 description = "Icelandic language support for Firefox"
-date = "2025-03-04T15:29:17"
+date = "2025-03-11T13:47:13"
 aliases = "/packages/73633"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "376940"
-usize = "429689"
-sha1sum = "09ae785f03b074369818c44c422bcdc01996415b"
-depends = "['firefox>=136.0']"
+size = "377768"
+usize = "429697"
+sha1sum = "61a3b623dde81bdc642b757400afc8cdcc44b40e"
+depends = "['firefox>=136.0.1']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-eo 136.0-1"
-version = "136.0-1"
+title = "firefox-eo 136.0.1-1"
+version = "136.0.1-1"
 description = "Esperanto language support for Firefox"
-date = "2025-03-04T15:29:17"
+date = "2025-03-11T13:47:13"
 aliases = "/packages/73621"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "375668"
-usize = "427685"
-sha1sum = "dc638af5d2bbe93b955a1d738f8a643c697e75c7"
-depends = "['firefox>=136.0']"
+size = "375708"
+usize = "427688"
+sha1sum = "1070a5a8d0816c180bd09e5857871b5bb2bda849"
+depends = "['firefox>=136.0.1']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

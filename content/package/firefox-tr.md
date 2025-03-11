@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-tr 136.0-1"
-version = "136.0-1"
+title = "firefox-tr 136.0.1-1"
+version = "136.0.1-1"
 description = "Turkish language support for Firefox"
-date = "2025-03-04T15:29:17"
+date = "2025-03-11T13:47:13"
 aliases = "/packages/3593"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "390536"
-usize = "442282"
-sha1sum = "c61d1c0685143a14d83fc843c6a971c58dbb837c"
-depends = "['firefox>=136.0']"
+size = "389976"
+usize = "442284"
+sha1sum = "ca1d8eb1bdf76a03aac4a08fe74b785c0691245e"
+depends = "['firefox>=136.0.1']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

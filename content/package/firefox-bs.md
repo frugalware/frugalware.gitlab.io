@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-bs 136.0-1"
-version = "136.0-1"
+title = "firefox-bs 136.0.1-1"
+version = "136.0.1-1"
 description = "Bosnian language support for Firefox"
-date = "2025-03-04T15:29:17"
+date = "2025-03-11T13:47:13"
 aliases = "/packages/118578"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "311964"
-usize = "365280"
-sha1sum = "ae5c04bde915e223dca5b232382328ac93f78aa8"
-depends = "['firefox>=136.0']"
+size = "311920"
+usize = "365269"
+sha1sum = "e1e8271e8954f3a78c60c36391936def84ee15a5"
+depends = "['firefox>=136.0.1']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 
