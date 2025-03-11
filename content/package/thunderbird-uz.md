@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "thunderbird-uz 128.7.1-1"
-version = "128.7.1-1"
+title = "thunderbird-uz 128.8.0-1"
+version = "128.8.0-1"
 description = "Uzbek language support for Thunderbird"
-date = "2025-02-20T10:43:22"
+date = "2025-03-11T14:38:33"
 aliases = "/packages/219960"
 categories = ['locale-extra']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "515088"
-usize = "592619"
-sha1sum = "55068a5dc410b13437ebf99dd4eecf907280948b"
-depends = "['thunderbird>=128.7.1']"
+size = "525756"
+usize = "600290"
+sha1sum = "4fd8b52a91d46ed9964bc8d2676824ceb61797c7"
+depends = "['thunderbird>=128.8.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "thunderbird-lv 128.7.1-1"
-version = "128.7.1-1"
+title = "thunderbird-lv 128.8.0-1"
+version = "128.8.0-1"
 description = "Latvian language support for Thunderbird"
-date = "2025-02-20T10:43:22"
+date = "2025-03-11T14:38:33"
 aliases = "/packages/220439"
 categories = ['locale-extra']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "556776"
-usize = "625981"
-sha1sum = "69db3f209eec3f8f61f0606f72f235a8a7e97e1a"
-depends = "['thunderbird>=128.7.1']"
+size = "562628"
+usize = "630393"
+sha1sum = "d0ecffc7acaced504136c173a39a099a0814eb0a"
+depends = "['thunderbird>=128.8.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 
