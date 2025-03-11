@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "grpc 1.70.1-2"
-version = "1.70.1-2"
+title = "grpc 1.71.0-1"
+version = "1.71.0-1"
 description = "High performance, open source, general RPC framework that puts mobile and HTTP/2 first."
-date = "2025-02-05T15:54:53"
+date = "2025-03-11T11:14:59"
 aliases = "/packages/219876"
 categories = ['devel']
 upstreamurl = "https://grpc.io"
 arch = "x86_64"
-size = "5382388"
-usize = "22050443"
-sha1sum = "4c118a3cd970496ae7d968e3132f9c264f8df435"
-depends = "['c-ares', 'icu4c>=76.1', 'openssl>=3.1.0', 'protobuf>=29.3', 're2']"
+size = "4880092"
+usize = "21345217"
+sha1sum = "74b1909f2627f932848f21b031a910e26702b90c"
+depends = "['c-ares', 'icu4c>=76.1', 'openssl>=3.1.0', 'protobuf>=30.0', 're2']"
 reverse_depends = "['qt6-grpc', 'sysdig']"
 +++
 ### Description: 
@@ -270,6 +270,8 @@ High performance, open source, general RPC framework that puts mobile and HTTP/2
 * /usr/include/grpcpp/impl/status.h
 * /usr/include/grpcpp/impl/sync.h
 * /usr/include/grpcpp/passive_listener.h
+* /usr/include/grpcpp/ports_def.inc
+* /usr/include/grpcpp/ports_undef.inc
 * /usr/include/grpcpp/resource_quota.h
 * /usr/include/grpcpp/security/alts_context.h
 * /usr/include/grpcpp/security/alts_util.h
@@ -325,72 +327,72 @@ High performance, open source, general RPC framework that puts mobile and HTTP/2
 * /usr/lib/cmake/grpc/modules/Findre2.cmake
 * /usr/lib/cmake/grpc/modules/Findsystemd.cmake
 * /usr/lib/libaddress_sorting.so
-* /usr/lib/libaddress_sorting.so.45
-* /usr/lib/libaddress_sorting.so.45.0.0
+* /usr/lib/libaddress_sorting.so.46
+* /usr/lib/libaddress_sorting.so.46.0.0
 * /usr/lib/libgpr.so
-* /usr/lib/libgpr.so.45
-* /usr/lib/libgpr.so.45.0.0
+* /usr/lib/libgpr.so.46
+* /usr/lib/libgpr.so.46.0.0
 * /usr/lib/libgrpc++.so
-* /usr/lib/libgrpc++.so.1.70
-* /usr/lib/libgrpc++.so.1.70.1
+* /usr/lib/libgrpc++.so.1.71
+* /usr/lib/libgrpc++.so.1.71.0
 * /usr/lib/libgrpc++_alts.so
-* /usr/lib/libgrpc++_alts.so.1.70
-* /usr/lib/libgrpc++_alts.so.1.70.1
+* /usr/lib/libgrpc++_alts.so.1.71
+* /usr/lib/libgrpc++_alts.so.1.71.0
 * /usr/lib/libgrpc++_error_details.so
-* /usr/lib/libgrpc++_error_details.so.1.70
-* /usr/lib/libgrpc++_error_details.so.1.70.1
+* /usr/lib/libgrpc++_error_details.so.1.71
+* /usr/lib/libgrpc++_error_details.so.1.71.0
 * /usr/lib/libgrpc++_reflection.so
-* /usr/lib/libgrpc++_reflection.so.1.70
-* /usr/lib/libgrpc++_reflection.so.1.70.1
+* /usr/lib/libgrpc++_reflection.so.1.71
+* /usr/lib/libgrpc++_reflection.so.1.71.0
 * /usr/lib/libgrpc++_unsecure.so
-* /usr/lib/libgrpc++_unsecure.so.1.70
-* /usr/lib/libgrpc++_unsecure.so.1.70.1
+* /usr/lib/libgrpc++_unsecure.so.1.71
+* /usr/lib/libgrpc++_unsecure.so.1.71.0
 * /usr/lib/libgrpc.so
-* /usr/lib/libgrpc.so.45
-* /usr/lib/libgrpc.so.45.0.0
+* /usr/lib/libgrpc.so.46
+* /usr/lib/libgrpc.so.46.0.0
 * /usr/lib/libgrpcpp_channelz.so
-* /usr/lib/libgrpcpp_channelz.so.1.70
-* /usr/lib/libgrpcpp_channelz.so.1.70.1
+* /usr/lib/libgrpcpp_channelz.so.1.71
+* /usr/lib/libgrpcpp_channelz.so.1.71.0
 * /usr/lib/libgrpc_authorization_provider.so
-* /usr/lib/libgrpc_authorization_provider.so.1.70
-* /usr/lib/libgrpc_authorization_provider.so.1.70.1
+* /usr/lib/libgrpc_authorization_provider.so.1.71
+* /usr/lib/libgrpc_authorization_provider.so.1.71.0
 * /usr/lib/libgrpc_plugin_support.so
-* /usr/lib/libgrpc_plugin_support.so.1.70
-* /usr/lib/libgrpc_plugin_support.so.1.70.1
+* /usr/lib/libgrpc_plugin_support.so.1.71
+* /usr/lib/libgrpc_plugin_support.so.1.71.0
 * /usr/lib/libgrpc_unsecure.so
-* /usr/lib/libgrpc_unsecure.so.45
-* /usr/lib/libgrpc_unsecure.so.45.0.0
+* /usr/lib/libgrpc_unsecure.so.46
+* /usr/lib/libgrpc_unsecure.so.46.0.0
 * /usr/lib/libupb_base_lib.so
-* /usr/lib/libupb_base_lib.so.45
-* /usr/lib/libupb_base_lib.so.45.0.0
+* /usr/lib/libupb_base_lib.so.46
+* /usr/lib/libupb_base_lib.so.46.0.0
 * /usr/lib/libupb_json_lib.so
-* /usr/lib/libupb_json_lib.so.45
-* /usr/lib/libupb_json_lib.so.45.0.0
+* /usr/lib/libupb_json_lib.so.46
+* /usr/lib/libupb_json_lib.so.46.0.0
 * /usr/lib/libupb_mem_lib.so
-* /usr/lib/libupb_mem_lib.so.45
-* /usr/lib/libupb_mem_lib.so.45.0.0
+* /usr/lib/libupb_mem_lib.so.46
+* /usr/lib/libupb_mem_lib.so.46.0.0
 * /usr/lib/libupb_message_lib.so
-* /usr/lib/libupb_message_lib.so.45
-* /usr/lib/libupb_message_lib.so.45.0.0
+* /usr/lib/libupb_message_lib.so.46
+* /usr/lib/libupb_message_lib.so.46.0.0
 * /usr/lib/libupb_mini_descriptor_lib.so
-* /usr/lib/libupb_mini_descriptor_lib.so.45
-* /usr/lib/libupb_mini_descriptor_lib.so.45.0.0
+* /usr/lib/libupb_mini_descriptor_lib.so.46
+* /usr/lib/libupb_mini_descriptor_lib.so.46.0.0
 * /usr/lib/libupb_textformat_lib.so
-* /usr/lib/libupb_textformat_lib.so.45
-* /usr/lib/libupb_textformat_lib.so.45.0.0
+* /usr/lib/libupb_textformat_lib.so.46
+* /usr/lib/libupb_textformat_lib.so.46.0.0
 * /usr/lib/libupb_wire_lib.so
-* /usr/lib/libupb_wire_lib.so.45
-* /usr/lib/libupb_wire_lib.so.45.0.0
+* /usr/lib/libupb_wire_lib.so.46
+* /usr/lib/libupb_wire_lib.so.46.0.0
 * /usr/lib/libutf8_range_lib.so
-* /usr/lib/libutf8_range_lib.so.45
-* /usr/lib/libutf8_range_lib.so.45.0.0
+* /usr/lib/libutf8_range_lib.so.46
+* /usr/lib/libutf8_range_lib.so.46.0.0
 * /usr/lib/pkgconfig/gpr.pc
 * /usr/lib/pkgconfig/grpc++.pc
 * /usr/lib/pkgconfig/grpc++_unsecure.pc
 * /usr/lib/pkgconfig/grpc.pc
 * /usr/lib/pkgconfig/grpcpp_otel_plugin.pc
 * /usr/lib/pkgconfig/grpc_unsecure.pc
-* /usr/share/doc/grpc-1.70.1/AUTHORS
-* /usr/share/doc/grpc-1.70.1/LICENSE
-* /usr/share/doc/grpc-1.70.1/README.md
+* /usr/share/doc/grpc-1.71.0/AUTHORS
+* /usr/share/doc/grpc-1.71.0/LICENSE
+* /usr/share/doc/grpc-1.71.0/README.md
 * /usr/share/grpc/roots.pem
