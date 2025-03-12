@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "chromium-browser 133.0.6943.141-1"
-version = "133.0.6943.141-1"
+title = "chromium-browser 134.0.6998.88-1"
+version = "134.0.6998.88-1"
 description = "Chromium browser"
-date = "2025-02-26T17:01:20"
+date = "2025-03-12T07:33:13"
 aliases = "/packages/74224"
 categories = ['xapps-extra']
 upstreamurl = "http://www.chromium.org/"
 arch = "x86_64"
-size = "126488360"
-usize = "488482825"
-sha1sum = "297a205e96ea87825f0df0c6ad942c948f176602"
+size = "127302604"
+usize = "491296793"
+sha1sum = "5c29f8132756002851112dec36db1fb8bb987616"
 depends = "['curl', 'flac>=1.5.0', 'fontconfig', 'freetype2', 'gtk+4', 'harfbuzz>=3.0.0', 'json-glib', 'libatomic', 'libcups', 'libdrm', 'libffi', 'libjpeg-turbo', 'libpulse>=7.1-4', 'libusb1', 'libva', 'libwebp', 'libxkbcommon', 'libxscrnsaver>=1.2.2-2', 'libxslt', 'libxtst>=1.2.2-2', 'nss>=3.21-3', 'openh264>=2.6.0', 'opus', 'pango', 'pciutils>=3.5', 'snappy>=1.1.6', 'speech-dispatcher>=0.7.1-4']"
 license = "BSD"
 +++
@@ -30,7 +30,6 @@ Chromium browser
 * /usr/lib/chromium/libEGL.so
 * /usr/lib/chromium/libffmpeg.so
 * /usr/lib/chromium/libGLESv2.so
-* /usr/lib/chromium/libqt5_shim.so
 * /usr/lib/chromium/libqt6_shim.so
 * /usr/lib/chromium/libVkICD_mock_icd.so
 * /usr/lib/chromium/libvk_swiftshader.so
@@ -153,15 +152,14 @@ Chromium browser
 * /usr/lib/chromium/resources/accessibility/reading_mode_gdocs_helper_manifest.json
 * /usr/lib/chromium/resources/inspector_overlay/inspector_overlay_resources.grd
 * /usr/lib/chromium/resources/inspector_overlay/main.js
-* /usr/lib/chromium/resources/tts_engine/background.js
 * /usr/lib/chromium/snapshot_blob.bin
 * /usr/lib/chromium/v8_context_snapshot.bin
 * /usr/lib/chromium/vk_swiftshader_icd.json
 * /usr/share/applications/chromium.desktop
-* /usr/share/doc/chromium-browser-133.0.6943.141/AUTHORS
-* /usr/share/doc/chromium-browser-133.0.6943.141/LICENSE
-* /usr/share/doc/chromium-browser-133.0.6943.141/LICENSE.chromium_os
-* /usr/share/doc/chromium-browser-133.0.6943.141/README.md
+* /usr/share/doc/chromium-browser-134.0.6998.88/AUTHORS
+* /usr/share/doc/chromium-browser-134.0.6998.88/LICENSE
+* /usr/share/doc/chromium-browser-134.0.6998.88/LICENSE.chromium_os
+* /usr/share/doc/chromium-browser-134.0.6998.88/README.md
 * /usr/share/icons/hicolor/128x128/apps/chromium.png
 * /usr/share/icons/hicolor/16x16/apps/chromium.png
 * /usr/share/icons/hicolor/24x24/apps/chromium.png
