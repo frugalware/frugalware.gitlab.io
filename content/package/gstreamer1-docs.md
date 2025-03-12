@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gstreamer1-docs 1.26.0-1"
-version = "1.26.0-1"
+title = "gstreamer1-docs 1.26.0-2"
+version = "1.26.0-2"
 description = "GStreamer $pkgver Documentation."
-date = "2025-03-12T08:18:07"
+date = "2025-03-12T09:18:48"
 aliases = "/packages/168882"
 categories = ['docs-extra']
 upstreamurl = "https://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "8911804"
+size = "8910788"
 usize = "113733933"
-sha1sum = "d995bde72ee96d81096d9c38abd6a61726b2c73a"
+sha1sum = "2c34a6ca88391e886485fc96dca6cab8a4fb7ec1"
 depends = "[]"
 +++
 ### Description: 

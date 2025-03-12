@@ -12,7 +12,7 @@ size = "357896"
 usize = "794037"
 sha1sum = "ebda37b5780dbc1ebb1333167a8359f730ccf5ba"
 depends = "['glibc>=2.34', 'perl']"
-reverse_depends = "['inxi', 'ksensors', 'libksysguard', 'mesa-dri-drivers', 'mesa-nine', 'sysstat']"
+reverse_depends = "['htop', 'inxi', 'ksensors', 'libksysguard', 'mesa-dri-drivers', 'mesa-nine', 'sysstat']"
 +++
 ### Description: 
 Linux System Hardware Monitor

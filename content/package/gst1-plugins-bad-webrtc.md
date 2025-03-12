@@ -12,7 +12,7 @@ size = "139788"
 usize = "453096"
 sha1sum = "90745609fb8acadc7a41a6d58729322eb3de54c5"
 depends = "['gst1-plugins-bad>=1.26.0', 'gst1-plugins-base>=1.26.0', 'webrtc-audio-processing>=2.0']"
-reverse_depends = "['webkit-gtk3']"
+reverse_depends = "['gst-python', 'webkit-gtk3']"
 +++
 ### Description: 
 GStreamer WebRTC plugin (Bad).

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gstreamer1 1.26.0-1"
-version = "1.26.0-1"
+title = "gstreamer1 1.26.0-2"
+version = "1.26.0-2"
 description = "Open Source Multimedia Framework"
-date = "2025-03-12T08:18:07"
+date = "2025-03-12T09:18:48"
 aliases = "/packages/168881"
 categories = ['xmultimedia']
 upstreamurl = "https://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "1646332"
-usize = "10087669"
-sha1sum = "1225d66a8613024c834c579f32b92d35c27b0797"
-depends = "['glib2>=2.70.2', 'libcap>=2.24-5', 'libffi>=3.2.1-2']"
+size = "1882416"
+usize = "11577860"
+sha1sum = "521249e52758822fd09054a43d14523ee4b40a62"
+depends = "['glib2>=2.70.2', 'libcap>=2.24-5', 'libffi>=3.2.1-2', 'libunwind']"
 reverse_depends = "['efl', 'gst1-plugins-bad-bzip2', 'gst1-plugins-base', 'gst1-plugins-base-alsa', 'gst1-plugins-base-cdparanoia', 'gst1-plugins-base-gio', 'gst1-plugins-base-libvisual', 'gst1-plugins-base-ogg', 'gst1-plugins-base-opus', 'gst1-plugins-base-pango', 'gst1-plugins-base-theora', 'gst1-plugins-base-vorbis', 'gst1-plugins-good', 'gst1-plugins-ugly', 'libcanberra-gst', 'nice', 'spice', 'spice-gtk', 'uget']"
 +++
 ### Description: 
@@ -181,6 +181,9 @@ Open Source Multimedia Framework
 * /usr/lib/pkgconfig/gstreamer-controller-1.0.pc
 * /usr/lib/pkgconfig/gstreamer-net-1.0.pc
 * /usr/share/aclocal/gst-element-check-1.0.m4
+* /usr/share/bash-completion/completions/gst-inspect-1.0
+* /usr/share/bash-completion/completions/gst-launch-1.0
+* /usr/share/bash-completion/helpers/gst
 * /usr/share/cmake/FindGStreamer.cmake
 * /usr/share/doc/gstreamer1-1.26.0/AUTHORS
 * /usr/share/doc/gstreamer1-1.26.0/ChangeLog
@@ -197,6 +200,50 @@ Open Source Multimedia Framework
 * /usr/share/gir-1.0/GstNet-1.0.gir
 * /usr/share/gstreamer-1.0/gdb/glib_gobject_helper.py
 * /usr/share/gstreamer-1.0/gdb/gst_gdb.py
+* /usr/share/locale/af/LC_MESSAGES/gstreamer-1.0.mo
+* /usr/share/locale/ast/LC_MESSAGES/gstreamer-1.0.mo
+* /usr/share/locale/az/LC_MESSAGES/gstreamer-1.0.mo
+* /usr/share/locale/be/LC_MESSAGES/gstreamer-1.0.mo
+* /usr/share/locale/bg/LC_MESSAGES/gstreamer-1.0.mo
+* /usr/share/locale/ca/LC_MESSAGES/gstreamer-1.0.mo
+* /usr/share/locale/cs/LC_MESSAGES/gstreamer-1.0.mo
+* /usr/share/locale/da/LC_MESSAGES/gstreamer-1.0.mo
+* /usr/share/locale/de/LC_MESSAGES/gstreamer-1.0.mo
+* /usr/share/locale/el/LC_MESSAGES/gstreamer-1.0.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/gstreamer-1.0.mo
+* /usr/share/locale/eo/LC_MESSAGES/gstreamer-1.0.mo
+* /usr/share/locale/es/LC_MESSAGES/gstreamer-1.0.mo
+* /usr/share/locale/eu/LC_MESSAGES/gstreamer-1.0.mo
+* /usr/share/locale/fi/LC_MESSAGES/gstreamer-1.0.mo
+* /usr/share/locale/fr/LC_MESSAGES/gstreamer-1.0.mo
+* /usr/share/locale/fur/LC_MESSAGES/gstreamer-1.0.mo
+* /usr/share/locale/gl/LC_MESSAGES/gstreamer-1.0.mo
+* /usr/share/locale/hr/LC_MESSAGES/gstreamer-1.0.mo
+* /usr/share/locale/hu/LC_MESSAGES/gstreamer-1.0.mo
+* /usr/share/locale/id/LC_MESSAGES/gstreamer-1.0.mo
+* /usr/share/locale/it/LC_MESSAGES/gstreamer-1.0.mo
+* /usr/share/locale/ja/LC_MESSAGES/gstreamer-1.0.mo
+* /usr/share/locale/ka/LC_MESSAGES/gstreamer-1.0.mo
+* /usr/share/locale/ko/LC_MESSAGES/gstreamer-1.0.mo
+* /usr/share/locale/lt/LC_MESSAGES/gstreamer-1.0.mo
+* /usr/share/locale/lv/LC_MESSAGES/gstreamer-1.0.mo
+* /usr/share/locale/nb/LC_MESSAGES/gstreamer-1.0.mo
+* /usr/share/locale/nl/LC_MESSAGES/gstreamer-1.0.mo
+* /usr/share/locale/pl/LC_MESSAGES/gstreamer-1.0.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/gstreamer-1.0.mo
+* /usr/share/locale/ro/LC_MESSAGES/gstreamer-1.0.mo
+* /usr/share/locale/ru/LC_MESSAGES/gstreamer-1.0.mo
+* /usr/share/locale/rw/LC_MESSAGES/gstreamer-1.0.mo
+* /usr/share/locale/sk/LC_MESSAGES/gstreamer-1.0.mo
+* /usr/share/locale/sl/LC_MESSAGES/gstreamer-1.0.mo
+* /usr/share/locale/sq/LC_MESSAGES/gstreamer-1.0.mo
+* /usr/share/locale/sr/LC_MESSAGES/gstreamer-1.0.mo
+* /usr/share/locale/sv/LC_MESSAGES/gstreamer-1.0.mo
+* /usr/share/locale/tr/LC_MESSAGES/gstreamer-1.0.mo
+* /usr/share/locale/uk/LC_MESSAGES/gstreamer-1.0.mo
+* /usr/share/locale/vi/LC_MESSAGES/gstreamer-1.0.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/gstreamer-1.0.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/gstreamer-1.0.mo
 * /usr/share/man/man1/gst-inspect-1.0.1.gz
 * /usr/share/man/man1/gst-launch-1.0.1.gz
 * /usr/share/man/man1/gst-stats-1.0.1.gz
