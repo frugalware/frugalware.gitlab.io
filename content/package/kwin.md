@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kwin 6.3.2.1-1"
-version = "6.3.2.1-1"
+title = "kwin 6.3.3-1"
+version = "6.3.3-1"
 description = "KDE Window Manager."
-date = "2025-02-26T10:04:53"
+date = "2025-03-12T10:46:35"
 aliases = "/packages/221357"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "10386272"
-usize = "32872203"
-sha1sum = "b7a90a22198d52f95a25dd03698f81d77b7c8dbe"
-depends = "['breeze>=6.3.2', 'kauth>=6.11.0', 'kcmutils>=6.11.0', 'kconfig>=6.11.0', 'kconfigwidgets>=6.11.0', 'kcoreaddons>=6.11.0', 'kcrash>=6.11.0', 'kdbusaddons>=6.11.0', 'kdeclarative>=6.11.0', 'kglobalacceld>=6.3.2', 'kguiaddons>=6.11.0', 'ki18n>=6.11.0', 'kidletime>=6.11.0', 'knewstuff>=6.11.0', 'kpackage>=6.11.0', 'kscreenlocker>=6.3.2', 'kservice>=6.11.0', 'ksvg>=6.11.0', 'kwayland>=6.3.2', 'kwidgetsaddons>=6.11.0', 'kwindowsystem>=6.11.0', 'kxmlgui>=6.11.0', 'lcms2', 'libdisplay-info>=0.2.0', 'libei', 'libplasma>=6.3.2', 'libqaccessibilityclient', 'libxcvt', 'pipewire', 'plasma-activities>=6.3.2', 'qt6-5compat>=_F_kdever_qt6', 'qt6-sensors>=6.8.2', 'qt6-tools>=6.8.2', 'qt6-wayland>=6.8.2']"
+size = "10387096"
+usize = "32888612"
+sha1sum = "2ec41ca0c180a1b57e87a9d1fed18dbc99e95094"
+depends = "['breeze>=6.3.3', 'kauth>=6.11.0', 'kcmutils>=6.11.0', 'kconfig>=6.11.0', 'kconfigwidgets>=6.11.0', 'kcoreaddons>=6.11.0', 'kcrash>=6.11.0', 'kdbusaddons>=6.11.0', 'kdeclarative>=6.11.0', 'kglobalacceld>=6.3.3', 'kguiaddons>=6.11.0', 'ki18n>=6.11.0', 'kidletime>=6.11.0', 'knewstuff>=6.11.0', 'kpackage>=6.11.0', 'kscreenlocker>=6.3.3', 'kservice>=6.11.0', 'ksvg>=6.11.0', 'kwayland>=6.3.3', 'kwidgetsaddons>=6.11.0', 'kwindowsystem>=6.11.0', 'kxmlgui>=6.11.0', 'lcms2', 'libdisplay-info>=0.2.0', 'libei', 'libplasma>=6.3.3', 'libqaccessibilityclient', 'libxcvt', 'pipewire', 'plasma-activities>=6.3.3', 'qt6-5compat>=_F_kdever_qt6', 'qt6-sensors>=6.8.2', 'qt6-tools>=6.8.2', 'qt6-wayland>=6.8.2']"
 reverse_depends = "['oxygen', 'plasma-workspace']"
 +++
 ### Description: 
@@ -738,7 +738,7 @@ KDE Window Manager.
 * /usr/share/doc/HTML/uk/kcontrol/windowbehaviour/index.docbook
 * /usr/share/doc/HTML/uk/kcontrol/windowspecific/index.cache.bz2
 * /usr/share/doc/HTML/uk/kcontrol/windowspecific/index.docbook
-* /usr/share/doc/kwin-6.3.2.1/README.md
+* /usr/share/doc/kwin-6.3.3/README.md
 * /usr/share/icons/hicolor/16x16/apps/kwin.png
 * /usr/share/icons/hicolor/32x32/apps/kwin.png
 * /usr/share/icons/hicolor/48x48/apps/kwin.png

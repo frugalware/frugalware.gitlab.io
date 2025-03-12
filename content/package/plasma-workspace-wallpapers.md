@@ -1,26 +1,26 @@
 +++
 draft = false
-title = "plasma-workspace-wallpapers 6.3.2-1"
-version = "6.3.2-1"
+title = "plasma-workspace-wallpapers 6.3.3-1"
+version = "6.3.3-1"
 description = "Additional wallpapers for the Plasma Workspace."
-date = "2025-02-26T10:16:05"
+date = "2025-03-12T10:59:01"
 aliases = "/packages/218404"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "131070256"
-usize = "131968361"
-sha1sum = "1d7f2469c5eacafafd5872f8ddf521328f1e21cf"
+size = "131070376"
+usize = "131968437"
+sha1sum = "4cc2f0270a8d7d7260ab8f1a9ae4520dfd3c75ee"
 depends = "[]"
 +++
 ### Description: 
 Additional wallpapers for the Plasma Workspace.
 
 ### Files: 
-* /usr/share/doc/plasma-workspace-wallpapers-6.3.2/AUTHORS
-* /usr/share/doc/plasma-workspace-wallpapers-6.3.2/COPYING
-* /usr/share/doc/plasma-workspace-wallpapers-6.3.2/COPYING.LGPL3
-* /usr/share/doc/plasma-workspace-wallpapers-6.3.2/README.md
+* /usr/share/doc/plasma-workspace-wallpapers-6.3.3/AUTHORS
+* /usr/share/doc/plasma-workspace-wallpapers-6.3.3/COPYING
+* /usr/share/doc/plasma-workspace-wallpapers-6.3.3/COPYING.LGPL3
+* /usr/share/doc/plasma-workspace-wallpapers-6.3.3/README.md
 * /usr/share/wallpapers/Altai/contents/images/1080x1920.png
 * /usr/share/wallpapers/Altai/contents/images/5120x2880.png
 * /usr/share/wallpapers/Altai/contents/screenshot.png

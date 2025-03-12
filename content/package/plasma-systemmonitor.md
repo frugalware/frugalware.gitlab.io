@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "plasma-systemmonitor 6.3.2-1"
-version = "6.3.2-1"
+title = "plasma-systemmonitor 6.3.3-1"
+version = "6.3.3-1"
 description = "An interface for monitoring system sensors, process information and other system resources"
-date = "2025-02-26T09:48:16"
+date = "2025-03-12T10:28:44"
 aliases = "/packages/220308"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "385364"
-usize = "2162804"
-sha1sum = "dd5c99fca7bacbc340856892f63a786ce466e922"
-depends = "['kdeclarative>=6.11.0', 'kirigami-addons', 'kitemmodels>=6.11.0', 'ksystemstats>=6.3.2']"
+size = "385488"
+usize = "2162664"
+sha1sum = "c8e9d6ffc7cc47170bb08eaf88d50610dff29c8d"
+depends = "['kdeclarative>=6.11.0', 'kirigami-addons', 'kitemmodels>=6.11.0', 'ksystemstats>=6.3.3']"
 +++
 ### Description: 
 An interface for monitoring system sensors, process information and other system resources
@@ -58,7 +58,7 @@ An interface for monitoring system sensors, process information and other system
 * /usr/lib/qt6/qml/org/kde/ksysguard/table/UserCellDelegate.qml
 * /usr/share/applications/org.kde.plasma-systemmonitor.desktop
 * /usr/share/config.kcfg/systemmonitor.kcfg
-* /usr/share/doc/plasma-systemmonitor-6.3.2/README.md
+* /usr/share/doc/plasma-systemmonitor-6.3.3/README.md
 * /usr/share/kconf_update/plasma-systemmonitor-replace-vmpss.py
 * /usr/share/kconf_update/plasma-systemmonitor.upd
 * /usr/share/kglobalaccel/org.kde.plasma-systemmonitor.desktop

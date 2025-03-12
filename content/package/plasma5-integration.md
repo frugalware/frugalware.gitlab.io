@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "plasma5-integration 6.3.2-1"
-version = "6.3.2-1"
+title = "plasma5-integration 6.3.3-1"
+version = "6.3.3-1"
 description = "Qt5 Platform Theme integration plugins for the Plasma workspaces."
-date = "2025-02-26T09:52:53"
+date = "2025-03-12T10:33:42"
 aliases = "/packages/222535"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "119436"
 usize = "403112"
-sha1sum = "f8ee220f338a2e6333f7be7df997d166e3754fa7"
+sha1sum = "12047cec29e889fe8506f751175b34e704bc7ac4"
 depends = "['hack', 'kio5>=5.116.0', 'knotifications5>=5.116.0', 'kwayland5>=5.116.0', 'libxcursor', 'noto-emoji', 'noto-fonts', 'qt5-quickcontrols2>=5.15.16']"
 reverse_depends = "['plasma-workspace']"
 +++

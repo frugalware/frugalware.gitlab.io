@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kscreen 6.3.2-1"
-version = "6.3.2-1"
+title = "kscreen 6.3.3-1"
+version = "6.3.3-1"
 description = "KDE's screen management utility."
-date = "2025-02-26T09:35:07"
+date = "2025-03-12T10:15:25"
 aliases = "/packages/221347"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "291092"
-usize = "1295601"
-sha1sum = "927e88bb7a169448c8373159957d3f6fe99c6a56"
-depends = "['ksvg>=6.11.0', 'layer-shell-qt>=6.3.2', 'libkscreen>=6.3.2', 'libplasma>=6.3.2', 'qt6-sensors>=6.8.2']"
+size = "290812"
+usize = "1296912"
+sha1sum = "5581af05f8378d78e40f51a83d6a1488c0809dee"
+depends = "['ksvg>=6.11.0', 'layer-shell-qt>=6.3.3', 'libkscreen>=6.3.3', 'libplasma>=6.3.3', 'qt6-sensors>=6.8.2']"
 reverse_depends = "['kscreenlocker', 'spectacle']"
 +++
 ### Description: 
@@ -26,7 +26,7 @@ KDE's screen management utility.
 * /usr/lib/systemd/user/plasma-kscreen-osd.service
 * /usr/share/applications/kcm_kscreen.desktop
 * /usr/share/dbus-1/services/org.kde.kscreen.osdService.service
-* /usr/share/doc/kscreen-6.3.2/README.md
+* /usr/share/doc/kscreen-6.3.3/README.md
 * /usr/share/kglobalaccel/org.kde.kscreen.desktop
 * /usr/share/locale/ar/LC_MESSAGES/kcm_kscreen.mo
 * /usr/share/locale/ar/LC_MESSAGES/kscreen_common.mo

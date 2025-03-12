@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "sddm-kcm 6.3.2-1"
-version = "6.3.2-1"
+title = "sddm-kcm 6.3.3-1"
+version = "6.3.3-1"
 description = "KCM module for SDDM"
-date = "2025-02-26T09:56:04"
+date = "2025-03-12T10:37:04"
 aliases = "/packages/218406"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "140312"
+size = "140140"
 usize = "561262"
-sha1sum = "8f60cf95745d1d9bd613da146877f3305ef60ddf"
+sha1sum = "0dc5455c550a270b884ff13be843b12bf3803de8"
 depends = "['kcmutils>=6.11.0', 'kdeclarative>=6.11.0', 'knewstuff>=6.11.0', 'sddm>=0.16.0']"
 +++
 ### Description: 
@@ -23,8 +23,8 @@ KCM module for SDDM
 * /usr/share/applications/kcm_sddm.desktop
 * /usr/share/dbus-1/system-services/org.kde.kcontrol.kcmsddm.service
 * /usr/share/dbus-1/system.d/org.kde.kcontrol.kcmsddm.conf
-* /usr/share/doc/sddm-kcm-6.3.2/CONTRIBUTORS
-* /usr/share/doc/sddm-kcm-6.3.2/README.md
+* /usr/share/doc/sddm-kcm-6.3.3/CONTRIBUTORS
+* /usr/share/doc/sddm-kcm-6.3.3/README.md
 * /usr/share/knsrcfiles/sddmtheme.knsrc
 * /usr/share/locale/ar/LC_MESSAGES/kcm_sddm.mo
 * /usr/share/locale/ast/LC_MESSAGES/kcm_sddm.mo
