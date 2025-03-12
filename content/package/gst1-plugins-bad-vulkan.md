@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gst1-plugins-bad-vulkan 1.24.12-4"
-version = "1.24.12-4"
+title = "gst1-plugins-bad-vulkan 1.26.0-1"
+version = "1.26.0-1"
 description = "GStreamer Vulkan plugin (Bad)."
-date = "2025-02-21T14:16:30"
+date = "2025-03-12T08:35:35"
 aliases = "/packages/221258"
 categories = ['xmultimedia']
 upstreamurl = "http://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "194848"
-usize = "745881"
-sha1sum = "278dc279e550588f758ffc20d32158cb10831eb5"
-depends = "['gst1-plugins-bad>=1.24.12', 'gst1-plugins-base>=1.24.12', 'libxkbcommon', 'vulkan-icd-loader', 'wayland']"
+size = "204680"
+usize = "773757"
+sha1sum = "f72105f74b17df3b93dfe488884ebb48271418a9"
+depends = "['gst1-plugins-bad>=1.26.0', 'gst1-plugins-base>=1.26.0', 'libxkbcommon', 'vulkan-icd-loader', 'wayland']"
 +++
 ### Description: 
 GStreamer Vulkan plugin (Bad).
@@ -25,7 +25,6 @@ GStreamer Vulkan plugin (Bad).
 * /usr/include/gstreamer-1.0/gst/vulkan/gstvkcommandpool.h
 * /usr/include/gstreamer-1.0/gst/vulkan/gstvkconfig.h
 * /usr/include/gstreamer-1.0/gst/vulkan/gstvkdebug.h
-* /usr/include/gstreamer-1.0/gst/vulkan/gstvkdecoder.h
 * /usr/include/gstreamer-1.0/gst/vulkan/gstvkdescriptorcache.h
 * /usr/include/gstreamer-1.0/gst/vulkan/gstvkdescriptorpool.h
 * /usr/include/gstreamer-1.0/gst/vulkan/gstvkdescriptorset.h
@@ -62,7 +61,7 @@ GStreamer Vulkan plugin (Bad).
 * /usr/lib/gstreamer-1.0/libgstvulkan.so
 * /usr/lib/libgstvulkan-1.0.so
 * /usr/lib/libgstvulkan-1.0.so.0
-* /usr/lib/libgstvulkan-1.0.so.0.2412.0
+* /usr/lib/libgstvulkan-1.0.so.0.2600.0
 * /usr/lib/pkgconfig/gstreamer-vulkan-1.0.pc
 * /usr/lib/pkgconfig/gstreamer-vulkan-wayland-1.0.pc
 * /usr/lib/pkgconfig/gstreamer-vulkan-xcb-1.0.pc

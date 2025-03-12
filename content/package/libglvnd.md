@@ -12,7 +12,7 @@ size = "329672"
 usize = "4038876"
 sha1sum = "cc0f53e877847383cc4a00216a89e3bc74cf643a"
 depends = "['libx11', 'libxext']"
-reverse_depends = "['cef', 'flutter', 'freeglut', 'glew', 'gst1-plugins-base', 'hip-runtime-amd', 'irrlicht', 'libepoxy', 'libglu', 'libplacebo', 'libva', 'lsp-plugins', 'nvidia', 'opencv', 'opendiablo2', 'openscenegraph', 'openxr', 'qt5-base', 'qt6-base', 'sdl2_ttf', 'sdl3_ttf', 'virtualbox', 'weston', 'whalebird', 'wlroots', 'wlroots0.17', 'wpebackend-fdo', 'xdriinfo', 'xorg-server', 'xorg-server-xephyr', 'zam-plugins']"
+reverse_depends = "['cef', 'flutter', 'freeglut', 'glew', 'gst1-plugins-base', 'gst1-plugins-base', 'hip-runtime-amd', 'irrlicht', 'libepoxy', 'libglu', 'libplacebo', 'libva', 'lsp-plugins', 'nvidia', 'opencv', 'opendiablo2', 'openscenegraph', 'openxr', 'qt5-base', 'qt6-base', 'sdl2_ttf', 'sdl3_ttf', 'virtualbox', 'weston', 'whalebird', 'wlroots', 'wlroots0.17', 'wpebackend-fdo', 'xdriinfo', 'xorg-server', 'xorg-server-xephyr', 'zam-plugins']"
 +++
 ### Description: 
 The GL Vendor-Neutral Dispatch library

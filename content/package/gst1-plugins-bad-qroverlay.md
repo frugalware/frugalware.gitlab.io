@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gst1-plugins-bad-qroverlay 1.24.12-4"
-version = "1.24.12-4"
+title = "gst1-plugins-bad-qroverlay 1.26.0-1"
+version = "1.26.0-1"
 description = "GStreamer QR-Overlay plugin (Bad)."
-date = "2025-02-21T14:16:30"
+date = "2025-03-12T08:35:35"
 aliases = "/packages/221272"
 categories = ['xmultimedia']
 upstreamurl = "http://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "15972"
-usize = "26272"
-sha1sum = "0c9890730621b4110244554805cd21da0a92b757"
-depends = "['gst1-plugins-bad>=1.24.12', 'gst1-plugins-base>=1.24.12', 'qrencode']"
+size = "15920"
+usize = "26248"
+sha1sum = "1edb71d3022f8bf02e8bbbf70ea5bdf36cbe6a99"
+depends = "['gst1-plugins-bad>=1.26.0', 'gst1-plugins-base>=1.26.0', 'qrencode']"
 +++
 ### Description: 
 GStreamer QR-Overlay plugin (Bad).

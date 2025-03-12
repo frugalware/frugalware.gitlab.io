@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gst1-plugins-base 1.24.12-1"
-version = "1.24.12-1"
+title = "gst1-plugins-base 1.26.0-2"
+version = "1.26.0-2"
 description = "Plugins for GStreamer 1.0"
-date = "2025-02-10T09:48:58"
+date = "2025-03-12T09:09:27"
 aliases = "/packages/168839"
 categories = ['xmultimedia']
 upstreamurl = "https://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "2278092"
-usize = "12538596"
-sha1sum = "045883c8e9ef97437434a239b96a0024f0424b36"
-depends = "['graphene', 'gstreamer1>=1.24.12', 'libffi>=3.2.1-2', 'libglvnd', 'libxv>=1.0.10-2', 'orc>=0.4.26']"
+size = "2412676"
+usize = "13333338"
+sha1sum = "d1f43fa2071c09852f290a26cc19daaa9dbf3d05"
+depends = "['graphene', 'gstreamer1>=1.26.0', 'libffi>=3.2.1-2', 'libglvnd', 'libglvnd', 'libxv>=1.0.10-2', 'orc>=0.4.26']"
 reverse_depends = "['efl', 'farstream', 'gst-libav', 'gst-python', 'gst1-plugin-libcamera', 'gst1-plugins-bad', 'gst1-plugins-bad-bluez', 'gst1-plugins-bad-chromaprint', 'gst1-plugins-bad-cuda', 'gst1-plugins-bad-de265', 'gst1-plugins-bad-dts', 'gst1-plugins-bad-faac', 'gst1-plugins-bad-faad2', 'gst1-plugins-bad-fdk-aac', 'gst1-plugins-bad-gtk-wayland', 'gst1-plugins-bad-json', 'gst1-plugins-bad-ladspa', 'gst1-plugins-bad-libdc1394', 'gst1-plugins-bad-libva', 'gst1-plugins-bad-mpeg2enc', 'gst1-plugins-bad-neon', 'gst1-plugins-bad-opencv', 'gst1-plugins-bad-openh264', 'gst1-plugins-bad-openmpt', 'gst1-plugins-bad-opus', 'gst1-plugins-bad-qroverlay', 'gst1-plugins-bad-resindvd', 'gst1-plugins-bad-sbc', 'gst1-plugins-bad-soundtouch', 'gst1-plugins-bad-srtp', 'gst1-plugins-bad-svt-av1', 'gst1-plugins-bad-vulkan', 'gst1-plugins-bad-wayland', 'gst1-plugins-bad-webrtc', 'gst1-plugins-bad-wildmidi', 'gst1-plugins-bad-zxing', 'gst1-plugins-base-alsa', 'gst1-plugins-base-cdparanoia', 'gst1-plugins-base-gio', 'gst1-plugins-base-libvisual', 'gst1-plugins-base-ogg', 'gst1-plugins-base-opus', 'gst1-plugins-base-pango', 'gst1-plugins-base-theora', 'gst1-plugins-base-vorbis', 'gst1-plugins-good', 'gst1-plugins-good-aalib', 'gst1-plugins-good-avc1394', 'gst1-plugins-good-caca', 'gst1-plugins-good-dv', 'gst1-plugins-good-flac', 'gst1-plugins-good-gdkpixbuf', 'gst1-plugins-good-jack', 'gst1-plugins-good-jpeg', 'gst1-plugins-good-libsoup', 'gst1-plugins-good-png', 'gst1-plugins-good-pulseaudio', 'gst1-plugins-good-shout', 'gst1-plugins-good-speex', 'gst1-plugins-good-taglib', 'gst1-plugins-good-video4linux2', 'gst1-plugins-good-videobox', 'gst1-plugins-good-vpx', 'gst1-plugins-good-wavpack', 'gst1-plugins-good-ximage', 'gst1-plugins-pipewire', 'gst1-plugins-ugly', 'gst1-plugins-ugly-a52dec', 'gst1-plugins-ugly-cdio', 'gst1-plugins-ugly-dvdread', 'gst1-plugins-ugly-mpeg2dec', 'gst1-plugins-ugly-x264', 'gtk-handbrake', 'gupnp-dlna', 'kamoso', 'nmapsi4', 'opencv', 'packagekit', 'pocketsphinx', 'qt5-gstreamer', 'qt5-multimedia', 'qt6-multimedia', 'qt6-multimedia-gstreamer', 'spice', 'vlc-gstreamer', 'weston', 'wine', 'wine-devel', 'xdg-desktop-portal']"
 +++
 ### Description: 
@@ -21,6 +21,7 @@ Plugins for GStreamer 1.0
 * /usr/bin/gst-device-monitor-1.0
 * /usr/bin/gst-discoverer-1.0
 * /usr/bin/gst-play-1.0
+* /usr/include/GL/wglext.h
 * /usr/include/gstreamer-1.0/gst/allocators/allocators-prelude.h
 * /usr/include/gstreamer-1.0/gst/allocators/allocators.h
 * /usr/include/gstreamer-1.0/gst/allocators/gstdmabuf.h
@@ -89,6 +90,7 @@ Plugins for GStreamer 1.0
 * /usr/include/gstreamer-1.0/gst/gl/glprototypes/gles.h
 * /usr/include/gstreamer-1.0/gst/gl/glprototypes/gstgl_compat.h
 * /usr/include/gstreamer-1.0/gst/gl/glprototypes/gstgl_gles2compat.h
+* /usr/include/gstreamer-1.0/gst/gl/glprototypes/invalidate_subdata.h
 * /usr/include/gstreamer-1.0/gst/gl/glprototypes/opengl.h
 * /usr/include/gstreamer-1.0/gst/gl/glprototypes/query.h
 * /usr/include/gstreamer-1.0/gst/gl/glprototypes/shaders.h
@@ -128,6 +130,8 @@ Plugins for GStreamer 1.0
 * /usr/include/gstreamer-1.0/gst/gl/gstglwindow.h
 * /usr/include/gstreamer-1.0/gst/gl/gstgl_enums.h
 * /usr/include/gstreamer-1.0/gst/gl/gstgl_fwd.h
+* /usr/include/gstreamer-1.0/gst/gl/wayland/gstgldisplay_wayland.h
+* /usr/include/gstreamer-1.0/gst/gl/wayland/wayland.h
 * /usr/include/gstreamer-1.0/gst/gl/x11/gstgldisplay_x11.h
 * /usr/include/gstreamer-1.0/gst/gl/x11/x11.h
 * /usr/include/gstreamer-1.0/gst/pbutils/codec-utils.h
@@ -224,6 +228,7 @@ Plugins for GStreamer 1.0
 * /usr/lib/girepository-1.0/GstAudio-1.0.typelib
 * /usr/lib/girepository-1.0/GstGL-1.0.typelib
 * /usr/lib/girepository-1.0/GstGLEGL-1.0.typelib
+* /usr/lib/girepository-1.0/GstGLWayland-1.0.typelib
 * /usr/lib/girepository-1.0/GstGLX11-1.0.typelib
 * /usr/lib/girepository-1.0/GstPbutils-1.0.typelib
 * /usr/lib/girepository-1.0/GstRtp-1.0.typelib
@@ -259,40 +264,40 @@ Plugins for GStreamer 1.0
 * /usr/lib/gstreamer-1.0/libgstxvimagesink.so
 * /usr/lib/libgstallocators-1.0.so
 * /usr/lib/libgstallocators-1.0.so.0
-* /usr/lib/libgstallocators-1.0.so.0.2412.0
+* /usr/lib/libgstallocators-1.0.so.0.2600.0
 * /usr/lib/libgstapp-1.0.so
 * /usr/lib/libgstapp-1.0.so.0
-* /usr/lib/libgstapp-1.0.so.0.2412.0
+* /usr/lib/libgstapp-1.0.so.0.2600.0
 * /usr/lib/libgstaudio-1.0.so
 * /usr/lib/libgstaudio-1.0.so.0
-* /usr/lib/libgstaudio-1.0.so.0.2412.0
+* /usr/lib/libgstaudio-1.0.so.0.2600.0
 * /usr/lib/libgstfft-1.0.so
 * /usr/lib/libgstfft-1.0.so.0
-* /usr/lib/libgstfft-1.0.so.0.2412.0
+* /usr/lib/libgstfft-1.0.so.0.2600.0
 * /usr/lib/libgstgl-1.0.so
 * /usr/lib/libgstgl-1.0.so.0
-* /usr/lib/libgstgl-1.0.so.0.2412.0
+* /usr/lib/libgstgl-1.0.so.0.2600.0
 * /usr/lib/libgstpbutils-1.0.so
 * /usr/lib/libgstpbutils-1.0.so.0
-* /usr/lib/libgstpbutils-1.0.so.0.2412.0
+* /usr/lib/libgstpbutils-1.0.so.0.2600.0
 * /usr/lib/libgstriff-1.0.so
 * /usr/lib/libgstriff-1.0.so.0
-* /usr/lib/libgstriff-1.0.so.0.2412.0
+* /usr/lib/libgstriff-1.0.so.0.2600.0
 * /usr/lib/libgstrtp-1.0.so
 * /usr/lib/libgstrtp-1.0.so.0
-* /usr/lib/libgstrtp-1.0.so.0.2412.0
+* /usr/lib/libgstrtp-1.0.so.0.2600.0
 * /usr/lib/libgstrtsp-1.0.so
 * /usr/lib/libgstrtsp-1.0.so.0
-* /usr/lib/libgstrtsp-1.0.so.0.2412.0
+* /usr/lib/libgstrtsp-1.0.so.0.2600.0
 * /usr/lib/libgstsdp-1.0.so
 * /usr/lib/libgstsdp-1.0.so.0
-* /usr/lib/libgstsdp-1.0.so.0.2412.0
+* /usr/lib/libgstsdp-1.0.so.0.2600.0
 * /usr/lib/libgsttag-1.0.so
 * /usr/lib/libgsttag-1.0.so.0
-* /usr/lib/libgsttag-1.0.so.0.2412.0
+* /usr/lib/libgsttag-1.0.so.0.2600.0
 * /usr/lib/libgstvideo-1.0.so
 * /usr/lib/libgstvideo-1.0.so.0
-* /usr/lib/libgstvideo-1.0.so.0.2412.0
+* /usr/lib/libgstvideo-1.0.so.0.2600.0
 * /usr/lib/pkgconfig/gstreamer-allocators-1.0.pc
 * /usr/lib/pkgconfig/gstreamer-app-1.0.pc
 * /usr/lib/pkgconfig/gstreamer-audio-1.0.pc
@@ -300,6 +305,7 @@ Plugins for GStreamer 1.0
 * /usr/lib/pkgconfig/gstreamer-gl-1.0.pc
 * /usr/lib/pkgconfig/gstreamer-gl-egl-1.0.pc
 * /usr/lib/pkgconfig/gstreamer-gl-prototypes-1.0.pc
+* /usr/lib/pkgconfig/gstreamer-gl-wayland-1.0.pc
 * /usr/lib/pkgconfig/gstreamer-gl-x11-1.0.pc
 * /usr/lib/pkgconfig/gstreamer-pbutils-1.0.pc
 * /usr/lib/pkgconfig/gstreamer-plugins-base-1.0.pc
@@ -309,18 +315,19 @@ Plugins for GStreamer 1.0
 * /usr/lib/pkgconfig/gstreamer-sdp-1.0.pc
 * /usr/lib/pkgconfig/gstreamer-tag-1.0.pc
 * /usr/lib/pkgconfig/gstreamer-video-1.0.pc
-* /usr/share/doc/gst1-plugins-base-1.24.12/AUTHORS
-* /usr/share/doc/gst1-plugins-base-1.24.12/ChangeLog
-* /usr/share/doc/gst1-plugins-base-1.24.12/COPYING
-* /usr/share/doc/gst1-plugins-base-1.24.12/NEWS
-* /usr/share/doc/gst1-plugins-base-1.24.12/README.md
-* /usr/share/doc/gst1-plugins-base-1.24.12/README.static-linking
-* /usr/share/doc/gst1-plugins-base-1.24.12/RELEASE
+* /usr/share/doc/gst1-plugins-base-1.26.0/AUTHORS
+* /usr/share/doc/gst1-plugins-base-1.26.0/ChangeLog
+* /usr/share/doc/gst1-plugins-base-1.26.0/COPYING
+* /usr/share/doc/gst1-plugins-base-1.26.0/NEWS
+* /usr/share/doc/gst1-plugins-base-1.26.0/README.md
+* /usr/share/doc/gst1-plugins-base-1.26.0/README.static-linking
+* /usr/share/doc/gst1-plugins-base-1.26.0/RELEASE
 * /usr/share/gir-1.0/GstAllocators-1.0.gir
 * /usr/share/gir-1.0/GstApp-1.0.gir
 * /usr/share/gir-1.0/GstAudio-1.0.gir
 * /usr/share/gir-1.0/GstGL-1.0.gir
 * /usr/share/gir-1.0/GstGLEGL-1.0.gir
+* /usr/share/gir-1.0/GstGLWayland-1.0.gir
 * /usr/share/gir-1.0/GstGLX11-1.0.gir
 * /usr/share/gir-1.0/GstPbutils-1.0.gir
 * /usr/share/gir-1.0/GstRtp-1.0.gir
@@ -329,6 +336,46 @@ Plugins for GStreamer 1.0
 * /usr/share/gir-1.0/GstTag-1.0.gir
 * /usr/share/gir-1.0/GstVideo-1.0.gir
 * /usr/share/gst-plugins-base/1.0/license-translations.dict
+* /usr/share/locale/af/LC_MESSAGES/gst-plugins-base-1.0.mo
+* /usr/share/locale/az/LC_MESSAGES/gst-plugins-base-1.0.mo
+* /usr/share/locale/bg/LC_MESSAGES/gst-plugins-base-1.0.mo
+* /usr/share/locale/ca/LC_MESSAGES/gst-plugins-base-1.0.mo
+* /usr/share/locale/cs/LC_MESSAGES/gst-plugins-base-1.0.mo
+* /usr/share/locale/da/LC_MESSAGES/gst-plugins-base-1.0.mo
+* /usr/share/locale/de/LC_MESSAGES/gst-plugins-base-1.0.mo
+* /usr/share/locale/el/LC_MESSAGES/gst-plugins-base-1.0.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/gst-plugins-base-1.0.mo
+* /usr/share/locale/eo/LC_MESSAGES/gst-plugins-base-1.0.mo
+* /usr/share/locale/es/LC_MESSAGES/gst-plugins-base-1.0.mo
+* /usr/share/locale/eu/LC_MESSAGES/gst-plugins-base-1.0.mo
+* /usr/share/locale/fi/LC_MESSAGES/gst-plugins-base-1.0.mo
+* /usr/share/locale/fr/LC_MESSAGES/gst-plugins-base-1.0.mo
+* /usr/share/locale/fur/LC_MESSAGES/gst-plugins-base-1.0.mo
+* /usr/share/locale/gl/LC_MESSAGES/gst-plugins-base-1.0.mo
+* /usr/share/locale/hr/LC_MESSAGES/gst-plugins-base-1.0.mo
+* /usr/share/locale/hu/LC_MESSAGES/gst-plugins-base-1.0.mo
+* /usr/share/locale/id/LC_MESSAGES/gst-plugins-base-1.0.mo
+* /usr/share/locale/it/LC_MESSAGES/gst-plugins-base-1.0.mo
+* /usr/share/locale/ja/LC_MESSAGES/gst-plugins-base-1.0.mo
+* /usr/share/locale/ka/LC_MESSAGES/gst-plugins-base-1.0.mo
+* /usr/share/locale/lt/LC_MESSAGES/gst-plugins-base-1.0.mo
+* /usr/share/locale/lv/LC_MESSAGES/gst-plugins-base-1.0.mo
+* /usr/share/locale/nb/LC_MESSAGES/gst-plugins-base-1.0.mo
+* /usr/share/locale/nl/LC_MESSAGES/gst-plugins-base-1.0.mo
+* /usr/share/locale/or/LC_MESSAGES/gst-plugins-base-1.0.mo
+* /usr/share/locale/pl/LC_MESSAGES/gst-plugins-base-1.0.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/gst-plugins-base-1.0.mo
+* /usr/share/locale/ro/LC_MESSAGES/gst-plugins-base-1.0.mo
+* /usr/share/locale/ru/LC_MESSAGES/gst-plugins-base-1.0.mo
+* /usr/share/locale/sk/LC_MESSAGES/gst-plugins-base-1.0.mo
+* /usr/share/locale/sl/LC_MESSAGES/gst-plugins-base-1.0.mo
+* /usr/share/locale/sq/LC_MESSAGES/gst-plugins-base-1.0.mo
+* /usr/share/locale/sr/LC_MESSAGES/gst-plugins-base-1.0.mo
+* /usr/share/locale/sv/LC_MESSAGES/gst-plugins-base-1.0.mo
+* /usr/share/locale/tr/LC_MESSAGES/gst-plugins-base-1.0.mo
+* /usr/share/locale/uk/LC_MESSAGES/gst-plugins-base-1.0.mo
+* /usr/share/locale/vi/LC_MESSAGES/gst-plugins-base-1.0.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/gst-plugins-base-1.0.mo
 * /usr/share/man/man1/gst-device-monitor-1.0.1.gz
 * /usr/share/man/man1/gst-discoverer-1.0.1.gz
 * /usr/share/man/man1/gst-play-1.0.1.gz
