@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "sexplib0 0.17.0-1"
-version = "0.17.0-1"
+title = "sexplib0 0.17.0-2"
+version = "0.17.0-2"
 description = "Library containing the definition of S-expressions and some base converters"
-date = "2024-06-11T19:22:17"
+date = "2025-03-12T14:30:19"
 aliases = "/packages/221067"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/janestreet/sexplib0"
 arch = "x86_64"
-size = "439028"
-usize = "918577"
-sha1sum = "d19ea139cf8fd790e62605a1edc50c3b0b81ebce"
-depends = "['ocaml>=5.2.0']"
+size = "453644"
+usize = "933322"
+sha1sum = "f4bc589a056e4d5462e648e3cbb240b4026ed61e"
+depends = "['ocaml>=5.3.0']"
 reverse_depends = "['ppxlib']"
 +++
 ### Description: 

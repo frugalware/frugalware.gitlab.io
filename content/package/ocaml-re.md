@@ -1,28 +1,34 @@
 +++
 draft = false
-title = "ocaml-re 1.11.0-1"
-version = "1.11.0-1"
+title = "ocaml-re 1.13.3-1"
+version = "1.13.3-1"
 description = "A regular expression library for OCam"
-date = "2024-06-11T20:06:21"
+date = "2025-03-12T14:46:54"
 aliases = "/packages/221514"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/ocaml/ocaml-re"
 arch = "x86_64"
-size = "1265964"
-usize = "2798776"
-sha1sum = "f73dcae66de1ebc21399088da035f1f2a9c4bf54"
+size = "1647804"
+usize = "3576247"
+sha1sum = "8ddfabd3df2d56f9e4cdf1be77fde337b5c825ac"
 depends = "['ocaml>=5.2.0']"
 +++
 ### Description: 
 A regular expression library for OCam
 
 ### Files: 
+* /usr/lib/ocaml/re/ast.ml
+* /usr/lib/ocaml/re/ast.mli
 * /usr/lib/ocaml/re/automata.ml
 * /usr/lib/ocaml/re/automata.mli
+* /usr/lib/ocaml/re/bit_vector.ml
+* /usr/lib/ocaml/re/bit_vector.mli
 * /usr/lib/ocaml/re/category.ml
 * /usr/lib/ocaml/re/category.mli
 * /usr/lib/ocaml/re/color_map.ml
 * /usr/lib/ocaml/re/color_map.mli
+* /usr/lib/ocaml/re/compile.ml
+* /usr/lib/ocaml/re/compile.mli
 * /usr/lib/ocaml/re/core.ml
 * /usr/lib/ocaml/re/core.mli
 * /usr/lib/ocaml/re/cset.ml
@@ -39,6 +45,7 @@ A regular expression library for OCam
 * /usr/lib/ocaml/re/emacs/re_emacs.cmxs
 * /usr/lib/ocaml/re/emacs/re_emacs.ml
 * /usr/lib/ocaml/re/fmt.ml
+* /usr/lib/ocaml/re/fmt.mli
 * /usr/lib/ocaml/re/glob.ml
 * /usr/lib/ocaml/re/glob.mli
 * /usr/lib/ocaml/re/glob/re_glob.a
@@ -51,8 +58,15 @@ A regular expression library for OCam
 * /usr/lib/ocaml/re/glob/re_glob.ml
 * /usr/lib/ocaml/re/group.ml
 * /usr/lib/ocaml/re/group.mli
+* /usr/lib/ocaml/re/hash_set.ml
+* /usr/lib/ocaml/re/hash_set.mli
+* /usr/lib/ocaml/re/import.ml
+* /usr/lib/ocaml/re/mark_infos.ml
+* /usr/lib/ocaml/re/mark_infos.mli
 * /usr/lib/ocaml/re/META
 * /usr/lib/ocaml/re/opam
+* /usr/lib/ocaml/re/parse_buffer.ml
+* /usr/lib/ocaml/re/parse_buffer.mli
 * /usr/lib/ocaml/re/pcre.ml
 * /usr/lib/ocaml/re/pcre.mli
 * /usr/lib/ocaml/re/pcre/re_pcre.a
@@ -85,6 +99,8 @@ A regular expression library for OCam
 * /usr/lib/ocaml/re/posix/re_posix.cmxa
 * /usr/lib/ocaml/re/posix/re_posix.cmxs
 * /usr/lib/ocaml/re/posix/re_posix.ml
+* /usr/lib/ocaml/re/posix_class.ml
+* /usr/lib/ocaml/re/posix_class.mli
 * /usr/lib/ocaml/re/re.a
 * /usr/lib/ocaml/re/re.cma
 * /usr/lib/ocaml/re/re.cmi
@@ -93,14 +109,24 @@ A regular expression library for OCam
 * /usr/lib/ocaml/re/re.cmxa
 * /usr/lib/ocaml/re/re.cmxs
 * /usr/lib/ocaml/re/re.ml
+* /usr/lib/ocaml/re/replace.ml
+* /usr/lib/ocaml/re/replace.mli
 * /usr/lib/ocaml/re/re__.cmi
 * /usr/lib/ocaml/re/re__.cmt
 * /usr/lib/ocaml/re/re__.cmx
 * /usr/lib/ocaml/re/re__.ml
+* /usr/lib/ocaml/re/re__Ast.cmi
+* /usr/lib/ocaml/re/re__Ast.cmt
+* /usr/lib/ocaml/re/re__Ast.cmti
+* /usr/lib/ocaml/re/re__Ast.cmx
 * /usr/lib/ocaml/re/re__Automata.cmi
 * /usr/lib/ocaml/re/re__Automata.cmt
 * /usr/lib/ocaml/re/re__Automata.cmti
 * /usr/lib/ocaml/re/re__Automata.cmx
+* /usr/lib/ocaml/re/re__Bit_vector.cmi
+* /usr/lib/ocaml/re/re__Bit_vector.cmt
+* /usr/lib/ocaml/re/re__Bit_vector.cmti
+* /usr/lib/ocaml/re/re__Bit_vector.cmx
 * /usr/lib/ocaml/re/re__Category.cmi
 * /usr/lib/ocaml/re/re__Category.cmt
 * /usr/lib/ocaml/re/re__Category.cmti
@@ -109,6 +135,10 @@ A regular expression library for OCam
 * /usr/lib/ocaml/re/re__Color_map.cmt
 * /usr/lib/ocaml/re/re__Color_map.cmti
 * /usr/lib/ocaml/re/re__Color_map.cmx
+* /usr/lib/ocaml/re/re__Compile.cmi
+* /usr/lib/ocaml/re/re__Compile.cmt
+* /usr/lib/ocaml/re/re__Compile.cmti
+* /usr/lib/ocaml/re/re__Compile.cmx
 * /usr/lib/ocaml/re/re__Core.cmi
 * /usr/lib/ocaml/re/re__Core.cmt
 * /usr/lib/ocaml/re/re__Core.cmti
@@ -123,6 +153,7 @@ A regular expression library for OCam
 * /usr/lib/ocaml/re/re__Emacs.cmx
 * /usr/lib/ocaml/re/re__Fmt.cmi
 * /usr/lib/ocaml/re/re__Fmt.cmt
+* /usr/lib/ocaml/re/re__Fmt.cmti
 * /usr/lib/ocaml/re/re__Fmt.cmx
 * /usr/lib/ocaml/re/re__Glob.cmi
 * /usr/lib/ocaml/re/re__Glob.cmt
@@ -132,6 +163,21 @@ A regular expression library for OCam
 * /usr/lib/ocaml/re/re__Group.cmt
 * /usr/lib/ocaml/re/re__Group.cmti
 * /usr/lib/ocaml/re/re__Group.cmx
+* /usr/lib/ocaml/re/re__Hash_set.cmi
+* /usr/lib/ocaml/re/re__Hash_set.cmt
+* /usr/lib/ocaml/re/re__Hash_set.cmti
+* /usr/lib/ocaml/re/re__Hash_set.cmx
+* /usr/lib/ocaml/re/re__Import.cmi
+* /usr/lib/ocaml/re/re__Import.cmt
+* /usr/lib/ocaml/re/re__Import.cmx
+* /usr/lib/ocaml/re/re__Mark_infos.cmi
+* /usr/lib/ocaml/re/re__Mark_infos.cmt
+* /usr/lib/ocaml/re/re__Mark_infos.cmti
+* /usr/lib/ocaml/re/re__Mark_infos.cmx
+* /usr/lib/ocaml/re/re__Parse_buffer.cmi
+* /usr/lib/ocaml/re/re__Parse_buffer.cmt
+* /usr/lib/ocaml/re/re__Parse_buffer.cmti
+* /usr/lib/ocaml/re/re__Parse_buffer.cmx
 * /usr/lib/ocaml/re/re__Pcre.cmi
 * /usr/lib/ocaml/re/re__Pcre.cmt
 * /usr/lib/ocaml/re/re__Pcre.cmti
@@ -148,10 +194,26 @@ A regular expression library for OCam
 * /usr/lib/ocaml/re/re__Posix.cmt
 * /usr/lib/ocaml/re/re__Posix.cmti
 * /usr/lib/ocaml/re/re__Posix.cmx
+* /usr/lib/ocaml/re/re__Posix_class.cmi
+* /usr/lib/ocaml/re/re__Posix_class.cmt
+* /usr/lib/ocaml/re/re__Posix_class.cmti
+* /usr/lib/ocaml/re/re__Posix_class.cmx
+* /usr/lib/ocaml/re/re__Replace.cmi
+* /usr/lib/ocaml/re/re__Replace.cmt
+* /usr/lib/ocaml/re/re__Replace.cmti
+* /usr/lib/ocaml/re/re__Replace.cmx
+* /usr/lib/ocaml/re/re__Search.cmi
+* /usr/lib/ocaml/re/re__Search.cmt
+* /usr/lib/ocaml/re/re__Search.cmx
 * /usr/lib/ocaml/re/re__Str.cmi
 * /usr/lib/ocaml/re/re__Str.cmt
 * /usr/lib/ocaml/re/re__Str.cmti
 * /usr/lib/ocaml/re/re__Str.cmx
+* /usr/lib/ocaml/re/re__View.cmi
+* /usr/lib/ocaml/re/re__View.cmt
+* /usr/lib/ocaml/re/re__View.cmti
+* /usr/lib/ocaml/re/re__View.cmx
+* /usr/lib/ocaml/re/search.ml
 * /usr/lib/ocaml/re/str.ml
 * /usr/lib/ocaml/re/str.mli
 * /usr/lib/ocaml/re/str/re_str.a
@@ -162,7 +224,9 @@ A regular expression library for OCam
 * /usr/lib/ocaml/re/str/re_str.cmxa
 * /usr/lib/ocaml/re/str/re_str.cmxs
 * /usr/lib/ocaml/re/str/re_str.ml
-* /usr/share/doc/ocaml-re-1.11.0/README.md
+* /usr/lib/ocaml/re/view.ml
+* /usr/lib/ocaml/re/view.mli
+* /usr/share/doc/ocaml-re-1.13.3/README.md
 * /usr/share/doc/re/CHANGES.md
 * /usr/share/doc/re/LICENSE.md
 * /usr/share/doc/re/README.md

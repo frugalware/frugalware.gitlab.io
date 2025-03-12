@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ocaml-compiler-libs-repackaged 0.17.0-1"
-version = "0.17.0-1"
+title = "ocaml-compiler-libs-repackaged 0.17.0-2"
+version = "0.17.0-2"
 description = "OCaml compiler libraries repackaged"
-date = "2024-06-11T19:24:33"
+date = "2025-03-12T14:31:36"
 aliases = "/packages/221068"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/janestreet/ocaml-compiler-libs"
 arch = "x86_64"
-size = "154760"
-usize = "340644"
-sha1sum = "374f7e5b474992393380d907606f9a2e34ccfc0b"
-depends = "['ocaml>=5.2.0', 'ocaml-compiler-libs']"
+size = "168144"
+usize = "314303"
+sha1sum = "f692c19796cc17a1de6d6b0927b1717ba01a9d16"
+depends = "['ocaml>=5.3.0', 'ocaml-compiler-libs']"
 reverse_depends = "['ppxlib']"
 +++
 ### Description: 

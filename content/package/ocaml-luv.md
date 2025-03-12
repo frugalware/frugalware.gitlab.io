@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ocaml-luv 0.5.13-1"
-version = "0.5.13-1"
+title = "ocaml-luv 0.5.14-1"
+version = "0.5.14-1"
 description = "Cross-platform asynchronous I/O and system calls"
-date = "2024-06-11T18:23:54"
+date = "2025-03-12T14:38:42"
 aliases = "/packages/221064"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/aantron/luv"
 arch = "x86_64"
-size = "4194608"
-usize = "8489366"
-sha1sum = "c2afb9e3ece008fceec974d774d8bd9c75fba3f9"
-depends = "['libuv', 'ocaml>=5.2.0', 'ocaml-ctypes']"
+size = "3893400"
+usize = "8103523"
+sha1sum = "a560e1c18f3f25ce7d55725b5fd2481c292605bd"
+depends = "['libuv', 'ocaml>=5.3.0', 'ocaml-ctypes']"
 reverse_depends = "['lwt']"
 +++
 ### Description: 
@@ -382,9 +382,9 @@ Cross-platform asynchronous I/O and system calls
 * /usr/lib/ocaml/luv_unix/opam
 * /usr/lib/ocaml/stublibs/dllluv_c_stubs.so
 * /usr/lib/ocaml/stublibs/dllluv_unix_stubs.so
-* /usr/share/doc/ocaml-luv-0.5.13/luv/LICENSE.md
-* /usr/share/doc/ocaml-luv-0.5.13/luv/odoc-pages/index.mld
-* /usr/share/doc/ocaml-luv-0.5.13/luv/README.md
-* /usr/share/doc/ocaml-luv-0.5.13/luv_unix/LICENSE.md
-* /usr/share/doc/ocaml-luv-0.5.13/luv_unix/README.md
-* /usr/share/doc/ocaml-luv-0.5.13/README.md
+* /usr/share/doc/ocaml-luv-0.5.14/luv/LICENSE.md
+* /usr/share/doc/ocaml-luv-0.5.14/luv/odoc-pages/index.mld
+* /usr/share/doc/ocaml-luv-0.5.14/luv/README.md
+* /usr/share/doc/ocaml-luv-0.5.14/luv_unix/LICENSE.md
+* /usr/share/doc/ocaml-luv-0.5.14/luv_unix/README.md
+* /usr/share/doc/ocaml-luv-0.5.14/README.md

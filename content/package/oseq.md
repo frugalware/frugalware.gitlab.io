@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "oseq 0.5.1-1"
-version = "0.5.1-1"
+title = "oseq 0.5.1-2"
+version = "0.5.1-2"
 description = "Purely functional iterators compatible with standard seq for OCaml"
-date = "2024-10-21T14:18:17"
+date = "2025-03-12T14:42:01"
 aliases = "/packages/222547"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/c-cube/oseq"
 arch = "x86_64"
-size = "421428"
-usize = "829998"
-sha1sum = "8550ef420a262bdd56a9355cf73af1c0569ae399"
-depends = "['ocaml']"
+size = "416404"
+usize = "823566"
+sha1sum = "76f275ef2fa6f182dff86c449957f577b1f2424e"
+depends = "['ocaml>=5.3.0']"
 reverse_depends = "['dscheck']"
 +++
 ### Description: 

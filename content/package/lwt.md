@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lwt 5.9.0-1"
-version = "5.9.0-1"
+title = "lwt 5.9.1-1"
+version = "5.9.1-1"
 description = "A library for cooperative threads in OCaml"
-date = "2024-12-22T17:16:55"
+date = "2025-03-12T15:00:58"
 aliases = "/packages/221071"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/ocsigen/lwt"
 arch = "x86_64"
-size = "9375840"
-usize = "33844826"
-sha1sum = "1332937c0ffbb82286d9ccc7b241b112bbd922fb"
+size = "8352492"
+usize = "31880089"
+sha1sum = "d06f9fd31ca021836c5fb58e8aa2abbf8d1ed5ae"
 depends = "['domainslib', 'ocaml-luv', 'ocaml-react', 'ocplib-endian', 'ppxlib']"
 reverse_depends = "['ocaml-logs', 'ounit']"
 +++
@@ -226,19 +226,19 @@ A library for cooperative threads in OCaml
 * /usr/lib/ocaml/lwt_retry/META
 * /usr/lib/ocaml/lwt_retry/opam
 * /usr/lib/ocaml/stublibs/dlllwt_unix_stubs.so
-* /usr/share/doc/lwt-5.9.0/CHANGES
-* /usr/share/doc/lwt-5.9.0/lwt/CHANGES
-* /usr/share/doc/lwt-5.9.0/lwt/LICENSE.md
-* /usr/share/doc/lwt-5.9.0/lwt/odoc-pages/index.mld
-* /usr/share/doc/lwt-5.9.0/lwt/odoc-pages/manual.mld
-* /usr/share/doc/lwt-5.9.0/lwt/README.md
-* /usr/share/doc/lwt-5.9.0/lwt_ppx/CHANGES
-* /usr/share/doc/lwt-5.9.0/lwt_ppx/LICENSE.md
-* /usr/share/doc/lwt-5.9.0/lwt_ppx/README.md
-* /usr/share/doc/lwt-5.9.0/lwt_react/CHANGES
-* /usr/share/doc/lwt-5.9.0/lwt_react/LICENSE.md
-* /usr/share/doc/lwt-5.9.0/lwt_react/README.md
-* /usr/share/doc/lwt-5.9.0/lwt_retry/CHANGES
-* /usr/share/doc/lwt-5.9.0/lwt_retry/LICENSE.md
-* /usr/share/doc/lwt-5.9.0/lwt_retry/README.md
-* /usr/share/doc/lwt-5.9.0/README.md
+* /usr/share/doc/lwt-5.9.1/CHANGES
+* /usr/share/doc/lwt-5.9.1/lwt/CHANGES
+* /usr/share/doc/lwt-5.9.1/lwt/LICENSE.md
+* /usr/share/doc/lwt-5.9.1/lwt/odoc-pages/index.mld
+* /usr/share/doc/lwt-5.9.1/lwt/odoc-pages/manual.mld
+* /usr/share/doc/lwt-5.9.1/lwt/README.md
+* /usr/share/doc/lwt-5.9.1/lwt_ppx/CHANGES
+* /usr/share/doc/lwt-5.9.1/lwt_ppx/LICENSE.md
+* /usr/share/doc/lwt-5.9.1/lwt_ppx/README.md
+* /usr/share/doc/lwt-5.9.1/lwt_react/CHANGES
+* /usr/share/doc/lwt-5.9.1/lwt_react/LICENSE.md
+* /usr/share/doc/lwt-5.9.1/lwt_react/README.md
+* /usr/share/doc/lwt-5.9.1/lwt_retry/CHANGES
+* /usr/share/doc/lwt-5.9.1/lwt_retry/LICENSE.md
+* /usr/share/doc/lwt-5.9.1/lwt_retry/README.md
+* /usr/share/doc/lwt-5.9.1/README.md
