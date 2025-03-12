@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ocaml-cmdliner 1.3.0-1"
-version = "1.3.0-1"
+title = "ocaml-cmdliner 1.3.0-2"
+version = "1.3.0-2"
 description = "Declarative definition of command line interfaces for OCaml"
-date = "2024-06-11T17:27:47"
+date = "2025-03-12T13:30:47"
 aliases = "/packages/221513"
 categories = ['devel-extra']
 upstreamurl = "https://erratique.ch/software/cmdliner"
 arch = "x86_64"
-size = "1271816"
-usize = "2698328"
-sha1sum = "fdeabb114e234ca3194d3c0b9e5ef6a20abd95b1"
-depends = "['ocaml']"
+size = "1312920"
+usize = "2810669"
+sha1sum = "8f6cf478ae09b4f999b963596a090b911298d71f"
+depends = "['ocaml>=5.3.0']"
 reverse_depends = "['ocaml-fmt', 'ppxlib']"
 +++
 ### Description: 

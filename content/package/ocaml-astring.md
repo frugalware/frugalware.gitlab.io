@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ocaml-astring 0.8.5-1"
-version = "0.8.5-1"
+title = "ocaml-astring 0.8.5-2"
+version = "0.8.5-2"
 description = "Alternative String module for OCaml"
-date = "2024-06-12T13:08:53"
+date = "2025-03-12T14:06:36"
 aliases = "/packages/221519"
 categories = ['devel-extra']
 upstreamurl = "https://erratique.ch/software/astring"
 arch = "x86_64"
-size = "235352"
-usize = "362889"
-sha1sum = "645d25b6eddb2b01ce10bae74c5246887d6c3652"
-depends = "['ocaml>=5.2.0']"
+size = "237008"
+usize = "364403"
+sha1sum = "f5a4da413bbb16fb04dbc378453c97ef0286ddef"
+depends = "['ocaml>=5.3.0']"
 reverse_depends = "['ocaml-fpath']"
 +++
 ### Description: 

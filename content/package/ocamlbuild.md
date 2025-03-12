@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ocamlbuild 0.15.0-1"
-version = "0.15.0-1"
+title = "ocamlbuild 0.16.1-1"
+version = "0.16.1-1"
 description = "Build tool, that has built-in rules for building OCaml library and programs"
-date = "2024-07-30T14:02:18"
+date = "2025-03-12T13:28:04"
 aliases = "/packages/219265"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/ocaml/ocamlbuild"
 arch = "x86_64"
-size = "1198176"
-usize = "9278201"
-sha1sum = "4fe2600d5cb421512e8b0c29197dd79dc329081e"
-depends = "['ocaml>=5.2.0']"
+size = "1203560"
+usize = "9389782"
+sha1sum = "3340b5c91218091683628f7051d1dd4e9a9452ed"
+depends = "['ocaml>=5.3.0']"
 +++
 ### Description: 
 Build tool, that has built-in rules for building OCaml library and programs
@@ -38,7 +38,7 @@ Build tool, that has built-in rules for building OCaml library and programs
 * /usr/lib/ocaml/ocamlbuild/signatures.cmi
 * /usr/lib/ocaml/ocamlbuild/signatures.cmti
 * /usr/lib/ocaml/ocamlbuild/signatures.mli
-* /usr/share/doc/ocamlbuild-0.15.0/LICENSE
-* /usr/share/doc/ocamlbuild-0.15.0/Readme.md
-* /usr/share/doc/ocamlbuild-0.15.0/VERSION
+* /usr/share/doc/ocamlbuild-0.16.1/LICENSE
+* /usr/share/doc/ocamlbuild-0.16.1/Readme.md
+* /usr/share/doc/ocamlbuild-0.16.1/VERSION
 * /usr/share/man/man1/ocamlbuild.1.gz

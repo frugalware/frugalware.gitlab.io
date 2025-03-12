@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ocaml-rresult 0.7.0-1"
-version = "0.7.0-1"
+title = "ocaml-rresult 0.7.0-2"
+version = "0.7.0-2"
 description = "Result value combinators for OCaml"
-date = "2024-06-12T13:03:33"
+date = "2025-03-12T14:05:22"
 aliases = "/packages/221518"
 categories = ['devel-extra']
 upstreamurl = "https://erratique.ch/software/rresult"
 arch = "x86_64"
-size = "44076"
-usize = "65898"
-sha1sum = "1ba4711ef4d74d973223e2775f887834302d67d4"
-depends = "['ocaml>=5.2.0']"
+size = "44708"
+usize = "66373"
+sha1sum = "e732fd6a6911118c5257ccfea2fab6e119817d8e"
+depends = "['ocaml>=5.3.0']"
 reverse_depends = "['ocaml-bos']"
 +++
 ### Description: 

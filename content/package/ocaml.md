@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ocaml 5.2.0-1"
-version = "5.2.0-1"
+title = "ocaml 5.3.0-1"
+version = "5.3.0-1"
 description = "Caml is a general-purpose programming language, designed with program safety and reliability in mind."
-date = "2024-06-11T14:43:46"
+date = "2025-03-12T13:22:46"
 aliases = "/packages/3751"
 categories = ['devel-extra']
 upstreamurl = "http://www.ocaml.org"
 arch = "x86_64"
-size = "38034936"
-usize = "145877676"
-sha1sum = "13b608b81117ef3b1d5b38874b853d3c47f45826"
+size = "35594732"
+usize = "144102928"
+sha1sum = "ab9fd401e52741ec33175bde99616ab8caf957aa"
 depends = "['binutils>=2.38', 'gdbm>=1.11-2', 'libxml2>=2.9.4-2', 'ncurses>=6.0-18']"
 reverse_depends = "['backoff', 'camlp-streams', 'cppo', 'dune', 'hivex-ocaml', 'llvm-ocaml', 'multicore-magic', 'ocaml-astring', 'ocaml-bigarray-compat', 'ocaml-cmdliner', 'ocaml-compiler-libs', 'ocaml-compiler-libs-repackaged', 'ocaml-containers', 'ocaml-ctypes', 'ocaml-domain-shims', 'ocaml-extlib', 'ocaml-findlib', 'ocaml-graphics', 'ocaml-integers', 'ocaml-luv', 'ocaml-re', 'ocaml-react', 'ocaml-result', 'ocaml-rresult', 'ocaml-seq', 'ocaml-stdlib-shims', 'ocaml-topkg', 'ocamlbuild', 'ocplib-endian', 'opam-file-format', 'oseq', 'ppx_derivers', 'sexplib0', 'thread-table']"
 +++
@@ -70,6 +70,7 @@ Caml is a general-purpose programming language, designed with program safety and
 * /usr/lib/ocaml/caml/address_class.h
 * /usr/lib/ocaml/caml/addrmap.h
 * /usr/lib/ocaml/caml/alloc.h
+* /usr/lib/ocaml/caml/asm.h
 * /usr/lib/ocaml/caml/atomic_refcount.h
 * /usr/lib/ocaml/caml/backtrace.h
 * /usr/lib/ocaml/caml/backtrace_prim.h
@@ -79,6 +80,7 @@ Caml is a general-purpose programming language, designed with program safety and
 * /usr/lib/ocaml/caml/camlatomic.h
 * /usr/lib/ocaml/caml/codefrag.h
 * /usr/lib/ocaml/caml/compare.h
+* /usr/lib/ocaml/caml/compatibility.h
 * /usr/lib/ocaml/caml/config.h
 * /usr/lib/ocaml/caml/custom.h
 * /usr/lib/ocaml/caml/debugger.h
@@ -189,7 +191,7 @@ Caml is a general-purpose programming language, designed with program safety and
 * /usr/lib/ocaml/dynlink/dynlink.cmxa
 * /usr/lib/ocaml/dynlink/dynlink.mli
 * /usr/lib/ocaml/dynlink/dynlink_common.cmx
-* /usr/lib/ocaml/dynlink/dynlink_compilerlibs.cmx
+* /usr/lib/ocaml/dynlink/dynlink_config.cmx
 * /usr/lib/ocaml/dynlink/dynlink_platform_intf.cmx
 * /usr/lib/ocaml/dynlink/dynlink_types.cmx
 * /usr/lib/ocaml/dynlink/META
@@ -751,12 +753,12 @@ Caml is a general-purpose programming language, designed with program safety and
 * /usr/lib/ocaml/unix/unixLabels.mli
 * /usr/lib/ocaml/weak.ml
 * /usr/lib/ocaml/weak.mli
-* /usr/share/doc/ocaml-5.2.0/Changes
-* /usr/share/doc/ocaml-5.2.0/INSTALL.adoc
-* /usr/share/doc/ocaml-5.2.0/LICENSE
-* /usr/share/doc/ocaml-5.2.0/README.adoc
-* /usr/share/doc/ocaml-5.2.0/README.win32.adoc
-* /usr/share/doc/ocaml-5.2.0/VERSION
+* /usr/share/doc/ocaml-5.3.0/Changes
+* /usr/share/doc/ocaml-5.3.0/INSTALL.adoc
+* /usr/share/doc/ocaml-5.3.0/LICENSE
+* /usr/share/doc/ocaml-5.3.0/README.adoc
+* /usr/share/doc/ocaml-5.3.0/README.win32.adoc
+* /usr/share/doc/ocaml-5.3.0/VERSION
 * /usr/share/man/man1/ocaml.1.gz
 * /usr/share/man/man1/ocamlc.1.gz
 * /usr/share/man/man1/ocamlc.opt.1.gz
@@ -837,6 +839,7 @@ Caml is a general-purpose programming language, designed with program safety and
 * /usr/share/man/man3/CamlinternalMenhirLib.EngineTypes.3o.gz
 * /usr/share/man/man3/CamlinternalMenhirLib.EngineTypes.ENGINE.3o.gz
 * /usr/share/man/man3/CamlinternalMenhirLib.EngineTypes.INCREMENTAL_ENGINE_START.3o.gz
+* /usr/share/man/man3/CamlinternalMenhirLib.EngineTypes.LOG.3o.gz
 * /usr/share/man/man3/CamlinternalMenhirLib.EngineTypes.MONOLITHIC_ENGINE.3o.gz
 * /usr/share/man/man3/CamlinternalMenhirLib.EngineTypes.TABLE.3o.gz
 * /usr/share/man/man3/CamlinternalMenhirLib.EngineTypes.TABLE.Log.3o.gz
@@ -933,6 +936,8 @@ Caml is a general-purpose programming language, designed with program safety and
 * /usr/share/man/man3/Float.Array.3o.gz
 * /usr/share/man/man3/Float.ArrayLabels.3o.gz
 * /usr/share/man/man3/Format.3o.gz
+* /usr/share/man/man3/Format_doc.3o.gz
+* /usr/share/man/man3/Format_doc.Doc.3o.gz
 * /usr/share/man/man3/Format_tutorial.3o.gz
 * /usr/share/man/man3/Fun.3o.gz
 * /usr/share/man/man3/Gc.3o.gz
@@ -968,12 +973,14 @@ Caml is a general-purpose programming language, designed with program safety and
 * /usr/share/man/man3/Lazy_backtrack.3o.gz
 * /usr/share/man/man3/Lexer.3o.gz
 * /usr/share/man/man3/Lexing.3o.gz
+* /usr/share/man/man3/Linkdeps.3o.gz
 * /usr/share/man/man3/List.3o.gz
 * /usr/share/man/man3/ListLabels.3o.gz
 * /usr/share/man/man3/Load_path.3o.gz
 * /usr/share/man/man3/Load_path.Dir.3o.gz
 * /usr/share/man/man3/Local_store.3o.gz
 * /usr/share/man/man3/Location.3o.gz
+* /usr/share/man/man3/Location.Doc.3o.gz
 * /usr/share/man/man3/Longident.3o.gz
 * /usr/share/man/man3/Map.3o.gz
 * /usr/share/man/man3/Map.Make.3o.gz
@@ -994,6 +1001,7 @@ Caml is a general-purpose programming language, designed with program safety and
 * /usr/share/man/man3/Misc.Stdlib.String.Set.3o.gz
 * /usr/share/man/man3/Misc.Stdlib.String.Tbl.3o.gz
 * /usr/share/man/man3/Misc.Style.3o.gz
+* /usr/share/man/man3/Misc.Utf8_lexeme.3o.gz
 * /usr/share/man/man3/MoreLabels.3o.gz
 * /usr/share/man/man3/MoreLabels.Hashtbl.3o.gz
 * /usr/share/man/man3/MoreLabels.Hashtbl.HashedType.3o.gz
@@ -1032,6 +1040,7 @@ Caml is a general-purpose programming language, designed with program safety and
 * /usr/share/man/man3/Parsing.3o.gz
 * /usr/share/man/man3/Pparse.3o.gz
 * /usr/share/man/man3/Pprintast.3o.gz
+* /usr/share/man/man3/Pprintast.Doc.3o.gz
 * /usr/share/man/man3/Printast.3o.gz
 * /usr/share/man/man3/Printexc.3o.gz
 * /usr/share/man/man3/Printexc.Slot.3o.gz

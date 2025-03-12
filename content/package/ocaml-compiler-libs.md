@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ocaml-compiler-libs 5.2.0-1"
-version = "5.2.0-1"
+title = "ocaml-compiler-libs 5.3.0-1"
+version = "5.3.0-1"
 description = "Several modules used internally by the OCaml compiler"
-date = "2024-06-11T14:43:46"
+date = "2025-03-12T13:22:46"
 aliases = "/packages/220405"
 categories = ['devel-extra']
 upstreamurl = "http://www.ocaml.org"
 arch = "x86_64"
-size = "41760024"
-usize = "75221387"
-sha1sum = "98199fbea773a1bde7365e6e06d437202caaac1c"
+size = "44276560"
+usize = "77046137"
+sha1sum = "260788ca6fa780e4a302bbef095a0a932d6e25fd"
 depends = "['ocaml']"
 reverse_depends = "['ocaml-compiler-libs-repackaged', 'ocaml-graphics', 'opam']"
 +++
@@ -67,7 +67,9 @@ Several modules used internally by the OCaml compiler
 * /usr/lib/ocaml/compiler-libs/asmpackager.cmx
 * /usr/lib/ocaml/compiler-libs/asmpackager.mli
 * /usr/lib/ocaml/compiler-libs/asttypes.cmi
+* /usr/lib/ocaml/compiler-libs/asttypes.cmt
 * /usr/lib/ocaml/compiler-libs/asttypes.cmti
+* /usr/lib/ocaml/compiler-libs/asttypes.cmx
 * /usr/lib/ocaml/compiler-libs/asttypes.mli
 * /usr/lib/ocaml/compiler-libs/ast_helper.cmi
 * /usr/lib/ocaml/compiler-libs/ast_helper.cmt
@@ -455,6 +457,11 @@ Several modules used internally by the OCaml compiler
 * /usr/lib/ocaml/compiler-libs/errortrace.cmti
 * /usr/lib/ocaml/compiler-libs/errortrace.cmx
 * /usr/lib/ocaml/compiler-libs/errortrace.mli
+* /usr/lib/ocaml/compiler-libs/errortrace_report.cmi
+* /usr/lib/ocaml/compiler-libs/errortrace_report.cmt
+* /usr/lib/ocaml/compiler-libs/errortrace_report.cmti
+* /usr/lib/ocaml/compiler-libs/errortrace_report.cmx
+* /usr/lib/ocaml/compiler-libs/errortrace_report.mli
 * /usr/lib/ocaml/compiler-libs/export_id.cmi
 * /usr/lib/ocaml/compiler-libs/export_id.cmt
 * /usr/lib/ocaml/compiler-libs/export_id.cmti
@@ -514,6 +521,11 @@ Several modules used internally by the OCaml compiler
 * /usr/lib/ocaml/compiler-libs/flambda_utils.cmti
 * /usr/lib/ocaml/compiler-libs/flambda_utils.cmx
 * /usr/lib/ocaml/compiler-libs/flambda_utils.mli
+* /usr/lib/ocaml/compiler-libs/format_doc.cmi
+* /usr/lib/ocaml/compiler-libs/format_doc.cmt
+* /usr/lib/ocaml/compiler-libs/format_doc.cmti
+* /usr/lib/ocaml/compiler-libs/format_doc.cmx
+* /usr/lib/ocaml/compiler-libs/format_doc.mli
 * /usr/lib/ocaml/compiler-libs/freshening.cmi
 * /usr/lib/ocaml/compiler-libs/freshening.cmt
 * /usr/lib/ocaml/compiler-libs/freshening.cmti
@@ -524,6 +536,11 @@ Several modules used internally by the OCaml compiler
 * /usr/lib/ocaml/compiler-libs/genprintval.cmti
 * /usr/lib/ocaml/compiler-libs/genprintval.cmx
 * /usr/lib/ocaml/compiler-libs/genprintval.mli
+* /usr/lib/ocaml/compiler-libs/gprinttyp.cmi
+* /usr/lib/ocaml/compiler-libs/gprinttyp.cmt
+* /usr/lib/ocaml/compiler-libs/gprinttyp.cmti
+* /usr/lib/ocaml/compiler-libs/gprinttyp.cmx
+* /usr/lib/ocaml/compiler-libs/gprinttyp.mli
 * /usr/lib/ocaml/compiler-libs/ident.cmi
 * /usr/lib/ocaml/compiler-libs/ident.cmt
 * /usr/lib/ocaml/compiler-libs/ident.cmti
@@ -692,6 +709,11 @@ Several modules used internally by the OCaml compiler
 * /usr/lib/ocaml/compiler-libs/linkage_name.cmti
 * /usr/lib/ocaml/compiler-libs/linkage_name.cmx
 * /usr/lib/ocaml/compiler-libs/linkage_name.mli
+* /usr/lib/ocaml/compiler-libs/linkdeps.cmi
+* /usr/lib/ocaml/compiler-libs/linkdeps.cmt
+* /usr/lib/ocaml/compiler-libs/linkdeps.cmti
+* /usr/lib/ocaml/compiler-libs/linkdeps.cmx
+* /usr/lib/ocaml/compiler-libs/linkdeps.mli
 * /usr/lib/ocaml/compiler-libs/linscan.cmi
 * /usr/lib/ocaml/compiler-libs/linscan.cmt
 * /usr/lib/ocaml/compiler-libs/linscan.cmti
@@ -830,6 +852,11 @@ Several modules used internally by the OCaml compiler
 * /usr/lib/ocaml/compiler-libs/outcometree.cmi
 * /usr/lib/ocaml/compiler-libs/outcometree.cmti
 * /usr/lib/ocaml/compiler-libs/outcometree.mli
+* /usr/lib/ocaml/compiler-libs/out_type.cmi
+* /usr/lib/ocaml/compiler-libs/out_type.cmt
+* /usr/lib/ocaml/compiler-libs/out_type.cmti
+* /usr/lib/ocaml/compiler-libs/out_type.cmx
+* /usr/lib/ocaml/compiler-libs/out_type.mli
 * /usr/lib/ocaml/compiler-libs/parameter.cmi
 * /usr/lib/ocaml/compiler-libs/parameter.cmt
 * /usr/lib/ocaml/compiler-libs/parameter.cmti
@@ -968,6 +995,11 @@ Several modules used internally by the OCaml compiler
 * /usr/lib/ocaml/compiler-libs/projection.cmti
 * /usr/lib/ocaml/compiler-libs/projection.cmx
 * /usr/lib/ocaml/compiler-libs/projection.mli
+* /usr/lib/ocaml/compiler-libs/rawprinttyp.cmi
+* /usr/lib/ocaml/compiler-libs/rawprinttyp.cmt
+* /usr/lib/ocaml/compiler-libs/rawprinttyp.cmti
+* /usr/lib/ocaml/compiler-libs/rawprinttyp.cmx
+* /usr/lib/ocaml/compiler-libs/rawprinttyp.mli
 * /usr/lib/ocaml/compiler-libs/ref_to_variables.cmi
 * /usr/lib/ocaml/compiler-libs/ref_to_variables.cmt
 * /usr/lib/ocaml/compiler-libs/ref_to_variables.cmti

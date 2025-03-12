@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ocaml-result 1.5-6"
-version = "1.5-6"
+title = "ocaml-result 1.5-7"
+version = "1.5-7"
 description = "Compatibility Result module"
-date = "2024-06-11T18:41:31"
+date = "2025-03-12T13:32:11"
 aliases = "/packages/219264"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/janestreet/result"
 arch = "x86_64"
-size = "13832"
-usize = "33824"
-sha1sum = "907f9f0414463a87512aaca409baddd12460fcbe"
-depends = "['ocaml>=5.2.0']"
+size = "14068"
+usize = "26015"
+sha1sum = "ecdeb54eacb6d3e00103c2ce888351f64e9b528b"
+depends = "['ocaml>=5.3.0']"
 reverse_depends = "['ocaml-topkg']"
 +++
 ### Description: 

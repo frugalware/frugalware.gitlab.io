@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "opam 2.1.4-1"
-version = "2.1.4-1"
+title = "opam 2.3.0-1"
+version = "2.3.0-1"
 description = "OCaml package manager"
-date = "2022-12-14T09:33:34"
+date = "2025-03-12T13:50:37"
 aliases = "/packages/219266"
 categories = ['devel-extra']
 upstreamurl = "http://opam.ocaml.org/"
 arch = "x86_64"
-size = "3296328"
-usize = "14939872"
-sha1sum = "7eba70f771fbcbb4e954bdcbc7609d6e40084bee"
+size = "4861956"
+usize = "19709629"
+sha1sum = "88df54a5c88ad86769851e761a4230cb39fd2d4d"
 depends = "['bubblewrap', 'git', 'ocaml-compiler-libs>=4.14']"
 +++
 ### Description: 
@@ -19,10 +19,10 @@ OCaml package manager
 ### Files: 
 * /usr/bin/opam
 * /usr/bin/opam-installer
-* /usr/share/doc/opam-2.1.4/AUTHORS
-* /usr/share/doc/opam-2.1.4/CHANGES
-* /usr/share/doc/opam-2.1.4/LICENSE
-* /usr/share/doc/opam-2.1.4/README.md
+* /usr/share/doc/opam-2.3.0/AUTHORS
+* /usr/share/doc/opam-2.3.0/CHANGES
+* /usr/share/doc/opam-2.3.0/LICENSE
+* /usr/share/doc/opam-2.3.0/README.md
 * /usr/share/man/man1/opam-admin-add-constraint.1.gz
 * /usr/share/man/man1/opam-admin-add-hashes.1.gz
 * /usr/share/man/man1/opam-admin-cache.1.gz
@@ -33,6 +33,7 @@ OCaml package manager
 * /usr/share/man/man1/opam-admin-lint.1.gz
 * /usr/share/man/man1/opam-admin-list.1.gz
 * /usr/share/man/man1/opam-admin-make.1.gz
+* /usr/share/man/man1/opam-admin-update-extrafiles.1.gz
 * /usr/share/man/man1/opam-admin-upgrade.1.gz
 * /usr/share/man/man1/opam-admin.1.gz
 * /usr/share/man/man1/opam-clean.1.gz
@@ -57,9 +58,11 @@ OCaml package manager
 * /usr/share/man/man1/opam-show.1.gz
 * /usr/share/man/man1/opam-source.1.gz
 * /usr/share/man/man1/opam-switch.1.gz
+* /usr/share/man/man1/opam-tree.1.gz
 * /usr/share/man/man1/opam-uninstall.1.gz
 * /usr/share/man/man1/opam-unpin.1.gz
 * /usr/share/man/man1/opam-update.1.gz
 * /usr/share/man/man1/opam-upgrade.1.gz
 * /usr/share/man/man1/opam-var.1.gz
+* /usr/share/man/man1/opam-why.1.gz
 * /usr/share/man/man1/opam.1.gz

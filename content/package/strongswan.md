@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "strongswan 6.0.0-1"
-version = "6.0.0-1"
+title = "strongswan 6.0.1-1"
+version = "6.0.1-1"
 description = "the OpenSource IPsec-based VPN Solution for Linux"
-date = "2024-12-23T22:23:01"
+date = "2025-03-12T13:17:39"
 aliases = "/packages/136023"
 categories = ['network-extra']
 upstreamurl = "http://www.strongswan.org/"
 arch = "x86_64"
-size = "1276848"
-usize = "4342053"
-sha1sum = "02968fe9d2be9abf4f346c0cb6ff3a145de8891f"
+size = "1280068"
+usize = "4351747"
+sha1sum = "9c210a13d7338e0ef1aedb90fb40c0c6701148d9"
 depends = "['curl', 'gmp', 'iproute2', 'json-c>=0.13.1', 'libsoup', 'libsystemd', 'networkmanager', 'openresolv', 'openssl', 'sqlite3']"
 +++
 ### Description: 
@@ -20,6 +20,7 @@ the OpenSource IPsec-based VPN Solution for Linux
 * /etc/strongswan.conf
 * /etc/strongswan.d/attest.conf
 * /etc/strongswan.d/charon-logging.conf
+* /etc/strongswan.d/charon-nm.conf
 * /etc/strongswan.d/charon-systemd.conf
 * /etc/strongswan.d/charon.conf
 * /etc/strongswan.d/charon/aesni.conf
@@ -87,6 +88,7 @@ the OpenSource IPsec-based VPN Solution for Linux
 * /etc/strongswan.d/charon/xauth-pam.conf
 * /etc/strongswan.d/charon/xcbc.conf
 * /etc/strongswan.d/imcv.conf
+* /etc/strongswan.d/imv_policy_manager.conf
 * /etc/strongswan.d/pki.conf
 * /etc/strongswan.d/pool.conf
 * /etc/strongswan.d/swanctl.conf
@@ -214,13 +216,13 @@ the OpenSource IPsec-based VPN Solution for Linux
 * /usr/lib/systemd/strongswan-starter.service
 * /usr/lib/systemd/strongswan.service
 * /usr/share/dbus-1/system.d/nm-strongswan-service.conf
-* /usr/share/doc/strongswan-6.0.0/ChangeLog
-* /usr/share/doc/strongswan-6.0.0/COPYING
-* /usr/share/doc/strongswan-6.0.0/INSTALL
-* /usr/share/doc/strongswan-6.0.0/LICENSE
-* /usr/share/doc/strongswan-6.0.0/NEWS
-* /usr/share/doc/strongswan-6.0.0/README
-* /usr/share/doc/strongswan-6.0.0/TODO
+* /usr/share/doc/strongswan-6.0.1/ChangeLog
+* /usr/share/doc/strongswan-6.0.1/COPYING
+* /usr/share/doc/strongswan-6.0.1/INSTALL
+* /usr/share/doc/strongswan-6.0.1/LICENSE
+* /usr/share/doc/strongswan-6.0.1/NEWS
+* /usr/share/doc/strongswan-6.0.1/README
+* /usr/share/doc/strongswan-6.0.1/TODO
 * /usr/share/man/man1/pki---acert.1.gz
 * /usr/share/man/man1/pki---dn.1.gz
 * /usr/share/man/man1/pki---est.1.gz
@@ -311,9 +313,11 @@ the OpenSource IPsec-based VPN Solution for Linux
 * /usr/share/strongswan/templates/config/strongswan.conf
 * /usr/share/strongswan/templates/config/strongswan.d/attest.conf
 * /usr/share/strongswan/templates/config/strongswan.d/charon-logging.conf
+* /usr/share/strongswan/templates/config/strongswan.d/charon-nm.conf
 * /usr/share/strongswan/templates/config/strongswan.d/charon-systemd.conf
 * /usr/share/strongswan/templates/config/strongswan.d/charon.conf
 * /usr/share/strongswan/templates/config/strongswan.d/imcv.conf
+* /usr/share/strongswan/templates/config/strongswan.d/imv_policy_manager.conf
 * /usr/share/strongswan/templates/config/strongswan.d/pki.conf
 * /usr/share/strongswan/templates/config/strongswan.d/pool.conf
 * /usr/share/strongswan/templates/config/strongswan.d/swanctl.conf

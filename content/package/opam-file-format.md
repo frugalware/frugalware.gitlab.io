@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "opam-file-format 2.1.6-1"
-version = "2.1.6-1"
+title = "opam-file-format 2.1.6-2"
+version = "2.1.6-2"
 description = "Parser and printer for the opam file syntax"
-date = "2024-06-11T21:05:48"
+date = "2025-03-12T14:03:29"
 aliases = "/packages/221515"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/ocaml/opam-file-format"
 arch = "x86_64"
-size = "520784"
-usize = "1283728"
-sha1sum = "7582f1b4622c381baa6930fe09f2de9313211ed3"
-depends = "['ocaml>=5.2.0']"
+size = "545636"
+usize = "1330280"
+sha1sum = "2aa38e2fc9409dc5843937130a9c6ab01e1b099c"
+depends = "['ocaml>=5.3.0']"
 +++
 ### Description: 
 Parser and printer for the opam file syntax
