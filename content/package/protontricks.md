@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "protontricks 1.12.0-1"
-version = "1.12.0-1"
+title = "protontricks 1.12.1-1"
+version = "1.12.1-1"
 description = "A simple wrapper that does winetricks things for Proton enabled games."
-date = "2024-11-10T01:10:31"
+date = "2025-03-12T12:48:31"
 aliases = "/packages/222568"
 categories = ['xapps-extra']
 upstreamurl = "http://pypi.python.org/pypi/protontricks"
 arch = "x86_64"
-size = "87988"
-usize = "478904"
-sha1sum = "3500a4e43a66b63b6ce149d53b121195d298f2b4"
+size = "89484"
+usize = "486618"
+sha1sum = "877faaf73971dfbaea58f8e18c959bc13b237bb7"
 depends = "['python3-pillow', 'python3-setuptools', 'python3-vdf', 'winetricks']"
 +++
 ### Description: 
@@ -20,12 +20,12 @@ A simple wrapper that does winetricks things for Proton enabled games.
 * /usr/bin/protontricks
 * /usr/bin/protontricks-desktop-install
 * /usr/bin/protontricks-launch
-* /usr/lib/python3.13/site-packages/protontricks-1.12.0.dist-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/protontricks-1.12.0.dist-info/LICENSE
-* /usr/lib/python3.13/site-packages/protontricks-1.12.0.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/protontricks-1.12.0.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/protontricks-1.12.0.dist-info/top_level.txt
-* /usr/lib/python3.13/site-packages/protontricks-1.12.0.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/protontricks-1.12.1.dist-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/protontricks-1.12.1.dist-info/LICENSE
+* /usr/lib/python3.13/site-packages/protontricks-1.12.1.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/protontricks-1.12.1.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/protontricks-1.12.1.dist-info/top_level.txt
+* /usr/lib/python3.13/site-packages/protontricks-1.12.1.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/protontricks/cli/desktop_install.py
 * /usr/lib/python3.13/site-packages/protontricks/cli/launch.py
 * /usr/lib/python3.13/site-packages/protontricks/cli/main.py
@@ -74,5 +74,5 @@ A simple wrapper that does winetricks things for Proton enabled games.
 * /usr/lib/python3.13/site-packages/protontricks/__pycache__/__init__.cpython-313.pyc
 * /usr/share/applications/protontricks-launch.desktop
 * /usr/share/applications/protontricks.desktop
-* /usr/share/doc/protontricks-1.12.0/LICENSE
-* /usr/share/doc/protontricks-1.12.0/README.md
+* /usr/share/doc/protontricks-1.12.1/LICENSE
+* /usr/share/doc/protontricks-1.12.1/README.md
