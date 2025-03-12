@@ -1,24 +1,24 @@
 +++
 draft = false
-title = "ocean-sound-theme 6.3.2-1"
-version = "6.3.2-1"
+title = "ocean-sound-theme 6.3.3-1"
+version = "6.3.3-1"
 description = "Ocean Sound Theme for Plasma"
-date = "2025-02-26T10:33:56"
+date = "2025-03-12T11:22:45"
 aliases = "/packages/221370"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2012624"
+size = "2012664"
 usize = "2155570"
-sha1sum = "dc3eb1ff4bd5eb654d34e8b0208470afee0d847f"
+sha1sum = "f0d0b4f1b27d1ad01dae6c27e8add21a552cda09"
 depends = "['qt6-base']"
 +++
 ### Description: 
 Ocean Sound Theme for Plasma
 
 ### Files: 
-* /usr/share/doc/ocean-sound-theme-6.3.2/README.md
-* /usr/share/doc/ocean-sound-theme-6.3.2/README.md.license
+* /usr/share/doc/ocean-sound-theme-6.3.3/README.md
+* /usr/share/doc/ocean-sound-theme-6.3.3/README.md.license
 * /usr/share/sounds/ocean/index.theme
 * /usr/share/sounds/ocean/index.theme.license
 * /usr/share/sounds/ocean/stereo/alarm-clock-elapsed.oga
