@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "djvulibre 3.5.28-2"
-version = "3.5.28-2"
+title = "djvulibre 3.5.28-3"
+version = "3.5.28-3"
 description = "DjVu is a web-centric format for distributing documents and images."
-date = "2022-01-19T13:30:04"
+date = "2025-03-13T17:41:30"
 aliases = "/packages/15143"
 categories = ['xlib']
 upstreamurl = "http://djvulibre.djvuzone.org/"
 arch = "x86_64"
-size = "962860"
-usize = "3148269"
-sha1sum = "69cfe4c66ef8e254f047bda4e19bfd220766ecdd"
-depends = "['libjpeg-turbo', 'libstdc++>=9.1.0-3', 'libtiff>=4.0.6-2', 'xdg-utils']"
+size = "967132"
+usize = "2977974"
+sha1sum = "c25805e298c6ef08a404c7fc6d3277d9e82c6005"
+depends = "['libjpeg-turbo', 'libstdc++>=9.1.0-3', 'libtiff>=4.7.0', 'xdg-utils']"
 reverse_depends = "['imagemagick', 'okular']"
 +++
 ### Description: 
@@ -59,18 +59,11 @@ DjVu is a web-centric format for distributing documents and images.
 * /usr/share/djvu/pubtext/DjVuMessages.dtd
 * /usr/share/djvu/pubtext/DjVuOCR.dtd
 * /usr/share/djvu/pubtext/DjVuXML-s.dtd
-* /usr/share/doc/djvulibre-3.5.28/AUTHORS
-* /usr/share/doc/djvulibre-3.5.28/BUGS
-* /usr/share/doc/djvulibre-3.5.28/ChangeLog
 * /usr/share/doc/djvulibre-3.5.28/COPYING
-* /usr/share/doc/djvulibre-3.5.28/COPYING-LGPL-2.1
-* /usr/share/doc/djvulibre-3.5.28/COPYING-MPL-1.1
 * /usr/share/doc/djvulibre-3.5.28/COPYRIGHT
-* /usr/share/doc/djvulibre-3.5.28/HACKING
 * /usr/share/doc/djvulibre-3.5.28/INSTALL
 * /usr/share/doc/djvulibre-3.5.28/NEWS
 * /usr/share/doc/djvulibre-3.5.28/README
-* /usr/share/doc/djvulibre-3.5.28/README.win32
 * /usr/share/icons/hicolor/128x128/mimetypes/image-vnd.djvu.png
 * /usr/share/icons/hicolor/16x16/mimetypes/image-vnd.djvu.png
 * /usr/share/icons/hicolor/20x20/mimetypes/image-vnd.djvu.png

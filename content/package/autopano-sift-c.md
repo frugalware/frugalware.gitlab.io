@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "autopano-sift-c 2.5.1-4"
-version = "2.5.1-4"
+title = "autopano-sift-c 2.5.1-5"
+version = "2.5.1-5"
 description = "Identify key feature points within arbitrary images."
-date = "2018-02-11T00:43:14"
+date = "2025-03-13T17:17:10"
 aliases = "/packages/136035"
 categories = ['apps-extra']
-upstreamurl = "http://sourceforge.net/projects/hugin"
+upstreamurl = "https://sourceforge.net/projects/hugin"
 arch = "x86_64"
-size = "112212"
-usize = "395191"
-sha1sum = "1186e3547b55e4202fe5e5d328b2065e6ee8781d"
+size = "120884"
+usize = "414883"
+sha1sum = "3198c4dfeb75cfde736a3e8e91314e4dc321a057"
 depends = "['libpano13>=2.9.19', 'libxml2']"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "darktable 5.0.1-1"
-version = "5.0.1-1"
+title = "darktable 5.0.1-2"
+version = "5.0.1-2"
 description = "A virtual lighttable and darkroom for photographers (manage RAW images)"
-date = "2025-02-16T13:27:11"
+date = "2025-03-13T17:45:03"
 aliases = "/packages/219328"
 categories = ['gnome-extra']
 upstreamurl = "https://www.darktable.org"
 arch = "x86_64"
-size = "7151764"
-usize = "34398004"
-sha1sum = "3db1ab222c9622b3864da27a9c44c06be3e6a32f"
+size = "7154776"
+usize = "34495828"
+sha1sum = "7f1e28723bf6c3d5542823d544dd21670a23e3d2"
 depends = "['colord-gtk3', 'dcraw', 'exiv2>=0.28.1', 'flickcurl', 'ghostscript', 'gmic>=3.4.2', 'gnuplot', 'graphicsmagick', 'icu4c>=76.1', 'imagemagick>=7.1.1', 'iso-codes', 'jasper', 'json-glib', 'lensfun', 'libavif>=1.0.1', 'libgphoto2', 'libjpeg-turbo', 'libsecret', 'lua', 'openexr>=3.3.0', 'openmp', 'perl-image-exiftool', 'portmidi', 'pugixml']"
 reverse_depends = "['gimp']"
 +++
