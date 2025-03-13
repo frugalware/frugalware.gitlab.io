@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ortp 5.3.106-1"
-version = "5.3.106-1"
+title = "ortp 5.4.0-1"
+version = "5.4.0-1"
 description = "A Real-time Transport Protocol stack."
-date = "2025-03-05T16:40:37"
+date = "2025-03-13T10:24:28"
 aliases = "/packages/9466"
 categories = ['apps-extra']
 upstreamurl = "http://www.linphone.org/ortp/"
 arch = "x86_64"
-size = "173776"
-usize = "498353"
-sha1sum = "ff97909352bbb9060274060aeb6dfd3ada78b32d"
-depends = "['libstdc++', 'mbedtls']"
+size = "199024"
+usize = "595087"
+sha1sum = "3fd7e9cfc21bfe44d7b6de68dab4ff383119aa5f"
+depends = "['bctoolbox']"
 +++
 ### Description: 
 A Real-time Transport Protocol stack.
@@ -34,11 +34,10 @@ A Real-time Transport Protocol stack.
 * /usr/include/ortp/telephonyevents.h
 * /usr/include/ortp/utils.h
 * /usr/lib/pkgconfig/ortp.pc
-* /usr/share/doc/ortp-5.3.0/AUTHORS.md
-* /usr/share/doc/ortp-5.3.0/CHANGELOG.md
-* /usr/share/doc/ortp-5.3.0/LICENSE.txt
-* /usr/share/doc/ortp-5.3.0/README.md
-* /usr/share/doc/ortp-5.3.106/README.md
+* /usr/share/doc/ortp-5.4.0/AUTHORS.md
+* /usr/share/doc/ortp-5.4.0/CHANGELOG.md
+* /usr/share/doc/ortp-5.4.0/LICENSE.txt
+* /usr/share/doc/ortp-5.4.0/README.md
 * /usr/share/ortp-tester/raw/h265-iframe
 * /usr/share/Ortp/cmake/OrtpConfig.cmake
 * /usr/share/Ortp/cmake/OrtpConfigVersion.cmake

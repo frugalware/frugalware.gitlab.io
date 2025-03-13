@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "fish 4.0.0-1"
-version = "4.0.0-1"
+title = "fish 4.0.1-1"
+version = "4.0.1-1"
 description = "fish is a user friendly command line shell for UNIX-like operating systems."
-date = "2025-02-28T14:52:25"
+date = "2025-03-13T10:27:31"
 aliases = "/packages/5434"
 categories = ['apps-extra']
 upstreamurl = "http://fishshell.com"
 arch = "x86_64"
-size = "3722772"
-usize = "22865414"
-sha1sum = "0310c75573d46d0313a3606f8c73e31ac71b0d7c"
+size = "3718132"
+usize = "22864668"
+sha1sum = "b8cf1455e32f44a19c89ee8d246766d420bba144"
 depends = "['libstdc++>=7.3.0-5', 'ncurses>=6.1', 'pcre2']"
 license = "GPL2"
 +++
@@ -24,8 +24,8 @@ fish is a user friendly command line shell for UNIX-like operating systems.
 * /usr/bin/fish_key_reader
 * /usr/lib/fish.pc
 * /usr/share/applications/fish.desktop
-* /usr/share/doc/fish-4.0.0/COPYING
-* /usr/share/doc/fish-4.0.0/README.rst
+* /usr/share/doc/fish-4.0.1/COPYING
+* /usr/share/doc/fish-4.0.1/README.rst
 * /usr/share/doc/fish/.buildinfo
 * /usr/share/doc/fish/CHANGELOG.rst
 * /usr/share/doc/fish/cmds/abbr.html

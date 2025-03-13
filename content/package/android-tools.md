@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "android-tools 35.0.2-9"
-version = "35.0.2-9"
+title = "android-tools 35.0.2-10"
+version = "35.0.2-10"
 description = "Android platform tools"
-date = "2025-02-05T16:04:42"
+date = "2025-03-13T10:31:43"
 aliases = "/packages/220939"
 categories = ['apps-extra']
 upstreamurl = "http://tools.android.com/"
 arch = "x86_64"
-size = "1838312"
-usize = "6125355"
-sha1sum = "aa1d81c6743c17b9889cb44399d2402e5d2fcdb5"
-depends = "['brotli', 'libcap', 'pcre2', 'protobuf>=29.3', 'zstd']"
+size = "1840412"
+usize = "6138347"
+sha1sum = "cfc7e5bfb26831b63a12155e379f43ba9fb0542a"
+depends = "['brotli', 'libcap', 'pcre2', 'protobuf>=30.0', 'zstd']"
 reverse_depends = "['scrcpy']"
 +++
 ### Description: 
