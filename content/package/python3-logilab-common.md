@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-logilab-common 2.0.0-2"
-version = "2.0.0-2"
+title = "python3-logilab-common 2.1.0-1"
+version = "2.1.0-1"
 description = "Providing low level functionalities needed for logilab python programs."
-date = "2024-11-02T17:52:14"
+date = "2025-03-13T08:27:33"
 aliases = "/packages/220538"
 categories = ['devel-extra']
 upstreamurl = "https://www.logilab.org/project/logilab-common"
 arch = "x86_64"
-size = "271780"
-usize = "1063957"
-sha1sum = "3bbf91ad809033d78bc4305ec9fc3fc8b7e60f36"
+size = "271784"
+usize = "1064029"
+sha1sum = "4d3581daaf3240c431a035f8923ab950b4cac3f5"
 depends = "['python3>=3.12']"
 +++
 ### Description: 
@@ -95,14 +95,14 @@ Providing low level functionalities needed for logilab python programs.
 * /usr/lib/python3.13/site-packages/logilab/common/__pycache__/visitor.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/logilab/common/__pycache__/xmlutils.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/logilab/common/__pycache__/__init__.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/logilab_common-2.0.0-py3.13-nspkg.pth
-* /usr/lib/python3.13/site-packages/logilab_common-2.0.0-py3.13.egg-info/dependency_links.txt
-* /usr/lib/python3.13/site-packages/logilab_common-2.0.0-py3.13.egg-info/namespace_packages.txt
-* /usr/lib/python3.13/site-packages/logilab_common-2.0.0-py3.13.egg-info/PKG-INFO
-* /usr/lib/python3.13/site-packages/logilab_common-2.0.0-py3.13.egg-info/requires.txt
-* /usr/lib/python3.13/site-packages/logilab_common-2.0.0-py3.13.egg-info/SOURCES.txt
-* /usr/lib/python3.13/site-packages/logilab_common-2.0.0-py3.13.egg-info/top_level.txt
-* /usr/share/doc/python3-logilab-common-2.0.0/ChangeLog
-* /usr/share/doc/python3-logilab-common-2.0.0/COPYING
-* /usr/share/doc/python3-logilab-common-2.0.0/COPYING.LESSER
-* /usr/share/doc/python3-logilab-common-2.0.0/README.rst
+* /usr/lib/python3.13/site-packages/logilab_common-2.1.0-py3.13-nspkg.pth
+* /usr/lib/python3.13/site-packages/logilab_common-2.1.0-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/logilab_common-2.1.0-py3.13.egg-info/namespace_packages.txt
+* /usr/lib/python3.13/site-packages/logilab_common-2.1.0-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/logilab_common-2.1.0-py3.13.egg-info/requires.txt
+* /usr/lib/python3.13/site-packages/logilab_common-2.1.0-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/logilab_common-2.1.0-py3.13.egg-info/top_level.txt
+* /usr/share/doc/python3-logilab-common-2.1.0/ChangeLog
+* /usr/share/doc/python3-logilab-common-2.1.0/COPYING
+* /usr/share/doc/python3-logilab-common-2.1.0/COPYING.LESSER
+* /usr/share/doc/python3-logilab-common-2.1.0/README.rst

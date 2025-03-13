@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "wpebackend-fdo 1.14.3-1"
-version = "1.14.3-1"
+title = "wpebackend-fdo 1.16.0-1"
+version = "1.16.0-1"
 description = "freedesktop.org backend for WPE WebKit"
-date = "2024-11-17T11:21:44"
+date = "2025-03-13T09:00:26"
 aliases = "/packages/219966"
 categories = ['xlib']
 upstreamurl = "https://wpewebkit.org/"
 arch = "x86_64"
-size = "31136"
-usize = "130596"
-sha1sum = "6370c500f743ecd6709a26d6821e7e4cc974d02b"
+size = "31448"
+usize = "131386"
+sha1sum = "77003aaa95d2a95a5cc38c95890bfb2d09f7df3b"
 depends = "['glib2', 'libepoxy', 'libglvnd', 'libwpe>=1.8.0', 'wayland']"
 reverse_depends = "['webkit-gtk3']"
 +++
@@ -40,7 +40,7 @@ freedesktop.org backend for WPE WebKit
 * /usr/include/wpe-fdo-1.0/wpe/wpebackend-fdo-version.h
 * /usr/lib/libWPEBackend-fdo-1.0.so
 * /usr/lib/libWPEBackend-fdo-1.0.so.1
-* /usr/lib/libWPEBackend-fdo-1.0.so.1.9.5
+* /usr/lib/libWPEBackend-fdo-1.0.so.1.10.1
 * /usr/lib/pkgconfig/wpebackend-fdo-1.0.pc
-* /usr/share/doc/wpebackend-fdo-1.14.3/COPYING
-* /usr/share/doc/wpebackend-fdo-1.14.3/NEWS
+* /usr/share/doc/wpebackend-fdo-1.16.0/COPYING
+* /usr/share/doc/wpebackend-fdo-1.16.0/NEWS

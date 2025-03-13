@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-dbusmock 0.33.0-1"
-version = "0.33.0-1"
+title = "python3-dbusmock 0.34.3-1"
+version = "0.34.3-1"
 description = "python-dbusmock: mock D-Bus objects for tests"
-date = "2024-12-24T10:34:02"
+date = "2025-03-13T08:42:57"
 aliases = "/packages/219601"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/python-dbusmock"
 arch = "x86_64"
-size = "122180"
-usize = "802845"
-sha1sum = "c31836f74c4d60b0a06ad014154ab1004ac63301"
+size = "123588"
+usize = "811527"
+sha1sum = "696cd55ad7e955142c0ca20ee9e95ea51d7a5bbe"
 depends = "['dbus-python']"
 +++
 ### Description: 
@@ -93,11 +93,11 @@ python-dbusmock: mock D-Bus objects for tests
 * /usr/lib/python3.13/site-packages/dbusmock/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/dbusmock/__pycache__/__main__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/dbusmock/__pycache__/__main__.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/python_dbusmock-0.33.0.dist-info/COPYING
-* /usr/lib/python3.13/site-packages/python_dbusmock-0.33.0.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/python_dbusmock-0.33.0.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/python_dbusmock-0.33.0.dist-info/top_level.txt
-* /usr/lib/python3.13/site-packages/python_dbusmock-0.33.0.dist-info/WHEEL
-* /usr/share/doc/python3-dbusmock-0.33.0/COPYING
-* /usr/share/doc/python3-dbusmock-0.33.0/NEWS
-* /usr/share/doc/python3-dbusmock-0.33.0/README.md
+* /usr/lib/python3.13/site-packages/python_dbusmock-0.34.3.dist-info/COPYING
+* /usr/lib/python3.13/site-packages/python_dbusmock-0.34.3.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/python_dbusmock-0.34.3.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/python_dbusmock-0.34.3.dist-info/top_level.txt
+* /usr/lib/python3.13/site-packages/python_dbusmock-0.34.3.dist-info/WHEEL
+* /usr/share/doc/python3-dbusmock-0.34.3/COPYING
+* /usr/share/doc/python3-dbusmock-0.34.3/NEWS
+* /usr/share/doc/python3-dbusmock-0.34.3/README.md

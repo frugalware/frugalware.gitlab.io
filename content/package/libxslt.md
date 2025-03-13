@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libxslt 1.1.42-3"
-version = "1.1.42-3"
+title = "libxslt 1.1.43-1"
+version = "1.1.43-1"
 description = "XML stylesheet transformation library"
-date = "2024-11-02T16:49:32"
+date = "2025-03-13T09:01:33"
 aliases = "/packages/3213"
 categories = ['lib']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "275580"
-usize = "1440554"
-sha1sum = "15a5ce64282f3b0eb8d20caf8828ce3264e78b14"
+size = "275604"
+usize = "1437173"
+sha1sum = "7f2f6e47b0e41276ca07c3be383668ecad4d2900"
 depends = "['libgcrypt>=1.8.2-2', 'libxml2>=2.9.7-3', 'python3>=3.13']"
 reverse_depends = "['akonadi', 'akonadi-mime', 'asciidoc', 'chromium-browser', 'colord', 'docbook-xsl', 'docbook2x', 'geany-plugins', 'icecast', 'inkscape', 'kdoctools', 'kdoctools5', 'kio5', 'libosinfo', 'libreoffice', 'lincity-ng', 'nginx', 'php', 'python3-lxml', 'qt5-webengine', 'qt6-webengine', 'r2modman', 'raptor', 'ruby-nokogiri', 'shiboken6', 'sim', 'telepathy-sofiasip', 'uwsgi-plugin-webdav', 'virtualbox', 'webkit-gtk3', 'wine', 'wine-devel', 'wxwidgets', 'xmlstarlet']"
 +++
@@ -48,10 +48,10 @@ XML stylesheet transformation library
 * /usr/lib/cmake/libxslt/libxslt-config.cmake
 * /usr/lib/libexslt.so
 * /usr/lib/libexslt.so.0
-* /usr/lib/libexslt.so.0.8.23
+* /usr/lib/libexslt.so.0.8.24
 * /usr/lib/libxslt.so
 * /usr/lib/libxslt.so.1
-* /usr/lib/libxslt.so.1.1.42
+* /usr/lib/libxslt.so.1.1.43
 * /usr/lib/pkgconfig/libexslt.pc
 * /usr/lib/pkgconfig/libxslt.pc
 * /usr/lib/python3.13/site-packages/libxslt.py
@@ -59,38 +59,36 @@ XML stylesheet transformation library
 * /usr/lib/python3.13/site-packages/__pycache__/libxslt.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/__pycache__/libxslt.cpython-313.pyc
 * /usr/lib/xsltConf.sh
-* /usr/share/doc/libxslt-1.1.42/AUTHORS
-* /usr/share/doc/libxslt-1.1.42/COPYING
-* /usr/share/doc/libxslt-1.1.42/Copyright
-* /usr/share/doc/libxslt-1.1.42/FEATURES
-* /usr/share/doc/libxslt-1.1.42/HACKING
-* /usr/share/doc/libxslt-1.1.42/INSTALL
-* /usr/share/doc/libxslt-1.1.42/NEWS
-* /usr/share/doc/libxslt-1.1.42/python/examples/basic.py
-* /usr/share/doc/libxslt-1.1.42/python/examples/exslt.py
-* /usr/share/doc/libxslt-1.1.42/python/examples/extelem.py
-* /usr/share/doc/libxslt-1.1.42/python/examples/extfunc.py
-* /usr/share/doc/libxslt-1.1.42/python/examples/pyxsltproc.py
-* /usr/share/doc/libxslt-1.1.42/python/examples/setup_test.py
-* /usr/share/doc/libxslt-1.1.42/python/examples/test.xml
-* /usr/share/doc/libxslt-1.1.42/python/examples/test.xsl
-* /usr/share/doc/libxslt-1.1.42/README.md
-* /usr/share/doc/libxslt-1.1.42/TODO
-* /usr/share/doc/libxslt-1.1.42/tutorial/images/callouts/1.png
-* /usr/share/doc/libxslt-1.1.42/tutorial/images/callouts/10.png
-* /usr/share/doc/libxslt-1.1.42/tutorial/images/callouts/2.png
-* /usr/share/doc/libxslt-1.1.42/tutorial/images/callouts/3.png
-* /usr/share/doc/libxslt-1.1.42/tutorial/images/callouts/4.png
-* /usr/share/doc/libxslt-1.1.42/tutorial/images/callouts/5.png
-* /usr/share/doc/libxslt-1.1.42/tutorial/images/callouts/6.png
-* /usr/share/doc/libxslt-1.1.42/tutorial/images/callouts/7.png
-* /usr/share/doc/libxslt-1.1.42/tutorial/images/callouts/8.png
-* /usr/share/doc/libxslt-1.1.42/tutorial/images/callouts/9.png
-* /usr/share/doc/libxslt-1.1.42/tutorial/libxslttutorial.html
-* /usr/share/doc/libxslt-1.1.42/tutorial/libxslt_tutorial.c
-* /usr/share/doc/libxslt-1.1.42/tutorial2/libxslt_pipes.c
-* /usr/share/doc/libxslt-1.1.42/tutorial2/libxslt_pipes.html
-* /usr/share/doc/libxslt-1.1.42/xsltproc.html
+* /usr/share/doc/libxslt-1.1.43/AUTHORS
+* /usr/share/doc/libxslt-1.1.43/Copyright
+* /usr/share/doc/libxslt-1.1.43/FEATURES
+* /usr/share/doc/libxslt-1.1.43/INSTALL
+* /usr/share/doc/libxslt-1.1.43/NEWS
+* /usr/share/doc/libxslt-1.1.43/python/examples/basic.py
+* /usr/share/doc/libxslt-1.1.43/python/examples/exslt.py
+* /usr/share/doc/libxslt-1.1.43/python/examples/extelem.py
+* /usr/share/doc/libxslt-1.1.43/python/examples/extfunc.py
+* /usr/share/doc/libxslt-1.1.43/python/examples/pyxsltproc.py
+* /usr/share/doc/libxslt-1.1.43/python/examples/setup_test.py
+* /usr/share/doc/libxslt-1.1.43/python/examples/test.xml
+* /usr/share/doc/libxslt-1.1.43/python/examples/test.xsl
+* /usr/share/doc/libxslt-1.1.43/README.md
+* /usr/share/doc/libxslt-1.1.43/TODO
+* /usr/share/doc/libxslt-1.1.43/tutorial/images/callouts/1.png
+* /usr/share/doc/libxslt-1.1.43/tutorial/images/callouts/10.png
+* /usr/share/doc/libxslt-1.1.43/tutorial/images/callouts/2.png
+* /usr/share/doc/libxslt-1.1.43/tutorial/images/callouts/3.png
+* /usr/share/doc/libxslt-1.1.43/tutorial/images/callouts/4.png
+* /usr/share/doc/libxslt-1.1.43/tutorial/images/callouts/5.png
+* /usr/share/doc/libxslt-1.1.43/tutorial/images/callouts/6.png
+* /usr/share/doc/libxslt-1.1.43/tutorial/images/callouts/7.png
+* /usr/share/doc/libxslt-1.1.43/tutorial/images/callouts/8.png
+* /usr/share/doc/libxslt-1.1.43/tutorial/images/callouts/9.png
+* /usr/share/doc/libxslt-1.1.43/tutorial/libxslttutorial.html
+* /usr/share/doc/libxslt-1.1.43/tutorial/libxslt_tutorial.c
+* /usr/share/doc/libxslt-1.1.43/tutorial2/libxslt_pipes.c
+* /usr/share/doc/libxslt-1.1.43/tutorial2/libxslt_pipes.html
+* /usr/share/doc/libxslt-1.1.43/xsltproc.html
 * /usr/share/gtk-doc/html/libexslt/general.html
 * /usr/share/gtk-doc/html/libexslt/home.png
 * /usr/share/gtk-doc/html/libexslt/index.html

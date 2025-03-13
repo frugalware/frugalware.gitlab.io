@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-async-timeout 4.0.3-3"
-version = "4.0.3-3"
+title = "python3-async-timeout 5.0.1-1"
+version = "5.0.1-1"
 description = "Asyncio-compatible timeout class"
-date = "2024-11-01T21:27:42"
+date = "2025-03-13T08:32:34"
 aliases = "/packages/221107"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/async-timeout"
 arch = "x86_64"
-size = "8048"
-usize = "24875"
-sha1sum = "af853c7f50707670ddeff260b8dba7311e8e47be"
+size = "8996"
+usize = "30473"
+sha1sum = "dabdce9fe3b37ae84f2435881f4dc791d26f8e80"
 depends = "['python3-typing_extensions']"
 reverse_depends = "['python3-redis']"
 +++
@@ -18,14 +18,13 @@ reverse_depends = "['python3-redis']"
 Asyncio-compatible timeout class
 
 ### Files: 
-* /usr/lib/python3.13/site-packages/async_timeout-4.0.3-py3.13.egg-info/dependency_links.txt
-* /usr/lib/python3.13/site-packages/async_timeout-4.0.3-py3.13.egg-info/PKG-INFO
-* /usr/lib/python3.13/site-packages/async_timeout-4.0.3-py3.13.egg-info/requires.txt
-* /usr/lib/python3.13/site-packages/async_timeout-4.0.3-py3.13.egg-info/SOURCES.txt
-* /usr/lib/python3.13/site-packages/async_timeout-4.0.3-py3.13.egg-info/top_level.txt
-* /usr/lib/python3.13/site-packages/async_timeout-4.0.3-py3.13.egg-info/zip-safe
+* /usr/lib/python3.13/site-packages/async_timeout-5.0.1-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/async_timeout-5.0.1-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/async_timeout-5.0.1-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/async_timeout-5.0.1-py3.13.egg-info/top_level.txt
+* /usr/lib/python3.13/site-packages/async_timeout-5.0.1-py3.13.egg-info/zip-safe
 * /usr/lib/python3.13/site-packages/async_timeout/py.typed
 * /usr/lib/python3.13/site-packages/async_timeout/__init__.py
 * /usr/lib/python3.13/site-packages/async_timeout/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/python3-async-timeout-4.0.3/LICENSE
-* /usr/share/doc/python3-async-timeout-4.0.3/README.rst
+* /usr/share/doc/python3-async-timeout-5.0.1/LICENSE
+* /usr/share/doc/python3-async-timeout-5.0.1/README.rst

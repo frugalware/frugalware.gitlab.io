@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-websocket_client 1.7.0-2"
-version = "1.7.0-2"
+title = "python3-websocket_client 1.8.0-1"
+version = "1.8.0-1"
 description = "WebSocket client for Python3. hybi13 is supported."
-date = "2024-11-03T10:56:19"
+date = "2025-03-13T08:29:28"
 aliases = "/packages/220283"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/websocket-client"
 arch = "x86_64"
-size = "104444"
-usize = "453083"
-sha1sum = "dc2cc2f6caddf3334d7c2be020d0bdf600258541"
+size = "105408"
+usize = "457576"
+sha1sum = "e8e13f3048277fe429efeee7b2a57761695bb93a"
 depends = "['python3>=3.13']"
 reverse_depends = "['discover-overlay', 'python3-kubernetes', 'python3-selenium', 'streamlink']"
 +++
@@ -67,12 +67,12 @@ WebSocket client for Python3. hybi13 is supported.
 * /usr/lib/python3.13/site-packages/websocket/__pycache__/_utils.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/websocket/__pycache__/_wsdump.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/websocket/__pycache__/__init__.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/websocket_client-1.7.0-py3.13.egg-info/dependency_links.txt
-* /usr/lib/python3.13/site-packages/websocket_client-1.7.0-py3.13.egg-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/websocket_client-1.7.0-py3.13.egg-info/PKG-INFO
-* /usr/lib/python3.13/site-packages/websocket_client-1.7.0-py3.13.egg-info/requires.txt
-* /usr/lib/python3.13/site-packages/websocket_client-1.7.0-py3.13.egg-info/SOURCES.txt
-* /usr/lib/python3.13/site-packages/websocket_client-1.7.0-py3.13.egg-info/top_level.txt
-* /usr/share/doc/python3-websocket_client-1.7.0/ChangeLog
-* /usr/share/doc/python3-websocket_client-1.7.0/LICENSE
-* /usr/share/doc/python3-websocket_client-1.7.0/README.md
+* /usr/lib/python3.13/site-packages/websocket_client-1.8.0-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/websocket_client-1.8.0-py3.13.egg-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/websocket_client-1.8.0-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/websocket_client-1.8.0-py3.13.egg-info/requires.txt
+* /usr/lib/python3.13/site-packages/websocket_client-1.8.0-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/websocket_client-1.8.0-py3.13.egg-info/top_level.txt
+* /usr/share/doc/python3-websocket_client-1.8.0/ChangeLog
+* /usr/share/doc/python3-websocket_client-1.8.0/LICENSE
+* /usr/share/doc/python3-websocket_client-1.8.0/README.md
