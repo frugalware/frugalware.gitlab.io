@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-mccabe 0.7.0-6"
-version = "0.7.0-6"
+title = "python3-mccabe 0.7.0-7"
+version = "0.7.0-7"
 description = "McCabe complexity checker for Python"
-date = "2024-11-02T18:16:00"
+date = "2025-03-13T07:49:05"
 aliases = "/packages/219606"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/mccabe"
 arch = "x86_64"
-size = "13544"
-usize = "39708"
-sha1sum = "cc4d6010c3b131babd90704c23768efcb5267532"
+size = "13676"
+usize = "39931"
+sha1sum = "4af2276652c944708f4bdb5994add0cedcf90604"
 depends = "['python3>=3.12']"
 reverse_depends = "['lutris', 'pylint']"
 +++

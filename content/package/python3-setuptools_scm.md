@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-setuptools_scm 8.0.4-4"
-version = "8.0.4-4"
+title = "python3-setuptools_scm 8.2.0-1"
+version = "8.2.0-1"
 description = "Handles managing your python package versions in scm metadata."
-date = "2024-11-01T20:33:41"
+date = "2025-03-13T07:55:08"
 aliases = "/packages/220412"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/setuptools-scm"
 arch = "x86_64"
-size = "75416"
-usize = "374190"
-sha1sum = "8e0f681c0d0433e6c98048ab708167394f191611"
+size = "78652"
+usize = "390596"
+sha1sum = "f6adc78fa68f77e276b5d6a310b2a9cb34393ae7"
 depends = "['python3-setuptools', 'python3-tomli', 'python3-typing_extensions']"
 reverse_depends = "['duplicity', 'psautohint', 'python3-flit_scm', 'python3-hatch-vcs', 'python3-setuptools-git-ls-files', 'python3-setuptools-rust']"
 +++
@@ -18,12 +18,12 @@ reverse_depends = "['duplicity', 'psautohint', 'python3-flit_scm', 'python3-hatc
 Handles managing your python package versions in scm metadata.
 
 ### Files: 
-* /usr/lib/python3.13/site-packages/setuptools_scm-8.0.4.dist-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/setuptools_scm-8.0.4.dist-info/LICENSE
-* /usr/lib/python3.13/site-packages/setuptools_scm-8.0.4.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/setuptools_scm-8.0.4.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/setuptools_scm-8.0.4.dist-info/top_level.txt
-* /usr/lib/python3.13/site-packages/setuptools_scm-8.0.4.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/setuptools_scm-8.2.0.dist-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/setuptools_scm-8.2.0.dist-info/LICENSE
+* /usr/lib/python3.13/site-packages/setuptools_scm-8.2.0.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/setuptools_scm-8.2.0.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/setuptools_scm-8.2.0.dist-info/top_level.txt
+* /usr/lib/python3.13/site-packages/setuptools_scm-8.2.0.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/setuptools_scm/.git_archival.txt
 * /usr/lib/python3.13/site-packages/setuptools_scm/discover.py
 * /usr/lib/python3.13/site-packages/setuptools_scm/fallbacks.py
@@ -38,11 +38,14 @@ Handles managing your python package versions in scm metadata.
 * /usr/lib/python3.13/site-packages/setuptools_scm/_entrypoints.py
 * /usr/lib/python3.13/site-packages/setuptools_scm/_file_finders/git.py
 * /usr/lib/python3.13/site-packages/setuptools_scm/_file_finders/hg.py
+* /usr/lib/python3.13/site-packages/setuptools_scm/_file_finders/pathtools.py
 * /usr/lib/python3.13/site-packages/setuptools_scm/_file_finders/__init__.py
 * /usr/lib/python3.13/site-packages/setuptools_scm/_file_finders/__pycache__/git.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/setuptools_scm/_file_finders/__pycache__/git.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/setuptools_scm/_file_finders/__pycache__/hg.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/setuptools_scm/_file_finders/__pycache__/hg.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/setuptools_scm/_file_finders/__pycache__/pathtools.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/setuptools_scm/_file_finders/__pycache__/pathtools.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/setuptools_scm/_file_finders/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/setuptools_scm/_file_finders/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/setuptools_scm/_get_version_impl.py
@@ -109,5 +112,5 @@ Handles managing your python package versions in scm metadata.
 * /usr/lib/python3.13/site-packages/setuptools_scm/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/setuptools_scm/__pycache__/__main__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/setuptools_scm/__pycache__/__main__.cpython-313.pyc
-* /usr/share/doc/python3-setuptools_scm-8.0.4/LICENSE
-* /usr/share/doc/python3-setuptools_scm-8.0.4/README.md
+* /usr/share/doc/python3-setuptools_scm-8.2.0/LICENSE
+* /usr/share/doc/python3-setuptools_scm-8.2.0/README.md

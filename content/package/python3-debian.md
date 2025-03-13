@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-debian 0.1.49-2"
-version = "0.1.49-2"
+title = "python3-debian 1.0.1-1"
+version = "1.0.1-1"
 description = "Python module to work with Debian-related data formats"
-date = "2024-11-02T17:24:10"
+date = "2025-03-13T07:58:26"
 aliases = "/packages/222541"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/python-debian"
 arch = "x86_64"
-size = "229812"
-usize = "1517093"
-sha1sum = "d34da888662654fe419822c1311f37f1977158ea"
+size = "240692"
+usize = "1586817"
+sha1sum = "15d29a4e0b3b663b1045cadc026b30746bb358b7"
 depends = "[]"
 reverse_depends = "['python3-reuse']"
 +++
@@ -18,7 +18,6 @@ reverse_depends = "['python3-reuse']"
 Python module to work with Debian-related data formats
 
 ### Files: 
-* /usr/lib/python3.13/site-packages/deb822.py
 * /usr/lib/python3.13/site-packages/debian/arfile.py
 * /usr/lib/python3.13/site-packages/debian/changelog.py
 * /usr/lib/python3.13/site-packages/debian/copyright.py
@@ -26,12 +25,13 @@ Python module to work with Debian-related data formats
 * /usr/lib/python3.13/site-packages/debian/debfile.py
 * /usr/lib/python3.13/site-packages/debian/debian_support.py
 * /usr/lib/python3.13/site-packages/debian/debtags.py
-* /usr/lib/python3.13/site-packages/debian/deprecation.py
+* /usr/lib/python3.13/site-packages/debian/doc-debtags
 * /usr/lib/python3.13/site-packages/debian/py.typed
 * /usr/lib/python3.13/site-packages/debian/substvars.py
 * /usr/lib/python3.13/site-packages/debian/watch.py
 * /usr/lib/python3.13/site-packages/debian/_arch_table.py
 * /usr/lib/python3.13/site-packages/debian/_deb822_repro/formatter.py
+* /usr/lib/python3.13/site-packages/debian/_deb822_repro/locatable.py
 * /usr/lib/python3.13/site-packages/debian/_deb822_repro/parsing.py
 * /usr/lib/python3.13/site-packages/debian/_deb822_repro/tokens.py
 * /usr/lib/python3.13/site-packages/debian/_deb822_repro/types.py
@@ -39,6 +39,8 @@ Python module to work with Debian-related data formats
 * /usr/lib/python3.13/site-packages/debian/_deb822_repro/__init__.py
 * /usr/lib/python3.13/site-packages/debian/_deb822_repro/__pycache__/formatter.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/debian/_deb822_repro/__pycache__/formatter.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/debian/_deb822_repro/__pycache__/locatable.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/debian/_deb822_repro/__pycache__/locatable.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/debian/_deb822_repro/__pycache__/parsing.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/debian/_deb822_repro/__pycache__/parsing.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/debian/_deb822_repro/__pycache__/tokens.cpython-313.opt-1.pyc
@@ -66,8 +68,6 @@ Python module to work with Debian-related data formats
 * /usr/lib/python3.13/site-packages/debian/__pycache__/debian_support.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/debian/__pycache__/debtags.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/debian/__pycache__/debtags.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/debian/__pycache__/deprecation.cpython-313.opt-1.pyc
-* /usr/lib/python3.13/site-packages/debian/__pycache__/deprecation.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/debian/__pycache__/substvars.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/debian/__pycache__/substvars.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/debian/__pycache__/watch.cpython-313.opt-1.pyc
@@ -80,13 +80,8 @@ Python module to work with Debian-related data formats
 * /usr/lib/python3.13/site-packages/debian/__pycache__/_version.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/debian/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/debian/__pycache__/__init__.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/debian_bundle/__init__.py
-* /usr/lib/python3.13/site-packages/debian_bundle/__pycache__/__init__.cpython-313.opt-1.pyc
-* /usr/lib/python3.13/site-packages/debian_bundle/__pycache__/__init__.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/python_debian-0.1.49.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/python_debian-0.1.49.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/python_debian-0.1.49.dist-info/top_level.txt
-* /usr/lib/python3.13/site-packages/python_debian-0.1.49.dist-info/WHEEL
-* /usr/lib/python3.13/site-packages/__pycache__/deb822.cpython-313.opt-1.pyc
-* /usr/lib/python3.13/site-packages/__pycache__/deb822.cpython-313.pyc
-* /usr/share/doc/python3-debian-0.1.49/README.rst
+* /usr/lib/python3.13/site-packages/python_debian-1.0.1.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/python_debian-1.0.1.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/python_debian-1.0.1.dist-info/top_level.txt
+* /usr/lib/python3.13/site-packages/python_debian-1.0.1.dist-info/WHEEL
+* /usr/share/doc/python3-debian-1.0.1/README.rst

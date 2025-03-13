@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "discover-overlay 0.7.3-3"
-version = "0.7.3-3"
+title = "discover-overlay 0.7.8-1"
+version = "0.7.8-1"
 description = "Yet another Discord overlay for Linux written in Python using GTK3"
-date = "2024-11-03T13:25:41"
+date = "2025-03-13T07:43:33"
 aliases = "/packages/220400"
 categories = ['xapps-extra']
 upstreamurl = "http://pypi.python.org/pypi/discover-overlay"
 arch = "x86_64"
-size = "157596"
-usize = "1348456"
-sha1sum = "829e0d9a2012c733358f1244fdeafb2aad584f28"
+size = "168988"
+usize = "1425346"
+sha1sum = "10905735634d00b126278c36e899867e39d3da4a"
 depends = "['gtk+3', 'pygobject3', 'python3-pidfile', 'python3-pillow', 'python3-pulsectl-asyncio', 'python3-pycairo', 'python3-requests', 'python3-websocket_client']"
 +++
 ### Description: 
@@ -46,12 +46,12 @@ Yet another Discord overlay for Linux written in Python using GTK3
 * /usr/lib/python3.13/site-packages/build/lib/discover_overlay/__pycache__/voice_overlay.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/build/lib/discover_overlay/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/build/lib/discover_overlay/__pycache__/__main__.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/discover_overlay-0.7.3-py3.13.egg-info/dependency_links.txt
-* /usr/lib/python3.13/site-packages/discover_overlay-0.7.3-py3.13.egg-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/discover_overlay-0.7.3-py3.13.egg-info/PKG-INFO
-* /usr/lib/python3.13/site-packages/discover_overlay-0.7.3-py3.13.egg-info/requires.txt
-* /usr/lib/python3.13/site-packages/discover_overlay-0.7.3-py3.13.egg-info/SOURCES.txt
-* /usr/lib/python3.13/site-packages/discover_overlay-0.7.3-py3.13.egg-info/top_level.txt
+* /usr/lib/python3.13/site-packages/discover_overlay-0.7.8-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/discover_overlay-0.7.8-py3.13.egg-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/discover_overlay-0.7.8-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/discover_overlay-0.7.8-py3.13.egg-info/requires.txt
+* /usr/lib/python3.13/site-packages/discover_overlay-0.7.8-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/discover_overlay-0.7.8-py3.13.egg-info/top_level.txt
 * /usr/lib/python3.13/site-packages/discover_overlay/audio_assist.py
 * /usr/lib/python3.13/site-packages/discover_overlay/autostart.py
 * /usr/lib/python3.13/site-packages/discover_overlay/discord_connector.py
@@ -88,8 +88,11 @@ Yet another Discord overlay for Linux written in Python using GTK3
 * /usr/lib/python3.13/site-packages/discover_overlay/__pycache__/__main__.cpython-313.pyc
 * /usr/share/applications/discover_overlay.desktop
 * /usr/share/applications/discover_overlay_configure.desktop
-* /usr/share/doc/discover-overlay-0.7.3/LICENSE
-* /usr/share/doc/discover-overlay-0.7.3/README.md
+* /usr/share/doc/discover-overlay-0.7.8/LICENSE
+* /usr/share/doc/discover-overlay-0.7.8/README.md
+* /usr/share/doc/discover-overlay-0.7.8/README.mdx
+* /usr/share/doc/discover-overlay-0.7.8/README_wasm_of_ocaml.md
+* /usr/share/doc/discover-overlay-0.7.8/VERSION
 * /usr/share/icons/hicolor/256x256/apps/discover-overlay-default.png
 * /usr/share/icons/hicolor/256x256/apps/discover-overlay-tray.png
 * /usr/share/icons/hicolor/256x256/apps/discover-overlay.png
