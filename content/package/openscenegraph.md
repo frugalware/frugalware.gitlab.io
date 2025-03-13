@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "openscenegraph 3.4.1-6"
-version = "3.4.1-6"
+title = "openscenegraph 3.4.1-7"
+version = "3.4.1-7"
 description = "A high performance 3D graphics toolkit."
-date = "2022-02-13T20:57:33"
+date = "2025-03-13T15:48:49"
 aliases = "/packages/49938"
 categories = ['xlib-extra']
 upstreamurl = "http://www.openscenegraph.org/projects/osg"
 arch = "x86_64"
-size = "6314644"
-usize = "30861332"
-sha1sum = "80a7fb8ce722ccaaa60f098b41f98dbf9232b363"
-depends = "['cairo', 'curl', 'jasper>=2.0.10', 'libglvnd', 'libjpeg-turbo', 'libpng>=1.6.25', 'librsvg', 'libtiff', 'libxrandr', 'poppler-glib>=0.60.1-2']"
+size = "6518916"
+usize = "30611826"
+sha1sum = "37eb2bda6b1ac5272b0b3dab11d36f74b51807a8"
+depends = "['cairo', 'curl', 'jasper>=4.2.4', 'libglvnd', 'libjpeg-turbo', 'libpng>=1.6.25', 'librsvg', 'libtiff>=4.7.0', 'libxrandr', 'poppler-glib>=0.60.1-2']"
 reverse_depends = "['flightgear', 'pdal', 'scribus']"
 +++
 ### Description: 

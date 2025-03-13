@@ -12,7 +12,7 @@ size = "152824"
 usize = "535400"
 sha1sum = "972df36b69a813cf411dadad970d68948cf7c220"
 depends = "['libjpeg-turbo', 'libtiff>=4.0.6-2']"
-reverse_depends = "['bootsplash', 'firefox', 'graphicsmagick', 'xsane']"
+reverse_depends = "['bootsplash', 'firefox', 'xsane']"
 +++
 ### Description: 
 Lightweight color management development library/engine

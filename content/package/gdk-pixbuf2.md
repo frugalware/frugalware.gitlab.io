@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gdk-pixbuf2 2.42.12-1"
-version = "2.42.12-1"
+title = "gdk-pixbuf2 2.42.12-2"
+version = "2.42.12-2"
 description = "An image loading library"
-date = "2024-05-28T09:58:36"
+date = "2025-03-13T16:08:29"
 aliases = "/packages/103186"
 categories = ['xlib']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "153868"
-usize = "789393"
-sha1sum = "10be92530d19adc7bfe16e03d1e1d41d3023139c"
-depends = "['glib2>=2.60.0', 'jasper>=2.0.10', 'libjpeg-turbo', 'libpng>=1.6.20', 'libtiff>=4.0.6-2', 'libx11>=1.6.3-4', 'shared-mime-info>=1.9-3']"
+size = "153700"
+usize = "766868"
+sha1sum = "dc57f59eaa19a1eacf7f17a219eeb93dca20dd55"
+depends = "['glib2>=2.60.0', 'jasper>=2.0.10', 'libjpeg-turbo', 'libpng>=1.6.20', 'libtiff>=4.7.0', 'libx11>=1.6.3-4', 'shared-mime-info>=1.9-3']"
 reverse_depends = "['castor', 'flatpak', 'gail', 'gdk-pixbuf-xlib', 'get_steam', 'granite', 'gst1-plugins-good-gdkpixbuf', 'gtans', 'gtk+2', 'gtk+2-libs', 'gtk+3', 'gtk+3-demos', 'gtk+4', 'gtk+4-demos', 'gtk+4-update-icon-cache', 'gtk-update-icon-cache', 'libavif', 'libgsf', 'libheif-gdk-pixbuf', 'libnotify', 'libopenraw-gnome', 'librsvg', 'openslide', 'openssh-askpass', 'spice', 'thunderbird', 'whalebird', 'xscreensaver-data']"
 +++
 ### Description: 

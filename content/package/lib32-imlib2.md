@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "lib32-imlib2 1.12.3-1"
-version = "1.12.3-1"
+title = "lib32-imlib2 1.12.3-2"
+version = "1.12.3-2"
 description = "Imlib 2 is the successor to Imlib. ( 32bit )"
-date = "2024-07-13T15:48:44"
+date = "2025-03-13T16:07:11"
 aliases = "/packages/219216"
 categories = ['lib32-extra']
 upstreamurl = "http://enlightenment.org"
 arch = "x86_64"
-size = "233340"
-usize = "780945"
-sha1sum = "3f2d5c0473099d619be8a14c38a0dafe0ea12d80"
-depends = "['lib32-freetype2>=2.9', 'lib32-libgif>=5.1.1-2', 'lib32-libid3tag>=0.15.1b-6', 'lib32-libjpeg-turbo', 'lib32-libpng>=1.6.25', 'lib32-libtiff>=4.0.6', 'lib32-libxext>=1.3.3-3']"
+size = "231696"
+usize = "788781"
+sha1sum = "f37f6af27b0710436d681dbb57bb070cb096fad9"
+depends = "['lib32-freetype2>=2.9', 'lib32-libgif>=5.1.1-2', 'lib32-libid3tag>=0.15.1b-6', 'lib32-libjpeg-turbo', 'lib32-libpng>=1.6.25', 'lib32-libtiff>=4.7.0', 'lib32-libxext>=1.3.3-3']"
 reverse_depends = "['lib32-libcaca']"
 +++
 ### Description: 

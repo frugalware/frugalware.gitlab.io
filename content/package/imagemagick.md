@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "imagemagick 7.1.1-28"
-version = "7.1.1-28"
+title = "imagemagick 7.1.1-29"
+version = "7.1.1-29"
 description = "A robust collection of tools and libraries to read, write and manipulate image files."
-date = "2025-03-10T08:52:54"
+date = "2025-03-13T15:55:04"
 aliases = "/packages/3097"
 categories = ['xapps']
 upstreamurl = "http://www.imagemagick.org"
 arch = "x86_64"
-size = "8571668"
-usize = "22333558"
-sha1sum = "893cc4380382b35d36e2d8ae7ef46501f49b7708"
-depends = "['djvulibre>=3.5.27-4', 'fftw>=3.3.4-4', 'lcms2>=2.8-2', 'libgomp>=9.1.0-3', 'libheif', 'libjpeg-turbo', 'libraw>=0.21.1', 'librsvg>=2.40.16-3', 'libstdc++>=11.2', 'libtiff>=4.0.6-2', 'libtool>=2.4.6-4', 'libwebp>=0.5.0', 'openexr>=3.3.0', 'openjpeg', 'perl']"
+size = "8574652"
+usize = "22334286"
+sha1sum = "cd61cd71c1b23789be68320a13c44c32909d7fe1"
+depends = "['djvulibre>=3.5.27-4', 'fftw>=3.3.4-4', 'lcms2>=2.8-2', 'libgomp>=9.1.0-3', 'libheif', 'libjpeg-turbo', 'libraw>=0.21.1', 'librsvg>=2.40.16-3', 'libstdc++>=11.2', 'libtiff>=4.7.0', 'libtool>=2.4.6-4', 'libwebp>=0.5.0', 'openexr>=3.3.0', 'openjpeg', 'perl']"
 reverse_depends = "['darktable', 'emacs', 'inkscape', 'kitty', 'libvips', 'polychromatic', 'xine-lib']"
 +++
 ### Description: 

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "imlib2 1.12.3-1"
-version = "1.12.3-1"
+title = "imlib2 1.12.3-2"
+version = "1.12.3-2"
 description = "Imlib 2 is the successor to Imlib."
-date = "2024-07-13T15:48:44"
+date = "2025-03-13T16:07:11"
 aliases = "/packages/3099"
 categories = ['xlib']
 upstreamurl = "http://enlightenment.org"
 arch = "x86_64"
-size = "574168"
-usize = "1300049"
-sha1sum = "f0ac24c019269ab0cbec21665b8fe0fdca3ebdb5"
-depends = "['freetype2>=2.9', 'libgif>=5.1.1-2', 'libid3tag>=0.15.1b-6', 'libjpeg-turbo', 'libpng>=1.6.25', 'libtiff>=4.0.6', 'libxext>=1.3.3-3']"
+size = "572092"
+usize = "1308617"
+sha1sum = "501ff6ddc1f4a7b5d3b94e8d3099bd6a3013ea4f"
+depends = "['freetype2>=2.9', 'libgif>=5.1.1-2', 'libid3tag>=0.15.1b-6', 'libjpeg-turbo', 'libpng>=1.6.25', 'libtiff>=4.7.0', 'libxext>=1.3.3-3']"
 reverse_depends = "['conky', 'feh', 'ffmpeg', 'ffmpeg4.4', 'fluxbox', 'kompose', 'libcaca']"
 +++
 ### Description: 

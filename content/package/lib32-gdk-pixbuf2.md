@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-gdk-pixbuf2 2.42.12-1"
-version = "2.42.12-1"
+title = "lib32-gdk-pixbuf2 2.42.12-2"
+version = "2.42.12-2"
 description = "An image loading library ( 32bit )"
-date = "2024-05-28T09:58:36"
+date = "2025-03-13T16:08:29"
 aliases = "/packages/218977"
 categories = ['lib32-extra']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "109408"
-usize = "391122"
-sha1sum = "04c9e358eeb4fd343cb42527d22d086b37a662db"
+size = "110604"
+usize = "375942"
+sha1sum = "f06791447589926fc5914ba9582009780ecebefc"
 depends = "['lib32-glib2', 'lib32-libjpeg-turbo', 'lib32-libpng', 'lib32-libtiff', 'lib32-libx11', 'lib32-shared-mime-info']"
 reverse_depends = "['lib32-gtk+2-libs']"
 +++

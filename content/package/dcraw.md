@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "dcraw 9.28-1"
-version = "9.28-1"
+title = "dcraw 9.28-2"
+version = "9.28-2"
 description = "A command line based converter for raw digital photos."
-date = "2018-06-13T23:18:07"
+date = "2025-03-13T15:27:14"
 aliases = "/packages/9744"
 categories = ['apps-extra']
-upstreamurl = "http://www.cybercom.net/~dcoffin/dcraw/"
+upstreamurl = "http://www.dechifro.org/dcraw"
 arch = "x86_64"
-size = "289268"
-usize = "593082"
-sha1sum = "7ff47dbb07c93fd63842da9d7980a5677af8d6f8"
-depends = "['jasper>=2.0.10', 'lcms2', 'libjpeg-turbo']"
+size = "293260"
+usize = "587013"
+sha1sum = "9292aa4ad629af365764cc205b15002e62affb9e"
+depends = "['jasper>=4.2.4', 'lcms2', 'libjpeg-turbo']"
 reverse_depends = "['darktable']"
 +++
 ### Description: 

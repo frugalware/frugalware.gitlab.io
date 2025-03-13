@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "devil 1.8.0-4"
-version = "1.8.0-4"
+title = "devil 1.8.0-5"
+version = "1.8.0-5"
 description = "Library for reading several different image formats"
-date = "2021-12-24T21:29:37"
+date = "2025-03-13T15:38:41"
 aliases = "/packages/39705"
 categories = ['xlib-extra']
 upstreamurl = "https://sourceforge.net/projects/openil"
 arch = "x86_64"
-size = "228444"
-usize = "703949"
-sha1sum = "4a53cdfc443362cda47f3e9d19214d8f884f5528"
-depends = "['jasper>=2.0.10', 'libmng>=2.0.3', 'libpng>=1.6.25', 'openexr', 'sdl']"
+size = "219468"
+usize = "618520"
+sha1sum = "759a2d150cd19c4761cf372fc7672f5599d284bf"
+depends = "['jasper>=4.2.4', 'libmng>=2.0.3', 'libpng>=1.6.25', 'openexr', 'sdl']"
 reverse_depends = "['graphviz', 'spring']"
 +++
 ### Description: 
