@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "librist 0.2.11-1"
-version = "0.2.11-1"
+title = "librist 0.2.11-2"
+version = "0.2.11-2"
 description = "A library that can be used to add the RIST protocol to applications"
-date = "2024-11-17T11:25:03"
+date = "2025-03-13T09:38:25"
 aliases = "/packages/220572"
 categories = ['lib']
 upstreamurl = "https://code.videolan.org/rist/librist"
 arch = "x86_64"
-size = "107680"
-usize = "347601"
-sha1sum = "6a2f7c7b3350aab9fe3e68d7594c51b64de2e51c"
-depends = "['mbedtls']"
+size = "107804"
+usize = "347705"
+sha1sum = "7c4a703e1cff6d3c50638a65c46a85f16e931c87"
+depends = "['mbedtls>=3.6.2']"
 reverse_depends = "['ffmpeg']"
 +++
 ### Description: 

@@ -12,6 +12,7 @@ size = "292012272"
 usize = "1516971784"
 sha1sum = "fd276e4c9d137c98bde73fe176e89548ac282af7"
 depends = "['alsa-lib', 'dbus', 'libglvnd', 'libxcomposite', 'libxcursor', 'libxrandr', 'libxscrnsaver', 'libxtst', 'nss', 'pango']"
+reverse_depends = "['obs-studio']"
 +++
 ### Description: 
 Chromium Embedded Framework standard release

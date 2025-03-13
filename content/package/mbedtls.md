@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mbedtls 2.28.9-1"
-version = "2.28.9-1"
+title = "mbedtls 3.6.2-1"
+version = "3.6.2-1"
 description = "Portable cryptographic and SSL/TLS library, aka polarssl"
-date = "2024-09-09T11:59:00"
+date = "2025-03-13T09:36:29"
 aliases = "/packages/218827"
 categories = ['lib']
 upstreamurl = "https://tls.mbed.org"
 arch = "x86_64"
-size = "782620"
-usize = "4112261"
-sha1sum = "789b2ac7119a6fc17a503ec12dfd58994e16142a"
+size = "916400"
+usize = "4566653"
+sha1sum = "b690dc908c4ad0f3a6e1328319465211bf6d422e"
 depends = "['glibc>=2.34']"
 reverse_depends = "['bctoolbox', 'julia', 'librist', 'neko', 'nng', 'obs-studio', 'openrgb', 'ortp']"
 +++
@@ -18,10 +18,12 @@ reverse_depends = "['bctoolbox', 'julia', 'librist', 'neko', 'nng', 'obs-studio'
 Portable cryptographic and SSL/TLS library, aka polarssl
 
 ### Files: 
+* /usr/bin/mbedtls_aead_demo
 * /usr/bin/mbedtls_benchmark
 * /usr/bin/mbedtls_cert_app
 * /usr/bin/mbedtls_cert_req
 * /usr/bin/mbedtls_cert_write
+* /usr/bin/mbedtls_cipher_aead_demo
 * /usr/bin/mbedtls_crl_app
 * /usr/bin/mbedtls_crypto_examples
 * /usr/bin/mbedtls_crypt_and_hash
@@ -37,6 +39,7 @@ Portable cryptographic and SSL/TLS library, aka polarssl
 * /usr/bin/mbedtls_fuzz_client
 * /usr/bin/mbedtls_fuzz_dtlsclient
 * /usr/bin/mbedtls_fuzz_dtlsserver
+* /usr/bin/mbedtls_fuzz_pkcs7
 * /usr/bin/mbedtls_fuzz_privkey
 * /usr/bin/mbedtls_fuzz_pubkey
 * /usr/bin/mbedtls_fuzz_server
@@ -48,13 +51,14 @@ Portable cryptographic and SSL/TLS library, aka polarssl
 * /usr/bin/mbedtls_gen_entropy
 * /usr/bin/mbedtls_gen_key
 * /usr/bin/mbedtls_gen_random_ctr_drbg
-* /usr/bin/mbedtls_gen_random_havege
 * /usr/bin/mbedtls_hello
+* /usr/bin/mbedtls_hmac_demo
 * /usr/bin/mbedtls_key_app
 * /usr/bin/mbedtls_key_app_writer
 * /usr/bin/mbedtls_key_ladder_demo
 * /usr/bin/mbedtls_key_ladder_demo.sh
 * /usr/bin/mbedtls_load_roots
+* /usr/bin/mbedtls_md_hmac_demo
 * /usr/bin/mbedtls_metatest
 * /usr/bin/mbedtls_mini_client
 * /usr/bin/mbedtls_mpi_demo
@@ -64,7 +68,10 @@ Portable cryptographic and SSL/TLS library, aka polarssl
 * /usr/bin/mbedtls_pk_sign
 * /usr/bin/mbedtls_pk_verify
 * /usr/bin/mbedtls_psa_constant_names
+* /usr/bin/mbedtls_psa_hash
+* /usr/bin/mbedtls_psa_hash_demo.sh
 * /usr/bin/mbedtls_query_compile_time_config
+* /usr/bin/mbedtls_query_included_headers
 * /usr/bin/mbedtls_req_app
 * /usr/bin/mbedtls_rsa_decrypt
 * /usr/bin/mbedtls_rsa_encrypt
@@ -86,26 +93,27 @@ Portable cryptographic and SSL/TLS library, aka polarssl
 * /usr/bin/mbedtls_udp_proxy_wrapper.sh
 * /usr/bin/mbedtls_zeroize
 * /usr/include/mbedtls/aes.h
-* /usr/include/mbedtls/aesni.h
-* /usr/include/mbedtls/arc4.h
 * /usr/include/mbedtls/aria.h
 * /usr/include/mbedtls/asn1.h
 * /usr/include/mbedtls/asn1write.h
 * /usr/include/mbedtls/base64.h
 * /usr/include/mbedtls/bignum.h
-* /usr/include/mbedtls/blowfish.h
-* /usr/include/mbedtls/bn_mul.h
+* /usr/include/mbedtls/block_cipher.h
+* /usr/include/mbedtls/build_info.h
 * /usr/include/mbedtls/camellia.h
 * /usr/include/mbedtls/ccm.h
-* /usr/include/mbedtls/certs.h
 * /usr/include/mbedtls/chacha20.h
 * /usr/include/mbedtls/chachapoly.h
 * /usr/include/mbedtls/check_config.h
 * /usr/include/mbedtls/cipher.h
-* /usr/include/mbedtls/cipher_internal.h
 * /usr/include/mbedtls/cmac.h
-* /usr/include/mbedtls/compat-1.3.h
-* /usr/include/mbedtls/config.h
+* /usr/include/mbedtls/compat-2.x.h
+* /usr/include/mbedtls/config_adjust_legacy_crypto.h
+* /usr/include/mbedtls/config_adjust_legacy_from_psa.h
+* /usr/include/mbedtls/config_adjust_psa_from_legacy.h
+* /usr/include/mbedtls/config_adjust_psa_superset_legacy.h
+* /usr/include/mbedtls/config_adjust_ssl.h
+* /usr/include/mbedtls/config_adjust_x509.h
 * /usr/include/mbedtls/config_psa.h
 * /usr/include/mbedtls/constant_time.h
 * /usr/include/mbedtls/ctr_drbg.h
@@ -116,47 +124,40 @@ Portable cryptographic and SSL/TLS library, aka polarssl
 * /usr/include/mbedtls/ecdsa.h
 * /usr/include/mbedtls/ecjpake.h
 * /usr/include/mbedtls/ecp.h
-* /usr/include/mbedtls/ecp_internal.h
 * /usr/include/mbedtls/entropy.h
-* /usr/include/mbedtls/entropy_poll.h
 * /usr/include/mbedtls/error.h
 * /usr/include/mbedtls/gcm.h
-* /usr/include/mbedtls/havege.h
 * /usr/include/mbedtls/hkdf.h
 * /usr/include/mbedtls/hmac_drbg.h
+* /usr/include/mbedtls/lms.h
+* /usr/include/mbedtls/mbedtls_config.h
 * /usr/include/mbedtls/md.h
-* /usr/include/mbedtls/md2.h
-* /usr/include/mbedtls/md4.h
 * /usr/include/mbedtls/md5.h
-* /usr/include/mbedtls/md_internal.h
 * /usr/include/mbedtls/memory_buffer_alloc.h
-* /usr/include/mbedtls/net.h
 * /usr/include/mbedtls/net_sockets.h
 * /usr/include/mbedtls/nist_kw.h
 * /usr/include/mbedtls/oid.h
-* /usr/include/mbedtls/padlock.h
 * /usr/include/mbedtls/pem.h
 * /usr/include/mbedtls/pk.h
-* /usr/include/mbedtls/pkcs11.h
 * /usr/include/mbedtls/pkcs12.h
 * /usr/include/mbedtls/pkcs5.h
-* /usr/include/mbedtls/pk_internal.h
+* /usr/include/mbedtls/pkcs7.h
 * /usr/include/mbedtls/platform.h
 * /usr/include/mbedtls/platform_time.h
 * /usr/include/mbedtls/platform_util.h
 * /usr/include/mbedtls/poly1305.h
+* /usr/include/mbedtls/private_access.h
 * /usr/include/mbedtls/psa_util.h
 * /usr/include/mbedtls/ripemd160.h
 * /usr/include/mbedtls/rsa.h
-* /usr/include/mbedtls/rsa_internal.h
 * /usr/include/mbedtls/sha1.h
 * /usr/include/mbedtls/sha256.h
+* /usr/include/mbedtls/sha3.h
 * /usr/include/mbedtls/sha512.h
 * /usr/include/mbedtls/ssl.h
 * /usr/include/mbedtls/ssl_cache.h
 * /usr/include/mbedtls/ssl_ciphersuites.h
 * /usr/include/mbedtls/ssl_cookie.h
-* /usr/include/mbedtls/ssl_internal.h
 * /usr/include/mbedtls/ssl_ticket.h
 * /usr/include/mbedtls/threading.h
 * /usr/include/mbedtls/timing.h
@@ -165,16 +166,23 @@ Portable cryptographic and SSL/TLS library, aka polarssl
 * /usr/include/mbedtls/x509_crl.h
 * /usr/include/mbedtls/x509_crt.h
 * /usr/include/mbedtls/x509_csr.h
-* /usr/include/mbedtls/xtea.h
+* /usr/include/psa/build_info.h
 * /usr/include/psa/crypto.h
+* /usr/include/psa/crypto_adjust_auto_enabled.h
+* /usr/include/psa/crypto_adjust_config_dependencies.h
+* /usr/include/psa/crypto_adjust_config_key_pair_types.h
+* /usr/include/psa/crypto_adjust_config_synonyms.h
 * /usr/include/psa/crypto_builtin_composites.h
+* /usr/include/psa/crypto_builtin_key_derivation.h
 * /usr/include/psa/crypto_builtin_primitives.h
 * /usr/include/psa/crypto_compat.h
 * /usr/include/psa/crypto_config.h
 * /usr/include/psa/crypto_driver_common.h
 * /usr/include/psa/crypto_driver_contexts_composites.h
+* /usr/include/psa/crypto_driver_contexts_key_derivation.h
 * /usr/include/psa/crypto_driver_contexts_primitives.h
 * /usr/include/psa/crypto_extra.h
+* /usr/include/psa/crypto_legacy.h
 * /usr/include/psa/crypto_platform.h
 * /usr/include/psa/crypto_se_driver.h
 * /usr/include/psa/crypto_sizes.h
@@ -182,12 +190,12 @@ Portable cryptographic and SSL/TLS library, aka polarssl
 * /usr/include/psa/crypto_types.h
 * /usr/include/psa/crypto_values.h
 * /usr/lib/libmbedcrypto.so
-* /usr/lib/libmbedcrypto.so.7
+* /usr/lib/libmbedcrypto.so.16
 * /usr/lib/libmbedtls.so
-* /usr/lib/libmbedtls.so.14
+* /usr/lib/libmbedtls.so.21
 * /usr/lib/libmbedx509.so
-* /usr/lib/libmbedx509.so.1
-* /usr/share/doc/mbedtls-2.28.9/BUGS.md
-* /usr/share/doc/mbedtls-2.28.9/ChangeLog
-* /usr/share/doc/mbedtls-2.28.9/LICENSE
-* /usr/share/doc/mbedtls-2.28.9/README.md
+* /usr/lib/libmbedx509.so.7
+* /usr/share/doc/mbedtls-3.6.2/BUGS.md
+* /usr/share/doc/mbedtls-3.6.2/ChangeLog
+* /usr/share/doc/mbedtls-3.6.2/LICENSE
+* /usr/share/doc/mbedtls-3.6.2/README.md

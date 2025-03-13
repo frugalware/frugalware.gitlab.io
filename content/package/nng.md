@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "nng 1.10.1-1"
-version = "1.10.1-1"
+title = "nng 1.10.1-2"
+version = "1.10.1-2"
 description = "A lightweight, broker-less library"
-date = "2025-02-25T09:27:09"
+date = "2025-03-13T09:47:51"
 aliases = "/packages/222656"
 categories = ['lib-extra']
 upstreamurl = "https://nng.nanomsg.org"
 arch = "x86_64"
-size = "232156"
-usize = "804523"
-sha1sum = "2b15655a7be89fb6ae3bd6627dcecc2f1ee27c91"
-depends = "['mbedtls']"
+size = "219592"
+usize = "761802"
+sha1sum = "a31619e32accddc6025ba99c353297d0b2e68e6c"
+depends = "['mbedtls>=3.6.2']"
 reverse_depends = "['kicad']"
 +++
 ### Description: 
@@ -61,8 +61,4 @@ A lightweight, broker-less library
 * /usr/lib/libnng.so
 * /usr/lib/libnng.so.1
 * /usr/lib/libnng.so.1.10.0
-* /usr/share/doc/nng-1.10.1/INSTALL.txt
-* /usr/share/doc/nng-1.10.1/LICENSE
-* /usr/share/doc/nng-1.10.1/LICENSE.README
 * /usr/share/doc/nng-1.10.1/README.adoc
-* /usr/share/doc/nng-1.10.1/README.md

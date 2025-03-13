@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "neko 2.4.0-1"
-version = "2.4.0-1"
+title = "neko 2.4.0-2"
+version = "2.4.0-2"
 description = "High-level and dynamically typed programming language"
-date = "2025-02-15T19:36:20"
+date = "2025-03-13T09:46:28"
 aliases = "/packages/220529"
 categories = ['devel-extra']
 upstreamurl = "https://nekovm.org/"
 arch = "x86_64"
-size = "373160"
-usize = "1378339"
-sha1sum = "4305f490b22f602af4bf053bf835cf2d9b1b5ac1"
-depends = "['gtk+3', 'libgc', 'mariadb-libs', 'mbedtls', 'sqlite3']"
+size = "373504"
+usize = "1378667"
+sha1sum = "483df06d49593a59a0381786d02e1cbae79dbe21"
+depends = "['gtk+3', 'libgc', 'mariadb-libs', 'mbedtls>=3.6.2', 'sqlite3']"
 +++
 ### Description: 
 High-level and dynamically typed programming language

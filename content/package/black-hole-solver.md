@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "black-hole-solver 1.10.1-2"
-version = "1.10.1-2"
+title = "black-hole-solver 1.14.0-1"
+version = "1.14.0-1"
 description = "Solvers and statistics for 'Golf' solitaire, 'Black Hole' solitaire, 'All in a Row' solitaire and related card patience games."
-date = "2022-02-11T14:38:28"
+date = "2025-03-13T09:30:13"
 aliases = "/packages/220290"
 categories = ['lib-extra']
 upstreamurl = "https://www.shlomifish.org/open-source/projects/black-hole-solitaire-solver/"
 arch = "x86_64"
-size = "16820"
-usize = "45279"
-sha1sum = "a496ca3de57134b00679b760edc667d465f1822e"
+size = "16412"
+usize = "40591"
+sha1sum = "13acf8a70d6d35269950802a4bebdcc627f4f31c"
 depends = "['glibc']"
 reverse_depends = "['kpat']"
 +++
@@ -24,9 +24,9 @@ Solvers and statistics for 'Golf' solitaire, 'Black Hole' solitaire, 'All in a R
 * /usr/include/black-hole-solver/fcs_dllexport.h
 * /usr/lib/libblack_hole_solver.so
 * /usr/lib/libblack_hole_solver.so.1
-* /usr/lib/libblack_hole_solver.so.1.0.1
+* /usr/lib/libblack_hole_solver.so.1.0.2
 * /usr/lib/pkgconfig/libblack-hole-solver.pc
-* /usr/share/doc/black-hole-solver-1.10.1/COPYING
-* /usr/share/doc/black-hole-solver-1.10.1/INSTALL
-* /usr/share/doc/black-hole-solver-1.10.1/README.md
+* /usr/share/doc/black-hole-solver-1.14.0/COPYING
+* /usr/share/doc/black-hole-solver-1.14.0/INSTALL
+* /usr/share/doc/black-hole-solver-1.14.0/README.md
 * /usr/share/man/man6/black-hole-solve.6.gz
