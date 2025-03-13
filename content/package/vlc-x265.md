@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vlc-x265 3.0.21-21"
-version = "3.0.21-21"
+title = "vlc-x265 3.0.21-23"
+version = "3.0.21-23"
 description = "vlc x265 support"
-date = "2025-02-14T12:07:27"
+date = "2025-03-13T11:55:59"
 aliases = "/packages/219589"
 categories = ['vlc-codecs']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "16984"
-usize = "8752"
-sha1sum = "396e6ff6f384b5c75815cbc69a216ecf20352fd7"
+size = "17040"
+usize = "8760"
+sha1sum = "72e89a672f56fabfe17d45d0d2b0a50d04ccac90"
 depends = "['libvlc>=3.0.21', 'x265>=4.1']"
 +++
 ### Description: 
