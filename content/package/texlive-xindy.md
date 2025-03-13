@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "texlive-xindy 2024.2-4"
-version = "2024.2-4"
+title = "texlive-xindy 2025.0-1"
+version = "2025.0-1"
 description = "Xindy package for TeX Live"
-date = "2024-12-28T19:28:54"
+date = "2025-03-13T12:36:47"
 aliases = "/packages/102976"
 categories = ['xapps-extra']
 upstreamurl = "http://tug.org/texlive/"
 arch = "x86_64"
-size = "1914644"
-usize = "6907510"
-sha1sum = "148bf50b8f3e80a4924ddf19c9c6f2332784678a"
-depends = "['ffcall', 'libsigsegv', 'readline>=8.0', 'texlive=2024.2']"
+size = "1912644"
+usize = "6908012"
+sha1sum = "52ada5cfaf407ff119297b8d55647793e89d729f"
+depends = "['ffcall', 'libsigsegv', 'readline>=8.0', 'texlive=2025.0']"
 +++
 ### Description: 
 Xindy package for TeX Live

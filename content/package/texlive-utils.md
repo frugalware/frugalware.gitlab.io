@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "texlive-utils 2024.2-4"
-version = "2024.2-4"
+title = "texlive-utils 2025.0-1"
+version = "2025.0-1"
 description = "Utilities for TeX Live"
-date = "2024-12-28T19:28:54"
+date = "2025-03-13T12:36:47"
 aliases = "/packages/102992"
 categories = ['xapps-extra']
 upstreamurl = "http://tug.org/texlive/"
 arch = "x86_64"
-size = "1175564"
-usize = "5132295"
-sha1sum = "48661ef71ca8e840dd29f7c39f166ed2afbdde2e"
-depends = "['texlive=2024.2', 'texlive-kpathsea', 'texlive-ptexen', 'texlive-synctex']"
+size = "1182964"
+usize = "5434488"
+sha1sum = "6395d7525d36873ed8db9331c60f579ce94e26be"
+depends = "['texlive=2025.0', 'texlive-kpathsea', 'texlive-ptexen', 'texlive-synctex']"
 +++
 ### Description: 
 Utilities for TeX Live
@@ -177,6 +177,27 @@ Utilities for TeX Live
 * /usr/share/texmf-dist/tex/fontinst/base/fontinst.sty
 * /usr/share/texmf-dist/tex/fontinst/base/multislot.sty
 * /usr/share/texmf-dist/tex/fontinst/base/xfntinst.sty
+* /usr/share/texmf-dist/tex/fontinst/fontscripts/fontscripts-dotoldstyle.etx
+* /usr/share/texmf-dist/tex/fontinst/fontscripts/fontscripts-dotsc2.etx
+* /usr/share/texmf-dist/tex/fontinst/fontscripts/fontscripts-dotscbuild.mtx
+* /usr/share/texmf-dist/tex/fontinst/fontscripts/fontscripts-dotscmisc.mtx
+* /usr/share/texmf-dist/tex/fontinst/fontscripts/fontscripts-dottaboldstyle.etx
+* /usr/share/texmf-dist/tex/fontinst/fontscripts/fontscripts-lining.etx
+* /usr/share/texmf-dist/tex/fontinst/fontscripts/fontscripts-newlatin-dotsc.mtx
+* /usr/share/texmf-dist/tex/fontinst/fontscripts/fontscripts-oldstyle.etx
+* /usr/share/texmf-dist/tex/fontinst/fontscripts/fontscripts-t1-cfr.etx
+* /usr/share/texmf-dist/tex/fontinst/fontscripts/fontscripts-t1-dotalt-f_f.etx
+* /usr/share/texmf-dist/tex/fontinst/fontscripts/fontscripts-t1-dotinf.etx
+* /usr/share/texmf-dist/tex/fontinst/fontscripts/fontscripts-t1-dotinferior.etx
+* /usr/share/texmf-dist/tex/fontinst/fontscripts/fontscripts-t1-dotsup.etx
+* /usr/share/texmf-dist/tex/fontinst/fontscripts/fontscripts-t1-dotsuperior.etx
+* /usr/share/texmf-dist/tex/fontinst/fontscripts/fontscripts-t1-f_f.etx
+* /usr/share/texmf-dist/tex/fontinst/fontscripts/fontscripts-t1j-f_f.etx
+* /usr/share/texmf-dist/tex/fontinst/fontscripts/fontscripts-ts1-dotinf.etx
+* /usr/share/texmf-dist/tex/fontinst/fontscripts/fontscripts-ts1-dotsup.etx
+* /usr/share/texmf-dist/tex/fontinst/fontscripts/fontscripts-ts1-euro.etx
+* /usr/share/texmf-dist/tex/fontinst/fontscripts/fontscripts-ucdotalt.etx
+* /usr/share/texmf-dist/tex/fontinst/fontscripts/fontscripts-unfakable.mtx
 * /usr/share/texmf-dist/tex/fontinst/latinetx/8r.etx
 * /usr/share/texmf-dist/tex/fontinst/latinetx/8y.etx
 * /usr/share/texmf-dist/tex/fontinst/latinetx/ot1.etx

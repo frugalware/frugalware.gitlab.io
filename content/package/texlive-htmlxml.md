@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "texlive-htmlxml 2024.2-4"
-version = "2024.2-4"
+title = "texlive-htmlxml 2025.0-1"
+version = "2025.0-1"
 description = "XML/HTML packages for TeX Live"
-date = "2024-12-28T19:28:54"
+date = "2025-03-13T12:36:47"
 aliases = "/packages/102985"
 categories = ['xapps-extra']
 upstreamurl = "http://tug.org/texlive/"
 arch = "x86_64"
-size = "2692380"
-usize = "37750161"
-sha1sum = "e4ec127857add63a08db5321567246465d5c7267"
-depends = "['texlive=2024.2']"
+size = "2743324"
+usize = "37935432"
+sha1sum = "d50c8f6f53395c91e1d31441af160479a35545fe"
+depends = "['texlive=2025.0']"
 +++
 ### Description: 
 XML/HTML packages for TeX Live
@@ -180,6 +180,8 @@ XML/HTML packages for TeX Live
 * /usr/share/texmf-dist/tex/generic/tex4ht/bibtex.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/bibtex2.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/bibtopic.4ht
+* /usr/share/texmf-dist/tex/generic/tex4ht/bigfoot-hooks.4ht
+* /usr/share/texmf-dist/tex/generic/tex4ht/bigfoot.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/bm.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/book.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/bookmark-hooks.4ht
@@ -206,6 +208,7 @@ XML/HTML packages for TeX Live
 * /usr/share/texmf-dist/tex/generic/tex4ht/cleveref-hooks.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/cleveref.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/color.4ht
+* /usr/share/texmf-dist/tex/generic/tex4ht/colortbl-hooks.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/colortbl.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/combine.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/cond4ht.4ht
@@ -259,6 +262,7 @@ XML/HTML packages for TeX Live
 * /usr/share/texmf-dist/tex/generic/tex4ht/english.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/enotez.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/enumerate.4ht
+* /usr/share/texmf-dist/tex/generic/tex4ht/enumitem-hooks.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/enumitem.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/epigraph.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/eplain.4ht
@@ -269,6 +273,7 @@ XML/HTML packages for TeX Live
 * /usr/share/texmf-dist/tex/generic/tex4ht/esperant.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/esperanto.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/estonian.4ht
+* /usr/share/texmf-dist/tex/generic/tex4ht/esvect.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/eucal.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/euler.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/europecv.4ht
@@ -312,6 +317,7 @@ XML/HTML packages for TeX Live
 * /usr/share/texmf-dist/tex/generic/tex4ht/francais.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/french.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/frenchb.4ht
+* /usr/share/texmf-dist/tex/generic/tex4ht/fvextra.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/g-brief.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/galician.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/gauss.4ht
@@ -377,6 +383,9 @@ XML/HTML packages for TeX Live
 * /usr/share/texmf-dist/tex/generic/tex4ht/jsml-math.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/jsml.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/jurabib.4ht
+* /usr/share/texmf-dist/tex/generic/tex4ht/jurabook.4ht
+* /usr/share/texmf-dist/tex/generic/tex4ht/juraovw.4ht
+* /usr/share/texmf-dist/tex/generic/tex4ht/juraurtl.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/koi8-r.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/latex.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/latex209.4ht
@@ -401,13 +410,17 @@ XML/HTML packages for TeX Live
 * /usr/share/texmf-dist/tex/generic/tex4ht/ltugproc-a.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/ltugproc.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/ltxguide.4ht
+* /usr/share/texmf-dist/tex/generic/tex4ht/lua-ul.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/lua-widow-control-hooks.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/luatexja-hooks.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/m-tex4ht.tex
 * /usr/share/texmf-dist/tex/generic/tex4ht/magyar.4ht
+* /usr/share/texmf-dist/tex/generic/tex4ht/makecell.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/makeidx.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/manju.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/manmac.4ht
+* /usr/share/texmf-dist/tex/generic/tex4ht/manyfoot-hooks.4ht
+* /usr/share/texmf-dist/tex/generic/tex4ht/manyfoot.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/marginnote.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/mathjax-latex-4ht.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/mathltx.4ht
@@ -422,6 +435,7 @@ XML/HTML packages for TeX Live
 * /usr/share/texmf-dist/tex/generic/tex4ht/memoir.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/mempatch.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/menukeys.4ht
+* /usr/share/texmf-dist/tex/generic/tex4ht/metalogo.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/mex.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/mfpic.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/mhchem.4ht
@@ -433,6 +447,7 @@ XML/HTML packages for TeX Live
 * /usr/share/texmf-dist/tex/generic/tex4ht/mkht.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/mla.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/mls.4ht
+* /usr/share/texmf-dist/tex/generic/tex4ht/moderncv.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/moreverb.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/mozilla.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/multibib-hooks.4ht
@@ -450,6 +465,7 @@ XML/HTML packages for TeX Live
 * /usr/share/texmf-dist/tex/generic/tex4ht/ngerman.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/ngermanb.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/nicefrac.4ht
+* /usr/share/texmf-dist/tex/generic/tex4ht/nicematrix.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/nomencl.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/norsk.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/ntheorem.4ht
@@ -496,11 +512,14 @@ XML/HTML packages for TeX Live
 * /usr/share/texmf-dist/tex/generic/tex4ht/pst-jtree.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/pstricks.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/pythontex.4ht
+* /usr/share/texmf-dist/tex/generic/tex4ht/qtree.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/quoting.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/reading.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/report.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/res-a.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/res.4ht
+* /usr/share/texmf-dist/tex/generic/tex4ht/resizegather-hooks.4ht
+* /usr/share/texmf-dist/tex/generic/tex4ht/resizegather.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/resume.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/revsymb.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/revtex4.4ht
@@ -535,6 +554,8 @@ XML/HTML packages for TeX Live
 * /usr/share/texmf-dist/tex/generic/tex4ht/spanish.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/splitidx.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/srcltx.4ht
+* /usr/share/texmf-dist/tex/generic/tex4ht/standalone.4ht
+* /usr/share/texmf-dist/tex/generic/tex4ht/stmaryrd.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/subcaption.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/subeqnarray.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/subfigure.4ht
@@ -555,6 +576,7 @@ XML/HTML packages for TeX Live
 * /usr/share/texmf-dist/tex/generic/tex4ht/tabularx.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/tabulary-a.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/tabulary.4ht
+* /usr/share/texmf-dist/tex/generic/tex4ht/tagpdf-base-hooks.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/tagpdf-hooks.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/tasks.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/tcilatex.4ht
@@ -618,6 +640,8 @@ XML/HTML packages for TeX Live
 * /usr/share/texmf-dist/tex/generic/tex4ht/xrhyper-hooks.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/xskak.4ht
 * /usr/share/texmf-dist/tex/generic/tex4ht/xy.4ht
+* /usr/share/texmf-dist/tex/generic/tex4ht/xyling-hooks.4ht
+* /usr/share/texmf-dist/tex/generic/tex4ht/xyling.4ht
 * /usr/share/texmf-dist/tex/jadetex/base/dsssl.def
 * /usr/share/texmf-dist/tex/jadetex/base/jadetex.ini
 * /usr/share/texmf-dist/tex/jadetex/base/jadetex.ltx
@@ -8023,6 +8047,7 @@ XML/HTML packages for TeX Live
 * /usr/share/texmf-dist/tex4ht/ht-fonts/iso8859/1/xypic/xyatip.htf
 * /usr/share/texmf-dist/tex4ht/ht-fonts/iso8859/1/xypic/xybsql.htf
 * /usr/share/texmf-dist/tex4ht/ht-fonts/iso8859/1/xypic/xybtip.htf
+* /usr/share/texmf-dist/tex4ht/ht-fonts/iso8859/1/xypic/xycirc.htf
 * /usr/share/texmf-dist/tex4ht/ht-fonts/iso8859/1/xypic/xydash.htf
 * /usr/share/texmf-dist/tex4ht/ht-fonts/iso8859/1/xypic/xyebut.htf
 * /usr/share/texmf-dist/tex4ht/ht-fonts/iso8859/1/xypic/xymisc.htf
@@ -9303,6 +9328,8 @@ XML/HTML packages for TeX Live
 * /usr/share/texmf-dist/tex4ht/ht-fonts/unicode/TeXGyreTermesX/ntxdenoms-Regular-ly1.htf
 * /usr/share/texmf-dist/tex4ht/ht-fonts/unicode/TeXGyreTermesX/ntxdenoms-Regular-ot1.htf
 * /usr/share/texmf-dist/tex4ht/ht-fonts/unicode/TeXGyreTermesX/ntxdenoms-Regular-t1.htf
+* /usr/share/texmf-dist/tex4ht/ht-fonts/unicode/TeXvect10/vect.htf
+* /usr/share/texmf-dist/tex4ht/ht-fonts/unicode/TeXvect10/vect10.htf
 * /usr/share/texmf-dist/tex4ht/ht-fonts/unicode/tibetan/ctib.htf
 * /usr/share/texmf-dist/tex4ht/ht-fonts/unicode/tipa/tipa.htf
 * /usr/share/texmf-dist/tex4ht/ht-fonts/unicode/tipa/xipx.htf

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "texlive-extra 2024.2-4"
-version = "2024.2-4"
+title = "texlive-extra 2025.0-1"
+version = "2025.0-1"
 description = "Extra packages (generic, ..) for TeX Live"
-date = "2024-12-28T19:28:54"
+date = "2025-03-13T12:36:47"
 aliases = "/packages/219466"
 categories = ['xapps-extra']
 upstreamurl = "http://tug.org/texlive/"
 arch = "x86_64"
-size = "1030976"
-usize = "7369523"
-sha1sum = "38ee6a6adefd8aae2e6d7ba58c166a98c47eab21"
-depends = "['texlive=2024.2']"
+size = "1031116"
+usize = "7369755"
+sha1sum = "9663154767b19d9d5c04b3d9e820e171953ba711"
+depends = "['texlive=2025.0']"
 +++
 ### Description: 
 Extra packages (generic, ..) for TeX Live
@@ -178,8 +178,6 @@ Extra packages (generic, ..) for TeX Live
 * /usr/share/texmf-dist/tex/generic/texapi/texapi.tex
 * /usr/share/texmf-dist/tex/generic/variations/variations.sty
 * /usr/share/texmf-dist/tex/generic/variations/variations.tex
-* /usr/share/texmf-dist/tex/generic/xcomment/xcomment.sty
-* /usr/share/texmf-dist/tex/generic/xcomment/xcomment.tex
 * /usr/share/texmf-dist/tex/generic/xlop/xlop.sty
 * /usr/share/texmf-dist/tex/generic/xlop/xlop.tex
 * /usr/share/texmf-dist/tex/generic/yax/t-yax.tex
@@ -270,5 +268,6 @@ Extra packages (generic, ..) for TeX Live
 * /usr/share/texmf-dist/tex/latex/tree-dvips/lingmacros.sty
 * /usr/share/texmf-dist/tex/latex/tree-dvips/tree-dvips.sty
 * /usr/share/texmf-dist/tex/latex/verse/verse.sty
+* /usr/share/texmf-dist/tex/latex/xcomment/xcomment.sty
 * /usr/share/texmf-dist/tex/plain/encxvlna/encxvlna.tex
 * /usr/share/texmf-dist/tex/plain/metatex/metatex.tex

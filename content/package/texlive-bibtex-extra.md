@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "texlive-bibtex-extra 2024.2-4"
-version = "2024.2-4"
+title = "texlive-bibtex-extra 2025.0-1"
+version = "2025.0-1"
 description = "Extra Bibtex Styles for TeX Live"
-date = "2024-12-28T19:28:54"
+date = "2025-03-13T12:36:47"
 aliases = "/packages/102979"
 categories = ['xapps-extra']
 upstreamurl = "http://tug.org/texlive/"
 arch = "x86_64"
-size = "2629004"
-usize = "26000896"
-sha1sum = "c9aa491542fa97e9f27a31e19491f9ca49de241e"
-depends = "['texlive=2024.2']"
+size = "2647928"
+usize = "26164172"
+sha1sum = "4bb90f97e36bab5696446bc28f37f48c1d90adf6"
+depends = "['texlive=2025.0']"
 +++
 ### Description: 
 Extra Bibtex Styles for TeX Live
@@ -500,6 +500,7 @@ Extra Bibtex Styles for TeX Live
 * /usr/share/texmf-dist/tex/latex/biblatex-historian/historian.lbx
 * /usr/share/texmf-dist/tex/latex/biblatex-ieee/ieee-alphabetic.bbx
 * /usr/share/texmf-dist/tex/latex/biblatex-ieee/ieee-alphabetic.cbx
+* /usr/share/texmf-dist/tex/latex/biblatex-ieee/ieee-comp.cbx
 * /usr/share/texmf-dist/tex/latex/biblatex-ieee/ieee.bbx
 * /usr/share/texmf-dist/tex/latex/biblatex-ieee/ieee.cbx
 * /usr/share/texmf-dist/tex/latex/biblatex-ieee/magyar-ieee.lbx
@@ -564,6 +565,21 @@ Extra Bibtex Styles for TeX Live
 * /usr/share/texmf-dist/tex/latex/biblatex-phys/phys.bbx
 * /usr/share/texmf-dist/tex/latex/biblatex-phys/phys.cbx
 * /usr/share/texmf-dist/tex/latex/biblatex-phys/phys.dbx
+* /usr/share/texmf-dist/tex/latex/biblatex-publist/lbx/american-publist.lbx
+* /usr/share/texmf-dist/tex/latex/biblatex-publist/lbx/australian-publist.lbx
+* /usr/share/texmf-dist/tex/latex/biblatex-publist/lbx/austrian-publist.lbx
+* /usr/share/texmf-dist/tex/latex/biblatex-publist/lbx/british-publist.lbx
+* /usr/share/texmf-dist/tex/latex/biblatex-publist/lbx/canadian-publist.lbx
+* /usr/share/texmf-dist/tex/latex/biblatex-publist/lbx/english-publist.lbx
+* /usr/share/texmf-dist/tex/latex/biblatex-publist/lbx/french-publist.lbx
+* /usr/share/texmf-dist/tex/latex/biblatex-publist/lbx/german-publist.lbx
+* /usr/share/texmf-dist/tex/latex/biblatex-publist/lbx/naustrian-publist.lbx
+* /usr/share/texmf-dist/tex/latex/biblatex-publist/lbx/newzealand-publist.lbx
+* /usr/share/texmf-dist/tex/latex/biblatex-publist/lbx/ngerman-publist.lbx
+* /usr/share/texmf-dist/tex/latex/biblatex-publist/lbx/nswissgerman-publist.lbx
+* /usr/share/texmf-dist/tex/latex/biblatex-publist/lbx/swissgerman-publist.lbx
+* /usr/share/texmf-dist/tex/latex/biblatex-publist/lbx/UKenglish-publist.lbx
+* /usr/share/texmf-dist/tex/latex/biblatex-publist/lbx/USenglish-publist.lbx
 * /usr/share/texmf-dist/tex/latex/biblatex-publist/publist.bbx
 * /usr/share/texmf-dist/tex/latex/biblatex-publist/publist.cbx
 * /usr/share/texmf-dist/tex/latex/biblatex-publist/publist.dbx

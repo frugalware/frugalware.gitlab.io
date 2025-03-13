@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "texlive-templates-extra 2024.2-4"
-version = "2024.2-4"
+title = "texlive-templates-extra 2025.0-1"
+version = "2025.0-1"
 description = "Extra publications templates for Tex Live"
-date = "2024-12-28T19:28:54"
+date = "2025-03-13T12:36:47"
 aliases = "/packages/219463"
 categories = ['xapps-extra']
 upstreamurl = "http://tug.org/texlive/"
 arch = "x86_64"
-size = "6665504"
-usize = "30505768"
-sha1sum = "e54815d43ade5210b45f70a770d202434c519214"
-depends = "['texlive=2024.2']"
+size = "6670504"
+usize = "30500213"
+sha1sum = "a43bf5a6511908343bfb21cae48d2f9386ba083c"
+depends = "['texlive=2025.0']"
 +++
 ### Description: 
 Extra publications templates for Tex Live
@@ -391,13 +391,12 @@ Extra publications templates for Tex Live
 * /usr/share/texmf-dist/makeindex/confproc/confproc1.ist
 * /usr/share/texmf-dist/makeindex/confproc/confproc2.ist
 * /usr/share/texmf-dist/makeindex/nostarch/nostarch.ist
+* /usr/share/texmf-dist/scripts/aomart/aom-fullref.pl
 * /usr/share/texmf-dist/source/latex/acmconf/acmconf.dtx
 * /usr/share/texmf-dist/source/latex/acmconf/acmconf.ins
 * /usr/share/texmf-dist/source/latex/acmconf/Makefile
 * /usr/share/texmf-dist/source/latex/active-conf/active-conf.dtx
 * /usr/share/texmf-dist/source/latex/active-conf/active-conf.ins
-* /usr/share/texmf-dist/source/latex/afparticle/afparticle.dtx
-* /usr/share/texmf-dist/source/latex/afparticle/afparticle.ins
 * /usr/share/texmf-dist/source/latex/aiaa/aiaa.dtx
 * /usr/share/texmf-dist/source/latex/aiaa/aiaa.ins
 * /usr/share/texmf-dist/source/latex/aomart/aomart.dtx
@@ -633,7 +632,6 @@ Extra publications templates for Tex Live
 * /usr/share/texmf-dist/tex/latex/abntex2/abntex2cite.sty
 * /usr/share/texmf-dist/tex/latex/acmconf/acmconf.cls
 * /usr/share/texmf-dist/tex/latex/active-conf/active-conf.cls
-* /usr/share/texmf-dist/tex/latex/afparticle/afparticle.cls
 * /usr/share/texmf-dist/tex/latex/afthesis/afthes10.sty
 * /usr/share/texmf-dist/tex/latex/afthesis/afthes11.sty
 * /usr/share/texmf-dist/tex/latex/afthesis/afthes12.sty
@@ -644,6 +642,10 @@ Extra publications templates for Tex Live
 * /usr/share/texmf-dist/tex/latex/aguplus/agupp.sty
 * /usr/share/texmf-dist/tex/latex/aiaa/aiaa-tc.cls
 * /usr/share/texmf-dist/tex/latex/aomart/aomart.cls
+* /usr/share/texmf-dist/tex/latex/aomart/aom_orcid_logo.eps
+* /usr/share/texmf-dist/tex/latex/aomart/aom_orcid_logo.pdf
+* /usr/share/texmf-dist/tex/latex/aomart/aom_orcid_logo_bw.eps
+* /usr/share/texmf-dist/tex/latex/aomart/aom_orcid_logo_bw.pdf
 * /usr/share/texmf-dist/tex/latex/apa/apa.cls
 * /usr/share/texmf-dist/tex/latex/apa/dutch.apa
 * /usr/share/texmf-dist/tex/latex/apa/english.apa
@@ -668,6 +670,8 @@ Extra publications templates for Tex Live
 * /usr/share/texmf-dist/tex/latex/bangorcsthesis/bangorcsthesis.cls
 * /usr/share/texmf-dist/tex/latex/brandeis-dissertation/brandeis-dissertation.cls
 * /usr/share/texmf-dist/tex/latex/classicthesis/classicthesis-arsclassica.sty
+* /usr/share/texmf-dist/tex/latex/classicthesis/classicthesis-linedheaders.sty
+* /usr/share/texmf-dist/tex/latex/classicthesis/classicthesis-plain.sty
 * /usr/share/texmf-dist/tex/latex/classicthesis/classicthesis.sty
 * /usr/share/texmf-dist/tex/latex/cmpj/cmp-logo.eps
 * /usr/share/texmf-dist/tex/latex/cmpj/cmp-logo.pdf

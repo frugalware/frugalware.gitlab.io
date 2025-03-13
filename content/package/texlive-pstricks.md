@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "texlive-pstricks 2024.2-4"
-version = "2024.2-4"
+title = "texlive-pstricks 2025.0-1"
+version = "2025.0-1"
 description = "Extra PsTricks packages for TeX Live"
-date = "2024-12-28T19:28:54"
+date = "2025-03-13T12:36:47"
 aliases = "/packages/102983"
 categories = ['xapps-extra']
 upstreamurl = "http://tug.org/texlive/"
 arch = "x86_64"
-size = "26404712"
-usize = "37294676"
-sha1sum = "3ff59794e3f8cf0d8b81ef0f90b8f0dae1302e7d"
-depends = "['texlive=2024.2']"
+size = "26405116"
+usize = "37301290"
+sha1sum = "b6432f742b412cccf868abad35dbe97b910feac1"
+depends = "['texlive=2025.0']"
 +++
 ### Description: 
 Extra PsTricks packages for TeX Live
@@ -137,7 +137,6 @@ Extra PsTricks packages for TeX Live
 * /usr/share/texmf-dist/source/generic/pst-dbicons/pst-dbicons.drv
 * /usr/share/texmf-dist/source/generic/pst-dbicons/pst-dbicons.dtx
 * /usr/share/texmf-dist/source/generic/pst-dbicons/pst-dbicons.ins
-* /usr/share/texmf-dist/source/generic/pst-diffraction/Makefile
 * /usr/share/texmf-dist/source/generic/pst-electricfield/Makefile
 * /usr/share/texmf-dist/source/generic/pst-electricfield/Makefile.latex
 * /usr/share/texmf-dist/source/generic/pst-electricfield/Makefile.pst2pdf

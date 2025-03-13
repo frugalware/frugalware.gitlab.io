@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "texlive-graphics 2024.2-4"
-version = "2024.2-4"
+title = "texlive-graphics 2025.0-1"
+version = "2025.0-1"
 description = "Graphics packages for TeX Live"
-date = "2024-12-28T19:28:54"
+date = "2025-03-13T12:36:47"
 aliases = "/packages/102986"
 categories = ['xapps-extra']
 upstreamurl = "http://tug.org/texlive/"
 arch = "x86_64"
-size = "6132296"
-usize = "36589527"
-sha1sum = "f7ae4ce91d3aeffcaf83d9f3d3d18ddd52fd50b7"
-depends = "['texlive=2024.2']"
+size = "6141888"
+usize = "36641748"
+sha1sum = "3969935a53fc4b0aa7ed19f6793808d58e4a660d"
+depends = "['texlive=2025.0']"
 +++
 ### Description: 
 Graphics packages for TeX Live
@@ -351,8 +351,8 @@ Graphics packages for TeX Live
 * /usr/share/texmf-dist/source/latex/tikzscale/tikzscale.ins
 * /usr/share/texmf-dist/source/latex/tikzsymbols/tikzsymbols.dtx
 * /usr/share/texmf-dist/source/latex/tikzsymbols/tikzsymbols.ins
-* /usr/share/texmf-dist/source/latex/tqft/tqft.dtx
-* /usr/share/texmf-dist/source/latex/tqft/tqft.ins
+* /usr/share/texmf-dist/source/latex/tqft/tqft_code.dtx
+* /usr/share/texmf-dist/source/latex/tqft/tqft_code.ins
 * /usr/share/texmf-dist/source/latex/xpicture/xpicture.dtx
 * /usr/share/texmf-dist/tex/context/third/circuitikz/t-circuitikz-0.8.3.tex
 * /usr/share/texmf-dist/tex/context/third/circuitikz/t-circuitikz-0.9.3.tex
@@ -1302,6 +1302,7 @@ Graphics packages for TeX Live
 * /usr/share/texmf-dist/tex/latex/tkz-doc/tkz-doc.cfg
 * /usr/share/texmf-dist/tex/latex/tkz-doc/tkz-doc.cls
 * /usr/share/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-angles.tex
+* /usr/share/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-arcs.tex
 * /usr/share/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-circles.tex
 * /usr/share/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-compass.tex
 * /usr/share/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-ellipses.tex

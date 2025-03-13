@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "texlive-latex-extra 2024.2-4"
-version = "2024.2-4"
+title = "texlive-latex-extra 2025.0-1"
+version = "2025.0-1"
 description = "Extra Latex packages for TeX Live"
-date = "2024-12-28T19:28:54"
+date = "2025-03-13T12:36:47"
 aliases = "/packages/102987"
 categories = ['xapps-extra']
 upstreamurl = "http://tug.org/texlive/"
 arch = "x86_64"
-size = "5409120"
-usize = "6232635"
-sha1sum = "f9db8a5f6f31d1d85fa54be6e218c3699b6817b0"
-depends = "['texlive=2024.2']"
+size = "6682140"
+usize = "7559834"
+sha1sum = "0255333519cf2d67232043a893fc5be1f02b18cb"
+depends = "['texlive=2025.0']"
 +++
 ### Description: 
 Extra Latex packages for TeX Live
@@ -25,6 +25,7 @@ Extra Latex packages for TeX Live
 * /usr/bin/getmapdl
 * /usr/bin/hyperxmp-add-bytecount
 * /usr/bin/l3build
+* /usr/bin/latexminted
 * /usr/bin/makedtx
 * /usr/bin/makeglossaries
 * /usr/bin/makeglossaries-lite
@@ -79,6 +80,11 @@ Extra Latex packages for TeX Live
 * /usr/share/texmf-dist/scripts/l3build/l3build-zip.lua
 * /usr/share/texmf-dist/scripts/l3build/l3build.lua
 * /usr/share/texmf-dist/scripts/makedtx/makedtx.pl
+* /usr/share/texmf-dist/scripts/minted/latex2pydata-0.5.0-py3-none-any.whl
+* /usr/share/texmf-dist/scripts/minted/latexminted-0.5.0-py3-none-any.whl
+* /usr/share/texmf-dist/scripts/minted/latexminted.py
+* /usr/share/texmf-dist/scripts/minted/latexrestricted-0.6.2-py3-none-any.whl
+* /usr/share/texmf-dist/scripts/minted/pygments-2.19.1-py3-none-any.whl
 * /usr/share/texmf-dist/scripts/mycv/mycv_split_contents.pl
 * /usr/share/texmf-dist/scripts/pax/pax.jar
 * /usr/share/texmf-dist/scripts/pax/pdfannotextractor.pl

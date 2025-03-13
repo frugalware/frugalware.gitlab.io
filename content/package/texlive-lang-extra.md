@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "texlive-lang-extra 2024.2-4"
-version = "2024.2-4"
+title = "texlive-lang-extra 2025.0-1"
+version = "2025.0-1"
 description = "Extra languages support for TeX Live"
-date = "2024-12-28T19:28:54"
+date = "2025-03-13T12:36:47"
 aliases = "/packages/219465"
 categories = ['xapps-extra']
 upstreamurl = "http://tug.org/texlive/"
 arch = "x86_64"
-size = "20920912"
-usize = "52833711"
-sha1sum = "885256d3008118a2c854971769c5385f256285a6"
-depends = "['texlive=2024.2']"
+size = "20930988"
+usize = "52891566"
+sha1sum = "f75967232b4ca581f895dd88304c2c59bd390671"
+depends = "['texlive=2025.0']"
 +++
 ### Description: 
 Extra languages support for TeX Live
@@ -2583,6 +2583,9 @@ Extra languages support for TeX Live
 * /usr/share/texmf-dist/tex/latex/otibet/otibet.sty
 * /usr/share/texmf-dist/tex/latex/otibet/otibet.tex
 * /usr/share/texmf-dist/tex/latex/otibet/t1tib.fd
+* /usr/share/texmf-dist/tex/latex/pgf-periodictable/translations/pgfPT.lang.nl.tex
+* /usr/share/texmf-dist/tex/latex/pgf-periodictable/translations/pgfPT.lang.undefined.tex
+* /usr/share/texmf-dist/tex/latex/pgf-periodictable/translations/pgfPT.lang.zh.tex
 * /usr/share/texmf-dist/tex/latex/sanskrit/ot1skt.fd
 * /usr/share/texmf-dist/tex/latex/sanskrit/skt.sty
 * /usr/share/texmf-dist/tex/latex/schule/relaycircuit.sty
@@ -2755,67 +2758,66 @@ Extra languages support for TeX Live
 * /usr/share/texmf-dist/tex/plain/vntex/t5code.tex
 * /usr/share/texmf-dist/tex/plain/vntex/vntexinfo.tex
 * /usr/share/texmf-dist/tex/xelatex/velthuis/hindicaptions.sty
-* /usr/share/texmf-dist/tex/xelatex/xepersian/algorithm-xepersian.def
-* /usr/share/texmf-dist/tex/xelatex/xepersian/algorithmic-xepersian.def
-* /usr/share/texmf-dist/tex/xelatex/xepersian/amsart-xepersian.def
-* /usr/share/texmf-dist/tex/xelatex/xepersian/amsbook-xepersian.def
-* /usr/share/texmf-dist/tex/xelatex/xepersian/appendix-xepersian.def
-* /usr/share/texmf-dist/tex/xelatex/xepersian/article-xepersian.def
-* /usr/share/texmf-dist/tex/xelatex/xepersian/artikel1-xepersian.def
-* /usr/share/texmf-dist/tex/xelatex/xepersian/artikel2-xepersian.def
-* /usr/share/texmf-dist/tex/xelatex/xepersian/artikel3-xepersian.def
-* /usr/share/texmf-dist/tex/xelatex/xepersian/backref-xepersian.def
-* /usr/share/texmf-dist/tex/xelatex/xepersian/beamer-xepersian.def
-* /usr/share/texmf-dist/tex/xelatex/xepersian/beamerbasetranslator-xepersian.def
-* /usr/share/texmf-dist/tex/xelatex/xepersian/bidimoderncv-xepersian.def
-* /usr/share/texmf-dist/tex/xelatex/xepersian/bidituftesidenote-xepersian.def
-* /usr/share/texmf-dist/tex/xelatex/xepersian/boek-xepersian.def
-* /usr/share/texmf-dist/tex/xelatex/xepersian/boek3-xepersian.def
-* /usr/share/texmf-dist/tex/xelatex/xepersian/book-xepersian.def
-* /usr/share/texmf-dist/tex/xelatex/xepersian/bookest-xepersian.def
-* /usr/share/texmf-dist/tex/xelatex/xepersian/breqn-xepersian.def
-* /usr/share/texmf-dist/tex/xelatex/xepersian/color-localise-xepersian.def
-* /usr/share/texmf-dist/tex/xelatex/xepersian/enumerate-xepersian.def
-* /usr/share/texmf-dist/tex/xelatex/xepersian/enumitem-xepersian.def
-* /usr/share/texmf-dist/tex/xelatex/xepersian/extarticle-xepersian.def
-* /usr/share/texmf-dist/tex/xelatex/xepersian/extbook-xepersian.def
-* /usr/share/texmf-dist/tex/xelatex/xepersian/extrafootnotefeatures-xepersian.def
-* /usr/share/texmf-dist/tex/xelatex/xepersian/extreport-xepersian.def
-* /usr/share/texmf-dist/tex/xelatex/xepersian/fancyref-xepersian.def
-* /usr/share/texmf-dist/tex/xelatex/xepersian/footnote-xepersian.def
-* /usr/share/texmf-dist/tex/xelatex/xepersian/framed-xepersian.def
-* /usr/share/texmf-dist/tex/xelatex/xepersian/glossaries-xepersian.def
-* /usr/share/texmf-dist/tex/xelatex/xepersian/hyperref-xepersian.def
-* /usr/share/texmf-dist/tex/xelatex/xepersian/imsproc-xepersian.def
-* /usr/share/texmf-dist/tex/xelatex/xepersian/kashida-xepersian.def
-* /usr/share/texmf-dist/tex/xelatex/xepersian/latex-localise-commands-xepersian.def
-* /usr/share/texmf-dist/tex/xelatex/xepersian/latex-localise-environments-xepersian.def
-* /usr/share/texmf-dist/tex/xelatex/xepersian/latex-localise-messages-xepersian.def
-* /usr/share/texmf-dist/tex/xelatex/xepersian/latex-localise-misc-xepersian.def
-* /usr/share/texmf-dist/tex/xelatex/xepersian/listings-xepersian.def
-* /usr/share/texmf-dist/tex/xelatex/xepersian/loadingorder-xepersian.def
-* /usr/share/texmf-dist/tex/xelatex/xepersian/localise-xepersian.def
-* /usr/share/texmf-dist/tex/xelatex/xepersian/memoir-xepersian.def
-* /usr/share/texmf-dist/tex/xelatex/xepersian/minitoc-xepersian.def
-* /usr/share/texmf-dist/tex/xelatex/xepersian/natbib-xepersian.def
-* /usr/share/texmf-dist/tex/xelatex/xepersian/packages-localise-xepersian.def
-* /usr/share/texmf-dist/tex/xelatex/xepersian/rapport1-xepersian.def
-* /usr/share/texmf-dist/tex/xelatex/xepersian/rapport3-xepersian.def
-* /usr/share/texmf-dist/tex/xelatex/xepersian/refrep-xepersian.def
-* /usr/share/texmf-dist/tex/xelatex/xepersian/report-xepersian.def
-* /usr/share/texmf-dist/tex/xelatex/xepersian/scrartcl-xepersian.def
-* /usr/share/texmf-dist/tex/xelatex/xepersian/scrbook-xepersian.def
-* /usr/share/texmf-dist/tex/xelatex/xepersian/scrreprt-xepersian.def
-* /usr/share/texmf-dist/tex/xelatex/xepersian/soul-xepersian.def
-* /usr/share/texmf-dist/tex/xelatex/xepersian/tkz-linknodes-xepersian.def
-* /usr/share/texmf-dist/tex/xelatex/xepersian/tocloft-xepersian.def
-* /usr/share/texmf-dist/tex/xelatex/xepersian/url-xepersian.def
-* /usr/share/texmf-dist/tex/xelatex/xepersian/varioref-xepersian.def
-* /usr/share/texmf-dist/tex/xelatex/xepersian/xepersian-localise-commands-xepersian.def
-* /usr/share/texmf-dist/tex/xelatex/xepersian/xepersian-localise-environments-xepersian.def
+* /usr/share/texmf-dist/tex/xelatex/xepersian/algorithm-xetex-xepersian.def
+* /usr/share/texmf-dist/tex/xelatex/xepersian/algorithmic-xetex-xepersian.def
+* /usr/share/texmf-dist/tex/xelatex/xepersian/amsart-xetex-xepersian.def
+* /usr/share/texmf-dist/tex/xelatex/xepersian/amsbook-xetex-xepersian.def
+* /usr/share/texmf-dist/tex/xelatex/xepersian/appendix-xetex-xepersian.def
+* /usr/share/texmf-dist/tex/xelatex/xepersian/article-xetex-xepersian.def
+* /usr/share/texmf-dist/tex/xelatex/xepersian/artikel1-xetex-xepersian.def
+* /usr/share/texmf-dist/tex/xelatex/xepersian/artikel2-xetex-xepersian.def
+* /usr/share/texmf-dist/tex/xelatex/xepersian/artikel3-xetex-xepersian.def
+* /usr/share/texmf-dist/tex/xelatex/xepersian/backref-xetex-xepersian.def
+* /usr/share/texmf-dist/tex/xelatex/xepersian/beamer-xetex-xepersian.def
+* /usr/share/texmf-dist/tex/xelatex/xepersian/beamerbasetranslator-xetex-xepersian.def
+* /usr/share/texmf-dist/tex/xelatex/xepersian/bidimoderncv-xetex-xepersian.def
+* /usr/share/texmf-dist/tex/xelatex/xepersian/bidituftesidenote-xetex-xepersian.def
+* /usr/share/texmf-dist/tex/xelatex/xepersian/boek-xetex-xepersian.def
+* /usr/share/texmf-dist/tex/xelatex/xepersian/boek3-xetex-xepersian.def
+* /usr/share/texmf-dist/tex/xelatex/xepersian/book-xetex-xepersian.def
+* /usr/share/texmf-dist/tex/xelatex/xepersian/bookest-xetex-xepersian.def
+* /usr/share/texmf-dist/tex/xelatex/xepersian/breqn-xetex-xepersian.def
+* /usr/share/texmf-dist/tex/xelatex/xepersian/color-localize-xetex-xepersian.def
+* /usr/share/texmf-dist/tex/xelatex/xepersian/enumerate-xetex-xepersian.def
+* /usr/share/texmf-dist/tex/xelatex/xepersian/enumitem-xetex-xepersian.def
+* /usr/share/texmf-dist/tex/xelatex/xepersian/extarticle-xetex-xepersian.def
+* /usr/share/texmf-dist/tex/xelatex/xepersian/extbook-xetex-xepersian.def
+* /usr/share/texmf-dist/tex/xelatex/xepersian/extrafootnotefeatures-xetex-bidi-xetex-xepersian.def
+* /usr/share/texmf-dist/tex/xelatex/xepersian/extreport-xetex-xepersian.def
+* /usr/share/texmf-dist/tex/xelatex/xepersian/fancyref-xetex-xepersian.def
+* /usr/share/texmf-dist/tex/xelatex/xepersian/footnote-xetex-bidi-xetex-xepersian.def
+* /usr/share/texmf-dist/tex/xelatex/xepersian/framed-xetex-xepersian.def
+* /usr/share/texmf-dist/tex/xelatex/xepersian/glossaries-xetex-xepersian.def
+* /usr/share/texmf-dist/tex/xelatex/xepersian/hyperref-xetex-xepersian.def
+* /usr/share/texmf-dist/tex/xelatex/xepersian/imsproc-xetex-xepersian.def
+* /usr/share/texmf-dist/tex/xelatex/xepersian/kashida-xetex-xepersian.def
+* /usr/share/texmf-dist/tex/xelatex/xepersian/latex-localize-commands-xetex-xepersian.def
+* /usr/share/texmf-dist/tex/xelatex/xepersian/latex-localize-environments-xetex-xepersian.def
+* /usr/share/texmf-dist/tex/xelatex/xepersian/latex-localize-messages-xetex-xepersian.def
+* /usr/share/texmf-dist/tex/xelatex/xepersian/latex-localize-misc-xetex-xepersian.def
+* /usr/share/texmf-dist/tex/xelatex/xepersian/listings-xetex-xepersian.def
+* /usr/share/texmf-dist/tex/xelatex/xepersian/localize-xetex-xepersian.def
+* /usr/share/texmf-dist/tex/xelatex/xepersian/memoir-xetex-xepersian.def
+* /usr/share/texmf-dist/tex/xelatex/xepersian/minitoc-xetex-xepersian.def
+* /usr/share/texmf-dist/tex/xelatex/xepersian/natbib-xetex-xepersian.def
+* /usr/share/texmf-dist/tex/xelatex/xepersian/packages-localize-xetex-xepersian.def
+* /usr/share/texmf-dist/tex/xelatex/xepersian/rapport1-xetex-xepersian.def
+* /usr/share/texmf-dist/tex/xelatex/xepersian/rapport3-xetex-xepersian.def
+* /usr/share/texmf-dist/tex/xelatex/xepersian/refrep-xetex-xepersian.def
+* /usr/share/texmf-dist/tex/xelatex/xepersian/report-xetex-xepersian.def
+* /usr/share/texmf-dist/tex/xelatex/xepersian/scrartcl-xetex-xepersian.def
+* /usr/share/texmf-dist/tex/xelatex/xepersian/scrbook-xetex-xepersian.def
+* /usr/share/texmf-dist/tex/xelatex/xepersian/scrreprt-xetex-xepersian.def
+* /usr/share/texmf-dist/tex/xelatex/xepersian/soul-xetex-xepersian.def
+* /usr/share/texmf-dist/tex/xelatex/xepersian/tkz-linknodes-xetex-xepersian.def
+* /usr/share/texmf-dist/tex/xelatex/xepersian/tocloft-xetex-xepersian.def
+* /usr/share/texmf-dist/tex/xelatex/xepersian/unicode-persianmath.sty
+* /usr/share/texmf-dist/tex/xelatex/xepersian/url-xetex-xepersian.def
+* /usr/share/texmf-dist/tex/xelatex/xepersian/varioref-xetex-xepersian.def
+* /usr/share/texmf-dist/tex/xelatex/xepersian/xepersian-localize-commands-xetex-xepersian.def
+* /usr/share/texmf-dist/tex/xelatex/xepersian/xepersian-localize-environments-xetex-xepersian.def
 * /usr/share/texmf-dist/tex/xelatex/xepersian/xepersian-logo.pdf
 * /usr/share/texmf-dist/tex/xelatex/xepersian/xepersian-magazine.cls
-* /usr/share/texmf-dist/tex/xelatex/xepersian/xepersian-mathdigitspec.sty
 * /usr/share/texmf-dist/tex/xelatex/xepersian/xepersian-multiplechoice.sty
 * /usr/share/texmf-dist/tex/xelatex/xepersian/xepersian-persiancal.sty
 * /usr/share/texmf-dist/tex/xelatex/xepersian/xepersian.sty

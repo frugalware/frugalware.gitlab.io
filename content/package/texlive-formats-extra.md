@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "texlive-formats-extra 2024.2-4"
-version = "2024.2-4"
+title = "texlive-formats-extra 2025.0-1"
+version = "2025.0-1"
 description = "Extra Tex formats for Tex Live"
-date = "2024-12-28T19:28:54"
+date = "2025-03-13T12:36:47"
 aliases = "/packages/219462"
 categories = ['xapps-extra']
 upstreamurl = "http://tug.org/texlive/"
 arch = "x86_64"
-size = "465988"
-usize = "1355817"
-sha1sum = "6c3622be2ef0d9656a3bab2746dddfa663e2920b"
-depends = "['texlive=2024.2']"
+size = "467016"
+usize = "1357418"
+sha1sum = "ef0fc913d88b1ff515227529f4243d89912348df"
+depends = "['texlive=2025.0']"
 +++
 ### Description: 
 Extra Tex formats for Tex Live
@@ -19,7 +19,7 @@ Extra Tex formats for Tex Live
 ### Files: 
 * /usr/share/texmf-dist/makeindex/startex/stxglo.ist
 * /usr/share/texmf-dist/makeindex/startex/stxind.ist
-* /usr/share/texmf-dist/source/eplain/eplain-source-3.13.zip
+* /usr/share/texmf-dist/source/eplain/eplain-source-3.14.zip
 * /usr/share/texmf-dist/source/eplain/xeplain.tex
 * /usr/share/texmf-dist/source/psizzl/base/aaaread.me
 * /usr/share/texmf-dist/source/startex/startex/startex.dtx

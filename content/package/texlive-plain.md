@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "texlive-plain 2024.2-4"
-version = "2024.2-4"
+title = "texlive-plain 2025.0-1"
+version = "2025.0-1"
 description = "Plain Tex packages for TeX Live"
-date = "2024-12-28T19:28:54"
+date = "2025-03-13T12:36:47"
 aliases = "/packages/219469"
 categories = ['xapps-extra']
 upstreamurl = "http://tug.org/texlive/"
 arch = "x86_64"
-size = "183332"
-usize = "1202191"
-sha1sum = "5716bd36eb5cce8782c6250666ce2d4841e0b06e"
-depends = "['texlive=2024.2']"
+size = "183500"
+usize = "1202439"
+sha1sum = "5b6891694203c8655d417f418cb6453bf96820eb"
+depends = "['texlive=2025.0']"
 +++
 ### Description: 
 Plain Tex packages for TeX Live
