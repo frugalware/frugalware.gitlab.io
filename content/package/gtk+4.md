@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gtk+4 4.16.12-1"
-version = "4.16.12-1"
+title = "gtk+4 4.16.12-2"
+version = "4.16.12-2"
 description = "The GTK+ Toolkit (3.x series)"
-date = "2025-01-04T12:01:08"
+date = "2025-03-13T16:14:16"
 aliases = "/packages/220420"
 categories = ['xlib']
 upstreamurl = "http://www.gtk.org/"
 arch = "x86_64"
-size = "12145400"
-usize = "54980842"
-sha1sum = "486ab072b62924e5c8b302f24be181c72d642b00"
+size = "12151108"
+usize = "54977514"
+sha1sum = "2cb2aa0efc6b4cd27f3cd0c44f84f072babe1012"
 depends = "['adwaita-icon-theme', 'colord', 'gdk-pixbuf2>=2.38.1-2', 'graphene', 'gst1-plugins-bad>=1.22.1', 'gtk+3-tools', 'gtk-update-icon-cache', 'libatspi>=2.32.0', 'libcups>=2.2.0-2', 'libepoxy>=1.3.1-3', 'libffi>=3.2.1-2', 'libpng>=1.6.25', 'libwayland-egl', 'libxcomposite>=0.4.4-2', 'libxcursor>=1.1.14-2', 'libxi', 'libxinerama', 'libxkbcommon>=0.5.0-3', 'libxrandr', 'pango>=1.42.4-2', 'sassc', 'shared-mime-info', 'vulkan-icd-loader', 'wayland-protocols>=1.7-2']"
 reverse_depends = "['celluloid', 'chromium-browser', 'colord-gtk4', 'gcr', 'gnome-desktop', 'granite', 'gssdp', 'gtk+4-demos', 'gtk+4-tools', 'gtk-handbrake', 'gtkmm', 'gtksourceview5', 'ibus', 'lact', 'libadwaita', 'libnma-gtk4', 'libpanel', 'libportal-gtk4', 'vte3']"
 +++

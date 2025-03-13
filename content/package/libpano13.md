@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libpano13 2.9.22-1"
-version = "2.9.22-1"
+title = "libpano13 2.9.22-2"
+version = "2.9.22-2"
 description = "Basic library to calculate panoramical pictures - core functions of the panotools."
-date = "2025-01-03T20:31:22"
+date = "2025-03-13T17:10:47"
 aliases = "/packages/136007"
 categories = ['lib-extra']
 upstreamurl = "https://sourceforge.net/projects/panotools"
 arch = "x86_64"
-size = "289888"
-usize = "948497"
-sha1sum = "5ce6fcede6a5e6f1d9cf0c4a6a8e57606358e624"
-depends = "['libjpeg-turbo', 'libpng', 'libtiff']"
+size = "289232"
+usize = "947121"
+sha1sum = "4fca5154b427e7c5d3d7ce3dfe2e3e58dfbf62e0"
+depends = "['libjpeg-turbo', 'libpng', 'libtiff>=4.7.0']"
 reverse_depends = "['autopano-sift-c']"
 +++
 ### Description: 

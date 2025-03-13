@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "python3-pillow 11.1.0-1"
-version = "11.1.0-1"
+title = "python3-pillow 11.1.0-2"
+version = "11.1.0-2"
 description = "Python Imaging Library (PIL) fork"
-date = "2025-01-03T14:03:47"
+date = "2025-03-13T16:29:26"
 aliases = "/packages/219182"
 categories = ['xlib-extra']
 upstreamurl = "http://pypi.python.org/pypi/pillow"
 arch = "x86_64"
-size = "799644"
-usize = "3107931"
-sha1sum = "6cb83d8c4978accc2f201045133ca490448f7f34"
-depends = "['libtiff', 'libwebp', 'openjpeg', 'python3-pytz', 'sane-backends', 'tk']"
+size = "798444"
+usize = "3108867"
+sha1sum = "85bcc2cfff572a4329b695106dc1f385f6780c74"
+depends = "['libtiff>=4.7.0', 'libwebp', 'openjpeg', 'python3-pytz', 'sane-backends', 'tk']"
 reverse_depends = "['calibre', 'discover-overlay', 'face_recognition', 'howdy', 'protontricks', 'python3-nml', 'wxpython']"
 +++
 ### Description: 

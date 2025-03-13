@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "sane-backends 1.3.1-3"
-version = "1.3.1-3"
+title = "sane-backends 1.3.1-4"
+version = "1.3.1-4"
 description = "Scanner Access Now Easy"
-date = "2024-06-18T13:48:13"
+date = "2025-03-13T16:40:58"
 aliases = "/packages/3327"
 categories = ['multimedia']
 upstreamurl = "http://www.sane-project.org"
 arch = "x86_64"
-size = "4073148"
-usize = "20407003"
-sha1sum = "0993fbb57707b263df53943a34931e2ca267e55d"
-depends = "['avahi', 'curl', 'libgphoto2>=2.5.9-2', 'libieee1284>=0.2.11-4', 'libjpeg-turbo', 'libsystemd>=242-3', 'libtiff>=3.2.1-2', 'libusb1>=1.0.20-5', 'poppler-glib', 'v4l-utils']"
+size = "4032240"
+usize = "20490562"
+sha1sum = "e372bca1c591d7d388759a5d0d1ecfa96d360666"
+depends = "['avahi', 'curl', 'libgphoto2>=2.5.9-2', 'libieee1284>=0.2.11-4', 'libjpeg-turbo', 'libsystemd>=242-3', 'libtiff>=4.2.4', 'libusb1>=1.0.20-5', 'poppler-glib', 'v4l-utils']"
 reverse_depends = "['hplip', 'ksanecore', 'libreoffice', 'python3-pillow', 'python3-sane', 'wine', 'wine-devel', 'xsane']"
 +++
 ### Description: 

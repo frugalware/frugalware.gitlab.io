@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libheif 1.19.7-1"
-version = "1.19.7-1"
+title = "libheif 1.19.7-2"
+version = "1.19.7-2"
 description = "HEIF file format decoder and encoder"
-date = "2025-03-03T15:51:24"
+date = "2025-03-13T16:16:22"
 aliases = "/packages/220876"
 categories = ['lib']
 upstreamurl = "https://github.com/strukturag/libheif"
 arch = "x86_64"
-size = "398052"
-usize = "1342822"
-sha1sum = "d854bc3ed07576d8b8b779ab25ec780b3c6cef5e"
+size = "397920"
+usize = "1342534"
+sha1sum = "ba52f07ed4daf5ad5c5c738fd6186e99ded2c61e"
 depends = "['aom', 'dav1d>=1.3.0', 'libde265', 'libwebp', 'rav1e', 'x265>=4.1']"
 reverse_depends = "['gd', 'gdal', 'gimp', 'graphicsmagick', 'imagemagick', 'kimageformats', 'kimageformats5', 'krita', 'libheif-gdk-pixbuf', 'libheif-tools', 'libvips', 'openimageio']"
 +++

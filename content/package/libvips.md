@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libvips 8.16.0-1"
-version = "8.16.0-1"
+title = "libvips 8.16.1-1"
+version = "8.16.1-1"
 description = "A fast image processing library with low memory needs"
-date = "2024-11-11T13:00:46"
+date = "2025-03-13T16:27:45"
 aliases = "/packages/220436"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/libvips/libvips"
 arch = "x86_64"
-size = "1430604"
-usize = "5776349"
-sha1sum = "d3d2b6bb74cef3da991e81b2c167e504217d4644"
+size = "1432056"
+usize = "5777627"
+sha1sum = "717daf51460fea84910d91d0835b5b982d47972b"
 depends = "['cfitsio>=4.2.0', 'fftw', 'imagemagick>=7.1.1', 'libexif', 'libgsf', 'libheif', 'librsvg', 'libwebp', 'libxml2', 'openexr>=3.3.0', 'orc', 'pango', 'poppler-glib']"
 reverse_depends = "['signal-desktop']"
 +++
@@ -80,17 +80,17 @@ A fast image processing library with low memory needs
 * /usr/lib/girepository-1.0/Vips-8.0.typelib
 * /usr/lib/libvips-cpp.so
 * /usr/lib/libvips-cpp.so.42
-* /usr/lib/libvips-cpp.so.42.18.0
+* /usr/lib/libvips-cpp.so.42.18.1
 * /usr/lib/libvips.so
 * /usr/lib/libvips.so.42
-* /usr/lib/libvips.so.42.18.0
+* /usr/lib/libvips.so.42.18.1
 * /usr/lib/pkgconfig/vips-cpp.pc
 * /usr/lib/pkgconfig/vips.pc
 * /usr/lib/vips-modules-8.16/vips-heif.so
 * /usr/lib/vips-modules-8.16/vips-magick.so
-* /usr/share/doc/libvips-8.16.0/ChangeLog
-* /usr/share/doc/libvips-8.16.0/LICENSE
-* /usr/share/doc/libvips-8.16.0/README.md
+* /usr/share/doc/libvips-8.16.1/ChangeLog
+* /usr/share/doc/libvips-8.16.1/LICENSE
+* /usr/share/doc/libvips-8.16.1/README.md
 * /usr/share/gir-1.0/Vips-8.0.gir
 * /usr/share/man/man1/vips.1.gz
 * /usr/share/man/man1/vipsedit.1.gz

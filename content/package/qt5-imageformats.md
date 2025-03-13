@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qt5-imageformats 5.15.16-1"
-version = "5.15.16-1"
+title = "qt5-imageformats 5.15.16-2"
+version = "5.15.16-2"
 description = "The Qt5 toolkit, qtimageformats"
-date = "2024-11-15T20:45:51"
+date = "2025-03-13T16:31:28"
 aliases = "/packages/217617"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "54116"
-usize = "192210"
-sha1sum = "f64e1edb44f4e3bfaeccead3a1da29205cc9af50"
-depends = "['jasper>=2.0.10', 'libmng>=2.0.3', 'libtiff>=4.0.6', 'libwebp>=0.6.0', 'qt5-base>=5.15.16']"
+size = "53540"
+usize = "190858"
+sha1sum = "c2bbc39290149d703efbd23f862be2f02e2cac1e"
+depends = "['jasper>=2.0.10', 'libmng>=2.0.3', 'libtiff>=4.7.0', 'libwebp>=0.6.0', 'qt5-base>=5.15.16']"
 reverse_depends = "['otter-browser']"
 +++
 ### Description: 
