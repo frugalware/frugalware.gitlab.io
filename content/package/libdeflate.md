@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "libdeflate 1.23-1"
-version = "1.23-1"
+title = "libdeflate 1.23-2"
+version = "1.23-2"
 description = "Heavily optimized library for DEFLATE/zlib/gzip compression and decompression"
-date = "2024-12-16T17:22:51"
+date = "2025-03-13T14:37:30"
 aliases = "/packages/221169"
 categories = ['lib']
 upstreamurl = "https://github.com/ebiggers/libdeflate"
 arch = "x86_64"
-size = "64628"
-usize = "210134"
-sha1sum = "1edbc021bb2dbe92a8221fafd32caa1b116dd08d"
+size = "64608"
+usize = "209918"
+sha1sum = "4c172965b55e77ce712236581ddf6e3bc880d2e0"
 depends = "[]"
-reverse_depends = "['gdal', 'openexr', 'transmission-cli']"
+reverse_depends = "['gdal', 'libtiff', 'openexr', 'transmission-cli']"
 +++
 ### Description: 
 Heavily optimized library for DEFLATE/zlib/gzip compression and decompression

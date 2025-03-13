@@ -12,7 +12,7 @@ size = "356728"
 usize = "1987333"
 sha1sum = "b390f26a11ce1b9767b4d203f6a95644284b5c52"
 depends = "[]"
-reverse_depends = "['lib32-gdk-pixbuf2', 'lib32-imlib2', 'lib32-lcms2', 'lib32-libwebp', 'lib32-v4l-utils']"
+reverse_depends = "['lib32-gdk-pixbuf2', 'lib32-imlib2', 'lib32-lcms2', 'lib32-libtiff', 'lib32-libwebp', 'lib32-v4l-utils']"
 +++
 ### Description: 
 JPEG image codec that uses SIMD instructions ( 32bit )

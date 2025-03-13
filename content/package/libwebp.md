@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libwebp 1.5.0-1"
-version = "1.5.0-1"
+title = "libwebp 1.5.0-2"
+version = "1.5.0-2"
 description = "A library for a new image format comparable to JPEG."
-date = "2024-12-20T22:52:10"
+date = "2025-03-13T14:59:59"
 aliases = "/packages/136572"
 categories = ['lib']
 upstreamurl = "https://github.com/webmproject/libwebp"
 arch = "x86_64"
-size = "441008"
-usize = "1410802"
-sha1sum = "c17f3eee205066b31c8eb977d8bf9d14a14cec06"
-depends = "['libgif', 'libjpeg-turbo', 'libpng>=1.6.25', 'libtiff>=4.0.10-2']"
+size = "441092"
+usize = "1410146"
+sha1sum = "3b4d32f993df733cdbaeb7fc571710eaf49271df"
+depends = "['libgif', 'libjpeg-turbo', 'libpng>=1.6.25', 'libtiff>=4.7.0']"
 reverse_depends = "['chromium-browser', 'efl', 'freeimage', 'gd', 'gegl', 'graphicsmagick', 'imagemagick', 'libheif', 'libvips', 'opencv', 'openimageio', 'python3-pillow', 'qt5-imageformats', 'qt5-webengine', 'qt6-imageformats', 'sdl2_image', 'sdl3_image', 'thunderbird', 'webkit-gtk3', 'weston']"
 +++
 ### Description: 

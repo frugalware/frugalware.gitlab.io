@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "lcms2 2.17-1"
-version = "2.17-1"
+title = "lcms2 2.17-2"
+version = "2.17-2"
 description = "Lightweight color management development library/engine"
-date = "2025-02-11T09:38:35"
+date = "2025-03-13T15:12:24"
 aliases = "/packages/118773"
 categories = ['lib']
 upstreamurl = "https://sourceforge.net/projects/lcms"
 arch = "x86_64"
-size = "213840"
-usize = "690222"
-sha1sum = "785c4bd18cd07471fb3c6ac24ad70bc16a8c7447"
-depends = "['libjpeg-turbo', 'libtiff>=4.0.6-2']"
+size = "213924"
+usize = "690270"
+sha1sum = "9d6a8414128589e69497c20ba9ac5dc5eca5c1d9"
+depends = "['libjpeg-turbo', 'libtiff>=4.7.0']"
 reverse_depends = "['babl', 'colord', 'dcraw', 'enblend-enfuse', 'firefox', 'ghostscript', 'imagemagick', 'kitty', 'kwin', 'libcdr', 'libfreehand', 'libmng', 'libplacebo', 'libraw', 'nufraw', 'opencolorio', 'openjpeg', 'openjre', 'poppler-pdftools', 'qt5-webengine', 'weston', 'wine', 'wine-devel']"
 +++
 ### Description: 

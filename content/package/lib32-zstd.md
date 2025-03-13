@@ -12,7 +12,7 @@ size = "462440"
 usize = "1576571"
 sha1sum = "44b777621d527e120e88eeef75459f445fbb7f86"
 depends = "['lib32-lz4>=1.9.1-2', 'lib32-xz>=5.2.4-2', 'lib32-zlib-ng']"
-reverse_depends = "['lib32-binutils', 'lib32-curl', 'lib32-elfutils', 'lib32-file', 'lib32-gnutls', 'lib32-libarchive', 'lib32-libcurl-gnutls', 'lib32-libosmesa', 'lib32-libsystemd', 'lib32-libzip', 'lib32-llvm-libs', 'lib32-mesa-dri-drivers', 'lib32-mesa-nine', 'lib32-mesa-vulkan-amd', 'lib32-mesa-vulkan-intel', 'lib32-mesa-vulkan-swrast', 'lib32-pipewire']"
+reverse_depends = "['lib32-binutils', 'lib32-curl', 'lib32-elfutils', 'lib32-file', 'lib32-gnutls', 'lib32-libarchive', 'lib32-libcurl-gnutls', 'lib32-libosmesa', 'lib32-libsystemd', 'lib32-libtiff', 'lib32-libzip', 'lib32-llvm-libs', 'lib32-mesa-dri-drivers', 'lib32-mesa-nine', 'lib32-mesa-vulkan-amd', 'lib32-mesa-vulkan-intel', 'lib32-mesa-vulkan-swrast', 'lib32-pipewire']"
 +++
 ### Description: 
 Zstandard - Fast real-time compression algorithm ( 32bit )

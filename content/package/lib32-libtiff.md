@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "lib32-libtiff 4.4.0-3"
-version = "4.4.0-3"
+title = "lib32-libtiff 4.7.0-2"
+version = "4.7.0-2"
 description = "Library for manipulation of TIFF images ( 32bit )"
-date = "2024-05-16T02:37:06"
+date = "2025-03-13T14:58:01"
 aliases = "/packages/217703"
 categories = ['lib32-extra']
-upstreamurl = "http://libtiff.maptools.org"
+upstreamurl = "http://www.simplesystems.org/libtiff"
 arch = "x86_64"
-size = "324832"
-usize = "1199912"
-sha1sum = "2eee11ff63f3604056dacd5516be2f7024e8121c"
-depends = "['lib32-xz>=5.2.2-5', 'lib32-zlib>=1.2.12']"
+size = "389764"
+usize = "1362675"
+sha1sum = "660bbffecc1508cce547e3282af424679633c4ac"
+depends = "['lib32-freeglut', 'lib32-libdeflate', 'lib32-libjpeg-turbo', 'lib32-xz>=5.2.2-5', 'lib32-zlib>=1.2.12', 'lib32-zstd']"
 reverse_depends = "['lib32-gdk-pixbuf2', 'lib32-imlib2', 'lib32-lcms2', 'lib32-libwebp', 'lib32-openjpeg', 'lib32-sdl2_image', 'lib32-sdl3_image']"
 +++
 ### Description: 
@@ -32,6 +32,7 @@ Library for manipulation of TIFF images ( 32bit )
 * /usr/i686-frugalware-linux/bin/tiffcrop
 * /usr/i686-frugalware-linux/bin/tiffdither
 * /usr/i686-frugalware-linux/bin/tiffdump
+* /usr/i686-frugalware-linux/bin/tiffgt
 * /usr/i686-frugalware-linux/bin/tiffinfo
 * /usr/i686-frugalware-linux/bin/tiffmedian
 * /usr/i686-frugalware-linux/bin/tiffset
@@ -42,9 +43,9 @@ Library for manipulation of TIFF images ( 32bit )
 * /usr/i686-frugalware-linux/include/tiffio.hxx
 * /usr/i686-frugalware-linux/include/tiffvers.h
 * /usr/lib32/libtiff.so
-* /usr/lib32/libtiff.so.5
-* /usr/lib32/libtiff.so.5.8.0
+* /usr/lib32/libtiff.so.6
+* /usr/lib32/libtiff.so.6.1.0
 * /usr/lib32/libtiffxx.so
-* /usr/lib32/libtiffxx.so.5
-* /usr/lib32/libtiffxx.so.5.8.0
+* /usr/lib32/libtiffxx.so.6
+* /usr/lib32/libtiffxx.so.6.1.0
 * /usr/lib32/pkgconfig/libtiff-4.pc

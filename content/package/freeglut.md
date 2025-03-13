@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "freeglut 3.6.0-2"
-version = "3.6.0-2"
+title = "freeglut 3.6.0-3"
+version = "3.6.0-3"
 description = "The free OpenGL utility toolkit, alternative to the GLUT library"
-date = "2024-11-10T14:56:38"
+date = "2025-03-13T14:40:37"
 aliases = "/packages/5085"
 categories = ['xlib']
 upstreamurl = "http://freeglut.sourceforge.net"
 arch = "x86_64"
-size = "148440"
-usize = "601931"
-sha1sum = "3ef00b12c6a020ec40d0a88d0baf3da07f5319a6"
+size = "148536"
+usize = "602700"
+sha1sum = "a0e457d2a186310de700164dac0dc637757b2827"
 depends = "['libglu', 'libglvnd', 'libxi>=1.7.6-2', 'libxxf86vm']"
-reverse_depends = "['alienarena', 'flightgear', 'graphviz', 'mesademos', 'mupdf-gl', 'openal', 'opencolorio', 'opencsg']"
+reverse_depends = "['alienarena', 'flightgear', 'graphviz', 'libtiff', 'mesademos', 'mupdf-gl', 'openal', 'opencolorio', 'opencsg']"
 +++
 ### Description: 
 The free OpenGL utility toolkit, alternative to the GLUT library
