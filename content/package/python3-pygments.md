@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-pygments 2.16.1-3"
-version = "2.16.1-3"
+title = "python3-pygments 2.19.1-1"
+version = "2.19.1-1"
 description = "Pygments is a fast syntax highlighter written in Python with a special focus on details. (Python3)"
-date = "2024-11-02T17:00:42"
+date = "2025-03-14T09:49:21"
 aliases = "/packages/219989"
 categories = ['devel-extra']
 upstreamurl = "http://pygments.org/"
 arch = "x86_64"
-size = "1751456"
-usize = "11671120"
-sha1sum = "bf4356c826bff8351c17bb6a2ed1fc3253fdb2b9"
+size = "1828700"
+usize = "12242551"
+sha1sum = "d7c61d6560dcbf9aae35e462763806deb322f13c"
 depends = "['python3>=3.13']"
 reverse_depends = "['gi-docgen', 'kitty', 'python3-mako', 'python3-myst-parser', 'python3-rich', 'python3-sphinx']"
 +++
@@ -19,13 +19,12 @@ Pygments is a fast syntax highlighter written in Python with a special focus on 
 
 ### Files: 
 * /usr/bin/pygmentize
-* /usr/lib/python3.13/site-packages/Pygments-2.16.1.dist-info/AUTHORS
-* /usr/lib/python3.13/site-packages/Pygments-2.16.1.dist-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/Pygments-2.16.1.dist-info/LICENSE
-* /usr/lib/python3.13/site-packages/Pygments-2.16.1.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/Pygments-2.16.1.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/Pygments-2.16.1.dist-info/top_level.txt
-* /usr/lib/python3.13/site-packages/Pygments-2.16.1.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/pygments-2.19.1.dist-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/pygments-2.19.1.dist-info/licenses/AUTHORS
+* /usr/lib/python3.13/site-packages/pygments-2.19.1.dist-info/licenses/LICENSE
+* /usr/lib/python3.13/site-packages/pygments-2.19.1.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/pygments-2.19.1.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/pygments-2.19.1.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/pygments/cmdline.py
 * /usr/lib/python3.13/site-packages/pygments/console.py
 * /usr/lib/python3.13/site-packages/pygments/filter.py
@@ -106,6 +105,7 @@ Pygments is a fast syntax highlighter written in Python with a special focus on 
 * /usr/lib/python3.13/site-packages/pygments/lexers/cddl.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/chapel.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/clean.py
+* /usr/lib/python3.13/site-packages/pygments/lexers/codeql.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/comal.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/compiled.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/configs.py
@@ -148,6 +148,7 @@ Pygments is a fast syntax highlighter written in Python with a special focus on 
 * /usr/lib/python3.13/site-packages/pygments/lexers/futhark.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/gcodelexer.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/gdscript.py
+* /usr/lib/python3.13/site-packages/pygments/lexers/gleam.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/go.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/grammar_notation.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/graph.py
@@ -155,6 +156,7 @@ Pygments is a fast syntax highlighter written in Python with a special focus on 
 * /usr/lib/python3.13/site-packages/pygments/lexers/graphql.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/graphviz.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/gsql.py
+* /usr/lib/python3.13/site-packages/pygments/lexers/hare.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/haskell.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/haxe.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/hdl.py
@@ -170,14 +172,20 @@ Pygments is a fast syntax highlighter written in Python with a special focus on 
 * /usr/lib/python3.13/site-packages/pygments/lexers/javascript.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/jmespath.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/jslt.py
+* /usr/lib/python3.13/site-packages/pygments/lexers/json5.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/jsonnet.py
+* /usr/lib/python3.13/site-packages/pygments/lexers/jsx.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/julia.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/jvm.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/kuin.py
+* /usr/lib/python3.13/site-packages/pygments/lexers/kusto.py
+* /usr/lib/python3.13/site-packages/pygments/lexers/ldap.py
+* /usr/lib/python3.13/site-packages/pygments/lexers/lean.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/lilypond.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/lisp.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/macaulay2.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/make.py
+* /usr/lib/python3.13/site-packages/pygments/lexers/maple.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/markup.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/math.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/matlab.py
@@ -189,12 +197,14 @@ Pygments is a fast syntax highlighter written in Python with a special focus on 
 * /usr/lib/python3.13/site-packages/pygments/lexers/ml.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/modeling.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/modula2.py
+* /usr/lib/python3.13/site-packages/pygments/lexers/mojo.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/monte.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/mosel.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/ncl.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/nimrod.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/nit.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/nix.py
+* /usr/lib/python3.13/site-packages/pygments/lexers/numbair.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/oberon.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/objective.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/ooc.py
@@ -204,6 +214,7 @@ Pygments is a fast syntax highlighter written in Python with a special focus on 
 * /usr/lib/python3.13/site-packages/pygments/lexers/parsers.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/pascal.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/pawn.py
+* /usr/lib/python3.13/site-packages/pygments/lexers/pddl.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/perl.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/phix.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/php.py
@@ -213,6 +224,7 @@ Pygments is a fast syntax highlighter written in Python with a special focus on 
 * /usr/lib/python3.13/site-packages/pygments/lexers/procfile.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/prolog.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/promql.py
+* /usr/lib/python3.13/site-packages/pygments/lexers/prql.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/ptx.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/python.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/q.py
@@ -221,6 +233,7 @@ Pygments is a fast syntax highlighter written in Python with a special focus on 
 * /usr/lib/python3.13/site-packages/pygments/lexers/r.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/rdf.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/rebol.py
+* /usr/lib/python3.13/site-packages/pygments/lexers/rego.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/resource.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/ride.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/rita.py
@@ -242,6 +255,7 @@ Pygments is a fast syntax highlighter written in Python with a special focus on 
 * /usr/lib/python3.13/site-packages/pygments/lexers/smv.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/snobol.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/solidity.py
+* /usr/lib/python3.13/site-packages/pygments/lexers/soong.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/sophia.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/special.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/spice.py
@@ -249,6 +263,8 @@ Pygments is a fast syntax highlighter written in Python with a special focus on 
 * /usr/lib/python3.13/site-packages/pygments/lexers/srcinfo.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/stata.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/supercollider.py
+* /usr/lib/python3.13/site-packages/pygments/lexers/tablegen.py
+* /usr/lib/python3.13/site-packages/pygments/lexers/tact.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/tal.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/tcl.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/teal.py
@@ -265,6 +281,7 @@ Pygments is a fast syntax highlighter written in Python with a special focus on 
 * /usr/lib/python3.13/site-packages/pygments/lexers/tnt.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/trafficscript.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/typoscript.py
+* /usr/lib/python3.13/site-packages/pygments/lexers/typst.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/ul4.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/unicon.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/urbi.py
@@ -272,6 +289,8 @@ Pygments is a fast syntax highlighter written in Python with a special focus on 
 * /usr/lib/python3.13/site-packages/pygments/lexers/varnish.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/verification.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/verifpal.py
+* /usr/lib/python3.13/site-packages/pygments/lexers/vip.py
+* /usr/lib/python3.13/site-packages/pygments/lexers/vyper.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/web.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/webassembly.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/webidl.py
@@ -291,9 +310,11 @@ Pygments is a fast syntax highlighter written in Python with a special focus on 
 * /usr/lib/python3.13/site-packages/pygments/lexers/_cocoa_builtins.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/_csound_builtins.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/_css_builtins.py
+* /usr/lib/python3.13/site-packages/pygments/lexers/_googlesql_builtins.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/_julia_builtins.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/_lasso_builtins.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/_lilypond_builtins.py
+* /usr/lib/python3.13/site-packages/pygments/lexers/_luau_builtins.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/_lua_builtins.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/_mapping.py
 * /usr/lib/python3.13/site-packages/pygments/lexers/_mql_builtins.py
@@ -372,6 +393,8 @@ Pygments is a fast syntax highlighter written in Python with a special focus on 
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/chapel.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/clean.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/clean.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/codeql.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/codeql.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/comal.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/comal.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/compiled.cpython-313.opt-1.pyc
@@ -456,6 +479,8 @@ Pygments is a fast syntax highlighter written in Python with a special focus on 
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/gcodelexer.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/gdscript.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/gdscript.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/gleam.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/gleam.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/go.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/go.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/grammar_notation.cpython-313.opt-1.pyc
@@ -470,6 +495,8 @@ Pygments is a fast syntax highlighter written in Python with a special focus on 
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/graphviz.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/gsql.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/gsql.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/hare.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/hare.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/haskell.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/haskell.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/haxe.cpython-313.opt-1.pyc
@@ -500,14 +527,24 @@ Pygments is a fast syntax highlighter written in Python with a special focus on 
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/jmespath.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/jslt.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/jslt.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/json5.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/json5.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/jsonnet.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/jsonnet.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/jsx.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/jsx.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/julia.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/julia.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/jvm.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/jvm.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/kuin.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/kuin.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/kusto.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/kusto.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/ldap.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/ldap.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/lean.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/lean.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/lilypond.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/lilypond.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/lisp.cpython-313.opt-1.pyc
@@ -516,6 +553,8 @@ Pygments is a fast syntax highlighter written in Python with a special focus on 
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/macaulay2.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/make.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/make.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/maple.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/maple.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/markup.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/markup.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/math.cpython-313.opt-1.pyc
@@ -538,6 +577,8 @@ Pygments is a fast syntax highlighter written in Python with a special focus on 
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/modeling.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/modula2.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/modula2.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/mojo.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/mojo.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/monte.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/monte.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/mosel.cpython-313.opt-1.pyc
@@ -550,6 +591,8 @@ Pygments is a fast syntax highlighter written in Python with a special focus on 
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/nit.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/nix.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/nix.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/numbair.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/numbair.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/oberon.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/oberon.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/objective.cpython-313.opt-1.pyc
@@ -568,6 +611,8 @@ Pygments is a fast syntax highlighter written in Python with a special focus on 
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/pascal.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/pawn.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/pawn.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/pddl.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/pddl.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/perl.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/perl.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/phix.cpython-313.opt-1.pyc
@@ -586,6 +631,8 @@ Pygments is a fast syntax highlighter written in Python with a special focus on 
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/prolog.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/promql.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/promql.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/prql.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/prql.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/ptx.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/ptx.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/python.cpython-313.opt-1.pyc
@@ -602,6 +649,8 @@ Pygments is a fast syntax highlighter written in Python with a special focus on 
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/rdf.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/rebol.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/rebol.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/rego.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/rego.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/resource.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/resource.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/ride.cpython-313.opt-1.pyc
@@ -644,6 +693,8 @@ Pygments is a fast syntax highlighter written in Python with a special focus on 
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/snobol.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/solidity.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/solidity.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/soong.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/soong.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/sophia.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/sophia.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/special.cpython-313.opt-1.pyc
@@ -658,6 +709,10 @@ Pygments is a fast syntax highlighter written in Python with a special focus on 
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/stata.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/supercollider.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/supercollider.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/tablegen.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/tablegen.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/tact.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/tact.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/tal.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/tal.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/tcl.cpython-313.opt-1.pyc
@@ -690,6 +745,8 @@ Pygments is a fast syntax highlighter written in Python with a special focus on 
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/trafficscript.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/typoscript.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/typoscript.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/typst.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/typst.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/ul4.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/ul4.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/unicon.cpython-313.opt-1.pyc
@@ -704,6 +761,10 @@ Pygments is a fast syntax highlighter written in Python with a special focus on 
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/verification.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/verifpal.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/verifpal.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/vip.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/vip.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/vyper.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/vyper.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/web.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/web.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/webassembly.cpython-313.opt-1.pyc
@@ -742,12 +803,16 @@ Pygments is a fast syntax highlighter written in Python with a special focus on 
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/_csound_builtins.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/_css_builtins.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/_css_builtins.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/_googlesql_builtins.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/_googlesql_builtins.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/_julia_builtins.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/_julia_builtins.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/_lasso_builtins.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/_lasso_builtins.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/_lilypond_builtins.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/_lilypond_builtins.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/_luau_builtins.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/_luau_builtins.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/_lua_builtins.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/_lua_builtins.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/lexers/__pycache__/_mapping.cpython-313.opt-1.pyc
@@ -797,6 +862,7 @@ Pygments is a fast syntax highlighter written in Python with a special focus on 
 * /usr/lib/python3.13/site-packages/pygments/styles/autumn.py
 * /usr/lib/python3.13/site-packages/pygments/styles/borland.py
 * /usr/lib/python3.13/site-packages/pygments/styles/bw.py
+* /usr/lib/python3.13/site-packages/pygments/styles/coffee.py
 * /usr/lib/python3.13/site-packages/pygments/styles/colorful.py
 * /usr/lib/python3.13/site-packages/pygments/styles/default.py
 * /usr/lib/python3.13/site-packages/pygments/styles/dracula.py
@@ -835,6 +901,7 @@ Pygments is a fast syntax highlighter written in Python with a special focus on 
 * /usr/lib/python3.13/site-packages/pygments/styles/vs.py
 * /usr/lib/python3.13/site-packages/pygments/styles/xcode.py
 * /usr/lib/python3.13/site-packages/pygments/styles/zenburn.py
+* /usr/lib/python3.13/site-packages/pygments/styles/_mapping.py
 * /usr/lib/python3.13/site-packages/pygments/styles/__init__.py
 * /usr/lib/python3.13/site-packages/pygments/styles/__pycache__/abap.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pygments/styles/__pycache__/abap.cpython-313.pyc
@@ -850,6 +917,8 @@ Pygments is a fast syntax highlighter written in Python with a special focus on 
 * /usr/lib/python3.13/site-packages/pygments/styles/__pycache__/borland.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/styles/__pycache__/bw.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pygments/styles/__pycache__/bw.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/pygments/styles/__pycache__/coffee.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/pygments/styles/__pycache__/coffee.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/styles/__pycache__/colorful.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pygments/styles/__pycache__/colorful.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/styles/__pycache__/default.cpython-313.opt-1.pyc
@@ -926,6 +995,8 @@ Pygments is a fast syntax highlighter written in Python with a special focus on 
 * /usr/lib/python3.13/site-packages/pygments/styles/__pycache__/xcode.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/styles/__pycache__/zenburn.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pygments/styles/__pycache__/zenburn.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/pygments/styles/__pycache__/_mapping.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/pygments/styles/__pycache__/_mapping.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/styles/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pygments/styles/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/token.py
@@ -965,11 +1036,7 @@ Pygments is a fast syntax highlighter written in Python with a special focus on 
 * /usr/lib/python3.13/site-packages/pygments/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pygments/__pycache__/__main__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pygments/__pycache__/__main__.cpython-313.pyc
-* /usr/share/doc/python3-pygments-2.16.1/AUTHORS
-* /usr/share/doc/python3-pygments-2.16.1/CHANGES
-* /usr/share/doc/python3-pygments-2.16.1/COPYING
-* /usr/share/doc/python3-pygments-2.16.1/HACKING
-* /usr/share/doc/python3-pygments-2.16.1/LICENSE
-* /usr/share/doc/python3-pygments-2.16.1/NEWS
-* /usr/share/doc/python3-pygments-2.16.1/README.md
-* /usr/share/doc/python3-pygments-2.16.1/README.rst
+* /usr/share/doc/python3-pygments-2.19.1/AUTHORS
+* /usr/share/doc/python3-pygments-2.19.1/CHANGES
+* /usr/share/doc/python3-pygments-2.19.1/LICENSE
+* /usr/share/doc/python3-pygments-2.19.1/README.rst

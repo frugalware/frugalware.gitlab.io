@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "python3-sphinx 8.1.3-1"
-version = "8.1.3-1"
+title = "python3-sphinx 8.3.0-1"
+version = "8.3.0-1"
 description = "Python documentation generator"
-date = "2024-11-02T17:10:38"
+date = "2025-03-14T10:02:18"
 aliases = "/packages/219852"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/Sphinx"
 arch = "x86_64"
-size = "2174936"
-usize = "20289538"
-sha1sum = "072814629ea6af897e0f1d3a1915cfd920dd1087"
-depends = "['docutils', 'python3>=3.13', 'python3-alabaster', 'python3-babel', 'python3-imagesize', 'python3-jinja', 'python3-pygments', 'python3-requests', 'python3-setuptools', 'python3-snowballstemmer', 'python3-sphinx-applehelp', 'python3-sphinx-devhelp', 'python3-sphinx-htmlhelp', 'python3-sphinx-jsmath', 'python3-sphinx-qthelp', 'python3-sphinx-serializinghtml']"
+size = "2225812"
+usize = "20915955"
+sha1sum = "8a542fbcd0d58762199489657bf6c827e5042ca6"
+depends = "['docutils', 'python3>=3.13', 'python3-alabaster', 'python3-babel', 'python3-charset-normalizer', 'python3-imagesize', 'python3-jinja', 'python3-pygments', 'python3-requests', 'python3-roman-numerals-py', 'python3-setuptools', 'python3-snowballstemmer', 'python3-sphinx-applehelp', 'python3-sphinx-devhelp', 'python3-sphinx-htmlhelp', 'python3-sphinx-jsmath', 'python3-sphinx-qthelp', 'python3-sphinx-serializinghtml']"
 reverse_depends = "['python3-breathe', 'python3-guzzle-sphinx-theme', 'python3-hawkmoth', 'python3-myst-parser', 'sphinx-httpdomain', 'sphinx-jquery', 'sphinx-websupport']"
 +++
 ### Description: 
@@ -22,11 +22,11 @@ Python documentation generator
 * /usr/bin/sphinx-autogen
 * /usr/bin/sphinx-build
 * /usr/bin/sphinx-quickstart
-* /usr/lib/python3.13/site-packages/sphinx-8.1.3.dist-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/sphinx-8.1.3.dist-info/LICENSE.rst
-* /usr/lib/python3.13/site-packages/sphinx-8.1.3.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/sphinx-8.1.3.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/sphinx-8.1.3.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/sphinx-8.3.0.dist-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/sphinx-8.3.0.dist-info/licenses/LICENSE.rst
+* /usr/lib/python3.13/site-packages/sphinx-8.3.0.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/sphinx-8.3.0.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/sphinx-8.3.0.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/sphinx/addnodes.py
 * /usr/lib/python3.13/site-packages/sphinx/application.py
 * /usr/lib/python3.13/site-packages/sphinx/builders/changes.py
@@ -34,12 +34,9 @@ Python documentation generator
 * /usr/lib/python3.13/site-packages/sphinx/builders/dummy.py
 * /usr/lib/python3.13/site-packages/sphinx/builders/epub3.py
 * /usr/lib/python3.13/site-packages/sphinx/builders/gettext.py
-* /usr/lib/python3.13/site-packages/sphinx/builders/html/transforms.py
 * /usr/lib/python3.13/site-packages/sphinx/builders/html/_assets.py
 * /usr/lib/python3.13/site-packages/sphinx/builders/html/_build_info.py
 * /usr/lib/python3.13/site-packages/sphinx/builders/html/__init__.py
-* /usr/lib/python3.13/site-packages/sphinx/builders/html/__pycache__/transforms.cpython-313.opt-1.pyc
-* /usr/lib/python3.13/site-packages/sphinx/builders/html/__pycache__/transforms.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/sphinx/builders/html/__pycache__/_assets.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/sphinx/builders/html/__pycache__/_assets.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/sphinx/builders/html/__pycache__/_build_info.cpython-313.opt-1.pyc
@@ -112,10 +109,13 @@ Python documentation generator
 * /usr/lib/python3.13/site-packages/sphinx/cmd/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/sphinx/config.py
 * /usr/lib/python3.13/site-packages/sphinx/deprecation.py
+* /usr/lib/python3.13/site-packages/sphinx/directives/admonitions.py
 * /usr/lib/python3.13/site-packages/sphinx/directives/code.py
 * /usr/lib/python3.13/site-packages/sphinx/directives/other.py
 * /usr/lib/python3.13/site-packages/sphinx/directives/patches.py
 * /usr/lib/python3.13/site-packages/sphinx/directives/__init__.py
+* /usr/lib/python3.13/site-packages/sphinx/directives/__pycache__/admonitions.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/sphinx/directives/__pycache__/admonitions.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/sphinx/directives/__pycache__/code.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/sphinx/directives/__pycache__/code.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/sphinx/directives/__pycache__/other.cpython-313.opt-1.pyc
@@ -228,7 +228,24 @@ Python documentation generator
 * /usr/lib/python3.13/site-packages/sphinx/environment/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/sphinx/errors.py
 * /usr/lib/python3.13/site-packages/sphinx/events.py
-* /usr/lib/python3.13/site-packages/sphinx/ext/apidoc.py
+* /usr/lib/python3.13/site-packages/sphinx/ext/apidoc/_cli.py
+* /usr/lib/python3.13/site-packages/sphinx/ext/apidoc/_extension.py
+* /usr/lib/python3.13/site-packages/sphinx/ext/apidoc/_generate.py
+* /usr/lib/python3.13/site-packages/sphinx/ext/apidoc/_shared.py
+* /usr/lib/python3.13/site-packages/sphinx/ext/apidoc/__init__.py
+* /usr/lib/python3.13/site-packages/sphinx/ext/apidoc/__main__.py
+* /usr/lib/python3.13/site-packages/sphinx/ext/apidoc/__pycache__/_cli.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/sphinx/ext/apidoc/__pycache__/_cli.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/sphinx/ext/apidoc/__pycache__/_extension.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/sphinx/ext/apidoc/__pycache__/_extension.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/sphinx/ext/apidoc/__pycache__/_generate.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/sphinx/ext/apidoc/__pycache__/_generate.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/sphinx/ext/apidoc/__pycache__/_shared.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/sphinx/ext/apidoc/__pycache__/_shared.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/sphinx/ext/apidoc/__pycache__/__init__.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/sphinx/ext/apidoc/__pycache__/__init__.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/sphinx/ext/apidoc/__pycache__/__main__.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/sphinx/ext/apidoc/__pycache__/__main__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/sphinx/ext/autodoc/directive.py
 * /usr/lib/python3.13/site-packages/sphinx/ext/autodoc/importer.py
 * /usr/lib/python3.13/site-packages/sphinx/ext/autodoc/mock.py
@@ -299,8 +316,6 @@ Python documentation generator
 * /usr/lib/python3.13/site-packages/sphinx/ext/todo.py
 * /usr/lib/python3.13/site-packages/sphinx/ext/viewcode.py
 * /usr/lib/python3.13/site-packages/sphinx/ext/__init__.py
-* /usr/lib/python3.13/site-packages/sphinx/ext/__pycache__/apidoc.cpython-313.opt-1.pyc
-* /usr/lib/python3.13/site-packages/sphinx/ext/__pycache__/apidoc.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/sphinx/ext/__pycache__/autosectionlabel.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/sphinx/ext/__pycache__/autosectionlabel.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/sphinx/ext/__pycache__/coverage.cpython-313.opt-1.pyc
@@ -350,6 +365,9 @@ Python documentation generator
 * /usr/lib/python3.13/site-packages/sphinx/locale/ca/LC_MESSAGES/sphinx.js
 * /usr/lib/python3.13/site-packages/sphinx/locale/ca/LC_MESSAGES/sphinx.mo
 * /usr/lib/python3.13/site-packages/sphinx/locale/ca/LC_MESSAGES/sphinx.po
+* /usr/lib/python3.13/site-packages/sphinx/locale/ca@valencia/LC_MESSAGES/sphinx.js
+* /usr/lib/python3.13/site-packages/sphinx/locale/ca@valencia/LC_MESSAGES/sphinx.mo
+* /usr/lib/python3.13/site-packages/sphinx/locale/ca@valencia/LC_MESSAGES/sphinx.po
 * /usr/lib/python3.13/site-packages/sphinx/locale/cak/LC_MESSAGES/sphinx.js
 * /usr/lib/python3.13/site-packages/sphinx/locale/cak/LC_MESSAGES/sphinx.mo
 * /usr/lib/python3.13/site-packages/sphinx/locale/cak/LC_MESSAGES/sphinx.po
@@ -840,7 +858,6 @@ Python documentation generator
 * /usr/lib/python3.13/site-packages/sphinx/util/docfields.py
 * /usr/lib/python3.13/site-packages/sphinx/util/docstrings.py
 * /usr/lib/python3.13/site-packages/sphinx/util/docutils.py
-* /usr/lib/python3.13/site-packages/sphinx/util/exceptions.py
 * /usr/lib/python3.13/site-packages/sphinx/util/fileutil.py
 * /usr/lib/python3.13/site-packages/sphinx/util/http_date.py
 * /usr/lib/python3.13/site-packages/sphinx/util/i18n.py
@@ -864,6 +881,7 @@ Python documentation generator
 * /usr/lib/python3.13/site-packages/sphinx/util/typing.py
 * /usr/lib/python3.13/site-packages/sphinx/util/_files.py
 * /usr/lib/python3.13/site-packages/sphinx/util/_importer.py
+* /usr/lib/python3.13/site-packages/sphinx/util/_inventory_file_reader.py
 * /usr/lib/python3.13/site-packages/sphinx/util/_io.py
 * /usr/lib/python3.13/site-packages/sphinx/util/_lines.py
 * /usr/lib/python3.13/site-packages/sphinx/util/_pathlib.py
@@ -885,8 +903,6 @@ Python documentation generator
 * /usr/lib/python3.13/site-packages/sphinx/util/__pycache__/docstrings.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/sphinx/util/__pycache__/docutils.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/sphinx/util/__pycache__/docutils.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/sphinx/util/__pycache__/exceptions.cpython-313.opt-1.pyc
-* /usr/lib/python3.13/site-packages/sphinx/util/__pycache__/exceptions.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/sphinx/util/__pycache__/fileutil.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/sphinx/util/__pycache__/fileutil.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/sphinx/util/__pycache__/http_date.cpython-313.opt-1.pyc
@@ -933,6 +949,8 @@ Python documentation generator
 * /usr/lib/python3.13/site-packages/sphinx/util/__pycache__/_files.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/sphinx/util/__pycache__/_importer.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/sphinx/util/__pycache__/_importer.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/sphinx/util/__pycache__/_inventory_file_reader.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/sphinx/util/__pycache__/_inventory_file_reader.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/sphinx/util/__pycache__/_io.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/sphinx/util/__pycache__/_io.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/sphinx/util/__pycache__/_lines.cpython-313.opt-1.pyc
@@ -1024,4 +1042,4 @@ Python documentation generator
 * /usr/lib/python3.13/site-packages/sphinx/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/sphinx/__pycache__/__main__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/sphinx/__pycache__/__main__.cpython-313.pyc
-* /usr/share/doc/python3-sphinx-8.1.3/README.rst
+* /usr/share/doc/python3-sphinx-8.3.0/README.rst
