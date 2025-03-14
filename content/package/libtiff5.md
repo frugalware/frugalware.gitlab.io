@@ -12,6 +12,7 @@ size = "272112"
 usize = "1023547"
 sha1sum = "7ad4217ce066751d66bfd41ca6a91b027d7374cf"
 depends = "['freeglut', 'libdeflate', 'libjpeg-turbo', 'libstdc++>=11.2', 'xz>=5.2.2-5', 'zstd']"
+reverse_depends = "['cuda-tools']"
 +++
 ### Description: 
 Library for manipulation of TIFF images (Version 5)
