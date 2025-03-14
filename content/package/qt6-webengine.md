@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qt6-webengine 6.8.2-1"
-version = "6.8.2-1"
+title = "qt6-webengine 6.8.2-2"
+version = "6.8.2-2"
 description = "The Qt6 toolkit, qtwebengine"
-date = "2025-02-01T18:53:24"
+date = "2025-03-14T15:13:40"
 aliases = "/packages/220791"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "86276868"
-usize = "263637030"
-sha1sum = "60a263cd1a92377db3b7a396c89ce6adc6ff0eae"
+size = "86295332"
+usize = "263841870"
+sha1sum = "73e25024f5e8bce57be2cae4423089958bd6bc04"
 depends = "['ffmpeg>=7.0', 'icu4c>=76.1', 'libatomic', 'libepoxy', 'libevent', 'libgbm', 'libjpeg-turbo', 'libkrb5', 'libva', 'libxcomposite', 'libxcursor', 'libxkbfile', 'libxrandr', 'libxshmfence', 'libxslt', 'mesa-dri-drivers', 'nss', 'opus', 'qt6-positioning', 'qt6-webchannel', 're2', 'snappy>=1.2.0']"
 reverse_depends = "['akonadi-contacts', 'angelfish', 'arianna', 'cantor', 'falkon', 'ghostwriter', 'k3b', 'kaccounts-providers', 'kalgebra', 'kdenlive', 'khelpcenter', 'kimagemapeditor', 'kio-extras', 'konqueror', 'kvirc', 'libkgapi', 'libksysguard', 'libmarble', 'mediainfo-qt', 'parley', 'pyqt6webengine', 'qt6-webview', 'qtcreator', 'rkward', 'seafile-client', 'sigil', 'skanpage', 'skrooge', 'stellarium', 'syncthingtray', 'texmaker']"
 +++
