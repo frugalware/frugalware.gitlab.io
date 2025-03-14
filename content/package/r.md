@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "r 4.4.2-2"
-version = "4.4.2-2"
+title = "r 4.4.3-1"
+version = "4.4.3-1"
 description = "R is a language and environment for statistical computing and graphics."
-date = "2024-11-01T15:36:50"
+date = "2025-03-14T11:47:58"
 aliases = "/packages/73359"
 categories = ['xapps-extra']
 upstreamurl = "http://www.r-project.org"
 arch = "x86_64"
-size = "46747184"
-usize = "76039604"
-sha1sum = "c275f0bbe102e85ab4eb6fa3d76739117b54c6c3"
-depends = "['curl', 'icu4c>=76.1', 'libjpeg-turbo', 'libtiff>=4.0.6', 'libxt>=1.1.5-2', 'openblas', 'pango>=1.38.1-2', 'readline>=8.0']"
+size = "49385824"
+usize = "77787278"
+sha1sum = "de113f3e99e9115e1ae569034371c064a025839d"
+depends = "['curl', 'icu4c>=76.1', 'libjpeg-turbo', 'libtiff>=4.7.0', 'libxt>=1.1.5-2', 'openblas', 'pango>=1.38.1-2', 'readline>=8.0']"
 reverse_depends = "['cantor', 'rkward']"
 +++
 ### Description: 
@@ -1884,10 +1884,10 @@ R is a language and environment for statistical computing and graphics.
 * /usr/lib/R/share/texmf/tex/latex/Rd.sty
 * /usr/lib/R/share/texmf/tex/latex/Sweave.sty
 * /usr/lib/R/SVN-REVISION
-* /usr/share/doc/r-4.4.2/ChangeLog
-* /usr/share/doc/r-4.4.2/COPYING
-* /usr/share/doc/r-4.4.2/INSTALL
-* /usr/share/doc/r-4.4.2/README
-* /usr/share/doc/r-4.4.2/VERSION
+* /usr/share/doc/r-4.4.3/ChangeLog
+* /usr/share/doc/r-4.4.3/COPYING
+* /usr/share/doc/r-4.4.3/INSTALL
+* /usr/share/doc/r-4.4.3/README
+* /usr/share/doc/r-4.4.3/VERSION
 * /usr/share/man/man1/R.1.gz
 * /usr/share/man/man1/Rscript.1.gz

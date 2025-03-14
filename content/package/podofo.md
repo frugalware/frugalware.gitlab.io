@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "podofo 0.10.4-1"
-version = "0.10.4-1"
+title = "podofo 0.10.4-2"
+version = "0.10.4-2"
 description = "PoDoFo is a library to work with the PDF file format."
-date = "2024-11-14T10:15:03"
+date = "2025-03-14T11:43:55"
 aliases = "/packages/103232"
 categories = ['xlib-extra']
 upstreamurl = "https://github.com/podofo/podofo"
 arch = "x86_64"
-size = "1020796"
-usize = "3311007"
-sha1sum = "b85351128754bf6d970327052de4e585a15ca43e"
-depends = "['fontconfig>=2.12.1-2', 'freetype2>=2.7', 'libidn>=1.35', 'libjpeg-turbo', 'libpng>=1.6.25', 'libtiff', 'libunistring>=1.1', 'libxml2', 'lua>=5.4', 'openssl>=3.1.0']"
+size = "1020648"
+usize = "3311911"
+sha1sum = "ee977e33f1ecce3250d22a41f02b32467ca1a9af"
+depends = "['fontconfig>=2.12.1-2', 'freetype2>=2.7', 'libidn>=1.35', 'libjpeg-turbo', 'libpng>=1.6.25', 'libtiff>=4.7.0', 'libunistring>=1.1', 'libxml2', 'lua>=5.4', 'openssl>=3.1.0']"
 reverse_depends = "['calibre', 'krename', 'scribus']"
 +++
 ### Description: 

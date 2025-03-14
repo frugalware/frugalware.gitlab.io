@@ -12,7 +12,7 @@ size = "1158620"
 usize = "6899994"
 sha1sum = "e483cc4555e78b9388e01e0b76a147d3f7dd1de0"
 depends = "['freeglut', 'libdeflate', 'libjpeg-turbo', 'libstdc++>=11.2', 'xz>=5.2.2-5', 'zstd']"
-reverse_depends = "['argyllcms', 'blender', 'djvulibre', 'efl', 'emacs', 'fontforge', 'fox', 'fox-1.2', 'freeimage', 'freeorion', 'gdk-pixbuf2', 'gegl', 'ghostscript', 'gwenview', 'imagemagick', 'imlib2', 'insight-toolkit', 'lcms', 'lcms2', 'leptonica', 'libcamera-tools', 'libgdiplus', 'libgeotiff', 'libpano13', 'libwebp', 'netpbm', 'ninja', 'opencv', 'openjpeg', 'openscenegraph', 'openslide', 'podofo', 'proj', 'python3-pillow', 'qt5-imageformats', 'r', 'sane-backends', 'sdl2_image', 'sdl3_image', 'vigra']"
+reverse_depends = "['argyllcms', 'blender', 'djvulibre', 'efl', 'emacs', 'fontforge', 'fox', 'fox-1.2', 'freeimage', 'freeorion', 'gdk-pixbuf2', 'gegl', 'ghostscript', 'gwenview', 'imagemagick', 'imlib2', 'insight-toolkit', 'lcms', 'lcms2', 'leptonica', 'libcamera-tools', 'libgdiplus', 'libpano13', 'libwebp', 'netpbm', 'ninja', 'opencv', 'openjpeg', 'openscenegraph', 'openslide', 'podofo', 'proj', 'python3-pillow', 'qt5-imageformats', 'r', 'sane-backends', 'sdl2_image', 'sdl3_image', 'vigra']"
 +++
 ### Description: 
 Library for manipulation of TIFF images

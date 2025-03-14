@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "nomacs 3.19.1-4"
-version = "3.19.1-4"
+title = "nomacs 3.21.0-1"
+version = "3.21.0-1"
 description = "Small and fast image viewer."
-date = "2025-02-04T10:48:35"
+date = "2025-03-14T11:34:35"
 aliases = "/packages/136894"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/nomacs/nomacs"
 arch = "x86_64"
-size = "1721708"
-usize = "8611107"
-sha1sum = "6d986f0fdfe1c059c4da10c751b037da9074b6d0"
-depends = "['exiv2>=0.28.1', 'libraw>=0.21.1', 'openblas', 'opencv>=4.11.0', 'qt6-svg>=6.8.2', 'quazip']"
+size = "2190156"
+usize = "9613724"
+sha1sum = "dbfb8a4a50d40d5886293106cc6cf7a56c9f2e5d"
+depends = "['exiv2>=0.28.1', 'libheif', 'libraw>=0.21.1', 'openblas', 'opencv>=4.11.0', 'qt6-svg>=6.8.2', 'quazip']"
 +++
 ### Description: 
 Small and fast image viewer.
@@ -20,10 +20,25 @@ Small and fast image viewer.
 * /usr/bin/nomacs
 * /usr/lib/libnomacsCore.so
 * /usr/lib/libnomacsCore.so.3
-* /usr/lib/libnomacsCore.so.3.19.1
+* /usr/lib/libnomacsCore.so.3.21.0
+* /usr/lib/nomacs-plugins/libaffineTransformPlugin.so
+* /usr/lib/nomacs-plugins/libaffineTransformPlugin.so.3
+* /usr/lib/nomacs-plugins/libaffineTransformPlugin.so.3.21.0
+* /usr/lib/nomacs-plugins/libCompositePlugin.so
+* /usr/lib/nomacs-plugins/libCompositePlugin.so.3
+* /usr/lib/nomacs-plugins/libCompositePlugin.so.3.21.0
+* /usr/lib/nomacs-plugins/libfakeMiniaturesPlugin.so
+* /usr/lib/nomacs-plugins/libfakeMiniaturesPlugin.so.3
+* /usr/lib/nomacs-plugins/libfakeMiniaturesPlugin.so.3.21.0
+* /usr/lib/nomacs-plugins/libpageExtractionPlugin.so
+* /usr/lib/nomacs-plugins/libpageExtractionPlugin.so.3
+* /usr/lib/nomacs-plugins/libpageExtractionPlugin.so.3.21.0
+* /usr/lib/nomacs-plugins/libpaintPlugin.so
+* /usr/lib/nomacs-plugins/libpaintPlugin.so.3
+* /usr/lib/nomacs-plugins/libpaintPlugin.so.3.21.0
 * /usr/share/applications/org.nomacs.ImageLounge.desktop
-* /usr/share/doc/nomacs-3.19.1/LICENSE
-* /usr/share/doc/nomacs-3.19.1/README.md
+* /usr/share/doc/nomacs-3.21.0/LICENSE
+* /usr/share/doc/nomacs-3.21.0/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.nomacs.ImageLounge.svg
 * /usr/share/man/man1/nomacs.1.gz
 * /usr/share/metainfo/org.nomacs.ImageLounge.appdata.xml

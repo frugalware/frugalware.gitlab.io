@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "openslide 4.0.0-1"
-version = "4.0.0-1"
+title = "openslide 4.0.0-2"
+version = "4.0.0-2"
 description = "C library for reading virtual slide images"
-date = "2023-11-18T12:30:56"
+date = "2025-03-14T11:42:16"
 aliases = "/packages/220264"
 categories = ['lib-extra']
 upstreamurl = "http://www.openslide.org"
 arch = "x86_64"
-size = "195628"
-usize = "836453"
-sha1sum = "d293a08dd9a266aa07d27f96973e6646726fcae7"
-depends = "['cairo', 'gdk-pixbuf2', 'libjpeg', 'libtiff', 'libxml2', 'openjpeg', 'sqlite3']"
+size = "193900"
+usize = "806397"
+sha1sum = "a31d4e80bf43e563dd96f8a402fd144f7a387e2a"
+depends = "['cairo', 'gdk-pixbuf2', 'libjpeg', 'libtiff>=4.7.0', 'libxml2', 'openjpeg', 'sqlite3']"
 reverse_depends = "['vtk']"
 +++
 ### Description: 
