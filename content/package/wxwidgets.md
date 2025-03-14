@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "wxwidgets 3.2.6-2"
-version = "3.2.6-2"
+title = "wxwidgets 3.2.6-3"
+version = "3.2.6-3"
 description = "GTK+ implementation of wxWidgets API for GUI (Development Release)"
-date = "2025-02-25T10:55:02"
+date = "2025-03-14T11:54:51"
 aliases = "/packages/217795"
 categories = ['xlib-extra']
 upstreamurl = "http://www.wxwidgets.org/"
 arch = "x86_64"
-size = "6920224"
-usize = "31826878"
-sha1sum = "06e644c7880517e85da607056b62722734f4b343"
-depends = "['gspell>=1.14.0', 'libglu>=9.0.0-3', 'libmspack', 'libnotify>=0.7.6-3', 'libxslt>=1.1.28-3', 'libxxf86vm', 'sdl>=1.2.15-3', 'webkit-gtk3>=2.44.1']"
+size = "6915604"
+usize = "31828910"
+sha1sum = "0cfb1800816659a3e1d45ba7f3108fa7062d14d2"
+depends = "['gspell>=1.14.0', 'libglu>=9.0.0-3', 'libmspack', 'libnotify>=0.7.6-3', 'libxslt>=1.1.28-3', 'libxxf86vm', 'webkit-gtk3>=2.44.1']"
 reverse_depends = "['erlang', 'scummvm-tools', 'wxmaxima', 'wxpython']"
 +++
 ### Description: 

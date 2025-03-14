@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "xsane-gimp 0.999-5"
-version = "0.999-5"
+title = "xsane-gimp 0.999-6"
+version = "0.999-6"
 description = "XSane Gimp plugin"
-date = "2024-01-09T15:38:26"
+date = "2025-03-14T13:12:58"
 aliases = "/packages/218756"
 categories = ['xapps-extra']
 upstreamurl = "https://gitlab.com/sane-project/frontend/xsane"
 arch = "x86_64"
-size = "245736"
-usize = "773587"
-sha1sum = "2fa29741976b15402f2558cd69f75643880d6afc"
+size = "257588"
+usize = "788187"
+sha1sum = "d6d1d2cf294520b6e2845ba229820d60cdce2767"
 depends = "['gimp', 'xsane']"
 +++
 ### Description: 

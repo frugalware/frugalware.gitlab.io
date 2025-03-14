@@ -12,7 +12,7 @@ size = "357696"
 usize = "1137661"
 sha1sum = "590925cced2e7b7d10bd5fd54fbae413b799d56e"
 depends = "['glibc>=2.34']"
-reverse_depends = "['alienarena', 'devil', 'kvm', 'sdlimage', 'smpeg', 'virtualbox', 'wxwidgets', 'xine-lib']"
+reverse_depends = "['alienarena', 'devil', 'kvm', 'sdlimage', 'smpeg', 'virtualbox', 'xine-lib']"
 +++
 ### Description: 
 Simple DirectMedia Layer library
