@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-ar 25.2.1.2-2"
-version = "25.2.1.2-2"
+title = "libreoffice-l10n-ar 25.2.1.2-3"
+version = "25.2.1.2-3"
 description = "Installs Arabic support in LibreOffice"
-date = "2025-03-05T11:35:54"
+date = "2025-03-14T16:56:34"
 aliases = "/packages/104032"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4228540"
+size = "4228804"
 usize = "33648856"
-sha1sum = "2a6dbc74f0e894046185603041be13f92cc5bc1c"
+sha1sum = "d846425194d3e269a6027250b72282dce4818815"
 depends = "['libreoffice>=25.2.1.2']"
 +++
 ### Description: 

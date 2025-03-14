@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-nn 25.2.1.2-2"
-version = "25.2.1.2-2"
+title = "libreoffice-l10n-nn 25.2.1.2-3"
+version = "25.2.1.2-3"
 description = "Installs Norwegian (Nynorsk) support in LibreOffice"
-date = "2025-03-05T11:35:54"
+date = "2025-03-14T16:56:34"
 aliases = "/packages/104095"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4971572"
+size = "4972176"
 usize = "35939446"
-sha1sum = "7acd1191a897f2aeedb1271774821e621d9cb88c"
+sha1sum = "c8f9f07064bad1ace2996329004e5fd3d02537ba"
 depends = "['libreoffice>=25.2.1.2']"
 +++
 ### Description: 

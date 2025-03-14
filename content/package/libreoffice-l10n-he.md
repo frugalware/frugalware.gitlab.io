@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-he 25.2.1.2-2"
-version = "25.2.1.2-2"
+title = "libreoffice-l10n-he 25.2.1.2-3"
+version = "25.2.1.2-3"
 description = "Installs Hebrew support in LibreOffice"
-date = "2025-03-05T11:35:54"
+date = "2025-03-14T16:56:34"
 aliases = "/packages/104064"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4057176"
+size = "4057860"
 usize = "32087111"
-sha1sum = "af46671fff2ec5c3a5cb32dcc693af49c061dfc9"
+sha1sum = "bddfd4d0a98ff84ef09b5f16e381f29ebb2a1ff9"
 depends = "['libreoffice>=25.2.1.2']"
 +++
 ### Description: 

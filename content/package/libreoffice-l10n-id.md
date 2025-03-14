@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-id 25.2.1.2-2"
-version = "25.2.1.2-2"
+title = "libreoffice-l10n-id 25.2.1.2-3"
+version = "25.2.1.2-3"
 description = "Installs Indonesian support in LibreOffice"
-date = "2025-03-05T11:35:54"
+date = "2025-03-14T16:56:34"
 aliases = "/packages/104068"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4790832"
+size = "4790432"
 usize = "35294527"
-sha1sum = "adfdce1f4003a5419d7adc8eda8eca290004a04f"
+sha1sum = "227db0e806c1d4cee4d92d61c98f578cf7ccdf1c"
 depends = "['libreoffice>=25.2.1.2']"
 +++
 ### Description: 

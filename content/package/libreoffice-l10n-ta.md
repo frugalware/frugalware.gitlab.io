@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-ta 25.2.1.2-2"
-version = "25.2.1.2-2"
+title = "libreoffice-l10n-ta 25.2.1.2-3"
+version = "25.2.1.2-3"
 description = "Installs Tamil support in LibreOffice"
-date = "2025-03-05T11:35:54"
+date = "2025-03-14T16:56:34"
 aliases = "/packages/104125"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4521748"
+size = "4522464"
 usize = "37918110"
-sha1sum = "0028734f61f04b82736129b1fb9377c478d7251f"
+sha1sum = "452bb8b21291b7f07bc2db883750e1ada5ca4e71"
 depends = "['libreoffice>=25.2.1.2']"
 +++
 ### Description: 

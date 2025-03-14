@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-rw 25.2.1.2-2"
-version = "25.2.1.2-2"
+title = "libreoffice-l10n-rw 25.2.1.2-3"
+version = "25.2.1.2-3"
 description = "Installs Kinyarwanda support in LibreOffice"
-date = "2025-03-05T11:35:54"
+date = "2025-03-14T16:56:34"
 aliases = "/packages/104109"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "257652"
+size = "257440"
 usize = "1556902"
-sha1sum = "d369612fa102d4de178006690280318e5065f62c"
+sha1sum = "6cf1264977bb997878310c6de8769607bb74f934"
 depends = "['libreoffice>=25.2.1.2']"
 +++
 ### Description: 
