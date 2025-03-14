@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libextractor 1.13-1"
-version = "1.13-1"
+title = "libextractor 1.13-2"
+version = "1.13-2"
 description = "libextractor is a library used to extract meta-data from files of arbitrary type"
-date = "2024-07-22T11:40:37"
+date = "2025-03-14T11:13:23"
 aliases = "/packages/60286"
 categories = ['xlib-extra']
 upstreamurl = "http://www.gnu.org/software/libextractor/"
 arch = "x86_64"
-size = "208724"
-usize = "889686"
-sha1sum = "dfec83b96ac035dc6f608213f69f6645c8b75f3e"
+size = "208748"
+usize = "892862"
+sha1sum = "92ca703f060a745ef7efd002e78c61944e73b30f"
 depends = "['exiv2>=0.28.1', 'expat', 'gtk+2>=2.20.1', 'libgsf', 'libstdc++', 'libtool', 'libvorbis', 'libxau>=1.0.4', 'libxdamage', 'libxdmcp', 'libxext>=1.0.99.4-1']"
 reverse_depends = "['gnunet']"
 +++

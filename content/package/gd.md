@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gd 2.3.3-3"
-version = "2.3.3-3"
+title = "gd 2.3.3-4"
+version = "2.3.3-4"
 description = "an ansi C library to generate fancy images from programs"
-date = "2024-05-15T08:14:56"
+date = "2025-03-14T10:51:00"
 aliases = "/packages/3022"
 categories = ['lib']
 upstreamurl = "http://libgd.github.io/"
 arch = "x86_64"
-size = "150932"
-usize = "705173"
-sha1sum = "906caf1f270365084ab192538e9154efecdc4017"
+size = "152624"
+usize = "616997"
+sha1sum = "11bcd7d5527f55114462ebf152a63ed903b9248a"
 depends = "['fontconfig', 'libavif', 'libheif', 'libwebp', 'libxpm']"
 reverse_depends = "['glibc-memusagestat', 'gnuplot', 'graphviz', 'libgphoto2', 'm17n-lib', 'nginx', 'texlive']"
 +++

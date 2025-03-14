@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "fox 1.7.85-1"
-version = "1.7.85-1"
+title = "fox 1.7.85-2"
+version = "1.7.85-2"
 description = "FOX is a C++ based Toolkit for developing Graphical User Interfaces easily and effectively."
-date = "2024-08-16T18:39:55"
+date = "2025-03-14T10:48:14"
 aliases = "/packages/3598"
 categories = ['xlib-extra']
 upstreamurl = "http://www.fox-toolkit.org/"
 arch = "x86_64"
-size = "4345620"
-usize = "11438023"
-sha1sum = "c74da499780726572d93df9c3961736679d575eb"
-depends = "['libglu', 'libjpeg-turbo', 'libpng', 'libtiff', 'libxcursor', 'libxft', 'libxi', 'libxrandr']"
+size = "4333680"
+usize = "11434743"
+sha1sum = "b4cbc2eb71bf9abfc14e3fbc0b1ed84ff017304d"
+depends = "['libglu', 'libjpeg-turbo', 'libpng', 'libtiff>=4.7.0', 'libxcursor', 'libxft', 'libxi', 'libxrandr']"
 +++
 ### Description: 
 FOX is a C++ based Toolkit for developing Graphical User Interfaces easily and effectively.

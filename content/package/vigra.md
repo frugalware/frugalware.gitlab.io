@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "vigra 1.11.1-16"
-version = "1.11.1-16"
+title = "vigra 1.11.1-17"
+version = "1.11.1-17"
 description = "The VIGRA Computer Vision Library"
-date = "2024-10-03T14:38:56"
+date = "2025-03-14T10:35:55"
 aliases = "/packages/103388"
 categories = ['lib-extra']
 upstreamurl = "http://hci.iwr.uni-heidelberg.de/vigra/"
 arch = "x86_64"
-size = "14341548"
-usize = "125858293"
-sha1sum = "c967abb72cfdd5516193a1227f6909c02e09e284"
-depends = "['libjpeg-turbo', 'libpng>=1.6.25', 'libtiff>=4.0.6-2', 'openexr>=3.3.0']"
+size = "14341136"
+usize = "125858669"
+sha1sum = "5bb5c9954434eb82f863d45858b7252bcc783c35"
+depends = "['libjpeg-turbo', 'libpng>=1.6.25', 'libtiff>=4.7.0', 'openexr>=3.3.0']"
 reverse_depends = "['enblend-enfuse']"
 +++
 ### Description: 

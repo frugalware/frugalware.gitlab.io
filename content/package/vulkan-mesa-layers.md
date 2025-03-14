@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vulkan-mesa-layers 25.0.1-1"
-version = "25.0.1-1"
+title = "vulkan-mesa-layers 25.0.1-2"
+version = "25.0.1-2"
 description = "Mesa Vulkan layers"
-date = "2025-03-06T07:58:51"
+date = "2025-03-14T10:27:40"
 aliases = "/packages/220464"
 categories = ['x11-extra']
 upstreamurl = "http://mesa3d.sourceforge.net/"
 arch = "x86_64"
-size = "310436"
+size = "310332"
 usize = "789384"
-sha1sum = "2b8be16edb91fd03c0604cbba628595960e4aeaf"
+sha1sum = "a3d33f49e21cf1390088a319001ac1e07c9920eb"
 depends = "['lib32-wayland', 'libdrm', 'libpng', 'libxcb']"
 reverse_depends = "['lib32-vulkan-mesa-layers']"
 +++

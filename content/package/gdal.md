@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gdal 3.10.1-1"
-version = "3.10.1-1"
+title = "gdal 3.10.2-1"
+version = "3.10.2-1"
 description = "GDAL - a translator library for raster geospatial data formats"
-date = "2025-02-12T15:44:16"
+date = "2025-03-14T10:56:32"
 aliases = "/packages/5175"
 categories = ['apps-extra']
 upstreamurl = "http://www.gdal.org/"
 arch = "x86_64"
-size = "8980836"
-usize = "31300230"
-sha1sum = "dec0679932e84186ac5b699afa4ccef723146e13"
+size = "8987472"
+usize = "31416462"
+sha1sum = "95f8f61b88875f66bd2fd038768b86d3be2eb7cb"
 depends = "['expat>=2.1.0-5', 'geos>=3.6.2', 'json-c>=0.14', 'libdeflate', 'libheif', 'libjpeg-turbo', 'libpng>=1.6.20', 'libpq>=11.2-2', 'libxml2>=2.9.4-3', 'openssl>=3.1.0', 'pcre>=1.6.20', 'proj>=9.4.0', 'sqlite3>=3.10.2', 'unixodbc>=2.3.4-2']"
 reverse_depends = "['hexer', 'opencv', 'scribus']"
 license = "MIT"
@@ -123,7 +123,7 @@ GDAL - a translator library for raster geospatial data formats
 * /usr/lib/gdalplugins/drivers.ini
 * /usr/lib/libgdal.so
 * /usr/lib/libgdal.so.36
-* /usr/lib/libgdal.so.36.3.10.1
+* /usr/lib/libgdal.so.36.3.10.2
 * /usr/lib/pkgconfig/gdal.pc
 * /usr/share/bash-completion/completions/gdal-config
 * /usr/share/bash-completion/completions/gdal2tiles.py
@@ -163,9 +163,9 @@ GDAL - a translator library for raster geospatial data formats
 * /usr/share/bash-completion/completions/ogrlineref
 * /usr/share/bash-completion/completions/ogrmerge.py
 * /usr/share/bash-completion/completions/ogrtindex
-* /usr/share/doc/gdal-3.10.1/HOWTO-RELEASE
-* /usr/share/doc/gdal-3.10.1/README.md
-* /usr/share/doc/gdal-3.10.1/VERSION
+* /usr/share/doc/gdal-3.10.2/HOWTO-RELEASE
+* /usr/share/doc/gdal-3.10.2/README.md
+* /usr/share/doc/gdal-3.10.2/VERSION
 * /usr/share/gdal/cubewerx_extra.wkt
 * /usr/share/gdal/default.rsc
 * /usr/share/gdal/ecw_cs.wkt
@@ -307,6 +307,7 @@ GDAL - a translator library for raster geospatial data formats
 * /usr/share/gdal/seed_2d.dgn
 * /usr/share/gdal/seed_3d.dgn
 * /usr/share/gdal/stateplane.csv
+* /usr/share/gdal/template_tiles.mapml
 * /usr/share/gdal/tms_LINZAntarticaMapTileGrid.json
 * /usr/share/gdal/tms_MapML_APSTILE.json
 * /usr/share/gdal/tms_MapML_CBMTILE.json

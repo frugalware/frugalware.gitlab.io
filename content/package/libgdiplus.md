@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libgdiplus 6.1-1"
-version = "6.1-1"
+title = "libgdiplus 6.1-2"
+version = "6.1-2"
 description = "libgdiplus is an implementation of the GDI+ library on Windows"
-date = "2022-04-22T12:49:11"
+date = "2025-03-14T11:14:34"
 aliases = "/packages/10769"
 categories = ['xlib-extra']
 upstreamurl = "http://www.mono-project.com"
 arch = "x86_64"
-size = "168324"
-usize = "548032"
-sha1sum = "5a4e5983b619377a132892355059048a7cade786"
-depends = "['cairo>=1.14.6-2', 'libexif>=0.6.21-2', 'libgif>=5.1.2', 'libjpeg-turbo', 'libtiff>=4.0.6']"
+size = "167856"
+usize = "538690"
+sha1sum = "0ab654f7efc898f73614d4023e30fb8a5ffe215e"
+depends = "['cairo>=1.14.6-2', 'libexif>=0.6.21-2', 'libgif>=5.1.2', 'libjpeg-turbo', 'libtiff>=4.7.0']"
 reverse_depends = "['keepass']"
 +++
 ### Description: 

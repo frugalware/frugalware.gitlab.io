@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "insight-toolkit 5.4.2-2"
-version = "5.4.2-2"
+title = "insight-toolkit 5.4.2-3"
+version = "5.4.2-3"
 description = "Cross-platform system that provides developers with an extensive suite of software tools for image analysis"
-date = "2025-02-17T11:01:59"
+date = "2025-03-14T11:07:51"
 aliases = "/packages/222634"
 categories = ['devel-extra']
 upstreamurl = "http://www.itk.org/"
 arch = "x86_64"
-size = "8942348"
-usize = "56489506"
-sha1sum = "f606baae8bb61e37d90682cfd0526c12b9145e16"
-depends = "['clang', 'eigen', 'expat', 'fftw', 'gdcm', 'gtest', 'hdf5', 'libjpeg-turbo', 'libpng', 'libtiff', 'openjre', 'pcre', 'perl', 'ruby', 'swig', 'tcl']"
+size = "8959088"
+usize = "56633626"
+sha1sum = "b7ec4d8a65a2cbc0cbee86128ff55006bca521dd"
+depends = "['clang', 'eigen', 'expat', 'fftw', 'gdcm', 'gtest', 'hdf5', 'libjpeg-turbo', 'libpng', 'libtiff>=4.7.0', 'openjre', 'pcre', 'perl', 'ruby', 'swig', 'tcl']"
 +++
 ### Description: 
 Cross-platform system that provides developers with an extensive suite of software tools for image analysis

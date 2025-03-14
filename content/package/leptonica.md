@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "leptonica 1.85.0-1"
-version = "1.85.0-1"
+title = "leptonica 1.85.0-2"
+version = "1.85.0-2"
 description = "Software that is broadly useful for image processing and image analysis applications"
-date = "2025-01-03T13:56:45"
+date = "2025-03-14T11:09:21"
 aliases = "/packages/219346"
 categories = ['xlib-extra']
 upstreamurl = "http://www.leptonica.com"
 arch = "x86_64"
-size = "1187064"
-usize = "3704517"
-sha1sum = "ee08197b08981bb72e502ad858048e265ec57ea5"
-depends = "['libgif', 'libjpeg-turbo', 'libpng', 'libtiff']"
+size = "1184984"
+usize = "3703773"
+sha1sum = "e9b5aa14b2d5f2f12d765e7c485e4972feed0a85"
+depends = "['libgif', 'libjpeg-turbo', 'libpng', 'libtiff>=4.7.0']"
 reverse_depends = "['tesseract-ocr']"
 +++
 ### Description: 
