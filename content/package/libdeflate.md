@@ -12,7 +12,7 @@ size = "64608"
 usize = "209918"
 sha1sum = "4c172965b55e77ce712236581ddf6e3bc880d2e0"
 depends = "[]"
-reverse_depends = "['gdal', 'libtiff', 'openexr', 'transmission-cli']"
+reverse_depends = "['gdal', 'libtiff', 'libtiff5', 'openexr', 'transmission-cli']"
 +++
 ### Description: 
 Heavily optimized library for DEFLATE/zlib/gzip compression and decompression

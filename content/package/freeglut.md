@@ -12,7 +12,7 @@ size = "148536"
 usize = "602700"
 sha1sum = "a0e457d2a186310de700164dac0dc637757b2827"
 depends = "['libglu', 'libglvnd', 'libxi>=1.7.6-2', 'libxxf86vm']"
-reverse_depends = "['alienarena', 'flightgear', 'graphviz', 'libtiff', 'mesademos', 'mupdf-gl', 'openal', 'opencolorio', 'opencsg']"
+reverse_depends = "['alienarena', 'flightgear', 'graphviz', 'libtiff', 'libtiff5', 'mesademos', 'mupdf-gl', 'openal', 'opencolorio', 'opencsg']"
 +++
 ### Description: 
 The free OpenGL utility toolkit, alternative to the GLUT library

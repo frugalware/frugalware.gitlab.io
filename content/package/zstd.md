@@ -12,7 +12,7 @@ size = "489492"
 usize = "1524554"
 sha1sum = "3e0d3edc775566e055d2c2d3c26938142bd73bab"
 depends = "['lz4>=1.9.1-2', 'xz>=5.2.4-2', 'zlib-ng']"
-reverse_depends = "['android-tools', 'binutils', 'blosc', 'borg', 'btrfs-progs', 'ccache', 'curl', 'elfutils', 'file', 'freeimage', 'fsarchiver', 'gcc', 'gcc-12', 'gcc-13', 'gcc-g++', 'gnutls', 'kmod', 'libarchive', 'libboost', 'libosmesa', 'libsystemd', 'libtiff', 'libzip', 'llvm-libs', 'llvm15-libs', 'llvm18-libs', 'mesa-dri-drivers', 'mesa-nine', 'mesa-vulkan-amd', 'mesa-vulkan-intel', 'mesa-vulkan-swrast', 'mingw-w64-binutils', 'minizip-ng', 'mold', 'mtd-utils', 'pacman-g2', 'pdal', 'plocate', 'qt5-base', 'qt6-tools', 'rsync', 'sccache', 'squashfs', 'squashfuse', 'sz', 'wget2']"
+reverse_depends = "['android-tools', 'binutils', 'blosc', 'borg', 'btrfs-progs', 'ccache', 'curl', 'elfutils', 'file', 'freeimage', 'fsarchiver', 'gcc', 'gcc-12', 'gcc-13', 'gcc-g++', 'gnutls', 'kmod', 'libarchive', 'libboost', 'libosmesa', 'libsystemd', 'libtiff', 'libtiff5', 'libzip', 'llvm-libs', 'llvm15-libs', 'llvm18-libs', 'mesa-dri-drivers', 'mesa-nine', 'mesa-vulkan-amd', 'mesa-vulkan-intel', 'mesa-vulkan-swrast', 'mingw-w64-binutils', 'minizip-ng', 'mold', 'mtd-utils', 'pacman-g2', 'pdal', 'plocate', 'qt5-base', 'qt6-tools', 'rsync', 'sccache', 'squashfs', 'squashfuse', 'sz', 'wget2']"
 +++
 ### Description: 
 Zstandard - Fast real-time compression algorithm
