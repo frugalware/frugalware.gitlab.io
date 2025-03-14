@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "lcms2 2.17-2"
-version = "2.17-2"
+title = "lcms2 2.17-3"
+version = "2.17-3"
 description = "Lightweight color management development library/engine"
-date = "2025-03-13T15:12:24"
+date = "2025-03-14T13:27:52"
 aliases = "/packages/118773"
 categories = ['lib']
 upstreamurl = "https://sourceforge.net/projects/lcms"
 arch = "x86_64"
-size = "213924"
+size = "213932"
 usize = "690270"
-sha1sum = "9d6a8414128589e69497c20ba9ac5dc5eca5c1d9"
+sha1sum = "9df2e2403ec150c9b4f577d0d35f84399c40d3fe"
 depends = "['libjpeg-turbo', 'libtiff>=4.7.0']"
-reverse_depends = "['babl', 'colord', 'dcraw', 'enblend-enfuse', 'firefox', 'ghostscript', 'graphicsmagick', 'imagemagick', 'kitty', 'kwin', 'libcdr', 'libfreehand', 'libmng', 'libplacebo', 'libraw', 'nufraw', 'opencolorio', 'openjpeg', 'openjre', 'poppler-pdftools', 'qt5-webengine', 'weston', 'wine', 'wine-devel', 'xsane']"
+reverse_depends = "['babl', 'colord', 'dcraw', 'enblend-enfuse', 'ghostscript', 'graphicsmagick', 'imagemagick', 'kitty', 'kwin', 'libcdr', 'libfreehand', 'libmng', 'libplacebo', 'libraw', 'nufraw', 'opencolorio', 'openjpeg', 'openjre', 'poppler-pdftools', 'qt5-webengine', 'weston', 'wine', 'wine-devel', 'xsane']"
 +++
 ### Description: 
 Lightweight color management development library/engine

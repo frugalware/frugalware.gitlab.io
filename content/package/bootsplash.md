@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "1936119"
 usize = "0"
 sha1sum = "7f738203919bc6089c118374c786930cf0f04ae4"
-depends = "['freetype2', 'lcms', 'libmng']"
+depends = "['freetype2', 'libmng']"
 +++
 ### Description: 
 Graphical boot process for the linux kernel

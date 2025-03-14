@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-lcms2 2.17-2"
-version = "2.17-2"
+title = "lib32-lcms2 2.17-3"
+version = "2.17-3"
 description = "Lightweight color management development library/engine ( 32bit )"
-date = "2025-03-13T15:12:24"
+date = "2025-03-14T13:27:52"
 aliases = "/packages/217757"
 categories = ['lib32-extra']
 upstreamurl = "https://sourceforge.net/projects/lcms"
 arch = "x86_64"
-size = "218436"
+size = "218532"
 usize = "744402"
-sha1sum = "29eace349ea023167f72942dc6aed1288377e964"
+sha1sum = "049fa1f3bb2c6aada35b9eb0b09e6eb9e791a3a8"
 depends = "['lib32-libjpeg-turbo', 'lib32-libtiff>=4.7.0', 'lib32-zlib>=1.2.12']"
 reverse_depends = "['get_steam', 'lib32-openjpeg', 'wine', 'wine-devel']"
 +++
