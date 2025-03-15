@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "dbus-python-devel 1.3.2-3"
-version = "1.3.2-3"
+title = "dbus-python-devel 1.4.0-1"
+version = "1.4.0-1"
 description = "dbus-python devel"
-date = "2024-11-03T12:16:46"
+date = "2025-03-15T19:18:33"
 aliases = "/packages/200118"
 categories = ['devel']
 upstreamurl = "http://www.freedesktop.org/wiki/Software/DBusBindings"
 arch = "x86_64"
-size = "3248"
+size = "3320"
 usize = "4057"
-sha1sum = "b4422da63f3f61fdd9b558d9d10caa66ba846bf0"
+sha1sum = "4ab5e7e188d515fb9542959de2d4712016556df5"
 depends = "[]"
 reverse_depends = "['dbus-python']"
 +++
