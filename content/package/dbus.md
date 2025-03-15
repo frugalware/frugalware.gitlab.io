@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "dbus 1.16.2-1"
-version = "1.16.2-1"
+title = "dbus 1.16.2-2"
+version = "1.16.2-2"
 description = "A message bus system"
-date = "2025-02-28T09:23:28"
+date = "2025-03-15T16:52:02"
 aliases = "/packages/2961"
 categories = ['base']
 upstreamurl = "http://freedesktop.org/wiki/Software/dbus"
 arch = "x86_64"
-size = "499096"
-usize = "1625218"
-sha1sum = "910d69b0ffeeb788be5ff7af4b410eb928f75d25"
-depends = "['expat>=2.1.0-5', 'libsystemd>=242', 'scriptlet-core']"
+size = "499300"
+usize = "1625231"
+sha1sum = "bddafdcda2fdef3584b1a1cc822ad1bf0fd8a590"
+depends = "['expat>=2.7.0', 'libsystemd>=242', 'scriptlet-core']"
 reverse_depends = "['at-spi2-core', 'avahi', 'bluez', 'cef', 'cups', 'dbus-c++', 'dbus-glib', 'dbus-x11', 'dnsmasq', 'efl', 'enlightenment', 'gvfs', 'hexchat', 'inkscape', 'jack2', 'kdbus', 'kitty', 'libatspi', 'libnvme', 'libpcap', 'libproxy', 'libpulse', 'libvlc', 'lumina-desktop', 'mp3splt-gtk', 'pulseaudio', 'pulseaudio-bluetooth', 'qt5-base', 'rtkit', 'systemd', 'terminology', 'threema-desktop', 'whalebird', 'wireshark', 'wpa_supplicant', 'xorg-server']"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "dbus-glib 0.112-5"
-version = "0.112-5"
+title = "dbus-glib 0.114-1"
+version = "0.114-1"
 description = "Glib bindings for DBUS"
-date = "2024-01-30T10:02:16"
+date = "2025-03-15T16:35:58"
 aliases = "/packages/14222"
 categories = ['base']
 upstreamurl = "http://www.freedesktop.org/wiki/Software_2fDBusBindings"
 arch = "x86_64"
-size = "146664"
-usize = "885450"
-sha1sum = "d775a1337d3d2e8075e404292b45c2015a7e73ae"
+size = "136688"
+usize = "798252"
+sha1sum = "0bba4b64081f0640eb01f5171fbdd2a6c553d499"
 depends = "['dbus>=1.12.14-2', 'glib2>=2.60.0', 'libffi>=3.2.1-2']"
 reverse_depends = "['anyremote', 'claws-mail', 'dbus-python', 'firefox', 'freetuxtv', 'gconf', 'hexchat', 'libappindicator', 'libgnome-keyring', 'libpurple', 'networkmanager', 'notification-daemon', 'oxygen-gtk', 'sylpheed', 'telepathy-glib', 'telepathy-idle', 'telepathy-logger', 'telepathy-qt5', 'thunderbird', 'upower', 'usbguard']"
 +++
@@ -28,13 +28,13 @@ Glib bindings for DBUS
 * /usr/lib/dbus-glib/dbus-bash-completion-helper
 * /usr/lib/libdbus-glib-1.so
 * /usr/lib/libdbus-glib-1.so.2
-* /usr/lib/libdbus-glib-1.so.2.3.5
+* /usr/lib/libdbus-glib-1.so.2.3.6
 * /usr/lib/pkgconfig/dbus-glib-1.pc
-* /usr/share/doc/dbus-glib-0.112/AUTHORS
-* /usr/share/doc/dbus-glib-0.112/COPYING
-* /usr/share/doc/dbus-glib-0.112/INSTALL
-* /usr/share/doc/dbus-glib-0.112/NEWS
-* /usr/share/doc/dbus-glib-0.112/README
+* /usr/share/doc/dbus-glib-0.114/AUTHORS
+* /usr/share/doc/dbus-glib-0.114/COPYING
+* /usr/share/doc/dbus-glib-0.114/INSTALL
+* /usr/share/doc/dbus-glib-0.114/NEWS
+* /usr/share/doc/dbus-glib-0.114/README
 * /usr/share/gtk-doc/html/dbus-glib/api-index-full.html
 * /usr/share/gtk-doc/html/dbus-glib/ch01.html
 * /usr/share/gtk-doc/html/dbus-glib/ch02.html
