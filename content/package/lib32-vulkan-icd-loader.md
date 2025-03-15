@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-vulkan-icd-loader 1.4.304.1-1"
-version = "1.4.304.1-1"
+title = "lib32-vulkan-icd-loader 1.4.309.0-1"
+version = "1.4.309.0-1"
 description = "Vulkan Installable Client Driver (ICD) Loader ( 32bit )"
-date = "2025-02-07T21:42:02"
+date = "2025-03-15T20:26:10"
 aliases = "/packages/218916"
 categories = ['lib32-extra']
 upstreamurl = "https://github.com/KhronosGroup/Vulkan-Loader"
 arch = "x86_64"
-size = "129032"
-usize = "573199"
-sha1sum = "9c7af36f5b5c960d4ffc4eadf8249be45b475f20"
+size = "130028"
+usize = "578083"
+sha1sum = "9b3dfbccae48ff13605229e6b6c3c73506b276cb"
 depends = "[]"
 reverse_depends = "['lib32-mangohud', 'lib32-mesa-vulkan-amd', 'lib32-mesa-vulkan-intel', 'lib32-mesa-vulkan-swrast', 'lib32-vkd3d', 'wine', 'wine-devel']"
 +++
@@ -23,5 +23,5 @@ Vulkan Installable Client Driver (ICD) Loader ( 32bit )
 * /usr/lib32/cmake/VulkanLoader/VulkanLoaderConfigVersion.cmake
 * /usr/lib32/libvulkan.so
 * /usr/lib32/libvulkan.so.1
-* /usr/lib32/libvulkan.so.1.4.304
+* /usr/lib32/libvulkan.so.1.4.309
 * /usr/lib32/pkgconfig/vulkan.pc

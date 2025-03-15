@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "proftpd 1.3.8c-1"
-version = "1.3.8c-1"
+title = "proftpd 1.3.9-1"
+version = "1.3.9-1"
 description = "Highly configurable GPL-licensed FTP server software"
-date = "2025-01-03T21:31:13"
+date = "2025-03-15T20:11:17"
 aliases = "/packages/3300"
 categories = ['network-extra']
 upstreamurl = "http://www.proftpd.org/"
 arch = "x86_64"
-size = "996792"
-usize = "4535550"
-sha1sum = "4464995c8503d16a5cc33199b6086105c42cff16"
+size = "1015152"
+usize = "4615585"
+sha1sum = "059affac58fa97205a62c5a502361bd4eb4b597d"
 depends = "['libldap>=2.6.2', 'mariadb-libs>=10.3.14', 'ncurses>=6.5', 'openssl>=3.1.0']"
 +++
 ### Description: 
@@ -112,21 +112,16 @@ Highly configurable GPL-licensed FTP server software
 * /usr/include/proftpd/xferlog.h
 * /usr/lib/pkgconfig/proftpd.pc
 * /usr/lib/systemd/system/proftpd.service
-* /usr/share/doc/proftpd-1.3.8c/ChangeLog
-* /usr/share/doc/proftpd-1.3.8c/COPYING
-* /usr/share/doc/proftpd-1.3.8c/CREDITS
-* /usr/share/doc/proftpd-1.3.8c/INSTALL
-* /usr/share/doc/proftpd-1.3.8c/NEWS
-* /usr/share/doc/proftpd-1.3.8c/README.AIX
-* /usr/share/doc/proftpd-1.3.8c/README.cygwin
-* /usr/share/doc/proftpd-1.3.8c/README.FreeBSD
-* /usr/share/doc/proftpd-1.3.8c/README.LDAP
-* /usr/share/doc/proftpd-1.3.8c/README.md
-* /usr/share/doc/proftpd-1.3.8c/README.modules
-* /usr/share/doc/proftpd-1.3.8c/README.ports
-* /usr/share/doc/proftpd-1.3.8c/README.Solaris2.5x
-* /usr/share/doc/proftpd-1.3.8c/README.Unixware
-* /usr/share/doc/proftpd-1.3.8c/RELEASE_NOTES
+* /usr/share/doc/proftpd-1.3.9/ChangeLog
+* /usr/share/doc/proftpd-1.3.9/CHANGES
+* /usr/share/doc/proftpd-1.3.9/COPYING
+* /usr/share/doc/proftpd-1.3.9/CREDITS
+* /usr/share/doc/proftpd-1.3.9/INSTALL
+* /usr/share/doc/proftpd-1.3.9/LICENSE
+* /usr/share/doc/proftpd-1.3.9/NEWS
+* /usr/share/doc/proftpd-1.3.9/README.md
+* /usr/share/doc/proftpd-1.3.9/Readme.md
+* /usr/share/doc/proftpd-1.3.9/RELEASE_NOTES
 * /usr/share/man/man1/ftpasswd.1.gz
 * /usr/share/man/man1/ftpcount.1.gz
 * /usr/share/man/man1/ftpmail.1.gz
