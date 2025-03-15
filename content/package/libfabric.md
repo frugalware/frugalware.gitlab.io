@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libfabric 2.0.0-1"
-version = "2.0.0-1"
+title = "libfabric 2.1.0-1"
+version = "2.1.0-1"
 description = "User-space API for OpenFabrics Interfaces (OFI)"
-date = "2024-12-14T12:25:48"
+date = "2025-03-15T22:01:50"
 aliases = "/packages/220259"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/ofiwg/libfabric"
 arch = "x86_64"
-size = "724768"
-usize = "1764348"
-sha1sum = "7e720879ffa4e5a5c6eedc5d861a1a4ce2cebae3"
+size = "725636"
+usize = "1765805"
+sha1sum = "8ef2327562f68aa3e372b412252808203f36291f"
 depends = "['glibc>=2.34']"
 reverse_depends = "['adios2']"
 +++
@@ -39,13 +39,13 @@ User-space API for OpenFabrics Interfaces (OFI)
 * /usr/include/rdma/providers/fi_prov.h
 * /usr/lib/libfabric.so
 * /usr/lib/libfabric.so.1
-* /usr/lib/libfabric.so.1.26.0
+* /usr/lib/libfabric.so.1.27.0
 * /usr/lib/pkgconfig/libfabric.pc
-* /usr/share/doc/libfabric-2.0.0/AUTHORS
-* /usr/share/doc/libfabric-2.0.0/CONTRIBUTORS
-* /usr/share/doc/libfabric-2.0.0/COPYING
-* /usr/share/doc/libfabric-2.0.0/README
-* /usr/share/doc/libfabric-2.0.0/README.md
+* /usr/share/doc/libfabric-2.1.0/AUTHORS
+* /usr/share/doc/libfabric-2.1.0/CONTRIBUTORS
+* /usr/share/doc/libfabric-2.1.0/COPYING
+* /usr/share/doc/libfabric-2.1.0/README
+* /usr/share/doc/libfabric-2.1.0/README.md
 * /usr/share/man/man1/fi_info.1.gz
 * /usr/share/man/man1/fi_pingpong.1.gz
 * /usr/share/man/man1/fi_strerror.1.gz
