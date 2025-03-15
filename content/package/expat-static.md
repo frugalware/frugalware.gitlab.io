@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "expat-static 2.7.0-1"
-version = "2.7.0-1"
+title = "expat-static 2.7.0-3"
+version = "2.7.0-3"
 description = "Static files for expat"
-date = "2025-03-15T16:41:50"
+date = "2025-03-15T17:36:58"
 aliases = "/packages/219904"
 categories = ['devel-extra']
 upstreamurl = "http://expat.sf.net"
 arch = "x86_64"
-size = "594676"
-usize = "696830"
-sha1sum = "6bfd8b3bc667b1193f6ced5901b3488586447c8b"
+size = "594720"
+usize = "697006"
+sha1sum = "d7f290736ff8efa8daeb07b808c739ce85368677"
 depends = "[]"
 +++
 ### Description: 
