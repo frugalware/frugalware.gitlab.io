@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kwidgetsaddons 6.11.0-1"
-version = "6.11.0-1"
+title = "kwidgetsaddons 6.12.0-1"
+version = "6.12.0-1"
 description = "Large set of desktop widgets."
-date = "2025-02-15T12:52:02"
+date = "2025-03-15T15:14:36"
 aliases = "/packages/218363"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1715808"
-usize = "5556794"
-sha1sum = "cb2107776045f1300ed42f0fb4c75ff74a8fc71d"
+size = "1717900"
+usize = "5562252"
+sha1sum = "e7332bb248f9ddb655781cd655aa4b88951e6a9b"
 depends = "['qt6-base>=6.8.2']"
 reverse_depends = "['audex', 'isoimagewriter', 'kbackup', 'kcachegrind', 'kcompletion', 'kconfigwidgets', 'kdiff3', 'kpeople', 'kpmcore', 'kwin', 'skladnik', 'wacomtablet']"
 +++
@@ -193,9 +193,9 @@ Large set of desktop widgets.
 * /usr/lib/cmake/KF6WidgetsAddons/KF6WidgetsAddonsTargets.cmake
 * /usr/lib/libKF6WidgetsAddons.so
 * /usr/lib/libKF6WidgetsAddons.so.6
-* /usr/lib/libKF6WidgetsAddons.so.6.11.0
+* /usr/lib/libKF6WidgetsAddons.so.6.12.0
 * /usr/lib/qt6/plugins/designer/kwidgetsaddons6widgets.so
-* /usr/share/doc/kwidgetsaddons-6.11.0/README.md
+* /usr/share/doc/kwidgetsaddons-6.12.0/README.md
 * /usr/share/locale/af/LC_MESSAGES/kwidgetsaddons6_qt.qm
 * /usr/share/locale/ar/LC_MESSAGES/kwidgetsaddons6_qt.qm
 * /usr/share/locale/as/LC_MESSAGES/kwidgetsaddons6_qt.qm
