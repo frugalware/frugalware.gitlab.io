@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "openrazer 3.10.0-4"
-version = "3.10.0-4"
+title = "openrazer 3.10.1-1"
+version = "3.10.1-1"
 description = "An entirely open source driver and user-space daemon that allows you to manage your Razer peripherals on GNU/Linux."
-date = "2025-03-08T13:42:03"
+date = "2025-03-15T13:46:25"
 aliases = "/packages/220390"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/openrazer/openrazer"
 arch = "x86_64"
-size = "286748"
-usize = "2081849"
-sha1sum = "9add288549861d85bee26fe4f405246c87e6560e"
-depends = "['gtk+3', 'kernel=6.13.6-1', 'pygobject3', 'python3-daemonize', 'python3-notify2', 'python3-numpy', 'python3-setproctitle', 'pyudev', 'xautomation']"
+size = "287636"
+usize = "2088420"
+sha1sum = "96a8ae2afad1db3f5d6aed0fd9e67699cf333616"
+depends = "['gtk+3', 'kernel=6.13.7-1', 'pygobject3', 'python3-daemonize', 'python3-notify2', 'python3-numpy', 'python3-setproctitle', 'pyudev', 'xautomation']"
 reverse_depends = "['libopenrazer', 'polychromatic']"
 +++
 ### Description: 
@@ -19,15 +19,15 @@ An entirely open source driver and user-space daemon that allows you to manage y
 
 ### Files: 
 * /usr/bin/openrazer-daemon
-* /usr/lib/modules/6.13.6-fw1/kernel/drivers/hid/razeraccessory.ko
-* /usr/lib/modules/6.13.6-fw1/kernel/drivers/hid/razerkbd.ko
-* /usr/lib/modules/6.13.6-fw1/kernel/drivers/hid/razerkraken.ko
-* /usr/lib/modules/6.13.6-fw1/kernel/drivers/hid/razermouse.ko
-* /usr/lib/python3.13/site-packages/openrazer-3.10.0-py3.13.egg-info/dependency_links.txt
-* /usr/lib/python3.13/site-packages/openrazer-3.10.0-py3.13.egg-info/PKG-INFO
-* /usr/lib/python3.13/site-packages/openrazer-3.10.0-py3.13.egg-info/requires.txt
-* /usr/lib/python3.13/site-packages/openrazer-3.10.0-py3.13.egg-info/SOURCES.txt
-* /usr/lib/python3.13/site-packages/openrazer-3.10.0-py3.13.egg-info/top_level.txt
+* /usr/lib/modules/6.13.7-fw1/kernel/drivers/hid/razeraccessory.ko
+* /usr/lib/modules/6.13.7-fw1/kernel/drivers/hid/razerkbd.ko
+* /usr/lib/modules/6.13.7-fw1/kernel/drivers/hid/razerkraken.ko
+* /usr/lib/modules/6.13.7-fw1/kernel/drivers/hid/razermouse.ko
+* /usr/lib/python3.13/site-packages/openrazer-3.10.1-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/openrazer-3.10.1-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/openrazer-3.10.1-py3.13.egg-info/requires.txt
+* /usr/lib/python3.13/site-packages/openrazer-3.10.1-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/openrazer-3.10.1-py3.13.egg-info/top_level.txt
 * /usr/lib/python3.13/site-packages/openrazer/client/constants.py
 * /usr/lib/python3.13/site-packages/openrazer/client/debug.py
 * /usr/lib/python3.13/site-packages/openrazer/client/device.py
@@ -50,11 +50,11 @@ An entirely open source driver and user-space daemon that allows you to manage y
 * /usr/lib/python3.13/site-packages/openrazer/client/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/openrazer/__init__.py
 * /usr/lib/python3.13/site-packages/openrazer/__pycache__/__init__.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/openrazer_daemon-3.10.0-py3.13.egg-info/dependency_links.txt
-* /usr/lib/python3.13/site-packages/openrazer_daemon-3.10.0-py3.13.egg-info/PKG-INFO
-* /usr/lib/python3.13/site-packages/openrazer_daemon-3.10.0-py3.13.egg-info/requires.txt
-* /usr/lib/python3.13/site-packages/openrazer_daemon-3.10.0-py3.13.egg-info/SOURCES.txt
-* /usr/lib/python3.13/site-packages/openrazer_daemon-3.10.0-py3.13.egg-info/top_level.txt
+* /usr/lib/python3.13/site-packages/openrazer_daemon-3.10.1-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/openrazer_daemon-3.10.1-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/openrazer_daemon-3.10.1-py3.13.egg-info/requires.txt
+* /usr/lib/python3.13/site-packages/openrazer_daemon-3.10.1-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/openrazer_daemon-3.10.1-py3.13.egg-info/top_level.txt
 * /usr/lib/python3.13/site-packages/openrazer_daemon/daemon.py
 * /usr/lib/python3.13/site-packages/openrazer_daemon/dbus_services/dbus_methods/accessory.py
 * /usr/lib/python3.13/site-packages/openrazer_daemon/dbus_services/dbus_methods/all.py
@@ -137,7 +137,7 @@ An entirely open source driver and user-space daemon that allows you to manage y
 * /usr/lib/udev/razer_mount
 * /usr/lib/udev/rules.d/99-razer.rules
 * /usr/share/dbus-1/services/org.razer.service
-* /usr/share/doc/openrazer-3.10.0/README.md
+* /usr/share/doc/openrazer-3.10.1/README.md
 * /usr/share/man/man5/razer.conf.5.gz
 * /usr/share/man/man8/openrazer-daemon.8.gz
 * /usr/share/openrazer/razer.conf.example
