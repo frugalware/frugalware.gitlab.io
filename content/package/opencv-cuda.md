@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "opencv-cuda 4.11.0-1"
-version = "4.11.0-1"
+title = "opencv-cuda 4.11.0-5"
+version = "4.11.0-5"
 description = "Intel(R) Open Source Computer Vision Library CUDA"
-date = "2025-01-21T14:51:17"
+date = "2025-03-15T11:04:23"
 aliases = "/packages/221242"
 categories = ['xapps-extra']
 upstreamurl = "http://opencv.org/"
 arch = "x86_64"
-size = "75435760"
-usize = "1689966369"
-sha1sum = "4dcf6fcaa6de409e7be6507ab6cfbc3cef65d299"
-depends = "['cuda-tools', 'jasper', 'opencv>=4.11.0']"
+size = "75608220"
+usize = "1690895126"
+sha1sum = "35b4ca64f872dd66b30702341d19f11236226e18"
+depends = "['cuda-tools', 'gst1-plugins-base', 'opencv>=4.11.0']"
 +++
 ### Description: 
 Intel(R) Open Source Computer Vision Library CUDA
@@ -925,7 +925,6 @@ Intel(R) Open Source Computer Vision Library CUDA
 * /usr/share/licenses/opencv4/protobuf-README.md
 * /usr/share/licenses/opencv4/SoftFloat-COPYING.txt
 * /usr/share/licenses/opencv4/vasot-LICENSE.txt
-* /usr/share/licenses/opencv4/zlib-LICENSE
 * /usr/share/opencv4/haarcascades/haarcascade_eye.xml
 * /usr/share/opencv4/haarcascades/haarcascade_eye_tree_eyeglasses.xml
 * /usr/share/opencv4/haarcascades/haarcascade_frontalcatface.xml

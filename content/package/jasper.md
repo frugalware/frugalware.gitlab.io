@@ -12,7 +12,7 @@ size = "526592"
 usize = "1439509"
 sha1sum = "76f7c94fbbc1a9d4f16166f1e8981951d8538ae1"
 depends = "['libjpeg-turbo']"
-reverse_depends = "['darktable', 'dcraw', 'devil', 'gdk-pixbuf2', 'gegl', 'ghostscript', 'graphicsmagick', 'kimageformats', 'kimageformats5', 'nufraw', 'opencv', 'opencv-cuda', 'openscenegraph', 'qt5-imageformats', 'qt6-imageformats']"
+reverse_depends = "['darktable', 'dcraw', 'devil', 'gdk-pixbuf2', 'gegl', 'ghostscript', 'graphicsmagick', 'kimageformats', 'kimageformats5', 'nufraw', 'opencv', 'openscenegraph', 'qt5-imageformats', 'qt6-imageformats']"
 +++
 ### Description: 
 Jasper is a implementation of the codec specified in the JPEG-2000 Part-1 standard.
