@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "heroic-games-launcher 2.16.1-1"
-version = "2.16.1-1"
+title = "heroic-games-launcher 2.16.1-2"
+version = "2.16.1-2"
 description = "Native GOG, Epic Games and Amazon games launcher for Linux"
-date = "2025-03-12T09:54:58"
+date = "2025-03-15T18:59:23"
 aliases = "/packages/221432"
 categories = ['games-extra']
 upstreamurl = "https://heroicgameslauncher.com/"
 arch = "x86_64"
-size = "126464280"
-usize = "422931282"
-sha1sum = "d81cc59871912186349ec8d6531078278a97776b"
+size = "122875652"
+usize = "411385878"
+sha1sum = "93f2747e690e0ace14e3cdadaa3cf47d1316ead0"
 depends = "['comet']"
 +++
 ### Description: 
@@ -88,14 +88,11 @@ Native GOG, Epic Games and Amazon games launcher for Linux
 * /opt/heroic/resources.pak
 * /opt/heroic/resources/app-update.yml
 * /opt/heroic/resources/app.asar
-* /opt/heroic/resources/app.asar.unpacked/build/bin/arm64/linux/comet
-* /opt/heroic/resources/app.asar.unpacked/build/bin/arm64/linux/vulkan-helper
 * /opt/heroic/resources/app.asar.unpacked/build/bin/x64/linux/comet
 * /opt/heroic/resources/app.asar.unpacked/build/bin/x64/linux/gogdl
 * /opt/heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary
 * /opt/heroic/resources/app.asar.unpacked/build/bin/x64/linux/nile
 * /opt/heroic/resources/app.asar.unpacked/build/bin/x64/linux/vulkan-helper
-* /opt/heroic/resources/app.asar.unpacked/build/bin/x64/win32/GalaxyCommunication.exe
 * /opt/heroic/resources/app.asar.unpacked/build/icon-dark.png
 * /opt/heroic/resources/app.asar.unpacked/build/icon-light.png
 * /opt/heroic/resources/app.asar.unpacked/build/icon.icns
