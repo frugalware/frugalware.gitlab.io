@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ollama 0.5.13-1"
-version = "0.5.13-1"
+title = "ollama 0.6.1-1"
+version = "0.6.1-1"
 description = "Create, run and share large language models (LLMs)"
-date = "2025-03-04T17:11:19"
+date = "2025-03-16T12:53:35"
 aliases = "/packages/222576"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/ollama/ollama"
 arch = "x86_64"
-size = "8276344"
-usize = "31058867"
-sha1sum = "b8ec06da14097748b86dc848fa9a068331e3982e"
+size = "483921112"
+usize = "954066249"
+sha1sum = "7dc8c93b563aa5cb84bcf7f14e2f382c53b68a7e"
 depends = "['glibc']"
 reverse_depends = "['alpaca']"
 +++
@@ -19,6 +19,13 @@ Create, run and share large language models (LLMs)
 
 ### Files: 
 * /usr/bin/ollama
+* /usr/lib/ollama/cuda_v12/libcublas.so.12
+* /usr/lib/ollama/cuda_v12/libcublas.so.12.8.4.1
+* /usr/lib/ollama/cuda_v12/libcublasLt.so.12
+* /usr/lib/ollama/cuda_v12/libcublasLt.so.12.8.4.1
+* /usr/lib/ollama/cuda_v12/libcudart.so.12
+* /usr/lib/ollama/cuda_v12/libcudart.so.12.8.90
+* /usr/lib/ollama/cuda_v12/libggml-cuda.so
 * /usr/lib/ollama/libggml-base.so
 * /usr/lib/ollama/libggml-cpu-alderlake.so
 * /usr/lib/ollama/libggml-cpu-haswell.so
@@ -28,6 +35,6 @@ Create, run and share large language models (LLMs)
 * /usr/lib/systemd/system/ollama.service
 * /usr/lib/sysusers.d/ollama.conf
 * /usr/lib/tmpfiles.d/ollama.conf
-* /usr/share/doc/ollama-0.5.13/LICENSE
-* /usr/share/doc/ollama-0.5.13/README.md
+* /usr/share/doc/ollama-0.6.1/LICENSE
+* /usr/share/doc/ollama-0.6.1/README.md
 * /usr/share/ollama

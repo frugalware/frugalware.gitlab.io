@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gobject-introspection 1.82.0-2"
-version = "1.82.0-2"
+title = "gobject-introspection 1.84.0-1"
+version = "1.84.0-1"
 description = "Generate interface introspection data for GObject libraries."
-date = "2024-11-03T13:54:55"
+date = "2025-03-16T12:32:17"
 aliases = "/packages/103233"
 categories = ['xlib']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "608008"
-usize = "3198055"
-sha1sum = "c9232b8dc5f2ed50fef2c3ea03a15aa427cb9bef"
+size = "616224"
+usize = "3307754"
+sha1sum = "6a18108814f4dcbd21365a275ad862c70e50e9f3"
 depends = "['glib2>=$_glib2_ver', 'libffi>=3.4', 'python3>=3.13']"
 reverse_depends = "['appstream', 'libfprint', 'libmypaint', 'libnma', 'lutris', 'piper', 'vte3']"
 +++
@@ -158,14 +158,14 @@ Generate interface introspection data for GObject libraries.
 * /usr/lib/pkgconfig/gobject-introspection-1.0.pc
 * /usr/lib/pkgconfig/gobject-introspection-no-export-1.0.pc
 * /usr/share/aclocal/introspection.m4
-* /usr/share/doc/gobject-introspection-1.82.0/COPYING
-* /usr/share/doc/gobject-introspection-1.82.0/COPYING.GPL
-* /usr/share/doc/gobject-introspection-1.82.0/COPYING.LGPL
-* /usr/share/doc/gobject-introspection-1.82.0/INSTALL.md
-* /usr/share/doc/gobject-introspection-1.82.0/MSVC.README.rst
-* /usr/share/doc/gobject-introspection-1.82.0/NEWS
-* /usr/share/doc/gobject-introspection-1.82.0/README.md
-* /usr/share/doc/gobject-introspection-1.82.0/README.rst
+* /usr/share/doc/gobject-introspection-1.84.0/COPYING
+* /usr/share/doc/gobject-introspection-1.84.0/COPYING.GPL
+* /usr/share/doc/gobject-introspection-1.84.0/COPYING.LGPL
+* /usr/share/doc/gobject-introspection-1.84.0/INSTALL.md
+* /usr/share/doc/gobject-introspection-1.84.0/MSVC.README.rst
+* /usr/share/doc/gobject-introspection-1.84.0/NEWS
+* /usr/share/doc/gobject-introspection-1.84.0/README.md
+* /usr/share/doc/gobject-introspection-1.84.0/README.rst
 * /usr/share/gir-1.0/cairo-1.0.gir
 * /usr/share/gir-1.0/DBus-1.0.gir
 * /usr/share/gir-1.0/DBusGLib-1.0.gir

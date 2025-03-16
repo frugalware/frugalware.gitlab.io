@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libatspi 2.55.2-1"
-version = "2.55.2-1"
+title = "libatspi 2.56.0-1"
+version = "2.56.0-1"
 description = "Accessibility Technology software library"
-date = "2025-02-05T15:10:54"
+date = "2025-03-16T12:30:53"
 aliases = "/packages/218070"
 categories = ['xlib']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "230248"
-usize = "2306677"
-sha1sum = "135de220d21311ee75fceb4120a75ce7d47158ad"
+size = "234828"
+usize = "2328306"
+sha1sum = "cde3b97433745f71a1de98db29f091b0936c4a87"
 depends = "['dbus', 'glib2', 'libx11']"
 reverse_depends = "['at-spi2-core', 'gtk+3', 'gtk+4']"
 +++
@@ -24,6 +24,7 @@ Accessibility Technology software library
 * /usr/include/at-spi-2.0/atspi/atspi-collection.h
 * /usr/include/at-spi-2.0/atspi/atspi-component.h
 * /usr/include/at-spi-2.0/atspi/atspi-constants.h
+* /usr/include/at-spi-2.0/atspi/atspi-device-a11y-manager.h
 * /usr/include/at-spi-2.0/atspi/atspi-device-legacy.h
 * /usr/include/at-spi-2.0/atspi/atspi-device-listener.h
 * /usr/include/at-spi-2.0/atspi/atspi-device-x11.h

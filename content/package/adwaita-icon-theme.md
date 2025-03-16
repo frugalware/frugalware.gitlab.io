@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "adwaita-icon-theme 47.0-1"
-version = "47.0-1"
+title = "adwaita-icon-theme 48.0-1"
+version = "48.0-1"
 description = "Default icon theme for GNOME"
-date = "2024-09-21T21:01:23"
+date = "2025-03-16T12:27:45"
 aliases = "/packages/217275"
 categories = ['xlib']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "434972"
-usize = "11771369"
-sha1sum = "7f7a5a9dde30c48b255667548e647bd2643deff2"
+size = "475096"
+usize = "13210981"
+sha1sum = "9d9c8275d1d4185f0a5a9bb755f07df7a3471315"
 depends = "['gtk+4-update-icon-cache', 'gtk-update-icon-cache>=3.22.29', 'hicolor-icon-theme']"
 reverse_depends = "['default-cursors', 'gtk+2', 'gtk+3', 'gtk+4']"
 +++
@@ -18,12 +18,12 @@ reverse_depends = "['default-cursors', 'gtk+2', 'gtk+3', 'gtk+4']"
 Default icon theme for GNOME
 
 ### Files: 
-* /usr/share/doc/adwaita-icon-theme-47.0/AUTHORS
-* /usr/share/doc/adwaita-icon-theme-47.0/COPYING
-* /usr/share/doc/adwaita-icon-theme-47.0/COPYING_CCBYSA3
-* /usr/share/doc/adwaita-icon-theme-47.0/COPYING_LGPL
-* /usr/share/doc/adwaita-icon-theme-47.0/NEWS
-* /usr/share/doc/adwaita-icon-theme-47.0/README.md
+* /usr/share/doc/adwaita-icon-theme-48.0/AUTHORS
+* /usr/share/doc/adwaita-icon-theme-48.0/COPYING
+* /usr/share/doc/adwaita-icon-theme-48.0/COPYING_CCBYSA3
+* /usr/share/doc/adwaita-icon-theme-48.0/COPYING_LGPL
+* /usr/share/doc/adwaita-icon-theme-48.0/NEWS
+* /usr/share/doc/adwaita-icon-theme-48.0/README.md
 * /usr/share/icons/Adwaita/16x16/devices/audio-headphones.png
 * /usr/share/icons/Adwaita/16x16/devices/audio-headset.png
 * /usr/share/icons/Adwaita/16x16/emblems/emblem-readonly.png
@@ -133,6 +133,7 @@ Default icon theme for GNOME
 * /usr/share/icons/Adwaita/cursors/wait
 * /usr/share/icons/Adwaita/cursors/watch
 * /usr/share/icons/Adwaita/cursors/xterm
+* /usr/share/icons/Adwaita/cursors/X_cursor
 * /usr/share/icons/Adwaita/cursors/zoom-in
 * /usr/share/icons/Adwaita/cursors/zoom-out
 * /usr/share/icons/Adwaita/index.theme
@@ -206,7 +207,6 @@ Default icon theme for GNOME
 * /usr/share/icons/Adwaita/scalable/status/image-loading.svg
 * /usr/share/icons/Adwaita/scalable/status/image-missing.svg
 * /usr/share/icons/Adwaita/scalable/status/user-trash-full.svg
-* /usr/share/icons/Adwaita/symbolic-up-to-32/status/process-working-symbolic.svg
 * /usr/share/icons/Adwaita/symbolic/actions/action-unavailable-symbolic.svg
 * /usr/share/icons/Adwaita/symbolic/actions/address-book-new-symbolic.svg
 * /usr/share/icons/Adwaita/symbolic/actions/application-exit-rtl-symbolic.svg
@@ -475,17 +475,6 @@ Default icon theme for GNOME
 * /usr/share/icons/Adwaita/symbolic/devices/video-display-symbolic.svg
 * /usr/share/icons/Adwaita/symbolic/devices/video-joined-displays-symbolic.svg
 * /usr/share/icons/Adwaita/symbolic/devices/video-single-display-symbolic.svg
-* /usr/share/icons/Adwaita/symbolic/emblems/emblem-default-symbolic.svg
-* /usr/share/icons/Adwaita/symbolic/emblems/emblem-documents-symbolic.svg
-* /usr/share/icons/Adwaita/symbolic/emblems/emblem-favorite-symbolic.svg
-* /usr/share/icons/Adwaita/symbolic/emblems/emblem-important-symbolic.svg
-* /usr/share/icons/Adwaita/symbolic/emblems/emblem-music-symbolic.svg
-* /usr/share/icons/Adwaita/symbolic/emblems/emblem-ok-symbolic.svg
-* /usr/share/icons/Adwaita/symbolic/emblems/emblem-photos-symbolic.svg
-* /usr/share/icons/Adwaita/symbolic/emblems/emblem-shared-symbolic.svg
-* /usr/share/icons/Adwaita/symbolic/emblems/emblem-synchronizing-symbolic.svg
-* /usr/share/icons/Adwaita/symbolic/emblems/emblem-system-symbolic.svg
-* /usr/share/icons/Adwaita/symbolic/emblems/emblem-videos-symbolic.svg
 * /usr/share/icons/Adwaita/symbolic/emotes/emote-love-symbolic.svg
 * /usr/share/icons/Adwaita/symbolic/emotes/face-angel-symbolic.svg
 * /usr/share/icons/Adwaita/symbolic/emotes/face-angry-symbolic.svg
@@ -600,6 +589,7 @@ Default icon theme for GNOME
 * /usr/share/icons/Adwaita/symbolic/places/user-desktop-symbolic.svg
 * /usr/share/icons/Adwaita/symbolic/places/user-home-symbolic.svg
 * /usr/share/icons/Adwaita/symbolic/places/user-trash-symbolic.svg
+* /usr/share/icons/Adwaita/symbolic/status/airplane-mode-disabled-symbolic.svg
 * /usr/share/icons/Adwaita/symbolic/status/airplane-mode-symbolic.svg
 * /usr/share/icons/Adwaita/symbolic/status/alarm-symbolic.svg
 * /usr/share/icons/Adwaita/symbolic/status/appointment-missed-symbolic.svg
@@ -774,14 +764,8 @@ Default icon theme for GNOME
 * /usr/share/icons/Adwaita/symbolic/status/orientation-portrait-left-symbolic.svg
 * /usr/share/icons/Adwaita/symbolic/status/orientation-portrait-right-symbolic-rtl.svg
 * /usr/share/icons/Adwaita/symbolic/status/orientation-portrait-right-symbolic.svg
-* /usr/share/icons/Adwaita/symbolic/status/power-profile-balanced-rtl-symbolic.svg
-* /usr/share/icons/Adwaita/symbolic/status/power-profile-balanced-symbolic-rtl.svg
 * /usr/share/icons/Adwaita/symbolic/status/power-profile-balanced-symbolic.svg
-* /usr/share/icons/Adwaita/symbolic/status/power-profile-performance-rtl-symbolic.svg
-* /usr/share/icons/Adwaita/symbolic/status/power-profile-performance-symbolic-rtl.svg
 * /usr/share/icons/Adwaita/symbolic/status/power-profile-performance-symbolic.svg
-* /usr/share/icons/Adwaita/symbolic/status/power-profile-power-saver-rtl-symbolic.svg
-* /usr/share/icons/Adwaita/symbolic/status/power-profile-power-saver-symbolic-rtl.svg
 * /usr/share/icons/Adwaita/symbolic/status/power-profile-power-saver-symbolic.svg
 * /usr/share/icons/Adwaita/symbolic/status/printer-error-symbolic.svg
 * /usr/share/icons/Adwaita/symbolic/status/printer-printing-symbolic.svg

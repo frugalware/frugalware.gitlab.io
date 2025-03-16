@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "alpaca 5.0.6-1"
-version = "5.0.6-1"
+title = "alpaca 5.2.0-1"
+version = "5.2.0-1"
 description = "Alpaca is an Ollama client where you can manage and chat with multiple models, Alpaca provides an easy and begginer friendly way of interacting with local AI, everything is open source and powered by Ollama."
-date = "2025-03-03T16:09:27"
+date = "2025-03-16T13:06:33"
 aliases = "/packages/222580"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/Jeffser/alpaca"
 arch = "x86_64"
-size = "416380"
-usize = "3070621"
-sha1sum = "de0f962ed5a605bca367503a09b9dd6b906575db"
+size = "424800"
+usize = "3101439"
+sha1sum = "30d8adff74af19395bc2d75bed8fcb04274cc006"
 depends = "['appstream', 'gtksourceview5', 'ollama', 'python3-html2text', 'python3-pypdf', 'python3-pytube', 'python3-youtube-transcript-api', 'vte3']"
 +++
 ### Description: 
@@ -39,8 +39,8 @@ Alpaca is an Ollama client where you can manage and chat with multiple models, A
 * /usr/share/applications/com.jeffser.Alpaca.desktop
 * /usr/share/applications/com.jeffser.Alpaca.SearchProvider.desktop
 * /usr/share/dbus-1/services/com.jeffser.Alpaca.SearchProvider.service
-* /usr/share/doc/alpaca-5.0.6/COPYING
-* /usr/share/doc/alpaca-5.0.6/README.md
+* /usr/share/doc/alpaca-5.2.0/COPYING
+* /usr/share/doc/alpaca-5.2.0/README.md
 * /usr/share/glib-2.0/schemas/com.jeffser.Alpaca.gschema.xml
 * /usr/share/gnome-shell/search-providers/com.jeffser.Alpaca.search-provider.ini
 * /usr/share/icons/hicolor/512x512/apps/com.jeffser.Alpaca.png

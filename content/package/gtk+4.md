@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gtk+4 4.16.12-2"
-version = "4.16.12-2"
+title = "gtk+4 4.18.1-1"
+version = "4.18.1-1"
 description = "The GTK+ Toolkit (3.x series)"
-date = "2025-03-13T16:14:16"
+date = "2025-03-16T12:35:10"
 aliases = "/packages/220420"
 categories = ['xlib']
 upstreamurl = "http://www.gtk.org/"
 arch = "x86_64"
-size = "12151108"
-usize = "54977514"
-sha1sum = "2cb2aa0efc6b4cd27f3cd0c44f84f072babe1012"
+size = "12081644"
+usize = "55080583"
+sha1sum = "33a86cb12094bd17c46eec921b1bc56707394051"
 depends = "['adwaita-icon-theme', 'colord', 'gdk-pixbuf2>=2.38.1-2', 'graphene', 'gst1-plugins-bad>=1.22.1', 'gtk+3-tools', 'gtk-update-icon-cache', 'libatspi>=2.32.0', 'libcups>=2.2.0-2', 'libepoxy>=1.3.1-3', 'libffi>=3.2.1-2', 'libpng>=1.6.25', 'libwayland-egl', 'libxcomposite>=0.4.4-2', 'libxcursor>=1.1.14-2', 'libxi', 'libxinerama', 'libxkbcommon>=0.5.0-3', 'libxrandr', 'pango>=1.42.4-2', 'sassc', 'shared-mime-info', 'vulkan-icd-loader', 'wayland-protocols>=1.7-2']"
 reverse_depends = "['celluloid', 'chromium-browser', 'colord-gtk4', 'gcr', 'gnome-desktop', 'granite', 'gssdp', 'gtk+4-demos', 'gtk+4-tools', 'gtk-handbrake', 'gtkmm', 'gtksourceview5', 'ibus', 'lact', 'libadwaita', 'libnma-gtk4', 'libpanel', 'libportal-gtk4', 'vte3']"
 +++
@@ -21,7 +21,6 @@ The GTK+ Toolkit (3.x series)
 * /usr/bin/gtk4-broadwayd
 * /usr/bin/gtk4-builder-tool
 * /usr/bin/gtk4-encode-symbolic-svg
-* /usr/bin/gtk4-icon-browser
 * /usr/bin/gtk4-image-tool
 * /usr/bin/gtk4-launch
 * /usr/bin/gtk4-node-editor
@@ -120,6 +119,7 @@ The GTK+ Toolkit (3.x series)
 * /usr/include/gtk-4.0/gdk/x11/gdkx11utils.h
 * /usr/include/gtk-4.0/gsk/broadway/gskbroadwayrenderer.h
 * /usr/include/gtk-4.0/gsk/gl/gskglrenderer.h
+* /usr/include/gtk-4.0/gsk/gpu/gskglrenderer.h
 * /usr/include/gtk-4.0/gsk/gpu/gskvulkanrenderer.h
 * /usr/include/gtk-4.0/gsk/gsk.h
 * /usr/include/gtk-4.0/gsk/gskcairorenderer.h
@@ -186,6 +186,11 @@ The GTK+ Toolkit (3.x series)
 * /usr/include/gtk-4.0/gtk/deprecated/gtklockbutton.h
 * /usr/include/gtk-4.0/gtk/deprecated/gtkmessagedialog.h
 * /usr/include/gtk-4.0/gtk/deprecated/gtkrender.h
+* /usr/include/gtk-4.0/gtk/deprecated/gtkshortcutlabel.h
+* /usr/include/gtk-4.0/gtk/deprecated/gtkshortcutsgroup.h
+* /usr/include/gtk-4.0/gtk/deprecated/gtkshortcutssection.h
+* /usr/include/gtk-4.0/gtk/deprecated/gtkshortcutsshortcut.h
+* /usr/include/gtk-4.0/gtk/deprecated/gtkshortcutswindow.h
 * /usr/include/gtk-4.0/gtk/deprecated/gtkshow.h
 * /usr/include/gtk-4.0/gtk/deprecated/gtkstatusbar.h
 * /usr/include/gtk-4.0/gtk/deprecated/gtkstylecontext.h
@@ -363,12 +368,7 @@ The GTK+ Toolkit (3.x series)
 * /usr/include/gtk-4.0/gtk/gtkshortcut.h
 * /usr/include/gtk-4.0/gtk/gtkshortcutaction.h
 * /usr/include/gtk-4.0/gtk/gtkshortcutcontroller.h
-* /usr/include/gtk-4.0/gtk/gtkshortcutlabel.h
 * /usr/include/gtk-4.0/gtk/gtkshortcutmanager.h
-* /usr/include/gtk-4.0/gtk/gtkshortcutsgroup.h
-* /usr/include/gtk-4.0/gtk/gtkshortcutssection.h
-* /usr/include/gtk-4.0/gtk/gtkshortcutsshortcut.h
-* /usr/include/gtk-4.0/gtk/gtkshortcutswindow.h
 * /usr/include/gtk-4.0/gtk/gtkshortcuttrigger.h
 * /usr/include/gtk-4.0/gtk/gtksignallistitemfactory.h
 * /usr/include/gtk-4.0/gtk/gtksingleselection.h
@@ -437,7 +437,7 @@ The GTK+ Toolkit (3.x series)
 * /usr/lib/gtk-4.0/4.0.0/printbackends/libprintbackend-file.so
 * /usr/lib/libgtk-4.so
 * /usr/lib/libgtk-4.so.1
-* /usr/lib/libgtk-4.so.1.1600.12
+* /usr/lib/libgtk-4.so.1.1800.1
 * /usr/lib/pkgconfig/gtk4-atspi.pc
 * /usr/lib/pkgconfig/gtk4-broadway.pc
 * /usr/lib/pkgconfig/gtk4-unix-print.pc
@@ -446,13 +446,12 @@ The GTK+ Toolkit (3.x series)
 * /usr/lib/pkgconfig/gtk4.pc
 * /usr/share/applications/org.gtk.Demo4.desktop
 * /usr/share/applications/org.gtk.gtk4.NodeEditor.desktop
-* /usr/share/applications/org.gtk.IconBrowser4.desktop
 * /usr/share/applications/org.gtk.PrintEditor4.desktop
 * /usr/share/applications/org.gtk.WidgetFactory4.desktop
-* /usr/share/doc/gtk+4-4.16.12/AUTHORS
-* /usr/share/doc/gtk+4-4.16.12/COPYING
-* /usr/share/doc/gtk+4-4.16.12/NEWS
-* /usr/share/doc/gtk+4-4.16.12/README.md
+* /usr/share/doc/gtk+4-4.18.1/AUTHORS
+* /usr/share/doc/gtk+4-4.18.1/COPYING
+* /usr/share/doc/gtk+4-4.18.1/NEWS
+* /usr/share/doc/gtk+4-4.18.1/README.md
 * /usr/share/gettext/its/gtk4builder.its
 * /usr/share/gettext/its/gtk4builder.loc
 * /usr/share/gir-1.0/Gdk-4.0.gir
@@ -494,13 +493,11 @@ The GTK+ Toolkit (3.x series)
 * /usr/share/icons/hicolor/scalable/apps/org.gtk.Demo4.svg
 * /usr/share/icons/hicolor/scalable/apps/org.gtk.gtk4.NodeEditor.Devel.svg
 * /usr/share/icons/hicolor/scalable/apps/org.gtk.gtk4.NodeEditor.svg
-* /usr/share/icons/hicolor/scalable/apps/org.gtk.IconBrowser4.svg
 * /usr/share/icons/hicolor/scalable/apps/org.gtk.PrintEditor4.Devel.svg
 * /usr/share/icons/hicolor/scalable/apps/org.gtk.PrintEditor4.svg
 * /usr/share/icons/hicolor/scalable/apps/org.gtk.WidgetFactory4.svg
 * /usr/share/icons/hicolor/symbolic/apps/org.gtk.Demo4-symbolic.svg
 * /usr/share/icons/hicolor/symbolic/apps/org.gtk.gtk4.NodeEditor-symbolic.svg
-* /usr/share/icons/hicolor/symbolic/apps/org.gtk.IconBrowser4-symbolic.svg
 * /usr/share/icons/hicolor/symbolic/apps/org.gtk.PrintEditor4-symbolic.svg
 * /usr/share/icons/hicolor/symbolic/apps/org.gtk.WidgetFactory4-symbolic.svg
 * /usr/share/locale/ab/LC_MESSAGES/gtk40.mo
@@ -624,6 +621,5 @@ The GTK+ Toolkit (3.x series)
 * /usr/share/locale/zh_TW/LC_MESSAGES/gtk40.mo
 * /usr/share/metainfo/org.gtk.Demo4.appdata.xml
 * /usr/share/metainfo/org.gtk.gtk4.NodeEditor.appdata.xml
-* /usr/share/metainfo/org.gtk.IconBrowser4.appdata.xml
 * /usr/share/metainfo/org.gtk.PrintEditor4.appdata.xml
 * /usr/share/metainfo/org.gtk.WidgetFactory4.appdata.xml

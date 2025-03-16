@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "duplicati 2.1.0.110-1"
-version = "2.1.0.110-1"
+title = "duplicati 2.1.0.111-1"
+version = "2.1.0.111-1"
 description = "A free backup client that securely stores encrypted, incremental, compressed backups on cloud storage services and remote file servers"
-date = "2025-03-02T19:14:54"
+date = "2025-03-16T13:00:22"
 aliases = "/packages/219894"
 categories = ['xapps-extra']
 upstreamurl = "http://duplicati.com"
 arch = "x86_64"
-size = "65262956"
-usize = "201992028"
-sha1sum = "4cbc7478d5e2b10ec3bed46763042898ffa81527"
+size = "64251584"
+usize = "197990634"
+sha1sum = "21db3a1a3b7adc0b9ad9c9f7d667f87c6dbd4b27"
 depends = "['lttng-ust12']"
 +++
 ### Description: 
@@ -48,6 +48,8 @@ A free backup client that securely stores encrypted, incremental, compressed bac
 * /opt/duplicati/Azure.Core.dll
 * /opt/duplicati/Azure.Identity.dll
 * /opt/duplicati/Azure.Security.KeyVault.Secrets.dll
+* /opt/duplicati/Azure.Storage.Blobs.dll
+* /opt/duplicati/Azure.Storage.Common.dll
 * /opt/duplicati/BouncyCastle.Crypto.dll
 * /opt/duplicati/BouncyCastle.Cryptography.dll
 * /opt/duplicati/changelog.txt
@@ -379,12 +381,6 @@ A free backup client that securely stores encrypted, incremental, compressed bac
 * /opt/duplicati/Microsoft.AspNetCore.StaticFiles.dll
 * /opt/duplicati/Microsoft.AspNetCore.WebSockets.dll
 * /opt/duplicati/Microsoft.AspNetCore.WebUtilities.dll
-* /opt/duplicati/Microsoft.Azure.KeyVault.Core.dll
-* /opt/duplicati/Microsoft.Azure.KeyVault.WebKey.dll
-* /opt/duplicati/Microsoft.Azure.Storage.Blob.dll
-* /opt/duplicati/Microsoft.Azure.Storage.Common.dll
-* /opt/duplicati/Microsoft.Azure.Storage.File.dll
-* /opt/duplicati/Microsoft.Azure.Storage.Queue.dll
 * /opt/duplicati/Microsoft.Bcl.AsyncInterfaces.dll
 * /opt/duplicati/Microsoft.CSharp.dll
 * /opt/duplicati/Microsoft.Extensions.Caching.Abstractions.dll
@@ -445,14 +441,11 @@ A free backup client that securely stores encrypted, incremental, compressed bac
 * /opt/duplicati/Microsoft.JSInterop.dll
 * /opt/duplicati/Microsoft.Net.Http.Headers.dll
 * /opt/duplicati/Microsoft.OpenApi.dll
-* /opt/duplicati/Microsoft.Rest.ClientRuntime.Azure.dll
-* /opt/duplicati/Microsoft.Rest.ClientRuntime.dll
 * /opt/duplicati/Microsoft.VisualBasic.Core.dll
 * /opt/duplicati/Microsoft.VisualBasic.dll
 * /opt/duplicati/Microsoft.Win32.Primitives.dll
 * /opt/duplicati/Microsoft.Win32.Registry.dll
 * /opt/duplicati/Microsoft.Win32.SystemEvents.dll
-* /opt/duplicati/Microsoft.WindowsAzure.Storage.dll
 * /opt/duplicati/MimeKit.dll
 * /opt/duplicati/Minio.dll
 * /opt/duplicati/Mono.Unix.dll
@@ -473,9 +466,6 @@ A free backup client that securely stores encrypted, incremental, compressed bac
 * /opt/duplicati/SharePointPnP.Client.dll
 * /opt/duplicati/SharpAESCrypt.dll
 * /opt/duplicati/SharpCompress.dll
-* /opt/duplicati/SixLabors.Fonts.dll
-* /opt/duplicati/SixLabors.ImageSharp.dll
-* /opt/duplicati/SixLabors.ImageSharp.Drawing.dll
 * /opt/duplicati/SkiaSharp.dll
 * /opt/duplicati/SMBLibrary.dll
 * /opt/duplicati/SMBLibrary.Win32.dll
@@ -548,6 +538,7 @@ A free backup client that securely stores encrypted, incremental, compressed bac
 * /opt/duplicati/System.IO.FileSystem.DriveInfo.dll
 * /opt/duplicati/System.IO.FileSystem.Primitives.dll
 * /opt/duplicati/System.IO.FileSystem.Watcher.dll
+* /opt/duplicati/System.IO.Hashing.dll
 * /opt/duplicati/System.IO.IsolatedStorage.dll
 * /opt/duplicati/System.IO.MemoryMappedFiles.dll
 * /opt/duplicati/System.IO.Pipelines.dll
@@ -1104,71 +1095,72 @@ A free backup client that securely stores encrypted, incremental, compressed bac
 * /opt/duplicati/webroot/ngclient/assets/spk-bold.woff2
 * /opt/duplicati/webroot/ngclient/assets/spk.css
 * /opt/duplicati/webroot/ngclient/assets/spk.woff2
-* /opt/duplicati/webroot/ngclient/chunk-2M52SFS6.js
-* /opt/duplicati/webroot/ngclient/chunk-2VH4NDQH.js
-* /opt/duplicati/webroot/ngclient/chunk-2WZR3NHU.js
-* /opt/duplicati/webroot/ngclient/chunk-4A4CWPH7.js
-* /opt/duplicati/webroot/ngclient/chunk-4WK5KLP3.js
-* /opt/duplicati/webroot/ngclient/chunk-6RMLOIRD.js
-* /opt/duplicati/webroot/ngclient/chunk-7G6LF4RE.js
-* /opt/duplicati/webroot/ngclient/chunk-7IPKE42T.js
-* /opt/duplicati/webroot/ngclient/chunk-7IRVNC4S.js
-* /opt/duplicati/webroot/ngclient/chunk-7LP2EQ7M.js
-* /opt/duplicati/webroot/ngclient/chunk-7LRQSKYZ.js
-* /opt/duplicati/webroot/ngclient/chunk-7QNL2MJX.js
-* /opt/duplicati/webroot/ngclient/chunk-AO6V5EDZ.js
-* /opt/duplicati/webroot/ngclient/chunk-AXHB6A4N.js
-* /opt/duplicati/webroot/ngclient/chunk-AYWJL6PH.js
-* /opt/duplicati/webroot/ngclient/chunk-C5EHOW7U.js
-* /opt/duplicati/webroot/ngclient/chunk-C6Q5SG76.js
-* /opt/duplicati/webroot/ngclient/chunk-CI7PYMKD.js
-* /opt/duplicati/webroot/ngclient/chunk-DALX7AMG.js
-* /opt/duplicati/webroot/ngclient/chunk-DNDOALN6.js
+* /opt/duplicati/webroot/ngclient/chunk-2SYN2ATG.js
+* /opt/duplicati/webroot/ngclient/chunk-3GK4TNUH.js
+* /opt/duplicati/webroot/ngclient/chunk-3WEATDBM.js
+* /opt/duplicati/webroot/ngclient/chunk-3WKC2CFC.js
+* /opt/duplicati/webroot/ngclient/chunk-3YOT5OAB.js
+* /opt/duplicati/webroot/ngclient/chunk-4ERW7ITN.js
+* /opt/duplicati/webroot/ngclient/chunk-4SOUVJR6.js
+* /opt/duplicati/webroot/ngclient/chunk-4XPN5ZGE.js
+* /opt/duplicati/webroot/ngclient/chunk-5COOM7FC.js
+* /opt/duplicati/webroot/ngclient/chunk-5UL3RRQI.js
+* /opt/duplicati/webroot/ngclient/chunk-6LVGSIUU.js
+* /opt/duplicati/webroot/ngclient/chunk-7CGTOI24.js
+* /opt/duplicati/webroot/ngclient/chunk-7EPQLKGD.js
+* /opt/duplicati/webroot/ngclient/chunk-7JZ5LA6R.js
+* /opt/duplicati/webroot/ngclient/chunk-7NEOVOUN.js
+* /opt/duplicati/webroot/ngclient/chunk-7XGYQRKR.js
+* /opt/duplicati/webroot/ngclient/chunk-BYMCE7VW.js
+* /opt/duplicati/webroot/ngclient/chunk-C2PMOZWR.js
+* /opt/duplicati/webroot/ngclient/chunk-CHZ7TMI7.js
+* /opt/duplicati/webroot/ngclient/chunk-CMXSHXAU.js
+* /opt/duplicati/webroot/ngclient/chunk-CPOAOTIS.js
+* /opt/duplicati/webroot/ngclient/chunk-CR2UB7UZ.js
 * /opt/duplicati/webroot/ngclient/chunk-DNHLTHLR.js
-* /opt/duplicati/webroot/ngclient/chunk-DTCM7OB2.js
-* /opt/duplicati/webroot/ngclient/chunk-DW725235.js
-* /opt/duplicati/webroot/ngclient/chunk-FMSANFAF.js
-* /opt/duplicati/webroot/ngclient/chunk-FQPMHKLD.js
-* /opt/duplicati/webroot/ngclient/chunk-FXXGCONI.js
-* /opt/duplicati/webroot/ngclient/chunk-G3KME6QI.js
-* /opt/duplicati/webroot/ngclient/chunk-G56SHWBZ.js
-* /opt/duplicati/webroot/ngclient/chunk-IYQIIJKE.js
-* /opt/duplicati/webroot/ngclient/chunk-IZYAOMPF.js
-* /opt/duplicati/webroot/ngclient/chunk-JGOWJDLZ.js
-* /opt/duplicati/webroot/ngclient/chunk-KIB4MYBL.js
-* /opt/duplicati/webroot/ngclient/chunk-L5D4JLN3.js
-* /opt/duplicati/webroot/ngclient/chunk-LJ3ULEOG.js
-* /opt/duplicati/webroot/ngclient/chunk-MADB4EX7.js
-* /opt/duplicati/webroot/ngclient/chunk-MCLDJCPW.js
-* /opt/duplicati/webroot/ngclient/chunk-MNR2YI5Q.js
-* /opt/duplicati/webroot/ngclient/chunk-NNUHZ2L7.js
-* /opt/duplicati/webroot/ngclient/chunk-OKERRNQC.js
-* /opt/duplicati/webroot/ngclient/chunk-OQ3EADZK.js
-* /opt/duplicati/webroot/ngclient/chunk-P6HOXQHE.js
-* /opt/duplicati/webroot/ngclient/chunk-PHQM25ND.js
-* /opt/duplicati/webroot/ngclient/chunk-PNJEVGID.js
-* /opt/duplicati/webroot/ngclient/chunk-PPRHD3ZV.js
-* /opt/duplicati/webroot/ngclient/chunk-R2HH6TYJ.js
-* /opt/duplicati/webroot/ngclient/chunk-RGSJ6UVN.js
-* /opt/duplicati/webroot/ngclient/chunk-RTVM3BJK.js
-* /opt/duplicati/webroot/ngclient/chunk-SWGKS3QC.js
-* /opt/duplicati/webroot/ngclient/chunk-TO5QMMUQ.js
-* /opt/duplicati/webroot/ngclient/chunk-UIC2LGAH.js
-* /opt/duplicati/webroot/ngclient/chunk-UXQIJ2H5.js
-* /opt/duplicati/webroot/ngclient/chunk-W4MEGIZH.js
-* /opt/duplicati/webroot/ngclient/chunk-WLQUMVWA.js
-* /opt/duplicati/webroot/ngclient/chunk-WQDSSB2V.js
-* /opt/duplicati/webroot/ngclient/chunk-WWJFELTU.js
-* /opt/duplicati/webroot/ngclient/chunk-X6SCWL5V.js
-* /opt/duplicati/webroot/ngclient/chunk-XB5GDNN5.js
-* /opt/duplicati/webroot/ngclient/chunk-XFS2LSEM.js
-* /opt/duplicati/webroot/ngclient/chunk-XKAASYKO.js
-* /opt/duplicati/webroot/ngclient/chunk-Y2422GIA.js
-* /opt/duplicati/webroot/ngclient/chunk-Y5WADXF5.js
-* /opt/duplicati/webroot/ngclient/chunk-YO6IQOER.js
-* /opt/duplicati/webroot/ngclient/chunk-YOP6HOXH.js
-* /opt/duplicati/webroot/ngclient/chunk-ZLMSSTXT.js
-* /opt/duplicati/webroot/ngclient/chunk-ZNTSJUHI.js
+* /opt/duplicati/webroot/ngclient/chunk-FWWMGA32.js
+* /opt/duplicati/webroot/ngclient/chunk-G3YJXHRY.js
+* /opt/duplicati/webroot/ngclient/chunk-GI6WORKU.js
+* /opt/duplicati/webroot/ngclient/chunk-HE6PHO5B.js
+* /opt/duplicati/webroot/ngclient/chunk-HGERKLOF.js
+* /opt/duplicati/webroot/ngclient/chunk-HLLAB5VQ.js
+* /opt/duplicati/webroot/ngclient/chunk-HYBV36HG.js
+* /opt/duplicati/webroot/ngclient/chunk-IAVOZTCR.js
+* /opt/duplicati/webroot/ngclient/chunk-IHYIT4I3.js
+* /opt/duplicati/webroot/ngclient/chunk-ILQK4A72.js
+* /opt/duplicati/webroot/ngclient/chunk-INK3KQF2.js
+* /opt/duplicati/webroot/ngclient/chunk-L3T52MCL.js
+* /opt/duplicati/webroot/ngclient/chunk-LHSJLKCF.js
+* /opt/duplicati/webroot/ngclient/chunk-LO4MUZS2.js
+* /opt/duplicati/webroot/ngclient/chunk-MJI6X5KH.js
+* /opt/duplicati/webroot/ngclient/chunk-MJUYFS7O.js
+* /opt/duplicati/webroot/ngclient/chunk-N7UCCMLS.js
+* /opt/duplicati/webroot/ngclient/chunk-NL7QPU6R.js
+* /opt/duplicati/webroot/ngclient/chunk-NV2YMSSM.js
+* /opt/duplicati/webroot/ngclient/chunk-OL4IJVKD.js
+* /opt/duplicati/webroot/ngclient/chunk-OS4AAJLB.js
+* /opt/duplicati/webroot/ngclient/chunk-PTC4N7TU.js
+* /opt/duplicati/webroot/ngclient/chunk-PUSUA4U7.js
+* /opt/duplicati/webroot/ngclient/chunk-Q3FF4WG3.js
+* /opt/duplicati/webroot/ngclient/chunk-Q6U2NFPI.js
+* /opt/duplicati/webroot/ngclient/chunk-QPO2N2OR.js
+* /opt/duplicati/webroot/ngclient/chunk-QX5XWUM2.js
+* /opt/duplicati/webroot/ngclient/chunk-RIGBDLYY.js
+* /opt/duplicati/webroot/ngclient/chunk-S5VSZG5H.js
+* /opt/duplicati/webroot/ngclient/chunk-UMUPSIIL.js
+* /opt/duplicati/webroot/ngclient/chunk-USGQSK2Z.js
+* /opt/duplicati/webroot/ngclient/chunk-V6OHLKTK.js
+* /opt/duplicati/webroot/ngclient/chunk-VYKAGJXY.js
+* /opt/duplicati/webroot/ngclient/chunk-W5YK2JJZ.js
+* /opt/duplicati/webroot/ngclient/chunk-WBNOGAKJ.js
+* /opt/duplicati/webroot/ngclient/chunk-WNWGY2FM.js
+* /opt/duplicati/webroot/ngclient/chunk-XBZX6CUW.js
+* /opt/duplicati/webroot/ngclient/chunk-XC6KYSRC.js
+* /opt/duplicati/webroot/ngclient/chunk-YIWL3QAP.js
+* /opt/duplicati/webroot/ngclient/chunk-ZFE5M6M3.js
+* /opt/duplicati/webroot/ngclient/chunk-ZOUY24KQ.js
+* /opt/duplicati/webroot/ngclient/chunk-ZRXUUC26.js
+* /opt/duplicati/webroot/ngclient/chunk-ZTJALQGT.js
 * /opt/duplicati/webroot/ngclient/index.html
 * /opt/duplicati/webroot/ngclient/locale/angular/da.mjs
 * /opt/duplicati/webroot/ngclient/locale/angular/de.mjs
@@ -1189,11 +1181,11 @@ A free backup client that securely stores encrypted, incremental, compressed bac
 * /opt/duplicati/webroot/ngclient/locale/messages.de-DE.json
 * /opt/duplicati/webroot/ngclient/locale/messages.fr-FR.json
 * /opt/duplicati/webroot/ngclient/locale/messages.json
-* /opt/duplicati/webroot/ngclient/main-JZ3UOPVL.js
+* /opt/duplicati/webroot/ngclient/main-GMFQCDBZ.js
 * /opt/duplicati/webroot/ngclient/package.json
 * /opt/duplicati/webroot/ngclient/polyfills-BZ5XXHZK.js
 * /opt/duplicati/webroot/ngclient/sparkle-ui-assets/fonts/InterTight-VariableFont_wght.woff2
-* /opt/duplicati/webroot/ngclient/styles-HDO6WYV2.css
+* /opt/duplicati/webroot/ngclient/styles-IOWRSZHV.css
 * /opt/duplicati/webroot/oem/ngax/scripts/oem.js
 * /opt/duplicati/webroot/oem/ngax/styles/oem.css
 * /opt/duplicati/webroot/oem/root/index/oem.css

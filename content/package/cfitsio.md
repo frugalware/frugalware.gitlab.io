@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "cfitsio 4.5.0-1"
-version = "4.5.0-1"
+title = "cfitsio 4.6.0-1"
+version = "4.6.0-1"
 description = "C and Fortran library for manipulating FITS files"
-date = "2024-08-29T13:05:26"
+date = "2025-03-16T12:41:55"
 aliases = "/packages/38802"
 categories = ['lib']
 upstreamurl = "https://heasarc.gsfc.nasa.gov/fitsio/"
 arch = "x86_64"
-size = "690668"
-usize = "2511970"
-sha1sum = "546801cda5f674fcb3247765ad8103b320df055e"
+size = "690332"
+usize = "2521975"
+sha1sum = "bb7374f8eb83609e3e012d970fd180401464d784"
 depends = "['glibc>=2.34']"
 reverse_depends = "['gwenview', 'kstars', 'labplot', 'libvips', 'nufraw', 'wcslib']"
 +++
@@ -36,11 +36,11 @@ C and Fortran library for manipulating FITS files
 * /usr/lib/libcfitsio.so
 * /usr/lib/libcfitsio.so.10
 * /usr/lib/libcfitsio.so.10.0.0
-* /usr/lib/libcfitsio.so.10.4.5.0
+* /usr/lib/libcfitsio.so.10.4.6.0
 * /usr/lib/pkgconfig/cfitsio.pc
-* /usr/share/doc/cfitsio-4.5.0/ChangeLog
-* /usr/share/doc/cfitsio-4.5.0/INSTALL
-* /usr/share/doc/cfitsio-4.5.0/README.MacOS
-* /usr/share/doc/cfitsio-4.5.0/README.md
-* /usr/share/doc/cfitsio-4.5.0/README.win
-* /usr/share/doc/cfitsio-4.5.0/README_OLD.win
+* /usr/share/doc/cfitsio-4.6.0/ChangeLog
+* /usr/share/doc/cfitsio-4.6.0/INSTALL
+* /usr/share/doc/cfitsio-4.6.0/README.MacOS
+* /usr/share/doc/cfitsio-4.6.0/README.md
+* /usr/share/doc/cfitsio-4.6.0/README.win
+* /usr/share/doc/cfitsio-4.6.0/README_OLD.win
