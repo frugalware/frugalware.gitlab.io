@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vala 0.56.17-1"
-version = "0.56.17-1"
+title = "vala 0.56.18-1"
+version = "0.56.18-1"
 description = "Vala is a prgramming language that aims to bring modern programming language features to GNOME developers"
-date = "2024-06-12T09:54:12"
+date = "2025-03-17T12:17:36"
 aliases = "/packages/38773"
 categories = ['devel-extra']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "2501216"
-usize = "16287420"
-sha1sum = "fcb725936d8599c7080c873f470b33c33ba4050b"
+size = "2502012"
+usize = "16308557"
+sha1sum = "f6f0d3625836d0fbc6ddd3043ae592c0eac70b30"
 depends = "['glib2>=2.60.0', 'graphviz', 'libffi>=3.2.1-2']"
 reverse_depends = "['libproxy-vala', 'libsecret-vala']"
 +++
@@ -69,14 +69,15 @@ Vala is a prgramming language that aims to bring modern programming language fea
 * /usr/share/devhelp/books/vala-0.56/Structs.html
 * /usr/share/devhelp/books/vala-0.56/Types.html
 * /usr/share/devhelp/books/vala-0.56/vala-0.56.devhelp2
-* /usr/share/doc/vala-0.56.17/AUTHORS
-* /usr/share/doc/vala-0.56.17/ChangeLog
-* /usr/share/doc/vala-0.56.17/COPYING
-* /usr/share/doc/vala-0.56.17/INSTALL
-* /usr/share/doc/vala-0.56.17/NEWS
-* /usr/share/doc/vala-0.56.17/README
-* /usr/share/doc/vala-0.56.17/README.md
-* /usr/share/doc/vala-0.56.17/THANKS
+* /usr/share/doc/vala-0.56.18/AUTHORS
+* /usr/share/doc/vala-0.56.18/ChangeLog
+* /usr/share/doc/vala-0.56.18/COPYING
+* /usr/share/doc/vala-0.56.18/INSTALL
+* /usr/share/doc/vala-0.56.18/NEWS
+* /usr/share/doc/vala-0.56.18/README
+* /usr/share/doc/vala-0.56.18/README.md
+* /usr/share/doc/vala-0.56.18/RELEASE
+* /usr/share/doc/vala-0.56.18/THANKS
 * /usr/share/man/man1/vala-gen-introspect-0.56.1.gz
 * /usr/share/man/man1/vala-gen-introspect.1.gz
 * /usr/share/man/man1/valac-0.56.1.gz

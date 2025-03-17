@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "fwupd 2.0.6-1"
-version = "2.0.6-1"
+title = "fwupd 2.0.6-2"
+version = "2.0.6-2"
 description = "A simple daemon to allow session software to update firmware"
-date = "2025-02-15T13:47:43"
+date = "2025-03-17T12:24:46"
 aliases = "/packages/219170"
 categories = ['apps']
 upstreamurl = "https://github.com/fwupd/fwupd"
 arch = "x86_64"
-size = "8254104"
-usize = "50780963"
-sha1sum = "727aa378322de87625b94475362bec20ed8a3c9d"
-depends = "['appstream-glib', 'colord', 'efivar', 'flashrom', 'fwupd-efi', 'gnu-efi', 'gpgme', 'gsettings-desktop-schemas', 'libarchive', 'libcbor', 'libgusb', 'libjcat', 'libqmi', 'libsmbios', 'libxmlb>=0.3.19', 'modemmanager', 'passim', 'protobuf-c', 'tpm2-tss', 'udisks2']"
+size = "8255344"
+usize = "50777167"
+sha1sum = "11ddca72d1613c52ae11d4d8484f7b1585aa09ba"
+depends = "['appstream-glib', 'colord', 'efivar', 'flashrom', 'fwupd-efi', 'gnu-efi', 'gpgme', 'gsettings-desktop-schemas', 'libarchive', 'libcbor>=0.12.0', 'libgusb', 'libjcat', 'libqmi', 'libsmbios', 'libxmlb>=0.3.19', 'modemmanager', 'passim', 'protobuf-c', 'tpm2-tss', 'udisks2']"
 reverse_depends = "['discover', 'kinfocenter']"
 +++
 ### Description: 

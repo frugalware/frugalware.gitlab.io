@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libfido2 1.15.0-1"
-version = "1.15.0-1"
+title = "libfido2 1.15.0-2"
+version = "1.15.0-2"
 description = "Library functionality for FIDO 2.0, including communication with a device over USB"
-date = "2024-06-24T20:44:29"
+date = "2025-03-17T12:46:12"
 aliases = "/packages/220053"
 categories = ['lib']
 upstreamurl = "https://developers.yubico.com/libfido2/"
 arch = "x86_64"
-size = "182004"
-usize = "459641"
-sha1sum = "cf66996355f1e09f7d780a16f1ea55ed170f0c76"
-depends = "['libcbor>=0.11.0', 'libhidapi', 'openssl>=3.1.0', 'systemd']"
+size = "181016"
+usize = "460497"
+sha1sum = "e51b13398f1ae54752cb37b9063672fde1fb5f85"
+depends = "['libcbor>=0.12.0', 'libhidapi', 'openssl>=3.1.0', 'systemd']"
 reverse_depends = "['openssh']"
 +++
 ### Description: 
