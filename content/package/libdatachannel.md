@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libdatachannel 0.22.5-1"
-version = "0.22.5-1"
+title = "libdatachannel 0.22.6-1"
+version = "0.22.6-1"
 description = "C/C++ WebRTC network library featuring Data Channels, Media Transport, and WebSockets"
-date = "2025-02-15T18:56:53"
+date = "2025-03-17T21:46:17"
 aliases = "/packages/222607"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/paullouisageneau/libdatachannel"
 arch = "x86_64"
-size = "536432"
-usize = "2047666"
-sha1sum = "39202357c84bf70de70aed99d373d58310819b40"
+size = "538332"
+usize = "2058874"
+sha1sum = "923f11916ea36059e71024c9b9349b1d0291dea1"
 depends = "['libjuice', 'libsrtp', 'libstdc++', 'openssl', 'usrsctp']"
 reverse_depends = "['obs-studio']"
 +++
@@ -59,6 +59,6 @@ C/C++ WebRTC network library featuring Data Channels, Media Transport, and WebSo
 * /usr/lib/cmake/LibDataChannel/LibDataChannelTargets.cmake
 * /usr/lib/libdatachannel.so
 * /usr/lib/libdatachannel.so.0.22
-* /usr/lib/libdatachannel.so.0.22.5
-* /usr/share/doc/libdatachannel-0.22.5/LICENSE
-* /usr/share/doc/libdatachannel-0.22.5/README.md
+* /usr/lib/libdatachannel.so.0.22.6
+* /usr/share/doc/libdatachannel-0.22.6/LICENSE
+* /usr/share/doc/libdatachannel-0.22.6/README.md

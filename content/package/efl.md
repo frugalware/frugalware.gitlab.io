@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "efl 1.28.0-5"
-version = "1.28.0-5"
+title = "efl 1.28.1-1"
+version = "1.28.1-1"
 description = "Enlightenment Foundation Libraries"
-date = "2025-03-13T17:49:58"
+date = "2025-03-17T21:33:53"
 aliases = "/packages/218022"
 categories = ['e-libs']
 upstreamurl = "https://www.enlightenment.org/"
 arch = "x86_64"
-size = "31527892"
-usize = "73237326"
-sha1sum = "d9f21ed4177216340a404e777f0137b99279e26f"
+size = "31545668"
+usize = "73237395"
+sha1sum = "87dec89bbea8799f750bc9848674ec4a83186bb9"
 depends = "['avahi', 'bullet>=2.89', 'bzip2', 'dbus', 'expat', 'flac', 'fontconfig', 'freetype2', 'fribidi', 'glib2', 'graphite2', 'gst1-plugins-base', 'gstreamer1', 'harfbuzz', 'json-c', 'libasyncns', 'libblkid', 'libdrm', 'libevdev', 'libffi', 'libgbm', 'libgcc', 'libgcrypt', 'libgif', 'libgpg-error', 'libinput', 'libjpeg-turbo', 'libogg', 'libpng', 'libpulse', 'libraw>=0.21.1', 'librsvg', 'libsndfile', 'libspectre', 'libssp', 'libstdc++', 'libsystemd', 'libtiff>=4.7.0', 'libunwind', 'libuuid>=2.40.2', 'libvlc', 'libvorbis', 'libwebp', 'libx11', 'libxau', 'libxcb', 'libxcomposite', 'libxcursor', 'libxdamage', 'libxdmcp', 'libxext', 'libxfixes', 'libxi', 'libxinerama', 'libxkbcommon', 'libxrandr', 'libxrender', 'libxscrnsaver', 'libxshmfence', 'libxtst', 'libxxf86vm', 'lua51', 'lz4', 'mtdev', 'openjpeg>=2.2.0', 'openssl>=3.1.0', 'orc', 'pcre', 'poppler>=25.01.0', 'scim', 'util-linux', 'wayland', 'wayland-protocols', 'xz']"
 reverse_depends = "['eflete', 'enlightenment', 'enventor', 'pinentry-enlightment', 'python-efl', 'rage', 'terminology']"
 license = "BSD,"
@@ -2235,109 +2235,109 @@ Enlightenment Foundation Libraries
 * /usr/lib/evas/utils/evas_image_loader.xlsx
 * /usr/lib/libecore.so
 * /usr/lib/libecore.so.1
-* /usr/lib/libecore.so.1.28.0
+* /usr/lib/libecore.so.1.28.1
 * /usr/lib/libecore_audio.so
 * /usr/lib/libecore_audio.so.1
-* /usr/lib/libecore_audio.so.1.28.0
+* /usr/lib/libecore_audio.so.1.28.1
 * /usr/lib/libecore_con.so
 * /usr/lib/libecore_con.so.1
-* /usr/lib/libecore_con.so.1.28.0
+* /usr/lib/libecore_con.so.1.28.1
 * /usr/lib/libecore_evas.so
 * /usr/lib/libecore_evas.so.1
-* /usr/lib/libecore_evas.so.1.28.0
+* /usr/lib/libecore_evas.so.1.28.1
 * /usr/lib/libecore_file.so
 * /usr/lib/libecore_file.so.1
-* /usr/lib/libecore_file.so.1.28.0
+* /usr/lib/libecore_file.so.1.28.1
 * /usr/lib/libecore_imf.so
 * /usr/lib/libecore_imf.so.1
-* /usr/lib/libecore_imf.so.1.28.0
+* /usr/lib/libecore_imf.so.1.28.1
 * /usr/lib/libecore_imf_evas.so
 * /usr/lib/libecore_imf_evas.so.1
-* /usr/lib/libecore_imf_evas.so.1.28.0
+* /usr/lib/libecore_imf_evas.so.1.28.1
 * /usr/lib/libecore_input.so
 * /usr/lib/libecore_input.so.1
-* /usr/lib/libecore_input.so.1.28.0
+* /usr/lib/libecore_input.so.1.28.1
 * /usr/lib/libecore_input_evas.so
 * /usr/lib/libecore_input_evas.so.1
-* /usr/lib/libecore_input_evas.so.1.28.0
+* /usr/lib/libecore_input_evas.so.1.28.1
 * /usr/lib/libecore_ipc.so
 * /usr/lib/libecore_ipc.so.1
-* /usr/lib/libecore_ipc.so.1.28.0
+* /usr/lib/libecore_ipc.so.1.28.1
 * /usr/lib/libecore_x.so
 * /usr/lib/libecore_x.so.1
-* /usr/lib/libecore_x.so.1.28.0
+* /usr/lib/libecore_x.so.1.28.1
 * /usr/lib/libector.so
 * /usr/lib/libector.so.1
-* /usr/lib/libector.so.1.28.0
+* /usr/lib/libector.so.1.28.1
 * /usr/lib/libedje.so
 * /usr/lib/libedje.so.1
-* /usr/lib/libedje.so.1.28.0
+* /usr/lib/libedje.so.1.28.1
 * /usr/lib/libeet.so
 * /usr/lib/libeet.so.1
-* /usr/lib/libeet.so.1.28.0
+* /usr/lib/libeet.so.1.28.1
 * /usr/lib/libeeze.so
 * /usr/lib/libeeze.so.1
-* /usr/lib/libeeze.so.1.28.0
+* /usr/lib/libeeze.so.1.28.1
 * /usr/lib/libefl.so
 * /usr/lib/libefl.so.1
-* /usr/lib/libefl.so.1.28.0
+* /usr/lib/libefl.so.1.28.1
 * /usr/lib/libefreet.so
 * /usr/lib/libefreet.so.1
-* /usr/lib/libefreet.so.1.28.0
+* /usr/lib/libefreet.so.1.28.1
 * /usr/lib/libefreet_mime.so
 * /usr/lib/libefreet_mime.so.1
-* /usr/lib/libefreet_mime.so.1.28.0
+* /usr/lib/libefreet_mime.so.1.28.1
 * /usr/lib/libefreet_trash.so
 * /usr/lib/libefreet_trash.so.1
-* /usr/lib/libefreet_trash.so.1.28.0
+* /usr/lib/libefreet_trash.so.1.28.1
 * /usr/lib/libeina.so
 * /usr/lib/libeina.so.1
-* /usr/lib/libeina.so.1.28.0
+* /usr/lib/libeina.so.1.28.1
 * /usr/lib/libeio.so
 * /usr/lib/libeio.so.1
-* /usr/lib/libeio.so.1.28.0
+* /usr/lib/libeio.so.1.28.1
 * /usr/lib/libeldbus.so
 * /usr/lib/libeldbus.so.1
-* /usr/lib/libeldbus.so.1.28.0
+* /usr/lib/libeldbus.so.1.28.1
 * /usr/lib/libelementary.so
 * /usr/lib/libelementary.so.1
-* /usr/lib/libelementary.so.1.28.0
+* /usr/lib/libelementary.so.1.28.1
 * /usr/lib/libelput.so
 * /usr/lib/libelput.so.1
-* /usr/lib/libelput.so.1.28.0
+* /usr/lib/libelput.so.1.28.1
 * /usr/lib/libembryo.so
 * /usr/lib/libembryo.so.1
-* /usr/lib/libembryo.so.1.28.0
+* /usr/lib/libembryo.so.1.28.1
 * /usr/lib/libemile.so
 * /usr/lib/libemile.so.1
-* /usr/lib/libemile.so.1.28.0
+* /usr/lib/libemile.so.1.28.1
 * /usr/lib/libemotion.so
 * /usr/lib/libemotion.so.1
-* /usr/lib/libemotion.so.1.28.0
+* /usr/lib/libemotion.so.1.28.1
 * /usr/lib/libeo.so
 * /usr/lib/libeo.so.1
-* /usr/lib/libeo.so.1.28.0
+* /usr/lib/libeo.so.1.28.1
 * /usr/lib/libeolian.so
 * /usr/lib/libeolian.so.1
-* /usr/lib/libeolian.so.1.28.0
+* /usr/lib/libeolian.so.1.28.1
 * /usr/lib/libeo_dbg.so
 * /usr/lib/libeo_dbg.so.1
-* /usr/lib/libeo_dbg.so.1.28.0
+* /usr/lib/libeo_dbg.so.1.28.1
 * /usr/lib/libethumb.so
 * /usr/lib/libethumb.so.1
-* /usr/lib/libethumb.so.1.28.0
+* /usr/lib/libethumb.so.1.28.1
 * /usr/lib/libethumb_client.so
 * /usr/lib/libethumb_client.so.1
-* /usr/lib/libethumb_client.so.1.28.0
+* /usr/lib/libethumb_client.so.1.28.1
 * /usr/lib/libevas.so
 * /usr/lib/libevas.so.1
-* /usr/lib/libevas.so.1.28.0
+* /usr/lib/libevas.so.1.28.1
 * /usr/lib/libexactness_play.so
 * /usr/lib/libexactness_play.so.1
-* /usr/lib/libexactness_play.so.1.28.0
+* /usr/lib/libexactness_play.so.1.28.1
 * /usr/lib/libexactness_record.so
 * /usr/lib/libexactness_record.so.1
-* /usr/lib/libexactness_record.so.1.28.0
+* /usr/lib/libexactness_record.so.1.28.1
 * /usr/lib/pkgconfig/ecore-audio.pc
 * /usr/lib/pkgconfig/ecore-con.pc
 * /usr/lib/pkgconfig/ecore-cxx.pc
@@ -2390,9 +2390,9 @@ Enlightenment Foundation Libraries
 * /usr/share/applications/elementary_perf.desktop
 * /usr/share/applications/elementary_test.desktop
 * /usr/share/dbus-1/services/org.enlightenment.Ethumb.service
-* /usr/share/doc/efl-1.28.0/AUTHORS
-* /usr/share/doc/efl-1.28.0/COPYING
-* /usr/share/doc/efl-1.28.0/README.md
+* /usr/share/doc/efl-1.28.1/AUTHORS
+* /usr/share/doc/efl-1.28.1/COPYING
+* /usr/share/doc/efl-1.28.1/README.md
 * /usr/share/ecore/checkme
 * /usr/share/ecore_con/checkme
 * /usr/share/ecore_imf/checkme
@@ -2941,7 +2941,7 @@ Enlightenment Foundation Libraries
 * /usr/share/evas/checkme
 * /usr/share/evas/filters/lua/color.lua
 * /usr/share/exactness/player_entry.edj
-* /usr/share/gdb/auto-load/usr/lib/libeo.so.1.28.0-gdb.py
+* /usr/share/gdb/auto-load/usr/lib/libeo.so.1.28.1-gdb.py
 * /usr/share/icons/Enlightenment-X/actions/128/address-book-new.png
 * /usr/share/icons/Enlightenment-X/actions/128/application-exit.png
 * /usr/share/icons/Enlightenment-X/actions/128/appointment-new.png

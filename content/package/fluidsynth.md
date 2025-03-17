@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "fluidsynth 2.4.3-1"
-version = "2.4.3-1"
+title = "fluidsynth 2.4.4-1"
+version = "2.4.4-1"
 description = "A real-time software synthesizer based on the SoundFont 2 specifications."
-date = "2025-02-24T13:25:39"
+date = "2025-03-17T21:45:13"
 aliases = "/packages/73835"
 categories = ['lib-extra']
 upstreamurl = "http://www.fluidsynth.org/"
 arch = "x86_64"
-size = "237752"
-usize = "674109"
-sha1sum = "05db45af721d2dd914376bd91a2ddf5d60d07ba9"
+size = "236976"
+usize = "663188"
+sha1sum = "bddc688749d6e9bf8177395b15e84e85565f262d"
 depends = "['ladspa_sdk', 'libpulse', 'libsndfile', 'ncurses>=6.1-2', 'readline>=8.0']"
 reverse_depends = "['calf', 'dosbox-x', 'minuet', 'mpd', 'scummvm', 'vlc-fluidsynth']"
 +++
@@ -43,12 +43,12 @@ A real-time software synthesizer based on the SoundFont 2 specifications.
 * /usr/lib/cmake/fluidsynth/FluidSynthTargets.cmake
 * /usr/lib/libfluidsynth.so
 * /usr/lib/libfluidsynth.so.3
-* /usr/lib/libfluidsynth.so.3.3.3
+* /usr/lib/libfluidsynth.so.3.3.4
 * /usr/lib/pkgconfig/fluidsynth.pc
-* /usr/share/doc/fluidsynth-2.4.3/AUTHORS
-* /usr/share/doc/fluidsynth-2.4.3/LICENSE
-* /usr/share/doc/fluidsynth-2.4.3/README.cmake.md
-* /usr/share/doc/fluidsynth-2.4.3/README.md
-* /usr/share/doc/fluidsynth-2.4.3/THANKS
-* /usr/share/doc/fluidsynth-2.4.3/TODO
+* /usr/share/doc/fluidsynth-2.4.4/AUTHORS
+* /usr/share/doc/fluidsynth-2.4.4/LICENSE
+* /usr/share/doc/fluidsynth-2.4.4/README.cmake.md
+* /usr/share/doc/fluidsynth-2.4.4/README.md
+* /usr/share/doc/fluidsynth-2.4.4/THANKS
+* /usr/share/doc/fluidsynth-2.4.4/TODO
 * /usr/share/man/man1/fluidsynth.1.gz
