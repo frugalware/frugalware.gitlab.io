@@ -12,6 +12,7 @@ size = "42116"
 usize = "173004"
 sha1sum = "4b795aa0edaf7f9e383513ad2235238f6ffb24a7"
 depends = "['glibc']"
+reverse_depends = "['vte3']"
 +++
 ### Description: 
 Fast and exact implementation of the C++ from_chars functions for float and double types

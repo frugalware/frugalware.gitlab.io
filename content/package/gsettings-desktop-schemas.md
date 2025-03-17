@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gsettings-desktop-schemas 47.1-1"
-version = "47.1-1"
+title = "gsettings-desktop-schemas 48.0-1"
+version = "48.0-1"
 description = "Shared GSettings schemas for the desktop"
-date = "2024-09-21T19:45:39"
+date = "2025-03-17T20:33:22"
 aliases = "/packages/103187"
 categories = ['apps']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "698240"
-usize = "5668758"
-sha1sum = "177661dc24c828879d71e24bcec393f6c58362da"
+size = "707196"
+usize = "5719667"
+sha1sum = "fe8cef405d94d3c8522fe6c17eff3522886f7c65"
 depends = "['glib2>=2.60.3']"
 reverse_depends = "['fwupd', 'gnome-desktop', 'gvfs', 'kde-gtk-config', 'xdg-desktop-portal-gtk']"
 +++
@@ -20,12 +20,12 @@ Shared GSettings schemas for the desktop
 ### Files: 
 * /usr/include/gsettings-desktop-schemas/gdesktop-enums.h
 * /usr/lib/girepository-1.0/GDesktopEnums-3.0.typelib
-* /usr/share/doc/gsettings-desktop-schemas-47.1/AUTHORS
-* /usr/share/doc/gsettings-desktop-schemas-47.1/ChangeLog
-* /usr/share/doc/gsettings-desktop-schemas-47.1/COPYING
-* /usr/share/doc/gsettings-desktop-schemas-47.1/HACKING
-* /usr/share/doc/gsettings-desktop-schemas-47.1/NEWS
-* /usr/share/doc/gsettings-desktop-schemas-47.1/README
+* /usr/share/doc/gsettings-desktop-schemas-48.0/AUTHORS
+* /usr/share/doc/gsettings-desktop-schemas-48.0/ChangeLog
+* /usr/share/doc/gsettings-desktop-schemas-48.0/COPYING
+* /usr/share/doc/gsettings-desktop-schemas-48.0/HACKING
+* /usr/share/doc/gsettings-desktop-schemas-48.0/NEWS
+* /usr/share/doc/gsettings-desktop-schemas-48.0/README
 * /usr/share/GConf/gsettings/gsettings-desktop-schemas.convert
 * /usr/share/GConf/gsettings/wm-schemas.convert
 * /usr/share/gir-1.0/GDesktopEnums-3.0.gir
@@ -49,6 +49,7 @@ Shared GSettings schemas for the desktop
 * /usr/share/glib-2.0/schemas/org.gnome.desktop.notifications.gschema.xml
 * /usr/share/glib-2.0/schemas/org.gnome.desktop.peripherals.gschema.xml
 * /usr/share/glib-2.0/schemas/org.gnome.desktop.privacy.gschema.xml
+* /usr/share/glib-2.0/schemas/org.gnome.desktop.screen-time-limits.gschema.xml
 * /usr/share/glib-2.0/schemas/org.gnome.desktop.screensaver.gschema.xml
 * /usr/share/glib-2.0/schemas/org.gnome.desktop.search-providers.gschema.xml
 * /usr/share/glib-2.0/schemas/org.gnome.desktop.session.gschema.xml

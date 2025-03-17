@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "vte3 0.78.2-1"
-version = "0.78.2-1"
+title = "vte3 0.80.0-1"
+version = "0.80.0-1"
 description = "Virtual Terminal Emulator (gtk+4)"
-date = "2024-11-26T09:38:48"
+date = "2025-03-17T20:38:53"
 aliases = "/packages/118797"
 categories = ['xapps']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "985316"
-usize = "5583424"
-sha1sum = "18c85a7eb2a7d39c61600e5d89473dd8f8baea1d"
-depends = "['gobject-introspection>=1.60.0', 'gtk+4', 'icu4c>=76.1']"
+size = "545588"
+usize = "3068070"
+sha1sum = "bc705ac199e563de5812f9fe2bce6eb7ed15e2e6"
+depends = "['fast_float', 'gobject-introspection>=1.60.0', 'gtk+4', 'icu4c>=76.1']"
 reverse_depends = "['alpaca', 'gamt', 'geany', 'qemu', 'remmina', 'sakura', 'sunflower', 'virt-manager']"
 +++
 ### Description: 
@@ -52,18 +52,20 @@ Virtual Terminal Emulator (gtk+4)
 * /usr/lib/libvte-2.91-gtk4.so.0
 * /usr/lib/libvte-2.91.so
 * /usr/lib/libvte-2.91.so.0
-* /usr/lib/libvte-2.91.so.0.7800.2
+* /usr/lib/libvte-2.91.so.0.8000.0
 * /usr/lib/pkgconfig/vte-2.91-gtk4.pc
 * /usr/lib/pkgconfig/vte-2.91.pc
 * /usr/lib/systemd/user/vte-spawn-.scope.d/defaults.conf
 * /usr/lib/vte3/vte-urlencode-cwd
-* /usr/share/doc/vte3-0.78.2/AUTHORS
-* /usr/share/doc/vte3-0.78.2/ChangeLog
-* /usr/share/doc/vte3-0.78.2/COPYING.CC-BY-4-0
-* /usr/share/doc/vte3-0.78.2/COPYING.GPL3
-* /usr/share/doc/vte3-0.78.2/COPYING.LGPL3
-* /usr/share/doc/vte3-0.78.2/COPYING.XTERM
-* /usr/share/doc/vte3-0.78.2/README.md
+* /usr/share/applications/org.gnome.Vte.App.Gtk3.desktop
+* /usr/share/applications/org.gnome.Vte.App.Gtk4.desktop
+* /usr/share/doc/vte3-0.80.0/AUTHORS
+* /usr/share/doc/vte3-0.80.0/ChangeLog
+* /usr/share/doc/vte3-0.80.0/COPYING.CC-BY-4-0
+* /usr/share/doc/vte3-0.80.0/COPYING.GPL3
+* /usr/share/doc/vte3-0.80.0/COPYING.LGPL3
+* /usr/share/doc/vte3-0.80.0/COPYING.XTERM
+* /usr/share/doc/vte3-0.80.0/README.md
 * /usr/share/gir-1.0/Vte-2.91.gir
 * /usr/share/gir-1.0/Vte-3.91.gir
 * /usr/share/glade/catalogs/vte-2.91.xml
@@ -73,3 +75,5 @@ Virtual Terminal Emulator (gtk+4)
 * /usr/share/vala/vapi/vte-2.91-gtk4.vapi
 * /usr/share/vala/vapi/vte-2.91.deps
 * /usr/share/vala/vapi/vte-2.91.vapi
+* /usr/share/xdg-terminals/org.gnome.Vte.App.Gtk3.desktop
+* /usr/share/xdg-terminals/org.gnome.Vte.App.Gtk4.desktop
