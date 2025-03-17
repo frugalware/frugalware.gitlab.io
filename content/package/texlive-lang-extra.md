@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "texlive-lang-extra 2025.0-1"
-version = "2025.0-1"
+title = "texlive-lang-extra 2025.1-1"
+version = "2025.1-1"
 description = "Extra languages support for TeX Live"
-date = "2025-03-13T12:36:47"
+date = "2025-03-17T15:34:21"
 aliases = "/packages/219465"
 categories = ['xapps-extra']
 upstreamurl = "http://tug.org/texlive/"
 arch = "x86_64"
-size = "20930988"
+size = "20924244"
 usize = "52891566"
-sha1sum = "f75967232b4ca581f895dd88304c2c59bd390671"
-depends = "['texlive=2025.0']"
+sha1sum = "4e131a3ce148d7b33fdc9962e4987f2c77c8d95d"
+depends = "['texlive=2025.1']"
 +++
 ### Description: 
 Extra languages support for TeX Live

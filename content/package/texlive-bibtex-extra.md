@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "texlive-bibtex-extra 2025.0-1"
-version = "2025.0-1"
+title = "texlive-bibtex-extra 2025.1-1"
+version = "2025.1-1"
 description = "Extra Bibtex Styles for TeX Live"
-date = "2025-03-13T12:36:47"
+date = "2025-03-17T15:34:21"
 aliases = "/packages/102979"
 categories = ['xapps-extra']
 upstreamurl = "http://tug.org/texlive/"
 arch = "x86_64"
-size = "2647928"
+size = "2647832"
 usize = "26164172"
-sha1sum = "4bb90f97e36bab5696446bc28f37f48c1d90adf6"
-depends = "['texlive=2025.0']"
+sha1sum = "241e8324e7346986e14b22dad11489d2a4fb01fb"
+depends = "['texlive=2025.1']"
 +++
 ### Description: 
 Extra Bibtex Styles for TeX Live

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "texlive-formats-extra 2025.0-1"
-version = "2025.0-1"
+title = "texlive-formats-extra 2025.1-1"
+version = "2025.1-1"
 description = "Extra Tex formats for Tex Live"
-date = "2025-03-13T12:36:47"
+date = "2025-03-17T15:34:21"
 aliases = "/packages/219462"
 categories = ['xapps-extra']
 upstreamurl = "http://tug.org/texlive/"
 arch = "x86_64"
-size = "467016"
+size = "467036"
 usize = "1357418"
-sha1sum = "ef0fc913d88b1ff515227529f4243d89912348df"
-depends = "['texlive=2025.0']"
+sha1sum = "533c444f4de980bce879e2e826d9c04f076752a1"
+depends = "['texlive=2025.1']"
 +++
 ### Description: 
 Extra Tex formats for Tex Live

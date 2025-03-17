@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "texlive-latex-extra 2025.0-1"
-version = "2025.0-1"
+title = "texlive-latex-extra 2025.1-1"
+version = "2025.1-1"
 description = "Extra Latex packages for TeX Live"
-date = "2025-03-13T12:36:47"
+date = "2025-03-17T15:34:21"
 aliases = "/packages/102987"
 categories = ['xapps-extra']
 upstreamurl = "http://tug.org/texlive/"
 arch = "x86_64"
-size = "6682140"
+size = "6682228"
 usize = "7559834"
-sha1sum = "0255333519cf2d67232043a893fc5be1f02b18cb"
-depends = "['texlive=2025.0']"
+sha1sum = "b01f74b9a9b7101bf31c07dfdcf88d773f9d4ffd"
+depends = "['texlive=2025.1']"
 +++
 ### Description: 
 Extra Latex packages for TeX Live

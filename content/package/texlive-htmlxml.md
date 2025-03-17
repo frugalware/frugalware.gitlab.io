@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "texlive-htmlxml 2025.0-1"
-version = "2025.0-1"
+title = "texlive-htmlxml 2025.1-1"
+version = "2025.1-1"
 description = "XML/HTML packages for TeX Live"
-date = "2025-03-13T12:36:47"
+date = "2025-03-17T15:34:21"
 aliases = "/packages/102985"
 categories = ['xapps-extra']
 upstreamurl = "http://tug.org/texlive/"
 arch = "x86_64"
-size = "2743324"
+size = "2739132"
 usize = "37935432"
-sha1sum = "d50c8f6f53395c91e1d31441af160479a35545fe"
-depends = "['texlive=2025.0']"
+sha1sum = "cb55bf2053ac2080da5e7af516bc783a2404fd39"
+depends = "['texlive=2025.1']"
 +++
 ### Description: 
 XML/HTML packages for TeX Live
