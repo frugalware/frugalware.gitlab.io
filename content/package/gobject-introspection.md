@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gobject-introspection 1.84.0-1"
-version = "1.84.0-1"
+title = "gobject-introspection 1.84.0-3"
+version = "1.84.0-3"
 description = "Generate interface introspection data for GObject libraries."
-date = "2025-03-16T12:32:17"
+date = "2025-03-17T10:58:34"
 aliases = "/packages/103233"
 categories = ['xlib']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "616224"
-usize = "3307754"
-sha1sum = "6a18108814f4dcbd21365a275ad862c70e50e9f3"
+size = "430744"
+usize = "2632646"
+sha1sum = "ad5c2b741b9dbc183027a9d780a399521a177ada"
 depends = "['glib2>=$_glib2_ver', 'libffi>=3.4', 'python3>=3.13']"
 reverse_depends = "['appstream', 'libfprint', 'libmypaint', 'libnma', 'lutris', 'piper', 'vte3']"
 +++
@@ -20,6 +20,7 @@ Generate interface introspection data for GObject libraries.
 ### Files: 
 * /usr/bin/g-ir-annotation-tool
 * /usr/bin/g-ir-compiler
+* /usr/bin/g-ir-doc-tool
 * /usr/bin/g-ir-generate
 * /usr/bin/g-ir-inspect
 * /usr/bin/g-ir-scanner

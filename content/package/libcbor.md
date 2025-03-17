@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libcbor 0.11.0-1"
-version = "0.11.0-1"
+title = "libcbor 0.12.0-1"
+version = "0.12.0-1"
 description = "C library for parsing and generating CBOR, the general-purpose schema-less binary data format"
-date = "2024-02-07T11:04:29"
+date = "2025-03-17T10:22:38"
 aliases = "/packages/220052"
 categories = ['lib']
 upstreamurl = "https://github.com/PJK/libcbor"
 arch = "x86_64"
-size = "33424"
-usize = "151230"
-sha1sum = "c9e377558f5baf927206050e9f802884adb3f308"
+size = "35148"
+usize = "152005"
+sha1sum = "1f4b7050be174fadc65da79bcf53812ef40d212d"
 depends = "['glibc>=2.34']"
 reverse_depends = "['fwupd', 'libfido2']"
 +++
@@ -42,8 +42,10 @@ C library for parsing and generating CBOR, the general-purpose schema-less binar
 * /usr/include/cbor/tags.h
 * /usr/lib/cmake/libcbor/libcborConfig.cmake
 * /usr/lib/cmake/libcbor/libcborConfigVersion.cmake
+* /usr/lib/cmake/libcbor/libcborTargets-release.cmake
+* /usr/lib/cmake/libcbor/libcborTargets.cmake
 * /usr/lib/libcbor.so
-* /usr/lib/libcbor.so.0.11
-* /usr/lib/libcbor.so.0.11.0
+* /usr/lib/libcbor.so.0.12
+* /usr/lib/libcbor.so.0.12.0
 * /usr/lib/pkgconfig/libcbor.pc
-* /usr/share/doc/libcbor-0.11.0/README.md
+* /usr/share/doc/libcbor-0.12.0/README.md
