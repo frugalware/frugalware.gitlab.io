@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vlc-a52 3.0.21-23"
-version = "3.0.21-23"
+title = "vlc-a52 3.0.21-24"
+version = "3.0.21-24"
 description = "vlc a52 support"
-date = "2025-03-13T11:55:59"
+date = "2025-03-17T16:49:23"
 aliases = "/packages/219591"
 categories = ['vlc-codecs']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "17444"
+size = "17456"
 usize = "9464"
-sha1sum = "2c5c784b992fa77d211b7d7ab7b88712a66f95f8"
+sha1sum = "4a80f1c29c7ca5fc68ef62d92f2e2db95aa5c766"
 depends = "['a52dec', 'libvlc>=3.0.21']"
 +++
 ### Description: 
