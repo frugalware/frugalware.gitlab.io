@@ -1,22 +1,23 @@
 +++
 draft = false
-title = "sol2 3.3.1-1"
-version = "3.3.1-1"
+title = "sol2 3.5.0-1"
+version = "3.5.0-1"
 description = "C++ <-> Lua API wrapper with advanced features and top notch performance"
-date = "2024-06-28T12:57:33"
+date = "2025-03-17T13:25:37"
 aliases = "/packages/220589"
 categories = ['devel-extra']
 upstreamurl = "https://sol2.rtfd.io"
 arch = "x86_64"
-size = "135928"
-usize = "1144471"
-sha1sum = "a74c2200fbe1a059643c2edc22b8334233dba71f"
+size = "137956"
+usize = "1165365"
+sha1sum = "e4b4121efe89a29af75995bc2b8349b22c1fb99a"
 depends = "['glibc']"
 +++
 ### Description: 
 C++ <-> Lua API wrapper with advanced features and top notch performance
 
 ### Files: 
+* /usr/include/sol/abort.hpp
 * /usr/include/sol/assert.hpp
 * /usr/include/sol/as_args.hpp
 * /usr/include/sol/as_returns.hpp
@@ -42,6 +43,7 @@ C++ <-> Lua API wrapper with advanced features and top notch performance
 * /usr/include/sol/error.hpp
 * /usr/include/sol/error_handler.hpp
 * /usr/include/sol/forward.hpp
+* /usr/include/sol/forward_as.hpp
 * /usr/include/sol/forward_detail.hpp
 * /usr/include/sol/function.hpp
 * /usr/include/sol/function_result.hpp
@@ -115,6 +117,7 @@ C++ <-> Lua API wrapper with advanced features and top notch performance
 * /usr/include/sol/types.hpp
 * /usr/include/sol/unicode.hpp
 * /usr/include/sol/unique_usertype_traits.hpp
+* /usr/include/sol/unreachable.hpp
 * /usr/include/sol/unsafe_function.hpp
 * /usr/include/sol/unsafe_function_result.hpp
 * /usr/include/sol/userdata.hpp
@@ -125,12 +128,14 @@ C++ <-> Lua API wrapper with advanced features and top notch performance
 * /usr/include/sol/usertype_proxy.hpp
 * /usr/include/sol/usertype_storage.hpp
 * /usr/include/sol/usertype_traits.hpp
+* /usr/include/sol/utility/is_integer.hpp
+* /usr/include/sol/utility/to_string.hpp
 * /usr/include/sol/variadic_args.hpp
 * /usr/include/sol/variadic_results.hpp
 * /usr/include/sol/version.hpp
 * /usr/include/sol/wrapper.hpp
-* /usr/lib/cmake/sol2/sol2-config-version.cmake
-* /usr/lib/cmake/sol2/sol2-config.cmake
-* /usr/lib/cmake/sol2/sol2-targets.cmake
 * /usr/lib/pkgconfig/sol2.pc
-* /usr/share/doc/sol2-3.3.1/README.md
+* /usr/share/cmake/sol2/sol2-config-version.cmake
+* /usr/share/cmake/sol2/sol2-config.cmake
+* /usr/share/cmake/sol2/sol2-targets.cmake
+* /usr/share/doc/sol2-3.5.0/README.md

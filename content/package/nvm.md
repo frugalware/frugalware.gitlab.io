@@ -1,23 +1,23 @@
 +++
 draft = false
-title = "nvm 0.40.1-1"
-version = "0.40.1-1"
+title = "nvm 0.40.2-1"
+version = "0.40.2-1"
 description = "Node Version Manager - Simple bash script to manage multiple active node.js versions"
-date = "2024-08-28T08:40:57"
+date = "2025-03-17T13:26:25"
 aliases = "/packages/219984"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/nvm-sh/nvm"
 arch = "x86_64"
-size = "44940"
-usize = "205214"
-sha1sum = "ee14f0e189b05194bf44030f3de71ad3e0aa64f9"
+size = "45660"
+usize = "209005"
+sha1sum = "823f5532c44b0acbca809e75cd7abc051d940a0c"
 depends = "['bash']"
 +++
 ### Description: 
 Node Version Manager - Simple bash script to manage multiple active node.js versions
 
 ### Files: 
-* /usr/share/doc/nvm-0.40.1/README.md
+* /usr/share/doc/nvm-0.40.2/README.md
 * /usr/share/nvm/bash_completion
 * /usr/share/nvm/init-nvm.sh
 * /usr/share/nvm/install-nvm-exec

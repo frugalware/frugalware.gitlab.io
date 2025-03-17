@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "xdg-desktop-portal-gnome 47.1-2"
-version = "47.1-2"
+title = "xdg-desktop-portal-gnome 48.0-1"
+version = "48.0-1"
 description = "A backend implementation for xdg-desktop-portal using GNOME"
-date = "2024-10-15T09:50:53"
+date = "2025-03-17T13:21:41"
 aliases = "/packages/221512"
 categories = ['gnome-extra']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "180392"
-usize = "881416"
-sha1sum = "54f2794b9738e4498ab79b4f8995a1f6d463d287"
+size = "201468"
+usize = "990316"
+sha1sum = "ea9f544e2c28fadd6ade6974b398644256719067"
 depends = "['gnome-desktop', 'gtk+3', 'libadwaita', 'xdg-desktop-portal-gtk']"
 +++
 ### Description: 
@@ -20,11 +20,12 @@ A backend implementation for xdg-desktop-portal using GNOME
 * /usr/lib/xdg-desktop-portal-gnome/xdg-desktop-portal-gnome
 * /usr/share/applications/xdg-desktop-portal-gnome.desktop
 * /usr/share/dbus-1/services/org.freedesktop.impl.portal.desktop.gnome.service
-* /usr/share/doc/xdg-desktop-portal-gnome-47.1/COPYING
-* /usr/share/doc/xdg-desktop-portal-gnome-47.1/NEWS
-* /usr/share/doc/xdg-desktop-portal-gnome-47.1/README.md
+* /usr/share/doc/xdg-desktop-portal-gnome-48.0/COPYING
+* /usr/share/doc/xdg-desktop-portal-gnome-48.0/NEWS
+* /usr/share/doc/xdg-desktop-portal-gnome-48.0/README.md
 * /usr/share/glib-2.0/schemas/xdg-desktop-portal-gnome.gschema.xml
 * /usr/share/locale/ab/LC_MESSAGES/xdg-desktop-portal-gnome.mo
+* /usr/share/locale/ar/LC_MESSAGES/xdg-desktop-portal-gnome.mo
 * /usr/share/locale/be/LC_MESSAGES/xdg-desktop-portal-gnome.mo
 * /usr/share/locale/bg/LC_MESSAGES/xdg-desktop-portal-gnome.mo
 * /usr/share/locale/ca/LC_MESSAGES/xdg-desktop-portal-gnome.mo
@@ -38,6 +39,7 @@ A backend implementation for xdg-desktop-portal using GNOME
 * /usr/share/locale/eu/LC_MESSAGES/xdg-desktop-portal-gnome.mo
 * /usr/share/locale/fa/LC_MESSAGES/xdg-desktop-portal-gnome.mo
 * /usr/share/locale/fi/LC_MESSAGES/xdg-desktop-portal-gnome.mo
+* /usr/share/locale/fil/LC_MESSAGES/xdg-desktop-portal-gnome.mo
 * /usr/share/locale/fr/LC_MESSAGES/xdg-desktop-portal-gnome.mo
 * /usr/share/locale/fur/LC_MESSAGES/xdg-desktop-portal-gnome.mo
 * /usr/share/locale/gl/LC_MESSAGES/xdg-desktop-portal-gnome.mo
@@ -45,6 +47,7 @@ A backend implementation for xdg-desktop-portal using GNOME
 * /usr/share/locale/hi/LC_MESSAGES/xdg-desktop-portal-gnome.mo
 * /usr/share/locale/hr/LC_MESSAGES/xdg-desktop-portal-gnome.mo
 * /usr/share/locale/hu/LC_MESSAGES/xdg-desktop-portal-gnome.mo
+* /usr/share/locale/ia/LC_MESSAGES/xdg-desktop-portal-gnome.mo
 * /usr/share/locale/id/LC_MESSAGES/xdg-desktop-portal-gnome.mo
 * /usr/share/locale/ie/LC_MESSAGES/xdg-desktop-portal-gnome.mo
 * /usr/share/locale/is/LC_MESSAGES/xdg-desktop-portal-gnome.mo

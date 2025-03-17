@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "digikam 8.5.0-6"
-version = "8.5.0-6"
+title = "digikam 8.6.0-1"
+version = "8.6.0-1"
 description = "Digital photo management application for kde"
-date = "2025-03-14T15:47:20"
+date = "2025-03-17T13:57:26"
 aliases = "/packages/3549"
 categories = ['kde6-extra']
 upstreamurl = "https://www.digikam.org"
 arch = "x86_64"
-size = "34954992"
-usize = "113575784"
-sha1sum = "eb2679871815672e916eda1c1cf1eb2cda8fce8f"
-depends = "['akonadi-contacts', 'kfilemetadata>=6.11.0', 'knotifyconfig>=6.11.0', 'lensfun', 'libksane>=24.12.3', 'openblas', 'opencv>=4.11.0', 'qt6-networkauth>=6.8.2', 'qt6-scxml>=6.8.2', 'threadweaver>=6.11.0']"
+size = "33215524"
+usize = "111718495"
+sha1sum = "d31c6e1785aa80cc18c6caa78ef396e550e969a8"
+depends = "['akonadi-contacts', 'kfilemetadata>=6.12.0', 'knotifyconfig>=6.12.0', 'lensfun', 'libksane>=24.12.3', 'openblas', 'opencv>=4.11.0', 'qt6-networkauth>=6.8.2', 'qt6-scxml>=6.8.2', 'threadweaver>=6.12.0']"
 +++
 ### Description: 
 Digital photo management application for kde
@@ -146,11 +146,11 @@ Digital photo management application for kde
 * /usr/lib/cmake/DigikamGui/DigikamGuiConfigVersion.cmake
 * /usr/lib/cmake/DigikamPlugin/DigikamPluginConfig.cmake
 * /usr/lib/libdigikamcore.so
-* /usr/lib/libdigikamcore.so.8.5.0
+* /usr/lib/libdigikamcore.so.8.6.0
 * /usr/lib/libdigikamdatabase.so
-* /usr/lib/libdigikamdatabase.so.8.5.0
+* /usr/lib/libdigikamdatabase.so.8.6.0
 * /usr/lib/libdigikamgui.so
-* /usr/lib/libdigikamgui.so.8.5.0
+* /usr/lib/libdigikamgui.so.8.6.0
 * /usr/lib/qt6/plugins/digikam/bqm/Bqm_AntiVignetting_Plugin.so
 * /usr/lib/qt6/plugins/digikam/bqm/Bqm_ApplyMetadata_Plugin.so
 * /usr/lib/qt6/plugins/digikam/bqm/Bqm_Assigncaptions_Plugin.so
@@ -1883,12 +1883,12 @@ Digital photo management application for kde
 * /usr/share/digikam/themes/vanilla/template.xsl
 * /usr/share/digikam/themes/vanilla/vanilla.desktop
 * /usr/share/digikam/utils/digikam-camera
-* /usr/share/doc/digikam-8.5.0/AUTHORS
-* /usr/share/doc/digikam-8.5.0/ChangeLog
-* /usr/share/doc/digikam-8.5.0/COPYING
-* /usr/share/doc/digikam-8.5.0/NEWS
-* /usr/share/doc/digikam-8.5.0/README.BUNDLES
-* /usr/share/doc/digikam-8.5.0/README.md
+* /usr/share/doc/digikam-8.6.0/AUTHORS
+* /usr/share/doc/digikam-8.6.0/ChangeLog
+* /usr/share/doc/digikam-8.6.0/COPYING
+* /usr/share/doc/digikam-8.6.0/NEWS
+* /usr/share/doc/digikam-8.6.0/README.BUNDLES
+* /usr/share/doc/digikam-8.6.0/README.md
 * /usr/share/icons/hicolor/128x128/apps/digikam.png
 * /usr/share/icons/hicolor/128x128/apps/expoblending.png
 * /usr/share/icons/hicolor/128x128/apps/panorama.png
