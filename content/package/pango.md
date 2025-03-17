@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pango 1.56.2-1"
-version = "1.56.2-1"
+title = "pango 1.56.3-1"
+version = "1.56.3-1"
 description = "A library for layout and rendering of text"
-date = "2025-03-12T09:26:03"
+date = "2025-03-17T08:55:21"
 aliases = "/packages/3276"
 categories = ['xlib']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "2094332"
-usize = "16313826"
-sha1sum = "6ae093cf851accabedc8bf130a658e9a0f0d5787"
+size = "2096364"
+usize = "16317553"
+sha1sum = "d280369940f55e91da43eb5f8941a2ea0e2f1242"
 depends = "['cairo>=1.17.2-2', 'fribidi>=1.0.5', 'harfbuzz>=2.5.0', 'libffi>=3.2.1-2', 'libpng>=1.6.25', 'libsysprof-capture', 'libxft>=2.3.2-2', 'util-linux']"
 reverse_depends = "['castor', 'cef', 'chromium-browser', 'dunst', 'fontforge', 'gail', 'gnuplot', 'gparted', 'granite', 'gst1-plugins-bad', 'gst1-plugins-base-pango', 'gtk+2', 'gtk+2-libs', 'gtk+3', 'gtk+3-demos', 'gtk+3-immodules', 'gtk+3-immodules-xim', 'gtk+3-tools', 'gtk+4', 'gtk+4-demos', 'gtk+4-tools', 'gtk+4-update-icon-cache', 'gtk-update-icon-cache', 'i3', 'librsvg', 'libvips', 'packagekit', 'pangomm', 'r', 'rrdtool', 'scim', 'thunderbird', 'weston', 'whalebird']"
 +++
@@ -67,27 +67,27 @@ A library for layout and rendering of text
 * /usr/lib/girepository-1.0/PangoXft-1.0.typelib
 * /usr/lib/libpango-1.0.so
 * /usr/lib/libpango-1.0.so.0
-* /usr/lib/libpango-1.0.so.0.5600.2
+* /usr/lib/libpango-1.0.so.0.5600.3
 * /usr/lib/libpangocairo-1.0.so
 * /usr/lib/libpangocairo-1.0.so.0
-* /usr/lib/libpangocairo-1.0.so.0.5600.2
+* /usr/lib/libpangocairo-1.0.so.0.5600.3
 * /usr/lib/libpangoft2-1.0.so
 * /usr/lib/libpangoft2-1.0.so.0
-* /usr/lib/libpangoft2-1.0.so.0.5600.2
+* /usr/lib/libpangoft2-1.0.so.0.5600.3
 * /usr/lib/libpangoxft-1.0.so
 * /usr/lib/libpangoxft-1.0.so.0
-* /usr/lib/libpangoxft-1.0.so.0.5600.2
+* /usr/lib/libpangoxft-1.0.so.0.5600.3
 * /usr/lib/pkgconfig/pango.pc
 * /usr/lib/pkgconfig/pangocairo.pc
 * /usr/lib/pkgconfig/pangofc.pc
 * /usr/lib/pkgconfig/pangoft2.pc
 * /usr/lib/pkgconfig/pangoot.pc
 * /usr/lib/pkgconfig/pangoxft.pc
-* /usr/share/doc/pango-1.56.2/COPYING
-* /usr/share/doc/pango-1.56.2/NEWS
-* /usr/share/doc/pango-1.56.2/README.md
-* /usr/share/doc/pango-1.56.2/README.win32.md
-* /usr/share/doc/pango-1.56.2/THANKS
+* /usr/share/doc/pango-1.56.3/COPYING
+* /usr/share/doc/pango-1.56.3/NEWS
+* /usr/share/doc/pango-1.56.3/README.md
+* /usr/share/doc/pango-1.56.3/README.win32.md
+* /usr/share/doc/pango-1.56.3/THANKS
 * /usr/share/doc/Pango/alias.Glyph.html
 * /usr/share/doc/Pango/alias.GlyphUnit.html
 * /usr/share/doc/Pango/alias.LayoutRun.html

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "pygobject3-cairo 3.52.2-1"
-version = "3.52.2-1"
+title = "pygobject3-cairo 3.52.3-1"
+version = "3.52.3-1"
 description = "pygobject3 with cairo support"
-date = "2025-03-13T08:59:32"
+date = "2025-03-17T08:59:21"
 aliases = "/packages/136198"
 categories = ['xlib']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "281712"
-usize = "1069835"
-sha1sum = "4e1da3da38888039095bd0378c419564bf9ce650"
-depends = "['cairo>=1.15.10', 'libffi>=3.4', 'pygobject3>=3.52.2', 'python3-pycairo>=1.20.1']"
+size = "281784"
+usize = "1069771"
+sha1sum = "30864d5f50c24b42b02398e906ade0b734edad8e"
+depends = "['cairo>=1.15.10', 'libffi>=3.4', 'pygobject3>=3.52.3', 'python3-pycairo>=1.20.1']"
 reverse_depends = "['blueprint-compiler', 'hplip', 'input-remapper', 'piper', 'sunflower', 'virt-manager']"
 +++
 ### Description: 
