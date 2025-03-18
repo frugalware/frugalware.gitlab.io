@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "roctracer 6.3.1-1"
-version = "6.3.1-1"
+title = "roctracer 6.3.3-1"
+version = "6.3.3-1"
 description = "ROCm tracer library for performance tracing"
-date = "2024-12-29T23:05:52"
+date = "2025-03-18T16:00:42"
 aliases = "/packages/221256"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/ROCm/roctracer"
 arch = "x86_64"
-size = "493128"
-usize = "4162564"
-sha1sum = "5ddfef0bbcdf42347072dedd1d9b494e671a0bd2"
+size = "493000"
+usize = "4171972"
+sha1sum = "c615d8154245026592e948d856171514a80f0111"
 depends = "['hip-runtime-amd', 'libatomic']"
 +++
 ### Description: 
@@ -76,5 +76,5 @@ ROCm tracer library for performance tracing
 * /opt/rocm/share/roctracer/test/multi_pool_activities
 * /opt/rocm/share/roctracer/test/roctx_test
 * /opt/rocm/share/roctracer/test/trace_buffer
-* /usr/share/doc/roctracer-6.3.1/LICENSE
-* /usr/share/doc/roctracer-6.3.1/README.md
+* /usr/share/doc/roctracer-6.3.3/LICENSE
+* /usr/share/doc/roctracer-6.3.3/README.md

@@ -12,7 +12,7 @@ size = "80312"
 usize = "201028"
 sha1sum = "bfa228fce0b11e9ae924d343dc21ef3fc078691b"
 depends = "['glibc>=2.34']"
-reverse_depends = "['handbrake', 'hsakmt-roct', 'libvirt', 'lttng-ust', 'lttng-ust12', 'openucx', 'qemu']"
+reverse_depends = "['handbrake', 'hsa-rocr', 'libvirt', 'lttng-ust', 'lttng-ust12', 'openucx', 'qemu']"
 +++
 ### Description: 
 The numactl program allows you to run your application program on specific cpu's and memory nodes.
