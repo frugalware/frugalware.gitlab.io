@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "bluez 5.79-1"
-version = "5.79-1"
+title = "bluez 5.80-1"
+version = "5.80-1"
 description = "Library to use the BlueZ Linux Bluetooth stack"
-date = "2024-11-06T10:46:46"
+date = "2025-03-18T08:27:10"
 aliases = "/packages/74581"
 categories = ['apps']
 upstreamurl = "http://bluez.sourceforge.net/"
 arch = "x86_64"
-size = "1963324"
-usize = "6630231"
-sha1sum = "1796b1d2dd357ab440d283b61f24b3bf0bad872a"
+size = "1983488"
+usize = "6696599"
+sha1sum = "3da00acba8150ea1c173da7f3cab9c227d4fd889"
 depends = "['alsa-lib', 'dbus>=1.10.16-3', 'ell', 'glib2>=2.50.0', 'libical>=3.0.3', 'libsystemd>=242-3', 'libudev>=242-3', 'readline>=8.0']"
 reverse_depends = "['anyremote', 'enlightenment', 'gammu', 'gnokii', 'gpsd', 'gst1-plugins-bad-bluez', 'kvm', 'ofono', 'pulseaudio-bluetooth', 'pybluez', 'qemu', 'qt5-connectivity', 'qt6-connectivity', 'supertuxkart']"
 +++
@@ -111,18 +111,20 @@ Library to use the BlueZ Linux Bluetooth stack
 * /usr/share/dbus-1/system-services/org.bluez.service
 * /usr/share/dbus-1/system.d/bluetooth-mesh.conf
 * /usr/share/dbus-1/system.d/bluetooth.conf
-* /usr/share/doc/bluez-5.79/AUTHORS
-* /usr/share/doc/bluez-5.79/ChangeLog
-* /usr/share/doc/bluez-5.79/COPYING
-* /usr/share/doc/bluez-5.79/COPYING.LIB
-* /usr/share/doc/bluez-5.79/INSTALL
-* /usr/share/doc/bluez-5.79/README
-* /usr/share/doc/bluez-5.79/TODO
+* /usr/share/dbus-1/system.d/obex.conf
+* /usr/share/doc/bluez-5.80/AUTHORS
+* /usr/share/doc/bluez-5.80/ChangeLog
+* /usr/share/doc/bluez-5.80/COPYING
+* /usr/share/doc/bluez-5.80/COPYING.LIB
+* /usr/share/doc/bluez-5.80/INSTALL
+* /usr/share/doc/bluez-5.80/README
+* /usr/share/doc/bluez-5.80/TODO
 * /usr/share/man/man1/bluetoothctl-admin.1.gz
 * /usr/share/man/man1/bluetoothctl-advertise.1.gz
 * /usr/share/man/man1/bluetoothctl-assistant.1.gz
 * /usr/share/man/man1/bluetoothctl-endpoint.1.gz
 * /usr/share/man/man1/bluetoothctl-gatt.1.gz
+* /usr/share/man/man1/bluetoothctl-hci.1.gz
 * /usr/share/man/man1/bluetoothctl-mgmt.1.gz
 * /usr/share/man/man1/bluetoothctl-monitor.1.gz
 * /usr/share/man/man1/bluetoothctl-player.1.gz

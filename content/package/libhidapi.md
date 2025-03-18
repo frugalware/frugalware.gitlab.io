@@ -12,7 +12,7 @@ size = "36808"
 usize = "132959"
 sha1sum = "c58d51f17dfe534b1e83898e77ee3fb80ae4d491"
 depends = "['libusb1']"
-reverse_depends = "['libfido2', 'libu2f-host', 'mixxx', 'openrgb']"
+reverse_depends = "['libfido2', 'libmanette', 'libu2f-host', 'mixxx', 'openrgb']"
 +++
 ### Description: 
 A Simple library for communicating with USB and Bluetooth HID devices on Linux, Mac, and Windows.

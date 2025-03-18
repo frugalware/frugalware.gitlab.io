@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "unrar 7.1.4-1"
-version = "7.1.4-1"
+title = "unrar 7.1.5-1"
+version = "7.1.5-1"
 description = "Uncompress rar files"
-date = "2025-02-21T21:25:53"
+date = "2025-03-18T08:35:35"
 aliases = "/packages/3366"
 categories = ['apps-extra']
 upstreamurl = "http://www.rarlab.com/"
 arch = "x86_64"
-size = "292136"
-usize = "805976"
-sha1sum = "6b36e1196268e434278650b5d9e633d9261e640b"
+size = "291920"
+usize = "806024"
+sha1sum = "0ccae78d09d62f5bce242a23ca1851fb34c6b860"
 depends = "['libstdc++']"
 +++
 ### Description: 
