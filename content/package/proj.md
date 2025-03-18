@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "proj 9.5.1-1"
-version = "9.5.1-1"
+title = "proj 9.6.0-1"
+version = "9.6.0-1"
 description = "Cartographic projection software"
-date = "2025-03-14T11:16:39"
+date = "2025-03-18T10:50:12"
 aliases = "/packages/5176"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/OSGeo/proj"
 arch = "x86_64"
-size = "2602232"
-usize = "14609676"
-sha1sum = "80db925180d63dc0605b1292c89ae5476ba40caf"
+size = "2648384"
+usize = "14779763"
+sha1sum = "5d0b8db30ef2e9be270f45f15674192e144565ca"
 depends = "['curl', 'libtiff>=4.7.0']"
 reverse_depends = "['gdal', 'libgeotiff']"
 +++
@@ -56,13 +56,14 @@ Cartographic projection software
 * /usr/lib/cmake/proj4/proj4-targets.cmake
 * /usr/lib/libproj.so
 * /usr/lib/libproj.so.25
-* /usr/lib/libproj.so.25.9.5.1
+* /usr/lib/libproj.so.25.9.6.0
 * /usr/lib/pkgconfig/proj.pc
-* /usr/share/doc/proj-9.5.1/ChangeLog
-* /usr/share/doc/proj-9.5.1/COPYING
-* /usr/share/doc/proj-9.5.1/HOWTO-RELEASE.md
-* /usr/share/doc/proj-9.5.1/INSTALL
-* /usr/share/doc/proj-9.5.1/README.md
+* /usr/share/bash-completion/completions/projinfo
+* /usr/share/doc/proj-9.6.0/ChangeLog
+* /usr/share/doc/proj-9.6.0/COPYING
+* /usr/share/doc/proj-9.6.0/HOWTO-RELEASE.md
+* /usr/share/doc/proj-9.6.0/INSTALL
+* /usr/share/doc/proj-9.6.0/README.md
 * /usr/share/doc/proj/AUTHORS.md
 * /usr/share/doc/proj/COPYING
 * /usr/share/doc/proj/NEWS.md
