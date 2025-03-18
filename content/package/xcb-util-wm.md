@@ -12,7 +12,7 @@ size = "50928"
 usize = "288309"
 sha1sum = "0583b9b980d90c1eb7aafafc814d2e0e01381154"
 depends = "['libxau>=1.0.8-3', 'libxcb>=1.13', 'libxdmcp>=1.1.2-3']"
-reverse_depends = "['i3', 'qt5-base', 'qt6-base', 'wlroots', 'wlroots0.17', 'xorg-server-xephyr']"
+reverse_depends = "['ckb-next', 'i3', 'qt5-base', 'qt6-base', 'wlroots', 'wlroots0.17', 'xorg-server-xephyr']"
 +++
 ### Description: 
 wm libraries for X C Binding
