@@ -12,7 +12,7 @@ size = "281784"
 usize = "1069771"
 sha1sum = "30864d5f50c24b42b02398e906ade0b734edad8e"
 depends = "['cairo>=1.15.10', 'libffi>=3.4', 'pygobject3>=3.52.3', 'python3-pycairo>=1.20.1']"
-reverse_depends = "['blueprint-compiler', 'hplip', 'input-remapper', 'piper', 'sunflower', 'virt-manager']"
+reverse_depends = "['blueprint-compiler', 'gimp', 'hplip', 'input-remapper', 'piper', 'sunflower', 'virt-manager']"
 +++
 ### Description: 
 pygobject3 with cairo support

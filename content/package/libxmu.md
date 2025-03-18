@@ -12,7 +12,7 @@ size = "93832"
 usize = "426442"
 sha1sum = "5452ceb8b37c8443ba6e1370aa223e0f2dd1202c"
 depends = "['libx11>=1.6.5-2', 'libxext>=1.3.3-3', 'libxt>=1.1.5-3']"
-reverse_depends = "['flightgear', 'guarddog', 'kasablanca', 'kat', 'klamav', 'knetstats', 'knoda', 'ksniffer', 'ksubeditor', 'ksubtile', 'libxaw', 'libxaw3d', 'maxemumtvguide', 'oclock', 'qtparted', 'smproxy', 'twm', 'virtualbox', 'virtualbox-guest-additions', 'wmctrl', 'x11perf', 'xauth', 'xaw3d', 'xclip', 'xeyes', 'xhost', 'xkill', 'xpr', 'xrdb', 'xscreensaver', 'xset', 'xsetroot', 'xstdcmap', 'xterm']"
+reverse_depends = "['flightgear', 'gimp', 'guarddog', 'kasablanca', 'kat', 'klamav', 'knetstats', 'knoda', 'ksniffer', 'ksubeditor', 'ksubtile', 'libxaw', 'libxaw3d', 'maxemumtvguide', 'oclock', 'qtparted', 'smproxy', 'twm', 'virtualbox', 'virtualbox-guest-additions', 'wmctrl', 'x11perf', 'xauth', 'xaw3d', 'xclip', 'xeyes', 'xhost', 'xkill', 'xpr', 'xrdb', 'xscreensaver', 'xset', 'xsetroot', 'xstdcmap', 'xterm']"
 license = "GPL2"
 +++
 ### Description: 

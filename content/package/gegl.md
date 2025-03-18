@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gegl 0.4.56-1"
-version = "0.4.56-1"
+title = "gegl 0.4.56-2"
+version = "0.4.56-2"
 description = "GEGL is a graph based image processing framework."
-date = "2025-03-17T22:00:27"
+date = "2025-03-18T12:53:05"
 aliases = "/packages/38778"
 categories = ['xlib-extra']
 upstreamurl = "http://www.gegl.org/"
 arch = "x86_64"
-size = "1850224"
-usize = "9671034"
-sha1sum = "c90e1da328d66b7edbfdcdff3c9ea5332c4de3fd"
+size = "1856328"
+usize = "9721619"
+sha1sum = "0300d37d76b28046b4b811d72bcc9361cecc292b"
 depends = "['babl>=0.1.92', 'dejavu-ttf', 'ffmpeg>=7.0', 'jasper>=4.2.4', 'json-glib>=1.0.4-3', 'libffi>=3.2.1', 'libjpeg-turbo', 'libraw>=0.21.1', 'librsvg>=2.40.12-2', 'libstdc++>=9.1.0-3', 'libtiff>=4.7.0', 'libwebp>=0.6.0', 'openexr>=3.3.0', 'suitesparse>=7.0.1']"
 reverse_depends = "['gimp', 'libmypaint']"
 +++
@@ -178,3 +178,5 @@ GEGL is a graph based image processing framework.
 * /usr/share/doc/gegl-0.4.56/NEWS
 * /usr/share/doc/gegl-0.4.56/README
 * /usr/share/gir-1.0/Gegl-0.4.gir
+* /usr/share/vala/vapi/gegl-0.4.deps
+* /usr/share/vala/vapi/gegl-0.4.vapi

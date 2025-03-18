@@ -12,7 +12,7 @@ size = "2502012"
 usize = "16308557"
 sha1sum = "f6f0d3625836d0fbc6ddd3043ae592c0eac70b30"
 depends = "['glib2>=2.60.0', 'graphviz', 'libffi>=3.2.1-2']"
-reverse_depends = "['libproxy-vala', 'libsecret-vala']"
+reverse_depends = "['gimp', 'libproxy-vala', 'libsecret-vala']"
 +++
 ### Description: 
 Vala is a prgramming language that aims to bring modern programming language features to GNOME developers

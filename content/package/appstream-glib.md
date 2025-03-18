@@ -12,7 +12,7 @@ size = "323660"
 usize = "1874649"
 sha1sum = "69c03eb4c548eb96db3db3a46a85d11568dd3c7f"
 depends = "['curl', 'gcab>=1.2-2', 'gtk+3>=3.24.7-2', 'json-glib>=1.4.2-3', 'libstemmer', 'libyaml']"
-reverse_depends = "['fwupd']"
+reverse_depends = "['fwupd', 'gimp']"
 +++
 ### Description: 
 Library for AppStream metadata
