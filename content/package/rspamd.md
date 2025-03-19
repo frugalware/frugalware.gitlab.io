@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "rspamd 3.11.0-1"
-version = "3.11.0-1"
+title = "rspamd 3.11.1-1"
+version = "3.11.1-1"
 description = "Rapid spam filtering system."
-date = "2025-01-07T12:56:59"
+date = "2025-03-19T12:51:04"
 aliases = "/packages/219819"
 categories = ['network-extra']
 upstreamurl = "https://github.com/rspamd/rspamd"
 arch = "x86_64"
-size = "3998476"
-usize = "14563520"
-sha1sum = "6302af4adde13827637b77228df37bebbd604e59"
-depends = "['glib2', 'hyperscan', 'icu4c>=76.1', 'libsodium>=1.0.19', 'luajit2']"
+size = "4043764"
+usize = "14548451"
+sha1sum = "f5061fd70683c7619e95986f91138d396a80e293"
+depends = "['glib2', 'hyperscan', 'icu4c>=77.1', 'libsodium>=1.0.19', 'luajit2']"
 +++
 ### Description: 
 Rapid spam filtering system.
@@ -113,11 +113,11 @@ Rapid spam filtering system.
 * /etc/rspamd/worker-normal.inc
 * /etc/rspamd/worker-proxy.inc
 * /usr/bin/rspamadm
-* /usr/bin/rspamadm-3.11.0
+* /usr/bin/rspamadm-3.11.1
 * /usr/bin/rspamc
-* /usr/bin/rspamc-3.11.0
+* /usr/bin/rspamc-3.11.1
 * /usr/bin/rspamd
-* /usr/bin/rspamd-3.11.0
+* /usr/bin/rspamd-3.11.1
 * /usr/bin/rspamd_stats
 * /usr/lib/rspamd/librspamd-actrie.so
 * /usr/lib/rspamd/librspamd-ev.so
@@ -127,8 +127,8 @@ Rapid spam filtering system.
 * /usr/lib/systemd/system/rspamd.service
 * /usr/lib/sysusers.d/rspamd.conf
 * /usr/lib/tmpfiles.d/rspamd.conf
-* /usr/share/doc/rspamd-3.11.0/ChangeLog
-* /usr/share/doc/rspamd-3.11.0/README.md
+* /usr/share/doc/rspamd-3.11.1/ChangeLog
+* /usr/share/doc/rspamd-3.11.1/README.md
 * /usr/share/man/man1/rspamadm.1.gz
 * /usr/share/man/man1/rspamc.1.gz
 * /usr/share/man/man8/rspamd.8.gz
@@ -189,6 +189,7 @@ Rapid spam filtering system.
 * /usr/share/rspamd/lualib/lua_aws.lua
 * /usr/share/rspamd/lualib/lua_bayes_learn.lua
 * /usr/share/rspamd/lualib/lua_bayes_redis.lua
+* /usr/share/rspamd/lualib/lua_cache.lua
 * /usr/share/rspamd/lualib/lua_cfg_transform.lua
 * /usr/share/rspamd/lualib/lua_cfg_utils.lua
 * /usr/share/rspamd/lualib/lua_clickhouse.lua
@@ -358,6 +359,7 @@ Rapid spam filtering system.
 * /usr/share/rspamd/rules/regexp/headers.lua
 * /usr/share/rspamd/rules/regexp/misc.lua
 * /usr/share/rspamd/rules/regexp/upstream_spam_filters.lua
+* /usr/share/rspamd/rules/regexp/urls.lua
 * /usr/share/rspamd/rules/rspamd.lua
 * /usr/share/rspamd/rules/subject_checks.lua
 * /usr/share/rspamd/www/apple-touch-icon.png

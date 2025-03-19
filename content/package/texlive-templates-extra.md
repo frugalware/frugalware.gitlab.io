@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "texlive-templates-extra 2025.1-1"
-version = "2025.1-1"
+title = "texlive-templates-extra 2025.1-2"
+version = "2025.1-2"
 description = "Extra publications templates for Tex Live"
-date = "2025-03-17T15:34:21"
+date = "2025-03-19T10:41:35"
 aliases = "/packages/219463"
 categories = ['xapps-extra']
 upstreamurl = "http://tug.org/texlive/"
 arch = "x86_64"
-size = "6670732"
+size = "6672008"
 usize = "30500213"
-sha1sum = "537789414b7f8463531da0dd0aa156ddc12b5784"
+sha1sum = "8a559fd6c9f3005c81d7c0f338373848081dc3b8"
 depends = "['texlive=2025.1']"
 +++
 ### Description: 

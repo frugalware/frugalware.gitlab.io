@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "texlive-misc 2025.1-1"
-version = "2025.1-1"
+title = "texlive-misc 2025.1-2"
+version = "2025.1-2"
 description = "Miscellaneous packages for TeX Live"
-date = "2025-03-17T15:34:21"
+date = "2025-03-19T10:41:35"
 aliases = "/packages/102980"
 categories = ['xapps-extra']
 upstreamurl = "http://tug.org/texlive/"
 arch = "x86_64"
-size = "1362848"
+size = "1362488"
 usize = "8355623"
-sha1sum = "529a76d15c9c9d2c3718ed50df18f08240c221d7"
+sha1sum = "b2514c6f485cd6d936314c3deb3637c12b0c5f43"
 depends = "['texlive=2025.1']"
 +++
 ### Description: 

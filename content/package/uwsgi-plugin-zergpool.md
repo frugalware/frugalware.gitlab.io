@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "uwsgi-plugin-zergpool 2.0.28-2"
-version = "2.0.28-2"
+title = "uwsgi-plugin-zergpool 2.0.28-3"
+version = "2.0.28-3"
 description = "UWSGI Zergpool Plugin"
-date = "2024-12-25T16:39:53"
+date = "2025-03-19T10:10:49"
 aliases = "/packages/200408"
 categories = ['network-extra']
 upstreamurl = "http://projects.unbit.it/"
 arch = "x86_64"
-size = "6056"
-usize = "8632"
-sha1sum = "2eddaa35ef445183fb087258822f1c97b6b2be4d"
+size = "6092"
+usize = "8616"
+sha1sum = "f7e18542bfdbbeed7e75bf33a82fb77ee636e7a5"
 depends = "['uwsgi']"
 +++
 ### Description: 

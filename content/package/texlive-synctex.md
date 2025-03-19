@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "texlive-synctex 2025.1-1"
-version = "2025.1-1"
+title = "texlive-synctex 2025.1-2"
+version = "2025.1-2"
 description = "libsynctex"
-date = "2025-03-17T15:34:21"
+date = "2025-03-19T10:41:35"
 aliases = "/packages/217877"
 categories = ['xlib-extra']
 upstreamurl = "http://tug.org/texlive/"
 arch = "x86_64"
-size = "43524"
+size = "43512"
 usize = "116309"
-sha1sum = "c377d9b814384859ae9f89074fc2634837eb6a21"
+sha1sum = "4190b1346aff13a3064349a028b27d97a9a0fc1a"
 depends = "[]"
 reverse_depends = "['texlive-utils']"
 +++

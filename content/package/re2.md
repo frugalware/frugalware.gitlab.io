@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "re2 2024.07.02-5"
-version = "2024.07.02-5"
+title = "re2 2024.07.02-6"
+version = "2024.07.02-6"
 description = "Fast, safe, thread-friendly regular expression engine."
-date = "2025-03-11T11:09:23"
+date = "2025-03-18T21:00:46"
 aliases = "/packages/219987"
 categories = ['lib']
 upstreamurl = "https://github.com/google/re2"
 arch = "x86_64"
-size = "169596"
+size = "169856"
 usize = "486735"
-sha1sum = "19de8a7687e4ada3356b67b23b4594ec804069cc"
-depends = "['abseil-cpp>=20250127.0', 'icu4c', 'libgcc', 'libstdc++']"
+sha1sum = "3ef9b7f603a8c7f1154a0efdc08af753dc01c78c"
+depends = "['abseil-cpp>=20250127.0', 'icu4c>=77.1', 'libgcc', 'libstdc++']"
 reverse_depends = "['grpc', 'qt6-webengine', 'r2modman']"
 +++
 ### Description: 

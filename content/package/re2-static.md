@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "re2-static 2024.07.02-5"
-version = "2024.07.02-5"
+title = "re2-static 2024.07.02-6"
+version = "2024.07.02-6"
 description = "Static files for re2"
-date = "2025-03-11T11:09:23"
+date = "2025-03-18T21:00:46"
 aliases = "/packages/220196"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/google/re2"
 arch = "x86_64"
-size = "2918712"
-usize = "4091690"
-sha1sum = "b5e8dc6471e18a984ebc631a195971621ddc4e0e"
+size = "2918940"
+usize = "4091554"
+sha1sum = "ddcb353bc88d0575a70ab720773526e87faef047"
 depends = "[]"
 +++
 ### Description: 

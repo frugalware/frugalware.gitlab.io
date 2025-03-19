@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "uwsgi-plugin-ldap 2.0.28-2"
-version = "2.0.28-2"
+title = "uwsgi-plugin-ldap 2.0.28-3"
+version = "2.0.28-3"
 description = "UWSGI LDAP Plugin"
-date = "2024-12-25T16:39:53"
+date = "2025-03-19T10:10:49"
 aliases = "/packages/200412"
 categories = ['network-extra']
 upstreamurl = "http://projects.unbit.it/"
 arch = "x86_64"
-size = "9264"
-usize = "16984"
-sha1sum = "c662a19b5e3d7e43b4f7525c3e165a13e5962ad2"
+size = "9296"
+usize = "16968"
+sha1sum = "982564b87d70db444df54e831c286c5250ecc056"
 depends = "['libldap>=2.5.4', 'uwsgi']"
 +++
 ### Description: 

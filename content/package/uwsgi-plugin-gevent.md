@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "uwsgi-plugin-gevent 2.0.28-2"
-version = "2.0.28-2"
+title = "uwsgi-plugin-gevent 2.0.28-3"
+version = "2.0.28-3"
 description = "UWSGI Gevent Plugin"
-date = "2024-12-25T16:39:53"
+date = "2025-03-19T10:10:49"
 aliases = "/packages/200407"
 categories = ['network-extra']
 upstreamurl = "http://projects.unbit.it/"
 arch = "x86_64"
-size = "10864"
-usize = "23096"
-sha1sum = "cf8d93ffc840afb9aeaf417da5e4f55b78e70816"
+size = "10908"
+usize = "23072"
+sha1sum = "d54e77bef07e285973b3118b1c3367b5ce0cc780"
 depends = "['uwsgi']"
 +++
 ### Description: 

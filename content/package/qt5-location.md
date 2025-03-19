@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qt5-location 5.15.16-1"
-version = "5.15.16-1"
+title = "qt5-location 5.15.16-2"
+version = "5.15.16-2"
 description = "The Qt5 toolkit, qtlocation"
-date = "2024-11-15T20:37:01"
+date = "2025-03-18T21:31:43"
 aliases = "/packages/217619"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "2424876"
-usize = "9791536"
-sha1sum = "6d249f50239b39b936908d06dcf15d3aaace201a"
-depends = "['icu4c>=76.1', 'qt5-declarative>=5.15.16']"
+size = "2428860"
+usize = "9796144"
+sha1sum = "2bc7ff88ef31db12ad99235f46b5deda3081790c"
+depends = "['icu4c>=77.1', 'qt5-declarative>=5.15.16']"
 reverse_depends = "['qt5-tools', 'qt5-webengine']"
 +++
 ### Description: 

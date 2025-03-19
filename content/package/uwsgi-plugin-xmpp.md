@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "uwsgi-plugin-xmpp 2.0.28-2"
-version = "2.0.28-2"
+title = "uwsgi-plugin-xmpp 2.0.28-3"
+version = "2.0.28-3"
 description = "UWSGI Alarm XMPP Plugin"
-date = "2024-12-25T16:39:53"
+date = "2025-03-19T10:10:49"
 aliases = "/packages/200426"
 categories = ['network-extra']
 upstreamurl = "http://projects.unbit.it/"
 arch = "x86_64"
-size = "8000"
-usize = "13864"
-sha1sum = "b063d7b8cbf95738fef83888f4c678ba977c8ee7"
+size = "8012"
+usize = "13840"
+sha1sum = "c856291e20a76b46a73003ad567ac7098e9742e2"
 depends = "['gloox>=1.0.20', 'uwsgi']"
 +++
 ### Description: 

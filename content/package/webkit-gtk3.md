@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "webkit-gtk3 2.46.6-1"
-version = "2.46.6-1"
+title = "webkit-gtk3 2.48.0-1"
+version = "2.48.0-1"
 description = "Open source web browser engine gtk+3"
-date = "2025-02-16T16:06:58"
+date = "2025-03-19T14:58:07"
 aliases = "/packages/118799"
 categories = ['xlib-extra']
 upstreamurl = "http://www.webkitgtk.org"
 arch = "x86_64"
-size = "33502228"
-usize = "142654936"
-sha1sum = "b30d0e867928b5268f75c6ddce8a59746fe53f2e"
+size = "35953708"
+usize = "153019725"
+sha1sum = "42aaf1533eec5d886d31ca290d4a094576ee0f32"
 depends = "['bubblewrap', 'enchant', 'gperf', 'gst-libav', 'gst1-plugins-bad-webrtc', 'gst1-plugins-good', 'gtk+3', 'harfbuzz-icu', 'hyphen', 'libatomic', 'libavif>=1.0.1', 'libgudev', 'libmanette', 'libnotify', 'libseccomp', 'libsecret', 'libsoup', 'libsysprof-capture', 'libwebp', 'libxslt', 'libxt', 'openjpeg', 'woff2', 'wpebackend-fdo', 'xdg-dbus-proxy']"
 reverse_depends = "['geany-plugins', 'nm-openconnect', 'remmina-www', 'soundux', 'telegram-desktop', 'wxwidgets']"
 +++
@@ -109,6 +109,7 @@ Open source web browser engine gtk+3
 * /usr/include/webkitgtk-4.0/webkit/WebKitWebEditor.h
 * /usr/include/webkitgtk-4.0/webkit/WebKitWebExtension.h
 * /usr/include/webkitgtk-4.0/webkit/WebKitWebExtensionAutocleanups.h
+* /usr/include/webkitgtk-4.0/webkit/WebKitWebExtensionMatchPattern.h
 * /usr/include/webkitgtk-4.0/webkit/WebKitWebFormManager.h
 * /usr/include/webkitgtk-4.0/webkit/WebKitWebHitTestResult.h
 * /usr/include/webkitgtk-4.0/webkit/WebKitWebInspector.h
@@ -243,15 +244,16 @@ Open source web browser engine gtk+3
 * /usr/lib/girepository-1.0/WebKit2WebExtension-4.0.typelib
 * /usr/lib/libjavascriptcoregtk-4.0.so
 * /usr/lib/libjavascriptcoregtk-4.0.so.18
-* /usr/lib/libjavascriptcoregtk-4.0.so.18.25.15
+* /usr/lib/libjavascriptcoregtk-4.0.so.18.27.3
 * /usr/lib/libwebkit2gtk-4.0.so
 * /usr/lib/libwebkit2gtk-4.0.so.37
-* /usr/lib/libwebkit2gtk-4.0.so.37.71.8
+* /usr/lib/libwebkit2gtk-4.0.so.37.72.5
 * /usr/lib/pkgconfig/javascriptcoregtk-4.0.pc
 * /usr/lib/pkgconfig/webkit2gtk-4.0.pc
 * /usr/lib/pkgconfig/webkit2gtk-web-extension-4.0.pc
 * /usr/lib/webkit-gtk3/jsc
 * /usr/lib/webkit-gtk3/MiniBrowser
+* /usr/lib/webkit-gtk3/WebKitGPUProcess
 * /usr/lib/webkit-gtk3/WebKitNetworkProcess
 * /usr/lib/webkit-gtk3/WebKitWebProcess
 * /usr/lib/webkit2gtk-4.0/injected-bundle/libwebkit2gtkinjectedbundle.so
@@ -261,6 +263,7 @@ Open source web browser engine gtk+3
 * /usr/share/doc/javascriptcoregtk-4.0/callback.ClassHasPropertyFunction.html
 * /usr/share/doc/javascriptcoregtk-4.0/callback.ClassSetPropertyFunction.html
 * /usr/share/doc/javascriptcoregtk-4.0/callback.ExceptionHandler.html
+* /usr/share/doc/javascriptcoregtk-4.0/callback.Executor.html
 * /usr/share/doc/javascriptcoregtk-4.0/callback.OptionsFunc.html
 * /usr/share/doc/javascriptcoregtk-4.0/class.Class.html
 * /usr/share/doc/javascriptcoregtk-4.0/class.Context.html
@@ -296,6 +299,7 @@ Open source web browser engine gtk+3
 * /usr/share/doc/javascriptcoregtk-4.0/ctor.Value.new_null.html
 * /usr/share/doc/javascriptcoregtk-4.0/ctor.Value.new_number.html
 * /usr/share/doc/javascriptcoregtk-4.0/ctor.Value.new_object.html
+* /usr/share/doc/javascriptcoregtk-4.0/ctor.Value.new_promise.html
 * /usr/share/doc/javascriptcoregtk-4.0/ctor.Value.new_string.html
 * /usr/share/doc/javascriptcoregtk-4.0/ctor.Value.new_string_from_bytes.html
 * /usr/share/doc/javascriptcoregtk-4.0/ctor.Value.new_typed_array.html
@@ -459,7 +463,7 @@ Open source web browser engine gtk+3
 * /usr/share/doc/javascriptcoregtk-4.0/style.css
 * /usr/share/doc/javascriptcoregtk-4.0/type_func.Context.get_current.html
 * /usr/share/doc/javascriptcoregtk-4.0/urlmap.js
-* /usr/share/doc/webkit-gtk3-2.46.6/NEWS
+* /usr/share/doc/webkit-gtk3-2.48.0/NEWS
 * /usr/share/doc/webkit2gtk-4.0/callback.URISchemeRequestCallback.html
 * /usr/share/doc/webkit2gtk-4.0/class.AuthenticationRequest.html
 * /usr/share/doc/webkit2gtk-4.0/class.AutomationSession.html
@@ -560,6 +564,10 @@ Open source web browser engine gtk+3
 * /usr/share/doc/webkit2gtk-4.0/ctor.WebContext.new.html
 * /usr/share/doc/webkit2gtk-4.0/ctor.WebContext.new_ephemeral.html
 * /usr/share/doc/webkit2gtk-4.0/ctor.WebContext.new_with_website_data_manager.html
+* /usr/share/doc/webkit2gtk-4.0/ctor.WebExtensionMatchPattern.new_all_hosts_and_schemes.html
+* /usr/share/doc/webkit2gtk-4.0/ctor.WebExtensionMatchPattern.new_all_urls.html
+* /usr/share/doc/webkit2gtk-4.0/ctor.WebExtensionMatchPattern.new_with_scheme.html
+* /usr/share/doc/webkit2gtk-4.0/ctor.WebExtensionMatchPattern.new_with_string.html
 * /usr/share/doc/webkit2gtk-4.0/ctor.WebsiteDataManager.new.html
 * /usr/share/doc/webkit2gtk-4.0/ctor.WebsiteDataManager.new_ephemeral.html
 * /usr/share/doc/webkit2gtk-4.0/ctor.WebsitePolicies.new.html
@@ -599,6 +607,7 @@ Open source web browser engine gtk+3
 * /usr/share/doc/webkit2gtk-4.0/enum.UserStyleLevel.html
 * /usr/share/doc/webkit2gtk-4.0/enum.WebExtensionMode.html
 * /usr/share/doc/webkit2gtk-4.0/enum.WebProcessTerminationReason.html
+* /usr/share/doc/webkit2gtk-4.0/environment-variables.html
 * /usr/share/doc/webkit2gtk-4.0/error.DownloadError.html
 * /usr/share/doc/webkit2gtk-4.0/error.FaviconDatabaseError.html
 * /usr/share/doc/webkit2gtk-4.0/error.JavascriptError.html
@@ -609,11 +618,13 @@ Open source web browser engine gtk+3
 * /usr/share/doc/webkit2gtk-4.0/error.SnapshotError.html
 * /usr/share/doc/webkit2gtk-4.0/error.UserContentFilterError.html
 * /usr/share/doc/webkit2gtk-4.0/error.UserMessageError.html
+* /usr/share/doc/webkit2gtk-4.0/error.WebExtensionMatchPatternError.html
 * /usr/share/doc/webkit2gtk-4.0/flags.EditorTypingAttributes.html
 * /usr/share/doc/webkit2gtk-4.0/flags.FindOptions.html
 * /usr/share/doc/webkit2gtk-4.0/flags.HitTestResultContext.html
 * /usr/share/doc/webkit2gtk-4.0/flags.InputHints.html
 * /usr/share/doc/webkit2gtk-4.0/flags.SnapshotOptions.html
+* /usr/share/doc/webkit2gtk-4.0/flags.WebExtensionMatchPatternOptions.html
 * /usr/share/doc/webkit2gtk-4.0/flags.WebsiteDataTypes.html
 * /usr/share/doc/webkit2gtk-4.0/fonts.css
 * /usr/share/doc/webkit2gtk-4.0/func.CHECK_VERSION.html
@@ -1005,6 +1016,7 @@ Open source web browser engine gtk+3
 * /usr/share/doc/webkit2gtk-4.0/method.Settings.get_sans_serif_font_family.html
 * /usr/share/doc/webkit2gtk-4.0/method.Settings.get_serif_font_family.html
 * /usr/share/doc/webkit2gtk-4.0/method.Settings.get_user_agent.html
+* /usr/share/doc/webkit2gtk-4.0/method.Settings.get_webrtc_udp_ports_range.html
 * /usr/share/doc/webkit2gtk-4.0/method.Settings.get_zoom_text_only.html
 * /usr/share/doc/webkit2gtk-4.0/method.Settings.set_allow_file_access_from_file_urls.html
 * /usr/share/doc/webkit2gtk-4.0/method.Settings.set_allow_modal_dialogs.html
@@ -1069,6 +1081,7 @@ Open source web browser engine gtk+3
 * /usr/share/doc/webkit2gtk-4.0/method.Settings.set_serif_font_family.html
 * /usr/share/doc/webkit2gtk-4.0/method.Settings.set_user_agent.html
 * /usr/share/doc/webkit2gtk-4.0/method.Settings.set_user_agent_with_application_details.html
+* /usr/share/doc/webkit2gtk-4.0/method.Settings.set_webrtc_udp_ports_range.html
 * /usr/share/doc/webkit2gtk-4.0/method.Settings.set_zoom_text_only.html
 * /usr/share/doc/webkit2gtk-4.0/method.URIRequest.get_http_headers.html
 * /usr/share/doc/webkit2gtk-4.0/method.URIRequest.get_http_method.html
@@ -1173,6 +1186,16 @@ Open source web browser engine gtk+3
 * /usr/share/doc/webkit2gtk-4.0/method.WebContext.set_web_extensions_directory.html
 * /usr/share/doc/webkit2gtk-4.0/method.WebContext.set_web_extensions_initialization_user_data.html
 * /usr/share/doc/webkit2gtk-4.0/method.WebContext.set_web_process_count_limit.html
+* /usr/share/doc/webkit2gtk-4.0/method.WebExtensionMatchPattern.get_host.html
+* /usr/share/doc/webkit2gtk-4.0/method.WebExtensionMatchPattern.get_matches_all_hosts.html
+* /usr/share/doc/webkit2gtk-4.0/method.WebExtensionMatchPattern.get_matches_all_urls.html
+* /usr/share/doc/webkit2gtk-4.0/method.WebExtensionMatchPattern.get_path.html
+* /usr/share/doc/webkit2gtk-4.0/method.WebExtensionMatchPattern.get_scheme.html
+* /usr/share/doc/webkit2gtk-4.0/method.WebExtensionMatchPattern.get_string.html
+* /usr/share/doc/webkit2gtk-4.0/method.WebExtensionMatchPattern.matches_pattern.html
+* /usr/share/doc/webkit2gtk-4.0/method.WebExtensionMatchPattern.matches_url.html
+* /usr/share/doc/webkit2gtk-4.0/method.WebExtensionMatchPattern.ref.html
+* /usr/share/doc/webkit2gtk-4.0/method.WebExtensionMatchPattern.unref.html
 * /usr/share/doc/webkit2gtk-4.0/method.WebInspector.attach.html
 * /usr/share/doc/webkit2gtk-4.0/method.WebInspector.close.html
 * /usr/share/doc/webkit2gtk-4.0/method.WebInspector.detach.html
@@ -1322,6 +1345,7 @@ Open source web browser engine gtk+3
 * /usr/share/doc/webkit2gtk-4.0/method.WindowProperties.get_scrollbars_visible.html
 * /usr/share/doc/webkit2gtk-4.0/method.WindowProperties.get_statusbar_visible.html
 * /usr/share/doc/webkit2gtk-4.0/method.WindowProperties.get_toolbar_visible.html
+* /usr/share/doc/webkit2gtk-4.0/profiling.html
 * /usr/share/doc/webkit2gtk-4.0/property.AutomationSession.id.html
 * /usr/share/doc/webkit2gtk-4.0/property.ColorChooserRequest.rgba.html
 * /usr/share/doc/webkit2gtk-4.0/property.Download.allow-overwrite.html
@@ -1424,6 +1448,7 @@ Open source web browser engine gtk+3
 * /usr/share/doc/webkit2gtk-4.0/property.Settings.sans-serif-font-family.html
 * /usr/share/doc/webkit2gtk-4.0/property.Settings.serif-font-family.html
 * /usr/share/doc/webkit2gtk-4.0/property.Settings.user-agent.html
+* /usr/share/doc/webkit2gtk-4.0/property.Settings.webrtc-udp-ports-range.html
 * /usr/share/doc/webkit2gtk-4.0/property.Settings.zoom-text-only.html
 * /usr/share/doc/webkit2gtk-4.0/property.URIRequest.uri.html
 * /usr/share/doc/webkit2gtk-4.0/property.URIResponse.content-length.html
@@ -1526,6 +1551,7 @@ Open source web browser engine gtk+3
 * /usr/share/doc/webkit2gtk-4.0/RedHatText-MediumItalic.woff2
 * /usr/share/doc/webkit2gtk-4.0/RedHatText-Regular.woff
 * /usr/share/doc/webkit2gtk-4.0/RedHatText-Regular.woff2
+* /usr/share/doc/webkit2gtk-4.0/remote-inspector.html
 * /usr/share/doc/webkit2gtk-4.0/search.js
 * /usr/share/doc/webkit2gtk-4.0/signal.AuthenticationRequest.authenticated.html
 * /usr/share/doc/webkit2gtk-4.0/signal.AuthenticationRequest.cancelled.html
@@ -1630,6 +1656,7 @@ Open source web browser engine gtk+3
 * /usr/share/doc/webkit2gtk-4.0/struct.UserContentFilter.html
 * /usr/share/doc/webkit2gtk-4.0/struct.UserScript.html
 * /usr/share/doc/webkit2gtk-4.0/struct.UserStyleSheet.html
+* /usr/share/doc/webkit2gtk-4.0/struct.WebExtensionMatchPattern.html
 * /usr/share/doc/webkit2gtk-4.0/struct.WebsiteData.html
 * /usr/share/doc/webkit2gtk-4.0/struct.WebViewSessionState.html
 * /usr/share/doc/webkit2gtk-4.0/style.css
@@ -1649,6 +1676,8 @@ Open source web browser engine gtk+3
 * /usr/share/doc/webkit2gtk-4.0/type_func.UserContentFilterError.quark.html
 * /usr/share/doc/webkit2gtk-4.0/type_func.UserMessageError.quark.html
 * /usr/share/doc/webkit2gtk-4.0/type_func.WebContext.get_default.html
+* /usr/share/doc/webkit2gtk-4.0/type_func.WebExtensionMatchPattern.register_custom_URL_scheme.html
+* /usr/share/doc/webkit2gtk-4.0/type_func.WebExtensionMatchPatternError.quark.html
 * /usr/share/doc/webkit2gtk-4.0/type_func.WebsiteDataManager.set_memory_pressure_settings.html
 * /usr/share/doc/webkit2gtk-4.0/vfunc.Download.decide_destination.html
 * /usr/share/doc/webkit2gtk-4.0/vfunc.InputMethodContext.committed.html

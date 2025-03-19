@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "znc 1.9.1-1"
-version = "1.9.1-1"
+title = "znc 1.9.1-2"
+version = "1.9.1-2"
 description = "An IRC bouncer with modules and scripts support."
-date = "2024-10-30T21:38:28"
+date = "2025-03-19T10:13:16"
 aliases = "/packages/135816"
 categories = ['network-extra']
 upstreamurl = "http://znc.in"
 arch = "x86_64"
-size = "1729804"
-usize = "6806272"
-sha1sum = "9553a469cea9214045147e89373671aeb07180f8"
-depends = "['cyrus-sasl', 'icu4c>=76.1', 'libstdc++', 'openssl>=3.1.0', 'python3>=3.12']"
+size = "1725940"
+usize = "6804368"
+sha1sum = "82296910e6c85f9ae7c56e11323ffa407daa067a"
+depends = "['cyrus-sasl', 'icu4c>=77.1', 'libstdc++', 'openssl>=3.1.0', 'python3>=3.12']"
 +++
 ### Description: 
 An IRC bouncer with modules and scripts support.

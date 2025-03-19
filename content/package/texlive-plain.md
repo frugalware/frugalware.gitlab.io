@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "texlive-plain 2025.1-1"
-version = "2025.1-1"
+title = "texlive-plain 2025.1-2"
+version = "2025.1-2"
 description = "Plain Tex packages for TeX Live"
-date = "2025-03-17T15:34:21"
+date = "2025-03-19T10:41:35"
 aliases = "/packages/219469"
 categories = ['xapps-extra']
 upstreamurl = "http://tug.org/texlive/"
 arch = "x86_64"
-size = "183492"
+size = "183464"
 usize = "1202439"
-sha1sum = "27fafe6c8b77b51bc7a3174abe07160464c38fbf"
+sha1sum = "dfa4d9eff2674794a9935fa603b506cbe6206b01"
 depends = "['texlive=2025.1']"
 +++
 ### Description: 

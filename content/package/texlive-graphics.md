@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "texlive-graphics 2025.1-1"
-version = "2025.1-1"
+title = "texlive-graphics 2025.1-2"
+version = "2025.1-2"
 description = "Graphics packages for TeX Live"
-date = "2025-03-17T15:34:21"
+date = "2025-03-19T10:41:35"
 aliases = "/packages/102986"
 categories = ['xapps-extra']
 upstreamurl = "http://tug.org/texlive/"
 arch = "x86_64"
-size = "6141828"
+size = "6141748"
 usize = "36641748"
-sha1sum = "ef873ede596693e630d7b44bf71a3bce818fd689"
+sha1sum = "2d15c6b57ca8d3e1995ed216f09fa7ae0260a584"
 depends = "['texlive=2025.1']"
 +++
 ### Description: 

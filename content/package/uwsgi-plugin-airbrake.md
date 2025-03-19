@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "uwsgi-plugin-airbrake 2.0.28-2"
-version = "2.0.28-2"
+title = "uwsgi-plugin-airbrake 2.0.28-3"
+version = "2.0.28-3"
 description = "UWSGI Airbrake Plugin"
-date = "2024-12-25T16:39:53"
+date = "2025-03-19T10:10:49"
 aliases = "/packages/200420"
 categories = ['network-extra']
 upstreamurl = "http://projects.unbit.it/"
 arch = "x86_64"
-size = "7464"
-usize = "12904"
-sha1sum = "4518113989c225cc03ef3db73481b1a8c8cac42d"
+size = "7444"
+usize = "12728"
+sha1sum = "96155d407bbdbc4a123bc17f7d74f434ae8a8329"
 depends = "['libssh2', 'libxml2', 'uwsgi']"
 +++
 ### Description: 

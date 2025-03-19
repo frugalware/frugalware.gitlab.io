@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "uwsgi-plugin-python 2.0.28-2"
-version = "2.0.28-2"
+title = "uwsgi-plugin-python 2.0.28-3"
+version = "2.0.28-3"
 description = "UWSGI Python Plugin"
-date = "2024-12-25T16:39:53"
+date = "2025-03-19T10:10:49"
 aliases = "/packages/200401"
 categories = ['network-extra']
 upstreamurl = "http://projects.unbit.it/"
 arch = "x86_64"
-size = "60576"
-usize = "195240"
-sha1sum = "000251cb8ddfc552bedef9e91192bec80e2d1d1b"
+size = "60368"
+usize = "195376"
+sha1sum = "a40c9c9d4ee781c5cdd11850805aed171e70d6a9"
 depends = "['python3-greenlet', 'uwsgi']"
 +++
 ### Description: 

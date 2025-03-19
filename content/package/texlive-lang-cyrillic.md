@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "texlive-lang-cyrillic 2025.1-1"
-version = "2025.1-1"
+title = "texlive-lang-cyrillic 2025.1-2"
+version = "2025.1-2"
 description = "Cyrillic language support for TeX Live"
-date = "2025-03-17T15:34:21"
+date = "2025-03-19T10:41:35"
 aliases = "/packages/219464"
 categories = ['xapps-extra']
 upstreamurl = "http://tug.org/texlive/"
 arch = "x86_64"
-size = "1523272"
+size = "1522232"
 usize = "8556931"
-sha1sum = "ca5541edea490c639298a161d46ee5ac164aedd7"
+sha1sum = "188fc8c054187b9cba1e53ebbbac044cf153cd2e"
 depends = "['texlive=2025.1']"
 +++
 ### Description: 

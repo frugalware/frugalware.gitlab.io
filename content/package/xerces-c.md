@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "xerces-c 3.3.0-1"
-version = "3.3.0-1"
+title = "xerces-c 3.3.0-2"
+version = "3.3.0-2"
 description = "Xerces2 C++ Parser"
-date = "2024-10-30T21:33:06"
+date = "2025-03-19T09:09:12"
 aliases = "/packages/14649"
 categories = ['devel-extra']
 upstreamurl = "http://xml.apache.org/xerces-c/"
 arch = "x86_64"
-size = "1341464"
-usize = "8505199"
-sha1sum = "567802746c1283f23aab92afe5f99134c1e762f9"
-depends = "['icu4c>=76.1']"
+size = "1338804"
+usize = "8502999"
+sha1sum = "17193ff811ad261986edde1a4e968afb0306ab4f"
+depends = "['icu4c>=77.1']"
 reverse_depends = "['enigma', 'megaglest', 'virtualbox', 'xalan-c']"
 +++
 ### Description: 

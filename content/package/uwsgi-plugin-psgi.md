@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "uwsgi-plugin-psgi 2.0.28-2"
-version = "2.0.28-2"
+title = "uwsgi-plugin-psgi 2.0.28-3"
+version = "2.0.28-3"
 description = "UWSGI Perl psgi Plugin"
-date = "2024-12-25T16:39:53"
+date = "2025-03-19T10:10:49"
 aliases = "/packages/200400"
 categories = ['network-extra']
 upstreamurl = "http://projects.unbit.it/"
 arch = "x86_64"
-size = "33952"
-usize = "96928"
-sha1sum = "c7c597b247171b252479e2ca08e8511d5d34f91c"
+size = "34072"
+usize = "96872"
+sha1sum = "7c4e1e766c73bf82f9f56ecf3329bc2960a7e837"
 depends = "['perl>=5.28.2', 'uwsgi']"
 +++
 ### Description: 

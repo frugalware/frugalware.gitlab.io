@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qt6-base 6.8.2-1"
-version = "6.8.2-1"
+title = "qt6-base 6.8.2-2"
+version = "6.8.2-2"
 description = "The Qt6 toolkit, qtbase"
-date = "2025-02-01T16:38:25"
+date = "2025-03-18T21:57:16"
 aliases = "/packages/220751"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "13651728"
-usize = "61314926"
-sha1sum = "1c5c9d170b704a4bf3efcf62b8e6c2dbdcfb9d51"
-depends = "['at-spi2-core', 'brotli', 'double-conversion', 'fontconfig', 'harfbuzz', 'icu4c>=76.1', 'libb2', 'libcups', 'libglvnd', 'libinput', 'libjpeg-turbo', 'libproxy>=0.5.7', 'libxi', 'libxkbcommon', 'libxrender', 'md4c', 'qt6-translations', 'shared-mime-info', 'sqlite3', 'tslib', 'xcb-util-cursor', 'xcb-util-keysyms', 'xcb-util-wm', 'xdg-utils']"
+size = "13653188"
+usize = "61343126"
+sha1sum = "52dc377f5d63ecdc47d261ccb73a3191f618a976"
+depends = "['at-spi2-core', 'brotli', 'double-conversion', 'fontconfig', 'harfbuzz', 'icu4c>=77.1', 'libb2', 'libcups', 'libglvnd', 'libinput', 'libjpeg-turbo', 'libproxy>=0.5.7', 'libxi', 'libxkbcommon', 'libxrender', 'md4c', 'qt6-translations', 'shared-mime-info', 'sqlite3', 'tslib', 'xcb-util-cursor', 'xcb-util-keysyms', 'xcb-util-wm', 'xdg-utils']"
 reverse_depends = "['akonadi', 'alizams', 'appstream-qt', 'attica', 'breeze-gtk', 'ckb-next', 'dfl-ipc-qt6', 'dfl-login1-qt6', 'dfl-utils-qt6', 'doxywizard', 'falkon', 'freeciv-qt', 'gnuplot', 'gottet', 'karchive', 'kcodecs', 'kcolorpicker', 'kconfig', 'kcoreaddons', 'kdbusaddons', 'kdecoration', 'kdeedu-data', 'kdevelop-pg-qt', 'kdnssd', 'kdsoap', 'kguiaddons', 'kholidays', 'kimageformats', 'kitemmodels', 'kitemviews', 'kplotting', 'kunitconversion', 'kwidgetsaddons', 'ladybird', 'libaccounts-qt', 'libcamera-tools', 'libkdcraw', 'libkexiv2', 'libportal-qt6', 'libqaccessibilityclient', 'libqgpgme', 'lyx', 'mkvtoolnix', 'modemmanager-qt', 'networkmanager-qt', 'ocean-sound-theme', 'ogre', 'oxygen-sounds', 'packagekit-qt6', 'pavucontrol-qt', 'pinentry-qt6', 'polkit-qt6-1', 'poppler-qt6', 'poxml', 'prison', 'pulseaudio-qt', 'pyqt6', 'qt6-base-mysql', 'qt6-base-platformtheme-gtk3', 'qt6-base-postgresql', 'qt6-imageformats', 'qt6-languageserver', 'qt6-networkauth', 'qt6-serialport', 'qt6-shadertools', 'qt6-svg', 'qtermwidget', 'qtkeychain', 'qtractor', 'qtutilities', 'seafile-client', 'shiboken6', 'signon', 'simsu', 'sonnet', 'syntax-highlighting', 'tanglet', 'tetzle', 'threadweaver', 'usbguard-qt', 'virtualbox', 'wrapland', 'zulucrypt']"
 +++
 ### Description: 

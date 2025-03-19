@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qt6-5compat 6.8.2-1"
-version = "6.8.2-1"
+title = "qt6-5compat 6.8.2-2"
+version = "6.8.2-2"
 description = "The Qt6 toolkit, qt5compat"
-date = "2025-02-01T16:53:38"
+date = "2025-03-18T22:01:10"
 aliases = "/packages/220762"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "435440"
-usize = "1780687"
-sha1sum = "7a876ca3108e70ced98bf891c3983236c824b792"
-depends = "['icu4c>=76.1', 'qt6-declarative']"
+size = "435288"
+usize = "1780519"
+sha1sum = "a5625e9e008a9ce182f77cdd48c114d1bbb65e8b"
+depends = "['icu4c>=77.1', 'qt6-declarative']"
 reverse_depends = "['alizams', 'analitza', 'gnuplot', 'keysmith', 'kwin', 'mixxx', 'mlt-qt6', 'opencv', 'phonon-qt6', 'qbs', 'qca', 'qmlkonsole', 'qtcreator', 'quazip-qt6', 'seafile-client', 'socnetv', 'telegram-desktop', 'texmaker', 'texstudio', 'wireshark-qt']"
 +++
 ### Description: 

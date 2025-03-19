@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libmspub 0.1.4-14"
-version = "0.1.4-14"
+title = "libmspub 0.1.4-15"
+version = "0.1.4-15"
 description = "libmspub import filter library"
-date = "2024-10-30T21:21:18"
+date = "2025-03-19T17:31:49"
 aliases = "/packages/184054"
 categories = ['xoffice']
 upstreamurl = "https://wiki.documentfoundation.org/DLP/Libraries/libmspub"
 arch = "x86_64"
-size = "526628"
-usize = "8606502"
-sha1sum = "6a5594c7429dfe3a7b4f30b82f14b06150054757"
-depends = "['icu4c>=76.1', 'libwpd>=0.10.1-5', 'libwpg>=0.3.1-4']"
+size = "521076"
+usize = "8514320"
+sha1sum = "7b2c639bb0c7a2ee5e12b053423c94a3111b1724"
+depends = "['icu4c>=77.1', 'libwpd>=0.10.1-5', 'libwpg>=0.3.1-4']"
 reverse_depends = "['libreoffice', 'scribus']"
 +++
 ### Description: 
@@ -173,7 +173,6 @@ libmspub import filter library
 * /usr/share/doc/libmspub-0.1.4/html/globals_defs.html
 * /usr/share/doc/libmspub-0.1.4/html/globals_enum.html
 * /usr/share/doc/libmspub-0.1.4/html/globals_eval.html
-* /usr/share/doc/libmspub-0.1.4/html/globals_vars.html
 * /usr/share/doc/libmspub-0.1.4/html/hierarchy.html
 * /usr/share/doc/libmspub-0.1.4/html/index.html
 * /usr/share/doc/libmspub-0.1.4/html/libmspub_8h.html

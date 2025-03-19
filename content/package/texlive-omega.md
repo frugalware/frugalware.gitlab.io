@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "texlive-omega 2025.1-1"
-version = "2025.1-1"
+title = "texlive-omega 2025.1-2"
+version = "2025.1-2"
 description = "A 16-bit extended TeX"
-date = "2025-03-17T15:34:21"
+date = "2025-03-19T10:41:35"
 aliases = "/packages/219467"
 categories = ['xapps-extra']
 upstreamurl = "http://tug.org/texlive/"
 arch = "x86_64"
-size = "1238744"
+size = "1239852"
 usize = "6449046"
-sha1sum = "e20772482414f39d1e62a3ccc1bfc6a44c09c87d"
+sha1sum = "9848f633a30154a93f54d84da002eb44a27e7d5d"
 depends = "['texlive=2025.1']"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "texlive-lua 2025.1-1"
-version = "2025.1-1"
+title = "texlive-lua 2025.1-2"
+version = "2025.1-2"
 description = "TeX Live Lua"
-date = "2025-03-17T15:34:21"
+date = "2025-03-19T10:41:35"
 aliases = "/packages/217878"
 categories = ['xlib-extra']
 upstreamurl = "http://tug.org/texlive/"
 arch = "x86_64"
-size = "362860"
+size = "362912"
 usize = "874262"
-sha1sum = "ae35ef006df5a0cb00bfdc16bd90ae4022e67ca3"
+sha1sum = "213f62b445cb28bfaee483e354d393ce376e8d5f"
 depends = "['libgcc>=5.3.0']"
 reverse_depends = "['texlive']"
 +++

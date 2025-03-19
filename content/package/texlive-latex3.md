@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "texlive-latex3 2025.1-1"
-version = "2025.1-1"
+title = "texlive-latex3 2025.1-2"
+version = "2025.1-2"
 description = "LaTeX3 packages for TeX Live"
-date = "2025-03-17T15:34:21"
+date = "2025-03-19T10:41:35"
 aliases = "/packages/219468"
 categories = ['xapps-extra']
 upstreamurl = "http://tug.org/texlive/"
 arch = "x86_64"
-size = "844508"
+size = "844556"
 usize = "11674948"
-sha1sum = "d9f8b4d413308dbd4da2018c213626043fd01a52"
+sha1sum = "ad496ce154ec873939306cff25026a4a1401e160"
 depends = "['texlive=2025.1']"
 +++
 ### Description: 

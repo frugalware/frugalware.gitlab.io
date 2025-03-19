@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "xalan-c 1.12-7"
-version = "1.12-7"
+title = "xalan-c 1.12-8"
+version = "1.12-8"
 description = "Xalan C++ Parser"
-date = "2024-10-30T21:35:16"
+date = "2025-03-19T09:12:00"
 aliases = "/packages/15040"
 categories = ['devel-extra']
 upstreamurl = "http://xml.apache.org/xalan-c/"
 arch = "x86_64"
-size = "900472"
-usize = "6004165"
-sha1sum = "2aefe85d7b9df6dcb76faf6e02b3aaffe28fd110"
+size = "901184"
+usize = "6000350"
+sha1sum = "995b980efd5be38646848ef69e49214765f5d031"
 depends = "['xerces-c>=3.3.0']"
 reverse_depends = "['virtualbox']"
 +++
