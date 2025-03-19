@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "poedit 3.5.2-1"
-version = "3.5.2-1"
+title = "poedit 3.5.2-2"
+version = "3.5.2-2"
 description = "cross-platform gettext catalogs (.po files) editor"
-date = "2025-01-05T14:33:56"
+date = "2025-03-19T09:22:07"
 aliases = "/packages/3970"
 categories = ['xapps-extra']
 upstreamurl = "http://www.poedit.net/"
 arch = "x86_64"
-size = "1490708"
-usize = "7284900"
-sha1sum = "76f84222d1269cccc7c9f8bc6b1451e147200578"
-depends = "['gtkspell3', 'icu4c>=76.1', 'libboost>=1.87.0', 'lucene++', 'pugixml>=1.9-2', 'zip']"
+size = "1489048"
+usize = "7290668"
+sha1sum = "72bde54fe8b64d0021d22d6e2658fb6e1e08d878"
+depends = "['gtkspell3', 'icu4c>=77.1', 'libboost>=1.87.0', 'lucene++', 'pugixml>=1.9-2', 'zip']"
 license = "MIT"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-si 25.2.1.2-3"
-version = "25.2.1.2-3"
+title = "libreoffice-l10n-si 25.2.1.2-4"
+version = "25.2.1.2-4"
 description = "Installs Sinhala support in LibreOffice"
-date = "2025-03-14T16:56:34"
+date = "2025-03-19T16:31:02"
 aliases = "/packages/104112"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4127956"
+size = "4127652"
 usize = "33804593"
-sha1sum = "966efcbbfea62bdd8d1cec56e397003db825556f"
+sha1sum = "09576492cc63f80b1b04645afe7f0983cfd0fa46"
 depends = "['libreoffice>=25.2.1.2']"
 +++
 ### Description: 

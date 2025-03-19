@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qt5-base-platformtheme-gtk3 5.15.16-1"
-version = "5.15.16-1"
+title = "qt5-base-platformtheme-gtk3 5.15.16-2"
+version = "5.15.16-2"
 description = "Qt5 GTK3 Theme support"
-date = "2024-11-15T20:03:19"
+date = "2025-03-18T21:24:03"
 aliases = "/packages/219177"
 categories = ['xlib-extra']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "79240"
-usize = "252514"
-sha1sum = "a5a16f23a9222512535b1ccc04be852a69e13170"
+size = "79208"
+usize = "252122"
+sha1sum = "ed297ae57810f2244aba21d661476149a4140d6e"
 depends = "['gtk+3', 'qt5-base>=5.15.16']"
 +++
 ### Description: 

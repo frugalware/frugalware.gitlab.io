@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-nso 25.2.1.2-3"
-version = "25.2.1.2-3"
+title = "libreoffice-l10n-nso 25.2.1.2-4"
+version = "25.2.1.2-4"
 description = "Installs Northern Sotho support in LibreOffice"
-date = "2025-03-14T16:56:34"
+date = "2025-03-19T16:31:02"
 aliases = "/packages/119423"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "239272"
+size = "239240"
 usize = "1463645"
-sha1sum = "5c97ef405340d72a2decf080648a2a14062c8bf0"
+sha1sum = "2e88805e1cd752fc72568b6497a5db02058b1eda"
 depends = "['libreoffice>=25.2.1.2']"
 +++
 ### Description: 

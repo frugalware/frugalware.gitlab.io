@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "postgresql 17.4-1"
-version = "17.4-1"
+title = "postgresql 17.4-2"
+version = "17.4-2"
 description = "An advanced Object-Relational database management system (DBMS)"
-date = "2025-02-21T08:41:32"
+date = "2025-03-19T12:47:58"
 aliases = "/packages/3297"
 categories = ['apps-extra']
 upstreamurl = "http://www.postgresql.org/"
 arch = "x86_64"
-size = "9501684"
-usize = "44730940"
-sha1sum = "3208a5e7d7f127e6057413b0d0f2ef986ef85f5d"
-depends = "['icu4c>=76.1', 'libpq>=17.4', 'libxml2>=2.9.4-3', 'ncurses>=6.1-2', 'openssl>=3.1.0', 'readline>=8.0']"
+size = "9500304"
+usize = "44733118"
+sha1sum = "55cfac10c437e8146b2daa89138660faf40f9db5"
+depends = "['icu4c>=77.1', 'libpq>=17.4', 'libxml2>=2.9.4-3', 'ncurses>=6.1-2', 'openssl>=3.1.0', 'readline>=8.0']"
 reverse_depends = "['openvas-manager', 'postgresql-docs', 'postgresql-plperl', 'postgresql-plpython', 'vtk']"
 +++
 ### Description: 

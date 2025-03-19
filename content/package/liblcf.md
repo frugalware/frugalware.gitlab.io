@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "liblcf 0.8-4"
-version = "0.8-4"
+title = "liblcf 0.8-5"
+version = "0.8-5"
 description = "liblcf is a library to handle RPG Maker 2000 and 2003 game data."
-date = "2024-10-30T21:19:23"
+date = "2025-03-19T13:25:32"
 aliases = "/packages/217396"
 categories = ['lib-extra']
 upstreamurl = "https://easyrpg.org"
 arch = "x86_64"
-size = "452496"
-usize = "2441830"
-sha1sum = "d5ab79dc93823cab6d104ef4c5c0764a68996435"
-depends = "['expat', 'icu4c>=76.1']"
+size = "456412"
+usize = "2508719"
+sha1sum = "a4eecb8d75f5f0fddc63dff95cfbd17d9a0d9440"
+depends = "['expat', 'icu4c>=77.1']"
 reverse_depends = "['easyrpg-player']"
 +++
 ### Description: 

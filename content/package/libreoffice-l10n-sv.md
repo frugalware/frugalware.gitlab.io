@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-sv 25.2.1.2-3"
-version = "25.2.1.2-3"
+title = "libreoffice-l10n-sv 25.2.1.2-4"
+version = "25.2.1.2-4"
 description = "Installs Swedish support in LibreOffice"
-date = "2025-03-14T16:56:34"
+date = "2025-03-19T16:31:02"
 aliases = "/packages/104121"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4972612"
+size = "4972528"
 usize = "35672236"
-sha1sum = "d610b24e46affec339a38038e2bb7b9f83d05b84"
+sha1sum = "65e123200e71a0386896e482c10e284ee7e13777"
 depends = "['libreoffice>=25.2.1.2']"
 +++
 ### Description: 

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libiio 0.26-3"
-version = "0.26-3"
+title = "libiio 0.26-4"
+version = "0.26-4"
 description = "Interface to the Linux Industrial Input/Output (IIO) Subsystem"
-date = "2024-11-03T15:00:39"
+date = "2025-03-19T13:23:19"
 aliases = "/packages/221223"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/analogdevicesinc/libiio"
 arch = "x86_64"
-size = "177676"
-usize = "633630"
-sha1sum = "817269f6bf30e2b42458638c0e20d2064122d9de"
-depends = "['avahi', 'libaio', 'libserialport', 'libusb1', 'libxml2']"
+size = "177708"
+usize = "633282"
+sha1sum = "c5b9cf63fc397444b35da7b6c0a0e1a7927eb71b"
+depends = "['avahi', 'icu4c>=77.1', 'libaio', 'libserialport', 'libusb1', 'libxml2']"
 reverse_depends = "['clightd']"
 +++
 ### Description: 

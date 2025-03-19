@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "nodejs 23.10.0-1"
-version = "23.10.0-1"
+title = "nodejs 23.10.0-2"
+version = "23.10.0-2"
 description = "Evented I/O for V8 javascript"
-date = "2025-03-16T13:31:38"
+date = "2025-03-19T09:47:13"
 aliases = "/packages/153770"
 categories = ['devel-extra']
 upstreamurl = "https://nodejs.org/"
 arch = "x86_64"
-size = "16393884"
+size = "16393824"
 usize = "75850909"
-sha1sum = "610992603474670de52fc4001cfd8cece06a96aa"
-depends = "['brotli', 'c-ares', 'icu4c>=76.1', 'libuv', 'nghttp2', 'nghttp3', 'ngtcp2', 'openssl>=3.1.0', 'python3-setuptools']"
+sha1sum = "24504d1a2e6d77900215fa4d6d979b092586591a"
+depends = "['brotli', 'c-ares', 'icu4c>=77.1', 'libuv', 'nghttp2', 'nghttp3', 'ngtcp2', 'openssl>=3.1.0', 'python3-setuptools']"
 license = "MIT"
 +++
 ### Description: 

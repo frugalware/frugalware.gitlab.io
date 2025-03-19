@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "harfbuzz-icu 10.4.0-1"
-version = "10.4.0-1"
+title = "harfbuzz-icu 10.4.0-2"
+version = "10.4.0-2"
 description = "Is an implementation of the OpenType Layout engine. ICU"
-date = "2025-03-01T11:01:43"
+date = "2025-03-18T22:28:39"
 aliases = "/packages/221460"
 categories = ['xlib']
 upstreamurl = "https://github.com/harfbuzz/harfbuzz"
 arch = "x86_64"
-size = "11836"
+size = "11876"
 usize = "10427"
-sha1sum = "5a6d61f598897dd191d1e86858381c3bf61159a7"
-depends = "['icu4c>=76.1']"
+sha1sum = "d1450c393c8e44fd333344e632dcbf2618995047"
+depends = "['icu4c>=77.1']"
 reverse_depends = "['libreoffice', 'scribus', 'webkit-gtk3']"
 +++
 ### Description: 

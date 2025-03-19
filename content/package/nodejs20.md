@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "nodejs20 20.19.0-1"
-version = "20.19.0-1"
+title = "nodejs20 20.19.0-2"
+version = "20.19.0-2"
 description = "Evented I/O for V8 javascript (LTS release: Iron)"
-date = "2025-03-16T13:46:29"
+date = "2025-03-19T10:01:36"
 aliases = "/packages/221497"
 categories = ['devel-extra']
 upstreamurl = "https://nodejs.org"
 arch = "x86_64"
-size = "12117664"
+size = "12118272"
 usize = "52884147"
-sha1sum = "e8ab51fab3b53a49a45ac2824aff983cc0299578"
-depends = "['brotli', 'c-ares', 'icu4c>=75.1', 'libuv', 'nghttp2>=1.41.0', 'python3-setuptools']"
+sha1sum = "4e632624bc681be1302d6c28522408022bbbb82f"
+depends = "['brotli', 'c-ares', 'icu4c>=77.1', 'libuv', 'nghttp2>=1.41.0', 'python3-setuptools']"
 license = "MIT"
 +++
 ### Description: 

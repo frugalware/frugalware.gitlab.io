@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-tt 25.2.1.2-3"
-version = "25.2.1.2-3"
+title = "libreoffice-l10n-tt 25.2.1.2-4"
+version = "25.2.1.2-4"
 description = "Installs Tatar support in LibreOffice"
-date = "2025-03-14T16:56:34"
+date = "2025-03-19T16:31:02"
 aliases = "/packages/152526"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "142768"
+size = "142692"
 usize = "1068156"
-sha1sum = "10e1cbdd8f95732c9364e0f048f498b2bb59a04c"
+sha1sum = "4ef5383541b2d28a57c7eabb191938323705ae6e"
 depends = "['libreoffice>=25.2.1.2']"
 +++
 ### Description: 

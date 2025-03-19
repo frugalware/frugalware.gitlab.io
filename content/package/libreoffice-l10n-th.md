@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-th 25.2.1.2-3"
-version = "25.2.1.2-3"
+title = "libreoffice-l10n-th 25.2.1.2-4"
+version = "25.2.1.2-4"
 description = "Installs Thai support in LibreOffice"
-date = "2025-03-14T16:56:34"
+date = "2025-03-19T16:31:02"
 aliases = "/packages/104126"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "789908"
+size = "789856"
 usize = "5305802"
-sha1sum = "aa3cdcc66f9b3305c009905a08052b04aab08088"
+sha1sum = "054c925815b07b0b0250fb337a70ae0d103f4ec1"
 depends = "['libreoffice>=25.2.1.2']"
 +++
 ### Description: 

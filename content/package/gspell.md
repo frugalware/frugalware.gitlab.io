@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gspell 1.14.0-2"
-version = "1.14.0-2"
+title = "gspell 1.14.0-3"
+version = "1.14.0-3"
 description = "Spell-checking library for GTK+"
-date = "2024-10-28T12:56:24"
+date = "2025-03-19T09:20:03"
 aliases = "/packages/218047"
 categories = ['gnome']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "109800"
-usize = "749520"
-sha1sum = "90580b2273865652c14d75a6ded98f61d4e4d817"
-depends = "['enchant>=2.2.3', 'gtk+3>=3.24.0', 'icu4c>=76.1', 'iso-codes>=3.70-2']"
+size = "110900"
+usize = "749614"
+sha1sum = "e1bb657ccf9bb0cc2806ea35ddd2b5cdd41b3e98"
+depends = "['enchant>=2.2.3', 'gtk+3>=3.24.0', 'icu4c>=77.1', 'iso-codes>=3.70-2']"
 reverse_depends = "['inkscape', 'wxwidgets']"
 +++
 ### Description: 
@@ -49,12 +49,10 @@ Spell-checking library for GTK+
 * /usr/share/gir-1.0/Gspell-1.gir
 * /usr/share/gtk-doc/html/gspell-1/annexes.html
 * /usr/share/gtk-doc/html/gspell-1/annotation-glossary.html
-* /usr/share/gtk-doc/html/gspell-1/api-index-1-2.html
-* /usr/share/gtk-doc/html/gspell-1/api-index-1-4.html
-* /usr/share/gtk-doc/html/gspell-1/api-index-1-6.html
 * /usr/share/gtk-doc/html/gspell-1/api-index-full.html
 * /usr/share/gtk-doc/html/gspell-1/api-reference.html
 * /usr/share/gtk-doc/html/gspell-1/core-classes.html
+* /usr/share/gtk-doc/html/gspell-1/gspell-1.devhelp2
 * /usr/share/gtk-doc/html/gspell-1/GspellChecker.html
 * /usr/share/gtk-doc/html/gspell-1/GspellCheckerDialog.html
 * /usr/share/gtk-doc/html/gspell-1/GspellEntry.html

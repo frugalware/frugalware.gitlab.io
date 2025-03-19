@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdeplasma-addons 6.3.3-1"
-version = "6.3.3-1"
+title = "kdeplasma-addons 6.3.3-2"
+version = "6.3.3-2"
 description = "Plasma AddOns"
-date = "2025-03-12T11:01:56"
+date = "2025-03-19T14:05:42"
 aliases = "/packages/221305"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1059624"
-usize = "6564904"
-sha1sum = "6473154c0e6ee0e52c564d388b34ecfafd789c92"
-depends = "['icu4c>=76.1', 'kcmutils>=6.11.0', 'kconfig>=6.11.0', 'kconfigwidgets>=6.11.0', 'kcoreaddons>=6.11.0', 'ki18n>=6.11.0', 'kio>=6.11.0', 'kirigami-addons', 'kitemmodels>=6.11.0', 'knewstuff>=6.11.0', 'krunner>=6.11.0', 'kservice>=6.11.0', 'kunitconversion>=6.11.0', 'plasma-activities>=6.3.3', 'plasma-workspace>=6.3.3', 'purpose>=6.11.0']"
+size = "1008716"
+usize = "6357264"
+sha1sum = "88e7893f4a6fe80db714eda925674b316865f240"
+depends = "['icu4c>=77.1', 'kcmutils>=6.12.0', 'kconfig>=6.12.0', 'kconfigwidgets>=6.12.0', 'kcoreaddons>=6.12.0', 'ki18n>=6.12.0', 'kio>=6.12.0', 'kirigami-addons', 'kitemmodels>=6.12.0', 'knewstuff>=6.12.0', 'krunner>=6.12.0', 'kservice>=6.12.0', 'kunitconversion>=6.12.0', 'plasma-activities>=6.3.3', 'plasma-workspace>=6.3.3', 'purpose>=6.12.0']"
 +++
 ### Description: 
 Plasma AddOns
@@ -63,10 +63,6 @@ Plasma AddOns
 * /usr/lib/qt6/qml/org/kde/plasma/private/colorpicker/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/plasma/private/colorpicker/libcolorpickerplugin.so
 * /usr/lib/qt6/qml/org/kde/plasma/private/colorpicker/qmldir
-* /usr/lib/qt6/qml/org/kde/plasma/private/dict/dictplugin.qmltypes
-* /usr/lib/qt6/qml/org/kde/plasma/private/dict/kde-qmlmodule.version
-* /usr/lib/qt6/qml/org/kde/plasma/private/dict/libdictplugin.so
-* /usr/lib/qt6/qml/org/kde/plasma/private/dict/qmldir
 * /usr/lib/qt6/qml/org/kde/plasma/private/diskquota/diskquotaplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/plasma/private/diskquota/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/plasma/private/diskquota/libdiskquotaplugin.so
@@ -110,7 +106,6 @@ Plasma AddOns
 * /usr/share/dbus-1/system-services/org.kde.kameleonhelper.service
 * /usr/share/dbus-1/system.d/org.kde.kameleonhelper.conf
 * /usr/share/doc/kdeplasma-addons-6.3.3/README.md
-* /usr/share/icons/hicolor/scalable/apps/accessories-dictionary.svgz
 * /usr/share/icons/hicolor/scalable/apps/fifteenpuzzle.svgz
 * /usr/share/kdevappwizard/templates/plasmapotdprovider.tar.bz2
 * /usr/share/knotifications6/plasma_applet_timer.notifyrc
@@ -2011,8 +2006,6 @@ Plasma AddOns
 * /usr/share/metainfo/org.kde.plasma.timer.appdata.xml
 * /usr/share/metainfo/org.kde.plasma.userswitcher.appdata.xml
 * /usr/share/metainfo/org.kde.plasma.weather.appdata.xml
-* /usr/share/metainfo/org.kde.plasma.webbrowser.appdata.xml
-* /usr/share/metainfo/org.kde.plasma_applet_dict.appdata.xml
 * /usr/share/metainfo/org.kde.potd.appdata.xml
 * /usr/share/plasma/desktoptheme/default/weather/wind-arrows.svgz
 * /usr/share/plasma/desktoptheme/default/widgets/timer.svgz
@@ -2138,19 +2131,6 @@ Plasma AddOns
 * /usr/share/plasma/plasmoids/org.kde.plasma.weather/contents/ui/SwitchPanel.qml
 * /usr/share/plasma/plasmoids/org.kde.plasma.weather/contents/ui/TopPanel.qml
 * /usr/share/plasma/plasmoids/org.kde.plasma.weather/metadata.json
-* /usr/share/plasma/plasmoids/org.kde.plasma.webbrowser/contents/config/config.qml
-* /usr/share/plasma/plasmoids/org.kde.plasma.webbrowser/contents/config/main.xml
-* /usr/share/plasma/plasmoids/org.kde.plasma.webbrowser/contents/ui/ConfigAppearance.qml
-* /usr/share/plasma/plasmoids/org.kde.plasma.webbrowser/contents/ui/ConfigGeneral.qml
-* /usr/share/plasma/plasmoids/org.kde.plasma.webbrowser/contents/ui/main.qml
-* /usr/share/plasma/plasmoids/org.kde.plasma.webbrowser/metadata.json
-* /usr/share/plasma/plasmoids/org.kde.plasma_applet_dict/contents/config/config.qml
-* /usr/share/plasma/plasmoids/org.kde.plasma_applet_dict/contents/config/main.xml
-* /usr/share/plasma/plasmoids/org.kde.plasma_applet_dict/contents/ui/AvailableDictSheet.qml
-* /usr/share/plasma/plasmoids/org.kde.plasma_applet_dict/contents/ui/ConfigDictionaries.qml
-* /usr/share/plasma/plasmoids/org.kde.plasma_applet_dict/contents/ui/DictItemDelegate.qml
-* /usr/share/plasma/plasmoids/org.kde.plasma_applet_dict/contents/ui/main.qml
-* /usr/share/plasma/plasmoids/org.kde.plasma_applet_dict/metadata.json
 * /usr/share/plasma/wallpapers/org.kde.haenau/contents/ui/BackgroundElement.qml
 * /usr/share/plasma/wallpapers/org.kde.haenau/contents/ui/BottomBackgroundElement.qml
 * /usr/share/plasma/wallpapers/org.kde.haenau/contents/ui/main.qml

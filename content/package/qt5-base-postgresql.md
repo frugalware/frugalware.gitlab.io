@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qt5-base-postgresql 5.15.16-1"
-version = "5.15.16-1"
+title = "qt5-base-postgresql 5.15.16-2"
+version = "5.15.16-2"
 description = "Postgresql support for qt5"
-date = "2024-11-15T20:03:19"
+date = "2025-03-18T21:24:03"
 aliases = "/packages/217916"
 categories = ['xlib-extra']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "32576"
-usize = "88264"
-sha1sum = "99ddd20c5570b59bb62b6f01d784683a9abd1f2b"
+size = "32556"
+usize = "88192"
+sha1sum = "636590164820ee6e4e829f78e8944441f844b4d7"
 depends = "['libpq>=11.2-2', 'qt5-base>=5.15.16', 'qt5-base-sql-common']"
 +++
 ### Description: 

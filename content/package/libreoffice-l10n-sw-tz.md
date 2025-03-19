@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-sw-tz 25.2.1.2-3"
-version = "25.2.1.2-3"
+title = "libreoffice-l10n-sw-tz 25.2.1.2-4"
+version = "25.2.1.2-4"
 description = "Installs Swahili support in LibreOffice"
-date = "2025-03-14T16:56:34"
+date = "2025-03-19T16:31:02"
 aliases = "/packages/104122"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "233840"
+size = "234112"
 usize = "1475628"
-sha1sum = "ff52545a2dfe55708edb2a1590afa1696f0b12e2"
+sha1sum = "a9cd0b3875cc205acb9412be61330653f8797b21"
 depends = "['libreoffice>=25.2.1.2']"
 +++
 ### Description: 

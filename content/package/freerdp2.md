@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "freerdp2 2.11.7-3"
-version = "2.11.7-3"
+title = "freerdp2 2.11.7-4"
+version = "2.11.7-4"
 description = "Remote Desktop Protocol cliente"
-date = "2025-02-12T15:35:02"
+date = "2025-03-19T13:56:34"
 aliases = "/packages/221524"
 categories = ['xapps']
 upstreamurl = "https://www.freerdp.com/"
 arch = "x86_64"
-size = "1527280"
-usize = "6321262"
-sha1sum = "a0af22882bc255ee2c9f69b66c62129453f5d07d"
-depends = "['ffmpeg>=7.0', 'fuse3', 'icu4c>=76.1', 'libcups', 'libkrb5', 'libxcursor', 'libxdamage', 'libxinerama', 'libxkbcommon', 'libxkbfile', 'libxrandr', 'pcsc-lite', 'sdl2_ttf']"
+size = "1527340"
+usize = "6321310"
+sha1sum = "c3b97c7f6dfca3feccbf485afc6637ed4da8cd01"
+depends = "['ffmpeg>=7.0', 'fuse3', 'icu4c>=77.1', 'libcups', 'libkrb5', 'libxcursor', 'libxdamage', 'libxinerama', 'libxkbcommon', 'libxkbfile', 'libxrandr', 'pcsc-lite', 'sdl2_ttf']"
 reverse_depends = "['krdc', 'krdp']"
 +++
 ### Description: 

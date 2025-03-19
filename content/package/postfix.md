@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "postfix 3.10.1-1"
-version = "3.10.1-1"
+title = "postfix 3.10.1-2"
+version = "3.10.1-2"
 description = "A fast, easy to administer, and secure MTA"
-date = "2025-02-25T13:11:15"
+date = "2025-03-19T12:36:37"
 aliases = "/packages/3296"
 categories = ['network']
 upstreamurl = "https://www.postfix.org/"
 arch = "x86_64"
-size = "1489104"
-usize = "4905692"
-sha1sum = "2c767c7c076b5ad9c7acd2e6fbc09d40d4353b19"
-depends = "['cyrus-sasl>=2.1.26-3', 'icu4c>=76.1', 'libldap>=2.4.47-2', 'libnsl>=2.0.0', 'libpq>=11.2-2', 'lmdb', 'mariadb-libs>=10.3.14', 'openssl>=3.1.0', 'pcre>=8.30']"
+size = "1488988"
+usize = "4907332"
+sha1sum = "2251ae671ce2df7b283cd0e1e1f1045abf347f75"
+depends = "['cyrus-sasl>=2.1.26-3', 'icu4c>=77.1', 'libldap>=2.4.47-2', 'libnsl>=2.0.0', 'libpq>=11.2-2', 'lmdb', 'mariadb-libs>=10.3.14', 'openssl>=3.1.0', 'pcre>=8.30']"
 reverse_depends = "['arpwatch', 'postfixadmin']"
 +++
 ### Description: 

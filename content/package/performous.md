@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "performous 1.3.1-6"
-version = "1.3.1-6"
+title = "performous 1.3.1-7"
+version = "1.3.1-7"
 description = "PerformousThe free Linux karaoke game"
-date = "2025-01-21T16:03:54"
+date = "2025-03-19T15:15:39"
 aliases = "/packages/217751"
 categories = ['games-extra']
 upstreamurl = "http://performous.org/"
 arch = "x86_64"
-size = "48148988"
-usize = "59023992"
-sha1sum = "9f95abd3f6ba1482eebb50a8b28d55aad1fe5b02"
+size = "48149092"
+usize = "59031296"
+sha1sum = "8077dcd72c74919166abc5a74c895b622cbe5a5d"
 depends = "['aubio', 'fmtlib>=11.0.1', 'glm', 'libboost>=1.87.0', 'libepoxy', 'libxml++2', 'nlohmann-json', 'openblas', 'opencv>=4.11.0', 'performous-songs', 'portaudio', 'portmidi']"
 +++
 ### Description: 

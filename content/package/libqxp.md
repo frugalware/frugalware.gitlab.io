@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libqxp 0.0.2-15"
-version = "0.0.2-15"
+title = "libqxp 0.0.2-16"
+version = "0.0.2-16"
 description = "A library that parses t5he file format of QuarkXPress documents."
-date = "2024-10-30T21:25:47"
+date = "2025-03-19T13:26:52"
 aliases = "/packages/219540"
 categories = ['xoffice']
 upstreamurl = "https://wiki.documentfoundation.org/DLP/Libraries/libqxp"
 arch = "x86_64"
-size = "123992"
-usize = "384396"
-sha1sum = "ac77446d744ca28c06ec31c3a0f242324e33c2f2"
+size = "124836"
+usize = "388252"
+sha1sum = "2e88cb98f77d77bfb7270539af4f243cf99f24e4"
 depends = "['librevenge']"
 reverse_depends = "['libreoffice', 'scribus']"
 +++

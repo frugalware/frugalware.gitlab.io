@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "postgresql-extras 17.4-1"
-version = "17.4-1"
+title = "postgresql-extras 17.4-2"
+version = "17.4-2"
 description = "PostgreSQL extra tools"
-date = "2025-02-21T08:41:32"
+date = "2025-03-19T12:47:58"
 aliases = "/packages/14944"
 categories = ['apps-extra']
 upstreamurl = "http://www.postgresql.org/"
 arch = "x86_64"
-size = "488316"
-usize = "2013017"
-sha1sum = "77cb1aca48c6d670aa08fe4281d74e2f3b046c37"
+size = "487968"
+usize = "2013593"
+sha1sum = "97addd818ac9e217e1021a5ddda3913cd5ce4d2e"
 depends = "['libpq>=17.4', 'libxml2>=2.9.4-3', 'openssl>=3.0.7', 'python3>=3.13']"
 +++
 ### Description: 

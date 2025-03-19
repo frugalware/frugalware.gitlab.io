@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "freeciv-gtk3 3.1.4-2"
-version = "3.1.4-2"
+title = "freeciv-gtk3 3.1.4-3"
+version = "3.1.4-3"
 description = "GTK+3 client for freeciv"
-date = "2025-02-03T21:48:47"
+date = "2025-03-19T13:49:00"
 aliases = "/packages/217365"
 categories = ['games-extra']
 upstreamurl = "http://freeciv.wikia.com/wiki/Main_Page"
 arch = "x86_64"
-size = "1324264"
-usize = "2594962"
-sha1sum = "272065d9569e91ac03bd944caceb6d899a0604f8"
+size = "1324680"
+usize = "2595106"
+sha1sum = "cb9e112b49df6134a931d2a2686f0314de012c63"
 depends = "['freeciv', 'gtk+3']"
 +++
 ### Description: 

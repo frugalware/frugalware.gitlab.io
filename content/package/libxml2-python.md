@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libxml2-python 2.13.6-1"
-version = "2.13.6-1"
+title = "libxml2-python 2.13.6-2"
+version = "2.13.6-2"
 description = "Python bindings for libxml2"
-date = "2025-02-19T09:14:01"
+date = "2025-03-18T21:08:20"
 aliases = "/packages/217494"
 categories = ['devel']
 upstreamurl = "https://gitlab.gnome.org/GNOME/libxml2/-/wikis/home"
 arch = "x86_64"
-size = "210392"
-usize = "2131791"
-sha1sum = "a8ca0650b39fe89d929e3a364d25ba5aa0a0459d"
+size = "209784"
+usize = "2131799"
+sha1sum = "a502f1e8eff776efa985c195f4fea9b738e0118a"
 depends = "['libxml2=2.13.6', 'python3>=3.13']"
 reverse_depends = "['itstool']"
 +++

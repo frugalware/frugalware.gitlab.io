@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-icu4c 76.1-1"
-version = "76.1-1"
+title = "lib32-icu4c 77.1-1"
+version = "77.1-1"
 description = "International Components for Unicode library ( 32bit )"
-date = "2024-10-27T15:36:41"
+date = "2025-03-18T20:23:51"
 aliases = "/packages/218972"
 categories = ['lib32-extra']
 upstreamurl = "http://site.icu-project.org/"
 arch = "x86_64"
-size = "10661152"
-usize = "44089530"
-sha1sum = "c4c43814c7f6edf22cebc432e797f35a074664bb"
+size = "10685556"
+usize = "44183917"
+sha1sum = "d2b7e479539394d59cc5b2243c161420bfe70aed"
 depends = "[]"
 reverse_depends = "['lib32-harfbuzz', 'lib32-libxml2']"
 +++
@@ -238,29 +238,29 @@ International Components for Unicode library ( 32bit )
 * /usr/i686-frugalware-linux/sbin/gennorm2
 * /usr/i686-frugalware-linux/sbin/gensprep
 * /usr/i686-frugalware-linux/sbin/icupkg
-* /usr/lib32/icu/76.1/Makefile.inc
-* /usr/lib32/icu/76.1/pkgdata.inc
+* /usr/lib32/icu/77.1/Makefile.inc
+* /usr/lib32/icu/77.1/pkgdata.inc
 * /usr/lib32/icu/current
 * /usr/lib32/icu/Makefile.inc
 * /usr/lib32/icu/pkgdata.inc
 * /usr/lib32/libicudata.so
-* /usr/lib32/libicudata.so.76
-* /usr/lib32/libicudata.so.76.1
+* /usr/lib32/libicudata.so.77
+* /usr/lib32/libicudata.so.77.1
 * /usr/lib32/libicui18n.so
-* /usr/lib32/libicui18n.so.76
-* /usr/lib32/libicui18n.so.76.1
+* /usr/lib32/libicui18n.so.77
+* /usr/lib32/libicui18n.so.77.1
 * /usr/lib32/libicuio.so
-* /usr/lib32/libicuio.so.76
-* /usr/lib32/libicuio.so.76.1
+* /usr/lib32/libicuio.so.77
+* /usr/lib32/libicuio.so.77.1
 * /usr/lib32/libicutest.so
-* /usr/lib32/libicutest.so.76
-* /usr/lib32/libicutest.so.76.1
+* /usr/lib32/libicutest.so.77
+* /usr/lib32/libicutest.so.77.1
 * /usr/lib32/libicutu.so
-* /usr/lib32/libicutu.so.76
-* /usr/lib32/libicutu.so.76.1
+* /usr/lib32/libicutu.so.77
+* /usr/lib32/libicutu.so.77.1
 * /usr/lib32/libicuuc.so
-* /usr/lib32/libicuuc.so.76
-* /usr/lib32/libicuuc.so.76.1
+* /usr/lib32/libicuuc.so.77
+* /usr/lib32/libicuuc.so.77.1
 * /usr/lib32/pkgconfig/icu-i18n.pc
 * /usr/lib32/pkgconfig/icu-io.pc
 * /usr/lib32/pkgconfig/icu-uc.pc

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libvisio 0.1.8-1"
-version = "0.1.8-1"
+title = "libvisio 0.1.8-2"
+version = "0.1.8-2"
 description = "libvisio import filter library"
-date = "2024-11-19T08:33:16"
+date = "2025-03-19T13:27:56"
 aliases = "/packages/136795"
 categories = ['xoffice']
 upstreamurl = "https://wiki.documentfoundation.org/DLP/Libraries/libvisio"
 arch = "x86_64"
-size = "304968"
-usize = "980665"
-sha1sum = "7ed4372469770665fd5afbb5573c05d2b23a21f4"
-depends = "['icu4c>=76.1', 'libwpd>=0.10.1-4', 'libwpg>=0.3.1-4', 'libxml2']"
+size = "306236"
+usize = "989313"
+sha1sum = "8443c8f1c5b8d5fdba626439c9422a25fb405620"
+depends = "['icu4c>=77.1', 'libwpd>=0.10.1-4', 'libwpg>=0.3.1-4', 'libxml2']"
 reverse_depends = "['inkscape', 'libreoffice', 'scribus']"
 +++
 ### Description: 

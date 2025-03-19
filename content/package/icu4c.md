@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "icu4c 76.1-1"
-version = "76.1-1"
+title = "icu4c 77.1-1"
+version = "77.1-1"
 description = "International Components for Unicode library"
-date = "2024-10-27T15:36:41"
+date = "2025-03-18T20:23:51"
 aliases = "/packages/60701"
 categories = ['lib']
 upstreamurl = "http://site.icu-project.org/"
 arch = "x86_64"
-size = "10661524"
-usize = "44070366"
-sha1sum = "341cf93dfd30a2563a9f62a7d2fcb05abf246f00"
+size = "10676332"
+usize = "44158173"
+sha1sum = "6c7d61a83c198f5906c6cdd018889e9972735aa6"
 depends = "['libstdc++>=11.2']"
-reverse_depends = "['blender', 'calamares-frugalware', 'calibre', 'darktable', 'dovecot', 'freeciv', 'freerdp', 'freerdp2', 'grpc', 'gspell', 'harfbuzz-icu', 'harfbuzz-utils', 'kdeplasma-addons', 'libboost', 'libcdr', 'libe-book', 'libical', 'liblcf', 'libmspub', 'libphonenumber', 'libqalculate', 'libsmbclient', 'libvisio', 'libxml2', 'libzmf', 'mpd', 'ncmpcpp', 'netpbm', 'nodejs', 'nodejs20', 'openttd', 'poedit', 'postfix', 'postgresql', 'qt5-base', 'qt5-location', 'qt5-webengine', 'qt6-5compat', 'qt6-base', 'qt6-webengine', 'r', 're2', 'rspamd', 'scribus', 'texlive', 'thunderbird', 'vte3', 'xerces-c', 'xfsprogs', 'znc']"
+reverse_depends = "['blender', 'calamares-frugalware', 'calibre', 'darktable', 'dovecot', 'freeciv', 'freerdp', 'freerdp2', 'grpc', 'gspell', 'harfbuzz-icu', 'harfbuzz-utils', 'kdeplasma-addons', 'libboost', 'libcdr', 'libe-book', 'libical', 'libiio', 'liblcf', 'libmspub', 'libphonenumber', 'libqalculate', 'libsmbclient', 'libvisio', 'libxml2', 'libzmf', 'mpd', 'ncmpcpp', 'netpbm', 'nodejs', 'nodejs20', 'openttd', 'poedit', 'postfix', 'postgresql', 'qt5-base', 'qt5-location', 'qt5-webengine', 'qt6-5compat', 'qt6-base', 'qt6-webengine', 'r', 're2', 'rspamd', 'scribus', 'texlive', 'thunderbird', 'vte3', 'xerces-c', 'xfsprogs', 'znc']"
 license = "ICU"
 +++
 ### Description: 
@@ -240,37 +240,37 @@ International Components for Unicode library
 * /usr/include/unicode/uvernum.h
 * /usr/include/unicode/uversion.h
 * /usr/include/unicode/vtzone.h
-* /usr/lib/icu/76.1/Makefile.inc
-* /usr/lib/icu/76.1/pkgdata.inc
+* /usr/lib/icu/77.1/Makefile.inc
+* /usr/lib/icu/77.1/pkgdata.inc
 * /usr/lib/icu/current
 * /usr/lib/icu/Makefile.inc
 * /usr/lib/icu/pkgdata.inc
 * /usr/lib/libicudata.so
-* /usr/lib/libicudata.so.76
-* /usr/lib/libicudata.so.76.1
+* /usr/lib/libicudata.so.77
+* /usr/lib/libicudata.so.77.1
 * /usr/lib/libicui18n.so
-* /usr/lib/libicui18n.so.76
-* /usr/lib/libicui18n.so.76.1
+* /usr/lib/libicui18n.so.77
+* /usr/lib/libicui18n.so.77.1
 * /usr/lib/libicuio.so
-* /usr/lib/libicuio.so.76
-* /usr/lib/libicuio.so.76.1
+* /usr/lib/libicuio.so.77
+* /usr/lib/libicuio.so.77.1
 * /usr/lib/libicutest.so
-* /usr/lib/libicutest.so.76
-* /usr/lib/libicutest.so.76.1
+* /usr/lib/libicutest.so.77
+* /usr/lib/libicutest.so.77.1
 * /usr/lib/libicutu.so
-* /usr/lib/libicutu.so.76
-* /usr/lib/libicutu.so.76.1
+* /usr/lib/libicutu.so.77
+* /usr/lib/libicutu.so.77.1
 * /usr/lib/libicuuc.so
-* /usr/lib/libicuuc.so.76
-* /usr/lib/libicuuc.so.76.1
+* /usr/lib/libicuuc.so.77
+* /usr/lib/libicuuc.so.77.1
 * /usr/lib/pkgconfig/icu-i18n.pc
 * /usr/lib/pkgconfig/icu-io.pc
 * /usr/lib/pkgconfig/icu-uc.pc
-* /usr/share/doc/icu4c-76.1/LICENSE
-* /usr/share/icu/76.1/config/mh-linux
-* /usr/share/icu/76.1/install-sh
-* /usr/share/icu/76.1/LICENSE
-* /usr/share/icu/76.1/mkinstalldirs
+* /usr/share/doc/icu4c-77.1/LICENSE
+* /usr/share/icu/77.1/config/mh-linux
+* /usr/share/icu/77.1/install-sh
+* /usr/share/icu/77.1/LICENSE
+* /usr/share/icu/77.1/mkinstalldirs
 * /usr/share/man/man1/derb.1.gz
 * /usr/share/man/man1/genbrk.1.gz
 * /usr/share/man/man1/gencfu.1.gz

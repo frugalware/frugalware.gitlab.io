@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-szl 25.2.1.2-3"
-version = "25.2.1.2-3"
+title = "libreoffice-l10n-szl 25.2.1.2-4"
+version = "25.2.1.2-4"
 description = "Installs Silesian support in LibreOffice"
-date = "2025-03-14T16:56:34"
+date = "2025-03-19T16:31:02"
 aliases = "/packages/219897"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "513840"
+size = "513752"
 usize = "2670755"
-sha1sum = "b21af0881f984c40935e147b88ad8a91c5992ed2"
+sha1sum = "cc848bcf5aa1a80ea9ebb9c372a160f4d363ede5"
 depends = "['libreoffice>=25.2.1.2']"
 +++
 ### Description: 

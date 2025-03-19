@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "neochat 24.12.3-1"
-version = "24.12.3-1"
+title = "neochat 24.12.3-2"
+version = "24.12.3-2"
 description = "A client for matrix, the decentralized communication protocol"
-date = "2025-03-10T13:25:37"
+date = "2025-03-19T15:10:58"
 aliases = "/packages/220990"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1866216"
+size = "1868676"
 usize = "9862526"
-sha1sum = "47857072eb6bc37045a5307da9977615ae1f9652"
+sha1sum = "13a5c26b33f59e899de076736fa414af5ce6751f"
 depends = "['cmark>=0.31.1', 'kio', 'kirigami-addons', 'kitemmodels', 'kquickimageeditor', 'kstatusnotifieritem', 'kunifiedpush', 'libquotient>=0.9.0', 'prison', 'purpose', 'qqc2-desktop-style', 'qt6-location', 'qt6-webview', 'syntax-highlighting']"
 +++
 ### Description: 

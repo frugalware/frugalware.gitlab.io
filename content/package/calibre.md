@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "calibre 7.24.0-1"
-version = "7.24.0-1"
+title = "calibre 7.26.0-1"
+version = "7.26.0-1"
 description = "Ebook management application"
-date = "2025-02-04T17:38:12"
+date = "2025-03-19T14:02:41"
 aliases = "/packages/219010"
 categories = ['xapps-extra']
 upstreamurl = "https://calibre-ebook.com"
 arch = "x86_64"
-size = "27123408"
-usize = "67156906"
-sha1sum = "058c50b52049ea8a50e61582a62ce4f1583f8659"
-depends = "['html5lib-python', 'hunspell', 'hyphen', 'icu4c>=76.1', 'libmtp', 'libstemmer', 'mathjax', 'podofo>=0.10.1', 'pyqt6', 'pyqt6webengine', 'python3-apsw', 'python3-beautifulsoup4', 'python3-css-parser', 'python3-lxml', 'python3-mechanize', 'python3-pillow', 'python3-regex', 'qt6-svg', 'uchardet']"
+size = "27272448"
+usize = "67438072"
+sha1sum = "ab7e6bb2d380ffe5cd280625d994b4247e9b8ee2"
+depends = "['html5lib-python', 'hunspell', 'hyphen', 'icu4c>=77.1', 'libmtp', 'libstemmer', 'mathjax', 'podofo>=0.10.1', 'pyqt6', 'pyqt6webengine', 'python3-apsw', 'python3-beautifulsoup4', 'python3-css-parser', 'python3-lxml', 'python3-mechanize', 'python3-pillow', 'python3-regex', 'qt6-svg', 'uchardet']"
 +++
 ### Description: 
 Ebook management application
@@ -953,6 +953,28 @@ Ebook management application
 * /usr/lib/calibre/calibre/gui2/preferences/ignored_devices.py
 * /usr/lib/calibre/calibre/gui2/preferences/keyboard.py
 * /usr/lib/calibre/calibre/gui2/preferences/look_feel.py
+* /usr/lib/calibre/calibre/gui2/preferences/look_feel_tabs/book_details.py
+* /usr/lib/calibre/calibre/gui2/preferences/look_feel_tabs/book_details_ui.py
+* /usr/lib/calibre/calibre/gui2/preferences/look_feel_tabs/cover_grid.py
+* /usr/lib/calibre/calibre/gui2/preferences/look_feel_tabs/cover_grid_ui.py
+* /usr/lib/calibre/calibre/gui2/preferences/look_feel_tabs/cover_view.py
+* /usr/lib/calibre/calibre/gui2/preferences/look_feel_tabs/cover_view_ui.py
+* /usr/lib/calibre/calibre/gui2/preferences/look_feel_tabs/edit_metadata.py
+* /usr/lib/calibre/calibre/gui2/preferences/look_feel_tabs/edit_metadata_ui.py
+* /usr/lib/calibre/calibre/gui2/preferences/look_feel_tabs/main_interface.py
+* /usr/lib/calibre/calibre/gui2/preferences/look_feel_tabs/main_interface_ui.py
+* /usr/lib/calibre/calibre/gui2/preferences/look_feel_tabs/quickview.py
+* /usr/lib/calibre/calibre/gui2/preferences/look_feel_tabs/quickview_ui.py
+* /usr/lib/calibre/calibre/gui2/preferences/look_feel_tabs/tb_display.py
+* /usr/lib/calibre/calibre/gui2/preferences/look_feel_tabs/tb_display_ui.py
+* /usr/lib/calibre/calibre/gui2/preferences/look_feel_tabs/tb_hierarchy.py
+* /usr/lib/calibre/calibre/gui2/preferences/look_feel_tabs/tb_hierarchy_ui.py
+* /usr/lib/calibre/calibre/gui2/preferences/look_feel_tabs/tb_icon_rules.py
+* /usr/lib/calibre/calibre/gui2/preferences/look_feel_tabs/tb_icon_rules_ui.py
+* /usr/lib/calibre/calibre/gui2/preferences/look_feel_tabs/tb_partitioning.py
+* /usr/lib/calibre/calibre/gui2/preferences/look_feel_tabs/tb_partitioning_ui.py
+* /usr/lib/calibre/calibre/gui2/preferences/look_feel_tabs/tb_quickview_ui.py
+* /usr/lib/calibre/calibre/gui2/preferences/look_feel_tabs/__init__.py
 * /usr/lib/calibre/calibre/gui2/preferences/look_feel_ui.py
 * /usr/lib/calibre/calibre/gui2/preferences/main.py
 * /usr/lib/calibre/calibre/gui2/preferences/metadata_sources.py
@@ -1545,19 +1567,6 @@ Ebook management application
 * /usr/share/applications/calibre-ebook-viewer.desktop
 * /usr/share/applications/calibre-gui.desktop
 * /usr/share/applications/calibre-lrfviewer.desktop
-* /usr/share/bash-completion/completions/calibre
-* /usr/share/bash-completion/completions/calibre-debug
-* /usr/share/bash-completion/completions/calibre-server
-* /usr/share/bash-completion/completions/calibre-smtp
-* /usr/share/bash-completion/completions/ebook-convert
-* /usr/share/bash-completion/completions/ebook-device
-* /usr/share/bash-completion/completions/ebook-edit
-* /usr/share/bash-completion/completions/ebook-meta
-* /usr/share/bash-completion/completions/ebook-polish
-* /usr/share/bash-completion/completions/ebook-viewer
-* /usr/share/bash-completion/completions/fetch-ebook-metadata
-* /usr/share/bash-completion/completions/lrf2lrs
-* /usr/share/bash-completion/completions/lrfviewer
 * /usr/share/calibre/builtin_recipes.xml
 * /usr/share/calibre/builtin_recipes.zip
 * /usr/share/calibre/calibre-ebook-root-CA.crt
@@ -1941,10 +1950,10 @@ Ebook management application
 * /usr/share/calibre/user-manual-translation-stats.json
 * /usr/share/calibre/viewer.html
 * /usr/share/calibre/viewer.js
-* /usr/share/doc/calibre-7.24.0/COPYRIGHT
-* /usr/share/doc/calibre-7.24.0/INSTALL.rst
-* /usr/share/doc/calibre-7.24.0/LICENSE
-* /usr/share/doc/calibre-7.24.0/README.md
+* /usr/share/doc/calibre-7.26.0/COPYRIGHT
+* /usr/share/doc/calibre-7.26.0/INSTALL.rst
+* /usr/share/doc/calibre-7.26.0/LICENSE
+* /usr/share/doc/calibre-7.26.0/README.md
 * /usr/share/icons/hicolor/128x128/apps/calibre-ebook-edit.png
 * /usr/share/icons/hicolor/128x128/apps/calibre-gui.png
 * /usr/share/icons/hicolor/128x128/apps/calibre-viewer.png

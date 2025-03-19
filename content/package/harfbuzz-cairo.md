@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "harfbuzz-cairo 10.4.0-1"
-version = "10.4.0-1"
+title = "harfbuzz-cairo 10.4.0-2"
+version = "10.4.0-2"
 description = "Is an implementation of the OpenType Layout engine. Cairo"
-date = "2025-03-01T11:01:43"
+date = "2025-03-18T22:28:39"
 aliases = "/packages/221461"
 categories = ['xlib-extra']
 upstreamurl = "https://github.com/harfbuzz/harfbuzz"
 arch = "x86_64"
-size = "23724"
-usize = "42947"
-sha1sum = "721ffa576452b6eba0235e60347d83d9ea5fa575"
+size = "23660"
+usize = "42899"
+sha1sum = "839b3443830ea4d9f81d8e81b54e5c53f7c768db"
 depends = "['cairo']"
 +++
 ### Description: 
