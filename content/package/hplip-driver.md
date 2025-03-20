@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "hplip-driver 3.24.4-2"
-version = "3.24.4-2"
+title = "hplip-driver 3.25.2-1"
+version = "3.25.2-1"
 description = "HPLIP printing, scanning, and scanning driver for HP inkjet and laser based printers."
-date = "2024-11-03T14:07:55"
+date = "2025-03-20T12:23:39"
 aliases = "/packages/88588"
 categories = ['apps-extra']
 upstreamurl = "https://sourceforge.net/projects/hplip"
 arch = "x86_64"
-size = "15863592"
-usize = "22842636"
-sha1sum = "63480d9d56d309377edec1363a82a7d3c4aa2da5"
+size = "15969744"
+usize = "22985370"
+sha1sum = "caf1b3a616cd6c26791859781fecc2de7aad92b1"
 depends = "['cups-filters', 'foomatic-db', 'foomatic-db-engine', 'ghostscript', 'libcups>=2.1.2-2', 'libjpeg-turbo', 'libusb1>=1.0.20-4', 'net-snmp>=5.9']"
 reverse_depends = "['hplip']"
 +++
@@ -248,6 +248,7 @@ HPLIP printing, scanning, and scanning driver for HP inkjet and laser based prin
 * /usr/share/cups/model/HP/hp-color_laserjet_mfp_5800-ps.ppd.gz
 * /usr/share/cups/model/HP/hp-color_laserjet_mfp_6800-ps.ppd.gz
 * /usr/share/cups/model/HP/hp-color_laserjet_mfp_6801-ps.ppd.gz
+* /usr/share/cups/model/HP/hp-color_laserjet_mfp_8801-ps.ppd.gz
 * /usr/share/cups/model/HP/hp-color_laserjet_mfp_e47528-ps.ppd.gz
 * /usr/share/cups/model/HP/hp-color_laserjet_mfp_e57540-ps.ppd.gz
 * /usr/share/cups/model/HP/hp-color_laserjet_mfp_e77422-ps.ppd.gz
@@ -747,6 +748,7 @@ HPLIP printing, scanning, and scanning driver for HP inkjet and laser based prin
 * /usr/share/cups/model/HP/hp-laserjet_8150_mfp-ps.ppd.gz
 * /usr/share/cups/model/HP/hp-laserjet_8150_mfp.ppd.gz
 * /usr/share/cups/model/HP/hp-laserjet_8150_series-pcl3.ppd.gz
+* /usr/share/cups/model/HP/hp-laserjet_8501-ps.ppd.gz
 * /usr/share/cups/model/HP/hp-laserjet_9000_mfp-pcl3.ppd.gz
 * /usr/share/cups/model/HP/hp-laserjet_9000_mfp-ps.ppd.gz
 * /usr/share/cups/model/HP/hp-laserjet_9000_series-pcl3.ppd.gz
@@ -843,6 +845,7 @@ HPLIP printing, scanning, and scanning driver for HP inkjet and laser based prin
 * /usr/share/cups/model/HP/hp-laserjet_m9050_mfp-ps.ppd.gz
 * /usr/share/cups/model/HP/hp-laserjet_m9059_mfp-pcl3.ppd.gz
 * /usr/share/cups/model/HP/hp-laserjet_m9059_mfp-ps.ppd.gz
+* /usr/share/cups/model/HP/hp-laserjet_mfp_8601-ps.ppd.gz
 * /usr/share/cups/model/HP/hp-laserjet_mfp_e42540-ps.ppd.gz
 * /usr/share/cups/model/HP/hp-laserjet_mfp_e72425-ps.ppd.gz
 * /usr/share/cups/model/HP/hp-laserjet_mfp_e72430-ps.ppd.gz

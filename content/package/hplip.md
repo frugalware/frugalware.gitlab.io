@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "hplip 3.24.4-2"
-version = "3.24.4-2"
+title = "hplip 3.25.2-1"
+version = "3.25.2-1"
 description = "HPLIP is an HP developed solution for printing, scanning, and faxing with HP inkjet and laser based printers in Linux."
-date = "2024-11-03T14:07:55"
+date = "2025-03-20T12:23:39"
 aliases = "/packages/9747"
 categories = ['apps-extra']
 upstreamurl = "https://sourceforge.net/projects/hplip"
 arch = "x86_64"
-size = "7310412"
-usize = "12910525"
-sha1sum = "94bbfa984ea9339114c2c1c525b0840154dcc70e"
-depends = "['hplip-driver>=3.24.4', 'libcups>=2.2', 'libusb1', 'pygobject3-cairo', 'pyqt5', 'python3-distro', 'rpcbind', 'sane-backends>=1.0.25-2']"
+size = "7320608"
+usize = "12998489"
+sha1sum = "68a3190e5fee45f7f73d02e5ea7f41823f51a448"
+depends = "['hplip-driver>=3.25.2', 'libcups>=2.2', 'libusb1', 'pygobject3-cairo', 'pyqt5', 'python3-distro', 'rpcbind', 'sane-backends>=1.0.25-2']"
 +++
 ### Description: 
 HPLIP is an HP developed solution for printing, scanning, and faxing with HP inkjet and laser based printers in Linux.
@@ -63,45 +63,46 @@ HPLIP is an HP developed solution for printing, scanning, and faxing with HP ink
 * /usr/lib/libhpipp.so.0.0.1
 * /usr/lib/python3.13/site-packages/cupsext.so
 * /usr/lib/python3.13/site-packages/hpmudext.so
+* /usr/lib/python3.13/site-packages/pcardext.so
 * /usr/lib/python3.13/site-packages/scanext.so
 * /usr/lib/systemd/system/hplip-printer@.service
 * /usr/lib/x86_64-linux-gnu
 * /usr/share/applications/hp-uiscan.desktop
 * /usr/share/applications/hplip.desktop
-* /usr/share/doc/hplip-3.24.4/commandline.html
-* /usr/share/doc/hplip-3.24.4/COPYING
-* /usr/share/doc/hplip-3.24.4/copying.html
-* /usr/share/doc/hplip-3.24.4/copyright
-* /usr/share/doc/hplip-3.24.4/devicemanager.html
-* /usr/share/doc/hplip-3.24.4/faxtrouble.html
-* /usr/share/doc/hplip-3.24.4/gettinghelp.html
-* /usr/share/doc/hplip-3.24.4/hpscan.html
-* /usr/share/doc/hplip-3.24.4/images/favicon.ico
-* /usr/share/doc/hplip-3.24.4/images/print.png
-* /usr/share/doc/hplip-3.24.4/images/toolbox_actions.png
-* /usr/share/doc/hplip-3.24.4/images/toolbox_fax.png
-* /usr/share/doc/hplip-3.24.4/images/toolbox_print_control.png
-* /usr/share/doc/hplip-3.24.4/images/toolbox_print_settings.png
-* /usr/share/doc/hplip-3.24.4/images/toolbox_status.png
-* /usr/share/doc/hplip-3.24.4/images/toolbox_supplies.png
-* /usr/share/doc/hplip-3.24.4/images/xsane.png
-* /usr/share/doc/hplip-3.24.4/index.html
-* /usr/share/doc/hplip-3.24.4/mainttask.html
-* /usr/share/doc/hplip-3.24.4/plugins.html
-* /usr/share/doc/hplip-3.24.4/print.html
-* /usr/share/doc/hplip-3.24.4/printing.html
-* /usr/share/doc/hplip-3.24.4/printoptions.html
-* /usr/share/doc/hplip-3.24.4/printtroubleshooting.html
-* /usr/share/doc/hplip-3.24.4/README_LIBJPG
-* /usr/share/doc/hplip-3.24.4/scanning.html
-* /usr/share/doc/hplip-3.24.4/scantrouble.html
-* /usr/share/doc/hplip-3.24.4/sendfax.html
-* /usr/share/doc/hplip-3.24.4/setup.html
-* /usr/share/doc/hplip-3.24.4/styles/css.css
-* /usr/share/doc/hplip-3.24.4/systray.html
-* /usr/share/doc/hplip-3.24.4/troubleshooting.html
-* /usr/share/doc/hplip-3.24.4/uninstalling.html
-* /usr/share/doc/hplip-3.24.4/upgrading.html
+* /usr/share/doc/hplip-3.25.2/commandline.html
+* /usr/share/doc/hplip-3.25.2/COPYING
+* /usr/share/doc/hplip-3.25.2/copying.html
+* /usr/share/doc/hplip-3.25.2/copyright
+* /usr/share/doc/hplip-3.25.2/devicemanager.html
+* /usr/share/doc/hplip-3.25.2/faxtrouble.html
+* /usr/share/doc/hplip-3.25.2/gettinghelp.html
+* /usr/share/doc/hplip-3.25.2/hpscan.html
+* /usr/share/doc/hplip-3.25.2/images/favicon.ico
+* /usr/share/doc/hplip-3.25.2/images/print.png
+* /usr/share/doc/hplip-3.25.2/images/toolbox_actions.png
+* /usr/share/doc/hplip-3.25.2/images/toolbox_fax.png
+* /usr/share/doc/hplip-3.25.2/images/toolbox_print_control.png
+* /usr/share/doc/hplip-3.25.2/images/toolbox_print_settings.png
+* /usr/share/doc/hplip-3.25.2/images/toolbox_status.png
+* /usr/share/doc/hplip-3.25.2/images/toolbox_supplies.png
+* /usr/share/doc/hplip-3.25.2/images/xsane.png
+* /usr/share/doc/hplip-3.25.2/index.html
+* /usr/share/doc/hplip-3.25.2/mainttask.html
+* /usr/share/doc/hplip-3.25.2/plugins.html
+* /usr/share/doc/hplip-3.25.2/print.html
+* /usr/share/doc/hplip-3.25.2/printing.html
+* /usr/share/doc/hplip-3.25.2/printoptions.html
+* /usr/share/doc/hplip-3.25.2/printtroubleshooting.html
+* /usr/share/doc/hplip-3.25.2/README_LIBJPG
+* /usr/share/doc/hplip-3.25.2/scanning.html
+* /usr/share/doc/hplip-3.25.2/scantrouble.html
+* /usr/share/doc/hplip-3.25.2/sendfax.html
+* /usr/share/doc/hplip-3.25.2/setup.html
+* /usr/share/doc/hplip-3.25.2/styles/css.css
+* /usr/share/doc/hplip-3.25.2/systray.html
+* /usr/share/doc/hplip-3.25.2/troubleshooting.html
+* /usr/share/doc/hplip-3.25.2/uninstalling.html
+* /usr/share/doc/hplip-3.25.2/upgrading.html
 * /usr/share/hplip/align.py
 * /usr/share/hplip/base/avahi.py
 * /usr/share/hplip/base/CdmWifi.py
