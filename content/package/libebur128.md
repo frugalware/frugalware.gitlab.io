@@ -12,7 +12,7 @@ size = "16168"
 usize = "50470"
 sha1sum = "9d8ac89d4cb109bca99ab29c1184b0b5126acc2f"
 depends = "['glibc>=2.34']"
-reverse_depends = "['easyeffects', 'mixxx', 'mlt']"
+reverse_depends = "['cantata', 'easyeffects', 'mixxx', 'mlt']"
 +++
 ### Description: 
 A library that implements the EBU R 128 standard for loudness normalisation.

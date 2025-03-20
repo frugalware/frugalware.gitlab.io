@@ -12,7 +12,7 @@ size = "744624"
 usize = "3829084"
 sha1sum = "7b42dc22c54571aa49ea1efc47ee755668488f9a"
 depends = "['gst1-plugins-bad>=1.10.3', 'gst1-plugins-base>=1.10.3', 'gst1-plugins-good>=1.10.3', 'libpulse', 'openal', 'qt5-declarative>=5.15.16']"
-reverse_depends = "['artikulate', 'eiskaltdc', 'hills', 'lumina-desktop', 'otter-browser', 'prison5', 'qt5-speech', 'quassel', 'retroshare', 'rolisteam']"
+reverse_depends = "['artikulate', 'cantata', 'eiskaltdc', 'hills', 'lumina-desktop', 'otter-browser', 'prison5', 'qt5-speech', 'quassel', 'retroshare', 'rolisteam']"
 +++
 ### Description: 
 The Qt5 toolkit, qtmultimedia

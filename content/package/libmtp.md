@@ -12,7 +12,7 @@ size = "229788"
 usize = "975567"
 sha1sum = "5bfa14576f466b7eb69363781302d48bbc56c48a"
 depends = "['libusb1>=1.0.20-5']"
-reverse_depends = "['android-udev', 'calibre', 'gvfs-mtp', 'kio-extras', 'vlc-mtp']"
+reverse_depends = "['android-udev', 'calibre', 'cantata', 'gvfs-mtp', 'kio-extras', 'vlc-mtp']"
 +++
 ### Description: 
 libmtp is an implementation of Microsoft's Media Transfer Protocol (MTP).

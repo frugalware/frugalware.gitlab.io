@@ -12,7 +12,7 @@ size = "22040"
 usize = "180270"
 sha1sum = "5fa5b40d0534d2442eedc5b1ca6749a311fb3c2a"
 depends = "[]"
-reverse_depends = "['solid', 'solid5']"
+reverse_depends = "['cantata', 'solid', 'solid5']"
 +++
 ### Description: 
 Data files describing media player capabilities, for post-HAL systems

@@ -12,7 +12,7 @@ size = "97536"
 usize = "230329"
 sha1sum = "4152b46073983384ceb367789e44d930045f3dbe"
 depends = "['perl>=5.34.0']"
-reverse_depends = "['perl-http-message', 'perl-io-socket-ssl', 'perl-mail-spf', 'perl-www-robotrules']"
+reverse_depends = "['cantata', 'perl-http-message', 'perl-io-socket-ssl', 'perl-mail-spf', 'perl-www-robotrules']"
 +++
 ### Description: 
 Uniform Resource Identifiers (absolute and relative)
