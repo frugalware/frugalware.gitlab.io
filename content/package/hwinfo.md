@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "hwinfo 23.3-1"
-version = "23.3-1"
+title = "hwinfo 23.4-1"
+version = "23.4-1"
 description = "Hardware detection tool from openSUSE"
-date = "2024-10-24T12:33:59"
+date = "2025-03-20T10:40:20"
 aliases = "/packages/220888"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/openSUSE/hwinfo"
 arch = "x86_64"
-size = "883060"
-usize = "3866351"
-sha1sum = "a983c81fcc4df00a80d564d48421cebac1f1c7a1"
+size = "882824"
+usize = "3867519"
+sha1sum = "4bbb14e0d088c92c89d07a909293b1e8a39f4dcf"
 depends = "['libx86emu', 'perl-xml-parser', 'perl-xml-writer']"
 reverse_depends = "['hw-probe']"
 +++
@@ -26,12 +26,12 @@ Hardware detection tool from openSUSE
 * /usr/include/hd.h
 * /usr/lib/libhd.so
 * /usr/lib/libhd.so.23
-* /usr/lib/libhd.so.23.3
+* /usr/lib/libhd.so.23.4
 * /usr/lib/pkgconfig/hwinfo.pc
-* /usr/share/doc/hwinfo-23.3/COPYING
-* /usr/share/doc/hwinfo-23.3/README-hwprobe.md
-* /usr/share/doc/hwinfo-23.3/README-legacy.md
-* /usr/share/doc/hwinfo-23.3/README.md
-* /usr/share/doc/hwinfo-23.3/VERSION
+* /usr/share/doc/hwinfo-23.4/COPYING
+* /usr/share/doc/hwinfo-23.4/README-hwprobe.md
+* /usr/share/doc/hwinfo-23.4/README-legacy.md
+* /usr/share/doc/hwinfo-23.4/README.md
+* /usr/share/doc/hwinfo-23.4/VERSION
 * /usr/share/hwinfo/ISDN.CDB.hwdb
 * /usr/share/hwinfo/ISDN.CDB.txt

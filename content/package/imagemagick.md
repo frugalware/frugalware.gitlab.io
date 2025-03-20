@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "imagemagick 7.1.1-29"
-version = "7.1.1-29"
+title = "imagemagick 7.1.1-30"
+version = "7.1.1-30"
 description = "A robust collection of tools and libraries to read, write and manipulate image files."
-date = "2025-03-13T15:55:04"
+date = "2025-03-20T10:36:41"
 aliases = "/packages/3097"
 categories = ['xapps']
 upstreamurl = "http://www.imagemagick.org"
 arch = "x86_64"
-size = "8574652"
-usize = "22334286"
-sha1sum = "cd61cd71c1b23789be68320a13c44c32909d7fe1"
+size = "8582172"
+usize = "22367735"
+sha1sum = "7fe51be06ddef4f67383181a7b28cfb074478ec2"
 depends = "['djvulibre>=3.5.27-4', 'fftw>=3.3.4-4', 'lcms2>=2.8-2', 'libgomp>=9.1.0-3', 'libheif', 'libjpeg-turbo', 'libraw>=0.21.1', 'librsvg>=2.40.16-3', 'libstdc++>=11.2', 'libtiff>=4.7.0', 'libtool>=2.4.6-4', 'libwebp>=0.5.0', 'openexr>=3.3.0', 'openjpeg', 'perl']"
 reverse_depends = "['darktable', 'emacs', 'inkscape', 'kitty', 'libvips', 'polychromatic', 'xine-lib']"
 +++
@@ -472,6 +472,10 @@ A robust collection of tools and libraries to read, write and manipulate image f
 * /usr/lib/pkgconfig/MagickWand.pc
 * /usr/share/doc/imagemagick-7.1.1/LICENSE
 * /usr/share/doc/imagemagick-7.1.1/README.md
+* /usr/share/doc/imagemagick-7.1.1/xsane-WIN32-README.txt
+* /usr/share/doc/imagemagick-7.1.1/xsane.BUGS
+* /usr/share/doc/imagemagick-7.1.1/xsane.COPYING
+* /usr/share/doc/imagemagick-7.1.1/xsane.FAQ
 * /usr/share/doc/ImageMagick-7/images/affine.png
 * /usr/share/doc/ImageMagick-7/images/annotate.png
 * /usr/share/doc/ImageMagick-7/images/arc.png

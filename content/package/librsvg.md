@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "librsvg 2.59.2-2"
-version = "2.59.2-2"
+title = "librsvg 2.60.0-1"
+version = "2.60.0-1"
 description = "A high performance SVG rendering library for GNOME"
-date = "2025-01-05T12:00:47"
+date = "2025-03-20T10:15:59"
 aliases = "/packages/3193"
 categories = ['xlib']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "5893780"
-usize = "24054060"
-sha1sum = "ccb99d732e14719e7b721db592c8b70bed718072"
+size = "6223064"
+usize = "25317853"
+sha1sum = "4a47d178f397e94cef8f7bbf8850e0c01c100644"
 depends = "['dav1d', 'gdk-pixbuf2>=2.36.11-3', 'libcroco>=0.6.12-4', 'pango>=1.42.0']"
 reverse_depends = "['efl', 'gegl', 'gnome-themes-extra', 'graphviz', 'imagemagick', 'libappimage', 'libvips', 'openscenegraph', 'thunderbird', 'usbguard-notifier', 'vlc-dts-ca', 'vlc-svg']"
 +++
@@ -28,13 +28,13 @@ A high performance SVG rendering library for GNOME
 * /usr/lib/girepository-1.0/Rsvg-2.0.typelib
 * /usr/lib/librsvg-2.so
 * /usr/lib/librsvg-2.so.2
-* /usr/lib/librsvg-2.so.2.59.2
+* /usr/lib/librsvg-2.so.2.60.0
 * /usr/lib/pkgconfig/librsvg-2.0.pc
-* /usr/share/doc/librsvg-2.59.2/AUTHORS
-* /usr/share/doc/librsvg-2.59.2/COPYING.LIB
-* /usr/share/doc/librsvg-2.59.2/INSTALL
-* /usr/share/doc/librsvg-2.59.2/NEWS
-* /usr/share/doc/librsvg-2.59.2/README.md
+* /usr/share/doc/librsvg-2.60.0/AUTHORS
+* /usr/share/doc/librsvg-2.60.0/COPYING.LIB
+* /usr/share/doc/librsvg-2.60.0/INSTALL
+* /usr/share/doc/librsvg-2.60.0/NEWS
+* /usr/share/doc/librsvg-2.60.0/README.md
 * /usr/share/doc/Rsvg-2.0/callback.SizeFunc.html
 * /usr/share/doc/Rsvg-2.0/class.Handle.html
 * /usr/share/doc/Rsvg-2.0/classes_hierarchy.html
