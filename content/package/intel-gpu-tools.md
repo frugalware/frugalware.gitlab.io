@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "intel-gpu-tools 1.30-2"
-version = "1.30-2"
+title = "intel-gpu-tools 2.0-1"
+version = "2.0-1"
 description = "X.Org intel-gpu-tools application"
-date = "2024-12-19T10:10:09"
+date = "2025-03-20T09:42:28"
 aliases = "/packages/61164"
 categories = ['x11']
 upstreamurl = "https://gitlab.freedesktop.org/drm/igt-gpu-tools"
 arch = "x86_64"
-size = "3436888"
-usize = "23421315"
-sha1sum = "a9496ecbf6431b93b3b9c42a15604d1a0dac5211"
-depends = "['cairo>=1.14.6-2', 'kmod', 'libdrm>=2.4.71', 'libudev', 'libunwind>=1.1-4', 'procps-ng>=4.0.5']"
+size = "3569112"
+usize = "23805150"
+sha1sum = "a9feee71cb442a76e570ecee6223f8cc70e6ee31"
+depends = "['alsa-lib', 'cairo>=1.14.6-2', 'curl', 'gsl', 'kmod', 'libdrm>=2.4.71', 'libudev', 'libunwind>=1.1-4', 'libxrandr', 'libxv', 'procps-ng>=4.0.5', 'xmlrpc-c']"
 +++
 ### Description: 
 X.Org intel-gpu-tools application
@@ -30,6 +30,8 @@ X.Org intel-gpu-tools application
 * /usr/bin/i915-perf-reader
 * /usr/bin/i915-perf-recorder
 * /usr/bin/igt_comms_decoder
+* /usr/bin/igt_facts
+* /usr/bin/igt_power
 * /usr/bin/igt_results
 * /usr/bin/igt_resume
 * /usr/bin/igt_runner
@@ -40,6 +42,7 @@ X.Org intel-gpu-tools application
 * /usr/bin/intel_audio_dump
 * /usr/bin/intel_backlight
 * /usr/bin/intel_bios_dumper
+* /usr/bin/intel_display_bandwidth
 * /usr/bin/intel_display_crc
 * /usr/bin/intel_display_poller
 * /usr/bin/intel_dp_compliance
@@ -72,7 +75,6 @@ X.Org intel-gpu-tools application
 * /usr/bin/intel_watermark
 * /usr/bin/lsgpu
 * /usr/bin/msm_dp_compliance
-* /usr/bin/power
 * /usr/bin/xe-perf-configs
 * /usr/bin/xe-perf-control
 * /usr/bin/xe-perf-reader
@@ -302,7 +304,6 @@ X.Org intel-gpu-tools application
 * /usr/lib/intel-gpu-tools/igt-gpu-tools/i915_hangman
 * /usr/lib/intel-gpu-tools/igt-gpu-tools/i915_module_load
 * /usr/lib/intel-gpu-tools/igt-gpu-tools/i915_pciid
-* /usr/lib/intel-gpu-tools/igt-gpu-tools/i915_pipe_stress
 * /usr/lib/intel-gpu-tools/igt-gpu-tools/i915_pm_freq_api
 * /usr/lib/intel-gpu-tools/igt-gpu-tools/i915_pm_freq_mult
 * /usr/lib/intel-gpu-tools/igt-gpu-tools/i915_pm_rc6_residency
@@ -334,6 +335,11 @@ X.Org intel-gpu-tools application
 * /usr/lib/intel-gpu-tools/igt-gpu-tools/kms_bw
 * /usr/lib/intel-gpu-tools/igt-gpu-tools/kms_ccs
 * /usr/lib/intel-gpu-tools/igt-gpu-tools/kms_cdclk
+* /usr/lib/intel-gpu-tools/igt-gpu-tools/kms_chamelium_audio
+* /usr/lib/intel-gpu-tools/igt-gpu-tools/kms_chamelium_color
+* /usr/lib/intel-gpu-tools/igt-gpu-tools/kms_chamelium_edid
+* /usr/lib/intel-gpu-tools/igt-gpu-tools/kms_chamelium_frames
+* /usr/lib/intel-gpu-tools/igt-gpu-tools/kms_chamelium_hpd
 * /usr/lib/intel-gpu-tools/igt-gpu-tools/kms_color
 * /usr/lib/intel-gpu-tools/igt-gpu-tools/kms_concurrent
 * /usr/lib/intel-gpu-tools/igt-gpu-tools/kms_content_protection
@@ -345,9 +351,11 @@ X.Org intel-gpu-tools application
 * /usr/lib/intel-gpu-tools/igt-gpu-tools/kms_dither
 * /usr/lib/intel-gpu-tools/igt-gpu-tools/kms_dp_aux_dev
 * /usr/lib/intel-gpu-tools/igt-gpu-tools/kms_dp_linktrain_fallback
+* /usr/lib/intel-gpu-tools/igt-gpu-tools/kms_dp_link_training
 * /usr/lib/intel-gpu-tools/igt-gpu-tools/kms_draw_crc
 * /usr/lib/intel-gpu-tools/igt-gpu-tools/kms_dsc
 * /usr/lib/intel-gpu-tools/igt-gpu-tools/kms_fbcon_fbt
+* /usr/lib/intel-gpu-tools/igt-gpu-tools/kms_fbc_dirty_rect
 * /usr/lib/intel-gpu-tools/igt-gpu-tools/kms_fb_coherency
 * /usr/lib/intel-gpu-tools/igt-gpu-tools/kms_feature_discovery
 * /usr/lib/intel-gpu-tools/igt-gpu-tools/kms_fence_pin_leak
@@ -369,6 +377,7 @@ X.Org intel-gpu-tools application
 * /usr/lib/intel-gpu-tools/igt-gpu-tools/kms_panel_fitting
 * /usr/lib/intel-gpu-tools/igt-gpu-tools/kms_pipe_b_c_ivb
 * /usr/lib/intel-gpu-tools/igt-gpu-tools/kms_pipe_crc_basic
+* /usr/lib/intel-gpu-tools/igt-gpu-tools/kms_pipe_stress
 * /usr/lib/intel-gpu-tools/igt-gpu-tools/kms_plane
 * /usr/lib/intel-gpu-tools/igt-gpu-tools/kms_plane_alpha_blend
 * /usr/lib/intel-gpu-tools/igt-gpu-tools/kms_plane_cursor
@@ -473,11 +482,13 @@ X.Org intel-gpu-tools application
 * /usr/lib/intel-gpu-tools/igt-gpu-tools/xe_debugfs
 * /usr/lib/intel-gpu-tools/igt-gpu-tools/xe_dma_buf_sync
 * /usr/lib/intel-gpu-tools/igt-gpu-tools/xe_drm_fdinfo
+* /usr/lib/intel-gpu-tools/igt-gpu-tools/xe_eu_stall
 * /usr/lib/intel-gpu-tools/igt-gpu-tools/xe_evict
 * /usr/lib/intel-gpu-tools/igt-gpu-tools/xe_evict_ccs
 * /usr/lib/intel-gpu-tools/igt-gpu-tools/xe_exec_atomic
 * /usr/lib/intel-gpu-tools/igt-gpu-tools/xe_exec_balancer
 * /usr/lib/intel-gpu-tools/igt-gpu-tools/xe_exec_basic
+* /usr/lib/intel-gpu-tools/igt-gpu-tools/xe_exec_capture
 * /usr/lib/intel-gpu-tools/igt-gpu-tools/xe_exec_compute_mode
 * /usr/lib/intel-gpu-tools/igt-gpu-tools/xe_exec_fault_mode
 * /usr/lib/intel-gpu-tools/igt-gpu-tools/xe_exec_mix_modes
@@ -501,12 +512,15 @@ X.Org intel-gpu-tools application
 * /usr/lib/intel-gpu-tools/igt-gpu-tools/xe_pat
 * /usr/lib/intel-gpu-tools/igt-gpu-tools/xe_peer2peer
 * /usr/lib/intel-gpu-tools/igt-gpu-tools/xe_pm
+* /usr/lib/intel-gpu-tools/igt-gpu-tools/xe_pmu
 * /usr/lib/intel-gpu-tools/igt-gpu-tools/xe_pm_residency
 * /usr/lib/intel-gpu-tools/igt-gpu-tools/xe_prime_self_import
 * /usr/lib/intel-gpu-tools/igt-gpu-tools/xe_query
 * /usr/lib/intel-gpu-tools/igt-gpu-tools/xe_render_copy
 * /usr/lib/intel-gpu-tools/igt-gpu-tools/xe_spin_batch
+* /usr/lib/intel-gpu-tools/igt-gpu-tools/xe_sriov_auto_provisioning
 * /usr/lib/intel-gpu-tools/igt-gpu-tools/xe_sriov_flr
+* /usr/lib/intel-gpu-tools/igt-gpu-tools/xe_sriov_scheduling
 * /usr/lib/intel-gpu-tools/igt-gpu-tools/xe_sysfs_defaults
 * /usr/lib/intel-gpu-tools/igt-gpu-tools/xe_sysfs_preempt_timeout
 * /usr/lib/intel-gpu-tools/igt-gpu-tools/xe_sysfs_scheduler
@@ -524,9 +538,9 @@ X.Org intel-gpu-tools application
 * /usr/lib/pkgconfig/i915-perf.pc
 * /usr/lib/pkgconfig/intel-gen4asm.pc
 * /usr/lib/pkgconfig/xe-oa.pc
-* /usr/share/doc/intel-gpu-tools-1.30/COPYING
-* /usr/share/doc/intel-gpu-tools-1.30/NEWS
-* /usr/share/doc/intel-gpu-tools-1.30/README.md
+* /usr/share/doc/intel-gpu-tools-2.0/COPYING
+* /usr/share/doc/intel-gpu-tools-2.0/NEWS
+* /usr/share/doc/intel-gpu-tools-2.0/README.md
 * /usr/share/igt-gpu-tools/1080p-left.png
 * /usr/share/igt-gpu-tools/1080p-right.png
 * /usr/share/igt-gpu-tools/blacklist-pre-merge.txt

@@ -12,7 +12,7 @@ size = "1553972"
 usize = "4939427"
 sha1sum = "85dc559301cc2cbeb12bdfc06607d6f0b946e913"
 depends = "['libcblas']"
-reverse_depends = "['clight', 'easyeffects', 'enblend-enfuse', 'guvcview', 'inkscape', 'krita', 'kstars', 'labplot', 'stellarsolver', 'step']"
+reverse_depends = "['clight', 'easyeffects', 'enblend-enfuse', 'guvcview', 'inkscape', 'intel-gpu-tools', 'krita', 'kstars', 'labplot', 'stellarsolver', 'step']"
 +++
 ### Description: 
 The GNU Scientific Library (GSL) is a numerical library for C and C++ programmers.

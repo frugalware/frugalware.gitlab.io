@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "util-linux 2.40.4-1"
-version = "2.40.4-1"
+title = "util-linux 2.41-1"
+version = "2.41-1"
 description = "Miscellaneous system utilities for Linux"
-date = "2025-01-14T08:36:00"
+date = "2025-03-20T09:23:15"
 aliases = "/packages/118476"
 categories = ['base']
 upstreamurl = "http://www.kernel.org/pub/linux/utils/util-linux/"
 arch = "x86_64"
-size = "1942204"
-usize = "6734800"
-sha1sum = "17f9b5aab8baea117604b86549a14bb4163de257"
+size = "2014572"
+usize = "7084491"
+sha1sum = "148b131dc086079c098a0b733e6100350a45d9da"
 depends = "['libblkid', 'libcap-ng>=0.7.8-8', 'libsystemd', 'libudev', 'libuuid', 'libxcrypt', 'ncurses>=6.1-5', 'pam>=1.3.0-4', 'pcre2', 'readline>=8.0-3', 'sqlite3']"
 reverse_depends = "['dracut', 'e2fsprogs', 'efl', 'enlightenment', 'f2fs-tools', 'glib2', 'harfbuzz', 'kpmcore', 'lttng-ust', 'lttng-ust12', 'nilfs-utils', 'pacman-g2', 'pango', 'pulse-autoconf', 'scriptlet-core', 'syslinux', 'terminology', 'udisks2']"
 +++
@@ -25,6 +25,7 @@ Miscellaneous system utilities for Linux
 * /etc/sysconfig/numlock
 * /usr/bin/addpart
 * /usr/bin/agetty
+* /usr/bin/bits
 * /usr/bin/blkdiscard
 * /usr/bin/blkid
 * /usr/bin/blkpr
@@ -42,6 +43,7 @@ Miscellaneous system utilities for Linux
 * /usr/bin/colcrt
 * /usr/bin/colrm
 * /usr/bin/column
+* /usr/bin/coresched
 * /usr/bin/ctrlaltdel
 * /usr/bin/delpart
 * /usr/bin/dmesg
@@ -183,9 +185,11 @@ Miscellaneous system utilities for Linux
 * /usr/lib/systemd/system/uuidd.service
 * /usr/lib/systemd/system/uuidd.socket
 * /usr/lib/sysusers.d/util-linux.conf
-* /usr/lib/tmpfiles.d/lastlog2-tmpfiles.conf
-* /usr/lib/tmpfiles.d/uuidd-tmpfiles.conf
+* /usr/lib/sysusers.d/uuidd.conf
+* /usr/lib/tmpfiles.d/lastlog2.conf
+* /usr/lib/tmpfiles.d/uuidd.conf
 * /usr/share/bash-completion/completions/addpart
+* /usr/share/bash-completion/completions/bits
 * /usr/share/bash-completion/completions/blkdiscard
 * /usr/share/bash-completion/completions/blkid
 * /usr/share/bash-completion/completions/blkzone
@@ -195,12 +199,14 @@ Miscellaneous system utilities for Linux
 * /usr/share/bash-completion/completions/chcpu
 * /usr/share/bash-completion/completions/chfn
 * /usr/share/bash-completion/completions/chmem
+* /usr/share/bash-completion/completions/choom
 * /usr/share/bash-completion/completions/chrt
 * /usr/share/bash-completion/completions/chsh
 * /usr/share/bash-completion/completions/col
 * /usr/share/bash-completion/completions/colcrt
 * /usr/share/bash-completion/completions/colrm
 * /usr/share/bash-completion/completions/column
+* /usr/share/bash-completion/completions/coresched
 * /usr/share/bash-completion/completions/ctrlaltdel
 * /usr/share/bash-completion/completions/delpart
 * /usr/share/bash-completion/completions/dmesg
@@ -301,92 +307,88 @@ Miscellaneous system utilities for Linux
 * /usr/share/bash-completion/completions/wipefs
 * /usr/share/bash-completion/completions/write
 * /usr/share/bash-completion/completions/zramctl
-* /usr/share/doc/util-linux-2.40.4/00-about-docs.txt
-* /usr/share/doc/util-linux-2.40.4/AUTHORS
-* /usr/share/doc/util-linux-2.40.4/blkid.txt
-* /usr/share/doc/util-linux-2.40.4/boilerplate.c
-* /usr/share/doc/util-linux-2.40.4/cal.txt
-* /usr/share/doc/util-linux-2.40.4/ChangeLog
-* /usr/share/doc/util-linux-2.40.4/col.txt
-* /usr/share/doc/util-linux-2.40.4/COPYING
-* /usr/share/doc/util-linux-2.40.4/COPYING.md
-* /usr/share/doc/util-linux-2.40.4/deprecated.txt
-* /usr/share/doc/util-linux-2.40.4/example.files/filesystems
-* /usr/share/doc/util-linux-2.40.4/example.files/fstab
-* /usr/share/doc/util-linux-2.40.4/example.files/motd
-* /usr/share/doc/util-linux-2.40.4/example.files/securetty
-* /usr/share/doc/util-linux-2.40.4/example.files/shells
-* /usr/share/doc/util-linux-2.40.4/example.files/udev-raw.rules
-* /usr/share/doc/util-linux-2.40.4/getopt.txt
-* /usr/share/doc/util-linux-2.40.4/getopt_changelog.txt
-* /usr/share/doc/util-linux-2.40.4/howto-build-sys.txt
-* /usr/share/doc/util-linux-2.40.4/howto-compilation.txt
-* /usr/share/doc/util-linux-2.40.4/howto-contribute.txt
-* /usr/share/doc/util-linux-2.40.4/howto-debug.txt
-* /usr/share/doc/util-linux-2.40.4/howto-man-page.txt
-* /usr/share/doc/util-linux-2.40.4/howto-pull-request.txt
-* /usr/share/doc/util-linux-2.40.4/howto-tests.txt
-* /usr/share/doc/util-linux-2.40.4/howto-usage-function.txt
-* /usr/share/doc/util-linux-2.40.4/hwclock.txt
-* /usr/share/doc/util-linux-2.40.4/INSTALL.md
-* /usr/share/doc/util-linux-2.40.4/licenses/COPYING.BSD-2-Clause
-* /usr/share/doc/util-linux-2.40.4/licenses/COPYING.BSD-3-Clause
-* /usr/share/doc/util-linux-2.40.4/licenses/COPYING.BSD-4-Clause-UC
-* /usr/share/doc/util-linux-2.40.4/licenses/COPYING.GPL-2.0-only
-* /usr/share/doc/util-linux-2.40.4/licenses/COPYING.GPL-2.0-or-later
-* /usr/share/doc/util-linux-2.40.4/licenses/COPYING.GPL-3.0-or-later
-* /usr/share/doc/util-linux-2.40.4/licenses/COPYING.ISC
-* /usr/share/doc/util-linux-2.40.4/licenses/COPYING.LGPL-2.1-or-later
-* /usr/share/doc/util-linux-2.40.4/licenses/COPYING.MIT
-* /usr/share/doc/util-linux-2.40.4/Makemodule.am
-* /usr/share/doc/util-linux-2.40.4/modems-with-agetty.txt
-* /usr/share/doc/util-linux-2.40.4/mount.txt
-* /usr/share/doc/util-linux-2.40.4/NEWS
-* /usr/share/doc/util-linux-2.40.4/PAM-configuration.txt
-* /usr/share/doc/util-linux-2.40.4/parse-date.txt
-* /usr/share/doc/util-linux-2.40.4/pg.txt
-* /usr/share/doc/util-linux-2.40.4/poeigl.txt
-* /usr/share/doc/util-linux-2.40.4/README
-* /usr/share/doc/util-linux-2.40.4/README.Frugalware
-* /usr/share/doc/util-linux-2.40.4/README.licensing
-* /usr/share/doc/util-linux-2.40.4/README.md
-* /usr/share/doc/util-linux-2.40.4/release-schedule.txt
-* /usr/share/doc/util-linux-2.40.4/releases/v2.13-ReleaseNotes
-* /usr/share/doc/util-linux-2.40.4/releases/v2.14-ReleaseNotes
-* /usr/share/doc/util-linux-2.40.4/releases/v2.15-ReleaseNotes
-* /usr/share/doc/util-linux-2.40.4/releases/v2.16-ReleaseNotes
-* /usr/share/doc/util-linux-2.40.4/releases/v2.17-ReleaseNotes
-* /usr/share/doc/util-linux-2.40.4/releases/v2.18-ReleaseNotes
-* /usr/share/doc/util-linux-2.40.4/releases/v2.19-ReleaseNotes
-* /usr/share/doc/util-linux-2.40.4/releases/v2.20-ReleaseNotes
-* /usr/share/doc/util-linux-2.40.4/releases/v2.21-ReleaseNotes
-* /usr/share/doc/util-linux-2.40.4/releases/v2.22-ReleaseNotes
-* /usr/share/doc/util-linux-2.40.4/releases/v2.23-ReleaseNotes
-* /usr/share/doc/util-linux-2.40.4/releases/v2.24-ReleaseNotes
-* /usr/share/doc/util-linux-2.40.4/releases/v2.25-ReleaseNotes
-* /usr/share/doc/util-linux-2.40.4/releases/v2.26-ReleaseNotes
-* /usr/share/doc/util-linux-2.40.4/releases/v2.27-ReleaseNotes
-* /usr/share/doc/util-linux-2.40.4/releases/v2.28-ReleaseNotes
-* /usr/share/doc/util-linux-2.40.4/releases/v2.29-ReleaseNotes
-* /usr/share/doc/util-linux-2.40.4/releases/v2.30-ReleaseNotes
-* /usr/share/doc/util-linux-2.40.4/releases/v2.31-ReleaseNotes
-* /usr/share/doc/util-linux-2.40.4/releases/v2.32-ReleaseNotes
-* /usr/share/doc/util-linux-2.40.4/releases/v2.33-ReleaseNotes
-* /usr/share/doc/util-linux-2.40.4/releases/v2.34-ReleaseNotes
-* /usr/share/doc/util-linux-2.40.4/releases/v2.35-ReleaseNotes
-* /usr/share/doc/util-linux-2.40.4/releases/v2.36-ReleaseNotes
-* /usr/share/doc/util-linux-2.40.4/releases/v2.37-ReleaseNotes
-* /usr/share/doc/util-linux-2.40.4/releases/v2.38-ReleaseNotes
-* /usr/share/doc/util-linux-2.40.4/releases/v2.39-ReleaseNotes
-* /usr/share/doc/util-linux-2.40.4/releases/v2.40-ReleaseNotes
-* /usr/share/doc/util-linux-2.40.4/releases/v2.40.1-ReleaseNotes
-* /usr/share/doc/util-linux-2.40.4/releases/v2.40.2-ReleaseNotes
-* /usr/share/doc/util-linux-2.40.4/releases/v2.40.3-ReleaseNotes
-* /usr/share/doc/util-linux-2.40.4/releases/v2.40.4-ReleaseNotes
-* /usr/share/doc/util-linux-2.40.4/rfkill.readme
-* /usr/share/doc/util-linux-2.40.4/TODO
+* /usr/share/doc/util-linux-2.41/00-about-docs.txt
+* /usr/share/doc/util-linux-2.41/AUTHORS
+* /usr/share/doc/util-linux-2.41/blkid.txt
+* /usr/share/doc/util-linux-2.41/boilerplate.c
+* /usr/share/doc/util-linux-2.41/cal.txt
+* /usr/share/doc/util-linux-2.41/ChangeLog
+* /usr/share/doc/util-linux-2.41/col.txt
+* /usr/share/doc/util-linux-2.41/COPYING
+* /usr/share/doc/util-linux-2.41/deprecated.txt
+* /usr/share/doc/util-linux-2.41/example.files/filesystems
+* /usr/share/doc/util-linux-2.41/example.files/fstab
+* /usr/share/doc/util-linux-2.41/example.files/motd
+* /usr/share/doc/util-linux-2.41/example.files/securetty
+* /usr/share/doc/util-linux-2.41/example.files/shells
+* /usr/share/doc/util-linux-2.41/example.files/udev-raw.rules
+* /usr/share/doc/util-linux-2.41/getopt.txt
+* /usr/share/doc/util-linux-2.41/getopt_changelog.txt
+* /usr/share/doc/util-linux-2.41/howto-build-sys.txt
+* /usr/share/doc/util-linux-2.41/howto-compilation.txt
+* /usr/share/doc/util-linux-2.41/howto-contribute.txt
+* /usr/share/doc/util-linux-2.41/howto-debug.txt
+* /usr/share/doc/util-linux-2.41/howto-man-page.txt
+* /usr/share/doc/util-linux-2.41/howto-pull-request.txt
+* /usr/share/doc/util-linux-2.41/howto-tests.txt
+* /usr/share/doc/util-linux-2.41/howto-usage-function.txt
+* /usr/share/doc/util-linux-2.41/hwclock.txt
+* /usr/share/doc/util-linux-2.41/licenses/COPYING.BSD-2-Clause
+* /usr/share/doc/util-linux-2.41/licenses/COPYING.BSD-3-Clause
+* /usr/share/doc/util-linux-2.41/licenses/COPYING.BSD-4-Clause-UC
+* /usr/share/doc/util-linux-2.41/licenses/COPYING.EUPL-1.2
+* /usr/share/doc/util-linux-2.41/licenses/COPYING.GPL-2.0-only
+* /usr/share/doc/util-linux-2.41/licenses/COPYING.GPL-2.0-or-later
+* /usr/share/doc/util-linux-2.41/licenses/COPYING.GPL-3.0-or-later
+* /usr/share/doc/util-linux-2.41/licenses/COPYING.ISC
+* /usr/share/doc/util-linux-2.41/licenses/COPYING.LGPL-2.1-or-later
+* /usr/share/doc/util-linux-2.41/licenses/COPYING.MIT
+* /usr/share/doc/util-linux-2.41/Makemodule.am
+* /usr/share/doc/util-linux-2.41/modems-with-agetty.txt
+* /usr/share/doc/util-linux-2.41/mount.txt
+* /usr/share/doc/util-linux-2.41/NEWS
+* /usr/share/doc/util-linux-2.41/PAM-configuration.txt
+* /usr/share/doc/util-linux-2.41/parse-date.txt
+* /usr/share/doc/util-linux-2.41/pg.txt
+* /usr/share/doc/util-linux-2.41/poeigl.txt
+* /usr/share/doc/util-linux-2.41/README
+* /usr/share/doc/util-linux-2.41/README.Frugalware
+* /usr/share/doc/util-linux-2.41/README.licensing
+* /usr/share/doc/util-linux-2.41/release-schedule.txt
+* /usr/share/doc/util-linux-2.41/releases/v2.13-ReleaseNotes
+* /usr/share/doc/util-linux-2.41/releases/v2.14-ReleaseNotes
+* /usr/share/doc/util-linux-2.41/releases/v2.15-ReleaseNotes
+* /usr/share/doc/util-linux-2.41/releases/v2.16-ReleaseNotes
+* /usr/share/doc/util-linux-2.41/releases/v2.17-ReleaseNotes
+* /usr/share/doc/util-linux-2.41/releases/v2.18-ReleaseNotes
+* /usr/share/doc/util-linux-2.41/releases/v2.19-ReleaseNotes
+* /usr/share/doc/util-linux-2.41/releases/v2.20-ReleaseNotes
+* /usr/share/doc/util-linux-2.41/releases/v2.21-ReleaseNotes
+* /usr/share/doc/util-linux-2.41/releases/v2.22-ReleaseNotes
+* /usr/share/doc/util-linux-2.41/releases/v2.23-ReleaseNotes
+* /usr/share/doc/util-linux-2.41/releases/v2.24-ReleaseNotes
+* /usr/share/doc/util-linux-2.41/releases/v2.25-ReleaseNotes
+* /usr/share/doc/util-linux-2.41/releases/v2.26-ReleaseNotes
+* /usr/share/doc/util-linux-2.41/releases/v2.27-ReleaseNotes
+* /usr/share/doc/util-linux-2.41/releases/v2.28-ReleaseNotes
+* /usr/share/doc/util-linux-2.41/releases/v2.29-ReleaseNotes
+* /usr/share/doc/util-linux-2.41/releases/v2.30-ReleaseNotes
+* /usr/share/doc/util-linux-2.41/releases/v2.31-ReleaseNotes
+* /usr/share/doc/util-linux-2.41/releases/v2.32-ReleaseNotes
+* /usr/share/doc/util-linux-2.41/releases/v2.33-ReleaseNotes
+* /usr/share/doc/util-linux-2.41/releases/v2.34-ReleaseNotes
+* /usr/share/doc/util-linux-2.41/releases/v2.35-ReleaseNotes
+* /usr/share/doc/util-linux-2.41/releases/v2.36-ReleaseNotes
+* /usr/share/doc/util-linux-2.41/releases/v2.37-ReleaseNotes
+* /usr/share/doc/util-linux-2.41/releases/v2.38-ReleaseNotes
+* /usr/share/doc/util-linux-2.41/releases/v2.39-ReleaseNotes
+* /usr/share/doc/util-linux-2.41/releases/v2.40-ReleaseNotes
+* /usr/share/doc/util-linux-2.41/releases/v2.41-ReleaseNotes
+* /usr/share/doc/util-linux-2.41/rfkill.readme
+* /usr/share/doc/util-linux-2.41/TODO
 * /usr/share/doc/util-linux/getopt-example.bash
 * /usr/share/doc/util-linux/getopt-example.tcsh
+* /usr/share/man/man1/bits.1.gz
 * /usr/share/man/man1/cal.1.gz
 * /usr/share/man/man1/chfn.1.gz
 * /usr/share/man/man1/choom.1.gz
@@ -396,6 +398,7 @@ Miscellaneous system utilities for Linux
 * /usr/share/man/man1/colcrt.1.gz
 * /usr/share/man/man1/colrm.1.gz
 * /usr/share/man/man1/column.1.gz
+* /usr/share/man/man1/coresched.1.gz
 * /usr/share/man/man1/dmesg.1.gz
 * /usr/share/man/man1/eject.1.gz
 * /usr/share/man/man1/enosys.1.gz
@@ -516,8 +519,6 @@ Miscellaneous system utilities for Linux
 * /usr/share/man/man8/lsns.8.gz
 * /usr/share/man/man8/mkfs.8.gz
 * /usr/share/man/man8/mkfs.bfs.8.gz
-* /usr/share/man/man8/mkfs.cramfs.8.gz
-* /usr/share/man/man8/mkfs.minix.8.gz
 * /usr/share/man/man8/mkswap.8.gz
 * /usr/share/man/man8/mount.8.gz
 * /usr/share/man/man8/nologin.8.gz

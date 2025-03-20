@@ -12,7 +12,7 @@ size = "343664"
 usize = "1345145"
 sha1sum = "dcac50b802b8bb8d8689ffbf8cf28e6eede9e75c"
 depends = "['curl>=7.19.0', 'libstdc++', 'libxml2>=2.7.8', 'openssl>=3.1.0', 'readline>=8.0']"
-reverse_depends = "['rtorrent']"
+reverse_depends = "['intel-gpu-tools', 'rtorrent']"
 +++
 ### Description: 
 This library provides a modular implementation of XML-RPC for C and C++.

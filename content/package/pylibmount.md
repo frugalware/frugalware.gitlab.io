@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pylibmount 2.40.4-1"
-version = "2.40.4-1"
+title = "pylibmount 2.41-1"
+version = "2.41-1"
 description = "Python bindings for libmount"
-date = "2025-01-14T08:36:00"
+date = "2025-03-20T09:23:15"
 aliases = "/packages/217493"
 categories = ['apps-extra']
 upstreamurl = "http://www.kernel.org/pub/linux/utils/util-linux/"
 arch = "x86_64"
-size = "30872"
-usize = "92530"
-sha1sum = "dca2181e157ff9ad635db30826689226c3551d09"
+size = "30868"
+usize = "92634"
+sha1sum = "0317bb7ebd72d108c5022d62ecf76905b9745a93"
 depends = "['python3>=3.13']"
 +++
 ### Description: 

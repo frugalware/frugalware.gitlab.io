@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libsecret 0.21.6-1"
-version = "0.21.6-1"
+title = "libsecret 0.21.7-1"
+version = "0.21.7-1"
 description = "Library for storing and retrieving passwords and other secrets"
-date = "2025-01-16T09:35:02"
+date = "2025-03-20T10:13:17"
 aliases = "/packages/168887"
 categories = ['xlib']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "1301684"
-usize = "5357702"
-sha1sum = "53114f99378eabd4f314eb25d1723eccec086633"
+size = "1302944"
+usize = "5371884"
+sha1sum = "cdab61beeaf425f7f6ece5b1868c427fa21bc325"
 depends = "['libgcrypt>=1.7.3-2']"
 reverse_depends = "['darktable', 'element', 'gcr', 'gcr-1', 'gvfs', 'msmtp', 'nm-applet', 'nm-libreswan', 'nm-openconnect', 'nm-openvpn', 'nm-pptp', 'nm-vpnc', 'pinentry', 'pulsar', 'qtkeychain', 'qtkeychain-qt5', 'quba', 'remmina-secret', 'slack-desktop', 'teams-for-linux', 'vlc-secret', 'vscode', 'webkit-gtk3', 'zulucrypt']"
 +++
@@ -41,10 +41,10 @@ Library for storing and retrieving passwords and other secrets
 * /usr/lib/libsecret-1.so.0.0.0
 * /usr/lib/pkgconfig/libsecret-1.pc
 * /usr/lib/pkgconfig/libsecret-unstable.pc
-* /usr/share/doc/libsecret-0.21.6/COPYING
-* /usr/share/doc/libsecret-0.21.6/COPYING.TESTS
-* /usr/share/doc/libsecret-0.21.6/NEWS
-* /usr/share/doc/libsecret-0.21.6/README.md
+* /usr/share/doc/libsecret-0.21.7/COPYING
+* /usr/share/doc/libsecret-0.21.7/COPYING.TESTS
+* /usr/share/doc/libsecret-0.21.7/NEWS
+* /usr/share/doc/libsecret-0.21.7/README.md
 * /usr/share/doc/libsecret-1/class.Collection.html
 * /usr/share/doc/libsecret-1/class.Item.html
 * /usr/share/doc/libsecret-1/class.Prompt.html
