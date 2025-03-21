@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-mesa-dri-drivers 25.0.1-2"
-version = "25.0.1-2"
+title = "lib32-mesa-dri-drivers 25.0.2-1"
+version = "25.0.2-1"
 description = "Mesa OpenGL DRI drivers. (32-Bit)"
-date = "2025-03-14T10:27:40"
+date = "2025-03-21T09:18:20"
 aliases = "/packages/217728"
 categories = ['lib32-extra']
-upstreamurl = "http://mesa3d.sourceforge.net/"
+upstreamurl = "https://www.mesa3d.org"
 arch = "x86_64"
-size = "9707528"
+size = "9705896"
 usize = "72240045"
-sha1sum = "61f55a79559f4cf0b392942c39e3c730ffa0264f"
+sha1sum = "75e716a080647b557999eed48bc43cdd497e6d13"
 depends = "['lib32-elfutils>=0.167-3', 'lib32-expat>=2.1.0-6', 'lib32-libdrm>=2.4.71', 'lib32-libffi>=3.2.1-2', 'lib32-libgbm', 'lib32-libunwind', 'lib32-libxshmfence', 'lib32-llvm-libs>=19.1.1', 'lib32-lmsensors>=3.5.0', 'lib32-spirv-tools', 'lib32-zstd']"
 reverse_depends = "['lib32-xorg-server']"
 +++
@@ -32,5 +32,5 @@ Mesa OpenGL DRI drivers. (32-Bit)
 * /usr/lib32/dri/virtio_gpu_drv_video.so
 * /usr/lib32/dri/vmwgfx_dri.so
 * /usr/lib32/dri/zink_dri.so
-* /usr/lib32/libgallium-25.0.1.so
+* /usr/lib32/libgallium-25.0.2.so
 * /usr/lib32/pkgconfig/dri.pc

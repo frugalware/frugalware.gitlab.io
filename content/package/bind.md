@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "bind 9.21.5-1"
-version = "9.21.5-1"
+title = "bind 9.21.6-1"
+version = "9.21.6-1"
 description = "DNS server and utilities"
-date = "2025-02-20T09:42:44"
+date = "2025-03-21T09:26:19"
 aliases = "/packages/2930"
 categories = ['network']
 upstreamurl = "https://www.isc.org/bind/"
 arch = "x86_64"
-size = "1910332"
-usize = "6619689"
-sha1sum = "863bd1e0f8b4936d6a35bbcc484d0e8e0ce5e5fd"
+size = "1909436"
+usize = "6621280"
+sha1sum = "b32d090f1038f40794218a6d11ec94f982f15075"
 depends = "['liburcu', 'libuv', 'libxml2>=2.9.3-3', 'ncurses>=6.1-2', 'nghttp2', 'openssl>=3.1.0', 'python3-ply', 'readline>=8.0']"
 +++
 ### Description: 
@@ -89,6 +89,7 @@ DNS server and utilities
 * /usr/include/dns/keystore.h
 * /usr/include/dns/keytable.h
 * /usr/include/dns/keyvalues.h
+* /usr/include/dns/lib.h
 * /usr/include/dns/master.h
 * /usr/include/dns/masterdump.h
 * /usr/include/dns/message.h
@@ -156,7 +157,6 @@ DNS server and utilities
 * /usr/include/isc/base64.h
 * /usr/include/isc/buffer.h
 * /usr/include/isc/commandline.h
-* /usr/include/isc/condition.h
 * /usr/include/isc/counter.h
 * /usr/include/isc/crypto.h
 * /usr/include/isc/dir.h
@@ -166,7 +166,6 @@ DNS server and utilities
 * /usr/include/isc/errno.h
 * /usr/include/isc/error.h
 * /usr/include/isc/file.h
-* /usr/include/isc/fips.h
 * /usr/include/isc/formatcheck.h
 * /usr/include/isc/fuzz.h
 * /usr/include/isc/getaddresses.h
@@ -183,6 +182,7 @@ DNS server and utilities
 * /usr/include/isc/iterated_hash.h
 * /usr/include/isc/job.h
 * /usr/include/isc/lex.h
+* /usr/include/isc/lib.h
 * /usr/include/isc/list.h
 * /usr/include/isc/log.h
 * /usr/include/isc/loop.h
@@ -192,7 +192,6 @@ DNS server and utilities
 * /usr/include/isc/mem.h
 * /usr/include/isc/meminfo.h
 * /usr/include/isc/mutex.h
-* /usr/include/isc/mutexblock.h
 * /usr/include/isc/net.h
 * /usr/include/isc/netaddr.h
 * /usr/include/isc/netmgr.h
@@ -247,7 +246,6 @@ DNS server and utilities
 * /usr/include/isccc/cc.h
 * /usr/include/isccc/ccmsg.h
 * /usr/include/isccc/sexpr.h
-* /usr/include/isccc/symtab.h
 * /usr/include/isccc/symtype.h
 * /usr/include/isccc/types.h
 * /usr/include/isccc/util.h
@@ -271,23 +269,24 @@ DNS server and utilities
 * /usr/include/ns/xfrout.h
 * /usr/lib/bind/filter-a.so
 * /usr/lib/bind/filter-aaaa.so
-* /usr/lib/libdns-9.21.5.so
+* /usr/lib/libdns-9.21.6.so
 * /usr/lib/libdns.so
-* /usr/lib/libisc-9.21.5.so
+* /usr/lib/libisc-9.21.6.so
 * /usr/lib/libisc.so
-* /usr/lib/libisccc-9.21.5.so
+* /usr/lib/libisccc-9.21.6.so
 * /usr/lib/libisccc.so
-* /usr/lib/libisccfg-9.21.5.so
+* /usr/lib/libisccfg-9.21.6.so
 * /usr/lib/libisccfg.so
-* /usr/lib/libns-9.21.5.so
+* /usr/lib/libns-9.21.6.so
 * /usr/lib/libns.so
 * /usr/lib/systemd/system/bind.service
-* /usr/share/doc/bind-9.21.5/AUTHORS
-* /usr/share/doc/bind-9.21.5/COPYING
-* /usr/share/doc/bind-9.21.5/COPYRIGHT
-* /usr/share/doc/bind-9.21.5/LICENSE
-* /usr/share/doc/bind-9.21.5/NEWS
-* /usr/share/doc/bind-9.21.5/README.md
+* /usr/share/doc/bind-9.21.6/AUTHORS
+* /usr/share/doc/bind-9.21.6/ChangeLog
+* /usr/share/doc/bind-9.21.6/COPYING
+* /usr/share/doc/bind-9.21.6/COPYRIGHT
+* /usr/share/doc/bind-9.21.6/LICENSE
+* /usr/share/doc/bind-9.21.6/NEWS
+* /usr/share/doc/bind-9.21.6/README.md
 * /usr/share/man/man1/arpaname.1.gz
 * /usr/share/man/man1/delv.1.gz
 * /usr/share/man/man1/dig.1.gz

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "tetzle 3.0.2-1"
-version = "3.0.2-1"
+title = "tetzle 3.0.3-1"
+version = "3.0.3-1"
 description = "A jigsaw puzzle with tetrominoes for pieces."
-date = "2025-02-24T12:00:16"
+date = "2025-03-21T09:41:10"
 aliases = "/packages/184376"
 categories = ['games-extra']
 upstreamurl = "http://gottcode.org/tetzle/"
 arch = "x86_64"
-size = "448324"
-usize = "1043736"
-sha1sum = "20f166b26f0ff9798e4ab3d86b6c642b29ac3b02"
+size = "448696"
+usize = "1045487"
+sha1sum = "566fea10cb4a370ad582907605d5a208cdd2f472"
 depends = "['qt6-base>=6.8.2']"
 +++
 ### Description: 
@@ -19,11 +19,11 @@ A jigsaw puzzle with tetrominoes for pieces.
 ### Files: 
 * /usr/bin/tetzle
 * /usr/share/applications/tetzle.desktop
-* /usr/share/doc/tetzle-3.0.2/ChangeLog
-* /usr/share/doc/tetzle-3.0.2/COPYING
-* /usr/share/doc/tetzle-3.0.2/CREDITS
-* /usr/share/doc/tetzle-3.0.2/INSTALL
-* /usr/share/doc/tetzle-3.0.2/README
+* /usr/share/doc/tetzle-3.0.3/ChangeLog
+* /usr/share/doc/tetzle-3.0.3/COPYING
+* /usr/share/doc/tetzle-3.0.3/CREDITS
+* /usr/share/doc/tetzle-3.0.3/INSTALL
+* /usr/share/doc/tetzle-3.0.3/README
 * /usr/share/icons/hicolor/1024x1024/apps/tetzle.png
 * /usr/share/icons/hicolor/128x128/apps/tetzle.png
 * /usr/share/icons/hicolor/16x16/apps/tetzle.png
