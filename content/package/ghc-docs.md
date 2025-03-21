@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ghc-docs 9.12.2-1"
-version = "9.12.2-1"
+title = "ghc-docs 9.12.2-2"
+version = "9.12.2-2"
 description = "GHC HTML documentation.."
-date = "2025-03-20T15:06:43"
+date = "2025-03-21T11:07:31"
 aliases = "/packages/219305"
 categories = ['devel-extra']
 upstreamurl = "https://www.haskell.org/ghc/"
 arch = "x86_64"
-size = "80443168"
-usize = "842715128"
-sha1sum = "cc9e4c59c3423297ca528f7047e09a3bbd4da8e2"
+size = "80492844"
+usize = "842713644"
+sha1sum = "7e17ad484fc4df9bc62844ccdb53b281b0f21a9a"
 depends = "['ghc']"
 +++
 ### Description: 

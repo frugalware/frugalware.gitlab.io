@@ -12,7 +12,7 @@ size = "34709532"
 usize = "172224897"
 sha1sum = "f266fa1ec7c7a389aad753747e4b44dd0f79907c"
 depends = "['libstdc++>=14.1.0', 'llvm-libs', 'python3>=3.13']"
-reverse_depends = "['llvm-ocaml']"
+reverse_depends = "['ghc', 'llvm-ocaml']"
 +++
 ### Description: 
 Low Level Virtual Machine (Compiler , Tools and Libs)

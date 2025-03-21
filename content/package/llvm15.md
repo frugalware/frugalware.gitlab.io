@@ -12,7 +12,6 @@ size = "18057460"
 usize = "79414013"
 sha1sum = "8dee5a865166977a1a6a9ae44681e0b0b183cc48"
 depends = "['libstdc++>=14.1.0', 'llvm15-libs', 'python3']"
-reverse_depends = "['ghc']"
 +++
 ### Description: 
 Low Level Virtual Machine (Compiler , Tools and Libs) Version 15
