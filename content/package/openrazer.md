@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "openrazer 3.10.1-1"
-version = "3.10.1-1"
+title = "openrazer 3.10.1-2"
+version = "3.10.1-2"
 description = "An entirely open source driver and user-space daemon that allows you to manage your Razer peripherals on GNU/Linux."
-date = "2025-03-15T13:46:25"
+date = "2025-03-23T21:40:37"
 aliases = "/packages/220390"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/openrazer/openrazer"
 arch = "x86_64"
-size = "287636"
+size = "287572"
 usize = "2088420"
-sha1sum = "96a8ae2afad1db3f5d6aed0fd9e67699cf333616"
-depends = "['gtk+3', 'kernel=6.13.7-1', 'pygobject3', 'python3-daemonize', 'python3-notify2', 'python3-numpy', 'python3-setproctitle', 'pyudev', 'xautomation']"
+sha1sum = "cfa1f9cc71cd4dc80cf85e9e26b4f0957a8a4c96"
+depends = "['gtk+3', 'kernel=6.13.8-1', 'pygobject3', 'python3-daemonize', 'python3-notify2', 'python3-numpy', 'python3-setproctitle', 'pyudev', 'xautomation']"
 reverse_depends = "['libopenrazer', 'polychromatic']"
 +++
 ### Description: 
@@ -19,10 +19,10 @@ An entirely open source driver and user-space daemon that allows you to manage y
 
 ### Files: 
 * /usr/bin/openrazer-daemon
-* /usr/lib/modules/6.13.7-fw1/kernel/drivers/hid/razeraccessory.ko
-* /usr/lib/modules/6.13.7-fw1/kernel/drivers/hid/razerkbd.ko
-* /usr/lib/modules/6.13.7-fw1/kernel/drivers/hid/razerkraken.ko
-* /usr/lib/modules/6.13.7-fw1/kernel/drivers/hid/razermouse.ko
+* /usr/lib/modules/6.13.8-fw1/kernel/drivers/hid/razeraccessory.ko
+* /usr/lib/modules/6.13.8-fw1/kernel/drivers/hid/razerkbd.ko
+* /usr/lib/modules/6.13.8-fw1/kernel/drivers/hid/razerkraken.ko
+* /usr/lib/modules/6.13.8-fw1/kernel/drivers/hid/razermouse.ko
 * /usr/lib/python3.13/site-packages/openrazer-3.10.1-py3.13.egg-info/dependency_links.txt
 * /usr/lib/python3.13/site-packages/openrazer-3.10.1-py3.13.egg-info/PKG-INFO
 * /usr/lib/python3.13/site-packages/openrazer-3.10.1-py3.13.egg-info/requires.txt
