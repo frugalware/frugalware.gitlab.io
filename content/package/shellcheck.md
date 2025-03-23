@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "shellcheck 0.10.0-4"
-version = "0.10.0-4"
+title = "shellcheck 0.10.0-5"
+version = "0.10.0-5"
 description = "Shell script analysis tool"
-date = "2024-12-28T14:06:54"
+date = "2025-03-23T13:53:44"
 aliases = "/packages/217684"
 categories = ['devel-extra']
 upstreamurl = "http://hackage.haskell.org/cgi-bin/hackage-scripts/package/ShellCheck"
 arch = "x86_64"
-size = "2770052"
-usize = "20911158"
-sha1sum = "873e9245904f9e6d83be06eb2a9be500b79a4df8"
+size = "2786044"
+usize = "20989568"
+sha1sum = "36b0299bc14fc9ab4b80ea090300ea65491dad8c"
 depends = "['haskell-aeson>=1.5.5.1-3', 'haskell-diff', 'haskell-fgl', 'haskell-quickcheck>=2.14.2', 'haskell-regex-tdfa>=1.3.1.1', 'libffi>=3.4']"
 +++
 ### Description: 
@@ -18,35 +18,35 @@ Shell script analysis tool
 
 ### Files: 
 * /usr/bin/shellcheck
-* /usr/lib/ghc-9.12.1/site-local/ShellCheck-0.10.0/Paths_ShellCheck.dyn_hi
-* /usr/lib/ghc-9.12.1/site-local/ShellCheck-0.10.0/ShellCheck/Analytics.dyn_hi
-* /usr/lib/ghc-9.12.1/site-local/ShellCheck-0.10.0/ShellCheck/Analyzer.dyn_hi
-* /usr/lib/ghc-9.12.1/site-local/ShellCheck-0.10.0/ShellCheck/AnalyzerLib.dyn_hi
-* /usr/lib/ghc-9.12.1/site-local/ShellCheck-0.10.0/ShellCheck/AST.dyn_hi
-* /usr/lib/ghc-9.12.1/site-local/ShellCheck-0.10.0/ShellCheck/ASTLib.dyn_hi
-* /usr/lib/ghc-9.12.1/site-local/ShellCheck-0.10.0/ShellCheck/CFG.dyn_hi
-* /usr/lib/ghc-9.12.1/site-local/ShellCheck-0.10.0/ShellCheck/CFGAnalysis.dyn_hi
-* /usr/lib/ghc-9.12.1/site-local/ShellCheck-0.10.0/ShellCheck/Checker.dyn_hi
-* /usr/lib/ghc-9.12.1/site-local/ShellCheck-0.10.0/ShellCheck/Checks/Commands.dyn_hi
-* /usr/lib/ghc-9.12.1/site-local/ShellCheck-0.10.0/ShellCheck/Checks/ControlFlow.dyn_hi
-* /usr/lib/ghc-9.12.1/site-local/ShellCheck-0.10.0/ShellCheck/Checks/Custom.dyn_hi
-* /usr/lib/ghc-9.12.1/site-local/ShellCheck-0.10.0/ShellCheck/Checks/ShellSupport.dyn_hi
-* /usr/lib/ghc-9.12.1/site-local/ShellCheck-0.10.0/ShellCheck/Data.dyn_hi
-* /usr/lib/ghc-9.12.1/site-local/ShellCheck-0.10.0/ShellCheck/Debug.dyn_hi
-* /usr/lib/ghc-9.12.1/site-local/ShellCheck-0.10.0/ShellCheck/Fixer.dyn_hi
-* /usr/lib/ghc-9.12.1/site-local/ShellCheck-0.10.0/ShellCheck/Formatter/CheckStyle.dyn_hi
-* /usr/lib/ghc-9.12.1/site-local/ShellCheck-0.10.0/ShellCheck/Formatter/Diff.dyn_hi
-* /usr/lib/ghc-9.12.1/site-local/ShellCheck-0.10.0/ShellCheck/Formatter/Format.dyn_hi
-* /usr/lib/ghc-9.12.1/site-local/ShellCheck-0.10.0/ShellCheck/Formatter/GCC.dyn_hi
-* /usr/lib/ghc-9.12.1/site-local/ShellCheck-0.10.0/ShellCheck/Formatter/JSON.dyn_hi
-* /usr/lib/ghc-9.12.1/site-local/ShellCheck-0.10.0/ShellCheck/Formatter/JSON1.dyn_hi
-* /usr/lib/ghc-9.12.1/site-local/ShellCheck-0.10.0/ShellCheck/Formatter/Quiet.dyn_hi
-* /usr/lib/ghc-9.12.1/site-local/ShellCheck-0.10.0/ShellCheck/Formatter/TTY.dyn_hi
-* /usr/lib/ghc-9.12.1/site-local/ShellCheck-0.10.0/ShellCheck/Interface.dyn_hi
-* /usr/lib/ghc-9.12.1/site-local/ShellCheck-0.10.0/ShellCheck/Parser.dyn_hi
-* /usr/lib/ghc-9.12.1/site-local/ShellCheck-0.10.0/ShellCheck/Prelude.dyn_hi
-* /usr/lib/ghc-9.12.1/site-local/ShellCheck-0.10.0/ShellCheck/Regex.dyn_hi
-* /usr/lib/libHSShellCheck-0.10.0-DHCGazoUxmU13MfRe7WXcm-ghc9.12.1.so
+* /usr/lib/ghc-9.12.2/site-local/ShellCheck-0.10.0/Paths_ShellCheck.dyn_hi
+* /usr/lib/ghc-9.12.2/site-local/ShellCheck-0.10.0/ShellCheck/Analytics.dyn_hi
+* /usr/lib/ghc-9.12.2/site-local/ShellCheck-0.10.0/ShellCheck/Analyzer.dyn_hi
+* /usr/lib/ghc-9.12.2/site-local/ShellCheck-0.10.0/ShellCheck/AnalyzerLib.dyn_hi
+* /usr/lib/ghc-9.12.2/site-local/ShellCheck-0.10.0/ShellCheck/AST.dyn_hi
+* /usr/lib/ghc-9.12.2/site-local/ShellCheck-0.10.0/ShellCheck/ASTLib.dyn_hi
+* /usr/lib/ghc-9.12.2/site-local/ShellCheck-0.10.0/ShellCheck/CFG.dyn_hi
+* /usr/lib/ghc-9.12.2/site-local/ShellCheck-0.10.0/ShellCheck/CFGAnalysis.dyn_hi
+* /usr/lib/ghc-9.12.2/site-local/ShellCheck-0.10.0/ShellCheck/Checker.dyn_hi
+* /usr/lib/ghc-9.12.2/site-local/ShellCheck-0.10.0/ShellCheck/Checks/Commands.dyn_hi
+* /usr/lib/ghc-9.12.2/site-local/ShellCheck-0.10.0/ShellCheck/Checks/ControlFlow.dyn_hi
+* /usr/lib/ghc-9.12.2/site-local/ShellCheck-0.10.0/ShellCheck/Checks/Custom.dyn_hi
+* /usr/lib/ghc-9.12.2/site-local/ShellCheck-0.10.0/ShellCheck/Checks/ShellSupport.dyn_hi
+* /usr/lib/ghc-9.12.2/site-local/ShellCheck-0.10.0/ShellCheck/Data.dyn_hi
+* /usr/lib/ghc-9.12.2/site-local/ShellCheck-0.10.0/ShellCheck/Debug.dyn_hi
+* /usr/lib/ghc-9.12.2/site-local/ShellCheck-0.10.0/ShellCheck/Fixer.dyn_hi
+* /usr/lib/ghc-9.12.2/site-local/ShellCheck-0.10.0/ShellCheck/Formatter/CheckStyle.dyn_hi
+* /usr/lib/ghc-9.12.2/site-local/ShellCheck-0.10.0/ShellCheck/Formatter/Diff.dyn_hi
+* /usr/lib/ghc-9.12.2/site-local/ShellCheck-0.10.0/ShellCheck/Formatter/Format.dyn_hi
+* /usr/lib/ghc-9.12.2/site-local/ShellCheck-0.10.0/ShellCheck/Formatter/GCC.dyn_hi
+* /usr/lib/ghc-9.12.2/site-local/ShellCheck-0.10.0/ShellCheck/Formatter/JSON.dyn_hi
+* /usr/lib/ghc-9.12.2/site-local/ShellCheck-0.10.0/ShellCheck/Formatter/JSON1.dyn_hi
+* /usr/lib/ghc-9.12.2/site-local/ShellCheck-0.10.0/ShellCheck/Formatter/Quiet.dyn_hi
+* /usr/lib/ghc-9.12.2/site-local/ShellCheck-0.10.0/ShellCheck/Formatter/TTY.dyn_hi
+* /usr/lib/ghc-9.12.2/site-local/ShellCheck-0.10.0/ShellCheck/Interface.dyn_hi
+* /usr/lib/ghc-9.12.2/site-local/ShellCheck-0.10.0/ShellCheck/Parser.dyn_hi
+* /usr/lib/ghc-9.12.2/site-local/ShellCheck-0.10.0/ShellCheck/Prelude.dyn_hi
+* /usr/lib/ghc-9.12.2/site-local/ShellCheck-0.10.0/ShellCheck/Regex.dyn_hi
+* /usr/lib/libHSShellCheck-0.10.0-DB4xsmkmpDxJZaZVsaEYDZ-ghc9.12.2.so
 * /usr/share/doc/shellcheck-0.10.0/LICENSE
 * /usr/share/doc/shellcheck-0.10.0/README.md
 * /usr/share/doc/shellcheck/html/CHANGELOG.md

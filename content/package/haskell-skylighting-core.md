@@ -12,7 +12,7 @@ size = "1111192"
 usize = "12411337"
 sha1sum = "9a8e055560a3e583cbb1447776e04808b626a552"
 depends = "['haskell-aeson', 'haskell-base64-bytestring', 'haskell-case-insensitive', 'haskell-colour', 'haskell-safe', 'haskell-utf8-string', 'haskell-xml-conduit']"
-reverse_depends = "['haskell-skylighting-format-ansi', 'haskell-skylighting-format-blaze-html', 'haskell-skylighting-format-context', 'haskell-skylighting-format-latex']"
+reverse_depends = "['haskell-skylighting-format-ansi', 'haskell-skylighting-format-blaze-html', 'haskell-skylighting-format-context', 'haskell-skylighting-format-latex', 'haskell-skylighting-format-typst']"
 +++
 ### Description: 
 Syntax highlighting library
