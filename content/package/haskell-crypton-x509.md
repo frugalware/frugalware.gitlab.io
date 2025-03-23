@@ -12,7 +12,7 @@ size = "502952"
 usize = "5386734"
 sha1sum = "82b69dabf5e99d6f92f21f99399dfd2b23d0322d"
 depends = "['haskell-asn1-encoding', 'haskell-asn1-parse', 'haskell-crypton', 'haskell-pem']"
-reverse_depends = "['haskell-crypton-x509-store']"
+reverse_depends = "['haskell-crypton-x509-store', 'haskell-tls']"
 +++
 ### Description: 
 X509 reader and writer

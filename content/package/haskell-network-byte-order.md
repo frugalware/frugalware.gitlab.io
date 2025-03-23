@@ -12,7 +12,7 @@ size = "92352"
 usize = "871871"
 sha1sum = "77f8f225c703f2bec301611db3c1bb70a2d07056"
 depends = "['ghc>=9.6.1']"
-reverse_depends = "['haskell-http-semantics']"
+reverse_depends = "['haskell-ech-config', 'haskell-http-semantics']"
 +++
 ### Description: 
 Network byte order utilities

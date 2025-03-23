@@ -12,7 +12,7 @@ size = "58000"
 usize = "275851"
 sha1sum = "c19ba77b0b23e09ce8c67c3e363380654a156c00"
 depends = "['ghc>=9.6.1']"
-reverse_depends = "['haskell-text-conversions', 'haskell-tls']"
+reverse_depends = "['haskell-ech-config', 'haskell-hpke', 'haskell-text-conversions']"
 +++
 ### Description: 
 RFC 4648-compliant Base16 encodings for ByteStrings

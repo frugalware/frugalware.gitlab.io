@@ -12,7 +12,7 @@ size = "201980"
 usize = "1587371"
 sha1sum = "3d4a41ecf86f1d958e9d090f7f2af2ae2fac2304"
 depends = "['haskell-asn1-types']"
-reverse_depends = "['haskell-asn1-parse', 'haskell-crypton-x509']"
+reverse_depends = "['haskell-asn1-parse', 'haskell-crypton-x509', 'haskell-tls']"
 +++
 ### Description: 
 ASN1 data reader and writer in RAW, BER and DER forms

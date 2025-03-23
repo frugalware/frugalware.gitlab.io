@@ -12,7 +12,7 @@ size = "269560"
 usize = "3315949"
 sha1sum = "a6396240151d6062201df6076c10073c6c355fba"
 depends = "['ghc>=9.6.1']"
-reverse_depends = "['haskell-juicypixels', 'haskell-streaming-commons', 'haskell-zip-archive']"
+reverse_depends = "['haskell-juicypixels', 'haskell-streaming-commons', 'haskell-tls', 'haskell-zip-archive']"
 +++
 ### Description: 
 Compression and decompression in the gzip and zlib formats

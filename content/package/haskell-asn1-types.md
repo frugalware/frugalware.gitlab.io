@@ -12,7 +12,7 @@ size = "177580"
 usize = "1553356"
 sha1sum = "c47ae21cd15bdab6618709f86b32e6c02677261a"
 depends = "['haskell-hourglass', 'haskell-memory']"
-reverse_depends = "['haskell-asn1-encoding']"
+reverse_depends = "['haskell-asn1-encoding', 'haskell-tls']"
 +++
 ### Description: 
 ASN.1 types

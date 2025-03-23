@@ -12,7 +12,7 @@ size = "156500"
 usize = "1540885"
 sha1sum = "e89791df4694b6ce80fe0d3900ea7b904fb58a66"
 depends = "['haskell-hashable>=1.4.2.0']"
-reverse_depends = "['haskell-streaming-commons', 'haskell-tls', 'haskell-typed-process', 'haskell-unliftio']"
+reverse_depends = "['haskell-streaming-commons', 'haskell-typed-process', 'haskell-unliftio']"
 +++
 ### Description: 
 Run IO operations asynchronously and wait for their results

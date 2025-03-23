@@ -12,7 +12,7 @@ size = "71552"
 usize = "811281"
 sha1sum = "57d8708d3cb3d90352662a6284c65b6e5143ec23"
 depends = "['ghc>=9.12.1']"
-reverse_depends = "['haskell-appar', 'haskell-byteorder', 'haskell-citeproc', 'haskell-cookie', 'haskell-crypton-x509-validation', 'haskell-lexer', 'haskell-xml-conduit']"
+reverse_depends = "['haskell-appar', 'haskell-byteorder', 'haskell-citeproc', 'haskell-cookie', 'haskell-crypton-x509-validation', 'haskell-lexer', 'haskell-tls', 'haskell-xml-conduit']"
 +++
 ### Description: 
 A class for types with a default value.

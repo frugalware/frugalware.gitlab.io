@@ -12,7 +12,7 @@ size = "85720"
 usize = "516103"
 sha1sum = "7bd14cde7553e5761782441b6eff86109340453c"
 depends = "['haskell-crypton-x509']"
-reverse_depends = "['haskell-crypton-x509-system', 'haskell-crypton-x509-validation']"
+reverse_depends = "['haskell-crypton-x509-system', 'haskell-crypton-x509-validation', 'haskell-tls']"
 +++
 ### Description: 
 X.509 collection accessing and storing methods

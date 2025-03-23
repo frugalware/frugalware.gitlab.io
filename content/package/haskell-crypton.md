@@ -12,7 +12,7 @@ size = "3281836"
 usize = "34044546"
 sha1sum = "c5a5fa65f85615c53851c3221f963181d1563cc6"
 depends = "['haskell-memory']"
-reverse_depends = "['haskell-crypton-x509', 'haskell-wai-app-static']"
+reverse_depends = "['haskell-crypton-x509', 'haskell-hpke', 'haskell-wai-app-static']"
 +++
 ### Description: 
 Cryptography Primitives sink
