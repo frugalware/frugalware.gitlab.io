@@ -12,7 +12,7 @@ size = "341532"
 usize = "3383778"
 sha1sum = "66c829daca84dfbb478687f0b4e5f1e688fd9a50"
 depends = "['haskell-appar', 'haskell-byteorder', 'haskell-network']"
-reverse_depends = "['haskell-http-client', 'haskell-http2', 'haskell-warp']"
+reverse_depends = "['haskell-crypton-x509-validation', 'haskell-http-client', 'haskell-http2', 'haskell-warp']"
 +++
 ### Description: 
 IP Routing Table
