@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "flutter 3.29.0-1"
-version = "3.29.0-1"
+title = "flutter 3.29.2-1"
+version = "3.29.2-1"
 description = "A new mobile app SDK to help developers and designers build modern mobile apps for iOS and Android."
-date = "2025-02-17T11:10:21"
+date = "2025-03-24T14:25:05"
 aliases = "/packages/220938"
 categories = ['devel-extra']
 upstreamurl = "https://flutter.dev"
 arch = "x86_64"
-size = "765953568"
-usize = "1779658686"
-sha1sum = "5448f645f853b04de1ef5f3232e0941a34b74f85"
+size = "772950312"
+usize = "1788544571"
+sha1sum = "cf003492ab0610b51a3b7230e518651fc95142fe"
 depends = "['curl', 'git', 'libglu', 'libglvnd', 'openjdk', 'unzip', 'xz']"
 +++
 ### Description: 
@@ -42,31 +42,40 @@ A new mobile app SDK to help developers and designers build modern mobile apps f
 * /opt/flutter/.git/info/refs
 * /opt/flutter/.git/logs/HEAD
 * /opt/flutter/.git/logs/refs/heads/stable
-* /opt/flutter/.git/logs/refs/remotes/origin/detect_sdk_changes
-* /opt/flutter/.git/logs/refs/remotes/origin/flutter-3.30-candidate.0
+* /opt/flutter/.git/logs/refs/remotes/origin/bartekpacia/chore/native_plugin_loader_make_stateless
+* /opt/flutter/.git/logs/refs/remotes/origin/beta
+* /opt/flutter/.git/logs/refs/remotes/origin/flutter-0.42-candidate.0
+* /opt/flutter/.git/logs/refs/remotes/origin/flutter-3.31-candidate.0
 * /opt/flutter/.git/logs/refs/remotes/origin/HEAD
+* /opt/flutter/.git/logs/refs/remotes/origin/i160381-undo-accidental-revert-cxx
 * /opt/flutter/.git/logs/refs/remotes/origin/main
 * /opt/flutter/.git/logs/refs/remotes/origin/master
-* /opt/flutter/.git/logs/refs/remotes/origin/new-issue-template-for-g3
-* /opt/flutter/.git/logs/refs/remotes/origin/zanderso-patch-2
+* /opt/flutter/.git/logs/refs/remotes/origin/matanlurey-patch-1
+* /opt/flutter/.git/logs/refs/remotes/origin/possible_fix_for_161466
+* /opt/flutter/.git/logs/refs/remotes/origin/revert_b6921e1895f6002f5930f70c2152cb7704798bf9
 * /opt/flutter/.git/objects/info/commit-graph
 * /opt/flutter/.git/objects/info/packs
-* /opt/flutter/.git/objects/pack/pack-287e3b5f5ebf4999eaca42fb6cb6d8ac3d7de639.idx
-* /opt/flutter/.git/objects/pack/pack-287e3b5f5ebf4999eaca42fb6cb6d8ac3d7de639.pack
-* /opt/flutter/.git/objects/pack/pack-287e3b5f5ebf4999eaca42fb6cb6d8ac3d7de639.rev
-* /opt/flutter/.git/objects/pack/pack-c255b8e5bd7c63029e2057468e06a476a66f6f9a.idx
-* /opt/flutter/.git/objects/pack/pack-c255b8e5bd7c63029e2057468e06a476a66f6f9a.pack
-* /opt/flutter/.git/objects/pack/pack-c255b8e5bd7c63029e2057468e06a476a66f6f9a.rev
+* /opt/flutter/.git/objects/pack/pack-aec948859af1c8e687b9b9399b0858846ffad064.idx
+* /opt/flutter/.git/objects/pack/pack-aec948859af1c8e687b9b9399b0858846ffad064.pack
+* /opt/flutter/.git/objects/pack/pack-aec948859af1c8e687b9b9399b0858846ffad064.rev
+* /opt/flutter/.git/objects/pack/pack-ec5723bca478b85b410cf55a6863c5bb4546fce7.idx
+* /opt/flutter/.git/objects/pack/pack-ec5723bca478b85b410cf55a6863c5bb4546fce7.pack
+* /opt/flutter/.git/objects/pack/pack-ec5723bca478b85b410cf55a6863c5bb4546fce7.rev
 * /opt/flutter/.git/ORIG_HEAD
 * /opt/flutter/.git/packed-refs
-* /opt/flutter/.git/refs/remotes/origin/detect_sdk_changes
-* /opt/flutter/.git/refs/remotes/origin/flutter-3.30-candidate.0
+* /opt/flutter/.git/refs/remotes/origin/bartekpacia/chore/native_plugin_loader_make_stateless
+* /opt/flutter/.git/refs/remotes/origin/beta
+* /opt/flutter/.git/refs/remotes/origin/flutter-0.42-candidate.0
+* /opt/flutter/.git/refs/remotes/origin/flutter-3.31-candidate.0
 * /opt/flutter/.git/refs/remotes/origin/HEAD
+* /opt/flutter/.git/refs/remotes/origin/i160381-undo-accidental-revert-cxx
 * /opt/flutter/.git/refs/remotes/origin/main
 * /opt/flutter/.git/refs/remotes/origin/master
-* /opt/flutter/.git/refs/remotes/origin/new-issue-template-for-g3
-* /opt/flutter/.git/refs/remotes/origin/zanderso-patch-2
-* /opt/flutter/.git/refs/tags/3.30.0-0.0.pre
+* /opt/flutter/.git/refs/remotes/origin/matanlurey-patch-1
+* /opt/flutter/.git/refs/remotes/origin/possible_fix_for_161466
+* /opt/flutter/.git/refs/remotes/origin/revert_b6921e1895f6002f5930f70c2152cb7704798bf9
+* /opt/flutter/.git/refs/tags/3.31.0-0.0.pre
+* /opt/flutter/.git/refs/tags/3.31.0-0.1.pre
 * /opt/flutter/.gitattributes
 * /opt/flutter/.github/dependabot.yml
 * /opt/flutter/.github/ISSUE_TEMPLATE/10_feature.yml
@@ -5398,6 +5407,7 @@ A new mobile app SDK to help developers and designers build modern mobile apps f
 * /opt/flutter/dev/tools/test/format_test.dart
 * /opt/flutter/dev/tools/test/generate_gradle_lockfiles_test.dart
 * /opt/flutter/dev/tools/test/mock_git.sh
+* /opt/flutter/dev/tools/test/update_engine_version_test.dart
 * /opt/flutter/dev/tools/test/update_icons_test.dart
 * /opt/flutter/dev/tools/tools.iml
 * /opt/flutter/dev/tools/update_icons.dart
@@ -6656,6 +6666,10 @@ A new mobile app SDK to help developers and designers build modern mobile apps f
 * /opt/flutter/engine/src/flutter/impeller/display_list/skia_conversions.cc
 * /opt/flutter/engine/src/flutter/impeller/display_list/skia_conversions.h
 * /opt/flutter/engine/src/flutter/impeller/display_list/skia_conversions_unittests.cc
+* /opt/flutter/engine/src/flutter/impeller/display_list/testing/render_text_in_canvas.cc
+* /opt/flutter/engine/src/flutter/impeller/display_list/testing/render_text_in_canvas.h
+* /opt/flutter/engine/src/flutter/impeller/display_list/testing/rmse.cc
+* /opt/flutter/engine/src/flutter/impeller/display_list/testing/rmse.h
 * /opt/flutter/engine/src/flutter/impeller/docs/android.md
 * /opt/flutter/engine/src/flutter/impeller/docs/android_cpu_profile.md
 * /opt/flutter/engine/src/flutter/impeller/docs/android_validation_layers.md
@@ -6756,6 +6770,7 @@ A new mobile app SDK to help developers and designers build modern mobile apps f
 * /opt/flutter/engine/src/flutter/impeller/entity/contents/texture_contents.h
 * /opt/flutter/engine/src/flutter/impeller/entity/contents/text_contents.cc
 * /opt/flutter/engine/src/flutter/impeller/entity/contents/text_contents.h
+* /opt/flutter/engine/src/flutter/impeller/entity/contents/text_contents_unittests.cc
 * /opt/flutter/engine/src/flutter/impeller/entity/contents/tiled_texture_contents.cc
 * /opt/flutter/engine/src/flutter/impeller/entity/contents/tiled_texture_contents.h
 * /opt/flutter/engine/src/flutter/impeller/entity/contents/tiled_texture_contents_unittests.cc
@@ -7398,8 +7413,6 @@ A new mobile app SDK to help developers and designers build modern mobile apps f
 * /opt/flutter/engine/src/flutter/impeller/toolkit/android/proc_table.cc
 * /opt/flutter/engine/src/flutter/impeller/toolkit/android/proc_table.h
 * /opt/flutter/engine/src/flutter/impeller/toolkit/android/README.md
-* /opt/flutter/engine/src/flutter/impeller/toolkit/android/shadow_realm.cc
-* /opt/flutter/engine/src/flutter/impeller/toolkit/android/shadow_realm.h
 * /opt/flutter/engine/src/flutter/impeller/toolkit/android/surface_control.cc
 * /opt/flutter/engine/src/flutter/impeller/toolkit/android/surface_control.h
 * /opt/flutter/engine/src/flutter/impeller/toolkit/android/surface_transaction.cc
@@ -8683,6 +8696,7 @@ A new mobile app SDK to help developers and designers build modern mobile apps f
 * /opt/flutter/engine/src/flutter/shell/platform/android/image_lru.cc
 * /opt/flutter/engine/src/flutter/shell/platform/android/image_lru.h
 * /opt/flutter/engine/src/flutter/shell/platform/android/image_lru_unittests.cc
+* /opt/flutter/engine/src/flutter/shell/platform/android/io/flutter/app/FlutterApplication.java
 * /opt/flutter/engine/src/flutter/shell/platform/android/io/flutter/Build.java
 * /opt/flutter/engine/src/flutter/shell/platform/android/io/flutter/BuildConfig.java
 * /opt/flutter/engine/src/flutter/shell/platform/android/io/flutter/embedding/android/AndroidTouchProcessor.java
@@ -16941,6 +16955,6 @@ A new mobile app SDK to help developers and designers build modern mobile apps f
 * /opt/flutter/TESTOWNERS
 * /opt/flutter/version
 * /usr/bin/flutter
-* /usr/share/doc/flutter-3.29.0/AUTHORS
-* /usr/share/doc/flutter-3.29.0/LICENSE
-* /usr/share/doc/flutter-3.29.0/README.md
+* /usr/share/doc/flutter-3.29.2/AUTHORS
+* /usr/share/doc/flutter-3.29.2/LICENSE
+* /usr/share/doc/flutter-3.29.2/README.md

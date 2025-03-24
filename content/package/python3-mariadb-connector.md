@@ -1,27 +1,27 @@
 +++
 draft = false
-title = "python3-mariadb-connector 1.1.11-1"
-version = "1.1.11-1"
+title = "python3-mariadb-connector 1.1.12-1"
+version = "1.1.12-1"
 description = "A Python DB API 2.0 compliant API for access to MariaDB and MySQL databases"
-date = "2025-01-07T16:02:08"
+date = "2025-03-24T14:44:12"
 aliases = "/packages/222616"
 categories = ['devel-extra']
 upstreamurl = "https://mariadb.com/kb/en/mariadb-connector-python/"
 arch = "x86_64"
-size = "94136"
-usize = "380454"
-sha1sum = "c7ea5c63a96891e5e6375c08c8d60676e8d75014"
+size = "95072"
+usize = "383059"
+sha1sum = "b8fa3ab084139e3b63b15624ea0e7df2088ee23f"
 depends = "['mariadb-libs', 'python3>=3.8.0']"
 +++
 ### Description: 
 A Python DB API 2.0 compliant API for access to MariaDB and MySQL databases
 
 ### Files: 
-* /usr/lib/python3.13/site-packages/mariadb-1.1.11-py3.13.egg-info/dependency_links.txt
-* /usr/lib/python3.13/site-packages/mariadb-1.1.11-py3.13.egg-info/PKG-INFO
-* /usr/lib/python3.13/site-packages/mariadb-1.1.11-py3.13.egg-info/requires.txt
-* /usr/lib/python3.13/site-packages/mariadb-1.1.11-py3.13.egg-info/SOURCES.txt
-* /usr/lib/python3.13/site-packages/mariadb-1.1.11-py3.13.egg-info/top_level.txt
+* /usr/lib/python3.13/site-packages/mariadb-1.1.12-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/mariadb-1.1.12-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/mariadb-1.1.12-py3.13.egg-info/requires.txt
+* /usr/lib/python3.13/site-packages/mariadb-1.1.12-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/mariadb-1.1.12-py3.13.egg-info/top_level.txt
 * /usr/lib/python3.13/site-packages/mariadb/connectionpool.py
 * /usr/lib/python3.13/site-packages/mariadb/connections.py
 * /usr/lib/python3.13/site-packages/mariadb/constants/CAPABILITY.py
@@ -61,5 +61,5 @@ A Python DB API 2.0 compliant API for access to MariaDB and MySQL databases
 * /usr/lib/python3.13/site-packages/mariadb/__pycache__/field.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/mariadb/__pycache__/release_info.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/mariadb/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/python3-mariadb-connector-1.1.11/LICENSE
-* /usr/share/doc/python3-mariadb-connector-1.1.11/README.md
+* /usr/share/doc/python3-mariadb-connector-1.1.12/LICENSE
+* /usr/share/doc/python3-mariadb-connector-1.1.12/README.md

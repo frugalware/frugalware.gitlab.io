@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libmediainfo 24.12-3"
-version = "24.12-3"
+title = "libmediainfo 25.03-1"
+version = "25.03-1"
 description = "shared library for mediainfo"
-date = "2025-03-17T21:48:20"
+date = "2025-03-24T14:45:39"
 aliases = "/packages/136857"
 categories = ['lib-extra']
 upstreamurl = "https://mediaarea.net/MediaInfo"
 arch = "x86_64"
-size = "2997032"
-usize = "10302134"
-sha1sum = "444811c221b7c216391d2ed3f833b98d2b524540"
+size = "3066936"
+usize = "10507201"
+sha1sum = "0145234b7850b48fc7498507f7b7367f4b854394"
 depends = "['curl', 'graphviz', 'libmms', 'libzen>=0.4.40', 'tinyxml2>=11.0.0']"
 reverse_depends = "['mediainfo']"
 +++
@@ -53,5 +53,5 @@ shared library for mediainfo
 * /usr/lib/libmediainfo.so.0
 * /usr/lib/libmediainfo.so.0.0.0
 * /usr/lib/pkgconfig/libmediainfo.pc
-* /usr/share/doc/libmediainfo-24.12/LICENSE
-* /usr/share/doc/libmediainfo-24.12/README.md
+* /usr/share/doc/libmediainfo-25.03/LICENSE
+* /usr/share/doc/libmediainfo-25.03/README.md

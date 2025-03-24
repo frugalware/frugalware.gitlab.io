@@ -1,22 +1,22 @@
 +++
 draft = false
-title = "mediainfo 24.12-2"
-version = "24.12-2"
+title = "mediainfo 25.03-1"
+version = "25.03-1"
 description = "MediaInfo supplies technical and tag information about a video or audio file."
-date = "2025-02-04T08:59:40"
+date = "2025-03-24T15:06:10"
 aliases = "/packages/136860"
 categories = ['apps-extra']
 upstreamurl = "https://mediaarea.net/MediaInfo"
 arch = "x86_64"
-size = "20220"
-usize = "47261"
-sha1sum = "a38fee47694e543393f5b9fc604c52310079fe16"
-depends = "['libmediainfo>=24.12']"
+size = "20240"
+usize = "47199"
+sha1sum = "64e98b71ac918b2900d92f648e85429172dbe5ca"
+depends = "['libmediainfo>=25.03']"
 +++
 ### Description: 
 MediaInfo supplies technical and tag information about a video or audio file.
 
 ### Files: 
 * /usr/bin/mediainfo
-* /usr/share/doc/mediainfo-24.12/LICENSE
-* /usr/share/doc/mediainfo-24.12/README.md
+* /usr/share/doc/mediainfo-25.03/LICENSE
+* /usr/share/doc/mediainfo-25.03/README.md
