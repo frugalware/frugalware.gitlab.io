@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "harfbuzz 10.4.0-2"
-version = "10.4.0-2"
+title = "harfbuzz 11.0.0-1"
+version = "11.0.0-1"
 description = "Is an implementation of the OpenType Layout engine."
-date = "2025-03-18T22:28:39"
+date = "2025-03-24T12:04:38"
 aliases = "/packages/168883"
 categories = ['xlib']
 upstreamurl = "https://github.com/harfbuzz/harfbuzz"
 arch = "x86_64"
-size = "1279884"
-usize = "7978517"
-sha1sum = "3deea93322b73efe112f6ac53e7517315cd0a591"
+size = "1292700"
+usize = "8087637"
+sha1sum = "8f8377d0baa1fc95bb82a3b2c4dba46e5b99c0a8"
 depends = "['freetype2', 'glib2>=2.60.0', 'graphite2>=1.3.13-2', 'libffi>=3.2.1-2', 'libstdc++>=11.2', 'util-linux']"
 reverse_depends = "['chromium-browser', 'efl', 'enlightenment', 'firefox', 'kde-gtk-config', 'kitty', 'libass', 'mupdf', 'mupdf-gl', 'openjre', 'pango', 'qt5-base', 'qt6-base', 'terminology', 'texlive', 'thunderbird']"
 +++
@@ -61,22 +61,23 @@ Is an implementation of the OpenType Layout engine.
 * /usr/lib/girepository-1.0/HarfBuzz-0.0.typelib
 * /usr/lib/libharfbuzz-gobject.so
 * /usr/lib/libharfbuzz-gobject.so.0
-* /usr/lib/libharfbuzz-gobject.so.0.61040.0
+* /usr/lib/libharfbuzz-gobject.so.0.61100.0
 * /usr/lib/libharfbuzz-subset.so
 * /usr/lib/libharfbuzz-subset.so.0
-* /usr/lib/libharfbuzz-subset.so.0.61040.0
+* /usr/lib/libharfbuzz-subset.so.0.61100.0
 * /usr/lib/libharfbuzz.so
 * /usr/lib/libharfbuzz.so.0
-* /usr/lib/libharfbuzz.so.0.61040.0
+* /usr/lib/libharfbuzz.so.0.61100.0
 * /usr/lib/pkgconfig/harfbuzz-gobject.pc
 * /usr/lib/pkgconfig/harfbuzz-subset.pc
 * /usr/lib/pkgconfig/harfbuzz.pc
-* /usr/share/doc/harfbuzz-10.4.0/AUTHORS
-* /usr/share/doc/harfbuzz-10.4.0/COPYING
-* /usr/share/doc/harfbuzz-10.4.0/NEWS
-* /usr/share/doc/harfbuzz-10.4.0/README.md
-* /usr/share/doc/harfbuzz-10.4.0/README.python.md
-* /usr/share/doc/harfbuzz-10.4.0/THANKS
+* /usr/share/doc/harfbuzz-11.0.0/AUTHORS
+* /usr/share/doc/harfbuzz-11.0.0/COPYING
+* /usr/share/doc/harfbuzz-11.0.0/NEWS
+* /usr/share/doc/harfbuzz-11.0.0/README.md
+* /usr/share/doc/harfbuzz-11.0.0/README.mingw.md
+* /usr/share/doc/harfbuzz-11.0.0/README.python.md
+* /usr/share/doc/harfbuzz-11.0.0/THANKS
 * /usr/share/gir-1.0/HarfBuzz-0.0.gir
 * /usr/share/gtk-doc/html/harfbuzz/a-clustering-example-for-levels-0-and-1.html
 * /usr/share/gtk-doc/html/harfbuzz/a-simple-shaping-example.html
@@ -124,6 +125,7 @@ Is an implementation of the OpenType Layout engine.
 * /usr/share/gtk-doc/html/harfbuzz/api-index-10-2-0.html
 * /usr/share/gtk-doc/html/harfbuzz/api-index-10-3-0.html
 * /usr/share/gtk-doc/html/harfbuzz/api-index-10-4-0.html
+* /usr/share/gtk-doc/html/harfbuzz/api-index-11-0-0.html
 * /usr/share/gtk-doc/html/harfbuzz/api-index-2-0-0.html
 * /usr/share/gtk-doc/html/harfbuzz/api-index-2-1-0.html
 * /usr/share/gtk-doc/html/harfbuzz/api-index-2-2-0.html
@@ -186,6 +188,7 @@ Is an implementation of the OpenType Layout engine.
 * /usr/share/gtk-doc/html/harfbuzz/harfbuzz-hb-face.html
 * /usr/share/gtk-doc/html/harfbuzz/harfbuzz-hb-features.html
 * /usr/share/gtk-doc/html/harfbuzz/harfbuzz-hb-font.html
+* /usr/share/gtk-doc/html/harfbuzz/harfbuzz-hb-fontations.html
 * /usr/share/gtk-doc/html/harfbuzz/harfbuzz-hb-ft.html
 * /usr/share/gtk-doc/html/harfbuzz/harfbuzz-hb-gdi.html
 * /usr/share/gtk-doc/html/harfbuzz/harfbuzz-hb-glib.html

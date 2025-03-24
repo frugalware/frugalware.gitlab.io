@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gcc-g++ 14_20250315-1"
-version = "14_20250315-1"
+title = "gcc-g++ 14_20250322-1"
+version = "14_20250322-1"
 description = "C++ support for GCC"
-date = "2025-03-17T14:42:19"
+date = "2025-03-24T11:35:27"
 aliases = "/packages/60523"
 categories = ['devel']
 upstreamurl = "http://gcc.gnu.org"
 arch = "x86_64"
-size = "13713440"
-usize = "47391174"
-sha1sum = "025e1581ea29b2be009c6585235e68bb985de790"
+size = "13721416"
+usize = "47391030"
+sha1sum = "8edb2695ab15f1bdf29a8da4049a7c5c937901b1"
 depends = "['gcc', 'libstdc++', 'zstd']"
 reverse_depends = "['gcc-objc++']"
 +++

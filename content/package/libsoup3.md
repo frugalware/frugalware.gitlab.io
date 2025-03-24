@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libsoup3 3.6.4-1"
-version = "3.6.4-1"
+title = "libsoup3 3.6.5-1"
+version = "3.6.5-1"
 description = "An HTTP library implementation in C"
-date = "2025-01-17T10:58:53"
+date = "2025-03-24T12:02:07"
 aliases = "/packages/220901"
 categories = ['lib']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "1607492"
-usize = "8753659"
-sha1sum = "84245fce677126212a0246f7284a1e96c77aeaed"
+size = "1611808"
+usize = "8770457"
+sha1sum = "40785a8c58e76d3d2f46e4e6a2f9601ac46b85df"
 depends = "['brotli', 'glib-networking', 'glib2', 'libpsl', 'libsysprof-capture', 'nghttp2', 'sqlite3']"
 reverse_depends = "['geoclue2', 'gssdp', 'gvfs', 'libosinfo', 'librest', 'passim', 'remmina', 'seahorse']"
 +++
@@ -63,7 +63,7 @@ An HTTP library implementation in C
 * /usr/lib/girepository-1.0/Soup-3.0.typelib
 * /usr/lib/libsoup-3.0.so
 * /usr/lib/libsoup-3.0.so.0
-* /usr/lib/libsoup-3.0.so.0.7.3
+* /usr/lib/libsoup-3.0.so.0.7.4
 * /usr/lib/pkgconfig/libsoup-3.0.pc
 * /usr/share/doc/libsoup-3.0/build-howto.html
 * /usr/share/doc/libsoup-3.0/callback.AuthDomainBasicAuthCallback.html
@@ -410,7 +410,6 @@ An HTTP library implementation in C
 * /usr/share/doc/libsoup-3.0/method.MessageHeaders.set_range.html
 * /usr/share/doc/libsoup-3.0/method.MessageHeaders.set_ranges.html
 * /usr/share/doc/libsoup-3.0/method.MessageHeaders.unref.html
-* /usr/share/doc/libsoup-3.0/method.MessageHeadersIter.next.html
 * /usr/share/doc/libsoup-3.0/method.MessageMetrics.copy.html
 * /usr/share/doc/libsoup-3.0/method.MessageMetrics.free.html
 * /usr/share/doc/libsoup-3.0/method.MessageMetrics.get_connect_end.html
@@ -718,6 +717,7 @@ An HTTP library implementation in C
 * /usr/share/doc/libsoup-3.0/type_func.AuthNegotiate.supported.html
 * /usr/share/doc/libsoup-3.0/type_func.Cookie.parse.html
 * /usr/share/doc/libsoup-3.0/type_func.MessageHeadersIter.init.html
+* /usr/share/doc/libsoup-3.0/type_func.MessageHeadersIter.next.html
 * /usr/share/doc/libsoup-3.0/type_func.SessionError.quark.html
 * /usr/share/doc/libsoup-3.0/type_func.Status.get_phrase.html
 * /usr/share/doc/libsoup-3.0/type_func.TLDError.quark.html
@@ -751,10 +751,10 @@ An HTTP library implementation in C
 * /usr/share/doc/libsoup-3.0/vfunc.WebsocketExtension.get_response_params.html
 * /usr/share/doc/libsoup-3.0/vfunc.WebsocketExtension.process_incoming_message.html
 * /usr/share/doc/libsoup-3.0/vfunc.WebsocketExtension.process_outgoing_message.html
-* /usr/share/doc/libsoup3-3.6.4/AUTHORS
-* /usr/share/doc/libsoup3-3.6.4/COPYING
-* /usr/share/doc/libsoup3-3.6.4/HACKING
-* /usr/share/doc/libsoup3-3.6.4/NEWS
-* /usr/share/doc/libsoup3-3.6.4/README
-* /usr/share/doc/libsoup3-3.6.4/README.msvc
+* /usr/share/doc/libsoup3-3.6.5/AUTHORS
+* /usr/share/doc/libsoup3-3.6.5/COPYING
+* /usr/share/doc/libsoup3-3.6.5/HACKING
+* /usr/share/doc/libsoup3-3.6.5/NEWS
+* /usr/share/doc/libsoup3-3.6.5/README
+* /usr/share/doc/libsoup3-3.6.5/README.msvc
 * /usr/share/gir-1.0/Soup-3.0.gir
