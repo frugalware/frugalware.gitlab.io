@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gtksourceview5-doc 5.14.2-1"
-version = "5.14.2-1"
+title = "gtksourceview5-doc 5.16.0-1"
+version = "5.16.0-1"
 description = "gtksourceview5 documention"
-date = "2024-11-22T09:06:32"
+date = "2025-03-24T12:13:36"
 aliases = "/packages/222582"
 categories = ['gnome-docs']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "1287540"
-usize = "7600177"
-sha1sum = "55d9cb2fd66d6d8232229712bdf3bd64192a40c3"
-depends = "['gtksourceview5>=5.14.2']"
+size = "1292120"
+usize = "7648216"
+sha1sum = "f6cfc68249d06660864127c954207f28827b95de"
+depends = "['gtksourceview5>=5.16.0']"
 +++
 ### Description: 
 gtksourceview5 documention
@@ -260,6 +260,7 @@ gtksourceview5 documention
 * /usr/share/doc/gtksourceview5/method.GutterLines.get_first.html
 * /usr/share/doc/gtksourceview5/method.GutterLines.get_iter_at_line.html
 * /usr/share/doc/gtksourceview5/method.GutterLines.get_last.html
+* /usr/share/doc/gtksourceview5/method.GutterLines.get_line_extent.html
 * /usr/share/doc/gtksourceview5/method.GutterLines.get_line_yrange.html
 * /usr/share/doc/gtksourceview5/method.GutterLines.get_view.html
 * /usr/share/doc/gtksourceview5/method.GutterLines.has_any_class.html

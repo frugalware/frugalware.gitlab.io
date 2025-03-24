@@ -12,7 +12,7 @@ size = "2860724"
 usize = "11218398"
 sha1sum = "f39c1a41a37d0164fcf95139c064f848a598df3d"
 depends = "['libassuan>=3.0.1', 'libksba>=1.3.5-2', 'libsystemd>=231-22', 'libusb1', 'ncurses>=6.0-12', 'npth>=1.5-2', 'readline>=8.0', 'sqlite3>=3.9.2-4']"
-reverse_depends = "['kernel-initrd', 'kernel-lts-initrd', 'qca-gnupg', 'seahorse']"
+reverse_depends = "['gcr', 'kernel-initrd', 'kernel-lts-initrd', 'qca-gnupg', 'seahorse']"
 +++
 ### Description: 
 GnuPG2 is the new modularized version of GnuPG supporting OpenPGP and S/MIME

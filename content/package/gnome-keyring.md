@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gnome-keyring 46.2-1"
-version = "46.2-1"
+title = "gnome-keyring 48.0-1"
+version = "48.0-1"
 description = "Password and keyring managing daemon for GNOME"
-date = "2024-08-04T18:38:55"
+date = "2025-03-24T12:28:18"
 aliases = "/packages/220428"
 categories = ['gnome']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "969508"
-usize = "5064543"
-sha1sum = "261a6d6ab8c80dfff8fe4af996dff01f437e2d97"
-depends = "['gcr>=4.0.0', 'gcr-1', 'openssh']"
+size = "836652"
+usize = "4331806"
+sha1sum = "495ef5002cda1540eb430342c3a970d944f13255"
+depends = "['gcr>=4.0.0', 'gcr-1', 'libsystemd', 'openssh']"
 +++
 ### Description: 
 Password and keyring managing daemon for GNOME
@@ -19,7 +19,6 @@ Password and keyring managing daemon for GNOME
 ### Files: 
 * /etc/xdg/autostart/gnome-keyring-pkcs11.desktop
 * /etc/xdg/autostart/gnome-keyring-secrets.desktop
-* /etc/xdg/autostart/gnome-keyring-ssh.desktop
 * /usr/bin/gnome-keyring
 * /usr/bin/gnome-keyring-3
 * /usr/bin/gnome-keyring-daemon
@@ -29,17 +28,16 @@ Password and keyring managing daemon for GNOME
 * /usr/lib/gnome-keyring/devel/gkm-xdg-store-standalone.so
 * /usr/lib/pkcs11/gnome-keyring-pkcs11.so
 * /usr/lib/security/pam_gnome_keyring.so
+* /usr/lib/systemd/user/gnome-keyring-daemon.service
+* /usr/lib/systemd/user/gnome-keyring-daemon.socket
 * /usr/share/dbus-1/services/org.freedesktop.impl.portal.Secret.service
 * /usr/share/dbus-1/services/org.freedesktop.secrets.service
 * /usr/share/dbus-1/services/org.gnome.keyring.service
-* /usr/share/doc/gnome-keyring-46.2/AUTHORS
-* /usr/share/doc/gnome-keyring-46.2/ChangeLog
-* /usr/share/doc/gnome-keyring-46.2/COPYING
-* /usr/share/doc/gnome-keyring-46.2/COPYING.LIB
-* /usr/share/doc/gnome-keyring-46.2/HACKING
-* /usr/share/doc/gnome-keyring-46.2/INSTALL
-* /usr/share/doc/gnome-keyring-46.2/NEWS
-* /usr/share/doc/gnome-keyring-46.2/README
+* /usr/share/doc/gnome-keyring-48.0/COPYING
+* /usr/share/doc/gnome-keyring-48.0/COPYING.LIB
+* /usr/share/doc/gnome-keyring-48.0/HACKING
+* /usr/share/doc/gnome-keyring-48.0/NEWS
+* /usr/share/doc/gnome-keyring-48.0/README
 * /usr/share/GConf/gsettings/org.gnome.crypto.cache.convert
 * /usr/share/glib-2.0/schemas/org.gnome.crypto.cache.gschema.xml
 * /usr/share/locale/ab/LC_MESSAGES/gnome-keyring.mo

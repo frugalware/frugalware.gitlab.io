@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libquotient 0.9.2-2"
-version = "0.9.2-2"
+title = "libquotient 0.9.3-1"
+version = "0.9.3-1"
 description = "A Qt library to write cross-platform clients for Matrix"
-date = "2025-02-04T08:55:39"
+date = "2025-03-24T13:08:14"
 aliases = "/packages/220989"
 categories = ['lib-extra']
 upstreamurl = "https://matrix.org/docs/projects/sdk/quotient"
 arch = "x86_64"
-size = "948772"
-usize = "4128320"
-sha1sum = "3d21535f9f086d89efadd34db498e6a0404c57c9"
+size = "951020"
+usize = "4140799"
+sha1sum = "1d2b62109cd60795eb9ad7654c10f7b74c514f75"
 depends = "['olm', 'qt6-multimedia>=6.8.2', 'qtkeychain']"
 reverse_depends = "['itinerary', 'neochat']"
 +++
@@ -189,8 +189,8 @@ A Qt library to write cross-platform clients for Matrix
 * /usr/lib/cmake/QuotientQt6/QuotientQt6Targets.cmake
 * /usr/lib/libQuotientQt6.so
 * /usr/lib/libQuotientQt6.so.0.9
-* /usr/lib/libQuotientQt6.so.0.9.2
+* /usr/lib/libQuotientQt6.so.0.9.3
 * /usr/lib/pkgconfig/QuotientQt6.pc
-* /usr/share/doc/libquotient-0.9.2/COPYING
-* /usr/share/doc/libquotient-0.9.2/README.md
+* /usr/share/doc/libquotient-0.9.3/COPYING
+* /usr/share/doc/libquotient-0.9.3/README.md
 * /usr/share/ndk-modules/Android.mk

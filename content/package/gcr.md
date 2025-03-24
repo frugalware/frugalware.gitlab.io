@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gcr 4.3.0-1"
-version = "4.3.0-1"
+title = "gcr 4.4.0.1-1"
+version = "4.4.0.1-1"
 description = "A library for bits of crypto UI"
-date = "2024-08-04T18:17:54"
+date = "2025-03-24T12:20:17"
 aliases = "/packages/153001"
 categories = ['gnome']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "1570412"
-usize = "9716432"
-sha1sum = "a42d604e6c6596605856ada5dd243c8bf810ba6e"
-depends = "['gtk+4', 'libsecret']"
+size = "1762552"
+usize = "11312918"
+sha1sum = "6a8b9ef77770a842aca8f66e9833045196b8a26a"
+depends = "['gnupg2', 'gtk+4', 'libsecret']"
 reverse_depends = "['gcr-doc', 'gnome-keyring', 'gvfs', 'libnma', 'pinentry-gnome']"
 +++
 ### Description: 
@@ -25,6 +25,9 @@ A library for bits of crypto UI
 * /usr/include/gck-2/gck/pkcs11n.h
 * /usr/include/gck-2/gck/pkcs11x.h
 * /usr/include/gcr-4/gcr/gcr-certificate-chain.h
+* /usr/include/gcr-4/gcr/gcr-certificate-extension-list.h
+* /usr/include/gcr-4/gcr/gcr-certificate-extension.h
+* /usr/include/gcr-4/gcr/gcr-certificate-extensions.h
 * /usr/include/gcr-4/gcr/gcr-certificate-field.h
 * /usr/include/gcr-4/gcr/gcr-certificate-request.h
 * /usr/include/gcr-4/gcr/gcr-certificate-section.h
@@ -42,6 +45,7 @@ A library for bits of crypto UI
 * /usr/include/gcr-4/gcr/gcr-secure-memory.h
 * /usr/include/gcr-4/gcr/gcr-simple-certificate.h
 * /usr/include/gcr-4/gcr/gcr-ssh-askpass.h
+* /usr/include/gcr-4/gcr/gcr-subject-public-key-info.h
 * /usr/include/gcr-4/gcr/gcr-system-prompt.h
 * /usr/include/gcr-4/gcr/gcr-system-prompter.h
 * /usr/include/gcr-4/gcr/gcr-trust.h
@@ -55,10 +59,10 @@ A library for bits of crypto UI
 * /usr/lib/girepository-1.0/Gcr-4.typelib
 * /usr/lib/libgck-2.so
 * /usr/lib/libgck-2.so.2
-* /usr/lib/libgck-2.so.2.3.0
+* /usr/lib/libgck-2.so.2.4.0
 * /usr/lib/libgcr-4.so
 * /usr/lib/libgcr-4.so.4
-* /usr/lib/libgcr-4.so.4.3.0
+* /usr/lib/libgcr-4.so.4.4.0
 * /usr/lib/pkgconfig/gck-2.pc
 * /usr/lib/pkgconfig/gcr-4.pc
 * /usr/share/doc/gck-2/callback.Allocator.html
@@ -423,13 +427,30 @@ A library for bits of crypto UI
 * /usr/share/doc/gck-2/vfunc.Module.authenticate_slot.html
 * /usr/share/doc/gck-2/vfunc.ObjectCache.fill.html
 * /usr/share/doc/gck-2/vfunc.Session.discard_handle.html
-* /usr/share/doc/gcr-4.3.0/COPYING
-* /usr/share/doc/gcr-4.3.0/NEWS
-* /usr/share/doc/gcr-4.3.0/README.md
+* /usr/share/doc/gcr-4.4.0.1/COPYING
+* /usr/share/doc/gcr-4.4.0.1/NEWS
+* /usr/share/doc/gcr-4.4.0.1/README.md
+* /usr/share/doc/gcr-4/class.AccessDescription.html
 * /usr/share/doc/gcr-4/class.CertificateChain.html
+* /usr/share/doc/gcr-4/class.CertificateExtension.html
+* /usr/share/doc/gcr-4/class.CertificateExtensionAuthorityInfoAccess.html
+* /usr/share/doc/gcr-4/class.CertificateExtensionAuthorityKeyIdentifier.html
+* /usr/share/doc/gcr-4/class.CertificateExtensionBasicConstraints.html
+* /usr/share/doc/gcr-4/class.CertificateExtensionCertificatePolicies.html
+* /usr/share/doc/gcr-4/class.CertificateExtensionCrlDistributionPoints.html
+* /usr/share/doc/gcr-4/class.CertificateExtensionExtendedKeyUsage.html
+* /usr/share/doc/gcr-4/class.CertificateExtensionKeyUsage.html
+* /usr/share/doc/gcr-4/class.CertificateExtensionList.html
+* /usr/share/doc/gcr-4/class.CertificateExtensionSubjectAltName.html
+* /usr/share/doc/gcr-4/class.CertificateExtensionSubjectKeyIdentifier.html
 * /usr/share/doc/gcr-4/class.CertificateField.html
+* /usr/share/doc/gcr-4/class.CertificatePolicy.html
+* /usr/share/doc/gcr-4/class.CertificatePolicyQualifier.html
 * /usr/share/doc/gcr-4/class.CertificateRequest.html
 * /usr/share/doc/gcr-4/class.CertificateSection.html
+* /usr/share/doc/gcr-4/class.DistributionPoint.html
+* /usr/share/doc/gcr-4/class.GeneralName.html
+* /usr/share/doc/gcr-4/class.GeneralNames.html
 * /usr/share/doc/gcr-4/class.Parser.html
 * /usr/share/doc/gcr-4/class.Pkcs11Certificate.html
 * /usr/share/doc/gcr-4/class.SecretExchange.html
@@ -530,6 +551,9 @@ A library for bits of crypto UI
 * /usr/share/doc/gcr-4/index.html
 * /usr/share/doc/gcr-4/index.json
 * /usr/share/doc/gcr-4/main.js
+* /usr/share/doc/gcr-4/method.AccessDescription.get_location.html
+* /usr/share/doc/gcr-4/method.AccessDescription.get_method_name.html
+* /usr/share/doc/gcr-4/method.AccessDescription.get_method_oid.html
 * /usr/share/doc/gcr-4/method.Certificate.get_basic_constraints.html
 * /usr/share/doc/gcr-4/method.Certificate.get_der_data.html
 * /usr/share/doc/gcr-4/method.Certificate.get_expiry_date.html
@@ -543,6 +567,7 @@ A library for bits of crypto UI
 * /usr/share/doc/gcr-4/method.Certificate.get_issuer_part.html
 * /usr/share/doc/gcr-4/method.Certificate.get_issuer_raw.html
 * /usr/share/doc/gcr-4/method.Certificate.get_key_size.html
+* /usr/share/doc/gcr-4/method.Certificate.get_public_key_info.html
 * /usr/share/doc/gcr-4/method.Certificate.get_serial_number.html
 * /usr/share/doc/gcr-4/method.Certificate.get_serial_number_hex.html
 * /usr/share/doc/gcr-4/method.Certificate.get_subject_cn.html
@@ -552,6 +577,7 @@ A library for bits of crypto UI
 * /usr/share/doc/gcr-4/method.Certificate.get_subject_raw.html
 * /usr/share/doc/gcr-4/method.Certificate.get_version.html
 * /usr/share/doc/gcr-4/method.Certificate.is_issuer.html
+* /usr/share/doc/gcr-4/method.Certificate.list_extensions.html
 * /usr/share/doc/gcr-4/method.Certificate.mixin_emit_notify.html
 * /usr/share/doc/gcr-4/method.CertificateChain.add.html
 * /usr/share/doc/gcr-4/method.CertificateChain.build.html
@@ -562,10 +588,34 @@ A library for bits of crypto UI
 * /usr/share/doc/gcr-4/method.CertificateChain.get_endpoint.html
 * /usr/share/doc/gcr-4/method.CertificateChain.get_length.html
 * /usr/share/doc/gcr-4/method.CertificateChain.get_status.html
+* /usr/share/doc/gcr-4/method.CertificateExtension.get_description.html
+* /usr/share/doc/gcr-4/method.CertificateExtension.get_oid.html
+* /usr/share/doc/gcr-4/method.CertificateExtension.get_value.html
+* /usr/share/doc/gcr-4/method.CertificateExtension.is_critical.html
+* /usr/share/doc/gcr-4/method.CertificateExtensionAuthorityInfoAccess.get_description.html
+* /usr/share/doc/gcr-4/method.CertificateExtensionAuthorityKeyIdentifier.get_authority_cert_issuer.html
+* /usr/share/doc/gcr-4/method.CertificateExtensionAuthorityKeyIdentifier.get_authority_cert_serial_number.html
+* /usr/share/doc/gcr-4/method.CertificateExtensionAuthorityKeyIdentifier.get_key_id.html
+* /usr/share/doc/gcr-4/method.CertificateExtensionBasicConstraints.get_path_len_constraint.html
+* /usr/share/doc/gcr-4/method.CertificateExtensionBasicConstraints.is_ca.html
+* /usr/share/doc/gcr-4/method.CertificateExtensionCertificatePolicies.get_policy.html
+* /usr/share/doc/gcr-4/method.CertificateExtensionCrlDistributionPoints.get_distribution_point.html
+* /usr/share/doc/gcr-4/method.CertificateExtensionExtendedKeyUsage.get_descriptions.html
+* /usr/share/doc/gcr-4/method.CertificateExtensionExtendedKeyUsage.get_oids.html
+* /usr/share/doc/gcr-4/method.CertificateExtensionKeyUsage.get_descriptions.html
+* /usr/share/doc/gcr-4/method.CertificateExtensionKeyUsage.get_usages.html
+* /usr/share/doc/gcr-4/method.CertificateExtensionList.find_by_oid.html
+* /usr/share/doc/gcr-4/method.CertificateExtensionList.get_extension.html
+* /usr/share/doc/gcr-4/method.CertificateExtensionSubjectAltName.get_name.html
+* /usr/share/doc/gcr-4/method.CertificateExtensionSubjectKeyIdentifier.get_key_id.html
 * /usr/share/doc/gcr-4/method.CertificateField.get_label.html
 * /usr/share/doc/gcr-4/method.CertificateField.get_section.html
 * /usr/share/doc/gcr-4/method.CertificateField.get_value.html
 * /usr/share/doc/gcr-4/method.CertificateField.get_value_type.html
+* /usr/share/doc/gcr-4/method.CertificatePolicy.get_name.html
+* /usr/share/doc/gcr-4/method.CertificatePolicy.get_oid.html
+* /usr/share/doc/gcr-4/method.CertificatePolicyQualifier.get_name.html
+* /usr/share/doc/gcr-4/method.CertificatePolicyQualifier.get_oid.html
 * /usr/share/doc/gcr-4/method.CertificateRequest.complete.html
 * /usr/share/doc/gcr-4/method.CertificateRequest.complete_async.html
 * /usr/share/doc/gcr-4/method.CertificateRequest.complete_finish.html
@@ -576,6 +626,12 @@ A library for bits of crypto UI
 * /usr/share/doc/gcr-4/method.CertificateSection.get_fields.html
 * /usr/share/doc/gcr-4/method.CertificateSection.get_flags.html
 * /usr/share/doc/gcr-4/method.CertificateSection.get_label.html
+* /usr/share/doc/gcr-4/method.DistributionPoint.get_full_name.html
+* /usr/share/doc/gcr-4/method.DistributionPoint.get_relative_name_part.html
+* /usr/share/doc/gcr-4/method.GeneralName.get_description.html
+* /usr/share/doc/gcr-4/method.GeneralName.get_value.html
+* /usr/share/doc/gcr-4/method.GeneralName.get_value_raw.html
+* /usr/share/doc/gcr-4/method.GeneralNames.get_name.html
 * /usr/share/doc/gcr-4/method.Importer.get_interaction.html
 * /usr/share/doc/gcr-4/method.Importer.import_async.html
 * /usr/share/doc/gcr-4/method.Importer.import_finish.html
@@ -649,6 +705,13 @@ A library for bits of crypto UI
 * /usr/share/doc/gcr-4/method.SecretExchange.receive.html
 * /usr/share/doc/gcr-4/method.SecretExchange.send.html
 * /usr/share/doc/gcr-4/method.SshAskpass.get_interaction.html
+* /usr/share/doc/gcr-4/method.SubjectPublicKeyInfo.copy.html
+* /usr/share/doc/gcr-4/method.SubjectPublicKeyInfo.free.html
+* /usr/share/doc/gcr-4/method.SubjectPublicKeyInfo.get_algorithm_description.html
+* /usr/share/doc/gcr-4/method.SubjectPublicKeyInfo.get_algorithm_oid.html
+* /usr/share/doc/gcr-4/method.SubjectPublicKeyInfo.get_algorithm_parameters_raw.html
+* /usr/share/doc/gcr-4/method.SubjectPublicKeyInfo.get_key.html
+* /usr/share/doc/gcr-4/method.SubjectPublicKeyInfo.get_key_size.html
 * /usr/share/doc/gcr-4/method.SystemPrompt.close.html
 * /usr/share/doc/gcr-4/method.SystemPrompt.close_async.html
 * /usr/share/doc/gcr-4/method.SystemPrompt.close_finish.html
@@ -667,6 +730,13 @@ A library for bits of crypto UI
 * /usr/share/doc/gcr-4/property.Certificate.subject-name.html
 * /usr/share/doc/gcr-4/property.CertificateChain.length.html
 * /usr/share/doc/gcr-4/property.CertificateChain.status.html
+* /usr/share/doc/gcr-4/property.CertificateExtension.critical.html
+* /usr/share/doc/gcr-4/property.CertificateExtension.oid.html
+* /usr/share/doc/gcr-4/property.CertificateExtension.value.html
+* /usr/share/doc/gcr-4/property.CertificateExtensionAuthorityInfoAccess.n-items.html
+* /usr/share/doc/gcr-4/property.CertificateExtensionCertificatePolicies.n-items.html
+* /usr/share/doc/gcr-4/property.CertificateExtensionCrlDistributionPoints.n-items.html
+* /usr/share/doc/gcr-4/property.CertificateExtensionList.n-items.html
 * /usr/share/doc/gcr-4/property.CertificateField.label.html
 * /usr/share/doc/gcr-4/property.CertificateField.section.html
 * /usr/share/doc/gcr-4/property.CertificateField.value.html
@@ -740,6 +810,7 @@ A library for bits of crypto UI
 * /usr/share/doc/gcr-4/SourceCodePro-Regular.ttf.woff
 * /usr/share/doc/gcr-4/SourceCodePro-Semibold.ttf.woff
 * /usr/share/doc/gcr-4/struct.Parsed.html
+* /usr/share/doc/gcr-4/struct.SubjectPublicKeyInfo.html
 * /usr/share/doc/gcr-4/style.css
 * /usr/share/doc/gcr-4/trust-store.html
 * /usr/share/doc/gcr-4/type_func.Certificate.mixin_class_init.html
@@ -789,6 +860,96 @@ A library for bits of crypto UI
 * /usr/share/doc/gcr-4/vfunc.SystemPrompter.new_prompt.html
 * /usr/share/gir-1.0/Gck-2.gir
 * /usr/share/gir-1.0/Gcr-4.gir
+* /usr/share/locale/ab/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/af/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/ar/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/as/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/ast/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/az/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/be/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/be@latin/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/bg/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/bn/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/bn_IN/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/bs/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/ca/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/ckb/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/cs/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/cy/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/da/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/de/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/dz/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/el/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/en@shaw/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/en_CA/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/eo/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/es/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/et/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/eu/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/fa/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/fi/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/fr/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/fur/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/ga/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/gl/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/gu/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/he/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/hi/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/hr/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/hu/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/id/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/ie/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/is/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/it/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/ja/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/ka/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/kab/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/kk/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/kn/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/ko/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/lt/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/lv/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/mai/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/mg/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/mk/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/ml/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/mn/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/mr/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/ms/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/nb/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/ne/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/nl/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/nn/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/oc/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/or/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/pa/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/pl/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/pt/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/ro/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/ru/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/rw/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/si/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/sk/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/sl/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/sq/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/sr/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/sr@latin/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/sv/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/ta/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/te/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/tg/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/th/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/tr/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/ug/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/uk/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/vi/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/xh/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/zh_HK/LC_MESSAGES/gcr-4.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/gcr-4.mo
 * /usr/share/vala/vapi/gck-2.deps
 * /usr/share/vala/vapi/gck-2.vapi
 * /usr/share/vala/vapi/gcr-4.deps
