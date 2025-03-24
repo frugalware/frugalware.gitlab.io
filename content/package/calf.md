@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "calf 0.90.4-1"
-version = "0.90.4-1"
+title = "calf 0.90.5-1"
+version = "0.90.5-1"
 description = "LV2/DSSI/LADSPA plug-in suite and standalone Jack host"
-date = "2024-11-27T12:46:23"
+date = "2025-03-24T13:25:54"
 aliases = "/packages/219829"
 categories = ['apps-extra']
 upstreamurl = "https://calf-studio-gear.org"
 arch = "x86_64"
-size = "13479232"
-usize = "22785890"
-sha1sum = "5aa2f0ebbc864b352a1e3c548c2ba0f38a135daf"
+size = "13364272"
+usize = "21005828"
+sha1sum = "c2a3937d8d34280e69fbf874543541266fece555"
 depends = "['dssi', 'fftw', 'fluidsynth>=2.2.5', 'gtk+2']"
 +++
 ### Description: 
@@ -20,123 +20,9 @@ LV2/DSSI/LADSPA plug-in suite and standalone Jack host
 * /usr/bin/calfjackhost
 * /usr/lib/calf/libcalf.so
 * /usr/lib/calf/libcalflv2gui.so
-* /usr/lib/lv2/calf.lv2/Analyzer.ttl
-* /usr/lib/lv2/calf.lv2/BassEnhancer.ttl
 * /usr/lib/lv2/calf.lv2/calf.so
 * /usr/lib/lv2/calf.lv2/calflv2gui.so
-* /usr/lib/lv2/calf.lv2/CompensationDelay.ttl
-* /usr/lib/lv2/calf.lv2/Compressor.ttl
-* /usr/lib/lv2/calf.lv2/Crusher.ttl
-* /usr/lib/lv2/calf.lv2/Deesser.ttl
-* /usr/lib/lv2/calf.lv2/Emphasis.ttl
-* /usr/lib/lv2/calf.lv2/EnvelopeFilter.ttl
-* /usr/lib/lv2/calf.lv2/Equalizer12Band.ttl
-* /usr/lib/lv2/calf.lv2/Equalizer30Band.ttl
-* /usr/lib/lv2/calf.lv2/Equalizer5Band.ttl
-* /usr/lib/lv2/calf.lv2/Equalizer8Band.ttl
-* /usr/lib/lv2/calf.lv2/Exciter.ttl
-* /usr/lib/lv2/calf.lv2/Filter.ttl
-* /usr/lib/lv2/calf.lv2/Filterclavier.ttl
-* /usr/lib/lv2/calf.lv2/Flanger.ttl
-* /usr/lib/lv2/calf.lv2/Fluidsynth.ttl
-* /usr/lib/lv2/calf.lv2/Gate.ttl
-* /usr/lib/lv2/calf.lv2/HaasEnhancer.ttl
-* /usr/lib/lv2/calf.lv2/Limiter.ttl
-* /usr/lib/lv2/calf.lv2/manifest.ttl
-* /usr/lib/lv2/calf.lv2/MonoCompressor.ttl
-* /usr/lib/lv2/calf.lv2/MonoInput.ttl
-* /usr/lib/lv2/calf.lv2/Monosynth.ttl
-* /usr/lib/lv2/calf.lv2/MultibandCompressor.ttl
-* /usr/lib/lv2/calf.lv2/MultibandEnhancer.ttl
-* /usr/lib/lv2/calf.lv2/MultibandGate.ttl
-* /usr/lib/lv2/calf.lv2/MultibandLimiter.ttl
-* /usr/lib/lv2/calf.lv2/MultiChorus.ttl
-* /usr/lib/lv2/calf.lv2/MultiSpread.ttl
-* /usr/lib/lv2/calf.lv2/Organ.ttl
-* /usr/lib/lv2/calf.lv2/Phaser.ttl
-* /usr/lib/lv2/calf.lv2/Pitch.ttl
-* /usr/lib/lv2/calf.lv2/presets-Filter.ttl
-* /usr/lib/lv2/calf.lv2/presets-Flanger.ttl
-* /usr/lib/lv2/calf.lv2/presets-MonoCompressor.ttl
-* /usr/lib/lv2/calf.lv2/presets-Monosynth.ttl
-* /usr/lib/lv2/calf.lv2/presets-Organ.ttl
-* /usr/lib/lv2/calf.lv2/presets-Reverb.ttl
-* /usr/lib/lv2/calf.lv2/presets-Wavetable.ttl
-* /usr/lib/lv2/calf.lv2/PsyClipper.ttl
-* /usr/lib/lv2/calf.lv2/Pulsator.ttl
-* /usr/lib/lv2/calf.lv2/Reverb.ttl
-* /usr/lib/lv2/calf.lv2/ReverseDelay.ttl
-* /usr/lib/lv2/calf.lv2/RingModulator.ttl
-* /usr/lib/lv2/calf.lv2/RotarySpeaker.ttl
-* /usr/lib/lv2/calf.lv2/Saturator.ttl
-* /usr/lib/lv2/calf.lv2/SidechainCompressor.ttl
-* /usr/lib/lv2/calf.lv2/SidechainGate.ttl
-* /usr/lib/lv2/calf.lv2/SidechainLimiter.ttl
-* /usr/lib/lv2/calf.lv2/StereoTools.ttl
-* /usr/lib/lv2/calf.lv2/TapeSimulator.ttl
-* /usr/lib/lv2/calf.lv2/TransientDesigner.ttl
-* /usr/lib/lv2/calf.lv2/VintageDelay.ttl
-* /usr/lib/lv2/calf.lv2/Vinyl.ttl
-* /usr/lib/lv2/calf.lv2/Vocoder.ttl
-* /usr/lib/lv2/calf.lv2/Wavetable.ttl
-* /usr/lib/lv2/calf.lv2/XOver2Band.ttl
-* /usr/lib/lv2/calf.lv2/XOver3Band.ttl
-* /usr/lib/lv2/calf.lv2/XOver4Band.ttl
-* /usr/share/applications/calf.desktop
-* /usr/share/bash-completion/completions/calf
 * /usr/share/calf/calf-gui.xml
-* /usr/share/calf/gui-analyzer.xml
-* /usr/share/calf/gui-bassenhancer.xml
-* /usr/share/calf/gui-compdelay.xml
-* /usr/share/calf/gui-compressor.xml
-* /usr/share/calf/gui-crusher.xml
-* /usr/share/calf/gui-deesser.xml
-* /usr/share/calf/gui-emphasis.xml
-* /usr/share/calf/gui-envelopefilter.xml
-* /usr/share/calf/gui-eq12.xml
-* /usr/share/calf/gui-eq30.xml
-* /usr/share/calf/gui-eq5.xml
-* /usr/share/calf/gui-eq8.xml
-* /usr/share/calf/gui-exciter.xml
-* /usr/share/calf/gui-filter.xml
-* /usr/share/calf/gui-filterclavier.xml
-* /usr/share/calf/gui-flanger.xml
-* /usr/share/calf/gui-fluidsynth.xml
-* /usr/share/calf/gui-gate.xml
-* /usr/share/calf/gui-haasenhancer.xml
-* /usr/share/calf/gui-limiter.xml
-* /usr/share/calf/gui-mono.xml
-* /usr/share/calf/gui-monocompressor.xml
-* /usr/share/calf/gui-monosynth.xml
-* /usr/share/calf/gui-multibandcompressor.xml
-* /usr/share/calf/gui-multibandenhancer.xml
-* /usr/share/calf/gui-multibandgate.xml
-* /usr/share/calf/gui-multibandlimiter.xml
-* /usr/share/calf/gui-multichorus.xml
-* /usr/share/calf/gui-multispread.xml
-* /usr/share/calf/gui-organ.xml
-* /usr/share/calf/gui-phaser.xml
-* /usr/share/calf/gui-pitch.xml
-* /usr/share/calf/gui-psyclipper.xml
-* /usr/share/calf/gui-pulsator.xml
-* /usr/share/calf/gui-reverb.xml
-* /usr/share/calf/gui-reversedelay.xml
-* /usr/share/calf/gui-ringmodulator.xml
-* /usr/share/calf/gui-rotaryspeaker.xml
-* /usr/share/calf/gui-saturator.xml
-* /usr/share/calf/gui-sidechaincompressor.xml
-* /usr/share/calf/gui-sidechaingate.xml
-* /usr/share/calf/gui-sidechainlimiter.xml
-* /usr/share/calf/gui-stereo.xml
-* /usr/share/calf/gui-tapesimulator.xml
-* /usr/share/calf/gui-transientdesigner.xml
-* /usr/share/calf/gui-vintagedelay.xml
-* /usr/share/calf/gui-vinyl.xml
-* /usr/share/calf/gui-vocoder.xml
-* /usr/share/calf/gui-wavetable.xml
-* /usr/share/calf/gui-xover2.xml
-* /usr/share/calf/gui-xover3.xml
-* /usr/share/calf/gui-xover4.xml
 * /usr/share/calf/gui/analyzer.xml
 * /usr/share/calf/gui/bassenhancer.xml
 * /usr/share/calf/gui/compdelay.xml
@@ -716,15 +602,14 @@ LV2/DSSI/LADSPA plug-in suite and standalone Jack host
 * /usr/share/calf/styles/Calf_Wood/tubeH2.png
 * /usr/share/calf/styles/Calf_Wood/tubeV1.png
 * /usr/share/calf/styles/Calf_Wood/tubeV2.png
-* /usr/share/doc/calf-0.90.4/AUTHORS
-* /usr/share/doc/calf-0.90.4/ChangeLog
-* /usr/share/doc/calf-0.90.4/COPYING
-* /usr/share/doc/calf-0.90.4/COPYING.GPL
-* /usr/share/doc/calf-0.90.4/INSTALL
-* /usr/share/doc/calf-0.90.4/INSTALL-CMAKE
-* /usr/share/doc/calf-0.90.4/README
-* /usr/share/doc/calf-0.90.4/README.md
-* /usr/share/doc/calf-0.90.4/TODO
+* /usr/share/doc/calf-0.90.5/AUTHORS
+* /usr/share/doc/calf-0.90.5/ChangeLog
+* /usr/share/doc/calf-0.90.5/COPYING
+* /usr/share/doc/calf-0.90.5/COPYING.GPL
+* /usr/share/doc/calf-0.90.5/INSTALL
+* /usr/share/doc/calf-0.90.5/INSTALL-AUTOMAKE
+* /usr/share/doc/calf-0.90.5/README.md
+* /usr/share/doc/calf-0.90.5/TODO
 * /usr/share/doc/calf/About.html
 * /usr/share/doc/calf/Analyzer.html
 * /usr/share/doc/calf/Bass Enhancer.html
@@ -884,5 +769,3 @@ LV2/DSSI/LADSPA plug-in suite and standalone Jack host
 * /usr/share/icons/hicolor/64x64/apps/calf_plugin.png
 * /usr/share/icons/hicolor/scalable/apps/calf.svg
 * /usr/share/icons/hicolor/scalable/apps/calf_plugin.svg
-* /usr/share/man/man1/calfjackhost.1.gz
-* /usr/share/man/man7/calf.7.gz

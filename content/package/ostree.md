@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ostree 2025.1-1"
-version = "2025.1-1"
+title = "ostree 2025.2-1"
+version = "2025.2-1"
 description = "Operating system and container binary deployment and upgrades"
-date = "2025-01-17T13:37:29"
+date = "2025-03-24T13:19:10"
 aliases = "/packages/220840"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/ostreedev/ostree"
 arch = "x86_64"
-size = "690220"
-usize = "4186336"
-sha1sum = "c15971a36e6463c00d4754cab359591946747b99"
+size = "697316"
+usize = "4219661"
+sha1sum = "e59d49485731aac92eeccd360d7d0afd8e51f1a7"
 depends = "['curl', 'fuse3', 'gpgme', 'libarchive', 'libsodium>=1.0.19', 'libsoup']"
 reverse_depends = "['flatpak']"
 +++
@@ -23,6 +23,7 @@ Operating system and container binary deployment and upgrades
 * /usr/bin/rofiles-fuse
 * /usr/include/ostree-1/ostree-async-progress.h
 * /usr/include/ostree-1/ostree-autocleanups.h
+* /usr/include/ostree-1/ostree-blob-reader.h
 * /usr/include/ostree-1/ostree-bootconfig-parser.h
 * /usr/include/ostree-1/ostree-content-writer.h
 * /usr/include/ostree-1/ostree-core.h
@@ -63,16 +64,15 @@ Operating system and container binary deployment and upgrades
 * /usr/lib/systemd/system-generators/ostree-system-generator
 * /usr/lib/systemd/system/ostree-boot-complete.service
 * /usr/lib/systemd/system/ostree-finalize-staged-hold.service
-* /usr/lib/systemd/system/ostree-finalize-staged.path
 * /usr/lib/systemd/system/ostree-finalize-staged.service
 * /usr/lib/systemd/system/ostree-prepare-root.service
 * /usr/lib/systemd/system/ostree-remount.service
 * /usr/lib/systemd/system/ostree-state-overlay@.service
 * /usr/lib/tmpfiles.d/ostree-tmpfiles.conf
 * /usr/share/bash-completion/completions/ostree
-* /usr/share/doc/ostree-2025.1/COPYING
-* /usr/share/doc/ostree-2025.1/README.md
-* /usr/share/doc/ostree-2025.1/TODO
+* /usr/share/doc/ostree-2025.2/COPYING
+* /usr/share/doc/ostree-2025.2/README.md
+* /usr/share/doc/ostree-2025.2/TODO
 * /usr/share/gir-1.0/OSTree-1.0.gir
 * /usr/share/gtk-doc/html/ostree/home.png
 * /usr/share/gtk-doc/html/ostree/index.html

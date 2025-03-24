@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "wine-devel 10.3-1"
-version = "10.3-1"
+title = "wine-devel 10.4-1"
+version = "10.4-1"
 description = "An Open Source implementation of the Windows API on top of X and Unix. (Development)"
-date = "2025-03-16T16:54:11"
+date = "2025-03-24T13:58:44"
 aliases = "/packages/136362"
 categories = ['xapps-extra']
 upstreamurl = "http://www.winehq.org"
 arch = "x86_64"
-size = "74369264"
-usize = "604775112"
-sha1sum = "a5d04106b5539e85be9f77ac4e000bdca11f061d"
+size = "74641212"
+usize = "606682457"
+sha1sum = "9befa2c3f8452f0f541671c072538b6c52559bdb"
 depends = "['faudio', 'gettext', 'gst1-plugins-base', 'lcms2', 'lib32-faudio', 'lib32-freetype2', 'lib32-lcms2', 'lib32-libldap>=2.5.4', 'lib32-libosmesa', 'lib32-libxcomposite', 'lib32-libxcursor', 'lib32-libxi', 'lib32-libxinerama', 'lib32-libxkbcommon', 'lib32-libxml2', 'lib32-libxrandr', 'lib32-libxrender', 'lib32-ncurses', 'lib32-ocl-icd', 'lib32-vkd3d', 'lib32-vulkan-icd-loader', 'lib32-wayland', 'libglu', 'libgphoto2', 'libldap>=2.5.4', 'libmpg123', 'libosmesa', 'libpcap', 'libpulse', 'libxcomposite', 'libxcursor', 'libxi', 'libxinerama', 'libxkbcommon', 'libxml2', 'libxrandr', 'libxrender', 'libxslt', 'ocl-icd', 'openal', 'pcsc-lite', 'sane-backends', 'v4l-utils', 'vkd3d', 'vulkan-icd-loader', 'wayland']"
 +++
 ### Description: 
@@ -721,6 +721,11 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/include/wine/windows/mmstream.h
 * /usr/include/wine/windows/mmstream.idl
 * /usr/include/wine/windows/mmsystem.h
+* /usr/include/wine/windows/mpeg2bits.h
+* /usr/include/wine/windows/mpeg2data.h
+* /usr/include/wine/windows/mpeg2data.idl
+* /usr/include/wine/windows/mpeg2structs.h
+* /usr/include/wine/windows/mpeg2structs.idl
 * /usr/include/wine/windows/mpegtype.h
 * /usr/include/wine/windows/mpegtype.idl
 * /usr/include/wine/windows/mprapi.h
@@ -902,6 +907,8 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/include/wine/windows/rmxftmpl.h
 * /usr/include/wine/windows/rmxftmpl.x
 * /usr/include/wine/windows/roapi.h
+* /usr/include/wine/windows/robuffer.h
+* /usr/include/wine/windows/robuffer.idl
 * /usr/include/wine/windows/roerrorapi.h
 * /usr/include/wine/windows/rometadata.h
 * /usr/include/wine/windows/rometadataresolution.h
@@ -1460,6 +1467,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib/wine/i386-unix/crtdll.dll.so
 * /usr/lib/wine/i386-unix/crypt32.dll.so
 * /usr/lib/wine/i386-unix/crypt32.so
+* /usr/lib/wine/i386-unix/cryptbase.dll.so
 * /usr/lib/wine/i386-unix/cryptdlg.dll.so
 * /usr/lib/wine/i386-unix/cryptdll.dll.so
 * /usr/lib/wine/i386-unix/cryptext.dll.so
@@ -1712,6 +1720,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib/wine/i386-unix/libcrypt32.a
 * /usr/lib/wine/i386-unix/libcryptdll.a
 * /usr/lib/wine/i386-unix/libcryptnet.a
+* /usr/lib/wine/i386-unix/libcryptsp.a
 * /usr/lib/wine/i386-unix/libcryptui.a
 * /usr/lib/wine/i386-unix/libd2d1.a
 * /usr/lib/wine/i386-unix/libd3d10.a
@@ -1740,6 +1749,8 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib/wine/i386-unix/libd3dx11.a
 * /usr/lib/wine/i386-unix/libd3dx11_42.a
 * /usr/lib/wine/i386-unix/libd3dx9.a
+* /usr/lib/wine/i386-unix/libd3dx9_35.a
+* /usr/lib/wine/i386-unix/libd3dx9_42.a
 * /usr/lib/wine/i386-unix/libd3dx9_43.a
 * /usr/lib/wine/i386-unix/libd3dxof.a
 * /usr/lib/wine/i386-unix/libdbgeng.a
@@ -2313,6 +2324,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib/wine/i386-unix/windows.security.credentials.ui.userconsentverifier.dll.so
 * /usr/lib/wine/i386-unix/windows.storage.applicationdata.dll.so
 * /usr/lib/wine/i386-unix/windows.storage.dll.so
+* /usr/lib/wine/i386-unix/windows.system.profile.systemid.dll.so
 * /usr/lib/wine/i386-unix/windows.system.profile.systemmanufacturers.dll.so
 * /usr/lib/wine/i386-unix/windows.ui.dll.so
 * /usr/lib/wine/i386-unix/windows.ui.xaml.dll.so
@@ -2519,6 +2531,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib/wine/i386-windows/credui.dll
 * /usr/lib/wine/i386-windows/crtdll.dll
 * /usr/lib/wine/i386-windows/crypt32.dll
+* /usr/lib/wine/i386-windows/cryptbase.dll
 * /usr/lib/wine/i386-windows/cryptdlg.dll
 * /usr/lib/wine/i386-windows/cryptdll.dll
 * /usr/lib/wine/i386-windows/cryptext.dll
@@ -3128,6 +3141,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib/wine/i386-windows/windows.security.credentials.ui.userconsentverifier.dll
 * /usr/lib/wine/i386-windows/windows.storage.applicationdata.dll
 * /usr/lib/wine/i386-windows/windows.storage.dll
+* /usr/lib/wine/i386-windows/windows.system.profile.systemid.dll
 * /usr/lib/wine/i386-windows/windows.system.profile.systemmanufacturers.dll
 * /usr/lib/wine/i386-windows/windows.ui.dll
 * /usr/lib/wine/i386-windows/windows.ui.xaml.dll
@@ -3321,6 +3335,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib/wine/x86_64-unix/crtdll.dll.so
 * /usr/lib/wine/x86_64-unix/crypt32.dll.so
 * /usr/lib/wine/x86_64-unix/crypt32.so
+* /usr/lib/wine/x86_64-unix/cryptbase.dll.so
 * /usr/lib/wine/x86_64-unix/cryptdlg.dll.so
 * /usr/lib/wine/x86_64-unix/cryptdll.dll.so
 * /usr/lib/wine/x86_64-unix/cryptext.dll.so
@@ -3565,6 +3580,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib/wine/x86_64-unix/libcrypt32.a
 * /usr/lib/wine/x86_64-unix/libcryptdll.a
 * /usr/lib/wine/x86_64-unix/libcryptnet.a
+* /usr/lib/wine/x86_64-unix/libcryptsp.a
 * /usr/lib/wine/x86_64-unix/libcryptui.a
 * /usr/lib/wine/x86_64-unix/libd2d1.a
 * /usr/lib/wine/x86_64-unix/libd3d10.a
@@ -3593,6 +3609,8 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib/wine/x86_64-unix/libd3dx11.a
 * /usr/lib/wine/x86_64-unix/libd3dx11_42.a
 * /usr/lib/wine/x86_64-unix/libd3dx9.a
+* /usr/lib/wine/x86_64-unix/libd3dx9_35.a
+* /usr/lib/wine/x86_64-unix/libd3dx9_42.a
 * /usr/lib/wine/x86_64-unix/libd3dx9_43.a
 * /usr/lib/wine/x86_64-unix/libd3dxof.a
 * /usr/lib/wine/x86_64-unix/libdbgeng.a
@@ -4129,6 +4147,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib/wine/x86_64-unix/windows.security.credentials.ui.userconsentverifier.dll.so
 * /usr/lib/wine/x86_64-unix/windows.storage.applicationdata.dll.so
 * /usr/lib/wine/x86_64-unix/windows.storage.dll.so
+* /usr/lib/wine/x86_64-unix/windows.system.profile.systemid.dll.so
 * /usr/lib/wine/x86_64-unix/windows.system.profile.systemmanufacturers.dll.so
 * /usr/lib/wine/x86_64-unix/windows.ui.dll.so
 * /usr/lib/wine/x86_64-unix/windows.ui.xaml.dll.so
@@ -4334,6 +4353,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib/wine/x86_64-windows/credui.dll
 * /usr/lib/wine/x86_64-windows/crtdll.dll
 * /usr/lib/wine/x86_64-windows/crypt32.dll
+* /usr/lib/wine/x86_64-windows/cryptbase.dll
 * /usr/lib/wine/x86_64-windows/cryptdlg.dll
 * /usr/lib/wine/x86_64-windows/cryptdll.dll
 * /usr/lib/wine/x86_64-windows/cryptext.dll
@@ -4896,6 +4916,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib/wine/x86_64-windows/windows.security.credentials.ui.userconsentverifier.dll
 * /usr/lib/wine/x86_64-windows/windows.storage.applicationdata.dll
 * /usr/lib/wine/x86_64-windows/windows.storage.dll
+* /usr/lib/wine/x86_64-windows/windows.system.profile.systemid.dll
 * /usr/lib/wine/x86_64-windows/windows.system.profile.systemmanufacturers.dll
 * /usr/lib/wine/x86_64-windows/windows.ui.dll
 * /usr/lib/wine/x86_64-windows/windows.ui.xaml.dll
@@ -5023,11 +5044,11 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib/wine/x86_64-windows/xpsprint.dll
 * /usr/lib/wine/x86_64-windows/xpssvcs.dll
 * /usr/share/applications/wine.desktop
-* /usr/share/doc/wine-devel-10.3/AUTHORS
-* /usr/share/doc/wine-devel-10.3/COPYING.LIB
-* /usr/share/doc/wine-devel-10.3/LICENSE
-* /usr/share/doc/wine-devel-10.3/README.md
-* /usr/share/doc/wine-devel-10.3/VERSION
+* /usr/share/doc/wine-devel-10.4/AUTHORS
+* /usr/share/doc/wine-devel-10.4/COPYING.LIB
+* /usr/share/doc/wine-devel-10.4/LICENSE
+* /usr/share/doc/wine-devel-10.4/README.md
+* /usr/share/doc/wine-devel-10.4/VERSION
 * /usr/share/man/de.UTF-8/man1/wine.1.gz
 * /usr/share/man/de.UTF-8/man1/winemaker.1.gz
 * /usr/share/man/de.UTF-8/man1/wineserver.1.gz

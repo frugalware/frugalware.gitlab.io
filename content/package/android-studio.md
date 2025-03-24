@@ -1,9 +1,9 @@
 +++
 draft = false
-title = "android-studio 2024.2.2.14-1"
-version = "2024.2.2.14-1"
+title = "android-studio 2024.3.1.13-1"
+version = "2024.3.1.13-1"
 description = "Software development kit for Android"
-date = "2025-02-17T11:07:07"
+date = "2025-03-24T14:10:19"
 aliases = "/packages/218988"
 categories = ['devel-extra']
 upstreamurl = "https://developer.android.com/studio/index.html"
