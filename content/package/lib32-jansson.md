@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-jansson 2.14-2"
-version = "2.14-2"
+title = "lib32-jansson 2.14.1-1"
+version = "2.14.1-1"
 description = "C library for encoding, decoding and manipulating JSON data ( 32bit )"
-date = "2024-05-28T09:29:36"
+date = "2025-03-24T10:33:30"
 aliases = "/packages/219074"
 categories = ['lib32-extra']
 upstreamurl = "http://www.digip.org/jansson"
 arch = "x86_64"
-size = "29520"
-usize = "85099"
-sha1sum = "69428f45fbe3f1161453514dbcb3a29f54d0ba3e"
+size = "48168"
+usize = "109685"
+sha1sum = "eeb4d821bc9072fcb93509261a04cf162ba026f3"
 depends = "[]"
 reverse_depends = "['lib32-networkmanager']"
 +++
@@ -22,5 +22,5 @@ C library for encoding, decoding and manipulating JSON data ( 32bit )
 * /usr/i686-frugalware-linux/include/jansson_config.h
 * /usr/lib32/libjansson.so
 * /usr/lib32/libjansson.so.4
-* /usr/lib32/libjansson.so.4.14.0
+* /usr/lib32/libjansson.so.4.14.1
 * /usr/lib32/pkgconfig/jansson.pc

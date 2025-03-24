@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gdbm 1.24-1"
-version = "1.24-1"
+title = "gdbm 1.25-1"
+version = "1.25-1"
 description = "GNU database library"
-date = "2024-07-03T13:10:59"
+date = "2025-03-24T10:43:12"
 aliases = "/packages/2381"
 categories = ['base']
 upstreamurl = "http://www.gnu.org/software/gdbm/gdbm.html"
 arch = "x86_64"
-size = "282456"
-usize = "929874"
-sha1sum = "af98fd52dc3dc5a9105457495dfa6f71dfc6bf02"
+size = "290212"
+usize = "940097"
+sha1sum = "51962d2ee22f5370b689af7602d0411502d5ea16"
 depends = "['glibc>=2.34', 'readline>=8.0-2']"
 reverse_depends = "['apache', 'apr-util', 'avahi', 'courier-authlib', 'cyrus-sasl', 'man-db', 'ocaml', 'pam', 'perl', 'php', 'python3', 'ruby', 'zsh']"
 +++
@@ -25,14 +25,13 @@ GNU database library
 * /usr/lib/libgdbm.so
 * /usr/lib/libgdbm.so.6
 * /usr/lib/libgdbm.so.6.0.0
-* /usr/share/doc/gdbm-1.24/AUTHORS
-* /usr/share/doc/gdbm-1.24/ChangeLog
-* /usr/share/doc/gdbm-1.24/COPYING
-* /usr/share/doc/gdbm-1.24/INSTALL
-* /usr/share/doc/gdbm-1.24/NEWS
-* /usr/share/doc/gdbm-1.24/README
-* /usr/share/doc/gdbm-1.24/THANKS
-* /usr/share/doc/gdbm-1.24/TODO
+* /usr/share/doc/gdbm-1.25/AUTHORS
+* /usr/share/doc/gdbm-1.25/ChangeLog
+* /usr/share/doc/gdbm-1.25/COPYING
+* /usr/share/doc/gdbm-1.25/INSTALL
+* /usr/share/doc/gdbm-1.25/NEWS
+* /usr/share/doc/gdbm-1.25/README
+* /usr/share/doc/gdbm-1.25/THANKS
 * /usr/share/info/gdbm.info.gz
 * /usr/share/locale/da/LC_MESSAGES/gdbm.mo
 * /usr/share/locale/de/LC_MESSAGES/gdbm.mo

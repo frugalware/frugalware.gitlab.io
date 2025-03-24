@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "tzdata 2025a-1"
-version = "2025a-1"
+title = "tzdata 2025b-1"
+version = "2025b-1"
 description = "Sources for time zone and daylight saving time data"
-date = "2025-01-16T19:28:58"
+date = "2025-03-24T10:39:39"
 aliases = "/packages/23547"
 categories = ['base']
 upstreamurl = "http://www.iana.org/time-zones"
 arch = "x86_64"
-size = "309632"
-usize = "1465199"
-sha1sum = "d95a590f4cfa6368c7aa98efde6b56f01eff5b90"
+size = "310640"
+usize = "1472350"
+sha1sum = "85bc3763d38088d7fc484e06006f1a09d96228b9"
 depends = "[]"
 reverse_depends = "['glibc']"
 +++
@@ -127,6 +127,7 @@ Sources for time zone and daylight saving time data
 * /usr/share/zoneinfo-leaps/America/Coral_Harbour
 * /usr/share/zoneinfo-leaps/America/Cordoba
 * /usr/share/zoneinfo-leaps/America/Costa_Rica
+* /usr/share/zoneinfo-leaps/America/Coyhaique
 * /usr/share/zoneinfo-leaps/America/Creston
 * /usr/share/zoneinfo-leaps/America/Cuiaba
 * /usr/share/zoneinfo-leaps/America/Curacao
@@ -725,6 +726,7 @@ Sources for time zone and daylight saving time data
 * /usr/share/zoneinfo/America/Coral_Harbour
 * /usr/share/zoneinfo/America/Cordoba
 * /usr/share/zoneinfo/America/Costa_Rica
+* /usr/share/zoneinfo/America/Coyhaique
 * /usr/share/zoneinfo/America/Creston
 * /usr/share/zoneinfo/America/Cuiaba
 * /usr/share/zoneinfo/America/Curacao
@@ -1300,6 +1302,7 @@ Sources for time zone and daylight saving time data
 * /usr/share/zoneinfo/posix/America/Coral_Harbour
 * /usr/share/zoneinfo/posix/America/Cordoba
 * /usr/share/zoneinfo/posix/America/Costa_Rica
+* /usr/share/zoneinfo/posix/America/Coyhaique
 * /usr/share/zoneinfo/posix/America/Creston
 * /usr/share/zoneinfo/posix/America/Cuiaba
 * /usr/share/zoneinfo/posix/America/Curacao
@@ -1900,6 +1903,7 @@ Sources for time zone and daylight saving time data
 * /usr/share/zoneinfo/right/America/Coral_Harbour
 * /usr/share/zoneinfo/right/America/Cordoba
 * /usr/share/zoneinfo/right/America/Costa_Rica
+* /usr/share/zoneinfo/right/America/Coyhaique
 * /usr/share/zoneinfo/right/America/Creston
 * /usr/share/zoneinfo/right/America/Cuiaba
 * /usr/share/zoneinfo/right/America/Curacao

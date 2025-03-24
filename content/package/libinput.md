@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libinput 1.27.1-1"
-version = "1.27.1-1"
+title = "libinput 1.28.0-1"
+version = "1.28.0-1"
 description = "A library to handle input devices in Wayland compositors and to provide a generic X.Org input driver"
-date = "2025-01-06T15:09:44"
+date = "2025-03-24T10:51:21"
 aliases = "/packages/201250"
 categories = ['x11']
 upstreamurl = "https://gitlab.freedesktop.org/libinput/libinput"
 arch = "x86_64"
-size = "263888"
-usize = "998685"
-sha1sum = "44a991881c38cf2678a4fbde5e677d2eb6adfa23"
+size = "268724"
+usize = "1021351"
+sha1sum = "81c3795808824605b75608c4a5c468a2442c1935"
 depends = "['libevdev>=1.5.4-2', 'libudev>=242', 'libwacom>=0.29', 'mtdev>=1.1.5-4']"
 reverse_depends = "['efl', 'enlightenment', 'libinput-debug-events', 'libinput-gestures', 'qt5-base', 'qt6-base', 'terminology', 'virtualbox', 'weston', 'wlroots', 'wlroots0.17', 'xf86-input-libinput']"
 +++
@@ -48,8 +48,8 @@ A library to handle input devices in Wayland compositors and to provide a generi
 * /usr/lib/udev/libinput-fuzz-to-zero
 * /usr/lib/udev/rules.d/80-libinput-device-groups.rules
 * /usr/lib/udev/rules.d/90-libinput-fuzz-override.rules
-* /usr/share/doc/libinput-1.27.1/COPYING
-* /usr/share/doc/libinput-1.27.1/README.md
+* /usr/share/doc/libinput-1.28.0/COPYING
+* /usr/share/doc/libinput-1.28.0/README.md
 * /usr/share/libinput/10-generic-keyboard.quirks
 * /usr/share/libinput/10-generic-mouse.quirks
 * /usr/share/libinput/10-generic-trackball.quirks

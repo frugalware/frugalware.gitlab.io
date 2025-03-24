@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libidn 1.42-2"
-version = "1.42-2"
+title = "libidn 1.43-1"
+version = "1.43-1"
 description = "GNU Libidn is an implementation of the Stringprep,Punycode and IDNA specification."
-date = "2024-05-16T02:13:26"
+date = "2025-03-24T10:24:30"
 aliases = "/packages/4244"
 categories = ['base']
 upstreamurl = "http://www.gnu.org/software/libidn/"
 arch = "x86_64"
-size = "252144"
-usize = "870323"
-sha1sum = "6163004c5ec82c3d90b542e64ce5b3b8837750c0"
+size = "270496"
+usize = "780213"
+sha1sum = "ed75ab0b6be9838764c3315cf3b1ab940aeb883b"
 depends = "['glibc>=2.35']"
 reverse_depends = "['courier-imap', 'courier-maildrop', 'dirmngr', 'dirmngr-ldap', 'eiskaltdc', 'elinks', 'gloox', 'gmime3', 'gnunet', 'libgadu', 'libgs', 'libgsasl', 'libpurple', 'libsystemd', 'libvlc', 'libvncserver', 'lynx', 'mutt-devel', 'php', 'podofo', 'whois']"
 +++
@@ -28,20 +28,19 @@ GNU Libidn is an implementation of the Stringprep,Punycode and IDNA specificatio
 * /usr/include/tld.h
 * /usr/lib/libidn.so
 * /usr/lib/libidn.so.12
-* /usr/lib/libidn.so.12.6.5
+* /usr/lib/libidn.so.12.6.6
 * /usr/lib/pkgconfig/libidn.pc
-* /usr/share/doc/libidn-1.42/AUTHORS
-* /usr/share/doc/libidn-1.42/ChangeLog
-* /usr/share/doc/libidn-1.42/COPYING
-* /usr/share/doc/libidn-1.42/COPYING.LESSERv2
-* /usr/share/doc/libidn-1.42/COPYING.LESSERv3
-* /usr/share/doc/libidn-1.42/COPYINGv2
-* /usr/share/doc/libidn-1.42/COPYINGv3
-* /usr/share/doc/libidn-1.42/FAQ
-* /usr/share/doc/libidn-1.42/INSTALL
-* /usr/share/doc/libidn-1.42/NEWS
-* /usr/share/doc/libidn-1.42/README
-* /usr/share/doc/libidn-1.42/THANKS
+* /usr/share/doc/libidn-1.43/AUTHORS
+* /usr/share/doc/libidn-1.43/ChangeLog
+* /usr/share/doc/libidn-1.43/COPYING
+* /usr/share/doc/libidn-1.43/COPYING.LESSERv2
+* /usr/share/doc/libidn-1.43/COPYING.LESSERv3
+* /usr/share/doc/libidn-1.43/COPYINGv2
+* /usr/share/doc/libidn-1.43/FAQ
+* /usr/share/doc/libidn-1.43/INSTALL
+* /usr/share/doc/libidn-1.43/NEWS
+* /usr/share/doc/libidn-1.43/README
+* /usr/share/doc/libidn-1.43/THANKS
 * /usr/share/emacs/site-lisp/idna.el
 * /usr/share/emacs/site-lisp/punycode.el
 * /usr/share/info/libidn-components.png.gz

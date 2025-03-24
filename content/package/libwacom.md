@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libwacom 2.14.0-1"
-version = "2.14.0-1"
+title = "libwacom 2.15.0-1"
+version = "2.15.0-1"
 description = "Tablet Information Client Library"
-date = "2024-12-06T17:56:02"
+date = "2025-03-24T10:50:00"
 aliases = "/packages/153043"
 categories = ['x11']
 upstreamurl = "https://github.com/linuxwacom/libwacom"
 arch = "x86_64"
-size = "133620"
-usize = "1495542"
-sha1sum = "04baca795078652e8050a371d29a2e9025458a58"
+size = "143664"
+usize = "1563221"
+sha1sum = "571710ee46bb060c9b802449c43de444cf812ee4"
 depends = "['glib2>=2.49.7-2', 'libevdev', 'libffi>=3.2.1-2', 'libgudev>=230-7', 'libudev>=231-6']"
 reverse_depends = "['libinput']"
 +++
@@ -29,9 +29,9 @@ Tablet Information Client Library
 * /usr/lib/pkgconfig/libwacom.pc
 * /usr/lib/udev/hwdb.d/65-libwacom.hwdb
 * /usr/lib/udev/rules.d/65-libwacom.rules
-* /usr/share/doc/libwacom-2.14.0/COPYING
-* /usr/share/doc/libwacom-2.14.0/NEWS
-* /usr/share/doc/libwacom-2.14.0/README.md
+* /usr/share/doc/libwacom-2.15.0/COPYING
+* /usr/share/doc/libwacom-2.15.0/NEWS
+* /usr/share/doc/libwacom-2.15.0/README.md
 * /usr/share/libwacom/chuwi-minibookx.tablet
 * /usr/share/libwacom/dell-canvas-27.tablet
 * /usr/share/libwacom/elan-0732.tablet
@@ -212,7 +212,6 @@ Tablet Information Client Library
 * /usr/share/libwacom/huion-rts-300.tablet
 * /usr/share/libwacom/huion-wh1409.tablet
 * /usr/share/libwacom/ingenic-6161.tablet
-* /usr/share/libwacom/isdv4-52ba.tablet
 * /usr/share/libwacom/layouts/gaomon-1060pro.svg
 * /usr/share/libwacom/layouts/gaomon-1061pro.svg
 * /usr/share/libwacom/layouts/gaomon-a1201.svg
@@ -371,6 +370,9 @@ Tablet Information Client Library
 * /usr/share/libwacom/layouts/wacom-intuos-pro-2-l.svg
 * /usr/share/libwacom/layouts/wacom-intuos-pro-2-m.svg
 * /usr/share/libwacom/layouts/wacom-intuos-pro-2-s.svg
+* /usr/share/libwacom/layouts/wacom-intuos-pro-3-l.svg
+* /usr/share/libwacom/layouts/wacom-intuos-pro-3-m.svg
+* /usr/share/libwacom/layouts/wacom-intuos-pro-3-s.svg
 * /usr/share/libwacom/layouts/wacom-intuos-pro-l.svg
 * /usr/share/libwacom/layouts/wacom-intuos-pro-m.svg
 * /usr/share/libwacom/layouts/wacom-intuos-pro-s.svg
@@ -408,6 +410,7 @@ Tablet Information Client Library
 * /usr/share/libwacom/layouts/xp-pen-deco-mw.svg
 * /usr/share/libwacom/layouts/xp-pen-deco-pro-s-m-sw-mw.svg
 * /usr/share/libwacom/layouts/xp-pen-deco01-v2.svg
+* /usr/share/libwacom/layouts/xp-pen-innovator-16.svg
 * /usr/share/libwacom/layouts/xp-pen-star03.svg
 * /usr/share/libwacom/lenovo-ideapad-duet.tablet
 * /usr/share/libwacom/lenovo.stylus
@@ -495,10 +498,6 @@ Tablet Information Client Library
 * /usr/share/libwacom/wacom-graphire3-6x8.tablet
 * /usr/share/libwacom/wacom-graphire4-4x5.tablet
 * /usr/share/libwacom/wacom-graphire4-6x8.tablet
-* /usr/share/libwacom/wacom-hid-49a0-pen.tablet
-* /usr/share/libwacom/wacom-hid-52c6.tablet
-* /usr/share/libwacom/wacom-hid-52EB-pen.tablet
-* /usr/share/libwacom/wacom-hid-52fa-pen.tablet
 * /usr/share/libwacom/wacom-hid-5334-pen.tablet
 * /usr/share/libwacom/wacom-hid-5362.tablet
 * /usr/share/libwacom/wacom-intuos-12x12.tablet
@@ -517,6 +516,9 @@ Tablet Information Client Library
 * /usr/share/libwacom/wacom-intuos-pro-2-l.tablet
 * /usr/share/libwacom/wacom-intuos-pro-2-m.tablet
 * /usr/share/libwacom/wacom-intuos-pro-2-s.tablet
+* /usr/share/libwacom/wacom-intuos-pro-3-l.tablet
+* /usr/share/libwacom/wacom-intuos-pro-3-m.tablet
+* /usr/share/libwacom/wacom-intuos-pro-3-s.tablet
 * /usr/share/libwacom/wacom-intuos-pro-l.tablet
 * /usr/share/libwacom/wacom-intuos-pro-m.tablet
 * /usr/share/libwacom/wacom-intuos-pro-s.tablet
@@ -550,7 +552,12 @@ Tablet Information Client Library
 * /usr/share/libwacom/wacom-intuos5-touch-l.tablet
 * /usr/share/libwacom/wacom-intuos5-touch-m.tablet
 * /usr/share/libwacom/wacom-intuos5-touch-s.tablet
+* /usr/share/libwacom/wacom-isdv4-0148.tablet
+* /usr/share/libwacom/wacom-isdv4-014d.tablet
+* /usr/share/libwacom/wacom-isdv4-014e.tablet
+* /usr/share/libwacom/wacom-isdv4-0157.tablet
 * /usr/share/libwacom/wacom-isdv4-016c.tablet
+* /usr/share/libwacom/wacom-isdv4-0529.tablet
 * /usr/share/libwacom/wacom-isdv4-100.tablet
 * /usr/share/libwacom/wacom-isdv4-101.tablet
 * /usr/share/libwacom/wacom-isdv4-104.tablet
@@ -569,10 +576,15 @@ Tablet Information Client Library
 * /usr/share/libwacom/wacom-isdv4-2d1f-002e.tablet
 * /usr/share/libwacom/wacom-isdv4-2d1f-0040.tablet
 * /usr/share/libwacom/wacom-isdv4-2d1f-0066.tablet
+* /usr/share/libwacom/wacom-isdv4-2d1f-0078.tablet
 * /usr/share/libwacom/wacom-isdv4-2d1f-0095.tablet
 * /usr/share/libwacom/wacom-isdv4-2d1f-0114.tablet
+* /usr/share/libwacom/wacom-isdv4-2d1f-011e.tablet
 * /usr/share/libwacom/wacom-isdv4-2d1f-0136.tablet
+* /usr/share/libwacom/wacom-isdv4-2d1f-014b.tablet
 * /usr/share/libwacom/wacom-isdv4-2d1f-0163.tablet
+* /usr/share/libwacom/wacom-isdv4-2d1f-0185.tablet
+* /usr/share/libwacom/wacom-isdv4-2d1f-0203.tablet
 * /usr/share/libwacom/wacom-isdv4-2d1f-524c.tablet
 * /usr/share/libwacom/wacom-isdv4-4004.tablet
 * /usr/share/libwacom/wacom-isdv4-4800.tablet
@@ -582,16 +594,19 @@ Tablet Information Client Library
 * /usr/share/libwacom/wacom-isdv4-4809.tablet
 * /usr/share/libwacom/wacom-isdv4-4814.tablet
 * /usr/share/libwacom/wacom-isdv4-481a.tablet
+* /usr/share/libwacom/wacom-isdv4-481c.tablet
 * /usr/share/libwacom/wacom-isdv4-4822.tablet
 * /usr/share/libwacom/wacom-isdv4-4824.tablet
 * /usr/share/libwacom/wacom-isdv4-4831.tablet
 * /usr/share/libwacom/wacom-isdv4-4834.tablet
 * /usr/share/libwacom/wacom-isdv4-4838.tablet
 * /usr/share/libwacom/wacom-isdv4-4841.tablet
+* /usr/share/libwacom/wacom-isdv4-4846.tablet
 * /usr/share/libwacom/wacom-isdv4-484c.tablet
 * /usr/share/libwacom/wacom-isdv4-484d.tablet
 * /usr/share/libwacom/wacom-isdv4-484e.tablet
 * /usr/share/libwacom/wacom-isdv4-4851.tablet
+* /usr/share/libwacom/wacom-isdv4-485b.tablet
 * /usr/share/libwacom/wacom-isdv4-485e.tablet
 * /usr/share/libwacom/wacom-isdv4-4865.tablet
 * /usr/share/libwacom/wacom-isdv4-486a.tablet
@@ -602,8 +617,11 @@ Tablet Information Client Library
 * /usr/share/libwacom/wacom-isdv4-48b7.tablet
 * /usr/share/libwacom/wacom-isdv4-48c9.tablet
 * /usr/share/libwacom/wacom-isdv4-48ca.tablet
+* /usr/share/libwacom/wacom-isdv4-48cc.tablet
+* /usr/share/libwacom/wacom-isdv4-48cd.tablet
 * /usr/share/libwacom/wacom-isdv4-48ce.tablet
 * /usr/share/libwacom/wacom-isdv4-48d6.tablet
+* /usr/share/libwacom/wacom-isdv4-48e2.tablet
 * /usr/share/libwacom/wacom-isdv4-48eb.tablet
 * /usr/share/libwacom/wacom-isdv4-48ec.tablet
 * /usr/share/libwacom/wacom-isdv4-48ed.tablet
@@ -611,13 +629,22 @@ Tablet Information Client Library
 * /usr/share/libwacom/wacom-isdv4-48f6.tablet
 * /usr/share/libwacom/wacom-isdv4-490a.tablet
 * /usr/share/libwacom/wacom-isdv4-490b.tablet
+* /usr/share/libwacom/wacom-isdv4-4911.tablet
+* /usr/share/libwacom/wacom-isdv4-4921.tablet
+* /usr/share/libwacom/wacom-isdv4-494a.tablet
 * /usr/share/libwacom/wacom-isdv4-4957.tablet
 * /usr/share/libwacom/wacom-isdv4-495f.tablet
 * /usr/share/libwacom/wacom-isdv4-496c.tablet
 * /usr/share/libwacom/wacom-isdv4-4988.tablet
 * /usr/share/libwacom/wacom-isdv4-4995.tablet
+* /usr/share/libwacom/wacom-isdv4-49a0.tablet
 * /usr/share/libwacom/wacom-isdv4-49a3.tablet
+* /usr/share/libwacom/wacom-isdv4-49a5.tablet
+* /usr/share/libwacom/wacom-isdv4-49bc.tablet
+* /usr/share/libwacom/wacom-isdv4-49c3.tablet
 * /usr/share/libwacom/wacom-isdv4-49c8.tablet
+* /usr/share/libwacom/wacom-isdv4-49fc.tablet
+* /usr/share/libwacom/wacom-isdv4-4a0a.tablet
 * /usr/share/libwacom/wacom-isdv4-5000.tablet
 * /usr/share/libwacom/wacom-isdv4-5002.tablet
 * /usr/share/libwacom/wacom-isdv4-5010.tablet
@@ -633,15 +660,20 @@ Tablet Information Client Library
 * /usr/share/libwacom/wacom-isdv4-504a.tablet
 * /usr/share/libwacom/wacom-isdv4-504c.tablet
 * /usr/share/libwacom/wacom-isdv4-5072.tablet
+* /usr/share/libwacom/wacom-isdv4-5077.tablet
+* /usr/share/libwacom/wacom-isdv4-5087.tablet
 * /usr/share/libwacom/wacom-isdv4-5090.tablet
 * /usr/share/libwacom/wacom-isdv4-5093.tablet
+* /usr/share/libwacom/wacom-isdv4-5094.tablet
 * /usr/share/libwacom/wacom-isdv4-5099.tablet
+* /usr/share/libwacom/wacom-isdv4-509c.tablet
 * /usr/share/libwacom/wacom-isdv4-509d.tablet
 * /usr/share/libwacom/wacom-isdv4-509f.tablet
 * /usr/share/libwacom/wacom-isdv4-50a0.tablet
 * /usr/share/libwacom/wacom-isdv4-50a9.tablet
 * /usr/share/libwacom/wacom-isdv4-50b4.tablet
 * /usr/share/libwacom/wacom-isdv4-50b6.tablet
+* /usr/share/libwacom/wacom-isdv4-50b7.tablet
 * /usr/share/libwacom/wacom-isdv4-50b8.tablet
 * /usr/share/libwacom/wacom-isdv4-50db.tablet
 * /usr/share/libwacom/wacom-isdv4-50e9.tablet
@@ -668,8 +700,10 @@ Tablet Information Client Library
 * /usr/share/libwacom/wacom-isdv4-515a.tablet
 * /usr/share/libwacom/wacom-isdv4-5169.tablet
 * /usr/share/libwacom/wacom-isdv4-516b.tablet
+* /usr/share/libwacom/wacom-isdv4-5174.tablet
 * /usr/share/libwacom/wacom-isdv4-517d.tablet
 * /usr/share/libwacom/wacom-isdv4-5196.tablet
+* /usr/share/libwacom/wacom-isdv4-5197.tablet
 * /usr/share/libwacom/wacom-isdv4-51a0.tablet
 * /usr/share/libwacom/wacom-isdv4-51af.tablet
 * /usr/share/libwacom/wacom-isdv4-51b0.tablet
@@ -690,17 +724,22 @@ Tablet Information Client Library
 * /usr/share/libwacom/wacom-isdv4-51c7.tablet
 * /usr/share/libwacom/wacom-isdv4-51d0.tablet
 * /usr/share/libwacom/wacom-isdv4-51e2.tablet
+* /usr/share/libwacom/wacom-isdv4-51e3.tablet
 * /usr/share/libwacom/wacom-isdv4-51e9.tablet
 * /usr/share/libwacom/wacom-isdv4-51ef.tablet
 * /usr/share/libwacom/wacom-isdv4-51f5.tablet
 * /usr/share/libwacom/wacom-isdv4-51f6.tablet
 * /usr/share/libwacom/wacom-isdv4-51f9.tablet
+* /usr/share/libwacom/wacom-isdv4-51fe.tablet
+* /usr/share/libwacom/wacom-isdv4-5201.tablet
 * /usr/share/libwacom/wacom-isdv4-5202.tablet
+* /usr/share/libwacom/wacom-isdv4-5203.tablet
 * /usr/share/libwacom/wacom-isdv4-5204.tablet
 * /usr/share/libwacom/wacom-isdv4-5214.tablet
 * /usr/share/libwacom/wacom-isdv4-5215.tablet
 * /usr/share/libwacom/wacom-isdv4-5216.tablet
 * /usr/share/libwacom/wacom-isdv4-5218.tablet
+* /usr/share/libwacom/wacom-isdv4-521a.tablet
 * /usr/share/libwacom/wacom-isdv4-521c.tablet
 * /usr/share/libwacom/wacom-isdv4-521f.tablet
 * /usr/share/libwacom/wacom-isdv4-5220.tablet
@@ -709,7 +748,12 @@ Tablet Information Client Library
 * /usr/share/libwacom/wacom-isdv4-5229.tablet
 * /usr/share/libwacom/wacom-isdv4-523a.tablet
 * /usr/share/libwacom/wacom-isdv4-523e.tablet
+* /usr/share/libwacom/wacom-isdv4-5243.tablet
+* /usr/share/libwacom/wacom-isdv4-524d.tablet
 * /usr/share/libwacom/wacom-isdv4-5256.tablet
+* /usr/share/libwacom/wacom-isdv4-525c.tablet
+* /usr/share/libwacom/wacom-isdv4-525d.tablet
+* /usr/share/libwacom/wacom-isdv4-5269.tablet
 * /usr/share/libwacom/wacom-isdv4-526c.tablet
 * /usr/share/libwacom/wacom-isdv4-5276.tablet
 * /usr/share/libwacom/wacom-isdv4-5277.tablet
@@ -718,15 +762,35 @@ Tablet Information Client Library
 * /usr/share/libwacom/wacom-isdv4-527a.tablet
 * /usr/share/libwacom/wacom-isdv4-527e.tablet
 * /usr/share/libwacom/wacom-isdv4-527f.tablet
+* /usr/share/libwacom/wacom-isdv4-5284.tablet
 * /usr/share/libwacom/wacom-isdv4-5285.tablet
 * /usr/share/libwacom/wacom-isdv4-5286.tablet
+* /usr/share/libwacom/wacom-isdv4-528a.tablet
 * /usr/share/libwacom/wacom-isdv4-528e.tablet
 * /usr/share/libwacom/wacom-isdv4-52a2.tablet
 * /usr/share/libwacom/wacom-isdv4-52b0.tablet
+* /usr/share/libwacom/wacom-isdv4-52b5.tablet
+* /usr/share/libwacom/wacom-isdv4-52ba.tablet
 * /usr/share/libwacom/wacom-isdv4-52c2.tablet
+* /usr/share/libwacom/wacom-isdv4-52c6.tablet
+* /usr/share/libwacom/wacom-isdv4-52cc.tablet
+* /usr/share/libwacom/wacom-isdv4-52cd.tablet
 * /usr/share/libwacom/wacom-isdv4-52d3.tablet
 * /usr/share/libwacom/wacom-isdv4-52d5.tablet
+* /usr/share/libwacom/wacom-isdv4-52e1.tablet
+* /usr/share/libwacom/wacom-isdv4-52e8.tablet
+* /usr/share/libwacom/wacom-isdv4-52eb.tablet
+* /usr/share/libwacom/wacom-isdv4-52ee.tablet
+* /usr/share/libwacom/wacom-isdv4-52fa.tablet
 * /usr/share/libwacom/wacom-isdv4-5309.tablet
+* /usr/share/libwacom/wacom-isdv4-5349.tablet
+* /usr/share/libwacom/wacom-isdv4-535f.tablet
+* /usr/share/libwacom/wacom-isdv4-5360.tablet
+* /usr/share/libwacom/wacom-isdv4-5365.tablet
+* /usr/share/libwacom/wacom-isdv4-53a7.tablet
+* /usr/share/libwacom/wacom-isdv4-53b7.tablet
+* /usr/share/libwacom/wacom-isdv4-53b8.tablet
+* /usr/share/libwacom/wacom-isdv4-8191.tablet
 * /usr/share/libwacom/wacom-isdv4-90.tablet
 * /usr/share/libwacom/wacom-isdv4-93.tablet
 * /usr/share/libwacom/wacom-isdv4-e2.tablet
@@ -766,11 +830,14 @@ Tablet Information Client Library
 * /usr/share/libwacom/xp-pen-deco-mini7.tablet
 * /usr/share/libwacom/xp-pen-deco-mw.tablet
 * /usr/share/libwacom/xp-pen-deco-pro-mw.tablet
+* /usr/share/libwacom/xp-pen-deco-pro-s.tablet
 * /usr/share/libwacom/xp-pen-deco-pro-sw.tablet
 * /usr/share/libwacom/xp-pen-deco01-v2.tablet
+* /usr/share/libwacom/xp-pen-deco01-v3.tablet
 * /usr/share/libwacom/xp-pen-g430.tablet
 * /usr/share/libwacom/xp-pen-g430s.tablet
 * /usr/share/libwacom/xp-pen-g640.tablet
+* /usr/share/libwacom/xp-pen-innovator-16.tablet
 * /usr/share/libwacom/xp-pen-star03.tablet
 * /usr/share/man/man1/libwacom-list-devices.1.gz
 * /usr/share/man/man1/libwacom-list-local-devices.1.gz
