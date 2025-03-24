@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libuuid 2.41-1"
-version = "2.41-1"
+title = "libuuid 2.41-2"
+version = "2.41-2"
 description = "Universally unique id library"
-date = "2025-03-20T09:23:15"
+date = "2025-03-24T15:28:19"
 aliases = "/packages/74346"
 categories = ['base']
 upstreamurl = "http://www.kernel.org/pub/linux/utils/util-linux/"
 arch = "x86_64"
-size = "24372"
+size = "24416"
 usize = "35073"
-sha1sum = "a1d6b1abaaa3172c2b0e17a24531d101e276a66b"
+sha1sum = "dd25675f8f6e0129aefe871e47081f074e59a946"
 depends = "['glibc>=2.36']"
 reverse_depends = "['apr', 'cryptsetup-luks', 'dssi', 'e2fsprogs', 'efl', 'enlightenment', 'fontconfig', 'gifsicle', 'gptfdisk', 'gtans', 'jfsutils', 'libblkid', 'libdaxctl', 'libndctl', 'libsm', 'libxaw', 'libxaw3d', 'mtd-utils', 'ndctl', 'nvme-cli', 'openjre', 'oxygen-gtk', 'pesign', 'phonon-qt5', 'phonon-qt6', 'polkit-qt5-1', 'polkit-qt6-1', 'rasqal', 'syslinux', 'terminology', 'util-linux', 'uwsgi', 'virtualbox', 'wget', 'xapian-core', 'xfsprogs']"
 +++

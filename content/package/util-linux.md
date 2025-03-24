@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "util-linux 2.41-1"
-version = "2.41-1"
+title = "util-linux 2.41-2"
+version = "2.41-2"
 description = "Miscellaneous system utilities for Linux"
-date = "2025-03-20T09:23:15"
+date = "2025-03-24T15:28:19"
 aliases = "/packages/118476"
 categories = ['base']
 upstreamurl = "http://www.kernel.org/pub/linux/utils/util-linux/"
 arch = "x86_64"
-size = "2014572"
-usize = "7084491"
-sha1sum = "148b131dc086079c098a0b733e6100350a45d9da"
+size = "2016300"
+usize = "7104210"
+sha1sum = "05a4d626e56fc691d09be3d73dbdd90a368ef7c5"
 depends = "['libblkid', 'libcap-ng>=0.7.8-8', 'libsystemd', 'libudev', 'libuuid', 'libxcrypt', 'ncurses>=6.1-5', 'pam>=1.3.0-4', 'pcre2', 'readline>=8.0-3', 'sqlite3']"
 reverse_depends = "['dracut', 'e2fsprogs', 'efl', 'enlightenment', 'f2fs-tools', 'glib2', 'harfbuzz', 'kpmcore', 'lttng-ust', 'lttng-ust12', 'nilfs-utils', 'pacman-g2', 'pango', 'pulse-autoconf', 'scriptlet-core', 'syslinux', 'terminology', 'udisks2']"
 +++
@@ -333,6 +333,7 @@ Miscellaneous system utilities for Linux
 * /usr/share/doc/util-linux-2.41/howto-tests.txt
 * /usr/share/doc/util-linux-2.41/howto-usage-function.txt
 * /usr/share/doc/util-linux-2.41/hwclock.txt
+* /usr/share/doc/util-linux-2.41/LICENSE
 * /usr/share/doc/util-linux-2.41/licenses/COPYING.BSD-2-Clause
 * /usr/share/doc/util-linux-2.41/licenses/COPYING.BSD-3-Clause
 * /usr/share/doc/util-linux-2.41/licenses/COPYING.BSD-4-Clause-UC
@@ -354,6 +355,7 @@ Miscellaneous system utilities for Linux
 * /usr/share/doc/util-linux-2.41/README
 * /usr/share/doc/util-linux-2.41/README.Frugalware
 * /usr/share/doc/util-linux-2.41/README.licensing
+* /usr/share/doc/util-linux-2.41/README.md
 * /usr/share/doc/util-linux-2.41/release-schedule.txt
 * /usr/share/doc/util-linux-2.41/releases/v2.13-ReleaseNotes
 * /usr/share/doc/util-linux-2.41/releases/v2.14-ReleaseNotes
