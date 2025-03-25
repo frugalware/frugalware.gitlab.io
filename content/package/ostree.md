@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ostree 2025.2-1"
-version = "2025.2-1"
+title = "ostree 2025.2-2"
+version = "2025.2-2"
 description = "Operating system and container binary deployment and upgrades"
-date = "2025-03-24T13:19:10"
+date = "2025-03-25T22:19:14"
 aliases = "/packages/220840"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/ostreedev/ostree"
 arch = "x86_64"
-size = "697316"
-usize = "4219661"
-sha1sum = "e59d49485731aac92eeccd360d7d0afd8e51f1a7"
-depends = "['curl', 'fuse3', 'gpgme', 'libarchive', 'libsodium>=1.0.19', 'libsoup']"
+size = "697668"
+usize = "4219752"
+sha1sum = "e83dc330467e15a6f31d121afb230d18ed6eea89"
+depends = "['curl', 'fuse3>=3.17.1', 'gpgme', 'libarchive', 'libsodium>=1.0.19', 'libsoup']"
 reverse_depends = "['flatpak']"
 +++
 ### Description: 

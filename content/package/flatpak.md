@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "flatpak 1.16.0-1"
-version = "1.16.0-1"
+title = "flatpak 1.16.0-2"
+version = "1.16.0-2"
 description = "Linux application sandboxing and distribution framework (formerly xdg-app)"
-date = "2025-01-17T13:02:46"
+date = "2025-03-25T22:27:16"
 aliases = "/packages/220841"
 categories = ['apps-extra']
 upstreamurl = "https://flatpak.org"
 arch = "x86_64"
-size = "1580456"
-usize = "8191459"
-sha1sum = "b3a093064e177afa1860b0fa871dde8648571e35"
+size = "1580872"
+usize = "8193161"
+sha1sum = "f66256c31ce39f0110faefefa74041c7b2260d56"
 depends = "['appstream>=1.0.0', 'bubblewrap>=0.10.0', 'gdk-pixbuf2', 'json-glib', 'libseccomp', 'ostree', 'polkit', 'socat', 'xdg-dbus-proxy']"
 reverse_depends = "['discover', 'flatpak-kcm']"
 +++

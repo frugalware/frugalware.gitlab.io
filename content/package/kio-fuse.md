@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kio-fuse 5.1.0-3"
-version = "5.1.0-3"
+title = "kio-fuse 5.1.0-4"
+version = "5.1.0-4"
 description = "FUSE interface for KIO"
-date = "2024-12-05T12:55:13"
+date = "2025-03-25T22:41:15"
 aliases = "/packages/220906"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "65212"
-usize = "192131"
-sha1sum = "7e971b96a773e87bada41cd40e78872a6e46a774"
-depends = "['fuse3', 'kio>=6.8.0']"
+size = "65496"
+usize = "192587"
+sha1sum = "e401d8f0742be06f322e6b86460dba2751e959fa"
+depends = "['fuse3>=3.17.1', 'kio>=6.12.0']"
 reverse_depends = "['plasma-wayland-session', 'xdg-desktop-portal-kde']"
 +++
 ### Description: 

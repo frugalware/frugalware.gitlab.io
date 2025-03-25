@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "xrdp 0.10.2-1"
-version = "0.10.2-1"
+title = "xrdp 0.10.2-2"
+version = "0.10.2-2"
 description = "RDP Server - An open source RDP server and X server capable of accepting connections from rdesktop and ms terminal server clients."
-date = "2025-02-13T21:05:36"
+date = "2025-03-25T22:33:05"
 aliases = "/packages/136338"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/neutrinolabs/xrdp"
 arch = "x86_64"
-size = "532900"
-usize = "3510558"
-sha1sum = "c15a23cd955bf47f0d3d3598c6c009e11fe408cd"
-depends = "['fuse3', 'libjpeg-turbo', 'libx11', 'libxau', 'libxcb', 'libxdmcp', 'libxext', 'libxfixes', 'libxrandr', 'libxrender', 'openssl>=3.1.0', 'opus', 'pam']"
+size = "532904"
+usize = "3511167"
+sha1sum = "9bb425a57d73f6e17333b9a9b69b9e9b7ed00316"
+depends = "['fuse3>=3.17.1', 'libjpeg-turbo', 'libx11', 'libxau', 'libxcb', 'libxdmcp', 'libxext', 'libxfixes', 'libxrandr', 'libxrender', 'openssl>=3.1.0', 'opus', 'pam']"
 +++
 ### Description: 
 RDP Server - An open source RDP server and X server capable of accepting connections from rdesktop and ms terminal server clients.

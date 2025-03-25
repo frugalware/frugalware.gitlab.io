@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "wimlib 1.14.4-1"
-version = "1.14.4-1"
+title = "wimlib 1.14.4-2"
+version = "1.14.4-2"
 description = "The open source Windows Imaging (WIM) library"
-date = "2024-11-26T14:33:10"
+date = "2025-03-25T22:35:45"
 aliases = "/packages/219675"
 categories = ['apps-extra']
 upstreamurl = "https://wimlib.net/"
 arch = "x86_64"
-size = "320164"
-usize = "809910"
-sha1sum = "f64b70fac1af3b0390b4405f271290cc25ad64d7"
-depends = "['cabextract', 'cdrtools', 'fuse3', 'innoextract', 'libxml2', 'mtools', 'ntfs-3g>=2021.8.22', 'openssl>=3.1.0', 'syslinux']"
+size = "320452"
+usize = "811206"
+sha1sum = "9342cc07520d10abd961321cbdb628016347570e"
+depends = "['cabextract', 'cdrtools', 'fuse3>=3.17.1', 'innoextract', 'libxml2', 'mtools', 'ntfs-3g>=2021.8.22', 'openssl>=3.1.0', 'syslinux']"
 +++
 ### Description: 
 The open source Windows Imaging (WIM) library
