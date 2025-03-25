@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "grub2 2.12-2"
-version = "2.12-2"
+title = "grub2 2.12.gff7f553-2"
+version = "2.12.gff7f553-2"
 description = "The GNU GRand Unified Bootloader"
-date = "2024-01-03T09:34:39"
+date = "2025-03-25T09:07:14"
 aliases = "/packages/136034"
 categories = ['base']
 upstreamurl = "http://www.gnu.org/software/grub/"
 arch = "x86_64"
-size = "14665524"
-usize = "63511342"
-sha1sum = "93abe0f45c97dd619427da605f068ae155e34fac"
+size = "15446004"
+usize = "70854123"
+sha1sum = "70e3a3e430807ceea07e1b97cc87b618d2791e2c"
 depends = "['efibootmgr', 'grub-theme-frugalware', 'scriptlet-core']"
 reverse_depends = "['breeze-grub']"
 +++
@@ -18,7 +18,6 @@ reverse_depends = "['breeze-grub']"
 The GNU GRand Unified Bootloader
 
 ### Files: 
-* /etc/bash_completion.d/grub
 * /etc/default/grub
 * /etc/grub.d/00_header
 * /etc/grub.d/10_linux
@@ -50,6 +49,7 @@ The GNU GRand Unified Bootloader
 * /usr/bin/grub-mkstandalone
 * /usr/bin/grub-ofpathname
 * /usr/bin/grub-probe
+* /usr/bin/grub-protect
 * /usr/bin/grub-reboot
 * /usr/bin/grub-render-label
 * /usr/bin/grub-script-check
@@ -74,8 +74,10 @@ The GNU GRand Unified Bootloader
 * /usr/lib/grub/i386-pc/aout.module
 * /usr/lib/grub/i386-pc/archelp.mod
 * /usr/lib/grub/i386-pc/archelp.module
-* /usr/lib/grub/i386-pc/argon2.mod
-* /usr/lib/grub/i386-pc/argon2.module
+* /usr/lib/grub/i386-pc/asn1.mod
+* /usr/lib/grub/i386-pc/asn1.module
+* /usr/lib/grub/i386-pc/asn1_test.mod
+* /usr/lib/grub/i386-pc/asn1_test.module
 * /usr/lib/grub/i386-pc/ata.mod
 * /usr/lib/grub/i386-pc/ata.module
 * /usr/lib/grub/i386-pc/at_keyboard.mod
@@ -187,6 +189,8 @@ The GNU GRand Unified Bootloader
 * /usr/lib/grub/i386-pc/ehci.module
 * /usr/lib/grub/i386-pc/elf.mod
 * /usr/lib/grub/i386-pc/elf.module
+* /usr/lib/grub/i386-pc/erofs.mod
+* /usr/lib/grub/i386-pc/erofs.module
 * /usr/lib/grub/i386-pc/eval.mod
 * /usr/lib/grub/i386-pc/eval.module
 * /usr/lib/grub/i386-pc/exfat.mod
@@ -313,6 +317,8 @@ The GNU GRand Unified Bootloader
 * /usr/lib/grub/i386-pc/keylayouts.module
 * /usr/lib/grub/i386-pc/keystatus.mod
 * /usr/lib/grub/i386-pc/keystatus.module
+* /usr/lib/grub/i386-pc/key_protector.mod
+* /usr/lib/grub/i386-pc/key_protector.module
 * /usr/lib/grub/i386-pc/ldm.mod
 * /usr/lib/grub/i386-pc/ldm.module
 * /usr/lib/grub/i386-pc/legacycfg.mod
@@ -661,8 +667,10 @@ The GNU GRand Unified Bootloader
 * /usr/lib/grub/x86_64-efi/appleldr.module
 * /usr/lib/grub/x86_64-efi/archelp.mod
 * /usr/lib/grub/x86_64-efi/archelp.module
-* /usr/lib/grub/x86_64-efi/argon2.mod
-* /usr/lib/grub/x86_64-efi/argon2.module
+* /usr/lib/grub/x86_64-efi/asn1.mod
+* /usr/lib/grub/x86_64-efi/asn1.module
+* /usr/lib/grub/x86_64-efi/asn1_test.mod
+* /usr/lib/grub/x86_64-efi/asn1_test.module
 * /usr/lib/grub/x86_64-efi/ata.mod
 * /usr/lib/grub/x86_64-efi/ata.module
 * /usr/lib/grub/x86_64-efi/at_keyboard.mod
@@ -709,6 +717,10 @@ The GNU GRand Unified Bootloader
 * /usr/lib/grub/x86_64-efi/chain.module
 * /usr/lib/grub/x86_64-efi/cmdline_cat_test.mod
 * /usr/lib/grub/x86_64-efi/cmdline_cat_test.module
+* /usr/lib/grub/x86_64-efi/cmosdump.mod
+* /usr/lib/grub/x86_64-efi/cmosdump.module
+* /usr/lib/grub/x86_64-efi/cmostest.mod
+* /usr/lib/grub/x86_64-efi/cmostest.module
 * /usr/lib/grub/x86_64-efi/cmp.mod
 * /usr/lib/grub/x86_64-efi/cmp.module
 * /usr/lib/grub/x86_64-efi/cmp_test.mod
@@ -766,6 +778,8 @@ The GNU GRand Unified Bootloader
 * /usr/lib/grub/x86_64-efi/ehci.module
 * /usr/lib/grub/x86_64-efi/elf.mod
 * /usr/lib/grub/x86_64-efi/elf.module
+* /usr/lib/grub/x86_64-efi/erofs.mod
+* /usr/lib/grub/x86_64-efi/erofs.module
 * /usr/lib/grub/x86_64-efi/eval.mod
 * /usr/lib/grub/x86_64-efi/eval.module
 * /usr/lib/grub/x86_64-efi/exfat.mod
@@ -890,6 +904,8 @@ The GNU GRand Unified Bootloader
 * /usr/lib/grub/x86_64-efi/keylayouts.module
 * /usr/lib/grub/x86_64-efi/keystatus.mod
 * /usr/lib/grub/x86_64-efi/keystatus.module
+* /usr/lib/grub/x86_64-efi/key_protector.mod
+* /usr/lib/grub/x86_64-efi/key_protector.module
 * /usr/lib/grub/x86_64-efi/ldm.mod
 * /usr/lib/grub/x86_64-efi/ldm.module
 * /usr/lib/grub/x86_64-efi/legacycfg.mod
@@ -1131,12 +1147,16 @@ The GNU GRand Unified Bootloader
 * /usr/lib/grub/x86_64-efi/time.module
 * /usr/lib/grub/x86_64-efi/tpm.mod
 * /usr/lib/grub/x86_64-efi/tpm.module
+* /usr/lib/grub/x86_64-efi/tpm2_key_protector.mod
+* /usr/lib/grub/x86_64-efi/tpm2_key_protector.module
 * /usr/lib/grub/x86_64-efi/tr.mod
 * /usr/lib/grub/x86_64-efi/tr.module
 * /usr/lib/grub/x86_64-efi/trig.mod
 * /usr/lib/grub/x86_64-efi/trig.module
 * /usr/lib/grub/x86_64-efi/true.mod
 * /usr/lib/grub/x86_64-efi/true.module
+* /usr/lib/grub/x86_64-efi/tss2.mod
+* /usr/lib/grub/x86_64-efi/tss2.module
 * /usr/lib/grub/x86_64-efi/udf.mod
 * /usr/lib/grub/x86_64-efi/udf.module
 * /usr/lib/grub/x86_64-efi/ufs1.mod
@@ -1200,16 +1220,29 @@ The GNU GRand Unified Bootloader
 * /usr/lib/grub/x86_64-efi/zfsinfo.module
 * /usr/lib/grub/x86_64-efi/zstd.mod
 * /usr/lib/grub/x86_64-efi/zstd.module
-* /usr/share/doc/grub2-2.12/AUTHORS
-* /usr/share/doc/grub2-2.12/BUGS
-* /usr/share/doc/grub2-2.12/ChangeLog
-* /usr/share/doc/grub2-2.12/COPYING
-* /usr/share/doc/grub2-2.12/INSTALL
-* /usr/share/doc/grub2-2.12/NEWS
-* /usr/share/doc/grub2-2.12/README
-* /usr/share/doc/grub2-2.12/README.Frugalware
-* /usr/share/doc/grub2-2.12/THANKS
-* /usr/share/doc/grub2-2.12/TODO
+* /usr/share/bash-completion/completions/grub
+* /usr/share/bash-completion/completions/grub-bios-setup
+* /usr/share/bash-completion/completions/grub-editenv
+* /usr/share/bash-completion/completions/grub-install
+* /usr/share/bash-completion/completions/grub-mkconfig
+* /usr/share/bash-completion/completions/grub-mkfont
+* /usr/share/bash-completion/completions/grub-mkimage
+* /usr/share/bash-completion/completions/grub-mkpasswd-pbkdf2
+* /usr/share/bash-completion/completions/grub-probe
+* /usr/share/bash-completion/completions/grub-reboot
+* /usr/share/bash-completion/completions/grub-script-check
+* /usr/share/bash-completion/completions/grub-set-default
+* /usr/share/bash-completion/completions/grub-sparc64-setup
+* /usr/share/doc/grub2-2.12.gff7f553/AUTHORS
+* /usr/share/doc/grub2-2.12.gff7f553/BUGS
+* /usr/share/doc/grub2-2.12.gff7f553/ChangeLog
+* /usr/share/doc/grub2-2.12.gff7f553/COPYING
+* /usr/share/doc/grub2-2.12.gff7f553/INSTALL
+* /usr/share/doc/grub2-2.12.gff7f553/NEWS
+* /usr/share/doc/grub2-2.12.gff7f553/README
+* /usr/share/doc/grub2-2.12.gff7f553/README.Frugalware
+* /usr/share/doc/grub2-2.12.gff7f553/THANKS
+* /usr/share/doc/grub2-2.12.gff7f553/TODO
 * /usr/share/grub/ascii.h
 * /usr/share/grub/ascii.pf2
 * /usr/share/grub/euro.pf2
@@ -1309,6 +1342,7 @@ The GNU GRand Unified Bootloader
 * /usr/share/man/man1/grub-mkrescue.1.gz
 * /usr/share/man/man1/grub-mkstandalone.1.gz
 * /usr/share/man/man1/grub-mount.1.gz
+* /usr/share/man/man1/grub-protect.1.gz
 * /usr/share/man/man1/grub-render-label.1.gz
 * /usr/share/man/man1/grub-script-check.1.gz
 * /usr/share/man/man1/grub-syslinux2cfg.1.gz
