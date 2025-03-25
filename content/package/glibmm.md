@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "glibmm 2.82.0-1"
-version = "2.82.0-1"
+title = "glibmm 2.84.0-1"
+version = "2.84.0-1"
 description = "C++ interface for glib2"
-date = "2024-11-14T10:42:19"
+date = "2025-03-25T13:08:07"
 aliases = "/packages/14248"
 categories = ['lib-extra']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "1241372"
-usize = "7796289"
-sha1sum = "211bf7da74d24daefd31f6f1740728cbc3d22e47"
+size = "1243756"
+usize = "7832062"
+sha1sum = "90d575738a1f52fd959b84fd999d78c7dd0ffd01"
 depends = "['glib2>=2.60.3', 'libsigc++3', 'mm-common']"
 reverse_depends = "['atkmm', 'gtkmm', 'libxml++2', 'pangomm', 'telegram-desktop']"
 +++
@@ -465,9 +465,9 @@ C++ interface for glib2
 * /usr/lib/pkgconfig/giomm-2.68.pc
 * /usr/lib/pkgconfig/glibmm-2.68.pc
 * /usr/share/devhelp/books/glibmm-2.68/glibmm-2.68.devhelp2
-* /usr/share/doc/glibmm-2.82.0/ChangeLog
-* /usr/share/doc/glibmm-2.82.0/COPYING
-* /usr/share/doc/glibmm-2.82.0/COPYING.tools
-* /usr/share/doc/glibmm-2.82.0/NEWS
-* /usr/share/doc/glibmm-2.82.0/README.md
-* /usr/share/doc/glibmm-2.82.0/README.win32.md
+* /usr/share/doc/glibmm-2.84.0/ChangeLog
+* /usr/share/doc/glibmm-2.84.0/COPYING
+* /usr/share/doc/glibmm-2.84.0/COPYING.tools
+* /usr/share/doc/glibmm-2.84.0/NEWS
+* /usr/share/doc/glibmm-2.84.0/README.md
+* /usr/share/doc/glibmm-2.84.0/README.win32.md

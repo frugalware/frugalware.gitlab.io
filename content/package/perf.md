@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "perf 6.13.8-1"
-version = "6.13.8-1"
+title = "perf 6.14-2"
+version = "6.14-2"
 description = "Kernel performance profiling tool"
-date = "2025-03-23T21:22:56"
+date = "2025-03-25T11:18:50"
 aliases = "/packages/221185"
 categories = ['devel-extra']
 upstreamurl = "https://www.kernel.org"
 arch = "x86_64"
-size = "2309188"
-usize = "11957173"
-sha1sum = "7db23cff8bf4fd9bdf4562d0195620d82738cf10"
+size = "2319588"
+usize = "11990717"
+sha1sum = "132170e3932fc06fe5139a319cec622986b66df4"
 depends = "['binutils>=2.44', 'elfutils', 'libtraceevent', 'python3>=3.11', 'slang', 'xz']"
 +++
 ### Description: 
@@ -246,6 +246,7 @@ Kernel performance profiling tool
 * /usr/lib/perf/perf-core/tests/shell/test_uprobe_from_different_cu.sh
 * /usr/lib/perf/perf-core/tests/shell/trace+probe_vfs_getname.sh
 * /usr/lib/perf/perf-core/tests/shell/trace_btf_enum.sh
+* /usr/lib/perf/perf-core/tests/shell/trace_btf_general.sh
 * /usr/lib/perf/perf-core/tests/shell/trace_exit_race.sh
 * /usr/share/doc/perf-tip/tips.txt
 * /usr/share/man/man1/perf-amd-ibs.1.gz
@@ -289,5 +290,3 @@ Kernel performance profiling tool
 * /usr/share/man/man1/perf-trace.1.gz
 * /usr/share/man/man1/perf-version.1.gz
 * /usr/share/man/man1/perf.1.gz
-* /usr/share/perf-core/strace/groups/file
-* /usr/share/perf-core/strace/groups/string

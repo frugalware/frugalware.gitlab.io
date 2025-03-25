@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "glibmm24 2.66.7-1"
-version = "2.66.7-1"
+title = "glibmm24 2.66.8-1"
+version = "2.66.8-1"
 description = "C++ interface for glib2"
-date = "2024-11-14T10:30:36"
+date = "2025-03-25T13:06:25"
 aliases = "/packages/220429"
 categories = ['lib-extra']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "1204092"
-usize = "7614426"
-sha1sum = "6ad06027cc710da201a0da7c250d93b1a364df7d"
+size = "1202832"
+usize = "7633202"
+sha1sum = "04edfecc95c9de3a292595dc3d5c4cced6b27bb0"
 depends = "['glib2>=2.60.3', 'libsigc++2', 'mm-common']"
 reverse_depends = "['gtkmm3']"
 +++
@@ -466,9 +466,9 @@ C++ interface for glib2
 * /usr/lib/pkgconfig/giomm-2.4.pc
 * /usr/lib/pkgconfig/glibmm-2.4.pc
 * /usr/share/devhelp/books/glibmm-2.4/glibmm-2.4.devhelp2
-* /usr/share/doc/glibmm24-2.66.7/ChangeLog
-* /usr/share/doc/glibmm24-2.66.7/COPYING
-* /usr/share/doc/glibmm24-2.66.7/COPYING.tools
-* /usr/share/doc/glibmm24-2.66.7/NEWS
-* /usr/share/doc/glibmm24-2.66.7/README.md
-* /usr/share/doc/glibmm24-2.66.7/README.win32.md
+* /usr/share/doc/glibmm24-2.66.8/ChangeLog
+* /usr/share/doc/glibmm24-2.66.8/COPYING
+* /usr/share/doc/glibmm24-2.66.8/COPYING.tools
+* /usr/share/doc/glibmm24-2.66.8/NEWS
+* /usr/share/doc/glibmm24-2.66.8/README.md
+* /usr/share/doc/glibmm24-2.66.8/README.win32.md

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libpanel 1.8.1-1"
-version = "1.8.1-1"
+title = "libpanel 1.10.0-1"
+version = "1.10.0-1"
 description = "Dock/panel library for GTK 4"
-date = "2024-11-14T10:45:34"
+date = "2025-03-25T13:09:27"
 aliases = "/packages/221205"
 categories = ['lib-extra']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "1354684"
-usize = "6168644"
-sha1sum = "c501a5f6a3f1ff0872451c720345401164597a56"
+size = "1358196"
+usize = "6190365"
+sha1sum = "5a311e01843915392435a6b1762a627049ebaac4"
 depends = "['gtk+4', 'libadwaita']"
 reverse_depends = "['sysprof']"
 +++
@@ -59,10 +59,10 @@ Dock/panel library for GTK 4
 * /usr/lib/libpanel-1.so.1
 * /usr/lib/libpanel-1.so.1.0.0
 * /usr/lib/pkgconfig/libpanel-1.pc
-* /usr/share/doc/libpanel-1.8.1/AUTHORS
-* /usr/share/doc/libpanel-1.8.1/COPYING
-* /usr/share/doc/libpanel-1.8.1/NEWS
-* /usr/share/doc/libpanel-1.8.1/README.md
+* /usr/share/doc/libpanel-1.10.0/AUTHORS
+* /usr/share/doc/libpanel-1.10.0/COPYING
+* /usr/share/doc/libpanel-1.10.0/NEWS
+* /usr/share/doc/libpanel-1.10.0/README.md
 * /usr/share/doc/panel-1.0/callback.ActionActivateFunc.html
 * /usr/share/doc/panel-1.0/callback.FrameCallback.html
 * /usr/share/doc/panel-1.0/callback.WorkspaceForeach.html

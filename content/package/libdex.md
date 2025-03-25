@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libdex 0.8.1-1"
-version = "0.8.1-1"
+title = "libdex 0.10.0-1"
+version = "0.10.0-1"
 description = "A library supporting 'Deferred Execution'"
-date = "2024-11-14T10:49:24"
+date = "2025-03-25T13:10:57"
 aliases = "/packages/221116"
 categories = ['lib-extra']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "81868"
-usize = "486853"
-sha1sum = "727d70d9cb984a66ce1afabff9891d79e43aa735"
+size = "84448"
+usize = "503247"
+sha1sum = "d7c9c71b2ba25d6af6f6e0586adeccfaf2c2ef36"
 depends = "['glib2', 'libatomic', 'liburing']"
 reverse_depends = "['sysprof']"
 +++
@@ -49,9 +49,9 @@ A library supporting 'Deferred Execution'
 * /usr/lib/libdex-1.so.1
 * /usr/lib/libdex-1.so.1.0.0
 * /usr/lib/pkgconfig/libdex-1.pc
-* /usr/share/doc/libdex-0.8.1/COPYING
-* /usr/share/doc/libdex-0.8.1/NEWS
-* /usr/share/doc/libdex-0.8.1/README.md
+* /usr/share/doc/libdex-0.10.0/COPYING
+* /usr/share/doc/libdex-0.10.0/NEWS
+* /usr/share/doc/libdex-0.10.0/README.md
 * /usr/share/gir-1.0/Dex-1.gir
 * /usr/share/vala/vapi/libdex-1.deps
 * /usr/share/vala/vapi/libdex-1.vapi

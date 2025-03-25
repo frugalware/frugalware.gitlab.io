@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "glibmm-docs 2.82.0-1"
-version = "2.82.0-1"
+title = "glibmm-docs 2.84.0-1"
+version = "2.84.0-1"
 description = "Glibmm Documentation"
-date = "2024-11-14T10:42:19"
+date = "2025-03-25T13:08:07"
 aliases = "/packages/30392"
 categories = ['docs-extra']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "2916636"
-usize = "40758006"
-sha1sum = "403582cd65c6824cf45878c34b1491219337e0b7"
+size = "2416788"
+usize = "43050806"
+sha1sum = "d75a0c8d18c68741b4bb34e0ef71a5dd6db9c3ae"
 depends = "[]"
 +++
 ### Description: 
@@ -1316,11 +1316,6 @@ Glibmm Documentation
 * /usr/share/doc/glibmm-2.68/reference/html/classGlib_1_1Variant_3_01unsigned_01char_01_4__inherit__graph.map
 * /usr/share/doc/glibmm-2.68/reference/html/classGlib_1_1Variant_3_01unsigned_01char_01_4__inherit__graph.md5
 * /usr/share/doc/glibmm-2.68/reference/html/classGlib_1_1Variant_3_01unsigned_01char_01_4__inherit__graph.png
-* /usr/share/doc/glibmm-2.68/reference/html/classGlib_1_1Variant_3_01VariantBase_01_4-members.html
-* /usr/share/doc/glibmm-2.68/reference/html/classGlib_1_1Variant_3_01VariantBase_01_4.html
-* /usr/share/doc/glibmm-2.68/reference/html/classGlib_1_1Variant_3_01VariantBase_01_4__inherit__graph.map
-* /usr/share/doc/glibmm-2.68/reference/html/classGlib_1_1Variant_3_01VariantBase_01_4__inherit__graph.md5
-* /usr/share/doc/glibmm-2.68/reference/html/classGlib_1_1Variant_3_01VariantBase_01_4__inherit__graph.png
 * /usr/share/doc/glibmm-2.68/reference/html/classGlib_1_1Variant_3_01Variant_3_01T_01_4_01_4-members.html
 * /usr/share/doc/glibmm-2.68/reference/html/classGlib_1_1Variant_3_01Variant_3_01T_01_4_01_4.html
 * /usr/share/doc/glibmm-2.68/reference/html/classGlib_1_1Variant_3_01Variant_3_01T_01_4_01_4__inherit__graph.map
@@ -1791,9 +1786,11 @@ Glibmm Documentation
 * /usr/share/doc/glibmm-2.68/reference/html/nav_h.png
 * /usr/share/doc/glibmm-2.68/reference/html/nav_hd.png
 * /usr/share/doc/glibmm-2.68/reference/html/open.png
+* /usr/share/doc/glibmm-2.68/reference/html/options_2main_8cc-example.html
 * /usr/share/doc/glibmm-2.68/reference/html/pages.html
 * /usr/share/doc/glibmm-2.68/reference/html/plus.svg
 * /usr/share/doc/glibmm-2.68/reference/html/plusd.svg
+* /usr/share/doc/glibmm-2.68/reference/html/properties_2properties_example_8cc-example.html
 * /usr/share/doc/glibmm-2.68/reference/html/resize.js
 * /usr/share/doc/glibmm-2.68/reference/html/since_2_12.html
 * /usr/share/doc/glibmm-2.68/reference/html/since_2_14.html
@@ -1833,6 +1830,7 @@ Glibmm Documentation
 * /usr/share/doc/glibmm-2.68/reference/html/since_2_8.html
 * /usr/share/doc/glibmm-2.68/reference/html/since_2_80.html
 * /usr/share/doc/glibmm-2.68/reference/html/since_2_82.html
+* /usr/share/doc/glibmm-2.68/reference/html/since_2_84.html
 * /usr/share/doc/glibmm-2.68/reference/html/splitbar.png
 * /usr/share/doc/glibmm-2.68/reference/html/splitbard.png
 * /usr/share/doc/glibmm-2.68/reference/html/structGlib_1_1Container__Helpers_1_1TypeTraits-members.html

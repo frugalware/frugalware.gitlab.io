@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mbedtls-static 3.6.2-1"
-version = "3.6.2-1"
+title = "mbedtls-static 3.6.3-1"
+version = "3.6.3-1"
 description = "Static files for mbedtls"
-date = "2025-03-13T09:36:29"
+date = "2025-03-25T12:38:33"
 aliases = "/packages/219925"
 categories = ['devel-extra']
 upstreamurl = "https://tls.mbed.org"
 arch = "x86_64"
-size = "4043440"
-usize = "4909644"
-sha1sum = "5c326b9aa6fa7f6396ae90ee73e4f7a22e948f83"
+size = "4050984"
+usize = "4918128"
+sha1sum = "e8bb2e7f96d6e5f37c58632674d68f93f5415f2d"
 depends = "[]"
 +++
 ### Description: 

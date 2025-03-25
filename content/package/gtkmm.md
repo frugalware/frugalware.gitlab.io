@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gtkmm 4.16.0-1"
-version = "4.16.0-1"
+title = "gtkmm 4.18.0-1"
+version = "4.18.0-1"
 description = "C++ interface for GTK+4"
-date = "2024-11-14T11:00:27"
+date = "2025-03-25T13:13:23"
 aliases = "/packages/3081"
 categories = ['xlib-extra']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "1714992"
-usize = "12035942"
-sha1sum = "414fc171e5ed405d4a67adde166f9ad99071a84b"
+size = "1722244"
+usize = "12084944"
+sha1sum = "f048b995e28a83f4b31f6d7a7bdfaf22db83535a"
 depends = "['atkmm>=2.24.2-7', 'cairomm>=1.12.0-4', 'glibmm>=2.68.1', 'gtk+4', 'libstdc++>=11.2', 'libxrandr', 'pangomm>=2.40.1-5']"
 reverse_depends = "['pavucontrol']"
 +++
@@ -712,9 +712,9 @@ C++ interface for GTK+4
 * /usr/lib/libgtkmm-4.0.so.0.0.0
 * /usr/lib/pkgconfig/gtkmm-4.0.pc
 * /usr/share/devhelp/books/gtkmm-4.0/gtkmm-4.0.devhelp2
-* /usr/share/doc/gtkmm-4.16.0/ChangeLog
-* /usr/share/doc/gtkmm-4.16.0/COPYING
-* /usr/share/doc/gtkmm-4.16.0/COPYING.tools
-* /usr/share/doc/gtkmm-4.16.0/NEWS
-* /usr/share/doc/gtkmm-4.16.0/README.md
-* /usr/share/doc/gtkmm-4.16.0/README.win32.md
+* /usr/share/doc/gtkmm-4.18.0/ChangeLog
+* /usr/share/doc/gtkmm-4.18.0/COPYING
+* /usr/share/doc/gtkmm-4.18.0/COPYING.tools
+* /usr/share/doc/gtkmm-4.18.0/NEWS
+* /usr/share/doc/gtkmm-4.18.0/README.md
+* /usr/share/doc/gtkmm-4.18.0/README.win32.md

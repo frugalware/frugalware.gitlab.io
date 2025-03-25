@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gtkmm-docs 4.16.0-1"
-version = "4.16.0-1"
+title = "gtkmm-docs 4.18.0-1"
+version = "4.18.0-1"
 description = "Gtkmm Documentation"
-date = "2024-11-14T11:00:27"
+date = "2025-03-25T13:13:23"
 aliases = "/packages/30396"
 categories = ['docs-extra']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "5462656"
-usize = "96258300"
-sha1sum = "0c284c5ac1b715092429a4268c2c4192e5c93001"
+size = "5168116"
+usize = "99368341"
+sha1sum = "e5c03dc43667425470b8a5ef692b35258852b09a"
 depends = "[]"
 +++
 ### Description: 
@@ -2118,9 +2118,6 @@ Gtkmm Documentation
 * /usr/share/doc/gtkmm-4.0/reference/html/inherit_graph_53.map
 * /usr/share/doc/gtkmm-4.0/reference/html/inherit_graph_53.md5
 * /usr/share/doc/gtkmm-4.0/reference/html/inherit_graph_53.png
-* /usr/share/doc/gtkmm-4.0/reference/html/inherit_graph_54.map
-* /usr/share/doc/gtkmm-4.0/reference/html/inherit_graph_54.md5
-* /usr/share/doc/gtkmm-4.0/reference/html/inherit_graph_54.png
 * /usr/share/doc/gtkmm-4.0/reference/html/inherit_graph_6.map
 * /usr/share/doc/gtkmm-4.0/reference/html/inherit_graph_6.md5
 * /usr/share/doc/gtkmm-4.0/reference/html/inherit_graph_6.png
@@ -2204,21 +2201,13 @@ Gtkmm Documentation
 * /usr/share/doc/gtkmm-4.0/reference/html/plusd.svg
 * /usr/share/doc/gtkmm-4.0/reference/html/progressbar1.png
 * /usr/share/doc/gtkmm-4.0/reference/html/resize.js
-* /usr/share/doc/gtkmm-4.0/reference/html/since_2_10.html
 * /usr/share/doc/gtkmm-4.0/reference/html/since_2_12.html
 * /usr/share/doc/gtkmm-4.0/reference/html/since_2_14.html
-* /usr/share/doc/gtkmm-4.0/reference/html/since_2_16.html
-* /usr/share/doc/gtkmm-4.0/reference/html/since_2_18.html
 * /usr/share/doc/gtkmm-4.0/reference/html/since_2_2.html
-* /usr/share/doc/gtkmm-4.0/reference/html/since_2_20.html
-* /usr/share/doc/gtkmm-4.0/reference/html/since_2_24.html
 * /usr/share/doc/gtkmm-4.0/reference/html/since_2_26.html
-* /usr/share/doc/gtkmm-4.0/reference/html/since_2_30.html
 * /usr/share/doc/gtkmm-4.0/reference/html/since_2_32.html
 * /usr/share/doc/gtkmm-4.0/reference/html/since_2_36.html
-* /usr/share/doc/gtkmm-4.0/reference/html/since_2_4.html
 * /usr/share/doc/gtkmm-4.0/reference/html/since_2_6.html
-* /usr/share/doc/gtkmm-4.0/reference/html/since_2_8.html
 * /usr/share/doc/gtkmm-4.0/reference/html/since_3_0.html
 * /usr/share/doc/gtkmm-4.0/reference/html/since_3_10.html
 * /usr/share/doc/gtkmm-4.0/reference/html/since_3_12.html
@@ -2241,6 +2230,7 @@ Gtkmm Documentation
 * /usr/share/doc/gtkmm-4.0/reference/html/since_4_12.html
 * /usr/share/doc/gtkmm-4.0/reference/html/since_4_14.html
 * /usr/share/doc/gtkmm-4.0/reference/html/since_4_16.html
+* /usr/share/doc/gtkmm-4.0/reference/html/since_4_18.html
 * /usr/share/doc/gtkmm-4.0/reference/html/since_4_2.html
 * /usr/share/doc/gtkmm-4.0/reference/html/since_4_4.html
 * /usr/share/doc/gtkmm-4.0/reference/html/since_4_6.html

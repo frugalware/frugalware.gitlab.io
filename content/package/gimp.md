@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gimp 3.0.0-1"
-version = "3.0.0-1"
+title = "gimp 3.0.2-1"
+version = "3.0.2-1"
 description = "The GNU Image Manipulation Program"
-date = "2025-03-18T12:57:56"
+date = "2025-03-25T13:03:04"
 aliases = "/packages/3029"
 categories = ['xapps-extra']
 upstreamurl = "http://www.gimp.org/"
 arch = "x86_64"
-size = "20352040"
-usize = "117862011"
-sha1sum = "66f6dcfae536b338476fc7ff95cf0cd595ab27fa"
-depends = "['aalib', 'appstream-glib', 'darktable>=2.2.5-4', 'gegl>=0.4.56', 'ghostscript>=10.0.0', 'glib-networking', 'iso-codes', 'libgexiv2', 'libheif', 'libmng', 'libmypaint>=1.6', 'libxmu', 'libxpm', 'mypaint-brushes', 'openblas', 'poppler-glib>=0.60.1-2', 'pygobject3-cairo', 'vala', 'xdg-utils']"
+size = "20308572"
+usize = "117700349"
+sha1sum = "b075a540a9be03c294acc21b8c21f7f0bd83521d"
+depends = "['aalib', 'appstream-glib', 'darktable>=2.2.5-4', 'gegl>=0.4.58', 'ghostscript>=10.0.0', 'glib-networking', 'iso-codes', 'libgexiv2', 'libheif', 'libmng', 'libmypaint>=1.6', 'libxmu', 'libxpm', 'mypaint-brushes', 'openblas', 'poppler-glib>=0.60.1-2', 'pygobject3-cairo', 'vala', 'xdg-utils']"
 reverse_depends = "['gmic', 'gmic-gimp-plugin', 'xsane-gimp']"
 +++
 ### Description: 
@@ -492,45 +492,45 @@ The GNU Image Manipulation Program
 * /usr/lib/girepository-1.0/GimpUi-3.0.typelib
 * /usr/lib/libgimp-3.0.so
 * /usr/lib/libgimp-3.0.so.0
-* /usr/lib/libgimp-3.0.so.0.0.0
+* /usr/lib/libgimp-3.0.so.0.0.2
 * /usr/lib/libgimp-scriptfu-3.0.so
 * /usr/lib/libgimp-scriptfu-3.0.so.0
-* /usr/lib/libgimp-scriptfu-3.0.so.0.0.0
+* /usr/lib/libgimp-scriptfu-3.0.so.0.0.2
 * /usr/lib/libgimpbase-3.0.so
 * /usr/lib/libgimpbase-3.0.so.0
-* /usr/lib/libgimpbase-3.0.so.0.0.0
+* /usr/lib/libgimpbase-3.0.so.0.0.2
 * /usr/lib/libgimpcolor-3.0.so
 * /usr/lib/libgimpcolor-3.0.so.0
-* /usr/lib/libgimpcolor-3.0.so.0.0.0
+* /usr/lib/libgimpcolor-3.0.so.0.0.2
 * /usr/lib/libgimpconfig-3.0.so
 * /usr/lib/libgimpconfig-3.0.so.0
-* /usr/lib/libgimpconfig-3.0.so.0.0.0
+* /usr/lib/libgimpconfig-3.0.so.0.0.2
 * /usr/lib/libgimpmath-3.0.so
 * /usr/lib/libgimpmath-3.0.so.0
-* /usr/lib/libgimpmath-3.0.so.0.0.0
+* /usr/lib/libgimpmath-3.0.so.0.0.2
 * /usr/lib/libgimpmodule-3.0.so
 * /usr/lib/libgimpmodule-3.0.so.0
-* /usr/lib/libgimpmodule-3.0.so.0.0.0
+* /usr/lib/libgimpmodule-3.0.so.0.0.2
 * /usr/lib/libgimpthumb-3.0.so
 * /usr/lib/libgimpthumb-3.0.so.0
-* /usr/lib/libgimpthumb-3.0.so.0.0.0
+* /usr/lib/libgimpthumb-3.0.so.0.0.2
 * /usr/lib/libgimpui-3.0.so
 * /usr/lib/libgimpui-3.0.so.0
-* /usr/lib/libgimpui-3.0.so.0.0.0
+* /usr/lib/libgimpui-3.0.so.0.0.2
 * /usr/lib/libgimpwidgets-3.0.so
 * /usr/lib/libgimpwidgets-3.0.so.0
-* /usr/lib/libgimpwidgets-3.0.so.0.0.0
+* /usr/lib/libgimpwidgets-3.0.so.0.0.2
 * /usr/lib/pkgconfig/gimp-3.0.pc
 * /usr/lib/pkgconfig/gimpthumb-3.0.pc
 * /usr/lib/pkgconfig/gimpui-3.0.pc
 * /usr/share/applications/gimp.desktop
-* /usr/share/doc/gimp-3.0.0/AUTHORS
-* /usr/share/doc/gimp-3.0.0/COPYING
-* /usr/share/doc/gimp-3.0.0/INSTALL
-* /usr/share/doc/gimp-3.0.0/LICENSE
-* /usr/share/doc/gimp-3.0.0/NEWS
-* /usr/share/doc/gimp-3.0.0/README
-* /usr/share/doc/gimp-3.0.0/README.i18n
+* /usr/share/doc/gimp-3.0.2/AUTHORS
+* /usr/share/doc/gimp-3.0.2/COPYING
+* /usr/share/doc/gimp-3.0.2/INSTALL
+* /usr/share/doc/gimp-3.0.2/LICENSE
+* /usr/share/doc/gimp-3.0.2/NEWS
+* /usr/share/doc/gimp-3.0.2/README
+* /usr/share/doc/gimp-3.0.2/README.i18n
 * /usr/share/gimp/3.0/brushes/Basic/1-pixel.vbr
 * /usr/share/gimp/3.0/brushes/Basic/Block-01.vbr
 * /usr/share/gimp/3.0/brushes/Basic/Block-02.vbr
@@ -1304,6 +1304,10 @@ The GNU Image Manipulation Program
 * /usr/share/gimp/3.0/icons/Default/scalable/apps/gimp-text-dir-ttb-rtl.svg
 * /usr/share/gimp/3.0/icons/Default/scalable/apps/gimp-text-layer-symbolic.svg
 * /usr/share/gimp/3.0/icons/Default/scalable/apps/gimp-text-layer.svg
+* /usr/share/gimp/3.0/icons/Default/scalable/apps/gimp-toggle-off-symbolic.svg
+* /usr/share/gimp/3.0/icons/Default/scalable/apps/gimp-toggle-off.svg
+* /usr/share/gimp/3.0/icons/Default/scalable/apps/gimp-toggle-on-symbolic.svg
+* /usr/share/gimp/3.0/icons/Default/scalable/apps/gimp-toggle-on.svg
 * /usr/share/gimp/3.0/icons/Default/scalable/apps/gimp-toilet-paper-symbolic.svg
 * /usr/share/gimp/3.0/icons/Default/scalable/apps/gimp-toilet-paper.svg
 * /usr/share/gimp/3.0/icons/Default/scalable/apps/gimp-tool-airbrush-symbolic.svg
@@ -1938,6 +1942,10 @@ The GNU Image Manipulation Program
 * /usr/share/gimp/3.0/icons/Legacy/scalable/apps/gimp-shred.svg
 * /usr/share/gimp/3.0/icons/Legacy/scalable/apps/gimp-smartphone.svg
 * /usr/share/gimp/3.0/icons/Legacy/scalable/apps/gimp-symmetry.svg
+* /usr/share/gimp/3.0/icons/Legacy/scalable/apps/gimp-toggle-off-symbolic.svg
+* /usr/share/gimp/3.0/icons/Legacy/scalable/apps/gimp-toggle-off.svg
+* /usr/share/gimp/3.0/icons/Legacy/scalable/apps/gimp-toggle-on-symbolic.svg
+* /usr/share/gimp/3.0/icons/Legacy/scalable/apps/gimp-toggle-on.svg
 * /usr/share/gimp/3.0/icons/Legacy/scalable/apps/gimp-tool-airbrush.svg
 * /usr/share/gimp/3.0/icons/Legacy/scalable/apps/gimp-tool-align.svg
 * /usr/share/gimp/3.0/icons/Legacy/scalable/apps/gimp-tool-blur.svg

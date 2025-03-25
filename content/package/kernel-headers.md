@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kernel-headers 6.13.8-1"
-version = "6.13.8-1"
+title = "kernel-headers 6.14-2"
+version = "6.14-2"
 description = "Linux kernel include files"
-date = "2025-03-23T21:22:56"
+date = "2025-03-25T11:18:50"
 aliases = "/packages/2398"
 categories = ['devel']
 upstreamurl = "https://www.kernel.org"
 arch = "x86_64"
-size = "1252372"
-usize = "5927078"
-sha1sum = "e5935a29cbe772736eda9bbad46c09939eae637c"
+size = "1255952"
+usize = "5941662"
+sha1sum = "fbe4b32c038300f55c554e2c20b739698d2b5383"
 depends = "[]"
 +++
 ### Description: 
@@ -258,6 +258,7 @@ Linux kernel include files
 * /usr/include/linux/erspan.h
 * /usr/include/linux/ethtool.h
 * /usr/include/linux/ethtool_netlink.h
+* /usr/include/linux/ethtool_netlink_generated.h
 * /usr/include/linux/eventfd.h
 * /usr/include/linux/eventpoll.h
 * /usr/include/linux/exfat.h
@@ -668,6 +669,7 @@ Linux kernel include files
 * /usr/include/linux/ppp-ioctl.h
 * /usr/include/linux/ppp_defs.h
 * /usr/include/linux/pps.h
+* /usr/include/linux/pps_gen.h
 * /usr/include/linux/pr.h
 * /usr/include/linux/prctl.h
 * /usr/include/linux/psample.h
@@ -958,6 +960,7 @@ Linux kernel include files
 * /usr/include/sound/compress_offload.h
 * /usr/include/sound/compress_params.h
 * /usr/include/sound/emu10k1.h
+* /usr/include/sound/fcp.h
 * /usr/include/sound/firewire.h
 * /usr/include/sound/hdsp.h
 * /usr/include/sound/hdspm.h

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "terminology 1.13.0-1"
-version = "1.13.0-1"
+title = "terminology 1.14.0-1"
+version = "1.14.0-1"
 description = "Enlightenment Foundation Terminal"
-date = "2024-07-07T13:20:53"
+date = "2025-03-25T12:41:12"
 aliases = "/packages/218032"
 categories = ['e-apps']
 upstreamurl = "https://www.enlightenment.org/"
 arch = "x86_64"
-size = "2593088"
-usize = "5488117"
-sha1sum = "4c6bbb8678e6a5fc7df974c59aee2798f7470474"
+size = "2593844"
+usize = "5504263"
+sha1sum = "ebd9a180098ae929ccec42a85ac58ccc1d17bc3e"
 depends = "['bullet', 'bzip2', 'dbus', 'efl>=1.21.0', 'expat', 'flac', 'fontconfig', 'freetype2', 'fribidi', 'glib2', 'glibc', 'graphite2', 'harfbuzz', 'hyphen', 'json-c', 'libasyncns', 'libblkid', 'libdrm', 'libevdev', 'libffi', 'libgbm', 'libgcc', 'libgcrypt', 'libgpg-error', 'libinput', 'libjpeg-turbo', 'libogg', 'libpng', 'libpulse', 'libsndfile', 'libstdc++', 'libsystemd', 'libunwind', 'libuuid>=2.40.2', 'libvorbis', 'libx11', 'libxau', 'libxcb', 'libxcomposite', 'libxcursor', 'libxdamage', 'libxdmcp', 'libxext', 'libxfixes', 'libxi', 'libxinerama', 'libxkbcommon', 'libxrandr', 'libxrender', 'libxscrnsaver', 'libxtst', 'luajit2', 'lz4', 'mtdev', 'openssl', 'pcre', 'util-linux', 'wayland', 'xz']"
 +++
 ### Description: 
@@ -26,12 +26,12 @@ Enlightenment Foundation Terminal
 * /usr/bin/tyq
 * /usr/bin/tysend
 * /usr/share/applications/terminology.desktop
-* /usr/share/doc/terminology-1.13.0/AUTHORS
-* /usr/share/doc/terminology-1.13.0/ChangeLog
-* /usr/share/doc/terminology-1.13.0/COPYING
-* /usr/share/doc/terminology-1.13.0/NEWS
-* /usr/share/doc/terminology-1.13.0/README.md
-* /usr/share/doc/terminology-1.13.0/TODO
+* /usr/share/doc/terminology-1.14.0/AUTHORS
+* /usr/share/doc/terminology-1.14.0/ChangeLog
+* /usr/share/doc/terminology-1.14.0/COPYING
+* /usr/share/doc/terminology-1.14.0/NEWS
+* /usr/share/doc/terminology-1.14.0/README.md
+* /usr/share/doc/terminology-1.14.0/TODO
 * /usr/share/icons/hicolor/128x128/apps/terminology.png
 * /usr/share/man/man1/terminology-helpers.1.gz
 * /usr/share/man/man1/terminology.1.gz

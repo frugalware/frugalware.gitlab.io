@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "glibmm24-docs 2.66.7-1"
-version = "2.66.7-1"
+title = "glibmm24-docs 2.66.8-1"
+version = "2.66.8-1"
 description = "Glibmm Documentation"
-date = "2024-11-14T10:30:36"
+date = "2025-03-25T13:06:25"
 aliases = "/packages/220430"
 categories = ['docs-extra']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "2617860"
-usize = "40674460"
-sha1sum = "a429eacba339c06ea9408ef117444490dcfc0f00"
+size = "2338112"
+usize = "43984110"
+sha1sum = "085991fe97119f71a6abbdf67a86cd49cba6ec74"
 depends = "[]"
 +++
 ### Description: 
@@ -691,8 +691,6 @@ Glibmm Documentation
 * /usr/share/doc/glibmm-2.4/reference/html/classGlib_1_1ArrayHandler.html
 * /usr/share/doc/glibmm-2.4/reference/html/classGlib_1_1ArrayHandler_3_01bool_01_4-members.html
 * /usr/share/doc/glibmm-2.4/reference/html/classGlib_1_1ArrayHandler_3_01bool_01_4.html
-* /usr/share/doc/glibmm-2.4/reference/html/classGlib_1_1ArrayHandle_3_01bool_00_01Container__Helpers_1_1TypeTraits_3_01bool_01_4_01_4-members.html
-* /usr/share/doc/glibmm-2.4/reference/html/classGlib_1_1ArrayHandle_3_01bool_00_01Container__Helpers_1_1TypeTraits_3_01bool_01_4_01_4.html
 * /usr/share/doc/glibmm-2.4/reference/html/classGlib_1_1BalancedTree-members.html
 * /usr/share/doc/glibmm-2.4/reference/html/classGlib_1_1BalancedTree.html
 * /usr/share/doc/glibmm-2.4/reference/html/classGlib_1_1Binding-members.html
@@ -1351,11 +1349,6 @@ Glibmm Documentation
 * /usr/share/doc/glibmm-2.4/reference/html/classGlib_1_1Variant_3_01unsigned_01char_01_4__inherit__graph.map
 * /usr/share/doc/glibmm-2.4/reference/html/classGlib_1_1Variant_3_01unsigned_01char_01_4__inherit__graph.md5
 * /usr/share/doc/glibmm-2.4/reference/html/classGlib_1_1Variant_3_01unsigned_01char_01_4__inherit__graph.png
-* /usr/share/doc/glibmm-2.4/reference/html/classGlib_1_1Variant_3_01VariantBase_01_4-members.html
-* /usr/share/doc/glibmm-2.4/reference/html/classGlib_1_1Variant_3_01VariantBase_01_4.html
-* /usr/share/doc/glibmm-2.4/reference/html/classGlib_1_1Variant_3_01VariantBase_01_4__inherit__graph.map
-* /usr/share/doc/glibmm-2.4/reference/html/classGlib_1_1Variant_3_01VariantBase_01_4__inherit__graph.md5
-* /usr/share/doc/glibmm-2.4/reference/html/classGlib_1_1Variant_3_01VariantBase_01_4__inherit__graph.png
 * /usr/share/doc/glibmm-2.4/reference/html/classGlib_1_1Variant_3_01Variant_3_01T_01_4_01_4-members.html
 * /usr/share/doc/glibmm-2.4/reference/html/classGlib_1_1Variant_3_01Variant_3_01T_01_4_01_4.html
 * /usr/share/doc/glibmm-2.4/reference/html/classGlib_1_1Variant_3_01Variant_3_01T_01_4_01_4__inherit__graph.map
@@ -1585,9 +1578,6 @@ Glibmm Documentation
 * /usr/share/doc/glibmm-2.4/reference/html/inherit_graph_117.map
 * /usr/share/doc/glibmm-2.4/reference/html/inherit_graph_117.md5
 * /usr/share/doc/glibmm-2.4/reference/html/inherit_graph_117.png
-* /usr/share/doc/glibmm-2.4/reference/html/inherit_graph_118.map
-* /usr/share/doc/glibmm-2.4/reference/html/inherit_graph_118.md5
-* /usr/share/doc/glibmm-2.4/reference/html/inherit_graph_118.png
 * /usr/share/doc/glibmm-2.4/reference/html/inherit_graph_12.map
 * /usr/share/doc/glibmm-2.4/reference/html/inherit_graph_12.md5
 * /usr/share/doc/glibmm-2.4/reference/html/inherit_graph_12.png
