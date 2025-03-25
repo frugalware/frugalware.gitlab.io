@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "weston 14.0.1-3"
-version = "14.0.1-3"
+title = "weston 14.0.1-4"
+version = "14.0.1-4"
 description = "Wayland Default Display Compositor"
-date = "2025-02-12T15:25:09"
+date = "2025-03-25T14:44:52"
 aliases = "/packages/168990"
 categories = ['x11-extra']
 upstreamurl = "http://wayland.freedesktop.org/"
 arch = "x86_64"
-size = "1291100"
-usize = "5046085"
-sha1sum = "f2b584a4d4b729d0d318508ae6351e74f02be4fd"
+size = "1284504"
+usize = "5035667"
+sha1sum = "63f6fb18b3553a24984070540d52f977ead6298f"
 depends = "['freerdp', 'gst1-plugins-base', 'lcms2', 'libdisplay-info>=0.2.0', 'libgbm', 'libglvnd', 'libinput', 'libva', 'libwebp', 'libxcursor', 'libxkbcommon', 'neatvnc', 'pango', 'pipewire', 'seatd', 'wayland']"
 +++
 ### Description: 
@@ -104,10 +104,7 @@ Wayland Default Display Compositor
 * /usr/lib/weston/weston-ivi-shell-user-interface
 * /usr/lib/weston/weston-keyboard
 * /usr/lib/weston/weston-simple-im
-* /usr/share/doc/weston-14.0.1/AUTHORS
-* /usr/share/doc/weston-14.0.1/ChangeLog
 * /usr/share/doc/weston-14.0.1/COPYING
-* /usr/share/doc/weston-14.0.1/LICENSE
 * /usr/share/doc/weston-14.0.1/README.md
 * /usr/share/libweston-14/protocols/weston-content-protection.xml
 * /usr/share/libweston-14/protocols/weston-debug.xml

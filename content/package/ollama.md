@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ollama 0.6.2-1"
-version = "0.6.2-1"
+title = "ollama 0.6.2-2"
+version = "0.6.2-2"
 description = "Create, run and share large language models (LLMs)"
-date = "2025-03-20T10:59:18"
+date = "2025-03-25T14:51:00"
 aliases = "/packages/222576"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/ollama/ollama"
 arch = "x86_64"
-size = "483917852"
-usize = "954072627"
-sha1sum = "871e53a5a0ed99d2f303bf31e4f013ef8c6dba04"
+size = "483926860"
+usize = "954073107"
+sha1sum = "ab0c4c71fcc2322f0456154150c22a0a24e36491"
 depends = "['glibc']"
 reverse_depends = "['alpaca']"
 +++
