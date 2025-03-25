@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kdevelop-pg-qt 2.3.0-2"
-version = "2.3.0-2"
+title = "kdevelop-pg-qt 2.4.0-1"
+version = "2.4.0-1"
 description = "KDevelop Parser Generator, a LL(1) parser generator used by KDevelop language plugins"
-date = "2024-12-05T12:44:03"
+date = "2025-03-25T13:45:22"
 aliases = "/packages/220974"
 categories = ['devel-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "417636"
-usize = "1101806"
-sha1sum = "5df511af3b02d6350da91245d7add99c6ec69de9"
+size = "406292"
+usize = "1073465"
+sha1sum = "c2a4e04cc4d51ed58b41a9431ebd250bcd47443b"
 depends = "['qt6-base>=']"
 reverse_depends = "['kdevelop']"
 +++
@@ -19,17 +19,20 @@ KDevelop Parser Generator, a LL(1) parser generator used by KDevelop language pl
 
 ### Files: 
 * /usr/bin/kdev-pg-qt
-* /usr/include/kdevelop-pg-qt/kdev-pg-allocator.h
-* /usr/include/kdevelop-pg-qt/kdev-pg-char-sets.h
-* /usr/include/kdevelop-pg-qt/kdev-pg-list.h
-* /usr/include/kdevelop-pg-qt/kdev-pg-location-table.h
-* /usr/include/kdevelop-pg-qt/kdev-pg-memory-pool.h
-* /usr/include/kdevelop-pg-qt/kdev-pg-token-stream.h
-* /usr/include/kdevelop-pg-qt/kdevelop-pg-qt_version.h
+* /usr/include/KDevelopPGQt/kdev-pg-allocator.h
+* /usr/include/KDevelopPGQt/kdev-pg-char-sets.h
+* /usr/include/KDevelopPGQt/kdev-pg-list.h
+* /usr/include/KDevelopPGQt/kdev-pg-location-table.h
+* /usr/include/KDevelopPGQt/kdev-pg-memory-pool.h
+* /usr/include/KDevelopPGQt/kdev-pg-token-stream.h
+* /usr/include/KDevelopPGQt/kdevelop-pg-qt_version.h
 * /usr/lib/cmake/KDevelop-PG-Qt/KDevelop-PG-QtConfig.cmake
 * /usr/lib/cmake/KDevelop-PG-Qt/KDevelop-PG-QtConfigVersion.cmake
-* /usr/lib/cmake/KDevelop-PG-Qt/KDevelop-PG-QtMacros.cmake
-* /usr/share/doc/kdevelop-pg-qt-2.3.0/AUTHORS
-* /usr/share/doc/kdevelop-pg-qt-2.3.0/COPYING.LIB
-* /usr/share/doc/kdevelop-pg-qt-2.3.0/README
-* /usr/share/doc/kdevelop-pg-qt-2.3.0/TODO
+* /usr/lib/cmake/KDevelopPGQt/KDevelopPGQtConfig.cmake
+* /usr/lib/cmake/KDevelopPGQt/KDevelopPGQtConfigVersion.cmake
+* /usr/lib/cmake/KDevelopPGQt/KDevelopPGQtMacros.cmake
+* /usr/lib/cmake/KDevelopPGQt/KDevelopPGQtTargets-release.cmake
+* /usr/lib/cmake/KDevelopPGQt/KDevelopPGQtTargets.cmake
+* /usr/share/doc/kdevelop-pg-qt-2.4.0/AUTHORS
+* /usr/share/doc/kdevelop-pg-qt-2.4.0/README
+* /usr/share/doc/kdevelop-pg-qt-2.4.0/TODO

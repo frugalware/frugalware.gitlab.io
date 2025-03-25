@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libvirt 11.0.0-1"
-version = "11.0.0-1"
+title = "libvirt 11.1.0-1"
+version = "11.1.0-1"
 description = "libvirt is a library providing access to information from various virtualization tools"
-date = "2025-02-11T12:17:52"
+date = "2025-03-25T13:19:34"
 aliases = "/packages/14198"
 categories = ['xlib-extra']
 upstreamurl = "http://libvirt.org"
 arch = "x86_64"
-size = "8744296"
-usize = "51940635"
-sha1sum = "009e222b67f0776fbe0bb6284349911ede64b646"
+size = "8775716"
+usize = "52168711"
+sha1sum = "3a010a7e049a6de58385b080641afa1ac4c13fa0"
 depends = "['avahi', 'bridge-utils', 'curl', 'cyrus-sasl', 'dmidecode', 'dnsmasq', 'fuse', 'gnutls>=3.4.2', 'iproute2', 'iscsi', 'libnl>=3.2.9', 'libpciaccess', 'libssh2', 'libtirpc', 'libudev', 'libxml2', 'lvm2>=2.02.96', 'numactl', 'parted>=3.3', 'polkit', 'readline>=8.0', 'systemd>=228', 'yajl']"
 reverse_depends = "['libguestfs', 'libvirt-glib', 'libvirt-python3']"
 +++
@@ -123,16 +123,16 @@ libvirt is a library providing access to information from various virtualization
 * /usr/lib/libnss_libvirt_guest.so.2
 * /usr/lib/libvirt-admin.so
 * /usr/lib/libvirt-admin.so.0
-* /usr/lib/libvirt-admin.so.0.11000.0
+* /usr/lib/libvirt-admin.so.0.11001.0
 * /usr/lib/libvirt-lxc.so
 * /usr/lib/libvirt-lxc.so.0
-* /usr/lib/libvirt-lxc.so.0.11000.0
+* /usr/lib/libvirt-lxc.so.0.11001.0
 * /usr/lib/libvirt-qemu.so
 * /usr/lib/libvirt-qemu.so.0
-* /usr/lib/libvirt-qemu.so.0.11000.0
+* /usr/lib/libvirt-qemu.so.0.11001.0
 * /usr/lib/libvirt.so
 * /usr/lib/libvirt.so.0
-* /usr/lib/libvirt.so.0.11000.0
+* /usr/lib/libvirt.so.0.11001.0
 * /usr/lib/libvirt/connection-driver/libvirt_driver_ch.so
 * /usr/lib/libvirt/connection-driver/libvirt_driver_interface.so
 * /usr/lib/libvirt/connection-driver/libvirt_driver_lxc.so
@@ -159,7 +159,6 @@ libvirt is a library providing access to information from various virtualization
 * /usr/lib/libvirt/storage-backend/libvirt_storage_backend_scsi.so
 * /usr/lib/libvirt/storage-backend/libvirt_storage_backend_vstorage.so
 * /usr/lib/libvirt/storage-backend/libvirt_storage_backend_zfs.so
-* /usr/lib/libvirt/storage-file/libvirt_storage_file_fs.so
 * /usr/lib/libvirt/virt-login-shell-helper
 * /usr/lib/pkgconfig/libvirt-admin.pc
 * /usr/lib/pkgconfig/libvirt-lxc.pc
@@ -227,7 +226,9 @@ libvirt is a library providing access to information from various virtualization
 * /usr/lib/systemd/system/virtvboxd-ro.socket
 * /usr/lib/systemd/system/virtvboxd.service
 * /usr/lib/systemd/system/virtvboxd.socket
+* /usr/lib/sysusers.d/libvirt-login-shell.conf
 * /usr/lib/sysusers.d/libvirt-qemu.conf
+* /usr/lib/sysusers.d/libvirt.conf
 * /usr/lib/tmpfiles.d/libvirt.conf
 * /usr/share/augeas/lenses/libvirtd.aug
 * /usr/share/augeas/lenses/libvirtd_lxc.aug
@@ -265,9 +266,9 @@ libvirt is a library providing access to information from various virtualization
 * /usr/share/augeas/lenses/virtsecretd.aug
 * /usr/share/augeas/lenses/virtstoraged.aug
 * /usr/share/augeas/lenses/virtvboxd.aug
-* /usr/share/doc/libvirt-11.0.0/COPYING
-* /usr/share/doc/libvirt-11.0.0/COPYING.LESSER
-* /usr/share/doc/libvirt-11.0.0/README.rst
+* /usr/share/doc/libvirt-11.1.0/COPYING
+* /usr/share/doc/libvirt-11.1.0/COPYING.LESSER
+* /usr/share/doc/libvirt-11.1.0/README.rst
 * /usr/share/doc/libvirt/examples/c/admin/client_close.c
 * /usr/share/doc/libvirt/examples/c/admin/client_info.c
 * /usr/share/doc/libvirt/examples/c/admin/client_limits.c

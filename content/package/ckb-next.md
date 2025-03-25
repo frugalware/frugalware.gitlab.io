@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ckb-next 0.6.2-1"
-version = "0.6.2-1"
+title = "ckb-next 0.6.2-2"
+version = "0.6.2-2"
 description = "Corsair Keyboard and Mouse Input Driver, release version"
-date = "2025-03-18T14:06:19"
+date = "2025-03-25T14:13:11"
 aliases = "/packages/222691"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/ckb-next/ckb-next"
 arch = "x86_64"
-size = "1361420"
-usize = "3213619"
-sha1sum = "a9c2b38ec0484f9fa86071bbc9a80504fc686e6c"
-depends = "['hicolor-icon-theme', 'libpulse', 'libxcb', 'qt6-base', 'quazip-qt6', 'xcb-util-wm']"
+size = "1361256"
+usize = "3213755"
+sha1sum = "9bcd53c23ffce54b26a6219402dfd3230823ecd1"
+depends = "['hicolor-icon-theme', 'libpulse', 'libxcb', 'qt6-base', 'quazip-qt6>=1.5', 'xcb-util-wm']"
 +++
 ### Description: 
 Corsair Keyboard and Mouse Input Driver, release version

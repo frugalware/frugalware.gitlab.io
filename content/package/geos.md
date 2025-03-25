@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "geos 3.13.0-1"
-version = "3.13.0-1"
+title = "geos 3.13.1-1"
+version = "3.13.1-1"
 description = "GEOS (Geometry Engine, Open Source) topology library"
-date = "2025-01-03T16:42:24"
+date = "2025-03-25T13:28:18"
 aliases = "/packages/4236"
 categories = ['lib-extra']
 upstreamurl = "https://libgeos.org"
 arch = "x86_64"
-size = "1447892"
-usize = "6946956"
-sha1sum = "f22a68e99398261ce26636ea87b2ff4512d18947"
+size = "1451352"
+usize = "6972005"
+sha1sum = "0fb2907078eae45e37695c18c6bd6dbcac212147"
 depends = "['libstdc++>=11.2']"
 reverse_depends = "['gdal']"
 license = "LGPL"
@@ -44,6 +44,7 @@ GEOS (Geometry Engine, Open Source) topology library
 * /usr/include/geos/algorithm/hull/ConcaveHullOfPolygons.h
 * /usr/include/geos/algorithm/hull/HullTri.h
 * /usr/include/geos/algorithm/hull/HullTriangulation.h
+* /usr/include/geos/algorithm/hull/OuterShellsExtracter.h
 * /usr/include/geos/algorithm/InteriorPointArea.h
 * /usr/include/geos/algorithm/InteriorPointLine.h
 * /usr/include/geos/algorithm/InteriorPointPoint.h
@@ -314,14 +315,18 @@ GEOS (Geometry Engine, Open Source) topology library
 * /usr/include/geos/operation/buffer/BufferBuilder.h
 * /usr/include/geos/operation/buffer/BufferCurveSetBuilder.h
 * /usr/include/geos/operation/buffer/BufferInputLineSimplifier.h
+* /usr/include/geos/operation/buffer/BufferNodeFactory.h
 * /usr/include/geos/operation/buffer/BufferOp.h
 * /usr/include/geos/operation/buffer/BufferParameters.h
 * /usr/include/geos/operation/buffer/BufferSubgraph.h
+* /usr/include/geos/operation/buffer/MaximalEdgeRing.h
+* /usr/include/geos/operation/buffer/MinimalEdgeRing.h
 * /usr/include/geos/operation/buffer/OffsetCurve.h
 * /usr/include/geos/operation/buffer/OffsetCurveBuilder.h
 * /usr/include/geos/operation/buffer/OffsetCurveSection.h
 * /usr/include/geos/operation/buffer/OffsetSegmentGenerator.h
 * /usr/include/geos/operation/buffer/OffsetSegmentString.h
+* /usr/include/geos/operation/buffer/PolygonBuilder.h
 * /usr/include/geos/operation/buffer/RightmostEdgeFinder.h
 * /usr/include/geos/operation/buffer/SegmentMCIndex.h
 * /usr/include/geos/operation/buffer/SubgraphDepthLocater.h
@@ -352,10 +357,6 @@ GEOS (Geometry Engine, Open Source) topology library
 * /usr/include/geos/operation/linemerge/LineMergeGraph.h
 * /usr/include/geos/operation/linemerge/LineMerger.h
 * /usr/include/geos/operation/linemerge/LineSequencer.h
-* /usr/include/geos/operation/overlay/MaximalEdgeRing.h
-* /usr/include/geos/operation/overlay/MinimalEdgeRing.h
-* /usr/include/geos/operation/overlay/OverlayNodeFactory.h
-* /usr/include/geos/operation/overlay/PolygonBuilder.h
 * /usr/include/geos/operation/overlay/snap/GeometrySnapper.h
 * /usr/include/geos/operation/overlay/snap/LineStringSnapper.h
 * /usr/include/geos/operation/overlay/snap/SnapOverlayOp.h
@@ -539,12 +540,12 @@ GEOS (Geometry Engine, Open Source) topology library
 * /usr/lib/cmake/GEOS/geos-targets-release.cmake
 * /usr/lib/cmake/GEOS/geos-targets.cmake
 * /usr/lib/libgeos.so
-* /usr/lib/libgeos.so.3.13.0
+* /usr/lib/libgeos.so.3.13.1
 * /usr/lib/libgeos_c.so
 * /usr/lib/libgeos_c.so.1
-* /usr/lib/libgeos_c.so.1.19.0
+* /usr/lib/libgeos_c.so.1.19.2
 * /usr/lib/pkgconfig/geos.pc
-* /usr/share/doc/geos-3.13.0/AUTHORS
-* /usr/share/doc/geos-3.13.0/COPYING
-* /usr/share/doc/geos-3.13.0/INSTALL.md
-* /usr/share/doc/geos-3.13.0/README.md
+* /usr/share/doc/geos-3.13.1/AUTHORS
+* /usr/share/doc/geos-3.13.1/COPYING
+* /usr/share/doc/geos-3.13.1/INSTALL.md
+* /usr/share/doc/geos-3.13.1/README.md

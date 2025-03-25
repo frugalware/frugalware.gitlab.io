@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "opencolorio 2.4.1-2"
-version = "2.4.1-2"
+title = "opencolorio 2.4.2-1"
+version = "2.4.2-1"
 description = "Color management framework for visual effects and animation"
-date = "2025-01-01T22:13:29"
+date = "2025-03-25T13:16:54"
 aliases = "/packages/218642"
 categories = ['xlib-extra']
 upstreamurl = "http://opencolorio.org/"
 arch = "x86_64"
-size = "1963572"
-usize = "7978109"
-sha1sum = "6d863e2c337ed55ad49de358addb8fa5f19a7204"
+size = "1970964"
+usize = "8014408"
+sha1sum = "4680b033fe5a504b18957fde8870f1f32072f4de"
 depends = "['freeglut', 'glew', 'imath>=3.1.10', 'lcms2', 'minizip-ng', 'openexr', 'pybind11', 'pystring', 'yaml-cpp>=0.8.0']"
 reverse_depends = "['blender', 'krita', 'openimageio']"
 +++
@@ -43,11 +43,11 @@ Color management framework for visual effects and animation
 * /usr/lib/cmake/OpenColorIO/OpenColorIOTargets.cmake
 * /usr/lib/libOpenColorIO.so
 * /usr/lib/libOpenColorIO.so.2.4
-* /usr/lib/libOpenColorIO.so.2.4.1
+* /usr/lib/libOpenColorIO.so.2.4.2
 * /usr/lib/pkgconfig/OpenColorIO.pc
 * /usr/lib/python3.13/site-packages/PyOpenColorIO/PyOpenColorIO.so
 * /usr/lib/python3.13/site-packages/PyOpenColorIO/__init__.py
-* /usr/share/doc/opencolorio-2.4.1/INSTALL.md
-* /usr/share/doc/opencolorio-2.4.1/LICENSE
-* /usr/share/doc/opencolorio-2.4.1/README.md
+* /usr/share/doc/opencolorio-2.4.2/INSTALL.md
+* /usr/share/doc/opencolorio-2.4.2/LICENSE
+* /usr/share/doc/opencolorio-2.4.2/README.md
 * /usr/share/ocio/setup_ocio.sh

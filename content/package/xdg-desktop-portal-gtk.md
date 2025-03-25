@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "xdg-desktop-portal-gtk 1.15.2-1"
-version = "1.15.2-1"
+title = "xdg-desktop-portal-gtk 1.15.3-1"
+version = "1.15.3-1"
 description = "A backend implementation for xdg-desktop-portal using GTK"
-date = "2025-01-23T14:38:38"
+date = "2025-03-25T13:25:43"
 aliases = "/packages/221511"
 categories = ['xlib-extra']
 upstreamurl = "https://github.com/flatpak/xdg-desktop-portal-gtk"
 arch = "x86_64"
-size = "104500"
-usize = "483987"
-sha1sum = "c9ba11a92b5ee5af950d22d60d6605fbee247a02"
+size = "105704"
+usize = "488907"
+sha1sum = "33e75dc1cd5e7754d98fe14952dd677bda29a116"
 depends = "['gsettings-desktop-schemas', 'gtk+3', 'xdg-desktop-portal']"
 reverse_depends = "['xdg-desktop-portal-gnome']"
 +++
@@ -22,9 +22,9 @@ A backend implementation for xdg-desktop-portal using GTK
 * /usr/lib/xdg-desktop-portal-gtk/xdg-desktop-portal-gtk
 * /usr/share/applications/xdg-desktop-portal-gtk.desktop
 * /usr/share/dbus-1/services/org.freedesktop.impl.portal.desktop.gtk.service
-* /usr/share/doc/xdg-desktop-portal-gtk-1.15.2/COPYING
-* /usr/share/doc/xdg-desktop-portal-gtk-1.15.2/NEWS
-* /usr/share/doc/xdg-desktop-portal-gtk-1.15.2/README.md
+* /usr/share/doc/xdg-desktop-portal-gtk-1.15.3/COPYING
+* /usr/share/doc/xdg-desktop-portal-gtk-1.15.3/NEWS
+* /usr/share/doc/xdg-desktop-portal-gtk-1.15.3/README.md
 * /usr/share/locale/be/LC_MESSAGES/xdg-desktop-portal-gtk.mo
 * /usr/share/locale/ca/LC_MESSAGES/xdg-desktop-portal-gtk.mo
 * /usr/share/locale/cs/LC_MESSAGES/xdg-desktop-portal-gtk.mo
