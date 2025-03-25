@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qemu 9.2.1-1"
-version = "9.2.1-1"
+title = "qemu 9.2.2-1"
+version = "9.2.2-1"
 description = "QEMU is a FAST! processor emulator"
-date = "2025-02-24T16:11:16"
+date = "2025-03-25T16:14:20"
 aliases = "/packages/3815"
 categories = ['xapps-extra']
 upstreamurl = "http://www.nongnu.org/qemu/"
 arch = "x86_64"
-size = "128893456"
-usize = "849929264"
-sha1sum = "4fb737ec5b15485dacbcd966a1177628e5694b91"
+size = "128843872"
+usize = "849845409"
+sha1sum = "936c6cce0d73983cc15e2aad864577feaf8184ce"
 depends = "['alsa-lib', 'bluez', 'curl', 'cyrus-sasl', 'dtc', 'fuse3', 'jemalloc', 'libaio', 'libbpf', 'libepoxy', 'libgbm', 'libglu', 'libjpeg-turbo', 'libpng>=1.6.20', 'libseccomp', 'libssh2', 'libsysprof-capture', 'liburing', 'libx11', 'lzo', 'ncurses>=6.0-3', 'nettle>=3.6', 'nss', 'numactl', 'pipewire', 'pixman', 'pulseaudio', 'snappy', 'spice-protocol', 'usbredir>=0.8.0', 'vte3', 'xkeyboard-config']"
 reverse_depends = "['libguestfs']"
 +++
@@ -117,12 +117,12 @@ QEMU is a FAST! processor emulator
 * /usr/lib/qemu/ui-spice-app.so
 * /usr/lib/qemu/ui-spice-core.so
 * /usr/share/applications/qemu.desktop
-* /usr/share/doc/qemu-9.2.1/COPYING
-* /usr/share/doc/qemu-9.2.1/COPYING.LIB
-* /usr/share/doc/qemu-9.2.1/LICENSE
-* /usr/share/doc/qemu-9.2.1/README.Frugalware
-* /usr/share/doc/qemu-9.2.1/README.rst
-* /usr/share/doc/qemu-9.2.1/VERSION
+* /usr/share/doc/qemu-9.2.2/COPYING
+* /usr/share/doc/qemu-9.2.2/COPYING.LIB
+* /usr/share/doc/qemu-9.2.2/LICENSE
+* /usr/share/doc/qemu-9.2.2/README.Frugalware
+* /usr/share/doc/qemu-9.2.2/README.rst
+* /usr/share/doc/qemu-9.2.2/VERSION
 * /usr/share/doc/qemu/.buildinfo
 * /usr/share/doc/qemu/about/build-platforms.html
 * /usr/share/doc/qemu/about/deprecated.html
