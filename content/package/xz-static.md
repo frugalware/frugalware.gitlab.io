@@ -12,6 +12,7 @@ size = "1144064"
 usize = "1437360"
 sha1sum = "ecb34dea34516bb9e0c752691c4f0b166668273f"
 depends = "['libstdc++>=12.2']"
+reverse_depends = "['libxml2-static']"
 +++
 ### Description: 
 Static files for xz
