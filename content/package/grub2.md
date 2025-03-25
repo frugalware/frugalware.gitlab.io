@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "grub2 2.12.gff7f553-2"
-version = "2.12.gff7f553-2"
+title = "grub2 2.12.gff7f553-3"
+version = "2.12.gff7f553-3"
 description = "The GNU GRand Unified Bootloader"
-date = "2025-03-25T09:07:14"
+date = "2025-03-25T09:20:41"
 aliases = "/packages/136034"
 categories = ['base']
 upstreamurl = "http://www.gnu.org/software/grub/"
 arch = "x86_64"
-size = "15446004"
+size = "15442548"
 usize = "70854123"
-sha1sum = "70e3a3e430807ceea07e1b97cc87b618d2791e2c"
+sha1sum = "5eb7262c2cc5941118327922a305ad2ad8fa65e0"
 depends = "['efibootmgr', 'grub-theme-frugalware', 'scriptlet-core']"
 reverse_depends = "['breeze-grub']"
 +++
