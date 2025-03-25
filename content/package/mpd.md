@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mpd 0.24-2"
-version = "0.24-2"
+title = "mpd 0.24.1-1"
+version = "0.24.1-1"
 description = "the Music Player Daemon"
-date = "2025-03-19T15:12:28"
+date = "2025-03-25T15:50:55"
 aliases = "/packages/3231"
 categories = ['multimedia-extra']
 upstreamurl = "https://www.musicpd.org/"
 arch = "x86_64"
-size = "5499044"
-usize = "12727921"
-sha1sum = "a23a6fa7d8436d9e7601ea215b8ef433b36db218"
+size = "5509200"
+usize = "12755829"
+sha1sum = "760a8bc60ef7457fb485c8b310bb61ebc6010bf7"
 depends = "['audiofile', 'avahi', 'curl', 'ffmpeg>=7.0', 'flac>=1.5.0', 'fluidsynth>=2.0.0', 'fmtlib>=11.0.1', 'icu4c>=77.1', 'libao', 'libmad', 'libmms', 'libmodplug', 'libmpdclient', 'libmpg123', 'libnfs>=6.0.2', 'libsamplerate', 'libshout', 'libsmbclient', 'libsystemd', 'libupnp>=1.14.10', 'liburing', 'opus', 'talloc', 'twolame', 'wavpack', 'wildmidi>=0.4.1', 'yajl>=2.1.0-4', 'zziplib']"
 +++
 ### Description: 
@@ -23,10 +23,10 @@ the Music Player Daemon
 * /usr/lib/systemd/system/mpd.socket
 * /usr/lib/systemd/user/mpd.service
 * /usr/lib/systemd/user/mpd.socket
-* /usr/share/doc/mpd-0.24/AUTHORS
-* /usr/share/doc/mpd-0.24/COPYING
-* /usr/share/doc/mpd-0.24/NEWS
-* /usr/share/doc/mpd-0.24/README.md
+* /usr/share/doc/mpd-0.24.1/AUTHORS
+* /usr/share/doc/mpd-0.24.1/COPYING
+* /usr/share/doc/mpd-0.24.1/NEWS
+* /usr/share/doc/mpd-0.24.1/README.md
 * /usr/share/doc/mpd/AUTHORS
 * /usr/share/doc/mpd/COPYING
 * /usr/share/doc/mpd/html/.buildinfo

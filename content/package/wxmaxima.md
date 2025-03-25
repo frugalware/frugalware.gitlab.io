@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "wxmaxima 24.08.0-1"
-version = "24.08.0-1"
+title = "wxmaxima 25.01.0-1"
+version = "25.01.0-1"
 description = "wxMaxima is a wxWidgets GUI for the computer algebra system Maxima."
-date = "2024-09-15T14:23:14"
+date = "2025-03-25T15:16:27"
 aliases = "/packages/39079"
 categories = ['xapps-extra']
 upstreamurl = "http://andrejv.github.io/wxmaxima"
 arch = "x86_64"
-size = "4113504"
-usize = "13311505"
-sha1sum = "7586fd774a121ced461b233eb8981f949bd6fcba"
+size = "4091532"
+usize = "13476273"
+sha1sum = "a41ff4bf4835c7a6d5681a4b66d8745e45c1241a"
 depends = "['libxml2>=2.7.8', 'maxima>=5.42.2', 'wxwidgets>=3.2.2.1']"
 +++
 ### Description: 
@@ -20,10 +20,10 @@ wxMaxima is a wxWidgets GUI for the computer algebra system Maxima.
 * /usr/bin/wxmaxima
 * /usr/share/applications/io.github.wxmaxima_developers.wxMaxima.desktop
 * /usr/share/bash-completion/completions/wxmaxima
-* /usr/share/doc/wxmaxima-24.08.0/ChangeLog
-* /usr/share/doc/wxmaxima-24.08.0/COPYING
-* /usr/share/doc/wxmaxima-24.08.0/README
-* /usr/share/doc/wxmaxima-24.08.0/README.md
+* /usr/share/doc/wxmaxima-25.01.0/ChangeLog
+* /usr/share/doc/wxmaxima-25.01.0/COPYING
+* /usr/share/doc/wxmaxima-25.01.0/README
+* /usr/share/doc/wxmaxima-25.01.0/README.md
 * /usr/share/doc/wxmaxima/AUTHORS.md
 * /usr/share/doc/wxmaxima/BatchImage.png
 * /usr/share/doc/wxmaxima/cell-example.png

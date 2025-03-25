@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "wxwidgets 3.2.7-1"
-version = "3.2.7-1"
+title = "wxwidgets 3.2.7-2"
+version = "3.2.7-2"
 description = "GTK+ implementation of wxWidgets API for GUI (Development Release)"
-date = "2025-03-25T13:33:52"
+date = "2025-03-25T15:14:22"
 aliases = "/packages/217795"
 categories = ['xlib-extra']
 upstreamurl = "http://www.wxwidgets.org/"
 arch = "x86_64"
-size = "6399644"
-usize = "27852961"
-sha1sum = "86ff5ff107b3d6c8a0ff0728d6579958f242e077"
+size = "6402464"
+usize = "27862597"
+sha1sum = "211980de3fb402d0c8d9a59902234973a6d27d05"
 depends = "['gspell>=1.14.0', 'libglu>=9.0.0-3', 'libmspack', 'libnotify>=0.7.6-3', 'libxslt>=1.1.28-3', 'libxxf86vm', 'webkit-gtk3>=2.44.1']"
 reverse_depends = "['erlang', 'scummvm-tools', 'wxmaxima', 'wxpython']"
 +++
@@ -330,6 +330,8 @@ GTK+ implementation of wxWidgets API for GUI (Development Release)
 * /usr/include/wx-3.2/wx/gtk/toolbar.h
 * /usr/include/wx-3.2/wx/gtk/tooltip.h
 * /usr/include/wx-3.2/wx/gtk/toplevel.h
+* /usr/include/wx-3.2/wx/gtk/webviewhistoryitem_webkit.h
+* /usr/include/wx-3.2/wx/gtk/webview_webkit.h
 * /usr/include/wx-3.2/wx/gtk/window.h
 * /usr/include/wx-3.2/wx/hash.h
 * /usr/include/wx-3.2/wx/hashmap.h

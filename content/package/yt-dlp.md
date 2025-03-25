@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "yt-dlp 2025.02.19-1"
-version = "2025.02.19-1"
+title = "yt-dlp 2025.03.25-1"
+version = "2025.03.25-1"
 description = "A youtube-dl fork with additional features and fixes"
-date = "2025-02-21T21:21:48"
+date = "2025-03-25T15:20:28"
 aliases = "/packages/220963"
 categories = ['multimedia-extra']
 upstreamurl = "https://github.com/yt-dlp/yt-dlp"
 arch = "x86_64"
-size = "6185188"
-usize = "32517490"
-sha1sum = "12c01ad4c8d7fded9dfbb410bb90af3d241837ff"
+size = "6255640"
+usize = "32862813"
+sha1sum = "0e5608b5390078838903516eefe1fe385abfa3ce"
 depends = "['ffmpeg', 'mutagen', 'rtmpdump']"
 reverse_depends = "['audiotube', 'plasmatube']"
 +++
@@ -19,12 +19,12 @@ A youtube-dl fork with additional features and fixes
 
 ### Files: 
 * /usr/bin/yt-dlp
-* /usr/lib/python3.13/site-packages/yt_dlp-2025.2.19.dist-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/yt_dlp-2025.2.19.dist-info/licenses/AUTHORS
-* /usr/lib/python3.13/site-packages/yt_dlp-2025.2.19.dist-info/licenses/LICENSE
-* /usr/lib/python3.13/site-packages/yt_dlp-2025.2.19.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/yt_dlp-2025.2.19.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/yt_dlp-2025.2.19.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/yt_dlp-2025.3.25.dist-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/yt_dlp-2025.3.25.dist-info/licenses/AUTHORS
+* /usr/lib/python3.13/site-packages/yt_dlp-2025.3.25.dist-info/licenses/LICENSE
+* /usr/lib/python3.13/site-packages/yt_dlp-2025.3.25.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/yt_dlp-2025.3.25.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/yt_dlp-2025.3.25.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/yt_dlp/aes.py
 * /usr/lib/python3.13/site-packages/yt_dlp/cache.py
 * /usr/lib/python3.13/site-packages/yt_dlp/compat/compat_utils.py
@@ -61,6 +61,7 @@ A youtube-dl fork with additional features and fixes
 * /usr/lib/python3.13/site-packages/yt_dlp/dependencies/__pycache__/Cryptodome.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/dependencies/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/dependencies/__pycache__/__init__.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/yt_dlp/downloader/bunnycdn.py
 * /usr/lib/python3.13/site-packages/yt_dlp/downloader/common.py
 * /usr/lib/python3.13/site-packages/yt_dlp/downloader/dash.py
 * /usr/lib/python3.13/site-packages/yt_dlp/downloader/external.py
@@ -77,6 +78,8 @@ A youtube-dl fork with additional features and fixes
 * /usr/lib/python3.13/site-packages/yt_dlp/downloader/websocket.py
 * /usr/lib/python3.13/site-packages/yt_dlp/downloader/youtube_live_chat.py
 * /usr/lib/python3.13/site-packages/yt_dlp/downloader/__init__.py
+* /usr/lib/python3.13/site-packages/yt_dlp/downloader/__pycache__/bunnycdn.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/yt_dlp/downloader/__pycache__/bunnycdn.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/downloader/__pycache__/common.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/downloader/__pycache__/common.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/downloader/__pycache__/dash.cpython-313.opt-1.pyc
@@ -218,6 +221,7 @@ A youtube-dl fork with additional features and fixes
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/brilliantpala.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/bundesliga.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/bundestag.py
+* /usr/lib/python3.13/site-packages/yt_dlp/extractor/bunnycdn.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/businessinsider.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/buzzfeed.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/byutv.py
@@ -235,6 +239,7 @@ A youtube-dl fork with additional features and fixes
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/canalalpha.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/canalc2.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/canalplus.py
+* /usr/lib/python3.13/site-packages/yt_dlp/extractor/canalsurmas.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/caracoltv.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/cartoonnetwork.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/cbc.py
@@ -303,7 +308,6 @@ A youtube-dl fork with additional features and fixes
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/daystar.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/dbtv.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/dctp.py
-* /usr/lib/python3.13/site-packages/yt_dlp/extractor/deezer.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/democracynow.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/detik.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/deuxm.py
@@ -414,7 +418,6 @@ A youtube-dl fork with additional features and fixes
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/getcourseru.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/gettr.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/giantbomb.py
-* /usr/lib/python3.13/site-packages/yt_dlp/extractor/gigya.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/glide.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/globalplayer.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/globo.py
@@ -552,6 +555,7 @@ A youtube-dl fork with additional features and fixes
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/livestream.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/livestreamfails.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/lnk.py
+* /usr/lib/python3.13/site-packages/yt_dlp/extractor/loco.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/loom.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/lovehomeporn.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/lrt.py
@@ -868,6 +872,7 @@ A youtube-dl fork with additional features and fixes
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/smotrim.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/snapchat.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/snotr.py
+* /usr/lib/python3.13/site-packages/yt_dlp/extractor/softwhiteunderbelly.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/sohu.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/sonyliv.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/soundcloud.py
@@ -895,6 +900,7 @@ A youtube-dl fork with additional features and fixes
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/steam.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/stitcher.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/storyfire.py
+* /usr/lib/python3.13/site-packages/yt_dlp/extractor/streaks.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/streamable.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/streamcz.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/streetvoice.py
@@ -996,6 +1002,7 @@ A youtube-dl fork with additional features and fixes
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/tvp.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/tvplay.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/tvplayer.py
+* /usr/lib/python3.13/site-packages/yt_dlp/extractor/tvw.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/tweakers.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/twentymin.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/twentythreevideo.py
@@ -1045,7 +1052,6 @@ A youtube-dl fork with additional features and fixes
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/vidyard.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/viewlift.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/viidea.py
-* /usr/lib/python3.13/site-packages/yt_dlp/extractor/viki.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/vimeo.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/vimm.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/viously.py
@@ -1058,6 +1064,7 @@ A youtube-dl fork with additional features and fixes
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/voicy.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/volejtv.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/voxmedia.py
+* /usr/lib/python3.13/site-packages/yt_dlp/extractor/vrsquare.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/vrt.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/vtm.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/vtv.py
@@ -1110,7 +1117,33 @@ A youtube-dl fork with additional features and fixes
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/youku.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/younow.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/youporn.py
-* /usr/lib/python3.13/site-packages/yt_dlp/extractor/youtube.py
+* /usr/lib/python3.13/site-packages/yt_dlp/extractor/youtube/_base.py
+* /usr/lib/python3.13/site-packages/yt_dlp/extractor/youtube/_clip.py
+* /usr/lib/python3.13/site-packages/yt_dlp/extractor/youtube/_mistakes.py
+* /usr/lib/python3.13/site-packages/yt_dlp/extractor/youtube/_notifications.py
+* /usr/lib/python3.13/site-packages/yt_dlp/extractor/youtube/_redirect.py
+* /usr/lib/python3.13/site-packages/yt_dlp/extractor/youtube/_search.py
+* /usr/lib/python3.13/site-packages/yt_dlp/extractor/youtube/_tab.py
+* /usr/lib/python3.13/site-packages/yt_dlp/extractor/youtube/_video.py
+* /usr/lib/python3.13/site-packages/yt_dlp/extractor/youtube/__init__.py
+* /usr/lib/python3.13/site-packages/yt_dlp/extractor/youtube/__pycache__/_base.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/yt_dlp/extractor/youtube/__pycache__/_base.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/yt_dlp/extractor/youtube/__pycache__/_clip.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/yt_dlp/extractor/youtube/__pycache__/_clip.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/yt_dlp/extractor/youtube/__pycache__/_mistakes.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/yt_dlp/extractor/youtube/__pycache__/_mistakes.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/yt_dlp/extractor/youtube/__pycache__/_notifications.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/yt_dlp/extractor/youtube/__pycache__/_notifications.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/yt_dlp/extractor/youtube/__pycache__/_redirect.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/yt_dlp/extractor/youtube/__pycache__/_redirect.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/yt_dlp/extractor/youtube/__pycache__/_search.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/yt_dlp/extractor/youtube/__pycache__/_search.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/yt_dlp/extractor/youtube/__pycache__/_tab.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/yt_dlp/extractor/youtube/__pycache__/_tab.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/yt_dlp/extractor/youtube/__pycache__/_video.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/yt_dlp/extractor/youtube/__pycache__/_video.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/yt_dlp/extractor/youtube/__pycache__/__init__.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/yt_dlp/extractor/youtube/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/zaiko.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/zapiks.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/zattoo.py
@@ -1343,6 +1376,8 @@ A youtube-dl fork with additional features and fixes
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/bundesliga.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/bundestag.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/bundestag.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/bunnycdn.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/bunnycdn.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/businessinsider.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/businessinsider.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/buzzfeed.cpython-313.opt-1.pyc
@@ -1377,6 +1412,8 @@ A youtube-dl fork with additional features and fixes
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/canalc2.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/canalplus.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/canalplus.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/canalsurmas.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/canalsurmas.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/caracoltv.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/caracoltv.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/cartoonnetwork.cpython-313.opt-1.pyc
@@ -1513,8 +1550,6 @@ A youtube-dl fork with additional features and fixes
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/dbtv.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/dctp.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/dctp.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/deezer.cpython-313.opt-1.pyc
-* /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/deezer.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/democracynow.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/democracynow.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/detik.cpython-313.opt-1.pyc
@@ -1735,8 +1770,6 @@ A youtube-dl fork with additional features and fixes
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/gettr.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/giantbomb.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/giantbomb.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/gigya.cpython-313.opt-1.pyc
-* /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/gigya.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/glide.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/glide.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/globalplayer.cpython-313.opt-1.pyc
@@ -2011,6 +2044,8 @@ A youtube-dl fork with additional features and fixes
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/livestreamfails.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/lnk.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/lnk.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/loco.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/loco.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/loom.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/loom.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/lovehomeporn.cpython-313.opt-1.pyc
@@ -2643,6 +2678,8 @@ A youtube-dl fork with additional features and fixes
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/snapchat.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/snotr.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/snotr.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/softwhiteunderbelly.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/softwhiteunderbelly.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/sohu.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/sohu.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/sonyliv.cpython-313.opt-1.pyc
@@ -2697,6 +2734,8 @@ A youtube-dl fork with additional features and fixes
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/stitcher.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/storyfire.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/storyfire.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/streaks.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/streaks.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/streamable.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/streamable.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/streamcz.cpython-313.opt-1.pyc
@@ -2899,6 +2938,8 @@ A youtube-dl fork with additional features and fixes
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/tvplay.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/tvplayer.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/tvplayer.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/tvw.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/tvw.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/tweakers.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/tweakers.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/twentymin.cpython-313.opt-1.pyc
@@ -2997,8 +3038,6 @@ A youtube-dl fork with additional features and fixes
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/viewlift.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/viidea.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/viidea.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/viki.cpython-313.opt-1.pyc
-* /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/viki.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/vimeo.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/vimeo.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/vimm.cpython-313.opt-1.pyc
@@ -3023,6 +3062,8 @@ A youtube-dl fork with additional features and fixes
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/volejtv.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/voxmedia.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/voxmedia.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/vrsquare.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/vrsquare.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/vrt.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/vrt.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/vtm.cpython-313.opt-1.pyc
@@ -3127,8 +3168,6 @@ A youtube-dl fork with additional features and fixes
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/younow.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/youporn.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/youporn.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/youtube.cpython-313.opt-1.pyc
-* /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/youtube.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/zaiko.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/zaiko.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/zapiks.cpython-313.opt-1.pyc
@@ -3157,6 +3196,7 @@ A youtube-dl fork with additional features and fixes
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/_extractors.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/__init__.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/yt_dlp/globals.py
 * /usr/lib/python3.13/site-packages/yt_dlp/jsinterp.py
 * /usr/lib/python3.13/site-packages/yt_dlp/minicurses.py
 * /usr/lib/python3.13/site-packages/yt_dlp/networking/common.py
@@ -3258,6 +3298,8 @@ A youtube-dl fork with additional features and fixes
 * /usr/lib/python3.13/site-packages/yt_dlp/__pycache__/cache.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/__pycache__/cookies.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/__pycache__/cookies.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/yt_dlp/__pycache__/globals.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/yt_dlp/__pycache__/globals.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/__pycache__/jsinterp.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/__pycache__/jsinterp.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/__pycache__/minicurses.cpython-313.opt-1.pyc
@@ -3287,11 +3329,11 @@ A youtube-dl fork with additional features and fixes
 * /usr/lib/python3.13/site-packages/yt_dlp/__pyinstaller/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/__pyinstaller/__pycache__/__init__.cpython-313.pyc
 * /usr/share/bash-completion/completions/yt-dlp
-* /usr/share/doc/yt-dlp-2025.02.19/AUTHORS
-* /usr/share/doc/yt-dlp-2025.02.19/CONTRIBUTORS
-* /usr/share/doc/yt-dlp-2025.02.19/LICENSE
-* /usr/share/doc/yt-dlp-2025.02.19/README.md
-* /usr/share/doc/yt-dlp-2025.02.19/README.txt
+* /usr/share/doc/yt-dlp-2025.03.25/AUTHORS
+* /usr/share/doc/yt-dlp-2025.03.25/CONTRIBUTORS
+* /usr/share/doc/yt-dlp-2025.03.25/LICENSE
+* /usr/share/doc/yt-dlp-2025.03.25/README.md
+* /usr/share/doc/yt-dlp-2025.03.25/README.txt
 * /usr/share/doc/yt_dlp/README.txt
 * /usr/share/fish/vendor_completions.d/yt-dlp.fish
 * /usr/share/man/man1/yt-dlp.1.gz

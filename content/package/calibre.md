@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "calibre 7.26.0-1"
-version = "7.26.0-1"
+title = "calibre 8.0.1-1"
+version = "8.0.1-1"
 description = "Ebook management application"
-date = "2025-03-19T14:02:41"
+date = "2025-03-25T15:23:38"
 aliases = "/packages/219010"
 categories = ['xapps-extra']
 upstreamurl = "https://calibre-ebook.com"
 arch = "x86_64"
-size = "27272448"
-usize = "67438072"
-sha1sum = "ab7e6bb2d380ffe5cd280625d994b4247e9b8ee2"
+size = "27341160"
+usize = "67616876"
+sha1sum = "ee9279cad7b76b80e3c958948076b2f9f443f0ce"
 depends = "['html5lib-python', 'hunspell', 'hyphen', 'icu4c>=77.1', 'libmtp', 'libstemmer', 'mathjax', 'podofo>=0.10.1', 'pyqt6', 'pyqt6webengine', 'python3-apsw', 'python3-beautifulsoup4', 'python3-css-parser', 'python3-lxml', 'python3-mechanize', 'python3-pillow', 'python3-regex', 'qt6-svg', 'uchardet']"
 +++
 ### Description: 
@@ -170,6 +170,7 @@ Ebook management application
 * /usr/lib/calibre/calibre/devices/kindle/__init__.py
 * /usr/lib/calibre/calibre/devices/kobo/bookmark.py
 * /usr/lib/calibre/calibre/devices/kobo/books.py
+* /usr/lib/calibre/calibre/devices/kobo/db.py
 * /usr/lib/calibre/calibre/devices/kobo/driver.py
 * /usr/lib/calibre/calibre/devices/kobo/kobotouch_config.py
 * /usr/lib/calibre/calibre/devices/kobo/__init__.py
@@ -234,6 +235,7 @@ Ebook management application
 * /usr/lib/calibre/calibre/ebooks/compression/tcr.py
 * /usr/lib/calibre/calibre/ebooks/compression/__init__.py
 * /usr/lib/calibre/calibre/ebooks/constants.py
+* /usr/lib/calibre/calibre/ebooks/conversion/archives.py
 * /usr/lib/calibre/calibre/ebooks/conversion/cli.py
 * /usr/lib/calibre/calibre/ebooks/conversion/config.py
 * /usr/lib/calibre/calibre/ebooks/conversion/plugins/azw4_input.py
@@ -494,6 +496,7 @@ Ebook management application
 * /usr/lib/calibre/calibre/ebooks/oeb/polish/images.py
 * /usr/lib/calibre/calibre/ebooks/oeb/polish/import_book.py
 * /usr/lib/calibre/calibre/ebooks/oeb/polish/jacket.py
+* /usr/lib/calibre/calibre/ebooks/oeb/polish/kepubify.py
 * /usr/lib/calibre/calibre/ebooks/oeb/polish/main.py
 * /usr/lib/calibre/calibre/ebooks/oeb/polish/opf.py
 * /usr/lib/calibre/calibre/ebooks/oeb/polish/parsing.py
@@ -507,6 +510,7 @@ Ebook management application
 * /usr/lib/calibre/calibre/ebooks/oeb/polish/tests/base.py
 * /usr/lib/calibre/calibre/ebooks/oeb/polish/tests/cascade.py
 * /usr/lib/calibre/calibre/ebooks/oeb/polish/tests/container.py
+* /usr/lib/calibre/calibre/ebooks/oeb/polish/tests/kepubify.py
 * /usr/lib/calibre/calibre/ebooks/oeb/polish/tests/main.py
 * /usr/lib/calibre/calibre/ebooks/oeb/polish/tests/parsing.py
 * /usr/lib/calibre/calibre/ebooks/oeb/polish/tests/structure.py
@@ -755,6 +759,8 @@ Ebook management application
 * /usr/lib/calibre/calibre/gui2/convert/heuristics_ui.py
 * /usr/lib/calibre/calibre/gui2/convert/htmlz_output.py
 * /usr/lib/calibre/calibre/gui2/convert/htmlz_output_ui.py
+* /usr/lib/calibre/calibre/gui2/convert/kepub_output.py
+* /usr/lib/calibre/calibre/gui2/convert/kepub_output_ui.py
 * /usr/lib/calibre/calibre/gui2/convert/look_and_feel.py
 * /usr/lib/calibre/calibre/gui2/convert/look_and_feel_ui.py
 * /usr/lib/calibre/calibre/gui2/convert/lrf_output.py
@@ -824,6 +830,7 @@ Ebook management application
 * /usr/lib/calibre/calibre/gui2/dialogs/confirm_delete.py
 * /usr/lib/calibre/calibre/gui2/dialogs/confirm_delete_location.py
 * /usr/lib/calibre/calibre/gui2/dialogs/confirm_merge.py
+* /usr/lib/calibre/calibre/gui2/dialogs/connect_to_folder.py
 * /usr/lib/calibre/calibre/gui2/dialogs/conversion_error.py
 * /usr/lib/calibre/calibre/gui2/dialogs/conversion_error_ui.py
 * /usr/lib/calibre/calibre/gui2/dialogs/custom_recipes.py
@@ -1567,6 +1574,19 @@ Ebook management application
 * /usr/share/applications/calibre-ebook-viewer.desktop
 * /usr/share/applications/calibre-gui.desktop
 * /usr/share/applications/calibre-lrfviewer.desktop
+* /usr/share/bash-completion/completions/calibre
+* /usr/share/bash-completion/completions/calibre-debug
+* /usr/share/bash-completion/completions/calibre-server
+* /usr/share/bash-completion/completions/calibre-smtp
+* /usr/share/bash-completion/completions/ebook-convert
+* /usr/share/bash-completion/completions/ebook-device
+* /usr/share/bash-completion/completions/ebook-edit
+* /usr/share/bash-completion/completions/ebook-meta
+* /usr/share/bash-completion/completions/ebook-polish
+* /usr/share/bash-completion/completions/ebook-viewer
+* /usr/share/bash-completion/completions/fetch-ebook-metadata
+* /usr/share/bash-completion/completions/lrf2lrs
+* /usr/share/bash-completion/completions/lrfviewer
 * /usr/share/calibre/builtin_recipes.xml
 * /usr/share/calibre/builtin_recipes.zip
 * /usr/share/calibre/calibre-ebook-root-CA.crt
@@ -1769,6 +1789,7 @@ Ebook management application
 * /usr/share/calibre/images/mimetypes/gif.png
 * /usr/share/calibre/images/mimetypes/html.png
 * /usr/share/calibre/images/mimetypes/jpeg.png
+* /usr/share/calibre/images/mimetypes/kfx.png
 * /usr/share/calibre/images/mimetypes/lit.png
 * /usr/share/calibre/images/mimetypes/lrf.png
 * /usr/share/calibre/images/mimetypes/lrx.png
@@ -1941,6 +1962,7 @@ Ebook management application
 * /usr/share/calibre/templates/html_export_default.tmpl
 * /usr/share/calibre/templates/html_export_default_index.tmpl
 * /usr/share/calibre/templates/inline_toc_styles.css
+* /usr/share/calibre/templates/kobo.js
 * /usr/share/calibre/templates/lrf.xsl
 * /usr/share/calibre/templates/new_book.html
 * /usr/share/calibre/templates/new_nav.html
@@ -1950,10 +1972,10 @@ Ebook management application
 * /usr/share/calibre/user-manual-translation-stats.json
 * /usr/share/calibre/viewer.html
 * /usr/share/calibre/viewer.js
-* /usr/share/doc/calibre-7.26.0/COPYRIGHT
-* /usr/share/doc/calibre-7.26.0/INSTALL.rst
-* /usr/share/doc/calibre-7.26.0/LICENSE
-* /usr/share/doc/calibre-7.26.0/README.md
+* /usr/share/doc/calibre-8.0.1/COPYRIGHT
+* /usr/share/doc/calibre-8.0.1/INSTALL.rst
+* /usr/share/doc/calibre-8.0.1/LICENSE
+* /usr/share/doc/calibre-8.0.1/README.md
 * /usr/share/icons/hicolor/128x128/apps/calibre-ebook-edit.png
 * /usr/share/icons/hicolor/128x128/apps/calibre-gui.png
 * /usr/share/icons/hicolor/128x128/apps/calibre-viewer.png
