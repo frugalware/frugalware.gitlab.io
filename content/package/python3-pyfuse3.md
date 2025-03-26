@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "python3-pyfuse3 3.4.0-1"
-version = "3.4.0-1"
+title = "python3-pyfuse3 3.4.0-2"
+version = "3.4.0-2"
 description = "Python bindings for libfuse 3 with asynchronous API"
-date = "2024-11-07T09:45:32"
+date = "2025-03-26T10:33:55"
 aliases = "/packages/222565"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/pyfuse3"
 arch = "x86_64"
-size = "184028"
-usize = "778627"
-sha1sum = "5f9618011815279db5200ba3e946982dba5e368a"
-depends = "['fuse3', 'python3-trio']"
+size = "196988"
+usize = "812340"
+sha1sum = "7b8ce8e9a3117e0be3f256f2abae892ecd57dac0"
+depends = "['fuse3>=3.17.1', 'python3-trio']"
 reverse_depends = "['vorta']"
 +++
 ### Description: 

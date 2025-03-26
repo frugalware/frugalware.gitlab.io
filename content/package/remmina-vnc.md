@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "remmina-vnc 1.4.39-1"
-version = "1.4.39-1"
+title = "remmina-vnc 1.4.39-2"
+version = "1.4.39-2"
 description = "vnc plugin for remmina"
-date = "2025-01-06T17:07:05"
+date = "2025-03-26T10:42:26"
 aliases = "/packages/135959"
 categories = ['xapps-extra']
 upstreamurl = "https://www.remmina.org"
 arch = "x86_64"
-size = "19452"
-usize = "46632"
-sha1sum = "98c532d5da2f6e7f7b5cc0e95610084ee9564ee9"
+size = "19540"
+usize = "46480"
+sha1sum = "54f1ab3bc0789ee88380d4f00fb29b129edf4d12"
 depends = "['libvncserver>=0.9.11']"
 +++
 ### Description: 

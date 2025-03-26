@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "sshfs 3.7.3-3"
-version = "3.7.3-3"
+title = "sshfs 3.7.3-4"
+version = "3.7.3-4"
 description = "A filesystem client based on the SSH File Transfer Protocol."
-date = "2024-01-30T10:10:43"
+date = "2025-03-26T10:35:23"
 aliases = "/packages/218974"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/libfuse/sshfs"
 arch = "x86_64"
-size = "45308"
-usize = "112039"
-sha1sum = "17a97958d022ee917472079b7b99e6e6e4f9ed1f"
-depends = "['fuse3>=3.4.1', 'glib2']"
+size = "45744"
+usize = "108349"
+sha1sum = "67029663674ec4c784080b757ea93dd56ae44759"
+depends = "['fuse3>=3.17.1', 'glib2']"
 +++
 ### Description: 
 A filesystem client based on the SSH File Transfer Protocol.

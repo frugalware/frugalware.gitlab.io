@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "xz 5.6.4-1"
-version = "5.6.4-1"
+title = "xz 5.8.0-1"
+version = "5.8.0-1"
 description = "XZ Utils is free general-purpose data compression software with high compression ratio."
-date = "2025-01-24T07:28:04"
+date = "2025-03-26T10:50:50"
 aliases = "/packages/74189"
 categories = ['base']
-upstreamurl = "http://tukaani.org/xz/"
+upstreamurl = "https://tukaani.org/xz/"
 arch = "x86_64"
-size = "709716"
-usize = "2338874"
-sha1sum = "50e9bbd5c60c15fd7a914e9c5aa46c21bf77b037"
+size = "819916"
+usize = "2517095"
+sha1sum = "c6b1ee76e5007ced2f3b14ba9e9fb3d3394e7b78"
 depends = "['glibc>=2.37']"
 reverse_depends = "['aria2', 'binwalk', 'borg', 'botan', 'efl', 'elfutils', 'enlightenment', 'file', 'flutter', 'foomatic-db', 'foomatic-db-engine', 'foomatic-db-nonfree', 'fsarchiver', 'hivex', 'innoextract', 'kernel-initrd', 'kernel-lts-initrd', 'kmod', 'libarchive', 'libsystemd', 'libtiff', 'libtiff5', 'libunwind', 'libvlc', 'libxml2', 'links', 'mariadb-libs', 'minizip-ng', 'opencollada', 'openttd', 'pacman-g2', 'perf', 'pocketsphinx', 'python3', 'ruby-nokogiri', 'squashfs', 'squashfuse', 'terminology', 'xdelta', 'xmlstarlet', 'zstd']"
 +++
@@ -58,32 +58,32 @@ XZ Utils is free general-purpose data compression software with high compression
 * /usr/include/lzma/vli.h
 * /usr/lib/liblzma.so
 * /usr/lib/liblzma.so.5
-* /usr/lib/liblzma.so.5.6.4
+* /usr/lib/liblzma.so.5.8.0
 * /usr/lib/pkgconfig/liblzma.pc
-* /usr/share/doc/xz-5.6.4/AUTHORS
-* /usr/share/doc/xz-5.6.4/ChangeLog
-* /usr/share/doc/xz-5.6.4/COPYING
-* /usr/share/doc/xz-5.6.4/COPYING.0BSD
-* /usr/share/doc/xz-5.6.4/COPYING.GPLv2
-* /usr/share/doc/xz-5.6.4/COPYING.GPLv3
-* /usr/share/doc/xz-5.6.4/COPYING.LGPLv2.1
-* /usr/share/doc/xz-5.6.4/examples/00_README.txt
-* /usr/share/doc/xz-5.6.4/examples/01_compress_easy.c
-* /usr/share/doc/xz-5.6.4/examples/02_decompress.c
-* /usr/share/doc/xz-5.6.4/examples/03_compress_custom.c
-* /usr/share/doc/xz-5.6.4/examples/04_compress_easy_mt.c
-* /usr/share/doc/xz-5.6.4/examples/11_file_info.c
-* /usr/share/doc/xz-5.6.4/examples/Makefile
-* /usr/share/doc/xz-5.6.4/faq.txt
-* /usr/share/doc/xz-5.6.4/history.txt
-* /usr/share/doc/xz-5.6.4/INSTALL
-* /usr/share/doc/xz-5.6.4/INSTALL.generic
-* /usr/share/doc/xz-5.6.4/lzma-file-format.txt
-* /usr/share/doc/xz-5.6.4/NEWS
-* /usr/share/doc/xz-5.6.4/README
-* /usr/share/doc/xz-5.6.4/THANKS
-* /usr/share/doc/xz-5.6.4/TODO
-* /usr/share/doc/xz-5.6.4/xz-file-format.txt
+* /usr/share/doc/xz-5.8.0/AUTHORS
+* /usr/share/doc/xz-5.8.0/ChangeLog
+* /usr/share/doc/xz-5.8.0/COPYING
+* /usr/share/doc/xz-5.8.0/COPYING.0BSD
+* /usr/share/doc/xz-5.8.0/COPYING.GPLv2
+* /usr/share/doc/xz-5.8.0/COPYING.GPLv3
+* /usr/share/doc/xz-5.8.0/COPYING.LGPLv2.1
+* /usr/share/doc/xz-5.8.0/examples/00_README.txt
+* /usr/share/doc/xz-5.8.0/examples/01_compress_easy.c
+* /usr/share/doc/xz-5.8.0/examples/02_decompress.c
+* /usr/share/doc/xz-5.8.0/examples/03_compress_custom.c
+* /usr/share/doc/xz-5.8.0/examples/04_compress_easy_mt.c
+* /usr/share/doc/xz-5.8.0/examples/11_file_info.c
+* /usr/share/doc/xz-5.8.0/examples/Makefile
+* /usr/share/doc/xz-5.8.0/faq.txt
+* /usr/share/doc/xz-5.8.0/history.txt
+* /usr/share/doc/xz-5.8.0/INSTALL
+* /usr/share/doc/xz-5.8.0/INSTALL.generic
+* /usr/share/doc/xz-5.8.0/lzma-file-format.txt
+* /usr/share/doc/xz-5.8.0/NEWS
+* /usr/share/doc/xz-5.8.0/README
+* /usr/share/doc/xz-5.8.0/THANKS
+* /usr/share/doc/xz-5.8.0/TODO
+* /usr/share/doc/xz-5.8.0/xz-file-format.txt
 * /usr/share/locale/ca/LC_MESSAGES/xz.mo
 * /usr/share/locale/cs/LC_MESSAGES/xz.mo
 * /usr/share/locale/da/LC_MESSAGES/xz.mo
@@ -95,7 +95,9 @@ XZ Utils is free general-purpose data compression software with high compression
 * /usr/share/locale/hr/LC_MESSAGES/xz.mo
 * /usr/share/locale/hu/LC_MESSAGES/xz.mo
 * /usr/share/locale/it/LC_MESSAGES/xz.mo
+* /usr/share/locale/ka/LC_MESSAGES/xz.mo
 * /usr/share/locale/ko/LC_MESSAGES/xz.mo
+* /usr/share/locale/nl/LC_MESSAGES/xz.mo
 * /usr/share/locale/pl/LC_MESSAGES/xz.mo
 * /usr/share/locale/pt/LC_MESSAGES/xz.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/xz.mo
@@ -141,6 +143,29 @@ XZ Utils is free general-purpose data compression software with high compression
 * /usr/share/man/fr/man1/xzcat.1.gz
 * /usr/share/man/fr/man1/xzdec.1.gz
 * /usr/share/man/fr/man1/xzless.1.gz
+* /usr/share/man/it/man1/lzcat.1.gz
+* /usr/share/man/it/man1/lzcmp.1.gz
+* /usr/share/man/it/man1/lzdiff.1.gz
+* /usr/share/man/it/man1/lzegrep.1.gz
+* /usr/share/man/it/man1/lzfgrep.1.gz
+* /usr/share/man/it/man1/lzgrep.1.gz
+* /usr/share/man/it/man1/lzless.1.gz
+* /usr/share/man/it/man1/lzma.1.gz
+* /usr/share/man/it/man1/lzmadec.1.gz
+* /usr/share/man/it/man1/lzmainfo.1.gz
+* /usr/share/man/it/man1/lzmore.1.gz
+* /usr/share/man/it/man1/unlzma.1.gz
+* /usr/share/man/it/man1/unxz.1.gz
+* /usr/share/man/it/man1/xz.1.gz
+* /usr/share/man/it/man1/xzcat.1.gz
+* /usr/share/man/it/man1/xzcmp.1.gz
+* /usr/share/man/it/man1/xzdec.1.gz
+* /usr/share/man/it/man1/xzdiff.1.gz
+* /usr/share/man/it/man1/xzegrep.1.gz
+* /usr/share/man/it/man1/xzfgrep.1.gz
+* /usr/share/man/it/man1/xzgrep.1.gz
+* /usr/share/man/it/man1/xzless.1.gz
+* /usr/share/man/it/man1/xzmore.1.gz
 * /usr/share/man/ko/man1/lzcat.1.gz
 * /usr/share/man/ko/man1/lzcmp.1.gz
 * /usr/share/man/ko/man1/lzdiff.1.gz
@@ -221,6 +246,29 @@ XZ Utils is free general-purpose data compression software with high compression
 * /usr/share/man/ro/man1/xzgrep.1.gz
 * /usr/share/man/ro/man1/xzless.1.gz
 * /usr/share/man/ro/man1/xzmore.1.gz
+* /usr/share/man/sr/man1/lzcat.1.gz
+* /usr/share/man/sr/man1/lzcmp.1.gz
+* /usr/share/man/sr/man1/lzdiff.1.gz
+* /usr/share/man/sr/man1/lzegrep.1.gz
+* /usr/share/man/sr/man1/lzfgrep.1.gz
+* /usr/share/man/sr/man1/lzgrep.1.gz
+* /usr/share/man/sr/man1/lzless.1.gz
+* /usr/share/man/sr/man1/lzma.1.gz
+* /usr/share/man/sr/man1/lzmadec.1.gz
+* /usr/share/man/sr/man1/lzmainfo.1.gz
+* /usr/share/man/sr/man1/lzmore.1.gz
+* /usr/share/man/sr/man1/unlzma.1.gz
+* /usr/share/man/sr/man1/unxz.1.gz
+* /usr/share/man/sr/man1/xz.1.gz
+* /usr/share/man/sr/man1/xzcat.1.gz
+* /usr/share/man/sr/man1/xzcmp.1.gz
+* /usr/share/man/sr/man1/xzdec.1.gz
+* /usr/share/man/sr/man1/xzdiff.1.gz
+* /usr/share/man/sr/man1/xzegrep.1.gz
+* /usr/share/man/sr/man1/xzfgrep.1.gz
+* /usr/share/man/sr/man1/xzgrep.1.gz
+* /usr/share/man/sr/man1/xzless.1.gz
+* /usr/share/man/sr/man1/xzmore.1.gz
 * /usr/share/man/uk/man1/lzcat.1.gz
 * /usr/share/man/uk/man1/lzcmp.1.gz
 * /usr/share/man/uk/man1/lzdiff.1.gz

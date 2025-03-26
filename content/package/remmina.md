@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "remmina 1.4.39-1"
-version = "1.4.39-1"
+title = "remmina 1.4.39-2"
+version = "1.4.39-2"
 description = "A GTK+ RDP, VNC, XDMCP and SSH client"
-date = "2025-01-06T17:07:05"
+date = "2025-03-26T10:42:26"
 aliases = "/packages/135956"
 categories = ['xapps-extra']
 upstreamurl = "https://www.remmina.org"
 arch = "x86_64"
-size = "955516"
-usize = "5147142"
-sha1sum = "5cca8fd1f46fbb6aa6268f37b74875b14e652beb"
+size = "959252"
+usize = "5160296"
+sha1sum = "b6789b12ddfbd2eb66408f3a8edf981549886f6e"
 depends = "['avahi', 'json-glib', 'libappindicator', 'libcups', 'libgcrypt', 'libsodium>=1.0.19', 'libsoup3', 'libssh', 'python3>=3.13', 'vte3']"
 +++
 ### Description: 
