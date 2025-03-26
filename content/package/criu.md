@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "criu 4.0-2"
-version = "4.0-2"
+title = "criu 4.1-1"
+version = "4.1-1"
 description = "Checkpoint/Restore in Userspace tool"
-date = "2024-11-03T13:21:36"
+date = "2025-03-26T13:08:42"
 aliases = "/packages/200132"
 categories = ['apps-extra']
 upstreamurl = "http://criu.org"
 arch = "x86_64"
-size = "676824"
-usize = "2291214"
-sha1sum = "31e4dec38442a0dcfef8e6d322984dda39b9d3bb"
+size = "687176"
+usize = "2355705"
+sha1sum = "afa2f9f88a04ab2137b2b5bfa81f46534539e3e3"
 depends = "['libbsd', 'libdrm', 'libnet', 'libnl', 'libpthread-stubs', 'nftables', 'protobuf-c', 'python3>=3.12']"
 license = "GPL2"
 +++
@@ -71,11 +71,11 @@ Checkpoint/Restore in Userspace tool
 * /usr/lib/libcriu.so.2
 * /usr/lib/libcriu.so.2.0
 * /usr/lib/pkgconfig/criu.pc
-* /usr/lib/python3.13/site-packages/crit-4.0.dist-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/crit-4.0.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/crit-4.0.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/crit-4.0.dist-info/top_level.txt
-* /usr/lib/python3.13/site-packages/crit-4.0.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/crit-4.1.dist-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/crit-4.1.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/crit-4.1.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/crit-4.1.dist-info/top_level.txt
+* /usr/lib/python3.13/site-packages/crit-4.1.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/crit/version.py
 * /usr/lib/python3.13/site-packages/crit/__init__.py
 * /usr/lib/python3.13/site-packages/crit/__main__.py
@@ -85,10 +85,10 @@ Checkpoint/Restore in Userspace tool
 * /usr/lib/python3.13/site-packages/crit/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/crit/__pycache__/__main__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/crit/__pycache__/__main__.cpython-313.pyc
-* /usr/share/doc/criu-4.0/COPYING
-* /usr/share/doc/criu-4.0/CREDITS
-* /usr/share/doc/criu-4.0/INSTALL.md
-* /usr/share/doc/criu-4.0/README.md
+* /usr/share/doc/criu-4.1/COPYING
+* /usr/share/doc/criu-4.1/CREDITS
+* /usr/share/doc/criu-4.1/INSTALL.md
+* /usr/share/doc/criu-4.1/README.md
 * /usr/share/man/man1/compel.1.gz
 * /usr/share/man/man1/crit.1.gz
 * /usr/share/man/man1/criu-amdgpu-plugin.1.gz

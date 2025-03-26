@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "fakeroot 1.37.1-1"
-version = "1.37.1-1"
+title = "fakeroot 1.37.1.1-1"
+version = "1.37.1.1-1"
 description = "Gives a fake root environment"
-date = "2025-03-17T08:38:04"
+date = "2025-03-26T13:04:56"
 aliases = "/packages/2371"
 categories = ['devel']
 upstreamurl = "http://packages.debian.org/unstable/utils/fakeroot"
 arch = "x86_64"
-size = "117760"
-usize = "273888"
-sha1sum = "28217eb37f584600dbfe177e7957c85907ec3d1b"
+size = "117936"
+usize = "274073"
+sha1sum = "7c8d3948123b39088d2410ac7fb8332c9dffea25"
 depends = "['glibc>=2.35']"
 +++
 ### Description: 
@@ -25,12 +25,12 @@ Gives a fake root environment
 * /usr/lib/libfakeroot.so
 * /usr/lib32/libfakeroot-0.so
 * /usr/lib32/libfakeroot.so
-* /usr/share/doc/fakeroot-1.37.1/AUTHORS
-* /usr/share/doc/fakeroot-1.37.1/BUGS
-* /usr/share/doc/fakeroot-1.37.1/COPYING
-* /usr/share/doc/fakeroot-1.37.1/INSTALL
-* /usr/share/doc/fakeroot-1.37.1/README
-* /usr/share/doc/fakeroot-1.37.1/README_MACOSX.txt
+* /usr/share/doc/fakeroot-1.37.1.1/AUTHORS
+* /usr/share/doc/fakeroot-1.37.1.1/BUGS
+* /usr/share/doc/fakeroot-1.37.1.1/COPYING
+* /usr/share/doc/fakeroot-1.37.1.1/INSTALL
+* /usr/share/doc/fakeroot-1.37.1.1/README
+* /usr/share/doc/fakeroot-1.37.1.1/README_MACOSX.txt
 * /usr/share/man/de/man1/faked.1.gz
 * /usr/share/man/de/man1/fakeroot.1.gz
 * /usr/share/man/es/man1/faked.1.gz
