@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-pyzmq 26.2.1-1"
-version = "26.2.1-1"
+title = "python3-pyzmq 26.3.0-1"
+version = "26.3.0-1"
 description = "Python3 bindings for zeromq, written in Cython"
-date = "2025-02-11T10:48:56"
+date = "2025-03-26T14:14:49"
 aliases = "/packages/219794"
 categories = ['devel-extra']
 upstreamurl = "http://www.zeromq.org/bindings:python"
 arch = "x86_64"
-size = "321064"
-usize = "1693923"
-sha1sum = "56d3751caf9631d0f9022702c96ba9a2cc8b81ad"
+size = "319992"
+usize = "1691926"
+sha1sum = "a6339866fde48f94655b86ed94853720ac6310e6"
 depends = "['python3>=3.12', 'zeromq>=3.2.2']"
 reverse_depends = "['python3-eventlet']"
 +++
@@ -18,11 +18,11 @@ reverse_depends = "['python3-eventlet']"
 Python3 bindings for zeromq, written in Cython
 
 ### Files: 
-* /usr/lib/python3.13/site-packages/pyzmq-26.2.1.dist-info/licenses/LICENSE.md
-* /usr/lib/python3.13/site-packages/pyzmq-26.2.1.dist-info/licenses/licenses/LICENSE.tornado.txt
-* /usr/lib/python3.13/site-packages/pyzmq-26.2.1.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/pyzmq-26.2.1.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/pyzmq-26.2.1.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/pyzmq-26.3.0.dist-info/licenses/LICENSE.md
+* /usr/lib/python3.13/site-packages/pyzmq-26.3.0.dist-info/licenses/licenses/LICENSE.tornado.txt
+* /usr/lib/python3.13/site-packages/pyzmq-26.3.0.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/pyzmq-26.3.0.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/pyzmq-26.3.0.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/zmq/asyncio.py
 * /usr/lib/python3.13/site-packages/zmq/auth/asyncio.py
 * /usr/lib/python3.13/site-packages/zmq/auth/base.py
@@ -245,4 +245,4 @@ Python3 bindings for zeromq, written in Cython
 * /usr/lib/python3.13/site-packages/zmq/__pycache__/_typing.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/zmq/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/zmq/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/python3-pyzmq-26.2.1/README.md
+* /usr/share/doc/python3-pyzmq-26.3.0/README.md

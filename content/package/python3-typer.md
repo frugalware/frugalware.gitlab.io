@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-typer 0.15.1-1"
-version = "0.15.1-1"
+title = "python3-typer 0.15.2-1"
+version = "0.15.2-1"
 description = "Build great CLIs. Easy to code. Based on Python type hints"
-date = "2025-02-24T15:50:58"
+date = "2025-03-26T15:00:05"
 aliases = "/packages/222655"
 categories = ['devel-extra']
 upstreamurl = "https://typer.tiangolo.com/"
 arch = "x86_64"
-size = "92800"
-usize = "576240"
-sha1sum = "c847b52221c1b78931d67e3d6f6153666720c5df"
+size = "93580"
+usize = "578237"
+sha1sum = "95ed087750880b951cfc26d39ad993a77005ae33"
 depends = "['python3-click', 'python3-rich', 'python3-shellingham', 'python3-typing_extensions']"
 +++
 ### Description: 
@@ -18,11 +18,11 @@ Build great CLIs. Easy to code. Based on Python type hints
 
 ### Files: 
 * /usr/bin/typer
-* /usr/lib/python3.13/site-packages/typer-0.15.1.dist-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/typer-0.15.1.dist-info/licenses/LICENSE
-* /usr/lib/python3.13/site-packages/typer-0.15.1.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/typer-0.15.1.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/typer-0.15.1.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/typer-0.15.2.dist-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/typer-0.15.2.dist-info/licenses/LICENSE
+* /usr/lib/python3.13/site-packages/typer-0.15.2.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/typer-0.15.2.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/typer-0.15.2.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/typer/cli.py
 * /usr/lib/python3.13/site-packages/typer/colors.py
 * /usr/lib/python3.13/site-packages/typer/completion.py
@@ -69,5 +69,5 @@ Build great CLIs. Easy to code. Based on Python type hints
 * /usr/lib/python3.13/site-packages/typer/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/typer/__pycache__/__main__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/typer/__pycache__/__main__.cpython-313.pyc
-* /usr/share/doc/python3-typer-0.15.1/LICENSE
-* /usr/share/doc/python3-typer-0.15.1/README.md
+* /usr/share/doc/python3-typer-0.15.2/LICENSE
+* /usr/share/doc/python3-typer-0.15.2/README.md

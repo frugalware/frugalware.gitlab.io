@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-setuptools 75.8.0-1"
-version = "75.8.0-1"
+title = "python3-setuptools 78.1.0-1"
+version = "78.1.0-1"
 description = "Tool to build and install python packages"
-date = "2025-02-11T11:52:37"
+date = "2025-03-26T14:56:14"
 aliases = "/packages/219856"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/setuptools"
 arch = "x86_64"
-size = "1854476"
-usize = "8777783"
-sha1sum = "f26b7e9c3fb144f178d497f6f1edd0a1ad1921a2"
+size = "1887936"
+usize = "8962844"
+sha1sum = "ecd8c87362a2588094a798dbb0e9ba3b96bbed3e"
 depends = "['python3>=3.13', 'python3-appdirs', 'python3-packaging', 'python3-six']"
 reverse_depends = "['glad', 'meson', 'nodejs', 'nodejs20', 'protontricks', 'py3status', 'python3-cx-freeze', 'python3-pbr', 'python3-pdm-backend', 'python3-setuptools-git', 'python3-setuptools-rust', 'python3-setuptools_scm', 'python3-sphinx', 'scikit-build', 'sip', 'vorta']"
 +++
@@ -47,12 +47,12 @@ Tool to build and install python packages
 * /usr/lib/python3.13/site-packages/pkg_resources/tests/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pkg_resources/__init__.py
 * /usr/lib/python3.13/site-packages/pkg_resources/__pycache__/__init__.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/setuptools-75.8.0-py3.13.egg-info/dependency_links.txt
-* /usr/lib/python3.13/site-packages/setuptools-75.8.0-py3.13.egg-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/setuptools-75.8.0-py3.13.egg-info/PKG-INFO
-* /usr/lib/python3.13/site-packages/setuptools-75.8.0-py3.13.egg-info/requires.txt
-* /usr/lib/python3.13/site-packages/setuptools-75.8.0-py3.13.egg-info/SOURCES.txt
-* /usr/lib/python3.13/site-packages/setuptools-75.8.0-py3.13.egg-info/top_level.txt
+* /usr/lib/python3.13/site-packages/setuptools-78.1.0-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/setuptools-78.1.0-py3.13.egg-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/setuptools-78.1.0-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/setuptools-78.1.0-py3.13.egg-info/requires.txt
+* /usr/lib/python3.13/site-packages/setuptools-78.1.0-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/setuptools-78.1.0-py3.13.egg-info/top_level.txt
 * /usr/lib/python3.13/site-packages/setuptools/archive_util.py
 * /usr/lib/python3.13/site-packages/setuptools/build_meta.py
 * /usr/lib/python3.13/site-packages/setuptools/cli-32.exe
@@ -339,10 +339,34 @@ Tool to build and install python packages
 * /usr/lib/python3.13/site-packages/setuptools/_distutils/command/__pycache__/sdist.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/setuptools/_distutils/command/__pycache__/_framework_compat.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/setuptools/_distutils/command/__pycache__/__init__.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/setuptools/_distutils/compat/numpy.py
 * /usr/lib/python3.13/site-packages/setuptools/_distutils/compat/py39.py
 * /usr/lib/python3.13/site-packages/setuptools/_distutils/compat/__init__.py
+* /usr/lib/python3.13/site-packages/setuptools/_distutils/compat/__pycache__/numpy.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/setuptools/_distutils/compat/__pycache__/py39.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/setuptools/_distutils/compat/__pycache__/__init__.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/setuptools/_distutils/compilers/C/base.py
+* /usr/lib/python3.13/site-packages/setuptools/_distutils/compilers/C/cygwin.py
+* /usr/lib/python3.13/site-packages/setuptools/_distutils/compilers/C/errors.py
+* /usr/lib/python3.13/site-packages/setuptools/_distutils/compilers/C/msvc.py
+* /usr/lib/python3.13/site-packages/setuptools/_distutils/compilers/C/tests/test_base.py
+* /usr/lib/python3.13/site-packages/setuptools/_distutils/compilers/C/tests/test_cygwin.py
+* /usr/lib/python3.13/site-packages/setuptools/_distutils/compilers/C/tests/test_mingw.py
+* /usr/lib/python3.13/site-packages/setuptools/_distutils/compilers/C/tests/test_msvc.py
+* /usr/lib/python3.13/site-packages/setuptools/_distutils/compilers/C/tests/test_unix.py
+* /usr/lib/python3.13/site-packages/setuptools/_distutils/compilers/C/tests/__pycache__/test_base.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/setuptools/_distutils/compilers/C/tests/__pycache__/test_cygwin.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/setuptools/_distutils/compilers/C/tests/__pycache__/test_mingw.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/setuptools/_distutils/compilers/C/tests/__pycache__/test_msvc.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/setuptools/_distutils/compilers/C/tests/__pycache__/test_unix.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/setuptools/_distutils/compilers/C/unix.py
+* /usr/lib/python3.13/site-packages/setuptools/_distutils/compilers/C/zos.py
+* /usr/lib/python3.13/site-packages/setuptools/_distutils/compilers/C/__pycache__/base.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/setuptools/_distutils/compilers/C/__pycache__/cygwin.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/setuptools/_distutils/compilers/C/__pycache__/errors.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/setuptools/_distutils/compilers/C/__pycache__/msvc.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/setuptools/_distutils/compilers/C/__pycache__/unix.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/setuptools/_distutils/compilers/C/__pycache__/zos.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/setuptools/_distutils/core.py
 * /usr/lib/python3.13/site-packages/setuptools/_distutils/cygwinccompiler.py
 * /usr/lib/python3.13/site-packages/setuptools/_distutils/debug.py
@@ -371,13 +395,11 @@ Tool to build and install python packages
 * /usr/lib/python3.13/site-packages/setuptools/_distutils/tests/test_build_ext.py
 * /usr/lib/python3.13/site-packages/setuptools/_distutils/tests/test_build_py.py
 * /usr/lib/python3.13/site-packages/setuptools/_distutils/tests/test_build_scripts.py
-* /usr/lib/python3.13/site-packages/setuptools/_distutils/tests/test_ccompiler.py
 * /usr/lib/python3.13/site-packages/setuptools/_distutils/tests/test_check.py
 * /usr/lib/python3.13/site-packages/setuptools/_distutils/tests/test_clean.py
 * /usr/lib/python3.13/site-packages/setuptools/_distutils/tests/test_cmd.py
 * /usr/lib/python3.13/site-packages/setuptools/_distutils/tests/test_config_cmd.py
 * /usr/lib/python3.13/site-packages/setuptools/_distutils/tests/test_core.py
-* /usr/lib/python3.13/site-packages/setuptools/_distutils/tests/test_cygwinccompiler.py
 * /usr/lib/python3.13/site-packages/setuptools/_distutils/tests/test_dir_util.py
 * /usr/lib/python3.13/site-packages/setuptools/_distutils/tests/test_dist.py
 * /usr/lib/python3.13/site-packages/setuptools/_distutils/tests/test_extension.py
@@ -389,14 +411,11 @@ Tool to build and install python packages
 * /usr/lib/python3.13/site-packages/setuptools/_distutils/tests/test_install_lib.py
 * /usr/lib/python3.13/site-packages/setuptools/_distutils/tests/test_install_scripts.py
 * /usr/lib/python3.13/site-packages/setuptools/_distutils/tests/test_log.py
-* /usr/lib/python3.13/site-packages/setuptools/_distutils/tests/test_mingwccompiler.py
 * /usr/lib/python3.13/site-packages/setuptools/_distutils/tests/test_modified.py
-* /usr/lib/python3.13/site-packages/setuptools/_distutils/tests/test_msvccompiler.py
 * /usr/lib/python3.13/site-packages/setuptools/_distutils/tests/test_sdist.py
 * /usr/lib/python3.13/site-packages/setuptools/_distutils/tests/test_spawn.py
 * /usr/lib/python3.13/site-packages/setuptools/_distutils/tests/test_sysconfig.py
 * /usr/lib/python3.13/site-packages/setuptools/_distutils/tests/test_text_file.py
-* /usr/lib/python3.13/site-packages/setuptools/_distutils/tests/test_unixccompiler.py
 * /usr/lib/python3.13/site-packages/setuptools/_distutils/tests/test_util.py
 * /usr/lib/python3.13/site-packages/setuptools/_distutils/tests/test_version.py
 * /usr/lib/python3.13/site-packages/setuptools/_distutils/tests/test_versionpredicate.py
@@ -412,13 +431,11 @@ Tool to build and install python packages
 * /usr/lib/python3.13/site-packages/setuptools/_distutils/tests/__pycache__/test_build_ext.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/setuptools/_distutils/tests/__pycache__/test_build_py.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/setuptools/_distutils/tests/__pycache__/test_build_scripts.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/setuptools/_distutils/tests/__pycache__/test_ccompiler.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/setuptools/_distutils/tests/__pycache__/test_check.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/setuptools/_distutils/tests/__pycache__/test_clean.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/setuptools/_distutils/tests/__pycache__/test_cmd.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/setuptools/_distutils/tests/__pycache__/test_config_cmd.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/setuptools/_distutils/tests/__pycache__/test_core.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/setuptools/_distutils/tests/__pycache__/test_cygwinccompiler.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/setuptools/_distutils/tests/__pycache__/test_dir_util.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/setuptools/_distutils/tests/__pycache__/test_dist.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/setuptools/_distutils/tests/__pycache__/test_extension.cpython-313.pyc
@@ -430,14 +447,11 @@ Tool to build and install python packages
 * /usr/lib/python3.13/site-packages/setuptools/_distutils/tests/__pycache__/test_install_lib.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/setuptools/_distutils/tests/__pycache__/test_install_scripts.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/setuptools/_distutils/tests/__pycache__/test_log.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/setuptools/_distutils/tests/__pycache__/test_mingwccompiler.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/setuptools/_distutils/tests/__pycache__/test_modified.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/setuptools/_distutils/tests/__pycache__/test_msvccompiler.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/setuptools/_distutils/tests/__pycache__/test_sdist.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/setuptools/_distutils/tests/__pycache__/test_spawn.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/setuptools/_distutils/tests/__pycache__/test_sysconfig.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/setuptools/_distutils/tests/__pycache__/test_text_file.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/setuptools/_distutils/tests/__pycache__/test_unixccompiler.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/setuptools/_distutils/tests/__pycache__/test_util.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/setuptools/_distutils/tests/__pycache__/test_version.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/setuptools/_distutils/tests/__pycache__/test_versionpredicate.cpython-313.pyc
@@ -754,13 +768,13 @@ Tool to build and install python packages
 * /usr/lib/python3.13/site-packages/setuptools/_vendor/typing_extensions-4.12.2.dist-info/RECORD
 * /usr/lib/python3.13/site-packages/setuptools/_vendor/typing_extensions-4.12.2.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/setuptools/_vendor/typing_extensions.py
-* /usr/lib/python3.13/site-packages/setuptools/_vendor/wheel-0.43.0.dist-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/setuptools/_vendor/wheel-0.43.0.dist-info/INSTALLER
-* /usr/lib/python3.13/site-packages/setuptools/_vendor/wheel-0.43.0.dist-info/LICENSE.txt
-* /usr/lib/python3.13/site-packages/setuptools/_vendor/wheel-0.43.0.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/setuptools/_vendor/wheel-0.43.0.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/setuptools/_vendor/wheel-0.43.0.dist-info/REQUESTED
-* /usr/lib/python3.13/site-packages/setuptools/_vendor/wheel-0.43.0.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/setuptools/_vendor/wheel-0.45.1.dist-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/setuptools/_vendor/wheel-0.45.1.dist-info/INSTALLER
+* /usr/lib/python3.13/site-packages/setuptools/_vendor/wheel-0.45.1.dist-info/LICENSE.txt
+* /usr/lib/python3.13/site-packages/setuptools/_vendor/wheel-0.45.1.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/setuptools/_vendor/wheel-0.45.1.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/setuptools/_vendor/wheel-0.45.1.dist-info/REQUESTED
+* /usr/lib/python3.13/site-packages/setuptools/_vendor/wheel-0.45.1.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/setuptools/_vendor/wheel/bdist_wheel.py
 * /usr/lib/python3.13/site-packages/setuptools/_vendor/wheel/cli/convert.py
 * /usr/lib/python3.13/site-packages/setuptools/_vendor/wheel/cli/pack.py
@@ -775,6 +789,9 @@ Tool to build and install python packages
 * /usr/lib/python3.13/site-packages/setuptools/_vendor/wheel/macosx_libfile.py
 * /usr/lib/python3.13/site-packages/setuptools/_vendor/wheel/metadata.py
 * /usr/lib/python3.13/site-packages/setuptools/_vendor/wheel/util.py
+* /usr/lib/python3.13/site-packages/setuptools/_vendor/wheel/vendored/packaging/LICENSE
+* /usr/lib/python3.13/site-packages/setuptools/_vendor/wheel/vendored/packaging/LICENSE.APACHE
+* /usr/lib/python3.13/site-packages/setuptools/_vendor/wheel/vendored/packaging/LICENSE.BSD
 * /usr/lib/python3.13/site-packages/setuptools/_vendor/wheel/vendored/packaging/markers.py
 * /usr/lib/python3.13/site-packages/setuptools/_vendor/wheel/vendored/packaging/requirements.py
 * /usr/lib/python3.13/site-packages/setuptools/_vendor/wheel/vendored/packaging/specifiers.py
@@ -805,6 +822,7 @@ Tool to build and install python packages
 * /usr/lib/python3.13/site-packages/setuptools/_vendor/wheel/vendored/__init__.py
 * /usr/lib/python3.13/site-packages/setuptools/_vendor/wheel/vendored/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/setuptools/_vendor/wheel/wheelfile.py
+* /usr/lib/python3.13/site-packages/setuptools/_vendor/wheel/_bdist_wheel.py
 * /usr/lib/python3.13/site-packages/setuptools/_vendor/wheel/_setuptools_logging.py
 * /usr/lib/python3.13/site-packages/setuptools/_vendor/wheel/__init__.py
 * /usr/lib/python3.13/site-packages/setuptools/_vendor/wheel/__main__.py
@@ -813,6 +831,7 @@ Tool to build and install python packages
 * /usr/lib/python3.13/site-packages/setuptools/_vendor/wheel/__pycache__/metadata.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/setuptools/_vendor/wheel/__pycache__/util.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/setuptools/_vendor/wheel/__pycache__/wheelfile.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/setuptools/_vendor/wheel/__pycache__/_bdist_wheel.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/setuptools/_vendor/wheel/__pycache__/_setuptools_logging.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/setuptools/_vendor/wheel/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/setuptools/_vendor/wheel/__pycache__/__main__.cpython-313.pyc
@@ -870,5 +889,5 @@ Tool to build and install python packages
 * /usr/lib/python3.13/site-packages/_distutils_hack/__init__.py
 * /usr/lib/python3.13/site-packages/_distutils_hack/__pycache__/override.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/_distutils_hack/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/python3-setuptools-75.8.0/LICENSE
-* /usr/share/doc/python3-setuptools-75.8.0/README.rst
+* /usr/share/doc/python3-setuptools-78.1.0/LICENSE
+* /usr/share/doc/python3-setuptools-78.1.0/README.rst

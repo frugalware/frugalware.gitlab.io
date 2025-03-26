@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-sqlobject 3.12.0-1"
-version = "3.12.0-1"
+title = "python3-sqlobject 3.13.0-1"
+version = "3.13.0-1"
 description = "SQLObject is a popular Object Relational Manager for providing an object interface to your database."
-date = "2024-12-24T12:33:05"
+date = "2025-03-26T14:58:14"
 aliases = "/packages/220449"
 categories = ['devel-extra']
 upstreamurl = "http://sqlobject.org/"
 arch = "x86_64"
-size = "452704"
-usize = "2044958"
-sha1sum = "2913c9de0f9e1fe52e05798da79692948a09ed24"
+size = "452516"
+usize = "2043857"
+sha1sum = "e1bf0bc107b0c0cab1cae02c5b8cf7fc89ab680c"
 depends = "['python3-formencode>=1.3.0']"
 reverse_depends = "['yokadi']"
 +++
@@ -20,12 +20,12 @@ SQLObject is a popular Object Relational Manager for providing an object interfa
 ### Files: 
 * /usr/bin/sqlobject-admin
 * /usr/bin/sqlobject-convertOldURI
-* /usr/lib/python3.13/site-packages/SQLObject-3.12.0-py3.13.egg-info/dependency_links.txt
-* /usr/lib/python3.13/site-packages/SQLObject-3.12.0-py3.13.egg-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/SQLObject-3.12.0-py3.13.egg-info/PKG-INFO
-* /usr/lib/python3.13/site-packages/SQLObject-3.12.0-py3.13.egg-info/requires.txt
-* /usr/lib/python3.13/site-packages/SQLObject-3.12.0-py3.13.egg-info/SOURCES.txt
-* /usr/lib/python3.13/site-packages/SQLObject-3.12.0-py3.13.egg-info/top_level.txt
+* /usr/lib/python3.13/site-packages/SQLObject-3.13.0-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/SQLObject-3.13.0-py3.13.egg-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/SQLObject-3.13.0-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/SQLObject-3.13.0-py3.13.egg-info/requires.txt
+* /usr/lib/python3.13/site-packages/SQLObject-3.13.0-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/SQLObject-3.13.0-py3.13.egg-info/top_level.txt
 * /usr/lib/python3.13/site-packages/sqlobject/boundattributes.py
 * /usr/lib/python3.13/site-packages/sqlobject/cache.py
 * /usr/lib/python3.13/site-packages/sqlobject/classregistry.py
@@ -307,5 +307,5 @@ SQLObject is a popular Object Relational Manager for providing an object interfa
 * /usr/lib/python3.13/site-packages/sqlobject/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/sqlobject/__pycache__/__version__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/sqlobject/__version__.py
-* /usr/share/doc/python3-sqlobject-3.12.0/LICENSE
-* /usr/share/doc/python3-sqlobject-3.12.0/README.rst
+* /usr/share/doc/python3-sqlobject-3.13.0/LICENSE
+* /usr/share/doc/python3-sqlobject-3.13.0/README.rst

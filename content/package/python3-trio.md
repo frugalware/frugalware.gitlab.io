@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-trio 0.28.0-1"
-version = "0.28.0-1"
+title = "python3-trio 0.29.0-1"
+version = "0.29.0-1"
 description = "A friendly Python library for async concurrency and I/O"
-date = "2025-02-11T11:53:16"
+date = "2025-03-26T14:58:54"
 aliases = "/packages/221145"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/trio"
 arch = "x86_64"
-size = "938496"
-usize = "5915347"
-sha1sum = "87be3575b9cc417d89f769118a09eda375088f5a"
+size = "958024"
+usize = "6072510"
+sha1sum = "dfe9c4a1c4a586f9830ca95106781312db0232d4"
 depends = "['python3-async_generator', 'python3-attrs', 'python3-exceptiongroup', 'python3-idna', 'python3-outcome', 'python3-sniffio', 'python3-sortedcontainers']"
 reverse_depends = "['python3-pyfuse3', 'python3-selenium', 'python3-trio-websocket']"
 +++
@@ -18,14 +18,14 @@ reverse_depends = "['python3-pyfuse3', 'python3-selenium', 'python3-trio-websock
 A friendly Python library for async concurrency and I/O
 
 ### Files: 
-* /usr/lib/python3.13/site-packages/trio-0.28.0.dist-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/trio-0.28.0.dist-info/LICENSE
-* /usr/lib/python3.13/site-packages/trio-0.28.0.dist-info/LICENSE.APACHE2
-* /usr/lib/python3.13/site-packages/trio-0.28.0.dist-info/LICENSE.MIT
-* /usr/lib/python3.13/site-packages/trio-0.28.0.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/trio-0.28.0.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/trio-0.28.0.dist-info/top_level.txt
-* /usr/lib/python3.13/site-packages/trio-0.28.0.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/trio-0.29.0.dist-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/trio-0.29.0.dist-info/licenses/LICENSE
+* /usr/lib/python3.13/site-packages/trio-0.29.0.dist-info/licenses/LICENSE.APACHE2
+* /usr/lib/python3.13/site-packages/trio-0.29.0.dist-info/licenses/LICENSE.MIT
+* /usr/lib/python3.13/site-packages/trio-0.29.0.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/trio-0.29.0.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/trio-0.29.0.dist-info/top_level.txt
+* /usr/lib/python3.13/site-packages/trio-0.29.0.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/trio/abc.py
 * /usr/lib/python3.13/site-packages/trio/from_thread.py
 * /usr/lib/python3.13/site-packages/trio/lowlevel.py
@@ -445,5 +445,5 @@ A friendly Python library for async concurrency and I/O
 * /usr/lib/python3.13/site-packages/trio/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/trio/__pycache__/__main__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/trio/__pycache__/__main__.cpython-313.pyc
-* /usr/share/doc/python3-trio-0.28.0/LICENSE
-* /usr/share/doc/python3-trio-0.28.0/README.rst
+* /usr/share/doc/python3-trio-0.29.0/LICENSE
+* /usr/share/doc/python3-trio-0.29.0/README.rst

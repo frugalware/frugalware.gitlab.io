@@ -1,27 +1,27 @@
 +++
 draft = false
-title = "python3-redis 5.3.0b4-1"
-version = "5.3.0b4-1"
+title = "python3-redis 5.2.1-1"
+version = "5.2.1-1"
 description = "The Python interface to the Redis key-value store"
-date = "2024-12-24T12:12:12"
+date = "2025-03-26T14:48:42"
 aliases = "/packages/221108"
 categories = ['devel-extra']
-upstreamurl = "http://pypi.python.org/pypi/redis"
+upstreamurl = "https://github.com/redis/redis-py"
 arch = "x86_64"
-size = "495204"
-usize = "3891161"
-sha1sum = "0eaef0d040dfdb3a2958e5df2c79fff41c3aa80a"
+size = "473756"
+usize = "3710433"
+sha1sum = "3fa49be2aeb820ae6d510af32f1b7af29586135d"
 depends = "['python3-async-timeout']"
 +++
 ### Description: 
 The Python interface to the Redis key-value store
 
 ### Files: 
-* /usr/lib/python3.13/site-packages/redis-5.3.0b4.dist-info/LICENSE
-* /usr/lib/python3.13/site-packages/redis-5.3.0b4.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/redis-5.3.0b4.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/redis-5.3.0b4.dist-info/top_level.txt
-* /usr/lib/python3.13/site-packages/redis-5.3.0b4.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/redis-5.2.1.dist-info/LICENSE
+* /usr/lib/python3.13/site-packages/redis-5.2.1.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/redis-5.2.1.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/redis-5.2.1.dist-info/top_level.txt
+* /usr/lib/python3.13/site-packages/redis-5.2.1.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/redis/asyncio/client.py
 * /usr/lib/python3.13/site-packages/redis/asyncio/cluster.py
 * /usr/lib/python3.13/site-packages/redis/asyncio/connection.py
@@ -46,21 +46,6 @@ The Python interface to the Redis key-value store
 * /usr/lib/python3.13/site-packages/redis/asyncio/__pycache__/utils.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/redis/asyncio/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/redis/asyncio/__pycache__/__init__.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/redis/auth/err.py
-* /usr/lib/python3.13/site-packages/redis/auth/idp.py
-* /usr/lib/python3.13/site-packages/redis/auth/token.py
-* /usr/lib/python3.13/site-packages/redis/auth/token_manager.py
-* /usr/lib/python3.13/site-packages/redis/auth/__init__.py
-* /usr/lib/python3.13/site-packages/redis/auth/__pycache__/err.cpython-313.opt-1.pyc
-* /usr/lib/python3.13/site-packages/redis/auth/__pycache__/err.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/redis/auth/__pycache__/idp.cpython-313.opt-1.pyc
-* /usr/lib/python3.13/site-packages/redis/auth/__pycache__/idp.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/redis/auth/__pycache__/token.cpython-313.opt-1.pyc
-* /usr/lib/python3.13/site-packages/redis/auth/__pycache__/token.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/redis/auth/__pycache__/token_manager.cpython-313.opt-1.pyc
-* /usr/lib/python3.13/site-packages/redis/auth/__pycache__/token_manager.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/redis/auth/__pycache__/__init__.cpython-313.opt-1.pyc
-* /usr/lib/python3.13/site-packages/redis/auth/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/redis/backoff.py
 * /usr/lib/python3.13/site-packages/redis/cache.py
 * /usr/lib/python3.13/site-packages/redis/client.py
@@ -182,7 +167,6 @@ The Python interface to the Redis key-value store
 * /usr/lib/python3.13/site-packages/redis/connection.py
 * /usr/lib/python3.13/site-packages/redis/crc.py
 * /usr/lib/python3.13/site-packages/redis/credentials.py
-* /usr/lib/python3.13/site-packages/redis/event.py
 * /usr/lib/python3.13/site-packages/redis/exceptions.py
 * /usr/lib/python3.13/site-packages/redis/lock.py
 * /usr/lib/python3.13/site-packages/redis/ocsp.py
@@ -232,8 +216,6 @@ The Python interface to the Redis key-value store
 * /usr/lib/python3.13/site-packages/redis/__pycache__/crc.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/redis/__pycache__/credentials.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/redis/__pycache__/credentials.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/redis/__pycache__/event.cpython-313.opt-1.pyc
-* /usr/lib/python3.13/site-packages/redis/__pycache__/event.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/redis/__pycache__/exceptions.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/redis/__pycache__/exceptions.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/redis/__pycache__/lock.cpython-313.opt-1.pyc
@@ -250,6 +232,6 @@ The Python interface to the Redis key-value store
 * /usr/lib/python3.13/site-packages/redis/__pycache__/utils.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/redis/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/redis/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/python3-redis-5.3.0b4/INSTALL
-* /usr/share/doc/python3-redis-5.3.0b4/LICENSE
-* /usr/share/doc/python3-redis-5.3.0b4/README.md
+* /usr/share/doc/python3-redis-5.2.1/INSTALL
+* /usr/share/doc/python3-redis-5.2.1/LICENSE
+* /usr/share/doc/python3-redis-5.2.1/README.md

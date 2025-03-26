@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-virtualenv 20.29.2-1"
-version = "20.29.2-1"
+title = "python3-virtualenv 20.29.3-1"
+version = "20.29.3-1"
 description = "Virtual Python Environment builder"
-date = "2025-02-11T11:57:00"
+date = "2025-03-26T15:01:18"
 aliases = "/packages/221174"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/virtualenv"
 arch = "x86_64"
-size = "3651612"
-usize = "5439575"
-sha1sum = "6bdd10ad5b529b6073da5b228a6a2b483632351d"
+size = "3651692"
+usize = "5439518"
+sha1sum = "9a4e2511995d7c3b831378319c0d36a1b9c48c4f"
 depends = "['python3-distlib', 'python3-filelock', 'python3-platformdirs']"
 reverse_depends = "['python3-poetry']"
 +++
@@ -19,11 +19,11 @@ Virtual Python Environment builder
 
 ### Files: 
 * /usr/bin/virtualenv
-* /usr/lib/python3.13/site-packages/virtualenv-20.29.2.dist-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/virtualenv-20.29.2.dist-info/licenses/LICENSE
-* /usr/lib/python3.13/site-packages/virtualenv-20.29.2.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/virtualenv-20.29.2.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/virtualenv-20.29.2.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/virtualenv-20.29.3.dist-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/virtualenv-20.29.3.dist-info/licenses/LICENSE
+* /usr/lib/python3.13/site-packages/virtualenv-20.29.3.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/virtualenv-20.29.3.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/virtualenv-20.29.3.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/virtualenv/activation/activator.py
 * /usr/lib/python3.13/site-packages/virtualenv/activation/bash/activate.sh
 * /usr/lib/python3.13/site-packages/virtualenv/activation/bash/__init__.py
@@ -309,5 +309,5 @@ Virtual Python Environment builder
 * /usr/lib/python3.13/site-packages/virtualenv/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/virtualenv/__pycache__/__main__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/virtualenv/__pycache__/__main__.cpython-313.pyc
-* /usr/share/doc/python3-virtualenv-20.29.2/LICENSE
-* /usr/share/doc/python3-virtualenv-20.29.2/README.md
+* /usr/share/doc/python3-virtualenv-20.29.3/LICENSE
+* /usr/share/doc/python3-virtualenv-20.29.3/README.md

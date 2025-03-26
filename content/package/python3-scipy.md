@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-scipy 1.15.1-1"
-version = "1.15.1-1"
+title = "python3-scipy 1.15.2-1"
+version = "1.15.2-1"
 description = "SciPy is open-source software for mathematics, science, and engineering."
-date = "2025-02-11T10:54:20"
+date = "2025-03-26T14:53:07"
 aliases = "/packages/220488"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/scipy"
 arch = "x86_64"
-size = "48065992"
-usize = "156799020"
-sha1sum = "e0b8a959eacc4fff9ef95d21417e2dacd8505a93"
+size = "22021808"
+usize = "117061367"
+sha1sum = "67be0d5ae17aaa06628e3038685202176030f28d"
 depends = "['libcblas', 'pybind11', 'python3-gast', 'python3-numpy>=1.7.1', 'xsimd']"
 reverse_depends = "['face_recognition', 'scikit-learn']"
 +++
@@ -18,10 +18,10 @@ reverse_depends = "['face_recognition', 'scikit-learn']"
 SciPy is open-source software for mathematics, science, and engineering.
 
 ### Files: 
-* /usr/lib/python3.13/site-packages/scipy-1.15.1.dist-info/LICENSE.txt
-* /usr/lib/python3.13/site-packages/scipy-1.15.1.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/scipy-1.15.1.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/scipy-1.15.1.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/scipy-1.15.2.dist-info/LICENSE.txt
+* /usr/lib/python3.13/site-packages/scipy-1.15.2.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/scipy-1.15.2.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/scipy-1.15.2.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/scipy/cluster/hierarchy.py
 * /usr/lib/python3.13/site-packages/scipy/cluster/tests/hierarchy_test_data.py
 * /usr/lib/python3.13/site-packages/scipy/cluster/tests/test_disjoint_set.py
@@ -1373,7 +1373,6 @@ SciPy is open-source software for mathematics, science, and engineering.
 * /usr/lib/python3.13/site-packages/scipy/optimize/_elementwise.py
 * /usr/lib/python3.13/site-packages/scipy/optimize/_group_columns.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/scipy/optimize/_hessian_update_strategy.py
-* /usr/lib/python3.13/site-packages/scipy/optimize/_highspy/libhighs.a
 * /usr/lib/python3.13/site-packages/scipy/optimize/_highspy/_core.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/scipy/optimize/_highspy/_highs_options.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/scipy/optimize/_highspy/_highs_wrapper.py
@@ -3262,4 +3261,4 @@ SciPy is open-source software for mathematics, science, and engineering.
 * /usr/lib/python3.13/site-packages/scipy/__pycache__/__config__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/scipy/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/scipy/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/python3-scipy-1.15.1/README.rst
+* /usr/share/doc/python3-scipy-1.15.2/README.rst

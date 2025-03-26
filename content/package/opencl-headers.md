@@ -12,6 +12,7 @@ size = "47036"
 usize = "415472"
 sha1sum = "6098f56125d0d214c44129d1e93c13470a23f96c"
 depends = "['glibc>=2.34']"
+reverse_depends = "['clblast']"
 +++
 ### Description: 
 OpenCL (Open Computing Language) header files

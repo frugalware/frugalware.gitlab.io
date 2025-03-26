@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-setuptools_scm 8.2.0-1"
-version = "8.2.0-1"
+title = "python3-setuptools_scm 8.2.1-1"
+version = "8.2.1-1"
 description = "Handles managing your python package versions in scm metadata."
-date = "2025-03-13T07:55:08"
+date = "2025-03-26T14:57:30"
 aliases = "/packages/220412"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/setuptools-scm"
 arch = "x86_64"
-size = "78652"
-usize = "390596"
-sha1sum = "f6adc78fa68f77e276b5d6a310b2a9cb34393ae7"
+size = "78864"
+usize = "391752"
+sha1sum = "b0512e67e4e5ba3a8b46ae69bcae082d8e201026"
 depends = "['python3-setuptools', 'python3-tomli', 'python3-typing_extensions']"
 reverse_depends = "['duplicity', 'psautohint', 'python3-flit_scm', 'python3-hatch-vcs', 'python3-setuptools-git-ls-files', 'python3-setuptools-rust']"
 +++
@@ -18,12 +18,12 @@ reverse_depends = "['duplicity', 'psautohint', 'python3-flit_scm', 'python3-hatc
 Handles managing your python package versions in scm metadata.
 
 ### Files: 
-* /usr/lib/python3.13/site-packages/setuptools_scm-8.2.0.dist-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/setuptools_scm-8.2.0.dist-info/LICENSE
-* /usr/lib/python3.13/site-packages/setuptools_scm-8.2.0.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/setuptools_scm-8.2.0.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/setuptools_scm-8.2.0.dist-info/top_level.txt
-* /usr/lib/python3.13/site-packages/setuptools_scm-8.2.0.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/setuptools_scm-8.2.1.dist-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/setuptools_scm-8.2.1.dist-info/licenses/LICENSE
+* /usr/lib/python3.13/site-packages/setuptools_scm-8.2.1.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/setuptools_scm-8.2.1.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/setuptools_scm-8.2.1.dist-info/top_level.txt
+* /usr/lib/python3.13/site-packages/setuptools_scm-8.2.1.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/setuptools_scm/.git_archival.txt
 * /usr/lib/python3.13/site-packages/setuptools_scm/discover.py
 * /usr/lib/python3.13/site-packages/setuptools_scm/fallbacks.py
@@ -112,5 +112,5 @@ Handles managing your python package versions in scm metadata.
 * /usr/lib/python3.13/site-packages/setuptools_scm/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/setuptools_scm/__pycache__/__main__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/setuptools_scm/__pycache__/__main__.cpython-313.pyc
-* /usr/share/doc/python3-setuptools_scm-8.2.0/LICENSE
-* /usr/share/doc/python3-setuptools_scm-8.2.0/README.md
+* /usr/share/doc/python3-setuptools_scm-8.2.1/LICENSE
+* /usr/share/doc/python3-setuptools_scm-8.2.1/README.md
