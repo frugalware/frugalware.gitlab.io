@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-myst-parser 4.0.0-2"
-version = "4.0.0-2"
+title = "python3-myst-parser 4.0.1-1"
+version = "4.0.1-1"
 description = "An extended commonmark compliant parser, with bridges to docutils/sphinx"
-date = "2024-11-02T18:27:57"
+date = "2025-03-26T14:04:55"
 aliases = "/packages/221537"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/myst-parser"
 arch = "x86_64"
-size = "176584"
-usize = "1031168"
-sha1sum = "af1418beb2895f7b9c0d1dc69bac86bda84a9306"
+size = "176696"
+usize = "1031590"
+sha1sum = "ee9c51fb5fcf22bdae56e85cd25daabb17852615"
 depends = "['docutils', 'python3-jinja', 'python3-mdit_py_plugins', 'python3-pygments', 'python3-sphinx', 'pyyaml3']"
 +++
 ### Description: 
@@ -25,11 +25,11 @@ An extended commonmark compliant parser, with bridges to docutils/sphinx
 * /usr/bin/myst-docutils-pseudoxml
 * /usr/bin/myst-docutils-xml
 * /usr/bin/myst-inv
-* /usr/lib/python3.13/site-packages/myst_parser-4.0.0.dist-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/myst_parser-4.0.0.dist-info/LICENSE
-* /usr/lib/python3.13/site-packages/myst_parser-4.0.0.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/myst_parser-4.0.0.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/myst_parser-4.0.0.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/myst_parser-4.0.1.dist-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/myst_parser-4.0.1.dist-info/licenses/LICENSE
+* /usr/lib/python3.13/site-packages/myst_parser-4.0.1.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/myst_parser-4.0.1.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/myst_parser-4.0.1.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/myst_parser/cli.py
 * /usr/lib/python3.13/site-packages/myst_parser/config/dc_validators.py
 * /usr/lib/python3.13/site-packages/myst_parser/config/main.py
@@ -118,5 +118,5 @@ An extended commonmark compliant parser, with bridges to docutils/sphinx
 * /usr/lib/python3.13/site-packages/myst_parser/__pycache__/_docs.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/myst_parser/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/myst_parser/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/python3-myst-parser-4.0.0/LICENSE
-* /usr/share/doc/python3-myst-parser-4.0.0/README.md
+* /usr/share/doc/python3-myst-parser-4.0.1/LICENSE
+* /usr/share/doc/python3-myst-parser-4.0.1/README.md

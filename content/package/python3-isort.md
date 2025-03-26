@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-isort 6.0.0-1"
-version = "6.0.0-1"
+title = "python3-isort 6.0.1-1"
+version = "6.0.1-1"
 description = "A Python3 utility / library to sort Python3 imports"
-date = "2025-02-11T10:32:17"
+date = "2025-03-26T14:00:50"
 aliases = "/packages/219608"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/isort"
 arch = "x86_64"
-size = "177492"
-usize = "1076799"
-sha1sum = "5fce2192db69bda5467bc66dd06ae09bdc348e6d"
+size = "178036"
+usize = "1079241"
+sha1sum = "bba1e380e0fba730eddd562414a45d0ecc2d3b7c"
 depends = "['python3>=3.12']"
 reverse_depends = "['pylint']"
 +++
@@ -20,11 +20,11 @@ A Python3 utility / library to sort Python3 imports
 ### Files: 
 * /usr/bin/isort-identify-imports
 * /usr/bin/isort3
-* /usr/lib/python3.13/site-packages/isort-6.0.0.dist-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/isort-6.0.0.dist-info/licenses/LICENSE
-* /usr/lib/python3.13/site-packages/isort-6.0.0.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/isort-6.0.0.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/isort-6.0.0.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/isort-6.0.1.dist-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/isort-6.0.1.dist-info/licenses/LICENSE
+* /usr/lib/python3.13/site-packages/isort-6.0.1.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/isort-6.0.1.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/isort-6.0.1.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/isort/api.py
 * /usr/lib/python3.13/site-packages/isort/comments.py
 * /usr/lib/python3.13/site-packages/isort/core.py
@@ -163,5 +163,5 @@ A Python3 utility / library to sort Python3 imports
 * /usr/lib/python3.13/site-packages/isort/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/isort/__pycache__/__main__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/isort/__pycache__/__main__.cpython-313.pyc
-* /usr/share/doc/python3-isort-6.0.0/LICENSE
-* /usr/share/doc/python3-isort-6.0.0/README.md
+* /usr/share/doc/python3-isort-6.0.1/LICENSE
+* /usr/share/doc/python3-isort-6.0.1/README.md

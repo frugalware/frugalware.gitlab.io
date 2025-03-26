@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-apsw 3.49.0.0-1"
-version = "3.49.0.0-1"
+title = "python3-apsw 3.49.1.0-1"
+version = "3.49.1.0-1"
 description = "Python3 wrapper for SQLite."
-date = "2025-02-11T10:13:44"
+date = "2025-03-26T13:33:42"
 aliases = "/packages/220277"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/rogerbinns/apsw"
 arch = "x86_64"
-size = "1091976"
-usize = "4307938"
-sha1sum = "7eb834b051a41e6a14af7937c66eb9a035a1c985"
+size = "1092512"
+usize = "4314234"
+sha1sum = "7bc994c51eda04709b2f97e9323f35ab39386b00"
 depends = "['python3>=3.12', 'sqlite3>=3.15.1']"
 reverse_depends = "['calibre']"
 +++
@@ -19,11 +19,11 @@ Python3 wrapper for SQLite.
 
 ### Files: 
 * /usr/bin/apsw
-* /usr/lib/python3.13/site-packages/apsw-3.49.0.0-py3.13.egg-info/dependency_links.txt
-* /usr/lib/python3.13/site-packages/apsw-3.49.0.0-py3.13.egg-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/apsw-3.49.0.0-py3.13.egg-info/PKG-INFO
-* /usr/lib/python3.13/site-packages/apsw-3.49.0.0-py3.13.egg-info/SOURCES.txt
-* /usr/lib/python3.13/site-packages/apsw-3.49.0.0-py3.13.egg-info/top_level.txt
+* /usr/lib/python3.13/site-packages/apsw-3.49.1.0-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/apsw-3.49.1.0-py3.13.egg-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/apsw-3.49.1.0-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/apsw-3.49.1.0-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/apsw-3.49.1.0-py3.13.egg-info/top_level.txt
 * /usr/lib/python3.13/site-packages/apsw/bestpractice.py
 * /usr/lib/python3.13/site-packages/apsw/ext.py
 * /usr/lib/python3.13/site-packages/apsw/fts5.py
@@ -53,5 +53,5 @@ Python3 wrapper for SQLite.
 * /usr/lib/python3.13/site-packages/apsw/__pycache__/trace.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/apsw/__pycache__/unicode.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/apsw/__pycache__/__main__.cpython-313.pyc
-* /usr/share/doc/python3-apsw-3.49.0.0/LICENSE
-* /usr/share/doc/python3-apsw-3.49.0.0/README.rst
+* /usr/share/doc/python3-apsw-3.49.1.0/LICENSE
+* /usr/share/doc/python3-apsw-3.49.1.0/README.rst

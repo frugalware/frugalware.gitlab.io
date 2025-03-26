@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-jeepney 0.8.0-2"
-version = "0.8.0-2"
+title = "python3-jeepney 0.9.0-1"
+version = "0.9.0-1"
 description = "Low-level, pure Python DBus protocol wrapper"
-date = "2024-11-02T17:49:00"
+date = "2025-03-26T14:01:24"
 aliases = "/packages/221164"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/jeepney"
 arch = "x86_64"
-size = "94540"
-usize = "552466"
-sha1sum = "825477acf2098a06fa3c7e9d3ac0716937e0baed"
+size = "96156"
+usize = "568968"
+sha1sum = "46fc577beb29127a0c89bede0b30d4aa55672769"
 depends = "['python3']"
 reverse_depends = "['python3-secretstorage']"
 +++
@@ -18,10 +18,10 @@ reverse_depends = "['python3-secretstorage']"
 Low-level, pure Python DBus protocol wrapper
 
 ### Files: 
-* /usr/lib/python3.13/site-packages/jeepney-0.8.0.dist-info/LICENSE
-* /usr/lib/python3.13/site-packages/jeepney-0.8.0.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/jeepney-0.8.0.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/jeepney-0.8.0.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/jeepney-0.9.0.dist-info/licenses/LICENSE
+* /usr/lib/python3.13/site-packages/jeepney-0.9.0.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/jeepney-0.9.0.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/jeepney-0.9.0.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/jeepney/auth.py
 * /usr/lib/python3.13/site-packages/jeepney/bindgen.py
 * /usr/lib/python3.13/site-packages/jeepney/bus.py
@@ -67,7 +67,6 @@ Low-level, pure Python DBus protocol wrapper
 * /usr/lib/python3.13/site-packages/jeepney/io/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/jeepney/io/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/jeepney/low_level.py
-* /usr/lib/python3.13/site-packages/jeepney/routing.py
 * /usr/lib/python3.13/site-packages/jeepney/tests/secrets_introspect.xml
 * /usr/lib/python3.13/site-packages/jeepney/tests/test_auth.py
 * /usr/lib/python3.13/site-packages/jeepney/tests/test_bindgen.py
@@ -75,7 +74,7 @@ Low-level, pure Python DBus protocol wrapper
 * /usr/lib/python3.13/site-packages/jeepney/tests/test_bus_messages.py
 * /usr/lib/python3.13/site-packages/jeepney/tests/test_fds.py
 * /usr/lib/python3.13/site-packages/jeepney/tests/test_low_level.py
-* /usr/lib/python3.13/site-packages/jeepney/tests/test_routing.py
+* /usr/lib/python3.13/site-packages/jeepney/tests/test_wrappers.py
 * /usr/lib/python3.13/site-packages/jeepney/tests/__init__.py
 * /usr/lib/python3.13/site-packages/jeepney/tests/__pycache__/test_auth.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/jeepney/tests/__pycache__/test_auth.cpython-313.pyc
@@ -89,8 +88,8 @@ Low-level, pure Python DBus protocol wrapper
 * /usr/lib/python3.13/site-packages/jeepney/tests/__pycache__/test_fds.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/jeepney/tests/__pycache__/test_low_level.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/jeepney/tests/__pycache__/test_low_level.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/jeepney/tests/__pycache__/test_routing.cpython-313.opt-1.pyc
-* /usr/lib/python3.13/site-packages/jeepney/tests/__pycache__/test_routing.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/jeepney/tests/__pycache__/test_wrappers.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/jeepney/tests/__pycache__/test_wrappers.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/jeepney/tests/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/jeepney/tests/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/jeepney/wrappers.py
@@ -107,11 +106,9 @@ Low-level, pure Python DBus protocol wrapper
 * /usr/lib/python3.13/site-packages/jeepney/__pycache__/fds.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/jeepney/__pycache__/low_level.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/jeepney/__pycache__/low_level.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/jeepney/__pycache__/routing.cpython-313.opt-1.pyc
-* /usr/lib/python3.13/site-packages/jeepney/__pycache__/routing.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/jeepney/__pycache__/wrappers.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/jeepney/__pycache__/wrappers.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/jeepney/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/jeepney/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/python3-jeepney-0.8.0/LICENSE
-* /usr/share/doc/python3-jeepney-0.8.0/README.rst
+* /usr/share/doc/python3-jeepney-0.9.0/LICENSE
+* /usr/share/doc/python3-jeepney-0.9.0/README.rst

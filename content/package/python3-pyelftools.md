@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-pyelftools 0.31-1"
-version = "0.31-1"
+title = "python3-pyelftools 0.32-1"
+version = "0.32-1"
 description = "Python library for analyzing ELF files and DWARF debugging information"
-date = "2024-11-17T15:56:00"
+date = "2025-03-26T14:12:13"
 aliases = "/packages/222586"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/eliben/pyelftools"
 arch = "x86_64"
-size = "303940"
-usize = "1398342"
-sha1sum = "e208d8a5f9dd229946cf71763928e3a1f67f7e53"
+size = "312676"
+usize = "1461969"
+sha1sum = "8baa60ad6d80b077f0780ccfddb578aeb4f86c8e"
 depends = "['python3']"
 reverse_depends = "['python3-auditwheel']"
 +++
@@ -66,6 +66,7 @@ Python library for analyzing ELF files and DWARF debugging information
 * /usr/lib/python3.13/site-packages/elftools/dwarf/namelut.py
 * /usr/lib/python3.13/site-packages/elftools/dwarf/ranges.py
 * /usr/lib/python3.13/site-packages/elftools/dwarf/structs.py
+* /usr/lib/python3.13/site-packages/elftools/dwarf/typeunit.py
 * /usr/lib/python3.13/site-packages/elftools/dwarf/__init__.py
 * /usr/lib/python3.13/site-packages/elftools/dwarf/__pycache__/abbrevtable.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/elftools/dwarf/__pycache__/aranges.cpython-313.pyc
@@ -84,6 +85,7 @@ Python library for analyzing ELF files and DWARF debugging information
 * /usr/lib/python3.13/site-packages/elftools/dwarf/__pycache__/namelut.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/elftools/dwarf/__pycache__/ranges.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/elftools/dwarf/__pycache__/structs.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/elftools/dwarf/__pycache__/typeunit.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/elftools/dwarf/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/elftools/ehabi/constants.py
 * /usr/lib/python3.13/site-packages/elftools/ehabi/decoder.py
@@ -124,11 +126,11 @@ Python library for analyzing ELF files and DWARF debugging information
 * /usr/lib/python3.13/site-packages/elftools/py.typed
 * /usr/lib/python3.13/site-packages/elftools/__init__.py
 * /usr/lib/python3.13/site-packages/elftools/__pycache__/__init__.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/pyelftools-0.31-py3.13.egg-info/dependency_links.txt
-* /usr/lib/python3.13/site-packages/pyelftools-0.31-py3.13.egg-info/PKG-INFO
-* /usr/lib/python3.13/site-packages/pyelftools-0.31-py3.13.egg-info/SOURCES.txt
-* /usr/lib/python3.13/site-packages/pyelftools-0.31-py3.13.egg-info/top_level.txt
-* /usr/share/doc/python3-pyelftools-0.31/CHANGES
-* /usr/share/doc/python3-pyelftools-0.31/LICENSE
-* /usr/share/doc/python3-pyelftools-0.31/README.rst
-* /usr/share/doc/python3-pyelftools-0.31/TODO
+* /usr/lib/python3.13/site-packages/pyelftools-0.32-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/pyelftools-0.32-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/pyelftools-0.32-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/pyelftools-0.32-py3.13.egg-info/top_level.txt
+* /usr/share/doc/python3-pyelftools-0.32/CHANGES
+* /usr/share/doc/python3-pyelftools-0.32/LICENSE
+* /usr/share/doc/python3-pyelftools-0.32/README.rst
+* /usr/share/doc/python3-pyelftools-0.32/TODO

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-pkginfo 1.12.0-1"
-version = "1.12.0-1"
+title = "python3-pkginfo 1.12.1.2-1"
+version = "1.12.1.2-1"
 description = "Query metadata from sdists / bdists / installed packages"
-date = "2024-12-24T11:56:51"
+date = "2025-03-26T14:06:18"
 aliases = "/packages/221167"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/pkginfo"
 arch = "x86_64"
-size = "58140"
-usize = "351624"
-sha1sum = "8ef596949a6b7dc29d7ab8b30b7cc72c9cf4f5f4"
+size = "58500"
+usize = "353604"
+sha1sum = "1b7fb0e70c13cade2ace87ff14820caadcba228f"
 depends = "['python3']"
 reverse_depends = "['python3-poetry']"
 +++
@@ -19,12 +19,12 @@ Query metadata from sdists / bdists / installed packages
 
 ### Files: 
 * /usr/bin/pkginfo
-* /usr/lib/python3.13/site-packages/pkginfo-1.12.0.dist-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/pkginfo-1.12.0.dist-info/LICENSE.txt
-* /usr/lib/python3.13/site-packages/pkginfo-1.12.0.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/pkginfo-1.12.0.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/pkginfo-1.12.0.dist-info/top_level.txt
-* /usr/lib/python3.13/site-packages/pkginfo-1.12.0.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/pkginfo-1.12.1.2.dist-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/pkginfo-1.12.1.2.dist-info/LICENSE.txt
+* /usr/lib/python3.13/site-packages/pkginfo-1.12.1.2.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/pkginfo-1.12.1.2.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/pkginfo-1.12.1.2.dist-info/top_level.txt
+* /usr/lib/python3.13/site-packages/pkginfo-1.12.1.2.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/pkginfo/bdist.py
 * /usr/lib/python3.13/site-packages/pkginfo/bdist.pyi
 * /usr/lib/python3.13/site-packages/pkginfo/commandline.py
@@ -99,4 +99,4 @@ Query metadata from sdists / bdists / installed packages
 * /usr/lib/python3.13/site-packages/pkginfo/__pycache__/wheel.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pkginfo/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pkginfo/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/python3-pkginfo-1.12.0/README.txt
+* /usr/share/doc/python3-pkginfo-1.12.1.2/README.txt

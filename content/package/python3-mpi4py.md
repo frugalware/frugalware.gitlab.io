@@ -1,27 +1,27 @@
 +++
 draft = false
-title = "python3-mpi4py 4.0.2-1"
-version = "4.0.2-1"
+title = "python3-mpi4py 4.0.3-1"
+version = "4.0.3-1"
 description = "Python bindings for the Message Passing Interface (MPI) standard"
-date = "2025-02-11T10:40:21"
+date = "2025-03-26T14:04:20"
 aliases = "/packages/221451"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/mpi4py"
 arch = "x86_64"
-size = "778496"
-usize = "3356969"
-sha1sum = "1134356f43f74be8f670bba89b7b6670251b29e1"
+size = "808540"
+usize = "3409188"
+sha1sum = "415dab88f4c7aa14bd4a01284bcf1d0b1dac9a33"
 depends = "['openmpi', 'python3']"
 +++
 ### Description: 
 Python bindings for the Message Passing Interface (MPI) standard
 
 ### Files: 
-* /usr/lib/python3.13/site-packages/mpi4py-4.0.2-py3.13.egg-info/dependency_links.txt
-* /usr/lib/python3.13/site-packages/mpi4py-4.0.2-py3.13.egg-info/not-zip-safe
-* /usr/lib/python3.13/site-packages/mpi4py-4.0.2-py3.13.egg-info/PKG-INFO
-* /usr/lib/python3.13/site-packages/mpi4py-4.0.2-py3.13.egg-info/SOURCES.txt
-* /usr/lib/python3.13/site-packages/mpi4py-4.0.2-py3.13.egg-info/top_level.txt
+* /usr/lib/python3.13/site-packages/mpi4py-4.0.3-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/mpi4py-4.0.3-py3.13.egg-info/not-zip-safe
+* /usr/lib/python3.13/site-packages/mpi4py-4.0.3-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/mpi4py-4.0.3-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/mpi4py-4.0.3-py3.13.egg-info/top_level.txt
 * /usr/lib/python3.13/site-packages/mpi4py/bench.py
 * /usr/lib/python3.13/site-packages/mpi4py/bench.pyi
 * /usr/lib/python3.13/site-packages/mpi4py/futures/aplus.py
@@ -88,5 +88,5 @@ Python bindings for the Message Passing Interface (MPI) standard
 * /usr/lib/python3.13/site-packages/mpi4py/__pycache__/typing.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/mpi4py/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/mpi4py/__pycache__/__main__.cpython-313.pyc
-* /usr/share/doc/python3-mpi4py-4.0.2/INSTALL.rst
-* /usr/share/doc/python3-mpi4py-4.0.2/README.rst
+* /usr/share/doc/python3-mpi4py-4.0.3/INSTALL.rst
+* /usr/share/doc/python3-mpi4py-4.0.3/README.rst

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-dulwich 0.22.7-1"
-version = "0.22.7-1"
+title = "python3-dulwich 0.22.8-1"
+version = "0.22.8-1"
 description = "Pure-Python implementation of the Git file formats and protocols"
-date = "2024-12-24T10:36:10"
+date = "2025-03-26T13:57:24"
 aliases = "/packages/221161"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/dulwich"
 arch = "x86_64"
-size = "779668"
-usize = "4679923"
-sha1sum = "89a12d722337065b2dfc6a274fac84404594d0b1"
+size = "797336"
+usize = "4796591"
+sha1sum = "03959e5d85afa3950577e20ee5b742d879d57f9a"
 depends = "['paramiko', 'pyinotify', 'python3-fastimport', 'python3-gpgme', 'python3-idna', 'python3-openssl', 'python3-urllib3']"
 reverse_depends = "['python3-poetry']"
 +++
@@ -21,12 +21,12 @@ Pure-Python implementation of the Git file formats and protocols
 * /usr/bin/dul-receive-pack
 * /usr/bin/dul-upload-pack
 * /usr/bin/dulwich
-* /usr/lib/python3.13/site-packages/dulwich-0.22.7.dist-info/COPYING
-* /usr/lib/python3.13/site-packages/dulwich-0.22.7.dist-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/dulwich-0.22.7.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/dulwich-0.22.7.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/dulwich-0.22.7.dist-info/top_level.txt
-* /usr/lib/python3.13/site-packages/dulwich-0.22.7.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/dulwich-0.22.8.dist-info/COPYING
+* /usr/lib/python3.13/site-packages/dulwich-0.22.8.dist-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/dulwich-0.22.8.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/dulwich-0.22.8.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/dulwich-0.22.8.dist-info/top_level.txt
+* /usr/lib/python3.13/site-packages/dulwich-0.22.8.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/dulwich/archive.py
 * /usr/lib/python3.13/site-packages/dulwich/bundle.py
 * /usr/lib/python3.13/site-packages/dulwich/cli.py
@@ -83,6 +83,7 @@ Pure-Python implementation of the Git file formats and protocols
 * /usr/lib/python3.13/site-packages/dulwich/refs.py
 * /usr/lib/python3.13/site-packages/dulwich/repo.py
 * /usr/lib/python3.13/site-packages/dulwich/server.py
+* /usr/lib/python3.13/site-packages/dulwich/sparse_patterns.py
 * /usr/lib/python3.13/site-packages/dulwich/stash.py
 * /usr/lib/python3.13/site-packages/dulwich/stdint.h
 * /usr/lib/python3.13/site-packages/dulwich/submodule.py
@@ -164,6 +165,8 @@ Pure-Python implementation of the Git file formats and protocols
 * /usr/lib/python3.13/site-packages/dulwich/__pycache__/repo.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/dulwich/__pycache__/server.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/dulwich/__pycache__/server.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/dulwich/__pycache__/sparse_patterns.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/dulwich/__pycache__/sparse_patterns.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/dulwich/__pycache__/stash.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/dulwich/__pycache__/stash.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/dulwich/__pycache__/submodule.cpython-313.opt-1.pyc
@@ -176,8 +179,8 @@ Pure-Python implementation of the Git file formats and protocols
 * /usr/lib/python3.13/site-packages/dulwich/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/dulwich/__pycache__/__main__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/dulwich/__pycache__/__main__.cpython-313.pyc
-* /usr/share/doc/python3-dulwich-0.22.7/AUTHORS
-* /usr/share/doc/python3-dulwich-0.22.7/COPYING
-* /usr/share/doc/python3-dulwich-0.22.7/NEWS
-* /usr/share/doc/python3-dulwich-0.22.7/README.rst
-* /usr/share/doc/python3-dulwich-0.22.7/TODO
+* /usr/share/doc/python3-dulwich-0.22.8/AUTHORS
+* /usr/share/doc/python3-dulwich-0.22.8/COPYING
+* /usr/share/doc/python3-dulwich-0.22.8/NEWS
+* /usr/share/doc/python3-dulwich-0.22.8/README.rst
+* /usr/share/doc/python3-dulwich-0.22.8/TODO

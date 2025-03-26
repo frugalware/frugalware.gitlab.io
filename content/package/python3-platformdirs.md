@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-platformdirs 4.3.6-1"
-version = "4.3.6-1"
+title = "python3-platformdirs 4.3.7-1"
+version = "4.3.7-1"
 description = "A library to determine platform-specific system directories"
-date = "2024-12-24T11:57:26"
+date = "2025-03-26T14:06:54"
 aliases = "/packages/221168"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/platformdirs"
 arch = "x86_64"
-size = "28736"
-usize = "260029"
-sha1sum = "c03c4259f748bafc0507f2ced0a1c5505fdf7611"
+size = "28840"
+usize = "260475"
+sha1sum = "de5e7764293fe912acc0d439975672d3f5cf24a0"
 depends = "['python3-typing_extensions']"
 reverse_depends = "['python3-pipx', 'python3-poetry', 'python3-virtualenv', 'vorta']"
 +++
@@ -18,10 +18,10 @@ reverse_depends = "['python3-pipx', 'python3-poetry', 'python3-virtualenv', 'vor
 A library to determine platform-specific system directories
 
 ### Files: 
-* /usr/lib/python3.13/site-packages/platformdirs-4.3.6.dist-info/licenses/LICENSE
-* /usr/lib/python3.13/site-packages/platformdirs-4.3.6.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/platformdirs-4.3.6.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/platformdirs-4.3.6.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/platformdirs-4.3.7.dist-info/licenses/LICENSE
+* /usr/lib/python3.13/site-packages/platformdirs-4.3.7.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/platformdirs-4.3.7.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/platformdirs-4.3.7.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/platformdirs/android.py
 * /usr/lib/python3.13/site-packages/platformdirs/api.py
 * /usr/lib/python3.13/site-packages/platformdirs/macos.py
@@ -47,5 +47,5 @@ A library to determine platform-specific system directories
 * /usr/lib/python3.13/site-packages/platformdirs/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/platformdirs/__pycache__/__main__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/platformdirs/__pycache__/__main__.cpython-313.pyc
-* /usr/share/doc/python3-platformdirs-4.3.6/LICENSE
-* /usr/share/doc/python3-platformdirs-4.3.6/README.rst
+* /usr/share/doc/python3-platformdirs-4.3.7/LICENSE
+* /usr/share/doc/python3-platformdirs-4.3.7/README.rst

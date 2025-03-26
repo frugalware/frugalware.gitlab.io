@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-attrs 25.1.0-1"
-version = "25.1.0-1"
+title = "python3-attrs 25.3.0-1"
+version = "25.3.0-1"
 description = "Attributes without boilerplate."
-date = "2025-02-11T10:17:01"
+date = "2025-03-26T13:34:48"
 aliases = "/packages/219729"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/attrs"
 arch = "x86_64"
-size = "100404"
-usize = "600093"
-sha1sum = "bbf41caf873464a56231acf23a145714bd70e6e1"
+size = "101972"
+usize = "610800"
+sha1sum = "c2cc5356e2fdf07c27a5e7427bfced6f78710cc5"
 depends = "['python3>=3.12']"
 reverse_depends = "['python3-jsonschema', 'python3-outcome', 'python3-reuse', 'python3-trio', 'python3-twisted']"
 +++
@@ -67,10 +67,10 @@ Attributes without boilerplate.
 * /usr/lib/python3.13/site-packages/attr/__pycache__/_version_info.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/attr/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/attr/__pycache__/__init__.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/attrs-25.1.0.dist-info/licenses/LICENSE
-* /usr/lib/python3.13/site-packages/attrs-25.1.0.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/attrs-25.1.0.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/attrs-25.1.0.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/attrs-25.3.0.dist-info/licenses/LICENSE
+* /usr/lib/python3.13/site-packages/attrs-25.3.0.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/attrs-25.3.0.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/attrs-25.3.0.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/attrs/converters.py
 * /usr/lib/python3.13/site-packages/attrs/exceptions.py
 * /usr/lib/python3.13/site-packages/attrs/filters.py
@@ -91,5 +91,5 @@ Attributes without boilerplate.
 * /usr/lib/python3.13/site-packages/attrs/__pycache__/validators.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/attrs/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/attrs/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/python3-attrs-25.1.0/LICENSE
-* /usr/share/doc/python3-attrs-25.1.0/README.md
+* /usr/share/doc/python3-attrs-25.3.0/LICENSE
+* /usr/share/doc/python3-attrs-25.3.0/README.md

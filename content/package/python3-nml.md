@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-nml 0.7.5-2"
-version = "0.7.5-2"
+title = "python3-nml 0.7.6-1"
+version = "0.7.6-1"
 description = "OpenTTD NewGRF Meta Language Tools"
-date = "2024-11-02T18:32:58"
+date = "2025-03-26T14:05:38"
 aliases = "/packages/220591"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/OpenTTD/nml"
 arch = "x86_64"
-size = "500108"
-usize = "2684278"
-sha1sum = "fc5ff14333100346be222c7eceb7c1704b35cc04"
+size = "505172"
+usize = "2715230"
+sha1sum = "041a1197f27c6c6b8e1fc9d2f3407a417f5353c0"
 depends = "['python3-pillow', 'python3-ply']"
 +++
 ### Description: 
@@ -91,6 +91,7 @@ OpenTTD NewGRF Meta Language Tools
 * /usr/lib/python3.13/site-packages/nml/ast/base_statement.py
 * /usr/lib/python3.13/site-packages/nml/ast/cargotable.py
 * /usr/lib/python3.13/site-packages/nml/ast/conditional.py
+* /usr/lib/python3.13/site-packages/nml/ast/constant.py
 * /usr/lib/python3.13/site-packages/nml/ast/deactivate.py
 * /usr/lib/python3.13/site-packages/nml/ast/disable_item.py
 * /usr/lib/python3.13/site-packages/nml/ast/error.py
@@ -119,6 +120,7 @@ OpenTTD NewGRF Meta Language Tools
 * /usr/lib/python3.13/site-packages/nml/ast/__pycache__/base_statement.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/nml/ast/__pycache__/cargotable.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/nml/ast/__pycache__/conditional.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/nml/ast/__pycache__/constant.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/nml/ast/__pycache__/deactivate.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/nml/ast/__pycache__/disable_item.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/nml/ast/__pycache__/error.cpython-313.pyc
@@ -241,5 +243,5 @@ OpenTTD NewGRF Meta Language Tools
 * /usr/lib/python3.13/site-packages/nml/__pycache__/version_update.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/nml/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/nml_lz77.cpython-313-x86_64-linux-gnu.so
-* /usr/share/doc/python3-nml-0.7.5/LICENSE
-* /usr/share/doc/python3-nml-0.7.5/README.md
+* /usr/share/doc/python3-nml-0.7.6/LICENSE
+* /usr/share/doc/python3-nml-0.7.6/README.md

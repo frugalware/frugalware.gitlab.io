@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-pytest 8.3.4-1"
-version = "8.3.4-1"
+title = "python3-pytest 8.3.5-1"
+version = "8.3.5-1"
 description = "Simple powerful testing with Python"
-date = "2024-12-24T12:03:17"
+date = "2025-03-26T14:13:35"
 aliases = "/packages/221194"
 categories = ['devel-extra']
 upstreamurl = "https://pytest.org/"
 arch = "x86_64"
-size = "661068"
-usize = "4124718"
-sha1sum = "2d485bd84647bb39678816264aea628b34472b07"
+size = "661992"
+usize = "4129601"
+sha1sum = "92a8ce18574d7b2586a38f8ecf24450d4baaa6bc"
 depends = "['python3-iniconfig', 'python3-packaging', 'python3-pluggy']"
 +++
 ### Description: 
@@ -20,13 +20,13 @@ Simple powerful testing with Python
 * /usr/bin/py.test
 * /usr/bin/pytest
 * /usr/lib/python3.13/site-packages/py.py
-* /usr/lib/python3.13/site-packages/pytest-8.3.4.dist-info/AUTHORS
-* /usr/lib/python3.13/site-packages/pytest-8.3.4.dist-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/pytest-8.3.4.dist-info/LICENSE
-* /usr/lib/python3.13/site-packages/pytest-8.3.4.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/pytest-8.3.4.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/pytest-8.3.4.dist-info/top_level.txt
-* /usr/lib/python3.13/site-packages/pytest-8.3.4.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/pytest-8.3.5.dist-info/AUTHORS
+* /usr/lib/python3.13/site-packages/pytest-8.3.5.dist-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/pytest-8.3.5.dist-info/LICENSE
+* /usr/lib/python3.13/site-packages/pytest-8.3.5.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/pytest-8.3.5.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/pytest-8.3.5.dist-info/top_level.txt
+* /usr/lib/python3.13/site-packages/pytest-8.3.5.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/pytest/py.typed
 * /usr/lib/python3.13/site-packages/pytest/__init__.py
 * /usr/lib/python3.13/site-packages/pytest/__main__.py
@@ -241,6 +241,6 @@ Simple powerful testing with Python
 * /usr/lib/python3.13/site-packages/_pytest/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/__pycache__/py.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/__pycache__/py.cpython-313.pyc
-* /usr/share/doc/python3-pytest-8.3.4/AUTHORS
-* /usr/share/doc/python3-pytest-8.3.4/LICENSE
-* /usr/share/doc/python3-pytest-8.3.4/README.rst
+* /usr/share/doc/python3-pytest-8.3.5/AUTHORS
+* /usr/share/doc/python3-pytest-8.3.5/LICENSE
+* /usr/share/doc/python3-pytest-8.3.5/README.rst

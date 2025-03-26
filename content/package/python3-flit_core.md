@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-flit_core 3.11.0-1"
-version = "3.11.0-1"
+title = "python3-flit_core 3.12.0-1"
+version = "3.12.0-1"
 description = "Simplified packaging of Python modules (Core)"
-date = "2025-03-14T09:45:40"
+date = "2025-03-26T13:59:43"
 aliases = "/packages/220595"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/flit"
 arch = "x86_64"
-size = "36480"
-usize = "143072"
-sha1sum = "5e78de3aef60bc57378f8ec81f544d1996782c2a"
+size = "37144"
+usize = "146398"
+sha1sum = "f06094f1f93da5074bc37511f34e74b97933dbc3"
 depends = "['python3-tomli']"
 reverse_depends = "['python3-flit_scm']"
 +++
@@ -18,11 +18,11 @@ reverse_depends = "['python3-flit_scm']"
 Simplified packaging of Python modules (Core)
 
 ### Files: 
-* /usr/lib/python3.13/site-packages/flit_core-3.11.0.dist-info/licenses/flit_core/vendor/tomli-1.2.3.dist-info/LICENSE
-* /usr/lib/python3.13/site-packages/flit_core-3.11.0.dist-info/licenses/LICENSE
-* /usr/lib/python3.13/site-packages/flit_core-3.11.0.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/flit_core-3.11.0.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/flit_core-3.11.0.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/flit_core-3.12.0.dist-info/licenses/flit_core/vendor/tomli-1.2.3.dist-info/LICENSE
+* /usr/lib/python3.13/site-packages/flit_core-3.12.0.dist-info/licenses/LICENSE
+* /usr/lib/python3.13/site-packages/flit_core-3.12.0.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/flit_core-3.12.0.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/flit_core-3.12.0.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/flit_core/buildapi.py
 * /usr/lib/python3.13/site-packages/flit_core/common.py
 * /usr/lib/python3.13/site-packages/flit_core/config.py
@@ -40,5 +40,5 @@ Simplified packaging of Python modules (Core)
 * /usr/lib/python3.13/site-packages/flit_core/wheel.py
 * /usr/lib/python3.13/site-packages/flit_core/_spdx_data.py
 * /usr/lib/python3.13/site-packages/flit_core/__init__.py
-* /usr/share/doc/python3-flit_core-3.11.0/LICENSE
-* /usr/share/doc/python3-flit_core-3.11.0/README.rst
+* /usr/share/doc/python3-flit_core-3.12.0/LICENSE
+* /usr/share/doc/python3-flit_core-3.12.0/README.rst

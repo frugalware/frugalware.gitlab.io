@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-pycryptodome 3.21.0-1"
-version = "3.21.0-1"
+title = "python3-pycryptodome 3.22.0-1"
+version = "3.22.0-1"
 description = "Collection of cryptographic algorithms and protocols, implemented for use from Python 3."
-date = "2024-12-24T12:00:19"
+date = "2025-03-26T14:09:05"
 aliases = "/packages/220285"
 categories = ['devel-extra']
 upstreamurl = "https://www.pycryptodome.org/"
 arch = "x86_64"
-size = "1503972"
-usize = "6309002"
-sha1sum = "9193fb7445d10ee72ff364d2ea7f0c792962c5ba"
+size = "1521448"
+usize = "6405351"
+sha1sum = "c1075a718d72ced9527a99d92e11b1ba589cfb6f"
 depends = "['gmp', 'python3>=3.12']"
 reverse_depends = "['streamlink']"
 +++
@@ -261,6 +261,7 @@ Collection of cryptographic algorithms and protocols, implemented for use from P
 * /usr/lib/python3.13/site-packages/Crypto/Math/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/Crypto/Protocol/DH.py
 * /usr/lib/python3.13/site-packages/Crypto/Protocol/DH.pyi
+* /usr/lib/python3.13/site-packages/Crypto/Protocol/HPKE.py
 * /usr/lib/python3.13/site-packages/Crypto/Protocol/KDF.py
 * /usr/lib/python3.13/site-packages/Crypto/Protocol/KDF.pyi
 * /usr/lib/python3.13/site-packages/Crypto/Protocol/SecretSharing.py
@@ -269,6 +270,7 @@ Collection of cryptographic algorithms and protocols, implemented for use from P
 * /usr/lib/python3.13/site-packages/Crypto/Protocol/__init__.py
 * /usr/lib/python3.13/site-packages/Crypto/Protocol/__init__.pyi
 * /usr/lib/python3.13/site-packages/Crypto/Protocol/__pycache__/DH.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/Crypto/Protocol/__pycache__/HPKE.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/Crypto/Protocol/__pycache__/KDF.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/Crypto/Protocol/__pycache__/SecretSharing.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/Crypto/Protocol/__pycache__/__init__.cpython-313.pyc
@@ -431,11 +433,13 @@ Collection of cryptographic algorithms and protocols, implemented for use from P
 * /usr/lib/python3.13/site-packages/Crypto/SelfTest/Math/__pycache__/test_Primality.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/Crypto/SelfTest/Math/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/Crypto/SelfTest/Protocol/test_ecdh.py
+* /usr/lib/python3.13/site-packages/Crypto/SelfTest/Protocol/test_HPKE.py
 * /usr/lib/python3.13/site-packages/Crypto/SelfTest/Protocol/test_KDF.py
 * /usr/lib/python3.13/site-packages/Crypto/SelfTest/Protocol/test_rfc1751.py
 * /usr/lib/python3.13/site-packages/Crypto/SelfTest/Protocol/test_SecretSharing.py
 * /usr/lib/python3.13/site-packages/Crypto/SelfTest/Protocol/__init__.py
 * /usr/lib/python3.13/site-packages/Crypto/SelfTest/Protocol/__pycache__/test_ecdh.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/Crypto/SelfTest/Protocol/__pycache__/test_HPKE.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/Crypto/SelfTest/Protocol/__pycache__/test_KDF.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/Crypto/SelfTest/Protocol/__pycache__/test_rfc1751.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/Crypto/SelfTest/Protocol/__pycache__/test_SecretSharing.cpython-313.pyc
@@ -560,10 +564,10 @@ Collection of cryptographic algorithms and protocols, implemented for use from P
 * /usr/lib/python3.13/site-packages/Crypto/__init__.py
 * /usr/lib/python3.13/site-packages/Crypto/__init__.pyi
 * /usr/lib/python3.13/site-packages/Crypto/__pycache__/__init__.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/pycryptodome-3.21.0-py3.13.egg-info/dependency_links.txt
-* /usr/lib/python3.13/site-packages/pycryptodome-3.21.0-py3.13.egg-info/not-zip-safe
-* /usr/lib/python3.13/site-packages/pycryptodome-3.21.0-py3.13.egg-info/PKG-INFO
-* /usr/lib/python3.13/site-packages/pycryptodome-3.21.0-py3.13.egg-info/SOURCES.txt
-* /usr/lib/python3.13/site-packages/pycryptodome-3.21.0-py3.13.egg-info/top_level.txt
-* /usr/share/doc/python3-pycryptodome-3.21.0/INSTALL.rst
-* /usr/share/doc/python3-pycryptodome-3.21.0/README.rst
+* /usr/lib/python3.13/site-packages/pycryptodome-3.22.0-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/pycryptodome-3.22.0-py3.13.egg-info/not-zip-safe
+* /usr/lib/python3.13/site-packages/pycryptodome-3.22.0-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/pycryptodome-3.22.0-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/pycryptodome-3.22.0-py3.13.egg-info/top_level.txt
+* /usr/share/doc/python3-pycryptodome-3.22.0/INSTALL.rst
+* /usr/share/doc/python3-pycryptodome-3.22.0/README.rst
