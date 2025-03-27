@@ -12,7 +12,7 @@ size = "34848"
 usize = "32740"
 sha1sum = "976009f3c7ac11586b6106d42165ad373da7855c"
 depends = "['libdrm>=2.4.71', 'wayland>=1.11.0-3']"
-reverse_depends = "['efl', 'enlightenment', 'libegl', 'mesa-dri-drivers', 'mesa-libegl', 'qemu', 'qt6-webengine', 'terminology', 'weston', 'wlroots', 'wlroots0.17', 'xf86-video-amdgpu', 'xorg-server']"
+reverse_depends = "['efl', 'enlightenment', 'gst1-plugins-base', 'libegl', 'mesa-dri-drivers', 'mesa-libegl', 'qemu', 'qt6-webengine', 'terminology', 'weston', 'wlroots', 'wlroots0.17', 'xf86-video-amdgpu', 'xorg-server']"
 +++
 ### Description: 
 Mesa gbm library.
