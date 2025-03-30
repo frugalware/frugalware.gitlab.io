@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-nss 3.109-1"
-version = "3.109-1"
+title = "lib32-nss 3.110-1"
+version = "3.110-1"
 description = "NSS library from mozilla.org ( 32bit )"
-date = "2025-03-01T10:33:09"
+date = "2025-03-30T17:38:06"
 aliases = "/packages/218950"
 categories = ['lib32-extra']
 upstreamurl = "http://www.mozilla.org/projects/security/pki/nss/"
 arch = "x86_64"
-size = "1898500"
-usize = "6513512"
-sha1sum = "f0dcf86017f2db605aef1972af94ada66e7aa191"
+size = "1902428"
+usize = "6534306"
+sha1sum = "13d2ee5a0c0c9e0eb6debe888838ce398194b72e"
 depends = "['lib32-nspr>=4.34', 'lib32-sqlite3>=3.14.2-2', 'lib32-zlib-ng']"
 reverse_depends = "['lib32-networkmanager', 'steam-native']"
 +++
@@ -26,6 +26,7 @@ NSS library from mozilla.org ( 32bit )
 * /usr/i686-frugalware-linux/bin/nss-dbtool
 * /usr/i686-frugalware-linux/bin/nss-hw-support
 * /usr/i686-frugalware-linux/bin/nss-modutil
+* /usr/i686-frugalware-linux/bin/nss-nssdefaults
 * /usr/i686-frugalware-linux/bin/nss-pk12util
 * /usr/i686-frugalware-linux/bin/nss-pwdecrypt
 * /usr/i686-frugalware-linux/bin/nss-shlibsign
