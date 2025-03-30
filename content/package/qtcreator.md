@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qtcreator 15.0.1-1"
-version = "15.0.1-1"
+title = "qtcreator 15.0.1-2"
+version = "15.0.1-2"
 description = "The Qt6 toolkit, qtcreator"
-date = "2025-02-04T09:19:25"
+date = "2025-03-28T21:42:03"
 aliases = "/packages/103815"
 categories = ['xapps-extra']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "34563272"
-usize = "138522418"
-sha1sum = "82abafa26871bdf5faadabe7f7525b29e31dc4a8"
+size = "34606440"
+usize = "138703010"
+sha1sum = "c8d9f1aac542c52d73c68a7386ba3968db217eff"
 depends = "['clang>=19.1.1', 'cmake', 'gdb', 'litehtml', 'qt6-5compat', 'qt6-base-sql-common', 'qt6-quick3d', 'qt6-svg', 'qt6-tools', 'qt6-webengine', 'rustc-demangle', 'yaml-cpp>=0.8.0']"
 +++
 ### Description: 

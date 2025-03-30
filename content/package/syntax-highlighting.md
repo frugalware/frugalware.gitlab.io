@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "syntax-highlighting 6.12.0-1"
-version = "6.12.0-1"
+title = "syntax-highlighting 6.12.0-2"
+version = "6.12.0-2"
 description = "Syntax highlighting Engine for Structured Text and Code"
-date = "2025-03-15T14:56:23"
+date = "2025-03-27T15:51:17"
 aliases = "/packages/218944"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1469624"
-usize = "2354986"
-sha1sum = "f7c2efba5cfd856f1b4a39bace25ef3a1e003b11"
-depends = "['qt6-base>=6.8.2']"
+size = "1469784"
+usize = "2355082"
+sha1sum = "a593c664666de7b4ba9a597f6582b2e7eb64f9b7"
+depends = "['qt6-base>=6.8.3']"
 reverse_depends = "['drkonqi', 'kio-extras', 'kpimtextedit', 'ktextaddons', 'ktexteditor', 'neochat']"
 +++
 ### Description: 

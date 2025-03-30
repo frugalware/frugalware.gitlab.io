@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kturtle 24.12.3-1"
-version = "24.12.3-1"
+title = "kturtle 24.12.3-2"
+version = "24.12.3-2"
 description = "Educational Programming Environment."
-date = "2025-03-10T12:33:09"
+date = "2025-03-28T14:18:39"
 aliases = "/packages/152836"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2142424"
-usize = "5832113"
-sha1sum = "d2639af4845ed8baa1d73e8c2219c973e0ead526"
-depends = "['kio>=6.11.0', 'knewstuff>=6.11.0']"
+size = "2142392"
+usize = "5832177"
+sha1sum = "46538cc725c6e863eb199abca6310215a72a08a2"
+depends = "['kio>=6.12.0', 'knewstuff>=6.12.0']"
 +++
 ### Description: 
 Educational Programming Environment.

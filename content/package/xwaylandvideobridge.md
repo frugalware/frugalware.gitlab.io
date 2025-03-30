@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "xwaylandvideobridge 0.4.0-6"
-version = "0.4.0-6"
+title = "xwaylandvideobridge 0.4.0-7"
+version = "0.4.0-7"
 description = "Utility to allow streaming Wayland windows to X applications"
-date = "2025-02-04T10:46:07"
+date = "2025-03-29T11:15:30"
 aliases = "/packages/221405"
 categories = ['kde6']
 upstreamurl = "https://invent.kde.org/system/xwaylandvideobridge"
 arch = "x86_64"
-size = "47004"
-usize = "167020"
-sha1sum = "917490b05fe5a48642dbe36d8f3d6c57629b4328"
-depends = "['kcoreaddons>=6.10.0', 'ki18n>=6.10.0', 'knotifications>=6.10.0', 'kpipewire>=6.2.5', 'kstatusnotifieritem>=', 'kwindowsystem>=6.10.0']"
+size = "47060"
+usize = "167380"
+sha1sum = "d6c9b78225f131a8641c0b2e251d5f944c05ec8f"
+depends = "['kcoreaddons>=6.12.0', 'ki18n>=6.12.0', 'knotifications>=6.12.0', 'kpipewire>=6.3.3', 'kstatusnotifieritem>=', 'kwindowsystem>=6.12.0']"
 +++
 ### Description: 
 Utility to allow streaming Wayland windows to X applications

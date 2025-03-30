@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pinentry-enlightment 1.3.1-7"
-version = "1.3.1-7"
+title = "pinentry-enlightment 1.3.1-8"
+version = "1.3.1-8"
 description = "Enlightment based Applications for entering PINs or Passphrases."
-date = "2025-02-03T16:07:41"
+date = "2025-03-29T16:05:07"
 aliases = "/packages/221423"
 categories = ['xapps-extra']
 upstreamurl = "https://www.gnupg.org/ftp/gcrypt/pinentry/"
 arch = "x86_64"
-size = "34708"
-usize = "82040"
-sha1sum = "b2ee9f5a8cac6dd5546acec05c6f26365880a7d3"
+size = "34772"
+usize = "82176"
+sha1sum = "d5c40713d4245646703ab15fe9c541d3be2d50e0"
 depends = "['efl', 'pinentry>=1.3.1']"
 +++
 ### Description: 

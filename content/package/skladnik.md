@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "skladnik 24.12.3-1"
-version = "24.12.3-1"
+title = "skladnik 24.12.3-2"
+version = "24.12.3-2"
 description = "An implementation of the Japanese warehouse keeper game Sokoban"
-date = "2025-03-10T13:50:57"
+date = "2025-03-28T15:17:40"
 aliases = "/packages/221490"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "391556"
+size = "391448"
 usize = "613119"
-sha1sum = "c7c053487bdbfbded56bb386dbb0f67b66784d5b"
+sha1sum = "9c5e2a53aacea0052928c16d975531437aac11d3"
 depends = "['kconfig', 'kconfigwidgets', 'kcoreaddons', 'kcrash', 'kdbusaddons', 'ki18n', 'kio', 'kwidgetsaddons', 'kxmlgui', 'libkdegames']"
 +++
 ### Description: 

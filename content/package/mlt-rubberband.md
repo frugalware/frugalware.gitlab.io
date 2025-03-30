@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mlt-rubberband 7.30.0-5"
-version = "7.30.0-5"
+title = "mlt-rubberband 7.30.0-6"
+version = "7.30.0-6"
 description = "Rubberband module for mlt"
-date = "2025-02-17T16:47:05"
+date = "2025-03-29T15:52:51"
 aliases = "/packages/222517"
 categories = ['xmultimedia-extra']
 upstreamurl = "https://github.com/mltframework/mlt"
 arch = "x86_64"
-size = "10804"
-usize = "12616"
-sha1sum = "d2213858f450aa15b26c2c398156032c9f78c83f"
+size = "10844"
+usize = "12624"
+sha1sum = "95cc3a7d183f910c1afafef02075066e26b415e7"
 depends = "['mlt', 'rubberband']"
 +++
 ### Description: 

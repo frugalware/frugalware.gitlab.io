@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "layer-shell-qt 6.3.3-1"
-version = "6.3.3-1"
+title = "layer-shell-qt 6.3.3-2"
+version = "6.3.3-2"
 description = "Qt component to allow applications to make use of the Wayland wl-layer-shell protocol"
-date = "2025-03-12T10:14:21"
+date = "2025-03-27T17:20:28"
 aliases = "/packages/220407"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "34552"
+size = "34420"
 usize = "123443"
-sha1sum = "686bbb868b368c14fb8a90af22086bd5d4c37fee"
-depends = "['qt6-wayland>=6.8.2']"
+sha1sum = "19d01aff3c1526f69e148bcc1616f587ed5ab26f"
+depends = "['qt6-wayland>=6.8.3']"
 reverse_depends = "['kscreen', 'kscreenlocker', 'qterminal']"
 +++
 ### Description: 

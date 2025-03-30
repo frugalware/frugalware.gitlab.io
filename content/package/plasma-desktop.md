@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "plasma-desktop 6.3.3-2"
-version = "6.3.3-2"
+title = "plasma-desktop 6.3.3-3"
+version = "6.3.3-3"
 description = "KDE Plasma Desktop."
-date = "2025-03-19T15:27:05"
+date = "2025-03-27T18:03:59"
 aliases = "/packages/218423"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "17449452"
-usize = "34413557"
-sha1sum = "18c01513029b66e79d8a688c19443ceba76bf855"
+size = "17450052"
+usize = "34417013"
+sha1sum = "cb5b6f9ea9a6da3df98a2b8d1fd00e48972a1fb4"
 depends = "['hack', 'kactivitymanagerd>=6.3.3', 'kauth>=6.12.0', 'kcmutils>=6.12.0', 'knewstuff>=6.12.0', 'knotifyconfig>=6.12.0', 'kpeople>=6.12.0', 'kpipewire', 'krunner>=6.12.0', 'libcanberra>=0.30-14', 'libxft>=2.3.2-2', 'libxkbfile>=1.0.9-3', 'noto-emoji', 'packagekit-qt6>=1.0.1', 'plasma-activities-stats>=6.3.3', 'plasma-workspace>=6.3.3', 'qqc2-desktop-style>=6.12.0', 'setxkbmap', 'xdg-user-dirs', 'xf86-input-libinput', 'xkeyboard-config']"
 +++
 ### Description: 

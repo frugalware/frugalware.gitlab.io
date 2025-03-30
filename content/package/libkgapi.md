@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libkgapi 24.12.3-1"
-version = "24.12.3-1"
+title = "libkgapi 24.12.3-2"
+version = "24.12.3-2"
 description = "A KDE-based library for accessing various Google services via their public API."
-date = "2025-03-10T10:42:05"
+date = "2025-03-28T11:57:16"
 aliases = "/packages/168642"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "550584"
+size = "550104"
 usize = "3209089"
-sha1sum = "cadbdfa66044c7fb21d53a5e95603b98980d1651"
-depends = "['cyrus-sasl', 'kcalendarcore>=6.11.0', 'kcontacts>=6.11.0', 'kio>=6.11.0', 'kwallet>=6.11.0', 'qt6-svg>=6.8.2', 'qt6-webengine>=6.8.2']"
+sha1sum = "c1196321878c74d6cdf1e04e71a63c9933f31e87"
+depends = "['cyrus-sasl', 'kcalendarcore>=6.12.0', 'kcontacts>=6.12.0', 'kio>=6.12.0', 'kwallet>=6.12.0', 'qt6-svg>=6.8.3', 'qt6-webengine>=6.8.3']"
 reverse_depends = "['kdepim-runtime', 'kio-gdrive', 'kmailtransport']"
 +++
 ### Description: 

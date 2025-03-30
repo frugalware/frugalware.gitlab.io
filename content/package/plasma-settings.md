@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "plasma-settings 25.02.0-1"
-version = "25.02.0-1"
+title = "plasma-settings 25.02.0-2"
+version = "25.02.0-2"
 description = "Settings application for Plasma Mobile"
-date = "2025-02-21T07:38:12"
+date = "2025-03-28T20:37:06"
 aliases = "/packages/220617"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "103616"
-usize = "405705"
-sha1sum = "c63a22e4228f57f3a368808008f4e2a93523e4b3"
-depends = "['kcmutils', 'kirigami-addons', 'kitemmodels>=6.11.0', 'modemmanager-qt', 'networkmanager-qt']"
+size = "102936"
+usize = "401521"
+sha1sum = "e4fb156c237660844ea8d10080645746f3ec8467"
+depends = "['kcmutils', 'kirigami-addons', 'kitemmodels>=6.12.0', 'modemmanager-qt', 'networkmanager-qt']"
 +++
 ### Description: 
 Settings application for Plasma Mobile

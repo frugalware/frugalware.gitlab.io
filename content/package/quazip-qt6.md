@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "quazip-qt6 1.5-1"
-version = "1.5-1"
+title = "quazip-qt6 1.5-2"
+version = "1.5-2"
 description = "Wrapper for ZIP/UNZIP package QT6"
-date = "2025-03-25T13:44:01"
+date = "2025-03-29T16:26:30"
 aliases = "/packages/222523"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/stachenov/quazip"
 arch = "x86_64"
-size = "119060"
+size = "119348"
 usize = "408667"
-sha1sum = "32507bbc0e539367090bf7a123ce5c35716ac404"
-depends = "['qt6-5compat>=6.8.2']"
+sha1sum = "81ba45210e04280058aa16005bfd4ad76760eadc"
+depends = "['qt6-5compat>=6.8.3']"
 reverse_depends = "['ckb-next', 'texstudio']"
 +++
 ### Description: 

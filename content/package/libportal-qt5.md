@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libportal-qt5 0.9.1-1"
-version = "0.9.1-1"
+title = "libportal-qt5 0.9.1-2"
+version = "0.9.1-2"
 description = "libportal qt5 backend"
-date = "2025-02-14T09:47:51"
+date = "2025-03-29T13:13:43"
 aliases = "/packages/220845"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/flatpak/libportal"
 arch = "x86_64"
-size = "16868"
-usize = "51725"
-sha1sum = "708297ccc8f2f5be84f1bfcca599765a902e1ba4"
+size = "16944"
+usize = "51733"
+sha1sum = "7fe48a524790bdc7c2b23d67c7ce6eeda168facd"
 depends = "['libportal', 'qt5-x11extras>=5.15.10']"
 +++
 ### Description: 

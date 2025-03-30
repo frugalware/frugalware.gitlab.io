@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ladybird 20250204-1"
-version = "20250204-1"
+title = "ladybird 20250204-2"
+version = "20250204-2"
 description = "Web browser built from scratch using the SerenityOS LibWeb engine"
-date = "2025-02-04T19:59:40"
+date = "2025-03-28T18:56:19"
 aliases = "/packages/220941"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/SerenityOS/serenity"
 arch = "x86_64"
-size = "36439876"
-usize = "184231099"
-sha1sum = "305ff9119072a6105a812c072548aa63ac4a9a1e"
+size = "36854804"
+usize = "185414445"
+sha1sum = "67bf98c863245b4e33ec041984d90a8536e50166"
 depends = "['brotli', 'python3', 'qt6-base', 'qt6-multimedia', 'qt6-svg', 'qt6-wayland']"
 +++
 ### Description: 

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "poxml 24.12.3-1"
-version = "24.12.3-1"
+title = "poxml 24.12.3-2"
+version = "24.12.3-2"
 description = "Tools that facilitate translating XML files using gettext message files."
-date = "2025-03-10T12:04:03"
+date = "2025-03-28T13:02:01"
 aliases = "/packages/168472"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "139572"
+size = "139480"
 usize = "351448"
-sha1sum = "d43eedc1c83a5128c54b2223315e2f3546bc5f93"
-depends = "['gettext', 'qt6-base>=6.8.2']"
+sha1sum = "bc93b91c9debd0b1423af5cae75981a3a25d7bff"
+depends = "['gettext', 'qt6-base>=6.8.3']"
 +++
 ### Description: 
 Tools that facilitate translating XML files using gettext message files.

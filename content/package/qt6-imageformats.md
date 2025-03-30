@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qt6-imageformats 6.8.2-2"
-version = "6.8.2-2"
+title = "qt6-imageformats 6.8.3-1"
+version = "6.8.3-1"
 description = "The Qt6 toolkit, qtimageformats"
-date = "2025-03-13T16:39:02"
+date = "2025-03-27T12:44:55"
 aliases = "/packages/220765"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "58772"
-usize = "321998"
-sha1sum = "d9093463d7741fedac1c2bb9507d1cce1559b6c7"
+size = "58976"
+usize = "322665"
+sha1sum = "99f86e083217efa50daf8f9f37dd302e1a379ee7"
 depends = "['jasper>=4.2.4', 'libmng', 'libwebp', 'qt6-base']"
 reverse_depends = "['gwenview', 'telegram-desktop']"
 +++
@@ -70,4 +70,4 @@ The Qt6 toolkit, qtimageformats
 * /usr/lib/qt6/plugins/imageformats/libqtiff.so
 * /usr/lib/qt6/plugins/imageformats/libqwbmp.so
 * /usr/lib/qt6/plugins/imageformats/libqwebp.so
-* /usr/lib/qt6/sbom/qtimageformats-6.8.2.spdx
+* /usr/lib/qt6/sbom/qtimageformats-6.8.3.spdx

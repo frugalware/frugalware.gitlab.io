@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "telegram-desktop 5.12.3-3"
-version = "5.12.3-3"
+title = "telegram-desktop 5.12.3-4"
+version = "5.12.3-4"
 description = "Official Telegram Desktop client"
-date = "2025-03-17T17:12:05"
+date = "2025-03-28T22:38:45"
 aliases = "/packages/220077"
 categories = ['xapps-extra']
 upstreamurl = "https://desktop.telegram.org/"
 arch = "x86_64"
-size = "35408516"
-usize = "104462278"
-sha1sum = "9b080c849aa3e1657906752f96dc08a5ff045ac0"
+size = "35408760"
+usize = "104462854"
+sha1sum = "4b00320daef83bad3efb51e776eea7e85003b154"
 depends = "['abseil-cpp>=20250127.0', 'ffmpeg>=7.0', 'fmtlib', 'glib2', 'glibmm', 'hicolor-icon-theme', 'hunspell', 'jemalloc', 'libboost', 'libdispatch', 'libsigc++3', 'libxrandr', 'libxtst', 'lz4', 'openal', 'openh264>=2.6.0', 'openssl', 'opus', 'pipewire', 'protobuf>=30.1', 'qt6-5compat>=6.8.2', 'qt6-imageformats>=6.6.3', 'qt6-svg>=6.8.2', 'qt6-wayland>=6.8.2', 'rnnoise', 'webkit-gtk3', 'xxhash']"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "zulucrypt 7.1.0-1"
-version = "7.1.0-1"
+title = "zulucrypt 7.1.0-2"
+version = "7.1.0-2"
 description = "A cli and GUI front end to cryptsetup"
-date = "2025-02-04T09:42:02"
+date = "2025-03-29T11:16:34"
 aliases = "/packages/184321"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/mhogomchungu/zulucrypt"
 arch = "x86_64"
-size = "937740"
-usize = "4179690"
-sha1sum = "54e99d960415dae393613a9086f2a27270b4af18"
+size = "937368"
+usize = "4182058"
+sha1sum = "e5b007cb3ec13b0ff42b018c0abe60fab6787481"
 depends = "['cryptsetup-luks>=2.0.1', 'libpwquality>=1.3.0-4', 'libsecret>=0.18.5-2', 'qt6-base>=6.8.2', 'tcplay>=2.0-3']"
 +++
 ### Description: 

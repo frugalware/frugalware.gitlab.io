@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "print-manager 6.3.3-1"
-version = "6.3.3-1"
+title = "print-manager 6.3.3-2"
+version = "6.3.3-2"
 description = "System tray utility, to autoconfig printers."
-date = "2025-03-12T11:20:32"
+date = "2025-03-27T18:05:20"
 aliases = "/packages/184208"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "542472"
-usize = "3002203"
-sha1sum = "70f1ad5b5e278c398486dde74ba2667eed92c7ba"
-depends = "['cups>=2.2.0-2', 'cups-filters', 'kio>=6.11.0', 'qt6-declarative>=6.8.2']"
+size = "542180"
+usize = "3002043"
+sha1sum = "ea1c4a40123d5c3e5e642e07723f73fafe2c2fec"
+depends = "['cups>=2.2.0-2', 'cups-filters', 'kio>=6.12.0', 'qt6-declarative>=6.8.3']"
 +++
 ### Description: 
 System tray utility, to autoconfig printers.

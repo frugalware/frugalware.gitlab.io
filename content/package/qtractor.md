@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qtractor 1.5.3-1"
-version = "1.5.3-1"
+title = "qtractor 1.5.3-2"
+version = "1.5.3-2"
 description = "Audio/MIDI multi-track sequencer written in C++ with the Qt6 framework"
-date = "2025-02-16T12:53:56"
+date = "2025-03-28T21:46:52"
 aliases = "/packages/218531"
 categories = ['xmultimedia-extra']
 upstreamurl = "https://sourceforge.net/projects/qtractor"
 arch = "x86_64"
-size = "2034776"
-usize = "7826317"
-sha1sum = "7e74ecff57fa6eef4b3da5496ff90264e445befd"
+size = "2034220"
+usize = "7828461"
+sha1sum = "c51608bf6cca200f886ca2c624b9c02571ca2a62"
 depends = "['aubio', 'dssi', 'liblo', 'libmad', 'libsndfile', 'lilv', 'lv2', 'qt6-base>=6.8.2', 'qt6-svg>=6.8.2', 'rubberband>=4.0.0']"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "signon-plugin-oauth2 0.25-10"
-version = "0.25-10"
+title = "signon-plugin-oauth2 0.25-11"
+version = "0.25-11"
 description = "Oauth2 plugin for signon"
-date = "2025-02-04T09:40:22"
+date = "2025-03-28T21:58:46"
 aliases = "/packages/218408"
 categories = ['xlib']
 upstreamurl = "https://gitlab.com/accounts-sso/signon-plugin-oauth2"
 arch = "x86_64"
-size = "68580"
-usize = "215004"
-sha1sum = "b7c8ff23bc49a848ef94f1d94815e6a17eae9624"
+size = "68692"
+usize = "215332"
+sha1sum = "dab438e8dd8d96c16ec88221c941f34d05fad818"
 depends = "['signon>=8.60-3']"
 reverse_depends = "['kaccounts-provider-opendesktop']"
 +++

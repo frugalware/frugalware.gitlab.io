@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ksystemstats 6.3.3-1"
-version = "6.3.3-1"
+title = "ksystemstats 6.3.3-2"
+version = "6.3.3-2"
 description = "A plugin based system monitoring daemon"
-date = "2025-03-12T10:23:30"
+date = "2025-03-27T17:27:05"
 aliases = "/packages/220409"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "240236"
-usize = "1492047"
-sha1sum = "a7393c0a57b93983b06da164e76c95463db08bc3"
+size = "241008"
+usize = "1492399"
+sha1sum = "35985b5f0bb7ece894639ff8148d780f35666ee7"
 depends = "['libksysguard>=6.3.3', 'networkmanager-qt']"
 reverse_depends = "['plasma-systemmonitor']"
 +++

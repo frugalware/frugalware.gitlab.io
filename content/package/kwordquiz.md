@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kwordquiz 24.12.3-1"
-version = "24.12.3-1"
+title = "kwordquiz 24.12.3-2"
+version = "24.12.3-2"
 description = "Flash Card Trainer."
-date = "2025-03-10T11:45:16"
+date = "2025-03-28T12:47:42"
 aliases = "/packages/152837"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "947456"
+size = "947508"
 usize = "1492422"
-sha1sum = "66a8af1d7ec43a68f121c43df08610a59b356347"
-depends = "['kirigami-addons', 'knotifyconfig>=6.11.0', 'libkdegames>=24.12.3', 'libkeduvocdocument>=24.12.3']"
+sha1sum = "d8891f3cd12ff6a923bfb1711fc28cefe55e2208"
+depends = "['kirigami-addons', 'knotifyconfig>=6.12.0', 'libkdegames>=24.12.3', 'libkeduvocdocument>=24.12.3']"
 +++
 ### Description: 
 Flash Card Trainer.

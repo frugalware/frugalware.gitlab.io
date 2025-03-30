@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "rkward 0.8.0-4"
-version = "0.8.0-4"
+title = "rkward 0.8.0-5"
+version = "0.8.0-5"
 description = "Easily extensible, easy to use IDE/GUI for R."
-date = "2025-02-04T14:35:20"
+date = "2025-03-28T21:49:19"
 aliases = "/packages/136601"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3677468"
-usize = "19519784"
-sha1sum = "d4b43c0d22ab3cd1a2d337daf23a8a35b2feb530"
-depends = "['ktexteditor>=6.10.0', 'qt6-webengine>=6.8.2', 'r']"
+size = "3681084"
+usize = "19532221"
+sha1sum = "a883156712d26c8b3fb3ad6e158660ba6a995f18"
+depends = "['ktexteditor>=6.12.0', 'qt6-webengine>=6.8.3', 'r']"
 +++
 ### Description: 
 Easily extensible, easy to use IDE/GUI for R.

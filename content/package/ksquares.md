@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ksquares 24.12.3-1"
-version = "24.12.3-1"
+title = "ksquares 24.12.3-2"
+version = "24.12.3-2"
 description = "A game modeled after the well known pen and paper based game of Dots and Boxes."
-date = "2025-03-10T10:22:29"
+date = "2025-03-28T11:42:30"
 aliases = "/packages/184201"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "400108"
-usize = "1045550"
-sha1sum = "6cef50c8eda54273392b5386f5f48c0e087a28e4"
-depends = "['knotifyconfig>=6.11.0', 'libkdegames>=24.12.3']"
+size = "400296"
+usize = "1045710"
+sha1sum = "0fc0104e4f96df8a241aa2e2ce3a6d9070f77992"
+depends = "['knotifyconfig>=6.12.0', 'libkdegames>=24.12.3']"
 +++
 ### Description: 
 A game modeled after the well known pen and paper based game of Dots and Boxes.

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "phonon-backend-vlc 0.12.0-6"
-version = "0.12.0-6"
+title = "phonon-backend-vlc 0.12.0-7"
+version = "0.12.0-7"
 description = "Phonon VLC(Video Lan Client) backend."
-date = "2025-02-04T10:15:21"
+date = "2025-03-28T20:35:06"
 aliases = "/packages/103897"
 categories = ['phonon-backend']
 upstreamurl = "https://github.com/KDE/phonon-vlc"
 arch = "x86_64"
-size = "119744"
-usize = "394971"
-sha1sum = "24b50de5ff3cb5569ee0481e98c5e8855718947b"
+size = "120064"
+usize = "396267"
+sha1sum = "b21fffc64a40f68226b717a8dda9816b2aa7056b"
 depends = "['libvlc>=3.0.0', 'phonon-qt6>=4.9.0']"
 +++
 ### Description: 

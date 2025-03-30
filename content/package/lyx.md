@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lyx 2.4.3-1"
-version = "2.4.3-1"
+title = "lyx 2.4.3-2"
+version = "2.4.3-2"
 description = "An advanced open-source document processor based on TeX"
-date = "2025-02-04T12:52:59"
+date = "2025-03-28T19:01:27"
 aliases = "/packages/3726"
 categories = ['xapps-extra']
 upstreamurl = "http://www.lyx.org"
 arch = "x86_64"
-size = "17720228"
-usize = "81059729"
-sha1sum = "063cfde1c71f773b25cc66c3c68441f5e3fc0afe"
+size = "17715144"
+usize = "81076841"
+sha1sum = "ac12a651a1f45f533dbc294ac5d55f472031301e"
 depends = "['aspell>=0.60.6.1-4', 'enchant', 'hunspell>=1.7.0', 'libboost>=1.72.0', 'mythes', 'qt6-base>=6.8.2', 'qt6-svg>=6.8.2', 'texlive']"
 +++
 ### Description: 

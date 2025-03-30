@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qt6-quickeffectmaker 6.8.2-1"
-version = "6.8.2-1"
+title = "qt6-quickeffectmaker 6.8.3-1"
+version = "6.8.3-1"
 description = "The Qt6 toolkit, qtquickeffectmaker"
-date = "2025-02-01T19:11:35"
+date = "2025-03-27T15:27:17"
 aliases = "/packages/220949"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "3893640"
-usize = "4956920"
-sha1sum = "010d3e452a50d3a6ac5fbaa17f815261b806ccaf"
+size = "3893260"
+usize = "4958004"
+sha1sum = "4becb2886495fb6e5173b865819dff52f7e20df0"
 depends = "['qt6-quick3d', 'qt6-shadertools']"
 +++
 ### Description: 
@@ -124,4 +124,4 @@ The Qt6 toolkit, qtquickeffectmaker
 * /usr/lib/qt6/qml/QtQuickEffectMaker/defaultnodes/nature/snowing.qen
 * /usr/lib/qt6/qml/QtQuickEffectMaker/defaultnodes/nature/thunder.qen
 * /usr/lib/qt6/qml/QtQuickEffectMaker/defaultnodes/nature/water.qen
-* /usr/lib/qt6/sbom/qqeffectmaker-6.8.2.spdx
+* /usr/lib/qt6/sbom/qqeffectmaker-6.8.3.spdx

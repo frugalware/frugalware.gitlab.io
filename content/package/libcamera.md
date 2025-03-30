@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libcamera 0.4.0-3"
-version = "0.4.0-3"
+title = "libcamera 0.4.0-4"
+version = "0.4.0-4"
 description = "A complex camera support library for Linux, Android, and ChromeOS"
-date = "2025-03-13T16:19:08"
+date = "2025-03-29T13:11:21"
 aliases = "/packages/220848"
 categories = ['multimedia']
 upstreamurl = "https://libcamera.org/"
 arch = "x86_64"
-size = "6998684"
-usize = "43476668"
-sha1sum = "091b3f09b08f8c4102f3ddf07dc2bcbd33ad9f46"
+size = "7129348"
+usize = "43314010"
+sha1sum = "f91a7043c155e01dfab0c43d1502246dd6cc8118"
 depends = "['gnutls', 'libdrm', 'libjpeg-turbo', 'libunwind', 'libyaml', 'pybind11']"
 reverse_depends = "['gst1-plugin-libcamera', 'libcamera-tools', 'pipewire']"
 +++
@@ -879,8 +879,8 @@ A complex camera support library for Linux, Android, and ChromeOS
 * /usr/share/doc/libcamera-0.4.0/html/sensor_driver_requirements.html
 * /usr/share/doc/libcamera-0.4.0/html/software-isp-benchmarking.html
 * /usr/share/doc/libcamera-0.4.0/html/_images/binning.svg
-* /usr/share/doc/libcamera-0.4.0/html/_images/graphviz-3f1cb4053e0c4b12f2ec68b1b4cee45b80104e5f.svg
-* /usr/share/doc/libcamera-0.4.0/html/_images/graphviz-e142acb09d9365e9e4062be8fefa6d7655856a40.svg
+* /usr/share/doc/libcamera-0.4.0/html/_images/graphviz-8b5d59b740a81fb1c5f927b119af09bbc221eca4.svg
+* /usr/share/doc/libcamera-0.4.0/html/_images/graphviz-8eb1c959261ebebd325faa8ba55aa53aac4c836a.svg
 * /usr/share/doc/libcamera-0.4.0/html/_images/sensor_model.svg
 * /usr/share/doc/libcamera-0.4.0/html/_images/skipping.svg
 * /usr/share/doc/libcamera-0.4.0/html/_sources/api-html/index.rst.txt
