@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "granatier 24.12.3-1"
-version = "24.12.3-1"
+title = "granatier 24.12.3-2"
+version = "24.12.3-2"
 description = "A clone of the classic Bomberman game."
-date = "2025-03-10T09:59:04"
+date = "2025-03-28T11:26:23"
 aliases = "/packages/184172"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2177384"
-usize = "3497861"
-sha1sum = "e4e7286885ea42022e6c680d3ee1c21dc0908bd5"
+size = "2177660"
+usize = "3498245"
+sha1sum = "307236ba7d8e5436114991d0819ba0bd739fc777"
 depends = "['libkdegames>=24.12.3']"
 +++
 ### Description: 

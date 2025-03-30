@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kmplot 24.12.3-1"
-version = "24.12.3-1"
+title = "kmplot 24.12.3-2"
+version = "24.12.3-2"
 description = "Mathematical Function Plotter."
-date = "2025-03-10T11:59:25"
+date = "2025-03-28T12:58:39"
 aliases = "/packages/152833"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3322612"
-usize = "7493856"
-sha1sum = "124b4a0f9a6d2be4268f08d2a3603ec9b052f004"
-depends = "['kparts>=6.11.0']"
+size = "3322236"
+usize = "7493600"
+sha1sum = "656be42500bed66788f64df65f07251258a74368"
+depends = "['kparts>=6.12.0']"
 +++
 ### Description: 
 Mathematical Function Plotter.

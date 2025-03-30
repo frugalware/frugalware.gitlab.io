@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kcharselect 24.12.3-1"
-version = "24.12.3-1"
+title = "kcharselect 24.12.3-2"
+version = "24.12.3-2"
 description = "Character selector."
-date = "2025-03-10T09:12:56"
+date = "2025-03-28T10:54:45"
 aliases = "/packages/153202"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "443688"
-usize = "741341"
-sha1sum = "ba71031a454eb93d40e7cd21af2f47265ead46c0"
-depends = "['kbookmarks>=6.11.0', 'kxmlgui>=6.11.0']"
+size = "443696"
+usize = "741373"
+sha1sum = "42a68c842d26207e8f3c860f53d043641b674481"
+depends = "['kbookmarks>=6.12.0', 'kxmlgui>=6.12.0']"
 +++
 ### Description: 
 Character selector.

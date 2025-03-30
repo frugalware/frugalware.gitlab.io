@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "klickety 24.12.3-1"
-version = "24.12.3-1"
+title = "klickety 24.12.3-2"
+version = "24.12.3-2"
 description = "An adaptation of the Clickomania game."
-date = "2025-03-10T10:15:00"
+date = "2025-03-28T11:37:26"
 aliases = "/packages/184186"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1492136"
-usize = "2106920"
-sha1sum = "6739c62b36c251b5952a76651737b58a971d4673"
-depends = "['knotifyconfig>=6.11.0', 'libkdegames>=24.12.3']"
+size = "1492100"
+usize = "2107112"
+sha1sum = "4c17c438e79bc21c78e06155eb7678c6e101a29b"
+depends = "['knotifyconfig>=6.12.0', 'libkdegames>=24.12.3']"
 +++
 ### Description: 
 An adaptation of the Clickomania game.

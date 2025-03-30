@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "akregator 24.12.3-1"
-version = "24.12.3-1"
+title = "akregator 24.12.3-2"
+version = "24.12.3-2"
 description = "Feed Reader"
-date = "2025-03-10T11:14:21"
+date = "2025-03-28T12:22:55"
 aliases = "/packages/218925"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2370936"
-usize = "6411430"
-sha1sum = "05bdd5b6898ee3b1761631a541d0dd0bedd15ad6"
-depends = "['knotifyconfig>=6.11.0', 'kontactinterface>=24.12.3', 'kstatusnotifieritem>=6.11.0', 'ktexteditor>=6.11.0', 'messagelib>=24.12.3', 'syndication>=6.11.0']"
+size = "2370544"
+usize = "6411750"
+sha1sum = "d6f774c781ae3e9e4d7fd3d2db6a6169962f11bc"
+depends = "['knotifyconfig>=6.12.0', 'kontactinterface>=24.12.3', 'kstatusnotifieritem>=6.12.0', 'ktexteditor>=6.12.0', 'messagelib>=24.12.3', 'syndication>=6.12.0']"
 +++
 ### Description: 
 Feed Reader

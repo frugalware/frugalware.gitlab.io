@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "khelpcenter 24.12.3-1"
-version = "24.12.3-1"
+title = "khelpcenter 24.12.3-2"
+version = "24.12.3-2"
 description = "Application to show KDE Applications documentation."
-date = "2025-03-10T08:59:52"
+date = "2025-03-28T10:45:26"
 aliases = "/packages/221317"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3651228"
-usize = "7053703"
-sha1sum = "b512e70eeaa07c49b8fac5cdcbbd843e48ae52d0"
-depends = "['kcmutils>=6.11.0', 'ktexttemplate>=6.11.0', 'qt6-webengine>=', 'xapian-core>=1.4.0-2']"
+size = "3650620"
+usize = "7052967"
+sha1sum = "34b6b298fc38551cb84926b72ba798eaf002a231"
+depends = "['kcmutils>=6.12.0', 'ktexttemplate>=6.12.0', 'qt6-webengine>=', 'xapian-core>=1.4.0-2']"
 +++
 ### Description: 
 Application to show KDE Applications documentation.

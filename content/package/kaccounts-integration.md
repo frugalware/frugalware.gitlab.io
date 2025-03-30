@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kaccounts-integration 24.12.3-1"
-version = "24.12.3-1"
+title = "kaccounts-integration 24.12.3-2"
+version = "24.12.3-2"
 description = "Small system to administer web accounts like: Google, Facebook, Owncloud, IMAP, Jabber and others"
-date = "2025-03-10T10:44:54"
+date = "2025-03-28T11:59:21"
 aliases = "/packages/218267"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "130668"
-usize = "576978"
-sha1sum = "786d0e82bac2fe6b62c231e5e4a9a335468b6449"
-depends = "['kcmutils>=6.11.0', 'kconfigwidgets>=6.11.0', 'kdbusaddons>=6.11.0', 'kdeclarative>=6.11.0', 'libaccounts-qt>=1.14-3', 'qcoro', 'qt6-declarative>=6.8.2', 'signon-kwallet-extension>=24.12.3']"
+size = "130696"
+usize = "577074"
+sha1sum = "2ec7f75c6c8744e5ddc391ab52415bb87a4baef4"
+depends = "['kcmutils>=6.12.0', 'kconfigwidgets>=6.12.0', 'kdbusaddons>=6.12.0', 'kdeclarative>=6.12.0', 'libaccounts-qt>=1.14-3', 'qcoro', 'qt6-declarative>=6.8.3', 'signon-kwallet-extension>=24.12.3']"
 reverse_depends = "['akonadi', 'kaccounts-provider-opendesktop', 'kaccounts-providers', 'plasma-welcome']"
 +++
 ### Description: 

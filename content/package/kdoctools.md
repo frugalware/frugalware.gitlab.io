@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kdoctools 6.12.0-1"
-version = "6.12.0-1"
+title = "kdoctools 6.12.0-2"
+version = "6.12.0-2"
 description = "Create documentation from DocBook."
-date = "2025-03-15T15:11:00"
+date = "2025-03-27T16:01:26"
 aliases = "/packages/218305"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "426784"
+size = "426796"
 usize = "2467375"
-sha1sum = "803878d911c84886f507e502e022a2e333180e84"
+sha1sum = "6dc3661ea0c0bb9555369b5804312b1d2af84c00"
 depends = "['docbook-xsl', 'karchive>=6.12.0', 'libxslt']"
 reverse_depends = "['kcachegrind', 'sweeper']"
 +++

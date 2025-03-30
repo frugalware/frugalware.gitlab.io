@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-gpgme 1.24.2-1"
-version = "1.24.2-1"
+title = "python3-gpgme 1.24.2-2"
+version = "1.24.2-2"
 description = "Python3 bindings for gpgme"
-date = "2025-02-12T10:04:44"
+date = "2025-03-29T13:33:33"
 aliases = "/packages/218791"
 categories = ['devel']
 upstreamurl = "http://www.gnupg.org/related_software/gpgme/"
 arch = "x86_64"
-size = "252796"
-usize = "1504431"
-sha1sum = "a9c16204f3993dc2f4d5338c9fee67fe5c005058"
+size = "253404"
+usize = "1504343"
+sha1sum = "afb419b2f6676128e7fec041fec2955d7adb2fad"
 depends = "['gpgme>=1.24.2', 'python3>=3.13']"
 reverse_depends = "['python3-dulwich']"
 +++

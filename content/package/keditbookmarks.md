@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "keditbookmarks 24.12.3-1"
-version = "24.12.3-1"
+title = "keditbookmarks 24.12.3-2"
+version = "24.12.3-2"
 description = "KDE's bookmarks editor"
-date = "2025-03-10T09:20:10"
+date = "2025-03-28T10:59:37"
 aliases = "/packages/88143"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "368116"
-usize = "1572977"
-sha1sum = "57b32bc20c51d33e9a207d5144348cc8a5f0460a"
-depends = "['kparts>=6.11.0']"
+size = "367576"
+usize = "1573041"
+sha1sum = "6f969c88df4c465ad2e7439bfb6d1b7541a9191e"
+depends = "['kparts>=6.12.0']"
 +++
 ### Description: 
 KDE's bookmarks editor

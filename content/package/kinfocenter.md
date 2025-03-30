@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kinfocenter 6.3.3-1"
-version = "6.3.3-1"
+title = "kinfocenter 6.3.3-2"
+version = "6.3.3-2"
 description = "Utility that provides information about a computer system."
-date = "2025-03-12T10:13:25"
+date = "2025-03-27T17:19:47"
 aliases = "/packages/221324"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "876628"
-usize = "2887280"
-sha1sum = "3a93f8c110ea5a8bf58e4abdc7c85db0fa09b761"
-depends = "['clinfo', 'dmidecode', 'fwupd', 'kcmutils>=6.11.0', 'kirigami>=6.11.0', 'kpackage>=6.11.0', 'kwayland>=6.3.3', 'libglu>=9.0.0-3', 'libraw1394>=2.1.2-2', 'pciutils>=3.5.1-4', 'solid>=6.11.0', 'systemsettings>=6.3.3', 'vulkan-tools', 'wayland-utils']"
+size = "876788"
+usize = "2887344"
+sha1sum = "69035604c43e9a1d3413ebf3ff964493cfa13983"
+depends = "['clinfo', 'dmidecode', 'fwupd', 'kcmutils>=6.12.0', 'kirigami>=6.12.0', 'kpackage>=6.12.0', 'kwayland>=6.3.3', 'libglu>=9.0.0-3', 'libraw1394>=2.1.2-2', 'pciutils>=3.5.1-4', 'solid>=6.12.0', 'systemsettings>=6.3.3', 'vulkan-tools', 'wayland-utils']"
 +++
 ### Description: 
 Utility that provides information about a computer system.

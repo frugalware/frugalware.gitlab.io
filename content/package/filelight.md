@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "filelight 24.12.3-1"
-version = "24.12.3-1"
+title = "filelight 24.12.3-2"
+version = "24.12.3-2"
 description = "View disk usage information."
-date = "2025-03-10T09:05:40"
+date = "2025-03-28T10:49:31"
 aliases = "/packages/153203"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "756972"
-usize = "1519056"
-sha1sum = "eee6fa6d0a409535d662a2aeebe2d11f57b3b628"
-depends = "['kdeclarative>=6.11.0', 'kirigami-addons', 'kparts>=6.11.0', 'qqc2-desktop-style>=6.11.0']"
+size = "757320"
+usize = "1519632"
+sha1sum = "b7438c219612810922576d155a1146caabe8dfe8"
+depends = "['kdeclarative>=6.12.0', 'kirigami-addons', 'kparts>=6.12.0', 'qqc2-desktop-style>=6.12.0']"
 +++
 ### Description: 
 View disk usage information.

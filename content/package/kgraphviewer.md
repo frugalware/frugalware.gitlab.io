@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kgraphviewer 24.12.3-1"
-version = "24.12.3-1"
+title = "kgraphviewer 24.12.3-2"
+version = "24.12.3-2"
 description = "GraphViz dot graph viewer"
-date = "2025-03-10T14:05:35"
+date = "2025-03-28T15:29:42"
 aliases = "/packages/222504"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1347468"
+size = "1347280"
 usize = "3083696"
-sha1sum = "e8cb39eb73f60d9b5dd02259de0867e2140e46f5"
-depends = "['graphviz', 'kparts>=6.11.0']"
+sha1sum = "97fc841de8a98899899fbcfea8e3af0f4f414d0c"
+depends = "['graphviz', 'kparts>=6.12.0']"
 reverse_depends = "['massif-visualizer']"
 +++
 ### Description: 

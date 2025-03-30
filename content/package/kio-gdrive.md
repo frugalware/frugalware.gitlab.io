@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kio-gdrive 24.12.3-1"
-version = "24.12.3-1"
+title = "kio-gdrive 24.12.3-2"
+version = "24.12.3-2"
 description = "KIO Slave to access Google Drive"
-date = "2025-03-10T11:46:21"
+date = "2025-03-28T12:48:34"
 aliases = "/packages/219163"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "137512"
+size = "137612"
 usize = "430973"
-sha1sum = "6c391ae880eb3ba7bfdee9bc0fbd042cd556bef6"
-depends = "['dolphin>=24.12.3', 'ki18n>=6.11.0', 'kio>=6.11.0', 'libkgapi>=24.12.3', 'qtkeychain']"
+sha1sum = "06763d1b1d0356ed5c099b04688e288faf2ff147"
+depends = "['dolphin>=24.12.3', 'ki18n>=6.12.0', 'kio>=6.12.0', 'libkgapi>=24.12.3', 'qtkeychain']"
 license = "GPL"
 +++
 ### Description: 

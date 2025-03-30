@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kdiff3 1.12.1-2"
-version = "1.12.1-2"
+title = "kdiff3 1.12.1-3"
+version = "1.12.1-3"
 description = "Tool for comparison and merge of files and directories"
-date = "2025-03-19T14:07:22"
+date = "2025-03-28T18:07:14"
 aliases = "/packages/217705"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1650736"
-usize = "6197418"
-sha1sum = "ba99db87fe3f841eeb76b3e3dea66d143a9c303f"
+size = "1651316"
+usize = "6197834"
+sha1sum = "4e5b5c2f9dc5c9ff6389b2973e068c47a95f6234"
 depends = "['kcoreaddons>=6.12.0', 'ki18n>=6.12.0', 'kiconthemes>=6.12.0', 'kparts>=6.12.0', 'kwidgetsaddons>=6.12.0', 'libboost']"
 +++
 ### Description: 

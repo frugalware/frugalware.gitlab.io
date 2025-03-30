@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "akonadi-contacts 24.12.3-1"
-version = "24.12.3-1"
+title = "akonadi-contacts 24.12.3-2"
+version = "24.12.3-2"
 description = "Libraries and daemons to implement Contact Management in Akonadi."
-date = "2025-03-10T10:51:24"
+date = "2025-03-28T12:04:51"
 aliases = "/packages/218737"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "529216"
-usize = "2705763"
-sha1sum = "844390c6ef20e0e7458f17e6a905fe6c57150721"
-depends = "['akonadi>=24.12.3', 'akonadi-mime>=24.12.3', 'grantleetheme>=24.12.3', 'kcalendarcore>=6.11.0', 'kcodecs>=6.11.0', 'kcompletion>=6.11.0', 'kcontacts>=6.11.0', 'kio>=6.11.0', 'kmime>=24.12.3', 'libkleo>=24.12.3', 'prison>=6.11.0', 'qt6-webengine>=6.8.2']"
+size = "527660"
+usize = "2705571"
+sha1sum = "743cb224eebf523d1206573236080adfa874c8c2"
+depends = "['akonadi>=24.12.3', 'akonadi-mime>=24.12.3', 'grantleetheme>=24.12.3', 'kcalendarcore>=6.12.0', 'kcodecs>=6.12.0', 'kcompletion>=6.12.0', 'kcontacts>=6.12.0', 'kio>=6.12.0', 'kmime>=24.12.3', 'libkleo>=24.12.3', 'prison>=6.12.0', 'qt6-webengine>=6.8.3']"
 reverse_depends = "['akonadi-search', 'digikam', 'kgpg', 'kmailtransport', 'libkdepim']"
 +++
 ### Description: 

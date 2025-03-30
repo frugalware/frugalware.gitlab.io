@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kde-inotify-survey 24.12.3-1"
-version = "24.12.3-1"
+title = "kde-inotify-survey 24.12.3-2"
+version = "24.12.3-2"
 description = "Tooling for monitoring inotify limits and informing the user when they have been or about to be reached"
-date = "2025-03-10T12:19:00"
+date = "2025-03-28T13:14:21"
 aliases = "/packages/220973"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "52896"
+size = "52968"
 usize = "257484"
-sha1sum = "84505f82003f60d2651784e88e4426dbc4e66bf0"
+sha1sum = "6c43f212dcbcdb3c61fe22d0b6691411607ccb2c"
 depends = "['kauth>=', 'knotifications>=']"
 +++
 ### Description: 

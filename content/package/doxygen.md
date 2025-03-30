@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "doxygen 1.13.2-1"
-version = "1.13.2-1"
+title = "doxygen 1.13.2-2"
+version = "1.13.2-2"
 description = "Doxygen is the documentation system for C/C++"
-date = "2025-02-03T21:32:49"
+date = "2025-03-29T12:01:34"
 aliases = "/packages/3555"
 categories = ['devel-extra']
 upstreamurl = "http://www.doxygen.nl/"
 arch = "x86_64"
-size = "5024040"
-usize = "21172755"
-sha1sum = "bab827d4525d261976bbb44107b2e461fa8c4c84"
+size = "5033224"
+usize = "21223228"
+sha1sum = "b588671ddc6b9fb7f49596a47cf0b6e44e66cb12"
 depends = "['libpng', 'libstdc++>=7.3.0-4']"
 reverse_depends = "['doxywizard', 'umbrello']"
 +++

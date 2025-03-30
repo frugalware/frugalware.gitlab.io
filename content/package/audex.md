@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "audex 24.12.3-1"
-version = "24.12.3-1"
+title = "audex 24.12.3-2"
+version = "24.12.3-2"
 description = "Tool for ripping compact discs"
-date = "2025-03-10T13:48:05"
+date = "2025-03-28T15:15:34"
 aliases = "/packages/221487"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "697160"
-usize = "2639560"
-sha1sum = "9ac64fde1a47d79f6df2976797a65df77515e8b9"
+size = "696624"
+usize = "2639496"
+sha1sum = "55c2f362ae70fb85bb494b4e8e973a0d632f6d47"
 depends = "['kcmutils', 'kcolorscheme', 'kcompletion', 'kconfig', 'kconfigwidgets', 'kcoreaddons', 'kcrash', 'ki18n', 'kiconthemes', 'kio', 'ktextwidgets', 'kwidgetsaddons', 'kxmlgui', 'libcdio-paranoia', 'libkcddb']"
 +++
 ### Description: 

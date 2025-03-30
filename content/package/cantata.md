@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "cantata 3.3.0-1"
-version = "3.3.0-1"
+title = "cantata 3.3.0-2"
+version = "3.3.0-2"
 description = "QTx6 and KDE based Client for MPD"
-date = "2025-03-20T14:35:07"
+date = "2025-03-28T17:20:39"
 aliases = "/packages/222692"
 categories = ['kde6-extra']
 upstreamurl = "https://github.com/nullobsi/cantata"
 arch = "x86_64"
-size = "3148816"
-usize = "11341350"
-sha1sum = "4736247da78803ee1f6f121042ac73c98d19874d"
+size = "3148960"
+usize = "11343302"
+sha1sum = "e5ddab3991d9e855e9cff1c0046c4da97581c7be"
 depends = "['libcdio-paranoia', 'libebur128', 'libmpg123', 'libmtp>=1.1.12-2', 'libmusicbrainz>=', 'media-player-info', 'perl-uri', 'qt5-multimedia>=', 'qt6-svg>=', 'taglib>=2.0', 'vlc']"
 +++
 ### Description: 

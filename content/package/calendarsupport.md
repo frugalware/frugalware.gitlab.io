@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "calendarsupport 24.12.3-1"
-version = "24.12.3-1"
+title = "calendarsupport 24.12.3-2"
+version = "24.12.3-2"
 description = "This lib provides calendar support"
-date = "2025-03-10T11:05:38"
+date = "2025-03-28T12:15:55"
 aliases = "/packages/218484"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "574568"
-usize = "3645803"
-sha1sum = "020eb8c7b544cd15235fb83fe7ce69f3b68391c9"
-depends = "['akonadi>=24.12.3', 'akonadi-calendar>=24.12.3', 'kholidays>=6.11.0', 'pimcommon>=24.12.3']"
+size = "575280"
+usize = "3646443"
+sha1sum = "4dd7538e5004ac867481b2738f2c20a396e804f8"
+depends = "['akonadi>=24.12.3', 'akonadi-calendar>=24.12.3', 'kholidays>=6.12.0', 'pimcommon>=24.12.3']"
 reverse_depends = "['akonadi-calendar-tools', 'akonadiconsole', 'eventviews', 'pim-data-exporter']"
 +++
 ### Description: 

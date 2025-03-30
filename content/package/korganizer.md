@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "korganizer 24.12.3-1"
-version = "24.12.3-1"
+title = "korganizer 24.12.3-2"
+version = "24.12.3-2"
 description = "KDE Personal Organizer."
-date = "2025-03-10T11:32:47"
+date = "2025-03-28T12:37:34"
 aliases = "/packages/218939"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2436296"
-usize = "11349262"
-sha1sum = "b35efa798f1cb3d53c635b6d12795cf7c410ae2f"
+size = "2436832"
+usize = "11350606"
+sha1sum = "85e47226630d1138414ffecb28eb3e0b9fbd7137"
 depends = "['incidenceeditor>=24.12.3', 'kdepim-runtime>=24.12.3', 'kontactinterface>=24.12.3', 'mailcommon>=24.12.3']"
 +++
 ### Description: 

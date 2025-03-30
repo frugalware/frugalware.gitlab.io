@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kiconthemes 6.12.0-1"
-version = "6.12.0-1"
+title = "kiconthemes 6.12.0-2"
+version = "6.12.0-2"
 description = "Icon GUI utilities."
-date = "2025-03-15T15:16:50"
+date = "2025-03-27T16:05:23"
 aliases = "/packages/218316"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "152612"
-usize = "579448"
-sha1sum = "e7b25ad1e770e8514bbf9337e243aeb109f3e8fb"
-depends = "['breeze-icons>=6.12.0', 'karchive>=6.12.0', 'kconfigwidgets>=6.12.0', 'kitemviews>=6.12.0', 'qt6-declarative>=6.8.2', 'qt6-svg>=6.8.2']"
+size = "152828"
+usize = "579704"
+sha1sum = "02bdcc18f1d0b958f0e9ce00fed786ba5bb51621"
+depends = "['breeze-icons>=6.12.0', 'karchive>=6.12.0', 'kconfigwidgets>=6.12.0', 'kitemviews>=6.12.0', 'qt6-declarative>=6.8.3', 'qt6-svg>=6.8.3']"
 reverse_depends = "['audex', 'breeze', 'discover', 'dolphin', 'isoimagewriter', 'kbackup', 'kdiff3', 'kmousetool', 'knotifications', 'ktextwidgets', 'partitionmanager', 'polkit-kde-agent-1', 'qqc2-breeze-style', 'qqc2-desktop-style']"
 +++
 ### Description: 

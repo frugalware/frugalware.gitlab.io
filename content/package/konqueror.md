@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "konqueror 24.12.3-1"
-version = "24.12.3-1"
+title = "konqueror 24.12.3-2"
+version = "24.12.3-2"
 description = "Web browser and file manager"
-date = "2025-03-10T09:25:22"
+date = "2025-03-28T11:03:23"
 aliases = "/packages/218937"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "8475564"
-usize = "27014422"
-sha1sum = "2c9b09334ee595ff832a326270bef2a484a4b095"
-depends = "['hunspell', 'kcmutils>=6.11.0', 'kdesu>=6.11.0', 'kparts>=6.11.0', 'plasma-activities>=6.3.2', 'qt6-speech>=6.8.2', 'qt6-webengine>=6.8.2', 'tidy>=5.6.0']"
+size = "8475060"
+usize = "27021334"
+sha1sum = "6a87779fe14e1e95b09050ab125f648a998a5b77"
+depends = "['hunspell', 'kcmutils>=6.12.0', 'kdesu>=6.12.0', 'kparts>=6.12.0', 'plasma-activities>=6.3.3', 'qt6-speech>=6.8.3', 'qt6-webengine>=6.8.3', 'tidy>=5.6.0']"
 +++
 ### Description: 
 Web browser and file manager

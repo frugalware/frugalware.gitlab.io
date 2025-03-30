@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kcolorpicker 0.3.1-4"
-version = "0.3.1-4"
+title = "kcolorpicker 0.3.1-5"
+version = "0.3.1-5"
 description = "Qt based Color Picker with popup menu"
-date = "2025-02-04T09:58:23"
+date = "2025-03-28T18:02:48"
 aliases = "/packages/220581"
 categories = ['kde6']
 upstreamurl = "https://github.com/ksnip/kcolorpicker"
 arch = "x86_64"
-size = "24968"
-usize = "90798"
-sha1sum = "bd8dbe40d7f65c19c4da2842cb880ec5f835170c"
+size = "25008"
+usize = "90814"
+sha1sum = "792ca336f90ad0c4bda24f8dc7e59495fdfb8cb4"
 depends = "['qt6-base>=6.8.2']"
 reverse_depends = "['kimageannotator']"
 +++

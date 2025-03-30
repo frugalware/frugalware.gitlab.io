@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "itinerary 24.12.3-1"
-version = "24.12.3-1"
+title = "itinerary 24.12.3-2"
+version = "24.12.3-2"
 description = "Itinerary and boarding pass management application"
-date = "2025-03-10T14:04:24"
+date = "2025-03-28T15:28:50"
 aliases = "/packages/220318"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1274224"
-usize = "6364393"
-sha1sum = "e3ef107f962f4040be88db093a358fccf4267c9e"
-depends = "['kfilemetadata>=6.11.0', 'khealthcertificate>=24.12.3', 'kirigami-addons', 'kitemmodels>=6.11.0', 'kitinerary>=24.12.3', 'kosmindoormap>=24.12.3', 'kunitconversion>=6.11.0', 'libquotient>=0.9.0', 'prison>=6.11.0', 'qqc2-desktop-style>=6.11.0', 'qt6-positioning>=6.8.2']"
+size = "1263916"
+usize = "6295753"
+sha1sum = "7d6037d958d65e4f8966274a062b413c8c348da7"
+depends = "['kfilemetadata>=6.12.0', 'khealthcertificate>=24.12.3', 'kirigami-addons', 'kitemmodels>=6.12.0', 'kitinerary>=24.12.3', 'kosmindoormap>=24.12.3', 'kunitconversion>=6.12.0', 'libquotient>=0.9.0', 'prison>=6.12.0', 'qqc2-desktop-style>=6.12.0', 'qt6-positioning>=6.8.3']"
 +++
 ### Description: 
 Itinerary and boarding pass management application

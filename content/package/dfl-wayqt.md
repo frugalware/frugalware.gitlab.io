@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "dfl-wayqt 0.2.0-7"
-version = "0.2.0-7"
+title = "dfl-wayqt 0.2.0-8"
+version = "0.2.0-8"
 description = "A Qt-based wrapper for various wayland protocols"
-date = "2025-02-03T15:33:13"
+date = "2025-03-29T11:55:12"
 aliases = "/packages/221553"
 categories = ['xlib-extra']
 upstreamurl = "https://gitlab.com/desktop-frameworks/wayqt"
 arch = "x86_64"
-size = "103316"
-usize = "488456"
-sha1sum = "950c9ded76ce3617e54ef4c02eacc389150a5e59"
+size = "103912"
+usize = "491312"
+sha1sum = "7277a0f16107afd60b2ce11c22b7448994ddef91"
 depends = "['qt5-base>=5.15.15', 'qt5-wayland>=5.15.15']"
 reverse_depends = "['greetd-qtgreet']"
 +++

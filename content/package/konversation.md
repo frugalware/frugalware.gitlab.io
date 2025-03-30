@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "konversation 24.12.3-1"
-version = "24.12.3-1"
+title = "konversation 24.12.3-2"
+version = "24.12.3-2"
 description = "IRC clinet for KDE5"
-date = "2025-03-10T12:57:38"
+date = "2025-03-28T14:37:01"
 aliases = "/packages/218844"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "4883576"
-usize = "16775732"
-sha1sum = "7a26908dd5d1ff769eee64efec4a4359f3772f4b"
-depends = "['kidletime>=6.11.0', 'knewstuff>=6.11.0', 'knotifyconfig>=6.11.0', 'kparts>=6.11.0', 'kstatusnotifieritem>=6.11.0', 'phonon-qt6', 'qca', 'qt6-multimedia>=6.8.2']"
+size = "4882980"
+usize = "16777172"
+sha1sum = "38e732656cee93c2ea4c1315499116aafb14c223"
+depends = "['kidletime>=6.12.0', 'knewstuff>=6.12.0', 'knotifyconfig>=6.12.0', 'kparts>=6.12.0', 'kstatusnotifieritem>=6.12.0', 'phonon-qt6', 'qca', 'qt6-multimedia>=6.8.3']"
 +++
 ### Description: 
 IRC clinet for KDE5

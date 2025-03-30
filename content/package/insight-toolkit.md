@@ -12,6 +12,7 @@ size = "8959088"
 usize = "56633626"
 sha1sum = "b7ec4d8a65a2cbc0cbee86128ff55006bca521dd"
 depends = "['clang', 'eigen', 'expat', 'fftw', 'gdcm', 'gtest', 'hdf5', 'libjpeg-turbo', 'libpng', 'libtiff>=4.7.0', 'openjre', 'pcre', 'perl', 'ruby', 'swig', 'tcl']"
+reverse_depends = "['alizams']"
 +++
 ### Description: 
 Cross-platform system that provides developers with an extensive suite of software tools for image analysis

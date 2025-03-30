@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gmic-gimp-plugin 3.5.3-3"
-version = "3.5.3-3"
+title = "gmic-gimp-plugin 3.5.3-4"
+version = "3.5.3-4"
 description = "Image procession framework GImp Plugin"
-date = "2025-03-20T10:30:59"
+date = "2025-03-29T17:04:27"
 aliases = "/packages/222526"
 categories = ['xapps-extra']
 upstreamurl = "https://gmic.eu"
 arch = "x86_64"
-size = "905024"
-usize = "2629016"
-sha1sum = "9f16206ca0d4f00e1ea26e4a6446b048affe2c8e"
+size = "904200"
+usize = "2628952"
+sha1sum = "2e1ff9661a7ceee5d59605004d1768929536d88b"
 depends = "['gimp', 'gmic', 'qt5-base']"
 +++
 ### Description: 

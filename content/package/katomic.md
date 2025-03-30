@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "katomic 24.12.3-1"
-version = "24.12.3-1"
+title = "katomic 24.12.3-2"
+version = "24.12.3-2"
 description = "A fun and educational game built around molecular geometry."
-date = "2025-03-10T10:01:12"
+date = "2025-03-28T11:27:48"
 aliases = "/packages/184174"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1485016"
-usize = "2177769"
-sha1sum = "7ee4453d0a61c6546e4b4bec40d723e600d32fb5"
-depends = "['libkdegames>=24.12.3', 'qt6-svg>=6.8.2']"
+size = "1485440"
+usize = "2177961"
+sha1sum = "d5ef4c97c330259b38c15aef3a3e3d77986a8acd"
+depends = "['libkdegames>=24.12.3', 'qt6-svg>=6.8.3']"
 +++
 ### Description: 
 A fun and educational game built around molecular geometry.

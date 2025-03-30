@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "karchive 6.12.0-1"
-version = "6.12.0-1"
+title = "karchive 6.12.0-2"
+version = "6.12.0-2"
 description = "Qt 5 addon providing access to numerous types of archives."
-date = "2025-03-15T14:38:27"
+date = "2025-03-27T15:38:21"
 aliases = "/packages/218274"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "157748"
+size = "157992"
 usize = "751728"
-sha1sum = "f8c92ae42b6cb4e5e2e59bff6dbf3d64280cc5bd"
-depends = "['qt6-base>=6.8.2']"
+sha1sum = "c30634ffadd3197f42486020629ff70aeba94f93"
+depends = "['qt6-base>=6.8.3']"
 reverse_depends = "['discover', 'isoimagewriter', 'kbackup', 'kcachegrind', 'kdoctools', 'kfilemetadata', 'khealthcertificate', 'kiconthemes', 'kimageformats', 'kio', 'kpackage', 'kpkpass', 'ksvg']"
 +++
 ### Description: 

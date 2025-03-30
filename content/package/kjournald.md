@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kjournald 24.12.3-1"
-version = "24.12.3-1"
+title = "kjournald 24.12.3-2"
+version = "24.12.3-2"
 description = "Framework for interacting with systemd-journald"
-date = "2025-03-10T13:16:25"
+date = "2025-03-28T14:50:56"
 aliases = "/packages/220980"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "164060"
-usize = "641762"
-sha1sum = "adc4b5d25a7cea00ea058f0bb4354f2cbcef0153"
+size = "164136"
+usize = "642114"
+sha1sum = "b0edd806db15f9bfa4377bd55710b4cf078a9328"
 depends = "['kcoreaddons', 'ki18n', 'kirigami']"
 +++
 ### Description: 

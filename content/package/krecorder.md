@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "krecorder 24.12.3-1"
-version = "24.12.3-1"
+title = "krecorder 24.12.3-2"
+version = "24.12.3-2"
 description = "Audio recorder for Plasma Mobile and other platforms"
-date = "2025-03-10T13:19:48"
+date = "2025-03-28T14:53:30"
 aliases = "/packages/220985"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "81124"
-usize = "307875"
-sha1sum = "4264e4f3d487638b0eb2ee88974b42f33398dec5"
+size = "81216"
+usize = "308003"
+sha1sum = "a5d3ac15e98a0c5c85cbb2bfec7f7cf1a88f895a"
 depends = "['kconfig', 'kcoreaddons', 'ki18n', 'kirigami-addons', 'kwindowsystem', 'qt6-multimedia', 'qt6-svg']"
 +++
 ### Description: 

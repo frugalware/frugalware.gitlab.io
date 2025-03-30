@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kcodecs 6.12.0-1"
-version = "6.12.0-1"
+title = "kcodecs 6.12.0-2"
+version = "6.12.0-2"
 description = "Plugins allowing Qt applications to access further types of images."
-date = "2025-03-15T15:00:46"
+date = "2025-03-27T15:54:40"
 aliases = "/packages/218281"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "141828"
+size = "141980"
 usize = "690663"
-sha1sum = "55ffb94303daf9a936bea63284a7cd01dfe5af2e"
-depends = "['qt6-base>=6.8.2']"
+sha1sum = "9fb698b1a1b584d0a85b034842c89276e8e9b815"
+depends = "['qt6-base>=6.8.3']"
 reverse_depends = "['akonadi-contacts', 'kcompletion', 'kconfigwidgets', 'kcontacts', 'khealthcertificate', 'kmime', 'mimetreeparser']"
 +++
 ### Description: 

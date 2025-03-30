@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kontact 24.12.3-1"
-version = "24.12.3-1"
+title = "kontact 24.12.3-2"
+version = "24.12.3-2"
 description = "Personal Information Manager"
-date = "2025-03-10T11:23:17"
+date = "2025-03-28T12:29:48"
 aliases = "/packages/218938"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "783104"
-usize = "1868547"
-sha1sum = "bc42ead785871e10cfa2de507940ad60f1cc77d5"
+size = "783344"
+usize = "1868803"
+sha1sum = "d275fcb5d01e40bc00f8270ed2392c1552e3049f"
 depends = "['kontactinterface>=24.12.3', 'mailcommon>=24.12.3']"
 +++
 ### Description: 
