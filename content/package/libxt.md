@@ -12,7 +12,7 @@ size = "750908"
 usize = "3039259"
 sha1sum = "0af4bc162974a29f9c72d6192731c232e093966d"
 depends = "['libsm>=1.2.2-3', 'libx11>=1.6.8']"
-reverse_depends = "['appres', 'beforelight', 'firefox', 'gifsicle', 'gvim', 'kmousetool', 'libgs', 'libxkbui', 'libxmu', 'libxpm', 'opencv', 'r', 'swt', 'thunderbird', 'vtk-python3', 'webkit-gtk3', 'wmi', 'xaw3d', 'xghostscript', 'xscreensaver', 'xsel', 'xterm']"
+reverse_depends = "['appres', 'beforelight', 'firefox', 'gifsicle', 'gvim', 'kmousetool', 'libgs', 'libxkbui', 'libxmu', 'libxpm', 'opencv', 'r', 'swt', 'thunderbird', 'vtk-python3', 'webkit-gtk3', 'wmi', 'xaw3d', 'xghostscript', 'xine-lib', 'xscreensaver', 'xsel', 'xterm']"
 license = "GPL2"
 +++
 ### Description: 
