@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "protobuf 30.1-1"
-version = "30.1-1"
+title = "protobuf 30.2-1"
+version = "30.2-1"
 description = "Protocol Buffers are a way of encoding structured data in an efficient yet extensible format"
-date = "2025-03-17T13:37:14"
+date = "2025-03-31T13:02:55"
 aliases = "/packages/74492"
 categories = ['lib']
 upstreamurl = "https://github.com/protocolbuffers/protobuf"
 arch = "x86_64"
-size = "3027372"
-usize = "16256610"
-sha1sum = "eb3f273c83c2a4a362aed620044fc65fe952ea81"
+size = "3030428"
+usize = "16280122"
+sha1sum = "e0e5660a00373896f61e53107e97e780ab1719a5"
 depends = "['abseil-cpp>=20250127.0', 'libstdc++>=11.3']"
 reverse_depends = "['android-tools', 'grpc', 'kicad', 'libmarble', 'libphonenumber', 'mixxx', 'mosh', 'mumble', 'murmur', 'opencv', 'pdns-recursor', 'protobuf-c', 'qt5-webengine', 'telegram-desktop', 'usbguard', 'vlc-chromecast']"
 +++
@@ -19,13 +19,13 @@ Protocol Buffers are a way of encoding structured data in an efficient yet exten
 
 ### Files: 
 * /usr/bin/protoc
-* /usr/bin/protoc-30.1.0
+* /usr/bin/protoc-30.2.0
 * /usr/bin/protoc-gen-upb
-* /usr/bin/protoc-gen-upb-30.1.0
+* /usr/bin/protoc-gen-upb-30.2.0
 * /usr/bin/protoc-gen-upbdefs
-* /usr/bin/protoc-gen-upbdefs-30.1.0
+* /usr/bin/protoc-gen-upbdefs-30.2.0
 * /usr/bin/protoc-gen-upb_minitable
-* /usr/bin/protoc-gen-upb_minitable-30.1.0
+* /usr/bin/protoc-gen-upb_minitable-30.2.0
 * /usr/include/google/protobuf/any.h
 * /usr/include/google/protobuf/any.pb.h
 * /usr/include/google/protobuf/any.proto
@@ -40,9 +40,11 @@ Protocol Buffers are a way of encoding structured data in an efficient yet exten
 * /usr/include/google/protobuf/compiler/code_generator.h
 * /usr/include/google/protobuf/compiler/code_generator_lite.h
 * /usr/include/google/protobuf/compiler/command_line_interface.h
+* /usr/include/google/protobuf/compiler/cpp/generator.h
 * /usr/include/google/protobuf/compiler/cpp/helpers.h
 * /usr/include/google/protobuf/compiler/cpp/names.h
 * /usr/include/google/protobuf/compiler/cpp/options.h
+* /usr/include/google/protobuf/compiler/csharp/csharp_generator.h
 * /usr/include/google/protobuf/compiler/csharp/names.h
 * /usr/include/google/protobuf/compiler/importer.h
 * /usr/include/google/protobuf/compiler/java/context.h
@@ -53,7 +55,9 @@ Protocol Buffers are a way of encoding structured data in an efficient yet exten
 * /usr/include/google/protobuf/compiler/java/names.h
 * /usr/include/google/protobuf/compiler/java/name_resolver.h
 * /usr/include/google/protobuf/compiler/java/options.h
+* /usr/include/google/protobuf/compiler/kotlin/generator.h
 * /usr/include/google/protobuf/compiler/notices.h
+* /usr/include/google/protobuf/compiler/objectivec/generator.h
 * /usr/include/google/protobuf/compiler/objectivec/line_consumer.h
 * /usr/include/google/protobuf/compiler/objectivec/names.h
 * /usr/include/google/protobuf/compiler/objectivec/nsobject_methods.h
@@ -63,7 +67,10 @@ Protocol Buffers are a way of encoding structured data in an efficient yet exten
 * /usr/include/google/protobuf/compiler/plugin.h
 * /usr/include/google/protobuf/compiler/plugin.pb.h
 * /usr/include/google/protobuf/compiler/plugin.proto
+* /usr/include/google/protobuf/compiler/python/generator.h
+* /usr/include/google/protobuf/compiler/python/pyi_generator.h
 * /usr/include/google/protobuf/compiler/retention.h
+* /usr/include/google/protobuf/compiler/ruby/ruby_generator.h
 * /usr/include/google/protobuf/compiler/scc.h
 * /usr/include/google/protobuf/compiler/subprocess.h
 * /usr/include/google/protobuf/compiler/versions.h
@@ -313,18 +320,18 @@ Protocol Buffers are a way of encoding structured data in an efficient yet exten
 * /usr/lib/cmake/utf8_range/utf8_range-targets-release.cmake
 * /usr/lib/cmake/utf8_range/utf8_range-targets.cmake
 * /usr/lib/libprotobuf-lite.so
-* /usr/lib/libprotobuf-lite.so.30.1.0
+* /usr/lib/libprotobuf-lite.so.30.2.0
 * /usr/lib/libprotobuf.so
-* /usr/lib/libprotobuf.so.30.1.0
+* /usr/lib/libprotobuf.so.30.2.0
 * /usr/lib/libprotoc.so
-* /usr/lib/libprotoc.so.30.1.0
+* /usr/lib/libprotoc.so.30.2.0
 * /usr/lib/libutf8_range.so
-* /usr/lib/libutf8_range.so.30.1.0
+* /usr/lib/libutf8_range.so.30.2.0
 * /usr/lib/libutf8_validity.so
-* /usr/lib/libutf8_validity.so.30.1.0
+* /usr/lib/libutf8_validity.so.30.2.0
 * /usr/lib/pkgconfig/protobuf-lite.pc
 * /usr/lib/pkgconfig/protobuf.pc
 * /usr/lib/pkgconfig/upb.pc
 * /usr/lib/pkgconfig/utf8_range.pc
-* /usr/share/doc/protobuf-30.1/LICENSE
-* /usr/share/doc/protobuf-30.1/README.md
+* /usr/share/doc/protobuf-30.2/LICENSE
+* /usr/share/doc/protobuf-30.2/README.md
