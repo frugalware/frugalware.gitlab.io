@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libreoffice-l10n-kk 25.2.1.2-4"
-version = "25.2.1.2-4"
+title = "libreoffice-l10n-kk 25.2.2.2-1"
+version = "25.2.2.2-1"
 description = "Installs Kazakh support in LibreOffice"
-date = "2025-03-19T16:31:02"
+date = "2025-03-31T18:59:05"
 aliases = "/packages/104074"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "729240"
-usize = "4337792"
-sha1sum = "ddd41100d30ec05e57c24f826e150bb60e40d609"
-depends = "['libreoffice>=25.2.1.2']"
+size = "729352"
+usize = "4337776"
+sha1sum = "ee78199e47bcce29fbf5a25caebb4680c53894ff"
+depends = "['libreoffice>=25.2.2.2']"
 +++
 ### Description: 
 Installs Kazakh support in LibreOffice

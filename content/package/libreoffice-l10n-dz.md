@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libreoffice-l10n-dz 25.2.1.2-4"
-version = "25.2.1.2-4"
+title = "libreoffice-l10n-dz 25.2.2.2-1"
+version = "25.2.2.2-1"
 description = "Installs Dzongkha support in LibreOffice"
-date = "2025-03-19T16:31:02"
+date = "2025-03-31T18:59:05"
 aliases = "/packages/104049"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4998264"
+size = "4998232"
 usize = "43783364"
-sha1sum = "ca90b1ac1016413bbfc1d327dc16456cf2a16086"
-depends = "['libreoffice>=25.2.1.2']"
+sha1sum = "fc4f39bfd518814b8568e0fa4e8dc4111eb4bb28"
+depends = "['libreoffice>=25.2.2.2']"
 +++
 ### Description: 
 Installs Dzongkha support in LibreOffice

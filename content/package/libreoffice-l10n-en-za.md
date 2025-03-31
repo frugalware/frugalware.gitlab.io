@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libreoffice-l10n-en-za 25.2.1.2-4"
-version = "25.2.1.2-4"
+title = "libreoffice-l10n-en-za 25.2.2.2-1"
+version = "25.2.2.2-1"
 description = "Installs English (South Africa) support in LibreOffice"
-date = "2025-03-19T16:31:02"
+date = "2025-03-31T18:59:05"
 aliases = "/packages/104052"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "3836580"
+size = "3836472"
 usize = "32098313"
-sha1sum = "e756fde12471e8c4a45ccb9d80a739d328eeaa31"
-depends = "['libreoffice>=25.2.1.2']"
+sha1sum = "5e8ad59863fd84f1e4a326e542f47e7ca1630e60"
+depends = "['libreoffice>=25.2.2.2']"
 +++
 ### Description: 
 Installs English (South Africa) support in LibreOffice

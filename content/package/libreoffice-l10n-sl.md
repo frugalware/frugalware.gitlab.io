@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libreoffice-l10n-sl 25.2.1.2-4"
-version = "25.2.1.2-4"
+title = "libreoffice-l10n-sl 25.2.2.2-1"
+version = "25.2.2.2-1"
 description = "Installs Slovenian support in LibreOffice"
-date = "2025-03-19T16:31:02"
+date = "2025-03-31T18:59:05"
 aliases = "/packages/104116"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "5175212"
+size = "5175632"
 usize = "36358344"
-sha1sum = "7008bd9878ea24e7ff31c9067ecdc39dbb0faf32"
-depends = "['libreoffice>=25.2.1.2']"
+sha1sum = "df10c67e31e24991c57071b59fb6ec0050946664"
+depends = "['libreoffice>=25.2.2.2']"
 +++
 ### Description: 
 Installs Slovenian support in LibreOffice

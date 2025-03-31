@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libreoffice-gtk3 25.2.1.2-4"
-version = "25.2.1.2-4"
+title = "libreoffice-gtk3 25.2.2.2-1"
+version = "25.2.2.2-1"
 description = "libreoffice GTK3 integration"
-date = "2025-03-19T16:31:02"
+date = "2025-03-31T18:59:05"
 aliases = "/packages/219505"
 categories = ['xapps-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "590856"
+size = "591320"
 usize = "2767253"
-sha1sum = "d7782eb79514b38563a2f877643ff34571ceb1d8"
-depends = "['gtk+3', 'libreoffice>=25.2.1.2']"
+sha1sum = "a5d2cb466dc4219c15905fae392833cf282201a0"
+depends = "['gtk+3', 'libreoffice>=25.2.2.2']"
 reverse_depends = "['libreoffice-gtk3-kde5']"
 +++
 ### Description: 
