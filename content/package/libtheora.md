@@ -12,7 +12,7 @@ size = "391500"
 usize = "2259594"
 sha1sum = "285468e7d14c5976f3ca90a1028b36de06c0a53d"
 depends = "['libogg>=1.3.2-5']"
-reverse_depends = "['ffmpeg', 'ffmpeg4.4', 'gst1-plugins-base-theora', 'gtk-handbrake', 'icecast', 'libshout', 'love', 'mencoder', 'mplayer', 'picard', 'scummvm', 'ufoai', 'vlc-theora']"
+reverse_depends = "['ffmpeg', 'ffmpeg4.4', 'gst1-plugins-base-theora', 'gtk-handbrake', 'icecast', 'libshout', 'love', 'mencoder', 'mplayer', 'picard', 'scummvm', 'ufoai', 'vlc-theora', 'warzone2100']"
 +++
 ### Description: 
 An open video codec developed by the Xiph.org.

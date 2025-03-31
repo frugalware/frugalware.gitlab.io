@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-at-spi2-core 2.56.0-1"
-version = "2.56.0-1"
+title = "lib32-at-spi2-core 2.56.1-1"
+version = "2.56.1-1"
 description = "Gnome Accessibility Toolkit ( 32bit )"
-date = "2025-03-16T12:30:53"
+date = "2025-03-31T12:05:19"
 aliases = "/packages/220922"
 categories = ['lib32-extra']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "241860"
-usize = "1138599"
-sha1sum = "00463a2b4d2d0f5d7c686d4f2c1fc4f1ae87a993"
+size = "241760"
+usize = "1138895"
+sha1sum = "2f7a437ae0c53a504467ba36aeb7897762efe918"
 depends = "['lib32-glib2', 'lib32-libxml2', 'lib32-libxtst']"
 reverse_depends = "['lib32-gtk+2-libs']"
 +++
@@ -93,7 +93,7 @@ Gnome Accessibility Toolkit ( 32bit )
 * /usr/lib32/gtk-2.0/modules/libatk-bridge.so
 * /usr/lib32/libatk-1.0.so
 * /usr/lib32/libatk-1.0.so.0
-* /usr/lib32/libatk-1.0.so.0.25609.1
+* /usr/lib32/libatk-1.0.so.0.25610.1
 * /usr/lib32/libatk-bridge-2.0.so
 * /usr/lib32/libatk-bridge-2.0.so.0
 * /usr/lib32/libatk-bridge-2.0.so.0.0.0

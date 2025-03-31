@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "warzone2100 4.5.5-1"
-version = "4.5.5-1"
+title = "warzone2100 4.5.5-2"
+version = "4.5.5-2"
 description = "3D realtime strategy game on a future Earth"
-date = "2024-11-14T09:28:54"
+date = "2025-03-31T12:01:48"
 aliases = "/packages/221544"
 categories = ['games-extra']
 upstreamurl = "http://wz2100.net"
 arch = "x86_64"
-size = "335217200"
-usize = "392205183"
-sha1sum = "f8864b4738f1b834099520b85e199f87f7a60391"
-depends = "['curl', 'fmtlib', 'libsodium>=1.0.19', 'libzip', 'miniupnpc', 'ocl-icd', 'openal', 'opus', 'physfs']"
+size = "335241496"
+usize = "392295303"
+sha1sum = "f6c6c6920b955b591b53591399d8b865fed9c779"
+depends = "['curl', 'fmtlib', 'libsodium>=1.0.19', 'libtheora>=1.2.0', 'libzip', 'miniupnpc', 'ocl-icd', 'openal', 'opus', 'physfs']"
 +++
 ### Description: 
 3D realtime strategy game on a future Earth

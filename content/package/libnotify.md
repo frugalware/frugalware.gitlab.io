@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libnotify 0.8.4-1"
-version = "0.8.4-1"
+title = "libnotify 0.8.6-1"
+version = "0.8.6-1"
 description = "libnotify is a library for sending desktop notifications"
-date = "2025-02-20T09:38:07"
+date = "2025-03-31T12:06:59"
 aliases = "/packages/9208"
 categories = ['xlib']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "1112040"
-usize = "1725676"
-sha1sum = "27f0e02b0156941cfd676794d3e5848ffde48db6"
+size = "1112452"
+usize = "1726909"
+sha1sum = "e77a9ceebc1ea8c9c78dd234f51927fd2b0b197c"
 depends = "['gdk-pixbuf2>=2.36.11-3', 'libffi>=3.2.1-2', 'libpng>=1.6.25']"
 reverse_depends = "['claws-mail-plugin-notification', 'discord', 'firefox', 'freetuxtv', 'geoclue2', 'gtk-handbrake', 'hexchat', 'ibus', 'nm-applet', 'notification-daemon', 'r2modman', 'sunflower', 'thunderbird', 'uget', 'usbguard-notifier', 'volumeicon', 'webkit-gtk3', 'wxwidgets']"
 +++
@@ -28,10 +28,10 @@ libnotify is a library for sending desktop notifications
 * /usr/lib/libnotify.so.4
 * /usr/lib/libnotify.so.4.0.0
 * /usr/lib/pkgconfig/libnotify.pc
-* /usr/share/doc/libnotify-0.8.4/AUTHORS
-* /usr/share/doc/libnotify-0.8.4/COPYING
-* /usr/share/doc/libnotify-0.8.4/NEWS
-* /usr/share/doc/libnotify-0.8.4/README.md
+* /usr/share/doc/libnotify-0.8.6/AUTHORS
+* /usr/share/doc/libnotify-0.8.6/COPYING
+* /usr/share/doc/libnotify-0.8.6/NEWS
+* /usr/share/doc/libnotify-0.8.6/README.md
 * /usr/share/doc/libnotify-0/callback.ActionCallback.html
 * /usr/share/doc/libnotify-0/class.Notification.html
 * /usr/share/doc/libnotify-0/classes_hierarchy.html
