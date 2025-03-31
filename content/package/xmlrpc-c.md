@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "xmlrpc-c 1.60.04-2"
-version = "1.60.04-2"
+title = "xmlrpc-c 1.60.05-1"
+version = "1.60.05-1"
 description = "This library provides a modular implementation of XML-RPC for C and C++."
-date = "2025-03-23T14:20:44"
+date = "2025-03-31T10:09:13"
 aliases = "/packages/15116"
 categories = ['network']
 upstreamurl = "http://xmlrpc-c.sourceforge.net/"
 arch = "x86_64"
-size = "340600"
-usize = "1341849"
-sha1sum = "5c78930ea410e379fe2aae3f2a8e675aaa20ee9b"
+size = "340672"
+usize = "1341817"
+sha1sum = "a689ad7eff05d21f57a921503b045bb1938832d2"
 depends = "['curl>=7.19.0', 'libstdc++', 'libxml2>=2.7.8', 'openssl>=3.1.0', 'readline>=8.0']"
 reverse_depends = "['intel-gpu-tools', 'rtorrent']"
 +++
@@ -145,6 +145,6 @@ This library provides a modular implementation of XML-RPC for C and C++.
 * /usr/lib/pkgconfig/xmlrpc_server_pstream++.pc
 * /usr/lib/pkgconfig/xmlrpc_util++.pc
 * /usr/lib/pkgconfig/xmlrpc_util.pc
-* /usr/share/doc/xmlrpc-c-1.60.04/README
+* /usr/share/doc/xmlrpc-c-1.60.05/README
 * /usr/share/man/man1/xml-rpc-api2cpp.1.gz
 * /usr/share/man/man1/xml-rpc-api2txt.1.gz

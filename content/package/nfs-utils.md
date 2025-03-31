@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "nfs-utils 2.8.2-1"
-version = "2.8.2-1"
+title = "nfs-utils 2.8.3-1"
+version = "2.8.3-1"
 description = "Support programs for Network File Systems"
-date = "2024-12-12T09:22:28"
+date = "2025-03-31T10:11:14"
 aliases = "/packages/3261"
 categories = ['network']
 upstreamurl = "https://sourceforge.net/projects/nfs-utils"
 arch = "x86_64"
-size = "361776"
-usize = "1161339"
-sha1sum = "8d8976314f2f60a02c5d83920eb4ce0fd43a7df4"
+size = "362896"
+usize = "1164924"
+sha1sum = "ca1c01b45f429813b40d9179bd896034091c28f7"
 depends = "['keyutils', 'libevent>=2.1.11', 'libnl', 'libxml2', 'lvm2-libs>=2.02.141', 'rpcbind', 'sqlite3>=3.10.2']"
 reverse_depends = "['dracut-network']"
 +++
@@ -81,10 +81,10 @@ Support programs for Network File Systems
 * /usr/lib/systemd/system/var-lib-nfs-rpc_pipefs.mount
 * /usr/lib/udev/rules.d/60-nfs.rules
 * /usr/lib/udev/rules.d/99-nfs.rules
-* /usr/share/doc/nfs-utils-2.8.2/COPYING
-* /usr/share/doc/nfs-utils-2.8.2/INSTALL
-* /usr/share/doc/nfs-utils-2.8.2/NEWS
-* /usr/share/doc/nfs-utils-2.8.2/README
+* /usr/share/doc/nfs-utils-2.8.3/COPYING
+* /usr/share/doc/nfs-utils-2.8.3/INSTALL
+* /usr/share/doc/nfs-utils-2.8.3/NEWS
+* /usr/share/doc/nfs-utils-2.8.3/README
 * /usr/share/man/man3/nfs4_uid_to_name.3.gz
 * /usr/share/man/man5/exports.5.gz
 * /usr/share/man/man5/nfs.5.gz

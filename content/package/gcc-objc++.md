@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gcc-objc++ 14_20250322-1"
-version = "14_20250322-1"
+title = "gcc-objc++ 14_20250329-1"
+version = "14_20250329-1"
 description = "Objective-C++ support for GCC"
-date = "2025-03-24T11:35:27"
+date = "2025-03-31T08:59:40"
 aliases = "/packages/10528"
 categories = ['devel-extra']
 upstreamurl = "http://gcc.gnu.org"
 arch = "x86_64"
-size = "12993588"
+size = "12994096"
 usize = "45051584"
-sha1sum = "72ebe765fe5456964386054a8480eba72f1dc50b"
+sha1sum = "5faf66fd55d7555db8451d914430392a071190bb"
 depends = "['gcc-g++', 'gcc-objc']"
 +++
 ### Description: 
