@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "patch 2.7.6-3"
-version = "2.7.6-3"
+title = "patch 2.8-1"
+version = "2.8-1"
 description = "A utility to apply patch files to original sources"
-date = "2024-08-13T13:57:00"
+date = "2025-03-31T08:17:34"
 aliases = "/packages/2425"
 categories = ['devel']
 upstreamurl = "http://www.gnu.org/software/patch/patch.html"
 arch = "x86_64"
-size = "132296"
-usize = "325832"
-sha1sum = "c165cf17a7a56835ec16470e7b72400912526a70"
+size = "140516"
+usize = "366932"
+sha1sum = "9d8a66a6b825eba04b734c6addd34889c69a873b"
 depends = "['glibc>=2.34', 'xfsprogs-attr>=2.4.47-6']"
 reverse_depends = "['quilt']"
 +++
@@ -19,11 +19,10 @@ A utility to apply patch files to original sources
 
 ### Files: 
 * /usr/bin/patch
-* /usr/share/doc/patch-2.7.6/AUTHORS
-* /usr/share/doc/patch-2.7.6/ChangeLog
-* /usr/share/doc/patch-2.7.6/COPYING
-* /usr/share/doc/patch-2.7.6/INSTALL
-* /usr/share/doc/patch-2.7.6/NEWS
-* /usr/share/doc/patch-2.7.6/README
-* /usr/share/doc/patch-2.7.6/TODO
+* /usr/share/doc/patch-2.8/AUTHORS
+* /usr/share/doc/patch-2.8/ChangeLog
+* /usr/share/doc/patch-2.8/COPYING
+* /usr/share/doc/patch-2.8/INSTALL
+* /usr/share/doc/patch-2.8/NEWS
+* /usr/share/doc/patch-2.8/README
 * /usr/share/man/man1/patch.1.gz
