@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-inih r58-2"
-version = "r58-2"
+title = "lib32-inih r59-1"
+version = "r59-1"
 description = "Simple .INI file parser in C, good for embedded systems ( 32bit )"
-date = "2024-07-02T13:10:13"
+date = "2025-03-31T07:36:25"
 aliases = "/packages/221529"
 categories = ['lib32-extra']
 upstreamurl = "https://github.com/benhoyt/inih"
 arch = "x86_64"
-size = "13456"
-usize = "33954"
-sha1sum = "8e5d5236b9ee6b7e5be9c24cfaa23b45bd2183b3"
+size = "15944"
+usize = "39337"
+sha1sum = "f19fa75b9d03139fd4ba11e895d98ffe8a770d30"
 depends = "[]"
 reverse_depends = "['lib32-gamemode']"
 +++

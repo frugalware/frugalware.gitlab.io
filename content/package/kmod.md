@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kmod 34.1-1"
-version = "34.1-1"
+title = "kmod 34.2-1"
+version = "34.2-1"
 description = "Utilities for inserting and removing modules from the Linux kernel"
-date = "2025-03-06T07:07:24"
+date = "2025-03-31T08:09:54"
 aliases = "/packages/221568"
 categories = ['base']
 upstreamurl = "http://kernel.org"
 arch = "x86_64"
-size = "149920"
-usize = "411963"
-sha1sum = "ff6cf388a6a5d388a368a65b1927de53b3393707"
+size = "150688"
+usize = "412311"
+sha1sum = "1bdd5452b3c1ffe25a7c47f110fcfb50acdf9c52"
 depends = "['openssl>=3.1.0', 'xz>=5.2.4-2', 'zlib-ng', 'zstd>=1.4.4']"
 reverse_depends = "['dracut', 'hwdata', 'intel-gpu-tools', 'inxi', 'iscsi', 'kernel', 'kernel-initrd', 'kernel-lts', 'kernel-lts-initrd', 'libndctl', 'ndctl', 'systemd', 'systemd-nspawn', 'systemd-systemctl', 'systemd-sysvinit']"
 +++
@@ -36,9 +36,9 @@ Utilities for inserting and removing modules from the Linux kernel
 * /usr/share/bash-completion/completions/kmod
 * /usr/share/bash-completion/completions/lsmod
 * /usr/share/bash-completion/completions/rmmod
-* /usr/share/doc/kmod-34.1/COPYING
-* /usr/share/doc/kmod-34.1/NEWS
-* /usr/share/doc/kmod-34.1/README.md
+* /usr/share/doc/kmod-34.2/COPYING
+* /usr/share/doc/kmod-34.2/NEWS
+* /usr/share/doc/kmod-34.2/README.md
 * /usr/share/fish/vendor_functions.d/insmod.fish
 * /usr/share/fish/vendor_functions.d/lsmod.fish
 * /usr/share/fish/vendor_functions.d/rmmod.fish
