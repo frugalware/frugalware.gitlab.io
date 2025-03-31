@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "signal-desktop 7.47.0-1"
-version = "7.47.0-1"
+title = "signal-desktop 7.48.0-1"
+version = "7.48.0-1"
 description = "Signal Private Messenger for Linux"
-date = "2025-03-24T13:44:00"
+date = "2025-03-31T17:09:05"
 aliases = "/packages/220437"
 categories = ['xapps-extra']
 upstreamurl = "https://signal.org"
 arch = "x86_64"
-size = "126034076"
-usize = "442632485"
-sha1sum = "a46fc451729e3789d242a06a01d166da840de1ac"
+size = "92564184"
+usize = "347550922"
+sha1sum = "77442249965a19b0b0f0b5d4cfb1d3bd35ccbcad"
 depends = "['gtk+3', 'hicolor-icon-theme', 'libvips', 'libxscrnsaver']"
 +++
 ### Description: 
@@ -125,11 +125,6 @@ Signal Private Messenger for Linux
 * /usr/lib/signal-desktop/resources.pak
 * /usr/lib/signal-desktop/resources/app-update.yml
 * /usr/lib/signal-desktop/resources/app.asar
-* /usr/lib/signal-desktop/resources/app.asar.unpacked/node_modules/@signalapp/better-sqlite3/build/Release/better_sqlite3.node
-* /usr/lib/signal-desktop/resources/app.asar.unpacked/node_modules/@signalapp/libsignal-client/prebuilds/linux-x64/@signalapp+libsignal-client.node
-* /usr/lib/signal-desktop/resources/app.asar.unpacked/node_modules/@signalapp/ringrtc/build/linux/libringrtc-x64.node
-* /usr/lib/signal-desktop/resources/app.asar.unpacked/node_modules/fs-xattr/build/Release/xattr.node
-* /usr/lib/signal-desktop/resources/app.asar.unpacked/node_modules/mac-screen-capture-permissions/build/Release/screencapturepermissions.node
 * /usr/lib/signal-desktop/resources/apparmor-profile
 * /usr/lib/signal-desktop/resources/package-type
 * /usr/lib/signal-desktop/signal-desktop
@@ -137,8 +132,8 @@ Signal Private Messenger for Linux
 * /usr/lib/signal-desktop/v8_context_snapshot.bin
 * /usr/lib/signal-desktop/vk_swiftshader_icd.json
 * /usr/share/applications/signal-desktop.desktop
-* /usr/share/doc/signal-desktop-7.47.0/LICENSE
-* /usr/share/doc/signal-desktop-7.47.0/README.md
+* /usr/share/doc/signal-desktop-7.48.0/LICENSE
+* /usr/share/doc/signal-desktop-7.48.0/README.md
 * /usr/share/icons/hicolor/1024x1024/apps/signal-desktop.png
 * /usr/share/icons/hicolor/128x128/apps/signal-desktop.png
 * /usr/share/icons/hicolor/16x16/apps/signal-desktop.png
