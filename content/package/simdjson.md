@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "simdjson 3.12.2-1"
-version = "3.12.2-1"
+title = "simdjson 3.12.3-1"
+version = "3.12.3-1"
 description = "A C++ library to see how fast we can parse JSON with complete validation."
-date = "2025-02-15T18:51:38"
+date = "2025-04-01T08:12:58"
 aliases = "/packages/221493"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/simdjson/simdjson"
 arch = "x86_64"
-size = "238464"
-usize = "5468135"
-sha1sum = "7c57467c26514cdb54cf710fd55967232bf6b66a"
+size = "239456"
+usize = "5498928"
+sha1sum = "ec98b9b5de8685533887d01f2f520a3d4ccd20ba"
 depends = "['glibc']"
 +++
 ### Description: 
@@ -26,7 +26,7 @@ A C++ library to see how fast we can parse JSON with complete validation.
 * /usr/lib/libsimdjson.so.25
 * /usr/lib/libsimdjson.so.25.0.0
 * /usr/lib/pkgconfig/simdjson.pc
-* /usr/share/doc/simdjson-3.12.2/AUTHORS
-* /usr/share/doc/simdjson-3.12.2/CONTRIBUTORS
-* /usr/share/doc/simdjson-3.12.2/LICENSE
-* /usr/share/doc/simdjson-3.12.2/README.md
+* /usr/share/doc/simdjson-3.12.3/AUTHORS
+* /usr/share/doc/simdjson-3.12.3/CONTRIBUTORS
+* /usr/share/doc/simdjson-3.12.3/LICENSE
+* /usr/share/doc/simdjson-3.12.3/README.md

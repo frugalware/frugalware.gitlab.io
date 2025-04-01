@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libdatachannel 0.22.6-1"
-version = "0.22.6-1"
+title = "libdatachannel 0.22.6-2"
+version = "0.22.6-2"
 description = "C/C++ WebRTC network library featuring Data Channels, Media Transport, and WebSockets"
-date = "2025-03-17T21:46:17"
+date = "2025-04-01T08:11:59"
 aliases = "/packages/222607"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/paullouisageneau/libdatachannel"
 arch = "x86_64"
-size = "538332"
+size = "538264"
 usize = "2058874"
-sha1sum = "923f11916ea36059e71024c9b9349b1d0291dea1"
-depends = "['libjuice', 'libsrtp', 'libstdc++', 'openssl', 'usrsctp']"
+sha1sum = "8eacd5be4488d4842a6ab39474382281e1333855"
+depends = "['libjuice>=1.6.0', 'libsrtp', 'libstdc++', 'openssl', 'usrsctp']"
 reverse_depends = "['obs-studio']"
 +++
 ### Description: 
