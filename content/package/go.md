@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "go 1.24.1-2"
-version = "1.24.1-2"
+title = "go 1.24.2-1"
+version = "1.24.2-1"
 description = "Compiler and tools for the Go programming language from Google"
-date = "2025-03-06T07:31:49"
+date = "2025-04-01T21:16:25"
 aliases = "/packages/200076"
 categories = ['devel-extra']
 upstreamurl = "http://golang.org/"
 arch = "x86_64"
-size = "118655572"
-usize = "327326382"
-sha1sum = "4796c0645bb2bb9451de4b2dd17a39ea74b6e52f"
+size = "118671984"
+usize = "327358369"
+sha1sum = "e521c221200e0c74487deee830cd241cea478396"
 depends = "['gawk', 'perl>=5.28.2']"
 reverse_depends = "['audit-go']"
 +++
@@ -9840,6 +9840,7 @@ Compiler and tools for the Go programming language from Google
 * /usr/lib/go/src/runtime/testdata/testprogcgo/bindm.c
 * /usr/lib/go/src/runtime/testdata/testprogcgo/bindm.go
 * /usr/lib/go/src/runtime/testdata/testprogcgo/callback.go
+* /usr/lib/go/src/runtime/testdata/testprogcgo/callback_pprof.go
 * /usr/lib/go/src/runtime/testdata/testprogcgo/catchpanic.go
 * /usr/lib/go/src/runtime/testdata/testprogcgo/cgo.go
 * /usr/lib/go/src/runtime/testdata/testprogcgo/cgonocallback.c
@@ -13220,6 +13221,8 @@ Compiler and tools for the Go programming language from Google
 * /usr/lib/go/test/fixedbugs/issue71852.go
 * /usr/lib/go/test/fixedbugs/issue71857.go
 * /usr/lib/go/test/fixedbugs/issue71932.go
+* /usr/lib/go/test/fixedbugs/issue72063.go
+* /usr/lib/go/test/fixedbugs/issue72090.go
 * /usr/lib/go/test/fixedbugs/issue7214.go
 * /usr/lib/go/test/fixedbugs/issue7223.go
 * /usr/lib/go/test/fixedbugs/issue7272.go
@@ -14154,9 +14157,9 @@ Compiler and tools for the Go programming language from Google
 * /usr/lib/go/test/writebarrier.go
 * /usr/lib/go/test/zerodivide.go
 * /usr/lib/go/test/zerosize.go
-* /usr/share/doc/go-1.24.1/LICENSE
-* /usr/share/doc/go-1.24.1/README.md
-* /usr/share/doc/go-1.24.1/VERSION
+* /usr/share/doc/go-1.24.2/LICENSE
+* /usr/share/doc/go-1.24.2/README.md
+* /usr/share/doc/go-1.24.2/VERSION
 * /usr/share/go/doc/asm.html
 * /usr/share/go/doc/go1.17_spec.html
 * /usr/share/go/doc/godebug.md
