@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "duplicati 2.1.0.111-1"
-version = "2.1.0.111-1"
+title = "duplicati 2.1.0.112-1"
+version = "2.1.0.112-1"
 description = "A free backup client that securely stores encrypted, incremental, compressed backups on cloud storage services and remote file servers"
-date = "2025-03-16T13:00:22"
+date = "2025-04-01T12:44:02"
 aliases = "/packages/219894"
 categories = ['xapps-extra']
 upstreamurl = "http://duplicati.com"
 arch = "x86_64"
-size = "64251584"
-usize = "197990634"
-sha1sum = "21db3a1a3b7adc0b9ad9c9f7d667f87c6dbd4b27"
+size = "64306856"
+usize = "198178907"
+sha1sum = "30eebabe04365fdb20116a46397af9acbc3ee9b0"
 depends = "['lttng-ust12']"
 +++
 ### Description: 
@@ -124,7 +124,6 @@ A free backup client that securely stores encrypted, incremental, compressed bac
 * /opt/duplicati/Duplicati.Library.Backend.AzureBlob.dll
 * /opt/duplicati/Duplicati.Library.Backend.Backblaze.dll
 * /opt/duplicati/Duplicati.Library.Backend.Box.dll
-* /opt/duplicati/Duplicati.Library.Backend.CIFS.dll
 * /opt/duplicati/Duplicati.Library.Backend.CloudFiles.dll
 * /opt/duplicati/Duplicati.Library.Backend.Dropbox.dll
 * /opt/duplicati/Duplicati.Library.Backend.File.dll
@@ -140,6 +139,7 @@ A free backup client that securely stores encrypted, incremental, compressed bac
 * /opt/duplicati/Duplicati.Library.Backend.S3.dll
 * /opt/duplicati/Duplicati.Library.Backend.SharePoint.dll
 * /opt/duplicati/Duplicati.Library.Backend.Sia.dll
+* /opt/duplicati/Duplicati.Library.Backend.SMB.dll
 * /opt/duplicati/Duplicati.Library.Backend.SSHv2.dll
 * /opt/duplicati/Duplicati.Library.Backend.Storj.dll
 * /opt/duplicati/Duplicati.Library.Backend.TahoeLAFS.dll
@@ -1020,7 +1020,6 @@ A free backup client that securely stores encrypted, incremental, compressed bac
 * /opt/duplicati/webroot/ngax/templates/backends/aliyunoss.html
 * /opt/duplicati/webroot/ngax/templates/backends/azure.html
 * /opt/duplicati/webroot/ngax/templates/backends/b2.html
-* /opt/duplicati/webroot/ngax/templates/backends/cifs.html
 * /opt/duplicati/webroot/ngax/templates/backends/cos.html
 * /opt/duplicati/webroot/ngax/templates/backends/e2.html
 * /opt/duplicati/webroot/ngax/templates/backends/file.html
@@ -1037,6 +1036,7 @@ A free backup client that securely stores encrypted, incremental, compressed bac
 * /opt/duplicati/webroot/ngax/templates/backends/s3.html
 * /opt/duplicati/webroot/ngax/templates/backends/sharepoint.html
 * /opt/duplicati/webroot/ngax/templates/backends/sia.html
+* /opt/duplicati/webroot/ngax/templates/backends/smb.html
 * /opt/duplicati/webroot/ngax/templates/backends/storj.html
 * /opt/duplicati/webroot/ngax/templates/backup-result/box.html
 * /opt/duplicati/webroot/ngax/templates/backup-result/entryline.html

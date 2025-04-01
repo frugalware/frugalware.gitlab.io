@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "inkscape 1.4-8"
-version = "1.4-8"
+title = "inkscape 1.4.1-1"
+version = "1.4.1-1"
 description = "A vector illustrator program"
-date = "2025-03-05T09:43:06"
+date = "2025-04-01T12:29:54"
 aliases = "/packages/3102"
 categories = ['xapps-extra']
 upstreamurl = "https://www.inkscape.org/"
 arch = "x86_64"
-size = "25908144"
-usize = "183466051"
-sha1sum = "f6196eebf2d0e1877d362812d5adee64db51b611"
+size = "25896100"
+usize = "183680631"
+sha1sum = "30812a897304b97195379c85df030cfaa5d3639b"
 depends = "['dbus', 'double-conversion', 'gdl', 'graphicsmagick', 'gsl>=2.8', 'gspell>=1.14.0', 'gtkmm3', 'gtksourceview4', 'gtkspell3', 'imagemagick', 'jemalloc', 'libboost>=1.87.0', 'libcdr', 'libgc', 'libgomp', 'libsoup', 'libvisio', 'libxslt', 'poppler-glib>=25.03.0', 'potrace']"
 +++
 ### Description: 
@@ -114,16 +114,16 @@ A vector illustrator program
 * /usr/lib/cmake/2Geom/2GeomTargets-release.cmake
 * /usr/lib/cmake/2Geom/2GeomTargets.cmake
 * /usr/lib/inkscape/libinkscape_base.so
-* /usr/lib/inkscape/libinkscape_base.so.1.4.0.0
+* /usr/lib/inkscape/libinkscape_base.so.1.4.1.0
 * /usr/lib/lib2geom.so
 * /usr/lib/lib2geom.so.1.4.0
 * /usr/lib/pkgconfig/2geom.pc
 * /usr/share/applications/org.inkscape.Inkscape.desktop
 * /usr/share/bash-completion/completions/inkscape
-* /usr/share/doc/inkscape-1.4/AUTHORS
-* /usr/share/doc/inkscape-1.4/COPYING
-* /usr/share/doc/inkscape-1.4/INSTALL.md
-* /usr/share/doc/inkscape-1.4/README.md
+* /usr/share/doc/inkscape-1.4.1/AUTHORS
+* /usr/share/doc/inkscape-1.4.1/COPYING
+* /usr/share/doc/inkscape-1.4.1/INSTALL.md
+* /usr/share/doc/inkscape-1.4.1/README.md
 * /usr/share/icons/hicolor/16x16/apps/org.inkscape.Inkscape.png
 * /usr/share/icons/hicolor/22x22/apps/org.inkscape.Inkscape.png
 * /usr/share/icons/hicolor/24x24/apps/org.inkscape.Inkscape.png
@@ -281,6 +281,8 @@ A vector illustrator program
 * /usr/share/inkscape/extensions/cgm_input.inx
 * /usr/share/inkscape/extensions/cgm_input.py
 * /usr/share/inkscape/extensions/cgm_parse.py
+* /usr/share/inkscape/extensions/clean_up_path.inx
+* /usr/share/inkscape/extensions/clean_up_path.py
 * /usr/share/inkscape/extensions/colors.xml
 * /usr/share/inkscape/extensions/color_blackandwhite.inx
 * /usr/share/inkscape/extensions/color_blackandwhite.py
@@ -643,6 +645,7 @@ A vector illustrator program
 * /usr/share/inkscape/extensions/inkex/paths/__init__.py
 * /usr/share/inkscape/extensions/inkex/ports.py
 * /usr/share/inkscape/extensions/inkex/properties.py
+* /usr/share/inkscape/extensions/inkex/py.typed
 * /usr/share/inkscape/extensions/inkex/styles.py
 * /usr/share/inkscape/extensions/inkex/tester/decorators.py
 * /usr/share/inkscape/extensions/inkex/tester/filters.py
@@ -808,9 +811,12 @@ A vector illustrator program
 * /usr/share/inkscape/extensions/other/extension-afdesign/inkaf/parser/types.py
 * /usr/share/inkscape/extensions/other/extension-afdesign/inkaf/parser/utils.py
 * /usr/share/inkscape/extensions/other/extension-afdesign/inkaf/parser/__init__.py
+* /usr/share/inkscape/extensions/other/extension-afdesign/inkaf/svg/adjustment.py
 * /usr/share/inkscape/extensions/other/extension-afdesign/inkaf/svg/convert.py
 * /usr/share/inkscape/extensions/other/extension-afdesign/inkaf/svg/curve.py
+* /usr/share/inkscape/extensions/other/extension-afdesign/inkaf/svg/enhance.py
 * /usr/share/inkscape/extensions/other/extension-afdesign/inkaf/svg/fill.py
+* /usr/share/inkscape/extensions/other/extension-afdesign/inkaf/svg/raster.py
 * /usr/share/inkscape/extensions/other/extension-afdesign/inkaf/svg/shape.py
 * /usr/share/inkscape/extensions/other/extension-afdesign/inkaf/svg/styles.py
 * /usr/share/inkscape/extensions/other/extension-afdesign/inkaf/svg/text.py
@@ -4697,7 +4703,8 @@ A vector illustrator program
 * /usr/share/inkscape/ui/highlight-colors.css
 * /usr/share/inkscape/ui/image-properties.glade
 * /usr/share/inkscape/ui/inkscape-about.glade
-* /usr/share/inkscape/ui/inkscape-start.glade
+* /usr/share/inkscape/ui/inkscape-splash.glade
+* /usr/share/inkscape/ui/inkscape-welcome.glade
 * /usr/share/inkscape/ui/inkview-controls.ui
 * /usr/share/inkscape/ui/inline-css.lang
 * /usr/share/inkscape/ui/mac.css
@@ -4739,6 +4746,7 @@ A vector illustrator program
 * /usr/share/inkscape/ui/toolbar-measure.ui
 * /usr/share/inkscape/ui/toolbar-mesh.ui
 * /usr/share/inkscape/ui/toolbar-node.ui
+* /usr/share/inkscape/ui/toolbar-objectpicker.ui
 * /usr/share/inkscape/ui/toolbar-page.ui
 * /usr/share/inkscape/ui/toolbar-paintbucket.ui
 * /usr/share/inkscape/ui/toolbar-pencil.ui
