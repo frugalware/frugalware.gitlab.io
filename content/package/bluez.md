@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "bluez 5.80-1"
-version = "5.80-1"
+title = "bluez 5.81-1"
+version = "5.81-1"
 description = "Library to use the BlueZ Linux Bluetooth stack"
-date = "2025-03-18T08:27:10"
+date = "2025-04-01T18:34:50"
 aliases = "/packages/74581"
 categories = ['apps']
 upstreamurl = "http://bluez.sourceforge.net/"
 arch = "x86_64"
-size = "1983488"
-usize = "6696599"
-sha1sum = "3da00acba8150ea1c173da7f3cab9c227d4fd889"
+size = "1958972"
+usize = "6587517"
+sha1sum = "3ba8bed5697a2a51b28c7f4f369f00b40643bc2b"
 depends = "['alsa-lib', 'dbus>=1.10.16-3', 'ell', 'glib2>=2.50.0', 'libical>=3.0.3', 'libsystemd>=242-3', 'libudev>=242-3', 'readline>=8.0']"
 reverse_depends = "['anyremote', 'enlightenment', 'gammu', 'gnokii', 'gpsd', 'gst1-plugins-bad-bluez', 'kvm', 'ofono', 'pulseaudio-bluetooth', 'pybluez', 'qemu', 'qt5-connectivity', 'qt6-connectivity', 'supertuxkart']"
 +++
@@ -112,13 +112,13 @@ Library to use the BlueZ Linux Bluetooth stack
 * /usr/share/dbus-1/system.d/bluetooth-mesh.conf
 * /usr/share/dbus-1/system.d/bluetooth.conf
 * /usr/share/dbus-1/system.d/obex.conf
-* /usr/share/doc/bluez-5.80/AUTHORS
-* /usr/share/doc/bluez-5.80/ChangeLog
-* /usr/share/doc/bluez-5.80/COPYING
-* /usr/share/doc/bluez-5.80/COPYING.LIB
-* /usr/share/doc/bluez-5.80/INSTALL
-* /usr/share/doc/bluez-5.80/README
-* /usr/share/doc/bluez-5.80/TODO
+* /usr/share/doc/bluez-5.81/AUTHORS
+* /usr/share/doc/bluez-5.81/ChangeLog
+* /usr/share/doc/bluez-5.81/COPYING
+* /usr/share/doc/bluez-5.81/COPYING.LIB
+* /usr/share/doc/bluez-5.81/INSTALL
+* /usr/share/doc/bluez-5.81/README
+* /usr/share/doc/bluez-5.81/TODO
 * /usr/share/man/man1/bluetoothctl-admin.1.gz
 * /usr/share/man/man1/bluetoothctl-advertise.1.gz
 * /usr/share/man/man1/bluetoothctl-assistant.1.gz
@@ -192,6 +192,7 @@ Library to use the BlueZ Linux Bluetooth stack
 * /usr/share/man/man7/hci.7.gz
 * /usr/share/man/man7/l2cap.7.gz
 * /usr/share/man/man7/rfcomm.7.gz
+* /usr/share/man/man7/sco.7.gz
 * /usr/share/man/man8/bluetooth-meshd.8.gz
 * /usr/share/man/man8/bluetoothd.8.gz
 * /usr/share/zsh/site-functions/_bluetoothctl
