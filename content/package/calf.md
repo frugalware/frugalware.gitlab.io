@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "calf 0.90.5-2"
-version = "0.90.5-2"
+title = "calf 0.90.6-1"
+version = "0.90.6-1"
 description = "LV2/DSSI/LADSPA plug-in suite and standalone Jack host"
-date = "2025-03-25T14:22:37"
+date = "2025-04-01T11:08:40"
 aliases = "/packages/219829"
 categories = ['apps-extra']
 upstreamurl = "https://calf-studio-gear.org"
 arch = "x86_64"
-size = "13416168"
-usize = "22612175"
-sha1sum = "d73355e43f6a7cff44a82a844eb02a1b58535641"
+size = "13419968"
+usize = "22616661"
+sha1sum = "9d6c990bce2b0ae843cf1dd01a44cf7fd9f75d9a"
 depends = "['dssi', 'fftw', 'fluidsynth>=2.2.5', 'gtk+2']"
 +++
 ### Description: 
@@ -82,6 +82,8 @@ LV2/DSSI/LADSPA plug-in suite and standalone Jack host
 * /usr/lib/lv2/calf.lv2/XOver2Band.ttl
 * /usr/lib/lv2/calf.lv2/XOver3Band.ttl
 * /usr/lib/lv2/calf.lv2/XOver4Band.ttl
+* /usr/share/applications/calf.desktop
+* /usr/share/bash-completion/completions/calf
 * /usr/share/calf/calf-gui.xml
 * /usr/share/calf/gui-analyzer.xml
 * /usr/share/calf/gui-bassenhancer.xml
@@ -714,14 +716,14 @@ LV2/DSSI/LADSPA plug-in suite and standalone Jack host
 * /usr/share/calf/styles/Calf_Wood/tubeH2.png
 * /usr/share/calf/styles/Calf_Wood/tubeV1.png
 * /usr/share/calf/styles/Calf_Wood/tubeV2.png
-* /usr/share/doc/calf-0.90.5/AUTHORS
-* /usr/share/doc/calf-0.90.5/ChangeLog
-* /usr/share/doc/calf-0.90.5/COPYING
-* /usr/share/doc/calf-0.90.5/COPYING.GPL
-* /usr/share/doc/calf-0.90.5/INSTALL
-* /usr/share/doc/calf-0.90.5/INSTALL-AUTOMAKE
-* /usr/share/doc/calf-0.90.5/README.md
-* /usr/share/doc/calf-0.90.5/TODO
+* /usr/share/doc/calf-0.90.6/AUTHORS
+* /usr/share/doc/calf-0.90.6/ChangeLog
+* /usr/share/doc/calf-0.90.6/COPYING
+* /usr/share/doc/calf-0.90.6/COPYING.GPL
+* /usr/share/doc/calf-0.90.6/INSTALL
+* /usr/share/doc/calf-0.90.6/INSTALL-AUTOMAKE
+* /usr/share/doc/calf-0.90.6/README.md
+* /usr/share/doc/calf-0.90.6/TODO
 * /usr/share/doc/calf/About.html
 * /usr/share/doc/calf/Analyzer.html
 * /usr/share/doc/calf/Bass Enhancer.html
@@ -881,3 +883,5 @@ LV2/DSSI/LADSPA plug-in suite and standalone Jack host
 * /usr/share/icons/hicolor/64x64/apps/calf_plugin.png
 * /usr/share/icons/hicolor/scalable/apps/calf.svg
 * /usr/share/icons/hicolor/scalable/apps/calf_plugin.svg
+* /usr/share/man/man1/calfjackhost.1.gz
+* /usr/share/man/man7/calf.7.gz
