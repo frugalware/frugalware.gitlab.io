@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "sof-firmware 2025.01-1"
-version = "2025.01-1"
+title = "sof-firmware 2025.01.1-1"
+version = "2025.01.1-1"
 description = "Sound Open Firmware"
-date = "2025-01-31T19:29:13"
+date = "2025-04-01T06:45:25"
 aliases = "/packages/220320"
 categories = ['base']
 upstreamurl = "https://www.sofproject.org/"
 arch = "x86_64"
-size = "1685644"
-usize = "35546285"
-sha1sum = "335498f761e0b3122be9df867b3b136607810283"
+size = "1636884"
+usize = "35755978"
+sha1sum = "3922c582f3dd331c2f9399991e2af7ac9f450965"
 depends = "['glibc>=2.35']"
 +++
 ### Description: 
@@ -58,10 +58,13 @@ Sound Open Firmware
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-hda-generic.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-lnl-cs42l43-l0-2ch.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-lnl-cs42l43-l0-4ch.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-lnl-cs42l43-l0-cs35l56-l23-2ch.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-lnl-cs42l43-l0-cs35l56-l23-4ch.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-lnl-cs42l43-l0-cs35l56-l23.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-lnl-cs42l43-l0-cs35l56-l3-2ch.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-lnl-cs42l43-l0-cs35l56-l3.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-lnl-cs42l43-l0.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-lnl-cs42l43-l2-cs35l56x6-l13.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-lnl-rt1318-l12-rt714-l0.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-lnl-rt711-4ch.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-lnl-rt711-l0-rt1316-l23-rt714-l1.tplg
@@ -515,5 +518,8 @@ Sound Open Firmware
 * /usr/lib/firmware/intel/sof/sof-tgl-h.ri
 * /usr/lib/firmware/intel/sof/sof-tgl.ldc
 * /usr/lib/firmware/intel/sof/sof-tgl.ri
-* /usr/share/doc/sof-firmware-2025.01/README.Intel
-* /usr/share/doc/sof-firmware-2025.01/README.md
+* /usr/share/doc/sof-firmware-2025.01.1/AUTHORS
+* /usr/share/doc/sof-firmware-2025.01.1/LICENSE
+* /usr/share/doc/sof-firmware-2025.01.1/README.Intel
+* /usr/share/doc/sof-firmware-2025.01.1/README.md
+* /usr/share/doc/sof-firmware-2025.01.1/README.txt

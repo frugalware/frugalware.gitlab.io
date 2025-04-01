@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-sdl2-compat 2.32.52-1"
-version = "2.32.52-1"
+title = "lib32-sdl2-compat 2.32.54-1"
+version = "2.32.54-1"
 description = "An SDL2 compatibility layer that uses SDL3 behind the scenes. ( 32bit )"
-date = "2025-03-02T18:51:20"
+date = "2025-04-01T07:08:40"
 aliases = "/packages/222621"
 categories = ['lib32-extra']
 upstreamurl = "http://libsdl.org"
 arch = "x86_64"
-size = "402312"
-usize = "2891432"
-sha1sum = "e686fbfe7df51f4e4667ca3cdae07663e2d6d5ff"
+size = "410028"
+usize = "2913042"
+sha1sum = "15141dcdf562c7914e6b0bdda2b8b3e1704ea68e"
 depends = "['lib32-sdl3']"
 +++
 ### Description: 
@@ -110,6 +110,8 @@ An SDL2 compatibility layer that uses SDL3 behind the scenes. ( 32bit )
 * /usr/i686-frugalware-linux/include/SDL2/SDL_version.h
 * /usr/i686-frugalware-linux/include/SDL2/SDL_video.h
 * /usr/i686-frugalware-linux/include/SDL2/SDL_vulkan.h
+* /usr/lib32/cmake/SDL2/sdl2-config-version.cmake
+* /usr/lib32/cmake/SDL2/sdl2-config.cmake
 * /usr/lib32/cmake/SDL2/SDL2Config.cmake
 * /usr/lib32/cmake/SDL2/SDL2ConfigVersion.cmake
 * /usr/lib32/cmake/SDL2/SDL2mainTargets-release.cmake
@@ -120,6 +122,6 @@ An SDL2 compatibility layer that uses SDL3 behind the scenes. ( 32bit )
 * /usr/lib32/cmake/SDL2/SDL2_testTargets.cmake
 * /usr/lib32/libSDL2-2.0.so
 * /usr/lib32/libSDL2-2.0.so.0
-* /usr/lib32/libSDL2-2.0.so.0.3200.52
+* /usr/lib32/libSDL2-2.0.so.0.3200.54
 * /usr/lib32/libSDL2.so
-* /usr/lib32/pkgconfig/sdl2_compat.pc
+* /usr/lib32/pkgconfig/sdl2-compat.pc
