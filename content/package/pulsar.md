@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pulsar 1.126.0-1"
-version = "1.126.0-1"
+title = "pulsar 1.127.1-1"
+version = "1.127.1-1"
 description = "A community-led hyper-hackable text editor, built on electron"
-date = "2025-03-06T08:10:51"
+date = "2025-04-01T11:48:57"
 aliases = "/packages/220902"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/pulsar-edit/pulsar"
 arch = "x86_64"
-size = "158600964"
-usize = "750854441"
-sha1sum = "43ec425bde64af63a955ad82ea826ac3429b545e"
+size = "158725484"
+usize = "751804035"
+sha1sum = "9c2e9b0a7247072f11d3d912d7d6460ce59944f9"
 depends = "['libsecret', 'libxkbfile', 'ripgrep']"
 +++
 ### Description: 
@@ -6952,6 +6952,14 @@ A community-led hyper-hackable text editor, built on electron
 * /opt/Pulsar/resources/app/ppm/node_modules/init-package-json/init-package-json.js
 * /opt/Pulsar/resources/app/ppm/node_modules/init-package-json/LICENSE
 * /opt/Pulsar/resources/app/ppm/node_modules/init-package-json/node_modules/.bin/semver
+* /opt/Pulsar/resources/app/ppm/node_modules/init-package-json/node_modules/mute-stream/LICENSE
+* /opt/Pulsar/resources/app/ppm/node_modules/init-package-json/node_modules/mute-stream/mute.js
+* /opt/Pulsar/resources/app/ppm/node_modules/init-package-json/node_modules/mute-stream/package.json
+* /opt/Pulsar/resources/app/ppm/node_modules/init-package-json/node_modules/mute-stream/README.md
+* /opt/Pulsar/resources/app/ppm/node_modules/init-package-json/node_modules/read/lib/read.js
+* /opt/Pulsar/resources/app/ppm/node_modules/init-package-json/node_modules/read/LICENSE
+* /opt/Pulsar/resources/app/ppm/node_modules/init-package-json/node_modules/read/package.json
+* /opt/Pulsar/resources/app/ppm/node_modules/init-package-json/node_modules/read/README.md
 * /opt/Pulsar/resources/app/ppm/node_modules/init-package-json/node_modules/semver/bin/semver
 * /opt/Pulsar/resources/app/ppm/node_modules/init-package-json/node_modules/semver/LICENSE
 * /opt/Pulsar/resources/app/ppm/node_modules/init-package-json/node_modules/semver/package.json
@@ -8257,8 +8265,8 @@ A community-led hyper-hackable text editor, built on electron
 * /opt/Pulsar/resources/app/ppm/node_modules/ms/license.md
 * /opt/Pulsar/resources/app/ppm/node_modules/ms/package.json
 * /opt/Pulsar/resources/app/ppm/node_modules/ms/readme.md
+* /opt/Pulsar/resources/app/ppm/node_modules/mute-stream/lib/index.js
 * /opt/Pulsar/resources/app/ppm/node_modules/mute-stream/LICENSE
-* /opt/Pulsar/resources/app/ppm/node_modules/mute-stream/mute.js
 * /opt/Pulsar/resources/app/ppm/node_modules/mute-stream/package.json
 * /opt/Pulsar/resources/app/ppm/node_modules/mute-stream/README.md
 * /opt/Pulsar/resources/app/ppm/node_modules/mv/.npmignore
@@ -9586,6 +9594,14 @@ A community-led hyper-hackable text editor, built on electron
 * /opt/Pulsar/resources/app/ppm/node_modules/npm/node_modules/iferr/LICENSE
 * /opt/Pulsar/resources/app/ppm/node_modules/npm/node_modules/iferr/package.json
 * /opt/Pulsar/resources/app/ppm/node_modules/npm/node_modules/iferr/README.md
+* /opt/Pulsar/resources/app/ppm/node_modules/npm/node_modules/mute-stream/LICENSE
+* /opt/Pulsar/resources/app/ppm/node_modules/npm/node_modules/mute-stream/mute.js
+* /opt/Pulsar/resources/app/ppm/node_modules/npm/node_modules/mute-stream/package.json
+* /opt/Pulsar/resources/app/ppm/node_modules/npm/node_modules/mute-stream/README.md
+* /opt/Pulsar/resources/app/ppm/node_modules/npm/node_modules/read/lib/read.js
+* /opt/Pulsar/resources/app/ppm/node_modules/npm/node_modules/read/LICENSE
+* /opt/Pulsar/resources/app/ppm/node_modules/npm/node_modules/read/package.json
+* /opt/Pulsar/resources/app/ppm/node_modules/npm/node_modules/read/README.md
 * /opt/Pulsar/resources/app/ppm/node_modules/npm/node_modules/readable-stream/CONTRIBUTING.md
 * /opt/Pulsar/resources/app/ppm/node_modules/npm/node_modules/readable-stream/errors-browser.js
 * /opt/Pulsar/resources/app/ppm/node_modules/npm/node_modules/readable-stream/errors.js
@@ -10126,6 +10142,14 @@ A community-led hyper-hackable text editor, built on electron
 * /opt/Pulsar/resources/app/ppm/node_modules/promzard/example/npm-init/README.md
 * /opt/Pulsar/resources/app/ppm/node_modules/promzard/example/substack-input.js
 * /opt/Pulsar/resources/app/ppm/node_modules/promzard/LICENSE
+* /opt/Pulsar/resources/app/ppm/node_modules/promzard/node_modules/mute-stream/LICENSE
+* /opt/Pulsar/resources/app/ppm/node_modules/promzard/node_modules/mute-stream/mute.js
+* /opt/Pulsar/resources/app/ppm/node_modules/promzard/node_modules/mute-stream/package.json
+* /opt/Pulsar/resources/app/ppm/node_modules/promzard/node_modules/mute-stream/README.md
+* /opt/Pulsar/resources/app/ppm/node_modules/promzard/node_modules/read/lib/read.js
+* /opt/Pulsar/resources/app/ppm/node_modules/promzard/node_modules/read/LICENSE
+* /opt/Pulsar/resources/app/ppm/node_modules/promzard/node_modules/read/package.json
+* /opt/Pulsar/resources/app/ppm/node_modules/promzard/node_modules/read/README.md
 * /opt/Pulsar/resources/app/ppm/node_modules/promzard/package.json
 * /opt/Pulsar/resources/app/ppm/node_modules/promzard/promzard.js
 * /opt/Pulsar/resources/app/ppm/node_modules/promzard/README.md
@@ -10351,7 +10375,16 @@ A community-led hyper-hackable text editor, built on electron
 * /opt/Pulsar/resources/app/ppm/node_modules/read-package-tree/README.md
 * /opt/Pulsar/resources/app/ppm/node_modules/read-package-tree/realpath.js
 * /opt/Pulsar/resources/app/ppm/node_modules/read-package-tree/rpt.js
-* /opt/Pulsar/resources/app/ppm/node_modules/read/lib/read.js
+* /opt/Pulsar/resources/app/ppm/node_modules/read/dist/commonjs/package.json
+* /opt/Pulsar/resources/app/ppm/node_modules/read/dist/commonjs/read.d.ts
+* /opt/Pulsar/resources/app/ppm/node_modules/read/dist/commonjs/read.d.ts.map
+* /opt/Pulsar/resources/app/ppm/node_modules/read/dist/commonjs/read.js
+* /opt/Pulsar/resources/app/ppm/node_modules/read/dist/commonjs/read.js.map
+* /opt/Pulsar/resources/app/ppm/node_modules/read/dist/esm/package.json
+* /opt/Pulsar/resources/app/ppm/node_modules/read/dist/esm/read.d.ts
+* /opt/Pulsar/resources/app/ppm/node_modules/read/dist/esm/read.d.ts.map
+* /opt/Pulsar/resources/app/ppm/node_modules/read/dist/esm/read.js
+* /opt/Pulsar/resources/app/ppm/node_modules/read/dist/esm/read.js.map
 * /opt/Pulsar/resources/app/ppm/node_modules/read/LICENSE
 * /opt/Pulsar/resources/app/ppm/node_modules/read/package.json
 * /opt/Pulsar/resources/app/ppm/node_modules/read/README.md

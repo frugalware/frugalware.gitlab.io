@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libseafile 9.0.12-1"
-version = "9.0.12-1"
+title = "libseafile 9.0.13-1"
+version = "9.0.13-1"
 description = "Seafile shared lib"
-date = "2025-02-16T12:49:53"
+date = "2025-04-01T11:44:55"
 aliases = "/packages/221032"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/haiwen/seafile"
 arch = "x86_64"
-size = "22024"
-usize = "105725"
-sha1sum = "65d3e172b659c30a15969bece0cc7d29fbefa86c"
+size = "22088"
+usize = "105784"
+sha1sum = "7d34e7a51134b9ec00db41a17f26f86a1fe435ff"
 depends = "['glib2', 'libsearpc']"
 reverse_depends = "['seafile', 'seafile-client']"
 +++
