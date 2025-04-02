@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-faudio 25.03-1"
-version = "25.03-1"
+title = "lib32-faudio 25.04-1"
+version = "25.04-1"
 description = "XAudio2 reimplementation ( 32bit )"
-date = "2025-03-01T19:36:55"
+date = "2025-04-02T14:47:29"
 aliases = "/packages/220097"
 categories = ['lib32-extra']
 upstreamurl = "https://github.com/FNA-XNA/FAudio/"
 arch = "x86_64"
-size = "114192"
-usize = "351866"
-sha1sum = "a47bc182e7699976d7b8366f230c23521b0a7de6"
+size = "114040"
+usize = "351299"
+sha1sum = "9d8494350daa46595036ecfbb467ea4222444684"
 depends = "['lib32-sdl2']"
 reverse_depends = "['wine', 'wine-devel']"
 +++
@@ -31,5 +31,5 @@ XAudio2 reimplementation ( 32bit )
 * /usr/lib32/cmake/FAudio/FAudioConfig.cmake
 * /usr/lib32/libFAudio.so
 * /usr/lib32/libFAudio.so.0
-* /usr/lib32/libFAudio.so.0.25.03
+* /usr/lib32/libFAudio.so.0.25.04
 * /usr/lib32/pkgconfig/FAudio.pc
