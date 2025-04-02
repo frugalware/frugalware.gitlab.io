@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "nodejs 23.10.0-2"
-version = "23.10.0-2"
+title = "nodejs 23.11.0-1"
+version = "23.11.0-1"
 description = "Evented I/O for V8 javascript"
-date = "2025-03-19T09:47:13"
+date = "2025-04-02T15:20:03"
 aliases = "/packages/153770"
 categories = ['devel-extra']
 upstreamurl = "https://nodejs.org/"
 arch = "x86_64"
-size = "16393824"
-usize = "75850909"
-sha1sum = "24504d1a2e6d77900215fa4d6d979b092586591a"
+size = "16388644"
+usize = "75855168"
+sha1sum = "c2acdbb282f1e6d545a85ea7b7682294cf292ebc"
 depends = "['brotli', 'c-ares', 'icu4c>=77.1', 'libuv', 'nghttp2', 'nghttp3', 'ngtcp2', 'openssl>=3.1.0', 'python3-setuptools']"
 license = "MIT"
 +++
@@ -2565,6 +2565,6 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/README.md
 * /usr/share/doc/node/gdbinit
 * /usr/share/doc/node/lldb_commands.py
-* /usr/share/doc/nodejs-23.10.0/LICENSE
-* /usr/share/doc/nodejs-23.10.0/README.md
+* /usr/share/doc/nodejs-23.11.0/LICENSE
+* /usr/share/doc/nodejs-23.11.0/README.md
 * /usr/share/man/man1/node.1.gz
