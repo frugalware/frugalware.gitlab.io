@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "plasma-activities 6.3.3-2"
-version = "6.3.3-2"
+title = "plasma-activities 6.3.4-1"
+version = "6.3.4-1"
 description = "The KActivity Manager Daemon."
-date = "2025-03-27T16:59:42"
+date = "2025-04-02T10:05:49"
 aliases = "/packages/221374"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "116472"
+size = "116524"
 usize = "441316"
-sha1sum = "903c47da2ebfc65f03bbb93bbf10f27f65eeb90f"
+sha1sum = "24db5a180cb77f21bb0860d15a59e6a2c56c3255"
 depends = "['kio>=6.12.0']"
 reverse_depends = "['dolphin', 'gwenview', 'kdeplasma-addons', 'konqueror', 'krdc', 'kwin', 'libplasma', 'okular', 'plasma-activities-stats', 'plasma-browser-integration', 'skrooge', 'systemsettings']"
 +++
@@ -39,16 +39,16 @@ The KActivity Manager Daemon.
 * /usr/lib/cmake/PlasmaActivities/PlasmaActivitiesLibraryTargets.cmake
 * /usr/lib/libPlasmaActivities.so
 * /usr/lib/libPlasmaActivities.so.6
-* /usr/lib/libPlasmaActivities.so.6.3.3
+* /usr/lib/libPlasmaActivities.so.6.3.4
 * /usr/lib/pkgconfig/PlasmaActivities.pc
 * /usr/lib/qt6/qml/org/kde/activities/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/activities/libplasmaactivitiesextensionplugin.so
 * /usr/lib/qt6/qml/org/kde/activities/plasmaactivitiesextensionplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/activities/qmldir
-* /usr/share/doc/plasma-activities-6.3.3/README
-* /usr/share/doc/plasma-activities-6.3.3/README.developers
-* /usr/share/doc/plasma-activities-6.3.3/README.md
-* /usr/share/doc/plasma-activities-6.3.3/README.packagers
-* /usr/share/doc/plasma-activities-6.3.3/TODO
+* /usr/share/doc/plasma-activities-6.3.4/README
+* /usr/share/doc/plasma-activities-6.3.4/README.developers
+* /usr/share/doc/plasma-activities-6.3.4/README.md
+* /usr/share/doc/plasma-activities-6.3.4/README.packagers
+* /usr/share/doc/plasma-activities-6.3.4/TODO
 * /usr/share/qlogging-categories6/plasma-activities.categories
 * /usr/share/qlogging-categories6/plasma-activities.renamecategories

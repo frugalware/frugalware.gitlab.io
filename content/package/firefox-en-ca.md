@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-en-ca 136.0.2-1"
-version = "136.0.2-1"
+title = "firefox-en-ca 137.0-1"
+version = "137.0-1"
 description = "Canadian English language support for Firefox"
-date = "2025-03-18T13:33:44"
+date = "2025-04-02T09:34:35"
 aliases = "/packages/219735"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "350724"
-usize = "405853"
-sha1sum = "5635ed17a9605958f77bdb596a555696e77c6806"
-depends = "['firefox>=136.0.2']"
+size = "357324"
+usize = "413415"
+sha1sum = "d7eef7cc8954f2c1ceff3d5d371d6e8617448957"
+depends = "['firefox>=137.0']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

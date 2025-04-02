@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-szl 136.0.2-1"
-version = "136.0.2-1"
+title = "firefox-szl 137.0-1"
+version = "137.0-1"
 description = "Silesian language support for Firefox"
-date = "2025-03-18T13:33:44"
+date = "2025-04-02T09:34:35"
 aliases = "/packages/220397"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "289768"
-usize = "344445"
-sha1sum = "34386f25b9582f165b00df3afb32e03ec71327c4"
-depends = "['firefox>=136.0.2']"
+size = "294384"
+usize = "349494"
+sha1sum = "b7787194e2a3c72f4ba54fffd6a1f32dcb979501"
+depends = "['firefox>=137.0']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

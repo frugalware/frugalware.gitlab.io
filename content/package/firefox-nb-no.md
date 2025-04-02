@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-nb-no 136.0.2-1"
-version = "136.0.2-1"
+title = "firefox-nb-no 137.0-1"
+version = "137.0-1"
 description = "Norwegian Bokmål language support for Firefox"
-date = "2025-03-18T13:33:44"
+date = "2025-04-02T09:34:35"
 aliases = "/packages/39358"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "361220"
-usize = "416124"
-sha1sum = "849edaaaff4f36d59b8091bf60ee4ddf68026b0c"
-depends = "['firefox>=136.0.2']"
+size = "364420"
+usize = "425884"
+sha1sum = "72fcc64c156f92b8a6355c89bfb98dec589df62b"
+depends = "['firefox>=137.0']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-pt-br 136.0.2-1"
-version = "136.0.2-1"
+title = "firefox-pt-br 137.0-1"
+version = "137.0-1"
 description = "Brazilian Portuguese language support for Firefox"
-date = "2025-03-18T13:33:44"
+date = "2025-04-02T09:34:35"
 aliases = "/packages/39360"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "380288"
-usize = "434764"
-sha1sum = "9deb78a9f21f4303dc15bc1a6465ae47678f522a"
-depends = "['firefox>=136.0.2']"
+size = "387672"
+usize = "442501"
+sha1sum = "ccc1a758e3d325bd060d0353747c227cb8943ef8"
+depends = "['firefox>=137.0']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

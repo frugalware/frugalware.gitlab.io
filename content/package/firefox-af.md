@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-af 136.0.2-1"
-version = "136.0.2-1"
+title = "firefox-af 137.0-1"
+version = "137.0-1"
 description = "Afrikaans language support for Firefox"
-date = "2025-03-18T13:33:44"
+date = "2025-04-02T09:34:35"
 aliases = "/packages/3571"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "211340"
-usize = "266788"
-sha1sum = "4b37b02c6888205e3c0b2db907ca2413499b6cd0"
-depends = "['firefox>=136.0.2']"
+size = "216592"
+usize = "272237"
+sha1sum = "da8b6a33d4df1fb8c46ec64a2439bec4f464a52a"
+depends = "['firefox>=137.0']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

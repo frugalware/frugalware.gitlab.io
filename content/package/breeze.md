@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "breeze 6.3.3-2"
-version = "6.3.3-2"
+title = "breeze 6.3.4-1"
+version = "6.3.4-1"
 description = "Artwork, styles and assets for the Breeze visual style for the Plasma Desktop."
-date = "2025-03-27T16:55:43"
+date = "2025-04-02T10:00:29"
 aliases = "/packages/218256"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "44816844"
-usize = "75323324"
-sha1sum = "77123ee76cbe5d16c057a7a1038f418940fdeea6"
-depends = "['frameworkintegration>=6.12.0', 'kcmutils>=6.12.0', 'kcolorscheme>=6.12.0', 'kconfig>=6.12.0', 'kcoreaddons>=6.12.0', 'kdecoration>=6.3.3', 'kguiaddons>=6.12.0', 'ki18n>=6.12.0', 'kiconthemes>=6.12.0', 'kirigami>=6.12.0', 'kwindowsystem>=6.12.0']"
+size = "44815856"
+usize = "75319833"
+sha1sum = "a9e9e5cb3c2aeaa40ca200fad2f0dc9ec028c324"
+depends = "['frameworkintegration>=6.12.0', 'kcmutils>=6.12.0', 'kcolorscheme>=6.12.0', 'kconfig>=6.12.0', 'kcoreaddons>=6.12.0', 'kdecoration>=6.3.4', 'kguiaddons>=6.12.0', 'ki18n>=6.12.0', 'kiconthemes>=6.12.0', 'kirigami>=6.12.0', 'kwindowsystem>=6.12.0']"
 reverse_depends = "['kwin', 'plasma-integration']"
 +++
 ### Description: 
@@ -31,8 +31,8 @@ Artwork, styles and assets for the Breeze visual style for the Plasma Desktop.
 * /usr/share/color-schemes/BreezeClassic.colors
 * /usr/share/color-schemes/BreezeDark.colors
 * /usr/share/color-schemes/BreezeLight.colors
-* /usr/share/doc/breeze-6.3.3/AUTHORS
-* /usr/share/doc/breeze-6.3.3/README.md
+* /usr/share/doc/breeze-6.3.4/AUTHORS
+* /usr/share/doc/breeze-6.3.4/README.md
 * /usr/share/icons/breeze_cursors/cursors/00000000000000020006000e7e9ffc3f
 * /usr/share/icons/breeze_cursors/cursors/00008160000006810000408080010102
 * /usr/share/icons/breeze_cursors/cursors/03b6e0fcb3499374a867c041f52298f0

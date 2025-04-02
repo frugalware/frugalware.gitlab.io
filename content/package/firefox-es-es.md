@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-es-es 136.0.2-1"
-version = "136.0.2-1"
+title = "firefox-es-es 137.0-1"
+version = "137.0-1"
 description = "Castilian Spanish language support for Firefox"
-date = "2025-03-18T13:33:44"
+date = "2025-04-02T09:34:35"
 aliases = "/packages/39354"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "386568"
-usize = "441184"
-sha1sum = "7b7c312685dd8150f49b691153316b660129dc5f"
-depends = "['firefox>=136.0.2']"
+size = "394500"
+usize = "448964"
+sha1sum = "3e683c7c92e794fbe47a56287419f2dd6cd1965a"
+depends = "['firefox>=137.0']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

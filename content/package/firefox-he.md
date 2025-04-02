@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-he 136.0.2-1"
-version = "136.0.2-1"
+title = "firefox-he 137.0-1"
+version = "137.0-1"
 description = "Hebrew language support for Firefox"
-date = "2025-03-18T13:33:44"
+date = "2025-04-02T09:34:35"
 aliases = "/packages/4420"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "385740"
-usize = "437506"
-sha1sum = "32218e06f411f1023312163894de497cb79fb02e"
-depends = "['firefox>=136.0.2']"
+size = "393644"
+usize = "445578"
+sha1sum = "8f94dd45eed7f7cc2b50e1656011062ff357db82"
+depends = "['firefox>=137.0']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 
