@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "plasma-welcome 6.3.3-2"
-version = "6.3.3-2"
+title = "plasma-welcome 6.3.4-1"
+version = "6.3.4-1"
 description = "A friendly onboarding wizard for Plasma"
-date = "2025-03-28T10:35:25"
+date = "2025-04-02T11:20:29"
 aliases = "/packages/220919"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "808496"
+size = "808568"
 usize = "2909072"
-sha1sum = "a7cac142afd33913b0882558f0f0e2b4caf1622b"
+sha1sum = "1ff13d08201e50dcadb2bf0d420e5efda57989a9"
 depends = "['kaccounts-integration>=24.12.3', 'kirigami>=6.12.0', 'kirigami-addons', 'knewstuff>=6.12.0', 'kuserfeedback', 'libplasma>=']"
 +++
 ### Description: 
@@ -20,7 +20,7 @@ A friendly onboarding wizard for Plasma
 * /usr/bin/plasma-welcome
 * /usr/lib/qt6/plugins/kf6/kded/kded_plasma-welcome.so
 * /usr/share/applications/org.kde.plasma-welcome.desktop
-* /usr/share/doc/plasma-welcome-6.3.3/README.md
+* /usr/share/doc/plasma-welcome-6.3.4/README.md
 * /usr/share/locale/ar/LC_MESSAGES/plasma-welcome.mo
 * /usr/share/locale/ast/LC_MESSAGES/plasma-welcome.mo
 * /usr/share/locale/az/LC_MESSAGES/plasma-welcome.mo

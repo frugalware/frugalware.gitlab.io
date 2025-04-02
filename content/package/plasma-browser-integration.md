@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "plasma-browser-integration 6.3.3-2"
-version = "6.3.3-2"
+title = "plasma-browser-integration 6.3.4-1"
+version = "6.3.4-1"
 description = "Qt Platform Theme integration plugins for the Plasma workspaces."
-date = "2025-03-28T10:34:25"
+date = "2025-04-02T11:19:17"
 aliases = "/packages/219689"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "163332"
+size = "163500"
 usize = "612613"
-sha1sum = "372b941fbf595bb1e9581b8d0412852142cbdb85"
-depends = "['kconfig>=6.12.0', 'kdbusaddons>=6.12.0', 'kfilemetadata>=6.12.0', 'ki18n>=6.12.0', 'kio>=6.12.0', 'knotifications>=6.12.0', 'krunner>=6.12.0', 'kstatusnotifieritem>=6.12.0', 'kwindowsystem>=6.12.0', 'plasma-activities>=6.3.3', 'plasma-workspace>=6.3.3', 'purpose>=6.12.0']"
+sha1sum = "0d09c99da422b703a8a258743549fdd4f8059705"
+depends = "['kconfig>=6.12.0', 'kdbusaddons>=6.12.0', 'kfilemetadata>=6.12.0', 'ki18n>=6.12.0', 'kio>=6.12.0', 'knotifications>=6.12.0', 'krunner>=6.12.0', 'kstatusnotifieritem>=6.12.0', 'kwindowsystem>=6.12.0', 'plasma-activities>=6.3.4', 'plasma-workspace>=6.3.4', 'purpose>=6.12.0']"
 +++
 ### Description: 
 Qt Platform Theme integration plugins for the Plasma workspaces.
@@ -25,9 +25,9 @@ Qt Platform Theme integration plugins for the Plasma workspaces.
 * /usr/lib/qt6/plugins/kf6/kded/browserintegrationflatpakintegrator.so
 * /usr/lib/qt6/plugins/kf6/kded/browserintegrationreminder.so
 * /usr/share/applications/org.kde.plasma.browser_integration.host.desktop
-* /usr/share/doc/plasma-browser-integration-6.3.3/COPYING-GPL3
-* /usr/share/doc/plasma-browser-integration-6.3.3/dev_README.txt
-* /usr/share/doc/plasma-browser-integration-6.3.3/README.md
+* /usr/share/doc/plasma-browser-integration-6.3.4/COPYING-GPL3
+* /usr/share/doc/plasma-browser-integration-6.3.4/dev_README.txt
+* /usr/share/doc/plasma-browser-integration-6.3.4/README.md
 * /usr/share/krunner/dbusplugins/plasma-runner-browserhistory.desktop
 * /usr/share/krunner/dbusplugins/plasma-runner-browsertabs.desktop
 * /usr/share/locale/ar/LC_MESSAGES/plasma-browser-integration-host.mo
