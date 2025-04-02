@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "plasma-wayland-session 6.3.3-3"
-version = "6.3.3-3"
+title = "plasma-wayland-session 6.3.4-1"
+version = "6.3.4-1"
 description = "Plasma Wayland session"
-date = "2025-03-27T17:50:19"
+date = "2025-04-02T10:49:15"
 aliases = "/packages/218403"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "80364"
-usize = "211456"
-sha1sum = "034d23b1eb1009a526e8b78f1ace94f3bcddd6e5"
+size = "80432"
+usize = "211515"
+sha1sum = "a9d388a2bfc3b5f2fa6ee59197dd0b8abc626afe"
 depends = "['appmenu-gtk', 'iso-codes', 'kio-fuse', 'kpipewire', 'kwayland-integration', 'plasma-workspace', 'qt6-wayland', 'xdg-desktop-portal', 'xdg-desktop-portal-kde', 'xorg-server-xwayland']"
 +++
 ### Description: 

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "plasma5support 6.3.3-2"
-version = "6.3.3-2"
+title = "plasma5support 6.3.4-1"
+version = "6.3.4-1"
 description = "Support components for porting from KF5/Qt5 to KF6/Qt6"
-date = "2025-03-27T17:37:41"
+date = "2025-04-02T10:35:50"
 aliases = "/packages/221377"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "390740"
+size = "390744"
 usize = "1979837"
-sha1sum = "1219c1497aa31a4d50297fb204d525faf70b92bb"
-depends = "['kconfig>=6.12.0', 'kcoreaddons>=6.12.0', 'kguiaddons>=6.12.0', 'ki18n>=6.12.0', 'kidletime>=6.12.0', 'knotifications>=6.12.0', 'libksysguard>=6.3.3', 'solid>=6.12.0']"
+sha1sum = "5e48f0b794f161c7c9da5ab8e620663af7bb8485"
+depends = "['kconfig>=6.12.0', 'kcoreaddons>=6.12.0', 'kguiaddons>=6.12.0', 'ki18n>=6.12.0', 'kidletime>=6.12.0', 'knotifications>=6.12.0', 'libksysguard>=6.3.4', 'solid>=6.12.0']"
 reverse_depends = "['kup', 'plasma-sdk', 'plasma-workspace', 'wacomtablet']"
 +++
 ### Description: 
@@ -42,7 +42,7 @@ Support components for porting from KF5/Qt5 to KF6/Qt6
 * /usr/lib/cmake/Plasma5Support/Plasma5SupportTargets.cmake
 * /usr/lib/libPlasma5Support.so
 * /usr/lib/libPlasma5Support.so.6
-* /usr/lib/libPlasma5Support.so.6.3.3
+* /usr/lib/libPlasma5Support.so.6.3.4
 * /usr/lib/qt6/plugins/plasma5support/dataengine/plasma_engine_apps.so
 * /usr/lib/qt6/plugins/plasma5support/dataengine/plasma_engine_devicenotifications.so
 * /usr/lib/qt6/plugins/plasma5support/dataengine/plasma_engine_favicons.so
@@ -58,7 +58,7 @@ Support components for porting from KF5/Qt5 to KF6/Qt6
 * /usr/lib/qt6/qml/org/kde/plasma/plasma5support/libplasma5supportplugin.so
 * /usr/lib/qt6/qml/org/kde/plasma/plasma5support/plasma5supportplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/plasma/plasma5support/qmldir
-* /usr/share/doc/plasma5support-6.3.3/README.md
+* /usr/share/doc/plasma5support-6.3.4/README.md
 * /usr/share/locale/ar/LC_MESSAGES/libplasma5support.mo
 * /usr/share/locale/ar/LC_MESSAGES/plasma_engine_devicenotifications.mo
 * /usr/share/locale/ar/LC_MESSAGES/plasma_engine_hotplug.mo

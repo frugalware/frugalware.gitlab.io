@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kde-gtk-config 6.3.3-2"
-version = "6.3.3-2"
+title = "kde-gtk-config 6.3.4-1"
+version = "6.3.4-1"
 description = "Config for GTK within KDE"
-date = "2025-03-27T17:29:49"
+date = "2025-04-02T10:25:23"
 aliases = "/packages/218292"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "82076"
+size = "82112"
 usize = "293004"
-sha1sum = "110544dc3c87d1b7077dd32020cb92a093a8a9bd"
-depends = "['gsettings-desktop-schemas', 'harfbuzz', 'kcmutils>=6.12.0', 'kdecoration>=6.3.3', 'knewstuff>=6.12.0', 'qt6-svg', 'xsettingsd']"
+sha1sum = "64dc998abeb1ff38876c9384eb197123360b9a59"
+depends = "['gsettings-desktop-schemas', 'harfbuzz', 'kcmutils>=6.12.0', 'kdecoration>=6.3.4', 'knewstuff>=6.12.0', 'qt6-svg', 'xsettingsd']"
 +++
 ### Description: 
 Config for GTK within KDE
@@ -23,7 +23,7 @@ Config for GTK within KDE
 * /usr/lib/kconf_update_bin/remove_deprecated_gtk4_option
 * /usr/lib/kde-gtk-config/gtk3_preview
 * /usr/lib/qt6/plugins/kf6/kded/gtkconfig.so
-* /usr/share/doc/kde-gtk-config-6.3.3/README.md
+* /usr/share/doc/kde-gtk-config-6.3.4/README.md
 * /usr/share/kcm-gtk-module/preview.ui
 * /usr/share/kconf_update/gtkconfig.upd
 * /usr/share/kconf_update/remove_window_decorations_from_gtk_css.sh

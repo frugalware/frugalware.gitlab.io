@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "bluedevil 6.3.3-2"
-version = "6.3.3-2"
+title = "bluedevil 6.3.4-1"
+version = "6.3.4-1"
 description = "KDE Bluetooth Framework"
-date = "2025-03-27T18:09:42"
+date = "2025-04-02T11:13:06"
 aliases = "/packages/221282"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "525072"
-usize = "2225746"
-sha1sum = "af21b7acc1228882de8a86ab5558f4025f57b970"
-depends = "['bluez-qt>=_F_kf6_full', 'kcmutils>=6.12.0', 'ksvg>=6.12.0', 'libplasma>=6.3.3']"
+size = "525928"
+usize = "2230125"
+sha1sum = "4d3a71b08868a2e76d2f5384a8ce8a7118aca8ef"
+depends = "['bluez-qt>=_F_kf6_full', 'kcmutils>=6.12.0', 'ksvg>=6.12.0', 'libplasma>=6.3.4']"
 +++
 ### Description: 
 KDE Bluetooth Framework
@@ -32,7 +32,7 @@ KDE Bluetooth Framework
 * /usr/share/applications/org.kde.bluedevilsendfile.desktop
 * /usr/share/applications/org.kde.bluedevilwizard.desktop
 * /usr/share/bluedevilwizard/pin-code-database.xml
-* /usr/share/doc/bluedevil-6.3.3/README
+* /usr/share/doc/bluedevil-6.3.4/README
 * /usr/share/doc/HTML/ca/kcontrol/bluedevil/index.cache.bz2
 * /usr/share/doc/HTML/ca/kcontrol/bluedevil/index.docbook
 * /usr/share/doc/HTML/en/kcontrol/bluedevil/bluetooth-add.png

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libksysguard 6.3.3-2"
-version = "6.3.3-2"
+title = "libksysguard 6.3.4-1"
+version = "6.3.4-1"
 description = "Task management and system monitoring library."
-date = "2025-03-27T17:23:03"
+date = "2025-04-02T10:16:34"
 aliases = "/packages/221363"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "539480"
-usize = "3062698"
-sha1sum = "d4695c140cabada7d08b9c0acc521d87ac5de2dc"
+size = "539072"
+usize = "3062771"
+sha1sum = "33ba4abcdc64623220fd238f66ff1b7190c71cb5"
 depends = "['kconfigwidgets>=6.12.0', 'knewstuff>=6.12.0', 'kwindowsystem>=6.12.0', 'libnl', 'libxres>=1.0.7-4', 'lmsensors', 'qt6-webengine>=6.8.3']"
 reverse_depends = "['kdevelop', 'ksystemstats', 'plasma-vault', 'plasma-workspace', 'plasma5support']"
 +++
@@ -62,19 +62,19 @@ Task management and system monitoring library.
 * /usr/lib/kauth/kf6/kauth/ksysguardprocesslist_helper
 * /usr/lib/libKSysGuardFormatter.so
 * /usr/lib/libKSysGuardFormatter.so.2
-* /usr/lib/libKSysGuardFormatter.so.6.3.3
+* /usr/lib/libKSysGuardFormatter.so.6.3.4
 * /usr/lib/libKSysGuardSensorFaces.so
 * /usr/lib/libKSysGuardSensorFaces.so.2
-* /usr/lib/libKSysGuardSensorFaces.so.6.3.3
+* /usr/lib/libKSysGuardSensorFaces.so.6.3.4
 * /usr/lib/libKSysGuardSensors.so
 * /usr/lib/libKSysGuardSensors.so.2
-* /usr/lib/libKSysGuardSensors.so.6.3.3
+* /usr/lib/libKSysGuardSensors.so.6.3.4
 * /usr/lib/libKSysGuardSystemStats.so
 * /usr/lib/libKSysGuardSystemStats.so.2
-* /usr/lib/libKSysGuardSystemStats.so.6.3.3
+* /usr/lib/libKSysGuardSystemStats.so.6.3.4
 * /usr/lib/libprocesscore.so
 * /usr/lib/libprocesscore.so.10
-* /usr/lib/libprocesscore.so.6.3.3
+* /usr/lib/libprocesscore.so.6.3.4
 * /usr/lib/qt6/plugins/kf6/packagestructure/ksysguard_sensorface.so
 * /usr/lib/qt6/plugins/ksysguard/process/ksysguard_plugin_nvidia.so
 * /usr/lib/qt6/qml/org/kde/ksysguard/faces/Choices.qml
