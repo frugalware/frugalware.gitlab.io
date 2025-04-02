@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "meson 1.7.0-1"
-version = "1.7.0-1"
+title = "meson 1.7.1-1"
+version = "1.7.1-1"
 description = "High productivity build system"
-date = "2025-01-27T07:42:33"
+date = "2025-04-02T17:44:30"
 aliases = "/packages/219168"
 categories = ['devel-extra']
 upstreamurl = "http://mesonbuild.com/"
 arch = "x86_64"
-size = "1901108"
-usize = "8795527"
-sha1sum = "03c25219442672fac4715ae03b2703a9b2325ef4"
+size = "1902968"
+usize = "8802347"
+sha1sum = "63c4622766f58a4d339f8bf32ae8cb18b39e9807"
 depends = "['ninja>=1.8.2-2', 'python3>=3.13', 'python3-setuptools']"
 reverse_depends = "['meson-python']"
 +++
@@ -19,12 +19,12 @@ High productivity build system
 
 ### Files: 
 * /usr/bin/meson
-* /usr/lib/python3.13/site-packages/meson-1.7.0-py3.13.egg-info/dependency_links.txt
-* /usr/lib/python3.13/site-packages/meson-1.7.0-py3.13.egg-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/meson-1.7.0-py3.13.egg-info/PKG-INFO
-* /usr/lib/python3.13/site-packages/meson-1.7.0-py3.13.egg-info/requires.txt
-* /usr/lib/python3.13/site-packages/meson-1.7.0-py3.13.egg-info/SOURCES.txt
-* /usr/lib/python3.13/site-packages/meson-1.7.0-py3.13.egg-info/top_level.txt
+* /usr/lib/python3.13/site-packages/meson-1.7.1-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/meson-1.7.1-py3.13.egg-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/meson-1.7.1-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/meson-1.7.1-py3.13.egg-info/requires.txt
+* /usr/lib/python3.13/site-packages/meson-1.7.1-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/meson-1.7.1-py3.13.egg-info/top_level.txt
 * /usr/lib/python3.13/site-packages/mesonbuild/arglist.py
 * /usr/lib/python3.13/site-packages/mesonbuild/ast/interpreter.py
 * /usr/lib/python3.13/site-packages/mesonbuild/ast/introspection.py
@@ -496,7 +496,7 @@ High productivity build system
 * /usr/lib/python3.13/site-packages/mesonbuild/__pycache__/_pathlib.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/mesonbuild/__pycache__/_typing.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/mesonbuild/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/meson-1.7.0/COPYING
-* /usr/share/doc/meson-1.7.0/README.md
+* /usr/share/doc/meson-1.7.1/COPYING
+* /usr/share/doc/meson-1.7.1/README.md
 * /usr/share/share/man/man1/meson.1
 * /usr/share/share/polkit-1/actions/com.mesonbuild.install.policy
