@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "scons 4.2.0-3"
-version = "4.2.0-3"
+title = "scons 4.9.1-1"
+version = "4.9.1-1"
 description = "SCons is an Open Source software construction tool, a next-generation build tool."
-date = "2024-11-03T20:19:29"
+date = "2025-04-03T12:08:46"
 aliases = "/packages/21815"
 categories = ['devel-extra']
 upstreamurl = "http://scons.org"
 arch = "x86_64"
-size = "2066020"
-usize = "21912806"
-sha1sum = "ced43988b199c5a05ece5b2d972810dbd146e35c"
+size = "2143444"
+usize = "22135577"
+sha1sum = "6268b058534460ed2bdbf740d8a0835e76bad09f"
 depends = "['python3>=3.13']"
 +++
 ### Description: 
@@ -20,13 +20,12 @@ SCons is an Open Source software construction tool, a next-generation build tool
 * /usr/bin/scons
 * /usr/bin/scons-configure-cache
 * /usr/bin/sconsign
-* /usr/lib/python3.13/site-packages/SCons-4.2.0-py3.13.egg-info/dependency_links.txt
-* /usr/lib/python3.13/site-packages/SCons-4.2.0-py3.13.egg-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/SCons-4.2.0-py3.13.egg-info/not-zip-safe
-* /usr/lib/python3.13/site-packages/SCons-4.2.0-py3.13.egg-info/PKG-INFO
-* /usr/lib/python3.13/site-packages/SCons-4.2.0-py3.13.egg-info/requires.txt
-* /usr/lib/python3.13/site-packages/SCons-4.2.0-py3.13.egg-info/SOURCES.txt
-* /usr/lib/python3.13/site-packages/SCons-4.2.0-py3.13.egg-info/top_level.txt
+* /usr/lib/python3.13/site-packages/SCons-4.9.1-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/SCons-4.9.1-py3.13.egg-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/SCons-4.9.1-py3.13.egg-info/not-zip-safe
+* /usr/lib/python3.13/site-packages/SCons-4.9.1-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/SCons-4.9.1-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/SCons-4.9.1-py3.13.egg-info/top_level.txt
 * /usr/lib/python3.13/site-packages/SCons/Action.py
 * /usr/lib/python3.13/site-packages/SCons/Builder.py
 * /usr/lib/python3.13/site-packages/SCons/CacheDir.py
@@ -47,7 +46,6 @@ SCons is an Open Source software construction tool, a next-generation build tool
 * /usr/lib/python3.13/site-packages/SCons/Errors.py
 * /usr/lib/python3.13/site-packages/SCons/Executor.py
 * /usr/lib/python3.13/site-packages/SCons/exitfuncs.py
-* /usr/lib/python3.13/site-packages/SCons/Job.py
 * /usr/lib/python3.13/site-packages/SCons/Memoize.py
 * /usr/lib/python3.13/site-packages/SCons/Node/Alias.py
 * /usr/lib/python3.13/site-packages/SCons/Node/FS.py
@@ -87,6 +85,7 @@ SCons is an Open Source software construction tool, a next-generation build tool
 * /usr/lib/python3.13/site-packages/SCons/Scanner/Dir.py
 * /usr/lib/python3.13/site-packages/SCons/Scanner/Fortran.py
 * /usr/lib/python3.13/site-packages/SCons/Scanner/IDL.py
+* /usr/lib/python3.13/site-packages/SCons/Scanner/Java.py
 * /usr/lib/python3.13/site-packages/SCons/Scanner/LaTeX.py
 * /usr/lib/python3.13/site-packages/SCons/Scanner/Prog.py
 * /usr/lib/python3.13/site-packages/SCons/Scanner/Python.py
@@ -98,6 +97,7 @@ SCons is an Open Source software construction tool, a next-generation build tool
 * /usr/lib/python3.13/site-packages/SCons/Scanner/__pycache__/Dir.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/SCons/Scanner/__pycache__/Fortran.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/SCons/Scanner/__pycache__/IDL.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/SCons/Scanner/__pycache__/Java.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/SCons/Scanner/__pycache__/LaTeX.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/SCons/Scanner/__pycache__/Prog.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/SCons/Scanner/__pycache__/Python.cpython-313.pyc
@@ -117,7 +117,10 @@ SCons is an Open Source software construction tool, a next-generation build tool
 * /usr/lib/python3.13/site-packages/SCons/Script/__pycache__/SConsOptions.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/SCons/Script/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/SCons/Subst.py
-* /usr/lib/python3.13/site-packages/SCons/Taskmaster.py
+* /usr/lib/python3.13/site-packages/SCons/Taskmaster/Job.py
+* /usr/lib/python3.13/site-packages/SCons/Taskmaster/__init__.py
+* /usr/lib/python3.13/site-packages/SCons/Taskmaster/__pycache__/Job.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/SCons/Taskmaster/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/SCons/Tool/386asm.py
 * /usr/lib/python3.13/site-packages/SCons/Tool/aixc++.py
 * /usr/lib/python3.13/site-packages/SCons/Tool/aixcc.py
@@ -1498,7 +1501,32 @@ SCons is an Open Source software construction tool, a next-generation build tool
 * /usr/lib/python3.13/site-packages/SCons/Tool/mingw.py
 * /usr/lib/python3.13/site-packages/SCons/Tool/MSCommon/arch.py
 * /usr/lib/python3.13/site-packages/SCons/Tool/MSCommon/common.py
+* /usr/lib/python3.13/site-packages/SCons/Tool/MSCommon/MSVC/Config.py
+* /usr/lib/python3.13/site-packages/SCons/Tool/MSCommon/MSVC/Dispatcher.py
+* /usr/lib/python3.13/site-packages/SCons/Tool/MSCommon/MSVC/Exceptions.py
+* /usr/lib/python3.13/site-packages/SCons/Tool/MSCommon/MSVC/Kind.py
+* /usr/lib/python3.13/site-packages/SCons/Tool/MSCommon/MSVC/Policy.py
+* /usr/lib/python3.13/site-packages/SCons/Tool/MSCommon/MSVC/Registry.py
+* /usr/lib/python3.13/site-packages/SCons/Tool/MSCommon/MSVC/ScriptArguments.py
+* /usr/lib/python3.13/site-packages/SCons/Tool/MSCommon/MSVC/SetupEnvDefault.py
+* /usr/lib/python3.13/site-packages/SCons/Tool/MSCommon/MSVC/Util.py
+* /usr/lib/python3.13/site-packages/SCons/Tool/MSCommon/MSVC/Warnings.py
+* /usr/lib/python3.13/site-packages/SCons/Tool/MSCommon/MSVC/WinSDK.py
+* /usr/lib/python3.13/site-packages/SCons/Tool/MSCommon/MSVC/__init__.py
+* /usr/lib/python3.13/site-packages/SCons/Tool/MSCommon/MSVC/__pycache__/Config.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/SCons/Tool/MSCommon/MSVC/__pycache__/Dispatcher.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/SCons/Tool/MSCommon/MSVC/__pycache__/Exceptions.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/SCons/Tool/MSCommon/MSVC/__pycache__/Kind.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/SCons/Tool/MSCommon/MSVC/__pycache__/Policy.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/SCons/Tool/MSCommon/MSVC/__pycache__/Registry.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/SCons/Tool/MSCommon/MSVC/__pycache__/ScriptArguments.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/SCons/Tool/MSCommon/MSVC/__pycache__/SetupEnvDefault.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/SCons/Tool/MSCommon/MSVC/__pycache__/Util.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/SCons/Tool/MSCommon/MSVC/__pycache__/Warnings.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/SCons/Tool/MSCommon/MSVC/__pycache__/WinSDK.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/SCons/Tool/MSCommon/MSVC/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/SCons/Tool/MSCommon/netframework.py
+* /usr/lib/python3.13/site-packages/SCons/Tool/MSCommon/README.rst
 * /usr/lib/python3.13/site-packages/SCons/Tool/MSCommon/sdk.py
 * /usr/lib/python3.13/site-packages/SCons/Tool/MSCommon/vc.py
 * /usr/lib/python3.13/site-packages/SCons/Tool/MSCommon/vs.py
@@ -1521,20 +1549,26 @@ SCons is an Open Source software construction tool, a next-generation build tool
 * /usr/lib/python3.13/site-packages/SCons/Tool/mwcc.py
 * /usr/lib/python3.13/site-packages/SCons/Tool/mwld.py
 * /usr/lib/python3.13/site-packages/SCons/Tool/nasm.py
-* /usr/lib/python3.13/site-packages/SCons/Tool/ninja/Globals.py
-* /usr/lib/python3.13/site-packages/SCons/Tool/ninja/Methods.py
-* /usr/lib/python3.13/site-packages/SCons/Tool/ninja/NinjaState.py
-* /usr/lib/python3.13/site-packages/SCons/Tool/ninja/Overrides.py
-* /usr/lib/python3.13/site-packages/SCons/Tool/ninja/Rules.py
-* /usr/lib/python3.13/site-packages/SCons/Tool/ninja/Utils.py
-* /usr/lib/python3.13/site-packages/SCons/Tool/ninja/__init__.py
-* /usr/lib/python3.13/site-packages/SCons/Tool/ninja/__pycache__/Globals.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/SCons/Tool/ninja/__pycache__/Methods.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/SCons/Tool/ninja/__pycache__/NinjaState.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/SCons/Tool/ninja/__pycache__/Overrides.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/SCons/Tool/ninja/__pycache__/Rules.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/SCons/Tool/ninja/__pycache__/Utils.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/SCons/Tool/ninja/__pycache__/__init__.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/SCons/Tool/ninja_tool/Globals.py
+* /usr/lib/python3.13/site-packages/SCons/Tool/ninja_tool/Methods.py
+* /usr/lib/python3.13/site-packages/SCons/Tool/ninja_tool/NinjaState.py
+* /usr/lib/python3.13/site-packages/SCons/Tool/ninja_tool/ninja_daemon_build.py
+* /usr/lib/python3.13/site-packages/SCons/Tool/ninja_tool/ninja_run_daemon.py
+* /usr/lib/python3.13/site-packages/SCons/Tool/ninja_tool/ninja_scons_daemon.py
+* /usr/lib/python3.13/site-packages/SCons/Tool/ninja_tool/Overrides.py
+* /usr/lib/python3.13/site-packages/SCons/Tool/ninja_tool/Rules.py
+* /usr/lib/python3.13/site-packages/SCons/Tool/ninja_tool/Utils.py
+* /usr/lib/python3.13/site-packages/SCons/Tool/ninja_tool/__init__.py
+* /usr/lib/python3.13/site-packages/SCons/Tool/ninja_tool/__pycache__/Globals.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/SCons/Tool/ninja_tool/__pycache__/Methods.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/SCons/Tool/ninja_tool/__pycache__/NinjaState.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/SCons/Tool/ninja_tool/__pycache__/ninja_daemon_build.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/SCons/Tool/ninja_tool/__pycache__/ninja_run_daemon.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/SCons/Tool/ninja_tool/__pycache__/ninja_scons_daemon.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/SCons/Tool/ninja_tool/__pycache__/Overrides.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/SCons/Tool/ninja_tool/__pycache__/Rules.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/SCons/Tool/ninja_tool/__pycache__/Utils.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/SCons/Tool/ninja_tool/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/SCons/Tool/packaging/ipk.py
 * /usr/lib/python3.13/site-packages/SCons/Tool/packaging/msi.py
 * /usr/lib/python3.13/site-packages/SCons/Tool/packaging/rpm.py
@@ -1565,6 +1599,7 @@ SCons is an Open Source software construction tool, a next-generation build tool
 * /usr/lib/python3.13/site-packages/SCons/Tool/PharLapCommon.py
 * /usr/lib/python3.13/site-packages/SCons/Tool/python.py
 * /usr/lib/python3.13/site-packages/SCons/Tool/qt.py
+* /usr/lib/python3.13/site-packages/SCons/Tool/qt3.py
 * /usr/lib/python3.13/site-packages/SCons/Tool/rmic.py
 * /usr/lib/python3.13/site-packages/SCons/Tool/rpcgen.py
 * /usr/lib/python3.13/site-packages/SCons/Tool/rpm.py
@@ -1679,6 +1714,7 @@ SCons is an Open Source software construction tool, a next-generation build tool
 * /usr/lib/python3.13/site-packages/SCons/Tool/__pycache__/PharLapCommon.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/SCons/Tool/__pycache__/python.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/SCons/Tool/__pycache__/qt.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/SCons/Tool/__pycache__/qt3.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/SCons/Tool/__pycache__/rmic.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/SCons/Tool/__pycache__/rpcgen.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/SCons/Tool/__pycache__/rpm.cpython-313.pyc
@@ -1706,7 +1742,18 @@ SCons is an Open Source software construction tool, a next-generation build tool
 * /usr/lib/python3.13/site-packages/SCons/Tool/__pycache__/yacc.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/SCons/Tool/__pycache__/zip.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/SCons/Tool/__pycache__/__init__.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/SCons/Util.py
+* /usr/lib/python3.13/site-packages/SCons/Util/envs.py
+* /usr/lib/python3.13/site-packages/SCons/Util/filelock.py
+* /usr/lib/python3.13/site-packages/SCons/Util/hashes.py
+* /usr/lib/python3.13/site-packages/SCons/Util/sctypes.py
+* /usr/lib/python3.13/site-packages/SCons/Util/stats.py
+* /usr/lib/python3.13/site-packages/SCons/Util/__init__.py
+* /usr/lib/python3.13/site-packages/SCons/Util/__pycache__/envs.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/SCons/Util/__pycache__/filelock.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/SCons/Util/__pycache__/hashes.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/SCons/Util/__pycache__/sctypes.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/SCons/Util/__pycache__/stats.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/SCons/Util/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/SCons/Utilities/ConfigureCache.py
 * /usr/lib/python3.13/site-packages/SCons/Utilities/sconsign.py
 * /usr/lib/python3.13/site-packages/SCons/Utilities/__init__.py
@@ -1742,19 +1789,17 @@ SCons is an Open Source software construction tool, a next-generation build tool
 * /usr/lib/python3.13/site-packages/SCons/__pycache__/Errors.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/SCons/__pycache__/Executor.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/SCons/__pycache__/exitfuncs.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/SCons/__pycache__/Job.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/SCons/__pycache__/Memoize.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/SCons/__pycache__/PathList.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/SCons/__pycache__/SConf.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/SCons/__pycache__/SConsign.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/SCons/__pycache__/Subst.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/SCons/__pycache__/Taskmaster.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/SCons/__pycache__/Util.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/SCons/__pycache__/Warnings.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/SCons/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/SCons/__pycache__/__main__.cpython-313.pyc
-* /usr/share/doc/scons-4.2.0/LICENSE
-* /usr/share/doc/scons-4.2.0/README.rst
-* /usr/share/scons-time.1
-* /usr/share/scons.1
-* /usr/share/sconsign.1
+* /usr/share/doc/scons-4.9.1/LICENSE
+* /usr/share/doc/scons-4.9.1/README-local
+* /usr/share/doc/scons-4.9.1/README-package.rst
+* /usr/share/doc/scons-4.9.1/README-SF.rst
+* /usr/share/doc/scons-4.9.1/README.rst
+* /usr/share/doc/scons-4.9.1/RELEASE.txt

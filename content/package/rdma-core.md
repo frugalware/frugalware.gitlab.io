@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "rdma-core 56.0-1"
-version = "56.0-1"
+title = "rdma-core 56.1-1"
+version = "56.1-1"
 description = "RDMA core userspace libraries and daemons"
-date = "2025-02-09T13:02:52"
+date = "2025-04-03T12:10:56"
 aliases = "/packages/220864"
 categories = ['network-extra']
 upstreamurl = "https://github.com/linux-rdma/rdma-core"
 arch = "x86_64"
-size = "1215492"
-usize = "3461245"
-sha1sum = "a8c8230d4725fb98985786c6ab27ab16e92a08d6"
+size = "1215800"
+usize = "3463459"
+sha1sum = "044d6f50f59248502f6eba84a8ae9fbb604b58dd"
 depends = "['ethtool', 'libnl', 'libsystemd', 'perl', 'python3']"
 reverse_depends = "['openucx']"
 +++
@@ -149,22 +149,22 @@ RDMA core userspace libraries and daemons
 * /usr/lib/ibacm/libibacmp.so
 * /usr/lib/libefa.so
 * /usr/lib/libefa.so.1
-* /usr/lib/libefa.so.1.3.56.0
+* /usr/lib/libefa.so.1.3.56.1
 * /usr/lib/libhns.so
 * /usr/lib/libhns.so.1
-* /usr/lib/libhns.so.1.0.56.0
+* /usr/lib/libhns.so.1.0.56.1
 * /usr/lib/libibmad.so
 * /usr/lib/libibmad.so.5
-* /usr/lib/libibmad.so.5.5.56.0
+* /usr/lib/libibmad.so.5.5.56.1
 * /usr/lib/libibnetdisc.so
 * /usr/lib/libibnetdisc.so.5
-* /usr/lib/libibnetdisc.so.5.1.56.0
+* /usr/lib/libibnetdisc.so.5.1.56.1
 * /usr/lib/libibumad.so
 * /usr/lib/libibumad.so.3
-* /usr/lib/libibumad.so.3.4.56.0
+* /usr/lib/libibumad.so.3.4.56.1
 * /usr/lib/libibverbs.so
 * /usr/lib/libibverbs.so.1
-* /usr/lib/libibverbs.so.1.14.56.0
+* /usr/lib/libibverbs.so.1.14.56.1
 * /usr/lib/libibverbs/libbnxt_re-rdmav34.so
 * /usr/lib/libibverbs/libcxgb4-rdmav34.so
 * /usr/lib/libibverbs/libefa-rdmav34.so
@@ -184,16 +184,16 @@ RDMA core userspace libraries and daemons
 * /usr/lib/libibverbs/libvmw_pvrdma-rdmav34.so
 * /usr/lib/libmana.so
 * /usr/lib/libmana.so.1
-* /usr/lib/libmana.so.1.0.56.0
+* /usr/lib/libmana.so.1.0.56.1
 * /usr/lib/libmlx4.so
 * /usr/lib/libmlx4.so.1
-* /usr/lib/libmlx4.so.1.0.56.0
+* /usr/lib/libmlx4.so.1.0.56.1
 * /usr/lib/libmlx5.so
 * /usr/lib/libmlx5.so.1
-* /usr/lib/libmlx5.so.1.25.56.0
+* /usr/lib/libmlx5.so.1.25.56.1
 * /usr/lib/librdmacm.so
 * /usr/lib/librdmacm.so.1
-* /usr/lib/librdmacm.so.1.3.56.0
+* /usr/lib/librdmacm.so.1.3.56.1
 * /usr/lib/modprobe.d/libmlx4.conf
 * /usr/lib/perl5/site_perl/current/IBswcountlimits.pm
 * /usr/lib/pkgconfig/libefa.pc
@@ -229,11 +229,11 @@ RDMA core userspace libraries and daemons
 * /usr/lib/udev/rules.d/90-rdma-hw-modules.rules
 * /usr/lib/udev/rules.d/90-rdma-ulp-modules.rules
 * /usr/lib/udev/rules.d/90-rdma-umad.rules
-* /usr/share/doc/rdma-core-56.0/COPYING.BSD_FB
-* /usr/share/doc/rdma-core-56.0/COPYING.BSD_MIT
-* /usr/share/doc/rdma-core-56.0/COPYING.GPL2
-* /usr/share/doc/rdma-core-56.0/COPYING.md
-* /usr/share/doc/rdma-core-56.0/README.md
+* /usr/share/doc/rdma-core-56.1/COPYING.BSD_FB
+* /usr/share/doc/rdma-core-56.1/COPYING.BSD_MIT
+* /usr/share/doc/rdma-core-56.1/COPYING.GPL2
+* /usr/share/doc/rdma-core-56.1/COPYING.md
+* /usr/share/doc/rdma-core-56.1/README.md
 * /usr/share/doc/rdma-core/70-persistent-ipoib.rules
 * /usr/share/doc/rdma-core/ibacm.md
 * /usr/share/doc/rdma-core/ibsrpdm.md
