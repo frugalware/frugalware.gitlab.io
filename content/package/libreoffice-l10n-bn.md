@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-bn 25.2.2.2-1"
-version = "25.2.2.2-1"
+title = "libreoffice-l10n-bn 25.2.2.2-2"
+version = "25.2.2.2-2"
 description = "Installs Bengali (Bangladesh) support in LibreOffice"
-date = "2025-03-31T18:59:05"
+date = "2025-04-03T09:51:36"
 aliases = "/packages/104040"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4681908"
+size = "4681264"
 usize = "38684575"
-sha1sum = "b576ae91528f0d057a050d48c6fc4ec40019016a"
+sha1sum = "e1c571fd74817f9b18b008ff282fdccfee2e88ea"
 depends = "['libreoffice>=25.2.2.2']"
 +++
 ### Description: 

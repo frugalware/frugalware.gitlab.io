@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-ab 25.2.2.2-1"
-version = "25.2.2.2-1"
+title = "libreoffice-l10n-ab 25.2.2.2-2"
+version = "25.2.2.2-2"
 description = "Installs Abkhaz support in LibreOffice"
-date = "2025-03-31T18:59:05"
+date = "2025-04-03T09:51:36"
 aliases = "/packages/222629"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "541048"
+size = "541108"
 usize = "3208493"
-sha1sum = "f7025f5ee1959e388c92924f6bee135c6b3240f6"
+sha1sum = "e0a64be6e8fae88a7661d82e03708c053931e7d9"
 depends = "['libreoffice>=25.2.2.2']"
 +++
 ### Description: 

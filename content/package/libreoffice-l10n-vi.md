@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-vi 25.2.2.2-1"
-version = "25.2.2.2-1"
+title = "libreoffice-l10n-vi 25.2.2.2-2"
+version = "25.2.2.2-2"
 description = "Installs Vietnamese support in LibreOffice"
-date = "2025-03-31T18:59:05"
+date = "2025-04-03T09:51:36"
 aliases = "/packages/104136"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4597568"
+size = "4597616"
 usize = "35213339"
-sha1sum = "9b9064a5789eea17b8221d85809d648feb45a508"
+sha1sum = "eed8f3249d0c04bf8dfb83ac17aaad7fd0b1f783"
 depends = "['libreoffice>=25.2.2.2']"
 +++
 ### Description: 

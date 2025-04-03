@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-lv 25.2.2.2-1"
-version = "25.2.2.2-1"
+title = "libreoffice-l10n-lv 25.2.2.2-2"
+version = "25.2.2.2-2"
 description = "Installs Latvian support in LibreOffice"
-date = "2025-03-31T18:59:05"
+date = "2025-04-03T09:51:36"
 aliases = "/packages/104083"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4268980"
+size = "4268020"
 usize = "33343365"
-sha1sum = "d5bfbfe7ffaf11a4cc7d792b04958d9d946d401d"
+sha1sum = "23545c771910ca9b9b1982498e05636280cac74a"
 depends = "['libreoffice>=25.2.2.2']"
 +++
 ### Description: 

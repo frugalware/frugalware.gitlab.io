@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-fi 25.2.2.2-1"
-version = "25.2.2.2-1"
+title = "libreoffice-l10n-fi 25.2.2.2-2"
+version = "25.2.2.2-2"
 description = "Installs Finnish support in LibreOffice"
-date = "2025-03-31T18:59:05"
+date = "2025-04-03T09:51:36"
 aliases = "/packages/104058"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4861868"
+size = "4861840"
 usize = "35299974"
-sha1sum = "8cae56c729474ca60b00c3f2a886fd9179e22c4a"
+sha1sum = "64c9b0299c31aa6422b979ec08b71bf617f0efaf"
 depends = "['libreoffice>=25.2.2.2']"
 +++
 ### Description: 
