@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "netpanzer 0.8.7.gad1c9ab-1"
-version = "0.8.7.gad1c9ab-1"
+title = "netpanzer 0.9.0-1"
+version = "0.9.0-1"
 description = "Fast-action multiplayer strategic network game"
-date = "2024-11-14T15:13:14"
+date = "2025-04-03T08:28:10"
 aliases = "/packages/218455"
 categories = ['games-extra']
 upstreamurl = "https://netpanzer.io"
 arch = "x86_64"
-size = "30888940"
-usize = "158024248"
-sha1sum = "a29bbe5ed59b982d62588c8266f8f3a99e107595"
+size = "30977248"
+usize = "158738368"
+sha1sum = "7966b479a1adc21596a454f4ea272b2b779a2c0f"
 depends = "['libstdc++', 'lua51', 'physfs>=2.0.2', 'sdl2_image', 'sdl2_mixer', 'sdl2_ttf']"
 +++
 ### Description: 
@@ -18,8 +18,8 @@ Fast-action multiplayer strategic network game
 
 ### Files: 
 * /usr/bin/netpanzer
-* /usr/share/doc/netpanzer-0.8.7.gad1c9ab/COPYING.txt
-* /usr/share/doc/netpanzer-0.8.7.gad1c9ab/README.md
+* /usr/share/doc/netpanzer-0.9.0/COPYING.txt
+* /usr/share/doc/netpanzer-0.9.0/README.md
 * /usr/share/doc/netpanzer/CONTRIBUTING.md
 * /usr/share/doc/netpanzer/COPYING.txt
 * /usr/share/doc/netpanzer/README.md

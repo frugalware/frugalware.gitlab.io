@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "bluez 5.81-1"
-version = "5.81-1"
+title = "bluez 5.82-1"
+version = "5.82-1"
 description = "Library to use the BlueZ Linux Bluetooth stack"
-date = "2025-04-01T18:34:50"
+date = "2025-04-03T08:25:30"
 aliases = "/packages/74581"
 categories = ['apps']
 upstreamurl = "http://bluez.sourceforge.net/"
 arch = "x86_64"
-size = "1958972"
-usize = "6587517"
-sha1sum = "3ba8bed5697a2a51b28c7f4f369f00b40643bc2b"
+size = "1987928"
+usize = "6705582"
+sha1sum = "91aa8b9872d6c8d4519bb25fef4b388032cf5093"
 depends = "['alsa-lib', 'dbus>=1.10.16-3', 'ell', 'glib2>=2.50.0', 'libical>=3.0.3', 'libsystemd>=242-3', 'libudev>=242-3', 'readline>=8.0']"
 reverse_depends = "['anyremote', 'enlightenment', 'gammu', 'gnokii', 'gpsd', 'gst1-plugins-bad-bluez', 'kvm', 'ofono', 'pulseaudio-bluetooth', 'pybluez', 'qemu', 'qt5-connectivity', 'qt6-connectivity', 'supertuxkart']"
 +++
@@ -112,13 +112,13 @@ Library to use the BlueZ Linux Bluetooth stack
 * /usr/share/dbus-1/system.d/bluetooth-mesh.conf
 * /usr/share/dbus-1/system.d/bluetooth.conf
 * /usr/share/dbus-1/system.d/obex.conf
-* /usr/share/doc/bluez-5.81/AUTHORS
-* /usr/share/doc/bluez-5.81/ChangeLog
-* /usr/share/doc/bluez-5.81/COPYING
-* /usr/share/doc/bluez-5.81/COPYING.LIB
-* /usr/share/doc/bluez-5.81/INSTALL
-* /usr/share/doc/bluez-5.81/README
-* /usr/share/doc/bluez-5.81/TODO
+* /usr/share/doc/bluez-5.82/AUTHORS
+* /usr/share/doc/bluez-5.82/ChangeLog
+* /usr/share/doc/bluez-5.82/COPYING
+* /usr/share/doc/bluez-5.82/COPYING.LIB
+* /usr/share/doc/bluez-5.82/INSTALL
+* /usr/share/doc/bluez-5.82/README
+* /usr/share/doc/bluez-5.82/TODO
 * /usr/share/man/man1/bluetoothctl-admin.1.gz
 * /usr/share/man/man1/bluetoothctl-advertise.1.gz
 * /usr/share/man/man1/bluetoothctl-assistant.1.gz

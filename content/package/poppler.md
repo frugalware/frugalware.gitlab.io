@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "poppler 25.03.0-3"
-version = "25.03.0-3"
+title = "poppler 25.04.0-1"
+version = "25.04.0-1"
 description = "A PDF rendering library"
-date = "2025-03-29T16:13:58"
+date = "2025-04-03T08:20:12"
 aliases = "/packages/3295"
 categories = ['xlib']
 upstreamurl = "https://poppler.freedesktop.org/"
 arch = "x86_64"
-size = "2057008"
-usize = "10269567"
-sha1sum = "9ec13a6052517fb6093304516514ec0c95e4cbb5"
+size = "2061856"
+usize = "10283318"
+sha1sum = "5b8f20a1ab0b73524815ec10ad80c73413686066"
 depends = "['cairo>=1.14.6-4', 'curl', 'fontconfig>=2.12-2', 'libgpgmepp', 'libjpeg-turbo', 'libpng>=1.6.25', 'libstdc++>=9.1.0-3', 'nss', 'openjpeg>=2.2.0', 'poppler-data']"
 reverse_depends = "['efl', 'kitinerary', 'libcupsfilters', 'poppler-glib', 'poppler-pdftools', 'poppler-qt5', 'poppler-qt6', 'scribus', 'texlive']"
 +++
@@ -135,20 +135,20 @@ A PDF rendering library
 * /usr/lib/girepository-1.0/Poppler-0.18.typelib
 * /usr/lib/libpoppler-cpp.so
 * /usr/lib/libpoppler-cpp.so.2
-* /usr/lib/libpoppler-cpp.so.2.0.0
+* /usr/lib/libpoppler-cpp.so.2.1.0
 * /usr/lib/libpoppler.so
-* /usr/lib/libpoppler.so.147
-* /usr/lib/libpoppler.so.147.0.0
+* /usr/lib/libpoppler.so.148
+* /usr/lib/libpoppler.so.148.0.0
 * /usr/lib/pkgconfig/poppler-cpp.pc
 * /usr/lib/pkgconfig/poppler.pc
-* /usr/share/doc/poppler-25.03.0/AUTHORS
-* /usr/share/doc/poppler-25.03.0/ChangeLog
-* /usr/share/doc/poppler-25.03.0/COPYING
-* /usr/share/doc/poppler-25.03.0/COPYING3
-* /usr/share/doc/poppler-25.03.0/INSTALL
-* /usr/share/doc/poppler-25.03.0/NEWS
-* /usr/share/doc/poppler-25.03.0/README-XPDF
-* /usr/share/doc/poppler-25.03.0/README.contributors
-* /usr/share/doc/poppler-25.03.0/README.md
+* /usr/share/doc/poppler-25.04.0/AUTHORS
+* /usr/share/doc/poppler-25.04.0/ChangeLog
+* /usr/share/doc/poppler-25.04.0/COPYING
+* /usr/share/doc/poppler-25.04.0/COPYING3
+* /usr/share/doc/poppler-25.04.0/INSTALL
+* /usr/share/doc/poppler-25.04.0/NEWS
+* /usr/share/doc/poppler-25.04.0/README-XPDF
+* /usr/share/doc/poppler-25.04.0/README.contributors
+* /usr/share/doc/poppler-25.04.0/README.md
 * /usr/share/gir-1.0/Poppler-0.18.gir
 * /usr/share/locale/ca/LC_MESSAGES/pdfsig.mo

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openloco 25.02-1"
-version = "25.02-1"
+title = "openloco 25.03-1"
+version = "25.03-1"
 description = "An open source re-implementation of Locomotion"
-date = "2025-02-28T22:09:13"
+date = "2025-04-03T08:31:03"
 aliases = "/packages/220332"
 categories = ['games-extra']
 upstreamurl = "https://github.com/openloco/openloco"
 arch = "x86_64"
-size = "2472812"
-usize = "29279594"
-sha1sum = "3b2dbbe00e51963dd40ff144641c9c002cb83060"
+size = "2590596"
+usize = "29816953"
+sha1sum = "37e09cd6967b4ebfc1ad33f643b2b11f293db8f8"
 depends = "['lib32-libpng', 'lib32-openal', 'lib32-sdl2_mixer', 'lib32-yaml-cpp', 'libstdc++']"
 +++
 ### Description: 
@@ -46,14 +46,24 @@ An open source re-implementation of Locomotion
 * /usr/bin/data/objects/openloco_objects-src/Cargo/OG_PASS.dat
 * /usr/bin/data/objects/openloco_objects-src/Cargo/OG_STEEL.dat
 * /usr/bin/data/objects/openloco_objects-src/Cargo/OG_TIMBER.dat
+* /usr/bin/data/objects/openloco_objects-src/InterfaceSkin/OG_INTERDEF.dat
 * /usr/bin/data/objects/openloco_objects-src/Vehicle/OG656.dat
 * /usr/bin/data/objects/openloco_objects-src/Vehicle/OGCL41.dat
 * /usr/bin/data/objects/openloco_objects-src/Vehicle/OGFOWL.dat
 * /usr/bin/data/objects/openloco_objects-src/Vehicle/OGJINT.dat
 * /usr/bin/data/objects/openloco_objects-src/Vehicle/OGMK3.dat
 * /usr/bin/data/objects/openloco_objects-src/Vehicle/OGRAVNA2.dat
+* /usr/bin/data/objects/openloco_objects-src/Vehicle/OGRE441.dat
 * /usr/bin/data/objects/openloco_objects-src/Vehicle/OGSPCL.dat
 * /usr/bin/data/objects/openloco_objects-src/Vehicle/OGST8F.dat
+* /usr/bin/data/objects/openloco_objects-src/Wall/OG_BRWNWALG.dat
+* /usr/bin/data/objects/openloco_objects-src/Wall/OG_BRWNWALL.dat
+* /usr/bin/data/objects/openloco_objects-src/Wall/OG_FENCE1.dat
+* /usr/bin/data/objects/openloco_objects-src/Wall/OG_FENCE1G.dat
+* /usr/bin/data/objects/openloco_objects-src/Wall/OG_SECFENCE.dat
+* /usr/bin/data/objects/openloco_objects-src/Wall/OG_SECFENCG.dat
+* /usr/bin/data/objects/openloco_objects-src/Wall/OG_STONWALG.dat
+* /usr/bin/data/objects/openloco_objects-src/Wall/OG_STONWALL.dat
 * /usr/bin/OpenLoco
 * /usr/include/fmt/args.h
 * /usr/include/fmt/base.h
@@ -81,7 +91,6 @@ An open source re-implementation of Locomotion
 * /usr/include/sfl/detail/node_small_allocator.hpp
 * /usr/include/sfl/detail/node_static_allocator.hpp
 * /usr/include/sfl/detail/normal_iterator.hpp
-* /usr/include/sfl/detail/optional_value.hpp
 * /usr/include/sfl/detail/rb_tree.hpp
 * /usr/include/sfl/detail/scope_guard.hpp
 * /usr/include/sfl/detail/segmented_iterator.hpp
@@ -130,8 +139,8 @@ An open source re-implementation of Locomotion
 * /usr/lib/cmake/fmt/fmt-targets.cmake
 * /usr/lib/pkgconfig/fmt.pc
 * /usr/share/applications/openloco.desktop
-* /usr/share/doc/openloco-25.02/LICENSE
-* /usr/share/doc/openloco-25.02/README.md
+* /usr/share/doc/openloco-25.03/LICENSE
+* /usr/share/doc/openloco-25.03/README.md
 * /usr/share/doc/openloco/CHANGELOG.md
 * /usr/share/doc/openloco/CONTRIBUTORS.md
 * /usr/share/doc/openloco/LICENSE

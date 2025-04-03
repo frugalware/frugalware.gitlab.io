@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ell 0.75-1"
-version = "0.75-1"
+title = "ell 0.76-1"
+version = "0.76-1"
 description = "Embedded Linux library"
-date = "2025-03-26T13:06:39"
+date = "2025-04-03T08:24:19"
 aliases = "/packages/221491"
 categories = ['lib']
 upstreamurl = "https://01.org/ell"
 arch = "x86_64"
-size = "248024"
-usize = "728597"
-sha1sum = "40193bb3388779aa276e422499d3fe168517f0fa"
+size = "247624"
+usize = "728746"
+sha1sum = "19163b0cee661eeef5d191461a1355795dd99662"
 depends = "['glibc']"
 reverse_depends = "['bluez', 'iwd']"
 +++
@@ -73,9 +73,9 @@ Embedded Linux library
 * /usr/lib/libell.so.0
 * /usr/lib/libell.so.0.0.2
 * /usr/lib/pkgconfig/ell.pc
-* /usr/share/doc/ell-0.75/AUTHORS
-* /usr/share/doc/ell-0.75/ChangeLog
-* /usr/share/doc/ell-0.75/COPYING
-* /usr/share/doc/ell-0.75/INSTALL
-* /usr/share/doc/ell-0.75/README
-* /usr/share/doc/ell-0.75/TODO
+* /usr/share/doc/ell-0.76/AUTHORS
+* /usr/share/doc/ell-0.76/ChangeLog
+* /usr/share/doc/ell-0.76/COPYING
+* /usr/share/doc/ell-0.76/INSTALL
+* /usr/share/doc/ell-0.76/README
+* /usr/share/doc/ell-0.76/TODO

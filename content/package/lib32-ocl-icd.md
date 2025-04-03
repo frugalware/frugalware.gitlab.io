@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-ocl-icd 2.3.2-3"
-version = "2.3.2-3"
+title = "lib32-ocl-icd 2.3.3-1"
+version = "2.3.3-1"
 description = "OpenCL ICD Bindings ( 32bit )"
-date = "2024-01-26T13:34:49"
+date = "2025-04-03T08:23:06"
 aliases = "/packages/220094"
 categories = ['lib32-extra']
 upstreamurl = "https://github.com/OCL-dev/ocl-icd"
 arch = "x86_64"
-size = "33396"
-usize = "219711"
-sha1sum = "7a43ff96bb7e8c5fc2c1cba7215e50e0bbe433ee"
+size = "38172"
+usize = "247835"
+sha1sum = "5a733e6bc916c59c07c5e92d54d5d5f2a1326f4a"
 depends = "[]"
 reverse_depends = "['wine', 'wine-devel']"
 +++

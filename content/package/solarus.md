@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "solarus 1.6.5-5"
-version = "1.6.5-5"
+title = "solarus 2.0.0-1"
+version = "2.0.0-1"
 description = "Solarus is an open-source Zelda-like game engine written in C++."
-date = "2024-12-19T12:05:52"
+date = "2025-04-03T08:33:29"
 aliases = "/packages/136914"
 categories = ['games-extra']
 upstreamurl = "http://www.solarus-games.org/"
 arch = "x86_64"
-size = "1336308"
-usize = "5724369"
-sha1sum = "15f69ccca9ed682ae7bbccdb0026f6a099932c64"
+size = "1414612"
+usize = "6660095"
+sha1sum = "67ce9cd82cfb543621e4111df11f20048c5cf17f"
 depends = "['glm', 'libmodplug', 'libogg', 'libvorbis', 'luajit2', 'openal', 'physfs', 'qt5-base>=5.15.15', 'sdl2_image', 'sdl2_ttf']"
 reverse_depends = "['solarus-zsdx', 'solarus-zsxd']"
 +++
@@ -18,25 +18,32 @@ reverse_depends = "['solarus-zsdx', 'solarus-zsxd']"
 Solarus is an open-source Zelda-like game engine written in C++.
 
 ### Files: 
-* /usr/bin/solarus-launcher
 * /usr/bin/solarus-run
 * /usr/include/solarus/audio/ItDecoder.h
 * /usr/include/solarus/audio/Music.h
+* /usr/include/solarus/audio/MusicPtr.h
+* /usr/include/solarus/audio/MusicSystem.h
 * /usr/include/solarus/audio/OggDecoder.h
 * /usr/include/solarus/audio/Sound.h
+* /usr/include/solarus/audio/SoundBuffer.h
+* /usr/include/solarus/audio/SoundPtr.h
 * /usr/include/solarus/audio/SpcDecoder.h
+* /usr/include/solarus/containers/FreeList.h
 * /usr/include/solarus/containers/Grid.h
 * /usr/include/solarus/containers/Quadtree.h
 * /usr/include/solarus/containers/Quadtree.inl
+* /usr/include/solarus/containers/VecMap.h
 * /usr/include/solarus/core/Ability.h
 * /usr/include/solarus/core/AbilityInfo.h
-* /usr/include/solarus/core/AndroidConfig.h
 * /usr/include/solarus/core/AppleInterface.h
 * /usr/include/solarus/core/Arguments.h
+* /usr/include/solarus/core/Command.h
 * /usr/include/solarus/core/CommandsEffects.h
 * /usr/include/solarus/core/Common.h
 * /usr/include/solarus/core/config.h
-* /usr/include/solarus/core/config.h.in
+* /usr/include/solarus/core/Controls.h
+* /usr/include/solarus/core/ControlsDispatcher.h
+* /usr/include/solarus/core/ControlsPtr.h
 * /usr/include/solarus/core/CurrentQuest.h
 * /usr/include/solarus/core/Debug.h
 * /usr/include/solarus/core/Dialog.h
@@ -47,21 +54,26 @@ Solarus is an open-source Zelda-like game engine written in C++.
 * /usr/include/solarus/core/Equipment.h
 * /usr/include/solarus/core/EquipmentItem.h
 * /usr/include/solarus/core/EquipmentItemUsage.h
+* /usr/include/solarus/core/FlagSet.h
+* /usr/include/solarus/core/FlagSet.inl
 * /usr/include/solarus/core/FontResource.h
+* /usr/include/solarus/core/FRectangle.h
+* /usr/include/solarus/core/FRectangle.inl
 * /usr/include/solarus/core/Game.h
-* /usr/include/solarus/core/GameCommand.h
-* /usr/include/solarus/core/GameCommands.h
 * /usr/include/solarus/core/Geometry.h
 * /usr/include/solarus/core/InputEvent.h
+* /usr/include/solarus/core/Joypad.h
 * /usr/include/solarus/core/Logger.h
 * /usr/include/solarus/core/MainLoop.h
 * /usr/include/solarus/core/Map.h
 * /usr/include/solarus/core/MapData.h
+* /usr/include/solarus/core/MapPtr.h
 * /usr/include/solarus/core/PerfCounter.h
 * /usr/include/solarus/core/PerfCounter.inl
 * /usr/include/solarus/core/PixelBits.h
 * /usr/include/solarus/core/Point.h
 * /usr/include/solarus/core/Point.inl
+* /usr/include/solarus/core/Profiler.h
 * /usr/include/solarus/core/QuestDatabase.h
 * /usr/include/solarus/core/QuestFiles.h
 * /usr/include/solarus/core/QuestProperties.h
@@ -72,6 +84,7 @@ Solarus is an open-source Zelda-like game engine written in C++.
 * /usr/include/solarus/core/ResourceType.h
 * /usr/include/solarus/core/Savegame.h
 * /usr/include/solarus/core/SavegameConverterV1.h
+* /usr/include/solarus/core/SavegamePtr.h
 * /usr/include/solarus/core/Scale.h
 * /usr/include/solarus/core/Scale.inl
 * /usr/include/solarus/core/Settings.h
@@ -191,20 +204,7 @@ Solarus is an open-source Zelda-like game engine written in C++.
 * /usr/include/solarus/graphics/VertexArray.h
 * /usr/include/solarus/graphics/VertexArrayPtr.h
 * /usr/include/solarus/graphics/Video.h
-* /usr/include/solarus/gui/about_dialog.h
-* /usr/include/solarus/gui/console.h
-* /usr/include/solarus/gui/console_line_edit.h
-* /usr/include/solarus/gui/gui_common.h
-* /usr/include/solarus/gui/gui_tools.h
-* /usr/include/solarus/gui/main_window.h
-* /usr/include/solarus/gui/quests_item_delegate.h
-* /usr/include/solarus/gui/quests_model.h
-* /usr/include/solarus/gui/quests_view.h
-* /usr/include/solarus/gui/quest_runner.h
-* /usr/include/solarus/gui/settings.h
-* /usr/include/solarus/gui/ui_about_dialog.h
-* /usr/include/solarus/gui/ui_console.h
-* /usr/include/solarus/gui/ui_main_window.h
+* /usr/include/solarus/graphics/View.h
 * /usr/include/solarus/hero/BackToSolidGroundState.h
 * /usr/include/solarus/hero/BoomerangState.h
 * /usr/include/solarus/hero/BowState.h
@@ -237,6 +237,8 @@ Solarus is an open-source Zelda-like game engine written in C++.
 * /usr/include/solarus/hero/VictoryState.h
 * /usr/include/solarus/lua/ExportableToLua.h
 * /usr/include/solarus/lua/ExportableToLuaPtr.h
+* /usr/include/solarus/lua/LuaBind.h
+* /usr/include/solarus/lua/LuaBind.inl
 * /usr/include/solarus/lua/LuaContext.h
 * /usr/include/solarus/lua/LuaData.h
 * /usr/include/solarus/lua/LuaException.h
@@ -259,46 +261,11 @@ Solarus is an open-source Zelda-like game engine written in C++.
 * /usr/include/solarus/movements/StraightMovement.h
 * /usr/include/solarus/movements/TargetMovement.h
 * /usr/include/solarus/third_party/glad/glad.h
-* /usr/include/solarus/third_party/hqx/common.h
-* /usr/include/solarus/third_party/hqx/hqx.h
+* /usr/include/solarus/third_party/hqx.h
 * /usr/include/solarus/third_party/KHR/khrplatform.h
-* /usr/include/solarus/third_party/snes_spc/blargg_common.h
-* /usr/include/solarus/third_party/snes_spc/blargg_config.h
-* /usr/include/solarus/third_party/snes_spc/blargg_endian.h
-* /usr/include/solarus/third_party/snes_spc/blargg_source.h
-* /usr/include/solarus/third_party/snes_spc/dsp.h
-* /usr/include/solarus/third_party/snes_spc/SNES_SPC.h
-* /usr/include/solarus/third_party/snes_spc/spc.h
-* /usr/include/solarus/third_party/snes_spc/SPC_CPU.h
-* /usr/include/solarus/third_party/snes_spc/SPC_DSP.h
-* /usr/include/solarus/third_party/snes_spc/SPC_Filter.h
-* /usr/lib/libsolarus-gui.so
-* /usr/lib/libsolarus-gui.so.1
-* /usr/lib/libsolarus-gui.so.1.6.5
+* /usr/include/solarus/third_party/spc.h
 * /usr/lib/libsolarus.so
-* /usr/lib/libsolarus.so.1
-* /usr/lib/libsolarus.so.1.6.5
-* /usr/share/applications/org.solarus_games.solarus.Launcher.desktop
-* /usr/share/icons/hicolor/16x16/apps/org.solarus_games.solarus.Launcher.png
-* /usr/share/icons/hicolor/16x16/apps/org.solarus_games.solarus.Runner.png
-* /usr/share/icons/hicolor/20x20/apps/org.solarus_games.solarus.Launcher.png
-* /usr/share/icons/hicolor/20x20/apps/org.solarus_games.solarus.Runner.png
-* /usr/share/icons/hicolor/24x24/apps/org.solarus_games.solarus.Launcher.png
-* /usr/share/icons/hicolor/24x24/apps/org.solarus_games.solarus.Runner.png
-* /usr/share/icons/hicolor/32x32/apps/org.solarus_games.solarus.Launcher.png
-* /usr/share/icons/hicolor/32x32/apps/org.solarus_games.solarus.Runner.png
-* /usr/share/icons/hicolor/40x40/apps/org.solarus_games.solarus.Launcher.png
-* /usr/share/icons/hicolor/40x40/apps/org.solarus_games.solarus.Runner.png
-* /usr/share/icons/hicolor/48x48/apps/org.solarus_games.solarus.Launcher.png
-* /usr/share/icons/hicolor/48x48/apps/org.solarus_games.solarus.Runner.png
-* /usr/share/icons/hicolor/scalable/apps/org.solarus_games.solarus.Launcher.svg
-* /usr/share/icons/hicolor/scalable/apps/org.solarus_games.solarus.Runner.svg
-* /usr/share/icons/hicolor/symbolic/apps/org.solarus_games.solarus.Launcher-symbolic.svg
-* /usr/share/icons/hicolor/symbolic/apps/org.solarus_games.solarus.Runner-symbolic.svg
-* /usr/share/man/man6/solarus-launcher.6.gz
+* /usr/lib/libsolarus.so.2
+* /usr/lib/libsolarus.so.2.0.0
 * /usr/share/man/man6/solarus-run.6.gz
-* /usr/share/metainfo/org.solarus_games.solarus.appdata.xml
-* /usr/share/pixmaps/org.solarus_games.solarus.Launcher.png
-* /usr/share/pixmaps/org.solarus_games.solarus.Runner.png
-* /usr/share/solarus-gui/translations/solarus_es.qm
-* /usr/share/solarus-gui/translations/solarus_fr.qm
+* /usr/share/solarus/gamecontrollerdb.txt
