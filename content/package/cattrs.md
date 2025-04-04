@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "cattrs 24.1.2-1"
-version = "24.1.2-1"
+title = "cattrs 24.1.3-1"
+version = "24.1.3-1"
 description = "Composable complex class support for attrs."
-date = "2024-12-22T17:15:46"
+date = "2025-04-04T07:39:04"
 aliases = "/packages/220031"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/cattrs"
 arch = "x86_64"
-size = "120732"
-usize = "783685"
-sha1sum = "7b7ed5ab03be0b19726518f90ef8c88010ce9d36"
+size = "120824"
+usize = "783854"
+sha1sum = "0adc7e4923dc958619d08ab58a60701dd558e440"
 depends = "['python3>=3.12']"
 +++
 ### Description: 
@@ -60,10 +60,10 @@ Composable complex class support for attrs.
 * /usr/lib/python3.13/site-packages/cattr/__pycache__/gen.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/cattr/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/cattr/__pycache__/__init__.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/cattrs-24.1.2.dist-info/licenses/LICENSE
-* /usr/lib/python3.13/site-packages/cattrs-24.1.2.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/cattrs-24.1.2.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/cattrs-24.1.2.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/cattrs-24.1.3.dist-info/licenses/LICENSE
+* /usr/lib/python3.13/site-packages/cattrs-24.1.3.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/cattrs-24.1.3.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/cattrs-24.1.3.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/cattrs/cols.py
 * /usr/lib/python3.13/site-packages/cattrs/converters.py
 * /usr/lib/python3.13/site-packages/cattrs/disambiguators.py
@@ -155,5 +155,5 @@ Composable complex class support for attrs.
 * /usr/lib/python3.13/site-packages/cattrs/__pycache__/_generics.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/cattrs/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/cattrs/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/cattrs-24.1.2/LICENSE
-* /usr/share/doc/cattrs-24.1.2/README.md
+* /usr/share/doc/cattrs-24.1.3/LICENSE
+* /usr/share/doc/cattrs-24.1.3/README.md

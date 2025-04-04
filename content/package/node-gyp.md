@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "node-gyp 11.1.0-1"
-version = "11.1.0-1"
+title = "node-gyp 11.2.0-1"
+version = "11.2.0-1"
 description = "Node.js native addon build tool"
-date = "2025-02-10T18:52:05"
+date = "2025-04-04T07:34:39"
 aliases = "/packages/221182"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/nodejs/node-gyp"
 arch = "x86_64"
-size = "1308756"
-usize = "10118823"
-sha1sum = "d1dc0e419a3539afbbab645ae547549ee015905e"
+size = "1312940"
+usize = "10003290"
+sha1sum = "82cb3954953eadfe543b2b7a2f1f3533812d8353"
 depends = "['glibc']"
 reverse_depends = "['pnpm']"
 +++
@@ -167,7 +167,6 @@ Node.js native addon build tool
 * /usr/lib/node_modules/node-gyp/node_modules/.bin/mkdirp
 * /usr/lib/node_modules/node-gyp/node_modules/.bin/node-which
 * /usr/lib/node_modules/node-gyp/node_modules/.bin/nopt
-* /usr/lib/node_modules/node-gyp/node_modules/.bin/rimraf
 * /usr/lib/node_modules/node-gyp/node_modules/.bin/semver
 * /usr/lib/node_modules/node-gyp/node_modules/@isaacs/cliui/build/index.cjs
 * /usr/lib/node_modules/node-gyp/node_modules/@isaacs/cliui/build/index.d.cts
@@ -421,6 +420,49 @@ Node.js native addon build tool
 * /usr/lib/node_modules/node-gyp/node_modules/exponential-backoff/src/jitter/no/no.jitter.spec.ts
 * /usr/lib/node_modules/node-gyp/node_modules/exponential-backoff/src/jitter/no/no.jitter.ts
 * /usr/lib/node_modules/node-gyp/node_modules/exponential-backoff/src/options.ts
+* /usr/lib/node_modules/node-gyp/node_modules/fdir/dist/api/async.d.ts
+* /usr/lib/node_modules/node-gyp/node_modules/fdir/dist/api/async.js
+* /usr/lib/node_modules/node-gyp/node_modules/fdir/dist/api/counter.d.ts
+* /usr/lib/node_modules/node-gyp/node_modules/fdir/dist/api/counter.js
+* /usr/lib/node_modules/node-gyp/node_modules/fdir/dist/api/functions/get-array.d.ts
+* /usr/lib/node_modules/node-gyp/node_modules/fdir/dist/api/functions/get-array.js
+* /usr/lib/node_modules/node-gyp/node_modules/fdir/dist/api/functions/group-files.d.ts
+* /usr/lib/node_modules/node-gyp/node_modules/fdir/dist/api/functions/group-files.js
+* /usr/lib/node_modules/node-gyp/node_modules/fdir/dist/api/functions/invoke-callback.d.ts
+* /usr/lib/node_modules/node-gyp/node_modules/fdir/dist/api/functions/invoke-callback.js
+* /usr/lib/node_modules/node-gyp/node_modules/fdir/dist/api/functions/is-recursive-symlink.d.ts
+* /usr/lib/node_modules/node-gyp/node_modules/fdir/dist/api/functions/is-recursive-symlink.js
+* /usr/lib/node_modules/node-gyp/node_modules/fdir/dist/api/functions/join-path.d.ts
+* /usr/lib/node_modules/node-gyp/node_modules/fdir/dist/api/functions/join-path.js
+* /usr/lib/node_modules/node-gyp/node_modules/fdir/dist/api/functions/push-directory.d.ts
+* /usr/lib/node_modules/node-gyp/node_modules/fdir/dist/api/functions/push-directory.js
+* /usr/lib/node_modules/node-gyp/node_modules/fdir/dist/api/functions/push-file.d.ts
+* /usr/lib/node_modules/node-gyp/node_modules/fdir/dist/api/functions/push-file.js
+* /usr/lib/node_modules/node-gyp/node_modules/fdir/dist/api/functions/resolve-symlink.d.ts
+* /usr/lib/node_modules/node-gyp/node_modules/fdir/dist/api/functions/resolve-symlink.js
+* /usr/lib/node_modules/node-gyp/node_modules/fdir/dist/api/functions/walk-directory.d.ts
+* /usr/lib/node_modules/node-gyp/node_modules/fdir/dist/api/functions/walk-directory.js
+* /usr/lib/node_modules/node-gyp/node_modules/fdir/dist/api/queue.d.ts
+* /usr/lib/node_modules/node-gyp/node_modules/fdir/dist/api/queue.js
+* /usr/lib/node_modules/node-gyp/node_modules/fdir/dist/api/sync.d.ts
+* /usr/lib/node_modules/node-gyp/node_modules/fdir/dist/api/sync.js
+* /usr/lib/node_modules/node-gyp/node_modules/fdir/dist/api/walker.d.ts
+* /usr/lib/node_modules/node-gyp/node_modules/fdir/dist/api/walker.js
+* /usr/lib/node_modules/node-gyp/node_modules/fdir/dist/builder/api-builder.d.ts
+* /usr/lib/node_modules/node-gyp/node_modules/fdir/dist/builder/api-builder.js
+* /usr/lib/node_modules/node-gyp/node_modules/fdir/dist/builder/index.d.ts
+* /usr/lib/node_modules/node-gyp/node_modules/fdir/dist/builder/index.js
+* /usr/lib/node_modules/node-gyp/node_modules/fdir/dist/index.d.ts
+* /usr/lib/node_modules/node-gyp/node_modules/fdir/dist/index.js
+* /usr/lib/node_modules/node-gyp/node_modules/fdir/dist/optimizer.d.ts
+* /usr/lib/node_modules/node-gyp/node_modules/fdir/dist/optimizer.js
+* /usr/lib/node_modules/node-gyp/node_modules/fdir/dist/types.d.ts
+* /usr/lib/node_modules/node-gyp/node_modules/fdir/dist/types.js
+* /usr/lib/node_modules/node-gyp/node_modules/fdir/dist/utils.d.ts
+* /usr/lib/node_modules/node-gyp/node_modules/fdir/dist/utils.js
+* /usr/lib/node_modules/node-gyp/node_modules/fdir/LICENSE
+* /usr/lib/node_modules/node-gyp/node_modules/fdir/package.json
+* /usr/lib/node_modules/node-gyp/node_modules/fdir/README.md
 * /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/commonjs/all-signals.d.ts
 * /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/commonjs/all-signals.d.ts.map
 * /usr/lib/node_modules/node-gyp/node_modules/foreground-child/dist/commonjs/all-signals.js
@@ -1012,6 +1054,16 @@ Node.js native addon build tool
 * /usr/lib/node_modules/node-gyp/node_modules/path-scurry/LICENSE.md
 * /usr/lib/node_modules/node-gyp/node_modules/path-scurry/package.json
 * /usr/lib/node_modules/node-gyp/node_modules/path-scurry/README.md
+* /usr/lib/node_modules/node-gyp/node_modules/picomatch/index.js
+* /usr/lib/node_modules/node-gyp/node_modules/picomatch/lib/constants.js
+* /usr/lib/node_modules/node-gyp/node_modules/picomatch/lib/parse.js
+* /usr/lib/node_modules/node-gyp/node_modules/picomatch/lib/picomatch.js
+* /usr/lib/node_modules/node-gyp/node_modules/picomatch/lib/scan.js
+* /usr/lib/node_modules/node-gyp/node_modules/picomatch/lib/utils.js
+* /usr/lib/node_modules/node-gyp/node_modules/picomatch/LICENSE
+* /usr/lib/node_modules/node-gyp/node_modules/picomatch/package.json
+* /usr/lib/node_modules/node-gyp/node_modules/picomatch/posix.js
+* /usr/lib/node_modules/node-gyp/node_modules/picomatch/README.md
 * /usr/lib/node_modules/node-gyp/node_modules/proc-log/lib/index.js
 * /usr/lib/node_modules/node-gyp/node_modules/proc-log/LICENSE
 * /usr/lib/node_modules/node-gyp/node_modules/proc-log/package.json
@@ -1041,143 +1093,6 @@ Node.js native addon build tool
 * /usr/lib/node_modules/node-gyp/node_modules/retry/test/integration/test-retry-operation.js
 * /usr/lib/node_modules/node-gyp/node_modules/retry/test/integration/test-retry-wrap.js
 * /usr/lib/node_modules/node-gyp/node_modules/retry/test/integration/test-timeouts.js
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/default-tmp.d.ts
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/default-tmp.d.ts.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/default-tmp.js
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/default-tmp.js.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/fix-eperm.d.ts
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/fix-eperm.d.ts.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/fix-eperm.js
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/fix-eperm.js.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/fs.d.ts
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/fs.d.ts.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/fs.js
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/fs.js.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/ignore-enoent.d.ts
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/ignore-enoent.d.ts.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/ignore-enoent.js
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/ignore-enoent.js.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/index.d.ts
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/index.d.ts.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/index.js
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/index.js.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/opt-arg.d.ts
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/opt-arg.d.ts.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/opt-arg.js
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/opt-arg.js.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/package.json
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/path-arg.d.ts
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/path-arg.d.ts.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/path-arg.js
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/path-arg.js.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/platform.d.ts
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/platform.d.ts.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/platform.js
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/platform.js.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/readdir-or-error.d.ts
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/readdir-or-error.d.ts.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/readdir-or-error.js
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/readdir-or-error.js.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/retry-busy.d.ts
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/retry-busy.d.ts.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/retry-busy.js
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/retry-busy.js.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/rimraf-manual.d.ts
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/rimraf-manual.d.ts.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/rimraf-manual.js
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/rimraf-manual.js.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/rimraf-move-remove.d.ts
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/rimraf-move-remove.d.ts.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/rimraf-move-remove.js
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/rimraf-move-remove.js.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/rimraf-native.d.ts
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/rimraf-native.d.ts.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/rimraf-native.js
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/rimraf-native.js.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/rimraf-posix.d.ts
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/rimraf-posix.d.ts.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/rimraf-posix.js
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/rimraf-posix.js.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/rimraf-windows.d.ts
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/rimraf-windows.d.ts.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/rimraf-windows.js
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/rimraf-windows.js.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/use-native.d.ts
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/use-native.d.ts.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/use-native.js
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/commonjs/use-native.js.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/bin.d.mts
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/bin.d.mts.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/bin.mjs
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/bin.mjs.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/default-tmp.d.ts
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/default-tmp.d.ts.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/default-tmp.js
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/default-tmp.js.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/fix-eperm.d.ts
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/fix-eperm.d.ts.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/fix-eperm.js
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/fix-eperm.js.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/fs.d.ts
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/fs.d.ts.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/fs.js
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/fs.js.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/ignore-enoent.d.ts
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/ignore-enoent.d.ts.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/ignore-enoent.js
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/ignore-enoent.js.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/index.d.ts
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/index.d.ts.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/index.js
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/index.js.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/opt-arg.d.ts
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/opt-arg.d.ts.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/opt-arg.js
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/opt-arg.js.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/package.json
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/path-arg.d.ts
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/path-arg.d.ts.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/path-arg.js
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/path-arg.js.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/platform.d.ts
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/platform.d.ts.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/platform.js
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/platform.js.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/readdir-or-error.d.ts
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/readdir-or-error.d.ts.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/readdir-or-error.js
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/readdir-or-error.js.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/retry-busy.d.ts
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/retry-busy.d.ts.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/retry-busy.js
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/retry-busy.js.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/rimraf-manual.d.ts
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/rimraf-manual.d.ts.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/rimraf-manual.js
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/rimraf-manual.js.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/rimraf-move-remove.d.ts
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/rimraf-move-remove.d.ts.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/rimraf-move-remove.js
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/rimraf-move-remove.js.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/rimraf-native.d.ts
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/rimraf-native.d.ts.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/rimraf-native.js
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/rimraf-native.js.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/rimraf-posix.d.ts
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/rimraf-posix.d.ts.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/rimraf-posix.js
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/rimraf-posix.js.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/rimraf-windows.d.ts
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/rimraf-windows.d.ts.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/rimraf-windows.js
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/rimraf-windows.js.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/use-native.d.ts
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/use-native.d.ts.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/use-native.js
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/dist/esm/use-native.js.map
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/LICENSE
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/package.json
-* /usr/lib/node_modules/node-gyp/node_modules/rimraf/README.md
 * /usr/lib/node_modules/node-gyp/node_modules/safer-buffer/dangerous.js
 * /usr/lib/node_modules/node-gyp/node_modules/safer-buffer/LICENSE
 * /usr/lib/node_modules/node-gyp/node_modules/safer-buffer/package.json
@@ -1623,6 +1538,13 @@ Node.js native addon build tool
 * /usr/lib/node_modules/node-gyp/node_modules/tar/LICENSE
 * /usr/lib/node_modules/node-gyp/node_modules/tar/package.json
 * /usr/lib/node_modules/node-gyp/node_modules/tar/README.md
+* /usr/lib/node_modules/node-gyp/node_modules/tinyglobby/dist/index.d.mts
+* /usr/lib/node_modules/node-gyp/node_modules/tinyglobby/dist/index.d.ts
+* /usr/lib/node_modules/node-gyp/node_modules/tinyglobby/dist/index.js
+* /usr/lib/node_modules/node-gyp/node_modules/tinyglobby/dist/index.mjs
+* /usr/lib/node_modules/node-gyp/node_modules/tinyglobby/LICENSE
+* /usr/lib/node_modules/node-gyp/node_modules/tinyglobby/package.json
+* /usr/lib/node_modules/node-gyp/node_modules/tinyglobby/README.md
 * /usr/lib/node_modules/node-gyp/node_modules/unique-filename/lib/index.js
 * /usr/lib/node_modules/node-gyp/node_modules/unique-filename/LICENSE
 * /usr/lib/node_modules/node-gyp/node_modules/unique-filename/package.json
@@ -1733,5 +1655,5 @@ Node.js native addon build tool
 * /usr/lib/node_modules/node-gyp/test/test-process-release.js
 * /usr/lib/node_modules/node-gyp/test/test-windows-make.js
 * /usr/lib/node_modules/node-gyp/update-gyp.py
-* /usr/share/doc/node-gyp-11.1.0/LICENSE
-* /usr/share/doc/node-gyp-11.1.0/README.md
+* /usr/share/doc/node-gyp-11.2.0/LICENSE
+* /usr/share/doc/node-gyp-11.2.0/README.md

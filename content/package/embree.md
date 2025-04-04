@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "embree 4.3.3-1"
-version = "4.3.3-1"
+title = "embree 4.4.0-1"
+version = "4.4.0-1"
 description = "Collection of high-performance ray tracing kernels"
-date = "2024-08-04T16:58:06"
+date = "2025-04-04T07:44:48"
 aliases = "/packages/220211"
 categories = ['xlib-extra']
 upstreamurl = "https://github.com/RenderKit/embree"
 arch = "x86_64"
-size = "11533324"
-usize = "45319493"
-sha1sum = "855c4937cc70a9e646e5c6ab2811c9a8bca5694d"
+size = "11072780"
+usize = "44403595"
+sha1sum = "0093081e831eb17e42e827c1f51f13d529a7c88d"
 depends = "['glfw', 'intel-tbb', 'openimageio>=2.3.15.0']"
 reverse_depends = "['blender', 'openvkl']"
 +++
@@ -36,13 +36,13 @@ Collection of high-performance ray tracing kernels
 * /usr/include/embree4/rtcore_ray.isph
 * /usr/include/embree4/rtcore_scene.h
 * /usr/include/embree4/rtcore_scene.isph
-* /usr/lib/cmake/embree-4.3.3/embree-config-version.cmake
-* /usr/lib/cmake/embree-4.3.3/embree-config.cmake
-* /usr/lib/cmake/embree-4.3.3/embree-targets-release.cmake
-* /usr/lib/cmake/embree-4.3.3/embree-targets.cmake
+* /usr/lib/cmake/embree-4.4.0/embree-config-version.cmake
+* /usr/lib/cmake/embree-4.4.0/embree-config.cmake
+* /usr/lib/cmake/embree-4.4.0/embree-targets-release.cmake
+* /usr/lib/cmake/embree-4.4.0/embree-targets.cmake
 * /usr/lib/libembree4.so
 * /usr/lib/libembree4.so.4
-* /usr/share/doc/embree-4.3.3/README.md
+* /usr/share/doc/embree-4.4.0/README.md
 * /usr/share/doc/embree4/CHANGELOG.md
 * /usr/share/doc/embree4/LICENSE.txt
 * /usr/share/doc/embree4/README.md

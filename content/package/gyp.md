@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gyp 20220912.g9d09418-4"
-version = "20220912.g9d09418-4"
+title = "gyp 20250404.g1615ec3-1"
+version = "20250404.g1615ec3-1"
 description = "GYP can Generate Your Projects."
-date = "2024-11-03T14:05:19"
+date = "2025-04-04T07:33:53"
 aliases = "/packages/219979"
 categories = ['devel-extra']
 upstreamurl = "https://chromium.googlesource.com/external/gyp"
 arch = "x86_64"
-size = "543892"
-usize = "2282672"
-sha1sum = "ab171dca156d8590c80694bad60e865634acca04"
+size = "569292"
+usize = "2365578"
+sha1sum = "921be57059bfce8a16500dd3f2799a88408d8b2f"
 depends = "['ninja']"
 +++
 ### Description: 
@@ -101,6 +101,8 @@ GYP can Generate Your Projects.
 * /usr/lib/python3.13/site-packages/gyp/__pycache__/xcode_ninja.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/gyp/__pycache__/xml_fix.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/gyp/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/gyp-20220912.g9d09418/AUTHORS
-* /usr/share/doc/gyp-20220912.g9d09418/LICENSE
-* /usr/share/doc/gyp-20220912.g9d09418/README.md
+* /usr/share/doc/gyp-20250404.g1615ec3/AUTHORS
+* /usr/share/doc/gyp-20250404.g1615ec3/CHANGES
+* /usr/share/doc/gyp-20250404.g1615ec3/LICENSE
+* /usr/share/doc/gyp-20250404.g1615ec3/README
+* /usr/share/doc/gyp-20250404.g1615ec3/README.md

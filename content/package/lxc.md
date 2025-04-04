@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lxc 6.0.3-1"
-version = "6.0.3-1"
+title = "lxc 6.0.4-1"
+version = "6.0.4-1"
 description = "Linux Containers"
-date = "2024-12-22T22:01:24"
+date = "2025-04-04T07:15:04"
 aliases = "/packages/200045"
 categories = ['apps-extra']
 upstreamurl = "https://linuxcontainers.org"
 arch = "x86_64"
-size = "800492"
-usize = "2837666"
-sha1sum = "adc0d2f58ef75e9417f3a945fbd147005ec0a7fc"
+size = "802920"
+usize = "2690418"
+sha1sum = "8a0516c24d0be64f5c41e2967b2bebfed0819780"
 depends = "['bash', 'pam', 'perl']"
 +++
 ### Description: 
@@ -87,9 +87,9 @@ Linux Containers
 * /usr/share/bash-completion/completions/lxc-usernsexec
 * /usr/share/bash-completion/completions/lxc-wait
 * /usr/share/bash-completion/completions/_lxc
-* /usr/share/doc/lxc-6.0.3/AUTHORS
-* /usr/share/doc/lxc-6.0.3/COPYING
-* /usr/share/doc/lxc-6.0.3/README.md
+* /usr/share/doc/lxc-6.0.4/AUTHORS
+* /usr/share/doc/lxc-6.0.4/COPYING
+* /usr/share/doc/lxc-6.0.4/README.md
 * /usr/share/doc/lxc/examples/lxc-complex.conf
 * /usr/share/doc/lxc/examples/lxc-empty-netns.conf
 * /usr/share/doc/lxc/examples/lxc-macvlan.conf

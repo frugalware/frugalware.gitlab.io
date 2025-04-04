@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libspnav 1.0-1"
-version = "1.0-1"
+title = "libspnav 1.2-1"
+version = "1.2-1"
 description = "Alternative to the proprietary 3Dconnexion device driver and SDK for their 3D input devices"
-date = "2022-04-28T10:45:12"
+date = "2025-04-04T07:57:47"
 aliases = "/packages/220206"
 categories = ['xlib-extra']
 upstreamurl = "https://sourceforge.net/projects/spacenav"
 arch = "x86_64"
-size = "16700"
-usize = "51967"
-sha1sum = "eef13685ffe996f5f83106e942e343d2b0eacdc8"
+size = "17256"
+usize = "49777"
+sha1sum = "9fc517ef11bf0368ac1f77b145f35f0f175facf2"
 depends = "['libx11']"
 reverse_depends = "['blender']"
 +++
@@ -23,7 +23,7 @@ Alternative to the proprietary 3Dconnexion device driver and SDK for their 3D in
 * /usr/include/spnav_magellan.h
 * /usr/lib/libspnav.so
 * /usr/lib/libspnav.so.0
-* /usr/lib/libspnav.so.0.3
+* /usr/lib/libspnav.so.0.4
 * /usr/lib/pkgconfig/spnav.pc
-* /usr/share/doc/libspnav-1.0/LICENSE
-* /usr/share/doc/libspnav-1.0/README.md
+* /usr/share/doc/libspnav-1.2/LICENSE
+* /usr/share/doc/libspnav-1.2/README.md
