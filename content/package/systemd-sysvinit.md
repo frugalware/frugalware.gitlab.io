@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "systemd-sysvinit 257.4-1"
-version = "257.4-1"
+title = "systemd-sysvinit 257.5-1"
+version = "257.5-1"
 description = "systemd System V init tools"
-date = "2025-03-07T10:32:50"
+date = "2025-04-04T06:31:16"
 aliases = "/packages/103629"
 categories = ['base']
 upstreamurl = "http://www.freedesktop.org/wiki/Software/systemd"
 arch = "x86_64"
-size = "31172"
+size = "31240"
 usize = "5194"
-sha1sum = "370aea5f9484d177d937263fa9c4533ab05fe9be"
-depends = "['kmod>=25-2', 'libcap>=2.25-4', 'libgcrypt>=1.8.0-2', 'lz4>=1.8.1.2-2', 'pam>=1.3.0-4', 'systemd=257.4']"
+sha1sum = "cc9500ad61c09bb53c46212038695fbdabcb871d"
+depends = "['kmod>=25-2', 'libcap>=2.25-4', 'libgcrypt>=1.8.0-2', 'lz4>=1.8.1.2-2', 'pam>=1.3.0-4', 'systemd=257.5']"
 reverse_depends = "['systemd']"
 +++
 ### Description: 

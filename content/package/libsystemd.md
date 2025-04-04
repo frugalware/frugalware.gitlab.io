@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libsystemd 257.4-1"
-version = "257.4-1"
+title = "libsystemd 257.5-1"
+version = "257.5-1"
 description = "systemd libs"
-date = "2025-03-07T10:32:50"
+date = "2025-04-04T06:31:16"
 aliases = "/packages/217590"
 categories = ['base']
 upstreamurl = "http://www.freedesktop.org/wiki/Software/systemd"
 arch = "x86_64"
-size = "3047724"
-usize = "10422266"
-sha1sum = "5ae5bc12dcf3974db1eebd04830c7aae9217f3c3"
+size = "3052352"
+usize = "10425210"
+sha1sum = "dc0939e0742199cba7918ea6c48d67465d27e0ae"
 depends = "['bzip2>=1.0.6-6', 'elfutils>=0.167-2', 'libcap>=2.24-4', 'libgcrypt>=1.7.3-2', 'libidn>=1.35', 'libxcrypt', 'lz4>=1.8.1.2-2', 'openssl>=3.0.7', 'p11-kit>=0.24.1', 'xfsprogs-acl>=2.2.52-5', 'xz>=5.2.2-4', 'zlib-ng', 'zstd']"
 reverse_depends = "['avahi', 'bluez', 'clamav', 'clightd', 'connman', 'dbus', 'dmraid', 'dosfstools', 'dracut-ykfde', 'efl', 'enlightenment', 'gamemode', 'gfs2-utils', 'gnome-keyring', 'gnupg2', 'gst1-plugins-good-pulseaudio', 'ibus', 'irqbalance', 'iscsi', 'jack2', 'libcups', 'libei', 'liblogging', 'libmbim', 'libndctl', 'libpulse', 'libratbag', 'libreswan', 'libvlc', 'libvncserver', 'lvm2', 'mariadb', 'modemmanager', 'mpd', 'multipath-tools', 'nvme-cli', 'p11-kit', 'pam', 'pcsc-lite', 'pdns-recursor', 'polkit', 'power-profiles-daemon', 'qt5-base', 'rdma-core', 'samba', 'samba-client', 'sane-backends', 'sddm', 'shadow', 'smartmontools', 'solid', 'solid5', 'speech-dispatcher', 'spice-vdagent', 'strongswan', 'systemd', 'systemd-nspawn', 'systemd-systemctl', 'terminology', 'tor', 'udisks2', 'upower', 'util-linux', 'xdm', 'xf86-video-qxl', 'xorg-server', 'xorg-server-fbdev', 'xorg-server-xephyr']"
 +++

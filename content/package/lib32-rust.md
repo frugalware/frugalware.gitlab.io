@@ -1,46 +1,46 @@
 +++
 draft = false
-title = "lib32-rust 1.85.1-1"
-version = "1.85.1-1"
+title = "lib32-rust 1.86.0-1"
+version = "1.86.0-1"
 description = "Programming language focused on safety, speed and concurrency ( 32bit )"
-date = "2025-03-20T12:54:49"
+date = "2025-04-04T06:57:08"
 aliases = "/packages/220243"
 categories = ['lib32-extra']
 upstreamurl = "https://www.rust-lang.org/"
 arch = "x86_64"
-size = "25392168"
-usize = "107306494"
-sha1sum = "1c7a965465fd41e57410a716d916f96f5ba07057"
+size = "25754924"
+usize = "109007802"
+sha1sum = "3aed33098808b812a4bdc77ba3f6d2ad3656e086"
 depends = "['lib32-libffi', 'lib32-xz', 'rust']"
 +++
 ### Description: 
 Programming language focused on safety, speed and concurrency ( 32bit )
 
 ### Files: 
-* /usr/lib/rustlib/i686-unknown-linux-gnu/lib/libaddr2line-47a24efcd02f1b78.rlib
-* /usr/lib/rustlib/i686-unknown-linux-gnu/lib/libadler-d2aaa2627f18a72f.rlib
-* /usr/lib/rustlib/i686-unknown-linux-gnu/lib/liballoc-551027151252c265.rlib
-* /usr/lib/rustlib/i686-unknown-linux-gnu/lib/libcfg_if-b50b3512064595e5.rlib
-* /usr/lib/rustlib/i686-unknown-linux-gnu/lib/libcompiler_builtins-23b8cfbe570992e3.rlib
-* /usr/lib/rustlib/i686-unknown-linux-gnu/lib/libcore-d9cf1f79b5587e54.rlib
-* /usr/lib/rustlib/i686-unknown-linux-gnu/lib/libgetopts-36b24792d92c7aca.rlib
-* /usr/lib/rustlib/i686-unknown-linux-gnu/lib/libgimli-dee4e9dcdb9bd8ea.rlib
-* /usr/lib/rustlib/i686-unknown-linux-gnu/lib/libhashbrown-2f926dc0cea7dfc3.rlib
-* /usr/lib/rustlib/i686-unknown-linux-gnu/lib/liblibc-92c711d34dc0cabf.rlib
-* /usr/lib/rustlib/i686-unknown-linux-gnu/lib/libmemchr-fc0c3027a6b105cb.rlib
-* /usr/lib/rustlib/i686-unknown-linux-gnu/lib/libminiz_oxide-300368bec09a0cae.rlib
-* /usr/lib/rustlib/i686-unknown-linux-gnu/lib/libobject-d523ad57a7823a5e.rlib
-* /usr/lib/rustlib/i686-unknown-linux-gnu/lib/libpanic_abort-1ce7266a740cf65f.rlib
-* /usr/lib/rustlib/i686-unknown-linux-gnu/lib/libpanic_unwind-bcdafb68207d2b7f.rlib
-* /usr/lib/rustlib/i686-unknown-linux-gnu/lib/libproc_macro-dd11a581308d2a6b.rlib
-* /usr/lib/rustlib/i686-unknown-linux-gnu/lib/librustc_demangle-0cd597687e20ffad.rlib
-* /usr/lib/rustlib/i686-unknown-linux-gnu/lib/librustc_std_workspace_alloc-8da589b1b95d54ec.rlib
-* /usr/lib/rustlib/i686-unknown-linux-gnu/lib/librustc_std_workspace_core-491ac6412ca82281.rlib
-* /usr/lib/rustlib/i686-unknown-linux-gnu/lib/librustc_std_workspace_std-244cb2c0febeb077.rlib
-* /usr/lib/rustlib/i686-unknown-linux-gnu/lib/libstd-cc57464e8bbf01c8.rlib
-* /usr/lib/rustlib/i686-unknown-linux-gnu/lib/libstd-cc57464e8bbf01c8.so
-* /usr/lib/rustlib/i686-unknown-linux-gnu/lib/libstd_detect-dcaecc13a998e01e.rlib
-* /usr/lib/rustlib/i686-unknown-linux-gnu/lib/libsysroot-fec454e04ac2e59d.rlib
-* /usr/lib/rustlib/i686-unknown-linux-gnu/lib/libtest-47320a729d201de3.rlib
-* /usr/lib/rustlib/i686-unknown-linux-gnu/lib/libunicode_width-5e404ba6ec5489a7.rlib
-* /usr/lib/rustlib/i686-unknown-linux-gnu/lib/libunwind-d40a64cfb90527ec.rlib
+* /usr/lib/rustlib/i686-unknown-linux-gnu/lib/libaddr2line-682bf7092b206599.rlib
+* /usr/lib/rustlib/i686-unknown-linux-gnu/lib/libadler2-4fd463532e47dc90.rlib
+* /usr/lib/rustlib/i686-unknown-linux-gnu/lib/liballoc-1be4404042c983b9.rlib
+* /usr/lib/rustlib/i686-unknown-linux-gnu/lib/libcfg_if-366af73838a43c6d.rlib
+* /usr/lib/rustlib/i686-unknown-linux-gnu/lib/libcompiler_builtins-38042cd4f2de64ed.rlib
+* /usr/lib/rustlib/i686-unknown-linux-gnu/lib/libcore-39caf32dc651a18d.rlib
+* /usr/lib/rustlib/i686-unknown-linux-gnu/lib/libgetopts-7f914d7087ddd16e.rlib
+* /usr/lib/rustlib/i686-unknown-linux-gnu/lib/libgimli-7023b12589caf123.rlib
+* /usr/lib/rustlib/i686-unknown-linux-gnu/lib/libhashbrown-44396229f3697ef2.rlib
+* /usr/lib/rustlib/i686-unknown-linux-gnu/lib/liblibc-dfcddecb64288302.rlib
+* /usr/lib/rustlib/i686-unknown-linux-gnu/lib/libmemchr-831edae0feb10227.rlib
+* /usr/lib/rustlib/i686-unknown-linux-gnu/lib/libminiz_oxide-94d301a563af84e5.rlib
+* /usr/lib/rustlib/i686-unknown-linux-gnu/lib/libobject-1fd44ecd4561fc27.rlib
+* /usr/lib/rustlib/i686-unknown-linux-gnu/lib/libpanic_abort-30a714972671af49.rlib
+* /usr/lib/rustlib/i686-unknown-linux-gnu/lib/libpanic_unwind-83f2e5ced4458095.rlib
+* /usr/lib/rustlib/i686-unknown-linux-gnu/lib/libproc_macro-9ba789ca8efd177e.rlib
+* /usr/lib/rustlib/i686-unknown-linux-gnu/lib/librustc_demangle-56ed2098b5891b11.rlib
+* /usr/lib/rustlib/i686-unknown-linux-gnu/lib/librustc_std_workspace_alloc-29304c891cb5c890.rlib
+* /usr/lib/rustlib/i686-unknown-linux-gnu/lib/librustc_std_workspace_core-b950bfe22f70ced9.rlib
+* /usr/lib/rustlib/i686-unknown-linux-gnu/lib/librustc_std_workspace_std-0d788894b64d1667.rlib
+* /usr/lib/rustlib/i686-unknown-linux-gnu/lib/libstd-d4de6fc9a94770e0.rlib
+* /usr/lib/rustlib/i686-unknown-linux-gnu/lib/libstd-d4de6fc9a94770e0.so
+* /usr/lib/rustlib/i686-unknown-linux-gnu/lib/libstd_detect-5be5ac8d6f3f599b.rlib
+* /usr/lib/rustlib/i686-unknown-linux-gnu/lib/libsysroot-9df2c74b442827f7.rlib
+* /usr/lib/rustlib/i686-unknown-linux-gnu/lib/libtest-f657a5c103a627af.rlib
+* /usr/lib/rustlib/i686-unknown-linux-gnu/lib/libunicode_width-ed415affc77424e6.rlib
+* /usr/lib/rustlib/i686-unknown-linux-gnu/lib/libunwind-7716aa58a30967f5.rlib

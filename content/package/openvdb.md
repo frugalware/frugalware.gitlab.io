@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openvdb 12.0.0-2"
-version = "12.0.0-2"
+title = "openvdb 12.0.1-1"
+version = "12.0.1-1"
 description = "A large suite of tools for the efficient storage and manipulation 	of sparse volumetric data discretized on three-dimensional grids"
-date = "2025-01-05T12:18:46"
+date = "2025-04-04T07:12:48"
 aliases = "/packages/220209"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/AcademySoftwareFoundation/openvdb"
 arch = "x86_64"
-size = "4622204"
-usize = "40528856"
-sha1sum = "31e71e1d0d2e440f6239b380d349c35bfee0b3a2"
+size = "4628552"
+usize = "40732158"
+sha1sum = "6e29a8c5c4aef9ec139f21cb6dc2f03927412d66"
 depends = "['blosc', 'intel-tbb', 'jemalloc', 'libboost>=1.87.0']"
 reverse_depends = "['blender', 'openimageio', 'vtk']"
 +++
@@ -187,10 +187,10 @@ A large suite of tools for the efficient storage and manipulation 	of sparse vol
 * /usr/lib/cmake/OpenVDB/OpenVDBUtils.cmake
 * /usr/lib/libopenvdb.so
 * /usr/lib/libopenvdb.so.12.0
-* /usr/lib/libopenvdb.so.12.0.0
+* /usr/lib/libopenvdb.so.12.0.1
 * /usr/share/cmake/Modules/FindBlosc.cmake
 * /usr/share/cmake/Modules/FindOpenVDB.cmake
 * /usr/share/cmake/Modules/OpenVDBUtils.cmake
-* /usr/share/doc/openvdb-12.0.0/CHANGES
-* /usr/share/doc/openvdb-12.0.0/LICENSE
-* /usr/share/doc/openvdb-12.0.0/README.md
+* /usr/share/doc/openvdb-12.0.1/CHANGES
+* /usr/share/doc/openvdb-12.0.1/LICENSE
+* /usr/share/doc/openvdb-12.0.1/README.md
