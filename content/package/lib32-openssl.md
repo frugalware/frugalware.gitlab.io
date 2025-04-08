@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-openssl 3.4.1-1"
-version = "3.4.1-1"
+title = "lib32-openssl 3.5.0-1"
+version = "3.5.0-1"
 description = "The Open Source toolkit for Secure Sockets Layer and Transport Layer Security ( 32bit )"
-date = "2025-02-12T08:41:41"
+date = "2025-04-08T19:43:35"
 aliases = "/packages/217921"
 categories = ['lib32-extra']
 upstreamurl = "https://openssl-library.org"
 arch = "x86_64"
-size = "27041364"
-usize = "40242216"
-sha1sum = "4a8eddf6b02f05bc94f3a7c1ebf7f96efe7214b3"
+size = "28820516"
+usize = "43301795"
+sha1sum = "38603575bd7077e8cd97fcd69dee186e2946c117"
 depends = "[]"
 reverse_depends = "['lib32-curl', 'lib32-libarchive', 'lib32-libcups', 'lib32-libevent', 'lib32-libldap', 'lib32-libpulse', 'lib32-libssh2', 'lib32-libsystemd', 'lib32-libzip']"
 +++
@@ -24,7 +24,6 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security ( 
 * /usr/i686-frugalware-linux/include/openssl/asn1.h
 * /usr/i686-frugalware-linux/include/openssl/asn1err.h
 * /usr/i686-frugalware-linux/include/openssl/asn1t.h
-* /usr/i686-frugalware-linux/include/openssl/asn1_mac.h
 * /usr/i686-frugalware-linux/include/openssl/async.h
 * /usr/i686-frugalware-linux/include/openssl/asyncerr.h
 * /usr/i686-frugalware-linux/include/openssl/bio.h
@@ -34,6 +33,7 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security ( 
 * /usr/i686-frugalware-linux/include/openssl/bnerr.h
 * /usr/i686-frugalware-linux/include/openssl/buffer.h
 * /usr/i686-frugalware-linux/include/openssl/buffererr.h
+* /usr/i686-frugalware-linux/include/openssl/byteorder.h
 * /usr/i686-frugalware-linux/include/openssl/camellia.h
 * /usr/i686-frugalware-linux/include/openssl/cast.h
 * /usr/i686-frugalware-linux/include/openssl/cmac.h
@@ -100,6 +100,7 @@ The Open Source toolkit for Secure Sockets Layer and Transport Layer Security ( 
 * /usr/i686-frugalware-linux/include/openssl/md4.h
 * /usr/i686-frugalware-linux/include/openssl/md5.h
 * /usr/i686-frugalware-linux/include/openssl/mdc2.h
+* /usr/i686-frugalware-linux/include/openssl/ml_kem.h
 * /usr/i686-frugalware-linux/include/openssl/modes.h
 * /usr/i686-frugalware-linux/include/openssl/objects.h
 * /usr/i686-frugalware-linux/include/openssl/objectserr.h

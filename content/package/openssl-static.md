@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openssl-static 3.4.1-1"
-version = "3.4.1-1"
+title = "openssl-static 3.5.0-1"
+version = "3.5.0-1"
 description = "Static files for openssl"
-date = "2025-02-12T08:41:41"
+date = "2025-04-08T19:43:35"
 aliases = "/packages/219931"
 categories = ['devel-extra']
 upstreamurl = "https://openssl-library.org"
 arch = "x86_64"
-size = "25832248"
-usize = "34548410"
-sha1sum = "55f1c972c83ee52c322ab276bfd52450924e9cbb"
+size = "27530904"
+usize = "37211008"
+sha1sum = "0cf1174394d685d1b6ca041c66940aa2ef691ae5"
 depends = "[]"
 +++
 ### Description: 
