@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openimageio 2.5.18.0-6"
-version = "2.5.18.0-6"
+title = "openimageio 2.5.18.0-7"
+version = "2.5.18.0-7"
 description = "A library for reading and writing images, including classes, utilities, and applications."
-date = "2025-03-28T20:31:21"
+date = "2025-04-07T11:14:28"
 aliases = "/packages/169088"
 categories = ['xlib-extra']
 upstreamurl = "http://www.openimageio.org/"
 arch = "x86_64"
-size = "4120056"
-usize = "17546949"
-sha1sum = "8e0dc6d10c5f0bab60cc7f25c455c79af61a9ade"
+size = "4121344"
+usize = "17558976"
+sha1sum = "af5d04761ecca1318955d0d57d8267e2eeae180b"
 depends = "['fmtlib', 'glew>=2.0.0-2', 'libboost>=1.87.0', 'libheif', 'libraw>=0.21.1', 'libwebp', 'openblas', 'opencolorio', 'opencv>=4.11.0', 'openjpeg>=2.2.0', 'openssl>=1.1.1', 'openvdb>=12.0.0', 'pybind11']"
 reverse_depends = "['blender', 'embree', 'openshadinglanguage']"
 +++
@@ -103,7 +103,9 @@ A library for reading and writing images, including classes, utilities, and appl
 * /usr/lib/pkgconfig/OpenImageIO.pc
 * /usr/lib/python3.13/site-packages/OpenImageIO/OpenImageIO.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/OpenImageIO/__init__.py
+* /usr/share/doc/openimageio-2.5.18.0/COPYRIGHT
 * /usr/share/doc/openimageio-2.5.18.0/INSTALL.md
+* /usr/share/doc/openimageio-2.5.18.0/LICENSE
 * /usr/share/doc/openimageio-2.5.18.0/README.md
 * /usr/share/doc/OpenImageIO/CHANGES-0.x.md
 * /usr/share/doc/OpenImageIO/CHANGES-1.x.md

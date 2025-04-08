@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mpvqt 1.0.1-6"
-version = "1.0.1-6"
+title = "mpvqt 1.0.1-7"
+version = "1.0.1-7"
 description = "A libmpv wrapper for QtQuick2 and QML"
-date = "2025-03-28T19:15:31"
+date = "2025-04-07T09:13:36"
 aliases = "/packages/221367"
 categories = ['lib-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "25920"
-usize = "85507"
-sha1sum = "b10430a57a82a97389237a36e46e798b7482fa1a"
+size = "26024"
+usize = "85539"
+sha1sum = "6da33e0cd63a7e9e31189ceaf74cd382572b4f77"
 depends = "['mpv', 'qt6-declarative>=6.8.2']"
 reverse_depends = "['plasmatube', 'tokodon']"
 +++

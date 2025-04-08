@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "plasma-integration 6.3.4-1"
-version = "6.3.4-1"
+title = "plasma-integration 6.3.4-2"
+version = "6.3.4-2"
 description = "Qt6 Platform Theme integration plugins for the Plasma workspaces."
-date = "2025-04-02T10:31:21"
+date = "2025-04-05T15:22:40"
 aliases = "/packages/218397"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "143108"
-usize = "528913"
-sha1sum = "feaa13d9026b6c1893641f386c82f8843ff17904"
+size = "134084"
+usize = "499825"
+sha1sum = "70621b40fbfcc836402d68cd0630b4ae7c7f32b2"
 depends = "['breeze>=5.27.12', 'hack', 'kio>=6.12.0', 'kstatusnotifieritem>=6.12.0', 'kwayland>=5.27.12', 'libxcursor', 'noto-emoji', 'noto-fonts', 'xdg-desktop-portal-kde>=5.27.12']"
 +++
 ### Description: 

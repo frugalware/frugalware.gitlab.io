@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kalarm 24.12.3-2"
-version = "24.12.3-2"
+title = "kalarm 24.12.3-3"
+version = "24.12.3-3"
 description = "Personal Alarm Scheduler"
-date = "2025-03-28T12:27:16"
+date = "2025-04-05T21:29:31"
 aliases = "/packages/218930"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3007432"
-usize = "15197046"
-sha1sum = "1e808d7c880b846acc39292be0f100db0bb72383"
+size = "3007768"
+usize = "15204726"
+sha1sum = "66f2a9c0ba4c58127c3a9704e3f5a63a7ba06f76"
 depends = "['kcalutils>=24.12.3', 'kholidays>=6.12.0', 'kidletime>=6.12.0', 'kmailtransport>=24.12.3', 'knotifyconfig>=6.12.0', 'kstatusnotifieritem>=6.12.0', 'mailcommon>=24.12.3', 'pimcommon>=24.12.3', 'vlc']"
 reverse_depends = "['kdepim-runtime', 'pim-data-exporter']"
 +++

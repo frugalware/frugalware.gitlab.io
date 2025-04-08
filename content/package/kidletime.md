@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kidletime 6.12.0-2"
-version = "6.12.0-2"
+title = "kidletime 6.12.0-3"
+version = "6.12.0-3"
 description = "Reporting of idle time of user and system."
-date = "2025-03-27T15:44:48"
+date = "2025-04-05T12:18:38"
 aliases = "/packages/218318"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "54864"
-usize = "206606"
-sha1sum = "824f78ac71f7366987422c3554fe65e05399a782"
+size = "55504"
+usize = "206990"
+sha1sum = "1b862e5dce56af1d598be602435906515fe694ec"
 depends = "['libxscrnsaver']"
 reverse_depends = "['baloo', 'discover', 'drkonqi', 'kalarm', 'konversation', 'kscreenlocker', 'kup', 'kwin', 'plasma-workspace', 'plasma5support']"
 +++

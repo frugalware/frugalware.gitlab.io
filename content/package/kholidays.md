@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kholidays 6.12.0-2"
-version = "6.12.0-2"
+title = "kholidays 6.12.0-3"
+version = "6.12.0-3"
 description = "C++ library for calendar holidays."
-date = "2025-03-27T15:39:40"
+date = "2025-04-05T12:12:52"
 aliases = "/packages/218312"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "259360"
-usize = "944517"
-sha1sum = "918d6a36a63cb9132a597768453ce2b12cc9da91"
-depends = "['qt6-base>=6.8.3']"
+size = "259440"
+usize = "944613"
+sha1sum = "baaa3f4802239ede334a584b2ecc01581e937cb5"
+depends = "['qt6-base>=6.9.0']"
 reverse_depends = "['calendarsupport', 'kalarm', 'kopeninghours', 'kweathercore', 'plasma-workspace']"
 +++
 ### Description: 

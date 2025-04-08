@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ktextwidgets 6.12.0-2"
-version = "6.12.0-2"
+title = "ktextwidgets 6.12.0-3"
+version = "6.12.0-3"
 description = "KDE Text editing widgets."
-date = "2025-03-27T16:13:00"
+date = "2025-04-05T14:05:23"
 aliases = "/packages/218355"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "272320"
-usize = "1477551"
-sha1sum = "099c162543b3b2cce351561e1ce4c81653131cc6"
-depends = "['kcompletion>=6.12.0', 'kiconthemes>=6.12.0', 'kservice>=6.12.0', 'qt6-speech>=6.8.3', 'sonnet>=6.12.0']"
+size = "272412"
+usize = "1477679"
+sha1sum = "5d8ee4214a0118a9bde46f96d068219bcd301fd2"
+depends = "['kcompletion>=6.12.0', 'kiconthemes>=6.12.0', 'kservice>=6.12.0', 'qt6-speech>=6.9.0', 'sonnet>=6.12.0']"
 reverse_depends = "['audex', 'dolphin', 'kxmlgui', 'libksane']"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ksvg 6.12.0-2"
-version = "6.12.0-2"
+title = "ksvg 6.12.0-3"
+version = "6.12.0-3"
 description = "A library for rendering SVG-based themes with stylesheet re-coloring and on-disk caching."
-date = "2025-03-27T16:38:28"
+date = "2025-04-05T14:32:49"
 aliases = "/packages/221400"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "139184"
-usize = "488324"
-sha1sum = "41c8714d0d78cf4eb3a1f8814e94d17cefd410ce"
+size = "141296"
+usize = "494267"
+sha1sum = "8cee7366df3c975d182565a752c7cdd5d8dd3bd9"
 depends = "['karchive>=6.12.0', 'kcolorscheme>=6.12.0', 'kcoreaddons>=6.12.0', 'kirigami>=6.12.0']"
 reverse_depends = "['bluedevil', 'knights', 'kscreen', 'kwin', 'libplasma', 'milou', 'plasma-pa', 'plasma-workspace']"
 +++

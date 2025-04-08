@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libkomparediff2 24.12.3-2"
-version = "24.12.3-2"
+title = "libkomparediff2 24.12.3-3"
+version = "24.12.3-3"
 description = "Library to compare files and strings."
-date = "2025-03-28T12:57:49"
+date = "2025-04-05T22:01:48"
 aliases = "/packages/200332"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "103512"
-usize = "413680"
-sha1sum = "44bd8930508c4d09e59ba3d715e74dc09cf9f994"
+size = "103548"
+usize = "413744"
+sha1sum = "102847d24f3a63ebac7a42311072796908f2b817"
 depends = "['kio>=6.12.0']"
 reverse_depends = "['kdevelop', 'kompare']"
 +++

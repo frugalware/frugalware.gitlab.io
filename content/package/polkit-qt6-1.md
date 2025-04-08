@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "polkit-qt6-1 0.200.0-8"
-version = "0.200.0-8"
+title = "polkit-qt6-1 0.200.0-9"
+version = "0.200.0-9"
 description = "A library that allows developers to access Polikit API with a nice Qt-style API"
-date = "2025-03-28T20:37:43"
+date = "2025-04-07T11:27:04"
 aliases = "/packages/221378"
 categories = ['xlib']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "73736"
-usize = "304828"
-sha1sum = "42370e7c772222cf657bcb280cac54f0173e5c5b"
+size = "73756"
+usize = "304412"
+sha1sum = "815f5de0dfac73022eb6fcc2b26a501dae1286c7"
 depends = "['libgcc>=6.2.1-5', 'libice>=1.0.9-3', 'libuuid>=2.40.2', 'libxext>=1.3.3-3', 'libxrender>=0.9.9-5', 'polkit>=0.113-9', 'qt6-base>=6.8.2']"
 reverse_depends = "['kauth', 'polkit-kde-agent-1']"
 +++

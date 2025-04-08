@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "knotifications 6.12.0-2"
-version = "6.12.0-2"
+title = "knotifications 6.12.0-3"
+version = "6.12.0-3"
 description = "KDE Desktop notifications."
-date = "2025-03-27T16:06:11"
+date = "2025-04-05T12:43:28"
 aliases = "/packages/218337"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "107148"
-usize = "365339"
-sha1sum = "a9c6972de86c365075af06c944afd94f31d7af8d"
-depends = "['kiconthemes>=6.12.0', 'kservice>=6.12.0', 'libcanberra', 'libcanberra-alsa', 'phonon-qt6>=4.9.1-5', 'qt6-speech>=6.8.3']"
+size = "107504"
+usize = "367803"
+sha1sum = "61e20df0fa41a19d486e1aba837ab4b2168d25f2"
+depends = "['kiconthemes>=6.12.0', 'kservice>=6.12.0', 'libcanberra', 'libcanberra-alsa', 'phonon-qt6>=4.9.1-5', 'qt6-speech>=6.9.0']"
 reverse_depends = "['calindori', 'dolphin', 'francis', 'kbackup', 'kcalc', 'kde-inotify-survey', 'kjobwidgets', 'kmix', 'kmousetool', 'kongress', 'kruler', 'kvirc', 'kwallet', 'kwrited', 'plasma-browser-integration', 'plasma5support', 'smb4k', 'tokodon', 'wacomtablet', 'xwaylandvideobridge']"
 +++
 ### Description: 

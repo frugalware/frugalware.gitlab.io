@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libaccounts-qt 1.17-6"
-version = "1.17-6"
+title = "libaccounts-qt 1.17-7"
+version = "1.17-7"
 description = "Qt-based client library for accessing the online accounts database."
-date = "2025-03-28T18:57:16"
+date = "2025-04-07T08:31:16"
 aliases = "/packages/200094"
 categories = ['xlib']
 upstreamurl = "https://gitlab.com/accounts-sso/libaccounts-qt"
 arch = "x86_64"
-size = "252896"
-usize = "1901572"
-sha1sum = "308070baebc0013f01e63bc46efcb45f37634f91"
+size = "256720"
+usize = "1912559"
+sha1sum = "c4a033ad2f49ce43d21740fec983512ce80026b5"
 depends = "['libaccounts-glib>=1.25', 'qt6-base>=6.8.2']"
 reverse_depends = "['accounts-qml-module', 'kaccounts-integration']"
 +++
@@ -163,5 +163,6 @@ Qt-based client library for accessing the online accounts database.
 * /usr/share/doc/accounts-qt/html/utils_8h_source.html
 * /usr/share/doc/libaccounts-qt-1.17/COPYING
 * /usr/share/doc/libaccounts-qt-1.17/INSTALL
+* /usr/share/doc/libaccounts-qt-1.17/LICENSE
 * /usr/share/doc/libaccounts-qt-1.17/README.md
 * /usr/share/doc/libaccounts-qt-1.17/TODO

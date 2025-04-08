@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pavucontrol-qt 2.1.0-4"
-version = "2.1.0-4"
+title = "pavucontrol-qt 2.1.0-5"
+version = "2.1.0-5"
 description = "A Pulseaudio mixer in Qt5."
-date = "2025-03-28T20:34:25"
+date = "2025-04-07T11:23:46"
 aliases = "/packages/219344"
 categories = ['xapps-extra']
 upstreamurl = "http://lxqt.org/"
 arch = "x86_64"
-size = "156508"
-usize = "1020041"
-sha1sum = "e22ff2ada90e5822edfb0f1f860df40fb29dd6bf"
+size = "156796"
+usize = "1019785"
+sha1sum = "c9241b709b9985498c0684f4041d2ab41d1e8a0b"
 depends = "['libpulse', 'pcre2', 'pulseaudio', 'qt6-base>=6.8.2']"
 reverse_depends = "['lumina-desktop']"
 +++

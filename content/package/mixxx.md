@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mixxx 2.5.0-8"
-version = "2.5.0-8"
+title = "mixxx 2.5.0-9"
+version = "2.5.0-9"
 description = "An open source DJ tool."
-date = "2025-03-31T14:53:01"
+date = "2025-04-08T11:42:54"
 aliases = "/packages/218622"
 categories = ['xapps-extra']
 upstreamurl = "http://www.mixxx.org/"
 arch = "x86_64"
-size = "15068292"
-usize = "51576576"
-sha1sum = "6479846b4ae45c2523fd4331da8cab15d337fd04"
+size = "14900468"
+usize = "50922257"
+sha1sum = "0cd577ec0f9adbe8c36461f42f8a9dc943c54502"
 depends = "['chromaprint', 'flac>=1.5.0', 'libebur128', 'libhidapi', 'libkeyfinder', 'libmad', 'libmodplug', 'lilv', 'opus', 'portaudio', 'portmidi', 'protobuf>=30.2', 'qt6-5compat>=6.8.2', 'qt6-shadertools>=6.8.2', 'qt6-svg>=6.8.2', 'qtkeychain', 'rubberband>=4.0.0', 'soundtouch', 'taglib1', 'upower', 'wavpack']"
 +++
 ### Description: 
@@ -348,93 +348,6 @@ An open source DJ tool.
 * /usr/share/mixxx/keyboard/fr_FR.kbd.cfg
 * /usr/share/mixxx/keyboard/it_IT.kbd.cfg
 * /usr/share/mixxx/keyboard/ru_RU.kbd.cfg
-* /usr/share/mixxx/qml/AuxiliaryUnit.qml
-* /usr/share/mixxx/qml/Button.qml
-* /usr/share/mixxx/qml/ComboBox.qml
-* /usr/share/mixxx/qml/ControlButton.qml
-* /usr/share/mixxx/qml/ControlKnob.qml
-* /usr/share/mixxx/qml/ControlMiniKnob.qml
-* /usr/share/mixxx/qml/ControlSlider.qml
-* /usr/share/mixxx/qml/CrossfaderRow.qml
-* /usr/share/mixxx/qml/Deck.qml
-* /usr/share/mixxx/qml/DeckInfoBar.qml
-* /usr/share/mixxx/qml/DeckRow.qml
-* /usr/share/mixxx/qml/DeveloperToolsWindow.qml
-* /usr/share/mixxx/qml/EffectRow.qml
-* /usr/share/mixxx/qml/EffectSlot.qml
-* /usr/share/mixxx/qml/EffectUnit.qml
-* /usr/share/mixxx/qml/EmbeddedBackground.qml
-* /usr/share/mixxx/qml/EmbeddedText.qml
-* /usr/share/mixxx/qml/EqColumn.qml
-* /usr/share/mixxx/qml/EqKnob.qml
-* /usr/share/mixxx/qml/FadeBehavior.qml
-* /usr/share/mixxx/qml/FocusedWidgetControl.qml
-* /usr/share/mixxx/qml/Hotcue.qml
-* /usr/share/mixxx/qml/HotcueButton.qml
-* /usr/share/mixxx/qml/HotcuePopup.qml
-* /usr/share/mixxx/qml/images/auto@2x.png
-* /usr/share/mixxx/qml/images/button.svg
-* /usr/share/mixxx/qml/images/button_pressed.svg
-* /usr/share/mixxx/qml/images/icon_passthrough.svg
-* /usr/share/mixxx/qml/images/icon_quantize.svg
-* /usr/share/mixxx/qml/images/knob.svg
-* /usr/share/mixxx/qml/images/knob_shadow.svg
-* /usr/share/mixxx/qml/images/mark_intro.svg
-* /usr/share/mixxx/qml/images/mark_loop.svg
-* /usr/share/mixxx/qml/images/mark_outro.svg
-* /usr/share/mixxx/qml/images/miniknob.svg
-* /usr/share/mixxx/qml/images/miniknob_shadow.svg
-* /usr/share/mixxx/qml/images/realty@2x.png
-* /usr/share/mixxx/qml/images/section.svg
-* /usr/share/mixxx/qml/images/services@2x.png
-* /usr/share/mixxx/qml/images/slider_bpm.svg
-* /usr/share/mixxx/qml/images/slider_crossfader.svg
-* /usr/share/mixxx/qml/images/slider_handle.svg
-* /usr/share/mixxx/qml/images/slider_handle_crossfader.svg
-* /usr/share/mixxx/qml/images/slider_handle_micducking.svg
-* /usr/share/mixxx/qml/images/slider_micducking.svg
-* /usr/share/mixxx/qml/images/slider_volume.svg
-* /usr/share/mixxx/qml/images/work@2x.png
-* /usr/share/mixxx/qml/InfoBarButton.qml
-* /usr/share/mixxx/qml/Knob.qml
-* /usr/share/mixxx/qml/Library.qml
-* /usr/share/mixxx/qml/LibraryControl.qml
-* /usr/share/mixxx/qml/LibraryControlLoadSelectedTrackHandler.qml
-* /usr/share/mixxx/qml/main.qml
-* /usr/share/mixxx/qml/MicrophoneDuckingPanel.qml
-* /usr/share/mixxx/qml/MicrophoneUnit.qml
-* /usr/share/mixxx/qml/MiniKnob.qml
-* /usr/share/mixxx/qml/Mixer.qml
-* /usr/share/mixxx/qml/MixerColumn.qml
-* /usr/share/mixxx/qml/Mixxx/Controls/Knob.qml
-* /usr/share/mixxx/qml/Mixxx/Controls/Slider.qml
-* /usr/share/mixxx/qml/Mixxx/Controls/Spinny.qml
-* /usr/share/mixxx/qml/Mixxx/Controls/WaveformOverview.qml
-* /usr/share/mixxx/qml/Mixxx/Controls/WaveformOverviewHotcueMarker.qml
-* /usr/share/mixxx/qml/Mixxx/Controls/WaveformOverviewMarker.qml
-* /usr/share/mixxx/qml/Mixxx/MathUtils.mjs
-* /usr/share/mixxx/qml/Mixxx/PlayerDropArea.qml
-* /usr/share/mixxx/qml/Mixxx/qmldir
-* /usr/share/mixxx/qml/OrientationToggleButton.qml
-* /usr/share/mixxx/qml/Sampler.qml
-* /usr/share/mixxx/qml/SamplerRow.qml
-* /usr/share/mixxx/qml/SectionBackground.qml
-* /usr/share/mixxx/qml/SectionText.qml
-* /usr/share/mixxx/qml/skin.ini
-* /usr/share/mixxx/qml/skin_preview.png
-* /usr/share/mixxx/qml/Slider.qml
-* /usr/share/mixxx/qml/SyncButton.qml
-* /usr/share/mixxx/qml/TextField.qml
-* /usr/share/mixxx/qml/Theme/qmldir
-* /usr/share/mixxx/qml/Theme/Theme.qml
-* /usr/share/mixxx/qml/VuMeter.qml
-* /usr/share/mixxx/qml/WaveformCue.qml
-* /usr/share/mixxx/qml/WaveformHotcue.qml
-* /usr/share/mixxx/qml/WaveformIntroOutro.qml
-* /usr/share/mixxx/qml/WaveformLoop.qml
-* /usr/share/mixxx/qml/WaveformOverview.qml
-* /usr/share/mixxx/qml/WaveformRow.qml
-* /usr/share/mixxx/qml/WaveformShader.qml
 * /usr/share/mixxx/skins/Deere (64 Samplers)/sample_decks.xml
 * /usr/share/mixxx/skins/Deere (64 Samplers)/skin.xml
 * /usr/share/mixxx/skins/Deere (64 Samplers)/skinsettings_sampler_buttons.xml

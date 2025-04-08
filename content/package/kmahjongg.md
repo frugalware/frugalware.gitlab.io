@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kmahjongg 24.12.3-2"
-version = "24.12.3-2"
+title = "kmahjongg 24.12.3-3"
+version = "24.12.3-3"
 description = "KMahjongg is a tile matching game for one or two players"
-date = "2025-03-28T15:30:28"
+date = "2025-04-06T11:10:45"
 aliases = "/packages/219335"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3823224"
-usize = "5315681"
-sha1sum = "9e40d2d948a6dd46f09e6fad9e040d6a260f4434"
+size = "3822872"
+usize = "5315201"
+sha1sum = "1fb1a9072f5a1dfbb617b85cb0a38b2eb5779736"
 depends = "['libkdegames>=24.12.3', 'libkmahjongg>=24.12.3']"
 +++
 ### Description: 

@@ -12,7 +12,7 @@ size = "196300"
 usize = "710708"
 sha1sum = "75b486efd3fb8bd8be8db6912c28f3f45b2467ff"
 depends = "['poppler', 'qt6-base>=6.8.3']"
-reverse_depends = "['calligra', 'kdepim-addons', 'kfilemetadata', 'kile', 'okular', 'texstudio']"
+reverse_depends = "['calligra', 'kdepim-addons', 'kfilemetadata', 'kile', 'labplot', 'okular', 'texstudio']"
 +++
 ### Description: 
 Poppler QT6 bindings

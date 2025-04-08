@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "khangman 24.12.3-2"
-version = "24.12.3-2"
+title = "khangman 24.12.3-3"
+version = "24.12.3-3"
 description = "KDE hangman game."
-date = "2025-03-28T11:47:33"
+date = "2025-04-05T20:50:19"
 aliases = "/packages/152829"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "6625932"
-usize = "9991806"
-sha1sum = "e89457c58976c2046a10d06d78811ca1bf7e483c"
-depends = "['kdeclarative>=6.12.0', 'knewstuff>=6.12.0', 'libkeduvocdocument>=24.12.3', 'qt6-declarative>=6.8.3', 'qt6-svg>=6.8.3']"
+size = "6627976"
+usize = "9989502"
+sha1sum = "553b069d721898395fc2a93a4c529083f7c6c713"
+depends = "['kdeclarative>=6.12.0', 'knewstuff>=6.12.0', 'libkeduvocdocument>=24.12.3', 'qt6-declarative>=6.9.0', 'qt6-svg>=6.9.0']"
 +++
 ### Description: 
 KDE hangman game.

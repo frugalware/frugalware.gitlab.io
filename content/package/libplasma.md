@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libplasma 6.3.4-1"
-version = "6.3.4-1"
+title = "libplasma 6.3.4-2"
+version = "6.3.4-2"
 description = "Plasma library and runtime components based upon KF5 and Qt5."
-date = "2025-04-02T10:07:27"
+date = "2025-04-05T15:03:32"
 aliases = "/packages/221364"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2471796"
-usize = "6186316"
-sha1sum = "808e0e04c0f225ea050e0bc22c6533681c1d5b88"
+size = "2446324"
+usize = "6103509"
+sha1sum = "3f3c2088b9f6a4f7e53a6d81b19bd60754e53f23"
 depends = "['kcmutils>=6.12.0', 'ksvg>=6.12.0', 'plasma-activities>=6.3.4']"
 reverse_depends = "['bluedevil', 'discover', 'kate', 'kclock', 'kdevelop', 'knights', 'kscreen', 'kup', 'kweather', 'kwin', 'milou', 'plasma-nano', 'plasma-pa', 'plasma-sdk', 'plasma-vault', 'plasma-welcome', 'plasma-workspace', 'smb4k', 'wacomtablet']"
 +++

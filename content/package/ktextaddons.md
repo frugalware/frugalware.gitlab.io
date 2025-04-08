@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ktextaddons 1.5.4-5"
-version = "1.5.4-5"
+title = "ktextaddons 1.5.4-6"
+version = "1.5.4-6"
 description = "Various text handling addons"
-date = "2025-03-28T18:15:06"
+date = "2025-04-06T20:23:59"
 aliases = "/packages/220956"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "578352"
-usize = "2727569"
-sha1sum = "f0bbe60741217f4712079b14b880c652dd3a9b31"
+size = "578688"
+usize = "2728305"
+sha1sum = "82ba391a60870639491a4be390452e58e03b0385"
 depends = "['kio>=', 'kxmlgui>=', 'qt6-speech>=', 'qtkeychain', 'syntax-highlighting>=']"
 reverse_depends = "['kpimtextedit', 'messagelib', 'pimcommon']"
 +++

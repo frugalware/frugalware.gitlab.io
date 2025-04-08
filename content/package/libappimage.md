@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libappimage 1.0.4.5-4"
-version = "1.0.4.5-4"
+title = "libappimage 1.0.4.5-5"
+version = "1.0.4.5-5"
 description = "Reference implementation of the AppImage specification"
-date = "2025-01-05T12:03:04"
+date = "2025-04-05T12:54:33"
 aliases = "/packages/221436"
 categories = ['lib']
 upstreamurl = "https://appimage.org"
 arch = "x86_64"
-size = "146792"
-usize = "389871"
-sha1sum = "1cd1188a1e9ac8a19e8f1e896b1434c298f4dc9a"
+size = "147220"
+usize = "389920"
+sha1sum = "223f9f0ecf043c4ce10a8092e701056517922e61"
 depends = "['libarchive', 'libboost>=1.87.0', 'librsvg', 'squashfuse']"
 reverse_depends = "['kfilemetadata', 'kio-extras']"
 +++

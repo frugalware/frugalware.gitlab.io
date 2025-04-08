@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kdepim-addons 24.12.3-2"
-version = "24.12.3-2"
+title = "kdepim-addons 24.12.3-3"
+version = "24.12.3-3"
 description = "Addons for PIM release-service."
-date = "2025-03-28T13:11:30"
+date = "2025-04-05T22:14:37"
 aliases = "/packages/219159"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1344876"
-usize = "8382579"
-sha1sum = "e11ced62f59a70f6319f6e4b8512f2a354d7310d"
+size = "1346680"
+usize = "8383571"
+sha1sum = "e491e0ca2bdc46eb61788f176527ff6700b3eefe"
 depends = "['akonadi-import-wizard>=24.12.3', 'discount>=3.0.0', 'incidenceeditor>=24.12.3', 'kaddressbook>=24.12.3', 'kitinerary>=24.12.3', 'kontactinterface>=24.12.3', 'ktnef>=24.12.3', 'libksieve>=24.12.3', 'mailcommon>=24.12.3', 'poppler-qt6']"
 +++
 ### Description: 

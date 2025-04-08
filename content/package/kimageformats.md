@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kimageformats 6.12.0-2"
-version = "6.12.0-2"
+title = "kimageformats 6.12.0-3"
+version = "6.12.0-3"
 description = "Image format plugins."
-date = "2025-03-27T15:48:57"
+date = "2025-04-05T12:23:08"
 aliases = "/packages/218319"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "340148"
-usize = "1433381"
-sha1sum = "ff18c47cca501a9e21c41a741f7b029a5b941957"
-depends = "['jasper>=1.900.1-10', 'karchive>=6.12.0', 'libavif', 'libheif', 'libraw', 'openexr>=3.3.0', 'qt6-base>=6.8.3']"
+size = "340920"
+usize = "1433829"
+sha1sum = "021684ef13df22275b16a2a8efd318fe778256a1"
+depends = "['jasper>=1.900.1-10', 'karchive>=6.12.0', 'libavif', 'libheif', 'libraw', 'openexr>=3.3.0', 'qt6-base>=6.9.0']"
 +++
 ### Description: 
 Image format plugins.

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kconfig 6.12.0-2"
-version = "6.12.0-2"
+title = "kconfig 6.12.0-3"
+version = "6.12.0-3"
 description = "Provides an advanced configuration system."
-date = "2025-03-27T15:58:46"
+date = "2025-04-05T12:35:00"
 aliases = "/packages/218283"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "460456"
-usize = "2222772"
-sha1sum = "bb1de5d36cd2a2a704444c5960d0ab8ad8b8bd95"
-depends = "['qt6-base>=6.8.3']"
+size = "464292"
+usize = "2229042"
+sha1sum = "a010547845d25d725caf0b58b2941489fec20a5d"
+depends = "['qt6-base>=6.9.0']"
 reverse_depends = "['akonadi-mime', 'alligator', 'audex', 'breeze', 'calamares-frugalware', 'discover', 'dolphin', 'francis', 'kalk', 'kalm', 'kcachegrind', 'kclock', 'kcolorscheme', 'kcompletion', 'kcontacts', 'kdeplasma-addons', 'kglobalacceld', 'kirigami-addons', 'kongress', 'kpackage', 'krecorder', 'krunner', 'kservice', 'ktrip', 'kwin', 'libkscreen', 'plasma-browser-integration', 'plasma5support', 'plasmatube', 'purpose', 'qmlkonsole', 'qqc2-breeze-style', 'skladnik', 'sweeper', 'telly-skout']"
 +++
 ### Description: 

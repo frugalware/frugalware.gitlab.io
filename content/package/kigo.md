@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kigo 24.12.3-2"
-version = "24.12.3-2"
+title = "kigo 24.12.3-3"
+version = "24.12.3-3"
 description = "Kigo is an open-source implementation of the popular Go game"
-date = "2025-03-28T11:33:37"
+date = "2025-04-05T20:36:01"
 aliases = "/packages/219332"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "5026360"
-usize = "6196252"
-sha1sum = "3934c905f90022b6fe6d8d90a651d57be1e9ae84"
+size = "5026372"
+usize = "6196060"
+sha1sum = "1f5eb66802b6a9cab7ce63960932fb243d03e03a"
 depends = "['libkdegames>=24.12.3']"
 +++
 ### Description: 

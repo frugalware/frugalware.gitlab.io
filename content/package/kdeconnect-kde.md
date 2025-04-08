@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kdeconnect-kde 24.12.3-2"
-version = "24.12.3-2"
+title = "kdeconnect-kde 24.12.3-3"
+version = "24.12.3-3"
 description = "Adds communication between KDE and your smartphone"
-date = "2025-03-28T13:13:39"
+date = "2025-04-06T07:32:00"
 aliases = "/packages/220147"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "5596356"
-usize = "14562805"
-sha1sum = "64115dd7ea993f81466500b4e0210627b333a1eb"
+size = "5686216"
+usize = "14681393"
+sha1sum = "28bd7c8c963b71e425c5eb123082cb2dc6063e60"
 depends = "['kcmutils', 'kirigami-addons', 'kpeople', 'kstatusnotifieritem', 'libfakekey', 'modemmanager-qt', 'pulseaudio-qt', 'qqc2-desktop-style>=6.12.0', 'qt6-connectivity']"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kcachegrind 24.12.3-2"
-version = "24.12.3-2"
+title = "kcachegrind 24.12.3-3"
+version = "24.12.3-3"
 description = "Visualization of Performance Profiling Data."
-date = "2025-03-28T13:56:56"
+date = "2025-04-06T09:40:29"
 aliases = "/packages/218525"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1136680"
-usize = "4895698"
-sha1sum = "76f38407540f8130e9257bab8d6b37557a8a0fd1"
+size = "1138116"
+usize = "4901682"
+sha1sum = "896b3f7a96e51c33e6f5c847ccae46a120f7a533"
 depends = "['karchive>=6.12.0', 'kconfig>=6.12.0', 'kcoreaddons>=6.12.0', 'kdoctools>=6.12.0', 'ki18n>=6.12.0', 'kio>=6.12.0', 'kwidgetsaddons>=6.12.0', 'kxmlgui>=6.12.0']"
 +++
 ### Description: 

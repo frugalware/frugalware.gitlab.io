@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "plasma-nm 6.3.4-1"
-version = "6.3.4-1"
+title = "plasma-nm 6.3.4-2"
+version = "6.3.4-2"
 description = "Plasma applet written in QML for managing network connections."
-date = "2025-04-02T11:00:25"
+date = "2025-04-05T17:28:39"
 aliases = "/packages/218399"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1405496"
-usize = "9547029"
-sha1sum = "159a0eb64748016619860cc7027c12f633b3ad4f"
+size = "1403252"
+usize = "9545335"
+sha1sum = "af38b50c50f7082e9fcefbcb23692ce8ead9ab02"
 depends = "['mobile-broadband-provider-info', 'modemmanager-qt>=6.12.0', 'networkmanager-qt>=6.12.0', 'plasma-workspace>=6.3.4', 'qca>=2.1.1-6', 'qcoro']"
 +++
 ### Description: 

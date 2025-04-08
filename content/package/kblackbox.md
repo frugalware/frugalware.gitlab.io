@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kblackbox 24.12.3-2"
-version = "24.12.3-2"
+title = "kblackbox 24.12.3-3"
+version = "24.12.3-3"
 description = "A game of hide and seek played on a grid of boxes."
-date = "2025-03-28T11:28:31"
+date = "2025-04-05T20:30:35"
 aliases = "/packages/184175"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "625280"
-usize = "1936429"
-sha1sum = "467a19fc1aa4efd24f7b0a7873c9777e0701a374"
-depends = "['libkdegames>=24.12.3', 'qt6-svg>=6.8.3']"
+size = "625352"
+usize = "1936333"
+sha1sum = "a3ff6ffef67cc8b0604a44fab63ec9ff1274560f"
+depends = "['libkdegames>=24.12.3', 'qt6-svg>=6.9.0']"
 +++
 ### Description: 
 A game of hide and seek played on a grid of boxes.

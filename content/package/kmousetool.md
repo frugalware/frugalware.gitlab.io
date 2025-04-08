@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kmousetool 24.12.3-2"
-version = "24.12.3-2"
+title = "kmousetool 24.12.3-3"
+version = "24.12.3-3"
 description = "KMouseTool is a program that clicks the mouse for you."
-date = "2025-03-28T14:17:11"
+date = "2025-04-06T09:58:41"
 aliases = "/packages/219336"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "220868"
-usize = "619555"
-sha1sum = "1da143d70a1b6373c64c88fc6c75d34cbf771aaa"
+size = "220824"
+usize = "619523"
+sha1sum = "c3d5b360df4e38300ec8180419c68b9076a5ced9"
 depends = "['kdbusaddons>=6.12.0', 'ki18n>=6.12.0', 'kiconthemes>=6.12.0', 'knotifications>=6.12.0', 'kstatusnotifieritem>=6.12.0', 'kxmlgui>=6.12.0', 'libxt']"
 +++
 ### Description: 

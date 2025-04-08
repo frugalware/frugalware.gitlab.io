@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "plasma-systemmonitor 6.3.4-1"
-version = "6.3.4-1"
+title = "plasma-systemmonitor 6.3.4-2"
+version = "6.3.4-2"
 description = "An interface for monitoring system sensors, process information and other system resources"
-date = "2025-04-02T10:26:40"
+date = "2025-04-05T15:19:04"
 aliases = "/packages/220308"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "375032"
-usize = "2120904"
-sha1sum = "4459520088c8b3732b2d83aa7b6374c5c2951911"
+size = "372708"
+usize = "2115478"
+sha1sum = "6df68b76f2dbb7f5715310141d4396d830b99922"
 depends = "['kdeclarative>=6.12.0', 'kirigami-addons', 'kitemmodels>=6.12.0', 'ksystemstats>=6.3.4']"
 +++
 ### Description: 

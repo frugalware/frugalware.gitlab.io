@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kanagram 24.12.3-2"
-version = "24.12.3-2"
+title = "kanagram 24.12.3-3"
+version = "24.12.3-3"
 description = "Letter Order Game."
-date = "2025-03-28T11:46:42"
+date = "2025-04-05T20:49:26"
 aliases = "/packages/152826"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "7040292"
-usize = "8144786"
-sha1sum = "fe511d4bdb0880b9b76e9bc48ab60b4ad77c2bb3"
-depends = "['kdeclarative>=6.12.0', 'knewstuff>=6.12.0', 'libkeduvocdocument>=24.12.3', 'qt6-declarative>=6.8.3', 'qt6-svg>=6.8.3']"
+size = "7039704"
+usize = "8144594"
+sha1sum = "b211eea27f1148a16543a6c2afeaaeebb72f8c09"
+depends = "['kdeclarative>=6.12.0', 'knewstuff>=6.12.0', 'libkeduvocdocument>=24.12.3', 'qt6-declarative>=6.9.0', 'qt6-svg>=6.9.0']"
 +++
 ### Description: 
 Letter Order Game.

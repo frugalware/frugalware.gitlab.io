@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kosmindoormap 24.12.3-2"
-version = "24.12.3-2"
+title = "kosmindoormap 24.12.3-3"
+version = "24.12.3-3"
 description = "OSM multi-floor indoor map renderer"
-date = "2025-03-28T14:41:04"
+date = "2025-04-06T10:21:54"
 aliases = "/packages/220317"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "865308"
-usize = "3058007"
-sha1sum = "248a93982cb408670e2c71d0e5bfa687c33f676a"
+size = "864912"
+usize = "3057910"
+sha1sum = "88f43ea05913fef12f60984fbba0e4f76ad72729"
 depends = "['kcoreaddons>=6.12.0', 'ki18n>=6.12.0', 'kopeninghours>=24.12.3', 'kpublictransport=>24.12.3', 'kservice>=6.12.0']"
 reverse_depends = "['itinerary', 'kongress']"
 +++

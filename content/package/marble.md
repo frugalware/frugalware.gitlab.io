@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "marble 24.12.3-5"
-version = "24.12.3-5"
+title = "marble 24.12.3-6"
+version = "24.12.3-6"
 description = "Desc: Virtual Globe and World Atlas."
-date = "2025-03-31T14:58:42"
+date = "2025-04-07T08:52:43"
 aliases = "/packages/152838"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "37709936"
-usize = "62046835"
-sha1sum = "f124eec195915cdac6271f01deef8c5edea59d03"
-depends = "['libmarble', 'qt6-location>=6.8.3', 'qt6-tools>=6.8.3']"
+size = "37766040"
+usize = "62214892"
+sha1sum = "3fcb6d4f6478e7a0dea7e3daf1714f444f579a53"
+depends = "['libmarble', 'qt6-location>=6.9.0', 'qt6-tools>=6.9.0']"
 +++
 ### Description: 
 Desc: Virtual Globe and World Atlas.
@@ -355,11 +355,23 @@ Desc: Virtual Globe and World Atlas.
 * /usr/share/doc/HTML/uk/marble/routing-6.png
 * /usr/share/doc/HTML/uk/marble/search-1.png
 * /usr/share/doc/HTML/uk/marble/search-2.png
+* /usr/share/doc/marble-24.12.3/ANNOUNCE
 * /usr/share/doc/marble-24.12.3/BUGS
 * /usr/share/doc/marble-24.12.3/ChangeLog
+* /usr/share/doc/marble-24.12.3/COPYING
 * /usr/share/doc/marble-24.12.3/COPYING.DOC
 * /usr/share/doc/marble-24.12.3/CREDITS
+* /usr/share/doc/marble-24.12.3/INSTALL
+* /usr/share/doc/marble-24.12.3/INSTALL.autoconf
+* /usr/share/doc/marble-24.12.3/INSTALL.cmake
+* /usr/share/doc/marble-24.12.3/INSTALL.Cygwin
+* /usr/share/doc/marble-24.12.3/INSTALL.MacOSX
+* /usr/share/doc/marble-24.12.3/INSTALL.Win32
+* /usr/share/doc/marble-24.12.3/NEWS
+* /usr/share/doc/marble-24.12.3/README
+* /usr/share/doc/marble-24.12.3/README.localization
 * /usr/share/doc/marble-24.12.3/README.md
+* /usr/share/doc/marble-24.12.3/RELEASE-NOTES
 * /usr/share/icons/hicolor/128x128/apps/marble.png
 * /usr/share/icons/hicolor/16x16/apps/marble.png
 * /usr/share/icons/hicolor/22x22/apps/marble.png

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "modemmanager-qt 6.12.0-2"
-version = "6.12.0-2"
+title = "modemmanager-qt 6.12.0-3"
+version = "6.12.0-3"
 description = "Qt-only wrapper for ModemManager DBus API."
-date = "2025-03-27T15:47:17"
+date = "2025-04-05T12:21:17"
 aliases = "/packages/218385"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "190512"
-usize = "859502"
-sha1sum = "cc2ceec16ae67c8dcac5802b78098ac9e427843f"
-depends = "['modemmanager>=1.6.2', 'qt6-base>=6.8.3']"
+size = "190652"
+usize = "860654"
+sha1sum = "4d4ebaf9e1542fabda9391e7a13a101df6695511"
+depends = "['modemmanager>=1.6.2', 'qt6-base>=6.9.0']"
 reverse_depends = "['kdeconnect-kde', 'plasma-nm', 'plasma-settings']"
 +++
 ### Description: 

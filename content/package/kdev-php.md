@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kdev-php 24.12.3-2"
-version = "24.12.3-2"
+title = "kdev-php 24.12.3-3"
+version = "24.12.3-3"
 description = "PHP Language Plugin for KDevelop"
-date = "2025-03-28T18:04:01"
+date = "2025-04-06T20:08:19"
 aliases = "/packages/220975"
 categories = ['devel-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1306328"
-usize = "8238921"
-sha1sum = "b0b6be0f8f00d39e6813822c9d323039232ff44b"
+size = "1306260"
+usize = "8239113"
+sha1sum = "d842b78ee0839917c5375fa17c08163090c9b57f"
 depends = "['kdevelop', 'php']"
 +++
 ### Description: 

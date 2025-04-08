@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libcamera-tools 0.5.0-1"
-version = "0.5.0-1"
+title = "libcamera-tools 0.5.0-2"
+version = "0.5.0-2"
 description = "libcamera tools"
-date = "2025-04-04T06:40:13"
+date = "2025-04-08T09:54:31"
 aliases = "/packages/220849"
 categories = ['multimedia-extra']
 upstreamurl = "https://libcamera.org/"
 arch = "x86_64"
-size = "301600"
-usize = "923152"
-sha1sum = "ffccc9a44b3289d58e55bda6ed1134aee47b5c29"
-depends = "['libcamera', 'libtiff>=4.7.0', 'libyaml', 'qt6-base>=6.8.3']"
+size = "301288"
+usize = "923088"
+sha1sum = "bc7579424eefe19995fafbfd8bae6cf1901ff895"
+depends = "['libcamera', 'libtiff>=4.7.0', 'libyaml', 'qt6-base>=6.9.0']"
 +++
 ### Description: 
 libcamera tools

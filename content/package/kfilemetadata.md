@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kfilemetadata 6.12.0-2"
-version = "6.12.0-2"
+title = "kfilemetadata 6.12.0-3"
+version = "6.12.0-3"
 description = "A library for extracting file metadata."
-date = "2025-03-27T16:10:19"
+date = "2025-04-05T13:48:50"
 aliases = "/packages/221312"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "231088"
-usize = "1264724"
-sha1sum = "a766a75672e7c24643b7a898b7067a3ac8fafd05"
+size = "232240"
+usize = "1265396"
+sha1sum = "b326bd0a3357b515744df5df9bb3ac3cb9e9d1b5"
 depends = "['catdoc>=0.95-3', 'ebook-tools>=0.2.2-6', 'exiv2>=0.28.1', 'ffmpeg>=7.0', 'karchive>=6.12.0', 'kcoreaddons>=6.12.0', 'kdegraphics-mobipocket', 'ki18n>=6.12.0', 'libappimage', 'poppler-qt6>=24.11.0', 'qt6-multimedia>=5.10.0', 'taglib>=2.0']"
 reverse_depends = "['ark', 'baloo', 'digikam', 'dolphin', 'itinerary', 'k3b', 'kdenlive', 'kfind', 'koko', 'plasma-browser-integration']"
 +++

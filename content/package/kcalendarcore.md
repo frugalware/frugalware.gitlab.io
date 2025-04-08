@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kcalendarcore 6.12.0-2"
-version = "6.12.0-2"
+title = "kcalendarcore 6.12.0-3"
+version = "6.12.0-3"
 description = "The KDE calendar access library"
-date = "2025-03-27T16:34:47"
+date = "2025-04-05T14:28:46"
 aliases = "/packages/219991"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "354824"
-usize = "1349213"
-sha1sum = "e609d9e64f18410cdc009f1c2168b8d2e213c9fb"
+size = "354456"
+usize = "1349403"
+sha1sum = "7dc60ec16e89aa0c2d8ec21333ba627e1ddf3e80"
 depends = "['libical>=3.0.3']"
 reverse_depends = "['akonadi-contacts', 'calindori', 'kcalutils', 'kitinerary', 'kongress', 'libkgapi', 'mimetreeparser']"
 +++

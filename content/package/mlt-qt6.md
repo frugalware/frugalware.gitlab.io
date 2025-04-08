@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "mlt-qt6 7.30.0-6"
-version = "7.30.0-6"
+title = "mlt-qt6 7.30.0-7"
+version = "7.30.0-7"
 description = "Qt6 mdule for mlt"
-date = "2025-03-29T15:52:51"
+date = "2025-04-08T10:09:50"
 aliases = "/packages/222515"
 categories = ['xmultimedia-extra']
 upstreamurl = "https://github.com/mltframework/mlt"
 arch = "x86_64"
-size = "119276"
-usize = "317960"
-sha1sum = "3680f025614821cdef91a6697bdc443e0c2e46b0"
-depends = "['mlt', 'qt6-5compat>=6.8.2', 'qt6-svg>=6.8.3']"
+size = "119384"
+usize = "317736"
+sha1sum = "623fbab53ed0dbf6eb2eb15f97cccdcdcb0c2b4e"
+depends = "['mlt', 'qt6-5compat>=6.9.0', 'qt6-svg>=6.9.0']"
 +++
 ### Description: 
 Qt6 mdule for mlt

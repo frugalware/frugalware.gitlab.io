@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kcmutils 6.12.0-2"
-version = "6.12.0-2"
+title = "kcmutils 6.12.0-3"
+version = "6.12.0-3"
 description = "Utilities for interacting with KCModules."
-date = "2025-03-27T16:28:15"
+date = "2025-04-05T14:22:47"
 aliases = "/packages/218280"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "248960"
-usize = "1119999"
-sha1sum = "4599733886e2d3b4705f08f0cd3ac7ff4993f835"
+size = "248784"
+usize = "1119854"
+sha1sum = "2849377d410ec82607ec53829578cc075523b82b"
 depends = "['kdeclarative>=6.12.0']"
 reverse_depends = "['akonadi-search', 'audex', 'audiocd-kio', 'bluedevil', 'bluedevil5', 'breeze', 'calligra', 'colord-kde', 'discover', 'dolphin', 'drkonqi', 'kaccounts-integration', 'kamera', 'kcron', 'kde-cli-tools', 'kde-gtk-config', 'kdeconnect-kde', 'kdeplasma-addons', 'kdevelop', 'kdf', 'kgamma', 'kget', 'khelpcenter', 'kinfocenter', 'kio-extras', 'kleopatra', 'kmailtransport', 'konqueror', 'krdc', 'krdp', 'kunifiedpush', 'kup', 'kwin', 'libkcddb', 'libplasma', 'parley', 'plasma-desktop', 'plasma-disks', 'plasma-pa', 'plasma-settings', 'plasma-thunderbolt', 'plasma-workspace', 'sddm-kcm', 'systemsettings', 'wacomtablet']"
 +++

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "parley 24.12.3-2"
-version = "24.12.3-2"
+title = "parley 24.12.3-3"
+version = "24.12.3-3"
 description = "Vocabulary Trainer."
-date = "2025-03-28T11:48:46"
+date = "2025-04-05T20:51:35"
 aliases = "/packages/152839"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "7590728"
-usize = "12452887"
-sha1sum = "716557481f946dc21be18fd28333a052e0d6127c"
-depends = "['kcmutils>=6.12.0', 'knewstuff>=6.12.0', 'libkeduvocdocument>=24.12.3', 'qt6-multimedia>=6.8.3', 'qt6-webengine>=6.8.3']"
+size = "7590488"
+usize = "12452919"
+sha1sum = "e3f6ecfddd031fba75201fe2c8144449e4bb2bd8"
+depends = "['kcmutils>=6.12.0', 'knewstuff>=6.12.0', 'libkeduvocdocument>=24.12.3', 'qt6-multimedia>=6.9.0', 'qt6-webengine>=6.9.0']"
 +++
 ### Description: 
 Vocabulary Trainer.

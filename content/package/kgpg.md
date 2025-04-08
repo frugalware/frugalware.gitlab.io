@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kgpg 24.12.3-2"
-version = "24.12.3-2"
+title = "kgpg 24.12.3-3"
+version = "24.12.3-3"
 description = "KGpg is a simple interface for GnuPG"
-date = "2025-03-28T12:09:49"
+date = "2025-04-05T21:11:27"
 aliases = "/packages/218933"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3219412"
-usize = "8882985"
-sha1sum = "7dff01294cb9633349d937370303f1a690d17a10"
+size = "3219312"
+usize = "8881641"
+sha1sum = "f420b3afde0c65f228ea62b6cb84df1f91c3035a"
 depends = "['akonadi-contacts>=24.12.3', 'gpg-agent', 'gpgme', 'kstatusnotifieritem>=6.12.0']"
 +++
 ### Description: 

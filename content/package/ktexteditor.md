@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ktexteditor 6.12.0-2"
-version = "6.12.0-2"
+title = "ktexteditor 6.12.0-3"
+version = "6.12.0-3"
 description = "Provides a powerful text editor component."
-date = "2025-03-27T16:30:18"
+date = "2025-04-05T14:25:11"
 aliases = "/packages/218354"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2732612"
-usize = "14203805"
-sha1sum = "f889effce4cdab5cc0d5063126dbaf32fd736feb"
+size = "2736756"
+usize = "14217510"
+sha1sum = "4e0cd5afcb9345721aeb7a21a30a8689578e8ba0"
 depends = "['editorconfig-core-c', 'kparts>=6.12.0', 'libgit2>=1.3.0', 'syntax-highlighting>=6.12.0']"
 reverse_depends = "['akregator', 'cantor', 'dolphin-plugins', 'grantlee-editor', 'kate', 'kdevelop', 'kile', 'kmail-account-wizard', 'kompare', 'kpimtextedit', 'plasma-sdk', 'plasma-workspace', 'rkward']"
 +++

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kxmlgui 6.12.0-2"
-version = "6.12.0-2"
+title = "kxmlgui 6.12.0-3"
+version = "6.12.0-3"
 description = "Framework for managing menu and toolbar actions."
-date = "2025-03-27T16:15:36"
+date = "2025-04-05T14:08:17"
 aliases = "/packages/218367"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "631468"
-usize = "3221167"
-sha1sum = "17231c1b31e4432579945b54604f31faaaff13b5"
-depends = "['attica>=6.12.0', 'kglobalaccel>=6.12.0', 'ktextwidgets>=6.12.0', 'qt6-svg>=6.8.3']"
+size = "631488"
+usize = "3220751"
+sha1sum = "d1f4b1d9ee8edfaadb85ad25f4b30f60a16a64cb"
+depends = "['attica>=6.12.0', 'kglobalaccel>=6.12.0', 'ktextwidgets>=6.12.0', 'qt6-svg>=6.9.0']"
 reverse_depends = "['accessibility-inspector', 'akonadi-mime', 'audex', 'ghostwriter', 'kbackup', 'kbookmarks', 'kbruch', 'kcachegrind', 'kcalc', 'kcharselect', 'kcolorchooser', 'kgeography', 'kmix', 'kmousetool', 'krfb', 'kruler', 'ktextaddons', 'kvirc', 'kwin', 'skanlite', 'skladnik', 'smb4k', 'svgpart', 'wacomtablet']"
 +++
 ### Description: 

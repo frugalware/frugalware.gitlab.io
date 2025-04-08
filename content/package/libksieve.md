@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libksieve 24.12.3-2"
-version = "24.12.3-2"
+title = "libksieve 24.12.3-3"
+version = "24.12.3-3"
 description = "This lib manages sieve support"
-date = "2025-03-28T12:28:55"
+date = "2025-04-05T21:31:15"
 aliases = "/packages/218492"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "744172"
-usize = "4170351"
-sha1sum = "970a555050cf7a207e79b61075a00aec31521c95"
+size = "744696"
+usize = "4170703"
+sha1sum = "47d3f06534df31270d5ee037df92d6bfa994e973"
 depends = "['akonadi>=24.12.3', 'kidentitymanagement>=24.12.3', 'kmailtransport>=24.12.3', 'pimcommon>=24.12.3']"
 reverse_depends = "['kdepim-addons', 'kmail', 'pim-sieve-editor']"
 +++

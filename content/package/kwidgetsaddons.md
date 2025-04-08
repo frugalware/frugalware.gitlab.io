@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kwidgetsaddons 6.12.0-2"
-version = "6.12.0-2"
+title = "kwidgetsaddons 6.12.0-3"
+version = "6.12.0-3"
 description = "Large set of desktop widgets."
-date = "2025-03-27T16:03:49"
+date = "2025-04-05T12:40:43"
 aliases = "/packages/218363"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1718668"
-usize = "5566444"
-sha1sum = "6344ccc704ad90a4f52c0c4c9c8695ceb186f8ad"
-depends = "['qt6-base>=6.8.3']"
+size = "1721616"
+usize = "5569868"
+sha1sum = "64e5157a66508c2d1e786ff7193360ec41a4dc4e"
+depends = "['qt6-base>=6.9.0']"
 reverse_depends = "['audex', 'isoimagewriter', 'kbackup', 'kcachegrind', 'kcompletion', 'kconfigwidgets', 'kdiff3', 'kpeople', 'kpmcore', 'kwin', 'skladnik', 'wacomtablet']"
 +++
 ### Description: 

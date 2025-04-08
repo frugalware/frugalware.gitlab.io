@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kspaceduel 24.12.3-2"
-version = "24.12.3-2"
+title = "kspaceduel 24.12.3-3"
+version = "24.12.3-3"
 description = "KSpaceDuel: each of two possible players controls a satellite spaceship orbiting the sun"
-date = "2025-03-28T14:25:13"
+date = "2025-04-06T10:06:56"
 aliases = "/packages/219340"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "670612"
-usize = "1778413"
-sha1sum = "5f05751ecc3f1d9c12149a83c90126b20b2c6428"
+size = "670236"
+usize = "1777677"
+sha1sum = "185980249c05e06a6732256c1397a15116ff4fab"
 depends = "['libkdegames>=24.12.3']"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kcalutils 24.12.3-2"
-version = "24.12.3-2"
+title = "kcalutils 24.12.3-3"
+version = "24.12.3-3"
 description = "The KDE calendar utility library"
-date = "2025-03-28T11:15:18"
+date = "2025-04-05T20:16:50"
 aliases = "/packages/218279"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "288808"
-usize = "1944634"
-sha1sum = "6fe98280542ee19360bd011b860739ee8893b26d"
+size = "290000"
+usize = "1948090"
+sha1sum = "add619ad97e0cb254579098d5d6e800cff9e10aa"
 depends = "['kcalendarcore>=6.12.0', 'kidentitymanagement>=24.12.3']"
 reverse_depends = "['akonadi-calendar', 'kalarm', 'kmail', 'ktnef']"
 +++

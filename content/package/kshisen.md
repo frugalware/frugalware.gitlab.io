@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kshisen 24.12.3-2"
-version = "24.12.3-2"
+title = "kshisen 24.12.3-3"
+version = "24.12.3-3"
 description = "A solitaire-like game played using the standard set of Mahjong tiles."
-date = "2025-03-28T11:41:47"
+date = "2025-04-05T20:44:20"
 aliases = "/packages/184197"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1066928"
-usize = "2048822"
-sha1sum = "cdaed3e8785c17906875f8ba38ec55278a1338a6"
+size = "1067000"
+usize = "2048790"
+sha1sum = "6625d5a30d39952598ce1fc58740360635bbd851"
 depends = "['libkdegames>=24.12.3', 'libkmahjongg>=24.12.3']"
 +++
 ### Description: 

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kunitconversion 6.12.0-2"
-version = "6.12.0-2"
+title = "kunitconversion 6.12.0-3"
+version = "6.12.0-3"
 description = "Converting physical units."
-date = "2025-03-27T16:09:24"
+date = "2025-04-05T12:46:58"
 aliases = "/packages/218358"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "900996"
-usize = "11896855"
-sha1sum = "5a13bb5a9e6e5306979a195dd8777c9efc89ab34"
-depends = "['ki18n>=6.12.0', 'qt6-base>=6.8.3']"
+size = "897460"
+usize = "11896951"
+sha1sum = "71406f30e0781ae1060604402e1d85b7484560f9"
+depends = "['ki18n>=6.12.0', 'qt6-base>=6.9.0']"
 reverse_depends = "['itinerary', 'kalk', 'kdeplasma-addons', 'plasma-workspace']"
 +++
 ### Description: 
