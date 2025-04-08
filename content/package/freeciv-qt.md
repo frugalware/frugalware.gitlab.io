@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "freeciv-qt 3.1.4-4"
-version = "3.1.4-4"
+title = "freeciv-qt 3.1.4-5"
+version = "3.1.4-5"
 description = "Qt client for freeciv"
-date = "2025-03-29T12:07:09"
+date = "2025-04-08T09:08:08"
 aliases = "/packages/217366"
 categories = ['games-extra']
 upstreamurl = "http://freeciv.wikia.com/wiki/Main_Page"
 arch = "x86_64"
-size = "3752628"
-usize = "6274480"
-sha1sum = "fb56099a30f3843f25fad68a8f080a6bddb92b17"
-depends = "['freeciv', 'qt6-base>=6.8.3']"
+size = "3752100"
+usize = "6268112"
+sha1sum = "aed0ef88de5acef361fd8dd1ac85df2732cdc929"
+depends = "['freeciv', 'qt6-base>=6.9.0']"
 +++
 ### Description: 
 Qt client for freeciv

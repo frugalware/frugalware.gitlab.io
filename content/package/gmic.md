@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gmic 3.5.3-4"
-version = "3.5.3-4"
+title = "gmic 3.5.3-5"
+version = "3.5.3-5"
 description = "Image procession framework"
-date = "2025-03-29T17:04:27"
+date = "2025-04-08T09:48:38"
 aliases = "/packages/220087"
 categories = ['xapps-extra']
 upstreamurl = "https://gmic.eu"
 arch = "x86_64"
-size = "3877868"
-usize = "11270058"
-sha1sum = "6a187b53ec86ed28f5ea08e32c882c44a92b2d91"
+size = "3877500"
+usize = "11270124"
+sha1sum = "6c38f06e66d9df72184d85251895ec81eb21ad45"
 depends = "['curl', 'gimp>=3.0', 'openblas', 'opencv>=4.11.0', 'openexr>=3.3.0']"
 reverse_depends = "['darktable', 'gmic-gimp-plugin', 'gmic-qt']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "calibre 8.0.1-2"
-version = "8.0.1-2"
+title = "calibre 8.2.1-1"
+version = "8.2.1-1"
 description = "Ebook management application"
-date = "2025-03-28T17:16:49"
+date = "2025-04-06T14:12:37"
 aliases = "/packages/219010"
 categories = ['xapps-extra']
 upstreamurl = "https://calibre-ebook.com"
 arch = "x86_64"
-size = "27328692"
-usize = "67616876"
-sha1sum = "d922e5d5de1595166e2723f1b52bf76caf1398e4"
+size = "27436032"
+usize = "67767182"
+sha1sum = "87c191c9c55b587299abb452d2a94435d8a3ab8a"
 depends = "['html5lib-python', 'hunspell', 'hyphen', 'icu4c>=77.1', 'libmtp', 'libstemmer', 'mathjax', 'podofo>=0.10.1', 'pyqt6', 'pyqt6webengine', 'python3-apsw', 'python3-beautifulsoup4', 'python3-css-parser', 'python3-lxml', 'python3-mechanize', 'python3-pillow', 'python3-regex', 'qt6-svg', 'uchardet']"
 +++
 ### Description: 
@@ -215,7 +215,6 @@ Ebook management application
 * /usr/lib/calibre/calibre/devices/usbms/device.py
 * /usr/lib/calibre/calibre/devices/usbms/deviceconfig.py
 * /usr/lib/calibre/calibre/devices/usbms/driver.py
-* /usr/lib/calibre/calibre/devices/usbms/hal.py
 * /usr/lib/calibre/calibre/devices/usbms/__init__.py
 * /usr/lib/calibre/calibre/devices/user_defined/driver.py
 * /usr/lib/calibre/calibre/devices/user_defined/__init__.py
@@ -1434,6 +1433,7 @@ Ebook management application
 * /usr/lib/calibre/calibre/utils/recycle_bin.py
 * /usr/lib/calibre/calibre/utils/resources.py
 * /usr/lib/calibre/calibre/utils/run_tests.py
+* /usr/lib/calibre/calibre/utils/safe_atexit.py
 * /usr/lib/calibre/calibre/utils/search_query_parser.py
 * /usr/lib/calibre/calibre/utils/search_query_parser_test.py
 * /usr/lib/calibre/calibre/utils/serialize.py
@@ -1972,10 +1972,10 @@ Ebook management application
 * /usr/share/calibre/user-manual-translation-stats.json
 * /usr/share/calibre/viewer.html
 * /usr/share/calibre/viewer.js
-* /usr/share/doc/calibre-8.0.1/COPYRIGHT
-* /usr/share/doc/calibre-8.0.1/INSTALL.rst
-* /usr/share/doc/calibre-8.0.1/LICENSE
-* /usr/share/doc/calibre-8.0.1/README.md
+* /usr/share/doc/calibre-8.2.1/COPYRIGHT
+* /usr/share/doc/calibre-8.2.1/INSTALL.rst
+* /usr/share/doc/calibre-8.2.1/LICENSE
+* /usr/share/doc/calibre-8.2.1/README.md
 * /usr/share/icons/hicolor/128x128/apps/calibre-ebook-edit.png
 * /usr/share/icons/hicolor/128x128/apps/calibre-gui.png
 * /usr/share/icons/hicolor/128x128/apps/calibre-viewer.png

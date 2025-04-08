@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "dfl-wayqt-qt6 0.2.0-8"
-version = "0.2.0-8"
+title = "dfl-wayqt-qt6 0.2.0-9"
+version = "0.2.0-9"
 description = "A Qt-based wrapper for various wayland protocols Qt6"
-date = "2025-03-29T11:55:12"
+date = "2025-04-08T08:54:33"
 aliases = "/packages/221554"
 categories = ['xlib-extra']
 upstreamurl = "https://gitlab.com/desktop-frameworks/wayqt"
 arch = "x86_64"
-size = "129748"
-usize = "619802"
-sha1sum = "1e0a2fe4c1aa43b0aea1680e3f935c8c0aa90a61"
-depends = "['qt6-wayland>=6.8.3']"
+size = "129556"
+usize = "620538"
+sha1sum = "9a7a4cdf3d51f540bb39a21375d7bba2d600aabb"
+depends = "['qt6-wayland>=6.9.0']"
 reverse_depends = "['greetd-qt6greet']"
 +++
 ### Description: 

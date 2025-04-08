@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ckb-next 0.6.2-3"
-version = "0.6.2-3"
+title = "ckb-next 0.6.2-4"
+version = "0.6.2-4"
 description = "Corsair Keyboard and Mouse Input Driver, release version"
-date = "2025-03-28T17:38:50"
+date = "2025-04-06T15:01:04"
 aliases = "/packages/222691"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/ckb-next/ckb-next"
 arch = "x86_64"
-size = "1385268"
-usize = "3280575"
-sha1sum = "46943eeb3947b4974235d512804b8dee6b4e70a1"
+size = "1364172"
+usize = "3219707"
+sha1sum = "8a3bf9018b2b88783baa9035ea6238f40a8e1f05"
 depends = "['hicolor-icon-theme', 'libpulse', 'libxcb', 'qt6-base', 'quazip-qt6>=1.5', 'xcb-util-wm']"
 +++
 ### Description: 
@@ -39,7 +39,6 @@ Corsair Keyboard and Mouse Input Driver, release version
 * /usr/lib/systemd/system/ckb-next-daemon.service
 * /usr/lib/udev/rules.d/99-ckb-next-daemon.rules
 * /usr/share/applications/ckb-next.desktop
-* /usr/share/doc/ckb-next-0.6.2/AUTHORS
 * /usr/share/doc/ckb-next-0.6.2/LICENSE
 * /usr/share/doc/ckb-next-0.6.2/README.md
 * /usr/share/icons/hicolor/128x128/apps/ckb-next-monochrome.png

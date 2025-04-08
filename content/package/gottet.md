@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gottet 1.2.6-2"
-version = "1.2.6-2"
+title = "gottet 1.2.6-3"
+version = "1.2.6-3"
 description = "Gottet is a tetris clone."
-date = "2025-03-28T18:02:19"
+date = "2025-04-06T20:05:04"
 aliases = "/packages/184378"
 categories = ['games-extra']
 upstreamurl = "http://gottcode.org/gottet/"
 arch = "x86_64"
-size = "247852"
-usize = "439375"
-sha1sum = "96476d4298b37fdf61d747bbcf4837916e66c426"
+size = "247996"
+usize = "439151"
+sha1sum = "33e9728d89ef4b96b09c6e9fa0f47be9e744c753"
 depends = "['qt6-base>=6.8.2']"
 +++
 ### Description: 
