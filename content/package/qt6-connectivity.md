@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qt6-connectivity 6.8.3-1"
-version = "6.8.3-1"
+title = "qt6-connectivity 6.9.0-1"
+version = "6.9.0-1"
 description = "The Qt6 toolkit, qtconnectivity"
-date = "2025-03-27T12:43:30"
+date = "2025-04-04T11:16:39"
 aliases = "/packages/220763"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "478232"
-usize = "2007832"
-sha1sum = "0f5bad09ec77a29a186660ede5d3d367461479ab"
+size = "482736"
+usize = "2075225"
+sha1sum = "68a4f5e57da5a7b23d25eb20705de73df3bd662b"
 depends = "['bluez', 'pcsc-lite', 'qt6-declarative']"
 reverse_depends = "['kdeconnect-kde', 'qt6-sensors']"
 +++
@@ -18,54 +18,54 @@ reverse_depends = "['kdeconnect-kde', 'qt6-sensors']"
 The Qt6 toolkit, qtconnectivity
 
 ### Files: 
-* /usr/include/qt6/QtBluetooth/6.8.3/QtBluetooth/private/adapter1_bluez5_p.h
-* /usr/include/qt6/QtBluetooth/6.8.3/QtBluetooth/private/battery1_p.h
-* /usr/include/qt6/QtBluetooth/6.8.3/QtBluetooth/private/bluetoothmanagement_p.h
-* /usr/include/qt6/QtBluetooth/6.8.3/QtBluetooth/private/bluez5_helper_p.h
-* /usr/include/qt6/QtBluetooth/6.8.3/QtBluetooth/private/bluezperipheralapplication_p.h
-* /usr/include/qt6/QtBluetooth/6.8.3/QtBluetooth/private/bluezperipheralconnectionmanager_p.h
-* /usr/include/qt6/QtBluetooth/6.8.3/QtBluetooth/private/bluezperipheralobjects_p.h
-* /usr/include/qt6/QtBluetooth/6.8.3/QtBluetooth/private/bluez_data_p.h
-* /usr/include/qt6/QtBluetooth/6.8.3/QtBluetooth/private/device1_bluez5_p.h
-* /usr/include/qt6/QtBluetooth/6.8.3/QtBluetooth/private/gattchar1_p.h
-* /usr/include/qt6/QtBluetooth/6.8.3/QtBluetooth/private/gattcharacteristic1adaptor_p.h
-* /usr/include/qt6/QtBluetooth/6.8.3/QtBluetooth/private/gattdesc1_p.h
-* /usr/include/qt6/QtBluetooth/6.8.3/QtBluetooth/private/gattdescriptor1adaptor_p.h
-* /usr/include/qt6/QtBluetooth/6.8.3/QtBluetooth/private/gattmanager1_p.h
-* /usr/include/qt6/QtBluetooth/6.8.3/QtBluetooth/private/gattservice1adaptor_p.h
-* /usr/include/qt6/QtBluetooth/6.8.3/QtBluetooth/private/gattservice1_p.h
-* /usr/include/qt6/QtBluetooth/6.8.3/QtBluetooth/private/hcimanager_p.h
-* /usr/include/qt6/QtBluetooth/6.8.3/QtBluetooth/private/leadvertisement1_p.h
-* /usr/include/qt6/QtBluetooth/6.8.3/QtBluetooth/private/leadvertisingmanager1_p.h
-* /usr/include/qt6/QtBluetooth/6.8.3/QtBluetooth/private/lecmaccalculator_p.h
-* /usr/include/qt6/QtBluetooth/6.8.3/QtBluetooth/private/objectmanageradaptor_p.h
-* /usr/include/qt6/QtBluetooth/6.8.3/QtBluetooth/private/objectmanager_p.h
-* /usr/include/qt6/QtBluetooth/6.8.3/QtBluetooth/private/profile1context_p.h
-* /usr/include/qt6/QtBluetooth/6.8.3/QtBluetooth/private/profile1_p.h
-* /usr/include/qt6/QtBluetooth/6.8.3/QtBluetooth/private/profilemanager1_p.h
-* /usr/include/qt6/QtBluetooth/6.8.3/QtBluetooth/private/propertiesadaptor_p.h
-* /usr/include/qt6/QtBluetooth/6.8.3/QtBluetooth/private/properties_p.h
-* /usr/include/qt6/QtBluetooth/6.8.3/QtBluetooth/private/qbluetoothdevicediscoveryagent_p.h
-* /usr/include/qt6/QtBluetooth/6.8.3/QtBluetooth/private/qbluetoothdeviceinfo_p.h
-* /usr/include/qt6/QtBluetooth/6.8.3/QtBluetooth/private/qbluetoothhostinfo_p.h
-* /usr/include/qt6/QtBluetooth/6.8.3/QtBluetooth/private/qbluetoothlocaldevice_p.h
-* /usr/include/qt6/QtBluetooth/6.8.3/QtBluetooth/private/qbluetoothserver_p.h
-* /usr/include/qt6/QtBluetooth/6.8.3/QtBluetooth/private/qbluetoothservicediscoveryagent_p.h
-* /usr/include/qt6/QtBluetooth/6.8.3/QtBluetooth/private/qbluetoothserviceinfo_p.h
-* /usr/include/qt6/QtBluetooth/6.8.3/QtBluetooth/private/qbluetoothsocketbase_p.h
-* /usr/include/qt6/QtBluetooth/6.8.3/QtBluetooth/private/qbluetoothsocket_bluezdbus_p.h
-* /usr/include/qt6/QtBluetooth/6.8.3/QtBluetooth/private/qbluetoothsocket_bluez_p.h
-* /usr/include/qt6/QtBluetooth/6.8.3/QtBluetooth/private/qleadvertiser_bluezdbus_p.h
-* /usr/include/qt6/QtBluetooth/6.8.3/QtBluetooth/private/qleadvertiser_bluez_p.h
-* /usr/include/qt6/QtBluetooth/6.8.3/QtBluetooth/private/qlowenergycontrollerbase_p.h
-* /usr/include/qt6/QtBluetooth/6.8.3/QtBluetooth/private/qlowenergycontroller_bluezdbus_p.h
-* /usr/include/qt6/QtBluetooth/6.8.3/QtBluetooth/private/qlowenergycontroller_bluez_p.h
-* /usr/include/qt6/QtBluetooth/6.8.3/QtBluetooth/private/qlowenergyserviceprivate_p.h
-* /usr/include/qt6/QtBluetooth/6.8.3/QtBluetooth/private/qprivatelinearbuffer_p.h
-* /usr/include/qt6/QtBluetooth/6.8.3/QtBluetooth/private/qtbluetooth-config_p.h
-* /usr/include/qt6/QtBluetooth/6.8.3/QtBluetooth/private/qtbluetoothglobal_p.h
-* /usr/include/qt6/QtBluetooth/6.8.3/QtBluetooth/private/remotedevicemanager_p.h
-* /usr/include/qt6/QtBluetooth/6.8.3/QtBluetooth/private/servicemap_p.h
+* /usr/include/qt6/QtBluetooth/6.9.0/QtBluetooth/private/adapter1_bluez5_p.h
+* /usr/include/qt6/QtBluetooth/6.9.0/QtBluetooth/private/battery1_p.h
+* /usr/include/qt6/QtBluetooth/6.9.0/QtBluetooth/private/bluetoothmanagement_p.h
+* /usr/include/qt6/QtBluetooth/6.9.0/QtBluetooth/private/bluez5_helper_p.h
+* /usr/include/qt6/QtBluetooth/6.9.0/QtBluetooth/private/bluezperipheralapplication_p.h
+* /usr/include/qt6/QtBluetooth/6.9.0/QtBluetooth/private/bluezperipheralconnectionmanager_p.h
+* /usr/include/qt6/QtBluetooth/6.9.0/QtBluetooth/private/bluezperipheralobjects_p.h
+* /usr/include/qt6/QtBluetooth/6.9.0/QtBluetooth/private/bluez_data_p.h
+* /usr/include/qt6/QtBluetooth/6.9.0/QtBluetooth/private/device1_bluez5_p.h
+* /usr/include/qt6/QtBluetooth/6.9.0/QtBluetooth/private/gattchar1_p.h
+* /usr/include/qt6/QtBluetooth/6.9.0/QtBluetooth/private/gattcharacteristic1adaptor_p.h
+* /usr/include/qt6/QtBluetooth/6.9.0/QtBluetooth/private/gattdesc1_p.h
+* /usr/include/qt6/QtBluetooth/6.9.0/QtBluetooth/private/gattdescriptor1adaptor_p.h
+* /usr/include/qt6/QtBluetooth/6.9.0/QtBluetooth/private/gattmanager1_p.h
+* /usr/include/qt6/QtBluetooth/6.9.0/QtBluetooth/private/gattservice1adaptor_p.h
+* /usr/include/qt6/QtBluetooth/6.9.0/QtBluetooth/private/gattservice1_p.h
+* /usr/include/qt6/QtBluetooth/6.9.0/QtBluetooth/private/hcimanager_p.h
+* /usr/include/qt6/QtBluetooth/6.9.0/QtBluetooth/private/leadvertisement1_p.h
+* /usr/include/qt6/QtBluetooth/6.9.0/QtBluetooth/private/leadvertisingmanager1_p.h
+* /usr/include/qt6/QtBluetooth/6.9.0/QtBluetooth/private/lecmaccalculator_p.h
+* /usr/include/qt6/QtBluetooth/6.9.0/QtBluetooth/private/objectmanageradaptor_p.h
+* /usr/include/qt6/QtBluetooth/6.9.0/QtBluetooth/private/objectmanager_p.h
+* /usr/include/qt6/QtBluetooth/6.9.0/QtBluetooth/private/profile1context_p.h
+* /usr/include/qt6/QtBluetooth/6.9.0/QtBluetooth/private/profile1_p.h
+* /usr/include/qt6/QtBluetooth/6.9.0/QtBluetooth/private/profilemanager1_p.h
+* /usr/include/qt6/QtBluetooth/6.9.0/QtBluetooth/private/propertiesadaptor_p.h
+* /usr/include/qt6/QtBluetooth/6.9.0/QtBluetooth/private/properties_p.h
+* /usr/include/qt6/QtBluetooth/6.9.0/QtBluetooth/private/qbluetoothdevicediscoveryagent_p.h
+* /usr/include/qt6/QtBluetooth/6.9.0/QtBluetooth/private/qbluetoothdeviceinfo_p.h
+* /usr/include/qt6/QtBluetooth/6.9.0/QtBluetooth/private/qbluetoothhostinfo_p.h
+* /usr/include/qt6/QtBluetooth/6.9.0/QtBluetooth/private/qbluetoothlocaldevice_p.h
+* /usr/include/qt6/QtBluetooth/6.9.0/QtBluetooth/private/qbluetoothserver_p.h
+* /usr/include/qt6/QtBluetooth/6.9.0/QtBluetooth/private/qbluetoothservicediscoveryagent_p.h
+* /usr/include/qt6/QtBluetooth/6.9.0/QtBluetooth/private/qbluetoothserviceinfo_p.h
+* /usr/include/qt6/QtBluetooth/6.9.0/QtBluetooth/private/qbluetoothsocketbase_p.h
+* /usr/include/qt6/QtBluetooth/6.9.0/QtBluetooth/private/qbluetoothsocket_bluezdbus_p.h
+* /usr/include/qt6/QtBluetooth/6.9.0/QtBluetooth/private/qbluetoothsocket_bluez_p.h
+* /usr/include/qt6/QtBluetooth/6.9.0/QtBluetooth/private/qleadvertiser_bluezdbus_p.h
+* /usr/include/qt6/QtBluetooth/6.9.0/QtBluetooth/private/qleadvertiser_bluez_p.h
+* /usr/include/qt6/QtBluetooth/6.9.0/QtBluetooth/private/qlowenergycontrollerbase_p.h
+* /usr/include/qt6/QtBluetooth/6.9.0/QtBluetooth/private/qlowenergycontroller_bluezdbus_p.h
+* /usr/include/qt6/QtBluetooth/6.9.0/QtBluetooth/private/qlowenergycontroller_bluez_p.h
+* /usr/include/qt6/QtBluetooth/6.9.0/QtBluetooth/private/qlowenergyserviceprivate_p.h
+* /usr/include/qt6/QtBluetooth/6.9.0/QtBluetooth/private/qprivatelinearbuffer_p.h
+* /usr/include/qt6/QtBluetooth/6.9.0/QtBluetooth/private/qtbluetooth-config_p.h
+* /usr/include/qt6/QtBluetooth/6.9.0/QtBluetooth/private/qtbluetoothglobal_p.h
+* /usr/include/qt6/QtBluetooth/6.9.0/QtBluetooth/private/remotedevicemanager_p.h
+* /usr/include/qt6/QtBluetooth/6.9.0/QtBluetooth/private/servicemap_p.h
 * /usr/include/qt6/QtBluetooth/qbluetooth.h
 * /usr/include/qt6/QtBluetooth/QBluetoothAddress
 * /usr/include/qt6/QtBluetooth/qbluetoothaddress.h
@@ -115,21 +115,27 @@ The Qt6 toolkit, qtconnectivity
 * /usr/include/qt6/QtBluetooth/qtbluetoothglobal.h
 * /usr/include/qt6/QtBluetooth/QtBluetoothVersion
 * /usr/include/qt6/QtBluetooth/qtbluetoothversion.h
-* /usr/include/qt6/QtNfc/6.8.3/QtNfc/private/qapduutils_p.h
-* /usr/include/qt6/QtNfc/6.8.3/QtNfc/private/qndefaccessfsm_p.h
-* /usr/include/qt6/QtNfc/6.8.3/QtNfc/private/qndefnfcsmartposterrecord_p.h
-* /usr/include/qt6/QtNfc/6.8.3/QtNfc/private/qndefrecord_p.h
-* /usr/include/qt6/QtNfc/6.8.3/QtNfc/private/qnearfieldmanager_p.h
-* /usr/include/qt6/QtNfc/6.8.3/QtNfc/private/qnearfieldmanager_pcsc_p.h
-* /usr/include/qt6/QtNfc/6.8.3/QtNfc/private/qnearfieldtarget_p.h
-* /usr/include/qt6/QtNfc/6.8.3/QtNfc/private/qnearfieldtarget_pcsc_p.h
-* /usr/include/qt6/QtNfc/6.8.3/QtNfc/private/qnfctagtype4ndeffsm_p.h
-* /usr/include/qt6/QtNfc/6.8.3/QtNfc/private/qpcsccard_p.h
-* /usr/include/qt6/QtNfc/6.8.3/QtNfc/private/qpcscmanager_p.h
-* /usr/include/qt6/QtNfc/6.8.3/QtNfc/private/qpcscslot_p.h
-* /usr/include/qt6/QtNfc/6.8.3/QtNfc/private/qpcsc_p.h
-* /usr/include/qt6/QtNfc/6.8.3/QtNfc/private/qtnfc-config_p.h
-* /usr/include/qt6/QtNfc/6.8.3/QtNfc/private/qtnfcglobal_p.h
+* /usr/include/qt6/QtConnectivity/6.9.0/QtConnectivity/private/qtconnectivity-config_p.h
+* /usr/include/qt6/QtConnectivity/QtConnectivity
+* /usr/include/qt6/QtConnectivity/qtconnectivity-config.h
+* /usr/include/qt6/QtConnectivity/QtConnectivityDepends
+* /usr/include/qt6/QtConnectivity/QtConnectivityVersion
+* /usr/include/qt6/QtConnectivity/qtconnectivityversion.h
+* /usr/include/qt6/QtNfc/6.9.0/QtNfc/private/qapduutils_p.h
+* /usr/include/qt6/QtNfc/6.9.0/QtNfc/private/qndefaccessfsm_p.h
+* /usr/include/qt6/QtNfc/6.9.0/QtNfc/private/qndefnfcsmartposterrecord_p.h
+* /usr/include/qt6/QtNfc/6.9.0/QtNfc/private/qndefrecord_p.h
+* /usr/include/qt6/QtNfc/6.9.0/QtNfc/private/qnearfieldmanager_p.h
+* /usr/include/qt6/QtNfc/6.9.0/QtNfc/private/qnearfieldmanager_pcsc_p.h
+* /usr/include/qt6/QtNfc/6.9.0/QtNfc/private/qnearfieldtarget_p.h
+* /usr/include/qt6/QtNfc/6.9.0/QtNfc/private/qnearfieldtarget_pcsc_p.h
+* /usr/include/qt6/QtNfc/6.9.0/QtNfc/private/qnfctagtype4ndeffsm_p.h
+* /usr/include/qt6/QtNfc/6.9.0/QtNfc/private/qpcsccard_p.h
+* /usr/include/qt6/QtNfc/6.9.0/QtNfc/private/qpcscmanager_p.h
+* /usr/include/qt6/QtNfc/6.9.0/QtNfc/private/qpcscslot_p.h
+* /usr/include/qt6/QtNfc/6.9.0/QtNfc/private/qpcsc_p.h
+* /usr/include/qt6/QtNfc/6.9.0/QtNfc/private/qtnfc-config_p.h
+* /usr/include/qt6/QtNfc/6.9.0/QtNfc/private/qtnfcglobal_p.h
 * /usr/include/qt6/QtNfc/QNdefFilter
 * /usr/include/qt6/QtNfc/qndeffilter.h
 * /usr/include/qt6/QtNfc/QNdefMessage
@@ -165,7 +171,22 @@ The Qt6 toolkit, qtconnectivity
 * /usr/lib/cmake/Qt6Bluetooth/Qt6BluetoothTargets.cmake
 * /usr/lib/cmake/Qt6Bluetooth/Qt6BluetoothVersionlessAliasTargets.cmake
 * /usr/lib/cmake/Qt6Bluetooth/Qt6BluetoothVersionlessTargets.cmake
+* /usr/lib/cmake/Qt6BluetoothPrivate/Qt6BluetoothPrivateAdditionalTargetInfo.cmake
+* /usr/lib/cmake/Qt6BluetoothPrivate/Qt6BluetoothPrivateConfig.cmake
+* /usr/lib/cmake/Qt6BluetoothPrivate/Qt6BluetoothPrivateConfigVersion.cmake
+* /usr/lib/cmake/Qt6BluetoothPrivate/Qt6BluetoothPrivateConfigVersionImpl.cmake
+* /usr/lib/cmake/Qt6BluetoothPrivate/Qt6BluetoothPrivateDependencies.cmake
+* /usr/lib/cmake/Qt6BluetoothPrivate/Qt6BluetoothPrivateTargets.cmake
+* /usr/lib/cmake/Qt6BluetoothPrivate/Qt6BluetoothPrivateVersionlessAliasTargets.cmake
+* /usr/lib/cmake/Qt6BluetoothPrivate/Qt6BluetoothPrivateVersionlessTargets.cmake
 * /usr/lib/cmake/Qt6BuildInternals/StandaloneTests/QtConnectivityTestsConfig.cmake
+* /usr/lib/cmake/Qt6Connectivity/Qt6ConnectivityAdditionalTargetInfo.cmake
+* /usr/lib/cmake/Qt6Connectivity/Qt6ConnectivityConfig.cmake
+* /usr/lib/cmake/Qt6Connectivity/Qt6ConnectivityConfigVersion.cmake
+* /usr/lib/cmake/Qt6Connectivity/Qt6ConnectivityConfigVersionImpl.cmake
+* /usr/lib/cmake/Qt6Connectivity/Qt6ConnectivityTargets.cmake
+* /usr/lib/cmake/Qt6Connectivity/Qt6ConnectivityVersionlessAliasTargets.cmake
+* /usr/lib/cmake/Qt6Connectivity/Qt6ConnectivityVersionlessTargets.cmake
 * /usr/lib/cmake/Qt6Nfc/Qt6NfcAdditionalTargetInfo.cmake
 * /usr/lib/cmake/Qt6Nfc/Qt6NfcConfig.cmake
 * /usr/lib/cmake/Qt6Nfc/Qt6NfcConfigVersion.cmake
@@ -175,23 +196,33 @@ The Qt6 toolkit, qtconnectivity
 * /usr/lib/cmake/Qt6Nfc/Qt6NfcTargets.cmake
 * /usr/lib/cmake/Qt6Nfc/Qt6NfcVersionlessAliasTargets.cmake
 * /usr/lib/cmake/Qt6Nfc/Qt6NfcVersionlessTargets.cmake
+* /usr/lib/cmake/Qt6NfcPrivate/Qt6NfcPrivateAdditionalTargetInfo.cmake
+* /usr/lib/cmake/Qt6NfcPrivate/Qt6NfcPrivateConfig.cmake
+* /usr/lib/cmake/Qt6NfcPrivate/Qt6NfcPrivateConfigVersion.cmake
+* /usr/lib/cmake/Qt6NfcPrivate/Qt6NfcPrivateConfigVersionImpl.cmake
+* /usr/lib/cmake/Qt6NfcPrivate/Qt6NfcPrivateDependencies.cmake
+* /usr/lib/cmake/Qt6NfcPrivate/Qt6NfcPrivateTargets.cmake
+* /usr/lib/cmake/Qt6NfcPrivate/Qt6NfcPrivateVersionlessAliasTargets.cmake
+* /usr/lib/cmake/Qt6NfcPrivate/Qt6NfcPrivateVersionlessTargets.cmake
 * /usr/lib/libQt6Bluetooth.prl
 * /usr/lib/libQt6Bluetooth.so
 * /usr/lib/libQt6Bluetooth.so.6
-* /usr/lib/libQt6Bluetooth.so.6.8.3
+* /usr/lib/libQt6Bluetooth.so.6.9.0
 * /usr/lib/libQt6Nfc.prl
 * /usr/lib/libQt6Nfc.so
 * /usr/lib/libQt6Nfc.so.6
-* /usr/lib/libQt6Nfc.so.6.8.3
+* /usr/lib/libQt6Nfc.so.6.9.0
 * /usr/lib/pkgconfig/Qt6Bluetooth.pc
 * /usr/lib/pkgconfig/Qt6Nfc.pc
 * /usr/lib/qt6/metatypes/qt6bluetooth_release_metatypes.json
 * /usr/lib/qt6/metatypes/qt6nfc_release_metatypes.json
 * /usr/lib/qt6/mkspecs/modules/qt_lib_bluetooth.pri
 * /usr/lib/qt6/mkspecs/modules/qt_lib_bluetooth_private.pri
+* /usr/lib/qt6/mkspecs/modules/qt_lib_connectivity_private.pri
 * /usr/lib/qt6/mkspecs/modules/qt_lib_nfc.pri
 * /usr/lib/qt6/mkspecs/modules/qt_lib_nfc_private.pri
 * /usr/lib/qt6/modules/Bluetooth.json
+* /usr/lib/qt6/modules/Connectivity.json
 * /usr/lib/qt6/modules/Nfc.json
-* /usr/lib/qt6/sbom/qtconnectivity-6.8.3.spdx
+* /usr/lib/qt6/sbom/qtconnectivity-6.9.0.spdx
 * /usr/lib/qt6/sdpscanner

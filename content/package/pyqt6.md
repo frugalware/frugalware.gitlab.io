@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pyqt6 6.9.0.dev2503271146-1"
-version = "6.9.0.dev2503271146-1"
+title = "pyqt6 6.9.0-1"
+version = "6.9.0-1"
 description = "PyQt6 is a set of Python 3.x bindings for the Qt6 toolkit."
-date = "2025-03-28T20:52:12"
+date = "2025-04-07T11:44:57"
 aliases = "/packages/220810"
 categories = ['xlib-extra']
 upstreamurl = "http://www.riverbankcomputing.co.uk/"
 arch = "x86_64"
-size = "4044316"
-usize = "29056580"
-sha1sum = "320e78e070c03da346be27a4c0009c3b45c7e166"
+size = "4092724"
+usize = "29416712"
+sha1sum = "1b21084ad14e3e8c27340e3728e83c23e3a2baa1"
 depends = "['python3-pyqt6-sip', 'qt6-base']"
 reverse_depends = "['calibre', 'git-cola', 'pyqt6webengine', 'vorta', 'yin-yang']"
 +++
@@ -21,9 +21,9 @@ PyQt6 is a set of Python 3.x bindings for the Qt6 toolkit.
 * /usr/bin/pylupdate6
 * /usr/bin/pyuic6
 * /usr/lib/python3.13/site-packages/dbus/mainloop/pyqt6.abi3.so
-* /usr/lib/python3.13/site-packages/PyQt6-6.9.0.dev2503271146.dist-info/INSTALLER
-* /usr/lib/python3.13/site-packages/PyQt6-6.9.0.dev2503271146.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/PyQt6-6.9.0.dev2503271146.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/PyQt6-6.9.0.dist-info/INSTALLER
+* /usr/lib/python3.13/site-packages/PyQt6-6.9.0.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/PyQt6-6.9.0.dist-info/RECORD
 * /usr/lib/python3.13/site-packages/PyQt6/bindings/QtBluetooth/qbluetooth.sip
 * /usr/lib/python3.13/site-packages/PyQt6/bindings/QtBluetooth/qbluetoothaddress.sip
 * /usr/lib/python3.13/site-packages/PyQt6/bindings/QtBluetooth/qbluetoothdevicediscoveryagent.sip
@@ -619,6 +619,18 @@ PyQt6 is a set of Python 3.x bindings for the Qt6 toolkit.
 * /usr/lib/python3.13/site-packages/PyQt6/bindings/QtSpatialAudio/qspatialsound.sip
 * /usr/lib/python3.13/site-packages/PyQt6/bindings/QtSpatialAudio/QtSpatialAudio.toml
 * /usr/lib/python3.13/site-packages/PyQt6/bindings/QtSpatialAudio/QtSpatialAudiomod.sip
+* /usr/lib/python3.13/site-packages/PyQt6/bindings/QtStateMachine/qabstractstate.sip
+* /usr/lib/python3.13/site-packages/PyQt6/bindings/QtStateMachine/qabstracttransition.sip
+* /usr/lib/python3.13/site-packages/PyQt6/bindings/QtStateMachine/qeventtransition.sip
+* /usr/lib/python3.13/site-packages/PyQt6/bindings/QtStateMachine/qfinalstate.sip
+* /usr/lib/python3.13/site-packages/PyQt6/bindings/QtStateMachine/qhistorystate.sip
+* /usr/lib/python3.13/site-packages/PyQt6/bindings/QtStateMachine/qkeyeventtransition.sip
+* /usr/lib/python3.13/site-packages/PyQt6/bindings/QtStateMachine/qmouseeventtransition.sip
+* /usr/lib/python3.13/site-packages/PyQt6/bindings/QtStateMachine/qsignaltransition.sip
+* /usr/lib/python3.13/site-packages/PyQt6/bindings/QtStateMachine/qstate.sip
+* /usr/lib/python3.13/site-packages/PyQt6/bindings/QtStateMachine/qstatemachine.sip
+* /usr/lib/python3.13/site-packages/PyQt6/bindings/QtStateMachine/QtStateMachine.toml
+* /usr/lib/python3.13/site-packages/PyQt6/bindings/QtStateMachine/QtStateMachinemod.sip
 * /usr/lib/python3.13/site-packages/PyQt6/bindings/QtSvg/qsvggenerator.sip
 * /usr/lib/python3.13/site-packages/PyQt6/bindings/QtSvg/qsvgrenderer.sip
 * /usr/lib/python3.13/site-packages/PyQt6/bindings/QtSvg/QtSvg.toml
@@ -845,6 +857,8 @@ PyQt6 is a set of Python 3.x bindings for the Qt6 toolkit.
 * /usr/lib/python3.13/site-packages/PyQt6/QtSerialPort.pyi
 * /usr/lib/python3.13/site-packages/PyQt6/QtSpatialAudio.abi3.so
 * /usr/lib/python3.13/site-packages/PyQt6/QtSpatialAudio.pyi
+* /usr/lib/python3.13/site-packages/PyQt6/QtStateMachine.abi3.so
+* /usr/lib/python3.13/site-packages/PyQt6/QtStateMachine.pyi
 * /usr/lib/python3.13/site-packages/PyQt6/QtSvg.abi3.so
 * /usr/lib/python3.13/site-packages/PyQt6/QtSvg.pyi
 * /usr/lib/python3.13/site-packages/PyQt6/QtSvgWidgets.abi3.so
@@ -954,8 +968,8 @@ PyQt6 is a set of Python 3.x bindings for the Qt6 toolkit.
 * /usr/lib/python3.13/site-packages/PyQt6/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/qt6/plugins/designer/libpyqt6.so
 * /usr/lib/qt6/plugins/PyQt6/libpyqt6qmlplugin.so
-* /usr/share/doc/pyqt6-6.9.0.dev2503271146/ChangeLog
-* /usr/share/doc/pyqt6-6.9.0.dev2503271146/LICENSE
-* /usr/share/doc/pyqt6-6.9.0.dev2503271146/NEWS
-* /usr/share/doc/pyqt6-6.9.0.dev2503271146/README.md
+* /usr/share/doc/pyqt6-6.9.0/ChangeLog
+* /usr/share/doc/pyqt6-6.9.0/LICENSE
+* /usr/share/doc/pyqt6-6.9.0/NEWS
+* /usr/share/doc/pyqt6-6.9.0/README.md
 * /usr/share/qt6/qsci/api/python/PyQt6.api

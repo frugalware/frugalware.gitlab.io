@@ -12,7 +12,7 @@ size = "853552"
 usize = "4600279"
 sha1sum = "783ea5fa7b0462af910ee070fe29d51a86695ad6"
 depends = "['glibc>=2.29-6']"
-reverse_depends = "['kicad', 'performous', 'solarus']"
+reverse_depends = "['kicad', 'performous', 'solarus', 'stellarium']"
 +++
 ### Description: 
 OpenGL Mathematics

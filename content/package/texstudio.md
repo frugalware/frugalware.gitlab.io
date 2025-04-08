@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "texstudio 4.8.6-2"
-version = "4.8.6-2"
+title = "texstudio 4.8.6-3"
+version = "4.8.6-3"
 description = "Fork of the LaTeX IDE TexMaker. Gives you an environment where you can easily create and manage LaTeX documents"
-date = "2025-03-28T22:44:36"
+date = "2025-04-07T15:52:15"
 aliases = "/packages/168583"
 categories = ['xapps-extra']
 upstreamurl = "https://www.texstudio.org"
 arch = "x86_64"
-size = "62986504"
-usize = "366409186"
-sha1sum = "314858bfd667f1ea3d2bffb2fc5860c632f179f9"
+size = "62679928"
+usize = "364810770"
+sha1sum = "5ede00fbd17804dbb1dfe12b019b53ccb00aa1ce"
 depends = "['hunspell>=1.7.0', 'poppler-qt6>=25.01.0', 'qt6-5compat>=6.8.2', 'qt6-declarative>=6.8.2', 'qt6-svg>=6.8.2', 'quazip-qt6>=1.5']"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qt6-base-static 6.8.3-1"
-version = "6.8.3-1"
+title = "qt6-base-static 6.9.0-1"
+version = "6.9.0-1"
 description = "Qt6 base static libs."
-date = "2025-03-27T12:26:32"
+date = "2025-04-04T10:58:59"
 aliases = "/packages/220756"
 categories = ['devel-extra']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "6252652"
-usize = "10563830"
-sha1sum = "9acc50615a6bbd4e0412f37e4ac5c61c86be47c0"
+size = "6159888"
+usize = "10519498"
+sha1sum = "1d412f6b6bb70ea4282d47e056f4303d6da6ac06"
 depends = "['libstdc++>=11.3']"
 +++
 ### Description: 

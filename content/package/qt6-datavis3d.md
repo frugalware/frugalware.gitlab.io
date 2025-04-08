@@ -1,96 +1,96 @@
 +++
 draft = false
-title = "qt6-datavis3d 6.8.3-1"
-version = "6.8.3-1"
+title = "qt6-datavis3d 6.9.0-1"
+version = "6.9.0-1"
 description = "The Qt6 toolkit, qtdatavis3d"
-date = "2025-03-27T12:44:25"
+date = "2025-04-04T11:17:40"
 aliases = "/packages/220764"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "598296"
-usize = "3305051"
-sha1sum = "f51b98a95f5e9a0fba8a8e8cf166c4f85ec0416e"
+size = "601408"
+usize = "3347585"
+sha1sum = "e9b0e148b347e5d078ebb787805f297222b0c6a4"
 depends = "['qt6-declarative']"
 +++
 ### Description: 
 The Qt6 toolkit, qtdatavis3d
 
 ### Files: 
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/abstract3dcontroller_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/abstract3drenderer_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/abstractdeclarativeinterface_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/abstractitemmodelhandler_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/abstractobjecthelper_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/abstractrenderitem_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/axisrendercache_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/baritemmodelhandler_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/barrenderitem_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/bars3dcontroller_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/bars3drenderer_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/barseriesrendercache_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/camerahelper_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/customrenderitem_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/datavisualizationglobal_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/drawer_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/labelitem_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/meshloader_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/objecthelper_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/q3dbars_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/q3dcamera_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/q3dinputhandler_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/q3dlight_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/q3dobject_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/q3dscatter_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/q3dscene_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/q3dsurface_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/q3dtheme_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/qabstract3daxis_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/qabstract3dgraph_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/qabstract3dinputhandler_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/qabstract3dseries_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/qabstractdataproxy_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/qbar3dseries_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/qbardataitem_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/qbardataproxy_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/qcategory3daxis_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/qcustom3ditem_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/qcustom3dlabel_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/qcustom3dvolume_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/qheightmapsurfacedataproxy_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/qitemmodelbardataproxy_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/qitemmodelscatterdataproxy_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/qitemmodelsurfacedataproxy_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/qlogvalue3daxisformatter_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/qscatter3dseries_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/qscatterdataitem_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/qscatterdataproxy_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/qsurface3dseries_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/qsurfacedataitem_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/qsurfacedataproxy_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/qtdatavisualization-config_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/qtouch3dinputhandler_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/qvalue3daxisformatter_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/qvalue3daxis_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/scatter3dcontroller_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/scatter3drenderer_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/scatteritemmodelhandler_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/scatterobjectbufferhelper_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/scatterpointbufferhelper_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/scatterrenderitem_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/scatterseriesrendercache_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/selectionpointer_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/seriesrendercache_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/shaderhelper_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/surface3dcontroller_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/surface3drenderer_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/surfaceitemmodelhandler_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/surfaceobject_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/surfaceseriesrendercache_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/texturehelper_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/thememanager_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/utils_p.h
-* /usr/include/qt6/QtDataVisualization/6.8.3/QtDataVisualization/private/vertexindexer_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/abstract3dcontroller_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/abstract3drenderer_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/abstractdeclarativeinterface_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/abstractitemmodelhandler_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/abstractobjecthelper_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/abstractrenderitem_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/axisrendercache_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/baritemmodelhandler_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/barrenderitem_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/bars3dcontroller_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/bars3drenderer_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/barseriesrendercache_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/camerahelper_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/customrenderitem_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/datavisualizationglobal_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/drawer_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/labelitem_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/meshloader_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/objecthelper_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/q3dbars_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/q3dcamera_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/q3dinputhandler_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/q3dlight_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/q3dobject_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/q3dscatter_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/q3dscene_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/q3dsurface_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/q3dtheme_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/qabstract3daxis_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/qabstract3dgraph_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/qabstract3dinputhandler_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/qabstract3dseries_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/qabstractdataproxy_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/qbar3dseries_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/qbardataitem_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/qbardataproxy_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/qcategory3daxis_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/qcustom3ditem_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/qcustom3dlabel_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/qcustom3dvolume_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/qheightmapsurfacedataproxy_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/qitemmodelbardataproxy_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/qitemmodelscatterdataproxy_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/qitemmodelsurfacedataproxy_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/qlogvalue3daxisformatter_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/qscatter3dseries_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/qscatterdataitem_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/qscatterdataproxy_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/qsurface3dseries_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/qsurfacedataitem_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/qsurfacedataproxy_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/qtdatavisualization-config_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/qtouch3dinputhandler_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/qvalue3daxisformatter_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/qvalue3daxis_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/scatter3dcontroller_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/scatter3drenderer_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/scatteritemmodelhandler_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/scatterobjectbufferhelper_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/scatterpointbufferhelper_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/scatterrenderitem_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/scatterseriesrendercache_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/selectionpointer_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/seriesrendercache_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/shaderhelper_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/surface3dcontroller_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/surface3drenderer_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/surfaceitemmodelhandler_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/surfaceobject_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/surfaceseriesrendercache_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/texturehelper_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/thememanager_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/utils_p.h
+* /usr/include/qt6/QtDataVisualization/6.9.0/QtDataVisualization/private/vertexindexer_p.h
 * /usr/include/qt6/QtDataVisualization/Q3DBars
 * /usr/include/qt6/QtDataVisualization/q3dbars.h
 * /usr/include/qt6/QtDataVisualization/Q3DCamera
@@ -174,19 +174,19 @@ The Qt6 toolkit, qtdatavis3d
 * /usr/include/qt6/QtDataVisualization/qvalue3daxis.h
 * /usr/include/qt6/QtDataVisualization/QValue3DAxisFormatter
 * /usr/include/qt6/QtDataVisualization/qvalue3daxisformatter.h
-* /usr/include/qt6/QtDataVisualizationQml/6.8.3/QtDataVisualizationQml/private/abstractdeclarative_p.h
-* /usr/include/qt6/QtDataVisualizationQml/6.8.3/QtDataVisualizationQml/private/colorgradient_p.h
-* /usr/include/qt6/QtDataVisualizationQml/6.8.3/QtDataVisualizationQml/private/declarativebars_p.h
-* /usr/include/qt6/QtDataVisualizationQml/6.8.3/QtDataVisualizationQml/private/declarativecolor_p.h
-* /usr/include/qt6/QtDataVisualizationQml/6.8.3/QtDataVisualizationQml/private/declarativerendernode_p.h
-* /usr/include/qt6/QtDataVisualizationQml/6.8.3/QtDataVisualizationQml/private/declarativescatter_p.h
-* /usr/include/qt6/QtDataVisualizationQml/6.8.3/QtDataVisualizationQml/private/declarativescene_p.h
-* /usr/include/qt6/QtDataVisualizationQml/6.8.3/QtDataVisualizationQml/private/declarativeseries_p.h
-* /usr/include/qt6/QtDataVisualizationQml/6.8.3/QtDataVisualizationQml/private/declarativesurface_p.h
-* /usr/include/qt6/QtDataVisualizationQml/6.8.3/QtDataVisualizationQml/private/declarativetheme_p.h
-* /usr/include/qt6/QtDataVisualizationQml/6.8.3/QtDataVisualizationQml/private/enumtostringmap_p.h
-* /usr/include/qt6/QtDataVisualizationQml/6.8.3/QtDataVisualizationQml/private/foreigntypes_p.h
-* /usr/include/qt6/QtDataVisualizationQml/6.8.3/QtDataVisualizationQml/private/glstatestore_p.h
+* /usr/include/qt6/QtDataVisualizationQml/6.9.0/QtDataVisualizationQml/private/abstractdeclarative_p.h
+* /usr/include/qt6/QtDataVisualizationQml/6.9.0/QtDataVisualizationQml/private/colorgradient_p.h
+* /usr/include/qt6/QtDataVisualizationQml/6.9.0/QtDataVisualizationQml/private/declarativebars_p.h
+* /usr/include/qt6/QtDataVisualizationQml/6.9.0/QtDataVisualizationQml/private/declarativecolor_p.h
+* /usr/include/qt6/QtDataVisualizationQml/6.9.0/QtDataVisualizationQml/private/declarativerendernode_p.h
+* /usr/include/qt6/QtDataVisualizationQml/6.9.0/QtDataVisualizationQml/private/declarativescatter_p.h
+* /usr/include/qt6/QtDataVisualizationQml/6.9.0/QtDataVisualizationQml/private/declarativescene_p.h
+* /usr/include/qt6/QtDataVisualizationQml/6.9.0/QtDataVisualizationQml/private/declarativeseries_p.h
+* /usr/include/qt6/QtDataVisualizationQml/6.9.0/QtDataVisualizationQml/private/declarativesurface_p.h
+* /usr/include/qt6/QtDataVisualizationQml/6.9.0/QtDataVisualizationQml/private/declarativetheme_p.h
+* /usr/include/qt6/QtDataVisualizationQml/6.9.0/QtDataVisualizationQml/private/enumtostringmap_p.h
+* /usr/include/qt6/QtDataVisualizationQml/6.9.0/QtDataVisualizationQml/private/foreigntypes_p.h
+* /usr/include/qt6/QtDataVisualizationQml/6.9.0/QtDataVisualizationQml/private/glstatestore_p.h
 * /usr/include/qt6/QtDataVisualizationQml/QtDataVisualizationQml
 * /usr/include/qt6/QtDataVisualizationQml/QtDataVisualizationQmlDepends
 * /usr/include/qt6/QtDataVisualizationQml/QtDataVisualizationQmlVersion
@@ -201,6 +201,14 @@ The Qt6 toolkit, qtdatavis3d
 * /usr/lib/cmake/Qt6DataVisualization/Qt6DataVisualizationTargets.cmake
 * /usr/lib/cmake/Qt6DataVisualization/Qt6DataVisualizationVersionlessAliasTargets.cmake
 * /usr/lib/cmake/Qt6DataVisualization/Qt6DataVisualizationVersionlessTargets.cmake
+* /usr/lib/cmake/Qt6DataVisualizationPrivate/Qt6DataVisualizationPrivateAdditionalTargetInfo.cmake
+* /usr/lib/cmake/Qt6DataVisualizationPrivate/Qt6DataVisualizationPrivateConfig.cmake
+* /usr/lib/cmake/Qt6DataVisualizationPrivate/Qt6DataVisualizationPrivateConfigVersion.cmake
+* /usr/lib/cmake/Qt6DataVisualizationPrivate/Qt6DataVisualizationPrivateConfigVersionImpl.cmake
+* /usr/lib/cmake/Qt6DataVisualizationPrivate/Qt6DataVisualizationPrivateDependencies.cmake
+* /usr/lib/cmake/Qt6DataVisualizationPrivate/Qt6DataVisualizationPrivateTargets.cmake
+* /usr/lib/cmake/Qt6DataVisualizationPrivate/Qt6DataVisualizationPrivateVersionlessAliasTargets.cmake
+* /usr/lib/cmake/Qt6DataVisualizationPrivate/Qt6DataVisualizationPrivateVersionlessTargets.cmake
 * /usr/lib/cmake/Qt6DataVisualizationQml/Qt6DataVisualizationQmlAdditionalTargetInfo.cmake
 * /usr/lib/cmake/Qt6DataVisualizationQml/Qt6DataVisualizationQmlConfig.cmake
 * /usr/lib/cmake/Qt6DataVisualizationQml/Qt6DataVisualizationQmlConfigVersion.cmake
@@ -210,6 +218,14 @@ The Qt6 toolkit, qtdatavis3d
 * /usr/lib/cmake/Qt6DataVisualizationQml/Qt6DataVisualizationQmlTargets.cmake
 * /usr/lib/cmake/Qt6DataVisualizationQml/Qt6DataVisualizationQmlVersionlessAliasTargets.cmake
 * /usr/lib/cmake/Qt6DataVisualizationQml/Qt6DataVisualizationQmlVersionlessTargets.cmake
+* /usr/lib/cmake/Qt6DataVisualizationQmlPrivate/Qt6DataVisualizationQmlPrivateAdditionalTargetInfo.cmake
+* /usr/lib/cmake/Qt6DataVisualizationQmlPrivate/Qt6DataVisualizationQmlPrivateConfig.cmake
+* /usr/lib/cmake/Qt6DataVisualizationQmlPrivate/Qt6DataVisualizationQmlPrivateConfigVersion.cmake
+* /usr/lib/cmake/Qt6DataVisualizationQmlPrivate/Qt6DataVisualizationQmlPrivateConfigVersionImpl.cmake
+* /usr/lib/cmake/Qt6DataVisualizationQmlPrivate/Qt6DataVisualizationQmlPrivateDependencies.cmake
+* /usr/lib/cmake/Qt6DataVisualizationQmlPrivate/Qt6DataVisualizationQmlPrivateTargets.cmake
+* /usr/lib/cmake/Qt6DataVisualizationQmlPrivate/Qt6DataVisualizationQmlPrivateVersionlessAliasTargets.cmake
+* /usr/lib/cmake/Qt6DataVisualizationQmlPrivate/Qt6DataVisualizationQmlPrivateVersionlessTargets.cmake
 * /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6DataVisualizationQmlpluginAdditionalTargetInfo.cmake
 * /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6DataVisualizationQmlpluginConfig.cmake
 * /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6DataVisualizationQmlpluginConfigVersion.cmake
@@ -219,11 +235,11 @@ The Qt6 toolkit, qtdatavis3d
 * /usr/lib/libQt6DataVisualization.prl
 * /usr/lib/libQt6DataVisualization.so
 * /usr/lib/libQt6DataVisualization.so.6
-* /usr/lib/libQt6DataVisualization.so.6.8.3
+* /usr/lib/libQt6DataVisualization.so.6.9.0
 * /usr/lib/libQt6DataVisualizationQml.prl
 * /usr/lib/libQt6DataVisualizationQml.so
 * /usr/lib/libQt6DataVisualizationQml.so.6
-* /usr/lib/libQt6DataVisualizationQml.so.6.8.3
+* /usr/lib/libQt6DataVisualizationQml.so.6.9.0
 * /usr/lib/pkgconfig/Qt6DataVisualization.pc
 * /usr/lib/pkgconfig/Qt6DataVisualizationQml.pc
 * /usr/lib/qt6/metatypes/qt6datavisualizationqml_release_metatypes.json
@@ -250,4 +266,4 @@ The Qt6 toolkit, qtdatavis3d
 * /usr/lib/qt6/qml/QtDataVisualization/libdatavisualizationqmlplugin.so
 * /usr/lib/qt6/qml/QtDataVisualization/plugins.qmltypes
 * /usr/lib/qt6/qml/QtDataVisualization/qmldir
-* /usr/lib/qt6/sbom/qtdatavisualization-6.8.3.spdx
+* /usr/lib/qt6/sbom/qtdatavisualization-6.9.0.spdx

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qt6-webengine 6.8.3-1"
-version = "6.8.3-1"
+title = "qt6-webengine 6.9.0-1"
+version = "6.9.0-1"
 description = "The Qt6 toolkit, qtwebengine"
-date = "2025-03-27T14:16:17"
+date = "2025-04-04T13:14:20"
 aliases = "/packages/220791"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "86296060"
-usize = "263893106"
-sha1sum = "eb7cf446a792b2a94715aa5cc2fdfc62fd3fd106"
+size = "90382576"
+usize = "282460840"
+sha1sum = "545a0f0eee6ef07d2bada29735f1406afacab631"
 depends = "['ffmpeg>=7.0', 'icu4c>=77.1', 'libatomic', 'libepoxy', 'libevent', 'libgbm', 'libjpeg-turbo', 'libkrb5', 'libva', 'libxcomposite', 'libxcursor', 'libxkbfile', 'libxrandr', 'libxshmfence', 'libxslt', 'mesa-dri-drivers', 'nss', 'opus', 'qt6-positioning', 'qt6-webchannel', 're2', 'snappy>=1.2.0']"
 reverse_depends = "['akonadi-contacts', 'angelfish', 'arianna', 'cantor', 'falkon', 'ghostwriter', 'k3b', 'kaccounts-providers', 'kalgebra', 'kdenlive', 'khelpcenter', 'kimagemapeditor', 'kio-extras', 'konqueror', 'kvirc', 'libkgapi', 'libksysguard', 'libmarble', 'mediainfo-qt', 'parley', 'pyqt6webengine', 'qt6-webview', 'qtcreator', 'rkward', 'seafile-client', 'sigil', 'skanpage', 'skrooge', 'stellarium', 'syncthingtray', 'texmaker']"
 +++
@@ -18,13 +18,14 @@ reverse_depends = "['akonadi-contacts', 'angelfish', 'arianna', 'cantor', 'falko
 The Qt6 toolkit, qtwebengine
 
 ### Files: 
-* /usr/include/qt6/QtPdf/6.8.3/QtPdf/private/qpdfdocument_p.h
-* /usr/include/qt6/QtPdf/6.8.3/QtPdf/private/qpdffile_p.h
-* /usr/include/qt6/QtPdf/6.8.3/QtPdf/private/qpdflinkmodel_p.h
-* /usr/include/qt6/QtPdf/6.8.3/QtPdf/private/qpdflink_p.h
-* /usr/include/qt6/QtPdf/6.8.3/QtPdf/private/qpdfsearchmodel_p.h
-* /usr/include/qt6/QtPdf/6.8.3/QtPdf/private/qpdfselection_p.h
-* /usr/include/qt6/QtPdf/6.8.3/QtPdf/private/qtpdf-config_p.h
+* /usr/include/qt6/QtPdf/6.9.0/QtPdf/private/qpdfdocument_p.h
+* /usr/include/qt6/QtPdf/6.9.0/QtPdf/private/qpdffile_p.h
+* /usr/include/qt6/QtPdf/6.9.0/QtPdf/private/qpdflinkmodel_p.h
+* /usr/include/qt6/QtPdf/6.9.0/QtPdf/private/qpdflink_p.h
+* /usr/include/qt6/QtPdf/6.9.0/QtPdf/private/qpdfsearchmodel_p.h
+* /usr/include/qt6/QtPdf/6.9.0/QtPdf/private/qpdfselection_p.h
+* /usr/include/qt6/QtPdf/6.9.0/QtPdf/private/qtpdf-config_p.h
+* /usr/include/qt6/QtPdf/6.9.0/QtPdf/private/qtpdfglobal_p.h
 * /usr/include/qt6/QtPdf/QPdfBookmarkModel
 * /usr/include/qt6/QtPdf/qpdfbookmarkmodel.h
 * /usr/include/qt6/QtPdf/QPdfDocument
@@ -50,20 +51,20 @@ The Qt6 toolkit, qtwebengine
 * /usr/include/qt6/QtPdf/qtpdfglobal.h
 * /usr/include/qt6/QtPdf/QtPdfVersion
 * /usr/include/qt6/QtPdf/qtpdfversion.h
-* /usr/include/qt6/QtPdfQuick/6.8.3/QtPdfQuick/private/qquickpdfbookmarkmodel_p.h
-* /usr/include/qt6/QtPdfQuick/6.8.3/QtPdfQuick/private/qquickpdfdocument_p.h
-* /usr/include/qt6/QtPdfQuick/6.8.3/QtPdfQuick/private/qquickpdflinkmodel_p.h
-* /usr/include/qt6/QtPdfQuick/6.8.3/QtPdfQuick/private/qquickpdfpageimage_p.h
-* /usr/include/qt6/QtPdfQuick/6.8.3/QtPdfQuick/private/qquickpdfpagenavigator_p.h
-* /usr/include/qt6/QtPdfQuick/6.8.3/QtPdfQuick/private/qquickpdfsearchmodel_p.h
-* /usr/include/qt6/QtPdfQuick/6.8.3/QtPdfQuick/private/qquickpdfselection_p.h
-* /usr/include/qt6/QtPdfQuick/6.8.3/QtPdfQuick/private/qtpdfquickglobal_p.h
+* /usr/include/qt6/QtPdfQuick/6.9.0/QtPdfQuick/private/qquickpdfbookmarkmodel_p.h
+* /usr/include/qt6/QtPdfQuick/6.9.0/QtPdfQuick/private/qquickpdfdocument_p.h
+* /usr/include/qt6/QtPdfQuick/6.9.0/QtPdfQuick/private/qquickpdflinkmodel_p.h
+* /usr/include/qt6/QtPdfQuick/6.9.0/QtPdfQuick/private/qquickpdfpageimage_p.h
+* /usr/include/qt6/QtPdfQuick/6.9.0/QtPdfQuick/private/qquickpdfpagenavigator_p.h
+* /usr/include/qt6/QtPdfQuick/6.9.0/QtPdfQuick/private/qquickpdfsearchmodel_p.h
+* /usr/include/qt6/QtPdfQuick/6.9.0/QtPdfQuick/private/qquickpdfselection_p.h
+* /usr/include/qt6/QtPdfQuick/6.9.0/QtPdfQuick/private/qtpdfquickglobal_p.h
 * /usr/include/qt6/QtPdfQuick/QtPdfQuick
 * /usr/include/qt6/QtPdfQuick/QtPdfQuickDepends
 * /usr/include/qt6/QtPdfQuick/QtPdfQuickVersion
 * /usr/include/qt6/QtPdfQuick/qtpdfquickversion.h
-* /usr/include/qt6/QtPdfWidgets/6.8.3/QtPdfWidgets/private/qpdfpageselector_p.h
-* /usr/include/qt6/QtPdfWidgets/6.8.3/QtPdfWidgets/private/qpdfview_p.h
+* /usr/include/qt6/QtPdfWidgets/6.9.0/QtPdfWidgets/private/qpdfpageselector_p.h
+* /usr/include/qt6/QtPdfWidgets/6.9.0/QtPdfWidgets/private/qpdfview_p.h
 * /usr/include/qt6/QtPdfWidgets/QPdfPageSelector
 * /usr/include/qt6/QtPdfWidgets/qpdfpageselector.h
 * /usr/include/qt6/QtPdfWidgets/QPdfView
@@ -73,22 +74,23 @@ The Qt6 toolkit, qtwebengine
 * /usr/include/qt6/QtPdfWidgets/qtpdfwidgetsglobal.h
 * /usr/include/qt6/QtPdfWidgets/QtPdfWidgetsVersion
 * /usr/include/qt6/QtPdfWidgets/qtpdfwidgetsversion.h
-* /usr/include/qt6/QtWebEngineCore/6.8.3/QtWebEngineCore/private/qtwebenginecore-config_p.h
-* /usr/include/qt6/QtWebEngineCore/6.8.3/QtWebEngineCore/private/qtwebenginecoreglobal_p.h
-* /usr/include/qt6/QtWebEngineCore/6.8.3/QtWebEngineCore/private/qwebenginecontextmenurequest_p.h
-* /usr/include/qt6/QtWebEngineCore/6.8.3/QtWebEngineCore/private/qwebenginecookiestore_p.h
-* /usr/include/qt6/QtWebEngineCore/6.8.3/QtWebEngineCore/private/qwebenginedesktopmediarequest_p.h
-* /usr/include/qt6/QtWebEngineCore/6.8.3/QtWebEngineCore/private/qwebenginedownloadrequest_p.h
-* /usr/include/qt6/QtWebEngineCore/6.8.3/QtWebEngineCore/private/qwebengineglobalsettings_p.h
-* /usr/include/qt6/QtWebEngineCore/6.8.3/QtWebEngineCore/private/qwebenginehistory_p.h
-* /usr/include/qt6/QtWebEngineCore/6.8.3/QtWebEngineCore/private/qwebenginemessagepumpscheduler_p.h
-* /usr/include/qt6/QtWebEngineCore/6.8.3/QtWebEngineCore/private/qwebenginenewwindowrequest_p.h
-* /usr/include/qt6/QtWebEngineCore/6.8.3/QtWebEngineCore/private/qwebenginepage_p.h
-* /usr/include/qt6/QtWebEngineCore/6.8.3/QtWebEngineCore/private/qwebenginepermission_p.h
-* /usr/include/qt6/QtWebEngineCore/6.8.3/QtWebEngineCore/private/qwebengineprofile_p.h
-* /usr/include/qt6/QtWebEngineCore/6.8.3/QtWebEngineCore/private/qwebenginescriptcollection_p.h
-* /usr/include/qt6/QtWebEngineCore/6.8.3/QtWebEngineCore/private/qwebengineurlrequestinfo_p.h
-* /usr/include/qt6/QtWebEngineCore/6.8.3/QtWebEngineCore/private/qwebenginewebauthuxrequest_p.h
+* /usr/include/qt6/QtWebEngineCore/6.9.0/QtWebEngineCore/private/qtwebenginecore-config_p.h
+* /usr/include/qt6/QtWebEngineCore/6.9.0/QtWebEngineCore/private/qtwebenginecoreglobal_p.h
+* /usr/include/qt6/QtWebEngineCore/6.9.0/QtWebEngineCore/private/qwebenginecontextmenurequest_p.h
+* /usr/include/qt6/QtWebEngineCore/6.9.0/QtWebEngineCore/private/qwebenginecookiestore_p.h
+* /usr/include/qt6/QtWebEngineCore/6.9.0/QtWebEngineCore/private/qwebenginedesktopmediarequest_p.h
+* /usr/include/qt6/QtWebEngineCore/6.9.0/QtWebEngineCore/private/qwebenginedownloadrequest_p.h
+* /usr/include/qt6/QtWebEngineCore/6.9.0/QtWebEngineCore/private/qwebengineglobalsettings_p.h
+* /usr/include/qt6/QtWebEngineCore/6.9.0/QtWebEngineCore/private/qwebenginehistory_p.h
+* /usr/include/qt6/QtWebEngineCore/6.9.0/QtWebEngineCore/private/qwebenginemessagepumpscheduler_p.h
+* /usr/include/qt6/QtWebEngineCore/6.9.0/QtWebEngineCore/private/qwebenginenewwindowrequest_p.h
+* /usr/include/qt6/QtWebEngineCore/6.9.0/QtWebEngineCore/private/qwebenginepage_p.h
+* /usr/include/qt6/QtWebEngineCore/6.9.0/QtWebEngineCore/private/qwebenginepermission_p.h
+* /usr/include/qt6/QtWebEngineCore/6.9.0/QtWebEngineCore/private/qwebengineprofilebuilder_p.h
+* /usr/include/qt6/QtWebEngineCore/6.9.0/QtWebEngineCore/private/qwebengineprofile_p.h
+* /usr/include/qt6/QtWebEngineCore/6.9.0/QtWebEngineCore/private/qwebenginescriptcollection_p.h
+* /usr/include/qt6/QtWebEngineCore/6.9.0/QtWebEngineCore/private/qwebengineurlrequestinfo_p.h
+* /usr/include/qt6/QtWebEngineCore/6.9.0/QtWebEngineCore/private/qwebenginewebauthuxrequest_p.h
 * /usr/include/qt6/QtWebEngineCore/QtWebEngineCore
 * /usr/include/qt6/QtWebEngineCore/qtwebenginecore-config.h
 * /usr/include/qt6/QtWebEngineCore/QtWebEngineCoreDepends
@@ -141,6 +143,8 @@ The Qt6 toolkit, qtwebengine
 * /usr/include/qt6/QtWebEngineCore/qwebenginepermission.h
 * /usr/include/qt6/QtWebEngineCore/QWebEngineProfile
 * /usr/include/qt6/QtWebEngineCore/qwebengineprofile.h
+* /usr/include/qt6/QtWebEngineCore/QWebEngineProfileBuilder
+* /usr/include/qt6/QtWebEngineCore/qwebengineprofilebuilder.h
 * /usr/include/qt6/QtWebEngineCore/QWebEngineQuotaRequest
 * /usr/include/qt6/QtWebEngineCore/qwebenginequotarequest.h
 * /usr/include/qt6/QtWebEngineCore/QWebEngineRegisterProtocolHandlerRequest
@@ -164,29 +168,31 @@ The Qt6 toolkit, qtwebengine
 * /usr/include/qt6/QtWebEngineCore/QWebEngineWebAuthPinRequest
 * /usr/include/qt6/QtWebEngineCore/QWebEngineWebAuthUxRequest
 * /usr/include/qt6/QtWebEngineCore/qwebenginewebauthuxrequest.h
-* /usr/include/qt6/QtWebEngineQuick/6.8.3/QtWebEngineQuick/private/qquickwebengineaction_p.h
-* /usr/include/qt6/QtWebEngineQuick/6.8.3/QtWebEngineQuick/private/qquickwebengineaction_p_p.h
-* /usr/include/qt6/QtWebEngineQuick/6.8.3/QtWebEngineQuick/private/qquickwebengineclientcertificateselection_p.h
-* /usr/include/qt6/QtWebEngineQuick/6.8.3/QtWebEngineQuick/private/qquickwebenginedialogrequests_p.h
-* /usr/include/qt6/QtWebEngineQuick/6.8.3/QtWebEngineQuick/private/qquickwebenginefaviconprovider_p_p.h
-* /usr/include/qt6/QtWebEngineQuick/6.8.3/QtWebEngineQuick/private/qquickwebengineforeigntypes_p.h
-* /usr/include/qt6/QtWebEngineQuick/6.8.3/QtWebEngineQuick/private/qquickwebenginenewwindowrequest_p.h
-* /usr/include/qt6/QtWebEngineQuick/6.8.3/QtWebEngineQuick/private/qquickwebengineprofile_p.h
-* /usr/include/qt6/QtWebEngineQuick/6.8.3/QtWebEngineQuick/private/qquickwebenginescriptcollection_p.h
-* /usr/include/qt6/QtWebEngineQuick/6.8.3/QtWebEngineQuick/private/qquickwebenginescriptcollection_p_p.h
-* /usr/include/qt6/QtWebEngineQuick/6.8.3/QtWebEngineQuick/private/qquickwebenginesettings_p.h
-* /usr/include/qt6/QtWebEngineQuick/6.8.3/QtWebEngineQuick/private/qquickwebenginesingleton_p.h
-* /usr/include/qt6/QtWebEngineQuick/6.8.3/QtWebEngineQuick/private/qquickwebenginetouchhandleprovider_p_p.h
-* /usr/include/qt6/QtWebEngineQuick/6.8.3/QtWebEngineQuick/private/qquickwebenginetouchhandle_p.h
-* /usr/include/qt6/QtWebEngineQuick/6.8.3/QtWebEngineQuick/private/qquickwebenginetouchselectionmenurequest_p.h
-* /usr/include/qt6/QtWebEngineQuick/6.8.3/QtWebEngineQuick/private/qquickwebenginetouchselectionmenurequest_p_p.h
-* /usr/include/qt6/QtWebEngineQuick/6.8.3/QtWebEngineQuick/private/qquickwebengineview_p.h
-* /usr/include/qt6/QtWebEngineQuick/6.8.3/QtWebEngineQuick/private/qquickwebengineview_p_p.h
-* /usr/include/qt6/QtWebEngineQuick/6.8.3/QtWebEngineQuick/private/qquickwebengine_accessible_p.h
-* /usr/include/qt6/QtWebEngineQuick/6.8.3/QtWebEngineQuick/private/qtwebenginequick-config_p.h
-* /usr/include/qt6/QtWebEngineQuick/6.8.3/QtWebEngineQuick/private/qtwebenginequickglobal_p.h
-* /usr/include/qt6/QtWebEngineQuick/6.8.3/QtWebEngineQuick/private/render_widget_host_view_qt_delegate_quickwindow_p.h
-* /usr/include/qt6/QtWebEngineQuick/6.8.3/QtWebEngineQuick/private/ui_delegates_manager_p.h
+* /usr/include/qt6/QtWebEngineQuick/6.9.0/QtWebEngineQuick/private/qquickwebengineaction_p.h
+* /usr/include/qt6/QtWebEngineQuick/6.9.0/QtWebEngineQuick/private/qquickwebengineaction_p_p.h
+* /usr/include/qt6/QtWebEngineQuick/6.9.0/QtWebEngineQuick/private/qquickwebengineclientcertificateselection_p.h
+* /usr/include/qt6/QtWebEngineQuick/6.9.0/QtWebEngineQuick/private/qquickwebenginedialogrequests_p.h
+* /usr/include/qt6/QtWebEngineQuick/6.9.0/QtWebEngineQuick/private/qquickwebenginefaviconprovider_p_p.h
+* /usr/include/qt6/QtWebEngineQuick/6.9.0/QtWebEngineQuick/private/qquickwebengineforeigntypes_p.h
+* /usr/include/qt6/QtWebEngineQuick/6.9.0/QtWebEngineQuick/private/qquickwebenginenewwindowrequest_p.h
+* /usr/include/qt6/QtWebEngineQuick/6.9.0/QtWebEngineQuick/private/qquickwebengineprofileprototype_p.h
+* /usr/include/qt6/QtWebEngineQuick/6.9.0/QtWebEngineQuick/private/qquickwebengineprofileprototype_p_p.h
+* /usr/include/qt6/QtWebEngineQuick/6.9.0/QtWebEngineQuick/private/qquickwebengineprofile_p.h
+* /usr/include/qt6/QtWebEngineQuick/6.9.0/QtWebEngineQuick/private/qquickwebenginescriptcollection_p.h
+* /usr/include/qt6/QtWebEngineQuick/6.9.0/QtWebEngineQuick/private/qquickwebenginescriptcollection_p_p.h
+* /usr/include/qt6/QtWebEngineQuick/6.9.0/QtWebEngineQuick/private/qquickwebenginesettings_p.h
+* /usr/include/qt6/QtWebEngineQuick/6.9.0/QtWebEngineQuick/private/qquickwebenginesingleton_p.h
+* /usr/include/qt6/QtWebEngineQuick/6.9.0/QtWebEngineQuick/private/qquickwebenginetouchhandleprovider_p_p.h
+* /usr/include/qt6/QtWebEngineQuick/6.9.0/QtWebEngineQuick/private/qquickwebenginetouchhandle_p.h
+* /usr/include/qt6/QtWebEngineQuick/6.9.0/QtWebEngineQuick/private/qquickwebenginetouchselectionmenurequest_p.h
+* /usr/include/qt6/QtWebEngineQuick/6.9.0/QtWebEngineQuick/private/qquickwebenginetouchselectionmenurequest_p_p.h
+* /usr/include/qt6/QtWebEngineQuick/6.9.0/QtWebEngineQuick/private/qquickwebengineview_p.h
+* /usr/include/qt6/QtWebEngineQuick/6.9.0/QtWebEngineQuick/private/qquickwebengineview_p_p.h
+* /usr/include/qt6/QtWebEngineQuick/6.9.0/QtWebEngineQuick/private/qquickwebengine_accessible_p.h
+* /usr/include/qt6/QtWebEngineQuick/6.9.0/QtWebEngineQuick/private/qtwebenginequick-config_p.h
+* /usr/include/qt6/QtWebEngineQuick/6.9.0/QtWebEngineQuick/private/qtwebenginequickglobal_p.h
+* /usr/include/qt6/QtWebEngineQuick/6.9.0/QtWebEngineQuick/private/render_widget_host_view_qt_delegate_quickwindow_p.h
+* /usr/include/qt6/QtWebEngineQuick/6.9.0/QtWebEngineQuick/private/ui_delegates_manager_p.h
 * /usr/include/qt6/QtWebEngineQuick/QQuickWebEngineDownloadRequest
 * /usr/include/qt6/QtWebEngineQuick/qquickwebenginedownloadrequest.h
 * /usr/include/qt6/QtWebEngineQuick/QQuickWebEngineProfile
@@ -197,12 +203,12 @@ The Qt6 toolkit, qtwebengine
 * /usr/include/qt6/QtWebEngineQuick/qtwebenginequickglobal.h
 * /usr/include/qt6/QtWebEngineQuick/QtWebEngineQuickVersion
 * /usr/include/qt6/QtWebEngineQuick/qtwebenginequickversion.h
-* /usr/include/qt6/QtWebEngineWidgets/6.8.3/QtWebEngineWidgets/private/autofillpopupwidget_p.h
-* /usr/include/qt6/QtWebEngineWidgets/6.8.3/QtWebEngineWidgets/private/qwebenginenotificationpresenter_p.h
-* /usr/include/qt6/QtWebEngineWidgets/6.8.3/QtWebEngineWidgets/private/qwebengineview_p.h
-* /usr/include/qt6/QtWebEngineWidgets/6.8.3/QtWebEngineWidgets/private/qwebengine_accessible_p.h
-* /usr/include/qt6/QtWebEngineWidgets/6.8.3/QtWebEngineWidgets/private/touchhandlewidget_p.h
-* /usr/include/qt6/QtWebEngineWidgets/6.8.3/QtWebEngineWidgets/private/touchselectionmenuwidget_p.h
+* /usr/include/qt6/QtWebEngineWidgets/6.9.0/QtWebEngineWidgets/private/autofillpopupwidget_p.h
+* /usr/include/qt6/QtWebEngineWidgets/6.9.0/QtWebEngineWidgets/private/qwebenginenotificationpresenter_p.h
+* /usr/include/qt6/QtWebEngineWidgets/6.9.0/QtWebEngineWidgets/private/qwebengineview_p.h
+* /usr/include/qt6/QtWebEngineWidgets/6.9.0/QtWebEngineWidgets/private/qwebengine_accessible_p.h
+* /usr/include/qt6/QtWebEngineWidgets/6.9.0/QtWebEngineWidgets/private/touchhandlewidget_p.h
+* /usr/include/qt6/QtWebEngineWidgets/6.9.0/QtWebEngineWidgets/private/touchselectionmenuwidget_p.h
 * /usr/include/qt6/QtWebEngineWidgets/QtWebEngineWidgets
 * /usr/include/qt6/QtWebEngineWidgets/QtWebEngineWidgetsDepends
 * /usr/include/qt6/QtWebEngineWidgets/qtwebenginewidgetsglobal.h
@@ -238,6 +244,14 @@ The Qt6 toolkit, qtwebengine
 * /usr/lib/cmake/Qt6Pdf/Qt6PdfTargets.cmake
 * /usr/lib/cmake/Qt6Pdf/Qt6PdfVersionlessAliasTargets.cmake
 * /usr/lib/cmake/Qt6Pdf/Qt6PdfVersionlessTargets.cmake
+* /usr/lib/cmake/Qt6PdfPrivate/Qt6PdfPrivateAdditionalTargetInfo.cmake
+* /usr/lib/cmake/Qt6PdfPrivate/Qt6PdfPrivateConfig.cmake
+* /usr/lib/cmake/Qt6PdfPrivate/Qt6PdfPrivateConfigVersion.cmake
+* /usr/lib/cmake/Qt6PdfPrivate/Qt6PdfPrivateConfigVersionImpl.cmake
+* /usr/lib/cmake/Qt6PdfPrivate/Qt6PdfPrivateDependencies.cmake
+* /usr/lib/cmake/Qt6PdfPrivate/Qt6PdfPrivateTargets.cmake
+* /usr/lib/cmake/Qt6PdfPrivate/Qt6PdfPrivateVersionlessAliasTargets.cmake
+* /usr/lib/cmake/Qt6PdfPrivate/Qt6PdfPrivateVersionlessTargets.cmake
 * /usr/lib/cmake/Qt6PdfQuick/Qt6PdfQuickAdditionalTargetInfo.cmake
 * /usr/lib/cmake/Qt6PdfQuick/Qt6PdfQuickConfig.cmake
 * /usr/lib/cmake/Qt6PdfQuick/Qt6PdfQuickConfigVersion.cmake
@@ -247,6 +261,14 @@ The Qt6 toolkit, qtwebengine
 * /usr/lib/cmake/Qt6PdfQuick/Qt6PdfQuickTargets.cmake
 * /usr/lib/cmake/Qt6PdfQuick/Qt6PdfQuickVersionlessAliasTargets.cmake
 * /usr/lib/cmake/Qt6PdfQuick/Qt6PdfQuickVersionlessTargets.cmake
+* /usr/lib/cmake/Qt6PdfQuickPrivate/Qt6PdfQuickPrivateAdditionalTargetInfo.cmake
+* /usr/lib/cmake/Qt6PdfQuickPrivate/Qt6PdfQuickPrivateConfig.cmake
+* /usr/lib/cmake/Qt6PdfQuickPrivate/Qt6PdfQuickPrivateConfigVersion.cmake
+* /usr/lib/cmake/Qt6PdfQuickPrivate/Qt6PdfQuickPrivateConfigVersionImpl.cmake
+* /usr/lib/cmake/Qt6PdfQuickPrivate/Qt6PdfQuickPrivateDependencies.cmake
+* /usr/lib/cmake/Qt6PdfQuickPrivate/Qt6PdfQuickPrivateTargets.cmake
+* /usr/lib/cmake/Qt6PdfQuickPrivate/Qt6PdfQuickPrivateVersionlessAliasTargets.cmake
+* /usr/lib/cmake/Qt6PdfQuickPrivate/Qt6PdfQuickPrivateVersionlessTargets.cmake
 * /usr/lib/cmake/Qt6PdfWidgets/Qt6PdfWidgetsAdditionalTargetInfo.cmake
 * /usr/lib/cmake/Qt6PdfWidgets/Qt6PdfWidgetsConfig.cmake
 * /usr/lib/cmake/Qt6PdfWidgets/Qt6PdfWidgetsConfigVersion.cmake
@@ -256,6 +278,14 @@ The Qt6 toolkit, qtwebengine
 * /usr/lib/cmake/Qt6PdfWidgets/Qt6PdfWidgetsTargets.cmake
 * /usr/lib/cmake/Qt6PdfWidgets/Qt6PdfWidgetsVersionlessAliasTargets.cmake
 * /usr/lib/cmake/Qt6PdfWidgets/Qt6PdfWidgetsVersionlessTargets.cmake
+* /usr/lib/cmake/Qt6PdfWidgetsPrivate/Qt6PdfWidgetsPrivateAdditionalTargetInfo.cmake
+* /usr/lib/cmake/Qt6PdfWidgetsPrivate/Qt6PdfWidgetsPrivateConfig.cmake
+* /usr/lib/cmake/Qt6PdfWidgetsPrivate/Qt6PdfWidgetsPrivateConfigVersion.cmake
+* /usr/lib/cmake/Qt6PdfWidgetsPrivate/Qt6PdfWidgetsPrivateConfigVersionImpl.cmake
+* /usr/lib/cmake/Qt6PdfWidgetsPrivate/Qt6PdfWidgetsPrivateDependencies.cmake
+* /usr/lib/cmake/Qt6PdfWidgetsPrivate/Qt6PdfWidgetsPrivateTargets.cmake
+* /usr/lib/cmake/Qt6PdfWidgetsPrivate/Qt6PdfWidgetsPrivateVersionlessAliasTargets.cmake
+* /usr/lib/cmake/Qt6PdfWidgetsPrivate/Qt6PdfWidgetsPrivateVersionlessTargets.cmake
 * /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6PdfQuickpluginAdditionalTargetInfo.cmake
 * /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6PdfQuickpluginConfig.cmake
 * /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6PdfQuickpluginConfigVersion.cmake
@@ -285,6 +315,14 @@ The Qt6 toolkit, qtwebengine
 * /usr/lib/cmake/Qt6WebEngineCore/Qt6WebEngineCoreTargets.cmake
 * /usr/lib/cmake/Qt6WebEngineCore/Qt6WebEngineCoreVersionlessAliasTargets.cmake
 * /usr/lib/cmake/Qt6WebEngineCore/Qt6WebEngineCoreVersionlessTargets.cmake
+* /usr/lib/cmake/Qt6WebEngineCorePrivate/Qt6WebEngineCorePrivateAdditionalTargetInfo.cmake
+* /usr/lib/cmake/Qt6WebEngineCorePrivate/Qt6WebEngineCorePrivateConfig.cmake
+* /usr/lib/cmake/Qt6WebEngineCorePrivate/Qt6WebEngineCorePrivateConfigVersion.cmake
+* /usr/lib/cmake/Qt6WebEngineCorePrivate/Qt6WebEngineCorePrivateConfigVersionImpl.cmake
+* /usr/lib/cmake/Qt6WebEngineCorePrivate/Qt6WebEngineCorePrivateDependencies.cmake
+* /usr/lib/cmake/Qt6WebEngineCorePrivate/Qt6WebEngineCorePrivateTargets.cmake
+* /usr/lib/cmake/Qt6WebEngineCorePrivate/Qt6WebEngineCorePrivateVersionlessAliasTargets.cmake
+* /usr/lib/cmake/Qt6WebEngineCorePrivate/Qt6WebEngineCorePrivateVersionlessTargets.cmake
 * /usr/lib/cmake/Qt6WebEngineCoreTools/Qt6WebEngineCoreToolsAdditionalTargetInfo.cmake
 * /usr/lib/cmake/Qt6WebEngineCoreTools/Qt6WebEngineCoreToolsConfig.cmake
 * /usr/lib/cmake/Qt6WebEngineCoreTools/Qt6WebEngineCoreToolsConfigVersion.cmake
@@ -310,6 +348,22 @@ The Qt6 toolkit, qtwebengine
 * /usr/lib/cmake/Qt6WebEngineQuickDelegatesQml/Qt6WebEngineQuickDelegatesQmlTargets.cmake
 * /usr/lib/cmake/Qt6WebEngineQuickDelegatesQml/Qt6WebEngineQuickDelegatesQmlVersionlessAliasTargets.cmake
 * /usr/lib/cmake/Qt6WebEngineQuickDelegatesQml/Qt6WebEngineQuickDelegatesQmlVersionlessTargets.cmake
+* /usr/lib/cmake/Qt6WebEngineQuickDelegatesQmlPrivate/Qt6WebEngineQuickDelegatesQmlPrivateAdditionalTargetInfo.cmake
+* /usr/lib/cmake/Qt6WebEngineQuickDelegatesQmlPrivate/Qt6WebEngineQuickDelegatesQmlPrivateConfig.cmake
+* /usr/lib/cmake/Qt6WebEngineQuickDelegatesQmlPrivate/Qt6WebEngineQuickDelegatesQmlPrivateConfigVersion.cmake
+* /usr/lib/cmake/Qt6WebEngineQuickDelegatesQmlPrivate/Qt6WebEngineQuickDelegatesQmlPrivateConfigVersionImpl.cmake
+* /usr/lib/cmake/Qt6WebEngineQuickDelegatesQmlPrivate/Qt6WebEngineQuickDelegatesQmlPrivateDependencies.cmake
+* /usr/lib/cmake/Qt6WebEngineQuickDelegatesQmlPrivate/Qt6WebEngineQuickDelegatesQmlPrivateTargets.cmake
+* /usr/lib/cmake/Qt6WebEngineQuickDelegatesQmlPrivate/Qt6WebEngineQuickDelegatesQmlPrivateVersionlessAliasTargets.cmake
+* /usr/lib/cmake/Qt6WebEngineQuickDelegatesQmlPrivate/Qt6WebEngineQuickDelegatesQmlPrivateVersionlessTargets.cmake
+* /usr/lib/cmake/Qt6WebEngineQuickPrivate/Qt6WebEngineQuickPrivateAdditionalTargetInfo.cmake
+* /usr/lib/cmake/Qt6WebEngineQuickPrivate/Qt6WebEngineQuickPrivateConfig.cmake
+* /usr/lib/cmake/Qt6WebEngineQuickPrivate/Qt6WebEngineQuickPrivateConfigVersion.cmake
+* /usr/lib/cmake/Qt6WebEngineQuickPrivate/Qt6WebEngineQuickPrivateConfigVersionImpl.cmake
+* /usr/lib/cmake/Qt6WebEngineQuickPrivate/Qt6WebEngineQuickPrivateDependencies.cmake
+* /usr/lib/cmake/Qt6WebEngineQuickPrivate/Qt6WebEngineQuickPrivateTargets.cmake
+* /usr/lib/cmake/Qt6WebEngineQuickPrivate/Qt6WebEngineQuickPrivateVersionlessAliasTargets.cmake
+* /usr/lib/cmake/Qt6WebEngineQuickPrivate/Qt6WebEngineQuickPrivateVersionlessTargets.cmake
 * /usr/lib/cmake/Qt6WebEngineWidgets/Qt6WebEngineWidgetsAdditionalTargetInfo.cmake
 * /usr/lib/cmake/Qt6WebEngineWidgets/Qt6WebEngineWidgetsConfig.cmake
 * /usr/lib/cmake/Qt6WebEngineWidgets/Qt6WebEngineWidgetsConfigVersion.cmake
@@ -319,34 +373,42 @@ The Qt6 toolkit, qtwebengine
 * /usr/lib/cmake/Qt6WebEngineWidgets/Qt6WebEngineWidgetsTargets.cmake
 * /usr/lib/cmake/Qt6WebEngineWidgets/Qt6WebEngineWidgetsVersionlessAliasTargets.cmake
 * /usr/lib/cmake/Qt6WebEngineWidgets/Qt6WebEngineWidgetsVersionlessTargets.cmake
+* /usr/lib/cmake/Qt6WebEngineWidgetsPrivate/Qt6WebEngineWidgetsPrivateAdditionalTargetInfo.cmake
+* /usr/lib/cmake/Qt6WebEngineWidgetsPrivate/Qt6WebEngineWidgetsPrivateConfig.cmake
+* /usr/lib/cmake/Qt6WebEngineWidgetsPrivate/Qt6WebEngineWidgetsPrivateConfigVersion.cmake
+* /usr/lib/cmake/Qt6WebEngineWidgetsPrivate/Qt6WebEngineWidgetsPrivateConfigVersionImpl.cmake
+* /usr/lib/cmake/Qt6WebEngineWidgetsPrivate/Qt6WebEngineWidgetsPrivateDependencies.cmake
+* /usr/lib/cmake/Qt6WebEngineWidgetsPrivate/Qt6WebEngineWidgetsPrivateTargets.cmake
+* /usr/lib/cmake/Qt6WebEngineWidgetsPrivate/Qt6WebEngineWidgetsPrivateVersionlessAliasTargets.cmake
+* /usr/lib/cmake/Qt6WebEngineWidgetsPrivate/Qt6WebEngineWidgetsPrivateVersionlessTargets.cmake
 * /usr/lib/libQt6Pdf.prl
 * /usr/lib/libQt6Pdf.so
 * /usr/lib/libQt6Pdf.so.6
-* /usr/lib/libQt6Pdf.so.6.8.3
+* /usr/lib/libQt6Pdf.so.6.9.0
 * /usr/lib/libQt6PdfQuick.prl
 * /usr/lib/libQt6PdfQuick.so
 * /usr/lib/libQt6PdfQuick.so.6
-* /usr/lib/libQt6PdfQuick.so.6.8.3
+* /usr/lib/libQt6PdfQuick.so.6.9.0
 * /usr/lib/libQt6PdfWidgets.prl
 * /usr/lib/libQt6PdfWidgets.so
 * /usr/lib/libQt6PdfWidgets.so.6
-* /usr/lib/libQt6PdfWidgets.so.6.8.3
+* /usr/lib/libQt6PdfWidgets.so.6.9.0
 * /usr/lib/libQt6WebEngineCore.prl
 * /usr/lib/libQt6WebEngineCore.so
 * /usr/lib/libQt6WebEngineCore.so.6
-* /usr/lib/libQt6WebEngineCore.so.6.8.3
+* /usr/lib/libQt6WebEngineCore.so.6.9.0
 * /usr/lib/libQt6WebEngineQuick.prl
 * /usr/lib/libQt6WebEngineQuick.so
 * /usr/lib/libQt6WebEngineQuick.so.6
-* /usr/lib/libQt6WebEngineQuick.so.6.8.3
+* /usr/lib/libQt6WebEngineQuick.so.6.9.0
 * /usr/lib/libQt6WebEngineQuickDelegatesQml.prl
 * /usr/lib/libQt6WebEngineQuickDelegatesQml.so
 * /usr/lib/libQt6WebEngineQuickDelegatesQml.so.6
-* /usr/lib/libQt6WebEngineQuickDelegatesQml.so.6.8.3
+* /usr/lib/libQt6WebEngineQuickDelegatesQml.so.6.9.0
 * /usr/lib/libQt6WebEngineWidgets.prl
 * /usr/lib/libQt6WebEngineWidgets.so
 * /usr/lib/libQt6WebEngineWidgets.so.6
-* /usr/lib/libQt6WebEngineWidgets.so.6.8.3
+* /usr/lib/libQt6WebEngineWidgets.so.6.9.0
 * /usr/lib/pkgconfig/Qt6Pdf.pc
 * /usr/lib/pkgconfig/Qt6PdfQuick.pc
 * /usr/lib/pkgconfig/Qt6PdfWidgets.pc
@@ -417,8 +479,8 @@ The Qt6 toolkit, qtwebengine
 * /usr/lib/qt6/qml/QtWebEngine/qmldir
 * /usr/lib/qt6/QtWebEngineProcess
 * /usr/lib/qt6/qwebengine_convert_dict
-* /usr/lib/qt6/sbom/qtpdf-6.8.3.spdx
-* /usr/lib/qt6/sbom/qtwebengine-6.8.3.spdx
+* /usr/lib/qt6/sbom/qtpdf-6.9.0.spdx
+* /usr/lib/qt6/sbom/qtwebengine-6.9.0.spdx
 * /usr/lib/qt6/webenginedriver
 * /usr/share/qt6/resources/qtwebengine_devtools_resources.pak
 * /usr/share/qt6/resources/qtwebengine_resources.pak

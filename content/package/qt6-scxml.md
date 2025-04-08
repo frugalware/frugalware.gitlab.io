@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qt6-scxml 6.8.3-1"
-version = "6.8.3-1"
+title = "qt6-scxml 6.9.0-1"
+version = "6.9.0-1"
 description = "The Qt6 toolkit, qtscxml"
-date = "2025-03-27T12:48:20"
+date = "2025-04-04T11:21:53"
 aliases = "/packages/220770"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "490372"
-usize = "2217945"
-sha1sum = "dcbffbdac1b8d05e45bd36de6eb8c11799e9d67f"
+size = "492096"
+usize = "2318670"
+sha1sum = "81f79f39ba056104e7c2c445b1991b6554bf0cb7"
 depends = "['qt6-declarative']"
 reverse_depends = "['digikam', 'konquest', 'virtualbox']"
 +++
@@ -18,18 +18,17 @@ reverse_depends = "['digikam', 'konquest', 'virtualbox']"
 The Qt6 toolkit, qtscxml
 
 ### Files: 
-* /usr/include/qt6/QtScxml/6.8.3/QtScxml/private/qscxmlcompiler_p.h
-* /usr/include/qt6/QtScxml/6.8.3/QtScxml/private/qscxmlcppdatamodel_p.h
-* /usr/include/qt6/QtScxml/6.8.3/QtScxml/private/qscxmldatamodelplugin_p.h
-* /usr/include/qt6/QtScxml/6.8.3/QtScxml/private/qscxmldatamodel_p.h
-* /usr/include/qt6/QtScxml/6.8.3/QtScxml/private/qscxmlevent_p.h
-* /usr/include/qt6/QtScxml/6.8.3/QtScxml/private/qscxmlexecutablecontent_p.h
-* /usr/include/qt6/QtScxml/6.8.3/QtScxml/private/qscxmlglobals_p.h
-* /usr/include/qt6/QtScxml/6.8.3/QtScxml/private/qscxmlinvokableservice_p.h
-* /usr/include/qt6/QtScxml/6.8.3/QtScxml/private/qscxmlstatemachineinfo_p.h
-* /usr/include/qt6/QtScxml/6.8.3/QtScxml/private/qscxmlstatemachine_p.h
-* /usr/include/qt6/QtScxml/6.8.3/QtScxml/private/qscxmltabledata_p.h
-* /usr/include/qt6/QtScxml/6.8.3/QtScxml/private/qtscxml-config_p.h
+* /usr/include/qt6/QtScxml/6.9.0/QtScxml/private/qscxmlcompiler_p.h
+* /usr/include/qt6/QtScxml/6.9.0/QtScxml/private/qscxmlcppdatamodel_p.h
+* /usr/include/qt6/QtScxml/6.9.0/QtScxml/private/qscxmldatamodelplugin_p.h
+* /usr/include/qt6/QtScxml/6.9.0/QtScxml/private/qscxmldatamodel_p.h
+* /usr/include/qt6/QtScxml/6.9.0/QtScxml/private/qscxmlevent_p.h
+* /usr/include/qt6/QtScxml/6.9.0/QtScxml/private/qscxmlexecutablecontent_p.h
+* /usr/include/qt6/QtScxml/6.9.0/QtScxml/private/qscxmlglobals_p.h
+* /usr/include/qt6/QtScxml/6.9.0/QtScxml/private/qscxmlinvokableservice_p.h
+* /usr/include/qt6/QtScxml/6.9.0/QtScxml/private/qscxmlstatemachineinfo_p.h
+* /usr/include/qt6/QtScxml/6.9.0/QtScxml/private/qscxmlstatemachine_p.h
+* /usr/include/qt6/QtScxml/6.9.0/QtScxml/private/qscxmltabledata_p.h
 * /usr/include/qt6/QtScxml/QScxmlCompiler
 * /usr/include/qt6/QtScxml/qscxmlcompiler.h
 * /usr/include/qt6/QtScxml/QScxmlCppDataModel
@@ -54,33 +53,38 @@ The Qt6 toolkit, qtscxml
 * /usr/include/qt6/QtScxml/QScxmlTableData
 * /usr/include/qt6/QtScxml/qscxmltabledata.h
 * /usr/include/qt6/QtScxml/QtScxml
-* /usr/include/qt6/QtScxml/qtscxml-config.h
 * /usr/include/qt6/QtScxml/QtScxmlDepends
 * /usr/include/qt6/QtScxml/qtscxmlexports.h
 * /usr/include/qt6/QtScxml/QtScxmlVersion
 * /usr/include/qt6/QtScxml/qtscxmlversion.h
-* /usr/include/qt6/QtScxmlQml/6.8.3/QtScxmlQml/private/eventconnection_p.h
-* /usr/include/qt6/QtScxmlQml/6.8.3/QtScxmlQml/private/invokedservices_p.h
-* /usr/include/qt6/QtScxmlQml/6.8.3/QtScxmlQml/private/qscxmlqmlglobals_p.h
-* /usr/include/qt6/QtScxmlQml/6.8.3/QtScxmlQml/private/statemachineextended_p.h
-* /usr/include/qt6/QtScxmlQml/6.8.3/QtScxmlQml/private/statemachineloader_p.h
+* /usr/include/qt6/QtScxmlGlobal/6.9.0/QtScxmlGlobal/private/qtscxmlglobal-config_p.h
+* /usr/include/qt6/QtScxmlGlobal/QtScxmlGlobal
+* /usr/include/qt6/QtScxmlGlobal/qtscxmlglobal-config.h
+* /usr/include/qt6/QtScxmlGlobal/QtScxmlGlobalDepends
+* /usr/include/qt6/QtScxmlGlobal/QtScxmlGlobalVersion
+* /usr/include/qt6/QtScxmlGlobal/qtscxmlglobalversion.h
+* /usr/include/qt6/QtScxmlQml/6.9.0/QtScxmlQml/private/eventconnection_p.h
+* /usr/include/qt6/QtScxmlQml/6.9.0/QtScxmlQml/private/invokedservices_p.h
+* /usr/include/qt6/QtScxmlQml/6.9.0/QtScxmlQml/private/qscxmlqmlglobals_p.h
+* /usr/include/qt6/QtScxmlQml/6.9.0/QtScxmlQml/private/statemachineextended_p.h
+* /usr/include/qt6/QtScxmlQml/6.9.0/QtScxmlQml/private/statemachineloader_p.h
 * /usr/include/qt6/QtScxmlQml/QtScxmlQml
 * /usr/include/qt6/QtScxmlQml/QtScxmlQmlDepends
 * /usr/include/qt6/QtScxmlQml/qtscxmlqmlexports.h
 * /usr/include/qt6/QtScxmlQml/QtScxmlQmlVersion
 * /usr/include/qt6/QtScxmlQml/qtscxmlqmlversion.h
-* /usr/include/qt6/QtStateMachine/6.8.3/QtStateMachine/private/qabstractstate_p.h
-* /usr/include/qt6/QtStateMachine/6.8.3/QtStateMachine/private/qabstracttransition_p.h
-* /usr/include/qt6/QtStateMachine/6.8.3/QtStateMachine/private/qbasickeyeventtransition_p.h
-* /usr/include/qt6/QtStateMachine/6.8.3/QtStateMachine/private/qbasicmouseeventtransition_p.h
-* /usr/include/qt6/QtStateMachine/6.8.3/QtStateMachine/private/qeventtransition_p.h
-* /usr/include/qt6/QtStateMachine/6.8.3/QtStateMachine/private/qfinalstate_p.h
-* /usr/include/qt6/QtStateMachine/6.8.3/QtStateMachine/private/qhistorystate_p.h
-* /usr/include/qt6/QtStateMachine/6.8.3/QtStateMachine/private/qsignaleventgenerator_p.h
-* /usr/include/qt6/QtStateMachine/6.8.3/QtStateMachine/private/qsignaltransition_p.h
-* /usr/include/qt6/QtStateMachine/6.8.3/QtStateMachine/private/qstatemachine_p.h
-* /usr/include/qt6/QtStateMachine/6.8.3/QtStateMachine/private/qstate_p.h
-* /usr/include/qt6/QtStateMachine/6.8.3/QtStateMachine/private/qtstatemachine-config_p.h
+* /usr/include/qt6/QtStateMachine/6.9.0/QtStateMachine/private/qabstractstate_p.h
+* /usr/include/qt6/QtStateMachine/6.9.0/QtStateMachine/private/qabstracttransition_p.h
+* /usr/include/qt6/QtStateMachine/6.9.0/QtStateMachine/private/qbasickeyeventtransition_p.h
+* /usr/include/qt6/QtStateMachine/6.9.0/QtStateMachine/private/qbasicmouseeventtransition_p.h
+* /usr/include/qt6/QtStateMachine/6.9.0/QtStateMachine/private/qeventtransition_p.h
+* /usr/include/qt6/QtStateMachine/6.9.0/QtStateMachine/private/qfinalstate_p.h
+* /usr/include/qt6/QtStateMachine/6.9.0/QtStateMachine/private/qhistorystate_p.h
+* /usr/include/qt6/QtStateMachine/6.9.0/QtStateMachine/private/qsignaleventgenerator_p.h
+* /usr/include/qt6/QtStateMachine/6.9.0/QtStateMachine/private/qsignaltransition_p.h
+* /usr/include/qt6/QtStateMachine/6.9.0/QtStateMachine/private/qstatemachineglobal_p.h
+* /usr/include/qt6/QtStateMachine/6.9.0/QtStateMachine/private/qstatemachine_p.h
+* /usr/include/qt6/QtStateMachine/6.9.0/QtStateMachine/private/qstate_p.h
 * /usr/include/qt6/QtStateMachine/QAbstractState
 * /usr/include/qt6/QtStateMachine/qabstractstate.h
 * /usr/include/qt6/QtStateMachine/QAbstractTransition
@@ -103,19 +107,18 @@ The Qt6 toolkit, qtscxml
 * /usr/include/qt6/QtStateMachine/qstatemachine.h
 * /usr/include/qt6/QtStateMachine/qstatemachineglobal.h
 * /usr/include/qt6/QtStateMachine/QtStateMachine
-* /usr/include/qt6/QtStateMachine/qtstatemachine-config.h
 * /usr/include/qt6/QtStateMachine/QtStateMachineDepends
 * /usr/include/qt6/QtStateMachine/qtstatemachineexports.h
 * /usr/include/qt6/QtStateMachine/QtStateMachineVersion
 * /usr/include/qt6/QtStateMachine/qtstatemachineversion.h
-* /usr/include/qt6/QtStateMachineQml/6.8.3/QtStateMachineQml/private/childrenprivate_p.h
-* /usr/include/qt6/QtStateMachineQml/6.8.3/QtStateMachineQml/private/finalstate_p.h
-* /usr/include/qt6/QtStateMachineQml/6.8.3/QtStateMachineQml/private/qstatemachineqmlglobals_p.h
-* /usr/include/qt6/QtStateMachineQml/6.8.3/QtStateMachineQml/private/signaltransition_p.h
-* /usr/include/qt6/QtStateMachineQml/6.8.3/QtStateMachineQml/private/statemachineforeign_p.h
-* /usr/include/qt6/QtStateMachineQml/6.8.3/QtStateMachineQml/private/statemachine_p.h
-* /usr/include/qt6/QtStateMachineQml/6.8.3/QtStateMachineQml/private/state_p.h
-* /usr/include/qt6/QtStateMachineQml/6.8.3/QtStateMachineQml/private/timeouttransition_p.h
+* /usr/include/qt6/QtStateMachineQml/6.9.0/QtStateMachineQml/private/childrenprivate_p.h
+* /usr/include/qt6/QtStateMachineQml/6.9.0/QtStateMachineQml/private/finalstate_p.h
+* /usr/include/qt6/QtStateMachineQml/6.9.0/QtStateMachineQml/private/qstatemachineqmlglobals_p.h
+* /usr/include/qt6/QtStateMachineQml/6.9.0/QtStateMachineQml/private/signaltransition_p.h
+* /usr/include/qt6/QtStateMachineQml/6.9.0/QtStateMachineQml/private/statemachineforeign_p.h
+* /usr/include/qt6/QtStateMachineQml/6.9.0/QtStateMachineQml/private/statemachine_p.h
+* /usr/include/qt6/QtStateMachineQml/6.9.0/QtStateMachineQml/private/state_p.h
+* /usr/include/qt6/QtStateMachineQml/6.9.0/QtStateMachineQml/private/timeouttransition_p.h
 * /usr/include/qt6/QtStateMachineQml/QtStateMachineQml
 * /usr/include/qt6/QtStateMachineQml/QtStateMachineQmlDepends
 * /usr/include/qt6/QtStateMachineQml/qtstatemachineqmlexports.h
@@ -151,6 +154,21 @@ The Qt6 toolkit, qtscxml
 * /usr/lib/cmake/Qt6Scxml/Qt6ScxmlTargets.cmake
 * /usr/lib/cmake/Qt6Scxml/Qt6ScxmlVersionlessAliasTargets.cmake
 * /usr/lib/cmake/Qt6Scxml/Qt6ScxmlVersionlessTargets.cmake
+* /usr/lib/cmake/Qt6ScxmlGlobalPrivate/Qt6ScxmlGlobalPrivateAdditionalTargetInfo.cmake
+* /usr/lib/cmake/Qt6ScxmlGlobalPrivate/Qt6ScxmlGlobalPrivateConfig.cmake
+* /usr/lib/cmake/Qt6ScxmlGlobalPrivate/Qt6ScxmlGlobalPrivateConfigVersion.cmake
+* /usr/lib/cmake/Qt6ScxmlGlobalPrivate/Qt6ScxmlGlobalPrivateConfigVersionImpl.cmake
+* /usr/lib/cmake/Qt6ScxmlGlobalPrivate/Qt6ScxmlGlobalPrivateTargets.cmake
+* /usr/lib/cmake/Qt6ScxmlGlobalPrivate/Qt6ScxmlGlobalPrivateVersionlessAliasTargets.cmake
+* /usr/lib/cmake/Qt6ScxmlGlobalPrivate/Qt6ScxmlGlobalPrivateVersionlessTargets.cmake
+* /usr/lib/cmake/Qt6ScxmlPrivate/Qt6ScxmlPrivateAdditionalTargetInfo.cmake
+* /usr/lib/cmake/Qt6ScxmlPrivate/Qt6ScxmlPrivateConfig.cmake
+* /usr/lib/cmake/Qt6ScxmlPrivate/Qt6ScxmlPrivateConfigVersion.cmake
+* /usr/lib/cmake/Qt6ScxmlPrivate/Qt6ScxmlPrivateConfigVersionImpl.cmake
+* /usr/lib/cmake/Qt6ScxmlPrivate/Qt6ScxmlPrivateDependencies.cmake
+* /usr/lib/cmake/Qt6ScxmlPrivate/Qt6ScxmlPrivateTargets.cmake
+* /usr/lib/cmake/Qt6ScxmlPrivate/Qt6ScxmlPrivateVersionlessAliasTargets.cmake
+* /usr/lib/cmake/Qt6ScxmlPrivate/Qt6ScxmlPrivateVersionlessTargets.cmake
 * /usr/lib/cmake/Qt6ScxmlQml/Qt6ScxmlQmlAdditionalTargetInfo.cmake
 * /usr/lib/cmake/Qt6ScxmlQml/Qt6ScxmlQmlConfig.cmake
 * /usr/lib/cmake/Qt6ScxmlQml/Qt6ScxmlQmlConfigVersion.cmake
@@ -160,6 +178,14 @@ The Qt6 toolkit, qtscxml
 * /usr/lib/cmake/Qt6ScxmlQml/Qt6ScxmlQmlTargets.cmake
 * /usr/lib/cmake/Qt6ScxmlQml/Qt6ScxmlQmlVersionlessAliasTargets.cmake
 * /usr/lib/cmake/Qt6ScxmlQml/Qt6ScxmlQmlVersionlessTargets.cmake
+* /usr/lib/cmake/Qt6ScxmlQmlPrivate/Qt6ScxmlQmlPrivateAdditionalTargetInfo.cmake
+* /usr/lib/cmake/Qt6ScxmlQmlPrivate/Qt6ScxmlQmlPrivateConfig.cmake
+* /usr/lib/cmake/Qt6ScxmlQmlPrivate/Qt6ScxmlQmlPrivateConfigVersion.cmake
+* /usr/lib/cmake/Qt6ScxmlQmlPrivate/Qt6ScxmlQmlPrivateConfigVersionImpl.cmake
+* /usr/lib/cmake/Qt6ScxmlQmlPrivate/Qt6ScxmlQmlPrivateDependencies.cmake
+* /usr/lib/cmake/Qt6ScxmlQmlPrivate/Qt6ScxmlQmlPrivateTargets.cmake
+* /usr/lib/cmake/Qt6ScxmlQmlPrivate/Qt6ScxmlQmlPrivateVersionlessAliasTargets.cmake
+* /usr/lib/cmake/Qt6ScxmlQmlPrivate/Qt6ScxmlQmlPrivateVersionlessTargets.cmake
 * /usr/lib/cmake/Qt6ScxmlTools/Qt6ScxmlToolsAdditionalTargetInfo.cmake
 * /usr/lib/cmake/Qt6ScxmlTools/Qt6ScxmlToolsConfig.cmake
 * /usr/lib/cmake/Qt6ScxmlTools/Qt6ScxmlToolsConfigVersion.cmake
@@ -177,6 +203,14 @@ The Qt6 toolkit, qtscxml
 * /usr/lib/cmake/Qt6StateMachine/Qt6StateMachineTargets.cmake
 * /usr/lib/cmake/Qt6StateMachine/Qt6StateMachineVersionlessAliasTargets.cmake
 * /usr/lib/cmake/Qt6StateMachine/Qt6StateMachineVersionlessTargets.cmake
+* /usr/lib/cmake/Qt6StateMachinePrivate/Qt6StateMachinePrivateAdditionalTargetInfo.cmake
+* /usr/lib/cmake/Qt6StateMachinePrivate/Qt6StateMachinePrivateConfig.cmake
+* /usr/lib/cmake/Qt6StateMachinePrivate/Qt6StateMachinePrivateConfigVersion.cmake
+* /usr/lib/cmake/Qt6StateMachinePrivate/Qt6StateMachinePrivateConfigVersionImpl.cmake
+* /usr/lib/cmake/Qt6StateMachinePrivate/Qt6StateMachinePrivateDependencies.cmake
+* /usr/lib/cmake/Qt6StateMachinePrivate/Qt6StateMachinePrivateTargets.cmake
+* /usr/lib/cmake/Qt6StateMachinePrivate/Qt6StateMachinePrivateVersionlessAliasTargets.cmake
+* /usr/lib/cmake/Qt6StateMachinePrivate/Qt6StateMachinePrivateVersionlessTargets.cmake
 * /usr/lib/cmake/Qt6StateMachineQml/Qt6StateMachineQmlAdditionalTargetInfo.cmake
 * /usr/lib/cmake/Qt6StateMachineQml/Qt6StateMachineQmlConfig.cmake
 * /usr/lib/cmake/Qt6StateMachineQml/Qt6StateMachineQmlConfigVersion.cmake
@@ -186,22 +220,30 @@ The Qt6 toolkit, qtscxml
 * /usr/lib/cmake/Qt6StateMachineQml/Qt6StateMachineQmlTargets.cmake
 * /usr/lib/cmake/Qt6StateMachineQml/Qt6StateMachineQmlVersionlessAliasTargets.cmake
 * /usr/lib/cmake/Qt6StateMachineQml/Qt6StateMachineQmlVersionlessTargets.cmake
+* /usr/lib/cmake/Qt6StateMachineQmlPrivate/Qt6StateMachineQmlPrivateAdditionalTargetInfo.cmake
+* /usr/lib/cmake/Qt6StateMachineQmlPrivate/Qt6StateMachineQmlPrivateConfig.cmake
+* /usr/lib/cmake/Qt6StateMachineQmlPrivate/Qt6StateMachineQmlPrivateConfigVersion.cmake
+* /usr/lib/cmake/Qt6StateMachineQmlPrivate/Qt6StateMachineQmlPrivateConfigVersionImpl.cmake
+* /usr/lib/cmake/Qt6StateMachineQmlPrivate/Qt6StateMachineQmlPrivateDependencies.cmake
+* /usr/lib/cmake/Qt6StateMachineQmlPrivate/Qt6StateMachineQmlPrivateTargets.cmake
+* /usr/lib/cmake/Qt6StateMachineQmlPrivate/Qt6StateMachineQmlPrivateVersionlessAliasTargets.cmake
+* /usr/lib/cmake/Qt6StateMachineQmlPrivate/Qt6StateMachineQmlPrivateVersionlessTargets.cmake
 * /usr/lib/libQt6Scxml.prl
 * /usr/lib/libQt6Scxml.so
 * /usr/lib/libQt6Scxml.so.6
-* /usr/lib/libQt6Scxml.so.6.8.3
+* /usr/lib/libQt6Scxml.so.6.9.0
 * /usr/lib/libQt6ScxmlQml.prl
 * /usr/lib/libQt6ScxmlQml.so
 * /usr/lib/libQt6ScxmlQml.so.6
-* /usr/lib/libQt6ScxmlQml.so.6.8.3
+* /usr/lib/libQt6ScxmlQml.so.6.9.0
 * /usr/lib/libQt6StateMachine.prl
 * /usr/lib/libQt6StateMachine.so
 * /usr/lib/libQt6StateMachine.so.6
-* /usr/lib/libQt6StateMachine.so.6.8.3
+* /usr/lib/libQt6StateMachine.so.6.9.0
 * /usr/lib/libQt6StateMachineQml.prl
 * /usr/lib/libQt6StateMachineQml.so
 * /usr/lib/libQt6StateMachineQml.so.6
-* /usr/lib/libQt6StateMachineQml.so.6.8.3
+* /usr/lib/libQt6StateMachineQml.so.6.9.0
 * /usr/lib/pkgconfig/Qt6Scxml.pc
 * /usr/lib/pkgconfig/Qt6ScxmlQml.pc
 * /usr/lib/pkgconfig/Qt6StateMachine.pc
@@ -212,6 +254,7 @@ The Qt6 toolkit, qtscxml
 * /usr/lib/qt6/metatypes/qt6statemachine_release_metatypes.json
 * /usr/lib/qt6/mkspecs/features/qscxmlc.prf
 * /usr/lib/qt6/mkspecs/modules/qt_lib_scxml.pri
+* /usr/lib/qt6/mkspecs/modules/qt_lib_scxmlglobal_private.pri
 * /usr/lib/qt6/mkspecs/modules/qt_lib_scxmlqml.pri
 * /usr/lib/qt6/mkspecs/modules/qt_lib_scxmlqml_private.pri
 * /usr/lib/qt6/mkspecs/modules/qt_lib_scxml_private.pri
@@ -220,6 +263,7 @@ The Qt6 toolkit, qtscxml
 * /usr/lib/qt6/mkspecs/modules/qt_lib_statemachineqml_private.pri
 * /usr/lib/qt6/mkspecs/modules/qt_lib_statemachine_private.pri
 * /usr/lib/qt6/modules/Scxml.json
+* /usr/lib/qt6/modules/ScxmlGlobalPrivate.json
 * /usr/lib/qt6/modules/ScxmlQml.json
 * /usr/lib/qt6/modules/StateMachine.json
 * /usr/lib/qt6/modules/StateMachineQml.json
@@ -231,4 +275,4 @@ The Qt6 toolkit, qtscxml
 * /usr/lib/qt6/qml/QtScxml/plugins.qmltypes
 * /usr/lib/qt6/qml/QtScxml/qmldir
 * /usr/lib/qt6/qscxmlc
-* /usr/lib/qt6/sbom/qtscxml-6.8.3.spdx
+* /usr/lib/qt6/sbom/qtscxml-6.9.0.spdx

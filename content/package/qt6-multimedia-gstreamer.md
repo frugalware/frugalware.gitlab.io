@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qt6-multimedia-gstreamer 6.8.3-1"
-version = "6.8.3-1"
+title = "qt6-multimedia-gstreamer 6.9.0-1"
+version = "6.9.0-1"
 description = "The Qt6 toolkit, qtmultimedia Gestreamer plugin"
-date = "2025-03-27T15:23:14"
+date = "2025-04-05T11:14:42"
 aliases = "/packages/222534"
 categories = ['xlib-extra']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "173268"
-usize = "626102"
-sha1sum = "ec1bc4cf3d37c752ba9734691307f613817c127e"
+size = "173512"
+usize = "628278"
+sha1sum = "8c9261624dff60656fe0b78830e03c213df9c1fe"
 depends = "['gst1-plugins-bad', 'gst1-plugins-base']"
 reverse_depends = "['audiotube']"
 +++
@@ -18,37 +18,37 @@ reverse_depends = "['audiotube']"
 The Qt6 toolkit, qtmultimedia Gestreamer plugin
 
 ### Files: 
-* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.8.3/QtGstreamerMediaPluginImpl/private/qglist_helper_p.h
-* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.8.3/QtGstreamerMediaPluginImpl/private/qgstpipeline_p.h
-* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.8.3/QtGstreamerMediaPluginImpl/private/qgstreameraudiodecoder_p.h
-* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.8.3/QtGstreamerMediaPluginImpl/private/qgstreameraudiodevice_p.h
-* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.8.3/QtGstreamerMediaPluginImpl/private/qgstreameraudioinput_p.h
-* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.8.3/QtGstreamerMediaPluginImpl/private/qgstreameraudiooutput_p.h
-* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.8.3/QtGstreamerMediaPluginImpl/private/qgstreamerbufferprobe_p.h
-* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.8.3/QtGstreamerMediaPluginImpl/private/qgstreamercamera_p.h
-* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.8.3/QtGstreamerMediaPluginImpl/private/qgstreamerformatinfo_p.h
-* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.8.3/QtGstreamerMediaPluginImpl/private/qgstreamerimagecapture_p.h
-* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.8.3/QtGstreamerMediaPluginImpl/private/qgstreamerintegration_p.h
-* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.8.3/QtGstreamerMediaPluginImpl/private/qgstreamermediacapturesession_p.h
-* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.8.3/QtGstreamerMediaPluginImpl/private/qgstreamermediaplayer_p.h
-* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.8.3/QtGstreamerMediaPluginImpl/private/qgstreamermediarecorder_p.h
-* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.8.3/QtGstreamerMediaPluginImpl/private/qgstreamermessage_p.h
-* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.8.3/QtGstreamerMediaPluginImpl/private/qgstreamermetadata_p.h
-* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.8.3/QtGstreamerMediaPluginImpl/private/qgstreamervideodevices_p.h
-* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.8.3/QtGstreamerMediaPluginImpl/private/qgstreamervideooutput_p.h
-* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.8.3/QtGstreamerMediaPluginImpl/private/qgstreamervideosink_p.h
-* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.8.3/QtGstreamerMediaPluginImpl/private/qgstreamer_qiodevice_handler_p.h
-* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.8.3/QtGstreamerMediaPluginImpl/private/qgstreamer_qrc_handler_p.h
-* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.8.3/QtGstreamerMediaPluginImpl/private/qgstsubtitlesink_p.h
-* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.8.3/QtGstreamerMediaPluginImpl/private/qgstutils_p.h
-* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.8.3/QtGstreamerMediaPluginImpl/private/qgstvideobuffer_p.h
-* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.8.3/QtGstreamerMediaPluginImpl/private/qgstvideorenderersink_p.h
-* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.8.3/QtGstreamerMediaPluginImpl/private/qgst_bus_observer_p.h
-* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.8.3/QtGstreamerMediaPluginImpl/private/qgst_debug_p.h
-* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.8.3/QtGstreamerMediaPluginImpl/private/qgst_discoverer_p.h
-* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.8.3/QtGstreamerMediaPluginImpl/private/qgst_handle_types_p.h
-* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.8.3/QtGstreamerMediaPluginImpl/private/qgst_p.h
-* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.8.3/QtGstreamerMediaPluginImpl/private/qgst_play_p.h
+* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.9.0/QtGstreamerMediaPluginImpl/private/qglist_helper_p.h
+* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.9.0/QtGstreamerMediaPluginImpl/private/qgstpipeline_p.h
+* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.9.0/QtGstreamerMediaPluginImpl/private/qgstreameraudiodecoder_p.h
+* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.9.0/QtGstreamerMediaPluginImpl/private/qgstreameraudiodevice_p.h
+* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.9.0/QtGstreamerMediaPluginImpl/private/qgstreameraudioinput_p.h
+* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.9.0/QtGstreamerMediaPluginImpl/private/qgstreameraudiooutput_p.h
+* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.9.0/QtGstreamerMediaPluginImpl/private/qgstreamerbufferprobe_p.h
+* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.9.0/QtGstreamerMediaPluginImpl/private/qgstreamercamera_p.h
+* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.9.0/QtGstreamerMediaPluginImpl/private/qgstreamerformatinfo_p.h
+* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.9.0/QtGstreamerMediaPluginImpl/private/qgstreamerimagecapture_p.h
+* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.9.0/QtGstreamerMediaPluginImpl/private/qgstreamerintegration_p.h
+* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.9.0/QtGstreamerMediaPluginImpl/private/qgstreamermediacapturesession_p.h
+* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.9.0/QtGstreamerMediaPluginImpl/private/qgstreamermediaplayer_p.h
+* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.9.0/QtGstreamerMediaPluginImpl/private/qgstreamermediarecorder_p.h
+* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.9.0/QtGstreamerMediaPluginImpl/private/qgstreamermessage_p.h
+* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.9.0/QtGstreamerMediaPluginImpl/private/qgstreamermetadata_p.h
+* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.9.0/QtGstreamerMediaPluginImpl/private/qgstreamervideodevices_p.h
+* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.9.0/QtGstreamerMediaPluginImpl/private/qgstreamervideooutput_p.h
+* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.9.0/QtGstreamerMediaPluginImpl/private/qgstreamervideosink_p.h
+* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.9.0/QtGstreamerMediaPluginImpl/private/qgstreamer_qiodevice_handler_p.h
+* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.9.0/QtGstreamerMediaPluginImpl/private/qgstreamer_qrc_handler_p.h
+* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.9.0/QtGstreamerMediaPluginImpl/private/qgstsubtitlesink_p.h
+* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.9.0/QtGstreamerMediaPluginImpl/private/qgstutils_p.h
+* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.9.0/QtGstreamerMediaPluginImpl/private/qgstvideobuffer_p.h
+* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.9.0/QtGstreamerMediaPluginImpl/private/qgstvideorenderersink_p.h
+* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.9.0/QtGstreamerMediaPluginImpl/private/qgst_bus_observer_p.h
+* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.9.0/QtGstreamerMediaPluginImpl/private/qgst_debug_p.h
+* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.9.0/QtGstreamerMediaPluginImpl/private/qgst_discoverer_p.h
+* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.9.0/QtGstreamerMediaPluginImpl/private/qgst_handle_types_p.h
+* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.9.0/QtGstreamerMediaPluginImpl/private/qgst_p.h
+* /usr/include/qt6/QtGstreamerMediaPluginImpl/6.9.0/QtGstreamerMediaPluginImpl/private/qgst_play_p.h
 * /usr/include/qt6/QtGstreamerMediaPluginImpl/QtGstreamerMediaPluginImpl
 * /usr/include/qt6/QtGstreamerMediaPluginImpl/QtGstreamerMediaPluginImplDepends
 * /usr/include/qt6/QtGstreamerMediaPluginImpl/QtGstreamerMediaPluginImplVersion

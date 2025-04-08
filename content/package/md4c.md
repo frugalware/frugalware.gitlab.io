@@ -12,7 +12,7 @@ size = "67908"
 usize = "251898"
 sha1sum = "f60fa07f692328542ce9fa43dec9253b07d2383e"
 depends = "['glibc']"
-reverse_depends = "['qt5-base', 'qt6-base']"
+reverse_depends = "['qt5-base', 'qt6-base', 'stellarium']"
 +++
 ### Description: 
 C Markdown parser

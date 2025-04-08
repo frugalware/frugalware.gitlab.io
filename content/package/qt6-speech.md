@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qt6-speech 6.8.3-1"
-version = "6.8.3-1"
+title = "qt6-speech 6.9.0-1"
+version = "6.9.0-1"
 description = "The Qt6 toolkit, qtspeech"
-date = "2025-03-27T15:24:24"
+date = "2025-04-05T11:15:30"
 aliases = "/packages/220803"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "95032"
-usize = "440747"
-sha1sum = "f4ef2d8bc74162e39bfc6e73a9c3ff5205e9bdba"
+size = "96276"
+usize = "463593"
+sha1sum = "bc09504039b30cbbd7ea6de3fee71691c5a95343"
 depends = "['qt6-declarative', 'qt6-multimedia', 'speech-dispatcher']"
 reverse_depends = "['kmouth', 'knotifications', 'konqueror', 'kpimtextedit', 'ktextaddons', 'ktextwidgets', 'okular']"
 +++
@@ -18,9 +18,9 @@ reverse_depends = "['kmouth', 'knotifications', 'konqueror', 'kpimtextedit', 'kt
 The Qt6 toolkit, qtspeech
 
 ### Files: 
-* /usr/include/qt6/QtTextToSpeech/6.8.3/QtTextToSpeech/private/qtexttospeech_p.h
-* /usr/include/qt6/QtTextToSpeech/6.8.3/QtTextToSpeech/private/qttexttospeech-config_p.h
-* /usr/include/qt6/QtTextToSpeech/6.8.3/QtTextToSpeech/private/qvoice_p.h
+* /usr/include/qt6/QtTextToSpeech/6.9.0/QtTextToSpeech/private/qtexttospeech_p.h
+* /usr/include/qt6/QtTextToSpeech/6.9.0/QtTextToSpeech/private/qttexttospeech-config_p.h
+* /usr/include/qt6/QtTextToSpeech/6.9.0/QtTextToSpeech/private/qvoice_p.h
 * /usr/include/qt6/QtTextToSpeech/QTextToSpeech
 * /usr/include/qt6/QtTextToSpeech/qtexttospeech.h
 * /usr/include/qt6/QtTextToSpeech/QTextToSpeechEngine
@@ -66,10 +66,18 @@ The Qt6 toolkit, qtspeech
 * /usr/lib/cmake/Qt6TextToSpeech/Qt6TextToSpeechTargets.cmake
 * /usr/lib/cmake/Qt6TextToSpeech/Qt6TextToSpeechVersionlessAliasTargets.cmake
 * /usr/lib/cmake/Qt6TextToSpeech/Qt6TextToSpeechVersionlessTargets.cmake
+* /usr/lib/cmake/Qt6TextToSpeechPrivate/Qt6TextToSpeechPrivateAdditionalTargetInfo.cmake
+* /usr/lib/cmake/Qt6TextToSpeechPrivate/Qt6TextToSpeechPrivateConfig.cmake
+* /usr/lib/cmake/Qt6TextToSpeechPrivate/Qt6TextToSpeechPrivateConfigVersion.cmake
+* /usr/lib/cmake/Qt6TextToSpeechPrivate/Qt6TextToSpeechPrivateConfigVersionImpl.cmake
+* /usr/lib/cmake/Qt6TextToSpeechPrivate/Qt6TextToSpeechPrivateDependencies.cmake
+* /usr/lib/cmake/Qt6TextToSpeechPrivate/Qt6TextToSpeechPrivateTargets.cmake
+* /usr/lib/cmake/Qt6TextToSpeechPrivate/Qt6TextToSpeechPrivateVersionlessAliasTargets.cmake
+* /usr/lib/cmake/Qt6TextToSpeechPrivate/Qt6TextToSpeechPrivateVersionlessTargets.cmake
 * /usr/lib/libQt6TextToSpeech.prl
 * /usr/lib/libQt6TextToSpeech.so
 * /usr/lib/libQt6TextToSpeech.so.6
-* /usr/lib/libQt6TextToSpeech.so.6.8.3
+* /usr/lib/libQt6TextToSpeech.so.6.9.0
 * /usr/lib/pkgconfig/Qt6TextToSpeech.pc
 * /usr/lib/qt6/metatypes/qt6texttospeech_release_metatypes.json
 * /usr/lib/qt6/mkspecs/modules/qt_lib_texttospeech.pri
@@ -80,4 +88,4 @@ The Qt6 toolkit, qtspeech
 * /usr/lib/qt6/qml/QtTextToSpeech/libtexttospeechqmlplugin.so
 * /usr/lib/qt6/qml/QtTextToSpeech/plugins.qmltypes
 * /usr/lib/qt6/qml/QtTextToSpeech/qmldir
-* /usr/lib/qt6/sbom/qtspeech-6.8.3.spdx
+* /usr/lib/qt6/sbom/qtspeech-6.9.0.spdx

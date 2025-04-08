@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qt6-languageserver 6.8.3-1"
-version = "6.8.3-1"
+title = "qt6-languageserver 6.9.0-1"
+version = "6.9.0-1"
 description = "The Qt6 toolkit, qtlanguageserver"
-date = "2025-03-27T12:29:29"
+date = "2025-04-04T11:02:01"
 aliases = "/packages/220758"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "38336"
-usize = "341127"
-sha1sum = "49d14bf7da9c6e6fae276e9d8fc34daaf2255529"
+size = "38908"
+usize = "346270"
+sha1sum = "13ed964a7706658f489809911d770862073ff162"
 depends = "['qt6-base']"
 reverse_depends = "['qt6-declarative']"
 +++
@@ -18,27 +18,27 @@ reverse_depends = "['qt6-declarative']"
 The Qt6 toolkit, qtlanguageserver
 
 ### Files: 
-* /usr/include/qt6/QtJsonRpc/6.8.3/QtJsonRpc/private/qhttpmessagestreamparser_p.h
-* /usr/include/qt6/QtJsonRpc/6.8.3/QtJsonRpc/private/qjsonrpcprotocol_p.h
-* /usr/include/qt6/QtJsonRpc/6.8.3/QtJsonRpc/private/qjsonrpcprotocol_p_p.h
-* /usr/include/qt6/QtJsonRpc/6.8.3/QtJsonRpc/private/qjsonrpctransport_p.h
-* /usr/include/qt6/QtJsonRpc/6.8.3/QtJsonRpc/private/qjsontypedrpc_p.h
-* /usr/include/qt6/QtJsonRpc/6.8.3/QtJsonRpc/private/qtypedjson_p.h
+* /usr/include/qt6/QtJsonRpc/6.9.0/QtJsonRpc/private/qhttpmessagestreamparser_p.h
+* /usr/include/qt6/QtJsonRpc/6.9.0/QtJsonRpc/private/qjsonrpcprotocol_p.h
+* /usr/include/qt6/QtJsonRpc/6.9.0/QtJsonRpc/private/qjsonrpcprotocol_p_p.h
+* /usr/include/qt6/QtJsonRpc/6.9.0/QtJsonRpc/private/qjsonrpctransport_p.h
+* /usr/include/qt6/QtJsonRpc/6.9.0/QtJsonRpc/private/qjsontypedrpc_p.h
+* /usr/include/qt6/QtJsonRpc/6.9.0/QtJsonRpc/private/qtypedjson_p.h
 * /usr/include/qt6/QtJsonRpc/QtJsonRpc
 * /usr/include/qt6/QtJsonRpc/QtJsonRpcDepends
 * /usr/include/qt6/QtJsonRpc/qtjsonrpcglobal.h
 * /usr/include/qt6/QtJsonRpc/QtJsonRpcVersion
 * /usr/include/qt6/QtJsonRpc/qtjsonrpcversion.h
-* /usr/include/qt6/QtLanguageServer/6.8.3/QtLanguageServer/private/qlanguageserverbase_p.h
-* /usr/include/qt6/QtLanguageServer/6.8.3/QtLanguageServer/private/qlanguageserverbase_p_p.h
-* /usr/include/qt6/QtLanguageServer/6.8.3/QtLanguageServer/private/qlanguageservergen_p.h
-* /usr/include/qt6/QtLanguageServer/6.8.3/QtLanguageServer/private/qlanguageservergen_p_p.h
-* /usr/include/qt6/QtLanguageServer/6.8.3/QtLanguageServer/private/qlanguageserverjsonrpctransport_p.h
-* /usr/include/qt6/QtLanguageServer/6.8.3/QtLanguageServer/private/qlanguageserverprespectypes_p.h
-* /usr/include/qt6/QtLanguageServer/6.8.3/QtLanguageServer/private/qlanguageserverprotocol_p.h
-* /usr/include/qt6/QtLanguageServer/6.8.3/QtLanguageServer/private/qlanguageserverspectypes_p.h
-* /usr/include/qt6/QtLanguageServer/6.8.3/QtLanguageServer/private/qlanguageserverspec_p.h
-* /usr/include/qt6/QtLanguageServer/6.8.3/QtLanguageServer/private/qlspnotifysignals_p.h
+* /usr/include/qt6/QtLanguageServer/6.9.0/QtLanguageServer/private/qlanguageserverbase_p.h
+* /usr/include/qt6/QtLanguageServer/6.9.0/QtLanguageServer/private/qlanguageserverbase_p_p.h
+* /usr/include/qt6/QtLanguageServer/6.9.0/QtLanguageServer/private/qlanguageservergen_p.h
+* /usr/include/qt6/QtLanguageServer/6.9.0/QtLanguageServer/private/qlanguageservergen_p_p.h
+* /usr/include/qt6/QtLanguageServer/6.9.0/QtLanguageServer/private/qlanguageserverjsonrpctransport_p.h
+* /usr/include/qt6/QtLanguageServer/6.9.0/QtLanguageServer/private/qlanguageserverprespectypes_p.h
+* /usr/include/qt6/QtLanguageServer/6.9.0/QtLanguageServer/private/qlanguageserverprotocol_p.h
+* /usr/include/qt6/QtLanguageServer/6.9.0/QtLanguageServer/private/qlanguageserverspectypes_p.h
+* /usr/include/qt6/QtLanguageServer/6.9.0/QtLanguageServer/private/qlanguageserverspec_p.h
+* /usr/include/qt6/QtLanguageServer/6.9.0/QtLanguageServer/private/qlspnotifysignals_p.h
 * /usr/include/qt6/QtLanguageServer/QtLanguageServer
 * /usr/include/qt6/QtLanguageServer/QtLanguageServerDepends
 * /usr/include/qt6/QtLanguageServer/qtlanguageserverglobal.h
@@ -71,4 +71,4 @@ The Qt6 toolkit, qtlanguageserver
 * /usr/lib/qt6/mkspecs/modules/qt_lib_languageserver_private.pri
 * /usr/lib/qt6/modules/JsonRpcPrivate.json
 * /usr/lib/qt6/modules/LanguageServerPrivate.json
-* /usr/lib/qt6/sbom/qtlanguageserver-6.8.3.spdx
+* /usr/lib/qt6/sbom/qtlanguageserver-6.9.0.spdx

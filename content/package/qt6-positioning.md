@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qt6-positioning 6.8.3-1"
-version = "6.8.3-1"
+title = "qt6-positioning 6.9.0-1"
+version = "6.9.0-1"
 description = "The Qt6 toolkit, qtpositioning"
-date = "2025-03-27T12:53:56"
+date = "2025-04-04T11:27:54"
 aliases = "/packages/220790"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "344568"
-usize = "1768575"
-sha1sum = "f2fbe7442eebd7d779c0343fb5a483aead5e5b40"
+size = "346600"
+usize = "1813819"
+sha1sum = "9c1de73c4dfb6ea30d3203587d3ae8c8d3f6a3f8"
 depends = "['qt6-declarative', 'qt6-serialport']"
 reverse_depends = "['itinerary', 'qt6-location', 'qt6-webengine', 'yin-yang']"
 +++
@@ -18,29 +18,29 @@ reverse_depends = "['itinerary', 'qt6-location', 'qt6-webengine', 'yin-yang']"
 The Qt6 toolkit, qtpositioning
 
 ### Files: 
-* /usr/include/qt6/QtPositioning/6.8.3/QtPositioning/private/qclipperutils_p.h
-* /usr/include/qt6/QtPositioning/6.8.3/QtPositioning/private/qdoublematrix4x4_p.h
-* /usr/include/qt6/QtPositioning/6.8.3/QtPositioning/private/qdoublevector2d_p.h
-* /usr/include/qt6/QtPositioning/6.8.3/QtPositioning/private/qdoublevector3d_p.h
-* /usr/include/qt6/QtPositioning/6.8.3/QtPositioning/private/qgeoaddress_p.h
-* /usr/include/qt6/QtPositioning/6.8.3/QtPositioning/private/qgeocircle_p.h
-* /usr/include/qt6/QtPositioning/6.8.3/QtPositioning/private/qgeocoordinateobject_p.h
-* /usr/include/qt6/QtPositioning/6.8.3/QtPositioning/private/qgeocoordinate_p.h
-* /usr/include/qt6/QtPositioning/6.8.3/QtPositioning/private/qgeolocation_p.h
-* /usr/include/qt6/QtPositioning/6.8.3/QtPositioning/private/qgeopath_p.h
-* /usr/include/qt6/QtPositioning/6.8.3/QtPositioning/private/qgeopolygon_p.h
-* /usr/include/qt6/QtPositioning/6.8.3/QtPositioning/private/qgeopositioninfosource_p.h
-* /usr/include/qt6/QtPositioning/6.8.3/QtPositioning/private/qgeopositioninfo_p.h
-* /usr/include/qt6/QtPositioning/6.8.3/QtPositioning/private/qgeorectangle_p.h
-* /usr/include/qt6/QtPositioning/6.8.3/QtPositioning/private/qgeosatelliteinfosource_p.h
-* /usr/include/qt6/QtPositioning/6.8.3/QtPositioning/private/qgeosatelliteinfo_p.h
-* /usr/include/qt6/QtPositioning/6.8.3/QtPositioning/private/qgeoshape_p.h
-* /usr/include/qt6/QtPositioning/6.8.3/QtPositioning/private/qlocationutils_p.h
-* /usr/include/qt6/QtPositioning/6.8.3/QtPositioning/private/qnmeapositioninfosource_p.h
-* /usr/include/qt6/QtPositioning/6.8.3/QtPositioning/private/qnmeasatelliteinfosource_p.h
-* /usr/include/qt6/QtPositioning/6.8.3/QtPositioning/private/qpositioningglobal_p.h
-* /usr/include/qt6/QtPositioning/6.8.3/QtPositioning/private/qtpositioning-config_p.h
-* /usr/include/qt6/QtPositioning/6.8.3/QtPositioning/private/qwebmercator_p.h
+* /usr/include/qt6/QtPositioning/6.9.0/QtPositioning/private/qclipperutils_p.h
+* /usr/include/qt6/QtPositioning/6.9.0/QtPositioning/private/qdoublematrix4x4_p.h
+* /usr/include/qt6/QtPositioning/6.9.0/QtPositioning/private/qdoublevector2d_p.h
+* /usr/include/qt6/QtPositioning/6.9.0/QtPositioning/private/qdoublevector3d_p.h
+* /usr/include/qt6/QtPositioning/6.9.0/QtPositioning/private/qgeoaddress_p.h
+* /usr/include/qt6/QtPositioning/6.9.0/QtPositioning/private/qgeocircle_p.h
+* /usr/include/qt6/QtPositioning/6.9.0/QtPositioning/private/qgeocoordinateobject_p.h
+* /usr/include/qt6/QtPositioning/6.9.0/QtPositioning/private/qgeocoordinate_p.h
+* /usr/include/qt6/QtPositioning/6.9.0/QtPositioning/private/qgeolocation_p.h
+* /usr/include/qt6/QtPositioning/6.9.0/QtPositioning/private/qgeopath_p.h
+* /usr/include/qt6/QtPositioning/6.9.0/QtPositioning/private/qgeopolygon_p.h
+* /usr/include/qt6/QtPositioning/6.9.0/QtPositioning/private/qgeopositioninfosource_p.h
+* /usr/include/qt6/QtPositioning/6.9.0/QtPositioning/private/qgeopositioninfo_p.h
+* /usr/include/qt6/QtPositioning/6.9.0/QtPositioning/private/qgeorectangle_p.h
+* /usr/include/qt6/QtPositioning/6.9.0/QtPositioning/private/qgeosatelliteinfosource_p.h
+* /usr/include/qt6/QtPositioning/6.9.0/QtPositioning/private/qgeosatelliteinfo_p.h
+* /usr/include/qt6/QtPositioning/6.9.0/QtPositioning/private/qgeoshape_p.h
+* /usr/include/qt6/QtPositioning/6.9.0/QtPositioning/private/qlocationutils_p.h
+* /usr/include/qt6/QtPositioning/6.9.0/QtPositioning/private/qnmeapositioninfosource_p.h
+* /usr/include/qt6/QtPositioning/6.9.0/QtPositioning/private/qnmeasatelliteinfosource_p.h
+* /usr/include/qt6/QtPositioning/6.9.0/QtPositioning/private/qpositioningglobal_p.h
+* /usr/include/qt6/QtPositioning/6.9.0/QtPositioning/private/qtpositioning-config_p.h
+* /usr/include/qt6/QtPositioning/6.9.0/QtPositioning/private/qwebmercator_p.h
 * /usr/include/qt6/QtPositioning/QGeoAddress
 * /usr/include/qt6/QtPositioning/qgeoaddress.h
 * /usr/include/qt6/QtPositioning/QGeoAreaMonitorInfo
@@ -82,17 +82,17 @@ The Qt6 toolkit, qtpositioning
 * /usr/include/qt6/QtPositioning/qtpositioningexports.h
 * /usr/include/qt6/QtPositioning/QtPositioningVersion
 * /usr/include/qt6/QtPositioning/qtpositioningversion.h
-* /usr/include/qt6/QtPositioningQuick/6.8.3/QtPositioningQuick/private/locationsingleton_p.h
-* /usr/include/qt6/QtPositioningQuick/6.8.3/QtPositioningQuick/private/qdeclarativegeoaddress_p.h
-* /usr/include/qt6/QtPositioningQuick/6.8.3/QtPositioningQuick/private/qdeclarativegeolocation_p.h
-* /usr/include/qt6/QtPositioningQuick/6.8.3/QtPositioningQuick/private/qdeclarativepluginparameter_p.h
-* /usr/include/qt6/QtPositioningQuick/6.8.3/QtPositioningQuick/private/qdeclarativepositionsource_p.h
-* /usr/include/qt6/QtPositioningQuick/6.8.3/QtPositioningQuick/private/qdeclarativeposition_p.h
-* /usr/include/qt6/QtPositioningQuick/6.8.3/QtPositioningQuick/private/qdeclarativesatellitesource_p.h
-* /usr/include/qt6/QtPositioningQuick/6.8.3/QtPositioningQuick/private/qpositioningquickglobal_p.h
-* /usr/include/qt6/QtPositioningQuick/6.8.3/QtPositioningQuick/private/qpositioningquickmodule_p.h
-* /usr/include/qt6/QtPositioningQuick/6.8.3/QtPositioningQuick/private/qquickgeocoordinateanimation_p.h
-* /usr/include/qt6/QtPositioningQuick/6.8.3/QtPositioningQuick/private/qquickgeocoordinateanimation_p_p.h
+* /usr/include/qt6/QtPositioningQuick/6.9.0/QtPositioningQuick/private/locationsingleton_p.h
+* /usr/include/qt6/QtPositioningQuick/6.9.0/QtPositioningQuick/private/qdeclarativegeoaddress_p.h
+* /usr/include/qt6/QtPositioningQuick/6.9.0/QtPositioningQuick/private/qdeclarativegeolocation_p.h
+* /usr/include/qt6/QtPositioningQuick/6.9.0/QtPositioningQuick/private/qdeclarativepluginparameter_p.h
+* /usr/include/qt6/QtPositioningQuick/6.9.0/QtPositioningQuick/private/qdeclarativepositionsource_p.h
+* /usr/include/qt6/QtPositioningQuick/6.9.0/QtPositioningQuick/private/qdeclarativeposition_p.h
+* /usr/include/qt6/QtPositioningQuick/6.9.0/QtPositioningQuick/private/qdeclarativesatellitesource_p.h
+* /usr/include/qt6/QtPositioningQuick/6.9.0/QtPositioningQuick/private/qpositioningquickglobal_p.h
+* /usr/include/qt6/QtPositioningQuick/6.9.0/QtPositioningQuick/private/qpositioningquickmodule_p.h
+* /usr/include/qt6/QtPositioningQuick/6.9.0/QtPositioningQuick/private/qquickgeocoordinateanimation_p.h
+* /usr/include/qt6/QtPositioningQuick/6.9.0/QtPositioningQuick/private/qquickgeocoordinateanimation_p_p.h
 * /usr/include/qt6/QtPositioningQuick/qpositioningquickglobal.h
 * /usr/include/qt6/QtPositioningQuick/QtPositioningQuick
 * /usr/include/qt6/QtPositioningQuick/QtPositioningQuickDepends
@@ -131,6 +131,14 @@ The Qt6 toolkit, qtpositioning
 * /usr/lib/cmake/Qt6Positioning/Qt6QGeoPositionInfoSourceFactoryPollPluginConfigVersionImpl.cmake
 * /usr/lib/cmake/Qt6Positioning/Qt6QGeoPositionInfoSourceFactoryPollPluginTargets-release.cmake
 * /usr/lib/cmake/Qt6Positioning/Qt6QGeoPositionInfoSourceFactoryPollPluginTargets.cmake
+* /usr/lib/cmake/Qt6PositioningPrivate/Qt6PositioningPrivateAdditionalTargetInfo.cmake
+* /usr/lib/cmake/Qt6PositioningPrivate/Qt6PositioningPrivateConfig.cmake
+* /usr/lib/cmake/Qt6PositioningPrivate/Qt6PositioningPrivateConfigVersion.cmake
+* /usr/lib/cmake/Qt6PositioningPrivate/Qt6PositioningPrivateConfigVersionImpl.cmake
+* /usr/lib/cmake/Qt6PositioningPrivate/Qt6PositioningPrivateDependencies.cmake
+* /usr/lib/cmake/Qt6PositioningPrivate/Qt6PositioningPrivateTargets.cmake
+* /usr/lib/cmake/Qt6PositioningPrivate/Qt6PositioningPrivateVersionlessAliasTargets.cmake
+* /usr/lib/cmake/Qt6PositioningPrivate/Qt6PositioningPrivateVersionlessTargets.cmake
 * /usr/lib/cmake/Qt6PositioningQuick/Qt6PositioningQuickAdditionalTargetInfo.cmake
 * /usr/lib/cmake/Qt6PositioningQuick/Qt6PositioningQuickConfig.cmake
 * /usr/lib/cmake/Qt6PositioningQuick/Qt6PositioningQuickConfigVersion.cmake
@@ -140,6 +148,14 @@ The Qt6 toolkit, qtpositioning
 * /usr/lib/cmake/Qt6PositioningQuick/Qt6PositioningQuickTargets.cmake
 * /usr/lib/cmake/Qt6PositioningQuick/Qt6PositioningQuickVersionlessAliasTargets.cmake
 * /usr/lib/cmake/Qt6PositioningQuick/Qt6PositioningQuickVersionlessTargets.cmake
+* /usr/lib/cmake/Qt6PositioningQuickPrivate/Qt6PositioningQuickPrivateAdditionalTargetInfo.cmake
+* /usr/lib/cmake/Qt6PositioningQuickPrivate/Qt6PositioningQuickPrivateConfig.cmake
+* /usr/lib/cmake/Qt6PositioningQuickPrivate/Qt6PositioningQuickPrivateConfigVersion.cmake
+* /usr/lib/cmake/Qt6PositioningQuickPrivate/Qt6PositioningQuickPrivateConfigVersionImpl.cmake
+* /usr/lib/cmake/Qt6PositioningQuickPrivate/Qt6PositioningQuickPrivateDependencies.cmake
+* /usr/lib/cmake/Qt6PositioningQuickPrivate/Qt6PositioningQuickPrivateTargets.cmake
+* /usr/lib/cmake/Qt6PositioningQuickPrivate/Qt6PositioningQuickPrivateVersionlessAliasTargets.cmake
+* /usr/lib/cmake/Qt6PositioningQuickPrivate/Qt6PositioningQuickPrivateVersionlessTargets.cmake
 * /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6positioningquickpluginAdditionalTargetInfo.cmake
 * /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6positioningquickpluginConfig.cmake
 * /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6positioningquickpluginConfigVersion.cmake
@@ -149,11 +165,11 @@ The Qt6 toolkit, qtpositioning
 * /usr/lib/libQt6Positioning.prl
 * /usr/lib/libQt6Positioning.so
 * /usr/lib/libQt6Positioning.so.6
-* /usr/lib/libQt6Positioning.so.6.8.3
+* /usr/lib/libQt6Positioning.so.6.9.0
 * /usr/lib/libQt6PositioningQuick.prl
 * /usr/lib/libQt6PositioningQuick.so
 * /usr/lib/libQt6PositioningQuick.so.6
-* /usr/lib/libQt6PositioningQuick.so.6.8.3
+* /usr/lib/libQt6PositioningQuick.so.6.9.0
 * /usr/lib/pkgconfig/Qt6Positioning.pc
 * /usr/lib/pkgconfig/Qt6PositioningQuick.pc
 * /usr/lib/qt6/metatypes/qt6positioningquick_release_metatypes.json
@@ -170,4 +186,4 @@ The Qt6 toolkit, qtpositioning
 * /usr/lib/qt6/qml/QtPositioning/libpositioningquickplugin.so
 * /usr/lib/qt6/qml/QtPositioning/plugins.qmltypes
 * /usr/lib/qt6/qml/QtPositioning/qmldir
-* /usr/lib/qt6/sbom/qtpositioning-6.8.3.spdx
+* /usr/lib/qt6/sbom/qtpositioning-6.9.0.spdx

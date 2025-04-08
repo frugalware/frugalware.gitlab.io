@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qt6-quickeffectmaker 6.8.3-1"
-version = "6.8.3-1"
+title = "qt6-quickeffectmaker 6.9.0-1"
+version = "6.9.0-1"
 description = "The Qt6 toolkit, qtquickeffectmaker"
-date = "2025-03-27T15:27:17"
+date = "2025-04-05T11:18:47"
 aliases = "/packages/220949"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "3893260"
-usize = "4958004"
-sha1sum = "4becb2886495fb6e5173b865819dff52f7e20df0"
+size = "3894708"
+usize = "4958294"
+sha1sum = "bd5ef2a1ee98c4e9864eb6dc0772cdd7355166f9"
 depends = "['qt6-quick3d', 'qt6-shadertools']"
 +++
 ### Description: 
@@ -52,6 +52,7 @@ The Qt6 toolkit, qtquickeffectmaker
 * /usr/lib/qt6/qml/QtQuickEffectMaker/defaultnodes/extra/ledscreen.qen
 * /usr/lib/qt6/qml/QtQuickEffectMaker/defaultnodes/extra/maskedblur.qen
 * /usr/lib/qt6/qml/QtQuickEffectMaker/defaultnodes/extra/normalmapping.qen
+* /usr/lib/qt6/qml/QtQuickEffectMaker/defaultnodes/extra/rectangularshadow.qen
 * /usr/lib/qt6/qml/QtQuickEffectMaker/defaultnodes/extra/spriteanimation.qen
 * /usr/lib/qt6/qml/QtQuickEffectMaker/defaultnodes/extra/sunburst.qen
 * /usr/lib/qt6/qml/QtQuickEffectMaker/defaultnodes/extra/swirl.qen
@@ -124,4 +125,4 @@ The Qt6 toolkit, qtquickeffectmaker
 * /usr/lib/qt6/qml/QtQuickEffectMaker/defaultnodes/nature/snowing.qen
 * /usr/lib/qt6/qml/QtQuickEffectMaker/defaultnodes/nature/thunder.qen
 * /usr/lib/qt6/qml/QtQuickEffectMaker/defaultnodes/nature/water.qen
-* /usr/lib/qt6/sbom/qqeffectmaker-6.8.3.spdx
+* /usr/lib/qt6/sbom/qqeffectmaker-6.9.0.spdx

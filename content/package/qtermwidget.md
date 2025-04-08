@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qtermwidget 2.1.0-4"
-version = "2.1.0-4"
+title = "qtermwidget 2.1.0-5"
+version = "2.1.0-5"
 description = "A terminal emulator widget for Qt6"
-date = "2025-03-28T21:44:01"
+date = "2025-04-07T13:12:04"
 aliases = "/packages/217828"
 categories = ['xapps-extra']
 upstreamurl = "https://www.lxde.org"
 arch = "x86_64"
-size = "206740"
-usize = "764698"
-sha1sum = "85f241e93bb4f3be09b12b831587271ba34b622a"
+size = "208996"
+usize = "770106"
+sha1sum = "c74c607cf29d0e0e118f7ee0ad425a52df1089ea"
 depends = "['qt6-base>=6.8.2', 'utf8proc>=2.9.0']"
 reverse_depends = "['qterminal']"
 +++

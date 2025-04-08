@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qbittorrent 5.0.4-2"
-version = "5.0.4-2"
+title = "qbittorrent 5.0.4-3"
+version = "5.0.4-3"
 description = "A Bittorrent client."
-date = "2025-03-28T21:15:26"
+date = "2025-04-07T12:48:17"
 aliases = "/packages/14441"
 categories = ['xapps-extra']
 upstreamurl = "http://www.qbittorrent.org/"
 arch = "x86_64"
-size = "7582656"
-usize = "13628628"
-sha1sum = "00565b8f8d79ba279d6dcd084b85fefac22546ac"
+size = "7586804"
+usize = "13667252"
+sha1sum = "0dba4e34b1e0c0901aa39fd13e925a4f794e570d"
 depends = "['geoip', 'libboost>=1.70.0', 'libtorrent-rasterbar>=2.0', 'python3', 'qt6-svg>=6.8.2']"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qt6-location 6.8.3-1"
-version = "6.8.3-1"
+title = "qt6-location 6.9.0-1"
+version = "6.9.0-1"
 description = "The Qt6 toolkit, qtlocation"
-date = "2025-03-27T15:26:36"
+date = "2025-04-05T11:18:06"
 aliases = "/packages/220948"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "635136"
-usize = "3315038"
-sha1sum = "daae84d6b3d5909d824a626161864672a657118f"
+size = "636512"
+usize = "3334392"
+sha1sum = "81c972aefa794bd8ab749ab9fefe6a7e62f20f40"
 depends = "['qt6-declarative', 'qt6-positioning']"
 reverse_depends = "['koko', 'kweathercore', 'marble', 'neochat']"
 +++
@@ -18,100 +18,100 @@ reverse_depends = "['koko', 'kweathercore', 'marble', 'neochat']"
 The Qt6 toolkit, qtlocation
 
 ### Files: 
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/error_messages_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qabstractgeotilecache_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qcache3q_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qdeclarativecategory_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qdeclarativecirclemapitem_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qdeclarativecirclemapitem_p_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qdeclarativecontactdetails_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qdeclarativegeocodemodel_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qdeclarativegeojsondata_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qdeclarativegeomapcopyrightsnotice_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qdeclarativegeomapitembase_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qdeclarativegeomapitemgroup_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qdeclarativegeomapitemtransitionmanager_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qdeclarativegeomapitemutils_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qdeclarativegeomapitemview_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qdeclarativegeomapquickitem_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qdeclarativegeomap_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qdeclarativegeoroutemodel_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qdeclarativegeoserviceprovider_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qdeclarativeplacecontentmodel_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qdeclarativeplace_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qdeclarativepolygonmapitem_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qdeclarativepolygonmapitem_p_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qdeclarativepolylinemapitem_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qdeclarativepolylinemapitem_p_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qdeclarativerectanglemapitem_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qdeclarativerectanglemapitem_p_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qdeclarativeroutemapitem_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qdeclarativesearchmodelbase_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qdeclarativesearchresultmodel_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qdeclarativesearchsuggestionmodel_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qdeclarativesupportedcategoriesmodel_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qgeocameracapabilities_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qgeocameradata_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qgeocameratiles_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qgeocameratiles_p_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qgeocodereply_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qgeocodingmanagerengine_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qgeocodingmanager_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qgeofiletilecache_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qgeojson_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qgeomaneuverderived_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qgeomaneuver_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qgeomapitemgeometry_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qgeomappingmanagerengine_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qgeomappingmanagerengine_p_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qgeomappingmanager_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qgeomappingmanager_p_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qgeomaptype_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qgeomaptype_p_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qgeomap_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qgeomap_p_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qgeoprojection_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qgeorouteparserosrmv5_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qgeorouteparser_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qgeorouteparser_p_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qgeoroutereply_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qgeorouterequest_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qgeoroutesegment_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qgeoroute_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qgeoroutingmanagerengine_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qgeoroutingmanager_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qgeoserviceprovider_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qgeotiledmappingmanagerengine_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qgeotiledmappingmanagerengine_p_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qgeotiledmapreply_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qgeotiledmapreply_p_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qgeotiledmapscene_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qgeotiledmapscene_p_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qgeotiledmap_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qgeotiledmap_p_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qgeotilefetcher_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qgeotilefetcher_p_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qgeotilerequestmanager_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qgeotilespec_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qgeotilespec_p_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qlocationglobal_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qplaceattribute_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qplacecategory_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qplacecontactdetail_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qplacecontentrequest_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qplacecontent_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qplaceicon_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qplacemanagerengine_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qplaceproposedsearchresult_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qplaceratings_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qplacereply_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qplaceresult_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qplacesearchrequest_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qplacesearchresult_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qplacesupplier_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qplaceuser_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/qplace_p.h
-* /usr/include/qt6/QtLocation/6.8.3/QtLocation/private/unsupportedreplies_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/error_messages_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qabstractgeotilecache_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qcache3q_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qdeclarativecategory_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qdeclarativecirclemapitem_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qdeclarativecirclemapitem_p_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qdeclarativecontactdetails_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qdeclarativegeocodemodel_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qdeclarativegeojsondata_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qdeclarativegeomapcopyrightsnotice_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qdeclarativegeomapitembase_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qdeclarativegeomapitemgroup_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qdeclarativegeomapitemtransitionmanager_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qdeclarativegeomapitemutils_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qdeclarativegeomapitemview_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qdeclarativegeomapquickitem_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qdeclarativegeomap_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qdeclarativegeoroutemodel_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qdeclarativegeoserviceprovider_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qdeclarativeplacecontentmodel_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qdeclarativeplace_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qdeclarativepolygonmapitem_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qdeclarativepolygonmapitem_p_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qdeclarativepolylinemapitem_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qdeclarativepolylinemapitem_p_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qdeclarativerectanglemapitem_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qdeclarativerectanglemapitem_p_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qdeclarativeroutemapitem_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qdeclarativesearchmodelbase_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qdeclarativesearchresultmodel_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qdeclarativesearchsuggestionmodel_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qdeclarativesupportedcategoriesmodel_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qgeocameracapabilities_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qgeocameradata_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qgeocameratiles_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qgeocameratiles_p_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qgeocodereply_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qgeocodingmanagerengine_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qgeocodingmanager_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qgeofiletilecache_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qgeojson_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qgeomaneuverderived_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qgeomaneuver_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qgeomapitemgeometry_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qgeomappingmanagerengine_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qgeomappingmanagerengine_p_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qgeomappingmanager_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qgeomappingmanager_p_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qgeomaptype_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qgeomaptype_p_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qgeomap_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qgeomap_p_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qgeoprojection_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qgeorouteparserosrmv5_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qgeorouteparser_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qgeorouteparser_p_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qgeoroutereply_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qgeorouterequest_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qgeoroutesegment_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qgeoroute_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qgeoroutingmanagerengine_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qgeoroutingmanager_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qgeoserviceprovider_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qgeotiledmappingmanagerengine_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qgeotiledmappingmanagerengine_p_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qgeotiledmapreply_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qgeotiledmapreply_p_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qgeotiledmapscene_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qgeotiledmapscene_p_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qgeotiledmap_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qgeotiledmap_p_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qgeotilefetcher_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qgeotilefetcher_p_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qgeotilerequestmanager_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qgeotilespec_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qgeotilespec_p_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qlocationglobal_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qplaceattribute_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qplacecategory_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qplacecontactdetail_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qplacecontentrequest_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qplacecontent_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qplaceicon_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qplacemanagerengine_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qplaceproposedsearchresult_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qplaceratings_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qplacereply_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qplaceresult_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qplacesearchrequest_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qplacesearchresult_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qplacesupplier_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qplaceuser_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/qplace_p.h
+* /usr/include/qt6/QtLocation/6.9.0/QtLocation/private/unsupportedreplies_p.h
 * /usr/include/qt6/QtLocation/QGeoCodeReply
 * /usr/include/qt6/QtLocation/qgeocodereply.h
 * /usr/include/qt6/QtLocation/QGeoCodingManager
@@ -215,6 +215,14 @@ The Qt6 toolkit, qtlocation
 * /usr/lib/cmake/Qt6Location/Qt6QGeoServiceProviderFactoryOsmPluginConfigVersionImpl.cmake
 * /usr/lib/cmake/Qt6Location/Qt6QGeoServiceProviderFactoryOsmPluginTargets-release.cmake
 * /usr/lib/cmake/Qt6Location/Qt6QGeoServiceProviderFactoryOsmPluginTargets.cmake
+* /usr/lib/cmake/Qt6LocationPrivate/Qt6LocationPrivateAdditionalTargetInfo.cmake
+* /usr/lib/cmake/Qt6LocationPrivate/Qt6LocationPrivateConfig.cmake
+* /usr/lib/cmake/Qt6LocationPrivate/Qt6LocationPrivateConfigVersion.cmake
+* /usr/lib/cmake/Qt6LocationPrivate/Qt6LocationPrivateConfigVersionImpl.cmake
+* /usr/lib/cmake/Qt6LocationPrivate/Qt6LocationPrivateDependencies.cmake
+* /usr/lib/cmake/Qt6LocationPrivate/Qt6LocationPrivateTargets.cmake
+* /usr/lib/cmake/Qt6LocationPrivate/Qt6LocationPrivateVersionlessAliasTargets.cmake
+* /usr/lib/cmake/Qt6LocationPrivate/Qt6LocationPrivateVersionlessTargets.cmake
 * /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6declarative_locationAdditionalTargetInfo.cmake
 * /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6declarative_locationConfig.cmake
 * /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6declarative_locationConfigVersion.cmake
@@ -224,7 +232,7 @@ The Qt6 toolkit, qtlocation
 * /usr/lib/libQt6Location.prl
 * /usr/lib/libQt6Location.so
 * /usr/lib/libQt6Location.so.6
-* /usr/lib/libQt6Location.so.6.8.3
+* /usr/lib/libQt6Location.so.6.9.0
 * /usr/lib/pkgconfig/Qt6Location.pc
 * /usr/lib/qt6/metatypes/qt6location_release_metatypes.json
 * /usr/lib/qt6/mkspecs/modules/qt_lib_location.pri
@@ -236,4 +244,4 @@ The Qt6 toolkit, qtlocation
 * /usr/lib/qt6/qml/QtLocation/MapView.qml
 * /usr/lib/qt6/qml/QtLocation/plugins.qmltypes
 * /usr/lib/qt6/qml/QtLocation/qmldir
-* /usr/lib/qt6/sbom/qtlocation-6.8.3.spdx
+* /usr/lib/qt6/sbom/qtlocation-6.9.0.spdx

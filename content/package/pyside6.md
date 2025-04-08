@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pyside6 6.8.3-1"
-version = "6.8.3-1"
+title = "pyside6 6.8.3-2"
+version = "6.8.3-2"
 description = "The PySide project provides LGPL-licensed Python bindings for the Qt cross-platform application and UI framework."
-date = "2025-04-01T08:06:40"
+date = "2025-04-07T12:09:45"
 aliases = "/packages/220854"
 categories = ['lib-extra']
 upstreamurl = "https://wiki.qt.io/Qt_for_Python"
 arch = "x86_64"
-size = "10024488"
-usize = "54904820"
-sha1sum = "7987e43fc4928112f6383ce814a0a0fc2482d365"
+size = "10058340"
+usize = "55010801"
+sha1sum = "034cd8e11087a6a6416a1cdc5d29ad86a1225b16"
 depends = "['python3>=3.13', 'python3-shiboken6>=6.8.3', 'qt6-declarative>=6.8.3']"
 reverse_depends = "['yin-yang']"
 +++

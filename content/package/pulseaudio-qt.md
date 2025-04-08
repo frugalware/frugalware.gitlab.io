@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "pulseaudio-qt 1.7.0-3"
-version = "1.7.0-3"
+title = "pulseaudio-qt 1.7.0-4"
+version = "1.7.0-4"
 description = "Qt bindings for libpulse"
-date = "2025-03-28T20:38:28"
+date = "2025-04-07T11:27:45"
 aliases = "/packages/220016"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "108012"
-usize = "515198"
-sha1sum = "a2b79d0ef9a59d0605b1f9b681408c1e2fbdc9b8"
-depends = "['libpulse', 'qt6-base>=6.8.3']"
+size = "110132"
+usize = "518078"
+sha1sum = "56d5d95dcb2c9812852144c1788d3cc699ed0592"
+depends = "['libpulse', 'qt6-base>=6.9.0']"
 reverse_depends = "['kdeconnect-kde', 'plasma-pa']"
 +++
 ### Description: 
