@@ -12,7 +12,7 @@ size = "29172"
 usize = "180299"
 sha1sum = "77abfb3475d44cb764881619e487ba661fcbbb8f"
 depends = "['python3>=3.12']"
-reverse_depends = "['duplicity']"
+reverse_depends = "['duplicity', 'picard']"
 +++
 ### Description: 
 A python package that provides useful locks.

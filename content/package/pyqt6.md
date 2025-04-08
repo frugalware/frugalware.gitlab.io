@@ -12,7 +12,7 @@ size = "4092724"
 usize = "29416712"
 sha1sum = "1b21084ad14e3e8c27340e3728e83c23e3a2baa1"
 depends = "['python3-pyqt6-sip', 'qt6-base']"
-reverse_depends = "['calibre', 'git-cola', 'pyqt6webengine', 'vorta', 'yin-yang']"
+reverse_depends = "['calibre', 'git-cola', 'picard', 'pyqt6webengine', 'vorta', 'yin-yang']"
 +++
 ### Description: 
 PyQt6 is a set of Python 3.x bindings for the Qt6 toolkit.

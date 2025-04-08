@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "iana-etc 20250328-1"
-version = "20250328-1"
+title = "iana-etc 20250407-1"
+version = "20250407-1"
 description = "Protocols and services provided by IANA"
-date = "2025-03-31T08:11:33"
+date = "2025-04-08T20:30:25"
 aliases = "/packages/218801"
 categories = ['base']
 upstreamurl = "http://sethwklein.net/iana-etc"
 arch = "x86_64"
-size = "393404"
-usize = "4189099"
-sha1sum = "e24a7eacae58162585dcc520ab818285b4878ba8"
+size = "393400"
+usize = "4189064"
+sha1sum = "5ee292f45e0073caa09bc80f876de05a0603c677"
 depends = "[]"
 +++
 ### Description: 

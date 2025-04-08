@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ethtool 6.11-1"
-version = "6.11-1"
+title = "ethtool 6.14-1"
+version = "6.14-1"
 description = "A tool for setting ethernet parameters"
-date = "2024-10-12T11:04:41"
+date = "2025-04-08T20:39:12"
 aliases = "/packages/2985"
 categories = ['base']
 upstreamurl = "http://www.kernel.org/pub/software/network/ethtool/"
 arch = "x86_64"
-size = "247600"
-usize = "798726"
-sha1sum = "8c772187f2f4ddecf0196aadd9b04f286933032c"
+size = "258444"
+usize = "823210"
+sha1sum = "8b60dabf2b12792fe697e6da7a7a0812c14d1e76"
 depends = "['libmnl']"
 reverse_depends = "['aircrack-ng', 'networkmanager', 'pm-utils', 'rdma-core']"
 +++
@@ -21,11 +21,12 @@ A tool for setting ethernet parameters
 * /usr/bin/ethtool
 * /usr/lib/systemd/system/ethtool@.service
 * /usr/share/bash-completion/completions/ethtool
-* /usr/share/doc/ethtool-6.11/AUTHORS
-* /usr/share/doc/ethtool-6.11/ChangeLog
-* /usr/share/doc/ethtool-6.11/COPYING
-* /usr/share/doc/ethtool-6.11/INSTALL
-* /usr/share/doc/ethtool-6.11/LICENSE
-* /usr/share/doc/ethtool-6.11/NEWS
-* /usr/share/doc/ethtool-6.11/README
+* /usr/share/doc/ethtool-6.14/AUTHORS
+* /usr/share/doc/ethtool-6.14/ChangeLog
+* /usr/share/doc/ethtool-6.14/COPYING
+* /usr/share/doc/ethtool-6.14/INSTALL
+* /usr/share/doc/ethtool-6.14/LICENSE
+* /usr/share/doc/ethtool-6.14/NEWS
+* /usr/share/doc/ethtool-6.14/README
 * /usr/share/man/man8/ethtool.8.gz
+* /usr/share/metainfo/org.kernel.software.network.ethtool.metainfo.xml

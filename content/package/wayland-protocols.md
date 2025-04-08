@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "wayland-protocols 1.42-1"
-version = "1.42-1"
+title = "wayland-protocols 1.43-1"
+version = "1.43-1"
 description = "Wayland protocols that adds functionality not available in the core protocol."
-date = "2025-03-24T14:43:27"
+date = "2025-04-08T20:41:41"
 aliases = "/packages/218049"
 categories = ['x11']
 upstreamurl = "http://wayland.freedesktop.org/"
 arch = "x86_64"
-size = "121116"
-usize = "941372"
-sha1sum = "4e84fc401f000b427f0e994df4c1b52318d6df67"
+size = "121952"
+usize = "949077"
+sha1sum = "3871ba9b3c529e8f1e043e533efcdeb37f4772c0"
 depends = "['wayland>=1.15.0']"
 reverse_depends = "['efl', 'gtk+4']"
 +++
@@ -69,11 +69,12 @@ Wayland protocols that adds functionality not available in the core protocol.
 * /usr/include/wayland-protocols/xdg-system-bell-v1-enum.h
 * /usr/include/wayland-protocols/xdg-toplevel-drag-v1-enum.h
 * /usr/include/wayland-protocols/xdg-toplevel-icon-v1-enum.h
+* /usr/include/wayland-protocols/xdg-toplevel-tag-v1-enum.h
 * /usr/include/wayland-protocols/xwayland-keyboard-grab-unstable-v1-enum.h
 * /usr/include/wayland-protocols/xwayland-shell-v1-enum.h
 * /usr/lib/pkgconfig/wayland-protocols.pc
-* /usr/share/doc/wayland-protocols-1.42/COPYING
-* /usr/share/doc/wayland-protocols-1.42/README.md
+* /usr/share/doc/wayland-protocols-1.43/COPYING
+* /usr/share/doc/wayland-protocols-1.43/README.md
 * /usr/share/wayland-protocols/stable/linux-dmabuf/linux-dmabuf-v1.xml
 * /usr/share/wayland-protocols/stable/presentation-time/presentation-time.xml
 * /usr/share/wayland-protocols/stable/tablet/tablet-v2.xml
@@ -104,6 +105,7 @@ Wayland protocols that adds functionality not available in the core protocol.
 * /usr/share/wayland-protocols/staging/xdg-system-bell/xdg-system-bell-v1.xml
 * /usr/share/wayland-protocols/staging/xdg-toplevel-drag/xdg-toplevel-drag-v1.xml
 * /usr/share/wayland-protocols/staging/xdg-toplevel-icon/xdg-toplevel-icon-v1.xml
+* /usr/share/wayland-protocols/staging/xdg-toplevel-tag/xdg-toplevel-tag-v1.xml
 * /usr/share/wayland-protocols/staging/xwayland-shell/xwayland-shell-v1.xml
 * /usr/share/wayland-protocols/unstable/fullscreen-shell/fullscreen-shell-unstable-v1.xml
 * /usr/share/wayland-protocols/unstable/idle-inhibit/idle-inhibit-unstable-v1.xml
