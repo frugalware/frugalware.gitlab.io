@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "soundtouch 2.3.3-1"
-version = "2.3.3-1"
+title = "soundtouch 2.4.0-1"
+version = "2.4.0-1"
 description = "An open-source audio processing library for changing the Tempo, Pitch and Playback Rates of audio streams or files."
-date = "2024-04-17T08:35:27"
+date = "2025-04-09T11:13:07"
 aliases = "/packages/9620"
 categories = ['multimedia']
 upstreamurl = "http://www.surina.net/soundtouch/"
 arch = "x86_64"
-size = "101420"
-usize = "355761"
-sha1sum = "368695fa329ad835780d12fb5be96dc5246c046a"
+size = "98076"
+usize = "328446"
+sha1sum = "71c2282daf4bd946080490ddf8b18200d59c1b1e"
 depends = "['libstdc++>=11.2']"
 reverse_depends = "['easyeffects', 'gst1-plugins-bad-soundtouch', 'mixxx']"
 +++
@@ -34,5 +34,5 @@ An open-source audio processing library for changing the Tempo, Pitch and Playba
 * /usr/lib/libSoundTouchDll.so.1.0.0
 * /usr/lib/pkgconfig/soundtouch.pc
 * /usr/share/aclocal/soundtouch.m4
-* /usr/share/doc/soundtouch-2.3.3/COPYING.TXT
-* /usr/share/doc/soundtouch-2.3.3/README.html
+* /usr/share/doc/soundtouch-2.4.0/COPYING.TXT
+* /usr/share/doc/soundtouch-2.4.0/README.html

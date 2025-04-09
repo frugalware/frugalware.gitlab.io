@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-static 3.13.2-1"
-version = "3.13.2-1"
+title = "python3-static 3.13.3-1"
+version = "3.13.3-1"
 description = "Static files for python3"
-date = "2025-02-05T21:20:35"
+date = "2025-04-09T09:48:31"
 aliases = "/packages/219941"
 categories = ['devel-extra']
 upstreamurl = "https://www.python.org"
 arch = "x86_64"
-size = "30689060"
-usize = "40875094"
-sha1sum = "aa71ca5539e4fddfb6db6226baa4c5ac112ea71d"
+size = "30786448"
+usize = "41006342"
+sha1sum = "c135ecdfd11dc437810709959f82c64b6b8a0ac2"
 depends = "[]"
 +++
 ### Description: 

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "python3-tools 3.13.2-1"
-version = "3.13.2-1"
+title = "python3-tools 3.13.3-1"
+version = "3.13.3-1"
 description = "Optional development tools to extending Python3"
-date = "2025-02-05T21:20:35"
+date = "2025-04-09T09:48:31"
 aliases = "/packages/217992"
 categories = ['devel-extra']
 upstreamurl = "https://www.python.org"
 arch = "x86_64"
-size = "601624"
-usize = "3788479"
-sha1sum = "49fc5aed50d2d56f475cf5ea15f1bab5588d2a3e"
-depends = "['python3>=3.13.2']"
+size = "603956"
+usize = "3797130"
+sha1sum = "f4e4bc346e848bfd111e391ae39e2ff514c33999"
+depends = "['python3>=3.13.3']"
 +++
 ### Description: 
 Optional development tools to extending Python3
@@ -22,6 +22,7 @@ Optional development tools to extending Python3
 * /usr/bin/pygettext3.13.py
 * /usr/bin/pynche3.13
 * /usr/lib/python3.13/site-packages/build/check_extension_modules.py
+* /usr/lib/python3.13/site-packages/build/compute-changes.py
 * /usr/lib/python3.13/site-packages/build/deepfreeze.py
 * /usr/lib/python3.13/site-packages/build/freeze_modules.py
 * /usr/lib/python3.13/site-packages/build/generate_global_objects.py
@@ -365,8 +366,8 @@ Optional development tools to extending Python3
 * /usr/lib/python3.13/site-packages/scripts/var_access_benchmark.py
 * /usr/lib/python3.13/site-packages/ssl/make_ssl_data.py
 * /usr/lib/python3.13/site-packages/ssl/multissltests.py
+* /usr/lib/python3.13/site-packages/tsan/suppressions.txt
 * /usr/lib/python3.13/site-packages/tsan/suppressions_free_threading.txt
-* /usr/lib/python3.13/site-packages/tsan/supressions.txt
 * /usr/lib/python3.13/site-packages/tz/zdump.py
 * /usr/lib/python3.13/site-packages/unicode/comparecodecs.py
 * /usr/lib/python3.13/site-packages/unicode/dawg.py
