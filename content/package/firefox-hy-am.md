@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-hy-am 137.0-1"
-version = "137.0-1"
+title = "firefox-hy-am 137.0.1-1"
+version = "137.0.1-1"
 description = "Armenian language support for Firefox"
-date = "2025-04-02T09:34:35"
+date = "2025-04-09T15:13:12"
 aliases = "/packages/118581"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "401864"
-usize = "456352"
-sha1sum = "ed73b46d5679a9c625c27d6e0f9112c1169109c8"
-depends = "['firefox>=137.0']"
+size = "401432"
+usize = "456342"
+sha1sum = "fa664ccab67952830ac819dbea7ee8c7a3fe1be6"
+depends = "['firefox>=137.0.1']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

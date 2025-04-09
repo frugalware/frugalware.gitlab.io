@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-sq 137.0-1"
-version = "137.0-1"
+title = "firefox-sq 137.0.1-1"
+version = "137.0.1-1"
 description = "Albanian language support for Firefox"
-date = "2025-04-02T09:34:35"
+date = "2025-04-09T15:13:12"
 aliases = "/packages/73650"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "405336"
-usize = "457300"
-sha1sum = "c06ae74a855aef0388f171b523eb550d0e41840c"
-depends = "['firefox>=137.0']"
+size = "405232"
+usize = "457293"
+sha1sum = "1a08808a059a372f9fb133f9d4d0322359f3db0d"
+depends = "['firefox>=137.0.1']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

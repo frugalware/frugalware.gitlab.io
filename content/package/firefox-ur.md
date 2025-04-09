@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-ur 137.0-1"
-version = "137.0-1"
+title = "firefox-ur 137.0.1-1"
+version = "137.0.1-1"
 description = "Urdu language support for Firefox"
-date = "2025-04-02T09:34:35"
+date = "2025-04-09T15:13:12"
 aliases = "/packages/219161"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "323124"
-usize = "377234"
-sha1sum = "c7dc9940fb639ccb26d24a0f54c49585b75edc3a"
-depends = "['firefox>=137.0']"
+size = "323384"
+usize = "377243"
+sha1sum = "c61794042026e3606577fc8e1eb20cda5e444922"
+depends = "['firefox>=137.0.1']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 
