@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libqmi 1.34.0-1"
-version = "1.34.0-1"
+title = "libqmi 1.36.0-1"
+version = "1.36.0-1"
 description = "QMI modem protocol helper library"
-date = "2024-04-05T13:11:10"
+date = "2025-04-09T17:57:04"
 aliases = "/packages/221419"
 categories = ['base']
 upstreamurl = "https://www.freedesktop.org/wiki/Software/libqmi"
 arch = "x86_64"
-size = "1685664"
-usize = "20212985"
-sha1sum = "637099e113b5bd180350b7f2cdeae9eddcef9fef"
+size = "1774804"
+usize = "21041784"
+sha1sum = "0898d06b9024e3e8d38e6d3567554ac3e2ad58f4"
 depends = "['libmbim', 'libqrtr-glib']"
 reverse_depends = "['fwupd', 'modemmanager']"
 +++
@@ -89,17 +89,17 @@ QMI modem protocol helper library
 * /usr/lib/girepository-1.0/Qmi-1.0.typelib
 * /usr/lib/libqmi-glib.so
 * /usr/lib/libqmi-glib.so.5
-* /usr/lib/libqmi-glib.so.5.10.0
+* /usr/lib/libqmi-glib.so.5.11.0
 * /usr/lib/libqmi/qmi-proxy
 * /usr/lib/pkgconfig/qmi-glib.pc
 * /usr/share/bash-completion/completions/qmicli
-* /usr/share/doc/libqmi-1.34.0/AUTHORS
-* /usr/share/doc/libqmi-1.34.0/ChangeLog
-* /usr/share/doc/libqmi-1.34.0/COPYING
-* /usr/share/doc/libqmi-1.34.0/COPYING.LIB
-* /usr/share/doc/libqmi-1.34.0/NEWS
-* /usr/share/doc/libqmi-1.34.0/README.md
-* /usr/share/doc/libqmi-1.34.0/TODO
+* /usr/share/doc/libqmi-1.36.0/AUTHORS
+* /usr/share/doc/libqmi-1.36.0/ChangeLog
+* /usr/share/doc/libqmi-1.36.0/COPYING
+* /usr/share/doc/libqmi-1.36.0/COPYING.LIB
+* /usr/share/doc/libqmi-1.36.0/NEWS
+* /usr/share/doc/libqmi-1.36.0/README.md
+* /usr/share/doc/libqmi-1.36.0/TODO
 * /usr/share/gir-1.0/Qmi-1.0.gir
 * /usr/share/man/man1/qmi-firmware-update.1.gz
 * /usr/share/man/man1/qmi-network.1.gz

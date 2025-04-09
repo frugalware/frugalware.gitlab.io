@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libgpg-error-static 1.52-1"
-version = "1.52-1"
+title = "libgpg-error-static 1.53-1"
+version = "1.53-1"
 description = "Static files for libgpg-error"
-date = "2025-04-08T20:16:04"
+date = "2025-04-09T18:00:56"
 aliases = "/packages/219915"
 categories = ['devel-extra']
 upstreamurl = "http://www.gnupg.org"
 arch = "x86_64"
-size = "761288"
-usize = "911524"
-sha1sum = "668e425809fac19e6ee59dfeb62134e41f1259cd"
+size = "761692"
+usize = "911660"
+sha1sum = "c3699ed3f0795133d0984215c4fe127e53a5117c"
 depends = "[]"
 +++
 ### Description: 
