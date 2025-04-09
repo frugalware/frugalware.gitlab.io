@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gcc-gfortran 14_20250329-1"
-version = "14_20250329-1"
+title = "gcc-gfortran 14_20250405-1"
+version = "14_20250405-1"
 description = "Fortran 95 support for GCC"
-date = "2025-03-31T08:59:40"
+date = "2025-04-09T09:36:32"
 aliases = "/packages/3018"
 categories = ['devel-extra']
 upstreamurl = "http://gcc.gnu.org"
 arch = "x86_64"
-size = "12857712"
+size = "12854464"
 usize = "44792183"
-sha1sum = "929812617d43a3f27d3994a2a31986c7ad1a8c81"
+sha1sum = "927f16d22017c8489b366258cba6f1394cdb2b57"
 depends = "['gcc', 'libgfortran']"
 +++
 ### Description: 
