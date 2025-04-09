@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "bctoolbox 5.4.2-1"
-version = "5.4.2-1"
+title = "bctoolbox 5.4.7-1"
+version = "5.4.7-1"
 description = "A library written in C that allows you to create and run audio and video streams"
-date = "2025-03-20T13:12:03"
+date = "2025-04-09T18:43:36"
 aliases = "/packages/218828"
 categories = ['lib-extra']
 upstreamurl = "http://www.linphone.org"
 arch = "x86_64"
-size = "153264"
-usize = "537335"
-sha1sum = "c45c97b71e1ebea73637d8c8719a1c02b58d7051"
+size = "153468"
+usize = "537271"
+sha1sum = "afc7701cff858a0b0d7f741ff17592b1e4faf9fa"
 depends = "['openssl']"
 reverse_depends = "['ortp']"
 +++
@@ -52,4 +52,4 @@ A library written in C that allows you to create and run audio and video streams
 * /usr/share/BCToolbox/cmake/ConfigureSpecfile.cmake
 * /usr/share/BCToolbox/cmake/gitversion.h.in
 * /usr/share/BCToolbox/cmake/MakeArchive.cmake
-* /usr/share/doc/bctoolbox-5.4.2/README.md
+* /usr/share/doc/bctoolbox-5.4.7/README.md
