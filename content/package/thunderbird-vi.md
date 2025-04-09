@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "thunderbird-vi 128.9.0-1"
-version = "128.9.0-1"
+title = "thunderbird-vi 128.9.1-1"
+version = "128.9.1-1"
 description = "Vietnamese language support for Thunderbird"
-date = "2025-04-02T09:19:41"
+date = "2025-04-09T13:54:02"
 aliases = "/packages/135583"
 categories = ['locale-extra']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "730320"
-usize = "790622"
-sha1sum = "36afdaf60f8a14ba12f20f80aa9874f5a25a2e3c"
-depends = "['thunderbird>=128.9.0']"
+size = "730404"
+usize = "790624"
+sha1sum = "604b0df8bc2cc6c2bf62f23452016e0a08b80acc"
+depends = "['thunderbird>=128.9.1']"
 reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 

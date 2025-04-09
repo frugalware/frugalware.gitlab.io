@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "thunderbird-ast 128.9.0-1"
-version = "128.9.0-1"
+title = "thunderbird-ast 128.9.1-1"
+version = "128.9.1-1"
 description = "Asturian language support for Thunderbird"
-date = "2025-04-02T09:19:41"
+date = "2025-04-09T13:54:02"
 aliases = "/packages/137247"
 categories = ['locale-extra']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "498672"
-usize = "574778"
-sha1sum = "23669cc48330a965d1fa2693a4eaff74b87f4f01"
-depends = "['thunderbird>=128.9.0']"
+size = "498732"
+usize = "574779"
+sha1sum = "418e5dd9ee85b31b1149e320d1ccc51be21b1028"
+depends = "['thunderbird>=128.9.1']"
 reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 
