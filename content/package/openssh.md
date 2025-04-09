@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openssh 9.9-2"
-version = "9.9-2"
+title = "openssh 10.0-1"
+version = "10.0-1"
 description = "Secure Shell daemon and clients"
-date = "2025-02-18T13:05:38"
+date = "2025-04-09T12:54:59"
 aliases = "/packages/2421"
 categories = ['network']
 upstreamurl = "http://www.openssh.com/"
 arch = "x86_64"
-size = "1251276"
-usize = "5673052"
-sha1sum = "06d7269950889f5756377b2eecf6a43bc4ae2f14"
+size = "1327344"
+usize = "6257616"
+sha1sum = "c2ce63a44b9806146210877aa8f971ec98d1d190"
 depends = "['glibc>=2.35', 'ldns', 'libedit', 'libfido2>=1.10', 'openssl>=3.1', 'pam']"
 reverse_depends = "['autossh', 'gnome-keyring', 'keychain', 'kssh', 'seahorse', 'ssh-contact', 'sshcode']"
 +++
@@ -38,21 +38,22 @@ Secure Shell daemon and clients
 * /usr/lib/openssh/ssh-keysign
 * /usr/lib/openssh/ssh-pkcs11-helper
 * /usr/lib/openssh/ssh-sk-helper
+* /usr/lib/openssh/sshd-auth
 * /usr/lib/openssh/sshd-session
 * /usr/lib/systemd/system/sshd-keygen.service
 * /usr/lib/systemd/system/sshd.service
 * /usr/lib/systemd/user/ssh-agent.service
-* /usr/share/doc/openssh-9.9/ChangeLog
-* /usr/share/doc/openssh-9.9/CREDITS
-* /usr/share/doc/openssh-9.9/INSTALL
-* /usr/share/doc/openssh-9.9/README
-* /usr/share/doc/openssh-9.9/README.dns
-* /usr/share/doc/openssh-9.9/README.Frugalware
-* /usr/share/doc/openssh-9.9/README.md
-* /usr/share/doc/openssh-9.9/README.platform
-* /usr/share/doc/openssh-9.9/README.privsep
-* /usr/share/doc/openssh-9.9/README.tun
-* /usr/share/doc/openssh-9.9/TODO
+* /usr/share/doc/openssh-10.0/ChangeLog
+* /usr/share/doc/openssh-10.0/CREDITS
+* /usr/share/doc/openssh-10.0/INSTALL
+* /usr/share/doc/openssh-10.0/README
+* /usr/share/doc/openssh-10.0/README.dns
+* /usr/share/doc/openssh-10.0/README.Frugalware
+* /usr/share/doc/openssh-10.0/README.md
+* /usr/share/doc/openssh-10.0/README.platform
+* /usr/share/doc/openssh-10.0/README.privsep
+* /usr/share/doc/openssh-10.0/README.tun
+* /usr/share/doc/openssh-10.0/TODO
 * /usr/share/man/man1/scp.1.gz
 * /usr/share/man/man1/sftp.1.gz
 * /usr/share/man/man1/ssh-add.1.gz

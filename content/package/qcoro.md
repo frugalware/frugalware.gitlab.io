@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qcoro 0.11.0-1"
-version = "0.11.0-1"
+title = "qcoro 0.12.0-1"
+version = "0.12.0-1"
 description = "C++ Coroutines for Qt"
-date = "2024-10-18T15:06:01"
+date = "2025-04-09T12:44:30"
 aliases = "/packages/220955"
 categories = ['xlib']
 upstreamurl = "https://github.com/qcoro/qcoro"
 arch = "x86_64"
-size = "2847228"
-usize = "5672965"
-sha1sum = "643d851bfd403be55c410843449f174694da109a"
+size = "2856864"
+usize = "5706974"
+sha1sum = "fe077103bbecfe6e214060b72f1c5af97462a67d"
 depends = "['qt6-declarative', 'qt6-websockets']"
 reverse_depends = "['angelfish', 'audiotube', 'discover', 'kaccounts-integration', 'kdenetwork-filesharing', 'kio-extras', 'kontrast', 'plasma-nm', 'plasma-workspace']"
 +++
@@ -144,5 +144,5 @@ C++ Coroutines for Qt
 * /usr/lib/qt6/mkspecs/modules/qt_QCoroQuick.pri
 * /usr/lib/qt6/mkspecs/modules/qt_QCoroTest.pri
 * /usr/lib/qt6/mkspecs/modules/qt_QCoroWebSockets.pri
-* /usr/share/doc/qcoro-0.11.0/LICENSE
-* /usr/share/doc/qcoro-0.11.0/README.md
+* /usr/share/doc/qcoro-0.12.0/LICENSE
+* /usr/share/doc/qcoro-0.12.0/README.md

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libibus 1.5.31-1"
-version = "1.5.31-1"
+title = "libibus 1.5.32-1"
+version = "1.5.32-1"
 description = "Ibus library"
-date = "2024-11-10T01:54:29"
+date = "2025-04-09T12:58:31"
 aliases = "/packages/220580"
 categories = ['lib']
 upstreamurl = "https://github.com/ibus/ibus"
 arch = "x86_64"
-size = "13216364"
-usize = "138962541"
-sha1sum = "2b569c7110b4975124414447d933c2ec99a24799"
+size = "13434372"
+usize = "140666158"
+sha1sum = "3a8277c8a3c4a192ef4e4f4b4c25982e80daeb12"
 depends = "['glib2']"
 reverse_depends = "['ibus']"
 +++
@@ -61,7 +61,7 @@ Ibus library
 * /usr/lib/girepository-1.0/IBus-1.0.typelib
 * /usr/lib/libibus-1.0.so
 * /usr/lib/libibus-1.0.so.5
-* /usr/lib/libibus-1.0.so.5.0.531
+* /usr/lib/libibus-1.0.so.5.0.532
 * /usr/lib/pkgconfig/ibus-1.0.pc
 * /usr/share/gir-1.0/IBus-1.0.gir
 * /usr/share/ibus/dicts/emoji-af.dict
