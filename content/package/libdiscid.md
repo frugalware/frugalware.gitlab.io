@@ -12,7 +12,7 @@ size = "26956"
 usize = "83371"
 sha1sum = "e9d01f1dce558966cfea760fdc04477e4d0f6d73"
 depends = "['glibc>=2.29-6']"
-reverse_depends = "['picard']"
+reverse_depends = "['python3-discid']"
 +++
 ### Description: 
 A Library for creating MusicBrainz DiscIDs

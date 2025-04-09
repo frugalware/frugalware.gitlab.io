@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "shiboken6 6.8.3-2"
-version = "6.8.3-2"
+title = "shiboken6 6.9.0-1"
+version = "6.9.0-1"
 description = "Support library for Python bindings."
-date = "2025-04-07T13:53:26"
+date = "2025-04-09T11:15:01"
 aliases = "/packages/220852"
 categories = ['devel-extra']
 upstreamurl = "https://wiki.qt.io/Qt_for_Python"
 arch = "x86_64"
-size = "1010516"
-usize = "3053195"
-sha1sum = "4f3256715228671beba71d4156a5c07dd295249f"
-depends = "['clang-libs>=19.1.1', 'libxslt', 'qt6-base>=6.8.3']"
+size = "1032792"
+usize = "3108928"
+sha1sum = "60c1b5339b1bb2e11014090ae6cd7f8521c929fd"
+depends = "['clang-libs>=19.1.1', 'libxslt', 'qt6-base>=6.9.0']"
 +++
 ### Description: 
 Support library for Python bindings.
@@ -30,6 +30,7 @@ Support library for Python bindings.
 * /usr/include/shiboken6/pep384impl.h
 * /usr/include/shiboken6/pyobjectholder.h
 * /usr/include/shiboken6/sbkarrayconverter.h
+* /usr/include/shiboken6/sbkbindingutils.h
 * /usr/include/shiboken6/sbkcontainer.h
 * /usr/include/shiboken6/sbkconverter.h
 * /usr/include/shiboken6/sbkcppstring.h
@@ -65,10 +66,10 @@ Support library for Python bindings.
 * /usr/lib/cmake/Shiboken6Tools/Shiboken6ToolsTargets-release.cmake
 * /usr/lib/cmake/Shiboken6Tools/Shiboken6ToolsTargets.cmake
 * /usr/lib/pkgconfig/shiboken6.pc
-* /usr/share/doc/shiboken6-6.8.3/README.md
-* /usr/share/doc/shiboken6-6.8.3/README.pyside6.md
-* /usr/share/doc/shiboken6-6.8.3/README.pyside6_addons.md
-* /usr/share/doc/shiboken6-6.8.3/README.pyside6_essentials.md
-* /usr/share/doc/shiboken6-6.8.3/README.pyside6_examples.md
-* /usr/share/doc/shiboken6-6.8.3/README.shiboken6-generator.md
-* /usr/share/doc/shiboken6-6.8.3/README.shiboken6.md
+* /usr/share/doc/shiboken6-6.9.0/README.md
+* /usr/share/doc/shiboken6-6.9.0/README.pyside6.md
+* /usr/share/doc/shiboken6-6.9.0/README.pyside6_addons.md
+* /usr/share/doc/shiboken6-6.9.0/README.pyside6_essentials.md
+* /usr/share/doc/shiboken6-6.9.0/README.pyside6_examples.md
+* /usr/share/doc/shiboken6-6.9.0/README.shiboken6-generator.md
+* /usr/share/doc/shiboken6-6.9.0/README.shiboken6.md

@@ -12,7 +12,7 @@ size = "82008"
 usize = "475217"
 sha1sum = "81f3a23439169e42d3f2c134b9f83682be3f09d1"
 depends = "['python3>=3.12']"
-reverse_depends = "['python3-sphinx']"
+reverse_depends = "['picard', 'python3-sphinx']"
 +++
 ### Description: 
 Encoding and language detection alternative to chardet

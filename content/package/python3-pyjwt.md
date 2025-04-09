@@ -12,7 +12,7 @@ size = "45836"
 usize = "269947"
 sha1sum = "eadf83adb07ce7c3ffa89dcd349865b528005544"
 depends = "['python3']"
-reverse_depends = "['python3-adal']"
+reverse_depends = "['picard', 'python3-adal']"
 +++
 ### Description: 
 JSON Web Token implementation in Python
