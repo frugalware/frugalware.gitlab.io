@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "utox 0.18.1-1"
-version = "0.18.1-1"
+title = "utox 0.18.1-2"
+version = "0.18.1-2"
 description = "Lightweight Tox client."
-date = "2024-07-24T14:30:11"
+date = "2025-04-10T08:14:44"
 aliases = "/packages/217519"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/utox/utox"
 arch = "x86_64"
-size = "315496"
-usize = "782201"
-sha1sum = "92e3a4b03c981ebf7dc84a9485262b99333429fc"
+size = "277940"
+usize = "659848"
+sha1sum = "441fe31c7845f6c69289f3faf7f73bd222a4f951"
 depends = "['filter_audio', 'fontconfig', 'libxrender', 'tox-core>=0.2.18']"
 +++
 ### Description: 

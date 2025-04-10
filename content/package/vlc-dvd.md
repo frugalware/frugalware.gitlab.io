@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vlc-dvd 3.0.21-26"
-version = "3.0.21-26"
+title = "vlc-dvd 3.0.21-27"
+version = "3.0.21-27"
 description = "vlc DVD support"
-date = "2025-03-31T16:12:29"
+date = "2025-04-10T08:18:53"
 aliases = "/packages/219596"
 categories = ['vlc-codecs']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "28528"
+size = "28584"
 usize = "30536"
-sha1sum = "e0f6e6338cfe2517bd0afc2e2d5d2979e7753803"
+sha1sum = "2abfa153f2708b557da8151fd4183b266b1448eb"
 depends = "['libdvdread>=6.1.1', 'libvlc>=3.0.21']"
 +++
 ### Description: 

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "xine-lib 1.2.13-13"
-version = "1.2.13-13"
+title = "xine-lib 1.2.13-14"
+version = "1.2.13-14"
 description = "Xine multimedia playback engine libraries"
-date = "2025-03-31T10:36:46"
+date = "2025-04-10T08:28:49"
 aliases = "/packages/3421"
 categories = ['xlib']
 upstreamurl = "http://xinehq.de"
 arch = "x86_64"
-size = "2404096"
+size = "2404264"
 usize = "7659168"
-sha1sum = "cab031ddf13e068bf2765f042ff8cd21837ae4b9"
-depends = "['aalib>=1.4rc5-8', 'dav1d>=1.3.0', 'ffmpeg>=7.0', 'flac>=1.5.0', 'imagemagick>=7.1.1', 'libdca>=0.0.5-4', 'libdvdnav>=6.1.0', 'libffi>=3.2.1', 'libglu>=9.0.0-2', 'libmad>=0.15.1b-9', 'libmng>=2.0.3-3', 'libmodplug>=0.8.8.5-2', 'libmpcdec>=1.2.6-3', 'libpng>=1.6.25', 'libva>=2.3', 'libvpx>=1.13.0', 'libxinerama>=1.1.3-2', 'libxt', 'libxvmc>=1.0.9-2', 'ocl-icd', 'sdl', 'vcdimager>=0.7.24-6', 'wavpack>=4.75.2-2']"
+sha1sum = "6b2e44c0424d48849427cd37ff0b98d43282564f"
+depends = "['aalib>=1.4rc5-8', 'dav1d>=1.3.0', 'ffmpeg>=7.0', 'flac>=1.5.0', 'imagemagick>=7.1.1', 'libdca>=0.0.5-4', 'libdvdnav>=6.1.0', 'libffi>=3.2.1', 'libglu>=9.0.0-2', 'libmad>=0.15.1b-9', 'libmng>=2.0.3-3', 'libmodplug>=0.8.8.5-2', 'libmpcdec>=1.2.6-3', 'libpng>=1.6.25', 'libva>=2.3', 'libvpx>=1.15.1', 'libxinerama>=1.1.3-2', 'libxt', 'libxvmc>=1.0.9-2', 'ocl-icd', 'sdl', 'vcdimager>=0.7.24-6', 'wavpack>=4.75.2-2']"
 reverse_depends = "['codeine', 'opencv', 'xine-ui']"
 +++
 ### Description: 

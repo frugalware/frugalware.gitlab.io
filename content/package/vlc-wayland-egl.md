@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vlc-wayland-egl 3.0.21-26"
-version = "3.0.21-26"
+title = "vlc-wayland-egl 3.0.21-27"
+version = "3.0.21-27"
 description = "vlc Wayland EGL support"
-date = "2025-03-31T16:12:29"
+date = "2025-04-10T08:18:53"
 aliases = "/packages/219582"
 categories = ['vlc-codecs']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "17324"
+size = "17376"
 usize = "10248"
-sha1sum = "b6bec915998c4d8ccd9d054414f6b35799680956"
+sha1sum = "2ebad0ba9116029386f63c1910a37a4986c0d4e9"
 depends = "['libvlc>=3.0.21', 'libwayland-egl']"
 +++
 ### Description: 

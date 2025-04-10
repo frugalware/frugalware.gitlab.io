@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vlc-modplug 3.0.21-26"
-version = "3.0.21-26"
+title = "vlc-modplug 3.0.21-27"
+version = "3.0.21-27"
 description = "vlc plugin for libmodplug"
-date = "2025-03-31T16:12:29"
+date = "2025-04-10T08:18:53"
 aliases = "/packages/135933"
 categories = ['vlc-codecs']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "20416"
+size = "20476"
 usize = "19632"
-sha1sum = "f417f99ac4785e7bb05792c407acab0aadf5bfad"
+sha1sum = "687ab019866bc66f08eaea0e193a34905653ac70"
 depends = "['libmodplug', 'libvlc>=3.0.21']"
 +++
 ### Description: 

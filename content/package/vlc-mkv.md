@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vlc-mkv 3.0.21-26"
-version = "3.0.21-26"
+title = "vlc-mkv 3.0.21-27"
+version = "3.0.21-27"
 description = "vlc plugin for mkv"
-date = "2025-03-31T16:12:29"
+date = "2025-04-10T08:18:53"
 aliases = "/packages/135932"
 categories = ['vlc-codecs']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "184584"
+size = "184588"
 usize = "468712"
-sha1sum = "768db18e02f24a7b37154477a33d180b2bb0347a"
+sha1sum = "f654be726cd1f4d61016bedc9966f4e4a00cd3fc"
 depends = "['libmatroska>=1.2.0', 'libvlc>=3.0.21']"
 +++
 ### Description: 
