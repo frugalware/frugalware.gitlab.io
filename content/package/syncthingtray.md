@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "syncthingtray 1.7.4-2"
-version = "1.7.4-2"
+title = "syncthingtray 1.7.5-1"
+version = "1.7.5-1"
 description = "tray app for syncthing"
-date = "2025-04-07T15:24:30"
+date = "2025-04-10T13:56:38"
 aliases = "/packages/222522"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/Martchus/syncthingtray"
 arch = "x86_64"
-size = "889692"
-usize = "3655058"
-sha1sum = "d7b4c535eaa72fc7f92f7f436a73655d7e8bc2e1"
+size = "888968"
+usize = "3655218"
+sha1sum = "93bdd8a19a78c2a7680244bf8dfc74c840cd81df"
 depends = "['cpp-utilities', 'libboost>=1.87.0', 'qt6-webengine', 'qtforkawesome', 'qtutilities', 'syncthing']"
 +++
 ### Description: 
@@ -72,13 +72,13 @@ tray app for syncthing
 * /usr/include/syncthingwidgets/webview/webpage.h
 * /usr/include/syncthingwidgets/webview/webviewdialog.h
 * /usr/lib/libsyncthingconnector.so
-* /usr/lib/libsyncthingconnector.so.1.7.4
+* /usr/lib/libsyncthingconnector.so.1.7.5
 * /usr/lib/libsyncthingconnector.so.23
 * /usr/lib/libsyncthingmodel.so
-* /usr/lib/libsyncthingmodel.so.1.7.4
+* /usr/lib/libsyncthingmodel.so.1.7.5
 * /usr/lib/libsyncthingmodel.so.23
 * /usr/lib/libsyncthingwidgets.so
-* /usr/lib/libsyncthingwidgets.so.1.7.4
+* /usr/lib/libsyncthingwidgets.so.1.7.5
 * /usr/lib/libsyncthingwidgets.so.23
 * /usr/lib/pkgconfig/syncthingconnector.pc
 * /usr/lib/pkgconfig/syncthingfileitemaction.pc
@@ -90,8 +90,8 @@ tray app for syncthing
 * /usr/share/applications/syncthingtray.desktop
 * /usr/share/bash-completion/completions/syncthingctl
 * /usr/share/bash-completion/completions/syncthingtray
-* /usr/share/doc/syncthingtray-1.7.4/LICENSE
-* /usr/share/doc/syncthingtray-1.7.4/README.md
+* /usr/share/doc/syncthingtray-1.7.5/LICENSE
+* /usr/share/doc/syncthingtray-1.7.5/README.md
 * /usr/share/icons/hicolor/scalable/apps/syncthingtray.svg
 * /usr/share/metainfo/io.github.martchus.syncthingfileitemaction.metainfo.xml
 * /usr/share/metainfo/io.github.martchus.syncthingplasmoid.metainfo.xml

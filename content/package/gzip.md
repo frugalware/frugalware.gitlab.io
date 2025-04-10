@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gzip 1.13-2"
-version = "1.13-2"
+title = "gzip 1.14-1"
+version = "1.14-1"
 description = "A file compression utility"
-date = "2024-01-02T20:28:21"
+date = "2025-04-10T13:20:31"
 aliases = "/packages/2391"
 categories = ['base']
 upstreamurl = "http://www.gzip.org"
 arch = "x86_64"
-size = "145676"
-usize = "380064"
-sha1sum = "20ea3e02cd75f049f02f80e8a0c9f253fa372b07"
+size = "155140"
+usize = "394308"
+sha1sum = "86d6cffdb637cced06f69be41b7eae0a792fd72d"
 depends = "['bash>=4.4.12-4']"
 reverse_depends = "['cracklib', 'parted']"
 +++
@@ -32,14 +32,14 @@ A file compression utility
 * /usr/bin/zless
 * /usr/bin/zmore
 * /usr/bin/znew
-* /usr/share/doc/gzip-1.13/AUTHORS
-* /usr/share/doc/gzip-1.13/ChangeLog
-* /usr/share/doc/gzip-1.13/COPYING
-* /usr/share/doc/gzip-1.13/INSTALL
-* /usr/share/doc/gzip-1.13/NEWS
-* /usr/share/doc/gzip-1.13/README
-* /usr/share/doc/gzip-1.13/THANKS
-* /usr/share/doc/gzip-1.13/TODO
+* /usr/share/doc/gzip-1.14/AUTHORS
+* /usr/share/doc/gzip-1.14/ChangeLog
+* /usr/share/doc/gzip-1.14/COPYING
+* /usr/share/doc/gzip-1.14/INSTALL
+* /usr/share/doc/gzip-1.14/NEWS
+* /usr/share/doc/gzip-1.14/README
+* /usr/share/doc/gzip-1.14/THANKS
+* /usr/share/doc/gzip-1.14/TODO
 * /usr/share/info/gzip.info.gz
 * /usr/share/man/man1/gunzip.1.gz
 * /usr/share/man/man1/gzexe.1.gz

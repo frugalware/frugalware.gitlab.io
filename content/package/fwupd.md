@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "fwupd 2.0.7-1"
-version = "2.0.7-1"
+title = "fwupd 2.0.8-1"
+version = "2.0.8-1"
 description = "A simple daemon to allow session software to update firmware"
-date = "2025-03-26T10:56:07"
+date = "2025-04-10T13:23:16"
 aliases = "/packages/219170"
 categories = ['apps']
 upstreamurl = "https://github.com/fwupd/fwupd"
 arch = "x86_64"
-size = "8314752"
-usize = "51220472"
-sha1sum = "08a43aafdfdc122e9b032463250a048e31fae7fa"
+size = "8337512"
+usize = "51453846"
+sha1sum = "9deff24992c77b4fe8ec8f7d90ee629f84eb7830"
 depends = "['appstream-glib', 'colord', 'efivar', 'flashrom', 'fwupd-efi', 'gnu-efi', 'gpgme', 'gsettings-desktop-schemas', 'libarchive', 'libcbor>=0.12.0', 'libgusb', 'libjcat', 'libqmi', 'libsmbios', 'libxmlb>=0.3.19', 'modemmanager', 'passim', 'protobuf-c', 'tpm2-tss', 'udisks2']"
 reverse_depends = "['discover', 'kinfocenter']"
 +++
@@ -50,11 +50,11 @@ A simple daemon to allow session software to update firmware
 * /usr/include/fwupd-3/libfwupd/fwupd-request.h
 * /usr/include/fwupd-3/libfwupd/fwupd-security-attr.h
 * /usr/include/fwupd-3/libfwupd/fwupd-version.h
-* /usr/lib/fwupd-2.0.7/libfu_plugin_flashrom.so
-* /usr/lib/fwupd-2.0.7/libfu_plugin_modem_manager.so
-* /usr/lib/fwupd-2.0.7/libfwupdengine.so
-* /usr/lib/fwupd-2.0.7/libfwupdplugin.so
-* /usr/lib/fwupd-2.0.7/libfwupdutil.so
+* /usr/lib/fwupd-2.0.8/libfu_plugin_flashrom.so
+* /usr/lib/fwupd-2.0.8/libfu_plugin_modem_manager.so
+* /usr/lib/fwupd-2.0.8/libfwupdengine.so
+* /usr/lib/fwupd-2.0.8/libfwupdplugin.so
+* /usr/lib/fwupd-2.0.8/libfwupdutil.so
 * /usr/lib/fwupd/fwupd
 * /usr/lib/fwupd/fwupd-detect-cet
 * /usr/lib/girepository-1.0/Fwupd-2.0.typelib
@@ -100,9 +100,9 @@ A simple daemon to allow session software to update firmware
 * /usr/share/dbus-1/interfaces/org.freedesktop.fwupd.xml
 * /usr/share/dbus-1/system-services/org.freedesktop.fwupd.service
 * /usr/share/dbus-1/system.d/org.freedesktop.fwupd.conf
-* /usr/share/doc/fwupd-2.0.7/COPYING
-* /usr/share/doc/fwupd-2.0.7/README.md
-* /usr/share/doc/fwupd-2.0.7/RELEASE
+* /usr/share/doc/fwupd-2.0.8/COPYING
+* /usr/share/doc/fwupd-2.0.8/README.md
+* /usr/share/doc/fwupd-2.0.8/RELEASE
 * /usr/share/doc/fwupd/hsi.html
 * /usr/share/doc/fwupd/index.html
 * /usr/share/doc/fwupd/libfwupd
@@ -264,6 +264,7 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupd/const.SECURITY_ATTR_ID_TPM_RECONSTRUCTION_PCR0.html
 * /usr/share/doc/libfwupd/const.SECURITY_ATTR_ID_TPM_VERSION_20.html
 * /usr/share/doc/libfwupd/const.SECURITY_ATTR_ID_UEFI_BOOTSERVICE_VARS.html
+* /usr/share/doc/libfwupd/const.SECURITY_ATTR_ID_UEFI_DB.html
 * /usr/share/doc/libfwupd/const.SECURITY_ATTR_ID_UEFI_MEMORY_PROTECTION.html
 * /usr/share/doc/libfwupd/const.SECURITY_ATTR_ID_UEFI_PK.html
 * /usr/share/doc/libfwupd/const.SECURITY_ATTR_ID_UEFI_SECUREBOOT.html
@@ -1171,6 +1172,8 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupdplugin/class.EfiSignatureList.html
 * /usr/share/doc/libfwupdplugin/class.Efivars.html
 * /usr/share/doc/libfwupdplugin/class.EfiVolume.html
+* /usr/share/doc/libfwupdplugin/class.EfiX509Device.html
+* /usr/share/doc/libfwupdplugin/class.EfiX509Signature.html
 * /usr/share/doc/libfwupdplugin/class.ElfFirmware.html
 * /usr/share/doc/libfwupdplugin/class.FdtFirmware.html
 * /usr/share/doc/libfwupdplugin/class.FdtImage.html
@@ -1502,6 +1505,7 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupdplugin/ctor.EfiSignatureList.new.html
 * /usr/share/doc/libfwupdplugin/ctor.Efivars.new.html
 * /usr/share/doc/libfwupdplugin/ctor.EfiVolume.new.html
+* /usr/share/doc/libfwupdplugin/ctor.EfiX509Device.new.html
 * /usr/share/doc/libfwupdplugin/ctor.ElfFirmware.new.html
 * /usr/share/doc/libfwupdplugin/ctor.FdtFirmware.new.html
 * /usr/share/doc/libfwupdplugin/ctor.FdtImage.new.html
@@ -3001,6 +3005,7 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupdplugin/method.Device.get_firmware_gtype.html
 * /usr/share/doc/libfwupdplugin/method.Device.get_firmware_size_max.html
 * /usr/share/doc/libfwupdplugin/method.Device.get_firmware_size_min.html
+* /usr/share/doc/libfwupdplugin/method.Device.get_fwupd_version.html
 * /usr/share/doc/libfwupdplugin/method.Device.get_instance_str.html
 * /usr/share/doc/libfwupdplugin/method.Device.get_logical_id.html
 * /usr/share/doc/libfwupdplugin/method.Device.get_metadata.html
@@ -3087,6 +3092,7 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupdplugin/method.Device.set_firmware_size.html
 * /usr/share/doc/libfwupdplugin/method.Device.set_firmware_size_max.html
 * /usr/share/doc/libfwupdplugin/method.Device.set_firmware_size_min.html
+* /usr/share/doc/libfwupdplugin/method.Device.set_fwupd_version.html
 * /usr/share/doc/libfwupdplugin/method.Device.set_id.html
 * /usr/share/doc/libfwupdplugin/method.Device.set_logical_id.html
 * /usr/share/doc/libfwupdplugin/method.Device.set_metadata.html
@@ -3182,6 +3188,7 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupdplugin/method.EfiLoadOption.set_metadata.html
 * /usr/share/doc/libfwupdplugin/method.EfiSignature.get_kind.html
 * /usr/share/doc/libfwupdplugin/method.EfiSignature.get_owner.html
+* /usr/share/doc/libfwupdplugin/method.EfiSignatureList.get_newest.html
 * /usr/share/doc/libfwupdplugin/method.Efivars.create_boot_entry_for_volume.html
 * /usr/share/doc/libfwupdplugin/method.Efivars.delete.html
 * /usr/share/doc/libfwupdplugin/method.Efivars.delete_with_glob.html
@@ -3205,6 +3212,10 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupdplugin/method.Efivars.set_data_bytes.html
 * /usr/share/doc/libfwupdplugin/method.Efivars.space_used.html
 * /usr/share/doc/libfwupdplugin/method.Efivars.supported.html
+* /usr/share/doc/libfwupdplugin/method.EfiX509Signature.get_issuer.html
+* /usr/share/doc/libfwupdplugin/method.EfiX509Signature.get_subject.html
+* /usr/share/doc/libfwupdplugin/method.EfiX509Signature.get_subject_name.html
+* /usr/share/doc/libfwupdplugin/method.EfiX509Signature.get_subject_vendor.html
 * /usr/share/doc/libfwupdplugin/method.FdtFirmware.get_cpuid.html
 * /usr/share/doc/libfwupdplugin/method.FdtFirmware.get_image_by_path.html
 * /usr/share/doc/libfwupdplugin/method.FdtFirmware.set_cpuid.html
@@ -3836,8 +3847,10 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupdplugin/type_func.Volume.kind_convert_to_gpt.html
 * /usr/share/doc/libfwupdplugin/type_func.Volume.new_by_kind.html
 * /usr/share/doc/libfwupdplugin/uefi-capsule-README.html
+* /usr/share/doc/libfwupdplugin/uefi-db-README.html
 * /usr/share/doc/libfwupdplugin/uefi-dbx-README.html
 * /usr/share/doc/libfwupdplugin/uefi-esrt-README.html
+* /usr/share/doc/libfwupdplugin/uefi-kek-README.html
 * /usr/share/doc/libfwupdplugin/uefi-mok-README.html
 * /usr/share/doc/libfwupdplugin/uefi-pk-README.html
 * /usr/share/doc/libfwupdplugin/uefi-recovery-README.html

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "wine-devel 10.4-1"
-version = "10.4-1"
+title = "wine-devel 10.5-1"
+version = "10.5-1"
 description = "An Open Source implementation of the Windows API on top of X and Unix. (Development)"
-date = "2025-03-24T13:58:44"
+date = "2025-04-10T13:51:26"
 aliases = "/packages/136362"
 categories = ['xapps-extra']
 upstreamurl = "http://www.winehq.org"
 arch = "x86_64"
-size = "74641212"
-usize = "606682457"
-sha1sum = "9befa2c3f8452f0f541671c072538b6c52559bdb"
+size = "74739244"
+usize = "607072288"
+sha1sum = "202d05074a93c961c13e7fe4b9763a96dca78b8d"
 depends = "['faudio', 'gettext', 'gst1-plugins-base', 'lcms2', 'lib32-faudio', 'lib32-freetype2', 'lib32-lcms2', 'lib32-libldap>=2.5.4', 'lib32-libosmesa', 'lib32-libxcomposite', 'lib32-libxcursor', 'lib32-libxi', 'lib32-libxinerama', 'lib32-libxkbcommon', 'lib32-libxml2', 'lib32-libxrandr', 'lib32-libxrender', 'lib32-ncurses', 'lib32-ocl-icd', 'lib32-vkd3d', 'lib32-vulkan-icd-loader', 'lib32-wayland', 'libglu', 'libgphoto2', 'libldap>=2.5.4', 'libmpg123', 'libosmesa', 'libpcap', 'libpulse', 'libxcomposite', 'libxcursor', 'libxi', 'libxinerama', 'libxkbcommon', 'libxml2', 'libxrandr', 'libxrender', 'libxslt', 'ocl-icd', 'openal', 'pcsc-lite', 'sane-backends', 'v4l-utils', 'vkd3d', 'vulkan-icd-loader', 'wayland']"
 +++
 ### Description: 
@@ -865,6 +865,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/include/wine/windows/physicalmonitorenumerationapi.h
 * /usr/include/wine/windows/pktdef.h
 * /usr/include/wine/windows/poppack.h
+* /usr/include/wine/windows/powersetting.h
 * /usr/include/wine/windows/powrprof.h
 * /usr/include/wine/windows/prntvpt.h
 * /usr/include/wine/windows/processthreadsapi.h
@@ -5044,11 +5045,11 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib/wine/x86_64-windows/xpsprint.dll
 * /usr/lib/wine/x86_64-windows/xpssvcs.dll
 * /usr/share/applications/wine.desktop
-* /usr/share/doc/wine-devel-10.4/AUTHORS
-* /usr/share/doc/wine-devel-10.4/COPYING.LIB
-* /usr/share/doc/wine-devel-10.4/LICENSE
-* /usr/share/doc/wine-devel-10.4/README.md
-* /usr/share/doc/wine-devel-10.4/VERSION
+* /usr/share/doc/wine-devel-10.5/AUTHORS
+* /usr/share/doc/wine-devel-10.5/COPYING.LIB
+* /usr/share/doc/wine-devel-10.5/LICENSE
+* /usr/share/doc/wine-devel-10.5/README.md
+* /usr/share/doc/wine-devel-10.5/VERSION
 * /usr/share/man/de.UTF-8/man1/wine.1.gz
 * /usr/share/man/de.UTF-8/man1/winemaker.1.gz
 * /usr/share/man/de.UTF-8/man1/wineserver.1.gz

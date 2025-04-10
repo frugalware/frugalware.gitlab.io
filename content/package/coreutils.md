@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "coreutils 9.6-1"
-version = "9.6-1"
+title = "coreutils 9.7-1"
+version = "9.7-1"
 description = "These are the GNU core utilities, the basic command line programs"
-date = "2025-01-19T18:49:47"
+date = "2025-04-10T13:18:50"
 aliases = "/packages/2357"
 categories = ['base']
 upstreamurl = "http://www.gnu.org/software/coreutils"
 arch = "x86_64"
-size = "2982144"
-usize = "17157288"
-sha1sum = "5c27966c5c94a3052f7be9453008e628eb92c874"
+size = "3003216"
+usize = "17348765"
+sha1sum = "b83e14cce13133411881bf6067c6079f7426623f"
 depends = "['bash>=4.4.12-3', 'glibc>=2.35', 'gmp>=6.1.2-6', 'libcap>=2.25-8', 'xfsprogs-acl>=2.2.52-7', 'xfsprogs-attr>=2.4.47-8']"
 reverse_depends = "['e2fsprogs', 'expat', 'inxi', 'kernel-initrd', 'kernel-lts-initrd', 'pacman-g2', 'pulse-autoconf', 'scriptlet-core', 'syslinux']"
 +++
@@ -127,15 +127,19 @@ These are the GNU core utilities, the basic command line programs
 * /usr/bin/yes
 * /usr/bin/[
 * /usr/lib/coreutils/coreutils/libstdbuf.so
-* /usr/share/doc/coreutils-9.6/AUTHORS
-* /usr/share/doc/coreutils-9.6/ChangeLog
-* /usr/share/doc/coreutils-9.6/COPYING
-* /usr/share/doc/coreutils-9.6/INSTALL
-* /usr/share/doc/coreutils-9.6/NEWS
-* /usr/share/doc/coreutils-9.6/README
-* /usr/share/doc/coreutils-9.6/README-install
-* /usr/share/doc/coreutils-9.6/THANKS
-* /usr/share/doc/coreutils-9.6/TODO
+* /usr/share/doc/coreutils-9.7/AUTHORS
+* /usr/share/doc/coreutils-9.7/ChangeLog
+* /usr/share/doc/coreutils-9.7/COPYING
+* /usr/share/doc/coreutils-9.7/INSTALL
+* /usr/share/doc/coreutils-9.7/NEWS
+* /usr/share/doc/coreutils-9.7/README
+* /usr/share/doc/coreutils-9.7/README-install
+* /usr/share/doc/coreutils-9.7/THANKS
+* /usr/share/doc/coreutils-9.7/TODO
+* /usr/share/doc/coreutils-9.7/xsane-WIN32-README.txt
+* /usr/share/doc/coreutils-9.7/xsane.BUGS
+* /usr/share/doc/coreutils-9.7/xsane.COPYING
+* /usr/share/doc/coreutils-9.7/xsane.FAQ
 * /usr/share/info/coreutils.info.gz
 * /usr/share/locale/af/LC_MESSAGES/coreutils.mo
 * /usr/share/locale/af/LC_TIME/coreutils.mo

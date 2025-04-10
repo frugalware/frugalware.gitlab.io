@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "slack-desktop 4.41.105-1"
-version = "4.41.105-1"
+title = "slack-desktop 4.43.51-1"
+version = "4.43.51-1"
 description = "Slack Desktop (Beta) for Linux"
-date = "2024-12-18T14:15:49"
+date = "2025-04-10T13:57:51"
 aliases = "/packages/220944"
 categories = ['xapps-extra']
 upstreamurl = "https://slack.com/downloads"
 arch = "x86_64"
-size = "81915864"
-usize = "298455444"
-sha1sum = "6caa6a63d9bf986107b5128e2ac22fcf486fe38a"
+size = "83842440"
+usize = "303035791"
+sha1sum = "82f8ec02917e6be33c0439d0bbd68b360169c7d2"
 depends = "['gtk+3', 'libappindicator', 'libsecret', 'libxscrnsaver', 'nss', 'xdg-utils']"
 +++
 ### Description: 
