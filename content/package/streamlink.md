@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "streamlink 7.1.3-1"
-version = "7.1.3-1"
+title = "streamlink 7.2.0-1"
+version = "7.2.0-1"
 description = "CLI program that launches streams from various streaming services in a custom video player"
-date = "2025-02-15T19:10:18"
+date = "2025-04-10T07:23:58"
 aliases = "/packages/220284"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/streamlink/streamlink"
 arch = "x86_64"
-size = "806060"
-usize = "4044179"
-sha1sum = "1c97d9fa2b0867b91d9b675f2f413e83bdc3cfef"
+size = "815644"
+usize = "4098561"
+sha1sum = "cdae0691ddf36e025422f25bd52ebee50bad89eb"
 depends = "['ffmpeg', 'python3-isodate', 'python3-pycountry', 'python3-pycryptodome', 'python3-requests', 'python3-websocket_client', 'rtmpdump']"
 +++
 ### Description: 
@@ -122,7 +122,6 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.13/site-packages/streamlink/plugins/nicolive.py
 * /usr/lib/python3.13/site-packages/streamlink/plugins/nimotv.py
 * /usr/lib/python3.13/site-packages/streamlink/plugins/nos.py
-* /usr/lib/python3.13/site-packages/streamlink/plugins/nowtvtr.py
 * /usr/lib/python3.13/site-packages/streamlink/plugins/nrk.py
 * /usr/lib/python3.13/site-packages/streamlink/plugins/okru.py
 * /usr/lib/python3.13/site-packages/streamlink/plugins/olympicchannel.py
@@ -261,7 +260,6 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.13/site-packages/streamlink/plugins/__pycache__/nicolive.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink/plugins/__pycache__/nimotv.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink/plugins/__pycache__/nos.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/streamlink/plugins/__pycache__/nowtvtr.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink/plugins/__pycache__/nrk.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink/plugins/__pycache__/okru.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink/plugins/__pycache__/olympicchannel.cpython-313.pyc
@@ -526,6 +524,6 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.13/site-packages/streamlink_cli/__pycache__/_parser.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink_cli/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink_cli/__pycache__/__main__.cpython-313.pyc
-* /usr/share/doc/streamlink-7.1.3/AUTHORS
-* /usr/share/doc/streamlink-7.1.3/LICENSE
-* /usr/share/doc/streamlink-7.1.3/README.md
+* /usr/share/doc/streamlink-7.2.0/AUTHORS
+* /usr/share/doc/streamlink-7.2.0/LICENSE
+* /usr/share/doc/streamlink-7.2.0/README.md

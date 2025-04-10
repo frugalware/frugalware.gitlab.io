@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "netpbm 10.86.45-1"
-version = "10.86.45-1"
+title = "netpbm 10.86.46-1"
+version = "10.86.46-1"
 description = "A toolkit for manipulation of graphic images"
-date = "2025-04-01T11:22:29"
+date = "2025-04-10T07:28:04"
 aliases = "/packages/3258"
 categories = ['xapps-extra']
 upstreamurl = "https://sourceforge.net/projects/netpbm"
 arch = "x86_64"
-size = "2413560"
-usize = "6809247"
-sha1sum = "3edc5573bf1d6466c5f9d080a077e1d0a3d75659"
+size = "2413968"
+usize = "6811390"
+sha1sum = "c0502de74e8cc696ec7825a7af1e89fd416348b5"
 depends = "['icu4c>=77.1', 'libjpeg-turbo', 'libpng', 'libtiff>=4.7.0', 'libx11', 'libxml2']"
 reverse_depends = "['latex2html']"
 +++
@@ -416,7 +416,7 @@ A toolkit for manipulation of graphic images
 * /usr/include/netpbm/shhopt.h
 * /usr/lib/libnetpbm.so.11
 * /usr/lib/libnetpbm.so.11.86
-* /usr/share/doc/netpbm-10.86.45/README
+* /usr/share/doc/netpbm-10.86.46/README
 * /usr/share/netpbm/palmcolor8.map
 * /usr/share/netpbm/palmgray1.map
 * /usr/share/netpbm/palmgray2.map

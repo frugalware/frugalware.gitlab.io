@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gst1-plugins-good-vpx 1.26.0-1"
-version = "1.26.0-1"
+title = "gst1-plugins-good-vpx 1.26.0-2"
+version = "1.26.0-2"
 description = "GStreamer vpx plugin (Good)."
-date = "2025-03-12T08:24:30"
+date = "2025-04-10T07:59:53"
 aliases = "/packages/168870"
 categories = ['xmultimedia']
 upstreamurl = "https://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "38720"
+size = "38788"
 usize = "91720"
-sha1sum = "4b98dae7f6df807242ef203c988d83f3ab2363db"
-depends = "['gst1-plugins-base>=1.26.0', 'gst1-plugins-good>=1.26.0', 'libffi>=3.2.1-2', 'libvpx>=1.13.0']"
+sha1sum = "ac0ea684dd5077d36fa6b0b01e7ff003341d8473"
+depends = "['gst1-plugins-base>=1.26.0', 'gst1-plugins-good>=1.26.0', 'libffi>=3.2.1-2', 'libvpx>=1.15.1']"
 reverse_depends = "['vokoscreenng']"
 +++
 ### Description: 

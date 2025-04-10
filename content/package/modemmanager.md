@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "modemmanager 1.22.0-1"
-version = "1.22.0-1"
+title = "modemmanager 1.24.0-1"
+version = "1.24.0-1"
 description = "Mobile broadband modem management service"
-date = "2024-04-05T13:38:55"
+date = "2025-04-10T07:14:05"
 aliases = "/packages/118788"
 categories = ['base']
 upstreamurl = "http://www.freedesktop.org/wiki/Software/ModemManager/"
 arch = "x86_64"
-size = "1494784"
-usize = "11479755"
-sha1sum = "fbf4619eb43cbf6d4d3226f7514400234b83a99a"
+size = "1620300"
+usize = "12052364"
+sha1sum = "df3277310d1399dcf6d22d2a192200818fdcac88"
 depends = "['elfutils>=0.167-2', 'libgudev>=231-2', 'libqmi', 'libsystemd>=242', 'polkit', 'ppp>=2.5.0']"
 reverse_depends = "['fwupd', 'geoclue2', 'modemmanager-qt', 'modemmanager-qt5', 'networkmanager', 'ofono']"
 +++
@@ -30,6 +30,7 @@ Mobile broadband modem management service
 * /usr/include/libmm-glib/mm-call-audio-format.h
 * /usr/include/libmm-glib/mm-call-properties.h
 * /usr/include/libmm-glib/mm-call.h
+* /usr/include/libmm-glib/mm-cbm.h
 * /usr/include/libmm-glib/mm-cdma-manual-activation-properties.h
 * /usr/include/libmm-glib/mm-cell-info-cdma.h
 * /usr/include/libmm-glib/mm-cell-info-gsm.h
@@ -46,6 +47,7 @@ Mobile broadband modem management service
 * /usr/include/libmm-glib/mm-flags-types.h
 * /usr/include/libmm-glib/mm-gdbus-bearer.h
 * /usr/include/libmm-glib/mm-gdbus-call.h
+* /usr/include/libmm-glib/mm-gdbus-cbm.h
 * /usr/include/libmm-glib/mm-gdbus-manager.h
 * /usr/include/libmm-glib/mm-gdbus-modem.h
 * /usr/include/libmm-glib/mm-gdbus-sim.h
@@ -62,6 +64,7 @@ Mobile broadband modem management service
 * /usr/include/libmm-glib/mm-modem-3gpp-ussd.h
 * /usr/include/libmm-glib/mm-modem-3gpp.h
 * /usr/include/libmm-glib/mm-modem-cdma.h
+* /usr/include/libmm-glib/mm-modem-cell-broadcast.h
 * /usr/include/libmm-glib/mm-modem-firmware.h
 * /usr/include/libmm-glib/mm-modem-location.h
 * /usr/include/libmm-glib/mm-modem-messaging.h
@@ -72,6 +75,7 @@ Mobile broadband modem management service
 * /usr/include/libmm-glib/mm-modem-time.h
 * /usr/include/libmm-glib/mm-modem-voice.h
 * /usr/include/libmm-glib/mm-modem.h
+* /usr/include/libmm-glib/mm-network-rejection.h
 * /usr/include/libmm-glib/mm-network-timezone.h
 * /usr/include/libmm-glib/mm-nr5g-registration-settings.h
 * /usr/include/libmm-glib/mm-object.h
@@ -94,10 +98,11 @@ Mobile broadband modem management service
 * /usr/lib/girepository-1.0/ModemManager-1.0.typelib
 * /usr/lib/libmm-glib.so
 * /usr/lib/libmm-glib.so.0
-* /usr/lib/libmm-glib.so.0.10.0
+* /usr/lib/libmm-glib.so.0.11.0
 * /usr/lib/ModemManager/libmm-plugin-altair-lte.so
 * /usr/lib/ModemManager/libmm-plugin-anydata.so
 * /usr/lib/ModemManager/libmm-plugin-broadmobi.so
+* /usr/lib/ModemManager/libmm-plugin-cellient.so
 * /usr/lib/ModemManager/libmm-plugin-cinterion.so
 * /usr/lib/ModemManager/libmm-plugin-dell.so
 * /usr/lib/ModemManager/libmm-plugin-dlink.so
@@ -113,7 +118,9 @@ Mobile broadband modem management service
 * /usr/lib/ModemManager/libmm-plugin-linktop.so
 * /usr/lib/ModemManager/libmm-plugin-longcheer.so
 * /usr/lib/ModemManager/libmm-plugin-motorola.so
+* /usr/lib/ModemManager/libmm-plugin-mtk-legacy.so
 * /usr/lib/ModemManager/libmm-plugin-mtk.so
+* /usr/lib/ModemManager/libmm-plugin-netprisma.so
 * /usr/lib/ModemManager/libmm-plugin-nokia-icera.so
 * /usr/lib/ModemManager/libmm-plugin-nokia.so
 * /usr/lib/ModemManager/libmm-plugin-novatel-lte.so
@@ -123,6 +130,7 @@ Mobile broadband modem management service
 * /usr/lib/ModemManager/libmm-plugin-pantech.so
 * /usr/lib/ModemManager/libmm-plugin-qcom-soc.so
 * /usr/lib/ModemManager/libmm-plugin-quectel.so
+* /usr/lib/ModemManager/libmm-plugin-rolling.so
 * /usr/lib/ModemManager/libmm-plugin-samsung.so
 * /usr/lib/ModemManager/libmm-plugin-sierra-legacy.so
 * /usr/lib/ModemManager/libmm-plugin-sierra.so
@@ -138,8 +146,10 @@ Mobile broadband modem management service
 * /usr/lib/ModemManager/libmm-shared-fibocom.so
 * /usr/lib/ModemManager/libmm-shared-foxconn.so
 * /usr/lib/ModemManager/libmm-shared-icera.so
+* /usr/lib/ModemManager/libmm-shared-mtk.so
 * /usr/lib/ModemManager/libmm-shared-novatel.so
 * /usr/lib/ModemManager/libmm-shared-option.so
+* /usr/lib/ModemManager/libmm-shared-quectel.so
 * /usr/lib/ModemManager/libmm-shared-sierra.so
 * /usr/lib/ModemManager/libmm-shared-telit.so
 * /usr/lib/ModemManager/libmm-shared-xmm.so
@@ -147,6 +157,7 @@ Mobile broadband modem management service
 * /usr/lib/pkgconfig/ModemManager.pc
 * /usr/lib/systemd/system/ModemManager.service
 * /usr/lib/udev/rules.d/77-mm-broadmobi-port-types.rules
+* /usr/lib/udev/rules.d/77-mm-cellient.rules
 * /usr/lib/udev/rules.d/77-mm-cinterion-port-types.rules
 * /usr/lib/udev/rules.d/77-mm-dell-port-types.rules
 * /usr/lib/udev/rules.d/77-mm-dlink-port-types.rules
@@ -158,10 +169,12 @@ Mobile broadband modem management service
 * /usr/lib/udev/rules.d/77-mm-huawei-net-port-types.rules
 * /usr/lib/udev/rules.d/77-mm-linktop-port-types.rules
 * /usr/lib/udev/rules.d/77-mm-longcheer-port-types.rules
-* /usr/lib/udev/rules.d/77-mm-mtk-port-types.rules
+* /usr/lib/udev/rules.d/77-mm-mtk-legacy-port-types.rules
+* /usr/lib/udev/rules.d/77-mm-netprisma-port-types.rules
 * /usr/lib/udev/rules.d/77-mm-nokia-port-types.rules
 * /usr/lib/udev/rules.d/77-mm-qcom-soc.rules
 * /usr/lib/udev/rules.d/77-mm-quectel-port-types.rules
+* /usr/lib/udev/rules.d/77-mm-rolling-port-types.rules
 * /usr/lib/udev/rules.d/77-mm-sierra.rules
 * /usr/lib/udev/rules.d/77-mm-simtech-port-types.rules
 * /usr/lib/udev/rules.d/77-mm-telit-port-types.rules
@@ -173,6 +186,8 @@ Mobile broadband modem management service
 * /usr/share/bash-completion/completions/mmcli
 * /usr/share/dbus-1/interfaces/org.freedesktop.ModemManager1.Bearer.xml
 * /usr/share/dbus-1/interfaces/org.freedesktop.ModemManager1.Call.xml
+* /usr/share/dbus-1/interfaces/org.freedesktop.ModemManager1.Cbm.xml
+* /usr/share/dbus-1/interfaces/org.freedesktop.ModemManager1.Modem.CellBroadcast.xml
 * /usr/share/dbus-1/interfaces/org.freedesktop.ModemManager1.Modem.Firmware.xml
 * /usr/share/dbus-1/interfaces/org.freedesktop.ModemManager1.Modem.Location.xml
 * /usr/share/dbus-1/interfaces/org.freedesktop.ModemManager1.Modem.Messaging.xml
@@ -191,11 +206,11 @@ Mobile broadband modem management service
 * /usr/share/dbus-1/interfaces/org.freedesktop.ModemManager1.Sms.xml
 * /usr/share/dbus-1/interfaces/org.freedesktop.ModemManager1.xml
 * /usr/share/dbus-1/system-services/org.freedesktop.ModemManager1.service
-* /usr/share/doc/modemmanager-1.22.0/AUTHORS
-* /usr/share/doc/modemmanager-1.22.0/COPYING
-* /usr/share/doc/modemmanager-1.22.0/COPYING.LIB
-* /usr/share/doc/modemmanager-1.22.0/NEWS
-* /usr/share/doc/modemmanager-1.22.0/README
+* /usr/share/doc/modemmanager-1.24.0/AUTHORS
+* /usr/share/doc/modemmanager-1.24.0/COPYING
+* /usr/share/doc/modemmanager-1.24.0/COPYING.LIB
+* /usr/share/doc/modemmanager-1.24.0/NEWS
+* /usr/share/doc/modemmanager-1.24.0/README.md
 * /usr/share/gir-1.0/ModemManager-1.0.gir
 * /usr/share/icons/hicolor/22x22/apps/ModemManager.png
 * /usr/share/locale/ca/LC_MESSAGES/ModemManager.mo
@@ -230,11 +245,18 @@ Mobile broadband modem management service
 * /usr/share/ModemManager/fcc-unlock.available.d/105b:e0c3
 * /usr/share/ModemManager/fcc-unlock.available.d/1199
 * /usr/share/ModemManager/fcc-unlock.available.d/1199:9079
-* /usr/share/ModemManager/fcc-unlock.available.d/1eac
+* /usr/share/ModemManager/fcc-unlock.available.d/14c3
+* /usr/share/ModemManager/fcc-unlock.available.d/14c3:4d75
 * /usr/share/ModemManager/fcc-unlock.available.d/1eac:1001
+* /usr/share/ModemManager/fcc-unlock.available.d/1eac:1004
+* /usr/share/ModemManager/fcc-unlock.available.d/1eac:1007
 * /usr/share/ModemManager/fcc-unlock.available.d/2c7c
 * /usr/share/ModemManager/fcc-unlock.available.d/2c7c:030a
+* /usr/share/ModemManager/fcc-unlock.available.d/2c7c:0313
+* /usr/share/ModemManager/fcc-unlock.available.d/2c7c:0314
+* /usr/share/ModemManager/fcc-unlock.available.d/2c7c:0801
 * /usr/share/ModemManager/fcc-unlock.available.d/413c:81a3
 * /usr/share/ModemManager/fcc-unlock.available.d/413c:81a8
 * /usr/share/ModemManager/mm-foxconn-t77w968-carrier-mapping.conf
+* /usr/share/ModemManager/modem-setup.available.d/0000:0000
 * /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy

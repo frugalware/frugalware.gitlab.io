@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-modemmanager 1.22.0-1"
-version = "1.22.0-1"
+title = "lib32-modemmanager 1.24.0-1"
+version = "1.24.0-1"
 description = "Mobile broadband modem management service ( 32bit )"
-date = "2024-04-05T13:38:55"
+date = "2025-04-10T07:14:05"
 aliases = "/packages/218955"
 categories = ['lib32-extra']
 upstreamurl = "http://www.freedesktop.org/wiki/Software/ModemManager/"
 arch = "x86_64"
-size = "970140"
-usize = "5428696"
-sha1sum = "059b542c0e7893554fe26707553adc6c5b60a7c0"
+size = "1077472"
+usize = "5783741"
+sha1sum = "a7f8e02d22d2f6b24e087edd1e97c34cc824f146"
 depends = "['lib32-libgudev', 'lib32-libsystemd']"
 reverse_depends = "['lib32-networkmanager']"
 +++
@@ -29,6 +29,7 @@ Mobile broadband modem management service ( 32bit )
 * /usr/i686-frugalware-linux/include/libmm-glib/mm-call-audio-format.h
 * /usr/i686-frugalware-linux/include/libmm-glib/mm-call-properties.h
 * /usr/i686-frugalware-linux/include/libmm-glib/mm-call.h
+* /usr/i686-frugalware-linux/include/libmm-glib/mm-cbm.h
 * /usr/i686-frugalware-linux/include/libmm-glib/mm-cdma-manual-activation-properties.h
 * /usr/i686-frugalware-linux/include/libmm-glib/mm-cell-info-cdma.h
 * /usr/i686-frugalware-linux/include/libmm-glib/mm-cell-info-gsm.h
@@ -45,6 +46,7 @@ Mobile broadband modem management service ( 32bit )
 * /usr/i686-frugalware-linux/include/libmm-glib/mm-flags-types.h
 * /usr/i686-frugalware-linux/include/libmm-glib/mm-gdbus-bearer.h
 * /usr/i686-frugalware-linux/include/libmm-glib/mm-gdbus-call.h
+* /usr/i686-frugalware-linux/include/libmm-glib/mm-gdbus-cbm.h
 * /usr/i686-frugalware-linux/include/libmm-glib/mm-gdbus-manager.h
 * /usr/i686-frugalware-linux/include/libmm-glib/mm-gdbus-modem.h
 * /usr/i686-frugalware-linux/include/libmm-glib/mm-gdbus-sim.h
@@ -61,6 +63,7 @@ Mobile broadband modem management service ( 32bit )
 * /usr/i686-frugalware-linux/include/libmm-glib/mm-modem-3gpp-ussd.h
 * /usr/i686-frugalware-linux/include/libmm-glib/mm-modem-3gpp.h
 * /usr/i686-frugalware-linux/include/libmm-glib/mm-modem-cdma.h
+* /usr/i686-frugalware-linux/include/libmm-glib/mm-modem-cell-broadcast.h
 * /usr/i686-frugalware-linux/include/libmm-glib/mm-modem-firmware.h
 * /usr/i686-frugalware-linux/include/libmm-glib/mm-modem-location.h
 * /usr/i686-frugalware-linux/include/libmm-glib/mm-modem-messaging.h
@@ -71,6 +74,7 @@ Mobile broadband modem management service ( 32bit )
 * /usr/i686-frugalware-linux/include/libmm-glib/mm-modem-time.h
 * /usr/i686-frugalware-linux/include/libmm-glib/mm-modem-voice.h
 * /usr/i686-frugalware-linux/include/libmm-glib/mm-modem.h
+* /usr/i686-frugalware-linux/include/libmm-glib/mm-network-rejection.h
 * /usr/i686-frugalware-linux/include/libmm-glib/mm-network-timezone.h
 * /usr/i686-frugalware-linux/include/libmm-glib/mm-nr5g-registration-settings.h
 * /usr/i686-frugalware-linux/include/libmm-glib/mm-object.h
@@ -92,10 +96,11 @@ Mobile broadband modem management service ( 32bit )
 * /usr/i686-frugalware-linux/include/ModemManager/ModemManager.h
 * /usr/lib32/libmm-glib.so
 * /usr/lib32/libmm-glib.so.0
-* /usr/lib32/libmm-glib.so.0.10.0
+* /usr/lib32/libmm-glib.so.0.11.0
 * /usr/lib32/ModemManager/libmm-plugin-altair-lte.so
 * /usr/lib32/ModemManager/libmm-plugin-anydata.so
 * /usr/lib32/ModemManager/libmm-plugin-broadmobi.so
+* /usr/lib32/ModemManager/libmm-plugin-cellient.so
 * /usr/lib32/ModemManager/libmm-plugin-cinterion.so
 * /usr/lib32/ModemManager/libmm-plugin-dell.so
 * /usr/lib32/ModemManager/libmm-plugin-dlink.so
@@ -110,7 +115,9 @@ Mobile broadband modem management service ( 32bit )
 * /usr/lib32/ModemManager/libmm-plugin-linktop.so
 * /usr/lib32/ModemManager/libmm-plugin-longcheer.so
 * /usr/lib32/ModemManager/libmm-plugin-motorola.so
+* /usr/lib32/ModemManager/libmm-plugin-mtk-legacy.so
 * /usr/lib32/ModemManager/libmm-plugin-mtk.so
+* /usr/lib32/ModemManager/libmm-plugin-netprisma.so
 * /usr/lib32/ModemManager/libmm-plugin-nokia-icera.so
 * /usr/lib32/ModemManager/libmm-plugin-nokia.so
 * /usr/lib32/ModemManager/libmm-plugin-novatel-lte.so
@@ -119,6 +126,7 @@ Mobile broadband modem management service ( 32bit )
 * /usr/lib32/ModemManager/libmm-plugin-option.so
 * /usr/lib32/ModemManager/libmm-plugin-pantech.so
 * /usr/lib32/ModemManager/libmm-plugin-quectel.so
+* /usr/lib32/ModemManager/libmm-plugin-rolling.so
 * /usr/lib32/ModemManager/libmm-plugin-samsung.so
 * /usr/lib32/ModemManager/libmm-plugin-sierra-legacy.so
 * /usr/lib32/ModemManager/libmm-plugin-sierra.so
@@ -131,9 +139,12 @@ Mobile broadband modem management service ( 32bit )
 * /usr/lib32/ModemManager/libmm-plugin-wavecom.so
 * /usr/lib32/ModemManager/libmm-plugin-x22x.so
 * /usr/lib32/ModemManager/libmm-plugin-zte.so
+* /usr/lib32/ModemManager/libmm-shared-fibocom.so
 * /usr/lib32/ModemManager/libmm-shared-icera.so
+* /usr/lib32/ModemManager/libmm-shared-mtk.so
 * /usr/lib32/ModemManager/libmm-shared-novatel.so
 * /usr/lib32/ModemManager/libmm-shared-option.so
+* /usr/lib32/ModemManager/libmm-shared-quectel.so
 * /usr/lib32/ModemManager/libmm-shared-sierra.so
 * /usr/lib32/ModemManager/libmm-shared-telit.so
 * /usr/lib32/ModemManager/libmm-shared-xmm.so
