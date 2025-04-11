@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "yt-dlp 2025.03.25-1"
-version = "2025.03.25-1"
+title = "yt-dlp 2025.03.31-1"
+version = "2025.03.31-1"
 description = "A youtube-dl fork with additional features and fixes"
-date = "2025-03-25T15:20:28"
+date = "2025-04-11T19:15:06"
 aliases = "/packages/220963"
 categories = ['multimedia-extra']
 upstreamurl = "https://github.com/yt-dlp/yt-dlp"
 arch = "x86_64"
-size = "6255640"
-usize = "32862813"
-sha1sum = "0e5608b5390078838903516eefe1fe385abfa3ce"
+size = "6260916"
+usize = "32910344"
+sha1sum = "e2356901c515b785d9c5f0619ff8566d37d7716c"
 depends = "['ffmpeg', 'mutagen', 'rtmpdump']"
 reverse_depends = "['audiotube', 'plasmatube']"
 +++
@@ -19,12 +19,12 @@ A youtube-dl fork with additional features and fixes
 
 ### Files: 
 * /usr/bin/yt-dlp
-* /usr/lib/python3.13/site-packages/yt_dlp-2025.3.25.dist-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/yt_dlp-2025.3.25.dist-info/licenses/AUTHORS
-* /usr/lib/python3.13/site-packages/yt_dlp-2025.3.25.dist-info/licenses/LICENSE
-* /usr/lib/python3.13/site-packages/yt_dlp-2025.3.25.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/yt_dlp-2025.3.25.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/yt_dlp-2025.3.25.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/yt_dlp-2025.3.31.dist-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/yt_dlp-2025.3.31.dist-info/licenses/AUTHORS
+* /usr/lib/python3.13/site-packages/yt_dlp-2025.3.31.dist-info/licenses/LICENSE
+* /usr/lib/python3.13/site-packages/yt_dlp-2025.3.31.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/yt_dlp-2025.3.31.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/yt_dlp-2025.3.31.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/yt_dlp/aes.py
 * /usr/lib/python3.13/site-packages/yt_dlp/cache.py
 * /usr/lib/python3.13/site-packages/yt_dlp/compat/compat_utils.py
@@ -390,6 +390,7 @@ A youtube-dl fork with additional features and fixes
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/foxnews.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/foxsports.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/fptplay.py
+* /usr/lib/python3.13/site-packages/yt_dlp/extractor/francaisfacile.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/franceinter.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/francetv.py
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/freesound.py
@@ -1714,6 +1715,8 @@ A youtube-dl fork with additional features and fixes
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/foxsports.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/fptplay.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/fptplay.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/francaisfacile.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/francaisfacile.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/franceinter.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/franceinter.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/extractor/__pycache__/francetv.cpython-313.opt-1.pyc
@@ -3329,11 +3332,11 @@ A youtube-dl fork with additional features and fixes
 * /usr/lib/python3.13/site-packages/yt_dlp/__pyinstaller/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/yt_dlp/__pyinstaller/__pycache__/__init__.cpython-313.pyc
 * /usr/share/bash-completion/completions/yt-dlp
-* /usr/share/doc/yt-dlp-2025.03.25/AUTHORS
-* /usr/share/doc/yt-dlp-2025.03.25/CONTRIBUTORS
-* /usr/share/doc/yt-dlp-2025.03.25/LICENSE
-* /usr/share/doc/yt-dlp-2025.03.25/README.md
-* /usr/share/doc/yt-dlp-2025.03.25/README.txt
+* /usr/share/doc/yt-dlp-2025.03.31/AUTHORS
+* /usr/share/doc/yt-dlp-2025.03.31/CONTRIBUTORS
+* /usr/share/doc/yt-dlp-2025.03.31/LICENSE
+* /usr/share/doc/yt-dlp-2025.03.31/README.md
+* /usr/share/doc/yt-dlp-2025.03.31/README.txt
 * /usr/share/doc/yt_dlp/README.txt
 * /usr/share/fish/vendor_completions.d/yt-dlp.fish
 * /usr/share/man/man1/yt-dlp.1.gz
