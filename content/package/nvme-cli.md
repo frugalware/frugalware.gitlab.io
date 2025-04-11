@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "nvme-cli 2.12-1"
-version = "2.12-1"
+title = "nvme-cli 2.13-1"
+version = "2.13-1"
 description = "NVMe management command line interface."
-date = "2025-03-17T13:20:33"
+date = "2025-04-11T18:07:20"
 aliases = "/packages/219154"
 categories = ['apps-extra']
 upstreamurl = "http://nvmexpress.org/"
 arch = "x86_64"
-size = "527508"
-usize = "1697454"
-sha1sum = "e0dcf74808a808bbc4fe02bb789709175e6ee3ac"
+size = "534880"
+usize = "1719760"
+sha1sum = "8d1b9246280dccb0c7b27d4bfd9f92b20446a80e"
 depends = "['libnvme>=1.12', 'libsystemd', 'libuuid>=2.40.2']"
 +++
 ### Description: 
@@ -30,6 +30,6 @@ NVMe management command line interface.
 * /usr/lib/udev/rules.d/70-nvmf-keys.rules
 * /usr/lib/udev/rules.d/71-nvmf-netapp.rules
 * /usr/share/bash-completion/completions/nvme
-* /usr/share/doc/nvme-cli-2.12/LICENSE
-* /usr/share/doc/nvme-cli-2.12/README.md
+* /usr/share/doc/nvme-cli-2.13/LICENSE
+* /usr/share/doc/nvme-cli-2.13/README.md
 * /usr/share/zsh/site-functions/_nvme

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "suitesparse 7.10.1-1"
-version = "7.10.1-1"
+title = "suitesparse 7.10.2-1"
+version = "7.10.2-1"
 description = "A collection of sparse matrix libraries"
-date = "2025-03-10T16:21:03"
+date = "2025-04-11T18:13:00"
 aliases = "/packages/220120"
 categories = ['lib-extra']
 upstreamurl = "http://faculty.cse.tamu.edu/davis/suitesparse.html"
 arch = "x86_64"
-size = "8160316"
-usize = "50280705"
-sha1sum = "26a95408a2e5d0e09d8f5afaa745f27349249afe"
+size = "8166912"
+usize = "50283802"
+sha1sum = "b7ee5b9e7b56dc6604834a639e0aa63fb6cf58f7"
 depends = "['gmp', 'lapack', 'libgomp', 'mpfr']"
 reverse_depends = "['ceres-solver', 'coin-or-clp', 'gegl', 'julia']"
 +++
@@ -142,7 +142,7 @@ A collection of sparse matrix libraries
 * /usr/lib/libccolamd.so.3.3.4
 * /usr/lib/libcholmod.so
 * /usr/lib/libcholmod.so.5
-* /usr/lib/libcholmod.so.5.3.1
+* /usr/lib/libcholmod.so.5.3.2
 * /usr/lib/libcolamd.so
 * /usr/lib/libcolamd.so.3
 * /usr/lib/libcolamd.so.3.3.4
@@ -151,7 +151,7 @@ A collection of sparse matrix libraries
 * /usr/lib/libcxsparse.so.4.4.1
 * /usr/lib/libgraphblas.so
 * /usr/lib/libgraphblas.so.10
-* /usr/lib/libgraphblas.so.10.0.1
+* /usr/lib/libgraphblas.so.10.0.3
 * /usr/lib/libklu.so
 * /usr/lib/libklu.so.2
 * /usr/lib/libklu.so.2.3.5
@@ -184,7 +184,7 @@ A collection of sparse matrix libraries
 * /usr/lib/libspqr.so.4.3.4
 * /usr/lib/libsuitesparseconfig.so
 * /usr/lib/libsuitesparseconfig.so.7
-* /usr/lib/libsuitesparseconfig.so.7.10.1
+* /usr/lib/libsuitesparseconfig.so.7.10.2
 * /usr/lib/libsuitesparse_mongoose.so
 * /usr/lib/libsuitesparse_mongoose.so.3
 * /usr/lib/libumfpack.so
@@ -209,5 +209,5 @@ A collection of sparse matrix libraries
 * /usr/lib/pkgconfig/SuiteSparse_config.pc
 * /usr/lib/pkgconfig/SuiteSparse_Mongoose.pc
 * /usr/lib/pkgconfig/UMFPACK.pc
-* /usr/share/doc/suitesparse-7.10.1/ChangeLog
-* /usr/share/doc/suitesparse-7.10.1/README.md
+* /usr/share/doc/suitesparse-7.10.2/ChangeLog
+* /usr/share/doc/suitesparse-7.10.2/README.md
