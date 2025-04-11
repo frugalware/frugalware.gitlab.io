@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "asio 1.30.2-1"
-version = "1.30.2-1"
+title = "asio 1.34.2-1"
+version = "1.34.2-1"
 description = "A a cross-platform C++ library written in C++ for consistent asynchronous I/O."
-date = "2024-04-22T13:49:38"
+date = "2025-04-11T10:06:08"
 aliases = "/packages/219638"
 categories = ['lib-extra']
 upstreamurl = "https://sourceforge.net/projects/asio"
 arch = "x86_64"
-size = "394144"
-usize = "5070130"
-sha1sum = "ae26635daa9ca9b0c716d39c70dee2686d5dea14"
+size = "400276"
+usize = "5083508"
+sha1sum = "c4b442cf894677891ef3e9df27801a5fc2d493f6"
 depends = "[]"
 reverse_depends = "['obs-studio', 'opendht', 'sdlmame']"
 +++
@@ -67,14 +67,20 @@ A a cross-platform C++ library written in C++ for consistent asynchronous I/O.
 * /usr/include/asio/cancellation_signal.hpp
 * /usr/include/asio/cancellation_state.hpp
 * /usr/include/asio/cancellation_type.hpp
+* /usr/include/asio/cancel_after.hpp
+* /usr/include/asio/cancel_at.hpp
 * /usr/include/asio/completion_condition.hpp
 * /usr/include/asio/compose.hpp
+* /usr/include/asio/composed.hpp
+* /usr/include/asio/config.hpp
 * /usr/include/asio/connect.hpp
 * /usr/include/asio/connect_pipe.hpp
 * /usr/include/asio/consign.hpp
 * /usr/include/asio/coroutine.hpp
+* /usr/include/asio/co_composed.hpp
 * /usr/include/asio/co_spawn.hpp
 * /usr/include/asio/deadline_timer.hpp
+* /usr/include/asio/default_completion_token.hpp
 * /usr/include/asio/defer.hpp
 * /usr/include/asio/deferred.hpp
 * /usr/include/asio/detached.hpp
@@ -93,6 +99,9 @@ A a cross-platform C++ library written in C++ for consistent asynchronous I/O.
 * /usr/include/asio/detail/chrono.hpp
 * /usr/include/asio/detail/chrono_time_traits.hpp
 * /usr/include/asio/detail/completion_handler.hpp
+* /usr/include/asio/detail/completion_message.hpp
+* /usr/include/asio/detail/completion_payload.hpp
+* /usr/include/asio/detail/completion_payload_handler.hpp
 * /usr/include/asio/detail/composed_work.hpp
 * /usr/include/asio/detail/concurrency_hint.hpp
 * /usr/include/asio/detail/conditionally_enabled_event.hpp
@@ -185,6 +194,7 @@ A a cross-platform C++ library written in C++ for consistent asynchronous I/O.
 * /usr/include/asio/detail/initiate_defer.hpp
 * /usr/include/asio/detail/initiate_dispatch.hpp
 * /usr/include/asio/detail/initiate_post.hpp
+* /usr/include/asio/detail/initiation_base.hpp
 * /usr/include/asio/detail/io_control.hpp
 * /usr/include/asio/detail/io_object_impl.hpp
 * /usr/include/asio/detail/io_uring_descriptor_read_at_op.hpp
@@ -300,6 +310,7 @@ A a cross-platform C++ library written in C++ for consistent asynchronous I/O.
 * /usr/include/asio/detail/thread_info_base.hpp
 * /usr/include/asio/detail/throw_error.hpp
 * /usr/include/asio/detail/throw_exception.hpp
+* /usr/include/asio/detail/timed_cancel_op.hpp
 * /usr/include/asio/detail/timer_queue.hpp
 * /usr/include/asio/detail/timer_queue_base.hpp
 * /usr/include/asio/detail/timer_queue_ptime.hpp
@@ -356,6 +367,7 @@ A a cross-platform C++ library written in C++ for consistent asynchronous I/O.
 * /usr/include/asio/detail/work_dispatcher.hpp
 * /usr/include/asio/detail/wrapped_handler.hpp
 * /usr/include/asio/dispatch.hpp
+* /usr/include/asio/disposition.hpp
 * /usr/include/asio/error.hpp
 * /usr/include/asio/error_code.hpp
 * /usr/include/asio/execution.hpp
@@ -377,9 +389,7 @@ A a cross-platform C++ library written in C++ for consistent asynchronous I/O.
 * /usr/include/asio/execution_context.hpp
 * /usr/include/asio/executor.hpp
 * /usr/include/asio/executor_work_guard.hpp
-* /usr/include/asio/experimental/append.hpp
 * /usr/include/asio/experimental/as_single.hpp
-* /usr/include/asio/experimental/as_tuple.hpp
 * /usr/include/asio/experimental/awaitable_operators.hpp
 * /usr/include/asio/experimental/basic_channel.hpp
 * /usr/include/asio/experimental/basic_concurrent_channel.hpp
@@ -392,11 +402,7 @@ A a cross-platform C++ library written in C++ for consistent asynchronous I/O.
 * /usr/include/asio/experimental/coro_traits.hpp
 * /usr/include/asio/experimental/co_composed.hpp
 * /usr/include/asio/experimental/co_spawn.hpp
-* /usr/include/asio/experimental/deferred.hpp
-* /usr/include/asio/experimental/detail/channel_handler.hpp
-* /usr/include/asio/experimental/detail/channel_message.hpp
 * /usr/include/asio/experimental/detail/channel_operation.hpp
-* /usr/include/asio/experimental/detail/channel_payload.hpp
 * /usr/include/asio/experimental/detail/channel_receive_op.hpp
 * /usr/include/asio/experimental/detail/channel_send_functions.hpp
 * /usr/include/asio/experimental/detail/channel_send_op.hpp
@@ -409,13 +415,11 @@ A a cross-platform C++ library written in C++ for consistent asynchronous I/O.
 * /usr/include/asio/experimental/impl/as_single.hpp
 * /usr/include/asio/experimental/impl/channel_error.ipp
 * /usr/include/asio/experimental/impl/coro.hpp
-* /usr/include/asio/experimental/impl/co_composed.hpp
 * /usr/include/asio/experimental/impl/parallel_group.hpp
 * /usr/include/asio/experimental/impl/promise.hpp
 * /usr/include/asio/experimental/impl/use_coro.hpp
 * /usr/include/asio/experimental/impl/use_promise.hpp
 * /usr/include/asio/experimental/parallel_group.hpp
-* /usr/include/asio/experimental/prepend.hpp
 * /usr/include/asio/experimental/promise.hpp
 * /usr/include/asio/experimental/use_coro.hpp
 * /usr/include/asio/experimental/use_promise.hpp
@@ -429,6 +433,7 @@ A a cross-platform C++ library written in C++ for consistent asynchronous I/O.
 * /usr/include/asio/generic/stream_protocol.hpp
 * /usr/include/asio/handler_continuation_hook.hpp
 * /usr/include/asio/high_resolution_timer.hpp
+* /usr/include/asio/immediate.hpp
 * /usr/include/asio/impl/any_completion_executor.ipp
 * /usr/include/asio/impl/any_io_executor.ipp
 * /usr/include/asio/impl/append.hpp
@@ -437,6 +442,10 @@ A a cross-platform C++ library written in C++ for consistent asynchronous I/O.
 * /usr/include/asio/impl/buffered_read_stream.hpp
 * /usr/include/asio/impl/buffered_write_stream.hpp
 * /usr/include/asio/impl/cancellation_signal.ipp
+* /usr/include/asio/impl/cancel_after.hpp
+* /usr/include/asio/impl/cancel_at.hpp
+* /usr/include/asio/impl/config.hpp
+* /usr/include/asio/impl/config.ipp
 * /usr/include/asio/impl/connect.hpp
 * /usr/include/asio/impl/connect_pipe.hpp
 * /usr/include/asio/impl/connect_pipe.ipp
@@ -473,8 +482,6 @@ A a cross-platform C++ library written in C++ for consistent asynchronous I/O.
 * /usr/include/asio/impl/write_at.hpp
 * /usr/include/asio/io_context.hpp
 * /usr/include/asio/io_context_strand.hpp
-* /usr/include/asio/io_service.hpp
-* /usr/include/asio/io_service_strand.hpp
 * /usr/include/asio/ip/address.hpp
 * /usr/include/asio/ip/address_v4.hpp
 * /usr/include/asio/ip/address_v4_iterator.hpp
@@ -578,9 +585,7 @@ A a cross-platform C++ library written in C++ for consistent asynchronous I/O.
 * /usr/include/asio/ssl/impl/context.ipp
 * /usr/include/asio/ssl/impl/error.ipp
 * /usr/include/asio/ssl/impl/host_name_verification.ipp
-* /usr/include/asio/ssl/impl/rfc2818_verification.ipp
 * /usr/include/asio/ssl/impl/src.hpp
-* /usr/include/asio/ssl/rfc2818_verification.hpp
 * /usr/include/asio/ssl/stream.hpp
 * /usr/include/asio/ssl/stream_base.hpp
 * /usr/include/asio/ssl/verify_context.hpp
@@ -639,7 +644,7 @@ A a cross-platform C++ library written in C++ for consistent asynchronous I/O.
 * /usr/include/asio/write.hpp
 * /usr/include/asio/write_at.hpp
 * /usr/include/asio/yield.hpp
-* /usr/lib/pkgconfig/asio.pc
-* /usr/share/doc/asio-1.30.2/COPYING
-* /usr/share/doc/asio-1.30.2/INSTALL
-* /usr/share/doc/asio-1.30.2/README
+* /usr/share/doc/asio-1.34.2/COPYING
+* /usr/share/doc/asio-1.34.2/INSTALL
+* /usr/share/doc/asio-1.34.2/README
+* /usr/share/pkgconfig/asio.pc
