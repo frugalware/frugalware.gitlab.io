@@ -1,23 +1,23 @@
 +++
 draft = false
-title = "v4l2loopback 0.14.0-7"
-version = "0.14.0-7"
+title = "v4l2loopback 0.14.0-8"
+version = "0.14.0-8"
 description = "v4l2-loopback device"
-date = "2025-04-08T17:53:24"
+date = "2025-04-11T09:12:18"
 aliases = "/packages/220159"
 categories = ['multimedia-extra']
 upstreamurl = "https://github.com/v4l2loopback/v4l2loopback"
 arch = "x86_64"
-size = "236104"
-usize = "279877"
-sha1sum = "2d729ff30c27996fe2650954b61f9fa0351b4ba4"
-depends = "['kernel=6.14.1-1']"
+size = "234216"
+usize = "277728"
+sha1sum = "4b8cf63ef5777ebd4bc8fb50e3a7dac4bb0dd2e6"
+depends = "['kernel=6.14.2-1']"
 +++
 ### Description: 
 v4l2-loopback device
 
 ### Files: 
-* /usr/lib/modules/6.14.1-fw1/kernel/extra/v4l2loopback.ko.zst
+* /usr/lib/modules/6.14.2-fw1/kernel/extra/v4l2loopback.ko.zst
 * /usr/share/doc/v4l2loopback-0.14.0/AUTHORS
 * /usr/share/doc/v4l2loopback-0.14.0/ChangeLog
 * /usr/share/doc/v4l2loopback-0.14.0/COPYING
