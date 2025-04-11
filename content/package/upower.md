@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "upower 1.90.8-1"
-version = "1.90.8-1"
+title = "upower 1.90.9-1"
+version = "1.90.9-1"
 description = "upower provides a daemon, API and command line tools for managing power devices attached to the system."
-date = "2025-04-01T07:11:09"
+date = "2025-04-11T19:12:20"
 aliases = "/packages/103197"
 categories = ['xapps']
 upstreamurl = "http://upower.freedesktop.org"
 arch = "x86_64"
-size = "176332"
-usize = "1121990"
-sha1sum = "068afac0bd1938656cc991e7616369c9b7293dad"
+size = "176392"
+usize = "1122120"
+sha1sum = "7409db4caf296057e4069daa68779895793aa1f8"
 depends = "['dbus-glib>=0.108-3', 'libgudev>=230-7', 'libimobiledevice>=1.3.0', 'libsystemd>=231-6', 'libusb1>=1.0.20-5']"
 reverse_depends = "['clight', 'mixxx', 'power-profiles-daemon', 'solid', 'solid5']"
 +++
@@ -54,11 +54,11 @@ upower provides a daemon, API and command line tools for managing power devices 
 * /usr/share/dbus-1/interfaces/org.freedesktop.UPower.xml
 * /usr/share/dbus-1/system-services/org.freedesktop.UPower.service
 * /usr/share/dbus-1/system.d/org.freedesktop.UPower.conf
-* /usr/share/doc/upower-1.90.8/AUTHORS
-* /usr/share/doc/upower-1.90.8/COPYING
-* /usr/share/doc/upower-1.90.8/NEWS
-* /usr/share/doc/upower-1.90.8/README.md
-* /usr/share/doc/upower-1.90.8/RELEASE
+* /usr/share/doc/upower-1.90.9/AUTHORS
+* /usr/share/doc/upower-1.90.9/COPYING
+* /usr/share/doc/upower-1.90.9/NEWS
+* /usr/share/doc/upower-1.90.9/README.md
+* /usr/share/doc/upower-1.90.9/RELEASE
 * /usr/share/gir-1.0/UPowerGlib-1.0.gir
 * /usr/share/gtk-doc/html/UPower/annotation-glossary.html
 * /usr/share/gtk-doc/html/UPower/Device.html

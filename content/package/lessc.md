@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lessc 4.2.2-1"
-version = "4.2.2-1"
+title = "lessc 4.3.0-1"
+version = "4.3.0-1"
 description = "A standalone compiler for the LESS CSS language."
-date = "2025-02-09T12:52:59"
+date = "2025-04-11T19:00:25"
 aliases = "/packages/220391"
 categories = ['devel-extra']
 upstreamurl = "http://lesscss.org/"
 arch = "x86_64"
-size = "729892"
-usize = "4834332"
-sha1sum = "6a58a03f1b310f4cfd218c8b7d1a587afb3f2d03"
+size = "738516"
+usize = "4906896"
+sha1sum = "8471d49e82b7dde2d1fee0a8f63f29b5475aa3cc"
 depends = "['glibc']"
 +++
 ### Description: 
@@ -251,6 +251,7 @@ A standalone compiler for the LESS CSS language.
 * /usr/lib/node_modules/less/lib/less/visitors/to-css-visitor.js.map
 * /usr/lib/node_modules/less/lib/less/visitors/visitor.js
 * /usr/lib/node_modules/less/lib/less/visitors/visitor.js.map
+* /usr/lib/node_modules/less/LICENSE
 * /usr/lib/node_modules/less/node_modules/.bin/errno
 * /usr/lib/node_modules/less/node_modules/.bin/image-size
 * /usr/lib/node_modules/less/node_modules/.bin/mime
@@ -582,4 +583,5 @@ A standalone compiler for the LESS CSS language.
 * /usr/lib/node_modules/less/test/test-es6.ts
 * /usr/lib/node_modules/less/tsconfig.build.json
 * /usr/lib/node_modules/less/tsconfig.json
-* /usr/share/doc/lessc-4.2.2/README.md
+* /usr/share/doc/lessc-4.3.0/LICENSE
+* /usr/share/doc/lessc-4.3.0/README.md

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "bcc 0.33.0-1"
-version = "0.33.0-1"
+title = "bcc 0.34.0-1"
+version = "0.34.0-1"
 description = "BPF Compiler Collection"
-date = "2025-01-20T16:03:53"
+date = "2025-04-11T19:04:48"
 aliases = "/packages/220303"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/iovisor/bcc"
 arch = "x86_64"
-size = "1422548"
-usize = "5736898"
-sha1sum = "04abda32b08b642d28831aafb46777f73cae2e2f"
+size = "1426860"
+usize = "5769332"
+sha1sum = "9ee94d3cfc4f84cfad6fd13043ffe23fa3ddf631"
 depends = "['clang-libs>=19.1.1', 'elfutils', 'python3>=3.12']"
 +++
 ### Description: 
@@ -34,15 +34,15 @@ BPF Compiler Collection
 * /usr/include/bcc/table_storage.h
 * /usr/lib/libbcc.so
 * /usr/lib/libbcc.so.0
-* /usr/lib/libbcc.so.0.33.0
+* /usr/lib/libbcc.so.0.34.0
 * /usr/lib/libbcc_bpf.so
 * /usr/lib/libbcc_bpf.so.0
-* /usr/lib/libbcc_bpf.so.0.33.0
+* /usr/lib/libbcc_bpf.so.0.34.0
 * /usr/lib/pkgconfig/libbcc.pc
-* /usr/lib/python3.13/site-packages/bcc-0.33.0-py3.13.egg-info/dependency_links.txt
-* /usr/lib/python3.13/site-packages/bcc-0.33.0-py3.13.egg-info/PKG-INFO
-* /usr/lib/python3.13/site-packages/bcc-0.33.0-py3.13.egg-info/SOURCES.txt
-* /usr/lib/python3.13/site-packages/bcc-0.33.0-py3.13.egg-info/top_level.txt
+* /usr/lib/python3.13/site-packages/bcc-0.34.0-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/bcc-0.34.0-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/bcc-0.34.0-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/bcc-0.34.0-py3.13.egg-info/top_level.txt
 * /usr/lib/python3.13/site-packages/bcc/containers.py
 * /usr/lib/python3.13/site-packages/bcc/disassembler.py
 * /usr/lib/python3.13/site-packages/bcc/libbcc.py
@@ -141,6 +141,8 @@ BPF Compiler Collection
 * /usr/share/bcc/examples/tracing/nflatency.py
 * /usr/share/bcc/examples/tracing/nodejs_http_server.py
 * /usr/share/bcc/examples/tracing/nodejs_http_server_example.txt
+* /usr/share/bcc/examples/tracing/setuid_monitor.py
+* /usr/share/bcc/examples/tracing/setuid_monitor_example.txt
 * /usr/share/bcc/examples/tracing/stacksnoop.py
 * /usr/share/bcc/examples/tracing/stacksnoop_example.txt
 * /usr/share/bcc/examples/tracing/stack_buildid_example.py
@@ -607,6 +609,6 @@ BPF Compiler Collection
 * /usr/share/bcc/tools/xfsslower
 * /usr/share/bcc/tools/zfsdist
 * /usr/share/bcc/tools/zfsslower
-* /usr/share/doc/bcc-0.33.0/FAQ.txt
-* /usr/share/doc/bcc-0.33.0/INSTALL.md
-* /usr/share/doc/bcc-0.33.0/README.md
+* /usr/share/doc/bcc-0.34.0/FAQ.txt
+* /usr/share/doc/bcc-0.34.0/INSTALL.md
+* /usr/share/doc/bcc-0.34.0/README.md

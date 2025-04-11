@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "intel-tbb 2022.0.0-1"
-version = "2022.0.0-1"
+title = "intel-tbb 2022.1.0-1"
+version = "2022.1.0-1"
 description = "An award-winning C++ runtime library that abstracts the low-level threading details necessary for optimal multi-core performance."
-date = "2024-11-01T20:28:40"
+date = "2025-04-11T19:13:55"
 aliases = "/packages/136209"
 categories = ['devel-core']
 upstreamurl = "http://www.threadingbuildingblocks.org/"
 arch = "x86_64"
-size = "367384"
-usize = "2053825"
-sha1sum = "5bcf7be4464cdd98102e31278e4753fe233339d1"
+size = "362832"
+usize = "2040318"
+sha1sum = "b0f433c12eff04d2c4aef498c05cd26b29dea8e2"
 depends = "['glibc>=2.34']"
 reverse_depends = "['easyeffects', 'embree', 'ispc', 'mold', 'opencascade', 'opencv', 'openshadinglanguage', 'openturns', 'openvdb', 'rkcommon', 'sysdig']"
 +++
@@ -19,6 +19,7 @@ An award-winning C++ runtime library that abstracts the low-level threading deta
 
 ### Files: 
 * /usr/include/oneapi/tbb.h
+* /usr/include/oneapi/tbb/blocked_nd_range.h
 * /usr/include/oneapi/tbb/blocked_range.h
 * /usr/include/oneapi/tbb/blocked_range2d.h
 * /usr/include/oneapi/tbb/blocked_range3d.h
@@ -111,6 +112,7 @@ An award-winning C++ runtime library that abstracts the low-level threading deta
 * /usr/include/oneapi/tbb/tbb_allocator.h
 * /usr/include/oneapi/tbb/tick_count.h
 * /usr/include/oneapi/tbb/version.h
+* /usr/include/tbb/blocked_nd_range.h
 * /usr/include/tbb/blocked_range.h
 * /usr/include/tbb/blocked_range2d.h
 * /usr/include/tbb/blocked_range3d.h
@@ -168,13 +170,13 @@ An award-winning C++ runtime library that abstracts the low-level threading deta
 * /usr/lib/libirml.so.1
 * /usr/lib/libtbb.so
 * /usr/lib/libtbb.so.12
-* /usr/lib/libtbb.so.12.14
+* /usr/lib/libtbb.so.12.15
 * /usr/lib/libtbbmalloc.so
 * /usr/lib/libtbbmalloc.so.2
-* /usr/lib/libtbbmalloc.so.2.14
+* /usr/lib/libtbbmalloc.so.2.15
 * /usr/lib/libtbbmalloc_proxy.so
 * /usr/lib/libtbbmalloc_proxy.so.2
-* /usr/lib/libtbbmalloc_proxy.so.2.14
+* /usr/lib/libtbbmalloc_proxy.so.2.15
 * /usr/lib/pkgconfig/tbb.pc
 * /usr/lib/python3.13/site-packages/TBB-0.2-py3.13-linux-x86_64.egg/EGG-INFO/dependency_links.txt
 * /usr/lib/python3.13/site-packages/TBB-0.2-py3.13-linux-x86_64.egg/EGG-INFO/native_libs.txt
@@ -197,7 +199,7 @@ An award-winning C++ runtime library that abstracts the low-level threading deta
 * /usr/lib/python3.13/site-packages/TBB-0.2-py3.13-linux-x86_64.egg/tbb/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/TBB-0.2-py3.13-linux-x86_64.egg/tbb/__pycache__/__main__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/TBB-0.2-py3.13-linux-x86_64.egg/__pycache__/TBB.cpython-313.pyc
-* /usr/share/doc/intel-tbb-2022.0.0/INSTALL.md
-* /usr/share/doc/intel-tbb-2022.0.0/README.md
-* /usr/share/doc/intel-tbb-2022.0.0/RELEASE_NOTES.md
+* /usr/share/doc/intel-tbb-2022.1.0/INSTALL.md
+* /usr/share/doc/intel-tbb-2022.1.0/README.md
+* /usr/share/doc/intel-tbb-2022.1.0/RELEASE_NOTES.md
 * /usr/share/doc/TBB/README.md

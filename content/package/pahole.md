@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pahole 1.29-1"
-version = "1.29-1"
+title = "pahole 1.30-1"
+version = "1.30-1"
 description = "Pahole and other DWARF utils"
-date = "2025-01-23T14:34:46"
+date = "2025-04-11T18:49:56"
 aliases = "/packages/221543"
 categories = ['devel-extra']
 upstreamurl = "https://git.kernel.org/pub/scm/devel/pahole/pahole.git"
 arch = "x86_64"
-size = "207952"
-usize = "670291"
-sha1sum = "4165aabb0806735e417b102ecebad776cf316ad4"
+size = "209652"
+usize = "675423"
+sha1sum = "e8661b259b46b0687550da8ff79018c663c7ad7a"
 depends = "['libbpf']"
 +++
 ### Description: 
@@ -54,15 +54,15 @@ Pahole and other DWARF utils
 * /usr/lib/libdwarves_reorganize.so.1
 * /usr/lib/libdwarves_reorganize.so.1.0.0
 * /usr/lib/python3.13/site-packages/ostra.py
-* /usr/share/doc/pahole-1.29/COPYING
-* /usr/share/doc/pahole-1.29/MANIFEST
-* /usr/share/doc/pahole-1.29/NEWS
-* /usr/share/doc/pahole-1.29/README
-* /usr/share/doc/pahole-1.29/README.btf
-* /usr/share/doc/pahole-1.29/README.cross
-* /usr/share/doc/pahole-1.29/README.ctracer
-* /usr/share/doc/pahole-1.29/README.DEBUG
-* /usr/share/doc/pahole-1.29/README.tarball
+* /usr/share/doc/pahole-1.30/COPYING
+* /usr/share/doc/pahole-1.30/MANIFEST
+* /usr/share/doc/pahole-1.30/NEWS
+* /usr/share/doc/pahole-1.30/README
+* /usr/share/doc/pahole-1.30/README.btf
+* /usr/share/doc/pahole-1.30/README.cross
+* /usr/share/doc/pahole-1.30/README.ctracer
+* /usr/share/doc/pahole-1.30/README.DEBUG
+* /usr/share/doc/pahole-1.30/README.tarball
 * /usr/share/dwarves/runtime/ctracer_relay.c
 * /usr/share/dwarves/runtime/ctracer_relay.h
 * /usr/share/dwarves/runtime/linux.blacklist.cu
