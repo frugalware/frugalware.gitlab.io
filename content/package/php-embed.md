@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "php-embed 8.4.5-1"
-version = "8.4.5-1"
+title = "php-embed 8.4.6-1"
+version = "8.4.6-1"
 description = "Embedded PHP SAPI library"
-date = "2025-03-17T20:48:05"
+date = "2025-04-11T14:07:11"
 aliases = "/packages/219770"
 categories = ['devel-extra']
 upstreamurl = "https://www.php.net"
 arch = "x86_64"
-size = "3733848"
-usize = "21347000"
-sha1sum = "69e6819555afe6e7068799d821b526e12b1a3161"
-depends = "['libxml2', 'openssl>=1.1.1', 'pcre', 'php=8.4.5']"
+size = "3733576"
+usize = "21351096"
+sha1sum = "16bc1814b851c22dc507765dab18b321bea39ebf"
+depends = "['libxml2', 'openssl>=1.1.1', 'pcre', 'php=8.4.6']"
 +++
 ### Description: 
 Embedded PHP SAPI library

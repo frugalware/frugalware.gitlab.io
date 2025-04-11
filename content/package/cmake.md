@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "cmake 4.0.0-1"
-version = "4.0.0-1"
+title = "cmake 4.0.1-1"
+version = "4.0.1-1"
 description = "Cross platform make"
-date = "2025-04-01T13:03:55"
+date = "2025-04-11T15:13:08"
 aliases = "/packages/9148"
 categories = ['devel-extra']
 upstreamurl = "https://cmake.org"
 arch = "x86_64"
-size = "13121080"
-usize = "77304838"
-sha1sum = "582976524dd9671b5398165d33f75c21be8c823a"
+size = "13093864"
+usize = "77321692"
+sha1sum = "53e3f1e39a94f957c8cd6f920261482bd94a3b7b"
 depends = "['cppdap', 'curl', 'jsoncpp>=1.9.6', 'libarchive>=3.2.1', 'libuv', 'lz4', 'ncurses>=6.5', 'rhash']"
 reverse_depends = "['corrosion', 'lxqt-build-tools', 'qtcreator', 'rocm-cmake', 'scikit-build', 'scikit-build-core']"
 +++
@@ -1982,6 +1982,7 @@ Cross platform make
 * /usr/share/cmake/Help/variable/CMAKE_TWEAK_VERSION.rst
 * /usr/share/cmake/Help/variable/CMAKE_UNITY_BUILD.rst
 * /usr/share/cmake/Help/variable/CMAKE_UNITY_BUILD_BATCH_SIZE.rst
+* /usr/share/cmake/Help/variable/CMAKE_UNITY_BUILD_RELOCATABLE.rst
 * /usr/share/cmake/Help/variable/CMAKE_UNITY_BUILD_UNIQUE_ID.rst
 * /usr/share/cmake/Help/variable/CMAKE_USER_MAKE_RULES_OVERRIDE.rst
 * /usr/share/cmake/Help/variable/CMAKE_USER_MAKE_RULES_OVERRIDE_LANG.rst
@@ -3870,7 +3871,7 @@ Cross platform make
 * /usr/share/cmake/Templates/Windows/SplashScreen.png
 * /usr/share/cmake/Templates/Windows/StoreLogo.png
 * /usr/share/cmake/Templates/Windows/Windows_TemporaryKey.pfx
-* /usr/share/doc/cmake-4.0.0/README.rst
+* /usr/share/doc/cmake-4.0.1/README.rst
 * /usr/share/doc/cmake/cmsys/Copyright.txt
 * /usr/share/doc/cmake/CONTRIBUTORS.rst
 * /usr/share/doc/cmake/html/command/add_compile_definitions.html
@@ -5786,6 +5787,7 @@ Cross platform make
 * /usr/share/doc/cmake/html/variable/CMAKE_TWEAK_VERSION.html
 * /usr/share/doc/cmake/html/variable/CMAKE_UNITY_BUILD.html
 * /usr/share/doc/cmake/html/variable/CMAKE_UNITY_BUILD_BATCH_SIZE.html
+* /usr/share/doc/cmake/html/variable/CMAKE_UNITY_BUILD_RELOCATABLE.html
 * /usr/share/doc/cmake/html/variable/CMAKE_UNITY_BUILD_UNIQUE_ID.html
 * /usr/share/doc/cmake/html/variable/CMAKE_USER_MAKE_RULES_OVERRIDE.html
 * /usr/share/doc/cmake/html/variable/CMAKE_USER_MAKE_RULES_OVERRIDE_LANG.html
@@ -7926,6 +7928,7 @@ Cross platform make
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_TWEAK_VERSION.rst.txt
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_UNITY_BUILD.rst.txt
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_UNITY_BUILD_BATCH_SIZE.rst.txt
+* /usr/share/doc/cmake/html/_sources/variable/CMAKE_UNITY_BUILD_RELOCATABLE.rst.txt
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_UNITY_BUILD_UNIQUE_ID.rst.txt
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_USER_MAKE_RULES_OVERRIDE.rst.txt
 * /usr/share/doc/cmake/html/_sources/variable/CMAKE_USER_MAKE_RULES_OVERRIDE_LANG.rst.txt

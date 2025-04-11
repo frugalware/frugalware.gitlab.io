@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "restinio 0.7.4-1"
-version = "0.7.4-1"
+title = "restinio 0.7.5-1"
+version = "0.7.5-1"
 description = "Header-only C++14 library that gives you an embedded HTTP/Websocket server"
-date = "2025-03-03T16:28:15"
+date = "2025-04-11T15:05:56"
 aliases = "/packages/220118"
 categories = ['devel-extra']
 upstreamurl = "https://stiffstream.com/en/products/restinio.html"
 arch = "x86_64"
-size = "186260"
-usize = "1174708"
-sha1sum = "7d260bd942850089d103696c980dfc65d39a3017"
+size = "186288"
+usize = "1174727"
+sha1sum = "67d67c2afbe710614b255ef91af537c957757fec"
 depends = "['glibc']"
 reverse_depends = "['opendht']"
 +++
@@ -151,5 +151,5 @@ Header-only C++14 library that gives you an embedded HTTP/Websocket server
 * /usr/lib/cmake/restinio/restinio-config.cmake
 * /usr/lib/cmake/restinio/restinio-targets.cmake
 * /usr/lib/pkgconfig/libllhttp.pc
-* /usr/share/doc/restinio-0.7.4/LICENSE
-* /usr/share/doc/restinio-0.7.4/README.md
+* /usr/share/doc/restinio-0.7.5/LICENSE
+* /usr/share/doc/restinio-0.7.5/README.md
