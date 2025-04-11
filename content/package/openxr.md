@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openxr 1.1.46-1"
-version = "1.1.46-1"
+title = "openxr 1.1.47-1"
+version = "1.1.47-1"
 description = "An open standard for virtual reality and augmented reality platforms and devices"
-date = "2025-03-06T10:53:36"
+date = "2025-04-11T15:55:05"
 aliases = "/packages/220880"
 categories = ['xlib-extra']
 upstreamurl = "https://www.khronos.org/openxr/"
 arch = "x86_64"
-size = "1141196"
-usize = "5884130"
-sha1sum = "97bb0349eb5aac3793d1b3bd37b2891426a4eedb"
+size = "1243688"
+usize = "6314582"
+sha1sum = "fe01edb805030dfd2c2e9ae12f6f3a5892583887"
 depends = "['jsoncpp>=1.9.6', 'libglvnd', 'libx11', 'libxrandr', 'libxxf86vm', 'vulkan-icd-loader']"
 reverse_depends = "['vtk']"
 +++
@@ -34,13 +34,13 @@ An open standard for virtual reality and augmented reality platforms and devices
 * /usr/lib/cmake/openxr/OpenXRTargets.cmake
 * /usr/lib/libopenxr_loader.so
 * /usr/lib/libopenxr_loader.so.1
-* /usr/lib/libopenxr_loader.so.1.1.46
+* /usr/lib/libopenxr_loader.so.1.1.47
 * /usr/lib/libXrApiLayer_api_dump.so
 * /usr/lib/libXrApiLayer_core_validation.so
 * /usr/lib/pkgconfig/openxr.pc
-* /usr/share/doc/openxr-1.1.46/COPYING.adoc
-* /usr/share/doc/openxr-1.1.46/LICENSE
-* /usr/share/doc/openxr-1.1.46/README.md
+* /usr/share/doc/openxr-1.1.47/COPYING.adoc
+* /usr/share/doc/openxr-1.1.47/LICENSE
+* /usr/share/doc/openxr-1.1.47/README.md
 * /usr/share/doc/openxr/LICENSE
 * /usr/share/man/man1/hello_xr.1.gz
 * /usr/share/man/man1/openxr_runtime_list.1.gz
