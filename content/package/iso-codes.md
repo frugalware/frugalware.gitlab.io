@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "iso-codes 4.17.0-2"
-version = "4.17.0-2"
+title = "iso-codes 4.18.0-1"
+version = "4.18.0-1"
 description = "Provides the list of country and language names"
-date = "2024-12-18T11:49:28"
+date = "2025-04-12T10:12:20"
 aliases = "/packages/3109"
 categories = ['devel']
 upstreamurl = "https://salsa.debian.org/iso-codes-team/iso-codes"
 arch = "x86_64"
-size = "3038432"
-usize = "21284652"
-sha1sum = "d39b27c1d32c0c24bbec9b76049da4fa4fe172a2"
+size = "3077996"
+usize = "22493925"
+sha1sum = "1a3e80d569db86fd4723db9e44e1b5e81a80c19b"
 depends = "['python3>=3.6.4']"
 reverse_depends = "['darktable', 'gimp', 'gnome-desktop', 'gspell', 'gtk+3', 'hexchat', 'ki18n', 'libnma', 'nm-applet', 'plasma-wayland-session']"
 +++
@@ -18,10 +18,10 @@ reverse_depends = "['darktable', 'gimp', 'gnome-desktop', 'gspell', 'gtk+3', 'he
 Provides the list of country and language names
 
 ### Files: 
-* /usr/share/doc/iso-codes-4.17.0/COPYING
-* /usr/share/doc/iso-codes-4.17.0/INSTALL
-* /usr/share/doc/iso-codes-4.17.0/README.md
-* /usr/share/doc/iso-codes-4.17.0/TODO
+* /usr/share/doc/iso-codes-4.18.0/COPYING
+* /usr/share/doc/iso-codes-4.18.0/INSTALL
+* /usr/share/doc/iso-codes-4.18.0/README.md
+* /usr/share/doc/iso-codes-4.18.0/TODO
 * /usr/share/iso-codes/json/iso_15924.json
 * /usr/share/iso-codes/json/iso_3166-1.json
 * /usr/share/iso-codes/json/iso_3166-2.json
@@ -193,6 +193,7 @@ Provides the list of country and language names
 * /usr/share/locale/ch/LC_MESSAGES/iso_3166.mo
 * /usr/share/locale/chr/LC_MESSAGES/iso_3166-1.mo
 * /usr/share/locale/chr/LC_MESSAGES/iso_3166.mo
+* /usr/share/locale/ckb/LC_MESSAGES/iso_15924.mo
 * /usr/share/locale/ckb/LC_MESSAGES/iso_3166-1.mo
 * /usr/share/locale/ckb/LC_MESSAGES/iso_3166.mo
 * /usr/share/locale/ckb/LC_MESSAGES/iso_639-3.mo
@@ -900,8 +901,10 @@ Provides the list of country and language names
 * /usr/share/locale/sk/LC_MESSAGES/iso_4217.mo
 * /usr/share/locale/sk/LC_MESSAGES/iso_639-2.mo
 * /usr/share/locale/sk/LC_MESSAGES/iso_639-3.mo
+* /usr/share/locale/sk/LC_MESSAGES/iso_639-5.mo
 * /usr/share/locale/sk/LC_MESSAGES/iso_639.mo
 * /usr/share/locale/sk/LC_MESSAGES/iso_639_3.mo
+* /usr/share/locale/sk/LC_MESSAGES/iso_639_5.mo
 * /usr/share/locale/sl/LC_MESSAGES/iso_15924.mo
 * /usr/share/locale/sl/LC_MESSAGES/iso_3166-1.mo
 * /usr/share/locale/sl/LC_MESSAGES/iso_3166-2.mo
@@ -1138,12 +1141,10 @@ Provides the list of country and language names
 * /usr/share/locale/zh_CN/LC_MESSAGES/iso_4217.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/iso_639-2.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/iso_639-3.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/iso_639-5.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/iso_639.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/iso_639_3.mo
-* /usr/share/locale/zh_Hans/LC_MESSAGES/iso_639-5.mo
-* /usr/share/locale/zh_Hans/LC_MESSAGES/iso_639_5.mo
-* /usr/share/locale/zh_Hant/LC_MESSAGES/iso_639-5.mo
-* /usr/share/locale/zh_Hant/LC_MESSAGES/iso_639_5.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/iso_639_5.mo
 * /usr/share/locale/zh_HK/LC_MESSAGES/iso_15924.mo
 * /usr/share/locale/zh_HK/LC_MESSAGES/iso_3166-1.mo
 * /usr/share/locale/zh_HK/LC_MESSAGES/iso_3166-3.mo
@@ -1160,8 +1161,10 @@ Provides the list of country and language names
 * /usr/share/locale/zh_TW/LC_MESSAGES/iso_4217.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/iso_639-2.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/iso_639-3.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/iso_639-5.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/iso_639.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/iso_639_3.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/iso_639_5.mo
 * /usr/share/locale/zu/LC_MESSAGES/iso_3166-1.mo
 * /usr/share/locale/zu/LC_MESSAGES/iso_3166-3.mo
 * /usr/share/locale/zu/LC_MESSAGES/iso_3166.mo
