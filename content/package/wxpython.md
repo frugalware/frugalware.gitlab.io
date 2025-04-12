@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "wxpython 4.2.2-2"
-version = "4.2.2-2"
+title = "wxpython 4.2.3-1"
+version = "4.2.3-1"
 description = "wxPython GUI toolkit"
-date = "2025-02-25T12:40:30"
+date = "2025-04-12T21:02:45"
 aliases = "/packages/222657"
 categories = ['xlib-extra']
 upstreamurl = "https://www.wxpython.org/"
 arch = "x86_64"
-size = "9795440"
-usize = "56688396"
-sha1sum = "7cea0f744fdb740ddb8564805d44567ab68eb5c1"
+size = "9885624"
+usize = "57571037"
+sha1sum = "518ac10b4c0ae440215bfc7a3e2e777355b29148"
 depends = "['python3-numpy', 'python3-pillow', 'python3-six', 'wxwidgets>=3.0.0-2']"
 reverse_depends = "['kicad']"
 +++
@@ -481,7 +481,6 @@ wxPython GUI toolkit
 * /usr/lib/python3.13/site-packages/wx/lib/pubsub/LICENSE_BSD_Simple.txt
 * /usr/lib/python3.13/site-packages/wx/lib/pubsub/policies.py
 * /usr/lib/python3.13/site-packages/wx/lib/pubsub/pub.py
-* /usr/lib/python3.13/site-packages/wx/lib/pubsub/py2and3.py
 * /usr/lib/python3.13/site-packages/wx/lib/pubsub/README_WxPython.txt
 * /usr/lib/python3.13/site-packages/wx/lib/pubsub/RELEASE_NOTES.txt
 * /usr/lib/python3.13/site-packages/wx/lib/pubsub/setuparg1.py
@@ -501,7 +500,6 @@ wxPython GUI toolkit
 * /usr/lib/python3.13/site-packages/wx/lib/pubsub/__init__.py
 * /usr/lib/python3.13/site-packages/wx/lib/pubsub/__pycache__/policies.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/wx/lib/pubsub/__pycache__/pub.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/wx/lib/pubsub/__pycache__/py2and3.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/wx/lib/pubsub/__pycache__/setuparg1.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/wx/lib/pubsub/__pycache__/setupkwargs.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/wx/lib/pubsub/__pycache__/__init__.cpython-313.pyc
@@ -796,11 +794,11 @@ wxPython GUI toolkit
 * /usr/lib/python3.13/site-packages/wx/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/wx/__pycache__/__version__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/wx/__version__.py
-* /usr/lib/python3.13/site-packages/wxPython-4.2.2-py3.13.egg-info/dependency_links.txt
-* /usr/lib/python3.13/site-packages/wxPython-4.2.2-py3.13.egg-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/wxPython-4.2.2-py3.13.egg-info/not-zip-safe
-* /usr/lib/python3.13/site-packages/wxPython-4.2.2-py3.13.egg-info/PKG-INFO
-* /usr/lib/python3.13/site-packages/wxPython-4.2.2-py3.13.egg-info/requires.txt
-* /usr/lib/python3.13/site-packages/wxPython-4.2.2-py3.13.egg-info/SOURCES.txt
-* /usr/lib/python3.13/site-packages/wxPython-4.2.2-py3.13.egg-info/top_level.txt
-* /usr/share/doc/wxpython-4.2.2/README.rst
+* /usr/lib/python3.13/site-packages/wxPython-4.2.3-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/wxPython-4.2.3-py3.13.egg-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/wxPython-4.2.3-py3.13.egg-info/not-zip-safe
+* /usr/lib/python3.13/site-packages/wxPython-4.2.3-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/wxPython-4.2.3-py3.13.egg-info/requires.txt
+* /usr/lib/python3.13/site-packages/wxPython-4.2.3-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/wxPython-4.2.3-py3.13.egg-info/top_level.txt
+* /usr/share/doc/wxpython-4.2.3/README.rst
