@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "krunner 6.12.0-3"
-version = "6.12.0-3"
+title = "krunner 6.13.0-1"
+version = "6.13.0-1"
 description = "Framework for providing different actions given a string query."
-date = "2025-04-05T14:25:56"
+date = "2025-04-13T18:47:27"
 aliases = "/packages/221403"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "198580"
-usize = "465655"
-sha1sum = "fbb7ea18ef9318fbb7db9268ff80fa9e14e7e4db"
-depends = "['kconfig>=6.12.0', 'kcoreaddons>=6.12.0', 'ki18n>=6.12.0', 'kitemmodels>=6.12.0', 'threadweaver>=6.12.0']"
+size = "198484"
+usize = "465566"
+sha1sum = "a5f7f9ab266b488aa2aaca03e9bd10a5413f7cbe"
+depends = "['kconfig>=6.13.0', 'kcoreaddons>=6.13.0', 'ki18n>=6.13.0', 'kitemmodels>=6.13.0', 'threadweaver>=6.13.0']"
 reverse_depends = "['akonadi-search', 'kdeplasma-addons', 'kdevelop', 'libmarble', 'milou', 'plasma-browser-integration', 'plasma-desktop', 'plasma-workspace', 'skrooge', 'systemsettings']"
 +++
 ### Description: 
@@ -43,10 +43,10 @@ Framework for providing different actions given a string query.
 * /usr/lib/cmake/KF6Runner/KF6RunnerTargets.cmake
 * /usr/lib/libKF6Runner.so
 * /usr/lib/libKF6Runner.so.6
-* /usr/lib/libKF6Runner.so.6.12.0
+* /usr/lib/libKF6Runner.so.6.13.0
 * /usr/share/dbus-1/interfaces/kf6_org.kde.krunner1.xml
-* /usr/share/doc/krunner-6.12.0/README.md
-* /usr/share/doc/krunner-6.12.0/README.md.license
+* /usr/share/doc/krunner-6.13.0/README.md
+* /usr/share/doc/krunner-6.13.0/README.md.license
 * /usr/share/kdevappwizard/templates/runner6.tar.bz2
 * /usr/share/kdevappwizard/templates/runner6python.tar.bz2
 * /usr/share/qlogging-categories6/krunner.categories

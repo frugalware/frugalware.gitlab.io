@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "nlohmann-json 3.11.3-4"
-version = "3.11.3-4"
+title = "nlohmann-json 3.12.0-1"
+version = "3.12.0-1"
 description = "JSON for Modern C++"
-date = "2024-05-28T12:26:49"
+date = "2025-04-13T19:04:51"
 aliases = "/packages/220426"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/nlohmann/json"
 arch = "x86_64"
-size = "140320"
-usize = "1039057"
-sha1sum = "33ad80d7efdf5180c37aa3c9c52171859d954842"
+size = "143332"
+usize = "1071908"
+sha1sum = "d0d476cbb0ec20da5ba52744b44e099e50289d17"
 depends = "['glibc>=2.34']"
 reverse_depends = "['mumble', 'performous', 'sysdig']"
 +++
@@ -57,6 +57,7 @@ JSON for Modern C++
 * /usr/include/nlohmann/detail/output/serializer.hpp
 * /usr/include/nlohmann/detail/string_concat.hpp
 * /usr/include/nlohmann/detail/string_escape.hpp
+* /usr/include/nlohmann/detail/string_utils.hpp
 * /usr/include/nlohmann/detail/value_t.hpp
 * /usr/include/nlohmann/json.hpp
 * /usr/include/nlohmann/json_fwd.hpp
@@ -66,5 +67,5 @@ JSON for Modern C++
 * /usr/share/cmake/nlohmann_json/nlohmann_jsonConfig.cmake
 * /usr/share/cmake/nlohmann_json/nlohmann_jsonConfigVersion.cmake
 * /usr/share/cmake/nlohmann_json/nlohmann_jsonTargets.cmake
-* /usr/share/doc/nlohmann-json-3.11.3/README.md
+* /usr/share/doc/nlohmann-json-3.12.0/README.md
 * /usr/share/pkgconfig/nlohmann_json.pc

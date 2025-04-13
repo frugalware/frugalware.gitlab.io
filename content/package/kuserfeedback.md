@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kuserfeedback 6.12.0-3"
-version = "6.12.0-3"
+title = "kuserfeedback 6.13.0-1"
+version = "6.13.0-1"
 description = "Framework for collecting user feedback for applications via telemetry and surveys"
-date = "2025-04-05T14:31:07"
+date = "2025-04-13T18:53:54"
 aliases = "/packages/220607"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "521772"
-usize = "2837920"
-sha1sum = "5af738f21ed55a4e501624069fbe89dae9140d8a"
+size = "520952"
+usize = "2839488"
+sha1sum = "6942a5703ab4779e17b117a3ffacc1eea17c699a"
 depends = "['qt6-charts>=_F_kdever_qt6', 'qt6-declarative>=', 'qt6-svg>=_F_kdever_qt6']"
 reverse_depends = "['discover', 'labplot', 'plasma-welcome', 'plasma-workspace']"
 +++
@@ -69,10 +69,10 @@ Framework for collecting user feedback for applications via telemetry and survey
 * /usr/lib/cmake/KF6UserFeedback/KF6UserFeedbackTarget.cmake
 * /usr/lib/libKF6UserFeedbackCore.so
 * /usr/lib/libKF6UserFeedbackCore.so.6
-* /usr/lib/libKF6UserFeedbackCore.so.6.12.0
+* /usr/lib/libKF6UserFeedbackCore.so.6.13.0
 * /usr/lib/libKF6UserFeedbackWidgets.so
 * /usr/lib/libKF6UserFeedbackWidgets.so.6
-* /usr/lib/libKF6UserFeedbackWidgets.so.6.12.0
+* /usr/lib/libKF6UserFeedbackWidgets.so.6.13.0
 * /usr/lib/qt6/mkspecs/modules/qt_KF6UserFeedbackCore.pri
 * /usr/lib/qt6/mkspecs/modules/qt_KF6UserFeedbackWidgets.pri
 * /usr/lib/qt6/qml/org/kde/userfeedback/kde-qmlmodule.version
@@ -80,9 +80,9 @@ Framework for collecting user feedback for applications via telemetry and survey
 * /usr/lib/qt6/qml/org/kde/userfeedback/libKF6UserFeedbackQml.so
 * /usr/lib/qt6/qml/org/kde/userfeedback/qmldir
 * /usr/share/applications/org.kde.kuserfeedback-console.desktop
-* /usr/share/doc/kuserfeedback-6.12.0/COPYING.LIB
-* /usr/share/doc/kuserfeedback-6.12.0/INSTALL
-* /usr/share/doc/kuserfeedback-6.12.0/README.md
+* /usr/share/doc/kuserfeedback-6.13.0/COPYING.LIB
+* /usr/share/doc/kuserfeedback-6.13.0/INSTALL
+* /usr/share/doc/kuserfeedback-6.13.0/README.md
 * /usr/share/KDE/UserFeedbackConsole/user-feedback-manual.qch
 * /usr/share/locale/ar/LC_MESSAGES/userfeedbackconsole6_qt.qm
 * /usr/share/locale/ar/LC_MESSAGES/userfeedbackprovider6_qt.qm

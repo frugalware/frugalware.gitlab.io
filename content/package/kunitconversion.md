@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kunitconversion 6.12.0-3"
-version = "6.12.0-3"
+title = "kunitconversion 6.13.0-1"
+version = "6.13.0-1"
 description = "Converting physical units."
-date = "2025-04-05T12:46:58"
+date = "2025-04-13T18:17:04"
 aliases = "/packages/218358"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "897460"
-usize = "11896951"
-sha1sum = "71406f30e0781ae1060604402e1d85b7484560f9"
-depends = "['ki18n>=6.12.0', 'qt6-base>=6.9.0']"
+size = "893884"
+usize = "11899455"
+sha1sum = "d59d123e4ca4f7aaaf67275fcd6a6bc128a412d2"
+depends = "['ki18n>=6.13.0', 'qt6-base>=6.9.0']"
 reverse_depends = "['itinerary', 'kalk', 'kdeplasma-addons', 'plasma-workspace']"
 +++
 ### Description: 
@@ -34,8 +34,8 @@ Converting physical units.
 * /usr/lib/cmake/KF6UnitConversion/KF6UnitConversionTargets.cmake
 * /usr/lib/libKF6UnitConversion.so
 * /usr/lib/libKF6UnitConversion.so.6
-* /usr/lib/libKF6UnitConversion.so.6.12.0
-* /usr/share/doc/kunitconversion-6.12.0/README.md
+* /usr/lib/libKF6UnitConversion.so.6.13.0
+* /usr/share/doc/kunitconversion-6.13.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/kunitconversion6.mo
 * /usr/share/locale/ast/LC_MESSAGES/kunitconversion6.mo
 * /usr/share/locale/az/LC_MESSAGES/kunitconversion6.mo

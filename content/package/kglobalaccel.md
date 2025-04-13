@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kglobalaccel 6.12.0-3"
-version = "6.12.0-3"
+title = "kglobalaccel 6.13.0-1"
+version = "6.13.0-1"
 description = "Global desktop keyboard shortcuts."
-date = "2025-04-05T14:03:53"
+date = "2025-04-13T18:20:24"
 aliases = "/packages/218309"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "83688"
-usize = "293835"
-sha1sum = "3c230a810f43ad8727213c3231720f9cc170a463"
-depends = "['kservice>=6.12.0']"
+size = "83724"
+usize = "293771"
+sha1sum = "b05bacb810ba222817294d5f6ec87f1b39e7798c"
+depends = "['kservice>=6.13.0']"
 reverse_depends = "['kglobalacceld', 'kirigami-addons', 'kxmlgui', 'wacomtablet']"
 +++
 ### Description: 
@@ -30,10 +30,10 @@ Global desktop keyboard shortcuts.
 * /usr/lib/cmake/KF6GlobalAccel/KF6GlobalAccelTargets.cmake
 * /usr/lib/libKF6GlobalAccel.so
 * /usr/lib/libKF6GlobalAccel.so.6
-* /usr/lib/libKF6GlobalAccel.so.6.12.0
+* /usr/lib/libKF6GlobalAccel.so.6.13.0
 * /usr/share/dbus-1/interfaces/kf6_org.kde.kglobalaccel.Component.xml
 * /usr/share/dbus-1/interfaces/kf6_org.kde.KGlobalAccel.xml
-* /usr/share/doc/kglobalaccel-6.12.0/README.md
+* /usr/share/doc/kglobalaccel-6.13.0/README.md
 * /usr/share/locale/af/LC_MESSAGES/kglobalaccel6_qt.qm
 * /usr/share/locale/ar/LC_MESSAGES/kglobalaccel6_qt.qm
 * /usr/share/locale/as/LC_MESSAGES/kglobalaccel6_qt.qm

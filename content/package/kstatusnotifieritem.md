@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kstatusnotifieritem 6.12.0-3"
-version = "6.12.0-3"
+title = "kstatusnotifieritem 6.13.0-1"
+version = "6.13.0-1"
 description = "Status Notifier Items"
-date = "2025-04-05T14:30:01"
+date = "2025-04-13T18:52:42"
 aliases = "/packages/221402"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "111444"
+size = "111468"
 usize = "385191"
-sha1sum = "56234e09d3918a6e0ea2af98285191181a1ed3b3"
-depends = "['kwindowsystem>=6.12.0']"
+sha1sum = "192f45a91f591c31895c2062d81d86da93c84317"
+depends = "['kwindowsystem>=6.13.0']"
 reverse_depends = "['akregator', 'discover', 'drkonqi', 'juk', 'kalarm', 'kbackup', 'kclock', 'kdeconnect-kde', 'kdf', 'kget', 'kgpg', 'kleopatra', 'kmail', 'kmix', 'kmousetool', 'konversation', 'krdc', 'krdp', 'krfb', 'kruler', 'krusader', 'ktimer', 'ktorrent', 'kvirc', 'kwalletmanager', 'neochat', 'plasma-browser-integration', 'plasma-integration', 'plasma-pa', 'skrooge', 'smb4k', 'spectacle', 'xdg-desktop-portal-kde', 'xwaylandvideobridge', 'yakuake']"
 +++
 ### Description: 
@@ -28,10 +28,10 @@ Status Notifier Items
 * /usr/lib/cmake/KF6StatusNotifierItem/KF6StatusNotifierItemTargets.cmake
 * /usr/lib/libKF6StatusNotifierItem.so
 * /usr/lib/libKF6StatusNotifierItem.so.6
-* /usr/lib/libKF6StatusNotifierItem.so.6.12.0
+* /usr/lib/libKF6StatusNotifierItem.so.6.13.0
 * /usr/share/dbus-1/interfaces/kf6_org.kde.StatusNotifierItem.xml
 * /usr/share/dbus-1/interfaces/kf6_org.kde.StatusNotifierWatcher.xml
-* /usr/share/doc/kstatusnotifieritem-6.12.0/README.md
+* /usr/share/doc/kstatusnotifieritem-6.13.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/kstatusnotifieritem6_qt.qm
 * /usr/share/locale/ast/LC_MESSAGES/kstatusnotifieritem6_qt.qm
 * /usr/share/locale/bg/LC_MESSAGES/kstatusnotifieritem6_qt.qm

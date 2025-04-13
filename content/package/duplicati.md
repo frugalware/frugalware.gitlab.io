@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "duplicati 2.1.0.112-1"
-version = "2.1.0.112-1"
+title = "duplicati 2.1.0.113-1"
+version = "2.1.0.113-1"
 description = "A free backup client that securely stores encrypted, incremental, compressed backups on cloud storage services and remote file servers"
-date = "2025-04-01T12:44:02"
+date = "2025-04-13T19:07:43"
 aliases = "/packages/219894"
 categories = ['xapps-extra']
 upstreamurl = "http://duplicati.com"
 arch = "x86_64"
-size = "64306856"
-usize = "198178907"
-sha1sum = "30eebabe04365fdb20116a46397af9acbc3ee9b0"
+size = "64487416"
+usize = "198733146"
+sha1sum = "d016dc97a03089284895a4464da9d0647f3f4ece"
 depends = "['lttng-ust12']"
 +++
 ### Description: 
@@ -127,6 +127,8 @@ A free backup client that securely stores encrypted, incremental, compressed bac
 * /opt/duplicati/Duplicati.Library.Backend.CloudFiles.dll
 * /opt/duplicati/Duplicati.Library.Backend.Dropbox.dll
 * /opt/duplicati/Duplicati.Library.Backend.File.dll
+* /opt/duplicati/Duplicati.Library.Backend.Filejump.dll
+* /opt/duplicati/Duplicati.Library.Backend.Filen.dll
 * /opt/duplicati/Duplicati.Library.Backend.FTP.dll
 * /opt/duplicati/Duplicati.Library.Backend.GoogleServices.dll
 * /opt/duplicati/Duplicati.Library.Backend.Idrivee2.dll
@@ -1023,6 +1025,8 @@ A free backup client that securely stores encrypted, incremental, compressed bac
 * /opt/duplicati/webroot/ngax/templates/backends/cos.html
 * /opt/duplicati/webroot/ngax/templates/backends/e2.html
 * /opt/duplicati/webroot/ngax/templates/backends/file.html
+* /opt/duplicati/webroot/ngax/templates/backends/filejump.html
+* /opt/duplicati/webroot/ngax/templates/backends/filen.html
 * /opt/duplicati/webroot/ngax/templates/backends/gcs.html
 * /opt/duplicati/webroot/ngax/templates/backends/generic.html
 * /opt/duplicati/webroot/ngax/templates/backends/idrive.html
@@ -1095,72 +1099,80 @@ A free backup client that securely stores encrypted, incremental, compressed bac
 * /opt/duplicati/webroot/ngclient/assets/spk-bold.woff2
 * /opt/duplicati/webroot/ngclient/assets/spk.css
 * /opt/duplicati/webroot/ngclient/assets/spk.woff2
-* /opt/duplicati/webroot/ngclient/chunk-2SYN2ATG.js
-* /opt/duplicati/webroot/ngclient/chunk-3GK4TNUH.js
-* /opt/duplicati/webroot/ngclient/chunk-3WEATDBM.js
-* /opt/duplicati/webroot/ngclient/chunk-3WKC2CFC.js
-* /opt/duplicati/webroot/ngclient/chunk-3YOT5OAB.js
-* /opt/duplicati/webroot/ngclient/chunk-4ERW7ITN.js
-* /opt/duplicati/webroot/ngclient/chunk-4SOUVJR6.js
-* /opt/duplicati/webroot/ngclient/chunk-4XPN5ZGE.js
-* /opt/duplicati/webroot/ngclient/chunk-5COOM7FC.js
-* /opt/duplicati/webroot/ngclient/chunk-5UL3RRQI.js
-* /opt/duplicati/webroot/ngclient/chunk-6LVGSIUU.js
+* /opt/duplicati/webroot/ngclient/chunk-2SGDSXNW.js
+* /opt/duplicati/webroot/ngclient/chunk-2VHTET54.js
+* /opt/duplicati/webroot/ngclient/chunk-36ZZ3COU.js
+* /opt/duplicati/webroot/ngclient/chunk-3IZBE2NA.js
+* /opt/duplicati/webroot/ngclient/chunk-3NDOYD25.js
+* /opt/duplicati/webroot/ngclient/chunk-3UJUWE5B.js
+* /opt/duplicati/webroot/ngclient/chunk-3V622MYY.js
+* /opt/duplicati/webroot/ngclient/chunk-436ZVGPO.js
+* /opt/duplicati/webroot/ngclient/chunk-4FF7PF7J.js
+* /opt/duplicati/webroot/ngclient/chunk-54SNAQYD.js
+* /opt/duplicati/webroot/ngclient/chunk-643UNOPE.js
+* /opt/duplicati/webroot/ngclient/chunk-6TNJS5KT.js
 * /opt/duplicati/webroot/ngclient/chunk-7CGTOI24.js
-* /opt/duplicati/webroot/ngclient/chunk-7EPQLKGD.js
-* /opt/duplicati/webroot/ngclient/chunk-7JZ5LA6R.js
-* /opt/duplicati/webroot/ngclient/chunk-7NEOVOUN.js
-* /opt/duplicati/webroot/ngclient/chunk-7XGYQRKR.js
-* /opt/duplicati/webroot/ngclient/chunk-BYMCE7VW.js
-* /opt/duplicati/webroot/ngclient/chunk-C2PMOZWR.js
-* /opt/duplicati/webroot/ngclient/chunk-CHZ7TMI7.js
-* /opt/duplicati/webroot/ngclient/chunk-CMXSHXAU.js
-* /opt/duplicati/webroot/ngclient/chunk-CPOAOTIS.js
-* /opt/duplicati/webroot/ngclient/chunk-CR2UB7UZ.js
+* /opt/duplicati/webroot/ngclient/chunk-7QUJNAXH.js
+* /opt/duplicati/webroot/ngclient/chunk-ACN637D7.js
+* /opt/duplicati/webroot/ngclient/chunk-AHX7BWQR.js
+* /opt/duplicati/webroot/ngclient/chunk-AN4FSLGT.js
+* /opt/duplicati/webroot/ngclient/chunk-ASEBN4DE.js
+* /opt/duplicati/webroot/ngclient/chunk-B4U66F2Q.js
+* /opt/duplicati/webroot/ngclient/chunk-BA7NYTFR.js
+* /opt/duplicati/webroot/ngclient/chunk-BKWTKAB4.js
+* /opt/duplicati/webroot/ngclient/chunk-BWYJMRKB.js
+* /opt/duplicati/webroot/ngclient/chunk-CEOO3F5U.js
+* /opt/duplicati/webroot/ngclient/chunk-D5WIWFNP.js
+* /opt/duplicati/webroot/ngclient/chunk-DJWNLIDJ.js
 * /opt/duplicati/webroot/ngclient/chunk-DNHLTHLR.js
-* /opt/duplicati/webroot/ngclient/chunk-FWWMGA32.js
-* /opt/duplicati/webroot/ngclient/chunk-G3YJXHRY.js
-* /opt/duplicati/webroot/ngclient/chunk-GI6WORKU.js
-* /opt/duplicati/webroot/ngclient/chunk-HE6PHO5B.js
-* /opt/duplicati/webroot/ngclient/chunk-HGERKLOF.js
-* /opt/duplicati/webroot/ngclient/chunk-HLLAB5VQ.js
-* /opt/duplicati/webroot/ngclient/chunk-HYBV36HG.js
-* /opt/duplicati/webroot/ngclient/chunk-IAVOZTCR.js
-* /opt/duplicati/webroot/ngclient/chunk-IHYIT4I3.js
-* /opt/duplicati/webroot/ngclient/chunk-ILQK4A72.js
-* /opt/duplicati/webroot/ngclient/chunk-INK3KQF2.js
-* /opt/duplicati/webroot/ngclient/chunk-L3T52MCL.js
-* /opt/duplicati/webroot/ngclient/chunk-LHSJLKCF.js
-* /opt/duplicati/webroot/ngclient/chunk-LO4MUZS2.js
-* /opt/duplicati/webroot/ngclient/chunk-MJI6X5KH.js
-* /opt/duplicati/webroot/ngclient/chunk-MJUYFS7O.js
-* /opt/duplicati/webroot/ngclient/chunk-N7UCCMLS.js
-* /opt/duplicati/webroot/ngclient/chunk-NL7QPU6R.js
-* /opt/duplicati/webroot/ngclient/chunk-NV2YMSSM.js
-* /opt/duplicati/webroot/ngclient/chunk-OL4IJVKD.js
-* /opt/duplicati/webroot/ngclient/chunk-OS4AAJLB.js
-* /opt/duplicati/webroot/ngclient/chunk-PTC4N7TU.js
-* /opt/duplicati/webroot/ngclient/chunk-PUSUA4U7.js
-* /opt/duplicati/webroot/ngclient/chunk-Q3FF4WG3.js
-* /opt/duplicati/webroot/ngclient/chunk-Q6U2NFPI.js
-* /opt/duplicati/webroot/ngclient/chunk-QPO2N2OR.js
-* /opt/duplicati/webroot/ngclient/chunk-QX5XWUM2.js
-* /opt/duplicati/webroot/ngclient/chunk-RIGBDLYY.js
-* /opt/duplicati/webroot/ngclient/chunk-S5VSZG5H.js
-* /opt/duplicati/webroot/ngclient/chunk-UMUPSIIL.js
-* /opt/duplicati/webroot/ngclient/chunk-USGQSK2Z.js
-* /opt/duplicati/webroot/ngclient/chunk-V6OHLKTK.js
-* /opt/duplicati/webroot/ngclient/chunk-VYKAGJXY.js
-* /opt/duplicati/webroot/ngclient/chunk-W5YK2JJZ.js
-* /opt/duplicati/webroot/ngclient/chunk-WBNOGAKJ.js
-* /opt/duplicati/webroot/ngclient/chunk-WNWGY2FM.js
-* /opt/duplicati/webroot/ngclient/chunk-XBZX6CUW.js
-* /opt/duplicati/webroot/ngclient/chunk-XC6KYSRC.js
-* /opt/duplicati/webroot/ngclient/chunk-YIWL3QAP.js
-* /opt/duplicati/webroot/ngclient/chunk-ZFE5M6M3.js
-* /opt/duplicati/webroot/ngclient/chunk-ZOUY24KQ.js
-* /opt/duplicati/webroot/ngclient/chunk-ZRXUUC26.js
-* /opt/duplicati/webroot/ngclient/chunk-ZTJALQGT.js
+* /opt/duplicati/webroot/ngclient/chunk-DRBDCRHV.js
+* /opt/duplicati/webroot/ngclient/chunk-E2LHQGCK.js
+* /opt/duplicati/webroot/ngclient/chunk-EKIFJPZJ.js
+* /opt/duplicati/webroot/ngclient/chunk-EO2PLY2Q.js
+* /opt/duplicati/webroot/ngclient/chunk-FDMBNUIK.js
+* /opt/duplicati/webroot/ngclient/chunk-FKTH6XCB.js
+* /opt/duplicati/webroot/ngclient/chunk-FQPH5MIV.js
+* /opt/duplicati/webroot/ngclient/chunk-FRXAEGHW.js
+* /opt/duplicati/webroot/ngclient/chunk-FXLWWVAS.js
+* /opt/duplicati/webroot/ngclient/chunk-HFRBCV47.js
+* /opt/duplicati/webroot/ngclient/chunk-I3TLRILF.js
+* /opt/duplicati/webroot/ngclient/chunk-I457VUEG.js
+* /opt/duplicati/webroot/ngclient/chunk-ISRMJKPG.js
+* /opt/duplicati/webroot/ngclient/chunk-J6XKFGF5.js
+* /opt/duplicati/webroot/ngclient/chunk-JJQARMUD.js
+* /opt/duplicati/webroot/ngclient/chunk-K3CYM6ID.js
+* /opt/duplicati/webroot/ngclient/chunk-KABJYPCP.js
+* /opt/duplicati/webroot/ngclient/chunk-LBZ753XE.js
+* /opt/duplicati/webroot/ngclient/chunk-LVHLXMSY.js
+* /opt/duplicati/webroot/ngclient/chunk-M7VDIUGU.js
+* /opt/duplicati/webroot/ngclient/chunk-MEQPT4C3.js
+* /opt/duplicati/webroot/ngclient/chunk-MIASAENR.js
+* /opt/duplicati/webroot/ngclient/chunk-MYK7A3PZ.js
+* /opt/duplicati/webroot/ngclient/chunk-NFME267J.js
+* /opt/duplicati/webroot/ngclient/chunk-O6GWHO26.js
+* /opt/duplicati/webroot/ngclient/chunk-OH33D663.js
+* /opt/duplicati/webroot/ngclient/chunk-PFAU4FFV.js
+* /opt/duplicati/webroot/ngclient/chunk-PGUALKQ6.js
+* /opt/duplicati/webroot/ngclient/chunk-PPKU3R4J.js
+* /opt/duplicati/webroot/ngclient/chunk-PX6A6XCQ.js
+* /opt/duplicati/webroot/ngclient/chunk-QFKEUN2J.js
+* /opt/duplicati/webroot/ngclient/chunk-RHW5QVAY.js
+* /opt/duplicati/webroot/ngclient/chunk-RQSCZC6C.js
+* /opt/duplicati/webroot/ngclient/chunk-SFWQDWHT.js
+* /opt/duplicati/webroot/ngclient/chunk-SYZYJSXM.js
+* /opt/duplicati/webroot/ngclient/chunk-TLY4PQBT.js
+* /opt/duplicati/webroot/ngclient/chunk-UJZB6UQE.js
+* /opt/duplicati/webroot/ngclient/chunk-UXWTPWS6.js
+* /opt/duplicati/webroot/ngclient/chunk-VRGLHRK2.js
+* /opt/duplicati/webroot/ngclient/chunk-WCLOWI5G.js
+* /opt/duplicati/webroot/ngclient/chunk-WSLU6K4D.js
+* /opt/duplicati/webroot/ngclient/chunk-XGARKXE4.js
+* /opt/duplicati/webroot/ngclient/chunk-XH2A67YP.js
+* /opt/duplicati/webroot/ngclient/chunk-XQKR67WI.js
+* /opt/duplicati/webroot/ngclient/chunk-YPSSTA3J.js
+* /opt/duplicati/webroot/ngclient/chunk-YTJB3DGU.js
+* /opt/duplicati/webroot/ngclient/chunk-ZHAXIU33.js
+* /opt/duplicati/webroot/ngclient/chunk-ZP273LXY.js
 * /opt/duplicati/webroot/ngclient/index.html
 * /opt/duplicati/webroot/ngclient/locale/angular/da.mjs
 * /opt/duplicati/webroot/ngclient/locale/angular/de.mjs
@@ -1181,11 +1193,11 @@ A free backup client that securely stores encrypted, incremental, compressed bac
 * /opt/duplicati/webroot/ngclient/locale/messages.de-DE.json
 * /opt/duplicati/webroot/ngclient/locale/messages.fr-FR.json
 * /opt/duplicati/webroot/ngclient/locale/messages.json
-* /opt/duplicati/webroot/ngclient/main-GMFQCDBZ.js
+* /opt/duplicati/webroot/ngclient/main-ZJBIDZ3R.js
 * /opt/duplicati/webroot/ngclient/package.json
 * /opt/duplicati/webroot/ngclient/polyfills-BZ5XXHZK.js
 * /opt/duplicati/webroot/ngclient/sparkle-ui-assets/fonts/InterTight-VariableFont_wght.woff2
-* /opt/duplicati/webroot/ngclient/styles-IOWRSZHV.css
+* /opt/duplicati/webroot/ngclient/styles-2KPDWK5U.css
 * /opt/duplicati/webroot/oem/ngax/scripts/oem.js
 * /opt/duplicati/webroot/oem/ngax/styles/oem.css
 * /opt/duplicati/webroot/oem/root/index/oem.css

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qqc2-desktop-style 6.12.0-3"
-version = "6.12.0-3"
+title = "qqc2-desktop-style 6.13.0-1"
+version = "6.13.0-1"
 description = "QtQuickControls2 style that uses QWidget's QStyle for painting."
-date = "2025-04-05T14:27:12"
+date = "2025-04-13T18:48:48"
 aliases = "/packages/219485"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "416220"
-usize = "2382184"
-sha1sum = "ba617eaa1ea86e84c33b0ae1137e86ca8f318309"
-depends = "['kconfigwidgets>=6.12.0', 'kiconthemes>=6.12.0', 'kirigami>=6.12.0']"
+size = "416548"
+usize = "2384282"
+sha1sum = "662362612f9ebbdbbe754a0ec9b4e5c577cf68ed"
+depends = "['kconfigwidgets>=6.13.0', 'kiconthemes>=6.13.0', 'kirigami>=6.13.0']"
 reverse_depends = "['angelfish', 'arianna', 'elisa', 'filelight', 'itinerary', 'kalm', 'kdeconnect-kde', 'keysmith', 'ktrip', 'merkuro', 'neochat', 'plasma-desktop', 'telly-skout', 'tokodon']"
 +++
 ### Description: 
@@ -94,7 +94,7 @@ QtQuickControls2 style that uses QWidget's QStyle for painting.
 * /usr/lib/qt6/qml/org/kde/qqc2desktopstyle/private/libqqc2desktopstyleplugin.so
 * /usr/lib/qt6/qml/org/kde/qqc2desktopstyle/private/qmldir
 * /usr/lib/qt6/qml/org/kde/qqc2desktopstyle/private/qqc2desktopstyleplugin.qmltypes
-* /usr/share/doc/qqc2-desktop-style-6.12.0/README.md
+* /usr/share/doc/qqc2-desktop-style-6.13.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/qqc2desktopstyle_qt.qm
 * /usr/share/locale/ast/LC_MESSAGES/qqc2desktopstyle_qt.qm
 * /usr/share/locale/ca/LC_MESSAGES/qqc2desktopstyle_qt.qm
@@ -116,6 +116,7 @@ QtQuickControls2 style that uses QWidget's QStyle for painting.
 * /usr/share/locale/ka/LC_MESSAGES/qqc2desktopstyle_qt.qm
 * /usr/share/locale/ko/LC_MESSAGES/qqc2desktopstyle_qt.qm
 * /usr/share/locale/lv/LC_MESSAGES/qqc2desktopstyle_qt.qm
+* /usr/share/locale/nb/LC_MESSAGES/qqc2desktopstyle_qt.qm
 * /usr/share/locale/nl/LC_MESSAGES/qqc2desktopstyle_qt.qm
 * /usr/share/locale/nn/LC_MESSAGES/qqc2desktopstyle_qt.qm
 * /usr/share/locale/pl/LC_MESSAGES/qqc2desktopstyle_qt.qm

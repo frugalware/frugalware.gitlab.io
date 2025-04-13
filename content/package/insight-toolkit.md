@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "insight-toolkit 5.4.2-3"
-version = "5.4.2-3"
+title = "insight-toolkit 5.4.3-1"
+version = "5.4.3-1"
 description = "Cross-platform system that provides developers with an extensive suite of software tools for image analysis"
-date = "2025-03-14T11:07:51"
+date = "2025-04-13T19:12:26"
 aliases = "/packages/222634"
 categories = ['devel-extra']
 upstreamurl = "http://www.itk.org/"
 arch = "x86_64"
-size = "8959088"
-usize = "56633626"
-sha1sum = "b7ec4d8a65a2cbc0cbee86128ff55006bca521dd"
+size = "8950084"
+usize = "56614647"
+sha1sum = "f5566b828a32fa70e8483e6be16410c1b219e4f0"
 depends = "['clang', 'eigen', 'expat', 'fftw', 'gdcm', 'gtest', 'hdf5', 'libjpeg-turbo', 'libpng', 'libtiff>=4.7.0', 'openjre', 'pcre', 'perl', 'ruby', 'swig', 'tcl']"
 reverse_depends = "['alizams']"
 +++
@@ -3694,7 +3694,6 @@ Cross-platform system that provides developers with an extensive suite of softwa
 * /usr/include/ITK-5.4/temperton/gpfa5f.h
 * /usr/include/ITK-5.4/temperton/setdgpfa.h
 * /usr/include/ITK-5.4/temperton/setgpfa.h
-* /usr/include/ITK-5.4/toms/rpoly.h
 * /usr/include/ITK-5.4/utils.h
 * /usr/include/ITK-5.4/v3p_f2c.h
 * /usr/include/ITK-5.4/v3p_f2c_mangle.h
@@ -3812,7 +3811,6 @@ Cross-platform system that provides developers with an extensive suite of softwa
 * /usr/include/ITK-5.4/vnl/algo/vnl_qr.hxx
 * /usr/include/ITK-5.4/vnl/algo/vnl_real_eigensystem.h
 * /usr/include/ITK-5.4/vnl/algo/vnl_rnpoly_solve.h
-* /usr/include/ITK-5.4/vnl/algo/vnl_rpoly_roots.h
 * /usr/include/ITK-5.4/vnl/algo/vnl_scatter_3x3.h
 * /usr/include/ITK-5.4/vnl/algo/vnl_scatter_3x3.hxx
 * /usr/include/ITK-5.4/vnl/algo/vnl_simpson_integral.h
@@ -4331,8 +4329,8 @@ Cross-platform system that provides developers with an extensive suite of softwa
 * /usr/lib/libITKWatersheds-5.4.so.1
 * /usr/lib/libITKznz-5.4.so
 * /usr/lib/libITKznz-5.4.so.1
-* /usr/share/doc/insight-toolkit-5.4.2/LICENSE
-* /usr/share/doc/insight-toolkit-5.4.2/README.md
+* /usr/share/doc/insight-toolkit-5.4.3/LICENSE
+* /usr/share/doc/insight-toolkit-5.4.3/README.md
 * /usr/share/doc/ITK-5.4/itksys/Copyright.txt
 * /usr/share/doc/ITK-5.4/LICENSE
 * /usr/share/doc/ITK-5.4/NOTICE

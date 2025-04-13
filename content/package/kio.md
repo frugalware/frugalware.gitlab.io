@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kio 6.12.0-3"
-version = "6.12.0-3"
+title = "kio 6.13.0-1"
+version = "6.13.0-1"
 description = "Network transparent access to files and data."
-date = "2025-04-05T14:13:40"
+date = "2025-04-13T18:32:14"
 aliases = "/packages/218323"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3436624"
-usize = "19203069"
-sha1sum = "b8d1a6fc78c366a9d3aeeb5ef85de04bd9b3c947"
-depends = "['karchive>=6.12.0', 'kauth>=6.12.0', 'kbookmarks>=6.12.0', 'kded>=6.12.0', 'kjobwidgets>=6.12.0', 'kwallet>=', 'solid>=6.12.0', 'switcheroo-control']"
+size = "3441876"
+usize = "19228484"
+sha1sum = "c38977f3ff96f9e7ebce7b59484f175a43d62341"
+depends = "['karchive>=6.13.0', 'kauth>=6.13.0', 'kbookmarks>=6.13.0', 'kded>=6.13.0', 'kjobwidgets>=6.13.0', 'kwallet>=', 'solid>=6.13.0', 'switcheroo-control']"
 reverse_depends = "['akonadi', 'akonadi-contacts', 'akonadi-mime', 'audex', 'baloo', 'bluedevil5', 'calligra', 'discover', 'dolphin', 'drkonqi', 'falkon-kde', 'ffmpegthumbs', 'frameworkintegration', 'juk', 'kactivitymanagerd', 'kalgebra', 'kamera', 'kapptemplate', 'kbackup', 'kcachegrind', 'kcron', 'kdav', 'kdeclarative', 'kdegraphics-mobipocket', 'kdegraphics-thumbnailers', 'kdenetwork-filesharing', 'kdeplasma-addons', 'kdesdk-kio', 'kdesdk-thumbnailers', 'kdf', 'kdialog', 'kglobalacceld', 'kgoldrunner', 'kimap', 'kio-admin', 'kio-fuse', 'kio-gdrive', 'kio-zeroconf', 'kiten', 'kldap', 'kmag', 'kmenuedit', 'kmouth', 'knewstuff', 'knotifyconfig', 'koko', 'kolourpaint', 'kparts', 'kpimtextedit', 'ksmtp', 'ksystemlog', 'ktextaddons', 'ktimer', 'kturtle', 'kvirc', 'kwave', 'labplot', 'libkcddb', 'libkeduvocdocument', 'libkgapi', 'libkomparediff2', 'libktorrent', 'lokalize', 'neochat', 'partitionmanager', 'plasma-activities', 'plasma-activities-stats', 'plasma-browser-integration', 'plasma-integration', 'print-manager', 'purpose', 'skanlite', 'skladnik', 'smb4k', 'spectacle', 'syndication', 'tokodon', 'wacomtablet', 'xdg-desktop-portal-kde']"
 +++
 ### Description: 
@@ -264,16 +264,16 @@ Network transparent access to files and data.
 * /usr/lib/kio/kf6/kioworker
 * /usr/lib/libKF6KIOCore.so
 * /usr/lib/libKF6KIOCore.so.6
-* /usr/lib/libKF6KIOCore.so.6.12.0
+* /usr/lib/libKF6KIOCore.so.6.13.0
 * /usr/lib/libKF6KIOFileWidgets.so
 * /usr/lib/libKF6KIOFileWidgets.so.6
-* /usr/lib/libKF6KIOFileWidgets.so.6.12.0
+* /usr/lib/libKF6KIOFileWidgets.so.6.13.0
 * /usr/lib/libKF6KIOGui.so
 * /usr/lib/libKF6KIOGui.so.6
-* /usr/lib/libKF6KIOGui.so.6.12.0
+* /usr/lib/libKF6KIOGui.so.6.13.0
 * /usr/lib/libKF6KIOWidgets.so
 * /usr/lib/libKF6KIOWidgets.so.6
-* /usr/lib/libKF6KIOWidgets.so.6.12.0
+* /usr/lib/libKF6KIOWidgets.so.6.13.0
 * /usr/lib/libkuriikwsfiltereng_private.so
 * /usr/lib/qt6/plugins/designer/kio6widgets.so
 * /usr/lib/qt6/plugins/kf6/kded/remotenotifier.so
@@ -559,8 +559,8 @@ Network transparent access to files and data.
 * /usr/share/doc/HTML/uk/kioworker6/http/index.docbook
 * /usr/share/doc/HTML/uk/kioworker6/webdav/index.cache.bz2
 * /usr/share/doc/HTML/uk/kioworker6/webdav/index.docbook
-* /usr/share/doc/kio-6.12.0/README.KF6.md
-* /usr/share/doc/kio-6.12.0/README.md
+* /usr/share/doc/kio-6.13.0/README.KF6.md
+* /usr/share/doc/kio-6.13.0/README.md
 * /usr/share/kdevappwizard/templates/kioworker6.tar.bz2
 * /usr/share/kf6/searchproviders/7digital.desktop
 * /usr/share/kf6/searchproviders/acronym.desktop
