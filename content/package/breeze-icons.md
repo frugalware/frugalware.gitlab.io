@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "breeze-icons 6.12.0-3"
-version = "6.12.0-3"
+title = "breeze-icons 6.13.0-1"
+version = "6.13.0-1"
 description = "Icons for the Breeze visual style for the Plasma Desktop."
-date = "2025-04-05T12:15:07"
+date = "2025-04-13T17:38:15"
 aliases = "/packages/218259"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "7675732"
-usize = "48940547"
-sha1sum = "64415c543e79d5aa986041256d7ebe94cb0fd9cf"
+size = "7675488"
+usize = "48941415"
+sha1sum = "86215ead1d74662604d45ca830f03c0b103829da"
 depends = "[]"
 reverse_depends = "['kiconthemes']"
 +++
@@ -28,10 +28,10 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/lib/cmake/KF6BreezeIcons/KF6BreezeIconsTargets.cmake
 * /usr/lib/libKF6BreezeIcons.so
 * /usr/lib/libKF6BreezeIcons.so.6
-* /usr/lib/libKF6BreezeIcons.so.6.12.0
-* /usr/share/doc/breeze-icons-6.12.0/COPYING-ICONS
-* /usr/share/doc/breeze-icons-6.12.0/COPYING.LIB
-* /usr/share/doc/breeze-icons-6.12.0/README.md
+* /usr/lib/libKF6BreezeIcons.so.6.13.0
+* /usr/share/doc/breeze-icons-6.13.0/COPYING-ICONS
+* /usr/share/doc/breeze-icons-6.13.0/COPYING.LIB
+* /usr/share/doc/breeze-icons-6.13.0/README.md
 * /usr/share/icons/breeze-dark/actions/12/mobile-close-app.svg
 * /usr/share/icons/breeze-dark/actions/12/mobile-task-switcher.svg
 * /usr/share/icons/breeze-dark/actions/12/object-fill.svg
@@ -15393,6 +15393,12 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/status/22/nm-signal-50.svg
 * /usr/share/icons/breeze-dark/status/22/nm-signal-75-symbolic.svg
 * /usr/share/icons/breeze-dark/status/22/nm-signal-75.svg
+* /usr/share/icons/breeze-dark/status/22/org.telegram.desktop-attention-symbolic.svg
+* /usr/share/icons/breeze-dark/status/22/org.telegram.desktop-attention.svg
+* /usr/share/icons/breeze-dark/status/22/org.telegram.desktop-mute-symbolic.svg
+* /usr/share/icons/breeze-dark/status/22/org.telegram.desktop-mute.svg
+* /usr/share/icons/breeze-dark/status/22/org.telegram.desktop-symbolic.svg
+* /usr/share/icons/breeze-dark/status/22/org.telegram.desktop.svg
 * /usr/share/icons/breeze-dark/status/22/plasmavault_error.svg
 * /usr/share/icons/breeze-dark/status/22/process-working-symbolic.svg
 * /usr/share/icons/breeze-dark/status/22/redshift-status-day-symbolic.svg
@@ -31830,6 +31836,12 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/status/22/nm-signal-50.svg
 * /usr/share/icons/breeze/status/22/nm-signal-75-symbolic.svg
 * /usr/share/icons/breeze/status/22/nm-signal-75.svg
+* /usr/share/icons/breeze/status/22/org.telegram.desktop-attention-symbolic.svg
+* /usr/share/icons/breeze/status/22/org.telegram.desktop-attention.svg
+* /usr/share/icons/breeze/status/22/org.telegram.desktop-mute-symbolic.svg
+* /usr/share/icons/breeze/status/22/org.telegram.desktop-mute.svg
+* /usr/share/icons/breeze/status/22/org.telegram.desktop-symbolic.svg
+* /usr/share/icons/breeze/status/22/org.telegram.desktop.svg
 * /usr/share/icons/breeze/status/22/plasmavault_error.svg
 * /usr/share/icons/breeze/status/22/process-working-symbolic.svg
 * /usr/share/icons/breeze/status/22/redshift-status-day-symbolic.svg

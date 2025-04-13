@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "sonnet-plugin-aspell 6.12.0-3"
-version = "6.12.0-3"
+title = "sonnet-plugin-aspell 6.13.0-1"
+version = "6.13.0-1"
 description = "Aspell plugin for sonnet"
-date = "2025-04-05T12:22:11"
+date = "2025-04-13T17:46:37"
 aliases = "/packages/218500"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "8740"
+size = "8788"
 usize = "20480"
-sha1sum = "bce4ae855833257cdb9ce4a6e4d852cb5db374a9"
+sha1sum = "f080f35a681b4b68753dfac064cd9aa02d8526b2"
 depends = "['aspell>=0.60.6.1-4']"
 +++
 ### Description: 

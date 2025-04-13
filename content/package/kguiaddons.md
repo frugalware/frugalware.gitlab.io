@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kguiaddons 6.12.0-3"
-version = "6.12.0-3"
+title = "kguiaddons 6.13.0-1"
+version = "6.13.0-1"
 description = "Utilities for graphical user interfaces."
-date = "2025-04-05T12:34:08"
+date = "2025-04-13T18:00:16"
 aliases = "/packages/218310"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "125628"
-usize = "457138"
-sha1sum = "f4337ae4f686e2d1dea03331cad29059df340f31"
+size = "125956"
+usize = "457569"
+sha1sum = "e5995be555f4d68f41153deea9520e1d3de5d942"
 depends = "['qt6-base>=6.9.0', 'qt6-wayland>=6.9.0']"
 reverse_depends = "['breeze', 'kcolorscheme', 'kirigami-addons', 'kwin', 'pinentry-qt6', 'plasma5support', 'qqc2-breeze-style']"
 +++
@@ -61,7 +61,7 @@ Utilities for graphical user interfaces.
 * /usr/lib/cmake/KF6GuiAddons/KF6GuiAddonsTargets.cmake
 * /usr/lib/libKF6GuiAddons.so
 * /usr/lib/libKF6GuiAddons.so.6
-* /usr/lib/libKF6GuiAddons.so.6.12.0
+* /usr/lib/libKF6GuiAddons.so.6.13.0
 * /usr/lib/pkgconfig/KF6GuiAddons.pc
 * /usr/lib/qt6/qml/org/kde/guiaddons/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/guiaddons/kguiaddonsqml.qmltypes
@@ -70,6 +70,6 @@ Utilities for graphical user interfaces.
 * /usr/share/applications/google-maps-geo-handler.desktop
 * /usr/share/applications/openstreetmap-geo-handler.desktop
 * /usr/share/applications/wheelmap-geo-handler.desktop
-* /usr/share/doc/kguiaddons-6.12.0/README.md
-* /usr/share/doc/kguiaddons-6.12.0/README.md.license
+* /usr/share/doc/kguiaddons-6.13.0/README.md
+* /usr/share/doc/kguiaddons-6.13.0/README.md.license
 * /usr/share/qlogging-categories6/kguiaddons.categories
