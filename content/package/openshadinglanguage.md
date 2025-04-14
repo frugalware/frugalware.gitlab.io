@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "openshadinglanguage 1.13.12.0-5"
-version = "1.13.12.0-5"
+title = "openshadinglanguage 1.14.5.0-1"
+version = "1.14.5.0-1"
 description = "Advanced shading language for production GI renderers"
-date = "2025-04-07T11:22:34"
+date = "2025-04-14T10:05:12"
 aliases = "/packages/220207"
 categories = ['xlib-extra']
 upstreamurl = "https://github.com/AcademySoftwareFoundation/openshadinglanguage"
 arch = "x86_64"
-size = "2229332"
-usize = "7304723"
-sha1sum = "a50b6e9d8be1099c6d0b8b3ec55cf06d5d7df080"
-depends = "['clang-libs>=19.1.1', 'intel-tbb', 'libboost>=1.87.0', 'openexr', 'openimageio>=2.5', 'pugixml', 'python3>=3.13']"
+size = "5729992"
+usize = "26135729"
+sha1sum = "57a56093212245fd1496ed3c57f92649992ad0e7"
+depends = "['clang-libs>=19.1.1', 'intel-tbb', 'openexr', 'openimageio>=2.5', 'partio', 'pugixml', 'python3>=3.13']"
 +++
 ### Description: 
 Advanced shading language for production GI renderers
@@ -30,23 +30,17 @@ Advanced shading language for production GI renderers
 * /usr/include/OSL/batched_shaderglobals.h
 * /usr/include/OSL/batched_texture.h
 * /usr/include/OSL/device_ptr.h
-* /usr/include/OSL/device_string.h
 * /usr/include/OSL/dual.h
 * /usr/include/OSL/dual_vec.h
 * /usr/include/OSL/encodedtypes.h
 * /usr/include/OSL/export.h
 * /usr/include/OSL/fmt_util.h
 * /usr/include/OSL/genclosure.h
-* /usr/include/OSL/Imathx/ImathColor.h
-* /usr/include/OSL/Imathx/ImathFun.h
-* /usr/include/OSL/Imathx/ImathLimits.h
-* /usr/include/OSL/Imathx/ImathMatrix.h
-* /usr/include/OSL/Imathx/ImathVec.h
+* /usr/include/OSL/hashes.h
 * /usr/include/OSL/Imathx/Imathx.h
 * /usr/include/OSL/journal.h
 * /usr/include/OSL/llvm_util.h
 * /usr/include/OSL/mask.h
-* /usr/include/OSL/matrix22.h
 * /usr/include/OSL/optautomata.h
 * /usr/include/OSL/oslclosure.h
 * /usr/include/OSL/oslcomp.h
@@ -70,27 +64,36 @@ Advanced shading language for production GI renderers
 * /usr/lib/cmake/OSL/OSLTargets-release.cmake
 * /usr/lib/cmake/OSL/OSLTargets.cmake
 * /usr/lib/liboslcomp.so
-* /usr/lib/liboslcomp.so.1.13
-* /usr/lib/liboslcomp.so.1.13.12
+* /usr/lib/liboslcomp.so.1.14
+* /usr/lib/liboslcomp.so.1.14.5
 * /usr/lib/liboslexec.so
-* /usr/lib/liboslexec.so.1.13
-* /usr/lib/liboslexec.so.1.13.12
+* /usr/lib/liboslexec.so.1.14
+* /usr/lib/liboslexec.so.1.14.5
 * /usr/lib/liboslnoise.so
-* /usr/lib/liboslnoise.so.1.13
-* /usr/lib/liboslnoise.so.1.13.12
+* /usr/lib/liboslnoise.so.1.14
+* /usr/lib/liboslnoise.so.1.14.5
 * /usr/lib/liboslquery.so
-* /usr/lib/liboslquery.so.1.13
-* /usr/lib/liboslquery.so.1.13.12
+* /usr/lib/liboslquery.so.1.14
+* /usr/lib/liboslquery.so.1.14.5
 * /usr/lib/libtestshade.so
-* /usr/lib/libtestshade.so.1.13
-* /usr/lib/libtestshade.so.1.13.12
+* /usr/lib/libtestshade.so.1.14
+* /usr/lib/libtestshade.so.1.14.5
+* /usr/lib/lib_b16_AVX512_noFMA_oslexec.so
+* /usr/lib/lib_b16_AVX512_oslexec.so
+* /usr/lib/lib_b4_SSE2_oslexec.so
+* /usr/lib/lib_b8_AVX2_noFMA_oslexec.so
+* /usr/lib/lib_b8_AVX2_oslexec.so
+* /usr/lib/lib_b8_AVX512_noFMA_oslexec.so
+* /usr/lib/lib_b8_AVX512_oslexec.so
+* /usr/lib/lib_b8_AVX_oslexec.so
 * /usr/lib/osl.imageio.so
 * /usr/lib/pkgconfig/oslcomp.pc
 * /usr/lib/pkgconfig/oslexec.pc
 * /usr/lib/pkgconfig/oslquery.pc
-* /usr/lib/python3.13/site-packages/oslquery.so
-* /usr/share/doc/openshadinglanguage-1.13.12.0/INSTALL.md
-* /usr/share/doc/openshadinglanguage-1.13.12.0/README.md
+* /usr/lib/python3.13/site-packages/oslquery/oslquery.cpython-313-x86_64-linux-gnu.so
+* /usr/lib/python3.13/site-packages/oslquery/__init__.py
+* /usr/share/doc/openshadinglanguage-1.14.5.0/INSTALL.md
+* /usr/share/doc/openshadinglanguage-1.14.5.0/README.md
 * /usr/share/doc/OSL/CHANGES.md
 * /usr/share/doc/OSL/docdeep.md.html
 * /usr/share/doc/OSL/docs.css
@@ -108,7 +111,6 @@ Advanced shading language for production GI renderers
 * /usr/share/doc/OSL/INSTALL.md
 * /usr/share/doc/OSL/LICENSE.md
 * /usr/share/doc/OSL/markdeep.min.js
-* /usr/share/doc/OSL/osl-languagespec.pdf
 * /usr/share/doc/OSL/OSLQuery.md.html
 * /usr/share/doc/OSL/osltoy.md.html
 * /usr/share/doc/OSL/README.md

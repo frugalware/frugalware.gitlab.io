@@ -12,6 +12,7 @@ size = "187168"
 usize = "939799"
 sha1sum = "5547685ea37894f1d365ef110ef631a4a1973e68"
 depends = "['freeglut', 'python3', 'zlib-ng']"
+reverse_depends = "['openshadinglanguage']"
 +++
 ### Description: 
 Particle IO and manipulation library

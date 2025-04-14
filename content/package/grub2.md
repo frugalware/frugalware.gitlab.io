@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "grub2 2.12.ga4da71d-1"
-version = "2.12.ga4da71d-1"
+title = "grub2 2.12.ga4da71d-2"
+version = "2.12.ga4da71d-2"
 description = "The GNU GRand Unified Bootloader"
-date = "2025-04-14T08:13:21"
+date = "2025-04-14T12:32:33"
 aliases = "/packages/136034"
 categories = ['base']
 upstreamurl = "http://www.gnu.org/software/grub/"
 arch = "x86_64"
-size = "15451692"
-usize = "70854128"
-sha1sum = "363add9c69ff27baf69d20ba819c0044121cd405"
+size = "15508492"
+usize = "71367139"
+sha1sum = "d978d8f2ab92e475907f888c4af1821f08ec3884"
 depends = "['efibootmgr', 'grub-theme-frugalware', 'scriptlet-core']"
 reverse_depends = "['breeze-grub']"
 +++
@@ -74,6 +74,8 @@ The GNU GRand Unified Bootloader
 * /usr/lib/grub/i386-pc/aout.module
 * /usr/lib/grub/i386-pc/archelp.mod
 * /usr/lib/grub/i386-pc/archelp.module
+* /usr/lib/grub/i386-pc/argon2.mod
+* /usr/lib/grub/i386-pc/argon2.module
 * /usr/lib/grub/i386-pc/asn1.mod
 * /usr/lib/grub/i386-pc/asn1.module
 * /usr/lib/grub/i386-pc/asn1_test.mod
@@ -667,6 +669,8 @@ The GNU GRand Unified Bootloader
 * /usr/lib/grub/x86_64-efi/appleldr.module
 * /usr/lib/grub/x86_64-efi/archelp.mod
 * /usr/lib/grub/x86_64-efi/archelp.module
+* /usr/lib/grub/x86_64-efi/argon2.mod
+* /usr/lib/grub/x86_64-efi/argon2.module
 * /usr/lib/grub/x86_64-efi/asn1.mod
 * /usr/lib/grub/x86_64-efi/asn1.module
 * /usr/lib/grub/x86_64-efi/asn1_test.mod
