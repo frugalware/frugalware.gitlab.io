@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "uwsgi-plugin-curl 2.0.28-3"
-version = "2.0.28-3"
+title = "uwsgi-plugin-curl 2.0.29-1"
+version = "2.0.29-1"
 description = "UWSGI Curl Plugin"
-date = "2025-03-19T10:10:49"
+date = "2025-04-14T09:27:49"
 aliases = "/packages/200425"
 categories = ['network-extra']
 upstreamurl = "http://projects.unbit.it/"
 arch = "x86_64"
-size = "8156"
+size = "8204"
 usize = "18584"
-sha1sum = "49ba4f7abc9810e14b889958c7e4d1082e1339c4"
+sha1sum = "d8897a9dccc8d0f3364b5c4164e8947e20cb635e"
 depends = "['curl', 'uwsgi']"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "uwsgi-plugin-graylog 2.0.28-3"
-version = "2.0.28-3"
+title = "uwsgi-plugin-graylog 2.0.29-1"
+version = "2.0.29-1"
 description = "UWSGI Graylog Plugin"
-date = "2025-03-19T10:10:49"
+date = "2025-04-14T09:27:49"
 aliases = "/packages/200411"
 categories = ['network-extra']
 upstreamurl = "http://projects.unbit.it/"
 arch = "x86_64"
-size = "5892"
+size = "5940"
 usize = "7528"
-sha1sum = "8f32a4d5918fc7c6cbb7cbc61fdec3833ef770ea"
+sha1sum = "039f63bf28cb20a735c1b5dc7e54e461c9f42ae9"
 depends = "['uwsgi']"
 +++
 ### Description: 

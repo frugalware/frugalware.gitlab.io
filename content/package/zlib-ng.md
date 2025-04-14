@@ -12,7 +12,7 @@ size = "121228"
 usize = "333177"
 sha1sum = "b5697ca626b4ed0e2658a168fe33484686ca0c28"
 depends = "['glibc>=2.37']"
-reverse_depends = "['assimp', 'cracklib', 'elfutils', 'file', 'geogram', 'glib2', 'kmod', 'libarchive', 'libssh', 'libssh2', 'libsystemd', 'nss', 'pcre', 'pcre2', 'zstd']"
+reverse_depends = "['assimp', 'cracklib', 'elfutils', 'file', 'geogram', 'glib2', 'kmod', 'libarchive', 'libssh', 'libssh2', 'libsystemd', 'nss', 'partio', 'pcre', 'pcre2', 'zstd']"
 +++
 ### Description: 
 zlib replacement with optimizations for 'next generation' systems.

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "uwsgi-plugin-pam 2.0.28-3"
-version = "2.0.28-3"
+title = "uwsgi-plugin-pam 2.0.29-1"
+version = "2.0.29-1"
 description = "UWSGI PAM Plugin"
-date = "2025-03-19T10:10:49"
+date = "2025-04-14T09:27:49"
 aliases = "/packages/200406"
 categories = ['network-extra']
 upstreamurl = "http://projects.unbit.it/"
 arch = "x86_64"
-size = "5496"
+size = "5556"
 usize = "6856"
-sha1sum = "0203ec17c0a5665630880d76e478257672a188a4"
+sha1sum = "ab8a7d54dbec5c7a73677ae5b137d5e3aa9cfe5a"
 depends = "['uwsgi']"
 +++
 ### Description: 

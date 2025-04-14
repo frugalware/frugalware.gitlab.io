@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "bcunit 5.3.86-2"
-version = "5.3.86-2"
+title = "bcunit 5.4.7-1"
+version = "5.4.7-1"
 description = "Lightweight system for writing, administering, and running unit tests in C"
-date = "2024-10-02T10:37:41"
+date = "2025-04-14T09:21:39"
 aliases = "/packages/220419"
 categories = ['devel-extra']
 upstreamurl = "http://www.linphone.org"
 arch = "x86_64"
-size = "254592"
-usize = "447509"
-sha1sum = "37df95ab4bf64c7c5cb1bb16501ab7f376a179b5"
+size = "255480"
+usize = "448309"
+sha1sum = "d92730986fb2f39ce1a4e6bc187af99c5c4c6450"
 depends = "['glibc']"
 +++
 ### Description: 
@@ -39,10 +39,10 @@ Lightweight system for writing, administering, and running unit tests in C
 * /usr/share/BCUnit/cmake/BCUnitTargets.cmake
 * /usr/share/BCUnit/Memory-Dump.dtd
 * /usr/share/BCUnit/Memory-Dump.xsl
-* /usr/share/doc/bcunit-5.3.86/AUTHORS
-* /usr/share/doc/bcunit-5.3.86/ChangeLog
-* /usr/share/doc/bcunit-5.3.86/COPYING
-* /usr/share/doc/bcunit-5.3.86/NEWS
-* /usr/share/doc/bcunit-5.3.86/README.md
-* /usr/share/doc/bcunit-5.3.86/TODO
-* /usr/share/doc/bcunit-5.3.86/VERSION
+* /usr/share/doc/bcunit-5.4.7/AUTHORS
+* /usr/share/doc/bcunit-5.4.7/ChangeLog
+* /usr/share/doc/bcunit-5.4.7/COPYING
+* /usr/share/doc/bcunit-5.4.7/NEWS
+* /usr/share/doc/bcunit-5.4.7/README.md
+* /usr/share/doc/bcunit-5.4.7/TODO
+* /usr/share/doc/bcunit-5.4.7/VERSION

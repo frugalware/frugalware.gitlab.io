@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "uwsgi-plugin-rack 2.0.28-3"
-version = "2.0.28-3"
+title = "uwsgi-plugin-rack 2.0.29-1"
+version = "2.0.29-1"
 description = "UWSGI Ruby Rack Plugin"
-date = "2025-03-19T10:10:49"
+date = "2025-04-14T09:27:49"
 aliases = "/packages/200399"
 categories = ['network-extra']
 upstreamurl = "http://projects.unbit.it/"
 arch = "x86_64"
-size = "24084"
-usize = "64328"
-sha1sum = "18ef1ba5f97984535afcb47149cc5b1abca11bf0"
+size = "24056"
+usize = "64424"
+sha1sum = "c36e950765a946586bf68aa45f2d04d2b04488e3"
 depends = "['ruby>=3.4.1', 'uwsgi']"
 +++
 ### Description: 

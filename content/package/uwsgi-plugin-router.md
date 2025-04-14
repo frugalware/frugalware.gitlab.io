@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "uwsgi-plugin-router 2.0.28-3"
-version = "2.0.28-3"
+title = "uwsgi-plugin-router 2.0.29-1"
+version = "2.0.29-1"
 description = "UWSGI Router Plugin"
-date = "2025-03-19T10:10:49"
+date = "2025-04-14T09:27:49"
 aliases = "/packages/200403"
 categories = ['network-extra']
 upstreamurl = "http://projects.unbit.it/"
 arch = "x86_64"
-size = "49080"
-usize = "220088"
-sha1sum = "9725f780c671df48ac164919be5a71508063283b"
+size = "49096"
+usize = "220216"
+sha1sum = "bdcfe528af0fb877067274f75e10c5c4b4547fa0"
 depends = "['libxcrypt', 'uwsgi']"
 +++
 ### Description: 
