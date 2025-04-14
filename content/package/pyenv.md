@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pyenv 2.5.4-1"
-version = "2.5.4-1"
+title = "pyenv 2.5.5-1"
+version = "2.5.5-1"
 description = "Easily switch between multiple versions of Python"
-date = "2025-03-17T08:52:43"
+date = "2025-04-14T08:23:13"
 aliases = "/packages/221127"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/pyenv/pyenv"
 arch = "x86_64"
-size = "287784"
-usize = "3430404"
-sha1sum = "9a2f3ae51de01e85a2c0b153b2db07d303969e16"
+size = "290012"
+usize = "3447118"
+sha1sum = "5b4a35b8e4d6eecd46a6709b73bf4939c93627c7"
 depends = "['bash']"
 +++
 ### Description: 
@@ -22,8 +22,8 @@ Easily switch between multiple versions of Python
 * /usr/bin/pyenv-uninstall
 * /usr/bin/python-build
 * /usr/share/bash-completion/completions/pyenv
-* /usr/share/doc/pyenv-2.5.4/LICENSE
-* /usr/share/doc/pyenv-2.5.4/README.md
+* /usr/share/doc/pyenv-2.5.5/LICENSE
+* /usr/share/doc/pyenv-2.5.5/README.md
 * /usr/share/doc/pyenv/CHANGELOG.md
 * /usr/share/doc/pyenv/COMMANDS.md
 * /usr/share/doc/pyenv/README-python-build.md
@@ -123,6 +123,7 @@ Easily switch between multiple versions of Python
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.10.14
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.10.15
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.10.16
+* /usr/share/pyenv/plugins/python-build/share/python-build/3.10.17
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.10.2
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.10.3
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.10.4
@@ -136,6 +137,7 @@ Easily switch between multiple versions of Python
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.11.1
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.11.10
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.11.11
+* /usr/share/pyenv/plugins/python-build/share/python-build/3.11.12
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.11.2
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.11.3
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.11.4
@@ -147,6 +149,7 @@ Easily switch between multiple versions of Python
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.12-dev
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.12.0
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.12.1
+* /usr/share/pyenv/plugins/python-build/share/python-build/3.12.10
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.12.2
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.12.3
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.12.4
@@ -162,10 +165,12 @@ Easily switch between multiple versions of Python
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.13.1t
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.13.2
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.13.2t
+* /usr/share/pyenv/plugins/python-build/share/python-build/3.13.3
+* /usr/share/pyenv/plugins/python-build/share/python-build/3.13.3t
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.13t-dev
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.14-dev
-* /usr/share/pyenv/plugins/python-build/share/python-build/3.14.0a6
-* /usr/share/pyenv/plugins/python-build/share/python-build/3.14.0a6t
+* /usr/share/pyenv/plugins/python-build/share/python-build/3.14.0a7
+* /usr/share/pyenv/plugins/python-build/share/python-build/3.14.0a7t
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.14t-dev
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.2.0
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.2.1
@@ -280,6 +285,7 @@ Easily switch between multiple versions of Python
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.9.2
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.9.20
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.9.21
+* /usr/share/pyenv/plugins/python-build/share/python-build/3.9.22
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.9.4
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.9.5
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.9.6
@@ -379,12 +385,14 @@ Easily switch between multiple versions of Python
 * /usr/share/pyenv/plugins/python-build/share/python-build/graalpy-24.1.0
 * /usr/share/pyenv/plugins/python-build/share/python-build/graalpy-24.1.1
 * /usr/share/pyenv/plugins/python-build/share/python-build/graalpy-24.1.2
+* /usr/share/pyenv/plugins/python-build/share/python-build/graalpy-24.2.0
 * /usr/share/pyenv/plugins/python-build/share/python-build/graalpy-community-23.1.0
 * /usr/share/pyenv/plugins/python-build/share/python-build/graalpy-community-23.1.2
 * /usr/share/pyenv/plugins/python-build/share/python-build/graalpy-community-24.0.0
 * /usr/share/pyenv/plugins/python-build/share/python-build/graalpy-community-24.1.0
 * /usr/share/pyenv/plugins/python-build/share/python-build/graalpy-community-24.1.1
 * /usr/share/pyenv/plugins/python-build/share/python-build/graalpy-community-24.1.2
+* /usr/share/pyenv/plugins/python-build/share/python-build/graalpy-community-24.2.0
 * /usr/share/pyenv/plugins/python-build/share/python-build/graalpy-dev
 * /usr/share/pyenv/plugins/python-build/share/python-build/graalpython-20.1.0
 * /usr/share/pyenv/plugins/python-build/share/python-build/graalpython-20.2.0
@@ -666,6 +674,8 @@ Easily switch between multiple versions of Python
 * /usr/share/pyenv/plugins/python-build/share/python-build/miniforge3-24.11.2-0
 * /usr/share/pyenv/plugins/python-build/share/python-build/miniforge3-24.11.2-1
 * /usr/share/pyenv/plugins/python-build/share/python-build/miniforge3-24.11.3-0
+* /usr/share/pyenv/plugins/python-build/share/python-build/miniforge3-24.11.3-1
+* /usr/share/pyenv/plugins/python-build/share/python-build/miniforge3-24.11.3-2
 * /usr/share/pyenv/plugins/python-build/share/python-build/miniforge3-24.3.0-0
 * /usr/share/pyenv/plugins/python-build/share/python-build/miniforge3-24.5.0-0
 * /usr/share/pyenv/plugins/python-build/share/python-build/miniforge3-24.7.1-0
@@ -674,6 +684,8 @@ Easily switch between multiple versions of Python
 * /usr/share/pyenv/plugins/python-build/share/python-build/miniforge3-24.9.0-0
 * /usr/share/pyenv/plugins/python-build/share/python-build/miniforge3-24.9.2-0
 * /usr/share/pyenv/plugins/python-build/share/python-build/miniforge3-25.1.1-0
+* /usr/share/pyenv/plugins/python-build/share/python-build/miniforge3-25.1.1-1
+* /usr/share/pyenv/plugins/python-build/share/python-build/miniforge3-25.1.1-2
 * /usr/share/pyenv/plugins/python-build/share/python-build/miniforge3-4.10
 * /usr/share/pyenv/plugins/python-build/share/python-build/miniforge3-4.10.1-1
 * /usr/share/pyenv/plugins/python-build/share/python-build/miniforge3-4.10.1-3
