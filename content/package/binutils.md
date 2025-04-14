@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "binutils 2.44-1"
-version = "2.44-1"
+title = "binutils 2.44-2"
+version = "2.44-2"
 description = "A set of programs to assemble and manipulate binary and object files"
-date = "2025-02-05T14:18:34"
+date = "2025-04-14T13:45:50"
 aliases = "/packages/2350"
 categories = ['devel']
 upstreamurl = "http://www.gnu.org/software/binutils/"
 arch = "x86_64"
-size = "17231892"
-usize = "50593653"
-sha1sum = "babf9d1339ef95e732547887658dcc9a7166adf2"
+size = "18307040"
+usize = "55280580"
+sha1sum = "189330974e42be337b107286b8d770ef90c2b854"
 depends = "['glibc>=2.40', 'libstdc++>=14.2', 'zstd']"
 reverse_depends = "['bpf', 'cairo', 'dracut', 'gcc', 'gcc-12', 'gcc-13', 'gdb', 'ocaml', 'openucx', 'perf']"
 +++
@@ -26,6 +26,7 @@ A set of programs to assemble and manipulate binary and object files
 * /usr/bin/binutils-nm
 * /usr/bin/binutils-ranlib
 * /usr/bin/c++filt
+* /usr/bin/dwp
 * /usr/bin/elfedit
 * /usr/bin/gp-archive
 * /usr/bin/gp-collect-app
@@ -41,6 +42,7 @@ A set of programs to assemble and manipulate binary and object files
 * /usr/bin/gprofng-display-text
 * /usr/bin/ld
 * /usr/bin/ld.bfd
+* /usr/bin/ld.gold
 * /usr/bin/nm
 * /usr/bin/objcopy
 * /usr/bin/objdump
@@ -108,18 +110,21 @@ A set of programs to assemble and manipulate binary and object files
 * /usr/share/locale/es/LC_MESSAGES/bfd.mo
 * /usr/share/locale/es/LC_MESSAGES/binutils.mo
 * /usr/share/locale/es/LC_MESSAGES/gas.mo
+* /usr/share/locale/es/LC_MESSAGES/gold.mo
 * /usr/share/locale/es/LC_MESSAGES/gprof.mo
 * /usr/share/locale/es/LC_MESSAGES/ld.mo
 * /usr/share/locale/es/LC_MESSAGES/opcodes.mo
 * /usr/share/locale/fi/LC_MESSAGES/bfd.mo
 * /usr/share/locale/fi/LC_MESSAGES/binutils.mo
 * /usr/share/locale/fi/LC_MESSAGES/gas.mo
+* /usr/share/locale/fi/LC_MESSAGES/gold.mo
 * /usr/share/locale/fi/LC_MESSAGES/gprof.mo
 * /usr/share/locale/fi/LC_MESSAGES/ld.mo
 * /usr/share/locale/fi/LC_MESSAGES/opcodes.mo
 * /usr/share/locale/fr/LC_MESSAGES/bfd.mo
 * /usr/share/locale/fr/LC_MESSAGES/binutils.mo
 * /usr/share/locale/fr/LC_MESSAGES/gas.mo
+* /usr/share/locale/fr/LC_MESSAGES/gold.mo
 * /usr/share/locale/fr/LC_MESSAGES/gprof.mo
 * /usr/share/locale/fr/LC_MESSAGES/ld.mo
 * /usr/share/locale/fr/LC_MESSAGES/opcodes.mo
@@ -132,19 +137,23 @@ A set of programs to assemble and manipulate binary and object files
 * /usr/share/locale/id/LC_MESSAGES/bfd.mo
 * /usr/share/locale/id/LC_MESSAGES/binutils.mo
 * /usr/share/locale/id/LC_MESSAGES/gas.mo
+* /usr/share/locale/id/LC_MESSAGES/gold.mo
 * /usr/share/locale/id/LC_MESSAGES/gprof.mo
 * /usr/share/locale/id/LC_MESSAGES/ld.mo
 * /usr/share/locale/id/LC_MESSAGES/opcodes.mo
 * /usr/share/locale/it/LC_MESSAGES/binutils.mo
+* /usr/share/locale/it/LC_MESSAGES/gold.mo
 * /usr/share/locale/it/LC_MESSAGES/gprof.mo
 * /usr/share/locale/it/LC_MESSAGES/ld.mo
 * /usr/share/locale/it/LC_MESSAGES/opcodes.mo
 * /usr/share/locale/ja/LC_MESSAGES/bfd.mo
 * /usr/share/locale/ja/LC_MESSAGES/binutils.mo
 * /usr/share/locale/ja/LC_MESSAGES/gas.mo
+* /usr/share/locale/ja/LC_MESSAGES/gold.mo
 * /usr/share/locale/ja/LC_MESSAGES/gprof.mo
 * /usr/share/locale/ja/LC_MESSAGES/ld.mo
 * /usr/share/locale/ka/LC_MESSAGES/bfd.mo
+* /usr/share/locale/ka/LC_MESSAGES/gold.mo
 * /usr/share/locale/ka/LC_MESSAGES/gprof.mo
 * /usr/share/locale/ka/LC_MESSAGES/ld.mo
 * /usr/share/locale/ms/LC_MESSAGES/bfd.mo
@@ -159,6 +168,7 @@ A set of programs to assemble and manipulate binary and object files
 * /usr/share/locale/ro/LC_MESSAGES/bfd.mo
 * /usr/share/locale/ro/LC_MESSAGES/binutils.mo
 * /usr/share/locale/ro/LC_MESSAGES/gas.mo
+* /usr/share/locale/ro/LC_MESSAGES/gold.mo
 * /usr/share/locale/ro/LC_MESSAGES/gprof.mo
 * /usr/share/locale/ro/LC_MESSAGES/ld.mo
 * /usr/share/locale/ro/LC_MESSAGES/opcodes.mo
@@ -174,12 +184,14 @@ A set of programs to assemble and manipulate binary and object files
 * /usr/share/locale/sk/LC_MESSAGES/binutils.mo
 * /usr/share/locale/sr/LC_MESSAGES/bfd.mo
 * /usr/share/locale/sr/LC_MESSAGES/binutils.mo
+* /usr/share/locale/sr/LC_MESSAGES/gold.mo
 * /usr/share/locale/sr/LC_MESSAGES/gprof.mo
 * /usr/share/locale/sr/LC_MESSAGES/ld.mo
 * /usr/share/locale/sr/LC_MESSAGES/opcodes.mo
 * /usr/share/locale/sv/LC_MESSAGES/bfd.mo
 * /usr/share/locale/sv/LC_MESSAGES/binutils.mo
 * /usr/share/locale/sv/LC_MESSAGES/gas.mo
+* /usr/share/locale/sv/LC_MESSAGES/gold.mo
 * /usr/share/locale/sv/LC_MESSAGES/gprof.mo
 * /usr/share/locale/sv/LC_MESSAGES/ld.mo
 * /usr/share/locale/sv/LC_MESSAGES/opcodes.mo
@@ -192,17 +204,20 @@ A set of programs to assemble and manipulate binary and object files
 * /usr/share/locale/uk/LC_MESSAGES/bfd.mo
 * /usr/share/locale/uk/LC_MESSAGES/binutils.mo
 * /usr/share/locale/uk/LC_MESSAGES/gas.mo
+* /usr/share/locale/uk/LC_MESSAGES/gold.mo
 * /usr/share/locale/uk/LC_MESSAGES/gprof.mo
 * /usr/share/locale/uk/LC_MESSAGES/ld.mo
 * /usr/share/locale/uk/LC_MESSAGES/opcodes.mo
 * /usr/share/locale/vi/LC_MESSAGES/bfd.mo
 * /usr/share/locale/vi/LC_MESSAGES/binutils.mo
+* /usr/share/locale/vi/LC_MESSAGES/gold.mo
 * /usr/share/locale/vi/LC_MESSAGES/gprof.mo
 * /usr/share/locale/vi/LC_MESSAGES/ld.mo
 * /usr/share/locale/vi/LC_MESSAGES/opcodes.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/bfd.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/binutils.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/gas.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/gold.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/ld.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/opcodes.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/binutils.mo
@@ -238,6 +253,7 @@ A set of programs to assemble and manipulate binary and object files
 * /usr/x86_64-frugalware-linux/bin/binutils-ranlib
 * /usr/x86_64-frugalware-linux/bin/ld
 * /usr/x86_64-frugalware-linux/bin/ld.bfd
+* /usr/x86_64-frugalware-linux/bin/ld.gold
 * /usr/x86_64-frugalware-linux/bin/nm
 * /usr/x86_64-frugalware-linux/bin/objcopy
 * /usr/x86_64-frugalware-linux/bin/objdump
@@ -275,6 +291,13 @@ A set of programs to assemble and manipulate binary and object files
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf32_x86_64.xw
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf32_x86_64.xwe
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf32_x86_64.xwer
+* /usr/x86_64-frugalware-linux/lib/ldscripts/elf64bpf.x
+* /usr/x86_64-frugalware-linux/lib/ldscripts/elf64bpf.xbn
+* /usr/x86_64-frugalware-linux/lib/ldscripts/elf64bpf.xe
+* /usr/x86_64-frugalware-linux/lib/ldscripts/elf64bpf.xer
+* /usr/x86_64-frugalware-linux/lib/ldscripts/elf64bpf.xn
+* /usr/x86_64-frugalware-linux/lib/ldscripts/elf64bpf.xr
+* /usr/x86_64-frugalware-linux/lib/ldscripts/elf64bpf.xu
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_i386.x
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_i386.xbn
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_i386.xc
@@ -368,4 +391,20 @@ A set of programs to assemble and manipulate binary and object files
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_x86_64.xw
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_x86_64.xwe
 * /usr/x86_64-frugalware-linux/lib/ldscripts/elf_x86_64.xwer
+* /usr/x86_64-frugalware-linux/lib/ldscripts/i386pe.x
+* /usr/x86_64-frugalware-linux/lib/ldscripts/i386pe.xa
+* /usr/x86_64-frugalware-linux/lib/ldscripts/i386pe.xbn
+* /usr/x86_64-frugalware-linux/lib/ldscripts/i386pe.xe
+* /usr/x86_64-frugalware-linux/lib/ldscripts/i386pe.xer
+* /usr/x86_64-frugalware-linux/lib/ldscripts/i386pe.xn
+* /usr/x86_64-frugalware-linux/lib/ldscripts/i386pe.xr
+* /usr/x86_64-frugalware-linux/lib/ldscripts/i386pe.xu
+* /usr/x86_64-frugalware-linux/lib/ldscripts/i386pep.x
+* /usr/x86_64-frugalware-linux/lib/ldscripts/i386pep.xa
+* /usr/x86_64-frugalware-linux/lib/ldscripts/i386pep.xbn
+* /usr/x86_64-frugalware-linux/lib/ldscripts/i386pep.xe
+* /usr/x86_64-frugalware-linux/lib/ldscripts/i386pep.xer
+* /usr/x86_64-frugalware-linux/lib/ldscripts/i386pep.xn
+* /usr/x86_64-frugalware-linux/lib/ldscripts/i386pep.xr
+* /usr/x86_64-frugalware-linux/lib/ldscripts/i386pep.xu
 * /usr/x86_64-frugalware-linux/lib/ldscripts/stamp

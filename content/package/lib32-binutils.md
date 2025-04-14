@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-binutils 2.44-1"
-version = "2.44-1"
+title = "lib32-binutils 2.44-2"
+version = "2.44-2"
 description = "A set of programs to assemble and manipulate binary and object files ( 32bit )"
-date = "2025-02-05T14:18:34"
+date = "2025-04-14T13:45:50"
 aliases = "/packages/221229"
 categories = ['lib32-extra']
 upstreamurl = "http://www.gnu.org/software/binutils/"
 arch = "x86_64"
-size = "3016072"
-usize = "14223231"
-sha1sum = "fff4899d2ef8fc9c176a171d9c4cd903b6e49596"
+size = "4007292"
+usize = "19155981"
+sha1sum = "9b702e5470856310fafe87459d1b82b021b4be90"
 depends = "['lib32-zstd']"
 reverse_depends = "['lib32-cairo']"
 +++
@@ -22,6 +22,7 @@ A set of programs to assemble and manipulate binary and object files ( 32bit )
 * /usr/i686-frugalware-linux/bin/ar
 * /usr/i686-frugalware-linux/bin/as
 * /usr/i686-frugalware-linux/bin/c++filt
+* /usr/i686-frugalware-linux/bin/dwp
 * /usr/i686-frugalware-linux/bin/elfedit
 * /usr/i686-frugalware-linux/bin/gp-archive
 * /usr/i686-frugalware-linux/bin/gp-collect-app
@@ -37,6 +38,7 @@ A set of programs to assemble and manipulate binary and object files ( 32bit )
 * /usr/i686-frugalware-linux/bin/gprofng-display-text
 * /usr/i686-frugalware-linux/bin/ld
 * /usr/i686-frugalware-linux/bin/ld.bfd
+* /usr/i686-frugalware-linux/bin/ld.gold
 * /usr/i686-frugalware-linux/bin/nm
 * /usr/i686-frugalware-linux/bin/objcopy
 * /usr/i686-frugalware-linux/bin/objdump
@@ -103,6 +105,13 @@ A set of programs to assemble and manipulate binary and object files ( 32bit )
 * /usr/i686-frugalware-linux/lib/ldscripts/elf32_x86_64.xw
 * /usr/i686-frugalware-linux/lib/ldscripts/elf32_x86_64.xwe
 * /usr/i686-frugalware-linux/lib/ldscripts/elf32_x86_64.xwer
+* /usr/i686-frugalware-linux/lib/ldscripts/elf64bpf.x
+* /usr/i686-frugalware-linux/lib/ldscripts/elf64bpf.xbn
+* /usr/i686-frugalware-linux/lib/ldscripts/elf64bpf.xe
+* /usr/i686-frugalware-linux/lib/ldscripts/elf64bpf.xer
+* /usr/i686-frugalware-linux/lib/ldscripts/elf64bpf.xn
+* /usr/i686-frugalware-linux/lib/ldscripts/elf64bpf.xr
+* /usr/i686-frugalware-linux/lib/ldscripts/elf64bpf.xu
 * /usr/i686-frugalware-linux/lib/ldscripts/elf_i386.x
 * /usr/i686-frugalware-linux/lib/ldscripts/elf_i386.xbn
 * /usr/i686-frugalware-linux/lib/ldscripts/elf_i386.xc
@@ -196,6 +205,22 @@ A set of programs to assemble and manipulate binary and object files ( 32bit )
 * /usr/i686-frugalware-linux/lib/ldscripts/elf_x86_64.xw
 * /usr/i686-frugalware-linux/lib/ldscripts/elf_x86_64.xwe
 * /usr/i686-frugalware-linux/lib/ldscripts/elf_x86_64.xwer
+* /usr/i686-frugalware-linux/lib/ldscripts/i386pe.x
+* /usr/i686-frugalware-linux/lib/ldscripts/i386pe.xa
+* /usr/i686-frugalware-linux/lib/ldscripts/i386pe.xbn
+* /usr/i686-frugalware-linux/lib/ldscripts/i386pe.xe
+* /usr/i686-frugalware-linux/lib/ldscripts/i386pe.xer
+* /usr/i686-frugalware-linux/lib/ldscripts/i386pe.xn
+* /usr/i686-frugalware-linux/lib/ldscripts/i386pe.xr
+* /usr/i686-frugalware-linux/lib/ldscripts/i386pe.xu
+* /usr/i686-frugalware-linux/lib/ldscripts/i386pep.x
+* /usr/i686-frugalware-linux/lib/ldscripts/i386pep.xa
+* /usr/i686-frugalware-linux/lib/ldscripts/i386pep.xbn
+* /usr/i686-frugalware-linux/lib/ldscripts/i386pep.xe
+* /usr/i686-frugalware-linux/lib/ldscripts/i386pep.xer
+* /usr/i686-frugalware-linux/lib/ldscripts/i386pep.xn
+* /usr/i686-frugalware-linux/lib/ldscripts/i386pep.xr
+* /usr/i686-frugalware-linux/lib/ldscripts/i386pep.xu
 * /usr/i686-frugalware-linux/lib/ldscripts/stamp
 * /usr/lib32/bfd-plugins/libdep.so
 * /usr/lib32/gprofng/libgp-collector.so
