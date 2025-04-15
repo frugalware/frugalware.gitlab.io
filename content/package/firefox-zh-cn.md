@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-zh-cn 137.0.1-1"
-version = "137.0.1-1"
+title = "firefox-zh-cn 137.0.2-1"
+version = "137.0.2-1"
 description = "Chinese Simplified language support for Firefox"
-date = "2025-04-09T15:13:12"
+date = "2025-04-15T09:16:37"
 aliases = "/packages/39365"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "407192"
-usize = "462571"
-sha1sum = "6d7b21af26f22021c0c623faabba06e2f318b850"
-depends = "['firefox>=137.0.1']"
+size = "407960"
+usize = "462568"
+sha1sum = "8189394df70cee17b2e708bb376471e48acba1d0"
+depends = "['firefox>=137.0.2']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

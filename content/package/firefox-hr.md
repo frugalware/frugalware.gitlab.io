@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-hr 137.0.1-1"
-version = "137.0.1-1"
+title = "firefox-hr 137.0.2-1"
+version = "137.0.2-1"
 description = "Croatian language support for Firefox"
-date = "2025-04-09T15:13:12"
+date = "2025-04-15T09:16:37"
 aliases = "/packages/73631"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "383928"
-usize = "436086"
-sha1sum = "abb4eff6834fde0eec3b5363adf919fca437f93e"
-depends = "['firefox>=137.0.1']"
+size = "383600"
+usize = "436091"
+sha1sum = "789afc66aaf6cad18bb6a546a716e404ca1173b1"
+depends = "['firefox>=137.0.2']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

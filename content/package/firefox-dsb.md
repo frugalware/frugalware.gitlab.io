@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-dsb 137.0.1-1"
-version = "137.0.1-1"
+title = "firefox-dsb 137.0.2-1"
+version = "137.0.2-1"
 description = "Lower Sorbian language support for Firefox"
-date = "2025-04-09T15:13:12"
+date = "2025-04-15T09:16:37"
 aliases = "/packages/201246"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "410524"
-usize = "467762"
-sha1sum = "562c9ea73db7cab53956c3b3ac03a9309a2a3782"
-depends = "['firefox>=137.0.1']"
+size = "410528"
+usize = "467760"
+sha1sum = "fe70bfcff88ae431e0d740cc1a5fbfb4bc924957"
+depends = "['firefox>=137.0.2']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

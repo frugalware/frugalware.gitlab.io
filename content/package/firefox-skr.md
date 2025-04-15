@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-skr 137.0.1-1"
-version = "137.0.1-1"
+title = "firefox-skr 137.0.2-1"
+version = "137.0.2-1"
 description = "Seraiki language support for Firefox"
-date = "2025-04-09T15:13:12"
+date = "2025-04-15T09:16:37"
 aliases = "/packages/221531"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "446456"
-usize = "498911"
-sha1sum = "4b00ea2f0380ce89633e57ce04a6f69852f37949"
-depends = "['firefox>=137.0.1']"
+size = "445980"
+usize = "498915"
+sha1sum = "ecf9d2afd7f21644dd834db9353b2167ca248897"
+depends = "['firefox>=137.0.2']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 
