@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "perl 5.40.1-1"
-version = "5.40.1-1"
+title = "perl 5.40.2-1"
+version = "5.40.2-1"
 description = "Practical Extraction and Report Language."
-date = "2025-01-19T19:03:35"
+date = "2025-04-15T08:31:01"
 aliases = "/packages/2429"
 categories = ['devel']
 upstreamurl = "http://www.perl.org/"
 arch = "x86_64"
-size = "15964840"
-usize = "66541138"
-sha1sum = "b77e59e8e5a674f0fa8a6a56bb2e4e60b648ceba"
+size = "15999280"
+usize = "66605758"
+sha1sum = "e63dba36cb0aefc916b48a46d2820e1c5abe5958"
 depends = "['gdbm', 'openssl>=3.0.7', 'scriptlet-core']"
 reverse_depends = "['automake', 'bonnie++', 'ckbcomp', 'claws-mail-plugin-perl', 'convmv', 'ddclient', 'docbook-utils', 'foomatic-db', 'foomatic-db-engine', 'foomatic-db-nonfree', 'go', 'graphviz', 'gtk-doc', 'hexchat', 'hivex-perl', 'hw-probe', 'i2c-tools', 'imagemagick', 'insight-toolkit', 'intltool', 'inxi', 'irssi', 'latex2html', 'lesspipe', 'lmsensors', 'logwatch', 'lxc', 'man2html', 'mirmon', 'mosh', 'net-snmp', 'pacman-tools', 'parallel', 'perl-appconfig', 'perl-archive-zip', 'perl-authen-sasl', 'perl-canary-stability', 'perl-class-inspector', 'perl-class-method-modifiers', 'perl-class-singleton', 'perl-common-sense', 'perl-convert-binhex', 'perl-convert-tnef', 'perl-convert-uulib', 'perl-crypt-openssl-guess', 'perl-crypt-openssl-rsa', 'perl-data-optlist', 'perl-date-parse', 'perl-datetime', 'perl-datetime-locale', 'perl-datetime-timezone', 'perl-dbi', 'perl-devel-checklib', 'perl-devel-globaldestruction', 'perl-digest-hmac', 'perl-digest-sha1', 'perl-dist-checkconflicts', 'perl-encode-detect', 'perl-encode-locale', 'perl-error', 'perl-extutils-cchecker', 'perl-file-listing', 'perl-file-remove', 'perl-file-sharedir', 'perl-file-sharedir-install', 'perl-file-which', 'perl-gettext', 'perl-html-parser', 'perl-html-tagset', 'perl-html-template', 'perl-http-cookies', 'perl-http-daemon', 'perl-http-date', 'perl-http-message', 'perl-http-negotiate', 'perl-image-exiftool', 'perl-import-into', 'perl-inc-latest', 'perl-io-html', 'perl-io-multiplex', 'perl-io-socket-inet6', 'perl-io-socket-ssl', 'perl-io-stringy', 'perl-ip-country', 'perl-json', 'perl-json-xs', 'perl-libwww', 'perl-list-moreutils', 'perl-log-log4perl', 'perl-lwp-mediatypes', 'perl-mail-domainkeys', 'perl-mail-spf', 'perl-mailtools', 'perl-math-round', 'perl-mime-tools', 'perl-module-build', 'perl-module-implementation', 'perl-module-install', 'perl-module-runtime', 'perl-moo', 'perl-mysql', 'perl-namespace-autoclean', 'perl-net-cidr-lite', 'perl-net-dns', 'perl-net-dns-resolver-programmable', 'perl-net-http', 'perl-net-ident', 'perl-net-ip', 'perl-net-server', 'perl-net-snmp', 'perl-net-ssleay', 'perl-netaddr-ip', 'perl-params-util', 'perl-params-validate', 'perl-parse-yapp', 'perl-path-tiny', 'perl-pcsc', 'perl-pod-parser', 'perl-razor2-client-agent', 'perl-role-tiny', 'perl-sgmlspm', 'perl-socket6', 'perl-sub-exporter', 'perl-sub-exporter-progressive', 'perl-sub-install', 'perl-sub-quote', 'perl-sys-hostname-long', 'perl-template-toolkit', 'perl-term-readkey', 'perl-test-fatal', 'perl-test-pod', 'perl-test-requires', 'perl-text-csv', 'perl-text-wrapi18n', 'perl-try-tiny', 'perl-unicode-linebreak', 'perl-unix-syslog', 'perl-uri', 'perl-www-robotrules', 'perl-xml-namespacesupport', 'perl-xml-parser', 'perl-xml-sax', 'perl-xml-sax-base', 'perl-xml-sax-expat', 'perl-xml-simple', 'perl-xml-writer', 'perl-xml-xslt', 'perl-xs-parse-keyword', 'perl-yaml-libyaml', 'perl-yaml-tiny', 'postgresql-plperl', 'pptp', 'quilt', 'rdma-core', 'rkhunter', 'sim', 'spamassassin', 'stunnel', 'sub2srt', 'subversion-bindings', 'texi2html', 'texinfo', 'texlive', 'unp', 'uwsgi-plugin-psgi', 'valgrind']"
 +++
@@ -692,8 +692,10 @@ Practical Extraction and Report Language.
 * /usr/lib/perl5/core_perl/pod/perl5380delta.pod
 * /usr/lib/perl5/core_perl/pod/perl5381delta.pod
 * /usr/lib/perl5/core_perl/pod/perl5382delta.pod
+* /usr/lib/perl5/core_perl/pod/perl5383delta.pod
 * /usr/lib/perl5/core_perl/pod/perl5400delta.pod
 * /usr/lib/perl5/core_perl/pod/perl5401delta.pod
+* /usr/lib/perl5/core_perl/pod/perl5402delta.pod
 * /usr/lib/perl5/core_perl/pod/perl561delta.pod
 * /usr/lib/perl5/core_perl/pod/perl56delta.pod
 * /usr/lib/perl5/core_perl/pod/perl581delta.pod
@@ -1845,39 +1847,39 @@ Practical Extraction and Report Language.
 * /usr/lib/perl5/core_perl/warnings/register.pm
 * /usr/lib/perl5/core_perl/XSLoader.pm
 * /usr/lib/perl5/core_perl/_charnames.pm
-* /usr/share/doc/perl-5.40.1/AUTHORS
-* /usr/share/doc/perl-5.40.1/INSTALL
-* /usr/share/doc/perl-5.40.1/MANIFEST
-* /usr/share/doc/perl-5.40.1/README
-* /usr/share/doc/perl-5.40.1/README.aix
-* /usr/share/doc/perl-5.40.1/README.amiga
-* /usr/share/doc/perl-5.40.1/README.android
-* /usr/share/doc/perl-5.40.1/README.bs2000
-* /usr/share/doc/perl-5.40.1/README.cn
-* /usr/share/doc/perl-5.40.1/README.cygwin
-* /usr/share/doc/perl-5.40.1/README.freebsd
-* /usr/share/doc/perl-5.40.1/README.haiku
-* /usr/share/doc/perl-5.40.1/README.hpux
-* /usr/share/doc/perl-5.40.1/README.hurd
-* /usr/share/doc/perl-5.40.1/README.irix
-* /usr/share/doc/perl-5.40.1/README.jp
-* /usr/share/doc/perl-5.40.1/README.ko
-* /usr/share/doc/perl-5.40.1/README.linux
-* /usr/share/doc/perl-5.40.1/README.macosx
-* /usr/share/doc/perl-5.40.1/README.openbsd
-* /usr/share/doc/perl-5.40.1/README.os2
-* /usr/share/doc/perl-5.40.1/README.os390
-* /usr/share/doc/perl-5.40.1/README.os400
-* /usr/share/doc/perl-5.40.1/README.plan9
-* /usr/share/doc/perl-5.40.1/README.qnx
-* /usr/share/doc/perl-5.40.1/README.riscos
-* /usr/share/doc/perl-5.40.1/README.solaris
-* /usr/share/doc/perl-5.40.1/README.synology
-* /usr/share/doc/perl-5.40.1/README.tru64
-* /usr/share/doc/perl-5.40.1/README.tw
-* /usr/share/doc/perl-5.40.1/README.vms
-* /usr/share/doc/perl-5.40.1/README.vos
-* /usr/share/doc/perl-5.40.1/README.win32
+* /usr/share/doc/perl-5.40.2/AUTHORS
+* /usr/share/doc/perl-5.40.2/INSTALL
+* /usr/share/doc/perl-5.40.2/MANIFEST
+* /usr/share/doc/perl-5.40.2/README
+* /usr/share/doc/perl-5.40.2/README.aix
+* /usr/share/doc/perl-5.40.2/README.amiga
+* /usr/share/doc/perl-5.40.2/README.android
+* /usr/share/doc/perl-5.40.2/README.bs2000
+* /usr/share/doc/perl-5.40.2/README.cn
+* /usr/share/doc/perl-5.40.2/README.cygwin
+* /usr/share/doc/perl-5.40.2/README.freebsd
+* /usr/share/doc/perl-5.40.2/README.haiku
+* /usr/share/doc/perl-5.40.2/README.hpux
+* /usr/share/doc/perl-5.40.2/README.hurd
+* /usr/share/doc/perl-5.40.2/README.irix
+* /usr/share/doc/perl-5.40.2/README.jp
+* /usr/share/doc/perl-5.40.2/README.ko
+* /usr/share/doc/perl-5.40.2/README.linux
+* /usr/share/doc/perl-5.40.2/README.macosx
+* /usr/share/doc/perl-5.40.2/README.openbsd
+* /usr/share/doc/perl-5.40.2/README.os2
+* /usr/share/doc/perl-5.40.2/README.os390
+* /usr/share/doc/perl-5.40.2/README.os400
+* /usr/share/doc/perl-5.40.2/README.plan9
+* /usr/share/doc/perl-5.40.2/README.qnx
+* /usr/share/doc/perl-5.40.2/README.riscos
+* /usr/share/doc/perl-5.40.2/README.solaris
+* /usr/share/doc/perl-5.40.2/README.synology
+* /usr/share/doc/perl-5.40.2/README.tru64
+* /usr/share/doc/perl-5.40.2/README.tw
+* /usr/share/doc/perl-5.40.2/README.vms
+* /usr/share/doc/perl-5.40.2/README.vos
+* /usr/share/doc/perl-5.40.2/README.win32
 * /usr/share/man/man1/corelist.1perl.gz
 * /usr/share/man/man1/cpan.1perl.gz
 * /usr/share/man/man1/enc2xs.1perl.gz
@@ -1950,8 +1952,10 @@ Practical Extraction and Report Language.
 * /usr/share/man/man1/perl5380delta.1perl.gz
 * /usr/share/man/man1/perl5381delta.1perl.gz
 * /usr/share/man/man1/perl5382delta.1perl.gz
+* /usr/share/man/man1/perl5383delta.1perl.gz
 * /usr/share/man/man1/perl5400delta.1perl.gz
 * /usr/share/man/man1/perl5401delta.1perl.gz
+* /usr/share/man/man1/perl5402delta.1perl.gz
 * /usr/share/man/man1/perl561delta.1perl.gz
 * /usr/share/man/man1/perl56delta.1perl.gz
 * /usr/share/man/man1/perl581delta.1perl.gz

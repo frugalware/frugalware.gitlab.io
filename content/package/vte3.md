@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vte3 0.80.0-3"
-version = "0.80.0-3"
+title = "vte3 0.80.1-1"
+version = "0.80.1-1"
 description = "Virtual Terminal Emulator (gtk+4)"
-date = "2025-03-19T14:09:09"
+date = "2025-04-15T08:46:37"
 aliases = "/packages/118797"
 categories = ['xapps']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "545736"
-usize = "3068070"
-sha1sum = "c064fc4d425e6beca90f09c378e30a2fac71164b"
+size = "546772"
+usize = "3068488"
+sha1sum = "79a7b8f22f08ad6115ea6b309ddb3d9a0f6284d3"
 depends = "['gobject-introspection>=1.60.0', 'gtk+4', 'icu4c>=77.1']"
 reverse_depends = "['alpaca', 'gamt', 'geany', 'qemu', 'remmina', 'sakura', 'sunflower', 'virt-manager']"
 +++
@@ -52,20 +52,20 @@ Virtual Terminal Emulator (gtk+4)
 * /usr/lib/libvte-2.91-gtk4.so.0
 * /usr/lib/libvte-2.91.so
 * /usr/lib/libvte-2.91.so.0
-* /usr/lib/libvte-2.91.so.0.8000.0
+* /usr/lib/libvte-2.91.so.0.8000.1
 * /usr/lib/pkgconfig/vte-2.91-gtk4.pc
 * /usr/lib/pkgconfig/vte-2.91.pc
 * /usr/lib/systemd/user/vte-spawn-.scope.d/defaults.conf
 * /usr/lib/vte3/vte-urlencode-cwd
 * /usr/share/applications/org.gnome.Vte.App.Gtk3.desktop
 * /usr/share/applications/org.gnome.Vte.App.Gtk4.desktop
-* /usr/share/doc/vte3-0.80.0/AUTHORS
-* /usr/share/doc/vte3-0.80.0/ChangeLog
-* /usr/share/doc/vte3-0.80.0/COPYING.CC-BY-4-0
-* /usr/share/doc/vte3-0.80.0/COPYING.GPL3
-* /usr/share/doc/vte3-0.80.0/COPYING.LGPL3
-* /usr/share/doc/vte3-0.80.0/COPYING.XTERM
-* /usr/share/doc/vte3-0.80.0/README.md
+* /usr/share/doc/vte3-0.80.1/AUTHORS
+* /usr/share/doc/vte3-0.80.1/ChangeLog
+* /usr/share/doc/vte3-0.80.1/COPYING.CC-BY-4-0
+* /usr/share/doc/vte3-0.80.1/COPYING.GPL3
+* /usr/share/doc/vte3-0.80.1/COPYING.LGPL3
+* /usr/share/doc/vte3-0.80.1/COPYING.XTERM
+* /usr/share/doc/vte3-0.80.1/README.md
 * /usr/share/gir-1.0/Vte-2.91.gir
 * /usr/share/gir-1.0/Vte-3.91.gir
 * /usr/share/glade/catalogs/vte-2.91.xml

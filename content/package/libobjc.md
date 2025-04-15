@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libobjc 14_20250405-1"
-version = "14_20250405-1"
+title = "libobjc 14_20250412-1"
+version = "14_20250412-1"
 description = "Objective-C runtime"
-date = "2025-04-09T09:36:32"
+date = "2025-04-15T08:20:15"
 aliases = "/packages/10526"
 categories = ['lib-extra']
 upstreamurl = "http://gcc.gnu.org"
 arch = "x86_64"
-size = "135752"
-usize = "604586"
-sha1sum = "f03ee7b8f2df2835a710d96bc789cd88f4500128"
+size = "135892"
+usize = "604598"
+sha1sum = "06cd03930ad23fa2e46f53525004411f1b591a2c"
 depends = "['libgcc']"
 reverse_depends = "['gcc-objc']"
 +++

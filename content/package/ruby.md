@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ruby 3.4.2-1"
-version = "3.4.2-1"
+title = "ruby 3.4.3-1"
+version = "3.4.3-1"
 description = "An object-oriented programming language."
-date = "2025-02-15T12:05:56"
+date = "2025-04-15T08:26:51"
 aliases = "/packages/3323"
 categories = ['devel']
 upstreamurl = "http://www.ruby-lang.org"
 arch = "x86_64"
-size = "11412776"
-usize = "50847811"
-sha1sum = "37c290894cfb8197a6a3f4b5620b20c439a5abe6"
+size = "11576464"
+usize = "50883657"
+sha1sum = "a3f0068feb3849f3851d57ba2583734f73af6886"
 depends = "['gdbm>=1.15', 'gmp>=6.1.1-4', 'libffi>=3.4', 'libxml2>=2.9.4-3', 'libyaml', 'ncurses>=6.0-18', 'openssl>=3.1.0', 'readline>=8.0']"
 reverse_depends = "['facter', 'flvtool2', 'fxruby-1.2', 'hivex-ruby', 'insight-toolkit', 'isaac', 'kross-interpreters', 'libselinux', 'rake', 'ruby-asciidoctor', 'ruby-bundler', 'ruby-hiera', 'ruby-hocon', 'ruby-mini_portile2', 'ruby-mustache', 'ruby-nokogiri', 'ruby-rdiscount', 'ruby-ronn-ng', 'ruby-sass', 'ruby-sdoc', 'ruby-thor', 'uwsgi-plugin-rack', 'uwsgi-plugin-ruby', 'weechat']"
 +++
@@ -226,7 +226,7 @@ An object-oriented programming language.
 * /usr/include/ruby-3.4.0/x86_64-linux/ruby/config.h
 * /usr/lib/libruby.so
 * /usr/lib/libruby.so.3.4
-* /usr/lib/libruby.so.3.4.2
+* /usr/lib/libruby.so.3.4.3
 * /usr/lib/pkgconfig/ruby-3.4.pc
 * /usr/lib/ruby/3.4.0/benchmark.rb
 * /usr/lib/ruby/3.4.0/bundled_gems.rb
@@ -267,7 +267,6 @@ An object-oriented programming language.
 * /usr/lib/ruby/3.4.0/bundler/compact_index_client.rb
 * /usr/lib/ruby/3.4.0/bundler/compact_index_client/cache.rb
 * /usr/lib/ruby/3.4.0/bundler/compact_index_client/cache_file.rb
-* /usr/lib/ruby/3.4.0/bundler/compact_index_client/gem_parser.rb
 * /usr/lib/ruby/3.4.0/bundler/compact_index_client/parser.rb
 * /usr/lib/ruby/3.4.0/bundler/compact_index_client/updater.rb
 * /usr/lib/ruby/3.4.0/bundler/constants.rb
@@ -398,6 +397,7 @@ An object-oriented programming language.
 * /usr/lib/ruby/3.4.0/bundler/resolver/package.rb
 * /usr/lib/ruby/3.4.0/bundler/resolver/root.rb
 * /usr/lib/ruby/3.4.0/bundler/resolver/spec_group.rb
+* /usr/lib/ruby/3.4.0/bundler/resolver/strategy.rb
 * /usr/lib/ruby/3.4.0/bundler/retry.rb
 * /usr/lib/ruby/3.4.0/bundler/rubygems_ext.rb
 * /usr/lib/ruby/3.4.0/bundler/rubygems_gem_installer.rb
@@ -488,6 +488,7 @@ An object-oriented programming language.
 * /usr/lib/ruby/3.4.0/bundler/vendor/pub_grub/lib/pub_grub/rubygems.rb
 * /usr/lib/ruby/3.4.0/bundler/vendor/pub_grub/lib/pub_grub/solve_failure.rb
 * /usr/lib/ruby/3.4.0/bundler/vendor/pub_grub/lib/pub_grub/static_package_source.rb
+* /usr/lib/ruby/3.4.0/bundler/vendor/pub_grub/lib/pub_grub/strategy.rb
 * /usr/lib/ruby/3.4.0/bundler/vendor/pub_grub/lib/pub_grub/term.rb
 * /usr/lib/ruby/3.4.0/bundler/vendor/pub_grub/lib/pub_grub/version.rb
 * /usr/lib/ruby/3.4.0/bundler/vendor/pub_grub/lib/pub_grub/version_constraint.rb
@@ -1530,8 +1531,8 @@ An object-oriented programming language.
 * /usr/lib/ruby/gems/3.4.0/gems/bigdecimal-3.1.8/sample/linear.rb
 * /usr/lib/ruby/gems/3.4.0/gems/bigdecimal-3.1.8/sample/nlsolve.rb
 * /usr/lib/ruby/gems/3.4.0/gems/bigdecimal-3.1.8/sample/pi.rb
-* /usr/lib/ruby/gems/3.4.0/gems/bundler-2.6.2/exe/bundle
-* /usr/lib/ruby/gems/3.4.0/gems/bundler-2.6.2/exe/bundler
+* /usr/lib/ruby/gems/3.4.0/gems/bundler-2.6.7/exe/bundle
+* /usr/lib/ruby/gems/3.4.0/gems/bundler-2.6.7/exe/bundler
 * /usr/lib/ruby/gems/3.4.0/gems/csv-3.3.2/doc/csv/arguments/io.rdoc
 * /usr/lib/ruby/gems/3.4.0/gems/csv-3.3.2/doc/csv/options/common/col_sep.rdoc
 * /usr/lib/ruby/gems/3.4.0/gems/csv-3.3.2/doc/csv/options/common/quote_char.rdoc
@@ -2682,8 +2683,8 @@ An object-oriented programming language.
 * /usr/lib/ruby/gems/3.4.0/specifications/csv-3.3.2.gemspec
 * /usr/lib/ruby/gems/3.4.0/specifications/debug-1.10.0.gemspec
 * /usr/lib/ruby/gems/3.4.0/specifications/default/benchmark-0.4.0.gemspec
-* /usr/lib/ruby/gems/3.4.0/specifications/default/bundler-2.6.2.gemspec
-* /usr/lib/ruby/gems/3.4.0/specifications/default/cgi-0.4.1.gemspec
+* /usr/lib/ruby/gems/3.4.0/specifications/default/bundler-2.6.7.gemspec
+* /usr/lib/ruby/gems/3.4.0/specifications/default/cgi-0.4.2.gemspec
 * /usr/lib/ruby/gems/3.4.0/specifications/default/date-3.4.1.gemspec
 * /usr/lib/ruby/gems/3.4.0/specifications/default/delegate-0.4.0.gemspec
 * /usr/lib/ruby/gems/3.4.0/specifications/default/did_you_mean-2.0.0.gemspec
@@ -2735,7 +2736,7 @@ An object-oriented programming language.
 * /usr/lib/ruby/gems/3.4.0/specifications/default/tmpdir-0.3.1.gemspec
 * /usr/lib/ruby/gems/3.4.0/specifications/default/tsort-0.2.0.gemspec
 * /usr/lib/ruby/gems/3.4.0/specifications/default/un-0.3.0.gemspec
-* /usr/lib/ruby/gems/3.4.0/specifications/default/uri-1.0.2.gemspec
+* /usr/lib/ruby/gems/3.4.0/specifications/default/uri-1.0.3.gemspec
 * /usr/lib/ruby/gems/3.4.0/specifications/default/weakref-0.1.3.gemspec
 * /usr/lib/ruby/gems/3.4.0/specifications/default/yaml-0.4.0.gemspec
 * /usr/lib/ruby/gems/3.4.0/specifications/default/zlib-3.2.1.gemspec
@@ -2763,14 +2764,14 @@ An object-oriented programming language.
 * /usr/lib/ruby/gems/3.4.0/specifications/syslog-0.2.0.gemspec
 * /usr/lib/ruby/gems/3.4.0/specifications/test-unit-3.6.7.gemspec
 * /usr/lib/ruby/gems/3.4.0/specifications/typeprof-0.30.1.gemspec
-* /usr/share/doc/ruby-3.4.2/ChangeLog
-* /usr/share/doc/ruby-3.4.2/COPYING
-* /usr/share/doc/ruby-3.4.2/COPYING.ja
-* /usr/share/doc/ruby-3.4.2/KNOWNBUGS.rb
-* /usr/share/doc/ruby-3.4.2/README.EXT
-* /usr/share/doc/ruby-3.4.2/README.EXT.ja
-* /usr/share/doc/ruby-3.4.2/README.ja.md
-* /usr/share/doc/ruby-3.4.2/README.md
+* /usr/share/doc/ruby-3.4.3/ChangeLog
+* /usr/share/doc/ruby-3.4.3/COPYING
+* /usr/share/doc/ruby-3.4.3/COPYING.ja
+* /usr/share/doc/ruby-3.4.3/KNOWNBUGS.rb
+* /usr/share/doc/ruby-3.4.3/README.EXT
+* /usr/share/doc/ruby-3.4.3/README.EXT.ja
+* /usr/share/doc/ruby-3.4.3/README.ja.md
+* /usr/share/doc/ruby-3.4.3/README.md
 * /usr/share/man/man1/erb.1.gz
 * /usr/share/man/man1/irb.1.gz
 * /usr/share/man/man1/ri.1.gz
@@ -3107,7 +3108,6 @@ An object-oriented programming language.
 * /usr/share/ri/3.4.0/system/Bundler/load_gemspec-c.ri
 * /usr/share/ri/3.4.0/system/Bundler/load_gemspec_uncached-c.ri
 * /usr/share/ri/3.4.0/system/Bundler/load_marshal-c.ri
-* /usr/share/ri/3.4.0/system/Bundler/load_plugins-c.ri
 * /usr/share/ri/3.4.0/system/Bundler/local_platform-c.ri
 * /usr/share/ri/3.4.0/system/Bundler/locked_gems-c.ri
 * /usr/share/ri/3.4.0/system/Bundler/mkdir_p-c.ri
@@ -5653,15 +5653,6 @@ An object-oriented programming language.
 * /usr/share/ri/3.4.0/system/Gem/QueryUtils/spec_loaded_from-i.ri
 * /usr/share/ri/3.4.0/system/Gem/QueryUtils/spec_platforms-i.ri
 * /usr/share/ri/3.4.0/system/Gem/QueryUtils/spec_summary-i.ri
-* /usr/share/ri/3.4.0/system/Gem/RDoc/cdesc-RDoc.ri
-* /usr/share/ri/3.4.0/system/Gem/RDoc/default_gem%3f-c.ri
-* /usr/share/ri/3.4.0/system/Gem/RDoc/force-i.ri
-* /usr/share/ri/3.4.0/system/Gem/RDoc/generate-i.ri
-* /usr/share/ri/3.4.0/system/Gem/RDoc/generate_rdoc-i.ri
-* /usr/share/ri/3.4.0/system/Gem/RDoc/generate_ri-i.ri
-* /usr/share/ri/3.4.0/system/Gem/RDoc/generation_hook-c.ri
-* /usr/share/ri/3.4.0/system/Gem/RDoc/new-c.ri
-* /usr/share/ri/3.4.0/system/Gem/RDoc/remove-i.ri
 * /usr/share/ri/3.4.0/system/Gem/rdoc_hooks_defined_via_plugin%3f-c.ri
 * /usr/share/ri/3.4.0/system/Gem/read_binary-c.ri
 * /usr/share/ri/3.4.0/system/Gem/refresh-c.ri
@@ -17551,7 +17542,6 @@ An object-oriented programming language.
 * /usr/share/ri/3.4.0/system/UNIXSocket/socketpair-c.ri
 * /usr/share/ri/3.4.0/system/URI/BadURIError/cdesc-BadURIError.ri
 * /usr/share/ri/3.4.0/system/URI/cdesc-URI.ri
-* /usr/share/ri/3.4.0/system/URI/const_missing-c.ri
 * /usr/share/ri/3.4.0/system/URI/decode_uri_component-c.ri
 * /usr/share/ri/3.4.0/system/URI/decode_www_form-c.ri
 * /usr/share/ri/3.4.0/system/URI/decode_www_form_component-c.ri
@@ -17615,7 +17605,6 @@ An object-oriented programming language.
 * /usr/share/ri/3.4.0/system/URI/Generic/host-i.ri
 * /usr/share/ri/3.4.0/system/URI/Generic/hostname%3d-i.ri
 * /usr/share/ri/3.4.0/system/URI/Generic/hostname-i.ri
-* /usr/share/ri/3.4.0/system/URI/Generic/inspect-i.ri
 * /usr/share/ri/3.4.0/system/URI/Generic/merge%21-i.ri
 * /usr/share/ri/3.4.0/system/URI/Generic/merge-i.ri
 * /usr/share/ri/3.4.0/system/URI/Generic/merge_path-i.ri
@@ -17633,7 +17622,6 @@ An object-oriented programming language.
 * /usr/share/ri/3.4.0/system/URI/Generic/port-i.ri
 * /usr/share/ri/3.4.0/system/URI/Generic/query%3d-i.ri
 * /usr/share/ri/3.4.0/system/URI/Generic/query-i.ri
-* /usr/share/ri/3.4.0/system/URI/Generic/registry%3d-i.ri
 * /usr/share/ri/3.4.0/system/URI/Generic/relative%3f-i.ri
 * /usr/share/ri/3.4.0/system/URI/Generic/replace%21-i.ri
 * /usr/share/ri/3.4.0/system/URI/Generic/route_from-i.ri
@@ -17713,7 +17701,6 @@ An object-oriented programming language.
 * /usr/share/ri/3.4.0/system/URI/RFC2396_Parser/extract-i.ri
 * /usr/share/ri/3.4.0/system/URI/RFC2396_Parser/initialize_pattern-i.ri
 * /usr/share/ri/3.4.0/system/URI/RFC2396_Parser/initialize_regexp-i.ri
-* /usr/share/ri/3.4.0/system/URI/RFC2396_Parser/inspect-i.ri
 * /usr/share/ri/3.4.0/system/URI/RFC2396_Parser/join-i.ri
 * /usr/share/ri/3.4.0/system/URI/RFC2396_Parser/make_regexp-i.ri
 * /usr/share/ri/3.4.0/system/URI/RFC2396_Parser/new-c.ri
@@ -17724,7 +17711,6 @@ An object-oriented programming language.
 * /usr/share/ri/3.4.0/system/URI/RFC2396_Parser/unescape-i.ri
 * /usr/share/ri/3.4.0/system/URI/RFC2396_REGEXP/cdesc-RFC2396_REGEXP.ri
 * /usr/share/ri/3.4.0/system/URI/RFC2396_REGEXP/PATTERN/cdesc-PATTERN.ri
-* /usr/share/ri/3.4.0/system/URI/Schemes/cdesc-Schemes.ri
 * /usr/share/ri/3.4.0/system/URI/scheme_list-c.ri
 * /usr/share/ri/3.4.0/system/URI/split-c.ri
 * /usr/share/ri/3.4.0/system/URI/WS/build-c.ri
