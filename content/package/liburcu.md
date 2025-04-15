@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "liburcu 0.15.1-1"
-version = "0.15.1-1"
+title = "liburcu 0.15.2-1"
+version = "0.15.2-1"
 description = "Userspace RCU (read-copy-update) library"
-date = "2025-02-18T21:05:41"
+date = "2025-04-15T06:39:41"
 aliases = "/packages/218698"
 categories = ['base']
 upstreamurl = "http://lttng.org/urcu"
 arch = "x86_64"
-size = "131244"
-usize = "756799"
-sha1sum = "919b1615f25c5606ff7b54e31675f9dd29a5a8e0"
+size = "132332"
+usize = "768336"
+sha1sum = "1087e65c1599f7f16a9d0e72de5269f4bd94e39a"
 depends = "['glibc>=2.34']"
 reverse_depends = "['bind', 'lttng-ust', 'lttng-ust12', 'multipath-tools', 'xfsprogs']"
 license = "LGPL2.1"
@@ -106,6 +106,7 @@ Userspace RCU (read-copy-update) library
 * /usr/include/urcu/uatomic/s390.h
 * /usr/include/urcu/uatomic/sparc64.h
 * /usr/include/urcu/uatomic/tile.h
+* /usr/include/urcu/uatomic/uassert.h
 * /usr/include/urcu/uatomic/x86.h
 * /usr/include/urcu/uatomic_arch.h
 * /usr/include/urcu/urcu-bp.h
@@ -146,85 +147,85 @@ Userspace RCU (read-copy-update) library
 * /usr/lib/pkgconfig/liburcu-memb.pc
 * /usr/lib/pkgconfig/liburcu-qsbr.pc
 * /usr/lib/pkgconfig/liburcu.pc
-* /usr/share/doc/liburcu-0.15.1/cds-api.md
-* /usr/share/doc/liburcu-0.15.1/ChangeLog
-* /usr/share/doc/liburcu-0.15.1/examples/hlist/cds_hlist_add_head_rcu.c
-* /usr/share/doc/liburcu-0.15.1/examples/hlist/cds_hlist_del_rcu.c
-* /usr/share/doc/liburcu-0.15.1/examples/hlist/cds_hlist_for_each_entry_rcu.c
-* /usr/share/doc/liburcu-0.15.1/examples/hlist/cds_hlist_for_each_rcu.c
-* /usr/share/doc/liburcu-0.15.1/examples/hlist/Makefile
-* /usr/share/doc/liburcu-0.15.1/examples/hlist/Makefile.cds_hlist_add_head_rcu
-* /usr/share/doc/liburcu-0.15.1/examples/hlist/Makefile.cds_hlist_del_rcu
-* /usr/share/doc/liburcu-0.15.1/examples/hlist/Makefile.cds_hlist_for_each_entry_rcu
-* /usr/share/doc/liburcu-0.15.1/examples/hlist/Makefile.cds_hlist_for_each_rcu
-* /usr/share/doc/liburcu-0.15.1/examples/lfstack/cds_lfs_pop_all_blocking.c
-* /usr/share/doc/liburcu-0.15.1/examples/lfstack/cds_lfs_pop_blocking.c
-* /usr/share/doc/liburcu-0.15.1/examples/lfstack/cds_lfs_push.c
-* /usr/share/doc/liburcu-0.15.1/examples/lfstack/Makefile
-* /usr/share/doc/liburcu-0.15.1/examples/lfstack/Makefile.cds_lfs_pop_all_blocking
-* /usr/share/doc/liburcu-0.15.1/examples/lfstack/Makefile.cds_lfs_pop_blocking
-* /usr/share/doc/liburcu-0.15.1/examples/lfstack/Makefile.cds_lfs_push
-* /usr/share/doc/liburcu-0.15.1/examples/list/cds_list_add_rcu.c
-* /usr/share/doc/liburcu-0.15.1/examples/list/cds_list_add_tail_rcu.c
-* /usr/share/doc/liburcu-0.15.1/examples/list/cds_list_del_rcu.c
-* /usr/share/doc/liburcu-0.15.1/examples/list/cds_list_for_each_entry_rcu.c
-* /usr/share/doc/liburcu-0.15.1/examples/list/cds_list_for_each_rcu.c
-* /usr/share/doc/liburcu-0.15.1/examples/list/cds_list_replace_rcu.c
-* /usr/share/doc/liburcu-0.15.1/examples/list/Makefile
-* /usr/share/doc/liburcu-0.15.1/examples/list/Makefile.cds_list_add_rcu
-* /usr/share/doc/liburcu-0.15.1/examples/list/Makefile.cds_list_add_tail_rcu
-* /usr/share/doc/liburcu-0.15.1/examples/list/Makefile.cds_list_del_rcu
-* /usr/share/doc/liburcu-0.15.1/examples/list/Makefile.cds_list_for_each_entry_rcu
-* /usr/share/doc/liburcu-0.15.1/examples/list/Makefile.cds_list_for_each_rcu
-* /usr/share/doc/liburcu-0.15.1/examples/list/Makefile.cds_list_replace_rcu
-* /usr/share/doc/liburcu-0.15.1/examples/Makefile
-* /usr/share/doc/liburcu-0.15.1/examples/Makefile.examples.template
-* /usr/share/doc/liburcu-0.15.1/examples/rculfhash/cds_lfht_add.c
-* /usr/share/doc/liburcu-0.15.1/examples/rculfhash/cds_lfht_add_replace.c
-* /usr/share/doc/liburcu-0.15.1/examples/rculfhash/cds_lfht_add_unique.c
-* /usr/share/doc/liburcu-0.15.1/examples/rculfhash/cds_lfht_del.c
-* /usr/share/doc/liburcu-0.15.1/examples/rculfhash/cds_lfht_destroy.c
-* /usr/share/doc/liburcu-0.15.1/examples/rculfhash/cds_lfht_for_each_entry_duplicate.c
-* /usr/share/doc/liburcu-0.15.1/examples/rculfhash/cds_lfht_lookup.c
-* /usr/share/doc/liburcu-0.15.1/examples/rculfhash/jhash.h
-* /usr/share/doc/liburcu-0.15.1/examples/rculfhash/Makefile
-* /usr/share/doc/liburcu-0.15.1/examples/rculfhash/Makefile.cds_lfht_add
-* /usr/share/doc/liburcu-0.15.1/examples/rculfhash/Makefile.cds_lfht_add_replace
-* /usr/share/doc/liburcu-0.15.1/examples/rculfhash/Makefile.cds_lfht_add_unique
-* /usr/share/doc/liburcu-0.15.1/examples/rculfhash/Makefile.cds_lfht_del
-* /usr/share/doc/liburcu-0.15.1/examples/rculfhash/Makefile.cds_lfht_destroy
-* /usr/share/doc/liburcu-0.15.1/examples/rculfhash/Makefile.cds_lfht_for_each_entry_duplicate
-* /usr/share/doc/liburcu-0.15.1/examples/rculfhash/Makefile.cds_lfht_lookup
-* /usr/share/doc/liburcu-0.15.1/examples/rculfqueue/cds_lfq_dequeue.c
-* /usr/share/doc/liburcu-0.15.1/examples/rculfqueue/cds_lfq_enqueue.c
-* /usr/share/doc/liburcu-0.15.1/examples/rculfqueue/Makefile
-* /usr/share/doc/liburcu-0.15.1/examples/rculfqueue/Makefile.cds_lfq_dequeue
-* /usr/share/doc/liburcu-0.15.1/examples/rculfqueue/Makefile.cds_lfq_enqueue
-* /usr/share/doc/liburcu-0.15.1/examples/urcu-flavors/bp.c
-* /usr/share/doc/liburcu-0.15.1/examples/urcu-flavors/Makefile
-* /usr/share/doc/liburcu-0.15.1/examples/urcu-flavors/Makefile.bp
-* /usr/share/doc/liburcu-0.15.1/examples/urcu-flavors/Makefile.mb
-* /usr/share/doc/liburcu-0.15.1/examples/urcu-flavors/Makefile.membarrier
-* /usr/share/doc/liburcu-0.15.1/examples/urcu-flavors/Makefile.qsbr
-* /usr/share/doc/liburcu-0.15.1/examples/urcu-flavors/mb.c
-* /usr/share/doc/liburcu-0.15.1/examples/urcu-flavors/membarrier.c
-* /usr/share/doc/liburcu-0.15.1/examples/urcu-flavors/qsbr.c
-* /usr/share/doc/liburcu-0.15.1/examples/wfcqueue/cds_wfcq_dequeue.c
-* /usr/share/doc/liburcu-0.15.1/examples/wfcqueue/cds_wfcq_enqueue.c
-* /usr/share/doc/liburcu-0.15.1/examples/wfcqueue/cds_wfcq_splice.c
-* /usr/share/doc/liburcu-0.15.1/examples/wfcqueue/Makefile
-* /usr/share/doc/liburcu-0.15.1/examples/wfcqueue/Makefile.cds_wfcq_dequeue
-* /usr/share/doc/liburcu-0.15.1/examples/wfcqueue/Makefile.cds_wfcq_enqueue
-* /usr/share/doc/liburcu-0.15.1/examples/wfcqueue/Makefile.cds_wfcq_splice
-* /usr/share/doc/liburcu-0.15.1/examples/wfstack/cds_wfs_pop.c
-* /usr/share/doc/liburcu-0.15.1/examples/wfstack/cds_wfs_pop_all_blocking.c
-* /usr/share/doc/liburcu-0.15.1/examples/wfstack/cds_wfs_push.c
-* /usr/share/doc/liburcu-0.15.1/examples/wfstack/Makefile
-* /usr/share/doc/liburcu-0.15.1/examples/wfstack/Makefile.cds_wfs_pop
-* /usr/share/doc/liburcu-0.15.1/examples/wfstack/Makefile.cds_wfs_pop_all_blocking
-* /usr/share/doc/liburcu-0.15.1/examples/wfstack/Makefile.cds_wfs_push
-* /usr/share/doc/liburcu-0.15.1/LICENSE.md
-* /usr/share/doc/liburcu-0.15.1/rcu-api.md
-* /usr/share/doc/liburcu-0.15.1/README.md
-* /usr/share/doc/liburcu-0.15.1/solaris-build.md
-* /usr/share/doc/liburcu-0.15.1/uatomic-api.md
+* /usr/share/doc/liburcu-0.15.2/cds-api.md
+* /usr/share/doc/liburcu-0.15.2/ChangeLog
+* /usr/share/doc/liburcu-0.15.2/examples/hlist/cds_hlist_add_head_rcu.c
+* /usr/share/doc/liburcu-0.15.2/examples/hlist/cds_hlist_del_rcu.c
+* /usr/share/doc/liburcu-0.15.2/examples/hlist/cds_hlist_for_each_entry_rcu.c
+* /usr/share/doc/liburcu-0.15.2/examples/hlist/cds_hlist_for_each_rcu.c
+* /usr/share/doc/liburcu-0.15.2/examples/hlist/Makefile
+* /usr/share/doc/liburcu-0.15.2/examples/hlist/Makefile.cds_hlist_add_head_rcu
+* /usr/share/doc/liburcu-0.15.2/examples/hlist/Makefile.cds_hlist_del_rcu
+* /usr/share/doc/liburcu-0.15.2/examples/hlist/Makefile.cds_hlist_for_each_entry_rcu
+* /usr/share/doc/liburcu-0.15.2/examples/hlist/Makefile.cds_hlist_for_each_rcu
+* /usr/share/doc/liburcu-0.15.2/examples/lfstack/cds_lfs_pop_all_blocking.c
+* /usr/share/doc/liburcu-0.15.2/examples/lfstack/cds_lfs_pop_blocking.c
+* /usr/share/doc/liburcu-0.15.2/examples/lfstack/cds_lfs_push.c
+* /usr/share/doc/liburcu-0.15.2/examples/lfstack/Makefile
+* /usr/share/doc/liburcu-0.15.2/examples/lfstack/Makefile.cds_lfs_pop_all_blocking
+* /usr/share/doc/liburcu-0.15.2/examples/lfstack/Makefile.cds_lfs_pop_blocking
+* /usr/share/doc/liburcu-0.15.2/examples/lfstack/Makefile.cds_lfs_push
+* /usr/share/doc/liburcu-0.15.2/examples/list/cds_list_add_rcu.c
+* /usr/share/doc/liburcu-0.15.2/examples/list/cds_list_add_tail_rcu.c
+* /usr/share/doc/liburcu-0.15.2/examples/list/cds_list_del_rcu.c
+* /usr/share/doc/liburcu-0.15.2/examples/list/cds_list_for_each_entry_rcu.c
+* /usr/share/doc/liburcu-0.15.2/examples/list/cds_list_for_each_rcu.c
+* /usr/share/doc/liburcu-0.15.2/examples/list/cds_list_replace_rcu.c
+* /usr/share/doc/liburcu-0.15.2/examples/list/Makefile
+* /usr/share/doc/liburcu-0.15.2/examples/list/Makefile.cds_list_add_rcu
+* /usr/share/doc/liburcu-0.15.2/examples/list/Makefile.cds_list_add_tail_rcu
+* /usr/share/doc/liburcu-0.15.2/examples/list/Makefile.cds_list_del_rcu
+* /usr/share/doc/liburcu-0.15.2/examples/list/Makefile.cds_list_for_each_entry_rcu
+* /usr/share/doc/liburcu-0.15.2/examples/list/Makefile.cds_list_for_each_rcu
+* /usr/share/doc/liburcu-0.15.2/examples/list/Makefile.cds_list_replace_rcu
+* /usr/share/doc/liburcu-0.15.2/examples/Makefile
+* /usr/share/doc/liburcu-0.15.2/examples/Makefile.examples.template
+* /usr/share/doc/liburcu-0.15.2/examples/rculfhash/cds_lfht_add.c
+* /usr/share/doc/liburcu-0.15.2/examples/rculfhash/cds_lfht_add_replace.c
+* /usr/share/doc/liburcu-0.15.2/examples/rculfhash/cds_lfht_add_unique.c
+* /usr/share/doc/liburcu-0.15.2/examples/rculfhash/cds_lfht_del.c
+* /usr/share/doc/liburcu-0.15.2/examples/rculfhash/cds_lfht_destroy.c
+* /usr/share/doc/liburcu-0.15.2/examples/rculfhash/cds_lfht_for_each_entry_duplicate.c
+* /usr/share/doc/liburcu-0.15.2/examples/rculfhash/cds_lfht_lookup.c
+* /usr/share/doc/liburcu-0.15.2/examples/rculfhash/jhash.h
+* /usr/share/doc/liburcu-0.15.2/examples/rculfhash/Makefile
+* /usr/share/doc/liburcu-0.15.2/examples/rculfhash/Makefile.cds_lfht_add
+* /usr/share/doc/liburcu-0.15.2/examples/rculfhash/Makefile.cds_lfht_add_replace
+* /usr/share/doc/liburcu-0.15.2/examples/rculfhash/Makefile.cds_lfht_add_unique
+* /usr/share/doc/liburcu-0.15.2/examples/rculfhash/Makefile.cds_lfht_del
+* /usr/share/doc/liburcu-0.15.2/examples/rculfhash/Makefile.cds_lfht_destroy
+* /usr/share/doc/liburcu-0.15.2/examples/rculfhash/Makefile.cds_lfht_for_each_entry_duplicate
+* /usr/share/doc/liburcu-0.15.2/examples/rculfhash/Makefile.cds_lfht_lookup
+* /usr/share/doc/liburcu-0.15.2/examples/rculfqueue/cds_lfq_dequeue.c
+* /usr/share/doc/liburcu-0.15.2/examples/rculfqueue/cds_lfq_enqueue.c
+* /usr/share/doc/liburcu-0.15.2/examples/rculfqueue/Makefile
+* /usr/share/doc/liburcu-0.15.2/examples/rculfqueue/Makefile.cds_lfq_dequeue
+* /usr/share/doc/liburcu-0.15.2/examples/rculfqueue/Makefile.cds_lfq_enqueue
+* /usr/share/doc/liburcu-0.15.2/examples/urcu-flavors/bp.c
+* /usr/share/doc/liburcu-0.15.2/examples/urcu-flavors/Makefile
+* /usr/share/doc/liburcu-0.15.2/examples/urcu-flavors/Makefile.bp
+* /usr/share/doc/liburcu-0.15.2/examples/urcu-flavors/Makefile.mb
+* /usr/share/doc/liburcu-0.15.2/examples/urcu-flavors/Makefile.membarrier
+* /usr/share/doc/liburcu-0.15.2/examples/urcu-flavors/Makefile.qsbr
+* /usr/share/doc/liburcu-0.15.2/examples/urcu-flavors/mb.c
+* /usr/share/doc/liburcu-0.15.2/examples/urcu-flavors/membarrier.c
+* /usr/share/doc/liburcu-0.15.2/examples/urcu-flavors/qsbr.c
+* /usr/share/doc/liburcu-0.15.2/examples/wfcqueue/cds_wfcq_dequeue.c
+* /usr/share/doc/liburcu-0.15.2/examples/wfcqueue/cds_wfcq_enqueue.c
+* /usr/share/doc/liburcu-0.15.2/examples/wfcqueue/cds_wfcq_splice.c
+* /usr/share/doc/liburcu-0.15.2/examples/wfcqueue/Makefile
+* /usr/share/doc/liburcu-0.15.2/examples/wfcqueue/Makefile.cds_wfcq_dequeue
+* /usr/share/doc/liburcu-0.15.2/examples/wfcqueue/Makefile.cds_wfcq_enqueue
+* /usr/share/doc/liburcu-0.15.2/examples/wfcqueue/Makefile.cds_wfcq_splice
+* /usr/share/doc/liburcu-0.15.2/examples/wfstack/cds_wfs_pop.c
+* /usr/share/doc/liburcu-0.15.2/examples/wfstack/cds_wfs_pop_all_blocking.c
+* /usr/share/doc/liburcu-0.15.2/examples/wfstack/cds_wfs_push.c
+* /usr/share/doc/liburcu-0.15.2/examples/wfstack/Makefile
+* /usr/share/doc/liburcu-0.15.2/examples/wfstack/Makefile.cds_wfs_pop
+* /usr/share/doc/liburcu-0.15.2/examples/wfstack/Makefile.cds_wfs_pop_all_blocking
+* /usr/share/doc/liburcu-0.15.2/examples/wfstack/Makefile.cds_wfs_push
+* /usr/share/doc/liburcu-0.15.2/LICENSE.md
+* /usr/share/doc/liburcu-0.15.2/rcu-api.md
+* /usr/share/doc/liburcu-0.15.2/README.md
+* /usr/share/doc/liburcu-0.15.2/solaris-build.md
+* /usr/share/doc/liburcu-0.15.2/uatomic-api.md

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "alsa-utils 1.2.13-2"
-version = "1.2.13-2"
+title = "alsa-utils 1.2.14-1"
+version = "1.2.14-1"
 description = "An alternative implementation of Linux sound support"
-date = "2024-12-02T10:09:30"
+date = "2025-04-15T06:48:44"
 aliases = "/packages/2913"
 categories = ['multimedia']
 upstreamurl = "https://www.alsa-project.org"
 arch = "x86_64"
-size = "1135444"
-usize = "2506309"
-sha1sum = "47c3a7f3fa5514dd67f75cea03995bf67fc2e47d"
-depends = "['alsa-lib>=1.1.4', 'libsamplerate>=0.1.8-3', 'ncurses>=6.0-12']"
+size = "1138224"
+usize = "2501507"
+sha1sum = "573cbc31f4ca36edc6ca8230a52f30a69dea291d"
+depends = "['alsa-lib>=1.2.14', 'libsamplerate>=0.1.8-3', 'ncurses>=6.0-12']"
 reverse_depends = "['lumina-desktop']"
 +++
 ### Description: 
@@ -55,11 +55,11 @@ An alternative implementation of Linux sound support
 * /usr/share/alsa/init/help
 * /usr/share/alsa/init/info
 * /usr/share/alsa/init/test
-* /usr/share/doc/alsa-utils-1.2.13/ChangeLog
-* /usr/share/doc/alsa-utils-1.2.13/COPYING
-* /usr/share/doc/alsa-utils-1.2.13/INSTALL
-* /usr/share/doc/alsa-utils-1.2.13/README.md
-* /usr/share/doc/alsa-utils-1.2.13/TODO
+* /usr/share/doc/alsa-utils-1.2.14/ChangeLog
+* /usr/share/doc/alsa-utils-1.2.14/COPYING
+* /usr/share/doc/alsa-utils-1.2.14/INSTALL
+* /usr/share/doc/alsa-utils-1.2.14/README.md
+* /usr/share/doc/alsa-utils-1.2.14/TODO
 * /usr/share/locale/de/LC_MESSAGES/alsa-utils.mo
 * /usr/share/locale/eu/LC_MESSAGES/alsa-utils.mo
 * /usr/share/locale/fr/LC_MESSAGES/alsa-utils.mo
@@ -72,7 +72,6 @@ An alternative implementation of Linux sound support
 * /usr/share/locale/sk/LC_MESSAGES/alsa-utils.mo
 * /usr/share/man/fr/man8/alsaconf.8.gz
 * /usr/share/man/man1/aconnect.1.gz
-* /usr/share/man/man1/alsa-info.sh.1.gz
 * /usr/share/man/man1/alsabat.1.gz
 * /usr/share/man/man1/alsactl.1.gz
 * /usr/share/man/man1/alsaloop.1.gz
@@ -95,6 +94,7 @@ An alternative implementation of Linux sound support
 * /usr/share/man/man1/nhlt-dmic-info.1.gz
 * /usr/share/man/man1/speaker-test.1.gz
 * /usr/share/man/man7/alsactl_init.7.gz
+* /usr/share/man/man8/alsa-info.sh.8.gz
 * /usr/share/man/man8/alsaconf.8.gz
 * /usr/share/sounds/alsa/Front_Center.wav
 * /usr/share/sounds/alsa/Front_Left.wav

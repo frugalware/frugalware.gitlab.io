@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libcap 2.75-1"
-version = "2.75-1"
+title = "libcap 2.76-1"
+version = "2.76-1"
 description = "POSIX 1003.1e capabilities"
-date = "2025-03-05T09:27:10"
+date = "2025-04-15T06:38:41"
 aliases = "/packages/3151"
 categories = ['base']
 upstreamurl = "https://www.kernel.org/pub/linux/libs/security/linux-privs/libcap2"
 arch = "x86_64"
-size = "87356"
-usize = "193366"
-sha1sum = "9e83dc9d3bd5d4f35f793f0f8d8b47f9695f1fe4"
+size = "88528"
+usize = "194731"
+sha1sum = "7830b24b223b7d409d473a544ec6e4d6b59a1133"
 depends = "['glibc>=2.35', 'xfsprogs-attr>=2.2.53-2']"
 reverse_depends = "['android-tools', 'bpf', 'cdrtools', 'chrony', 'coreutils', 'gstreamer1', 'htop', 'hwloc', 'i3status', 'inetutils', 'iputils', 'libsystemd', 'libu2f-host', 'pure-ftpd', 'systemd-pull', 'systemd-sysvinit', 'thin-provisioning-tools', 'uwsgi', 'virtualbox', 'zsh']"
 +++
@@ -26,16 +26,16 @@ POSIX 1003.1e capabilities
 * /usr/include/sys/psx_syscall.h
 * /usr/lib/libcap.so
 * /usr/lib/libcap.so.2
-* /usr/lib/libcap.so.2.75
+* /usr/lib/libcap.so.2.76
 * /usr/lib/libpsx.so
 * /usr/lib/libpsx.so.2
-* /usr/lib/libpsx.so.2.75
+* /usr/lib/libpsx.so.2.76
 * /usr/lib/pkgconfig/libcap.pc
 * /usr/lib/pkgconfig/libpsx.pc
 * /usr/lib/security/pam_cap.so
-* /usr/share/doc/libcap-2.75/capability.conf
-* /usr/share/doc/libcap-2.75/CHANGELOG
-* /usr/share/doc/libcap-2.75/README
+* /usr/share/doc/libcap-2.76/capability.conf
+* /usr/share/doc/libcap-2.76/CHANGELOG
+* /usr/share/doc/libcap-2.76/README
 * /usr/share/man/man1/capsh.1.gz
 * /usr/share/man/man3/capgetp.3.gz
 * /usr/share/man/man3/capsetp.3.gz
@@ -111,6 +111,7 @@ POSIX 1003.1e capabilities
 * /usr/share/man/man3/psx_syscall6.3.gz
 * /usr/share/man/man3/__psx_syscall.3.gz
 * /usr/share/man/man5/capability.conf.5.gz
+* /usr/share/man/man7/cap_text_formats.7.gz
 * /usr/share/man/man8/captree.8.gz
 * /usr/share/man/man8/getcap.8.gz
 * /usr/share/man/man8/getpcaps.8.gz
