@@ -12,7 +12,7 @@ size = "752108"
 usize = "5338606"
 sha1sum = "f41d6229ea48c3799c900d60c2e8f85f0b2da9ac"
 depends = "['python3-annotated-types', 'python3-pydantic-core']"
-reverse_depends = "['input-remapper']"
+reverse_depends = "['input-remapper', 'krr']"
 +++
 ### Description: 
 Data validation using Python type hints

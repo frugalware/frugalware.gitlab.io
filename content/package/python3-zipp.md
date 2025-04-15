@@ -12,7 +12,7 @@ size = "19740"
 usize = "82182"
 sha1sum = "f978797f07afb597aefd52526dac63d6f3e43126"
 depends = "['python3>=3.13']"
-reverse_depends = "['python3-importlib-metadata']"
+reverse_depends = "['krr', 'python3-importlib-metadata']"
 +++
 ### Description: 
 Pathlib-compatible object wrapper for zip files

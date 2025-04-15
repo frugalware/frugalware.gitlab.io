@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdiff3 1.12.1-4"
-version = "1.12.1-4"
+title = "kdiff3 1.12.2-1"
+version = "1.12.2-1"
 description = "Tool for comparison and merge of files and directories"
-date = "2025-04-06T20:11:35"
+date = "2025-04-15T07:38:22"
 aliases = "/packages/217705"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1650956"
-usize = "6197322"
-sha1sum = "bcb0046b1bcbeb5a8d3537cd6b50357cd4dec47d"
-depends = "['kcoreaddons>=6.12.0', 'ki18n>=6.12.0', 'kiconthemes>=6.12.0', 'kparts>=6.12.0', 'kwidgetsaddons>=6.12.0', 'libboost']"
+size = "1652364"
+usize = "6198651"
+sha1sum = "f0ae22e5e78308eee03c5dee82281e509dbb2b3e"
+depends = "['kcoreaddons>=6.13.0', 'ki18n>=6.13.0', 'kiconthemes>=6.13.0', 'kparts>=6.13.0', 'kwidgetsaddons>=6.13.0', 'libboost']"
 +++
 ### Description: 
 Tool for comparison and merge of files and directories
@@ -52,10 +52,10 @@ Tool for comparison and merge of files and directories
 * /usr/share/doc/HTML/sv/kdiff3/index.docbook
 * /usr/share/doc/HTML/uk/kdiff3/index.cache.bz2
 * /usr/share/doc/HTML/uk/kdiff3/index.docbook
-* /usr/share/doc/kdiff3-1.12.1/ChangeLog
-* /usr/share/doc/kdiff3-1.12.1/COPYING
-* /usr/share/doc/kdiff3-1.12.1/INSTALL
-* /usr/share/doc/kdiff3-1.12.1/README
+* /usr/share/doc/kdiff3-1.12.2/ChangeLog
+* /usr/share/doc/kdiff3-1.12.2/COPYING
+* /usr/share/doc/kdiff3-1.12.2/INSTALL
+* /usr/share/doc/kdiff3-1.12.2/README
 * /usr/share/icons/hicolor/128x128/apps/kdiff3.png
 * /usr/share/icons/hicolor/16x16/apps/kdiff3.png
 * /usr/share/icons/hicolor/22x22/apps/kdiff3.png

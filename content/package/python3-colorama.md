@@ -12,7 +12,7 @@ size = "43968"
 usize = "276375"
 sha1sum = "294509c3759580e078ecc884c6c569e498bf29fd"
 depends = "['python3']"
-reverse_depends = "['polychromatic']"
+reverse_depends = "['krr', 'polychromatic']"
 +++
 ### Description: 
 Python API for cross-platform colored terminal text.

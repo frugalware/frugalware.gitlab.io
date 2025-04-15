@@ -12,7 +12,7 @@ size = "798444"
 usize = "3108867"
 sha1sum = "85bcc2cfff572a4329b695106dc1f385f6780c74"
 depends = "['libtiff>=4.7.0', 'libwebp', 'openjpeg', 'python3-pytz', 'sane-backends', 'tk']"
-reverse_depends = "['calibre', 'discover-overlay', 'face_recognition', 'howdy', 'protontricks', 'python3-nml', 'wxpython']"
+reverse_depends = "['calibre', 'discover-overlay', 'face_recognition', 'howdy', 'krr', 'protontricks', 'python3-nml', 'wxpython']"
 +++
 ### Description: 
 Python Imaging Library (PIL) fork

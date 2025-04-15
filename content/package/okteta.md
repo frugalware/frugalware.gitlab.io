@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "okteta 0.26.19-1"
-version = "0.26.19-1"
+title = "okteta 0.26.21-1"
+version = "0.26.21-1"
 description = "Okteta is a simple hexadecimal editor or binary editor."
-date = "2025-02-09T13:57:19"
+date = "2025-04-15T07:35:24"
 aliases = "/packages/88681"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1370772"
-usize = "7539731"
-sha1sum = "82ba24d4a9ad3f128336264c2c131b164d4fdc2d"
+size = "1373352"
+usize = "7552078"
+sha1sum = "e8f3a608a9ebbcbe3dbe39957d8b9aa6084cc794"
 depends = "['kcmutils5>=5.116.0', 'knewstuff5>=5.116.0', 'kparts5>=5.116.0', 'qca-qt5>=2.1.1-6', 'qt5-declarative>=5.15.16']"
 +++
 ### Description: 
@@ -550,9 +550,9 @@ Okteta is a simple hexadecimal editor or binary editor.
 * /usr/share/doc/HTML/sv/okteta/index.docbook
 * /usr/share/doc/HTML/uk/okteta/index.cache.bz2
 * /usr/share/doc/HTML/uk/okteta/index.docbook
-* /usr/share/doc/okteta-0.26.19/README.md
-* /usr/share/doc/okteta-0.26.19/README_developers.md
-* /usr/share/doc/okteta-0.26.19/README_packagers.md
+* /usr/share/doc/okteta-0.26.21/README.md
+* /usr/share/doc/okteta-0.26.21/README_developers.md
+* /usr/share/doc/okteta-0.26.21/README_packagers.md
 * /usr/share/icons/hicolor/128x128/apps/okteta.png
 * /usr/share/icons/hicolor/16x16/apps/okteta.png
 * /usr/share/icons/hicolor/22x22/apps/okteta.png

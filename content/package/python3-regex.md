@@ -12,7 +12,7 @@ size = "359816"
 usize = "1878118"
 sha1sum = "26ee10c4cbb90aa6414a4044ce554d1b8c19f270"
 depends = "['python3>=3.12']"
-reverse_depends = "['calibre']"
+reverse_depends = "['calibre', 'krr']"
 +++
 ### Description: 
 Alternative python regular expression module.

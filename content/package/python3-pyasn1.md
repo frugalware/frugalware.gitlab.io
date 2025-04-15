@@ -12,7 +12,7 @@ size = "149572"
 usize = "825094"
 sha1sum = "9d298680696da5a79a64d49d7f2733085e5da114"
 depends = "['python3>=3.12']"
-reverse_depends = "['paramiko', 'python3-pyasn1-modules', 'python3-rsa']"
+reverse_depends = "['krr', 'paramiko', 'python3-pyasn1-modules', 'python3-rsa']"
 +++
 ### Description: 
 ASN.1 library for Python

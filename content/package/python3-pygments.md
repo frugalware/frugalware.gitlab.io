@@ -12,7 +12,7 @@ size = "1828700"
 usize = "12242551"
 sha1sum = "d7c61d6560dcbf9aae35e462763806deb322f13c"
 depends = "['python3>=3.13']"
-reverse_depends = "['gi-docgen', 'kitty', 'python3-mako', 'python3-myst-parser', 'python3-rich', 'python3-sphinx']"
+reverse_depends = "['gi-docgen', 'kitty', 'krr', 'python3-mako', 'python3-myst-parser', 'python3-rich', 'python3-sphinx']"
 +++
 ### Description: 
 Pygments is a fast syntax highlighter written in Python with a special focus on details. (Python3)

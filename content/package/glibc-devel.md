@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "glibc-devel 2.41-1"
-version = "2.41-1"
+title = "glibc-devel 2.41-2"
+version = "2.41-2"
 description = "Development files for glibc."
-date = "2025-01-30T14:40:32"
+date = "2025-04-15T07:26:07"
 aliases = "/packages/219907"
 categories = ['devel']
 upstreamurl = "http://www.gnu.org/software/libc/libc.html"
 arch = "x86_64"
-size = "3259528"
-usize = "20858964"
-sha1sum = "faf17ec413d21b883f5fdf597b2e7f29b22bac90"
+size = "3253712"
+usize = "20898830"
+sha1sum = "0397953bd08151e16b91a686e0c5ef197b7c92a5"
 depends = "[]"
 +++
 ### Description: 

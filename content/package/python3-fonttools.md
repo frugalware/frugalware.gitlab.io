@@ -12,6 +12,7 @@ size = "1937468"
 usize = "9139814"
 sha1sum = "c56494fc67a60d12ef8aaab62032f7df04b1abca"
 depends = "['python3>=3.12']"
+reverse_depends = "['krr']"
 +++
 ### Description: 
 Library to manipulate font files from Python

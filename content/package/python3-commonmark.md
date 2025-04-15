@@ -12,7 +12,7 @@ size = "109528"
 usize = "426630"
 sha1sum = "44f41fcc283e83fffbcebf2011e5d2d5f3930e21"
 depends = "['python3>=3.12']"
-reverse_depends = "['python3-recommonmark']"
+reverse_depends = "['krr', 'python3-recommonmark']"
 +++
 ### Description: 
 Python parser for the CommonMark Markdown spec

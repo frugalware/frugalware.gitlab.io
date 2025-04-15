@@ -12,6 +12,7 @@ size = "1059316"
 usize = "42904582"
 sha1sum = "e6bfe30c92773ea976a9d8cd446473ca24308958"
 depends = "['certifi', 'python3-adal', 'python3-dateutil', 'python3-durationpy', 'python3-google-auth', 'python3-requests-oauthlib', 'python3-six', 'python3-urllib3', 'python3-websocket_client', 'pyyaml3']"
+reverse_depends = "['krr']"
 +++
 ### Description: 
 Python client for the kubernetes API
