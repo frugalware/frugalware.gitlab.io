@@ -12,7 +12,7 @@ size = "400276"
 usize = "5083508"
 sha1sum = "c4b442cf894677891ef3e9df27801a5fc2d493f6"
 depends = "[]"
-reverse_depends = "['obs-studio', 'opendht', 'sdlmame']"
+reverse_depends = "['obs-studio', 'opendht']"
 +++
 ### Description: 
 A a cross-platform C++ library written in C++ for consistent asynchronous I/O.
