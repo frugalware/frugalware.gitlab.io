@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "neon 0.34.1-1"
-version = "0.34.1-1"
+title = "neon 0.34.2-1"
+version = "0.34.2-1"
 description = "An HTTP and WebDAV client library, with a C interface."
-date = "2025-04-15T06:43:43"
+date = "2025-04-16T12:33:44"
 aliases = "/packages/3247"
 categories = ['network']
 upstreamurl = "https://notroj.github.io/neon/"
 arch = "x86_64"
-size = "226224"
-usize = "798409"
-sha1sum = "cdf447ac27d4960d887607ae3bbe0d550fdea30c"
+size = "230188"
+usize = "813893"
+sha1sum = "7f3de78a3560acf68bcd99e2e3c5e043d84a49af"
 depends = "['expat>=2.1.0-5', 'libkrb5>=1.17-2', 'openssl>=3.1.0']"
 reverse_depends = "['gst1-plugins-bad-neon', 'libmusicbrainz']"
 +++
@@ -45,66 +45,69 @@ An HTTP and WebDAV client library, with a C interface.
 * /usr/include/neon/ne_xmlreq.h
 * /usr/lib/libneon.so
 * /usr/lib/libneon.so.27
-* /usr/lib/libneon.so.27.7.1
+* /usr/lib/libneon.so.27.7.2
 * /usr/lib/pkgconfig/neon.pc
-* /usr/share/doc/neon-0.34.1/AUTHORS
-* /usr/share/doc/neon-0.34.1/BUGS
-* /usr/share/doc/neon-0.34.1/html/api.html
-* /usr/share/doc/neon-0.34.1/html/biblio.html
-* /usr/share/doc/neon-0.34.1/html/compliance.html
-* /usr/share/doc/neon-0.34.1/html/example.html
-* /usr/share/doc/neon-0.34.1/html/features.html
-* /usr/share/doc/neon-0.34.1/html/index.html
-* /usr/share/doc/neon-0.34.1/html/intro.html
-* /usr/share/doc/neon-0.34.1/html/ref.html
-* /usr/share/doc/neon-0.34.1/html/refalloc.html
-* /usr/share/doc/neon-0.34.1/html/refauth.html
-* /usr/share/doc/neon-0.34.1/html/refbuf.html
-* /usr/share/doc/neon-0.34.1/html/refbufapp.html
-* /usr/share/doc/neon-0.34.1/html/refbufcr.html
-* /usr/share/doc/neon-0.34.1/html/refbufdest.html
-* /usr/share/doc/neon-0.34.1/html/refbufutil.html
-* /usr/share/doc/neon-0.34.1/html/refcert.html
-* /usr/share/doc/neon-0.34.1/html/refclicert.html
-* /usr/share/doc/neon-0.34.1/html/refconfig.html
-* /usr/share/doc/neon-0.34.1/html/referr.html
-* /usr/share/doc/neon-0.34.1/html/reffeat.html
-* /usr/share/doc/neon-0.34.1/html/refgetst.html
-* /usr/share/doc/neon-0.34.1/html/refhash.html
-* /usr/share/doc/neon-0.34.1/html/refi18n.html
-* /usr/share/doc/neon-0.34.1/html/refiaddr.html
-* /usr/share/doc/neon-0.34.1/html/refneon.html
-* /usr/share/doc/neon-0.34.1/html/refopts.html
-* /usr/share/doc/neon-0.34.1/html/refparam.html
-* /usr/share/doc/neon-0.34.1/html/refproxy.html
-* /usr/share/doc/neon-0.34.1/html/refred.html
-* /usr/share/doc/neon-0.34.1/html/refreq.html
-* /usr/share/doc/neon-0.34.1/html/refreqbody.html
-* /usr/share/doc/neon-0.34.1/html/refreqflags.html
-* /usr/share/doc/neon-0.34.1/html/refreqhdr.html
-* /usr/share/doc/neon-0.34.1/html/refresolve.html
-* /usr/share/doc/neon-0.34.1/html/refresphdr.html
-* /usr/share/doc/neon-0.34.1/html/refsess.html
-* /usr/share/doc/neon-0.34.1/html/refsessflags.html
-* /usr/share/doc/neon-0.34.1/html/refshave.html
-* /usr/share/doc/neon-0.34.1/html/refsockinit.html
-* /usr/share/doc/neon-0.34.1/html/refsslca.html
-* /usr/share/doc/neon-0.34.1/html/refsslcert2.html
-* /usr/share/doc/neon-0.34.1/html/refsslcertio.html
-* /usr/share/doc/neon-0.34.1/html/refssldname.html
-* /usr/share/doc/neon-0.34.1/html/refsslvfy.html
-* /usr/share/doc/neon-0.34.1/html/refstatus.html
-* /usr/share/doc/neon-0.34.1/html/reftok.html
-* /usr/share/doc/neon-0.34.1/html/refvers.html
-* /usr/share/doc/neon-0.34.1/html/refxml.html
-* /usr/share/doc/neon-0.34.1/html/security.html
-* /usr/share/doc/neon-0.34.1/html/using.html
-* /usr/share/doc/neon-0.34.1/html/xml.html
-* /usr/share/doc/neon-0.34.1/INSTALL.win32
-* /usr/share/doc/neon-0.34.1/NEWS
-* /usr/share/doc/neon-0.34.1/README.md
-* /usr/share/doc/neon-0.34.1/THANKS
-* /usr/share/doc/neon-0.34.1/TODO
+* /usr/share/doc/neon-0.34.2/AUTHORS
+* /usr/share/doc/neon-0.34.2/BUGS
+* /usr/share/doc/neon-0.34.2/html/api.html
+* /usr/share/doc/neon-0.34.2/html/biblio.html
+* /usr/share/doc/neon-0.34.2/html/compliance.html
+* /usr/share/doc/neon-0.34.2/html/example.html
+* /usr/share/doc/neon-0.34.2/html/features.html
+* /usr/share/doc/neon-0.34.2/html/index.html
+* /usr/share/doc/neon-0.34.2/html/intro.html
+* /usr/share/doc/neon-0.34.2/html/ref.html
+* /usr/share/doc/neon-0.34.2/html/refalloc.html
+* /usr/share/doc/neon-0.34.2/html/refauth.html
+* /usr/share/doc/neon-0.34.2/html/refbuf.html
+* /usr/share/doc/neon-0.34.2/html/refbufapp.html
+* /usr/share/doc/neon-0.34.2/html/refbufcr.html
+* /usr/share/doc/neon-0.34.2/html/refbufdest.html
+* /usr/share/doc/neon-0.34.2/html/refbufutil.html
+* /usr/share/doc/neon-0.34.2/html/refcert.html
+* /usr/share/doc/neon-0.34.2/html/refclicert.html
+* /usr/share/doc/neon-0.34.2/html/refconfig.html
+* /usr/share/doc/neon-0.34.2/html/referr.html
+* /usr/share/doc/neon-0.34.2/html/reffeat.html
+* /usr/share/doc/neon-0.34.2/html/refgetst.html
+* /usr/share/doc/neon-0.34.2/html/refhash.html
+* /usr/share/doc/neon-0.34.2/html/refi18n.html
+* /usr/share/doc/neon-0.34.2/html/refiaddr.html
+* /usr/share/doc/neon-0.34.2/html/refneon.html
+* /usr/share/doc/neon-0.34.2/html/refopts.html
+* /usr/share/doc/neon-0.34.2/html/refparam.html
+* /usr/share/doc/neon-0.34.2/html/refproxy.html
+* /usr/share/doc/neon-0.34.2/html/refred.html
+* /usr/share/doc/neon-0.34.2/html/refreq.html
+* /usr/share/doc/neon-0.34.2/html/refreqbody.html
+* /usr/share/doc/neon-0.34.2/html/refreqflags.html
+* /usr/share/doc/neon-0.34.2/html/refreqhdr.html
+* /usr/share/doc/neon-0.34.2/html/refreqtarget.html
+* /usr/share/doc/neon-0.34.2/html/refresolve.html
+* /usr/share/doc/neon-0.34.2/html/refresphdr.html
+* /usr/share/doc/neon-0.34.2/html/refsess.html
+* /usr/share/doc/neon-0.34.2/html/refsessflags.html
+* /usr/share/doc/neon-0.34.2/html/refshave.html
+* /usr/share/doc/neon-0.34.2/html/refsockinit.html
+* /usr/share/doc/neon-0.34.2/html/refsslca.html
+* /usr/share/doc/neon-0.34.2/html/refsslcert2.html
+* /usr/share/doc/neon-0.34.2/html/refsslcertio.html
+* /usr/share/doc/neon-0.34.2/html/refssldname.html
+* /usr/share/doc/neon-0.34.2/html/refsslproto.html
+* /usr/share/doc/neon-0.34.2/html/refsslvers.html
+* /usr/share/doc/neon-0.34.2/html/refsslvfy.html
+* /usr/share/doc/neon-0.34.2/html/refstatus.html
+* /usr/share/doc/neon-0.34.2/html/reftok.html
+* /usr/share/doc/neon-0.34.2/html/refvers.html
+* /usr/share/doc/neon-0.34.2/html/refxml.html
+* /usr/share/doc/neon-0.34.2/html/security.html
+* /usr/share/doc/neon-0.34.2/html/using.html
+* /usr/share/doc/neon-0.34.2/html/xml.html
+* /usr/share/doc/neon-0.34.2/INSTALL.win32
+* /usr/share/doc/neon-0.34.2/NEWS
+* /usr/share/doc/neon-0.34.2/README.md
+* /usr/share/doc/neon-0.34.2/THANKS
+* /usr/share/doc/neon-0.34.2/TODO
 * /usr/share/locale/cs/LC_MESSAGES/neon.mo
 * /usr/share/locale/de/LC_MESSAGES/neon.mo
 * /usr/share/locale/fr/LC_MESSAGES/neon.mo
@@ -140,6 +143,7 @@ An HTTP and WebDAV client library, with a C interface.
 * /usr/share/man/man3/ne_forget_auth.3.gz
 * /usr/share/man/man3/ne_get_error.3.gz
 * /usr/share/man/man3/ne_get_request_flag.3.gz
+* /usr/share/man/man3/ne_get_request_target.3.gz
 * /usr/share/man/man3/ne_get_response_header.3.gz
 * /usr/share/man/man3/ne_get_response_location.3.gz
 * /usr/share/man/man3/ne_get_scheme.3.gz
@@ -204,7 +208,9 @@ An HTTP and WebDAV client library, with a C interface.
 * /usr/share/man/man3/ne_ssl_clicert_owner.3.gz
 * /usr/share/man/man3/ne_ssl_clicert_read.3.gz
 * /usr/share/man/man3/ne_ssl_dname_cmp.3.gz
+* /usr/share/man/man3/ne_ssl_proto_name.3.gz
 * /usr/share/man/man3/ne_ssl_readable_dname.3.gz
+* /usr/share/man/man3/ne_ssl_set_protovers.3.gz
 * /usr/share/man/man3/ne_ssl_set_verify.3.gz
 * /usr/share/man/man3/ne_ssl_trust_cert.3.gz
 * /usr/share/man/man3/ne_ssl_trust_default_ca.3.gz
