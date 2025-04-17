@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kcalutils 24.12.3-3"
-version = "24.12.3-3"
+title = "kcalutils 25.04.0-1"
+version = "25.04.0-1"
 description = "The KDE calendar utility library"
-date = "2025-04-05T20:16:50"
+date = "2025-04-17T22:26:42"
 aliases = "/packages/218279"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "290000"
-usize = "1948090"
-sha1sum = "add619ad97e0cb254579098d5d6e800cff9e10aa"
-depends = "['kcalendarcore>=6.12.0', 'kidentitymanagement>=24.12.3']"
+size = "299020"
+usize = "2040680"
+sha1sum = "818dc296a95ba510cdae8f0b6d6dbfec5c3b5488"
+depends = "['kcalendarcore>=6.13.0', 'kidentitymanagement>=25.04.0']"
 reverse_depends = "['akonadi-calendar', 'kalarm', 'kmail', 'ktnef']"
 +++
 ### Description: 
@@ -38,10 +38,10 @@ The KDE calendar utility library
 * /usr/lib/cmake/KPim6CalendarUtils/KPim6CalendarUtilsTargets.cmake
 * /usr/lib/libKPim6CalendarUtils.so
 * /usr/lib/libKPim6CalendarUtils.so.6
-* /usr/lib/libKPim6CalendarUtils.so.6.3.3
+* /usr/lib/libKPim6CalendarUtils.so.6.4.0
 * /usr/lib/qt6/plugins/kf6/ktexttemplate/kcalendar_grantlee_plugin.so
-* /usr/share/doc/kcalutils-24.12.3/README.md
-* /usr/share/doc/kcalutils-24.12.3/README.md.license
+* /usr/share/doc/kcalutils-25.04.0/README.md
+* /usr/share/doc/kcalutils-25.04.0/README.md.license
 * /usr/share/locale/ar/LC_MESSAGES/libkcalutils6.mo
 * /usr/share/locale/ast/LC_MESSAGES/libkcalutils6.mo
 * /usr/share/locale/az/LC_MESSAGES/libkcalutils6.mo
@@ -62,6 +62,7 @@ The KDE calendar utility library
 * /usr/share/locale/fr/LC_MESSAGES/libkcalutils6.mo
 * /usr/share/locale/ga/LC_MESSAGES/libkcalutils6.mo
 * /usr/share/locale/gl/LC_MESSAGES/libkcalutils6.mo
+* /usr/share/locale/hi/LC_MESSAGES/libkcalutils6.mo
 * /usr/share/locale/hr/LC_MESSAGES/libkcalutils6.mo
 * /usr/share/locale/hu/LC_MESSAGES/libkcalutils6.mo
 * /usr/share/locale/ia/LC_MESSAGES/libkcalutils6.mo
@@ -84,6 +85,7 @@ The KDE calendar utility library
 * /usr/share/locale/pt_BR/LC_MESSAGES/libkcalutils6.mo
 * /usr/share/locale/ro/LC_MESSAGES/libkcalutils6.mo
 * /usr/share/locale/ru/LC_MESSAGES/libkcalutils6.mo
+* /usr/share/locale/sa/LC_MESSAGES/libkcalutils6.mo
 * /usr/share/locale/se/LC_MESSAGES/libkcalutils6.mo
 * /usr/share/locale/sk/LC_MESSAGES/libkcalutils6.mo
 * /usr/share/locale/sl/LC_MESSAGES/libkcalutils6.mo

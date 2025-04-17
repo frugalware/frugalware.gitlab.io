@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "grantleetheme 24.12.3-3"
-version = "24.12.3-3"
+title = "grantleetheme 25.04.0-1"
+version = "25.04.0-1"
 description = "This lib provides grantlee theme support"
-date = "2025-04-05T20:17:30"
+date = "2025-04-17T22:27:43"
 aliases = "/packages/218476"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "63784"
-usize = "224622"
-sha1sum = "2aeb65dcf23e0e3e5ffe5d5e210b47528dc94dcf"
-depends = "['knewstuff>=6.12.0', 'ktexttemplate>=6.12.0']"
+size = "63888"
+usize = "224755"
+sha1sum = "896b64cfaf3e8d25bf76073b1a33bdb95dd45c0f"
+depends = "['knewstuff>=6.13.0', 'ktexttemplate>=6.13.0']"
 reverse_depends = "['akonadi-contacts']"
 +++
 ### Description: 
@@ -44,10 +44,10 @@ This lib provides grantlee theme support
 * /usr/lib/cmake/KPim6GrantleeTheme/KPim6GrantleeThemeTargets.cmake
 * /usr/lib/libKPim6GrantleeTheme.so
 * /usr/lib/libKPim6GrantleeTheme.so.6
-* /usr/lib/libKPim6GrantleeTheme.so.6.3.3
+* /usr/lib/libKPim6GrantleeTheme.so.6.4.0
 * /usr/lib/qt6/plugins/kf6/ktexttemplate/kde_grantlee_plugin.so
-* /usr/share/doc/grantleetheme-24.12.3/README.md
-* /usr/share/doc/grantleetheme-24.12.3/README.md.license
+* /usr/share/doc/grantleetheme-25.04.0/README.md
+* /usr/share/doc/grantleetheme-25.04.0/README.md.license
 * /usr/share/locale/ar/LC_MESSAGES/libgrantleetheme6.mo
 * /usr/share/locale/ast/LC_MESSAGES/libgrantleetheme6.mo
 * /usr/share/locale/bg/LC_MESSAGES/libgrantleetheme6.mo

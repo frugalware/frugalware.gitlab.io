@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kidentitymanagement 24.12.3-3"
-version = "24.12.3-3"
+title = "kidentitymanagement 25.04.0-1"
+version = "25.04.0-1"
 description = "KDE PIM libraries"
-date = "2025-04-05T20:16:07"
+date = "2025-04-17T22:25:41"
 aliases = "/packages/218317"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "186248"
-usize = "852118"
-sha1sum = "55781e93be4b263099a448ea63cd86dfefc066e2"
-depends = "['kirigami-addons', 'kpimtextedit>=24.12.3']"
+size = "187556"
+usize = "860973"
+sha1sum = "1e4daf5e48de3c5363c586c89cb59c84767d14ff"
+depends = "['kirigami-addons', 'kpimtextedit>=25.04.0']"
 reverse_depends = "['kcalutils', 'kmail-account-wizard', 'libksieve', 'messagelib']"
 +++
 ### Description: 
@@ -66,13 +66,13 @@ KDE PIM libraries
 * /usr/lib/cmake/KPim6IdentityManagementWidgets/KPim6IdentityManagementWidgetsTargets.cmake
 * /usr/lib/libKPim6IdentityManagementCore.so
 * /usr/lib/libKPim6IdentityManagementCore.so.6
-* /usr/lib/libKPim6IdentityManagementCore.so.6.3.3
+* /usr/lib/libKPim6IdentityManagementCore.so.6.4.0
 * /usr/lib/libKPim6IdentityManagementQuick.so
 * /usr/lib/libKPim6IdentityManagementQuick.so.6
-* /usr/lib/libKPim6IdentityManagementQuick.so.6.3.3
+* /usr/lib/libKPim6IdentityManagementQuick.so.6.4.0
 * /usr/lib/libKPim6IdentityManagementWidgets.so
 * /usr/lib/libKPim6IdentityManagementWidgets.so.6
-* /usr/lib/libKPim6IdentityManagementWidgets.so.6.3.3
+* /usr/lib/libKPim6IdentityManagementWidgets.so.6.4.0
 * /usr/lib/qt6/qml/org/kde/kidentitymanagement/BasicIdentityEditorCard.qml
 * /usr/lib/qt6/qml/org/kde/kidentitymanagement/CryptographyEditorCard.qml
 * /usr/lib/qt6/qml/org/kde/kidentitymanagement/IdentityConfigurationForm.qml
@@ -126,6 +126,7 @@ KDE PIM libraries
 * /usr/share/locale/pt_BR/LC_MESSAGES/libkpimidentities6.mo
 * /usr/share/locale/ro/LC_MESSAGES/libkpimidentities6.mo
 * /usr/share/locale/ru/LC_MESSAGES/libkpimidentities6.mo
+* /usr/share/locale/sa/LC_MESSAGES/libkpimidentities6.mo
 * /usr/share/locale/se/LC_MESSAGES/libkpimidentities6.mo
 * /usr/share/locale/sk/LC_MESSAGES/libkpimidentities6.mo
 * /usr/share/locale/sl/LC_MESSAGES/libkpimidentities6.mo

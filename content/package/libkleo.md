@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libkleo 24.12.3-3"
-version = "24.12.3-3"
+title = "libkleo 25.04.0-1"
+version = "25.04.0-1"
 description = "This lib provides crypto for mails."
-date = "2025-04-05T20:18:33"
+date = "2025-04-17T22:29:01"
 aliases = "/packages/218474"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "852220"
-usize = "4390228"
-sha1sum = "1b47a37824dd912987119406249c3b5b2ac98c66"
-depends = "['kitemmodels>=6.12.0', 'kpimtextedit>=24.12.3', 'libgpgmepp>=1.18.0', 'libqgpgme>=1.18.0']"
+size = "867456"
+usize = "4535996"
+sha1sum = "32a99525560d7a9f4e337ca4145e95b50eda7610"
+depends = "['kitemmodels>=6.13.0', 'kpimtextedit>=25.04.0', 'libgpgmepp>=1.18.0', 'libqgpgme>=1.18.0']"
 reverse_depends = "['akonadi-contacts', 'kleopatra', 'kmail-account-wizard', 'mimetreeparser']"
 +++
 ### Description: 
@@ -19,8 +19,6 @@ This lib provides crypto for mails.
 
 ### Files: 
 * /etc/xdg/libkleopatrarc
-* /usr/include/KPim6/Libkleo/Libkleo/AdjustingScrollArea
-* /usr/include/KPim6/Libkleo/libkleo/adjustingscrollarea.h
 * /usr/include/KPim6/Libkleo/Libkleo/Algorithm
 * /usr/include/KPim6/Libkleo/libkleo/algorithm.h
 * /usr/include/KPim6/Libkleo/Libkleo/Assuan
@@ -185,7 +183,7 @@ This lib provides crypto for mails.
 * /usr/lib/cmake/KPim6Libkleo/KPim6LibkleoTargets.cmake
 * /usr/lib/libKPim6Libkleo.so
 * /usr/lib/libKPim6Libkleo.so.6
-* /usr/lib/libKPim6Libkleo.so.6.3.3
+* /usr/lib/libKPim6Libkleo.so.6.4.0
 * /usr/share/KPim6Libkleo/find-modules/FindLibAssuan.cmake
 * /usr/share/KPim6Libkleo/find-modules/FindLibGpgError.cmake
 * /usr/share/libkleopatra/pics/smartcard.xpm
@@ -243,6 +241,7 @@ This lib provides crypto for mails.
 * /usr/share/locale/pt_BR/LC_MESSAGES/libkleopatra6.mo
 * /usr/share/locale/ro/LC_MESSAGES/libkleopatra6.mo
 * /usr/share/locale/ru/LC_MESSAGES/libkleopatra6.mo
+* /usr/share/locale/sa/LC_MESSAGES/libkleopatra6.mo
 * /usr/share/locale/se/LC_MESSAGES/libkleopatra6.mo
 * /usr/share/locale/sk/LC_MESSAGES/libkleopatra6.mo
 * /usr/share/locale/sl/LC_MESSAGES/libkleopatra6.mo
