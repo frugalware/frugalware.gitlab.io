@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "bind 9.21.6-1"
-version = "9.21.6-1"
+title = "bind 9.21.7-1"
+version = "9.21.7-1"
 description = "DNS server and utilities"
-date = "2025-03-21T09:26:19"
+date = "2025-04-17T08:17:07"
 aliases = "/packages/2930"
 categories = ['network']
 upstreamurl = "https://www.isc.org/bind/"
 arch = "x86_64"
-size = "1909436"
-usize = "6621280"
-sha1sum = "b32d090f1038f40794218a6d11ec94f982f15075"
+size = "1913896"
+usize = "6646208"
+sha1sum = "6b01c21ad7178a3dba31756176af932446dc2545"
 depends = "['liburcu', 'libuv', 'libxml2>=2.9.3-3', 'ncurses>=6.1-2', 'nghttp2', 'openssl>=3.1.0', 'python3-ply', 'readline>=8.0']"
 +++
 ### Description: 
@@ -140,7 +140,6 @@ DNS server and utilities
 * /usr/include/dns/view.h
 * /usr/include/dns/xfrin.h
 * /usr/include/dns/zone.h
-* /usr/include/dns/zonekey.h
 * /usr/include/dns/zoneverify.h
 * /usr/include/dns/zt.h
 * /usr/include/dst/dst.h
@@ -168,6 +167,7 @@ DNS server and utilities
 * /usr/include/isc/file.h
 * /usr/include/isc/formatcheck.h
 * /usr/include/isc/fuzz.h
+* /usr/include/isc/fxhash.h
 * /usr/include/isc/getaddresses.h
 * /usr/include/isc/hash.h
 * /usr/include/isc/hashmap.h
@@ -209,6 +209,7 @@ DNS server and utilities
 * /usr/include/isc/radix.h
 * /usr/include/isc/random.h
 * /usr/include/isc/ratelimiter.h
+* /usr/include/isc/readline.h
 * /usr/include/isc/refcount.h
 * /usr/include/isc/regex.h
 * /usr/include/isc/region.h
@@ -216,6 +217,7 @@ DNS server and utilities
 * /usr/include/isc/rwlock.h
 * /usr/include/isc/safe.h
 * /usr/include/isc/serial.h
+* /usr/include/isc/sieve.h
 * /usr/include/isc/signal.h
 * /usr/include/isc/siphash.h
 * /usr/include/isc/sockaddr.h
@@ -269,24 +271,24 @@ DNS server and utilities
 * /usr/include/ns/xfrout.h
 * /usr/lib/bind/filter-a.so
 * /usr/lib/bind/filter-aaaa.so
-* /usr/lib/libdns-9.21.6.so
+* /usr/lib/libdns-9.21.7.so
 * /usr/lib/libdns.so
-* /usr/lib/libisc-9.21.6.so
+* /usr/lib/libisc-9.21.7.so
 * /usr/lib/libisc.so
-* /usr/lib/libisccc-9.21.6.so
+* /usr/lib/libisccc-9.21.7.so
 * /usr/lib/libisccc.so
-* /usr/lib/libisccfg-9.21.6.so
+* /usr/lib/libisccfg-9.21.7.so
 * /usr/lib/libisccfg.so
-* /usr/lib/libns-9.21.6.so
+* /usr/lib/libns-9.21.7.so
 * /usr/lib/libns.so
 * /usr/lib/systemd/system/bind.service
-* /usr/share/doc/bind-9.21.6/AUTHORS
-* /usr/share/doc/bind-9.21.6/ChangeLog
-* /usr/share/doc/bind-9.21.6/COPYING
-* /usr/share/doc/bind-9.21.6/COPYRIGHT
-* /usr/share/doc/bind-9.21.6/LICENSE
-* /usr/share/doc/bind-9.21.6/NEWS
-* /usr/share/doc/bind-9.21.6/README.md
+* /usr/share/doc/bind-9.21.7/AUTHORS
+* /usr/share/doc/bind-9.21.7/ChangeLog
+* /usr/share/doc/bind-9.21.7/COPYING
+* /usr/share/doc/bind-9.21.7/COPYRIGHT
+* /usr/share/doc/bind-9.21.7/LICENSE
+* /usr/share/doc/bind-9.21.7/NEWS
+* /usr/share/doc/bind-9.21.7/README.md
 * /usr/share/man/man1/arpaname.1.gz
 * /usr/share/man/man1/delv.1.gz
 * /usr/share/man/man1/dig.1.gz

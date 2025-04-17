@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-harfbuzz 11.0.1-1"
-version = "11.0.1-1"
+title = "lib32-harfbuzz 11.1.0-1"
+version = "11.1.0-1"
 description = "Is an implementation of the OpenType Layout engine. ( 32bit )"
-date = "2025-04-09T12:28:59"
+date = "2025-04-17T08:54:10"
 aliases = "/packages/218973"
 categories = ['lib32-extra']
 upstreamurl = "https://github.com/harfbuzz/harfbuzz"
 arch = "x86_64"
-size = "1022500"
-usize = "3345872"
-sha1sum = "20b9b15456c8d27cd6d2a476495da76466a60c6a"
+size = "1027196"
+usize = "3351810"
+sha1sum = "92503a8928cadfa1597203e2834466dee07ce789"
 depends = "['lib32-cairo', 'lib32-glib2', 'lib32-icu4c', 'lib32-libffi', 'lib32-util-linux']"
 reverse_depends = "['lib32-libass', 'lib32-pango']"
 +++
@@ -50,6 +50,7 @@ Is an implementation of the OpenType Layout engine. ( 32bit )
 * /usr/i686-frugalware-linux/include/harfbuzz/hb-ot-var.h
 * /usr/i686-frugalware-linux/include/harfbuzz/hb-ot.h
 * /usr/i686-frugalware-linux/include/harfbuzz/hb-paint.h
+* /usr/i686-frugalware-linux/include/harfbuzz/hb-script-list.h
 * /usr/i686-frugalware-linux/include/harfbuzz/hb-set.h
 * /usr/i686-frugalware-linux/include/harfbuzz/hb-shape-plan.h
 * /usr/i686-frugalware-linux/include/harfbuzz/hb-shape.h
@@ -62,16 +63,16 @@ Is an implementation of the OpenType Layout engine. ( 32bit )
 * /usr/lib32/cmake/harfbuzz/harfbuzz-config.cmake
 * /usr/lib32/libharfbuzz-cairo.so
 * /usr/lib32/libharfbuzz-cairo.so.0
-* /usr/lib32/libharfbuzz-cairo.so.0.61101.0
+* /usr/lib32/libharfbuzz-cairo.so.0.61110.0
 * /usr/lib32/libharfbuzz-icu.so
 * /usr/lib32/libharfbuzz-icu.so.0
-* /usr/lib32/libharfbuzz-icu.so.0.61101.0
+* /usr/lib32/libharfbuzz-icu.so.0.61110.0
 * /usr/lib32/libharfbuzz-subset.so
 * /usr/lib32/libharfbuzz-subset.so.0
-* /usr/lib32/libharfbuzz-subset.so.0.61101.0
+* /usr/lib32/libharfbuzz-subset.so.0.61110.0
 * /usr/lib32/libharfbuzz.so
 * /usr/lib32/libharfbuzz.so.0
-* /usr/lib32/libharfbuzz.so.0.61101.0
+* /usr/lib32/libharfbuzz.so.0.61110.0
 * /usr/lib32/pkgconfig/harfbuzz-cairo.pc
 * /usr/lib32/pkgconfig/harfbuzz-icu.pc
 * /usr/lib32/pkgconfig/harfbuzz-subset.pc
