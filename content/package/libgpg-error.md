@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libgpg-error 1.53-1"
-version = "1.53-1"
+title = "libgpg-error 1.54-1"
+version = "1.54-1"
 description = "Support library for libgcrypt"
-date = "2025-04-09T18:00:56"
+date = "2025-04-17T18:05:38"
 aliases = "/packages/3176"
 categories = ['base']
 upstreamurl = "http://www.gnupg.org"
 arch = "x86_64"
-size = "329632"
-usize = "1467225"
-sha1sum = "06294b22fea287820661f53fe7c6f71fcd11926f"
+size = "330036"
+usize = "1468783"
+sha1sum = "20218f42fcdbbbbef4423e515d65776de8989305"
 depends = "['glibc>=2.35']"
 reverse_depends = "['efl', 'enlightenment', 'freeipmi', 'gpg-agent', 'gpgme', 'libassuan', 'libgcrypt', 'libgcrypt15', 'libksba', 'libvlc', 'terminology']"
 +++
@@ -25,7 +25,7 @@ Support library for libgcrypt
 * /usr/include/gpgrt.h
 * /usr/lib/libgpg-error.so
 * /usr/lib/libgpg-error.so.0
-* /usr/lib/libgpg-error.so.0.39.1
+* /usr/lib/libgpg-error.so.0.39.2
 * /usr/lib/pkgconfig/gpg-error.pc
 * /usr/share/aclocal/gpg-error.m4
 * /usr/share/aclocal/gpgrt.m4
@@ -33,15 +33,15 @@ Support library for libgcrypt
 * /usr/share/common-lisp/source/gpg-error/gpg-error-package.lisp
 * /usr/share/common-lisp/source/gpg-error/gpg-error.asd
 * /usr/share/common-lisp/source/gpg-error/gpg-error.lisp
-* /usr/share/doc/libgpg-error-1.53/AUTHORS
-* /usr/share/doc/libgpg-error-1.53/ChangeLog
-* /usr/share/doc/libgpg-error-1.53/COPYING
-* /usr/share/doc/libgpg-error-1.53/COPYING.LIB
-* /usr/share/doc/libgpg-error-1.53/INSTALL
-* /usr/share/doc/libgpg-error-1.53/NEWS
-* /usr/share/doc/libgpg-error-1.53/README
-* /usr/share/doc/libgpg-error-1.53/THANKS
-* /usr/share/doc/libgpg-error-1.53/VERSION
+* /usr/share/doc/libgpg-error-1.54/AUTHORS
+* /usr/share/doc/libgpg-error-1.54/ChangeLog
+* /usr/share/doc/libgpg-error-1.54/COPYING
+* /usr/share/doc/libgpg-error-1.54/COPYING.LIB
+* /usr/share/doc/libgpg-error-1.54/INSTALL
+* /usr/share/doc/libgpg-error-1.54/NEWS
+* /usr/share/doc/libgpg-error-1.54/README
+* /usr/share/doc/libgpg-error-1.54/THANKS
+* /usr/share/doc/libgpg-error-1.54/VERSION
 * /usr/share/info/gpgrt.info.gz
 * /usr/share/libgpg-error/errorref.txt
 * /usr/share/locale/cs/LC_MESSAGES/libgpg-error.mo

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "open-gpu-kernel-modules 570.133.07-6"
-version = "570.133.07-6"
+title = "open-gpu-kernel-modules 575.51.02-1"
+version = "575.51.02-1"
 description = "NVIDIA Linux Open GPU Kernel Module"
-date = "2025-04-11T09:15:38"
+date = "2025-04-17T18:11:19"
 aliases = "/packages/222618"
 categories = ['x11']
 upstreamurl = "https://github.com/NVIDIA/open-gpu-kernel-modules"
 arch = "x86_64"
-size = "14244"
-usize = "85809"
-sha1sum = "d71e4df37586dfe66ba727e1e686e05339f80999"
+size = "14296"
+usize = "85960"
+sha1sum = "6c8ad52993725f0e03dafbcff015011ef9e11872"
 depends = "['kernel=6.14.2-1']"
 reverse_depends = "['nvidia']"
 +++
@@ -19,5 +19,5 @@ NVIDIA Linux Open GPU Kernel Module
 
 ### Files: 
 * /etc/modprobe.d/nvidia.conf
-* /usr/share/doc/open-gpu-kernel-modules-570.133.07/COPYING
-* /usr/share/doc/open-gpu-kernel-modules-570.133.07/README.md
+* /usr/share/doc/open-gpu-kernel-modules-575.51.02/COPYING
+* /usr/share/doc/open-gpu-kernel-modules-575.51.02/README.md
