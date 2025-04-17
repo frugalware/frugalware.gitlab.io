@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mesa-libswrast 25.0.3-1"
-version = "25.0.3-1"
+title = "mesa-libswrast 25.0.4-1"
+version = "25.0.4-1"
 description = "Mesa SWR driver"
-date = "2025-04-03T07:50:57"
+date = "2025-04-17T07:56:51"
 aliases = "/packages/222587"
 categories = ['x11']
 upstreamurl = "https://www.mesa3d.org"
 arch = "x86_64"
-size = "45848"
-usize = "49304"
-sha1sum = "100bc7b867d14d3be5ef3b20e898179f2cfac428"
+size = "45948"
+usize = "49312"
+sha1sum = "067620670b4601cabc04ad9ac75cc5b928a27f6d"
 depends = "['elfutils>=0.167-2', 'expat>=2.1.0-6', 'libdrm>=2.4.70-2', 'libffi>=3.2.1-2', 'libx11>=1.6.3-4', 'llvm-libs>=19.1.1']"
 +++
 ### Description: 
