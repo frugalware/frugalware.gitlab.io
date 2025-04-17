@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ksystemlog 24.12.3-3"
-version = "24.12.3-3"
+title = "ksystemlog 25.04.0-1"
+version = "25.04.0-1"
 description = "KDE system log viewer tool."
-date = "2025-04-05T20:00:49"
+date = "2025-04-17T21:20:54"
 aliases = "/packages/135946"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2009896"
-usize = "6150935"
-sha1sum = "1c8ce0c603e41fcab6cd8ebe73dfaab3de86b1c9"
-depends = "['kio>=6.12.0']"
+size = "2020332"
+usize = "6253110"
+sha1sum = "61667e845380bfb7a59cf83e39f4389b2c134465"
+depends = "['kio>=6.13.0']"
 +++
 ### Description: 
 KDE system log viewer tool.
@@ -68,7 +68,7 @@ KDE system log viewer tool.
 * /usr/share/doc/HTML/uk/ksystemlog/main-screen.png
 * /usr/share/doc/HTML/zh_CN/ksystemlog/index.cache.bz2
 * /usr/share/doc/HTML/zh_CN/ksystemlog/index.docbook
-* /usr/share/doc/ksystemlog-24.12.3/Changelog
+* /usr/share/doc/ksystemlog-25.04.0/Changelog
 * /usr/share/locale/ar/LC_MESSAGES/ksystemlog.mo
 * /usr/share/locale/ast/LC_MESSAGES/ksystemlog.mo
 * /usr/share/locale/az/LC_MESSAGES/ksystemlog.mo
@@ -92,6 +92,7 @@ KDE system log viewer tool.
 * /usr/share/locale/fr/LC_MESSAGES/ksystemlog.mo
 * /usr/share/locale/ga/LC_MESSAGES/ksystemlog.mo
 * /usr/share/locale/gl/LC_MESSAGES/ksystemlog.mo
+* /usr/share/locale/hi/LC_MESSAGES/ksystemlog.mo
 * /usr/share/locale/hr/LC_MESSAGES/ksystemlog.mo
 * /usr/share/locale/hu/LC_MESSAGES/ksystemlog.mo
 * /usr/share/locale/ia/LC_MESSAGES/ksystemlog.mo
@@ -116,6 +117,7 @@ KDE system log viewer tool.
 * /usr/share/locale/pt_BR/LC_MESSAGES/ksystemlog.mo
 * /usr/share/locale/ro/LC_MESSAGES/ksystemlog.mo
 * /usr/share/locale/ru/LC_MESSAGES/ksystemlog.mo
+* /usr/share/locale/sa/LC_MESSAGES/ksystemlog.mo
 * /usr/share/locale/sk/LC_MESSAGES/ksystemlog.mo
 * /usr/share/locale/sl/LC_MESSAGES/ksystemlog.mo
 * /usr/share/locale/sr/LC_MESSAGES/ksystemlog.mo

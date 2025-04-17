@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kimap 24.12.3-3"
-version = "24.12.3-3"
+title = "kimap 25.04.0-1"
+version = "25.04.0-1"
 description = "C++ API for IMAP support."
-date = "2025-04-05T20:04:41"
+date = "2025-04-17T21:27:06"
 aliases = "/packages/218320"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "252132"
-usize = "992732"
-sha1sum = "e358436b4b15c8a8940cab64c79b869d5ae21457"
-depends = "['cyrus-sasl>=2.1.26-3', 'kio>=6.12.0', 'kmime>=24.12.3']"
+size = "253116"
+usize = "1001948"
+sha1sum = "4e55d2675e62c807397c8408a490987b00bd63c0"
+depends = "['cyrus-sasl>=2.1.26-3', 'kio>=6.13.0', 'kmime>=25.04.0']"
 reverse_depends = "['kdepim-runtime', 'pimcommon']"
 +++
 ### Description: 
@@ -152,9 +152,9 @@ C++ API for IMAP support.
 * /usr/lib/cmake/KPim6IMAP/KPim6IMAPTargets.cmake
 * /usr/lib/libKPim6IMAP.so
 * /usr/lib/libKPim6IMAP.so.6
-* /usr/lib/libKPim6IMAP.so.6.3.3
-* /usr/share/doc/kimap-24.12.3/README.md
-* /usr/share/doc/kimap-24.12.3/README.md.license
+* /usr/lib/libKPim6IMAP.so.6.4.0
+* /usr/share/doc/kimap-25.04.0/README.md
+* /usr/share/doc/kimap-25.04.0/README.md.license
 * /usr/share/locale/ar/LC_MESSAGES/libkimap6.mo
 * /usr/share/locale/ast/LC_MESSAGES/libkimap6.mo
 * /usr/share/locale/bs/LC_MESSAGES/libkimap6.mo
@@ -174,6 +174,7 @@ C++ API for IMAP support.
 * /usr/share/locale/ga/LC_MESSAGES/libkimap6.mo
 * /usr/share/locale/gl/LC_MESSAGES/libkimap6.mo
 * /usr/share/locale/he/LC_MESSAGES/libkimap6.mo
+* /usr/share/locale/hi/LC_MESSAGES/libkimap6.mo
 * /usr/share/locale/hu/LC_MESSAGES/libkimap6.mo
 * /usr/share/locale/ia/LC_MESSAGES/libkimap6.mo
 * /usr/share/locale/it/LC_MESSAGES/libkimap6.mo
@@ -195,6 +196,7 @@ C++ API for IMAP support.
 * /usr/share/locale/pt_BR/LC_MESSAGES/libkimap6.mo
 * /usr/share/locale/ro/LC_MESSAGES/libkimap6.mo
 * /usr/share/locale/ru/LC_MESSAGES/libkimap6.mo
+* /usr/share/locale/sa/LC_MESSAGES/libkimap6.mo
 * /usr/share/locale/sk/LC_MESSAGES/libkimap6.mo
 * /usr/share/locale/sl/LC_MESSAGES/libkimap6.mo
 * /usr/share/locale/sq/LC_MESSAGES/libkimap6.mo

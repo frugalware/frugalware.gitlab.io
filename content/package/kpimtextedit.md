@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kpimtextedit 24.12.3-3"
-version = "24.12.3-3"
+title = "kpimtextedit 25.04.0-1"
+version = "25.04.0-1"
 description = "Desc: A library for textedit with PIM-specific features."
-date = "2025-04-06T09:37:36"
+date = "2025-04-17T22:13:59"
 aliases = "/packages/218343"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "176216"
-usize = "842334"
-sha1sum = "b89729b1cf53f223ddd1c9737125e29de9b8c3e2"
-depends = "['kcoreaddons>=6.12.0', 'kio>=6.12.0', 'ktextaddons', 'ktexteditor>=6.12.0', 'ktexttemplate>=6.12.0', 'qt6-speech>=6.9.0', 'sonnet>=6.12.0', 'syntax-highlighting>=6.12.0']"
+size = "180536"
+usize = "873882"
+sha1sum = "f919f24e9d1d05137fe3135cc2aaa7e718121f87"
+depends = "['kcoreaddons>=6.13.0', 'kio>=6.13.0', 'ktextaddons', 'ktexteditor>=6.13.0', 'ktexttemplate>=6.13.0', 'qt6-speech>=6.9.0', 'sonnet>=6.13.0', 'syntax-highlighting>=6.13.0']"
 reverse_depends = "['kidentitymanagement', 'libkleo', 'pimcommon']"
 +++
 ### Description: 
@@ -50,7 +50,7 @@ Desc: A library for textedit with PIM-specific features.
 * /usr/lib/cmake/KPim6TextEdit/KPim6TextEditTargets.cmake
 * /usr/lib/libKPim6TextEdit.so
 * /usr/lib/libKPim6TextEdit.so.6
-* /usr/lib/libKPim6TextEdit.so.6.3.3
+* /usr/lib/libKPim6TextEdit.so.6.4.0
 * /usr/share/locale/ar/LC_MESSAGES/libkpimtextedit6.mo
 * /usr/share/locale/ast/LC_MESSAGES/libkpimtextedit6.mo
 * /usr/share/locale/az/LC_MESSAGES/libkpimtextedit6.mo
@@ -72,6 +72,7 @@ Desc: A library for textedit with PIM-specific features.
 * /usr/share/locale/ga/LC_MESSAGES/libkpimtextedit6.mo
 * /usr/share/locale/gl/LC_MESSAGES/libkpimtextedit6.mo
 * /usr/share/locale/he/LC_MESSAGES/libkpimtextedit6.mo
+* /usr/share/locale/hi/LC_MESSAGES/libkpimtextedit6.mo
 * /usr/share/locale/hu/LC_MESSAGES/libkpimtextedit6.mo
 * /usr/share/locale/ia/LC_MESSAGES/libkpimtextedit6.mo
 * /usr/share/locale/it/LC_MESSAGES/libkpimtextedit6.mo
@@ -93,6 +94,7 @@ Desc: A library for textedit with PIM-specific features.
 * /usr/share/locale/pt_BR/LC_MESSAGES/libkpimtextedit6.mo
 * /usr/share/locale/ro/LC_MESSAGES/libkpimtextedit6.mo
 * /usr/share/locale/ru/LC_MESSAGES/libkpimtextedit6.mo
+* /usr/share/locale/sa/LC_MESSAGES/libkpimtextedit6.mo
 * /usr/share/locale/sk/LC_MESSAGES/libkpimtextedit6.mo
 * /usr/share/locale/sl/LC_MESSAGES/libkpimtextedit6.mo
 * /usr/share/locale/sq/LC_MESSAGES/libkpimtextedit6.mo

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kldap 24.12.3-3"
-version = "24.12.3-3"
+title = "kldap 25.04.0-1"
+version = "25.04.0-1"
 description = "Desc: C++ API for LDAP access."
-date = "2025-04-05T20:05:59"
+date = "2025-04-17T21:29:22"
 aliases = "/packages/218330"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "228664"
-usize = "931829"
-sha1sum = "59aad823aab8b7b82334ef7e4bc8b17903a45fb4"
-depends = "['kcompletion>=6.12.0', 'ki18n>=6.12.0', 'kio>=6.12.0', 'kmbox>=24.12.3', 'libldap>=2.5.4', 'qtkeychain']"
+size = "229704"
+usize = "940524"
+sha1sum = "1dcfdb376f6137ceef51e7aa871f9dd92fc7ff8e"
+depends = "['kcompletion>=6.13.0', 'ki18n>=6.13.0', 'kio>=6.13.0', 'kmbox>=25.04.0', 'libldap>=2.5.4', 'qtkeychain']"
 reverse_depends = "['libkdepim']"
 +++
 ### Description: 
@@ -80,10 +80,10 @@ Desc: C++ API for LDAP access.
 * /usr/lib/cmake/KPim6LdapWidgets/KPim6LdapWidgetsTargets.cmake
 * /usr/lib/libKPim6LdapCore.so
 * /usr/lib/libKPim6LdapCore.so.6
-* /usr/lib/libKPim6LdapCore.so.6.3.3
+* /usr/lib/libKPim6LdapCore.so.6.4.0
 * /usr/lib/libKPim6LdapWidgets.so
 * /usr/lib/libKPim6LdapWidgets.so.6
-* /usr/lib/libKPim6LdapWidgets.so.6.3.3
+* /usr/lib/libKPim6LdapWidgets.so.6.4.0
 * /usr/lib/qt6/plugins/kf6/kio/ldap.so
 * /usr/share/doc/HTML/ca/kioworker6/ldap/index.cache.bz2
 * /usr/share/doc/HTML/ca/kioworker6/ldap/index.docbook
@@ -123,8 +123,8 @@ Desc: C++ API for LDAP access.
 * /usr/share/doc/HTML/tr/kioworker6/ldap/index.docbook
 * /usr/share/doc/HTML/uk/kioworker6/ldap/index.cache.bz2
 * /usr/share/doc/HTML/uk/kioworker6/ldap/index.docbook
-* /usr/share/doc/kldap-24.12.3/README.md
-* /usr/share/doc/kldap-24.12.3/README.md.license
+* /usr/share/doc/kldap-25.04.0/README.md
+* /usr/share/doc/kldap-25.04.0/README.md.license
 * /usr/share/locale/af/LC_MESSAGES/kio_ldap.mo
 * /usr/share/locale/ar/LC_MESSAGES/kio_ldap.mo
 * /usr/share/locale/ar/LC_MESSAGES/libkldap6.mo
@@ -225,6 +225,8 @@ Desc: C++ API for LDAP access.
 * /usr/share/locale/ro/LC_MESSAGES/libkldap6.mo
 * /usr/share/locale/ru/LC_MESSAGES/kio_ldap.mo
 * /usr/share/locale/ru/LC_MESSAGES/libkldap6.mo
+* /usr/share/locale/sa/LC_MESSAGES/kio_ldap.mo
+* /usr/share/locale/sa/LC_MESSAGES/libkldap6.mo
 * /usr/share/locale/se/LC_MESSAGES/kio_ldap.mo
 * /usr/share/locale/se/LC_MESSAGES/libkldap6.mo
 * /usr/share/locale/sk/LC_MESSAGES/kio_ldap.mo

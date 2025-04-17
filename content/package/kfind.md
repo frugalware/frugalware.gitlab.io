@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kfind 24.12.3-3"
-version = "24.12.3-3"
+title = "kfind 25.04.0-1"
+version = "25.04.0-1"
 description = "A standalone search too."
-date = "2025-04-05T20:03:10"
+date = "2025-04-17T21:24:32"
 aliases = "/packages/218932"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "395032"
-usize = "1415949"
-sha1sum = "37152c3a0b7d73004ed40bf75e4c52928e8dbdbb"
-depends = "['kfilemetadata>==6.12.0']"
+size = "397640"
+usize = "1436661"
+sha1sum = "c942d023c303178d58085e55ebe330b4ca1e02eb"
+depends = "['kfilemetadata>==6.13.0']"
 +++
 ### Description: 
 A standalone search too.
@@ -113,6 +113,7 @@ A standalone search too.
 * /usr/share/locale/pt_BR/LC_MESSAGES/kfind.mo
 * /usr/share/locale/ro/LC_MESSAGES/kfind.mo
 * /usr/share/locale/ru/LC_MESSAGES/kfind.mo
+* /usr/share/locale/sa/LC_MESSAGES/kfind.mo
 * /usr/share/locale/se/LC_MESSAGES/kfind.mo
 * /usr/share/locale/si/LC_MESSAGES/kfind.mo
 * /usr/share/locale/sk/LC_MESSAGES/kfind.mo

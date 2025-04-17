@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kruler 24.12.3-3"
-version = "24.12.3-3"
+title = "kruler 25.04.0-1"
+version = "25.04.0-1"
 description = "KDE Ruler Widget."
-date = "2025-04-05T19:59:19"
+date = "2025-04-17T21:18:37"
 aliases = "/packages/88170"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "281088"
-usize = "635180"
-sha1sum = "4f7a4ef217080966a7d9669223b8029bde9b8a66"
-depends = "['knotifications>=6.12.0', 'kstatusnotifieritem>=6.12.0', 'kxmlgui>=6.12.0']"
+size = "282192"
+usize = "641293"
+sha1sum = "af4d3bc153a0a8fb48533ad600a704ac3958baa2"
+depends = "['knotifications>=6.13.0', 'kstatusnotifieritem>=6.13.0', 'kxmlgui>=6.13.0']"
 +++
 ### Description: 
 KDE Ruler Widget.
@@ -56,7 +56,7 @@ KDE Ruler Widget.
 * /usr/share/doc/HTML/uk/kruler/index.cache.bz2
 * /usr/share/doc/HTML/uk/kruler/index.docbook
 * /usr/share/doc/HTML/uk/kruler/kruler-settings.png
-* /usr/share/doc/kruler-24.12.3/TODO
+* /usr/share/doc/kruler-25.04.0/TODO
 * /usr/share/icons/hicolor/128x128/apps/kruler.png
 * /usr/share/icons/hicolor/16x16/actions/kruler-east.png
 * /usr/share/icons/hicolor/16x16/actions/kruler-north.png
@@ -130,6 +130,7 @@ KDE Ruler Widget.
 * /usr/share/locale/pt_BR/LC_MESSAGES/kruler.mo
 * /usr/share/locale/ro/LC_MESSAGES/kruler.mo
 * /usr/share/locale/ru/LC_MESSAGES/kruler.mo
+* /usr/share/locale/sa/LC_MESSAGES/kruler.mo
 * /usr/share/locale/se/LC_MESSAGES/kruler.mo
 * /usr/share/locale/si/LC_MESSAGES/kruler.mo
 * /usr/share/locale/sk/LC_MESSAGES/kruler.mo

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ktimer 24.12.3-3"
-version = "24.12.3-3"
+title = "ktimer 25.04.0-1"
+version = "25.04.0-1"
 description = "Countdown timer."
-date = "2025-04-05T20:01:33"
+date = "2025-04-17T21:22:05"
 aliases = "/packages/153208"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "504800"
-usize = "939535"
-sha1sum = "bf9fadd40b6365545fc6e8ef9dd43c476dc738a2"
-depends = "['kio>=6.12.0', 'kstatusnotifieritem>=6.12.0']"
+size = "506112"
+usize = "948360"
+sha1sum = "7e9b69ee4c918b4ae103658ee0197e6dbc4fc88d"
+depends = "['kio>=6.13.0', 'kstatusnotifieritem>=6.13.0']"
 +++
 ### Description: 
 Countdown timer.
@@ -134,6 +134,7 @@ Countdown timer.
 * /usr/share/locale/pt_BR/LC_MESSAGES/ktimer.mo
 * /usr/share/locale/ro/LC_MESSAGES/ktimer.mo
 * /usr/share/locale/ru/LC_MESSAGES/ktimer.mo
+* /usr/share/locale/sa/LC_MESSAGES/ktimer.mo
 * /usr/share/locale/se/LC_MESSAGES/ktimer.mo
 * /usr/share/locale/sk/LC_MESSAGES/ktimer.mo
 * /usr/share/locale/sl/LC_MESSAGES/ktimer.mo

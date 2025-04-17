@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "konsole 24.12.3-4"
-version = "24.12.3-4"
+title = "konsole 25.04.0-1"
+version = "25.04.0-1"
 description = "KDE Terminal emulator."
-date = "2025-04-06T20:17:04"
+date = "2025-04-17T21:15:47"
 aliases = "/packages/88141"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2026188"
-usize = "9656127"
-sha1sum = "3cc6c8f7cc761ad094e05a56aaa9e8901e906b25"
-depends = "['knewstuff>=6.12.0', 'knotifyconfig>=6.12.0', 'kparts>=6.12.0', 'kpty>=6.12.0']"
+size = "2072168"
+usize = "9868784"
+sha1sum = "cf1deb647cd6deae0d32d4f9721110f0d9c3119c"
+depends = "['knewstuff>=6.13.0', 'knotifyconfig>=6.13.0', 'kparts>=6.13.0', 'kpty>=6.13.0']"
 +++
 ### Description: 
 KDE Terminal emulator.
@@ -21,8 +21,8 @@ KDE Terminal emulator.
 * /usr/bin/konsoleprofile
 * /usr/lib/kconf_update_bin/konsole_globalaccel
 * /usr/lib/kconf_update_bin/konsole_show_menubar
-* /usr/lib/libkonsoleapp.so.24.12.3
-* /usr/lib/libkonsoleprivate.so.24.12.3
+* /usr/lib/libkonsoleapp.so.25.04.0
+* /usr/lib/libkonsoleprivate.so.25.04.0
 * /usr/lib/qt6/plugins/kf6/parts/konsolepart.so
 * /usr/lib/qt6/plugins/konsoleplugins/konsole_quickcommandsplugin.so
 * /usr/lib/qt6/plugins/konsoleplugins/konsole_sshmanagerplugin.so
@@ -64,10 +64,10 @@ KDE Terminal emulator.
 * /usr/share/doc/HTML/uk/konsole/index.docbook
 * /usr/share/doc/HTML/zh_CN/konsole/index.cache.bz2
 * /usr/share/doc/HTML/zh_CN/konsole/index.docbook
-* /usr/share/doc/konsole-24.12.3/COPYING
-* /usr/share/doc/konsole-24.12.3/COPYING.DOC
-* /usr/share/doc/konsole-24.12.3/COPYING.LIB
-* /usr/share/doc/konsole-24.12.3/README.md
+* /usr/share/doc/konsole-25.04.0/COPYING
+* /usr/share/doc/konsole-25.04.0/COPYING.DOC
+* /usr/share/doc/konsole-25.04.0/COPYING.LIB
+* /usr/share/doc/konsole-25.04.0/README.md
 * /usr/share/kconf_update/konsole.upd
 * /usr/share/kconf_update/konsole_add_hamburgermenu_to_toolbar.sh
 * /usr/share/kglobalaccel/org.kde.konsole.desktop
@@ -142,6 +142,7 @@ KDE Terminal emulator.
 * /usr/share/locale/pt_BR/LC_MESSAGES/konsole.mo
 * /usr/share/locale/ro/LC_MESSAGES/konsole.mo
 * /usr/share/locale/ru/LC_MESSAGES/konsole.mo
+* /usr/share/locale/sa/LC_MESSAGES/konsole.mo
 * /usr/share/locale/se/LC_MESSAGES/konsole.mo
 * /usr/share/locale/si/LC_MESSAGES/konsole.mo
 * /usr/share/locale/sk/LC_MESSAGES/konsole.mo
