@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kdialog 24.12.3-3"
-version = "24.12.3-3"
+title = "kdialog 25.04.0-1"
+version = "25.04.0-1"
 description = "Can be used to show nice dialog boxes from shell scripts."
-date = "2025-04-05T19:52:26"
+date = "2025-04-17T21:04:50"
 aliases = "/packages/88145"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "145552"
-usize = "768623"
-sha1sum = "45a77d48c9d20e03f69bb7cf00345349f9632d2d"
+size = "147208"
+usize = "781033"
+sha1sum = "73fcc8bd4971699682c069243d4da69e38ff07df"
 depends = "['kio>=']"
 +++
 ### Description: 
@@ -21,8 +21,8 @@ Can be used to show nice dialog boxes from shell scripts.
 * /usr/bin/kdialog_progress_helper
 * /usr/share/applications/org.kde.kdialog.desktop
 * /usr/share/dbus-1/interfaces/org.kde.kdialog.ProgressDialog.xml
-* /usr/share/doc/kdialog-24.12.3/COPYING.DOC
-* /usr/share/doc/kdialog-24.12.3/README.md
+* /usr/share/doc/kdialog-25.04.0/COPYING.DOC
+* /usr/share/doc/kdialog-25.04.0/README.md
 * /usr/share/locale/af/LC_MESSAGES/kdialog.mo
 * /usr/share/locale/ar/LC_MESSAGES/kdialog.mo
 * /usr/share/locale/ast/LC_MESSAGES/kdialog.mo
@@ -91,6 +91,7 @@ Can be used to show nice dialog boxes from shell scripts.
 * /usr/share/locale/pt_BR/LC_MESSAGES/kdialog.mo
 * /usr/share/locale/ro/LC_MESSAGES/kdialog.mo
 * /usr/share/locale/ru/LC_MESSAGES/kdialog.mo
+* /usr/share/locale/sa/LC_MESSAGES/kdialog.mo
 * /usr/share/locale/se/LC_MESSAGES/kdialog.mo
 * /usr/share/locale/si/LC_MESSAGES/kdialog.mo
 * /usr/share/locale/sk/LC_MESSAGES/kdialog.mo

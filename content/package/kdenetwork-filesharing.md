@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdenetwork-filesharing 24.12.3-3"
-version = "24.12.3-3"
+title = "kdenetwork-filesharing 25.04.0-1"
+version = "25.04.0-1"
 description = "Front end for KDE to enable or disable, simple ( HOME ) or advanced ( SAMBA, NFS ) file sharing."
-date = "2025-04-05T19:50:16"
+date = "2025-04-17T21:01:29"
 aliases = "/packages/184677"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "202944"
-usize = "1086396"
-sha1sum = "f0dc8d7d4d998019311bc30e40a695db0e5a493d"
-depends = "['kdeclarative>=6.12.0', 'kio>=6.12.0', 'packagekit-qt6>=1.0.1', 'qcoro', 'qt6-svg>=6.9.0']"
+size = "209860"
+usize = "1140038"
+sha1sum = "e28bbbf952f49f004770b94cdd4f59fc4b120aef"
+depends = "['kdeclarative>=6.13.0', 'kio>=6.13.0', 'packagekit-qt6>=1.0.1', 'qcoro', 'qt6-svg>=6.9.0']"
 +++
 ### Description: 
 Front end for KDE to enable or disable, simple ( HOME ) or advanced ( SAMBA, NFS ) file sharing.
@@ -79,6 +79,7 @@ Front end for KDE to enable or disable, simple ( HOME ) or advanced ( SAMBA, NFS
 * /usr/share/locale/pt_BR/LC_MESSAGES/kfileshare.mo
 * /usr/share/locale/ro/LC_MESSAGES/kfileshare.mo
 * /usr/share/locale/ru/LC_MESSAGES/kfileshare.mo
+* /usr/share/locale/sa/LC_MESSAGES/kfileshare.mo
 * /usr/share/locale/se/LC_MESSAGES/kfileshare.mo
 * /usr/share/locale/sk/LC_MESSAGES/kfileshare.mo
 * /usr/share/locale/sl/LC_MESSAGES/kfileshare.mo

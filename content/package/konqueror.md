@@ -1,23 +1,24 @@
 +++
 draft = false
-title = "konqueror 24.12.3-3"
-version = "24.12.3-3"
+title = "konqueror 25.04.0-1"
+version = "25.04.0-1"
 description = "Web browser and file manager"
-date = "2025-04-05T19:57:35"
+date = "2025-04-17T21:13:06"
 aliases = "/packages/218937"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "8479028"
-usize = "27025686"
-sha1sum = "9b3afd151b6fd57325c1d8fe4b1905f30c84ad70"
-depends = "['hunspell', 'kcmutils>=6.12.0', 'kdesu>=6.12.0', 'kparts>=6.12.0', 'plasma-activities>=6.3.4', 'qt6-speech>=6.9.0', 'qt6-webengine>=6.9.0', 'tidy>=5.6.0']"
+size = "8520024"
+usize = "27420720"
+sha1sum = "f002db8eb4ca85ef5583bb9b457dcd9883a39df7"
+depends = "['hunspell', 'kcmutils>=6.13.0', 'kdesu>=6.13.0', 'kparts>=6.13.0', 'plasma-activities>=6.3.4', 'qt6-speech>=6.9.0', 'qt6-webengine>=6.9.0', 'tidy>=5.6.0']"
 +++
 ### Description: 
 Web browser and file manager
 
 ### Files: 
 * /etc/xdg/autostart/konqy_preload.desktop
+* /etc/xdg/konqautofiltersrc
 * /etc/xdg/konqsidebartngrc
 * /etc/xdg/translaterc
 * /etc/xdg/useragenttemplatesrc
@@ -52,9 +53,9 @@ Web browser and file manager
 * /usr/lib/libKF6KonqSettings.so.5.97.0
 * /usr/lib/libKF6KonqSettings.so.7
 * /usr/lib/libkonqsidebarplugin.so
-* /usr/lib/libkonqsidebarplugin.so.24.12.3
+* /usr/lib/libkonqsidebarplugin.so.25.04.0
 * /usr/lib/libkonqsidebarplugin.so.6
-* /usr/lib/libkonquerorprivate.so.24.12.3
+* /usr/lib/libkonquerorprivate.so.25.04.0
 * /usr/lib/libkonquerorprivate.so.5
 * /usr/lib/libkwebenginepart.so
 * /usr/lib/qt6/plugins/akregatorkonqfeedicon.so
@@ -74,6 +75,7 @@ Web browser and file manager
 * /usr/lib/qt6/plugins/khtml/kpartplugins/babelfishpluginkhtml_kpartplugins.so
 * /usr/lib/qt6/plugins/khtml/kpartplugins/khtmlsettingspluginkhtml_kpartplugins.so
 * /usr/lib/qt6/plugins/khtml/kpartplugins/konqueror_kget_browser_integrationkhtml_kpartplugins.so
+* /usr/lib/qt6/plugins/khtml/kpartplugins/temporarysavedirkhtml_kpartplugins.so
 * /usr/lib/qt6/plugins/khtml/kpartplugins/uachangerpluginkhtml_kpartplugins.so
 * /usr/lib/qt6/plugins/khtml/kpartplugins/webarchiverpluginkhtml_kpartplugins.so
 * /usr/lib/qt6/plugins/khtmlsettingsplugin.so
@@ -82,6 +84,7 @@ Web browser and file manager
 * /usr/lib/qt6/plugins/konqueror/sidebar/konqsidebar_history.so
 * /usr/lib/qt6/plugins/konqueror/sidebar/konqsidebar_places.so
 * /usr/lib/qt6/plugins/konqueror/sidebar/konqsidebar_tree.so
+* /usr/lib/qt6/plugins/konqueror/sidebar/konqsidebar_verticaltabbar.so
 * /usr/lib/qt6/plugins/konqueror_kcms/kcm_bookmarks.so
 * /usr/lib/qt6/plugins/konqueror_kcms/kcm_history.so
 * /usr/lib/qt6/plugins/konqueror_kcms/kcm_konq.so
@@ -101,8 +104,10 @@ Web browser and file manager
 * /usr/lib/qt6/plugins/kwebkitpart/kpartplugins/babelfishpluginkwebkitpart_kpartplugins.so
 * /usr/lib/qt6/plugins/kwebkitpart/kpartplugins/khtmlsettingspluginkwebkitpart_kpartplugins.so
 * /usr/lib/qt6/plugins/kwebkitpart/kpartplugins/konqueror_kget_browser_integrationkwebkitpart_kpartplugins.so
+* /usr/lib/qt6/plugins/kwebkitpart/kpartplugins/temporarysavedirkwebkitpart_kpartplugins.so
 * /usr/lib/qt6/plugins/kwebkitpart/kpartplugins/uachangerpluginkwebkitpart_kpartplugins.so
 * /usr/lib/qt6/plugins/kwebkitpart/kpartplugins/webarchiverpluginkwebkitpart_kpartplugins.so
+* /usr/lib/qt6/plugins/temporarysavedir.so
 * /usr/lib/qt6/plugins/uachangerplugin.so
 * /usr/lib/qt6/plugins/webarchiverplugin.so
 * /usr/lib/qt6/plugins/webenginepart/kpartplugins/akregatorkonqfeediconwebenginepart_kpartplugins.so
@@ -110,6 +115,7 @@ Web browser and file manager
 * /usr/lib/qt6/plugins/webenginepart/kpartplugins/babelfishpluginwebenginepart_kpartplugins.so
 * /usr/lib/qt6/plugins/webenginepart/kpartplugins/khtmlsettingspluginwebenginepart_kpartplugins.so
 * /usr/lib/qt6/plugins/webenginepart/kpartplugins/konqueror_kget_browser_integrationwebenginepart_kpartplugins.so
+* /usr/lib/qt6/plugins/webenginepart/kpartplugins/temporarysavedirwebenginepart_kpartplugins.so
 * /usr/lib/qt6/plugins/webenginepart/kpartplugins/uachangerpluginwebenginepart_kpartplugins.so
 * /usr/lib/qt6/plugins/webenginepart/kpartplugins/webarchiverpluginwebenginepart_kpartplugins.so
 * /usr/share/akregator/pics/feed.png
@@ -627,8 +633,8 @@ Web browser and file manager
 * /usr/share/doc/HTML/uk/konqueror/viewproperties-dialog.png
 * /usr/share/doc/HTML/zh_CN/kcontrol/history/index.cache.bz2
 * /usr/share/doc/HTML/zh_CN/kcontrol/history/index.docbook
-* /usr/share/doc/konqueror-24.12.3/AUTHORS
-* /usr/share/doc/konqueror-24.12.3/ChangeLog
+* /usr/share/doc/konqueror-25.04.0/AUTHORS
+* /usr/share/doc/konqueror-25.04.0/ChangeLog
 * /usr/share/icons/hicolor/128x128/apps/konqueror.png
 * /usr/share/icons/hicolor/128x128/apps/webengine.png
 * /usr/share/icons/hicolor/16x16/actions/babelfish.png
@@ -698,6 +704,7 @@ Web browser and file manager
 * /usr/share/konqueror/partsrcfiles/konqueror_kget_browser_integration.rc
 * /usr/share/konqueror/partsrcfiles/konq_shellcmdplugin.rc
 * /usr/share/konqueror/partsrcfiles/searchbarplugin.rc
+* /usr/share/konqueror/partsrcfiles/temporarysavedir.rc
 * /usr/share/konqueror/partsrcfiles/uachangerplugin.rc
 * /usr/share/konqueror/partsrcfiles/webarchiverplugin.rc
 * /usr/share/konqueror/pics/indicator_connect.png
@@ -739,6 +746,7 @@ Web browser and file manager
 * /usr/share/locale/ar/LC_MESSAGES/kshellcmdplugin.mo
 * /usr/share/locale/ar/LC_MESSAGES/libkonq.mo
 * /usr/share/locale/ar/LC_MESSAGES/searchbarplugin.mo
+* /usr/share/locale/ar/LC_MESSAGES/temporarysavedir.mo
 * /usr/share/locale/ar/LC_MESSAGES/uachangerplugin.mo
 * /usr/share/locale/ar/LC_MESSAGES/webarchiver.mo
 * /usr/share/locale/ar/LC_MESSAGES/webenginepart.mo
@@ -811,6 +819,7 @@ Web browser and file manager
 * /usr/share/locale/bg/LC_MESSAGES/kshellcmdplugin.mo
 * /usr/share/locale/bg/LC_MESSAGES/libkonq.mo
 * /usr/share/locale/bg/LC_MESSAGES/searchbarplugin.mo
+* /usr/share/locale/bg/LC_MESSAGES/temporarysavedir.mo
 * /usr/share/locale/bg/LC_MESSAGES/uachangerplugin.mo
 * /usr/share/locale/bg/LC_MESSAGES/webarchiver.mo
 * /usr/share/locale/bg/LC_MESSAGES/webenginepart.mo
@@ -890,6 +899,7 @@ Web browser and file manager
 * /usr/share/locale/ca/LC_MESSAGES/kshellcmdplugin.mo
 * /usr/share/locale/ca/LC_MESSAGES/libkonq.mo
 * /usr/share/locale/ca/LC_MESSAGES/searchbarplugin.mo
+* /usr/share/locale/ca/LC_MESSAGES/temporarysavedir.mo
 * /usr/share/locale/ca/LC_MESSAGES/uachangerplugin.mo
 * /usr/share/locale/ca/LC_MESSAGES/webarchiver.mo
 * /usr/share/locale/ca/LC_MESSAGES/webenginepart.mo
@@ -913,6 +923,7 @@ Web browser and file manager
 * /usr/share/locale/ca@valencia/LC_MESSAGES/kshellcmdplugin.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/libkonq.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/searchbarplugin.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/temporarysavedir.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/uachangerplugin.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/webarchiver.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/webenginepart.mo
@@ -1000,10 +1011,12 @@ Web browser and file manager
 * /usr/share/locale/de/LC_MESSAGES/khtmlsettingsplugin.mo
 * /usr/share/locale/de/LC_MESSAGES/khtmltts.mo
 * /usr/share/locale/de/LC_MESSAGES/kio6_bookmarks.mo
+* /usr/share/locale/de/LC_MESSAGES/konqsidebar.mo
 * /usr/share/locale/de/LC_MESSAGES/konqueror.mo
 * /usr/share/locale/de/LC_MESSAGES/kshellcmdplugin.mo
 * /usr/share/locale/de/LC_MESSAGES/libkonq.mo
 * /usr/share/locale/de/LC_MESSAGES/searchbarplugin.mo
+* /usr/share/locale/de/LC_MESSAGES/temporarysavedir.mo
 * /usr/share/locale/de/LC_MESSAGES/uachangerplugin.mo
 * /usr/share/locale/de/LC_MESSAGES/webarchiver.mo
 * /usr/share/locale/de/LC_MESSAGES/webenginepart.mo
@@ -1093,6 +1106,7 @@ Web browser and file manager
 * /usr/share/locale/es/LC_MESSAGES/kshellcmdplugin.mo
 * /usr/share/locale/es/LC_MESSAGES/libkonq.mo
 * /usr/share/locale/es/LC_MESSAGES/searchbarplugin.mo
+* /usr/share/locale/es/LC_MESSAGES/temporarysavedir.mo
 * /usr/share/locale/es/LC_MESSAGES/uachangerplugin.mo
 * /usr/share/locale/es/LC_MESSAGES/webarchiver.mo
 * /usr/share/locale/es/LC_MESSAGES/webenginepart.mo
@@ -1132,10 +1146,12 @@ Web browser and file manager
 * /usr/share/locale/eu/LC_MESSAGES/khtmlsettingsplugin.mo
 * /usr/share/locale/eu/LC_MESSAGES/khtmltts.mo
 * /usr/share/locale/eu/LC_MESSAGES/kio6_bookmarks.mo
+* /usr/share/locale/eu/LC_MESSAGES/konqsidebar.mo
 * /usr/share/locale/eu/LC_MESSAGES/konqueror.mo
 * /usr/share/locale/eu/LC_MESSAGES/kshellcmdplugin.mo
 * /usr/share/locale/eu/LC_MESSAGES/libkonq.mo
 * /usr/share/locale/eu/LC_MESSAGES/searchbarplugin.mo
+* /usr/share/locale/eu/LC_MESSAGES/temporarysavedir.mo
 * /usr/share/locale/eu/LC_MESSAGES/uachangerplugin.mo
 * /usr/share/locale/eu/LC_MESSAGES/webarchiver.mo
 * /usr/share/locale/eu/LC_MESSAGES/webenginepart.mo
@@ -1175,10 +1191,12 @@ Web browser and file manager
 * /usr/share/locale/fi/LC_MESSAGES/khtmlsettingsplugin.mo
 * /usr/share/locale/fi/LC_MESSAGES/khtmltts.mo
 * /usr/share/locale/fi/LC_MESSAGES/kio6_bookmarks.mo
+* /usr/share/locale/fi/LC_MESSAGES/konqsidebar.mo
 * /usr/share/locale/fi/LC_MESSAGES/konqueror.mo
 * /usr/share/locale/fi/LC_MESSAGES/kshellcmdplugin.mo
 * /usr/share/locale/fi/LC_MESSAGES/libkonq.mo
 * /usr/share/locale/fi/LC_MESSAGES/searchbarplugin.mo
+* /usr/share/locale/fi/LC_MESSAGES/temporarysavedir.mo
 * /usr/share/locale/fi/LC_MESSAGES/uachangerplugin.mo
 * /usr/share/locale/fi/LC_MESSAGES/webarchiver.mo
 * /usr/share/locale/fi/LC_MESSAGES/webenginepart.mo
@@ -1202,6 +1220,7 @@ Web browser and file manager
 * /usr/share/locale/fr/LC_MESSAGES/kshellcmdplugin.mo
 * /usr/share/locale/fr/LC_MESSAGES/libkonq.mo
 * /usr/share/locale/fr/LC_MESSAGES/searchbarplugin.mo
+* /usr/share/locale/fr/LC_MESSAGES/temporarysavedir.mo
 * /usr/share/locale/fr/LC_MESSAGES/uachangerplugin.mo
 * /usr/share/locale/fr/LC_MESSAGES/webarchiver.mo
 * /usr/share/locale/fr/LC_MESSAGES/webenginepart.mo
@@ -1265,6 +1284,7 @@ Web browser and file manager
 * /usr/share/locale/gl/LC_MESSAGES/kshellcmdplugin.mo
 * /usr/share/locale/gl/LC_MESSAGES/libkonq.mo
 * /usr/share/locale/gl/LC_MESSAGES/searchbarplugin.mo
+* /usr/share/locale/gl/LC_MESSAGES/temporarysavedir.mo
 * /usr/share/locale/gl/LC_MESSAGES/uachangerplugin.mo
 * /usr/share/locale/gl/LC_MESSAGES/webarchiver.mo
 * /usr/share/locale/gl/LC_MESSAGES/webenginepart.mo
@@ -1298,6 +1318,7 @@ Web browser and file manager
 * /usr/share/locale/he/LC_MESSAGES/kshellcmdplugin.mo
 * /usr/share/locale/he/LC_MESSAGES/libkonq.mo
 * /usr/share/locale/he/LC_MESSAGES/searchbarplugin.mo
+* /usr/share/locale/he/LC_MESSAGES/temporarysavedir.mo
 * /usr/share/locale/he/LC_MESSAGES/uachangerplugin.mo
 * /usr/share/locale/he/LC_MESSAGES/webarchiver.mo
 * /usr/share/locale/he/LC_MESSAGES/webenginepart.mo
@@ -1321,6 +1342,8 @@ Web browser and file manager
 * /usr/share/locale/hi/LC_MESSAGES/libkonq.mo
 * /usr/share/locale/hi/LC_MESSAGES/searchbarplugin.mo
 * /usr/share/locale/hi/LC_MESSAGES/uachangerplugin.mo
+* /usr/share/locale/hi/LC_MESSAGES/webarchiver.mo
+* /usr/share/locale/hi/LC_MESSAGES/webenginepart.mo
 * /usr/share/locale/hne/LC_MESSAGES/akregator_konqplugin.mo
 * /usr/share/locale/hne/LC_MESSAGES/autorefresh.mo
 * /usr/share/locale/hne/LC_MESSAGES/babelfish.mo
@@ -1408,10 +1431,12 @@ Web browser and file manager
 * /usr/share/locale/ia/LC_MESSAGES/khtmlsettingsplugin.mo
 * /usr/share/locale/ia/LC_MESSAGES/khtmltts.mo
 * /usr/share/locale/ia/LC_MESSAGES/kio6_bookmarks.mo
+* /usr/share/locale/ia/LC_MESSAGES/konqsidebar.mo
 * /usr/share/locale/ia/LC_MESSAGES/konqueror.mo
 * /usr/share/locale/ia/LC_MESSAGES/kshellcmdplugin.mo
 * /usr/share/locale/ia/LC_MESSAGES/libkonq.mo
 * /usr/share/locale/ia/LC_MESSAGES/searchbarplugin.mo
+* /usr/share/locale/ia/LC_MESSAGES/temporarysavedir.mo
 * /usr/share/locale/ia/LC_MESSAGES/uachangerplugin.mo
 * /usr/share/locale/ia/LC_MESSAGES/webarchiver.mo
 * /usr/share/locale/ia/LC_MESSAGES/webenginepart.mo
@@ -1477,6 +1502,7 @@ Web browser and file manager
 * /usr/share/locale/it/LC_MESSAGES/kshellcmdplugin.mo
 * /usr/share/locale/it/LC_MESSAGES/libkonq.mo
 * /usr/share/locale/it/LC_MESSAGES/searchbarplugin.mo
+* /usr/share/locale/it/LC_MESSAGES/temporarysavedir.mo
 * /usr/share/locale/it/LC_MESSAGES/uachangerplugin.mo
 * /usr/share/locale/it/LC_MESSAGES/webarchiver.mo
 * /usr/share/locale/it/LC_MESSAGES/webenginepart.mo
@@ -1522,6 +1548,7 @@ Web browser and file manager
 * /usr/share/locale/ka/LC_MESSAGES/kshellcmdplugin.mo
 * /usr/share/locale/ka/LC_MESSAGES/libkonq.mo
 * /usr/share/locale/ka/LC_MESSAGES/searchbarplugin.mo
+* /usr/share/locale/ka/LC_MESSAGES/temporarysavedir.mo
 * /usr/share/locale/ka/LC_MESSAGES/uachangerplugin.mo
 * /usr/share/locale/ka/LC_MESSAGES/webarchiver.mo
 * /usr/share/locale/ka/LC_MESSAGES/webenginepart.mo
@@ -1591,10 +1618,12 @@ Web browser and file manager
 * /usr/share/locale/ko/LC_MESSAGES/khtmlsettingsplugin.mo
 * /usr/share/locale/ko/LC_MESSAGES/khtmltts.mo
 * /usr/share/locale/ko/LC_MESSAGES/kio6_bookmarks.mo
+* /usr/share/locale/ko/LC_MESSAGES/konqsidebar.mo
 * /usr/share/locale/ko/LC_MESSAGES/konqueror.mo
 * /usr/share/locale/ko/LC_MESSAGES/kshellcmdplugin.mo
 * /usr/share/locale/ko/LC_MESSAGES/libkonq.mo
 * /usr/share/locale/ko/LC_MESSAGES/searchbarplugin.mo
+* /usr/share/locale/ko/LC_MESSAGES/temporarysavedir.mo
 * /usr/share/locale/ko/LC_MESSAGES/uachangerplugin.mo
 * /usr/share/locale/ko/LC_MESSAGES/webarchiver.mo
 * /usr/share/locale/ko/LC_MESSAGES/webenginepart.mo
@@ -1654,10 +1683,12 @@ Web browser and file manager
 * /usr/share/locale/lv/LC_MESSAGES/khtmlsettingsplugin.mo
 * /usr/share/locale/lv/LC_MESSAGES/khtmltts.mo
 * /usr/share/locale/lv/LC_MESSAGES/kio6_bookmarks.mo
+* /usr/share/locale/lv/LC_MESSAGES/konqsidebar.mo
 * /usr/share/locale/lv/LC_MESSAGES/konqueror.mo
 * /usr/share/locale/lv/LC_MESSAGES/kshellcmdplugin.mo
 * /usr/share/locale/lv/LC_MESSAGES/libkonq.mo
 * /usr/share/locale/lv/LC_MESSAGES/searchbarplugin.mo
+* /usr/share/locale/lv/LC_MESSAGES/temporarysavedir.mo
 * /usr/share/locale/lv/LC_MESSAGES/uachangerplugin.mo
 * /usr/share/locale/lv/LC_MESSAGES/webarchiver.mo
 * /usr/share/locale/lv/LC_MESSAGES/webenginepart.mo
@@ -1865,6 +1896,7 @@ Web browser and file manager
 * /usr/share/locale/nl/LC_MESSAGES/kshellcmdplugin.mo
 * /usr/share/locale/nl/LC_MESSAGES/libkonq.mo
 * /usr/share/locale/nl/LC_MESSAGES/searchbarplugin.mo
+* /usr/share/locale/nl/LC_MESSAGES/temporarysavedir.mo
 * /usr/share/locale/nl/LC_MESSAGES/uachangerplugin.mo
 * /usr/share/locale/nl/LC_MESSAGES/webarchiver.mo
 * /usr/share/locale/nl/LC_MESSAGES/webenginepart.mo
@@ -1955,10 +1987,12 @@ Web browser and file manager
 * /usr/share/locale/pl/LC_MESSAGES/khtmlsettingsplugin.mo
 * /usr/share/locale/pl/LC_MESSAGES/khtmltts.mo
 * /usr/share/locale/pl/LC_MESSAGES/kio6_bookmarks.mo
+* /usr/share/locale/pl/LC_MESSAGES/konqsidebar.mo
 * /usr/share/locale/pl/LC_MESSAGES/konqueror.mo
 * /usr/share/locale/pl/LC_MESSAGES/kshellcmdplugin.mo
 * /usr/share/locale/pl/LC_MESSAGES/libkonq.mo
 * /usr/share/locale/pl/LC_MESSAGES/searchbarplugin.mo
+* /usr/share/locale/pl/LC_MESSAGES/temporarysavedir.mo
 * /usr/share/locale/pl/LC_MESSAGES/uachangerplugin.mo
 * /usr/share/locale/pl/LC_MESSAGES/webarchiver.mo
 * /usr/share/locale/pl/LC_MESSAGES/webenginepart.mo
@@ -2049,6 +2083,28 @@ Web browser and file manager
 * /usr/share/locale/ru/LC_MESSAGES/uachangerplugin.mo
 * /usr/share/locale/ru/LC_MESSAGES/webarchiver.mo
 * /usr/share/locale/ru/LC_MESSAGES/webenginepart.mo
+* /usr/share/locale/sa/LC_MESSAGES/akregator_konqplugin.mo
+* /usr/share/locale/sa/LC_MESSAGES/autorefresh.mo
+* /usr/share/locale/sa/LC_MESSAGES/babelfish.mo
+* /usr/share/locale/sa/LC_MESSAGES/dirfilterplugin.mo
+* /usr/share/locale/sa/LC_MESSAGES/fsview.mo
+* /usr/share/locale/sa/LC_MESSAGES/imgalleryplugin.mo
+* /usr/share/locale/sa/LC_MESSAGES/kcmbookmarks.mo
+* /usr/share/locale/sa/LC_MESSAGES/kcmkonq.mo
+* /usr/share/locale/sa/LC_MESSAGES/kcmkonqhtml.mo
+* /usr/share/locale/sa/LC_MESSAGES/kcmperformance.mo
+* /usr/share/locale/sa/LC_MESSAGES/kfmclient.mo
+* /usr/share/locale/sa/LC_MESSAGES/kgetplugin.mo
+* /usr/share/locale/sa/LC_MESSAGES/khtmlsettingsplugin.mo
+* /usr/share/locale/sa/LC_MESSAGES/khtmltts.mo
+* /usr/share/locale/sa/LC_MESSAGES/kio6_bookmarks.mo
+* /usr/share/locale/sa/LC_MESSAGES/konqueror.mo
+* /usr/share/locale/sa/LC_MESSAGES/kshellcmdplugin.mo
+* /usr/share/locale/sa/LC_MESSAGES/libkonq.mo
+* /usr/share/locale/sa/LC_MESSAGES/searchbarplugin.mo
+* /usr/share/locale/sa/LC_MESSAGES/uachangerplugin.mo
+* /usr/share/locale/sa/LC_MESSAGES/webarchiver.mo
+* /usr/share/locale/sa/LC_MESSAGES/webenginepart.mo
 * /usr/share/locale/se/LC_MESSAGES/akregator_konqplugin.mo
 * /usr/share/locale/se/LC_MESSAGES/autorefresh.mo
 * /usr/share/locale/se/LC_MESSAGES/babelfish.mo
@@ -2122,6 +2178,7 @@ Web browser and file manager
 * /usr/share/locale/sl/LC_MESSAGES/kshellcmdplugin.mo
 * /usr/share/locale/sl/LC_MESSAGES/libkonq.mo
 * /usr/share/locale/sl/LC_MESSAGES/searchbarplugin.mo
+* /usr/share/locale/sl/LC_MESSAGES/temporarysavedir.mo
 * /usr/share/locale/sl/LC_MESSAGES/uachangerplugin.mo
 * /usr/share/locale/sl/LC_MESSAGES/webarchiver.mo
 * /usr/share/locale/sl/LC_MESSAGES/webenginepart.mo
@@ -2247,6 +2304,7 @@ Web browser and file manager
 * /usr/share/locale/sv/LC_MESSAGES/kshellcmdplugin.mo
 * /usr/share/locale/sv/LC_MESSAGES/libkonq.mo
 * /usr/share/locale/sv/LC_MESSAGES/searchbarplugin.mo
+* /usr/share/locale/sv/LC_MESSAGES/temporarysavedir.mo
 * /usr/share/locale/sv/LC_MESSAGES/uachangerplugin.mo
 * /usr/share/locale/sv/LC_MESSAGES/webarchiver.mo
 * /usr/share/locale/sv/LC_MESSAGES/webenginepart.mo
@@ -2342,6 +2400,7 @@ Web browser and file manager
 * /usr/share/locale/tr/LC_MESSAGES/kshellcmdplugin.mo
 * /usr/share/locale/tr/LC_MESSAGES/libkonq.mo
 * /usr/share/locale/tr/LC_MESSAGES/searchbarplugin.mo
+* /usr/share/locale/tr/LC_MESSAGES/temporarysavedir.mo
 * /usr/share/locale/tr/LC_MESSAGES/uachangerplugin.mo
 * /usr/share/locale/tr/LC_MESSAGES/webarchiver.mo
 * /usr/share/locale/tr/LC_MESSAGES/webenginepart.mo
@@ -2386,6 +2445,7 @@ Web browser and file manager
 * /usr/share/locale/uk/LC_MESSAGES/kshellcmdplugin.mo
 * /usr/share/locale/uk/LC_MESSAGES/libkonq.mo
 * /usr/share/locale/uk/LC_MESSAGES/searchbarplugin.mo
+* /usr/share/locale/uk/LC_MESSAGES/temporarysavedir.mo
 * /usr/share/locale/uk/LC_MESSAGES/uachangerplugin.mo
 * /usr/share/locale/uk/LC_MESSAGES/webarchiver.mo
 * /usr/share/locale/uk/LC_MESSAGES/webenginepart.mo
@@ -2496,6 +2556,7 @@ Web browser and file manager
 * /usr/share/locale/zh_CN/LC_MESSAGES/kshellcmdplugin.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/libkonq.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/searchbarplugin.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/temporarysavedir.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/uachangerplugin.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/webarchiver.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/webenginepart.mo
@@ -2515,10 +2576,12 @@ Web browser and file manager
 * /usr/share/locale/zh_TW/LC_MESSAGES/khtmlsettingsplugin.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/khtmltts.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kio6_bookmarks.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/konqsidebar.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/konqueror.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kshellcmdplugin.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/libkonq.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/searchbarplugin.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/temporarysavedir.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/uachangerplugin.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/webarchiver.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/webenginepart.mo

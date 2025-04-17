@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kcalc 24.12.3-3"
-version = "24.12.3-3"
+title = "kcalc 25.04.0-1"
+version = "25.04.0-1"
 description = "A scientific calculator."
-date = "2025-04-05T19:47:21"
+date = "2025-04-17T20:56:35"
 aliases = "/packages/153201"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "673928"
-usize = "2993722"
-sha1sum = "e711216d9cbeee3b6ed284b79bbbba19951f66bc"
-depends = "['knotifications>=6.12.0', 'kxmlgui>=6.12.0']"
+size = "692944"
+usize = "3080249"
+sha1sum = "f1812da874d61099a028f91224f33112fcc8c07c"
+depends = "['knotifications>=6.13.0', 'kxmlgui>=6.13.0']"
 +++
 ### Description: 
 A scientific calculator.
@@ -74,8 +74,8 @@ A scientific calculator.
 * /usr/share/doc/HTML/uk/kcalc/commands.docbook
 * /usr/share/doc/HTML/uk/kcalc/index.cache.bz2
 * /usr/share/doc/HTML/uk/kcalc/index.docbook
-* /usr/share/doc/kcalc-24.12.3/ChangeLog
-* /usr/share/doc/kcalc-24.12.3/README.md
+* /usr/share/doc/kcalc-25.04.0/ChangeLog
+* /usr/share/doc/kcalc-25.04.0/README.md
 * /usr/share/kconf_update/kcalcrc.upd
 * /usr/share/kglobalaccel/org.kde.kcalc.desktop
 * /usr/share/locale/af/LC_MESSAGES/kcalc.mo
@@ -134,6 +134,7 @@ A scientific calculator.
 * /usr/share/locale/pt_BR/LC_MESSAGES/kcalc.mo
 * /usr/share/locale/ro/LC_MESSAGES/kcalc.mo
 * /usr/share/locale/ru/LC_MESSAGES/kcalc.mo
+* /usr/share/locale/sa/LC_MESSAGES/kcalc.mo
 * /usr/share/locale/se/LC_MESSAGES/kcalc.mo
 * /usr/share/locale/sk/LC_MESSAGES/kcalc.mo
 * /usr/share/locale/sl/LC_MESSAGES/kcalc.mo

@@ -1,26 +1,26 @@
 +++
 draft = false
-title = "kdebugsettings 24.12.3-3"
-version = "24.12.3-3"
+title = "kdebugsettings 25.04.0-1"
+version = "25.04.0-1"
 description = "An application to enable/disable qCDebug"
-date = "2025-04-05T19:49:33"
+date = "2025-04-17T21:00:16"
 aliases = "/packages/218293"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "151936"
-usize = "754469"
-sha1sum = "a2d4a9719b85d9958c0416e3bf89b86bb4b30e83"
-depends = "['kcompletion>=6.12.0', 'kcoreaddons>=6.12.0', 'kdbusaddons>=6.12.0', 'ki18n>=6.12.0', 'kitemviews>=6.12.0']"
+size = "155668"
+usize = "777840"
+sha1sum = "4943c4afcccec1bf23818b45cc48c2c708c1f87c"
+depends = "['kcompletion>=6.13.0', 'kcoreaddons>=6.13.0', 'kdbusaddons>=6.13.0', 'ki18n>=6.13.0', 'kitemviews>=6.13.0']"
 +++
 ### Description: 
 An application to enable/disable qCDebug
 
 ### Files: 
 * /usr/bin/kdebugsettings
-* /usr/lib/libkdebugsettings.so.24.12.3
+* /usr/lib/libkdebugsettings.so.25.04.0
 * /usr/lib/libkdebugsettings.so.6
-* /usr/lib/libkdebugsettingscore.so.24.12.3
+* /usr/lib/libkdebugsettingscore.so.25.04.0
 * /usr/lib/libkdebugsettingscore.so.6
 * /usr/share/applications/org.kde.kdebugsettings.desktop
 * /usr/share/kdebugsettings/groups/Full Debug Ruqola
@@ -42,6 +42,7 @@ An application to enable/disable qCDebug
 * /usr/share/locale/fr/LC_MESSAGES/kdebugsettings.mo
 * /usr/share/locale/gl/LC_MESSAGES/kdebugsettings.mo
 * /usr/share/locale/he/LC_MESSAGES/kdebugsettings.mo
+* /usr/share/locale/hi/LC_MESSAGES/kdebugsettings.mo
 * /usr/share/locale/hu/LC_MESSAGES/kdebugsettings.mo
 * /usr/share/locale/ia/LC_MESSAGES/kdebugsettings.mo
 * /usr/share/locale/it/LC_MESSAGES/kdebugsettings.mo
@@ -56,6 +57,7 @@ An application to enable/disable qCDebug
 * /usr/share/locale/pt_BR/LC_MESSAGES/kdebugsettings.mo
 * /usr/share/locale/ro/LC_MESSAGES/kdebugsettings.mo
 * /usr/share/locale/ru/LC_MESSAGES/kdebugsettings.mo
+* /usr/share/locale/sa/LC_MESSAGES/kdebugsettings.mo
 * /usr/share/locale/sk/LC_MESSAGES/kdebugsettings.mo
 * /usr/share/locale/sl/LC_MESSAGES/kdebugsettings.mo
 * /usr/share/locale/sr/LC_MESSAGES/kdebugsettings.mo

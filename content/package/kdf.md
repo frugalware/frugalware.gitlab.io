@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdf 24.12.3-3"
-version = "24.12.3-3"
+title = "kdf 25.04.0-1"
+version = "25.04.0-1"
 description = "KDiskFree displays the available file devices"
-date = "2025-04-05T19:51:45"
+date = "2025-04-17T21:03:42"
 aliases = "/packages/219331"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "617216"
-usize = "1347404"
-sha1sum = "0695c365f8fdf12cdf5c794faaccf4dc9a3d9dcb"
-depends = "['kcmutils>=6.12.0', 'kio>=6.12.0', 'kstatusnotifieritem>=6.12.0']"
+size = "620056"
+usize = "1360678"
+sha1sum = "3d5c1fc12266ccaa0bc054a969665bbecb33549a"
+depends = "['kcmutils>=6.13.0', 'kio>=6.13.0', 'kstatusnotifieritem>=6.13.0']"
 +++
 ### Description: 
 KDiskFree displays the available file devices
@@ -19,8 +19,8 @@ KDiskFree displays the available file devices
 ### Files: 
 * /usr/bin/kdf
 * /usr/bin/kwikdisk
-* /usr/lib/libkdfprivate.so.24
-* /usr/lib/libkdfprivate.so.24.12.3
+* /usr/lib/libkdfprivate.so.25
+* /usr/lib/libkdfprivate.so.25.04.0
 * /usr/lib/qt6/plugins/plasma/kcms/systemsettings_qwidgets/kcm_kdf.so
 * /usr/share/applications/kcm_kdf.desktop
 * /usr/share/applications/org.kde.kdf.desktop
@@ -179,6 +179,7 @@ KDiskFree displays the available file devices
 * /usr/share/locale/pt_BR/LC_MESSAGES/kdf.mo
 * /usr/share/locale/ro/LC_MESSAGES/kdf.mo
 * /usr/share/locale/ru/LC_MESSAGES/kdf.mo
+* /usr/share/locale/sa/LC_MESSAGES/kdf.mo
 * /usr/share/locale/se/LC_MESSAGES/kdf.mo
 * /usr/share/locale/sk/LC_MESSAGES/kdf.mo
 * /usr/share/locale/sl/LC_MESSAGES/kdf.mo

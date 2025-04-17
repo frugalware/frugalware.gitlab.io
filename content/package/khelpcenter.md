@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "khelpcenter 24.12.3-3"
-version = "24.12.3-3"
+title = "khelpcenter 25.04.0-1"
+version = "25.04.0-1"
 description = "Application to show KDE Applications documentation."
-date = "2025-04-05T19:38:04"
+date = "2025-04-17T20:41:39"
 aliases = "/packages/221317"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3650812"
-usize = "7052903"
-sha1sum = "469fdb8bbbeb8fcbcec86cee244b1ce458967a98"
-depends = "['kcmutils>=6.12.0', 'ktexttemplate>=6.12.0', 'qt6-webengine>=', 'xapian-core>=1.4.0-2']"
+size = "4462236"
+usize = "8166040"
+sha1sum = "94b9381c39f129f581e39a96bd08aeb14a345be1"
+depends = "['kcmutils>=6.13.0', 'ktexttemplate>=6.13.0', 'qt6-webengine>=', 'xapian-core>=1.4.0-2']"
 +++
 ### Description: 
 Application to show KDE Applications documentation.
@@ -224,6 +224,59 @@ Application to show KDE Applications documentation.
 * /usr/share/doc/HTML/pt_BR/khelpcenter/index.docbook
 * /usr/share/doc/HTML/pt_BR/onlinehelp/index.cache.bz2
 * /usr/share/doc/HTML/pt_BR/onlinehelp/index.docbook
+* /usr/share/doc/HTML/ru/fundamentals/colors.png
+* /usr/share/doc/HTML/ru/fundamentals/config.docbook
+* /usr/share/doc/HTML/ru/fundamentals/files-locationbar-breadcrumb.png
+* /usr/share/doc/HTML/ru/fundamentals/files-locationbar-context-menu.png
+* /usr/share/doc/HTML/ru/fundamentals/files-locationbar-editable.png
+* /usr/share/doc/HTML/ru/fundamentals/files-locationbar-places-icon.png
+* /usr/share/doc/HTML/ru/fundamentals/files-open.png
+* /usr/share/doc/HTML/ru/fundamentals/find-find-inline.png
+* /usr/share/doc/HTML/ru/fundamentals/find-find.png
+* /usr/share/doc/HTML/ru/fundamentals/find-found.png
+* /usr/share/doc/HTML/ru/fundamentals/find-replace-inline.png
+* /usr/share/doc/HTML/ru/fundamentals/find-replace.png
+* /usr/share/doc/HTML/ru/fundamentals/fonts.png
+* /usr/share/doc/HTML/ru/fundamentals/index.cache.bz2
+* /usr/share/doc/HTML/ru/fundamentals/index.docbook
+* /usr/share/doc/HTML/ru/fundamentals/install.docbook
+* /usr/share/doc/HTML/ru/fundamentals/menus.png
+* /usr/share/doc/HTML/ru/fundamentals/shortcuts-schemes.png
+* /usr/share/doc/HTML/ru/fundamentals/shortcuts-search.png
+* /usr/share/doc/HTML/ru/fundamentals/shortcuts-set.png
+* /usr/share/doc/HTML/ru/fundamentals/spellcheck-check.png
+* /usr/share/doc/HTML/ru/fundamentals/tasks.docbook
+* /usr/share/doc/HTML/ru/fundamentals/toolbars-configure.png
+* /usr/share/doc/HTML/ru/fundamentals/toolbars-toolbar.png
+* /usr/share/doc/HTML/ru/fundamentals/ui.docbook
+* /usr/share/doc/HTML/ru/fundamentals/visualdict-breadcrumb.png
+* /usr/share/doc/HTML/ru/fundamentals/visualdict-button.png
+* /usr/share/doc/HTML/ru/fundamentals/visualdict-central-widget.png
+* /usr/share/doc/HTML/ru/fundamentals/visualdict-color-selector.png
+* /usr/share/doc/HTML/ru/fundamentals/visualdict-combo-box.png
+* /usr/share/doc/HTML/ru/fundamentals/visualdict-context-menu.png
+* /usr/share/doc/HTML/ru/fundamentals/visualdict-dialog-box.png
+* /usr/share/doc/HTML/ru/fundamentals/visualdict-drop-down-box.png
+* /usr/share/doc/HTML/ru/fundamentals/visualdict-gui1.png
+* /usr/share/doc/HTML/ru/fundamentals/visualdict-gui2.png
+* /usr/share/doc/HTML/ru/fundamentals/visualdict-gui3.png
+* /usr/share/doc/HTML/ru/fundamentals/visualdict-icon-list.png
+* /usr/share/doc/HTML/ru/fundamentals/visualdict-icon.png
+* /usr/share/doc/HTML/ru/fundamentals/visualdict-menu-button.png
+* /usr/share/doc/HTML/ru/fundamentals/visualdict-menu.png
+* /usr/share/doc/HTML/ru/fundamentals/visualdict-menubar.png
+* /usr/share/doc/HTML/ru/fundamentals/visualdict-panel.png
+* /usr/share/doc/HTML/ru/fundamentals/visualdict-statusbar.png
+* /usr/share/doc/HTML/ru/fundamentals/visualdict-tab.png
+* /usr/share/doc/HTML/ru/fundamentals/visualdict-text-area.png
+* /usr/share/doc/HTML/ru/fundamentals/visualdict-text-box.png
+* /usr/share/doc/HTML/ru/fundamentals/visualdict-titlebar.png
+* /usr/share/doc/HTML/ru/fundamentals/visualdict-tree-view.png
+* /usr/share/doc/HTML/ru/fundamentals/visualdict-window.png
+* /usr/share/doc/HTML/ru/fundamentals/visualdict-window2.png
+* /usr/share/doc/HTML/ru/khelpcenter/glossary/index.cache.bz2
+* /usr/share/doc/HTML/ru/khelpcenter/glossary/index.docbook
+* /usr/share/doc/HTML/ru/khelpcenter/glossary/kdeprintingglossary.docbook
 * /usr/share/doc/HTML/ru/khelpcenter/index.cache.bz2
 * /usr/share/doc/HTML/ru/khelpcenter/index.docbook
 * /usr/share/doc/HTML/ru/onlinehelp/index.cache.bz2
@@ -301,7 +354,7 @@ Application to show KDE Applications documentation.
 * /usr/share/doc/HTML/uk/khelpcenter/index.docbook
 * /usr/share/doc/HTML/uk/onlinehelp/index.cache.bz2
 * /usr/share/doc/HTML/uk/onlinehelp/index.docbook
-* /usr/share/doc/khelpcenter-24.12.3/README.metadata
+* /usr/share/doc/khelpcenter-25.04.0/README.metadata
 * /usr/share/khelpcenter/glossary.xslt
 * /usr/share/khelpcenter/plugins/Applications/.directory
 * /usr/share/khelpcenter/plugins/fundamentals.desktop
@@ -394,6 +447,7 @@ Application to show KDE Applications documentation.
 * /usr/share/locale/pt_BR/LC_MESSAGES/khelpcenter6.mo
 * /usr/share/locale/ro/LC_MESSAGES/khelpcenter6.mo
 * /usr/share/locale/ru/LC_MESSAGES/khelpcenter6.mo
+* /usr/share/locale/sa/LC_MESSAGES/khelpcenter6.mo
 * /usr/share/locale/se/LC_MESSAGES/khelpcenter6.mo
 * /usr/share/locale/si/LC_MESSAGES/khelpcenter6.mo
 * /usr/share/locale/sk/LC_MESSAGES/khelpcenter6.mo

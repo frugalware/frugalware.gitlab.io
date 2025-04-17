@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "analitza 24.12.3-3"
-version = "24.12.3-3"
+title = "analitza 25.04.0-1"
+version = "25.04.0-1"
 description = "Shared Math libraries from Kalgebra."
-date = "2025-04-05T19:43:37"
+date = "2025-04-17T20:50:21"
 aliases = "/packages/152574"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "538160"
-usize = "2594930"
-sha1sum = "c8b9f062677fc150d3540aadcf75791b4ca67aa8"
+size = "547172"
+usize = "2658512"
+sha1sum = "eb3f003bf8b376e864b8ea220356e53aa3486139"
 depends = "['eigen>=3.2.9-3', 'qt6-5compat>=6.9.0', 'qt6-declarative>=6.9.0', 'qt6-svg>=6.9.0']"
 reverse_depends = "['cantor', 'kalgebra']"
 +++
@@ -83,10 +83,10 @@ Shared Math libraries from Kalgebra.
 * /usr/lib/qt6/qml/org/kde/analitza/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/analitza/libanalitzadeclarativeplugin.so
 * /usr/lib/qt6/qml/org/kde/analitza/qmldir
-* /usr/share/doc/analitza-24.12.3/COPYING
-* /usr/share/doc/analitza-24.12.3/COPYING.DOC
-* /usr/share/doc/analitza-24.12.3/COPYING.LIB
-* /usr/share/doc/analitza-24.12.3/TODO
+* /usr/share/doc/analitza-25.04.0/COPYING
+* /usr/share/doc/analitza-25.04.0/COPYING.DOC
+* /usr/share/doc/analitza-25.04.0/COPYING.LIB
+* /usr/share/doc/analitza-25.04.0/TODO
 * /usr/share/libanalitza/plots/3Ds.plots
 * /usr/share/libanalitza/plots/basic_curves.plots
 * /usr/share/libanalitza/plots/conics.plots
@@ -109,6 +109,7 @@ Shared Math libraries from Kalgebra.
 * /usr/share/locale/fr/LC_MESSAGES/analitza_qt.qm
 * /usr/share/locale/ga/LC_MESSAGES/analitza_qt.qm
 * /usr/share/locale/gl/LC_MESSAGES/analitza_qt.qm
+* /usr/share/locale/hi/LC_MESSAGES/analitza_qt.qm
 * /usr/share/locale/hu/LC_MESSAGES/analitza_qt.qm
 * /usr/share/locale/ia/LC_MESSAGES/analitza_qt.qm
 * /usr/share/locale/it/LC_MESSAGES/analitza_qt.qm
@@ -128,6 +129,7 @@ Shared Math libraries from Kalgebra.
 * /usr/share/locale/pt/LC_MESSAGES/analitza_qt.qm
 * /usr/share/locale/pt_BR/LC_MESSAGES/analitza_qt.qm
 * /usr/share/locale/ru/LC_MESSAGES/analitza_qt.qm
+* /usr/share/locale/sa/LC_MESSAGES/analitza_qt.qm
 * /usr/share/locale/se/LC_MESSAGES/analitza_qt.qm
 * /usr/share/locale/sk/LC_MESSAGES/analitza_qt.qm
 * /usr/share/locale/sl/LC_MESSAGES/analitza_qt.qm

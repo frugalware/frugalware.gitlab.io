@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "blinken 24.12.3-3"
-version = "24.12.3-3"
+title = "blinken 25.04.0-1"
+version = "25.04.0-1"
 description = "Memory Enhancement Game."
-date = "2025-04-05T19:40:06"
+date = "2025-04-17T20:44:49"
 aliases = "/packages/152822"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2307580"
-usize = "3192668"
-sha1sum = "78fedb26b204980f50c859bfb5dd86406d21ad4a"
-depends = "['kdeclarative>=6.12.0', 'knewstuff>=6.12.0']"
+size = "2309764"
+usize = "3113017"
+sha1sum = "465ca754a44221f8dacb2216b961b95367ba0ba8"
+depends = "['kdeclarative>=6.13.0', 'knewstuff>=6.13.0']"
 +++
 ### Description: 
 Memory Enhancement Game.
@@ -22,14 +22,9 @@ Memory Enhancement Game.
 * /usr/share/blinken/fonts/steve.ttf
 * /usr/share/blinken/images/blinken.svg
 * /usr/share/blinken/README.packagers
-* /usr/share/blinken/sounds/1.wav
-* /usr/share/blinken/sounds/2.wav
-* /usr/share/blinken/sounds/3.wav
-* /usr/share/blinken/sounds/4.wav
-* /usr/share/blinken/sounds/lose.wav
 * /usr/share/config.kcfg/blinken.kcfg
-* /usr/share/doc/blinken-24.12.3/AUTHORS
-* /usr/share/doc/blinken-24.12.3/README.packagers
+* /usr/share/doc/blinken-25.04.0/AUTHORS
+* /usr/share/doc/blinken-25.04.0/README.packagers
 * /usr/share/doc/HTML/ca/blinken/blinken1.png
 * /usr/share/doc/HTML/ca/blinken/blinken2.png
 * /usr/share/doc/HTML/ca/blinken/blinken_accesskeys.png
@@ -153,6 +148,7 @@ Memory Enhancement Game.
 * /usr/share/locale/pt_BR/LC_MESSAGES/blinken.mo
 * /usr/share/locale/ro/LC_MESSAGES/blinken.mo
 * /usr/share/locale/ru/LC_MESSAGES/blinken.mo
+* /usr/share/locale/sa/LC_MESSAGES/blinken.mo
 * /usr/share/locale/se/LC_MESSAGES/blinken.mo
 * /usr/share/locale/si/LC_MESSAGES/blinken.mo
 * /usr/share/locale/sk/LC_MESSAGES/blinken.mo

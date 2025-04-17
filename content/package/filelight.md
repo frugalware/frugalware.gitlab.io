@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "filelight 24.12.3-3"
-version = "24.12.3-3"
+title = "filelight 25.04.0-1"
+version = "25.04.0-1"
 description = "View disk usage information."
-date = "2025-04-05T19:42:27"
+date = "2025-04-17T20:48:30"
 aliases = "/packages/153203"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "757728"
-usize = "1519920"
-sha1sum = "5818a6261fd56e6b2de90f429ddcddb1c1671e01"
-depends = "['kdeclarative>=6.12.0', 'kirigami-addons', 'kparts>=6.12.0', 'qqc2-desktop-style>=6.12.0']"
+size = "758780"
+usize = "1528298"
+sha1sum = "df7843f7b708a1608a14ec221ae72f0afde51198"
+depends = "['kdeclarative>=6.13.0', 'kirigami-addons', 'kparts>=6.13.0', 'qqc2-desktop-style>=6.13.0']"
 +++
 ### Description: 
 View disk usage information.
@@ -20,9 +20,9 @@ View disk usage information.
 * /etc/xdg/filelightrc
 * /usr/bin/filelight
 * /usr/share/applications/org.kde.filelight.desktop
-* /usr/share/doc/filelight-24.12.3/AUTHORS
-* /usr/share/doc/filelight-24.12.3/README.md
-* /usr/share/doc/filelight-24.12.3/TODO
+* /usr/share/doc/filelight-25.04.0/AUTHORS
+* /usr/share/doc/filelight-25.04.0/README.md
+* /usr/share/doc/filelight-25.04.0/TODO
 * /usr/share/doc/HTML/ca/filelight/index.cache.bz2
 * /usr/share/doc/HTML/ca/filelight/index.docbook
 * /usr/share/doc/HTML/de/filelight/config_appear.png
@@ -96,6 +96,7 @@ View disk usage information.
 * /usr/share/locale/ga/LC_MESSAGES/filelight.mo
 * /usr/share/locale/gl/LC_MESSAGES/filelight.mo
 * /usr/share/locale/he/LC_MESSAGES/filelight.mo
+* /usr/share/locale/hi/LC_MESSAGES/filelight.mo
 * /usr/share/locale/hu/LC_MESSAGES/filelight.mo
 * /usr/share/locale/ia/LC_MESSAGES/filelight.mo
 * /usr/share/locale/id/LC_MESSAGES/filelight.mo
@@ -119,6 +120,7 @@ View disk usage information.
 * /usr/share/locale/pt_BR/LC_MESSAGES/filelight.mo
 * /usr/share/locale/ro/LC_MESSAGES/filelight.mo
 * /usr/share/locale/ru/LC_MESSAGES/filelight.mo
+* /usr/share/locale/sa/LC_MESSAGES/filelight.mo
 * /usr/share/locale/sk/LC_MESSAGES/filelight.mo
 * /usr/share/locale/sl/LC_MESSAGES/filelight.mo
 * /usr/share/locale/sr/LC_MESSAGES/filelight.mo

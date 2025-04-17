@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "dragon 24.12.3-3"
-version = "24.12.3-3"
+title = "dragon 25.04.0-1"
+version = "25.04.0-1"
 description = "KDE Video Player."
-date = "2025-04-05T19:40:56"
+date = "2025-04-17T20:46:04"
 aliases = "/packages/168469"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1934480"
-usize = "2776059"
-sha1sum = "3b8fd5230f489655d68fe4a160da314072cd521a"
-depends = "['kparts>=6.12.0']"
+size = "1902528"
+usize = "2766518"
+sha1sum = "c6a0aeae8a1cad4319c739f38b5e338cd249c327"
+depends = "['kparts>=6.13.0']"
 +++
 ### Description: 
 KDE Video Player.
@@ -108,6 +108,7 @@ KDE Video Player.
 * /usr/share/locale/ga/LC_MESSAGES/dragonplayer.mo
 * /usr/share/locale/gl/LC_MESSAGES/dragonplayer.mo
 * /usr/share/locale/he/LC_MESSAGES/dragonplayer.mo
+* /usr/share/locale/hi/LC_MESSAGES/dragonplayer.mo
 * /usr/share/locale/hr/LC_MESSAGES/dragonplayer.mo
 * /usr/share/locale/hu/LC_MESSAGES/dragonplayer.mo
 * /usr/share/locale/ia/LC_MESSAGES/dragonplayer.mo
@@ -134,6 +135,7 @@ KDE Video Player.
 * /usr/share/locale/pt_BR/LC_MESSAGES/dragonplayer.mo
 * /usr/share/locale/ro/LC_MESSAGES/dragonplayer.mo
 * /usr/share/locale/ru/LC_MESSAGES/dragonplayer.mo
+* /usr/share/locale/sa/LC_MESSAGES/dragonplayer.mo
 * /usr/share/locale/sk/LC_MESSAGES/dragonplayer.mo
 * /usr/share/locale/sl/LC_MESSAGES/dragonplayer.mo
 * /usr/share/locale/sq/LC_MESSAGES/dragonplayer.mo
