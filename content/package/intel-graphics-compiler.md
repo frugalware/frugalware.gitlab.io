@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "intel-graphics-compiler 2.8.3-1"
-version = "2.8.3-1"
+title = "intel-graphics-compiler 2.10.8-1"
+version = "2.10.8-1"
 description = "Intel Graphics Compiler for OpenCL"
-date = "2025-04-02T17:19:33"
+date = "2025-04-17T09:27:54"
 aliases = "/packages/220084"
 categories = ['devel']
 upstreamurl = "https://github.com/intel/intel-graphics-compiler"
 arch = "x86_64"
-size = "68125112"
-usize = "247621498"
-sha1sum = "68d385f140d33d22b3ed26919c30ec51fb0166f6"
+size = "68006164"
+usize = "247718164"
+sha1sum = "5fbd64d82b1789e82ffaca9c19b42087939400b9"
 depends = "['libxml2']"
 reverse_depends = "['intel-compute-runtime']"
 +++
@@ -123,14 +123,14 @@ Intel Graphics Compiler for OpenCL
 * /usr/include/visa/RelocationInfo.h
 * /usr/lib/igc2/NOTICES.txt
 * /usr/lib/libiga64.so.2
-* /usr/lib/libiga64.so.2.8.0+0
+* /usr/lib/libiga64.so.2.10.0+0
 * /usr/lib/libigc.so.2
-* /usr/lib/libigc.so.2.8.0+0
+* /usr/lib/libigc.so.2.10.0+0
 * /usr/lib/libigdfcl.so.2
-* /usr/lib/libigdfcl.so.2.8.0+0
+* /usr/lib/libigdfcl.so.2.10.0+0
 * /usr/lib/libopencl-clang.so.14
 * /usr/lib/pkgconfig/igc-opencl.pc
-* /usr/share/doc/intel-graphics-compiler-2.8.3/CHANGES
-* /usr/share/doc/intel-graphics-compiler-2.8.3/LICENSE
-* /usr/share/doc/intel-graphics-compiler-2.8.3/README.md
-* /usr/share/doc/intel-graphics-compiler-2.8.3/Readme.md
+* /usr/share/doc/intel-graphics-compiler-2.10.8/CHANGES
+* /usr/share/doc/intel-graphics-compiler-2.10.8/LICENSE
+* /usr/share/doc/intel-graphics-compiler-2.10.8/README.md
+* /usr/share/doc/intel-graphics-compiler-2.10.8/Readme.md
