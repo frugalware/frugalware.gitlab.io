@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kmail-account-wizard 24.12.3-3"
-version = "24.12.3-3"
+title = "kmail-account-wizard 25.04.0-1"
+version = "25.04.0-1"
 description = "Assistant for KMail accounts configuration"
-date = "2025-04-05T21:27:06"
+date = "2025-04-18T11:14:31"
 aliases = "/packages/218935"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "148160"
-usize = "635459"
-sha1sum = "e2a70147be4b163c4103b79bdb16c9f56a08ebb4"
-depends = "['kidentitymanagement>=24.12.3', 'kmailtransport>=24.12.3', 'knewstuff>=6.12.0', 'knotifyconfig>=6.12.0', 'ktexteditor>=6.12.0', 'libkdepim>=24.12.3', 'libkleo>=24.12.3', 'mailcommon>=24.12.3']"
+size = "151988"
+usize = "657305"
+sha1sum = "72edc1ff50c13aadfa899899f62c24b39f496f3b"
+depends = "['kidentitymanagement>=25.04.0', 'kmailtransport>=25.04.0', 'knewstuff>=6.13.0', 'knotifyconfig>=6.13.0', 'ktexteditor>=6.13.0', 'libkdepim>=25.04.0', 'libkleo>=25.04.0', 'mailcommon>=25.04.0']"
 reverse_depends = "['kmail']"
 +++
 ### Description: 
@@ -41,6 +41,7 @@ Assistant for KMail accounts configuration
 * /usr/share/locale/ga/LC_MESSAGES/accountwizard.mo
 * /usr/share/locale/gl/LC_MESSAGES/accountwizard.mo
 * /usr/share/locale/he/LC_MESSAGES/accountwizard.mo
+* /usr/share/locale/hi/LC_MESSAGES/accountwizard.mo
 * /usr/share/locale/hu/LC_MESSAGES/accountwizard.mo
 * /usr/share/locale/ia/LC_MESSAGES/accountwizard.mo
 * /usr/share/locale/it/LC_MESSAGES/accountwizard.mo
@@ -63,6 +64,7 @@ Assistant for KMail accounts configuration
 * /usr/share/locale/pt_BR/LC_MESSAGES/accountwizard.mo
 * /usr/share/locale/ro/LC_MESSAGES/accountwizard.mo
 * /usr/share/locale/ru/LC_MESSAGES/accountwizard.mo
+* /usr/share/locale/sa/LC_MESSAGES/accountwizard.mo
 * /usr/share/locale/se/LC_MESSAGES/accountwizard.mo
 * /usr/share/locale/sk/LC_MESSAGES/accountwizard.mo
 * /usr/share/locale/sl/LC_MESSAGES/accountwizard.mo
