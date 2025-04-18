@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdenlive 25.04.0-1"
-version = "25.04.0-1"
+title = "kdenlive 25.04.0-2"
+version = "25.04.0-2"
 description = "A non-linear video editor for Linux using the MLT video framework"
-date = "2025-04-18T17:11:16"
+date = "2025-04-18T19:43:28"
 aliases = "/packages/218299"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "20509372"
-usize = "90251303"
-sha1sum = "0ad74db651233c9a3eb748879be233ea5379de37"
-depends = "['kfilemetadata>=6.13.0', 'knewstuff>=6.13.0', 'knotifyconfig>=6.13.0', 'kplotting>=6.13.0', 'mlt>=7.14.0', 'mlt-qt>=7.14.0', 'mlt-sdl>=7.14.0', 'purpose>=6.13.0', 'qt6-declarative>=6.9.0', 'qt6-networkauth>=6.9.0', 'qt6-svg>=6.9.0', 'qt6-webengine>=6.9.0']"
+size = "14966624"
+usize = "78722597"
+sha1sum = "2b48f8feaf3bb6071f8d87387482068be9cad66e"
+depends = "['kfilemetadata>=6.13.0', 'knewstuff>=6.13.0', 'knotifyconfig>=6.13.0', 'kplotting>=6.13.0', 'mlt>=7.14.0', 'mlt-qt>=7.14.0', 'mlt-sdl>=7.14.0', 'opentimelineio', 'purpose>=6.13.0', 'qt6-declarative>=6.9.0', 'qt6-networkauth>=6.9.0', 'qt6-svg>=6.9.0', 'qt6-webengine>=6.9.0']"
 +++
 ### Description: 
 A non-linear video editor for Linux using the MLT video framework
@@ -19,90 +19,6 @@ A non-linear video editor for Linux using the MLT video framework
 ### Files: 
 * /usr/bin/kdenlive
 * /usr/bin/kdenlive_render
-* /usr/include/Imath/half.h
-* /usr/include/Imath/halfFunction.h
-* /usr/include/Imath/halfLimits.h
-* /usr/include/Imath/ImathBox.h
-* /usr/include/Imath/ImathBoxAlgo.h
-* /usr/include/Imath/ImathColor.h
-* /usr/include/Imath/ImathColorAlgo.h
-* /usr/include/Imath/ImathConfig.h
-* /usr/include/Imath/ImathEuler.h
-* /usr/include/Imath/ImathExport.h
-* /usr/include/Imath/ImathForward.h
-* /usr/include/Imath/ImathFrame.h
-* /usr/include/Imath/ImathFrustum.h
-* /usr/include/Imath/ImathFrustumTest.h
-* /usr/include/Imath/ImathFun.h
-* /usr/include/Imath/ImathGL.h
-* /usr/include/Imath/ImathGLU.h
-* /usr/include/Imath/ImathInt64.h
-* /usr/include/Imath/ImathInterval.h
-* /usr/include/Imath/ImathLine.h
-* /usr/include/Imath/ImathLineAlgo.h
-* /usr/include/Imath/ImathMath.h
-* /usr/include/Imath/ImathMatrix.h
-* /usr/include/Imath/ImathMatrixAlgo.h
-* /usr/include/Imath/ImathNamespace.h
-* /usr/include/Imath/ImathPlane.h
-* /usr/include/Imath/ImathPlatform.h
-* /usr/include/Imath/ImathQuat.h
-* /usr/include/Imath/ImathRandom.h
-* /usr/include/Imath/ImathRoots.h
-* /usr/include/Imath/ImathShear.h
-* /usr/include/Imath/ImathSphere.h
-* /usr/include/Imath/ImathTypeTraits.h
-* /usr/include/Imath/ImathVec.h
-* /usr/include/Imath/ImathVecAlgo.h
-* /usr/include/opentime/errorStatus.h
-* /usr/include/opentime/rationalTime.h
-* /usr/include/opentime/stringPrintf.h
-* /usr/include/opentime/timeRange.h
-* /usr/include/opentime/timeTransform.h
-* /usr/include/opentime/version.h
-* /usr/include/opentimelineio/anyDictionary.h
-* /usr/include/opentimelineio/anyVector.h
-* /usr/include/opentimelineio/clip.h
-* /usr/include/opentimelineio/composable.h
-* /usr/include/opentimelineio/composition.h
-* /usr/include/opentimelineio/deserialization.h
-* /usr/include/opentimelineio/editAlgorithm.h
-* /usr/include/opentimelineio/effect.h
-* /usr/include/opentimelineio/errorStatus.h
-* /usr/include/opentimelineio/externalReference.h
-* /usr/include/opentimelineio/freezeFrame.h
-* /usr/include/opentimelineio/gap.h
-* /usr/include/opentimelineio/generatorReference.h
-* /usr/include/opentimelineio/imageSequenceReference.h
-* /usr/include/opentimelineio/item.h
-* /usr/include/opentimelineio/linearTimeWarp.h
-* /usr/include/opentimelineio/marker.h
-* /usr/include/opentimelineio/mediaReference.h
-* /usr/include/opentimelineio/missingReference.h
-* /usr/include/opentimelineio/safely_typed_any.h
-* /usr/include/opentimelineio/serializableCollection.h
-* /usr/include/opentimelineio/serializableObject.h
-* /usr/include/opentimelineio/serializableObjectWithMetadata.h
-* /usr/include/opentimelineio/serialization.h
-* /usr/include/opentimelineio/stack.h
-* /usr/include/opentimelineio/stackAlgorithm.h
-* /usr/include/opentimelineio/timeEffect.h
-* /usr/include/opentimelineio/timeline.h
-* /usr/include/opentimelineio/track.h
-* /usr/include/opentimelineio/trackAlgorithm.h
-* /usr/include/opentimelineio/transition.h
-* /usr/include/opentimelineio/typeRegistry.h
-* /usr/include/opentimelineio/unknownSchema.h
-* /usr/include/opentimelineio/vectorIndexing.h
-* /usr/include/opentimelineio/version.h
-* /usr/lib/cmake/Imath/ImathConfig.cmake
-* /usr/lib/cmake/Imath/ImathConfigVersion.cmake
-* /usr/lib/cmake/Imath/ImathTargets-release.cmake
-* /usr/lib/cmake/Imath/ImathTargets.cmake
-* /usr/lib/libImath-3_2.a
-* /usr/lib/libopentime.a
-* /usr/lib/libopentimelineio.a
-* /usr/lib/pkgconfig/Imath.pc
 * /usr/lib/qt6/plugins/kf6/thumbcreator/mltpreview.so
 * /usr/share/applications/org.kde.kdenlive.desktop
 * /usr/share/config.kcfg/kdenlivesettings.kcfg
@@ -788,10 +704,4 @@ A non-linear video editor for Linux using the MLT video framework
 * /usr/share/metainfo/org.kde.kdenlive.appdata.xml
 * /usr/share/mime/packages/org.kde.kdenlive.xml
 * /usr/share/mime/packages/westley.xml
-* /usr/share/opentime/OpenTimeConfig.cmake
-* /usr/share/opentime/OpenTimeTargets-release.cmake
-* /usr/share/opentime/OpenTimeTargets.cmake
-* /usr/share/opentimelineio/OpenTimelineIOConfig.cmake
-* /usr/share/opentimelineio/OpenTimelineIOTargets-release.cmake
-* /usr/share/opentimelineio/OpenTimelineIOTargets.cmake
 * /usr/share/qlogging-categories6/kdenlive.categories

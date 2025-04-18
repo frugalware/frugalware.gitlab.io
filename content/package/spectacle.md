@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "spectacle 24.12.3-3"
-version = "24.12.3-3"
+title = "spectacle 6.3.4-1"
+version = "6.3.4-1"
 description = "KDE screenshot capture utility"
-date = "2025-04-05T22:07:34"
+date = "2025-04-18T19:48:48"
 aliases = "/packages/218413"
-categories = ['kde6']
+categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1990660"
-usize = "5761466"
-sha1sum = "6183261093ef2f01f27c388c23e2f093f53a3a1a"
-depends = "['kdeclarative>=6.12.0', 'kio>=6.12.0', 'knewstuff>=6.12.0', 'kpipewire>=6.3.4', 'kscreen>=6.3.4', 'kstatusnotifieritem>=6.12.0', 'openblas', 'opencv>=4.11.0', 'prison>=6.12.0zxing-cpp', 'purpose>=6.12.0', 'xcb-util-cursor']"
+size = "2054752"
+usize = "6128654"
+sha1sum = "1f4a566c087cc6f64c55e5a36ad5e6d831267e10"
+depends = "['kdeclarative>=6.13.0', 'kio>=6.13.0', 'knewstuff>=6.13.0', 'kpipewire>=6.3.4', 'kscreen>=6.3.4', 'kstatusnotifieritem>=6.13.0', 'openblas', 'opencv>=4.11.0', 'prison>=6.13.0zxing-cpp', 'purpose>=6.13.0', 'xcb-util-cursor']"
 +++
 ### Description: 
 KDE screenshot capture utility
@@ -69,7 +69,7 @@ KDE screenshot capture utility
 * /usr/share/doc/HTML/uk/spectacle/index.docbook
 * /usr/share/doc/HTML/uk/spectacle/MainWindow.png
 * /usr/share/doc/HTML/uk/spectacle/SaveOptions.png
-* /usr/share/doc/spectacle-24.12.3/README.md
+* /usr/share/doc/spectacle-6.3.4/README.md
 * /usr/share/icons/hicolor/scalable/apps/spectacle.svg
 * /usr/share/kconf_update/spectacle.upd
 * /usr/share/kglobalaccel/org.kde.spectacle.desktop
@@ -93,6 +93,7 @@ KDE screenshot capture utility
 * /usr/share/locale/fr/LC_MESSAGES/spectacle.mo
 * /usr/share/locale/gl/LC_MESSAGES/spectacle.mo
 * /usr/share/locale/he/LC_MESSAGES/spectacle.mo
+* /usr/share/locale/hi/LC_MESSAGES/spectacle.mo
 * /usr/share/locale/hsb/LC_MESSAGES/spectacle.mo
 * /usr/share/locale/hu/LC_MESSAGES/spectacle.mo
 * /usr/share/locale/ia/LC_MESSAGES/spectacle.mo
@@ -114,6 +115,7 @@ KDE screenshot capture utility
 * /usr/share/locale/pt_BR/LC_MESSAGES/spectacle.mo
 * /usr/share/locale/ro/LC_MESSAGES/spectacle.mo
 * /usr/share/locale/ru/LC_MESSAGES/spectacle.mo
+* /usr/share/locale/sa/LC_MESSAGES/spectacle.mo
 * /usr/share/locale/sk/LC_MESSAGES/spectacle.mo
 * /usr/share/locale/sl/LC_MESSAGES/spectacle.mo
 * /usr/share/locale/sr/LC_MESSAGES/spectacle.mo

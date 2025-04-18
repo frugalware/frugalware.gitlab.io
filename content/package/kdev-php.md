@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kdev-php 24.12.3-3"
-version = "24.12.3-3"
+title = "kdev-php 25.04.0-1"
+version = "25.04.0-1"
 description = "PHP Language Plugin for KDevelop"
-date = "2025-04-06T20:08:19"
+date = "2025-04-18T20:00:05"
 aliases = "/packages/220975"
 categories = ['devel-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1306260"
-usize = "8239113"
-sha1sum = "d842b78ee0839917c5375fa17c08163090c9b57f"
+size = "1310604"
+usize = "8272358"
+sha1sum = "80d0d9991c358b9aaa091915dfe136ec6d2ea661"
 depends = "['kdevelop', 'php']"
 +++
 ### Description: 
@@ -37,12 +37,12 @@ PHP Language Plugin for KDevelop
 * /usr/lib/libkdevphpcompletion.so
 * /usr/lib/libkdevphpduchain.so
 * /usr/lib/libkdevphpparser.so
-* /usr/lib/qt6/plugins/kdevplatform/61/kdevphpdocs.so
-* /usr/lib/qt6/plugins/kdevplatform/61/kdevphplanguagesupport.so
-* /usr/lib/qt6/plugins/kdevplatform/61/kdevphpunitprovider.so
-* /usr/share/doc/kdev-php-24.12.3/AUTHORS
-* /usr/share/doc/kdev-php-24.12.3/HACKING
-* /usr/share/doc/kdev-php-24.12.3/TODO
+* /usr/lib/qt6/plugins/kdevplatform/62/kdevphpdocs.so
+* /usr/lib/qt6/plugins/kdevplatform/62/kdevphplanguagesupport.so
+* /usr/lib/qt6/plugins/kdevplatform/62/kdevphpunitprovider.so
+* /usr/share/doc/kdev-php-25.04.0/AUTHORS
+* /usr/share/doc/kdev-php-25.04.0/HACKING
+* /usr/share/doc/kdev-php-25.04.0/TODO
 * /usr/share/kdevappwizard/templates/simple_phpapp.tar.bz2
 * /usr/share/kdevphpsupport/phpfunctions.php
 * /usr/share/kdevphpsupport/phpunitdeclarations.php
@@ -63,6 +63,7 @@ PHP Language Plugin for KDevelop
 * /usr/share/locale/ga/LC_MESSAGES/kdevphp.mo
 * /usr/share/locale/gl/LC_MESSAGES/kdevphp.mo
 * /usr/share/locale/he/LC_MESSAGES/kdevphp.mo
+* /usr/share/locale/hi/LC_MESSAGES/kdevphp.mo
 * /usr/share/locale/hr/LC_MESSAGES/kdevphp.mo
 * /usr/share/locale/hu/LC_MESSAGES/kdevphp.mo
 * /usr/share/locale/ia/LC_MESSAGES/kdevphp.mo
@@ -82,6 +83,7 @@ PHP Language Plugin for KDevelop
 * /usr/share/locale/pt_BR/LC_MESSAGES/kdevphp.mo
 * /usr/share/locale/ro/LC_MESSAGES/kdevphp.mo
 * /usr/share/locale/ru/LC_MESSAGES/kdevphp.mo
+* /usr/share/locale/sa/LC_MESSAGES/kdevphp.mo
 * /usr/share/locale/sk/LC_MESSAGES/kdevphp.mo
 * /usr/share/locale/sl/LC_MESSAGES/kdevphp.mo
 * /usr/share/locale/sv/LC_MESSAGES/kdevphp.mo

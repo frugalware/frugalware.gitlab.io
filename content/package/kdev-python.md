@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kdev-python 24.12.3-3"
-version = "24.12.3-3"
+title = "kdev-python 25.04.0-1"
+version = "25.04.0-1"
 description = "Python Language Plugin for KDevelop"
-date = "2025-04-06T20:09:32"
+date = "2025-04-18T19:58:13"
 aliases = "/packages/220976"
 categories = ['devel-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1272920"
-usize = "11661126"
-sha1sum = "c47f2ea2d9f1a93ecf8978ff7f97edba2af0c4f8"
+size = "1279136"
+usize = "11699509"
+sha1sum = "77b4e11f437ccc62590881044ab5f36543442d9f"
 depends = "['kdevelop', 'python3>=3.13']"
 +++
 ### Description: 
@@ -20,11 +20,11 @@ Python Language Plugin for KDevelop
 * /usr/lib/libkdevpythoncompletion.so
 * /usr/lib/libkdevpythonduchain.so
 * /usr/lib/libkdevpythonparser.so
-* /usr/lib/qt6/plugins/kdevplatform/61/kdevpdb.so
-* /usr/lib/qt6/plugins/kdevplatform/61/kdevpythonlanguagesupport.so
-* /usr/share/doc/kdev-python-24.12.3/INSTALL
-* /usr/share/doc/kdev-python-24.12.3/README
-* /usr/share/doc/kdev-python-24.12.3/README.packagers
+* /usr/lib/qt6/plugins/kdevplatform/62/kdevpdb.so
+* /usr/lib/qt6/plugins/kdevplatform/62/kdevpythonlanguagesupport.so
+* /usr/share/doc/kdev-python-25.04.0/INSTALL
+* /usr/share/doc/kdev-python-25.04.0/README
+* /usr/share/doc/kdev-python-25.04.0/README.packagers
 * /usr/share/kdevappwizard/templates/django_project.tar.bz2
 * /usr/share/kdevappwizard/templates/qtdesigner_app.tar.bz2
 * /usr/share/kdevappwizard/templates/simple_pythonapp.tar.bz2
@@ -182,6 +182,7 @@ Python Language Plugin for KDevelop
 * /usr/share/locale/ga/LC_MESSAGES/kdevpython.mo
 * /usr/share/locale/gl/LC_MESSAGES/kdevpython.mo
 * /usr/share/locale/he/LC_MESSAGES/kdevpython.mo
+* /usr/share/locale/hi/LC_MESSAGES/kdevpython.mo
 * /usr/share/locale/hu/LC_MESSAGES/kdevpython.mo
 * /usr/share/locale/ia/LC_MESSAGES/kdevpython.mo
 * /usr/share/locale/it/LC_MESSAGES/kdevpython.mo
@@ -200,6 +201,7 @@ Python Language Plugin for KDevelop
 * /usr/share/locale/pt_BR/LC_MESSAGES/kdevpython.mo
 * /usr/share/locale/ro/LC_MESSAGES/kdevpython.mo
 * /usr/share/locale/ru/LC_MESSAGES/kdevpython.mo
+* /usr/share/locale/sa/LC_MESSAGES/kdevpython.mo
 * /usr/share/locale/sk/LC_MESSAGES/kdevpython.mo
 * /usr/share/locale/sl/LC_MESSAGES/kdevpython.mo
 * /usr/share/locale/sv/LC_MESSAGES/kdevpython.mo

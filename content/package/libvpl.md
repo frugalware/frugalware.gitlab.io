@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libvpl 2.14.0-1"
-version = "2.14.0-1"
+title = "libvpl 2.15.0-1"
+version = "2.15.0-1"
 description = "Intel Video Processing Library"
-date = "2024-12-17T08:16:38"
+date = "2025-04-18T19:55:48"
 aliases = "/packages/221231"
 categories = ['lib']
 upstreamurl = "https://www.intel.com/content/www/us/en/developer/tools/vpl/overview.html"
 arch = "x86_64"
-size = "5639740"
-usize = "20159172"
-sha1sum = "2878e3dfa2572b3a0ed9603eb7361631992c0fc3"
+size = "5640252"
+usize = "20151594"
+sha1sum = "3962530ab211cf8c01c0333841a86daea1836c33"
 depends = "['libdrm', 'libva', 'wayland']"
 reverse_depends = "['ffmpeg']"
 +++
@@ -46,53 +46,47 @@ Intel Video Processing Library
 * /usr/lib/cmake/vpl/VPLConfigVersion.cmake
 * /usr/lib/libvpl.so
 * /usr/lib/libvpl.so.2
-* /usr/lib/libvpl.so.2.14
+* /usr/lib/libvpl.so.2.15
 * /usr/lib/pkgconfig/vpl.pc
-* /usr/share/doc/libvpl-2.14.0/INSTALL.md
-* /usr/share/doc/libvpl-2.14.0/LICENSE
-* /usr/share/doc/libvpl-2.14.0/README.md
+* /usr/share/doc/libvpl-2.15.0/INSTALL.md
+* /usr/share/doc/libvpl-2.15.0/LICENSE
+* /usr/share/doc/libvpl-2.15.0/README.md
+* /usr/share/doc/libvpl-2.15.0/README.md.license
 * /usr/share/vpl/examples/api1x_core/legacy-decode/CMakeLists.txt
-* /usr/share/vpl/examples/api1x_core/legacy-decode/docker/Dockerfile
 * /usr/share/vpl/examples/api1x_core/legacy-decode/License.txt
 * /usr/share/vpl/examples/api1x_core/legacy-decode/README.md
 * /usr/share/vpl/examples/api1x_core/legacy-decode/src/legacy-decode.cpp
 * /usr/share/vpl/examples/api1x_core/legacy-decode/src/util.hpp
 * /usr/share/vpl/examples/api1x_core/legacy-encode/CMakeLists.txt
-* /usr/share/vpl/examples/api1x_core/legacy-encode/docker/Dockerfile
 * /usr/share/vpl/examples/api1x_core/legacy-encode/License.txt
 * /usr/share/vpl/examples/api1x_core/legacy-encode/PreLoad.cmake
 * /usr/share/vpl/examples/api1x_core/legacy-encode/README.md
 * /usr/share/vpl/examples/api1x_core/legacy-encode/src/legacy-encode.cpp
 * /usr/share/vpl/examples/api1x_core/legacy-encode/src/util.hpp
 * /usr/share/vpl/examples/api1x_core/legacy-vpp/CMakeLists.txt
-* /usr/share/vpl/examples/api1x_core/legacy-vpp/docker/Dockerfile
 * /usr/share/vpl/examples/api1x_core/legacy-vpp/License.txt
 * /usr/share/vpl/examples/api1x_core/legacy-vpp/README.md
 * /usr/share/vpl/examples/api1x_core/legacy-vpp/src/legacy-vpp.cpp
 * /usr/share/vpl/examples/api1x_core/legacy-vpp/src/util.hpp
 * /usr/share/vpl/examples/api2x/hello-decode/CMakeLists.txt
-* /usr/share/vpl/examples/api2x/hello-decode/docker/Dockerfile
 * /usr/share/vpl/examples/api2x/hello-decode/License.txt
 * /usr/share/vpl/examples/api2x/hello-decode/PreLoad.cmake
 * /usr/share/vpl/examples/api2x/hello-decode/README.md
 * /usr/share/vpl/examples/api2x/hello-decode/src/hello-decode.cpp
 * /usr/share/vpl/examples/api2x/hello-decode/src/util.hpp
 * /usr/share/vpl/examples/api2x/hello-decvpp/CMakeLists.txt
-* /usr/share/vpl/examples/api2x/hello-decvpp/docker/Dockerfile
 * /usr/share/vpl/examples/api2x/hello-decvpp/License.txt
 * /usr/share/vpl/examples/api2x/hello-decvpp/PreLoad.cmake
 * /usr/share/vpl/examples/api2x/hello-decvpp/README.md
 * /usr/share/vpl/examples/api2x/hello-decvpp/src/hello-decvpp.cpp
 * /usr/share/vpl/examples/api2x/hello-decvpp/src/util.hpp
 * /usr/share/vpl/examples/api2x/hello-encode-jpeg/CMakeLists.txt
-* /usr/share/vpl/examples/api2x/hello-encode-jpeg/docker/Dockerfile
 * /usr/share/vpl/examples/api2x/hello-encode-jpeg/License.txt
 * /usr/share/vpl/examples/api2x/hello-encode-jpeg/PreLoad.cmake
 * /usr/share/vpl/examples/api2x/hello-encode-jpeg/README.md
 * /usr/share/vpl/examples/api2x/hello-encode-jpeg/src/hello-encode-jpeg.cpp
 * /usr/share/vpl/examples/api2x/hello-encode-jpeg/src/util.hpp
 * /usr/share/vpl/examples/api2x/hello-encode/CMakeLists.txt
-* /usr/share/vpl/examples/api2x/hello-encode/docker/Dockerfile
 * /usr/share/vpl/examples/api2x/hello-encode/License.txt
 * /usr/share/vpl/examples/api2x/hello-encode/PreLoad.cmake
 * /usr/share/vpl/examples/api2x/hello-encode/README.md
@@ -109,13 +103,11 @@ Intel Video Processing Library
 * /usr/share/vpl/examples/api2x/hello-sharing-vaapi/src/hello-sharing-vaapi-export.cpp
 * /usr/share/vpl/examples/api2x/hello-sharing-vaapi/src/hello-sharing-vaapi-import.cpp
 * /usr/share/vpl/examples/api2x/hello-transcode/CMakeLists.txt
-* /usr/share/vpl/examples/api2x/hello-transcode/docker/Dockerfile
 * /usr/share/vpl/examples/api2x/hello-transcode/License.txt
 * /usr/share/vpl/examples/api2x/hello-transcode/README.md
 * /usr/share/vpl/examples/api2x/hello-transcode/src/hello-transcode.cpp
 * /usr/share/vpl/examples/api2x/hello-transcode/src/util.hpp
 * /usr/share/vpl/examples/api2x/hello-vpp/CMakeLists.txt
-* /usr/share/vpl/examples/api2x/hello-vpp/docker/Dockerfile
 * /usr/share/vpl/examples/api2x/hello-vpp/License.txt
 * /usr/share/vpl/examples/api2x/hello-vpp/PreLoad.cmake
 * /usr/share/vpl/examples/api2x/hello-vpp/README.md
@@ -130,7 +122,6 @@ Intel Video Processing Library
 * /usr/share/vpl/examples/content/cars_320x240.y8
 * /usr/share/vpl/examples/interop/vpl-infer/CMakeLists.txt
 * /usr/share/vpl/examples/interop/vpl-infer/CPPLINT.cfg
-* /usr/share/vpl/examples/interop/vpl-infer/docker/Dockerfile
 * /usr/share/vpl/examples/interop/vpl-infer/License.txt
 * /usr/share/vpl/examples/interop/vpl-infer/PreLoad.cmake
 * /usr/share/vpl/examples/interop/vpl-infer/README.md

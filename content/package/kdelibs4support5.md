@@ -12,7 +12,7 @@ size = "3315908"
 usize = "19195572"
 sha1sum = "39658eb60857298d33bf416d7e5537b092d8ea24"
 depends = "['kded5>=5.116.0', 'kdesignerplugin5>=5.116.0', 'kemoticons5>=5.116.0', 'kitemmodels5>=5.116.0', 'kparts5>=5.116.0', 'kunitconversion5>=5.116.0', 'libsm>=1.2.2-3', 'networkmanager>=1.4.0-2']"
-reverse_depends = "['kross-interpreters', 'qtcurve-qt5', 'step']"
+reverse_depends = "['qtcurve-qt5', 'step']"
 +++
 ### Description: 
 KDE4 Support.
