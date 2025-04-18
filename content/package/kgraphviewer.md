@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kgraphviewer 24.12.3-3"
-version = "24.12.3-3"
+title = "kgraphviewer 25.04.0-1"
+version = "25.04.0-1"
 description = "GraphViz dot graph viewer"
-date = "2025-04-06T11:10:01"
+date = "2025-04-18T18:25:55"
 aliases = "/packages/222504"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1347636"
-usize = "3084624"
-sha1sum = "332b251be716264849b070d8ceb5c99aebaeeef1"
-depends = "['graphviz', 'kparts>=6.12.0']"
+size = "1352464"
+usize = "3119919"
+sha1sum = "472145eaeda6c9612287ff80956b188859a5508e"
+depends = "['graphviz', 'kparts>=6.13.0']"
 reverse_depends = "['massif-visualizer']"
 +++
 ### Description: 
@@ -25,7 +25,7 @@ GraphViz dot graph viewer
 * /usr/lib/cmake/KGraphViewerPart/KGraphViewerPartTargets.cmake
 * /usr/lib/libkgraphviewer.so
 * /usr/lib/libkgraphviewer.so.0
-* /usr/lib/libkgraphviewer.so.2.5.24123
+* /usr/lib/libkgraphviewer.so.2.5.25040
 * /usr/lib/qt6/plugins/kf6/parts/kgraphviewerpart.so
 * /usr/share/applications/org.kde.kgraphviewer.desktop
 * /usr/share/config.kcfg/kgraphviewersettings.kcfg
@@ -98,13 +98,13 @@ GraphViz dot graph viewer
 * /usr/share/doc/HTML/sv/kgraphviewer/kgraphviewer-snap-zmin.png
 * /usr/share/doc/HTML/uk/kgraphviewer/index.cache.bz2
 * /usr/share/doc/HTML/uk/kgraphviewer/index.docbook
-* /usr/share/doc/kgraphviewer-24.12.3/AUTHORS
-* /usr/share/doc/kgraphviewer-24.12.3/ChangeLog
-* /usr/share/doc/kgraphviewer-24.12.3/COPYING
-* /usr/share/doc/kgraphviewer-24.12.3/COPYING.DOC
-* /usr/share/doc/kgraphviewer-24.12.3/INSTALL
-* /usr/share/doc/kgraphviewer-24.12.3/README
-* /usr/share/doc/kgraphviewer-24.12.3/TODO
+* /usr/share/doc/kgraphviewer-25.04.0/AUTHORS
+* /usr/share/doc/kgraphviewer-25.04.0/ChangeLog
+* /usr/share/doc/kgraphviewer-25.04.0/COPYING
+* /usr/share/doc/kgraphviewer-25.04.0/COPYING.DOC
+* /usr/share/doc/kgraphviewer-25.04.0/INSTALL
+* /usr/share/doc/kgraphviewer-25.04.0/README
+* /usr/share/doc/kgraphviewer-25.04.0/TODO
 * /usr/share/icons/hicolor/16x16/apps/kgraphviewer.png
 * /usr/share/icons/hicolor/32x32/apps/kgraphviewer.png
 * /usr/share/locale/ar/LC_MESSAGES/kgraphviewer.mo
@@ -152,6 +152,7 @@ GraphViz dot graph viewer
 * /usr/share/locale/pt_BR/LC_MESSAGES/kgraphviewer.mo
 * /usr/share/locale/ro/LC_MESSAGES/kgraphviewer.mo
 * /usr/share/locale/ru/LC_MESSAGES/kgraphviewer.mo
+* /usr/share/locale/sa/LC_MESSAGES/kgraphviewer.mo
 * /usr/share/locale/se/LC_MESSAGES/kgraphviewer.mo
 * /usr/share/locale/sk/LC_MESSAGES/kgraphviewer.mo
 * /usr/share/locale/sl/LC_MESSAGES/kgraphviewer.mo

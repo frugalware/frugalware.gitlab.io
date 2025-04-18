@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "massif-visualizer 24.12.3-3"
-version = "24.12.3-3"
+title = "massif-visualizer 25.04.0-1"
+version = "25.04.0-1"
 description = "Visualizer for Valgrind Massif data files"
-date = "2025-04-06T11:07:02"
+date = "2025-04-18T18:22:12"
 aliases = "/packages/222506"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "178016"
-usize = "753957"
-sha1sum = "de65f62074ddf7190ef3763e7329945d47be71ba"
+size = "182316"
+usize = "783077"
+sha1sum = "52d77c2776e5d4f6cb4561bfef6a6cfebe783563"
 depends = "['kdiagram', 'kgraphviewer>=']"
 +++
 ### Description: 
@@ -20,10 +20,10 @@ Visualizer for Valgrind Massif data files
 * /usr/bin/massif-visualizer
 * /usr/share/applications/org.kde.massif-visualizer.desktop
 * /usr/share/config.kcfg/massif-visualizer-settings.kcfg
-* /usr/share/doc/massif-visualizer-24.12.3/AUTHORS
-* /usr/share/doc/massif-visualizer-24.12.3/COPYING
-* /usr/share/doc/massif-visualizer-24.12.3/INSTALL
-* /usr/share/doc/massif-visualizer-24.12.3/README
+* /usr/share/doc/massif-visualizer-25.04.0/AUTHORS
+* /usr/share/doc/massif-visualizer-25.04.0/COPYING
+* /usr/share/doc/massif-visualizer-25.04.0/INSTALL
+* /usr/share/doc/massif-visualizer-25.04.0/README
 * /usr/share/icons/hicolor/scalable/apps/massif-visualizer.svg
 * /usr/share/locale/bg/LC_MESSAGES/massif-visualizer.mo
 * /usr/share/locale/bs/LC_MESSAGES/massif-visualizer.mo
@@ -43,6 +43,7 @@ Visualizer for Valgrind Massif data files
 * /usr/share/locale/ga/LC_MESSAGES/massif-visualizer.mo
 * /usr/share/locale/gl/LC_MESSAGES/massif-visualizer.mo
 * /usr/share/locale/he/LC_MESSAGES/massif-visualizer.mo
+* /usr/share/locale/hi/LC_MESSAGES/massif-visualizer.mo
 * /usr/share/locale/hu/LC_MESSAGES/massif-visualizer.mo
 * /usr/share/locale/ia/LC_MESSAGES/massif-visualizer.mo
 * /usr/share/locale/is/LC_MESSAGES/massif-visualizer.mo
@@ -61,6 +62,7 @@ Visualizer for Valgrind Massif data files
 * /usr/share/locale/pt/LC_MESSAGES/massif-visualizer.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/massif-visualizer.mo
 * /usr/share/locale/ru/LC_MESSAGES/massif-visualizer.mo
+* /usr/share/locale/sa/LC_MESSAGES/massif-visualizer.mo
 * /usr/share/locale/sk/LC_MESSAGES/massif-visualizer.mo
 * /usr/share/locale/sl/LC_MESSAGES/massif-visualizer.mo
 * /usr/share/locale/sv/LC_MESSAGES/massif-visualizer.mo

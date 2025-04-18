@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "itinerary 24.12.3-3"
-version = "24.12.3-3"
+title = "itinerary 25.04.0-1"
+version = "25.04.0-1"
 description = "Itinerary and boarding pass management application"
-date = "2025-04-06T11:09:06"
+date = "2025-04-18T18:24:39"
 aliases = "/packages/220318"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1256132"
-usize = "6276073"
-sha1sum = "fc871db2ae8cd4eacd5e8be6c17ff47cd6602109"
-depends = "['kfilemetadata>=6.12.0', 'khealthcertificate>=24.12.3', 'kirigami-addons', 'kitemmodels>=6.12.0', 'kitinerary>=24.12.3', 'kosmindoormap>=24.12.3', 'kunitconversion>=6.12.0', 'libquotient>=0.9.0', 'prison>=6.12.0', 'qqc2-desktop-style>=6.12.0', 'qt6-positioning>=6.9.0']"
+size = "1291420"
+usize = "6563942"
+sha1sum = "c5fd2a21ee1adc831ac83986e6bcc03ae4b5c378"
+depends = "['kfilemetadata>=6.13.0', 'khealthcertificate>=25.04.0', 'kirigami-addons', 'kitemmodels>=6.13.0', 'kitinerary>=25.04.0', 'kosmindoormap>=25.04.0', 'kunitconversion>=6.13.0', 'libquotient>=0.9.0', 'prison>=6.13.0', 'qqc2-desktop-style>=6.13.0', 'qt6-positioning>=6.9.0']"
 +++
 ### Description: 
 Itinerary and boarding pass management application
@@ -24,8 +24,8 @@ Itinerary and boarding pass management application
 * /usr/lib/qt6/qml/org/kde/solidextras/libsolidextrasqmlplugin.so
 * /usr/lib/qt6/qml/org/kde/solidextras/qmldir
 * /usr/share/applications/org.kde.itinerary.desktop
-* /usr/share/doc/itinerary-24.12.3/README.md
-* /usr/share/doc/itinerary-24.12.3/README.md.license
+* /usr/share/doc/itinerary-25.04.0/README.md
+* /usr/share/doc/itinerary-25.04.0/README.md.license
 * /usr/share/icons/hicolor/scalable/apps/org.kde.itinerary.svg
 * /usr/share/knotifications6/itinerary.notifyrc
 * /usr/share/locale/ar/LC_MESSAGES/kde-itinerary.mo
@@ -43,6 +43,7 @@ Itinerary and boarding pass management application
 * /usr/share/locale/fr/LC_MESSAGES/kde-itinerary.mo
 * /usr/share/locale/gl/LC_MESSAGES/kde-itinerary.mo
 * /usr/share/locale/he/LC_MESSAGES/kde-itinerary.mo
+* /usr/share/locale/hi/LC_MESSAGES/kde-itinerary.mo
 * /usr/share/locale/hu/LC_MESSAGES/kde-itinerary.mo
 * /usr/share/locale/ia/LC_MESSAGES/kde-itinerary.mo
 * /usr/share/locale/it/LC_MESSAGES/kde-itinerary.mo
@@ -55,6 +56,7 @@ Itinerary and boarding pass management application
 * /usr/share/locale/pt/LC_MESSAGES/kde-itinerary.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/kde-itinerary.mo
 * /usr/share/locale/ru/LC_MESSAGES/kde-itinerary.mo
+* /usr/share/locale/sa/LC_MESSAGES/kde-itinerary.mo
 * /usr/share/locale/sk/LC_MESSAGES/kde-itinerary.mo
 * /usr/share/locale/sl/LC_MESSAGES/kde-itinerary.mo
 * /usr/share/locale/sv/LC_MESSAGES/kde-itinerary.mo

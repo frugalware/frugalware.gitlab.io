@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kweathercore 24.12.3-3"
-version = "24.12.3-3"
+title = "kweathercore 25.04.0-1"
+version = "25.04.0-1"
 description = "Audio recorder for Plasma Mobile and other platforms"
-date = "2025-04-06T11:06:17"
+date = "2025-04-18T18:21:10"
 aliases = "/packages/220987"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "82724"
-usize = "379156"
-sha1sum = "dfc4b00c8e788e742b122654d15bff7ed58e9e23"
+size = "105128"
+usize = "515250"
+sha1sum = "5aa19476e65e9e99c6ba8b7d6838b204c2a1dab4"
 depends = "['kholidays', 'ki18n', 'qt6-location']"
 reverse_depends = "['kweather']"
 +++
@@ -57,10 +57,14 @@ Audio recorder for Plasma Mobile and other platforms
 * /usr/lib/cmake/KWeatherCore/KWeatherCoreTargets-release.cmake
 * /usr/lib/cmake/KWeatherCore/KWeatherCoreTargets.cmake
 * /usr/lib/libKWeatherCore.so
-* /usr/lib/libKWeatherCore.so.24.12.3
+* /usr/lib/libKWeatherCore.so.25.04.0
 * /usr/lib/libKWeatherCore.so.6
 * /usr/lib/qt6/mkspecs/modules/qt_KWeatherCore.pri
-* /usr/share/doc/kweathercore-24.12.3/README.md
+* /usr/lib/qt6/qml/org/kde/weathercore/kde-qmlmodule.version
+* /usr/lib/qt6/qml/org/kde/weathercore/kweathercoreqmlplugin.qmltypes
+* /usr/lib/qt6/qml/org/kde/weathercore/libkweathercoreqmlplugin.so
+* /usr/lib/qt6/qml/org/kde/weathercore/qmldir
+* /usr/share/doc/kweathercore-25.04.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/kweathercore6.mo
 * /usr/share/locale/ast/LC_MESSAGES/kweathercore6.mo
 * /usr/share/locale/az/LC_MESSAGES/kweathercore6.mo
@@ -88,6 +92,7 @@ Audio recorder for Plasma Mobile and other platforms
 * /usr/share/locale/ko/LC_MESSAGES/kweathercore6.mo
 * /usr/share/locale/lt/LC_MESSAGES/kweathercore6.mo
 * /usr/share/locale/lv/LC_MESSAGES/kweathercore6.mo
+* /usr/share/locale/nb/LC_MESSAGES/kweathercore6.mo
 * /usr/share/locale/nl/LC_MESSAGES/kweathercore6.mo
 * /usr/share/locale/nn/LC_MESSAGES/kweathercore6.mo
 * /usr/share/locale/pa/LC_MESSAGES/kweathercore6.mo
@@ -95,6 +100,7 @@ Audio recorder for Plasma Mobile and other platforms
 * /usr/share/locale/pt/LC_MESSAGES/kweathercore6.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/kweathercore6.mo
 * /usr/share/locale/ru/LC_MESSAGES/kweathercore6.mo
+* /usr/share/locale/sa/LC_MESSAGES/kweathercore6.mo
 * /usr/share/locale/sk/LC_MESSAGES/kweathercore6.mo
 * /usr/share/locale/sl/LC_MESSAGES/kweathercore6.mo
 * /usr/share/locale/sv/LC_MESSAGES/kweathercore6.mo

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kimagemapeditor 24.12.3-3"
-version = "24.12.3-3"
+title = "kimagemapeditor 25.04.0-1"
+version = "25.04.0-1"
 description = "KImageMapEditor is an HTML imagemap editor."
-date = "2025-04-06T11:05:00"
+date = "2025-04-18T18:19:16"
 aliases = "/packages/219525"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1165536"
-usize = "2197624"
-sha1sum = "a0156c9de178b28017c037619e861b1204b3a282"
-depends = "['kparts>=6.12.0', 'qt6-webengine>=6.9.0']"
+size = "1168728"
+usize = "2218172"
+sha1sum = "5a6994b4783202eae5d27c550238688719f264a5"
+depends = "['kparts>=6.13.0', 'qt6-webengine>=6.9.0']"
 +++
 ### Description: 
 KImageMapEditor is an HTML imagemap editor.
@@ -59,14 +59,14 @@ KImageMapEditor is an HTML imagemap editor.
 * /usr/share/doc/HTML/uk/kimagemapeditor/index.cache.bz2
 * /usr/share/doc/HTML/uk/kimagemapeditor/index.docbook
 * /usr/share/doc/HTML/uk/kimagemapeditor/mainwindow.png
-* /usr/share/doc/kimagemapeditor-24.12.3/AUTHORS
-* /usr/share/doc/kimagemapeditor-24.12.3/ChangeLog
-* /usr/share/doc/kimagemapeditor-24.12.3/COPYING
-* /usr/share/doc/kimagemapeditor-24.12.3/INSTALL
-* /usr/share/doc/kimagemapeditor-24.12.3/NEWS
-* /usr/share/doc/kimagemapeditor-24.12.3/README
-* /usr/share/doc/kimagemapeditor-24.12.3/TODO
-* /usr/share/doc/kimagemapeditor-24.12.3/VERSION
+* /usr/share/doc/kimagemapeditor-25.04.0/AUTHORS
+* /usr/share/doc/kimagemapeditor-25.04.0/ChangeLog
+* /usr/share/doc/kimagemapeditor-25.04.0/COPYING
+* /usr/share/doc/kimagemapeditor-25.04.0/INSTALL
+* /usr/share/doc/kimagemapeditor-25.04.0/NEWS
+* /usr/share/doc/kimagemapeditor-25.04.0/README
+* /usr/share/doc/kimagemapeditor-25.04.0/TODO
+* /usr/share/doc/kimagemapeditor-25.04.0/VERSION
 * /usr/share/icons/hicolor/128x128/apps/kimagemapeditor.png
 * /usr/share/icons/hicolor/16x16/apps/kimagemapeditor.png
 * /usr/share/icons/hicolor/22x22/actions/addpoint.png
@@ -138,6 +138,7 @@ KImageMapEditor is an HTML imagemap editor.
 * /usr/share/locale/pt_BR/LC_MESSAGES/kimagemapeditor.mo
 * /usr/share/locale/ro/LC_MESSAGES/kimagemapeditor.mo
 * /usr/share/locale/ru/LC_MESSAGES/kimagemapeditor.mo
+* /usr/share/locale/sa/LC_MESSAGES/kimagemapeditor.mo
 * /usr/share/locale/se/LC_MESSAGES/kimagemapeditor.mo
 * /usr/share/locale/sk/LC_MESSAGES/kimagemapeditor.mo
 * /usr/share/locale/sl/LC_MESSAGES/kimagemapeditor.mo

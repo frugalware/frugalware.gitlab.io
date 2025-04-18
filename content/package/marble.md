@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "marble 24.12.3-6"
-version = "24.12.3-6"
+title = "marble 25.04.0-1"
+version = "25.04.0-1"
 description = "Desc: Virtual Globe and World Atlas."
-date = "2025-04-07T08:52:43"
+date = "2025-04-18T18:36:32"
 aliases = "/packages/152838"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "37766040"
-usize = "62214892"
-sha1sum = "3fcb6d4f6478e7a0dea7e3daf1714f444f579a53"
+size = "37775068"
+usize = "62538680"
+sha1sum = "ccaa14709b9947d48a5fd06c9ffe348e6b10a6f6"
 depends = "['libmarble', 'qt6-location>=6.9.0', 'qt6-tools>=6.9.0']"
 +++
 ### Description: 
@@ -355,23 +355,11 @@ Desc: Virtual Globe and World Atlas.
 * /usr/share/doc/HTML/uk/marble/routing-6.png
 * /usr/share/doc/HTML/uk/marble/search-1.png
 * /usr/share/doc/HTML/uk/marble/search-2.png
-* /usr/share/doc/marble-24.12.3/ANNOUNCE
-* /usr/share/doc/marble-24.12.3/BUGS
-* /usr/share/doc/marble-24.12.3/ChangeLog
-* /usr/share/doc/marble-24.12.3/COPYING
-* /usr/share/doc/marble-24.12.3/COPYING.DOC
-* /usr/share/doc/marble-24.12.3/CREDITS
-* /usr/share/doc/marble-24.12.3/INSTALL
-* /usr/share/doc/marble-24.12.3/INSTALL.autoconf
-* /usr/share/doc/marble-24.12.3/INSTALL.cmake
-* /usr/share/doc/marble-24.12.3/INSTALL.Cygwin
-* /usr/share/doc/marble-24.12.3/INSTALL.MacOSX
-* /usr/share/doc/marble-24.12.3/INSTALL.Win32
-* /usr/share/doc/marble-24.12.3/NEWS
-* /usr/share/doc/marble-24.12.3/README
-* /usr/share/doc/marble-24.12.3/README.localization
-* /usr/share/doc/marble-24.12.3/README.md
-* /usr/share/doc/marble-24.12.3/RELEASE-NOTES
+* /usr/share/doc/marble-25.04.0/BUGS
+* /usr/share/doc/marble-25.04.0/ChangeLog
+* /usr/share/doc/marble-25.04.0/COPYING.DOC
+* /usr/share/doc/marble-25.04.0/CREDITS
+* /usr/share/doc/marble-25.04.0/README.md
 * /usr/share/icons/hicolor/128x128/apps/marble.png
 * /usr/share/icons/hicolor/16x16/apps/marble.png
 * /usr/share/icons/hicolor/22x22/apps/marble.png
@@ -510,9 +498,14 @@ Desc: Virtual Globe and World Atlas.
 * /usr/share/locale/he/LC_MESSAGES/marble.mo
 * /usr/share/locale/he/LC_MESSAGES/marble_qt.qm
 * /usr/share/locale/he/LC_MESSAGES/plasma_runner_marble.mo
+* /usr/share/locale/he/LC_MESSAGES/plasma_wallpaper_org.kde.plasma.worldmap.mo
+* /usr/share/locale/hi/LC_MESSAGES/marble-behaim.mo
 * /usr/share/locale/hi/LC_MESSAGES/marble-maps.mo
 * /usr/share/locale/hi/LC_MESSAGES/marble.mo
 * /usr/share/locale/hi/LC_MESSAGES/marble_qt.qm
+* /usr/share/locale/hi/LC_MESSAGES/plasma_applet_org.kde.plasma.worldclock.mo
+* /usr/share/locale/hi/LC_MESSAGES/plasma_runner_marble.mo
+* /usr/share/locale/hi/LC_MESSAGES/plasma_wallpaper_org.kde.plasma.worldmap.mo
 * /usr/share/locale/hne/LC_MESSAGES/marble.mo
 * /usr/share/locale/hr/LC_MESSAGES/marble-maps.mo
 * /usr/share/locale/hr/LC_MESSAGES/marble.mo
@@ -643,12 +636,20 @@ Desc: Virtual Globe and World Atlas.
 * /usr/share/locale/ro/LC_MESSAGES/marble.mo
 * /usr/share/locale/ro/LC_MESSAGES/marble_qt.qm
 * /usr/share/locale/ro/LC_MESSAGES/plasma_applet_org.kde.plasma.worldclock.mo
+* /usr/share/locale/ru/LC_MESSAGES/marble-behaim.mo
 * /usr/share/locale/ru/LC_MESSAGES/marble-maps.mo
 * /usr/share/locale/ru/LC_MESSAGES/marble.mo
 * /usr/share/locale/ru/LC_MESSAGES/marble_qt.qm
 * /usr/share/locale/ru/LC_MESSAGES/plasma_applet_org.kde.plasma.worldclock.mo
 * /usr/share/locale/ru/LC_MESSAGES/plasma_runner_marble.mo
 * /usr/share/locale/ru/LC_MESSAGES/plasma_wallpaper_org.kde.plasma.worldmap.mo
+* /usr/share/locale/sa/LC_MESSAGES/marble-behaim.mo
+* /usr/share/locale/sa/LC_MESSAGES/marble-maps.mo
+* /usr/share/locale/sa/LC_MESSAGES/marble.mo
+* /usr/share/locale/sa/LC_MESSAGES/marble_qt.qm
+* /usr/share/locale/sa/LC_MESSAGES/plasma_applet_org.kde.plasma.worldclock.mo
+* /usr/share/locale/sa/LC_MESSAGES/plasma_runner_marble.mo
+* /usr/share/locale/sa/LC_MESSAGES/plasma_wallpaper_org.kde.plasma.worldmap.mo
 * /usr/share/locale/se/LC_MESSAGES/marble-maps.mo
 * /usr/share/locale/se/LC_MESSAGES/marble.mo
 * /usr/share/locale/se/LC_MESSAGES/marble_qt.qm

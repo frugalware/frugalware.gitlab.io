@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "calligra 24.12.3-4"
-version = "24.12.3-4"
+title = "calligra 25.04.0-1"
+version = "25.04.0-1"
 description = "An integrated Office suite for KDE"
-date = "2025-04-06T14:35:11"
+date = "2025-04-18T18:52:37"
 aliases = "/packages/222602"
 categories = ['kde6-extra']
 upstreamurl = "https://www.calligra-suite.org"
 arch = "x86_64"
-size = "35957568"
-usize = "105302801"
-sha1sum = "f893771207069b362bd9259d902f60e608ad6925"
+size = "36088604"
+usize = "106279271"
+sha1sum = "aeeb85bbd70eb0e259417170fa524db578d11f33"
 depends = "['kcmutils>=', 'kio>=', 'knotifyconfig>=', 'poppler-qt6>=25.04.0', 'qtkeychain']"
 +++
 ### Description: 
@@ -26,80 +26,80 @@ An integrated Office suite for KDE
 * /usr/bin/calligrawords
 * /usr/bin/karbon
 * /usr/lib/libautocorrection.so
-* /usr/lib/libautocorrection.so.24.12.3
-* /usr/lib/libautocorrection.so.39
+* /usr/lib/libautocorrection.so.25.04.0
+* /usr/lib/libautocorrection.so.40
 * /usr/lib/libbasicflakes.so
-* /usr/lib/libbasicflakes.so.24.12.3
-* /usr/lib/libbasicflakes.so.39
+* /usr/lib/libbasicflakes.so.25.04.0
+* /usr/lib/libbasicflakes.so.40
 * /usr/lib/libcalligrastageprivate.so
-* /usr/lib/libcalligrastageprivate.so.24.12.3
-* /usr/lib/libcalligrastageprivate.so.39
+* /usr/lib/libcalligrastageprivate.so.25.04.0
+* /usr/lib/libcalligrastageprivate.so.40
 * /usr/lib/libflake.so
-* /usr/lib/libflake.so.24.12.3
-* /usr/lib/libflake.so.39
+* /usr/lib/libflake.so.25.04.0
+* /usr/lib/libflake.so.40
 * /usr/lib/libkarboncommon.so
-* /usr/lib/libkarboncommon.so.24.12.3
-* /usr/lib/libkarboncommon.so.39
+* /usr/lib/libkarboncommon.so.25.04.0
+* /usr/lib/libkarboncommon.so.40
 * /usr/lib/libkarbonui.so
-* /usr/lib/libkarbonui.so.24.12.3
-* /usr/lib/libkarbonui.so.39
+* /usr/lib/libkarbonui.so.25.04.0
+* /usr/lib/libkarbonui.so.40
 * /usr/lib/libkoformula.so
-* /usr/lib/libkoformula.so.24.12.3
-* /usr/lib/libkoformula.so.39
+* /usr/lib/libkoformula.so.25.04.0
+* /usr/lib/libkoformula.so.40
 * /usr/lib/libkomain.so
-* /usr/lib/libkomain.so.24.12.3
-* /usr/lib/libkomain.so.39
+* /usr/lib/libkomain.so.25.04.0
+* /usr/lib/libkomain.so.40
 * /usr/lib/libkomsooxml.so
-* /usr/lib/libkomsooxml.so.24.12.3
-* /usr/lib/libkomsooxml.so.39
+* /usr/lib/libkomsooxml.so.25.04.0
+* /usr/lib/libkomsooxml.so.40
 * /usr/lib/libkoodf.so
-* /usr/lib/libkoodf.so.24.12.3
-* /usr/lib/libkoodf.so.39
+* /usr/lib/libkoodf.so.25.04.0
+* /usr/lib/libkoodf.so.40
 * /usr/lib/libkoodf2.so
-* /usr/lib/libkoodf2.so.24.12.3
-* /usr/lib/libkoodf2.so.39
+* /usr/lib/libkoodf2.so.25.04.0
+* /usr/lib/libkoodf2.so.40
 * /usr/lib/libkoodfreader.so
-* /usr/lib/libkoodfreader.so.24.12.3
-* /usr/lib/libkoodfreader.so.39
+* /usr/lib/libkoodfreader.so.25.04.0
+* /usr/lib/libkoodfreader.so.40
 * /usr/lib/libkopageapp.so
-* /usr/lib/libkopageapp.so.24.12.3
-* /usr/lib/libkopageapp.so.39
+* /usr/lib/libkopageapp.so.25.04.0
+* /usr/lib/libkopageapp.so.40
 * /usr/lib/libkoplugin.so
-* /usr/lib/libkoplugin.so.24.12.3
-* /usr/lib/libkoplugin.so.39
+* /usr/lib/libkoplugin.so.25.04.0
+* /usr/lib/libkoplugin.so.40
 * /usr/lib/libkostore.so
-* /usr/lib/libkostore.so.24.12.3
-* /usr/lib/libkostore.so.39
+* /usr/lib/libkostore.so.25.04.0
+* /usr/lib/libkostore.so.40
 * /usr/lib/libkotext.so
-* /usr/lib/libkotext.so.24.12.3
-* /usr/lib/libkotext.so.39
+* /usr/lib/libkotext.so.25.04.0
+* /usr/lib/libkotext.so.40
 * /usr/lib/libkotextlayout.so
-* /usr/lib/libkotextlayout.so.24.12.3
-* /usr/lib/libkotextlayout.so.39
+* /usr/lib/libkotextlayout.so.25.04.0
+* /usr/lib/libkotextlayout.so.40
 * /usr/lib/libkovectorimage.so
-* /usr/lib/libkovectorimage.so.24.12.3
-* /usr/lib/libkovectorimage.so.39
+* /usr/lib/libkovectorimage.so.25.04.0
+* /usr/lib/libkovectorimage.so.40
 * /usr/lib/libkowidgets.so
-* /usr/lib/libkowidgets.so.24.12.3
-* /usr/lib/libkowidgets.so.39
+* /usr/lib/libkowidgets.so.25.04.0
+* /usr/lib/libkowidgets.so.40
 * /usr/lib/libkowidgetutils.so
-* /usr/lib/libkowidgetutils.so.24.12.3
-* /usr/lib/libkowidgetutils.so.39
+* /usr/lib/libkowidgetutils.so.25.04.0
+* /usr/lib/libkowidgetutils.so.40
 * /usr/lib/libkowv2.so
 * /usr/lib/libkowv2.so.9
 * /usr/lib/libkowv2.so.9.0.0
 * /usr/lib/libkundo2.so
-* /usr/lib/libkundo2.so.24.12.3
-* /usr/lib/libkundo2.so.39
+* /usr/lib/libkundo2.so.25.04.0
+* /usr/lib/libkundo2.so.40
 * /usr/lib/libpigmentcms.so
-* /usr/lib/libpigmentcms.so.24.12.3
-* /usr/lib/libpigmentcms.so.39
+* /usr/lib/libpigmentcms.so.25.04.0
+* /usr/lib/libpigmentcms.so.40
 * /usr/lib/libRtfReader.so
-* /usr/lib/libRtfReader.so.24.12.3
-* /usr/lib/libRtfReader.so.39
+* /usr/lib/libRtfReader.so.25.04.0
+* /usr/lib/libRtfReader.so.40
 * /usr/lib/libwordsprivate.so
-* /usr/lib/libwordsprivate.so.24.12.3
-* /usr/lib/libwordsprivate.so.39
+* /usr/lib/libwordsprivate.so.25.04.0
+* /usr/lib/libwordsprivate.so.40
 * /usr/lib/qt6/plugins/calligra/colorspaces/kolcmsengine.so
 * /usr/lib/qt6/plugins/calligra/dockers/calligra_docker_defaults.so
 * /usr/lib/qt6/plugins/calligra/dockers/calligra_docker_stencils.so
@@ -4509,13 +4509,13 @@ An integrated Office suite for KDE
 * /usr/share/color/icc/calligra/WideRGB-elle-V4-labl.icc
 * /usr/share/color/icc/calligra/WideRGB-elle-V4-srgbtrc.icc
 * /usr/share/color/icc/calligra/XYZ-D50-Identity-elle-V4.icc
-* /usr/share/doc/calligra-24.12.3/AUTHORS
-* /usr/share/doc/calligra-24.12.3/COPYING
-* /usr/share/doc/calligra-24.12.3/COPYING-CMAKE-SCRIPTS
-* /usr/share/doc/calligra-24.12.3/COPYING.DOC
-* /usr/share/doc/calligra-24.12.3/COPYING.LIB
-* /usr/share/doc/calligra-24.12.3/README.md
-* /usr/share/doc/calligra-24.12.3/README.PACKAGERS
+* /usr/share/doc/calligra-25.04.0/AUTHORS
+* /usr/share/doc/calligra-25.04.0/COPYING
+* /usr/share/doc/calligra-25.04.0/COPYING-CMAKE-SCRIPTS
+* /usr/share/doc/calligra-25.04.0/COPYING.DOC
+* /usr/share/doc/calligra-25.04.0/COPYING.LIB
+* /usr/share/doc/calligra-25.04.0/README.md
+* /usr/share/doc/calligra-25.04.0/README.PACKAGERS
 * /usr/share/doc/HTML/ca/calligra/index.cache.bz2
 * /usr/share/doc/HTML/ca/calligra/index.docbook
 * /usr/share/doc/HTML/ca/sheets/advanced.docbook
@@ -5954,18 +5954,36 @@ An integrated Office suite for KDE
 * /usr/share/locale/he/LC_MESSAGES/koconverter.mo
 * /usr/share/locale/he/LC_MESSAGES/okularGenerator_odp.mo
 * /usr/share/locale/he/LC_MESSAGES/okularGenerator_odt.mo
+* /usr/share/locale/hi/LC_MESSAGES/braindump.mo
+* /usr/share/locale/hi/LC_MESSAGES/calligra-defaulttools.mo
 * /usr/share/locale/hi/LC_MESSAGES/calligra-dockers.mo
+* /usr/share/locale/hi/LC_MESSAGES/calligra-opener.mo
 * /usr/share/locale/hi/LC_MESSAGES/calligra.mo
 * /usr/share/locale/hi/LC_MESSAGES/calligrafilters.mo
+* /usr/share/locale/hi/LC_MESSAGES/calligralauncher.mo
 * /usr/share/locale/hi/LC_MESSAGES/calligrasheets.mo
 * /usr/share/locale/hi/LC_MESSAGES/calligrasheets_calendar.mo
 * /usr/share/locale/hi/LC_MESSAGES/calligrasheets_solver.mo
 * /usr/share/locale/hi/LC_MESSAGES/calligrastage.mo
 * /usr/share/locale/hi/LC_MESSAGES/calligrawords.mo
+* /usr/share/locale/hi/LC_MESSAGES/calligra_semanticitem_contact.mo
+* /usr/share/locale/hi/LC_MESSAGES/calligra_semanticitem_event.mo
+* /usr/share/locale/hi/LC_MESSAGES/calligra_semanticitem_location.mo
+* /usr/share/locale/hi/LC_MESSAGES/calligra_shape_artistictext.mo
+* /usr/share/locale/hi/LC_MESSAGES/calligra_shape_chart.mo
+* /usr/share/locale/hi/LC_MESSAGES/calligra_shape_comment.mo
+* /usr/share/locale/hi/LC_MESSAGES/calligra_shape_formula.mo
 * /usr/share/locale/hi/LC_MESSAGES/calligra_shape_music.mo
 * /usr/share/locale/hi/LC_MESSAGES/calligra_shape_paths.mo
 * /usr/share/locale/hi/LC_MESSAGES/calligra_shape_picture.mo
+* /usr/share/locale/hi/LC_MESSAGES/calligra_shape_plugin.mo
+* /usr/share/locale/hi/LC_MESSAGES/calligra_shape_spreadsheet.mo
+* /usr/share/locale/hi/LC_MESSAGES/calligra_shape_template.mo
 * /usr/share/locale/hi/LC_MESSAGES/calligra_shape_text.mo
+* /usr/share/locale/hi/LC_MESSAGES/calligra_shape_threed.mo
+* /usr/share/locale/hi/LC_MESSAGES/calligra_shape_vector.mo
+* /usr/share/locale/hi/LC_MESSAGES/calligra_shape_video.mo
+* /usr/share/locale/hi/LC_MESSAGES/calligra_shape_webshape.mo
 * /usr/share/locale/hi/LC_MESSAGES/calligra_textediting_autocorrect.mo
 * /usr/share/locale/hi/LC_MESSAGES/calligra_textediting_changecase.mo
 * /usr/share/locale/hi/LC_MESSAGES/calligra_textediting_spellcheck.mo
@@ -5974,7 +5992,10 @@ An integrated Office suite for KDE
 * /usr/share/locale/hi/LC_MESSAGES/karbon.mo
 * /usr/share/locale/hi/LC_MESSAGES/KarbonFilterEffects.mo
 * /usr/share/locale/hi/LC_MESSAGES/KarbonTools.mo
+* /usr/share/locale/hi/LC_MESSAGES/kocolorspaces.mo
 * /usr/share/locale/hi/LC_MESSAGES/koconverter.mo
+* /usr/share/locale/hi/LC_MESSAGES/okularGenerator_odp.mo
+* /usr/share/locale/hi/LC_MESSAGES/okularGenerator_odt.mo
 * /usr/share/locale/hne/LC_MESSAGES/calligra-dockers.mo
 * /usr/share/locale/hne/LC_MESSAGES/calligra.mo
 * /usr/share/locale/hne/LC_MESSAGES/calligrafilters.mo
@@ -6883,6 +6904,48 @@ An integrated Office suite for KDE
 * /usr/share/locale/ru/LC_MESSAGES/koconverter.mo
 * /usr/share/locale/ru/LC_MESSAGES/okularGenerator_odp.mo
 * /usr/share/locale/ru/LC_MESSAGES/okularGenerator_odt.mo
+* /usr/share/locale/sa/LC_MESSAGES/braindump.mo
+* /usr/share/locale/sa/LC_MESSAGES/calligra-defaulttools.mo
+* /usr/share/locale/sa/LC_MESSAGES/calligra-dockers.mo
+* /usr/share/locale/sa/LC_MESSAGES/calligra-opener.mo
+* /usr/share/locale/sa/LC_MESSAGES/calligra.mo
+* /usr/share/locale/sa/LC_MESSAGES/calligrafilters.mo
+* /usr/share/locale/sa/LC_MESSAGES/calligralauncher.mo
+* /usr/share/locale/sa/LC_MESSAGES/calligrasheets.mo
+* /usr/share/locale/sa/LC_MESSAGES/calligrasheets_calendar.mo
+* /usr/share/locale/sa/LC_MESSAGES/calligrasheets_solver.mo
+* /usr/share/locale/sa/LC_MESSAGES/calligrastage.mo
+* /usr/share/locale/sa/LC_MESSAGES/calligrawords.mo
+* /usr/share/locale/sa/LC_MESSAGES/calligra_semanticitem_contact.mo
+* /usr/share/locale/sa/LC_MESSAGES/calligra_semanticitem_event.mo
+* /usr/share/locale/sa/LC_MESSAGES/calligra_semanticitem_location.mo
+* /usr/share/locale/sa/LC_MESSAGES/calligra_shape_artistictext.mo
+* /usr/share/locale/sa/LC_MESSAGES/calligra_shape_chart.mo
+* /usr/share/locale/sa/LC_MESSAGES/calligra_shape_comment.mo
+* /usr/share/locale/sa/LC_MESSAGES/calligra_shape_formula.mo
+* /usr/share/locale/sa/LC_MESSAGES/calligra_shape_music.mo
+* /usr/share/locale/sa/LC_MESSAGES/calligra_shape_paths.mo
+* /usr/share/locale/sa/LC_MESSAGES/calligra_shape_picture.mo
+* /usr/share/locale/sa/LC_MESSAGES/calligra_shape_plugin.mo
+* /usr/share/locale/sa/LC_MESSAGES/calligra_shape_spreadsheet.mo
+* /usr/share/locale/sa/LC_MESSAGES/calligra_shape_template.mo
+* /usr/share/locale/sa/LC_MESSAGES/calligra_shape_text.mo
+* /usr/share/locale/sa/LC_MESSAGES/calligra_shape_threed.mo
+* /usr/share/locale/sa/LC_MESSAGES/calligra_shape_vector.mo
+* /usr/share/locale/sa/LC_MESSAGES/calligra_shape_video.mo
+* /usr/share/locale/sa/LC_MESSAGES/calligra_shape_webshape.mo
+* /usr/share/locale/sa/LC_MESSAGES/calligra_textediting_autocorrect.mo
+* /usr/share/locale/sa/LC_MESSAGES/calligra_textediting_changecase.mo
+* /usr/share/locale/sa/LC_MESSAGES/calligra_textediting_spellcheck.mo
+* /usr/share/locale/sa/LC_MESSAGES/calligra_textediting_thesaurus.mo
+* /usr/share/locale/sa/LC_MESSAGES/calligra_textinlineobject_variables.mo
+* /usr/share/locale/sa/LC_MESSAGES/karbon.mo
+* /usr/share/locale/sa/LC_MESSAGES/KarbonFilterEffects.mo
+* /usr/share/locale/sa/LC_MESSAGES/KarbonTools.mo
+* /usr/share/locale/sa/LC_MESSAGES/kocolorspaces.mo
+* /usr/share/locale/sa/LC_MESSAGES/koconverter.mo
+* /usr/share/locale/sa/LC_MESSAGES/okularGenerator_odp.mo
+* /usr/share/locale/sa/LC_MESSAGES/okularGenerator_odt.mo
 * /usr/share/locale/se/LC_MESSAGES/calligra.mo
 * /usr/share/locale/se/LC_MESSAGES/calligrafilters.mo
 * /usr/share/locale/se/LC_MESSAGES/calligrasheets.mo
