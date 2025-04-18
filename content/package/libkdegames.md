@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libkdegames 24.12.3-3"
-version = "24.12.3-3"
+title = "libkdegames 25.04.0-1"
+version = "25.04.0-1"
 description = "Library for KDE games."
-date = "2025-04-05T20:25:56"
+date = "2025-04-18T08:10:10"
 aliases = "/packages/184209"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "9176880"
-usize = "10678822"
-sha1sum = "f6f380ad1aa12da41dbce2da1122be561bc0477f"
-depends = "['kdeclarative>=6.12.0', 'kdnssd>=6.12.0', 'knewstuff>=6.12.0', 'openal>=1.17.2-2', 'qt6-declarative>=6.9.0']"
+size = "9178644"
+usize = "10691252"
+sha1sum = "68b90efaf8dc19838738eb7dd2cc750d9f2cf1e7"
+depends = "['kdeclarative>=6.13.0', 'kdnssd>=6.13.0', 'knewstuff>=6.13.0', 'openal>=1.17.2-2', 'qt6-declarative>=6.9.0']"
 reverse_depends = "['bomber', 'bovo', 'granatier', 'kapman', 'katomic', 'kblackbox', 'kblocks', 'kbounce', 'kbreakout', 'kdiamond', 'kfourinline', 'kgoldrunner', 'kigo', 'killbots', 'kiriki', 'kjumpingcube', 'klettres', 'klickety', 'klines', 'kmahjongg', 'kmines', 'knavalbattle', 'knetwalk', 'knights', 'kolf', 'kollision', 'konquest', 'kpat', 'kreversi', 'kshisen', 'ksirk', 'ksnakeduel', 'kspaceduel', 'ksquares', 'ksudoku', 'kteatime', 'ktuberling', 'kubrick', 'kwordquiz', 'lskat', 'minuet', 'palapeli', 'picmi', 'skladnik']"
 +++
 ### Description: 
@@ -79,10 +79,10 @@ Library for KDE games.
 * /usr/lib/cmake/KDEGames6/KDEGames6Targets.cmake
 * /usr/lib/libKDEGames6.so
 * /usr/lib/libKDEGames6.so.6
-* /usr/lib/libKDEGames6.so.6.0.241203
+* /usr/lib/libKDEGames6.so.6.0.250400
 * /usr/lib/libKDEGames6Private.so
 * /usr/lib/libKDEGames6Private.so.6
-* /usr/lib/libKDEGames6Private.so.6.0.241203
+* /usr/lib/libKDEGames6Private.so.6.0.250400
 * /usr/lib/qt6/qml/org/kde/games/core/corebindingsplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/games/core/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/games/core/KGameItem.qml
@@ -143,8 +143,8 @@ Library for KDE games.
 * /usr/share/carddecks/svg-xskat-german/COPYRIGHT
 * /usr/share/carddecks/svg-xskat-german/german.svgz
 * /usr/share/carddecks/svg-xskat-german/index.desktop
-* /usr/share/doc/libkdegames-24.12.3/README
-* /usr/share/doc/libkdegames-24.12.3/TODO
+* /usr/share/doc/libkdegames-25.04.0/README
+* /usr/share/doc/libkdegames-25.04.0/TODO
 * /usr/share/locale/af/LC_MESSAGES/libkdegames6.mo
 * /usr/share/locale/ar/LC_MESSAGES/libkdegames6.mo
 * /usr/share/locale/ast/LC_MESSAGES/libkdegames6.mo
@@ -203,6 +203,7 @@ Library for KDE games.
 * /usr/share/locale/pt_BR/LC_MESSAGES/libkdegames6.mo
 * /usr/share/locale/ro/LC_MESSAGES/libkdegames6.mo
 * /usr/share/locale/ru/LC_MESSAGES/libkdegames6.mo
+* /usr/share/locale/sa/LC_MESSAGES/libkdegames6.mo
 * /usr/share/locale/se/LC_MESSAGES/libkdegames6.mo
 * /usr/share/locale/sk/LC_MESSAGES/libkdegames6.mo
 * /usr/share/locale/sl/LC_MESSAGES/libkdegames6.mo

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "bomber 24.12.3-3"
-version = "24.12.3-3"
+title = "bomber 25.04.0-1"
+version = "25.04.0-1"
 description = "A single player arcade game."
-date = "2025-04-05T20:26:49"
+date = "2025-04-18T08:11:23"
 aliases = "/packages/184170"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "961864"
-usize = "1269226"
-sha1sum = "355042eacf1910047d7fbd36464caa7239723ffe"
-depends = "['libkdegames>=24.12.3']"
+size = "962856"
+usize = "1275007"
+sha1sum = "02c0c6e1519150b7fdbaff6286d0be4cf1d62b1d"
+depends = "['libkdegames>=25.04.0']"
 +++
 ### Description: 
 A single player arcade game.
@@ -28,9 +28,9 @@ A single player arcade game.
 * /usr/share/bomber/themes/lava-Island.png
 * /usr/share/bomber/themes/Lava-Island.svgz
 * /usr/share/config.kcfg/bomber.kcfg
-* /usr/share/doc/bomber-24.12.3/AUTHORS
-* /usr/share/doc/bomber-24.12.3/Changelog
-* /usr/share/doc/bomber-24.12.3/README.themes
+* /usr/share/doc/bomber-25.04.0/AUTHORS
+* /usr/share/doc/bomber-25.04.0/Changelog
+* /usr/share/doc/bomber-25.04.0/README.themes
 * /usr/share/doc/HTML/ca/bomber/index.cache.bz2
 * /usr/share/doc/HTML/ca/bomber/index.docbook
 * /usr/share/doc/HTML/cs/bomber/index.cache.bz2
@@ -92,6 +92,7 @@ A single player arcade game.
 * /usr/share/locale/gl/LC_MESSAGES/bomber.mo
 * /usr/share/locale/gu/LC_MESSAGES/bomber.mo
 * /usr/share/locale/he/LC_MESSAGES/bomber.mo
+* /usr/share/locale/hi/LC_MESSAGES/bomber.mo
 * /usr/share/locale/hr/LC_MESSAGES/bomber.mo
 * /usr/share/locale/hu/LC_MESSAGES/bomber.mo
 * /usr/share/locale/ia/LC_MESSAGES/bomber.mo
@@ -119,6 +120,7 @@ A single player arcade game.
 * /usr/share/locale/pt_BR/LC_MESSAGES/bomber.mo
 * /usr/share/locale/ro/LC_MESSAGES/bomber.mo
 * /usr/share/locale/ru/LC_MESSAGES/bomber.mo
+* /usr/share/locale/sa/LC_MESSAGES/bomber.mo
 * /usr/share/locale/sk/LC_MESSAGES/bomber.mo
 * /usr/share/locale/sl/LC_MESSAGES/bomber.mo
 * /usr/share/locale/sq/LC_MESSAGES/bomber.mo

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "mimetreeparser 24.12.3-3"
-version = "24.12.3-3"
+title = "mimetreeparser 25.04.0-1"
+version = "25.04.0-1"
 description = "Parser for MIME trees"
-date = "2025-04-05T20:20:06"
+date = "2025-04-18T07:50:05"
 aliases = "/packages/221365"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "216340"
-usize = "963499"
-sha1sum = "b236fe6718599ded290e914308bf21e1a73a4fe1"
-depends = "['kcalendarcore>=6.12.0', 'kcodecs>=6.12.0', 'ki18n>=6.12.0', 'kmbox>=24.12.3', 'kmime>=24.12.3', 'libkleo>=24.12.3']"
+size = "228956"
+usize = "1030974"
+sha1sum = "15decdab3ad9da6ecee67cc8650bdceec32dde6d"
+depends = "['kcalendarcore>=6.13.0', 'kcodecs>=6.13.0', 'ki18n>=6.13.0', 'kmbox>=25.04.0', 'kmime>=25.04.0', 'libkleo>=25.04.0']"
 reverse_depends = "['kleopatra', 'merkuro']"
 +++
 ### Description: 
@@ -46,6 +46,8 @@ Parser for MIME trees
 * /usr/include/KPim6/MimeTreeParserWidgets/mimetreeparserwidgets/messageviewer.h
 * /usr/include/KPim6/MimeTreeParserWidgets/MimeTreeParserWidgets/MessageViewerDialog
 * /usr/include/KPim6/MimeTreeParserWidgets/mimetreeparserwidgets/messageviewerdialog.h
+* /usr/include/KPim6/MimeTreeParserWidgets/MimeTreeParserWidgets/MessageViewerWindow
+* /usr/include/KPim6/MimeTreeParserWidgets/mimetreeparserwidgets/messageviewerwindow.h
 * /usr/include/KPim6/MimeTreeParserWidgets/mimetreeparserwidgets/mimetreeparser_widgets_export.h
 * /usr/include/KPim6/MimeTreeParserWidgets/mimetreeparser_widgets_version.h
 * /usr/lib/cmake/KPim6MimeTreeParserCore/KPim6MimeTreeParserCoreConfig.cmake
@@ -58,10 +60,10 @@ Parser for MIME trees
 * /usr/lib/cmake/KPim6MimeTreeParserWidgets/KPim6MimeTreeParserWidgetsTargets.cmake
 * /usr/lib/libKPim6MimeTreeParserCore.so
 * /usr/lib/libKPim6MimeTreeParserCore.so.6
-* /usr/lib/libKPim6MimeTreeParserCore.so.6.3.3
+* /usr/lib/libKPim6MimeTreeParserCore.so.6.4.0
 * /usr/lib/libKPim6MimeTreeParserWidgets.so
 * /usr/lib/libKPim6MimeTreeParserWidgets.so.6
-* /usr/lib/libKPim6MimeTreeParserWidgets.so.6.3.3
+* /usr/lib/libKPim6MimeTreeParserWidgets.so.6.4.0
 * /usr/lib/qt6/mkspecs/modules/qt_MimeTreeParserCore.pri
 * /usr/lib/qt6/mkspecs/modules/qt_MimeTreeParserWidgets.pri
 * /usr/lib/qt6/qml/org/kde/pim/mimetreeparser/kde-qmlmodule.version
@@ -78,7 +80,7 @@ Parser for MIME trees
 * /usr/lib/qt6/qml/org/kde/pim/mimetreeparser/private/MailPartView.qml
 * /usr/lib/qt6/qml/org/kde/pim/mimetreeparser/private/TextPart.qml
 * /usr/lib/qt6/qml/org/kde/pim/mimetreeparser/qmldir
-* /usr/share/doc/mimetreeparser-24.12.3/README.md
+* /usr/share/doc/mimetreeparser-25.04.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/mimetreeparser6.mo
 * /usr/share/locale/ast/LC_MESSAGES/mimetreeparser6.mo
 * /usr/share/locale/ca/LC_MESSAGES/mimetreeparser6.mo
@@ -93,6 +95,7 @@ Parser for MIME trees
 * /usr/share/locale/fr/LC_MESSAGES/mimetreeparser6.mo
 * /usr/share/locale/gl/LC_MESSAGES/mimetreeparser6.mo
 * /usr/share/locale/he/LC_MESSAGES/mimetreeparser6.mo
+* /usr/share/locale/hi/LC_MESSAGES/mimetreeparser6.mo
 * /usr/share/locale/hu/LC_MESSAGES/mimetreeparser6.mo
 * /usr/share/locale/ia/LC_MESSAGES/mimetreeparser6.mo
 * /usr/share/locale/it/LC_MESSAGES/mimetreeparser6.mo
@@ -103,8 +106,8 @@ Parser for MIME trees
 * /usr/share/locale/lv/LC_MESSAGES/mimetreeparser6.mo
 * /usr/share/locale/nl/LC_MESSAGES/mimetreeparser6.mo
 * /usr/share/locale/pl/LC_MESSAGES/mimetreeparser6.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/mimetreeparser6.mo
 * /usr/share/locale/ru/LC_MESSAGES/mimetreeparser6.mo
+* /usr/share/locale/sa/LC_MESSAGES/mimetreeparser6.mo
 * /usr/share/locale/sk/LC_MESSAGES/mimetreeparser6.mo
 * /usr/share/locale/sl/LC_MESSAGES/mimetreeparser6.mo
 * /usr/share/locale/sv/LC_MESSAGES/mimetreeparser6.mo
