@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kubrick 24.12.3-3"
-version = "24.12.3-3"
+title = "kubrick 25.04.0-1"
+version = "25.04.0-1"
 description = "Kubrick is based on the famous Rubik's Cube"
-date = "2025-04-06T10:08:29"
+date = "2025-04-18T16:45:43"
 aliases = "/packages/219341"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "517108"
-usize = "1882039"
-sha1sum = "3dfddfcc275bff291990a89419ce623904dd353f"
-depends = "['libglu', 'libkdegames>=24.12.3']"
+size = "521524"
+usize = "1914620"
+sha1sum = "13ed8a21a0563ef77a7ff2f2b221f994dd75df11"
+depends = "['libglu', 'libkdegames>=25.04.0']"
 +++
 ### Description: 
 Kubrick is based on the famous Rubik's Cube
@@ -47,10 +47,10 @@ Kubrick is based on the famous Rubik's Cube
 * /usr/share/doc/HTML/sv/kubrick/index.docbook
 * /usr/share/doc/HTML/uk/kubrick/index.cache.bz2
 * /usr/share/doc/HTML/uk/kubrick/index.docbook
-* /usr/share/doc/kubrick-24.12.3/AUTHORS
-* /usr/share/doc/kubrick-24.12.3/README
-* /usr/share/doc/kubrick-24.12.3/README.PACKAGERS
-* /usr/share/doc/kubrick-24.12.3/TODO
+* /usr/share/doc/kubrick-25.04.0/AUTHORS
+* /usr/share/doc/kubrick-25.04.0/README
+* /usr/share/doc/kubrick-25.04.0/README.PACKAGERS
+* /usr/share/doc/kubrick-25.04.0/TODO
 * /usr/share/icons/hicolor/128x128/apps/kubrick.png
 * /usr/share/icons/hicolor/16x16/apps/kubrick.png
 * /usr/share/icons/hicolor/22x22/apps/kubrick.png
@@ -101,6 +101,7 @@ Kubrick is based on the famous Rubik's Cube
 * /usr/share/locale/ga/LC_MESSAGES/kubrick.mo
 * /usr/share/locale/gl/LC_MESSAGES/kubrick.mo
 * /usr/share/locale/he/LC_MESSAGES/kubrick.mo
+* /usr/share/locale/hi/LC_MESSAGES/kubrick.mo
 * /usr/share/locale/hr/LC_MESSAGES/kubrick.mo
 * /usr/share/locale/hu/LC_MESSAGES/kubrick.mo
 * /usr/share/locale/ia/LC_MESSAGES/kubrick.mo
@@ -126,6 +127,7 @@ Kubrick is based on the famous Rubik's Cube
 * /usr/share/locale/pt_BR/LC_MESSAGES/kubrick.mo
 * /usr/share/locale/ro/LC_MESSAGES/kubrick.mo
 * /usr/share/locale/ru/LC_MESSAGES/kubrick.mo
+* /usr/share/locale/sa/LC_MESSAGES/kubrick.mo
 * /usr/share/locale/sk/LC_MESSAGES/kubrick.mo
 * /usr/share/locale/sl/LC_MESSAGES/kubrick.mo
 * /usr/share/locale/sr/LC_MESSAGES/kubrick.mo

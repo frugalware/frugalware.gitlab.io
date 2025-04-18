@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kopeninghours 24.12.3-3"
-version = "24.12.3-3"
+title = "kopeninghours 25.04.0-1"
+version = "25.04.0-1"
 description = "Library for parsing and evaluating OSM opening hours expressions"
-date = "2025-04-06T10:20:38"
+date = "2025-04-18T17:03:33"
 aliases = "/packages/220984"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "113508"
-usize = "444497"
-sha1sum = "a47888f34d6fb698aab05ba087d3a6b705e3f795"
+size = "114188"
+usize = "448851"
+sha1sum = "a4d41590da0918662d806ec4324f372e7384e86b"
 depends = "['kholidays', 'ki18n', 'qt6-declarative']"
 reverse_depends = "['kosmindoormap']"
 +++
@@ -34,13 +34,13 @@ Library for parsing and evaluating OSM opening hours expressions
 * /usr/lib/cmake/KOpeningHours/KOpeningHoursTargets.cmake
 * /usr/lib/libKOpeningHours.so
 * /usr/lib/libKOpeningHours.so.1
-* /usr/lib/libKOpeningHours.so.24.12.3
+* /usr/lib/libKOpeningHours.so.25.4.0
 * /usr/lib/qt6/qml/org/kde/kopeninghours/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/kopeninghours/kopeninghoursqmlplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/kopeninghours/libkopeninghoursqmlplugin.so
 * /usr/lib/qt6/qml/org/kde/kopeninghours/qmldir
-* /usr/share/doc/kopeninghours-24.12.3/README.md
-* /usr/share/doc/kopeninghours-24.12.3/README.md.license
+* /usr/share/doc/kopeninghours-25.04.0/README.md
+* /usr/share/doc/kopeninghours-25.04.0/README.md.license
 * /usr/share/locale/ast/LC_MESSAGES/kopeninghours.mo
 * /usr/share/locale/ca/LC_MESSAGES/kopeninghours.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/kopeninghours.mo
@@ -70,6 +70,7 @@ Library for parsing and evaluating OSM opening hours expressions
 * /usr/share/locale/pt_BR/LC_MESSAGES/kopeninghours.mo
 * /usr/share/locale/ro/LC_MESSAGES/kopeninghours.mo
 * /usr/share/locale/ru/LC_MESSAGES/kopeninghours.mo
+* /usr/share/locale/sa/LC_MESSAGES/kopeninghours.mo
 * /usr/share/locale/sk/LC_MESSAGES/kopeninghours.mo
 * /usr/share/locale/sl/LC_MESSAGES/kopeninghours.mo
 * /usr/share/locale/sv/LC_MESSAGES/kopeninghours.mo

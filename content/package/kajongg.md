@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kajongg 24.12.3-3"
-version = "24.12.3-3"
+title = "kajongg 25.04.0-1"
+version = "25.04.0-1"
 description = "KDE Mahjongg game."
-date = "2025-04-06T10:25:26"
+date = "2025-04-18T17:13:05"
 aliases = "/packages/219325"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "5263736"
-usize = "11121154"
-sha1sum = "20ca05a2672ffedabca8f152f332593f29355e3b"
-depends = "['libkmahjongg>=24.12.3', 'python3-twisted']"
+size = "5283404"
+usize = "11230342"
+sha1sum = "88e9d182d3823c957a03b112683258f00170fed9"
+depends = "['libkmahjongg>=25.04.0', 'python3-twisted']"
 +++
 ### Description: 
 KDE Mahjongg game.
@@ -68,11 +68,11 @@ KDE Mahjongg game.
 * /usr/share/doc/HTML/uk/kajongg/index.docbook
 * /usr/share/doc/HTML/uk/kajongg/ruleseteditor.png
 * /usr/share/doc/HTML/uk/kajongg/scoretable.png
-* /usr/share/doc/kajongg-24.12.3/COPYING.DOC
-* /usr/share/doc/kajongg-24.12.3/LICENSE
-* /usr/share/doc/kajongg-24.12.3/README
-* /usr/share/doc/kajongg-24.12.3/README.packagers
-* /usr/share/doc/kajongg-24.12.3/README.windows
+* /usr/share/doc/kajongg-25.04.0/COPYING.DOC
+* /usr/share/doc/kajongg-25.04.0/LICENSE
+* /usr/share/doc/kajongg-25.04.0/README
+* /usr/share/doc/kajongg-25.04.0/README.packagers
+* /usr/share/doc/kajongg-25.04.0/README.windows
 * /usr/share/icons/hicolor/128x128/apps/kajongg.png
 * /usr/share/icons/hicolor/16x16/apps/kajongg.png
 * /usr/share/icons/hicolor/22x22/apps/kajongg.png
@@ -121,6 +121,7 @@ KDE Mahjongg game.
 * /usr/share/kajongg/permutations.py
 * /usr/share/kajongg/player.py
 * /usr/share/kajongg/playerlist.py
+* /usr/share/kajongg/point.py
 * /usr/share/kajongg/predefined.py
 * /usr/share/kajongg/qt.py
 * /usr/share/kajongg/qtreactor.py
@@ -539,6 +540,7 @@ KDE Mahjongg game.
 * /usr/share/kajongg/__pycache__/permutations.cpython-313.pyc
 * /usr/share/kajongg/__pycache__/player.cpython-313.pyc
 * /usr/share/kajongg/__pycache__/playerlist.cpython-313.pyc
+* /usr/share/kajongg/__pycache__/point.cpython-313.pyc
 * /usr/share/kajongg/__pycache__/predefined.cpython-313.pyc
 * /usr/share/kajongg/__pycache__/qt.cpython-313.pyc
 * /usr/share/kajongg/__pycache__/qtreactor.cpython-313.pyc
@@ -588,6 +590,7 @@ KDE Mahjongg game.
 * /usr/share/locale/ga/LC_MESSAGES/kajongg.mo
 * /usr/share/locale/gl/LC_MESSAGES/kajongg.mo
 * /usr/share/locale/he/LC_MESSAGES/kajongg.mo
+* /usr/share/locale/hi/LC_MESSAGES/kajongg.mo
 * /usr/share/locale/hu/LC_MESSAGES/kajongg.mo
 * /usr/share/locale/ia/LC_MESSAGES/kajongg.mo
 * /usr/share/locale/is/LC_MESSAGES/kajongg.mo
@@ -609,6 +612,7 @@ KDE Mahjongg game.
 * /usr/share/locale/pt_BR/LC_MESSAGES/kajongg.mo
 * /usr/share/locale/ro/LC_MESSAGES/kajongg.mo
 * /usr/share/locale/ru/LC_MESSAGES/kajongg.mo
+* /usr/share/locale/sa/LC_MESSAGES/kajongg.mo
 * /usr/share/locale/sk/LC_MESSAGES/kajongg.mo
 * /usr/share/locale/sl/LC_MESSAGES/kajongg.mo
 * /usr/share/locale/sr/LC_MESSAGES/kajongg.mo

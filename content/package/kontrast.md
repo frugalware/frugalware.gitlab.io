@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kontrast 24.12.3-3"
-version = "24.12.3-3"
+title = "kontrast 25.04.0-1"
+version = "25.04.0-1"
 description = "Tool to check contrast for colors that allows verifying that your colors are correctly accessible"
-date = "2025-04-06T10:15:44"
+date = "2025-04-18T16:57:54"
 aliases = "/packages/220313"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "199384"
-usize = "578520"
-sha1sum = "4ac22c2b133c6ad014baaf86e8d786c7e8e76d8a"
-depends = "['futuresql', 'kcoreaddons>=6.12.0', 'kdeclarative>=6.12.0', 'ki18n>=6.12.0', 'kirigami>=6.12.0', 'kirigami-addons', 'qcoro']"
+size = "200208"
+usize = "581835"
+sha1sum = "94a7efcebc38b3b7919ae625aadbb8ef558b0809"
+depends = "['futuresql', 'kcoreaddons>=6.13.0', 'kdeclarative>=6.13.0', 'ki18n>=6.13.0', 'kirigami>=6.13.0', 'kirigami-addons', 'qcoro']"
 +++
 ### Description: 
 Tool to check contrast for colors that allows verifying that your colors are correctly accessible
@@ -36,7 +36,7 @@ Tool to check contrast for colors that allows verifying that your colors are cor
 * /usr/share/doc/HTML/sv/kontrast/index.docbook
 * /usr/share/doc/HTML/uk/kontrast/index.cache.bz2
 * /usr/share/doc/HTML/uk/kontrast/index.docbook
-* /usr/share/doc/kontrast-24.12.3/README.md
+* /usr/share/doc/kontrast-25.04.0/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.kontrast.svg
 * /usr/share/locale/ast/LC_MESSAGES/kontrast.mo
 * /usr/share/locale/ca/LC_MESSAGES/kontrast.mo
@@ -53,6 +53,7 @@ Tool to check contrast for colors that allows verifying that your colors are cor
 * /usr/share/locale/fr/LC_MESSAGES/kontrast.mo
 * /usr/share/locale/gl/LC_MESSAGES/kontrast.mo
 * /usr/share/locale/he/LC_MESSAGES/kontrast.mo
+* /usr/share/locale/hi/LC_MESSAGES/kontrast.mo
 * /usr/share/locale/ia/LC_MESSAGES/kontrast.mo
 * /usr/share/locale/it/LC_MESSAGES/kontrast.mo
 * /usr/share/locale/ja/LC_MESSAGES/kontrast.mo
@@ -68,6 +69,7 @@ Tool to check contrast for colors that allows verifying that your colors are cor
 * /usr/share/locale/pt_BR/LC_MESSAGES/kontrast.mo
 * /usr/share/locale/ro/LC_MESSAGES/kontrast.mo
 * /usr/share/locale/ru/LC_MESSAGES/kontrast.mo
+* /usr/share/locale/sa/LC_MESSAGES/kontrast.mo
 * /usr/share/locale/sk/LC_MESSAGES/kontrast.mo
 * /usr/share/locale/sl/LC_MESSAGES/kontrast.mo
 * /usr/share/locale/sv/LC_MESSAGES/kontrast.mo

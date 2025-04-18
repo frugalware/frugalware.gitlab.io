@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "knights 24.12.3-3"
-version = "24.12.3-3"
+title = "knights 25.04.0-1"
+version = "25.04.0-1"
 description = "Chess board program."
-date = "2025-04-06T10:12:04"
+date = "2025-04-18T16:50:39"
 aliases = "/packages/38796"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3565516"
-usize = "5400286"
-sha1sum = "ed3a2bac3f793b1fe498823c3c94f10b75311a48"
-depends = "['kplotting>=6.12.0', 'ksvg>=6.12.0', 'libkdegames>=24.12.3', 'libplasma>=6.3.4']"
+size = "3574140"
+usize = "5469011"
+sha1sum = "4d12da337e30e6284c9b7707298167daaa1ce678"
+depends = "['kplotting>=6.13.0', 'ksvg>=6.13.0', 'libkdegames>=25.04.0', 'libplasma>=6.3.4']"
 +++
 ### Description: 
 Chess board program.
@@ -92,11 +92,11 @@ Chess board program.
 * /usr/share/doc/HTML/uk/knights/Knights-server-challenges.png
 * /usr/share/doc/HTML/uk/knights/Knights-server-graph.png
 * /usr/share/doc/HTML/uk/knights/Knights-server-list.png
-* /usr/share/doc/knights-24.12.3/ChangeLog
-* /usr/share/doc/knights-24.12.3/LICENSE
-* /usr/share/doc/knights-24.12.3/README.md
-* /usr/share/doc/knights-24.12.3/README.themes
-* /usr/share/doc/knights-24.12.3/README.translation
+* /usr/share/doc/knights-25.04.0/ChangeLog
+* /usr/share/doc/knights-25.04.0/LICENSE
+* /usr/share/doc/knights-25.04.0/README.md
+* /usr/share/doc/knights-25.04.0/README.themes
+* /usr/share/doc/knights-25.04.0/README.translation
 * /usr/share/icons/hicolor/16x16/apps/knights.png
 * /usr/share/icons/hicolor/32x32/apps/knights.png
 * /usr/share/icons/hicolor/48x48/apps/knights.png
@@ -142,6 +142,7 @@ Chess board program.
 * /usr/share/locale/ga/LC_MESSAGES/knights.mo
 * /usr/share/locale/gl/LC_MESSAGES/knights.mo
 * /usr/share/locale/he/LC_MESSAGES/knights.mo
+* /usr/share/locale/hi/LC_MESSAGES/knights.mo
 * /usr/share/locale/hu/LC_MESSAGES/knights.mo
 * /usr/share/locale/ia/LC_MESSAGES/knights.mo
 * /usr/share/locale/id/LC_MESSAGES/knights.mo
@@ -163,6 +164,7 @@ Chess board program.
 * /usr/share/locale/pt_BR/LC_MESSAGES/knights.mo
 * /usr/share/locale/ro/LC_MESSAGES/knights.mo
 * /usr/share/locale/ru/LC_MESSAGES/knights.mo
+* /usr/share/locale/sa/LC_MESSAGES/knights.mo
 * /usr/share/locale/sk/LC_MESSAGES/knights.mo
 * /usr/share/locale/sl/LC_MESSAGES/knights.mo
 * /usr/share/locale/sr/LC_MESSAGES/knights.mo

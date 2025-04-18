@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "palapeli 24.12.3-3"
-version = "24.12.3-3"
+title = "palapeli 25.04.0-1"
+version = "25.04.0-1"
 description = "Palapeli is a single-player jigsaw puzzle game."
-date = "2025-04-06T10:10:11"
+date = "2025-04-18T16:48:04"
 aliases = "/packages/219532"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2401272"
-usize = "4712272"
-sha1sum = "f24e56e4169d3bad582c215c9f1f2e331a931b29"
-depends = "['libkdegames>=24.12.3']"
+size = "2407108"
+usize = "4757270"
+sha1sum = "74e8a3f4c9994a482df357111aa068968241083d"
+depends = "['libkdegames>=25.04.0']"
 +++
 ### Description: 
 Palapeli is a single-player jigsaw puzzle game.
@@ -76,8 +76,8 @@ Palapeli is a single-player jigsaw puzzle game.
 * /usr/share/doc/HTML/sv/palapeli/index.docbook
 * /usr/share/doc/HTML/uk/palapeli/index.cache.bz2
 * /usr/share/doc/HTML/uk/palapeli/index.docbook
-* /usr/share/doc/palapeli-24.12.3/README.ARTISTS
-* /usr/share/doc/palapeli-24.12.3/README.PACKAGERS
+* /usr/share/doc/palapeli-25.04.0/README.ARTISTS
+* /usr/share/doc/palapeli-25.04.0/README.PACKAGERS
 * /usr/share/icons/hicolor/128x128/apps/palapeli.png
 * /usr/share/icons/hicolor/128x128/mimetypes/application-x-palapeli.png
 * /usr/share/icons/hicolor/16x16/apps/palapeli.png
@@ -111,6 +111,7 @@ Palapeli is a single-player jigsaw puzzle game.
 * /usr/share/locale/ga/LC_MESSAGES/palapeli.mo
 * /usr/share/locale/gl/LC_MESSAGES/palapeli.mo
 * /usr/share/locale/he/LC_MESSAGES/palapeli.mo
+* /usr/share/locale/hi/LC_MESSAGES/palapeli.mo
 * /usr/share/locale/hr/LC_MESSAGES/palapeli.mo
 * /usr/share/locale/hsb/LC_MESSAGES/palapeli.mo
 * /usr/share/locale/hu/LC_MESSAGES/palapeli.mo
@@ -136,6 +137,7 @@ Palapeli is a single-player jigsaw puzzle game.
 * /usr/share/locale/pt_BR/LC_MESSAGES/palapeli.mo
 * /usr/share/locale/ro/LC_MESSAGES/palapeli.mo
 * /usr/share/locale/ru/LC_MESSAGES/palapeli.mo
+* /usr/share/locale/sa/LC_MESSAGES/palapeli.mo
 * /usr/share/locale/sk/LC_MESSAGES/palapeli.mo
 * /usr/share/locale/sl/LC_MESSAGES/palapeli.mo
 * /usr/share/locale/sq/LC_MESSAGES/palapeli.mo

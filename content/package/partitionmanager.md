@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "partitionmanager 24.12.3-3"
-version = "24.12.3-3"
+title = "partitionmanager 25.04.0-1"
+version = "25.04.0-1"
 description = "A Kf5 utility that allows you to manage disks, partitions, and file systems."
-date = "2025-04-06T10:15:02"
+date = "2025-04-18T16:56:49"
 aliases = "/packages/118282"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2422720"
-usize = "6803231"
-sha1sum = "dfafb4624ec9fa2a8f03fa19a595506251aa9daa"
-depends = "['dosfstools', 'e2fsprogs', 'f2fs-tools', 'jfsutils', 'kiconthemes>=6.12.0', 'kio>=6.12.0', 'kpmcore>=4.1.0', 'reiserfsprogs', 'xfsprogs']"
+size = "2440620"
+usize = "6964091"
+sha1sum = "61c39bd4ea1ac4a72f69970d49f576b474114cb0"
+depends = "['dosfstools', 'e2fsprogs', 'f2fs-tools', 'jfsutils', 'kiconthemes>=6.13.0', 'kio>=6.13.0', 'kpmcore>=4.1.0', 'reiserfsprogs', 'xfsprogs']"
 +++
 ### Description: 
 A Kf5 utility that allows you to manage disks, partitions, and file systems.
@@ -240,8 +240,8 @@ A Kf5 utility that allows you to manage disks, partitions, and file systems.
 * /usr/share/doc/HTML/uk/partitionmanager/referencemanual.docbook
 * /usr/share/doc/HTML/uk/partitionmanager/resizehowto.docbook
 * /usr/share/doc/HTML/uk/partitionmanager/usermanual.docbook
-* /usr/share/doc/partitionmanager-24.12.3/INSTALL.md
-* /usr/share/doc/partitionmanager-24.12.3/README.md
+* /usr/share/doc/partitionmanager-25.04.0/INSTALL.md
+* /usr/share/doc/partitionmanager-25.04.0/README.md
 * /usr/share/icons/hicolor/scalable/apps/partitionmanager.svg
 * /usr/share/locale/ar/LC_MESSAGES/partitionmanager.mo
 * /usr/share/locale/ast/LC_MESSAGES/partitionmanager.mo
@@ -264,6 +264,7 @@ A Kf5 utility that allows you to manage disks, partitions, and file systems.
 * /usr/share/locale/ga/LC_MESSAGES/partitionmanager.mo
 * /usr/share/locale/gl/LC_MESSAGES/partitionmanager.mo
 * /usr/share/locale/he/LC_MESSAGES/partitionmanager.mo
+* /usr/share/locale/hi/LC_MESSAGES/partitionmanager.mo
 * /usr/share/locale/hr/LC_MESSAGES/partitionmanager.mo
 * /usr/share/locale/hu/LC_MESSAGES/partitionmanager.mo
 * /usr/share/locale/ia/LC_MESSAGES/partitionmanager.mo
@@ -287,6 +288,7 @@ A Kf5 utility that allows you to manage disks, partitions, and file systems.
 * /usr/share/locale/pt_BR/LC_MESSAGES/partitionmanager.mo
 * /usr/share/locale/ro/LC_MESSAGES/partitionmanager.mo
 * /usr/share/locale/ru/LC_MESSAGES/partitionmanager.mo
+* /usr/share/locale/sa/LC_MESSAGES/partitionmanager.mo
 * /usr/share/locale/sk/LC_MESSAGES/partitionmanager.mo
 * /usr/share/locale/sl/LC_MESSAGES/partitionmanager.mo
 * /usr/share/locale/sr/LC_MESSAGES/partitionmanager.mo

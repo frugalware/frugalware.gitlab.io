@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "konversation 24.12.3-3"
-version = "24.12.3-3"
+title = "konversation 25.04.0-1"
+version = "25.04.0-1"
 description = "IRC clinet for KDE5"
-date = "2025-04-06T10:17:04"
+date = "2025-04-18T16:59:36"
 aliases = "/packages/218844"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "4885752"
-usize = "16809396"
-sha1sum = "0389574f5b335518c9d5cf37e27ce6edb23ef68c"
-depends = "['kidletime>=6.12.0', 'knewstuff>=6.12.0', 'knotifyconfig>=6.12.0', 'kparts>=6.12.0', 'kstatusnotifieritem>=6.12.0', 'phonon-qt6', 'qca', 'qt6-multimedia>=6.9.0']"
+size = "4918964"
+usize = "17086163"
+sha1sum = "af4689f3037040a257ac8f80eee86d42fa1ce3f9"
+depends = "['kidletime>=6.13.0', 'knewstuff>=6.13.0', 'knotifyconfig>=6.13.0', 'kparts>=6.13.0', 'kstatusnotifieritem>=6.13.0', 'phonon-qt6', 'qca', 'qt6-multimedia>=6.9.0']"
 +++
 ### Description: 
 IRC clinet for KDE5
@@ -135,11 +135,11 @@ IRC clinet for KDE5
 * /usr/share/doc/HTML/sv/konversation/webbrowser_screen_co.png
 * /usr/share/doc/HTML/uk/konversation/index.cache.bz2
 * /usr/share/doc/HTML/uk/konversation/index.docbook
-* /usr/share/doc/konversation-24.12.3/AUTHORS
-* /usr/share/doc/konversation-24.12.3/ChangeLog
-* /usr/share/doc/konversation-24.12.3/INSTALL
-* /usr/share/doc/konversation-24.12.3/NEWS
-* /usr/share/doc/konversation-24.12.3/README
+* /usr/share/doc/konversation-25.04.0/AUTHORS
+* /usr/share/doc/konversation-25.04.0/ChangeLog
+* /usr/share/doc/konversation-25.04.0/INSTALL
+* /usr/share/doc/konversation-25.04.0/NEWS
+* /usr/share/doc/konversation-25.04.0/README
 * /usr/share/icons/hicolor/128x128/actions/konv_message.png
 * /usr/share/icons/hicolor/128x128/apps/konversation.png
 * /usr/share/icons/hicolor/16x16/actions/konv_message.png
@@ -291,6 +291,7 @@ IRC clinet for KDE5
 * /usr/share/locale/ro/LC_MESSAGES/konversation.mo
 * /usr/share/locale/ru/LC_MESSAGES/konversation.mo
 * /usr/share/locale/rw/LC_MESSAGES/konversation.mo
+* /usr/share/locale/sa/LC_MESSAGES/konversation.mo
 * /usr/share/locale/si/LC_MESSAGES/konversation.mo
 * /usr/share/locale/sk/LC_MESSAGES/konversation.mo
 * /usr/share/locale/sl/LC_MESSAGES/konversation.mo

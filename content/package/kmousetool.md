@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kmousetool 24.12.3-3"
-version = "24.12.3-3"
+title = "kmousetool 25.04.0-1"
+version = "25.04.0-1"
 description = "KMouseTool is a program that clicks the mouse for you."
-date = "2025-04-06T09:58:41"
+date = "2025-04-18T16:31:12"
 aliases = "/packages/219336"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "220824"
-usize = "619523"
-sha1sum = "c3d5b360df4e38300ec8180419c68b9076a5ced9"
-depends = "['kdbusaddons>=6.12.0', 'ki18n>=6.12.0', 'kiconthemes>=6.12.0', 'knotifications>=6.12.0', 'kstatusnotifieritem>=6.12.0', 'kxmlgui>=6.12.0', 'libxt']"
+size = "221912"
+usize = "625366"
+sha1sum = "9466e7094434a0ae0761ffb4a75ceb932a2aeb63"
+depends = "['kdbusaddons>=6.13.0', 'ki18n>=6.13.0', 'kiconthemes>=6.13.0', 'knotifications>=6.13.0', 'kstatusnotifieritem>=6.13.0', 'kxmlgui>=6.13.0', 'libxt']"
 +++
 ### Description: 
 KMouseTool is a program that clicks the mouse for you.
@@ -45,10 +45,10 @@ KMouseTool is a program that clicks the mouse for you.
 * /usr/share/doc/HTML/sv/kmousetool/index.docbook
 * /usr/share/doc/HTML/uk/kmousetool/index.cache.bz2
 * /usr/share/doc/HTML/uk/kmousetool/index.docbook
-* /usr/share/doc/kmousetool-24.12.3/AUTHORS
-* /usr/share/doc/kmousetool-24.12.3/ChangeLog
-* /usr/share/doc/kmousetool-24.12.3/README
-* /usr/share/doc/kmousetool-24.12.3/TODO
+* /usr/share/doc/kmousetool-25.04.0/AUTHORS
+* /usr/share/doc/kmousetool-25.04.0/ChangeLog
+* /usr/share/doc/kmousetool-25.04.0/README
+* /usr/share/doc/kmousetool-25.04.0/TODO
 * /usr/share/icons/hicolor/16x16/actions/kmousetool_off.png
 * /usr/share/icons/hicolor/16x16/actions/kmousetool_on.png
 * /usr/share/icons/hicolor/16x16/apps/kmousetool.png
@@ -111,6 +111,7 @@ KMouseTool is a program that clicks the mouse for you.
 * /usr/share/locale/pt_BR/LC_MESSAGES/kmousetool.mo
 * /usr/share/locale/ro/LC_MESSAGES/kmousetool.mo
 * /usr/share/locale/ru/LC_MESSAGES/kmousetool.mo
+* /usr/share/locale/sa/LC_MESSAGES/kmousetool.mo
 * /usr/share/locale/se/LC_MESSAGES/kmousetool.mo
 * /usr/share/locale/sk/LC_MESSAGES/kmousetool.mo
 * /usr/share/locale/sl/LC_MESSAGES/kmousetool.mo

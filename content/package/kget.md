@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kget 24.12.3-3"
-version = "24.12.3-3"
+title = "kget 25.04.0-1"
+version = "25.04.0-1"
 description = "A free download manager for KDE."
-date = "2025-04-06T09:57:10"
+date = "2025-04-18T16:29:00"
 aliases = "/packages/219524"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "5229552"
-usize = "11260900"
-sha1sum = "f1d798a70dee2cbd6ec4bfea6949f0aadb4b5750"
-depends = "['kcmutils>=6.12.0', 'knotifyconfig>=6.12.0', 'kstatusnotifieritem>=6.12.0', 'libktorrent', 'libmms', 'libqgpgme', 'plasma-workspace>=6.3.4']"
+size = "5217072"
+usize = "11356335"
+sha1sum = "309bec2c4d2fb51e6b18e4b5af03a2bbc2fbd22f"
+depends = "['kcmutils>=6.13.0', 'knotifyconfig>=6.13.0', 'kstatusnotifieritem>=6.13.0', 'libktorrent', 'libmms', 'libqgpgme', 'plasma-workspace>=6.3.4']"
 +++
 ### Description: 
 A free download manager for KDE.
@@ -199,20 +199,15 @@ A free download manager for KDE.
 * /usr/share/doc/HTML/uk/kget/metalink1.png
 * /usr/share/doc/HTML/uk/kget/metalink2.png
 * /usr/share/doc/HTML/uk/kget/metalink3.png
-* /usr/share/doc/kget-24.12.3/AUTHORS
-* /usr/share/doc/kget-24.12.3/Changelog
-* /usr/share/doc/kget-24.12.3/COPYING
-* /usr/share/doc/kget-24.12.3/COPYING.DOC
-* /usr/share/doc/kget-24.12.3/COPYING.LIB
-* /usr/share/doc/kget-24.12.3/HACKING
-* /usr/share/doc/kget-24.12.3/README
-* /usr/share/doc/kget-24.12.3/TODO
-* /usr/share/icons/hicolor/128x128/apps/kget.png
-* /usr/share/icons/hicolor/16x16/apps/kget.png
-* /usr/share/icons/hicolor/22x22/apps/kget.png
-* /usr/share/icons/hicolor/32x32/apps/kget.png
-* /usr/share/icons/hicolor/48x48/apps/kget.png
-* /usr/share/icons/hicolor/64x64/apps/kget.png
+* /usr/share/doc/kget-25.04.0/AUTHORS
+* /usr/share/doc/kget-25.04.0/Changelog
+* /usr/share/doc/kget-25.04.0/COPYING
+* /usr/share/doc/kget-25.04.0/COPYING.DOC
+* /usr/share/doc/kget-25.04.0/COPYING.LIB
+* /usr/share/doc/kget-25.04.0/HACKING
+* /usr/share/doc/kget-25.04.0/README
+* /usr/share/doc/kget-25.04.0/TODO
+* /usr/share/icons/hicolor/scalable/apps/org.kde.kget.svg
 * /usr/share/kget/pics/kget_splash.png
 * /usr/share/kio/servicemenus/kget_download.desktop
 * /usr/share/knotifications6/kget.notifyrc
@@ -273,6 +268,7 @@ A free download manager for KDE.
 * /usr/share/locale/pt_BR/LC_MESSAGES/kget.mo
 * /usr/share/locale/ro/LC_MESSAGES/kget.mo
 * /usr/share/locale/ru/LC_MESSAGES/kget.mo
+* /usr/share/locale/sa/LC_MESSAGES/kget.mo
 * /usr/share/locale/se/LC_MESSAGES/kget.mo
 * /usr/share/locale/si/LC_MESSAGES/kget.mo
 * /usr/share/locale/sk/LC_MESSAGES/kget.mo

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "okular 24.12.3-4"
-version = "24.12.3-4"
+title = "okular 25.04.0-1"
+version = "25.04.0-1"
 description = "KDE universal document viewer."
-date = "2025-04-07T09:25:12"
+date = "2025-04-18T16:53:05"
 aliases = "/packages/218510"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "6925344"
-usize = "19623933"
-sha1sum = "f56d9c6e6c3fb003deda65954b54d2b9d23fbb9d"
-depends = "['attica>=6.12.0', 'chmlib>=0.40', 'discount>=3.0.0', 'djvulibre>=3.5.24', 'ebook-tools>=0.2.2-3', 'kdegraphics-mobipocket>=24.12.3', 'kirigami>=6.12.0', 'kparts>=6.12.0', 'kpty>=6.12.0', 'libkexiv2>=24.12.3', 'libspectre>=0.2.6', 'libzip>=1.3.2-2', 'plasma-activities>=6.3.4', 'poppler-qt6>=24.11.0', 'purpose>=6.12.0', 'qca', 'qt6-speech>=6.9.0', 'qt6-svg>=6.9.0', 'threadweaver>=6.12.0']"
+size = "6979400"
+usize = "19922454"
+sha1sum = "74dc5b49a771e3577eb229e6d343656e1061568e"
+depends = "['attica>=6.13.0', 'chmlib>=0.40', 'discount>=3.0.0', 'djvulibre>=3.5.24', 'ebook-tools>=0.2.2-3', 'kdegraphics-mobipocket>=25.04.0', 'kirigami>=6.13.0', 'kparts>=6.13.0', 'kpty>=6.13.0', 'libkexiv2>=25.04.0', 'libspectre>=0.2.6', 'libzip>=1.3.2-2', 'plasma-activities>=6.3.4', 'poppler-qt6>=24.11.0', 'purpose>=6.13.0', 'qca', 'qt6-speech>=6.9.0', 'qt6-svg>=6.9.0', 'threadweaver>=6.13.0']"
 reverse_depends = "['kile']"
 +++
 ### Description: 
@@ -278,10 +278,10 @@ KDE universal document viewer.
 * /usr/share/doc/HTML/uk/okular/mainwindow.png
 * /usr/share/doc/HTML/uk/okular/signatures-bar.png
 * /usr/share/doc/HTML/uk/okular/signatures-panel.png
-* /usr/share/doc/okular-24.12.3/README.clang-format
-* /usr/share/doc/okular-24.12.3/README.internals.png
-* /usr/share/doc/okular-24.12.3/README.md
-* /usr/share/doc/okular-24.12.3/TODO
+* /usr/share/doc/okular-25.04.0/README.clang-format
+* /usr/share/doc/okular-25.04.0/README.internals.png
+* /usr/share/doc/okular-25.04.0/README.md
+* /usr/share/doc/okular-25.04.0/TODO
 * /usr/share/icons/hicolor/128x128/apps/okular.png
 * /usr/share/icons/hicolor/16x16/apps/okular.png
 * /usr/share/icons/hicolor/22x22/apps/okular.png
@@ -1066,6 +1066,22 @@ KDE universal document viewer.
 * /usr/share/locale/ru/LC_MESSAGES/okular_txt.mo
 * /usr/share/locale/ru/LC_MESSAGES/okular_xps.mo
 * /usr/share/locale/ru/LC_MESSAGES/org.kde.active.documentviewer.mo
+* /usr/share/locale/sa/LC_MESSAGES/okular.mo
+* /usr/share/locale/sa/LC_MESSAGES/okular_comicbook.mo
+* /usr/share/locale/sa/LC_MESSAGES/okular_djvu.mo
+* /usr/share/locale/sa/LC_MESSAGES/okular_dvi.mo
+* /usr/share/locale/sa/LC_MESSAGES/okular_epub.mo
+* /usr/share/locale/sa/LC_MESSAGES/okular_fax.mo
+* /usr/share/locale/sa/LC_MESSAGES/okular_fictionbook.mo
+* /usr/share/locale/sa/LC_MESSAGES/okular_ghostview.mo
+* /usr/share/locale/sa/LC_MESSAGES/okular_kimgio.mo
+* /usr/share/locale/sa/LC_MESSAGES/okular_markdown.mo
+* /usr/share/locale/sa/LC_MESSAGES/okular_mobi.mo
+* /usr/share/locale/sa/LC_MESSAGES/okular_poppler.mo
+* /usr/share/locale/sa/LC_MESSAGES/okular_tiff.mo
+* /usr/share/locale/sa/LC_MESSAGES/okular_txt.mo
+* /usr/share/locale/sa/LC_MESSAGES/okular_xps.mo
+* /usr/share/locale/sa/LC_MESSAGES/org.kde.active.documentviewer.mo
 * /usr/share/locale/se/LC_MESSAGES/okular.mo
 * /usr/share/locale/se/LC_MESSAGES/okular_djvu.mo
 * /usr/share/locale/se/LC_MESSAGES/okular_dvi.mo

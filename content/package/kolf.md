@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kolf 24.12.3-3"
-version = "24.12.3-3"
+title = "kolf 25.04.0-1"
+version = "25.04.0-1"
 description = "Kolf is a miniature golf game."
-date = "2025-04-06T10:03:04"
+date = "2025-04-18T16:37:44"
 aliases = "/packages/219527"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1270640"
-usize = "3417299"
-sha1sum = "6fe5a1f852e0a64b9fb4c81434201bed3883f2e9"
-depends = "['libkdegames>=24.12.3']"
+size = "1275100"
+usize = "3439204"
+sha1sum = "37f643a44e413cc92266e3990977b504f33cc784"
+depends = "['libkdegames>=25.04.0']"
 +++
 ### Description: 
 Kolf is a miniature golf game.
@@ -49,13 +49,13 @@ Kolf is a miniature golf game.
 * /usr/share/doc/HTML/sv/kolf/index.docbook
 * /usr/share/doc/HTML/uk/kolf/index.cache.bz2
 * /usr/share/doc/HTML/uk/kolf/index.docbook
-* /usr/share/doc/kolf-24.12.3/COPYING
-* /usr/share/doc/kolf-24.12.3/COPYING.DOC
-* /usr/share/doc/kolf-24.12.3/COPYING.LIB
-* /usr/share/doc/kolf-24.12.3/README.objectplugins
-* /usr/share/doc/kolf-24.12.3/README.PACKAGERS
-* /usr/share/doc/kolf-24.12.3/README.pool
-* /usr/share/doc/kolf-24.12.3/TODO
+* /usr/share/doc/kolf-25.04.0/COPYING
+* /usr/share/doc/kolf-25.04.0/COPYING.DOC
+* /usr/share/doc/kolf-25.04.0/COPYING.LIB
+* /usr/share/doc/kolf-25.04.0/README.objectplugins
+* /usr/share/doc/kolf-25.04.0/README.PACKAGERS
+* /usr/share/doc/kolf-25.04.0/README.pool
+* /usr/share/doc/kolf-25.04.0/TODO
 * /usr/share/icons/hicolor/128x128/apps/kolf.png
 * /usr/share/icons/hicolor/16x16/apps/kolf.png
 * /usr/share/icons/hicolor/22x22/apps/kolf.png
@@ -141,6 +141,7 @@ Kolf is a miniature golf game.
 * /usr/share/locale/pt_BR/LC_MESSAGES/kolf.mo
 * /usr/share/locale/ro/LC_MESSAGES/kolf.mo
 * /usr/share/locale/ru/LC_MESSAGES/kolf.mo
+* /usr/share/locale/sa/LC_MESSAGES/kolf.mo
 * /usr/share/locale/se/LC_MESSAGES/kolf.mo
 * /usr/share/locale/sk/LC_MESSAGES/kolf.mo
 * /usr/share/locale/sl/LC_MESSAGES/kolf.mo

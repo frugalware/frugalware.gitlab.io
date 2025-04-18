@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "lskat 24.12.3-3"
-version = "24.12.3-3"
+title = "lskat 25.04.0-1"
+version = "25.04.0-1"
 description = "Lieutenant Skat (from German Offiziersskat) is a fun and engaging card game for two players"
-date = "2025-04-06T10:09:15"
+date = "2025-04-18T16:46:47"
 aliases = "/packages/219342"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1422640"
-usize = "2187085"
-sha1sum = "2dfce5684cdc925448dcf3d7557f0afe5cf28c77"
-depends = "['libkdegames>=24.12.3']"
+size = "1424624"
+usize = "2199717"
+sha1sum = "0808b11668c18e4d35b73d381f532e29e35b7b82"
+depends = "['libkdegames>=25.04.0']"
 +++
 ### Description: 
 Lieutenant Skat (from German Offiziersskat) is a fun and engaging card game for two players
@@ -51,8 +51,8 @@ Lieutenant Skat (from German Offiziersskat) is a fun and engaging card game for 
 * /usr/share/doc/HTML/sv/lskat/index.docbook
 * /usr/share/doc/HTML/uk/lskat/index.cache.bz2
 * /usr/share/doc/HTML/uk/lskat/index.docbook
-* /usr/share/doc/lskat-24.12.3/AUTHORS
-* /usr/share/doc/lskat-24.12.3/README
+* /usr/share/doc/lskat-25.04.0/AUTHORS
+* /usr/share/doc/lskat-25.04.0/README
 * /usr/share/icons/hicolor/128x128/apps/lskat.png
 * /usr/share/icons/hicolor/16x16/apps/lskat.png
 * /usr/share/icons/hicolor/22x22/apps/lskat.png
@@ -115,6 +115,7 @@ Lieutenant Skat (from German Offiziersskat) is a fun and engaging card game for 
 * /usr/share/locale/pt_BR/LC_MESSAGES/lskat.mo
 * /usr/share/locale/ro/LC_MESSAGES/lskat.mo
 * /usr/share/locale/ru/LC_MESSAGES/lskat.mo
+* /usr/share/locale/sa/LC_MESSAGES/lskat.mo
 * /usr/share/locale/se/LC_MESSAGES/lskat.mo
 * /usr/share/locale/sk/LC_MESSAGES/lskat.mo
 * /usr/share/locale/sl/LC_MESSAGES/lskat.mo

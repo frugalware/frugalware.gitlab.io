@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kmag 24.12.3-3"
-version = "24.12.3-3"
+title = "kmag 25.04.0-1"
+version = "25.04.0-1"
 description = "Screen Magnifier"
-date = "2025-04-06T09:58:00"
+date = "2025-04-18T16:30:12"
 aliases = "/packages/153195"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "764968"
-usize = "1602454"
-sha1sum = "7478c344f5eb039ebe1bd6c15f073578977d8b5f"
-depends = "['kio>=6.12.0', 'libqaccessibilityclient']"
+size = "766884"
+usize = "1618588"
+sha1sum = "6ed6609d62d6290b02a9c253c04955ee1c1292ff"
+depends = "['kio>=6.13.0', 'libqaccessibilityclient']"
 +++
 ### Description: 
 Screen Magnifier
@@ -56,8 +56,8 @@ Screen Magnifier
 * /usr/share/doc/HTML/uk/kmag/index.cache.bz2
 * /usr/share/doc/HTML/uk/kmag/index.docbook
 * /usr/share/doc/HTML/uk/kmag/screenshot.png
-* /usr/share/doc/kmag-24.12.3/ChangeLog
-* /usr/share/doc/kmag-24.12.3/README.md
+* /usr/share/doc/kmag-25.04.0/ChangeLog
+* /usr/share/doc/kmag-25.04.0/README.md
 * /usr/share/icons/hicolor/16x16/apps/kmag.png
 * /usr/share/icons/hicolor/32x32/apps/kmag.png
 * /usr/share/icons/hicolor/scalable/apps/kmag.svg
@@ -119,6 +119,7 @@ Screen Magnifier
 * /usr/share/locale/pt_BR/LC_MESSAGES/kmag.mo
 * /usr/share/locale/ro/LC_MESSAGES/kmag.mo
 * /usr/share/locale/ru/LC_MESSAGES/kmag.mo
+* /usr/share/locale/sa/LC_MESSAGES/kmag.mo
 * /usr/share/locale/se/LC_MESSAGES/kmag.mo
 * /usr/share/locale/sk/LC_MESSAGES/kmag.mo
 * /usr/share/locale/sl/LC_MESSAGES/kmag.mo
