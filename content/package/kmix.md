@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kmix 24.12.3-3"
-version = "24.12.3-3"
+title = "kmix 25.04.0-1"
+version = "25.04.0-1"
 description = "KDE volume control program"
-date = "2025-04-05T22:08:33"
+date = "2025-04-18T14:54:32"
 aliases = "/packages/219009"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1285372"
-usize = "3203247"
-sha1sum = "901f334ffa61f3d22bc7d85daa45abd8eafc8648"
-depends = "['knotifications>=6.12.0', 'kstatusnotifieritem>=6.12.0', 'kxmlgui>=6.12.0', 'solid>=6.12.0']"
+size = "1291844"
+usize = "3253862"
+sha1sum = "48bba9cf8fa0a5d88cdbcd9cb2a6d382da77da3e"
+depends = "['knotifications>=6.13.0', 'kstatusnotifieritem>=6.13.0', 'kxmlgui>=6.13.0', 'solid>=6.13.0']"
 +++
 ### Description: 
 KDE volume control program
@@ -22,7 +22,7 @@ KDE volume control program
 * /usr/bin/kmix
 * /usr/bin/kmixctrl
 * /usr/bin/kmixremote
-* /usr/lib/libkmixcore.so.24.12.3
+* /usr/lib/libkmixcore.so.25.04.0
 * /usr/lib/libkmixcore.so.6
 * /usr/share/applications/org.kde.kmix.desktop
 * /usr/share/config.kcfg/kmixsettings.kcfg
@@ -107,13 +107,13 @@ KDE volume control program
 * /usr/share/doc/HTML/uk/kmix/kmix-master.png
 * /usr/share/doc/HTML/uk/kmix/kmix-options.png
 * /usr/share/doc/HTML/uk/kmix/kmix.png
-* /usr/share/doc/kmix-24.12.3/AUTHORS
-* /usr/share/doc/kmix-24.12.3/ChangeLog
-* /usr/share/doc/kmix-24.12.3/COPYING
-* /usr/share/doc/kmix-24.12.3/COPYING.DOC
-* /usr/share/doc/kmix-24.12.3/COPYING.LIB
-* /usr/share/doc/kmix-24.12.3/README.oss4
-* /usr/share/doc/kmix-24.12.3/TODO
+* /usr/share/doc/kmix-25.04.0/AUTHORS
+* /usr/share/doc/kmix-25.04.0/ChangeLog
+* /usr/share/doc/kmix-25.04.0/COPYING
+* /usr/share/doc/kmix-25.04.0/COPYING.DOC
+* /usr/share/doc/kmix-25.04.0/COPYING.LIB
+* /usr/share/doc/kmix-25.04.0/README.oss4
+* /usr/share/doc/kmix-25.04.0/TODO
 * /usr/share/icons/hicolor/128x128/actions/kmix.png
 * /usr/share/icons/hicolor/16x16/actions/kmix.png
 * /usr/share/icons/hicolor/32x32/actions/kmix.png
@@ -201,6 +201,7 @@ KDE volume control program
 * /usr/share/locale/pt_BR/LC_MESSAGES/kmix.mo
 * /usr/share/locale/ro/LC_MESSAGES/kmix.mo
 * /usr/share/locale/ru/LC_MESSAGES/kmix.mo
+* /usr/share/locale/sa/LC_MESSAGES/kmix.mo
 * /usr/share/locale/se/LC_MESSAGES/kmix.mo
 * /usr/share/locale/sk/LC_MESSAGES/kmix.mo
 * /usr/share/locale/sl/LC_MESSAGES/kmix.mo

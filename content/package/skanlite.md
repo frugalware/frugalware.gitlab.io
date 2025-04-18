@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "skanlite 24.12.3-3"
-version = "24.12.3-3"
+title = "skanlite 25.04.0-1"
+version = "25.04.0-1"
 description = "Image Scanning Application for KDE"
-date = "2025-04-05T22:11:19"
+date = "2025-04-18T14:58:05"
 aliases = "/packages/103475"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2483308"
-usize = "3115751"
-sha1sum = "667a36498d5e957bb2e9501564751bc182024f3e"
-depends = "['kcoreaddons>=6.12.0', 'ki18n>=6.12.0', 'kio>=6.12.0', 'kxmlgui>=6.12.0', 'libksane>=24.12.3']"
+size = "2484800"
+usize = "3124795"
+sha1sum = "44523d0ada28ee8e5ef7e8c17ee8764335135a7a"
+depends = "['kcoreaddons>=6.13.0', 'ki18n>=6.13.0', 'kio>=6.13.0', 'kxmlgui>=6.13.0', 'libksane>=25.04.0']"
 +++
 ### Description: 
 Image Scanning Application for KDE
@@ -140,6 +140,7 @@ Image Scanning Application for KDE
 * /usr/share/locale/pt_BR/LC_MESSAGES/skanlite.mo
 * /usr/share/locale/ro/LC_MESSAGES/skanlite.mo
 * /usr/share/locale/ru/LC_MESSAGES/skanlite.mo
+* /usr/share/locale/sa/LC_MESSAGES/skanlite.mo
 * /usr/share/locale/sk/LC_MESSAGES/skanlite.mo
 * /usr/share/locale/sl/LC_MESSAGES/skanlite.mo
 * /usr/share/locale/sq/LC_MESSAGES/skanlite.mo

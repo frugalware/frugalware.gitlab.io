@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdepim-addons 24.12.3-3"
-version = "24.12.3-3"
+title = "kdepim-addons 25.04.0-1"
+version = "25.04.0-1"
 description = "Addons for PIM release-service."
-date = "2025-04-05T22:14:37"
+date = "2025-04-18T15:03:59"
 aliases = "/packages/219159"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1346680"
-usize = "8383571"
-sha1sum = "e491e0ca2bdc46eb61788f176527ff6700b3eefe"
-depends = "['akonadi-import-wizard>=24.12.3', 'discount>=3.0.0', 'incidenceeditor>=24.12.3', 'kaddressbook>=24.12.3', 'kitinerary>=24.12.3', 'kontactinterface>=24.12.3', 'ktnef>=24.12.3', 'libksieve>=24.12.3', 'mailcommon>=24.12.3', 'poppler-qt6']"
+size = "1368908"
+usize = "8583570"
+sha1sum = "51797100a0373e8dc0d3452b8580fbaec29c6e11"
+depends = "['akonadi-import-wizard>=25.04.0', 'discount>=3.0.0', 'incidenceeditor>=25.04.0', 'kaddressbook>=25.04.0', 'kitinerary>=25.04.0', 'kontactinterface>=25.04.0', 'ktnef>=25.04.0', 'libksieve>=25.04.0', 'mailcommon>=25.04.0', 'poppler-qt6']"
 +++
 ### Description: 
 Addons for PIM release-service.
@@ -24,25 +24,25 @@ Addons for PIM release-service.
 * /usr/bin/kmail_fprot.sh
 * /usr/bin/kmail_sav.sh
 * /usr/lib/libakonadidatasetools.so.6
-* /usr/lib/libakonadidatasetools.so.6.3.3
+* /usr/lib/libakonadidatasetools.so.6.4.0
 * /usr/lib/libdkimverifyconfigure.so.6
-* /usr/lib/libdkimverifyconfigure.so.6.3.3
+* /usr/lib/libdkimverifyconfigure.so.6.4.0
 * /usr/lib/libexpireaccounttrashfolderconfig.so.6
-* /usr/lib/libexpireaccounttrashfolderconfig.so.6.3.3
+* /usr/lib/libexpireaccounttrashfolderconfig.so.6.4.0
 * /usr/lib/libfolderconfiguresettings.so.6
-* /usr/lib/libfolderconfiguresettings.so.6.3.3
+* /usr/lib/libfolderconfiguresettings.so.6.4.0
 * /usr/lib/libkaddressbookmergelibprivate.so.6
-* /usr/lib/libkaddressbookmergelibprivate.so.6.3.3
+* /usr/lib/libkaddressbookmergelibprivate.so.6.4.0
 * /usr/lib/libkmailconfirmbeforedeleting.so.6
-* /usr/lib/libkmailconfirmbeforedeleting.so.6.3.3
+* /usr/lib/libkmailconfirmbeforedeleting.so.6.4.0
 * /usr/lib/libkmailmarkdown.so.6
-* /usr/lib/libkmailmarkdown.so.6.3.3
+* /usr/lib/libkmailmarkdown.so.6.4.0
 * /usr/lib/libkmailquicktextpluginprivate.so.6
-* /usr/lib/libkmailquicktextpluginprivate.so.6.3.3
+* /usr/lib/libkmailquicktextpluginprivate.so.6.4.0
 * /usr/lib/libopenurlwithconfigure.so.6
-* /usr/lib/libopenurlwithconfigure.so.6.3.3
+* /usr/lib/libopenurlwithconfigure.so.6.4.0
 * /usr/lib/libshorturlpluginprivate.so.6
-* /usr/lib/libshorturlpluginprivate.so.6.3.3
+* /usr/lib/libshorturlpluginprivate.so.6.4.0
 * /usr/lib/qt6/plugins/pim6/akonadi/emailaddressselectionldapdialogplugin.so
 * /usr/lib/qt6/plugins/pim6/contacteditor/editorpageplugins/cryptopageplugin.so
 * /usr/lib/qt6/plugins/pim6/importwizard/evolutionv1importerplugin.so
@@ -59,9 +59,11 @@ Addons for PIM release-service.
 * /usr/lib/qt6/plugins/pim6/kaddressbook/mainview/kaddressbook_searchduplicatesplugin.so
 * /usr/lib/qt6/plugins/pim6/kaddressbook/mainview/kaddressbook_sendmailplugin.so
 * /usr/lib/qt6/plugins/pim6/kaddressbook/mainview/kaddressbook_sendvcardsplugin.so
+* /usr/lib/qt6/plugins/pim6/kcms/kleopatra/kcm_kmail_gnupgsystem.so
 * /usr/lib/qt6/plugins/pim6/kmail/mainview/kmail_akonadidatabasetoolplugin.so
 * /usr/lib/qt6/plugins/pim6/kmail/mainview/kmail_antispamplugin.so
 * /usr/lib/qt6/plugins/pim6/kmail/mainview/kmail_antivirusplugin.so
+* /usr/lib/qt6/plugins/pim6/kmail/mainview/kmail_checkfoldersizeaccount.so
 * /usr/lib/qt6/plugins/pim6/kmail/mainview/kmail_expertplugin.so
 * /usr/lib/qt6/plugins/pim6/kmail/plugincheckbeforesend/kmail_automaticaddcontactseditorplugin.so
 * /usr/lib/qt6/plugins/pim6/kmail/plugincheckbeforesend/kmail_checkbeforesendeditorplugin.so
@@ -605,9 +607,31 @@ Addons for PIM release-service.
 * /usr/share/locale/he/LC_MESSAGES/messageviewer_text_vcard_plugin.mo
 * /usr/share/locale/he/LC_MESSAGES/sieveeditor_plugins.mo
 * /usr/share/locale/he/LC_MESSAGES/webengineurlinterceptor.mo
+* /usr/share/locale/hi/LC_MESSAGES/cryptopageplugin.mo
+* /usr/share/locale/hi/LC_MESSAGES/customtoolsplugin.mo
+* /usr/share/locale/hi/LC_MESSAGES/importwizard_plugins.mo
+* /usr/share/locale/hi/LC_MESSAGES/kaddressbook_importexportplugins.mo
+* /usr/share/locale/hi/LC_MESSAGES/kaddressbook_plugins.mo
+* /usr/share/locale/hi/LC_MESSAGES/kmailtransport_plugins.mo
+* /usr/share/locale/hi/LC_MESSAGES/kmail_checkbeforedeleting_plugins.mo
+* /usr/share/locale/hi/LC_MESSAGES/kmail_editorconvertertext_plugins.mo
+* /usr/share/locale/hi/LC_MESSAGES/kmail_editorgrammar_plugins.mo
+* /usr/share/locale/hi/LC_MESSAGES/kmail_editorinit_plugins.mo
+* /usr/share/locale/hi/LC_MESSAGES/kmail_editorsendcheck_plugins.mo
+* /usr/share/locale/hi/LC_MESSAGES/kmail_editor_plugins.mo
+* /usr/share/locale/hi/LC_MESSAGES/kmail_plugins.mo
 * /usr/share/locale/hi/LC_MESSAGES/korganizer_plugins.mo
+* /usr/share/locale/hi/LC_MESSAGES/messageviewerconfiguresettingsplugins.mo
+* /usr/share/locale/hi/LC_MESSAGES/messageviewerheaderplugins.mo
+* /usr/share/locale/hi/LC_MESSAGES/messageviewerplugins.mo
+* /usr/share/locale/hi/LC_MESSAGES/messageviewer_application_gnupgwks_plugin.mo
+* /usr/share/locale/hi/LC_MESSAGES/messageviewer_application_mstnef_plugin.mo
+* /usr/share/locale/hi/LC_MESSAGES/messageviewer_bodypartformatter_pkpass.mo
+* /usr/share/locale/hi/LC_MESSAGES/messageviewer_semantic_plugin.mo
 * /usr/share/locale/hi/LC_MESSAGES/messageviewer_text_calendar_plugin.mo
 * /usr/share/locale/hi/LC_MESSAGES/messageviewer_text_vcard_plugin.mo
+* /usr/share/locale/hi/LC_MESSAGES/sieveeditor_plugins.mo
+* /usr/share/locale/hi/LC_MESSAGES/webengineurlinterceptor.mo
 * /usr/share/locale/hne/LC_MESSAGES/korganizer_plugins.mo
 * /usr/share/locale/hne/LC_MESSAGES/messageviewer_text_calendar_plugin.mo
 * /usr/share/locale/hne/LC_MESSAGES/messageviewer_text_vcard_plugin.mo
@@ -970,6 +994,31 @@ Addons for PIM release-service.
 * /usr/share/locale/ru/LC_MESSAGES/messageviewer_text_vcard_plugin.mo
 * /usr/share/locale/ru/LC_MESSAGES/sieveeditor_plugins.mo
 * /usr/share/locale/ru/LC_MESSAGES/webengineurlinterceptor.mo
+* /usr/share/locale/sa/LC_MESSAGES/cryptopageplugin.mo
+* /usr/share/locale/sa/LC_MESSAGES/customtoolsplugin.mo
+* /usr/share/locale/sa/LC_MESSAGES/importwizard_plugins.mo
+* /usr/share/locale/sa/LC_MESSAGES/kaddressbook_importexportplugins.mo
+* /usr/share/locale/sa/LC_MESSAGES/kaddressbook_plugins.mo
+* /usr/share/locale/sa/LC_MESSAGES/kmailtransport_plugins.mo
+* /usr/share/locale/sa/LC_MESSAGES/kmail_checkbeforedeleting_plugins.mo
+* /usr/share/locale/sa/LC_MESSAGES/kmail_editorconvertertext_plugins.mo
+* /usr/share/locale/sa/LC_MESSAGES/kmail_editorgrammar_plugins.mo
+* /usr/share/locale/sa/LC_MESSAGES/kmail_editorinit_plugins.mo
+* /usr/share/locale/sa/LC_MESSAGES/kmail_editorsendcheck_plugins.mo
+* /usr/share/locale/sa/LC_MESSAGES/kmail_editor_plugins.mo
+* /usr/share/locale/sa/LC_MESSAGES/kmail_plugins.mo
+* /usr/share/locale/sa/LC_MESSAGES/korganizer_plugins.mo
+* /usr/share/locale/sa/LC_MESSAGES/messageviewerconfiguresettingsplugins.mo
+* /usr/share/locale/sa/LC_MESSAGES/messageviewerheaderplugins.mo
+* /usr/share/locale/sa/LC_MESSAGES/messageviewerplugins.mo
+* /usr/share/locale/sa/LC_MESSAGES/messageviewer_application_gnupgwks_plugin.mo
+* /usr/share/locale/sa/LC_MESSAGES/messageviewer_application_mstnef_plugin.mo
+* /usr/share/locale/sa/LC_MESSAGES/messageviewer_bodypartformatter_pkpass.mo
+* /usr/share/locale/sa/LC_MESSAGES/messageviewer_semantic_plugin.mo
+* /usr/share/locale/sa/LC_MESSAGES/messageviewer_text_calendar_plugin.mo
+* /usr/share/locale/sa/LC_MESSAGES/messageviewer_text_vcard_plugin.mo
+* /usr/share/locale/sa/LC_MESSAGES/sieveeditor_plugins.mo
+* /usr/share/locale/sa/LC_MESSAGES/webengineurlinterceptor.mo
 * /usr/share/locale/se/LC_MESSAGES/kaddressbook_importexportplugins.mo
 * /usr/share/locale/se/LC_MESSAGES/korganizer_plugins.mo
 * /usr/share/locale/se/LC_MESSAGES/messageviewer_text_calendar_plugin.mo

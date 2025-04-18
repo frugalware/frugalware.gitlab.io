@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "lokalize 24.12.3-3"
-version = "24.12.3-3"
+title = "lokalize 25.04.0-1"
+version = "25.04.0-1"
 description = "Computer-Aided Translation System."
-date = "2025-04-05T22:05:33"
+date = "2025-04-18T14:34:35"
 aliases = "/packages/118455"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2297668"
-usize = "7888988"
-sha1sum = "bb1a9db5f17dd3c34ad385d77ff8a50a30a678d1"
-depends = "['hunspell>=1.7.0', 'kio>=6.12.0']"
+size = "2316856"
+usize = "8013431"
+sha1sum = "a655d1736de5d05a6c769045136f6d8fa148b704"
+depends = "['hunspell>=1.7.0', 'kio>=6.13.0']"
 +++
 ### Description: 
 Computer-Aided Translation System.
@@ -68,8 +68,8 @@ Computer-Aided Translation System.
 * /usr/share/doc/HTML/uk/lokalize/project_overview.png
 * /usr/share/doc/HTML/uk/lokalize/sync.png
 * /usr/share/doc/HTML/uk/lokalize/tmview.png
-* /usr/share/doc/lokalize-24.12.3/README.md
-* /usr/share/doc/lokalize-24.12.3/TODO
+* /usr/share/doc/lokalize-25.04.0/README.md
+* /usr/share/doc/lokalize-25.04.0/TODO
 * /usr/share/icons/hicolor/128x128/apps/lokalize.png
 * /usr/share/icons/hicolor/32x32/apps/lokalize.png
 * /usr/share/icons/hicolor/64x64/apps/lokalize.png
@@ -97,6 +97,7 @@ Computer-Aided Translation System.
 * /usr/share/locale/ga/LC_MESSAGES/lokalize.mo
 * /usr/share/locale/gl/LC_MESSAGES/lokalize.mo
 * /usr/share/locale/he/LC_MESSAGES/lokalize.mo
+* /usr/share/locale/hi/LC_MESSAGES/lokalize.mo
 * /usr/share/locale/hr/LC_MESSAGES/lokalize.mo
 * /usr/share/locale/hu/LC_MESSAGES/lokalize.mo
 * /usr/share/locale/ia/LC_MESSAGES/lokalize.mo
@@ -106,6 +107,7 @@ Computer-Aided Translation System.
 * /usr/share/locale/it/LC_MESSAGES/lokalize.mo
 * /usr/share/locale/ja/LC_MESSAGES/lokalize.mo
 * /usr/share/locale/ka/LC_MESSAGES/lokalize.mo
+* /usr/share/locale/kab/LC_MESSAGES/lokalize.mo
 * /usr/share/locale/kk/LC_MESSAGES/lokalize.mo
 * /usr/share/locale/km/LC_MESSAGES/lokalize.mo
 * /usr/share/locale/ko/LC_MESSAGES/lokalize.mo
@@ -126,6 +128,7 @@ Computer-Aided Translation System.
 * /usr/share/locale/pt_BR/LC_MESSAGES/lokalize.mo
 * /usr/share/locale/ro/LC_MESSAGES/lokalize.mo
 * /usr/share/locale/ru/LC_MESSAGES/lokalize.mo
+* /usr/share/locale/sa/LC_MESSAGES/lokalize.mo
 * /usr/share/locale/sk/LC_MESSAGES/lokalize.mo
 * /usr/share/locale/sl/LC_MESSAGES/lokalize.mo
 * /usr/share/locale/sq/LC_MESSAGES/lokalize.mo

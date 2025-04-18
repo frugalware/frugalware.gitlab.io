@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kitinerary 24.12.3-4"
-version = "24.12.3-4"
+title = "kitinerary 25.04.0-1"
+version = "25.04.0-1"
 description = "Data model and extraction system for travel reservation information"
-date = "2025-04-03T09:27:36"
+date = "2025-04-18T15:00:47"
 aliases = "/packages/219723"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1442208"
-usize = "4178920"
-sha1sum = "1efcd9de5ec391f88f3c1ba6cb2da94d3a0634a8"
-depends = "['kcalendarcore>=6.12.0', 'kcontacts>=6.12.0', 'ki18n>=6.12.0', 'kmime>=6.12.0', 'kpkpass>=24.12.3', 'libphonenumber>=9.0.2', 'poppler>=25.04.0', 'zxing-cpp']"
+size = "1520036"
+usize = "4795211"
+sha1sum = "85d715651fb522544d85348ea6c51f90eb10191d"
+depends = "['kcalendarcore>=6.13.0', 'kcontacts>=6.13.0', 'ki18n>=6.13.0', 'kmime>=6.13.0', 'kpkpass>=25.04.0', 'libphonenumber>=9.0.2', 'poppler>=25.04.0', 'zxing-cpp']"
 reverse_depends = "['itinerary', 'kdepim-addons']"
 +++
 ### Description: 
@@ -172,9 +172,9 @@ Data model and extraction system for travel reservation information
 * /usr/lib/kitinerary/kf6/kitinerary-extractor
 * /usr/lib/libKPim6Itinerary.so
 * /usr/lib/libKPim6Itinerary.so.6
-* /usr/lib/libKPim6Itinerary.so.6.3.3
-* /usr/share/doc/kitinerary-24.12.3/README.md
-* /usr/share/doc/kitinerary-24.12.3/README.md.license
+* /usr/lib/libKPim6Itinerary.so.6.4.0
+* /usr/share/doc/kitinerary-25.04.0/README.md
+* /usr/share/doc/kitinerary-25.04.0/README.md.license
 * /usr/share/locale/ar/LC_MESSAGES/kitinerary6.mo
 * /usr/share/locale/ast/LC_MESSAGES/kitinerary6.mo
 * /usr/share/locale/ca/LC_MESSAGES/kitinerary6.mo
@@ -191,6 +191,7 @@ Data model and extraction system for travel reservation information
 * /usr/share/locale/fr/LC_MESSAGES/kitinerary6.mo
 * /usr/share/locale/gl/LC_MESSAGES/kitinerary6.mo
 * /usr/share/locale/he/LC_MESSAGES/kitinerary6.mo
+* /usr/share/locale/hi/LC_MESSAGES/kitinerary6.mo
 * /usr/share/locale/ia/LC_MESSAGES/kitinerary6.mo
 * /usr/share/locale/it/LC_MESSAGES/kitinerary6.mo
 * /usr/share/locale/ja/LC_MESSAGES/kitinerary6.mo
@@ -204,6 +205,7 @@ Data model and extraction system for travel reservation information
 * /usr/share/locale/pt/LC_MESSAGES/kitinerary6.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/kitinerary6.mo
 * /usr/share/locale/ru/LC_MESSAGES/kitinerary6.mo
+* /usr/share/locale/sa/LC_MESSAGES/kitinerary6.mo
 * /usr/share/locale/sk/LC_MESSAGES/kitinerary6.mo
 * /usr/share/locale/sl/LC_MESSAGES/kitinerary6.mo
 * /usr/share/locale/sv/LC_MESSAGES/kitinerary6.mo

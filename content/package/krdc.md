@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "krdc 24.12.3-3"
-version = "24.12.3-3"
+title = "krdc 25.04.0-1"
+version = "25.04.0-1"
 description = "KRDC is a Remote Desktop Client for KDE."
-date = "2025-04-05T22:04:28"
+date = "2025-04-18T14:29:56"
 aliases = "/packages/74081"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1658688"
-usize = "3634917"
-sha1sum = "8a123161476d11baa3aca5f47bb114600bb88ee9"
-depends = "['freerdp2', 'kcmutils>=6.12.0', 'kdnssd>=6.12.0', 'knotifyconfig>=6.12.0', 'kstatusnotifieritem>=6.12.0', 'libvncserver', 'plasma-activities>=6.3.4']"
+size = "1681052"
+usize = "3729582"
+sha1sum = "16df906601945219939c0a5f4e18006fad4234c4"
+depends = "['freerdp', 'kcmutils>=6.13.0', 'kdnssd>=6.13.0', 'knotifyconfig>=6.13.0', 'kstatusnotifieritem>=6.13.0', 'libvncserver', 'plasma-activities>=6.3.4']"
 +++
 ### Description: 
 KRDC is a Remote Desktop Client for KDE.
@@ -23,7 +23,7 @@ KRDC is a Remote Desktop Client for KDE.
 * /usr/include/krdc/remoteviewfactory.h
 * /usr/include/krdccore_export.h
 * /usr/lib/libkrdccore.so
-* /usr/lib/libkrdccore.so.24.12.3
+* /usr/lib/libkrdccore.so.25.04.0
 * /usr/lib/libkrdccore.so.5
 * /usr/lib/qt6/plugins/krdc/kcms/libkcm_krdc_rdpplugin.so
 * /usr/lib/qt6/plugins/krdc/kcms/libkcm_krdc_vncplugin.so
@@ -107,6 +107,8 @@ KRDC is a Remote Desktop Client for KDE.
 * /usr/share/doc/HTML/sv/krdc/index.docbook
 * /usr/share/doc/HTML/uk/krdc/index.cache.bz2
 * /usr/share/doc/HTML/uk/krdc/index.docbook
+* /usr/share/doc/krdc-25.04.0/README.md
+* /usr/share/icons/hicolor/scalable/apps/krdc.svg
 * /usr/share/locale/af/LC_MESSAGES/krdc.mo
 * /usr/share/locale/ar/LC_MESSAGES/krdc.mo
 * /usr/share/locale/be/LC_MESSAGES/krdc.mo
@@ -162,6 +164,7 @@ KRDC is a Remote Desktop Client for KDE.
 * /usr/share/locale/pt_BR/LC_MESSAGES/krdc.mo
 * /usr/share/locale/ro/LC_MESSAGES/krdc.mo
 * /usr/share/locale/ru/LC_MESSAGES/krdc.mo
+* /usr/share/locale/sa/LC_MESSAGES/krdc.mo
 * /usr/share/locale/se/LC_MESSAGES/krdc.mo
 * /usr/share/locale/sk/LC_MESSAGES/krdc.mo
 * /usr/share/locale/sl/LC_MESSAGES/krdc.mo
