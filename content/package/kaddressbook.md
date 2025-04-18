@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kaddressbook 24.12.3-3"
-version = "24.12.3-3"
+title = "kaddressbook 25.04.0-1"
+version = "25.04.0-1"
 description = "Contact Manager"
-date = "2025-04-05T21:26:08"
+date = "2025-04-18T11:13:10"
 aliases = "/packages/218928"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3429124"
-usize = "6620374"
-sha1sum = "f2dd2a9a39e4c9f215a245bbaee616f005c1952b"
-depends = "['kontactinterface>=24.12.3', 'mailcommon>=24.12.3']"
+size = "3440156"
+usize = "6713501"
+sha1sum = "50f9646a73f5eff529b238331b46441e919336f7"
+depends = "['kontactinterface>=25.04.0', 'mailcommon>=25.04.0']"
 reverse_depends = "['kdepim-addons']"
 +++
 ### Description: 
@@ -44,11 +44,12 @@ Contact Manager
 * /usr/lib/cmake/KPim6AddressbookImportExport/KPim6AddressbookImportExportTargets-release.cmake
 * /usr/lib/cmake/KPim6AddressbookImportExport/KPim6AddressbookImportExportTargets.cmake
 * /usr/lib/libkaddressbookprivate.so.6
-* /usr/lib/libkaddressbookprivate.so.6.3.3
+* /usr/lib/libkaddressbookprivate.so.6.4.0
 * /usr/lib/libKPim6AddressbookImportExport.so
 * /usr/lib/libKPim6AddressbookImportExport.so.6
-* /usr/lib/libKPim6AddressbookImportExport.so.6.3.3
+* /usr/lib/libKPim6AddressbookImportExport.so.6.4.0
 * /usr/lib/qt6/plugins/kaddressbookpart.so
+* /usr/lib/qt6/plugins/pim6/kcms/kaddressbook/kaddressbook_config_ldap.so
 * /usr/lib/qt6/plugins/pim6/kcms/kaddressbook/kaddressbook_config_plugins.so
 * /usr/lib/qt6/plugins/pim6/kontact/kontact_kaddressbookplugin.so
 * /usr/share/applications/kaddressbook-importer.desktop
@@ -317,6 +318,7 @@ Contact Manager
 * /usr/share/locale/ga/LC_MESSAGES/kaddressbook.mo
 * /usr/share/locale/gl/LC_MESSAGES/kaddressbook.mo
 * /usr/share/locale/he/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/hi/LC_MESSAGES/kaddressbook.mo
 * /usr/share/locale/hr/LC_MESSAGES/kaddressbook.mo
 * /usr/share/locale/hu/LC_MESSAGES/kaddressbook.mo
 * /usr/share/locale/ia/LC_MESSAGES/kaddressbook.mo
@@ -344,6 +346,7 @@ Contact Manager
 * /usr/share/locale/pt_BR/LC_MESSAGES/kaddressbook.mo
 * /usr/share/locale/ro/LC_MESSAGES/kaddressbook.mo
 * /usr/share/locale/ru/LC_MESSAGES/kaddressbook.mo
+* /usr/share/locale/sa/LC_MESSAGES/kaddressbook.mo
 * /usr/share/locale/se/LC_MESSAGES/kaddressbook.mo
 * /usr/share/locale/sk/LC_MESSAGES/kaddressbook.mo
 * /usr/share/locale/sl/LC_MESSAGES/kaddressbook.mo

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "akregator 24.12.3-3"
-version = "24.12.3-3"
+title = "akregator 25.04.0-1"
+version = "25.04.0-1"
 description = "Feed Reader"
-date = "2025-04-05T21:24:57"
+date = "2025-04-18T11:11:40"
 aliases = "/packages/218925"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2370584"
-usize = "6413670"
-sha1sum = "87f40593aed05778dc532b5667aac1fdbcd11cab"
-depends = "['knotifyconfig>=6.12.0', 'kontactinterface>=24.12.3', 'kstatusnotifieritem>=6.12.0', 'ktexteditor>=6.12.0', 'messagelib>=24.12.3', 'syndication>=6.12.0']"
+size = "2378984"
+usize = "6465118"
+sha1sum = "2cd2a7b627f3d0dad9cf44bcf530fc03b775ab2c"
+depends = "['knotifyconfig>=6.13.0', 'kontactinterface>=25.04.0', 'kstatusnotifieritem>=6.13.0', 'ktexteditor>=6.13.0', 'messagelib>=25.04.0', 'syndication>=6.13.0']"
 +++
 ### Description: 
 Feed Reader
@@ -20,9 +20,9 @@ Feed Reader
 * /usr/bin/akregator
 * /usr/bin/akregatorstorageexporter
 * /usr/lib/libakregatorinterfaces.so.6
-* /usr/lib/libakregatorinterfaces.so.6.3.3
+* /usr/lib/libakregatorinterfaces.so.6.4.0
 * /usr/lib/libakregatorprivate.so.6
-* /usr/lib/libakregatorprivate.so.6.3.3
+* /usr/lib/libakregatorprivate.so.6.4.0
 * /usr/lib/qt6/plugins/akregatorpart.so
 * /usr/lib/qt6/plugins/pim6/kcms/akregator/akregator_config_advanced.so
 * /usr/lib/qt6/plugins/pim6/kcms/akregator/akregator_config_appearance.so
@@ -35,8 +35,8 @@ Feed Reader
 * /usr/share/applications/org.kde.akregator.desktop
 * /usr/share/config.kcfg/akregator.kcfg
 * /usr/share/dbus-1/interfaces/org.kde.akregator.part.xml
-* /usr/share/doc/akregator-24.12.3/AUTHORS
-* /usr/share/doc/akregator-24.12.3/README
+* /usr/share/doc/akregator-25.04.0/AUTHORS
+* /usr/share/doc/akregator-25.04.0/README
 * /usr/share/doc/HTML/ca/akregator/add-feed.png
 * /usr/share/doc/HTML/ca/akregator/add-feed2.png
 * /usr/share/doc/HTML/ca/akregator/add-folder.png
@@ -177,6 +177,7 @@ Feed Reader
 * /usr/share/locale/pt_BR/LC_MESSAGES/akregator.mo
 * /usr/share/locale/ro/LC_MESSAGES/akregator.mo
 * /usr/share/locale/ru/LC_MESSAGES/akregator.mo
+* /usr/share/locale/sa/LC_MESSAGES/akregator.mo
 * /usr/share/locale/se/LC_MESSAGES/akregator.mo
 * /usr/share/locale/sk/LC_MESSAGES/akregator.mo
 * /usr/share/locale/sl/LC_MESSAGES/akregator.mo

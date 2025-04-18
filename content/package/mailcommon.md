@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "mailcommon 24.12.3-3"
-version = "24.12.3-3"
+title = "mailcommon 25.04.0-1"
+version = "25.04.0-1"
 description = "KdePim mail-common files"
-date = "2025-04-05T21:21:07"
+date = "2025-04-18T11:06:47"
 aliases = "/packages/218481"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "818904"
-usize = "4241540"
-sha1sum = "ec508bf5c044e996c447a097460e3c8a34057a6d"
-depends = "['mailimporter>=24.12.3', 'messagelib>=24.12.3']"
+size = "840504"
+usize = "4421227"
+sha1sum = "6797a6fd3e804ac338cd6137cd510aef3e600994"
+depends = "['mailimporter>=25.04.0', 'messagelib>=25.04.0']"
 reverse_depends = "['akonadi-import-wizard', 'kaddressbook', 'kalarm', 'kdepim-addons', 'kmail', 'kmail-account-wizard', 'kontact', 'korganizer', 'mbox-importer', 'merkuro', 'pim-data-exporter']"
 +++
 ### Description: 
@@ -133,7 +133,7 @@ KdePim mail-common files
 * /usr/lib/cmake/KPim6MailCommon/KPim6MailCommonTargets.cmake
 * /usr/lib/libKPim6MailCommon.so
 * /usr/lib/libKPim6MailCommon.so.6
-* /usr/lib/libKPim6MailCommon.so.6.3.3
+* /usr/lib/libKPim6MailCommon.so.6.4.0
 * /usr/lib/qt6/plugins/designer/mailcommon6widgets.so
 * /usr/share/locale/ar/LC_MESSAGES/libmailcommon6.mo
 * /usr/share/locale/ast/LC_MESSAGES/libmailcommon6.mo
@@ -154,6 +154,7 @@ KdePim mail-common files
 * /usr/share/locale/fr/LC_MESSAGES/libmailcommon6.mo
 * /usr/share/locale/ga/LC_MESSAGES/libmailcommon6.mo
 * /usr/share/locale/gl/LC_MESSAGES/libmailcommon6.mo
+* /usr/share/locale/hi/LC_MESSAGES/libmailcommon6.mo
 * /usr/share/locale/hr/LC_MESSAGES/libmailcommon6.mo
 * /usr/share/locale/hu/LC_MESSAGES/libmailcommon6.mo
 * /usr/share/locale/ia/LC_MESSAGES/libmailcommon6.mo
@@ -174,6 +175,7 @@ KdePim mail-common files
 * /usr/share/locale/pt_BR/LC_MESSAGES/libmailcommon6.mo
 * /usr/share/locale/ro/LC_MESSAGES/libmailcommon6.mo
 * /usr/share/locale/ru/LC_MESSAGES/libmailcommon6.mo
+* /usr/share/locale/sa/LC_MESSAGES/libmailcommon6.mo
 * /usr/share/locale/se/LC_MESSAGES/libmailcommon6.mo
 * /usr/share/locale/sk/LC_MESSAGES/libmailcommon6.mo
 * /usr/share/locale/sl/LC_MESSAGES/libmailcommon6.mo

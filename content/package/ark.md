@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ark 24.12.3-3"
-version = "24.12.3-3"
+title = "ark 25.04.0-1"
+version = "25.04.0-1"
 description = "KDE Archiving Tool."
-date = "2025-04-05T20:57:14"
+date = "2025-04-18T10:34:34"
 aliases = "/packages/153200"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1406712"
-usize = "5119107"
-sha1sum = "f53a997367b99c2e447140f37bcad77aa137ae90"
-depends = "['kfilemetadata>=6.12.0', 'kitemmodels>=6.12.0', 'kparts>=6.12.0', 'kpty>=6.12.0', 'libarchive>=3.1.2-8', 'libzip']"
+size = "1415560"
+usize = "5182246"
+sha1sum = "82aecb1fda534523f98f7d2f4ae86df4f5cdced0"
+depends = "['kfilemetadata>=6.13.0', 'kitemmodels>=6.13.0', 'kparts>=6.13.0', 'kpty>=6.13.0', 'libarchive>=3.1.2-8', 'libzip']"
 +++
 ### Description: 
 KDE Archiving Tool.
@@ -19,8 +19,8 @@ KDE Archiving Tool.
 ### Files: 
 * /etc/xdg/arkrc
 * /usr/bin/ark
-* /usr/lib/libkerfuffle.so.24
-* /usr/lib/libkerfuffle.so.24.12.3
+* /usr/lib/libkerfuffle.so.25
+* /usr/lib/libkerfuffle.so.25.04.0
 * /usr/lib/qt6/plugins/kerfuffle/kerfuffle_cli7z.so
 * /usr/lib/qt6/plugins/kerfuffle/kerfuffle_cliarj.so
 * /usr/lib/qt6/plugins/kerfuffle/kerfuffle_clirar.so
@@ -35,9 +35,9 @@ KDE Archiving Tool.
 * /usr/lib/qt6/plugins/kf6/parts/arkpart.so
 * /usr/share/applications/org.kde.ark.desktop
 * /usr/share/config.kcfg/ark.kcfg
-* /usr/share/doc/ark-24.12.3/COPYING.icons
-* /usr/share/doc/ark-24.12.3/README.md
-* /usr/share/doc/ark-24.12.3/README.packagers
+* /usr/share/doc/ark-25.04.0/COPYING.icons
+* /usr/share/doc/ark-25.04.0/README.md
+* /usr/share/doc/ark-25.04.0/README.packagers
 * /usr/share/doc/HTML/ca/ark/index.cache.bz2
 * /usr/share/doc/HTML/ca/ark/index.docbook
 * /usr/share/doc/HTML/en/ark/ark-comment.png
@@ -153,6 +153,7 @@ KDE Archiving Tool.
 * /usr/share/locale/pt_BR/LC_MESSAGES/ark.mo
 * /usr/share/locale/ro/LC_MESSAGES/ark.mo
 * /usr/share/locale/ru/LC_MESSAGES/ark.mo
+* /usr/share/locale/sa/LC_MESSAGES/ark.mo
 * /usr/share/locale/se/LC_MESSAGES/ark.mo
 * /usr/share/locale/sk/LC_MESSAGES/ark.mo
 * /usr/share/locale/sl/LC_MESSAGES/ark.mo

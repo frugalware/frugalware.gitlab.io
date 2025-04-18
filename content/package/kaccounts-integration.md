@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kaccounts-integration 24.12.3-3"
-version = "24.12.3-3"
+title = "kaccounts-integration 25.04.0-1"
+version = "25.04.0-1"
 description = "Small system to administer web accounts like: Google, Facebook, Owncloud, IMAP, Jabber and others"
-date = "2025-04-05T21:00:35"
+date = "2025-04-18T10:39:34"
 aliases = "/packages/218267"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "130720"
-usize = "577746"
-sha1sum = "fde1ecd0275db06c46801c5a5a6fbdbc16a100f8"
-depends = "['kcmutils>=6.12.0', 'kconfigwidgets>=6.12.0', 'kdbusaddons>=6.12.0', 'kdeclarative>=6.12.0', 'libaccounts-qt>=1.14-3', 'qcoro', 'qt6-declarative>=6.9.0', 'signon-kwallet-extension>=24.12.3']"
+size = "132904"
+usize = "590125"
+sha1sum = "17c8a22e53179abee846673b06c9d8f1957d54ba"
+depends = "['kcmutils>=6.13.0', 'kconfigwidgets>=6.13.0', 'kdbusaddons>=6.13.0', 'kdeclarative>=6.13.0', 'libaccounts-qt>=1.14-3', 'qcoro', 'qt6-declarative>=6.9.0', 'signon-kwallet-extension>=25.04.0']"
 reverse_depends = "['akonadi', 'kaccounts-provider-opendesktop', 'kaccounts-providers', 'plasma-welcome']"
 +++
 ### Description: 
@@ -49,7 +49,7 @@ Small system to administer web accounts like: Google, Facebook, Owncloud, IMAP, 
 * /usr/lib/cmake/KAccounts6/KAccountsMacros.cmake
 * /usr/lib/libkaccounts6.so
 * /usr/lib/libkaccounts6.so.2
-* /usr/lib/libkaccounts6.so.24.12.3
+* /usr/lib/libkaccounts6.so.25.04.0
 * /usr/lib/qt6/plugins/kaccounts/daemonplugins/kaccounts_kio_webdav_plugin.so
 * /usr/lib/qt6/plugins/kf6/kded/kded_accounts.so
 * /usr/lib/qt6/plugins/plasma/kcms/systemsettings/kcm_kaccounts.so
@@ -58,8 +58,8 @@ Small system to administer web accounts like: Google, Facebook, Owncloud, IMAP, 
 * /usr/lib/qt6/qml/org/kde/kaccounts/libkaccountsdeclarativeplugin.so
 * /usr/lib/qt6/qml/org/kde/kaccounts/qmldir
 * /usr/share/applications/kcm_kaccounts.desktop
-* /usr/share/doc/kaccounts-integration-24.12.3/README
-* /usr/share/doc/kaccounts-integration-24.12.3/README.md
+* /usr/share/doc/kaccounts-integration-25.04.0/README
+* /usr/share/doc/kaccounts-integration-25.04.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/kaccounts-integration.mo
 * /usr/share/locale/ast/LC_MESSAGES/kaccounts-integration.mo
 * /usr/share/locale/az/LC_MESSAGES/kaccounts-integration.mo
@@ -80,6 +80,7 @@ Small system to administer web accounts like: Google, Facebook, Owncloud, IMAP, 
 * /usr/share/locale/fr/LC_MESSAGES/kaccounts-integration.mo
 * /usr/share/locale/gl/LC_MESSAGES/kaccounts-integration.mo
 * /usr/share/locale/he/LC_MESSAGES/kaccounts-integration.mo
+* /usr/share/locale/hi/LC_MESSAGES/kaccounts-integration.mo
 * /usr/share/locale/hu/LC_MESSAGES/kaccounts-integration.mo
 * /usr/share/locale/ia/LC_MESSAGES/kaccounts-integration.mo
 * /usr/share/locale/id/LC_MESSAGES/kaccounts-integration.mo
@@ -98,6 +99,7 @@ Small system to administer web accounts like: Google, Facebook, Owncloud, IMAP, 
 * /usr/share/locale/pt_BR/LC_MESSAGES/kaccounts-integration.mo
 * /usr/share/locale/ro/LC_MESSAGES/kaccounts-integration.mo
 * /usr/share/locale/ru/LC_MESSAGES/kaccounts-integration.mo
+* /usr/share/locale/sa/LC_MESSAGES/kaccounts-integration.mo
 * /usr/share/locale/sk/LC_MESSAGES/kaccounts-integration.mo
 * /usr/share/locale/sl/LC_MESSAGES/kaccounts-integration.mo
 * /usr/share/locale/sr/LC_MESSAGES/kaccounts-integration.mo

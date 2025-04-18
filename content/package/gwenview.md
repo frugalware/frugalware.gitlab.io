@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gwenview 24.12.3-4"
-version = "24.12.3-4"
+title = "gwenview 25.04.0-1"
+version = "25.04.0-1"
 description = "KDE Image Viewer."
-date = "2025-04-06T20:06:33"
+date = "2025-04-18T10:30:24"
 aliases = "/packages/74209"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "6759932"
-usize = "11790956"
-sha1sum = "e16cb592ad598854ee361371b1f732a808ee3894"
-depends = "['baloo>=6.12.0', 'cfitsio>=4.2.0', 'exiv2>=0.28.1', 'kimageannotator', 'kparts>=6.12.0', 'libkdcraw>=24.12.3', 'libtiff>=4.7.0', 'plasma-activities>=6.3.4', 'purpose>=6.12.0', 'qt6-imageformats>=6.9.0']"
+size = "6768824"
+usize = "11859283"
+sha1sum = "2ab40987c3c6d291b7eef7a323718c5427dc3f11"
+depends = "['baloo>=6.13.0', 'cfitsio>=4.2.0', 'exiv2>=0.28.1', 'kimageannotator', 'kparts>=6.13.0', 'libkdcraw>=25.04.0', 'libtiff>=4.7.0', 'plasma-activities>=6.3.4', 'purpose>=6.13.0', 'qt6-imageformats>=6.9.0']"
 +++
 ### Description: 
 KDE Image Viewer.
@@ -25,10 +25,10 @@ KDE Image Viewer.
 * /usr/lib/qt6/plugins/kf6/parts/gvpart.so
 * /usr/share/applications/org.kde.gwenview.desktop
 * /usr/share/applications/org.kde.gwenview_importer.desktop
-* /usr/share/doc/gwenview-24.12.3/COPYING
-* /usr/share/doc/gwenview-24.12.3/COPYING.DOC
-* /usr/share/doc/gwenview-24.12.3/NEWS
-* /usr/share/doc/gwenview-24.12.3/README.md
+* /usr/share/doc/gwenview-25.04.0/COPYING
+* /usr/share/doc/gwenview-25.04.0/COPYING.DOC
+* /usr/share/doc/gwenview-25.04.0/NEWS
+* /usr/share/doc/gwenview-25.04.0/README.md
 * /usr/share/doc/HTML/ca/gwenview/browse_mode.png
 * /usr/share/doc/HTML/ca/gwenview/index.cache.bz2
 * /usr/share/doc/HTML/ca/gwenview/index.docbook
@@ -161,6 +161,7 @@ KDE Image Viewer.
 * /usr/share/locale/pt_BR/LC_MESSAGES/gwenview.mo
 * /usr/share/locale/ro/LC_MESSAGES/gwenview.mo
 * /usr/share/locale/ru/LC_MESSAGES/gwenview.mo
+* /usr/share/locale/sa/LC_MESSAGES/gwenview.mo
 * /usr/share/locale/sk/LC_MESSAGES/gwenview.mo
 * /usr/share/locale/sl/LC_MESSAGES/gwenview.mo
 * /usr/share/locale/sq/LC_MESSAGES/gwenview.mo

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libkgapi 24.12.3-3"
-version = "24.12.3-3"
+title = "libkgapi 25.04.0-1"
+version = "25.04.0-1"
 description = "A KDE-based library for accessing various Google services via their public API."
-date = "2025-04-05T20:58:35"
+date = "2025-04-18T10:36:29"
 aliases = "/packages/168642"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "549460"
-usize = "3208801"
-sha1sum = "58710012dd9d0768989cfb75a973460470523b5e"
-depends = "['cyrus-sasl', 'kcalendarcore>=6.12.0', 'kcontacts>=6.12.0', 'kio>=6.12.0', 'kwallet>=6.12.0', 'qt6-svg>=6.9.0', 'qt6-webengine>=6.9.0']"
+size = "552284"
+usize = "3235540"
+sha1sum = "b5bb78c1c0ce2b98dc48f837930b5889fdf9a399"
+depends = "['cyrus-sasl', 'kcalendarcore>=6.13.0', 'kcontacts>=6.13.0', 'kio>=6.13.0', 'kwallet>=6.13.0', 'qt6-svg>=6.9.0', 'qt6-webengine>=6.9.0']"
 reverse_depends = "['kdepim-runtime', 'kio-gdrive', 'kmailtransport']"
 +++
 ### Description: 
@@ -385,34 +385,34 @@ A KDE-based library for accessing various Google services via their public API.
 * /usr/lib/cmake/KPim6GAPI/KPim6GAPITargets.cmake
 * /usr/lib/libKPim6GAPIBlogger.so
 * /usr/lib/libKPim6GAPIBlogger.so.6
-* /usr/lib/libKPim6GAPIBlogger.so.6.3.3
+* /usr/lib/libKPim6GAPIBlogger.so.6.4.0
 * /usr/lib/libKPim6GAPICalendar.so
 * /usr/lib/libKPim6GAPICalendar.so.6
-* /usr/lib/libKPim6GAPICalendar.so.6.3.3
+* /usr/lib/libKPim6GAPICalendar.so.6.4.0
 * /usr/lib/libKPim6GAPICore.so
 * /usr/lib/libKPim6GAPICore.so.6
-* /usr/lib/libKPim6GAPICore.so.6.3.3
+* /usr/lib/libKPim6GAPICore.so.6.4.0
 * /usr/lib/libKPim6GAPIDrive.so
 * /usr/lib/libKPim6GAPIDrive.so.6
-* /usr/lib/libKPim6GAPIDrive.so.6.3.3
+* /usr/lib/libKPim6GAPIDrive.so.6.4.0
 * /usr/lib/libKPim6GAPILatitude.so
 * /usr/lib/libKPim6GAPILatitude.so.6
-* /usr/lib/libKPim6GAPILatitude.so.6.3.3
+* /usr/lib/libKPim6GAPILatitude.so.6.4.0
 * /usr/lib/libKPim6GAPIMaps.so
 * /usr/lib/libKPim6GAPIMaps.so.6
-* /usr/lib/libKPim6GAPIMaps.so.6.3.3
+* /usr/lib/libKPim6GAPIMaps.so.6.4.0
 * /usr/lib/libKPim6GAPIPeople.so
 * /usr/lib/libKPim6GAPIPeople.so.6
-* /usr/lib/libKPim6GAPIPeople.so.6.3.3
+* /usr/lib/libKPim6GAPIPeople.so.6.4.0
 * /usr/lib/libKPim6GAPITasks.so
 * /usr/lib/libKPim6GAPITasks.so.6
-* /usr/lib/libKPim6GAPITasks.so.6.3.3
+* /usr/lib/libKPim6GAPITasks.so.6.4.0
 * /usr/lib/sasl2/libkdexoauth2.so
 * /usr/lib/sasl2/libkdexoauth2.so.3
 * /usr/lib/sasl2/libkdexoauth2.so.3.0.0
-* /usr/share/doc/libkgapi-24.12.3/AUTHORS
-* /usr/share/doc/libkgapi-24.12.3/README.md
-* /usr/share/doc/libkgapi-24.12.3/README.md.license
+* /usr/share/doc/libkgapi-25.04.0/AUTHORS
+* /usr/share/doc/libkgapi-25.04.0/README.md
+* /usr/share/doc/libkgapi-25.04.0/README.md.license
 * /usr/share/locale/ar/LC_MESSAGES/libkgapi6_qt.qm
 * /usr/share/locale/ast/LC_MESSAGES/libkgapi6_qt.qm
 * /usr/share/locale/bs/LC_MESSAGES/libkgapi6_qt.qm
@@ -432,6 +432,7 @@ A KDE-based library for accessing various Google services via their public API.
 * /usr/share/locale/ga/LC_MESSAGES/libkgapi6_qt.qm
 * /usr/share/locale/gl/LC_MESSAGES/libkgapi6_qt.qm
 * /usr/share/locale/he/LC_MESSAGES/libkgapi6_qt.qm
+* /usr/share/locale/hi/LC_MESSAGES/libkgapi6_qt.qm
 * /usr/share/locale/hu/LC_MESSAGES/libkgapi6_qt.qm
 * /usr/share/locale/ia/LC_MESSAGES/libkgapi6_qt.qm
 * /usr/share/locale/it/LC_MESSAGES/libkgapi6_qt.qm
@@ -452,6 +453,7 @@ A KDE-based library for accessing various Google services via their public API.
 * /usr/share/locale/pt_BR/LC_MESSAGES/libkgapi6_qt.qm
 * /usr/share/locale/ro/LC_MESSAGES/libkgapi6_qt.qm
 * /usr/share/locale/ru/LC_MESSAGES/libkgapi6_qt.qm
+* /usr/share/locale/sa/LC_MESSAGES/libkgapi6_qt.qm
 * /usr/share/locale/sk/LC_MESSAGES/libkgapi6_qt.qm
 * /usr/share/locale/sl/LC_MESSAGES/libkgapi6_qt.qm
 * /usr/share/locale/sr/LC_MESSAGES/libkgapi6_qt.qm

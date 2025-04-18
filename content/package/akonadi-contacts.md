@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "akonadi-contacts 24.12.3-3"
-version = "24.12.3-3"
+title = "akonadi-contacts 25.04.0-1"
+version = "25.04.0-1"
 description = "Libraries and daemons to implement Contact Management in Akonadi."
-date = "2025-04-05T21:06:18"
+date = "2025-04-18T10:47:06"
 aliases = "/packages/218737"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "528196"
-usize = "2707939"
-sha1sum = "aa619699ed13659e359a8a78b9d14e0e03e908f4"
-depends = "['akonadi>=24.12.3', 'akonadi-mime>=24.12.3', 'grantleetheme>=24.12.3', 'kcalendarcore>=6.12.0', 'kcodecs>=6.12.0', 'kcompletion>=6.12.0', 'kcontacts>=6.12.0', 'kio>=6.12.0', 'kmime>=24.12.3', 'libkleo>=24.12.3', 'prison>=6.12.0', 'qt6-webengine>=6.9.0']"
+size = "533848"
+usize = "2750873"
+sha1sum = "bc66bbfb40e5ca1143c1de11ef2ae158f42baf6f"
+depends = "['akonadi>=25.04.0', 'akonadi-mime>=25.04.0', 'grantleetheme>=25.04.0', 'kcalendarcore>=6.13.0', 'kcodecs>=6.13.0', 'kcompletion>=6.13.0', 'kcontacts>=6.13.0', 'kio>=6.13.0', 'kmime>=25.04.0', 'libkleo>=25.04.0', 'prison>=6.13.0', 'qt6-webengine>=6.9.0']"
 reverse_depends = "['akonadi-search', 'digikam', 'kgpg', 'kmailtransport', 'libkdepim']"
 +++
 ### Description: 
@@ -106,16 +106,16 @@ Libraries and daemons to implement Contact Management in Akonadi.
 * /usr/lib/cmake/KPim6AkonadiContactWidgets/KPim6AkonadiContactWidgetsTargets.cmake
 * /usr/lib/libKPim6AkonadiContactCore.so
 * /usr/lib/libKPim6AkonadiContactCore.so.6
-* /usr/lib/libKPim6AkonadiContactCore.so.6.3.3
+* /usr/lib/libKPim6AkonadiContactCore.so.6.4.0
 * /usr/lib/libKPim6AkonadiContactWidgets.so
 * /usr/lib/libKPim6AkonadiContactWidgets.so.6
-* /usr/lib/libKPim6AkonadiContactWidgets.so.6.3.3
+* /usr/lib/libKPim6AkonadiContactWidgets.so.6.4.0
 * /usr/lib/qt6/plugins/akonadi_serializer_addressee.so
 * /usr/lib/qt6/plugins/akonadi_serializer_contactgroup.so
 * /usr/share/akonadi/plugins/serializer/akonadi_serializer_addressee.desktop
 * /usr/share/akonadi/plugins/serializer/akonadi_serializer_contactgroup.desktop
-* /usr/share/doc/akonadi-contacts-24.12.3/README.md
-* /usr/share/doc/akonadi-contacts-24.12.3/README.md.license
+* /usr/share/doc/akonadi-contacts-25.04.0/README.md
+* /usr/share/doc/akonadi-contacts-25.04.0/README.md.license
 * /usr/share/kf6/akonadi/contact/data/zone.tab
 * /usr/share/kf6/akonadi/contact/pics/world.jpg
 * /usr/share/locale/ar/LC_MESSAGES/akonadicontact6-serializer.mo
@@ -160,6 +160,8 @@ Libraries and daemons to implement Contact Management in Akonadi.
 * /usr/share/locale/gl/LC_MESSAGES/akonadicontact6.mo
 * /usr/share/locale/he/LC_MESSAGES/akonadicontact6-serializer.mo
 * /usr/share/locale/he/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/locale/hi/LC_MESSAGES/akonadicontact6-serializer.mo
+* /usr/share/locale/hi/LC_MESSAGES/akonadicontact6.mo
 * /usr/share/locale/hr/LC_MESSAGES/akonadicontact6.mo
 * /usr/share/locale/hu/LC_MESSAGES/akonadicontact6-serializer.mo
 * /usr/share/locale/hu/LC_MESSAGES/akonadicontact6.mo
@@ -205,6 +207,8 @@ Libraries and daemons to implement Contact Management in Akonadi.
 * /usr/share/locale/ro/LC_MESSAGES/akonadicontact6.mo
 * /usr/share/locale/ru/LC_MESSAGES/akonadicontact6-serializer.mo
 * /usr/share/locale/ru/LC_MESSAGES/akonadicontact6.mo
+* /usr/share/locale/sa/LC_MESSAGES/akonadicontact6-serializer.mo
+* /usr/share/locale/sa/LC_MESSAGES/akonadicontact6.mo
 * /usr/share/locale/sk/LC_MESSAGES/akonadicontact6-serializer.mo
 * /usr/share/locale/sk/LC_MESSAGES/akonadicontact6.mo
 * /usr/share/locale/sl/LC_MESSAGES/akonadicontact6-serializer.mo

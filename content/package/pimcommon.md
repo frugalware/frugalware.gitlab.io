@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "pimcommon 24.12.3-3"
-version = "24.12.3-3"
+title = "pimcommon 25.04.0-1"
+version = "25.04.0-1"
 description = "KdePim common files"
-date = "2025-04-05T21:09:25"
+date = "2025-04-18T10:51:32"
 aliases = "/packages/218468"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "450636"
-usize = "2098173"
-sha1sum = "c1d565b83230f0cbb303e9c48cfc826e9e44f6b2"
-depends = "['kimap>=24.12.3', 'knewstuff>=6.12.0', 'kpimtextedit>=24.12.3', 'ktextaddons>=1.3.1', 'libkdepim>=24.12.3', 'purpose>=6.12.0']"
+size = "466868"
+usize = "2200734"
+sha1sum = "843c84e905263436819d534bee65268c4738aada"
+depends = "['kimap>=25.04.0', 'knewstuff>=6.13.0', 'kpimtextedit>=25.04.0', 'ktextaddons>=1.3.1', 'libkdepim>=25.04.0', 'purpose>=6.13.0']"
 reverse_depends = "['calendarsupport', 'kalarm', 'kdepim-runtime', 'libgravatar', 'libksieve', 'mailimporter']"
 +++
 ### Description: 
@@ -57,6 +57,12 @@ KdePim common files
 * /usr/include/KPim6/PimCommon/pimcommon/lineeditwithautocorrection.h
 * /usr/include/KPim6/PimCommon/PimCommon/LineEditWithCompleterNg
 * /usr/include/KPim6/PimCommon/pimcommon/lineeditwithcompleterng.h
+* /usr/include/KPim6/PimCommon/PimCommon/NeedUpdateCheckExistingNewVersionJob
+* /usr/include/KPim6/PimCommon/pimcommon/needupdatecheckexistingnewversionjob.h
+* /usr/include/KPim6/PimCommon/PimCommon/NeedUpdateParseHtmlJob
+* /usr/include/KPim6/PimCommon/pimcommon/needupdateparsehtmljob.h
+* /usr/include/KPim6/PimCommon/PimCommon/NeedUpdateParseHtmlUtil
+* /usr/include/KPim6/PimCommon/pimcommon/needupdateparsehtmlutil.h
 * /usr/include/KPim6/PimCommon/PimCommon/NeedUpdateVersionUtils
 * /usr/include/KPim6/PimCommon/pimcommon/needupdateversionutils.h
 * /usr/include/KPim6/PimCommon/PimCommon/NeedUpdateVersionWidget
@@ -107,8 +113,6 @@ KdePim common files
 * /usr/include/KPim6/PimCommonAkonadi/pimcommonakonadi/collectiontypeutil.h
 * /usr/include/KPim6/PimCommonAkonadi/PimCommonAkonadi/CompletionConfigureDialog
 * /usr/include/KPim6/PimCommonAkonadi/pimcommonakonadi/completionconfiguredialog.h
-* /usr/include/KPim6/PimCommonAkonadi/PimCommonAkonadi/CompletionOrderEditor
-* /usr/include/KPim6/PimCommonAkonadi/pimcommonakonadi/completionordereditor.h
 * /usr/include/KPim6/PimCommonAkonadi/PimCommonAkonadi/ContentTypeWidget
 * /usr/include/KPim6/PimCommonAkonadi/pimcommonakonadi/contenttypewidget.h
 * /usr/include/KPim6/PimCommonAkonadi/PimCommonAkonadi/CreateResource
@@ -147,10 +151,10 @@ KdePim common files
 * /usr/lib/cmake/KPim6PimCommonAkonadi/KPim6PimCommonAkonadiTargets.cmake
 * /usr/lib/libKPim6PimCommon.so
 * /usr/lib/libKPim6PimCommon.so.6
-* /usr/lib/libKPim6PimCommon.so.6.3.3
+* /usr/lib/libKPim6PimCommon.so.6.4.0
 * /usr/lib/libKPim6PimCommonAkonadi.so
 * /usr/lib/libKPim6PimCommonAkonadi.so.6
-* /usr/lib/libKPim6PimCommonAkonadi.so.6.3.3
+* /usr/lib/libKPim6PimCommonAkonadi.so.6.4.0
 * /usr/lib/qt6/plugins/designer/pimcommon6akonadiwidgets.so
 * /usr/lib/qt6/plugins/designer/pimcommon6widgets.so
 * /usr/share/locale/ar/LC_MESSAGES/libpimcommon6.mo
@@ -172,6 +176,7 @@ KdePim common files
 * /usr/share/locale/ga/LC_MESSAGES/libpimcommon6.mo
 * /usr/share/locale/gl/LC_MESSAGES/libpimcommon6.mo
 * /usr/share/locale/he/LC_MESSAGES/libpimcommon6.mo
+* /usr/share/locale/hi/LC_MESSAGES/libpimcommon6.mo
 * /usr/share/locale/hu/LC_MESSAGES/libpimcommon6.mo
 * /usr/share/locale/ia/LC_MESSAGES/libpimcommon6.mo
 * /usr/share/locale/it/LC_MESSAGES/libpimcommon6.mo
@@ -180,6 +185,7 @@ KdePim common files
 * /usr/share/locale/kk/LC_MESSAGES/libpimcommon6.mo
 * /usr/share/locale/ko/LC_MESSAGES/libpimcommon6.mo
 * /usr/share/locale/lt/LC_MESSAGES/libpimcommon6.mo
+* /usr/share/locale/lv/LC_MESSAGES/libpimcommon6.mo
 * /usr/share/locale/mr/LC_MESSAGES/libpimcommon6.mo
 * /usr/share/locale/nb/LC_MESSAGES/libpimcommon6.mo
 * /usr/share/locale/nds/LC_MESSAGES/libpimcommon6.mo
@@ -189,6 +195,7 @@ KdePim common files
 * /usr/share/locale/pt_BR/LC_MESSAGES/libpimcommon6.mo
 * /usr/share/locale/ro/LC_MESSAGES/libpimcommon6.mo
 * /usr/share/locale/ru/LC_MESSAGES/libpimcommon6.mo
+* /usr/share/locale/sa/LC_MESSAGES/libpimcommon6.mo
 * /usr/share/locale/sk/LC_MESSAGES/libpimcommon6.mo
 * /usr/share/locale/sl/LC_MESSAGES/libpimcommon6.mo
 * /usr/share/locale/sr/LC_MESSAGES/libpimcommon6.mo

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "messagelib 24.12.3-3"
-version = "24.12.3-3"
+title = "messagelib 25.04.0-1"
+version = "25.04.0-1"
 description = "KdePim message library."
-date = "2025-04-05T21:15:29"
+date = "2025-04-18T10:59:08"
 aliases = "/packages/218480"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2655612"
-usize = "14596395"
-sha1sum = "4a47f739f06d1db4a910c80c26a96ba2dc75f840"
-depends = "['kidentitymanagement>=24.12.3', 'kmailtransport>=24.12.3', 'ktextaddons>=1.3.1', 'libgravatar>=24.12.3', 'qca']"
+size = "2685940"
+usize = "14868605"
+sha1sum = "77b76b2774b7f22ed1c241d2c604bfdb560e84f6"
+depends = "['kidentitymanagement>=25.04.0', 'kmailtransport>=25.04.0', 'ktextaddons>=1.3.1', 'libgravatar>=25.04.0', 'qca']"
 reverse_depends = "['akonadi-calendar', 'akonadiconsole', 'akregator', 'grantlee-editor', 'mailcommon', 'pim-sieve-editor']"
 +++
 ### Description: 
@@ -40,10 +40,10 @@ KdePim message library.
 * /usr/include/KPim6/MessageComposer/messagecomposer/autocryptheadersjob.h
 * /usr/include/KPim6/MessageComposer/MessageComposer/AutocryptKeyResolverCore
 * /usr/include/KPim6/MessageComposer/messagecomposer/autocryptkeyresolvercore.h
-* /usr/include/KPim6/MessageComposer/MessageComposer/Composer
-* /usr/include/KPim6/MessageComposer/messagecomposer/composer.h
 * /usr/include/KPim6/MessageComposer/MessageComposer/ComposerAttachmentInterface
 * /usr/include/KPim6/MessageComposer/messagecomposer/composerattachmentinterface.h
+* /usr/include/KPim6/MessageComposer/MessageComposer/ComposerJob
+* /usr/include/KPim6/MessageComposer/messagecomposer/composerjob.h
 * /usr/include/KPim6/MessageComposer/MessageComposer/ComposerLineEdit
 * /usr/include/KPim6/MessageComposer/messagecomposer/composerlineedit.h
 * /usr/include/KPim6/MessageComposer/MessageComposer/ComposerViewBase
@@ -244,6 +244,8 @@ KdePim message library.
 * /usr/include/KPim6/MessageList/messagelist/config-messagelist.h
 * /usr/include/KPim6/MessageList/MessageList/Enums
 * /usr/include/KPim6/MessageList/messagelist/enums.h
+* /usr/include/KPim6/MessageList/MessageList/MD5Hash
+* /usr/include/KPim6/MessageList/messagelist/md5hash.h
 * /usr/include/KPim6/MessageList/messagelist/messagelistsettings.h
 * /usr/include/KPim6/MessageList/MessageList/MessageListUtil
 * /usr/include/KPim6/MessageList/messagelist/messagelistutil.h
@@ -581,25 +583,25 @@ KdePim message library.
 * /usr/lib/cmake/KPim6WebEngineViewer/KPim6WebEngineViewerTargets.cmake
 * /usr/lib/libKPim6MessageComposer.so
 * /usr/lib/libKPim6MessageComposer.so.6
-* /usr/lib/libKPim6MessageComposer.so.6.3.3
+* /usr/lib/libKPim6MessageComposer.so.6.4.0
 * /usr/lib/libKPim6MessageCore.so
 * /usr/lib/libKPim6MessageCore.so.6
-* /usr/lib/libKPim6MessageCore.so.6.3.3
+* /usr/lib/libKPim6MessageCore.so.6.4.0
 * /usr/lib/libKPim6MessageList.so
 * /usr/lib/libKPim6MessageList.so.6
-* /usr/lib/libKPim6MessageList.so.6.3.3
+* /usr/lib/libKPim6MessageList.so.6.4.0
 * /usr/lib/libKPim6MessageViewer.so
 * /usr/lib/libKPim6MessageViewer.so.6
-* /usr/lib/libKPim6MessageViewer.so.6.3.3
+* /usr/lib/libKPim6MessageViewer.so.6.4.0
 * /usr/lib/libKPim6MimeTreeParser.so
 * /usr/lib/libKPim6MimeTreeParser.so.6
-* /usr/lib/libKPim6MimeTreeParser.so.6.3.3
+* /usr/lib/libKPim6MimeTreeParser.so.6.4.0
 * /usr/lib/libKPim6TemplateParser.so
 * /usr/lib/libKPim6TemplateParser.so.6
-* /usr/lib/libKPim6TemplateParser.so.6.3.3
+* /usr/lib/libKPim6TemplateParser.so.6.4.0
 * /usr/lib/libKPim6WebEngineViewer.so
 * /usr/lib/libKPim6WebEngineViewer.so.6
-* /usr/lib/libKPim6WebEngineViewer.so.6.3.3
+* /usr/lib/libKPim6WebEngineViewer.so.6.4.0
 * /usr/lib/qt6/plugins/pim6/messageviewer/headerstyle/messageviewer_defaultgrantleeheaderstyleplugin.so
 * /usr/lib/qt6/plugins/pim6/messageviewer/kf6/ktexttemplate/messageviewer_ktexttemplate_extension.so
 * /usr/share/config.kcfg/customtemplates_kfg.kcfg
@@ -783,9 +785,13 @@ KdePim message library.
 * /usr/share/locale/he/LC_MESSAGES/libmimetreeparser6.mo
 * /usr/share/locale/he/LC_MESSAGES/libtemplateparser6.mo
 * /usr/share/locale/he/LC_MESSAGES/libwebengineviewer6.mo
+* /usr/share/locale/hi/LC_MESSAGES/libmessagecomposer6.mo
+* /usr/share/locale/hi/LC_MESSAGES/libmessagecore6.mo
 * /usr/share/locale/hi/LC_MESSAGES/libmessagelist6.mo
 * /usr/share/locale/hi/LC_MESSAGES/libmessageviewer6.mo
 * /usr/share/locale/hi/LC_MESSAGES/libmimetreeparser6.mo
+* /usr/share/locale/hi/LC_MESSAGES/libtemplateparser6.mo
+* /usr/share/locale/hi/LC_MESSAGES/libwebengineviewer6.mo
 * /usr/share/locale/hr/LC_MESSAGES/libmessagelist6.mo
 * /usr/share/locale/hr/LC_MESSAGES/libmessageviewer6.mo
 * /usr/share/locale/hr/LC_MESSAGES/libmimetreeparser6.mo
@@ -946,6 +952,13 @@ KdePim message library.
 * /usr/share/locale/ru/LC_MESSAGES/libmimetreeparser6.mo
 * /usr/share/locale/ru/LC_MESSAGES/libtemplateparser6.mo
 * /usr/share/locale/ru/LC_MESSAGES/libwebengineviewer6.mo
+* /usr/share/locale/sa/LC_MESSAGES/libmessagecomposer6.mo
+* /usr/share/locale/sa/LC_MESSAGES/libmessagecore6.mo
+* /usr/share/locale/sa/LC_MESSAGES/libmessagelist6.mo
+* /usr/share/locale/sa/LC_MESSAGES/libmessageviewer6.mo
+* /usr/share/locale/sa/LC_MESSAGES/libmimetreeparser6.mo
+* /usr/share/locale/sa/LC_MESSAGES/libtemplateparser6.mo
+* /usr/share/locale/sa/LC_MESSAGES/libwebengineviewer6.mo
 * /usr/share/locale/se/LC_MESSAGES/libmessagelist6.mo
 * /usr/share/locale/se/LC_MESSAGES/libmessageviewer6.mo
 * /usr/share/locale/se/LC_MESSAGES/libmimetreeparser6.mo

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kgpg 24.12.3-3"
-version = "24.12.3-3"
+title = "kgpg 25.04.0-1"
+version = "25.04.0-1"
 description = "KGpg is a simple interface for GnuPG"
-date = "2025-04-05T21:11:27"
+date = "2025-04-18T10:54:21"
 aliases = "/packages/218933"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3219312"
-usize = "8881641"
-sha1sum = "f420b3afde0c65f228ea62b6cb84df1f91c3035a"
-depends = "['akonadi-contacts>=24.12.3', 'gpg-agent', 'gpgme', 'kstatusnotifieritem>=6.12.0']"
+size = "3236276"
+usize = "9077913"
+sha1sum = "aa0501c64813047d485a2863ed40c23c836dea11"
+depends = "['akonadi-contacts>=25.04.0', 'gpg-agent', 'gpgme', 'kstatusnotifieritem>=6.13.0']"
 +++
 ### Description: 
 KGpg is a simple interface for GnuPG
@@ -111,8 +111,8 @@ KGpg is a simple interface for GnuPG
 * /usr/share/doc/HTML/uk/kgpg/keys.png
 * /usr/share/doc/HTML/uk/kgpg/options.png
 * /usr/share/doc/HTML/uk/kgpg/select-secret-key.png
-* /usr/share/doc/kgpg-24.12.3/AUTHORS
-* /usr/share/doc/kgpg-24.12.3/TODO
+* /usr/share/doc/kgpg-25.04.0/AUTHORS
+* /usr/share/doc/kgpg-25.04.0/TODO
 * /usr/share/icons/hicolor/128x128/apps/kgpg.png
 * /usr/share/icons/hicolor/16x16/actions/document-export-key.png
 * /usr/share/icons/hicolor/16x16/actions/document-import-key.png
@@ -180,6 +180,7 @@ KGpg is a simple interface for GnuPG
 * /usr/share/locale/ga/LC_MESSAGES/kgpg.mo
 * /usr/share/locale/gl/LC_MESSAGES/kgpg.mo
 * /usr/share/locale/he/LC_MESSAGES/kgpg.mo
+* /usr/share/locale/hi/LC_MESSAGES/kgpg.mo
 * /usr/share/locale/hr/LC_MESSAGES/kgpg.mo
 * /usr/share/locale/hu/LC_MESSAGES/kgpg.mo
 * /usr/share/locale/ia/LC_MESSAGES/kgpg.mo
@@ -209,6 +210,7 @@ KGpg is a simple interface for GnuPG
 * /usr/share/locale/pt_BR/LC_MESSAGES/kgpg.mo
 * /usr/share/locale/ro/LC_MESSAGES/kgpg.mo
 * /usr/share/locale/ru/LC_MESSAGES/kgpg.mo
+* /usr/share/locale/sa/LC_MESSAGES/kgpg.mo
 * /usr/share/locale/se/LC_MESSAGES/kgpg.mo
 * /usr/share/locale/sk/LC_MESSAGES/kgpg.mo
 * /usr/share/locale/sl/LC_MESSAGES/kgpg.mo
