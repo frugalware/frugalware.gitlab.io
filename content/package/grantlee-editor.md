@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "grantlee-editor 24.12.3-3"
-version = "24.12.3-3"
+title = "grantlee-editor 25.04.0-1"
+version = "25.04.0-1"
 description = "gantt editor for PIM application."
-date = "2025-04-05T21:42:15"
+date = "2025-04-18T13:35:32"
 aliases = "/packages/218927"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "252288"
-usize = "1305309"
-sha1sum = "afd9cbfa2f863b39ca0a8dbfaa8d5a7fe045d0e0"
-depends = "['ktexteditor>=6.12.0', 'messagelib>=24.12.3']"
+size = "255988"
+usize = "1344481"
+sha1sum = "c3610c0d491ed663d0071d447bb3648a7549b416"
+depends = "['ktexteditor>=6.13.0', 'messagelib>=25.04.0']"
 +++
 ### Description: 
 gantt editor for PIM application.
@@ -21,7 +21,7 @@ gantt editor for PIM application.
 * /usr/bin/contactthemeeditor
 * /usr/bin/headerthemeeditor
 * /usr/lib/libgrantleethemeeditor.so.6
-* /usr/lib/libgrantleethemeeditor.so.6.3.3
+* /usr/lib/libgrantleethemeeditor.so.6.4.0
 * /usr/share/applications/org.kde.contactprintthemeeditor.desktop
 * /usr/share/applications/org.kde.contactthemeeditor.desktop
 * /usr/share/applications/org.kde.headerthemeeditor.desktop
@@ -151,6 +151,10 @@ gantt editor for PIM application.
 * /usr/share/locale/he/LC_MESSAGES/contactthemeeditor.mo
 * /usr/share/locale/he/LC_MESSAGES/headerthemeeditor.mo
 * /usr/share/locale/he/LC_MESSAGES/libgrantleethemeeditor.mo
+* /usr/share/locale/hi/LC_MESSAGES/contactprintthemeeditor.mo
+* /usr/share/locale/hi/LC_MESSAGES/contactthemeeditor.mo
+* /usr/share/locale/hi/LC_MESSAGES/headerthemeeditor.mo
+* /usr/share/locale/hi/LC_MESSAGES/libgrantleethemeeditor.mo
 * /usr/share/locale/hu/LC_MESSAGES/contactprintthemeeditor.mo
 * /usr/share/locale/hu/LC_MESSAGES/contactthemeeditor.mo
 * /usr/share/locale/hu/LC_MESSAGES/headerthemeeditor.mo
@@ -211,6 +215,10 @@ gantt editor for PIM application.
 * /usr/share/locale/ru/LC_MESSAGES/contactthemeeditor.mo
 * /usr/share/locale/ru/LC_MESSAGES/headerthemeeditor.mo
 * /usr/share/locale/ru/LC_MESSAGES/libgrantleethemeeditor.mo
+* /usr/share/locale/sa/LC_MESSAGES/contactprintthemeeditor.mo
+* /usr/share/locale/sa/LC_MESSAGES/contactthemeeditor.mo
+* /usr/share/locale/sa/LC_MESSAGES/headerthemeeditor.mo
+* /usr/share/locale/sa/LC_MESSAGES/libgrantleethemeeditor.mo
 * /usr/share/locale/sk/LC_MESSAGES/contactprintthemeeditor.mo
 * /usr/share/locale/sk/LC_MESSAGES/contactthemeeditor.mo
 * /usr/share/locale/sk/LC_MESSAGES/headerthemeeditor.mo

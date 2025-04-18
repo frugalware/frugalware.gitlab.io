@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "pim-sieve-editor 24.12.3-3"
-version = "24.12.3-3"
+title = "pim-sieve-editor 25.04.0-1"
+version = "25.04.0-1"
 description = "Assistant for editing IMAP Sieve filters"
-date = "2025-04-05T21:41:17"
+date = "2025-04-18T13:34:13"
 aliases = "/packages/218942"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "551784"
-usize = "1369976"
-sha1sum = "e9ca2235357c37d5ffdfe109374aebd771857c88"
-depends = "['libksieve>=24.12.3', 'messagelib>=24.12.3']"
+size = "558380"
+usize = "1422633"
+sha1sum = "f277e7d3cb56e0513a0e9913cc85af7b3863f78d"
+depends = "['libksieve>=25.04.0', 'messagelib>=25.04.0']"
 +++
 ### Description: 
 Assistant for editing IMAP Sieve filters
@@ -19,7 +19,7 @@ Assistant for editing IMAP Sieve filters
 ### Files: 
 * /usr/bin/sieveeditor
 * /usr/lib/libsieveeditor.so.6
-* /usr/lib/libsieveeditor.so.6.3.3
+* /usr/lib/libsieveeditor.so.6.4.0
 * /usr/share/applications/org.kde.sieveeditor.desktop
 * /usr/share/config.kcfg/sieveeditorglobalconfig.kcfg
 * /usr/share/doc/HTML/ca/sieveeditor/first-start.png
@@ -78,6 +78,7 @@ Assistant for editing IMAP Sieve filters
 * /usr/share/locale/fr/LC_MESSAGES/sieveeditor.mo
 * /usr/share/locale/gl/LC_MESSAGES/sieveeditor.mo
 * /usr/share/locale/he/LC_MESSAGES/sieveeditor.mo
+* /usr/share/locale/hi/LC_MESSAGES/sieveeditor.mo
 * /usr/share/locale/hu/LC_MESSAGES/sieveeditor.mo
 * /usr/share/locale/ia/LC_MESSAGES/sieveeditor.mo
 * /usr/share/locale/it/LC_MESSAGES/sieveeditor.mo
@@ -85,6 +86,7 @@ Assistant for editing IMAP Sieve filters
 * /usr/share/locale/ka/LC_MESSAGES/sieveeditor.mo
 * /usr/share/locale/ko/LC_MESSAGES/sieveeditor.mo
 * /usr/share/locale/lt/LC_MESSAGES/sieveeditor.mo
+* /usr/share/locale/lv/LC_MESSAGES/sieveeditor.mo
 * /usr/share/locale/nb/LC_MESSAGES/sieveeditor.mo
 * /usr/share/locale/nds/LC_MESSAGES/sieveeditor.mo
 * /usr/share/locale/nl/LC_MESSAGES/sieveeditor.mo
@@ -93,6 +95,7 @@ Assistant for editing IMAP Sieve filters
 * /usr/share/locale/pt_BR/LC_MESSAGES/sieveeditor.mo
 * /usr/share/locale/ro/LC_MESSAGES/sieveeditor.mo
 * /usr/share/locale/ru/LC_MESSAGES/sieveeditor.mo
+* /usr/share/locale/sa/LC_MESSAGES/sieveeditor.mo
 * /usr/share/locale/sk/LC_MESSAGES/sieveeditor.mo
 * /usr/share/locale/sl/LC_MESSAGES/sieveeditor.mo
 * /usr/share/locale/sr/LC_MESSAGES/sieveeditor.mo

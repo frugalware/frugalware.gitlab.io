@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kio-gdrive 24.12.3-3"
-version = "24.12.3-3"
+title = "kio-gdrive 25.04.0-1"
+version = "25.04.0-1"
 description = "KIO Slave to access Google Drive"
-date = "2025-04-05T21:51:36"
+date = "2025-04-18T13:47:53"
 aliases = "/packages/219163"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "137684"
-usize = "431101"
-sha1sum = "bc2e4492de98e4d0a550cc847f39e97e87b2e4a6"
-depends = "['dolphin>=24.12.3', 'ki18n>=6.12.0', 'kio>=6.12.0', 'libkgapi>=24.12.3', 'qtkeychain']"
+size = "139608"
+usize = "438887"
+sha1sum = "8850edf17a06954e56705ebfdc5f48f6e165b36d"
+depends = "['dolphin>=25.04.0', 'ki18n>=6.13.0', 'kio>=6.13.0', 'libkgapi>=25.04.0', 'qtkeychain']"
 license = "GPL"
 +++
 ### Description: 
@@ -51,11 +51,11 @@ KIO Slave to access Google Drive
 * /usr/share/doc/HTML/tr/kioworker6/gdrive/index.docbook
 * /usr/share/doc/HTML/uk/kioworker6/gdrive/index.cache.bz2
 * /usr/share/doc/HTML/uk/kioworker6/gdrive/index.docbook
-* /usr/share/doc/kio-gdrive-24.12.3/COPYING
-* /usr/share/doc/kio-gdrive-24.12.3/COPYING.GPL3
-* /usr/share/doc/kio-gdrive-24.12.3/HACKING
-* /usr/share/doc/kio-gdrive-24.12.3/README.md
-* /usr/share/doc/kio-gdrive-24.12.3/README.packagers
+* /usr/share/doc/kio-gdrive-25.04.0/COPYING
+* /usr/share/doc/kio-gdrive-25.04.0/COPYING.GPL3
+* /usr/share/doc/kio-gdrive-25.04.0/HACKING
+* /usr/share/doc/kio-gdrive-25.04.0/README.md
+* /usr/share/doc/kio-gdrive-25.04.0/README.packagers
 * /usr/share/locale/ar/LC_MESSAGES/kio6_gdrive.mo
 * /usr/share/locale/az/LC_MESSAGES/kio6_gdrive.mo
 * /usr/share/locale/be/LC_MESSAGES/kio6_gdrive.mo
@@ -84,6 +84,7 @@ KIO Slave to access Google Drive
 * /usr/share/locale/ka/LC_MESSAGES/kio6_gdrive.mo
 * /usr/share/locale/ko/LC_MESSAGES/kio6_gdrive.mo
 * /usr/share/locale/lt/LC_MESSAGES/kio6_gdrive.mo
+* /usr/share/locale/lv/LC_MESSAGES/kio6_gdrive.mo
 * /usr/share/locale/nl/LC_MESSAGES/kio6_gdrive.mo
 * /usr/share/locale/nn/LC_MESSAGES/kio6_gdrive.mo
 * /usr/share/locale/pl/LC_MESSAGES/kio6_gdrive.mo
@@ -91,6 +92,7 @@ KIO Slave to access Google Drive
 * /usr/share/locale/pt_BR/LC_MESSAGES/kio6_gdrive.mo
 * /usr/share/locale/ro/LC_MESSAGES/kio6_gdrive.mo
 * /usr/share/locale/ru/LC_MESSAGES/kio6_gdrive.mo
+* /usr/share/locale/sa/LC_MESSAGES/kio6_gdrive.mo
 * /usr/share/locale/sk/LC_MESSAGES/kio6_gdrive.mo
 * /usr/share/locale/sl/LC_MESSAGES/kio6_gdrive.mo
 * /usr/share/locale/sv/LC_MESSAGES/kio6_gdrive.mo

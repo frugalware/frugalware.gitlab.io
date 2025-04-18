@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "incidenceeditor 24.12.3-3"
-version = "24.12.3-3"
+title = "incidenceeditor 25.04.0-1"
+version = "25.04.0-1"
 description = "This lib provides incidence editor"
-date = "2025-04-05T21:38:40"
+date = "2025-04-18T13:30:46"
 aliases = "/packages/218490"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "554168"
-usize = "2912717"
-sha1sum = "1c97cd19409e0ca72626ffe0b374b957c01e4f4f"
-depends = "['akonadi>=24.12.3', 'eventviews>=24.12.3', 'ki18n>=6.12.0']"
+size = "568392"
+usize = "3044656"
+sha1sum = "095cfaa49a6991c7bce0a8f6f59317741e363738"
+depends = "['akonadi>=25.04.0', 'eventviews>=25.04.0', 'ki18n>=6.13.0']"
 reverse_depends = "['kdepim-addons', 'korganizer']"
 +++
 ### Description: 
@@ -43,7 +43,7 @@ This lib provides incidence editor
 * /usr/lib/cmake/KPim6IncidenceEditor/KPim6IncidenceEditorTargets.cmake
 * /usr/lib/libKPim6IncidenceEditor.so
 * /usr/lib/libKPim6IncidenceEditor.so.6
-* /usr/lib/libKPim6IncidenceEditor.so.6.3.3
+* /usr/lib/libKPim6IncidenceEditor.so.6.4.0
 * /usr/share/locale/ar/LC_MESSAGES/libincidenceeditors6.mo
 * /usr/share/locale/ast/LC_MESSAGES/libincidenceeditors6.mo
 * /usr/share/locale/bg/LC_MESSAGES/libincidenceeditors6.mo
@@ -63,6 +63,7 @@ This lib provides incidence editor
 * /usr/share/locale/fr/LC_MESSAGES/libincidenceeditors6.mo
 * /usr/share/locale/ga/LC_MESSAGES/libincidenceeditors6.mo
 * /usr/share/locale/gl/LC_MESSAGES/libincidenceeditors6.mo
+* /usr/share/locale/hi/LC_MESSAGES/libincidenceeditors6.mo
 * /usr/share/locale/hu/LC_MESSAGES/libincidenceeditors6.mo
 * /usr/share/locale/ia/LC_MESSAGES/libincidenceeditors6.mo
 * /usr/share/locale/it/LC_MESSAGES/libincidenceeditors6.mo
@@ -82,6 +83,7 @@ This lib provides incidence editor
 * /usr/share/locale/pt_BR/LC_MESSAGES/libincidenceeditors6.mo
 * /usr/share/locale/ro/LC_MESSAGES/libincidenceeditors6.mo
 * /usr/share/locale/ru/LC_MESSAGES/libincidenceeditors6.mo
+* /usr/share/locale/sa/LC_MESSAGES/libincidenceeditors6.mo
 * /usr/share/locale/sk/LC_MESSAGES/libincidenceeditors6.mo
 * /usr/share/locale/sl/LC_MESSAGES/libincidenceeditors6.mo
 * /usr/share/locale/sv/LC_MESSAGES/libincidenceeditors6.mo

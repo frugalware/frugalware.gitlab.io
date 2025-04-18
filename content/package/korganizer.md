@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "korganizer 24.12.3-3"
-version = "24.12.3-3"
+title = "korganizer 25.04.0-1"
+version = "25.04.0-1"
 description = "KDE Personal Organizer."
-date = "2025-04-05T21:40:19"
+date = "2025-04-18T13:32:50"
 aliases = "/packages/218939"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2437984"
-usize = "11350478"
-sha1sum = "5788fe908915f917b9e81bd7dfa4f4c723b4febf"
-depends = "['incidenceeditor>=24.12.3', 'kdepim-runtime>=24.12.3', 'kontactinterface>=24.12.3', 'mailcommon>=24.12.3']"
+size = "2475256"
+usize = "11596832"
+sha1sum = "3cd2de3b1a7baa1a3d1802f85f223c640e339a66"
+depends = "['incidenceeditor>=25.04.0', 'kdepim-runtime>=25.04.0', 'kontactinterface>=25.04.0', 'mailcommon>=25.04.0']"
 +++
 ### Description: 
 KDE Personal Organizer.
@@ -19,11 +19,11 @@ KDE Personal Organizer.
 ### Files: 
 * /usr/bin/korganizer
 * /usr/lib/libkorganizerprivate.so.6
-* /usr/lib/libkorganizerprivate.so.6.3.3
+* /usr/lib/libkorganizerprivate.so.6.4.0
 * /usr/lib/libkorganizer_core.so.6
-* /usr/lib/libkorganizer_core.so.6.3.3
+* /usr/lib/libkorganizer_core.so.6.4.0
 * /usr/lib/libkorganizer_interfaces.so.6
-* /usr/lib/libkorganizer_interfaces.so.6.3.3
+* /usr/lib/libkorganizer_interfaces.so.6.4.0
 * /usr/lib/qt6/plugins/korganizerpart.so
 * /usr/lib/qt6/plugins/pim6/kcms/korganizer/korganizer_configcolorsandfonts.so
 * /usr/lib/qt6/plugins/pim6/kcms/korganizer/korganizer_configfreebusy.so
@@ -111,9 +111,9 @@ KDE Personal Organizer.
 * /usr/share/doc/HTML/sv/korganizer/index.docbook
 * /usr/share/doc/HTML/uk/korganizer/index.cache.bz2
 * /usr/share/doc/HTML/uk/korganizer/index.docbook
-* /usr/share/doc/korganizer-24.12.3/AUTHORS
-* /usr/share/doc/korganizer-24.12.3/README.md
-* /usr/share/doc/korganizer-24.12.3/README.md.license
+* /usr/share/doc/korganizer-25.04.0/AUTHORS
+* /usr/share/doc/korganizer-25.04.0/README.md
+* /usr/share/doc/korganizer-25.04.0/README.md.license
 * /usr/share/icons/hicolor/128x128/apps/korg-journal.png
 * /usr/share/icons/hicolor/128x128/apps/korg-todo.png
 * /usr/share/icons/hicolor/128x128/apps/korganizer.png
@@ -268,6 +268,8 @@ KDE Personal Organizer.
 * /usr/share/locale/ro/LC_MESSAGES/korganizer_calendarplugins.mo
 * /usr/share/locale/ru/LC_MESSAGES/korganizer.mo
 * /usr/share/locale/ru/LC_MESSAGES/korganizer_calendarplugins.mo
+* /usr/share/locale/sa/LC_MESSAGES/korganizer.mo
+* /usr/share/locale/sa/LC_MESSAGES/korganizer_calendarplugins.mo
 * /usr/share/locale/se/LC_MESSAGES/korganizer.mo
 * /usr/share/locale/se/LC_MESSAGES/korganizer_calendarplugins.mo
 * /usr/share/locale/sk/LC_MESSAGES/korganizer.mo

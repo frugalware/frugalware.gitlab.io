@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "yakuake 24.12.3-3"
-version = "24.12.3-3"
+title = "yakuake 25.04.0-1"
+version = "25.04.0-1"
 description = "Yakuake is a Quake-style terminal emulator based on KDE Konsole technology."
-date = "2025-04-05T21:54:49"
+date = "2025-04-18T13:51:47"
 aliases = "/packages/5360"
 categories = ['kde6']
 upstreamurl = "http://yakuake.kde.org/"
 arch = "x86_64"
-size = "427660"
-usize = "2411442"
-sha1sum = "bb7e66f3b8b56d975d02aea980cc58ab79bdff5f"
-depends = "['knewstuff>=6.12.0', 'knotifyconfig>=6.12.0', 'kparts>=6.12.0', 'kstatusnotifieritem>=6.12.0', 'kwayland>=6.3.4', 'qt6-svg>=6.9.0']"
+size = "438756"
+usize = "2498944"
+sha1sum = "df8a59a957a93c84e0f5901fa57da629b36c6715"
+depends = "['knewstuff>=6.13.0', 'knotifyconfig>=6.13.0', 'kparts>=6.13.0', 'kstatusnotifieritem>=6.13.0', 'kwayland>=6.3.4', 'qt6-svg>=6.9.0']"
 license = "GPL"
 +++
 ### Description: 
@@ -21,11 +21,11 @@ Yakuake is a Quake-style terminal emulator based on KDE Konsole technology.
 * /usr/bin/yakuake
 * /usr/share/applications/org.kde.yakuake.desktop
 * /usr/share/dbus-1/services/org.kde.yakuake.service
-* /usr/share/doc/yakuake-24.12.3/AUTHORS
-* /usr/share/doc/yakuake-24.12.3/ChangeLog
-* /usr/share/doc/yakuake-24.12.3/NEWS
-* /usr/share/doc/yakuake-24.12.3/README.md
-* /usr/share/doc/yakuake-24.12.3/TODO
+* /usr/share/doc/yakuake-25.04.0/AUTHORS
+* /usr/share/doc/yakuake-25.04.0/ChangeLog
+* /usr/share/doc/yakuake-25.04.0/NEWS
+* /usr/share/doc/yakuake-25.04.0/README.md
+* /usr/share/doc/yakuake-25.04.0/TODO
 * /usr/share/icons/hicolor/128x128/apps/yakuake.png
 * /usr/share/icons/hicolor/16x16/apps/yakuake.png
 * /usr/share/icons/hicolor/22x22/apps/yakuake.png
@@ -71,6 +71,7 @@ Yakuake is a Quake-style terminal emulator based on KDE Konsole technology.
 * /usr/share/locale/km/LC_MESSAGES/yakuake.mo
 * /usr/share/locale/ko/LC_MESSAGES/yakuake.mo
 * /usr/share/locale/lt/LC_MESSAGES/yakuake.mo
+* /usr/share/locale/lv/LC_MESSAGES/yakuake.mo
 * /usr/share/locale/mai/LC_MESSAGES/yakuake.mo
 * /usr/share/locale/ml/LC_MESSAGES/yakuake.mo
 * /usr/share/locale/mr/LC_MESSAGES/yakuake.mo
@@ -84,6 +85,7 @@ Yakuake is a Quake-style terminal emulator based on KDE Konsole technology.
 * /usr/share/locale/pt_BR/LC_MESSAGES/yakuake.mo
 * /usr/share/locale/ro/LC_MESSAGES/yakuake.mo
 * /usr/share/locale/ru/LC_MESSAGES/yakuake.mo
+* /usr/share/locale/sa/LC_MESSAGES/yakuake.mo
 * /usr/share/locale/sk/LC_MESSAGES/yakuake.mo
 * /usr/share/locale/sl/LC_MESSAGES/yakuake.mo
 * /usr/share/locale/sr/LC_MESSAGES/yakuake.mo

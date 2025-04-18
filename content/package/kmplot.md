@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kmplot 24.12.3-3"
-version = "24.12.3-3"
+title = "kmplot 25.04.0-1"
+version = "25.04.0-1"
 description = "Mathematical Function Plotter."
-date = "2025-04-05T22:02:41"
+date = "2025-04-18T14:01:37"
 aliases = "/packages/152833"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3323432"
-usize = "7491552"
-sha1sum = "ab26bf467d86b830927e460845b57d155dfdbbc1"
-depends = "['kparts>=6.12.0']"
+size = "3329500"
+usize = "7566634"
+sha1sum = "dd45d67730c26f2de7f61d2e02106c469afab167"
+depends = "['kparts>=6.13.0']"
 +++
 ### Description: 
 Mathematical Function Plotter.
@@ -232,8 +232,8 @@ Mathematical Function Plotter.
 * /usr/share/doc/HTML/uk/kmplot/settings-diagram.png
 * /usr/share/doc/HTML/uk/kmplot/settings-fonts.png
 * /usr/share/doc/HTML/uk/kmplot/settings-general.png
-* /usr/share/doc/kmplot-24.12.3/README.md
-* /usr/share/doc/kmplot-24.12.3/TODO
+* /usr/share/doc/kmplot-25.04.0/README.md
+* /usr/share/doc/kmplot-25.04.0/TODO
 * /usr/share/icons/hicolor/128x128/apps/kmplot.png
 * /usr/share/icons/hicolor/16x16/apps/kmplot.png
 * /usr/share/icons/hicolor/22x22/apps/kmplot.png
@@ -297,6 +297,7 @@ Mathematical Function Plotter.
 * /usr/share/locale/pt_BR/LC_MESSAGES/kmplot.mo
 * /usr/share/locale/ro/LC_MESSAGES/kmplot.mo
 * /usr/share/locale/ru/LC_MESSAGES/kmplot.mo
+* /usr/share/locale/sa/LC_MESSAGES/kmplot.mo
 * /usr/share/locale/se/LC_MESSAGES/kmplot.mo
 * /usr/share/locale/si/LC_MESSAGES/kmplot.mo
 * /usr/share/locale/sk/LC_MESSAGES/kmplot.mo

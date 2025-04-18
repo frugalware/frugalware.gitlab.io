@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kio-extras 24.12.3-3"
-version = "24.12.3-3"
+title = "kio-extras 25.04.0-1"
+version = "25.04.0-1"
 description = "Additional components to increase the functionality of KIO."
-date = "2025-04-05T21:49:02"
+date = "2025-04-18T13:44:08"
 aliases = "/packages/218324"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1810836"
-usize = "7331352"
-sha1sum = "f64b2e51f07d38aa32f802708a0fbca9d2014e54"
-depends = "['icoutils', 'kcmutils>=6.12.0', 'kdnssd>=6.12.0', 'kdsoap-ws-discovery-client', 'kpty>=6.12.0', 'libappimage', 'libkexiv2>=24.12.3', 'libmtp>=1.1.12-2', 'libplist>=2.3.0', 'libssh>=0.7.3-2', 'libtirpc', 'openexr>=3.3.0', 'openslp>=2.0.0-3', 'plasma-activities-stats>=6.3.4', 'qcoro', 'qt6-webengine>=6.9.0', 'samba-client>=4.5.0', 'syntax-highlighting>=6.12.0', 'taglib>=2.0']"
+size = "1752136"
+usize = "7367070"
+sha1sum = "2a7bfced7099adb04747ce07d673cb3e75a17853"
+depends = "['icoutils', 'kcmutils>=6.13.0', 'kdnssd>=6.13.0', 'kdsoap-ws-discovery-client', 'kpty>=6.13.0', 'libappimage', 'libkexiv2>=25.04.0', 'libmtp>=1.1.12-2', 'libplist>=2.3.0', 'libssh>=0.7.3-2', 'libtirpc', 'openexr>=3.3.0', 'openslp>=2.0.0-3', 'plasma-activities-stats>=6.3.4', 'qcoro', 'qt6-webengine>=6.9.0', 'samba-client>=4.5.0', 'syntax-highlighting>=6.13.0', 'taglib>=2.0']"
 +++
 ### Description: 
 Additional components to increase the functionality of KIO.
@@ -25,11 +25,13 @@ Additional components to increase the functionality of KIO.
 * /usr/lib/cmake/KioArchive6/KioArchiveTargets-release.cmake
 * /usr/lib/cmake/KioArchive6/KioArchiveTargets.cmake
 * /usr/lib/kio-extras/kf6/smbnotifier
+* /usr/lib/kio-extras/wpad-detector-helper
 * /usr/lib/libkioarchive6.so.6
 * /usr/lib/libkioarchive6.so.6.0.0
 * /usr/lib/qt6/plugins/kcm_trash.so
 * /usr/lib/qt6/plugins/kf6/kded/filenamesearchmodule.so
 * /usr/lib/qt6/plugins/kf6/kded/smbwatcher.so
+* /usr/lib/qt6/plugins/kf6/kded/wpad-detector.so
 * /usr/lib/qt6/plugins/kf6/kfileitemaction/forgetfileitemaction.so
 * /usr/lib/qt6/plugins/kf6/kfileitemaction/kactivitymanagerd_fileitem_linking_plugin.so
 * /usr/lib/qt6/plugins/kf6/kio/activities.so
@@ -41,6 +43,7 @@ Additional components to increase the functionality of KIO.
 * /usr/lib/qt6/plugins/kf6/kio/kio_filenamesearch.so
 * /usr/lib/qt6/plugins/kf6/kio/man.so
 * /usr/lib/qt6/plugins/kf6/kio/mtp.so
+* /usr/lib/qt6/plugins/kf6/kio/nfs.so
 * /usr/lib/qt6/plugins/kf6/kio/recentlyused.so
 * /usr/lib/qt6/plugins/kf6/kio/sftp.so
 * /usr/lib/qt6/plugins/kf6/kio/smb.so
@@ -72,14 +75,10 @@ Additional components to increase the functionality of KIO.
 * /usr/share/applications/kcm_webshortcuts.desktop
 * /usr/share/config.kcfg/jpegcreatorsettings5.kcfg
 * /usr/share/dbus-1/services/org.kde.kmtpd5.service
-* /usr/share/doc/HTML/ca/kcontrol6/cookies/index.cache.bz2
-* /usr/share/doc/HTML/ca/kcontrol6/cookies/index.docbook
 * /usr/share/doc/HTML/ca/kcontrol6/netpref/index.cache.bz2
 * /usr/share/doc/HTML/ca/kcontrol6/netpref/index.docbook
 * /usr/share/doc/HTML/ca/kcontrol6/proxy/index.cache.bz2
 * /usr/share/doc/HTML/ca/kcontrol6/proxy/index.docbook
-* /usr/share/doc/HTML/ca/kcontrol6/smb/index.cache.bz2
-* /usr/share/doc/HTML/ca/kcontrol6/smb/index.docbook
 * /usr/share/doc/HTML/ca/kcontrol6/trash/index.cache.bz2
 * /usr/share/doc/HTML/ca/kcontrol6/trash/index.docbook
 * /usr/share/doc/HTML/ca/kcontrol6/webshortcuts/index.cache.bz2
@@ -94,6 +93,8 @@ Additional components to increase the functionality of KIO.
 * /usr/share/doc/HTML/ca/kioworker6/info/index.docbook
 * /usr/share/doc/HTML/ca/kioworker6/man/index.cache.bz2
 * /usr/share/doc/HTML/ca/kioworker6/man/index.docbook
+* /usr/share/doc/HTML/ca/kioworker6/nfs/index.cache.bz2
+* /usr/share/doc/HTML/ca/kioworker6/nfs/index.docbook
 * /usr/share/doc/HTML/ca/kioworker6/sftp/index.cache.bz2
 * /usr/share/doc/HTML/ca/kioworker6/sftp/index.docbook
 * /usr/share/doc/HTML/ca/kioworker6/smb/index.cache.bz2
@@ -106,26 +107,18 @@ Additional components to increase the functionality of KIO.
 * /usr/share/doc/HTML/ca/kioworker6/xz/index.docbook
 * /usr/share/doc/HTML/ca/kioworker6/zstd/index.cache.bz2
 * /usr/share/doc/HTML/ca/kioworker6/zstd/index.docbook
-* /usr/share/doc/HTML/ca@valencia/kcontrol6/cookies/index.cache.bz2
-* /usr/share/doc/HTML/ca@valencia/kcontrol6/cookies/index.docbook
 * /usr/share/doc/HTML/ca@valencia/kcontrol6/netpref/index.cache.bz2
 * /usr/share/doc/HTML/ca@valencia/kcontrol6/netpref/index.docbook
 * /usr/share/doc/HTML/ca@valencia/kcontrol6/proxy/index.cache.bz2
 * /usr/share/doc/HTML/ca@valencia/kcontrol6/proxy/index.docbook
-* /usr/share/doc/HTML/ca@valencia/kcontrol6/smb/index.cache.bz2
-* /usr/share/doc/HTML/ca@valencia/kcontrol6/smb/index.docbook
 * /usr/share/doc/HTML/ca@valencia/kcontrol6/trash/index.cache.bz2
 * /usr/share/doc/HTML/ca@valencia/kcontrol6/trash/index.docbook
 * /usr/share/doc/HTML/ca@valencia/kcontrol6/webshortcuts/index.cache.bz2
 * /usr/share/doc/HTML/ca@valencia/kcontrol6/webshortcuts/index.docbook
-* /usr/share/doc/HTML/de/kcontrol6/cookies/index.cache.bz2
-* /usr/share/doc/HTML/de/kcontrol6/cookies/index.docbook
 * /usr/share/doc/HTML/de/kcontrol6/netpref/index.cache.bz2
 * /usr/share/doc/HTML/de/kcontrol6/netpref/index.docbook
 * /usr/share/doc/HTML/de/kcontrol6/proxy/index.cache.bz2
 * /usr/share/doc/HTML/de/kcontrol6/proxy/index.docbook
-* /usr/share/doc/HTML/de/kcontrol6/smb/index.cache.bz2
-* /usr/share/doc/HTML/de/kcontrol6/smb/index.docbook
 * /usr/share/doc/HTML/de/kcontrol6/trash/index.cache.bz2
 * /usr/share/doc/HTML/de/kcontrol6/trash/index.docbook
 * /usr/share/doc/HTML/de/kcontrol6/webshortcuts/index.cache.bz2
@@ -140,6 +133,8 @@ Additional components to increase the functionality of KIO.
 * /usr/share/doc/HTML/de/kioworker6/info/index.docbook
 * /usr/share/doc/HTML/de/kioworker6/man/index.cache.bz2
 * /usr/share/doc/HTML/de/kioworker6/man/index.docbook
+* /usr/share/doc/HTML/de/kioworker6/nfs/index.cache.bz2
+* /usr/share/doc/HTML/de/kioworker6/nfs/index.docbook
 * /usr/share/doc/HTML/de/kioworker6/sftp/index.cache.bz2
 * /usr/share/doc/HTML/de/kioworker6/sftp/index.docbook
 * /usr/share/doc/HTML/de/kioworker6/smb/index.cache.bz2
@@ -152,14 +147,10 @@ Additional components to increase the functionality of KIO.
 * /usr/share/doc/HTML/de/kioworker6/xz/index.docbook
 * /usr/share/doc/HTML/de/kioworker6/zstd/index.cache.bz2
 * /usr/share/doc/HTML/de/kioworker6/zstd/index.docbook
-* /usr/share/doc/HTML/en/kcontrol6/cookies/index.cache.bz2
-* /usr/share/doc/HTML/en/kcontrol6/cookies/index.docbook
 * /usr/share/doc/HTML/en/kcontrol6/netpref/index.cache.bz2
 * /usr/share/doc/HTML/en/kcontrol6/netpref/index.docbook
 * /usr/share/doc/HTML/en/kcontrol6/proxy/index.cache.bz2
 * /usr/share/doc/HTML/en/kcontrol6/proxy/index.docbook
-* /usr/share/doc/HTML/en/kcontrol6/smb/index.cache.bz2
-* /usr/share/doc/HTML/en/kcontrol6/smb/index.docbook
 * /usr/share/doc/HTML/en/kcontrol6/trash/index.cache.bz2
 * /usr/share/doc/HTML/en/kcontrol6/trash/index.docbook
 * /usr/share/doc/HTML/en/kcontrol6/webshortcuts/index.cache.bz2
@@ -174,6 +165,8 @@ Additional components to increase the functionality of KIO.
 * /usr/share/doc/HTML/en/kioworker6/info/index.docbook
 * /usr/share/doc/HTML/en/kioworker6/man/index.cache.bz2
 * /usr/share/doc/HTML/en/kioworker6/man/index.docbook
+* /usr/share/doc/HTML/en/kioworker6/nfs/index.cache.bz2
+* /usr/share/doc/HTML/en/kioworker6/nfs/index.docbook
 * /usr/share/doc/HTML/en/kioworker6/sftp/index.cache.bz2
 * /usr/share/doc/HTML/en/kioworker6/sftp/index.docbook
 * /usr/share/doc/HTML/en/kioworker6/smb/index.cache.bz2
@@ -186,14 +179,10 @@ Additional components to increase the functionality of KIO.
 * /usr/share/doc/HTML/en/kioworker6/xz/index.docbook
 * /usr/share/doc/HTML/en/kioworker6/zstd/index.cache.bz2
 * /usr/share/doc/HTML/en/kioworker6/zstd/index.docbook
-* /usr/share/doc/HTML/es/kcontrol6/cookies/index.cache.bz2
-* /usr/share/doc/HTML/es/kcontrol6/cookies/index.docbook
 * /usr/share/doc/HTML/es/kcontrol6/netpref/index.cache.bz2
 * /usr/share/doc/HTML/es/kcontrol6/netpref/index.docbook
 * /usr/share/doc/HTML/es/kcontrol6/proxy/index.cache.bz2
 * /usr/share/doc/HTML/es/kcontrol6/proxy/index.docbook
-* /usr/share/doc/HTML/es/kcontrol6/smb/index.cache.bz2
-* /usr/share/doc/HTML/es/kcontrol6/smb/index.docbook
 * /usr/share/doc/HTML/es/kcontrol6/trash/index.cache.bz2
 * /usr/share/doc/HTML/es/kcontrol6/trash/index.docbook
 * /usr/share/doc/HTML/es/kcontrol6/webshortcuts/index.cache.bz2
@@ -208,6 +197,8 @@ Additional components to increase the functionality of KIO.
 * /usr/share/doc/HTML/es/kioworker6/info/index.docbook
 * /usr/share/doc/HTML/es/kioworker6/man/index.cache.bz2
 * /usr/share/doc/HTML/es/kioworker6/man/index.docbook
+* /usr/share/doc/HTML/es/kioworker6/nfs/index.cache.bz2
+* /usr/share/doc/HTML/es/kioworker6/nfs/index.docbook
 * /usr/share/doc/HTML/es/kioworker6/sftp/index.cache.bz2
 * /usr/share/doc/HTML/es/kioworker6/sftp/index.docbook
 * /usr/share/doc/HTML/es/kioworker6/smb/index.cache.bz2
@@ -230,6 +221,8 @@ Additional components to increase the functionality of KIO.
 * /usr/share/doc/HTML/et/kioworker6/info/index.docbook
 * /usr/share/doc/HTML/et/kioworker6/man/index.cache.bz2
 * /usr/share/doc/HTML/et/kioworker6/man/index.docbook
+* /usr/share/doc/HTML/et/kioworker6/nfs/index.cache.bz2
+* /usr/share/doc/HTML/et/kioworker6/nfs/index.docbook
 * /usr/share/doc/HTML/et/kioworker6/sftp/index.cache.bz2
 * /usr/share/doc/HTML/et/kioworker6/sftp/index.docbook
 * /usr/share/doc/HTML/et/kioworker6/smb/index.cache.bz2
@@ -240,14 +233,10 @@ Additional components to increase the functionality of KIO.
 * /usr/share/doc/HTML/et/kioworker6/thumbnail/index.docbook
 * /usr/share/doc/HTML/et/kioworker6/xz/index.cache.bz2
 * /usr/share/doc/HTML/et/kioworker6/xz/index.docbook
-* /usr/share/doc/HTML/fr/kcontrol6/cookies/index.cache.bz2
-* /usr/share/doc/HTML/fr/kcontrol6/cookies/index.docbook
 * /usr/share/doc/HTML/fr/kcontrol6/netpref/index.cache.bz2
 * /usr/share/doc/HTML/fr/kcontrol6/netpref/index.docbook
 * /usr/share/doc/HTML/fr/kcontrol6/proxy/index.cache.bz2
 * /usr/share/doc/HTML/fr/kcontrol6/proxy/index.docbook
-* /usr/share/doc/HTML/fr/kcontrol6/smb/index.cache.bz2
-* /usr/share/doc/HTML/fr/kcontrol6/smb/index.docbook
 * /usr/share/doc/HTML/fr/kcontrol6/trash/index.cache.bz2
 * /usr/share/doc/HTML/fr/kcontrol6/trash/index.docbook
 * /usr/share/doc/HTML/fr/kcontrol6/webshortcuts/index.cache.bz2
@@ -262,6 +251,8 @@ Additional components to increase the functionality of KIO.
 * /usr/share/doc/HTML/fr/kioworker6/info/index.docbook
 * /usr/share/doc/HTML/fr/kioworker6/man/index.cache.bz2
 * /usr/share/doc/HTML/fr/kioworker6/man/index.docbook
+* /usr/share/doc/HTML/fr/kioworker6/nfs/index.cache.bz2
+* /usr/share/doc/HTML/fr/kioworker6/nfs/index.docbook
 * /usr/share/doc/HTML/fr/kioworker6/sftp/index.cache.bz2
 * /usr/share/doc/HTML/fr/kioworker6/sftp/index.docbook
 * /usr/share/doc/HTML/fr/kioworker6/smb/index.cache.bz2
@@ -282,20 +273,18 @@ Additional components to increase the functionality of KIO.
 * /usr/share/doc/HTML/gl/kioworker6/info/index.docbook
 * /usr/share/doc/HTML/gl/kioworker6/man/index.cache.bz2
 * /usr/share/doc/HTML/gl/kioworker6/man/index.docbook
+* /usr/share/doc/HTML/gl/kioworker6/nfs/index.cache.bz2
+* /usr/share/doc/HTML/gl/kioworker6/nfs/index.docbook
 * /usr/share/doc/HTML/gl/kioworker6/sftp/index.cache.bz2
 * /usr/share/doc/HTML/gl/kioworker6/sftp/index.docbook
 * /usr/share/doc/HTML/gl/kioworker6/tar/index.cache.bz2
 * /usr/share/doc/HTML/gl/kioworker6/tar/index.docbook
 * /usr/share/doc/HTML/gl/kioworker6/xz/index.cache.bz2
 * /usr/share/doc/HTML/gl/kioworker6/xz/index.docbook
-* /usr/share/doc/HTML/it/kcontrol6/cookies/index.cache.bz2
-* /usr/share/doc/HTML/it/kcontrol6/cookies/index.docbook
 * /usr/share/doc/HTML/it/kcontrol6/netpref/index.cache.bz2
 * /usr/share/doc/HTML/it/kcontrol6/netpref/index.docbook
 * /usr/share/doc/HTML/it/kcontrol6/proxy/index.cache.bz2
 * /usr/share/doc/HTML/it/kcontrol6/proxy/index.docbook
-* /usr/share/doc/HTML/it/kcontrol6/smb/index.cache.bz2
-* /usr/share/doc/HTML/it/kcontrol6/smb/index.docbook
 * /usr/share/doc/HTML/it/kcontrol6/trash/index.cache.bz2
 * /usr/share/doc/HTML/it/kcontrol6/trash/index.docbook
 * /usr/share/doc/HTML/it/kcontrol6/webshortcuts/index.cache.bz2
@@ -310,6 +299,8 @@ Additional components to increase the functionality of KIO.
 * /usr/share/doc/HTML/it/kioworker6/info/index.docbook
 * /usr/share/doc/HTML/it/kioworker6/man/index.cache.bz2
 * /usr/share/doc/HTML/it/kioworker6/man/index.docbook
+* /usr/share/doc/HTML/it/kioworker6/nfs/index.cache.bz2
+* /usr/share/doc/HTML/it/kioworker6/nfs/index.docbook
 * /usr/share/doc/HTML/it/kioworker6/sftp/index.cache.bz2
 * /usr/share/doc/HTML/it/kioworker6/sftp/index.docbook
 * /usr/share/doc/HTML/it/kioworker6/smb/index.cache.bz2
@@ -328,14 +319,10 @@ Additional components to increase the functionality of KIO.
 * /usr/share/doc/HTML/nb/kioworker6/man/index.docbook
 * /usr/share/doc/HTML/nb/kioworker6/thumbnail/index.cache.bz2
 * /usr/share/doc/HTML/nb/kioworker6/thumbnail/index.docbook
-* /usr/share/doc/HTML/nl/kcontrol6/cookies/index.cache.bz2
-* /usr/share/doc/HTML/nl/kcontrol6/cookies/index.docbook
 * /usr/share/doc/HTML/nl/kcontrol6/netpref/index.cache.bz2
 * /usr/share/doc/HTML/nl/kcontrol6/netpref/index.docbook
 * /usr/share/doc/HTML/nl/kcontrol6/proxy/index.cache.bz2
 * /usr/share/doc/HTML/nl/kcontrol6/proxy/index.docbook
-* /usr/share/doc/HTML/nl/kcontrol6/smb/index.cache.bz2
-* /usr/share/doc/HTML/nl/kcontrol6/smb/index.docbook
 * /usr/share/doc/HTML/nl/kcontrol6/trash/index.cache.bz2
 * /usr/share/doc/HTML/nl/kcontrol6/trash/index.docbook
 * /usr/share/doc/HTML/nl/kcontrol6/webshortcuts/index.cache.bz2
@@ -350,6 +337,8 @@ Additional components to increase the functionality of KIO.
 * /usr/share/doc/HTML/nl/kioworker6/info/index.docbook
 * /usr/share/doc/HTML/nl/kioworker6/man/index.cache.bz2
 * /usr/share/doc/HTML/nl/kioworker6/man/index.docbook
+* /usr/share/doc/HTML/nl/kioworker6/nfs/index.cache.bz2
+* /usr/share/doc/HTML/nl/kioworker6/nfs/index.docbook
 * /usr/share/doc/HTML/nl/kioworker6/sftp/index.cache.bz2
 * /usr/share/doc/HTML/nl/kioworker6/sftp/index.docbook
 * /usr/share/doc/HTML/nl/kioworker6/smb/index.cache.bz2
@@ -362,14 +351,10 @@ Additional components to increase the functionality of KIO.
 * /usr/share/doc/HTML/nl/kioworker6/xz/index.docbook
 * /usr/share/doc/HTML/nl/kioworker6/zstd/index.cache.bz2
 * /usr/share/doc/HTML/nl/kioworker6/zstd/index.docbook
-* /usr/share/doc/HTML/pt/kcontrol6/cookies/index.cache.bz2
-* /usr/share/doc/HTML/pt/kcontrol6/cookies/index.docbook
 * /usr/share/doc/HTML/pt/kcontrol6/netpref/index.cache.bz2
 * /usr/share/doc/HTML/pt/kcontrol6/netpref/index.docbook
 * /usr/share/doc/HTML/pt/kcontrol6/proxy/index.cache.bz2
 * /usr/share/doc/HTML/pt/kcontrol6/proxy/index.docbook
-* /usr/share/doc/HTML/pt/kcontrol6/smb/index.cache.bz2
-* /usr/share/doc/HTML/pt/kcontrol6/smb/index.docbook
 * /usr/share/doc/HTML/pt/kcontrol6/trash/index.cache.bz2
 * /usr/share/doc/HTML/pt/kcontrol6/trash/index.docbook
 * /usr/share/doc/HTML/pt/kcontrol6/webshortcuts/index.cache.bz2
@@ -384,6 +369,8 @@ Additional components to increase the functionality of KIO.
 * /usr/share/doc/HTML/pt/kioworker6/info/index.docbook
 * /usr/share/doc/HTML/pt/kioworker6/man/index.cache.bz2
 * /usr/share/doc/HTML/pt/kioworker6/man/index.docbook
+* /usr/share/doc/HTML/pt/kioworker6/nfs/index.cache.bz2
+* /usr/share/doc/HTML/pt/kioworker6/nfs/index.docbook
 * /usr/share/doc/HTML/pt/kioworker6/sftp/index.cache.bz2
 * /usr/share/doc/HTML/pt/kioworker6/sftp/index.docbook
 * /usr/share/doc/HTML/pt/kioworker6/smb/index.cache.bz2
@@ -394,14 +381,10 @@ Additional components to increase the functionality of KIO.
 * /usr/share/doc/HTML/pt/kioworker6/thumbnail/index.docbook
 * /usr/share/doc/HTML/pt/kioworker6/xz/index.cache.bz2
 * /usr/share/doc/HTML/pt/kioworker6/xz/index.docbook
-* /usr/share/doc/HTML/pt_BR/kcontrol6/cookies/index.cache.bz2
-* /usr/share/doc/HTML/pt_BR/kcontrol6/cookies/index.docbook
 * /usr/share/doc/HTML/pt_BR/kcontrol6/netpref/index.cache.bz2
 * /usr/share/doc/HTML/pt_BR/kcontrol6/netpref/index.docbook
 * /usr/share/doc/HTML/pt_BR/kcontrol6/proxy/index.cache.bz2
 * /usr/share/doc/HTML/pt_BR/kcontrol6/proxy/index.docbook
-* /usr/share/doc/HTML/pt_BR/kcontrol6/smb/index.cache.bz2
-* /usr/share/doc/HTML/pt_BR/kcontrol6/smb/index.docbook
 * /usr/share/doc/HTML/pt_BR/kcontrol6/trash/index.cache.bz2
 * /usr/share/doc/HTML/pt_BR/kcontrol6/trash/index.docbook
 * /usr/share/doc/HTML/pt_BR/kcontrol6/webshortcuts/index.cache.bz2
@@ -416,6 +399,8 @@ Additional components to increase the functionality of KIO.
 * /usr/share/doc/HTML/pt_BR/kioworker6/info/index.docbook
 * /usr/share/doc/HTML/pt_BR/kioworker6/man/index.cache.bz2
 * /usr/share/doc/HTML/pt_BR/kioworker6/man/index.docbook
+* /usr/share/doc/HTML/pt_BR/kioworker6/nfs/index.cache.bz2
+* /usr/share/doc/HTML/pt_BR/kioworker6/nfs/index.docbook
 * /usr/share/doc/HTML/pt_BR/kioworker6/sftp/index.cache.bz2
 * /usr/share/doc/HTML/pt_BR/kioworker6/sftp/index.docbook
 * /usr/share/doc/HTML/pt_BR/kioworker6/smb/index.cache.bz2
@@ -426,14 +411,10 @@ Additional components to increase the functionality of KIO.
 * /usr/share/doc/HTML/pt_BR/kioworker6/thumbnail/index.docbook
 * /usr/share/doc/HTML/pt_BR/kioworker6/xz/index.cache.bz2
 * /usr/share/doc/HTML/pt_BR/kioworker6/xz/index.docbook
-* /usr/share/doc/HTML/ru/kcontrol6/cookies/index.cache.bz2
-* /usr/share/doc/HTML/ru/kcontrol6/cookies/index.docbook
 * /usr/share/doc/HTML/ru/kcontrol6/netpref/index.cache.bz2
 * /usr/share/doc/HTML/ru/kcontrol6/netpref/index.docbook
 * /usr/share/doc/HTML/ru/kcontrol6/proxy/index.cache.bz2
 * /usr/share/doc/HTML/ru/kcontrol6/proxy/index.docbook
-* /usr/share/doc/HTML/ru/kcontrol6/smb/index.cache.bz2
-* /usr/share/doc/HTML/ru/kcontrol6/smb/index.docbook
 * /usr/share/doc/HTML/ru/kcontrol6/trash/index.cache.bz2
 * /usr/share/doc/HTML/ru/kcontrol6/trash/index.docbook
 * /usr/share/doc/HTML/ru/kcontrol6/webshortcuts/index.cache.bz2
@@ -448,6 +429,8 @@ Additional components to increase the functionality of KIO.
 * /usr/share/doc/HTML/ru/kioworker6/info/index.docbook
 * /usr/share/doc/HTML/ru/kioworker6/man/index.cache.bz2
 * /usr/share/doc/HTML/ru/kioworker6/man/index.docbook
+* /usr/share/doc/HTML/ru/kioworker6/nfs/index.cache.bz2
+* /usr/share/doc/HTML/ru/kioworker6/nfs/index.docbook
 * /usr/share/doc/HTML/ru/kioworker6/sftp/index.cache.bz2
 * /usr/share/doc/HTML/ru/kioworker6/sftp/index.docbook
 * /usr/share/doc/HTML/ru/kioworker6/smb/index.cache.bz2
@@ -460,14 +443,10 @@ Additional components to increase the functionality of KIO.
 * /usr/share/doc/HTML/ru/kioworker6/xz/index.docbook
 * /usr/share/doc/HTML/ru/kioworker6/zstd/index.cache.bz2
 * /usr/share/doc/HTML/ru/kioworker6/zstd/index.docbook
-* /usr/share/doc/HTML/sl/kcontrol6/cookies/index.cache.bz2
-* /usr/share/doc/HTML/sl/kcontrol6/cookies/index.docbook
 * /usr/share/doc/HTML/sl/kcontrol6/netpref/index.cache.bz2
 * /usr/share/doc/HTML/sl/kcontrol6/netpref/index.docbook
 * /usr/share/doc/HTML/sl/kcontrol6/proxy/index.cache.bz2
 * /usr/share/doc/HTML/sl/kcontrol6/proxy/index.docbook
-* /usr/share/doc/HTML/sl/kcontrol6/smb/index.cache.bz2
-* /usr/share/doc/HTML/sl/kcontrol6/smb/index.docbook
 * /usr/share/doc/HTML/sl/kcontrol6/trash/index.cache.bz2
 * /usr/share/doc/HTML/sl/kcontrol6/trash/index.docbook
 * /usr/share/doc/HTML/sl/kcontrol6/webshortcuts/index.cache.bz2
@@ -494,14 +473,10 @@ Additional components to increase the functionality of KIO.
 * /usr/share/doc/HTML/sl/kioworker6/xz/index.docbook
 * /usr/share/doc/HTML/sl/kioworker6/zstd/index.cache.bz2
 * /usr/share/doc/HTML/sl/kioworker6/zstd/index.docbook
-* /usr/share/doc/HTML/sr/kcontrol6/cookies/index.cache.bz2
-* /usr/share/doc/HTML/sr/kcontrol6/cookies/index.docbook
 * /usr/share/doc/HTML/sr/kcontrol6/netpref/index.cache.bz2
 * /usr/share/doc/HTML/sr/kcontrol6/netpref/index.docbook
 * /usr/share/doc/HTML/sr/kcontrol6/proxy/index.cache.bz2
 * /usr/share/doc/HTML/sr/kcontrol6/proxy/index.docbook
-* /usr/share/doc/HTML/sr/kcontrol6/smb/index.cache.bz2
-* /usr/share/doc/HTML/sr/kcontrol6/smb/index.docbook
 * /usr/share/doc/HTML/sr/kcontrol6/webshortcuts/index.cache.bz2
 * /usr/share/doc/HTML/sr/kcontrol6/webshortcuts/index.docbook
 * /usr/share/doc/HTML/sr/kioworker6/bzip2/index.cache.bz2
@@ -514,6 +489,8 @@ Additional components to increase the functionality of KIO.
 * /usr/share/doc/HTML/sr/kioworker6/info/index.docbook
 * /usr/share/doc/HTML/sr/kioworker6/man/index.cache.bz2
 * /usr/share/doc/HTML/sr/kioworker6/man/index.docbook
+* /usr/share/doc/HTML/sr/kioworker6/nfs/index.cache.bz2
+* /usr/share/doc/HTML/sr/kioworker6/nfs/index.docbook
 * /usr/share/doc/HTML/sr/kioworker6/sftp/index.cache.bz2
 * /usr/share/doc/HTML/sr/kioworker6/sftp/index.docbook
 * /usr/share/doc/HTML/sr/kioworker6/smb/index.cache.bz2
@@ -524,14 +501,10 @@ Additional components to increase the functionality of KIO.
 * /usr/share/doc/HTML/sr/kioworker6/thumbnail/index.docbook
 * /usr/share/doc/HTML/sr/kioworker6/xz/index.cache.bz2
 * /usr/share/doc/HTML/sr/kioworker6/xz/index.docbook
-* /usr/share/doc/HTML/sr@latin/kcontrol6/cookies/index.cache.bz2
-* /usr/share/doc/HTML/sr@latin/kcontrol6/cookies/index.docbook
 * /usr/share/doc/HTML/sr@latin/kcontrol6/netpref/index.cache.bz2
 * /usr/share/doc/HTML/sr@latin/kcontrol6/netpref/index.docbook
 * /usr/share/doc/HTML/sr@latin/kcontrol6/proxy/index.cache.bz2
 * /usr/share/doc/HTML/sr@latin/kcontrol6/proxy/index.docbook
-* /usr/share/doc/HTML/sr@latin/kcontrol6/smb/index.cache.bz2
-* /usr/share/doc/HTML/sr@latin/kcontrol6/smb/index.docbook
 * /usr/share/doc/HTML/sr@latin/kcontrol6/webshortcuts/index.cache.bz2
 * /usr/share/doc/HTML/sr@latin/kcontrol6/webshortcuts/index.docbook
 * /usr/share/doc/HTML/sr@latin/kioworker6/bzip2/index.cache.bz2
@@ -544,6 +517,8 @@ Additional components to increase the functionality of KIO.
 * /usr/share/doc/HTML/sr@latin/kioworker6/info/index.docbook
 * /usr/share/doc/HTML/sr@latin/kioworker6/man/index.cache.bz2
 * /usr/share/doc/HTML/sr@latin/kioworker6/man/index.docbook
+* /usr/share/doc/HTML/sr@latin/kioworker6/nfs/index.cache.bz2
+* /usr/share/doc/HTML/sr@latin/kioworker6/nfs/index.docbook
 * /usr/share/doc/HTML/sr@latin/kioworker6/sftp/index.cache.bz2
 * /usr/share/doc/HTML/sr@latin/kioworker6/sftp/index.docbook
 * /usr/share/doc/HTML/sr@latin/kioworker6/smb/index.cache.bz2
@@ -554,14 +529,10 @@ Additional components to increase the functionality of KIO.
 * /usr/share/doc/HTML/sr@latin/kioworker6/thumbnail/index.docbook
 * /usr/share/doc/HTML/sr@latin/kioworker6/xz/index.cache.bz2
 * /usr/share/doc/HTML/sr@latin/kioworker6/xz/index.docbook
-* /usr/share/doc/HTML/sv/kcontrol6/cookies/index.cache.bz2
-* /usr/share/doc/HTML/sv/kcontrol6/cookies/index.docbook
 * /usr/share/doc/HTML/sv/kcontrol6/netpref/index.cache.bz2
 * /usr/share/doc/HTML/sv/kcontrol6/netpref/index.docbook
 * /usr/share/doc/HTML/sv/kcontrol6/proxy/index.cache.bz2
 * /usr/share/doc/HTML/sv/kcontrol6/proxy/index.docbook
-* /usr/share/doc/HTML/sv/kcontrol6/smb/index.cache.bz2
-* /usr/share/doc/HTML/sv/kcontrol6/smb/index.docbook
 * /usr/share/doc/HTML/sv/kcontrol6/trash/index.cache.bz2
 * /usr/share/doc/HTML/sv/kcontrol6/trash/index.docbook
 * /usr/share/doc/HTML/sv/kcontrol6/webshortcuts/index.cache.bz2
@@ -576,6 +547,8 @@ Additional components to increase the functionality of KIO.
 * /usr/share/doc/HTML/sv/kioworker6/info/index.docbook
 * /usr/share/doc/HTML/sv/kioworker6/man/index.cache.bz2
 * /usr/share/doc/HTML/sv/kioworker6/man/index.docbook
+* /usr/share/doc/HTML/sv/kioworker6/nfs/index.cache.bz2
+* /usr/share/doc/HTML/sv/kioworker6/nfs/index.docbook
 * /usr/share/doc/HTML/sv/kioworker6/sftp/index.cache.bz2
 * /usr/share/doc/HTML/sv/kioworker6/sftp/index.docbook
 * /usr/share/doc/HTML/sv/kioworker6/smb/index.cache.bz2
@@ -588,14 +561,10 @@ Additional components to increase the functionality of KIO.
 * /usr/share/doc/HTML/sv/kioworker6/xz/index.docbook
 * /usr/share/doc/HTML/sv/kioworker6/zstd/index.cache.bz2
 * /usr/share/doc/HTML/sv/kioworker6/zstd/index.docbook
-* /usr/share/doc/HTML/tr/kcontrol6/cookies/index.cache.bz2
-* /usr/share/doc/HTML/tr/kcontrol6/cookies/index.docbook
 * /usr/share/doc/HTML/tr/kcontrol6/netpref/index.cache.bz2
 * /usr/share/doc/HTML/tr/kcontrol6/netpref/index.docbook
 * /usr/share/doc/HTML/tr/kcontrol6/proxy/index.cache.bz2
 * /usr/share/doc/HTML/tr/kcontrol6/proxy/index.docbook
-* /usr/share/doc/HTML/tr/kcontrol6/smb/index.cache.bz2
-* /usr/share/doc/HTML/tr/kcontrol6/smb/index.docbook
 * /usr/share/doc/HTML/tr/kcontrol6/trash/index.cache.bz2
 * /usr/share/doc/HTML/tr/kcontrol6/trash/index.docbook
 * /usr/share/doc/HTML/tr/kcontrol6/webshortcuts/index.cache.bz2
@@ -610,6 +579,8 @@ Additional components to increase the functionality of KIO.
 * /usr/share/doc/HTML/tr/kioworker6/info/index.docbook
 * /usr/share/doc/HTML/tr/kioworker6/man/index.cache.bz2
 * /usr/share/doc/HTML/tr/kioworker6/man/index.docbook
+* /usr/share/doc/HTML/tr/kioworker6/nfs/index.cache.bz2
+* /usr/share/doc/HTML/tr/kioworker6/nfs/index.docbook
 * /usr/share/doc/HTML/tr/kioworker6/sftp/index.cache.bz2
 * /usr/share/doc/HTML/tr/kioworker6/sftp/index.docbook
 * /usr/share/doc/HTML/tr/kioworker6/smb/index.cache.bz2
@@ -622,14 +593,10 @@ Additional components to increase the functionality of KIO.
 * /usr/share/doc/HTML/tr/kioworker6/xz/index.docbook
 * /usr/share/doc/HTML/tr/kioworker6/zstd/index.cache.bz2
 * /usr/share/doc/HTML/tr/kioworker6/zstd/index.docbook
-* /usr/share/doc/HTML/uk/kcontrol6/cookies/index.cache.bz2
-* /usr/share/doc/HTML/uk/kcontrol6/cookies/index.docbook
 * /usr/share/doc/HTML/uk/kcontrol6/netpref/index.cache.bz2
 * /usr/share/doc/HTML/uk/kcontrol6/netpref/index.docbook
 * /usr/share/doc/HTML/uk/kcontrol6/proxy/index.cache.bz2
 * /usr/share/doc/HTML/uk/kcontrol6/proxy/index.docbook
-* /usr/share/doc/HTML/uk/kcontrol6/smb/index.cache.bz2
-* /usr/share/doc/HTML/uk/kcontrol6/smb/index.docbook
 * /usr/share/doc/HTML/uk/kcontrol6/trash/index.cache.bz2
 * /usr/share/doc/HTML/uk/kcontrol6/trash/index.docbook
 * /usr/share/doc/HTML/uk/kcontrol6/webshortcuts/index.cache.bz2
@@ -644,6 +611,8 @@ Additional components to increase the functionality of KIO.
 * /usr/share/doc/HTML/uk/kioworker6/info/index.docbook
 * /usr/share/doc/HTML/uk/kioworker6/man/index.cache.bz2
 * /usr/share/doc/HTML/uk/kioworker6/man/index.docbook
+* /usr/share/doc/HTML/uk/kioworker6/nfs/index.cache.bz2
+* /usr/share/doc/HTML/uk/kioworker6/nfs/index.docbook
 * /usr/share/doc/HTML/uk/kioworker6/sftp/index.cache.bz2
 * /usr/share/doc/HTML/uk/kioworker6/sftp/index.docbook
 * /usr/share/doc/HTML/uk/kioworker6/smb/index.cache.bz2
@@ -666,6 +635,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/af/LC_MESSAGES/kio6_archive.mo
 * /usr/share/locale/af/LC_MESSAGES/kio6_fish.mo
 * /usr/share/locale/af/LC_MESSAGES/kio6_man.mo
+* /usr/share/locale/af/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/af/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/af/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/af/LC_MESSAGES/kio6_thumbnail.mo
@@ -679,6 +649,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/ar/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/ar/LC_MESSAGES/kio6_man.mo
 * /usr/share/locale/ar/LC_MESSAGES/kio6_mtp.mo
+* /usr/share/locale/ar/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/ar/LC_MESSAGES/kio6_recentlyused.mo
 * /usr/share/locale/ar/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/ar/LC_MESSAGES/kio6_smb.mo
@@ -692,6 +663,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/ast/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/ast/LC_MESSAGES/kio6_man.mo
 * /usr/share/locale/ast/LC_MESSAGES/kio6_mtp.mo
+* /usr/share/locale/ast/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/ast/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/ast/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/ast/LC_MESSAGES/kio6_thumbnail.mo
@@ -701,10 +673,13 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/be/LC_MESSAGES/kio6_activities.mo
 * /usr/share/locale/be/LC_MESSAGES/kio6_afc.mo
 * /usr/share/locale/be/LC_MESSAGES/kio6_archive.mo
+* /usr/share/locale/be/LC_MESSAGES/kio6_filenamesearch.mo
 * /usr/share/locale/be/LC_MESSAGES/kio6_fish.mo
 * /usr/share/locale/be/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/be/LC_MESSAGES/kio6_man.mo
 * /usr/share/locale/be/LC_MESSAGES/kio6_mtp.mo
+* /usr/share/locale/be/LC_MESSAGES/kio6_nfs.mo
+* /usr/share/locale/be/LC_MESSAGES/kio6_recentlyused.mo
 * /usr/share/locale/be/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/be/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/be/LC_MESSAGES/kio6_thumbnail.mo
@@ -712,6 +687,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/be@latin/LC_MESSAGES/kio6_archive.mo
 * /usr/share/locale/be@latin/LC_MESSAGES/kio6_fish.mo
 * /usr/share/locale/be@latin/LC_MESSAGES/kio6_man.mo
+* /usr/share/locale/be@latin/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/be@latin/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/be@latin/LC_MESSAGES/kio6_thumbnail.mo
 * /usr/share/locale/bg/LC_MESSAGES/kfileaudiopreview6.mo
@@ -724,6 +700,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/bg/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/bg/LC_MESSAGES/kio6_man.mo
 * /usr/share/locale/bg/LC_MESSAGES/kio6_mtp.mo
+* /usr/share/locale/bg/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/bg/LC_MESSAGES/kio6_recentlyused.mo
 * /usr/share/locale/bg/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/bg/LC_MESSAGES/kio6_smb.mo
@@ -732,9 +709,11 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/bn/LC_MESSAGES/kio-extras_kcms.mo
 * /usr/share/locale/bn/LC_MESSAGES/kio6_fish.mo
 * /usr/share/locale/bn/LC_MESSAGES/kio6_man.mo
+* /usr/share/locale/bn/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/bn_IN/LC_MESSAGES/kio6_archive.mo
 * /usr/share/locale/bn_IN/LC_MESSAGES/kio6_fish.mo
 * /usr/share/locale/bn_IN/LC_MESSAGES/kio6_man.mo
+* /usr/share/locale/bn_IN/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/bn_IN/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/bn_IN/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/bn_IN/LC_MESSAGES/kio6_thumbnail.mo
@@ -742,6 +721,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/br/LC_MESSAGES/kio-extras_kcms.mo
 * /usr/share/locale/br/LC_MESSAGES/kio6_fish.mo
 * /usr/share/locale/br/LC_MESSAGES/kio6_man.mo
+* /usr/share/locale/br/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/br/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/br/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/br/LC_MESSAGES/kio6_thumbnail.mo
@@ -753,6 +733,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/bs/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/bs/LC_MESSAGES/kio6_man.mo
 * /usr/share/locale/bs/LC_MESSAGES/kio6_mtp.mo
+* /usr/share/locale/bs/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/bs/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/bs/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/bs/LC_MESSAGES/kio6_thumbnail.mo
@@ -766,6 +747,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/ca/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/ca/LC_MESSAGES/kio6_man.mo
 * /usr/share/locale/ca/LC_MESSAGES/kio6_mtp.mo
+* /usr/share/locale/ca/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/ca/LC_MESSAGES/kio6_recentlyused.mo
 * /usr/share/locale/ca/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/ca/LC_MESSAGES/kio6_smb.mo
@@ -780,6 +762,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/ca@valencia/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/kio6_man.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/kio6_mtp.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/kio6_recentlyused.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/kio6_smb.mo
@@ -794,6 +777,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/cs/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/cs/LC_MESSAGES/kio6_man.mo
 * /usr/share/locale/cs/LC_MESSAGES/kio6_mtp.mo
+* /usr/share/locale/cs/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/cs/LC_MESSAGES/kio6_recentlyused.mo
 * /usr/share/locale/cs/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/cs/LC_MESSAGES/kio6_smb.mo
@@ -803,6 +787,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/csb/LC_MESSAGES/kio6_archive.mo
 * /usr/share/locale/csb/LC_MESSAGES/kio6_fish.mo
 * /usr/share/locale/csb/LC_MESSAGES/kio6_man.mo
+* /usr/share/locale/csb/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/csb/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/csb/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/csb/LC_MESSAGES/kio6_thumbnail.mo
@@ -810,6 +795,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/cy/LC_MESSAGES/kio-extras_kcms.mo
 * /usr/share/locale/cy/LC_MESSAGES/kio6_fish.mo
 * /usr/share/locale/cy/LC_MESSAGES/kio6_man.mo
+* /usr/share/locale/cy/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/cy/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/cy/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/da/LC_MESSAGES/kfileaudiopreview6.mo
@@ -820,6 +806,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/da/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/da/LC_MESSAGES/kio6_man.mo
 * /usr/share/locale/da/LC_MESSAGES/kio6_mtp.mo
+* /usr/share/locale/da/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/da/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/da/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/da/LC_MESSAGES/kio6_thumbnail.mo
@@ -833,6 +820,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/de/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/de/LC_MESSAGES/kio6_man.mo
 * /usr/share/locale/de/LC_MESSAGES/kio6_mtp.mo
+* /usr/share/locale/de/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/de/LC_MESSAGES/kio6_recentlyused.mo
 * /usr/share/locale/de/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/de/LC_MESSAGES/kio6_smb.mo
@@ -845,6 +833,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/el/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/el/LC_MESSAGES/kio6_man.mo
 * /usr/share/locale/el/LC_MESSAGES/kio6_mtp.mo
+* /usr/share/locale/el/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/el/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/el/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/el/LC_MESSAGES/kio6_thumbnail.mo
@@ -858,6 +847,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/en_GB/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/kio6_man.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/kio6_mtp.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/kio6_recentlyused.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/kio6_smb.mo
@@ -872,6 +862,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/eo/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/eo/LC_MESSAGES/kio6_man.mo
 * /usr/share/locale/eo/LC_MESSAGES/kio6_mtp.mo
+* /usr/share/locale/eo/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/eo/LC_MESSAGES/kio6_recentlyused.mo
 * /usr/share/locale/eo/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/eo/LC_MESSAGES/kio6_smb.mo
@@ -886,6 +877,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/es/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/es/LC_MESSAGES/kio6_man.mo
 * /usr/share/locale/es/LC_MESSAGES/kio6_mtp.mo
+* /usr/share/locale/es/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/es/LC_MESSAGES/kio6_recentlyused.mo
 * /usr/share/locale/es/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/es/LC_MESSAGES/kio6_smb.mo
@@ -898,6 +890,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/et/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/et/LC_MESSAGES/kio6_man.mo
 * /usr/share/locale/et/LC_MESSAGES/kio6_mtp.mo
+* /usr/share/locale/et/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/et/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/et/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/et/LC_MESSAGES/kio6_thumbnail.mo
@@ -911,6 +904,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/eu/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/eu/LC_MESSAGES/kio6_man.mo
 * /usr/share/locale/eu/LC_MESSAGES/kio6_mtp.mo
+* /usr/share/locale/eu/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/eu/LC_MESSAGES/kio6_recentlyused.mo
 * /usr/share/locale/eu/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/eu/LC_MESSAGES/kio6_smb.mo
@@ -921,6 +915,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/fa/LC_MESSAGES/kio6_fish.mo
 * /usr/share/locale/fa/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/fa/LC_MESSAGES/kio6_man.mo
+* /usr/share/locale/fa/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/fa/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/fa/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/fa/LC_MESSAGES/kio6_thumbnail.mo
@@ -934,6 +929,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/fi/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/fi/LC_MESSAGES/kio6_man.mo
 * /usr/share/locale/fi/LC_MESSAGES/kio6_mtp.mo
+* /usr/share/locale/fi/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/fi/LC_MESSAGES/kio6_recentlyused.mo
 * /usr/share/locale/fi/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/fi/LC_MESSAGES/kio6_smb.mo
@@ -948,6 +944,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/fr/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/fr/LC_MESSAGES/kio6_man.mo
 * /usr/share/locale/fr/LC_MESSAGES/kio6_mtp.mo
+* /usr/share/locale/fr/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/fr/LC_MESSAGES/kio6_recentlyused.mo
 * /usr/share/locale/fr/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/fr/LC_MESSAGES/kio6_smb.mo
@@ -958,6 +955,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/fy/LC_MESSAGES/kio6_fish.mo
 * /usr/share/locale/fy/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/fy/LC_MESSAGES/kio6_man.mo
+* /usr/share/locale/fy/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/fy/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/fy/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/fy/LC_MESSAGES/kio6_thumbnail.mo
@@ -968,6 +966,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/ga/LC_MESSAGES/kio6_fish.mo
 * /usr/share/locale/ga/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/ga/LC_MESSAGES/kio6_man.mo
+* /usr/share/locale/ga/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/ga/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/ga/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/ga/LC_MESSAGES/kio6_thumbnail.mo
@@ -982,6 +981,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/gl/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/gl/LC_MESSAGES/kio6_man.mo
 * /usr/share/locale/gl/LC_MESSAGES/kio6_mtp.mo
+* /usr/share/locale/gl/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/gl/LC_MESSAGES/kio6_recentlyused.mo
 * /usr/share/locale/gl/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/gl/LC_MESSAGES/kio6_smb.mo
@@ -993,6 +993,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/gu/LC_MESSAGES/kio6_fish.mo
 * /usr/share/locale/gu/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/gu/LC_MESSAGES/kio6_man.mo
+* /usr/share/locale/gu/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/gu/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/gu/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/gu/LC_MESSAGES/kio6_thumbnail.mo
@@ -1006,6 +1007,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/he/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/he/LC_MESSAGES/kio6_man.mo
 * /usr/share/locale/he/LC_MESSAGES/kio6_mtp.mo
+* /usr/share/locale/he/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/he/LC_MESSAGES/kio6_recentlyused.mo
 * /usr/share/locale/he/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/he/LC_MESSAGES/kio6_smb.mo
@@ -1013,16 +1015,22 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/hi/LC_MESSAGES/kfileaudiopreview6.mo
 * /usr/share/locale/hi/LC_MESSAGES/kio-extras_kcms.mo
 * /usr/share/locale/hi/LC_MESSAGES/kio6_activities.mo
+* /usr/share/locale/hi/LC_MESSAGES/kio6_afc.mo
 * /usr/share/locale/hi/LC_MESSAGES/kio6_archive.mo
+* /usr/share/locale/hi/LC_MESSAGES/kio6_filenamesearch.mo
 * /usr/share/locale/hi/LC_MESSAGES/kio6_fish.mo
 * /usr/share/locale/hi/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/hi/LC_MESSAGES/kio6_man.mo
+* /usr/share/locale/hi/LC_MESSAGES/kio6_mtp.mo
+* /usr/share/locale/hi/LC_MESSAGES/kio6_nfs.mo
+* /usr/share/locale/hi/LC_MESSAGES/kio6_recentlyused.mo
 * /usr/share/locale/hi/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/hi/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/hi/LC_MESSAGES/kio6_thumbnail.mo
 * /usr/share/locale/hne/LC_MESSAGES/kio6_archive.mo
 * /usr/share/locale/hne/LC_MESSAGES/kio6_fish.mo
 * /usr/share/locale/hne/LC_MESSAGES/kio6_man.mo
+* /usr/share/locale/hne/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/hne/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/hne/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/hne/LC_MESSAGES/kio6_thumbnail.mo
@@ -1033,6 +1041,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/hr/LC_MESSAGES/kio6_fish.mo
 * /usr/share/locale/hr/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/hr/LC_MESSAGES/kio6_man.mo
+* /usr/share/locale/hr/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/hr/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/hr/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/hr/LC_MESSAGES/kio6_thumbnail.mo
@@ -1041,6 +1050,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/hsb/LC_MESSAGES/kio6_archive.mo
 * /usr/share/locale/hsb/LC_MESSAGES/kio6_fish.mo
 * /usr/share/locale/hsb/LC_MESSAGES/kio6_man.mo
+* /usr/share/locale/hsb/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/hsb/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/hsb/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/hsb/LC_MESSAGES/kio6_thumbnail.mo
@@ -1054,6 +1064,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/hu/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/hu/LC_MESSAGES/kio6_man.mo
 * /usr/share/locale/hu/LC_MESSAGES/kio6_mtp.mo
+* /usr/share/locale/hu/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/hu/LC_MESSAGES/kio6_recentlyused.mo
 * /usr/share/locale/hu/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/hu/LC_MESSAGES/kio6_smb.mo
@@ -1070,6 +1081,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/ia/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/ia/LC_MESSAGES/kio6_man.mo
 * /usr/share/locale/ia/LC_MESSAGES/kio6_mtp.mo
+* /usr/share/locale/ia/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/ia/LC_MESSAGES/kio6_recentlyused.mo
 * /usr/share/locale/ia/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/ia/LC_MESSAGES/kio6_smb.mo
@@ -1082,6 +1094,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/id/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/id/LC_MESSAGES/kio6_man.mo
 * /usr/share/locale/id/LC_MESSAGES/kio6_mtp.mo
+* /usr/share/locale/id/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/id/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/id/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/id/LC_MESSAGES/kio6_thumbnail.mo
@@ -1098,6 +1111,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/is/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/is/LC_MESSAGES/kio6_man.mo
 * /usr/share/locale/is/LC_MESSAGES/kio6_mtp.mo
+* /usr/share/locale/is/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/is/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/is/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/is/LC_MESSAGES/kio6_thumbnail.mo
@@ -1111,6 +1125,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/it/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/it/LC_MESSAGES/kio6_man.mo
 * /usr/share/locale/it/LC_MESSAGES/kio6_mtp.mo
+* /usr/share/locale/it/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/it/LC_MESSAGES/kio6_recentlyused.mo
 * /usr/share/locale/it/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/it/LC_MESSAGES/kio6_smb.mo
@@ -1124,6 +1139,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/ja/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/ja/LC_MESSAGES/kio6_man.mo
 * /usr/share/locale/ja/LC_MESSAGES/kio6_mtp.mo
+* /usr/share/locale/ja/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/ja/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/ja/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/ja/LC_MESSAGES/kio6_thumbnail.mo
@@ -1137,6 +1153,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/ka/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/ka/LC_MESSAGES/kio6_man.mo
 * /usr/share/locale/ka/LC_MESSAGES/kio6_mtp.mo
+* /usr/share/locale/ka/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/ka/LC_MESSAGES/kio6_recentlyused.mo
 * /usr/share/locale/ka/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/ka/LC_MESSAGES/kio6_smb.mo
@@ -1148,6 +1165,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/kk/LC_MESSAGES/kio6_fish.mo
 * /usr/share/locale/kk/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/kk/LC_MESSAGES/kio6_man.mo
+* /usr/share/locale/kk/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/kk/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/kk/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/kk/LC_MESSAGES/kio6_thumbnail.mo
@@ -1158,6 +1176,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/km/LC_MESSAGES/kio6_fish.mo
 * /usr/share/locale/km/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/km/LC_MESSAGES/kio6_man.mo
+* /usr/share/locale/km/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/km/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/km/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/km/LC_MESSAGES/kio6_thumbnail.mo
@@ -1167,6 +1186,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/kn/LC_MESSAGES/kio6_fish.mo
 * /usr/share/locale/kn/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/kn/LC_MESSAGES/kio6_man.mo
+* /usr/share/locale/kn/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/kn/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/kn/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/kn/LC_MESSAGES/kio6_thumbnail.mo
@@ -1180,6 +1200,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/ko/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/ko/LC_MESSAGES/kio6_man.mo
 * /usr/share/locale/ko/LC_MESSAGES/kio6_mtp.mo
+* /usr/share/locale/ko/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/ko/LC_MESSAGES/kio6_recentlyused.mo
 * /usr/share/locale/ko/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/ko/LC_MESSAGES/kio6_smb.mo
@@ -1189,11 +1210,13 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/ku/LC_MESSAGES/kio6_archive.mo
 * /usr/share/locale/ku/LC_MESSAGES/kio6_fish.mo
 * /usr/share/locale/ku/LC_MESSAGES/kio6_man.mo
+* /usr/share/locale/ku/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/ku/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/ku/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/ku/LC_MESSAGES/kio6_thumbnail.mo
 * /usr/share/locale/lb/LC_MESSAGES/kfileaudiopreview6.mo
 * /usr/share/locale/lb/LC_MESSAGES/kio6_archive.mo
+* /usr/share/locale/lb/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/lt/LC_MESSAGES/kfileaudiopreview6.mo
 * /usr/share/locale/lt/LC_MESSAGES/kio-extras_kcms.mo
 * /usr/share/locale/lt/LC_MESSAGES/kio6_activities.mo
@@ -1203,16 +1226,22 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/lt/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/lt/LC_MESSAGES/kio6_man.mo
 * /usr/share/locale/lt/LC_MESSAGES/kio6_mtp.mo
+* /usr/share/locale/lt/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/lt/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/lt/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/lt/LC_MESSAGES/kio6_thumbnail.mo
 * /usr/share/locale/lv/LC_MESSAGES/kfileaudiopreview6.mo
 * /usr/share/locale/lv/LC_MESSAGES/kio-extras_kcms.mo
 * /usr/share/locale/lv/LC_MESSAGES/kio6_activities.mo
+* /usr/share/locale/lv/LC_MESSAGES/kio6_afc.mo
 * /usr/share/locale/lv/LC_MESSAGES/kio6_archive.mo
+* /usr/share/locale/lv/LC_MESSAGES/kio6_filenamesearch.mo
 * /usr/share/locale/lv/LC_MESSAGES/kio6_fish.mo
 * /usr/share/locale/lv/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/lv/LC_MESSAGES/kio6_man.mo
+* /usr/share/locale/lv/LC_MESSAGES/kio6_mtp.mo
+* /usr/share/locale/lv/LC_MESSAGES/kio6_nfs.mo
+* /usr/share/locale/lv/LC_MESSAGES/kio6_recentlyused.mo
 * /usr/share/locale/lv/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/lv/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/lv/LC_MESSAGES/kio6_thumbnail.mo
@@ -1222,6 +1251,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/mai/LC_MESSAGES/kio6_fish.mo
 * /usr/share/locale/mai/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/mai/LC_MESSAGES/kio6_man.mo
+* /usr/share/locale/mai/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/mai/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/mai/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/mai/LC_MESSAGES/kio6_thumbnail.mo
@@ -1230,6 +1260,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/mk/LC_MESSAGES/kio6_archive.mo
 * /usr/share/locale/mk/LC_MESSAGES/kio6_fish.mo
 * /usr/share/locale/mk/LC_MESSAGES/kio6_man.mo
+* /usr/share/locale/mk/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/mk/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/mk/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/mk/LC_MESSAGES/kio6_thumbnail.mo
@@ -1239,6 +1270,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/ml/LC_MESSAGES/kio6_fish.mo
 * /usr/share/locale/ml/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/ml/LC_MESSAGES/kio6_man.mo
+* /usr/share/locale/ml/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/ml/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/ml/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/ml/LC_MESSAGES/kio6_thumbnail.mo
@@ -1249,6 +1281,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/mr/LC_MESSAGES/kio6_fish.mo
 * /usr/share/locale/mr/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/mr/LC_MESSAGES/kio6_man.mo
+* /usr/share/locale/mr/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/mr/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/mr/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/mr/LC_MESSAGES/kio6_thumbnail.mo
@@ -1259,6 +1292,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/ms/LC_MESSAGES/kio6_fish.mo
 * /usr/share/locale/ms/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/ms/LC_MESSAGES/kio6_man.mo
+* /usr/share/locale/ms/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/ms/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/ms/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/ms/LC_MESSAGES/kio6_thumbnail.mo
@@ -1270,6 +1304,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/nb/LC_MESSAGES/kio6_fish.mo
 * /usr/share/locale/nb/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/nb/LC_MESSAGES/kio6_man.mo
+* /usr/share/locale/nb/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/nb/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/nb/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/nb/LC_MESSAGES/kio6_thumbnail.mo
@@ -1280,6 +1315,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/nds/LC_MESSAGES/kio6_fish.mo
 * /usr/share/locale/nds/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/nds/LC_MESSAGES/kio6_man.mo
+* /usr/share/locale/nds/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/nds/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/nds/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/nds/LC_MESSAGES/kio6_thumbnail.mo
@@ -1288,6 +1324,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/ne/LC_MESSAGES/kio6_archive.mo
 * /usr/share/locale/ne/LC_MESSAGES/kio6_fish.mo
 * /usr/share/locale/ne/LC_MESSAGES/kio6_man.mo
+* /usr/share/locale/ne/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/ne/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/ne/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/ne/LC_MESSAGES/kio6_thumbnail.mo
@@ -1301,6 +1338,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/nl/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/nl/LC_MESSAGES/kio6_man.mo
 * /usr/share/locale/nl/LC_MESSAGES/kio6_mtp.mo
+* /usr/share/locale/nl/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/nl/LC_MESSAGES/kio6_recentlyused.mo
 * /usr/share/locale/nl/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/nl/LC_MESSAGES/kio6_smb.mo
@@ -1315,6 +1353,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/nn/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/nn/LC_MESSAGES/kio6_man.mo
 * /usr/share/locale/nn/LC_MESSAGES/kio6_mtp.mo
+* /usr/share/locale/nn/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/nn/LC_MESSAGES/kio6_recentlyused.mo
 * /usr/share/locale/nn/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/nn/LC_MESSAGES/kio6_smb.mo
@@ -1323,12 +1362,14 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/oc/LC_MESSAGES/kio6_archive.mo
 * /usr/share/locale/oc/LC_MESSAGES/kio6_fish.mo
 * /usr/share/locale/oc/LC_MESSAGES/kio6_man.mo
+* /usr/share/locale/oc/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/oc/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/oc/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/oc/LC_MESSAGES/kio6_thumbnail.mo
 * /usr/share/locale/or/LC_MESSAGES/kio6_archive.mo
 * /usr/share/locale/or/LC_MESSAGES/kio6_fish.mo
 * /usr/share/locale/or/LC_MESSAGES/kio6_man.mo
+* /usr/share/locale/or/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/or/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/or/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/or/LC_MESSAGES/kio6_thumbnail.mo
@@ -1341,6 +1382,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/pa/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/pa/LC_MESSAGES/kio6_man.mo
 * /usr/share/locale/pa/LC_MESSAGES/kio6_mtp.mo
+* /usr/share/locale/pa/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/pa/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/pa/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/pa/LC_MESSAGES/kio6_thumbnail.mo
@@ -1354,6 +1396,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/pl/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/pl/LC_MESSAGES/kio6_man.mo
 * /usr/share/locale/pl/LC_MESSAGES/kio6_mtp.mo
+* /usr/share/locale/pl/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/pl/LC_MESSAGES/kio6_recentlyused.mo
 * /usr/share/locale/pl/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/pl/LC_MESSAGES/kio6_smb.mo
@@ -1367,6 +1410,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/pt/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/pt/LC_MESSAGES/kio6_man.mo
 * /usr/share/locale/pt/LC_MESSAGES/kio6_mtp.mo
+* /usr/share/locale/pt/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/pt/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/pt/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/pt/LC_MESSAGES/kio6_thumbnail.mo
@@ -1380,6 +1424,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/pt_BR/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/kio6_man.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/kio6_mtp.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/kio6_recentlyused.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/kio6_smb.mo
@@ -1392,6 +1437,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/ro/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/ro/LC_MESSAGES/kio6_man.mo
 * /usr/share/locale/ro/LC_MESSAGES/kio6_mtp.mo
+* /usr/share/locale/ro/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/ro/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/ro/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/ro/LC_MESSAGES/kio6_thumbnail.mo
@@ -1405,15 +1451,32 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/ru/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/ru/LC_MESSAGES/kio6_man.mo
 * /usr/share/locale/ru/LC_MESSAGES/kio6_mtp.mo
+* /usr/share/locale/ru/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/ru/LC_MESSAGES/kio6_recentlyused.mo
 * /usr/share/locale/ru/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/ru/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/ru/LC_MESSAGES/kio6_thumbnail.mo
+* /usr/share/locale/sa/LC_MESSAGES/kfileaudiopreview6.mo
+* /usr/share/locale/sa/LC_MESSAGES/kio-extras_kcms.mo
+* /usr/share/locale/sa/LC_MESSAGES/kio6_activities.mo
+* /usr/share/locale/sa/LC_MESSAGES/kio6_afc.mo
+* /usr/share/locale/sa/LC_MESSAGES/kio6_archive.mo
+* /usr/share/locale/sa/LC_MESSAGES/kio6_filenamesearch.mo
+* /usr/share/locale/sa/LC_MESSAGES/kio6_fish.mo
+* /usr/share/locale/sa/LC_MESSAGES/kio6_info.mo
+* /usr/share/locale/sa/LC_MESSAGES/kio6_man.mo
+* /usr/share/locale/sa/LC_MESSAGES/kio6_mtp.mo
+* /usr/share/locale/sa/LC_MESSAGES/kio6_nfs.mo
+* /usr/share/locale/sa/LC_MESSAGES/kio6_recentlyused.mo
+* /usr/share/locale/sa/LC_MESSAGES/kio6_sftp.mo
+* /usr/share/locale/sa/LC_MESSAGES/kio6_smb.mo
+* /usr/share/locale/sa/LC_MESSAGES/kio6_thumbnail.mo
 * /usr/share/locale/se/LC_MESSAGES/kfileaudiopreview6.mo
 * /usr/share/locale/se/LC_MESSAGES/kio-extras_kcms.mo
 * /usr/share/locale/se/LC_MESSAGES/kio6_activities.mo
 * /usr/share/locale/se/LC_MESSAGES/kio6_fish.mo
 * /usr/share/locale/se/LC_MESSAGES/kio6_man.mo
+* /usr/share/locale/se/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/se/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/se/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/se/LC_MESSAGES/kio6_thumbnail.mo
@@ -1421,6 +1484,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/si/LC_MESSAGES/kio6_fish.mo
 * /usr/share/locale/si/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/si/LC_MESSAGES/kio6_man.mo
+* /usr/share/locale/si/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/si/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/si/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/si/LC_MESSAGES/kio6_thumbnail.mo
@@ -1434,6 +1498,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/sk/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/sk/LC_MESSAGES/kio6_man.mo
 * /usr/share/locale/sk/LC_MESSAGES/kio6_mtp.mo
+* /usr/share/locale/sk/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/sk/LC_MESSAGES/kio6_recentlyused.mo
 * /usr/share/locale/sk/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/sk/LC_MESSAGES/kio6_smb.mo
@@ -1448,6 +1513,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/sl/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/sl/LC_MESSAGES/kio6_man.mo
 * /usr/share/locale/sl/LC_MESSAGES/kio6_mtp.mo
+* /usr/share/locale/sl/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/sl/LC_MESSAGES/kio6_recentlyused.mo
 * /usr/share/locale/sl/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/sl/LC_MESSAGES/kio6_smb.mo
@@ -1458,6 +1524,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/sq/LC_MESSAGES/kio6_fish.mo
 * /usr/share/locale/sq/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/sq/LC_MESSAGES/kio6_man.mo
+* /usr/share/locale/sq/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/sq/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/sq/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/sq/LC_MESSAGES/kio6_thumbnail.mo
@@ -1469,6 +1536,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/sr/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/sr/LC_MESSAGES/kio6_man.mo
 * /usr/share/locale/sr/LC_MESSAGES/kio6_mtp.mo
+* /usr/share/locale/sr/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/sr/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/sr/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/sr/LC_MESSAGES/kio6_thumbnail.mo
@@ -1480,6 +1548,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/sr@ijekavian/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/sr@ijekavian/LC_MESSAGES/kio6_man.mo
 * /usr/share/locale/sr@ijekavian/LC_MESSAGES/kio6_mtp.mo
+* /usr/share/locale/sr@ijekavian/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/sr@ijekavian/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/sr@ijekavian/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/sr@ijekavian/LC_MESSAGES/kio6_thumbnail.mo
@@ -1491,6 +1560,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kio6_man.mo
 * /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kio6_mtp.mo
+* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kio6_thumbnail.mo
@@ -1502,6 +1572,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/sr@latin/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/sr@latin/LC_MESSAGES/kio6_man.mo
 * /usr/share/locale/sr@latin/LC_MESSAGES/kio6_mtp.mo
+* /usr/share/locale/sr@latin/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/sr@latin/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/sr@latin/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/sr@latin/LC_MESSAGES/kio6_thumbnail.mo
@@ -1515,6 +1586,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/sv/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/sv/LC_MESSAGES/kio6_man.mo
 * /usr/share/locale/sv/LC_MESSAGES/kio6_mtp.mo
+* /usr/share/locale/sv/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/sv/LC_MESSAGES/kio6_recentlyused.mo
 * /usr/share/locale/sv/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/sv/LC_MESSAGES/kio6_smb.mo
@@ -1528,6 +1600,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/ta/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/ta/LC_MESSAGES/kio6_man.mo
 * /usr/share/locale/ta/LC_MESSAGES/kio6_mtp.mo
+* /usr/share/locale/ta/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/ta/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/ta/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/ta/LC_MESSAGES/kio6_thumbnail.mo
@@ -1535,6 +1608,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/te/LC_MESSAGES/kio6_archive.mo
 * /usr/share/locale/te/LC_MESSAGES/kio6_fish.mo
 * /usr/share/locale/te/LC_MESSAGES/kio6_man.mo
+* /usr/share/locale/te/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/te/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/te/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/te/LC_MESSAGES/kio6_thumbnail.mo
@@ -1545,6 +1619,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/tg/LC_MESSAGES/kio6_fish.mo
 * /usr/share/locale/tg/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/tg/LC_MESSAGES/kio6_man.mo
+* /usr/share/locale/tg/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/tg/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/tg/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/tg/LC_MESSAGES/kio6_thumbnail.mo
@@ -1555,6 +1630,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/th/LC_MESSAGES/kio6_fish.mo
 * /usr/share/locale/th/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/th/LC_MESSAGES/kio6_man.mo
+* /usr/share/locale/th/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/th/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/th/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/th/LC_MESSAGES/kio6_thumbnail.mo
@@ -1569,6 +1645,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/tr/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/tr/LC_MESSAGES/kio6_man.mo
 * /usr/share/locale/tr/LC_MESSAGES/kio6_mtp.mo
+* /usr/share/locale/tr/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/tr/LC_MESSAGES/kio6_recentlyused.mo
 * /usr/share/locale/tr/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/tr/LC_MESSAGES/kio6_smb.mo
@@ -1580,6 +1657,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/ug/LC_MESSAGES/kio6_fish.mo
 * /usr/share/locale/ug/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/ug/LC_MESSAGES/kio6_man.mo
+* /usr/share/locale/ug/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/ug/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/ug/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/ug/LC_MESSAGES/kio6_thumbnail.mo
@@ -1593,6 +1671,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/uk/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/uk/LC_MESSAGES/kio6_man.mo
 * /usr/share/locale/uk/LC_MESSAGES/kio6_mtp.mo
+* /usr/share/locale/uk/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/uk/LC_MESSAGES/kio6_recentlyused.mo
 * /usr/share/locale/uk/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/uk/LC_MESSAGES/kio6_smb.mo
@@ -1602,6 +1681,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/uz/LC_MESSAGES/kio6_archive.mo
 * /usr/share/locale/uz/LC_MESSAGES/kio6_fish.mo
 * /usr/share/locale/uz/LC_MESSAGES/kio6_man.mo
+* /usr/share/locale/uz/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/uz/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/uz/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/uz/LC_MESSAGES/kio6_thumbnail.mo
@@ -1610,6 +1690,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/uz@cyrillic/LC_MESSAGES/kio6_archive.mo
 * /usr/share/locale/uz@cyrillic/LC_MESSAGES/kio6_fish.mo
 * /usr/share/locale/uz@cyrillic/LC_MESSAGES/kio6_man.mo
+* /usr/share/locale/uz@cyrillic/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/uz@cyrillic/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/uz@cyrillic/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/uz@cyrillic/LC_MESSAGES/kio6_thumbnail.mo
@@ -1622,6 +1703,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/vi/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/vi/LC_MESSAGES/kio6_man.mo
 * /usr/share/locale/vi/LC_MESSAGES/kio6_mtp.mo
+* /usr/share/locale/vi/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/vi/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/vi/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/vi/LC_MESSAGES/kio6_thumbnail.mo
@@ -1632,11 +1714,13 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/wa/LC_MESSAGES/kio6_fish.mo
 * /usr/share/locale/wa/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/wa/LC_MESSAGES/kio6_man.mo
+* /usr/share/locale/wa/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/wa/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/wa/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/wa/LC_MESSAGES/kio6_thumbnail.mo
 * /usr/share/locale/xh/LC_MESSAGES/kio-extras_kcms.mo
 * /usr/share/locale/xh/LC_MESSAGES/kio6_man.mo
+* /usr/share/locale/xh/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/xh/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/xh/LC_MESSAGES/kio6_smb.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/kfileaudiopreview6.mo
@@ -1649,6 +1733,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/zh_CN/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/kio6_man.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/kio6_mtp.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/kio6_recentlyused.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/kio6_smb.mo
@@ -1664,6 +1749,7 @@ Additional components to increase the functionality of KIO.
 * /usr/share/locale/zh_TW/LC_MESSAGES/kio6_info.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kio6_man.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kio6_mtp.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/kio6_nfs.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kio6_recentlyused.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kio6_sftp.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kio6_smb.mo

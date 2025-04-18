@@ -12,7 +12,7 @@ size = "1448612"
 usize = "5894863"
 sha1sum = "d44ddf10d0fc9705de1204a4d54425ad45f8692a"
 depends = "['aalib', 'cdparanoia', 'dejavu-ttf', 'faad2', 'ffmpeg>=7.0', 'ladspa_sdk', 'libass>=0.13.6', 'libbluray>=1.0.0', 'libcdio-paranoia', 'libdca', 'libdv', 'libdvdnav>=5.0.1', 'libjpeg-turbo', 'liblirc', 'libmad', 'libmng', 'libplacebo>=7.349.0', 'libpulse>=6.0', 'libva>=2.3.0', 'libvdpau', 'libvpx>=1.6.0-1', 'libxinerama', 'libxpresent', 'libxrandr', 'libxscrnsaver', 'libxv', 'libxxf86dga', 'libxxf86vm', 'luajit2', 'mpg123>=1.25.1', 'openal', 'python3', 'samba-client', 'speex']"
-reverse_depends = "['celluloid', 'greetd-qt6greet', 'greetd-qtgreet', 'mpvqt']"
+reverse_depends = "['celluloid', 'greetd-qt6greet', 'greetd-qtgreet', 'kalarm', 'mpvqt']"
 +++
 ### Description: 
 A movie player based on mplayer and mplayer2. It supports a wide variety of video file formats, audio and video codecs, and subtitle types.

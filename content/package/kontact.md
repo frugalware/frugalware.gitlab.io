@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kontact 24.12.3-3"
-version = "24.12.3-3"
+title = "kontact 25.04.0-1"
+version = "25.04.0-1"
 description = "Personal Information Manager"
-date = "2025-04-05T21:32:08"
+date = "2025-04-18T13:22:39"
 aliases = "/packages/218938"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "784704"
-usize = "1872163"
-sha1sum = "e3a30acfffe994fdc4240a79058a3fd428746e36"
-depends = "['kontactinterface>=24.12.3', 'mailcommon>=24.12.3']"
+size = "814180"
+usize = "1963967"
+sha1sum = "c17bb5a2067a6f975e3244511ba553a24a2f05ff"
+depends = "['kontactinterface>=25.04.0', 'mailcommon>=25.04.0']"
 +++
 ### Description: 
 Personal Information Manager
@@ -19,7 +19,7 @@ Personal Information Manager
 ### Files: 
 * /usr/bin/kontact
 * /usr/lib/libkontactprivate.so.6
-* /usr/lib/libkontactprivate.so.6.3.3
+* /usr/lib/libkontactprivate.so.6.4.0
 * /usr/lib/qt6/plugins/pim6/kcms/kontact/kcm_kontact.so
 * /usr/share/applications/org.kde.kontact.desktop
 * /usr/share/config.kcfg/kontact.kcfg
@@ -57,17 +57,21 @@ Personal Information Manager
 * /usr/share/doc/HTML/nl/kontact/index.docbook
 * /usr/share/doc/HTML/pt_BR/kontact/index.cache.bz2
 * /usr/share/doc/HTML/pt_BR/kontact/index.docbook
+* /usr/share/doc/HTML/ru/kontact/index.cache.bz2
+* /usr/share/doc/HTML/ru/kontact/index.docbook
 * /usr/share/doc/HTML/sl/kontact/index.cache.bz2
 * /usr/share/doc/HTML/sl/kontact/index.docbook
 * /usr/share/doc/HTML/sv/kontact/index.cache.bz2
 * /usr/share/doc/HTML/sv/kontact/index.docbook
 * /usr/share/doc/HTML/uk/kontact/index.cache.bz2
 * /usr/share/doc/HTML/uk/kontact/index.docbook
-* /usr/share/doc/kontact-24.12.3/HACKING
+* /usr/share/doc/kontact-25.04.0/HACKING
 * /usr/share/icons/hicolor/128x128/apps/kontact.png
+* /usr/share/icons/hicolor/144x144/apps/kontact.png
 * /usr/share/icons/hicolor/16x16/apps/kontact.png
 * /usr/share/icons/hicolor/22x22/apps/kontact.png
 * /usr/share/icons/hicolor/32x32/apps/kontact.png
+* /usr/share/icons/hicolor/44x44/apps/kontact.png
 * /usr/share/icons/hicolor/48x48/apps/kontact.png
 * /usr/share/icons/hicolor/64x64/apps/kontact.png
 * /usr/share/icons/hicolor/scalable/apps/kontact.svg
@@ -127,6 +131,7 @@ Personal Information Manager
 * /usr/share/locale/pt_BR/LC_MESSAGES/kontact.mo
 * /usr/share/locale/ro/LC_MESSAGES/kontact.mo
 * /usr/share/locale/ru/LC_MESSAGES/kontact.mo
+* /usr/share/locale/sa/LC_MESSAGES/kontact.mo
 * /usr/share/locale/se/LC_MESSAGES/kontact.mo
 * /usr/share/locale/si/LC_MESSAGES/kontact.mo
 * /usr/share/locale/sk/LC_MESSAGES/kontact.mo

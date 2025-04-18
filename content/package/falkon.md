@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "falkon 24.12.3-3"
-version = "24.12.3-3"
+title = "falkon 25.04.0-1"
+version = "25.04.0-1"
 description = "Web browser written in Qt."
-date = "2025-04-05T21:53:53"
+date = "2025-04-18T13:50:32"
 aliases = "/packages/219685"
 categories = ['kde6']
 upstreamurl = "https://www.falkon.org"
 arch = "x86_64"
-size = "2318560"
-usize = "11978701"
-sha1sum = "60a415904467339a5236ea2fbc10c500e395e6c2"
+size = "2374828"
+usize = "12368151"
+sha1sum = "d23e3c93695784ac6611bd8324dd204b3a7278c5"
 depends = "['openssl>=3.1.0', 'qt6-base>=5.15.0>=', 'qt6-webchannel>=', 'qt6-webengine>=']"
 reverse_depends = "['falkon-kde', 'falkon-python-plugins']"
 +++
@@ -19,13 +19,13 @@ Web browser written in Qt.
 
 ### Files: 
 * /usr/bin/falkon
-* /usr/lib/libFalkonPrivate.so.24.12.3
+* /usr/lib/libFalkonPrivate.so.25.04.0
 * /usr/lib/libFalkonPrivate.so.3
 * /usr/share/applications/org.kde.falkon.desktop
 * /usr/share/bash-completion/completions/falkon
-* /usr/share/doc/falkon-24.12.3/CHANGELOG
-* /usr/share/doc/falkon-24.12.3/COPYING
-* /usr/share/doc/falkon-24.12.3/README.md
+* /usr/share/doc/falkon-25.04.0/CHANGELOG
+* /usr/share/doc/falkon-25.04.0/COPYING
+* /usr/share/doc/falkon-25.04.0/README.md
 * /usr/share/falkon/themes/chrome/images/gotoaddress.png
 * /usr/share/falkon/themes/chrome/images/key.png
 * /usr/share/falkon/themes/chrome/images/library-bg.png
@@ -482,6 +482,23 @@ Web browser written in Qt.
 * /usr/share/locale/he/LC_MESSAGES/falkon_tabmanager_qt.qm
 * /usr/share/locale/he/LC_MESSAGES/falkon_testplugin_qt.qm
 * /usr/share/locale/he/LC_MESSAGES/falkon_verticaltabs_qt.qm
+* /usr/share/locale/hi/LC_MESSAGES/falkon_autoscroll_qt.qm
+* /usr/share/locale/hi/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
+* /usr/share/locale/hi/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
+* /usr/share/locale/hi/LC_MESSAGES/falkon_greasemonkey_qt.qm
+* /usr/share/locale/hi/LC_MESSAGES/falkon_hellopython.mo
+* /usr/share/locale/hi/LC_MESSAGES/falkon_helloqml.mo
+* /usr/share/locale/hi/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
+* /usr/share/locale/hi/LC_MESSAGES/falkon_middleclickloader.mo
+* /usr/share/locale/hi/LC_MESSAGES/falkon_mousegestures_qt.qm
+* /usr/share/locale/hi/LC_MESSAGES/falkon_pim_qt.qm
+* /usr/share/locale/hi/LC_MESSAGES/falkon_qt.qm
+* /usr/share/locale/hi/LC_MESSAGES/falkon_runaction.mo
+* /usr/share/locale/hi/LC_MESSAGES/falkon_sitesettingsview_qt.qm
+* /usr/share/locale/hi/LC_MESSAGES/falkon_statusbaricons_qt.qm
+* /usr/share/locale/hi/LC_MESSAGES/falkon_tabmanager_qt.qm
+* /usr/share/locale/hi/LC_MESSAGES/falkon_testplugin_qt.qm
+* /usr/share/locale/hi/LC_MESSAGES/falkon_verticaltabs_qt.qm
 * /usr/share/locale/hu/LC_MESSAGES/falkon_autoscroll_qt.qm
 * /usr/share/locale/hu/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
 * /usr/share/locale/hu/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
@@ -543,6 +560,7 @@ Web browser written in Qt.
 * /usr/share/locale/is/LC_MESSAGES/falkon_pim_qt.qm
 * /usr/share/locale/is/LC_MESSAGES/falkon_qt.qm
 * /usr/share/locale/is/LC_MESSAGES/falkon_runaction.mo
+* /usr/share/locale/is/LC_MESSAGES/falkon_sitesettingsview_qt.qm
 * /usr/share/locale/is/LC_MESSAGES/falkon_statusbaricons_qt.qm
 * /usr/share/locale/is/LC_MESSAGES/falkon_tabmanager_qt.qm
 * /usr/share/locale/is/LC_MESSAGES/falkon_testplugin_qt.qm
@@ -758,6 +776,23 @@ Web browser written in Qt.
 * /usr/share/locale/ru/LC_MESSAGES/falkon_tabmanager_qt.qm
 * /usr/share/locale/ru/LC_MESSAGES/falkon_testplugin_qt.qm
 * /usr/share/locale/ru/LC_MESSAGES/falkon_verticaltabs_qt.qm
+* /usr/share/locale/sa/LC_MESSAGES/falkon_autoscroll_qt.qm
+* /usr/share/locale/sa/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
+* /usr/share/locale/sa/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm
+* /usr/share/locale/sa/LC_MESSAGES/falkon_greasemonkey_qt.qm
+* /usr/share/locale/sa/LC_MESSAGES/falkon_hellopython.mo
+* /usr/share/locale/sa/LC_MESSAGES/falkon_helloqml.mo
+* /usr/share/locale/sa/LC_MESSAGES/falkon_kdeframeworksintegration_qt.qm
+* /usr/share/locale/sa/LC_MESSAGES/falkon_middleclickloader.mo
+* /usr/share/locale/sa/LC_MESSAGES/falkon_mousegestures_qt.qm
+* /usr/share/locale/sa/LC_MESSAGES/falkon_pim_qt.qm
+* /usr/share/locale/sa/LC_MESSAGES/falkon_qt.qm
+* /usr/share/locale/sa/LC_MESSAGES/falkon_runaction.mo
+* /usr/share/locale/sa/LC_MESSAGES/falkon_sitesettingsview_qt.qm
+* /usr/share/locale/sa/LC_MESSAGES/falkon_statusbaricons_qt.qm
+* /usr/share/locale/sa/LC_MESSAGES/falkon_tabmanager_qt.qm
+* /usr/share/locale/sa/LC_MESSAGES/falkon_testplugin_qt.qm
+* /usr/share/locale/sa/LC_MESSAGES/falkon_verticaltabs_qt.qm
 * /usr/share/locale/sk/LC_MESSAGES/falkon_autoscroll_qt.qm
 * /usr/share/locale/sk/LC_MESSAGES/falkon_flashcookiemanager_qt.qm
 * /usr/share/locale/sk/LC_MESSAGES/falkon_gnomekeyringpasswords_qt.qm

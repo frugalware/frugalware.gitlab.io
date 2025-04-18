@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kpmcore 24.12.3-3"
-version = "24.12.3-3"
+title = "kpmcore 25.04.0-1"
+version = "25.04.0-1"
 description = "Library for managing partitions"
-date = "2025-04-05T21:50:04"
+date = "2025-04-18T13:45:32"
 aliases = "/packages/218345"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "678540"
-usize = "4401957"
-sha1sum = "2ffc69c396b52d575242753f757631dc3cd1551e"
-depends = "['kauth>=6.12.0', 'ki18n>=>=6.12.0', 'kwidgetsaddons>=6.12.0', 'qca', 'qca-ossl', 'qt6-svg>=6.9.0', 'util-linux']"
+size = "698552"
+usize = "4619118"
+sha1sum = "bae3d11bd2fd7c1265ae2043cc90a6b962285ea1"
+depends = "['kauth>=6.13.0', 'ki18n>=>=6.13.0', 'kwidgetsaddons>=6.13.0', 'qca', 'qca-ossl', 'qt6-svg>=6.9.0', 'util-linux']"
 reverse_depends = "['calamares-frugalware', 'partitionmanager']"
 +++
 ### Description: 
@@ -92,6 +92,7 @@ Library for managing partitions
 * /usr/include/kpmcore/ops/restoreoperation.h
 * /usr/include/kpmcore/ops/setfilesystemlabeloperation.h
 * /usr/include/kpmcore/ops/setpartflagsoperation.h
+* /usr/include/kpmcore/ops/setpartlabeloperation.h
 * /usr/include/kpmcore/util/capacity.h
 * /usr/include/kpmcore/util/externalcommand.h
 * /usr/include/kpmcore/util/globallog.h
@@ -105,14 +106,14 @@ Library for managing partitions
 * /usr/lib/cmake/KPMcore/KPMcoreTargets.cmake
 * /usr/lib/kpmcore/kpmcore_externalcommand
 * /usr/lib/libkpmcore.so
-* /usr/lib/libkpmcore.so.12
-* /usr/lib/libkpmcore.so.24.12.3
+* /usr/lib/libkpmcore.so.13
+* /usr/lib/libkpmcore.so.25.04.0
 * /usr/lib/qt6/plugins/kpmcore/pmdummybackendplugin.so
 * /usr/lib/qt6/plugins/kpmcore/pmsfdiskbackendplugin.so
 * /usr/share/dbus-1/system-services/org.kde.kpmcore.helperinterface.service
 * /usr/share/dbus-1/system.d/org.kde.kpmcore.helperinterface.conf
-* /usr/share/doc/kpmcore-24.12.3/INSTALL.md
-* /usr/share/doc/kpmcore-24.12.3/README.md
+* /usr/share/doc/kpmcore-25.04.0/INSTALL.md
+* /usr/share/doc/kpmcore-25.04.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/kpmcore.mo
 * /usr/share/locale/ar/LC_MESSAGES/kpmcore._policy_.mo
 * /usr/share/locale/ast/LC_MESSAGES/kpmcore.mo
@@ -151,6 +152,8 @@ Library for managing partitions
 * /usr/share/locale/gl/LC_MESSAGES/kpmcore._policy_.mo
 * /usr/share/locale/he/LC_MESSAGES/kpmcore.mo
 * /usr/share/locale/he/LC_MESSAGES/kpmcore._policy_.mo
+* /usr/share/locale/hi/LC_MESSAGES/kpmcore.mo
+* /usr/share/locale/hi/LC_MESSAGES/kpmcore._policy_.mo
 * /usr/share/locale/hr/LC_MESSAGES/kpmcore.mo
 * /usr/share/locale/hu/LC_MESSAGES/kpmcore.mo
 * /usr/share/locale/hu/LC_MESSAGES/kpmcore._policy_.mo
@@ -186,6 +189,8 @@ Library for managing partitions
 * /usr/share/locale/ro/LC_MESSAGES/kpmcore.mo
 * /usr/share/locale/ru/LC_MESSAGES/kpmcore.mo
 * /usr/share/locale/ru/LC_MESSAGES/kpmcore._policy_.mo
+* /usr/share/locale/sa/LC_MESSAGES/kpmcore.mo
+* /usr/share/locale/sa/LC_MESSAGES/kpmcore._policy_.mo
 * /usr/share/locale/sk/LC_MESSAGES/kpmcore.mo
 * /usr/share/locale/sk/LC_MESSAGES/kpmcore._policy_.mo
 * /usr/share/locale/sl/LC_MESSAGES/kpmcore.mo

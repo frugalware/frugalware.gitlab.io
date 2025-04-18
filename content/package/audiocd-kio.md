@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "audiocd-kio 24.12.3-3"
-version = "24.12.3-3"
+title = "audiocd-kio 25.04.0-1"
+version = "25.04.0-1"
 description = "Kioslave for accessing audio CDs"
-date = "2025-04-05T21:56:42"
+date = "2025-04-18T13:53:54"
 aliases = "/packages/219318"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "700520"
-usize = "2480246"
-sha1sum = "73a5f63d7eeaca60f47f528ceda202a44aa38b64"
-depends = "['cdparanoia', 'flac>=1.5.0', 'kcmutils>=6.12.0', 'libkcddb>=24.12.3', 'libkcompactdisc>=24.12.3']"
+size = "703772"
+usize = "2511299"
+sha1sum = "849dac3e2af43995e149aad045f86ef5cacee8af"
+depends = "['cdparanoia', 'flac>=1.5.0', 'kcmutils>=6.13.0', 'libkcddb>=25.04.0', 'libkcompactdisc>=25.04.0']"
 +++
 ### Description: 
 Kioslave for accessing audio CDs
@@ -35,9 +35,9 @@ Kioslave for accessing audio CDs
 * /usr/share/config.kcfg/audiocd_lame_encoder.kcfg
 * /usr/share/config.kcfg/audiocd_opus_encoder.kcfg
 * /usr/share/config.kcfg/audiocd_vorbis_encoder.kcfg
-* /usr/share/doc/audiocd-kio-24.12.3/COPYING
-* /usr/share/doc/audiocd-kio-24.12.3/COPYING.DOC
-* /usr/share/doc/audiocd-kio-24.12.3/HACKING
+* /usr/share/doc/audiocd-kio-25.04.0/COPYING
+* /usr/share/doc/audiocd-kio-25.04.0/COPYING.DOC
+* /usr/share/doc/audiocd-kio-25.04.0/HACKING
 * /usr/share/doc/HTML/ca/kcontrol/kcmaudiocd/index.cache.bz2
 * /usr/share/doc/HTML/ca/kcontrol/kcmaudiocd/index.docbook
 * /usr/share/doc/HTML/ca/kioworker6/audiocd/index.cache.bz2
@@ -251,7 +251,9 @@ Kioslave for accessing audio CDs
 * /usr/share/locale/he/LC_MESSAGES/audiocd_encoder_vorbis.mo
 * /usr/share/locale/he/LC_MESSAGES/kcmaudiocd.mo
 * /usr/share/locale/he/LC_MESSAGES/kio_audiocd.mo
+* /usr/share/locale/hi/LC_MESSAGES/audiocd_encoder_flac.mo
 * /usr/share/locale/hi/LC_MESSAGES/audiocd_encoder_lame.mo
+* /usr/share/locale/hi/LC_MESSAGES/audiocd_encoder_opus.mo
 * /usr/share/locale/hi/LC_MESSAGES/audiocd_encoder_vorbis.mo
 * /usr/share/locale/hi/LC_MESSAGES/kcmaudiocd.mo
 * /usr/share/locale/hi/LC_MESSAGES/kio_audiocd.mo
@@ -401,6 +403,12 @@ Kioslave for accessing audio CDs
 * /usr/share/locale/ru/LC_MESSAGES/audiocd_encoder_vorbis.mo
 * /usr/share/locale/ru/LC_MESSAGES/kcmaudiocd.mo
 * /usr/share/locale/ru/LC_MESSAGES/kio_audiocd.mo
+* /usr/share/locale/sa/LC_MESSAGES/audiocd_encoder_flac.mo
+* /usr/share/locale/sa/LC_MESSAGES/audiocd_encoder_lame.mo
+* /usr/share/locale/sa/LC_MESSAGES/audiocd_encoder_opus.mo
+* /usr/share/locale/sa/LC_MESSAGES/audiocd_encoder_vorbis.mo
+* /usr/share/locale/sa/LC_MESSAGES/kcmaudiocd.mo
+* /usr/share/locale/sa/LC_MESSAGES/kio_audiocd.mo
 * /usr/share/locale/se/LC_MESSAGES/audiocd_encoder_lame.mo
 * /usr/share/locale/se/LC_MESSAGES/audiocd_encoder_vorbis.mo
 * /usr/share/locale/se/LC_MESSAGES/kcmaudiocd.mo

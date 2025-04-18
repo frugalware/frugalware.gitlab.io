@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libksieve 24.12.3-3"
-version = "24.12.3-3"
+title = "libksieve 25.04.0-1"
+version = "25.04.0-1"
 description = "This lib manages sieve support"
-date = "2025-04-05T21:31:15"
+date = "2025-04-18T13:21:20"
 aliases = "/packages/218492"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "744696"
-usize = "4170703"
-sha1sum = "47d3f06534df31270d5ee037df92d6bfa994e973"
-depends = "['akonadi>=24.12.3', 'kidentitymanagement>=24.12.3', 'kmailtransport>=24.12.3', 'pimcommon>=24.12.3']"
+size = "754528"
+usize = "4260687"
+sha1sum = "8e23b569eebfd783fa79f65df489e9f4ff52a08e"
+depends = "['akonadi>=25.04.0', 'kidentitymanagement>=25.04.0', 'kmailtransport>=25.04.0', 'pimcommon>=25.04.0']"
 reverse_depends = "['kdepim-addons', 'kmail', 'pim-sieve-editor']"
 +++
 ### Description: 
@@ -100,17 +100,17 @@ This lib manages sieve support
 * /usr/lib/cmake/KPim6KSieveUi/KPim6KSieveUiTargets.cmake
 * /usr/lib/libKPim6KManageSieve.so
 * /usr/lib/libKPim6KManageSieve.so.6
-* /usr/lib/libKPim6KManageSieve.so.6.3.3
+* /usr/lib/libKPim6KManageSieve.so.6.4.0
 * /usr/lib/libKPim6KSieve.so
 * /usr/lib/libKPim6KSieve.so.6
-* /usr/lib/libKPim6KSieve.so.6.3.3
+* /usr/lib/libKPim6KSieve.so.6.4.0
 * /usr/lib/libKPim6KSieveCore.so
 * /usr/lib/libKPim6KSieveCore.so.6
-* /usr/lib/libKPim6KSieveCore.so.6.3.3
+* /usr/lib/libKPim6KSieveCore.so.6.4.0
 * /usr/lib/libKPim6KSieveUi.so
 * /usr/lib/libKPim6KSieveUi.so.6
-* /usr/lib/libKPim6KSieveUi.so.6.3.3
-* /usr/share/doc/libksieve-24.12.3/TODO
+* /usr/lib/libKPim6KSieveUi.so.6.4.0
+* /usr/share/doc/libksieve-25.04.0/TODO
 * /usr/share/knsrcfiles/ksieve_script.knsrc
 * /usr/share/locale/ar/LC_MESSAGES/libksieve6.mo
 * /usr/share/locale/ast/LC_MESSAGES/libksieve6.mo
@@ -163,6 +163,7 @@ This lib manages sieve support
 * /usr/share/locale/pt_BR/LC_MESSAGES/libksieve6.mo
 * /usr/share/locale/ro/LC_MESSAGES/libksieve6.mo
 * /usr/share/locale/ru/LC_MESSAGES/libksieve6.mo
+* /usr/share/locale/sa/LC_MESSAGES/libksieve6.mo
 * /usr/share/locale/se/LC_MESSAGES/libksieve6.mo
 * /usr/share/locale/sk/LC_MESSAGES/libksieve6.mo
 * /usr/share/locale/sl/LC_MESSAGES/libksieve6.mo

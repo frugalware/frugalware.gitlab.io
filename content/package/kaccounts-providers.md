@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kaccounts-providers 24.12.3-3"
-version = "24.12.3-3"
+title = "kaccounts-providers 25.04.0-1"
+version = "25.04.0-1"
 description = "Small system to administer web accounts for the sites and services across the KDE desktop, including: Google, Facebook, Owncloud, IMAP, Jabber and others"
-date = "2025-04-05T21:47:29"
+date = "2025-04-18T13:42:12"
 aliases = "/packages/218268"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "65616"
-usize = "259361"
-sha1sum = "68658ee23a00d8499fe0cacf2318785a9ed40510"
-depends = "['kaccounts-integration>=24.12.3', 'qt6-svg>=6.9.0', 'qt6-webengine>=6.9.0']"
+size = "66420"
+usize = "263355"
+sha1sum = "533a123ba8e971729c234a899647c9cbeb633eb8"
+depends = "['kaccounts-integration>=25.04.0', 'qt6-svg>=6.9.0', 'qt6-webengine>=6.9.0']"
 +++
 ### Description: 
 Small system to administer web accounts for the sites and services across the KDE desktop, including: Google, Facebook, Owncloud, IMAP, Jabber and others
@@ -60,6 +60,7 @@ Small system to administer web accounts for the sites and services across the KD
 * /usr/share/locale/fr/LC_MESSAGES/kaccounts-providers.mo
 * /usr/share/locale/gl/LC_MESSAGES/kaccounts-providers.mo
 * /usr/share/locale/he/LC_MESSAGES/kaccounts-providers.mo
+* /usr/share/locale/hi/LC_MESSAGES/kaccounts-providers.mo
 * /usr/share/locale/hu/LC_MESSAGES/kaccounts-providers.mo
 * /usr/share/locale/ia/LC_MESSAGES/kaccounts-providers.mo
 * /usr/share/locale/id/LC_MESSAGES/kaccounts-providers.mo
@@ -77,6 +78,7 @@ Small system to administer web accounts for the sites and services across the KD
 * /usr/share/locale/pt_BR/LC_MESSAGES/kaccounts-providers.mo
 * /usr/share/locale/ro/LC_MESSAGES/kaccounts-providers.mo
 * /usr/share/locale/ru/LC_MESSAGES/kaccounts-providers.mo
+* /usr/share/locale/sa/LC_MESSAGES/kaccounts-providers.mo
 * /usr/share/locale/sk/LC_MESSAGES/kaccounts-providers.mo
 * /usr/share/locale/sl/LC_MESSAGES/kaccounts-providers.mo
 * /usr/share/locale/sr/LC_MESSAGES/kaccounts-providers.mo

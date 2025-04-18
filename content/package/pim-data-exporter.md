@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "pim-data-exporter 24.12.3-3"
-version = "24.12.3-3"
+title = "pim-data-exporter 25.04.0-1"
+version = "25.04.0-1"
 description = "Assistant to backup and archive PIM data and configuration"
-date = "2025-04-05T21:33:20"
+date = "2025-04-18T13:24:14"
 aliases = "/packages/218941"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "484864"
-usize = "1835971"
-sha1sum = "59bc8b92f316ed0b7a504ec8ec788650dbd53355"
-depends = "['calendarsupport>=24.12.3', 'kalarm>=24.12.3', 'mailcommon>=24.12.3']"
+size = "490528"
+usize = "1890269"
+sha1sum = "949ceb4f39d3f79d02c812550a396d4477ad3d80"
+depends = "['calendarsupport>=25.04.0', 'kalarm>=25.04.0', 'mailcommon>=25.04.0']"
 +++
 ### Description: 
 Assistant to backup and archive PIM data and configuration
@@ -20,7 +20,7 @@ Assistant to backup and archive PIM data and configuration
 * /usr/bin/pimdataexporter
 * /usr/bin/pimdataexporterconsole
 * /usr/lib/libpimdataexporterprivate.so.6
-* /usr/lib/libpimdataexporterprivate.so.6.3.3
+* /usr/lib/libpimdataexporterprivate.so.6.4.0
 * /usr/share/applications/org.kde.pimdataexporter.desktop
 * /usr/share/config.kcfg/pimdataexporterglobalconfig.kcfg
 * /usr/share/doc/HTML/ca/pimsettingexporter/index.cache.bz2
@@ -51,7 +51,7 @@ Assistant to backup and archive PIM data and configuration
 * /usr/share/doc/HTML/sv/pimsettingexporter/index.docbook
 * /usr/share/doc/HTML/uk/pimsettingexporter/index.cache.bz2
 * /usr/share/doc/HTML/uk/pimsettingexporter/index.docbook
-* /usr/share/doc/pim-data-exporter-24.12.3/TODO
+* /usr/share/doc/pim-data-exporter-25.04.0/TODO
 * /usr/share/locale/ar/LC_MESSAGES/pimdataexporter.mo
 * /usr/share/locale/ast/LC_MESSAGES/pimdataexporter.mo
 * /usr/share/locale/az/LC_MESSAGES/pimdataexporter.mo
@@ -73,6 +73,7 @@ Assistant to backup and archive PIM data and configuration
 * /usr/share/locale/ga/LC_MESSAGES/pimdataexporter.mo
 * /usr/share/locale/gl/LC_MESSAGES/pimdataexporter.mo
 * /usr/share/locale/he/LC_MESSAGES/pimdataexporter.mo
+* /usr/share/locale/hi/LC_MESSAGES/pimdataexporter.mo
 * /usr/share/locale/hu/LC_MESSAGES/pimdataexporter.mo
 * /usr/share/locale/ia/LC_MESSAGES/pimdataexporter.mo
 * /usr/share/locale/it/LC_MESSAGES/pimdataexporter.mo
@@ -92,6 +93,7 @@ Assistant to backup and archive PIM data and configuration
 * /usr/share/locale/pt_BR/LC_MESSAGES/pimdataexporter.mo
 * /usr/share/locale/ro/LC_MESSAGES/pimdataexporter.mo
 * /usr/share/locale/ru/LC_MESSAGES/pimdataexporter.mo
+* /usr/share/locale/sa/LC_MESSAGES/pimdataexporter.mo
 * /usr/share/locale/sk/LC_MESSAGES/pimdataexporter.mo
 * /usr/share/locale/sl/LC_MESSAGES/pimdataexporter.mo
 * /usr/share/locale/sr/LC_MESSAGES/pimdataexporter.mo

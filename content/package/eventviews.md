@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "eventviews 24.12.3-3"
-version = "24.12.3-3"
+title = "eventviews 25.04.0-1"
+version = "25.04.0-1"
 description = "Library for creating events."
-date = "2025-04-05T21:37:30"
+date = "2025-04-18T13:29:18"
 aliases = "/packages/218488"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "659764"
-usize = "3647993"
-sha1sum = "574e3d3cf221b0802edb0a689729fc1c12800363"
-depends = "['calendarsupport>=24.12.3', 'kdiagram>=3.0.1']"
+size = "667712"
+usize = "3731552"
+sha1sum = "f16f99d422a9064f78c8ff89be7ac6d1506c3773"
+depends = "['calendarsupport>=25.04.0', 'kdiagram>=3.0.1']"
 reverse_depends = "['incidenceeditor', 'merkuro']"
 +++
 ### Description: 
@@ -60,7 +60,7 @@ Library for creating events.
 * /usr/lib/cmake/KPim6EventViews/KPim6EventViewsTargets.cmake
 * /usr/lib/libKPim6EventViews.so
 * /usr/lib/libKPim6EventViews.so.6
-* /usr/lib/libKPim6EventViews.so.6.3.3
+* /usr/lib/libKPim6EventViews.so.6.4.0
 * /usr/share/locale/ar/LC_MESSAGES/libeventviews6.mo
 * /usr/share/locale/ast/LC_MESSAGES/libeventviews6.mo
 * /usr/share/locale/bg/LC_MESSAGES/libeventviews6.mo
@@ -81,6 +81,7 @@ Library for creating events.
 * /usr/share/locale/ga/LC_MESSAGES/libeventviews6.mo
 * /usr/share/locale/gl/LC_MESSAGES/libeventviews6.mo
 * /usr/share/locale/he/LC_MESSAGES/libeventviews6.mo
+* /usr/share/locale/hi/LC_MESSAGES/libeventviews6.mo
 * /usr/share/locale/hu/LC_MESSAGES/libeventviews6.mo
 * /usr/share/locale/ia/LC_MESSAGES/libeventviews6.mo
 * /usr/share/locale/it/LC_MESSAGES/libeventviews6.mo
@@ -100,6 +101,7 @@ Library for creating events.
 * /usr/share/locale/pt_BR/LC_MESSAGES/libeventviews6.mo
 * /usr/share/locale/ro/LC_MESSAGES/libeventviews6.mo
 * /usr/share/locale/ru/LC_MESSAGES/libeventviews6.mo
+* /usr/share/locale/sa/LC_MESSAGES/libeventviews6.mo
 * /usr/share/locale/sk/LC_MESSAGES/libeventviews6.mo
 * /usr/share/locale/sl/LC_MESSAGES/libeventviews6.mo
 * /usr/share/locale/sv/LC_MESSAGES/libeventviews6.mo

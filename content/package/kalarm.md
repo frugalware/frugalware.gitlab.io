@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kalarm 24.12.3-3"
-version = "24.12.3-3"
+title = "kalarm 25.04.0-1"
+version = "25.04.0-1"
 description = "Personal Alarm Scheduler"
-date = "2025-04-05T21:29:31"
+date = "2025-04-18T13:06:38"
 aliases = "/packages/218930"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3007768"
-usize = "15204726"
-sha1sum = "66f2a9c0ba4c58127c3a9704e3f5a63a7ba06f76"
-depends = "['kcalutils>=24.12.3', 'kholidays>=6.12.0', 'kidletime>=6.12.0', 'kmailtransport>=24.12.3', 'knotifyconfig>=6.12.0', 'kstatusnotifieritem>=6.12.0', 'mailcommon>=24.12.3', 'pimcommon>=24.12.3', 'vlc']"
+size = "3052064"
+usize = "15610622"
+sha1sum = "052d1539c38867ebe5d435c20a52b51d49970014"
+depends = "['kcalutils>=25.04.0', 'kholidays>=6.13.0', 'kidletime>=6.13.0', 'kmailtransport>=25.04.0', 'knotifyconfig>=6.13.0', 'kstatusnotifieritem>=6.13.0', 'mailcommon>=25.04.0', 'mpv', 'pimcommon>=25.04.0', 'vlc']"
 reverse_depends = "['kdepim-runtime', 'pim-data-exporter']"
 +++
 ### Description: 
@@ -24,10 +24,12 @@ Personal Alarm Scheduler
 * /usr/lib/kauth/kf6/kauth/kalarm_helper
 * /usr/lib/kconf_update_bin/kalarm-3.10.0-run_mode
 * /usr/lib/libkalarmcalendar.so.6
-* /usr/lib/libkalarmcalendar.so.6.3.3
+* /usr/lib/libkalarmcalendar.so.6.4.0
 * /usr/lib/libkalarmplugin.so.6
-* /usr/lib/libkalarmplugin.so.6.3.3
+* /usr/lib/libkalarmplugin.so.6.4.0
 * /usr/lib/qt6/plugins/pim6/kalarm/akonadiplugin.so
+* /usr/lib/qt6/plugins/pim6/kalarm/audioplugin_mpv.so
+* /usr/lib/qt6/plugins/pim6/kalarm/audioplugin_vlc.so
 * /usr/share/applications/org.kde.kalarm.desktop
 * /usr/share/config.kcfg/kalarmconfig.kcfg
 * /usr/share/dbus-1/interfaces/org.kde.kalarm.kalarm.xml
@@ -70,10 +72,10 @@ Personal Alarm Scheduler
 * /usr/share/doc/HTML/sv/kalarm/index.docbook
 * /usr/share/doc/HTML/uk/kalarm/index.cache.bz2
 * /usr/share/doc/HTML/uk/kalarm/index.docbook
-* /usr/share/doc/kalarm-24.12.3/AUTHORS
-* /usr/share/doc/kalarm-24.12.3/Changelog
-* /usr/share/doc/kalarm-24.12.3/INSTALL
-* /usr/share/doc/kalarm-24.12.3/README
+* /usr/share/doc/kalarm-25.04.0/AUTHORS
+* /usr/share/doc/kalarm-25.04.0/Changelog
+* /usr/share/doc/kalarm-25.04.0/INSTALL
+* /usr/share/doc/kalarm-25.04.0/README
 * /usr/share/icons/hicolor/128x128/apps/kalarm.png
 * /usr/share/icons/hicolor/16x16/apps/kalarm.png
 * /usr/share/icons/hicolor/22x22/actions/kalarm-disabled.png
@@ -142,6 +144,7 @@ Personal Alarm Scheduler
 * /usr/share/locale/pt_BR/LC_MESSAGES/kalarm.mo
 * /usr/share/locale/ro/LC_MESSAGES/kalarm.mo
 * /usr/share/locale/ru/LC_MESSAGES/kalarm.mo
+* /usr/share/locale/sa/LC_MESSAGES/kalarm.mo
 * /usr/share/locale/se/LC_MESSAGES/kalarm.mo
 * /usr/share/locale/si/LC_MESSAGES/kalarm.mo
 * /usr/share/locale/sk/LC_MESSAGES/kalarm.mo

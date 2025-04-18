@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kolourpaint 24.12.3-3"
-version = "24.12.3-3"
+title = "kolourpaint 25.04.0-1"
+version = "25.04.0-1"
 description = "KDE Paint Program."
-date = "2025-04-05T21:58:06"
+date = "2025-04-18T13:55:38"
 aliases = "/packages/88169"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "5465384"
-usize = "9762218"
-sha1sum = "1b8011b11ba6a7b1516ae5fb23c75fd19a9fde54"
-depends = "['kio>=6.12.0', 'libksane>=24.12.3']"
+size = "5472032"
+usize = "9840019"
+sha1sum = "bb3ceecffa39af3a8a01fa3ce6c025eb61f68e2b"
+depends = "['kio>=6.13.0', 'libksane>=25.04.0']"
 +++
 ### Description: 
 KDE Paint Program.
@@ -266,14 +266,14 @@ KDE Paint Program.
 * /usr/share/doc/HTML/uk/kolourpaint/index.docbook
 * /usr/share/doc/HTML/uk/kolourpaint/KolourPaint.png
 * /usr/share/doc/HTML/uk/kolourpaint/screenshot_acquiring.png
-* /usr/share/doc/kolourpaint-24.12.3/AUTHORS
-* /usr/share/doc/kolourpaint-24.12.3/BUGS
-* /usr/share/doc/kolourpaint-24.12.3/ChangeLog
-* /usr/share/doc/kolourpaint-24.12.3/COPYING
-* /usr/share/doc/kolourpaint-24.12.3/COPYING.DOC
-* /usr/share/doc/kolourpaint-24.12.3/COPYING.LIB
-* /usr/share/doc/kolourpaint-24.12.3/NEWS
-* /usr/share/doc/kolourpaint-24.12.3/README.md
+* /usr/share/doc/kolourpaint-25.04.0/AUTHORS
+* /usr/share/doc/kolourpaint-25.04.0/BUGS
+* /usr/share/doc/kolourpaint-25.04.0/ChangeLog
+* /usr/share/doc/kolourpaint-25.04.0/COPYING
+* /usr/share/doc/kolourpaint-25.04.0/COPYING.DOC
+* /usr/share/doc/kolourpaint-25.04.0/COPYING.LIB
+* /usr/share/doc/kolourpaint-25.04.0/NEWS
+* /usr/share/doc/kolourpaint-25.04.0/README.md
 * /usr/share/icons/hicolor/128x128/apps/kolourpaint.png
 * /usr/share/icons/hicolor/16x16/apps/kolourpaint.png
 * /usr/share/icons/hicolor/22x22/apps/kolourpaint.png
@@ -425,6 +425,7 @@ KDE Paint Program.
 * /usr/share/locale/pt_BR/LC_MESSAGES/kolourpaint.mo
 * /usr/share/locale/ro/LC_MESSAGES/kolourpaint.mo
 * /usr/share/locale/ru/LC_MESSAGES/kolourpaint.mo
+* /usr/share/locale/sa/LC_MESSAGES/kolourpaint.mo
 * /usr/share/locale/se/LC_MESSAGES/kolourpaint.mo
 * /usr/share/locale/si/LC_MESSAGES/kolourpaint.mo
 * /usr/share/locale/sk/LC_MESSAGES/kolourpaint.mo
