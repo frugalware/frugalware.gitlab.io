@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kde-inotify-survey 24.12.3-3"
-version = "24.12.3-3"
+title = "kde-inotify-survey 25.04.0-1"
+version = "25.04.0-1"
 description = "Tooling for monitoring inotify limits and informing the user when they have been or about to be reached"
-date = "2025-04-06T09:22:25"
+date = "2025-04-18T15:15:18"
 aliases = "/packages/220973"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "52932"
-usize = "257516"
-sha1sum = "2ad32e8dac452e9fab37aff1e454bd978a455caa"
+size = "54348"
+usize = "268252"
+sha1sum = "e32e3afac029dd89c1d7fb6c61495f1995199c73"
 depends = "['kauth>=', 'knotifications>=']"
 +++
 ### Description: 
@@ -22,7 +22,7 @@ Tooling for monitoring inotify limits and informing the user when they have been
 * /usr/lib/qt6/plugins/kf6/kded/inotify.so
 * /usr/share/dbus-1/system-services/org.kde.kded.inotify.service
 * /usr/share/dbus-1/system.d/org.kde.kded.inotify.conf
-* /usr/share/doc/kde-inotify-survey-24.12.3/README.md
+* /usr/share/doc/kde-inotify-survey-25.04.0/README.md
 * /usr/share/knotifications6/org.kde.kded.inotify.notifyrc
 * /usr/share/locale/ar/LC_MESSAGES/kde-inotify-survey.mo
 * /usr/share/locale/ast/LC_MESSAGES/kde-inotify-survey.mo
@@ -38,6 +38,7 @@ Tooling for monitoring inotify limits and informing the user when they have been
 * /usr/share/locale/fr/LC_MESSAGES/kde-inotify-survey.mo
 * /usr/share/locale/gl/LC_MESSAGES/kde-inotify-survey.mo
 * /usr/share/locale/he/LC_MESSAGES/kde-inotify-survey.mo
+* /usr/share/locale/hi/LC_MESSAGES/kde-inotify-survey.mo
 * /usr/share/locale/hu/LC_MESSAGES/kde-inotify-survey.mo
 * /usr/share/locale/ia/LC_MESSAGES/kde-inotify-survey.mo
 * /usr/share/locale/id/LC_MESSAGES/kde-inotify-survey.mo
@@ -50,9 +51,9 @@ Tooling for monitoring inotify limits and informing the user when they have been
 * /usr/share/locale/nl/LC_MESSAGES/kde-inotify-survey.mo
 * /usr/share/locale/pl/LC_MESSAGES/kde-inotify-survey.mo
 * /usr/share/locale/pt/LC_MESSAGES/kde-inotify-survey.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kde-inotify-survey.mo
 * /usr/share/locale/ro/LC_MESSAGES/kde-inotify-survey.mo
 * /usr/share/locale/ru/LC_MESSAGES/kde-inotify-survey.mo
+* /usr/share/locale/sa/LC_MESSAGES/kde-inotify-survey.mo
 * /usr/share/locale/sk/LC_MESSAGES/kde-inotify-survey.mo
 * /usr/share/locale/sl/LC_MESSAGES/kde-inotify-survey.mo
 * /usr/share/locale/sv/LC_MESSAGES/kde-inotify-survey.mo
