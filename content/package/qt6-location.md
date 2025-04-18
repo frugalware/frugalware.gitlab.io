@@ -12,7 +12,7 @@ size = "636512"
 usize = "3334392"
 sha1sum = "81c972aefa794bd8ab749ab9fefe6a7e62f20f40"
 depends = "['qt6-declarative', 'qt6-positioning']"
-reverse_depends = "['koko', 'kweathercore', 'marble', 'neochat']"
+reverse_depends = "['koko', 'kweathercore', 'marble', 'merkuro', 'neochat']"
 +++
 ### Description: 
 The Qt6 toolkit, qtlocation

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "zanshin 24.12.3-3"
-version = "24.12.3-3"
+title = "zanshin 25.04.0-1"
+version = "25.04.0-1"
 description = "To-do management application based on Akonadi"
-date = "2025-04-06T10:42:39"
+date = "2025-04-18T17:41:58"
 aliases = "/packages/220998"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "753660"
-usize = "3947988"
-sha1sum = "7b3a17d4c4f306f3ca7b6e3a2f28f84f1af9d9f1"
+size = "759996"
+usize = "3990259"
+sha1sum = "f7ed813646f530842887d40b2676a7c035c8f4d0"
 depends = "['kdepim-runtime', 'kontactinterface']"
 +++
 ### Description: 
@@ -23,10 +23,10 @@ To-do management application based on Akonadi
 * /usr/lib/qt6/plugins/pim6/kontact/kontact_zanshinplugin.so
 * /usr/lib/qt6/plugins/zanshin_part.so
 * /usr/share/applications/org.kde.zanshin.desktop
-* /usr/share/doc/zanshin-24.12.3/AUTHORS
-* /usr/share/doc/zanshin-24.12.3/HACKING
-* /usr/share/doc/zanshin-24.12.3/README.md
-* /usr/share/doc/zanshin-24.12.3/TODO
+* /usr/share/doc/zanshin-25.04.0/AUTHORS
+* /usr/share/doc/zanshin-25.04.0/HACKING
+* /usr/share/doc/zanshin-25.04.0/README.md
+* /usr/share/doc/zanshin-25.04.0/TODO
 * /usr/share/icons/hicolor/128x128/apps/zanshin.png
 * /usr/share/icons/hicolor/256x256/apps/zanshin.png
 * /usr/share/icons/hicolor/48x48/apps/zanshin.png
@@ -51,6 +51,7 @@ To-do management application based on Akonadi
 * /usr/share/locale/ga/LC_MESSAGES/zanshin.mo
 * /usr/share/locale/gl/LC_MESSAGES/zanshin.mo
 * /usr/share/locale/he/LC_MESSAGES/zanshin.mo
+* /usr/share/locale/hi/LC_MESSAGES/zanshin.mo
 * /usr/share/locale/hu/LC_MESSAGES/zanshin.mo
 * /usr/share/locale/ia/LC_MESSAGES/zanshin.mo
 * /usr/share/locale/it/LC_MESSAGES/zanshin.mo
@@ -68,6 +69,7 @@ To-do management application based on Akonadi
 * /usr/share/locale/pt/LC_MESSAGES/zanshin.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/zanshin.mo
 * /usr/share/locale/ru/LC_MESSAGES/zanshin.mo
+* /usr/share/locale/sa/LC_MESSAGES/zanshin.mo
 * /usr/share/locale/sk/LC_MESSAGES/zanshin.mo
 * /usr/share/locale/sl/LC_MESSAGES/zanshin.mo
 * /usr/share/locale/sv/LC_MESSAGES/zanshin.mo

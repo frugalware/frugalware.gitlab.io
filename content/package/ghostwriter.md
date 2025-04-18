@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ghostwriter 24.12.3-3"
-version = "24.12.3-3"
+title = "ghostwriter 25.04.0-1"
+version = "25.04.0-1"
 description = "Aesthetic, distraction-free Markdown editor"
-date = "2025-04-06T10:58:19"
+date = "2025-04-18T18:11:39"
 aliases = "/packages/220968"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3637772"
-usize = "6350543"
-sha1sum = "b47e0b8256990a1b61173f1075ecf4efd4b82bd7"
-depends = "['hunspell', 'kxmlgui>=6.12.0', 'qt6-webengine>=6.9.0']"
+size = "3651432"
+usize = "6442875"
+sha1sum = "29c36621ddc04b1ae616a533f5729588365e0052"
+depends = "['hunspell', 'kxmlgui>=6.13.0', 'qt6-webengine>=6.9.0']"
 +++
 ### Description: 
 Aesthetic, distraction-free Markdown editor
@@ -19,8 +19,8 @@ Aesthetic, distraction-free Markdown editor
 ### Files: 
 * /usr/bin/ghostwriter
 * /usr/share/applications/org.kde.ghostwriter.desktop
-* /usr/share/doc/ghostwriter-24.12.3/COPYING
-* /usr/share/doc/ghostwriter-24.12.3/README.md
+* /usr/share/doc/ghostwriter-25.04.0/COPYING
+* /usr/share/doc/ghostwriter-25.04.0/README.md
 * /usr/share/icons/hicolor/128x128/apps/ghostwriter.png
 * /usr/share/icons/hicolor/16x16/apps/ghostwriter.png
 * /usr/share/icons/hicolor/22x22/apps/ghostwriter.png
@@ -41,6 +41,7 @@ Aesthetic, distraction-free Markdown editor
 * /usr/share/locale/fr/LC_MESSAGES/ghostwriter_qt.qm
 * /usr/share/locale/gl/LC_MESSAGES/ghostwriter_qt.qm
 * /usr/share/locale/he/LC_MESSAGES/ghostwriter_qt.qm
+* /usr/share/locale/hi/LC_MESSAGES/ghostwriter_qt.qm
 * /usr/share/locale/ia/LC_MESSAGES/ghostwriter_qt.qm
 * /usr/share/locale/id/LC_MESSAGES/ghostwriter_qt.qm
 * /usr/share/locale/it/LC_MESSAGES/ghostwriter_qt.qm
@@ -53,6 +54,7 @@ Aesthetic, distraction-free Markdown editor
 * /usr/share/locale/pt/LC_MESSAGES/ghostwriter_qt.qm
 * /usr/share/locale/pt_BR/LC_MESSAGES/ghostwriter_qt.qm
 * /usr/share/locale/ru/LC_MESSAGES/ghostwriter_qt.qm
+* /usr/share/locale/sa/LC_MESSAGES/ghostwriter_qt.qm
 * /usr/share/locale/sk/LC_MESSAGES/ghostwriter_qt.qm
 * /usr/share/locale/sl/LC_MESSAGES/ghostwriter_qt.qm
 * /usr/share/locale/sv/LC_MESSAGES/ghostwriter_qt.qm

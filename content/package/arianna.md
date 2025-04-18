@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "arianna 24.12.3-3"
-version = "24.12.3-3"
+title = "arianna 25.04.0-1"
+version = "25.04.0-1"
 description = "EPub Reader for mobile devices"
-date = "2025-04-06T10:46:09"
+date = "2025-04-18T17:55:15"
 aliases = "/packages/221079"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "315068"
-usize = "755189"
-sha1sum = "5e25128619c59004049e6134799cb595061fa64f"
+size = "699148"
+usize = "1252231"
+sha1sum = "5985e8e33cede17cf8117f7d4a8212a84ba89f73"
 depends = "['baloo>=', 'kirigami-addons', 'kquickcharts>=', 'qqc2-desktop-style>=', 'qt6-httpserver>=', 'qt6-webengine>=', 'qt6-websockets>=']"
 +++
 ### Description: 
@@ -19,7 +19,7 @@ EPub Reader for mobile devices
 ### Files: 
 * /usr/bin/arianna
 * /usr/share/applications/org.kde.arianna.desktop
-* /usr/share/doc/arianna-24.12.3/README.md
+* /usr/share/doc/arianna-25.04.0/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.arianna.svg
 * /usr/share/locale/ar/LC_MESSAGES/arianna.mo
 * /usr/share/locale/ast/LC_MESSAGES/arianna.mo
@@ -35,6 +35,7 @@ EPub Reader for mobile devices
 * /usr/share/locale/fr/LC_MESSAGES/arianna.mo
 * /usr/share/locale/gl/LC_MESSAGES/arianna.mo
 * /usr/share/locale/he/LC_MESSAGES/arianna.mo
+* /usr/share/locale/hi/LC_MESSAGES/arianna.mo
 * /usr/share/locale/hu/LC_MESSAGES/arianna.mo
 * /usr/share/locale/ia/LC_MESSAGES/arianna.mo
 * /usr/share/locale/is/LC_MESSAGES/arianna.mo
@@ -50,6 +51,7 @@ EPub Reader for mobile devices
 * /usr/share/locale/pt_BR/LC_MESSAGES/arianna.mo
 * /usr/share/locale/ro/LC_MESSAGES/arianna.mo
 * /usr/share/locale/ru/LC_MESSAGES/arianna.mo
+* /usr/share/locale/sa/LC_MESSAGES/arianna.mo
 * /usr/share/locale/sk/LC_MESSAGES/arianna.mo
 * /usr/share/locale/sl/LC_MESSAGES/arianna.mo
 * /usr/share/locale/sv/LC_MESSAGES/arianna.mo

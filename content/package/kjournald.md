@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kjournald 24.12.3-3"
-version = "24.12.3-3"
+title = "kjournald 25.04.0-1"
+version = "25.04.0-1"
 description = "Framework for interacting with systemd-journald"
-date = "2025-04-06T10:32:20"
+date = "2025-04-18T17:24:20"
 aliases = "/packages/220980"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "165600"
-usize = "646231"
-sha1sum = "14d49d29f02ecc121dfd009eaa272c4c40547e4c"
-depends = "['kcoreaddons', 'ki18n', 'kirigami']"
+size = "167056"
+usize = "652939"
+sha1sum = "2ab8a4b7f94e41a2a335348e72bb363fe993a811"
+depends = "['kcoreaddons', 'kcrash>=', 'ki18n', 'kirigami']"
 +++
 ### Description: 
 Framework for interacting with systemd-journald
@@ -20,13 +20,13 @@ Framework for interacting with systemd-journald
 * /usr/bin/kjournaldbrowser
 * /usr/lib/libkjournald.so
 * /usr/lib/libkjournald.so.0
-* /usr/lib/libkjournald.so.24.12.3
+* /usr/lib/libkjournald.so.25.04.0
 * /usr/lib/qt6/qml/org/kde/kjournald/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/kjournald/kjournald.qmltypes
 * /usr/lib/qt6/qml/org/kde/kjournald/libkjournaldplugin.so
 * /usr/lib/qt6/qml/org/kde/kjournald/qmldir
 * /usr/share/applications/org.kde.kjournaldbrowser.desktop
-* /usr/share/doc/kjournald-24.12.3/README.md
+* /usr/share/doc/kjournald-25.04.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/kjournald.mo
 * /usr/share/locale/ast/LC_MESSAGES/kjournald.mo
 * /usr/share/locale/ca/LC_MESSAGES/kjournald.mo
@@ -41,6 +41,7 @@ Framework for interacting with systemd-journald
 * /usr/share/locale/fr/LC_MESSAGES/kjournald.mo
 * /usr/share/locale/gl/LC_MESSAGES/kjournald.mo
 * /usr/share/locale/he/LC_MESSAGES/kjournald.mo
+* /usr/share/locale/hi/LC_MESSAGES/kjournald.mo
 * /usr/share/locale/ia/LC_MESSAGES/kjournald.mo
 * /usr/share/locale/ie/LC_MESSAGES/kjournald.mo
 * /usr/share/locale/is/LC_MESSAGES/kjournald.mo
@@ -55,6 +56,7 @@ Framework for interacting with systemd-journald
 * /usr/share/locale/pt/LC_MESSAGES/kjournald.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/kjournald.mo
 * /usr/share/locale/ru/LC_MESSAGES/kjournald.mo
+* /usr/share/locale/sa/LC_MESSAGES/kjournald.mo
 * /usr/share/locale/sk/LC_MESSAGES/kjournald.mo
 * /usr/share/locale/sl/LC_MESSAGES/kjournald.mo
 * /usr/share/locale/sv/LC_MESSAGES/kjournald.mo

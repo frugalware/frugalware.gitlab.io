@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "koko 24.12.3-3"
-version = "24.12.3-3"
+title = "koko 25.04.0-1"
+version = "25.04.0-1"
 description = "Image gallery application"
-date = "2025-04-06T10:33:22"
+date = "2025-04-18T17:25:50"
 aliases = "/packages/220982"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "8106224"
-usize = "31908062"
-sha1sum = "8cd5bce47764763c5147c465686cffe91ecb830b"
+size = "8117600"
+usize = "31962733"
+sha1sum = "6d9084fbc1199995102ef761f724e666e182bffe"
 depends = "['exiv2>=0.28.1', 'kdeclarative', 'kfilemetadata', 'kio', 'kirigami-addons', 'kquickimageeditor', 'qt6-location']"
 +++
 ### Description: 
@@ -19,7 +19,7 @@ Image gallery application
 ### Files: 
 * /usr/bin/koko
 * /usr/share/applications/org.kde.koko.desktop
-* /usr/share/doc/koko-24.12.3/README.md
+* /usr/share/doc/koko-25.04.0/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.koko.svg
 * /usr/share/knotifications6/koko.notifyrc
 * /usr/share/koko/admin1Codes.txt
@@ -43,6 +43,7 @@ Image gallery application
 * /usr/share/locale/fr/LC_MESSAGES/koko.mo
 * /usr/share/locale/gl/LC_MESSAGES/koko.mo
 * /usr/share/locale/he/LC_MESSAGES/koko.mo
+* /usr/share/locale/hi/LC_MESSAGES/koko.mo
 * /usr/share/locale/hu/LC_MESSAGES/koko.mo
 * /usr/share/locale/ia/LC_MESSAGES/koko.mo
 * /usr/share/locale/it/LC_MESSAGES/koko.mo
@@ -58,6 +59,7 @@ Image gallery application
 * /usr/share/locale/pt/LC_MESSAGES/koko.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/koko.mo
 * /usr/share/locale/ru/LC_MESSAGES/koko.mo
+* /usr/share/locale/sa/LC_MESSAGES/koko.mo
 * /usr/share/locale/sk/LC_MESSAGES/koko.mo
 * /usr/share/locale/sl/LC_MESSAGES/koko.mo
 * /usr/share/locale/sv/LC_MESSAGES/koko.mo

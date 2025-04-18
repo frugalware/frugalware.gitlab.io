@@ -1,24 +1,24 @@
 +++
 draft = false
-title = "kdesdk-kio 24.12.3-3"
-version = "24.12.3-3"
+title = "kdesdk-kio 25.04.0-1"
+version = "25.04.0-1"
 description = "KIO-Slaves."
-date = "2025-04-06T10:49:16"
+date = "2025-04-18T17:59:16"
 aliases = "/packages/220582"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "46076"
-usize = "211451"
-sha1sum = "7befe6196bd54bd89c09a41b396d08b1d4317c8f"
-depends = "['ki18n>=6.12.0', 'kio>=6.12.0']"
+size = "46676"
+usize = "215191"
+sha1sum = "80d7e7935cbae1a96697646b6baa780d612ac160"
+depends = "['ki18n>=6.13.0', 'kio>=6.13.0']"
 +++
 ### Description: 
 KIO-Slaves.
 
 ### Files: 
 * /usr/lib/qt6/plugins/kf6/kio/perldoc.so
-* /usr/share/doc/kdesdk-kio-24.12.3/COPYING
+* /usr/share/doc/kdesdk-kio-25.04.0/COPYING
 * /usr/share/kio_perldoc/pod2html.pl
 * /usr/share/locale/bs/LC_MESSAGES/kio6_perldoc.mo
 * /usr/share/locale/ca/LC_MESSAGES/kio6_perldoc.mo
@@ -57,6 +57,7 @@ KIO-Slaves.
 * /usr/share/locale/pt/LC_MESSAGES/kio6_perldoc.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/kio6_perldoc.mo
 * /usr/share/locale/ru/LC_MESSAGES/kio6_perldoc.mo
+* /usr/share/locale/sa/LC_MESSAGES/kio6_perldoc.mo
 * /usr/share/locale/sk/LC_MESSAGES/kio6_perldoc.mo
 * /usr/share/locale/sl/LC_MESSAGES/kio6_perldoc.mo
 * /usr/share/locale/sq/LC_MESSAGES/kio6_perldoc.mo

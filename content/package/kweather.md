@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kweather 24.12.3-3"
-version = "24.12.3-3"
+title = "kweather 25.04.0-1"
+version = "25.04.0-1"
 description = "'Weather application for Plasma Mobile"
-date = "2025-04-06T10:36:28"
+date = "2025-04-18T17:30:15"
 aliases = "/packages/220988"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "386416"
-usize = "1581197"
-sha1sum = "12b7637c255564662af89004afe31d10afc65497"
+size = "389352"
+usize = "1600995"
+sha1sum = "35bd91207fba4e1a6734618efdfd00e7b5541ea2"
 depends = "['kirigami-addons', 'kweathercore', 'libplasma', 'qt6-charts']"
 +++
 ### Description: 
@@ -21,7 +21,7 @@ depends = "['kirigami-addons', 'kweathercore', 'libplasma', 'qt6-charts']"
 * /usr/lib/qt6/plugins/plasma/applets/plasma_applet_kweather_1x4.so
 * /usr/share/applications/org.kde.kweather.desktop
 * /usr/share/dbus-1/services/org.kde.kweather.service
-* /usr/share/doc/kweather-24.12.3/README.md
+* /usr/share/doc/kweather-25.04.0/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.kweather.svg
 * /usr/share/locale/ast/LC_MESSAGES/kweather.mo
 * /usr/share/locale/az/LC_MESSAGES/kweather.mo
@@ -40,6 +40,7 @@ depends = "['kirigami-addons', 'kweathercore', 'libplasma', 'qt6-charts']"
 * /usr/share/locale/fr/LC_MESSAGES/kweather.mo
 * /usr/share/locale/gl/LC_MESSAGES/kweather.mo
 * /usr/share/locale/he/LC_MESSAGES/kweather.mo
+* /usr/share/locale/hi/LC_MESSAGES/kweather.mo
 * /usr/share/locale/hu/LC_MESSAGES/kweather.mo
 * /usr/share/locale/ia/LC_MESSAGES/kweather.mo
 * /usr/share/locale/is/LC_MESSAGES/kweather.mo
@@ -49,6 +50,7 @@ depends = "['kirigami-addons', 'kweathercore', 'libplasma', 'qt6-charts']"
 * /usr/share/locale/ko/LC_MESSAGES/kweather.mo
 * /usr/share/locale/lt/LC_MESSAGES/kweather.mo
 * /usr/share/locale/lv/LC_MESSAGES/kweather.mo
+* /usr/share/locale/nb/LC_MESSAGES/kweather.mo
 * /usr/share/locale/nl/LC_MESSAGES/kweather.mo
 * /usr/share/locale/nn/LC_MESSAGES/kweather.mo
 * /usr/share/locale/pa/LC_MESSAGES/kweather.mo
@@ -56,6 +58,7 @@ depends = "['kirigami-addons', 'kweathercore', 'libplasma', 'qt6-charts']"
 * /usr/share/locale/pt/LC_MESSAGES/kweather.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/kweather.mo
 * /usr/share/locale/ru/LC_MESSAGES/kweather.mo
+* /usr/share/locale/sa/LC_MESSAGES/kweather.mo
 * /usr/share/locale/sk/LC_MESSAGES/kweather.mo
 * /usr/share/locale/sl/LC_MESSAGES/kweather.mo
 * /usr/share/locale/sv/LC_MESSAGES/kweather.mo

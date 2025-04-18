@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "skladnik 24.12.3-3"
-version = "24.12.3-3"
+title = "skladnik 25.04.0-1"
+version = "25.04.0-1"
 description = "An implementation of the Japanese warehouse keeper game Sokoban"
-date = "2025-04-06T10:57:06"
+date = "2025-04-18T18:10:14"
 aliases = "/packages/221490"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "391644"
-usize = "613087"
-sha1sum = "ff924e5d956c02dc41771398865329b67cb67874"
+size = "394468"
+usize = "627093"
+sha1sum = "f4e2244ea044b9d1c2f9b33b3f6696c1e9fce0dd"
 depends = "['kconfig', 'kconfigwidgets', 'kcoreaddons', 'kcrash', 'kdbusaddons', 'ki18n', 'kio', 'kwidgetsaddons', 'kxmlgui', 'libkdegames']"
 +++
 ### Description: 
@@ -19,9 +19,9 @@ An implementation of the Japanese warehouse keeper game Sokoban
 ### Files: 
 * /usr/bin/skladnik
 * /usr/share/applications/org.kde.skladnik.desktop
-* /usr/share/doc/skladnik-24.12.3/AUTHORS
-* /usr/share/doc/skladnik-24.12.3/COPYING
-* /usr/share/doc/skladnik-24.12.3/README
+* /usr/share/doc/skladnik-25.04.0/AUTHORS
+* /usr/share/doc/skladnik-25.04.0/COPYING
+* /usr/share/doc/skladnik-25.04.0/README
 * /usr/share/icons/hicolor/128x128/apps/skladnik.png
 * /usr/share/icons/hicolor/16x16/apps/skladnik.png
 * /usr/share/icons/hicolor/22x22/apps/skladnik.png
@@ -45,6 +45,7 @@ An implementation of the Japanese warehouse keeper game Sokoban
 * /usr/share/locale/ga/LC_MESSAGES/skladnik.mo
 * /usr/share/locale/gl/LC_MESSAGES/skladnik.mo
 * /usr/share/locale/he/LC_MESSAGES/skladnik.mo
+* /usr/share/locale/hi/LC_MESSAGES/skladnik.mo
 * /usr/share/locale/hu/LC_MESSAGES/skladnik.mo
 * /usr/share/locale/ia/LC_MESSAGES/skladnik.mo
 * /usr/share/locale/it/LC_MESSAGES/skladnik.mo
@@ -60,6 +61,7 @@ An implementation of the Japanese warehouse keeper game Sokoban
 * /usr/share/locale/pt/LC_MESSAGES/skladnik.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/skladnik.mo
 * /usr/share/locale/ru/LC_MESSAGES/skladnik.mo
+* /usr/share/locale/sa/LC_MESSAGES/skladnik.mo
 * /usr/share/locale/sk/LC_MESSAGES/skladnik.mo
 * /usr/share/locale/sl/LC_MESSAGES/skladnik.mo
 * /usr/share/locale/sv/LC_MESSAGES/skladnik.mo

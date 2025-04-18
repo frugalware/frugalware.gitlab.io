@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "tokodon 24.12.3-3"
-version = "24.12.3-3"
+title = "tokodon 25.04.0-1"
+version = "25.04.0-1"
 description = "A Mastodon client for Plasma"
-date = "2025-04-06T10:41:27"
+date = "2025-04-18T17:40:19"
 aliases = "/packages/220996"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1603872"
-usize = "9075490"
-sha1sum = "58ebacdde022d19d722addb473cb8eb18f35242e"
+size = "1592920"
+usize = "9172447"
+sha1sum = "66f3b4a4c8062165b0a163dade32aa26ce8306f7"
 depends = "['kdbusaddons', 'kio', 'kirigami-addons', 'kitemmodels', 'knotifications', 'kunifiedpush', 'mpvqt', 'purpose', 'qqc2-desktop-style', 'qt6-websockets', 'qt6-webview', 'qtkeychain']"
 +++
 ### Description: 
@@ -21,15 +21,7 @@ A Mastodon client for Plasma
 * /usr/lib/qt6/plugins/kf6/purpose/tokodonplugin.so
 * /usr/share/applications/org.kde.tokodon.desktop
 * /usr/share/dbus-1/services/org.kde.tokodon.service
-* /usr/share/doc/tokodon-24.12.3/README.md
-* /usr/share/icons/hicolor/scalable/actions/tokodon-chat-reply.svg
-* /usr/share/icons/hicolor/scalable/actions/tokodon-post-bookmarked.svg
-* /usr/share/icons/hicolor/scalable/actions/tokodon-post-boost.svg
-* /usr/share/icons/hicolor/scalable/actions/tokodon-post-boosted.svg
-* /usr/share/icons/hicolor/scalable/actions/tokodon-post-favorite.svg
-* /usr/share/icons/hicolor/scalable/actions/tokodon-post-favorited.svg
-* /usr/share/icons/hicolor/scalable/actions/tokodon-post-reply-filled.svg
-* /usr/share/icons/hicolor/scalable/actions/tokodon-post-reply.svg
+* /usr/share/doc/tokodon-25.04.0/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.tokodon.svg
 * /usr/share/knotifications6/tokodon.notifyrc
 * /usr/share/locale/ar/LC_MESSAGES/tokodon.mo
@@ -46,6 +38,7 @@ A Mastodon client for Plasma
 * /usr/share/locale/fr/LC_MESSAGES/tokodon.mo
 * /usr/share/locale/gl/LC_MESSAGES/tokodon.mo
 * /usr/share/locale/he/LC_MESSAGES/tokodon.mo
+* /usr/share/locale/hi/LC_MESSAGES/tokodon.mo
 * /usr/share/locale/hu/LC_MESSAGES/tokodon.mo
 * /usr/share/locale/ia/LC_MESSAGES/tokodon.mo
 * /usr/share/locale/id/LC_MESSAGES/tokodon.mo
@@ -63,6 +56,7 @@ A Mastodon client for Plasma
 * /usr/share/locale/pt/LC_MESSAGES/tokodon.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/tokodon.mo
 * /usr/share/locale/ru/LC_MESSAGES/tokodon.mo
+* /usr/share/locale/sa/LC_MESSAGES/tokodon.mo
 * /usr/share/locale/sk/LC_MESSAGES/tokodon.mo
 * /usr/share/locale/sl/LC_MESSAGES/tokodon.mo
 * /usr/share/locale/sq/LC_MESSAGES/tokodon.mo

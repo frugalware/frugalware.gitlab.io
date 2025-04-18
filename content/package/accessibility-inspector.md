@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "accessibility-inspector 24.12.3-3"
-version = "24.12.3-3"
+title = "accessibility-inspector 25.04.0-1"
+version = "25.04.0-1"
 description = "Inspect your application accessibility tree"
-date = "2025-04-06T10:53:54"
+date = "2025-04-18T18:05:52"
 aliases = "/packages/221486"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "104024"
-usize = "503143"
-sha1sum = "522306df61f09beadd5b77336bfaeab8403ac44f"
+size = "106968"
+usize = "524317"
+sha1sum = "cdd24282a4fa5b00c136acb3ba85427a8716f8c3"
 depends = "['kconfigwidgets', 'kcoreaddons', 'kcrash', 'kdbusaddons', 'ki18n', 'kxmlgui', 'libqaccessibilityclient']"
 +++
 ### Description: 
@@ -21,7 +21,7 @@ Inspect your application accessibility tree
 * /usr/lib/libaccessibilityinspector.so.1
 * /usr/lib/libaccessibilityinspector.so.1.0
 * /usr/share/applications/org.kde.accessibilityinspector.desktop
-* /usr/share/doc/accessibility-inspector-24.12.3/README.md
+* /usr/share/doc/accessibility-inspector-25.04.0/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.accessibilityinspector.svg
 * /usr/share/locale/ast/LC_MESSAGES/accessibilityinspector.mo
 * /usr/share/locale/ca/LC_MESSAGES/accessibilityinspector.mo
@@ -36,6 +36,7 @@ Inspect your application accessibility tree
 * /usr/share/locale/fr/LC_MESSAGES/accessibilityinspector.mo
 * /usr/share/locale/gl/LC_MESSAGES/accessibilityinspector.mo
 * /usr/share/locale/he/LC_MESSAGES/accessibilityinspector.mo
+* /usr/share/locale/hi/LC_MESSAGES/accessibilityinspector.mo
 * /usr/share/locale/hu/LC_MESSAGES/accessibilityinspector.mo
 * /usr/share/locale/ia/LC_MESSAGES/accessibilityinspector.mo
 * /usr/share/locale/it/LC_MESSAGES/accessibilityinspector.mo
@@ -48,6 +49,7 @@ Inspect your application accessibility tree
 * /usr/share/locale/pl/LC_MESSAGES/accessibilityinspector.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/accessibilityinspector.mo
 * /usr/share/locale/ru/LC_MESSAGES/accessibilityinspector.mo
+* /usr/share/locale/sa/LC_MESSAGES/accessibilityinspector.mo
 * /usr/share/locale/sk/LC_MESSAGES/accessibilityinspector.mo
 * /usr/share/locale/sl/LC_MESSAGES/accessibilityinspector.mo
 * /usr/share/locale/sv/LC_MESSAGES/accessibilityinspector.mo

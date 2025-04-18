@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "krecorder 24.12.3-3"
-version = "24.12.3-3"
+title = "krecorder 25.04.0-1"
+version = "25.04.0-1"
 description = "Audio recorder for Plasma Mobile and other platforms"
-date = "2025-04-06T10:34:53"
+date = "2025-04-18T17:28:06"
 aliases = "/packages/220985"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "81124"
-usize = "308259"
-sha1sum = "41898acc019f0e45d46053d86a7e0e9eb2a83181"
+size = "83692"
+usize = "321496"
+sha1sum = "e272d753ee20b3910d7dfa17a223d6798fdd4b7f"
 depends = "['kconfig', 'kcoreaddons', 'ki18n', 'kirigami-addons', 'kwindowsystem', 'qt6-multimedia', 'qt6-svg']"
 +++
 ### Description: 
@@ -19,7 +19,7 @@ Audio recorder for Plasma Mobile and other platforms
 ### Files: 
 * /usr/bin/krecorder
 * /usr/share/applications/org.kde.krecorder.desktop
-* /usr/share/doc/krecorder-24.12.3/README.md
+* /usr/share/doc/krecorder-25.04.0/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.krecorder.svg
 * /usr/share/locale/ar/LC_MESSAGES/krecorder.mo
 * /usr/share/locale/ast/LC_MESSAGES/krecorder.mo
@@ -36,6 +36,7 @@ Audio recorder for Plasma Mobile and other platforms
 * /usr/share/locale/fr/LC_MESSAGES/krecorder.mo
 * /usr/share/locale/gl/LC_MESSAGES/krecorder.mo
 * /usr/share/locale/he/LC_MESSAGES/krecorder.mo
+* /usr/share/locale/hi/LC_MESSAGES/krecorder.mo
 * /usr/share/locale/hu/LC_MESSAGES/krecorder.mo
 * /usr/share/locale/ia/LC_MESSAGES/krecorder.mo
 * /usr/share/locale/it/LC_MESSAGES/krecorder.mo
@@ -52,6 +53,7 @@ Audio recorder for Plasma Mobile and other platforms
 * /usr/share/locale/pt_BR/LC_MESSAGES/krecorder.mo
 * /usr/share/locale/ro/LC_MESSAGES/krecorder.mo
 * /usr/share/locale/ru/LC_MESSAGES/krecorder.mo
+* /usr/share/locale/sa/LC_MESSAGES/krecorder.mo
 * /usr/share/locale/sk/LC_MESSAGES/krecorder.mo
 * /usr/share/locale/sl/LC_MESSAGES/krecorder.mo
 * /usr/share/locale/sv/LC_MESSAGES/krecorder.mo

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kongress 24.12.3-3"
-version = "24.12.3-3"
+title = "kongress 25.04.0-1"
+version = "25.04.0-1"
 description = "Companion application for conferences"
-date = "2025-04-06T10:34:17"
+date = "2025-04-18T17:27:07"
 aliases = "/packages/220983"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "168744"
-usize = "710698"
-sha1sum = "336daf663c82cbe5f5daa197fa5d922fbcb00f44"
+size = "175548"
+usize = "743097"
+sha1sum = "4ed33e6533036e491f98918ac275c5e952b26043"
 depends = "['kcalendarcore', 'kconfig', 'kcoreaddons', 'kdbusaddons', 'ki18n', 'kirigami-addons', 'knotifications', 'kosmindoormap']"
 +++
 ### Description: 
@@ -21,7 +21,7 @@ Companion application for conferences
 * /usr/bin/kongressac
 * /usr/share/applications/org.kde.kongress.desktop
 * /usr/share/dbus-1/services/org.kde.kongressac.service
-* /usr/share/doc/kongress-24.12.3/README.md
+* /usr/share/doc/kongress-25.04.0/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.kongress.svg
 * /usr/share/knotifications6/kongressac.notifyrc
 * /usr/share/locale/ar/LC_MESSAGES/kongress.mo
@@ -58,6 +58,8 @@ Companion application for conferences
 * /usr/share/locale/gl/LC_MESSAGES/kongressac.mo
 * /usr/share/locale/he/LC_MESSAGES/kongress.mo
 * /usr/share/locale/he/LC_MESSAGES/kongressac.mo
+* /usr/share/locale/hi/LC_MESSAGES/kongress.mo
+* /usr/share/locale/hi/LC_MESSAGES/kongressac.mo
 * /usr/share/locale/ia/LC_MESSAGES/kongress.mo
 * /usr/share/locale/ia/LC_MESSAGES/kongressac.mo
 * /usr/share/locale/it/LC_MESSAGES/kongress.mo
@@ -87,6 +89,8 @@ Companion application for conferences
 * /usr/share/locale/ro/LC_MESSAGES/kongressac.mo
 * /usr/share/locale/ru/LC_MESSAGES/kongress.mo
 * /usr/share/locale/ru/LC_MESSAGES/kongressac.mo
+* /usr/share/locale/sa/LC_MESSAGES/kongress.mo
+* /usr/share/locale/sa/LC_MESSAGES/kongressac.mo
 * /usr/share/locale/sk/LC_MESSAGES/kongress.mo
 * /usr/share/locale/sk/LC_MESSAGES/kongressac.mo
 * /usr/share/locale/sl/LC_MESSAGES/kongress.mo

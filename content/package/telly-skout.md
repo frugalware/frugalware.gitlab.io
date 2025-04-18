@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "telly-skout 24.12.3-3"
-version = "24.12.3-3"
+title = "telly-skout 25.04.0-1"
+version = "25.04.0-1"
 description = "Convergent TV guide based on Kirigami"
-date = "2025-04-06T10:53:09"
+date = "2025-04-18T18:04:46"
 aliases = "/packages/220995"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "149636"
-usize = "587760"
-sha1sum = "bfd2e2d97b8185ed72f391462275906b0d5411b1"
+size = "156624"
+usize = "635863"
+sha1sum = "36f72fb92a0c44c6ca997ce595f565fc5553edd4"
 depends = "['kconfig', 'kcrash', 'ki18n', 'kirigami-addons', 'qqc2-desktop-style']"
 +++
 ### Description: 
@@ -19,7 +19,7 @@ Convergent TV guide based on Kirigami
 ### Files: 
 * /usr/bin/telly-skout
 * /usr/share/applications/org.kde.telly-skout.desktop
-* /usr/share/doc/telly-skout-24.12.3/README.md
+* /usr/share/doc/telly-skout-25.04.0/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.telly-skout.svg
 * /usr/share/locale/ast/LC_MESSAGES/telly-skout.mo
 * /usr/share/locale/ca/LC_MESSAGES/telly-skout.mo
@@ -34,6 +34,7 @@ Convergent TV guide based on Kirigami
 * /usr/share/locale/fr/LC_MESSAGES/telly-skout.mo
 * /usr/share/locale/gl/LC_MESSAGES/telly-skout.mo
 * /usr/share/locale/he/LC_MESSAGES/telly-skout.mo
+* /usr/share/locale/hi/LC_MESSAGES/telly-skout.mo
 * /usr/share/locale/hu/LC_MESSAGES/telly-skout.mo
 * /usr/share/locale/ia/LC_MESSAGES/telly-skout.mo
 * /usr/share/locale/it/LC_MESSAGES/telly-skout.mo
@@ -47,6 +48,7 @@ Convergent TV guide based on Kirigami
 * /usr/share/locale/pt/LC_MESSAGES/telly-skout.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/telly-skout.mo
 * /usr/share/locale/ru/LC_MESSAGES/telly-skout.mo
+* /usr/share/locale/sa/LC_MESSAGES/telly-skout.mo
 * /usr/share/locale/sk/LC_MESSAGES/telly-skout.mo
 * /usr/share/locale/sl/LC_MESSAGES/telly-skout.mo
 * /usr/share/locale/sv/LC_MESSAGES/telly-skout.mo

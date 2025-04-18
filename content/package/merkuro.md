@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "merkuro 24.12.3-3"
-version = "24.12.3-3"
+title = "merkuro 25.04.0-1"
+version = "25.04.0-1"
 description = "A calendar application using Akonadi to sync with external services"
-date = "2025-04-06T10:45:15"
+date = "2025-04-18T17:53:20"
 aliases = "/packages/221078"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1241072"
-usize = "5473172"
-sha1sum = "0c7f109061b455f03ea7a57ab0fa20d583f916ac"
-depends = "['eventviews', 'kirigami-addons', 'mailcommon', 'mimetreeparser', 'qqc2-desktop-style']"
+size = "1660560"
+usize = "7951181"
+sha1sum = "b555c0a5534e94989cad423cb73689885f2f53e9"
+depends = "['eventviews', 'kirigami-addons', 'mailcommon', 'mimetreeparser', 'qqc2-desktop-style', 'qt6-location>=']"
 +++
 ### Description: 
 A calendar application using Akonadi to sync with external services
@@ -21,13 +21,14 @@ A calendar application using Akonadi to sync with external services
 * /usr/bin/merkuro-contact
 * /usr/bin/merkuro-mail
 * /usr/lib/libMerkuroComponents.so
-* /usr/lib/libMerkuroComponents.so.24.12.3
+* /usr/lib/libMerkuroComponents.so.25.04.0
 * /usr/lib/libMerkuroComponents.so.6
 * /usr/lib/libmerkuro_contact.so
-* /usr/lib/libmerkuro_contact.so.24.12.3
+* /usr/lib/libmerkuro_contact.so.25.04.0
 * /usr/lib/libmerkuro_contact.so.6
 * /usr/lib/qt6/qml/org/kde/akonadi/AgentConfigurationForm.qml
 * /usr/lib/qt6/qml/org/kde/akonadi/akonadi_quick_plugin.qmltypes
+* /usr/lib/qt6/qml/org/kde/akonadi/CollectionChooserPage.qml
 * /usr/lib/qt6/qml/org/kde/akonadi/CollectionComboBox.qml
 * /usr/lib/qt6/qml/org/kde/akonadi/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/akonadi/libakonadi_quick_plugin.so
@@ -35,15 +36,6 @@ A calendar application using Akonadi to sync with external services
 * /usr/lib/qt6/qml/org/kde/akonadi/ProgressStatusBar.qml
 * /usr/lib/qt6/qml/org/kde/akonadi/qmldir
 * /usr/lib/qt6/qml/org/kde/akonadi/TagManagerPage.qml
-* /usr/lib/qt6/qml/org/kde/merkuro/calendar/BottomToolBar.qml
-* /usr/lib/qt6/qml/org/kde/merkuro/calendar/DatePopupSingleton.qml
-* /usr/lib/qt6/qml/org/kde/merkuro/calendar/kde-qmlmodule.version
-* /usr/lib/qt6/qml/org/kde/merkuro/calendar/libmerkuro_calendar_plugin.so
-* /usr/lib/qt6/qml/org/kde/merkuro/calendar/MenuBar.qml
-* /usr/lib/qt6/qml/org/kde/merkuro/calendar/merkuro_calendar_plugin.qmltypes
-* /usr/lib/qt6/qml/org/kde/merkuro/calendar/PriorityComboBox.qml
-* /usr/lib/qt6/qml/org/kde/merkuro/calendar/qmldir
-* /usr/lib/qt6/qml/org/kde/merkuro/calendar/ReminderDelegate.qml
 * /usr/lib/qt6/qml/org/kde/merkuro/components/BaseApplication.qml
 * /usr/lib/qt6/qml/org/kde/merkuro/components/ColoredCheckbox.qml
 * /usr/lib/qt6/qml/org/kde/merkuro/components/EditMenu.qml
@@ -65,10 +57,10 @@ A calendar application using Akonadi to sync with external services
 * /usr/lib/qt6/qml/org/kde/merkuro/contact/ContactView.qml
 * /usr/lib/qt6/qml/org/kde/merkuro/contact/GlobalMenuBar.qml
 * /usr/lib/qt6/qml/org/kde/merkuro/contact/kde-qmlmodule.version
-* /usr/lib/qt6/qml/org/kde/merkuro/contact/libmerkuro_contact_plugin.so
+* /usr/lib/qt6/qml/org/kde/merkuro/contact/libmerkuro_contactplugin.so
 * /usr/lib/qt6/qml/org/kde/merkuro/contact/Main.qml
 * /usr/lib/qt6/qml/org/kde/merkuro/contact/MenuBar.qml
-* /usr/lib/qt6/qml/org/kde/merkuro/contact/merkuro_contact_plugin.qmltypes
+* /usr/lib/qt6/qml/org/kde/merkuro/contact/merkuro_contact.qmltypes
 * /usr/lib/qt6/qml/org/kde/merkuro/contact/private/AddressBookMenu.qml
 * /usr/lib/qt6/qml/org/kde/merkuro/contact/private/ContactGroupPage.qml
 * /usr/lib/qt6/qml/org/kde/merkuro/contact/private/ContactPage.qml
@@ -82,7 +74,7 @@ A calendar application using Akonadi to sync with external services
 * /usr/lib/qt6/qml/org/kde/merkuro/contact/private/contact_editor/PersonalInfoEditorCard.qml
 * /usr/lib/qt6/qml/org/kde/merkuro/contact/private/contact_editor/PhoneEditorCard.qml
 * /usr/lib/qt6/qml/org/kde/merkuro/contact/private/contact_editor/PhotoEditor.qml
-* /usr/lib/qt6/qml/org/kde/merkuro/contact/private/DeleteContactAction.qml
+* /usr/lib/qt6/qml/org/kde/merkuro/contact/private/DeleteContactDialog.qml
 * /usr/lib/qt6/qml/org/kde/merkuro/contact/private/Header.qml
 * /usr/lib/qt6/qml/org/kde/merkuro/contact/private/PhoneNumberDialog.qml
 * /usr/lib/qt6/qml/org/kde/merkuro/contact/private/QrCodePage.qml
@@ -94,7 +86,7 @@ A calendar application using Akonadi to sync with external services
 * /usr/share/applications/org.kde.merkuro.contact.desktop
 * /usr/share/applications/org.kde.merkuro.desktop
 * /usr/share/applications/org.kde.merkuro.mail.desktop
-* /usr/share/doc/merkuro-24.12.3/README.md
+* /usr/share/doc/merkuro-25.04.0/README.md
 * /usr/share/icons/hicolor/128x128/apps/org.kde.merkuro.calendar.png
 * /usr/share/icons/hicolor/128x128/apps/org.kde.merkuro.contact.png
 * /usr/share/icons/hicolor/128x128/apps/org.kde.merkuro.mail.png
@@ -128,6 +120,7 @@ A calendar application using Akonadi to sync with external services
 * /usr/share/locale/ca@valencia/LC_MESSAGES/merkurolauncher.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/plasma_applet_org.kde.merkuro.contact.mo
 * /usr/share/locale/cs/LC_MESSAGES/merkuro.mo
+* /usr/share/locale/cs/LC_MESSAGES/merkurolauncher.mo
 * /usr/share/locale/cs/LC_MESSAGES/plasma_applet_org.kde.merkuro.contact.mo
 * /usr/share/locale/da/LC_MESSAGES/merkuro.mo
 * /usr/share/locale/da/LC_MESSAGES/plasma_applet_org.kde.merkuro.contact.mo
@@ -156,8 +149,10 @@ A calendar application using Akonadi to sync with external services
 * /usr/share/locale/gl/LC_MESSAGES/merkurolauncher.mo
 * /usr/share/locale/gl/LC_MESSAGES/plasma_applet_org.kde.merkuro.contact.mo
 * /usr/share/locale/he/LC_MESSAGES/merkuro.mo
+* /usr/share/locale/he/LC_MESSAGES/merkurolauncher.mo
 * /usr/share/locale/he/LC_MESSAGES/plasma_applet_org.kde.merkuro.contact.mo
 * /usr/share/locale/hi/LC_MESSAGES/merkuro.mo
+* /usr/share/locale/hi/LC_MESSAGES/merkurolauncher.mo
 * /usr/share/locale/hi/LC_MESSAGES/plasma_applet_org.kde.merkuro.contact.mo
 * /usr/share/locale/hu/LC_MESSAGES/merkuro.mo
 * /usr/share/locale/hu/LC_MESSAGES/merkurolauncher.mo
@@ -181,6 +176,8 @@ A calendar application using Akonadi to sync with external services
 * /usr/share/locale/lt/LC_MESSAGES/merkuro.mo
 * /usr/share/locale/lt/LC_MESSAGES/plasma_applet_org.kde.merkuro.contact.mo
 * /usr/share/locale/lv/LC_MESSAGES/merkuro.mo
+* /usr/share/locale/lv/LC_MESSAGES/merkurolauncher.mo
+* /usr/share/locale/lv/LC_MESSAGES/plasma_applet_org.kde.merkuro.contact.mo
 * /usr/share/locale/nl/LC_MESSAGES/merkuro.mo
 * /usr/share/locale/nl/LC_MESSAGES/merkurolauncher.mo
 * /usr/share/locale/nl/LC_MESSAGES/plasma_applet_org.kde.merkuro.contact.mo
@@ -191,11 +188,13 @@ A calendar application using Akonadi to sync with external services
 * /usr/share/locale/pt/LC_MESSAGES/merkuro.mo
 * /usr/share/locale/pt/LC_MESSAGES/plasma_applet_org.kde.merkuro.contact.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/merkuro.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/merkurolauncher.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/plasma_applet_org.kde.merkuro.contact.mo
 * /usr/share/locale/ru/LC_MESSAGES/merkuro.mo
 * /usr/share/locale/ru/LC_MESSAGES/merkurolauncher.mo
 * /usr/share/locale/ru/LC_MESSAGES/plasma_applet_org.kde.merkuro.contact.mo
+* /usr/share/locale/sa/LC_MESSAGES/merkuro.mo
+* /usr/share/locale/sa/LC_MESSAGES/merkurolauncher.mo
+* /usr/share/locale/sa/LC_MESSAGES/plasma_applet_org.kde.merkuro.contact.mo
 * /usr/share/locale/sk/LC_MESSAGES/merkuro.mo
 * /usr/share/locale/sk/LC_MESSAGES/merkurolauncher.mo
 * /usr/share/locale/sk/LC_MESSAGES/plasma_applet_org.kde.merkuro.contact.mo

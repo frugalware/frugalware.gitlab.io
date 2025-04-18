@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "keysmith 24.12.3-3"
-version = "24.12.3-3"
+title = "keysmith 25.04.0-1"
+version = "25.04.0-1"
 description = "OTP client for Plasma Mobile and Desktop"
-date = "2025-04-06T10:31:39"
+date = "2025-04-18T17:22:31"
 aliases = "/packages/220977"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "209992"
-usize = "977319"
-sha1sum = "5c629407da407177b02e9e16182d0d0132f9e389"
-depends = "['kdbusaddons', 'ki18n', 'kirigami', 'kwindowsystem', 'libsodium>=1.0.19', 'qqc2-desktop-style', 'qt6-5compat>=', 'qt6-svg>=']"
+size = "237824"
+usize = "1114146"
+sha1sum = "52a627e00d4d451b864a4f27ce789364dc9fe637"
+depends = "['kdbusaddons', 'ki18n', 'kirigami', 'kwindowsystem', 'libsodium>=1.0.19', 'prison>=', 'qqc2-desktop-style', 'qt6-5compat>=', 'qt6-svg>=']"
 +++
 ### Description: 
 OTP client for Plasma Mobile and Desktop
@@ -19,9 +19,9 @@ OTP client for Plasma Mobile and Desktop
 ### Files: 
 * /usr/bin/keysmith
 * /usr/share/applications/org.kde.keysmith.desktop
-* /usr/share/doc/keysmith-24.12.3/COPYING
-* /usr/share/doc/keysmith-24.12.3/README.md
-* /usr/share/icons/hicolor/scalable/apps/keysmith.svg
+* /usr/share/doc/keysmith-25.04.0/COPYING
+* /usr/share/doc/keysmith-25.04.0/README.md
+* /usr/share/icons/hicolor/scalable/apps/org.kde.keysmith.svg
 * /usr/share/locale/ar/LC_MESSAGES/keysmith.mo
 * /usr/share/locale/ast/LC_MESSAGES/keysmith.mo
 * /usr/share/locale/ca/LC_MESSAGES/keysmith.mo
@@ -37,6 +37,7 @@ OTP client for Plasma Mobile and Desktop
 * /usr/share/locale/fr/LC_MESSAGES/keysmith.mo
 * /usr/share/locale/gl/LC_MESSAGES/keysmith.mo
 * /usr/share/locale/he/LC_MESSAGES/keysmith.mo
+* /usr/share/locale/hi/LC_MESSAGES/keysmith.mo
 * /usr/share/locale/hu/LC_MESSAGES/keysmith.mo
 * /usr/share/locale/ia/LC_MESSAGES/keysmith.mo
 * /usr/share/locale/it/LC_MESSAGES/keysmith.mo
@@ -52,6 +53,7 @@ OTP client for Plasma Mobile and Desktop
 * /usr/share/locale/pt_BR/LC_MESSAGES/keysmith.mo
 * /usr/share/locale/ro/LC_MESSAGES/keysmith.mo
 * /usr/share/locale/ru/LC_MESSAGES/keysmith.mo
+* /usr/share/locale/sa/LC_MESSAGES/keysmith.mo
 * /usr/share/locale/sk/LC_MESSAGES/keysmith.mo
 * /usr/share/locale/sl/LC_MESSAGES/keysmith.mo
 * /usr/share/locale/sv/LC_MESSAGES/keysmith.mo

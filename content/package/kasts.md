@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kasts 24.12.3-3"
-version = "24.12.3-3"
+title = "kasts 25.04.0-1"
+version = "25.04.0-1"
 description = "Kirigami-based podcast player"
-date = "2025-04-06T10:29:48"
+date = "2025-04-18T17:18:53"
 aliases = "/packages/220971"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "834220"
-usize = "4201108"
-sha1sum = "2e1198b1d5cd398f36f8d377cd3556b7102a39b8"
+size = "878500"
+usize = "4439880"
+sha1sum = "9fa10d564efec4535ba4fd4e45934791169cdc84"
 depends = "['kirigami-addons', 'libvlc', 'networkmanager-qt', 'qtkeychain', 'syndication', 'taglib>=2.0', 'threadweaver', 'vlc']"
 +++
 ### Description: 
@@ -19,8 +19,12 @@ Kirigami-based podcast player
 ### Files: 
 * /usr/bin/kasts
 * /usr/lib/libKMediaSession.so
+* /usr/lib/qt6/qml/org/kde/kmediasession/kde-qmlmodule.version
+* /usr/lib/qt6/qml/org/kde/kmediasession/kmediasessionqmlplugin.qmltypes
+* /usr/lib/qt6/qml/org/kde/kmediasession/libkmediasessionqmlplugin.so
+* /usr/lib/qt6/qml/org/kde/kmediasession/qmldir
 * /usr/share/applications/org.kde.kasts.desktop
-* /usr/share/doc/kasts-24.12.3/README.md
+* /usr/share/doc/kasts-25.04.0/README.md
 * /usr/share/icons/hicolor/scalable/actions/media-playback-cloud.svg
 * /usr/share/icons/hicolor/scalable/apps/kasts-tray-dark.svg
 * /usr/share/icons/hicolor/scalable/apps/kasts-tray-light.svg
@@ -40,6 +44,7 @@ Kirigami-based podcast player
 * /usr/share/locale/fr/LC_MESSAGES/kasts.mo
 * /usr/share/locale/gl/LC_MESSAGES/kasts.mo
 * /usr/share/locale/he/LC_MESSAGES/kasts.mo
+* /usr/share/locale/hi/LC_MESSAGES/kasts.mo
 * /usr/share/locale/ia/LC_MESSAGES/kasts.mo
 * /usr/share/locale/is/LC_MESSAGES/kasts.mo
 * /usr/share/locale/it/LC_MESSAGES/kasts.mo
@@ -53,6 +58,7 @@ Kirigami-based podcast player
 * /usr/share/locale/pt/LC_MESSAGES/kasts.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/kasts.mo
 * /usr/share/locale/ru/LC_MESSAGES/kasts.mo
+* /usr/share/locale/sa/LC_MESSAGES/kasts.mo
 * /usr/share/locale/sk/LC_MESSAGES/kasts.mo
 * /usr/share/locale/sl/LC_MESSAGES/kasts.mo
 * /usr/share/locale/sv/LC_MESSAGES/kasts.mo
