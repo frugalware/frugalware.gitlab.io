@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "containerd 2.0.4-1"
-version = "2.0.4-1"
+title = "containerd 2.0.5-1"
+version = "2.0.5-1"
 description = "open and reliable container runtime"
-date = "2025-03-18T08:38:45"
+date = "2025-04-18T21:11:17"
 aliases = "/packages/219031"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/containerd/containerd"
 arch = "x86_64"
-size = "27732464"
-usize = "110793445"
-sha1sum = "3321c0b2e4406899fd5c1bd1446a429f1f9f6803"
+size = "27736408"
+usize = "110928973"
+sha1sum = "0d3aa55d444152a9ba7c113218abba1bd7219b60"
 depends = "['glibc', 'runc']"
 reverse_depends = "['docker']"
 +++
