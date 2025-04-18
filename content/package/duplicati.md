@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "duplicati 2.1.0.113-1"
-version = "2.1.0.113-1"
+title = "duplicati 2.1.0.116-1"
+version = "2.1.0.116-1"
 description = "A free backup client that securely stores encrypted, incremental, compressed backups on cloud storage services and remote file servers"
-date = "2025-04-13T19:07:43"
+date = "2025-04-18T22:03:16"
 aliases = "/packages/219894"
 categories = ['xapps-extra']
 upstreamurl = "http://duplicati.com"
 arch = "x86_64"
-size = "64487416"
-usize = "198733146"
-sha1sum = "d016dc97a03089284895a4464da9d0647f3f4ece"
+size = "64099248"
+usize = "197907268"
+sha1sum = "b1c93d88f0d8d263ec83cb83bf655f87c0fdf0c5"
 depends = "['lttng-ust12']"
 +++
 ### Description: 
@@ -54,8 +54,8 @@ A free backup client that securely stores encrypted, incremental, compressed bac
 * /opt/duplicati/BouncyCastle.Cryptography.dll
 * /opt/duplicati/changelog.txt
 * /opt/duplicati/CoCoL.dll
+* /opt/duplicati/CommunityToolkit.HighPerformance.dll
 * /opt/duplicati/COSXML.dll
-* /opt/duplicati/Crc32.NET.dll
 * /opt/duplicati/createdump
 * /opt/duplicati/cs/System.CommandLine.resources.dll
 * /opt/duplicati/de/System.CommandLine.resources.dll
@@ -168,6 +168,7 @@ A free backup client that securely stores encrypted, incremental, compressed bac
 * /opt/duplicati/Duplicati.Library.UsageReporter.dll
 * /opt/duplicati/Duplicati.Library.Utility.dll
 * /opt/duplicati/Duplicati.License.dll
+* /opt/duplicati/Duplicati.PackageRef.dll
 * /opt/duplicati/Duplicati.Server.deps.json
 * /opt/duplicati/Duplicati.Server.dll
 * /opt/duplicati/Duplicati.Server.Implementation.dll
@@ -461,7 +462,6 @@ A free backup client that securely stores encrypted, incremental, compressed bac
 * /opt/duplicati/pt-BR/System.CommandLine.resources.dll
 * /opt/duplicati/RemoteSynchronization.dll
 * /opt/duplicati/Renci.SshNet.dll
-* /opt/duplicati/RestSharp.dll
 * /opt/duplicati/ru/System.CommandLine.resources.dll
 * /opt/duplicati/run-script-example.sh
 * /opt/duplicati/set-permissions.sh
@@ -583,7 +583,6 @@ A free backup client that securely stores encrypted, incremental, compressed bac
 * /opt/duplicati/System.Private.Xml.dll
 * /opt/duplicati/System.Private.Xml.Linq.dll
 * /opt/duplicati/System.Reactive.dll
-* /opt/duplicati/System.Reactive.Linq.dll
 * /opt/duplicati/System.Reflection.DispatchProxy.dll
 * /opt/duplicati/System.Reflection.dll
 * /opt/duplicati/System.Reflection.Emit.dll
@@ -604,7 +603,6 @@ A free backup client that securely stores encrypted, incremental, compressed bac
 * /opt/duplicati/System.Runtime.InteropServices.dll
 * /opt/duplicati/System.Runtime.InteropServices.JavaScript.dll
 * /opt/duplicati/System.Runtime.InteropServices.RuntimeInformation.dll
-* /opt/duplicati/System.Runtime.InteropServices.WindowsRuntime.dll
 * /opt/duplicati/System.Runtime.Intrinsics.dll
 * /opt/duplicati/System.Runtime.Loader.dll
 * /opt/duplicati/System.Runtime.Numerics.dll
@@ -1107,34 +1105,28 @@ A free backup client that securely stores encrypted, incremental, compressed bac
 * /opt/duplicati/webroot/ngclient/chunk-3UJUWE5B.js
 * /opt/duplicati/webroot/ngclient/chunk-3V622MYY.js
 * /opt/duplicati/webroot/ngclient/chunk-436ZVGPO.js
+* /opt/duplicati/webroot/ngclient/chunk-4DZRXRA3.js
 * /opt/duplicati/webroot/ngclient/chunk-4FF7PF7J.js
 * /opt/duplicati/webroot/ngclient/chunk-54SNAQYD.js
-* /opt/duplicati/webroot/ngclient/chunk-643UNOPE.js
-* /opt/duplicati/webroot/ngclient/chunk-6TNJS5KT.js
+* /opt/duplicati/webroot/ngclient/chunk-5SLAQVCB.js
+* /opt/duplicati/webroot/ngclient/chunk-6UVVDGKQ.js
 * /opt/duplicati/webroot/ngclient/chunk-7CGTOI24.js
 * /opt/duplicati/webroot/ngclient/chunk-7QUJNAXH.js
-* /opt/duplicati/webroot/ngclient/chunk-ACN637D7.js
-* /opt/duplicati/webroot/ngclient/chunk-AHX7BWQR.js
-* /opt/duplicati/webroot/ngclient/chunk-AN4FSLGT.js
-* /opt/duplicati/webroot/ngclient/chunk-ASEBN4DE.js
-* /opt/duplicati/webroot/ngclient/chunk-B4U66F2Q.js
 * /opt/duplicati/webroot/ngclient/chunk-BA7NYTFR.js
 * /opt/duplicati/webroot/ngclient/chunk-BKWTKAB4.js
 * /opt/duplicati/webroot/ngclient/chunk-BWYJMRKB.js
 * /opt/duplicati/webroot/ngclient/chunk-CEOO3F5U.js
+* /opt/duplicati/webroot/ngclient/chunk-CQTSWNP2.js
 * /opt/duplicati/webroot/ngclient/chunk-D5WIWFNP.js
 * /opt/duplicati/webroot/ngclient/chunk-DJWNLIDJ.js
 * /opt/duplicati/webroot/ngclient/chunk-DNHLTHLR.js
 * /opt/duplicati/webroot/ngclient/chunk-DRBDCRHV.js
 * /opt/duplicati/webroot/ngclient/chunk-E2LHQGCK.js
-* /opt/duplicati/webroot/ngclient/chunk-EKIFJPZJ.js
 * /opt/duplicati/webroot/ngclient/chunk-EO2PLY2Q.js
 * /opt/duplicati/webroot/ngclient/chunk-FDMBNUIK.js
 * /opt/duplicati/webroot/ngclient/chunk-FKTH6XCB.js
 * /opt/duplicati/webroot/ngclient/chunk-FQPH5MIV.js
 * /opt/duplicati/webroot/ngclient/chunk-FRXAEGHW.js
-* /opt/duplicati/webroot/ngclient/chunk-FXLWWVAS.js
-* /opt/duplicati/webroot/ngclient/chunk-HFRBCV47.js
 * /opt/duplicati/webroot/ngclient/chunk-I3TLRILF.js
 * /opt/duplicati/webroot/ngclient/chunk-I457VUEG.js
 * /opt/duplicati/webroot/ngclient/chunk-ISRMJKPG.js
@@ -1143,32 +1135,38 @@ A free backup client that securely stores encrypted, incremental, compressed bac
 * /opt/duplicati/webroot/ngclient/chunk-K3CYM6ID.js
 * /opt/duplicati/webroot/ngclient/chunk-KABJYPCP.js
 * /opt/duplicati/webroot/ngclient/chunk-LBZ753XE.js
-* /opt/duplicati/webroot/ngclient/chunk-LVHLXMSY.js
+* /opt/duplicati/webroot/ngclient/chunk-LHTAXP73.js
 * /opt/duplicati/webroot/ngclient/chunk-M7VDIUGU.js
 * /opt/duplicati/webroot/ngclient/chunk-MEQPT4C3.js
-* /opt/duplicati/webroot/ngclient/chunk-MIASAENR.js
+* /opt/duplicati/webroot/ngclient/chunk-MM22YS5Z.js
 * /opt/duplicati/webroot/ngclient/chunk-MYK7A3PZ.js
+* /opt/duplicati/webroot/ngclient/chunk-NEZX7ARK.js
 * /opt/duplicati/webroot/ngclient/chunk-NFME267J.js
 * /opt/duplicati/webroot/ngclient/chunk-O6GWHO26.js
 * /opt/duplicati/webroot/ngclient/chunk-OH33D663.js
+* /opt/duplicati/webroot/ngclient/chunk-ONSJL7VA.js
 * /opt/duplicati/webroot/ngclient/chunk-PFAU4FFV.js
 * /opt/duplicati/webroot/ngclient/chunk-PGUALKQ6.js
-* /opt/duplicati/webroot/ngclient/chunk-PPKU3R4J.js
-* /opt/duplicati/webroot/ngclient/chunk-PX6A6XCQ.js
+* /opt/duplicati/webroot/ngclient/chunk-PWLZT57L.js
 * /opt/duplicati/webroot/ngclient/chunk-QFKEUN2J.js
 * /opt/duplicati/webroot/ngclient/chunk-RHW5QVAY.js
 * /opt/duplicati/webroot/ngclient/chunk-RQSCZC6C.js
 * /opt/duplicati/webroot/ngclient/chunk-SFWQDWHT.js
-* /opt/duplicati/webroot/ngclient/chunk-SYZYJSXM.js
 * /opt/duplicati/webroot/ngclient/chunk-TLY4PQBT.js
+* /opt/duplicati/webroot/ngclient/chunk-TUR6D3AC.js
+* /opt/duplicati/webroot/ngclient/chunk-UH6BCOA6.js
 * /opt/duplicati/webroot/ngclient/chunk-UJZB6UQE.js
+* /opt/duplicati/webroot/ngclient/chunk-ULTH3Z7H.js
 * /opt/duplicati/webroot/ngclient/chunk-UXWTPWS6.js
+* /opt/duplicati/webroot/ngclient/chunk-VDQCSHBX.js
 * /opt/duplicati/webroot/ngclient/chunk-VRGLHRK2.js
 * /opt/duplicati/webroot/ngclient/chunk-WCLOWI5G.js
 * /opt/duplicati/webroot/ngclient/chunk-WSLU6K4D.js
 * /opt/duplicati/webroot/ngclient/chunk-XGARKXE4.js
 * /opt/duplicati/webroot/ngclient/chunk-XH2A67YP.js
 * /opt/duplicati/webroot/ngclient/chunk-XQKR67WI.js
+* /opt/duplicati/webroot/ngclient/chunk-YBLCACKN.js
+* /opt/duplicati/webroot/ngclient/chunk-YOTPPWSO.js
 * /opt/duplicati/webroot/ngclient/chunk-YPSSTA3J.js
 * /opt/duplicati/webroot/ngclient/chunk-YTJB3DGU.js
 * /opt/duplicati/webroot/ngclient/chunk-ZHAXIU33.js
@@ -1193,7 +1191,7 @@ A free backup client that securely stores encrypted, incremental, compressed bac
 * /opt/duplicati/webroot/ngclient/locale/messages.de-DE.json
 * /opt/duplicati/webroot/ngclient/locale/messages.fr-FR.json
 * /opt/duplicati/webroot/ngclient/locale/messages.json
-* /opt/duplicati/webroot/ngclient/main-ZJBIDZ3R.js
+* /opt/duplicati/webroot/ngclient/main-CVAZAPFI.js
 * /opt/duplicati/webroot/ngclient/package.json
 * /opt/duplicati/webroot/ngclient/polyfills-BZ5XXHZK.js
 * /opt/duplicati/webroot/ngclient/sparkle-ui-assets/fonts/InterTight-VariableFont_wght.woff2
