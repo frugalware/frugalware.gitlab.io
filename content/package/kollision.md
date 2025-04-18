@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kollision 24.12.3-3"
-version = "24.12.3-3"
+title = "kollision 25.04.0-1"
+version = "25.04.0-1"
 description = "A simple ball dodging game."
-date = "2025-04-05T20:43:34"
+date = "2025-04-18T08:36:22"
 aliases = "/packages/184193"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "388368"
-usize = "767961"
-sha1sum = "07d5df3a72e6428cf2b4ef6170873fd81d2c58ec"
-depends = "['knotifyconfig>=6.12.0', 'libkdegames>=24.12.3']"
+size = "389644"
+usize = "774271"
+sha1sum = "da97da1fc86ca7c4903b262a1ff719047d2db519"
+depends = "['knotifyconfig>=6.13.0', 'libkdegames>=25.04.0']"
 +++
 ### Description: 
 A simple ball dodging game.
@@ -96,6 +96,7 @@ A simple ball dodging game.
 * /usr/share/locale/gl/LC_MESSAGES/kollision.mo
 * /usr/share/locale/gu/LC_MESSAGES/kollision.mo
 * /usr/share/locale/he/LC_MESSAGES/kollision.mo
+* /usr/share/locale/hi/LC_MESSAGES/kollision.mo
 * /usr/share/locale/hr/LC_MESSAGES/kollision.mo
 * /usr/share/locale/hu/LC_MESSAGES/kollision.mo
 * /usr/share/locale/ia/LC_MESSAGES/kollision.mo
@@ -122,6 +123,7 @@ A simple ball dodging game.
 * /usr/share/locale/pt_BR/LC_MESSAGES/kollision.mo
 * /usr/share/locale/ro/LC_MESSAGES/kollision.mo
 * /usr/share/locale/ru/LC_MESSAGES/kollision.mo
+* /usr/share/locale/sa/LC_MESSAGES/kollision.mo
 * /usr/share/locale/sk/LC_MESSAGES/kollision.mo
 * /usr/share/locale/sl/LC_MESSAGES/kollision.mo
 * /usr/share/locale/sq/LC_MESSAGES/kollision.mo

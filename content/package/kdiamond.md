@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdiamond 24.12.3-3"
-version = "24.12.3-3"
+title = "kdiamond 25.04.0-1"
+version = "25.04.0-1"
 description = "A single player puzzle game."
-date = "2025-04-05T20:33:37"
+date = "2025-04-18T08:21:27"
 aliases = "/packages/184179"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "4833184"
-usize = "5243184"
-sha1sum = "9b2cd50df6821c32051d62984ab73f9cd8a1311b"
-depends = "['knotifyconfig>=6.12.0', 'libkdegames>=24.12.3', 'qt6-svg>=6.9.0']"
+size = "4834476"
+usize = "5249807"
+sha1sum = "26a76127912cf8f8b5ec6da36aceea3bd0266777"
+depends = "['knotifyconfig>=6.13.0', 'libkdegames>=25.04.0', 'qt6-svg>=6.9.0']"
 +++
 ### Description: 
 A single player puzzle game.
@@ -117,6 +117,7 @@ A single player puzzle game.
 * /usr/share/locale/pt_BR/LC_MESSAGES/kdiamond.mo
 * /usr/share/locale/ro/LC_MESSAGES/kdiamond.mo
 * /usr/share/locale/ru/LC_MESSAGES/kdiamond.mo
+* /usr/share/locale/sa/LC_MESSAGES/kdiamond.mo
 * /usr/share/locale/sk/LC_MESSAGES/kdiamond.mo
 * /usr/share/locale/sl/LC_MESSAGES/kdiamond.mo
 * /usr/share/locale/sq/LC_MESSAGES/kdiamond.mo

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kmines 24.12.3-3"
-version = "24.12.3-3"
+title = "kmines 25.04.0-1"
+version = "25.04.0-1"
 description = "The classic Minesweeper game."
-date = "2025-04-05T20:41:14"
+date = "2025-04-18T08:32:55"
 aliases = "/packages/184189"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1162228"
-usize = "1678215"
-sha1sum = "7cd632c9d53d0cd58a4901228b5af48a593e2d6a"
-depends = "['knotifyconfig>=6.12.0', 'libkdegames>=24.12.3']"
+size = "1163724"
+usize = "1685689"
+sha1sum = "c3945ed69d015988b30c7edaf9ac003fcbb32f4c"
+depends = "['knotifyconfig>=6.13.0', 'libkdegames>=25.04.0']"
 +++
 ### Description: 
 The classic Minesweeper game.
@@ -60,8 +60,8 @@ The classic Minesweeper game.
 * /usr/share/doc/HTML/uk/kmines/gameboard.png
 * /usr/share/doc/HTML/uk/kmines/index.cache.bz2
 * /usr/share/doc/HTML/uk/kmines/index.docbook
-* /usr/share/doc/kmines-24.12.3/README
-* /usr/share/doc/kmines-24.12.3/TODO
+* /usr/share/doc/kmines-25.04.0/README
+* /usr/share/doc/kmines-25.04.0/TODO
 * /usr/share/icons/hicolor/128x128/apps/kmines.png
 * /usr/share/icons/hicolor/16x16/apps/kmines.png
 * /usr/share/icons/hicolor/22x22/apps/kmines.png
@@ -144,6 +144,7 @@ The classic Minesweeper game.
 * /usr/share/locale/pt_BR/LC_MESSAGES/kmines.mo
 * /usr/share/locale/ro/LC_MESSAGES/kmines.mo
 * /usr/share/locale/ru/LC_MESSAGES/kmines.mo
+* /usr/share/locale/sa/LC_MESSAGES/kmines.mo
 * /usr/share/locale/se/LC_MESSAGES/kmines.mo
 * /usr/share/locale/sk/LC_MESSAGES/kmines.mo
 * /usr/share/locale/sl/LC_MESSAGES/kmines.mo

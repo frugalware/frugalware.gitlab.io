@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kfourinline 24.12.3-3"
-version = "24.12.3-3"
+title = "kfourinline 25.04.0-1"
+version = "25.04.0-1"
 description = "A four-in-a-row game."
-date = "2025-04-05T20:34:25"
+date = "2025-04-18T08:22:35"
 aliases = "/packages/184180"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1147760"
-usize = "2144360"
-sha1sum = "a562f94d6dd601e1b77e3c3615f1c27404c582aa"
-depends = "['knotifyconfig>=6.12.0', 'libkdegames>=24.12.3', 'qt6-svg>=6.9.0']"
+size = "1150280"
+usize = "2160147"
+sha1sum = "387a3fa1b5adb4206b496976021d4cfe9f62bf1a"
+depends = "['knotifyconfig>=6.13.0', 'libkdegames>=25.04.0', 'qt6-svg>=6.9.0']"
 +++
 ### Description: 
 A four-in-a-row game.
@@ -55,8 +55,8 @@ A four-in-a-row game.
 * /usr/share/doc/HTML/uk/kfourinline/index.cache.bz2
 * /usr/share/doc/HTML/uk/kfourinline/index.docbook
 * /usr/share/doc/HTML/uk/kfourinline/settings.png
-* /usr/share/doc/kfourinline-24.12.3/AUTHORS
-* /usr/share/doc/kfourinline-24.12.3/README.md
+* /usr/share/doc/kfourinline-25.04.0/AUTHORS
+* /usr/share/doc/kfourinline-25.04.0/README.md
 * /usr/share/icons/hicolor/128x128/apps/kfourinline.png
 * /usr/share/icons/hicolor/16x16/apps/kfourinline.png
 * /usr/share/icons/hicolor/22x22/apps/kfourinline.png
@@ -99,6 +99,7 @@ A four-in-a-row game.
 * /usr/share/locale/ga/LC_MESSAGES/kfourinline.mo
 * /usr/share/locale/gl/LC_MESSAGES/kfourinline.mo
 * /usr/share/locale/he/LC_MESSAGES/kfourinline.mo
+* /usr/share/locale/hi/LC_MESSAGES/kfourinline.mo
 * /usr/share/locale/hr/LC_MESSAGES/kfourinline.mo
 * /usr/share/locale/hu/LC_MESSAGES/kfourinline.mo
 * /usr/share/locale/ia/LC_MESSAGES/kfourinline.mo
@@ -128,6 +129,7 @@ A four-in-a-row game.
 * /usr/share/locale/pt_BR/LC_MESSAGES/kfourinline.mo
 * /usr/share/locale/ro/LC_MESSAGES/kfourinline.mo
 * /usr/share/locale/ru/LC_MESSAGES/kfourinline.mo
+* /usr/share/locale/sa/LC_MESSAGES/kfourinline.mo
 * /usr/share/locale/sk/LC_MESSAGES/kfourinline.mo
 * /usr/share/locale/sl/LC_MESSAGES/kfourinline.mo
 * /usr/share/locale/sr/LC_MESSAGES/kfourinline.mo

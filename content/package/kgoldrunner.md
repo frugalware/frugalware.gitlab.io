@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kgoldrunner 24.12.3-3"
-version = "24.12.3-3"
+title = "kgoldrunner 25.04.0-1"
+version = "25.04.0-1"
 description = "A game of action and puzzle solving."
-date = "2025-04-05T20:35:09"
+date = "2025-04-18T08:23:42"
 aliases = "/packages/184181"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "5163408"
-usize = "18060797"
-sha1sum = "a0d1c606d66051ba4787a38ad9e4eb6d43d9c3f5"
+size = "5232040"
+usize = "18763667"
+sha1sum = "239dbf1c6367bd0609dec4e88495d61956514e1e"
 depends = "['kio', 'knewstuff', 'knotifyconfig', 'libkdegames', 'qt6-svg>=6.9.0']"
 +++
 ### Description: 
@@ -63,12 +63,12 @@ A game of action and puzzle solving.
 * /usr/share/doc/HTML/uk/kgoldrunner/index.docbook
 * /usr/share/doc/HTML/uk/kgoldrunner/select.png
 * /usr/share/doc/HTML/uk/kgoldrunner/tute008.png
-* /usr/share/doc/kgoldrunner-24.12.3/AUTHORS
-* /usr/share/doc/kgoldrunner-24.12.3/BUGS
-* /usr/share/doc/kgoldrunner-24.12.3/README
-* /usr/share/doc/kgoldrunner-24.12.3/README.PACKAGERS
-* /usr/share/doc/kgoldrunner-24.12.3/TODO
-* /usr/share/doc/kgoldrunner-24.12.3/VERSION
+* /usr/share/doc/kgoldrunner-25.04.0/AUTHORS
+* /usr/share/doc/kgoldrunner-25.04.0/BUGS
+* /usr/share/doc/kgoldrunner-25.04.0/README
+* /usr/share/doc/kgoldrunner-25.04.0/README.PACKAGERS
+* /usr/share/doc/kgoldrunner-25.04.0/TODO
+* /usr/share/doc/kgoldrunner-25.04.0/VERSION
 * /usr/share/icons/hicolor/128x128/apps/kgoldrunner.png
 * /usr/share/icons/hicolor/16x16/apps/kgoldrunner.png
 * /usr/share/icons/hicolor/22x22/apps/kgoldrunner.png
@@ -198,6 +198,7 @@ A game of action and puzzle solving.
 * /usr/share/locale/pt_BR/LC_MESSAGES/kgoldrunner.mo
 * /usr/share/locale/ro/LC_MESSAGES/kgoldrunner.mo
 * /usr/share/locale/ru/LC_MESSAGES/kgoldrunner.mo
+* /usr/share/locale/sa/LC_MESSAGES/kgoldrunner.mo
 * /usr/share/locale/se/LC_MESSAGES/kgoldrunner.mo
 * /usr/share/locale/sk/LC_MESSAGES/kgoldrunner.mo
 * /usr/share/locale/sl/LC_MESSAGES/kgoldrunner.mo

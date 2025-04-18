@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "klickety 24.12.3-3"
-version = "24.12.3-3"
+title = "klickety 25.04.0-1"
+version = "25.04.0-1"
 description = "An adaptation of the Clickomania game."
-date = "2025-04-05T20:39:53"
+date = "2025-04-18T08:30:48"
 aliases = "/packages/184186"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1492468"
-usize = "2106984"
-sha1sum = "cc9ed587228c4307d4a2c6ed8f094815db51068c"
-depends = "['knotifyconfig>=6.12.0', 'libkdegames>=24.12.3']"
+size = "1494308"
+usize = "2117088"
+sha1sum = "91b793b54fe422e6b2d68d44d4bf16c396846ac5"
+depends = "['knotifyconfig>=6.13.0', 'libkdegames>=25.04.0']"
 +++
 ### Description: 
 An adaptation of the Clickomania game.
@@ -77,8 +77,8 @@ An adaptation of the Clickomania game.
 * /usr/share/doc/HTML/uk/klickety/index.docbook
 * /usr/share/doc/HTML/uk/klickety/ksamemode.png
 * /usr/share/doc/HTML/uk/klickety/numbered.png
-* /usr/share/doc/klickety-24.12.3/README.PACKAGERS
-* /usr/share/doc/klickety-24.12.3/README.THEMES
+* /usr/share/doc/klickety-25.04.0/README.PACKAGERS
+* /usr/share/doc/klickety-25.04.0/README.THEMES
 * /usr/share/icons/hicolor/128x128/apps/klickety.png
 * /usr/share/icons/hicolor/128x128/apps/ksame.png
 * /usr/share/icons/hicolor/16x16/apps/klickety.png
@@ -123,6 +123,7 @@ An adaptation of the Clickomania game.
 * /usr/share/locale/ga/LC_MESSAGES/klickety.mo
 * /usr/share/locale/gl/LC_MESSAGES/klickety.mo
 * /usr/share/locale/he/LC_MESSAGES/klickety.mo
+* /usr/share/locale/hi/LC_MESSAGES/klickety.mo
 * /usr/share/locale/hu/LC_MESSAGES/klickety.mo
 * /usr/share/locale/ia/LC_MESSAGES/klickety.mo
 * /usr/share/locale/id/LC_MESSAGES/klickety.mo
@@ -146,6 +147,7 @@ An adaptation of the Clickomania game.
 * /usr/share/locale/pt_BR/LC_MESSAGES/klickety.mo
 * /usr/share/locale/ro/LC_MESSAGES/klickety.mo
 * /usr/share/locale/ru/LC_MESSAGES/klickety.mo
+* /usr/share/locale/sa/LC_MESSAGES/klickety.mo
 * /usr/share/locale/sk/LC_MESSAGES/klickety.mo
 * /usr/share/locale/sl/LC_MESSAGES/klickety.mo
 * /usr/share/locale/sr/LC_MESSAGES/klickety.mo

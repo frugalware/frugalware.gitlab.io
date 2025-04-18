@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "killbots 24.12.3-3"
-version = "24.12.3-3"
+title = "killbots 25.04.0-1"
+version = "25.04.0-1"
 description = "A simple game of evading killer robots."
-date = "2025-04-05T20:36:45"
+date = "2025-04-18T08:26:01"
 aliases = "/packages/184183"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1386636"
-usize = "2635451"
-sha1sum = "44b7ef08782ca58567a7e098b64f73967674563a"
-depends = "['libkdegames>=24.12.3', 'qt6-svg>=6.9.0']"
+size = "1390316"
+usize = "2661681"
+sha1sum = "89a7520bcc00b7ff2887d077effadd6bb143424e"
+depends = "['libkdegames>=25.04.0', 'qt6-svg>=6.9.0']"
 +++
 ### Description: 
 A simple game of evading killer robots.
@@ -58,8 +58,8 @@ A simple game of evading killer robots.
 * /usr/share/doc/HTML/uk/killbots/index.cache.bz2
 * /usr/share/doc/HTML/uk/killbots/index.docbook
 * /usr/share/doc/HTML/uk/killbots/status.png
-* /usr/share/doc/killbots-24.12.3/README.codestyle
-* /usr/share/doc/killbots-24.12.3/README.translators
+* /usr/share/doc/killbots-25.04.0/README.codestyle
+* /usr/share/doc/killbots-25.04.0/README.translators
 * /usr/share/icons/hicolor/128x128/apps/killbots.png
 * /usr/share/icons/hicolor/16x16/apps/killbots.png
 * /usr/share/icons/hicolor/22x22/apps/killbots.png
@@ -103,6 +103,7 @@ A simple game of evading killer robots.
 * /usr/share/locale/ga/LC_MESSAGES/killbots.mo
 * /usr/share/locale/gl/LC_MESSAGES/killbots.mo
 * /usr/share/locale/he/LC_MESSAGES/killbots.mo
+* /usr/share/locale/hi/LC_MESSAGES/killbots.mo
 * /usr/share/locale/hr/LC_MESSAGES/killbots.mo
 * /usr/share/locale/hu/LC_MESSAGES/killbots.mo
 * /usr/share/locale/ia/LC_MESSAGES/killbots.mo
@@ -128,6 +129,7 @@ A simple game of evading killer robots.
 * /usr/share/locale/pt_BR/LC_MESSAGES/killbots.mo
 * /usr/share/locale/ro/LC_MESSAGES/killbots.mo
 * /usr/share/locale/ru/LC_MESSAGES/killbots.mo
+* /usr/share/locale/sa/LC_MESSAGES/killbots.mo
 * /usr/share/locale/sk/LC_MESSAGES/killbots.mo
 * /usr/share/locale/sl/LC_MESSAGES/killbots.mo
 * /usr/share/locale/sr/LC_MESSAGES/killbots.mo

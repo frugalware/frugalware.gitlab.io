@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdegraphics-mobipocket 24.12.3-3"
-version = "24.12.3-3"
+title = "kdegraphics-mobipocket 25.04.0-1"
+version = "25.04.0-1"
 description = "A collection of plugins to handle mobipocket files"
-date = "2025-04-05T20:53:04"
+date = "2025-04-18T08:50:30"
 aliases = "/packages/219330"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "23856"
-usize = "64122"
-sha1sum = "0f6d7b086fbb0e07975658338b246222a46affd5"
-depends = "['kio>=6.12.0']"
+size = "23724"
+usize = "63722"
+sha1sum = "8d067e1f8420e0e4dfdf1f49352c36013800bceb"
+depends = "['kio>=6.13.0']"
 reverse_depends = "['kdegraphics-thumbnailers', 'kfilemetadata', 'okular']"
 +++
 ### Description: 
@@ -29,4 +29,4 @@ A collection of plugins to handle mobipocket files
 * /usr/lib/libQMobipocket6.so
 * /usr/lib/libQMobipocket6.so.2
 * /usr/lib/libQMobipocket6.so.2.1.0
-* /usr/share/doc/kdegraphics-mobipocket-24.12.3/COPYING
+* /usr/share/doc/kdegraphics-mobipocket-25.04.0/COPYING

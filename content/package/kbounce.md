@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kbounce 24.12.3-3"
-version = "24.12.3-3"
+title = "kbounce 25.04.0-1"
+version = "25.04.0-1"
 description = "A single player arcade game with the elements of puzzle."
-date = "2025-04-05T20:32:12"
+date = "2025-04-18T08:19:21"
 aliases = "/packages/184177"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3303616"
-usize = "3945695"
-sha1sum = "241d03b2fd9d76cc343c87e6951cff8932132bcc"
-depends = "['libkdegames>=24.12.3', 'qt6-svg>=6.9.0']"
+size = "3304896"
+usize = "3953039"
+sha1sum = "395313a2206a1d5f38d77edc554621a71ae05a72"
+depends = "['libkdegames>=25.04.0', 'qt6-svg>=6.9.0']"
 +++
 ### Description: 
 A single player arcade game with the elements of puzzle.
@@ -154,6 +154,7 @@ A single player arcade game with the elements of puzzle.
 * /usr/share/locale/pt_BR/LC_MESSAGES/kbounce.mo
 * /usr/share/locale/ro/LC_MESSAGES/kbounce.mo
 * /usr/share/locale/ru/LC_MESSAGES/kbounce.mo
+* /usr/share/locale/sa/LC_MESSAGES/kbounce.mo
 * /usr/share/locale/se/LC_MESSAGES/kbounce.mo
 * /usr/share/locale/sk/LC_MESSAGES/kbounce.mo
 * /usr/share/locale/sl/LC_MESSAGES/kbounce.mo

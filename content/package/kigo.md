@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kigo 24.12.3-3"
-version = "24.12.3-3"
+title = "kigo 25.04.0-1"
+version = "25.04.0-1"
 description = "Kigo is an open-source implementation of the popular Go game"
-date = "2025-04-05T20:36:01"
+date = "2025-04-18T08:24:54"
 aliases = "/packages/219332"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "5026372"
-usize = "6196060"
-sha1sum = "1f5eb66802b6a9cab7ce63960932fb243d03e03a"
-depends = "['libkdegames>=24.12.3']"
+size = "5029200"
+usize = "6216187"
+sha1sum = "54768f7ccd77d471e4429cd6eac24da20e1dd222"
+depends = "['libkdegames>=25.04.0']"
 +++
 ### Description: 
 Kigo is an open-source implementation of the popular Go game
@@ -83,9 +83,9 @@ Kigo is an open-source implementation of the popular Go game
 * /usr/share/doc/HTML/uk/kigo/setup-theme.png
 * /usr/share/doc/HTML/uk/kigo/start-loaded-game.png
 * /usr/share/doc/HTML/uk/kigo/start-new-game.png
-* /usr/share/doc/kigo-24.12.3/AUTHORS
-* /usr/share/doc/kigo-24.12.3/README
-* /usr/share/doc/kigo-24.12.3/TODO
+* /usr/share/doc/kigo-25.04.0/AUTHORS
+* /usr/share/doc/kigo-25.04.0/README
+* /usr/share/doc/kigo-25.04.0/TODO
 * /usr/share/icons/hicolor/128x128/apps/kigo.png
 * /usr/share/icons/hicolor/16x16/apps/kigo.png
 * /usr/share/icons/hicolor/22x22/apps/kigo.png
@@ -122,6 +122,7 @@ Kigo is an open-source implementation of the popular Go game
 * /usr/share/locale/ga/LC_MESSAGES/kigo.mo
 * /usr/share/locale/gl/LC_MESSAGES/kigo.mo
 * /usr/share/locale/he/LC_MESSAGES/kigo.mo
+* /usr/share/locale/hi/LC_MESSAGES/kigo.mo
 * /usr/share/locale/hr/LC_MESSAGES/kigo.mo
 * /usr/share/locale/hsb/LC_MESSAGES/kigo.mo
 * /usr/share/locale/hu/LC_MESSAGES/kigo.mo
@@ -149,6 +150,7 @@ Kigo is an open-source implementation of the popular Go game
 * /usr/share/locale/pt_BR/LC_MESSAGES/kigo.mo
 * /usr/share/locale/ro/LC_MESSAGES/kigo.mo
 * /usr/share/locale/ru/LC_MESSAGES/kigo.mo
+* /usr/share/locale/sa/LC_MESSAGES/kigo.mo
 * /usr/share/locale/sk/LC_MESSAGES/kigo.mo
 * /usr/share/locale/sl/LC_MESSAGES/kigo.mo
 * /usr/share/locale/sr/LC_MESSAGES/kigo.mo
