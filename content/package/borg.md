@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "borg 1.4.0-1"
-version = "1.4.0-1"
+title = "borg 1.4.1-1"
+version = "1.4.1-1"
 description = "Deduplicating backup program with compression and authenticated encryption"
-date = "2024-11-07T09:25:47"
+date = "2025-04-19T11:47:01"
 aliases = "/packages/222563"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/borgbackup/borg"
 arch = "x86_64"
-size = "1333132"
-usize = "7090452"
-sha1sum = "164a7de5bab18083e646994387ce1d2c81b069ac"
+size = "1370284"
+usize = "7228275"
+sha1sum = "56d0f55f32104f799ba5b6ed5fdcea86365d4b11"
 depends = "['lz4', 'openssl', 'python3-msgpack', 'python3-packaging', 'xfsprogs-acl', 'xxhash', 'xz', 'zstd']"
 reverse_depends = "['vorta']"
 +++
@@ -259,18 +259,18 @@ Deduplicating backup program with compression and authenticated encryption
 * /usr/lib/python3.13/site-packages/borg/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/borg/__pycache__/__main__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/borg/__pycache__/__main__.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/borgbackup-1.4.0.dist-info/AUTHORS
-* /usr/lib/python3.13/site-packages/borgbackup-1.4.0.dist-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/borgbackup-1.4.0.dist-info/LICENSE
-* /usr/lib/python3.13/site-packages/borgbackup-1.4.0.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/borgbackup-1.4.0.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/borgbackup-1.4.0.dist-info/top_level.txt
-* /usr/lib/python3.13/site-packages/borgbackup-1.4.0.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/borgbackup-1.4.1.dist-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/borgbackup-1.4.1.dist-info/licenses/AUTHORS
+* /usr/lib/python3.13/site-packages/borgbackup-1.4.1.dist-info/licenses/LICENSE
+* /usr/lib/python3.13/site-packages/borgbackup-1.4.1.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/borgbackup-1.4.1.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/borgbackup-1.4.1.dist-info/top_level.txt
+* /usr/lib/python3.13/site-packages/borgbackup-1.4.1.dist-info/WHEEL
 * /usr/share/bash-completion/completions/borg
-* /usr/share/doc/borg-1.4.0/AUTHORS
-* /usr/share/doc/borg-1.4.0/LICENSE
-* /usr/share/doc/borg-1.4.0/README.rst
-* /usr/share/doc/borg-1.4.0/README_WINDOWS.rst
+* /usr/share/doc/borg-1.4.1/AUTHORS
+* /usr/share/doc/borg-1.4.1/LICENSE
+* /usr/share/doc/borg-1.4.1/README.rst
+* /usr/share/doc/borg-1.4.1/README_WINDOWS.rst
 * /usr/share/fish/vendor_completions.d/borg.fish
 * /usr/share/man/man1/borg-benchmark-crud.1.gz
 * /usr/share/man/man1/borg-benchmark.1.gz

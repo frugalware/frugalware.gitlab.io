@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kalzium 24.12.3-1"
-version = "24.12.3-1"
+title = "kalzium 25.04.0-1"
+version = "25.04.0-1"
 description = "Periodic Table of Elements."
-date = "2025-03-10T15:19:32"
+date = "2025-04-19T11:57:13"
 aliases = "/packages/152825"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "22491132"
-usize = "38533668"
-sha1sum = "af1cc017b7fcdb7e3beff46ac4d3080a29b3374c"
+size = "22479252"
+usize = "38517647"
+sha1sum = "2dee61ba2f1fe4ad5f136e1e252866a4da260608"
 depends = "['eigen', 'knewstuff5>=5.116.0', 'kparts5>=5.116.0', 'kplotting5>=5.116.0', 'kunitconversion5>=5.116.0']"
 +++
 ### Description: 
@@ -136,7 +136,6 @@ Periodic Table of Elements.
 * /usr/share/doc/HTML/es/kalzium/settings2.png
 * /usr/share/doc/HTML/es/kalzium/settings3.png
 * /usr/share/doc/HTML/es/kalzium/sidebar1.png
-* /usr/share/doc/HTML/es/kalzium/sidebar2.png
 * /usr/share/doc/HTML/fr/kalzium/gradient.png
 * /usr/share/doc/HTML/fr/kalzium/index.cache.bz2
 * /usr/share/doc/HTML/fr/kalzium/index.docbook
@@ -367,7 +366,7 @@ Periodic Table of Elements.
 * /usr/share/doc/HTML/uk/kalzium/settings3.png
 * /usr/share/doc/HTML/uk/kalzium/settings4.png
 * /usr/share/doc/HTML/uk/kalzium/sidebar1.png
-* /usr/share/doc/kalzium-24.12.3/README.packagers
+* /usr/share/doc/kalzium-25.04.0/README.packagers
 * /usr/share/icons/hicolor/128x128/apps/kalzium.png
 * /usr/share/icons/hicolor/16x16/apps/kalzium.png
 * /usr/share/icons/hicolor/22x22/apps/kalzium.png

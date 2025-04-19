@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "akonadiconsole 25.04.0-1"
-version = "25.04.0-1"
+title = "akonadiconsole 25.04.0-2"
+version = "25.04.0-2"
 description = "A utility that can be used to explore or manage Akonadi"
-date = "2025-04-18T11:09:53"
+date = "2025-04-19T11:34:05"
 aliases = "/packages/218924"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "494452"
+size = "494480"
 usize = "1793937"
-sha1sum = "0ef52848f8e445586a7c31652d1cb7550a7655a5"
+sha1sum = "a8adb9756c9f8a39eb564b92e4f8998f60193e88"
 depends = "['calendarsupport>=25.04.0', 'messagelib>=25.04.0']"
 +++
 ### Description: 

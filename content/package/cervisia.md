@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "cervisia 24.12.3-1"
-version = "24.12.3-1"
+title = "cervisia 25.04.0-1"
+version = "25.04.0-1"
 description = "CVS Frontend"
-date = "2025-03-10T15:24:51"
+date = "2025-04-19T12:02:43"
 aliases = "/packages/219319"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2333092"
-usize = "6371418"
-sha1sum = "e631e8d9234c1e52e38e49ff795818e8d7865f2e"
+size = "2333236"
+usize = "6345179"
+sha1sum = "42b2b3f1a7cc88ced50fd0f07540bf4dea98cfbd"
 depends = "['kdesu5>=5.116.0', 'kinit5>=5.116.0', 'kparts5>=5.116.0']"
 +++
 ### Description: 
@@ -20,23 +20,20 @@ CVS Frontend
 * /usr/bin/cervisia
 * /usr/bin/cvsaskpass
 * /usr/bin/cvsservice5
-* /usr/lib/libkdeinit5_cervisia.so
-* /usr/lib/libkdeinit5_cvsaskpass.so
-* /usr/lib/libkdeinit5_cvsservice.so
-* /usr/lib/qt5/plugins/cervisiapart5.so
+* /usr/lib/qt5/plugins/kf5/parts/cervisiapart.so
 * /usr/share/applications/org.kde.cervisia.desktop
 * /usr/share/config.kcfg/cervisiapart.kcfg
 * /usr/share/dbus-1/interfaces/org.kde.cervisia5.cvsjob.xml
 * /usr/share/dbus-1/interfaces/org.kde.cervisia5.cvsloginjob.xml
 * /usr/share/dbus-1/interfaces/org.kde.cervisia5.cvsservice.xml
 * /usr/share/dbus-1/interfaces/org.kde.cervisia5.repository.xml
-* /usr/share/doc/cervisia-24.12.3/ChangeLog
-* /usr/share/doc/cervisia-24.12.3/COPYING
-* /usr/share/doc/cervisia-24.12.3/COPYING.DOC
-* /usr/share/doc/cervisia-24.12.3/COPYING.LIB
-* /usr/share/doc/cervisia-24.12.3/HACKING
-* /usr/share/doc/cervisia-24.12.3/README
-* /usr/share/doc/cervisia-24.12.3/TODO
+* /usr/share/doc/cervisia-25.04.0/ChangeLog
+* /usr/share/doc/cervisia-25.04.0/COPYING
+* /usr/share/doc/cervisia-25.04.0/COPYING.DOC
+* /usr/share/doc/cervisia-25.04.0/COPYING.LIB
+* /usr/share/doc/cervisia-25.04.0/HACKING
+* /usr/share/doc/cervisia-25.04.0/README
+* /usr/share/doc/cervisia-25.04.0/TODO
 * /usr/share/doc/HTML/ca/cervisia/checkout.png
 * /usr/share/doc/HTML/ca/cervisia/import.png
 * /usr/share/doc/HTML/ca/cervisia/index.cache.bz2
@@ -144,7 +141,6 @@ CVS Frontend
 * /usr/share/icons/hicolor/scalable/actions/vcs-update-cvs-cervisia.svgz
 * /usr/share/icons/hicolor/scalable/apps/cervisia.svg
 * /usr/share/knotifications5/cervisia.notifyrc
-* /usr/share/kservices5/org.kde.cervisiapart5.desktop
 * /usr/share/kservices5/org.kde.cvsservice5.desktop
 * /usr/share/kxmlgui5/cervisia/cervisiashellui.rc
 * /usr/share/kxmlgui5/cervisiapart/cervisiaui.rc
