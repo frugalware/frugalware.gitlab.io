@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "unifont 16.0.02-1"
-version = "16.0.02-1"
+title = "unifont 16.0.03-1"
+version = "16.0.03-1"
 description = "Unicode font from GNU in PCF format."
-date = "2024-12-10T09:36:02"
+date = "2025-04-19T19:33:01"
 aliases = "/packages/152650"
 categories = ['fonts-extra']
 upstreamurl = "http://unifoundry.com"
 arch = "x86_64"
-size = "925992"
-usize = "1356753"
-sha1sum = "592a4167fd75d487e2c5e78618d219bdc7bb5f40"
+size = "928096"
+usize = "1356720"
+sha1sum = "ea1a584176f0f1f8df828b7c4840eab76d59821e"
 depends = "['fontconfig', 'mkfontscale']"
 +++
 ### Description: 

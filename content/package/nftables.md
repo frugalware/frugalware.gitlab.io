@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "nftables 1.1.1-1"
-version = "1.1.1-1"
+title = "nftables 1.1.2-1"
+version = "1.1.2-1"
 description = "Replacement for the popular {ip,ip6,arp,eb} tables."
-date = "2024-12-24T18:25:47"
+date = "2025-04-19T19:31:57"
 aliases = "/packages/219298"
 categories = ['network-extra']
 upstreamurl = "http://netfilter.org/projects/nftables/index.html"
 arch = "x86_64"
-size = "354640"
-usize = "1018535"
-sha1sum = "3fd74b90e48202557877d8d01a5d80c218e6ec8c"
+size = "359876"
+usize = "1031569"
+sha1sum = "eec29a3c06e6da325289231f8e1850b01d41164e"
 depends = "['glibc>=2.34', 'gmp', 'libedit', 'libmnl', 'libnftnl>=1.2.1', 'ncurses', 'python3', 'readline>=8.0']"
 reverse_depends = "['criu']"
 +++
@@ -26,12 +26,12 @@ Replacement for the popular {ip,ip6,arp,eb} tables.
 * /usr/lib/libnftables.so.1.1.0
 * /usr/lib/pkgconfig/libnftables.pc
 * /usr/lib/systemd/system/nftables.service
-* /usr/share/doc/nftables-1.1.1/COPYING
-* /usr/share/doc/nftables-1.1.1/examples/ct_helpers.nft
-* /usr/share/doc/nftables-1.1.1/examples/load_balancing.nft
-* /usr/share/doc/nftables-1.1.1/examples/secmark.nft
-* /usr/share/doc/nftables-1.1.1/examples/sets_and_maps.nft
-* /usr/share/doc/nftables-1.1.1/INSTALL
+* /usr/share/doc/nftables-1.1.2/COPYING
+* /usr/share/doc/nftables-1.1.2/examples/ct_helpers.nft
+* /usr/share/doc/nftables-1.1.2/examples/load_balancing.nft
+* /usr/share/doc/nftables-1.1.2/examples/secmark.nft
+* /usr/share/doc/nftables-1.1.2/examples/sets_and_maps.nft
+* /usr/share/doc/nftables-1.1.2/INSTALL
 * /usr/share/man/man3/libnftables.3.gz
 * /usr/share/man/man5/libnftables-json.5.gz
 * /usr/share/man/man8/nft.8.gz

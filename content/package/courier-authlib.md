@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "courier-authlib 0.72.3-1"
-version = "0.72.3-1"
+title = "courier-authlib 0.72.4-1"
+version = "0.72.4-1"
 description = "The Courier authentication library & daemon"
-date = "2024-10-01T14:22:45"
+date = "2025-04-19T19:40:19"
 aliases = "/packages/2951"
 categories = ['network-extra']
 upstreamurl = "http://www.courier-mta.org/"
 arch = "x86_64"
-size = "318180"
-usize = "1121656"
-sha1sum = "dcd83bd09bbec6dd8c7d395e3142b7798f30009c"
+size = "243280"
+usize = "901749"
+sha1sum = "eef75e84b35e250caf4840372c2afd2660e83247"
 depends = "['courier-unicode>=2.1', 'gdbm>=1.15', 'libldap>=2.5.4', 'libpq>=11.2-2', 'libtool', 'mariadb-libs>=10.3.14', 'sqlite3>=3.10.2']"
 reverse_depends = "['courier-imap', 'courier-maildrop']"
 +++
@@ -77,32 +77,30 @@ The Courier authentication library & daemon
 * /usr/lib/courier/courier-authlib/makedatprog
 * /usr/lib/systemd/system/courier-authlib.service
 * /usr/lib/tmpfiles.d/courier-authlib.conf
-* /usr/share/doc/courier-authlib-0.72.3/AUTHORS
-* /usr/share/doc/courier-authlib-0.72.3/ChangeLog
-* /usr/share/doc/courier-authlib-0.72.3/COPYING
-* /usr/share/doc/courier-authlib-0.72.3/COPYING.GPL
-* /usr/share/doc/courier-authlib-0.72.3/examples/authdaemonrc.dist
-* /usr/share/doc/courier-authlib-0.72.3/examples/authldaprc.dist
-* /usr/share/doc/courier-authlib-0.72.3/examples/authlib/authsqliterc.dist
-* /usr/share/doc/courier-authlib-0.72.3/examples/authmysqlrc.dist
-* /usr/share/doc/courier-authlib-0.72.3/examples/authpgsqlrc.dist
-* /usr/share/doc/courier-authlib-0.72.3/FAQ
-* /usr/share/doc/courier-authlib-0.72.3/HISTORY
-* /usr/share/doc/courier-authlib-0.72.3/INSTALL
-* /usr/share/doc/courier-authlib-0.72.3/INSTALL.html
-* /usr/share/doc/courier-authlib-0.72.3/NEWS
-* /usr/share/doc/courier-authlib-0.72.3/README
-* /usr/share/doc/courier-authlib-0.72.3/README.authdebug.html
-* /usr/share/doc/courier-authlib-0.72.3/README.authdebug.html.in
-* /usr/share/doc/courier-authlib-0.72.3/README.authmysql.html
-* /usr/share/doc/courier-authlib-0.72.3/README.authmysql.myownquery
-* /usr/share/doc/courier-authlib-0.72.3/README.authpostgres.html
-* /usr/share/doc/courier-authlib-0.72.3/README.authsqlite.html
-* /usr/share/doc/courier-authlib-0.72.3/README.frugalware
-* /usr/share/doc/courier-authlib-0.72.3/README.html
-* /usr/share/doc/courier-authlib-0.72.3/README.ldap
-* /usr/share/doc/courier-authlib-0.72.3/README_authlib.html
-* /usr/share/doc/courier-authlib-0.72.3/README_authlib.html.in
+* /usr/share/doc/courier-authlib-0.72.4/AUTHORS
+* /usr/share/doc/courier-authlib-0.72.4/ChangeLog
+* /usr/share/doc/courier-authlib-0.72.4/COPYING
+* /usr/share/doc/courier-authlib-0.72.4/COPYING.GPL
+* /usr/share/doc/courier-authlib-0.72.4/examples/authdaemonrc.dist
+* /usr/share/doc/courier-authlib-0.72.4/examples/authldaprc.dist
+* /usr/share/doc/courier-authlib-0.72.4/examples/authlib/authsqliterc.dist
+* /usr/share/doc/courier-authlib-0.72.4/examples/authmysqlrc.dist
+* /usr/share/doc/courier-authlib-0.72.4/examples/authpgsqlrc.dist
+* /usr/share/doc/courier-authlib-0.72.4/INSTALL
+* /usr/share/doc/courier-authlib-0.72.4/INSTALL.html
+* /usr/share/doc/courier-authlib-0.72.4/NEWS
+* /usr/share/doc/courier-authlib-0.72.4/README
+* /usr/share/doc/courier-authlib-0.72.4/README.authdebug.html
+* /usr/share/doc/courier-authlib-0.72.4/README.authdebug.html.in
+* /usr/share/doc/courier-authlib-0.72.4/README.authmysql.html
+* /usr/share/doc/courier-authlib-0.72.4/README.authmysql.myownquery
+* /usr/share/doc/courier-authlib-0.72.4/README.authpostgres.html
+* /usr/share/doc/courier-authlib-0.72.4/README.authsqlite.html
+* /usr/share/doc/courier-authlib-0.72.4/README.frugalware
+* /usr/share/doc/courier-authlib-0.72.4/README.html
+* /usr/share/doc/courier-authlib-0.72.4/README.ldap
+* /usr/share/doc/courier-authlib-0.72.4/README_authlib.html
+* /usr/share/doc/courier-authlib-0.72.4/README_authlib.html.in
 * /usr/share/man/man1/authpasswd.1.gz
 * /usr/share/man/man1/authtest.1.gz
 * /usr/share/man/man1/courierlogger.1.gz
