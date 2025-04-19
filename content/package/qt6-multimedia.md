@@ -12,7 +12,7 @@ size = "835940"
 usize = "3853048"
 sha1sum = "3d855bfd6bfe42c6440b40b0d9d5e17c0a85e1bf"
 depends = "['libxrandr', 'qt6-quick3d', 'qt6-svg']"
-reverse_depends = "['audiotube', 'elisa', 'kclock', 'kfilemetadata', 'konversation', 'krecorder', 'ktuberling', 'kvirc', 'kwave', 'ladybird', 'libquotient', 'mkvtoolnix-gui', 'parley', 'prison', 'qmmp', 'qt6-charts', 'qt6-speech', 'vokoscreenng', 'wireshark-qt']"
+reverse_depends = "['audiotube', 'elisa', 'kclock', 'kfilemetadata', 'konversation', 'krecorder', 'ktuberling', 'kvirc', 'kwave', 'ladybird', 'libquotient', 'mkvtoolnix-gui', 'parley', 'prison', 'qmmp', 'qrca', 'qt6-charts', 'qt6-speech', 'vokoscreenng', 'wireshark-qt']"
 +++
 ### Description: 
 The Qt6 toolkit, qtmultimedia

@@ -12,7 +12,7 @@ size = "75348"
 usize = "268214"
 sha1sum = "2237ba827ffb4fa5a600744af748282920c59f43"
 depends = "['libdmtx>=0.7.4', 'qrencode>=4.0.0', 'qt6-base>=6.9.0', 'qt6-multimedia>=6.9.0', 'zxing-cpp']"
-reverse_depends = "['akonadi-contacts', 'itinerary', 'keysmith', 'neochat', 'plasma-workspace', 'spectacle']"
+reverse_depends = "['akonadi-contacts', 'itinerary', 'keysmith', 'neochat', 'plasma-workspace', 'qrca', 'spectacle']"
 +++
 ### Description: 
 Qt library to access Open Collaboration Services
