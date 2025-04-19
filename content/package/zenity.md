@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "zenity 4.0.3-1"
-version = "4.0.3-1"
+title = "zenity 4.0.5-1"
+version = "4.0.5-1"
 description = "A rewrite of gdialog"
-date = "2024-10-27T14:37:01"
+date = "2025-04-19T13:41:58"
 aliases = "/packages/3429"
 categories = ['gnome']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "3012748"
-usize = "11118452"
-sha1sum = "f4a8166002b41a990ec0b5bd072ad968cdd4cc8c"
+size = "3013076"
+usize = "11118678"
+sha1sum = "2f1da4cb28c3526a32d3d354de779761c149d065"
 depends = "['libadwaita']"
 reverse_depends = "['get_steam', 'zenity-doc']"
 +++
@@ -20,11 +20,11 @@ A rewrite of gdialog
 ### Files: 
 * /usr/bin/zenity
 * /usr/share/applications/org.gnome.Zenity.desktop
-* /usr/share/doc/zenity-4.0.3/AUTHORS
-* /usr/share/doc/zenity-4.0.3/ChangeLog
-* /usr/share/doc/zenity-4.0.3/COPYING
-* /usr/share/doc/zenity-4.0.3/NEWS
-* /usr/share/doc/zenity-4.0.3/README.md
+* /usr/share/doc/zenity-4.0.5/AUTHORS
+* /usr/share/doc/zenity-4.0.5/ChangeLog
+* /usr/share/doc/zenity-4.0.5/COPYING
+* /usr/share/doc/zenity-4.0.5/NEWS
+* /usr/share/doc/zenity-4.0.5/README.md
 * /usr/share/help/bg/zenity/calendar.page
 * /usr/share/help/bg/zenity/color-selection.page
 * /usr/share/help/bg/zenity/entry.page
