@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vtk-devel 9.4.1-2"
-version = "9.4.1-2"
+title = "vtk-devel 9.4.2-1"
+version = "9.4.2-1"
 description = "Headers and cmake files for vtk"
-date = "2025-01-06T13:17:58"
+date = "2025-04-20T13:19:36"
 aliases = "/packages/219065"
 categories = ['devel-extra']
 upstreamurl = "http://www.vtk.org"
 arch = "x86_64"
-size = "6752504"
-usize = "51068275"
-sha1sum = "60f6a709d1a9482fb948b326ce7f268a188f9d0e"
+size = "6753792"
+usize = "51068673"
+sha1sum = "9a854ca6b563bee447fb4be5167394145c3065e8"
 depends = "[]"
 +++
 ### Description: 

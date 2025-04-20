@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vtk 9.4.1-2"
-version = "9.4.1-2"
+title = "vtk 9.4.2-1"
+version = "9.4.2-1"
 description = "Software system for 3D computer graphics, modeling, image processing, volume rendering, scientific visualization, and information visualization."
-date = "2025-01-06T13:17:58"
+date = "2025-04-20T13:19:36"
 aliases = "/packages/219042"
 categories = ['xlib-extra']
 upstreamurl = "http://www.vtk.org"
 arch = "x86_64"
-size = "42035628"
-usize = "225194908"
-sha1sum = "22749c38c53aedcd9325ab7899c43e3aaa59bde2"
+size = "42139212"
+usize = "227952849"
+sha1sum = "9654e50bdcb515922fbfd1dfa313c1a586c615ae"
 depends = "['adios2', 'alembic', 'anari', 'libboost>=1.87.0', 'openslide>=4.0.0', 'openturns>=1.24', 'openvdb>=10.1.0', 'openvr', 'openxr', 'pdal>=2.8.0', 'postgresql']"
 reverse_depends = "['opencascade', 'opencv', 'vtk-ffmpeg', 'vtk-java', 'vtk-java-ffmpeg', 'vtk-java-mpi', 'vtk-java-mysql', 'vtk-java-qt5', 'vtk-mysql', 'vtk-python3', 'vtk-python3-ffmpeg', 'vtk-python3-java', 'vtk-python3-qt5', 'vtk-python3-tcl', 'vtk-qt5']"
 license = "GPL-2"
@@ -893,7 +893,7 @@ Software system for 3D computer graphics, modeling, image processing, volume ren
 * /usr/lib/vtk-9.4/hierarchy/VTK/vtkViewsInfovis-hierarchy.txt
 * /usr/lib/vtk-9.4/hierarchy/VTK/vtkWebCore-hierarchy.txt
 * /usr/lib/vtk-9.4/hierarchy/VTK/vtkWebGLExporter-hierarchy.txt
-* /usr/share/doc/vtk-9.4.1/README.md
+* /usr/share/doc/vtk-9.4.2/README.md
 * /usr/share/licenses/VTK/Copyright.txt
 * /usr/share/licenses/VTK/vtkAcceleratorsVTKmCore/LICENSE
 * /usr/share/licenses/VTK/vtkAcceleratorsVTKmDataModel/LICENSE
