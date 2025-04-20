@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libmpg123 1.32.10-1"
-version = "1.32.10-1"
+title = "lib32-libmpg123 1.32.10-2"
+version = "1.32.10-2"
 description = "libmpg123 is the API used by the mpg123 audio player (32-bit)"
-date = "2025-01-07T19:51:42"
+date = "2025-04-20T10:47:03"
 aliases = "/packages/217741"
 categories = ['lib32-extra']
 upstreamurl = "http://www.mpg123.de"
 arch = "x86_64"
-size = "282552"
-usize = "851378"
-sha1sum = "39f6d32cbd4eda270d84660e3dd55230a2e51081"
+size = "279752"
+usize = "851194"
+sha1sum = "f505f35d0570a3e2972d9bf74ec2e21960fca882"
 depends = "['lib32-libtool']"
 reverse_depends = "['get_steam', 'lib32-libsndfile']"
 +++

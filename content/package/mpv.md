@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mpv 0.40.0-1"
-version = "0.40.0-1"
+title = "mpv 0.40.0-2"
+version = "0.40.0-2"
 description = "A movie player based on mplayer and mplayer2. It supports a wide variety of video file formats, audio and video codecs, and subtitle types."
-date = "2025-03-26T10:59:47"
+date = "2025-04-20T10:40:24"
 aliases = "/packages/217330"
-categories = ['apps-extra']
+categories = ['apps']
 upstreamurl = "http://mpv.io"
 arch = "x86_64"
-size = "1448612"
-usize = "5894863"
-sha1sum = "d44ddf10d0fc9705de1204a4d54425ad45f8692a"
+size = "1445440"
+usize = "5894887"
+sha1sum = "016eaee8a60e9b3daa569f85932edccd6c567f4f"
 depends = "['aalib', 'cdparanoia', 'dejavu-ttf', 'faad2', 'ffmpeg>=7.0', 'ladspa_sdk', 'libass>=0.13.6', 'libbluray>=1.0.0', 'libcdio-paranoia', 'libdca', 'libdv', 'libdvdnav>=5.0.1', 'libjpeg-turbo', 'liblirc', 'libmad', 'libmng', 'libplacebo>=7.349.0', 'libpulse>=6.0', 'libva>=2.3.0', 'libvdpau', 'libvpx>=1.6.0-1', 'libxinerama', 'libxpresent', 'libxrandr', 'libxscrnsaver', 'libxv', 'libxxf86dga', 'libxxf86vm', 'luajit2', 'mpg123>=1.25.1', 'openal', 'python3', 'samba-client', 'speex']"
 reverse_depends = "['celluloid', 'greetd-qt6greet', 'greetd-qtgreet', 'kalarm', 'mpvqt']"
 +++

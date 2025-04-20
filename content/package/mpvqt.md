@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mpvqt 1.1.0-1"
-version = "1.1.0-1"
+title = "mpvqt 1.1.1-1"
+version = "1.1.1-1"
 description = "A libmpv wrapper for QtQuick2 and QML"
-date = "2025-04-09T18:10:56"
+date = "2025-04-20T10:42:55"
 aliases = "/packages/221367"
 categories = ['lib-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "26820"
+size = "26844"
 usize = "88581"
-sha1sum = "8108df31af00e37939c9a7c2cdb1b534d86f7260"
+sha1sum = "319ab88f7d22a07fab87e30dbce92613ef85ca13"
 depends = "['mpv', 'qt6-declarative>=6.8.2']"
 reverse_depends = "['plasmatube', 'tokodon']"
 +++
@@ -30,6 +30,6 @@ A libmpv wrapper for QtQuick2 and QML
 * /usr/lib/cmake/MpvQt/MpvQtTargets-release.cmake
 * /usr/lib/cmake/MpvQt/MpvQtTargets.cmake
 * /usr/lib/libMpvQt.so
-* /usr/lib/libMpvQt.so.1
-* /usr/lib/libMpvQt.so.1.1.0
-* /usr/share/doc/mpvqt-1.1.0/README.md
+* /usr/lib/libMpvQt.so.1.1.1
+* /usr/lib/libMpvQt.so.2
+* /usr/share/doc/mpvqt-1.1.1/README.md

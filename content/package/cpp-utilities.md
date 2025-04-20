@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "cpp-utilities 5.28.0-1"
-version = "5.28.0-1"
+title = "cpp-utilities 5.28.1-1"
+version = "5.28.1-1"
 description = "Common C++ classes and routines such as argument parser, IO and conversion utilities"
-date = "2025-04-04T07:05:32"
+date = "2025-04-20T10:48:56"
 aliases = "/packages/222518"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/Martchus/cpp-utilities"
 arch = "x86_64"
-size = "165488"
-usize = "731490"
-sha1sum = "8227e1eb89d52486d1ea594790f6236a54cae7db"
+size = "165384"
+usize = "731768"
+sha1sum = "730cf7dbbb664f4d144fe4422300e0a92d8de141"
 depends = "['glibc']"
 reverse_depends = "['qtutilities', 'syncthingtray']"
 +++
@@ -55,7 +55,7 @@ Common C++ classes and routines such as argument parser, IO and conversion utili
 * /usr/include/c++utilities/version.h
 * /usr/lib/libc++utilities.so
 * /usr/lib/libc++utilities.so.5
-* /usr/lib/libc++utilities.so.5.28.0
+* /usr/lib/libc++utilities.so.5.28.1
 * /usr/lib/pkgconfig/c++utilities.pc
 * /usr/share/c++utilities/cmake/c++utilitiesConfig.cmake
 * /usr/share/c++utilities/cmake/c++utilitiesConfigVersion.cmake
@@ -87,5 +87,5 @@ Common C++ classes and routines such as argument parser, IO and conversion utili
 * /usr/share/c++utilities/cmake/templates/version.h.in
 * /usr/share/c++utilities/coding-style.clang-format
 * /usr/share/c++utilities/tests/calculateoverallcoverage.awk
-* /usr/share/doc/cpp-utilities-5.28.0/LICENSE
-* /usr/share/doc/cpp-utilities-5.28.0/README.md
+* /usr/share/doc/cpp-utilities-5.28.1/LICENSE
+* /usr/share/doc/cpp-utilities-5.28.1/README.md

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ladspa_sdk 1.13-8"
-version = "1.13-8"
+title = "ladspa_sdk 1.13-9"
+version = "1.13-9"
 description = "Linux Audio Developer's Simple Plugin API."
-date = "2022-02-08T17:29:30"
+date = "2025-04-20T10:44:56"
 aliases = "/packages/5344"
-categories = ['lib-extra']
+categories = ['lib']
 upstreamurl = "http://www.ladspa.org/"
 arch = "x86_64"
-size = "37972"
-usize = "184755"
-sha1sum = "f50d2d964608c6dfbf74d2364bf315068851e0be"
+size = "37480"
+usize = "168975"
+sha1sum = "1d387312a5099d18c6ea011e9178ab0af81cf767"
 depends = "['libstdc++>=11.2']"
 reverse_depends = "['dssi', 'easyeffects', 'fluidsynth', 'gst1-plugins-bad-ladspa', 'mpv']"
 +++

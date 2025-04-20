@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libmpg123 1.32.10-1"
-version = "1.32.10-1"
+title = "libmpg123 1.32.10-2"
+version = "1.32.10-2"
 description = "libmpg123 is the API used by the mpg123 audio player"
-date = "2025-01-07T19:51:42"
+date = "2025-04-20T10:47:03"
 aliases = "/packages/88550"
 categories = ['lib']
 upstreamurl = "http://www.mpg123.de"
 arch = "x86_64"
-size = "299560"
-usize = "844347"
-sha1sum = "7c8b175c2dcbc2ae06ffc1e8c91c4f832234876f"
+size = "296840"
+usize = "843531"
+sha1sum = "dd087908eb1acde3b2afc9d9988d1d877a46c502"
 depends = "['libtool']"
 reverse_depends = "['cantata', 'libopenmpt', 'libsndfile', 'mpd', 'mpg123', 'qmmp', 'vlc-mpg123', 'wine', 'wine-devel']"
 +++
