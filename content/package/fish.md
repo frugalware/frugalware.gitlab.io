@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "fish 4.0.1-1"
-version = "4.0.1-1"
+title = "fish 4.0.2-1"
+version = "4.0.2-1"
 description = "fish is a user friendly command line shell for UNIX-like operating systems."
-date = "2025-03-13T10:27:31"
+date = "2025-04-20T19:53:03"
 aliases = "/packages/5434"
 categories = ['apps-extra']
 upstreamurl = "http://fishshell.com"
 arch = "x86_64"
-size = "3718132"
-usize = "22864668"
-sha1sum = "b8cf1455e32f44a19c89ee8d246766d420bba144"
+size = "3720920"
+usize = "22913222"
+sha1sum = "80d49e8f6bca5589eaa1710fc04ca00ab70d99c4"
 depends = "['libstdc++>=7.3.0-5', 'ncurses>=6.1', 'pcre2']"
 license = "GPL2"
 +++
@@ -24,8 +24,8 @@ fish is a user friendly command line shell for UNIX-like operating systems.
 * /usr/bin/fish_key_reader
 * /usr/lib/fish.pc
 * /usr/share/applications/fish.desktop
-* /usr/share/doc/fish-4.0.1/COPYING
-* /usr/share/doc/fish-4.0.1/README.rst
+* /usr/share/doc/fish-4.0.2/COPYING
+* /usr/share/doc/fish-4.0.2/README.rst
 * /usr/share/doc/fish/.buildinfo
 * /usr/share/doc/fish/CHANGELOG.rst
 * /usr/share/doc/fish/cmds/abbr.html
@@ -534,6 +534,7 @@ fish is a user friendly command line shell for UNIX-like operating systems.
 * /usr/share/fish/completions/gio.fish
 * /usr/share/fish/completions/git-lfs.fish
 * /usr/share/fish/completions/git-sizer.fish
+* /usr/share/fish/completions/git-subtree.fish
 * /usr/share/fish/completions/git.fish
 * /usr/share/fish/completions/gitk.fish
 * /usr/share/fish/completions/gnome-extensions.fish
@@ -1122,6 +1123,7 @@ fish is a user friendly command line shell for UNIX-like operating systems.
 * /usr/share/fish/completions/winetricks.fish
 * /usr/share/fish/completions/wireshark.fish
 * /usr/share/fish/completions/wish.fish
+* /usr/share/fish/completions/wlr-randr.fish
 * /usr/share/fish/completions/wpa_cli.fish
 * /usr/share/fish/completions/wpctl.fish
 * /usr/share/fish/completions/wslpath.fish
