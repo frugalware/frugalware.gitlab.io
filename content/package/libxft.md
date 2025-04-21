@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libxft 2.3.8-3"
-version = "2.3.8-3"
+title = "libxft 2.3.9-1"
+version = "2.3.9-1"
 description = "X FreeType library"
-date = "2024-05-28T11:01:43"
+date = "2025-04-21T12:31:11"
 aliases = "/packages/4795"
 categories = ['x11']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "82540"
-usize = "213253"
-sha1sum = "72d2eb26f1d86d5bc99c3008b19314c69d777d59"
+size = "83288"
+usize = "211604"
+sha1sum = "c459a96feebcd6e98443beb2cdc896f0e40e2284"
 depends = "['fontconfig>=2.12.6-2', 'freetype2>=2.9', 'libx11>=1.6.7-2', 'libxext>=1.3.4-2', 'libxrender>=0.9.10-6']"
 reverse_depends = "['conky', 'dmenu', 'dzen', 'firefox', 'fluxbox', 'fox', 'fox-1.2', 'ksubeditor', 'ksubtile', 'm17n-lib', 'pango', 'plasma-desktop', 'plasma-workspace', 'tk', 'wmi', 'xclock', 'xfd', 'xscreensaver-data', 'xterm']"
 license = "GPL2"
@@ -23,14 +23,14 @@ X FreeType library
 * /usr/include/X11/Xft/XftCompat.h
 * /usr/lib/libXft.so
 * /usr/lib/libXft.so.2
-* /usr/lib/libXft.so.2.3.8
+* /usr/lib/libXft.so.2.3.9
 * /usr/lib/pkgconfig/xft.pc
-* /usr/share/doc/libxft-2.3.8/AUTHORS
-* /usr/share/doc/libxft-2.3.8/ChangeLog
-* /usr/share/doc/libxft-2.3.8/COPYING
-* /usr/share/doc/libxft-2.3.8/INSTALL
-* /usr/share/doc/libxft-2.3.8/NEWS
-* /usr/share/doc/libxft-2.3.8/README.md
+* /usr/share/doc/libxft-2.3.9/AUTHORS
+* /usr/share/doc/libxft-2.3.9/ChangeLog
+* /usr/share/doc/libxft-2.3.9/COPYING
+* /usr/share/doc/libxft-2.3.9/INSTALL
+* /usr/share/doc/libxft-2.3.9/NEWS
+* /usr/share/doc/libxft-2.3.9/README.md
 * /usr/share/man/man3/Xft.3.gz
 * /usr/share/man/man3/XftCharExists.3.gz
 * /usr/share/man/man3/XftCharFontSpecRender.3.gz
