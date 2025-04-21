@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gcc 14_20250412-1"
-version = "14_20250412-1"
+title = "gcc 14_20250419-1"
+version = "14_20250419-1"
 description = "The GNU Compiler Collection"
-date = "2025-04-15T08:20:15"
+date = "2025-04-21T13:12:25"
 aliases = "/packages/2379"
 categories = ['devel']
 upstreamurl = "http://gcc.gnu.org"
 arch = "x86_64"
-size = "47113772"
-usize = "194285104"
-sha1sum = "e2f9d18c9576e3e58a0296727184214ab9dbba52"
+size = "47112856"
+usize = "194289587"
+sha1sum = "631c5d508ad189684f429fe6714169252714403f"
 depends = "['binutils>=2.41', 'glibc>=2.38', 'libisl', 'libmpc>=1.1.0-11', 'zstd']"
 reverse_depends = "['gcc-g++', 'gcc-gfortran', 'gcc-objc', 'kernel-lts-source', 'libb64']"
 +++
@@ -830,13 +830,13 @@ The GNU Compiler Collection
 * /usr/lib32/libubsan.so
 * /usr/lib32/libubsan.so.1
 * /usr/lib32/libubsan.so.1.0.0
-* /usr/share/doc/gcc-14_20250412/ChangeLog
-* /usr/share/doc/gcc-14_20250412/COPYING
-* /usr/share/doc/gcc-14_20250412/COPYING.LIB
-* /usr/share/doc/gcc-14_20250412/COPYING.RUNTIME
-* /usr/share/doc/gcc-14_20250412/COPYING3
-* /usr/share/doc/gcc-14_20250412/COPYING3.LIB
-* /usr/share/doc/gcc-14_20250412/README
+* /usr/share/doc/gcc-14_20250419/ChangeLog
+* /usr/share/doc/gcc-14_20250419/COPYING
+* /usr/share/doc/gcc-14_20250419/COPYING.LIB
+* /usr/share/doc/gcc-14_20250419/COPYING.RUNTIME
+* /usr/share/doc/gcc-14_20250419/COPYING3
+* /usr/share/doc/gcc-14_20250419/COPYING3.LIB
+* /usr/share/doc/gcc-14_20250419/README
 * /usr/share/info/cpp.info.gz
 * /usr/share/info/cppinternals.info.gz
 * /usr/share/info/gcc.info.gz
