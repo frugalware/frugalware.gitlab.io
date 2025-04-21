@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "rocprofiler-register 6.3.3-1"
-version = "6.3.3-1"
+title = "rocprofiler-register 6.4.0-1"
+version = "6.4.0-1"
 description = "ROC profiler library. Coordinates the modification of the intercept API table"
-date = "2025-03-18T15:50:49"
+date = "2025-04-21T10:35:24"
 aliases = "/packages/221586"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/ROCm/rocprofiler-register"
 arch = "x86_64"
-size = "149288"
-usize = "474880"
-sha1sum = "77907dee11d455acf5fbdc23ae7000c8bc1e90f7"
-depends = "['libstdc++']"
+size = "75792"
+usize = "311075"
+sha1sum = "7969a287db7508d52b9284475568fccee2d3b076"
+depends = "['fmtlib', 'google-glog']"
 reverse_depends = "['hip-runtime-amd']"
 +++
 ### Description: 
@@ -44,6 +44,12 @@ ROC profiler library. Coordinates the modification of the intercept API table
 * /opt/rocm/share/rocprofiler-register/tests/rccl/CMakeLists.txt
 * /opt/rocm/share/rocprofiler-register/tests/rccl/rccl.cpp
 * /opt/rocm/share/rocprofiler-register/tests/rccl/rccl.hpp
+* /opt/rocm/share/rocprofiler-register/tests/rocdecode/CMakeLists.txt
+* /opt/rocm/share/rocprofiler-register/tests/rocdecode/rocdecode.cpp
+* /opt/rocm/share/rocprofiler-register/tests/rocdecode/rocdecode.hpp
+* /opt/rocm/share/rocprofiler-register/tests/rocjpeg/CMakeLists.txt
+* /opt/rocm/share/rocprofiler-register/tests/rocjpeg/rocjpeg.cpp
+* /opt/rocm/share/rocprofiler-register/tests/rocjpeg/rocjpeg.hpp
 * /opt/rocm/share/rocprofiler-register/tests/rocprofiler/CMakeLists.txt
 * /opt/rocm/share/rocprofiler-register/tests/rocprofiler/rocprofiler.cpp
 * /opt/rocm/share/rocprofiler-register/tests/roctx/CMakeLists.txt
@@ -55,6 +61,6 @@ ROC profiler library. Coordinates the modification of the intercept API table
 * /opt/rocm/share/rocprofiler-register/tests/test-amdhip-hsart-roctx.cpp
 * /opt/rocm/share/rocprofiler-register/tests/test-amdhip-roctx-mt.cpp
 * /opt/rocm/share/rocprofiler-register/tests/test-amdhip-roctx.cpp
-* /usr/share/doc/rocprofiler-register-6.3.3/LICENSE
-* /usr/share/doc/rocprofiler-register-6.3.3/README.md
-* /usr/share/doc/rocprofiler-register-6.3.3/VERSION
+* /usr/share/doc/rocprofiler-register-6.4.0/LICENSE
+* /usr/share/doc/rocprofiler-register-6.4.0/README.md
+* /usr/share/doc/rocprofiler-register-6.4.0/VERSION

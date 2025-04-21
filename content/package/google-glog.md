@@ -12,7 +12,7 @@ size = "129592"
 usize = "424734"
 sha1sum = "0c292976fb64f127c2bb548d04757a5c824db759"
 depends = "['gflags']"
-reverse_depends = "['ceres-solver', 'folly']"
+reverse_depends = "['ceres-solver', 'folly', 'rocprofiler-register']"
 +++
 ### Description: 
 Logging library for C++
