@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "wireshark-qt 4.4.4-1"
-version = "4.4.4-1"
+title = "wireshark-qt 4.4.6-1"
+version = "4.4.6-1"
 description = "The world's most popular network protocol analyzer. (Qt6 frontend)"
-date = "2025-02-24T14:52:59"
+date = "2025-04-22T12:57:07"
 aliases = "/packages/201209"
 categories = ['xapps-extra']
 upstreamurl = "http://www.wireshark.org/"
 arch = "x86_64"
-size = "4653324"
-usize = "11271853"
-sha1sum = "8e59fb5ee765ace61c79c82dbbc38b038e85ae11"
-depends = "['c-ares', 'geoip', 'libnl', 'lua51', 'qt6-5compat', 'qt6-multimedia', 'qt6-svg', 'sbc', 'wireshark>=4.4.4']"
+size = "4667396"
+usize = "11304445"
+sha1sum = "ced4a8551b7a327782e6421db01358722a10ddea"
+depends = "['c-ares', 'geoip', 'libnl', 'lua51', 'qt6-5compat', 'qt6-multimedia', 'qt6-svg', 'sbc', 'wireshark>=4.4.6']"
 +++
 ### Description: 
 The world's most popular network protocol analyzer. (Qt6 frontend)

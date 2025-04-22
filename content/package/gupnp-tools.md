@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gupnp-tools 0.12.1-1"
-version = "0.12.1-1"
+title = "gupnp-tools 0.12.2-1"
+version = "0.12.2-1"
 description = "Tools for testing UPnP devices and control points"
-date = "2024-11-26T10:47:47"
+date = "2025-04-22T12:51:49"
 aliases = "/packages/219155"
 categories = ['xapps-extra']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "182480"
-usize = "693326"
-sha1sum = "0eca091ebd4462118c9ca63f9bca3b341d2385ac"
+size = "184064"
+usize = "704702"
+sha1sum = "4c98d441954c12641b97132b614e91c886307bc1"
 depends = "['gtk+3', 'gupnp-av>=0.14.0']"
 +++
 ### Description: 
@@ -26,10 +26,10 @@ Tools for testing UPnP devices and control points
 * /usr/share/applications/gupnp-av-cp.desktop
 * /usr/share/applications/gupnp-network-light.desktop
 * /usr/share/applications/gupnp-universal-cp.desktop
-* /usr/share/doc/gupnp-tools-0.12.1/AUTHORS
-* /usr/share/doc/gupnp-tools-0.12.1/COPYING
-* /usr/share/doc/gupnp-tools-0.12.1/NEWS
-* /usr/share/doc/gupnp-tools-0.12.1/README.md
+* /usr/share/doc/gupnp-tools-0.12.2/AUTHORS
+* /usr/share/doc/gupnp-tools-0.12.2/COPYING
+* /usr/share/doc/gupnp-tools-0.12.2/NEWS
+* /usr/share/doc/gupnp-tools-0.12.2/README.md
 * /usr/share/gupnp-tools/pixmaps/media-renderer.png
 * /usr/share/gupnp-tools/pixmaps/network-light-22x22.png
 * /usr/share/gupnp-tools/pixmaps/network-light-off.png
@@ -56,6 +56,7 @@ Tools for testing UPnP devices and control points
 * /usr/share/locale/es/LC_MESSAGES/gupnp-tools.mo
 * /usr/share/locale/eu/LC_MESSAGES/gupnp-tools.mo
 * /usr/share/locale/fur/LC_MESSAGES/gupnp-tools.mo
+* /usr/share/locale/hi/LC_MESSAGES/gupnp-tools.mo
 * /usr/share/locale/hu/LC_MESSAGES/gupnp-tools.mo
 * /usr/share/locale/id/LC_MESSAGES/gupnp-tools.mo
 * /usr/share/locale/ja/LC_MESSAGES/gupnp-tools.mo

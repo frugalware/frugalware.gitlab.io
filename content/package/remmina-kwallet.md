@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "remmina-kwallet 1.4.39-2"
-version = "1.4.39-2"
+title = "remmina-kwallet 1.4.40-1"
+version = "1.4.40-1"
 description = "kwallet plugin for remmina"
-date = "2025-03-26T10:42:26"
+date = "2025-04-22T12:45:26"
 aliases = "/packages/220632"
 categories = ['xapps-extra']
 upstreamurl = "https://www.remmina.org"
 arch = "x86_64"
-size = "6800"
+size = "6856"
 usize = "10536"
-sha1sum = "5c578c48883613f15418a9e358c9fc07885dd291"
+sha1sum = "8f9027c105b39ea951242b4083abd94775f0033e"
 depends = "['kwallet5']"
 +++
 ### Description: 

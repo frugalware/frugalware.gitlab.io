@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "remmina-secret 1.4.39-2"
-version = "1.4.39-2"
+title = "remmina-secret 1.4.40-1"
+version = "1.4.40-1"
 description = "secret plugin for remmina"
-date = "2025-03-26T10:42:26"
+date = "2025-04-22T12:45:26"
 aliases = "/packages/220633"
 categories = ['xapps-extra']
 upstreamurl = "https://www.remmina.org"
 arch = "x86_64"
-size = "5972"
+size = "6008"
 usize = "9384"
-sha1sum = "9d66061f1045c3a10a571ea27b7586326174e996"
+sha1sum = "2030c16c0d8748d12a862ce1faebf6ecce27590d"
 depends = "['libsecret']"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "remmina-rdp 1.4.39-2"
-version = "1.4.39-2"
+title = "remmina-rdp 1.4.40-1"
+version = "1.4.40-1"
 description = "rdp plugin for remmina"
-date = "2025-03-26T10:42:26"
+date = "2025-04-22T12:45:26"
 aliases = "/packages/220629"
 categories = ['xapps-extra']
 upstreamurl = "https://www.remmina.org"
 arch = "x86_64"
-size = "48384"
-usize = "139368"
-sha1sum = "13d6cb2b418f374816164334d525060c9d4b09b9"
+size = "48608"
+usize = "140040"
+sha1sum = "bdd644db5319f87cf241f56d49e10598e9e5909b"
 depends = "['freerdp']"
 +++
 ### Description: 

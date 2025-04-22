@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "remmina-spice 1.4.39-2"
-version = "1.4.39-2"
+title = "remmina-spice 1.4.40-1"
+version = "1.4.40-1"
 description = "spice plugin for remmina"
-date = "2025-03-26T10:42:26"
+date = "2025-04-22T12:45:26"
 aliases = "/packages/220630"
 categories = ['xapps-extra']
 upstreamurl = "https://www.remmina.org"
 arch = "x86_64"
-size = "13996"
+size = "14000"
 usize = "34280"
-sha1sum = "3fb91b16e235bc9c75ca94a15ef56e382b179a62"
+sha1sum = "467f0b2e161b287586f06748d7698de052ac55fe"
 depends = "['spice-gtk']"
 +++
 ### Description: 
