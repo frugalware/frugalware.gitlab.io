@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-packaging 24.2-1"
-version = "24.2-1"
+title = "python3-packaging 25.0-1"
+version = "25.0-1"
 description = "Core utilities for Python packages"
-date = "2024-12-24T11:16:26"
+date = "2025-04-22T17:52:38"
 aliases = "/packages/219854"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/packaging"
 arch = "x86_64"
-size = "118648"
-usize = "695647"
-sha1sum = "26c7968b06ed0055613be916675fc2869f646831"
+size = "119576"
+usize = "702592"
+sha1sum = "c2cc169f4597845adfd6d0c483b1df94eea5f2b1"
 depends = "['python3>=3.13']"
 reverse_depends = "['borg', 'input-remapper', 'krr', 'python3-build', 'python3-cx-freeze', 'python3-google-auth', 'python3-hatchling', 'python3-pdm-backend', 'python3-pipx', 'python3-poetry', 'python3-poetry-core', 'python3-puremagic', 'python3-pyproject-metadata', 'python3-pytest', 'python3-qtpy', 'python3-setuptools', 'python3-versioningit', 'python3-wheel', 'scikit-build-core', 'sip']"
 +++
@@ -18,12 +18,12 @@ reverse_depends = "['borg', 'input-remapper', 'krr', 'python3-build', 'python3-c
 Core utilities for Python packages
 
 ### Files: 
-* /usr/lib/python3.13/site-packages/packaging-24.2.dist-info/LICENSE
-* /usr/lib/python3.13/site-packages/packaging-24.2.dist-info/LICENSE.APACHE
-* /usr/lib/python3.13/site-packages/packaging-24.2.dist-info/LICENSE.BSD
-* /usr/lib/python3.13/site-packages/packaging-24.2.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/packaging-24.2.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/packaging-24.2.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/packaging-25.0.dist-info/licenses/LICENSE
+* /usr/lib/python3.13/site-packages/packaging-25.0.dist-info/licenses/LICENSE.APACHE
+* /usr/lib/python3.13/site-packages/packaging-25.0.dist-info/licenses/LICENSE.BSD
+* /usr/lib/python3.13/site-packages/packaging-25.0.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/packaging-25.0.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/packaging-25.0.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/packaging/licenses/_spdx.py
 * /usr/lib/python3.13/site-packages/packaging/licenses/__init__.py
 * /usr/lib/python3.13/site-packages/packaging/licenses/__pycache__/_spdx.cpython-313.opt-1.pyc
@@ -73,6 +73,5 @@ Core utilities for Python packages
 * /usr/lib/python3.13/site-packages/packaging/__pycache__/_tokenizer.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/packaging/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/packaging/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/python3-packaging-24.2/LICENSE
-* /usr/share/doc/python3-packaging-24.2/README.md
-* /usr/share/doc/python3-packaging-24.2/README.rst
+* /usr/share/doc/python3-packaging-25.0/LICENSE
+* /usr/share/doc/python3-packaging-25.0/README.rst

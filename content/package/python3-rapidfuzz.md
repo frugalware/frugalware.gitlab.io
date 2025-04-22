@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-rapidfuzz 3.12.2-1"
-version = "3.12.2-1"
+title = "python3-rapidfuzz 3.13.0-1"
+version = "3.13.0-1"
 description = "Rapid fuzzy string matching in Python using various string metrics"
-date = "2025-03-26T14:36:41"
+date = "2025-04-22T18:00:07"
 aliases = "/packages/221158"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/rapidfuzz"
 arch = "x86_64"
-size = "1949060"
-usize = "12871260"
-sha1sum = "c50d40a2b63c2ccedbdd7d0a4fab7e6a9b87fdcb"
+size = "1945468"
+usize = "12847709"
+sha1sum = "915b90cfb89677823faa977315e0ace22ad2a842"
 depends = "['python3-numpy']"
 reverse_depends = "['python3-cleo']"
 +++
@@ -18,11 +18,11 @@ reverse_depends = "['python3-cleo']"
 Rapid fuzzy string matching in Python using various string metrics
 
 ### Files: 
-* /usr/lib/python3.13/site-packages/rapidfuzz-3.12.2.dist-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/rapidfuzz-3.12.2.dist-info/licenses/LICENSE
-* /usr/lib/python3.13/site-packages/rapidfuzz-3.12.2.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/rapidfuzz-3.12.2.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/rapidfuzz-3.12.2.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/rapidfuzz-3.13.0.dist-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/rapidfuzz-3.13.0.dist-info/licenses/LICENSE
+* /usr/lib/python3.13/site-packages/rapidfuzz-3.13.0.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/rapidfuzz-3.13.0.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/rapidfuzz-3.13.0.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/rapidfuzz/distance/DamerauLevenshtein.py
 * /usr/lib/python3.13/site-packages/rapidfuzz/distance/DamerauLevenshtein.pyi
 * /usr/lib/python3.13/site-packages/rapidfuzz/distance/DamerauLevenshtein_py.py
@@ -159,5 +159,5 @@ Rapid fuzzy string matching in Python using various string metrics
 * /usr/lib/python3.13/site-packages/rapidfuzz/__pyinstaller/__pycache__/test_rapidfuzz_packaging.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/rapidfuzz/__pyinstaller/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/rapidfuzz/__pyinstaller/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/python3-rapidfuzz-3.12.2/LICENSE
-* /usr/share/doc/python3-rapidfuzz-3.12.2/README.md
+* /usr/share/doc/python3-rapidfuzz-3.13.0/LICENSE
+* /usr/share/doc/python3-rapidfuzz-3.13.0/README.md

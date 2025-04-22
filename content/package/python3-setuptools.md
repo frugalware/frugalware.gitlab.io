@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-setuptools 78.1.0-1"
-version = "78.1.0-1"
+title = "python3-setuptools 79.0.0-1"
+version = "79.0.0-1"
 description = "Tool to build and install python packages"
-date = "2025-03-26T14:56:14"
+date = "2025-04-22T18:13:59"
 aliases = "/packages/219856"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/setuptools"
 arch = "x86_64"
-size = "1887936"
-usize = "8962844"
-sha1sum = "ecd8c87362a2588094a798dbb0e9ba3b96bbed3e"
+size = "1887904"
+usize = "8962488"
+sha1sum = "f3430a0436869981a8eae698dff2e74e8def2527"
 depends = "['python3>=3.13', 'python3-appdirs', 'python3-packaging', 'python3-six']"
 reverse_depends = "['glad', 'krr', 'meson', 'nodejs', 'nodejs20', 'protontricks', 'py3status', 'python3-cx-freeze', 'python3-pbr', 'python3-pdm-backend', 'python3-setuptools-git', 'python3-setuptools-rust', 'python3-setuptools_scm', 'python3-sphinx', 'scikit-build', 'sip', 'vorta']"
 +++
@@ -47,12 +47,12 @@ Tool to build and install python packages
 * /usr/lib/python3.13/site-packages/pkg_resources/tests/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pkg_resources/__init__.py
 * /usr/lib/python3.13/site-packages/pkg_resources/__pycache__/__init__.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/setuptools-78.1.0-py3.13.egg-info/dependency_links.txt
-* /usr/lib/python3.13/site-packages/setuptools-78.1.0-py3.13.egg-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/setuptools-78.1.0-py3.13.egg-info/PKG-INFO
-* /usr/lib/python3.13/site-packages/setuptools-78.1.0-py3.13.egg-info/requires.txt
-* /usr/lib/python3.13/site-packages/setuptools-78.1.0-py3.13.egg-info/SOURCES.txt
-* /usr/lib/python3.13/site-packages/setuptools-78.1.0-py3.13.egg-info/top_level.txt
+* /usr/lib/python3.13/site-packages/setuptools-79.0.0-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/setuptools-79.0.0-py3.13.egg-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/setuptools-79.0.0-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/setuptools-79.0.0-py3.13.egg-info/requires.txt
+* /usr/lib/python3.13/site-packages/setuptools-79.0.0-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/setuptools-79.0.0-py3.13.egg-info/top_level.txt
 * /usr/lib/python3.13/site-packages/setuptools/archive_util.py
 * /usr/lib/python3.13/site-packages/setuptools/build_meta.py
 * /usr/lib/python3.13/site-packages/setuptools/cli-32.exe
@@ -889,5 +889,5 @@ Tool to build and install python packages
 * /usr/lib/python3.13/site-packages/_distutils_hack/__init__.py
 * /usr/lib/python3.13/site-packages/_distutils_hack/__pycache__/override.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/_distutils_hack/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/python3-setuptools-78.1.0/LICENSE
-* /usr/share/doc/python3-setuptools-78.1.0/README.rst
+* /usr/share/doc/python3-setuptools-79.0.0/LICENSE
+* /usr/share/doc/python3-setuptools-79.0.0/README.rst

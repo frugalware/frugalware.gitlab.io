@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-pyzmq 26.3.0-1"
-version = "26.3.0-1"
+title = "python3-pyzmq 26.4.0-1"
+version = "26.4.0-1"
 description = "Python3 bindings for zeromq, written in Cython"
-date = "2025-03-26T14:14:49"
+date = "2025-04-22T17:58:46"
 aliases = "/packages/219794"
 categories = ['devel-extra']
 upstreamurl = "http://www.zeromq.org/bindings:python"
 arch = "x86_64"
-size = "319992"
-usize = "1691926"
-sha1sum = "a6339866fde48f94655b86ed94853720ac6310e6"
+size = "317460"
+usize = "1685163"
+sha1sum = "814510386ef79061776bbba5fb38813c1687d8e0"
 depends = "['python3>=3.12', 'zeromq>=3.2.2']"
 reverse_depends = "['python3-eventlet']"
 +++
@@ -18,11 +18,11 @@ reverse_depends = "['python3-eventlet']"
 Python3 bindings for zeromq, written in Cython
 
 ### Files: 
-* /usr/lib/python3.13/site-packages/pyzmq-26.3.0.dist-info/licenses/LICENSE.md
-* /usr/lib/python3.13/site-packages/pyzmq-26.3.0.dist-info/licenses/licenses/LICENSE.tornado.txt
-* /usr/lib/python3.13/site-packages/pyzmq-26.3.0.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/pyzmq-26.3.0.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/pyzmq-26.3.0.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/pyzmq-26.4.0.dist-info/licenses/LICENSE.md
+* /usr/lib/python3.13/site-packages/pyzmq-26.4.0.dist-info/licenses/licenses/LICENSE.tornado.txt
+* /usr/lib/python3.13/site-packages/pyzmq-26.4.0.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/pyzmq-26.4.0.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/pyzmq-26.4.0.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/zmq/asyncio.py
 * /usr/lib/python3.13/site-packages/zmq/auth/asyncio.py
 * /usr/lib/python3.13/site-packages/zmq/auth/base.py
@@ -195,7 +195,6 @@ Python3 bindings for zeromq, written in Cython
 * /usr/lib/python3.13/site-packages/zmq/tests/__init__.py
 * /usr/lib/python3.13/site-packages/zmq/tests/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/zmq/tests/__pycache__/__init__.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/zmq/utils/buffers.pxd
 * /usr/lib/python3.13/site-packages/zmq/utils/garbage.py
 * /usr/lib/python3.13/site-packages/zmq/utils/getpid_compat.h
 * /usr/lib/python3.13/site-packages/zmq/utils/interop.py
@@ -245,4 +244,4 @@ Python3 bindings for zeromq, written in Cython
 * /usr/lib/python3.13/site-packages/zmq/__pycache__/_typing.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/zmq/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/zmq/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/python3-pyzmq-26.3.0/README.md
+* /usr/share/doc/python3-pyzmq-26.4.0/README.md

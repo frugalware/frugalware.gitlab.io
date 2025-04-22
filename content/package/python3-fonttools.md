@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-fonttools 4.56.0-1"
-version = "4.56.0-1"
+title = "python3-fonttools 4.57.0-1"
+version = "4.57.0-1"
 description = "Library to manipulate font files from Python"
-date = "2025-02-11T10:24:46"
+date = "2025-04-22T17:37:05"
 aliases = "/packages/220028"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/fonttools"
 arch = "x86_64"
-size = "1937468"
-usize = "9139814"
-sha1sum = "c56494fc67a60d12ef8aaab62032f7df04b1abca"
+size = "1942612"
+usize = "9165650"
+sha1sum = "949055418091e6dd112f4dad4c4384eb1ab914f9"
 depends = "['python3>=3.12']"
 reverse_depends = "['krr']"
 +++
@@ -22,12 +22,12 @@ Library to manipulate font files from Python
 * /usr/bin/pyftmerge
 * /usr/bin/pyftsubset
 * /usr/bin/ttx
-* /usr/lib/python3.13/site-packages/fonttools-4.56.0-py3.13.egg-info/dependency_links.txt
-* /usr/lib/python3.13/site-packages/fonttools-4.56.0-py3.13.egg-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/fonttools-4.56.0-py3.13.egg-info/PKG-INFO
-* /usr/lib/python3.13/site-packages/fonttools-4.56.0-py3.13.egg-info/requires.txt
-* /usr/lib/python3.13/site-packages/fonttools-4.56.0-py3.13.egg-info/SOURCES.txt
-* /usr/lib/python3.13/site-packages/fonttools-4.56.0-py3.13.egg-info/top_level.txt
+* /usr/lib/python3.13/site-packages/fonttools-4.57.0-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/fonttools-4.57.0-py3.13.egg-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/fonttools-4.57.0-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/fonttools-4.57.0-py3.13.egg-info/requires.txt
+* /usr/lib/python3.13/site-packages/fonttools-4.57.0-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/fonttools-4.57.0-py3.13.egg-info/top_level.txt
 * /usr/lib/python3.13/site-packages/fontTools/afmLib.py
 * /usr/lib/python3.13/site-packages/fontTools/agl.py
 * /usr/lib/python3.13/site-packages/fontTools/cffLib/CFF2ToCFF.py
@@ -573,6 +573,7 @@ Library to manipulate font files from Python
 * /usr/lib/python3.13/site-packages/fontTools/varLib/cff.py
 * /usr/lib/python3.13/site-packages/fontTools/varLib/errors.py
 * /usr/lib/python3.13/site-packages/fontTools/varLib/featureVars.py
+* /usr/lib/python3.13/site-packages/fontTools/varLib/hvar.py
 * /usr/lib/python3.13/site-packages/fontTools/varLib/instancer/featureVars.py
 * /usr/lib/python3.13/site-packages/fontTools/varLib/instancer/names.py
 * /usr/lib/python3.13/site-packages/fontTools/varLib/instancer/solver.py
@@ -606,6 +607,7 @@ Library to manipulate font files from Python
 * /usr/lib/python3.13/site-packages/fontTools/varLib/__pycache__/cff.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/fontTools/varLib/__pycache__/errors.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/fontTools/varLib/__pycache__/featureVars.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/fontTools/varLib/__pycache__/hvar.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/fontTools/varLib/__pycache__/interpolatable.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/fontTools/varLib/__pycache__/interpolatableHelpers.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/fontTools/varLib/__pycache__/interpolatablePlot.cpython-313.pyc
@@ -646,6 +648,6 @@ Library to manipulate font files from Python
 * /usr/lib/python3.13/site-packages/fontTools/__pycache__/unicode.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/fontTools/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/fontTools/__pycache__/__main__.cpython-313.pyc
-* /usr/share/doc/python3-fonttools-4.56.0/LICENSE
-* /usr/share/doc/python3-fonttools-4.56.0/README.rst
+* /usr/share/doc/python3-fonttools-4.57.0/LICENSE
+* /usr/share/doc/python3-fonttools-4.57.0/README.rst
 * /usr/share/man/man1/ttx.1.gz

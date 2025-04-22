@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-pdm-backend 2.4.3-1"
-version = "2.4.3-1"
+title = "python3-pdm-backend 2.4.4-1"
+version = "2.4.4-1"
 description = "The build backend used by PDM that supports latest packaging standards"
-date = "2025-02-24T15:48:05"
+date = "2025-04-22T17:53:11"
 aliases = "/packages/222654"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/pdm-backend"
 arch = "x86_64"
-size = "205212"
-usize = "1169151"
-sha1sum = "dd141fed90f203536e126a449518177aa9e0bb06"
+size = "206016"
+usize = "1172046"
+sha1sum = "3c7958ef8a4ddc9f9025f79d762ea60332097eb6"
 depends = "['python3-packaging', 'python3-pyproject-metadata', 'python3-setuptools']"
 +++
 ### Description: 
@@ -160,10 +160,10 @@ The build backend used by PDM that supports latest packaging standards
 * /usr/lib/python3.13/site-packages/pdm/backend/__pycache__/wheel.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pdm/backend/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pdm/backend/__pycache__/__init__.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/pdm_backend-2.4.3.dist-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/pdm_backend-2.4.3.dist-info/licenses/LICENSE
-* /usr/lib/python3.13/site-packages/pdm_backend-2.4.3.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/pdm_backend-2.4.3.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/pdm_backend-2.4.3.dist-info/WHEEL
-* /usr/share/doc/python3-pdm-backend-2.4.3/LICENSE
-* /usr/share/doc/python3-pdm-backend-2.4.3/README.md
+* /usr/lib/python3.13/site-packages/pdm_backend-2.4.4.dist-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/pdm_backend-2.4.4.dist-info/licenses/LICENSE
+* /usr/lib/python3.13/site-packages/pdm_backend-2.4.4.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/pdm_backend-2.4.4.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/pdm_backend-2.4.4.dist-info/WHEEL
+* /usr/share/doc/python3-pdm-backend-2.4.4/LICENSE
+* /usr/share/doc/python3-pdm-backend-2.4.4/README.md

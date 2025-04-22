@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-hawkmoth 0.19.0-2"
-version = "0.19.0-2"
+title = "python3-hawkmoth 0.20.0-1"
+version = "0.20.0-1"
 description = "Hawkmoth - Sphinx Autodoc for C"
-date = "2025-01-04T11:36:17"
+date = "2025-04-22T17:40:25"
 aliases = "/packages/221178"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/hawkmoth"
 arch = "x86_64"
-size = "60284"
-usize = "349229"
-sha1sum = "4d6ba43db817d2a23210be6bcba38b4fe010e50f"
+size = "61828"
+usize = "358666"
+sha1sum = "086cb93b565ed56843dac82539caf2ed7f74d743"
 depends = "['python3-sphinx']"
 +++
 ### Description: 
@@ -18,11 +18,11 @@ Hawkmoth - Sphinx Autodoc for C
 
 ### Files: 
 * /usr/bin/hawkmoth
-* /usr/lib/python3.13/site-packages/hawkmoth-0.19.0.dist-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/hawkmoth-0.19.0.dist-info/licenses/LICENSE
-* /usr/lib/python3.13/site-packages/hawkmoth-0.19.0.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/hawkmoth-0.19.0.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/hawkmoth-0.19.0.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/hawkmoth-0.20.0.dist-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/hawkmoth-0.20.0.dist-info/licenses/LICENSE
+* /usr/lib/python3.13/site-packages/hawkmoth-0.20.0.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/hawkmoth-0.20.0.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/hawkmoth-0.20.0.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/hawkmoth/doccursor.py
 * /usr/lib/python3.13/site-packages/hawkmoth/docstring.py
 * /usr/lib/python3.13/site-packages/hawkmoth/ext/javadoc/__init__.py
@@ -66,5 +66,5 @@ Hawkmoth - Sphinx Autodoc for C
 * /usr/lib/python3.13/site-packages/hawkmoth/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/hawkmoth/__pycache__/__main__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/hawkmoth/__pycache__/__main__.cpython-313.pyc
-* /usr/share/doc/python3-hawkmoth-0.19.0/LICENSE
-* /usr/share/doc/python3-hawkmoth-0.19.0/README.rst
+* /usr/share/doc/python3-hawkmoth-0.20.0/LICENSE
+* /usr/share/doc/python3-hawkmoth-0.20.0/README.rst

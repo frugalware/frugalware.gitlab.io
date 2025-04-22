@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-pyasn1-modules 0.4.1-1"
-version = "0.4.1-1"
+title = "python3-pyasn1-modules 0.4.2-1"
+version = "0.4.2-1"
 description = "A collection of ASN.1-based protocols modules"
-date = "2025-02-26T13:54:07"
+date = "2025-04-22T17:55:01"
 aliases = "/packages/222664"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/pyasn1-modules"
 arch = "x86_64"
-size = "249140"
-usize = "2897895"
-sha1sum = "10768ade88a8d7a8ac0950c181333e4650c47890"
+size = "248960"
+usize = "2897926"
+sha1sum = "08e58389f3bb362cbfdb403109dcbbb6c992225b"
 depends = "['python3-pyasn1']"
 reverse_depends = "['python3-google-auth', 'python3-oauth2client']"
 +++
@@ -18,12 +18,12 @@ reverse_depends = "['python3-google-auth', 'python3-oauth2client']"
 A collection of ASN.1-based protocols modules
 
 ### Files: 
-* /usr/lib/python3.13/site-packages/pyasn1_modules-0.4.1.dist-info/LICENSE.txt
-* /usr/lib/python3.13/site-packages/pyasn1_modules-0.4.1.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/pyasn1_modules-0.4.1.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/pyasn1_modules-0.4.1.dist-info/top_level.txt
-* /usr/lib/python3.13/site-packages/pyasn1_modules-0.4.1.dist-info/WHEEL
-* /usr/lib/python3.13/site-packages/pyasn1_modules-0.4.1.dist-info/zip-safe
+* /usr/lib/python3.13/site-packages/pyasn1_modules-0.4.2.dist-info/licenses/LICENSE.txt
+* /usr/lib/python3.13/site-packages/pyasn1_modules-0.4.2.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/pyasn1_modules-0.4.2.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/pyasn1_modules-0.4.2.dist-info/top_level.txt
+* /usr/lib/python3.13/site-packages/pyasn1_modules-0.4.2.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/pyasn1_modules-0.4.2.dist-info/zip-safe
 * /usr/lib/python3.13/site-packages/pyasn1_modules/pem.py
 * /usr/lib/python3.13/site-packages/pyasn1_modules/rfc1155.py
 * /usr/lib/python3.13/site-packages/pyasn1_modules/rfc1157.py
@@ -420,4 +420,4 @@ A collection of ASN.1-based protocols modules
 * /usr/lib/python3.13/site-packages/pyasn1_modules/__pycache__/rfc8769.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pyasn1_modules/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pyasn1_modules/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/python3-pyasn1-modules-0.4.1/README.md
+* /usr/share/doc/python3-pyasn1-modules-0.4.2/README.md

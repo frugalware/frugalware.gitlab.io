@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-rich 13.9.4-1"
-version = "13.9.4-1"
+title = "python3-rich 14.0.0-1"
+version = "14.0.0-1"
 description = "Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal"
-date = "2025-02-24T15:42:09"
+date = "2025-04-22T18:00:58"
 aliases = "/packages/222653"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/rich"
 arch = "x86_64"
-size = "483720"
-usize = "3298093"
-sha1sum = "10b59b86b45b138b9ae6ba75be4d30c39dd668df"
+size = "483712"
+usize = "3308495"
+sha1sum = "f4cde2a446a48955223436d12304aefd17b0a34e"
 depends = "['python3-markdown-it-py', 'python3-pygments']"
 reverse_depends = "['python3-typer']"
 +++
@@ -18,10 +18,10 @@ reverse_depends = "['python3-typer']"
 Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal
 
 ### Files: 
-* /usr/lib/python3.13/site-packages/rich-13.9.4.dist-info/LICENSE
-* /usr/lib/python3.13/site-packages/rich-13.9.4.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/rich-13.9.4.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/rich-13.9.4.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/rich-14.0.0.dist-info/LICENSE
+* /usr/lib/python3.13/site-packages/rich-14.0.0.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/rich-14.0.0.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/rich-14.0.0.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/rich/abc.py
 * /usr/lib/python3.13/site-packages/rich/align.py
 * /usr/lib/python3.13/site-packages/rich/ansi.py
@@ -257,5 +257,5 @@ Render rich text, tables, progress bars, syntax highlighting, markdown and more 
 * /usr/lib/python3.13/site-packages/rich/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/rich/__pycache__/__main__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/rich/__pycache__/__main__.cpython-313.pyc
-* /usr/share/doc/python3-rich-13.9.4/LICENSE
-* /usr/share/doc/python3-rich-13.9.4/README.md
+* /usr/share/doc/python3-rich-14.0.0/LICENSE
+* /usr/share/doc/python3-rich-14.0.0/README.md

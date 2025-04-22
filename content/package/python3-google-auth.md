@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-google-auth 2.38.0-1"
-version = "2.38.0-1"
+title = "python3-google-auth 2.39.0-1"
+version = "2.39.0-1"
 description = "Google Authentication Library"
-date = "2025-02-26T14:09:35"
+date = "2025-04-22T17:39:16"
 aliases = "/packages/222667"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/google-auth"
 arch = "x86_64"
-size = "246032"
-usize = "2187500"
-sha1sum = "b03ae6b45d029bc7b3b8a8fa37986d05e3dbc5b9"
+size = "249184"
+usize = "2207631"
+sha1sum = "b97fc0d31dc386d578419b2d062fc29889201147"
 depends = "['certifi', 'python3-cachetools', 'python3-cgi', 'python3-oauth2client', 'python3-packaging', 'python3-pyasn1-modules', 'python3-rsa']"
 reverse_depends = "['python3-kubernetes']"
 +++
@@ -233,10 +233,10 @@ Google Authentication Library
 * /usr/lib/python3.13/site-packages/google/oauth2/__pycache__/_service_account_async.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/google/oauth2/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/google/oauth2/__pycache__/__init__.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/google_auth-2.38.0.dist-info/LICENSE
-* /usr/lib/python3.13/site-packages/google_auth-2.38.0.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/google_auth-2.38.0.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/google_auth-2.38.0.dist-info/top_level.txt
-* /usr/lib/python3.13/site-packages/google_auth-2.38.0.dist-info/WHEEL
-* /usr/share/doc/python3-google-auth-2.38.0/LICENSE
-* /usr/share/doc/python3-google-auth-2.38.0/README.rst
+* /usr/lib/python3.13/site-packages/google_auth-2.39.0.dist-info/licenses/LICENSE
+* /usr/lib/python3.13/site-packages/google_auth-2.39.0.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/google_auth-2.39.0.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/google_auth-2.39.0.dist-info/top_level.txt
+* /usr/lib/python3.13/site-packages/google_auth-2.39.0.dist-info/WHEEL
+* /usr/share/doc/python3-google-auth-2.39.0/LICENSE
+* /usr/share/doc/python3-google-auth-2.39.0/README.rst

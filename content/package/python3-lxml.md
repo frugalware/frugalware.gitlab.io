@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-lxml 5.3.1-1"
-version = "5.3.1-1"
+title = "python3-lxml 5.4.0-1"
+version = "5.4.0-1"
 description = "Easy-to-use library for working with XML and HTML in Python."
-date = "2025-02-11T10:35:49"
+date = "2025-04-22T17:52:06"
 aliases = "/packages/219317"
 categories = ['devel-extra']
 upstreamurl = "http://lxml.de/"
 arch = "x86_64"
-size = "1269372"
-usize = "5382434"
-sha1sum = "1f23d2d99a9f1c96d07d0b9f5ee1cec96d4fa0ad"
+size = "1326028"
+usize = "5527521"
+sha1sum = "0ed31a8333a8c5086d39af9f4d6e1f6eb2ce3120"
 depends = "['libxml2>=2.9.6', 'libxslt>=1.1.31', 'python3>=3.13']"
 reverse_depends = "['calibre', 'glad', 'piper', 'sigil']"
 +++
@@ -18,12 +18,12 @@ reverse_depends = "['calibre', 'glad', 'piper', 'sigil']"
 Easy-to-use library for working with XML and HTML in Python.
 
 ### Files: 
-* /usr/lib/python3.13/site-packages/lxml-5.3.1-py3.13.egg-info/dependency_links.txt
-* /usr/lib/python3.13/site-packages/lxml-5.3.1-py3.13.egg-info/not-zip-safe
-* /usr/lib/python3.13/site-packages/lxml-5.3.1-py3.13.egg-info/PKG-INFO
-* /usr/lib/python3.13/site-packages/lxml-5.3.1-py3.13.egg-info/requires.txt
-* /usr/lib/python3.13/site-packages/lxml-5.3.1-py3.13.egg-info/SOURCES.txt
-* /usr/lib/python3.13/site-packages/lxml-5.3.1-py3.13.egg-info/top_level.txt
+* /usr/lib/python3.13/site-packages/lxml-5.4.0-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/lxml-5.4.0-py3.13.egg-info/not-zip-safe
+* /usr/lib/python3.13/site-packages/lxml-5.4.0-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/lxml-5.4.0-py3.13.egg-info/requires.txt
+* /usr/lib/python3.13/site-packages/lxml-5.4.0-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/lxml-5.4.0-py3.13.egg-info/top_level.txt
 * /usr/lib/python3.13/site-packages/lxml/apihelpers.pxi
 * /usr/lib/python3.13/site-packages/lxml/builder.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/lxml/builder.py
@@ -161,5 +161,5 @@ Easy-to-use library for working with XML and HTML in Python.
 * /usr/lib/python3.13/site-packages/lxml/__pycache__/_elementpath.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/lxml/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/lxml/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/python3-lxml-5.3.1/INSTALL.txt
-* /usr/share/doc/python3-lxml-5.3.1/README.rst
+* /usr/share/doc/python3-lxml-5.4.0/INSTALL.txt
+* /usr/share/doc/python3-lxml-5.4.0/README.rst

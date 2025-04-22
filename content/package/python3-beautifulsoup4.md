@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-beautifulsoup4 4.13.3-1"
-version = "4.13.3-1"
+title = "python3-beautifulsoup4 4.13.4-1"
+version = "4.13.4-1"
 description = "Beautiful Soup sits atop an HTML or XML parser, providing Pythonic idioms for iterating, searching, and modifying the parse tree."
-date = "2025-02-11T10:18:05"
+date = "2025-04-22T17:32:06"
 aliases = "/packages/220276"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/beautifulsoup4"
 arch = "x86_64"
-size = "349576"
-usize = "2236168"
-sha1sum = "007cc2ec07c1513062c5cb05d70997357f33572b"
+size = "351396"
+usize = "2245559"
+sha1sum = "618a8bd5f0b2e946e5ade3c4c1a95e17d5ce66b6"
 depends = "['python3-soupsieve']"
 reverse_depends = "['calibre']"
 +++
@@ -18,11 +18,11 @@ reverse_depends = "['calibre']"
 Beautiful Soup sits atop an HTML or XML parser, providing Pythonic idioms for iterating, searching, and modifying the parse tree.
 
 ### Files: 
-* /usr/lib/python3.13/site-packages/beautifulsoup4-4.13.3.dist-info/licenses/AUTHORS
-* /usr/lib/python3.13/site-packages/beautifulsoup4-4.13.3.dist-info/licenses/LICENSE
-* /usr/lib/python3.13/site-packages/beautifulsoup4-4.13.3.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/beautifulsoup4-4.13.3.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/beautifulsoup4-4.13.3.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/beautifulsoup4-4.13.4.dist-info/licenses/AUTHORS
+* /usr/lib/python3.13/site-packages/beautifulsoup4-4.13.4.dist-info/licenses/LICENSE
+* /usr/lib/python3.13/site-packages/beautifulsoup4-4.13.4.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/beautifulsoup4-4.13.4.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/beautifulsoup4-4.13.4.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/bs4/builder/_html5lib.py
 * /usr/lib/python3.13/site-packages/bs4/builder/_htmlparser.py
 * /usr/lib/python3.13/site-packages/bs4/builder/_lxml.py
@@ -138,7 +138,7 @@ Beautiful Soup sits atop an HTML or XML parser, providing Pythonic idioms for it
 * /usr/lib/python3.13/site-packages/bs4/__pycache__/_warnings.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/bs4/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/bs4/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/python3-beautifulsoup4-4.13.3/AUTHORS
-* /usr/share/doc/python3-beautifulsoup4-4.13.3/CHANGELOG
-* /usr/share/doc/python3-beautifulsoup4-4.13.3/LICENSE
-* /usr/share/doc/python3-beautifulsoup4-4.13.3/README.md
+* /usr/share/doc/python3-beautifulsoup4-4.13.4/AUTHORS
+* /usr/share/doc/python3-beautifulsoup4-4.13.4/CHANGELOG
+* /usr/share/doc/python3-beautifulsoup4-4.13.4/LICENSE
+* /usr/share/doc/python3-beautifulsoup4-4.13.4/README.md

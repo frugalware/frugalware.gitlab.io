@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-boolean.py 4.0-2"
-version = "4.0-2"
+title = "python3-boolean.py 5.0-1"
+version = "5.0-1"
 description = "Implements boolean algebra in one module"
-date = "2024-11-01T22:10:26"
+date = "2025-04-22T17:33:46"
 aliases = "/packages/222540"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/boolean.py"
 arch = "x86_64"
-size = "57720"
-usize = "362324"
-sha1sum = "dce1c938bbdbf577e040b69c68a3db44f2695d61"
+size = "58744"
+usize = "367852"
+sha1sum = "8dda1e34fa68002ff46db88c1d32a3419e9dd556"
 depends = "['python3']"
 reverse_depends = "['python3-license-expression']"
 +++
@@ -18,13 +18,6 @@ reverse_depends = "['python3-license-expression']"
 Implements boolean algebra in one module
 
 ### Files: 
-* /usr/lib/python3.13/site-packages/boolean.py-4.0.dist-info/CHANGELOG.rst
-* /usr/lib/python3.13/site-packages/boolean.py-4.0.dist-info/LICENSE.txt
-* /usr/lib/python3.13/site-packages/boolean.py-4.0.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/boolean.py-4.0.dist-info/README.rst
-* /usr/lib/python3.13/site-packages/boolean.py-4.0.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/boolean.py-4.0.dist-info/top_level.txt
-* /usr/lib/python3.13/site-packages/boolean.py-4.0.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/boolean/boolean.py
 * /usr/lib/python3.13/site-packages/boolean/test_boolean.py
 * /usr/lib/python3.13/site-packages/boolean/__init__.py
@@ -34,4 +27,11 @@ Implements boolean algebra in one module
 * /usr/lib/python3.13/site-packages/boolean/__pycache__/test_boolean.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/boolean/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/boolean/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/python3-boolean.py-4.0/README.rst
+* /usr/lib/python3.13/site-packages/boolean_py-5.0.dist-info/licenses/CHANGELOG.rst
+* /usr/lib/python3.13/site-packages/boolean_py-5.0.dist-info/licenses/LICENSE.txt
+* /usr/lib/python3.13/site-packages/boolean_py-5.0.dist-info/licenses/README.rst
+* /usr/lib/python3.13/site-packages/boolean_py-5.0.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/boolean_py-5.0.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/boolean_py-5.0.dist-info/top_level.txt
+* /usr/lib/python3.13/site-packages/boolean_py-5.0.dist-info/WHEEL
+* /usr/share/doc/python3-boolean.py-5.0/README.rst

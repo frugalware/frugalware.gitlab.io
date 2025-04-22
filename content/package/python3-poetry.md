@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-poetry 2.1.1-1"
-version = "2.1.1-1"
+title = "python3-poetry 2.1.2-1"
+version = "2.1.2-1"
 description = "Python dependency management and packaging made easy"
-date = "2025-03-26T14:07:33"
+date = "2025-04-22T17:53:47"
 aliases = "/packages/221177"
 categories = ['devel-extra']
 upstreamurl = "https://python-poetry.org"
 arch = "x86_64"
-size = "493100"
-usize = "3123476"
-sha1sum = "32032a371c1741ac9968100bdf067477bbe65b42"
+size = "493316"
+usize = "3125249"
+sha1sum = "49163e6c8b91ee2d91a2fd774c7778b8e901695c"
 depends = "['html5lib-python', 'pexpect', 'python3-build', 'python3-cachecontrol', 'python3-cachy', 'python3-cleo', 'python3-crashtest', 'python3-dulwich', 'python3-fastjsonschema', 'python3-filelock', 'python3-installer', 'python3-keyring', 'python3-lockfile', 'python3-packaging', 'python3-pkginfo', 'python3-platformdirs', 'python3-poetry-core', 'python3-poetry-plugin-export', 'python3-pyproject-hooks', 'python3-requests-toolbelt', 'python3-shellingham', 'python3-tomlkit', 'python3-trove-classifiers', 'python3-urllib3', 'python3-virtualenv']"
 +++
 ### Description: 
@@ -18,11 +18,11 @@ Python dependency management and packaging made easy
 
 ### Files: 
 * /usr/bin/poetry
-* /usr/lib/python3.13/site-packages/poetry-2.1.1.dist-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/poetry-2.1.1.dist-info/LICENSE
-* /usr/lib/python3.13/site-packages/poetry-2.1.1.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/poetry-2.1.1.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/poetry-2.1.1.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/poetry-2.1.2.dist-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/poetry-2.1.2.dist-info/LICENSE
+* /usr/lib/python3.13/site-packages/poetry-2.1.2.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/poetry-2.1.2.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/poetry-2.1.2.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/poetry/config/config.py
 * /usr/lib/python3.13/site-packages/poetry/config/config_source.py
 * /usr/lib/python3.13/site-packages/poetry/config/dict_config_source.py
@@ -596,7 +596,7 @@ Python dependency management and packaging made easy
 * /usr/lib/python3.13/site-packages/poetry/__pycache__/__version__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/poetry/__version__.py
 * /usr/share/bash-completion/completions/poetry
-* /usr/share/doc/python3-poetry-2.1.1/LICENSE
-* /usr/share/doc/python3-poetry-2.1.1/README.md
+* /usr/share/doc/python3-poetry-2.1.2/LICENSE
+* /usr/share/doc/python3-poetry-2.1.2/README.md
 * /usr/share/fish/vendor_completions.d/poetry.fish
 * /usr/share/zsh/site-functions/_poetry
