@@ -12,6 +12,7 @@ size = "40276"
 usize = "93392"
 sha1sum = "2632af01f9d649aedd03c58693e98dea6d74da8b"
 depends = "['curl', 'elfutils']"
+reverse_depends = "['sysprof']"
 +++
 ### Description: 
 Elfutils debuginfod

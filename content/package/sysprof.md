@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "sysprof 46.0-1"
-version = "46.0-1"
+title = "sysprof 48.0-1"
+version = "48.0-1"
 description = "A sampling CPU profiler that uses a Linux kernel module to profile the entire system"
-date = "2024-05-15T09:25:03"
+date = "2025-04-22T14:16:00"
 aliases = "/packages/168599"
 categories = ['xapps-extra']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "683160"
-usize = "3688234"
-sha1sum = "e84f46fc90a9d9f966533522d729563a5f93fd71"
-depends = "['json-glib', 'libadwaita', 'libdex', 'libpanel', 'libsysprof-capture', 'libunwind', 'lzo', 'polkit']"
+size = "779144"
+usize = "4300506"
+sha1sum = "fbac0c23913786e6a391fdd8e747a6631987c33c"
+depends = "['elfutils-debuginfod', 'json-glib', 'libadwaita', 'libdex', 'libpanel', 'libsysprof-capture', 'libunwind', 'lzo', 'polkit']"
 +++
 ### Description: 
 A sampling CPU profiler that uses a Linux kernel module to profile the entire system
@@ -19,6 +19,7 @@ A sampling CPU profiler that uses a Linux kernel module to profile the entire sy
 ### Files: 
 * /usr/bin/sysprof
 * /usr/bin/sysprof-agent
+* /usr/bin/sysprof-cat
 * /usr/bin/sysprof-cli
 * /usr/include/sysprof-6/sysprof-battery-charge.h
 * /usr/include/sysprof-6/sysprof-bundled-symbolizer.h
@@ -29,6 +30,7 @@ A sampling CPU profiler that uses a Linux kernel module to profile the entire sy
 * /usr/include/sysprof-6/sysprof-cpu-info.h
 * /usr/include/sysprof-6/sysprof-cpu-usage.h
 * /usr/include/sysprof-6/sysprof-dbus-monitor.h
+* /usr/include/sysprof-6/sysprof-debuginfod-symbolizer.h
 * /usr/include/sysprof-6/sysprof-diagnostic.h
 * /usr/include/sysprof-6/sysprof-disk-usage.h
 * /usr/include/sysprof-6/sysprof-document-allocation.h
@@ -51,6 +53,7 @@ A sampling CPU profiler that uses a Linux kernel module to profile the entire sy
 * /usr/include/sysprof-6/sysprof-document-overlay.h
 * /usr/include/sysprof-6/sysprof-document-process.h
 * /usr/include/sysprof-6/sysprof-document-sample.h
+* /usr/include/sysprof-6/sysprof-document-task.h
 * /usr/include/sysprof-6/sysprof-document-traceable.h
 * /usr/include/sysprof-6/sysprof-document.h
 * /usr/include/sysprof-6/sysprof-elf-symbolizer.h
@@ -82,6 +85,7 @@ A sampling CPU profiler that uses a Linux kernel module to profile the entire sy
 * /usr/include/sysprof-6/sysprof-time-span.h
 * /usr/include/sysprof-6/sysprof-tracefd-consumer.h
 * /usr/include/sysprof-6/sysprof-tracer.h
+* /usr/include/sysprof-6/sysprof-user-sampler.h
 * /usr/include/sysprof-6/sysprof.h
 * /usr/lib/libsysprof-6.so
 * /usr/lib/libsysprof-6.so.6
@@ -90,6 +94,7 @@ A sampling CPU profiler that uses a Linux kernel module to profile the entire sy
 * /usr/lib/libsysprof-speedtrack-6.so
 * /usr/lib/libsysprof-tracer-6.so
 * /usr/lib/pkgconfig/sysprof-6.pc
+* /usr/lib/sysprof/sysprof-live-unwinder
 * /usr/lib/sysprof/sysprofd
 * /usr/lib/systemd/system/sysprof3.service
 * /usr/share/applications/org.gnome.Sysprof.desktop
@@ -98,11 +103,11 @@ A sampling CPU profiler that uses a Linux kernel module to profile the entire sy
 * /usr/share/dbus-1/interfaces/org.gnome.Sysprof3.Service.xml
 * /usr/share/dbus-1/system-services/org.gnome.Sysprof3.service
 * /usr/share/dbus-1/system.d/org.gnome.Sysprof3.conf
-* /usr/share/doc/sysprof-46.0/AUTHORS
-* /usr/share/doc/sysprof-46.0/COPYING
-* /usr/share/doc/sysprof-46.0/COPYING.gpl-2
-* /usr/share/doc/sysprof-46.0/NEWS
-* /usr/share/doc/sysprof-46.0/README.md
+* /usr/share/doc/sysprof-48.0/AUTHORS
+* /usr/share/doc/sysprof-48.0/COPYING
+* /usr/share/doc/sysprof-48.0/COPYING.gpl-2
+* /usr/share/doc/sysprof-48.0/NEWS
+* /usr/share/doc/sysprof-48.0/README.md
 * /usr/share/help/C/sysprof/faq.page
 * /usr/share/help/C/sysprof/figures/Sysprof.svg
 * /usr/share/help/C/sysprof/index.page
@@ -219,6 +224,7 @@ A sampling CPU profiler that uses a Linux kernel module to profile the entire sy
 * /usr/share/icons/hicolor/scalable/actions/sysprof-trace-app.svg
 * /usr/share/icons/hicolor/scalable/apps/org.gnome.Sysprof.svg
 * /usr/share/icons/hicolor/symbolic/apps/org.gnome.Sysprof-symbolic.svg
+* /usr/share/locale/bg/LC_MESSAGES/sysprof.mo
 * /usr/share/locale/ca/LC_MESSAGES/sysprof.mo
 * /usr/share/locale/cs/LC_MESSAGES/sysprof.mo
 * /usr/share/locale/da/LC_MESSAGES/sysprof.mo
@@ -234,12 +240,15 @@ A sampling CPU profiler that uses a Linux kernel module to profile the entire sy
 * /usr/share/locale/fur/LC_MESSAGES/sysprof.mo
 * /usr/share/locale/gl/LC_MESSAGES/sysprof.mo
 * /usr/share/locale/he/LC_MESSAGES/sysprof.mo
+* /usr/share/locale/hi/LC_MESSAGES/sysprof.mo
 * /usr/share/locale/hu/LC_MESSAGES/sysprof.mo
 * /usr/share/locale/id/LC_MESSAGES/sysprof.mo
 * /usr/share/locale/it/LC_MESSAGES/sysprof.mo
 * /usr/share/locale/ka/LC_MESSAGES/sysprof.mo
+* /usr/share/locale/kab/LC_MESSAGES/sysprof.mo
 * /usr/share/locale/ko/LC_MESSAGES/sysprof.mo
 * /usr/share/locale/lt/LC_MESSAGES/sysprof.mo
+* /usr/share/locale/ne/LC_MESSAGES/sysprof.mo
 * /usr/share/locale/nl/LC_MESSAGES/sysprof.mo
 * /usr/share/locale/oc/LC_MESSAGES/sysprof.mo
 * /usr/share/locale/pa/LC_MESSAGES/sysprof.mo

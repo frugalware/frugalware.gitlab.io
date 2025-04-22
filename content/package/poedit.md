@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "poedit 3.5.2-2"
-version = "3.5.2-2"
+title = "poedit 3.6.1-1"
+version = "3.6.1-1"
 description = "cross-platform gettext catalogs (.po files) editor"
-date = "2025-03-19T09:22:07"
+date = "2025-04-22T14:17:43"
 aliases = "/packages/3970"
 categories = ['xapps-extra']
 upstreamurl = "http://www.poedit.net/"
 arch = "x86_64"
-size = "1489048"
-usize = "7290668"
-sha1sum = "72bde54fe8b64d0021d22d6e2658fb6e1e08d878"
+size = "1679208"
+usize = "8195599"
+sha1sum = "4ede8a9f74149a6b07504c8714402b302afa6611"
 depends = "['gtkspell3', 'icu4c>=77.1', 'libboost>=1.87.0', 'lucene++', 'pugixml>=1.9-2', 'zip']"
 license = "MIT"
 +++
@@ -21,10 +21,10 @@ cross-platform gettext catalogs (.po files) editor
 * /usr/bin/poedit
 * /usr/share/applications/net.poedit.Poedit.desktop
 * /usr/share/applications/net.poedit.PoeditURI.desktop
-* /usr/share/doc/poedit-3.5.2/AUTHORS
-* /usr/share/doc/poedit-3.5.2/COPYING
-* /usr/share/doc/poedit-3.5.2/NEWS
-* /usr/share/doc/poedit-3.5.2/README.md
+* /usr/share/doc/poedit-3.6.1/AUTHORS
+* /usr/share/doc/poedit-3.6.1/COPYING
+* /usr/share/doc/poedit-3.6.1/NEWS
+* /usr/share/doc/poedit-3.6.1/README.md
 * /usr/share/icons/hicolor/128x128/apps/net.poedit.Poedit.png
 * /usr/share/icons/hicolor/16x16/apps/net.poedit.Poedit.png
 * /usr/share/icons/hicolor/24x24/apps/net.poedit.Poedit.png
@@ -82,10 +82,12 @@ cross-platform gettext catalogs (.po files) editor
 * /usr/share/locale/sl/LC_MESSAGES/poedit.mo
 * /usr/share/locale/sq/LC_MESSAGES/poedit.mo
 * /usr/share/locale/sr/LC_MESSAGES/poedit.mo
+* /usr/share/locale/sr@latin/LC_MESSAGES/poedit.mo
 * /usr/share/locale/sv/LC_MESSAGES/poedit.mo
 * /usr/share/locale/tg/LC_MESSAGES/poedit.mo
 * /usr/share/locale/th/LC_MESSAGES/poedit.mo
 * /usr/share/locale/tr/LC_MESSAGES/poedit.mo
+* /usr/share/locale/ug/LC_MESSAGES/poedit.mo
 * /usr/share/locale/uk/LC_MESSAGES/poedit.mo
 * /usr/share/locale/uz/LC_MESSAGES/poedit.mo
 * /usr/share/locale/vi/LC_MESSAGES/poedit.mo
