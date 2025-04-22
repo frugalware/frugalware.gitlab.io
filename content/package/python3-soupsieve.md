@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-soupsieve 2.6-2"
-version = "2.6-2"
+title = "python3-soupsieve 2.7-1"
+version = "2.7-1"
 description = "A CSS4 selector implementation for Beautiful Soup"
-date = "2024-11-03T11:03:26"
+date = "2025-04-22T18:15:50"
 aliases = "/packages/221128"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/soupsieve"
 arch = "x86_64"
-size = "77084"
-usize = "459223"
-sha1sum = "fc69ee51ee7c44f070f953e2731bbb08f520aec0"
+size = "78416"
+usize = "468427"
+sha1sum = "1b6f916f0e0aa3905396dda17a0fda39734d2118"
 depends = "['python3>=3.12']"
 reverse_depends = "['python3-beautifulsoup4']"
 +++
@@ -18,10 +18,10 @@ reverse_depends = "['python3-beautifulsoup4']"
 A CSS4 selector implementation for Beautiful Soup
 
 ### Files: 
-* /usr/lib/python3.13/site-packages/soupsieve-2.6.dist-info/licenses/LICENSE.md
-* /usr/lib/python3.13/site-packages/soupsieve-2.6.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/soupsieve-2.6.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/soupsieve-2.6.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/soupsieve-2.7.dist-info/licenses/LICENSE.md
+* /usr/lib/python3.13/site-packages/soupsieve-2.7.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/soupsieve-2.7.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/soupsieve-2.7.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/soupsieve/css_match.py
 * /usr/lib/python3.13/site-packages/soupsieve/css_parser.py
 * /usr/lib/python3.13/site-packages/soupsieve/css_types.py
@@ -44,4 +44,4 @@ A CSS4 selector implementation for Beautiful Soup
 * /usr/lib/python3.13/site-packages/soupsieve/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/soupsieve/__pycache__/__meta__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/soupsieve/__pycache__/__meta__.cpython-313.pyc
-* /usr/share/doc/python3-soupsieve-2.6/README.md
+* /usr/share/doc/python3-soupsieve-2.7/README.md

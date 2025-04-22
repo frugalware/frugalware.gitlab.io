@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-pillow 11.1.0-2"
-version = "11.1.0-2"
+title = "python3-pillow 11.2.1-1"
+version = "11.2.1-1"
 description = "Python Imaging Library (PIL) fork"
-date = "2025-03-13T16:29:26"
+date = "2025-04-22T18:45:14"
 aliases = "/packages/219182"
 categories = ['xlib-extra']
 upstreamurl = "http://pypi.python.org/pypi/pillow"
 arch = "x86_64"
-size = "798444"
-usize = "3108867"
-sha1sum = "85bcc2cfff572a4329b695106dc1f385f6780c74"
+size = "817048"
+usize = "3183466"
+sha1sum = "1f2dcf5f242a2f27fed08164c0885b576117bfe5"
 depends = "['libtiff>=4.7.0', 'libwebp', 'openjpeg', 'python3-pytz', 'sane-backends', 'tk']"
 reverse_depends = "['calibre', 'discover-overlay', 'face_recognition', 'howdy', 'krr', 'protontricks', 'python3-nml', 'wxpython']"
 +++
@@ -18,6 +18,7 @@ reverse_depends = "['calibre', 'discover-overlay', 'face_recognition', 'howdy', 
 Python Imaging Library (PIL) fork
 
 ### Files: 
+* /usr/lib/python3.13/site-packages/PIL/AvifImagePlugin.py
 * /usr/lib/python3.13/site-packages/PIL/BdfFontFile.py
 * /usr/lib/python3.13/site-packages/PIL/BlpImagePlugin.py
 * /usr/lib/python3.13/site-packages/PIL/BmpImagePlugin.py
@@ -106,6 +107,8 @@ Python Imaging Library (PIL) fork
 * /usr/lib/python3.13/site-packages/PIL/XbmImagePlugin.py
 * /usr/lib/python3.13/site-packages/PIL/XpmImagePlugin.py
 * /usr/lib/python3.13/site-packages/PIL/XVThumbImagePlugin.py
+* /usr/lib/python3.13/site-packages/PIL/_avif.cpython-313-x86_64-linux-gnu.so
+* /usr/lib/python3.13/site-packages/PIL/_avif.pyi
 * /usr/lib/python3.13/site-packages/PIL/_binary.py
 * /usr/lib/python3.13/site-packages/PIL/_deprecate.py
 * /usr/lib/python3.13/site-packages/PIL/_imaging.cpython-313-x86_64-linux-gnu.so
@@ -128,6 +131,7 @@ Python Imaging Library (PIL) fork
 * /usr/lib/python3.13/site-packages/PIL/_webp.pyi
 * /usr/lib/python3.13/site-packages/PIL/__init__.py
 * /usr/lib/python3.13/site-packages/PIL/__main__.py
+* /usr/lib/python3.13/site-packages/PIL/__pycache__/AvifImagePlugin.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/PIL/__pycache__/BdfFontFile.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/PIL/__pycache__/BlpImagePlugin.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/PIL/__pycache__/BmpImagePlugin.cpython-313.pyc
@@ -223,11 +227,11 @@ Python Imaging Library (PIL) fork
 * /usr/lib/python3.13/site-packages/PIL/__pycache__/_version.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/PIL/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/PIL/__pycache__/__main__.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/pillow-11.1.0-py3.13.egg-info/dependency_links.txt
-* /usr/lib/python3.13/site-packages/pillow-11.1.0-py3.13.egg-info/PKG-INFO
-* /usr/lib/python3.13/site-packages/pillow-11.1.0-py3.13.egg-info/requires.txt
-* /usr/lib/python3.13/site-packages/pillow-11.1.0-py3.13.egg-info/SOURCES.txt
-* /usr/lib/python3.13/site-packages/pillow-11.1.0-py3.13.egg-info/top_level.txt
-* /usr/lib/python3.13/site-packages/pillow-11.1.0-py3.13.egg-info/zip-safe
-* /usr/share/doc/python3-pillow-11.1.0/LICENSE
-* /usr/share/doc/python3-pillow-11.1.0/README.md
+* /usr/lib/python3.13/site-packages/pillow-11.2.1-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/pillow-11.2.1-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/pillow-11.2.1-py3.13.egg-info/requires.txt
+* /usr/lib/python3.13/site-packages/pillow-11.2.1-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/pillow-11.2.1-py3.13.egg-info/top_level.txt
+* /usr/lib/python3.13/site-packages/pillow-11.2.1-py3.13.egg-info/zip-safe
+* /usr/share/doc/python3-pillow-11.2.1/LICENSE
+* /usr/share/doc/python3-pillow-11.2.1/README.md
