@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libxml2 2.13.6-3"
-version = "2.13.6-3"
+title = "libxml2 2.13.8-1"
+version = "2.13.8-1"
 description = "XML parsing library"
-date = "2025-03-25T10:48:17"
+date = "2025-04-22T07:46:10"
 aliases = "/packages/3212"
 categories = ['lib']
 upstreamurl = "https://gitlab.gnome.org/GNOME/libxml2/-/wikis/home"
 arch = "x86_64"
-size = "681684"
-usize = "2197723"
-sha1sum = "6c70398580ee839d86a78ba9f50f6189b921bc14"
+size = "680920"
+usize = "2198359"
+sha1sum = "69d2c25b65d1f6886073a88edc8fcf43827de225"
 depends = "['icu4c>=77.1', 'xz>=5.2.4-2']"
 reverse_depends = "['apache', 'aria2', 'at-spi2-core', 'augeas', 'autogen', 'autopano-sift-c', 'bind', 'clamav', 'clang', 'clang-libs', 'clang18', 'clang18-libs', 'conky', 'distcc-gui', 'docbook-xml', 'ebook-tools', 'fluxbox', 'foomatic-db', 'foomatic-db-engine', 'foomatic-db-nonfree', 'gdal', 'glade', 'graphicsmagick', 'gtksourceview4', 'gtksourceview5', 'gtkspell', 'gutenprint', 'guvcview', 'hivex', 'hwloc', 'ices', 'intel-graphics-compiler', 'libavif', 'libbluray', 'libcmis', 'libcroco', 'libgnt', 'libgsf', 'libguestfs', 'libical', 'libiio', 'liblangtag', 'libmusicbrainz', 'libplist', 'libqalculate', 'librdf', 'libreoffice', 'librest', 'libsoup', 'libvips', 'libvirt', 'libvisio', 'libxkbcommon', 'libxml++2', 'libxml2-docs', 'libxml2-python', 'libxslt', 'llvm-libs', 'llvm18-libs', 'm17n-lib', 'mariadb', 'mlt-jack', 'mod_security', 'naev', 'netpbm', 'nfs-utils', 'notification-daemon', 'ocaml', 'opencollada', 'openconnect', 'openslide', 'openturns', 'pdal-postgresql', 'phonon-qt5', 'phonon-qt6', 'php', 'php-embed', 'podofo', 'postgresql', 'postgresql-extras', 'postgresql-upgrade-from-13', 'postgresql-upgrade-from-14', 'postgresql-upgrade-from-15', 'postgresql-upgrade-from-16', 'printoxx', 'ptabtools', 'python3-html5-parser', 'python3-lxml', 'qt5-webengine', 'raptor', 'rng-tools', 'rrdtool', 'ruby', 'rust', 'shared-mime-info', 'sim', 'spirv-llvm-translator', 'telepathy-logger', 'tk', 'uwsgi', 'uwsgi-plugin-airbrake', 'uwsgi-plugin-xslt', 'vcdimager', 'wayland', 'wimlib', 'wine', 'wine-devel', 'wxmaxima', 'xmlrpc-c', 'xmlsec1', 'xpad']"
 +++
@@ -70,12 +70,12 @@ XML parsing library
 * /usr/lib/cmake/libxml2/libxml2-config.cmake
 * /usr/lib/libxml2.so
 * /usr/lib/libxml2.so.2
-* /usr/lib/libxml2.so.2.13.6
+* /usr/lib/libxml2.so.2.13.8
 * /usr/lib/pkgconfig/libxml-2.0.pc
 * /usr/share/aclocal/libxml.m4
-* /usr/share/doc/libxml2-2.13.6/NEWS
-* /usr/share/doc/libxml2-2.13.6/README.md
-* /usr/share/doc/libxml2-2.13.6/README.zOS
+* /usr/share/doc/libxml2-2.13.8/NEWS
+* /usr/share/doc/libxml2-2.13.8/README.md
+* /usr/share/doc/libxml2-2.13.8/README.zOS
 * /usr/share/man/man1/xml2-config.1.gz
 * /usr/share/man/man1/xmlcatalog.1.gz
 * /usr/share/man/man1/xmllint.1.gz
