@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lxqt-build-tools 2.1.0-1"
-version = "2.1.0-1"
+title = "lxqt-build-tools 2.2.0-1"
+version = "2.2.0-1"
 description = "Various packaging tools and scripts for LXQt applications."
-date = "2024-11-26T14:50:50"
+date = "2025-04-22T13:29:01"
 aliases = "/packages/219175"
 categories = ['devel-extra']
 upstreamurl = "http://lxqt.org/"
 arch = "x86_64"
-size = "26364"
-usize = "134016"
-sha1sum = "8193f507f580f47838e6a39012205b001eb6acc0"
+size = "26440"
+usize = "134160"
+sha1sum = "52a7364637d36656c7619bb20ef1bfc8443076ee"
 depends = "['cmake']"
 +++
 ### Description: 
@@ -52,6 +52,6 @@ Various packaging tools and scripts for LXQt applications.
 * /usr/share/cmake/lxqt2-build-tools/modules/LXQtTranslationLoader.cmake
 * /usr/share/cmake/lxqt2-build-tools/modules/Qt6TranslationLoader.cmake
 * /usr/share/cmake/lxqt2-build-tools/modules/Qt6TranslationLoader.cpp.in
-* /usr/share/doc/lxqt-build-tools-2.1.0/AUTHORS
-* /usr/share/doc/lxqt-build-tools-2.1.0/CHANGELOG
-* /usr/share/doc/lxqt-build-tools-2.1.0/README.md
+* /usr/share/doc/lxqt-build-tools-2.2.0/AUTHORS
+* /usr/share/doc/lxqt-build-tools-2.2.0/CHANGELOG
+* /usr/share/doc/lxqt-build-tools-2.2.0/README.md

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pari 2.17.1-1"
-version = "2.17.1-1"
+title = "pari 2.17.2-1"
+version = "2.17.2-1"
 description = "PARI/GP is a computer algebra system designed for fast computations in number theory."
-date = "2025-01-07T16:16:30"
+date = "2025-04-22T13:53:02"
 aliases = "/packages/59958"
 categories = ['xapps-extra']
 upstreamurl = "http://pari.math.u-bordeaux.fr"
 arch = "x86_64"
-size = "4476192"
-usize = "15423547"
-sha1sum = "410187d5d4d25d90a749d479b810aa921487e686"
+size = "4479612"
+usize = "15425189"
+sha1sum = "91e240dc89e32829fda15020be8e14a52e362aaa"
 depends = "['gmp>=5.0.5-2', 'libx11', 'readline>=8.0']"
 +++
 ### Description: 
@@ -39,17 +39,17 @@ PARI/GP is a computer algebra system designed for fast computations in number th
 * /usr/include/pari/paristio.h
 * /usr/include/pari/parisys.h
 * /usr/include/pari/paritune.h
-* /usr/lib/libpari-gmp.so.2.17.1
+* /usr/lib/libpari-gmp.so.2.17.2
 * /usr/lib/libpari-gmp.so.9
 * /usr/lib/libpari.so
 * /usr/lib/pari/pari.cfg
-* /usr/share/doc/pari-2.17.1/AUTHORS
-* /usr/share/doc/pari-2.17.1/CHANGES
-* /usr/share/doc/pari-2.17.1/COPYING
-* /usr/share/doc/pari-2.17.1/INSTALL
-* /usr/share/doc/pari-2.17.1/LICENSE
-* /usr/share/doc/pari-2.17.1/README
-* /usr/share/doc/pari-2.17.1/README-git
+* /usr/share/doc/pari-2.17.2/AUTHORS
+* /usr/share/doc/pari-2.17.2/CHANGES
+* /usr/share/doc/pari-2.17.2/COPYING
+* /usr/share/doc/pari-2.17.2/INSTALL
+* /usr/share/doc/pari-2.17.2/LICENSE
+* /usr/share/doc/pari-2.17.2/README
+* /usr/share/doc/pari-2.17.2/README-git
 * /usr/share/man/man1/gp-2.17.1.gz
 * /usr/share/man/man1/gp.1.gz
 * /usr/share/man/man1/gphelp.1.gz

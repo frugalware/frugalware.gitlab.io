@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qtermwidget 2.1.0-5"
-version = "2.1.0-5"
+title = "qtermwidget 2.2.0-1"
+version = "2.2.0-1"
 description = "A terminal emulator widget for Qt6"
-date = "2025-04-07T13:12:04"
+date = "2025-04-22T13:35:44"
 aliases = "/packages/217828"
 categories = ['xapps-extra']
 upstreamurl = "https://www.lxde.org"
 arch = "x86_64"
-size = "208996"
-usize = "770106"
-sha1sum = "c74c607cf29d0e0e118f7ee0ad425a52df1089ea"
+size = "220916"
+usize = "809053"
+sha1sum = "c20d531dcaf79345bc481a80d43deba657fcb80c"
 depends = "['qt6-base>=6.8.2', 'utf8proc>=2.9.0']"
 reverse_depends = "['qterminal']"
 +++
@@ -31,13 +31,13 @@ A terminal emulator widget for Qt6
 * /usr/lib/cmake/qtermwidget6/qtermwidget6-targets.cmake
 * /usr/lib/libqtermwidget6.so
 * /usr/lib/libqtermwidget6.so.2
-* /usr/lib/libqtermwidget6.so.2.1.0
+* /usr/lib/libqtermwidget6.so.2.2.0
 * /usr/lib/pkgconfig/qtermwidget6.pc
-* /usr/share/doc/qtermwidget-2.1.0/AUTHORS
-* /usr/share/doc/qtermwidget-2.1.0/CHANGELOG
-* /usr/share/doc/qtermwidget-2.1.0/COPYING-CMAKE-SCRIPTS
-* /usr/share/doc/qtermwidget-2.1.0/LICENSE
-* /usr/share/doc/qtermwidget-2.1.0/README.md
+* /usr/share/doc/qtermwidget-2.2.0/AUTHORS
+* /usr/share/doc/qtermwidget-2.2.0/CHANGELOG
+* /usr/share/doc/qtermwidget-2.2.0/COPYING-CMAKE-SCRIPTS
+* /usr/share/doc/qtermwidget-2.2.0/LICENSE
+* /usr/share/doc/qtermwidget-2.2.0/README.md
 * /usr/share/qtermwidget6/color-schemes/BlackOnLightYellow.colorscheme
 * /usr/share/qtermwidget6/color-schemes/BlackOnRandomLight.colorscheme
 * /usr/share/qtermwidget6/color-schemes/BlackOnWhite.colorscheme
@@ -83,6 +83,7 @@ A terminal emulator widget for Qt6
 * /usr/share/qtermwidget6/translations/qtermwidget_de.qm
 * /usr/share/qtermwidget6/translations/qtermwidget_de_CH.qm
 * /usr/share/qtermwidget6/translations/qtermwidget_el.qm
+* /usr/share/qtermwidget6/translations/qtermwidget_en_GB.qm
 * /usr/share/qtermwidget6/translations/qtermwidget_es.qm
 * /usr/share/qtermwidget6/translations/qtermwidget_et.qm
 * /usr/share/qtermwidget6/translations/qtermwidget_fi.qm
@@ -93,6 +94,8 @@ A terminal emulator widget for Qt6
 * /usr/share/qtermwidget6/translations/qtermwidget_hu.qm
 * /usr/share/qtermwidget6/translations/qtermwidget_it.qm
 * /usr/share/qtermwidget6/translations/qtermwidget_ja.qm
+* /usr/share/qtermwidget6/translations/qtermwidget_ka.qm
+* /usr/share/qtermwidget6/translations/qtermwidget_kab.qm
 * /usr/share/qtermwidget6/translations/qtermwidget_ko.qm
 * /usr/share/qtermwidget6/translations/qtermwidget_lg.qm
 * /usr/share/qtermwidget6/translations/qtermwidget_lt.qm

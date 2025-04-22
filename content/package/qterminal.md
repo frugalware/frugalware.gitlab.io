@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qterminal 2.1.0-5"
-version = "2.1.0-5"
+title = "qterminal 2.2.0-1"
+version = "2.2.0-1"
 description = "The lightweight Qt6 terminal emulator"
-date = "2025-04-07T13:11:22"
+date = "2025-04-22T13:37:37"
 aliases = "/packages/218429"
 categories = ['xapps-extra']
 upstreamurl = "https://www.lxde.org"
 arch = "x86_64"
-size = "276204"
-usize = "1320621"
-sha1sum = "4c35263c6bee7052bcb652b29406d6f8d0803bde"
-depends = "['layer-shell-qt', 'qtermwidget>=2.1.0']"
+size = "287296"
+usize = "1371384"
+sha1sum = "4a977886ebc7e7e6d8ea8491a56bd58d9155ae2a"
+depends = "['layer-shell-qt', 'qtermwidget>=2.2.0']"
 reverse_depends = "['lumina-desktop']"
 +++
 ### Description: 
@@ -21,10 +21,10 @@ The lightweight Qt6 terminal emulator
 * /usr/bin/qterminal
 * /usr/share/applications/qterminal-drop.desktop
 * /usr/share/applications/qterminal.desktop
-* /usr/share/doc/qterminal-2.1.0/AUTHORS
-* /usr/share/doc/qterminal-2.1.0/CHANGELOG
-* /usr/share/doc/qterminal-2.1.0/LICENSE
-* /usr/share/doc/qterminal-2.1.0/README.md
+* /usr/share/doc/qterminal-2.2.0/AUTHORS
+* /usr/share/doc/qterminal-2.2.0/CHANGELOG
+* /usr/share/doc/qterminal-2.2.0/LICENSE
+* /usr/share/doc/qterminal-2.2.0/README.md
 * /usr/share/icons/hicolor/64x64/apps/qterminal.png
 * /usr/share/metainfo/qterminal.metainfo.xml
 * /usr/share/qterminal/qterminal_bookmarks_example.xml
@@ -39,6 +39,7 @@ The lightweight Qt6 terminal emulator
 * /usr/share/qterminal/translations/qterminal_de.qm
 * /usr/share/qterminal/translations/qterminal_de_CH.qm
 * /usr/share/qterminal/translations/qterminal_el.qm
+* /usr/share/qterminal/translations/qterminal_en_GB.qm
 * /usr/share/qterminal/translations/qterminal_es.qm
 * /usr/share/qterminal/translations/qterminal_et.qm
 * /usr/share/qterminal/translations/qterminal_fa.qm
@@ -52,10 +53,13 @@ The lightweight Qt6 terminal emulator
 * /usr/share/qterminal/translations/qterminal_id.qm
 * /usr/share/qterminal/translations/qterminal_it.qm
 * /usr/share/qterminal/translations/qterminal_ja.qm
+* /usr/share/qterminal/translations/qterminal_ka.qm
+* /usr/share/qterminal/translations/qterminal_kab.qm
 * /usr/share/qterminal/translations/qterminal_kk.qm
 * /usr/share/qterminal/translations/qterminal_ko_KR.qm
 * /usr/share/qterminal/translations/qterminal_lg.qm
 * /usr/share/qterminal/translations/qterminal_lt.qm
+* /usr/share/qterminal/translations/qterminal_mn.qm
 * /usr/share/qterminal/translations/qterminal_nb_NO.qm
 * /usr/share/qterminal/translations/qterminal_nl.qm
 * /usr/share/qterminal/translations/qterminal_oc.qm

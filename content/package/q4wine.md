@@ -1,33 +1,29 @@
 +++
 draft = false
-title = "q4wine 1.3.13-6"
-version = "1.3.13-6"
-description = "Q4Wine is a Qt5 GUI for W.I.N.E."
-date = "2024-11-16T15:02:27"
+title = "q4wine 1.4.1-1"
+version = "1.4.1-1"
+description = "Q4Wine is a Qt6 GUI for W.I.N.E."
+date = "2025-04-22T14:00:22"
 aliases = "/packages/184364"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/brezerk/q4wine"
 arch = "x86_64"
-size = "3161492"
-usize = "6810883"
-sha1sum = "12bc61695e933a00d35bc19aca0a207bc830ad2f"
-depends = "['fuseiso>=20070708-4', 'icoutils>=0.31.0-3', 'qt5-svg>=5.15.15']"
+size = "3423332"
+usize = "6800391"
+sha1sum = "d197a69e128834861cfddfe5b3fb55e9656921fc"
+depends = "['fuseiso>=20070708-4', 'icoutils>=0.31.0-3', 'qt6-svg']"
 +++
 ### Description: 
-Q4Wine is a Qt5 GUI for W.I.N.E.
+Q4Wine is a Qt6 GUI for W.I.N.E.
 
 ### Files: 
 * /usr/bin/q4wine
 * /usr/bin/q4wine-cli
 * /usr/bin/q4wine-helper
-* /usr/lib/libq4wine-core.so
 * /usr/lib/q4wine/libq4wine-core.so
 * /usr/share/applications/q4wine.desktop
-* /usr/share/doc/q4wine-1.3.13/AUTHORS
-* /usr/share/doc/q4wine-1.3.13/ChangeLog
-* /usr/share/doc/q4wine-1.3.13/COPYING
-* /usr/share/doc/q4wine-1.3.13/INSTALL
-* /usr/share/doc/q4wine-1.3.13/README
+* /usr/share/doc/q4wine-1.4.1/COPYING
+* /usr/share/doc/q4wine-1.4.1/README.md
 * /usr/share/icons/hicolor/scalable/apps/q4wine-ambiance-dark.svg
 * /usr/share/icons/hicolor/scalable/apps/q4wine-ambiance.svg
 * /usr/share/icons/hicolor/scalable/apps/q4wine.svg
@@ -35,6 +31,7 @@ Q4Wine is a Qt5 GUI for W.I.N.E.
 * /usr/share/man/man1/q4wine-cli.1.gz
 * /usr/share/man/man1/q4wine-helper.1.gz
 * /usr/share/man/man1/q4wine.1.gz
+* /usr/share/metainfo/ua.org.brezblock.q4wine.appdata.xml
 * /usr/share/q4wine/icons/cdrom.svg
 * /usr/share/q4wine/icons/control.svg
 * /usr/share/q4wine/icons/exec_wine.png
@@ -59,9 +56,9 @@ Q4Wine is a Qt5 GUI for W.I.N.E.
 * /usr/share/q4wine/l10n/q4wine_he.qm
 * /usr/share/q4wine/l10n/q4wine_it.qm
 * /usr/share/q4wine/l10n/q4wine_ja.qm
+* /usr/share/q4wine/l10n/q4wine_nl.qm
 * /usr/share/q4wine/l10n/q4wine_pl.qm
 * /usr/share/q4wine/l10n/q4wine_pt_BR.qm
-* /usr/share/q4wine/l10n/q4wine_ru.qm
 * /usr/share/q4wine/l10n/q4wine_uk.qm
 * /usr/share/q4wine/l10n/q4wine_zh_CN.qm
 * /usr/share/q4wine/l10n/q4wine_zh_TW.qm
