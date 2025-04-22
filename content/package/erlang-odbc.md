@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "erlang-odbc 27.3.2-1"
-version = "27.3.2-1"
+title = "erlang-odbc 27.3.3-1"
+version = "27.3.3-1"
 description = "The Erlang ODBC application."
-date = "2025-04-11T18:35:26"
+date = "2025-04-22T08:14:21"
 aliases = "/packages/73591"
 categories = ['devel-extra']
 upstreamurl = "http://www.erlang.org/"
 arch = "x86_64"
-size = "80372"
-usize = "249173"
-sha1sum = "14fa6e19eaa5ce31d1b5698c13e9de670dc6f0bd"
-depends = "['erlang=27.3.2']"
+size = "80440"
+usize = "249285"
+sha1sum = "737dfc0d4ce30e52368b5f16c6125b40c487128d"
+depends = "['erlang=27.3.3']"
 +++
 ### Description: 
 The Erlang ODBC application.

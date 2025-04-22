@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "dune 3.18.0-1"
-version = "3.18.0-1"
+title = "dune 3.18.1-1"
+version = "3.18.1-1"
 description = "A composable build system for OCaml (formerly jbuilder)"
-date = "2025-04-04T07:19:34"
+date = "2025-04-22T08:21:02"
 aliases = "/packages/219562"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/ocaml/dune"
 arch = "x86_64"
-size = "13032408"
-usize = "40148960"
-sha1sum = "68970c8fa9e9db0e17e4acc73709210b29aca7fd"
+size = "13029772"
+usize = "40152399"
+sha1sum = "ec503479d2edc6037e78e0f5a83dd32274a7b47d"
 depends = "['ocaml>=5.3.0']"
 reverse_depends = "['ocaml-graphics']"
 +++
@@ -1061,7 +1061,7 @@ A composable build system for OCaml (formerly jbuilder)
 * /usr/lib/ocaml/xdg/xdg.cmxs
 * /usr/lib/ocaml/xdg/xdg.ml
 * /usr/lib/ocaml/xdg/xdg.mli
-* /usr/share/doc/dune-3.18.0/README.md
+* /usr/share/doc/dune-3.18.1/README.md
 * /usr/share/doc/dune-action-plugin/CHANGES.md
 * /usr/share/doc/dune-action-plugin/LICENSE.md
 * /usr/share/doc/dune-action-plugin/README.md
