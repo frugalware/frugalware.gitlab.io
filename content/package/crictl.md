@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "crictl 1.32.0-1"
-version = "1.32.0-1"
+title = "crictl 1.33.0-1"
+version = "1.33.0-1"
 description = "A CLI for CRI-compatible container runtimes"
-date = "2024-12-11T15:04:55"
+date = "2025-04-23T07:07:58"
 aliases = "/packages/222599"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/kubernetes-sigs/cri-tools"
 arch = "x86_64"
-size = "7339404"
-usize = "30559099"
-sha1sum = "3666b2fa37622e4fccc5d5f9f6a74d6e213c37c0"
+size = "7694316"
+usize = "32488550"
+sha1sum = "9271f1bb74bde4c5e9b021517e691272b56a6d18"
 depends = "[]"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "postfix 3.10.1-2"
-version = "3.10.1-2"
+title = "postfix 3.10.2-1"
+version = "3.10.2-1"
 description = "A fast, easy to administer, and secure MTA"
-date = "2025-03-19T12:36:37"
+date = "2025-04-23T07:06:36"
 aliases = "/packages/3296"
 categories = ['network']
 upstreamurl = "https://www.postfix.org/"
 arch = "x86_64"
-size = "1488988"
-usize = "4907332"
-sha1sum = "2251ae671ce2df7b283cd0e1e1f1045abf347f75"
+size = "1489252"
+usize = "4908522"
+sha1sum = "849e107d0346915aa96dcac7a9b0ba86bbaefdc4"
 depends = "['cyrus-sasl>=2.1.26-3', 'icu4c>=77.1', 'libldap>=2.4.47-2', 'libnsl>=2.0.0', 'libpq>=11.2-2', 'lmdb', 'mariadb-libs>=10.3.14', 'openssl>=3.1.0', 'pcre>=8.30']"
 reverse_depends = "['arpwatch', 'postfixadmin']"
 +++
@@ -92,37 +92,37 @@ A fast, easy to administer, and secure MTA
 * /usr/lib/postfix/virtual
 * /usr/lib/sendmail
 * /usr/lib/systemd/system/postfix.service
-* /usr/share/doc/postfix-3.10.1/AAAREADME
-* /usr/share/doc/postfix-3.10.1/COPYRIGHT
-* /usr/share/doc/postfix-3.10.1/HISTORY
-* /usr/share/doc/postfix-3.10.1/INSTALL
-* /usr/share/doc/postfix-3.10.1/LICENSE
-* /usr/share/doc/postfix-3.10.1/README.Frugalware
-* /usr/share/doc/postfix-3.10.1/RELEASE_NOTES
-* /usr/share/doc/postfix-3.10.1/RELEASE_NOTES-1.0
-* /usr/share/doc/postfix-3.10.1/RELEASE_NOTES-1.1
-* /usr/share/doc/postfix-3.10.1/RELEASE_NOTES-2.0
-* /usr/share/doc/postfix-3.10.1/RELEASE_NOTES-2.1
-* /usr/share/doc/postfix-3.10.1/RELEASE_NOTES-2.10
-* /usr/share/doc/postfix-3.10.1/RELEASE_NOTES-2.11
-* /usr/share/doc/postfix-3.10.1/RELEASE_NOTES-2.2
-* /usr/share/doc/postfix-3.10.1/RELEASE_NOTES-2.3
-* /usr/share/doc/postfix-3.10.1/RELEASE_NOTES-2.4
-* /usr/share/doc/postfix-3.10.1/RELEASE_NOTES-2.5
-* /usr/share/doc/postfix-3.10.1/RELEASE_NOTES-2.6
-* /usr/share/doc/postfix-3.10.1/RELEASE_NOTES-2.7
-* /usr/share/doc/postfix-3.10.1/RELEASE_NOTES-2.8
-* /usr/share/doc/postfix-3.10.1/RELEASE_NOTES-2.9
-* /usr/share/doc/postfix-3.10.1/RELEASE_NOTES-3.0
-* /usr/share/doc/postfix-3.10.1/RELEASE_NOTES-3.1
-* /usr/share/doc/postfix-3.10.1/RELEASE_NOTES-3.2
-* /usr/share/doc/postfix-3.10.1/RELEASE_NOTES-3.3
-* /usr/share/doc/postfix-3.10.1/RELEASE_NOTES-3.4
-* /usr/share/doc/postfix-3.10.1/RELEASE_NOTES-3.5
-* /usr/share/doc/postfix-3.10.1/RELEASE_NOTES-3.6
-* /usr/share/doc/postfix-3.10.1/RELEASE_NOTES-3.7
-* /usr/share/doc/postfix-3.10.1/RELEASE_NOTES-3.8
-* /usr/share/doc/postfix-3.10.1/RELEASE_NOTES-3.9
+* /usr/share/doc/postfix-3.10.2/AAAREADME
+* /usr/share/doc/postfix-3.10.2/COPYRIGHT
+* /usr/share/doc/postfix-3.10.2/HISTORY
+* /usr/share/doc/postfix-3.10.2/INSTALL
+* /usr/share/doc/postfix-3.10.2/LICENSE
+* /usr/share/doc/postfix-3.10.2/README.Frugalware
+* /usr/share/doc/postfix-3.10.2/RELEASE_NOTES
+* /usr/share/doc/postfix-3.10.2/RELEASE_NOTES-1.0
+* /usr/share/doc/postfix-3.10.2/RELEASE_NOTES-1.1
+* /usr/share/doc/postfix-3.10.2/RELEASE_NOTES-2.0
+* /usr/share/doc/postfix-3.10.2/RELEASE_NOTES-2.1
+* /usr/share/doc/postfix-3.10.2/RELEASE_NOTES-2.10
+* /usr/share/doc/postfix-3.10.2/RELEASE_NOTES-2.11
+* /usr/share/doc/postfix-3.10.2/RELEASE_NOTES-2.2
+* /usr/share/doc/postfix-3.10.2/RELEASE_NOTES-2.3
+* /usr/share/doc/postfix-3.10.2/RELEASE_NOTES-2.4
+* /usr/share/doc/postfix-3.10.2/RELEASE_NOTES-2.5
+* /usr/share/doc/postfix-3.10.2/RELEASE_NOTES-2.6
+* /usr/share/doc/postfix-3.10.2/RELEASE_NOTES-2.7
+* /usr/share/doc/postfix-3.10.2/RELEASE_NOTES-2.8
+* /usr/share/doc/postfix-3.10.2/RELEASE_NOTES-2.9
+* /usr/share/doc/postfix-3.10.2/RELEASE_NOTES-3.0
+* /usr/share/doc/postfix-3.10.2/RELEASE_NOTES-3.1
+* /usr/share/doc/postfix-3.10.2/RELEASE_NOTES-3.2
+* /usr/share/doc/postfix-3.10.2/RELEASE_NOTES-3.3
+* /usr/share/doc/postfix-3.10.2/RELEASE_NOTES-3.4
+* /usr/share/doc/postfix-3.10.2/RELEASE_NOTES-3.5
+* /usr/share/doc/postfix-3.10.2/RELEASE_NOTES-3.6
+* /usr/share/doc/postfix-3.10.2/RELEASE_NOTES-3.7
+* /usr/share/doc/postfix-3.10.2/RELEASE_NOTES-3.8
+* /usr/share/doc/postfix-3.10.2/RELEASE_NOTES-3.9
 * /usr/share/man/man1/mailq.1.gz
 * /usr/share/man/man1/newaliases.1.gz
 * /usr/share/man/man1/postalias.1.gz
