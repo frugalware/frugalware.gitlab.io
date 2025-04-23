@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "rkward 0.8.0-6"
-version = "0.8.0-6"
+title = "rkward 0.8.1-1"
+version = "0.8.1-1"
 description = "Easily extensible, easy to use IDE/GUI for R."
-date = "2025-04-07T13:17:07"
+date = "2025-04-23T14:47:20"
 aliases = "/packages/136601"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3682856"
-usize = "19544828"
-sha1sum = "eea89018b9f7009de2116ac647431f73c7ffa979"
-depends = "['ktexteditor>=6.12.0', 'qt6-webengine>=6.9.0', 'r']"
+size = "3987456"
+usize = "21322846"
+sha1sum = "c97073bdc6d23c285923e5fb58795d587a889d27"
+depends = "['ktexteditor>=6.13.0', 'qt6-webengine>=6.9.0', 'r']"
 +++
 ### Description: 
 Easily extensible, easy to use IDE/GUI for R.
@@ -37,6 +37,10 @@ Easily extensible, easy to use IDE/GUI for R.
 * /usr/share/doc/HTML/nl/rkward/index.docbook
 * /usr/share/doc/HTML/nl/rkwardplugins/index.cache.bz2
 * /usr/share/doc/HTML/nl/rkwardplugins/index.docbook
+* /usr/share/doc/HTML/sl/rkward/index.cache.bz2
+* /usr/share/doc/HTML/sl/rkward/index.docbook
+* /usr/share/doc/HTML/sl/rkwardplugins/index.cache.bz2
+* /usr/share/doc/HTML/sl/rkwardplugins/index.docbook
 * /usr/share/doc/HTML/sv/rkward/index.cache.bz2
 * /usr/share/doc/HTML/sv/rkward/index.docbook
 * /usr/share/doc/HTML/sv/rkwardplugins/index.cache.bz2
@@ -45,10 +49,11 @@ Easily extensible, easy to use IDE/GUI for R.
 * /usr/share/doc/HTML/uk/rkward/index.docbook
 * /usr/share/doc/HTML/uk/rkwardplugins/index.cache.bz2
 * /usr/share/doc/HTML/uk/rkwardplugins/index.docbook
-* /usr/share/doc/rkward-0.8.0/AUTHORS
-* /usr/share/doc/rkward-0.8.0/INSTALL
-* /usr/share/doc/rkward-0.8.0/README
-* /usr/share/doc/rkward-0.8.0/TODO
+* /usr/share/doc/rkward-0.8.1/AUTHORS
+* /usr/share/doc/rkward-0.8.1/ChangeLog
+* /usr/share/doc/rkward-0.8.1/INSTALL
+* /usr/share/doc/rkward-0.8.1/README
+* /usr/share/doc/rkward-0.8.1/TODO
 * /usr/share/icons/hicolor/128x128/apps/rkward.png
 * /usr/share/icons/hicolor/16x16/apps/rkward.png
 * /usr/share/icons/hicolor/22x22/apps/rkward.png
@@ -189,6 +194,8 @@ Easily extensible, easy to use IDE/GUI for R.
 * /usr/share/locale/gl/LC_MESSAGES/rkward__item_response_theory.mo
 * /usr/share/locale/gl/LC_MESSAGES/rkward__pages.mo
 * /usr/share/locale/gl/LC_MESSAGES/rkward__plots.mo
+* /usr/share/locale/he/LC_MESSAGES/rkward__graphics_device.mo
+* /usr/share/locale/hu/LC_MESSAGES/rkward__analysis.mo
 * /usr/share/locale/ia/LC_MESSAGES/rkward.mo
 * /usr/share/locale/ia/LC_MESSAGES/rkward__analysis.mo
 * /usr/share/locale/ia/LC_MESSAGES/rkward__data.mo
@@ -364,12 +371,16 @@ Easily extensible, easy to use IDE/GUI for R.
 * /usr/share/man/it/man1/rkward.1.gz
 * /usr/share/man/man1/rkward.1.gz
 * /usr/share/man/nl/man1/rkward.1.gz
+* /usr/share/man/sl/man1/rkward.1.gz
 * /usr/share/man/sv/man1/rkward.1.gz
 * /usr/share/man/uk/man1/rkward.1.gz
 * /usr/share/metainfo/org.kde.rkward.metainfo.xml
 * /usr/share/mime/packages/vnd.kde.rkward-output.xml
 * /usr/share/mime/packages/vnd.kde.rmarkdown.xml
 * /usr/share/mime/packages/vnd.rkward.r.xml
+* /usr/share/rkward/00saveload/DownloadAppImage.js
+* /usr/share/rkward/00saveload/DownloadAppImage.rkh
+* /usr/share/rkward/00saveload/DownloadAppImage.xml
 * /usr/share/rkward/00saveload/import/convert_encoding.js
 * /usr/share/rkward/00saveload/import/convert_encoding.xml
 * /usr/share/rkward/00saveload/import/import_csv.js
@@ -858,6 +869,7 @@ Easily extensible, easy to use IDE/GUI for R.
 * /usr/share/rkward/resource.ver
 * /usr/share/rkward/rkwarddev_scripts/README_how_to_use_rkwarddev_scripts.md
 * /usr/share/rkward/rkwarddev_scripts/rkwarddev_power_plugin_script.R
+* /usr/share/rkward/rkwarddev_scripts/rkwarddev_rk.download_appimage_plugin_script.R
 * /usr/share/rkward/rkwarddev_scripts/rkwarddev_rk.RMarkdown_plugin_script.R
 * /usr/share/rkward/rkwarddev_scripts/subset_dataframe.R
 * /usr/share/rkward/rkwarddev_scripts/write_csv.R
