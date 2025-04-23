@@ -12,7 +12,7 @@ size = "2790968"
 usize = "16756438"
 sha1sum = "32e9675f31300c8fa0f92078c54e4c7f30396008"
 depends = "['curl>=7.50.3-2', 'expat>=2.1.0-6', 'inih', 'libssh>=0.7.4-2', 'libstdc++>=11.2']"
-reverse_depends = "['darktable', 'gwenview', 'kfilemetadata', 'koko', 'krename', 'krita', 'libextractor', 'libgexiv2', 'libkexiv2', 'mlt', 'nomacs', 'nufraw', 'stellarium']"
+reverse_depends = "['darktable', 'gwenview', 'kfilemetadata', 'koko', 'krename', 'krita', 'libextractor', 'libgexiv2', 'libkexiv2', 'libkexiv25', 'mlt', 'nomacs', 'nufraw', 'stellarium']"
 +++
 ### Description: 
 Exiv2 is a C++ library and a command line utility to access image metadata.

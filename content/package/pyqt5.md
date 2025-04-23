@@ -12,7 +12,7 @@ size = "4382988"
 usize = "30828750"
 sha1sum = "62548d0c3e3f1ce9841acf5c32e873e73923f45f"
 depends = "['qt5-base>=5.15.10']"
-reverse_depends = "['hplip', 'pyqtwebengine']"
+reverse_depends = "['hplip', 'picard', 'pyqtwebengine']"
 license = "GPL"
 +++
 ### Description: 

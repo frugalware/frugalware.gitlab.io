@@ -12,7 +12,7 @@ size = "171716"
 usize = "447719"
 sha1sum = "1d3f94d8501d493c1e389d84600474446697e804"
 depends = "['libgssglue>=0.4-3', 'libkrb5>=1.16']"
-reverse_depends = "['kio-extras', 'libnsl', 'libvirt', 'lsof', 'quota-tools', 'rpcbind', 'xorg-server-xwayland', 'zfs']"
+reverse_depends = "['kio-extras', 'kio5-extras', 'libnsl', 'libvirt', 'lsof', 'quota-tools', 'rpcbind', 'xorg-server-xwayland', 'zfs']"
 +++
 ### Description: 
 A port of Suns Transport-Independent RPC library to Linux.

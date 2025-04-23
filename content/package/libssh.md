@@ -12,7 +12,7 @@ size = "256924"
 usize = "848300"
 sha1sum = "9fdfb39864531676fc4ff18d1567947d26089a60"
 depends = "['libgcrypt>=1.7.3-2', 'openssl>=3.0.7', 'zlib-ng']"
-reverse_depends = "['cryptsetup-luks', 'exiv2', 'kio-extras', 'remmina', 'wireshark']"
+reverse_depends = "['cryptsetup-luks', 'exiv2', 'kio-extras', 'kio5-extras', 'remmina', 'wireshark']"
 +++
 ### Description: 
 The SSH library

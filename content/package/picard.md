@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "picard 2.13.3-3"
-version = "2.13.3-3"
+title = "picard 2.13.3-4"
+version = "2.13.3-4"
 description = "The next generation MusicBrainz tagger"
-date = "2025-04-09T11:40:56"
+date = "2025-04-23T08:36:20"
 aliases = "/packages/219040"
 categories = ['xmultimedia-extra']
 upstreamurl = "http://musicbrainz.org/doc/PicardTagger"
 arch = "x86_64"
-size = "2588404"
+size = "2589148"
 usize = "16488923"
-sha1sum = "18d0daa7df520e64d231732b67817b4e43637e63"
-depends = "['chromaprint', 'ffmpeg>=3.3.2', 'libgcc', 'libtheora', 'libx11', 'mutagen', 'pyqt6', 'python3>=3.13', 'python3-charset-normalizer', 'python3-dateutil', 'python3-discid', 'python3-fasteners', 'python3-pyjwt', 'pyyaml3']"
+sha1sum = "16dc721e6662c3448b995576f0f2fd8496b80beb"
+depends = "['chromaprint', 'ffmpeg>=3.3.2', 'libgcc', 'libtheora', 'libx11', 'mutagen', 'pyqt5', 'python3>=3.13', 'python3-charset-normalizer', 'python3-dateutil', 'python3-discid', 'python3-fasteners', 'python3-pyjwt', 'pyyaml3']"
 +++
 ### Description: 
 The next generation MusicBrainz tagger

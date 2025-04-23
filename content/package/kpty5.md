@@ -12,7 +12,7 @@ size = "41332"
 usize = "150648"
 sha1sum = "cfe8fa1b50101d74e6b3caf1ac4cb55a1c9b58c2"
 depends = "['kcoreaddons5>=5.116.0', 'ki18n5>=5.116.0', 'libutempter']"
-reverse_depends = "['kdesu5']"
+reverse_depends = "['kdesu5', 'kio5-extras']"
 +++
 ### Description: 
 Interfacing with pseudo terminal devices.

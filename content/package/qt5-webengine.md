@@ -12,7 +12,7 @@ size = "50867520"
 usize = "163326488"
 sha1sum = "650aa9bbee02945f0fad4b56cd87550476871285"
 depends = "['alsa-lib', 'ffmpeg>=7.0', 'icu4c>=77.1', 'jsoncpp>=1.7.5', 'lcms2', 'libevent>=2.1.11', 'libjpeg-turbo', 'libsrtp>=1.5.4-4', 'libvpx>=1.15.1', 'libwebp>=0.5.1-2', 'libxcomposite>=0.4.4-3', 'libxkbfile', 'libxml2', 'libxrandr>=1.5.0-5', 'libxscrnsaver>=1.2.2-3', 'libxslt', 'libxtst>=1.2.2-3', 'nss>=3.26', 'opus>=1.1.3-2', 'protobuf', 'qt5-declarative>=5.15.15', 'qt5-location>=5.15.15', 'qt5-webchannel>=5.15.15', 'snappy>=1.2.0']"
-reverse_depends = "['nmapsi4', 'otter-browser', 'pyqtwebengine', 'qt5-webview', 'quassel', 'rolisteam']"
+reverse_depends = "['kio5-extras', 'nmapsi4', 'otter-browser', 'pyqtwebengine', 'qt5-webview', 'quassel', 'rolisteam']"
 +++
 ### Description: 
 The Qt5 toolkit, qtwebengine

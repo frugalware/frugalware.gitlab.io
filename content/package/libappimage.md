@@ -12,7 +12,7 @@ size = "147220"
 usize = "389920"
 sha1sum = "223f9f0ecf043c4ce10a8092e701056517922e61"
 depends = "['libarchive', 'libboost>=1.87.0', 'librsvg', 'squashfuse']"
-reverse_depends = "['kfilemetadata', 'kio-extras']"
+reverse_depends = "['kfilemetadata', 'kio-extras', 'kio5-extras']"
 +++
 ### Description: 
 Reference implementation of the AppImage specification

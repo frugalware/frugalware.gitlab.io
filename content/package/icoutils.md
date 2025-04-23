@@ -12,7 +12,7 @@ size = "61896"
 usize = "188597"
 sha1sum = "e7bc31f1687b851d5566ac5949c4d1c5f60650be"
 depends = "['libpng>=1.6.23']"
-reverse_depends = "['kio-extras', 'q4wine']"
+reverse_depends = "['kio-extras', 'kio5-extras', 'q4wine']"
 +++
 ### Description: 
 A set of command-line programs for extracting and converting images
