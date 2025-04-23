@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qemu 9.2.3-1"
-version = "9.2.3-1"
+title = "qemu 10.0.0-1"
+version = "10.0.0-1"
 description = "QEMU is a FAST! processor emulator"
-date = "2025-04-04T08:19:28"
+date = "2025-04-23T15:08:42"
 aliases = "/packages/3815"
 categories = ['xapps-extra']
 upstreamurl = "http://www.nongnu.org/qemu/"
 arch = "x86_64"
-size = "128899468"
-usize = "849871582"
-sha1sum = "c9ff5d1e1f58e297824826bca75e4b9d79f34a4e"
+size = "130295840"
+usize = "855895192"
+sha1sum = "6c69dd83ec2bedc52d84fa5b7b2713ec4979a41f"
 depends = "['alsa-lib', 'bluez', 'curl', 'cyrus-sasl', 'dtc', 'fuse3', 'jemalloc', 'libaio', 'libbpf', 'libepoxy', 'libgbm', 'libglu', 'libjpeg-turbo', 'libpng>=1.6.20', 'libseccomp', 'libssh2', 'libsysprof-capture', 'liburing', 'libx11', 'lzo', 'ncurses>=6.0-3', 'nettle>=3.6', 'nss', 'numactl', 'pipewire', 'pixman', 'pulseaudio', 'snappy', 'spice-protocol', 'usbredir>=0.8.0', 'vte3', 'xkeyboard-config']"
 reverse_depends = "['libguestfs']"
 +++
@@ -87,8 +87,6 @@ QEMU is a FAST! processor emulator
 * /usr/lib/qemu/accel-qtest-x86_64.so
 * /usr/lib/qemu/accel-qtest-xtensa.so
 * /usr/lib/qemu/accel-qtest-xtensaeb.so
-* /usr/lib/qemu/accel-tcg-i386.so
-* /usr/lib/qemu/accel-tcg-x86_64.so
 * /usr/lib/qemu/audio-alsa.so
 * /usr/lib/qemu/audio-dbus.so
 * /usr/lib/qemu/audio-oss.so
@@ -105,6 +103,7 @@ QEMU is a FAST! processor emulator
 * /usr/lib/qemu/hw-display-virtio-gpu.so
 * /usr/lib/qemu/hw-display-virtio-vga.so
 * /usr/lib/qemu/hw-s390x-virtio-gpu-ccw.so
+* /usr/lib/qemu/hw-uefi-vars.so
 * /usr/lib/qemu/hw-usb-host.so
 * /usr/lib/qemu/hw-usb-redirect.so
 * /usr/lib/qemu/qemu-bridge-helper
@@ -117,12 +116,12 @@ QEMU is a FAST! processor emulator
 * /usr/lib/qemu/ui-spice-app.so
 * /usr/lib/qemu/ui-spice-core.so
 * /usr/share/applications/qemu.desktop
-* /usr/share/doc/qemu-9.2.3/COPYING
-* /usr/share/doc/qemu-9.2.3/COPYING.LIB
-* /usr/share/doc/qemu-9.2.3/LICENSE
-* /usr/share/doc/qemu-9.2.3/README.Frugalware
-* /usr/share/doc/qemu-9.2.3/README.rst
-* /usr/share/doc/qemu-9.2.3/VERSION
+* /usr/share/doc/qemu-10.0.0/COPYING
+* /usr/share/doc/qemu-10.0.0/COPYING.LIB
+* /usr/share/doc/qemu-10.0.0/LICENSE
+* /usr/share/doc/qemu-10.0.0/README.Frugalware
+* /usr/share/doc/qemu-10.0.0/README.rst
+* /usr/share/doc/qemu-10.0.0/VERSION
 * /usr/share/doc/qemu/.buildinfo
 * /usr/share/doc/qemu/about/build-platforms.html
 * /usr/share/doc/qemu/about/deprecated.html
@@ -134,9 +133,11 @@ QEMU is a FAST! processor emulator
 * /usr/share/doc/qemu/devel/atomics.html
 * /usr/share/doc/qemu/devel/bitops.html
 * /usr/share/doc/qemu/devel/block-coroutine-wrapper.html
+* /usr/share/doc/qemu/devel/build-environment.html
 * /usr/share/doc/qemu/devel/build-system.html
 * /usr/share/doc/qemu/devel/clocks.html
 * /usr/share/doc/qemu/devel/code-of-conduct.html
+* /usr/share/doc/qemu/devel/codebase.html
 * /usr/share/doc/qemu/devel/conflict-resolution.html
 * /usr/share/doc/qemu/devel/control-flow-integrity.html
 * /usr/share/doc/qemu/devel/crypto.html
@@ -175,12 +176,14 @@ QEMU is a FAST! processor emulator
 * /usr/share/doc/qemu/devel/multiple-iothreads.html
 * /usr/share/doc/qemu/devel/pci.html
 * /usr/share/doc/qemu/devel/qapi-code-gen.html
+* /usr/share/doc/qemu/devel/qapi-domain.html
 * /usr/share/doc/qemu/devel/qdev-api.html
 * /usr/share/doc/qemu/devel/qom-api.html
 * /usr/share/doc/qemu/devel/qom.html
 * /usr/share/doc/qemu/devel/rcu.html
 * /usr/share/doc/qemu/devel/replay.html
 * /usr/share/doc/qemu/devel/reset.html
+* /usr/share/doc/qemu/devel/rust.html
 * /usr/share/doc/qemu/devel/s390-cpu-topology.html
 * /usr/share/doc/qemu/devel/s390-dasd-ipl.html
 * /usr/share/doc/qemu/devel/secure-coding-practices.html
@@ -205,12 +208,14 @@ QEMU is a FAST! processor emulator
 * /usr/share/doc/qemu/devel/testing/qtest.html
 * /usr/share/doc/qemu/devel/tracing.html
 * /usr/share/doc/qemu/devel/trivial-patches.html
+* /usr/share/doc/qemu/devel/uefi-vars.html
 * /usr/share/doc/qemu/devel/ui.html
 * /usr/share/doc/qemu/devel/vfio-iommufd.html
 * /usr/share/doc/qemu/devel/virtio-backends.html
 * /usr/share/doc/qemu/devel/writing-monitor-commands.html
 * /usr/share/doc/qemu/devel/zoned-storage.html
 * /usr/share/doc/qemu/genindex.html
+* /usr/share/doc/qemu/glossary.html
 * /usr/share/doc/qemu/index.html
 * /usr/share/doc/qemu/interop/barrier.html
 * /usr/share/doc/qemu/interop/bitmaps.html
@@ -234,6 +239,9 @@ QEMU is a FAST! processor emulator
 * /usr/share/doc/qemu/interop/virtio-balloon-stats.html
 * /usr/share/doc/qemu/interop/vnc-ledstate-pseudo-encoding.html
 * /usr/share/doc/qemu/objects.inv
+* /usr/share/doc/qemu/qapi-qga-index.html
+* /usr/share/doc/qemu/qapi-qmp-index.html
+* /usr/share/doc/qemu/qapi-qsd-index.html
 * /usr/share/doc/qemu/search.html
 * /usr/share/doc/qemu/searchindex.js
 * /usr/share/doc/qemu/specs/acpi_cpu_hotplug.html
@@ -243,6 +251,7 @@ QEMU is a FAST! processor emulator
 * /usr/share/doc/qemu/specs/acpi_mem_hotplug.html
 * /usr/share/doc/qemu/specs/acpi_nvdimm.html
 * /usr/share/doc/qemu/specs/acpi_pci_hotplug.html
+* /usr/share/doc/qemu/specs/aspeed-intc.html
 * /usr/share/doc/qemu/specs/edu.html
 * /usr/share/doc/qemu/specs/fsi.html
 * /usr/share/doc/qemu/specs/fw_cfg.html
@@ -259,6 +268,7 @@ QEMU is a FAST! processor emulator
 * /usr/share/doc/qemu/specs/ppc-xive.html
 * /usr/share/doc/qemu/specs/pvpanic.html
 * /usr/share/doc/qemu/specs/rapl-msr.html
+* /usr/share/doc/qemu/specs/riscv-aia.html
 * /usr/share/doc/qemu/specs/riscv-iommu.html
 * /usr/share/doc/qemu/specs/rocker.html
 * /usr/share/doc/qemu/specs/sev-guest-firmware.html
@@ -282,6 +292,7 @@ QEMU is a FAST! processor emulator
 * /usr/share/doc/qemu/system/arm/fby35.html
 * /usr/share/doc/qemu/system/arm/highbank.html
 * /usr/share/doc/qemu/system/arm/imx25-pdk.html
+* /usr/share/doc/qemu/system/arm/imx8mp-evk.html
 * /usr/share/doc/qemu/system/arm/integratorcp.html
 * /usr/share/doc/qemu/system/arm/kzm.html
 * /usr/share/doc/qemu/system/arm/mcimx6ul-evk.html
@@ -302,6 +313,7 @@ QEMU is a FAST! processor emulator
 * /usr/share/doc/qemu/system/arm/versatile.html
 * /usr/share/doc/qemu/system/arm/vexpress.html
 * /usr/share/doc/qemu/system/arm/virt.html
+* /usr/share/doc/qemu/system/arm/vmapple.html
 * /usr/share/doc/qemu/system/arm/xenpvh.html
 * /usr/share/doc/qemu/system/arm/xlnx-versal-virt.html
 * /usr/share/doc/qemu/system/arm/xlnx-zcu102.html
@@ -317,6 +329,7 @@ QEMU is a FAST! processor emulator
 * /usr/share/doc/qemu/system/devices/ccid.html
 * /usr/share/doc/qemu/system/devices/cxl.html
 * /usr/share/doc/qemu/system/devices/igb.html
+* /usr/share/doc/qemu/system/devices/ivshmem-flat.html
 * /usr/share/doc/qemu/system/devices/ivshmem.html
 * /usr/share/doc/qemu/system/devices/keyboard.html
 * /usr/share/doc/qemu/system/devices/net.html
@@ -369,6 +382,7 @@ QEMU is a FAST! processor emulator
 * /usr/share/doc/qemu/system/qemu-cpu-models.html
 * /usr/share/doc/qemu/system/qemu-manpage.html
 * /usr/share/doc/qemu/system/replay.html
+* /usr/share/doc/qemu/system/riscv/microblaze-v-generic.html
 * /usr/share/doc/qemu/system/riscv/microchip-icicle-kit.html
 * /usr/share/doc/qemu/system/riscv/shakti-c.html
 * /usr/share/doc/qemu/system/riscv/sifive_u.html
@@ -386,6 +400,7 @@ QEMU is a FAST! processor emulator
 * /usr/share/doc/qemu/system/target-arm.html
 * /usr/share/doc/qemu/system/target-avr.html
 * /usr/share/doc/qemu/system/target-i386.html
+* /usr/share/doc/qemu/system/target-loongarch.html
 * /usr/share/doc/qemu/system/target-m68k.html
 * /usr/share/doc/qemu/system/target-mips.html
 * /usr/share/doc/qemu/system/target-openrisc.html
@@ -569,6 +584,7 @@ QEMU is a FAST! processor emulator
 * /usr/share/qemu/multiboot.bin
 * /usr/share/qemu/multiboot_dma.bin
 * /usr/share/qemu/npcm7xx_bootrom.bin
+* /usr/share/qemu/npcm8xx_bootrom.bin
 * /usr/share/qemu/openbios-ppc
 * /usr/share/qemu/openbios-sparc32
 * /usr/share/qemu/openbios-sparc64
@@ -577,6 +593,7 @@ QEMU is a FAST! processor emulator
 * /usr/share/qemu/palcode-clipper
 * /usr/share/qemu/petalogix-ml605.dtb
 * /usr/share/qemu/petalogix-s3adsp1800.dtb
+* /usr/share/qemu/pnv-pnor.bin
 * /usr/share/qemu/pvh.bin
 * /usr/share/qemu/pxe-e1000.rom
 * /usr/share/qemu/pxe-eepro100.rom
