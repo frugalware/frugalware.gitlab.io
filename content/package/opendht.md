@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "opendht 3.3.0-1"
-version = "3.3.0-1"
+title = "opendht 3.3.1-1"
+version = "3.3.1-1"
 description = "A C++11 implementation of the Kademlia DHT (Distributed Hash Table)"
-date = "2025-02-16T12:44:27"
+date = "2025-04-23T10:53:32"
 aliases = "/packages/219645"
 categories = ['network-extra']
 upstreamurl = "https://github.com/savoirfairelinux/opendht"
 arch = "x86_64"
-size = "1181228"
-usize = "4169674"
-sha1sum = "30bd0231d0e9c66510374eaad2d9d24d3c89be62"
+size = "1193548"
+usize = "4210715"
+sha1sum = "825f5ec61c6c46b4c7d5b0574ce2e4715e47dd1d"
 depends = "['argon2', 'asio', 'fmtlib>=11.0.1', 'gnutls', 'jsoncpp>=1.9.6', 'nettle>=3.6', 'readline>=8.0', 'restinio']"
 +++
 ### Description: 
@@ -76,6 +76,6 @@ A C++11 implementation of the Kademlia DHT (Distributed Hash Table)
 * /usr/lib/python3.13/site-packages/opendht.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/systemd/system/dhtcluster.service
 * /usr/lib/systemd/system/dhtnode.service
-* /usr/share/doc/opendht-3.3.0/COPYING
-* /usr/share/doc/opendht-3.3.0/README.md
+* /usr/share/doc/opendht-3.3.1/COPYING
+* /usr/share/doc/opendht-3.3.1/README.md
 * /usr/share/man/man1/dhtnode.1.gz
