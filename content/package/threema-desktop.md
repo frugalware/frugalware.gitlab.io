@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "threema-desktop 1.2.47-1"
-version = "1.2.47-1"
+title = "threema-desktop 1.2.47-2"
+version = "1.2.47-2"
 description = "Threema Desktop (Threema Web in Electron)."
-date = "2025-01-17T20:01:19"
+date = "2025-04-23T09:15:24"
 aliases = "/packages/220914"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/threema-ch/threema-web-electron"
 arch = "x86_64"
-size = "97872420"
-usize = "295052812"
-sha1sum = "5202fcdbf84594c3cc5e8ae8cc4433d1d74524df"
+size = "97882692"
+usize = "295052820"
+sha1sum = "3fb768d7fe3047a70cd9830d4a19571ddeb313eb"
 depends = "['dbus', 'glib2']"
 +++
 ### Description: 
