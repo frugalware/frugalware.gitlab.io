@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "grpc 1.71.0-3"
-version = "1.71.0-3"
+title = "grpc 1.72.0-1"
+version = "1.72.0-1"
 description = "High performance, open source, general RPC framework that puts mobile and HTTP/2 first."
-date = "2025-03-31T13:39:21"
+date = "2025-04-24T09:43:41"
 aliases = "/packages/219876"
 categories = ['devel']
 upstreamurl = "https://grpc.io"
 arch = "x86_64"
-size = "4880816"
-usize = "21345249"
-sha1sum = "a5d790b67e61a7ada88c3b3f002dd144d3c26e77"
+size = "4734628"
+usize = "21377308"
+sha1sum = "94290aba41c7afe94717d4a740047d6756e336d2"
 depends = "['c-ares', 'icu4c>=76.1', 'openssl>=3.1.0', 'protobuf>=30.2', 're2']"
 reverse_depends = "['qt6-grpc', 'sysdig']"
 +++
@@ -327,72 +327,72 @@ High performance, open source, general RPC framework that puts mobile and HTTP/2
 * /usr/lib/cmake/grpc/modules/Findre2.cmake
 * /usr/lib/cmake/grpc/modules/Findsystemd.cmake
 * /usr/lib/libaddress_sorting.so
-* /usr/lib/libaddress_sorting.so.46
-* /usr/lib/libaddress_sorting.so.46.0.0
+* /usr/lib/libaddress_sorting.so.47
+* /usr/lib/libaddress_sorting.so.47.0.0
 * /usr/lib/libgpr.so
-* /usr/lib/libgpr.so.46
-* /usr/lib/libgpr.so.46.0.0
+* /usr/lib/libgpr.so.47
+* /usr/lib/libgpr.so.47.0.0
 * /usr/lib/libgrpc++.so
-* /usr/lib/libgrpc++.so.1.71
-* /usr/lib/libgrpc++.so.1.71.0
+* /usr/lib/libgrpc++.so.1.72
+* /usr/lib/libgrpc++.so.1.72.0
 * /usr/lib/libgrpc++_alts.so
-* /usr/lib/libgrpc++_alts.so.1.71
-* /usr/lib/libgrpc++_alts.so.1.71.0
+* /usr/lib/libgrpc++_alts.so.1.72
+* /usr/lib/libgrpc++_alts.so.1.72.0
 * /usr/lib/libgrpc++_error_details.so
-* /usr/lib/libgrpc++_error_details.so.1.71
-* /usr/lib/libgrpc++_error_details.so.1.71.0
+* /usr/lib/libgrpc++_error_details.so.1.72
+* /usr/lib/libgrpc++_error_details.so.1.72.0
 * /usr/lib/libgrpc++_reflection.so
-* /usr/lib/libgrpc++_reflection.so.1.71
-* /usr/lib/libgrpc++_reflection.so.1.71.0
+* /usr/lib/libgrpc++_reflection.so.1.72
+* /usr/lib/libgrpc++_reflection.so.1.72.0
 * /usr/lib/libgrpc++_unsecure.so
-* /usr/lib/libgrpc++_unsecure.so.1.71
-* /usr/lib/libgrpc++_unsecure.so.1.71.0
+* /usr/lib/libgrpc++_unsecure.so.1.72
+* /usr/lib/libgrpc++_unsecure.so.1.72.0
 * /usr/lib/libgrpc.so
-* /usr/lib/libgrpc.so.46
-* /usr/lib/libgrpc.so.46.0.0
+* /usr/lib/libgrpc.so.47
+* /usr/lib/libgrpc.so.47.0.0
 * /usr/lib/libgrpcpp_channelz.so
-* /usr/lib/libgrpcpp_channelz.so.1.71
-* /usr/lib/libgrpcpp_channelz.so.1.71.0
+* /usr/lib/libgrpcpp_channelz.so.1.72
+* /usr/lib/libgrpcpp_channelz.so.1.72.0
 * /usr/lib/libgrpc_authorization_provider.so
-* /usr/lib/libgrpc_authorization_provider.so.1.71
-* /usr/lib/libgrpc_authorization_provider.so.1.71.0
+* /usr/lib/libgrpc_authorization_provider.so.1.72
+* /usr/lib/libgrpc_authorization_provider.so.1.72.0
 * /usr/lib/libgrpc_plugin_support.so
-* /usr/lib/libgrpc_plugin_support.so.1.71
-* /usr/lib/libgrpc_plugin_support.so.1.71.0
+* /usr/lib/libgrpc_plugin_support.so.1.72
+* /usr/lib/libgrpc_plugin_support.so.1.72.0
 * /usr/lib/libgrpc_unsecure.so
-* /usr/lib/libgrpc_unsecure.so.46
-* /usr/lib/libgrpc_unsecure.so.46.0.0
+* /usr/lib/libgrpc_unsecure.so.47
+* /usr/lib/libgrpc_unsecure.so.47.0.0
 * /usr/lib/libupb_base_lib.so
-* /usr/lib/libupb_base_lib.so.46
-* /usr/lib/libupb_base_lib.so.46.0.0
+* /usr/lib/libupb_base_lib.so.47
+* /usr/lib/libupb_base_lib.so.47.0.0
 * /usr/lib/libupb_json_lib.so
-* /usr/lib/libupb_json_lib.so.46
-* /usr/lib/libupb_json_lib.so.46.0.0
+* /usr/lib/libupb_json_lib.so.47
+* /usr/lib/libupb_json_lib.so.47.0.0
 * /usr/lib/libupb_mem_lib.so
-* /usr/lib/libupb_mem_lib.so.46
-* /usr/lib/libupb_mem_lib.so.46.0.0
+* /usr/lib/libupb_mem_lib.so.47
+* /usr/lib/libupb_mem_lib.so.47.0.0
 * /usr/lib/libupb_message_lib.so
-* /usr/lib/libupb_message_lib.so.46
-* /usr/lib/libupb_message_lib.so.46.0.0
+* /usr/lib/libupb_message_lib.so.47
+* /usr/lib/libupb_message_lib.so.47.0.0
 * /usr/lib/libupb_mini_descriptor_lib.so
-* /usr/lib/libupb_mini_descriptor_lib.so.46
-* /usr/lib/libupb_mini_descriptor_lib.so.46.0.0
+* /usr/lib/libupb_mini_descriptor_lib.so.47
+* /usr/lib/libupb_mini_descriptor_lib.so.47.0.0
 * /usr/lib/libupb_textformat_lib.so
-* /usr/lib/libupb_textformat_lib.so.46
-* /usr/lib/libupb_textformat_lib.so.46.0.0
+* /usr/lib/libupb_textformat_lib.so.47
+* /usr/lib/libupb_textformat_lib.so.47.0.0
 * /usr/lib/libupb_wire_lib.so
-* /usr/lib/libupb_wire_lib.so.46
-* /usr/lib/libupb_wire_lib.so.46.0.0
+* /usr/lib/libupb_wire_lib.so.47
+* /usr/lib/libupb_wire_lib.so.47.0.0
 * /usr/lib/libutf8_range_lib.so
-* /usr/lib/libutf8_range_lib.so.46
-* /usr/lib/libutf8_range_lib.so.46.0.0
+* /usr/lib/libutf8_range_lib.so.47
+* /usr/lib/libutf8_range_lib.so.47.0.0
 * /usr/lib/pkgconfig/gpr.pc
 * /usr/lib/pkgconfig/grpc++.pc
 * /usr/lib/pkgconfig/grpc++_unsecure.pc
 * /usr/lib/pkgconfig/grpc.pc
 * /usr/lib/pkgconfig/grpcpp_otel_plugin.pc
 * /usr/lib/pkgconfig/grpc_unsecure.pc
-* /usr/share/doc/grpc-1.71.0/AUTHORS
-* /usr/share/doc/grpc-1.71.0/LICENSE
-* /usr/share/doc/grpc-1.71.0/README.md
+* /usr/share/doc/grpc-1.72.0/AUTHORS
+* /usr/share/doc/grpc-1.72.0/LICENSE
+* /usr/share/doc/grpc-1.72.0/README.md
 * /usr/share/grpc/roots.pem
