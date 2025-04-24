@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gdb 16.2-1"
-version = "16.2-1"
+title = "gdb 16.3-1"
+version = "16.3-1"
 description = "Gnu Project Debugger"
-date = "2025-02-05T14:53:04"
+date = "2025-04-24T08:44:35"
 aliases = "/packages/2380"
 categories = ['devel']
 upstreamurl = "http://www.gnu.org/software/gdb/download/"
 arch = "x86_64"
-size = "4756088"
-usize = "13356326"
-sha1sum = "b6a414a7f8355be2f0adcf0dd0f27623968b2043"
+size = "4757480"
+usize = "13366546"
+sha1sum = "695036414d7851c883f240916a4bff8c7fabcc9b"
 depends = "['binutils', 'expat>=2.1.0-6', 'ncurses>=6.0-18', 'python3>=3.13', 'readline>=8.0', 'xxhash']"
 reverse_depends = "['python3-pygdbmi', 'qtcreator', 'rr']"
 +++
@@ -25,13 +25,13 @@ Gnu Project Debugger
 * /usr/bin/gstack
 * /usr/include/gdb/jit-reader.h
 * /usr/lib/libinproctrace.so
-* /usr/share/doc/gdb-16.2/ChangeLog
-* /usr/share/doc/gdb-16.2/COPYING
-* /usr/share/doc/gdb-16.2/COPYING.LIB
-* /usr/share/doc/gdb-16.2/COPYING3
-* /usr/share/doc/gdb-16.2/COPYING3.LIB
-* /usr/share/doc/gdb-16.2/README
-* /usr/share/doc/gdb-16.2/README-maintainer-mode
+* /usr/share/doc/gdb-16.3/ChangeLog
+* /usr/share/doc/gdb-16.3/COPYING
+* /usr/share/doc/gdb-16.3/COPYING.LIB
+* /usr/share/doc/gdb-16.3/COPYING3
+* /usr/share/doc/gdb-16.3/COPYING3.LIB
+* /usr/share/doc/gdb-16.3/README
+* /usr/share/doc/gdb-16.3/README-maintainer-mode
 * /usr/share/gdb/python/gdb/command/explore.py
 * /usr/share/gdb/python/gdb/command/frame_filters.py
 * /usr/share/gdb/python/gdb/command/missing_files.py

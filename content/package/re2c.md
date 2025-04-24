@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "re2c 4.1-1"
-version = "4.1-1"
+title = "re2c 4.2-1"
+version = "4.2-1"
 description = "re2c is an tool for generating C based recognizers from regular expressions"
-date = "2025-02-17T12:56:48"
+date = "2025-04-24T08:58:58"
 aliases = "/packages/30486"
 categories = ['devel']
 upstreamurl = "http://re2c.org/"
 arch = "x86_64"
-size = "747820"
-usize = "10467574"
-sha1sum = "eee3fcb4f90a4fdafca85df50c6a71405cfbf875"
+size = "794084"
+usize = "11719595"
+sha1sum = "244ff9060af974e24e84d9aa949a00ca0bc80343"
 depends = "['libstdc++>=7.3.0-4']"
 reverse_depends = "['php']"
 +++
@@ -26,11 +26,12 @@ re2c is an tool for generating C based recognizers from regular expressions
 * /usr/bin/re2ocaml
 * /usr/bin/re2py
 * /usr/bin/re2rust
+* /usr/bin/re2swift
 * /usr/bin/re2v
 * /usr/bin/re2zig
-* /usr/share/doc/re2c-4.1/CHANGELOG
-* /usr/share/doc/re2c-4.1/LICENSE
-* /usr/share/doc/re2c-4.1/README.md
+* /usr/share/doc/re2c-4.2/CHANGELOG
+* /usr/share/doc/re2c-4.2/LICENSE
+* /usr/share/doc/re2c-4.2/README.md
 * /usr/share/man/man1/re2c.1.gz
 * /usr/share/man/man1/re2d.1.gz
 * /usr/share/man/man1/re2go.1.gz
@@ -39,6 +40,7 @@ re2c is an tool for generating C based recognizers from regular expressions
 * /usr/share/man/man1/re2ocaml.1.gz
 * /usr/share/man/man1/re2py.1.gz
 * /usr/share/man/man1/re2rust.1.gz
+* /usr/share/man/man1/re2swift.1.gz
 * /usr/share/man/man1/re2v.1.gz
 * /usr/share/man/man1/re2zig.1.gz
 * /usr/share/re2c/stdlib/c
@@ -50,6 +52,7 @@ re2c is an tool for generating C based recognizers from regular expressions
 * /usr/share/re2c/stdlib/ocaml
 * /usr/share/re2c/stdlib/python
 * /usr/share/re2c/stdlib/rust
+* /usr/share/re2c/stdlib/swift
 * /usr/share/re2c/stdlib/unicode_categories.re
 * /usr/share/re2c/stdlib/v
 * /usr/share/re2c/stdlib/zig
