@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "rsyslog 8.2312.0-2"
-version = "8.2312.0-2"
+title = "rsyslog 8.2502.0-1"
+version = "8.2502.0-1"
 description = "Enhanced system logging and kernel message trapping daemon"
-date = "2024-01-09T20:08:23"
+date = "2025-04-24T13:23:35"
 aliases = "/packages/135785"
 categories = ['apps-extra']
 upstreamurl = "http://www.rsyslog.com/"
 arch = "x86_64"
-size = "638764"
-usize = "2409616"
-sha1sum = "7ed58d01ffaaf4f9d2e8a1ac866012f10380065c"
+size = "659360"
+usize = "2334780"
+sha1sum = "80daed42a0e6d376f8aca68425808c64db94f9bb"
 depends = "['curl', 'gnutls>=3.4.8', 'libestr>=0.1.10-4', 'libfastjson>=0.99.8', 'liblogging>=1.0.5-3']"
 reverse_depends = "['rsyslog-gssapi', 'rsyslog-mysql', 'rsyslog-pgsql', 'rsyslog-snmp', 'rsyslog-udpspoof']"
 +++
@@ -44,14 +44,14 @@ Enhanced system logging and kernel message trapping daemon
 * /usr/lib/rsyslog/omtesting.so
 * /usr/lib/rsyslog/omuxsock.so
 * /usr/lib/systemd/system/rsyslog.service
-* /usr/share/doc/rsyslog-8.2312.0/AUTHORS
-* /usr/share/doc/rsyslog-8.2312.0/ChangeLog
-* /usr/share/doc/rsyslog-8.2312.0/COPYING
-* /usr/share/doc/rsyslog-8.2312.0/COPYING.ASL20
-* /usr/share/doc/rsyslog-8.2312.0/COPYING.LESSER
-* /usr/share/doc/rsyslog-8.2312.0/INSTALL
-* /usr/share/doc/rsyslog-8.2312.0/NEWS
-* /usr/share/doc/rsyslog-8.2312.0/README
-* /usr/share/doc/rsyslog-8.2312.0/README.md
+* /usr/share/doc/rsyslog-8.2502.0/AUTHORS
+* /usr/share/doc/rsyslog-8.2502.0/ChangeLog
+* /usr/share/doc/rsyslog-8.2502.0/COPYING
+* /usr/share/doc/rsyslog-8.2502.0/COPYING.ASL20
+* /usr/share/doc/rsyslog-8.2502.0/COPYING.LESSER
+* /usr/share/doc/rsyslog-8.2502.0/INSTALL
+* /usr/share/doc/rsyslog-8.2502.0/NEWS
+* /usr/share/doc/rsyslog-8.2502.0/README
+* /usr/share/doc/rsyslog-8.2502.0/README.md
 * /usr/share/man/man5/rsyslog.conf.5.gz
 * /usr/share/man/man8/rsyslogd.8.gz

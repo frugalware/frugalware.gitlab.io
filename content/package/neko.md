@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "neko 2.4.0-2"
-version = "2.4.0-2"
+title = "neko 2.4.1-1"
+version = "2.4.1-1"
 description = "High-level and dynamically typed programming language"
-date = "2025-03-13T09:46:28"
+date = "2025-04-24T13:15:14"
 aliases = "/packages/220529"
 categories = ['devel-extra']
 upstreamurl = "https://nekovm.org/"
 arch = "x86_64"
-size = "373504"
-usize = "1378667"
-sha1sum = "483df06d49593a59a0381786d02e1cbae79dbe21"
+size = "373276"
+usize = "1378644"
+sha1sum = "61605ec477006ce35f27319b662b6d5af3007974"
 depends = "['gtk+3', 'libgc', 'mariadb-libs', 'mbedtls>=3.6.2', 'sqlite3']"
 +++
 ### Description: 
@@ -31,7 +31,7 @@ High-level and dynamically typed programming language
 * /usr/lib/cmake/Neko/NekoTargets.cmake
 * /usr/lib/libneko.so
 * /usr/lib/libneko.so.2
-* /usr/lib/libneko.so.2.4.0
+* /usr/lib/libneko.so.2.4.1
 * /usr/lib/neko/mysql.ndll
 * /usr/lib/neko/mysql5.ndll
 * /usr/lib/neko/nekoml.std
@@ -41,6 +41,6 @@ High-level and dynamically typed programming language
 * /usr/lib/neko/std.ndll
 * /usr/lib/neko/ui.ndll
 * /usr/lib/neko/zlib.ndll
-* /usr/share/doc/neko-2.4.0/CHANGES
-* /usr/share/doc/neko-2.4.0/LICENSE
-* /usr/share/doc/neko-2.4.0/README.md
+* /usr/share/doc/neko-2.4.1/CHANGES
+* /usr/share/doc/neko-2.4.1/LICENSE
+* /usr/share/doc/neko-2.4.1/README.md

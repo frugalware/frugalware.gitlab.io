@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "rsyslog-snmp 8.2312.0-2"
-version = "8.2312.0-2"
+title = "rsyslog-snmp 8.2502.0-1"
+version = "8.2502.0-1"
 description = "SNMP protocol support for rsyslog"
-date = "2024-01-09T20:08:23"
+date = "2025-04-24T13:23:35"
 aliases = "/packages/135791"
 categories = ['apps-extra']
 upstreamurl = "http://www.rsyslog.com/"
 arch = "x86_64"
-size = "9076"
-usize = "26944"
-sha1sum = "3ffe74a6088748b79941c3ebce10db817a2bafcc"
-depends = "['net-snmp>=5.9', 'rsyslog>=8.2312.0']"
+size = "9544"
+usize = "21096"
+sha1sum = "a56d9c5e0fa67f69703bdcb1e2a4a06aca4bc60a"
+depends = "['net-snmp>=5.9', 'rsyslog>=8.2502.0']"
 +++
 ### Description: 
 SNMP protocol support for rsyslog
