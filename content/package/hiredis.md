@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "hiredis 1.2.0-4"
-version = "1.2.0-4"
+title = "hiredis 1.3.0-1"
+version = "1.3.0-1"
 description = "Minimalistic C client library for Redis"
-date = "2024-05-16T01:24:03"
+date = "2025-04-24T11:05:06"
 aliases = "/packages/217464"
 categories = ['devel-core']
 upstreamurl = "https://github.com/redis/hiredis"
 arch = "x86_64"
-size = "58340"
-usize = "207798"
-sha1sum = "d1b23dc46880ffca8e83aad76a20c7dbf034fa96"
+size = "58776"
+usize = "209356"
+sha1sum = "0b7196ab76c2830609de0402159b9efa69eb0bad"
 depends = "['glibc>=2.34']"
 reverse_depends = "['ccache', 'openvas-libraries']"
 +++
@@ -38,7 +38,7 @@ Minimalistic C client library for Redis
 * /usr/include/hiredis/sockcompat.h
 * /usr/lib/libhiredis.so
 * /usr/lib/libhiredis.so.1
-* /usr/lib/libhiredis.so.1.1.0
+* /usr/lib/libhiredis.so.1.3.0
 * /usr/lib/pkgconfig/hiredis.pc
-* /usr/share/doc/hiredis-1.2.0/COPYING
-* /usr/share/doc/hiredis-1.2.0/README.md
+* /usr/share/doc/hiredis-1.3.0/COPYING
+* /usr/share/doc/hiredis-1.3.0/README.md
