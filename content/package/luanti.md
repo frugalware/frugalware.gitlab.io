@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "luanti 5.11.0-1"
-version = "5.11.0-1"
+title = "luanti 5.11.0-2"
+version = "5.11.0-2"
 description = "Luanti is an infinite-world block sandbox game and a game engine, inspired by InfiniMiner and Minecraft."
-date = "2025-02-17T17:22:16"
+date = "2025-04-24T11:19:38"
 aliases = "/packages/222575"
 categories = ['games-extra']
 upstreamurl = "https://www.luanti.org"
 arch = "x86_64"
-size = "7052532"
-usize = "20232043"
-sha1sum = "8e9ed96792c044955e0ed62919fa3ad91997b7e5"
-depends = "['curl', 'jsoncpp>=1.9.6', 'libpq', 'luajit2', 'openal']"
+size = "7038664"
+usize = "20208499"
+sha1sum = "61aeb464ad65aaf86247c1bc12f7d356300d1a87"
+depends = "['curl', 'hiredis>=1.3.0', 'jsoncpp>=1.9.6', 'libpq', 'luajit2', 'openal']"
 +++
 ### Description: 
 Luanti is an infinite-world block sandbox game and a game engine, inspired by InfiniMiner and Minecraft.

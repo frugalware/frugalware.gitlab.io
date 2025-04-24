@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ccache 4.11.2-1"
-version = "4.11.2-1"
+title = "ccache 4.11.2-2"
+version = "4.11.2-2"
 description = "A fast compiler cache"
-date = "2025-03-24T14:42:31"
+date = "2025-04-24T11:16:35"
 aliases = "/packages/2941"
 categories = ['devel-core']
 upstreamurl = "http://ccache.dev"
 arch = "x86_64"
-size = "476964"
-usize = "1284762"
-sha1sum = "fee1d9102bfaed97e8dca0955305fcf9e9e5b6c8"
-depends = "['fmtlib>=11.0.1', 'hiredis', 'zstd']"
+size = "477112"
+usize = "1285402"
+sha1sum = "10aab98836ed689cea8421a4fd4f51c51d8b881d"
+depends = "['fmtlib>=11.0.1', 'hiredis>=1.3.0', 'zstd']"
 +++
 ### Description: 
 A fast compiler cache

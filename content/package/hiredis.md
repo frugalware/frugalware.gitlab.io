@@ -12,7 +12,7 @@ size = "58776"
 usize = "209356"
 sha1sum = "0b7196ab76c2830609de0402159b9efa69eb0bad"
 depends = "['glibc>=2.34']"
-reverse_depends = "['ccache', 'openvas-libraries']"
+reverse_depends = "['ccache', 'luanti', 'openvas-libraries']"
 +++
 ### Description: 
 Minimalistic C client library for Redis

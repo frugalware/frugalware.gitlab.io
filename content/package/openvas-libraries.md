@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "openvas-libraries 22.15.0-1"
-version = "22.15.0-1"
+title = "openvas-libraries 22.21.0-1"
+version = "22.21.0-1"
 description = "OpenVAS libraries."
-date = "2025-01-07T14:52:39"
+date = "2025-04-24T11:21:03"
 aliases = "/packages/88827"
 categories = ['network-extra']
 upstreamurl = "http://www.openvas.org"
 arch = "x86_64"
-size = "156908"
-usize = "527105"
-sha1sum = "75eb503af47600cc29e0226448a8a64db1c2d275"
-depends = "['cjson', 'gpgme', 'hiredis', 'json-glib', 'libldap', 'libnet', 'libpcap', 'libxcrypt', 'paho-mqtt-c']"
+size = "160632"
+usize = "548293"
+sha1sum = "6486f328e3c3f5ec6fae685118d56d3233062242"
+depends = "['cjson', 'gpgme', 'hiredis>=1.3.0', 'json-glib', 'libldap', 'libnet', 'libpcap', 'libxcrypt', 'paho-mqtt-c']"
 reverse_depends = "['openvas-manager', 'openvas-scanner']"
 +++
 ### Description: 
@@ -25,6 +25,7 @@ OpenVAS libraries.
 * /usr/include/gvm/base/gvm_sentry.h
 * /usr/include/gvm/base/hosts.h
 * /usr/include/gvm/base/logging.h
+* /usr/include/gvm/base/logging_domain.h
 * /usr/include/gvm/base/networking.h
 * /usr/include/gvm/base/nvti.h
 * /usr/include/gvm/base/pidfile.h
@@ -43,6 +44,7 @@ OpenVAS libraries.
 * /usr/include/gvm/boreas/sniffer.h
 * /usr/include/gvm/boreas/util.h
 * /usr/include/gvm/gmp/gmp.h
+* /usr/include/gvm/http/httputils.h
 * /usr/include/gvm/openvasd/openvasd.h
 * /usr/include/gvm/osp/osp.h
 * /usr/include/gvm/util/authutils.h
@@ -50,6 +52,7 @@ OpenVAS libraries.
 * /usr/include/gvm/util/cpeutils.h
 * /usr/include/gvm/util/fileutils.h
 * /usr/include/gvm/util/gpgmeutils.h
+* /usr/include/gvm/util/json.h
 * /usr/include/gvm/util/jsonpull.h
 * /usr/include/gvm/util/kb.h
 * /usr/include/gvm/util/ldaputils.h
@@ -64,28 +67,32 @@ OpenVAS libraries.
 * /usr/include/gvm/util/xmlutils.h
 * /usr/lib/libgvm_base.so
 * /usr/lib/libgvm_base.so.22
-* /usr/lib/libgvm_base.so.22.15.0
+* /usr/lib/libgvm_base.so.22.21.0
 * /usr/lib/libgvm_boreas.so
 * /usr/lib/libgvm_boreas.so.22
-* /usr/lib/libgvm_boreas.so.22.15.0
+* /usr/lib/libgvm_boreas.so.22.21.0
 * /usr/lib/libgvm_gmp.so
 * /usr/lib/libgvm_gmp.so.22
-* /usr/lib/libgvm_gmp.so.22.15.0
+* /usr/lib/libgvm_gmp.so.22.21.0
+* /usr/lib/libgvm_http.so
+* /usr/lib/libgvm_http.so.22
+* /usr/lib/libgvm_http.so.22.21.0
 * /usr/lib/libgvm_openvasd.so
 * /usr/lib/libgvm_openvasd.so.22
-* /usr/lib/libgvm_openvasd.so.22.15.0
+* /usr/lib/libgvm_openvasd.so.22.21.0
 * /usr/lib/libgvm_osp.so
 * /usr/lib/libgvm_osp.so.22
-* /usr/lib/libgvm_osp.so.22.15.0
+* /usr/lib/libgvm_osp.so.22.21.0
 * /usr/lib/libgvm_util.so
 * /usr/lib/libgvm_util.so.22
-* /usr/lib/libgvm_util.so.22.15.0
+* /usr/lib/libgvm_util.so.22.21.0
 * /usr/lib/pkgconfig/libgvm_base.pc
 * /usr/lib/pkgconfig/libgvm_boreas.pc
 * /usr/lib/pkgconfig/libgvm_gmp.pc
+* /usr/lib/pkgconfig/libgvm_http.pc
 * /usr/lib/pkgconfig/libgvm_openvasd.pc
 * /usr/lib/pkgconfig/libgvm_osp.pc
 * /usr/lib/pkgconfig/libgvm_util.pc
-* /usr/share/doc/openvas-libraries-22.15.0/COPYING
-* /usr/share/doc/openvas-libraries-22.15.0/INSTALL.md
-* /usr/share/doc/openvas-libraries-22.15.0/README.md
+* /usr/share/doc/openvas-libraries-22.21.0/COPYING
+* /usr/share/doc/openvas-libraries-22.21.0/INSTALL.md
+* /usr/share/doc/openvas-libraries-22.21.0/README.md

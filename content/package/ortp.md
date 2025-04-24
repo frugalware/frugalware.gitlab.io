@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ortp 5.4.9-1"
-version = "5.4.9-1"
+title = "ortp 5.4.11-1"
+version = "5.4.11-1"
 description = "A Real-time Transport Protocol stack."
-date = "2025-04-18T22:01:06"
+date = "2025-04-24T11:30:15"
 aliases = "/packages/9466"
 categories = ['apps-extra']
 upstreamurl = "http://www.linphone.org/ortp/"
 arch = "x86_64"
-size = "199664"
-usize = "598944"
-sha1sum = "ef02516e37a1eedd0692e2328371448bfc277d6f"
+size = "200600"
+usize = "601184"
+sha1sum = "13ba3fc0c15a94db4728a3c3fe37bbb8bd2f9439"
 depends = "['bctoolbox']"
 +++
 ### Description: 
@@ -38,7 +38,7 @@ A Real-time Transport Protocol stack.
 * /usr/share/doc/ortp-5.4.0/CHANGELOG.md
 * /usr/share/doc/ortp-5.4.0/LICENSE.txt
 * /usr/share/doc/ortp-5.4.0/README.md
-* /usr/share/doc/ortp-5.4.9/README.md
+* /usr/share/doc/ortp-5.4.11/README.md
 * /usr/share/ortp-tester/raw/h265-iframe
 * /usr/share/Ortp/cmake/OrtpConfig.cmake
 * /usr/share/Ortp/cmake/OrtpConfigVersion.cmake
