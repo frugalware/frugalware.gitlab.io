@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "greetd-qtgreet 2.0.2-8"
-version = "2.0.2-8"
+title = "greetd-qtgreet 2.0.4-1"
+version = "2.0.4-1"
 description = "Qt based greeter for greetd"
-date = "2025-04-08T09:23:41"
+date = "2025-04-24T13:08:26"
 aliases = "/packages/220859"
 categories = ['x11-extra']
 upstreamurl = "https://gitlab.com/marcusbritanicus/QtGreet"
 arch = "x86_64"
-size = "3086416"
-usize = "5432674"
-sha1sum = "1b88954748db7f85a3af15da2190d7077fd6a6cf"
+size = "3081612"
+usize = "5412540"
+sha1sum = "3425ffbac7d77ced4f90ed78acb4dfca976686ae"
 depends = "['dfl-applications', 'dfl-login1', 'dfl-utils', 'dfl-wayqt', 'greetd', 'mpv', 'wlroots0.17']"
 +++
 ### Description: 
@@ -21,12 +21,11 @@ Qt based greeter for greetd
 * /etc/qtgreet/sway.cfg
 * /etc/qtgreet/users.conf
 * /etc/qtgreet/wayfire.ini
-* /usr/bin/greetwl
 * /usr/bin/qtgreet
-* /usr/share/doc/greetd-qtgreet-2.0.2/Changelog
-* /usr/share/doc/greetd-qtgreet-2.0.2/LICENSE
-* /usr/share/doc/greetd-qtgreet-2.0.2/README.md
-* /usr/share/doc/greetd-qtgreet-2.0.2/TODO
+* /usr/share/doc/greetd-qtgreet-2.0.4/Changelog
+* /usr/share/doc/greetd-qtgreet-2.0.4/LICENSE
+* /usr/share/doc/greetd-qtgreet-2.0.4/README.md
+* /usr/share/doc/greetd-qtgreet-2.0.4/TODO
 * /usr/share/icons/hicolor/512x512/apps/QtGreet.png
 * /usr/share/icons/hicolor/scalable/apps/QtGreet.svg
 * /usr/share/qtgreet/backgrounds/BlurryBlob.png

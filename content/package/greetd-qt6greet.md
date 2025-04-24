@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "greetd-qt6greet 2.0.2-8"
-version = "2.0.2-8"
+title = "greetd-qt6greet 2.0.4-1"
+version = "2.0.4-1"
 description = "Qt based greeter for greetd Qt6"
-date = "2025-04-08T09:23:41"
+date = "2025-04-24T13:08:26"
 aliases = "/packages/221560"
 categories = ['xlib-extra']
 upstreamurl = "https://gitlab.com/marcusbritanicus/QtGreet"
 arch = "x86_64"
-size = "3090376"
-usize = "5449830"
-sha1sum = "00d3b57ba42bcf406dc146fa9641f89924d0a806"
+size = "3085936"
+usize = "5429186"
+sha1sum = "a0394229a0b14062eb5d544114d2ffccccf1011e"
 depends = "['dfl-applications-qt6', 'dfl-login1-qt6', 'dfl-utils-qt6', 'dfl-wayqt-qt6', 'greetd', 'mpv', 'wlroots']"
 +++
 ### Description: 
@@ -21,7 +21,6 @@ Qt based greeter for greetd Qt6
 * /etc/qtgreet/sway.cfg
 * /etc/qtgreet/users.conf
 * /etc/qtgreet/wayfire.ini
-* /usr/bin/greetwl
 * /usr/bin/qtgreet
 * /usr/share/icons/hicolor/512x512/apps/QtGreet.png
 * /usr/share/icons/hicolor/scalable/apps/QtGreet.svg

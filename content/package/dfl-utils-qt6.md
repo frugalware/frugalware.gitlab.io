@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "dfl-utils-qt6 0.3.0-1"
-version = "0.3.0-1"
+title = "dfl-utils-qt6 0.3.0-2"
+version = "0.3.0-2"
 description = "Some utilities for DFL Qt6"
-date = "2025-04-24T11:56:18"
+date = "2025-04-24T12:50:05"
 aliases = "/packages/221556"
 categories = ['xlib-extra']
 upstreamurl = "https://gitlab.com/desktop-frameworks/utils"
 arch = "x86_64"
-size = "12844"
+size = "12876"
 usize = "32006"
-sha1sum = "92bfe8fec73071b82bbb0963b1761d7762dc237e"
+sha1sum = "562508bb58c150175f277f3408dcaaa369f61028"
 depends = "['qt6-base>=6.9.0']"
 reverse_depends = "['greetd-qt6greet']"
 +++

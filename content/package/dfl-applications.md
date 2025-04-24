@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "dfl-applications 0.2.0-10"
-version = "0.2.0-10"
+title = "dfl-applications 0.3.0-1"
+version = "0.3.0-1"
 description = "A class that extends QApplications"
-date = "2025-04-08T08:59:05"
+date = "2025-04-24T12:58:56"
 aliases = "/packages/221551"
 categories = ['xlib-extra']
 upstreamurl = "https://gitlab.com/desktop-frameworks/applications"
 arch = "x86_64"
-size = "28960"
-usize = "150943"
-sha1sum = "b4c7ac232a611fc5bb4e8cccda16a73750c491e4"
+size = "34364"
+usize = "194719"
+sha1sum = "4e95749b31afa5fa99b1475afad19e4745f7936b"
 depends = "['dfl-ipc']"
 reverse_depends = "['greetd-qtgreet']"
 +++
@@ -23,15 +23,15 @@ A class that extends QApplications
 * /usr/include/DFL/DF5/DFGuiApplication.hpp
 * /usr/lib/libdf5application.so
 * /usr/lib/libdf5application.so.0
-* /usr/lib/libdf5application.so.0.2.0
+* /usr/lib/libdf5application.so.0.3.0
 * /usr/lib/libdf5coreapplication.so
 * /usr/lib/libdf5coreapplication.so.0
-* /usr/lib/libdf5coreapplication.so.0.2.0
+* /usr/lib/libdf5coreapplication.so.0.3.0
 * /usr/lib/libdf5guiapplication.so
 * /usr/lib/libdf5guiapplication.so.0
-* /usr/lib/libdf5guiapplication.so.0.2.0
+* /usr/lib/libdf5guiapplication.so.0.3.0
 * /usr/lib/pkgconfig/df5application.pc
 * /usr/lib/pkgconfig/df5coreapplication.pc
 * /usr/lib/pkgconfig/df5guiapplication.pc
-* /usr/share/doc/dfl-applications-0.2.0/LICENSE
-* /usr/share/doc/dfl-applications-0.2.0/README.md
+* /usr/share/doc/dfl-applications-0.3.0/LICENSE
+* /usr/share/doc/dfl-applications-0.3.0/README.md

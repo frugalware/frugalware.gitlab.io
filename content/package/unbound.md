@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "unbound 1.22.0-1"
-version = "1.22.0-1"
+title = "unbound 1.23.0-1"
+version = "1.23.0-1"
 description = "Validating, recursive, and caching DNS resolver"
-date = "2024-12-23T20:49:28"
+date = "2025-04-24T13:13:49"
 aliases = "/packages/218627"
 categories = ['network-extra']
 upstreamurl = "http://unbound.net/"
 arch = "x86_64"
-size = "968212"
-usize = "3904079"
-sha1sum = "2f4c2fb1dc766ccc68fba182c06315c62459b0c8"
+size = "1010112"
+usize = "4011724"
+sha1sum = "c720244d78428d62e5658de413278c575a4f0a5c"
 depends = "['expat', 'libevent>=2.1.11', 'openssl>=3.1.0']"
 reverse_depends = "['libreswan']"
 +++
@@ -29,12 +29,12 @@ Validating, recursive, and caching DNS resolver
 * /usr/include/unbound.h
 * /usr/lib/libunbound.so
 * /usr/lib/libunbound.so.8
-* /usr/lib/libunbound.so.8.1.30
+* /usr/lib/libunbound.so.8.1.31
 * /usr/lib/pkgconfig/libunbound.pc
-* /usr/share/doc/unbound-1.22.0/LICENSE
-* /usr/share/doc/unbound-1.22.0/README
-* /usr/share/doc/unbound-1.22.0/README-Travis.md
-* /usr/share/doc/unbound-1.22.0/README.md
+* /usr/share/doc/unbound-1.23.0/LICENSE
+* /usr/share/doc/unbound-1.23.0/README
+* /usr/share/doc/unbound-1.23.0/README-Travis.md
+* /usr/share/doc/unbound-1.23.0/README.md
 * /usr/share/man/man1/unbound-host.1.gz
 * /usr/share/man/man3/libunbound.3.gz
 * /usr/share/man/man3/ub_cancel.3.gz
