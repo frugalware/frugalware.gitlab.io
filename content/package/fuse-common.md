@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "fuse-common 3.17.1-1"
-version = "3.17.1-1"
+title = "fuse-common 3.17.2-1"
+version = "3.17.2-1"
 description = "Common files for fuse2 and fuse3 package"
-date = "2025-03-25T12:40:09"
+date = "2025-04-25T14:54:24"
 aliases = "/packages/219813"
 categories = ['apps']
 upstreamurl = "https://github.com/libfuse/libfuse"
 arch = "x86_64"
-size = "2104"
+size = "2132"
 usize = "753"
-sha1sum = "11244dd5a168b970edfdcd00e967af97dfc202c7"
+sha1sum = "9d795f92cb84a53aacd97e5ee7def409abad62c7"
 depends = "[]"
 reverse_depends = "['fuse', 'fuse3']"
 +++

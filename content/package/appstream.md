@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "appstream 1.0.4-4"
-version = "1.0.4-4"
+title = "appstream 1.0.5-1"
+version = "1.0.5-1"
 description = "Provides a standard for creating app stores across distributions"
-date = "2025-04-08T08:34:52"
+date = "2025-04-25T12:07:02"
 aliases = "/packages/218251"
 categories = ['lib']
 upstreamurl = "http://distributions.freedesktop.org/wiki/AppStream"
 arch = "x86_64"
-size = "3508480"
-usize = "17218723"
-sha1sum = "8a3782a5bf0627fef6b71c1e198c02eec3bc04ca"
+size = "3530856"
+usize = "17261102"
+sha1sum = "43585cca1b8249986e80ad53c74d1ba309025fc2"
 depends = "['curl', 'gobject-introspection>=1.50.0', 'libstemmer', 'libxmlb', 'libyaml']"
 reverse_depends = "['alpaca', 'appstream-qt', 'flatpak', 'libadwaita']"
 +++
@@ -61,17 +61,17 @@ Provides a standard for creating app stores across distributions
 * /usr/include/appstream/as-video.h
 * /usr/lib/girepository-1.0/AppStream-1.0.typelib
 * /usr/lib/libappstream.so
-* /usr/lib/libappstream.so.1.0.4
+* /usr/lib/libappstream.so.1.0.5
 * /usr/lib/libappstream.so.5
 * /usr/lib/pkgconfig/appstream.pc
 * /usr/share/appstream/appstream.conf
-* /usr/share/doc/appstream-1.0.4/AUTHORS
-* /usr/share/doc/appstream-1.0.4/COPYING
-* /usr/share/doc/appstream-1.0.4/NEWS
-* /usr/share/doc/appstream-1.0.4/README.md
-* /usr/share/doc/appstream-1.0.4/RELEASE
-* /usr/share/doc/appstream/html/api/api.devhelp2
+* /usr/share/doc/appstream-1.0.5/AUTHORS
+* /usr/share/doc/appstream-1.0.5/COPYING
+* /usr/share/doc/appstream-1.0.5/NEWS
+* /usr/share/doc/appstream-1.0.5/README.md
+* /usr/share/doc/appstream-1.0.5/RELEASE
 * /usr/share/doc/appstream/html/api/appstream-logo.svg
+* /usr/share/doc/appstream/html/api/appstream.devhelp2
 * /usr/share/doc/appstream/html/api/class.Agreement.html
 * /usr/share/doc/appstream/html/api/class.AgreementSection.html
 * /usr/share/doc/appstream/html/api/class.Artifact.html

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "appstream-qt 1.0.4-4"
-version = "1.0.4-4"
+title = "appstream-qt 1.0.5-1"
+version = "1.0.5-1"
 description = "Qt Bindings for Appstream"
-date = "2025-04-08T08:34:52"
+date = "2025-04-25T12:07:02"
 aliases = "/packages/218252"
 categories = ['xlib']
 upstreamurl = "http://distributions.freedesktop.org/wiki/AppStream"
 arch = "x86_64"
-size = "115820"
-usize = "577608"
-sha1sum = "694fcbc83a94437d64ae0b135311903f27e58f77"
-depends = "['appstream=1.0.4', 'qt6-base>=6.9.0']"
+size = "116860"
+usize = "579509"
+sha1sum = "640d81c7bd6b64440f27abc827b62a787e5120b0"
+depends = "['appstream=1.0.5', 'qt6-base>=6.9.0']"
 reverse_depends = "['discover', 'frameworkintegration', 'frameworkintegration5', 'plasma-workspace']"
 +++
 ### Description: 
@@ -47,5 +47,5 @@ Qt Bindings for Appstream
 * /usr/lib/cmake/AppStreamQt/AppStreamQtConfig.cmake
 * /usr/lib/cmake/AppStreamQt/AppStreamQtConfigVersion.cmake
 * /usr/lib/libAppStreamQt.so
-* /usr/lib/libAppStreamQt.so.1.0.4
+* /usr/lib/libAppStreamQt.so.1.0.5
 * /usr/lib/libAppStreamQt.so.3
