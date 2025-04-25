@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ttf-bitstream-vera-nerd 3.3.0-1"
-version = "3.3.0-1"
+title = "ttf-bitstream-vera-nerd 3.4.0-1"
+version = "3.4.0-1"
 description = "Bitstream Vera fonts - Patched with Nerd Symbols"
-date = "2024-11-22T09:42:17"
+date = "2025-04-25T21:36:09"
 aliases = "/packages/221579"
 categories = ['fonts-extra']
 upstreamurl = "https://nerdfonts.com"
 arch = "x86_64"
-size = "3567004"
-usize = "28010416"
-sha1sum = "be4cee6e2cea17adadb205ded6af746b3f6c69c3"
+size = "4178856"
+usize = "29065400"
+sha1sum = "a0af7fdac66443cd01a119b93509308fe775cfcc"
 depends = "[]"
 +++
 ### Description: 

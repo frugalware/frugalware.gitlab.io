@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ttf-linux-libertine-nerd 3.3.0-1"
-version = "3.3.0-1"
+title = "ttf-linux-libertine-nerd 3.4.0-1"
+version = "3.4.0-1"
 description = "Serif (Libertine) and Sans Serif (Biolinum) OpenType fonts with large Unicode coverage - Patched with Nerd Symbols"
-date = "2024-11-22T09:42:17"
+date = "2025-04-25T21:36:09"
 aliases = "/packages/221581"
 categories = ['fonts-extra']
 upstreamurl = "https://nerdfonts.com"
 arch = "x86_64"
-size = "10614916"
-usize = "74211300"
-sha1sum = "819b8c3af3c30310cc219c72df2684886117df6f"
+size = "11678228"
+usize = "76282700"
+sha1sum = "ef9111edf24ddbf0b7104e038777c8994eb5060a"
 depends = "[]"
 +++
 ### Description: 

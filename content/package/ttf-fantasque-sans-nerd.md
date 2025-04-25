@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ttf-fantasque-sans-nerd 3.3.0-1"
-version = "3.3.0-1"
+title = "ttf-fantasque-sans-nerd 3.4.0-1"
+version = "3.4.0-1"
 description = "A font family with a great monospaced variant for programmers - Patched with Nerd Symbols"
-date = "2024-11-22T09:42:17"
+date = "2025-04-25T21:36:09"
 aliases = "/packages/221580"
 categories = ['fonts-extra']
 upstreamurl = "https://nerdfonts.com"
 arch = "x86_64"
-size = "3713136"
-usize = "29297348"
-sha1sum = "5d9e82507e273d8afae9cfd0cffe18be6921869c"
+size = "3993168"
+usize = "30417860"
+sha1sum = "9b20dbd8dd1ae47dbcaa7a9030d6b12942d99d36"
 depends = "[]"
 +++
 ### Description: 

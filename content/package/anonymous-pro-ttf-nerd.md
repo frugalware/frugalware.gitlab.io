@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "anonymous-pro-ttf-nerd 3.3.0-1"
-version = "3.3.0-1"
+title = "anonymous-pro-ttf-nerd 3.4.0-1"
+version = "3.4.0-1"
 description = "A fixed width sans font designed especially for programmers - Patched with Nerd Symbols"
-date = "2024-11-22T09:42:17"
+date = "2025-04-25T21:36:09"
 aliases = "/packages/221574"
 categories = ['fonts-extra']
 upstreamurl = "https://nerdfonts.com"
 arch = "x86_64"
-size = "3861480"
-usize = "28983476"
-sha1sum = "909e97fabd61b1b7376ab5378da40608031c3518"
+size = "3746680"
+usize = "30081940"
+sha1sum = "b5d8b4e46e0992d5b03f2328aa23a8708eb98193"
 depends = "[]"
 +++
 ### Description: 

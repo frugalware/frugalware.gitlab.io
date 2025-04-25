@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "cantata 3.3.0-3"
-version = "3.3.0-3"
+title = "cantata 3.3.1-1"
+version = "3.3.1-1"
 description = "QTx6 and KDE based Client for MPD"
-date = "2025-04-06T14:44:05"
+date = "2025-04-25T21:35:00"
 aliases = "/packages/222692"
 categories = ['kde6-extra']
 upstreamurl = "https://github.com/nullobsi/cantata"
 arch = "x86_64"
-size = "3154732"
-usize = "11355430"
-sha1sum = "cd5ce8fa2187d6e44b59d3e938c42464c4d3e63e"
+size = "3154920"
+usize = "11356759"
+sha1sum = "2eb021ae9dbbed7685508f850e4f1b47067182d3"
 depends = "['libcdio-paranoia', 'libebur128', 'libmpg123', 'libmtp>=1.1.12-2', 'libmusicbrainz>=', 'media-player-info', 'perl-uri', 'qt5-multimedia>=', 'qt6-svg>=', 'taglib>=2.0', 'vlc']"
 +++
 ### Description: 
@@ -42,13 +42,13 @@ QTx6 and KDE based Client for MPD
 * /usr/share/Cantata/translations/cantata_pt_BR.qm
 * /usr/share/Cantata/translations/cantata_ru.qm
 * /usr/share/Cantata/translations/cantata_zh_CN.qm
-* /usr/share/doc/cantata-3.3.0/AUTHORS
-* /usr/share/doc/cantata-3.3.0/ChangeLog
-* /usr/share/doc/cantata-3.3.0/INSTALL
-* /usr/share/doc/cantata-3.3.0/LICENSE
-* /usr/share/doc/cantata-3.3.0/README
-* /usr/share/doc/cantata-3.3.0/README.md
-* /usr/share/doc/cantata-3.3.0/TODO
+* /usr/share/doc/cantata-3.3.1/AUTHORS
+* /usr/share/doc/cantata-3.3.1/ChangeLog
+* /usr/share/doc/cantata-3.3.1/INSTALL
+* /usr/share/doc/cantata-3.3.1/LICENSE
+* /usr/share/doc/cantata-3.3.1/README
+* /usr/share/doc/cantata-3.3.1/README.md
+* /usr/share/doc/cantata-3.3.1/TODO
 * /usr/share/icons/hicolor/128x128/apps/dog.unix.cantata.Cantata.png
 * /usr/share/icons/hicolor/16x16/apps/dog.unix.cantata.Cantata.png
 * /usr/share/icons/hicolor/22x22/apps/dog.unix.cantata.Cantata.png

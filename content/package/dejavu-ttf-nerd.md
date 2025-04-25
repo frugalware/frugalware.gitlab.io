@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "dejavu-ttf-nerd 3.3.0-1"
-version = "3.3.0-1"
+title = "dejavu-ttf-nerd 3.4.0-1"
+version = "3.4.0-1"
 description = "DejaVu fonts - Patched with Nerd Symbols"
-date = "2024-11-22T09:42:17"
+date = "2025-04-25T21:36:09"
 aliases = "/packages/221575"
 categories = ['fonts-extra']
 upstreamurl = "https://nerdfonts.com"
 arch = "x86_64"
-size = "3952136"
-usize = "30906228"
-sha1sum = "fa6ff3ce490c8c4efffe21197ab21472c0f7e414"
+size = "4179292"
+usize = "31961112"
+sha1sum = "3b40490c682b79cbf0324b9f5aba69cf59aa2f51"
 depends = "[]"
 +++
 ### Description: 

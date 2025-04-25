@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "noto-fonts-nerd 3.3.0-1"
-version = "3.3.0-1"
+title = "noto-fonts-nerd 3.4.0-1"
+version = "3.4.0-1"
 description = "Noto Fonts - Patched with Nerd Symbols"
-date = "2024-11-22T09:42:17"
+date = "2025-04-25T21:36:09"
 aliases = "/packages/221576"
 categories = ['fonts-extra']
 upstreamurl = "https://nerdfonts.com"
 arch = "x86_64"
-size = "162786916"
-usize = "1086040036"
-sha1sum = "7181facb0bb9c07aa6cd301c5cf780f8081af97d"
+size = "170616732"
+usize = "1102948616"
+sha1sum = "0e5c6da74c9b695c197dcb76f2851248c9c6a340"
 depends = "[]"
 +++
 ### Description: 

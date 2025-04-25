@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ttf-roboto-nerd 3.3.0-1"
-version = "3.3.0-1"
+title = "ttf-roboto-nerd 3.4.0-1"
+version = "3.4.0-1"
 description = "The new version font of Android 4, Codename Ice Cream Sandwich - Patched with Nerd Symbols"
-date = "2024-11-22T09:42:17"
+date = "2025-04-25T21:36:09"
 aliases = "/packages/221582"
 categories = ['fonts-extra']
 upstreamurl = "https://nerdfonts.com"
 arch = "x86_64"
-size = "13899780"
-usize = "85714796"
-sha1sum = "17e18db4be5f3047cbbc955a9f8241be110c2e6c"
+size = "15472440"
+usize = "88834148"
+sha1sum = "61379be86b0829ee8b2d8d9d8192d46b94822542"
 depends = "[]"
 +++
 ### Description: 

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "skrooge 25.1.0-4"
-version = "25.1.0-4"
+title = "skrooge 25.4.0-1"
+version = "25.4.0-1"
 description = "Personal finances manager for KDE5, allowing you to keep track of your incomes and expenses"
-date = "2025-04-07T14:04:09"
+date = "2025-04-25T21:31:15"
 aliases = "/packages/74103"
 categories = ['kde6-extra']
 upstreamurl = "http://skrooge.org"
 arch = "x86_64"
-size = "13409172"
-usize = "29000106"
-sha1sum = "612a4f8093fbb2fa274d03122d85cd9e5e5d3289"
-depends = "['grantlee>=5.0.0', 'knewstuff>=6.12.0', 'knotifyconfig>=6.12.0', 'kparts>=6.12.0', 'krunner>=6.12.0', 'kstatusnotifieritem>=6.12.0', 'ktexttemplate>=6.12.0', 'libofx>=0.9.11', 'plasma-activities>=6.3.4', 'qca', 'qt6-svg>=6.9.0', 'qt6-webengine>=', 'sqlcipher>=3.3.1']"
+size = "13402100"
+usize = "28987218"
+sha1sum = "9d275621a3da4480007499b9687cf3b874a8ea4a"
+depends = "['grantlee>=5.0.0', 'knewstuff>=6.13.0', 'knotifyconfig>=6.13.0', 'kparts>=6.13.0', 'krunner>=6.13.0', 'kstatusnotifieritem>=6.13.0', 'ktexttemplate>=6.13.0', 'libofx>=0.9.11', 'plasma-activities>=6.3.4', 'qca', 'qt6-svg>=6.9.0', 'qt6-webengine>=', 'sqlcipher>=3.3.1']"
 +++
 ### Description: 
 Personal finances manager for KDE5, allowing you to keep track of your incomes and expenses
@@ -20,13 +20,13 @@ Personal finances manager for KDE5, allowing you to keep track of your incomes a
 * /usr/bin/skrooge
 * /usr/bin/skroogeconvert
 * /usr/lib/libskgbankgui.so.2
-* /usr/lib/libskgbankgui.so.25.1.0
+* /usr/lib/libskgbankgui.so.25.4.0
 * /usr/lib/libskgbankmodeler.so.2
-* /usr/lib/libskgbankmodeler.so.25.1.0
+* /usr/lib/libskgbankmodeler.so.25.4.0
 * /usr/lib/libskgbasegui.so.2
-* /usr/lib/libskgbasegui.so.25.1.0
+* /usr/lib/libskgbasegui.so.25.4.0
 * /usr/lib/libskgbasemodeler.so.2
-* /usr/lib/libskgbasemodeler.so.25.1.0
+* /usr/lib/libskgbasemodeler.so.25.4.0
 * /usr/lib/qt6/plugins/kf6/ktexttemplate/grantlee_skgfilters.so
 * /usr/lib/qt6/plugins/skg_gui/skg_advice.so
 * /usr/lib/qt6/plugins/skg_gui/skg_bookmark.so
@@ -292,14 +292,10 @@ Personal finances manager for KDE5, allowing you to keep track of your incomes a
 * /usr/share/doc/HTML/uk/skrooge/table_menu.png
 * /usr/share/doc/HTML/uk/skrooge/tab_state_management.png
 * /usr/share/doc/HTML/uk/skrooge/transfer_operation.png
-* /usr/share/doc/skrooge-25.1.0/AUTHORS
-* /usr/share/doc/skrooge-25.1.0/CHANGELOG
-* /usr/share/doc/skrooge-25.1.0/ChangeLog
-* /usr/share/doc/skrooge-25.1.0/COPYING
-* /usr/share/doc/skrooge-25.1.0/CREDITS
-* /usr/share/doc/skrooge-25.1.0/INSTALL
-* /usr/share/doc/skrooge-25.1.0/README
-* /usr/share/doc/skrooge-25.1.0/README.md
+* /usr/share/doc/skrooge-25.4.0/AUTHORS
+* /usr/share/doc/skrooge-25.4.0/CHANGELOG
+* /usr/share/doc/skrooge-25.4.0/COPYING
+* /usr/share/doc/skrooge-25.4.0/README.md
 * /usr/share/icons/breeze-dark/actions/22/skg-chart-bubble.svgz
 * /usr/share/icons/breeze-dark/actions/22/skrooge_credit_card.svgz
 * /usr/share/icons/breeze-dark/actions/22/skrooge_less.svgz

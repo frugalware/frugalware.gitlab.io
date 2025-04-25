@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ttf-agave-nerd 3.3.0-1"
-version = "3.3.0-1"
+title = "ttf-agave-nerd 3.4.0-1"
+version = "3.4.0-1"
 description = "A monospaced truetype font for coding and the commandline - Patched with Nerd Symbols"
-date = "2024-11-22T09:42:17"
+date = "2025-04-25T21:36:09"
 aliases = "/packages/221578"
 categories = ['fonts-extra']
 upstreamurl = "https://nerdfonts.com"
 arch = "x86_64"
-size = "2144100"
-usize = "14840452"
-sha1sum = "eea75677796b2d182a38cc973dd28915eeb98ad2"
+size = "2331300"
+usize = "15405700"
+sha1sum = "5e9863d23d17edf8a9fca8b1fb8056bd87c17dad"
 depends = "[]"
 +++
 ### Description: 

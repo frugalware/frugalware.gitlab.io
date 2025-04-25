@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ttf-ubuntu-font-family-nerd 3.3.0-1"
-version = "3.3.0-1"
+title = "ttf-ubuntu-font-family-nerd 3.4.0-1"
+version = "3.4.0-1"
 description = "Ubuntu font family - Patched with Nerd Symbols"
-date = "2024-11-22T09:42:17"
+date = "2025-04-25T21:36:09"
 aliases = "/packages/221583"
 categories = ['fonts-extra']
 upstreamurl = "https://nerdfonts.com"
 arch = "x86_64"
-size = "4809404"
-usize = "44131988"
-sha1sum = "af2191e64652971c650e041a63b1bc96e7e0b60a"
+size = "4827584"
+usize = "44354668"
+sha1sum = "b698e4e0cd7000a7ee65db27a253e854120784a8"
 depends = "[]"
 +++
 ### Description: 

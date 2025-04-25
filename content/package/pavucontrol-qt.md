@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pavucontrol-qt 2.1.0-5"
-version = "2.1.0-5"
+title = "pavucontrol-qt 2.2.0-1"
+version = "2.2.0-1"
 description = "A Pulseaudio mixer in Qt5."
-date = "2025-04-07T11:23:46"
+date = "2025-04-25T22:04:25"
 aliases = "/packages/219344"
 categories = ['xapps-extra']
 upstreamurl = "http://lxqt.org/"
 arch = "x86_64"
-size = "156796"
-usize = "1019785"
-sha1sum = "c9241b709b9985498c0684f4041d2ab41d1e8a0b"
+size = "159088"
+usize = "1040296"
+sha1sum = "01bf44343828d43a1495b2f9808474a3badf64c0"
 depends = "['libpulse', 'pcre2', 'pulseaudio', 'qt6-base>=6.8.2']"
 reverse_depends = "['lumina-desktop']"
 +++
@@ -20,10 +20,10 @@ A Pulseaudio mixer in Qt5.
 ### Files: 
 * /usr/bin/pavucontrol-qt
 * /usr/share/applications/pavucontrol-qt.desktop
-* /usr/share/doc/pavucontrol-qt-2.1.0/AUTHORS
-* /usr/share/doc/pavucontrol-qt-2.1.0/CHANGELOG
-* /usr/share/doc/pavucontrol-qt-2.1.0/LICENSE
-* /usr/share/doc/pavucontrol-qt-2.1.0/README.md
+* /usr/share/doc/pavucontrol-qt-2.2.0/AUTHORS
+* /usr/share/doc/pavucontrol-qt-2.2.0/CHANGELOG
+* /usr/share/doc/pavucontrol-qt-2.2.0/LICENSE
+* /usr/share/doc/pavucontrol-qt-2.2.0/README.md
 * /usr/share/pavucontrol-qt/translations/pavucontrol-qt_ar.qm
 * /usr/share/pavucontrol-qt/translations/pavucontrol-qt_arn.qm
 * /usr/share/pavucontrol-qt/translations/pavucontrol-qt_as.qm
@@ -36,6 +36,7 @@ A Pulseaudio mixer in Qt5.
 * /usr/share/pavucontrol-qt/translations/pavucontrol-qt_da.qm
 * /usr/share/pavucontrol-qt/translations/pavucontrol-qt_de.qm
 * /usr/share/pavucontrol-qt/translations/pavucontrol-qt_el.qm
+* /usr/share/pavucontrol-qt/translations/pavucontrol-qt_en_GB.qm
 * /usr/share/pavucontrol-qt/translations/pavucontrol-qt_es.qm
 * /usr/share/pavucontrol-qt/translations/pavucontrol-qt_et.qm
 * /usr/share/pavucontrol-qt/translations/pavucontrol-qt_fi.qm
@@ -49,6 +50,7 @@ A Pulseaudio mixer in Qt5.
 * /usr/share/pavucontrol-qt/translations/pavucontrol-qt_id.qm
 * /usr/share/pavucontrol-qt/translations/pavucontrol-qt_it.qm
 * /usr/share/pavucontrol-qt/translations/pavucontrol-qt_ja.qm
+* /usr/share/pavucontrol-qt/translations/pavucontrol-qt_ka.qm
 * /usr/share/pavucontrol-qt/translations/pavucontrol-qt_kn.qm
 * /usr/share/pavucontrol-qt/translations/pavucontrol-qt_ko.qm
 * /usr/share/pavucontrol-qt/translations/pavucontrol-qt_lg.qm
