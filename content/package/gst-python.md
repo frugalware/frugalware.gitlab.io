@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gst-python 1.26.0-1"
-version = "1.26.0-1"
+title = "gst-python 1.26.1-1"
+version = "1.26.1-1"
 description = "GStreamer python bindings"
-date = "2025-03-12T09:24:07"
+date = "2025-04-25T09:43:08"
 aliases = "/packages/73075"
 categories = ['xlib-extra']
 upstreamurl = "http://gstreamer.freedesktop.org/modules/gst-python.html"
 arch = "x86_64"
-size = "74368"
-usize = "245061"
-sha1sum = "719a585da25f35ac7152c629d7f984226e6cc4e4"
-depends = "['gst1-plugins-bad>=1.26.0', 'gst1-plugins-bad-webrtc>=1.26.0']"
+size = "78224"
+usize = "258048"
+sha1sum = "be2b9716a087af2c21973afb3e69e7c6b59479dc"
+depends = "['gst1-plugins-bad>=1.26.1', 'gst1-plugins-bad-webrtc>=1.26.1']"
 reverse_depends = "['transmageddon']"
 +++
 ### Description: 
@@ -31,8 +31,8 @@ GStreamer python bindings
 * /usr/lib/python3.13/site-packages/gi/overrides/__pycache__/GstAudio.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/gi/overrides/__pycache__/GstPbutils.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/gi/overrides/__pycache__/GstVideo.cpython-313.pyc
-* /usr/share/doc/gst-python-1.26.0/ChangeLog
-* /usr/share/doc/gst-python-1.26.0/COPYING
-* /usr/share/doc/gst-python-1.26.0/NEWS
-* /usr/share/doc/gst-python-1.26.0/README.md
-* /usr/share/doc/gst-python-1.26.0/RELEASE
+* /usr/share/doc/gst-python-1.26.1/ChangeLog
+* /usr/share/doc/gst-python-1.26.1/COPYING
+* /usr/share/doc/gst-python-1.26.1/NEWS
+* /usr/share/doc/gst-python-1.26.1/README.md
+* /usr/share/doc/gst-python-1.26.1/RELEASE

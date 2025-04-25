@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gst1-plugins-bad-openh264 1.26.0-1"
-version = "1.26.0-1"
+title = "gst1-plugins-bad-openh264 1.26.1-1"
+version = "1.26.1-1"
 description = "GStreamer openh264 plugin (Bad)."
-date = "2025-03-12T08:35:35"
+date = "2025-04-25T09:21:07"
 aliases = "/packages/222630"
 categories = ['xmultimedia-extra']
 upstreamurl = "http://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "19804"
+size = "19868"
 usize = "35200"
-sha1sum = "bb7b71818607a3d7eabb2512fca948880f113f55"
-depends = "['gst1-plugins-bad>=1.26.0', 'gst1-plugins-base>=1.26.0', 'openh264>=2.6.0']"
+sha1sum = "4828e03fa1c96770863a0e912e2267f55d7c7d3d"
+depends = "['gst1-plugins-bad>=1.26.1', 'gst1-plugins-base>=1.26.1', 'openh264>=2.6.0']"
 +++
 ### Description: 
 GStreamer openh264 plugin (Bad).
