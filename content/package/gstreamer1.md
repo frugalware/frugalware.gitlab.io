@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gstreamer1 1.26.0-2"
-version = "1.26.0-2"
+title = "gstreamer1 1.26.1-1"
+version = "1.26.1-1"
 description = "Open Source Multimedia Framework"
-date = "2025-03-12T09:18:48"
+date = "2025-04-25T08:36:14"
 aliases = "/packages/168881"
 categories = ['xmultimedia']
 upstreamurl = "https://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "1882416"
-usize = "11577860"
-sha1sum = "521249e52758822fd09054a43d14523ee4b40a62"
+size = "1887432"
+usize = "11596294"
+sha1sum = "73550a8fdb207035a65d9916d8074600b564936d"
 depends = "['glib2>=2.70.2', 'libcap>=2.24-5', 'libffi>=3.2.1-2', 'libunwind']"
 reverse_depends = "['efl', 'gst1-plugins-bad-bzip2', 'gst1-plugins-base', 'gst1-plugins-base-alsa', 'gst1-plugins-base-cdparanoia', 'gst1-plugins-base-gio', 'gst1-plugins-base-libvisual', 'gst1-plugins-base-ogg', 'gst1-plugins-base-opus', 'gst1-plugins-base-pango', 'gst1-plugins-base-theora', 'gst1-plugins-base-vorbis', 'gst1-plugins-good', 'gst1-plugins-ugly', 'libcanberra-gst', 'nice', 'spice', 'spice-gtk', 'uget']"
 +++
@@ -162,19 +162,19 @@ Open Source Multimedia Framework
 * /usr/lib/gstreamer1/gstreamer-1.0/gst-plugins-doc-cache-generator
 * /usr/lib/libgstbase-1.0.so
 * /usr/lib/libgstbase-1.0.so.0
-* /usr/lib/libgstbase-1.0.so.0.2600.0
+* /usr/lib/libgstbase-1.0.so.0.2601.0
 * /usr/lib/libgstcheck-1.0.so
 * /usr/lib/libgstcheck-1.0.so.0
-* /usr/lib/libgstcheck-1.0.so.0.2600.0
+* /usr/lib/libgstcheck-1.0.so.0.2601.0
 * /usr/lib/libgstcontroller-1.0.so
 * /usr/lib/libgstcontroller-1.0.so.0
-* /usr/lib/libgstcontroller-1.0.so.0.2600.0
+* /usr/lib/libgstcontroller-1.0.so.0.2601.0
 * /usr/lib/libgstnet-1.0.so
 * /usr/lib/libgstnet-1.0.so.0
-* /usr/lib/libgstnet-1.0.so.0.2600.0
+* /usr/lib/libgstnet-1.0.so.0.2601.0
 * /usr/lib/libgstreamer-1.0.so
 * /usr/lib/libgstreamer-1.0.so.0
-* /usr/lib/libgstreamer-1.0.so.0.2600.0
+* /usr/lib/libgstreamer-1.0.so.0.2601.0
 * /usr/lib/pkgconfig/gstreamer-1.0.pc
 * /usr/lib/pkgconfig/gstreamer-base-1.0.pc
 * /usr/lib/pkgconfig/gstreamer-check-1.0.pc
@@ -185,14 +185,14 @@ Open Source Multimedia Framework
 * /usr/share/bash-completion/completions/gst-launch-1.0
 * /usr/share/bash-completion/helpers/gst
 * /usr/share/cmake/FindGStreamer.cmake
-* /usr/share/doc/gstreamer1-1.26.0/AUTHORS
-* /usr/share/doc/gstreamer1-1.26.0/ChangeLog
-* /usr/share/doc/gstreamer1-1.26.0/COPYING
-* /usr/share/doc/gstreamer1-1.26.0/NEWS
-* /usr/share/doc/gstreamer1-1.26.0/README.md
-* /usr/share/doc/gstreamer1-1.26.0/README.static-linking
-* /usr/share/doc/gstreamer1-1.26.0/RELEASE
-* /usr/share/gdb/auto-load/usr/lib/libgstreamer-1.0.so.0.2600.0-gdb.py
+* /usr/share/doc/gstreamer1-1.26.1/AUTHORS
+* /usr/share/doc/gstreamer1-1.26.1/ChangeLog
+* /usr/share/doc/gstreamer1-1.26.1/COPYING
+* /usr/share/doc/gstreamer1-1.26.1/NEWS
+* /usr/share/doc/gstreamer1-1.26.1/README.md
+* /usr/share/doc/gstreamer1-1.26.1/README.static-linking
+* /usr/share/doc/gstreamer1-1.26.1/RELEASE
+* /usr/share/gdb/auto-load/usr/lib/libgstreamer-1.0.so.0.2601.0-gdb.py
 * /usr/share/gir-1.0/Gst-1.0.gir
 * /usr/share/gir-1.0/GstBase-1.0.gir
 * /usr/share/gir-1.0/GstCheck-1.0.gir

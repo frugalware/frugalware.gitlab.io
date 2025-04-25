@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gstreamer1-docs 1.26.0-2"
-version = "1.26.0-2"
+title = "gstreamer1-docs 1.26.1-1"
+version = "1.26.1-1"
 description = "GStreamer $pkgver Documentation."
-date = "2025-03-12T09:18:48"
+date = "2025-04-25T08:36:14"
 aliases = "/packages/168882"
 categories = ['docs-extra']
 upstreamurl = "https://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "8910788"
-usize = "113733933"
-sha1sum = "2c34a6ca88391e886485fc96dca6cab8a4fb7ec1"
+size = "8917352"
+usize = "113801929"
+sha1sum = "9a001eeef516c5b8490c6d846d86544b04893bb2"
 depends = "[]"
 +++
 ### Description: 
@@ -67,6 +67,7 @@ GStreamer $pkgver Documentation.
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/additional/design/keyframe-force.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/additional/design/latency.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/additional/design/live-source.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/additional/design/machine-learning-analytics.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/additional/design/mediatype-audio-raw.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/additional/design/mediatype-text-raw.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/additional/design/mediatype-video-raw.html
@@ -2290,6 +2291,7 @@ GStreamer $pkgver Documentation.
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/ogg/ogmaudioparse.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/ogg/ogmtextparse.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/ogg/ogmvideoparse.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/onnx/index.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/openal/index.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/openal/openalsink.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/openal/openalsrc.html
@@ -2937,6 +2939,7 @@ GStreamer $pkgver Documentation.
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/va/GstJpegDecoder.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/va/GstVaBaseEnc.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/va/GstVaBaseTransform.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/va/GstVaCodecAlphaDecodeBin.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/va/GstVaCompositorPad.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/va/index.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/va/vaav1dec.html
@@ -2945,12 +2948,17 @@ GStreamer $pkgver Documentation.
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/va/vadeinterlace.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/va/vah264dec.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/va/vah264enc.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/va/vah264lpenc.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/va/vah265dec.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/va/vah265enc.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/va/vah265lpenc.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/va/vajpegdec.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/va/vajpegenc.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/va/vampeg2dec.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/va/vapostproc.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/va/vavp8alphadecodebin.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/va/vavp8dec.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/va/vavp9alphadecodebin.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/va/vavp9dec.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/vaapi/GstVaapiEncode.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/vaapi/index.html
@@ -3148,7 +3156,7 @@ GStreamer $pkgver Documentation.
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/webrtclib/gstwebrtc-sessiondescription.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/webrtclib/gstwebrtc-transceiver.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/webrtclib/gstwebrtcice.html
-* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/webrtclib/icestream.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/webrtclib/GstWebRTCICEStream.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/webrtclib/index.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/webrtclib/webrtc.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/webrtclib/webrtc_fwd.html

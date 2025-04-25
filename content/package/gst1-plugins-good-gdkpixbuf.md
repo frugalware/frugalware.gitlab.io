@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gst1-plugins-good-gdkpixbuf 1.26.0-2"
-version = "1.26.0-2"
+title = "gst1-plugins-good-gdkpixbuf 1.26.1-1"
+version = "1.26.1-1"
 description = "GStreamer gdk-pixbuf2 plugin (Good)."
-date = "2025-04-10T07:59:53"
+date = "2025-04-25T09:06:12"
 aliases = "/packages/168869"
 categories = ['xmultimedia']
 upstreamurl = "https://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "23036"
+size = "23032"
 usize = "44288"
-sha1sum = "922532939388a145a2f363ffd70183e4b0d53982"
-depends = "['gdk-pixbuf2>=2.36.11-3', 'gst1-plugins-base>=1.26.0', 'gst1-plugins-good>=1.26.0', 'libffi>=3.2.1-2']"
+sha1sum = "2acb7aa0475e7c46fa784f10b994192c26ea3cf9"
+depends = "['gdk-pixbuf2>=2.36.11-3', 'gst1-plugins-base>=1.26.1', 'gst1-plugins-good>=1.26.1', 'libffi>=3.2.1-2']"
 +++
 ### Description: 
 GStreamer gdk-pixbuf2 plugin (Good).

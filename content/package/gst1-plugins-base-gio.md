@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gst1-plugins-base-gio 1.26.0-4"
-version = "1.26.0-4"
+title = "gst1-plugins-base-gio 1.26.1-1"
+version = "1.26.1-1"
 description = "GStreamer GIO plugin (Base)."
-date = "2025-03-31T11:24:06"
+date = "2025-04-25T08:52:21"
 aliases = "/packages/168848"
 categories = ['xmultimedia']
 upstreamurl = "https://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "24532"
+size = "24676"
 usize = "54240"
-sha1sum = "f220a8a03669c9256be416bf0bbc11c1d605a62d"
-depends = "['glib2>=2.56.0', 'gst1-plugins-base>=1.26.0', 'gstreamer1>=1.26.0', 'libffi>=3.2.1-2']"
+sha1sum = "06bb81305bd1855b03be3f60ad11a035f7c40664"
+depends = "['glib2>=2.56.0', 'gst1-plugins-base>=1.26.1', 'gstreamer1>=1.26.1', 'libffi>=3.2.1-2']"
 +++
 ### Description: 
 GStreamer GIO plugin (Base).

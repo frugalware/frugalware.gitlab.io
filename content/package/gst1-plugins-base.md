@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gst1-plugins-base 1.26.0-4"
-version = "1.26.0-4"
+title = "gst1-plugins-base 1.26.1-1"
+version = "1.26.1-1"
 description = "Plugins for GStreamer 1.0"
-date = "2025-03-31T11:24:06"
+date = "2025-04-25T08:52:21"
 aliases = "/packages/168839"
 categories = ['xmultimedia']
 upstreamurl = "https://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "2413240"
-usize = "13334586"
-sha1sum = "0504937ff3985031db9d11891ba070cee578b3f7"
-depends = "['graphene', 'gstreamer1>=1.26.0', 'libffi>=3.2.1-2', 'libgbm', 'libglvnd', 'libglvnd', 'libxv>=1.0.10-2', 'orc>=0.4.26']"
+size = "2416764"
+usize = "13356956"
+sha1sum = "1ae52723d89635672ae160ee7f1b6a55a52c000e"
+depends = "['graphene', 'gstreamer1>=1.26.1', 'libffi>=3.2.1-2', 'libgbm', 'libglvnd', 'libglvnd', 'libxv>=1.0.10-2', 'orc>=0.4.26']"
 reverse_depends = "['efl', 'farstream', 'gst-libav', 'gst1-plugin-libcamera', 'gst1-plugins-bad', 'gst1-plugins-bad-bluez', 'gst1-plugins-bad-chromaprint', 'gst1-plugins-bad-cuda', 'gst1-plugins-bad-de265', 'gst1-plugins-bad-dts', 'gst1-plugins-bad-faac', 'gst1-plugins-bad-faad2', 'gst1-plugins-bad-fdk-aac', 'gst1-plugins-bad-gtk-wayland', 'gst1-plugins-bad-json', 'gst1-plugins-bad-ladspa', 'gst1-plugins-bad-libdc1394', 'gst1-plugins-bad-libva', 'gst1-plugins-bad-mpeg2enc', 'gst1-plugins-bad-neon', 'gst1-plugins-bad-opencv', 'gst1-plugins-bad-openh264', 'gst1-plugins-bad-openmpt', 'gst1-plugins-bad-opus', 'gst1-plugins-bad-qroverlay', 'gst1-plugins-bad-resindvd', 'gst1-plugins-bad-sbc', 'gst1-plugins-bad-soundtouch', 'gst1-plugins-bad-srtp', 'gst1-plugins-bad-svt-av1', 'gst1-plugins-bad-vulkan', 'gst1-plugins-bad-wayland', 'gst1-plugins-bad-webrtc', 'gst1-plugins-bad-wildmidi', 'gst1-plugins-bad-zxing', 'gst1-plugins-base-alsa', 'gst1-plugins-base-cdparanoia', 'gst1-plugins-base-gio', 'gst1-plugins-base-libvisual', 'gst1-plugins-base-ogg', 'gst1-plugins-base-opus', 'gst1-plugins-base-pango', 'gst1-plugins-base-theora', 'gst1-plugins-base-vorbis', 'gst1-plugins-good', 'gst1-plugins-good-aalib', 'gst1-plugins-good-avc1394', 'gst1-plugins-good-caca', 'gst1-plugins-good-dv', 'gst1-plugins-good-flac', 'gst1-plugins-good-gdkpixbuf', 'gst1-plugins-good-jack', 'gst1-plugins-good-jpeg', 'gst1-plugins-good-libsoup', 'gst1-plugins-good-png', 'gst1-plugins-good-pulseaudio', 'gst1-plugins-good-shout', 'gst1-plugins-good-speex', 'gst1-plugins-good-taglib', 'gst1-plugins-good-video4linux2', 'gst1-plugins-good-videobox', 'gst1-plugins-good-vpx', 'gst1-plugins-good-wavpack', 'gst1-plugins-good-ximage', 'gst1-plugins-pipewire', 'gst1-plugins-ugly', 'gst1-plugins-ugly-a52dec', 'gst1-plugins-ugly-cdio', 'gst1-plugins-ugly-dvdread', 'gst1-plugins-ugly-mpeg2dec', 'gst1-plugins-ugly-x264', 'gtk-handbrake', 'gupnp-dlna', 'kamoso', 'nmapsi4', 'opencv', 'opencv-cuda', 'packagekit', 'pocketsphinx', 'qt5-gstreamer', 'qt5-multimedia', 'qt6-multimedia-gstreamer', 'spice', 'vlc-gstreamer', 'weston', 'wine', 'wine-devel', 'xdg-desktop-portal']"
 +++
 ### Description: 
@@ -264,40 +264,40 @@ Plugins for GStreamer 1.0
 * /usr/lib/gstreamer-1.0/libgstxvimagesink.so
 * /usr/lib/libgstallocators-1.0.so
 * /usr/lib/libgstallocators-1.0.so.0
-* /usr/lib/libgstallocators-1.0.so.0.2600.0
+* /usr/lib/libgstallocators-1.0.so.0.2601.0
 * /usr/lib/libgstapp-1.0.so
 * /usr/lib/libgstapp-1.0.so.0
-* /usr/lib/libgstapp-1.0.so.0.2600.0
+* /usr/lib/libgstapp-1.0.so.0.2601.0
 * /usr/lib/libgstaudio-1.0.so
 * /usr/lib/libgstaudio-1.0.so.0
-* /usr/lib/libgstaudio-1.0.so.0.2600.0
+* /usr/lib/libgstaudio-1.0.so.0.2601.0
 * /usr/lib/libgstfft-1.0.so
 * /usr/lib/libgstfft-1.0.so.0
-* /usr/lib/libgstfft-1.0.so.0.2600.0
+* /usr/lib/libgstfft-1.0.so.0.2601.0
 * /usr/lib/libgstgl-1.0.so
 * /usr/lib/libgstgl-1.0.so.0
-* /usr/lib/libgstgl-1.0.so.0.2600.0
+* /usr/lib/libgstgl-1.0.so.0.2601.0
 * /usr/lib/libgstpbutils-1.0.so
 * /usr/lib/libgstpbutils-1.0.so.0
-* /usr/lib/libgstpbutils-1.0.so.0.2600.0
+* /usr/lib/libgstpbutils-1.0.so.0.2601.0
 * /usr/lib/libgstriff-1.0.so
 * /usr/lib/libgstriff-1.0.so.0
-* /usr/lib/libgstriff-1.0.so.0.2600.0
+* /usr/lib/libgstriff-1.0.so.0.2601.0
 * /usr/lib/libgstrtp-1.0.so
 * /usr/lib/libgstrtp-1.0.so.0
-* /usr/lib/libgstrtp-1.0.so.0.2600.0
+* /usr/lib/libgstrtp-1.0.so.0.2601.0
 * /usr/lib/libgstrtsp-1.0.so
 * /usr/lib/libgstrtsp-1.0.so.0
-* /usr/lib/libgstrtsp-1.0.so.0.2600.0
+* /usr/lib/libgstrtsp-1.0.so.0.2601.0
 * /usr/lib/libgstsdp-1.0.so
 * /usr/lib/libgstsdp-1.0.so.0
-* /usr/lib/libgstsdp-1.0.so.0.2600.0
+* /usr/lib/libgstsdp-1.0.so.0.2601.0
 * /usr/lib/libgsttag-1.0.so
 * /usr/lib/libgsttag-1.0.so.0
-* /usr/lib/libgsttag-1.0.so.0.2600.0
+* /usr/lib/libgsttag-1.0.so.0.2601.0
 * /usr/lib/libgstvideo-1.0.so
 * /usr/lib/libgstvideo-1.0.so.0
-* /usr/lib/libgstvideo-1.0.so.0.2600.0
+* /usr/lib/libgstvideo-1.0.so.0.2601.0
 * /usr/lib/pkgconfig/gstreamer-allocators-1.0.pc
 * /usr/lib/pkgconfig/gstreamer-app-1.0.pc
 * /usr/lib/pkgconfig/gstreamer-audio-1.0.pc
@@ -315,13 +315,13 @@ Plugins for GStreamer 1.0
 * /usr/lib/pkgconfig/gstreamer-sdp-1.0.pc
 * /usr/lib/pkgconfig/gstreamer-tag-1.0.pc
 * /usr/lib/pkgconfig/gstreamer-video-1.0.pc
-* /usr/share/doc/gst1-plugins-base-1.26.0/AUTHORS
-* /usr/share/doc/gst1-plugins-base-1.26.0/ChangeLog
-* /usr/share/doc/gst1-plugins-base-1.26.0/COPYING
-* /usr/share/doc/gst1-plugins-base-1.26.0/NEWS
-* /usr/share/doc/gst1-plugins-base-1.26.0/README.md
-* /usr/share/doc/gst1-plugins-base-1.26.0/README.static-linking
-* /usr/share/doc/gst1-plugins-base-1.26.0/RELEASE
+* /usr/share/doc/gst1-plugins-base-1.26.1/AUTHORS
+* /usr/share/doc/gst1-plugins-base-1.26.1/ChangeLog
+* /usr/share/doc/gst1-plugins-base-1.26.1/COPYING
+* /usr/share/doc/gst1-plugins-base-1.26.1/NEWS
+* /usr/share/doc/gst1-plugins-base-1.26.1/README.md
+* /usr/share/doc/gst1-plugins-base-1.26.1/README.static-linking
+* /usr/share/doc/gst1-plugins-base-1.26.1/RELEASE
 * /usr/share/gir-1.0/GstAllocators-1.0.gir
 * /usr/share/gir-1.0/GstApp-1.0.gir
 * /usr/share/gir-1.0/GstAudio-1.0.gir
