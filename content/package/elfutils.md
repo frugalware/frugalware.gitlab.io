@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "elfutils 0.192-6"
-version = "0.192-6"
+title = "elfutils 0.193-1"
+version = "0.193-1"
 description = "Collection of libraries and utilities for working with ELF object files and DWARF debugging information"
-date = "2025-04-21T11:11:22"
+date = "2025-04-26T13:56:11"
 aliases = "/packages/137191"
 categories = ['base']
 upstreamurl = "https://sourceware.org/elfutils/"
 arch = "x86_64"
-size = "878088"
-usize = "5081147"
-sha1sum = "0ab3d6d9e8eafbaf8990d21045f918454e8a7ec6"
+size = "891152"
+usize = "5130273"
+sha1sum = "76ddd9ec0613645fa2aeddfdf0c1f49634f53359"
 depends = "['bzip2>=1.0.6-16', 'glibc>=2.41', 'json-c', 'libarchive', 'libstdc++>=11.3', 'xz>=5.2.4-2', 'zlib-ng', 'zstd']"
 reverse_depends = "['aide', 'bcc', 'dracut', 'elfutils-debuginfod', 'glib2', 'lib32-mesa-libswrast', 'libbpf', 'libosmesa', 'libsystemd', 'libva-mesa-driver', 'mesa-dri-drivers', 'mesa-libswrast', 'mesa-nine', 'mesa-pipe-drivers', 'mesa-vdpau-drivers', 'modemmanager', 'perf', 'v4l-utils']"
 +++
@@ -44,32 +44,33 @@ Collection of libraries and utilities for working with ELF object files and DWAR
 * /usr/include/elfutils/libdw.h
 * /usr/include/elfutils/libdwelf.h
 * /usr/include/elfutils/libdwfl.h
+* /usr/include/elfutils/libdwfl_stacktrace.h
 * /usr/include/elfutils/version.h
 * /usr/include/gelf.h
 * /usr/include/libelf.h
 * /usr/include/nlist.h
-* /usr/lib/libasm-0.192.so
+* /usr/lib/libasm-0.193.so
 * /usr/lib/libasm.so
 * /usr/lib/libasm.so.1
-* /usr/lib/libdw-0.192.so
+* /usr/lib/libdw-0.193.so
 * /usr/lib/libdw.so
 * /usr/lib/libdw.so.1
-* /usr/lib/libelf-0.192.so
+* /usr/lib/libelf-0.193.so
 * /usr/lib/libelf.so
 * /usr/lib/libelf.so.1
 * /usr/lib/pkgconfig/libdebuginfod.pc
 * /usr/lib/pkgconfig/libdw.pc
 * /usr/lib/pkgconfig/libelf.pc
-* /usr/share/doc/elfutils-0.192/AUTHORS
-* /usr/share/doc/elfutils-0.192/ChangeLog
-* /usr/share/doc/elfutils-0.192/COPYING
-* /usr/share/doc/elfutils-0.192/COPYING-GPLV2
-* /usr/share/doc/elfutils-0.192/COPYING-LGPLV3
-* /usr/share/doc/elfutils-0.192/INSTALL
-* /usr/share/doc/elfutils-0.192/NEWS
-* /usr/share/doc/elfutils-0.192/README
-* /usr/share/doc/elfutils-0.192/THANKS
-* /usr/share/doc/elfutils-0.192/TODO
+* /usr/share/doc/elfutils-0.193/AUTHORS
+* /usr/share/doc/elfutils-0.193/ChangeLog
+* /usr/share/doc/elfutils-0.193/COPYING
+* /usr/share/doc/elfutils-0.193/COPYING-GPLV2
+* /usr/share/doc/elfutils-0.193/COPYING-LGPLV3
+* /usr/share/doc/elfutils-0.193/INSTALL
+* /usr/share/doc/elfutils-0.193/NEWS
+* /usr/share/doc/elfutils-0.193/README
+* /usr/share/doc/elfutils-0.193/THANKS
+* /usr/share/doc/elfutils-0.193/TODO
 * /usr/share/fish/vendor_conf.d/debuginfod.fish
 * /usr/share/locale/de/LC_MESSAGES/elfutils.mo
 * /usr/share/locale/en@boldquot/LC_MESSAGES/elfutils.mo

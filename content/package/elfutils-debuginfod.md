@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "elfutils-debuginfod 0.192-6"
-version = "0.192-6"
+title = "elfutils-debuginfod 0.193-1"
+version = "0.193-1"
 description = "Elfutils debuginfod"
-date = "2025-04-21T11:11:22"
+date = "2025-04-26T13:56:11"
 aliases = "/packages/220226"
 categories = ['devel-extra']
 upstreamurl = "https://sourceware.org/elfutils/"
 arch = "x86_64"
-size = "40276"
-usize = "93392"
-sha1sum = "2632af01f9d649aedd03c58693e98dea6d74da8b"
+size = "41332"
+usize = "95376"
+sha1sum = "cefd5fc790639a8b8dc5a77356911159ff0cb8c6"
 depends = "['curl', 'elfutils']"
 reverse_depends = "['sysprof']"
 +++
@@ -21,7 +21,7 @@ Elfutils debuginfod
 * /usr/bin/debuginfod-find
 * /usr/bin/eu-srcfiles
 * /usr/include/elfutils/debuginfod.h
-* /usr/lib/libdebuginfod-0.192.so
+* /usr/lib/libdebuginfod-0.193.so
 * /usr/lib/libdebuginfod.so
 * /usr/lib/libdebuginfod.so.1
 * /usr/share/man/man1/debuginfod-find.1.gz
