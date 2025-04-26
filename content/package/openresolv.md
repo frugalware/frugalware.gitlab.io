@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openresolv 3.14.1-1"
-version = "3.14.1-1"
+title = "openresolv 3.15.0-1"
+version = "3.15.0-1"
 description = "The DNS management framework"
-date = "2025-03-31T08:16:34"
+date = "2025-04-26T18:39:45"
 aliases = "/packages/219476"
 categories = ['base']
 upstreamurl = "https://github.com/NetworkConfiguration/openresolv"
 arch = "x86_64"
-size = "23748"
-usize = "68648"
-sha1sum = "65c89a466916806cfe4e657c42c732eb23e9bb69"
+size = "24328"
+usize = "71895"
+sha1sum = "f3e5c8283981fe0547d08b4e848f816d4cbc2568"
 depends = "['bash']"
 reverse_depends = "['networkmanager', 'strongswan']"
 +++
@@ -27,8 +27,9 @@ The DNS management framework
 * /usr/lib/openresolv/named
 * /usr/lib/openresolv/pdnsd
 * /usr/lib/openresolv/pdns_recursor
+* /usr/lib/openresolv/systemd-resolved
 * /usr/lib/openresolv/unbound
-* /usr/share/doc/openresolv-3.14.1/LICENSE
-* /usr/share/doc/openresolv-3.14.1/README.md
+* /usr/share/doc/openresolv-3.15.0/LICENSE
+* /usr/share/doc/openresolv-3.15.0/README.md
 * /usr/share/man/man5/resolvconf.conf.5.gz
 * /usr/share/man/man8/resolvconf.8.gz
