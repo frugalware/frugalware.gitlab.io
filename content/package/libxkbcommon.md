@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libxkbcommon 1.8.1-1"
-version = "1.8.1-1"
+title = "libxkbcommon 1.9.0-1"
+version = "1.9.0-1"
 description = "Keymap compiler and support library for the XKB specification."
-date = "2025-03-12T08:15:55"
+date = "2025-04-27T09:09:25"
 aliases = "/packages/168713"
 categories = ['x11']
 upstreamurl = "http://xkbcommon.org/"
 arch = "x86_64"
-size = "231636"
-usize = "966508"
-sha1sum = "47cc7bf67d69ff4a605ba1028fd54fbd8cc84140"
+size = "239256"
+usize = "954154"
+sha1sum = "e942870aeee7d5b23d37d10f5520457181e08ed2"
 depends = "['glibc>=2.34', 'libxcb>=1.12-2', 'libxml2']"
 reverse_depends = "['chromium-browser', 'efl', 'enlightenment', 'freerdp', 'freerdp2', 'glfw', 'gst1-plugins-bad-vulkan', 'gtk+3', 'gtk+4', 'i3', 'i3lock', 'kitty', 'libwpe', 'mangohud', 'obs-studio', 'qt5-base', 'qt5-wayland', 'qt6-base', 'qt6-wayland', 'terminology', 'weston', 'wine', 'wine-devel', 'wlroots', 'wlroots0.17', 'xdotool']"
 +++
@@ -28,10 +28,10 @@ Keymap compiler and support library for the XKB specification.
 * /usr/include/xkbcommon/xkbregistry.h
 * /usr/lib/libxkbcommon-x11.so
 * /usr/lib/libxkbcommon-x11.so.0
-* /usr/lib/libxkbcommon-x11.so.0.8.1
+* /usr/lib/libxkbcommon-x11.so.0.9.0
 * /usr/lib/libxkbcommon.so
 * /usr/lib/libxkbcommon.so.0
-* /usr/lib/libxkbcommon.so.0.8.1
+* /usr/lib/libxkbcommon.so.0.9.0
 * /usr/lib/libxkbcommon/xkbcommon/xkbcli-compile-compose
 * /usr/lib/libxkbcommon/xkbcommon/xkbcli-compile-keymap
 * /usr/lib/libxkbcommon/xkbcommon/xkbcli-dump-keymap-wayland
@@ -43,13 +43,13 @@ Keymap compiler and support library for the XKB specification.
 * /usr/lib/libxkbcommon/xkbcommon/xkbcli-list
 * /usr/lib/libxkbregistry.so
 * /usr/lib/libxkbregistry.so.0
-* /usr/lib/libxkbregistry.so.0.8.1
+* /usr/lib/libxkbregistry.so.0.9.0
 * /usr/lib/pkgconfig/xkbcommon-x11.pc
 * /usr/lib/pkgconfig/xkbcommon.pc
 * /usr/lib/pkgconfig/xkbregistry.pc
 * /usr/share/bash-completion/completions/xkbcli
-* /usr/share/doc/libxkbcommon-1.8.1/LICENSE
-* /usr/share/doc/libxkbcommon-1.8.1/README.md
+* /usr/share/doc/libxkbcommon-1.9.0/LICENSE
+* /usr/share/doc/libxkbcommon-1.9.0/README.md
 * /usr/share/man/man1/xkbcli-compile-compose.1.gz
 * /usr/share/man/man1/xkbcli-compile-keymap.1.gz
 * /usr/share/man/man1/xkbcli-dump-keymap-wayland.1.gz
