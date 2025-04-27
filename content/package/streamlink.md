@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "streamlink 7.2.0-1"
-version = "7.2.0-1"
+title = "streamlink 7.3.0-1"
+version = "7.3.0-1"
 description = "CLI program that launches streams from various streaming services in a custom video player"
-date = "2025-04-10T07:23:58"
+date = "2025-04-27T09:38:32"
 aliases = "/packages/220284"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/streamlink/streamlink"
 arch = "x86_64"
-size = "815644"
-usize = "4098561"
-sha1sum = "cdae0691ddf36e025422f25bd52ebee50bad89eb"
+size = "824600"
+usize = "4138333"
+sha1sum = "32957e4a4acfd796491ddc771f921f0fbf8a0eca"
 depends = "['ffmpeg', 'python3-isodate', 'python3-pycountry', 'python3-pycryptodome', 'python3-requests', 'python3-websocket_client', 'rtmpdump']"
 +++
 ### Description: 
@@ -481,7 +481,23 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.13/site-packages/streamlink/__pycache__/__main__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink_cli/argparser.py
 * /usr/lib/python3.13/site-packages/streamlink_cli/compat.py
-* /usr/lib/python3.13/site-packages/streamlink_cli/console.py
+* /usr/lib/python3.13/site-packages/streamlink_cli/console/console.py
+* /usr/lib/python3.13/site-packages/streamlink_cli/console/progress.py
+* /usr/lib/python3.13/site-packages/streamlink_cli/console/stream.py
+* /usr/lib/python3.13/site-packages/streamlink_cli/console/stream_wrapper.py
+* /usr/lib/python3.13/site-packages/streamlink_cli/console/stream_wrapper.pyi
+* /usr/lib/python3.13/site-packages/streamlink_cli/console/terminal.py
+* /usr/lib/python3.13/site-packages/streamlink_cli/console/user_input.py
+* /usr/lib/python3.13/site-packages/streamlink_cli/console/windows.py
+* /usr/lib/python3.13/site-packages/streamlink_cli/console/__init__.py
+* /usr/lib/python3.13/site-packages/streamlink_cli/console/__pycache__/console.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/streamlink_cli/console/__pycache__/progress.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/streamlink_cli/console/__pycache__/stream.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/streamlink_cli/console/__pycache__/stream_wrapper.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/streamlink_cli/console/__pycache__/terminal.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/streamlink_cli/console/__pycache__/user_input.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/streamlink_cli/console/__pycache__/windows.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/streamlink_cli/console/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink_cli/constants.py
 * /usr/lib/python3.13/site-packages/streamlink_cli/exceptions.py
 * /usr/lib/python3.13/site-packages/streamlink_cli/main.py
@@ -501,13 +517,11 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.13/site-packages/streamlink_cli/utils/formatter.py
 * /usr/lib/python3.13/site-packages/streamlink_cli/utils/path.py
 * /usr/lib/python3.13/site-packages/streamlink_cli/utils/player.py
-* /usr/lib/python3.13/site-packages/streamlink_cli/utils/progress.py
 * /usr/lib/python3.13/site-packages/streamlink_cli/utils/versioncheck.py
 * /usr/lib/python3.13/site-packages/streamlink_cli/utils/__init__.py
 * /usr/lib/python3.13/site-packages/streamlink_cli/utils/__pycache__/formatter.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink_cli/utils/__pycache__/path.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink_cli/utils/__pycache__/player.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/streamlink_cli/utils/__pycache__/progress.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink_cli/utils/__pycache__/versioncheck.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink_cli/utils/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink_cli/_parser.py
@@ -515,7 +529,6 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.13/site-packages/streamlink_cli/__main__.py
 * /usr/lib/python3.13/site-packages/streamlink_cli/__pycache__/argparser.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink_cli/__pycache__/compat.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/streamlink_cli/__pycache__/console.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink_cli/__pycache__/constants.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink_cli/__pycache__/exceptions.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink_cli/__pycache__/main.cpython-313.pyc
@@ -524,6 +537,6 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.13/site-packages/streamlink_cli/__pycache__/_parser.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink_cli/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink_cli/__pycache__/__main__.cpython-313.pyc
-* /usr/share/doc/streamlink-7.2.0/AUTHORS
-* /usr/share/doc/streamlink-7.2.0/LICENSE
-* /usr/share/doc/streamlink-7.2.0/README.md
+* /usr/share/doc/streamlink-7.3.0/AUTHORS
+* /usr/share/doc/streamlink-7.3.0/LICENSE
+* /usr/share/doc/streamlink-7.3.0/README.md

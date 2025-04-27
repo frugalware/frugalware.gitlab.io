@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "neovim 0.11.0-1"
-version = "0.11.0-1"
+title = "neovim 0.11.1-1"
+version = "0.11.1-1"
 description = "Fork of Vim aiming to improve user experience, plugins, and GUIs"
-date = "2025-04-01T11:11:20"
+date = "2025-04-27T09:53:52"
 aliases = "/packages/222573"
 categories = ['apps-extra']
 upstreamurl = "https://neovim.io"
 arch = "x86_64"
-size = "6266364"
-usize = "26336092"
-sha1sum = "62ed5caaadb60e79dfb687e7b32c0f6b14c1af10"
+size = "6233796"
+usize = "26142813"
+sha1sum = "fbfd9bbcc16713fdb0e33a978b5de38df07ba915"
 depends = "['libluv', 'libtermkey', 'libvterm', 'lua51-lpeg', 'msgpack-c', 'tree-sitter>=0.25.1', 'unibilium', 'utf8proc']"
 +++
 ### Description: 
@@ -19,8 +19,8 @@ Fork of Vim aiming to improve user experience, plugins, and GUIs
 ### Files: 
 * /usr/bin/nvim
 * /usr/share/applications/nvim.desktop
-* /usr/share/doc/neovim-0.11.0/INSTALL.md
-* /usr/share/doc/neovim-0.11.0/README.md
+* /usr/share/doc/neovim-0.11.1/INSTALL.md
+* /usr/share/doc/neovim-0.11.1/README.md
 * /usr/share/icons/hicolor/128x128/apps/nvim.png
 * /usr/share/man/man1/nvim.1.gz
 * /usr/share/nvim/runtime/autoload/ada.vim

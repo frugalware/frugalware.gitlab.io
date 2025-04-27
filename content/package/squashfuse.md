@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "squashfuse 0.6.0-1"
-version = "0.6.0-1"
+title = "squashfuse 0.6.1-1"
+version = "0.6.1-1"
 description = "FUSE filesystem to mount squashfs archives"
-date = "2025-03-05T16:14:53"
+date = "2025-04-27T10:00:11"
 aliases = "/packages/221434"
 categories = ['apps']
 upstreamurl = "https://github.com/vasi/squashfuse"
 arch = "x86_64"
-size = "58604"
-usize = "228225"
-sha1sum = "b2fe68331a3d3977b68094e16c3a902127157162"
+size = "58844"
+usize = "228380"
+sha1sum = "984035ba68f957f361e5f35e6428cbef9867ee71"
 depends = "['fuse', 'lz4', 'xz', 'zstd']"
 reverse_depends = "['libappimage']"
 +++
@@ -43,10 +43,10 @@ FUSE filesystem to mount squashfs archives
 * /usr/lib/libsquashfuse_ll.so.0.0.0
 * /usr/lib/pkgconfig/squashfuse.pc
 * /usr/lib/pkgconfig/squashfuse_ll.pc
-* /usr/share/doc/squashfuse-0.6.0/CONFIGURATION
-* /usr/share/doc/squashfuse-0.6.0/LICENSE
-* /usr/share/doc/squashfuse-0.6.0/NEWS
-* /usr/share/doc/squashfuse-0.6.0/README
-* /usr/share/doc/squashfuse-0.6.0/TODO
+* /usr/share/doc/squashfuse-0.6.1/CONFIGURATION
+* /usr/share/doc/squashfuse-0.6.1/LICENSE
+* /usr/share/doc/squashfuse-0.6.1/NEWS
+* /usr/share/doc/squashfuse-0.6.1/README
+* /usr/share/doc/squashfuse-0.6.1/TODO
 * /usr/share/man/man1/squashfuse.1.gz
 * /usr/share/man/man1/squashfuse_ll.1.gz
