@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "quota-tools 4.09-2"
-version = "4.09-2"
+title = "quota-tools 4.10-1"
+version = "4.10-1"
 description = "Linux disk quota utilities"
-date = "2024-01-08T10:18:13"
+date = "2025-04-27T10:17:47"
 aliases = "/packages/3312"
 categories = ['apps']
 upstreamurl = "http://sourceforge.net/projects/linuxquota/"
 arch = "x86_64"
-size = "224820"
-usize = "1063739"
-sha1sum = "ec162b387aeb722b18addba84cfa511dc13b1ab5"
+size = "232696"
+usize = "1037180"
+sha1sum = "535b202af087c4d01dfc74c844ec1b1521d19568"
 depends = "['e2fsprogs>=1.42.13-4', 'libnl', 'libtirpc']"
 +++
 ### Description: 
@@ -31,16 +31,17 @@ Linux disk quota utilities
 * /usr/bin/quota_nld
 * /usr/bin/repquota
 * /usr/bin/rpc.rquotad
+* /usr/bin/setproject
 * /usr/bin/setquota
 * /usr/bin/warnquota
 * /usr/bin/xqmstats
-* /usr/share/doc/quota-tools-4.09/Changelog
-* /usr/share/doc/quota-tools-4.09/COPYING
-* /usr/share/doc/quota-tools-4.09/quotadoc.sgml
-* /usr/share/doc/quota-tools-4.09/README.Frugalware
-* /usr/share/doc/quota-tools-4.09/README.ldap-support
-* /usr/share/doc/quota-tools-4.09/README.mailserver
-* /usr/share/doc/quota-tools-4.09/set_limits_example.c
+* /usr/share/doc/quota-tools-4.10/Changelog
+* /usr/share/doc/quota-tools-4.10/COPYING
+* /usr/share/doc/quota-tools-4.10/quotadoc.sgml
+* /usr/share/doc/quota-tools-4.10/README.Frugalware
+* /usr/share/doc/quota-tools-4.10/README.ldap-support
+* /usr/share/doc/quota-tools-4.10/README.mailserver
+* /usr/share/doc/quota-tools-4.10/set_limits_example.c
 * /usr/share/locale/cs/LC_MESSAGES/quota.mo
 * /usr/share/locale/de/LC_MESSAGES/quota.mo
 * /usr/share/locale/fr/LC_MESSAGES/quota.mo
