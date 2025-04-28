@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "wayland-protocols 1.43-1"
-version = "1.43-1"
+title = "wayland-protocols 1.44-1"
+version = "1.44-1"
 description = "Wayland protocols that adds functionality not available in the core protocol."
-date = "2025-04-08T20:41:41"
+date = "2025-04-28T07:34:13"
 aliases = "/packages/218049"
 categories = ['x11']
 upstreamurl = "http://wayland.freedesktop.org/"
 arch = "x86_64"
-size = "121952"
-usize = "949077"
-sha1sum = "3871ba9b3c529e8f1e043e533efcdeb37f4772c0"
+size = "124768"
+usize = "976181"
+sha1sum = "0ea0a71dcdadc342995e6e2ab6b983b175f92c56"
 depends = "['wayland>=1.15.0']"
 reverse_depends = "['efl', 'gtk+4']"
 +++
@@ -20,6 +20,7 @@ Wayland protocols that adds functionality not available in the core protocol.
 ### Files: 
 * /usr/include/wayland-protocols/alpha-modifier-v1-enum.h
 * /usr/include/wayland-protocols/color-management-v1-enum.h
+* /usr/include/wayland-protocols/color-representation-v1-enum.h
 * /usr/include/wayland-protocols/commit-timing-v1-enum.h
 * /usr/include/wayland-protocols/content-type-v1-enum.h
 * /usr/include/wayland-protocols/cursor-shape-v1-enum.h
@@ -73,8 +74,8 @@ Wayland protocols that adds functionality not available in the core protocol.
 * /usr/include/wayland-protocols/xwayland-keyboard-grab-unstable-v1-enum.h
 * /usr/include/wayland-protocols/xwayland-shell-v1-enum.h
 * /usr/lib/pkgconfig/wayland-protocols.pc
-* /usr/share/doc/wayland-protocols-1.43/COPYING
-* /usr/share/doc/wayland-protocols-1.43/README.md
+* /usr/share/doc/wayland-protocols-1.44/COPYING
+* /usr/share/doc/wayland-protocols-1.44/README.md
 * /usr/share/wayland-protocols/stable/linux-dmabuf/linux-dmabuf-v1.xml
 * /usr/share/wayland-protocols/stable/presentation-time/presentation-time.xml
 * /usr/share/wayland-protocols/stable/tablet/tablet-v2.xml
@@ -82,6 +83,7 @@ Wayland protocols that adds functionality not available in the core protocol.
 * /usr/share/wayland-protocols/stable/xdg-shell/xdg-shell.xml
 * /usr/share/wayland-protocols/staging/alpha-modifier/alpha-modifier-v1.xml
 * /usr/share/wayland-protocols/staging/color-management/color-management-v1.xml
+* /usr/share/wayland-protocols/staging/color-representation/color-representation-v1.xml
 * /usr/share/wayland-protocols/staging/commit-timing/commit-timing-v1.xml
 * /usr/share/wayland-protocols/staging/content-type/content-type-v1.xml
 * /usr/share/wayland-protocols/staging/cursor-shape/cursor-shape-v1.xml

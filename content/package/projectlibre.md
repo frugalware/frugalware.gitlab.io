@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "projectlibre 1.9.3-1"
-version = "1.9.3-1"
+title = "projectlibre 1.9.8-1"
+version = "1.9.8-1"
 description = "ProjectLibre is an open source project management software"
-date = "2021-03-19T14:05:44"
+date = "2025-04-28T07:38:33"
 aliases = "/packages/220353"
 categories = ['xapps-extra']
 upstreamurl = "http://www.projectlibre.org"
 arch = "x86_64"
-size = "17630464"
-usize = "20047783"
-sha1sum = "c2144e3bf504fe7cace4dbe45fc31da5f06fb063"
+size = "19883612"
+usize = "22641701"
+sha1sum = "1edf36000a7368a9046af93034606e9accebc601"
 depends = "['openjre-x']"
 +++
 ### Description: 
