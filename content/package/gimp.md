@@ -12,7 +12,7 @@ size = "20308572"
 usize = "117700349"
 sha1sum = "b075a540a9be03c294acc21b8c21f7f0bd83521d"
 depends = "['aalib', 'appstream-glib', 'darktable>=2.2.5-4', 'gegl>=0.4.58', 'ghostscript>=10.0.0', 'glib-networking', 'iso-codes', 'libgexiv2', 'libheif', 'libmng', 'libmypaint>=1.6', 'libxmu', 'libxpm', 'mypaint-brushes', 'openblas', 'poppler-glib>=0.60.1-2', 'pygobject3-cairo', 'vala', 'xdg-utils']"
-reverse_depends = "['gmic', 'gmic-gimp-plugin', 'xsane-gimp']"
+reverse_depends = "['gmic', 'gmic-gimp-plugin']"
 +++
 ### Description: 
 The GNU Image Manipulation Program

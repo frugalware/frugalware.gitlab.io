@@ -12,7 +12,6 @@ size = "12072852"
 usize = "52826870"
 sha1sum = "166952fc128da6fc6db353291dc600dac2d7d5b0"
 depends = "['brotli', 'c-ares', 'icu4c>=77.1', 'libuv', 'nghttp2>=1.41.0', 'python3-setuptools']"
-reverse_depends = "['renovate']"
 license = "MIT"
 +++
 ### Description: 

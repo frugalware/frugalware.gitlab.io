@@ -1,18 +1,17 @@
 +++
 draft = false
-title = "xsane 0.999-6"
-version = "0.999-6"
+title = "xsane 0.999-7"
+version = "0.999-7"
 description = "XSane is a graphical scanning frontend for SANE (Scanner Access Now Easy)."
-date = "2025-03-14T13:12:58"
+date = "2025-04-28T13:52:36"
 aliases = "/packages/218755"
 categories = ['xapps-extra']
 upstreamurl = "https://gitlab.com/sane-project/frontend/xsane"
 arch = "x86_64"
-size = "1614212"
-usize = "5078218"
-sha1sum = "02e3f427109580e57852cff5da2f2cedc78ec48d"
+size = "1614780"
+usize = "5078514"
+sha1sum = "54ae13442272fca60841a8b3c29f7a1d7496b521"
 depends = "['gtk+2', 'lcms2', 'libgphoto2>=2.5.0', 'libjpeg', 'sane-backends>=1.0.21']"
-reverse_depends = "['xsane-gimp']"
 license = "GPL"
 +++
 ### Description: 
