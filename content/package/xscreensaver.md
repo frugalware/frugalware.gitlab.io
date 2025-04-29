@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "xscreensaver 6.09-1"
-version = "6.09-1"
+title = "xscreensaver 6.10.1-1"
+version = "6.10.1-1"
 description = "A screen saver and locker for the X Window System."
-date = "2024-06-09T19:17:04"
+date = "2025-04-29T07:46:55"
 aliases = "/packages/3426"
 categories = ['xlib']
 upstreamurl = "https://www.jwz.org/xscreensaver"
 arch = "x86_64"
-size = "324256"
-usize = "963798"
-sha1sum = "e4d86fd2962df1fcffc5a562d1915f907d5e183f"
+size = "323136"
+usize = "962552"
+sha1sum = "d21baa1f3b99d8d867b40d90ca1f582192f8f75c"
 depends = "['gdk-pixbuf-xlib', 'glade', 'gtk+2', 'libxmu', 'libxt', 'xscreensaver-data']"
 reverse_depends = "['blueproximity', 'lumina-desktop']"
 +++
@@ -28,9 +28,9 @@ A screen saver and locker for the X Window System.
 * /usr/lib/X11/app-defaults/XScreenSaver.Frugalware
 * /usr/share/applications/xscreensaver-settings.desktop
 * /usr/share/applications/xscreensaver.desktop
-* /usr/share/doc/xscreensaver-6.09/INSTALL
-* /usr/share/doc/xscreensaver-6.09/README
-* /usr/share/doc/xscreensaver-6.09/README.hacking
+* /usr/share/doc/xscreensaver-6.10.1/INSTALL
+* /usr/share/doc/xscreensaver-6.10.1/README
+* /usr/share/doc/xscreensaver-6.10.1/README.hacking
 * /usr/share/fonts/xscreensaver/clacon.ttf
 * /usr/share/fonts/xscreensaver/gallant12x22.ttf
 * /usr/share/fonts/xscreensaver/luximr.ttf

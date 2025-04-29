@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "xscreensaver-data 6.09-1"
-version = "6.09-1"
+title = "xscreensaver-data 6.10.1-1"
+version = "6.10.1-1"
 description = "Screensavers for Xscreensaver"
-date = "2024-06-09T19:17:04"
+date = "2025-04-29T07:46:55"
 aliases = "/packages/10216"
 categories = ['xlib']
 upstreamurl = "https://www.jwz.org/xscreensaver"
 arch = "x86_64"
-size = "18364908"
-usize = "40564171"
-sha1sum = "d966d809767b6f08601e9395af8747fe8671e4c1"
+size = "18487832"
+usize = "48097538"
+sha1sum = "2e7d19fa0fa337d0d470dfdd05dbd37cabab5d98"
 depends = "['gdk-pixbuf2>=2.42.0', 'libglu', 'libxcrypt', 'libxft']"
 reverse_depends = "['xscreensaver']"
 +++
@@ -81,6 +81,7 @@ Screensavers for Xscreensaver
 * /usr/lib/xscreensaver/distort
 * /usr/lib/xscreensaver/drift
 * /usr/lib/xscreensaver/droste
+* /usr/lib/xscreensaver/dumpsterfire
 * /usr/lib/xscreensaver/dymaxionmap
 * /usr/lib/xscreensaver/endgame
 * /usr/lib/xscreensaver/energystream
@@ -137,6 +138,7 @@ Screensavers for Xscreensaver
 * /usr/lib/xscreensaver/highvoltage
 * /usr/lib/xscreensaver/hilbert
 * /usr/lib/xscreensaver/hopalong
+* /usr/lib/xscreensaver/hopffibration
 * /usr/lib/xscreensaver/hydrostat
 * /usr/lib/xscreensaver/hypertorus
 * /usr/lib/xscreensaver/hypnowheel
@@ -153,6 +155,7 @@ Screensavers for Xscreensaver
 * /usr/lib/xscreensaver/kaleidocycle
 * /usr/lib/xscreensaver/kallisti
 * /usr/lib/xscreensaver/klein
+* /usr/lib/xscreensaver/klondike
 * /usr/lib/xscreensaver/kumppa
 * /usr/lib/xscreensaver/lament
 * /usr/lib/xscreensaver/lavalite
@@ -193,6 +196,7 @@ Screensavers for Xscreensaver
 * /usr/lib/xscreensaver/piecewise
 * /usr/lib/xscreensaver/pinion
 * /usr/lib/xscreensaver/pipes
+* /usr/lib/xscreensaver/platonicfolding
 * /usr/lib/xscreensaver/polyhedra
 * /usr/lib/xscreensaver/polyominoes
 * /usr/lib/xscreensaver/polytopes
@@ -399,6 +403,7 @@ Screensavers for Xscreensaver
 * /usr/share/man/man6/highvoltage.6.gz
 * /usr/share/man/man6/hilbert.6.gz
 * /usr/share/man/man6/hopalong.6.gz
+* /usr/share/man/man6/hopffibration.6.gz
 * /usr/share/man/man6/hydrostat.6.gz
 * /usr/share/man/man6/hypertorus.6.gz
 * /usr/share/man/man6/hypnowheel.6.gz
@@ -454,6 +459,7 @@ Screensavers for Xscreensaver
 * /usr/share/man/man6/piecewise.6.gz
 * /usr/share/man/man6/pinion.6.gz
 * /usr/share/man/man6/pipes.6.gz
+* /usr/share/man/man6/platonicfolding.6.gz
 * /usr/share/man/man6/polyhedra.6.gz
 * /usr/share/man/man6/polyominoes.6.gz
 * /usr/share/man/man6/polytopes.6.gz
@@ -603,6 +609,7 @@ Screensavers for Xscreensaver
 * /usr/share/xscreensaver/config/distort.xml
 * /usr/share/xscreensaver/config/drift.xml
 * /usr/share/xscreensaver/config/droste.xml
+* /usr/share/xscreensaver/config/dumpsterfire.xml
 * /usr/share/xscreensaver/config/dymaxionmap.xml
 * /usr/share/xscreensaver/config/endgame.xml
 * /usr/share/xscreensaver/config/energystream.xml
@@ -659,6 +666,7 @@ Screensavers for Xscreensaver
 * /usr/share/xscreensaver/config/highvoltage.xml
 * /usr/share/xscreensaver/config/hilbert.xml
 * /usr/share/xscreensaver/config/hopalong.xml
+* /usr/share/xscreensaver/config/hopffibration.xml
 * /usr/share/xscreensaver/config/hydrostat.xml
 * /usr/share/xscreensaver/config/hypertorus.xml
 * /usr/share/xscreensaver/config/hypnowheel.xml
@@ -675,6 +683,7 @@ Screensavers for Xscreensaver
 * /usr/share/xscreensaver/config/kaleidocycle.xml
 * /usr/share/xscreensaver/config/kallisti.xml
 * /usr/share/xscreensaver/config/klein.xml
+* /usr/share/xscreensaver/config/klondike.xml
 * /usr/share/xscreensaver/config/kumppa.xml
 * /usr/share/xscreensaver/config/lament.xml
 * /usr/share/xscreensaver/config/lavalite.xml
@@ -714,6 +723,7 @@ Screensavers for Xscreensaver
 * /usr/share/xscreensaver/config/piecewise.xml
 * /usr/share/xscreensaver/config/pinion.xml
 * /usr/share/xscreensaver/config/pipes.xml
+* /usr/share/xscreensaver/config/platonicfolding.xml
 * /usr/share/xscreensaver/config/polyhedra.xml
 * /usr/share/xscreensaver/config/polyominoes.xml
 * /usr/share/xscreensaver/config/polytopes.xml

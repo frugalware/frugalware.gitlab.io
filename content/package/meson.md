@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "meson 1.7.2-1"
-version = "1.7.2-1"
+title = "meson 1.8.0-1"
+version = "1.8.0-1"
 description = "High productivity build system"
-date = "2025-04-11T15:14:08"
+date = "2025-04-29T07:38:30"
 aliases = "/packages/219168"
 categories = ['devel-extra']
 upstreamurl = "http://mesonbuild.com/"
 arch = "x86_64"
-size = "1904984"
-usize = "8814836"
-sha1sum = "67aa544c415bbf13280e19f54044e0360f5b4edc"
+size = "1941164"
+usize = "8993457"
+sha1sum = "0e777cf12a9e6c0af8bb1f5b0109b24effb29f3d"
 depends = "['ninja>=1.8.2-2', 'python3>=3.13', 'python3-setuptools']"
 reverse_depends = "['meson-python']"
 +++
@@ -19,12 +19,12 @@ High productivity build system
 
 ### Files: 
 * /usr/bin/meson
-* /usr/lib/python3.13/site-packages/meson-1.7.2-py3.13.egg-info/dependency_links.txt
-* /usr/lib/python3.13/site-packages/meson-1.7.2-py3.13.egg-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/meson-1.7.2-py3.13.egg-info/PKG-INFO
-* /usr/lib/python3.13/site-packages/meson-1.7.2-py3.13.egg-info/requires.txt
-* /usr/lib/python3.13/site-packages/meson-1.7.2-py3.13.egg-info/SOURCES.txt
-* /usr/lib/python3.13/site-packages/meson-1.7.2-py3.13.egg-info/top_level.txt
+* /usr/lib/python3.13/site-packages/meson-1.8.0-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/meson-1.8.0-py3.13.egg-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/meson-1.8.0-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/meson-1.8.0-py3.13.egg-info/requires.txt
+* /usr/lib/python3.13/site-packages/meson-1.8.0-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/meson-1.8.0-py3.13.egg-info/top_level.txt
 * /usr/lib/python3.13/site-packages/mesonbuild/arglist.py
 * /usr/lib/python3.13/site-packages/mesonbuild/ast/interpreter.py
 * /usr/lib/python3.13/site-packages/mesonbuild/ast/introspection.py
@@ -356,6 +356,7 @@ High productivity build system
 * /usr/lib/python3.13/site-packages/mesonbuild/scripts/copy.py
 * /usr/lib/python3.13/site-packages/mesonbuild/scripts/coverage.py
 * /usr/lib/python3.13/site-packages/mesonbuild/scripts/delwithsuffix.py
+* /usr/lib/python3.13/site-packages/mesonbuild/scripts/depaccumulate.py
 * /usr/lib/python3.13/site-packages/mesonbuild/scripts/depfixer.py
 * /usr/lib/python3.13/site-packages/mesonbuild/scripts/depscan.py
 * /usr/lib/python3.13/site-packages/mesonbuild/scripts/dirchanger.py
@@ -372,6 +373,7 @@ High productivity build system
 * /usr/lib/python3.13/site-packages/mesonbuild/scripts/regen_checker.py
 * /usr/lib/python3.13/site-packages/mesonbuild/scripts/reprotest.py
 * /usr/lib/python3.13/site-packages/mesonbuild/scripts/run_tool.py
+* /usr/lib/python3.13/site-packages/mesonbuild/scripts/rustdoc.py
 * /usr/lib/python3.13/site-packages/mesonbuild/scripts/scanbuild.py
 * /usr/lib/python3.13/site-packages/mesonbuild/scripts/symbolextractor.py
 * /usr/lib/python3.13/site-packages/mesonbuild/scripts/tags.py
@@ -388,6 +390,7 @@ High productivity build system
 * /usr/lib/python3.13/site-packages/mesonbuild/scripts/__pycache__/copy.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/mesonbuild/scripts/__pycache__/coverage.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/mesonbuild/scripts/__pycache__/delwithsuffix.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/mesonbuild/scripts/__pycache__/depaccumulate.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/mesonbuild/scripts/__pycache__/depfixer.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/mesonbuild/scripts/__pycache__/depscan.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/mesonbuild/scripts/__pycache__/dirchanger.cpython-313.pyc
@@ -404,6 +407,7 @@ High productivity build system
 * /usr/lib/python3.13/site-packages/mesonbuild/scripts/__pycache__/regen_checker.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/mesonbuild/scripts/__pycache__/reprotest.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/mesonbuild/scripts/__pycache__/run_tool.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/mesonbuild/scripts/__pycache__/rustdoc.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/mesonbuild/scripts/__pycache__/scanbuild.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/mesonbuild/scripts/__pycache__/symbolextractor.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/mesonbuild/scripts/__pycache__/tags.cpython-313.pyc
@@ -496,7 +500,8 @@ High productivity build system
 * /usr/lib/python3.13/site-packages/mesonbuild/__pycache__/_pathlib.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/mesonbuild/__pycache__/_typing.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/mesonbuild/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/meson-1.7.2/COPYING
-* /usr/share/doc/meson-1.7.2/README.md
+* /usr/share/doc/meson-1.8.0/COPYING
+* /usr/share/doc/meson-1.8.0/LICENSE
+* /usr/share/doc/meson-1.8.0/README.md
 * /usr/share/share/man/man1/meson.1
 * /usr/share/share/polkit-1/actions/com.mesonbuild.install.policy
