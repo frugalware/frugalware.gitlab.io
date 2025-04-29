@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-cak 137.0.2-1"
-version = "137.0.2-1"
+title = "firefox-cak 138.0-1"
+version = "138.0-1"
 description = "Kaqchikel language support for Firefox"
-date = "2025-04-15T09:16:37"
+date = "2025-04-29T09:38:48"
 aliases = "/packages/218595"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "345436"
-usize = "399171"
-sha1sum = "e311293f6588ca5ae79ea96106891d0b4dd4632c"
-depends = "['firefox>=137.0.2']"
+size = "339232"
+usize = "392707"
+sha1sum = "1b824c3b8fd490fb0add524eac07a6a4d36b9171"
+depends = "['firefox>=138.0']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

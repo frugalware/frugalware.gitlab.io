@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-si 137.0.2-1"
-version = "137.0.2-1"
+title = "firefox-si 138.0-1"
+version = "138.0-1"
 description = "Sinhala language support for Firefox"
-date = "2025-04-15T09:16:37"
+date = "2025-04-29T09:38:48"
 aliases = "/packages/73649"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "366844"
-usize = "419749"
-sha1sum = "8d978a3a3182fabfefba54573d107c1a0410af7b"
-depends = "['firefox>=137.0.2']"
+size = "361756"
+usize = "414463"
+sha1sum = "b085dccc14d88fb1ca467d6220057f286454ea6b"
+depends = "['firefox>=138.0']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

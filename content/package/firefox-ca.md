@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-ca 137.0.2-1"
-version = "137.0.2-1"
+title = "firefox-ca 138.0-1"
+version = "138.0-1"
 description = "Catalan language support for Firefox"
-date = "2025-04-15T09:16:37"
+date = "2025-04-29T09:38:48"
 aliases = "/packages/4416"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "353364"
-usize = "405797"
-sha1sum = "3cf5f8d62a39864867cb2cb6af2fe2e562d2baf5"
-depends = "['firefox>=137.0.2']"
+size = "349532"
+usize = "402154"
+sha1sum = "52b8bacd418a0afa700fcaf90057a52aa7f476f5"
+depends = "['firefox>=138.0']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

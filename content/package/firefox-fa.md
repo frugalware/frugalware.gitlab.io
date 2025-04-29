@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-fa 137.0.2-1"
-version = "137.0.2-1"
+title = "firefox-fa 138.0-1"
+version = "138.0-1"
 description = "Persian language support for Firefox"
-date = "2025-04-15T09:16:37"
+date = "2025-04-29T09:38:48"
 aliases = "/packages/73626"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "366572"
-usize = "419707"
-sha1sum = "4f7d92bb0439ceb6dbe51d85e84e25a462039c05"
-depends = "['firefox>=137.0.2']"
+size = "359988"
+usize = "412991"
+sha1sum = "fbdc2f3cf27d1b81212682d500acf2165bc0e6c9"
+depends = "['firefox>=138.0']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 
