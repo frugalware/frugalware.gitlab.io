@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ca-certificates 20250419-1"
-version = "20250419-1"
+title = "ca-certificates 20250419-2"
+version = "20250419-2"
 description = "Common CA certificates"
-date = "2025-04-19T19:26:58"
+date = "2025-04-30T11:15:42"
 aliases = "/packages/103238"
 categories = ['base']
 upstreamurl = "http://packages.qa.debian.org/c/ca-certificates.html"
 arch = "x86_64"
-size = "138436"
+size = "138468"
 usize = "240276"
-sha1sum = "d77a580160a378651f2450eb008f11b22bfbea8a"
+sha1sum = "d01bb5a9ad7789cc40a17fa52c268adeac409a65"
 depends = "['openssl>=3.0.7', 'scriptlet-core']"
 reverse_depends = "['aria2', 'glib-networking', 'networkmanager', 'p11-kit']"
 +++
