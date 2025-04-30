@@ -12,7 +12,7 @@ size = "498916"
 usize = "1979355"
 sha1sum = "f9f75949f1e4234ac55f315a609397f6954ceb08"
 depends = "['glibc']"
-reverse_depends = "['ceres-solver', 'cryfs', 'flann', 'imagemagick', 'inkscape', 'kirigami', 'kirigami25', 'muparser', 'ngspice', 'nufraw', 'openblas', 'openucx', 'skanpage', 'sox', 'suitesparse']"
+reverse_depends = "['ceres-solver', 'cryfs', 'flann', 'imagemagick', 'inkscape', 'kirigami', 'kirigami25', 'muparser', 'ngspice', 'nufraw', 'openblas', 'openucx', 'pixman', 'skanpage', 'sox', 'suitesparse']"
 +++
 ### Description: 
 GNU OpenMP runtime library

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "openjdk 24.0.1-1"
-version = "24.0.1-1"
+title = "openjdk 24.0.1-2"
+version = "24.0.1-2"
 description = "Open-source Java Development Kit implementation."
-date = "2025-04-30T11:07:57"
+date = "2025-04-30T15:03:49"
 aliases = "/packages/102857"
 categories = ['devel-extra']
 upstreamurl = "http://openjdk.java.net/"
 arch = "x86_64"
-size = "85536228"
-usize = "95391696"
-sha1sum = "8d849e9dde37cb66d4585a3de857739fe0b08e65"
-depends = "['openjre=24.0.1-1']"
+size = "85534648"
+usize = "95389121"
+sha1sum = "27480c83cbeef0ddc7cdc6a069e043d510b1e3f7"
+depends = "['openjre=24.0.1-2']"
 reverse_depends = "['flutter', 'maven', 'openjdk-source']"
 +++
 ### Description: 
@@ -255,8 +255,6 @@ Open-source Java Development Kit implementation.
 * /usr/share/man/man1/jstatd.1.gz
 * /usr/share/man/man1/jwebserver.1.gz
 * /usr/share/man/man1/keytool.1.gz
-* /usr/share/man/man1/kinit.1.gz
-* /usr/share/man/man1/klist.1.gz
 * /usr/share/man/man1/ktab.1.gz
 * /usr/share/man/man1/rmiregistry.1.gz
 * /usr/share/man/man1/serialver.1.gz
