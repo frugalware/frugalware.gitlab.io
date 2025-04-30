@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "thunderbird-bg 128.9.2-1"
-version = "128.9.2-1"
+title = "thunderbird-bg 128.10.0-1"
+version = "128.10.0-1"
 description = "Bulgarian language support for Thunderbird"
-date = "2025-04-16T09:48:06"
+date = "2025-04-30T08:59:02"
 aliases = "/packages/10571"
 categories = ['locale-extra']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "753860"
-usize = "814007"
-sha1sum = "ef388a32907c649bd9011232438e4c53b9c8e736"
-depends = "['thunderbird>=128.9.2']"
+size = "753852"
+usize = "814008"
+sha1sum = "de444a124bef47e5a758b339fb98345b814bbd60"
+depends = "['thunderbird>=128.10.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 

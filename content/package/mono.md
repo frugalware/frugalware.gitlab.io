@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mono 6.14.0-1"
-version = "6.14.0-1"
+title = "mono 6.14.1-1"
+version = "6.14.1-1"
 description = "Mono runtime and class libraries, a C# compiler/interpreter"
-date = "2025-03-05T15:49:01"
+date = "2025-04-30T08:12:49"
 aliases = "/packages/3229"
 categories = ['devel']
 upstreamurl = "https://gitlab.winehq.org/mono/mono"
 arch = "x86_64"
-size = "127850172"
-usize = "333687093"
-sha1sum = "e2dbbabd72f291a1d3c554483bea4ebd1326a127"
+size = "127761324"
+usize = "332713643"
+sha1sum = "6704a802dd6a5be24b274deb46c78f03869e4953"
 depends = "['libstdc++>=9.1.0-3']"
 reverse_depends = "['dbus-sharp', 'dbus-sharp-glib', 'keepass', 'referenceassemblies-pcl', 'uwsgi', 'uwsgi-plugin-mono']"
 +++
@@ -3352,10 +3352,10 @@ Mono runtime and class libraries, a C# compiler/interpreter
 * /usr/lib/pkgconfig/system.web.mvc3.pc
 * /usr/lib/pkgconfig/wcf.pc
 * /usr/lib/pkgconfig/xbuild12.pc
-* /usr/share/doc/mono-6.14.0/COPYING.LIB
-* /usr/share/doc/mono-6.14.0/LICENSE
-* /usr/share/doc/mono-6.14.0/NEWS
-* /usr/share/doc/mono-6.14.0/README.md
+* /usr/share/doc/mono-6.14.1/COPYING.LIB
+* /usr/share/doc/mono-6.14.1/LICENSE
+* /usr/share/doc/mono-6.14.1/NEWS
+* /usr/share/doc/mono-6.14.1/README.md
 * /usr/share/locale/de/LC_MESSAGES/mcs.mo
 * /usr/share/locale/es/LC_MESSAGES/mcs.mo
 * /usr/share/locale/ja/LC_MESSAGES/mcs.mo

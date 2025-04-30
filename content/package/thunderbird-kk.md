@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "thunderbird-kk 128.9.2-1"
-version = "128.9.2-1"
+title = "thunderbird-kk 128.10.0-1"
+version = "128.10.0-1"
 description = "Kazakh language support for Thunderbird"
-date = "2025-04-16T09:48:06"
+date = "2025-04-30T08:59:02"
 aliases = "/packages/219718"
 categories = ['locale-extra']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "796504"
-usize = "856115"
-sha1sum = "440dd741961eee3d664c29c4a328c0aca7ade050"
-depends = "['thunderbird>=128.9.2']"
+size = "796508"
+usize = "856117"
+sha1sum = "ac7cd9c8ffd5084edca5ecde647f3c08e1be665d"
+depends = "['thunderbird>=128.10.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 

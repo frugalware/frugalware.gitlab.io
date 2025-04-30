@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "thunderbird-de 128.9.2-1"
-version = "128.9.2-1"
+title = "thunderbird-de 128.10.0-1"
+version = "128.10.0-1"
 description = "German language support for Thunderbird"
-date = "2025-04-16T09:48:06"
+date = "2025-04-30T08:59:02"
 aliases = "/packages/5145"
 categories = ['locale-extra']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "710692"
-usize = "771420"
-sha1sum = "264dd6f1d29aa2e2cf621bef5a5fc5b65029213b"
-depends = "['thunderbird>=128.9.2']"
+size = "710708"
+usize = "771422"
+sha1sum = "92fbcf53e18ae9fbe7975af5f46bf729e53e8be7"
+depends = "['thunderbird>=128.10.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 
