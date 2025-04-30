@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "fltk 1.4.2-1"
-version = "1.4.2-1"
+title = "fltk 1.4.3-1"
+version = "1.4.3-1"
 description = "FLTK is a cross-platform C++ GUI toolkit for X"
-date = "2025-02-24T11:09:26"
+date = "2025-04-30T09:33:20"
 aliases = "/packages/4220"
 categories = ['xlib-extra']
 upstreamurl = "http://www.fltk.org/"
 arch = "x86_64"
-size = "11930680"
-usize = "19393759"
-sha1sum = "78638cc407ed1a723320290e708524abc932d67b"
+size = "12187520"
+usize = "20671597"
+sha1sum = "a1a7ac631acbc64eab89b7b0d25bae71965effc2"
 depends = "['gtk+3']"
 reverse_depends = "['htmldoc', 'octave', 'pinentry-fltk']"
 +++
@@ -18,9 +18,15 @@ reverse_depends = "['htmldoc', 'octave', 'pinentry-fltk']"
 FLTK is a cross-platform C++ GUI toolkit for X
 
 ### Files: 
+* /usr/bin/blocks
+* /usr/bin/checkers
 * /usr/bin/fltk-config
 * /usr/bin/fltk-options
+* /usr/bin/fltk-options-shared
 * /usr/bin/fluid
+* /usr/bin/fluid-shared
+* /usr/bin/glpuzzle
+* /usr/bin/sudoku
 * /usr/include/FL/Enumerations.H
 * /usr/include/FL/filename.H
 * /usr/include/FL/Fl.H
@@ -189,33 +195,37 @@ FLTK is a cross-platform C++ GUI toolkit for X
 * /usr/lib/libfltk.a
 * /usr/lib/libfltk.so
 * /usr/lib/libfltk.so.1.4
-* /usr/lib/libfltk.so.1.4.2
+* /usr/lib/libfltk.so.1.4.3
 * /usr/lib/libfltk_forms.a
 * /usr/lib/libfltk_forms.so
 * /usr/lib/libfltk_forms.so.1.4
-* /usr/lib/libfltk_forms.so.1.4.2
+* /usr/lib/libfltk_forms.so.1.4.3
 * /usr/lib/libfltk_gl.a
 * /usr/lib/libfltk_gl.so
 * /usr/lib/libfltk_gl.so.1.4
-* /usr/lib/libfltk_gl.so.1.4.2
+* /usr/lib/libfltk_gl.so.1.4.3
 * /usr/lib/libfltk_images.a
 * /usr/lib/libfltk_images.so
 * /usr/lib/libfltk_images.so.1.4
-* /usr/lib/libfltk_images.so.1.4.2
+* /usr/lib/libfltk_images.so.1.4.3
 * /usr/share/applications/fltk-options.desktop
 * /usr/share/applications/fluid.desktop
-* /usr/share/doc/fltk-1.4.2/COPYING
-* /usr/share/doc/fltk-1.4.2/README.abi-version.txt
-* /usr/share/doc/fltk-1.4.2/README.Cairo.txt
-* /usr/share/doc/fltk-1.4.2/README.CMake.txt
-* /usr/share/doc/fltk-1.4.2/README.experimental.txt
-* /usr/share/doc/fltk-1.4.2/README.IDE.txt
-* /usr/share/doc/fltk-1.4.2/README.macOS.md
-* /usr/share/doc/fltk-1.4.2/README.md
-* /usr/share/doc/fltk-1.4.2/README.txt
-* /usr/share/doc/fltk-1.4.2/README.Unix.txt
-* /usr/share/doc/fltk-1.4.2/README.Wayland.txt
-* /usr/share/doc/fltk-1.4.2/README.Windows.txt
+* /usr/share/doc/fltk-1.4.3/AUTHORS
+* /usr/share/doc/fltk-1.4.3/COPYING
+* /usr/share/doc/fltk-1.4.3/LICENSE
+* /usr/share/doc/fltk-1.4.3/NEWS
+* /usr/share/doc/fltk-1.4.3/README
+* /usr/share/doc/fltk-1.4.3/README.abi-version.txt
+* /usr/share/doc/fltk-1.4.3/README.Cairo.txt
+* /usr/share/doc/fltk-1.4.3/README.CMake.txt
+* /usr/share/doc/fltk-1.4.3/README.experimental.txt
+* /usr/share/doc/fltk-1.4.3/README.IDE.txt
+* /usr/share/doc/fltk-1.4.3/README.macOS.md
+* /usr/share/doc/fltk-1.4.3/README.md
+* /usr/share/doc/fltk-1.4.3/README.txt
+* /usr/share/doc/fltk-1.4.3/README.Unix.txt
+* /usr/share/doc/fltk-1.4.3/README.Wayland.txt
+* /usr/share/doc/fltk-1.4.3/README.Windows.txt
 * /usr/share/fltk/FLTK-Functions.cmake
 * /usr/share/fltk/FLTK-Targets-release.cmake
 * /usr/share/fltk/FLTK-Targets.cmake
@@ -233,5 +243,9 @@ FLTK is a cross-platform C++ GUI toolkit for X
 * /usr/share/man/man1/fltk-options.1.gz
 * /usr/share/man/man1/fluid.1.gz
 * /usr/share/man/man3/fltk.3.gz
+* /usr/share/man/man6/blocks.6.gz
+* /usr/share/man/man6/checkers.6.gz
+* /usr/share/man/man6/glpuzzle.6.gz
+* /usr/share/man/man6/sudoku.6.gz
 * /usr/share/mime/packages/fltk-options.xml
 * /usr/share/mime/packages/fluid.xml
