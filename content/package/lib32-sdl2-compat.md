@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-sdl2-compat 2.32.54-1"
-version = "2.32.54-1"
+title = "lib32-sdl2-compat 2.32.56-1"
+version = "2.32.56-1"
 description = "An SDL2 compatibility layer that uses SDL3 behind the scenes. ( 32bit )"
-date = "2025-04-01T07:08:40"
+date = "2025-05-05T14:28:44"
 aliases = "/packages/222621"
 categories = ['lib32-extra']
 upstreamurl = "http://libsdl.org"
 arch = "x86_64"
-size = "410028"
-usize = "2913042"
-sha1sum = "15141dcdf562c7914e6b0bdda2b8b3e1704ea68e"
+size = "410788"
+usize = "2914379"
+sha1sum = "639ef6714285b65a398b3fe7b8d7969d02d4e78e"
 depends = "['lib32-sdl3']"
 +++
 ### Description: 
@@ -122,6 +122,6 @@ An SDL2 compatibility layer that uses SDL3 behind the scenes. ( 32bit )
 * /usr/lib32/cmake/SDL2/SDL2_testTargets.cmake
 * /usr/lib32/libSDL2-2.0.so
 * /usr/lib32/libSDL2-2.0.so.0
-* /usr/lib32/libSDL2-2.0.so.0.3200.54
+* /usr/lib32/libSDL2-2.0.so.0.3200.56
 * /usr/lib32/libSDL2.so
 * /usr/lib32/pkgconfig/sdl2-compat.pc

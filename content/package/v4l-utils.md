@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "v4l-utils 1.30.1-1"
-version = "1.30.1-1"
+title = "v4l-utils 1.30.1-2"
+version = "1.30.1-2"
 description = "Userspace tools and conversion library for Video 4 Linux"
-date = "2025-05-05T13:23:19"
+date = "2025-05-05T14:58:39"
 aliases = "/packages/103450"
 categories = ['multimedia']
 upstreamurl = "http://linuxtv.org"
 arch = "x86_64"
-size = "1552184"
-usize = "5414618"
-sha1sum = "5f179f7659fadb694fb08f6f5e6bbf60948dc0b6"
+size = "1395536"
+usize = "4980838"
+sha1sum = "f5f13bf864d0f286d87eedaebdbd6e61875e30c6"
 depends = "['alsa-lib', 'elfutils', 'json-c', 'libbpf', 'libglu', 'libjpeg-turbo', 'libstdc++>=11.2', 'libudev', 'sdl2_image']"
 reverse_depends = "['ffmpeg', 'ffmpeg4.4', 'gst1-plugins-good-video4linux2', 'kaffeine', 'lib32-v4l-utils', 'opencv', 'qv4l2', 'sane-backends', 'wine', 'wine-devel']"
 +++
@@ -29,7 +29,6 @@ Userspace tools and conversion library for Video 4 Linux
 * /usr/bin/dvbv5-daemon
 * /usr/bin/dvbv5-scan
 * /usr/bin/dvbv5-zap
-* /usr/bin/edid-decode
 * /usr/bin/ir-ctl
 * /usr/bin/ir-keytable
 * /usr/bin/ivtv-ctl
@@ -308,7 +307,6 @@ Userspace tools and conversion library for Video 4 Linux
 * /usr/share/man/man1/dvb-format-convert.1.gz
 * /usr/share/man/man1/dvbv5-scan.1.gz
 * /usr/share/man/man1/dvbv5-zap.1.gz
-* /usr/share/man/man1/edid-decode.1.gz
 * /usr/share/man/man1/ir-ctl.1.gz
 * /usr/share/man/man1/ir-keytable.1.gz
 * /usr/share/man/man1/qvidcap.1.gz
