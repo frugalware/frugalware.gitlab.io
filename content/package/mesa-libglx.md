@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mesa-libglx 25.0.4-1"
-version = "25.0.4-1"
+title = "mesa-libglx 25.0.5-1"
+version = "25.0.5-1"
 description = "Mesa OpenGL GLX"
-date = "2025-04-17T07:56:51"
+date = "2025-05-05T11:30:22"
 aliases = "/packages/219518"
 categories = ['x11']
 upstreamurl = "https://www.mesa3d.org"
 arch = "x86_64"
-size = "160672"
-usize = "506429"
-sha1sum = "6862c93fea35f75203fb175b147e10e38410bce0"
+size = "164420"
+usize = "511573"
+sha1sum = "f4373ab493e4249c242030088287c6d852974d30"
 depends = "['expat', 'libdrm', 'libxdamage', 'libxext', 'libxshmfence', 'libxxf86vm', 'spirv-tools']"
 reverse_depends = "['opencv', 'qt5-base', 'virtualbox', 'xorg-server', 'xorg-server-xephyr']"
 +++

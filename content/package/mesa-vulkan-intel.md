@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mesa-vulkan-intel 25.0.4-1"
-version = "25.0.4-1"
+title = "mesa-vulkan-intel 25.0.5-1"
+version = "25.0.5-1"
 description = "Intel Mesa Support for Vulkan"
-date = "2025-04-17T07:56:51"
+date = "2025-05-05T11:30:22"
 aliases = "/packages/218909"
 categories = ['x11-extra']
 upstreamurl = "https://www.mesa3d.org"
 arch = "x86_64"
-size = "7507000"
-usize = "41855052"
-sha1sum = "1d7b903767b2368e765e6c19c3c40a48d7649e14"
+size = "7635228"
+usize = "42186612"
+sha1sum = "2151b2105628494ca6b15325c80882e41a023a55"
 depends = "['libxshmfence', 'spirv-tools', 'vulkan-icd-loader', 'xcb-util-keysyms', 'zstd']"
 +++
 ### Description: 
