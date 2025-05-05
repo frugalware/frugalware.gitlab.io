@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "v4l-utils 1.28.1-4"
-version = "1.28.1-4"
+title = "v4l-utils 1.30.1-1"
+version = "1.30.1-1"
 description = "Userspace tools and conversion library for Video 4 Linux"
-date = "2024-11-16T20:03:46"
+date = "2025-05-05T13:23:19"
 aliases = "/packages/103450"
 categories = ['multimedia']
 upstreamurl = "http://linuxtv.org"
 arch = "x86_64"
-size = "1369068"
-usize = "4917824"
-sha1sum = "4b7e20b97c2e3171cecfe24046510c7a5214e335"
+size = "1552184"
+usize = "5414618"
+sha1sum = "5f179f7659fadb694fb08f6f5e6bbf60948dc0b6"
 depends = "['alsa-lib', 'elfutils', 'json-c', 'libbpf', 'libglu', 'libjpeg-turbo', 'libstdc++>=11.2', 'libudev', 'sdl2_image']"
 reverse_depends = "['ffmpeg', 'ffmpeg4.4', 'gst1-plugins-good-video4linux2', 'kaffeine', 'lib32-v4l-utils', 'opencv', 'qv4l2', 'sane-backends', 'wine', 'wine-devel']"
 +++
@@ -29,6 +29,7 @@ Userspace tools and conversion library for Video 4 Linux
 * /usr/bin/dvbv5-daemon
 * /usr/bin/dvbv5-scan
 * /usr/bin/dvbv5-zap
+* /usr/bin/edid-decode
 * /usr/bin/ir-ctl
 * /usr/bin/ir-keytable
 * /usr/bin/ivtv-ctl
@@ -248,6 +249,7 @@ Userspace tools and conversion library for Video 4 Linux
 * /usr/lib/udev/rc_keymaps/real_audio_220_32_keys.toml
 * /usr/lib/udev/rc_keymaps/reddo.toml
 * /usr/lib/udev/rc_keymaps/samsung_ak59_00125a.toml
+* /usr/lib/udev/rc_keymaps/siemens_gigaset_rc20.toml
 * /usr/lib/udev/rc_keymaps/snapstream_firefly.toml
 * /usr/lib/udev/rc_keymaps/streamzap.toml
 * /usr/lib/udev/rc_keymaps/su3000.toml
@@ -285,15 +287,15 @@ Userspace tools and conversion library for Video 4 Linux
 * /usr/lib/udev/rc_keymaps/zx_irdec.toml
 * /usr/lib/udev/rules.d/70-infrared.rules
 * /usr/share/applications/qvidcap.desktop
-* /usr/share/doc/v4l-utils-1.28.1/ChangeLog
-* /usr/share/doc/v4l-utils-1.28.1/COPYING
-* /usr/share/doc/v4l-utils-1.28.1/COPYING.libdvbv5
-* /usr/share/doc/v4l-utils-1.28.1/COPYING.libv4l
-* /usr/share/doc/v4l-utils-1.28.1/INSTALL.md
-* /usr/share/doc/v4l-utils-1.28.1/README.lib-multi-threading
-* /usr/share/doc/v4l-utils-1.28.1/README.libv4l
-* /usr/share/doc/v4l-utils-1.28.1/README.md
-* /usr/share/doc/v4l-utils-1.28.1/TODO
+* /usr/share/doc/v4l-utils-1.30.1/ChangeLog
+* /usr/share/doc/v4l-utils-1.30.1/COPYING
+* /usr/share/doc/v4l-utils-1.30.1/COPYING.libdvbv5
+* /usr/share/doc/v4l-utils-1.30.1/COPYING.libv4l
+* /usr/share/doc/v4l-utils-1.30.1/INSTALL.md
+* /usr/share/doc/v4l-utils-1.30.1/README.lib-multi-threading
+* /usr/share/doc/v4l-utils-1.30.1/README.libv4l
+* /usr/share/doc/v4l-utils-1.30.1/README.md
+* /usr/share/doc/v4l-utils-1.30.1/TODO
 * /usr/share/icons/hicolor/16x16/apps/qvidcap.png
 * /usr/share/icons/hicolor/24x24/apps/qvidcap.png
 * /usr/share/icons/hicolor/32x32/apps/qvidcap.png
@@ -306,6 +308,7 @@ Userspace tools and conversion library for Video 4 Linux
 * /usr/share/man/man1/dvb-format-convert.1.gz
 * /usr/share/man/man1/dvbv5-scan.1.gz
 * /usr/share/man/man1/dvbv5-zap.1.gz
+* /usr/share/man/man1/edid-decode.1.gz
 * /usr/share/man/man1/ir-ctl.1.gz
 * /usr/share/man/man1/ir-keytable.1.gz
 * /usr/share/man/man1/qvidcap.1.gz

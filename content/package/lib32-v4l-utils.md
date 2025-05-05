@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "lib32-v4l-utils 1.28.1-4"
-version = "1.28.1-4"
+title = "lib32-v4l-utils 1.30.1-1"
+version = "1.30.1-1"
 description = "v4l-utils (32-bit)"
-date = "2024-11-16T20:03:46"
+date = "2025-05-05T13:23:19"
 aliases = "/packages/219239"
 categories = ['lib32-extra']
 upstreamurl = "http://linuxtv.org"
 arch = "x86_64"
-size = "1158104"
-usize = "4284232"
-sha1sum = "cde8aa38abe38a207b14e2f90f3cd8998bb2798a"
-depends = "['lib32-elfutils', 'lib32-json-c', 'lib32-libglu', 'lib32-libjpeg-turbo', 'lib32-libsystemd', 'lib32-libudev', 'lib32-libx11', 'lib32-sdl2', 'lib32-sdl2_image', 'v4l-utils>=1.28.1']"
+size = "1338812"
+usize = "4880729"
+sha1sum = "3f0d82281ee6462155b0cb500e9e6298204d7646"
+depends = "['lib32-elfutils', 'lib32-json-c', 'lib32-libglu', 'lib32-libjpeg-turbo', 'lib32-libsystemd', 'lib32-libudev', 'lib32-libx11', 'lib32-sdl2', 'lib32-sdl2_image', 'v4l-utils>=1.30.1']"
 +++
 ### Description: 
 v4l-utils (32-bit)
@@ -27,6 +27,7 @@ v4l-utils (32-bit)
 * /usr/i686-frugalware-linux/bin/dvbv5-daemon
 * /usr/i686-frugalware-linux/bin/dvbv5-scan
 * /usr/i686-frugalware-linux/bin/dvbv5-zap
+* /usr/i686-frugalware-linux/bin/edid-decode
 * /usr/i686-frugalware-linux/bin/ir-ctl
 * /usr/i686-frugalware-linux/bin/ir-keytable
 * /usr/i686-frugalware-linux/bin/ivtv-ctl
