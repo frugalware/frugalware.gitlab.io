@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-networkmanager 1.52.0-1"
-version = "1.52.0-1"
+title = "lib32-networkmanager 1.52.0-2"
+version = "1.52.0-2"
 description = "Network Management daemon ( 32bit )"
-date = "2025-02-28T16:30:09"
+date = "2025-05-05T16:52:23"
 aliases = "/packages/218960"
 categories = ['lib32-extra']
 upstreamurl = "https://networkmanager.dev"
 arch = "x86_64"
-size = "2610632"
-usize = "10556625"
-sha1sum = "798bdfe5f94310f23329eec5b0fc691d72f9f743"
+size = "2621572"
+usize = "10558169"
+sha1sum = "5ccf0e8c9e2395958f8752d36654b2c0f0a36c01"
 depends = "['lib32-curl', 'lib32-dbus-glib', 'lib32-glib2', 'lib32-jansson', 'lib32-libgudev', 'lib32-libndp', 'lib32-libnl', 'lib32-libpsl', 'lib32-modemmanager', 'lib32-newt', 'lib32-nss', 'lib32-polkit', 'lib32-readline']"
 reverse_depends = "['steam-native']"
 +++

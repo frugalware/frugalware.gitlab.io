@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "networkmanager 1.52.0-1"
-version = "1.52.0-1"
+title = "networkmanager 1.52.0-2"
+version = "1.52.0-2"
 description = "Network Management daemon"
-date = "2025-02-28T16:30:09"
+date = "2025-05-05T16:52:23"
 aliases = "/packages/88398"
 categories = ['base']
 upstreamurl = "https://networkmanager.dev"
 arch = "x86_64"
-size = "4113140"
-usize = "22670924"
-sha1sum = "9dab72f8cfbd094a9a4c067c0e8edc6517c22c98"
+size = "4144728"
+usize = "22686124"
+sha1sum = "eca4002ef9c3ab1be6a49895dcbe70b73c8a5e87"
 depends = "['ca-certificates', 'curl', 'dbus-glib>=0.108-2', 'ethtool', 'iproute2>=4.7.0-2', 'iptables', 'jansson', 'libarchive>=3.0.3-2', 'libgcrypt>=1.7.3-2', 'libndp>=1.5-4', 'libnl>=3.2.9-2', 'libselinux', 'mobile-broadband-provider-info', 'modemmanager>=1.6.0-2', 'newt>=0.52.19-2', 'nss>=3.21-2', 'openresolv', 'polkit>=0.113-9', 'ppp>=2.4.7-3', 'readline>=8.0', 'wireless_tools>=29-5', 'wpa_supplicant>=2.5-4']"
 reverse_depends = "['claws-mail', 'kdelibs4support5', 'libnma', 'networkmanager-dispatcher-chrony', 'networkmanager-dispatcher-ntp', 'networkmanager-qt', 'networkmanager-qt5', 'nm-connection-editor', 'nm-libreswan-minimal', 'nm-openvpn-minimal', 'nm-pptp-minimal', 'nm-vpnc-minimal', 'packagekit', 'strongswan', 'telepathy-mission-control']"
 +++
