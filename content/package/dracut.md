@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "dracut 106-1"
-version = "106-1"
+title = "dracut 107-1"
+version = "107-1"
 description = "Generic initramfs generationtool"
-date = "2025-02-01T11:41:25"
+date = "2025-05-05T09:26:26"
 aliases = "/packages/103623"
 categories = ['base']
 upstreamurl = "https://github.com/dracut-ng/dracut-ng"
 arch = "x86_64"
-size = "460796"
-usize = "1647194"
-sha1sum = "0e71ab42ad4bea8fc76b6afa7a268a910c7b3265"
+size = "464832"
+usize = "1662740"
+sha1sum = "1e25c3a865dd1425400d4f7e99b4e079566fe5da"
 depends = "['bash>=4.4', 'binutils', 'cpio>=2.12-3', 'dash>=0.5.8', 'dmraid', 'elfutils', 'file', 'grep', 'kbd>=2.0.3-3', 'keyutils>=1.5.9-5', 'kmod', 'lvm2>=2.03.01-3', 'multipath-tools', 'popt>=1.16-5', 'systemd>=227-15', 'util-linux>=2.27.1-4']"
 reverse_depends = "['dracut-network', 'kernel-initrd', 'kernel-lts-initrd']"
 +++
@@ -154,7 +154,7 @@ Generic initramfs generationtool
 * /usr/lib/dracut/modules.d/45plymouth/plymouth-newroot.sh
 * /usr/lib/dracut/modules.d/45plymouth/plymouth-populate-initrd.sh
 * /usr/lib/dracut/modules.d/45plymouth/plymouth-pretrigger.sh
-* /usr/lib/dracut/modules.d/60systemd-sysusers/module-setup.sh
+* /usr/lib/dracut/modules.d/45simpledrm/module-setup.sh
 * /usr/lib/dracut/modules.d/62bluetooth/module-setup.sh
 * /usr/lib/dracut/modules.d/80cms/cms-write-ifcfg.sh
 * /usr/lib/dracut/modules.d/80cms/cmsifup.sh
@@ -227,9 +227,9 @@ Generic initramfs generationtool
 * /usr/lib/dracut/modules.d/90multipath/module-setup.sh
 * /usr/lib/dracut/modules.d/90multipath/multipath-shutdown.sh
 * /usr/lib/dracut/modules.d/90multipath/multipathd-configure.service
+* /usr/lib/dracut/modules.d/90multipath/multipathd-dracut.conf
 * /usr/lib/dracut/modules.d/90multipath/multipathd-needshutdown.sh
 * /usr/lib/dracut/modules.d/90multipath/multipathd-stop.sh
-* /usr/lib/dracut/modules.d/90multipath/multipathd.service
 * /usr/lib/dracut/modules.d/90multipath/multipathd.sh
 * /usr/lib/dracut/modules.d/90numlock/module-setup.sh
 * /usr/lib/dracut/modules.d/90numlock/numlock.sh
@@ -381,11 +381,13 @@ Generic initramfs generationtool
 * /usr/lib/dracut/modules.d/99squash-lib/init-squash.sh
 * /usr/lib/dracut/modules.d/99squash-lib/module-setup.sh
 * /usr/lib/dracut/modules.d/99squash/module-setup.sh
+* /usr/lib/dracut/modules.d/99systemd-sysusers/module-setup.sh
 * /usr/lib/dracut/modules.d/99uefi-lib/module-setup.sh
 * /usr/lib/dracut/modules.d/99uefi-lib/uefi-lib.sh
 * /usr/lib/dracut/skipcpio
 * /usr/lib/dracut/test/container/Dockerfile-alpine
 * /usr/lib/dracut/test/container/Dockerfile-arch
+* /usr/lib/dracut/test/container/Dockerfile-azurelinux
 * /usr/lib/dracut/test/container/Dockerfile-debian
 * /usr/lib/dracut/test/container/Dockerfile-fedora
 * /usr/lib/dracut/test/container/Dockerfile-gentoo
@@ -450,7 +452,13 @@ Generic initramfs generationtool
 * /usr/lib/dracut/test/TEST-60-NFS/test.sh
 * /usr/lib/dracut/test/TEST-60-NFS/wait-if-server.sh
 * /usr/lib/dracut/test/TEST-61-MULTINIC/client-init.sh
-* /usr/lib/dracut/test/TEST-61-MULTINIC/client.link
+* /usr/lib/dracut/test/TEST-61-MULTINIC/client-persistent-lan0.link
+* /usr/lib/dracut/test/TEST-61-MULTINIC/client-persistent-lan1.link
+* /usr/lib/dracut/test/TEST-61-MULTINIC/client-persistent-lan2.link
+* /usr/lib/dracut/test/TEST-61-MULTINIC/client-persistent-lan254.link
+* /usr/lib/dracut/test/TEST-61-MULTINIC/client-persistent-lan255.link
+* /usr/lib/dracut/test/TEST-61-MULTINIC/client-persistent-lan98.link
+* /usr/lib/dracut/test/TEST-61-MULTINIC/client-persistent-lan99.link
 * /usr/lib/dracut/test/TEST-61-MULTINIC/create-root.sh
 * /usr/lib/dracut/test/TEST-61-MULTINIC/dhcpd.conf
 * /usr/lib/dracut/test/TEST-61-MULTINIC/exports
@@ -474,7 +482,8 @@ Generic initramfs generationtool
 * /usr/lib/dracut/test/TEST-62-BONDBRIDGEVLAN/test.sh
 * /usr/lib/dracut/test/TEST-62-BONDBRIDGEVLAN/wait-if-server.sh
 * /usr/lib/dracut/test/TEST-70-ISCSI/client-init.sh
-* /usr/lib/dracut/test/TEST-70-ISCSI/client.link
+* /usr/lib/dracut/test/TEST-70-ISCSI/client-persistent-lan0.link
+* /usr/lib/dracut/test/TEST-70-ISCSI/client-persistent-lan1.link
 * /usr/lib/dracut/test/TEST-70-ISCSI/create-client-root.sh
 * /usr/lib/dracut/test/TEST-70-ISCSI/create-server-root.sh
 * /usr/lib/dracut/test/TEST-70-ISCSI/dhcpd.conf
@@ -486,7 +495,8 @@ Generic initramfs generationtool
 * /usr/lib/dracut/test/TEST-70-ISCSI/test.sh
 * /usr/lib/dracut/test/TEST-70-ISCSI/wait-if-server.sh
 * /usr/lib/dracut/test/TEST-71-ISCSI-MULTI/client-init.sh
-* /usr/lib/dracut/test/TEST-71-ISCSI-MULTI/client.link
+* /usr/lib/dracut/test/TEST-71-ISCSI-MULTI/client-persistent-lan0.link
+* /usr/lib/dracut/test/TEST-71-ISCSI-MULTI/client-persistent-lan1.link
 * /usr/lib/dracut/test/TEST-71-ISCSI-MULTI/create-client-root.sh
 * /usr/lib/dracut/test/TEST-71-ISCSI-MULTI/create-server-root.sh
 * /usr/lib/dracut/test/TEST-71-ISCSI-MULTI/dhcpd.conf
@@ -536,9 +546,9 @@ Generic initramfs generationtool
 * /usr/lib/systemd/system/sysinit.target.wants/dracut-shutdown.service
 * /usr/share/bash-completion/completions/dracut
 * /usr/share/bash-completion/completions/lsinitrd
-* /usr/share/doc/dracut-106/AUTHORS
-* /usr/share/doc/dracut-106/COPYING
-* /usr/share/doc/dracut-106/README.md
+* /usr/share/doc/dracut-107/AUTHORS
+* /usr/share/doc/dracut-107/COPYING
+* /usr/share/doc/dracut-107/README.md
 * /usr/share/man/man1/lsinitrd.1.gz
 * /usr/share/man/man5/dracut.conf.5.gz
 * /usr/share/man/man7/dracut.bootup.7.gz
