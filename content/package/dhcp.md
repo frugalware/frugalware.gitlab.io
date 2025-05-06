@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "dhcp 4.4.3-3"
-version = "4.4.3-3"
+title = "dhcp 4.4.3-4"
+version = "4.4.3-4"
 description = "The ISC DHCP server"
-date = "2024-05-08T13:52:08"
+date = "2025-05-06T06:57:21"
 aliases = "/packages/2362"
 categories = ['network-extra']
 upstreamurl = "http://www.isc.org/software/dhcp/"
 arch = "x86_64"
-size = "3392360"
-usize = "8415740"
-sha1sum = "824160197dbff49ddcff3a54f11e5db2cc2616d5"
+size = "3425124"
+usize = "8415004"
+sha1sum = "66fc853ad9877eebab208a4215cba6ff396891f4"
 depends = "['glibc>=2.34', 'iproute2>=4.10.0-2']"
 +++
 ### Description: 

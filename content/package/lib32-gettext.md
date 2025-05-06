@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-gettext 0.24-1"
-version = "0.24-1"
+title = "lib32-gettext 0.24.1-1"
+version = "0.24.1-1"
 description = "GNU internationalization library ( 32bit )"
-date = "2025-02-27T08:00:59"
+date = "2025-05-06T07:42:57"
 aliases = "/packages/217949"
 categories = ['lib32-extra']
 upstreamurl = "http://www.gnu.org/software/gettext"
 arch = "x86_64"
-size = "22876"
-usize = "52416"
-sha1sum = "4141c6d3d0e5bb5a3aae90b5a5ff845eae11bbae"
+size = "31504"
+usize = "127412"
+sha1sum = "0e6767ed7981bf63d346b820f4af1538dc9bad33"
 depends = "['lib32-libcroco', 'lib32-libunistring>=1.1', 'lib32-ncurses>=6.1-5']"
 +++
 ### Description: 
