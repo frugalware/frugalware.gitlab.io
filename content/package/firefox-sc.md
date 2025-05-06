@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-sc 138.0-1"
-version = "138.0-1"
+title = "firefox-sc 138.0.1-1"
+version = "138.0.1-1"
 description = "Sardinian language support for Firefox"
-date = "2025-04-29T09:38:48"
+date = "2025-05-06T14:21:43"
 aliases = "/packages/220932"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "352936"
+size = "353732"
 usize = "406153"
-sha1sum = "cef072e7ce7fcd2148363be2cb833f8b8719c41d"
-depends = "['firefox>=138.0']"
+sha1sum = "eebdfd2c47b3334e7f1b00158decdf9aacd649cf"
+depends = "['firefox>=138.0.1']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

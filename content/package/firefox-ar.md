@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-ar 138.0-1"
-version = "138.0-1"
+title = "firefox-ar 138.0.1-1"
+version = "138.0.1-1"
 description = "Arabic language support for Firefox"
-date = "2025-04-29T09:38:48"
+date = "2025-05-06T14:21:43"
 aliases = "/packages/73613"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "384124"
-usize = "437202"
-sha1sum = "733249b7e81801d70dd2ad41cf26b56cfc98381c"
-depends = "['firefox>=138.0']"
+size = "384036"
+usize = "437200"
+sha1sum = "9813cd4ed64a24cf2a35f8afd80f7ccfe0fd8ff1"
+depends = "['firefox>=138.0.1']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

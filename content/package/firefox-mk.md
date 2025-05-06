@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-mk 138.0-1"
-version = "138.0-1"
+title = "firefox-mk 138.0.1-1"
+version = "138.0.1-1"
 description = "Macedonian language support for Firefox"
-date = "2025-04-29T09:38:48"
+date = "2025-05-06T14:21:43"
 aliases = "/packages/4421"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "262760"
-usize = "317493"
-sha1sum = "3f5e2d39671b7bff08b0b4dffe65c87f5d2d442e"
-depends = "['firefox>=138.0']"
+size = "262900"
+usize = "317492"
+sha1sum = "92258ea12fe0423542de61b4bf0ef3c9013c9f93"
+depends = "['firefox>=138.0.1']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 
