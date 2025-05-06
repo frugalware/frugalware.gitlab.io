@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "spice-protocol 0.14.4-1"
-version = "0.14.4-1"
+title = "spice-protocol 0.14.5-1"
+version = "0.14.5-1"
 description = "Simple Protocol for Independent Computing Environments"
-date = "2023-01-05T20:33:04"
+date = "2025-05-06T19:08:55"
 aliases = "/packages/153050"
 categories = ['lib']
-upstreamurl = "http://spice-space.org/"
+upstreamurl = "https://www.spice-space.org"
 arch = "x86_64"
-size = "19052"
-usize = "96267"
-sha1sum = "1b1ea2f7b4e42346e0f04e14e593d0b72e89d8fd"
+size = "19128"
+usize = "95876"
+sha1sum = "978a65033f5eaae1e3bc6bbb4935b96019b8a37e"
 depends = "[]"
 reverse_depends = "['qemu', 'xf86-video-qxl']"
 +++
@@ -31,6 +31,6 @@ Simple Protocol for Independent Computing Environments
 * /usr/include/spice-1/spice/stream-device.h
 * /usr/include/spice-1/spice/types.h
 * /usr/include/spice-1/spice/vd_agent.h
-* /usr/lib/pkgconfig/spice-protocol.pc
-* /usr/share/doc/spice-protocol-0.14.4/COPYING
-* /usr/share/doc/spice-protocol-0.14.4/README.md
+* /usr/share/doc/spice-protocol-0.14.5/COPYING
+* /usr/share/doc/spice-protocol-0.14.5/README.md
+* /usr/share/pkgconfig/spice-protocol.pc
