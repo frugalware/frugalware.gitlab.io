@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "scribus 1.6.3-7"
-version = "1.6.3-7"
+title = "scribus 1.6.4-1"
+version = "1.6.4-1"
 description = "A professional desktop publishing application."
-date = "2025-04-03T09:35:43"
+date = "2025-05-06T12:11:20"
 aliases = "/packages/3829"
 categories = ['xapps-extra']
 upstreamurl = "http://www.scribus.net"
 arch = "x86_64"
-size = "75331024"
-usize = "140809380"
-sha1sum = "c6f164af38f1e60431761eda31ace127e4f1d248"
-depends = "['cairo', 'fontconfig', 'freetype2', 'gdal', 'ghostscript', 'glib2', 'graphicsmagick', 'harfbuzz-icu', 'hunspell>=1.7.0', 'hyphen', 'icu4c>=77.1', 'libcdr', 'libfreehand', 'libmspub', 'libpagemaker', 'libqxp', 'librevenge', 'libvisio', 'libzmf', 'openscenegraph', 'podofo', 'poppler>=25.04.0', 'python3>=3.13', 'qt5-declarative>=5.15.15']"
+size = "75517072"
+usize = "142236494"
+sha1sum = "aa73e3b9f20ee4da2105d6090dcf956818943d84"
+depends = "['cairo', 'fontconfig', 'freetype2', 'gdal', 'ghostscript', 'glib2', 'graphicsmagick', 'harfbuzz-icu', 'hunspell>=1.7.0', 'hyphen', 'icu4c>=77.1', 'libcdr', 'libfreehand', 'libmspub', 'libpagemaker', 'libqxp', 'librevenge', 'libvisio', 'libzmf', 'openscenegraph', 'podofo', 'poppler>=25.05.0', 'python3>=3.13', 'qt5-declarative>=5.15.15']"
 +++
 ### Description: 
 A professional desktop publishing application.
@@ -87,15 +87,15 @@ A professional desktop publishing application.
 * /usr/lib/scribus/plugins/libxpsexplugin.so
 * /usr/lib/scribus/scribus.css
 * /usr/share/applications/scribus.desktop
-* /usr/share/doc/scribus-1.6.3/AUTHORS
-* /usr/share/doc/scribus-1.6.3/ChangeLog
-* /usr/share/doc/scribus-1.6.3/COPYING
-* /usr/share/doc/scribus-1.6.3/NEWS
-* /usr/share/doc/scribus-1.6.3/README
-* /usr/share/doc/scribus-1.6.3/README.MacOSX
-* /usr/share/doc/scribus-1.6.3/README.md
-* /usr/share/doc/scribus-1.6.3/README_150Manual
-* /usr/share/doc/scribus-1.6.3/TODO
+* /usr/share/doc/scribus-1.6.4/AUTHORS
+* /usr/share/doc/scribus-1.6.4/ChangeLog
+* /usr/share/doc/scribus-1.6.4/COPYING
+* /usr/share/doc/scribus-1.6.4/NEWS
+* /usr/share/doc/scribus-1.6.4/README
+* /usr/share/doc/scribus-1.6.4/README.MacOSX
+* /usr/share/doc/scribus-1.6.4/README.md
+* /usr/share/doc/scribus-1.6.4/README_150Manual
+* /usr/share/doc/scribus-1.6.4/TODO
 * /usr/share/doc/scribus/AUTHORS
 * /usr/share/doc/scribus/ChangeLog
 * /usr/share/doc/scribus/COPYING
@@ -3596,7 +3596,6 @@ A professional desktop publishing application.
 * /usr/share/scribus/translations/scribus.th_TH.qm
 * /usr/share/scribus/translations/scribus.tr.qm
 * /usr/share/scribus/translations/scribus.uk.qm
-* /usr/share/scribus/translations/scribus.untranslated.qm
 * /usr/share/scribus/translations/scribus.zh_CN.qm
 * /usr/share/scribus/translations/scribus.zh_TW.qm
 * /usr/share/scribus/unicodenameslist.txt

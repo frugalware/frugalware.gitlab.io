@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-sd 25.2.2.2-2"
-version = "25.2.2.2-2"
+title = "libreoffice-l10n-sd 25.2.2.2-3"
+version = "25.2.2.2-3"
 description = "Installs Sindhi support in LibreOffice"
-date = "2025-04-03T09:51:36"
+date = "2025-05-06T10:54:02"
 aliases = "/packages/104113"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "307588"
-usize = "1849025"
-sha1sum = "450478213a9276dd90d76c91b37fff1b147b1c1f"
+size = "307804"
+usize = "1849121"
+sha1sum = "af207338ec496d83e144ce8cc3e9f834cbc15c8d"
 depends = "['libreoffice>=25.2.2.2']"
 +++
 ### Description: 

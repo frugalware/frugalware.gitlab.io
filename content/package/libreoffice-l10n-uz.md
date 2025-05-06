@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-uz 25.2.2.2-2"
-version = "25.2.2.2-2"
+title = "libreoffice-l10n-uz 25.2.2.2-3"
+version = "25.2.2.2-3"
 description = "Installs Uzbek support in LibreOffice"
-date = "2025-04-03T09:51:36"
+date = "2025-05-06T10:54:02"
 aliases = "/packages/104134"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "230584"
-usize = "1406086"
-sha1sum = "de046cc8c5883b67d0e8c6d5fb26391717f29b24"
+size = "230568"
+usize = "1406174"
+sha1sum = "2ba2bd3b55b6423db74f3a0bb9a3db1ec8b41ff2"
 depends = "['libreoffice>=25.2.2.2']"
 +++
 ### Description: 
