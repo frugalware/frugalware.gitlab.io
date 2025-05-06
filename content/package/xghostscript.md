@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "xghostscript 10.05.0-2"
-version = "10.05.0-2"
+title = "xghostscript 10.05.1-1"
+version = "10.05.1-1"
 description = "A graphical interpreter for the PostScript language."
-date = "2025-03-13T16:25:17"
+date = "2025-05-06T21:02:24"
 aliases = "/packages/30511"
 categories = ['xapps']
 upstreamurl = "https://www.ghostscript.com/"
 arch = "x86_64"
-size = "6756"
-usize = "6712"
-sha1sum = "e8f30c6527111828db8c85d85547daeb6d462de7"
+size = "6844"
+usize = "6784"
+sha1sum = "8c0b7c25105cf64c4916f80dad0f78f113818ec7"
 depends = "['ghostscript', 'libxt']"
 reverse_depends = "['gv', 'texmaker']"
 +++

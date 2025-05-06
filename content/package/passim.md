@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "passim 0.1.9-1"
-version = "0.1.9-1"
+title = "passim 0.1.10-1"
+version = "0.1.10-1"
 description = "A local caching server"
-date = "2025-02-05T21:30:43"
+date = "2025-05-06T20:38:00"
 aliases = "/packages/221454"
 categories = ['apps']
 upstreamurl = "https://github.com/hughsie/passim"
 arch = "x86_64"
-size = "70364"
-usize = "270760"
-sha1sum = "d18de929db139e98c43f3a111a9ee4651ba0725c"
+size = "70668"
+usize = "271141"
+sha1sum = "cd26538eae1756a88d9b2f5cb6499838244ec617"
 depends = "['libsoup3']"
 reverse_depends = "['fwupd']"
 +++
@@ -35,11 +35,11 @@ A local caching server
 * /usr/share/dbus-1/interfaces/org.freedesktop.Passim.xml
 * /usr/share/dbus-1/system-services/org.freedesktop.Passim.service
 * /usr/share/dbus-1/system.d/org.freedesktop.Passim.conf
-* /usr/share/doc/passim-0.1.9/LICENSE
-* /usr/share/doc/passim-0.1.9/README.md
-* /usr/share/doc/passim-0.1.9/RELEASE
+* /usr/share/doc/passim-0.1.10/LICENSE
+* /usr/share/doc/passim-0.1.10/README.md
+* /usr/share/doc/passim-0.1.10/RELEASE
 * /usr/share/gir-1.0/Passim-1.0.gir
-* /usr/share/icons/hicolor/128x128/apps/org.freedesktop.Passim.png
+* /usr/share/icons/hicolor/256x256/apps/org.freedesktop.Passim.png
 * /usr/share/icons/hicolor/scalable/apps/org.freedesktop.Passim.svg
 * /usr/share/man/man1/passim.1.gz
 * /usr/share/metainfo/org.freedesktop.Passim.metainfo.xml
