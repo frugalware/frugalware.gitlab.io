@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "dosbox-x 2025.02.01-1"
-version = "2025.02.01-1"
+title = "dosbox-x 2025.05.03-1"
+version = "2025.05.03-1"
 description = "PC emulator with builtin DOS for running DOS games"
-date = "2025-03-17T21:17:16"
+date = "2025-05-06T08:18:20"
 aliases = "/packages/221572"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/joncampbell123/dosbox-x"
 arch = "x86_64"
-size = "15305748"
-usize = "45899281"
-sha1sum = "6d2b53bf3bc1e607acebef29ca94e113dcf8ea71"
+size = "15338592"
+usize = "46159055"
+sha1sum = "71ef2debd97fdd86082e7a39bd6f3f506805e418"
 depends = "['fluidsynth', 'libpcap', 'libpng', 'libslirp', 'sdl2_net']"
 +++
 ### Description: 
@@ -20,21 +20,22 @@ PC emulator with builtin DOS for running DOS games
 * /usr/bin/dosbox-x
 * /usr/share/applications/com.dosbox_x.DOSBox-X.desktop
 * /usr/share/bash-completion/completions/dosbox-x
-* /usr/share/doc/dosbox-x-2025.02.01/AUTHORS
-* /usr/share/doc/dosbox-x-2025.02.01/CHANGELOG
-* /usr/share/doc/dosbox-x-2025.02.01/COPYING
-* /usr/share/doc/dosbox-x-2025.02.01/INSTALL.md
-* /usr/share/doc/dosbox-x-2025.02.01/NEWS
-* /usr/share/doc/dosbox-x-2025.02.01/README.debugger
-* /usr/share/doc/dosbox-x-2025.02.01/README.development-in-Windows
-* /usr/share/doc/dosbox-x-2025.02.01/README.joystick
-* /usr/share/doc/dosbox-x-2025.02.01/README.keyboard-layout-handling
-* /usr/share/doc/dosbox-x-2025.02.01/README.md
-* /usr/share/doc/dosbox-x-2025.02.01/README.MinGW
-* /usr/share/doc/dosbox-x-2025.02.01/README.source-code-description
-* /usr/share/doc/dosbox-x-2025.02.01/README.video
-* /usr/share/doc/dosbox-x-2025.02.01/README.xbrz
-* /usr/share/doc/dosbox-x-2025.02.01/THANKS
+* /usr/share/doc/dosbox-x-2025.05.03/AUTHORS
+* /usr/share/doc/dosbox-x-2025.05.03/CHANGELOG
+* /usr/share/doc/dosbox-x-2025.05.03/COPYING
+* /usr/share/doc/dosbox-x-2025.05.03/INSTALL.md
+* /usr/share/doc/dosbox-x-2025.05.03/NEWS
+* /usr/share/doc/dosbox-x-2025.05.03/README.debugger
+* /usr/share/doc/dosbox-x-2025.05.03/README.development-in-Windows
+* /usr/share/doc/dosbox-x-2025.05.03/README.joystick
+* /usr/share/doc/dosbox-x-2025.05.03/README.keyboard-layout-handling
+* /usr/share/doc/dosbox-x-2025.05.03/README.md
+* /usr/share/doc/dosbox-x-2025.05.03/README.MinGW
+* /usr/share/doc/dosbox-x-2025.05.03/README.source-code-description
+* /usr/share/doc/dosbox-x-2025.05.03/README.video
+* /usr/share/doc/dosbox-x-2025.05.03/README.video-debug-overlay.md
+* /usr/share/doc/dosbox-x-2025.05.03/README.xbrz
+* /usr/share/doc/dosbox-x-2025.05.03/THANKS
 * /usr/share/dosbox-x/CHANGELOG
 * /usr/share/dosbox-x/dosbox-x.reference.conf
 * /usr/share/dosbox-x/dosbox-x.reference.full.conf
