@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kactivitymanagerd 6.3.4-2"
-version = "6.3.4-2"
+title = "kactivitymanagerd 6.3.5-1"
+version = "6.3.5-1"
 description = "System service to manage user's activities, track the usage patterns etc."
-date = "2025-04-05T15:05:52"
+date = "2025-05-07T09:28:26"
 aliases = "/packages/218271"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "191252"
-usize = "752115"
-sha1sum = "d2fc1681cca17d3443b1a028f9e7d9d797d63160"
-depends = "['kio>=6.12.0']"
+size = "193656"
+usize = "754195"
+sha1sum = "7a24073695714c52996cb37ca03acd1a36fe7f5b"
+depends = "['kio>=6.13.0']"
 reverse_depends = "['plasma-desktop']"
 +++
 ### Description: 
@@ -29,9 +29,9 @@ System service to manage user's activities, track the usage patterns etc.
 * /usr/lib/qt6/plugins/kactivitymanagerd1/org.kde.ActivityManager.RunApplication.so
 * /usr/lib/systemd/user/plasma-kactivitymanagerd.service
 * /usr/share/dbus-1/services/org.kde.ActivityManager.service
-* /usr/share/doc/kactivitymanagerd-6.3.4/README.developers
-* /usr/share/doc/kactivitymanagerd-6.3.4/README.md
-* /usr/share/doc/kactivitymanagerd-6.3.4/TODO
+* /usr/share/doc/kactivitymanagerd-6.3.5/README.developers
+* /usr/share/doc/kactivitymanagerd-6.3.5/README.md
+* /usr/share/doc/kactivitymanagerd-6.3.5/TODO
 * /usr/share/krunner/dbusplugins/plasma-runnners-activities.desktop
 * /usr/share/locale/ar/LC_MESSAGES/kactivities6.mo
 * /usr/share/locale/ast/LC_MESSAGES/kactivities6.mo

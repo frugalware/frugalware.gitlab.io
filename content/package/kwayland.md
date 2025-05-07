@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kwayland 6.3.4-2"
-version = "6.3.4-2"
+title = "kwayland 6.3.5-1"
+version = "6.3.5-1"
 description = "KDE Wayland"
-date = "2025-04-05T15:00:00"
+date = "2025-05-07T09:21:41"
 aliases = "/packages/218361"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1294788"
-usize = "3543931"
-sha1sum = "4c04794038ed725c734444b3d44288806e7fa00d"
+size = "1296772"
+usize = "3547515"
+sha1sum = "c40991d11571c5a39850088707cee26bb00a40a6"
 depends = "['qt6-wayland>=6.9.0']"
 reverse_depends = "['kinfocenter', 'kpipewire', 'krfb', 'kwin', 'libkscreen', 'pinentry-qt6', 'plasma-integration', 'plasma-nano', 'xdg-desktop-portal-kde', 'yakuake']"
 +++
@@ -67,9 +67,9 @@ KDE Wayland
 * /usr/lib/cmake/KWayland/KWaylandTargets.cmake
 * /usr/lib/libKWaylandClient.so
 * /usr/lib/libKWaylandClient.so.6
-* /usr/lib/libKWaylandClient.so.6.3.4
+* /usr/lib/libKWaylandClient.so.6.3.5
 * /usr/lib/pkgconfig/KWaylandClient.pc
-* /usr/share/doc/kwayland-6.3.4/README.md
+* /usr/share/doc/kwayland-6.3.5/README.md
 * /usr/share/doc/qt6/KWayland.qch
 * /usr/share/doc/qt6/KWayland.tags
 * /usr/share/qlogging-categories6/kwayland.categories

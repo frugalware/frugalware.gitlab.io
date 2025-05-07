@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "plasma-activities 6.3.4-2"
-version = "6.3.4-2"
+title = "plasma-activities 6.3.5-1"
+version = "6.3.5-1"
 description = "The KActivity Manager Daemon."
-date = "2025-04-05T15:01:53"
+date = "2025-05-07T09:24:00"
 aliases = "/packages/221374"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "116860"
-usize = "442836"
-sha1sum = "41d3a6463a8255d61085c046de1678736d567594"
-depends = "['kio>=6.12.0']"
+size = "121032"
+usize = "456924"
+sha1sum = "d25e6cab016bbeff08dd5428ffdcf160de82aab8"
+depends = "['kio>=6.13.0']"
 reverse_depends = "['dolphin', 'gwenview', 'kdeplasma-addons', 'konqueror', 'krdc', 'kwin', 'libplasma', 'okular', 'plasma-activities-stats', 'plasma-browser-integration', 'skrooge', 'systemsettings']"
 +++
 ### Description: 
@@ -39,16 +39,16 @@ The KActivity Manager Daemon.
 * /usr/lib/cmake/PlasmaActivities/PlasmaActivitiesLibraryTargets.cmake
 * /usr/lib/libPlasmaActivities.so
 * /usr/lib/libPlasmaActivities.so.6
-* /usr/lib/libPlasmaActivities.so.6.3.4
+* /usr/lib/libPlasmaActivities.so.6.3.5
 * /usr/lib/pkgconfig/PlasmaActivities.pc
 * /usr/lib/qt6/qml/org/kde/activities/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/activities/libplasmaactivitiesextensionplugin.so
 * /usr/lib/qt6/qml/org/kde/activities/plasmaactivitiesextensionplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/activities/qmldir
-* /usr/share/doc/plasma-activities-6.3.4/README
-* /usr/share/doc/plasma-activities-6.3.4/README.developers
-* /usr/share/doc/plasma-activities-6.3.4/README.md
-* /usr/share/doc/plasma-activities-6.3.4/README.packagers
-* /usr/share/doc/plasma-activities-6.3.4/TODO
+* /usr/share/doc/plasma-activities-6.3.5/README
+* /usr/share/doc/plasma-activities-6.3.5/README.developers
+* /usr/share/doc/plasma-activities-6.3.5/README.md
+* /usr/share/doc/plasma-activities-6.3.5/README.packagers
+* /usr/share/doc/plasma-activities-6.3.5/TODO
 * /usr/share/qlogging-categories6/plasma-activities.categories
 * /usr/share/qlogging-categories6/plasma-activities.renamecategories

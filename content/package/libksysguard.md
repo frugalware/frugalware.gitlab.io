@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libksysguard 6.3.4-2"
-version = "6.3.4-2"
+title = "libksysguard 6.3.5-1"
+version = "6.3.5-1"
 description = "Task management and system monitoring library."
-date = "2025-04-05T15:11:06"
+date = "2025-05-07T09:35:09"
 aliases = "/packages/221363"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "540312"
-usize = "3068302"
-sha1sum = "238e758b64fb56be4258b8e67986704d25dc75c6"
-depends = "['kconfigwidgets>=6.12.0', 'knewstuff>=6.12.0', 'kwindowsystem>=6.12.0', 'libnl', 'libxres>=1.0.7-4', 'lmsensors', 'qt6-webengine>=6.9.0']"
+size = "546192"
+usize = "3089087"
+sha1sum = "228574f558d676619e722ada292c2a8249674fbd"
+depends = "['kconfigwidgets>=6.13.0', 'knewstuff>=6.13.0', 'kwindowsystem>=6.13.0', 'libnl', 'libxres>=1.0.7-4', 'lmsensors', 'qt6-webengine>=6.9.0']"
 reverse_depends = "['kdevelop', 'ksystemstats', 'plasma-vault', 'plasma-workspace', 'plasma5support']"
 +++
 ### Description: 
@@ -62,19 +62,19 @@ Task management and system monitoring library.
 * /usr/lib/kauth/kf6/kauth/ksysguardprocesslist_helper
 * /usr/lib/libKSysGuardFormatter.so
 * /usr/lib/libKSysGuardFormatter.so.2
-* /usr/lib/libKSysGuardFormatter.so.6.3.4
+* /usr/lib/libKSysGuardFormatter.so.6.3.5
 * /usr/lib/libKSysGuardSensorFaces.so
 * /usr/lib/libKSysGuardSensorFaces.so.2
-* /usr/lib/libKSysGuardSensorFaces.so.6.3.4
+* /usr/lib/libKSysGuardSensorFaces.so.6.3.5
 * /usr/lib/libKSysGuardSensors.so
 * /usr/lib/libKSysGuardSensors.so.2
-* /usr/lib/libKSysGuardSensors.so.6.3.4
+* /usr/lib/libKSysGuardSensors.so.6.3.5
 * /usr/lib/libKSysGuardSystemStats.so
 * /usr/lib/libKSysGuardSystemStats.so.2
-* /usr/lib/libKSysGuardSystemStats.so.6.3.4
+* /usr/lib/libKSysGuardSystemStats.so.6.3.5
 * /usr/lib/libprocesscore.so
 * /usr/lib/libprocesscore.so.10
-* /usr/lib/libprocesscore.so.6.3.4
+* /usr/lib/libprocesscore.so.6.3.5
 * /usr/lib/qt6/plugins/kf6/packagestructure/ksysguard_sensorface.so
 * /usr/lib/qt6/plugins/ksysguard/process/ksysguard_plugin_nvidia.so
 * /usr/lib/qt6/qml/org/kde/ksysguard/faces/Choices.qml
@@ -563,6 +563,7 @@ Task management and system monitoring library.
 * /usr/share/locale/ru/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.piechart.mo
 * /usr/share/locale/ru/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.textonly.mo
 * /usr/share/locale/ru/LC_MESSAGES/ksysguard_sensors.mo
+* /usr/share/locale/ru/LC_MESSAGES/ksysguard_systemstats.mo
 * /usr/share/locale/ru/LC_MESSAGES/processcore.mo
 * /usr/share/locale/sa/LC_MESSAGES/KSysGuardFormatter.mo
 * /usr/share/locale/sa/LC_MESSAGES/KSysGuardSensorFaces.mo
