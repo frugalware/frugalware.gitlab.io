@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "powerdevil 6.3.4-2"
-version = "6.3.4-2"
+title = "powerdevil 6.3.5-1"
+version = "6.3.5-1"
 description = "KDE power management tools."
-date = "2025-04-05T15:41:16"
+date = "2025-05-07T12:08:02"
 aliases = "/packages/221379"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1288560"
-usize = "4961210"
-sha1sum = "f047fa14be9bb10a0ff50428a7d36e04fa0d234d"
-depends = "['bluez-qt>=6.12.0', 'ddcutil', 'plasma-workspace>=6.3.4', 'power-profiles-daemon']"
+size = "1299952"
+usize = "5017707"
+sha1sum = "f416de3a3ee03ecaaad9c4c21ce063ae028217f5"
+depends = "['bluez-qt>=6.13.0', 'ddcutil', 'plasma-workspace>=6.3.5', 'power-profiles-daemon']"
 +++
 ### Description: 
 KDE power management tools.
@@ -23,7 +23,7 @@ KDE power management tools.
 * /usr/lib/kauth/kf6/kauth/discretegpuhelper
 * /usr/lib/libpowerdevilcore.so
 * /usr/lib/libpowerdevilcore.so.2
-* /usr/lib/libpowerdevilcore.so.6.3.4
+* /usr/lib/libpowerdevilcore.so.6.3.5
 * /usr/lib/powerdevil/org_kde_powerdevil
 * /usr/lib/qt6/plugins/kf6/krunner/krunner_powerdevil.so
 * /usr/lib/qt6/plugins/plasma/kcms/systemsettings/kcm_powerdevilprofilesconfig.so
@@ -91,8 +91,8 @@ KDE power management tools.
 * /usr/share/doc/HTML/uk/kcontrol/powerdevil/energy.png
 * /usr/share/doc/HTML/uk/kcontrol/powerdevil/index.cache.bz2
 * /usr/share/doc/HTML/uk/kcontrol/powerdevil/index.docbook
-* /usr/share/doc/powerdevil-6.3.4/COPYING
-* /usr/share/doc/powerdevil-6.3.4/README.md
+* /usr/share/doc/powerdevil-6.3.5/COPYING
+* /usr/share/doc/powerdevil-6.3.5/README.md
 * /usr/share/knotifications6/powerdevil.notifyrc
 * /usr/share/locale/ar/LC_MESSAGES/kcm_powerdevilprofilesconfig.mo
 * /usr/share/locale/ar/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
@@ -310,6 +310,7 @@ KDE power management tools.
 * /usr/share/locale/ms/LC_MESSAGES/powerdevil.mo
 * /usr/share/locale/nb/LC_MESSAGES/kcm_powerdevilprofilesconfig.mo
 * /usr/share/locale/nb/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
+* /usr/share/locale/nb/LC_MESSAGES/plasma_applet_org.kde.plasma.brightness.mo
 * /usr/share/locale/nb/LC_MESSAGES/plasma_runner_powerdevil.mo
 * /usr/share/locale/nb/LC_MESSAGES/powerdevil.mo
 * /usr/share/locale/nds/LC_MESSAGES/kcm_powerdevilprofilesconfig.mo

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "plasma-workspace 6.3.4-2"
-version = "6.3.4-2"
+title = "plasma-workspace 6.3.5-1"
+version = "6.3.5-1"
 description = "KDE Plasma Workspace."
-date = "2025-04-05T15:39:05"
+date = "2025-05-07T12:00:31"
 aliases = "/packages/218402"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "20441256"
-usize = "57182768"
-sha1sum = "107a2ffc1ad9f2e64f29e13a9a71a2ade22cf07d"
-depends = "['appstream-qt', 'baloo>=6.12.0', 'kcmutils>=6.12.0', 'kdeclarative>=6.12.0', 'kholidays>=6.12.0', 'kidletime>=6.12.0', 'kirigami-addons', 'knewstuff>=6.12.0', 'knotifyconfig>=6.12.0', 'kpackage>=6.12.0', 'kparts>=6.12.0', 'kquickcharts>=6.12.0', 'krunner>=6.12.0', 'ksvg>=6.12.0', 'ktexteditor>=6.12.0', 'kunitconversion>=6.12.0', 'kuserfeedback>=6.12.0', 'kwin>=6.3.4', 'libkexiv2', 'libksysguard>=6.3.4', 'libplasma>=6.3.4', 'libqalculate>=5.0.0', 'libxft', 'networkmanager-qt>=6.12.0', 'plasma-activities-stats>=6.3.4', 'plasma5-integration>=6.3.4', 'plasma5support>=6.3.4', 'prison>=6.12.0', 'qcoro', 'qt6-tools']"
+size = "20533772"
+usize = "57411417"
+sha1sum = "be4be5fed1ad4a5cbef4fb1d367e140ceaee5a25"
+depends = "['appstream-qt', 'baloo>=6.13.0', 'kcmutils>=6.13.0', 'kdeclarative>=6.13.0', 'kholidays>=6.13.0', 'kidletime>=6.13.0', 'kirigami-addons', 'knewstuff>=6.13.0', 'knotifyconfig>=6.13.0', 'kpackage>=6.13.0', 'kparts>=6.13.0', 'kquickcharts>=6.13.0', 'krunner>=6.13.0', 'ksvg>=6.13.0', 'ktexteditor>=6.13.0', 'kunitconversion>=6.13.0', 'kuserfeedback>=6.13.0', 'kwin>=6.3.5', 'libkexiv2', 'libksysguard>=6.3.5', 'libplasma>=6.3.5', 'libqalculate>=5.0.0', 'libxft', 'networkmanager-qt>=6.13.0', 'plasma-activities-stats>=6.3.5', 'plasma5-integration>=6.3.5', 'plasma5support>=6.3.5', 'prison>=6.13.0', 'qcoro', 'qt6-tools']"
 reverse_depends = "['kde-cli-tools', 'kdeplasma-addons', 'kget', 'ktorrent', 'plasma-browser-integration', 'plasma-desktop', 'plasma-nm', 'plasma-wayland-session', 'powerdevil']"
 +++
 ### Description: 
@@ -125,31 +125,31 @@ KDE Plasma Workspace.
 * /usr/lib/kconf_update_bin/plasmashell-6.0-keep-default-floating-setting-for-plasma-5-panels
 * /usr/lib/libbatterycontrol.so
 * /usr/lib/libbatterycontrol.so.6
-* /usr/lib/libbatterycontrol.so.6.3.4
+* /usr/lib/libbatterycontrol.so.6.3.5
 * /usr/lib/libcolorcorrect.so
 * /usr/lib/libcolorcorrect.so.6
-* /usr/lib/libcolorcorrect.so.6.3.4
+* /usr/lib/libcolorcorrect.so.6.3.5
 * /usr/lib/libkfontinst.so
 * /usr/lib/libkfontinst.so.6
-* /usr/lib/libkfontinst.so.6.3.4
+* /usr/lib/libkfontinst.so.6.3.5
 * /usr/lib/libkfontinstui.so
 * /usr/lib/libkfontinstui.so.6
-* /usr/lib/libkfontinstui.so.6.3.4
+* /usr/lib/libkfontinstui.so.6.3.5
 * /usr/lib/libklipper.so
 * /usr/lib/libklipper.so.6
-* /usr/lib/libklipper.so.6.3.4
+* /usr/lib/libklipper.so.6.3.5
 * /usr/lib/libkmpris.so.6
-* /usr/lib/libkmpris.so.6.3.4
+* /usr/lib/libkmpris.so.6.3.5
 * /usr/lib/libkrdb.so
 * /usr/lib/libkworkspace6.so
 * /usr/lib/libkworkspace6.so.6
-* /usr/lib/libkworkspace6.so.6.3.4
+* /usr/lib/libkworkspace6.so.6.3.5
 * /usr/lib/libnotificationmanager.so
 * /usr/lib/libnotificationmanager.so.1
-* /usr/lib/libnotificationmanager.so.6.3.4
+* /usr/lib/libnotificationmanager.so.6.3.5
 * /usr/lib/libtaskmanager.so
 * /usr/lib/libtaskmanager.so.6
-* /usr/lib/libtaskmanager.so.6.3.4
+* /usr/lib/libtaskmanager.so.6.3.5
 * /usr/lib/libweather_ion.so
 * /usr/lib/libweather_ion.so.7
 * /usr/lib/libweather_ion.so.7.0.0
@@ -921,8 +921,8 @@ KDE Plasma Workspace.
 * /usr/share/doc/HTML/uk/klipper/index.docbook
 * /usr/share/doc/HTML/uk/klipper/klipper-widget.png
 * /usr/share/doc/HTML/uk/klipper/screenshot.png
-* /usr/share/doc/plasma-workspace-6.3.4/HACKING
-* /usr/share/doc/plasma-workspace-6.3.4/README.md
+* /usr/share/doc/plasma-workspace-6.3.5/HACKING
+* /usr/share/doc/plasma-workspace-6.3.5/README.md
 * /usr/share/icons/hicolor/128x128/mimetypes/fonts-package.png
 * /usr/share/icons/hicolor/16x16/apps/kfontview.png
 * /usr/share/icons/hicolor/16x16/mimetypes/fonts-package.png
@@ -3553,6 +3553,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/ko/LC_MESSAGES/kcm_users.mo
 * /usr/share/locale/ko/LC_MESSAGES/kded_devicenotifications.mo
 * /usr/share/locale/ko/LC_MESSAGES/kded_donationmessage.mo
+* /usr/share/locale/ko/LC_MESSAGES/kded_geotimezoned.mo
 * /usr/share/locale/ko/LC_MESSAGES/kfontinst.mo
 * /usr/share/locale/ko/LC_MESSAGES/kio_applications.mo
 * /usr/share/locale/ko/LC_MESSAGES/kio_desktop.mo
@@ -4686,6 +4687,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/ru/LC_MESSAGES/kcm_users.mo
 * /usr/share/locale/ru/LC_MESSAGES/kded_devicenotifications.mo
 * /usr/share/locale/ru/LC_MESSAGES/kded_donationmessage.mo
+* /usr/share/locale/ru/LC_MESSAGES/kded_geotimezoned.mo
 * /usr/share/locale/ru/LC_MESSAGES/kfontinst.mo
 * /usr/share/locale/ru/LC_MESSAGES/kio_applications.mo
 * /usr/share/locale/ru/LC_MESSAGES/kio_desktop.mo
@@ -4697,6 +4699,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/ru/LC_MESSAGES/libkmpris.mo
 * /usr/share/locale/ru/LC_MESSAGES/libkworkspace.mo
 * /usr/share/locale/ru/LC_MESSAGES/libnotificationmanager.mo
+* /usr/share/locale/ru/LC_MESSAGES/oom-notifier.mo
 * /usr/share/locale/ru/LC_MESSAGES/phonon_kde_plugin.mo
 * /usr/share/locale/ru/LC_MESSAGES/plasmashell.mo
 * /usr/share/locale/ru/LC_MESSAGES/plasmashellprivateplugin.mo

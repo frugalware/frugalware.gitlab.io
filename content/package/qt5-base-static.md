@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qt5-base-static 5.15.16-2"
-version = "5.15.16-2"
+title = "qt5-base-static 5.15.16-3"
+version = "5.15.16-3"
 description = "Qt5 base static libs."
-date = "2025-03-18T21:24:03"
+date = "2025-05-07T11:11:43"
 aliases = "/packages/219942"
 categories = ['devel-extra']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "20453608"
-usize = "27869849"
-sha1sum = "8c9ee04b19ea00bd7251a032ff3f6e72906375d0"
-depends = "['libstdc++>=11.3']"
+size = "19997616"
+usize = "27340971"
+sha1sum = "d227e8a13c95a42555ce76dbf6eef31b3fc3f3c0"
+depends = "['libstdc++>=15.1']"
 +++
 ### Description: 
 Qt5 base static libs.

@@ -1,24 +1,24 @@
 +++
 draft = false
-title = "plasma-integration 6.3.4-2"
-version = "6.3.4-2"
+title = "plasma-integration 6.3.5-1"
+version = "6.3.5-1"
 description = "Qt6 Platform Theme integration plugins for the Plasma workspaces."
-date = "2025-04-05T15:22:40"
+date = "2025-05-07T11:36:11"
 aliases = "/packages/218397"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "134084"
-usize = "499825"
-sha1sum = "70621b40fbfcc836402d68cd0630b4ae7c7f32b2"
-depends = "['breeze>=5.27.12', 'hack', 'kio>=6.12.0', 'kstatusnotifieritem>=6.12.0', 'kwayland>=5.27.12', 'libxcursor', 'noto-emoji', 'noto-fonts', 'xdg-desktop-portal-kde>=5.27.12']"
+size = "136344"
+usize = "505777"
+sha1sum = "4d089c777147853f39c1d2055446cddd0b0b840b"
+depends = "['breeze>=5.27.12', 'hack', 'kio>=6.13.0', 'kstatusnotifieritem>=6.13.0', 'kwayland>=5.27.12', 'libxcursor', 'noto-emoji', 'noto-fonts', 'xdg-desktop-portal-kde>=5.27.12']"
 +++
 ### Description: 
 Qt6 Platform Theme integration plugins for the Plasma workspaces.
 
 ### Files: 
 * /usr/lib/qt6/plugins/platformthemes/KDEPlasmaPlatformTheme6.so
-* /usr/share/doc/plasma-integration-6.3.4/README.md
+* /usr/share/doc/plasma-integration-6.3.5/README.md
 * /usr/share/locale/ar/LC_MESSAGES/plasmaintegration5.mo
 * /usr/share/locale/ast/LC_MESSAGES/plasmaintegration5.mo
 * /usr/share/locale/az/LC_MESSAGES/plasmaintegration5.mo

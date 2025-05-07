@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kwin 6.3.4-2"
-version = "6.3.4-2"
+title = "kwin 6.3.5-1"
+version = "6.3.5-1"
 description = "KDE Window Manager."
-date = "2025-04-05T15:32:48"
+date = "2025-05-07T11:52:13"
 aliases = "/packages/221357"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "10384576"
-usize = "33089648"
-sha1sum = "b8b5ff13536112b115701b9ea55d52e2b9fb88d3"
-depends = "['breeze>=6.3.4', 'kauth>=6.12.0', 'kcmutils>=6.12.0', 'kconfig>=6.12.0', 'kconfigwidgets>=6.12.0', 'kcoreaddons>=6.12.0', 'kcrash>=6.12.0', 'kdbusaddons>=6.12.0', 'kdeclarative>=6.12.0', 'kglobalacceld>=6.3.4', 'kguiaddons>=6.12.0', 'ki18n>=6.12.0', 'kidletime>=6.12.0', 'knewstuff>=6.12.0', 'kpackage>=6.12.0', 'kscreenlocker>=6.3.4', 'kservice>=6.12.0', 'ksvg>=6.12.0', 'kwayland>=6.3.4', 'kwidgetsaddons>=6.12.0', 'kwindowsystem>=6.12.0', 'kxmlgui>=6.12.0', 'lcms2', 'libdisplay-info>=0.2.0', 'libei', 'libplasma>=6.3.4', 'libqaccessibilityclient', 'libxcvt', 'pipewire', 'plasma-activities>=6.3.4', 'qt6-5compat>=_F_kdever_qt6', 'qt6-sensors>=6.9.0', 'qt6-tools>=6.9.0', 'qt6-wayland>=6.9.0']"
+size = "10506652"
+usize = "33277539"
+sha1sum = "914f9181ea3a3dab80037ea70d8778c1b99ce8d9"
+depends = "['breeze>=6.3.5', 'kauth>=6.13.0', 'kcmutils>=6.13.0', 'kconfig>=6.13.0', 'kconfigwidgets>=6.13.0', 'kcoreaddons>=6.13.0', 'kcrash>=6.13.0', 'kdbusaddons>=6.13.0', 'kdeclarative>=6.13.0', 'kglobalacceld>=6.3.5', 'kguiaddons>=6.13.0', 'ki18n>=6.13.0', 'kidletime>=6.13.0', 'knewstuff>=6.13.0', 'kpackage>=6.13.0', 'kscreenlocker>=6.3.5', 'kservice>=6.13.0', 'ksvg>=6.13.0', 'kwayland>=6.3.5', 'kwidgetsaddons>=6.13.0', 'kwindowsystem>=6.13.0', 'kxmlgui>=6.13.0', 'lcms2', 'libdisplay-info>=0.2.0', 'libei', 'libplasma>=6.3.5', 'libqaccessibilityclient', 'libxcvt', 'pipewire', 'plasma-activities>=6.3.5', 'qt6-5compat>=_F_kdever_qt6', 'qt6-sensors>=6.9.0', 'qt6-tools>=6.9.0', 'qt6-wayland>=6.9.0']"
 reverse_depends = "['oxygen', 'plasma-workspace']"
 +++
 ### Description: 
@@ -304,10 +304,10 @@ KDE Window Manager.
 * /usr/lib/kwin/kwin-applywindowdecoration
 * /usr/lib/kwin/kwin_killer_helper
 * /usr/lib/libkcmkwincommon.so.6
-* /usr/lib/libkcmkwincommon.so.6.3.4
+* /usr/lib/libkcmkwincommon.so.6.3.5
 * /usr/lib/libkwin.so
 * /usr/lib/libkwin.so.6
-* /usr/lib/libkwin.so.6.3.4
+* /usr/lib/libkwin.so.6.3.5
 * /usr/lib/qt6/plugins/kf6/packagestructure/kwin_aurorae.so
 * /usr/lib/qt6/plugins/kf6/packagestructure/kwin_decoration.so
 * /usr/lib/qt6/plugins/kf6/packagestructure/kwin_effect.so
@@ -738,7 +738,7 @@ KDE Window Manager.
 * /usr/share/doc/HTML/uk/kcontrol/windowbehaviour/index.docbook
 * /usr/share/doc/HTML/uk/kcontrol/windowspecific/index.cache.bz2
 * /usr/share/doc/HTML/uk/kcontrol/windowspecific/index.docbook
-* /usr/share/doc/kwin-6.3.4/README.md
+* /usr/share/doc/kwin-6.3.5/README.md
 * /usr/share/icons/hicolor/16x16/apps/kwin.png
 * /usr/share/icons/hicolor/32x32/apps/kwin.png
 * /usr/share/icons/hicolor/48x48/apps/kwin.png
