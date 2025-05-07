@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libreoffice-l10n-af 25.2.2.2-3"
-version = "25.2.2.2-3"
+title = "libreoffice-l10n-af 25.2.3.2-1"
+version = "25.2.3.2-1"
 description = "Installs Afrikaans support in LibreOffice"
-date = "2025-05-06T10:54:02"
+date = "2025-05-07T07:26:52"
 aliases = "/packages/104031"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "806436"
-usize = "4035955"
-sha1sum = "0e90a0d521e521da7334307a320859e913114129"
-depends = "['libreoffice>=25.2.2.2']"
+size = "806452"
+usize = "4035754"
+sha1sum = "c5e4ec9ce01a3db8c44ae8ec99837172d1290bb7"
+depends = "['libreoffice>=25.2.3.2']"
 +++
 ### Description: 
 Installs Afrikaans support in LibreOffice

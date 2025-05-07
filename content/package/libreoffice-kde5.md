@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libreoffice-kde5 25.2.2.2-3"
-version = "25.2.2.2-3"
+title = "libreoffice-kde5 25.2.3.2-1"
+version = "25.2.3.2-1"
 description = "libreoffice KF5/Qt5 integration"
-date = "2025-05-06T10:54:02"
+date = "2025-05-07T07:26:52"
 aliases = "/packages/219837"
 categories = ['kde5']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "355520"
+size = "356452"
 usize = "1782616"
-sha1sum = "3caed461f70c41349ee8b7af652113a0c17e36a1"
-depends = "['kconfig5', 'kcoreaddons5', 'ki18n5', 'kio5', 'kwindowsystem5', 'libreoffice>=25.2.2.2', 'qt5-base>=5.15.10', 'qt5-x11extras>=5.15.10']"
+sha1sum = "eaa78c3f9a5e8479d552ef8d8945335edacfbcbf"
+depends = "['kconfig5', 'kcoreaddons5', 'ki18n5', 'kio5', 'kwindowsystem5', 'libreoffice>=25.2.3.2', 'qt5-base>=5.15.10', 'qt5-x11extras>=5.15.10']"
 +++
 ### Description: 
 libreoffice KF5/Qt5 integration

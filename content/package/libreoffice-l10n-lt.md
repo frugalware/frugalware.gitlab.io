@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libreoffice-l10n-lt 25.2.2.2-3"
-version = "25.2.2.2-3"
+title = "libreoffice-l10n-lt 25.2.3.2-1"
+version = "25.2.3.2-1"
 description = "Installs Lithuanian support in LibreOffice"
-date = "2025-05-06T10:54:02"
+date = "2025-05-07T07:26:52"
 aliases = "/packages/104082"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4901688"
-usize = "35685502"
-sha1sum = "3085710ce0ed0c51d79983b42dd39b90616cc3a4"
-depends = "['libreoffice>=25.2.2.2']"
+size = "4902032"
+usize = "35685496"
+sha1sum = "c3b3bdc74ce405c9b49781e360289fdc05d8f198"
+depends = "['libreoffice>=25.2.3.2']"
 +++
 ### Description: 
 Installs Lithuanian support in LibreOffice
