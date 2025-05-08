@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "plasma-sdk 6.3.4-2"
-version = "6.3.4-2"
+title = "plasma-sdk 6.3.5-1"
+version = "6.3.5-1"
 description = "Plasma SDK"
-date = "2025-04-05T19:15:17"
+date = "2025-05-08T18:48:51"
 aliases = "/packages/218401"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "497916"
-usize = "2486273"
-sha1sum = "b3bf2a4cdbe04f91a4d0bcc61fbb272aa11c764d"
-depends = "['ktexteditor>=6.12.0', 'libplasma>=6.3.4', 'plasma5support>=6.3.4']"
+size = "500492"
+usize = "2494099"
+sha1sum = "db229873d39dd3b95b408ced5d83ecb014bad43d"
+depends = "['ktexteditor>=6.13.0', 'libplasma>=6.3.5', 'plasma5support>=6.3.5']"
 +++
 ### Description: 
 Plasma SDK
