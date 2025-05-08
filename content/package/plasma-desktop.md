@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "plasma-desktop 6.3.4-2"
-version = "6.3.4-2"
+title = "plasma-desktop 6.3.5-1"
+version = "6.3.5-1"
 description = "KDE Plasma Desktop."
-date = "2025-04-05T17:33:07"
+date = "2025-05-08T17:50:26"
 aliases = "/packages/218423"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "17459624"
-usize = "34457521"
-sha1sum = "cf23c9448e020dbb8336903ad3e17ffda2f84b82"
-depends = "['hack', 'kactivitymanagerd>=6.3.4', 'kauth>=6.12.0', 'kcmutils>=6.12.0', 'knewstuff>=6.12.0', 'knotifyconfig>=6.12.0', 'kpeople>=6.12.0', 'kpipewire', 'krunner>=6.12.0', 'libcanberra>=0.30-14', 'libxft>=2.3.2-2', 'libxkbfile>=1.0.9-3', 'noto-emoji', 'packagekit-qt6>=1.0.1', 'plasma-activities-stats>=6.3.4', 'plasma-workspace>=6.3.4', 'qqc2-desktop-style>=6.12.0', 'setxkbmap', 'xdg-user-dirs', 'xf86-input-libinput', 'xkeyboard-config']"
+size = "17511124"
+usize = "34743007"
+sha1sum = "7e56727b8ffb20017623cd219f2886eb06bfc168"
+depends = "['hack', 'kactivitymanagerd>=6.3.5', 'kauth>=6.13.0', 'kcmutils>=6.13.0', 'knewstuff>=6.13.0', 'knotifyconfig>=6.13.0', 'kpeople>=6.13.0', 'kpipewire', 'krunner>=6.13.0', 'libcanberra>=0.30-14', 'libxft>=2.3.2-2', 'libxkbfile>=1.0.9-3', 'noto-emoji', 'packagekit-qt6>=1.0.1', 'plasma-activities-stats>=6.3.5', 'plasma-workspace>=6.3.5', 'qqc2-desktop-style>=6.13.0', 'setxkbmap', 'xdg-user-dirs', 'xf86-input-libinput', 'xkeyboard-config']"
 +++
 ### Description: 
 KDE Plasma Desktop.
@@ -844,8 +844,8 @@ KDE Plasma Desktop.
 * /usr/share/doc/HTML/uk/plasma-desktop/application-launcher-settings.png
 * /usr/share/doc/HTML/uk/plasma-desktop/index.cache.bz2
 * /usr/share/doc/HTML/uk/plasma-desktop/index.docbook
-* /usr/share/doc/plasma-desktop-6.3.4/COPYING.DOC
-* /usr/share/doc/plasma-desktop-6.3.4/README.md
+* /usr/share/doc/plasma-desktop-6.3.5/COPYING.DOC
+* /usr/share/doc/plasma-desktop-6.3.5/README.md
 * /usr/share/icons/hicolor/128x128/devices/input-touchpad.png
 * /usr/share/icons/hicolor/16x16/devices/input-touchpad.png
 * /usr/share/icons/hicolor/22x22/devices/input-touchpad.png
@@ -2678,23 +2678,35 @@ KDE Plasma Desktop.
 * /usr/share/locale/nb/LC_MESSAGES/kaccess.mo
 * /usr/share/locale/nb/LC_MESSAGES/kcmkclock.mo
 * /usr/share/locale/nb/LC_MESSAGES/kcmmouse.mo
+* /usr/share/locale/nb/LC_MESSAGES/kcmqtquicksettings.mo
 * /usr/share/locale/nb/LC_MESSAGES/kcm_access.mo
+* /usr/share/locale/nb/LC_MESSAGES/kcm_activities.mo
 * /usr/share/locale/nb/LC_MESSAGES/kcm_baloofile.mo
 * /usr/share/locale/nb/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/nb/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/nb/LC_MESSAGES/kcm_device_automounter.mo
+* /usr/share/locale/nb/LC_MESSAGES/kcm_gamecontroller.mo
 * /usr/share/locale/nb/LC_MESSAGES/kcm_kded.mo
 * /usr/share/locale/nb/LC_MESSAGES/kcm_keyboard.mo
+* /usr/share/locale/nb/LC_MESSAGES/kcm_keys.mo
 * /usr/share/locale/nb/LC_MESSAGES/kcm_krunnersettings.mo
+* /usr/share/locale/nb/LC_MESSAGES/kcm_landingpage.mo
 * /usr/share/locale/nb/LC_MESSAGES/kcm_plasmasearch.mo
+* /usr/share/locale/nb/LC_MESSAGES/kcm_recentFiles.mo
 * /usr/share/locale/nb/LC_MESSAGES/kcm_smserver.mo
 * /usr/share/locale/nb/LC_MESSAGES/kcm_solid_actions.mo
 * /usr/share/locale/nb/LC_MESSAGES/kcm_splashscreen.mo
+* /usr/share/locale/nb/LC_MESSAGES/kcm_tablet.mo
 * /usr/share/locale/nb/LC_MESSAGES/kcm_touchpad.mo
+* /usr/share/locale/nb/LC_MESSAGES/kcm_touchscreen.mo
 * /usr/share/locale/nb/LC_MESSAGES/kcm_workspace.mo
 * /usr/share/locale/nb/LC_MESSAGES/knetattach.mo
+* /usr/share/locale/nb/LC_MESSAGES/org.kde.plasma.emojier.mo
 * /usr/share/locale/nb/LC_MESSAGES/plasma-desktop-sddm-theme.mo
+* /usr/share/locale/nb/LC_MESSAGES/plasmaactivitymanager.mo
 * /usr/share/locale/nb/LC_MESSAGES/plasma_applet_org.kde.desktopcontainment.mo
+* /usr/share/locale/nb/LC_MESSAGES/plasma_applet_org.kde.panel.mo
+* /usr/share/locale/nb/LC_MESSAGES/plasma_applet_org.kde.plasma.keyboardlayout.mo
 * /usr/share/locale/nb/LC_MESSAGES/plasma_applet_org.kde.plasma.kicker.mo
 * /usr/share/locale/nb/LC_MESSAGES/plasma_applet_org.kde.plasma.kickoff.mo
 * /usr/share/locale/nb/LC_MESSAGES/plasma_applet_org.kde.plasma.kimpanel.mo
@@ -2704,8 +2716,10 @@ KDE Plasma Desktop.
 * /usr/share/locale/nb/LC_MESSAGES/plasma_applet_org.kde.plasma.taskmanager.mo
 * /usr/share/locale/nb/LC_MESSAGES/plasma_applet_org.kde.plasma.trash.mo
 * /usr/share/locale/nb/LC_MESSAGES/plasma_applet_org.kde.plasma.windowlist.mo
+* /usr/share/locale/nb/LC_MESSAGES/plasma_runner_kwin.mo
 * /usr/share/locale/nb/LC_MESSAGES/plasma_runner_plasma-desktop.mo
 * /usr/share/locale/nb/LC_MESSAGES/plasma_shell_org.kde.plasma.desktop.mo
+* /usr/share/locale/nb/LC_MESSAGES/plasma_toolbox_org.kde.paneltoolbox.mo
 * /usr/share/locale/nds/LC_MESSAGES/kaccess.mo
 * /usr/share/locale/nds/LC_MESSAGES/kcmkclock.mo
 * /usr/share/locale/nds/LC_MESSAGES/kcmmouse.mo
