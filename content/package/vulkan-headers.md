@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vulkan-headers 1.4.309.0-1"
-version = "1.4.309.0-1"
+title = "vulkan-headers 1.4.313.0-1"
+version = "1.4.313.0-1"
 description = "Vulkan Header files and API registry"
-date = "2025-03-15T20:18:58"
+date = "2025-05-08T20:59:16"
 aliases = "/packages/219803"
 categories = ['devel-extra']
 upstreamurl = "https://www.khronos.org/vulkan/"
 arch = "x86_64"
-size = "1549752"
-usize = "31490345"
-sha1sum = "768efbc7694a39d857c303756bf25a0a1489e952"
+size = "1585408"
+usize = "32394798"
+sha1sum = "fd7995c01fdabf0ed351fa8a1d295cdafa645e1a"
 depends = "['glibc>=2.35']"
 +++
 ### Description: 
@@ -64,7 +64,7 @@ Vulkan Header files and API registry
 * /usr/include/vulkan/vulkan_xlib_xrandr.h
 * /usr/share/cmake/VulkanHeaders/VulkanHeadersConfig.cmake
 * /usr/share/cmake/VulkanHeaders/VulkanHeadersConfigVersion.cmake
-* /usr/share/doc/vulkan-headers-1.4.309.0/README.md
+* /usr/share/doc/vulkan-headers-1.4.313.0/README.md
 * /usr/share/vulkan/registry/apiconventions.py
 * /usr/share/vulkan/registry/base_generator.py
 * /usr/share/vulkan/registry/cgenerator.py
