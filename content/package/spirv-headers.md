@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "spirv-headers 1.4.309.0-1"
-version = "1.4.309.0-1"
+title = "spirv-headers 1.4.313.0-1"
+version = "1.4.313.0-1"
 description = "SPIRV-Headers"
-date = "2025-03-15T20:45:48"
+date = "2025-05-08T21:00:58"
 aliases = "/packages/219804"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/KhronosGroup/spirv-headers"
 arch = "x86_64"
-size = "151324"
-usize = "3452643"
-sha1sum = "48d9629ccb9eadb20a69d3ed9c5af137c1e7cd39"
+size = "153156"
+usize = "3475475"
+sha1sum = "c4fddcf6a3b5e46f676f635e5aa076c92cc175e9"
 depends = "['glibc>=2.35']"
 +++
 ### Description: 
@@ -92,6 +92,6 @@ SPIRV-Headers
 * /usr/include/spirv/unified1/spv.d
 * /usr/share/cmake/SPIRV-Headers/SPIRV-HeadersConfig.cmake
 * /usr/share/cmake/SPIRV-Headers/SPIRV-HeadersConfigVersion.cmake
-* /usr/share/doc/spirv-headers-1.4.309.0/LICENSE
-* /usr/share/doc/spirv-headers-1.4.309.0/README.md
+* /usr/share/doc/spirv-headers-1.4.313.0/LICENSE
+* /usr/share/doc/spirv-headers-1.4.313.0/README.md
 * /usr/share/pkgconfig/SPIRV-Headers.pc

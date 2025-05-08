@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "spirv-tools 1.4.309.0-1"
-version = "1.4.309.0-1"
+title = "spirv-tools 1.4.313.0-1"
+version = "1.4.313.0-1"
 description = "API and commands for processing SPIR-V modules"
-date = "2025-03-15T20:56:56"
+date = "2025-05-08T21:51:55"
 aliases = "/packages/219805"
 categories = ['apps']
 upstreamurl = "https://github.com/KhronosGroup/spirv-tools"
 arch = "x86_64"
-size = "1578732"
-usize = "7116622"
-sha1sum = "b91248f76b256205731aaec4508289050d9ab824"
+size = "1600232"
+usize = "7165626"
+sha1sum = "ca6ba3638fe78cd289e17060910b592bd0a5610b"
 depends = "['python3']"
 reverse_depends = "['glslang', 'libosmesa', 'mesa-dri-drivers', 'mesa-libegl', 'mesa-libglx', 'mesa-vulkan-intel', 'shaderc', 'spirv-llvm-translator']"
 +++
@@ -62,6 +62,6 @@ API and commands for processing SPIR-V modules
 * /usr/lib/libSPIRV-Tools.so
 * /usr/lib/pkgconfig/SPIRV-Tools-shared.pc
 * /usr/lib/pkgconfig/SPIRV-Tools.pc
-* /usr/share/doc/spirv-tools-1.4.309.0/CHANGES
-* /usr/share/doc/spirv-tools-1.4.309.0/LICENSE
-* /usr/share/doc/spirv-tools-1.4.309.0/README.md
+* /usr/share/doc/spirv-tools-1.4.313.0/CHANGES
+* /usr/share/doc/spirv-tools-1.4.313.0/LICENSE
+* /usr/share/doc/spirv-tools-1.4.313.0/README.md

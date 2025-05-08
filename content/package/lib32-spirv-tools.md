@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-spirv-tools 1.4.309.0-1"
-version = "1.4.309.0-1"
+title = "lib32-spirv-tools 1.4.313.0-1"
+version = "1.4.313.0-1"
 description = "API and commands for processing SPIR-V modules ( 32bit )"
-date = "2025-03-15T20:56:56"
+date = "2025-05-08T21:51:55"
 aliases = "/packages/220847"
 categories = ['lib32-extra']
 upstreamurl = "https://github.com/KhronosGroup/spirv-tools"
 arch = "x86_64"
-size = "1439612"
-usize = "6445545"
-sha1sum = "246e57d60d008e88639e861c949c51d7ed6d0a66"
+size = "1448124"
+usize = "6464191"
+sha1sum = "a8ccf0408ea1d9cfae5154413325b8f9f05d2e38"
 depends = "['python3']"
 reverse_depends = "['lib32-libosmesa', 'lib32-mesa-dri-drivers', 'lib32-mesa-libegl', 'lib32-mesa-libglx', 'lib32-mesa-vulkan-intel', 'lib32-spirv-llvm-translator']"
 +++
