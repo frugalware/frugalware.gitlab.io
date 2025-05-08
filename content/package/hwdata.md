@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "hwdata 0.394-1"
-version = "0.394-1"
+title = "hwdata 0.395-1"
+version = "0.395-1"
 description = "Hardware identification and configuration data"
-date = "2025-04-02T11:55:15"
+date = "2025-05-08T19:24:48"
 aliases = "/packages/136189"
 categories = ['base']
 upstreamurl = "https://github.com/vcrhonek/hwdata"
 arch = "x86_64"
-size = "1646640"
-usize = "9914344"
-sha1sum = "9a9ff653bbf31f9b1784b18ca18a814d52d76a05"
+size = "1649636"
+usize = "9943412"
+sha1sum = "232d18a21b8124eed95a885fd5199a211c3f0587"
 depends = "['kmod>=25-2']"
 reverse_depends = "['lact', 'libgusb', 'pciutils', 'systemd', 'usbutils']"
 +++
@@ -19,9 +19,9 @@ Hardware identification and configuration data
 
 ### Files: 
 * /usr/lib/modprobe.d/dist-blacklist.conf
-* /usr/share/doc/hwdata-0.394/COPYING
-* /usr/share/doc/hwdata-0.394/LICENSE
-* /usr/share/doc/hwdata-0.394/README
+* /usr/share/doc/hwdata-0.395/COPYING
+* /usr/share/doc/hwdata-0.395/LICENSE
+* /usr/share/doc/hwdata-0.395/README
 * /usr/share/hwdata/iab.txt
 * /usr/share/hwdata/oui.txt
 * /usr/share/hwdata/pci.ids
