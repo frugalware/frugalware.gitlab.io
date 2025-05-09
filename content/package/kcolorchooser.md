@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kcolorchooser 25.04.0-1"
-version = "25.04.0-1"
+title = "kcolorchooser 25.04.1-1"
+version = "25.04.1-1"
 description = "KDE Color Selector."
-date = "2025-04-17T20:40:16"
+date = "2025-05-09T11:37:23"
 aliases = "/packages/88167"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "32956"
-usize = "131546"
-sha1sum = "afe3350500def05709902c0d41d4e7761f021bb0"
+size = "33088"
+usize = "132093"
+sha1sum = "b0e841912e638075f70ed78e1023f57d1a6d1a0b"
 depends = "['ki18n>=6.13.0', 'kxmlgui>=6.13.0']"
 +++
 ### Description: 
@@ -19,7 +19,7 @@ KDE Color Selector.
 ### Files: 
 * /usr/bin/kcolorchooser
 * /usr/share/applications/org.kde.kcolorchooser.desktop
-* /usr/share/doc/kcolorchooser-25.04.0/COPYING
+* /usr/share/doc/kcolorchooser-25.04.1/COPYING
 * /usr/share/icons/hicolor/16x16/apps/kcolorchooser.png
 * /usr/share/icons/hicolor/22x22/apps/kcolorchooser.png
 * /usr/share/locale/ar/LC_MESSAGES/kcolorchooser.mo

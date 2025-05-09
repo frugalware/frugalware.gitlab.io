@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ktimer 25.04.0-1"
-version = "25.04.0-1"
+title = "ktimer 25.04.1-1"
+version = "25.04.1-1"
 description = "Countdown timer."
-date = "2025-04-17T21:22:05"
+date = "2025-05-09T12:10:54"
 aliases = "/packages/153208"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "506112"
-usize = "948360"
-sha1sum = "7e9b69ee4c918b4ae103658ee0197e6dbc4fc88d"
+size = "506948"
+usize = "950643"
+sha1sum = "02fa7e8287757236a428b7ea8379874f8f33aa88"
 depends = "['kio>=6.13.0', 'kstatusnotifieritem>=6.13.0']"
 +++
 ### Description: 

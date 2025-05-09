@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kdialog 25.04.0-1"
-version = "25.04.0-1"
+title = "kdialog 25.04.1-1"
+version = "25.04.1-1"
 description = "Can be used to show nice dialog boxes from shell scripts."
-date = "2025-04-17T21:04:50"
+date = "2025-05-09T11:57:57"
 aliases = "/packages/88145"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "147208"
-usize = "781033"
-sha1sum = "73fcc8bd4971699682c069243d4da69e38ff07df"
+size = "147460"
+usize = "781380"
+sha1sum = "3d6aa6c3db456825d9e5bed8e6da7441882d94c6"
 depends = "['kio>=']"
 +++
 ### Description: 
@@ -21,8 +21,8 @@ Can be used to show nice dialog boxes from shell scripts.
 * /usr/bin/kdialog_progress_helper
 * /usr/share/applications/org.kde.kdialog.desktop
 * /usr/share/dbus-1/interfaces/org.kde.kdialog.ProgressDialog.xml
-* /usr/share/doc/kdialog-25.04.0/COPYING.DOC
-* /usr/share/doc/kdialog-25.04.0/README.md
+* /usr/share/doc/kdialog-25.04.1/COPYING.DOC
+* /usr/share/doc/kdialog-25.04.1/README.md
 * /usr/share/locale/af/LC_MESSAGES/kdialog.mo
 * /usr/share/locale/ar/LC_MESSAGES/kdialog.mo
 * /usr/share/locale/ast/LC_MESSAGES/kdialog.mo
