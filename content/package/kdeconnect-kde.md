@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kdeconnect-kde 25.04.0-1"
-version = "25.04.0-1"
+title = "kdeconnect-kde 25.04.1-1"
+version = "25.04.1-1"
 description = "Adds communication between KDE and your smartphone"
-date = "2025-04-18T15:13:26"
+date = "2025-05-09T17:27:56"
 aliases = "/packages/220147"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "5726712"
-usize = "14894999"
-sha1sum = "c3d0fa148b056443c2c729dd4e4459acf9d39c7b"
+size = "5647864"
+usize = "14839082"
+sha1sum = "bebe1725d15cc5e15eb30edb59c4860373f78d17"
 depends = "['kcmutils', 'kirigami-addons', 'kpeople', 'kstatusnotifieritem', 'libfakekey', 'modemmanager-qt', 'pulseaudio-qt', 'qqc2-desktop-style>=6.13.0', 'qt6-connectivity']"
 +++
 ### Description: 
@@ -26,10 +26,10 @@ Adds communication between KDE and your smartphone
 * /usr/bin/kdeconnect-sms
 * /usr/bin/kdeconnectd
 * /usr/lib/libkdeconnectcore.so.25
-* /usr/lib/libkdeconnectcore.so.25.04.0
+* /usr/lib/libkdeconnectcore.so.25.04.1
 * /usr/lib/libkdeconnectinterfaces.a
 * /usr/lib/libkdeconnectpluginkcm.so.25
-* /usr/lib/libkdeconnectpluginkcm.so.25.04.0
+* /usr/lib/libkdeconnectpluginkcm.so.25.04.1
 * /usr/lib/qt6/plugins/kdeconnect/kcms/kdeconnect_clipboard_config.so
 * /usr/lib/qt6/plugins/kdeconnect/kcms/kdeconnect_findthisdevice_config.so
 * /usr/lib/qt6/plugins/kdeconnect/kcms/kdeconnect_pausemusic_config.so
@@ -119,7 +119,7 @@ Adds communication between KDE and your smartphone
 * /usr/share/doc/HTML/uk/kdeconnect-kde/index.docbook
 * /usr/share/doc/HTML/zh_CN/kdeconnect-kde/index.cache.bz2
 * /usr/share/doc/HTML/zh_CN/kdeconnect-kde/index.docbook
-* /usr/share/doc/kdeconnect-kde-25.04.0/README.md
+* /usr/share/doc/kdeconnect-kde-25.04.1/README.md
 * /usr/share/icons/hicolor/16x16/status/laptopconnected.svg
 * /usr/share/icons/hicolor/16x16/status/laptopdisconnected.svg
 * /usr/share/icons/hicolor/16x16/status/laptoptrusted.svg

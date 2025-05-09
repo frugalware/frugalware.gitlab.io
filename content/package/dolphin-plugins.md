@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "dolphin-plugins 25.04.0-1"
-version = "25.04.0-1"
+title = "dolphin-plugins 25.04.1-1"
+version = "25.04.1-1"
 description = "Extra Dolphin plugins."
-date = "2025-04-18T15:16:35"
+date = "2025-05-09T17:30:13"
 aliases = "/packages/218508"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "457756"
-usize = "2953735"
-sha1sum = "f583f2df2af67e0dda9e525d4bfb88e25e91b24a"
-depends = "['dolphin>=25.04.0', 'ktexteditor>=6.13.0']"
+size = "465112"
+usize = "2977421"
+sha1sum = "64ad6bcc72d243af3fea33c48fdc91697364daa4"
+depends = "['dolphin>=25.04.1', 'ktexteditor>=6.13.0']"
 +++
 ### Description: 
 Extra Dolphin plugins.
@@ -43,6 +43,7 @@ Extra Dolphin plugins.
 * /usr/share/locale/bg/LC_MESSAGES/fileviewgitplugin.mo
 * /usr/share/locale/bg/LC_MESSAGES/fileviewhgplugin.mo
 * /usr/share/locale/bg/LC_MESSAGES/fileviewsvnplugin.mo
+* /usr/share/locale/bg/LC_MESSAGES/makefileactions.mo
 * /usr/share/locale/bg/LC_MESSAGES/mountisoaction.mo
 * /usr/share/locale/bs/LC_MESSAGES/fileviewbazaarplugin.mo
 * /usr/share/locale/bs/LC_MESSAGES/fileviewgitplugin.mo

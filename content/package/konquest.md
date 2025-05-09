@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "konquest 25.04.0-1"
-version = "25.04.0-1"
+title = "konquest 25.04.1-1"
+version = "25.04.1-1"
 description = "Konquest is the KDE version of Gnu-Lactic"
-date = "2025-04-18T16:38:53"
+date = "2025-05-09T17:47:36"
 aliases = "/packages/219337"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "968452"
-usize = "1697850"
-sha1sum = "86ccee234d8b1e391f29efbc8589c72e1543d50f"
-depends = "['libkdegames>=25.04.0', 'qt6-scxml>=6.9.0']"
+size = "969872"
+usize = "1700991"
+sha1sum = "7aca872621de24ec3399864f67d0c42840256d87"
+depends = "['libkdegames>=25.04.1', 'qt6-scxml>=6.9.0']"
 +++
 ### Description: 
 Konquest is the KDE version of Gnu-Lactic
@@ -60,10 +60,10 @@ Konquest is the KDE version of Gnu-Lactic
 * /usr/share/doc/HTML/uk/konquest/ingame_window.png
 * /usr/share/doc/HTML/uk/konquest/main_game_window.png
 * /usr/share/doc/HTML/uk/konquest/new_game_settings.png
-* /usr/share/doc/konquest-25.04.0/AUTHORS
-* /usr/share/doc/konquest-25.04.0/README
-* /usr/share/doc/konquest-25.04.0/README.PACKAGERS
-* /usr/share/doc/konquest-25.04.0/TODO
+* /usr/share/doc/konquest-25.04.1/AUTHORS
+* /usr/share/doc/konquest-25.04.1/README
+* /usr/share/doc/konquest-25.04.1/README.PACKAGERS
+* /usr/share/doc/konquest-25.04.1/TODO
 * /usr/share/icons/hicolor/128x128/apps/konquest.png
 * /usr/share/icons/hicolor/16x16/apps/konquest.png
 * /usr/share/icons/hicolor/22x22/apps/konquest.png

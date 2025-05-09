@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "juk 25.04.0-1"
-version = "25.04.0-1"
+title = "juk 25.04.1-1"
+version = "25.04.1-1"
 description = "JuK is an audio jukebox application."
-date = "2025-04-18T15:19:07"
+date = "2025-05-09T17:32:32"
 aliases = "/packages/219523"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1847412"
-usize = "5217017"
-sha1sum = "c2b318d0788864f662464796bdbb5ab36fc4c479"
+size = "1854244"
+usize = "5233739"
+sha1sum = "1cc2b7bc3051a94b1c5ff75cba3e2512da220b61"
 depends = "['kio>=6.13.0', 'kstatusnotifieritem>=6.13.0', 'pcre2', 'taglib>=2.0']"
 +++
 ### Description: 
@@ -84,10 +84,10 @@ JuK is an audio jukebox application.
 * /usr/share/doc/HTML/uk/juk/juk-main.png
 * /usr/share/doc/HTML/uk/juk/juk-manage-folders.png
 * /usr/share/doc/HTML/uk/juk/juk-tag-guesser.png
-* /usr/share/doc/juk-25.04.0/COPYING
-* /usr/share/doc/juk-25.04.0/HACKING
-* /usr/share/doc/juk-25.04.0/README.md
-* /usr/share/doc/juk-25.04.0/TODO
+* /usr/share/doc/juk-25.04.1/COPYING
+* /usr/share/doc/juk-25.04.1/HACKING
+* /usr/share/doc/juk-25.04.1/README.md
+* /usr/share/doc/juk-25.04.1/TODO
 * /usr/share/icons/hicolor/128x128/apps/juk.png
 * /usr/share/icons/hicolor/16x16/apps/juk.png
 * /usr/share/icons/hicolor/32x32/apps/juk.png

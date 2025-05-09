@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "palapeli 25.04.0-1"
-version = "25.04.0-1"
+title = "palapeli 25.04.1-1"
+version = "25.04.1-1"
 description = "Palapeli is a single-player jigsaw puzzle game."
-date = "2025-04-18T16:48:04"
+date = "2025-05-09T17:57:03"
 aliases = "/packages/219532"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2407108"
-usize = "4757270"
-sha1sum = "74e8a3f4c9994a482df357111aa068968241083d"
-depends = "['libkdegames>=25.04.0']"
+size = "2411624"
+usize = "4764355"
+sha1sum = "a0aea15e61c3381f95a1e185446e0fedfc5f0fea"
+depends = "['libkdegames>=25.04.1']"
 +++
 ### Description: 
 Palapeli is a single-player jigsaw puzzle game.
@@ -76,8 +76,8 @@ Palapeli is a single-player jigsaw puzzle game.
 * /usr/share/doc/HTML/sv/palapeli/index.docbook
 * /usr/share/doc/HTML/uk/palapeli/index.cache.bz2
 * /usr/share/doc/HTML/uk/palapeli/index.docbook
-* /usr/share/doc/palapeli-25.04.0/README.ARTISTS
-* /usr/share/doc/palapeli-25.04.0/README.PACKAGERS
+* /usr/share/doc/palapeli-25.04.1/README.ARTISTS
+* /usr/share/doc/palapeli-25.04.1/README.PACKAGERS
 * /usr/share/icons/hicolor/128x128/apps/palapeli.png
 * /usr/share/icons/hicolor/128x128/mimetypes/application-x-palapeli.png
 * /usr/share/icons/hicolor/16x16/apps/palapeli.png

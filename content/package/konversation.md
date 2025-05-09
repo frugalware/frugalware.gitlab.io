@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "konversation 25.04.0-1"
-version = "25.04.0-1"
+title = "konversation 25.04.1-1"
+version = "25.04.1-1"
 description = "IRC clinet for KDE5"
-date = "2025-04-18T16:59:36"
+date = "2025-05-09T18:09:06"
 aliases = "/packages/218844"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "4918964"
-usize = "17086163"
-sha1sum = "af4689f3037040a257ac8f80eee86d42fa1ce3f9"
+size = "4943212"
+usize = "17150012"
+sha1sum = "bba7d9d28038c775582d8137b24c03f3c586091f"
 depends = "['kidletime>=6.13.0', 'knewstuff>=6.13.0', 'knotifyconfig>=6.13.0', 'kparts>=6.13.0', 'kstatusnotifieritem>=6.13.0', 'phonon-qt6', 'qca', 'qt6-multimedia>=6.9.0']"
 +++
 ### Description: 
@@ -135,11 +135,11 @@ IRC clinet for KDE5
 * /usr/share/doc/HTML/sv/konversation/webbrowser_screen_co.png
 * /usr/share/doc/HTML/uk/konversation/index.cache.bz2
 * /usr/share/doc/HTML/uk/konversation/index.docbook
-* /usr/share/doc/konversation-25.04.0/AUTHORS
-* /usr/share/doc/konversation-25.04.0/ChangeLog
-* /usr/share/doc/konversation-25.04.0/INSTALL
-* /usr/share/doc/konversation-25.04.0/NEWS
-* /usr/share/doc/konversation-25.04.0/README
+* /usr/share/doc/konversation-25.04.1/AUTHORS
+* /usr/share/doc/konversation-25.04.1/ChangeLog
+* /usr/share/doc/konversation-25.04.1/INSTALL
+* /usr/share/doc/konversation-25.04.1/NEWS
+* /usr/share/doc/konversation-25.04.1/README
 * /usr/share/icons/hicolor/128x128/actions/konv_message.png
 * /usr/share/icons/hicolor/128x128/apps/konversation.png
 * /usr/share/icons/hicolor/16x16/actions/konv_message.png

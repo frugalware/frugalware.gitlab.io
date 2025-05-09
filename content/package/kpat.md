@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kpat 25.04.0-1"
-version = "25.04.0-1"
+title = "kpat 25.04.1-1"
+version = "25.04.1-1"
 description = "Offers a selection of solitaire card games."
-date = "2025-04-18T16:49:25"
+date = "2025-05-09T17:58:23"
 aliases = "/packages/184195"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3927856"
-usize = "5840291"
-sha1sum = "7dcdf93a142ab3be63f363e7d8eb23f78c4731fe"
-depends = "['black-hole-solver', 'freecell-solver', 'knotifyconfig>=6.13.0', 'libkdegames>=25.04.0']"
+size = "3933560"
+usize = "5855361"
+sha1sum = "1af729b39f7e5f2153f558fcf6b011f5efc61d20"
+depends = "['black-hole-solver', 'freecell-solver', 'knotifyconfig>=6.13.0', 'libkdegames>=25.04.1']"
 +++
 ### Description: 
 Offers a selection of solitaire card games.
@@ -63,8 +63,8 @@ Offers a selection of solitaire card games.
 * /usr/share/doc/HTML/sv/kpat/index.docbook
 * /usr/share/doc/HTML/uk/kpat/index.cache.bz2
 * /usr/share/doc/HTML/uk/kpat/index.docbook
-* /usr/share/doc/kpat-25.04.0/COPYING
-* /usr/share/doc/kpat-25.04.0/COPYING.DOC
+* /usr/share/doc/kpat-25.04.1/COPYING
+* /usr/share/doc/kpat-25.04.1/COPYING.DOC
 * /usr/share/icons/hicolor/128x128/apps/kpat.png
 * /usr/share/icons/hicolor/16x16/apps/kpat.png
 * /usr/share/icons/hicolor/22x22/apps/kpat.png

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kmouth 25.04.0-1"
-version = "25.04.0-1"
+title = "kmouth 25.04.1-1"
+version = "25.04.1-1"
 description = "Speech Synthesizer Frontend"
-date = "2025-04-18T16:32:17"
+date = "2025-05-09T17:41:34"
 aliases = "/packages/219526"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1812300"
-usize = "4099596"
-sha1sum = "abf7c2c399b0341d4ed422c8578ccad91428fb54"
+size = "1814072"
+usize = "4103391"
+sha1sum = "b5501a95b61b2f8be4ff6bc2d155f13e8a87e0ca"
 depends = "['kio>=6.13.0', 'pcre2', 'qt6-speech>=6.9.0']"
 +++
 ### Description: 
@@ -101,9 +101,9 @@ Speech Synthesizer Frontend
 * /usr/share/doc/HTML/sv/kmouth/kmouthwizard.png
 * /usr/share/doc/HTML/uk/kmouth/index.cache.bz2
 * /usr/share/doc/HTML/uk/kmouth/index.docbook
-* /usr/share/doc/kmouth-25.04.0/AUTHORS
-* /usr/share/doc/kmouth-25.04.0/COPYING
-* /usr/share/doc/kmouth-25.04.0/COPYING.DOC
+* /usr/share/doc/kmouth-25.04.1/AUTHORS
+* /usr/share/doc/kmouth-25.04.1/COPYING
+* /usr/share/doc/kmouth-25.04.1/COPYING.DOC
 * /usr/share/icons/hicolor/128x128/apps/kmouth.png
 * /usr/share/icons/hicolor/16x16/actions/phrase.png
 * /usr/share/icons/hicolor/16x16/actions/phrasebook.png
