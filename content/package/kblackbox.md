@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kblackbox 25.04.0-1"
-version = "25.04.0-1"
+title = "kblackbox 25.04.1-1"
+version = "25.04.1-1"
 description = "A game of hide and seek played on a grid of boxes."
-date = "2025-04-18T08:17:07"
+date = "2025-05-09T12:38:07"
 aliases = "/packages/184175"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "629652"
-usize = "1970981"
-sha1sum = "610a9d0eca3943c235e7e64463efa19bf22aa131"
-depends = "['libkdegames>=25.04.0', 'qt6-svg>=6.9.0']"
+size = "631292"
+usize = "1974136"
+sha1sum = "064a7d65b824b8ba7fea67496d35a968719c8e57"
+depends = "['libkdegames>=25.04.1', 'qt6-svg>=6.9.0']"
 +++
 ### Description: 
 A game of hide and seek played on a grid of boxes.
@@ -48,8 +48,8 @@ A game of hide and seek played on a grid of boxes.
 * /usr/share/doc/HTML/uk/kblackbox/gameboard.png
 * /usr/share/doc/HTML/uk/kblackbox/index.cache.bz2
 * /usr/share/doc/HTML/uk/kblackbox/index.docbook
-* /usr/share/doc/kblackbox-25.04.0/CHANGES
-* /usr/share/doc/kblackbox-25.04.0/README
+* /usr/share/doc/kblackbox-25.04.1/CHANGES
+* /usr/share/doc/kblackbox-25.04.1/README
 * /usr/share/icons/hicolor/128x128/apps/kblackbox.png
 * /usr/share/icons/hicolor/16x16/apps/kblackbox.png
 * /usr/share/icons/hicolor/22x22/apps/kblackbox.png

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libkdegames 25.04.0-1"
-version = "25.04.0-1"
+title = "libkdegames 25.04.1-1"
+version = "25.04.1-1"
 description = "Library for KDE games."
-date = "2025-04-18T08:10:10"
+date = "2025-05-09T12:31:54"
 aliases = "/packages/184209"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "9178644"
-usize = "10691252"
-sha1sum = "68b90efaf8dc19838738eb7dd2cc750d9f2cf1e7"
+size = "9183208"
+usize = "10697501"
+sha1sum = "67221720726e46b59130b45ed0ecb0c6cac6a689"
 depends = "['kdeclarative>=6.13.0', 'kdnssd>=6.13.0', 'knewstuff>=6.13.0', 'openal>=1.17.2-2', 'qt6-declarative>=6.9.0']"
 reverse_depends = "['bomber', 'bovo', 'granatier', 'kapman', 'katomic', 'kblackbox', 'kblocks', 'kbounce', 'kbreakout', 'kdiamond', 'kfourinline', 'kgoldrunner', 'kigo', 'killbots', 'kiriki', 'kjumpingcube', 'klettres', 'klickety', 'klines', 'kmahjongg', 'kmines', 'knavalbattle', 'knetwalk', 'knights', 'kolf', 'kollision', 'konquest', 'kpat', 'kreversi', 'kshisen', 'ksirk', 'ksnakeduel', 'kspaceduel', 'ksquares', 'ksudoku', 'kteatime', 'ktuberling', 'kubrick', 'kwordquiz', 'lskat', 'minuet', 'palapeli', 'picmi', 'skladnik']"
 +++
@@ -79,10 +79,10 @@ Library for KDE games.
 * /usr/lib/cmake/KDEGames6/KDEGames6Targets.cmake
 * /usr/lib/libKDEGames6.so
 * /usr/lib/libKDEGames6.so.6
-* /usr/lib/libKDEGames6.so.6.0.250400
+* /usr/lib/libKDEGames6.so.6.0.250401
 * /usr/lib/libKDEGames6Private.so
 * /usr/lib/libKDEGames6Private.so.6
-* /usr/lib/libKDEGames6Private.so.6.0.250400
+* /usr/lib/libKDEGames6Private.so.6.0.250401
 * /usr/lib/qt6/qml/org/kde/games/core/corebindingsplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/games/core/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/games/core/KGameItem.qml
@@ -143,8 +143,8 @@ Library for KDE games.
 * /usr/share/carddecks/svg-xskat-german/COPYRIGHT
 * /usr/share/carddecks/svg-xskat-german/german.svgz
 * /usr/share/carddecks/svg-xskat-german/index.desktop
-* /usr/share/doc/libkdegames-25.04.0/README
-* /usr/share/doc/libkdegames-25.04.0/TODO
+* /usr/share/doc/libkdegames-25.04.1/README
+* /usr/share/doc/libkdegames-25.04.1/TODO
 * /usr/share/locale/af/LC_MESSAGES/libkdegames6.mo
 * /usr/share/locale/ar/LC_MESSAGES/libkdegames6.mo
 * /usr/share/locale/ast/LC_MESSAGES/libkdegames6.mo

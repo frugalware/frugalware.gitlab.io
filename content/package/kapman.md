@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kapman 25.04.0-1"
-version = "25.04.0-1"
+title = "kapman 25.04.1-1"
+version = "25.04.1-1"
 description = "A clone of the well known game Pac-Man."
-date = "2025-04-18T08:14:48"
+date = "2025-05-09T12:36:09"
 aliases = "/packages/184173"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2494560"
-usize = "3069942"
-sha1sum = "9f2f78c0a53832cadced7c162708dfa4f7c987c7"
-depends = "['libkdegames>=25.04.0', 'qt6-svg>=6.9.0']"
+size = "2496312"
+usize = "3072073"
+sha1sum = "fa7e46844bd94dbe5ccd98e790e9b0241c450d03"
+depends = "['libkdegames>=25.04.1', 'qt6-svg>=6.9.0']"
 +++
 ### Description: 
 A clone of the well known game Pac-Man.
