@@ -12,7 +12,7 @@ size = "24876"
 usize = "56599"
 sha1sum = "86c6619a9a1dacca9e35c39e7be50c096c8900d1"
 depends = "['lib32-libx11>=1.6.5-2', 'lib32-libxfixes>=5.0.1-3', 'lib32-libxrender>=0.9.9-5']"
-reverse_depends = "['lib32-gtk+2-libs', 'wine', 'wine-devel']"
+reverse_depends = "['lib32-gtk+2-libs', 'lib32-gtk+3', 'wine', 'wine-devel']"
 +++
 ### Description: 
 X Cursor Library ( 32bit )

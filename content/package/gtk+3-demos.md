@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gtk+3-demos 3.24.49-1"
-version = "3.24.49-1"
+title = "gtk+3-demos 3.24.49-2"
+version = "3.24.49-2"
 description = "GTK+3 Demos."
-date = "2025-03-09T21:16:16"
+date = "2025-05-09T13:53:11"
 aliases = "/packages/103193"
 categories = ['xapps-extra']
 upstreamurl = "http://www.gtk.org/"
 arch = "x86_64"
-size = "703056"
-usize = "3407000"
-sha1sum = "9ab5289236d71c818a486c2be550dd386a0f6132"
+size = "702796"
+usize = "3407672"
+sha1sum = "56924c61e1a650128df87557d504e6389f84acce"
 depends = "['gdk-pixbuf2>=2.38.1-2', 'gtk+3>=3.24.49', 'libepoxy>=1.3.1-3', 'libffi>=3.2.1-2', 'pango>=1.42.0']"
 +++
 ### Description: 

@@ -12,7 +12,7 @@ size = "300480"
 usize = "2778260"
 sha1sum = "31d759da47dd187c9a7cebb3e47a732f18c9399f"
 depends = "['lib32-libglvnd', 'lib32-libx11>=1.6.5-2', 'lib32-libxdamage>=1.1.4-3', 'lib32-libxext>=1.3.3-3', 'lib32-libxshmfence>=1.2-3', 'lib32-libxxf86vm>=1.1.4-3', 'lib32-mesa-libegl']"
-reverse_depends = "['lib32-xorg-server', 'lib32-xorg-server-xephyr']"
+reverse_depends = "['lib32-gtk+3', 'lib32-xorg-server', 'lib32-xorg-server-xephyr']"
 +++
 ### Description: 
 Epoxy is a library for handling OpenGL function pointer management for you ( 32bit )

@@ -12,7 +12,7 @@ size = "240376"
 usize = "677366"
 sha1sum = "c5a729026203650f6e44115160284c639dea1aa6"
 depends = "['lib32-gnutls', 'lib32-libsystemd', 'lib32-openssl', 'lib32-pam']"
-reverse_depends = "['lib32-gtk+2-libs', 'steam-native']"
+reverse_depends = "['lib32-gtk+2-libs', 'lib32-gtk+3', 'steam-native']"
 +++
 ### Description: 
 Main library of the CUPS printing system. ( 32bit )

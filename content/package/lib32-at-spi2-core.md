@@ -12,7 +12,7 @@ size = "243168"
 usize = "1138567"
 sha1sum = "1b14b69c1ac8dc60f3934f0ebb6183db462ad409"
 depends = "['lib32-glib2', 'lib32-libxml2', 'lib32-libxtst']"
-reverse_depends = "['lib32-gtk+2-libs']"
+reverse_depends = "['lib32-gtk+2-libs', 'lib32-gtk+3']"
 +++
 ### Description: 
 Gnome Accessibility Toolkit ( 32bit )

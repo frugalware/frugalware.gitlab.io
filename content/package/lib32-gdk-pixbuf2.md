@@ -12,7 +12,7 @@ size = "110604"
 usize = "375942"
 sha1sum = "f06791447589926fc5914ba9582009780ecebefc"
 depends = "['lib32-glib2', 'lib32-libjpeg-turbo', 'lib32-libpng', 'lib32-libtiff', 'lib32-libx11', 'lib32-shared-mime-info']"
-reverse_depends = "['lib32-gtk+2-libs']"
+reverse_depends = "['lib32-gtk+2-libs', 'lib32-gtk+3']"
 +++
 ### Description: 
 An image loading library ( 32bit )

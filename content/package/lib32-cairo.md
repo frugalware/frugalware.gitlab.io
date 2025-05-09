@@ -12,7 +12,7 @@ size = "589620"
 usize = "1674738"
 sha1sum = "fbeab9fb50ca258a24e3576f9f8c1c49ce28dad3"
 depends = "['lib32-binutils>=2.44', 'lib32-fontconfig>=2.12.1-2', 'lib32-freetype2', 'lib32-glib2>=2.60.0', 'lib32-libffi>=3.2.1-2', 'lib32-libpng>=1.6.24', 'lib32-libx11', 'lib32-libxcb', 'lib32-libxext', 'lib32-libxrender>=0.9.9-5', 'lib32-lzo', 'lib32-pixman>=0.32.8-3']"
-reverse_depends = "['lib32-harfbuzz', 'lib32-pango', 'steam-native']"
+reverse_depends = "['lib32-gtk+3', 'lib32-harfbuzz', 'lib32-pango', 'steam-native']"
 +++
 ### Description: 
 A vector graphics library with cross-device output support ( 32bit )
