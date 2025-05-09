@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-mesa-libegl 25.0.5-1"
-version = "25.0.5-1"
+title = "lib32-mesa-libegl 25.1.0-1"
+version = "25.1.0-1"
 description = "Mesa OpenEGL library. (32-bit)"
-date = "2025-05-05T11:30:22"
+date = "2025-05-09T11:02:44"
 aliases = "/packages/219521"
 categories = ['lib32-extra']
 upstreamurl = "https://www.mesa3d.org"
 arch = "x86_64"
-size = "245912"
-usize = "1078667"
-sha1sum = "56a6e8ae187336b7a4e0d2e0de30031727b46a13"
+size = "246100"
+usize = "1082771"
+sha1sum = "504f143a3571b8de005cb073ed48d52cc2b12596"
 depends = "['lib32-libdrm>=2.4.70-2', 'lib32-libgbm', 'lib32-libx11>=1.6.4', 'lib32-libxshmfence>=1.2-3', 'lib32-spirv-tools', 'lib32-wayland>=1.11.0-3']"
 reverse_depends = "['lib32-libepoxy', 'lib32-libwayland-egl', 'lib32-xorg-server']"
 +++
