@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kunifiedpush 25.04.0-1"
-version = "25.04.0-1"
+title = "kunifiedpush 25.04.1-1"
+version = "25.04.1-1"
 description = "UnifiedPush client components"
-date = "2025-04-18T18:39:41"
+date = "2025-05-09T19:35:17"
 aliases = "/packages/222601"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "115488"
-usize = "444887"
-sha1sum = "530388b06e65f45ad2f1c811a187f7df342aea1c"
+size = "117388"
+usize = "448918"
+sha1sum = "b1eb7cb7c265b30a01d361ac1b52051323dc9ab6"
 depends = "['kcmutils>=6.13.0', 'qt6-websockets>=6.9.0']"
 reverse_depends = "['neochat', 'tokodon']"
 +++
@@ -31,13 +31,14 @@ UnifiedPush client components
 * /usr/lib/cmake/KUnifiedPush/KUnifiedPushTargets.cmake
 * /usr/lib/libKUnifiedPush.so
 * /usr/lib/libKUnifiedPush.so.1
-* /usr/lib/libKUnifiedPush.so.25.04.0
+* /usr/lib/libKUnifiedPush.so.25.04.1
 * /usr/lib/qt6/plugins/plasma/kcms/systemsettings/kcm_push_notifications.so
 * /usr/share/applications/kcm_push_notifications.desktop
-* /usr/share/doc/kunifiedpush-25.04.0/README.md
-* /usr/share/doc/kunifiedpush-25.04.0/README.md.license
+* /usr/share/doc/kunifiedpush-25.04.1/README.md
+* /usr/share/doc/kunifiedpush-25.04.1/README.md.license
 * /usr/share/locale/ar/LC_MESSAGES/kcm_push_notifications.mo
 * /usr/share/locale/ast/LC_MESSAGES/kcm_push_notifications.mo
+* /usr/share/locale/bg/LC_MESSAGES/kcm_push_notifications.mo
 * /usr/share/locale/ca/LC_MESSAGES/kcm_push_notifications.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/kcm_push_notifications.mo
 * /usr/share/locale/cs/LC_MESSAGES/kcm_push_notifications.mo

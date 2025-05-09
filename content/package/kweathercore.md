@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kweathercore 25.04.0-1"
-version = "25.04.0-1"
+title = "kweathercore 25.04.1-1"
+version = "25.04.1-1"
 description = "Audio recorder for Plasma Mobile and other platforms"
-date = "2025-04-18T18:21:10"
+date = "2025-05-09T19:19:31"
 aliases = "/packages/220987"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "105128"
-usize = "515250"
-sha1sum = "5aa19476e65e9e99c6ba8b7d6838b204c2a1dab4"
+size = "106864"
+usize = "519762"
+sha1sum = "ade691b427038a20cc94893b80e27081345c2260"
 depends = "['kholidays', 'ki18n', 'qt6-location']"
 reverse_depends = "['kweather']"
 +++
@@ -57,14 +57,14 @@ Audio recorder for Plasma Mobile and other platforms
 * /usr/lib/cmake/KWeatherCore/KWeatherCoreTargets-release.cmake
 * /usr/lib/cmake/KWeatherCore/KWeatherCoreTargets.cmake
 * /usr/lib/libKWeatherCore.so
-* /usr/lib/libKWeatherCore.so.25.04.0
+* /usr/lib/libKWeatherCore.so.25.04.1
 * /usr/lib/libKWeatherCore.so.6
 * /usr/lib/qt6/mkspecs/modules/qt_KWeatherCore.pri
 * /usr/lib/qt6/qml/org/kde/weathercore/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/weathercore/kweathercoreqmlplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/weathercore/libkweathercoreqmlplugin.so
 * /usr/lib/qt6/qml/org/kde/weathercore/qmldir
-* /usr/share/doc/kweathercore-25.04.0/README.md
+* /usr/share/doc/kweathercore-25.04.1/README.md
 * /usr/share/locale/ar/LC_MESSAGES/kweathercore6.mo
 * /usr/share/locale/ast/LC_MESSAGES/kweathercore6.mo
 * /usr/share/locale/az/LC_MESSAGES/kweathercore6.mo

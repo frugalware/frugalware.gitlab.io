@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libmarble 25.04.0-1"
-version = "25.04.0-1"
+title = "libmarble 25.04.1-1"
+version = "25.04.1-1"
 description = "Marble libs"
-date = "2025-04-18T18:36:32"
+date = "2025-05-09T19:33:39"
 aliases = "/packages/220195"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3081372"
-usize = "12033426"
-sha1sum = "405088b945dcd5ba8b6d7665e8d60f39bf1ef726"
+size = "3130084"
+usize = "12147186"
+sha1sum = "ba97d08cee435fef1d6c0b41d1a41889c8486806"
 depends = "['gpsd>=3.25', 'knewstuff', 'kparts', 'krunner', 'protobuf>=30.2', 'qt6-serialport', 'qt6-webengine']"
 reverse_depends = "['marble']"
 +++
@@ -20,9 +20,9 @@ Marble libs
 ### Files: 
 * /usr/lib/libastro.so
 * /usr/lib/libastro.so.1
-* /usr/lib/libastro.so.25.04.0
+* /usr/lib/libastro.so.25.04.1
 * /usr/lib/libmarblewidget-qt6.so
-* /usr/lib/libmarblewidget-qt6.so.25.04.0
+* /usr/lib/libmarblewidget-qt6.so.25.04.1
 * /usr/lib/libmarblewidget-qt6.so.28
 * /usr/lib/marble/plugins/AnnotatePlugin.so
 * /usr/lib/marble/plugins/AprsPlugin.so

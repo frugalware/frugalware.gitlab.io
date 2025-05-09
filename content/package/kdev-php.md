@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kdev-php 25.04.0-1"
-version = "25.04.0-1"
+title = "kdev-php 25.04.1-1"
+version = "25.04.1-1"
 description = "PHP Language Plugin for KDevelop"
-date = "2025-04-18T20:00:05"
+date = "2025-05-09T19:56:13"
 aliases = "/packages/220975"
 categories = ['devel-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1310604"
-usize = "8272358"
-sha1sum = "80d0d9991c358b9aaa091915dfe136ec6d2ea661"
+size = "1317344"
+usize = "8281901"
+sha1sum = "5e6717dc6c4d921d565838ddc9ae6428dc2a927d"
 depends = "['kdevelop', 'php']"
 +++
 ### Description: 
@@ -40,9 +40,9 @@ PHP Language Plugin for KDevelop
 * /usr/lib/qt6/plugins/kdevplatform/62/kdevphpdocs.so
 * /usr/lib/qt6/plugins/kdevplatform/62/kdevphplanguagesupport.so
 * /usr/lib/qt6/plugins/kdevplatform/62/kdevphpunitprovider.so
-* /usr/share/doc/kdev-php-25.04.0/AUTHORS
-* /usr/share/doc/kdev-php-25.04.0/HACKING
-* /usr/share/doc/kdev-php-25.04.0/TODO
+* /usr/share/doc/kdev-php-25.04.1/AUTHORS
+* /usr/share/doc/kdev-php-25.04.1/HACKING
+* /usr/share/doc/kdev-php-25.04.1/TODO
 * /usr/share/kdevappwizard/templates/simple_phpapp.tar.bz2
 * /usr/share/kdevphpsupport/phpfunctions.php
 * /usr/share/kdevphpsupport/phpunitdeclarations.php

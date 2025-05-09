@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "rocs 25.04.0-1"
-version = "25.04.0-1"
+title = "rocs 25.04.1-1"
+version = "25.04.1-1"
 description = "Graph Theory IDE."
-date = "2025-04-19T11:53:07"
+date = "2025-05-09T19:58:45"
 aliases = "/packages/152840"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1550372"
-usize = "3949662"
-sha1sum = "13901ddc2619f0518044c4806a42eecf578010c5"
+size = "1551632"
+usize = "3959753"
+sha1sum = "788b24269f157ef0b6bb3fe131ad667e139df49c"
 depends = "['grantlee>=5.1.0-2', 'kdeclarative5>=5.116.0', 'ktexteditor5>=5.116.0', 'libboost>=1.61.0', 'qt5-xmlpatterns>=5.15.16']"
 +++
 ### Description: 
@@ -94,12 +94,12 @@ Graph Theory IDE.
 * /usr/share/doc/HTML/uk/rocs/index.docbook
 * /usr/share/doc/HTML/uk/rocs/rocs-interfaces.png
 * /usr/share/doc/HTML/uk/rocs/rocs-screenshot.png
-* /usr/share/doc/rocs-25.04.0/AUTHORS
-* /usr/share/doc/rocs-25.04.0/ChangeLog
-* /usr/share/doc/rocs-25.04.0/INSTALL.md
-* /usr/share/doc/rocs-25.04.0/README.developer.md
-* /usr/share/doc/rocs-25.04.0/README.md
-* /usr/share/doc/rocs-25.04.0/README.packager.md
+* /usr/share/doc/rocs-25.04.1/AUTHORS
+* /usr/share/doc/rocs-25.04.1/ChangeLog
+* /usr/share/doc/rocs-25.04.1/INSTALL.md
+* /usr/share/doc/rocs-25.04.1/README.developer.md
+* /usr/share/doc/rocs-25.04.1/README.md
+* /usr/share/doc/rocs-25.04.1/README.packager.md
 * /usr/share/icons/hicolor/128x128/apps/rocs.png
 * /usr/share/icons/hicolor/16x16/apps/rocs.png
 * /usr/share/icons/hicolor/22x22/apps/rocs.png
