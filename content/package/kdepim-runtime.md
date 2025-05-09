@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdepim-runtime 25.04.0-1"
-version = "25.04.0-1"
+title = "kdepim-runtime 25.04.1-1"
+version = "25.04.1-1"
 description = "KDE PIM Runtime"
-date = "2025-04-18T13:27:49"
+date = "2025-05-09T16:36:54"
 aliases = "/packages/74083"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2637132"
-usize = "14728194"
-sha1sum = "23aaa4e371b1413fb7efdd3618527e59feba1a9a"
-depends = "['akonadi-calendar>=25.04.0', 'kalarm>=25.04.0', 'kdav>=6.13.0', 'kimap>=25.04.0', 'kmbox>=25.04.0', 'knotifyconfig>=6.13.0', 'libkgapi>=25.04.0', 'pimcommon>=25.04.0', 'qca', 'qt6-networkauth>=6.9.0', 'syndication>=6.13.0']"
+size = "2670632"
+usize = "14805344"
+sha1sum = "33dc1eda565e25234c09411f0981068649057a7d"
+depends = "['akonadi-calendar>=25.04.1', 'kalarm>=25.04.1', 'kdav>=6.13.0', 'kimap>=25.04.1', 'kmbox>=25.04.1', 'knotifyconfig>=6.13.0', 'libkgapi>=25.04.1', 'pimcommon>=25.04.1', 'qca', 'qt6-networkauth>=6.9.0', 'syndication>=6.13.0']"
 reverse_depends = "['kmail', 'korganizer', 'zanshin']"
 +++
 ### Description: 
@@ -39,17 +39,17 @@ KDE PIM Runtime
 * /usr/bin/akonadi_vcard_resource
 * /usr/bin/gidmigrator
 * /usr/lib/libakonadi-filestore.so.6
-* /usr/lib/libakonadi-filestore.so.6.4.0
+* /usr/lib/libakonadi-filestore.so.6.4.1
 * /usr/lib/libakonadi-singlefileresource.so.6
-* /usr/lib/libakonadi-singlefileresource.so.6.4.0
+* /usr/lib/libakonadi-singlefileresource.so.6.4.1
 * /usr/lib/libfolderarchivesettings.so.6
-* /usr/lib/libfolderarchivesettings.so.6.4.0
+* /usr/lib/libfolderarchivesettings.so.6.4.1
 * /usr/lib/libkmindexreader.so.6
-* /usr/lib/libkmindexreader.so.6.4.0
+* /usr/lib/libkmindexreader.so.6.4.1
 * /usr/lib/libmaildir.so.6
-* /usr/lib/libmaildir.so.6.4.0
+* /usr/lib/libmaildir.so.6.4.1
 * /usr/lib/libnewmailnotifier.so.6
-* /usr/lib/libnewmailnotifier.so.6.4.0
+* /usr/lib/libnewmailnotifier.so.6.4.1
 * /usr/lib/qt6/plugins/kf6/kio/akonadi.so
 * /usr/lib/qt6/plugins/pim6/akonadi/config/birthdaysconfig.so
 * /usr/lib/qt6/plugins/pim6/akonadi/config/contactsconfig.so
@@ -113,7 +113,7 @@ KDE PIM Runtime
 * /usr/share/applications/org.kde.akonadi_vcard_resource.desktop
 * /usr/share/dbus-1/interfaces/org.kde.Akonadi.Maildir.Settings.xml
 * /usr/share/dbus-1/interfaces/org.kde.Akonadi.MixedMaildir.Settings.xml
-* /usr/share/doc/kdepim-runtime-25.04.0/README.md
+* /usr/share/doc/kdepim-runtime-25.04.1/README.md
 * /usr/share/icons/hicolor/128x128/apps/akonadi-ews.png
 * /usr/share/icons/hicolor/128x128/apps/ox.png
 * /usr/share/icons/hicolor/16x16/apps/akonadi-ews.png

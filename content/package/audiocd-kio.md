@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "audiocd-kio 25.04.0-1"
-version = "25.04.0-1"
+title = "audiocd-kio 25.04.1-1"
+version = "25.04.1-1"
 description = "Kioslave for accessing audio CDs"
-date = "2025-04-18T13:53:54"
+date = "2025-05-09T17:02:46"
 aliases = "/packages/219318"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "703772"
-usize = "2511299"
-sha1sum = "849dac3e2af43995e149aad045f86ef5cacee8af"
-depends = "['cdparanoia', 'flac>=1.5.0', 'kcmutils>=6.13.0', 'libkcddb>=25.04.0', 'libkcompactdisc>=25.04.0']"
+size = "707156"
+usize = "2525581"
+sha1sum = "d1341d1f3c0faaf5e8adcbe5cb6b6a6bfac7d7fe"
+depends = "['cdparanoia', 'flac>=1.5.0', 'kcmutils>=6.13.0', 'libkcddb>=25.04.1', 'libkcompactdisc>=25.04.1']"
 +++
 ### Description: 
 Kioslave for accessing audio CDs
@@ -35,9 +35,9 @@ Kioslave for accessing audio CDs
 * /usr/share/config.kcfg/audiocd_lame_encoder.kcfg
 * /usr/share/config.kcfg/audiocd_opus_encoder.kcfg
 * /usr/share/config.kcfg/audiocd_vorbis_encoder.kcfg
-* /usr/share/doc/audiocd-kio-25.04.0/COPYING
-* /usr/share/doc/audiocd-kio-25.04.0/COPYING.DOC
-* /usr/share/doc/audiocd-kio-25.04.0/HACKING
+* /usr/share/doc/audiocd-kio-25.04.1/COPYING
+* /usr/share/doc/audiocd-kio-25.04.1/COPYING.DOC
+* /usr/share/doc/audiocd-kio-25.04.1/HACKING
 * /usr/share/doc/HTML/ca/kcontrol/kcmaudiocd/index.cache.bz2
 * /usr/share/doc/HTML/ca/kcontrol/kcmaudiocd/index.docbook
 * /usr/share/doc/HTML/ca/kioworker6/audiocd/index.cache.bz2

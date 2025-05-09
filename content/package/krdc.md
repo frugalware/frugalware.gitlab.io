@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "krdc 25.04.0-1"
-version = "25.04.0-1"
+title = "krdc 25.04.1-1"
+version = "25.04.1-1"
 description = "KRDC is a Remote Desktop Client for KDE."
-date = "2025-04-18T14:29:56"
+date = "2025-05-09T17:12:57"
 aliases = "/packages/74081"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1681052"
-usize = "3729582"
-sha1sum = "16df906601945219939c0a5f4e18006fad4234c4"
-depends = "['freerdp', 'kcmutils>=6.13.0', 'kdnssd>=6.13.0', 'knotifyconfig>=6.13.0', 'kstatusnotifieritem>=6.13.0', 'libvncserver', 'plasma-activities>=6.3.4']"
+size = "1685632"
+usize = "3743526"
+sha1sum = "6e45cf75136adb13d503ab893ac6983e5a56a52b"
+depends = "['freerdp', 'kcmutils>=6.13.0', 'kdnssd>=6.13.0', 'knotifyconfig>=6.13.0', 'kstatusnotifieritem>=6.13.0', 'libvncserver', 'plasma-activities>=6.3.5']"
 +++
 ### Description: 
 KRDC is a Remote Desktop Client for KDE.
@@ -23,7 +23,7 @@ KRDC is a Remote Desktop Client for KDE.
 * /usr/include/krdc/remoteviewfactory.h
 * /usr/include/krdccore_export.h
 * /usr/lib/libkrdccore.so
-* /usr/lib/libkrdccore.so.25.04.0
+* /usr/lib/libkrdccore.so.25.04.1
 * /usr/lib/libkrdccore.so.5
 * /usr/lib/qt6/plugins/krdc/kcms/libkcm_krdc_rdpplugin.so
 * /usr/lib/qt6/plugins/krdc/kcms/libkcm_krdc_vncplugin.so
@@ -107,7 +107,7 @@ KRDC is a Remote Desktop Client for KDE.
 * /usr/share/doc/HTML/sv/krdc/index.docbook
 * /usr/share/doc/HTML/uk/krdc/index.cache.bz2
 * /usr/share/doc/HTML/uk/krdc/index.docbook
-* /usr/share/doc/krdc-25.04.0/README.md
+* /usr/share/doc/krdc-25.04.1/README.md
 * /usr/share/icons/hicolor/scalable/apps/krdc.svg
 * /usr/share/locale/af/LC_MESSAGES/krdc.mo
 * /usr/share/locale/ar/LC_MESSAGES/krdc.mo

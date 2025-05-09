@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kalarm 25.04.0-1"
-version = "25.04.0-1"
+title = "kalarm 25.04.1-1"
+version = "25.04.1-1"
 description = "Personal Alarm Scheduler"
-date = "2025-04-18T13:06:38"
+date = "2025-05-09T16:28:24"
 aliases = "/packages/218930"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3052064"
-usize = "15610622"
-sha1sum = "052d1539c38867ebe5d435c20a52b51d49970014"
-depends = "['kcalutils>=25.04.0', 'kholidays>=6.13.0', 'kidletime>=6.13.0', 'kmailtransport>=25.04.0', 'knotifyconfig>=6.13.0', 'kstatusnotifieritem>=6.13.0', 'mailcommon>=25.04.0', 'mpv', 'pimcommon>=25.04.0', 'vlc']"
+size = "3067796"
+usize = "15717320"
+sha1sum = "7dcb61fe5ff2e379be75eef6f4315cfddd53fdd4"
+depends = "['kcalutils>=25.04.1', 'kholidays>=6.13.0', 'kidletime>=6.13.0', 'kmailtransport>=25.04.1', 'knotifyconfig>=6.13.0', 'kstatusnotifieritem>=6.13.0', 'mailcommon>=25.04.1', 'mpv', 'pimcommon>=25.04.1', 'vlc']"
 reverse_depends = "['kdepim-runtime', 'pim-data-exporter']"
 +++
 ### Description: 
@@ -24,9 +24,9 @@ Personal Alarm Scheduler
 * /usr/lib/kauth/kf6/kauth/kalarm_helper
 * /usr/lib/kconf_update_bin/kalarm-3.10.0-run_mode
 * /usr/lib/libkalarmcalendar.so.6
-* /usr/lib/libkalarmcalendar.so.6.4.0
+* /usr/lib/libkalarmcalendar.so.6.4.1
 * /usr/lib/libkalarmplugin.so.6
-* /usr/lib/libkalarmplugin.so.6.4.0
+* /usr/lib/libkalarmplugin.so.6.4.1
 * /usr/lib/qt6/plugins/pim6/kalarm/akonadiplugin.so
 * /usr/lib/qt6/plugins/pim6/kalarm/audioplugin_mpv.so
 * /usr/lib/qt6/plugins/pim6/kalarm/audioplugin_vlc.so
@@ -72,10 +72,10 @@ Personal Alarm Scheduler
 * /usr/share/doc/HTML/sv/kalarm/index.docbook
 * /usr/share/doc/HTML/uk/kalarm/index.cache.bz2
 * /usr/share/doc/HTML/uk/kalarm/index.docbook
-* /usr/share/doc/kalarm-25.04.0/AUTHORS
-* /usr/share/doc/kalarm-25.04.0/Changelog
-* /usr/share/doc/kalarm-25.04.0/INSTALL
-* /usr/share/doc/kalarm-25.04.0/README
+* /usr/share/doc/kalarm-25.04.1/AUTHORS
+* /usr/share/doc/kalarm-25.04.1/Changelog
+* /usr/share/doc/kalarm-25.04.1/INSTALL
+* /usr/share/doc/kalarm-25.04.1/README
 * /usr/share/icons/hicolor/128x128/apps/kalarm.png
 * /usr/share/icons/hicolor/16x16/apps/kalarm.png
 * /usr/share/icons/hicolor/22x22/actions/kalarm-disabled.png

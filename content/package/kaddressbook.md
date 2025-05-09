@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kaddressbook 25.04.0-1"
-version = "25.04.0-1"
+title = "kaddressbook 25.04.1-1"
+version = "25.04.1-1"
 description = "Contact Manager"
-date = "2025-04-18T11:13:10"
+date = "2025-05-09T16:24:00"
 aliases = "/packages/218928"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3440156"
-usize = "6713501"
-sha1sum = "50f9646a73f5eff529b238331b46441e919336f7"
-depends = "['kontactinterface>=25.04.0', 'mailcommon>=25.04.0']"
+size = "3442064"
+usize = "6714878"
+sha1sum = "6f666d10e531e140366e1ad50b958032b2971e85"
+depends = "['kontactinterface>=25.04.1', 'mailcommon>=25.04.1']"
 reverse_depends = "['kdepim-addons']"
 +++
 ### Description: 
@@ -44,10 +44,10 @@ Contact Manager
 * /usr/lib/cmake/KPim6AddressbookImportExport/KPim6AddressbookImportExportTargets-release.cmake
 * /usr/lib/cmake/KPim6AddressbookImportExport/KPim6AddressbookImportExportTargets.cmake
 * /usr/lib/libkaddressbookprivate.so.6
-* /usr/lib/libkaddressbookprivate.so.6.4.0
+* /usr/lib/libkaddressbookprivate.so.6.4.1
 * /usr/lib/libKPim6AddressbookImportExport.so
 * /usr/lib/libKPim6AddressbookImportExport.so.6
-* /usr/lib/libKPim6AddressbookImportExport.so.6.4.0
+* /usr/lib/libKPim6AddressbookImportExport.so.6.4.1
 * /usr/lib/qt6/plugins/kaddressbookpart.so
 * /usr/lib/qt6/plugins/pim6/kcms/kaddressbook/kaddressbook_config_ldap.so
 * /usr/lib/qt6/plugins/pim6/kcms/kaddressbook/kaddressbook_config_plugins.so

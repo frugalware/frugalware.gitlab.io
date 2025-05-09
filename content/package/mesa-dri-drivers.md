@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mesa-dri-drivers 25.1.0-3"
-version = "25.1.0-3"
+title = "mesa-dri-drivers 25.1.0-5"
+version = "25.1.0-5"
 description = "Mesa OpenGL DRI drivers."
-date = "2025-05-09T14:52:42"
+date = "2025-05-09T16:02:58"
 aliases = "/packages/136774"
 categories = ['x11']
 upstreamurl = "https://www.mesa3d.org"
 arch = "x86_64"
-size = "11636316"
+size = "11636308"
 usize = "48644628"
-sha1sum = "479cd520defb3e15bc439302cf4d640e503b76cf"
+sha1sum = "2e417424a323d76f484f33edadbdcf16f523d507"
 depends = "['elfutils>=0.167-2', 'expat>=2.1.0-6', 'libdrm>=2.4.71', 'libffi>=3.2.1-2', 'libgbm', 'libunwind', 'libxshmfence', 'llvm-libs>=19.1.1', 'lmsensors>=3.5.0', 'spirv-tools', 'zstd']"
 reverse_depends = "['qt6-webengine', 'virtualbox-guest-additions', 'xorg-server']"
 +++

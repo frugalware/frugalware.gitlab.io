@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kio-gdrive 25.04.0-1"
-version = "25.04.0-1"
+title = "kio-gdrive 25.04.1-1"
+version = "25.04.1-1"
 description = "KIO Slave to access Google Drive"
-date = "2025-04-18T13:47:53"
+date = "2025-05-09T16:56:36"
 aliases = "/packages/219163"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "139608"
-usize = "438887"
-sha1sum = "8850edf17a06954e56705ebfdc5f48f6e165b36d"
-depends = "['dolphin>=25.04.0', 'ki18n>=6.13.0', 'kio>=6.13.0', 'libkgapi>=25.04.0', 'qtkeychain']"
+size = "140344"
+usize = "439690"
+sha1sum = "6987789255c5d8704f9ef503c200a30de5c23de8"
+depends = "['dolphin>=25.04.1', 'ki18n>=6.13.0', 'kio>=6.13.0', 'libkgapi>=25.04.1', 'qtkeychain']"
 license = "GPL"
 +++
 ### Description: 
@@ -51,11 +51,11 @@ KIO Slave to access Google Drive
 * /usr/share/doc/HTML/tr/kioworker6/gdrive/index.docbook
 * /usr/share/doc/HTML/uk/kioworker6/gdrive/index.cache.bz2
 * /usr/share/doc/HTML/uk/kioworker6/gdrive/index.docbook
-* /usr/share/doc/kio-gdrive-25.04.0/COPYING
-* /usr/share/doc/kio-gdrive-25.04.0/COPYING.GPL3
-* /usr/share/doc/kio-gdrive-25.04.0/HACKING
-* /usr/share/doc/kio-gdrive-25.04.0/README.md
-* /usr/share/doc/kio-gdrive-25.04.0/README.packagers
+* /usr/share/doc/kio-gdrive-25.04.1/COPYING
+* /usr/share/doc/kio-gdrive-25.04.1/COPYING.GPL3
+* /usr/share/doc/kio-gdrive-25.04.1/HACKING
+* /usr/share/doc/kio-gdrive-25.04.1/README.md
+* /usr/share/doc/kio-gdrive-25.04.1/README.packagers
 * /usr/share/locale/ar/LC_MESSAGES/kio6_gdrive.mo
 * /usr/share/locale/az/LC_MESSAGES/kio6_gdrive.mo
 * /usr/share/locale/be/LC_MESSAGES/kio6_gdrive.mo

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kaccounts-providers 25.04.0-1"
-version = "25.04.0-1"
+title = "kaccounts-providers 25.04.1-1"
+version = "25.04.1-1"
 description = "Small system to administer web accounts for the sites and services across the KDE desktop, including: Google, Facebook, Owncloud, IMAP, Jabber and others"
-date = "2025-04-18T13:42:12"
+date = "2025-05-09T16:50:58"
 aliases = "/packages/218268"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "66420"
-usize = "263355"
-sha1sum = "533a123ba8e971729c234a899647c9cbeb633eb8"
-depends = "['kaccounts-integration>=25.04.0', 'qt6-svg>=6.9.0', 'qt6-webengine>=6.9.0']"
+size = "67076"
+usize = "264651"
+sha1sum = "d03af73977fb0a8bc21527929ec325fa02e2af19"
+depends = "['kaccounts-integration>=25.04.1', 'qt6-svg>=6.9.0', 'qt6-webengine>=6.9.0']"
 +++
 ### Description: 
 Small system to administer web accounts for the sites and services across the KDE desktop, including: Google, Facebook, Owncloud, IMAP, Jabber and others
