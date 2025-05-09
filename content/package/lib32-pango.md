@@ -12,7 +12,7 @@ size = "300932"
 usize = "1080124"
 sha1sum = "b2bc1eada7eb7e212a6d3766bf36d5ec98eb103d"
 depends = "['lib32-cairo>=1.17.2-2', 'lib32-fribidi>=1.0.5', 'lib32-harfbuzz>=2.5.0', 'lib32-libffi>=3.2.1-2', 'lib32-libpng>=1.6.25', 'lib32-libxft>=2.3.2-2', 'lib32-util-linux']"
-reverse_depends = "['lib32-gtk+2-libs', 'lib32-gtk+3']"
+reverse_depends = "['lib32-gtk+2-libs', 'lib32-gtk+3', 'lib32-libdecor', 'lib32-mesademos']"
 +++
 ### Description: 
 A library for layout and rendering of text ( 32bit )

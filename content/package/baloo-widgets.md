@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "baloo-widgets 25.04.0-1"
-version = "25.04.0-1"
+title = "baloo-widgets 25.04.1-1"
+version = "25.04.1-1"
 description = "Widgets for Baloo"
-date = "2025-04-18T08:49:29"
+date = "2025-05-09T15:12:07"
 aliases = "/packages/200750"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "129928"
-usize = "496382"
-sha1sum = "2c7c50bfca007498defad328eaab8b4b525fba8f"
+size = "130152"
+usize = "496638"
+sha1sum = "2efe991701fe4e30182e59552286306443701b09"
 depends = "['baloo>=6.13.0']"
 reverse_depends = "['dolphin']"
 +++
@@ -31,7 +31,7 @@ Widgets for Baloo
 * /usr/lib/cmake/KF6BalooWidgets/KF6BalooWidgetsTargets-release.cmake
 * /usr/lib/cmake/KF6BalooWidgets/KF6BalooWidgetsTargets.cmake
 * /usr/lib/libKF6BalooWidgets.so
-* /usr/lib/libKF6BalooWidgets.so.25.04.0
+* /usr/lib/libKF6BalooWidgets.so.25.04.1
 * /usr/lib/libKF6BalooWidgets.so.6
 * /usr/lib/qt6/plugins/kf6/kfileitemaction/tagsfileitemaction.so
 * /usr/lib/qt6/plugins/kf6/propertiesdialog/baloofilepropertiesplugin.so

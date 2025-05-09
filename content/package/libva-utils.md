@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libva-utils 2.22.0-1"
-version = "2.22.0-1"
+title = "libva-utils 2.22.0-2"
+version = "2.22.0-2"
 description = "Intel VA-API Media Applications and Scripts for libva"
-date = "2024-06-20T15:13:54"
+date = "2025-05-09T14:27:23"
 aliases = "/packages/219820"
 categories = ['xapps']
 upstreamurl = "https://github.com/intel/libva-utils"
 arch = "x86_64"
-size = "495532"
-usize = "3178303"
-sha1sum = "b1946ec8cdab10b618013628db91003d269950dd"
+size = "494652"
+usize = "3195343"
+sha1sum = "dbc48f9b7cf577fa6a77eec2d4017dabc97aa85c"
 depends = "['libva>=2.18.0']"
 +++
 ### Description: 

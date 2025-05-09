@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kteatime 25.04.0-1"
-version = "25.04.0-1"
+title = "kteatime 25.04.1-1"
+version = "25.04.1-1"
 description = "Tea Cooker."
-date = "2025-04-18T08:39:41"
+date = "2025-05-09T15:03:17"
 aliases = "/packages/184729"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "347040"
-usize = "772387"
-sha1sum = "707654825afcc4ea529a4d02b046c5279407d256"
-depends = "['knotifyconfig>=6.13.0', 'libkdegames>=25.04.0']"
+size = "348024"
+usize = "774790"
+sha1sum = "3cf4e1abdff645e1ee901db3eac1520e8a34f312"
+depends = "['knotifyconfig>=6.13.0', 'libkdegames>=25.04.1']"
 +++
 ### Description: 
 Tea Cooker.
@@ -53,8 +53,8 @@ Tea Cooker.
 * /usr/share/doc/HTML/uk/kteatime/config.png
 * /usr/share/doc/HTML/uk/kteatime/index.cache.bz2
 * /usr/share/doc/HTML/uk/kteatime/index.docbook
-* /usr/share/doc/kteatime-25.04.0/ChangeLog
-* /usr/share/doc/kteatime-25.04.0/TODO
+* /usr/share/doc/kteatime-25.04.1/ChangeLog
+* /usr/share/doc/kteatime-25.04.1/TODO
 * /usr/share/icons/hicolor/16x16/apps/kteatime.png
 * /usr/share/icons/hicolor/22x22/apps/kteatime.png
 * /usr/share/icons/hicolor/32x32/apps/kteatime.png

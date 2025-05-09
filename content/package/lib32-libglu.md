@@ -12,7 +12,7 @@ size = "139916"
 usize = "383276"
 sha1sum = "596af661ddd6804051c0bf677fb98af9c89ed9d1"
 depends = "['lib32-libglvnd']"
-reverse_depends = "['get_steam', 'lib32-freeglut', 'lib32-v4l-utils']"
+reverse_depends = "['get_steam', 'lib32-freeglut', 'lib32-mesademos', 'lib32-v4l-utils']"
 +++
 ### Description: 
 Mesa OpenGL Utility Library. ( 32bit )

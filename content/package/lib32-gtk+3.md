@@ -1,17 +1,18 @@
 +++
 draft = false
-title = "lib32-gtk+3 3.24.49-2"
-version = "3.24.49-2"
+title = "lib32-gtk+3 3.24.49-4"
+version = "3.24.49-4"
 description = "The GTK+ Toolkit (3.x series) ( 32bit )"
-date = "2025-05-09T13:53:11"
+date = "2025-05-09T14:33:09"
 aliases = "/packages/222711"
 categories = ['lib32-extra']
 upstreamurl = "http://www.gtk.org/"
 arch = "x86_64"
-size = "5022380"
-usize = "21937081"
-sha1sum = "45d16fd36ed1d30d98abdf09bd8a0cf65f83eba7"
+size = "3903684"
+usize = "17878120"
+sha1sum = "f415804ba3eb77b5a42026efb366dfb05edb9336"
 depends = "['lib32-at-spi2-core', 'lib32-cairo', 'lib32-gdk-pixbuf2', 'lib32-libcups', 'lib32-libepoxy', 'lib32-libxcomposite', 'lib32-libxcursor', 'lib32-libxinerama', 'lib32-libxkbcommon', 'lib32-libxrandr', 'lib32-pango']"
+reverse_depends = "['lib32-libdecor']"
 +++
 ### Description: 
 The GTK+ Toolkit (3.x series) ( 32bit )
@@ -23,7 +24,6 @@ The GTK+ Toolkit (3.x series) ( 32bit )
 * /usr/i686-frugalware-linux/bin/gtk-launch
 * /usr/i686-frugalware-linux/bin/gtk-query-immodules-3.0
 * /usr/i686-frugalware-linux/bin/gtk-query-settings
-* /usr/i686-frugalware-linux/bin/gtk-update-icon-cache
 * /usr/i686-frugalware-linux/bin/gtk3-demo
 * /usr/i686-frugalware-linux/bin/gtk3-demo-application
 * /usr/i686-frugalware-linux/bin/gtk3-icon-browser
@@ -471,65 +471,3 @@ The GTK+ Toolkit (3.x series) ( 32bit )
 * /usr/lib32/pkgconfig/gtk+-unix-print-3.0.pc
 * /usr/lib32/pkgconfig/gtk+-wayland-3.0.pc
 * /usr/lib32/pkgconfig/gtk+-x11-3.0.pc
-* /usr/share/applications/gtk3-demo.desktop
-* /usr/share/applications/gtk3-icon-browser.desktop
-* /usr/share/applications/gtk3-widget-factory.desktop
-* /usr/share/gettext/its/gtkbuilder.its
-* /usr/share/gettext/its/gtkbuilder.loc
-* /usr/share/glib-2.0/schemas/org.gtk.Demo.gschema.xml
-* /usr/share/glib-2.0/schemas/org.gtk.exampleapp.gschema.xml
-* /usr/share/glib-2.0/schemas/org.gtk.Settings.ColorChooser.gschema.xml
-* /usr/share/glib-2.0/schemas/org.gtk.Settings.Debug.gschema.xml
-* /usr/share/glib-2.0/schemas/org.gtk.Settings.EmojiChooser.gschema.xml
-* /usr/share/glib-2.0/schemas/org.gtk.Settings.FileChooser.gschema.xml
-* /usr/share/gtk-3.0/emoji/bn.gresource
-* /usr/share/gtk-3.0/emoji/da.gresource
-* /usr/share/gtk-3.0/emoji/de.gresource
-* /usr/share/gtk-3.0/emoji/es.gresource
-* /usr/share/gtk-3.0/emoji/et.gresource
-* /usr/share/gtk-3.0/emoji/fi.gresource
-* /usr/share/gtk-3.0/emoji/fr.gresource
-* /usr/share/gtk-3.0/emoji/hi.gresource
-* /usr/share/gtk-3.0/emoji/hu.gresource
-* /usr/share/gtk-3.0/emoji/it.gresource
-* /usr/share/gtk-3.0/emoji/ja.gresource
-* /usr/share/gtk-3.0/emoji/ko.gresource
-* /usr/share/gtk-3.0/emoji/lt.gresource
-* /usr/share/gtk-3.0/emoji/ms.gresource
-* /usr/share/gtk-3.0/emoji/nb.gresource
-* /usr/share/gtk-3.0/emoji/nl.gresource
-* /usr/share/gtk-3.0/emoji/pl.gresource
-* /usr/share/gtk-3.0/emoji/pt.gresource
-* /usr/share/gtk-3.0/emoji/ru.gresource
-* /usr/share/gtk-3.0/emoji/sv.gresource
-* /usr/share/gtk-3.0/emoji/th.gresource
-* /usr/share/gtk-3.0/emoji/uk.gresource
-* /usr/share/gtk-3.0/emoji/zh.gresource
-* /usr/share/gtk-3.0/gtkbuilder.rng
-* /usr/share/gtk-3.0/valgrind/gtk.supp
-* /usr/share/icons/hicolor/16x16/apps/gtk3-demo-symbolic.symbolic.png
-* /usr/share/icons/hicolor/16x16/apps/gtk3-demo.png
-* /usr/share/icons/hicolor/16x16/apps/gtk3-widget-factory-symbolic.symbolic.png
-* /usr/share/icons/hicolor/16x16/apps/gtk3-widget-factory.png
-* /usr/share/icons/hicolor/22x22/apps/gtk3-demo-symbolic.symbolic.png
-* /usr/share/icons/hicolor/22x22/apps/gtk3-demo.png
-* /usr/share/icons/hicolor/22x22/apps/gtk3-widget-factory-symbolic.symbolic.png
-* /usr/share/icons/hicolor/22x22/apps/gtk3-widget-factory.png
-* /usr/share/icons/hicolor/24x24/apps/gtk3-demo-symbolic.symbolic.png
-* /usr/share/icons/hicolor/24x24/apps/gtk3-demo.png
-* /usr/share/icons/hicolor/24x24/apps/gtk3-widget-factory-symbolic.symbolic.png
-* /usr/share/icons/hicolor/24x24/apps/gtk3-widget-factory.png
-* /usr/share/icons/hicolor/256x256/apps/gtk3-demo-symbolic.symbolic.png
-* /usr/share/icons/hicolor/256x256/apps/gtk3-demo.png
-* /usr/share/icons/hicolor/256x256/apps/gtk3-widget-factory-symbolic.symbolic.png
-* /usr/share/icons/hicolor/256x256/apps/gtk3-widget-factory.png
-* /usr/share/icons/hicolor/32x32/apps/gtk3-demo-symbolic.symbolic.png
-* /usr/share/icons/hicolor/32x32/apps/gtk3-demo.png
-* /usr/share/icons/hicolor/32x32/apps/gtk3-widget-factory-symbolic.symbolic.png
-* /usr/share/icons/hicolor/32x32/apps/gtk3-widget-factory.png
-* /usr/share/icons/hicolor/48x48/apps/gtk3-demo-symbolic.symbolic.png
-* /usr/share/icons/hicolor/48x48/apps/gtk3-demo.png
-* /usr/share/icons/hicolor/48x48/apps/gtk3-widget-factory-symbolic.symbolic.png
-* /usr/share/icons/hicolor/48x48/apps/gtk3-widget-factory.png
-* /usr/share/themes/Default/gtk-3.0/gtk-keys.css
-* /usr/share/themes/Emacs/gtk-3.0/gtk-keys.css

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-opencl-rusticl 25.1.0-2"
-version = "25.1.0-2"
+title = "lib32-opencl-rusticl 25.1.0-3"
+version = "25.1.0-3"
 description = "Mesa OpenCL rusticl (32-bit)"
-date = "2025-05-09T11:24:00"
+date = "2025-05-09T14:52:42"
 aliases = "/packages/222710"
 categories = ['x11']
 upstreamurl = "https://www.mesa3d.org"
 arch = "x86_64"
-size = "7851592"
-usize = "58802326"
-sha1sum = "54c8d599a3eeed514518615c2959a3fc5e003dea"
+size = "7372268"
+usize = "47168190"
+sha1sum = "5e34711172ec647cd857bbdccc9483d0c481febd"
 depends = "['lib32-spirv-llvm-translator']"
 +++
 ### Description: 

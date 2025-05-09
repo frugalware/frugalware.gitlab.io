@@ -12,7 +12,7 @@ size = "95172"
 usize = "353665"
 sha1sum = "74d876a649a8b8b8103e3a2335c8c0782c4e57a3"
 depends = "['lib32-libglu', 'lib32-libglvnd', 'lib32-libxi>=1.7.6-2', 'lib32-libxxf86vm']"
-reverse_depends = "['lib32-libtiff']"
+reverse_depends = "['lib32-libtiff', 'lib32-mesademos']"
 +++
 ### Description: 
 The free OpenGL utility toolkit, alternative to the GLUT library ( 32bit )

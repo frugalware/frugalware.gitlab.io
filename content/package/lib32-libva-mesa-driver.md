@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libva-mesa-driver 25.1.0-2"
-version = "25.1.0-2"
+title = "lib32-libva-mesa-driver 25.1.0-3"
+version = "25.1.0-3"
 description = "VAAPI mesa driver (32-Bit)"
-date = "2025-05-09T11:24:00"
+date = "2025-05-09T14:52:42"
 aliases = "/packages/218884"
 categories = ['lib32-extra']
 upstreamurl = "https://www.mesa3d.org"
 arch = "x86_64"
-size = "26532"
+size = "26560"
 usize = "69"
-sha1sum = "11a9b42566d3b2fdc69836623636b5e501d80e73"
+sha1sum = "fe6b9b13c19d2fd7bdb82bfce35fafd78ace27f2"
 depends = "['lib32-elfutils>=0.167-3', 'lib32-expat>=2.1.0-6', 'lib32-libdrm>=2.4.70-2', 'lib32-libffi>=3.2.1-2', 'lib32-libx11>=1.6.3-4', 'lib32-llvm-libs>=19.1.1']"
 +++
 ### Description: 

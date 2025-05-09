@@ -12,7 +12,7 @@ size = "2096364"
 usize = "16317553"
 sha1sum = "d280369940f55e91da43eb5f8941a2ea0e2f1242"
 depends = "['cairo>=1.17.2-2', 'fribidi>=1.0.5', 'harfbuzz>=2.5.0', 'libffi>=3.2.1-2', 'libpng>=1.6.25', 'libsysprof-capture', 'libxft>=2.3.2-2', 'util-linux']"
-reverse_depends = "['castor', 'cef', 'chromium-browser', 'dunst', 'fontforge', 'gail', 'gnuplot', 'gparted', 'granite', 'gst1-plugins-bad', 'gst1-plugins-base-pango', 'gtk+2', 'gtk+2-libs', 'gtk+3', 'gtk+3-demos', 'gtk+3-immodules', 'gtk+3-immodules-xim', 'gtk+3-tools', 'gtk+4', 'gtk+4-demos', 'gtk+4-tools', 'gtk+4-update-icon-cache', 'gtk-update-icon-cache', 'i3', 'librsvg', 'libvips', 'packagekit', 'pangomm', 'r', 'rrdtool', 'scim', 'thunderbird', 'weston', 'whalebird']"
+reverse_depends = "['castor', 'cef', 'chromium-browser', 'dunst', 'fontforge', 'gail', 'gnuplot', 'gparted', 'granite', 'gst1-plugins-bad', 'gst1-plugins-base-pango', 'gtk+2', 'gtk+2-libs', 'gtk+3', 'gtk+3-demos', 'gtk+3-immodules', 'gtk+3-immodules-xim', 'gtk+3-tools', 'gtk+4', 'gtk+4-demos', 'gtk+4-tools', 'gtk+4-update-icon-cache', 'gtk-update-icon-cache', 'i3', 'libdecor', 'librsvg', 'libvips', 'packagekit', 'pangomm', 'r', 'rrdtool', 'scim', 'thunderbird', 'weston', 'whalebird']"
 +++
 ### Description: 
 A library for layout and rendering of text

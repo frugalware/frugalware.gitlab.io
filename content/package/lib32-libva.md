@@ -12,7 +12,7 @@ size = "199916"
 usize = "1020908"
 sha1sum = "00da7e49487ad69ad1cd7a6bfe8f6811080b2a93"
 depends = "['lib32-libdrm>=2.4.70-2', 'lib32-libglvnd', 'lib32-libxext>=1.3.3-3', 'lib32-libxfixes>=5.0.1-3', 'lib32-wayland>=1.11.0-3']"
-reverse_depends = "['lib32-libva-intel-driver', 'steam-native']"
+reverse_depends = "['lib32-libva-intel-driver', 'lib32-libva-utils', 'steam-native']"
 +++
 ### Description: 
 Uniform library API for hardware acceleration of video decoding. ( 32bit )

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libkexiv2 25.04.0-2"
-version = "25.04.0-2"
+title = "libkexiv2 25.04.1-1"
+version = "25.04.1-1"
 description = "A C++ library to manipulate EXIF/IPTC/XMP metadata using Exiv2 library."
-date = "2025-04-23T09:04:59"
+date = "2025-05-09T15:14:02"
 aliases = "/packages/74205"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "141540"
-usize = "445430"
-sha1sum = "cf19d9fdeb55869cfec45231c122447490db6153"
+size = "142264"
+usize = "447798"
+sha1sum = "8a195a912853301444527bfce1acef334ec013b5"
 depends = "['exiv2>=0.28.1', 'qt6-base>=6.9.0']"
 reverse_depends = "['kdegraphics-thumbnailers', 'kio-extras', 'okular', 'plasma-workspace']"
 +++
@@ -35,7 +35,7 @@ A C++ library to manipulate EXIF/IPTC/XMP metadata using Exiv2 library.
 * /usr/lib/libKExiv2Qt6.so
 * /usr/lib/libKExiv2Qt6.so.0
 * /usr/lib/libKExiv2Qt6.so.5.1.0
-* /usr/share/doc/libkexiv2-25.04.0/AUTHORS
-* /usr/share/doc/libkexiv2-25.04.0/README
-* /usr/share/doc/libkexiv2-25.04.0/TODO
+* /usr/share/doc/libkexiv2-25.04.1/AUTHORS
+* /usr/share/doc/libkexiv2-25.04.1/README
+* /usr/share/doc/libkexiv2-25.04.1/TODO
 * /usr/share/qlogging-categories6/libkexiv2.categories

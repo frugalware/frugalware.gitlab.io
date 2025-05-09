@@ -12,7 +12,7 @@ size = "151968"
 usize = "492423"
 sha1sum = "2ddd5b10a1dc7ff37c3b02094fc86490e0762dd6"
 depends = "['glibc>=2.34']"
-reverse_depends = "['lib32-dbus-glib', 'lib32-glib2', 'lib32-libpulse', 'lib32-xorg-server']"
+reverse_depends = "['lib32-dbus-glib', 'lib32-glib2', 'lib32-libdecor', 'lib32-libpulse', 'lib32-mesademos', 'lib32-xorg-server']"
 +++
 ### Description: 
 A message bus system ( 32bit )
