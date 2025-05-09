@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "zfs 2.3.2-1"
-version = "2.3.2-1"
+title = "zfs 2.3.2-2"
+version = "2.3.2-2"
 description = "ZFS"
-date = "2025-05-05T09:21:59"
+date = "2025-05-09T22:26:24"
 aliases = "/packages/220123"
 categories = ['base-extra']
 upstreamurl = "http://zfsonlinux.org"
 arch = "x86_64"
-size = "45574872"
-usize = "62437495"
-sha1sum = "10f3f7bb3aaf20b6b46de08a61a8524811d82f57"
-depends = "['kernel=6.14.5-1', 'libtirpc']"
+size = "45555120"
+usize = "62369643"
+sha1sum = "c1363e03b0526fa22fd73b01c339a7d596e1855d"
+depends = "['kernel=6.14.6-1', 'libtirpc']"
 +++
 ### Description: 
 ZFS
@@ -365,8 +365,8 @@ ZFS
 * /usr/lib/libzpool.so.6
 * /usr/lib/libzpool.so.6.0.0
 * /usr/lib/modules-load.d/zfs.conf
-* /usr/lib/modules/6.14.5-fw1/extra/spl.ko.zst
-* /usr/lib/modules/6.14.5-fw1/extra/zfs.ko.zst
+* /usr/lib/modules/6.14.6-fw1/extra/spl.ko.zst
+* /usr/lib/modules/6.14.6-fw1/extra/zfs.ko.zst
 * /usr/lib/pam-configs/zfs_key
 * /usr/lib/pkgconfig/libzfs.pc
 * /usr/lib/pkgconfig/libzfsbootenv.pc
@@ -494,7 +494,6 @@ ZFS
 * /usr/lib/zfs/zfs-tests/bin/mktree
 * /usr/lib/zfs/zfs-tests/bin/mmapwrite
 * /usr/lib/zfs/zfs-tests/bin/mmap_exec
-* /usr/lib/zfs/zfs-tests/bin/mmap_libaio
 * /usr/lib/zfs/zfs-tests/bin/mmap_seek
 * /usr/lib/zfs/zfs-tests/bin/mmap_sync
 * /usr/lib/zfs/zfs-tests/bin/nvlist_to_lua
@@ -2737,12 +2736,9 @@ ZFS
 * /usr/lib/zfs/zloop.sh
 * /usr/lib/zvol_id
 * /usr/share/doc/zfs-2.3.2/AUTHORS
-* /usr/share/doc/zfs-2.3.2/COPYING
-* /usr/share/doc/zfs-2.3.2/COPYING.CDDL
 * /usr/share/doc/zfs-2.3.2/COPYRIGHT
 * /usr/share/doc/zfs-2.3.2/LICENSE
 * /usr/share/doc/zfs-2.3.2/NEWS
-* /usr/share/doc/zfs-2.3.2/README.GuestAdditionsPackaging
 * /usr/share/doc/zfs-2.3.2/README.md
 * /usr/share/doc/zfs-2.3.2/RELEASES.md
 * /usr/share/initramfs-tools/conf-hooks.d/zfs
@@ -2852,9 +2848,9 @@ ZFS
 * /usr/share/man/man8/zpool_influxdb.8.gz
 * /usr/share/man/man8/zstream.8.gz
 * /usr/share/man/man8/zstreamdump.8.gz
-* /usr/src/zfs-2.3.2/6.14.5-fw1/Module.symvers
-* /usr/src/zfs-2.3.2/6.14.5-fw1/zfs.release
-* /usr/src/zfs-2.3.2/6.14.5-fw1/zfs_config.h
+* /usr/src/zfs-2.3.2/6.14.6-fw1/Module.symvers
+* /usr/src/zfs-2.3.2/6.14.6-fw1/zfs.release
+* /usr/src/zfs-2.3.2/6.14.6-fw1/zfs_config.h
 * /usr/src/zfs-2.3.2/include/cityhash.h
 * /usr/src/zfs-2.3.2/include/linux/blkdev_compat.h
 * /usr/src/zfs-2.3.2/include/linux/compiler_compat.h
