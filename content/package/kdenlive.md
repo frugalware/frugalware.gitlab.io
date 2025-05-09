@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kdenlive 25.04.0-2"
-version = "25.04.0-2"
+title = "kdenlive 25.04.1-1"
+version = "25.04.1-1"
 description = "A non-linear video editor for Linux using the MLT video framework"
-date = "2025-04-18T19:43:28"
+date = "2025-05-09T18:18:31"
 aliases = "/packages/218299"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "14966624"
-usize = "78722597"
-sha1sum = "2b48f8feaf3bb6071f8d87387482068be9cad66e"
+size = "15055708"
+usize = "79047825"
+sha1sum = "2229388fe7ad50fd0f44fd40006a240cca0f3f41"
 depends = "['kfilemetadata>=6.13.0', 'knewstuff>=6.13.0', 'knotifyconfig>=6.13.0', 'kplotting>=6.13.0', 'mlt>=7.14.0', 'mlt-qt>=7.14.0', 'mlt-sdl>=7.14.0', 'opentimelineio', 'purpose>=6.13.0', 'qt6-declarative>=6.9.0', 'qt6-networkauth>=6.9.0', 'qt6-svg>=6.9.0', 'qt6-webengine>=6.9.0']"
 +++
 ### Description: 
@@ -117,10 +117,10 @@ A non-linear video editor for Linux using the MLT video framework
 * /usr/share/doc/HTML/uk/kdenlive/kdenlive_quickstart-save-project.png
 * /usr/share/doc/HTML/uk/kdenlive/kdenlive_quickstart-timeline-clips.png
 * /usr/share/doc/HTML/uk/kdenlive/kdenlive_quickstart-timelinecursor.png
-* /usr/share/doc/kdenlive-25.04.0/AUTHORS
-* /usr/share/doc/kdenlive-25.04.0/COPYING
-* /usr/share/doc/kdenlive-25.04.0/README.md
-* /usr/share/doc/kdenlive-25.04.0/README.md.license
+* /usr/share/doc/kdenlive-25.04.1/AUTHORS
+* /usr/share/doc/kdenlive-25.04.1/COPYING
+* /usr/share/doc/kdenlive-25.04.1/README.md
+* /usr/share/doc/kdenlive-25.04.1/README.md.license
 * /usr/share/doc/Kdenlive/AUTHORS
 * /usr/share/doc/Kdenlive/LICENSES/Apache-2.0.txt
 * /usr/share/doc/Kdenlive/LICENSES/BSD-2-Clause.txt
@@ -563,6 +563,8 @@ A non-linear video editor for Linux using the MLT video framework
 * /usr/share/kdenlive/resourceproviders/pixabay_photo.json
 * /usr/share/kdenlive/resourceproviders/pixabay_videos.json
 * /usr/share/kdenlive/sammodelsinfo.rc
+* /usr/share/kdenlive/scripts/automask/kdenlive_build_sam.py
+* /usr/share/kdenlive/scripts/automask/kdenlive_sam2_video_predictor.py
 * /usr/share/kdenlive/scripts/automask/requirements-cuda118.txt
 * /usr/share/kdenlive/scripts/automask/requirements-cuda124.txt
 * /usr/share/kdenlive/scripts/automask/requirements-cuda126.txt

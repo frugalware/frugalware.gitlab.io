@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ghostwriter 25.04.0-1"
-version = "25.04.0-1"
+title = "ghostwriter 25.04.1-1"
+version = "25.04.1-1"
 description = "Aesthetic, distraction-free Markdown editor"
-date = "2025-04-18T18:11:39"
+date = "2025-05-09T19:09:02"
 aliases = "/packages/220968"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3651432"
-usize = "6442875"
-sha1sum = "29c36621ddc04b1ae616a533f5729588365e0052"
+size = "3657460"
+usize = "6472174"
+sha1sum = "d0e3da339c9f7272da4f4c29b7a24893be06c860"
 depends = "['hunspell', 'kxmlgui>=6.13.0', 'qt6-webengine>=6.9.0']"
 +++
 ### Description: 
@@ -19,8 +19,8 @@ Aesthetic, distraction-free Markdown editor
 ### Files: 
 * /usr/bin/ghostwriter
 * /usr/share/applications/org.kde.ghostwriter.desktop
-* /usr/share/doc/ghostwriter-25.04.0/COPYING
-* /usr/share/doc/ghostwriter-25.04.0/README.md
+* /usr/share/doc/ghostwriter-25.04.1/COPYING
+* /usr/share/doc/ghostwriter-25.04.1/README.md
 * /usr/share/icons/hicolor/128x128/apps/ghostwriter.png
 * /usr/share/icons/hicolor/16x16/apps/ghostwriter.png
 * /usr/share/icons/hicolor/22x22/apps/ghostwriter.png

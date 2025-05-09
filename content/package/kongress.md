@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kongress 25.04.0-1"
-version = "25.04.0-1"
+title = "kongress 25.04.1-1"
+version = "25.04.1-1"
 description = "Companion application for conferences"
-date = "2025-04-18T17:27:07"
+date = "2025-05-09T18:31:37"
 aliases = "/packages/220983"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "175548"
-usize = "743097"
-sha1sum = "4ed33e6533036e491f98918ac275c5e952b26043"
+size = "176892"
+usize = "743236"
+sha1sum = "1c1c59a8098fcbe0a9841b26eb1f1fa83725c3b8"
 depends = "['kcalendarcore', 'kconfig', 'kcoreaddons', 'kdbusaddons', 'ki18n', 'kirigami-addons', 'knotifications', 'kosmindoormap']"
 +++
 ### Description: 
@@ -21,7 +21,7 @@ Companion application for conferences
 * /usr/bin/kongressac
 * /usr/share/applications/org.kde.kongress.desktop
 * /usr/share/dbus-1/services/org.kde.kongressac.service
-* /usr/share/doc/kongress-25.04.0/README.md
+* /usr/share/doc/kongress-25.04.1/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.kongress.svg
 * /usr/share/knotifications6/kongressac.notifyrc
 * /usr/share/locale/ar/LC_MESSAGES/kongress.mo

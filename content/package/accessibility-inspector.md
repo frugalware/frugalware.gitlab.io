@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "accessibility-inspector 25.04.0-1"
-version = "25.04.0-1"
+title = "accessibility-inspector 25.04.1-1"
+version = "25.04.1-1"
 description = "Inspect your application accessibility tree"
-date = "2025-04-18T18:05:52"
+date = "2025-05-09T19:03:17"
 aliases = "/packages/221486"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "106968"
-usize = "524317"
-sha1sum = "cdd24282a4fa5b00c136acb3ba85427a8716f8c3"
+size = "109116"
+usize = "528704"
+sha1sum = "fcc313821594f21cff42764f11cc5c8f128be18e"
 depends = "['kconfigwidgets', 'kcoreaddons', 'kcrash', 'kdbusaddons', 'ki18n', 'kxmlgui', 'libqaccessibilityclient']"
 +++
 ### Description: 
@@ -21,7 +21,7 @@ Inspect your application accessibility tree
 * /usr/lib/libaccessibilityinspector.so.1
 * /usr/lib/libaccessibilityinspector.so.1.0
 * /usr/share/applications/org.kde.accessibilityinspector.desktop
-* /usr/share/doc/accessibility-inspector-25.04.0/README.md
+* /usr/share/doc/accessibility-inspector-25.04.1/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.accessibilityinspector.svg
 * /usr/share/locale/ast/LC_MESSAGES/accessibilityinspector.mo
 * /usr/share/locale/ca/LC_MESSAGES/accessibilityinspector.mo

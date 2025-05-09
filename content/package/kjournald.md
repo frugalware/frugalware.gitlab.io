@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kjournald 25.04.0-1"
-version = "25.04.0-1"
+title = "kjournald 25.04.1-1"
+version = "25.04.1-1"
 description = "Framework for interacting with systemd-journald"
-date = "2025-04-18T17:24:20"
+date = "2025-05-09T18:28:54"
 aliases = "/packages/220980"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "167056"
-usize = "652939"
-sha1sum = "2ab8a4b7f94e41a2a335348e72bb363fe993a811"
+size = "167520"
+usize = "654677"
+sha1sum = "7714a2da01b16bb8b5ab295b9d580485abdeb21f"
 depends = "['kcoreaddons', 'kcrash>=', 'ki18n', 'kirigami']"
 +++
 ### Description: 
@@ -20,13 +20,13 @@ Framework for interacting with systemd-journald
 * /usr/bin/kjournaldbrowser
 * /usr/lib/libkjournald.so
 * /usr/lib/libkjournald.so.0
-* /usr/lib/libkjournald.so.25.04.0
+* /usr/lib/libkjournald.so.25.04.1
 * /usr/lib/qt6/qml/org/kde/kjournald/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/kjournald/kjournald.qmltypes
 * /usr/lib/qt6/qml/org/kde/kjournald/libkjournaldplugin.so
 * /usr/lib/qt6/qml/org/kde/kjournald/qmldir
 * /usr/share/applications/org.kde.kjournaldbrowser.desktop
-* /usr/share/doc/kjournald-25.04.0/README.md
+* /usr/share/doc/kjournald-25.04.1/README.md
 * /usr/share/locale/ar/LC_MESSAGES/kjournald.mo
 * /usr/share/locale/ast/LC_MESSAGES/kjournald.mo
 * /usr/share/locale/ca/LC_MESSAGES/kjournald.mo

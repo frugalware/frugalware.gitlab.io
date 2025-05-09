@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "tokodon 25.04.0-1"
-version = "25.04.0-1"
+title = "tokodon 25.04.1-1"
+version = "25.04.1-1"
 description = "A Mastodon client for Plasma"
-date = "2025-04-18T17:40:19"
+date = "2025-05-09T18:45:44"
 aliases = "/packages/220996"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1592920"
-usize = "9172447"
-sha1sum = "66f3b4a4c8062165b0a163dade32aa26ce8306f7"
+size = "1643860"
+usize = "9340326"
+sha1sum = "efc363f024a1a3f3b83bd7a3bd412ab0ad9968fb"
 depends = "['kdbusaddons', 'kio', 'kirigami-addons', 'kitemmodels', 'knotifications', 'kunifiedpush', 'mpvqt', 'purpose', 'qqc2-desktop-style', 'qt6-websockets', 'qt6-webview', 'qtkeychain']"
 +++
 ### Description: 
@@ -21,7 +21,7 @@ A Mastodon client for Plasma
 * /usr/lib/qt6/plugins/kf6/purpose/tokodonplugin.so
 * /usr/share/applications/org.kde.tokodon.desktop
 * /usr/share/dbus-1/services/org.kde.tokodon.service
-* /usr/share/doc/tokodon-25.04.0/README.md
+* /usr/share/doc/tokodon-25.04.1/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.tokodon.svg
 * /usr/share/knotifications6/tokodon.notifyrc
 * /usr/share/locale/ar/LC_MESSAGES/tokodon.mo

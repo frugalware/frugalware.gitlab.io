@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "skanpage 25.04.0-1"
-version = "25.04.0-1"
+title = "skanpage 25.04.1-1"
+version = "25.04.1-1"
 description = "Utility to scan images and multi-page documents"
-date = "2025-04-18T18:02:31"
+date = "2025-05-09T18:59:59"
 aliases = "/packages/220994"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "202440"
-usize = "859115"
-sha1sum = "2b2ba572aa856f4b92e0e2c1e286c7a135da4e71"
+size = "206332"
+usize = "867446"
+sha1sum = "c218f74a80b1a892805ab03bb31593af9cf2ce61"
 depends = "['kirigami', 'kquickimageeditor', 'ksanecore', 'libgomp', 'purpose', 'qt6-webengine>=', 'tesseract-ocr']"
 +++
 ### Description: 
@@ -19,7 +19,7 @@ Utility to scan images and multi-page documents
 ### Files: 
 * /usr/bin/skanpage
 * /usr/share/applications/org.kde.skanpage.desktop
-* /usr/share/doc/skanpage-25.04.0/README.md
+* /usr/share/doc/skanpage-25.04.1/README.md
 * /usr/share/icons/hicolor/48x48/apps/skanpage.png
 * /usr/share/icons/hicolor/scalable/apps/skanpage.svg
 * /usr/share/locale/ar/LC_MESSAGES/skanpage.mo

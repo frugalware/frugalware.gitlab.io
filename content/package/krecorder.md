@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "krecorder 25.04.0-1"
-version = "25.04.0-1"
+title = "krecorder 25.04.1-1"
+version = "25.04.1-1"
 description = "Audio recorder for Plasma Mobile and other platforms"
-date = "2025-04-18T17:28:06"
+date = "2025-05-09T18:32:37"
 aliases = "/packages/220985"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "83692"
-usize = "321496"
-sha1sum = "e272d753ee20b3910d7dfa17a223d6798fdd4b7f"
+size = "84860"
+usize = "322627"
+sha1sum = "0d322b37f7870a7a41e6e54217f157b4250954cc"
 depends = "['kconfig', 'kcoreaddons', 'ki18n', 'kirigami-addons', 'kwindowsystem', 'qt6-multimedia', 'qt6-svg']"
 +++
 ### Description: 
@@ -19,7 +19,7 @@ Audio recorder for Plasma Mobile and other platforms
 ### Files: 
 * /usr/bin/krecorder
 * /usr/share/applications/org.kde.krecorder.desktop
-* /usr/share/doc/krecorder-25.04.0/README.md
+* /usr/share/doc/krecorder-25.04.1/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.krecorder.svg
 * /usr/share/locale/ar/LC_MESSAGES/krecorder.mo
 * /usr/share/locale/ast/LC_MESSAGES/krecorder.mo
