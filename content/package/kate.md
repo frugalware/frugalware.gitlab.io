@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kate 25.04.0-1"
-version = "25.04.0-1"
+title = "kate 25.04.1-1"
+version = "25.04.1-1"
 description = "KDE Advanced Text Editor."
-date = "2025-04-18T10:32:42"
+date = "2025-05-09T15:20:00"
 aliases = "/packages/118445"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "10269212"
-usize = "35488250"
-sha1sum = "42f0a4906a7f5510b3af03e18047bb10e6138a35"
-depends = "['kitemmodels>=6.13.0', 'knewstuff>=6.13.0', 'ktexteditor>=6.13.0', 'libgit2>=0.26', 'libplasma>=6.3.4', 'qt6-declarative>=6.9.0', 'threadweaver>=6.13.0']"
+size = "10303512"
+usize = "35580027"
+sha1sum = "3e81cfd14ec2432eec0f89dffa46843a07b4ad79"
+depends = "['kitemmodels>=6.13.0', 'knewstuff>=6.13.0', 'ktexteditor>=6.13.0', 'libgit2>=0.26', 'libplasma>=6.3.5', 'qt6-declarative>=6.9.0', 'threadweaver>=6.13.0']"
 +++
 ### Description: 
 KDE Advanced Text Editor.
@@ -19,7 +19,7 @@ KDE Advanced Text Editor.
 ### Files: 
 * /usr/bin/kate
 * /usr/bin/kwrite
-* /usr/lib/libkateprivate.so.25.04.0
+* /usr/lib/libkateprivate.so.25.04.1
 * /usr/lib/qt6/plugins/kf6/ktexteditor/cmaketoolsplugin.so
 * /usr/lib/qt6/plugins/kf6/ktexteditor/compilerexplorer.so
 * /usr/lib/qt6/plugins/kf6/ktexteditor/eslintplugin.so
@@ -415,7 +415,7 @@ KDE Advanced Text Editor.
 * /usr/share/doc/HTML/uk/katepart/vi.docbook
 * /usr/share/doc/HTML/uk/kwrite/index.cache.bz2
 * /usr/share/doc/HTML/uk/kwrite/index.docbook
-* /usr/share/doc/kate-25.04.0/README.md
+* /usr/share/doc/kate-25.04.1/README.md
 * /usr/share/icons/hicolor/128x128/apps/kate.png
 * /usr/share/icons/hicolor/128x128/apps/kwrite.png
 * /usr/share/icons/hicolor/150x150/apps/kate.png
@@ -1027,6 +1027,7 @@ KDE Advanced Text Editor.
 * /usr/share/locale/he/LC_MESSAGES/katefilebrowserplugin.mo
 * /usr/share/locale/he/LC_MESSAGES/katefiletree.mo
 * /usr/share/locale/he/LC_MESSAGES/kategitblameplugin.mo
+* /usr/share/locale/he/LC_MESSAGES/katekeyboardmacros.mo
 * /usr/share/locale/he/LC_MESSAGES/katekonsoleplugin.mo
 * /usr/share/locale/he/LC_MESSAGES/kateproject.mo
 * /usr/share/locale/he/LC_MESSAGES/katesearch.mo
