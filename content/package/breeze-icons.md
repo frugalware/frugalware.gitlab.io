@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "breeze-icons 6.13.0-1"
-version = "6.13.0-1"
+title = "breeze-icons 6.14.0-1"
+version = "6.14.0-1"
 description = "Icons for the Breeze visual style for the Plasma Desktop."
-date = "2025-04-13T17:38:15"
+date = "2025-05-10T10:32:44"
 aliases = "/packages/218259"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "7675488"
-usize = "48941415"
-sha1sum = "86215ead1d74662604d45ca830f03c0b103829da"
+size = "7677652"
+usize = "48911523"
+sha1sum = "b65cb53a6a50ad22273fadd691167309c5aef2c2"
 depends = "[]"
 reverse_depends = "['kiconthemes']"
 +++
@@ -28,10 +28,10 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/lib/cmake/KF6BreezeIcons/KF6BreezeIconsTargets.cmake
 * /usr/lib/libKF6BreezeIcons.so
 * /usr/lib/libKF6BreezeIcons.so.6
-* /usr/lib/libKF6BreezeIcons.so.6.13.0
-* /usr/share/doc/breeze-icons-6.13.0/COPYING-ICONS
-* /usr/share/doc/breeze-icons-6.13.0/COPYING.LIB
-* /usr/share/doc/breeze-icons-6.13.0/README.md
+* /usr/lib/libKF6BreezeIcons.so.6.14.0
+* /usr/share/doc/breeze-icons-6.14.0/COPYING-ICONS
+* /usr/share/doc/breeze-icons-6.14.0/COPYING.LIB
+* /usr/share/doc/breeze-icons-6.14.0/README.md
 * /usr/share/icons/breeze-dark/actions/12/mobile-close-app.svg
 * /usr/share/icons/breeze-dark/actions/12/mobile-task-switcher.svg
 * /usr/share/icons/breeze-dark/actions/12/object-fill.svg
@@ -10200,6 +10200,7 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/apps/48/org.texstudio.TeXstudio.svg
 * /usr/share/icons/breeze-dark/apps/48/org.tordini.flavio.Minitube.svg
 * /usr/share/icons/breeze-dark/apps/48/org.videolan.VLC.svg
+* /usr/share/icons/breeze-dark/apps/48/org.vinegarhq.Sober.svg
 * /usr/share/icons/breeze-dark/apps/48/org.winehq.Wine.svg
 * /usr/share/icons/breeze-dark/apps/48/org.xfce.screenshooter.svg
 * /usr/share/icons/breeze-dark/apps/48/parley.svg
@@ -14011,6 +14012,7 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/preferences/22/preferences-desktop-accessibility-symbolic.svg
 * /usr/share/icons/breeze-dark/preferences/22/preferences-desktop-accessibility.svg
 * /usr/share/icons/breeze-dark/preferences/22/preferences-desktop-activities.svg
+* /usr/share/icons/breeze-dark/preferences/22/preferences-desktop-animations.svg
 * /usr/share/icons/breeze-dark/preferences/22/preferences-desktop-baloo.svg
 * /usr/share/icons/breeze-dark/preferences/22/preferences-desktop-color.svg
 * /usr/share/icons/breeze-dark/preferences/22/preferences-desktop-cryptography.svg
@@ -14111,6 +14113,7 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/preferences/22/window-duplicate.svg
 * /usr/share/icons/breeze-dark/preferences/22/yast-disk.svg
 * /usr/share/icons/breeze-dark/preferences/24/preferences-desktop-accessibility-symbolic.svg
+* /usr/share/icons/breeze-dark/preferences/24/preferences-desktop-animations.svg
 * /usr/share/icons/breeze-dark/preferences/24/preferences-desktop-display-randr-symbolic.svg
 * /usr/share/icons/breeze-dark/preferences/24/preferences-desktop-emoticons-symbolic.svg
 * /usr/share/icons/breeze-dark/preferences/24/preferences-desktop-keyboard-shortcut-symbolic.svg
@@ -14141,6 +14144,7 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/preferences/32/podcast-amarok.svg
 * /usr/share/icons/breeze-dark/preferences/32/preferences-desktop-accessibility.svg
 * /usr/share/icons/breeze-dark/preferences/32/preferences-desktop-activities.svg
+* /usr/share/icons/breeze-dark/preferences/32/preferences-desktop-animations.svg
 * /usr/share/icons/breeze-dark/preferences/32/preferences-desktop-baloo.svg
 * /usr/share/icons/breeze-dark/preferences/32/preferences-desktop-color.svg
 * /usr/share/icons/breeze-dark/preferences/32/preferences-desktop-cryptography.svg
@@ -14646,9 +14650,6 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/status/16/security-medium.svg
 * /usr/share/icons/breeze-dark/status/16/semi-starred-symbolic-rtl.svg
 * /usr/share/icons/breeze-dark/status/16/semi-starred-symbolic.svg
-* /usr/share/icons/breeze-dark/status/16/smartphoneconnected.svg
-* /usr/share/icons/breeze-dark/status/16/smartphonedisconnected.svg
-* /usr/share/icons/breeze-dark/status/16/smartphonetrusted.svg
 * /usr/share/icons/breeze-dark/status/16/starred-symbolic.svg
 * /usr/share/icons/breeze-dark/status/16/state-download-symbolic.svg
 * /usr/share/icons/breeze-dark/status/16/state-download.svg
@@ -15394,11 +15395,8 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/status/22/nm-signal-75-symbolic.svg
 * /usr/share/icons/breeze-dark/status/22/nm-signal-75.svg
 * /usr/share/icons/breeze-dark/status/22/org.telegram.desktop-attention-symbolic.svg
-* /usr/share/icons/breeze-dark/status/22/org.telegram.desktop-attention.svg
 * /usr/share/icons/breeze-dark/status/22/org.telegram.desktop-mute-symbolic.svg
-* /usr/share/icons/breeze-dark/status/22/org.telegram.desktop-mute.svg
 * /usr/share/icons/breeze-dark/status/22/org.telegram.desktop-symbolic.svg
-* /usr/share/icons/breeze-dark/status/22/org.telegram.desktop.svg
 * /usr/share/icons/breeze-dark/status/22/plasmavault_error.svg
 * /usr/share/icons/breeze-dark/status/22/process-working-symbolic.svg
 * /usr/share/icons/breeze-dark/status/22/redshift-status-day-symbolic.svg
@@ -15422,9 +15420,9 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/status/22/security-medium-symbolic.svg
 * /usr/share/icons/breeze-dark/status/22/security-medium.svg
 * /usr/share/icons/breeze-dark/status/22/showinfo.svg
-* /usr/share/icons/breeze-dark/status/22/smartphoneconnected.svg
-* /usr/share/icons/breeze-dark/status/22/smartphonedisconnected.svg
-* /usr/share/icons/breeze-dark/status/22/smartphonetrusted.svg
+* /usr/share/icons/breeze-dark/status/22/snap.telegram.desktop.-attention-symbolic.svg
+* /usr/share/icons/breeze-dark/status/22/snap.telegram.desktop.-mute-symbolic.svg
+* /usr/share/icons/breeze-dark/status/22/snap.telegram.desktop.-symbolic.svg
 * /usr/share/icons/breeze-dark/status/22/state-download-symbolic.svg
 * /usr/share/icons/breeze-dark/status/22/state-download.svg
 * /usr/share/icons/breeze-dark/status/22/state-error-symbolic.svg
@@ -15921,9 +15919,6 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/status/24/security-low.svg
 * /usr/share/icons/breeze-dark/status/24/security-medium.svg
 * /usr/share/icons/breeze-dark/status/24/showinfo.svg
-* /usr/share/icons/breeze-dark/status/24/smartphoneconnected.svg
-* /usr/share/icons/breeze-dark/status/24/smartphonedisconnected.svg
-* /usr/share/icons/breeze-dark/status/24/smartphonetrusted.svg
 * /usr/share/icons/breeze-dark/status/24/state-download.svg
 * /usr/share/icons/breeze-dark/status/24/state-error.svg
 * /usr/share/icons/breeze-dark/status/24/state-information.svg
@@ -16123,9 +16118,6 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/status/32/rotation-locked-landscape.svg
 * /usr/share/icons/breeze-dark/status/32/rotation-locked-portrait-symbolic.svg
 * /usr/share/icons/breeze-dark/status/32/rotation-locked-portrait.svg
-* /usr/share/icons/breeze-dark/status/32/smartphoneconnected.svg
-* /usr/share/icons/breeze-dark/status/32/smartphonedisconnected.svg
-* /usr/share/icons/breeze-dark/status/32/smartphonetrusted.svg
 * /usr/share/icons/breeze-dark/status/32/software-updates-additional.svg
 * /usr/share/icons/breeze-dark/status/32/software-updates-important.svg
 * /usr/share/icons/breeze-dark/status/32/software-updates-inactive.svg
@@ -16146,9 +16138,6 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze-dark/status/64/security-high.svg
 * /usr/share/icons/breeze-dark/status/64/security-low.svg
 * /usr/share/icons/breeze-dark/status/64/security-medium.svg
-* /usr/share/icons/breeze-dark/status/64/smartphoneconnected.svg
-* /usr/share/icons/breeze-dark/status/64/smartphonedisconnected.svg
-* /usr/share/icons/breeze-dark/status/64/smartphonetrusted.svg
 * /usr/share/icons/breeze/actions/12/mobile-close-app.svg
 * /usr/share/icons/breeze/actions/12/mobile-task-switcher.svg
 * /usr/share/icons/breeze/actions/12/object-fill.svg
@@ -26335,6 +26324,7 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/apps/48/org.texstudio.TeXstudio.svg
 * /usr/share/icons/breeze/apps/48/org.tordini.flavio.Minitube.svg
 * /usr/share/icons/breeze/apps/48/org.videolan.VLC.svg
+* /usr/share/icons/breeze/apps/48/org.vinegarhq.Sober.svg
 * /usr/share/icons/breeze/apps/48/org.winehq.Wine.svg
 * /usr/share/icons/breeze/apps/48/org.xfce.screenshooter.svg
 * /usr/share/icons/breeze/apps/48/parley.svg
@@ -30363,6 +30353,7 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/preferences/22/preferences-desktop-accessibility-symbolic.svg
 * /usr/share/icons/breeze/preferences/22/preferences-desktop-accessibility.svg
 * /usr/share/icons/breeze/preferences/22/preferences-desktop-activities.svg
+* /usr/share/icons/breeze/preferences/22/preferences-desktop-animations.svg
 * /usr/share/icons/breeze/preferences/22/preferences-desktop-baloo.svg
 * /usr/share/icons/breeze/preferences/22/preferences-desktop-color.svg
 * /usr/share/icons/breeze/preferences/22/preferences-desktop-cryptography.svg
@@ -30469,6 +30460,7 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/preferences/24/preferences-desktop-accessibility-symbolic.svg
 * /usr/share/icons/breeze/preferences/24/preferences-desktop-accessibility.svg
 * /usr/share/icons/breeze/preferences/24/preferences-desktop-activities.svg
+* /usr/share/icons/breeze/preferences/24/preferences-desktop-animations.svg
 * /usr/share/icons/breeze/preferences/24/preferences-desktop-baloo.svg
 * /usr/share/icons/breeze/preferences/24/preferences-desktop-color.svg
 * /usr/share/icons/breeze/preferences/24/preferences-desktop-cryptography.svg
@@ -30584,6 +30576,7 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/preferences/32/podcast-amarok.svg
 * /usr/share/icons/breeze/preferences/32/preferences-desktop-accessibility.svg
 * /usr/share/icons/breeze/preferences/32/preferences-desktop-activities.svg
+* /usr/share/icons/breeze/preferences/32/preferences-desktop-animations.svg
 * /usr/share/icons/breeze/preferences/32/preferences-desktop-baloo.svg
 * /usr/share/icons/breeze/preferences/32/preferences-desktop-color.svg
 * /usr/share/icons/breeze/preferences/32/preferences-desktop-cryptography.svg
@@ -31089,9 +31082,6 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/status/16/security-medium.svg
 * /usr/share/icons/breeze/status/16/semi-starred-symbolic-rtl.svg
 * /usr/share/icons/breeze/status/16/semi-starred-symbolic.svg
-* /usr/share/icons/breeze/status/16/smartphoneconnected.svg
-* /usr/share/icons/breeze/status/16/smartphonedisconnected.svg
-* /usr/share/icons/breeze/status/16/smartphonetrusted.svg
 * /usr/share/icons/breeze/status/16/starred-symbolic.svg
 * /usr/share/icons/breeze/status/16/state-download-symbolic.svg
 * /usr/share/icons/breeze/status/16/state-download.svg
@@ -31837,11 +31827,8 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/status/22/nm-signal-75-symbolic.svg
 * /usr/share/icons/breeze/status/22/nm-signal-75.svg
 * /usr/share/icons/breeze/status/22/org.telegram.desktop-attention-symbolic.svg
-* /usr/share/icons/breeze/status/22/org.telegram.desktop-attention.svg
 * /usr/share/icons/breeze/status/22/org.telegram.desktop-mute-symbolic.svg
-* /usr/share/icons/breeze/status/22/org.telegram.desktop-mute.svg
 * /usr/share/icons/breeze/status/22/org.telegram.desktop-symbolic.svg
-* /usr/share/icons/breeze/status/22/org.telegram.desktop.svg
 * /usr/share/icons/breeze/status/22/plasmavault_error.svg
 * /usr/share/icons/breeze/status/22/process-working-symbolic.svg
 * /usr/share/icons/breeze/status/22/redshift-status-day-symbolic.svg
@@ -31865,9 +31852,9 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/status/22/security-medium-symbolic.svg
 * /usr/share/icons/breeze/status/22/security-medium.svg
 * /usr/share/icons/breeze/status/22/showinfo.svg
-* /usr/share/icons/breeze/status/22/smartphoneconnected.svg
-* /usr/share/icons/breeze/status/22/smartphonedisconnected.svg
-* /usr/share/icons/breeze/status/22/smartphonetrusted.svg
+* /usr/share/icons/breeze/status/22/snap.telegram.desktop.-attention-symbolic.svg
+* /usr/share/icons/breeze/status/22/snap.telegram.desktop.-mute-symbolic.svg
+* /usr/share/icons/breeze/status/22/snap.telegram.desktop.-symbolic.svg
 * /usr/share/icons/breeze/status/22/state-download-symbolic.svg
 * /usr/share/icons/breeze/status/22/state-download.svg
 * /usr/share/icons/breeze/status/22/state-error-symbolic.svg
@@ -32366,9 +32353,6 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/status/24/security-low.svg
 * /usr/share/icons/breeze/status/24/security-medium.svg
 * /usr/share/icons/breeze/status/24/showinfo.svg
-* /usr/share/icons/breeze/status/24/smartphoneconnected.svg
-* /usr/share/icons/breeze/status/24/smartphonedisconnected.svg
-* /usr/share/icons/breeze/status/24/smartphonetrusted.svg
 * /usr/share/icons/breeze/status/24/state-download.svg
 * /usr/share/icons/breeze/status/24/state-error.svg
 * /usr/share/icons/breeze/status/24/state-information.svg
@@ -32568,9 +32552,6 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/status/32/rotation-locked-landscape.svg
 * /usr/share/icons/breeze/status/32/rotation-locked-portrait-symbolic.svg
 * /usr/share/icons/breeze/status/32/rotation-locked-portrait.svg
-* /usr/share/icons/breeze/status/32/smartphoneconnected.svg
-* /usr/share/icons/breeze/status/32/smartphonedisconnected.svg
-* /usr/share/icons/breeze/status/32/smartphonetrusted.svg
 * /usr/share/icons/breeze/status/32/software-updates-additional.svg
 * /usr/share/icons/breeze/status/32/software-updates-important.svg
 * /usr/share/icons/breeze/status/32/software-updates-inactive.svg
@@ -32591,6 +32572,3 @@ Icons for the Breeze visual style for the Plasma Desktop.
 * /usr/share/icons/breeze/status/64/security-high.svg
 * /usr/share/icons/breeze/status/64/security-low.svg
 * /usr/share/icons/breeze/status/64/security-medium.svg
-* /usr/share/icons/breeze/status/64/smartphoneconnected.svg
-* /usr/share/icons/breeze/status/64/smartphonedisconnected.svg
-* /usr/share/icons/breeze/status/64/smartphonetrusted.svg

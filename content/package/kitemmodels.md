@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kitemmodels 6.13.0-1"
-version = "6.13.0-1"
+title = "kitemmodels 6.14.0-1"
+version = "6.14.0-1"
 description = "Set of item models extending the Qt model-view framework."
-date = "2025-04-13T17:58:11"
+date = "2025-05-10T10:53:00"
 aliases = "/packages/218325"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "142148"
-usize = "539169"
-sha1sum = "c0872f375cb48fb95d89a631f54569c544cdbede"
+size = "144548"
+usize = "541697"
+sha1sum = "a0b849b3c9eef037b18895c3f93985ae44343554"
 depends = "['qt6-base>=6.9.0']"
 reverse_depends = "['akonadi', 'akonadi-mime', 'ark', 'colord-kde', 'discover', 'drkonqi', 'itinerary', 'kate', 'kdeplasma-addons', 'kirigami-gallery', 'kleopatra', 'krunner', 'ktrip', 'libkleo', 'milou', 'neochat', 'plasma-nano', 'plasma-pa', 'plasma-settings', 'plasma-systemmonitor', 'plasma-vault', 'systemsettings', 'tokodon']"
 +++
@@ -46,11 +46,11 @@ Set of item models extending the Qt model-view framework.
 * /usr/lib/cmake/KF6ItemModels/KF6ItemModelsTargets.cmake
 * /usr/lib/libKF6ItemModels.so
 * /usr/lib/libKF6ItemModels.so.6
-* /usr/lib/libKF6ItemModels.so.6.13.0
+* /usr/lib/libKF6ItemModels.so.6.14.0
 * /usr/lib/qt6/qml/org/kde/kitemmodels/itemmodelsplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/kitemmodels/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/kitemmodels/libitemmodelsplugin.so
 * /usr/lib/qt6/qml/org/kde/kitemmodels/qmldir
-* /usr/share/doc/kitemmodels-6.13.0/README.md
+* /usr/share/doc/kitemmodels-6.14.0/README.md
 * /usr/share/qlogging-categories6/kitemmodels.categories
 * /usr/share/qlogging-categories6/kitemmodels.renamecategories

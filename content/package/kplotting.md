@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kplotting 6.13.0-1"
-version = "6.13.0-1"
+title = "kplotting 6.14.0-1"
+version = "6.14.0-1"
 description = "Framework providing easy data-plotting functions."
-date = "2025-04-13T17:42:57"
+date = "2025-05-10T10:37:25"
 aliases = "/packages/218344"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "43876"
-usize = "147782"
-sha1sum = "b731c10887f7467db3450ae44c2e5628979b06c9"
+size = "44228"
+usize = "148742"
+sha1sum = "20ecd8da5902848100a28b711b00ec2c670989ad"
 depends = "['qt6-base>=6.9.0']"
 reverse_depends = "['kdenlive', 'knights']"
 +++
@@ -34,6 +34,6 @@ Framework providing easy data-plotting functions.
 * /usr/lib/cmake/KF6Plotting/KF6PlottingTargets.cmake
 * /usr/lib/libKF6Plotting.so
 * /usr/lib/libKF6Plotting.so.6
-* /usr/lib/libKF6Plotting.so.6.13.0
+* /usr/lib/libKF6Plotting.so.6.14.0
 * /usr/lib/qt6/plugins/designer/kplotting6widgets.so
-* /usr/share/doc/kplotting-6.13.0/README.md
+* /usr/share/doc/kplotting-6.14.0/README.md

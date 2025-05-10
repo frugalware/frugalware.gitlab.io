@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kcoreaddons 6.13.0-1"
-version = "6.13.0-1"
+title = "kcoreaddons 6.14.0-1"
+version = "6.14.0-1"
 description = "Utilities for core application functionality and accessing the OS."
-date = "2025-04-13T17:59:15"
+date = "2025-05-10T10:54:02"
 aliases = "/packages/218286"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "481968"
-usize = "2121561"
-sha1sum = "f184aa97415ac47b890142acd3fa553085d5f17d"
+size = "486556"
+usize = "2129472"
+sha1sum = "9f1eec68dfd2597b865fef5b7650dccf3d933c1e"
 depends = "['qt6-base>=6.9.0', 'shared-mime-info']"
 reverse_depends = "['accessibility-inspector', 'alligator', 'audex', 'audiotube', 'breeze', 'calamares-frugalware', 'discover', 'disman', 'dolphin', 'francis', 'isoimagewriter', 'kalk', 'kalm', 'kauth', 'kcachegrind', 'kclock', 'kconfigwidgets', 'kcontacts', 'kcrash', 'kdav', 'kdebugsettings', 'kdecoration', 'kdeplasma-addons', 'kdiff3', 'kfilemetadata', 'kglobalacceld', 'kirigami-addons', 'kjournald', 'kongress', 'kontrast', 'kosmindoormap', 'kpackage', 'kpimtextedit', 'kpipewire', 'kpty', 'krecorder', 'krunner', 'ksmtp', 'ksvg', 'ktrip', 'kwin', 'libkcompactdisc', 'plasma5support', 'plasmatube', 'purpose', 'qmlkonsole', 'qrca', 'skanlite', 'skladnik', 'svgpart', 'sweeper', 'xwaylandvideobridge']"
 +++
@@ -98,12 +98,13 @@ Utilities for core application functionality and accessing the OS.
 * /usr/lib/cmake/KF6CoreAddons/KF6CoreAddonsTargets.cmake
 * /usr/lib/libKF6CoreAddons.so
 * /usr/lib/libKF6CoreAddons.so.6
-* /usr/lib/libKF6CoreAddons.so.6.13.0
+* /usr/lib/libKF6CoreAddons.so.6.14.0
+* /usr/lib/pkgconfig/KF6CoreAddons.pc
 * /usr/lib/qt6/qml/org/kde/coreaddons/kcoreaddonsplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/coreaddons/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/coreaddons/libkcoreaddonsplugin.so
 * /usr/lib/qt6/qml/org/kde/coreaddons/qmldir
-* /usr/share/doc/kcoreaddons-6.13.0/README.md
+* /usr/share/doc/kcoreaddons-6.14.0/README.md
 * /usr/share/kf6/jsonschema/kpluginmetadata.schema.json
 * /usr/share/locale/af/LC_MESSAGES/kcoreaddons6_qt.qm
 * /usr/share/locale/ar/LC_MESSAGES/kcoreaddons6_qt.qm

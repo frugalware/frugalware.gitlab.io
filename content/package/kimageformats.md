@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kimageformats 6.13.0-1"
-version = "6.13.0-1"
+title = "kimageformats 6.14.0-1"
+version = "6.14.0-1"
 description = "Image format plugins."
-date = "2025-04-13T17:47:49"
+date = "2025-05-10T10:42:28"
 aliases = "/packages/218319"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "341596"
-usize = "1435333"
-sha1sum = "40f8d153d34c5f8f5470c9ff9c7b651cb86131ee"
-depends = "['jasper>=1.900.1-10', 'karchive>=6.13.0', 'libavif', 'libheif', 'libraw', 'openexr>=3.3.0', 'qt6-base>=6.9.0']"
+size = "347440"
+usize = "1449405"
+sha1sum = "e7864a3389925177a98d7da050418835e2c14748"
+depends = "['jasper>=1.900.1-10', 'karchive>=6.14.0', 'libavif', 'libheif', 'libraw', 'openexr>=3.3.0', 'qt6-base>=6.9.0']"
 +++
 ### Description: 
 Image format plugins.
@@ -38,4 +38,4 @@ Image format plugins.
 * /usr/lib/qt6/plugins/imageformats/kimg_sct.so
 * /usr/lib/qt6/plugins/imageformats/kimg_tga.so
 * /usr/lib/qt6/plugins/imageformats/kimg_xcf.so
-* /usr/share/doc/kimageformats-6.13.0/README.md
+* /usr/share/doc/kimageformats-6.14.0/README.md

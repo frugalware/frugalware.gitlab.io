@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kdnssd 6.13.0-1"
-version = "6.13.0-1"
+title = "kdnssd 6.14.0-1"
+version = "6.14.0-1"
 description = "Zeroconf Support for KDE."
-date = "2025-04-13T17:52:02"
+date = "2025-05-10T10:46:48"
 aliases = "/packages/218304"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "77748"
-usize = "279391"
-sha1sum = "de3b088761cd9c23cb477799d1621c9ab46039d4"
+size = "79108"
+usize = "281311"
+sha1sum = "06dc1c9de75de3eabac6ec55b82bac56ffd3db9d"
 depends = "['avahi>=0.6.31-9', 'qt6-base>=6.9.0']"
 reverse_depends = "['kio-extras', 'kio-zeroconf', 'krdc', 'krfb', 'libkdegames', 'smb4k']"
 +++
@@ -42,8 +42,8 @@ Zeroconf Support for KDE.
 * /usr/lib/cmake/KF6DNSSD/KF6DNSSDTargets.cmake
 * /usr/lib/libKF6DNSSD.so
 * /usr/lib/libKF6DNSSD.so.6
-* /usr/lib/libKF6DNSSD.so.6.13.0
-* /usr/share/doc/kdnssd-6.13.0/README.md
+* /usr/lib/libKF6DNSSD.so.6.14.0
+* /usr/share/doc/kdnssd-6.14.0/README.md
 * /usr/share/locale/af/LC_MESSAGES/kdnssd6_qt.qm
 * /usr/share/locale/ar/LC_MESSAGES/kdnssd6_qt.qm
 * /usr/share/locale/as/LC_MESSAGES/kdnssd6_qt.qm
