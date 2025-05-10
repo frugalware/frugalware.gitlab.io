@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ktextwidgets 6.13.0-1"
-version = "6.13.0-1"
+title = "ktextwidgets 6.14.0-1"
+version = "6.14.0-1"
 description = "KDE Text editing widgets."
-date = "2025-04-13T18:22:18"
+date = "2025-05-10T11:41:26"
 aliases = "/packages/218355"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "272416"
-usize = "1477679"
-sha1sum = "3e87dafb9ce31bfeff5fd6b4d33e9b71273bbb7b"
-depends = "['kcompletion>=6.13.0', 'kiconthemes>=6.13.0', 'kservice>=6.13.0', 'qt6-speech>=6.9.0', 'sonnet>=6.13.0']"
+size = "273888"
+usize = "1479819"
+sha1sum = "c14f9566642199cc3555e69c5e14fc8857dbe279"
+depends = "['kcompletion>=6.14.0', 'kiconthemes>=6.14.0', 'kservice>=6.14.0', 'qt6-speech>=6.9.0', 'sonnet>=6.14.0']"
 reverse_depends = "['audex', 'dolphin', 'kxmlgui', 'libksane']"
 +++
 ### Description: 
@@ -42,9 +42,9 @@ KDE Text editing widgets.
 * /usr/lib/cmake/KF6TextWidgets/KF6TextWidgetsTargets.cmake
 * /usr/lib/libKF6TextWidgets.so
 * /usr/lib/libKF6TextWidgets.so.6
-* /usr/lib/libKF6TextWidgets.so.6.13.0
+* /usr/lib/libKF6TextWidgets.so.6.14.0
 * /usr/lib/qt6/plugins/designer/ktextwidgets6widgets.so
-* /usr/share/doc/ktextwidgets-6.13.0/README.md
+* /usr/share/doc/ktextwidgets-6.14.0/README.md
 * /usr/share/locale/af/LC_MESSAGES/ktextwidgets6.mo
 * /usr/share/locale/ar/LC_MESSAGES/ktextwidgets6.mo
 * /usr/share/locale/as/LC_MESSAGES/ktextwidgets6.mo

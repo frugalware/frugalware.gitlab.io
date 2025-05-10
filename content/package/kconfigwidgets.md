@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kconfigwidgets 6.13.0-1"
-version = "6.13.0-1"
+title = "kconfigwidgets 6.14.0-1"
+version = "6.14.0-1"
 description = "Widgets for KConfig."
-date = "2025-04-13T18:09:49"
+date = "2025-05-10T11:28:10"
 aliases = "/packages/218284"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "313408"
-usize = "1397262"
-sha1sum = "07144980e8bb21f411f8d5b410411ec188f4dc38"
-depends = "['kcodecs>=6.13.0', 'kcolorscheme>=6.13.0', 'kcoreaddons>=6.13.0', 'kwidgetsaddons>=6.13.0']"
+size = "313976"
+usize = "1398318"
+sha1sum = "7df7aa6f5505501b7d773924ddb5cb7635ac7692"
+depends = "['kcodecs>=6.14.0', 'kcolorscheme>=6.14.0', 'kcoreaddons>=6.14.0', 'kwidgetsaddons>=6.14.0']"
 reverse_depends = "['accessibility-inspector', 'audex', 'kaccounts-integration', 'kdeplasma-addons', 'kgamma', 'kiconthemes', 'kwin', 'libkmahjongg', 'libksysguard', 'qqc2-desktop-style', 'skladnik', 'sweeper']"
 +++
 ### Description: 
@@ -54,9 +54,9 @@ Widgets for KConfig.
 * /usr/lib/cmake/KF6ConfigWidgets/KF6ConfigWidgetsTargets.cmake
 * /usr/lib/libKF6ConfigWidgets.so
 * /usr/lib/libKF6ConfigWidgets.so.6
-* /usr/lib/libKF6ConfigWidgets.so.6.13.0
+* /usr/lib/libKF6ConfigWidgets.so.6.14.0
 * /usr/lib/qt6/plugins/designer/kconfigwidgets6widgets.so
-* /usr/share/doc/kconfigwidgets-6.13.0/README.md
+* /usr/share/doc/kconfigwidgets-6.14.0/README.md
 * /usr/share/locale/af/kf6_entry.desktop
 * /usr/share/locale/af/LC_MESSAGES/kconfigwidgets6.mo
 * /usr/share/locale/ar/kf6_entry.desktop
