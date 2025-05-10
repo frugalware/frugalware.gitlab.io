@@ -1,23 +1,24 @@
 +++
 draft = false
-title = "kwallet 6.13.0-1"
-version = "6.13.0-1"
+title = "kwallet 6.14.0-1"
+version = "6.14.0-1"
 description = "Safe desktop-wide storage for passwords."
-date = "2025-04-13T18:23:33"
+date = "2025-05-10T12:18:10"
 aliases = "/packages/221354"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "471840"
-usize = "2482799"
-sha1sum = "ed7ff4a336859a7c96055464bb0ff90e6e804baa"
-depends = "['knotifications>=6.13.0', 'libgpgmepp>=1.10.0', 'qca']"
+size = "509340"
+usize = "2452255"
+sha1sum = "77ac2c7db2e9b0cfa33537e1fbb9d436b263ead2"
+depends = "['knotifications>=6.14.0', 'libgpgmepp>=1.10.0', 'libsecret', 'qca']"
 reverse_depends = "['discover', 'falkon-kde', 'kio', 'krfb', 'ksshaskpass', 'kwallet-pam', 'libkgapi', 'libksane', 'signon-kwallet-extension', 'smb4k']"
 +++
 ### Description: 
 Safe desktop-wide storage for passwords.
 
 ### Files: 
+* /usr/bin/ksecretd
 * /usr/bin/kwallet-query
 * /usr/bin/kwalletd6
 * /usr/include/KF6/KWallet/KWallet
@@ -30,15 +31,16 @@ Safe desktop-wide storage for passwords.
 * /usr/lib/cmake/KF6Wallet/KF6WalletTargets.cmake
 * /usr/lib/libKF6Wallet.so
 * /usr/lib/libKF6Wallet.so.6
-* /usr/lib/libKF6Wallet.so.6.13.0
+* /usr/lib/libKF6Wallet.so.6.14.0
 * /usr/lib/libKF6WalletBackend.so.6
-* /usr/lib/libKF6WalletBackend.so.6.13.0
-* /usr/share/applications/org.kde.kwalletd6.desktop
+* /usr/lib/libKF6WalletBackend.so.6.14.0
+* /usr/share/applications/org.kde.ksecretd.desktop
 * /usr/share/dbus-1/interfaces/kf6_org.kde.KWallet.xml
 * /usr/share/dbus-1/services/org.kde.kwalletd5.service
 * /usr/share/dbus-1/services/org.kde.kwalletd6.service
-* /usr/share/doc/kwallet-6.13.0/README.md
-* /usr/share/knotifications6/kwalletd6.notifyrc
+* /usr/share/dbus-1/services/org.kde.secretservicecompat.service
+* /usr/share/doc/kwallet-6.14.0/README.md
+* /usr/share/knotifications6/ksecretd.notifyrc
 * /usr/share/locale/ar/LC_MESSAGES/kwallet6-query.mo
 * /usr/share/locale/ar/LC_MESSAGES/kwalletd6.mo
 * /usr/share/locale/ast/LC_MESSAGES/kwallet6-query.mo

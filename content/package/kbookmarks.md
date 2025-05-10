@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kbookmarks 6.13.0-1"
-version = "6.13.0-1"
+title = "kbookmarks 6.14.0-1"
+version = "6.14.0-1"
 description = "Framework that let you access and manipulate bookmarks stored using XBEL format."
-date = "2025-04-13T18:27:06"
+date = "2025-05-10T12:24:39"
 aliases = "/packages/218277"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "112184"
-usize = "525894"
-sha1sum = "8cddd55f22f561bff7f9002d4fd1dc08cd113cd4"
-depends = "['kxmlgui>=6.13.0']"
+size = "113888"
+usize = "528358"
+sha1sum = "2c5c7366228f083ab2b0f95820df5734bdaa384e"
+depends = "['kxmlgui>=6.14.0']"
 reverse_depends = "['dolphin', 'kcharselect', 'kio']"
 +++
 ### Description: 
@@ -45,11 +45,11 @@ Framework that let you access and manipulate bookmarks stored using XBEL format.
 * /usr/lib/cmake/KF6Bookmarks/KF6BookmarksTargets.cmake
 * /usr/lib/libKF6Bookmarks.so
 * /usr/lib/libKF6Bookmarks.so.6
-* /usr/lib/libKF6Bookmarks.so.6.13.0
+* /usr/lib/libKF6Bookmarks.so.6.14.0
 * /usr/lib/libKF6BookmarksWidgets.so
 * /usr/lib/libKF6BookmarksWidgets.so.6
-* /usr/lib/libKF6BookmarksWidgets.so.6.13.0
-* /usr/share/doc/kbookmarks-6.13.0/README.md
+* /usr/lib/libKF6BookmarksWidgets.so.6.14.0
+* /usr/share/doc/kbookmarks-6.14.0/README.md
 * /usr/share/locale/af/LC_MESSAGES/kbookmarks6_qt.qm
 * /usr/share/locale/ar/LC_MESSAGES/kbookmarks6_qt.qm
 * /usr/share/locale/ast/LC_MESSAGES/kbookmarks6_qt.qm

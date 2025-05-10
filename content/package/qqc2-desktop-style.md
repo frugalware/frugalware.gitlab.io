@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qqc2-desktop-style 6.13.0-1"
-version = "6.13.0-1"
+title = "qqc2-desktop-style 6.14.0-1"
+version = "6.14.0-1"
 description = "QtQuickControls2 style that uses QWidget's QStyle for painting."
-date = "2025-04-13T18:48:48"
+date = "2025-05-10T12:45:53"
 aliases = "/packages/219485"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "416548"
-usize = "2384282"
-sha1sum = "662362612f9ebbdbbe754a0ec9b4e5c577cf68ed"
-depends = "['kconfigwidgets>=6.13.0', 'kiconthemes>=6.13.0', 'kirigami>=6.13.0']"
+size = "435912"
+usize = "2439589"
+sha1sum = "a764db1a5900b7e4c0334896caea356c8a964129"
+depends = "['kconfigwidgets>=6.14.0', 'kiconthemes>=6.14.0', 'kirigami>=6.14.0']"
 reverse_depends = "['angelfish', 'arianna', 'elisa', 'filelight', 'itinerary', 'kalm', 'kdeconnect-kde', 'keysmith', 'ktrip', 'merkuro', 'neochat', 'plasma-desktop', 'telly-skout', 'tokodon']"
 +++
 ### Description: 
@@ -94,7 +94,7 @@ QtQuickControls2 style that uses QWidget's QStyle for painting.
 * /usr/lib/qt6/qml/org/kde/qqc2desktopstyle/private/libqqc2desktopstyleplugin.so
 * /usr/lib/qt6/qml/org/kde/qqc2desktopstyle/private/qmldir
 * /usr/lib/qt6/qml/org/kde/qqc2desktopstyle/private/qqc2desktopstyleplugin.qmltypes
-* /usr/share/doc/qqc2-desktop-style-6.13.0/README.md
+* /usr/share/doc/qqc2-desktop-style-6.14.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/qqc2desktopstyle_qt.qm
 * /usr/share/locale/ast/LC_MESSAGES/qqc2desktopstyle_qt.qm
 * /usr/share/locale/ca/LC_MESSAGES/qqc2desktopstyle_qt.qm

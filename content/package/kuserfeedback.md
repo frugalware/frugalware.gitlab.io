@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kuserfeedback 6.13.0-1"
-version = "6.13.0-1"
+title = "kuserfeedback 6.14.0-1"
+version = "6.14.0-1"
 description = "Framework for collecting user feedback for applications via telemetry and surveys"
-date = "2025-04-13T18:53:54"
+date = "2025-05-10T12:50:42"
 aliases = "/packages/220607"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "520952"
-usize = "2839488"
-sha1sum = "6942a5703ab4779e17b117a3ffacc1eea17c699a"
+size = "305348"
+usize = "2036061"
+sha1sum = "4145ca6be1f71ff23054de26588edb9c5244cc13"
 depends = "['qt6-charts>=_F_kdever_qt6', 'qt6-declarative>=', 'qt6-svg>=_F_kdever_qt6']"
 reverse_depends = "['discover', 'labplot', 'plasma-welcome', 'plasma-workspace']"
 +++
@@ -18,8 +18,6 @@ reverse_depends = "['discover', 'labplot', 'plasma-welcome', 'plasma-workspace']
 Framework for collecting user feedback for applications via telemetry and surveys
 
 ### Files: 
-* /usr/bin/UserFeedbackConsole
-* /usr/bin/userfeedbackctl
 * /usr/include/KF6/KUserFeedback/kuserfeedback_version.h
 * /usr/include/KF6/KUserFeedbackCore/KUserFeedback/AbstractDataSource
 * /usr/include/KF6/KUserFeedbackCore/kuserfeedback/abstractdatasource.h
@@ -69,20 +67,19 @@ Framework for collecting user feedback for applications via telemetry and survey
 * /usr/lib/cmake/KF6UserFeedback/KF6UserFeedbackTarget.cmake
 * /usr/lib/libKF6UserFeedbackCore.so
 * /usr/lib/libKF6UserFeedbackCore.so.6
-* /usr/lib/libKF6UserFeedbackCore.so.6.13.0
+* /usr/lib/libKF6UserFeedbackCore.so.6.14.0
 * /usr/lib/libKF6UserFeedbackWidgets.so
 * /usr/lib/libKF6UserFeedbackWidgets.so.6
-* /usr/lib/libKF6UserFeedbackWidgets.so.6.13.0
+* /usr/lib/libKF6UserFeedbackWidgets.so.6.14.0
 * /usr/lib/qt6/mkspecs/modules/qt_KF6UserFeedbackCore.pri
 * /usr/lib/qt6/mkspecs/modules/qt_KF6UserFeedbackWidgets.pri
 * /usr/lib/qt6/qml/org/kde/userfeedback/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/userfeedback/KF6UserFeedbackQml.qmltypes
 * /usr/lib/qt6/qml/org/kde/userfeedback/libKF6UserFeedbackQml.so
 * /usr/lib/qt6/qml/org/kde/userfeedback/qmldir
-* /usr/share/applications/org.kde.kuserfeedback-console.desktop
-* /usr/share/doc/kuserfeedback-6.13.0/COPYING.LIB
-* /usr/share/doc/kuserfeedback-6.13.0/INSTALL
-* /usr/share/doc/kuserfeedback-6.13.0/README.md
+* /usr/share/doc/kuserfeedback-6.14.0/COPYING.LIB
+* /usr/share/doc/kuserfeedback-6.14.0/INSTALL
+* /usr/share/doc/kuserfeedback-6.14.0/README.md
 * /usr/share/KDE/UserFeedbackConsole/user-feedback-manual.qch
 * /usr/share/locale/ar/LC_MESSAGES/userfeedbackconsole6_qt.qm
 * /usr/share/locale/ar/LC_MESSAGES/userfeedbackprovider6_qt.qm
@@ -169,5 +166,4 @@ Framework for collecting user feedback for applications via telemetry and survey
 * /usr/share/locale/zh_CN/LC_MESSAGES/userfeedbackprovider6_qt.qm
 * /usr/share/locale/zh_TW/LC_MESSAGES/userfeedbackconsole6_qt.qm
 * /usr/share/locale/zh_TW/LC_MESSAGES/userfeedbackprovider6_qt.qm
-* /usr/share/metainfo/org.kde.kuserfeedback-console.appdata.xml
 * /usr/share/qlogging-categories6/org_kde_UserFeedback.categories
