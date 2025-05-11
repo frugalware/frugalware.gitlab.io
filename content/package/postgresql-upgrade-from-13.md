@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "postgresql-upgrade-from-13 13.20-1"
-version = "13.20-1"
+title = "postgresql-upgrade-from-13 13.21-1"
+version = "13.21-1"
 description = "Seperate latest 13 PGSQL for pg_upgrade"
-date = "2025-02-21T09:19:00"
+date = "2025-05-11T16:16:36"
 aliases = "/packages/220627"
 categories = ['apps-extra']
 upstreamurl = "http://www.postgresql.org/"
 arch = "x86_64"
-size = "474936"
-usize = "1968491"
-sha1sum = "da929a31daca0c684300da24682bf17d67b19d7e"
-depends = "['libpq>=13.20', 'libxml2>=2.9.4-3', 'ncurses>=6.0-16', 'openssl>=3.1.0', 'python3>=3.13', 'readline>=6.3-14']"
+size = "476864"
+usize = "1971459"
+sha1sum = "0fa77941879ed40a2e049ab9eb8f92dac96da78e"
+depends = "['libpq>=13.21', 'libxml2>=2.9.4-3', 'ncurses>=6.0-16', 'openssl>=3.1.0', 'python3>=3.13', 'readline>=6.3-14']"
 +++
 ### Description: 
 Seperate latest 13 PGSQL for pg_upgrade
@@ -282,11 +282,11 @@ Seperate latest 13 PGSQL for pg_upgrade
 * /opt/pgsql-13/share/extension/xml2.control
 * /opt/pgsql-13/share/tsearch_data/unaccent.rules
 * /opt/pgsql-13/share/tsearch_data/xsyn_sample.rules
-* /usr/share/doc/postgresql-upgrade-from-13-13.20/COPYRIGHT
-* /usr/share/doc/postgresql-upgrade-from-13-13.20/extension/autoinc.example
-* /usr/share/doc/postgresql-upgrade-from-13-13.20/extension/insert_username.example
-* /usr/share/doc/postgresql-upgrade-from-13-13.20/extension/moddatetime.example
-* /usr/share/doc/postgresql-upgrade-from-13-13.20/extension/refint.example
-* /usr/share/doc/postgresql-upgrade-from-13-13.20/HISTORY
-* /usr/share/doc/postgresql-upgrade-from-13-13.20/INSTALL
-* /usr/share/doc/postgresql-upgrade-from-13-13.20/README
+* /usr/share/doc/postgresql-upgrade-from-13-13.21/COPYRIGHT
+* /usr/share/doc/postgresql-upgrade-from-13-13.21/extension/autoinc.example
+* /usr/share/doc/postgresql-upgrade-from-13-13.21/extension/insert_username.example
+* /usr/share/doc/postgresql-upgrade-from-13-13.21/extension/moddatetime.example
+* /usr/share/doc/postgresql-upgrade-from-13-13.21/extension/refint.example
+* /usr/share/doc/postgresql-upgrade-from-13-13.21/HISTORY
+* /usr/share/doc/postgresql-upgrade-from-13-13.21/INSTALL
+* /usr/share/doc/postgresql-upgrade-from-13-13.21/README
