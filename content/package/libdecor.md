@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libdecor 0.2.2-1"
-version = "0.2.2-1"
+title = "libdecor 0.2.2-2"
+version = "0.2.2-2"
 description = "Client-side decorations library for Wayland clients"
-date = "2025-05-09T14:17:34"
+date = "2025-05-11T12:36:05"
 aliases = "/packages/222712"
-categories = ['lib-extra']
+categories = ['lib']
 upstreamurl = "https://gitlab.freedesktop.org/libdecor/libdecor"
 arch = "x86_64"
-size = "41480"
+size = "41352"
 usize = "161921"
-sha1sum = "392afe5b80b55cd145f9e1a7e0435b4b6ff99acf"
+sha1sum = "fcce7f9ad8f33b5c393710384140fb581fb7c911"
 depends = "['dbus', 'gtk+3', 'pango', 'wayland']"
 reverse_depends = "['mesademos']"
 +++
