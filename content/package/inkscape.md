@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "inkscape 1.4.1-3"
-version = "1.4.1-3"
+title = "inkscape 1.4.2-1"
+version = "1.4.2-1"
 description = "A vector illustrator program"
-date = "2025-05-06T11:44:44"
+date = "2025-05-11T17:04:27"
 aliases = "/packages/3102"
 categories = ['xapps-extra']
 upstreamurl = "https://www.inkscape.org/"
 arch = "x86_64"
-size = "25959804"
-usize = "183655351"
-sha1sum = "9e44ee13c61dec34e86ac85e02b9a995443829fb"
+size = "25977736"
+usize = "183286066"
+sha1sum = "47a49ffcb751f32945cb3be2ff0132f566609781"
 depends = "['dbus', 'double-conversion', 'gdl', 'graphicsmagick', 'gsl>=2.8', 'gspell>=1.14.0', 'gtkmm3', 'gtksourceview4', 'gtkspell3', 'imagemagick', 'jemalloc', 'libboost>=1.87.0', 'libcdr', 'libgc', 'libgomp', 'libsoup', 'libvisio', 'libxslt', 'poppler-glib>=25.05.0', 'potrace']"
 +++
 ### Description: 
@@ -114,16 +114,16 @@ A vector illustrator program
 * /usr/lib/cmake/2Geom/2GeomTargets-release.cmake
 * /usr/lib/cmake/2Geom/2GeomTargets.cmake
 * /usr/lib/inkscape/libinkscape_base.so
-* /usr/lib/inkscape/libinkscape_base.so.1.4.1.0
+* /usr/lib/inkscape/libinkscape_base.so.1.4.2.0
 * /usr/lib/lib2geom.so
 * /usr/lib/lib2geom.so.1.4.0
 * /usr/lib/pkgconfig/2geom.pc
 * /usr/share/applications/org.inkscape.Inkscape.desktop
 * /usr/share/bash-completion/completions/inkscape
-* /usr/share/doc/inkscape-1.4.1/AUTHORS
-* /usr/share/doc/inkscape-1.4.1/COPYING
-* /usr/share/doc/inkscape-1.4.1/INSTALL.md
-* /usr/share/doc/inkscape-1.4.1/README.md
+* /usr/share/doc/inkscape-1.4.2/AUTHORS
+* /usr/share/doc/inkscape-1.4.2/COPYING
+* /usr/share/doc/inkscape-1.4.2/INSTALL.md
+* /usr/share/doc/inkscape-1.4.2/README.md
 * /usr/share/icons/hicolor/16x16/apps/org.inkscape.Inkscape.png
 * /usr/share/icons/hicolor/22x22/apps/org.inkscape.Inkscape.png
 * /usr/share/icons/hicolor/24x24/apps/org.inkscape.Inkscape.png
@@ -828,6 +828,30 @@ A vector illustrator program
 * /usr/share/inkscape/extensions/other/extension-afdesign/LICENSE
 * /usr/share/inkscape/extensions/other/extension-afdesign/LICENSES/GPL-2.0-or-later.txt
 * /usr/share/inkscape/extensions/other/extension-afdesign/REUSE.toml
+* /usr/share/inkscape/extensions/other/extension-curve/inkvn-curve.inx
+* /usr/share/inkscape/extensions/other/extension-curve/inkvn.inx
+* /usr/share/inkscape/extensions/other/extension-curve/inkvn/elements/artboard.py
+* /usr/share/inkscape/extensions/other/extension-curve/inkvn/elements/base.py
+* /usr/share/inkscape/extensions/other/extension-curve/inkvn/elements/group.py
+* /usr/share/inkscape/extensions/other/extension-curve/inkvn/elements/guide.py
+* /usr/share/inkscape/extensions/other/extension-curve/inkvn/elements/image.py
+* /usr/share/inkscape/extensions/other/extension-curve/inkvn/elements/path.py
+* /usr/share/inkscape/extensions/other/extension-curve/inkvn/elements/styles.py
+* /usr/share/inkscape/extensions/other/extension-curve/inkvn/elements/text.py
+* /usr/share/inkscape/extensions/other/extension-curve/inkvn/elements/__init__.py
+* /usr/share/inkscape/extensions/other/extension-curve/inkvn/reader/decode.py
+* /usr/share/inkscape/extensions/other/extension-curve/inkvn/reader/decode_vn.py
+* /usr/share/inkscape/extensions/other/extension-curve/inkvn/reader/extract.py
+* /usr/share/inkscape/extensions/other/extension-curve/inkvn/reader/read.py
+* /usr/share/inkscape/extensions/other/extension-curve/inkvn/reader/text.py
+* /usr/share/inkscape/extensions/other/extension-curve/inkvn/reader/__init__.py
+* /usr/share/inkscape/extensions/other/extension-curve/inkvn/svg/convert.py
+* /usr/share/inkscape/extensions/other/extension-curve/inkvn/svg/__init__.py
+* /usr/share/inkscape/extensions/other/extension-curve/inkvn/utils.py
+* /usr/share/inkscape/extensions/other/extension-curve/inkvn/vninput.py
+* /usr/share/inkscape/extensions/other/extension-curve/inkvn/__init__.py
+* /usr/share/inkscape/extensions/other/extension-curve/inkvn/__main__.py
+* /usr/share/inkscape/extensions/other/extension-curve/LICENSE
 * /usr/share/inkscape/extensions/other/extension-xaml/docs/svg2xaml.rst
 * /usr/share/inkscape/extensions/other/extension-xaml/inkxaml/export/base.py
 * /usr/share/inkscape/extensions/other/extension-xaml/inkxaml/export/config.py
