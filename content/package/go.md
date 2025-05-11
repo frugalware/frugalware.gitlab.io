@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "go 1.24.2-1"
-version = "1.24.2-1"
+title = "go 1.24.3-1"
+version = "1.24.3-1"
 description = "Compiler and tools for the Go programming language from Google"
-date = "2025-04-01T21:16:25"
+date = "2025-05-11T14:44:43"
 aliases = "/packages/200076"
 categories = ['devel-extra']
 upstreamurl = "http://golang.org/"
 arch = "x86_64"
-size = "118671984"
-usize = "327358369"
-sha1sum = "e521c221200e0c74487deee830cd241cea478396"
+size = "118711484"
+usize = "327449432"
+sha1sum = "d0b26669211f68ca89812eaebf0f8d1cd97d4205"
 depends = "['gawk', 'perl>=5.28.2']"
 reverse_depends = "['audit-go']"
 +++
@@ -3496,6 +3496,7 @@ Compiler and tools for the Go programming language from Google
 * /usr/lib/go/src/cmd/link/testdata/linkname/ok.go
 * /usr/lib/go/src/cmd/link/testdata/linkname/p/p.go
 * /usr/lib/go/src/cmd/link/testdata/linkname/push.go
+* /usr/lib/go/src/cmd/link/testdata/linkname/sched.go
 * /usr/lib/go/src/cmd/link/testdata/pe-binutils/main.go
 * /usr/lib/go/src/cmd/link/testdata/pe-binutils/rsrc_386.syso
 * /usr/lib/go/src/cmd/link/testdata/pe-binutils/rsrc_amd64.syso
@@ -14157,9 +14158,9 @@ Compiler and tools for the Go programming language from Google
 * /usr/lib/go/test/writebarrier.go
 * /usr/lib/go/test/zerodivide.go
 * /usr/lib/go/test/zerosize.go
-* /usr/share/doc/go-1.24.2/LICENSE
-* /usr/share/doc/go-1.24.2/README.md
-* /usr/share/doc/go-1.24.2/VERSION
+* /usr/share/doc/go-1.24.3/LICENSE
+* /usr/share/doc/go-1.24.3/README.md
+* /usr/share/doc/go-1.24.3/VERSION
 * /usr/share/go/doc/asm.html
 * /usr/share/go/doc/go1.17_spec.html
 * /usr/share/go/doc/godebug.md

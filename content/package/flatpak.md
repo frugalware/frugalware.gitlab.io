@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "flatpak 1.16.0-2"
-version = "1.16.0-2"
+title = "flatpak 1.16.1-1"
+version = "1.16.1-1"
 description = "Linux application sandboxing and distribution framework (formerly xdg-app)"
-date = "2025-03-25T22:27:16"
+date = "2025-05-11T14:42:56"
 aliases = "/packages/220841"
 categories = ['apps-extra']
 upstreamurl = "https://flatpak.org"
 arch = "x86_64"
-size = "1580872"
-usize = "8193161"
-sha1sum = "f66256c31ce39f0110faefefa74041c7b2260d56"
+size = "1616476"
+usize = "8404105"
+sha1sum = "9ac9ed542100578a873b1034f3f600fe65fdca39"
 depends = "['appstream>=1.0.0', 'bubblewrap>=0.10.0', 'gdk-pixbuf2', 'json-glib', 'libseccomp', 'ostree', 'polkit', 'socat', 'xdg-dbus-proxy']"
 reverse_depends = "['discover', 'flatpak-kcm']"
 +++
@@ -46,7 +46,7 @@ Linux application sandboxing and distribution framework (formerly xdg-app)
 * /usr/lib/girepository-1.0/Flatpak-1.0.typelib
 * /usr/lib/libflatpak.so
 * /usr/lib/libflatpak.so.0
-* /usr/lib/libflatpak.so.0.11600.0
+* /usr/lib/libflatpak.so.0.11601.0
 * /usr/lib/pkgconfig/flatpak.pc
 * /usr/lib/systemd/system-environment-generators/60-flatpak-system-only
 * /usr/lib/systemd/system/flatpak-system-helper.service
@@ -65,9 +65,9 @@ Linux application sandboxing and distribution framework (formerly xdg-app)
 * /usr/share/dbus-1/services/org.freedesktop.portal.Flatpak.service
 * /usr/share/dbus-1/system-services/org.freedesktop.Flatpak.SystemHelper.service
 * /usr/share/dbus-1/system.d/org.freedesktop.Flatpak.SystemHelper.conf
-* /usr/share/doc/flatpak-1.16.0/COPYING
-* /usr/share/doc/flatpak-1.16.0/NEWS
-* /usr/share/doc/flatpak-1.16.0/README.md
+* /usr/share/doc/flatpak-1.16.1/COPYING
+* /usr/share/doc/flatpak-1.16.1/NEWS
+* /usr/share/doc/flatpak-1.16.1/README.md
 * /usr/share/doc/flatpak/docbook.css
 * /usr/share/doc/flatpak/flatpak-docs.html
 * /usr/share/fish/vendor_completions.d/flatpak.fish
@@ -113,6 +113,7 @@ Linux application sandboxing and distribution framework (formerly xdg-app)
 * /usr/share/gtk-doc/html/flatpak/style.css
 * /usr/share/gtk-doc/html/flatpak/up-insensitive.png
 * /usr/share/gtk-doc/html/flatpak/up.png
+* /usr/share/locale/bg/LC_MESSAGES/flatpak.mo
 * /usr/share/locale/cs/LC_MESSAGES/flatpak.mo
 * /usr/share/locale/da/LC_MESSAGES/flatpak.mo
 * /usr/share/locale/de/LC_MESSAGES/flatpak.mo
@@ -133,6 +134,7 @@ Linux application sandboxing and distribution framework (formerly xdg-app)
 * /usr/share/locale/ro/LC_MESSAGES/flatpak.mo
 * /usr/share/locale/ru/LC_MESSAGES/flatpak.mo
 * /usr/share/locale/sk/LC_MESSAGES/flatpak.mo
+* /usr/share/locale/sl/LC_MESSAGES/flatpak.mo
 * /usr/share/locale/sv/LC_MESSAGES/flatpak.mo
 * /usr/share/locale/tr/LC_MESSAGES/flatpak.mo
 * /usr/share/locale/uk/LC_MESSAGES/flatpak.mo
