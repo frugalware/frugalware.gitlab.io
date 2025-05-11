@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "rclone 1.69.1-1"
-version = "1.69.1-1"
+title = "rclone 1.69.2-1"
+version = "1.69.2-1"
 description = "Sync files to and from Google Drive, S3, Swift, Cloudfiles, Dropbox and Google Cloud Storage"
-date = "2025-02-16T09:50:49"
+date = "2025-05-11T15:22:27"
 aliases = "/packages/220937"
 categories = ['apps-extra']
 upstreamurl = "https://rclone.org/"
 arch = "x86_64"
-size = "21850736"
-usize = "93045839"
-sha1sum = "56a1b824ee6b785a3162ea2bbda85330ae2a7f79"
+size = "21845468"
+usize = "93106318"
+sha1sum = "3fe8849145dbcfb89de2e344e7883dbbd707a024"
 depends = "['fuse', 'glibc']"
 +++
 ### Description: 
@@ -21,9 +21,9 @@ Sync files to and from Google Drive, S3, Swift, Cloudfiles, Dropbox and Google C
 * /usr/bin/rclone
 * /usr/bin/rclonefs
 * /usr/share/bash-completion/completions/rclone
-* /usr/share/doc/rclone-1.69.1/COPYING
-* /usr/share/doc/rclone-1.69.1/README.md
-* /usr/share/doc/rclone-1.69.1/RELEASE.md
-* /usr/share/doc/rclone-1.69.1/VERSION
+* /usr/share/doc/rclone-1.69.2/COPYING
+* /usr/share/doc/rclone-1.69.2/README.md
+* /usr/share/doc/rclone-1.69.2/RELEASE.md
+* /usr/share/doc/rclone-1.69.2/VERSION
 * /usr/share/man/man1/rclone.1.gz
 * /usr/share/zsh/site-functions/_rclone

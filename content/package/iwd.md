@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "iwd 3.6-1"
-version = "3.6-1"
+title = "iwd 3.8-1"
+version = "3.8-1"
 description = "Internet Wireless Daemon"
-date = "2025-04-03T08:38:49"
+date = "2025-05-11T15:28:01"
 aliases = "/packages/221492"
 categories = ['apps-extra']
 upstreamurl = "https://git.kernel.org/cgit/network/wireless/iwd.git/"
 arch = "x86_64"
-size = "584408"
-usize = "2142389"
-sha1sum = "3e2e69af4135ef5abcc5d277bc8eb9dd9096314e"
-depends = "['ell>=0.66', 'ncurses', 'readline']"
+size = "592264"
+usize = "2149705"
+sha1sum = "0324ca6221b2b2d001589e7bb5faf247d87b2e46"
+depends = "['ell>=0.77', 'ncurses', 'readline']"
 +++
 ### Description: 
 Internet Wireless Daemon
@@ -31,12 +31,12 @@ Internet Wireless Daemon
 * /usr/share/dbus-1/system.d/ead-dbus.conf
 * /usr/share/dbus-1/system.d/hwsim-dbus.conf
 * /usr/share/dbus-1/system.d/iwd-dbus.conf
-* /usr/share/doc/iwd-3.6/AUTHORS
-* /usr/share/doc/iwd-3.6/ChangeLog
-* /usr/share/doc/iwd-3.6/COPYING
-* /usr/share/doc/iwd-3.6/INSTALL
-* /usr/share/doc/iwd-3.6/README
-* /usr/share/doc/iwd-3.6/TODO
+* /usr/share/doc/iwd-3.8/AUTHORS
+* /usr/share/doc/iwd-3.8/ChangeLog
+* /usr/share/doc/iwd-3.8/COPYING
+* /usr/share/doc/iwd-3.8/INSTALL
+* /usr/share/doc/iwd-3.8/README
+* /usr/share/doc/iwd-3.8/TODO
 * /usr/share/man/man1/hwsim.1.gz
 * /usr/share/man/man1/iwctl.1.gz
 * /usr/share/man/man1/iwmon.1.gz

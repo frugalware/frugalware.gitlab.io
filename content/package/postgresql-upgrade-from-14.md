@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "postgresql-upgrade-from-14 14.17-1"
-version = "14.17-1"
+title = "postgresql-upgrade-from-14 14.18-1"
+version = "14.18-1"
 description = "Seperate latest 14 PGSQL for pg_upgrade"
-date = "2025-02-21T09:05:26"
+date = "2025-05-11T16:14:23"
 aliases = "/packages/220628"
 categories = ['apps-extra']
 upstreamurl = "http://www.postgresql.org/"
 arch = "x86_64"
-size = "488264"
-usize = "2031267"
-sha1sum = "79038e669927fb980624ecfe9ef25a1000806978"
-depends = "['libpq>=14.17', 'libxml2>=2.9.4-3', 'ncurses>=6.0-16', 'openssl>=3.1.0', 'python3>=3.13', 'readline>=6.3-14']"
+size = "491092"
+usize = "2033019"
+sha1sum = "f2ec7142a4c1a0751926182e455164d5c9d20383"
+depends = "['libpq>=14.18', 'libxml2>=2.9.4-3', 'ncurses>=6.0-16', 'openssl>=3.1.0', 'python3>=3.13', 'readline>=6.3-14']"
 +++
 ### Description: 
 Seperate latest 14 PGSQL for pg_upgrade
@@ -297,11 +297,11 @@ Seperate latest 14 PGSQL for pg_upgrade
 * /opt/pgsql-14/share/extension/xml2.control
 * /opt/pgsql-14/share/tsearch_data/unaccent.rules
 * /opt/pgsql-14/share/tsearch_data/xsyn_sample.rules
-* /usr/share/doc/postgresql-upgrade-from-14-14.17/COPYRIGHT
-* /usr/share/doc/postgresql-upgrade-from-14-14.17/extension/autoinc.example
-* /usr/share/doc/postgresql-upgrade-from-14-14.17/extension/insert_username.example
-* /usr/share/doc/postgresql-upgrade-from-14-14.17/extension/moddatetime.example
-* /usr/share/doc/postgresql-upgrade-from-14-14.17/extension/refint.example
-* /usr/share/doc/postgresql-upgrade-from-14-14.17/HISTORY
-* /usr/share/doc/postgresql-upgrade-from-14-14.17/INSTALL
-* /usr/share/doc/postgresql-upgrade-from-14-14.17/README
+* /usr/share/doc/postgresql-upgrade-from-14-14.18/COPYRIGHT
+* /usr/share/doc/postgresql-upgrade-from-14-14.18/extension/autoinc.example
+* /usr/share/doc/postgresql-upgrade-from-14-14.18/extension/insert_username.example
+* /usr/share/doc/postgresql-upgrade-from-14-14.18/extension/moddatetime.example
+* /usr/share/doc/postgresql-upgrade-from-14-14.18/extension/refint.example
+* /usr/share/doc/postgresql-upgrade-from-14-14.18/HISTORY
+* /usr/share/doc/postgresql-upgrade-from-14-14.18/INSTALL
+* /usr/share/doc/postgresql-upgrade-from-14-14.18/README

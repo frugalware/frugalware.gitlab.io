@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "postgresql-upgrade-from-16 16.8-1"
-version = "16.8-1"
+title = "postgresql-upgrade-from-16 16.9-1"
+version = "16.9-1"
 description = "Seperate latest 16 PGSQL for pg_upgrade"
-date = "2025-02-21T08:44:14"
+date = "2025-05-11T15:36:48"
 aliases = "/packages/222560"
 categories = ['apps-extra']
 upstreamurl = "http://www.postgresql.org/"
 arch = "x86_64"
-size = "503200"
-usize = "2090279"
-sha1sum = "3d1537a076bbfdc7f4620787806c45fce8f03314"
-depends = "['libpq>=16.8', 'libxml2>=2.9.4-3', 'ncurses>=6.0-16', 'openssl>=3.1.0', 'python3>=3.13', 'readline>=6.3-14']"
+size = "506532"
+usize = "2093527"
+sha1sum = "9ac7da960770508b8260f16a16d0a848f8c36d4c"
+depends = "['libpq>=16.9', 'libxml2>=2.9.4-3', 'ncurses>=6.0-16', 'openssl>=3.1.0', 'python3>=3.13', 'readline>=6.3-14']"
 +++
 ### Description: 
 Seperate latest 16 PGSQL for pg_upgrade
@@ -299,11 +299,11 @@ Seperate latest 16 PGSQL for pg_upgrade
 * /opt/pgsql-16/share/extension/xml2.control
 * /opt/pgsql-16/share/tsearch_data/unaccent.rules
 * /opt/pgsql-16/share/tsearch_data/xsyn_sample.rules
-* /usr/share/doc/postgresql-upgrade-from-16-16.8/COPYRIGHT
-* /usr/share/doc/postgresql-upgrade-from-16-16.8/extension/autoinc.example
-* /usr/share/doc/postgresql-upgrade-from-16-16.8/extension/insert_username.example
-* /usr/share/doc/postgresql-upgrade-from-16-16.8/extension/moddatetime.example
-* /usr/share/doc/postgresql-upgrade-from-16-16.8/extension/refint.example
-* /usr/share/doc/postgresql-upgrade-from-16-16.8/HISTORY
-* /usr/share/doc/postgresql-upgrade-from-16-16.8/INSTALL
-* /usr/share/doc/postgresql-upgrade-from-16-16.8/README
+* /usr/share/doc/postgresql-upgrade-from-16-16.9/COPYRIGHT
+* /usr/share/doc/postgresql-upgrade-from-16-16.9/extension/autoinc.example
+* /usr/share/doc/postgresql-upgrade-from-16-16.9/extension/insert_username.example
+* /usr/share/doc/postgresql-upgrade-from-16-16.9/extension/moddatetime.example
+* /usr/share/doc/postgresql-upgrade-from-16-16.9/extension/refint.example
+* /usr/share/doc/postgresql-upgrade-from-16-16.9/HISTORY
+* /usr/share/doc/postgresql-upgrade-from-16-16.9/INSTALL
+* /usr/share/doc/postgresql-upgrade-from-16-16.9/README
