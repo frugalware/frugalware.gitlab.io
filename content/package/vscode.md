@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vscode 1.99.3-1"
-version = "1.99.3-1"
+title = "vscode 1.100.0-1"
+version = "1.100.0-1"
 description = "The Open Source build of Visual Studio Code (vscode) editor"
-date = "2025-04-23T07:45:17"
+date = "2025-05-11T20:49:45"
 aliases = "/packages/219983"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/microsoft/vscode"
 arch = "x86_64"
-size = "94173300"
-usize = "372258733"
-sha1sum = "85153c4d0a82384c53b8c440bcf5983cf4c4fe19"
+size = "94384248"
+usize = "372530802"
+sha1sum = "e60dc13fd2ffc8fc9c3fd7a8db1ce4d035984558"
 depends = "['ffmpeg', 'libsecret', 'libxkbfile', 'ripgrep', 'sqlite3']"
 +++
 ### Description: 
@@ -22,7 +22,7 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/applications/code-oss.desktop
 * /usr/share/bash-completion/completions/code
 * /usr/share/bash-completion/completions/code-oss
-* /usr/share/doc/vscode-1.99.3/README.md
+* /usr/share/doc/vscode-1.100.0/README.md
 * /usr/share/metainfo/code-oss.appdata.xml
 * /usr/share/pixmaps/code-oss.png
 * /usr/share/vscode/bin/code-oss
@@ -524,8 +524,10 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/extensions/ms-vscode.js-debug/src/ui/basic-wat.tmLanguage.json
 * /usr/share/vscode/resources/app/extensions/ms-vscode.js-debug/src/vendor/acorn-loose.js
 * /usr/share/vscode/resources/app/extensions/ms-vscode.js-debug/src/vendor/acorn.js
-* /usr/share/vscode/resources/app/extensions/ms-vscode.js-debug/src/w32appcontainertokens-LVKSWXR7.node
 * /usr/share/vscode/resources/app/extensions/ms-vscode.js-debug/src/watchdog.js
+* /usr/share/vscode/resources/app/extensions/ms-vscode.js-debug/src/win32-app-container-tokens.win32-arm64-msvc-4ZJZ3U55.node
+* /usr/share/vscode/resources/app/extensions/ms-vscode.js-debug/src/win32-app-container-tokens.win32-x64-msvc-VCQE7GJP.node
+* /usr/share/vscode/resources/app/extensions/ms-vscode.js-debug/telemetry.json
 * /usr/share/vscode/resources/app/extensions/ms-vscode.js-debug/ThirdPartyNotices.txt
 * /usr/share/vscode/resources/app/extensions/ms-vscode.vscode-js-profile-table/ci.yml
 * /usr/share/vscode/resources/app/extensions/ms-vscode.vscode-js-profile-table/out/425.heapsnapshotWorker.js
@@ -700,6 +702,12 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/extensions/powershell/package.json
 * /usr/share/vscode/resources/app/extensions/powershell/package.nls.json
 * /usr/share/vscode/resources/app/extensions/powershell/syntaxes/powershell.tmLanguage.json
+* /usr/share/vscode/resources/app/extensions/prompt-basics/language-configuration.json
+* /usr/share/vscode/resources/app/extensions/prompt-basics/package.json
+* /usr/share/vscode/resources/app/extensions/prompt-basics/package.nls.json
+* /usr/share/vscode/resources/app/extensions/prompt-basics/snippets/instructions.code-snippets
+* /usr/share/vscode/resources/app/extensions/prompt-basics/snippets/prompt.code-snippets
+* /usr/share/vscode/resources/app/extensions/prompt-basics/syntaxes/prompt.tmLanguage.json
 * /usr/share/vscode/resources/app/extensions/pug/language-configuration.json
 * /usr/share/vscode/resources/app/extensions/pug/package.json
 * /usr/share/vscode/resources/app/extensions/pug/package.nls.json
@@ -778,7 +786,6 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/extensions/swift/snippets/swift.code-snippets
 * /usr/share/vscode/resources/app/extensions/swift/syntaxes/swift.tmLanguage.json
 * /usr/share/vscode/resources/app/extensions/terminal-suggest/.gitignore
-* /usr/share/vscode/resources/app/extensions/terminal-suggest/cgmanifest.json
 * /usr/share/vscode/resources/app/extensions/terminal-suggest/dist/fig/README.md
 * /usr/share/vscode/resources/app/extensions/terminal-suggest/dist/media/icon.png
 * /usr/share/vscode/resources/app/extensions/terminal-suggest/dist/terminalSuggestMain.js
@@ -890,13 +897,6 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/extensions/yaml/syntaxes/yaml.tmLanguage.json
 * /usr/share/vscode/resources/app/LICENSE.txt
 * /usr/share/vscode/resources/app/node_modules.asar
-* /usr/share/vscode/resources/app/node_modules/@c4312/eventsource-umd/dist/index.cjs
-* /usr/share/vscode/resources/app/node_modules/@c4312/eventsource-umd/dist/index.cjs.map
-* /usr/share/vscode/resources/app/node_modules/@c4312/eventsource-umd/dist/index.d.cts
-* /usr/share/vscode/resources/app/node_modules/@c4312/eventsource-umd/dist/index.js
-* /usr/share/vscode/resources/app/node_modules/@c4312/eventsource-umd/dist/index.umd.js
-* /usr/share/vscode/resources/app/node_modules/@c4312/eventsource-umd/LICENSE
-* /usr/share/vscode/resources/app/node_modules/@c4312/eventsource-umd/package.json
 * /usr/share/vscode/resources/app/node_modules/@microsoft/1ds-core-js/bundle/ms.core-3.2.13.gbl.js
 * /usr/share/vscode/resources/app/node_modules/@microsoft/1ds-core-js/bundle/ms.core-3.2.13.gbl.min.js
 * /usr/share/vscode/resources/app/node_modules/@microsoft/1ds-core-js/bundle/ms.core-3.2.13.integrity.json
@@ -1301,20 +1301,6 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/node_modules/end-of-stream/index.js
 * /usr/share/vscode/resources/app/node_modules/end-of-stream/LICENSE
 * /usr/share/vscode/resources/app/node_modules/end-of-stream/package.json
-* /usr/share/vscode/resources/app/node_modules/eventsource-parser/dist/index.cjs
-* /usr/share/vscode/resources/app/node_modules/eventsource-parser/dist/index.cjs.map
-* /usr/share/vscode/resources/app/node_modules/eventsource-parser/dist/index.d.cts
-* /usr/share/vscode/resources/app/node_modules/eventsource-parser/dist/index.esm.js
-* /usr/share/vscode/resources/app/node_modules/eventsource-parser/dist/index.js
-* /usr/share/vscode/resources/app/node_modules/eventsource-parser/dist/stats.html
-* /usr/share/vscode/resources/app/node_modules/eventsource-parser/dist/stream.cjs
-* /usr/share/vscode/resources/app/node_modules/eventsource-parser/dist/stream.cjs.map
-* /usr/share/vscode/resources/app/node_modules/eventsource-parser/dist/stream.d.cts
-* /usr/share/vscode/resources/app/node_modules/eventsource-parser/dist/stream.esm.js
-* /usr/share/vscode/resources/app/node_modules/eventsource-parser/dist/stream.js
-* /usr/share/vscode/resources/app/node_modules/eventsource-parser/LICENSE
-* /usr/share/vscode/resources/app/node_modules/eventsource-parser/package.json
-* /usr/share/vscode/resources/app/node_modules/eventsource-parser/stream.js
 * /usr/share/vscode/resources/app/node_modules/expand-template/index.js
 * /usr/share/vscode/resources/app/node_modules/expand-template/LICENSE
 * /usr/share/vscode/resources/app/node_modules/expand-template/package.json
@@ -2107,6 +2093,7 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/error.mp3
 * /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/foldedAreas.mp3
 * /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/format.mp3
+* /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/nextEditSuggestion.mp3
 * /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/progress.mp3
 * /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/quickFixes.mp3
 * /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/requestSent.mp3
@@ -2119,6 +2106,7 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/taskCompleted.mp3
 * /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/taskFailed.mp3
 * /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/terminalBell.mp3
+* /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/terminalCommandSucceeded.mp3
 * /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/voiceRecordingStarted.mp3
 * /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/voiceRecordingStopped.mp3
 * /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/warning.mp3
@@ -2155,6 +2143,7 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/out/vs/workbench/contrib/webview/browser/pre/index-no-csp.html
 * /usr/share/vscode/resources/app/out/vs/workbench/contrib/webview/browser/pre/index.html
 * /usr/share/vscode/resources/app/out/vs/workbench/contrib/webview/browser/pre/service-worker.js
+* /usr/share/vscode/resources/app/out/vs/workbench/contrib/welcomeGettingStarted/common/media/ai-powered-suggestions.svg
 * /usr/share/vscode/resources/app/out/vs/workbench/contrib/welcomeGettingStarted/common/media/commandPalette.svg
 * /usr/share/vscode/resources/app/out/vs/workbench/contrib/welcomeGettingStarted/common/media/dark-hc.png
 * /usr/share/vscode/resources/app/out/vs/workbench/contrib/welcomeGettingStarted/common/media/dark.png
