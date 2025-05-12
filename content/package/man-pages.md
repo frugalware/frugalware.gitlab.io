@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "man-pages 6.13-1"
-version = "6.13-1"
+title = "man-pages 6.14-1"
+version = "6.14-1"
 description = "Man pages are online documentation for Linux"
-date = "2025-03-10T08:56:24"
+date = "2025-05-12T08:57:10"
 aliases = "/packages/3222"
 categories = ['apps']
 upstreamurl = "http://www.kernel.org/doc/man-pages/index.html"
 arch = "x86_64"
-size = "5748048"
-usize = "5779867"
-sha1sum = "f80dd04cdb9ad28e38f64331a10acd39110b249c"
+size = "5632912"
+usize = "5686783"
+sha1sum = "577d02c5445a11a112949d99c6c1f5535f1aa70f"
 depends = "[]"
 +++
 ### Description: 
@@ -21,10 +21,11 @@ Man pages are online documentation for Linux
 * /usr/bin/mansect
 * /usr/bin/pdfman
 * /usr/bin/sortman
-* /usr/share/doc/man-pages-6.13/INSTALL
-* /usr/share/doc/man-pages-6.13/POSIX-COPYRIGHT
-* /usr/share/doc/man-pages-6.13/README
-* /usr/share/doc/man-pages-6.13/RELEASE
+* /usr/share/doc/man-pages-6.14/CREDITS
+* /usr/share/doc/man-pages-6.14/INSTALL
+* /usr/share/doc/man-pages-6.14/POSIX-COPYRIGHT
+* /usr/share/doc/man-pages-6.14/README
+* /usr/share/doc/man-pages-6.14/RELEASE
 * /usr/share/man/man0p/aio.h.0p.gz
 * /usr/share/man/man0p/arpa_inet.h.0p.gz
 * /usr/share/man/man0p/assert.h.0p.gz
@@ -1009,6 +1010,7 @@ Man pages are online documentation for Linux
 * /usr/share/man/man2const/UFFDIO_API.2const.gz
 * /usr/share/man/man2const/UFFDIO_CONTINUE.2const.gz
 * /usr/share/man/man2const/UFFDIO_COPY.2const.gz
+* /usr/share/man/man2const/UFFDIO_MOVE.2const.gz
 * /usr/share/man/man2const/UFFDIO_POISON.2const.gz
 * /usr/share/man/man2const/UFFDIO_REGISTER.2const.gz
 * /usr/share/man/man2const/UFFDIO_UNREGISTER.2const.gz
@@ -2556,9 +2558,13 @@ Man pages are online documentation for Linux
 * /usr/share/man/man3/twalk_r.3.gz
 * /usr/share/man/man3/tzname.3.gz
 * /usr/share/man/man3/tzset.3.gz
+* /usr/share/man/man3/uabs.3.gz
 * /usr/share/man/man3/ualarm.3.gz
+* /usr/share/man/man3/uimaxabs.3.gz
+* /usr/share/man/man3/ulabs.3.gz
 * /usr/share/man/man3/ulckpwdf.3.gz
 * /usr/share/man/man3/ulimit.3.gz
+* /usr/share/man/man3/ullabs.3.gz
 * /usr/share/man/man3/undocumented.3.gz
 * /usr/share/man/man3/ungetc.3.gz
 * /usr/share/man/man3/ungetwc.3.gz
@@ -4012,6 +4018,7 @@ Man pages are online documentation for Linux
 * /usr/share/man/man7/man-pages.7.gz
 * /usr/share/man/man7/man.7.gz
 * /usr/share/man/man7/math_error.7.gz
+* /usr/share/man/man7/mctp.7.gz
 * /usr/share/man/man7/mount_namespaces.7.gz
 * /usr/share/man/man7/mq_overview.7.gz
 * /usr/share/man/man7/namespaces.7.gz

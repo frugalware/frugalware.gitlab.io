@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "speech-dispatcher 0.12.0-1"
-version = "0.12.0-1"
+title = "speech-dispatcher 0.12.1-1"
+version = "0.12.1-1"
 description = "speech-dispatcher speech synthesis interface"
-date = "2025-02-24T13:14:19"
+date = "2025-05-12T09:21:26"
 aliases = "/packages/119250"
 categories = ['xapps']
 upstreamurl = "https://devel.freebsoft.org/speechd"
 arch = "x86_64"
-size = "4116928"
-usize = "29479785"
-sha1sum = "ddaf5985bcfc01ee59b6154d2cbb25e8b1ecedf4"
+size = "4122872"
+usize = "29464748"
+sha1sum = "c1509bd76d4dbab9d670dd887a3bb3b040d171b8"
 depends = "['dotconf', 'libao', 'libpulse>=9.0-2', 'libsndfile', 'libsystemd', 'python3>=3.13']"
 reverse_depends = "['chromium-browser', 'mumble', 'qt5-speech', 'qt6-speech']"
 +++
@@ -95,21 +95,21 @@ speech-dispatcher speech synthesis interface
 * /usr/lib/systemd/system/speech-dispatcherd.service
 * /usr/lib/systemd/user/speech-dispatcher.service
 * /usr/lib/systemd/user/speech-dispatcher.socket
-* /usr/share/doc/speech-dispatcher-0.12.0/ANNOUNCE
-* /usr/share/doc/speech-dispatcher-0.12.0/AUTHORS
-* /usr/share/doc/speech-dispatcher-0.12.0/BUGS
-* /usr/share/doc/speech-dispatcher-0.12.0/COPYING.GPL-2
-* /usr/share/doc/speech-dispatcher-0.12.0/COPYING.GPL-3
-* /usr/share/doc/speech-dispatcher-0.12.0/COPYING.LGPL
-* /usr/share/doc/speech-dispatcher-0.12.0/FAQ
-* /usr/share/doc/speech-dispatcher-0.12.0/INSTALL
-* /usr/share/doc/speech-dispatcher-0.12.0/NEWS
-* /usr/share/doc/speech-dispatcher-0.12.0/README.md
-* /usr/share/doc/speech-dispatcher-0.12.0/README.overview.md
-* /usr/share/doc/speech-dispatcher-0.12.0/README.packagers
-* /usr/share/doc/speech-dispatcher-0.12.0/README.style.md
-* /usr/share/doc/speech-dispatcher-0.12.0/README.translators
-* /usr/share/doc/speech-dispatcher-0.12.0/TODO
+* /usr/share/doc/speech-dispatcher-0.12.1/ANNOUNCE
+* /usr/share/doc/speech-dispatcher-0.12.1/AUTHORS
+* /usr/share/doc/speech-dispatcher-0.12.1/BUGS
+* /usr/share/doc/speech-dispatcher-0.12.1/COPYING.GPL-2
+* /usr/share/doc/speech-dispatcher-0.12.1/COPYING.GPL-3
+* /usr/share/doc/speech-dispatcher-0.12.1/COPYING.LGPL
+* /usr/share/doc/speech-dispatcher-0.12.1/FAQ
+* /usr/share/doc/speech-dispatcher-0.12.1/INSTALL
+* /usr/share/doc/speech-dispatcher-0.12.1/NEWS
+* /usr/share/doc/speech-dispatcher-0.12.1/README.md
+* /usr/share/doc/speech-dispatcher-0.12.1/README.overview.md
+* /usr/share/doc/speech-dispatcher-0.12.1/README.packagers
+* /usr/share/doc/speech-dispatcher-0.12.1/README.style.md
+* /usr/share/doc/speech-dispatcher-0.12.1/README.translators
+* /usr/share/doc/speech-dispatcher-0.12.1/TODO
 * /usr/share/info/spd-say.info.gz
 * /usr/share/info/speech-dispatcher-cs.info.gz
 * /usr/share/info/speech-dispatcher.info.gz
@@ -154,7 +154,7 @@ speech-dispatcher speech synthesis interface
 * /usr/share/speech-dispatcher/locale/base/font-variants.dic
 * /usr/share/speech-dispatcher/locale/base/orca-chars.dic
 * /usr/share/speech-dispatcher/locale/base/orca.dic
-* /usr/share/speech-dispatcher/locale/base/symbols-fallback.dic
+* /usr/share/speech-dispatcher/locale/base/symbols.dic
 * /usr/share/speech-dispatcher/locale/be/emojis.dic
 * /usr/share/speech-dispatcher/locale/be/orca-chars.dic
 * /usr/share/speech-dispatcher/locale/be/orca.dic
