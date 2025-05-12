@@ -12,7 +12,7 @@ size = "95716"
 usize = "563951"
 sha1sum = "06547666734acc6959c96fdc8e60e3b155136501"
 depends = "['glibc>=2.34']"
-reverse_depends = "['clblast', 'clinfo', 'intel-media-sdk', 'warzone2100', 'wine', 'wine-devel', 'xine-lib']"
+reverse_depends = "['clblast', 'clinfo', 'intel-media-sdk', 'lact', 'warzone2100', 'wine', 'wine-devel', 'xine-lib']"
 +++
 ### Description: 
 OpenCL ICD Bindings
