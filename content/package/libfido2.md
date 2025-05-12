@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libfido2 1.15.0-2"
-version = "1.15.0-2"
+title = "libfido2 1.16.0-1"
+version = "1.16.0-1"
 description = "Library functionality for FIDO 2.0, including communication with a device over USB"
-date = "2025-03-17T12:46:12"
+date = "2025-05-12T08:24:26"
 aliases = "/packages/220053"
 categories = ['lib']
 upstreamurl = "https://developers.yubico.com/libfido2/"
 arch = "x86_64"
-size = "181016"
-usize = "460497"
-sha1sum = "e51b13398f1ae54752cb37b9063672fde1fb5f85"
+size = "181668"
+usize = "461821"
+sha1sum = "bb9f22b2b3d70b1ddd9877ec8c2da09aef75862e"
 depends = "['libcbor>=0.12.0', 'libhidapi', 'openssl>=3.1.0', 'systemd']"
 reverse_depends = "['openssh']"
 +++
@@ -34,11 +34,11 @@ Library functionality for FIDO 2.0, including communication with a device over U
 * /usr/include/fido/types.h
 * /usr/lib/libfido2.so
 * /usr/lib/libfido2.so.1
-* /usr/lib/libfido2.so.1.15.0
+* /usr/lib/libfido2.so.1.16.0
 * /usr/lib/pkgconfig/libfido2.pc
-* /usr/share/doc/libfido2-1.15.0/LICENSE
-* /usr/share/doc/libfido2-1.15.0/NEWS
-* /usr/share/doc/libfido2-1.15.0/README.adoc
+* /usr/share/doc/libfido2-1.16.0/LICENSE
+* /usr/share/doc/libfido2-1.16.0/NEWS
+* /usr/share/doc/libfido2-1.16.0/README.adoc
 * /usr/share/man/man1/fido2-assert.1.gz
 * /usr/share/man/man1/fido2-cred.1.gz
 * /usr/share/man/man1/fido2-token.1.gz
@@ -193,6 +193,7 @@ Library functionality for FIDO 2.0, including communication with a device over U
 * /usr/share/man/man3/fido_cred_clientdata_hash_ptr.3.gz
 * /usr/share/man/man3/fido_cred_display_name.3.gz
 * /usr/share/man/man3/fido_cred_empty_exclude_list.3.gz
+* /usr/share/man/man3/fido_cred_entattest.3.gz
 * /usr/share/man/man3/fido_cred_exclude.3.gz
 * /usr/share/man/man3/fido_cred_flags.3.gz
 * /usr/share/man/man3/fido_cred_fmt.3.gz
@@ -215,6 +216,7 @@ Library functionality for FIDO 2.0, including communication with a device over U
 * /usr/share/man/man3/fido_cred_set_blob.3.gz
 * /usr/share/man/man3/fido_cred_set_clientdata.3.gz
 * /usr/share/man/man3/fido_cred_set_clientdata_hash.3.gz
+* /usr/share/man/man3/fido_cred_set_entattest.3.gz
 * /usr/share/man/man3/fido_cred_set_extensions.3.gz
 * /usr/share/man/man3/fido_cred_set_fmt.3.gz
 * /usr/share/man/man3/fido_cred_set_id.3.gz

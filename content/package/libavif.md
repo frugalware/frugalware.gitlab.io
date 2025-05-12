@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libavif 1.2.1-1"
-version = "1.2.1-1"
+title = "libavif 1.3.0-1"
+version = "1.3.0-1"
 description = "Library for encoding and decoding .avif files"
-date = "2025-03-17T12:57:27"
+date = "2025-05-12T08:14:24"
 aliases = "/packages/220807"
 categories = ['lib']
 upstreamurl = "https://github.com/AOMediaCodec/libavif"
 arch = "x86_64"
-size = "244888"
-usize = "741621"
-sha1sum = "17e59e95efbb2b64aed46051478f491a6988b3ee"
+size = "249852"
+usize = "755539"
+sha1sum = "e25d4be6b8d9b7e18ca2bc760498f68b40983b94"
 depends = "['aom', 'dav1d>=1.3.0', 'gdk-pixbuf2', 'libpng', 'libxml2', 'libyuv', 'rav1e', 'svt-av1>=3.0.0']"
 reverse_depends = "['darktable', 'gd', 'kimageformats', 'kimageformats5', 'sdl2_image', 'sdl3_image', 'webkit-gtk3']"
 +++
@@ -29,8 +29,8 @@ Library for encoding and decoding .avif files
 * /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-avif.so
 * /usr/lib/libavif.so
 * /usr/lib/libavif.so.16
-* /usr/lib/libavif.so.16.2.1
+* /usr/lib/libavif.so.16.3.0
 * /usr/lib/pkgconfig/libavif.pc
-* /usr/share/doc/libavif-1.2.1/LICENSE
-* /usr/share/doc/libavif-1.2.1/README.md
+* /usr/share/doc/libavif-1.3.0/LICENSE
+* /usr/share/doc/libavif-1.3.0/README.md
 * /usr/share/thumbnailers/avif.thumbnailer

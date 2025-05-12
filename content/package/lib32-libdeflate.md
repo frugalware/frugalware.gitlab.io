@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libdeflate 1.23-2"
-version = "1.23-2"
+title = "lib32-libdeflate 1.24-1"
+version = "1.24-1"
 description = "Heavily optimized library for DEFLATE/zlib/gzip compression and decompression ( 32bit )"
-date = "2025-03-13T14:37:30"
+date = "2025-05-12T08:18:13"
 aliases = "/packages/222686"
 categories = ['lib32-extra']
 upstreamurl = "https://github.com/ebiggers/libdeflate"
 arch = "x86_64"
-size = "63244"
-usize = "209798"
-sha1sum = "3b9a4040b7841b293557a32a87d64a1674867072"
+size = "63560"
+usize = "210140"
+sha1sum = "c343eedb722c9c00f2ca458966e012d5f4e280ae"
 depends = "['lib32-zlib']"
 reverse_depends = "['lib32-libtiff']"
 +++
