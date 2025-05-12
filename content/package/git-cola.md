@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "git-cola 4.12.0-1"
-version = "4.12.0-1"
+title = "git-cola 4.13.0-1"
+version = "4.13.0-1"
 description = "Git-cola is a sleek and powerful Git GUI."
-date = "2025-02-24T10:23:59"
+date = "2025-05-12T11:05:34"
 aliases = "/packages/200469"
 categories = ['xapps-extra']
 upstreamurl = "http://git-cola.github.io/"
 arch = "x86_64"
-size = "1026408"
-usize = "8113810"
-sha1sum = "28e22db5bf711ce7c6c4b94b467cf00f6ec3e270"
+size = "1042168"
+usize = "8191475"
+sha1sum = "29e51d7ea48034b7af46bea71dab11355ffe5616"
 depends = "['pyinotify', 'pyqt6', 'python3-numpy', 'python3-qtpy']"
 +++
 ### Description: 
@@ -441,13 +441,13 @@ Git-cola is a sleek and powerful Git GUI.
 * /usr/lib/python3.13/site-packages/cola/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/cola/__pycache__/__main__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/cola/__pycache__/__main__.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/git_cola-4.12.0.dist-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/git_cola-4.12.0.dist-info/LICENSE
-* /usr/lib/python3.13/site-packages/git_cola-4.12.0.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/git_cola-4.12.0.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/git_cola-4.12.0.dist-info/top_level.txt
-* /usr/lib/python3.13/site-packages/git_cola-4.12.0.dist-info/WHEEL
-* /usr/share/doc/git-cola-4.12.0/LICENSE
-* /usr/share/doc/git-cola-4.12.0/README.md
+* /usr/lib/python3.13/site-packages/git_cola-4.13.0.dist-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/git_cola-4.13.0.dist-info/licenses/LICENSE
+* /usr/lib/python3.13/site-packages/git_cola-4.13.0.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/git_cola-4.13.0.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/git_cola-4.13.0.dist-info/top_level.txt
+* /usr/lib/python3.13/site-packages/git_cola-4.13.0.dist-info/WHEEL
+* /usr/share/doc/git-cola-4.13.0/LICENSE
+* /usr/share/doc/git-cola-4.13.0/README.md
 * /usr/share/man/man1/git-cola.1.gz
 * /usr/share/man/man1/git-dag.1.gz

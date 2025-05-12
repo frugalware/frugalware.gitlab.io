@@ -12,7 +12,7 @@ size = "316784"
 usize = "1102057"
 sha1sum = "83667dd04138ca6e6ad64547ecb09e2fdfbf777f"
 depends = "['qt6-base']"
-reverse_depends = "['stellarium']"
+reverse_depends = "['labplot', 'stellarium']"
 +++
 ### Description: 
 Excel file reader/writer library using Qt
