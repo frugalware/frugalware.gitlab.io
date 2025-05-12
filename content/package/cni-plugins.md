@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "cni-plugins 1.6.2-1"
-version = "1.6.2-1"
+title = "cni-plugins 1.7.1-1"
+version = "1.7.1-1"
 description = "Some standard networking plugins, maintained by the CNI team"
-date = "2025-01-07T13:24:00"
+date = "2025-05-12T13:40:25"
 aliases = "/packages/222597"
 categories = ['network-extra']
 upstreamurl = "https://github.com/containernetworking/plugins"
 arch = "x86_64"
-size = "19814936"
-usize = "135725299"
-sha1sum = "5eeef939e5cf40b16552a0c3bd781546618e7cd7"
+size = "21665312"
+usize = "145955363"
+sha1sum = "1cdd485e561122951cd5f4cf123fa68cfa1ae3fc"
 depends = "['glibc']"
 +++
 ### Description: 
@@ -55,5 +55,5 @@ Some standard networking plugins, maintained by the CNI team
 * /usr/lib/cni/vrf
 * /usr/lib/systemd/system/cni-dhcp.service
 * /usr/lib/systemd/system/cni-dhcp.socket
-* /usr/share/doc/cni-plugins-1.6.2/LICENSE
-* /usr/share/doc/cni-plugins-1.6.2/README.md
+* /usr/share/doc/cni-plugins-1.7.1/LICENSE
+* /usr/share/doc/cni-plugins-1.7.1/README.md

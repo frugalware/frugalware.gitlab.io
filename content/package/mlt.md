@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mlt 7.30.0-7"
-version = "7.30.0-7"
+title = "mlt 7.32.0-1"
+version = "7.32.0-1"
 description = "MLT is an open source multimedia framework, designed and developed for television broadcasting."
-date = "2025-04-08T10:09:50"
+date = "2025-05-12T14:06:40"
 aliases = "/packages/218378"
 categories = ['xmultimedia-extra']
 upstreamurl = "https://github.com/mltframework/mlt"
 arch = "x86_64"
-size = "714604"
-usize = "2784138"
-sha1sum = "4e0573955a13f90d4bb22ee3d7cf42347c8c483f"
+size = "724556"
+usize = "2802236"
+sha1sum = "7bb4932d9e3bc4f9584f415a4a995730e6ce3bef"
 depends = "['alsa-lib>=1.1.2-2', 'exiv2', 'ffmpeg>=7.0', 'frei0r-plugins>=1.5.0-2', 'lame', 'libatomic', 'libdv', 'libebur128', 'libexif>=0.6.21-3', 'libmad', 'libogg', 'libsamplerate', 'libvorbis', 'libxcb>=1.12-2', 'sox>=14.3.2-2']"
 reverse_depends = "['kdenlive', 'krita', 'mlt-jack', 'mlt-opencv', 'mlt-qt', 'mlt-qt6', 'mlt-rubberband', 'mlt-sdl']"
 +++
@@ -86,10 +86,10 @@ MLT is an open source multimedia framework, designed and developed for televisio
 * /usr/lib/cmake/Mlt7/Mlt7Targets.cmake
 * /usr/lib/libmlt++-7.so
 * /usr/lib/libmlt++-7.so.7
-* /usr/lib/libmlt++-7.so.7.30.0
+* /usr/lib/libmlt++-7.so.7.32.0
 * /usr/lib/libmlt-7.so
 * /usr/lib/libmlt-7.so.7
-* /usr/lib/libmlt-7.so.7.30.0
+* /usr/lib/libmlt-7.so.7.32.0
 * /usr/lib/mlt-7/libmltavformat.so
 * /usr/lib/mlt-7/libmltcore.so
 * /usr/lib/mlt-7/libmltdecklink.so
@@ -111,10 +111,10 @@ MLT is an open source multimedia framework, designed and developed for televisio
 * /usr/lib/pkgconfig/mlt-framework-7.pc
 * /usr/lib/python3.13/site-packages/mlt7.py
 * /usr/lib/python3.13/site-packages/_mlt7.so
-* /usr/share/doc/mlt-7.30.0/AUTHORS
-* /usr/share/doc/mlt-7.30.0/COPYING
-* /usr/share/doc/mlt-7.30.0/NEWS
-* /usr/share/doc/mlt-7.30.0/README.md
+* /usr/share/doc/mlt-7.32.0/AUTHORS
+* /usr/share/doc/mlt-7.32.0/COPYING
+* /usr/share/doc/mlt-7.32.0/NEWS
+* /usr/share/doc/mlt-7.32.0/README.md
 * /usr/share/man/man1/melt-7.1.gz
 * /usr/share/mlt-7/avformat/blacklist.txt
 * /usr/share/mlt-7/avformat/consumer_avformat.yml

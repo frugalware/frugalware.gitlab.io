@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "meson-python 0.17.1-1"
-version = "0.17.1-1"
+title = "meson-python 0.18.0-1"
+version = "0.18.0-1"
 description = "Meson PEP 517 Python build backend"
-date = "2024-11-02T18:36:11"
+date = "2025-05-12T13:27:42"
 aliases = "/packages/221130"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/mesonbuild/meson-python"
 arch = "x86_64"
-size = "61720"
-usize = "298406"
-sha1sum = "e5623098bf3e19011ac19102578496a057c4815a"
+size = "64704"
+usize = "315597"
+sha1sum = "d9f5b424cc0c5ed9c78af6c501cd9bed2da8e15c"
 depends = "['meson', 'patchelf', 'python3-pyproject-metadata', 'python3-wheel']"
 +++
 ### Description: 
@@ -38,10 +38,10 @@ Meson PEP 517 Python build backend
 * /usr/lib/python3.13/site-packages/mesonpy/__pycache__/_wheelfile.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/mesonpy/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/mesonpy/__pycache__/__init__.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/meson_python-0.17.1.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/meson_python-0.17.1.dist-info/MIT.txt
-* /usr/lib/python3.13/site-packages/meson_python-0.17.1.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/meson_python-0.17.1.dist-info/WHEEL
-* /usr/share/doc/meson-python-0.17.1/LICENSE
-* /usr/share/doc/meson-python-0.17.1/README.rst
-* /usr/share/doc/meson-python-0.17.1/RELEASE.rst
+* /usr/lib/python3.13/site-packages/meson_python-0.18.0.dist-info/licenses/LICENSES/MIT.txt
+* /usr/lib/python3.13/site-packages/meson_python-0.18.0.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/meson_python-0.18.0.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/meson_python-0.18.0.dist-info/WHEEL
+* /usr/share/doc/meson-python-0.18.0/LICENSE
+* /usr/share/doc/meson-python-0.18.0/README.rst
+* /usr/share/doc/meson-python-0.18.0/RELEASE.rst
