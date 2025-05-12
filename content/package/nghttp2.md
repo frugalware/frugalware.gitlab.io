@@ -12,7 +12,7 @@ size = "150400"
 usize = "519521"
 sha1sum = "2027ac0cf7079ebfe12e2c22c104b7e60fe2dedc"
 depends = "['glibc>=2.3.4']"
-reverse_depends = "['apache', 'bind', 'curl', 'libsoup3', 'nginx', 'nodejs', 'nodejs20', 'wget2', 'wireshark']"
+reverse_depends = "['apache', 'bind', 'curl', 'libsoup3', 'nginx', 'nodejs', 'nodejs20', 'nodejs22', 'wget2', 'wireshark']"
 +++
 ### Description: 
 nghttp2 is an implementation of HTTP/2 in C
