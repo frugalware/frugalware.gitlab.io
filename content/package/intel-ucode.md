@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "intel-ucode 20250211-1"
-version = "20250211-1"
+title = "intel-ucode 20250512-1"
+version = "20250512-1"
 description = "Microcode for Intel processors."
-date = "2025-02-12T09:14:03"
+date = "2025-05-13T07:30:45"
 aliases = "/packages/168450"
 categories = ['base']
 upstreamurl = "http://downloadcenter.intel.com/SearchResult.aspx?lang=eng&keyword=%22microcode%22"
 arch = "x86_64"
-size = "9257292"
-usize = "12090340"
-sha1sum = "fcfa5ff03e9103e1d5101779c8d5babd8c43ec72"
+size = "11417768"
+usize = "15241310"
+sha1sum = "bf5aa82b62d482ee39a4f966dc1cfe8c950c9679"
 depends = "['kernel']"
 reverse_depends = "['kernel-initrd', 'kernel-lts-initrd']"
 +++
@@ -88,7 +88,6 @@ Microcode for Intel processors.
 * /usr/lib/firmware/intel-ucode/06-55-03
 * /usr/lib/firmware/intel-ucode/06-55-04
 * /usr/lib/firmware/intel-ucode/06-55-05
-* /usr/lib/firmware/intel-ucode/06-55-06
 * /usr/lib/firmware/intel-ucode/06-55-07
 * /usr/lib/firmware/intel-ucode/06-55-0b
 * /usr/lib/firmware/intel-ucode/06-56-02
@@ -135,14 +134,18 @@ Microcode for Intel processors.
 * /usr/lib/firmware/intel-ucode/06-a6-01
 * /usr/lib/firmware/intel-ucode/06-a7-01
 * /usr/lib/firmware/intel-ucode/06-aa-04
+* /usr/lib/firmware/intel-ucode/06-ad-01
 * /usr/lib/firmware/intel-ucode/06-af-03
+* /usr/lib/firmware/intel-ucode/06-b5-00
 * /usr/lib/firmware/intel-ucode/06-b7-01
 * /usr/lib/firmware/intel-ucode/06-ba-02
 * /usr/lib/firmware/intel-ucode/06-ba-03
+* /usr/lib/firmware/intel-ucode/06-bd-01
 * /usr/lib/firmware/intel-ucode/06-be-00
 * /usr/lib/firmware/intel-ucode/06-bf-02
 * /usr/lib/firmware/intel-ucode/06-bf-05
-* /usr/lib/firmware/intel-ucode/06-cf-01
+* /usr/lib/firmware/intel-ucode/06-c5-02
+* /usr/lib/firmware/intel-ucode/06-c6-02
 * /usr/lib/firmware/intel-ucode/06-cf-02
 * /usr/lib/firmware/intel-ucode/0f-00-07
 * /usr/lib/firmware/intel-ucode/0f-00-0a
@@ -166,7 +169,7 @@ Microcode for Intel processors.
 * /usr/lib/firmware/intel-ucode/0f-06-04
 * /usr/lib/firmware/intel-ucode/0f-06-05
 * /usr/lib/firmware/intel-ucode/0f-06-08
-* /usr/share/doc/intel-ucode-20250211/LICENSE
-* /usr/share/doc/intel-ucode-20250211/license
-* /usr/share/doc/intel-ucode-20250211/README.md
-* /usr/share/doc/intel-ucode-20250211/releasenote.md
+* /usr/share/doc/intel-ucode-20250512/LICENSE
+* /usr/share/doc/intel-ucode-20250512/license
+* /usr/share/doc/intel-ucode-20250512/README.md
+* /usr/share/doc/intel-ucode-20250512/releasenote.md
