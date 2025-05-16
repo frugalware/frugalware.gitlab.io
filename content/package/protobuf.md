@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "protobuf 31.0-1"
-version = "31.0-1"
+title = "protobuf 31.0-2"
+version = "31.0-2"
 description = "Protocol Buffers are a way of encoding structured data in an efficient yet extensible format"
-date = "2025-05-16T12:10:58"
+date = "2025-05-16T12:58:22"
 aliases = "/packages/74492"
 categories = ['lib']
 upstreamurl = "https://github.com/protocolbuffers/protobuf"
 arch = "x86_64"
-size = "3054308"
+size = "3053460"
 usize = "15403756"
-sha1sum = "6d9e2b4a3141961db5bccfe9aabd0fc524e1ec5f"
-depends = "['abseil-cpp>=20250127.0', 'libstdc++>=11.3']"
+sha1sum = "60674ca32d49badd9ba3c605354abb15e3bd92fc"
+depends = "['abseil-cpp>=20250512.0', 'libstdc++>=11.3']"
 reverse_depends = "['android-tools', 'grpc', 'kicad', 'libmarble', 'libphonenumber', 'mixxx', 'mosh', 'mumble', 'murmur', 'opencv', 'pdns-recursor', 'protobuf-c', 'qt5-webengine', 'telegram-desktop', 'usbguard', 'vlc-chromecast']"
 +++
 ### Description: 
