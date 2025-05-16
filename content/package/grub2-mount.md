@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "grub2-mount 2.12.g4abac0a-1"
-version = "2.12.g4abac0a-1"
+title = "grub2-mount 2.12.g73d1c95-1"
+version = "2.12.g73d1c95-1"
 description = "grub2 mount utility"
-date = "2025-05-05T10:23:34"
+date = "2025-05-16T08:29:16"
 aliases = "/packages/218741"
 categories = ['base']
 upstreamurl = "http://www.gnu.org/software/grub/"
 arch = "x86_64"
-size = "319164"
-usize = "742952"
-sha1sum = "5f4b7d936eda4b6284b6dbc05cc27c304214e089"
+size = "319244"
+usize = "742992"
+sha1sum = "a38eeb6ca9cde8dc04aeb84737ae63ecd587bfcc"
 depends = "['fuse>=2.7.9-4']"
 reverse_depends = "['os-prober']"
 +++

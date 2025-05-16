@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "grub2 2.12.g4abac0a-1"
-version = "2.12.g4abac0a-1"
+title = "grub2 2.12.g73d1c95-1"
+version = "2.12.g73d1c95-1"
 description = "The GNU GRand Unified Bootloader"
-date = "2025-05-05T10:23:34"
+date = "2025-05-16T08:29:16"
 aliases = "/packages/136034"
 categories = ['base']
 upstreamurl = "http://www.gnu.org/software/grub/"
 arch = "x86_64"
-size = "15521384"
-usize = "71435429"
-sha1sum = "df139e3998fe0f615560b0c335c1c28d7b20715c"
+size = "15522128"
+usize = "71436164"
+sha1sum = "420fc1958959172994f423a20c58e6ebf75963c0"
 depends = "['efibootmgr', 'grub-theme-frugalware', 'scriptlet-core']"
 reverse_depends = "['breeze-grub']"
 +++
@@ -1237,16 +1237,16 @@ The GNU GRand Unified Bootloader
 * /usr/share/bash-completion/completions/grub-script-check
 * /usr/share/bash-completion/completions/grub-set-default
 * /usr/share/bash-completion/completions/grub-sparc64-setup
-* /usr/share/doc/grub2-2.12.g4abac0a/AUTHORS
-* /usr/share/doc/grub2-2.12.g4abac0a/BUGS
-* /usr/share/doc/grub2-2.12.g4abac0a/ChangeLog
-* /usr/share/doc/grub2-2.12.g4abac0a/COPYING
-* /usr/share/doc/grub2-2.12.g4abac0a/INSTALL
-* /usr/share/doc/grub2-2.12.g4abac0a/NEWS
-* /usr/share/doc/grub2-2.12.g4abac0a/README
-* /usr/share/doc/grub2-2.12.g4abac0a/README.Frugalware
-* /usr/share/doc/grub2-2.12.g4abac0a/THANKS
-* /usr/share/doc/grub2-2.12.g4abac0a/TODO
+* /usr/share/doc/grub2-2.12.g73d1c95/AUTHORS
+* /usr/share/doc/grub2-2.12.g73d1c95/BUGS
+* /usr/share/doc/grub2-2.12.g73d1c95/ChangeLog
+* /usr/share/doc/grub2-2.12.g73d1c95/COPYING
+* /usr/share/doc/grub2-2.12.g73d1c95/INSTALL
+* /usr/share/doc/grub2-2.12.g73d1c95/NEWS
+* /usr/share/doc/grub2-2.12.g73d1c95/README
+* /usr/share/doc/grub2-2.12.g73d1c95/README.Frugalware
+* /usr/share/doc/grub2-2.12.g73d1c95/THANKS
+* /usr/share/doc/grub2-2.12.g73d1c95/TODO
 * /usr/share/grub/ascii.h
 * /usr/share/grub/ascii.pf2
 * /usr/share/grub/euro.pf2
