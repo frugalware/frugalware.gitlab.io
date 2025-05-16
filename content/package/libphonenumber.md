@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libphonenumber 9.0.5-1"
-version = "9.0.5-1"
+title = "libphonenumber 9.0.5-2"
+version = "9.0.5-2"
 description = "Google's common library for parsing, formatting, and validating international phone numbers"
-date = "2025-05-12T08:19:16"
+date = "2025-05-16T13:48:26"
 aliases = "/packages/222537"
 categories = ['lib']
 upstreamurl = "https://github.com/google/libphonenumber"
 arch = "x86_64"
-size = "1622792"
-usize = "17259057"
-sha1sum = "5c56614511b1ecda4361c1dd5f1bff182feeff67"
-depends = "['icu4c>=77.1', 'protobuf>=30.1']"
+size = "1594240"
+usize = "17257841"
+sha1sum = "6fee16cf0f528749396cce2d7e7d18196f9ec361"
+depends = "['icu4c>=77.1', 'protobuf>=31.0']"
 reverse_depends = "['kitinerary']"
 +++
 ### Description: 
