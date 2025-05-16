@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "nodejs22 22.15.0-1"
-version = "22.15.0-1"
+title = "nodejs22 22.15.1-1"
+version = "22.15.1-1"
 description = "Evented I/O for V8 javascript (LTS release: Iron)"
-date = "2025-05-12T17:08:56"
+date = "2025-05-16T10:01:13"
 aliases = "/packages/222717"
 categories = ['devel-extra']
 upstreamurl = "https://nodejs.org"
 arch = "x86_64"
-size = "15829876"
+size = "15826052"
 usize = "71513686"
-sha1sum = "998e90da9e5b3234730d826bc2d78e6d0e1a96a6"
+sha1sum = "4c77a8a93355bc4bacf07088cc9e7e3bfebb4222"
 depends = "['brotli', 'c-ares', 'icu4c>=77.1', 'libuv', 'nghttp2>=1.41.0', 'python3-setuptools']"
 license = "MIT"
 +++
@@ -2564,6 +2564,6 @@ Evented I/O for V8 javascript (LTS release: Iron)
 * /usr/lib/node_modules/npm/README.md
 * /usr/share/doc/node/gdbinit
 * /usr/share/doc/node/lldb_commands.py
-* /usr/share/doc/nodejs22-22.15.0/LICENSE
-* /usr/share/doc/nodejs22-22.15.0/README.md
+* /usr/share/doc/nodejs22-22.15.1/LICENSE
+* /usr/share/doc/nodejs22-22.15.1/README.md
 * /usr/share/man/man1/node.1.gz
