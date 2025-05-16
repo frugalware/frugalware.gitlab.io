@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "screen 5.0.1-1"
-version = "5.0.1-1"
+title = "screen 5.0.1-2"
+version = "5.0.1-2"
 description = "A full-screen window manager that multiplexes a physical terminal"
-date = "2025-05-15T20:32:24"
+date = "2025-05-16T11:55:11"
 aliases = "/packages/3330"
 categories = ['apps']
 upstreamurl = "http://www.gnu.org/software/screen/screen.html"
 arch = "x86_64"
-size = "466928"
+size = "469824"
 usize = "888003"
-sha1sum = "8aa4073a0fb2ba18579a1333e6b5d3b469571ec9"
+sha1sum = "9a9ccc773e14b42f42f1eea45bd438c8325f2707"
 depends = "['libutempter', 'ncurses>=6.5', 'pam']"
 +++
 ### Description: 

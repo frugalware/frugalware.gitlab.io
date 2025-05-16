@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libdecor 0.2.2-2"
-version = "0.2.2-2"
+title = "libdecor 0.2.3-1"
+version = "0.2.3-1"
 description = "Client-side decorations library for Wayland clients"
-date = "2025-05-11T12:36:05"
+date = "2025-05-16T12:07:33"
 aliases = "/packages/222712"
 categories = ['lib']
 upstreamurl = "https://gitlab.freedesktop.org/libdecor/libdecor"
 arch = "x86_64"
-size = "41352"
-usize = "161921"
-sha1sum = "fcce7f9ad8f33b5c393710384140fb581fb7c911"
+size = "42016"
+usize = "162465"
+sha1sum = "e49da64516fc06ac10605aa2405e817193073b08"
 depends = "['dbus', 'gtk+3', 'pango', 'wayland']"
 reverse_depends = "['mesademos']"
 +++
@@ -21,9 +21,9 @@ Client-side decorations library for Wayland clients
 * /usr/include/libdecor-0/libdecor.h
 * /usr/lib/libdecor-0.so
 * /usr/lib/libdecor-0.so.0
-* /usr/lib/libdecor-0.so.0.200.2
+* /usr/lib/libdecor-0.so.0.200.3
 * /usr/lib/libdecor/plugins-1/libdecor-cairo.so
 * /usr/lib/libdecor/plugins-1/libdecor-gtk.so
 * /usr/lib/pkgconfig/libdecor-0.pc
-* /usr/share/doc/libdecor-0.2.2/LICENSE
-* /usr/share/doc/libdecor-0.2.2/README.md
+* /usr/share/doc/libdecor-0.2.3/LICENSE
+* /usr/share/doc/libdecor-0.2.3/README.md
