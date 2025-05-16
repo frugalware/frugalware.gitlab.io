@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "td 1.8.0.g51743df-1"
-version = "1.8.0.g51743df-1"
+title = "td 1.8.0.g51743df-3"
+version = "1.8.0.g51743df-3"
 description = "Cross-platform library for building Telegram clients"
-date = "2025-05-16T16:05:10"
+date = "2025-05-16T16:55:49"
 aliases = "/packages/222718"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/tdlib/td"
 arch = "x86_64"
-size = "546874568"
+size = "546879332"
 usize = "1150616574"
-sha1sum = "789377be47e183c2415a143497a3ce44d4e99eea"
+sha1sum = "6e51ad5f06b712bef2ebc29c2f35cdd84f4fa9bf"
 depends = "['openssl']"
 +++
 ### Description: 
