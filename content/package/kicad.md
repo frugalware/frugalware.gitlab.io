@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kicad 9.0.1-1"
-version = "9.0.1-1"
+title = "kicad 9.0.2-1"
+version = "9.0.2-1"
 description = "Electronic schematic and printed circuid board design tools."
-date = "2025-03-31T16:08:42"
+date = "2025-05-16T14:42:41"
 aliases = "/packages/200581"
 categories = ['xapps-extra']
 upstreamurl = "https://www.kicad.org"
 arch = "x86_64"
-size = "83282796"
-usize = "323437553"
-sha1sum = "a4b889adb0bcce9d399cb8d6e589cf1061289f22"
-depends = "['glew>=2.2.0', 'glm', 'libboost>=1.79.0', 'libgit2>=1.9.0', 'ngspice', 'nng', 'opencascade>=7.9.0', 'openssl>=1.1.1', 'protobuf>=30.2', 'python3>=3.13', 'wxpython']"
+size = "83269492"
+usize = "322135544"
+sha1sum = "3dde50ecf96ee919dfda78e19c6f45f1230e2b47"
+depends = "['glew>=2.2.0', 'glm', 'libboost>=1.79.0', 'libgit2>=1.9.0', 'ngspice', 'nng', 'opencascade>=7.9.0', 'openssl>=1.1.1', 'protobuf>=31.0', 'python3>=3.13', 'wxpython']"
 +++
 ### Description: 
 Electronic schematic and printed circuid board design tools.
@@ -40,13 +40,13 @@ Electronic schematic and printed circuid board design tools.
 * /usr/lib/kicad/plugins/3d/libs3d_plugin_oce.so
 * /usr/lib/kicad/plugins/3d/libs3d_plugin_vrml.so
 * /usr/lib/libkiapi.so
-* /usr/lib/libkiapi.so.9.0.1
+* /usr/lib/libkiapi.so.9.0.2
 * /usr/lib/libkicad_3dsg.so
 * /usr/lib/libkicad_3dsg.so.2.0.0
 * /usr/lib/libkicommon.so
-* /usr/lib/libkicommon.so.9.0.1
+* /usr/lib/libkicommon.so.9.0.2
 * /usr/lib/libkigal.so
-* /usr/lib/libkigal.so.9.0.1
+* /usr/lib/libkigal.so.9.0.2
 * /usr/lib/python3.13/site-packages/pcbnew.py
 * /usr/lib/python3.13/site-packages/_pcbnew.so
 * /usr/share/applications/org.kicad.bitmap2component.desktop
@@ -55,10 +55,10 @@ Electronic schematic and printed circuid board design tools.
 * /usr/share/applications/org.kicad.kicad.desktop
 * /usr/share/applications/org.kicad.pcbcalculator.desktop
 * /usr/share/applications/org.kicad.pcbnew.desktop
-* /usr/share/doc/kicad-9.0.1/INSTALL.txt
-* /usr/share/doc/kicad-9.0.1/LICENSE
-* /usr/share/doc/kicad-9.0.1/LICENSE.README
-* /usr/share/doc/kicad-9.0.1/README.md
+* /usr/share/doc/kicad-9.0.2/INSTALL.txt
+* /usr/share/doc/kicad-9.0.2/LICENSE
+* /usr/share/doc/kicad-9.0.2/LICENSE.README
+* /usr/share/doc/kicad-9.0.2/README.md
 * /usr/share/icons/hicolor/128x128/apps/bitmap2component.png
 * /usr/share/icons/hicolor/128x128/apps/eeschema.png
 * /usr/share/icons/hicolor/128x128/apps/gerbview.png
