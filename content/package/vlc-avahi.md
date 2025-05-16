@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vlc-avahi 3.0.21-27"
-version = "3.0.21-27"
+title = "vlc-avahi 3.0.21-28"
+version = "3.0.21-28"
 description = "vlc avahi plugin"
-date = "2025-04-10T08:18:53"
+date = "2025-05-16T15:17:34"
 aliases = "/packages/219567"
 categories = ['xmultimedia-extra']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "19896"
-usize = "16752"
-sha1sum = "0725b4c0523e1c6b24d6fc08104408a15c63d6bb"
+size = "19852"
+usize = "16816"
+sha1sum = "00341066c675014c11fc7f53a11067a05c15f32e"
 depends = "['avahi', 'libvlc>=3.0.21']"
 +++
 ### Description: 
