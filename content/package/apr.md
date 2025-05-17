@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "apr 1.7.5-1"
-version = "1.7.5-1"
+title = "apr 1.7.6-1"
+version = "1.7.6-1"
 description = "Apache Portable Runtime"
-date = "2024-08-27T14:08:00"
+date = "2025-05-17T20:52:56"
 aliases = "/packages/4242"
 categories = ['network']
 upstreamurl = "http://apr.apache.org/"
 arch = "x86_64"
-size = "270408"
-usize = "1201548"
-sha1sum = "1d2511d45d6dd27955ab4d7d0e8439e034ee9c9e"
+size = "271756"
+usize = "1207024"
+sha1sum = "8beefe225c9ac99db0eb6447794ddf8f72fd2782"
 depends = "['libuuid>=2.40.2']"
 reverse_depends = "['apr-util']"
 +++
@@ -63,12 +63,12 @@ Apache Portable Runtime
 * /usr/lib/apr.exp
 * /usr/lib/libapr.so
 * /usr/lib/libapr.so.0
-* /usr/lib/libapr.so.0.7.5
+* /usr/lib/libapr.so.0.7.6
 * /usr/lib/pkgconfig/apr-1.pc
-* /usr/share/doc/apr-1.7.5/CHANGES
-* /usr/share/doc/apr-1.7.5/LICENSE
-* /usr/share/doc/apr-1.7.5/README
-* /usr/share/doc/apr-1.7.5/README.cmake
+* /usr/share/doc/apr-1.7.6/CHANGES
+* /usr/share/doc/apr-1.7.6/LICENSE
+* /usr/share/doc/apr-1.7.6/README
+* /usr/share/doc/apr-1.7.6/README.cmake
 * /var/www/build/apr_rules.mk
 * /var/www/build/libtool
 * /var/www/build/make_exports.awk

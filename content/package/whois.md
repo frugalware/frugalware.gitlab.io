@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "whois 5.6.0-1"
-version = "5.6.0-1"
+title = "whois 5.6.1-1"
+version = "5.6.1-1"
 description = "The GNU whois client"
-date = "2025-05-05T13:14:00"
+date = "2025-05-17T20:50:32"
 aliases = "/packages/3374"
 categories = ['network']
 upstreamurl = "http://www.linux.it/~md/software/"
 arch = "x86_64"
-size = "76372"
-usize = "311430"
-sha1sum = "507280abf02a48ddbf449b298ecceca198277a37"
+size = "86592"
+usize = "352654"
+sha1sum = "5c915ab67a77c3661dc7e9fba31787e369420148"
 depends = "['libidn>=1.3.5']"
 reverse_depends = "['fail2ban']"
 +++
@@ -22,8 +22,10 @@ The GNU whois client
 * /etc/bash_completion.d/whois
 * /etc/whois.conf
 * /usr/bin/whois
-* /usr/share/doc/whois-5.6.0/COPYING
-* /usr/share/doc/whois-5.6.0/README
+* /usr/share/doc/whois-5.6.1/COPYING
+* /usr/share/doc/whois-5.6.1/LICENSE
+* /usr/share/doc/whois-5.6.1/README
+* /usr/share/doc/whois-5.6.1/README.md
 * /usr/share/locale/cs/LC_MESSAGES/whois.mo
 * /usr/share/locale/da/LC_MESSAGES/whois.mo
 * /usr/share/locale/de/LC_MESSAGES/whois.mo

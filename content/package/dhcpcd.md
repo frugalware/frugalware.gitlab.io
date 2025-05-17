@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "dhcpcd 10.2.2-1"
-version = "10.2.2-1"
+title = "dhcpcd 10.2.3-1"
+version = "10.2.3-1"
 description = "A DHCP client daemon"
-date = "2025-02-25T21:50:13"
+date = "2025-05-17T20:31:08"
 aliases = "/packages/2363"
 categories = ['base']
 upstreamurl = "https://roy.marples.name/projects/dhcpcd/"
 arch = "x86_64"
-size = "207912"
-usize = "477713"
-sha1sum = "7c9e04e1691a18922632311517563b590c4d975e"
+size = "220060"
+usize = "507325"
+sha1sum = "cfae3794e5b79c35b4435b7e4413b2fab6359813"
 depends = "['glibc>=2.34', 'libudev>=242', 'openssl']"
 +++
 ### Description: 
@@ -29,8 +29,8 @@ A DHCP client daemon
 * /usr/share/dhcpcd/hooks/15-timezone
 * /usr/share/dhcpcd/hooks/29-lookup-hostname
 * /usr/share/dhcpcd/hooks/50-yp.conf
-* /usr/share/doc/dhcpcd-10.2.2/LICENSE
-* /usr/share/doc/dhcpcd-10.2.2/README.md
+* /usr/share/doc/dhcpcd-10.2.3/LICENSE
+* /usr/share/doc/dhcpcd-10.2.3/README.md
 * /usr/share/man/man5/dhcpcd.conf.5.gz
 * /usr/share/man/man8/dhcpcd-run-hooks.8.gz
 * /usr/share/man/man8/dhcpcd.8.gz
