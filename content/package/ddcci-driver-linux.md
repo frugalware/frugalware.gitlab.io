@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ddcci-driver-linux 0.4.5-51"
-version = "0.4.5-51"
+title = "ddcci-driver-linux 0.4.5-52"
+version = "0.4.5-52"
 description = "A pair of Linux kernel drivers for DDC/CI monitors"
-date = "2025-05-09T22:19:16"
+date = "2025-05-18T17:57:28"
 aliases = "/packages/221219"
 categories = ['apps-extra']
 upstreamurl = "https://gitlab.com/ddcci-driver-linux/ddcci-driver-linux"
 arch = "x86_64"
-size = "12424"
+size = "12444"
 usize = "24094"
-sha1sum = "80105b421b1ccfd6957128cf460a5f22f0f9149f"
-depends = "['kernel=6.14.6-1']"
+sha1sum = "b843f3452ff689f35cbe67b2512a43d252c014b0"
+depends = "['kernel=6.14.7-1']"
 +++
 ### Description: 
 A pair of Linux kernel drivers for DDC/CI monitors

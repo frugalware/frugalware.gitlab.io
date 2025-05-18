@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "open-gpu-kernel-modules 575.51.03-2"
-version = "575.51.03-2"
+title = "open-gpu-kernel-modules 575.51.03-3"
+version = "575.51.03-3"
 description = "NVIDIA Linux Open GPU Kernel Module"
-date = "2025-05-09T22:32:17"
+date = "2025-05-18T18:11:31"
 aliases = "/packages/222618"
 categories = ['x11']
 upstreamurl = "https://github.com/NVIDIA/open-gpu-kernel-modules"
 arch = "x86_64"
-size = "14484"
+size = "14524"
 usize = "85883"
-sha1sum = "ff718983030efaf287af091aa89bb7f25a595c20"
-depends = "['kernel=6.14.6-1']"
+sha1sum = "1e845fb455aa8dda32df714a583fe9e920fa8bd0"
+depends = "['kernel=6.14.7-1']"
 reverse_depends = "['nvidia']"
 +++
 ### Description: 
