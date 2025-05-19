@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libxml2 2.13.8-1"
-version = "2.13.8-1"
+title = "lib32-libxml2 2.14.3-1"
+version = "2.14.3-1"
 description = "XML parsing library ( 32bit )"
-date = "2025-04-22T07:46:10"
+date = "2025-05-19T09:45:48"
 aliases = "/packages/217730"
 categories = ['lib32-extra']
 upstreamurl = "https://gitlab.gnome.org/GNOME/libxml2/-/wikis/home"
 arch = "x86_64"
-size = "6297564"
-usize = "8279613"
-sha1sum = "d5c070b09200429ec0341522098a93d43388908e"
+size = "5977124"
+usize = "7804910"
+sha1sum = "d155130db096391eabd9a62d6166fde591b42da0"
 depends = "['lib32-icu4c>=77.1', 'lib32-xz>=5.2.4-2', 'lib32-zlib>=1.2.12']"
 reverse_depends = "['get_steam', 'lib32-at-spi2-core', 'lib32-clang', 'lib32-clang-libs', 'lib32-gconf', 'lib32-libbluray', 'lib32-libcroco', 'lib32-libxkbcommon', 'lib32-shared-mime-info', 'lib32-spirv-llvm-translator', 'lib32-wayland', 'wine', 'wine-devel']"
 +++
@@ -70,6 +70,6 @@ XML parsing library ( 32bit )
 * /usr/lib32/cmake/libxml2/libxml2-config.cmake
 * /usr/lib32/libxml2.a
 * /usr/lib32/libxml2.so
-* /usr/lib32/libxml2.so.2
-* /usr/lib32/libxml2.so.2.13.8
+* /usr/lib32/libxml2.so.16
+* /usr/lib32/libxml2.so.16.0.3
 * /usr/lib32/pkgconfig/libxml-2.0.pc

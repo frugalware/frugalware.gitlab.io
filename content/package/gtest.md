@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gtest 1.15.2-1"
-version = "1.15.2-1"
+title = "gtest 1.17.0-1"
+version = "1.17.0-1"
 description = "Google Test - C++ testing utility based on the xUnit framework (like JUnit)"
-date = "2025-01-07T20:56:13"
+date = "2025-05-19T09:34:59"
 aliases = "/packages/220442"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/google/googletest"
 arch = "x86_64"
-size = "2413036"
-usize = "4195800"
-sha1sum = "fbd230cc00cd8c0521a7cbd01934d5b49061a825"
-depends = "['libstdc++>=12.2']"
+size = "2449868"
+usize = "4232626"
+sha1sum = "61e1ffdcc08e48cd77e07bb1f1bdd641ee8769a4"
+depends = "['libstdc++>=15']"
 reverse_depends = "['insight-toolkit']"
 +++
 ### Description: 
@@ -70,6 +70,6 @@ Google Test - C++ testing utility based on the xUnit framework (like JUnit)
 * /usr/lib/pkgconfig/gmock_main.pc
 * /usr/lib/pkgconfig/gtest.pc
 * /usr/lib/pkgconfig/gtest_main.pc
-* /usr/share/doc/gtest-1.15.2/CONTRIBUTORS
-* /usr/share/doc/gtest-1.15.2/LICENSE
-* /usr/share/doc/gtest-1.15.2/README.md
+* /usr/share/doc/gtest-1.17.0/CONTRIBUTORS
+* /usr/share/doc/gtest-1.17.0/LICENSE
+* /usr/share/doc/gtest-1.17.0/README.md

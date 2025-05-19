@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "mumble 1.5.735-9"
-version = "1.5.735-9"
+title = "mumble 1.5.735-10"
+version = "1.5.735-10"
 description = "A voice chat application similar to TeamSpeak"
-date = "2025-03-31T14:44:55"
+date = "2025-05-19T09:42:54"
 aliases = "/packages/218803"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/mumble-voip/mumble"
 arch = "x86_64"
-size = "5114916"
-usize = "12010298"
-sha1sum = "2083c63ccfd5a79c68cd854b459db1bfa378537e"
-depends = "['avahi>=0.6.31-7', 'avahi-compat>=0.6.31-7', 'libsndfile', 'nlohmann-json', 'opus', 'poco>=1.14.1', 'protobuf>=30.2', 'qt5-base>=5.15.15', 'qt5-svg>=5.15.15', 'speech-dispatcher', 'speex>=1.2rc2-4', 'speexdsp']"
+size = "5163632"
+usize = "12178690"
+sha1sum = "8db2ecce4c9aa016af4011eecec257644a7a0db4"
+depends = "['avahi>=0.6.31-7', 'avahi-compat>=0.6.31-7', 'libsndfile', 'nlohmann-json', 'opus', 'poco>=1.14.1', 'protobuf>=31.0', 'qt5-base>=5.15.15', 'qt5-svg>=5.15.15', 'speech-dispatcher', 'speex>=1.2rc2-4', 'speexdsp']"
 +++
 ### Description: 
 A voice chat application similar to TeamSpeak

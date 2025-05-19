@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "mixxx 2.5.0-9"
-version = "2.5.0-9"
+title = "mixxx 2.5.1-1"
+version = "2.5.1-1"
 description = "An open source DJ tool."
-date = "2025-04-08T11:42:54"
+date = "2025-05-19T09:38:29"
 aliases = "/packages/218622"
 categories = ['xapps-extra']
 upstreamurl = "http://www.mixxx.org/"
 arch = "x86_64"
-size = "14900468"
-usize = "50922257"
-sha1sum = "0cd577ec0f9adbe8c36461f42f8a9dc943c54502"
-depends = "['chromaprint', 'flac>=1.5.0', 'libebur128', 'libhidapi', 'libkeyfinder', 'libmad', 'libmodplug', 'lilv', 'opus', 'portaudio', 'portmidi', 'protobuf>=30.2', 'qt6-5compat>=6.8.2', 'qt6-shadertools>=6.8.2', 'qt6-svg>=6.8.2', 'qtkeychain', 'rubberband>=4.0.0', 'soundtouch', 'taglib1', 'upower', 'wavpack']"
+size = "15234780"
+usize = "53218492"
+sha1sum = "a0e652f7ac88b3fb0bbd8000d2d8c96568f30098"
+depends = "['chromaprint', 'flac>=1.5.0', 'libebur128', 'libhidapi', 'libkeyfinder', 'libmad', 'libmodplug', 'lilv', 'opus', 'portaudio', 'portmidi', 'protobuf>=31.0', 'qt6-5compat>=6.8.2', 'qt6-shadertools>=6.8.2', 'qt6-svg>=6.8.2', 'qtkeychain', 'rubberband>=4.0.0', 'soundtouch', 'taglib1', 'upower', 'wavpack']"
 +++
 ### Description: 
 An open source DJ tool.
@@ -20,9 +20,9 @@ An open source DJ tool.
 * /usr/bin/mixxx
 * /usr/lib/udev/rules.d/69-mixxx-usb-uaccess.rules
 * /usr/share/applications/org.mixxx.Mixxx.desktop
-* /usr/share/doc/mixxx-2.5.0/COPYING
-* /usr/share/doc/mixxx-2.5.0/LICENSE
-* /usr/share/doc/mixxx-2.5.0/README.md
+* /usr/share/doc/mixxx-2.5.1/COPYING
+* /usr/share/doc/mixxx-2.5.1/LICENSE
+* /usr/share/doc/mixxx-2.5.1/README.md
 * /usr/share/doc/mixxx/COPYING
 * /usr/share/doc/mixxx/LICENSE
 * /usr/share/doc/mixxx/Mixxx-Keyboard-Shortcuts.pdf
@@ -84,7 +84,9 @@ An open source DJ tool.
 * /usr/share/mixxx/controllers/Denon-MC6000MK2.midi.xml
 * /usr/share/mixxx/controllers/Denon-MC7000-scripts.js
 * /usr/share/mixxx/controllers/Denon-MC7000.midi.xml
+* /usr/share/mixxx/controllers/DJ TechTools MIDI Fighter Spectra.midi.xml
 * /usr/share/mixxx/controllers/DJ TechTools MIDI Fighter Twister.midi.xml
+* /usr/share/mixxx/controllers/DJ TechTools-MIDI Fighter Spectra-scripts.js
 * /usr/share/mixxx/controllers/DJ TechTools-MIDI Fighter Twister-scripts.js
 * /usr/share/mixxx/controllers/DJ-Tech CDJ-101.midi.xml
 * /usr/share/mixxx/controllers/DJ-Tech DJM-101.midi.xml
@@ -149,12 +151,14 @@ An open source DJ tool.
 * /usr/share/mixxx/controllers/Hercules-DJControl-Compact-scripts.js
 * /usr/share/mixxx/controllers/Hercules-DJControl-Inpulse-200-script.js
 * /usr/share/mixxx/controllers/Hercules-DJControl-Inpulse-300-script.js
+* /usr/share/mixxx/controllers/Hercules-DJControl-Inpulse-500-script.js
 * /usr/share/mixxx/controllers/Hercules-DJControl-MIX-scripts.js
 * /usr/share/mixxx/controllers/Hercules-DJControl-Starlight-scripts.js
 * /usr/share/mixxx/controllers/Hercules-mp3e2-compat.js
 * /usr/share/mixxx/controllers/Hercules-P32-scripts.js
 * /usr/share/mixxx/controllers/Hercules_DJControl_Inpulse_200.midi.xml
 * /usr/share/mixxx/controllers/Hercules_DJControl_Inpulse_300.midi.xml
+* /usr/share/mixxx/controllers/Hercules_DJControl_Inpulse_500.midi.xml
 * /usr/share/mixxx/controllers/Hercules_DJControl_Jogvision-scripts.js
 * /usr/share/mixxx/controllers/Hercules_DJControl_Jogvision.midi.xml
 * /usr/share/mixxx/controllers/hid-controller-api.d.ts
@@ -191,6 +195,10 @@ An open source DJ tool.
 * /usr/share/mixxx/controllers/MixVibes U-Mix Control 2.midi.xml
 * /usr/share/mixxx/controllers/MixVibes U-Mix Control Pro 2.midi.xml
 * /usr/share/mixxx/controllers/MixVibes-U-Mix-Control-Pro-2-scripts.js
+* /usr/share/mixxx/controllers/MVave-SMC-Mixer-scripts.js
+* /usr/share/mixxx/controllers/MVave-SMC-Mixer.midi.xml
+* /usr/share/mixxx/controllers/MVave-SMK-25-II-scripts.js
+* /usr/share/mixxx/controllers/MVave-SMK-25-II.midi.xml
 * /usr/share/mixxx/controllers/Nintendo Wiimote.hid.xml
 * /usr/share/mixxx/controllers/Nintendo-Wiimote.js
 * /usr/share/mixxx/controllers/Novation Dicer.midi.xml
@@ -206,11 +214,13 @@ An open source DJ tool.
 * /usr/share/mixxx/controllers/Numark DJ2Go.midi.xml
 * /usr/share/mixxx/controllers/Numark iDJ Live II.midi.xml
 * /usr/share/mixxx/controllers/Numark Mixtrack 2.midi.xml
+* /usr/share/mixxx/controllers/Numark Mixtrack Platinum FX.midi.xml
 * /usr/share/mixxx/controllers/Numark Mixtrack Platinum.midi.xml
 * /usr/share/mixxx/controllers/Numark Mixtrack Pro FX.midi.xml
 * /usr/share/mixxx/controllers/Numark Mixtrack Pro.midi.xml
 * /usr/share/mixxx/controllers/Numark MIXTRACK.midi.xml
 * /usr/share/mixxx/controllers/Numark N4.midi.xml
+* /usr/share/mixxx/controllers/Numark NS6II.midi.xml
 * /usr/share/mixxx/controllers/Numark NS7.midi.xml
 * /usr/share/mixxx/controllers/Numark Omni Control.midi.xml
 * /usr/share/mixxx/controllers/Numark Total Control.midi.xml
@@ -220,11 +230,13 @@ An open source DJ tool.
 * /usr/share/mixxx/controllers/Numark-Mixtrack-2-scripts.js
 * /usr/share/mixxx/controllers/Numark-Mixtrack-3-scripts.js
 * /usr/share/mixxx/controllers/Numark-Mixtrack-3.midi.xml
+* /usr/share/mixxx/controllers/Numark-Mixtrack-Platinum-FX-scripts.js
 * /usr/share/mixxx/controllers/Numark-Mixtrack-Platinum-scripts.js
 * /usr/share/mixxx/controllers/Numark-Mixtrack-Pro-FX-scripts.js
 * /usr/share/mixxx/controllers/Numark-Mixtrack-Pro-scripts.js
 * /usr/share/mixxx/controllers/Numark-MixTrack-scripts.js
 * /usr/share/mixxx/controllers/Numark-N4-scripts.js
+* /usr/share/mixxx/controllers/Numark-NS6II-scripts.js
 * /usr/share/mixxx/controllers/Numark-NS7-scripts.js
 * /usr/share/mixxx/controllers/Numark-Omni-Control-scripts.js
 * /usr/share/mixxx/controllers/Numark-Party-Mix.midi.xml
@@ -267,6 +279,8 @@ An open source DJ tool.
 * /usr/share/mixxx/controllers/Reloop Terminal Mix 2-4.midi.xml
 * /usr/share/mixxx/controllers/Reloop-Beatmix-2-4-scripts.js
 * /usr/share/mixxx/controllers/Reloop-Beatpad-scripts.js
+* /usr/share/mixxx/controllers/Reloop-Digital-Jockey-2-IE.midi.xml
+* /usr/share/mixxx/controllers/Reloop-Digital-Jockey-2-IE.scripts.js
 * /usr/share/mixxx/controllers/Reloop-Digital-Jockey2-Controller-scripts.js
 * /usr/share/mixxx/controllers/Reloop-Jockey-3-ME-scripts.js
 * /usr/share/mixxx/controllers/Reloop-Mixage.midi.xml

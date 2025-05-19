@@ -1,24 +1,24 @@
 +++
 draft = false
-title = "libxml2-docs 2.13.8-1"
-version = "2.13.8-1"
+title = "libxml2-docs 2.14.3-1"
+version = "2.14.3-1"
 description = "Documentation for libxml2"
-date = "2025-04-22T07:46:10"
+date = "2025-05-19T09:45:48"
 aliases = "/packages/14561"
 categories = ['docs-extra']
 upstreamurl = "https://gitlab.gnome.org/GNOME/libxml2/-/wikis/home"
 arch = "x86_64"
-size = "208440"
-usize = "2727168"
-sha1sum = "200539defecad9f1716ce07404ab7251b78ec2cd"
-depends = "['libxml2=2.13.8']"
+size = "200336"
+usize = "2634870"
+sha1sum = "65b65a7935ae7cd7a214a5d87b96e0f2d227787f"
+depends = "['libxml2=2.14.3']"
 +++
 ### Description: 
 Documentation for libxml2
 
 ### Files: 
-* /usr/share/doc/libxml2-2.13.8/xmlcatalog.html
-* /usr/share/doc/libxml2-2.13.8/xmllint.html
+* /usr/share/doc/libxml2-2.14.3/xmlcatalog.html
+* /usr/share/doc/libxml2-2.14.3/xmllint.html
 * /usr/share/gtk-doc/html/libxml2/general.html
 * /usr/share/gtk-doc/html/libxml2/home.png
 * /usr/share/gtk-doc/html/libxml2/index.html
