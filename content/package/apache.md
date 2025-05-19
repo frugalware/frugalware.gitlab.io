@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "apache 2.4.63-1"
-version = "2.4.63-1"
+title = "apache 2.4.63-2"
+version = "2.4.63-2"
 description = "A high performance Unix-based HTTP server (with SSL)"
-date = "2025-01-24T09:00:55"
+date = "2025-05-19T16:46:12"
 aliases = "/packages/2915"
 categories = ['network']
 upstreamurl = "http://httpd.apache.org/"
 arch = "x86_64"
-size = "5693820"
-usize = "29717552"
-sha1sum = "41ee8324ff03d4c9409b1587c8b937a87d336c26"
-depends = "['apr-util>=1.6.0-2', 'curl', 'expat', 'gdbm>=1.10', 'jansson', 'libxml2', 'lua53', 'nghttp2', 'openssl>=3.1.0', 'pcre']"
+size = "5697328"
+usize = "29706738"
+sha1sum = "d136c267b1cb90639ccf8d8ee24f573c39916bff"
+depends = "['apr-util>=1.6.0-2', 'curl', 'expat', 'gdbm>=1.10', 'jansson', 'libxml2>=2.14.3', 'lua53', 'nghttp2', 'openssl>=3.1.0', 'pcre']"
 reverse_depends = "['mod_evasive', 'mod_security', 'mod_svn', 'mod_wsgi', 'phpbb-php5mod', 'postfixadmin']"
 +++
 ### Description: 
@@ -268,6 +268,7 @@ A high performance Unix-based HTTP server (with SSL)
 * /usr/share/doc/apache-2.4.63/README.CHANGES
 * /usr/share/doc/apache-2.4.63/README.cmake
 * /usr/share/doc/apache-2.4.63/README.Frugalware
+* /usr/share/doc/apache-2.4.63/README.md
 * /usr/share/doc/apache-2.4.63/README.platforms
 * /usr/share/man/man1/ab.1.gz
 * /usr/share/man/man1/apxs.1.gz

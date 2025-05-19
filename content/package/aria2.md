@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "aria2 1.37.0-1"
-version = "1.37.0-1"
+title = "aria2 1.37.0-2"
+version = "1.37.0-2"
 description = "aria2 is an utility for downloading files."
-date = "2025-01-07T13:36:38"
+date = "2025-05-19T16:49:45"
 aliases = "/packages/14245"
 categories = ['network-extra']
 upstreamurl = "https://github.com/aria2/aria2"
 arch = "x86_64"
-size = "1216616"
-usize = "4542504"
-sha1sum = "f731f7a74118d9687484309f23566ad56e8bffb1"
-depends = "['c-ares', 'ca-certificates', 'gnutls>=3.4.2', 'libidn2', 'libssh2', 'libxml2>=2.8.0', 'nettle>=3.6', 'sqlite3', 'xz']"
+size = "1221552"
+usize = "4562856"
+sha1sum = "f47eb7422b24f7bb0acfe073ba418842dc71929e"
+depends = "['c-ares', 'ca-certificates', 'gnutls>=3.4.2', 'libidn2', 'libssh2', 'libxml2>=2.14.3', 'nettle>=3.6', 'sqlite3', 'xz']"
 license = "GPL"
 +++
 ### Description: 
