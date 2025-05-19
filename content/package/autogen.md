@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "autogen 5.18.16-7"
-version = "5.18.16-7"
+title = "autogen 5.18.16-8"
+version = "5.18.16-8"
 description = "AutoGen is a tool designed to simplify the creation and maintenance of programs that contain large amounts of repetitious text"
-date = "2024-10-27T15:52:44"
+date = "2025-05-19T13:05:37"
 aliases = "/packages/217772"
 categories = ['devel-extra']
 upstreamurl = "http://www.gnu.org/software/autogen/"
 arch = "x86_64"
-size = "655288"
-usize = "1371724"
-sha1sum = "b2ecc78aa7ce24ef97bdb7f6074b5a339d897f88"
-depends = "['guile>=3.0.4', 'libffi>=3.2.1', 'libxml2>=2.9.3-2']"
+size = "655008"
+usize = "1362260"
+sha1sum = "c5a9cc19974d455296d46fd7f6f8a34c4aa53a0d"
+depends = "['guile>=3.0.4', 'libffi>=3.2.1', 'libxml2>=2.14.3']"
 +++
 ### Description: 
 AutoGen is a tool designed to simplify the creation and maintenance of programs that contain large amounts of repetitious text

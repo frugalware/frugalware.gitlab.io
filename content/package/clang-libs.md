@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "clang-libs 19.1.7-1"
-version = "19.1.7-1"
+title = "clang-libs 19.1.7-2"
+version = "19.1.7-2"
 description = "C/C++ language family frontend for LLVM Libs"
-date = "2025-01-15T16:19:20"
+date = "2025-05-19T12:45:17"
 aliases = "/packages/220143"
 categories = ['lib']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "25947496"
-usize = "109218038"
-sha1sum = "7cd3b4de99e828811ab20214405081ec5bc3d704"
-depends = "['libffi>=3.4', 'libxml2', 'llvm-libs>=19.1.7']"
+size = "26268156"
+usize = "109848206"
+sha1sum = "82680a0fe8fbcd066a55c64627cf986b1dd2f1bb"
+depends = "['libffi>=3.4', 'libxml2>=2.14.3', 'llvm-libs>=19.1.7']"
 reverse_depends = "['bcc', 'clang', 'clang-python', 'ispc', 'openshadinglanguage', 'qt5-tools', 'qt6-tools', 'shiboken6']"
 +++
 ### Description: 

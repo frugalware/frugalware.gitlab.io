@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pstl 19.1.7-1"
-version = "19.1.7-1"
+title = "pstl 19.1.7-2"
+version = "19.1.7-2"
 description = "LLVM Parallel STL"
-date = "2025-01-15T16:19:20"
+date = "2025-05-19T12:45:17"
 aliases = "/packages/220524"
 categories = ['devel-extra']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "61248"
+size = "61292"
 usize = "563581"
-sha1sum = "40b0529dde84916a68f9ecce6a67d31074f19495"
+sha1sum = "70d7f2d1ba2408aca28496e89d42a2a0c81f6d84"
 depends = "['llvm-libs>=19.1.7']"
 +++
 ### Description: 

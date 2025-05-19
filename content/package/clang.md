@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "clang 19.1.7-1"
-version = "19.1.7-1"
+title = "clang 19.1.7-2"
+version = "19.1.7-2"
 description = "C/C++ language family frontend for LLVM"
-date = "2025-01-15T16:19:20"
+date = "2025-05-19T12:45:17"
 aliases = "/packages/136475"
 categories = ['devel']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "24096280"
-usize = "141079787"
-sha1sum = "ee4a9575e04359e520f45b04b65272b95df9c068"
-depends = "['clang-libs>=19.1.7', 'libffi>=3.4', 'libxml2']"
+size = "24365448"
+usize = "142317847"
+sha1sum = "7a9b8c0ac3f987e6558f154885050b1b501c90b1"
+depends = "['clang-libs>=19.1.7', 'libffi>=3.4', 'libxml2>=2.14.3']"
 reverse_depends = "['insight-toolkit', 'lldb', 'qtcreator']"
 +++
 ### Description: 
@@ -2843,12 +2843,12 @@ C/C++ language family frontend for LLVM
 * /usr/share/doc/LLVM/clang/html/_images/ClangRepl_design.png
 * /usr/share/doc/LLVM/clang/html/_images/DefinitiveInitializationLattice.svg
 * /usr/share/doc/LLVM/clang/html/_images/DriverArchitecture.png
-* /usr/share/doc/LLVM/clang/html/_images/graphviz-2733886182489010eae293ddcc1371d32d58038d.png
-* /usr/share/doc/LLVM/clang/html/_images/graphviz-2733886182489010eae293ddcc1371d32d58038d.png.map
-* /usr/share/doc/LLVM/clang/html/_images/graphviz-4d52a65fd072512bb39329fb783bdfbdd8bbb1e6.png
-* /usr/share/doc/LLVM/clang/html/_images/graphviz-4d52a65fd072512bb39329fb783bdfbdd8bbb1e6.png.map
-* /usr/share/doc/LLVM/clang/html/_images/graphviz-7b3ae88c785ecc90fa69fae162f157c2ba60ffaf.png
-* /usr/share/doc/LLVM/clang/html/_images/graphviz-7b3ae88c785ecc90fa69fae162f157c2ba60ffaf.png.map
+* /usr/share/doc/LLVM/clang/html/_images/graphviz-0fc8c8b233b963d253c9932bcac5cacbcad64c55.png
+* /usr/share/doc/LLVM/clang/html/_images/graphviz-0fc8c8b233b963d253c9932bcac5cacbcad64c55.png.map
+* /usr/share/doc/LLVM/clang/html/_images/graphviz-8bd6c343217e10c1eaa15158ed422b754dadd774.png
+* /usr/share/doc/LLVM/clang/html/_images/graphviz-8bd6c343217e10c1eaa15158ed422b754dadd774.png.map
+* /usr/share/doc/LLVM/clang/html/_images/graphviz-b62509796e43fe87e51988caafb8ab5c16f15616.png
+* /usr/share/doc/LLVM/clang/html/_images/graphviz-b62509796e43fe87e51988caafb8ab5c16f15616.png.map
 * /usr/share/doc/LLVM/clang/html/_images/IntegerSetsFiniteLattice.svg
 * /usr/share/doc/LLVM/clang/html/_images/IntegerSetsInfiniteLattice.svg
 * /usr/share/doc/LLVM/clang/html/_images/OutputParameterIdentificationLattice.svg

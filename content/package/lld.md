@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lld 19.1.7-1"
-version = "19.1.7-1"
+title = "lld 19.1.7-2"
+version = "19.1.7-2"
 description = "LLVM Linker"
-date = "2025-01-15T16:19:20"
+date = "2025-05-19T12:45:17"
 aliases = "/packages/220519"
 categories = ['devel-extra']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "3453196"
-usize = "22442732"
-sha1sum = "5393c0da653b3fddf613055b8c4dc947f3c0770f"
+size = "3461064"
+usize = "22425736"
+sha1sum = "bf87494189c8df6fceab5bd3c363cf649de9fa62"
 depends = "['llvm-libs>=19.1.7']"
 reverse_depends = "['rust-wasm']"
 +++
