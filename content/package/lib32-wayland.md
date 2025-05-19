@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "lib32-wayland 1.23.0-2"
-version = "1.23.0-2"
+title = "lib32-wayland 1.23.0-3"
+version = "1.23.0-3"
 description = "Wayland is intended as a simpler replacement for Xorg. ( 32bit )"
-date = "2024-08-06T08:44:31"
+date = "2025-05-19T13:27:42"
 aliases = "/packages/217958"
 categories = ['lib32-extra']
 upstreamurl = "http://wayland.freedesktop.org/"
 arch = "x86_64"
-size = "128588"
-usize = "665539"
-sha1sum = "eb9e4cb0bee6c412981ed71695c5ee872bf96c47"
-depends = "['lib32-expat>=2.1.0-6', 'lib32-libffi>=3.4', 'lib32-libxml2']"
+size = "128384"
+usize = "666447"
+sha1sum = "d5050449fa79ed6e2fa58e72898a5ffcd1d419f9"
+depends = "['lib32-expat>=2.1.0-6', 'lib32-libffi>=3.4', 'lib32-libxml2>=2.14.3']"
 reverse_depends = "['lib32-libdecor', 'lib32-libegl', 'lib32-libgbm', 'lib32-libva', 'lib32-mangohud', 'lib32-mesa-libegl', 'lib32-mesademos', 'lib32-vulkan-mesa-layers', 'vulkan-mesa-layers', 'wine', 'wine-devel']"
 +++
 ### Description: 

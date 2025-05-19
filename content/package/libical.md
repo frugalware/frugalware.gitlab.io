@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libical 3.0.20-2"
-version = "3.0.20-2"
+title = "libical 3.0.20-3"
+version = "3.0.20-3"
 description = "An open source reference implementation of the icalendar data type and serialization format"
-date = "2025-03-18T21:16:38"
+date = "2025-05-19T14:01:53"
 aliases = "/packages/59982"
 categories = ['lib']
 upstreamurl = "https://github.com/libical/libical"
 arch = "x86_64"
-size = "353444"
-usize = "2156850"
-sha1sum = "69254bcb706a8e4c939ff825c466870e4813f41f"
-depends = "['icu4c>=77.1', 'libxml2']"
+size = "362136"
+usize = "2184170"
+sha1sum = "cddd7bd253485d40af8293b8b8257aade025494e"
+depends = "['icu4c>=77.1', 'libxml2>=2.14.3']"
 reverse_depends = "['bluez', 'claws-mail-plugin-vcalendar', 'kcalendarcore', 'kcalendarcore5', 'openvas-manager']"
 +++
 ### Description: 
@@ -132,7 +132,10 @@ An open source reference implementation of the icalendar data type and serializa
 * /usr/lib/pkgconfig/libical.pc
 * /usr/share/doc/libical-3.0.20/AUTHORS
 * /usr/share/doc/libical-3.0.20/COPYING
+* /usr/share/doc/libical-3.0.20/COPYING.LIB
+* /usr/share/doc/libical-3.0.20/HACKING
 * /usr/share/doc/libical-3.0.20/LICENSE
+* /usr/share/doc/libical-3.0.20/README
 * /usr/share/doc/libical-3.0.20/README.md
 * /usr/share/doc/libical-3.0.20/THANKS
 * /usr/share/doc/libical-3.0.20/TODO

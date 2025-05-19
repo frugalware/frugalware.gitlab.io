@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "lib32-libxkbcommon 1.9.2-1"
-version = "1.9.2-1"
+title = "lib32-libxkbcommon 1.9.2-2"
+version = "1.9.2-2"
 description = "Keymap compiler and support library for the XKB specification. ( 32bit )"
-date = "2025-05-07T07:59:10"
+date = "2025-05-19T13:37:01"
 aliases = "/packages/221479"
 categories = ['lib32-extra']
 upstreamurl = "http://xkbcommon.org/"
 arch = "x86_64"
-size = "204772"
-usize = "785032"
-sha1sum = "cc5dee70e6a17f7f4d9ee665c42030fe66385280"
-depends = "['lib32-libxcb>=1.12-2', 'lib32-libxml2']"
+size = "204828"
+usize = "784904"
+sha1sum = "2376ca3a1f5972d86f02b5ba7348df49ef9ad27c"
+depends = "['lib32-libxcb>=1.12-2', 'lib32-libxml2>=2.14.3']"
 reverse_depends = "['lib32-gtk+3', 'lib32-mangohud', 'wine', 'wine-devel']"
 +++
 ### Description: 

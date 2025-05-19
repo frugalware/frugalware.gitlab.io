@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gconf 3.2.6-9"
-version = "3.2.6-9"
+title = "gconf 3.2.6-10"
+version = "3.2.6-10"
 description = "A configuration database system for GNOME"
-date = "2022-07-25T18:41:03"
+date = "2025-05-19T13:34:14"
 aliases = "/packages/3020"
 categories = ['compat-extra']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "1173340"
-usize = "9121582"
-sha1sum = "4e1c30f47b15b2db29f8a8d7bbafb535532db543"
+size = "1165880"
+usize = "9075410"
+sha1sum = "990735ad8ae2cfad39c50253f6f30a4122235d7d"
 depends = "['dbus-glib>=0.104-3', 'libffi>=3.2.1', 'polkit>=0.113-5']"
 +++
 ### Description: 

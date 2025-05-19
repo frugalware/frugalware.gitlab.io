@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libxml++2 5.4.0-1"
-version = "5.4.0-1"
+title = "libxml++2 5.4.0-2"
+version = "5.4.0-2"
 description = "libxml++ is a C++ wrapper for the libxml XML parser library"
-date = "2024-11-14T10:47:05"
+date = "2025-05-19T13:17:15"
 aliases = "/packages/218048"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/libxmlplusplus/libxmlplusplus"
 arch = "x86_64"
-size = "111084"
-usize = "483202"
-sha1sum = "083d3f39f1304799d98d61f3b27941bf13dcde63"
-depends = "['glibmm>=2.68.1', 'libxml2>=2.9.3-3']"
+size = "112560"
+usize = "483602"
+sha1sum = "b0e5064bd6427b878fb823a098a8f3ec4dd45bcc"
+depends = "['glibmm>=2.68.1', 'libxml2>=2.14.3']"
 reverse_depends = "['libofx', 'lincity-ng', 'performous']"
 +++
 ### Description: 

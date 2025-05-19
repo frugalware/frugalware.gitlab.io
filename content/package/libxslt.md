@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libxslt 1.1.43-1"
-version = "1.1.43-1"
+title = "libxslt 1.1.43-2"
+version = "1.1.43-2"
 description = "XML stylesheet transformation library"
-date = "2025-03-13T09:01:33"
+date = "2025-05-19T13:18:21"
 aliases = "/packages/3213"
 categories = ['lib']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "275604"
-usize = "1437173"
-sha1sum = "7f2f6e47b0e41276ca07c3be383668ecad4d2900"
-depends = "['libgcrypt>=1.8.2-2', 'libxml2>=2.9.7-3', 'python3>=3.13']"
+size = "278356"
+usize = "1440333"
+sha1sum = "c84abbe8eaff47578a7ef89456ce650287c88903"
+depends = "['libgcrypt>=1.8.2-2', 'libxml2>=2.14.3', 'python3>=3.13']"
 reverse_depends = "['akonadi', 'akonadi-mime', 'asciidoc', 'chromium-browser', 'colord', 'docbook-xsl', 'docbook2x', 'geany-plugins', 'icecast', 'inkscape', 'kdoctools', 'kdoctools5', 'kio5', 'libosinfo', 'libreoffice', 'lincity-ng', 'nginx', 'php', 'python3-lxml', 'qt5-webengine', 'qt6-webengine', 'r2modman', 'raptor', 'ruby-nokogiri', 'shiboken6', 'sim', 'telepathy-sofiasip', 'uwsgi-plugin-webdav', 'virtualbox', 'webkit-gtk3', 'wine', 'wine-devel', 'wxwidgets', 'xmlstarlet']"
 +++
 ### Description: 

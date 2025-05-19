@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "hivex-perl 1.3.24-3"
-version = "1.3.24-3"
+title = "hivex-perl 1.3.24-4"
+version = "1.3.24-4"
 description = "Perl bindings for hivex"
-date = "2024-12-25T16:23:59"
+date = "2025-05-19T13:57:48"
 aliases = "/packages/220834"
 categories = ['devel-extra']
 upstreamurl = "http://libguestfs.org/hivex.3.html"
 arch = "x86_64"
-size = "21192"
-usize = "78777"
-sha1sum = "f5736bf2751eb5db464070145c3364d8a1b800d3"
+size = "21384"
+usize = "78881"
+sha1sum = "7637a7580a59a24288f4459c1ee5e7a072c316de"
 depends = "['hivex', 'perl']"
 +++
 ### Description: 

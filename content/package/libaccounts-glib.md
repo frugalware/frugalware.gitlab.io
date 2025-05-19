@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libaccounts-glib 1.27-1"
-version = "1.27-1"
+title = "libaccounts-glib 1.27-2"
+version = "1.27-2"
 description = "Glib-based client library for accessing the online accounts database."
-date = "2024-06-03T08:49:46"
+date = "2025-05-19T13:43:25"
 aliases = "/packages/200092"
 categories = ['xlib']
 upstreamurl = "https://gitlab.com/accounts-sso/libaccounts-glib"
 arch = "x86_64"
-size = "85488"
-usize = "495758"
-sha1sum = "2a070764a0999ca8e6e10057d3577471727f92cc"
-depends = "['glib2>=2.60.0', 'python3>=3.9.6', 'sqlite3']"
+size = "85000"
+usize = "478620"
+sha1sum = "5bd8173098394dcb27e7c3fb47613482d292b77f"
+depends = "['glib2>=2.60.0', 'libxml2>=2.14.3', 'python3>=3.9.6', 'sqlite3']"
 reverse_depends = "['libaccounts-qt', 'telepathy-accounts-signon', 'telepathy-mission-control']"
 +++
 ### Description: 

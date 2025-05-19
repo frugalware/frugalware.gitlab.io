@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libgsf 1.14.53-1"
-version = "1.14.53-1"
+title = "libgsf 1.14.53-2"
+version = "1.14.53-2"
 description = "A library for reading and writing structured files (eg MS OLE and Zip)"
-date = "2024-10-03T12:15:29"
+date = "2025-05-19T13:53:06"
 aliases = "/packages/3178"
 categories = ['xlib']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "369072"
-usize = "2563202"
-sha1sum = "c6d3b90ddf3011e714d4ecf9581e1c35c45066be"
-depends = "['gdk-pixbuf2>=2.36.11-3', 'libffi>=3.2.1-2', 'libpng>=1.6.25', 'libxml2>=2.9.4-3']"
+size = "368936"
+usize = "2561266"
+sha1sum = "a4ff8ef656fc74b435a01857c35faf0a026dabbc"
+depends = "['gdk-pixbuf2>=2.36.11-3', 'libffi>=3.2.1-2', 'libpng>=1.6.25', 'libxml2>=2.14.3']"
 reverse_depends = "['libextractor', 'libpst', 'libvips']"
 +++
 ### Description: 

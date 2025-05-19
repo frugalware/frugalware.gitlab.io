@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "m17n-lib 1.8.5-1"
-version = "1.8.5-1"
+title = "m17n-lib 1.8.5-2"
+version = "1.8.5-2"
 description = "A multilingual text processing library."
-date = "2025-02-21T20:30:17"
+date = "2025-05-19T13:30:06"
 aliases = "/packages/217649"
 categories = ['xlib-extra']
 upstreamurl = "http://www.m17n.org/"
 arch = "x86_64"
-size = "325532"
-usize = "955629"
-sha1sum = "0828fb96a87f8f976be5037c94c12e4af2363a14"
-depends = "['anthy', 'fontconfig', 'gd>=2.1.1-4', 'libotf>=0.9.16', 'libxaw>=1.0.5-1', 'libxft>=2.1.13-2', 'libxml2>=2.7.8', 'm17n-db>=1.8.0']"
+size = "327844"
+usize = "963717"
+sha1sum = "f815ceabb0cd0dbd403701823c54d14d4757d84a"
+depends = "['anthy', 'fontconfig', 'gd>=2.1.1-4', 'libotf>=0.9.16', 'libxaw>=1.0.5-1', 'libxft>=2.1.13-2', 'libxml2>=2.14.3', 'm17n-db>=1.8.0']"
 +++
 ### Description: 
 A multilingual text processing library.

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libxkbcommon 1.9.2-1"
-version = "1.9.2-1"
+title = "libxkbcommon 1.9.2-2"
+version = "1.9.2-2"
 description = "Keymap compiler and support library for the XKB specification."
-date = "2025-05-07T07:59:10"
+date = "2025-05-19T13:37:01"
 aliases = "/packages/168713"
 categories = ['x11']
 upstreamurl = "http://xkbcommon.org/"
 arch = "x86_64"
-size = "239976"
-usize = "958492"
-sha1sum = "51f282b031220e1dff79033131f02cf7c2bf2386"
-depends = "['glibc>=2.34', 'libxcb>=1.12-2', 'libxml2']"
+size = "239900"
+usize = "958396"
+sha1sum = "1fd8ecb087bdc8faa5db6595ff28cce5fb62781f"
+depends = "['glibc>=2.34', 'libxcb>=1.12-2', 'libxml2>=2.14.3']"
 reverse_depends = "['chromium-browser', 'efl', 'enlightenment', 'freerdp', 'freerdp2', 'glfw', 'gst1-plugins-bad-vulkan', 'gtk+3', 'gtk+4', 'i3', 'i3lock', 'kitty', 'libwpe', 'mangohud', 'obs-studio', 'qt5-base', 'qt5-wayland', 'qt6-base', 'qt6-wayland', 'terminology', 'weston', 'wine', 'wine-devel', 'wlroots', 'wlroots0.17', 'xdotool']"
 +++
 ### Description: 

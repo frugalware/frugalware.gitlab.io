@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "hivex-ocaml 1.3.24-3"
-version = "1.3.24-3"
+title = "hivex-ocaml 1.3.24-4"
+version = "1.3.24-4"
 description = "Ocaml bindings for hivex"
-date = "2024-12-25T16:23:59"
+date = "2025-05-19T13:57:48"
 aliases = "/packages/220831"
 categories = ['devel-extra']
 upstreamurl = "http://libguestfs.org/hivex.3.html"
 arch = "x86_64"
-size = "80896"
-usize = "135816"
-sha1sum = "0122d788c9fdedd39f6c6845312c6a58e50a7faf"
+size = "80924"
+usize = "135808"
+sha1sum = "e3d48eab4c6ae6021a734c1e8f3554a8de3cf043"
 depends = "['hivex', 'ocaml>=5.1.1']"
 reverse_depends = "['libguestfs-ocaml']"
 +++

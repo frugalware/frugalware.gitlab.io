@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "lib32-gconf 3.2.6-9"
-version = "3.2.6-9"
+title = "lib32-gconf 3.2.6-10"
+version = "3.2.6-10"
 description = "A configuration database system for GNOME ( 32bit )"
-date = "2022-07-25T18:41:03"
+date = "2025-05-19T13:34:14"
 aliases = "/packages/218979"
 categories = ['lib32-extra']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "143920"
-usize = "592631"
-sha1sum = "e8cdbc5d5a5a5d837c7170dd6c0b580c8e1071e7"
-depends = "['lib32-dbus-glib', 'lib32-libffi', 'lib32-libxml2', 'lib32-polkit']"
+size = "149660"
+usize = "602331"
+sha1sum = "05126cb5f40fc48e5261b2652c0fead845a32deb"
+depends = "['lib32-dbus-glib', 'lib32-libffi', 'lib32-libxml2>=2.14.3', 'lib32-polkit']"
 reverse_depends = "['steam-native']"
 +++
 ### Description: 

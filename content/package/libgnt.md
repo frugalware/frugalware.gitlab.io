@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libgnt 2.14.4-1"
-version = "2.14.4-1"
+title = "libgnt 2.14.4-2"
+version = "2.14.4-2"
 description = "GLib Ncurses Toolkit"
-date = "2023-12-18T14:55:23"
+date = "2025-05-19T13:50:50"
 aliases = "/packages/220193"
 categories = ['lib-extra']
 upstreamurl = "https://keep.imfreedom.org/libgnt/libgnt"
 arch = "x86_64"
-size = "169392"
-usize = "1444391"
-sha1sum = "de774920b2de8303c2376fa32a32f47bc271512f"
-depends = "['libxml2', 'ncurses']"
+size = "173496"
+usize = "1455566"
+sha1sum = "61c0031f0dfd9536a076e5980dc770b6072064dd"
+depends = "['libxml2>=2.14.3', 'ncurses']"
 reverse_depends = "['finch']"
 +++
 ### Description: 
@@ -104,6 +104,7 @@ GLib Ncurses Toolkit
 * /usr/share/gtk-doc/html/libgnt/libgnt-gntwindow.html
 * /usr/share/gtk-doc/html/libgnt/libgnt-gntwm.html
 * /usr/share/gtk-doc/html/libgnt/libgnt-gntws.html
+* /usr/share/gtk-doc/html/libgnt/libgnt.devhelp2
 * /usr/share/gtk-doc/html/libgnt/pt03.html
 * /usr/share/gtk-doc/html/libgnt/right-insensitive.png
 * /usr/share/gtk-doc/html/libgnt/right.png

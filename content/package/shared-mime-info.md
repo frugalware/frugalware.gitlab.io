@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "shared-mime-info 2.4-1"
-version = "2.4-1"
+title = "shared-mime-info 2.4-2"
+version = "2.4-2"
 description = "Freedesktop.org Shared MIME Info"
-date = "2023-11-23T20:16:21"
+date = "2025-05-19T13:39:42"
 aliases = "/packages/3335"
 categories = ['xlib']
 upstreamurl = "http://freedesktop.org/Software/shared-mime-info"
 arch = "x86_64"
-size = "584752"
-usize = "4836819"
-sha1sum = "4d0096a82129c679e202c8b6d2ccaec56674260a"
-depends = "['glib2>=2.56.0', 'libxml2>=2.9.4-3']"
+size = "588580"
+usize = "4857553"
+sha1sum = "c49c7150f9be06d1a9ea82dd26ebea5ab04fc516"
+depends = "['glib2>=2.56.0', 'libxml2>=2.14.3']"
 reverse_depends = "['akonadi', 'akonadi-mime', 'frugalpkg', 'gdk-pixbuf2', 'gtk+2', 'gtk+3', 'gtk+4', 'kcoreaddons', 'kcoreaddons5', 'kpkpass', 'love', 'qt6-base']"
 +++
 ### Description: 

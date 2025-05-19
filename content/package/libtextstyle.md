@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libtextstyle 0.25-1"
-version = "0.25-1"
+title = "libtextstyle 0.25-2"
+version = "0.25-2"
 description = "gettext lib"
-date = "2025-05-12T09:37:08"
+date = "2025-05-19T13:15:52"
 aliases = "/packages/221103"
 categories = ['devel-core']
 upstreamurl = "http://www.gnu.org/software/gettext"
 arch = "x86_64"
-size = "161972"
+size = "161832"
 usize = "495234"
-sha1sum = "64a6d610ea69aeabc515b20d32ca14463583d77e"
+sha1sum = "247ed10c24b01f68596014a66b4895a5a28b5b44"
 depends = "['ncurses>=6.5']"
 reverse_depends = "['bison', 'gettext']"
 +++
