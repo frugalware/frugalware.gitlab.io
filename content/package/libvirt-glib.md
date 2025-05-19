@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libvirt-glib 5.0.0-1"
-version = "5.0.0-1"
+title = "libvirt-glib 5.0.0-2"
+version = "5.0.0-2"
 description = "GLib and GObject mapping"
-date = "2024-08-14T14:21:11"
+date = "2025-05-19T15:27:57"
 aliases = "/packages/153042"
 categories = ['xlib-extra']
 upstreamurl = "https://libvirt.org"
 arch = "x86_64"
-size = "234472"
-usize = "2270879"
-sha1sum = "0fbaf7ad20e4336fafd60f06ec08fb64f71dbd18"
-depends = "['curl', 'libvirt>=9.5.0']"
+size = "233244"
+usize = "2271735"
+sha1sum = "c2d642f191aa385ca1b831708edbed8e57f8830a"
+depends = "['curl', 'libvirt>=11.3.0']"
 reverse_depends = "['virt-manager']"
 +++
 ### Description: 

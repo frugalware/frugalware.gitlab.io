@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libvirt 11.2.0-1"
-version = "11.2.0-1"
+title = "libvirt 11.3.0-1"
+version = "11.3.0-1"
 description = "libvirt is a library providing access to information from various virtualization tools"
-date = "2025-04-22T18:25:21"
+date = "2025-05-19T15:25:36"
 aliases = "/packages/14198"
 categories = ['xlib-extra']
 upstreamurl = "http://libvirt.org"
 arch = "x86_64"
-size = "8837136"
-usize = "52557877"
-sha1sum = "9742e3bd3ed25edf7fc607a3223712090a0fc1d5"
-depends = "['avahi', 'bridge-utils', 'curl', 'cyrus-sasl', 'dmidecode', 'dnsmasq', 'fuse', 'gnutls>=3.4.2', 'iproute2', 'iscsi', 'libnl>=3.2.9', 'libpciaccess', 'libssh2', 'libtirpc', 'libudev', 'libxml2', 'lvm2>=2.02.96', 'numactl', 'parted>=3.3', 'polkit', 'readline>=8.0', 'systemd>=228', 'yajl']"
+size = "8881704"
+usize = "52814942"
+sha1sum = "8357aab8733673fbe839c314c919815bc7ae5cfd"
+depends = "['avahi', 'bridge-utils', 'curl', 'cyrus-sasl', 'dmidecode', 'dnsmasq', 'fuse', 'gnutls>=3.4.2', 'iproute2', 'iscsi', 'libnl>=3.2.9', 'libpciaccess', 'libssh2', 'libtirpc', 'libudev', 'libxml2>=2.14.3', 'lvm2>=2.02.96', 'numactl', 'parted>=3.3', 'polkit', 'readline>=8.0', 'systemd>=228', 'yajl']"
 reverse_depends = "['libguestfs', 'libvirt-glib', 'libvirt-python3']"
 +++
 ### Description: 
@@ -123,16 +123,16 @@ libvirt is a library providing access to information from various virtualization
 * /usr/lib/libnss_libvirt_guest.so.2
 * /usr/lib/libvirt-admin.so
 * /usr/lib/libvirt-admin.so.0
-* /usr/lib/libvirt-admin.so.0.11002.0
+* /usr/lib/libvirt-admin.so.0.11003.0
 * /usr/lib/libvirt-lxc.so
 * /usr/lib/libvirt-lxc.so.0
-* /usr/lib/libvirt-lxc.so.0.11002.0
+* /usr/lib/libvirt-lxc.so.0.11003.0
 * /usr/lib/libvirt-qemu.so
 * /usr/lib/libvirt-qemu.so.0
-* /usr/lib/libvirt-qemu.so.0.11002.0
+* /usr/lib/libvirt-qemu.so.0.11003.0
 * /usr/lib/libvirt.so
 * /usr/lib/libvirt.so.0
-* /usr/lib/libvirt.so.0.11002.0
+* /usr/lib/libvirt.so.0.11003.0
 * /usr/lib/libvirt/connection-driver/libvirt_driver_ch.so
 * /usr/lib/libvirt/connection-driver/libvirt_driver_interface.so
 * /usr/lib/libvirt/connection-driver/libvirt_driver_lxc.so
@@ -266,9 +266,9 @@ libvirt is a library providing access to information from various virtualization
 * /usr/share/augeas/lenses/virtsecretd.aug
 * /usr/share/augeas/lenses/virtstoraged.aug
 * /usr/share/augeas/lenses/virtvboxd.aug
-* /usr/share/doc/libvirt-11.2.0/COPYING
-* /usr/share/doc/libvirt-11.2.0/COPYING.LESSER
-* /usr/share/doc/libvirt-11.2.0/README.rst
+* /usr/share/doc/libvirt-11.3.0/COPYING
+* /usr/share/doc/libvirt-11.3.0/COPYING.LESSER
+* /usr/share/doc/libvirt-11.3.0/README.rst
 * /usr/share/doc/libvirt/examples/c/admin/client_close.c
 * /usr/share/doc/libvirt/examples/c/admin/client_info.c
 * /usr/share/doc/libvirt/examples/c/admin/client_limits.c
@@ -565,6 +565,8 @@ libvirt is a library providing access to information from various virtualization
 * /usr/share/libvirt/api/libvirt-lxc-api.xml
 * /usr/share/libvirt/api/libvirt-qemu-api.xml
 * /usr/share/libvirt/cpu_map/arm_a64fx.xml
+* /usr/share/libvirt/cpu_map/arm_Ampere-1.xml
+* /usr/share/libvirt/cpu_map/arm_Ampere-1a.xml
 * /usr/share/libvirt/cpu_map/arm_cortex-a53.xml
 * /usr/share/libvirt/cpu_map/arm_cortex-a57.xml
 * /usr/share/libvirt/cpu_map/arm_cortex-a72.xml

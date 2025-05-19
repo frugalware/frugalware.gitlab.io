@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libsysprof-capture 48.0-1"
-version = "48.0-1"
+title = "libsysprof-capture 48.0-2"
+version = "48.0-2"
 description = "sysprof capture library"
-date = "2025-04-22T14:16:00"
+date = "2025-05-19T15:21:31"
 aliases = "/packages/220900"
 categories = ['lib']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "406440"
-usize = "590522"
-sha1sum = "edf3265b19274c03c8ac64a0b41503bd86d77550"
+size = "406544"
+usize = "590450"
+sha1sum = "ec4d5feb668dca8edc52eb31a1c60729819bb8be"
 depends = "['glibc']"
 reverse_depends = "['libsoup3', 'pango', 'qemu', 'sysprof', 'webkit-gtk3']"
 +++

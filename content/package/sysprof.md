@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "sysprof 48.0-1"
-version = "48.0-1"
+title = "sysprof 48.0-2"
+version = "48.0-2"
 description = "A sampling CPU profiler that uses a Linux kernel module to profile the entire system"
-date = "2025-04-22T14:16:00"
+date = "2025-05-19T15:21:31"
 aliases = "/packages/168599"
 categories = ['xapps-extra']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "779144"
-usize = "4300506"
-sha1sum = "fbac0c23913786e6a391fdd8e747a6631987c33c"
+size = "780300"
+usize = "4305922"
+sha1sum = "7f88b8a0cdaf7e105d4e587b006fd849e0c9b8e2"
 depends = "['elfutils-debuginfod', 'json-glib', 'libadwaita', 'libdex', 'libpanel', 'libsysprof-capture', 'libunwind', 'lzo', 'polkit']"
 +++
 ### Description: 

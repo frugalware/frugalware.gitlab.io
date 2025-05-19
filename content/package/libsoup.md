@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libsoup 2.74.3-1"
-version = "2.74.3-1"
+title = "libsoup 2.74.3-2"
+version = "2.74.3-2"
 description = "An HTTP library implementation in C"
-date = "2022-10-16T13:11:09"
+date = "2025-05-19T15:22:45"
 aliases = "/packages/3198"
 categories = ['lib']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "480308"
-usize = "2970370"
-sha1sum = "493631b8d9019aed583f41c4e9b1644b39085dc0"
-depends = "['glib-networking>=2.60.0', 'glib2>=2.60.0', 'libffi>=3.2.1-2', 'libkrb5', 'libpsl', 'libxml2>=2.9.4-3', 'sqlite3>=3.9.2-4']"
+size = "437200"
+usize = "2677627"
+sha1sum = "231a669765d23c147596750a67066ab06b0eddbb"
+depends = "['glib-networking>=2.60.0', 'glib2>=2.60.0', 'libffi>=3.2.1-2', 'libkrb5', 'libpsl', 'libxml2>=2.14.3', 'sqlite3>=3.9.2-4']"
 reverse_depends = "['gst1-plugins-bad', 'gst1-plugins-good-libsoup', 'inkscape', 'ostree', 'strongswan', 'telepathy-gabble', 'telepathy-salut', 'tootle', 'webkit-gtk3']"
 +++
 ### Description: 
@@ -98,71 +98,5 @@ An HTTP library implementation in C
 * /usr/share/doc/libsoup-2.74.3/README.msvc
 * /usr/share/gir-1.0/Soup-2.4.gir
 * /usr/share/gir-1.0/SoupGNOME-2.4.gir
-* /usr/share/locale/an/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/as/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/be/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/bg/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/bn_IN/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/bs/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/ca/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/cs/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/da/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/de/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/el/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/eo/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/es/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/et/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/eu/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/fa/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/fi/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/fr/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/fur/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/gd/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/gl/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/gu/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/he/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/hi/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/hr/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/hu/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/id/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/it/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/ja/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/kn/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/ko/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/lt/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/lv/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/ml/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/mr/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/ms/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/nb/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/ne/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/nl/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/oc/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/or/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/pa/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/pl/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/pt/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/ro/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/ru/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/sk/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/sl/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/sr/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/sr@latin/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/sv/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/ta/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/te/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/tg/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/th/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/tr/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/ug/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/uk/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/uz@cyrillic/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/vi/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/zh_HK/LC_MESSAGES/libsoup.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/libsoup.mo
 * /usr/share/vala/vapi/libsoup-2.4.deps
 * /usr/share/vala/vapi/libsoup-2.4.vapi

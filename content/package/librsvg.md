@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "librsvg 2.60.0-1"
-version = "2.60.0-1"
+title = "librsvg 2.60.0-2"
+version = "2.60.0-2"
 description = "A high performance SVG rendering library for GNOME"
-date = "2025-03-20T10:15:59"
+date = "2025-05-19T15:17:29"
 aliases = "/packages/3193"
 categories = ['xlib']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "6223064"
-usize = "25317853"
-sha1sum = "4a47d178f397e94cef8f7bbf8850e0c01c100644"
-depends = "['dav1d', 'gdk-pixbuf2>=2.36.11-3', 'libcroco>=0.6.12-4', 'pango>=1.42.0']"
+size = "6219704"
+usize = "25255957"
+sha1sum = "df961c5e2afc2c2aeee054b4255c4b20de623c38"
+depends = "['dav1d', 'gdk-pixbuf2>=2.36.11-3', 'libcroco>=0.6.12-4', 'libxml2>=2.14.3', 'pango>=1.42.0']"
 reverse_depends = "['efl', 'gegl', 'gnome-themes-extra', 'graphviz', 'imagemagick', 'libappimage', 'libvips', 'openscenegraph', 'thunderbird', 'usbguard-notifier', 'vlc-dts-ca', 'vlc-svg']"
 +++
 ### Description: 
