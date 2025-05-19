@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libqb 2.0.8-2"
-version = "2.0.8-2"
+title = "libqb 2.0.8-3"
+version = "2.0.8-3"
 description = "Library with the primary purpose of providing high performance client server reusable features"
-date = "2024-01-15T17:56:50"
+date = "2025-05-19T15:09:22"
 aliases = "/packages/219236"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/ClusterLabs/libqb"
 arch = "x86_64"
-size = "187492"
-usize = "635705"
-sha1sum = "d07ab963fb54be46ee942c2f4c6e7b5af54c4138"
-depends = "['glibc>=2.34']"
+size = "187436"
+usize = "615561"
+sha1sum = "0287eee0b2ac16b67b6fd0f68da073f0eacd65ec"
+depends = "['libxml2>=2.14.3']"
 reverse_depends = "['usbguard']"
 +++
 ### Description: 

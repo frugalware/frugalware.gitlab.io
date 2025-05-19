@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libmusicbrainz 5.1.0-7"
-version = "5.1.0-7"
+title = "libmusicbrainz 5.1.0-8"
+version = "5.1.0-8"
 description = "MusicBrainz is the second generation incarnation of the CD Index"
-date = "2022-01-28T12:29:43"
+date = "2025-05-19T14:44:23"
 aliases = "/packages/3189"
 categories = ['multimedia']
 upstreamurl = "http://www.musicbrainz.org/index.html"
 arch = "x86_64"
-size = "142748"
-usize = "833201"
-sha1sum = "f83ff4e95aaef9796441fec535ceb075e2166daa"
-depends = "['libxml2>=2.9.4-3', 'neon>=0.30.1-3']"
+size = "148088"
+usize = "833636"
+sha1sum = "f0e2663faffd6fbb17488c035dc4308d51e8d453"
+depends = "['libxml2>=2.14.3', 'neon>=0.30.1-3']"
 reverse_depends = "['cantata', 'libkcddb']"
 +++
 ### Description: 

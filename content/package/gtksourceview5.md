@@ -12,7 +12,7 @@ size = "945488"
 usize = "5991395"
 sha1sum = "20df610b9b8df13bdf5a2aa02f6d6c039530a010"
 depends = "['gtk+4', 'libxml2>=2.9.4-3']"
-reverse_depends = "['alpaca', 'gtksourceview5-doc']"
+reverse_depends = "['alpaca', 'gtksourceview5-doc', 'librest']"
 +++
 ### Description: 
 A text widget adding syntax highlighting and more to GNOME

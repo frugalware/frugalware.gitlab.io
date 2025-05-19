@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "liblangtag 0.6.7-1"
-version = "0.6.7-1"
+title = "liblangtag 0.6.7-2"
+version = "0.6.7-2"
 description = "An interface library to access tags for identifying languages"
-date = "2024-10-16T09:38:34"
+date = "2025-05-19T14:10:25"
 aliases = "/packages/169015"
 categories = ['xoffice']
 upstreamurl = "http://tagoh.bitbucket.org/liblangtag/"
 arch = "x86_64"
-size = "314892"
-usize = "3409488"
-sha1sum = "af736bc5879436466b91765a687c925e662d12b9"
-depends = "['libxml2>=2.9.4-3']"
+size = "315724"
+usize = "3408598"
+sha1sum = "8c3b0b270aa02f720efe4ef90238ffdfb1236f28"
+depends = "['libxml2>=2.14.3']"
 reverse_depends = "['libe-book', 'libreoffice']"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libpst 0.6.76-16"
-version = "0.6.76-16"
+title = "libpst 0.6.76-17"
+version = "0.6.76-17"
 description = "Utilities to convert Outlook .pst files to other formats"
-date = "2025-01-04T16:02:57"
+date = "2025-05-19T14:57:43"
 aliases = "/packages/88312"
 categories = ['xlib-extra']
 upstreamurl = "http://www.five-ten-sg.com/libpst"
 arch = "x86_64"
-size = "727768"
-usize = "2662645"
-sha1sum = "68763e0e40cca09bbf2eba334a43b1854969cba7"
+size = "730268"
+usize = "2656381"
+sha1sum = "8952524d128f2480c41897cddd68757d47c9772e"
 depends = "['libgsf>=1.14.40-3']"
 reverse_depends = "['libpst-python']"
 +++

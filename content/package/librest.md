@@ -1,30 +1,29 @@
 +++
 draft = false
-title = "librest 1.0.0-2"
-version = "1.0.0-2"
+title = "librest 0.9.1-1"
+version = "0.9.1-1"
 description = "This library was designed to make it easier to access web services"
-date = "2023-09-28T11:19:13"
+date = "2025-05-19T15:14:05"
 aliases = "/packages/73477"
 categories = ['xlib-extra']
 upstreamurl = "https://gitlab.gnome.org/GNOME/librest"
 arch = "x86_64"
-size = "1176412"
-usize = "3035618"
-sha1sum = "601dae25a83997d35a70445325f17fb3ba934299"
-depends = "['json-glib', 'libsoup3', 'libxml2>=2.9.4-3']"
+size = "1166252"
+usize = "2729732"
+sha1sum = "05a5c27ff6866cb52c1e4115ab18cfde483c47d2"
+depends = "['gtksourceview5', 'json-glib', 'libadwaita', 'libsoup3', 'libxml2>=2.14.3']"
 reverse_depends = "['libgovirt']"
 +++
 ### Description: 
 This library was designed to make it easier to access web services
 
 ### Files: 
+* /usr/bin/librest-demo
 * /usr/include/rest-1.0/rest-extras/flickr-proxy-call.h
 * /usr/include/rest-1.0/rest-extras/flickr-proxy.h
 * /usr/include/rest-1.0/rest-extras/lastfm-proxy-call.h
 * /usr/include/rest-1.0/rest-extras/lastfm-proxy.h
 * /usr/include/rest-1.0/rest-extras/youtube-proxy.h
-* /usr/include/rest-1.0/rest/oauth-proxy-call.h
-* /usr/include/rest-1.0/rest/oauth-proxy.h
 * /usr/include/rest-1.0/rest/rest-enum-types.h
 * /usr/include/rest-1.0/rest/rest-oauth2-proxy-call.h
 * /usr/include/rest-1.0/rest/rest-oauth2-proxy.h
@@ -48,27 +47,22 @@ This library was designed to make it easier to access web services
 * /usr/lib/librest-extras-1.0.so.0.0.0
 * /usr/lib/pkgconfig/rest-1.0.pc
 * /usr/lib/pkgconfig/rest-extras-1.0.pc
-* /usr/share/doc/librest-1.0.0/AUTHORS
-* /usr/share/doc/librest-1.0.0/COPYING
-* /usr/share/doc/librest-1.0.0/LICENSE
-* /usr/share/doc/librest-1.0.0/NEWS
-* /usr/share/doc/librest-1.0.0/README
-* /usr/share/doc/librest-1.0.0/README.md
+* /usr/share/applications/org.gnome.RestDemo.desktop
+* /usr/share/doc/librest-0.9.1/AUTHORS
+* /usr/share/doc/librest-0.9.1/COPYING
+* /usr/share/doc/librest-0.9.1/NEWS
+* /usr/share/doc/librest-0.9.1/README.md
 * /usr/share/doc/librest-1.0/callback.ProxyCallAsyncCallback.html
 * /usr/share/doc/librest-1.0/callback.ProxyCallContinuousCallback.html
 * /usr/share/doc/librest-1.0/callback.ProxyCallUploadCallback.html
 * /usr/share/doc/librest-1.0/class.OAuth2Proxy.html
 * /usr/share/doc/librest-1.0/class.OAuth2ProxyCall.html
-* /usr/share/doc/librest-1.0/class.OAuthProxy.html
-* /usr/share/doc/librest-1.0/class.OAuthProxyCall.html
 * /usr/share/doc/librest-1.0/class.Proxy.html
 * /usr/share/doc/librest-1.0/class.ProxyAuth.html
 * /usr/share/doc/librest-1.0/class.ProxyCall.html
 * /usr/share/doc/librest-1.0/class.XmlParser.html
 * /usr/share/doc/librest-1.0/classes_hierarchy.html
 * /usr/share/doc/librest-1.0/ctor.OAuth2Proxy.new.html
-* /usr/share/doc/librest-1.0/ctor.OAuthProxy.new.html
-* /usr/share/doc/librest-1.0/ctor.OAuthProxy.new_with_token.html
 * /usr/share/doc/librest-1.0/ctor.Param.new_full.html
 * /usr/share/doc/librest-1.0/ctor.Param.new_string.html
 * /usr/share/doc/librest-1.0/ctor.Param.new_with_owner.html
@@ -78,7 +72,6 @@ This library was designed to make it easier to access web services
 * /usr/share/doc/librest-1.0/ctor.Proxy.new_with_authentication.html
 * /usr/share/doc/librest-1.0/ctor.XmlParser.new.html
 * /usr/share/doc/librest-1.0/enum.MemoryUse.html
-* /usr/share/doc/librest-1.0/enum.OAuthSignatureMethod.html
 * /usr/share/doc/librest-1.0/error.ProxyCallError.html
 * /usr/share/doc/librest-1.0/error.ProxyError.html
 * /usr/share/doc/librest-1.0/fonts.css
@@ -112,27 +105,6 @@ This library was designed to make it easier to access web services
 * /usr/share/doc/librest-1.0/method.OAuth2Proxy.set_redirect_uri.html
 * /usr/share/doc/librest-1.0/method.OAuth2Proxy.set_refresh_token.html
 * /usr/share/doc/librest-1.0/method.OAuth2Proxy.set_token_url.html
-* /usr/share/doc/librest-1.0/method.OAuthProxy.access_token.html
-* /usr/share/doc/librest-1.0/method.OAuthProxy.access_token_async.html
-* /usr/share/doc/librest-1.0/method.OAuthProxy.access_token_finish.html
-* /usr/share/doc/librest-1.0/method.OAuthProxy.get_consumer_key.html
-* /usr/share/doc/librest-1.0/method.OAuthProxy.get_consumer_secret.html
-* /usr/share/doc/librest-1.0/method.OAuthProxy.get_service_url.html
-* /usr/share/doc/librest-1.0/method.OAuthProxy.get_signature_host.html
-* /usr/share/doc/librest-1.0/method.OAuthProxy.get_sign_method.html
-* /usr/share/doc/librest-1.0/method.OAuthProxy.get_token.html
-* /usr/share/doc/librest-1.0/method.OAuthProxy.get_token_secret.html
-* /usr/share/doc/librest-1.0/method.OAuthProxy.is_echo.html
-* /usr/share/doc/librest-1.0/method.OAuthProxy.is_oauth10a.html
-* /usr/share/doc/librest-1.0/method.OAuthProxy.new_echo_proxy.html
-* /usr/share/doc/librest-1.0/method.OAuthProxy.request_token.html
-* /usr/share/doc/librest-1.0/method.OAuthProxy.request_token_async.html
-* /usr/share/doc/librest-1.0/method.OAuthProxy.request_token_finish.html
-* /usr/share/doc/librest-1.0/method.OAuthProxy.set_oauth10a.html
-* /usr/share/doc/librest-1.0/method.OAuthProxy.set_signature_host.html
-* /usr/share/doc/librest-1.0/method.OAuthProxy.set_token.html
-* /usr/share/doc/librest-1.0/method.OAuthProxy.set_token_secret.html
-* /usr/share/doc/librest-1.0/method.OAuthProxyCall.parse_token_response.html
 * /usr/share/doc/librest-1.0/method.Param.get_content.html
 * /usr/share/doc/librest-1.0/method.Param.get_content_length.html
 * /usr/share/doc/librest-1.0/method.Param.get_content_type.html
@@ -212,12 +184,6 @@ This library was designed to make it easier to access web services
 * /usr/share/doc/librest-1.0/property.OAuth2Proxy.redirect-uri.html
 * /usr/share/doc/librest-1.0/property.OAuth2Proxy.refresh-token.html
 * /usr/share/doc/librest-1.0/property.OAuth2Proxy.token-url.html
-* /usr/share/doc/librest-1.0/property.OAuthProxy.consumer-key.html
-* /usr/share/doc/librest-1.0/property.OAuthProxy.consumer-secret.html
-* /usr/share/doc/librest-1.0/property.OAuthProxy.signature-host.html
-* /usr/share/doc/librest-1.0/property.OAuthProxy.signature-method.html
-* /usr/share/doc/librest-1.0/property.OAuthProxy.token-secret.html
-* /usr/share/doc/librest-1.0/property.OAuthProxy.token.html
 * /usr/share/doc/librest-1.0/property.Proxy.binding-required.html
 * /usr/share/doc/librest-1.0/property.Proxy.disable-cookies.html
 * /usr/share/doc/librest-1.0/property.Proxy.password.html
@@ -256,7 +222,6 @@ This library was designed to make it easier to access web services
 * /usr/share/doc/librest-1.0/RedHatText-Regular.woff
 * /usr/share/doc/librest-1.0/RedHatText-Regular.woff2
 * /usr/share/doc/librest-1.0/search.js
-* /usr/share/doc/librest-1.0/signal.Proxy.authenticate.html
 * /usr/share/doc/librest-1.0/solarized-dark.css
 * /usr/share/doc/librest-1.0/solarized-light.css
 * /usr/share/doc/librest-1.0/SourceCodePro-It.ttf.woff

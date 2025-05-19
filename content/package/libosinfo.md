@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libosinfo 1.11.0-1"
-version = "1.11.0-1"
+title = "libosinfo 1.11.0-2"
+version = "1.11.0-2"
 description = "libosinfo is a GObject based library API for managing information about operating systems"
-date = "2024-04-25T16:43:47"
+date = "2025-05-19T14:53:45"
 aliases = "/packages/153037"
 categories = ['lib-extra']
 upstreamurl = "https://libosinfo.org"
 arch = "x86_64"
-size = "581160"
-usize = "4108321"
-sha1sum = "2e4c92fc4f75a97941045acbd70dd0333c288d96"
+size = "545808"
+usize = "3908639"
+sha1sum = "ad929af637caf37da220126f3a326700581b29b4"
 depends = "['glib2>=2.60.3', 'libsoup3', 'libxslt']"
 reverse_depends = "['virt-manager']"
 +++
@@ -129,6 +129,7 @@ libosinfo is a GObject based library API for managing information about operatin
 * /usr/share/gtk-doc/html/Libosinfo/Libosinfo-osinfo-treelist.html
 * /usr/share/gtk-doc/html/Libosinfo/Libosinfo-osinfo-version.html
 * /usr/share/gtk-doc/html/Libosinfo/Libosinfo-OsinfoFilter.html
+* /usr/share/gtk-doc/html/Libosinfo/Libosinfo.devhelp2
 * /usr/share/gtk-doc/html/Libosinfo/object-tree.html
 * /usr/share/gtk-doc/html/Libosinfo/right-insensitive.png
 * /usr/share/gtk-doc/html/Libosinfo/right.png
@@ -136,26 +137,6 @@ libosinfo is a GObject based library API for managing information about operatin
 * /usr/share/gtk-doc/html/Libosinfo/up-insensitive.png
 * /usr/share/gtk-doc/html/Libosinfo/up.png
 * /usr/share/libosinfo/usb.ids
-* /usr/share/locale/ca/LC_MESSAGES/libosinfo.mo
-* /usr/share/locale/cs/LC_MESSAGES/libosinfo.mo
-* /usr/share/locale/de/LC_MESSAGES/libosinfo.mo
-* /usr/share/locale/es/LC_MESSAGES/libosinfo.mo
-* /usr/share/locale/eu/LC_MESSAGES/libosinfo.mo
-* /usr/share/locale/fi/LC_MESSAGES/libosinfo.mo
-* /usr/share/locale/fr/LC_MESSAGES/libosinfo.mo
-* /usr/share/locale/fur/LC_MESSAGES/libosinfo.mo
-* /usr/share/locale/id/LC_MESSAGES/libosinfo.mo
-* /usr/share/locale/it/LC_MESSAGES/libosinfo.mo
-* /usr/share/locale/ja/LC_MESSAGES/libosinfo.mo
-* /usr/share/locale/ka/LC_MESSAGES/libosinfo.mo
-* /usr/share/locale/ko/LC_MESSAGES/libosinfo.mo
-* /usr/share/locale/pl/LC_MESSAGES/libosinfo.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/libosinfo.mo
-* /usr/share/locale/pt_PT/LC_MESSAGES/libosinfo.mo
-* /usr/share/locale/ru/LC_MESSAGES/libosinfo.mo
-* /usr/share/locale/si/LC_MESSAGES/libosinfo.mo
-* /usr/share/locale/tr/LC_MESSAGES/libosinfo.mo
-* /usr/share/locale/uk/LC_MESSAGES/libosinfo.mo
 * /usr/share/man/man1/osinfo-detect.1.gz
 * /usr/share/man/man1/osinfo-install-script.1.gz
 * /usr/share/man/man1/osinfo-query.1.gz
