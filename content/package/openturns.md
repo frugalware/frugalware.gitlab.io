@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "openturns 1.24-1"
-version = "1.24-1"
+title = "openturns 1.24-2"
+version = "1.24-2"
 description = "Uncertainty treatment library"
-date = "2024-11-27T12:30:53"
+date = "2025-05-20T13:19:10"
 aliases = "/packages/220263"
 categories = ['lib-extra']
 upstreamurl = "http://www.openturns.org"
 arch = "x86_64"
-size = "6181108"
-usize = "28605436"
-sha1sum = "0390861afb662e9c7a2f37c1f5c41bb375c86835"
-depends = "['intel-tbb', 'libxml2']"
+size = "6178252"
+usize = "28699836"
+sha1sum = "4e7387f6a0d56970b76a3d49f16d7cf904779dea"
+depends = "['intel-tbb', 'libxml2>=2.14.3']"
 reverse_depends = "['vtk']"
 +++
 ### Description: 

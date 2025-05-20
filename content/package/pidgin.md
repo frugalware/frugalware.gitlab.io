@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pidgin 2.14.13-1"
-version = "2.14.13-1"
+title = "pidgin 2.14.14-1"
+version = "2.14.14-1"
 description = "A multi-protocol instant messaging (IM) client"
-date = "2024-09-28T11:01:24"
+date = "2025-05-20T13:29:44"
 aliases = "/packages/16192"
 categories = ['xapps-extra']
 upstreamurl = "http://www.pidgin.im/"
 arch = "x86_64"
-size = "4935832"
-usize = "26286290"
-sha1sum = "8d70636f5e77465ebeff491064485367f20154fb"
+size = "4849512"
+usize = "26055001"
+sha1sum = "0ba57397f13c10a3ffbf61edaa15de89f259e87c"
 depends = "['audiofile', 'dbus-x11', 'gtk+2', 'libao', 'libpurple', 'libsm', 'libxscrnsaver', 'startup-notification']"
 reverse_depends = "['pidgin-otr']"
 +++
@@ -100,17 +100,15 @@ A multi-protocol instant messaging (IM) client
 * /usr/lib/pidgin/xmppdisco.so
 * /usr/lib/pkgconfig/pidgin.pc
 * /usr/share/applications/pidgin.desktop
-* /usr/share/doc/pidgin-2.14.13/AUTHORS
-* /usr/share/doc/pidgin-2.14.13/ChangeLog
-* /usr/share/doc/pidgin-2.14.13/COPYING
-* /usr/share/doc/pidgin-2.14.13/COPYRIGHT
-* /usr/share/doc/pidgin-2.14.13/FAQ
-* /usr/share/doc/pidgin-2.14.13/HACKING
-* /usr/share/doc/pidgin-2.14.13/HISTORY
-* /usr/share/doc/pidgin-2.14.13/INSTALL
-* /usr/share/doc/pidgin-2.14.13/NEWS
-* /usr/share/doc/pidgin-2.14.13/README
-* /usr/share/doc/pidgin-2.14.13/README.mingw
+* /usr/share/doc/pidgin-2.14.14/AUTHORS
+* /usr/share/doc/pidgin-2.14.14/ChangeLog
+* /usr/share/doc/pidgin-2.14.14/COPYING
+* /usr/share/doc/pidgin-2.14.14/COPYRIGHT
+* /usr/share/doc/pidgin-2.14.14/HACKING
+* /usr/share/doc/pidgin-2.14.14/INSTALL
+* /usr/share/doc/pidgin-2.14.14/NEWS
+* /usr/share/doc/pidgin-2.14.14/README
+* /usr/share/doc/pidgin-2.14.14/README.mingw
 * /usr/share/icons/hicolor/16x16/apps/pidgin.png
 * /usr/share/icons/hicolor/22x22/apps/pidgin.png
 * /usr/share/icons/hicolor/24x24/apps/pidgin.png

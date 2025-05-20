@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gtksourceview4 4.8.4-1"
-version = "4.8.4-1"
+title = "gtksourceview4 4.8.4-2"
+version = "4.8.4-2"
 description = "A text widget adding syntax highlighting and more to GNOME"
-date = "2023-02-26T19:49:54"
+date = "2025-05-20T13:49:06"
 aliases = "/packages/220923"
 categories = ['gnome']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "835676"
-usize = "5928444"
-sha1sum = "f1dbc27649e9148b5eff40c44d846f2ac0f9c01a"
-depends = "['gtk+3>=3.22.29', 'libxml2>=2.9.4-3']"
+size = "570048"
+usize = "4343662"
+sha1sum = "7e6b4dafa14c743e1d2d1325675aa0bca7e1e0d1"
+depends = "['gtk+3>=3.22.29', 'libxml2>=2.14.3']"
 reverse_depends = "['gtksourceview4-doc', 'inkscape', 'input-remapper', 'xpad']"
 +++
 ### Description: 
@@ -253,90 +253,5 @@ A text widget adding syntax highlighting and more to GNOME
 * /usr/share/gtksourceview-4/styles/solarized-light.xml
 * /usr/share/gtksourceview-4/styles/styles.rng
 * /usr/share/gtksourceview-4/styles/tango.xml
-* /usr/share/locale/ab/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/ar/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/as/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/ast/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/az/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/be/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/bg/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/bn/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/bn_IN/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/bs/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/ca/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/cs/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/cy/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/da/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/de/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/dz/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/el/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/en@shaw/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/en_CA/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/eo/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/es/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/et/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/eu/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/fa/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/fi/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/fr/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/fur/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/ga/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/gl/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/gu/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/he/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/hi/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/hr/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/hu/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/id/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/is/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/it/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/ja/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/ka/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/kk/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/kn/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/ko/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/lt/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/lv/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/mai/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/mg/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/mk/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/ml/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/mn/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/mr/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/ms/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/nb/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/ne/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/nl/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/nn/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/oc/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/or/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/pa/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/pl/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/pt/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/ro/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/ru/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/rw/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/si/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/sk/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/sl/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/sq/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/sr/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/sr@latin/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/sv/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/ta/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/te/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/tg/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/th/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/tr/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/ug/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/uk/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/vi/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/xh/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/zh_HK/LC_MESSAGES/gtksourceview-4.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/gtksourceview-4.mo
 * /usr/share/vala/vapi/gtksourceview-4.deps
 * /usr/share/vala/vapi/gtksourceview-4.vapi

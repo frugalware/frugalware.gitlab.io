@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "rrdtool 1.9.0-1"
-version = "1.9.0-1"
+title = "rrdtool 1.9.0-2"
+version = "1.9.0-2"
 description = "a program to generate fancy graphs from network usage or from any thing is able to meter"
-date = "2024-11-03T19:28:03"
+date = "2025-05-20T13:22:18"
 aliases = "/packages/3321"
 categories = ['xapps-extra']
 upstreamurl = "http://oss.oetiker.ch/rrdtool"
 arch = "x86_64"
-size = "749964"
-usize = "2619933"
-sha1sum = "150dd5780ff1af5130573339a5128fac6c26fc81"
-depends = "['libxml2>=2.9.3-3', 'pango>=1.38.1', 'python3']"
+size = "750516"
+usize = "2622404"
+sha1sum = "ca813585c72c930484b14ea61415039e96ed4a26"
+depends = "['libxml2>=2.14.3', 'pango>=1.38.1', 'python3']"
 reverse_depends = "['munin']"
 +++
 ### Description: 
@@ -30,12 +30,12 @@ a program to generate fancy graphs from network usage or from any thing is able 
 * /usr/lib/librrd.so
 * /usr/lib/librrd.so.8
 * /usr/lib/librrd.so.8.3.0
-* /usr/lib/perl/5.40.0/RRDp.pm
-* /usr/lib/perl/5.40.0/x86_64-linux-thread-multi/auto/RRDp/.packlist
-* /usr/lib/perl/5.40.0/x86_64-linux-thread-multi/auto/RRDs/.packlist
-* /usr/lib/perl/5.40.0/x86_64-linux-thread-multi/auto/RRDs/RRDs.so
-* /usr/lib/perl/5.40.0/x86_64-linux-thread-multi/perllocal.pod
-* /usr/lib/perl/5.40.0/x86_64-linux-thread-multi/RRDs.pm
+* /usr/lib/perl/5.40.2/RRDp.pm
+* /usr/lib/perl/5.40.2/x86_64-linux-thread-multi/auto/RRDp/.packlist
+* /usr/lib/perl/5.40.2/x86_64-linux-thread-multi/auto/RRDs/.packlist
+* /usr/lib/perl/5.40.2/x86_64-linux-thread-multi/auto/RRDs/RRDs.so
+* /usr/lib/perl/5.40.2/x86_64-linux-thread-multi/perllocal.pod
+* /usr/lib/perl/5.40.2/x86_64-linux-thread-multi/RRDs.pm
 * /usr/lib/pkgconfig/librrd.pc
 * /usr/lib/python3.13/site-packages/rrdtool-0.1.10-py3.13.egg-info/dependency_links.txt
 * /usr/lib/python3.13/site-packages/rrdtool-0.1.10-py3.13.egg-info/PKG-INFO

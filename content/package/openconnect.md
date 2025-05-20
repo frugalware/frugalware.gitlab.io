@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "openconnect 9.12-2"
-version = "9.12-2"
+title = "openconnect 9.12-3"
+version = "9.12-3"
 description = "Open client for Cisco AnyConnect VPN"
-date = "2024-06-25T15:22:11"
+date = "2025-05-20T13:14:40"
 aliases = "/packages/218618"
 categories = ['network-extra']
 upstreamurl = "http://www.infradead.org/openconnect.html"
 arch = "x86_64"
-size = "690420"
-usize = "3475247"
-sha1sum = "244d356a04f2f065461dcf93bcee4bc012eca15b"
-depends = "['gnutls', 'krb5', 'libproxy>=0.5.7', 'libxml2', 'lz4', 'vpnc']"
+size = "689344"
+usize = "3479015"
+sha1sum = "35fd51e45490b53fac8f90e75437fe54e5d10443"
+depends = "['gnutls', 'krb5', 'libproxy>=0.5.7', 'libxml2>=2.14.3', 'lz4', 'vpnc']"
 reverse_depends = "['nm-openconnect', 'plasma-nm-openconnect']"
 license = "LGPL2.1"
 +++

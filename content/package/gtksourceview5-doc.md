@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gtksourceview5-doc 5.16.0-1"
-version = "5.16.0-1"
+title = "gtksourceview5-doc 5.16.0-2"
+version = "5.16.0-2"
 description = "gtksourceview5 documention"
-date = "2025-03-24T12:13:36"
+date = "2025-05-20T13:50:46"
 aliases = "/packages/222582"
 categories = ['gnome-docs']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "1292120"
-usize = "7648216"
-sha1sum = "f6cfc68249d06660864127c954207f28827b95de"
+size = "1292252"
+usize = "7648461"
+sha1sum = "94b17bb93cfc3082391336d6d41720edca3d87f1"
 depends = "['gtksourceview5>=5.16.0']"
 +++
 ### Description: 

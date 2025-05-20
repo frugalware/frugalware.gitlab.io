@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gtksourceview5 5.16.0-1"
-version = "5.16.0-1"
+title = "gtksourceview5 5.16.0-2"
+version = "5.16.0-2"
 description = "A text widget adding syntax highlighting and more to GNOME"
-date = "2025-03-24T12:13:36"
+date = "2025-05-20T13:50:46"
 aliases = "/packages/222581"
 categories = ['gnome']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "945488"
-usize = "5991395"
-sha1sum = "20df610b9b8df13bdf5a2aa02f6d6c039530a010"
-depends = "['gtk+4', 'libxml2>=2.9.4-3']"
+size = "948184"
+usize = "5991651"
+sha1sum = "347a176799e1fa8d14b07d89399abd24712a00af"
+depends = "['gtk+4', 'libxml2>=2.14.3']"
 reverse_depends = "['alpaca', 'gtksourceview5-doc', 'librest']"
 +++
 ### Description: 
