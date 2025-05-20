@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "bind 9.21.7-1"
-version = "9.21.7-1"
+title = "bind 9.21.7-2"
+version = "9.21.7-2"
 description = "DNS server and utilities"
-date = "2025-04-17T08:17:07"
+date = "2025-05-20T08:57:57"
 aliases = "/packages/2930"
 categories = ['network']
 upstreamurl = "https://www.isc.org/bind/"
 arch = "x86_64"
-size = "1913896"
-usize = "6646208"
-sha1sum = "6b01c21ad7178a3dba31756176af932446dc2545"
-depends = "['liburcu', 'libuv', 'libxml2>=2.9.3-3', 'ncurses>=6.1-2', 'nghttp2', 'openssl>=3.1.0', 'python3-ply', 'readline>=8.0']"
+size = "1918036"
+usize = "6623680"
+sha1sum = "f4d9024bca973606c334494a524062d28b4c7068"
+depends = "['liburcu', 'libuv', 'libxml2>=2.14.3', 'ncurses>=6.1-2', 'nghttp2', 'openssl>=3.1.0', 'python3-ply', 'readline>=8.0']"
 +++
 ### Description: 
 DNS server and utilities

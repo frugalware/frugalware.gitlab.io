@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "augeas 1.14.1-1"
-version = "1.14.1-1"
+title = "augeas 1.14.1-2"
+version = "1.14.1-2"
 description = "A configuration editing tool."
-date = "2023-12-19T12:35:27"
+date = "2025-05-20T08:49:44"
 aliases = "/packages/153255"
 categories = ['apps-extra']
 upstreamurl = "http://augeas.net"
 arch = "x86_64"
-size = "655572"
-usize = "2841996"
-sha1sum = "db7c2b31bb15ac741bd5cd91bcdbbd189081f8cc"
-depends = "['libxml2', 'readline>=8.0']"
+size = "658228"
+usize = "2790191"
+sha1sum = "0c99019599a97a184b63d392b1627498ff334c1f"
+depends = "['libxml2>=2.14.3', 'readline>=8.0']"
 reverse_depends = "['libguestfs', 'ocaml-augeas']"
 +++
 ### Description: 
@@ -500,9 +500,7 @@ A configuration editing tool.
 * /usr/share/doc/augeas-1.14.1/AUTHORS
 * /usr/share/doc/augeas-1.14.1/ChangeLog
 * /usr/share/doc/augeas-1.14.1/COPYING
-* /usr/share/doc/augeas-1.14.1/COPYING.LIB
 * /usr/share/doc/augeas-1.14.1/INSTALL
-* /usr/share/doc/augeas-1.14.1/MANIFEST
 * /usr/share/doc/augeas-1.14.1/NEWS
 * /usr/share/doc/augeas-1.14.1/README
 * /usr/share/man/man1/augmatch.1.gz

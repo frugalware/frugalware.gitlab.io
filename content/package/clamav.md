@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "clamav 1.4.2-1"
-version = "1.4.2-1"
+title = "clamav 1.4.2-2"
+version = "1.4.2-2"
 description = "Clam AntiVirus is a GPL anti-virus toolkit for UNIX"
-date = "2025-01-23T14:41:42"
+date = "2025-05-20T09:00:12"
 aliases = "/packages/2948"
 categories = ['apps-extra']
 upstreamurl = "https://www.clamav.net"
 arch = "x86_64"
-size = "8622752"
-usize = "44001326"
-sha1sum = "f3f81556b5a6e09bd83f1665f9f5a2eb5113d06b"
-depends = "['curl', 'libmspack', 'libsystemd', 'libtool', 'libxml2', 'ncurses>=6.5', 'openssl>=3.1.0', 'pcre2', 'shadow']"
+size = "8005764"
+usize = "43747550"
+sha1sum = "090614269ad7d55a90242e84c982b969bc900cbe"
+depends = "['curl', 'libmspack', 'libsystemd', 'libtool', 'libxml2>=2.14.3', 'ncurses>=6.5', 'openssl>=3.1.0', 'pcre2', 'shadow']"
 reverse_depends = "['klamav']"
 +++
 ### Description: 

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "conky 1.22.1-1"
-version = "1.22.1-1"
+title = "conky 1.22.1-2"
+version = "1.22.1-2"
 description = "Light-weight system monitor."
-date = "2025-04-22T12:50:40"
+date = "2025-05-20T09:02:50"
 aliases = "/packages/219029"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/brndnmtthws/conky"
 arch = "x86_64"
-size = "598448"
-usize = "1423137"
-sha1sum = "4f7d852527ed6ff9ff703ba0de90d0c8d5f78d6a"
-depends = "['imlib2', 'libpulse', 'libxdamage', 'libxft', 'libxinerama', 'libxml2', 'lua>=5.4', 'wireless_tools']"
+size = "604116"
+usize = "1440737"
+sha1sum = "7a619b48270f1f875bab9a24e5784243b1acb11a"
+depends = "['imlib2', 'libpulse', 'libxdamage', 'libxft', 'libxinerama', 'libxml2>=2.14.3', 'lua>=5.4', 'wireless_tools']"
 +++
 ### Description: 
 Light-weight system monitor.
