@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "icecast 2.4.4-6"
-version = "2.4.4-6"
+title = "icecast 2.4.4-7"
+version = "2.4.4-7"
 description = "Icecast is a streaming media server."
-date = "2025-03-31T11:37:50"
+date = "2025-05-20T18:53:03"
 aliases = "/packages/3634"
 categories = ['network-extra']
 upstreamurl = "https://www.icecast.org"
 arch = "x86_64"
-size = "1469992"
-usize = "2357403"
-sha1sum = "ee92b88d594ccedaceec76a336ffad817b67e3ab"
+size = "1469480"
+usize = "2354683"
+sha1sum = "f0f44e1a264ef813525fc570f921fbb94c793622"
 depends = "['curl', 'libtheora>=1.2.0', 'libvorbis', 'libxslt', 'openssl>=3.1.0', 'speex']"
 +++
 ### Description: 

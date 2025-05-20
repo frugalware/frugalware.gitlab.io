@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "appstream 1.0.5-1"
-version = "1.0.5-1"
+title = "appstream 1.0.5-2"
+version = "1.0.5-2"
 description = "Provides a standard for creating app stores across distributions"
-date = "2025-04-25T12:07:02"
+date = "2025-05-20T18:46:09"
 aliases = "/packages/218251"
 categories = ['lib']
 upstreamurl = "http://distributions.freedesktop.org/wiki/AppStream"
 arch = "x86_64"
-size = "3530856"
-usize = "17261102"
-sha1sum = "43585cca1b8249986e80ad53c74d1ba309025fc2"
-depends = "['curl', 'gobject-introspection>=1.50.0', 'libstemmer', 'libxmlb', 'libyaml']"
+size = "3530460"
+usize = "17263768"
+sha1sum = "14d5a6d110f729f5bd90d683c1fa6e8f87558c8d"
+depends = "['curl', 'gobject-introspection>=1.50.0', 'libstemmer', 'libxml2>=2.14.3', 'libxmlb', 'libyaml']"
 reverse_depends = "['alpaca', 'appstream-qt', 'flatpak', 'libadwaita']"
 +++
 ### Description: 
@@ -67,7 +67,9 @@ Provides a standard for creating app stores across distributions
 * /usr/share/appstream/appstream.conf
 * /usr/share/doc/appstream-1.0.5/AUTHORS
 * /usr/share/doc/appstream-1.0.5/COPYING
+* /usr/share/doc/appstream-1.0.5/LICENSE
 * /usr/share/doc/appstream-1.0.5/NEWS
+* /usr/share/doc/appstream-1.0.5/README.markdown
 * /usr/share/doc/appstream-1.0.5/README.md
 * /usr/share/doc/appstream-1.0.5/RELEASE
 * /usr/share/doc/appstream/html/api/appstream-logo.svg
