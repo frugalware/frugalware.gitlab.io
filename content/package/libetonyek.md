@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libetonyek 0.1.12-1"
-version = "0.1.12-1"
+title = "libetonyek 0.1.12-2"
+version = "0.1.12-2"
 description = "Libetonyek is library providing ability to interpret and import Apple Keynote presentations into various applications."
-date = "2024-12-16T08:11:41"
+date = "2025-05-20T22:17:28"
 aliases = "/packages/200037"
 categories = ['xoffice']
 upstreamurl = "https://wiki.documentfoundation.org/DLP/Libraries/libetonyek"
 arch = "x86_64"
-size = "688656"
-usize = "2875253"
-sha1sum = "332a82dd6ee7f0a9bea3a18624c965d448d570d3"
+size = "708776"
+usize = "2954197"
+sha1sum = "ece3ebc44660b39c6d57bcf2aac89e7ef75855d3"
 depends = "['libboost>=1.72.0', 'libwpd>=0.10.1-5']"
 reverse_depends = "['libreoffice']"
 +++
