@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gvfs-fuse 1.57.2-2"
-version = "1.57.2-2"
+title = "gvfs-fuse 1.57.2-3"
+version = "1.57.2-3"
 description = "gvfs with fuse support"
-date = "2025-03-26T10:31:16"
+date = "2025-05-20T11:27:39"
 aliases = "/packages/103866"
 categories = ['xapps-extra']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "14416"
-usize = "40536"
-sha1sum = "a8723cc20e6ba8f1991b18ce085c308c4e3dc3ee"
+size = "14672"
+usize = "40520"
+sha1sum = "c3f41cbb99a35b2ff11992b720f7c7eddac5292a"
 depends = "['fuse3>=3.17.1', 'gvfs>=1.57.2']"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gvfs 1.57.2-2"
-version = "1.57.2-2"
+title = "gvfs 1.57.2-3"
+version = "1.57.2-3"
 description = "gvfs is a userspace virtual filesystem designed to work with the i/o abstractions of gio."
-date = "2025-03-26T10:31:16"
+date = "2025-05-20T11:27:39"
 aliases = "/packages/49980"
 categories = ['xapps-extra']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "941832"
-usize = "5564956"
-sha1sum = "22f907c8c0779b7981489036380a475aacf981ac"
+size = "945208"
+usize = "5562428"
+sha1sum = "36562cc1aad4b8893b65205ad38fc86d2571b60d"
 depends = "['avahi-glib>=0.6.31-9', 'dbus>=1.10.10-4', 'gcr', 'glib2>=2.56.0', 'gsettings-desktop-schemas', 'gtk+3>=3.22.29', 'libarchive>=3.2.1', 'libbluray', 'libcdio>=2.1.0', 'libcdio-paranoia>=10.2+0.93+1-3', 'libsecret>=0.18.5-5', 'libsoup3', 'udisks2>=2.7.6']"
 reverse_depends = "['gvfs-apple', 'gvfs-fuse', 'gvfs-gphoto2', 'gvfs-mtp', 'gvfs-smb']"
 +++

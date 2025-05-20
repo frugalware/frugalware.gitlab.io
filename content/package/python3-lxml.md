@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "python3-lxml 5.4.0-1"
-version = "5.4.0-1"
+title = "python3-lxml 5.4.0-2"
+version = "5.4.0-2"
 description = "Easy-to-use library for working with XML and HTML in Python."
-date = "2025-04-22T17:52:06"
+date = "2025-05-20T11:51:10"
 aliases = "/packages/219317"
 categories = ['devel-extra']
 upstreamurl = "http://lxml.de/"
 arch = "x86_64"
-size = "1326028"
-usize = "5527521"
-sha1sum = "0ed31a8333a8c5086d39af9f4d6e1f6eb2ce3120"
-depends = "['libxml2>=2.9.6', 'libxslt>=1.1.31', 'python3>=3.13']"
+size = "1327804"
+usize = "5520665"
+sha1sum = "64a9b9465bb5e457cf95895a22e22a435f266a28"
+depends = "['libxml2>=2.14.3', 'libxslt>=1.1.31', 'python3>=3.13']"
 reverse_depends = "['calibre', 'glad', 'piper', 'sigil']"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gvfs-smb 1.57.2-2"
-version = "1.57.2-2"
+title = "gvfs-smb 1.57.2-3"
+version = "1.57.2-3"
 description = "gvfs with samba support"
-date = "2025-03-26T10:31:16"
+date = "2025-05-20T11:27:39"
 aliases = "/packages/103867"
 categories = ['xapps-extra']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "22936"
-usize = "77325"
-sha1sum = "f775cd3147c095b45b2f68325bca8d8628d783c7"
+size = "22728"
+usize = "76957"
+sha1sum = "8f4b4a2e1bb1426ac56353b1adbcf796f2ed2f10"
 depends = "['gvfs>=1.57.2', 'libsmbclient>=4.3.3-1', 'samba-client>=4.3.4-1']"
 +++
 ### Description: 

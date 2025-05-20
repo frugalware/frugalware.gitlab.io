@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "python3-html5-parser 0.4.12-2"
-version = "0.4.12-2"
+title = "python3-html5-parser 0.4.12-3"
+version = "0.4.12-3"
 description = "Fast C based HTML 5 parsing for python"
-date = "2024-11-02T17:44:02"
+date = "2025-05-20T11:49:43"
 aliases = "/packages/220275"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/html5-parser"
 arch = "x86_64"
-size = "142796"
-usize = "493097"
-sha1sum = "62537ea443e89732a407e66f8102b32243dc5474"
-depends = "['libxml2', 'python3>=3.12']"
+size = "152544"
+usize = "526389"
+sha1sum = "961cdf8d83e525bc1e0d6a0f079193ce21794cab"
+depends = "['libxml2>=2.14.3', 'python3>=3.12']"
 reverse_depends = "['python3-mechanize']"
 +++
 ### Description: 

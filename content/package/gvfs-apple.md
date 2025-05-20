@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gvfs-apple 1.57.2-2"
-version = "1.57.2-2"
+title = "gvfs-apple 1.57.2-3"
+version = "1.57.2-3"
 description = "gvfs with iPhone and iPod touch support"
-date = "2025-03-26T10:31:16"
+date = "2025-05-20T11:27:39"
 aliases = "/packages/88799"
 categories = ['xapps-extra']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "37308"
-usize = "142172"
-sha1sum = "d7419a0c7a547ec2b94abcd2fdbb8dc15d574db2"
+size = "38004"
+usize = "141124"
+sha1sum = "08c983e426d03500cfc2b62a4121383ba5dc6f41"
 depends = "['gvfs>=1.57.2', 'ifuse>=1.1.4-2']"
 +++
 ### Description: 

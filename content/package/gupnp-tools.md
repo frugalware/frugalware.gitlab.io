@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gupnp-tools 0.12.2-1"
-version = "0.12.2-1"
+title = "gupnp-tools 0.12.2-2"
+version = "0.12.2-2"
 description = "Tools for testing UPnP devices and control points"
-date = "2025-04-22T12:51:49"
+date = "2025-05-20T11:18:20"
 aliases = "/packages/219155"
 categories = ['xapps-extra']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "184064"
-usize = "704702"
-sha1sum = "4c98d441954c12641b97132b614e91c886307bc1"
+size = "185004"
+usize = "706854"
+sha1sum = "5a9beacb0b1278b1433e527685b352f9daf4d2d1"
 depends = "['gtk+3', 'gupnp-av>=0.14.0']"
 +++
 ### Description: 

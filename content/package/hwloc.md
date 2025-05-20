@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "hwloc 2.12.0-1"
-version = "2.12.0-1"
+title = "hwloc 2.12.0-2"
+version = "2.12.0-2"
 description = "Portable Hardware Locality is a portable abstraction of hierarchical architectures"
-date = "2025-02-21T08:29:29"
+date = "2025-05-20T11:46:43"
 aliases = "/packages/221188"
 categories = ['lib-extra']
 upstreamurl = "https://www.open-mpi.org"
 arch = "x86_64"
-size = "2531324"
-usize = "3978075"
-sha1sum = "168ab91a7f131946ac46775df4e62d0c60b6a587"
-depends = "['libcap', 'libudev', 'libxml2', 'ncurses']"
+size = "2529900"
+usize = "3975443"
+sha1sum = "0f9cda6ceb5ee8dff6e204dc4dccf23775804fe0"
+depends = "['libcap', 'libudev', 'libxml2>=2.14.3', 'ncurses']"
 reverse_depends = "['openpmix']"
 +++
 ### Description: 

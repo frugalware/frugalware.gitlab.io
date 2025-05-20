@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "raptor 2.0.16-6"
-version = "2.0.16-6"
+title = "raptor 2.0.16-7"
+version = "2.0.16-7"
 description = "Library providing a set of parsers that generate Resource Description Framework (RDF)."
-date = "2025-03-18T21:10:48"
+date = "2025-05-20T11:48:50"
 aliases = "/packages/73108"
 categories = ['lib']
 upstreamurl = "http://librdf.org/raptor/"
 arch = "x86_64"
-size = "352052"
-usize = "2382973"
-sha1sum = "e779cbbe189fe3003ddcaf63511b00088eafb4de"
-depends = "['curl>=7.50.3-2', 'libxml2>=2.9.4-3', 'libxslt>=1.1.28-3', 'openssl>=1.0.2-20']"
+size = "353748"
+usize = "2383990"
+sha1sum = "f0062af22f7d8c3d7630cf2e5f24fadac03a2310"
+depends = "['curl>=7.50.3-2', 'libxml2>=2.14.3', 'libxslt>=1.1.28-3', 'openssl>=1.0.2-20']"
 reverse_depends = "['flickcurl', 'rasqal']"
 +++
 ### Description: 

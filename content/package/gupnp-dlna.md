@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gupnp-dlna 0.12.0-1"
-version = "0.12.0-1"
+title = "gupnp-dlna 0.12.0-2"
+version = "0.12.0-2"
 description = "dlna utility for GUPnP"
-date = "2022-04-28T08:37:22"
+date = "2025-05-20T11:17:20"
 aliases = "/packages/103055"
 categories = ['xlib-extra']
 upstreamurl = "http://www.gupnp.org"
 arch = "x86_64"
-size = "83824"
-usize = "625451"
-sha1sum = "dc90dcc0ae82fe92161d2e89900b8619f57bde06"
-depends = "['gst1-plugins-base']"
+size = "84676"
+usize = "610844"
+sha1sum = "ad07f9cd753b0396b5d0c7b3ddb22045b3566326"
+depends = "['gst1-plugins-base', 'libxml2>=2.14.3']"
 +++
 ### Description: 
 dlna utility for GUPnP

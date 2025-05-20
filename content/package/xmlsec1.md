@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "xmlsec1 1.3.7-1"
-version = "1.3.7-1"
+title = "xmlsec1 1.3.7-2"
+version = "1.3.7-2"
 description = "Library providing support for 'XML Signature' and 'XML Encryption' standards"
-date = "2025-02-24T07:43:31"
+date = "2025-05-20T11:52:05"
 aliases = "/packages/219507"
 categories = ['xoffice']
 upstreamurl = "https://www.aleksey.com/xmlsec/"
 arch = "x86_64"
-size = "262380"
-usize = "1280474"
-sha1sum = "9ff40dd6bb0b9b069b0bac7254198fc3713569bd"
-depends = "['libxml2', 'nss']"
+size = "263464"
+usize = "1280554"
+sha1sum = "29df333f941f08f36b3d03bc112968b6d9d62210"
+depends = "['libxml2>=2.14.3', 'nss']"
 reverse_depends = "['libreoffice']"
 +++
 ### Description: 
