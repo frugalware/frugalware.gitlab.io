@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libabw 0.1.3-2"
-version = "0.1.3-2"
+title = "libabw 0.1.3-3"
+version = "0.1.3-3"
 description = "A library to import of AbiWord files"
-date = "2020-02-09T15:44:20"
+date = "2025-05-20T19:30:06"
 aliases = "/packages/200494"
 categories = ['xoffice']
 upstreamurl = "http://wiki.documentfoundation.org/DLP/Libraries/libabw"
 arch = "x86_64"
-size = "106520"
-usize = "362895"
-sha1sum = "51ce2e57ad40089bf4c2565b8d49f3eced434b25"
-depends = "['libboost>=1.72.0', 'libwpd>=0.10.2-2']"
+size = "115672"
+usize = "343597"
+sha1sum = "6f0f837f8c194f57955c1b85edc2d63b459abc80"
+depends = "['libboost>=1.72.0', 'libwpd>=0.10.2-2', 'libxml2>=2.14.3']"
 reverse_depends = "['libreoffice']"
 +++
 ### Description: 

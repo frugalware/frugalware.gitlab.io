@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "fontforge 20230101-4"
-version = "20230101-4"
+title = "fontforge 20230101-5"
+version = "20230101-5"
 description = "Font editor and converter"
-date = "2025-03-13T16:10:59"
+date = "2025-05-20T19:21:23"
 aliases = "/packages/3001"
 categories = ['misc-fonts']
 upstreamurl = "https://github.com/fontforge/fontforge"
 arch = "x86_64"
-size = "9514452"
-usize = "31230903"
-sha1sum = "45c028ebf6c2333eeb526d312b4bfe687f8fe0f7"
-depends = "['gtk+3', 'libgif', 'libjpeg-turbo', 'libspiro', 'libtiff>=4.7.0', 'libuninameslist', 'pango', 'python3>=3.13', 'readline>=8.0']"
+size = "9546516"
+usize = "31188392"
+sha1sum = "84ae34923a7f7fcb17beb59460c53c8821de080b"
+depends = "['gtk+3', 'libgif', 'libjpeg-turbo', 'libspiro', 'libtiff>=4.7.0', 'libuninameslist', 'libxml2>=2.14.3', 'pango', 'python3>=3.13', 'readline>=8.0']"
 reverse_depends = "['mftrace']"
 +++
 ### Description: 
