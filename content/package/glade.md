@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "glade 3.40.0-1"
-version = "3.40.0-1"
+title = "glade 3.40.0-2"
+version = "3.40.0-2"
 description = "Allows you to load glade interface files in a program at runtime"
-date = "2023-03-31T10:03:31"
+date = "2025-05-20T09:59:55"
 aliases = "/packages/220496"
 categories = ['xlib']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "1941708"
-usize = "11427466"
-sha1sum = "2ffb00976fa653ce453713115aa98c86185347df"
-depends = "['gtk+3', 'libxml2>=2.9.4-3', 'python3']"
+size = "2334556"
+usize = "11822801"
+sha1sum = "1b271e07fd1cec56f9214a7f462a8475509d892b"
+depends = "['gtk+3', 'libxml2>=2.14.3', 'python3']"
 reverse_depends = "['gnunet', 'xscreensaver']"
 +++
 ### Description: 

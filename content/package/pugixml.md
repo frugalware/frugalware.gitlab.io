@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pugixml 1.15-1"
-version = "1.15-1"
+title = "pugixml 1.15-3"
+version = "1.15-3"
 description = "Light-weight, simple and fast XML parser for C++ with XPath support"
-date = "2025-01-17T11:34:54"
+date = "2025-05-20T09:31:07"
 aliases = "/packages/219327"
 categories = ['lib-extra']
 upstreamurl = "http://pugixml.org"
 arch = "x86_64"
-size = "91116"
-usize = "300910"
-sha1sum = "fc3184589ef41f118a5545ed1c86315fa01d843d"
+size = "93152"
+usize = "302790"
+sha1sum = "61882a4f23dbc7441d7b357b8fd8e6b050fc49b0"
 depends = "['glibc>=2.29-6']"
 reverse_depends = "['blender', 'darktable', 'manaplus', 'mkvtoolnix', 'ogre', 'openshadinglanguage', 'poedit']"
 +++

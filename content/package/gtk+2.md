@@ -12,7 +12,7 @@ size = "1132256"
 usize = "12311262"
 sha1sum = "6f5313f81ea680566074608ce9a623d74c86b6a4"
 depends = "['adwaita-icon-theme', 'freetype2', 'gdk-pixbuf2>=2.36.11-3', 'gnome-themes-extra', 'gtk+2-libs', 'libcups>=2.2.0-2', 'libffi>=3.2.1-2', 'libpng>=1.6.25', 'pango>=1.42.0', 'shared-mime-info']"
-reverse_depends = "['calf', 'dunst', 'emacs', 'ethereal', 'firefox', 'gfpm', 'gftp', 'gnokii-gui', 'gnome-clipboard-daemon', 'gtans', 'gtk+2-demos', 'gtk+2-engines-clearlooks', 'gtkspell', 'gvidcap', 'gxmame', 'hot-babe', 'libcanberra-gtk2', 'libextractor', 'libwnck2', 'mozilla', 'openssh-askpass', 'oxygen-gtk', 'parcellite', 'pidgin', 'pinentry-gtk+2', 'pioneers', 'printoxx', 'qtcurve-gtk', 'scim', 'thunderbird', 'xsane', 'xscreensaver']"
+reverse_depends = "['calf', 'dunst', 'ethereal', 'firefox', 'gfpm', 'gftp', 'gnokii-gui', 'gnome-clipboard-daemon', 'gtans', 'gtk+2-demos', 'gtk+2-engines-clearlooks', 'gtkspell', 'gvidcap', 'gxmame', 'hot-babe', 'libcanberra-gtk2', 'libextractor', 'libwnck2', 'mozilla', 'openssh-askpass', 'oxygen-gtk', 'parcellite', 'pidgin', 'pinentry-gtk+2', 'pioneers', 'printoxx', 'qtcurve-gtk', 'scim', 'thunderbird', 'xsane', 'xscreensaver']"
 +++
 ### Description: 
 The GTK+ Toolkit (2.x series)

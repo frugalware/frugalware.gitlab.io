@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gdal 3.10.2-1"
-version = "3.10.2-1"
+title = "gdal 3.11.0-1"
+version = "3.11.0-1"
 description = "GDAL - a translator library for raster geospatial data formats"
-date = "2025-03-14T10:56:32"
+date = "2025-05-20T09:57:37"
 aliases = "/packages/5175"
 categories = ['apps-extra']
 upstreamurl = "http://www.gdal.org/"
 arch = "x86_64"
-size = "8987472"
-usize = "31416462"
-sha1sum = "95f8f61b88875f66bd2fd038768b86d3be2eb7cb"
-depends = "['expat>=2.1.0-5', 'geos>=3.6.2', 'json-c>=0.14', 'libdeflate', 'libheif', 'libjpeg-turbo', 'libpng>=1.6.20', 'libpq>=11.2-2', 'libxml2>=2.9.4-3', 'openssl>=3.1.0', 'pcre>=1.6.20', 'proj>=9.4.0', 'sqlite3>=3.10.2', 'unixodbc>=2.3.4-2']"
+size = "9724564"
+usize = "33670334"
+sha1sum = "302fd03b960177a380510a34a2d1d1a6e3d1eb56"
+depends = "['expat>=2.1.0-5', 'geos>=3.6.2', 'json-c>=0.14', 'libdeflate', 'libheif', 'libjpeg-turbo', 'libpng>=1.6.20', 'libpq>=11.2-2', 'libxml2>=2.14.3', 'openssl>=3.1.0', 'pcre>=1.6.20', 'proj>=9.4.0', 'sqlite3>=3.10.2', 'unixodbc>=2.3.4-2']"
 reverse_depends = "['hexer', 'opencv', 'scribus']"
 license = "MIT"
 +++
@@ -19,6 +19,7 @@ license = "MIT"
 GDAL - a translator library for raster geospatial data formats
 
 ### Files: 
+* /usr/bin/gdal
 * /usr/bin/gdal-config
 * /usr/bin/gdaladdo
 * /usr/bin/gdalbuildvrt
@@ -57,6 +58,7 @@ GDAL - a translator library for raster geospatial data formats
 * /usr/include/cpl_conv.h
 * /usr/include/cpl_csv.h
 * /usr/include/cpl_error.h
+* /usr/include/cpl_float.h
 * /usr/include/cpl_hash_set.h
 * /usr/include/cpl_http.h
 * /usr/include/cpl_json.h
@@ -75,6 +77,7 @@ GDAL - a translator library for raster geospatial data formats
 * /usr/include/cpl_vsi_error.h
 * /usr/include/cpl_vsi_virtual.h
 * /usr/include/gdal.h
+* /usr/include/gdalalgorithm.h
 * /usr/include/gdalcachedpixelaccessor.h
 * /usr/include/gdalgeorefpamdataset.h
 * /usr/include/gdalgrid.h
@@ -84,19 +87,25 @@ GDAL - a translator library for raster geospatial data formats
 * /usr/include/gdalpansharpen.h
 * /usr/include/gdalsubdatasetinfo.h
 * /usr/include/gdalwarper.h
+* /usr/include/gdal_adbc.h
 * /usr/include/gdal_alg.h
 * /usr/include/gdal_alg_priv.h
 * /usr/include/gdal_csv.h
 * /usr/include/gdal_frmts.h
+* /usr/include/gdal_fwd.h
 * /usr/include/gdal_mdreader.h
+* /usr/include/gdal_minmax_element.hpp
 * /usr/include/gdal_pam.h
 * /usr/include/gdal_priv.h
+* /usr/include/gdal_priv_templates.hpp
 * /usr/include/gdal_proxy.h
 * /usr/include/gdal_rat.h
 * /usr/include/gdal_simplesurf.h
+* /usr/include/gdal_typetraits.h
 * /usr/include/gdal_utils.h
 * /usr/include/gdal_version.h
 * /usr/include/gdal_vrt.h
+* /usr/include/geoheif.h
 * /usr/include/gnm.h
 * /usr/include/gnmgraph.h
 * /usr/include/gnm_api.h
@@ -122,9 +131,10 @@ GDAL - a translator library for raster geospatial data formats
 * /usr/lib/cmake/gdal/GDALConfigVersion.cmake
 * /usr/lib/gdalplugins/drivers.ini
 * /usr/lib/libgdal.so
-* /usr/lib/libgdal.so.36
-* /usr/lib/libgdal.so.36.3.10.2
+* /usr/lib/libgdal.so.37
+* /usr/lib/libgdal.so.37.3.11.0
 * /usr/lib/pkgconfig/gdal.pc
+* /usr/share/bash-completion/completions/gdal
 * /usr/share/bash-completion/completions/gdal-config
 * /usr/share/bash-completion/completions/gdal2tiles.py
 * /usr/share/bash-completion/completions/gdal2xyz.py
@@ -163,15 +173,16 @@ GDAL - a translator library for raster geospatial data formats
 * /usr/share/bash-completion/completions/ogrlineref
 * /usr/share/bash-completion/completions/ogrmerge.py
 * /usr/share/bash-completion/completions/ogrtindex
-* /usr/share/doc/gdal-3.10.2/HOWTO-RELEASE
-* /usr/share/doc/gdal-3.10.2/README.md
-* /usr/share/doc/gdal-3.10.2/VERSION
+* /usr/share/doc/gdal-3.11.0/HOWTO-RELEASE
+* /usr/share/doc/gdal-3.11.0/README.md
+* /usr/share/doc/gdal-3.11.0/VERSION
 * /usr/share/gdal/cubewerx_extra.wkt
 * /usr/share/gdal/default.rsc
 * /usr/share/gdal/ecw_cs.wkt
 * /usr/share/gdal/eedaconf.json
 * /usr/share/gdal/epsg.wkt
 * /usr/share/gdal/esri_StatePlane_extra.wkt
+* /usr/share/gdal/gdalg.schema.json
 * /usr/share/gdal/gdalicon.png
 * /usr/share/gdal/gdalinfo_output.schema.json
 * /usr/share/gdal/GDALLogoBW.svg
@@ -180,6 +191,7 @@ GDAL - a translator library for raster geospatial data formats
 * /usr/share/gdal/gdalmdiminfo_output.schema.json
 * /usr/share/gdal/gdaltileindex.xsd
 * /usr/share/gdal/gdalvrt.xsd
+* /usr/share/gdal/gdal_algorithm.schema.json
 * /usr/share/gdal/gfs.xsd
 * /usr/share/gdal/gml_registry.xml
 * /usr/share/gdal/gml_registry.xsd
@@ -282,12 +294,14 @@ GDAL - a translator library for raster geospatial data formats
 * /usr/share/gdal/jpfgdgml_WL.gfs
 * /usr/share/gdal/jpfgdgml_WStrA.gfs
 * /usr/share/gdal/jpfgdgml_WStrL.gfs
+* /usr/share/gdal/leaflet_template.html
 * /usr/share/gdal/LICENSE.TXT
 * /usr/share/gdal/MM_m_idofic.csv
 * /usr/share/gdal/nitf_spec.xml
 * /usr/share/gdal/nitf_spec.xsd
 * /usr/share/gdal/ogrinfo_output.schema.json
 * /usr/share/gdal/ogrvrt.xsd
+* /usr/share/gdal/ogr_fields_override.schema.json
 * /usr/share/gdal/osmconf.ini
 * /usr/share/gdal/ozi_datum.csv
 * /usr/share/gdal/ozi_ellips.csv
@@ -317,6 +331,74 @@ GDAL - a translator library for raster geospatial data formats
 * /usr/share/gdal/vdv452.xsd
 * /usr/share/gdal/vicar.json
 * /usr/share/man/man1/gdal-config.1.gz
+* /usr/share/man/man1/gdal-convert.1.gz
+* /usr/share/man/man1/gdal-info.1.gz
+* /usr/share/man/man1/gdal-mdim-convert.1.gz
+* /usr/share/man/man1/gdal-mdim-info.1.gz
+* /usr/share/man/man1/gdal-mdim.1.gz
+* /usr/share/man/man1/gdal-raster-calc.1.gz
+* /usr/share/man/man1/gdal-raster-clean-collar.1.gz
+* /usr/share/man/man1/gdal-raster-clip.1.gz
+* /usr/share/man/man1/gdal-raster-color-map.1.gz
+* /usr/share/man/man1/gdal-raster-contour.1.gz
+* /usr/share/man/man1/gdal-raster-convert.1.gz
+* /usr/share/man/man1/gdal-raster-create.1.gz
+* /usr/share/man/man1/gdal-raster-edit.1.gz
+* /usr/share/man/man1/gdal-raster-fill-nodata.1.gz
+* /usr/share/man/man1/gdal-raster-footprint.1.gz
+* /usr/share/man/man1/gdal-raster-hillshade.1.gz
+* /usr/share/man/man1/gdal-raster-index.1.gz
+* /usr/share/man/man1/gdal-raster-info.1.gz
+* /usr/share/man/man1/gdal-raster-mosaic.1.gz
+* /usr/share/man/man1/gdal-raster-overview-add.1.gz
+* /usr/share/man/man1/gdal-raster-overview-delete.1.gz
+* /usr/share/man/man1/gdal-raster-pipeline.1.gz
+* /usr/share/man/man1/gdal-raster-pixel-info.1.gz
+* /usr/share/man/man1/gdal-raster-polygonize.1.gz
+* /usr/share/man/man1/gdal-raster-reclassify.1.gz
+* /usr/share/man/man1/gdal-raster-reproject.1.gz
+* /usr/share/man/man1/gdal-raster-resize.1.gz
+* /usr/share/man/man1/gdal-raster-roughness.1.gz
+* /usr/share/man/man1/gdal-raster-scale.1.gz
+* /usr/share/man/man1/gdal-raster-select.1.gz
+* /usr/share/man/man1/gdal-raster-set-type.1.gz
+* /usr/share/man/man1/gdal-raster-sieve.1.gz
+* /usr/share/man/man1/gdal-raster-slope.1.gz
+* /usr/share/man/man1/gdal-raster-stack.1.gz
+* /usr/share/man/man1/gdal-raster-tile.1.gz
+* /usr/share/man/man1/gdal-raster-tpi.1.gz
+* /usr/share/man/man1/gdal-raster-tri.1.gz
+* /usr/share/man/man1/gdal-raster-unscale.1.gz
+* /usr/share/man/man1/gdal-raster-viewshed.1.gz
+* /usr/share/man/man1/gdal-raster.1.gz
+* /usr/share/man/man1/gdal-vector-clip.1.gz
+* /usr/share/man/man1/gdal-vector-convert.1.gz
+* /usr/share/man/man1/gdal-vector-edit.1.gz
+* /usr/share/man/man1/gdal-vector-filter.1.gz
+* /usr/share/man/man1/gdal-vector-geom-buffer.1.gz
+* /usr/share/man/man1/gdal-vector-geom-explode-collections.1.gz
+* /usr/share/man/man1/gdal-vector-geom-make-valid.1.gz
+* /usr/share/man/man1/gdal-vector-geom-segmentize.1.gz
+* /usr/share/man/man1/gdal-vector-geom-set-type.1.gz
+* /usr/share/man/man1/gdal-vector-geom-simplify.1.gz
+* /usr/share/man/man1/gdal-vector-geom-swap-xy.1.gz
+* /usr/share/man/man1/gdal-vector-geom.1.gz
+* /usr/share/man/man1/gdal-vector-grid.1.gz
+* /usr/share/man/man1/gdal-vector-info.1.gz
+* /usr/share/man/man1/gdal-vector-pipeline.1.gz
+* /usr/share/man/man1/gdal-vector-rasterize.1.gz
+* /usr/share/man/man1/gdal-vector-select.1.gz
+* /usr/share/man/man1/gdal-vector-sql.1.gz
+* /usr/share/man/man1/gdal-vector.1.gz
+* /usr/share/man/man1/gdal-vector_concat.1.gz
+* /usr/share/man/man1/gdal-vsi-copy.1.gz
+* /usr/share/man/man1/gdal-vsi-delete.1.gz
+* /usr/share/man/man1/gdal-vsi-list.1.gz
+* /usr/share/man/man1/gdal-vsi-move.1.gz
+* /usr/share/man/man1/gdal-vsi-sozip.1.gz
+* /usr/share/man/man1/gdal-vsi-sync.1.gz
+* /usr/share/man/man1/gdal-vsi.1.gz
+* /usr/share/man/man1/gdal.1.gz
 * /usr/share/man/man1/gdal2tiles.1.gz
 * /usr/share/man/man1/gdaladdo.1.gz
 * /usr/share/man/man1/gdalbuildvrt.1.gz

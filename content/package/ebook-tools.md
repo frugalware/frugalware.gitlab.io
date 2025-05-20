@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ebook-tools 0.2.2-10"
-version = "0.2.2-10"
+title = "ebook-tools 0.2.2-11"
+version = "0.2.2-11"
 description = "Tools for accessing and converting various ebook file formats"
-date = "2022-02-02T17:14:13"
+date = "2025-05-20T09:36:03"
 aliases = "/packages/74017"
 categories = ['apps']
 upstreamurl = "https://sourceforge.net/projects/ebook-tools"
 arch = "x86_64"
-size = "23884"
-usize = "80505"
-sha1sum = "565f1fceedacbe8a6a397985412acb9ed4c8fa75"
-depends = "['libxml2>=2.9.4-3', 'libzip>=1.2.0']"
+size = "23888"
+usize = "66604"
+sha1sum = "8ec5ea63a0ad1187ca883e8022c20e798bef28d5"
+depends = "['libxml2>=2.14.3', 'libzip>=1.2.0']"
 reverse_depends = "['kfilemetadata', 'okular']"
 +++
 ### Description: 

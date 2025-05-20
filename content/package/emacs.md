@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "emacs 30.1-1"
-version = "30.1-1"
+title = "emacs 30.1-2"
+version = "30.1-2"
 description = "An extensible, customizable, self-documenting real-time display editor"
-date = "2025-03-13T18:17:36"
+date = "2025-05-20T09:48:33"
 aliases = "/packages/2978"
 categories = ['xapps-extra']
 upstreamurl = "http://www.gnu.org/software/emacs/"
 arch = "x86_64"
-size = "46991148"
-usize = "132283286"
-sha1sum = "f6c0e9bf96a78878a0a61d0794702a06eb30cb8f"
-depends = "['gnutls>=3.4.2', 'gtk+2', 'imagemagick>=7.1.1', 'libgif>=5.1.1', 'libjpeg-turbo', 'libpng>=1.4.2', 'libtiff>=4.0.6', 'libxpm', 'ncurses>=6.0-3']"
+size = "46878784"
+usize = "131836968"
+sha1sum = "6146d7ee01571c4edabc53d37503d08f10e50eb2"
+depends = "['gnutls>=3.4.2', 'gtk+3', 'imagemagick>=7.1.1', 'libgif>=5.1.1', 'libjpeg-turbo', 'libpng>=1.4.2', 'libtiff>=4.0.6', 'libxpm', 'ncurses>=6.0-3', 'tree-sitter']"
 +++
 ### Description: 
 An extensible, customizable, self-documenting real-time display editor
@@ -25,7 +25,7 @@ An extensible, customizable, self-documenting real-time display editor
 * /usr/bin/emacsclient
 * /usr/bin/etags
 * /usr/include/emacs-module.h
-* /usr/lib/emacs/emacs/30.1/x86_64-frugalware-linux/emacs-90b8619379fd92bcc5a1d63fff65fb21194f42cb64b8ba50e7b6b85886b15a30.pdmp
+* /usr/lib/emacs/emacs/30.1/x86_64-frugalware-linux/emacs-09ae0f134add3e8f325266180e014f071892a0469125fd1b69d2f57dacc7e8f2.pdmp
 * /usr/lib/emacs/emacs/30.1/x86_64-frugalware-linux/hexl
 * /usr/lib/emacs/emacs/30.1/x86_64-frugalware-linux/movemail
 * /usr/lib/emacs/emacs/30.1/x86_64-frugalware-linux/rcs2log
