@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vlc-skins 3.0.21-28"
-version = "3.0.21-28"
+title = "vlc-skins 3.0.21-29"
+version = "3.0.21-29"
 description = "vlc skins plugin"
-date = "2025-05-16T15:17:34"
+date = "2025-05-20T20:20:08"
 aliases = "/packages/219566"
 categories = ['xmultimedia-extra']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "300260"
+size = "300456"
 usize = "800648"
-sha1sum = "a9a1e389c81c805f112bc83566a0eba33d1cf04e"
+sha1sum = "9f761c88544774cb3722579a31a2e992122671d3"
 depends = "['freetype2', 'fribidi', 'libvlc>=3.0.21', 'libxinerama', 'libxpm>=3.5.8-1']"
 +++
 ### Description: 

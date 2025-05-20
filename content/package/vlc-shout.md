@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vlc-shout 3.0.21-28"
-version = "3.0.21-28"
+title = "vlc-shout 3.0.21-29"
+version = "3.0.21-29"
 description = "vlc plugin for Shout/Icecast"
-date = "2025-05-16T15:17:34"
+date = "2025-05-20T20:20:08"
 aliases = "/packages/219568"
 categories = ['vlc-codecs']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "18996"
+size = "19044"
 usize = "15720"
-sha1sum = "ce54aaab8361b4bafbe11fb902feab9e7f2db3cd"
+sha1sum = "45e6b6c8519ac25efc34ba4115c3e8e57b7cb901"
 depends = "['libshout', 'libvlc>=3.0.21', 'openssl>=1.1.1']"
 +++
 ### Description: 

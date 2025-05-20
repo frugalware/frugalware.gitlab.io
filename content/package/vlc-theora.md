@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vlc-theora 3.0.21-28"
-version = "3.0.21-28"
+title = "vlc-theora 3.0.21-29"
+version = "3.0.21-29"
 description = "vlc theora support"
-date = "2025-05-16T15:17:34"
+date = "2025-05-20T20:20:08"
 aliases = "/packages/219588"
 categories = ['vlc-codecs']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "22756"
+size = "22780"
 usize = "21408"
-sha1sum = "e097e040d5f6b96418d3e008d2c43386df2c5966"
+sha1sum = "2db0623d93822bac9365a1dacf1a7887b7907b70"
 depends = "['libtheora>=1.2.0', 'libvlc>=3.0.21']"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libvlc 3.0.21-28"
-version = "3.0.21-28"
+title = "libvlc 3.0.21-29"
+version = "3.0.21-29"
 description = "VLC media player external control library"
-date = "2025-05-16T15:17:34"
+date = "2025-05-20T20:20:08"
 aliases = "/packages/217891"
 categories = ['lib']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "528396"
+size = "528280"
 usize = "1500394"
-sha1sum = "fcd1c1e76c07294222119c99b1139a7943c0c8e1"
+sha1sum = "efe8dc5e0bbd4ba310ee680a29068ab7286d4e53"
 depends = "['dbus>=1.10.6-5', 'glibc>=2.24-4', 'libgcrypt', 'libgpg-error', 'libidn>=1.35', 'libsystemd>=228', 'lz4', 'xz']"
 reverse_depends = "['efl', 'freetuxtv', 'kaffeine', 'kasts', 'megaglest', 'phonon-backend-vlc', 'vlc', 'vlc-a52', 'vlc-aa', 'vlc-archive', 'vlc-ass', 'vlc-avahi', 'vlc-bluray', 'vlc-caca', 'vlc-cdda', 'vlc-chromecast', 'vlc-dav1d', 'vlc-dts-ca', 'vlc-dv1394', 'vlc-dvb-ts', 'vlc-dvd', 'vlc-faad', 'vlc-ffmpeg', 'vlc-flac', 'vlc-fluidsynth', 'vlc-gstreamer', 'vlc-jack', 'vlc-libdvdnav', 'vlc-live', 'vlc-lua', 'vlc-mad', 'vlc-mkv', 'vlc-modplug', 'vlc-mpeg2', 'vlc-mpg123', 'vlc-mtp', 'vlc-musepack', 'vlc-nfs', 'vlc-opus', 'vlc-pulseaudio', 'vlc-samplerate', 'vlc-sdlimage', 'vlc-secret', 'vlc-sftp', 'vlc-shout', 'vlc-skins', 'vlc-smb', 'vlc-speex', 'vlc-svg', 'vlc-taglib', 'vlc-theora', 'vlc-twolame', 'vlc-upnp', 'vlc-v4l2', 'vlc-vnc', 'vlc-vorbis', 'vlc-vpx', 'vlc-wayland-egl', 'vlc-x264', 'vlc-x265', 'vlc-zvbi']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vlc-pulseaudio 3.0.21-28"
-version = "3.0.21-28"
+title = "vlc-pulseaudio 3.0.21-29"
+version = "3.0.21-29"
 description = "vlc plugin for pulseaudio"
-date = "2025-05-16T15:17:34"
+date = "2025-05-20T20:20:08"
 aliases = "/packages/136455"
 categories = ['vlc-codecs']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "29640"
+size = "29664"
 usize = "57994"
-sha1sum = "79b901834325ca01f7fd24c2ace9e1f48e106b05"
+sha1sum = "4c71ad1d93819802f102434a25583d1fe3d1f49f"
 depends = "['libpulse>=7.1', 'libvlc>=3.0.21']"
 +++
 ### Description: 
