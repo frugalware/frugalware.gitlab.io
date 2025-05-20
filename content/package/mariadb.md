@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "mariadb 11.7.2-1"
-version = "11.7.2-1"
+title = "mariadb 11.7.2-2"
+version = "11.7.2-2"
 description = "A fast SQL database server"
-date = "2025-02-15T14:26:13"
+date = "2025-05-20T12:15:15"
 aliases = "/packages/219549"
 categories = ['apps-extra']
 upstreamurl = "https://mariadb.org"
 arch = "x86_64"
-size = "45732988"
-usize = "409874622"
-sha1sum = "52cb7eb396d5ec7273adbacb5e900ce703a48f1d"
-depends = "['jemalloc', 'libaio', 'libsystemd', 'libxml2', 'lzo', 'mariadb-libs>=11.7.2', 'openssl>=3.1.0', 'readline', 'snappy']"
+size = "46195632"
+usize = "410596718"
+sha1sum = "d37364dca8a6779fd9ed0eda6e3f1acee180f2b2"
+depends = "['jemalloc', 'libaio', 'libsystemd', 'libxml2>=2.14.3', 'lzo', 'mariadb-libs>=11.7.2', 'openssl>=3.1.0', 'readline', 'snappy']"
 reverse_depends = "['postfixadmin']"
 +++
 ### Description: 
@@ -149,7 +149,6 @@ A fast SQL database server
 * /usr/lib/mysql/ha_connect.so
 * /usr/lib/mysql/ha_example.so
 * /usr/lib/mysql/ha_federated.so
-* /usr/lib/mysql/ha_federatedx.so
 * /usr/lib/mysql/ha_mroonga.so
 * /usr/lib/mysql/ha_rocksdb.so
 * /usr/lib/mysql/ha_s3.so

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "php-fpm 8.4.7-1"
-version = "8.4.7-1"
+title = "php-fpm 8.4.7-2"
+version = "8.4.7-2"
 description = "FastCGI Process Manager for PHP."
-date = "2025-05-10T23:13:21"
+date = "2025-05-20T12:41:39"
 aliases = "/packages/219769"
 categories = ['devel-extra']
 upstreamurl = "https://www.php.net"
 arch = "x86_64"
-size = "3932388"
-usize = "21653788"
-sha1sum = "b615e893a4c0e4a614e640fbdaf13308ccfeac1f"
+size = "3931788"
+usize = "21653148"
+sha1sum = "ac394df4495f22cf2131da07e2d15565e1a66c90"
 depends = "['php=8.4.7', 'systemd']"
 +++
 ### Description: 

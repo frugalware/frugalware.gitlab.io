@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "nginx 1.27.4-1"
-version = "1.27.4-1"
+title = "nginx 1.28.0-1"
+version = "1.28.0-1"
 description = "[engine x] is a HTTP server and mail proxy server."
-date = "2025-02-16T15:11:50"
+date = "2025-05-20T12:49:56"
 aliases = "/packages/21864"
 categories = ['network-extra']
 upstreamurl = "http://nginx.org"
 arch = "x86_64"
-size = "686536"
-usize = "2286986"
-sha1sum = "cc206d092e600a54b4a69c43da8b1f8292e80404"
+size = "704924"
+usize = "2314854"
+sha1sum = "a183aa659cb71f759cfa4b9107a553af8121c7cb"
 depends = "['gd', 'geoip', 'libaio', 'libxslt', 'nghttp2', 'openssl>=3.1.0', 'pcre']"
 license = "BSD"
 +++
@@ -46,9 +46,11 @@ license = "BSD"
 * /usr/lib/perl5/5.40/site_perl/auto/nginx/nginx.so
 * /usr/lib/perl5/5.40/site_perl/nginx.pm
 * /usr/lib/systemd/system/nginx.service
-* /usr/share/doc/nginx-1.27.4/CHANGES
-* /usr/share/doc/nginx-1.27.4/LICENSE
-* /usr/share/doc/nginx-1.27.4/README.md
+* /usr/share/doc/nginx-1.28.0/CHANGES
+* /usr/share/doc/nginx-1.28.0/CONTRIBUTORS
+* /usr/share/doc/nginx-1.28.0/LICENSE
+* /usr/share/doc/nginx-1.28.0/README
+* /usr/share/doc/nginx-1.28.0/README.md
 * /usr/share/man/man3/nginx.3perl.gz
 * /var/www/nginx/50x.html
 * /var/www/nginx/index.html

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "pdal 2.8.4-1"
-version = "2.8.4-1"
+title = "pdal 2.8.4-2"
+version = "2.8.4-2"
 description = "A C++ library for translating and manipulating point cloud data"
-date = "2025-02-25T13:13:47"
+date = "2025-05-20T12:36:46"
 aliases = "/packages/220256"
 categories = ['lib-extra']
 upstreamurl = "http://www.pdal.io"
 arch = "x86_64"
-size = "2137584"
-usize = "8122442"
-sha1sum = "4fa89987324fb8b8a575deb65f3026cc45de4cc9"
-depends = "['hexer>=1.4.0-5', 'laszip', 'libgeotiff', 'libunwind', 'openscenegraph', 'zstd']"
+size = "2174420"
+usize = "8292890"
+sha1sum = "c70481ad6409d20384fa09f18ac12ac93acdd0ee"
+depends = "['hexer>=1.4.0-5', 'laszip', 'libgeotiff', 'libunwind', 'libxml2>=2.14.3', 'openscenegraph', 'zstd']"
 reverse_depends = "['pdal-postgresql', 'vtk']"
 +++
 ### Description: 

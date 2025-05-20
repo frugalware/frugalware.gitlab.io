@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "nfs-utils 2.8.3-1"
-version = "2.8.3-1"
+title = "nfs-utils 2.8.3-2"
+version = "2.8.3-2"
 description = "Support programs for Network File Systems"
-date = "2025-03-31T10:11:14"
+date = "2025-05-20T12:51:33"
 aliases = "/packages/3261"
 categories = ['network']
 upstreamurl = "https://sourceforge.net/projects/nfs-utils"
 arch = "x86_64"
-size = "362896"
-usize = "1164924"
-sha1sum = "ca1c01b45f429813b40d9179bd896034091c28f7"
-depends = "['keyutils', 'libevent>=2.1.11', 'libnl', 'libxml2', 'lvm2-libs>=2.02.141', 'rpcbind', 'sqlite3>=3.10.2']"
+size = "362996"
+usize = "1165292"
+sha1sum = "716b1308719b87333041e941b651eea3d832ff0e"
+depends = "['keyutils', 'libevent>=2.1.11', 'libnl', 'libxml2>=2.14.3', 'lvm2-libs>=2.02.141', 'rpcbind', 'sqlite3>=3.10.2']"
 reverse_depends = "['dracut-network']"
 +++
 ### Description: 

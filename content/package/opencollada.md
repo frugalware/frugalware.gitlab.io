@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "opencollada 1.6.68-4"
-version = "1.6.68-4"
+title = "opencollada 1.6.68-5"
+version = "1.6.68-5"
 description = "Collada 3D import and export libraries"
-date = "2022-07-17T17:24:27"
+date = "2025-05-20T13:11:34"
 aliases = "/packages/217450"
 categories = ['xoffice']
 upstreamurl = "https://collada.org/mediawiki/index.php/OpenCOLLADA"
 arch = "x86_64"
-size = "1748904"
-usize = "15563000"
-sha1sum = "b1a2d1ab936b1ce7a78fa3605e0157be5b3c09d3"
-depends = "['libxml2', 'pcre', 'xz']"
+size = "1764776"
+usize = "15514424"
+sha1sum = "28e1613857589fd9dbdfa7f95a57ce26b0257762"
+depends = "['libxml2>=2.14.3', 'pcre', 'xz']"
 reverse_depends = "['blender']"
 +++
 ### Description: 

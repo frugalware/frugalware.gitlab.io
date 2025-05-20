@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ptabtools 0.5.0-5"
-version = "0.5.0-5"
+title = "ptabtools 0.5.0-6"
+version = "0.5.0-6"
 description = "Tools to convert PowerTab files to various formats."
-date = "2019-06-07T00:37:25"
+date = "2025-05-20T12:56:30"
 aliases = "/packages/23442"
 categories = ['multimedia-extra']
 upstreamurl = "http://samba.org/~jelmer/ptabtools/"
 arch = "x86_64"
-size = "66532"
-usize = "302769"
-sha1sum = "bc2a6da336e9d9170323eb892adcde918058d823"
-depends = "['libxml2', 'popt']"
+size = "69276"
+usize = "266625"
+sha1sum = "bc5b0c4dfd30cb5ab7a89704c97b2dc4fb686197"
+depends = "['libxml2>=2.14.3', 'popt']"
 +++
 ### Description: 
 Tools to convert PowerTab files to various formats.

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "postgresql-upgrade-from-14 14.18-1"
-version = "14.18-1"
+title = "postgresql-upgrade-from-14 14.18-2"
+version = "14.18-2"
 description = "Seperate latest 14 PGSQL for pg_upgrade"
-date = "2025-05-11T16:14:23"
+date = "2025-05-20T12:27:15"
 aliases = "/packages/220628"
 categories = ['apps-extra']
 upstreamurl = "http://www.postgresql.org/"
 arch = "x86_64"
-size = "491092"
-usize = "2033019"
-sha1sum = "f2ec7142a4c1a0751926182e455164d5c9d20383"
-depends = "['libpq>=14.18', 'libxml2>=2.9.4-3', 'ncurses>=6.0-16', 'openssl>=3.1.0', 'python3>=3.13', 'readline>=6.3-14']"
+size = "491328"
+usize = "2032891"
+sha1sum = "d71448404e964fb554a928fceebbc0c62661057a"
+depends = "['libpq>=14.18', 'libxml2>=2.14.3', 'ncurses>=6.0-16', 'openssl>=3.1.0', 'python3>=3.13', 'readline>=6.3-14']"
 +++
 ### Description: 
 Seperate latest 14 PGSQL for pg_upgrade

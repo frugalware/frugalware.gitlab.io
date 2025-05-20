@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "mlt-jack 7.32.0-1"
-version = "7.32.0-1"
+title = "mlt-jack 7.32.0-2"
+version = "7.32.0-2"
 description = "Jack modules for mlt"
-date = "2025-05-12T14:06:40"
+date = "2025-05-20T12:33:50"
 aliases = "/packages/218383"
 categories = ['xmultimedia-extra']
 upstreamurl = "https://github.com/mltframework/mlt"
 arch = "x86_64"
-size = "50952"
-usize = "142056"
-sha1sum = "374a00d10a00360f4242a387113dd35bda9655de"
-depends = "['libxml2>=2.9.4-3', 'lilv', 'mlt']"
+size = "51028"
+usize = "142024"
+sha1sum = "55dcd91f92f24ba161360e14c841fd890196adec"
+depends = "['libxml2>=2.14.3', 'lilv', 'mlt']"
 +++
 ### Description: 
 Jack modules for mlt

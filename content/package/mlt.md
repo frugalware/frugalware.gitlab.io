@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mlt 7.32.0-1"
-version = "7.32.0-1"
+title = "mlt 7.32.0-2"
+version = "7.32.0-2"
 description = "MLT is an open source multimedia framework, designed and developed for television broadcasting."
-date = "2025-05-12T14:06:40"
+date = "2025-05-20T12:33:50"
 aliases = "/packages/218378"
 categories = ['xmultimedia-extra']
 upstreamurl = "https://github.com/mltframework/mlt"
 arch = "x86_64"
-size = "724556"
-usize = "2802236"
-sha1sum = "7bb4932d9e3bc4f9584f415a4a995730e6ce3bef"
+size = "724604"
+usize = "2802140"
+sha1sum = "0abb8e184539d3cf8e9cbd072a1898fb55198333"
 depends = "['alsa-lib>=1.1.2-2', 'exiv2', 'ffmpeg>=7.0', 'frei0r-plugins>=1.5.0-2', 'lame', 'libatomic', 'libdv', 'libebur128', 'libexif>=0.6.21-3', 'libmad', 'libogg', 'libsamplerate', 'libvorbis', 'libxcb>=1.12-2', 'sox>=14.3.2-2']"
 reverse_depends = "['kdenlive', 'krita', 'mlt-jack', 'mlt-opencv', 'mlt-qt', 'mlt-qt6', 'mlt-rubberband', 'mlt-sdl']"
 +++

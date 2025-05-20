@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "postgresql-upgrade-from-13 13.21-1"
-version = "13.21-1"
+title = "postgresql-upgrade-from-13 13.21-2"
+version = "13.21-2"
 description = "Seperate latest 13 PGSQL for pg_upgrade"
-date = "2025-05-11T16:16:36"
+date = "2025-05-20T12:25:00"
 aliases = "/packages/220627"
 categories = ['apps-extra']
 upstreamurl = "http://www.postgresql.org/"
 arch = "x86_64"
-size = "476864"
-usize = "1971459"
-sha1sum = "0fa77941879ed40a2e049ab9eb8f92dac96da78e"
-depends = "['libpq>=13.21', 'libxml2>=2.9.4-3', 'ncurses>=6.0-16', 'openssl>=3.1.0', 'python3>=3.13', 'readline>=6.3-14']"
+size = "477616"
+usize = "1971363"
+sha1sum = "3b93712054e2293a7f4b831f9a1ef2801a84aee6"
+depends = "['libpq>=13.21', 'libxml2>=2.14.3', 'ncurses>=6.0-16', 'openssl>=3.1.0', 'python3>=3.13', 'readline>=6.3-14']"
 +++
 ### Description: 
 Seperate latest 13 PGSQL for pg_upgrade

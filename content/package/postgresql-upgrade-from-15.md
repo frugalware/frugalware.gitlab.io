@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "postgresql-upgrade-from-15 15.13-1"
-version = "15.13-1"
+title = "postgresql-upgrade-from-15 15.13-2"
+version = "15.13-2"
 description = "Seperate latest 15 PGSQL for pg_upgrade"
-date = "2025-05-11T16:11:53"
+date = "2025-05-20T12:29:26"
 aliases = "/packages/221121"
 categories = ['apps-extra']
 upstreamurl = "http://www.postgresql.org/"
 arch = "x86_64"
-size = "502628"
-usize = "2083695"
-sha1sum = "a33a12d0bdd7347fc111d7bcc6bff1dfcb8d77fb"
-depends = "['libpq>=15.13', 'libxml2>=2.9.4-3', 'ncurses>=6.0-16', 'openssl>=3.1.0', 'python3>=3.13', 'readline>=6.3-14']"
+size = "500836"
+usize = "2083599"
+sha1sum = "c498b2ec0abde34dda3307b7fd08184b60efc7d8"
+depends = "['libpq>=15.13', 'libxml2>=2.14.3', 'ncurses>=6.0-16', 'openssl>=3.1.0', 'python3>=3.13', 'readline>=6.3-14']"
 +++
 ### Description: 
 Seperate latest 15 PGSQL for pg_upgrade

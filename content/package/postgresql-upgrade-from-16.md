@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "postgresql-upgrade-from-16 16.9-1"
-version = "16.9-1"
+title = "postgresql-upgrade-from-16 16.9-2"
+version = "16.9-2"
 description = "Seperate latest 16 PGSQL for pg_upgrade"
-date = "2025-05-11T15:36:48"
+date = "2025-05-20T12:31:38"
 aliases = "/packages/222560"
 categories = ['apps-extra']
 upstreamurl = "http://www.postgresql.org/"
 arch = "x86_64"
-size = "506532"
-usize = "2093527"
-sha1sum = "9ac7da960770508b8260f16a16d0a848f8c36d4c"
-depends = "['libpq>=16.9', 'libxml2>=2.9.4-3', 'ncurses>=6.0-16', 'openssl>=3.1.0', 'python3>=3.13', 'readline>=6.3-14']"
+size = "506204"
+usize = "2093399"
+sha1sum = "757e65322c4338e3de9e2e2319f3b3671fdd859a"
+depends = "['libpq>=16.9', 'libxml2>=2.14.3', 'ncurses>=6.0-16', 'openssl>=3.1.0', 'python3>=3.13', 'readline>=6.3-14']"
 +++
 ### Description: 
 Seperate latest 16 PGSQL for pg_upgrade

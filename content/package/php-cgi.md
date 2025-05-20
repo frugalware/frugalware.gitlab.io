@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "php-cgi 8.4.7-1"
-version = "8.4.7-1"
+title = "php-cgi 8.4.7-2"
+version = "8.4.7-2"
 description = "CGI binary for php and its libs."
-date = "2025-05-10T23:13:21"
+date = "2025-05-20T12:41:39"
 aliases = "/packages/9765"
 categories = ['devel-extra']
 upstreamurl = "https://www.php.net"
 arch = "x86_64"
-size = "3863044"
-usize = "21442069"
-sha1sum = "7b173faa81c1f2f7d6562f2abeefe11a3b6c7ea7"
+size = "3860256"
+usize = "21441429"
+sha1sum = "842a1664faf7186538b806f7afb85830bb2baae5"
 depends = "['php=8.4.7']"
 +++
 ### Description: 

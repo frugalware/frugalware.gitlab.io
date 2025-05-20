@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "php 8.4.7-1"
-version = "8.4.7-1"
+title = "php 8.4.7-2"
+version = "8.4.7-2"
 description = "A widely-used general-purpose scripting language"
-date = "2025-05-10T23:13:21"
+date = "2025-05-20T12:41:39"
 aliases = "/packages/3288"
 categories = ['devel']
 upstreamurl = "https://www.php.net"
 arch = "x86_64"
-size = "9522068"
-usize = "54686341"
-sha1sum = "6838b22e7cb7163a531e28de782ba6098dcf56c4"
-depends = "['curl>=7.19.0', 'freetype2>=2.3.1', 'gdbm>=1.15', 'libidn>=1.30', 'libjpeg-turbo', 'libmcrypt', 'libpng>=1.6.20', 'libpq>=8.4.0', 'libxml2', 'libxslt', 'mariadb-libs>=10.3.14', 'ncurses>=6.0-3', 'openssl>=3.1.0', 're2c', 'readline>=8.0', 'sqlite3']"
+size = "9527024"
+usize = "54685743"
+sha1sum = "c0ac6c031a875ab8efddeb12fb294bbad9b5af0b"
+depends = "['curl>=7.19.0', 'freetype2>=2.3.1', 'gdbm>=1.15', 'libidn>=1.30', 'libjpeg-turbo', 'libmcrypt', 'libpng>=1.6.20', 'libpq>=8.4.0', 'libxml2>=2.14.3', 'libxslt', 'mariadb-libs>=10.3.14', 'ncurses>=6.0-3', 'openssl>=3.1.0', 're2c', 'readline>=8.0', 'sqlite3']"
 reverse_depends = "['adodb', 'kdev-php', 'phoronix-test-suite', 'php-cgi', 'php-embed', 'php-fpm', 'php-pear-db', 'phpbb-php5mod', 'phppgadmin', 'postfixadmin', 'xcache']"
 +++
 ### Description: 
