@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gst1-plugins-good 1.26.1-1"
-version = "1.26.1-1"
+title = "gst1-plugins-good 1.26.1-2"
+version = "1.26.1-2"
 description = "Plugins for GStreamer (Good)"
-date = "2025-04-25T09:06:12"
+date = "2025-05-20T10:49:16"
 aliases = "/packages/168850"
 categories = ['xmultimedia']
 upstreamurl = "https://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "1851324"
-usize = "5809087"
-sha1sum = "59688b92924fa0f3013e0faa1344bc8da92448bd"
-depends = "['cairo>=1.15.14', 'gst1-plugins-base>=1.26.1', 'gstreamer1>=1.26.1', 'orc>=0.4.26']"
+size = "1868432"
+usize = "5811487"
+sha1sum = "9d103c8c3200a11abad0a3083a92f21bf6ecb18d"
+depends = "['cairo>=1.15.14', 'gst1-plugins-base>=1.26.1', 'gstreamer1>=1.26.1', 'libxml2>=2.14.3', 'orc>=0.4.26']"
 reverse_depends = "['gst1-plugins-good-aalib', 'gst1-plugins-good-avc1394', 'gst1-plugins-good-caca', 'gst1-plugins-good-dv', 'gst1-plugins-good-flac', 'gst1-plugins-good-gdkpixbuf', 'gst1-plugins-good-jack', 'gst1-plugins-good-jpeg', 'gst1-plugins-good-libsoup', 'gst1-plugins-good-png', 'gst1-plugins-good-pulseaudio', 'gst1-plugins-good-shout', 'gst1-plugins-good-speex', 'gst1-plugins-good-taglib', 'gst1-plugins-good-video4linux2', 'gst1-plugins-good-videobox', 'gst1-plugins-good-vpx', 'gst1-plugins-good-wavpack', 'gst1-plugins-good-ximage', 'qt5-gstreamer', 'qt5-multimedia', 'spice', 'spice-glib', 'stellarium', 'webkit-gtk3']"
 +++
 ### Description: 

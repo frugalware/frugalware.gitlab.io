@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gst1-plugins-good-videobox 1.26.1-1"
-version = "1.26.1-1"
+title = "gst1-plugins-good-videobox 1.26.1-2"
+version = "1.26.1-2"
 description = "GStreamer videobox plugin (Good)."
-date = "2025-04-25T09:06:12"
+date = "2025-05-20T10:49:16"
 aliases = "/packages/168859"
 categories = ['xmultimedia']
 upstreamurl = "https://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "32936"
-usize = "58608"
-sha1sum = "8103f7c0911e0a0da1ca15c036ece3ac30015cec"
+size = "33632"
+usize = "58176"
+sha1sum = "59440433adbed51bf876e478ba84931c37798565"
 depends = "['gst1-plugins-base>=1.26.1', 'gst1-plugins-good>=1.26.1', 'libffi>=3.2.1-2']"
 +++
 ### Description: 

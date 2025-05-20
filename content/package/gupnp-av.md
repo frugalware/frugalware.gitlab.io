@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gupnp-av 0.14.3-1"
-version = "0.14.3-1"
+title = "gupnp-av 0.14.3-2"
+version = "0.14.3-2"
 description = "GUPnP-AV is a collection of helpers for building audio/video applications using GUPnP"
-date = "2025-02-21T20:13:22"
+date = "2025-05-20T11:02:41"
 aliases = "/packages/50251"
 categories = ['xlib-extra']
 upstreamurl = "http://www.gupnp.org"
 arch = "x86_64"
-size = "112056"
-usize = "808503"
-sha1sum = "8918b94de5f1430ebaa4f460e278443d3351b6fd"
+size = "111588"
+usize = "806975"
+sha1sum = "2e2b8cf1f35f41abea3c580515a9a48ed9c2b549"
 depends = "['gupnp>=1.0.0']"
 reverse_depends = "['gupnp-tools']"
 +++

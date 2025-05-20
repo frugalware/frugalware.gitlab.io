@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gupnp 1.6.8-1"
-version = "1.6.8-1"
+title = "gupnp 1.6.8-2"
+version = "1.6.8-2"
 description = "GUPnP implements the UPnP specification of GUPnP framework."
-date = "2025-02-21T20:31:49"
+date = "2025-05-20T11:00:42"
 aliases = "/packages/50250"
 categories = ['xlib-extra']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "138136"
-usize = "804042"
-sha1sum = "c95bfe537bf71624b320077d2208661cbbf26cb0"
-depends = "['gssdp>=1.6.2']"
+size = "138412"
+usize = "803410"
+sha1sum = "a31a566f5b4e151e14b7e58555427897c0ae3443"
+depends = "['gssdp>=1.6.2', 'libxml2>=2.14.3']"
 reverse_depends = "['gupnp-av']"
 +++
 ### Description: 

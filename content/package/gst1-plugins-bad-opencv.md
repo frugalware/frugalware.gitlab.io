@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gst1-plugins-bad-opencv 1.26.1-1"
-version = "1.26.1-1"
+title = "gst1-plugins-bad-opencv 1.26.1-2"
+version = "1.26.1-2"
 description = "GStreamer OpenCV plugin (Bad)."
-date = "2025-04-25T09:21:07"
+date = "2025-05-20T10:55:41"
 aliases = "/packages/221261"
 categories = ['xmultimedia']
 upstreamurl = "http://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "87168"
-usize = "242037"
-sha1sum = "82c26457778465d5f6757227ee3af546791a588c"
+size = "86664"
+usize = "239725"
+sha1sum = "6038441d966834ddf8b414604610f78ef7597aac"
 depends = "['gst1-plugins-bad>=1.26.1', 'gst1-plugins-base>=1.26.1', 'opencv>=4.11.0']"
 +++
 ### Description: 

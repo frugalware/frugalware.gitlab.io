@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "graphicsmagick-docs 1.3.45-1"
-version = "1.3.45-1"
+title = "graphicsmagick-docs 1.3.45-2"
+version = "1.3.45-2"
 description = "GraphicsMagick Documentation"
-date = "2025-03-13T15:25:13"
+date = "2025-05-20T10:03:29"
 aliases = "/packages/217787"
 categories = ['xapps-extra']
 upstreamurl = "http://www.graphicsmagick.org/"
 arch = "x86_64"
-size = "782096"
+size = "782260"
 usize = "6720434"
-sha1sum = "7b1a21ea677d7f2a026e1193593c56303b95a9d6"
+sha1sum = "e115f1f0bd43b59d3ca9fd5ba72abfaa1848d8cb"
 depends = "[]"
 +++
 ### Description: 

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "graphicsmagick 1.3.45-1"
-version = "1.3.45-1"
+title = "graphicsmagick 1.3.45-2"
+version = "1.3.45-2"
 description = "A collection of tools and libraries for many image formats"
-date = "2025-03-13T15:25:13"
+date = "2025-05-20T10:03:29"
 aliases = "/packages/217786"
 categories = ['xapps-extra']
 upstreamurl = "http://www.graphicsmagick.org/"
 arch = "x86_64"
-size = "1822520"
-usize = "6721666"
-sha1sum = "ef8c21c599c6aee4fbec5263c94777fd6100f9de"
-depends = "['freetype2', 'jasper>=2.0.10', 'lcms2', 'libheif', 'libwebp>=0.6.0', 'libxext>=1.3.3-6', 'libxml2']"
+size = "1853288"
+usize = "6803794"
+sha1sum = "3a4409d605f01246f5157d519d46479842521e7e"
+depends = "['freetype2', 'jasper>=2.0.10', 'lcms2', 'libheif', 'libwebp>=0.6.0', 'libxext>=1.3.3-6', 'libxml2>=2.14.3']"
 reverse_depends = "['darktable', 'inkscape', 'scribus']"
 +++
 ### Description: 

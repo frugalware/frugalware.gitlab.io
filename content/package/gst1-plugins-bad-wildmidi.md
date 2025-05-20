@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gst1-plugins-bad-wildmidi 1.26.1-1"
-version = "1.26.1-1"
+title = "gst1-plugins-bad-wildmidi 1.26.1-2"
+version = "1.26.1-2"
 description = "GStreamer wildmidi plugin (Bad)."
-date = "2025-04-25T09:21:07"
+date = "2025-05-20T10:55:41"
 aliases = "/packages/221264"
 categories = ['xmultimedia-extra']
 upstreamurl = "http://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "13408"
-usize = "17344"
-sha1sum = "4bb97076e996d5eddd28edc58739150d06c9ac7c"
+size = "13588"
+usize = "17472"
+sha1sum = "2f924b8066489f2c70bac9232a35241eb04b3a9c"
 depends = "['gst1-plugins-bad>=1.26.1', 'gst1-plugins-base>=1.26.1', 'wildmidi']"
 +++
 ### Description: 

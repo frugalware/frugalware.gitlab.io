@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "graphviz 12.2.1-1"
-version = "12.2.1-1"
+title = "graphviz 12.2.1-2"
+version = "12.2.1-2"
 description = "Open Source Graph Visualization Software"
-date = "2024-12-16T21:42:48"
+date = "2025-05-20T10:46:22"
 aliases = "/packages/4238"
 categories = ['xapps-extra']
 upstreamurl = "https://www.graphviz.org"
 arch = "x86_64"
-size = "3158168"
-usize = "7588989"
-sha1sum = "d28fd6475d9d9897ab7baa6e615abc082dc98283"
+size = "3188480"
+usize = "7649127"
+sha1sum = "dda6775dd54b396bd6acc4e57029de7f375b82e5"
 depends = "['devil>=1.8.0', 'freeglut', 'gd>=2.1.1-4', 'guile>=3.0.4', 'libgs>=10.0.0', 'librsvg', 'libxaw', 'libxpm', 'perl>=5.22.1', 'python3>=3.13']"
 reverse_depends = "['kgraphviewer', 'libmediainfo', 'vala']"
 +++
