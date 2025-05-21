@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "xz 5.8.1-1"
-version = "5.8.1-1"
+title = "xz 5.8.1-2"
+version = "5.8.1-2"
 description = "XZ Utils is free general-purpose data compression software with high compression ratio."
-date = "2025-04-04T06:35:03"
+date = "2025-05-21T09:54:34"
 aliases = "/packages/74189"
 categories = ['base']
 upstreamurl = "https://tukaani.org/xz/"
 arch = "x86_64"
-size = "821452"
-usize = "2526833"
-sha1sum = "b7d1cb4256f91128f63242e14a2e64ec91ac9f1c"
+size = "823044"
+usize = "2529305"
+sha1sum = "02f26c946c79f24506b07afc44943c94a5c9c245"
 depends = "['glibc>=2.37']"
 reverse_depends = "['aria2', 'binwalk', 'borg', 'botan', 'efl', 'elfutils', 'enlightenment', 'file', 'flutter', 'foomatic-db', 'foomatic-db-engine', 'foomatic-db-nonfree', 'fsarchiver', 'hivex', 'innoextract', 'kernel-initrd', 'kernel-lts-initrd', 'kmod', 'libarchive', 'libsystemd', 'libtiff', 'libtiff5', 'libunwind', 'libvlc', 'libxml2', 'links', 'mariadb-libs', 'minizip-ng', 'opencollada', 'openttd', 'pacman-g2', 'perf', 'pocketsphinx', 'python3', 'ruby-nokogiri', 'squashfs', 'squashfuse', 'terminology', 'xdelta', 'xmlstarlet', 'zstd']"
 +++

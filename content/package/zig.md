@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "zig 0.14.0-1"
-version = "0.14.0-1"
+title = "zig 0.14.0-2"
+version = "0.14.0-2"
 description = "a general-purpose programming language and toolchain for maintaining robust, optimal, and reusable software"
-date = "2025-05-20T13:51:30"
+date = "2025-05-21T09:14:39"
 aliases = "/packages/222720"
 categories = ['devel-extra']
 upstreamurl = "https://ziglang.org"
 arch = "x86_64"
-size = "21347120"
+size = "21347536"
 usize = "171598121"
-sha1sum = "30df771f523b43ea8c4543f6664d52f99436639e"
-depends = "['glibc']"
+sha1sum = "d7be6bd809eddb2e58d02a95ec87102f4178ad19"
+depends = "['clang', 'lld']"
 +++
 ### Description: 
 a general-purpose programming language and toolchain for maintaining robust, optimal, and reusable software

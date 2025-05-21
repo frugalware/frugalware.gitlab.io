@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ncdu 1.14.1-1"
-version = "1.14.1-1"
+title = "ncdu 2.8.2-1"
+version = "2.8.2-1"
 description = "Tool which shows space used by folder in Ncurses"
-date = "2019-11-18T22:51:52"
+date = "2025-05-21T09:40:50"
 aliases = "/packages/103392"
 categories = ['apps-extra']
 upstreamurl = "http://dev.yorhel.nl/ncdu"
 arch = "x86_64"
-size = "41908"
-usize = "92262"
-sha1sum = "193fdbcdf9c771c4c6163d857af104c97672ae5f"
+size = "243980"
+usize = "626883"
+sha1sum = "e51144d0223a7b9a42d0d0432a94bf7aa14cb308"
 depends = "['ncurses>=6.0-9']"
 +++
 ### Description: 
@@ -18,7 +18,5 @@ Tool which shows space used by folder in Ncurses
 
 ### Files: 
 * /usr/bin/ncdu
-* /usr/share/doc/ncdu-1.14.1/ChangeLog
-* /usr/share/doc/ncdu-1.14.1/COPYING
-* /usr/share/doc/ncdu-1.14.1/README
-* /usr/share/man/man1/ncdu.1.gz
+* /usr/share/doc/ncdu-2.8.2/ChangeLog
+* /usr/share/doc/ncdu-2.8.2/README.md
