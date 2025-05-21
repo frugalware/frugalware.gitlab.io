@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kio 6.14.0-1"
-version = "6.14.0-1"
+title = "kio 6.14.0-2"
+version = "6.14.0-2"
 description = "Network transparent access to files and data."
-date = "2025-05-10T12:29:37"
+date = "2025-05-21T10:48:23"
 aliases = "/packages/218323"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3459616"
-usize = "19173541"
-sha1sum = "ad43ded06e7239a62e78a77c7858daf748f9747b"
-depends = "['karchive>=6.14.0', 'kauth>=6.14.0', 'kbookmarks>=6.14.0', 'kded>=6.14.0', 'kjobwidgets>=6.14.0', 'kwallet>=', 'solid>=6.14.0', 'switcheroo-control']"
+size = "3459748"
+usize = "19173573"
+sha1sum = "32e7f2f59f9ff4891f738b39bd87f1d6e0744c6b"
+depends = "['karchive>=6.14.0', 'kauth>=6.14.0', 'kbookmarks>=6.14.0', 'kded>=6.14.0', 'kjobwidgets>=6.14.0', 'kwallet>=', 'libxml2>=2.14.3', 'solid>=6.14.0', 'switcheroo-control']"
 reverse_depends = "['akonadi', 'akonadi-contacts', 'akonadi-mime', 'audex', 'baloo', 'bluedevil5', 'calligra', 'discover', 'dolphin', 'drkonqi', 'falkon-kde', 'ffmpegthumbs', 'frameworkintegration', 'juk', 'kactivitymanagerd', 'kalgebra', 'kamera', 'kapptemplate', 'kbackup', 'kcachegrind', 'kcron', 'kdav', 'kdeclarative', 'kdegraphics-mobipocket', 'kdegraphics-thumbnailers', 'kdenetwork-filesharing', 'kdeplasma-addons', 'kdesdk-kio', 'kdesdk-thumbnailers', 'kdf', 'kdialog', 'kglobalacceld', 'kgoldrunner', 'kimap', 'kio-admin', 'kio-fuse', 'kio-gdrive', 'kio-zeroconf', 'kiten', 'kldap', 'kmag', 'kmenuedit', 'kmouth', 'knewstuff', 'knotifyconfig', 'koko', 'kolourpaint', 'kparts', 'kpimtextedit', 'ksmtp', 'ksystemlog', 'ktextaddons', 'ktimer', 'kturtle', 'kvirc', 'kwave', 'labplot', 'libkcddb', 'libkeduvocdocument', 'libkgapi', 'libkomparediff2', 'libktorrent', 'lokalize', 'neochat', 'partitionmanager', 'plasma-activities', 'plasma-activities-stats', 'plasma-browser-integration', 'plasma-integration', 'print-manager', 'purpose', 'qrca', 'skanlite', 'skladnik', 'smb4k', 'spectacle', 'syndication', 'tokodon', 'wacomtablet', 'xdg-desktop-portal-kde']"
 +++
 ### Description: 

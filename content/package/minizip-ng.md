@@ -12,7 +12,7 @@ size = "66708"
 usize = "243796"
 sha1sum = "deee930e576847c6c15f9300d145b16b89b031c2"
 depends = "['bzip2', 'openssl', 'xz', 'zstd']"
-reverse_depends = "['keepassxc', 'opencolorio']"
+reverse_depends = "['keepassxc', 'opencolorio', 'qt5-webengine']"
 +++
 ### Description: 
 Fork of the popular zip manipulation library found in the zlib distribution

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qt5-webengine 5.15.18-5"
-version = "5.15.18-5"
+title = "qt5-webengine 5.15.19-1"
+version = "5.15.19-1"
 description = "The Qt5 toolkit, qtwebengine"
-date = "2025-04-10T09:30:12"
+date = "2025-05-21T10:13:54"
 aliases = "/packages/217638"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "50867520"
-usize = "163326488"
-sha1sum = "650aa9bbee02945f0fad4b56cd87550476871285"
-depends = "['alsa-lib', 'ffmpeg>=7.0', 'icu4c>=77.1', 'jsoncpp>=1.7.5', 'lcms2', 'libevent>=2.1.11', 'libjpeg-turbo', 'libsrtp>=1.5.4-4', 'libvpx>=1.15.1', 'libwebp>=0.5.1-2', 'libxcomposite>=0.4.4-3', 'libxkbfile', 'libxml2', 'libxrandr>=1.5.0-5', 'libxscrnsaver>=1.2.2-3', 'libxslt', 'libxtst>=1.2.2-3', 'nss>=3.26', 'opus>=1.1.3-2', 'protobuf', 'qt5-declarative>=5.15.15', 'qt5-location>=5.15.15', 'qt5-webchannel>=5.15.15', 'snappy>=1.2.0']"
+size = "51725968"
+usize = "165285244"
+sha1sum = "2e12fea291f6556d05ca29827fc3716399c2d0aa"
+depends = "['alsa-lib', 'ffmpeg>=7.0', 'icu4c>=77.1', 'jsoncpp>=1.7.5', 'lcms2', 'libevent>=2.1.11', 'libjpeg-turbo', 'libsrtp>=1.5.4-4', 'libvpx>=1.15.1', 'libwebp>=0.5.1-2', 'libxcomposite>=0.4.4-3', 'libxkbfile', 'libxml2>=2.14.3', 'libxrandr>=1.5.0-5', 'libxscrnsaver>=1.2.2-3', 'libxslt', 'libxtst>=1.2.2-3', 'minizip-ng', 'nss>=3.26', 'opus>=1.1.3-2', 'protobuf', 'qt5-declarative>=5.15.16', 'qt5-location>=5.15.16', 'qt5-webchannel>=5.15.16', 'snappy>=1.2.0']"
 reverse_depends = "['kio5-extras', 'nmapsi4', 'otter-browser', 'pyqtwebengine', 'qt5-webview', 'quassel', 'rolisteam']"
 +++
 ### Description: 
@@ -20,14 +20,14 @@ The Qt5 toolkit, qtwebengine
 ### Files: 
 * /usr/bin/qwebengine_convert_dict
 * /usr/bin/qwebengine_convert_dict-qt5
-* /usr/include/qt5/QtPdf/5.15.18/QtPdf/private/qpdfdestination_p.h
-* /usr/include/qt5/QtPdf/5.15.18/QtPdf/private/qpdfdocument_p.h
-* /usr/include/qt5/QtPdf/5.15.18/QtPdf/private/qpdflinkmodel_p.h
-* /usr/include/qt5/QtPdf/5.15.18/QtPdf/private/qpdflinkmodel_p_p.h
-* /usr/include/qt5/QtPdf/5.15.18/QtPdf/private/qpdfsearchmodel_p.h
-* /usr/include/qt5/QtPdf/5.15.18/QtPdf/private/qpdfsearchresult_p.h
-* /usr/include/qt5/QtPdf/5.15.18/QtPdf/private/qpdfselection_p.h
-* /usr/include/qt5/QtPdf/5.15.18/QtPdf/private/qtpdf-config_p.h
+* /usr/include/qt5/QtPdf/5.15.19/QtPdf/private/qpdfdestination_p.h
+* /usr/include/qt5/QtPdf/5.15.19/QtPdf/private/qpdfdocument_p.h
+* /usr/include/qt5/QtPdf/5.15.19/QtPdf/private/qpdflinkmodel_p.h
+* /usr/include/qt5/QtPdf/5.15.19/QtPdf/private/qpdflinkmodel_p_p.h
+* /usr/include/qt5/QtPdf/5.15.19/QtPdf/private/qpdfsearchmodel_p.h
+* /usr/include/qt5/QtPdf/5.15.19/QtPdf/private/qpdfsearchresult_p.h
+* /usr/include/qt5/QtPdf/5.15.19/QtPdf/private/qpdfselection_p.h
+* /usr/include/qt5/QtPdf/5.15.19/QtPdf/private/qtpdf-config_p.h
 * /usr/include/qt5/QtPdf/QPdfBookmarkModel
 * /usr/include/qt5/QtPdf/qpdfbookmarkmodel.h
 * /usr/include/qt5/QtPdf/QPdfDestination
@@ -53,8 +53,8 @@ The Qt5 toolkit, qtwebengine
 * /usr/include/qt5/QtPdf/qtpdfglobal.h
 * /usr/include/qt5/QtPdf/QtPdfVersion
 * /usr/include/qt5/QtPdf/qtpdfversion.h
-* /usr/include/qt5/QtPdfWidgets/5.15.18/QtPdfWidgets/private/qpdfview_p.h
-* /usr/include/qt5/QtPdfWidgets/5.15.18/QtPdfWidgets/private/qtpdfwidgets-config_p.h
+* /usr/include/qt5/QtPdfWidgets/5.15.19/QtPdfWidgets/private/qpdfview_p.h
+* /usr/include/qt5/QtPdfWidgets/5.15.19/QtPdfWidgets/private/qtpdfwidgets-config_p.h
 * /usr/include/qt5/QtPdfWidgets/QPdfView
 * /usr/include/qt5/QtPdfWidgets/qpdfview.h
 * /usr/include/qt5/QtPdfWidgets/QtPdfWidgets
@@ -63,30 +63,30 @@ The Qt5 toolkit, qtwebengine
 * /usr/include/qt5/QtPdfWidgets/qtpdfwidgetsglobal.h
 * /usr/include/qt5/QtPdfWidgets/QtPdfWidgetsVersion
 * /usr/include/qt5/QtPdfWidgets/qtpdfwidgetsversion.h
-* /usr/include/qt5/QtWebEngine/5.15.18/QtWebEngine/private/qquickwebengineaction_p.h
-* /usr/include/qt5/QtWebEngine/5.15.18/QtWebEngine/private/qquickwebengineaction_p_p.h
-* /usr/include/qt5/QtWebEngine/5.15.18/QtWebEngine/private/qquickwebenginecertificateerror_p.h
-* /usr/include/qt5/QtWebEngine/5.15.18/QtWebEngine/private/qquickwebengineclientcertificateselection_p.h
-* /usr/include/qt5/QtWebEngine/5.15.18/QtWebEngine/private/qquickwebenginecontextmenurequest_p.h
-* /usr/include/qt5/QtWebEngine/5.15.18/QtWebEngine/private/qquickwebenginedialogrequests_p.h
-* /usr/include/qt5/QtWebEngine/5.15.18/QtWebEngine/private/qquickwebenginedownloaditem_p.h
-* /usr/include/qt5/QtWebEngine/5.15.18/QtWebEngine/private/qquickwebenginedownloaditem_p_p.h
-* /usr/include/qt5/QtWebEngine/5.15.18/QtWebEngine/private/qquickwebenginefaviconprovider_p_p.h
-* /usr/include/qt5/QtWebEngine/5.15.18/QtWebEngine/private/qquickwebenginehistory_p.h
-* /usr/include/qt5/QtWebEngine/5.15.18/QtWebEngine/private/qquickwebenginehistory_p_p.h
-* /usr/include/qt5/QtWebEngine/5.15.18/QtWebEngine/private/qquickwebengineloadrequest_p.h
-* /usr/include/qt5/QtWebEngine/5.15.18/QtWebEngine/private/qquickwebenginenavigationrequest_p.h
-* /usr/include/qt5/QtWebEngine/5.15.18/QtWebEngine/private/qquickwebenginenewviewrequest_p.h
-* /usr/include/qt5/QtWebEngine/5.15.18/QtWebEngine/private/qquickwebengineprofile_p.h
-* /usr/include/qt5/QtWebEngine/5.15.18/QtWebEngine/private/qquickwebenginescript_p.h
-* /usr/include/qt5/QtWebEngine/5.15.18/QtWebEngine/private/qquickwebenginesettings_p.h
-* /usr/include/qt5/QtWebEngine/5.15.18/QtWebEngine/private/qquickwebenginesingleton_p.h
-* /usr/include/qt5/QtWebEngine/5.15.18/QtWebEngine/private/qquickwebenginetestsupport_p.h
-* /usr/include/qt5/QtWebEngine/5.15.18/QtWebEngine/private/qquickwebenginetouchhandleprovider_p_p.h
-* /usr/include/qt5/QtWebEngine/5.15.18/QtWebEngine/private/qquickwebengineview_p.h
-* /usr/include/qt5/QtWebEngine/5.15.18/QtWebEngine/private/qquickwebengineview_p_p.h
-* /usr/include/qt5/QtWebEngine/5.15.18/QtWebEngine/private/qtwebengine-config_p.h
-* /usr/include/qt5/QtWebEngine/5.15.18/QtWebEngine/private/qtwebengineglobal_p.h
+* /usr/include/qt5/QtWebEngine/5.15.19/QtWebEngine/private/qquickwebengineaction_p.h
+* /usr/include/qt5/QtWebEngine/5.15.19/QtWebEngine/private/qquickwebengineaction_p_p.h
+* /usr/include/qt5/QtWebEngine/5.15.19/QtWebEngine/private/qquickwebenginecertificateerror_p.h
+* /usr/include/qt5/QtWebEngine/5.15.19/QtWebEngine/private/qquickwebengineclientcertificateselection_p.h
+* /usr/include/qt5/QtWebEngine/5.15.19/QtWebEngine/private/qquickwebenginecontextmenurequest_p.h
+* /usr/include/qt5/QtWebEngine/5.15.19/QtWebEngine/private/qquickwebenginedialogrequests_p.h
+* /usr/include/qt5/QtWebEngine/5.15.19/QtWebEngine/private/qquickwebenginedownloaditem_p.h
+* /usr/include/qt5/QtWebEngine/5.15.19/QtWebEngine/private/qquickwebenginedownloaditem_p_p.h
+* /usr/include/qt5/QtWebEngine/5.15.19/QtWebEngine/private/qquickwebenginefaviconprovider_p_p.h
+* /usr/include/qt5/QtWebEngine/5.15.19/QtWebEngine/private/qquickwebenginehistory_p.h
+* /usr/include/qt5/QtWebEngine/5.15.19/QtWebEngine/private/qquickwebenginehistory_p_p.h
+* /usr/include/qt5/QtWebEngine/5.15.19/QtWebEngine/private/qquickwebengineloadrequest_p.h
+* /usr/include/qt5/QtWebEngine/5.15.19/QtWebEngine/private/qquickwebenginenavigationrequest_p.h
+* /usr/include/qt5/QtWebEngine/5.15.19/QtWebEngine/private/qquickwebenginenewviewrequest_p.h
+* /usr/include/qt5/QtWebEngine/5.15.19/QtWebEngine/private/qquickwebengineprofile_p.h
+* /usr/include/qt5/QtWebEngine/5.15.19/QtWebEngine/private/qquickwebenginescript_p.h
+* /usr/include/qt5/QtWebEngine/5.15.19/QtWebEngine/private/qquickwebenginesettings_p.h
+* /usr/include/qt5/QtWebEngine/5.15.19/QtWebEngine/private/qquickwebenginesingleton_p.h
+* /usr/include/qt5/QtWebEngine/5.15.19/QtWebEngine/private/qquickwebenginetestsupport_p.h
+* /usr/include/qt5/QtWebEngine/5.15.19/QtWebEngine/private/qquickwebenginetouchhandleprovider_p_p.h
+* /usr/include/qt5/QtWebEngine/5.15.19/QtWebEngine/private/qquickwebengineview_p.h
+* /usr/include/qt5/QtWebEngine/5.15.19/QtWebEngine/private/qquickwebengineview_p_p.h
+* /usr/include/qt5/QtWebEngine/5.15.19/QtWebEngine/private/qtwebengine-config_p.h
+* /usr/include/qt5/QtWebEngine/5.15.19/QtWebEngine/private/qtwebengineglobal_p.h
 * /usr/include/qt5/QtWebEngine/QQuickWebEngineProfile
 * /usr/include/qt5/QtWebEngine/qquickwebengineprofile.h
 * /usr/include/qt5/QtWebEngine/QQuickWebEngineScript
@@ -97,12 +97,12 @@ The Qt5 toolkit, qtwebengine
 * /usr/include/qt5/QtWebEngine/qtwebengineglobal.h
 * /usr/include/qt5/QtWebEngine/QtWebEngineVersion
 * /usr/include/qt5/QtWebEngine/qtwebengineversion.h
-* /usr/include/qt5/QtWebEngineCore/5.15.18/QtWebEngineCore/private/qtwebenginecore-config_p.h
-* /usr/include/qt5/QtWebEngineCore/5.15.18/QtWebEngineCore/private/qtwebenginecoreglobal_p.h
-* /usr/include/qt5/QtWebEngineCore/5.15.18/QtWebEngineCore/private/qwebenginecallback_p.h
-* /usr/include/qt5/QtWebEngineCore/5.15.18/QtWebEngineCore/private/qwebenginecookiestore_p.h
-* /usr/include/qt5/QtWebEngineCore/5.15.18/QtWebEngineCore/private/qwebenginemessagepumpscheduler_p.h
-* /usr/include/qt5/QtWebEngineCore/5.15.18/QtWebEngineCore/private/qwebengineurlrequestinfo_p.h
+* /usr/include/qt5/QtWebEngineCore/5.15.19/QtWebEngineCore/private/qtwebenginecore-config_p.h
+* /usr/include/qt5/QtWebEngineCore/5.15.19/QtWebEngineCore/private/qtwebenginecoreglobal_p.h
+* /usr/include/qt5/QtWebEngineCore/5.15.19/QtWebEngineCore/private/qwebenginecallback_p.h
+* /usr/include/qt5/QtWebEngineCore/5.15.19/QtWebEngineCore/private/qwebenginecookiestore_p.h
+* /usr/include/qt5/QtWebEngineCore/5.15.19/QtWebEngineCore/private/qwebenginemessagepumpscheduler_p.h
+* /usr/include/qt5/QtWebEngineCore/5.15.19/QtWebEngineCore/private/qwebengineurlrequestinfo_p.h
 * /usr/include/qt5/QtWebEngineCore/QtWebEngineCore
 * /usr/include/qt5/QtWebEngineCore/qtwebenginecore-config.h
 * /usr/include/qt5/QtWebEngineCore/QtWebEngineCoreDepends
@@ -135,14 +135,14 @@ The Qt5 toolkit, qtwebengine
 * /usr/include/qt5/QtWebEngineCore/qwebengineurlscheme.h
 * /usr/include/qt5/QtWebEngineCore/QWebEngineUrlSchemeHandler
 * /usr/include/qt5/QtWebEngineCore/qwebengineurlschemehandler.h
-* /usr/include/qt5/QtWebEngineWidgets/5.15.18/QtWebEngineWidgets/private/qtwebenginewidgets-config_p.h
-* /usr/include/qt5/QtWebEngineWidgets/5.15.18/QtWebEngineWidgets/private/qwebenginedownloaditem_p.h
-* /usr/include/qt5/QtWebEngineWidgets/5.15.18/QtWebEngineWidgets/private/qwebenginehistory_p.h
-* /usr/include/qt5/QtWebEngineWidgets/5.15.18/QtWebEngineWidgets/private/qwebenginenotificationpresenter_p.h
-* /usr/include/qt5/QtWebEngineWidgets/5.15.18/QtWebEngineWidgets/private/qwebenginepage_p.h
-* /usr/include/qt5/QtWebEngineWidgets/5.15.18/QtWebEngineWidgets/private/qwebengineprofile_p.h
-* /usr/include/qt5/QtWebEngineWidgets/5.15.18/QtWebEngineWidgets/private/qwebenginescriptcollection_p.h
-* /usr/include/qt5/QtWebEngineWidgets/5.15.18/QtWebEngineWidgets/private/qwebengineview_p.h
+* /usr/include/qt5/QtWebEngineWidgets/5.15.19/QtWebEngineWidgets/private/qtwebenginewidgets-config_p.h
+* /usr/include/qt5/QtWebEngineWidgets/5.15.19/QtWebEngineWidgets/private/qwebenginedownloaditem_p.h
+* /usr/include/qt5/QtWebEngineWidgets/5.15.19/QtWebEngineWidgets/private/qwebenginehistory_p.h
+* /usr/include/qt5/QtWebEngineWidgets/5.15.19/QtWebEngineWidgets/private/qwebenginenotificationpresenter_p.h
+* /usr/include/qt5/QtWebEngineWidgets/5.15.19/QtWebEngineWidgets/private/qwebenginepage_p.h
+* /usr/include/qt5/QtWebEngineWidgets/5.15.19/QtWebEngineWidgets/private/qwebengineprofile_p.h
+* /usr/include/qt5/QtWebEngineWidgets/5.15.19/QtWebEngineWidgets/private/qwebenginescriptcollection_p.h
+* /usr/include/qt5/QtWebEngineWidgets/5.15.19/QtWebEngineWidgets/private/qwebengineview_p.h
 * /usr/include/qt5/QtWebEngineWidgets/QtWebEngineWidgets
 * /usr/include/qt5/QtWebEngineWidgets/qtwebenginewidgets-config.h
 * /usr/include/qt5/QtWebEngineWidgets/QtWebEngineWidgetsDepends
@@ -190,27 +190,27 @@ The Qt5 toolkit, qtwebengine
 * /usr/lib/libQt5Pdf.so
 * /usr/lib/libQt5Pdf.so.5
 * /usr/lib/libQt5Pdf.so.5.15
-* /usr/lib/libQt5Pdf.so.5.15.18
+* /usr/lib/libQt5Pdf.so.5.15.19
 * /usr/lib/libQt5PdfWidgets.prl
 * /usr/lib/libQt5PdfWidgets.so
 * /usr/lib/libQt5PdfWidgets.so.5
 * /usr/lib/libQt5PdfWidgets.so.5.15
-* /usr/lib/libQt5PdfWidgets.so.5.15.18
+* /usr/lib/libQt5PdfWidgets.so.5.15.19
 * /usr/lib/libQt5WebEngine.prl
 * /usr/lib/libQt5WebEngine.so
 * /usr/lib/libQt5WebEngine.so.5
 * /usr/lib/libQt5WebEngine.so.5.15
-* /usr/lib/libQt5WebEngine.so.5.15.18
+* /usr/lib/libQt5WebEngine.so.5.15.19
 * /usr/lib/libQt5WebEngineCore.prl
 * /usr/lib/libQt5WebEngineCore.so
 * /usr/lib/libQt5WebEngineCore.so.5
 * /usr/lib/libQt5WebEngineCore.so.5.15
-* /usr/lib/libQt5WebEngineCore.so.5.15.18
+* /usr/lib/libQt5WebEngineCore.so.5.15.19
 * /usr/lib/libQt5WebEngineWidgets.prl
 * /usr/lib/libQt5WebEngineWidgets.so
 * /usr/lib/libQt5WebEngineWidgets.so.5
 * /usr/lib/libQt5WebEngineWidgets.so.5.15
-* /usr/lib/libQt5WebEngineWidgets.so.5.15.18
+* /usr/lib/libQt5WebEngineWidgets.so.5.15.19
 * /usr/lib/pkgconfig/Qt5Pdf.pc
 * /usr/lib/pkgconfig/Qt5PdfWidgets.pc
 * /usr/lib/pkgconfig/Qt5WebEngine.pc

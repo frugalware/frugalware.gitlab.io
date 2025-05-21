@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "flickcurl 1.26-4"
-version = "1.26-4"
+title = "flickcurl 1.26-5"
+version = "1.26-5"
 description = "C library for the Flickr API"
-date = "2022-02-08T15:01:17"
+date = "2025-05-21T10:26:47"
 aliases = "/packages/219326"
 categories = ['lib-extra']
 upstreamurl = "http://librdf.org/flickcurl/"
 arch = "x86_64"
-size = "794752"
-usize = "2780537"
-sha1sum = "dcadeec2f09b6866264b2171015f239b98f43434"
+size = "798720"
+usize = "2761714"
+sha1sum = "5b1957c76ce4b149a4fd330edc9bda46ac31f481"
 depends = "['curl', 'raptor']"
 reverse_depends = "['darktable']"
 +++

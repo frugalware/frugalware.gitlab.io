@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lighttpd 1.4.76-1"
-version = "1.4.76-1"
+title = "lighttpd 1.4.79-1"
+version = "1.4.79-1"
 description = "A webserver designed and optimized for high performance environments."
-date = "2024-07-30T15:01:44"
+date = "2025-05-21T10:44:38"
 aliases = "/packages/9439"
 categories = ['network-extra']
 upstreamurl = "http://www.lighttpd.net/"
 arch = "x86_64"
-size = "434684"
-usize = "1308332"
-sha1sum = "da82d3b61aa722dcc9dd8e5c6ff579f5f06cb5d1"
+size = "440192"
+usize = "1323783"
+sha1sum = "b0fc48b0f3fc52bbd863dd650a5cf6574a1e21c8"
 depends = "['bzip2', 'geoip', 'libldap>=2.5.4', 'lua>=5.4', 'mariadb-libs>=10.3.14', 'openssl>=3.1.0', 'pam', 'pcre>=8.30', 'xfsprogs-attr']"
 license = "BSD"
 +++
@@ -36,8 +36,10 @@ A webserver designed and optimized for high performance environments.
 * /etc/lighttpd/conf.d/simple_vhost.conf
 * /etc/lighttpd/conf.d/ssi.conf
 * /etc/lighttpd/conf.d/status.conf
+* /etc/lighttpd/conf.d/tls.conf
 * /etc/lighttpd/conf.d/userdir.conf
 * /etc/lighttpd/conf.d/webdav.conf
+* /etc/lighttpd/lighttpd.annotated.conf
 * /etc/lighttpd/lighttpd.conf
 * /etc/lighttpd/modules.conf
 * /etc/lighttpd/vhosts.d/vhosts.template
@@ -68,12 +70,12 @@ A webserver designed and optimized for high performance environments.
 * /usr/lib/mod_webdav.so
 * /usr/lib/mod_wstunnel.so
 * /usr/lib/systemd/system/lighttpd.service
-* /usr/share/doc/lighttpd-1.4.76/AUTHORS
-* /usr/share/doc/lighttpd-1.4.76/COPYING
-* /usr/share/doc/lighttpd-1.4.76/INSTALL
-* /usr/share/doc/lighttpd-1.4.76/NEWS
-* /usr/share/doc/lighttpd-1.4.76/README
-* /usr/share/doc/lighttpd-1.4.76/README.FreeBSD
+* /usr/share/doc/lighttpd-1.4.79/AUTHORS
+* /usr/share/doc/lighttpd-1.4.79/COPYING
+* /usr/share/doc/lighttpd-1.4.79/INSTALL
+* /usr/share/doc/lighttpd-1.4.79/NEWS
+* /usr/share/doc/lighttpd-1.4.79/README
+* /usr/share/doc/lighttpd-1.4.79/README.FreeBSD
 * /usr/share/man/man8/lighttpd-angel.8.gz
 * /usr/share/man/man8/lighttpd.8.gz
 * /var/www/htdocs/frugalware.png

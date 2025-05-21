@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-lz4 1.10.0-1"
-version = "1.10.0-1"
+title = "lib32-lz4 1.10.0-2"
+version = "1.10.0-2"
 description = "Extremely Fast Compression algorithm ( 32bit )"
-date = "2024-07-22T12:24:45"
+date = "2025-05-21T10:15:29"
 aliases = "/packages/221475"
 categories = ['lib32-extra']
 upstreamurl = "http://www.lz4.org/"
 arch = "x86_64"
-size = "157288"
-usize = "485428"
-sha1sum = "d5ce6648c6a23a52b358e86cdea98d4565f4ff2c"
+size = "160676"
+usize = "493264"
+sha1sum = "8808ef3edadbe554bc027b93e2e0282b3f99aff7"
 depends = "[]"
 reverse_depends = "['lib32-zstd']"
 +++

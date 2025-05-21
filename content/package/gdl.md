@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gdl 3.40.0-1"
-version = "3.40.0-1"
+title = "gdl 3.40.0-2"
+version = "3.40.0-2"
 description = "Gnome Docking library."
-date = "2022-04-22T12:36:54"
+date = "2025-05-21T10:37:41"
 aliases = "/packages/14405"
 categories = ['xlib-extra']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "289000"
-usize = "1971829"
-sha1sum = "c36978dfc7db5c0318d7d19ffaaa680a18541adf"
+size = "280288"
+usize = "1934161"
+sha1sum = "ecde5351c194a02eaaba53f4fc6294b31e60313e"
 depends = "['gtk+3']"
 reverse_depends = "['inkscape']"
 +++
@@ -37,7 +37,6 @@ Gnome Docking library.
 * /usr/share/doc/gdl-3.40.0/ChangeLog
 * /usr/share/doc/gdl-3.40.0/COPYING
 * /usr/share/doc/gdl-3.40.0/INSTALL
-* /usr/share/doc/gdl-3.40.0/LICENSE
 * /usr/share/doc/gdl-3.40.0/NEWS
 * /usr/share/doc/gdl-3.40.0/README
 * /usr/share/gir-1.0/Gdl-3.gir

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lz4-static 1.10.0-1"
-version = "1.10.0-1"
+title = "lz4-static 1.10.0-2"
+version = "1.10.0-2"
 description = "Static files for lz4"
-date = "2024-07-22T12:24:45"
+date = "2025-05-21T10:15:29"
 aliases = "/packages/219922"
 categories = ['devel-extra']
 upstreamurl = "http://www.lz4.org/"
 arch = "x86_64"
-size = "682920"
-usize = "723674"
-sha1sum = "299096f7b8c7e6e7e293cdab74414c59db33d60f"
+size = "684584"
+usize = "725282"
+sha1sum = "1882fac6dc9f0acc3ed4c09d0776dc570480d98f"
 depends = "['libstdc++>=12.2']"
 +++
 ### Description: 
