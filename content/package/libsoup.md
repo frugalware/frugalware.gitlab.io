@@ -12,7 +12,7 @@ size = "437200"
 usize = "2677627"
 sha1sum = "231a669765d23c147596750a67066ab06b0eddbb"
 depends = "['glib-networking>=2.60.0', 'glib2>=2.60.0', 'libffi>=3.2.1-2', 'libkrb5', 'libpsl', 'libxml2>=2.14.3', 'sqlite3>=3.9.2-4']"
-reverse_depends = "['gst1-plugins-bad', 'gst1-plugins-good-libsoup', 'inkscape', 'ostree', 'strongswan', 'telepathy-gabble', 'telepathy-salut', 'tootle', 'webkit-gtk3']"
+reverse_depends = "['gst1-plugins-bad', 'gst1-plugins-good-libsoup', 'inkscape', 'ostree', 'strongswan', 'telepathy-salut', 'tootle', 'webkit-gtk3']"
 +++
 ### Description: 
 An HTTP library implementation in C

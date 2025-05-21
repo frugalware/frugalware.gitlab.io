@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "telepathy-logger 0.8.2-11"
-version = "0.8.2-11"
+title = "telepathy-logger 0.8.2-12"
+version = "0.8.2-12"
 description = "telepathy logger service"
-date = "2022-01-14T22:31:59"
+date = "2025-05-21T16:43:20"
 aliases = "/packages/103196"
 categories = ['lib']
 upstreamurl = "http://telepathy.freedesktop.org/releases/telepathy-logger"
 arch = "x86_64"
-size = "178204"
-usize = "919969"
-sha1sum = "e4cbfa5ab854d0ec159693734c6bcee1335dbf83"
-depends = "['dbus-glib>=0.108-3', 'libffi>=3.2.1-2', 'libxml2>=2.9.4-3', 'sqlite3>=3.9.2-4', 'telepathy-glib>=0.24.1-8']"
+size = "175824"
+usize = "898963"
+sha1sum = "718f3cb4c784eeb4cd5a515a7614f4ad0fb77ff8"
+depends = "['dbus-glib>=0.108-3', 'libffi>=3.2.1-2', 'libxml2>=2.14.3', 'sqlite3>=3.9.2-4', 'telepathy-glib>=0.24.1-8']"
 reverse_depends = "['telepathy-logger-qt']"
 +++
 ### Description: 
