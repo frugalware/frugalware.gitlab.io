@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libodfgen 0.1.8-1"
-version = "0.1.8-1"
+title = "libodfgen 0.1.8-2"
+version = "0.1.8-2"
 description = "An ODF generator library"
-date = "2021-01-26T09:03:57"
+date = "2025-05-21T11:38:24"
 aliases = "/packages/184625"
 categories = ['xoffice']
 upstreamurl = "https://sourceforge.net/projects/libwpd"
 arch = "x86_64"
-size = "318808"
-usize = "1880351"
-sha1sum = "717c63850f2bd5544dd32ba83371d1021239c181"
-depends = "['librevenge>=0.0.4-2']"
+size = "347864"
+usize = "2041849"
+sha1sum = "627e8136731d5e4d26e6570519caefe5bd80791c"
+depends = "['librevenge>=0.0.4-2', 'libxml2>=2.14.3']"
 reverse_depends = "['libreoffice']"
 +++
 ### Description: 
@@ -35,7 +35,7 @@ An ODF generator library
 * /usr/share/doc/libodfgen-0.1.8/COPYING.MPL
 * /usr/share/doc/libodfgen-0.1.8/html/annotated.html
 * /usr/share/doc/libodfgen-0.1.8/html/bc_s.png
-* /usr/share/doc/libodfgen-0.1.8/html/bdwn.png
+* /usr/share/doc/libodfgen-0.1.8/html/bc_sd.png
 * /usr/share/doc/libodfgen-0.1.8/html/classes.html
 * /usr/share/doc/libodfgen-0.1.8/html/classOdfDocumentHandler-members.html
 * /usr/share/doc/libodfgen-0.1.8/html/classOdfDocumentHandler.html
@@ -54,11 +54,9 @@ An ODF generator library
 * /usr/share/doc/libodfgen-0.1.8/html/closed.png
 * /usr/share/doc/libodfgen-0.1.8/html/dir_0c4b4fb351457f55c047add07d9a0b0d.html
 * /usr/share/doc/libodfgen-0.1.8/html/dir_bfccd401955b95cf8c75461437045ac0.html
-* /usr/share/doc/libodfgen-0.1.8/html/doc.png
 * /usr/share/doc/libodfgen-0.1.8/html/doxygen.css
+* /usr/share/doc/libodfgen-0.1.8/html/doxygen_crawl.html
 * /usr/share/doc/libodfgen-0.1.8/html/files.html
-* /usr/share/doc/libodfgen-0.1.8/html/folderclosed.png
-* /usr/share/doc/libodfgen-0.1.8/html/folderopen.png
 * /usr/share/doc/libodfgen-0.1.8/html/functions.html
 * /usr/share/doc/libodfgen-0.1.8/html/functions_c.html
 * /usr/share/doc/libodfgen-0.1.8/html/functions_d.html
@@ -94,8 +92,10 @@ An ODF generator library
 * /usr/share/doc/libodfgen-0.1.8/html/libodfgen_8hxx_source.html
 * /usr/share/doc/libodfgen-0.1.8/html/navtree.css
 * /usr/share/doc/libodfgen-0.1.8/html/nav_f.png
+* /usr/share/doc/libodfgen-0.1.8/html/nav_fd.png
 * /usr/share/doc/libodfgen-0.1.8/html/nav_g.png
 * /usr/share/doc/libodfgen-0.1.8/html/nav_h.png
+* /usr/share/doc/libodfgen-0.1.8/html/nav_hd.png
 * /usr/share/doc/libodfgen-0.1.8/html/OdfDocumentHandler_8hxx.html
 * /usr/share/doc/libodfgen-0.1.8/html/OdfDocumentHandler_8hxx_source.html
 * /usr/share/doc/libodfgen-0.1.8/html/OdgGenerator_8hxx.html
@@ -108,12 +108,17 @@ An ODF generator library
 * /usr/share/doc/libodfgen-0.1.8/html/OdtGenerator_8hxx_source.html
 * /usr/share/doc/libodfgen-0.1.8/html/open.png
 * /usr/share/doc/libodfgen-0.1.8/html/splitbar.png
+* /usr/share/doc/libodfgen-0.1.8/html/splitbard.png
 * /usr/share/doc/libodfgen-0.1.8/html/sync_off.png
 * /usr/share/doc/libodfgen-0.1.8/html/sync_on.png
 * /usr/share/doc/libodfgen-0.1.8/html/tabs.css
 * /usr/share/doc/libodfgen-0.1.8/html/tab_a.png
+* /usr/share/doc/libodfgen-0.1.8/html/tab_ad.png
 * /usr/share/doc/libodfgen-0.1.8/html/tab_b.png
+* /usr/share/doc/libodfgen-0.1.8/html/tab_bd.png
 * /usr/share/doc/libodfgen-0.1.8/html/tab_h.png
+* /usr/share/doc/libodfgen-0.1.8/html/tab_hd.png
 * /usr/share/doc/libodfgen-0.1.8/html/tab_s.png
+* /usr/share/doc/libodfgen-0.1.8/html/tab_sd.png
 * /usr/share/doc/libodfgen-0.1.8/NEWS
 * /usr/share/doc/libodfgen-0.1.8/README

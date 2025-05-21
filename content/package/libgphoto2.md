@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libgphoto2 2.5.31-2"
-version = "2.5.31-2"
+title = "libgphoto2 2.5.31-3"
+version = "2.5.31-3"
 description = "A portable library to gives access to many digital cameras"
-date = "2024-01-06T13:47:33"
+date = "2025-05-21T11:30:38"
 aliases = "/packages/3177"
 categories = ['lib']
 upstreamurl = "http://www.gphoto.org"
 arch = "x86_64"
-size = "1251704"
-usize = "6909057"
-sha1sum = "d33e3dd69471511e252d874d81479eae887153c0"
-depends = "['gd>=2.1.1-3', 'libexif>=0.6.21-3', 'libffi>=3.2.1-2', 'libjpeg-turbo', 'libtool', 'libudev>=242', 'libusb1>=1.0.20-5']"
+size = "1260472"
+usize = "6718094"
+sha1sum = "b531369ad4602398a396007f393f92f4f806e5ed"
+depends = "['gd>=2.1.1-3', 'libexif>=0.6.21-3', 'libffi>=3.2.1-2', 'libjpeg-turbo', 'libtool', 'libudev>=242', 'libusb1>=1.0.20-5', 'libxml2>=2.14.3']"
 reverse_depends = "['darktable', 'gphoto2', 'opencv', 'sane-backends', 'wine', 'wine-devel', 'xsane']"
 +++
 ### Description: 
@@ -46,7 +46,6 @@ A portable library to gives access to many digital cameras
 * /usr/lib/libgphoto2/2.5.31/digigr8.so
 * /usr/lib/libgphoto2/2.5.31/dimagev.so
 * /usr/lib/libgphoto2/2.5.31/directory.so
-* /usr/lib/libgphoto2/2.5.31/docupen.so
 * /usr/lib/libgphoto2/2.5.31/jl2005a.so
 * /usr/lib/libgphoto2/2.5.31/jl2005c.so
 * /usr/lib/libgphoto2/2.5.31/kodak_dc240.so
