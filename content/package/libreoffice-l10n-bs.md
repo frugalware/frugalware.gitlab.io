@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-bs 25.2.3.2-1"
-version = "25.2.3.2-1"
+title = "libreoffice-l10n-bs 25.2.3.2-2"
+version = "25.2.3.2-2"
 description = "Installs Bosnian support in LibreOffice"
-date = "2025-05-07T07:26:52"
+date = "2025-05-21T12:30:11"
 aliases = "/packages/104041"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4266016"
-usize = "32760825"
-sha1sum = "590ade0077e0b1418b5957a549269c1b056ce8d9"
+size = "4266796"
+usize = "32760895"
+sha1sum = "d8d1fc483e9aca6a90d24a118591065c8db052b2"
 depends = "['libreoffice>=25.2.3.2']"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-gu 25.2.3.2-1"
-version = "25.2.3.2-1"
+title = "libreoffice-l10n-gu 25.2.3.2-2"
+version = "25.2.3.2-2"
 description = "Installs Gujarati support in LibreOffice"
-date = "2025-05-07T07:26:52"
+date = "2025-05-21T12:30:11"
 aliases = "/packages/104063"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4077548"
-usize = "33343161"
-sha1sum = "aabd5d20f55da23dfbad6e2a5a08b352d5d6d360"
+size = "4076904"
+usize = "33343241"
+sha1sum = "12a4ba2903386c68151f05111a594d18fd2e44cb"
 depends = "['libreoffice>=25.2.3.2']"
 +++
 ### Description: 

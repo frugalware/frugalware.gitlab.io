@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gmp-static 6.3.0-5"
-version = "6.3.0-5"
+title = "gmp-static 6.3.0-6"
+version = "6.3.0-6"
 description = "GNU multiple precision arithmetic library (static)"
-date = "2024-12-04T09:02:37"
+date = "2025-05-21T12:40:48"
 aliases = "/packages/222594"
 categories = ['devel-extra']
 upstreamurl = "http://gmplib.org"
 arch = "x86_64"
-size = "2773828"
-usize = "4300116"
-sha1sum = "c4783251e83962df49662f444b41fac7e4e0ba5f"
+size = "2788648"
+usize = "4315636"
+sha1sum = "d09180ca80d6c43d78bed488366236da61fab872"
 depends = "['glibc>=2.35']"
 +++
 ### Description: 

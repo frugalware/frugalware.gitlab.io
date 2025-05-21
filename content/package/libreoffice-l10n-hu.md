@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-hu 25.2.3.2-1"
-version = "25.2.3.2-1"
+title = "libreoffice-l10n-hu 25.2.3.2-2"
+version = "25.2.3.2-2"
 description = "Installs Hungarian support in LibreOffice"
-date = "2025-05-07T07:26:52"
+date = "2025-05-21T12:30:11"
 aliases = "/packages/104067"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "5294940"
-usize = "37285124"
-sha1sum = "e9614bf6af863ab2e4a1ebf09179679267661e9e"
+size = "5294732"
+usize = "37284754"
+sha1sum = "8c6222ac1a7f87a7a2ecae692031d275dd9d994d"
 depends = "['libreoffice>=25.2.3.2']"
 +++
 ### Description: 

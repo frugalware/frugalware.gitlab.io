@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-pcre 8.45-8"
-version = "8.45-8"
+title = "lib32-pcre 8.45-9"
+version = "8.45-9"
 description = "Perl-compatible regular expression library ( 32bit )"
-date = "2025-01-02T10:34:52"
+date = "2025-05-21T13:03:47"
 aliases = "/packages/217902"
 categories = ['lib32-extra']
 upstreamurl = "https://sourceforge.net/projects/pcre"
 arch = "x86_64"
-size = "454832"
-usize = "1737283"
-sha1sum = "d2752c1b824bdb0814da6fc8877c76cfff6bcae3"
+size = "449296"
+usize = "1732767"
+sha1sum = "666db582686cecc9798488ddd93c1fb8aadc9f5e"
 depends = "['lib32-bzip2>=1.0.6-16', 'lib32-readline>=8.0-3', 'lib32-zlib-ng']"
 reverse_depends = "['lib32-slang']"
 +++

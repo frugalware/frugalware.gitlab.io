@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-ts 25.2.3.2-1"
-version = "25.2.3.2-1"
+title = "libreoffice-l10n-ts 25.2.3.2-2"
+version = "25.2.3.2-2"
 description = "Installs Tsonga support in LibreOffice"
-date = "2025-05-07T07:26:52"
+date = "2025-05-21T12:30:11"
 aliases = "/packages/104129"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "212568"
+size = "212532"
 usize = "1331618"
-sha1sum = "cd7bbbd97b671ae2c4e5a8afc271ba2348fb8e9b"
+sha1sum = "14a3eeb4e346b8e3e3bb6be2c64b1dda881886ca"
 depends = "['libreoffice>=25.2.3.2']"
 +++
 ### Description: 

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "mod_security 3.0.13-1"
-version = "3.0.13-1"
+title = "mod_security 3.0.14-1"
+version = "3.0.14-1"
 description = "A security filter DSO for the popular Apache httpd server"
-date = "2025-01-07T13:08:50"
+date = "2025-05-21T13:08:09"
 aliases = "/packages/10168"
 categories = ['network-extra']
 upstreamurl = "http://www.modsecurity.org"
 arch = "x86_64"
-size = "55710472"
-usize = "107429383"
-sha1sum = "3561d4112cb89a3704ac2887f252d1ac93b8c3a5"
-depends = "['apache>=2.4.35', 'apr-util', 'curl', 'geoip', 'libxml2', 'lua>=5.4', 'owasp-modsecurity-crs', 'yajl']"
+size = "55037240"
+usize = "106264417"
+sha1sum = "4e36ffe54b9e51508af62f7e4f7fc4710fe125bb"
+depends = "['apache>=2.4.35', 'apr-util', 'curl', 'geoip', 'libxml2>=2.14.3', 'lua>=5.4', 'owasp-modsecurity-crs', 'yajl']"
 +++
 ### Description: 
 A security filter DSO for the popular Apache httpd server
@@ -46,9 +46,9 @@ A security filter DSO for the popular Apache httpd server
 * /usr/lib/libmodsecurity.a
 * /usr/lib/libmodsecurity.so
 * /usr/lib/libmodsecurity.so.3
-* /usr/lib/libmodsecurity.so.3.0.13
+* /usr/lib/libmodsecurity.so.3.0.14
 * /usr/lib/pkgconfig/modsecurity.pc
-* /usr/share/doc/mod_security-3.0.13/AUTHORS
-* /usr/share/doc/mod_security-3.0.13/CHANGES
-* /usr/share/doc/mod_security-3.0.13/LICENSE
-* /usr/share/doc/mod_security-3.0.13/README.md
+* /usr/share/doc/mod_security-3.0.14/AUTHORS
+* /usr/share/doc/mod_security-3.0.14/CHANGES
+* /usr/share/doc/mod_security-3.0.14/LICENSE
+* /usr/share/doc/mod_security-3.0.14/README.md

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-gmp 6.3.0-5"
-version = "6.3.0-5"
+title = "lib32-gmp 6.3.0-6"
+version = "6.3.0-6"
 description = "GNU multiple precision arithmetic library ( 32bit )"
-date = "2024-12-04T09:02:37"
+date = "2025-05-21T12:40:48"
 aliases = "/packages/217893"
 categories = ['lib32-extra']
 upstreamurl = "http://gmplib.org"
 arch = "x86_64"
-size = "256316"
-usize = "770242"
-sha1sum = "439cc256f4883e6175ccdaa5ede1c84646f19424"
+size = "253664"
+usize = "753506"
+sha1sum = "e612363fc1c222ed1d54c59aabc0cf7d9e092025"
 depends = "[]"
 reverse_depends = "['lib32-ncurses', 'lib32-nettle']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-shiboken6 6.9.0-1"
-version = "6.9.0-1"
+title = "python3-shiboken6 6.9.0-2"
+version = "6.9.0-2"
 description = "Shiboken lib python only"
-date = "2025-04-09T11:15:01"
+date = "2025-05-21T12:55:56"
 aliases = "/packages/220853"
 categories = ['lib']
 upstreamurl = "https://wiki.qt.io/Qt_for_Python"
 arch = "x86_64"
-size = "164184"
-usize = "422676"
-sha1sum = "376c3770a6fa069ceb0b69438f8bf0d48bfc0c48"
+size = "164424"
+usize = "418868"
+sha1sum = "49b0a72dc9b2a1a8863c5818bc89fe9657d23f82"
 depends = "['python3>=3.12']"
 reverse_depends = "['pyside6']"
 +++

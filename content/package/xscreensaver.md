@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "xscreensaver 6.10.1-1"
-version = "6.10.1-1"
+title = "xscreensaver 6.10.1-2"
+version = "6.10.1-2"
 description = "A screen saver and locker for the X Window System."
-date = "2025-04-29T07:46:55"
+date = "2025-05-21T12:58:45"
 aliases = "/packages/3426"
 categories = ['xlib']
 upstreamurl = "https://www.jwz.org/xscreensaver"
 arch = "x86_64"
-size = "323136"
-usize = "962552"
-sha1sum = "d21baa1f3b99d8d867b40d90ca1f582192f8f75c"
+size = "322972"
+usize = "963152"
+sha1sum = "7c34203390085f2e1e0d4651c1eac929c93c9d68"
 depends = "['gdk-pixbuf-xlib', 'glade', 'gtk+2', 'libxmu', 'libxt', 'xscreensaver-data']"
 reverse_depends = "['blueproximity', 'lumina-desktop']"
 +++

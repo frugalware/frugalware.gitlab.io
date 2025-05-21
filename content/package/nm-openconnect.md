@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "nm-openconnect 1.2.10-1"
-version = "1.2.10-1"
+title = "nm-openconnect 1.2.10-2"
+version = "1.2.10-2"
 description = "Open Cisco AnyConnect VPN plugin for Network Manager"
-date = "2024-06-12T08:37:22"
+date = "2025-05-21T13:10:11"
 aliases = "/packages/218620"
 categories = ['gnome-extra']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "538748"
-usize = "3204125"
-sha1sum = "9584ecc1e4836a401cb3924ebfcf08fb40a5502b"
+size = "537812"
+usize = "3207909"
+sha1sum = "40010d7732f15ac01e4d2de319107cd3d10b9ee4"
 depends = "['gcr-1', 'libsecret>=0.18.5', 'nm-connection-editor>=1.1.92', 'openconnect', 'webkit-gtk3']"
 +++
 ### Description: 

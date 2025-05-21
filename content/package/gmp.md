@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gmp 6.3.0-5"
-version = "6.3.0-5"
+title = "gmp 6.3.0-6"
+version = "6.3.0-6"
 description = "GNU multiple precision arithmetic library"
-date = "2024-12-04T09:02:37"
+date = "2025-05-21T12:40:48"
 aliases = "/packages/2386"
 categories = ['base']
 upstreamurl = "http://gmplib.org"
 arch = "x86_64"
-size = "685012"
-usize = "2296582"
-sha1sum = "b4bad8cf7740de3a60934980b3a1e12b7b66793f"
+size = "715040"
+usize = "2367726"
+sha1sum = "8770d89b37d667946c8000c838f26ac7425d3e7a"
 depends = "['libstdc++>=12.2']"
 reverse_depends = "['cln', 'coreutils', 'ecm', 'frobby', 'ghc', 'glpk', 'guile', 'julia', 'libisl', 'libtomcrypt', 'mpfr', 'ncurses', 'nettle', 'nftables', 'pari', 'python3-pycryptodome', 'ruby', 'strongswan', 'suitesparse']"
 +++

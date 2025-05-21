@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-json-c 0.18-1"
-version = "0.18-1"
+title = "lib32-json-c 0.18-2"
+version = "0.18-2"
 description = "JSON-C - A JSON implementation in C ( 32bit )"
-date = "2024-09-16T11:53:05"
+date = "2025-05-21T12:19:11"
 aliases = "/packages/217932"
 categories = ['lib32-extra']
 upstreamurl = "https://github.com/json-c/json-c/wiki"
 arch = "x86_64"
-size = "56428"
-usize = "185728"
-sha1sum = "aa44f4c1e8d5b96ed5578b1a6a853e1656e2237f"
+size = "55876"
+usize = "183445"
+sha1sum = "052a6a7dade77cb939ed943dbabbc69624ee7b21"
 depends = "[]"
 reverse_depends = "['lib32-elfutils', 'lib32-fontconfig', 'lib32-v4l-utils']"
 +++

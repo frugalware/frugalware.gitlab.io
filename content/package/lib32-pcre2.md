@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-pcre2 10.45-1"
-version = "10.45-1"
+title = "lib32-pcre2 10.45-2"
+version = "10.45-2"
 description = "Perl-compatible regular expression library (version 2). ( 32bit )"
-date = "2025-02-05T14:09:09"
+date = "2025-05-21T13:06:32"
 aliases = "/packages/219934"
 categories = ['lib32-extra']
 upstreamurl = "https://github.com/PCRE2Project/pcre2"
 arch = "x86_64"
-size = "599808"
-usize = "2347308"
-sha1sum = "4a18c5e7ed3be5f9eaaeda7bdd8c4e8b3751013d"
+size = "596956"
+usize = "2345720"
+sha1sum = "2cb69ad46e228cf4eb06b5ba72da84bf91b8c352"
 depends = "['lib32-bzip2>=1.0.6-18', 'lib32-ncurses>=6.1', 'lib32-readline>=8.0-3', 'lib32-zlib-ng']"
 reverse_depends = "['lib32-glib2', 'lib32-util-linux']"
 +++

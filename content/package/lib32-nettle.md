@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-nettle 3.10.1-1"
-version = "3.10.1-1"
+title = "lib32-nettle 3.10.1-2"
+version = "3.10.1-2"
 description = "A low-level cryptographic library ( 32bit )"
-date = "2024-12-31T12:44:48"
+date = "2025-05-21T12:53:15"
 aliases = "/packages/217894"
 categories = ['lib32-extra']
 upstreamurl = "http://www.lysator.liu.se/~nisse/nettle/"
 arch = "x86_64"
-size = "497528"
-usize = "1625592"
-sha1sum = "ce3f1bf8f7247d06d76b32bdde60e1e02f98d9a6"
+size = "497216"
+usize = "1641864"
+sha1sum = "2870758d0cfef5a2008f988f25764b855c10fb9e"
 depends = "['lib32-gmp>=6.1.2-12']"
 reverse_depends = "['lib32-gnutls', 'lib32-libarchive', 'lib32-libcurl-gnutls']"
 +++
