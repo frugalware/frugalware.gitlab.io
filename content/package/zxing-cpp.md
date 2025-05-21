@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "zxing-cpp 2.3.0-1"
-version = "2.3.0-1"
+title = "zxing-cpp 2.3.0-2"
+version = "2.3.0-2"
 description = "A command-line tool to decode QRCode"
-date = "2025-01-03T12:58:13"
+date = "2025-05-21T14:56:02"
 aliases = "/packages/219732"
 categories = ['lib']
 upstreamurl = "https://github.com/zxing-cpp/zxing-cpp"
 arch = "x86_64"
-size = "584608"
-usize = "1289109"
-sha1sum = "5aaae764e1da19a8631a52743b9e1dfdc245c5da"
+size = "585124"
+usize = "1289165"
+sha1sum = "ab4dff78dfbb193550b3f40d028ece2acf74ade8"
 depends = "['libstdc++>=11.2']"
 reverse_depends = "['gst1-plugins-bad-zxing', 'kitinerary', 'prison', 'prison5']"
 +++

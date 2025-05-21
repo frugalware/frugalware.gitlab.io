@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "nghttp3 1.9.0-1"
-version = "1.9.0-1"
+title = "nghttp3 1.9.0-2"
+version = "1.9.0-2"
 description = "nghttp3 is an implementation of HTTP/3 in C"
-date = "2025-04-17T09:03:11"
+date = "2025-05-21T15:07:58"
 aliases = "/packages/221494"
 categories = ['chroot-core']
 upstreamurl = "https://nghttp2.org/nghttp3"
 arch = "x86_64"
-size = "78580"
-usize = "282305"
-sha1sum = "18320bbb94303a3517ee6d36be72c2adeb72e969"
+size = "78704"
+usize = "281281"
+sha1sum = "d8c997f9acc5d0a7b5c544ad0e3954969742dd1a"
 depends = "['glibc>=2.3.4']"
 reverse_depends = "['curl', 'nodejs']"
 +++

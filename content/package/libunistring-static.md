@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libunistring-static 1.3-1"
-version = "1.3-1"
+title = "libunistring-static 1.3-2"
+version = "1.3-2"
 description = "Static files for libunistring"
-date = "2024-10-17T12:36:48"
+date = "2025-05-21T14:06:25"
 aliases = "/packages/219918"
 categories = ['devel-extra']
 upstreamurl = "http://www.gnu.org/software/libunistring/"
 arch = "x86_64"
-size = "4551624"
-usize = "7211098"
-sha1sum = "566c8696b790504b9d854e7d66b736a6a8ab7b93"
+size = "4489504"
+usize = "7083462"
+sha1sum = "42baca456002266fa5240d16c6ea6228cf2559a0"
 depends = "[]"
 +++
 ### Description: 

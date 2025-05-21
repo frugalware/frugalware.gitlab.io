@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libunistring 1.3-1"
-version = "1.3-1"
+title = "libunistring 1.3-2"
+version = "1.3-2"
 description = "Library for manipulating Unicode strings and C strings."
-date = "2024-10-17T12:36:48"
+date = "2025-05-21T14:06:25"
 aliases = "/packages/137094"
 categories = ['base']
 upstreamurl = "http://www.gnu.org/software/libunistring/"
 arch = "x86_64"
-size = "597808"
-usize = "2918776"
-sha1sum = "2a54e0d68e3edec0165764f91238c8d586fbc265"
+size = "595728"
+usize = "2921384"
+sha1sum = "2e39429422da3cf25b74fbd2d9c3843e4f719748"
 depends = "['glibc>=2.35']"
 reverse_depends = "['gettext', 'gnunet', 'gnutls', 'guile', 'libidn2', 'libratbag', 'podofo']"
 +++
