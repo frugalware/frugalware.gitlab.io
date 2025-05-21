@@ -12,7 +12,6 @@ size = "157136"
 usize = "737473"
 sha1sum = "7b3ebdf596a9d398d934e4864cfbec5e5cd84849"
 depends = "['cairo', 'gdk-pixbuf2', 'gtk+4', 'libgee8', 'pango']"
-reverse_depends = "['tootle']"
 +++
 ### Description: 
 A development library for elementary development.
