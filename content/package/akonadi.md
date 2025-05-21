@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "akonadi 25.04.1-1"
-version = "25.04.1-1"
+title = "akonadi 25.04.1-2"
+version = "25.04.1-2"
 description = "PIM layer, which provides an asynchronous API to access all kind of PIM data"
-date = "2025-05-09T15:30:46"
+date = "2025-05-21T14:00:32"
 aliases = "/packages/74013"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3065724"
-usize = "13664109"
-sha1sum = "bac5db642106738dd1c436e729f1a5ce3ffe4dfe"
-depends = "['kaccounts-integration>=25.04.1', 'kio>=6.13.0', 'kitemmodels>=6.13.0', 'kitemviews>=6.13.0', 'libxslt', 'qt6-base>=6.9.0', 'shared-mime-info']"
+size = "3081436"
+usize = "13727127"
+sha1sum = "5870bde00baaefb3bf06af9874261add66b35fe3"
+depends = "['kaccounts-integration>=25.04.1', 'kio>=6.14.0', 'kitemmodels>=6.14.0', 'kitemviews>=6.14.0', 'libxslt', 'qt6-base>=6.9.0', 'shared-mime-info']"
 reverse_depends = "['akonadi-contacts', 'akonadi-mime', 'calendarsupport', 'incidenceeditor', 'libgravatar', 'libkdepim', 'libksieve']"
 +++
 ### Description: 
@@ -378,10 +378,15 @@ PIM layer, which provides an asynchronous API to access all kind of PIM data
 * /usr/share/dbus-1/interfaces/org.freedesktop.Akonadi.TracerNotification.xml
 * /usr/share/dbus-1/services/org.freedesktop.Akonadi.Control.service
 * /usr/share/doc/akonadi-25.04.1/AUTHORS
+* /usr/share/doc/akonadi-25.04.1/COPYING
+* /usr/share/doc/akonadi-25.04.1/COPYING.LIB
+* /usr/share/doc/akonadi-25.04.1/HACKING
 * /usr/share/doc/akonadi-25.04.1/INSTALL
 * /usr/share/doc/akonadi-25.04.1/NEWS
+* /usr/share/doc/akonadi-25.04.1/README
 * /usr/share/doc/akonadi-25.04.1/README.md
 * /usr/share/doc/akonadi-25.04.1/README.md.license
+* /usr/share/doc/akonadi-25.04.1/TODO
 * /usr/share/icons/hicolor/128x128/apps/akonadi.png
 * /usr/share/icons/hicolor/16x16/apps/akonadi.png
 * /usr/share/icons/hicolor/22x22/apps/akonadi.png

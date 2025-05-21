@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "popt 1.19-2"
-version = "1.19-2"
+title = "popt 1.19-3"
+version = "1.19-3"
 description = "A commandline option parser"
-date = "2024-05-15T18:10:56"
+date = "2025-05-21T13:14:54"
 aliases = "/packages/2431"
 categories = ['base']
 upstreamurl = "http://rpm5.org"
 arch = "x86_64"
-size = "57400"
-usize = "164079"
-sha1sum = "5955d6f26711a674e082908b57a5188bc9e81a3b"
+size = "57808"
+usize = "164087"
+sha1sum = "829efe49aa1a3b8662402d487c53ceb3e6178d22"
 depends = "['glibc>=2.35']"
 reverse_depends = "['clight', 'cryptsetup-luks', 'desktop-file-utils', 'distcc', 'distcc-gui', 'dracut', 'efivar', 'exif', 'gphoto2', 'gptfdisk', 'hd2u', 'intltool', 'libdv', 'librsync', 'logrotate', 'newt', 'ptabtools', 'rsync', 'samba-client', 'vcdimager']"
 +++

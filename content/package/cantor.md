@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "cantor 25.04.1-1"
-version = "25.04.1-1"
+title = "cantor 25.04.1-2"
+version = "25.04.1-2"
 description = "KDE Frontend to Mathematical Software."
-date = "2025-05-09T19:28:16"
+date = "2025-05-21T14:03:07"
 aliases = "/packages/152823"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2389944"
-usize = "9410886"
-sha1sum = "ae3946cb26a3034395aff801d86d8d0b98be9ab8"
-depends = "['analitza>=25.04.1', 'julia>=1.11.3', 'knewstuff>=6.13.0', 'kpty>=6.13.0', 'ktexteditor>=6.13.0', 'libqalculate>=5.0.0', 'libspectre', 'luajit2', 'openblas64', 'python3>=3.13', 'qt6-webengine>=6.9.0', 'r']"
+size = "2390092"
+usize = "9410758"
+sha1sum = "9c3db3ae29799cd558a2b01705c07f36694f997c"
+depends = "['analitza>=25.04.1', 'julia>=1.11.3', 'knewstuff>=6.14.0', 'kpty>=6.14.0', 'ktexteditor>=6.14.0', 'libqalculate>=5.0.0', 'libspectre', 'luajit2', 'openblas64', 'python3>=3.13', 'qt6-webengine>=6.9.0', 'r']"
 reverse_depends = "['labplot']"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libssh2-static 1.11.1-2"
-version = "1.11.1-2"
+title = "libssh2-static 1.11.1-3"
+version = "1.11.1-3"
 description = "Static files for libssh2"
-date = "2025-01-02T09:11:55"
+date = "2025-05-21T14:01:39"
 aliases = "/packages/219917"
 categories = ['devel-extra']
 upstreamurl = "http://www.libssh2.org"
 arch = "x86_64"
-size = "1379720"
-usize = "1542574"
-sha1sum = "795992112c50963cc174e0144d67859ebd269d7a"
+size = "1385248"
+usize = "1548118"
+sha1sum = "f8d6000021b59feb2f66df213bb5dab1e3dd4822"
 depends = "[]"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libsepol 3.8.1-1"
-version = "3.8.1-1"
+title = "libsepol 3.8.1-2"
+version = "3.8.1-2"
 description = "SELinux binary policy manipulation library"
-date = "2025-03-06T07:02:28"
+date = "2025-05-21T14:02:43"
 aliases = "/packages/219880"
 categories = ['base']
 upstreamurl = "http://userspace.selinuxproject.org"
 arch = "x86_64"
-size = "4648668"
-usize = "5924043"
-sha1sum = "9f28c96e01cf13a2600c60d0d222c70701c31107"
+size = "4668332"
+usize = "5941107"
+sha1sum = "a7945cf94c446a761d94f34bd10117e89c20281c"
 depends = "['glibc>=2.34']"
 reverse_depends = "['libselinux']"
 +++

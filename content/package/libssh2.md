@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libssh2 1.11.1-2"
-version = "1.11.1-2"
+title = "libssh2 1.11.1-3"
+version = "1.11.1-3"
 description = "libssh2 is a library implementing the SSH2 protocol as defined by Internet Drafts."
-date = "2025-01-02T09:11:55"
+date = "2025-05-21T14:01:39"
 aliases = "/packages/23505"
 categories = ['base']
 upstreamurl = "http://www.libssh2.org"
 arch = "x86_64"
-size = "347376"
-usize = "871560"
-sha1sum = "2df9a18bf02a70ff94f62ec7b1b5b084c6d414e5"
+size = "347920"
+usize = "871568"
+sha1sum = "96cc4da7e45a69711bb01719f8f7f7be300e507e"
 depends = "['openssl>=3.1.0', 'zlib-ng']"
 reverse_depends = "['aria2', 'curl', 'libgit2', 'libvirt', 'mc', 'nmap', 'qemu', 'uwsgi-plugin-airbrake', 'vlc-sftp']"
 +++

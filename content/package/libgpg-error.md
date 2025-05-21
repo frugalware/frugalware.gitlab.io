@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libgpg-error 1.55-1"
-version = "1.55-1"
+title = "libgpg-error 1.55-2"
+version = "1.55-2"
 description = "Support library for libgcrypt"
-date = "2025-04-25T08:32:59"
+date = "2025-05-21T13:56:23"
 aliases = "/packages/3176"
 categories = ['base']
 upstreamurl = "http://www.gnupg.org"
 arch = "x86_64"
-size = "330988"
-usize = "1472426"
-sha1sum = "fcf5d9fb1eab76f4e255edc31c3c43027eca26ea"
+size = "331420"
+usize = "1471945"
+sha1sum = "cb608aeefc44007352a8d6d5f8ad9b793e20268a"
 depends = "['glibc>=2.35']"
 reverse_depends = "['efl', 'enlightenment', 'freeipmi', 'gpg-agent', 'gpgme', 'libassuan', 'libgcrypt', 'libgcrypt15', 'libksba', 'libvlc', 'terminology']"
 +++

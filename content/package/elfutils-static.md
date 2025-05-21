@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "elfutils-static 0.193-1"
-version = "0.193-1"
+title = "elfutils-static 0.193-2"
+version = "0.193-2"
 description = "Static files for elfutils"
-date = "2025-04-26T13:56:11"
+date = "2025-05-21T13:40:51"
 aliases = "/packages/221081"
 categories = ['devel-extra']
 upstreamurl = "https://sourceware.org/elfutils/"
 arch = "x86_64"
-size = "5880264"
-usize = "8085688"
-sha1sum = "cd42d591436313e0eb361ed3a110ecc1545641fe"
+size = "5908108"
+usize = "8102640"
+sha1sum = "a6d593c94857c72497b25bdad5f521ff98f9556f"
 depends = "[]"
 +++
 ### Description: 

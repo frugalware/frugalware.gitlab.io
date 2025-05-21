@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "vcdimager 2.0.1-3"
-version = "2.0.1-3"
+title = "vcdimager 2.0.1-4"
+version = "2.0.1-4"
 description = "GNU VCDImager is a full-featured mastering suite for authoring, disassembling and analyzing Video CD's and Super Video CD's."
-date = "2022-01-26T18:16:08"
+date = "2025-05-21T13:32:28"
 aliases = "/packages/3369"
 categories = ['multimedia']
 upstreamurl = "http://www.gnu.org/software/vcdimager/"
 arch = "x86_64"
-size = "312092"
-usize = "1019506"
-sha1sum = "e291e44ee0e17c8918e5ea66a6553ea71fc7ea48"
-depends = "['libcdio>=0.93-4', 'libxml2>=2.9.4-3', 'popt>=1.16-7']"
+size = "312364"
+usize = "968454"
+sha1sum = "b6e2c0bbd65e5706555629a0ef5ecea88686dee7"
+depends = "['libcdio>=0.93-4', 'libxml2>=2.14.3', 'popt>=1.16-7']"
 reverse_depends = "['kavi2svcd', 'xine-lib']"
 license = "GPL2"
 +++

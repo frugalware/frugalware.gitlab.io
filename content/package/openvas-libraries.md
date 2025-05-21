@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "openvas-libraries 22.21.0-1"
-version = "22.21.0-1"
+title = "openvas-libraries 22.21.0-2"
+version = "22.21.0-2"
 description = "OpenVAS libraries."
-date = "2025-04-24T11:21:03"
+date = "2025-05-21T13:48:37"
 aliases = "/packages/88827"
 categories = ['network-extra']
 upstreamurl = "http://www.openvas.org"
 arch = "x86_64"
-size = "160632"
-usize = "548293"
-sha1sum = "6486f328e3c3f5ec6fae685118d56d3233062242"
-depends = "['cjson', 'gpgme', 'hiredis>=1.3.0', 'json-glib', 'libldap', 'libnet', 'libpcap', 'libxcrypt', 'paho-mqtt-c']"
+size = "161152"
+usize = "547885"
+sha1sum = "8d13665d39131ffb59dd21ac7e1c4afa59ffa6c8"
+depends = "['cjson', 'gpgme', 'hiredis>=1.3.0', 'json-glib', 'libldap', 'libnet', 'libpcap', 'libxcrypt', 'libxml2>=2.14.3', 'paho-mqtt-c']"
 reverse_depends = "['openvas-manager', 'openvas-scanner']"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libgpg-error 1.55-1"
-version = "1.55-1"
+title = "lib32-libgpg-error 1.55-2"
+version = "1.55-2"
 description = "Support library for libgcrypt ( 32bit )"
-date = "2025-04-25T08:32:59"
+date = "2025-05-21T13:56:23"
 aliases = "/packages/217735"
 categories = ['lib32-extra']
 upstreamurl = "http://www.gnupg.org"
 arch = "x86_64"
-size = "120064"
-usize = "437260"
-sha1sum = "174f1addf7490ad8a1eaca83872ef56fc95edcb8"
+size = "120420"
+usize = "436468"
+sha1sum = "a318d820dd0475be07d39d8907815fcc67d5a206"
 depends = "[]"
 reverse_depends = "['lib32-libgcrypt', 'lib32-libgcrypt15', 'lib32-libsystemd']"
 +++

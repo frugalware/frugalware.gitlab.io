@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "efivar 39-1"
-version = "39-1"
+title = "efivar 39-2"
+version = "39-2"
 description = "Library to manipulate EFI variables"
-date = "2024-02-01T08:02:21"
+date = "2025-05-21T13:53:27"
 aliases = "/packages/217579"
 categories = ['base']
 upstreamurl = "https://github.com/rhboot/efivar"
 arch = "x86_64"
-size = "145124"
-usize = "581171"
-sha1sum = "41445c7fb1797bda351d6c4441730cf49576bed8"
+size = "146144"
+usize = "563787"
+sha1sum = "48fea20a79dc073b082dae0441d1147d91f5275e"
 depends = "['popt>=1.16-9']"
 reverse_depends = "['efibootmgr', 'fwupd', 'pesign']"
 +++

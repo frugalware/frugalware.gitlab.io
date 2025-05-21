@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libidn2-static 2.3.8-1"
-version = "2.3.8-1"
+title = "libidn2-static 2.3.8-2"
+version = "2.3.8-2"
 description = "Static files for libidn2"
-date = "2025-03-09T18:37:48"
+date = "2025-05-21T13:59:17"
 aliases = "/packages/219916"
 categories = ['devel-extra']
 upstreamurl = "http://www.gnu.org/software/libidn/"
 arch = "x86_64"
-size = "386024"
-usize = "506814"
-sha1sum = "d1b4263b06ec7ad5677324fede322bc07b2d98dc"
+size = "388376"
+usize = "508598"
+sha1sum = "3d3b4ac875aeef366fc97a576a06a12a1d56fac5"
 depends = "[]"
 +++
 ### Description: 

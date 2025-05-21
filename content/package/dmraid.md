@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "dmraid 1.0.0.rc16_3-9"
-version = "1.0.0.rc16_3-9"
+title = "dmraid 1.0.0.rc16_3-10"
+version = "1.0.0.rc16_3-10"
 description = "Device mapper RAID interface"
-date = "2024-05-15T15:31:02"
+date = "2025-05-21T13:37:56"
 aliases = "/packages/218705"
 categories = ['base']
 upstreamurl = "http://people.redhat.com/~heinzm/sw/dmraid/"
 arch = "x86_64"
-size = "116372"
-usize = "336306"
-sha1sum = "74b072e07c94a2ad198ed6d8b1d42004fac2e58e"
+size = "119692"
+usize = "313986"
+sha1sum = "78ec4dddfc3b96967ef303107dc71ee17f50f670"
 depends = "['libsystemd>=231-22', 'lvm2-libs>=2.02.177-4']"
 reverse_depends = "['dracut', 'libblockdev']"
 license = "GPL"
