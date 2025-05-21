@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libunwind 1.8.1-3"
-version = "1.8.1-3"
+title = "libunwind 1.8.1-4"
+version = "1.8.1-4"
 description = "Portable and efficient C programming interface (API) to determine the call-chain of a program"
-date = "2024-12-20T23:39:42"
+date = "2025-05-21T15:19:29"
 aliases = "/packages/152530"
 categories = ['lib']
 upstreamurl = "http://www.nongnu.org/libunwind"
 arch = "x86_64"
-size = "128840"
-usize = "657060"
-sha1sum = "a4fef15fcb393f8d28cdc0df765fd2af76f551b7"
+size = "73420"
+usize = "244374"
+sha1sum = "5efd33d083bebce8ba5cc85e86bb3d7150292918"
 depends = "['xz>=5.2.2-4']"
 reverse_depends = "['efl', 'enlightenment', 'folly', 'gstreamer1', 'htop', 'intel-gpu-tools', 'julia', 'libcamera', 'mesa-dri-drivers', 'pdal', 'spring', 'sysprof', 'terminology']"
 +++
@@ -41,54 +41,6 @@ Portable and efficient C programming interface (API) to determine the call-chain
 * /usr/lib/libunwind.so
 * /usr/lib/libunwind.so.8
 * /usr/lib/libunwind.so.8.1.0
-* /usr/lib/libunwind/libunwind/check-namespace.sh
-* /usr/lib/libunwind/libunwind/crasher
-* /usr/lib/libunwind/libunwind/forker
-* /usr/lib/libunwind/libunwind/Gperf-simple
-* /usr/lib/libunwind/libunwind/Gperf-trace
-* /usr/lib/libunwind/libunwind/Gtest-bt
-* /usr/lib/libunwind/libunwind/Gtest-concurrent
-* /usr/lib/libunwind/libunwind/Gtest-exc
-* /usr/lib/libunwind/libunwind/Gtest-init
-* /usr/lib/libunwind/libunwind/Gtest-resume-sig
-* /usr/lib/libunwind/libunwind/Gtest-resume-sig-rt
-* /usr/lib/libunwind/libunwind/Gtest-trace
-* /usr/lib/libunwind/libunwind/Gx64-test-dwarf-expressions
-* /usr/lib/libunwind/libunwind/Lperf-simple
-* /usr/lib/libunwind/libunwind/Lperf-trace
-* /usr/lib/libunwind/libunwind/Lrs-race
-* /usr/lib/libunwind/libunwind/Ltest-bt
-* /usr/lib/libunwind/libunwind/Ltest-concurrent
-* /usr/lib/libunwind/libunwind/Ltest-exc
-* /usr/lib/libunwind/libunwind/Ltest-init
-* /usr/lib/libunwind/libunwind/Ltest-init-local-signal
-* /usr/lib/libunwind/libunwind/Ltest-mem-validate
-* /usr/lib/libunwind/libunwind/Ltest-nocalloc
-* /usr/lib/libunwind/libunwind/Ltest-nomalloc
-* /usr/lib/libunwind/libunwind/Ltest-resume-sig
-* /usr/lib/libunwind/libunwind/Ltest-resume-sig-rt
-* /usr/lib/libunwind/libunwind/Ltest-trace
-* /usr/lib/libunwind/libunwind/Ltest-varargs
-* /usr/lib/libunwind/libunwind/Lx64-test-dwarf-expressions
-* /usr/lib/libunwind/libunwind/mapper
-* /usr/lib/libunwind/libunwind/run-coredump-unwind
-* /usr/lib/libunwind/libunwind/run-coredump-unwind-mdi
-* /usr/lib/libunwind/libunwind/run-ptrace-mapper
-* /usr/lib/libunwind/libunwind/run-ptrace-misc
-* /usr/lib/libunwind/libunwind/test-async-sig
-* /usr/lib/libunwind/libunwind/test-coredump-unwind
-* /usr/lib/libunwind/libunwind/test-flush-cache
-* /usr/lib/libunwind/libunwind/test-init-remote
-* /usr/lib/libunwind/libunwind/test-mem
-* /usr/lib/libunwind/libunwind/test-proc-info
-* /usr/lib/libunwind/libunwind/test-ptrace
-* /usr/lib/libunwind/libunwind/test-ptrace-misc
-* /usr/lib/libunwind/libunwind/test-reg-state
-* /usr/lib/libunwind/libunwind/test-runner
-* /usr/lib/libunwind/libunwind/test-setjmp
-* /usr/lib/libunwind/libunwind/test-static-link
-* /usr/lib/libunwind/libunwind/test-strerror
-* /usr/lib/libunwind/libunwind/x64-unwind-badjmp-signal-frame
 * /usr/lib/pkgconfig/libunwind-coredump.pc
 * /usr/lib/pkgconfig/libunwind-generic.pc
 * /usr/lib/pkgconfig/libunwind-ptrace.pc

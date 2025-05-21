@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libjpeg-turbo 3.0.1-2"
-version = "3.0.1-2"
+title = "libjpeg-turbo 3.1.0-1"
+version = "3.1.0-1"
 description = "JPEG image codec that uses SIMD instructions"
-date = "2024-05-10T14:36:43"
+date = "2025-05-21T15:34:03"
 aliases = "/packages/219546"
 categories = ['lib']
 upstreamurl = "https://www.libjpeg-turbo.org/"
 arch = "x86_64"
-size = "3577008"
-usize = "9898118"
-sha1sum = "cb1f999f383621afa096a648500afd888a92f433"
+size = "3669552"
+usize = "10060778"
+sha1sum = "f179a539cc8e7dc7a837a8305248554ca8a6a89e"
 depends = "['glibc>=2.36']"
 reverse_depends = "['argyllcms', 'blender', 'chromium-browser', 'clightd', 'darktable', 'dcraw', 'djvulibre', 'dlib', 'efl', 'emacs', 'enlightenment', 'fontforge', 'fox', 'freeorion', 'gdal', 'gdk-pixbuf2', 'gegl', 'ghostscript', 'gst1-plugins-bad', 'gst1-plugins-good-jpeg', 'gst1-plugins-good-video4linux2', 'hplip-driver', 'imagemagick', 'imlib2', 'insight-toolkit', 'jasper', 'lcms2', 'leptonica', 'libcamera', 'libgdiplus', 'libgphoto2', 'libopenraw', 'libpano13', 'libraw', 'libreoffice', 'libtiff', 'libtiff5', 'libvncserver', 'libwebp', 'libyuv', 'mencoder', 'minidlna', 'mjpegtools', 'mplayer', 'mpv', 'mupdf', 'mupdf-gl', 'neatvnc', 'netpbm', 'openclonk', 'opencv', 'openjre-x', 'openscenegraph', 'php', 'podofo', 'poppler', 'qemu', 'qpdf', 'qt5-base', 'qt5-webengine', 'qt6-base', 'qt6-webengine', 'r', 'sane-backends', 'scummvm', 'sfml', 'silly', 'spice', 'spice-glib', 'stepmania', 'supertuxkart', 'terminology', 'ufoai', 'v4l-utils', 'vigra', 'x11vnc', 'xine-ui', 'xrdp']"
 +++
@@ -40,18 +40,20 @@ JPEG image codec that uses SIMD instructions
 * /usr/lib/libturbojpeg.a
 * /usr/lib/libturbojpeg.so
 * /usr/lib/libturbojpeg.so.0
-* /usr/lib/libturbojpeg.so.0.3.0
+* /usr/lib/libturbojpeg.so.0.4.0
 * /usr/lib/pkgconfig/libjpeg.pc
 * /usr/lib/pkgconfig/libturbojpeg.pc
-* /usr/share/doc/libjpeg-turbo-3.0.1/README.ijg
-* /usr/share/doc/libjpeg-turbo-3.0.1/README.md
+* /usr/share/doc/libjpeg-turbo-3.1.0/README.ijg
+* /usr/share/doc/libjpeg-turbo-3.1.0/README.md
 * /usr/share/doc/libjpeg-turbo/example.c
 * /usr/share/doc/libjpeg-turbo/libjpeg.txt
 * /usr/share/doc/libjpeg-turbo/LICENSE.md
 * /usr/share/doc/libjpeg-turbo/README.ijg
 * /usr/share/doc/libjpeg-turbo/README.md
 * /usr/share/doc/libjpeg-turbo/structure.txt
-* /usr/share/doc/libjpeg-turbo/tjexample.c
+* /usr/share/doc/libjpeg-turbo/tjcomp.c
+* /usr/share/doc/libjpeg-turbo/tjdecomp.c
+* /usr/share/doc/libjpeg-turbo/tjtran.c
 * /usr/share/doc/libjpeg-turbo/usage.txt
 * /usr/share/doc/libjpeg-turbo/wizard.txt
 * /usr/share/man/man1/cjpeg.1.gz

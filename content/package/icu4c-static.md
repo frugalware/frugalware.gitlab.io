@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "icu4c-static 77.1-2"
-version = "77.1-2"
+title = "icu4c-static 77.1-3"
+version = "77.1-3"
 description = "International Components for Unicode library ( static)"
-date = "2025-03-25T10:38:49"
+date = "2025-05-21T15:27:25"
 aliases = "/packages/222696"
 categories = ['devel-extra']
 upstreamurl = "http://site.icu-project.org/"
 arch = "x86_64"
-size = "40314232"
-usize = "76544140"
-sha1sum = "e2355c83e09c919d2181f225209a39b49032492c"
+size = "40099248"
+usize = "76286482"
+sha1sum = "ab73272c638338d8ab01ef6ecbf3d6095ff681e4"
 depends = "['glibc']"
 reverse_depends = "['libxml2-static']"
 +++

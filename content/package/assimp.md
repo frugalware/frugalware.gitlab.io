@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "assimp 5.4.3-2"
-version = "5.4.3-2"
+title = "assimp 5.4.3-3"
+version = "5.4.3-3"
 description = "Library to import various well-known 3D model formats in an uniform manner"
-date = "2025-01-01T15:36:17"
+date = "2025-05-21T15:39:06"
 aliases = "/packages/220780"
 categories = ['lib']
 upstreamurl = "https://github.com/assimp/assimp"
 arch = "x86_64"
-size = "2319976"
-usize = "8716504"
-sha1sum = "09eb01d0ccc3899009ae7bea5a080b4731ca730b"
+size = "2344120"
+usize = "8791560"
+sha1sum = "91ea656134d630b0fd661bd3f43bef6725898ab4"
 depends = "['libstdc++', 'zlib-ng']"
 reverse_depends = "['ogre', 'qt5-3d', 'qt6-3d', 'qt6-quick3d']"
 +++
