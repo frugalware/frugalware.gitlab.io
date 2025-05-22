@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-ta 138.0.1-1"
-version = "138.0.1-1"
+title = "firefox-ta 138.0.4-1"
+version = "138.0.4-1"
 description = "Tamil language support for Firefox"
-date = "2025-05-06T14:21:43"
+date = "2025-05-22T18:56:23"
 aliases = "/packages/73652"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "284108"
-usize = "338599"
-sha1sum = "83b0f1bf28ad7b61d864cc675a5f654c997da3ff"
-depends = "['firefox>=138.0.1']"
+size = "283388"
+usize = "338602"
+sha1sum = "f0bab64a51d177e5354017333253b01f855055b8"
+depends = "['firefox>=138.0.4']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

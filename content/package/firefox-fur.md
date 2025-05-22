@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-fur 138.0.1-1"
-version = "138.0.1-1"
+title = "firefox-fur 138.0.4-1"
+version = "138.0.4-1"
 description = "Friulian language support for Firefox"
-date = "2025-05-06T14:21:43"
+date = "2025-05-22T18:56:23"
 aliases = "/packages/220931"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "398096"
-usize = "451298"
-sha1sum = "e5e3120a9173c4ba4f8121f33f15ce8341485d84"
-depends = "['firefox>=138.0.1']"
+size = "398772"
+usize = "451288"
+sha1sum = "2e06fe73b8d662a8177beaa1df80265a99675e72"
+depends = "['firefox>=138.0.4']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

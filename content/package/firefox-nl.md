@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-nl 138.0.1-1"
-version = "138.0.1-1"
+title = "firefox-nl 138.0.4-1"
+version = "138.0.4-1"
 description = "Dutch language support for Firefox"
-date = "2025-05-06T14:21:43"
+date = "2025-05-22T18:56:23"
 aliases = "/packages/3585"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "383704"
-usize = "435799"
-sha1sum = "87dbef980e3da05e3679f7f6181c6dc4578c90ff"
-depends = "['firefox>=138.0.1']"
+size = "383060"
+usize = "435787"
+sha1sum = "a2eb3e402e44a53490d4649876b4388fb9a53187"
+depends = "['firefox>=138.0.4']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 
