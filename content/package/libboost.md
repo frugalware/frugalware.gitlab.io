@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libboost 1.87.0-4"
-version = "1.87.0-4"
+title = "libboost 1.87.0-5"
+version = "1.87.0-5"
 description = "Boost libraries."
-date = "2025-03-19T09:02:13"
+date = "2025-05-22T08:16:34"
 aliases = "/packages/30758"
 categories = ['lib']
 upstreamurl = "http://boost.org/"
 arch = "x86_64"
-size = "2063504"
-usize = "7784169"
-sha1sum = "f06af98d772394f81ee6d21fa03b5d154ce2cc83"
+size = "2153920"
+usize = "8090633"
+sha1sum = "2d22a4391c6d6917ae3d7767b46fcd8737fbd7f8"
 depends = "['icu4c>=77.1', 'python3>=3.13', 'zstd']"
 reverse_depends = "['alembic', 'blender', 'calamares-frugalware', 'cgal', 'cppgir', 'cryfs', 'eiskaltdc', 'enblend-enfuse', 'encfs', 'facter', 'folly', 'freeorion', 'inkscape', 'innoextract', 'kdiff3', 'kicad', 'kig', 'libabw', 'libappimage', 'libboost-mpi', 'libcmis', 'libe-book', 'libetonyek', 'libftdi', 'liborcus', 'libpst-python', 'libreoffice', 'librevenge', 'libtorrent-rasterbar-python', 'lucene++', 'lyx', 'mkvtoolnix', 'motiontestsuite', 'ncmpc', 'ncmpcpp', 'opencascade', 'opengv', 'openimageio', 'openvdb', 'pdns', 'pdns-recursor', 'performous', 'poedit', 'qbittorrent', 'quassel', 'rocs', 'scummvm-tools', 'source-highlight', 'spring', 'supertux', 'syncthingtray', 'telegram-desktop', 'vtk']"
 +++

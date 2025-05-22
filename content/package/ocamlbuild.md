@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ocamlbuild 0.16.1-1"
-version = "0.16.1-1"
+title = "ocamlbuild 0.16.1-2"
+version = "0.16.1-2"
 description = "Build tool, that has built-in rules for building OCaml library and programs"
-date = "2025-03-12T13:28:04"
+date = "2025-05-22T09:12:03"
 aliases = "/packages/219265"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/ocaml/ocamlbuild"
 arch = "x86_64"
-size = "1203560"
-usize = "9389782"
-sha1sum = "3340b5c91218091683628f7051d1dd4e9a9452ed"
+size = "1212668"
+usize = "9364662"
+sha1sum = "31078c1de21ae8d5575e270c4b778a507a94bec4"
 depends = "['ocaml>=5.3.0']"
 +++
 ### Description: 

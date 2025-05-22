@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "cuda 12.9.0-1"
-version = "12.9.0-1"
+title = "cuda 12.9.0-2"
+version = "12.9.0-2"
 description = "NVIDIA's GPU programming toolkit"
-date = "2025-05-11T13:12:06"
+date = "2025-05-22T08:11:34"
 aliases = "/packages/221200"
 categories = ['lib-extra']
 upstreamurl = "https://developer.nvidia.com/cuda-zone"
 arch = "x86_64"
-size = "1534058456"
-usize = "3656984177"
-sha1sum = "6f6fe7ddd3588a8b16a252602ee3cfc5677fd35d"
-depends = "['gcc-13', 'nvidia', 'python3']"
+size = "1536317300"
+usize = "3654890027"
+sha1sum = "ef747ee05d09a8dd73edf675f3ea2c4c99d6695a"
+depends = "['gcc-14', 'nvidia', 'python3']"
 reverse_depends = "['cuda-tools', 'gst1-plugins-bad-cuda']"
 +++
 ### Description: 
@@ -43,7 +43,6 @@ NVIDIA's GPU programming toolkit
 * /opt/cuda/bin/ptxas
 * /opt/cuda/bin/__nvcc_device_query
 * /opt/cuda/cublas_version.txt
-* /opt/cuda/cuda-uninstaller
 * /opt/cuda/CUDA_Toolkit_Release_Notes.txt
 * /opt/cuda/DOCS
 * /opt/cuda/EULA.txt
@@ -679,7 +678,6 @@ NVIDIA's GPU programming toolkit
 * /opt/cuda/integration/nsight-systems/nsys
 * /opt/cuda/integration/nsight-systems/nsys-ui
 * /opt/cuda/integration/Sanitizer/compute-sanitizer
-* /opt/cuda/ko-uninstaller
 * /opt/cuda/lib64
 * /opt/cuda/LICENSE
 * /opt/cuda/nvml/example/example.c

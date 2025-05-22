@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "pdal 2.8.4-2"
-version = "2.8.4-2"
+title = "pdal 2.8.4-3"
+version = "2.8.4-3"
 description = "A C++ library for translating and manipulating point cloud data"
-date = "2025-05-20T12:36:46"
+date = "2025-05-22T08:52:58"
 aliases = "/packages/220256"
 categories = ['lib-extra']
 upstreamurl = "http://www.pdal.io"
 arch = "x86_64"
-size = "2174420"
-usize = "8292890"
-sha1sum = "c70481ad6409d20384fa09f18ac12ac93acdd0ee"
-depends = "['hexer>=1.4.0-5', 'laszip', 'libgeotiff', 'libunwind', 'libxml2>=2.14.3', 'openscenegraph', 'zstd']"
+size = "2180916"
+usize = "8319910"
+sha1sum = "cbe3687e2f8741841534b0d0292422710a479743"
+depends = "['gdal>=3.11', 'laszip', 'libgeotiff', 'libunwind', 'libxml2>=2.14.3', 'openscenegraph', 'zstd']"
 reverse_depends = "['pdal-postgresql', 'vtk']"
 +++
 ### Description: 
@@ -356,5 +356,6 @@ A C++ library for translating and manipulating point cloud data
 * /usr/lib/libpdal_plugin_kernel_fauxplugin.so.18.1.0
 * /usr/lib/pkgconfig/pdal.pc
 * /usr/share/bash-completion/completions/pdal
+* /usr/share/doc/pdal-2.8.4/COPYING
 * /usr/share/doc/pdal-2.8.4/HOWTORELEASE.md
 * /usr/share/doc/pdal-2.8.4/README.md

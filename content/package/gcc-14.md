@@ -12,6 +12,7 @@ size = "104499640"
 usize = "409984580"
 sha1sum = "be77a5fb4e3bcd448493faf7aa88c5d16fa6076c"
 depends = "['binutils>=2.41', 'glibc>=2.38', 'libisl', 'libmpc>=1.1.0-11', 'zstd']"
+reverse_depends = "['cuda']"
 +++
 ### Description: 
 The GNU Compiler Collection

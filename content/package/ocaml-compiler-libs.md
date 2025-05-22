@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ocaml-compiler-libs 5.3.0-1"
-version = "5.3.0-1"
+title = "ocaml-compiler-libs 5.3.0-2"
+version = "5.3.0-2"
 description = "Several modules used internally by the OCaml compiler"
-date = "2025-03-12T13:22:46"
+date = "2025-05-22T09:01:39"
 aliases = "/packages/220405"
 categories = ['devel-extra']
 upstreamurl = "http://www.ocaml.org"
 arch = "x86_64"
-size = "44276560"
+size = "42673672"
 usize = "77046137"
-sha1sum = "260788ca6fa780e4a302bbef095a0a932d6e25fd"
+sha1sum = "8d8b1cbb639db0cd79ae8c095ac4007c9f18f1ba"
 depends = "['ocaml']"
 reverse_depends = "['ocaml-compiler-libs-repackaged', 'ocaml-graphics', 'opam']"
 +++

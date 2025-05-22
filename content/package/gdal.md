@@ -12,7 +12,7 @@ size = "9724564"
 usize = "33670334"
 sha1sum = "302fd03b960177a380510a34a2d1d1a6e3d1eb56"
 depends = "['expat>=2.1.0-5', 'geos>=3.6.2', 'json-c>=0.14', 'libdeflate', 'libheif', 'libjpeg-turbo', 'libpng>=1.6.20', 'libpq>=11.2-2', 'libxml2>=2.14.3', 'openssl>=3.1.0', 'pcre>=1.6.20', 'proj>=9.4.0', 'sqlite3>=3.10.2', 'unixodbc>=2.3.4-2']"
-reverse_depends = "['hexer', 'opencv', 'scribus']"
+reverse_depends = "['opencv', 'pdal', 'scribus']"
 license = "MIT"
 +++
 ### Description: 

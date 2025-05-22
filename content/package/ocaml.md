@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ocaml 5.3.0-1"
-version = "5.3.0-1"
+title = "ocaml 5.3.0-2"
+version = "5.3.0-2"
 description = "Caml is a general-purpose programming language, designed with program safety and reliability in mind."
-date = "2025-03-12T13:22:46"
+date = "2025-05-22T09:01:39"
 aliases = "/packages/3751"
 categories = ['devel-extra']
 upstreamurl = "http://www.ocaml.org"
 arch = "x86_64"
-size = "35594732"
-usize = "144102928"
-sha1sum = "ab9fd401e52741ec33175bde99616ab8caf957aa"
-depends = "['binutils>=2.38', 'gdbm>=1.11-2', 'libxml2>=2.9.4-2', 'ncurses>=6.0-18']"
+size = "35834656"
+usize = "143975273"
+sha1sum = "b398e043ad67ecdf739506e350011c3fdb0a59d4"
+depends = "['binutils>=2.38', 'gdbm>=1.11-2', 'ncurses>=6.0-18']"
 reverse_depends = "['backoff', 'camlp-streams', 'cppo', 'dune', 'hivex-ocaml', 'llvm-ocaml', 'multicore-magic', 'ocaml-astring', 'ocaml-bigarray-compat', 'ocaml-cmdliner', 'ocaml-compiler-libs', 'ocaml-compiler-libs-repackaged', 'ocaml-containers', 'ocaml-ctypes', 'ocaml-domain-shims', 'ocaml-extlib', 'ocaml-findlib', 'ocaml-graphics', 'ocaml-integers', 'ocaml-luv', 'ocaml-re', 'ocaml-react', 'ocaml-result', 'ocaml-rresult', 'ocaml-seq', 'ocaml-stdlib-shims', 'ocaml-topkg', 'ocamlbuild', 'ocplib-endian', 'opam-file-format', 'oseq', 'ppx_derivers', 'sexplib0', 'thread-table']"
 +++
 ### Description: 

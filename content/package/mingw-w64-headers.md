@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mingw-w64-headers 12.0.0-8"
-version = "12.0.0-8"
+title = "mingw-w64-headers 12.0.0-9"
+version = "12.0.0-9"
 description = "MinGW-w64 headers for Windows"
-date = "2024-12-24T20:46:10"
+date = "2025-05-22T08:55:12"
 aliases = "/packages/222555"
 categories = ['devel-extra']
 upstreamurl = "https://sourceforge.net/projects/mingw-w64"
 arch = "x86_64"
-size = "11938308"
+size = "11378300"
 usize = "147271572"
-sha1sum = "a5029bd1aab94858697595649061f9de16dac31d"
+sha1sum = "df1403e8e924690b3e400276f8e5c97fa09df002"
 depends = "['glibc']"
 reverse_depends = "['mingw-w64-gcc']"
 +++

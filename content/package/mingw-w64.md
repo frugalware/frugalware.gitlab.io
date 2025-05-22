@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mingw-w64 12.0.0-8"
-version = "12.0.0-8"
+title = "mingw-w64 12.0.0-9"
+version = "12.0.0-9"
 description = "MinGW-w64 winpthreads library"
-date = "2024-12-24T20:46:10"
+date = "2025-05-22T08:55:12"
 aliases = "/packages/222553"
 categories = ['devel-extra']
 upstreamurl = "https://sourceforge.net/projects/mingw-w64"
 arch = "x86_64"
-size = "3132"
+size = "3188"
 usize = "4724"
-sha1sum = "2825ab8adeee6164c19648cc1a353367fc0630de"
+sha1sum = "3e68abbbc66b5c533e20402fe0873d2cc3d67e41"
 depends = "['glibc']"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gsoap 2.8.134-1"
-version = "2.8.134-1"
+title = "gsoap 2.8.134-2"
+version = "2.8.134-2"
 description = "A cross-platform development environment for C and C++ SOAP/XML Web services."
-date = "2024-05-15T12:10:51"
+date = "2025-05-22T08:23:07"
 aliases = "/packages/220199"
 categories = ['devel-extra']
 upstreamurl = "https://sourceforge.net/projects/gsoap2"
 arch = "x86_64"
-size = "1231660"
-usize = "6235992"
-sha1sum = "422c3524d3516d7509303a08ab66e47bef781411"
+size = "1254052"
+usize = "6231264"
+sha1sum = "b6c4da04bbee00d7dd0403e771e3e357e4aa88e3"
 depends = "['flex', 'libgcc', 'libstdc++', 'openssl>=3.1.0']"
 +++
 ### Description: 

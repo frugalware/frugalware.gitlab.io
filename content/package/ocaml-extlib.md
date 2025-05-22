@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ocaml-extlib 1.7.9-6"
-version = "1.7.9-6"
+title = "ocaml-extlib 1.8.0-1"
+version = "1.8.0-1"
 description = "OCaml standard library extensions"
-date = "2024-05-12T13:25:08"
+date = "2025-05-22T09:13:18"
 aliases = "/packages/220530"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/ygrek/ocaml-extlib"
 arch = "x86_64"
-size = "1650648"
-usize = "3153198"
-sha1sum = "c37ed7fde25861d63fddb98405b149bc71ceb986"
+size = "1620808"
+usize = "3108961"
+sha1sum = "d59cd9f60a8110d4cbc5ba1883d11749a64a7c3e"
 depends = "['ocaml>=5.1.1']"
 reverse_depends = "['cudf']"
 +++
@@ -131,6 +131,6 @@ OCaml standard library extensions
 * /usr/lib/ocaml/extlib/uTF8.cmti
 * /usr/lib/ocaml/extlib/uTF8.cmx
 * /usr/lib/ocaml/extlib/uTF8.mli
-* /usr/share/doc/ocaml-extlib-1.7.9/CHANGES
-* /usr/share/doc/ocaml-extlib-1.7.9/LICENSE
-* /usr/share/doc/ocaml-extlib-1.7.9/README.md
+* /usr/share/doc/ocaml-extlib-1.8.0/CHANGES
+* /usr/share/doc/ocaml-extlib-1.8.0/LICENSE
+* /usr/share/doc/ocaml-extlib-1.8.0/README.md

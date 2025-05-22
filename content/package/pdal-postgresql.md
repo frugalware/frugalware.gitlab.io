@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pdal-postgresql 2.8.4-2"
-version = "2.8.4-2"
+title = "pdal-postgresql 2.8.4-3"
+version = "2.8.4-3"
 description = "PDAL postgresql plugin"
-date = "2025-05-20T12:36:46"
+date = "2025-05-22T08:52:58"
 aliases = "/packages/220257"
 categories = ['lib-extra']
 upstreamurl = "http://www.pdal.io"
 arch = "x86_64"
-size = "65076"
+size = "65072"
 usize = "222376"
-sha1sum = "d131e2c13f5c830e2d12834e13c0cef4a5f84adb"
+sha1sum = "29a4f3bbb070013839b24f1a590ecf38cabb9432"
 depends = "['libpq', 'libxml2>=2.14.3', 'pdal']"
 +++
 ### Description: 

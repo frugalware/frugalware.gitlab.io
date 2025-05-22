@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gsoap-static 2.8.134-1"
-version = "2.8.134-1"
+title = "gsoap-static 2.8.134-2"
+version = "2.8.134-2"
 description = "Static files for gsoap"
-date = "2024-05-15T12:10:51"
+date = "2025-05-22T08:23:07"
 aliases = "/packages/220200"
 categories = ['devel-extra']
 upstreamurl = "https://sourceforge.net/projects/gsoap2"
 arch = "x86_64"
-size = "4883852"
-usize = "6426072"
-sha1sum = "4290f6d5c72d83c1da2ec12da2cc6cf5c4ad0ad9"
+size = "4861292"
+usize = "6433736"
+sha1sum = "e3b4daddb28e5bd079253090118f694eaff31627"
 depends = "[]"
 +++
 ### Description: 
