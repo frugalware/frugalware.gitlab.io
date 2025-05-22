@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "strongswan 6.0.1-1"
-version = "6.0.1-1"
+title = "strongswan 6.0.1-2"
+version = "6.0.1-2"
 description = "the OpenSource IPsec-based VPN Solution for Linux"
-date = "2025-03-12T13:17:39"
+date = "2025-05-22T07:04:29"
 aliases = "/packages/136023"
 categories = ['network-extra']
 upstreamurl = "http://www.strongswan.org/"
 arch = "x86_64"
-size = "1280068"
-usize = "4351747"
-sha1sum = "9c210a13d7338e0ef1aedb90fb40c0c6701148d9"
-depends = "['curl', 'gmp', 'iproute2', 'json-c>=0.13.1', 'libsoup', 'libsystemd', 'networkmanager', 'openresolv', 'openssl', 'sqlite3']"
+size = "1326568"
+usize = "4485821"
+sha1sum = "aea08fc0218819d25405e8dbbd8478e0f9fa2c9b"
+depends = "['curl', 'gmp', 'iproute2', 'json-c>=0.13.1', 'libsoup', 'libsysprof-capture', 'libsystemd', 'libxml2>=2.14.3', 'networkmanager', 'openresolv', 'openssl', 'sqlite3']"
 +++
 ### Description: 
 the OpenSource IPsec-based VPN Solution for Linux
@@ -216,12 +216,17 @@ the OpenSource IPsec-based VPN Solution for Linux
 * /usr/lib/systemd/strongswan-starter.service
 * /usr/lib/systemd/strongswan.service
 * /usr/share/dbus-1/system.d/nm-strongswan-service.conf
+* /usr/share/doc/strongswan-6.0.1/AUTHORS
 * /usr/share/doc/strongswan-6.0.1/ChangeLog
+* /usr/share/doc/strongswan-6.0.1/CHANGES
 * /usr/share/doc/strongswan-6.0.1/COPYING
 * /usr/share/doc/strongswan-6.0.1/INSTALL
 * /usr/share/doc/strongswan-6.0.1/LICENSE
 * /usr/share/doc/strongswan-6.0.1/NEWS
 * /usr/share/doc/strongswan-6.0.1/README
+* /usr/share/doc/strongswan-6.0.1/README.md
+* /usr/share/doc/strongswan-6.0.1/Readme.md
+* /usr/share/doc/strongswan-6.0.1/RELEASE_NOTES.md
 * /usr/share/doc/strongswan-6.0.1/TODO
 * /usr/share/man/man1/pki---acert.1.gz
 * /usr/share/man/man1/pki---dn.1.gz
