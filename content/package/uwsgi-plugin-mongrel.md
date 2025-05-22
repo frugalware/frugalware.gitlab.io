@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "uwsgi-plugin-mongrel 2.0.29-1"
-version = "2.0.29-1"
+title = "uwsgi-plugin-mongrel 2.0.29-2"
+version = "2.0.29-2"
 description = "UWSGI Mongrel Plugin"
-date = "2025-04-14T09:27:49"
+date = "2025-05-22T07:14:31"
 aliases = "/packages/200423"
 categories = ['network-extra']
 upstreamurl = "http://projects.unbit.it/"
 arch = "x86_64"
-size = "10092"
-usize = "19720"
-sha1sum = "459c2b0024357a4ffde25a2b517bd67ab623e325"
+size = "10132"
+usize = "19688"
+sha1sum = "3ce2cc8baf3dce29fb1103881f47168c474715b2"
 depends = "['uwsgi', 'zeromq']"
 +++
 ### Description: 

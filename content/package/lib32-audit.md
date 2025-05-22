@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-audit 4.0.2-2"
-version = "4.0.2-2"
+title = "lib32-audit 4.0.2-3"
+version = "4.0.2-3"
 description = "Linux Auditing Framework. ( 32bit )"
-date = "2024-12-10T21:27:04"
+date = "2025-05-22T07:30:33"
 aliases = "/packages/222596"
 categories = ['lib32-extra']
 upstreamurl = "http://people.redhat.com/sgrubb/audit"
 arch = "x86_64"
-size = "258612"
-usize = "886410"
-sha1sum = "c206b0cc7d1c916f63abf2a7f220169b5f0072e5"
+size = "257928"
+usize = "886014"
+sha1sum = "3c39ef6e9cd3b6c215efb0f1dbdb8de9a6b66cf1"
 depends = "['lib32-libcap-ng', 'lib32-libldap>=2.6.2']"
 +++
 ### Description: 

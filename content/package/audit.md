@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "audit 4.0.2-2"
-version = "4.0.2-2"
+title = "audit 4.0.2-3"
+version = "4.0.2-3"
 description = "Linux Auditing Framework."
-date = "2024-12-10T21:27:04"
+date = "2025-05-22T07:30:33"
 aliases = "/packages/135783"
 categories = ['apps-extra']
 upstreamurl = "http://people.redhat.com/sgrubb/audit"
 arch = "x86_64"
-size = "293388"
-usize = "788344"
-sha1sum = "3f3c3d0a1b8f24ffd4d26fbc9ed3c4815c1e2dd4"
+size = "293532"
+usize = "788712"
+sha1sum = "1bbecce98dbbc813e4d7c1564d0122024fc2b104"
 depends = "['libaudit>=4.0.2', 'libcap-ng', 'libldap>=2.6.2']"
 reverse_depends = "['usbguard']"
 +++

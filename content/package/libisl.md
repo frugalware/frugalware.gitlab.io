@@ -12,7 +12,7 @@ size = "9857004"
 usize = "17940435"
 sha1sum = "ba8effeca51ad1f836c9168af6cf45b99e746b83"
 depends = "['gmp']"
-reverse_depends = "['gcc', 'gcc-12', 'gcc-13']"
+reverse_depends = "['gcc', 'gcc-12', 'gcc-13', 'gcc-14']"
 +++
 ### Description: 
 Library for manipulating sets and relations of integer points bounded by linear constraints

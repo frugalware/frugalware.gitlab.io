@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "opensp 1.5.2-11"
-version = "1.5.2-11"
+title = "opensp 1.5.2-12"
+version = "1.5.2-12"
 description = "The OpenJade Group's SGML and XML parsing tools"
-date = "2024-05-08T23:09:34"
+date = "2025-05-22T08:04:27"
 aliases = "/packages/3274"
 categories = ['apps']
 upstreamurl = "https://sourceforge.net/projects/openjade"
 arch = "x86_64"
-size = "9285844"
-usize = "16388530"
-sha1sum = "a74f3504ab8b2943421d5a0d2007af77de07bf00"
+size = "9241240"
+usize = "16282239"
+sha1sum = "f906f3c76258e2c09d1205d3900acf5f4b7f6c9f"
 depends = "['libstdc++>=9.1.0-3', 'sgml-common>=0.6.3-5']"
 reverse_depends = "['libofx', 'openjade']"
 +++

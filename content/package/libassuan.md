@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libassuan 3.0.2-1"
-version = "3.0.2-1"
+title = "libassuan 3.0.2-2"
+version = "3.0.2-2"
 description = "Libassuan is the IPC library used by some GnuPG related software."
-date = "2025-02-19T09:28:11"
+date = "2025-05-22T07:25:39"
 aliases = "/packages/3146"
 categories = ['chroot-core']
 upstreamurl = "http://www.gnupg.org/related_software/libassuan/"
 arch = "x86_64"
-size = "133112"
-usize = "325111"
-sha1sum = "4749fe3468952f015cc92c346c5cdc3bd9bb8c8c"
+size = "133448"
+usize = "325127"
+sha1sum = "ebdd6a4f3199418a9ec2858ce93882aa64316118"
 depends = "['libgpg-error>=1.24-2']"
 reverse_depends = "['dirmngr', 'dirmngr-ldap', 'gnupg2', 'gpg-agent', 'gpgme', 'pinentry']"
 license = "LGPLv2.1"

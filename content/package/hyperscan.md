@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "hyperscan 5.4.2-1"
-version = "5.4.2-1"
+title = "hyperscan 5.4.2-2"
+version = "5.4.2-2"
 description = "High-performance regular expression matching library"
-date = "2024-05-13T22:46:55"
+date = "2025-05-22T07:37:46"
 aliases = "/packages/219807"
 categories = ['apps-extra']
 upstreamurl = "https://www.hyperscan.io/"
 arch = "x86_64"
-size = "10414816"
-usize = "72364547"
-sha1sum = "82a239e6672c77ab9760d50d169fd06d11fd5e47"
+size = "10316836"
+usize = "73185893"
+sha1sum = "cab7caf4f7500707e0f6288ac3d7f13090e2a0d4"
 depends = "['libpcap', 'pcre>=8.43', 'sqlite3']"
 reverse_depends = "['redis', 'rspamd']"
 +++

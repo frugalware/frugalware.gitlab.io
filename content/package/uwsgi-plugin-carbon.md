@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "uwsgi-plugin-carbon 2.0.29-1"
-version = "2.0.29-1"
+title = "uwsgi-plugin-carbon 2.0.29-2"
+version = "2.0.29-2"
 description = "UWSGI Carbon Plugin"
-date = "2025-04-14T09:27:49"
+date = "2025-05-22T07:14:31"
 aliases = "/packages/200405"
 categories = ['network-extra']
 upstreamurl = "http://projects.unbit.it/"
 arch = "x86_64"
-size = "8784"
-usize = "15600"
-sha1sum = "e718814de9755ac2738f09b53150de3e2cfe318f"
+size = "8828"
+usize = "15568"
+sha1sum = "8c28238abd4b0f4dfa6fa853f024e631672b8137"
 depends = "['uwsgi']"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "proj 9.6.0-1"
-version = "9.6.0-1"
+title = "proj 9.6.0-2"
+version = "9.6.0-2"
 description = "Cartographic projection software"
-date = "2025-03-18T10:50:12"
+date = "2025-05-22T07:55:44"
 aliases = "/packages/5176"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/OSGeo/proj"
 arch = "x86_64"
-size = "2648384"
-usize = "14779763"
-sha1sum = "5d0b8db30ef2e9be270f45f15674192e144565ca"
+size = "2650060"
+usize = "14814715"
+sha1sum = "03cef338eded92b120b4c32e42d2b343657d0625"
 depends = "['curl', 'libtiff>=4.7.0']"
 reverse_depends = "['gdal', 'libgeotiff']"
 +++

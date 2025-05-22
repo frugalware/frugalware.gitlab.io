@@ -12,7 +12,7 @@ size = "18434516"
 usize = "55395592"
 sha1sum = "1d2baf46a193030fcb8cfc5a0edb2dcd314e5241"
 depends = "['glibc>=2.40', 'libstdc++>=15.1', 'zstd']"
-reverse_depends = "['bpf', 'cairo', 'dracut', 'gcc', 'gcc-12', 'gcc-13', 'gdb', 'ocaml', 'openucx', 'perf']"
+reverse_depends = "['bpf', 'cairo', 'dracut', 'gcc', 'gcc-12', 'gcc-13', 'gcc-14', 'gdb', 'ocaml', 'openucx', 'perf']"
 +++
 ### Description: 
 A set of programs to assemble and manipulate binary and object files

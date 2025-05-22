@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "uwsgi-plugin-xslt 2.0.29-1"
-version = "2.0.29-1"
+title = "uwsgi-plugin-xslt 2.0.29-2"
+version = "2.0.29-2"
 description = "UWSGI XSLT Plugin"
-date = "2025-04-14T09:27:49"
+date = "2025-05-22T07:14:31"
 aliases = "/packages/200419"
 categories = ['network-extra']
 upstreamurl = "http://projects.unbit.it/"
 arch = "x86_64"
-size = "8528"
-usize = "14792"
-sha1sum = "55825e9f550ebc0a019c445dd661f74f3a538f66"
-depends = "['libxml2', 'uwsgi']"
+size = "8628"
+usize = "14984"
+sha1sum = "2a05cf87ea312e44059668188d05e260def8d3fc"
+depends = "['libxml2>=2.14.3', 'uwsgi']"
 +++
 ### Description: 
 UWSGI XSLT Plugin

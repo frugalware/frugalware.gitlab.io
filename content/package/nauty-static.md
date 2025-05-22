@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "nauty-static 2.8.8-1"
-version = "2.8.8-1"
+title = "nauty-static 2.8.9-2"
+version = "2.8.9-2"
 description = "Static files for nauty"
-date = "2024-05-14T08:48:07"
+date = "2025-05-22T07:52:24"
 aliases = "/packages/221468"
 categories = ['devel-extra']
 upstreamurl = "http://pallini.di.uniroma1.it"
 arch = "x86_64"
-size = "4762212"
-usize = "16805458"
-sha1sum = "3709b0c3bc3fef3a541dcafbc0683bae7a78a17d"
+size = "4881820"
+usize = "16993288"
+sha1sum = "c7db973fee2042eeb0e510752cf9bdd4a9edb2d7"
 depends = "['libstdc++>=12.2']"
 +++
 ### Description: 

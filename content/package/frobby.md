@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "frobby 0.9.5-1"
-version = "0.9.5-1"
+title = "frobby 0.9.5-2"
+version = "0.9.5-2"
 description = "A software system for computations with monomial ideals"
-date = "2024-05-12T20:45:26"
+date = "2025-05-22T07:31:58"
 aliases = "/packages/73384"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/Macaulay2/frobby"
 arch = "x86_64"
-size = "10255132"
-usize = "17923276"
-sha1sum = "3e8efdb993da27aebd463f0694fd17e1a7795214"
+size = "10274420"
+usize = "17991046"
+sha1sum = "60a656fa3d44c4579c5958c220268ba29cc216a4"
 depends = "['gmp>=5.0.1']"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "glslang 15.3.0-1"
-version = "15.3.0-1"
+title = "glslang 15.3.0-2"
+version = "15.3.0-2"
 description = "An OpenGL and OpenGL ES shader front end and validator"
-date = "2025-04-25T21:42:14"
+date = "2025-05-22T07:58:03"
 aliases = "/packages/219802"
 categories = ['apps']
 upstreamurl = "https://github.com/KhronosGroup/glslang"
 arch = "x86_64"
-size = "17303732"
-usize = "29900860"
-sha1sum = "b65af8c0b8249050d8ed5db2a3925becad8bb2ac"
+size = "17116452"
+usize = "29535596"
+sha1sum = "2bdb300ab3ecba6b92ff70345fb6211d2a763ada"
 depends = "['spirv-tools']"
 reverse_depends = "['ogre', 'shaderc', 'vkbasalt']"
 +++

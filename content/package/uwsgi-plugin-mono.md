@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "uwsgi-plugin-mono 2.0.29-1"
-version = "2.0.29-1"
+title = "uwsgi-plugin-mono 2.0.29-2"
+version = "2.0.29-2"
 description = "UWSGI Mono/.NET Plugin"
-date = "2025-04-14T09:27:49"
+date = "2025-05-22T07:14:31"
 aliases = "/packages/200415"
 categories = ['network-extra']
 upstreamurl = "http://projects.unbit.it/"
 arch = "x86_64"
-size = "11584"
-usize = "28864"
-sha1sum = "b31662ee848930f4756de56c38f4fa29b23088ab"
+size = "11664"
+usize = "28880"
+sha1sum = "3f1318ae6c5cce9ef35b293cc85669fa0549b8ce"
 depends = "['mono', 'uwsgi']"
 +++
 ### Description: 

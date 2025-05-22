@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "nauty 2.8.9-1"
-version = "2.8.9-1"
+title = "nauty 2.8.9-2"
+version = "2.8.9-2"
 description = "A program for computing automorphism groups of graphs and digraphs"
-date = "2024-08-26T12:44:18"
+date = "2025-05-22T07:52:24"
 aliases = "/packages/221467"
 categories = ['apps-extra']
 upstreamurl = "http://pallini.di.uniroma1.it"
 arch = "x86_64"
-size = "1859140"
-usize = "10702078"
-sha1sum = "e4aded31de6b09a01fbca97b9cf9e99f33bd0ec7"
+size = "1906944"
+usize = "10780637"
+sha1sum = "09aa047eb7e23a2ff1455cf3ce61ca49f1fdb747"
 depends = "['glibc']"
 +++
 ### Description: 
