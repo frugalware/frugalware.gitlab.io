@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "hivex 1.3.24-4"
-version = "1.3.24-4"
+title = "hivex 1.3.24-5"
+version = "1.3.24-5"
 description = "windows registry hive extraction library"
-date = "2025-05-19T13:57:48"
+date = "2025-05-22T09:58:10"
 aliases = "/packages/200051"
 categories = ['apps-extra']
 upstreamurl = "http://libguestfs.org/hivex.3.html"
 arch = "x86_64"
-size = "374172"
-usize = "607740"
-sha1sum = "74ffa15fc83e0b25847b82a33cf9e1d115a6bb1f"
+size = "377424"
+usize = "655128"
+sha1sum = "85bdc36e0113d88c4306e0518b8d0b5117b4a06e"
 depends = "['libxml2', 'readline>=8.0', 'xz']"
 reverse_depends = "['hivex-ocaml', 'hivex-perl', 'hivex-python', 'hivex-ruby']"
 +++
@@ -28,7 +28,12 @@ windows registry hive extraction library
 * /usr/lib/libhivex.so.0
 * /usr/lib/libhivex.so.0.0.0
 * /usr/lib/pkgconfig/hivex.pc
+* /usr/share/doc/hivex-1.3.24/AUTHORS
+* /usr/share/doc/hivex-1.3.24/COPYING
+* /usr/share/doc/hivex-1.3.24/COPYING.LIB
+* /usr/share/doc/hivex-1.3.24/HACKING
 * /usr/share/doc/hivex-1.3.24/LICENSE
+* /usr/share/doc/hivex-1.3.24/README
 * /usr/share/doc/hivex-1.3.24/README.md
 * /usr/share/doc/hivex-1.3.24/TODO
 * /usr/share/locale/ca/LC_MESSAGES/hivex.mo

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-flex 2.6.4-10"
-version = "2.6.4-10"
+title = "lib32-flex 2.6.4-11"
+version = "2.6.4-11"
 description = "A tool for generating text-scanning programs ( 32bit )"
-date = "2024-05-15T17:07:48"
+date = "2025-05-22T09:50:04"
 aliases = "/packages/218861"
 categories = ['lib32-extra']
 upstreamurl = "https://github.com/westes/flex"
 arch = "x86_64"
-size = "108636"
-usize = "387172"
-sha1sum = "fad52366c82d6ab7ba129cfc1134f10db3cd4145"
+size = "117424"
+usize = "391132"
+sha1sum = "982081c1671bf35c53c7742b9e3d5948afbf3c7e"
 depends = "['glibc>=2.34']"
 +++
 ### Description: 

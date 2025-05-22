@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libisl 0.27-1"
-version = "0.27-1"
+title = "libisl 0.27-2"
+version = "0.27-2"
 description = "Library for manipulating sets and relations of integer points bounded by linear constraints"
-date = "2024-09-08T20:55:50"
+date = "2025-05-22T09:52:30"
 aliases = "/packages/220818"
 categories = ['chroot-core']
 upstreamurl = "https://sourceforge.net/projects/libisl"
 arch = "x86_64"
-size = "9857004"
-usize = "17940435"
-sha1sum = "ba8effeca51ad1f836c9168af6cf45b99e746b83"
+size = "9862660"
+usize = "17948588"
+sha1sum = "70e56e78c07ee8e3977c17c82905120a6278669f"
 depends = "['gmp']"
 reverse_depends = "['gcc', 'gcc-14']"
 +++

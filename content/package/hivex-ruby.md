@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "hivex-ruby 1.3.24-4"
-version = "1.3.24-4"
+title = "hivex-ruby 1.3.24-5"
+version = "1.3.24-5"
 description = "Ruby bindings for hivex"
-date = "2025-05-19T13:57:48"
+date = "2025-05-22T09:58:10"
 aliases = "/packages/220833"
 categories = ['devel-extra']
 upstreamurl = "http://libguestfs.org/hivex.3.html"
 arch = "x86_64"
-size = "8688"
-usize = "23461"
-sha1sum = "ef5b034ed5f9bbf491866fbb0297055064e6f310"
+size = "8732"
+usize = "23165"
+sha1sum = "40a53f3c70340a8e2f4ec66ace92cfda1cfac7ed"
 depends = "['hivex', 'ruby>=3.4.1']"
 +++
 ### Description: 

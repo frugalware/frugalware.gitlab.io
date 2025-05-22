@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "wasi-compiler-rt 19.1.7-1"
-version = "19.1.7-1"
+title = "wasi-compiler-rt 19.1.7-2"
+version = "19.1.7-2"
 description = "WASI LLVM compiler runtime"
-date = "2025-01-15T17:15:32"
+date = "2025-05-22T09:44:49"
 aliases = "/packages/220951"
 categories = ['devel-extra']
 upstreamurl = "https://compiler-rt.llvm.org/"
 arch = "x86_64"
-size = "67864"
+size = "68004"
 usize = "259189"
-sha1sum = "069ec476a41f2d960578760785e0a9327aa72704"
+sha1sum = "ec25d6ccb7e8d3b7d687483e75c11f20c9d311e3"
 depends = "['wasi-libc']"
 +++
 ### Description: 

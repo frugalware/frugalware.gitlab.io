@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "subversion-bindings 1.14.5-1"
-version = "1.14.5-1"
+title = "subversion-bindings 1.14.5-2"
+version = "1.14.5-2"
 description = "Python,Perl and Java bindings for subversion"
-date = "2024-12-19T14:18:21"
+date = "2025-05-22T09:19:00"
 aliases = "/packages/14126"
 categories = ['devel-extra']
 upstreamurl = "http://subversion.apache.org/"
 arch = "x86_64"
-size = "4924696"
-usize = "25198630"
-sha1sum = "f5eb757d176979d8a4d832c1a49ff2c2a896da1a"
+size = "4852916"
+usize = "24901096"
+sha1sum = "a871a5a1c893173dd70c00871a61786f65efac02"
 depends = "['openjre', 'perl>=5.22.0', 'python3', 'subversion=1.14.5']"
 +++
 ### Description: 

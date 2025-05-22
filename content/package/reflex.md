@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "reflex 20241231-1"
-version = "20241231-1"
+title = "reflex 20241231-2"
+version = "20241231-2"
 description = "This is a variant of the flex fast lexical scanner."
-date = "2025-02-16T15:05:47"
+date = "2025-05-22T09:15:56"
 aliases = "/packages/184537"
 categories = ['devel-extra']
 upstreamurl = "http://invisible-island.net/reflex"
 arch = "x86_64"
-size = "127816"
-usize = "311641"
-sha1sum = "37662d98a74ae3d30adfc6c457822866fb496098"
+size = "128828"
+usize = "311817"
+sha1sum = "b42b93210480d4f601d4ef83de7b77558338ae72"
 depends = "['glibc>=2.34']"
 +++
 ### Description: 

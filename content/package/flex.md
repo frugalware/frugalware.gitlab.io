@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "flex 2.6.4-10"
-version = "2.6.4-10"
+title = "flex 2.6.4-11"
+version = "2.6.4-11"
 description = "A tool for generating text-scanning programs"
-date = "2024-05-15T17:07:48"
+date = "2025-05-22T09:50:04"
 aliases = "/packages/2375"
 categories = ['devel']
 upstreamurl = "https://github.com/westes/flex"
 arch = "x86_64"
-size = "293508"
-usize = "982381"
-sha1sum = "8e8a4a80f44fc0dbc0ac8439731f2a1419f13199"
+size = "299576"
+usize = "967322"
+sha1sum = "6a27f6de44d594acc56f18027fcf455a44d92d45"
 depends = "['bash>=4.4.12-4', 'glibc>=2.34']"
 reverse_depends = "['bip', 'gsoap', 'libreoffice']"
 +++

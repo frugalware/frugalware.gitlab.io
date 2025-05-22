@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "flex-static 2.6.4-10"
-version = "2.6.4-10"
+title = "flex-static 2.6.4-11"
+version = "2.6.4-11"
 description = "Static files for flex"
-date = "2024-05-15T17:07:48"
+date = "2025-05-22T09:50:04"
 aliases = "/packages/219905"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/westes/flex"
 arch = "x86_64"
-size = "5404"
-usize = "8275"
-sha1sum = "1211d47af6ec1b60c8d816526430120407a68746"
+size = "5464"
+usize = "8347"
+sha1sum = "db57990c78e6473367194b8ada8b743916dc151a"
 depends = "[]"
 +++
 ### Description: 

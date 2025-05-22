@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libguestfs-python3 1.52.2-1"
-version = "1.52.2-1"
+title = "libguestfs-python3 1.52.2-2"
+version = "1.52.2-2"
 description = "libguestfs python3 bindings"
-date = "2024-11-03T14:59:16"
+date = "2025-05-22T10:02:22"
 aliases = "/packages/220873"
 categories = ['devel-extra']
 upstreamurl = "http://libguestfs.org/"
 arch = "x86_64"
-size = "148464"
-usize = "884842"
-sha1sum = "279a3058fce8c4ff820f27d5e688c8a14e3daa9d"
+size = "154344"
+usize = "909146"
+sha1sum = "c3d09fc9a38ae36f39d906cffc1243b81bcdb4e9"
 depends = "['python3']"
 +++
 ### Description: 
