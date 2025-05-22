@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libgbm 25.1.0-6"
-version = "25.1.0-6"
+title = "lib32-libgbm 25.1.1-1"
+version = "25.1.1-1"
 description = "Mesa gbm library. (32-Bit)"
-date = "2025-05-10T10:15:04"
+date = "2025-05-22T13:31:17"
 aliases = "/packages/217960"
 categories = ['lib32-extra']
 upstreamurl = "https://www.mesa3d.org"
 arch = "x86_64"
-size = "36108"
+size = "36168"
 usize = "37274"
-sha1sum = "605e4a7ba4897983f666544d97d43c97b61ef4f7"
+sha1sum = "28926d4d4265eac2caf3b71af1bf8c612fa0d7e4"
 depends = "['lib32-libdrm>=2.4.71', 'lib32-wayland>=1.11.0-3']"
 reverse_depends = "['lib32-libegl', 'lib32-mesa-dri-drivers', 'lib32-mesa-libegl', 'lib32-xorg-server']"
 +++

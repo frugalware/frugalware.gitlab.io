@@ -12,7 +12,7 @@ size = "625136"
 usize = "1879880"
 sha1sum = "8da198a8ce3d8fffcfb8eb81a8dd66763ed18f47"
 depends = "['ffmpeg>=3.3.2', 'freeglut', 'glibc>=2.29-6']"
-reverse_depends = "['alienarena', 'assaultcube', 'blender', 'filter_audio', 'freealut', 'freeorion', 'jazz2', 'lib32-openal', 'libkdegames', 'love', 'luanti', 'megaglest', 'mencoder', 'mplayer', 'mpv', 'naev', 'qt5-multimedia', 'sfml', 'solarus', 'spring', 'supertux', 'supertuxkart', 'telegram-desktop', 'tox-core', 'warzone2100', 'wildmidi', 'wine', 'wine-devel']"
+reverse_depends = "['alienarena', 'assaultcube', 'blender', 'filter_audio', 'freealut', 'freeorion', 'jazz2', 'lib32-openal', 'libkdegames', 'love', 'luanti', 'megaglest', 'mencoder', 'mplayer', 'mpv', 'naev', 'qt5-multimedia', 'sfml', 'solarus', 'spring', 'supertux', 'supertuxkart', 'telegram-desktop', 'tox-core', 'ufoai', 'warzone2100', 'wildmidi', 'wine', 'wine-devel']"
 +++
 ### Description: 
 A cross-platform 3D audio API appropriate for use with gaming applications.
