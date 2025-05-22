@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "minizip-ng 4.0.10-1"
-version = "4.0.10-1"
+title = "minizip-ng 4.0.10-2"
+version = "4.0.10-2"
 description = "Fork of the popular zip manipulation library found in the zlib distribution"
-date = "2025-05-11T13:47:19"
+date = "2025-05-22T20:03:58"
 aliases = "/packages/221240"
-categories = ['lib-extra']
+categories = ['lib']
 upstreamurl = "https://github.com/zlib-ng/minizip-ng"
 arch = "x86_64"
-size = "66708"
-usize = "243796"
-sha1sum = "deee930e576847c6c15f9300d145b16b89b031c2"
+size = "66636"
+usize = "244884"
+sha1sum = "8185e8c15a22ce5366f70752111a4345b51abc10"
 depends = "['bzip2', 'openssl', 'xz', 'zstd']"
 reverse_depends = "['keepassxc', 'opencolorio', 'qt5-webengine']"
 +++
@@ -45,5 +45,7 @@ Fork of the popular zip manipulation library found in the zlib distribution
 * /usr/lib/libminizip.so.1
 * /usr/lib/libminizip.so.4.0.10
 * /usr/lib/pkgconfig/minizip.pc
+* /usr/share/doc/minizip-ng-4.0.10/AUTHORS
 * /usr/share/doc/minizip-ng-4.0.10/LICENSE
 * /usr/share/doc/minizip-ng-4.0.10/README.md
+* /usr/share/doc/minizip-ng-4.0.10/README.txt
