@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "darktable 5.0.1-3"
-version = "5.0.1-3"
+title = "darktable 5.0.1-4"
+version = "5.0.1-4"
 description = "A virtual lighttable and darkroom for photographers (manage RAW images)"
-date = "2025-03-19T13:40:55"
+date = "2025-05-22T12:29:46"
 aliases = "/packages/219328"
 categories = ['gnome-extra']
 upstreamurl = "https://www.darktable.org"
 arch = "x86_64"
-size = "7157052"
-usize = "34495828"
-sha1sum = "9b8ae0f318b63919486c5c4bbaeab9ca52cf7f84"
+size = "6670032"
+usize = "34255697"
+sha1sum = "26db53368a3fffae489233daf0f62eb2472f7e86"
 depends = "['colord-gtk3', 'dcraw', 'exiv2>=0.28.1', 'flickcurl', 'ghostscript', 'gmic>=3.4.2', 'gnuplot', 'graphicsmagick', 'icu4c>=77.1', 'imagemagick>=7.1.1', 'iso-codes', 'jasper', 'json-glib', 'lensfun', 'libavif>=1.0.1', 'libgphoto2', 'libjpeg-turbo', 'libsecret', 'lua', 'openexr>=3.3.0', 'openmp', 'perl-image-exiftool', 'portmidi', 'pugixml']"
 reverse_depends = "['gimp']"
 +++
@@ -18,7 +18,6 @@ reverse_depends = "['gimp']"
 A virtual lighttable and darkroom for photographers (manage RAW images)
 
 ### Files: 
-* /etc/ld.so.conf.d/darktable.conf
 * /usr/bin/darktable
 * /usr/bin/darktable-chart
 * /usr/bin/darktable-cli
@@ -171,6 +170,7 @@ A virtual lighttable and darkroom for photographers (manage RAW images)
 * /usr/lib/darktable/plugins/lighttable/libmodulegroups.so
 * /usr/lib/darktable/plugins/lighttable/libmodule_toolbox.so
 * /usr/lib/darktable/plugins/lighttable/libnavigation.so
+* /usr/lib/darktable/plugins/lighttable/libprint_settings.so
 * /usr/lib/darktable/plugins/lighttable/libratings.so
 * /usr/lib/darktable/plugins/lighttable/librecentcollect.so
 * /usr/lib/darktable/plugins/lighttable/libselect.so
@@ -183,6 +183,7 @@ A virtual lighttable and darkroom for photographers (manage RAW images)
 * /usr/lib/darktable/plugins/lighttable/libview_toolbox.so
 * /usr/lib/darktable/views/libdarkroom.so
 * /usr/lib/darktable/views/liblighttable.so
+* /usr/lib/darktable/views/libprint.so
 * /usr/lib/darktable/views/libslideshow.so
 * /usr/lib/darktable/views/libtethering.so
 * /usr/share/applications/org.darktable.darktable.desktop
