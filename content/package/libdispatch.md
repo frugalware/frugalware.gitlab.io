@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libdispatch 6.1-1"
-version = "6.1-1"
+title = "libdispatch 6.1-2"
+version = "6.1-2"
 description = "Comprehensive support for concurrent code execution on multicore hardware"
-date = "2025-04-01T20:16:58"
+date = "2025-05-23T13:17:11"
 aliases = "/packages/220804"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/swiftlang/swift-corelibs-libdispatch"
 arch = "x86_64"
-size = "747388"
+size = "747336"
 usize = "1236120"
-sha1sum = "4714ca5ccccd816e951f51226f66a7d7830dad43"
+sha1sum = "f3352ab77e3d306a28da60db59dcba51f8001003"
 depends = "['glibc']"
 reverse_depends = "['telegram-desktop']"
 +++

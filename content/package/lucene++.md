@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lucene++ 3.0.9-3"
-version = "3.0.9-3"
+title = "lucene++ 3.0.9-4"
+version = "3.0.9-4"
 description = "An up to date C++ port of the popular Java Lucene library, a high-performance, full-featured text search engine"
-date = "2025-01-22T10:34:39"
+date = "2025-05-23T13:29:07"
 aliases = "/packages/217426"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/luceneplusplus/LucenePlusPlus"
 arch = "x86_64"
-size = "2144008"
-usize = "13314878"
-sha1sum = "9af22c7e8fec3b8011d8e95d9e6dbbed221fc3a7"
+size = "2136320"
+usize = "13495110"
+sha1sum = "111681c15b31aad4a1512c38d0c2c5efa9542c4c"
 depends = "['libboost>=1.87.0']"
 reverse_depends = "['poedit']"
 +++

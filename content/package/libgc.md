@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libgc 8.2.8-1"
-version = "8.2.8-1"
+title = "libgc 8.2.8-2"
+version = "8.2.8-2"
 description = "Boehm conservative garbage collector"
-date = "2025-01-03T16:51:24"
+date = "2025-05-23T13:17:59"
 aliases = "/packages/3163"
 categories = ['lib-extra']
 upstreamurl = "http://www.hboehm.info/gc/"
 arch = "x86_64"
-size = "345020"
-usize = "1305264"
-sha1sum = "589f5b402425fce9863789efa8a187329c12ecb1"
+size = "345080"
+usize = "1304904"
+sha1sum = "348e756ed93bf2fac034dd32e01419e05b7a94db"
 depends = "['libatomic_ops>=7.6.2-2', 'libgcc>=11.2']"
 reverse_depends = "['a2ps', 'guile', 'inkscape', 'neko', 'w3m']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "opengv 20230906-2"
-version = "20230906-2"
+title = "opengv 20230906-3"
+version = "20230906-3"
 description = "An efficient C++ library for calibrated camera pose computation using geometric computer vision algorithms."
-date = "2024-05-08T13:41:37"
+date = "2025-05-23T13:40:32"
 aliases = "/packages/220129"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/laurentkneip/opengv"
 arch = "x86_64"
-size = "30371636"
-usize = "47216774"
-sha1sum = "a2658cf7df42cd436c79cfe076bda50a10a35cd0"
+size = "30236848"
+usize = "46906996"
+sha1sum = "9276ec3e4a61c842185ceceb4727250717cefc0c"
 depends = "['eigen', 'libboost>=1.83']"
 +++
 ### Description: 

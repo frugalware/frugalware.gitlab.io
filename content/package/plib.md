@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "plib 1.8.5-12"
-version = "1.8.5-12"
+title = "plib 1.8.5-13"
+version = "1.8.5-13"
 description = "A Suite of Portable Game Libraries."
-date = "2024-05-08T23:41:32"
+date = "2025-05-23T13:43:08"
 aliases = "/packages/3801"
 categories = ['lib-extra']
 upstreamurl = "http://plib.sourceforge.net/"
 arch = "x86_64"
-size = "6648272"
-usize = "9964602"
-sha1sum = "c2619bbef6012981802e9bc438b27474fc2bbc52"
+size = "6564932"
+usize = "9819474"
+sha1sum = "49680ef85791810e98c9df417ec59b1d8b5c993f"
 depends = "['glibc']"
 reverse_depends = "['flightgear']"
 +++

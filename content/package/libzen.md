@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libzen 0.4.41-1"
-version = "0.4.41-1"
+title = "libzen 0.4.41-2"
+version = "0.4.41-2"
 description = "shared library for libmediainfo and mediainfo"
-date = "2023-07-28T08:29:49"
+date = "2025-05-23T13:21:05"
 aliases = "/packages/136648"
 categories = ['lib-extra']
 upstreamurl = "http://mediaarea.net/fr/MediaInfo"
 arch = "x86_64"
-size = "103932"
-usize = "429175"
-sha1sum = "103268ef943e0b031fb184a437f19facedc561ac"
+size = "111076"
+usize = "443727"
+sha1sum = "492a1ed665ae42c9465fa99a8b66ad3abf85c4a8"
 depends = "['libstdc++>=9.1.0-3']"
 reverse_depends = "['libmediainfo']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libcaption 0.7-1"
-version = "0.7-1"
+title = "libcaption 0.7-2"
+version = "0.7-2"
 description = "Free open-source CEA608 / CEA708 closed-caption encoder/decoder"
-date = "2024-05-28T08:59:08"
+date = "2025-05-23T13:15:40"
 aliases = "/packages/221481"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/szatmary/libcaption"
 arch = "x86_64"
-size = "137116"
-usize = "939507"
-sha1sum = "e119d7499718c52870b8138fc16f6e5f22a11fc6"
+size = "139808"
+usize = "822443"
+sha1sum = "0c898c3092b9c9ffe5f390a05afed61cbe962d5d"
 depends = "['glibc']"
 +++
 ### Description: 

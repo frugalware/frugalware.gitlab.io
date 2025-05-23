@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vc 1.4.5-1"
-version = "1.4.5-1"
+title = "vc 1.4.5-2"
+version = "1.4.5-2"
 description = "C++ types for explicitly data-parallel programming"
-date = "2024-11-14T13:10:19"
+date = "2025-05-23T13:44:44"
 aliases = "/packages/218641"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/VcDevel/Vc"
 arch = "x86_64"
-size = "1526748"
-usize = "3515860"
-sha1sum = "8c13b4a1030a836cd9ca260d4c1682c4cb09729c"
+size = "1503788"
+usize = "3511940"
+sha1sum = "91c7337f98dfd50ea667c4b86ae29961dff603f1"
 depends = "[]"
 +++
 ### Description: 

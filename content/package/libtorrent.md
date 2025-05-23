@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libtorrent 0.13.8-8"
-version = "0.13.8-8"
+title = "libtorrent 0.13.8-9"
+version = "0.13.8-9"
 description = "LibTorrent is a BitTorrent library written in C++ for *nix, with a focus on high performance and good code."
-date = "2024-11-14T10:35:20"
+date = "2025-05-23T13:19:51"
 aliases = "/packages/9978"
 categories = ['lib-extra']
 upstreamurl = "https://rakshasa.github.io/rtorrent/"
 arch = "x86_64"
-size = "374612"
-usize = "1262327"
-sha1sum = "efa32bba126a7059289404f36f2ed92ce2509380"
+size = "375452"
+usize = "1267287"
+sha1sum = "38b82f358d17a6a0ddfc4a37c651db70004b39ca"
 depends = "['libsigc++2', 'openssl>=3.1.0']"
 reverse_depends = "['rtorrent']"
 +++

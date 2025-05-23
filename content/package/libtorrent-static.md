@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libtorrent-static 0.13.8-8"
-version = "0.13.8-8"
+title = "libtorrent-static 0.13.8-9"
+version = "0.13.8-9"
 description = "Static files for libtorrent"
-date = "2024-11-14T10:35:20"
+date = "2025-05-23T13:19:51"
 aliases = "/packages/219968"
 categories = ['devel-extra']
 upstreamurl = "https://rakshasa.github.io/rtorrent/"
 arch = "x86_64"
-size = "26685360"
-usize = "44320762"
-sha1sum = "beda869ce355984eaa5acf5be1207a25c787f279"
+size = "26690680"
+usize = "44212864"
+sha1sum = "36ac1a62da0bff2c9109b638e38a1fd488eb2000"
 depends = "[]"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "utf8proc 2.10.0-1"
-version = "2.10.0-1"
+title = "utf8proc 2.10.0-2"
+version = "2.10.0-2"
 description = "A clean C library for processing UTF-8 Unicode data."
-date = "2025-01-01T02:06:38"
+date = "2025-05-23T13:43:49"
 aliases = "/packages/219627"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/JuliaStrings/utf8proc"
 arch = "x86_64"
-size = "450608"
-usize = "875543"
-sha1sum = "850cbea6735b78d1b2aaaaeb229f83bceeba19d4"
+size = "450868"
+usize = "870919"
+sha1sum = "209993d8c4265eb929a047760c7a559cce957233"
 depends = "['glibc>=2.34']"
 reverse_depends = "['julia', 'julia', 'neovim', 'qtermwidget', 'sdlmame', 'subversion']"
 +++

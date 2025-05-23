@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "msgpack-c 6.1.0-1"
-version = "6.1.0-1"
+title = "msgpack-c 6.1.0-2"
+version = "6.1.0-2"
 description = "An efficient object serialization library"
-date = "2024-08-18T07:45:30"
+date = "2025-05-23T13:33:15"
 aliases = "/packages/220445"
 categories = ['lib-extra']
 upstreamurl = "http://msgpack.org/"
 arch = "x86_64"
-size = "156100"
-usize = "296673"
-sha1sum = "2bb8d6093764b8ac8c15e076d4eedf54efaad380"
+size = "157188"
+usize = "297657"
+sha1sum = "ad7aef7bda67773544477ceb63d8fc0ed3add1ae"
 depends = "['glibc>=2.34']"
 reverse_depends = "['neovim']"
 +++
