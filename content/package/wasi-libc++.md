@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "wasi-libc++ 19.1.7-1"
-version = "19.1.7-1"
+title = "wasi-libc++ 19.1.7-2"
+version = "19.1.7-2"
 description = "WASI LLVM C++ standard library"
-date = "2025-01-17T11:40:47"
+date = "2025-05-23T14:36:11"
 aliases = "/packages/220952"
 categories = ['lib-extra']
 upstreamurl = "https://libcxx.llvm.org/"
 arch = "x86_64"
-size = "1019100"
+size = "1016088"
 usize = "9301464"
-sha1sum = "b3602a1cb709df82353728365977ab1e3ad813df"
+sha1sum = "85f93952754fa7f787555624774d7abec750a322"
 depends = "['glibc']"
 +++
 ### Description: 

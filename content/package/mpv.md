@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "mpv 0.40.0-2"
-version = "0.40.0-2"
+title = "mpv 0.40.0-3"
+version = "0.40.0-3"
 description = "A movie player based on mplayer and mplayer2. It supports a wide variety of video file formats, audio and video codecs, and subtitle types."
-date = "2025-04-20T10:40:24"
+date = "2025-05-23T14:31:05"
 aliases = "/packages/217330"
 categories = ['apps']
 upstreamurl = "http://mpv.io"
 arch = "x86_64"
-size = "1445440"
-usize = "5894887"
-sha1sum = "016eaee8a60e9b3daa569f85932edccd6c567f4f"
-depends = "['aalib', 'cdparanoia', 'dejavu-ttf', 'faad2', 'ffmpeg>=7.0', 'ladspa_sdk', 'libass>=0.13.6', 'libbluray>=1.0.0', 'libcdio-paranoia', 'libdca', 'libdv', 'libdvdnav>=5.0.1', 'libjpeg-turbo', 'liblirc', 'libmad', 'libmng', 'libplacebo>=7.349.0', 'libpulse>=6.0', 'libva>=2.3.0', 'libvdpau', 'libvpx>=1.6.0-1', 'libxinerama', 'libxpresent', 'libxrandr', 'libxscrnsaver', 'libxv', 'libxxf86dga', 'libxxf86vm', 'luajit2', 'mpg123>=1.25.1', 'openal', 'python3', 'samba-client', 'speex']"
+size = "1432828"
+usize = "5910943"
+sha1sum = "94f8713a85323464d108b29d2b90eb3f97e0cb8e"
+depends = "['aalib', 'cdparanoia', 'dejavu-ttf', 'faad2', 'ffmpeg>=7.0', 'ladspa_sdk', 'libass>=0.13.6', 'libbluray>=1.0.0', 'libcdio-paranoia', 'libdca', 'libdv', 'libdvdnav>=5.0.1', 'libjpeg-turbo', 'liblirc', 'libmad', 'libmng', 'libplacebo>=7.351.0', 'libpulse>=6.0', 'libva>=2.3.0', 'libvdpau', 'libvpx>=1.6.0-1', 'libxinerama', 'libxpresent', 'libxrandr', 'libxscrnsaver', 'libxv', 'libxxf86dga', 'libxxf86vm', 'luajit2', 'mpg123>=1.25.1', 'openal', 'python3', 'samba-client', 'speex']"
 reverse_depends = "['celluloid', 'greetd-qt6greet', 'greetd-qtgreet', 'kalarm', 'mpvqt']"
 +++
 ### Description: 

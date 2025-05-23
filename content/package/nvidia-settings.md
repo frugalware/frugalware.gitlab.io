@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "nvidia-settings 575.51.02-1"
-version = "575.51.02-1"
+title = "nvidia-settings 575.51.02-2"
+version = "575.51.02-2"
 description = "nVidia settings configuration tool."
-date = "2025-04-17T18:18:50"
+date = "2025-05-23T14:58:50"
 aliases = "/packages/88474"
 categories = ['x11-extra']
 upstreamurl = "http://download.nvidia.com/XFree86/nvidia-settings/"
 arch = "x86_64"
-size = "247656"
-usize = "670295"
-sha1sum = "e767db258a112f60012fee14defa985cf047c9c2"
+size = "246992"
+usize = "662463"
+sha1sum = "4da10516a5d89c5e754e795507911583a470436d"
 depends = "['libxxf86vm>=1.1.4-2']"
 reverse_depends = "['nvidia']"
 +++

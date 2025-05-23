@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "glm 1.0.1-2"
-version = "1.0.1-2"
+title = "glm 1.0.1-3"
+version = "1.0.1-3"
 description = "OpenGL Mathematics"
-date = "2024-10-30T16:16:01"
+date = "2025-05-23T14:57:56"
 aliases = "/packages/200695"
 categories = ['x11-extra']
 upstreamurl = "https://github.com/g-truc/glm"
 arch = "x86_64"
-size = "853552"
-usize = "4600279"
-sha1sum = "783ea5fa7b0462af910ee070fe29d51a86695ad6"
+size = "852616"
+usize = "4599959"
+sha1sum = "0a0606cf5996c9235045aec636dcaffbf1236227"
 depends = "['glibc>=2.29-6']"
 reverse_depends = "['kicad', 'performous', 'solarus', 'stellarium']"
 +++
