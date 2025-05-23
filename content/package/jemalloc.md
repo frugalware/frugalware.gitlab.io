@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "jemalloc 5.3.0-3"
-version = "5.3.0-3"
+title = "jemalloc 5.3.0-4"
+version = "5.3.0-4"
 description = "General-purpose scalable concurrent malloc(3) implementation"
-date = "2024-05-15T19:29:29"
+date = "2025-05-23T13:12:33"
 aliases = "/packages/218073"
 categories = ['lib-extra']
 upstreamurl = "http://www.canonware.com/jemalloc"
 arch = "x86_64"
-size = "304152"
-usize = "1191547"
-sha1sum = "a5510a5c2649ffced9223bb48170063a0f60045f"
+size = "311564"
+usize = "1197305"
+sha1sum = "5ab8880c6f3d720646a6ffe74317fd7e838d6d95"
 depends = "['glibc>=2.29-6']"
 reverse_depends = "['blender', 'firefox', 'inkscape', 'mariadb', 'openvdb', 'qemu', 'redis', 'telegram-desktop']"
 +++

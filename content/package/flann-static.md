@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "flann-static 1.9.2-2"
-version = "1.9.2-2"
+title = "flann-static 1.9.2-3"
+version = "1.9.2-3"
 description = "Static files for flann"
-date = "2024-05-14T00:08:50"
+date = "2025-05-23T13:03:42"
 aliases = "/packages/221466"
 categories = ['devel-extra']
-upstreamurl = "https://github.com/mariusmuja/flann"
+upstreamurl = "https://github.com/flann-lib/flann"
 arch = "x86_64"
-size = "6720888"
-usize = "27287408"
-sha1sum = "16178aba84d2f24140fbf97d36fd5e8f6c313c49"
+size = "6605748"
+usize = "27081348"
+sha1sum = "8a913827d60742f7ad8da52e8df2a8069b2b6be1"
 depends = "['libstdc++>=12.2']"
 +++
 ### Description: 

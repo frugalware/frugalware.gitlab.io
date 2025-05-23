@@ -12,7 +12,7 @@ size = "1004556"
 usize = "3223375"
 sha1sum = "e8bf3560de9ee1fd081e693416f4b0c989192b53"
 depends = "['coin-or-asl', 'coin-or-coinutils', 'coin-or-osi', 'suitesparse']"
-reverse_depends = "['coin-or-cbc', 'coin-or-cgl', 'coin-or-lemon']"
+reverse_depends = "['coin-or-cbc', 'coin-or-cgl']"
 +++
 ### Description: 
 COIN-OR linear programming solver

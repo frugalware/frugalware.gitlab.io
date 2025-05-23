@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libplacebo 7.349.0-4"
-version = "7.349.0-4"
+title = "libplacebo 7.351.0-1"
+version = "7.351.0-1"
 description = "Reusable library for GPU-accelerated video/image rendering primitives"
-date = "2025-01-14T10:42:41"
+date = "2025-05-23T12:40:14"
 aliases = "/packages/220396"
 categories = ['lib']
 upstreamurl = "https://code.videolan.org/videolan/libplacebo"
 arch = "x86_64"
-size = "498724"
-usize = "1667327"
-sha1sum = "75bebef5227c1f388b43eef6cf204335b1ef8946"
+size = "506088"
+usize = "1692069"
+sha1sum = "ffac55f7451604f14f3245408784c18354c5a2fa"
 depends = "['lcms2', 'libepoxy', 'libglvnd', 'shaderc>=2024.4', 'vulkan-icd-loader']"
 reverse_depends = "['mpv']"
 +++
@@ -53,7 +53,7 @@ Reusable library for GPU-accelerated video/image rendering primitives
 * /usr/include/libplacebo/utils/upload.h
 * /usr/include/libplacebo/vulkan.h
 * /usr/lib/libplacebo.so
-* /usr/lib/libplacebo.so.349
+* /usr/lib/libplacebo.so.351
 * /usr/lib/pkgconfig/libplacebo.pc
-* /usr/share/doc/libplacebo-7.349.0/LICENSE
-* /usr/share/doc/libplacebo-7.349.0/README.md
+* /usr/share/doc/libplacebo-7.351.0/LICENSE
+* /usr/share/doc/libplacebo-7.351.0/README.md

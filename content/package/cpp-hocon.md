@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "cpp-hocon 0.3.0-6"
-version = "0.3.0-6"
+title = "cpp-hocon 0.3.0-7"
+version = "0.3.0-7"
 description = "C++ port of the Typesafe Config library"
-date = "2024-05-13T23:10:48"
+date = "2025-05-23T12:42:24"
 aliases = "/packages/219303"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/puppetlabs/cpp-hocon"
 arch = "x86_64"
-size = "24070096"
-usize = "65164019"
-sha1sum = "4dba59daad959ff5f0883bd5ba582b53c4bce1ee"
+size = "24083064"
+usize = "65182945"
+sha1sum = "26eec0c15ceb69c7b834bceddb37e34be30a15ec"
 depends = "['glibc']"
 +++
 ### Description: 

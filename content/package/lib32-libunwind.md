@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libunwind 1.8.1-4"
-version = "1.8.1-4"
+title = "lib32-libunwind 1.8.2-1"
+version = "1.8.2-1"
 description = "Portable and efficient C programming interface (API) to determine the call-chain of a program ( 32bit )"
-date = "2025-05-21T15:19:29"
+date = "2025-05-23T12:38:30"
 aliases = "/packages/219514"
 categories = ['lib32-extra']
 upstreamurl = "http://www.nongnu.org/libunwind"
 arch = "x86_64"
-size = "59728"
-usize = "201025"
-sha1sum = "61358330b0f1f096a37401e9421ffa0b836546d2"
+size = "60252"
+usize = "201450"
+sha1sum = "8e3481fd34de3d9cba78c06c0495a55bf6608a61"
 depends = "['lib32-xz>=5.2.2-4']"
 reverse_depends = "['lib32-mesa-dri-drivers']"
 +++
@@ -37,10 +37,10 @@ Portable and efficient C programming interface (API) to determine the call-chain
 * /usr/lib32/libunwind-setjmp.so.0.0.0
 * /usr/lib32/libunwind-x86.so
 * /usr/lib32/libunwind-x86.so.8
-* /usr/lib32/libunwind-x86.so.8.1.0
+* /usr/lib32/libunwind-x86.so.8.2.0
 * /usr/lib32/libunwind.so
 * /usr/lib32/libunwind.so.8
-* /usr/lib32/libunwind.so.8.1.0
+* /usr/lib32/libunwind.so.8.2.0
 * /usr/lib32/pkgconfig/libunwind-coredump.pc
 * /usr/lib32/pkgconfig/libunwind-generic.pc
 * /usr/lib32/pkgconfig/libunwind-ptrace.pc

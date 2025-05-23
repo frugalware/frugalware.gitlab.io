@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libb64 1.2.1-10"
-version = "1.2.1-10"
+title = "libb64 1.2.1-11"
+version = "1.2.1-11"
 description = "Base64 Encoding/Decoding Routines"
-date = "2024-05-26T21:51:22"
+date = "2025-05-23T13:13:45"
 aliases = "/packages/219621"
 categories = ['lib-extra']
 upstreamurl = "https://sourceforge.net/projects/libb64"
 arch = "x86_64"
-size = "17888"
-usize = "31071"
-sha1sum = "f4150520776f806365aecbdea4665b9bbc7c2bf6"
+size = "18016"
+usize = "31199"
+sha1sum = "a2f44d76ca3402932c0fdeebe7c347c7fac9623f"
 depends = "['gcc>=13.2']"
 reverse_depends = "['sysdig', 'transmission-cli']"
 +++

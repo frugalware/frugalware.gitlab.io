@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "wireplumber 0.5.8-1"
-version = "0.5.8-1"
+title = "wireplumber 0.5.10-1"
+version = "0.5.10-1"
 description = "Session / policy manager implementation for PipeWire"
-date = "2025-02-08T12:35:40"
+date = "2025-05-23T12:45:01"
 aliases = "/packages/220823"
 categories = ['apps-extra']
 upstreamurl = "https://pipewire.pages.freedesktop.org/wireplumber/"
 arch = "x86_64"
-size = "340680"
-usize = "1440022"
-sha1sum = "a511d1a1b9c94f8604b1a9d49c8243b9d973d9ec"
+size = "349792"
+usize = "1471708"
+sha1sum = "67b61e151f38e111a379f979792a8edb0611cce9"
 depends = "['lua', 'pipewire']"
 reverse_depends = "['gst1-plugins-pipewire', 'pipewire-alsa', 'pipewire-jack', 'pipewire-pulse', 'pipewire-x11']"
 +++
@@ -46,6 +46,7 @@ Session / policy manager implementation for PipeWire
 * /usr/include/wireplumber-0.5/wp/object.h
 * /usr/include/wireplumber-0.5/wp/plugin.h
 * /usr/include/wireplumber-0.5/wp/port.h
+* /usr/include/wireplumber-0.5/wp/proc-utils.h
 * /usr/include/wireplumber-0.5/wp/properties.h
 * /usr/include/wireplumber-0.5/wp/proxy-interfaces.h
 * /usr/include/wireplumber-0.5/wp/proxy.h
@@ -63,7 +64,7 @@ Session / policy manager implementation for PipeWire
 * /usr/include/wireplumber-0.5/wp/wpversion.h
 * /usr/lib/libwireplumber-0.5.so
 * /usr/lib/libwireplumber-0.5.so.0
-* /usr/lib/libwireplumber-0.5.so.0.508.0
+* /usr/lib/libwireplumber-0.5.so.0.510.0
 * /usr/lib/pkgconfig/wireplumber-0.5.pc
 * /usr/lib/systemd/user/wireplumber.service
 * /usr/lib/systemd/user/wireplumber@.service
@@ -81,8 +82,8 @@ Session / policy manager implementation for PipeWire
 * /usr/lib/wireplumber-0.5/libwireplumber-module-si-node.so
 * /usr/lib/wireplumber-0.5/libwireplumber-module-si-standard-link.so
 * /usr/lib/wireplumber-0.5/libwireplumber-module-standard-event-source.so
-* /usr/share/doc/wireplumber-0.5.8/LICENSE
-* /usr/share/doc/wireplumber-0.5.8/README.rst
+* /usr/share/doc/wireplumber-0.5.10/LICENSE
+* /usr/share/doc/wireplumber-0.5.10/README.rst
 * /usr/share/doc/wireplumber/examples/wireplumber.conf.d/access.conf
 * /usr/share/doc/wireplumber/examples/wireplumber.conf.d/alsa.conf
 * /usr/share/doc/wireplumber/examples/wireplumber.conf.d/bluetooth.conf
@@ -114,12 +115,14 @@ Session / policy manager implementation for PipeWire
 * /usr/share/wireplumber/scripts/device/state-profile.lua
 * /usr/share/wireplumber/scripts/device/state-routes.lua
 * /usr/share/wireplumber/scripts/fallback-sink.lua
+* /usr/share/wireplumber/scripts/lib/audio-group-utils.lua
 * /usr/share/wireplumber/scripts/lib/common-utils.lua
 * /usr/share/wireplumber/scripts/lib/device-info-cache.lua
 * /usr/share/wireplumber/scripts/lib/filter-utils.lua
 * /usr/share/wireplumber/scripts/lib/linking-utils.lua
 * /usr/share/wireplumber/scripts/lib/monitor-utils.lua
 * /usr/share/wireplumber/scripts/lib/node-utils.lua
+* /usr/share/wireplumber/scripts/linking/find-audio-group-target.lua
 * /usr/share/wireplumber/scripts/linking/find-best-target.lua
 * /usr/share/wireplumber/scripts/linking/find-default-target.lua
 * /usr/share/wireplumber/scripts/linking/find-defined-target.lua
@@ -146,6 +149,7 @@ Session / policy manager implementation for PipeWire
 * /usr/share/wireplumber/scripts/monitors/v4l2/enumerate-device.lua
 * /usr/share/wireplumber/scripts/monitors/v4l2/name-device.lua
 * /usr/share/wireplumber/scripts/monitors/v4l2/name-node.lua
+* /usr/share/wireplumber/scripts/node/audio-group.lua
 * /usr/share/wireplumber/scripts/node/create-item.lua
 * /usr/share/wireplumber/scripts/node/filter-forward-format.lua
 * /usr/share/wireplumber/scripts/node/software-dsp.lua

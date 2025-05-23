@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gflags 2.2.2-1"
-version = "2.2.2-1"
+title = "gflags 2.2.2-2"
+version = "2.2.2-2"
 description = "C++ Library for commandline flag processing"
-date = "2025-02-20T16:39:05"
+date = "2025-05-23T13:09:33"
 aliases = "/packages/222637"
 categories = ['lib-extra']
-upstreamurl = "https://github.com/schuhschuh/gflags"
+upstreamurl = "https://github.com/gflags/gflags"
 arch = "x86_64"
-size = "844064"
-usize = "1892047"
-sha1sum = "11639b55524da4708e942e09506359efaca148ec"
+size = "856652"
+usize = "1921599"
+sha1sum = "9b531e8f54be218780752a5a3083797e9951ee64"
 depends = "['libstdc++']"
 reverse_depends = "['google-glog']"
 +++

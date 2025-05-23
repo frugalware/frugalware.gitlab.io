@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "jbigkit 2.1-9"
-version = "2.1-9"
+title = "jbigkit 2.1-10"
+version = "2.1-10"
 description = "JBIG-KIT implements a highly effective data compression algorithm for bi-level high-resolution images such as fax pages or scanned documents."
-date = "2024-05-12T14:13:38"
+date = "2025-05-23T13:11:06"
 aliases = "/packages/30689"
 categories = ['lib-extra']
 upstreamurl = "http://www.cl.cam.ac.uk/~mgk25/jbigkit/"
 arch = "x86_64"
-size = "184220"
-usize = "291652"
-sha1sum = "b1e36aecfba38c335e604521564f93c827160462"
+size = "186144"
+usize = "282996"
+sha1sum = "5609774583d9cbc65c6beb07efa56fd3fd5103de"
 depends = "['glibc>=2.3.4']"
 +++
 ### Description: 

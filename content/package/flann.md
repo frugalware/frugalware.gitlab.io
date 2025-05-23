@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "flann 1.9.2-2"
-version = "1.9.2-2"
+title = "flann 1.9.2-3"
+version = "1.9.2-3"
 description = "Library for performing fast approximate nearest neighbor searches in high dimensional spaces"
-date = "2024-05-14T00:08:50"
+date = "2025-05-23T13:03:42"
 aliases = "/packages/220128"
 categories = ['lib-extra']
-upstreamurl = "https://github.com/mariusmuja/flann"
+upstreamurl = "https://github.com/flann-lib/flann"
 arch = "x86_64"
-size = "818808"
-usize = "5303810"
-sha1sum = "0f40d96058f4edc5c7a62d0d51d9b86acbf3ec2d"
-depends = "['hdf5', 'libgomp', 'octave']"
+size = "899740"
+usize = "5569039"
+sha1sum = "9a380eec6d502191ee2f0fe9b27c0a3c769009f4"
+depends = "['hdf5', 'libgomp', 'lz4', 'octave']"
 +++
 ### Description: 
 Library for performing fast approximate nearest neighbor searches in high dimensional spaces
@@ -76,8 +76,6 @@ Library for performing fast approximate nearest neighbor searches in high dimens
 * /usr/lib/pkgconfig/flann.pc
 * /usr/share/doc/flann-1.9.2/ChangeLog
 * /usr/share/doc/flann-1.9.2/COPYING
-* /usr/share/doc/flann-1.9.2/COPYING.md
-* /usr/share/doc/flann-1.9.2/INSTALL.md
 * /usr/share/doc/flann-1.9.2/README.md
 * /usr/share/flann/python/pyflann/exceptions.py
 * /usr/share/flann/python/pyflann/flann_ctypes.py

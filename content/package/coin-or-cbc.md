@@ -12,7 +12,6 @@ size = "871276"
 usize = "3095123"
 sha1sum = "2b1cf0a3720da50a387a0e8f4c2fe7f6c11792d3"
 depends = "['coin-or-asl', 'coin-or-cgl', 'coin-or-clp', 'coin-or-coinutils', 'coin-or-osi']"
-reverse_depends = "['coin-or-lemon']"
 +++
 ### Description: 
 COIN-OR branch-and-cut mixed integer programming solver

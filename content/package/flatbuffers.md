@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "flatbuffers 25.2.10-1"
-version = "25.2.10-1"
+title = "flatbuffers 25.2.10-2"
+version = "25.2.10-2"
 description = "Memory Efficient Serialization Library."
-date = "2025-02-16T14:17:06"
+date = "2025-05-23T13:05:59"
 aliases = "/packages/219070"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/google/flatbuffers"
 arch = "x86_64"
-size = "3701796"
-usize = "8329326"
-sha1sum = "e773a8ff5280a8c3b15d146a9be160e4121d2a99"
+size = "3736384"
+usize = "8462966"
+sha1sum = "cac49d5ecdab516d8154cb591d23049b2a87827e"
 depends = "['glibc>=2.34', 'libgcc>=11.2', 'libstdc++>=11.2']"
 +++
 ### Description: 

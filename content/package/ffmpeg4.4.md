@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ffmpeg4.4 4.4.5-6"
-version = "4.4.5-6"
+title = "ffmpeg4.4 4.4.6-1"
+version = "4.4.6-1"
 description = "FFMpeg compatibility version"
-date = "2025-04-10T07:56:16"
+date = "2025-05-23T12:27:47"
 aliases = "/packages/221503"
 categories = ['xmultimedia-extra']
 upstreamurl = "https://www.ffmpeg.org"
 arch = "x86_64"
-size = "8393632"
-usize = "25414267"
-sha1sum = "747fa3edc5469fe07420dd2570b6adf9bd34f606"
-depends = "['a52dec>=0.7.4-6', 'alsa-lib>=1.1.2-2', 'dav1d>=0.8.0', 'faac>=1.28-5', 'faad2>=2.7-5', 'gnutls', 'gsm>=1.0.18-2', 'imlib2>=1.4.7-3', 'lame>=3.99.5-5', 'libass>=0.13.6', 'libbluray>=1.1.1-2', 'libcaca>=0.99.beta19-5', 'libdc1394>=2.2.7', 'libidn2', 'libpulse>=12.2-8', 'libstdc++>=9.1.0-3', 'libtheora>=1.2.0', 'libva>=2.3', 'libvdpau>=1.1.1-2', 'libvorbis>=1.3.5-5', 'libvpx>=1.15.1', 'libxcb>=1.11.1-3', 'libxfixes>=5.0.1-2', 'opencore-amr>=0.1.3-2', 'openjpeg>=2.2.0', 'rav1e', 'rtmpdump>=2.4-9', 'speex>=1.2rc2-4', 'svt-av1>=3.0.0', 'v4l-utils>=1.8.1-3', 'x264>==20230712.ga8b68eb', 'x265>=4.1', 'xvidcore>=1.3.4-3']"
+size = "8368356"
+usize = "25332263"
+sha1sum = "c396f2e6f81c71e356e4edd11ad547a220098ac3"
+depends = "['a52dec>=0.7.4-6', 'alsa-lib>=1.1.2-2', 'dav1d>=0.8.0', 'faac>=1.28-5', 'faad2>=2.7-5', 'gnutls', 'gsm>=1.0.18-2', 'imlib2>=1.4.7-3', 'lame>=3.99.5-5', 'libass>=0.13.6', 'libbluray>=1.1.1-2', 'libcaca>=0.99.beta19-5', 'libdc1394>=2.2.7', 'libidn2', 'libpulse>=12.2-8', 'libstdc++>=9.1.0-3', 'libtheora>=1.2.0', 'libva>=2.3', 'libvdpau>=1.1.1-2', 'libvorbis>=1.3.5-5', 'libvpx>=1.15.1', 'libxcb>=1.11.1-3', 'libxfixes>=5.0.1-2', 'opencore-amr>=0.1.3-2', 'openjpeg>=2.2.0', 'rav1e', 'rtmpdump>=2.4-9', 'speex>=1.2rc2-4', 'svt-av1>=3.0.0', 'x264>==20230712.ga8b68eb', 'x265>=4.1', 'xvidcore>=1.3.4-3']"
 reverse_depends = "['openjfx', 'vlc-ffmpeg']"
 +++
 ### Description: 
@@ -176,14 +176,14 @@ FFMpeg compatibility version
 * /usr/lib/libswresample.so.3.9.100
 * /usr/lib/libswscale.so.5
 * /usr/lib/libswscale.so.5.9.100
-* /usr/share/doc/ffmpeg4.4-4.4.5/Changelog
-* /usr/share/doc/ffmpeg4.4-4.4.5/COPYING.GPLv2
-* /usr/share/doc/ffmpeg4.4-4.4.5/COPYING.GPLv3
-* /usr/share/doc/ffmpeg4.4-4.4.5/COPYING.LGPLv2.1
-* /usr/share/doc/ffmpeg4.4-4.4.5/COPYING.LGPLv3
-* /usr/share/doc/ffmpeg4.4-4.4.5/CREDITS
-* /usr/share/doc/ffmpeg4.4-4.4.5/INSTALL.md
-* /usr/share/doc/ffmpeg4.4-4.4.5/README.md
-* /usr/share/doc/ffmpeg4.4-4.4.5/RELEASE
-* /usr/share/doc/ffmpeg4.4-4.4.5/RELEASE_NOTES
-* /usr/share/doc/ffmpeg4.4-4.4.5/VERSION
+* /usr/share/doc/ffmpeg4.4-4.4.6/Changelog
+* /usr/share/doc/ffmpeg4.4-4.4.6/COPYING.GPLv2
+* /usr/share/doc/ffmpeg4.4-4.4.6/COPYING.GPLv3
+* /usr/share/doc/ffmpeg4.4-4.4.6/COPYING.LGPLv2.1
+* /usr/share/doc/ffmpeg4.4-4.4.6/COPYING.LGPLv3
+* /usr/share/doc/ffmpeg4.4-4.4.6/CREDITS
+* /usr/share/doc/ffmpeg4.4-4.4.6/INSTALL.md
+* /usr/share/doc/ffmpeg4.4-4.4.6/README.md
+* /usr/share/doc/ffmpeg4.4-4.4.6/RELEASE
+* /usr/share/doc/ffmpeg4.4-4.4.6/RELEASE_NOTES
+* /usr/share/doc/ffmpeg4.4-4.4.6/VERSION
