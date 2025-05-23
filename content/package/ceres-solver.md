@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ceres-solver 2.2.0-3"
-version = "2.2.0-3"
+title = "ceres-solver 2.2.0-4"
+version = "2.2.0-4"
 description = "Solver for nonlinear least squares problems"
-date = "2024-02-19T17:39:45"
+date = "2025-05-23T10:23:33"
 aliases = "/packages/220121"
 categories = ['lib-extra']
 upstreamurl = "http://ceres-solver.org"
 arch = "x86_64"
-size = "990656"
-usize = "4428731"
-sha1sum = "2e6986905dcd18622f152e27c646cdc99dafaeb6"
+size = "1024436"
+usize = "4544614"
+sha1sum = "8ed6909a07bf2c3c6fa9e8effef7232d28fc680d"
 depends = "['eigen>=3.4.0', 'google-glog>=0.7.0', 'libgomp', 'suitesparse>=7.3.1']"
 +++
 ### Description: 

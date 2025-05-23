@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "thunderbird-dsb 128.10.0-1"
-version = "128.10.0-1"
+title = "thunderbird-dsb 128.10.2-1"
+version = "128.10.2-1"
 description = "Lower Sorbian language support for Thunderbird"
-date = "2025-04-30T08:59:02"
+date = "2025-05-23T10:20:12"
 aliases = "/packages/217443"
 categories = ['locale-extra']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "725256"
-usize = "787498"
-sha1sum = "5f159c7c6ff3142ad39321e4feeaf8436a521136"
-depends = "['thunderbird>=128.10.0']"
+size = "725344"
+usize = "787499"
+sha1sum = "9c3fe12875a888b93232bc957c13c508d9eb397b"
+depends = "['thunderbird>=128.10.2']"
 reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 
