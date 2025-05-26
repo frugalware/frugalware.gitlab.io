@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-cs 25.2.3.2-3"
-version = "25.2.3.2-3"
+title = "libreoffice-l10n-cs 25.2.3.2-4"
+version = "25.2.3.2-4"
 description = "Installs Czech support in LibreOffice"
-date = "2025-05-26T09:05:37"
+date = "2025-05-26T15:32:55"
 aliases = "/packages/104044"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "5083592"
+size = "5084144"
 usize = "36267816"
-sha1sum = "2c49e384eea7526114eb4af77e146a94ad302c40"
+sha1sum = "0535cec14c6ba4a1fb9fe1c1162d23fbf169bc9e"
 depends = "['libreoffice>=25.2.3.2']"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-da 25.2.3.2-3"
-version = "25.2.3.2-3"
+title = "libreoffice-l10n-da 25.2.3.2-4"
+version = "25.2.3.2-4"
 description = "Installs Danish support in LibreOffice"
-date = "2025-05-26T09:05:37"
+date = "2025-05-26T15:32:55"
 aliases = "/packages/104046"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "5091540"
+size = "5090864"
 usize = "36316053"
-sha1sum = "40b98ca56b9f495768b6dcbe70531dcb727ca2ae"
+sha1sum = "3bdf8e1ac57a40dd10ead5aa3de732ddb29ed04f"
 depends = "['libreoffice>=25.2.3.2']"
 +++
 ### Description: 

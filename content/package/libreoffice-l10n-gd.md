@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-gd 25.2.3.2-3"
-version = "25.2.3.2-3"
+title = "libreoffice-l10n-gd 25.2.3.2-4"
+version = "25.2.3.2-4"
 description = "Installs Scottish Gaelic support in LibreOffice"
-date = "2025-05-26T09:05:37"
+date = "2025-05-26T15:32:55"
 aliases = "/packages/136619"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "523128"
+size = "523244"
 usize = "2780523"
-sha1sum = "1173efd0426b6f0135643f493693ee7bb7422aaf"
+sha1sum = "4c915b57950ede9240edef291f9fea94915a5d7d"
 depends = "['libreoffice>=25.2.3.2']"
 +++
 ### Description: 

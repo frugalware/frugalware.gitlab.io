@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "r 4.4.3-2"
-version = "4.4.3-2"
+title = "r 4.5.0-1"
+version = "4.5.0-1"
 description = "R is a language and environment for statistical computing and graphics."
-date = "2025-03-19T11:07:29"
+date = "2025-05-26T15:59:54"
 aliases = "/packages/73359"
 categories = ['xapps-extra']
 upstreamurl = "http://www.r-project.org"
 arch = "x86_64"
-size = "49386820"
-usize = "77788325"
-sha1sum = "e787647f4face29bbad07a084d8fcb04309a2c38"
+size = "49820672"
+usize = "78481953"
+sha1sum = "8870e1849d86e9f802af2e41e78529c3caf1e671"
 depends = "['curl', 'icu4c>=77.1', 'libjpeg-turbo', 'libtiff>=4.7.0', 'libxt>=1.1.5-2', 'openblas', 'pango>=1.38.1-2', 'readline>=8.0']"
 reverse_depends = "['cantor', 'rkward']"
 +++
@@ -139,6 +139,7 @@ R is a language and environment for statistical computing and graphics.
 * /usr/lib/R/doc/html/right.jpg
 * /usr/lib/R/doc/html/Rlogo.pdf
 * /usr/lib/R/doc/html/Rlogo.svg
+* /usr/lib/R/doc/html/ror.svg
 * /usr/lib/R/doc/html/Search.html
 * /usr/lib/R/doc/html/SearchOn.html
 * /usr/lib/R/doc/html/up.jpg
@@ -1170,6 +1171,7 @@ R is a language and environment for statistical computing and graphics.
 * /usr/lib/R/library/stats/demo/nlm.R
 * /usr/lib/R/library/stats/demo/smooth.R
 * /usr/lib/R/library/stats/DESCRIPTION
+* /usr/lib/R/library/stats/doc/reshape.pdf
 * /usr/lib/R/library/stats/help/aliases.rds
 * /usr/lib/R/library/stats/help/AnIndex
 * /usr/lib/R/library/stats/help/paths.rds
@@ -1339,6 +1341,7 @@ R is a language and environment for statistical computing and graphics.
 * /usr/lib/R/library/tools/R/tools
 * /usr/lib/R/library/tools/R/tools.rdb
 * /usr/lib/R/library/tools/R/tools.rdx
+* /usr/lib/R/library/tools/wre.txt
 * /usr/lib/R/library/translations/ar/LC_MESSAGES/graphics.mo
 * /usr/lib/R/library/translations/ar/LC_MESSAGES/grDevices.mo
 * /usr/lib/R/library/translations/ar/LC_MESSAGES/methods.mo
@@ -1489,19 +1492,25 @@ R is a language and environment for statistical computing and graphics.
 * /usr/lib/R/library/translations/en_GB/LC_MESSAGES/utils.mo
 * /usr/lib/R/library/translations/es/LC_MESSAGES/graphics.mo
 * /usr/lib/R/library/translations/es/LC_MESSAGES/grDevices.mo
+* /usr/lib/R/library/translations/es/LC_MESSAGES/grid.mo
+* /usr/lib/R/library/translations/es/LC_MESSAGES/methods.mo
 * /usr/lib/R/library/translations/es/LC_MESSAGES/parallel.mo
 * /usr/lib/R/library/translations/es/LC_MESSAGES/R-base.mo
+* /usr/lib/R/library/translations/es/LC_MESSAGES/R-compiler.mo
 * /usr/lib/R/library/translations/es/LC_MESSAGES/R-graphics.mo
 * /usr/lib/R/library/translations/es/LC_MESSAGES/R-grDevices.mo
 * /usr/lib/R/library/translations/es/LC_MESSAGES/R-grid.mo
 * /usr/lib/R/library/translations/es/LC_MESSAGES/R-methods.mo
 * /usr/lib/R/library/translations/es/LC_MESSAGES/R-parallel.mo
+* /usr/lib/R/library/translations/es/LC_MESSAGES/R-splines.mo
 * /usr/lib/R/library/translations/es/LC_MESSAGES/R-stats.mo
 * /usr/lib/R/library/translations/es/LC_MESSAGES/R-stats4.mo
+* /usr/lib/R/library/translations/es/LC_MESSAGES/R-tcltk.mo
 * /usr/lib/R/library/translations/es/LC_MESSAGES/R-tools.mo
 * /usr/lib/R/library/translations/es/LC_MESSAGES/R-utils.mo
 * /usr/lib/R/library/translations/es/LC_MESSAGES/R.mo
 * /usr/lib/R/library/translations/es/LC_MESSAGES/RGui.mo
+* /usr/lib/R/library/translations/es/LC_MESSAGES/splines.mo
 * /usr/lib/R/library/translations/es/LC_MESSAGES/stats.mo
 * /usr/lib/R/library/translations/es/LC_MESSAGES/tcltk.mo
 * /usr/lib/R/library/translations/es/LC_MESSAGES/tools.mo
@@ -1555,15 +1564,19 @@ R is a language and environment for statistical computing and graphics.
 * /usr/lib/R/library/translations/hu/LC_MESSAGES/grid.mo
 * /usr/lib/R/library/translations/hu/LC_MESSAGES/parallel.mo
 * /usr/lib/R/library/translations/hu/LC_MESSAGES/R-base.mo
+* /usr/lib/R/library/translations/hu/LC_MESSAGES/R-compiler.mo
 * /usr/lib/R/library/translations/hu/LC_MESSAGES/R-graphics.mo
+* /usr/lib/R/library/translations/hu/LC_MESSAGES/R-methods.mo
 * /usr/lib/R/library/translations/hu/LC_MESSAGES/R-parallel.mo
 * /usr/lib/R/library/translations/hu/LC_MESSAGES/R-splines.mo
 * /usr/lib/R/library/translations/hu/LC_MESSAGES/R-stats.mo
+* /usr/lib/R/library/translations/hu/LC_MESSAGES/R-stats4.mo
 * /usr/lib/R/library/translations/hu/LC_MESSAGES/R-tcltk.mo
 * /usr/lib/R/library/translations/hu/LC_MESSAGES/R-tools.mo
 * /usr/lib/R/library/translations/hu/LC_MESSAGES/R-utils.mo
 * /usr/lib/R/library/translations/hu/LC_MESSAGES/R.mo
 * /usr/lib/R/library/translations/hu/LC_MESSAGES/RGui.mo
+* /usr/lib/R/library/translations/hu/LC_MESSAGES/splines.mo
 * /usr/lib/R/library/translations/hu/LC_MESSAGES/stats.mo
 * /usr/lib/R/library/translations/hu/LC_MESSAGES/tcltk.mo
 * /usr/lib/R/library/translations/hu/LC_MESSAGES/tools.mo
@@ -1668,7 +1681,12 @@ R is a language and environment for statistical computing and graphics.
 * /usr/lib/R/library/translations/lt/LC_MESSAGES/tcltk.mo
 * /usr/lib/R/library/translations/lt/LC_MESSAGES/tools.mo
 * /usr/lib/R/library/translations/lt/LC_MESSAGES/utils.mo
+* /usr/lib/R/library/translations/ne/LC_MESSAGES/R-base.mo
 * /usr/lib/R/library/translations/ne/LC_MESSAGES/R-compiler.mo
+* /usr/lib/R/library/translations/ne/LC_MESSAGES/R-parallel.mo
+* /usr/lib/R/library/translations/ne/LC_MESSAGES/R-tcltk.mo
+* /usr/lib/R/library/translations/ne/LC_MESSAGES/R-tools.mo
+* /usr/lib/R/library/translations/ne/LC_MESSAGES/R-utils.mo
 * /usr/lib/R/library/translations/ne/LC_MESSAGES/R.mo
 * /usr/lib/R/library/translations/ne/LC_MESSAGES/RGui.mo
 * /usr/lib/R/library/translations/nn/LC_MESSAGES/graphics.mo
@@ -1884,10 +1902,10 @@ R is a language and environment for statistical computing and graphics.
 * /usr/lib/R/share/texmf/tex/latex/Rd.sty
 * /usr/lib/R/share/texmf/tex/latex/Sweave.sty
 * /usr/lib/R/SVN-REVISION
-* /usr/share/doc/r-4.4.3/ChangeLog
-* /usr/share/doc/r-4.4.3/COPYING
-* /usr/share/doc/r-4.4.3/INSTALL
-* /usr/share/doc/r-4.4.3/README
-* /usr/share/doc/r-4.4.3/VERSION
+* /usr/share/doc/r-4.5.0/ChangeLog
+* /usr/share/doc/r-4.5.0/COPYING
+* /usr/share/doc/r-4.5.0/INSTALL
+* /usr/share/doc/r-4.5.0/README
+* /usr/share/doc/r-4.5.0/VERSION
 * /usr/share/man/man1/R.1.gz
 * /usr/share/man/man1/Rscript.1.gz

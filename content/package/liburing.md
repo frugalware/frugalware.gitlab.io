@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "liburing 2.9-1"
-version = "2.9-1"
+title = "liburing 2.10-1"
+version = "2.10-1"
 description = "Linux-native io_uring I/O access library"
-date = "2025-02-05T15:36:25"
+date = "2025-05-26T16:12:55"
 aliases = "/packages/221115"
 categories = ['lib']
-upstreamurl = "https://git.kernel.dk/cgit/liburing"
+upstreamurl = "https://github.com/axboe/liburing"
 arch = "x86_64"
-size = "207724"
-usize = "435200"
-sha1sum = "9d3aaa71ad83c3226377f36ddf7b9a1eb423eaab"
+size = "217116"
+usize = "464166"
+sha1sum = "aad799ebc7961721d2ef7fc507722401bbf5cfd8"
 depends = "['glibc']"
 reverse_depends = "['folly', 'libdex', 'mariadb-libs', 'mpd', 'plocate', 'qemu', 'qemu-guest']"
 +++
@@ -23,20 +23,20 @@ Linux-native io_uring I/O access library
 * /usr/include/liburing/compat.h
 * /usr/include/liburing/io_uring.h
 * /usr/include/liburing/io_uring_version.h
-* /usr/include/liburing/sanitize.h
 * /usr/lib/liburing-ffi.so
 * /usr/lib/liburing-ffi.so.2
-* /usr/lib/liburing-ffi.so.2.9
+* /usr/lib/liburing-ffi.so.2.10
 * /usr/lib/liburing.so
 * /usr/lib/liburing.so.2
-* /usr/lib/liburing.so.2.9
+* /usr/lib/liburing.so.2.10
 * /usr/lib/pkgconfig/liburing-ffi.pc
 * /usr/lib/pkgconfig/liburing.pc
-* /usr/share/doc/liburing-2.9/CHANGELOG
-* /usr/share/doc/liburing-2.9/COPYING
-* /usr/share/doc/liburing-2.9/COPYING.GPL
-* /usr/share/doc/liburing-2.9/LICENSE
-* /usr/share/doc/liburing-2.9/README
+* /usr/share/doc/liburing-2.10/CHANGELOG
+* /usr/share/doc/liburing-2.10/COPYING
+* /usr/share/doc/liburing-2.10/COPYING.GPL
+* /usr/share/doc/liburing-2.10/LICENSE
+* /usr/share/doc/liburing-2.10/README
+* /usr/share/doc/liburing-2.10/README.md
 * /usr/share/man/man2/io_uring_enter.2.gz
 * /usr/share/man/man2/io_uring_enter2.2.gz
 * /usr/share/man/man2/io_uring_register.2.gz
@@ -82,6 +82,7 @@ Linux-native io_uring I/O access library
 * /usr/share/man/man3/io_uring_prep_cmd.3.gz
 * /usr/share/man/man3/io_uring_prep_cmd_discard.3.gz
 * /usr/share/man/man3/io_uring_prep_connect.3.gz
+* /usr/share/man/man3/io_uring_prep_epoll_wait.3.gz
 * /usr/share/man/man3/io_uring_prep_fadvise.3.gz
 * /usr/share/man/man3/io_uring_prep_fadvise64.3.gz
 * /usr/share/man/man3/io_uring_prep_fallocate.3.gz

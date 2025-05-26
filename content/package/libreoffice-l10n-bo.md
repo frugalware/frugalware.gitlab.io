@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-bo 25.2.3.2-3"
-version = "25.2.3.2-3"
+title = "libreoffice-l10n-bo 25.2.3.2-4"
+version = "25.2.3.2-4"
 description = "Installs Tibetan support in LibreOffice"
-date = "2025-05-26T09:05:37"
+date = "2025-05-26T15:32:55"
 aliases = "/packages/104036"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4568640"
+size = "4569004"
 usize = "39396240"
-sha1sum = "9249b46c4030e0b3f203897350ae50e51d47b3fa"
+sha1sum = "8ede69b2462f4447492d69fcd67c151269bd41b5"
 depends = "['libreoffice>=25.2.3.2']"
 +++
 ### Description: 

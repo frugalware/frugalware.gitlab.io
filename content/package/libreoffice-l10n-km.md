@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-km 25.2.3.2-3"
-version = "25.2.3.2-3"
+title = "libreoffice-l10n-km 25.2.3.2-4"
+version = "25.2.3.2-4"
 description = "Installs Khmer support in LibreOffice"
-date = "2025-05-26T09:05:37"
+date = "2025-05-26T15:32:55"
 aliases = "/packages/104075"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "5160696"
+size = "5161184"
 usize = "44585613"
-sha1sum = "5ad2b8f30e2abc100cab4cd3dc3072e532a4d076"
+sha1sum = "0069ba2bb7f648c2f187284d214752e126b98122"
 depends = "['libreoffice>=25.2.3.2']"
 +++
 ### Description: 
