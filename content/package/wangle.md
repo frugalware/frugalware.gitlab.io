@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "wangle 2025.02.17.00-1"
-version = "2025.02.17.00-1"
+title = "wangle 2025.05.26.00-1"
+version = "2025.05.26.00-1"
 description = "C++ networking library providing client/server abstractions for building services"
-date = "2025-02-21T07:59:51"
+date = "2025-05-26T16:59:12"
 aliases = "/packages/222640"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/facebook/wangle"
 arch = "x86_64"
-size = "333600"
-usize = "1289389"
-sha1sum = "9307ed552e6d32e03de3985952359d8fd1dc55ed"
+size = "339152"
+usize = "1304059"
+sha1sum = "cf13564bb7f2430b9e65e3434b1462306a3f05ff"
 depends = "['fizz']"
 reverse_depends = "['fbthrift']"
 +++
@@ -128,6 +128,6 @@ C++ networking library providing client/server abstractions for building service
 * /usr/lib/cmake/wangle/wangle-targets-release.cmake
 * /usr/lib/cmake/wangle/wangle-targets.cmake
 * /usr/lib/libwangle.so
-* /usr/lib/libwangle.so.2025.02.17.00
-* /usr/share/doc/wangle-2025.02.17.00/LICENSE
-* /usr/share/doc/wangle-2025.02.17.00/README.md
+* /usr/lib/libwangle.so.2025.05.26.00
+* /usr/share/doc/wangle-2025.05.26.00/LICENSE
+* /usr/share/doc/wangle-2025.05.26.00/README.md

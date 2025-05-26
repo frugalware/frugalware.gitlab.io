@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "snappy 1.2.2-1"
-version = "1.2.2-1"
+title = "snappy 1.2.2-3"
+version = "1.2.2-3"
 description = "Snappy is a compression/decompression library which aim for very high speeds and reasonable compression"
-date = "2025-03-31T12:59:41"
+date = "2025-05-26T16:23:01"
 aliases = "/packages/152815"
 categories = ['lib']
 upstreamurl = "https://github.com/google/snappy"
 arch = "x86_64"
-size = "31944"
-usize = "93509"
-sha1sum = "c69bc179991cf494dd5a2144cd26ddef3026f82d"
+size = "32180"
+usize = "94629"
+sha1sum = "d4d03b98fbba2be701dfb8ab30a20b308399f435"
 depends = "['libstdc++>=11.2']"
 reverse_depends = "['blosc', 'chromium-browser', 'folly', 'mariadb', 'ospray', 'qemu', 'qt5-webengine', 'qt6-webengine', 'r2modman', 'wireshark']"
 +++

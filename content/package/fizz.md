@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "fizz 2025.02.17.00-1"
-version = "2025.02.17.00-1"
+title = "fizz 2025.05.26.00-1"
+version = "2025.05.26.00-1"
 description = "C++14 implementation of the TLS-1.3 standard"
-date = "2025-02-20T16:57:48"
+date = "2025-05-26T16:57:42"
 aliases = "/packages/222638"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/facebookincubator/fizz"
 arch = "x86_64"
-size = "831652"
-usize = "3184681"
-sha1sum = "3d12d37659ce9a65166c416c55d2b7b04bed2b10"
+size = "837504"
+usize = "3180707"
+sha1sum = "d44ccecaaa0bcdf98925dd4d3ba19629a13d7c7c"
 depends = "['folly']"
 reverse_depends = "['mvfst', 'wangle']"
 +++
@@ -108,6 +108,8 @@ C++14 implementation of the TLS-1.3 standard
 * /usr/include/fizz/experimental/ktls/KTLS.h
 * /usr/include/fizz/experimental/ktls/LinuxKTLS.h
 * /usr/include/fizz/experimental/util/CertExtraction.h
+* /usr/include/fizz/extensions/clientpadding/PaddingClientExtension.h
+* /usr/include/fizz/extensions/clientpadding/Types.h
 * /usr/include/fizz/extensions/delegatedcred/DelegatedCredentialCertManager.h
 * /usr/include/fizz/extensions/delegatedcred/DelegatedCredentialClientCertManager.h
 * /usr/include/fizz/extensions/delegatedcred/DelegatedCredentialClientExtension.h
@@ -172,6 +174,8 @@ C++14 implementation of the TLS-1.3 standard
 * /usr/include/fizz/record/Extensions.h
 * /usr/include/fizz/record/PlaintextRecordLayer.h
 * /usr/include/fizz/record/RecordLayer.h
+* /usr/include/fizz/record/RecordLayerUtils-inl.h
+* /usr/include/fizz/record/RecordLayerUtils.h
 * /usr/include/fizz/record/test/ExtensionTestsBase.h
 * /usr/include/fizz/record/test/Mocks.h
 * /usr/include/fizz/record/Types-inl.h
@@ -223,7 +227,7 @@ C++14 implementation of the TLS-1.3 standard
 * /usr/lib/cmake/fizz/fizz-targets-release.cmake
 * /usr/lib/cmake/fizz/fizz-targets.cmake
 * /usr/lib/libfizz.so
-* /usr/lib/libfizz.so.2025.02.17.00
+* /usr/lib/libfizz.so.2025.05.26.00
 * /usr/lib/libfizz_test_support.so
-* /usr/share/doc/fizz-2025.02.17.00/LICENSE
-* /usr/share/doc/fizz-2025.02.17.00/README.md
+* /usr/share/doc/fizz-2025.05.26.00/LICENSE
+* /usr/share/doc/fizz-2025.05.26.00/README.md

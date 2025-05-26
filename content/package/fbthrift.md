@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "fbthrift 2025.02.17.00-2"
-version = "2025.02.17.00-2"
+title = "fbthrift 2025.05.26.00-1"
+version = "2025.05.26.00-1"
 description = "Facebook's branch of Apache Thrift, including a new C++ server"
-date = "2025-02-21T15:54:47"
+date = "2025-05-26T17:03:42"
 aliases = "/packages/222647"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/facebook/fbthrift"
 arch = "x86_64"
-size = "14523544"
-usize = "47135407"
-sha1sum = "dde9dddbf281d6321ff0fc2b12acffbb45fefa1f"
+size = "15012580"
+usize = "46981957"
+sha1sum = "e4f806f559e534f3c96a8cb38985c4bdd9cddf68"
 depends = "['python3-snappy', 'python3-zstandard', 'wangle']"
 reverse_depends = "['fb303']"
 +++
@@ -144,11 +144,8 @@ Facebook's branch of Apache Thrift, including a new C++ server
 * /usr/include/thrift/lib/cpp/concurrency/PosixThreadFactory.h
 * /usr/include/thrift/lib/cpp/concurrency/SFQThreadManager.h
 * /usr/include/thrift/lib/cpp/concurrency/test/ThreadFactoryTests.h
-* /usr/include/thrift/lib/cpp/concurrency/test/TimerManagerTests.h
 * /usr/include/thrift/lib/cpp/concurrency/Thread.h
 * /usr/include/thrift/lib/cpp/concurrency/ThreadManager.h
-* /usr/include/thrift/lib/cpp/concurrency/TimerManager.h
-* /usr/include/thrift/lib/cpp/concurrency/Util.h
 * /usr/include/thrift/lib/cpp/ContextStack.h
 * /usr/include/thrift/lib/cpp/DistinctTable.h
 * /usr/include/thrift/lib/cpp/EventHandlerBase.h
@@ -235,6 +232,7 @@ Facebook's branch of Apache Thrift, including a new C++ server
 * /usr/include/thrift/lib/cpp2/async/ClientChannel.h
 * /usr/include/thrift/lib/cpp2/async/ClientInterceptor.h
 * /usr/include/thrift/lib/cpp2/async/ClientInterceptorBase.h
+* /usr/include/thrift/lib/cpp2/async/ClientInterceptorControl.h
 * /usr/include/thrift/lib/cpp2/async/ClientInterceptorStorage.h
 * /usr/include/thrift/lib/cpp2/async/ClientSinkBridge.h
 * /usr/include/thrift/lib/cpp2/async/ClientStreamBridge.h
@@ -252,6 +250,8 @@ Facebook's branch of Apache Thrift, including a new C++ server
 * /usr/include/thrift/lib/cpp2/async/HTTPClientChannel.h
 * /usr/include/thrift/lib/cpp2/async/Interaction.h
 * /usr/include/thrift/lib/cpp2/async/InteractionOverloadPolicy.h
+* /usr/include/thrift/lib/cpp2/async/InterceptorFlags.h
+* /usr/include/thrift/lib/cpp2/async/InterceptorFrameworkMetadata.h
 * /usr/include/thrift/lib/cpp2/async/MessageChannel.h
 * /usr/include/thrift/lib/cpp2/async/metadata/CursorBasedRequestRpcMetadataAdapter.h
 * /usr/include/thrift/lib/cpp2/async/metadata/RequestRpcMetadataAdapter.h
@@ -269,7 +269,6 @@ Facebook's branch of Apache Thrift, including a new C++ server
 * /usr/include/thrift/lib/cpp2/async/RocketClientChannel.h
 * /usr/include/thrift/lib/cpp2/async/RpcOptions.h
 * /usr/include/thrift/lib/cpp2/async/RpcTypes.h
-* /usr/include/thrift/lib/cpp2/async/SchemaV1.h
 * /usr/include/thrift/lib/cpp2/async/ServerChannel.h
 * /usr/include/thrift/lib/cpp2/async/ServerGeneratorStream-inl.h
 * /usr/include/thrift/lib/cpp2/async/ServerGeneratorStream.h
@@ -290,7 +289,6 @@ Facebook's branch of Apache Thrift, including a new C++ server
 * /usr/include/thrift/lib/cpp2/async/tests/util/TestSinkService.h
 * /usr/include/thrift/lib/cpp2/async/tests/util/TestStreamService.h
 * /usr/include/thrift/lib/cpp2/async/tests/util/Util.h
-* /usr/include/thrift/lib/cpp2/async/ThreadBoundAdaptorChannel.h
 * /usr/include/thrift/lib/cpp2/async/TwoWayBridge.h
 * /usr/include/thrift/lib/cpp2/BadFieldAccess.h
 * /usr/include/thrift/lib/cpp2/BoxedValuePtr.h
@@ -303,7 +301,14 @@ Facebook's branch of Apache Thrift, including a new C++ server
 * /usr/include/thrift/lib/cpp2/debug_thrift_data_difference/diff.h
 * /usr/include/thrift/lib/cpp2/debug_thrift_data_difference/pretty_print.h
 * /usr/include/thrift/lib/cpp2/detail/EventHandlerRuntime.h
+* /usr/include/thrift/lib/cpp2/detail/Isset.h
 * /usr/include/thrift/lib/cpp2/detail/meta.h
+* /usr/include/thrift/lib/cpp2/dynamic/detail/Traits.h
+* /usr/include/thrift/lib/cpp2/dynamic/SerializableRecord.h
+* /usr/include/thrift/lib/cpp2/dynamic/TypeId.h
+* /usr/include/thrift/lib/cpp2/dynamic/TypeSystem.h
+* /usr/include/thrift/lib/cpp2/dynamic/TypeSystemBuilder.h
+* /usr/include/thrift/lib/cpp2/dynamic/TypeSystemTraits.h
 * /usr/include/thrift/lib/cpp2/FieldRef.h
 * /usr/include/thrift/lib/cpp2/FieldRefHash.h
 * /usr/include/thrift/lib/cpp2/FieldRefTraits.h
@@ -343,6 +348,7 @@ Facebook's branch of Apache Thrift, including a new C++ server
 * /usr/include/thrift/lib/cpp2/gen/module_data_h.h
 * /usr/include/thrift/lib/cpp2/gen/module_metadata_cpp.h
 * /usr/include/thrift/lib/cpp2/gen/module_metadata_h.h
+* /usr/include/thrift/lib/cpp2/gen/module_method_decorator_h.h
 * /usr/include/thrift/lib/cpp2/gen/module_sinit_cpp.h
 * /usr/include/thrift/lib/cpp2/gen/module_types_cpp.h
 * /usr/include/thrift/lib/cpp2/gen/module_types_h.h
@@ -367,13 +373,13 @@ Facebook's branch of Apache Thrift, including a new C++ server
 * /usr/include/thrift/lib/cpp2/op/detail/Copy.h
 * /usr/include/thrift/lib/cpp2/op/detail/Create.h
 * /usr/include/thrift/lib/cpp2/op/detail/Encode.h
-* /usr/include/thrift/lib/cpp2/op/detail/Get.h
 * /usr/include/thrift/lib/cpp2/op/detail/Hash.h
 * /usr/include/thrift/lib/cpp2/op/detail/HashProtocol.h
 * /usr/include/thrift/lib/cpp2/op/detail/Patch.h
 * /usr/include/thrift/lib/cpp2/op/detail/PatchTraits.h
 * /usr/include/thrift/lib/cpp2/op/detail/StructOp.h
 * /usr/include/thrift/lib/cpp2/op/detail/StructPatch.h
+* /usr/include/thrift/lib/cpp2/op/detail/StructPatchImpl.h
 * /usr/include/thrift/lib/cpp2/op/detail/ValueOp.h
 * /usr/include/thrift/lib/cpp2/op/detail/ValuePatch.h
 * /usr/include/thrift/lib/cpp2/op/DeterministicAccumulator.h
@@ -389,7 +395,6 @@ Facebook's branch of Apache Thrift, including a new C++ server
 * /usr/include/thrift/lib/cpp2/op/Testing.h
 * /usr/include/thrift/lib/cpp2/op/Xxh64Hasher.h
 * /usr/include/thrift/lib/cpp2/patch/detail/PatchBadge.h
-* /usr/include/thrift/lib/cpp2/patch/detail/Scuba.h
 * /usr/include/thrift/lib/cpp2/patch/detail/TaggedPatch.h
 * /usr/include/thrift/lib/cpp2/patch/DynamicPatch.h
 * /usr/include/thrift/lib/cpp2/PluggableFunction.h
@@ -408,6 +413,7 @@ Facebook's branch of Apache Thrift, including a new C++ server
 * /usr/include/thrift/lib/cpp2/protocol/detail/FieldMaskUtil.h
 * /usr/include/thrift/lib/cpp2/protocol/detail/index.h
 * /usr/include/thrift/lib/cpp2/protocol/detail/Object.h
+* /usr/include/thrift/lib/cpp2/protocol/detail/Patch.h
 * /usr/include/thrift/lib/cpp2/protocol/detail/protocol_methods.h
 * /usr/include/thrift/lib/cpp2/protocol/detail/ReservedId.h
 * /usr/include/thrift/lib/cpp2/protocol/FieldMask.h
@@ -418,6 +424,8 @@ Facebook's branch of Apache Thrift, including a new C++ server
 * /usr/include/thrift/lib/cpp2/protocol/JSONProtocolCommon-inl.h
 * /usr/include/thrift/lib/cpp2/protocol/JSONProtocolCommon.h
 * /usr/include/thrift/lib/cpp2/protocol/LazyDeserializationFlags.h
+* /usr/include/thrift/lib/cpp2/protocol/NativeObject-inl.h
+* /usr/include/thrift/lib/cpp2/protocol/NativeObject.h
 * /usr/include/thrift/lib/cpp2/protocol/Object.h
 * /usr/include/thrift/lib/cpp2/protocol/Patch.h
 * /usr/include/thrift/lib/cpp2/protocol/Protocol.h
@@ -452,6 +460,10 @@ Facebook's branch of Apache Thrift, including a new C++ server
 * /usr/include/thrift/lib/cpp2/runtime/BaseSchemaRegistry.h
 * /usr/include/thrift/lib/cpp2/runtime/Init.h
 * /usr/include/thrift/lib/cpp2/runtime/SchemaRegistry.h
+* /usr/include/thrift/lib/cpp2/schema/detail/Merge.h
+* /usr/include/thrift/lib/cpp2/schema/detail/Resolver.h
+* /usr/include/thrift/lib/cpp2/schema/detail/SchemaBackedResolver.h
+* /usr/include/thrift/lib/cpp2/schema/SchemaV1.h
 * /usr/include/thrift/lib/cpp2/schema/SyntaxGraph.h
 * /usr/include/thrift/lib/cpp2/security/AsyncStopTLS.h
 * /usr/include/thrift/lib/cpp2/security/extensions/ThriftParametersClientExtension.h
@@ -464,6 +476,7 @@ Facebook's branch of Apache Thrift, including a new C++ server
 * /usr/include/thrift/lib/cpp2/server/AdaptiveConcurrency.h
 * /usr/include/thrift/lib/cpp2/server/ConcurrencyControllerBase.h
 * /usr/include/thrift/lib/cpp2/server/ConcurrencyControllerInterface.h
+* /usr/include/thrift/lib/cpp2/server/ConcurrencyControllerInterfaceUnsafeAPI.h
 * /usr/include/thrift/lib/cpp2/server/ControlServerInterface.h
 * /usr/include/thrift/lib/cpp2/server/Cpp2ConnContext.h
 * /usr/include/thrift/lib/cpp2/server/Cpp2Connection.h
@@ -478,6 +491,7 @@ Facebook's branch of Apache Thrift, including a new C++ server
 * /usr/include/thrift/lib/cpp2/server/LoggingEventHelper.h
 * /usr/include/thrift/lib/cpp2/server/LoggingEventTransportMetadata.h
 * /usr/include/thrift/lib/cpp2/server/MemoryTracker.h
+* /usr/include/thrift/lib/cpp2/server/metrics/InterceptorMetricCallback.h
 * /usr/include/thrift/lib/cpp2/server/metrics/PendingConnectionsMetrics.h
 * /usr/include/thrift/lib/cpp2/server/metrics/StreamMetricCallback.h
 * /usr/include/thrift/lib/cpp2/server/MonitoringMethodNames.h
@@ -501,6 +515,7 @@ Facebook's branch of Apache Thrift, including a new C++ server
 * /usr/include/thrift/lib/cpp2/server/ReactiveToggle.h
 * /usr/include/thrift/lib/cpp2/server/RequestCompletionCallback.h
 * /usr/include/thrift/lib/cpp2/server/RequestDebugLog.h
+* /usr/include/thrift/lib/cpp2/server/RequestExpirationDelegate.h
 * /usr/include/thrift/lib/cpp2/server/RequestPileBase.h
 * /usr/include/thrift/lib/cpp2/server/RequestPileInterface.h
 * /usr/include/thrift/lib/cpp2/server/RequestsRegistry.h
@@ -517,9 +532,12 @@ Facebook's branch of Apache Thrift, including a new C++ server
 * /usr/include/thrift/lib/cpp2/server/ServiceHealthPoller.h
 * /usr/include/thrift/lib/cpp2/server/ServiceInterceptor.h
 * /usr/include/thrift/lib/cpp2/server/ServiceInterceptorBase.h
+* /usr/include/thrift/lib/cpp2/server/ServiceInterceptorControl.h
+* /usr/include/thrift/lib/cpp2/server/ServiceInterceptorQualifiedName.h
 * /usr/include/thrift/lib/cpp2/server/ServiceInterceptorStorage.h
 * /usr/include/thrift/lib/cpp2/server/StandardConcurrencyController.h
 * /usr/include/thrift/lib/cpp2/server/StatusServerInterface.h
+* /usr/include/thrift/lib/cpp2/server/test/RequestPileTestUtils.h
 * /usr/include/thrift/lib/cpp2/server/test/util/MockServerConfigs.h
 * /usr/include/thrift/lib/cpp2/server/ThreadManagerLoggingWrapper.h
 * /usr/include/thrift/lib/cpp2/server/ThriftProcessor.h
@@ -548,11 +566,13 @@ Facebook's branch of Apache Thrift, including a new C++ server
 * /usr/include/thrift/lib/cpp2/test/gen-cpp2/ProtocolBenchData_visit_union.h
 * /usr/include/thrift/lib/cpp2/test/Matcher.h
 * /usr/include/thrift/lib/cpp2/test/MockCpp2ConnContext.h
+* /usr/include/thrift/lib/cpp2/test/ObjectBenchUtils.h
 * /usr/include/thrift/lib/cpp2/test/ProtoBufStructs-inl.h
+* /usr/include/thrift/lib/cpp2/test/server/ThriftServerTestUtils.h
 * /usr/include/thrift/lib/cpp2/test/Structs.h
 * /usr/include/thrift/lib/cpp2/test/ThriftStructs-inl.h
 * /usr/include/thrift/lib/cpp2/test/util/FakeClock.h
-* /usr/include/thrift/lib/cpp2/test/util/TestInterface.h
+* /usr/include/thrift/lib/cpp2/test/util/TestHandler.h
 * /usr/include/thrift/lib/cpp2/test/util/TestServerFactory.h
 * /usr/include/thrift/lib/cpp2/test/util/TestThriftServerFactory.h
 * /usr/include/thrift/lib/cpp2/test/util/TrackingTProcessorEventHandler.h
@@ -595,14 +615,17 @@ Facebook's branch of Apache Thrift, including a new C++ server
 * /usr/include/thrift/lib/cpp2/transport/rocket/client/RocketStreamServerCallback.h
 * /usr/include/thrift/lib/cpp2/transport/rocket/compression/CompressionAlgorithmSelector.h
 * /usr/include/thrift/lib/cpp2/transport/rocket/compression/CompressionManager.h
+* /usr/include/thrift/lib/cpp2/transport/rocket/compression/CustomCompressor.h
+* /usr/include/thrift/lib/cpp2/transport/rocket/compression/CustomCompressorFactory.h
+* /usr/include/thrift/lib/cpp2/transport/rocket/compression/CustomCompressorRegistry.h
 * /usr/include/thrift/lib/cpp2/transport/rocket/FdSocket.h
 * /usr/include/thrift/lib/cpp2/transport/rocket/flush/FlushManager.h
 * /usr/include/thrift/lib/cpp2/transport/rocket/framing/ErrorCode.h
 * /usr/include/thrift/lib/cpp2/transport/rocket/framing/Flags.h
 * /usr/include/thrift/lib/cpp2/transport/rocket/framing/Frames.h
 * /usr/include/thrift/lib/cpp2/transport/rocket/framing/FrameType.h
-* /usr/include/thrift/lib/cpp2/transport/rocket/framing/Parser-inl.h
 * /usr/include/thrift/lib/cpp2/transport/rocket/framing/Parser.h
+* /usr/include/thrift/lib/cpp2/transport/rocket/framing/parser/AlignedParserStrategy.h
 * /usr/include/thrift/lib/cpp2/transport/rocket/framing/parser/AllocatingParserStrategy.h
 * /usr/include/thrift/lib/cpp2/transport/rocket/framing/parser/FrameLengthParserStrategy-inl.h
 * /usr/include/thrift/lib/cpp2/transport/rocket/framing/parser/FrameLengthParserStrategy.h
@@ -612,6 +635,7 @@ Facebook's branch of Apache Thrift, including a new C++ server
 * /usr/include/thrift/lib/cpp2/transport/rocket/framing/test/Util.h
 * /usr/include/thrift/lib/cpp2/transport/rocket/framing/Util.h
 * /usr/include/thrift/lib/cpp2/transport/rocket/payload/ChecksumPayloadSerializerStrategy.h
+* /usr/include/thrift/lib/cpp2/transport/rocket/payload/CustomCompressionPayloadSerializerStrategy.h
 * /usr/include/thrift/lib/cpp2/transport/rocket/payload/DefaultPayloadSerializerStrategy.h
 * /usr/include/thrift/lib/cpp2/transport/rocket/payload/LegacyPayloadSerializerStrategy.h
 * /usr/include/thrift/lib/cpp2/transport/rocket/payload/PayloadSerializer.h
@@ -676,6 +700,7 @@ Facebook's branch of Apache Thrift, including a new C++ server
 * /usr/include/thrift/lib/cpp2/util/BucketedRate.h
 * /usr/include/thrift/lib/cpp2/util/Checksum.h
 * /usr/include/thrift/lib/cpp2/util/DebugString.h
+* /usr/include/thrift/lib/cpp2/util/DebugTree.h
 * /usr/include/thrift/lib/cpp2/util/EmptyAsyncProcessor.h
 * /usr/include/thrift/lib/cpp2/util/Ewma.h
 * /usr/include/thrift/lib/cpp2/util/EwmaRate.h
@@ -703,7 +728,6 @@ Facebook's branch of Apache Thrift, including a new C++ server
 * /usr/include/thrift/lib/py3/client_wrapper.h
 * /usr/include/thrift/lib/py3/exceptions.h
 * /usr/include/thrift/lib/py3/serializer.h
-* /usr/include/thrift/lib/py3/server.h
 * /usr/include/thrift/lib/py3/stream.h
 * /usr/include/thrift/lib/py3/test/BinaryTypes.h
 * /usr/include/thrift/lib/py3/test/cpp_handler.h
@@ -726,7 +750,9 @@ Facebook's branch of Apache Thrift, including a new C++ server
 * /usr/include/thrift/lib/python/client/test/http2_helper.h
 * /usr/include/thrift/lib/python/flags.h
 * /usr/include/thrift/lib/python/Serializer.h
+* /usr/include/thrift/lib/python/server/event_handler.h
 * /usr/include/thrift/lib/python/server/flagged/EnableResourcePoolsForPython.h
+* /usr/include/thrift/lib/python/server/flagged/RcAwareTaskPatch.h
 * /usr/include/thrift/lib/python/server/flagged/test/EnableResourcePoolsForPythonTest.h
 * /usr/include/thrift/lib/python/server/PythonAsyncProcessor.h
 * /usr/include/thrift/lib/python/server/PythonAsyncProcessorFactory.h
@@ -736,10 +762,13 @@ Facebook's branch of Apache Thrift, including a new C++ server
 * /usr/include/thrift/lib/python/test/metadata_response/metadata_response.h
 * /usr/include/thrift/lib/python/types.h
 * /usr/include/thrift/lib/python/util.h
+* /usr/include/thrift/lib/thrift/bundled_lib_thrift.h
 * /usr/include/thrift/lib/thrift/detail/AnyPatch.h
 * /usr/include/thrift/lib/thrift/detail/DynamicPatch.h
 * /usr/include/thrift/lib/thrift/detail/id.h
 * /usr/include/thrift/lib/thrift/detail/protocol.h
+* /usr/include/thrift/lib/thrift/detail/TypeIdAdapter.h
+* /usr/include/thrift/lib/thrift/detail/TypeSystemAdapter.h
 * /usr/include/thrift/lib/thrift/gen-cpp2/any_rep_clients.h
 * /usr/include/thrift/lib/thrift/gen-cpp2/any_rep_constants.h
 * /usr/include/thrift/lib/thrift/gen-cpp2/any_rep_data.h
@@ -968,39 +997,40 @@ Facebook's branch of Apache Thrift, including a new C++ server
 * /usr/lib/fb-py-libs/thrift_py_inspect.manifest
 * /usr/lib/fb-py-libs/thrift_py_inspect/thrift/util/inspect.py
 * /usr/lib/libasync.so
-* /usr/lib/libasync.so.2025.02.17.00
+* /usr/lib/libasync.so.2025.05.26.00
+* /usr/lib/libcommon.so
 * /usr/lib/libcompiler.so
-* /usr/lib/libcompiler.so.2025.02.17.00
+* /usr/lib/libcompiler.so.2025.05.26.00
 * /usr/lib/libcompiler_ast.so
-* /usr/lib/libcompiler_ast.so.2025.02.17.00
+* /usr/lib/libcompiler_ast.so.2025.05.26.00
 * /usr/lib/libcompiler_base.a
 * /usr/lib/libcompiler_lib.a
 * /usr/lib/libconcurrency.so
-* /usr/lib/libconcurrency.so.2025.02.17.00
+* /usr/lib/libconcurrency.so.2025.05.26.00
 * /usr/lib/librpcmetadata.so
-* /usr/lib/librpcmetadata.so.2025.02.17.00
+* /usr/lib/librpcmetadata.so.2025.05.26.00
 * /usr/lib/libruntime.so
 * /usr/lib/libserverdbginfo.so
-* /usr/lib/libserverdbginfo.so.2025.02.17.00
+* /usr/lib/libserverdbginfo.so.2025.05.26.00
 * /usr/lib/libthrift-core.so
-* /usr/lib/libthrift-core.so.2025.02.17.00
+* /usr/lib/libthrift-core.so.2025.05.26.00
 * /usr/lib/libthriftannotation.so
-* /usr/lib/libthriftannotation.so.2025.02.17.00
+* /usr/lib/libthriftannotation.so.2025.05.26.00
 * /usr/lib/libthriftanyrep.so
 * /usr/lib/libthriftcpp2.so
-* /usr/lib/libthriftcpp2.so.2025.02.17.00
+* /usr/lib/libthriftcpp2.so.2025.05.26.00
 * /usr/lib/libthriftfrozen2.so
-* /usr/lib/libthriftfrozen2.so.2025.02.17.00
+* /usr/lib/libthriftfrozen2.so.2025.05.26.00
 * /usr/lib/libthriftmetadata.so
-* /usr/lib/libthriftmetadata.so.2025.02.17.00
+* /usr/lib/libthriftmetadata.so.2025.05.26.00
 * /usr/lib/libthriftprotocol.so
-* /usr/lib/libthriftprotocol.so.2025.02.17.00
+* /usr/lib/libthriftprotocol.so.2025.05.26.00
 * /usr/lib/libthrifttype.so
-* /usr/lib/libthrifttype.so.2025.02.17.00
+* /usr/lib/libthrifttype.so.2025.05.26.00
 * /usr/lib/libthrifttyperep.so
-* /usr/lib/libthrifttyperep.so.2025.02.17.00
+* /usr/lib/libthrifttyperep.so.2025.05.26.00
 * /usr/lib/libtransport.so
-* /usr/lib/libtransport.so.2025.02.17.00
+* /usr/lib/libtransport.so.2025.05.26.00
 * /usr/lib/libwhisker.a
-* /usr/share/doc/fbthrift-2025.02.17.00/LICENSE
-* /usr/share/doc/fbthrift-2025.02.17.00/README.md
+* /usr/share/doc/fbthrift-2025.05.26.00/LICENSE
+* /usr/share/doc/fbthrift-2025.05.26.00/README.md

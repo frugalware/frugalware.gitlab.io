@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "folly 2025.02.17.00-4"
-version = "2025.02.17.00-4"
+title = "folly 2025.05.26.00-1"
+version = "2025.05.26.00-1"
 description = "An open-source C++ library developed and used at Facebook"
-date = "2025-02-24T09:11:31"
+date = "2025-05-26T16:24:57"
 aliases = "/packages/222636"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/facebook/folly"
 arch = "x86_64"
-size = "2858044"
-usize = "13012781"
-sha1sum = "294c4ed4d520f68ffca020848204e4321010e477"
-depends = "['double-conversion', 'fmtlib', 'google-glog', 'libaio', 'libboost', 'libevent', 'libsodium', 'libunwind', 'liburing', 'snappy']"
+size = "3012888"
+usize = "13694252"
+sha1sum = "6f08d67cceac3e6611bcefd54213f3a339cfe583"
+depends = "['double-conversion', 'fmtlib', 'google-glog', 'libaio', 'libboost>=1.88.0', 'libevent', 'libsodium', 'libunwind', 'liburing', 'snappy']"
 reverse_depends = "['fizz']"
 +++
 ### Description: 
@@ -26,6 +26,8 @@ An open-source C++ library developed and used at Facebook
 * /usr/include/folly/algorithm/simd/detail/Traits.h
 * /usr/include/folly/algorithm/simd/detail/UnrollUtils.h
 * /usr/include/folly/algorithm/simd/FindFixed.h
+* /usr/include/folly/algorithm/simd/find_first_of.h
+* /usr/include/folly/algorithm/simd/find_first_of_extra.h
 * /usr/include/folly/algorithm/simd/Ignore.h
 * /usr/include/folly/algorithm/simd/Movemask.h
 * /usr/include/folly/AtomicHashArray-inl.h
@@ -81,6 +83,8 @@ An open-source C++ library developed and used at Facebook
 * /usr/include/folly/cli/NestedCommandLineApp.h
 * /usr/include/folly/cli/ProgramOptions.h
 * /usr/include/folly/ClockGettimeWrappers.h
+* /usr/include/folly/codec/hex.h
+* /usr/include/folly/codec/Uuid.h
 * /usr/include/folly/compression/Compression.h
 * /usr/include/folly/compression/CompressionContextPool.h
 * /usr/include/folly/compression/CompressionContextPoolSingletons.h
@@ -127,6 +131,7 @@ An open-source C++ library developed and used at Facebook
 * /usr/include/folly/container/Array.h
 * /usr/include/folly/container/BitIterator.h
 * /usr/include/folly/container/detail/BitIteratorDetail.h
+* /usr/include/folly/container/detail/BoolWrapper.h
 * /usr/include/folly/container/detail/F14Defaults.h
 * /usr/include/folly/container/detail/F14IntrinsicsAvailability.h
 * /usr/include/folly/container/detail/F14MapFallback.h
@@ -163,6 +168,7 @@ An open-source C++ library developed and used at Facebook
 * /usr/include/folly/container/tape.h
 * /usr/include/folly/container/test/F14TestUtil.h
 * /usr/include/folly/container/test/TrackingTypes.h
+* /usr/include/folly/container/vector_bool.h
 * /usr/include/folly/container/View.h
 * /usr/include/folly/container/WeightedEvictingCacheMap.h
 * /usr/include/folly/Conv.h
@@ -174,6 +180,8 @@ An open-source C++ library developed and used at Facebook
 * /usr/include/folly/coro/AsyncStack.h
 * /usr/include/folly/coro/AutoCleanup-fwd.h
 * /usr/include/folly/coro/AutoCleanup.h
+* /usr/include/folly/coro/AwaitImmediately.h
+* /usr/include/folly/coro/AwaitResult.h
 * /usr/include/folly/coro/Baton.h
 * /usr/include/folly/coro/BlockingWait.h
 * /usr/include/folly/coro/BoundedQueue.h
@@ -203,17 +211,30 @@ An open-source C++ library developed and used at Facebook
 * /usr/include/folly/coro/Merge-inl.h
 * /usr/include/folly/coro/Merge.h
 * /usr/include/folly/coro/Mutex.h
+* /usr/include/folly/coro/Noexcept.h
 * /usr/include/folly/coro/Promise.h
+* /usr/include/folly/coro/Ready.h
 * /usr/include/folly/coro/Result.h
 * /usr/include/folly/coro/Retry.h
 * /usr/include/folly/coro/RustAdaptors.h
+* /usr/include/folly/coro/safe/AsyncClosure-fwd.h
+* /usr/include/folly/coro/safe/AsyncClosure.h
+* /usr/include/folly/coro/safe/Captures.h
+* /usr/include/folly/coro/safe/detail/AsyncClosure.h
+* /usr/include/folly/coro/safe/detail/AsyncClosureBindings.h
+* /usr/include/folly/coro/safe/detail/DefineMovableDeepConstLrefCopyable.h
+* /usr/include/folly/coro/safe/NowTask.h
+* /usr/include/folly/coro/safe/SafeAlias.h
+* /usr/include/folly/coro/safe/SafeTask.h
 * /usr/include/folly/coro/ScopeExit.h
+* /usr/include/folly/coro/SerialQueueRunner.h
 * /usr/include/folly/coro/SharedLock.h
 * /usr/include/folly/coro/SharedMutex.h
 * /usr/include/folly/coro/SharedPromise.h
 * /usr/include/folly/coro/Sleep-inl.h
 * /usr/include/folly/coro/Sleep.h
 * /usr/include/folly/coro/SmallUnboundedQueue.h
+* /usr/include/folly/coro/Synchronized.h
 * /usr/include/folly/coro/Task.h
 * /usr/include/folly/coro/TaskWrapper.h
 * /usr/include/folly/coro/TimedWait.h
@@ -233,6 +254,7 @@ An open-source C++ library developed and used at Facebook
 * /usr/include/folly/crypto/detail/LtHashInternal.h
 * /usr/include/folly/crypto/LtHash-inl.h
 * /usr/include/folly/crypto/LtHash.h
+* /usr/include/folly/debugging/exception_tracer/Compatibility.h
 * /usr/include/folly/debugging/exception_tracer/ExceptionAbi.h
 * /usr/include/folly/debugging/exception_tracer/ExceptionCounterLib.h
 * /usr/include/folly/debugging/exception_tracer/ExceptionTracer.h
@@ -298,6 +320,7 @@ An open-source C++ library developed and used at Facebook
 * /usr/include/folly/detail/ThreadLocalDetail.h
 * /usr/include/folly/detail/thread_local_globals.h
 * /usr/include/folly/detail/TrapOnAvx512.h
+* /usr/include/folly/detail/tuple.h
 * /usr/include/folly/detail/TurnSequencer.h
 * /usr/include/folly/detail/TypeList.h
 * /usr/include/folly/detail/UniqueInstance.h
@@ -520,6 +543,7 @@ An open-source C++ library developed and used at Facebook
 * /usr/include/folly/external/fast-crc32/avx512_crc32c_v8s3x4.h
 * /usr/include/folly/external/fast-crc32/neon_crc32c_v3s4x2e_v2.h
 * /usr/include/folly/external/fast-crc32/neon_eor3_crc32c_v8s2x4_s3.h
+* /usr/include/folly/external/fast-crc32/neon_eor3_crc32_v9s3x2e_s3.h
 * /usr/include/folly/external/fast-crc32/sse_crc32c_v8s3x3.h
 * /usr/include/folly/external/nvidia/detail/RangeSve2.h
 * /usr/include/folly/external/nvidia/hash/detail/Crc32cCombineDetail.h
@@ -687,6 +711,7 @@ An open-source C++ library developed and used at Facebook
 * /usr/include/folly/io/async/IoUringEvent.h
 * /usr/include/folly/io/async/IoUringEventBaseLocal.h
 * /usr/include/folly/io/async/IoUringProvidedBufferRing.h
+* /usr/include/folly/io/async/IoUringZeroCopyBufferPool.h
 * /usr/include/folly/io/async/Liburing.h
 * /usr/include/folly/io/async/MuxIOThreadPoolExecutor.h
 * /usr/include/folly/io/async/NotificationQueue.h
@@ -772,6 +797,7 @@ An open-source C++ library developed and used at Facebook
 * /usr/include/folly/lang/Aligned.h
 * /usr/include/folly/lang/Assume.h
 * /usr/include/folly/lang/Badge.h
+* /usr/include/folly/lang/Bindings.h
 * /usr/include/folly/lang/Bits.h
 * /usr/include/folly/lang/BitsClass.h
 * /usr/include/folly/lang/Builtin.h
@@ -796,6 +822,7 @@ An open-source C++ library developed and used at Facebook
 * /usr/include/folly/lang/ToAscii.h
 * /usr/include/folly/lang/TypeInfo.h
 * /usr/include/folly/lang/UncaughtExceptions.h
+* /usr/include/folly/lang/VectorTraits.h
 * /usr/include/folly/Lazy.h
 * /usr/include/folly/Likely.h
 * /usr/include/folly/logging/AsyncFileWriter.h
@@ -848,6 +875,7 @@ An open-source C++ library developed and used at Facebook
 * /usr/include/folly/memory/ReentrantAllocator.h
 * /usr/include/folly/memory/SanitizeAddress.h
 * /usr/include/folly/memory/SanitizeLeak.h
+* /usr/include/folly/memory/shared_from_this_ptr.h
 * /usr/include/folly/memory/ThreadCachedArena.h
 * /usr/include/folly/memory/UninitializedMemoryHacks.h
 * /usr/include/folly/MicroLock.h
@@ -878,6 +906,7 @@ An open-source C++ library developed and used at Facebook
 * /usr/include/folly/observer/WithJitter-inl.h
 * /usr/include/folly/observer/WithJitter.h
 * /usr/include/folly/ObserverContainer.h
+* /usr/include/folly/OperationCancelled.h
 * /usr/include/folly/Optional.h
 * /usr/include/folly/Overload.h
 * /usr/include/folly/PackedSyncPtr.h
@@ -901,6 +930,7 @@ An open-source C++ library developed and used at Facebook
 * /usr/include/folly/portability/GFlags.h
 * /usr/include/folly/portability/GMock.h
 * /usr/include/folly/portability/GTest.h
+* /usr/include/folly/portability/GTestProd.h
 * /usr/include/folly/portability/IOVec.h
 * /usr/include/folly/portability/Libgen.h
 * /usr/include/folly/portability/Libunwind.h
@@ -939,16 +969,22 @@ An open-source C++ library developed and used at Facebook
 * /usr/include/folly/python/futures.h
 * /usr/include/folly/python/import.h
 * /usr/include/folly/python/iobuf.h
+* /usr/include/folly/python/Weak.h
 * /usr/include/folly/Random-inl.h
 * /usr/include/folly/Random.h
 * /usr/include/folly/Range.h
 * /usr/include/folly/Replaceable.h
+* /usr/include/folly/result/gtest_helpers.h
+* /usr/include/folly/result/result.h
+* /usr/include/folly/result/try.h
 * /usr/include/folly/RWSpinLock.h
 * /usr/include/folly/ScopeGuard.h
+* /usr/include/folly/settings/CommandLineParser.h
 * /usr/include/folly/settings/detail/SettingsImpl.h
 * /usr/include/folly/settings/Immutables.h
 * /usr/include/folly/settings/Observer.h
 * /usr/include/folly/settings/Settings.h
+* /usr/include/folly/settings/SettingsAccessorProxy.h
 * /usr/include/folly/settings/Types.h
 * /usr/include/folly/SharedMutex.h
 * /usr/include/folly/Singleton-inl.h
@@ -1083,11 +1119,11 @@ An open-source C++ library developed and used at Facebook
 * /usr/lib/cmake/folly/folly-targets-release.cmake
 * /usr/lib/cmake/folly/folly-targets.cmake
 * /usr/lib/libfolly.so
-* /usr/lib/libfolly.so.2025.02.17.00
+* /usr/lib/libfolly.so.2025.05.26.00
 * /usr/lib/libfollybenchmark.so
-* /usr/lib/libfollybenchmark.so.2025.02.17.00
+* /usr/lib/libfollybenchmark.so.2025.05.26.00
 * /usr/lib/libfolly_test_util.so
-* /usr/lib/libfolly_test_util.so.2025.02.17.00
+* /usr/lib/libfolly_test_util.so.2025.05.26.00
 * /usr/lib/pkgconfig/libfolly.pc
-* /usr/share/doc/folly-2025.02.17.00/LICENSE
-* /usr/share/doc/folly-2025.02.17.00/README.md
+* /usr/share/doc/folly-2025.05.26.00/LICENSE
+* /usr/share/doc/folly-2025.05.26.00/README.md
