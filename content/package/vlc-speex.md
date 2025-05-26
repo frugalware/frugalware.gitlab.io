@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vlc-speex 3.0.21-29"
-version = "3.0.21-29"
+title = "vlc-speex 3.0.21-30"
+version = "3.0.21-30"
 description = "vlc speex support"
-date = "2025-05-20T20:20:08"
+date = "2025-05-26T06:46:38"
 aliases = "/packages/219587"
 categories = ['vlc-codecs']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "24284"
+size = "24312"
 usize = "30296"
-sha1sum = "5aeb3378ab350d1e8fe3383a6b97c1e9612ab6ab"
+sha1sum = "f5232cb88465ce779b140a286ca1b04623a39839"
 depends = "['libvlc>=3.0.21', 'speex']"
 +++
 ### Description: 

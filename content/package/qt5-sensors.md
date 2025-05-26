@@ -1,48 +1,48 @@
 +++
 draft = false
-title = "qt5-sensors 5.15.16-1"
-version = "5.15.16-1"
+title = "qt5-sensors 5.15.17-1"
+version = "5.15.17-1"
 description = "The Qt5 toolkit, qtsensors"
-date = "2024-11-15T20:57:29"
+date = "2025-05-23T14:10:29"
 aliases = "/packages/217626"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "178096"
-usize = "1066977"
-sha1sum = "e17b21658da89e9f715ac88df7b1568d8d73d3fb"
-depends = "['iio-sensor-proxy', 'qt5-declarative>=5.15.16']"
+size = "187588"
+usize = "1096239"
+sha1sum = "3e2b6c640cb7fe54bc5c3f4c082a33bb6c9bdb86"
+depends = "['iio-sensor-proxy', 'qt5-declarative>=5.15.17']"
 +++
 ### Description: 
 The Qt5 toolkit, qtsensors
 
 ### Files: 
-* /usr/include/qt5/QtSensors/5.15.16/QtSensors/private/qaccelerometer_p.h
-* /usr/include/qt5/QtSensors/5.15.16/QtSensors/private/qaltimeter_p.h
-* /usr/include/qt5/QtSensors/5.15.16/QtSensors/private/qambientlightsensor_p.h
-* /usr/include/qt5/QtSensors/5.15.16/QtSensors/private/qambienttemperaturesensor_p.h
-* /usr/include/qt5/QtSensors/5.15.16/QtSensors/private/qcompass_p.h
-* /usr/include/qt5/QtSensors/5.15.16/QtSensors/private/qdistancesensor_p.h
-* /usr/include/qt5/QtSensors/5.15.16/QtSensors/private/qgyroscope_p.h
-* /usr/include/qt5/QtSensors/5.15.16/QtSensors/private/qholstersensor_p.h
-* /usr/include/qt5/QtSensors/5.15.16/QtSensors/private/qhumiditysensor_p.h
-* /usr/include/qt5/QtSensors/5.15.16/QtSensors/private/qirproximitysensor_p.h
-* /usr/include/qt5/QtSensors/5.15.16/QtSensors/private/qlidsensor_p.h
-* /usr/include/qt5/QtSensors/5.15.16/QtSensors/private/qlightsensor_p.h
-* /usr/include/qt5/QtSensors/5.15.16/QtSensors/private/qmagnetometer_p.h
-* /usr/include/qt5/QtSensors/5.15.16/QtSensors/private/qorientationsensor_p.h
-* /usr/include/qt5/QtSensors/5.15.16/QtSensors/private/qpressuresensor_p.h
-* /usr/include/qt5/QtSensors/5.15.16/QtSensors/private/qproximitysensor_p.h
-* /usr/include/qt5/QtSensors/5.15.16/QtSensors/private/qrotationsensor_p.h
-* /usr/include/qt5/QtSensors/5.15.16/QtSensors/private/qsensorbackend_p.h
-* /usr/include/qt5/QtSensors/5.15.16/QtSensors/private/qsensorgesturemanagerprivate_p.h
-* /usr/include/qt5/QtSensors/5.15.16/QtSensors/private/qsensorgesture_p.h
-* /usr/include/qt5/QtSensors/5.15.16/QtSensors/private/qsensor_p.h
-* /usr/include/qt5/QtSensors/5.15.16/QtSensors/private/qtapsensor_p.h
-* /usr/include/qt5/QtSensors/5.15.16/QtSensors/private/qtiltsensor_p.h
-* /usr/include/qt5/QtSensors/5.15.16/QtSensors/private/qtsensors-config_p.h
-* /usr/include/qt5/QtSensors/5.15.16/QtSensors/private/sensorlog_p.h
-* /usr/include/qt5/QtSensors/5.15.16/QtSensors/private/simulatorgesturescommon_p.h
+* /usr/include/qt5/QtSensors/5.15.17/QtSensors/private/qaccelerometer_p.h
+* /usr/include/qt5/QtSensors/5.15.17/QtSensors/private/qaltimeter_p.h
+* /usr/include/qt5/QtSensors/5.15.17/QtSensors/private/qambientlightsensor_p.h
+* /usr/include/qt5/QtSensors/5.15.17/QtSensors/private/qambienttemperaturesensor_p.h
+* /usr/include/qt5/QtSensors/5.15.17/QtSensors/private/qcompass_p.h
+* /usr/include/qt5/QtSensors/5.15.17/QtSensors/private/qdistancesensor_p.h
+* /usr/include/qt5/QtSensors/5.15.17/QtSensors/private/qgyroscope_p.h
+* /usr/include/qt5/QtSensors/5.15.17/QtSensors/private/qholstersensor_p.h
+* /usr/include/qt5/QtSensors/5.15.17/QtSensors/private/qhumiditysensor_p.h
+* /usr/include/qt5/QtSensors/5.15.17/QtSensors/private/qirproximitysensor_p.h
+* /usr/include/qt5/QtSensors/5.15.17/QtSensors/private/qlidsensor_p.h
+* /usr/include/qt5/QtSensors/5.15.17/QtSensors/private/qlightsensor_p.h
+* /usr/include/qt5/QtSensors/5.15.17/QtSensors/private/qmagnetometer_p.h
+* /usr/include/qt5/QtSensors/5.15.17/QtSensors/private/qorientationsensor_p.h
+* /usr/include/qt5/QtSensors/5.15.17/QtSensors/private/qpressuresensor_p.h
+* /usr/include/qt5/QtSensors/5.15.17/QtSensors/private/qproximitysensor_p.h
+* /usr/include/qt5/QtSensors/5.15.17/QtSensors/private/qrotationsensor_p.h
+* /usr/include/qt5/QtSensors/5.15.17/QtSensors/private/qsensorbackend_p.h
+* /usr/include/qt5/QtSensors/5.15.17/QtSensors/private/qsensorgesturemanagerprivate_p.h
+* /usr/include/qt5/QtSensors/5.15.17/QtSensors/private/qsensorgesture_p.h
+* /usr/include/qt5/QtSensors/5.15.17/QtSensors/private/qsensor_p.h
+* /usr/include/qt5/QtSensors/5.15.17/QtSensors/private/qtapsensor_p.h
+* /usr/include/qt5/QtSensors/5.15.17/QtSensors/private/qtiltsensor_p.h
+* /usr/include/qt5/QtSensors/5.15.17/QtSensors/private/qtsensors-config_p.h
+* /usr/include/qt5/QtSensors/5.15.17/QtSensors/private/sensorlog_p.h
+* /usr/include/qt5/QtSensors/5.15.17/QtSensors/private/simulatorgesturescommon_p.h
 * /usr/include/qt5/QtSensors/QAccelerometer
 * /usr/include/qt5/QtSensors/qaccelerometer.h
 * /usr/include/qt5/QtSensors/QAccelerometerFilter
@@ -156,7 +156,7 @@ The Qt5 toolkit, qtsensors
 * /usr/lib/libQt5Sensors.so
 * /usr/lib/libQt5Sensors.so.5
 * /usr/lib/libQt5Sensors.so.5.15
-* /usr/lib/libQt5Sensors.so.5.15.16
+* /usr/lib/libQt5Sensors.so.5.15.17
 * /usr/lib/pkgconfig/Qt5Sensors.pc
 * /usr/lib/qt5/plugins/sensorgestures/libqtsensorgestures_plugin.so
 * /usr/lib/qt5/plugins/sensorgestures/libqtsensorgestures_shakeplugin.so

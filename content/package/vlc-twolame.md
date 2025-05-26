@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vlc-twolame 3.0.21-29"
-version = "3.0.21-29"
+title = "vlc-twolame 3.0.21-30"
+version = "3.0.21-30"
 description = "vlc plugin for twolame"
-date = "2025-05-20T20:20:08"
+date = "2025-05-26T06:46:38"
 aliases = "/packages/135930"
 categories = ['vlc-codecs']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "18236"
+size = "18272"
 usize = "11648"
-sha1sum = "92029ac4b67cd7e045143917e50e48ce09673828"
+sha1sum = "867b3a29468ffeff44c56972a341e3ed944c7fa3"
 depends = "['libvlc>=3.0.21', 'twolame']"
 +++
 ### Description: 

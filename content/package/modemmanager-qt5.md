@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "modemmanager-qt5 5.116.0-4"
-version = "5.116.0-4"
+title = "modemmanager-qt5 5.116.0-9"
+version = "5.116.0-9"
 description = "Qt-only wrapper for ModemManager DBus API."
-date = "2024-11-15T21:26:31"
+date = "2025-05-24T10:19:17"
 aliases = "/packages/221366"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "137924"
-usize = "613024"
-sha1sum = "f41589fce91872daa2516b4cfbeaafa297252769"
-depends = "['modemmanager>=1.6.2', 'qt5-base>=5.15.16']"
+size = "140164"
+usize = "619172"
+sha1sum = "6e871c4a6205125494e3e79ac82601a89395e3ad"
+depends = "['modemmanager>=1.6.2', 'qt5-base>=5.15.17']"
 +++
 ### Description: 
 Qt-only wrapper for ModemManager DBus API.

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "dfl-utils 0.3.0-2"
-version = "0.3.0-2"
+title = "dfl-utils 0.3.0-4"
+version = "0.3.0-4"
 description = "Some utilities for DFL"
-date = "2025-04-24T12:50:05"
+date = "2025-05-24T11:14:40"
 aliases = "/packages/221555"
 categories = ['xlib-extra']
 upstreamurl = "https://gitlab.com/desktop-frameworks/utils"
 arch = "x86_64"
-size = "21204"
-usize = "60457"
-sha1sum = "2d5a6efd85800462bed4d977453896936b26ee4a"
+size = "21352"
+usize = "60505"
+sha1sum = "56d465c91947322b4b6b7cbed541997beb581ef0"
 depends = "['qt5-base>=5.15.15']"
 reverse_depends = "['greetd-qtgreet']"
 +++

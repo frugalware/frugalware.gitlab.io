@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "prison5 5.116.0-4"
-version = "5.116.0-4"
+title = "prison5 5.116.0-9"
+version = "5.116.0-9"
 description = "Qt library to access Open Collaboration Services"
-date = "2024-11-15T21:20:33"
+date = "2025-05-24T10:13:51"
 aliases = "/packages/221380"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "58564"
-usize = "241913"
-sha1sum = "dd4e745148e3180141900eb6ac3caaa17e013c57"
-depends = "['libdmtx>=0.7.4', 'qrencode>=4.0.0', 'qt5-base>=5.15.16', 'qt5-multimedia>=5.15.16', 'zxing-cpp']"
+size = "60180"
+usize = "246586"
+sha1sum = "8411736861e3e128960c14d3a2189e8d42d3dd0a"
+depends = "['libdmtx>=0.7.4', 'qrencode>=4.0.0', 'qt5-base>=5.15.17', 'qt5-multimedia>=5.15.17', 'zxing-cpp']"
 +++
 ### Description: 
 Qt library to access Open Collaboration Services

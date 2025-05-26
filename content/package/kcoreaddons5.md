@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kcoreaddons5 5.116.0-4"
-version = "5.116.0-4"
+title = "kcoreaddons5 5.116.0-7"
+version = "5.116.0-7"
 description = "Utilities for core application functionality and accessing the OS."
-date = "2024-11-15T21:39:55"
+date = "2025-05-24T11:30:05"
 aliases = "/packages/221298"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "470784"
-usize = "2046407"
-sha1sum = "06315886ef320f6a721e39344ddffb20c2ad039f"
-depends = "['qt5-base>=5.15.16', 'shared-mime-info']"
+size = "472872"
+usize = "2047917"
+sha1sum = "12734ccaf34cf1801e6d5a14dc7a4b7b9b25f674"
+depends = "['qt5-base>=5.15.17', 'shared-mime-info']"
 reverse_depends = "['kauth5', 'kcontacts5', 'kcrash5', 'kdav5', 'kdesignerplugin5', 'kjobwidgets5', 'kpackage5', 'kpty5', 'krename', 'libreoffice-gtk3-kde5', 'libreoffice-kde5', 'minuet', 'purpose5']"
 +++
 ### Description: 

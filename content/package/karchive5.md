@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "karchive5 5.116.0-4"
-version = "5.116.0-4"
+title = "karchive5 5.116.0-10"
+version = "5.116.0-10"
 description = "Qt 5 addon providing access to numerous types of archives."
-date = "2024-11-15T21:28:31"
+date = "2025-05-24T11:23:14"
 aliases = "/packages/221287"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "137276"
-usize = "635224"
-sha1sum = "3aa7d9bafaea4cdae9889c9e7871842807543fd6"
-depends = "['qt5-base>=5.15.16']"
+size = "138940"
+usize = "636803"
+sha1sum = "373eae5a563d8471912963f7f3125d3476136860"
+depends = "['qt5-base>=5.15.17']"
 reverse_depends = "['kdoctools5', 'kemoticons5', 'kiconthemes5', 'kimageformats5', 'kio5', 'kpackage5']"
 +++
 ### Description: 

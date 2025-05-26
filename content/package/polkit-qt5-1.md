@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "polkit-qt5-1 0.200.0-6"
-version = "0.200.0-6"
+title = "polkit-qt5-1 0.200.0-7"
+version = "0.200.0-7"
 description = "A library that allows developers to access Polikit API with a nice Qt-style API"
-date = "2024-11-16T14:49:31"
+date = "2025-05-25T11:31:04"
 aliases = "/packages/201106"
 categories = ['xlib']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "68268"
-usize = "275660"
-sha1sum = "2a89cee59bb7870489941bfbb1c2656f5ec5e90b"
+size = "68892"
+usize = "276764"
+sha1sum = "99836b1a9019bf47997f7df95d65edca144936dc"
 depends = "['libgcc>=6.2.1-5', 'libice>=1.0.9-3', 'libuuid>=2.40.2', 'libxext>=1.3.3-3', 'libxrender>=0.9.9-5', 'polkit>=0.113-9', 'qt5-base>=5.15.15']"
 reverse_depends = "['calamares-frugalware', 'kauth5']"
 +++

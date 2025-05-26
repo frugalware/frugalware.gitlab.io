@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "sqlitestudio 3.4.4-7"
-version = "3.4.4-7"
+title = "sqlitestudio 3.4.4-8"
+version = "3.4.4-8"
 description = "A sqlite database manager"
-date = "2024-11-16T15:39:36"
+date = "2025-05-25T19:56:02"
 aliases = "/packages/217831"
 categories = ['xapps-extra']
 upstreamurl = "http://sqlitestudio.pl"
 arch = "x86_64"
-size = "3670476"
-usize = "11311529"
-sha1sum = "8550a0919fae858124425157f7dec3ef026e37e6"
+size = "3736484"
+usize = "11508785"
+sha1sum = "8a2fbb549d8469c4e74c78b79394bfe4bf81cbac"
 depends = "['qt5-script>=5.15.15', 'qt5-svg>=5.15.15']"
 +++
 ### Description: 

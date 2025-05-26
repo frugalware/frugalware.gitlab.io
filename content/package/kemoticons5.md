@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kemoticons5 5.116.0-4"
-version = "5.116.0-4"
+title = "kemoticons5 5.116.0-7"
+version = "5.116.0-7"
 description = "Convert text emoticons to graphical emoticons."
-date = "2024-11-15T22:03:58"
+date = "2025-05-24T11:40:49"
 aliases = "/packages/221311"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1640860"
-usize = "2292237"
-sha1sum = "e065135dad14550cc06ff1623e677e3ebd9ee4b6"
+size = "1640580"
+usize = "2290674"
+sha1sum = "82462981fa510064991ef07848059cae02008475"
 depends = "['karchive5>=5.116.0', 'kservice5>=5.116.0']"
 reverse_depends = "['kdelibs4support5']"
 +++

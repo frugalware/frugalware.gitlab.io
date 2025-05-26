@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "plasma-framework5 5.116.0-4"
-version = "5.116.0-4"
+title = "plasma-framework5 5.116.0-6"
+version = "5.116.0-6"
 description = "Plasma library and runtime components based upon KF5 and Qt5."
-date = "2024-11-16T10:41:52"
+date = "2025-05-24T11:01:47"
 aliases = "/packages/221376"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1133428"
-usize = "4324816"
-sha1sum = "03851a1c19112150ece9248a3cdce66041399d9e"
+size = "1144536"
+usize = "4346373"
+sha1sum = "ddb8a1e14903ec2688eb447911c4b93b5df95c27"
 depends = "['kactivities5>=5.116.0', 'kdeclarative5>=5.116.0', 'kirigami25>=5.116.0', 'kwayland5>=5.116.0']"
 reverse_depends = "['krunner5', 'qqc2-desktop-style5']"
 +++

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "solid5 5.116.0-4"
-version = "5.116.0-4"
+title = "solid5 5.116.0-7"
+version = "5.116.0-7"
 description = "KDE Desktop hardware abstraction."
-date = "2024-11-15T21:31:58"
+date = "2025-05-24T10:23:48"
 aliases = "/packages/221387"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "326388"
-usize = "1789225"
-sha1sum = "56b186f4f52c8fa0285d0cae7f38ed8aeb4afc90"
-depends = "['libimobiledevice', 'libsystemd>=231-6', 'media-player-info', 'qt5-declarative>=5.15.16', 'udisks2>=2.1.7-2', 'upower>=0.99.4-2']"
+size = "329760"
+usize = "1796168"
+sha1sum = "2e9d8acf70e2adec6aefd47ab64956d946de11e6"
+depends = "['libimobiledevice', 'libsystemd>=231-6', 'media-player-info', 'qt5-declarative>=5.15.17', 'udisks2>=2.1.7-2', 'upower>=0.99.4-2']"
 reverse_depends = "['kio5']"
 +++
 ### Description: 

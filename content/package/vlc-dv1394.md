@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vlc-dv1394 3.0.21-29"
-version = "3.0.21-29"
+title = "vlc-dv1394 3.0.21-30"
+version = "3.0.21-30"
 description = "vlc plugin for dv1394"
-date = "2025-05-20T20:20:08"
+date = "2025-05-26T06:46:38"
 aliases = "/packages/218052"
 categories = ['vlc-codecs']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "19216"
+size = "19260"
 usize = "14528"
-sha1sum = "83cc8b25bb8ae92ea76c38e184b0217983b11d6e"
+sha1sum = "3cb21e24482da9aa707cfe8edecfb030b0b92843"
 depends = "['libavc1394', 'libvlc>=3.0.21']"
 +++
 ### Description: 

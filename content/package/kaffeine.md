@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kaffeine 2.0.18-5"
-version = "2.0.18-5"
+title = "kaffeine 2.0.19-1"
+version = "2.0.19-1"
 description = "KDE media player"
-date = "2024-11-16T11:07:45"
+date = "2025-05-26T07:00:22"
 aliases = "/packages/218929"
 categories = ['kde5']
 upstreamurl = "http://kaffeine.kde.org"
 arch = "x86_64"
-size = "6291468"
-usize = "10043312"
-sha1sum = "550a287e794ba85eae275b2b1e075ff511ee6a6a"
+size = "6035568"
+usize = "10412279"
+sha1sum = "25e7a9b19e67717ac71ed0c7a2c523de231f81d2"
 depends = "['kio5>=5.116.0', 'libvlc', 'libxscrnsaver', 'v4l-utils', 'vlc']"
 license = "GPL"
 +++
@@ -20,31 +20,10 @@ KDE media player
 ### Files: 
 * /usr/bin/kaffeine
 * /usr/share/applications/org.kde.kaffeine.desktop
-* /usr/share/doc/HTML/ca/kaffeine/application-x-subrip.png
-* /usr/share/doc/HTML/ca/kaffeine/audio-volume-high.png
-* /usr/share/doc/HTML/ca/kaffeine/audio-volume-low.png
-* /usr/share/doc/HTML/ca/kaffeine/audio-volume-medium.png
-* /usr/share/doc/HTML/ca/kaffeine/audio-volume-muted.png
-* /usr/share/doc/HTML/ca/kaffeine/configure-shortcuts.png
-* /usr/share/doc/HTML/ca/kaffeine/configure.png
-* /usr/share/doc/HTML/ca/kaffeine/dialog-information.png
-* /usr/share/doc/HTML/ca/kaffeine/document-open-folder.png
-* /usr/share/doc/HTML/ca/kaffeine/document-open-recent.png
-* /usr/share/doc/HTML/ca/kaffeine/document-save-as.png
-* /usr/share/doc/HTML/ca/kaffeine/document-save.png
-* /usr/share/doc/HTML/ca/kaffeine/edit-clear-list.png
-* /usr/share/doc/HTML/ca/kaffeine/edit-delete.png
-* /usr/share/doc/HTML/ca/kaffeine/edit-rename.png
-* /usr/share/doc/HTML/ca/kaffeine/format-justify-center.png
-* /usr/share/doc/HTML/ca/kaffeine/go-jump.png
-* /usr/share/doc/HTML/ca/kaffeine/gtk-quit.png
 * /usr/share/doc/HTML/ca/kaffeine/index.cache.bz2
 * /usr/share/doc/HTML/ca/kaffeine/index.docbook
-* /usr/share/doc/HTML/ca/kaffeine/kaffeine_configure_tv_dvbc_dvbt2_device.png
-* /usr/share/doc/HTML/ca/kaffeine/kaffeine_configure_tv_dvbs2_device.png
 * /usr/share/doc/HTML/ca/kaffeine/kaffeine_configure_tv_general_opts.png
 * /usr/share/doc/HTML/ca/kaffeine/kaffeine_configure_tv_isdb_device.png
-* /usr/share/doc/HTML/ca/kaffeine/kaffeine_configure_tv_lnbf.png
 * /usr/share/doc/HTML/ca/kaffeine/kaffeine_initial.png
 * /usr/share/doc/HTML/ca/kaffeine/kaffeine_live_tv.png
 * /usr/share/doc/HTML/ca/kaffeine/kaffeine_play_file.png
@@ -52,27 +31,9 @@ KDE media player
 * /usr/share/doc/HTML/ca/kaffeine/kaffeine_recording_schedule_enabled.png
 * /usr/share/doc/HTML/ca/kaffeine/kaffeine_scan_channel_edit.png
 * /usr/share/doc/HTML/ca/kaffeine/kaffeine_scan_finished_channels_added.png
-* /usr/share/doc/HTML/ca/kaffeine/list-add.png
-* /usr/share/doc/HTML/ca/kaffeine/media-optical-audio.png
-* /usr/share/doc/HTML/ca/kaffeine/media-optical-video.png
-* /usr/share/doc/HTML/ca/kaffeine/media-optical.png
-* /usr/share/doc/HTML/ca/kaffeine/media-playback-pause-circular.png
-* /usr/share/doc/HTML/ca/kaffeine/media-playback-pause.png
-* /usr/share/doc/HTML/ca/kaffeine/media-playback-start-circular.png
-* /usr/share/doc/HTML/ca/kaffeine/media-playback-start.png
-* /usr/share/doc/HTML/ca/kaffeine/media-playback-stop.png
-* /usr/share/doc/HTML/ca/kaffeine/media-playlist-repeat.png
-* /usr/share/doc/HTML/ca/kaffeine/media-playlist-shuffle.png
-* /usr/share/doc/HTML/ca/kaffeine/media-record.png
-* /usr/share/doc/HTML/ca/kaffeine/media-skip-backward.png
-* /usr/share/doc/HTML/ca/kaffeine/media-skip-forward.png
 * /usr/share/doc/HTML/ca/kaffeine/playlistwindow.png
-* /usr/share/doc/HTML/ca/kaffeine/text-html.png
-* /usr/share/doc/HTML/ca/kaffeine/video-television.png
-* /usr/share/doc/HTML/ca/kaffeine/view-fullscreen.png
-* /usr/share/doc/HTML/ca/kaffeine/view-list-details.png
-* /usr/share/doc/HTML/ca/kaffeine/view-pim-calendar.png
-* /usr/share/doc/HTML/ca/kaffeine/view-restore.png
+* /usr/share/doc/HTML/de/kaffeine/index.cache.bz2
+* /usr/share/doc/HTML/de/kaffeine/index.docbook
 * /usr/share/doc/HTML/en/kaffeine/application-x-subrip.png
 * /usr/share/doc/HTML/en/kaffeine/audio-volume-high.png
 * /usr/share/doc/HTML/en/kaffeine/audio-volume-low.png
@@ -128,11 +89,20 @@ KDE media player
 * /usr/share/doc/HTML/en/kaffeine/view-restore.png
 * /usr/share/doc/HTML/it/kaffeine/index.cache.bz2
 * /usr/share/doc/HTML/it/kaffeine/index.docbook
+* /usr/share/doc/HTML/it/kaffeine/kaffeine_configure_tv_general_opts.png
+* /usr/share/doc/HTML/it/kaffeine/kaffeine_configure_tv_isdb_device.png
+* /usr/share/doc/HTML/it/kaffeine/kaffeine_initial.png
+* /usr/share/doc/HTML/it/kaffeine/kaffeine_live_tv.png
+* /usr/share/doc/HTML/it/kaffeine/kaffeine_play_file.png
+* /usr/share/doc/HTML/it/kaffeine/kaffeine_program_guide.png
+* /usr/share/doc/HTML/it/kaffeine/kaffeine_recording_schedule_enabled.png
+* /usr/share/doc/HTML/it/kaffeine/kaffeine_scan_channel_edit.png
+* /usr/share/doc/HTML/it/kaffeine/kaffeine_scan_finished_channels_added.png
+* /usr/share/doc/HTML/it/kaffeine/playlistwindow.png
 * /usr/share/doc/HTML/nl/kaffeine/index.cache.bz2
 * /usr/share/doc/HTML/nl/kaffeine/index.docbook
 * /usr/share/doc/HTML/pt/kaffeine/index.cache.bz2
 * /usr/share/doc/HTML/pt/kaffeine/index.docbook
-* /usr/share/doc/HTML/pt_BR/kaffeine/document-save.png
 * /usr/share/doc/HTML/pt_BR/kaffeine/index.cache.bz2
 * /usr/share/doc/HTML/pt_BR/kaffeine/index.docbook
 * /usr/share/doc/HTML/pt_BR/kaffeine/kaffeine_configure_tv_dvbc_dvbt2_device.png
@@ -147,18 +117,16 @@ KDE media player
 * /usr/share/doc/HTML/pt_BR/kaffeine/kaffeine_recording_schedule_enabled.png
 * /usr/share/doc/HTML/pt_BR/kaffeine/kaffeine_scan_channel_edit.png
 * /usr/share/doc/HTML/pt_BR/kaffeine/kaffeine_scan_finished_channels_added.png
-* /usr/share/doc/HTML/pt_BR/kaffeine/media-record.png
 * /usr/share/doc/HTML/pt_BR/kaffeine/playlistwindow.png
-* /usr/share/doc/HTML/pt_BR/kaffeine/startwindow.png
 * /usr/share/doc/HTML/sv/kaffeine/index.cache.bz2
 * /usr/share/doc/HTML/sv/kaffeine/index.docbook
 * /usr/share/doc/HTML/uk/kaffeine/index.cache.bz2
 * /usr/share/doc/HTML/uk/kaffeine/index.docbook
-* /usr/share/doc/kaffeine-2.0.18/Changelog
-* /usr/share/doc/kaffeine-2.0.18/COPYING
-* /usr/share/doc/kaffeine-2.0.18/COPYING-DOCS
-* /usr/share/doc/kaffeine-2.0.18/README.md
-* /usr/share/doc/kaffeine-2.0.18/TODO
+* /usr/share/doc/kaffeine-2.0.19/Changelog
+* /usr/share/doc/kaffeine-2.0.19/COPYING
+* /usr/share/doc/kaffeine-2.0.19/COPYING-DOCS
+* /usr/share/doc/kaffeine-2.0.19/README.md
+* /usr/share/doc/kaffeine-2.0.19/TODO
 * /usr/share/icons/hicolor/scalable/actions/arrow-left.svg
 * /usr/share/icons/hicolor/scalable/actions/arrow-right.svg
 * /usr/share/icons/hicolor/scalable/actions/audio-radio-encrypted.svg
@@ -233,6 +201,7 @@ KDE media player
 * /usr/share/locale/id/LC_MESSAGES/kaffeine.mo
 * /usr/share/locale/it/LC_MESSAGES/kaffeine.mo
 * /usr/share/locale/ja/LC_MESSAGES/kaffeine.mo
+* /usr/share/locale/ka/LC_MESSAGES/kaffeine.mo
 * /usr/share/locale/km/LC_MESSAGES/kaffeine.mo
 * /usr/share/locale/ko/LC_MESSAGES/kaffeine.mo
 * /usr/share/locale/ku/LC_MESSAGES/kaffeine.mo
@@ -265,6 +234,8 @@ KDE media player
 * /usr/share/locale/zh_CN/LC_MESSAGES/kaffeine.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kaffeine.mo
 * /usr/share/man/ca/man1/kaffeine.1.gz
+* /usr/share/man/de/man1/kaffeine.1.gz
+* /usr/share/man/id/man1/kaffeine.1.gz
 * /usr/share/man/it/man1/kaffeine.1.gz
 * /usr/share/man/man1/kaffeine.1.gz
 * /usr/share/man/nl/man1/kaffeine.1.gz
@@ -273,7 +244,6 @@ KDE media player
 * /usr/share/man/sv/man1/kaffeine.1.gz
 * /usr/share/man/uk/man1/kaffeine.1.gz
 * /usr/share/metainfo/org.kde.kaffeine.appdata.xml
-* /usr/share/profiles/kaffeine.profile.xml
 * /usr/share/solid/actions/kaffeine_play_audiocd.desktop
 * /usr/share/solid/actions/kaffeine_play_dvd.desktop
 * /usr/share/solid/actions/kaffeine_play_videocd.desktop

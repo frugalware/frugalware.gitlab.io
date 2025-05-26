@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "rolisteam 1.9.3-9"
-version = "1.9.3-9"
+title = "rolisteam 1.9.3-10"
+version = "1.9.3-10"
 description = "An online role game helper."
-date = "2024-11-16T15:15:21"
+date = "2025-05-25T17:48:06"
 aliases = "/packages/136086"
 categories = ['games-extra']
 upstreamurl = "https://sourceforge.net/projects/rolisteam"
 arch = "x86_64"
-size = "4640444"
-usize = "9007390"
-sha1sum = "158fb0f9efb8e0be9859b9b946c669d15ec17bd6"
+size = "4684984"
+usize = "9208870"
+sha1sum = "de177c863ad519e96480b042611057a4378483de"
 depends = "['qt5-multimedia>=5.15.15', 'qt5-svg>=5.15.15', 'qt5-webengine>=5.15.15']"
 +++
 ### Description: 

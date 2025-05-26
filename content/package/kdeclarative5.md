@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kdeclarative5 5.116.0-4"
-version = "5.116.0-4"
+title = "kdeclarative5 5.116.0-7"
+version = "5.116.0-7"
 description = "Integration of QML and KDE workspaces."
-date = "2024-11-16T10:32:21"
+date = "2025-05-24T11:32:52"
 aliases = "/packages/221302"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "265856"
-usize = "1396541"
-sha1sum = "be674a16dd2968f785499529765b6645a7fb7ee1"
+size = "269700"
+usize = "1400360"
+sha1sum = "baf646cb5ad00864b559a70538e08f2b2a428a04"
 depends = "['kio5>=5.116.0', 'kpackage5>=5.116.0', 'libepoxy>=1.3.1-6']"
 reverse_depends = "['artikulate', 'kcmutils5', 'ktouch', 'plasma-framework5', 'purpose5', 'rocs']"
 +++

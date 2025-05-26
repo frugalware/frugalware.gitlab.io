@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kwindowsystem5 5.116.0-4"
-version = "5.116.0-4"
+title = "kwindowsystem5 5.116.0-9"
+version = "5.116.0-9"
 description = "KDE Access to window manager."
-date = "2024-11-15T21:25:31"
+date = "2025-05-24T10:18:29"
 aliases = "/packages/221358"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "176572"
-usize = "731896"
-sha1sum = "14ae8978caa4a1fbea57708424215b5bd7626031"
-depends = "['qt5-x11extras>=5.15.16', 'xcb-util-keysyms>=0.4.0-3']"
+size = "177968"
+usize = "734507"
+sha1sum = "7622117595754a8605f817c07e58baad5a708a69"
+depends = "['qt5-x11extras>=5.15.17', 'xcb-util-keysyms>=0.4.0-3']"
 reverse_depends = "['kcrash5', 'kwayland-integration', 'libreoffice-gtk3-kde5', 'libreoffice-kde5']"
 +++
 ### Description: 

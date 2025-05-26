@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kactivities5 5.116.0-4"
-version = "5.116.0-4"
+title = "kactivities5 5.116.0-7"
+version = "5.116.0-7"
 description = "The KActivity Manager Daemon."
-date = "2024-11-15T22:12:11"
+date = "2025-05-24T11:20:03"
 aliases = "/packages/218270"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "111188"
-usize = "450081"
-sha1sum = "1d2f1d42a2bc03debc501f0409119a4082ee1acd"
+size = "115744"
+usize = "462355"
+sha1sum = "3b0764b9794cdc35d63df2011446cef73c821c01"
 depends = "['kio5>=5.116.0']"
 reverse_depends = "['kactivities-stats5', 'plasma-framework5']"
 +++

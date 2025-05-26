@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qtkeychain 0.15.0-4"
-version = "0.15.0-4"
+title = "qtkeychain 0.15.0-5"
+version = "0.15.0-5"
 description = "Provides support for secure credentials storage."
-date = "2025-04-07T13:13:29"
+date = "2025-05-26T08:10:33"
 aliases = "/packages/200160"
 categories = ['xlib']
 upstreamurl = "https://github.com/frankosterfeld/qtkeychain"
 arch = "x86_64"
-size = "64056"
-usize = "244180"
-sha1sum = "fe1e883b972db588dfd3a39286177b62d2577543"
+size = "65100"
+usize = "245876"
+sha1sum = "4e86d38beb00e4237f580ccf459f0f1a9241bf5f"
 depends = "['libsecret', 'qt6-base>=6.8.2']"
 reverse_depends = "['calligra', 'kasts', 'kio-gdrive', 'kldap', 'kmailtransport', 'krdp', 'ktextaddons', 'libquotient', 'mixxx', 'plasmatube', 'smb4k', 'tokodon']"
 +++

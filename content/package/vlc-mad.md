@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vlc-mad 3.0.21-29"
-version = "3.0.21-29"
+title = "vlc-mad 3.0.21-30"
+version = "3.0.21-30"
 description = "vlc mad filter support"
-date = "2025-05-20T20:20:08"
+date = "2025-05-26T06:46:38"
 aliases = "/packages/219578"
 categories = ['vlc-codecs']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "17548"
+size = "17592"
 usize = "9488"
-sha1sum = "df36738a67e5b97f1a5c11d4e999f8fcf5a9c8f4"
+sha1sum = "a1c62119e5842b169ae3f26af8f12bbc7b3d0403"
 depends = "['libmad', 'libvlc>=3.0.21']"
 +++
 ### Description: 

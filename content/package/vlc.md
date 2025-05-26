@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vlc 3.0.21-29"
-version = "3.0.21-29"
+title = "vlc 3.0.21-30"
+version = "3.0.21-30"
 description = "The cross-platform media player and streaming server."
-date = "2025-05-20T20:20:08"
+date = "2025-05-26T06:46:38"
 aliases = "/packages/14226"
 categories = ['xmultimedia']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "10096956"
-usize = "55483779"
-sha1sum = "1041fc7ae1fda43e9918a45ea8e79cf0bc493fbc"
+size = "10092184"
+usize = "55473307"
+sha1sum = "81dc3121c4983cf731486bfdcaf64c9b73023bc6"
 depends = "['alsa-lib', 'fribidi', 'libva>=2.3', 'libva-mesa-driver', 'libvlc>=3.0.21', 'libxml2>=2.14.3', 'mesa-vdpau-drivers', 'pcre2', 'qt5-svg>=5.15.15', 'qt5-x11extras>=5.15.15']"
 reverse_depends = "['cantata', 'elisa', 'kaffeine', 'kalarm', 'kasts', 'obs-studio']"
 +++
@@ -177,7 +177,6 @@ The cross-platform media player and streaming server.
 * /usr/lib/vlc/plugins/audio_output/libamem_plugin.so
 * /usr/lib/vlc/plugins/codec/libadpcm_plugin.so
 * /usr/lib/vlc/plugins/codec/libaes3_plugin.so
-* /usr/lib/vlc/plugins/codec/libaom_plugin.so
 * /usr/lib/vlc/plugins/codec/libaraw_plugin.so
 * /usr/lib/vlc/plugins/codec/libcc_plugin.so
 * /usr/lib/vlc/plugins/codec/libcdg_plugin.so

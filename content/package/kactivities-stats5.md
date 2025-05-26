@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kactivities-stats5 5.116.0-4"
-version = "5.116.0-4"
+title = "kactivities-stats5 5.116.0-7"
+version = "5.116.0-7"
 description = "Library for accessing the usage statistics data collected by the KDE activity manager."
-date = "2024-11-15T22:16:05"
+date = "2025-05-24T11:20:50"
 aliases = "/packages/221285"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "74976"
-usize = "259487"
-sha1sum = "a1101acebd43e150cc88ef729a1fa160081a7a06"
+size = "75748"
+usize = "262121"
+sha1sum = "664a5323ec9c8a8b300a21d223c4e7d56af512ac"
 depends = "['kactivities5>=5.116.0', 'kio5>=5.116.0']"
 reverse_depends = "['kio5-extras']"
 +++

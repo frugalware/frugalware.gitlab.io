@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qscintilla2-qt5 2.11.2-9"
-version = "2.11.2-9"
+title = "qscintilla2-qt5 2.11.2-10"
+version = "2.11.2-10"
 description = "QScintilla2 is a port to Qt of Neil Hodgson's Scintilla C++ editor class. (Qt5)"
-date = "2024-11-16T15:07:26"
+date = "2025-05-25T11:47:27"
 aliases = "/packages/217428"
 categories = ['xlib-extra']
 upstreamurl = "http://www.riverbankcomputing.co.uk/"
 arch = "x86_64"
-size = "1174220"
-usize = "6476999"
-sha1sum = "b4b5cb962e9ecb2a1e7d8f1769d74656a61e0d06"
+size = "1183680"
+usize = "6493399"
+sha1sum = "f7f8af4cfb4c0d7a36d7023f3e38ed7becfbd861"
 depends = "['qt5-base>=5.15.10', 'qt5-tools>=5.15.10']"
 reverse_depends = "['database-browser-sqlite']"
 license = "GPL"

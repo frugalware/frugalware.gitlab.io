@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gpsd 3.25-10"
-version = "3.25-10"
+title = "gpsd 3.26.1-1"
+version = "3.26.1-1"
 description = "GPS daemon and library to support USB/serial GPS devices"
-date = "2024-11-16T16:34:41"
+date = "2025-05-26T07:27:37"
 aliases = "/packages/61099"
 categories = ['xapps']
 upstreamurl = "http://www.catb.org/gpsd"
 arch = "x86_64"
-size = "927564"
-usize = "4307171"
-sha1sum = "7f7bd1eb7163849725e1eb135bbeb138bf87d222"
+size = "1045720"
+usize = "4889519"
+sha1sum = "48fa036431365c1997c0076c60345969bd694c1b"
 depends = "['bluez>=5.41-2', 'libusb1>=1.0.20-4', 'ncurses>=6.5']"
 reverse_depends = "['gpsd-qt', 'libmarble', 'stellarium']"
 +++
@@ -32,6 +32,7 @@ GPS daemon and library to support USB/serial GPS devices
 * /usr/bin/gpsdebuginfo
 * /usr/bin/gpsdecode
 * /usr/bin/gpsfake
+* /usr/bin/gpslogntp
 * /usr/bin/gpsmon
 * /usr/bin/gpspipe
 * /usr/bin/gpsplot
@@ -50,24 +51,25 @@ GPS daemon and library to support USB/serial GPS devices
 * /usr/include/gps.h
 * /usr/include/libgpsmm.h
 * /usr/lib/libgps.so
-* /usr/lib/libgps.so.30
-* /usr/lib/libgps.so.30.0.0
+* /usr/lib/libgps.so.31
+* /usr/lib/libgps.so.31.0.0
 * /usr/lib/libgpsdpacket.so
-* /usr/lib/libgpsdpacket.so.30
-* /usr/lib/libgpsdpacket.so.30.0.0
+* /usr/lib/libgpsdpacket.so.31
+* /usr/lib/libgpsdpacket.so.31.0.0
 * /usr/lib/pkgconfig/libgps.pc
 * /usr/lib/systemd/system/gpsd.service
 * /usr/lib/systemd/system/gpsd.socket
 * /usr/lib/systemd/system/gpsdctl@.service
 * /usr/lib/tmpfiles.d/gpsd.conf
-* /usr/share/doc/gpsd-3.25/AUTHORS
-* /usr/share/doc/gpsd-3.25/COPYING
-* /usr/share/doc/gpsd-3.25/HACKING
-* /usr/share/doc/gpsd-3.25/INSTALL.adoc
-* /usr/share/doc/gpsd-3.25/LICENSE
-* /usr/share/doc/gpsd-3.25/NEWS
-* /usr/share/doc/gpsd-3.25/README.adoc
-* /usr/share/doc/gpsd-3.25/TODO
+* /usr/share/doc/gpsd-3.26.1/AUTHORS
+* /usr/share/doc/gpsd-3.26.1/COPYING
+* /usr/share/doc/gpsd-3.26.1/HACKING
+* /usr/share/doc/gpsd-3.26.1/INSTALL.adoc
+* /usr/share/doc/gpsd-3.26.1/LICENSE
+* /usr/share/doc/gpsd-3.26.1/NEWS
+* /usr/share/doc/gpsd-3.26.1/README.adoc
+* /usr/share/doc/gpsd-3.26.1/README.asciidoc
+* /usr/share/doc/gpsd-3.26.1/TODO
 * /usr/share/gpsd/doc/AUTHORS
 * /usr/share/gpsd/doc/build.adoc
 * /usr/share/gpsd/doc/COPYING
@@ -87,6 +89,7 @@ GPS daemon and library to support USB/serial GPS devices
 * /usr/share/man/man1/gpsdebuginfo.1.gz
 * /usr/share/man/man1/gpsdecode.1.gz
 * /usr/share/man/man1/gpsfake.1.gz
+* /usr/share/man/man1/gpslogntp.1.gz
 * /usr/share/man/man1/gpsmon.1.gz
 * /usr/share/man/man1/gpspipe.1.gz
 * /usr/share/man/man1/gpsplot.1.gz

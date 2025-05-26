@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-vec 25.2.3.2-2"
-version = "25.2.3.2-2"
+title = "libreoffice-l10n-vec 25.2.3.2-3"
+version = "25.2.3.2-3"
 description = "Installs Venetian support in LibreOffice"
-date = "2025-05-21T12:30:11"
+date = "2025-05-26T09:05:37"
 aliases = "/packages/218998"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "525852"
+size = "526096"
 usize = "2741951"
-sha1sum = "5b920789c6bb71ba2196fabdf89d59a5ccabf460"
+sha1sum = "08a3fad8f850253660ba7f96b4e8fcb717f68443"
 depends = "['libreoffice>=25.2.3.2']"
 +++
 ### Description: 

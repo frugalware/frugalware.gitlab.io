@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "step 25.04.1-1"
-version = "25.04.1-1"
+title = "step 25.04.1-2"
+version = "25.04.1-2"
 description = "Interactive Physics Simulator."
-date = "2025-05-09T20:00:11"
+date = "2025-05-25T20:00:40"
 aliases = "/packages/152841"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1279352"
+size = "1279796"
 usize = "12131779"
-sha1sum = "6125452157e55e3bb2072639b0550bc440ca92aa"
+sha1sum = "d5f125eb149c89e153478322d8577a309f5598aa"
 depends = "['gsl>=2.8', 'kdelibs4support5>=5.116.0', 'khtml5>=5.116.0', 'knewstuff5>=5.116.0', 'libqalculate>=5.0.0']"
 +++
 ### Description: 

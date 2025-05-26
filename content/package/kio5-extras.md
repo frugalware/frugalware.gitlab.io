@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kio5-extras 24.02.2-1"
-version = "24.02.2-1"
+title = "kio5-extras 24.02.2-2"
+version = "24.02.2-2"
 description = "Additional components to increase the functionality of KIO."
-date = "2025-04-23T09:06:34"
+date = "2025-05-24T11:52:11"
 aliases = "/packages/222709"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1145804"
-usize = "4489244"
-sha1sum = "7e8a2e1395cd7b633919a6c22ee046f042cdba8e"
-depends = "['icoutils', 'kactivities-stats5>=5.116.0', 'kcmutils5>=5.116.0', 'kdnssd5>=5.116.0', 'kdsoap5', 'kpty5>=5.116.0', 'libappimage', 'libkexiv25', 'libmtp>=1.1.12-2', 'libplist>=2.3.0', 'libssh>=0.7.3-2', 'libtirpc', 'openexr>=3.3.0', 'openslp>=2.0.0-3', 'qt5-webengine>=5.15.16', 'samba-client>=4.5.0', 'syntax-highlighting5>=5.116.0', 'taglib>=2.0']"
+size = "1149380"
+usize = "4511956"
+sha1sum = "ef8eef8c278853d79def1f179d02b32ec0c39d8c"
+depends = "['icoutils', 'kactivities-stats5>=5.116.0', 'kcmutils5>=5.116.0', 'kdnssd5>=5.116.0', 'kdsoap5', 'kpty5>=5.116.0', 'libappimage', 'libkexiv25', 'libmtp>=1.1.12-2', 'libplist>=2.3.0', 'libssh>=0.7.3-2', 'libtirpc', 'openexr>=3.3.0', 'openslp>=2.0.0-3', 'qt5-webengine>=5.15.17', 'samba-client>=4.5.0', 'syntax-highlighting5>=5.116.0', 'taglib>=2.0']"
 +++
 ### Description: 
 Additional components to increase the functionality of KIO.

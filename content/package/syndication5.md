@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "syndication5 5.116.0-4"
-version = "5.116.0-4"
+title = "syndication5 5.116.0-6"
+version = "5.116.0-6"
 description = "KParts Kontact interface."
-date = "2024-11-15T22:14:05"
+date = "2025-05-24T10:49:57"
 aliases = "/packages/221388"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "187340"
-usize = "788693"
-sha1sum = "68a3e223ff14216c0f004d9a287b75255b481df7"
+size = "189072"
+usize = "791068"
+sha1sum = "3163a3c007276b1e8b7e34fe433cb9e21a6e3726"
 depends = "['kio5>=5.116.0']"
 reverse_depends = "['knewstuff5']"
 +++

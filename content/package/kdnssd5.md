@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdnssd5 5.116.0-4"
-version = "5.116.0-4"
+title = "kdnssd5 5.116.0-7"
+version = "5.116.0-7"
 description = "Zeroconf Support for KDE."
-date = "2024-11-15T21:34:47"
+date = "2025-05-24T11:36:36"
 aliases = "/packages/221308"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "67048"
-usize = "245758"
-sha1sum = "a10f6775d0e8ff8bdb69f6e66b7b317abe3d9045"
-depends = "['avahi>=0.6.31-9', 'qt5-base>=5.15.16']"
+size = "68340"
+usize = "247094"
+sha1sum = "c15bf0b8797931562a6495ba4711da459dd69fe3"
+depends = "['avahi>=0.6.31-9', 'qt5-base>=5.15.17']"
 reverse_depends = "['kio5-extras']"
 +++
 ### Description: 

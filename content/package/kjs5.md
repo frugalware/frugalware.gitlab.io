@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kjs5 5.116.0-4"
-version = "5.116.0-4"
+title = "kjs5 5.116.0-6"
+version = "5.116.0-6"
 description = "KDE Javascript engine."
-date = "2024-11-15T21:49:36"
+date = "2025-05-24T10:36:40"
 aliases = "/packages/221333"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "369500"
-usize = "1579492"
-sha1sum = "f2a74c98f0f224b0bc18995c351b5f114278ca8b"
-depends = "['qt5-base>=5.15.16']"
+size = "373564"
+usize = "1584956"
+sha1sum = "db5f482582a2f1cae23db9b0d3354a3cd4a352e2"
+depends = "['qt5-base>=5.15.17']"
 reverse_depends = "['khtml5', 'kjsembed5', 'krename']"
 +++
 ### Description: 

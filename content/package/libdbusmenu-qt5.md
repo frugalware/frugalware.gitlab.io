@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libdbusmenu-qt5 0.9.3+16.04.20160218-22"
-version = "0.9.3+16.04.20160218-22"
+title = "libdbusmenu-qt5 0.9.3+16.04.20160218-23"
+version = "0.9.3+16.04.20160218-23"
 description = "Provides a QT5 implementation of DbusMenu."
-date = "2024-11-16T14:21:31"
+date = "2025-05-24T13:33:36"
 aliases = "/packages/201103"
 categories = ['xlib']
 upstreamurl = "https://launchpad.net/libdbusmenu-qt"
 arch = "x86_64"
-size = "162812"
-usize = "697931"
-sha1sum = "8e2924548e24926f03946639c9e21b2b5e98370f"
+size = "163376"
+usize = "697340"
+sha1sum = "6fcaf98c879ad7091a7a0eb5e58f34ccc96b333d"
 depends = "['qt5-base>=5.15.10']"
 reverse_depends = "['knotifications5']"
 +++

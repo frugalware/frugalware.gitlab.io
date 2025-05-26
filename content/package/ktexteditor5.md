@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ktexteditor5 5.116.0-4"
-version = "5.116.0-4"
+title = "ktexteditor5 5.116.0-6"
+version = "5.116.0-6"
 description = "Provides a powerful text editor component."
-date = "2024-11-16T10:40:36"
+date = "2025-05-24T11:00:55"
 aliases = "/packages/221350"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2510640"
-usize = "13122585"
-sha1sum = "69f3e49a8e0277f73cdb4b307eb8e70e8e3d87dc"
+size = "2530712"
+usize = "13169291"
+sha1sum = "0311e9982ac95f072fef6590722154b979a324da"
 depends = "['editorconfig-core-c', 'kparts5>=5.116.0', 'libgit2>=1.3.0', 'syntax-highlighting5>=5.116.0']"
 reverse_depends = "['ktouch', 'rocs', 'umbrello']"
 +++

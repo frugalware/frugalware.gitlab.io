@@ -1,26 +1,26 @@
 +++
 draft = false
-title = "qt5-gamepad 5.15.16-1"
-version = "5.15.16-1"
+title = "qt5-gamepad 5.15.17-1"
+version = "5.15.17-1"
 description = "The Qt5 toolkit, qtgamepad"
-date = "2024-11-15T21:11:11"
+date = "2025-05-23T14:25:13"
 aliases = "/packages/220785"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "77920"
-usize = "364684"
-sha1sum = "6546e338d298bb24ebeedfea7b3880aecf8463a5"
-depends = "['qt5-declarative>=5.15.16']"
+size = "79940"
+usize = "372792"
+sha1sum = "eff115c7db5e87b097996b61a9bd82bc34f21973"
+depends = "['qt5-declarative>=5.15.17']"
 +++
 ### Description: 
 The Qt5 toolkit, qtgamepad
 
 ### Files: 
-* /usr/include/qt5/QtGamepad/5.15.16/QtGamepad/private/qgamepadbackendfactory_p.h
-* /usr/include/qt5/QtGamepad/5.15.16/QtGamepad/private/qgamepadbackendplugin_p.h
-* /usr/include/qt5/QtGamepad/5.15.16/QtGamepad/private/qgamepadbackend_p.h
-* /usr/include/qt5/QtGamepad/5.15.16/QtGamepad/private/qtgamepad-config_p.h
+* /usr/include/qt5/QtGamepad/5.15.17/QtGamepad/private/qgamepadbackendfactory_p.h
+* /usr/include/qt5/QtGamepad/5.15.17/QtGamepad/private/qgamepadbackendplugin_p.h
+* /usr/include/qt5/QtGamepad/5.15.17/QtGamepad/private/qgamepadbackend_p.h
+* /usr/include/qt5/QtGamepad/5.15.17/QtGamepad/private/qtgamepad-config_p.h
 * /usr/include/qt5/QtGamepad/QGamepad
 * /usr/include/qt5/QtGamepad/qgamepad.h
 * /usr/include/qt5/QtGamepad/QGamepadKeyNavigation
@@ -41,7 +41,7 @@ The Qt5 toolkit, qtgamepad
 * /usr/lib/libQt5Gamepad.so
 * /usr/lib/libQt5Gamepad.so.5
 * /usr/lib/libQt5Gamepad.so.5.15
-* /usr/lib/libQt5Gamepad.so.5.15.16
+* /usr/lib/libQt5Gamepad.so.5.15.17
 * /usr/lib/pkgconfig/Qt5Gamepad.pc
 * /usr/lib/qt5/plugins/gamepads/libevdevgamepad.so
 * /usr/lib/qt5/plugins/gamepads/libsdl2gamepad.so

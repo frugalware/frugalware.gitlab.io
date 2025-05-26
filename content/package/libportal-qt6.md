@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libportal-qt6 0.9.1-3"
-version = "0.9.1-3"
+title = "libportal-qt6 0.9.1-4"
+version = "0.9.1-4"
 description = "libportal qt6 backend"
-date = "2025-04-08T09:57:50"
+date = "2025-05-26T07:44:04"
 aliases = "/packages/222530"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/flatpak/libportal"
 arch = "x86_64"
-size = "19944"
-usize = "58313"
-sha1sum = "7fd7b227a70ea3447af11b0d6789d47cb7f3aa8d"
+size = "20184"
+usize = "58073"
+sha1sum = "1461fd77375c73aa159bec99a95a521e1902473a"
 depends = "['libportal', 'qt6-base>=6.9.0']"
 +++
 ### Description: 

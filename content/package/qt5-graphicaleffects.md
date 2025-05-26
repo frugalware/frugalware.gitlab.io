@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qt5-graphicaleffects 5.15.16-1"
-version = "5.15.16-1"
+title = "qt5-graphicaleffects 5.15.17-1"
+version = "5.15.17-1"
 description = "The Qt5 toolkit, qtgraphicaleffects"
-date = "2024-11-15T20:51:34"
+date = "2025-05-23T14:05:34"
 aliases = "/packages/217616"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "73108"
-usize = "581966"
-sha1sum = "5b79037d09423aa4be458301a7ea78f45443a499"
-depends = "['qt5-declarative>=5.15.16']"
+size = "73544"
+usize = "582814"
+sha1sum = "0a01daa0c9b0962a68600a164dc32be96001cd62"
+depends = "['qt5-declarative>=5.15.17']"
 reverse_depends = "['kirigami25']"
 +++
 ### Description: 

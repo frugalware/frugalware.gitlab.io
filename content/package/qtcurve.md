@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qtcurve 1.9-4"
-version = "1.9-4"
+title = "qtcurve 1.9-5"
+version = "1.9-5"
 description = "QtCurve Theme libs"
-date = "2024-11-16T17:34:30"
+date = "2025-05-26T08:07:48"
 aliases = "/packages/201150"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "302008"
-usize = "2223729"
-sha1sum = "ebe3ec2067942a198fc68c128e3ffdfc4e445921"
+size = "302344"
+usize = "2224185"
+sha1sum = "d4945127910fc901c44576b3e834f712c2b16ebb"
 depends = "['libstdc++', 'libx11']"
 reverse_depends = "['kde-theme-qtcurve', 'qtcurve-gtk2', 'qtcurve-qt5']"
 +++

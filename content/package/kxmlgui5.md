@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kxmlgui5 5.116.0-4"
-version = "5.116.0-4"
+title = "kxmlgui5 5.116.0-6"
+version = "5.116.0-6"
 description = "Framework for managing menu and toolbar actions."
-date = "2024-11-15T22:08:19"
+date = "2025-05-24T10:46:02"
 aliases = "/packages/221360"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "672292"
-usize = "3565917"
-sha1sum = "085e34af4d922afc87aee329d31bb6cf65453607"
-depends = "['attica5>=5.116.0', 'kglobalaccel5>=5.116.0', 'ktextwidgets5>=5.116.0', 'qt5-svg>=5.15.16', 'qt5-x11extras>=5.15.16']"
+size = "677908"
+usize = "3575809"
+sha1sum = "7a05d785675fd37a92529bd08b8ccec0803dcb37"
+depends = "['attica5>=5.116.0', 'kglobalaccel5>=5.116.0', 'ktextwidgets5>=5.116.0', 'qt5-svg>=5.15.17', 'qt5-x11extras>=5.15.17']"
 reverse_depends = "['kbookmarks5', 'kdesignerplugin5', 'krename']"
 +++
 ### Description: 

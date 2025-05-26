@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "smplayer 24.5.0-2"
-version = "24.5.0-2"
+title = "smplayer 24.5.0-3"
+version = "24.5.0-3"
 description = "SMPlayer intends to be a complete front-end for MPlayer."
-date = "2024-11-16T15:27:40"
+date = "2025-05-25T19:54:02"
 aliases = "/packages/152656"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/smplayer-dev/smplayer"
 arch = "x86_64"
-size = "3515144"
-usize = "16330816"
-sha1sum = "bff6cb13fd005c90a892d26e5b1efb55a2e96dd1"
+size = "3542232"
+usize = "16440744"
+sha1sum = "85fbcd4f16eb12c5cabeefa4b75e7b1f6499d7ff"
 depends = "['mplayer', 'qt5-base>=5.15.15', 'qt5-script>=5.15.15']"
 +++
 ### Description: 

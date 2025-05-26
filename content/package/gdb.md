@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gdb 16.3-1"
-version = "16.3-1"
+title = "gdb 16.3-2"
+version = "16.3-2"
 description = "Gnu Project Debugger"
-date = "2025-04-24T08:44:35"
+date = "2025-05-26T09:54:31"
 aliases = "/packages/2380"
 categories = ['devel']
 upstreamurl = "http://www.gnu.org/software/gdb/download/"
 arch = "x86_64"
-size = "4757480"
-usize = "13366546"
-sha1sum = "695036414d7851c883f240916a4bff8c7fabcc9b"
+size = "4768532"
+usize = "13343442"
+sha1sum = "7614076833c6ccbc8056f97ff7b3466848a89f60"
 depends = "['binutils', 'expat>=2.1.0-6', 'ncurses>=6.0-18', 'python3>=3.13', 'readline>=8.0', 'xxhash']"
 reverse_depends = "['python3-pygdbmi', 'qtcreator', 'rr']"
 +++

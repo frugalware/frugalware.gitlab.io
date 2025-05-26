@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kmediaplayer5 5.116.0-4"
-version = "5.116.0-4"
+title = "kmediaplayer5 5.116.0-6"
+version = "5.116.0-6"
 description = "Interface for media player KParts."
-date = "2024-11-15T22:22:26"
+date = "2025-05-24T10:55:41"
 aliases = "/packages/221335"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "18800"
-usize = "71496"
-sha1sum = "f33d25730b2b004854e885e3264b84bebc40f035"
+size = "18696"
+usize = "70414"
+sha1sum = "20a4517ae6b4ea37cede97350cc0fdcd887d5db4"
 depends = "['kparts5>=5.116.0']"
 +++
 ### Description: 

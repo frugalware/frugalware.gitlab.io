@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "telepathy-morse 0.1.0-19"
-version = "0.1.0-19"
+title = "telepathy-morse 0.1.0-20"
+version = "0.1.0-20"
 description = "Qt-based Telegram connection manager for the Telepathy framework"
-date = "2024-11-16T15:42:37"
+date = "2025-05-25T20:56:19"
 aliases = "/packages/218419"
 categories = ['xlib']
 upstreamurl = "https://github.com/TelepathyIM/telepathy-morse"
 arch = "x86_64"
-size = "85420"
-usize = "297641"
-sha1sum = "97d6137d236b8680ac09556a93de85768aa87289"
+size = "78320"
+usize = "254321"
+sha1sum = "bfd86aec003227bc78e7201d2b0c1f2b9f6bf39f"
 depends = "['telegram-qt5>=0.1.0-6', 'telepathy-qt5>=0.9.8']"
 +++
 ### Description: 

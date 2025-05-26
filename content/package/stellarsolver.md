@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "stellarsolver 2.6-3"
-version = "2.6-3"
+title = "stellarsolver 2.7-1"
+version = "2.7-1"
 description = "The cross platform Sextractor and Astrometry.net-Based internal astrometric solver"
-date = "2024-11-16T15:40:29"
+date = "2025-05-25T19:58:32"
 aliases = "/packages/221199"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/rlancaste/stellarsolver"
 arch = "x86_64"
-size = "1216708"
-usize = "2622765"
-sha1sum = "2ae87d007e312b77dffcd3b232ab88a72be829f1"
+size = "1201344"
+usize = "2551940"
+sha1sum = "e34967a2ca239cd3fa3d6b0ba774479b15861ac1"
 depends = "['gsl>=2.8', 'hicolor-icon-theme', 'qt5-base>=5.15.15', 'wcslib']"
 reverse_depends = "['kstars']"
 +++
@@ -92,11 +92,11 @@ The cross platform Sextractor and Astrometry.net-Based internal astrometric solv
 * /usr/lib/cmake/StellarSolver/StellarSolverConfigVersion.cmake
 * /usr/lib/libstellarsolver.so
 * /usr/lib/libstellarsolver.so.2
-* /usr/lib/libstellarsolver.so.2.6
+* /usr/lib/libstellarsolver.so.2.7
 * /usr/lib/pkgconfig/stellarsolver.pc
 * /usr/share/applications/com.github.rlancaste.stellarsolver.desktop
-* /usr/share/doc/stellarsolver-2.6/LICENSE
-* /usr/share/doc/stellarsolver-2.6/README.md
+* /usr/share/doc/stellarsolver-2.7/LICENSE
+* /usr/share/doc/stellarsolver-2.7/README.md
 * /usr/share/icons/hicolor/128x128/apps/StellarSolverIcon.png
 * /usr/share/icons/hicolor/16x16/apps/StellarSolverIcon.png
 * /usr/share/icons/hicolor/32x32/apps/StellarSolverIcon.png

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kamoso 25.04.1-1"
-version = "25.04.1-1"
+title = "kamoso 25.04.1-2"
+version = "25.04.1-2"
 description = "Kamoso is an application to take pictures and videos out of your webcam."
-date = "2025-05-09T20:04:07"
+date = "2025-05-24T11:22:46"
 aliases = "/packages/219631"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "280584"
+size = "280724"
 usize = "704754"
-sha1sum = "cb3a49973945ca20d2d6dc58c465a91d8e04ef6a"
+sha1sum = "814e2dc83f70ad73282df8de1ddb32ba521dc827"
 depends = "['frei0r-plugins', 'gst1-plugins-base', 'gst1-plugins-base-ogg', 'gst1-plugins-good-jpeg', 'gst1-plugins-good-video4linux2', 'kconfig5>=5.116.0', 'ki18n5>=5.116.0', 'kio5>=5.116.0', 'phonon-qt6', 'purpose5>=5.116.0', 'solid']"
 +++
 ### Description: 

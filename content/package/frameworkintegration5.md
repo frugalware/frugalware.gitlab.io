@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "frameworkintegration5 5.116.0-4"
-version = "5.116.0-4"
+title = "frameworkintegration5 5.116.0-7"
+version = "5.116.0-7"
 description = "Framework providing components to allow applications to integrate with a KDE Workspace."
-date = "2024-11-15T22:16:53"
+date = "2025-05-24T11:17:40"
 aliases = "/packages/221284"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1615124"
-usize = "1762661"
-sha1sum = "1c9d48ab276bac4a6799182051a3e9c8298b0011"
+size = "1615396"
+usize = "1763292"
+sha1sum = "4569d48338b943961f41c3e2fd0308843bb660c5"
 depends = "['appstream-qt>=1.0.0', 'kio5>=5.116.0', 'knewstuff5>=5.116.0', 'kpackage5>=5.116.0', 'noto-fonts']"
 +++
 ### Description: 

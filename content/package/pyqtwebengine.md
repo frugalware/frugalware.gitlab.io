@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pyqtwebengine 5.15.7-3"
-version = "5.15.7-3"
+title = "pyqtwebengine 5.15.7-4"
+version = "5.15.7-4"
 description = "Python bindings for QtWebEngine"
-date = "2024-11-16T15:01:19"
+date = "2025-05-25T11:43:46"
 aliases = "/packages/220269"
 categories = ['xlib-extra']
 upstreamurl = "http://www.riverbankcomputing.co.uk/"
 arch = "x86_64"
-size = "120048"
-usize = "673250"
-sha1sum = "995e828ae5e7a419cbcff99507e0fa0d5ab0eab1"
+size = "120004"
+usize = "672725"
+sha1sum = "e46df8ddcb1017ca016bdba8559a97a7a63664c9"
 depends = "['pyqt5', 'qt5-webengine>=5.15.15']"
 +++
 ### Description: 

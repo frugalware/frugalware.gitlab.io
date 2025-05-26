@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qt5-scxml 5.15.16-1"
-version = "5.15.16-1"
+title = "qt5-scxml 5.15.17-1"
+version = "5.15.17-1"
 description = "The Qt5 toolkit, qtscxml"
-date = "2024-11-15T20:56:34"
+date = "2025-05-23T14:09:45"
 aliases = "/packages/219001"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "268600"
-usize = "1032957"
-sha1sum = "735dc488d5e0ef32e9e5ce0d0c5a56e23ef3d2ac"
-depends = "['qt5-declarative>=5.15.16']"
+size = "278948"
+usize = "1085955"
+sha1sum = "287306682d7aed27b1b4582c811cdf6078178f69"
+depends = "['qt5-declarative>=5.15.17']"
 +++
 ### Description: 
 The Qt5 toolkit, qtscxml
@@ -19,18 +19,18 @@ The Qt5 toolkit, qtscxml
 ### Files: 
 * /usr/bin/qscxmlc
 * /usr/bin/qscxmlc-qt5
-* /usr/include/qt5/QtScxml/5.15.16/QtScxml/private/qscxmlcompiler_p.h
-* /usr/include/qt5/QtScxml/5.15.16/QtScxml/private/qscxmlcppdatamodel_p.h
-* /usr/include/qt5/QtScxml/5.15.16/QtScxml/private/qscxmldatamodel_p.h
-* /usr/include/qt5/QtScxml/5.15.16/QtScxml/private/qscxmlecmascriptplatformproperties_p.h
-* /usr/include/qt5/QtScxml/5.15.16/QtScxml/private/qscxmlevent_p.h
-* /usr/include/qt5/QtScxml/5.15.16/QtScxml/private/qscxmlexecutablecontent_p.h
-* /usr/include/qt5/QtScxml/5.15.16/QtScxml/private/qscxmlglobals_p.h
-* /usr/include/qt5/QtScxml/5.15.16/QtScxml/private/qscxmlinvokableservice_p.h
-* /usr/include/qt5/QtScxml/5.15.16/QtScxml/private/qscxmlstatemachineinfo_p.h
-* /usr/include/qt5/QtScxml/5.15.16/QtScxml/private/qscxmlstatemachine_p.h
-* /usr/include/qt5/QtScxml/5.15.16/QtScxml/private/qscxmltabledata_p.h
-* /usr/include/qt5/QtScxml/5.15.16/QtScxml/private/qtscxml-config_p.h
+* /usr/include/qt5/QtScxml/5.15.17/QtScxml/private/qscxmlcompiler_p.h
+* /usr/include/qt5/QtScxml/5.15.17/QtScxml/private/qscxmlcppdatamodel_p.h
+* /usr/include/qt5/QtScxml/5.15.17/QtScxml/private/qscxmldatamodel_p.h
+* /usr/include/qt5/QtScxml/5.15.17/QtScxml/private/qscxmlecmascriptplatformproperties_p.h
+* /usr/include/qt5/QtScxml/5.15.17/QtScxml/private/qscxmlevent_p.h
+* /usr/include/qt5/QtScxml/5.15.17/QtScxml/private/qscxmlexecutablecontent_p.h
+* /usr/include/qt5/QtScxml/5.15.17/QtScxml/private/qscxmlglobals_p.h
+* /usr/include/qt5/QtScxml/5.15.17/QtScxml/private/qscxmlinvokableservice_p.h
+* /usr/include/qt5/QtScxml/5.15.17/QtScxml/private/qscxmlstatemachineinfo_p.h
+* /usr/include/qt5/QtScxml/5.15.17/QtScxml/private/qscxmlstatemachine_p.h
+* /usr/include/qt5/QtScxml/5.15.17/QtScxml/private/qscxmltabledata_p.h
+* /usr/include/qt5/QtScxml/5.15.17/QtScxml/private/qtscxml-config_p.h
 * /usr/include/qt5/QtScxml/QScxmlCompiler
 * /usr/include/qt5/QtScxml/qscxmlcompiler.h
 * /usr/include/qt5/QtScxml/QScxmlCppDataModel
@@ -69,7 +69,7 @@ The Qt5 toolkit, qtscxml
 * /usr/lib/libQt5Scxml.so
 * /usr/lib/libQt5Scxml.so.5
 * /usr/lib/libQt5Scxml.so.5.15
-* /usr/lib/libQt5Scxml.so.5.15.16
+* /usr/lib/libQt5Scxml.so.5.15.17
 * /usr/lib/pkgconfig/Qt5Scxml.pc
 * /usr/lib/qt5/bin/qscxmlc
 * /usr/share/qt5/mkspecs/features/qscxmlc.prf

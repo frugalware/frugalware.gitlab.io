@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qqc2-desktop-style5 5.116.1-3"
-version = "5.116.1-3"
+title = "qqc2-desktop-style5 5.116.1-5"
+version = "5.116.1-5"
 description = "QtQuickControls2 style that uses QWidget's QStyle for painting."
-date = "2024-11-16T10:43:38"
+date = "2025-05-24T11:02:25"
 aliases = "/packages/221385"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "82712"
-usize = "414361"
-sha1sum = "6a8dfb2efd78bcb746c24ea000ea4510bdbd9236"
-depends = "['kconfigwidgets5>=5.116.0', 'kiconthemes5>=5.116.0', 'kirigami25>=5.116.0', 'plasma-framework5>=5.116.0', 'qt5-x11extras>=5.15.16']"
+size = "84068"
+usize = "414849"
+sha1sum = "d9838277178fce7044a2b9e38fc2696fac895b85"
+depends = "['kconfigwidgets5>=5.116.0', 'kiconthemes5>=5.116.0', 'kirigami25>=5.116.0', 'plasma-framework5>=5.116.0', 'qt5-x11extras>=5.15.17']"
 +++
 ### Description: 
 QtQuickControls2 style that uses QWidget's QStyle for painting.

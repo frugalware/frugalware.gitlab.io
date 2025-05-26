@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kdoctools5 5.116.0-5"
-version = "5.116.0-5"
+title = "kdoctools5 5.116.0-8"
+version = "5.116.0-8"
 description = "Create documentation from DocBook."
-date = "2025-05-20T12:54:53"
+date = "2025-05-24T11:37:16"
 aliases = "/packages/221309"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "445756"
+size = "446272"
 usize = "2496014"
-sha1sum = "b17efa0313be44ecacbd4ae70fafe255987d2c4c"
+sha1sum = "7fb018414de9e9e918f33b77f4a666e7e31c6e1e"
 depends = "['docbook-xsl', 'karchive5>=5.116.0', 'libxslt']"
 reverse_depends = "['kio5']"
 +++

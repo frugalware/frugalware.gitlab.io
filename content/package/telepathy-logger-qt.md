@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "telepathy-logger-qt 17.09.0-6"
-version = "17.09.0-6"
+title = "telepathy-logger-qt 17.09.0-7"
+version = "17.09.0-7"
 description = "Qt5 bindings for telepathy logger."
-date = "2024-11-16T15:41:54"
+date = "2025-05-25T20:03:02"
 aliases = "/packages/184562"
 categories = ['xlib']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "57684"
-usize = "216630"
-sha1sum = "a3ad65a93dbd7bc2ffd42f474e101c3dd00a3bde"
+size = "58212"
+usize = "217598"
+sha1sum = "2521606ff2be19eeb4df14f349a0bd1aee4e15e0"
 depends = "['telepathy-logger>=0.8.2-5', 'telepathy-qt5>=0.9.8']"
 +++
 ### Description: 

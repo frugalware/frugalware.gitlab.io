@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kcmutils5 5.116.0-4"
-version = "5.116.0-4"
+title = "kcmutils5 5.116.0-7"
+version = "5.116.0-7"
 description = "Utilities for interacting with KCModules."
-date = "2024-11-16T10:35:12"
+date = "2025-05-24T11:26:10"
 aliases = "/packages/221291"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "218720"
-usize = "1029019"
-sha1sum = "e702f538bf67695c51ed6d483d7f06fe5dc49bad"
+size = "221476"
+usize = "1033119"
+sha1sum = "04b1f10263659ed2d5540102c3242a6b536734aa"
 depends = "['kdeclarative5>=5.116.0']"
 reverse_depends = "['kio5-extras', 'ktouch', 'okteta']"
 +++

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qt5-quickcontrols 5.15.16-1"
-version = "5.15.16-1"
+title = "qt5-quickcontrols 5.15.17-1"
+version = "5.15.17-1"
 description = "The Qt5 toolkit, qtquickcontrols"
-date = "2024-11-15T20:42:29"
+date = "2025-05-23T13:58:04"
 aliases = "/packages/217624"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "894184"
-usize = "5387620"
-sha1sum = "e20da05fcb20058071280585c4b32bcd8db52a34"
-depends = "['qt5-declarative>=5.15.16']"
+size = "904032"
+usize = "5412948"
+sha1sum = "8262fedf1b61c0d8c1c5b6bd38544cc9e3471ed2"
+depends = "['qt5-declarative>=5.15.17']"
 reverse_depends = "['qt5-xmlpatterns', 'vtk-qt5']"
 +++
 ### Description: 

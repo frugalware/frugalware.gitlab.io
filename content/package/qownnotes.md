@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qownnotes 25.4.4-1"
-version = "25.4.4-1"
+title = "qownnotes 25.4.4-2"
+version = "25.4.4-2"
 description = "Plain-text file notepad with markdown support and ownCloud integration"
-date = "2025-04-22T13:39:11"
+date = "2025-05-25T11:46:10"
 aliases = "/packages/218639"
 categories = ['xapps-extra']
 upstreamurl = "http://www.qownnotes.org/"
 arch = "x86_64"
-size = "4081092"
-usize = "24497281"
-sha1sum = "ae9a28de00183aef3f5e6f11089a8004883937ec"
+size = "4086936"
+usize = "24538593"
+sha1sum = "46a6b4a17725e8cc3fc514404d0c56458c62871a"
 depends = "['hicolor-icon-theme>=0.15-3', 'qt5-declarative>=5.15.15', 'qt5-svg>=5.15.15', 'qt5-websockets>=5.15.15', 'qt5-x11extras>=5.15.15', 'qt5-xmlpatterns>=5.15.15']"
 +++
 ### Description: 

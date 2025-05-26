@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kguiaddons5 5.116.0-4"
-version = "5.116.0-4"
+title = "kguiaddons5 5.116.0-7"
+version = "5.116.0-7"
 description = "Utilities for graphical user interfaces."
-date = "2024-11-15T21:40:44"
+date = "2025-05-24T11:42:13"
 aliases = "/packages/221316"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "85592"
-usize = "313251"
-sha1sum = "b68b16f9036c9cde235b0977bfdea54abc95a7e3"
-depends = "['qt5-base>=5.15.16', 'qt5-wayland>=5.15.16', 'qt5-x11extras>=5.15.16']"
+size = "86916"
+usize = "314942"
+sha1sum = "42edb54dede42bead403a12a08a0b5f2246faea6"
+depends = "['qt5-base>=5.15.17', 'qt5-wayland>=5.15.17', 'qt5-x11extras>=5.15.17']"
 reverse_depends = "['kconfigwidgets5', 'krita', 'kwayland-integration']"
 +++
 ### Description: 

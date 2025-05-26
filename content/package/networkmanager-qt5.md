@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "networkmanager-qt5 5.116.0-4"
-version = "5.116.0-4"
+title = "networkmanager-qt5 5.116.0-6"
+version = "5.116.0-6"
 description = "Qt wrapper for NetworkManager API."
-date = "2024-11-15T21:36:10"
+date = "2025-05-24T10:26:44"
 aliases = "/packages/221368"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "320676"
-usize = "1470923"
-sha1sum = "5d35019e8d9a561782578b1752b318698782c512"
-depends = "['networkmanager>=1.6.2', 'qt5-base>=5.15.16']"
+size = "324368"
+usize = "1482575"
+sha1sum = "3d07daa72b56aa4f479f8b25db03f69a2deafc2a"
+depends = "['networkmanager>=1.6.2', 'qt5-base>=5.15.17']"
 +++
 ### Description: 
 Qt wrapper for NetworkManager API.

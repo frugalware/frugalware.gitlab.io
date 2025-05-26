@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kiconthemes5 5.116.0-4"
-version = "5.116.0-4"
+title = "kiconthemes5 5.116.0-7"
+version = "5.116.0-7"
 description = "Icon GUI utilities."
-date = "2024-11-15T21:59:10"
+date = "2025-05-24T11:45:34"
 aliases = "/packages/221321"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "130324"
-usize = "492362"
-sha1sum = "fc941b5400715f2a2bbae4e70bb15e89fd5da7ac"
-depends = "['karchive5>=5.116.0', 'kconfigwidgets5>=5.116.0', 'kitemviews5>=5.116.0', 'qt5-declarative>=5.15.16', 'qt5-svg>=5.15.16']"
+size = "132052"
+usize = "494626"
+sha1sum = "791621a5e01e564398d7d95273f1d2f606c5b3c5"
+depends = "['karchive5>=5.116.0', 'kconfigwidgets5>=5.116.0', 'kitemviews5>=5.116.0', 'qt5-declarative>=5.15.17', 'qt5-svg>=5.15.17']"
 reverse_depends = "['kdesignerplugin5', 'knotifications5', 'krename', 'ktextwidgets5', 'qqc2-desktop-style5']"
 +++
 ### Description: 

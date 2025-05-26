@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "dfl-ipc 0.3.0-2"
-version = "0.3.0-2"
+title = "dfl-ipc 0.3.0-4"
+version = "0.3.0-4"
 description = "A very simple set of IPC classes for inter-process communication"
-date = "2025-04-24T12:52:29"
+date = "2025-05-24T11:13:20"
 aliases = "/packages/221549"
 categories = ['xlib-extra']
 upstreamurl = "https://gitlab.com/desktop-frameworks/ipc"
 arch = "x86_64"
-size = "51884"
-usize = "167703"
-sha1sum = "f00c9de426b3cf914b1f5567e0f0b9805af3aa9b"
+size = "52244"
+usize = "168567"
+sha1sum = "d512f7e8cd869630eaae8a7a008de2746809b182"
 depends = "['qt5-base>=5.15.15']"
 reverse_depends = "['dfl-applications']"
 +++

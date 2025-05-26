@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kcrash5 5.116.0-4"
-version = "5.116.0-4"
+title = "kcrash5 5.116.0-7"
+version = "5.116.0-7"
 description = "Gracefull handling of application crashes."
-date = "2024-11-15T21:43:13"
+date = "2025-05-24T11:30:47"
 aliases = "/packages/221299"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "18832"
-usize = "52975"
-sha1sum = "ad64a594b898bc92902f5984d33ecdd111daa6e3"
+size = "19016"
+usize = "53006"
+sha1sum = "893054d1f6f088f40f0d07801c85d6da58c0b798"
 depends = "['kcoreaddons5>=5.116.0', 'kwindowsystem5>=5.116.0']"
 reverse_depends = "['krename', 'krita', 'kservice5', 'minuet']"
 +++

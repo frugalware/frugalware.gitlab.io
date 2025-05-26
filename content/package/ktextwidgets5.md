@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ktextwidgets5 5.116.0-4"
-version = "5.116.0-4"
+title = "ktextwidgets5 5.116.0-6"
+version = "5.116.0-6"
 description = "KDE Text editing widgets."
-date = "2024-11-15T22:04:52"
+date = "2025-05-24T10:43:30"
 aliases = "/packages/221351"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "268764"
-usize = "1475473"
-sha1sum = "aaf5284a819d750fc8b391916903de8d02beeceb"
-depends = "['kcompletion5>=5.116.0', 'kiconthemes5>=5.116.0', 'kservice5>=5.116.0', 'qt5-speech>=5.15.16', 'sonnet5>=5.116.0']"
+size = "270244"
+usize = "1479608"
+sha1sum = "33d71896d63269db6841a9e798f311f67241692f"
+depends = "['kcompletion5>=5.116.0', 'kiconthemes5>=5.116.0', 'kservice5>=5.116.0', 'qt5-speech>=5.15.17', 'sonnet5>=5.116.0']"
 reverse_depends = "['kxmlgui5']"
 +++
 ### Description: 

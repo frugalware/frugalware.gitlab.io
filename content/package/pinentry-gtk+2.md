@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pinentry-gtk+2 1.3.1-9"
-version = "1.3.1-9"
+title = "pinentry-gtk+2 1.3.1-10"
+version = "1.3.1-10"
 description = "GTK+2 based Applications for entering PINs or Passphrases."
-date = "2025-04-08T10:57:30"
+date = "2025-05-26T07:53:56"
 aliases = "/packages/217777"
 categories = ['xapps-extra']
 upstreamurl = "https://www.gnupg.org/ftp/gcrypt/pinentry/"
 arch = "x86_64"
-size = "35844"
-usize = "85910"
-sha1sum = "27bcfdb375fc8c29df1940ee141296b339d51f13"
+size = "36552"
+usize = "86534"
+sha1sum = "b41c6af2a0c4446dd754da51a2f1e3876ca545e2"
 depends = "['gtk+2', 'pinentry>=1.3.1']"
 +++
 ### Description: 

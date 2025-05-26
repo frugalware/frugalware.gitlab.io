@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lumina-desktop 1.6.2-9"
-version = "1.6.2-9"
+title = "lumina-desktop 1.6.2-10"
+version = "1.6.2-10"
 description = "Lumina Desktop Environment."
-date = "2024-11-16T14:28:56"
+date = "2025-05-24T13:42:38"
 aliases = "/packages/219457"
 categories = ['lumina']
 upstreamurl = "https://www.trueos.org/"
 arch = "x86_64"
-size = "8817060"
-usize = "15185494"
-sha1sum = "3546bb51ce15202b3a519bc819d297a9073012d6"
+size = "8865812"
+usize = "15360888"
+sha1sum = "256d2165cc5b5c4793de571470de6c888ac57ade"
 depends = "['acpi', 'alsa-utils', 'dbus', 'dejavu-ttf', 'fluxbox', 'noto-fonts', 'oxygen', 'oxygen-icons', 'pavucontrol-qt', 'pcre2', 'qt5-multimedia>=5.15.15', 'qt5-x11extras>=5.15.15', 'qterminal', 'sddm', 'sysstat', 'xbacklight', 'xdg-user-dirs', 'xdg-utils', 'xorg-server', 'xscreensaver']"
 +++
 ### Description: 

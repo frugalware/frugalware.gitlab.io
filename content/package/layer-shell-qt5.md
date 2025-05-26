@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "layer-shell-qt5 5.27.12-1"
-version = "5.27.12-1"
+title = "layer-shell-qt5 5.27.12-2"
+version = "5.27.12-2"
 description = "Qt5 component to allow applications to make use of the Wayland wl-layer-shell protocol"
-date = "2025-01-07T10:37:02"
+date = "2025-05-24T13:30:11"
 aliases = "/packages/221563"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "18204"
-usize = "68806"
-sha1sum = "8c82a1baeb43373e30d533871e37854f05996f4d"
-depends = "['qt5-wayland>=5.15.16']"
+size = "18356"
+usize = "68532"
+sha1sum = "aae5a6bb86fb152f6b410acee95f71cd31828b55"
+depends = "['qt5-wayland>=5.15.17']"
 +++
 ### Description: 
 Qt5 component to allow applications to make use of the Wayland wl-layer-shell protocol

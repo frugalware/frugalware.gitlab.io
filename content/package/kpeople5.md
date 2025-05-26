@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kpeople5 5.116.0-4"
-version = "5.116.0-4"
+title = "kpeople5 5.116.0-6"
+version = "5.116.0-6"
 description = "A library that provides access to all contacts and the people who hold them."
-date = "2024-11-15T22:07:24"
+date = "2025-05-24T10:45:24"
 aliases = "/packages/218342"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "120380"
-usize = "482326"
-sha1sum = "b2349b733a6821379711a9efff1babf32dc48216"
-depends = "['kitemviews5>=5.116.0', 'kservice5>=5.116.0', 'kwidgetsaddons5>=5.116.0', 'qt5-declarative>=5.15.16']"
+size = "122592"
+usize = "485326"
+sha1sum = "87f9cf8150413759a9a1c201a62a5e4e02564c58"
+depends = "['kitemviews5>=5.116.0', 'kservice5>=5.116.0', 'kwidgetsaddons5>=5.116.0', 'qt5-declarative>=5.15.17']"
 +++
 ### Description: 
 A library that provides access to all contacts and the people who hold them.

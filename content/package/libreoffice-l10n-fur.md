@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-fur 25.2.3.2-2"
-version = "25.2.3.2-2"
+title = "libreoffice-l10n-fur 25.2.3.2-3"
+version = "25.2.3.2-3"
 description = "Installs Friulian support in LibreOffice"
-date = "2025-05-21T12:30:11"
+date = "2025-05-26T09:05:37"
 aliases = "/packages/220192"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "167984"
+size = "167996"
 usize = "1151385"
-sha1sum = "397567ceed0eb210efe5f056b3f4fda9251b1906"
+sha1sum = "3bf876e307527f047fe32f819c6556caf85c65f9"
 depends = "['libreoffice>=25.2.3.2']"
 +++
 ### Description: 

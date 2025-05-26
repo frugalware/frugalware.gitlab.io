@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "eiskaltdc 2.4.2-10"
-version = "2.4.2-10"
+title = "eiskaltdc 2.4.2-12"
+version = "2.4.2-12"
 description = "EiskaltDC++ is a cross-platform program that uses the Direct Connect and ADC protocol"
-date = "2024-11-16T14:14:16"
+date = "2025-05-24T11:16:19"
 aliases = "/packages/103876"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/eiskaltdcpp/eiskaltdcpp"
 arch = "x86_64"
-size = "3091072"
-usize = "10944022"
-sha1sum = "96226445c4f521515dbf016244a74f676a871fcd"
+size = "3047364"
+usize = "10595630"
+sha1sum = "7cd4012a7bb5c0e1f5d1492dd9a1115ec4524797"
 depends = "['aspell', 'libboost>=1.72.0', 'libidn>=1.35', 'lua>=5.4', 'openssl>=3.1.0', 'qt5-multimedia>=5.15.15']"
 +++
 ### Description: 

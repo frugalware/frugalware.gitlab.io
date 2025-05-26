@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vlc-sdlimage 3.0.21-29"
-version = "3.0.21-29"
+title = "vlc-sdlimage 3.0.21-30"
+version = "3.0.21-30"
 description = "vlc plugin for sdlimage"
-date = "2025-05-20T20:20:08"
+date = "2025-05-26T06:46:38"
 aliases = "/packages/135931"
 categories = ['vlc-codecs']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "17244"
+size = "17276"
 usize = "9008"
-sha1sum = "cc21067bbe3ae9de8c5798ad2fe3c6bdd75abde4"
+sha1sum = "f091bcb8033c338957c8c9bbce0d082982a8437a"
 depends = "['libvlc>=3.0.21', 'sdlimage']"
 +++
 ### Description: 

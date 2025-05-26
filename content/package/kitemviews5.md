@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kitemviews5 5.116.0-4"
-version = "5.116.0-4"
+title = "kitemviews5 5.116.0-6"
+version = "5.116.0-6"
 description = "Set of item views extending the Qt model-view framework."
-date = "2024-11-15T21:38:18"
+date = "2025-05-24T10:28:33"
 aliases = "/packages/221331"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "94736"
-usize = "344326"
-sha1sum = "764c5e00d2228de106f3eb6c9d5114e4e8f3a265"
-depends = "['qt5-base>=5.15.16']"
+size = "96636"
+usize = "346677"
+sha1sum = "0b808ab9edfa6ddf96032bcf76e627bc35ea3e3d"
+depends = "['qt5-base>=5.15.17']"
 reverse_depends = "['kiconthemes5', 'kpeople5', 'krename', 'krita']"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "khtml5 5.116.0-4"
-version = "5.116.0-4"
+title = "khtml5 5.116.0-7"
+version = "5.116.0-7"
 description = "HTML rendering engine."
-date = "2024-11-15T22:21:33"
+date = "2025-05-24T11:44:03"
 aliases = "/packages/221319"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2326652"
-usize = "10660029"
-sha1sum = "ac00c5fef53b64348edb6244b83f7a16bd7e586d"
+size = "2362112"
+usize = "10713202"
+sha1sum = "2f0aad3f6010073bd7a60b19700b2489571f6b70"
 depends = "['kjs5>=5.116.0', 'kparts5>=5.116.0', 'libgif>=5.1.4-2']"
 reverse_depends = "['step']"
 +++

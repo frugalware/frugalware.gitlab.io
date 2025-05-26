@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kplotting5 5.116.0-4"
-version = "5.116.0-4"
+title = "kplotting5 5.116.0-9"
+version = "5.116.0-9"
 description = "Framework providing easy data-plotting functions."
-date = "2024-11-15T21:24:41"
+date = "2025-05-24T10:17:40"
 aliases = "/packages/221343"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "37384"
-usize = "128143"
-sha1sum = "962296d5b95b417ed31f85104ab43efd87df1fc4"
-depends = "['qt5-base>=5.15.16']"
+size = "38316"
+usize = "131227"
+sha1sum = "089df84206f8485ce0f1997d1faaa2e6c1400dde"
+depends = "['qt5-base>=5.15.17']"
 reverse_depends = "['kalzium', 'kdesignerplugin5', 'kstars']"
 +++
 ### Description: 

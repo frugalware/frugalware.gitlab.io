@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kdelibs4support5 5.116.0-4"
-version = "5.116.0-4"
+title = "kdelibs4support5 5.116.0-7"
+version = "5.116.0-7"
 description = "KDE4 Support."
-date = "2024-11-16T10:38:22"
+date = "2025-05-24T11:34:31"
 aliases = "/packages/221304"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3315908"
-usize = "19195572"
-sha1sum = "39658eb60857298d33bf416d7e5537b092d8ea24"
+size = "3325744"
+usize = "19199340"
+sha1sum = "b9689e7254af68ec7db285e209839e63f22a2d27"
 depends = "['kded5>=5.116.0', 'kdesignerplugin5>=5.116.0', 'kemoticons5>=5.116.0', 'kitemmodels5>=5.116.0', 'kparts5>=5.116.0', 'kunitconversion5>=5.116.0', 'libsm>=1.2.2-3', 'networkmanager>=1.4.0-2']"
 reverse_depends = "['qtcurve-qt5', 'step']"
 +++

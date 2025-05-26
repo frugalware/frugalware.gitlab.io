@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdbusaddons5 5.116.0-4"
-version = "5.116.0-4"
+title = "kdbusaddons5 5.116.0-7"
+version = "5.116.0-7"
 description = "Convenience classes for QtDBus."
-date = "2024-11-15T21:37:33"
+date = "2025-05-24T11:32:07"
 aliases = "/packages/221301"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "56936"
-usize = "216059"
-sha1sum = "645f056551aed667376778f94dff487007c8f1c4"
-depends = "['qt5-x11extras>=5.15.16']"
+size = "57540"
+usize = "216365"
+sha1sum = "594b04905ff6ccc7c1d1f3b59d168ce72cdf6120"
+depends = "['qt5-x11extras>=5.15.17']"
 reverse_depends = "['kservice5']"
 +++
 ### Description: 

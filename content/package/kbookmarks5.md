@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kbookmarks5 5.116.0-4"
-version = "5.116.0-4"
+title = "kbookmarks5 5.116.0-7"
+version = "5.116.0-7"
 description = "Framework that let you access and manipulate bookmarks stored using XBEL format."
-date = "2024-11-15T22:09:10"
+date = "2025-05-24T11:24:45"
 aliases = "/packages/221289"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "139504"
-usize = "685220"
-sha1sum = "2402026385784c3b62e7acece1a82c05f9534867"
+size = "140324"
+usize = "687081"
+sha1sum = "b877d8298c90f9427a468ffddd2442bf90ca9e75"
 depends = "['kxmlgui5>=5.116.0']"
 reverse_depends = "['kio5']"
 +++

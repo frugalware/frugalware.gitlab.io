@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "knewstuff5 5.116.0-4"
-version = "5.116.0-4"
+title = "knewstuff5 5.116.0-6"
+version = "5.116.0-6"
 description = "Framework for downloading and sharing additional application data."
-date = "2024-11-15T22:15:08"
+date = "2025-05-24T10:50:46"
 aliases = "/packages/221337"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "823956"
-usize = "4296689"
-sha1sum = "74eef1993888ab985e678ac12752d2c9f59f4a1f"
+size = "830816"
+usize = "4307425"
+sha1sum = "c9aa64c20c5aff9d31ab77263ee577865217e464"
 depends = "['kio5>=5.116.0', 'kirigami25>=5.116.0', 'kpackage5>=5.116.0', 'syndication5>=5.116.0']"
 reverse_depends = "['artikulate', 'frameworkintegration5', 'kalzium', 'kstars', 'ktouch', 'okteta', 'step']"
 +++

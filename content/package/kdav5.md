@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdav5 5.116.0-4"
-version = "5.116.0-4"
+title = "kdav5 5.116.0-7"
+version = "5.116.0-7"
 description = "KDE DAV protocoll"
-date = "2024-11-16T10:44:26"
+date = "2025-05-24T11:31:31"
 aliases = "/packages/221300"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "89612"
-usize = "411699"
-sha1sum = "3f69aa0bd0c041e5fcaba80654e4ebfb9d8091fd"
-depends = "['kcoreaddons5>=5.116.0', 'kio5>=5.116.0', 'qt5-xmlpatterns>=5.15.16']"
+size = "89948"
+usize = "413247"
+sha1sum = "3b2c6504e1075d57f672f6e125509d9a08244b4d"
+depends = "['kcoreaddons5>=5.116.0', 'kio5>=5.116.0', 'qt5-xmlpatterns>=5.15.17']"
 +++
 ### Description: 
 KDE DAV protocoll

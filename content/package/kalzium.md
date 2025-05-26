@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kalzium 25.04.1-1"
-version = "25.04.1-1"
+title = "kalzium 25.04.1-2"
+version = "25.04.1-2"
 description = "Periodic Table of Elements."
-date = "2025-05-09T20:02:50"
+date = "2025-05-24T11:21:49"
 aliases = "/packages/152825"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "22482404"
+size = "22483792"
 usize = "38527970"
-sha1sum = "19770273c3841b8674cd70d29f1c1a89d724b66e"
+sha1sum = "84f552ce824d6dd37cbd87179afa19f039c21a56"
 depends = "['eigen', 'knewstuff5>=5.116.0', 'kparts5>=5.116.0', 'kplotting5>=5.116.0', 'kunitconversion5>=5.116.0']"
 +++
 ### Description: 

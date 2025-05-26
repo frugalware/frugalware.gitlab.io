@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kservice5 5.116.0-4"
-version = "5.116.0-4"
+title = "kservice5 5.116.0-6"
+version = "5.116.0-6"
 description = "Plugin framework for desktop services."
-date = "2024-11-15T22:01:39"
+date = "2025-05-24T10:40:57"
 aliases = "/packages/221348"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "313176"
-usize = "1087792"
-sha1sum = "8931f1775d37675f3bf5d3742f4be83b0397819e"
+size = "312892"
+usize = "1089400"
+sha1sum = "dbde255ee4fea9b83a6527a8e3a2c59b0b30f2cc"
 depends = "['kconfig5>=5.116.0', 'kcrash5>=5.116.0', 'kdbusaddons5>=5.116.0', 'ki18n5>=5.116.0']"
 reverse_depends = "['kdesu5', 'kemoticons5', 'kglobalaccel5', 'knotifications5', 'kpeople5', 'krename', 'ktextwidgets5']"
 +++

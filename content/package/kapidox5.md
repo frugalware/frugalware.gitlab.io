@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kapidox5 5.116.0-4"
-version = "5.116.0-4"
+title = "kapidox5 5.116.0-6"
+version = "5.116.0-6"
 description = "Frameworks API Documentation Tools."
-date = "2024-11-16T10:45:46"
+date = "2025-05-24T11:04:11"
 aliases = "/packages/221286"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "4716"
+size = "4824"
 usize = "9955"
-sha1sum = "d1b1701016079b2ed8af583f9c5a34ae49799c1f"
+sha1sum = "a390135eb6e2b213369b3e54392eeca57f90e153"
 depends = "['python3>=3.10']"
 +++
 ### Description: 

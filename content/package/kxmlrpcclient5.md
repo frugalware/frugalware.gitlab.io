@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kxmlrpcclient5 5.116.0-4"
-version = "5.116.0-4"
+title = "kxmlrpcclient5 5.116.0-6"
+version = "5.116.0-6"
 description = "XML-RPC client library for KDE."
-date = "2024-11-16T10:39:13"
+date = "2025-05-24T11:00:01"
 aliases = "/packages/221361"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "34884"
-usize = "128706"
-sha1sum = "77bb4443d2add8b89e57831f63fd47bb36181f80"
+size = "35944"
+usize = "131729"
+sha1sum = "ff0d31f0515197cdf724a6f3b4f26121975c18f4"
 depends = "['kio5>=5.116.0']"
 +++
 ### Description: 

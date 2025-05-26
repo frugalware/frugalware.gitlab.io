@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "telepathy-qt5 0.9.8-10"
-version = "0.9.8-10"
+title = "telepathy-qt5 0.9.8-11"
+version = "0.9.8-11"
 description = "Telepathy Qt5 bindings"
-date = "2024-11-16T15:50:10"
+date = "2025-05-26T06:34:58"
 aliases = "/packages/218420"
 categories = ['xlib']
 upstreamurl = "http://telepathy.freedesktop.org/wiki/Telepathy-Qt4"
 arch = "x86_64"
-size = "2074184"
-usize = "11585347"
-sha1sum = "2ebc14bffe7def56c2d67f9e9a809e56933ad1a9"
+size = "2106900"
+usize = "11626971"
+sha1sum = "28ddbc03d93dd285de3e7a81d82517ea35e4eb39"
 depends = "['dbus-glib>=0.108-3', 'farstream>=0.2.8-2', 'libproxy>=0.4.13-2', 'qt5-base>=5.15.10', 'qt5-qdbus>=5.15.10', 'telepathy-farstream>=0.6.2-5']"
 reverse_depends = "['telepathy-logger-qt', 'telepathy-morse']"
 +++

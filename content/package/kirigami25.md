@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kirigami25 5.116.0-4"
-version = "5.116.0-4"
+title = "kirigami25 5.116.0-10"
+version = "5.116.0-10"
 description = "UI framework for mobile and convergent applications written in Qt."
-date = "2024-11-15T21:19:42"
+date = "2025-05-24T11:52:45"
 aliases = "/packages/221329"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "441388"
-usize = "2162835"
-sha1sum = "0d5da2c351279c8b7b627c26beddf7af9665be93"
-depends = "['libgomp', 'qt5-declarative>=5.15.16', 'qt5-graphicaleffects>=5.15.16', 'qt5-quickcontrols2>=5.15.16', 'qt5-svg>=5.15.16']"
+size = "446772"
+usize = "2176511"
+sha1sum = "e7107a5845a4f1b03c85248763d9ee4239f829ed"
+depends = "['libgomp', 'qt5-declarative>=5.15.17', 'qt5-graphicaleffects>=5.15.17', 'qt5-quickcontrols2>=5.15.17', 'qt5-svg>=5.15.17']"
 reverse_depends = "['knewstuff5', 'plasma-framework5', 'purpose5', 'qqc2-desktop-style5']"
 +++
 ### Description: 

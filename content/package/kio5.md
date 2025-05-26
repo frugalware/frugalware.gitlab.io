@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kio5 5.116.0-5"
-version = "5.116.0-5"
+title = "kio5 5.116.0-8"
+version = "5.116.0-8"
 description = "Network transparent access to files and data."
-date = "2025-05-21T10:53:00"
+date = "2025-05-24T11:50:22"
 aliases = "/packages/221326"
 categories = ['kf5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "4430480"
-usize = "24157091"
-sha1sum = "9e9ec71c324aa05b53ea06f2644eb3e927236fa0"
+size = "4430784"
+usize = "24157093"
+sha1sum = "31f9bdf54809ff3021448b919262b6d1475577cd"
 depends = "['karchive5>=5.116.0', 'kbookmarks5>=5.116.0', 'kded5', 'kdoctools5>=5.116.0', 'kjobwidgets5>=5.116.0', 'kwallet5>=5.116.0', 'libkrb5>=1.14.4', 'libxslt', 'solid5>=5.116.0', 'switcheroo-control']"
 reverse_depends = "['frameworkintegration5', 'kactivities-stats5', 'kactivities5', 'kaffeine', 'kamoso', 'kdav5', 'kdeclarative5', 'kdesignerplugin5', 'kinit5', 'knewstuff5', 'knotifyconfig5', 'kparts5', 'krename', 'kstars', 'ktouch', 'kxmlrpcclient5', 'libreoffice-gtk3-kde5', 'libreoffice-kde5', 'plasma5-integration', 'purpose5', 'syndication5']"
 +++

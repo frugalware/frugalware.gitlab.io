@@ -1,29 +1,29 @@
 +++
 draft = false
-title = "qt5-networkauth 5.15.16-1"
-version = "5.15.16-1"
+title = "qt5-networkauth 5.15.17-1"
+version = "5.15.17-1"
 description = "The Qt5 toolkit, qtnetworkauth"
-date = "2024-11-15T20:53:47"
+date = "2025-05-23T14:07:29"
 aliases = "/packages/219179"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "63728"
-usize = "243981"
-sha1sum = "0b4bd6ccfeb9507a506bab23a8545e972446ee78"
-depends = "['pcre2', 'qt5-base>=5.15.16']"
+size = "66544"
+usize = "252051"
+sha1sum = "e9faced411bd65fd8c87b33f15acebc3171b592b"
+depends = "['pcre2', 'qt5-base>=5.15.17']"
 +++
 ### Description: 
 The Qt5 toolkit, qtnetworkauth
 
 ### Files: 
-* /usr/include/qt5/QtNetworkAuth/5.15.16/QtNetworkAuth/private/qabstractoauth2_p.h
-* /usr/include/qt5/QtNetworkAuth/5.15.16/QtNetworkAuth/private/qabstractoauthreplyhandler_p.h
-* /usr/include/qt5/QtNetworkAuth/5.15.16/QtNetworkAuth/private/qabstractoauth_p.h
-* /usr/include/qt5/QtNetworkAuth/5.15.16/QtNetworkAuth/private/qoauth1signature_p.h
-* /usr/include/qt5/QtNetworkAuth/5.15.16/QtNetworkAuth/private/qoauth1_p.h
-* /usr/include/qt5/QtNetworkAuth/5.15.16/QtNetworkAuth/private/qoauth2authorizationcodeflow_p.h
-* /usr/include/qt5/QtNetworkAuth/5.15.16/QtNetworkAuth/private/qoauthhttpserverreplyhandler_p.h
+* /usr/include/qt5/QtNetworkAuth/5.15.17/QtNetworkAuth/private/qabstractoauth2_p.h
+* /usr/include/qt5/QtNetworkAuth/5.15.17/QtNetworkAuth/private/qabstractoauthreplyhandler_p.h
+* /usr/include/qt5/QtNetworkAuth/5.15.17/QtNetworkAuth/private/qabstractoauth_p.h
+* /usr/include/qt5/QtNetworkAuth/5.15.17/QtNetworkAuth/private/qoauth1signature_p.h
+* /usr/include/qt5/QtNetworkAuth/5.15.17/QtNetworkAuth/private/qoauth1_p.h
+* /usr/include/qt5/QtNetworkAuth/5.15.17/QtNetworkAuth/private/qoauth2authorizationcodeflow_p.h
+* /usr/include/qt5/QtNetworkAuth/5.15.17/QtNetworkAuth/private/qoauthhttpserverreplyhandler_p.h
 * /usr/include/qt5/QtNetworkAuth/QAbstractOAuth
 * /usr/include/qt5/QtNetworkAuth/qabstractoauth.h
 * /usr/include/qt5/QtNetworkAuth/QAbstractOAuth2
@@ -51,7 +51,7 @@ The Qt5 toolkit, qtnetworkauth
 * /usr/lib/libQt5NetworkAuth.so
 * /usr/lib/libQt5NetworkAuth.so.5
 * /usr/lib/libQt5NetworkAuth.so.5.15
-* /usr/lib/libQt5NetworkAuth.so.5.15.16
+* /usr/lib/libQt5NetworkAuth.so.5.15.17
 * /usr/lib/pkgconfig/Qt5NetworkAuth.pc
 * /usr/share/qt5/mkspecs/modules/qt_lib_networkauth.pri
 * /usr/share/qt5/mkspecs/modules/qt_lib_networkauth_private.pri

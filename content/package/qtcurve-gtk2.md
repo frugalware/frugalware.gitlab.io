@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qtcurve-gtk2 1.9-4"
-version = "1.9-4"
+title = "qtcurve-gtk2 1.9-5"
+version = "1.9-5"
 description = "QtCurve-Gtk2"
-date = "2024-11-16T17:34:30"
+date = "2025-05-26T08:07:48"
 aliases = "/packages/201155"
 categories = ['xlib-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "164312"
-usize = "446152"
-sha1sum = "3423dee8a9adaa1253abb01381224c24efc4562e"
+size = "164072"
+usize = "444600"
+sha1sum = "dda0c83f717c9e5aab5c1aaf39067abe664ec234"
 depends = "['gtk+2-libs', 'qtcurve>=1.9']"
 +++
 ### Description: 
