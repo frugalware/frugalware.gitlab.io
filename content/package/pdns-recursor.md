@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "pdns-recursor 5.2.2-1"
-version = "5.2.2-1"
+title = "pdns-recursor 5.2.2-2"
+version = "5.2.2-2"
 description = "Power DNS recursor"
-date = "2025-04-14T09:33:44"
+date = "2025-05-26T14:34:57"
 aliases = "/packages/9792"
 categories = ['network-extra']
 upstreamurl = "http://www.powerdns.com/"
 arch = "x86_64"
-size = "4037580"
-usize = "17159960"
-sha1sum = "e14cb96ee52fa4ad6eec40877d8edd22460dbf2d"
-depends = "['curl', 'libboost>=1.87.0', 'libsodium>=1.0.19', 'libstdc++>=12.2', 'libsystemd', 'lua', 'luajit2', 'openssl>=3.1.0', 'protobuf>=3.16.0']"
+size = "4067152"
+usize = "17305192"
+sha1sum = "c347106598e4109ab7b18c0a103576ea81fe13bf"
+depends = "['curl', 'libboost>=1.88.0', 'libsodium>=1.0.19', 'libstdc++>=12.2', 'libsystemd', 'lua', 'luajit2', 'openssl>=3.1.0', 'protobuf>=3.16.0']"
 +++
 ### Description: 
 Power DNS recursor

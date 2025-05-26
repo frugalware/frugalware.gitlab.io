@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "irrlicht-examples 1.8.5-2"
-version = "1.8.5-2"
+title = "irrlicht-examples 1.8.5-3"
+version = "1.8.5-3"
 description = "Example files for irrlicht"
-date = "2024-05-15T12:23:47"
+date = "2025-05-26T14:52:19"
 aliases = "/packages/219909"
 categories = ['xapps-extra']
 upstreamurl = "https://sourceforge.net/projects/irrlicht"
 arch = "x86_64"
-size = "206789364"
-usize = "732992459"
-sha1sum = "e34ba1a407ff8a853b75a270619895f67988de1a"
+size = "207398016"
+usize = "744216571"
+sha1sum = "478bc65ec61a2dba792bff1824f01be7dc72f831"
 depends = "['irrlicht>=1.8.5']"
 +++
 ### Description: 

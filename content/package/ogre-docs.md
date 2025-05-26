@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ogre-docs 14.3.4-4"
-version = "14.3.4-4"
+title = "ogre-docs 14.3.4-5"
+version = "14.3.4-5"
 description = "Ogre Documentation"
-date = "2025-04-07T09:22:57"
+date = "2025-05-26T15:08:52"
 aliases = "/packages/39057"
 categories = ['docs-extra']
 upstreamurl = "http://www.ogre3d.org"
 arch = "x86_64"
-size = "2666132"
+size = "2664628"
 usize = "3598762"
-sha1sum = "ef3bb270798df8aadcac01afa52b989901362b05"
+sha1sum = "982565f93d1436a7115688cec7deaaf6e82a2ef8"
 depends = "[]"
 +++
 ### Description: 

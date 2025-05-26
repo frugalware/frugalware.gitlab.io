@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "irrlicht-static 1.8.5-2"
-version = "1.8.5-2"
+title = "irrlicht-static 1.8.5-3"
+version = "1.8.5-3"
 description = "Static files for irrlicht"
-date = "2024-05-15T12:23:47"
+date = "2025-05-26T14:52:19"
 aliases = "/packages/219908"
 categories = ['devel-extra']
 upstreamurl = "https://sourceforge.net/projects/irrlicht"
 arch = "x86_64"
-size = "45441244"
-usize = "70774884"
-sha1sum = "f71410946407618ede1b1f13f575f44d6a4027c5"
+size = "45240560"
+usize = "70518364"
+sha1sum = "913581cb339da04aa4608a14ae6ebc9abc4285eb"
 depends = "[]"
 +++
 ### Description: 
