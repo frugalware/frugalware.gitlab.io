@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "freeorion 0.5.0.1-5"
-version = "0.5.0.1-5"
+title = "freeorion 0.5.0.1-6"
+version = "0.5.0.1-6"
 description = "Free Clone of Master of Orion"
-date = "2025-01-09T09:53:14"
+date = "2025-05-26T12:30:59"
 aliases = "/packages/136117"
 categories = ['games-extra']
 upstreamurl = "http://freeorion.org/"
 arch = "x86_64"
-size = "159520424"
-usize = "192348140"
-sha1sum = "4c3738e55f332cfee17a82786cc52096b1cfa404"
-depends = "['freetype2>=2.6.2-3', 'glew>=2.2.0', 'libboost>=1.87.0', 'libjpeg-turbo', 'libpng>=1.6.20', 'libtiff>=4.0.6', 'libvorbis>=1.3.5-4', 'openal>=1.17.2', 'python3>=3.13']"
+size = "159575836"
+usize = "192382276"
+sha1sum = "aeba310ac1c5cda76162e7005e0d79591f68bfae"
+depends = "['freetype2>=2.6.2-3', 'glew>=2.2.0', 'libboost>=1.88.0', 'libjpeg-turbo', 'libpng>=1.6.20', 'libtiff>=4.0.6', 'libvorbis>=1.3.5-4', 'openal>=1.17.2', 'python3>=3.13']"
 +++
 ### Description: 
 Free Clone of Master of Orion
@@ -2515,107 +2515,106 @@ Free Clone of Master of Orion
 * /usr/share/freeorion/default/scripting/buildings/ART_PLANET.focs.py
 * /usr/share/freeorion/default/scripting/buildings/AUTO_HISTORY_ANALYSER.focs.py
 * /usr/share/freeorion/default/scripting/buildings/BIOTERROR_PROJECTOR.focs.py
-* /usr/share/freeorion/default/scripting/buildings/BLACK_HOLE_COLLAPSER.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/BLACK_HOLE_POW_GEN.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/buildings.macros
-* /usr/share/freeorion/default/scripting/buildings/buildings.py
+* /usr/share/freeorion/default/scripting/buildings/BLACK_HOLE_COLLAPSER.focs.py
+* /usr/share/freeorion/default/scripting/buildings/BLACK_HOLE_POW_GEN.focs.py
+* /usr/share/freeorion/default/scripting/buildings/buildings_macros.py
 * /usr/share/freeorion/default/scripting/buildings/CLONING_CENTER.disabled
-* /usr/share/freeorion/default/scripting/buildings/COLLECTIVE_NET.focs.txt
+* /usr/share/freeorion/default/scripting/buildings/COLLECTIVE_NET.focs.py
 * /usr/share/freeorion/default/scripting/buildings/colonies/col_bld_gen.py
-* /usr/share/freeorion/default/scripting/buildings/colonies/SP_ABADDONI.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/colonies/SP_BANFORO.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/colonies/SP_CHATO.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/colonies/SP_CRAY.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/colonies/SP_DERTHREAN.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/colonies/SP_EAXAW.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/colonies/SP_EGASSEM.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/colonies/SP_ETTY.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/colonies/SP_EXOBOT.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/colonies/SP_FULVER.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/colonies/SP_FURTHEST.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/colonies/SP_GEORGE.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/colonies/SP_GYSACHE.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/colonies/SP_HAPPY.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/colonies/SP_HHHOH.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/colonies/SP_HUMAN.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/colonies/SP_KILANDOW.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/colonies/SP_KOBUNTURA.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/colonies/SP_LAENFA.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/colonies/SP_MISIORLA.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/colonies/SP_MUURSH.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/colonies/SP_PHINNERT.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/colonies/SP_REPLICON.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/colonies/SP_SCYLIOR.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/colonies/SP_SETINON.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/colonies/SP_SILEXIAN.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/colonies/SP_SLY.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/colonies/SP_SSLITH.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/colonies/SP_SUPER_TEST.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/colonies/SP_TAEGHIRUS.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/colonies/SP_TRITH.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/colonies/SP_UGMORS.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/COLONY_BASE.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/COLONY_INDEPENDENCE_DECREE.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/CONC_CAMP.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/CONC_CAMP_REMNANT.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/CULTURE_ARCHIVES.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/CULTURE_LIBRARY.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/ENCLAVE_VOID.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/EVACUATION.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/EXPERIMENTOR_OUTPOST.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/FIELD_REPELLOR.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/GAIA_TRANS.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/GAS_GIANT_GEN.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/GATEWAY_VOID.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/GENOME_BANK.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/HYPER_DAM.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/IMPERIAL_PALACE.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/INDUSTRY_CENTER.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/INTERSPECIES_ACADEMY.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/LIGHTHOUSE.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/MEGALITH.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/MILITARY_COMMAND.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/NEST_ERADICATOR.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/NEUTRONIUM_EXTRACTOR.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/NEUTRONIUM_FORGE.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/NEUTRONIUM_SYNTH.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/NOVA_BOMB_ACTIVATOR.focs.txt
+* /usr/share/freeorion/default/scripting/buildings/colonies/SP_ABADDONI.focs.py
+* /usr/share/freeorion/default/scripting/buildings/colonies/SP_BANFORO.focs.py
+* /usr/share/freeorion/default/scripting/buildings/colonies/SP_CHATO.focs.py
+* /usr/share/freeorion/default/scripting/buildings/colonies/SP_CRAY.focs.py
+* /usr/share/freeorion/default/scripting/buildings/colonies/SP_DERTHREAN.focs.py
+* /usr/share/freeorion/default/scripting/buildings/colonies/SP_EAXAW.focs.py
+* /usr/share/freeorion/default/scripting/buildings/colonies/SP_EGASSEM.focs.py
+* /usr/share/freeorion/default/scripting/buildings/colonies/SP_ETTY.focs.py
+* /usr/share/freeorion/default/scripting/buildings/colonies/SP_EXOBOT.focs.py
+* /usr/share/freeorion/default/scripting/buildings/colonies/SP_FULVER.focs.py
+* /usr/share/freeorion/default/scripting/buildings/colonies/SP_FURTHEST.focs.py
+* /usr/share/freeorion/default/scripting/buildings/colonies/SP_GEORGE.focs.py
+* /usr/share/freeorion/default/scripting/buildings/colonies/SP_GYSACHE.focs.py
+* /usr/share/freeorion/default/scripting/buildings/colonies/SP_HAPPY.focs.py
+* /usr/share/freeorion/default/scripting/buildings/colonies/SP_HHHOH.focs.py
+* /usr/share/freeorion/default/scripting/buildings/colonies/SP_HUMAN.focs.py
+* /usr/share/freeorion/default/scripting/buildings/colonies/SP_KILANDOW.focs.py
+* /usr/share/freeorion/default/scripting/buildings/colonies/SP_KOBUNTURA.focs.py
+* /usr/share/freeorion/default/scripting/buildings/colonies/SP_LAENFA.focs.py
+* /usr/share/freeorion/default/scripting/buildings/colonies/SP_MISIORLA.focs.py
+* /usr/share/freeorion/default/scripting/buildings/colonies/SP_MUURSH.focs.py
+* /usr/share/freeorion/default/scripting/buildings/colonies/SP_PHINNERT.focs.py
+* /usr/share/freeorion/default/scripting/buildings/colonies/SP_REPLICON.focs.py
+* /usr/share/freeorion/default/scripting/buildings/colonies/SP_SCYLIOR.focs.py
+* /usr/share/freeorion/default/scripting/buildings/colonies/SP_SETINON.focs.py
+* /usr/share/freeorion/default/scripting/buildings/colonies/SP_SILEXIAN.focs.py
+* /usr/share/freeorion/default/scripting/buildings/colonies/SP_SLY.focs.py
+* /usr/share/freeorion/default/scripting/buildings/colonies/SP_SSLITH.focs.py
+* /usr/share/freeorion/default/scripting/buildings/colonies/SP_SUPER_TEST.focs.py
+* /usr/share/freeorion/default/scripting/buildings/colonies/SP_TAEGHIRUS.focs.py
+* /usr/share/freeorion/default/scripting/buildings/colonies/SP_TRITH.focs.py
+* /usr/share/freeorion/default/scripting/buildings/colonies/SP_UGMORS.focs.py
+* /usr/share/freeorion/default/scripting/buildings/COLONY_BASE.focs.py
+* /usr/share/freeorion/default/scripting/buildings/COLONY_INDEPENDENCE_DECREE.focs.py
+* /usr/share/freeorion/default/scripting/buildings/CONC_CAMP.focs.py
+* /usr/share/freeorion/default/scripting/buildings/CONC_CAMP_REMNANT.focs.py
+* /usr/share/freeorion/default/scripting/buildings/CULTURE_ARCHIVES.focs.py
+* /usr/share/freeorion/default/scripting/buildings/CULTURE_LIBRARY.focs.py
+* /usr/share/freeorion/default/scripting/buildings/ENCLAVE_VOID.focs.py
+* /usr/share/freeorion/default/scripting/buildings/EVACUATION.focs.py
+* /usr/share/freeorion/default/scripting/buildings/EXPERIMENTOR_OUTPOST.focs.py
+* /usr/share/freeorion/default/scripting/buildings/FIELD_REPELLOR.focs.py
+* /usr/share/freeorion/default/scripting/buildings/GAIA_TRANS.focs.py
+* /usr/share/freeorion/default/scripting/buildings/GAS_GIANT_GEN.focs.py
+* /usr/share/freeorion/default/scripting/buildings/GATEWAY_VOID.focs.py
+* /usr/share/freeorion/default/scripting/buildings/GENOME_BANK.focs.py
+* /usr/share/freeorion/default/scripting/buildings/HYPER_DAM.focs.py
+* /usr/share/freeorion/default/scripting/buildings/IMPERIAL_PALACE.focs.py
+* /usr/share/freeorion/default/scripting/buildings/INDUSTRY_CENTER.focs.py
+* /usr/share/freeorion/default/scripting/buildings/INTERSPECIES_ACADEMY.focs.py
+* /usr/share/freeorion/default/scripting/buildings/LIGHTHOUSE.focs.py
+* /usr/share/freeorion/default/scripting/buildings/MEGALITH.focs.py
+* /usr/share/freeorion/default/scripting/buildings/MILITARY_COMMAND.focs.py
+* /usr/share/freeorion/default/scripting/buildings/NEST_ERADICATOR.focs.py
+* /usr/share/freeorion/default/scripting/buildings/NEUTRONIUM_EXTRACTOR.focs.py
+* /usr/share/freeorion/default/scripting/buildings/NEUTRONIUM_FORGE.focs.py
+* /usr/share/freeorion/default/scripting/buildings/NEUTRONIUM_SYNTH.focs.py
+* /usr/share/freeorion/default/scripting/buildings/NOVA_BOMB_ACTIVATOR.focs.py
 * /usr/share/freeorion/default/scripting/buildings/OBSERVATORY.disabled
-* /usr/share/freeorion/default/scripting/buildings/PLANET_BEACON.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/PLANET_CLOAK.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/PLANET_DRIVE.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/REGIONAL_ADMIN.focs.txt
+* /usr/share/freeorion/default/scripting/buildings/PLANET_BEACON.focs.py
+* /usr/share/freeorion/default/scripting/buildings/PLANET_CLOAK.focs.py
+* /usr/share/freeorion/default/scripting/buildings/PLANET_DRIVE.focs.py
+* /usr/share/freeorion/default/scripting/buildings/REGIONAL_ADMIN.focs.py
 * /usr/share/freeorion/default/scripting/buildings/REMOTE_TERRAFORM.disabled
-* /usr/share/freeorion/default/scripting/buildings/SCANNING_FACILITY.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/SCRYING_SPHERE.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/shipyards/ASTEROID.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/shipyards/ASTEROID_REF.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/shipyards/BASE.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/shipyards/CON_ADV_ENGINE.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/shipyards/CON_GEOINT.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/shipyards/CON_NANOROBO.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/shipyards/ENERGY_COMP.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/shipyards/ENERGY_SOLAR.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/shipyards/ORBITAL_DRYDOCK.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/shipyards/ORGANIC_CEL_GRO.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/shipyards/ORGANIC_ORB_INC.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/shipyards/ORGANIC_XENO_FAC.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/SOL_ORB_GEN.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/SPACE_ELEVATOR.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/SPATIAL_DISTORT_GEN.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/STARGATE.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/STARLANE_BORE.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/STARLANE_NEXUS.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/STOCKPILING_CENTER.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/SUPER_TEST.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/TERRAFORM.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/TRANSFORMER.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/TRANSLATOR.focs.txt
-* /usr/share/freeorion/default/scripting/buildings/XENORESURRECTION_LAB.focs.txt
+* /usr/share/freeorion/default/scripting/buildings/SCANNING_FACILITY.focs.py
+* /usr/share/freeorion/default/scripting/buildings/SCRYING_SPHERE.focs.py
+* /usr/share/freeorion/default/scripting/buildings/shipyards/ASTEROID.focs.py
+* /usr/share/freeorion/default/scripting/buildings/shipyards/ASTEROID_REF.focs.py
+* /usr/share/freeorion/default/scripting/buildings/shipyards/BASE.focs.py
+* /usr/share/freeorion/default/scripting/buildings/shipyards/CON_ADV_ENGINE.focs.py
+* /usr/share/freeorion/default/scripting/buildings/shipyards/CON_GEOINT.focs.py
+* /usr/share/freeorion/default/scripting/buildings/shipyards/CON_NANOROBO.focs.py
+* /usr/share/freeorion/default/scripting/buildings/shipyards/ENERGY_COMP.focs.py
+* /usr/share/freeorion/default/scripting/buildings/shipyards/ENERGY_SOLAR.focs.py
+* /usr/share/freeorion/default/scripting/buildings/shipyards/ORBITAL_DRYDOCK.focs.py
+* /usr/share/freeorion/default/scripting/buildings/shipyards/ORGANIC_CEL_GRO.focs.py
+* /usr/share/freeorion/default/scripting/buildings/shipyards/ORGANIC_ORB_INC.focs.py
+* /usr/share/freeorion/default/scripting/buildings/shipyards/ORGANIC_XENO_FAC.focs.py
+* /usr/share/freeorion/default/scripting/buildings/SOL_ORB_GEN.focs.py
+* /usr/share/freeorion/default/scripting/buildings/SPACE_ELEVATOR.focs.py
+* /usr/share/freeorion/default/scripting/buildings/SPATIAL_DISTORT_GEN.focs.py
+* /usr/share/freeorion/default/scripting/buildings/STARGATE.focs.py
+* /usr/share/freeorion/default/scripting/buildings/STARLANE_BORE.focs.py
+* /usr/share/freeorion/default/scripting/buildings/STARLANE_NEXUS.focs.py
+* /usr/share/freeorion/default/scripting/buildings/STOCKPILING_CENTER.focs.py
+* /usr/share/freeorion/default/scripting/buildings/SUPER_TEST.focs.py
+* /usr/share/freeorion/default/scripting/buildings/TERRAFORM.focs.py
+* /usr/share/freeorion/default/scripting/buildings/TRANSFORMER.focs.py
+* /usr/share/freeorion/default/scripting/buildings/TRANSLATOR.focs.py
+* /usr/share/freeorion/default/scripting/buildings/XENORESURRECTION_LAB.focs.py
 * /usr/share/freeorion/default/scripting/custom_sitreps.py
 * /usr/share/freeorion/default/scripting/empire_colors.xml
-* /usr/share/freeorion/default/scripting/empire_statistics/ARMED_MONSTER_COUNT.focs.txt
-* /usr/share/freeorion/default/scripting/empire_statistics/BATTLESHIP_COUNT.focs.txt
+* /usr/share/freeorion/default/scripting/empire_statistics/ARMED_MONSTER_COUNT.focs.py
+* /usr/share/freeorion/default/scripting/empire_statistics/BATTLESHIP_COUNT.focs.py
 * /usr/share/freeorion/default/scripting/empire_statistics/COLONIES_COUNT.focs.txt
 * /usr/share/freeorion/default/scripting/empire_statistics/Empire.focs.txt
 * /usr/share/freeorion/default/scripting/empire_statistics/IP_OUTPUT.focs.txt
@@ -2773,6 +2772,8 @@ Free Clone of Master of Orion
 * /usr/share/freeorion/default/scripting/focs/_buildings.pyi
 * /usr/share/freeorion/default/scripting/focs/_effects.py
 * /usr/share/freeorion/default/scripting/focs/_effects.pyi
+* /usr/share/freeorion/default/scripting/focs/_empire_statistics.py
+* /usr/share/freeorion/default/scripting/focs/_empire_statistics.pyi
 * /usr/share/freeorion/default/scripting/focs/_game_rules_definition.py
 * /usr/share/freeorion/default/scripting/focs/_game_rules_definition.pyi
 * /usr/share/freeorion/default/scripting/focs/_industry.py
@@ -2784,10 +2785,8 @@ Free Clone of Master of Orion
 * /usr/share/freeorion/default/scripting/focs/_types.py
 * /usr/share/freeorion/default/scripting/focs/__init__.py
 * /usr/share/freeorion/default/scripting/game_rules.focs.py
-* /usr/share/freeorion/default/scripting/macros/advanced_focus.macros
 * /usr/share/freeorion/default/scripting/macros/base_prod.macros
 * /usr/share/freeorion/default/scripting/macros/base_prod.py
-* /usr/share/freeorion/default/scripting/macros/enqueue.macros
 * /usr/share/freeorion/default/scripting/macros/enqueue.py
 * /usr/share/freeorion/default/scripting/macros/misc.macros
 * /usr/share/freeorion/default/scripting/macros/misc.py
@@ -3001,12 +3000,12 @@ Free Clone of Master of Orion
 * /usr/share/freeorion/default/scripting/ship_hulls/robotic/SH_SELF_GRAVITATING.focs.txt
 * /usr/share/freeorion/default/scripting/ship_hulls/robotic/SH_SMALL_ROBOTIC.focs.txt
 * /usr/share/freeorion/default/scripting/ship_hulls/robotic/SH_TITANIC.focs.txt
-* /usr/share/freeorion/default/scripting/ship_hulls/robotic/SH_TRANSSPATIAL.focs.txt
 * /usr/share/freeorion/default/scripting/ship_hulls/ship_hulls.macros
 * /usr/share/freeorion/default/scripting/ship_hulls/SH_BASIC_LARGE.focs.txt
 * /usr/share/freeorion/default/scripting/ship_hulls/SH_BASIC_MEDIUM.focs.txt
 * /usr/share/freeorion/default/scripting/ship_hulls/SH_BASIC_SMALL.focs.txt
 * /usr/share/freeorion/default/scripting/ship_hulls/SH_COLONY_BASE.focs.txt
+* /usr/share/freeorion/default/scripting/ship_hulls/SH_TRANSSPATIAL.focs.txt
 * /usr/share/freeorion/default/scripting/ship_hulls/SH_XENTRONIUM.focs.txt
 * /usr/share/freeorion/default/scripting/ship_hulls/spatial_flux/SH_SPACE_FLUX_BUBBLE.focs.txt
 * /usr/share/freeorion/default/scripting/ship_hulls/spatial_flux/SH_SPACE_FLUX_COMPOSITE.focs.txt
@@ -3364,9 +3363,9 @@ Free Clone of Master of Orion
 * /usr/share/freeorion/default/scripting/techs/ship_hulls/robotic/SHP_MIL_ROBO_CONT.focs.py
 * /usr/share/freeorion/default/scripting/techs/ship_hulls/robotic/SHP_NANOROBO_MAINT.focs.py
 * /usr/share/freeorion/default/scripting/techs/ship_hulls/robotic/SHP_SMALL_ROBO.focs.py
-* /usr/share/freeorion/default/scripting/techs/ship_hulls/robotic/SHP_TRANSSPACE_DRIVE.focs.py
 * /usr/share/freeorion/default/scripting/techs/ship_hulls/SHP_DOMESTIC_MONSTER.focs.py
 * /usr/share/freeorion/default/scripting/techs/ship_hulls/SHP_GAL_EXPLO.focs.py
+* /usr/share/freeorion/default/scripting/techs/ship_hulls/SHP_TRANSSPACE.focs.py
 * /usr/share/freeorion/default/scripting/techs/ship_hulls/SHP_XENTRONIUM_HULL.focs.py
 * /usr/share/freeorion/default/scripting/techs/ship_hulls/spatial_flux/SHP_SPACE_FLUX_BUBBLE.focs.py
 * /usr/share/freeorion/default/scripting/techs/ship_hulls/spatial_flux/SHP_SPACE_FLUX_COMPOSITION.focs.py

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libboost-static 1.87.0-5"
-version = "1.87.0-5"
+title = "libboost-static 1.88.0-2"
+version = "1.88.0-2"
 description = "Boost libraries statically linked."
-date = "2025-05-22T08:16:34"
+date = "2025-05-26T13:23:30"
 aliases = "/packages/49946"
 categories = ['devel-extra']
-upstreamurl = "http://boost.org/"
+upstreamurl = "https://www.boost.org"
 arch = "x86_64"
-size = "49841776"
-usize = "94803984"
-sha1sum = "c6ffd1cdaf6966e1e3b5a03c878a0ba9ba5d6d37"
+size = "50402168"
+usize = "94958550"
+sha1sum = "0c0f03d1d34e0937931d3d81ddc776f4d16c00c3"
 depends = "[]"
 +++
 ### Description: 

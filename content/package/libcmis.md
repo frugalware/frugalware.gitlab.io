@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libcmis 0.6.2-5"
-version = "0.6.2-5"
+title = "libcmis 0.6.2-6"
+version = "0.6.2-6"
 description = "A C++ client library for the CMIS interface."
-date = "2025-05-19T13:48:57"
+date = "2025-05-26T12:46:23"
 aliases = "/packages/136797"
 categories = ['xoffice']
 upstreamurl = "https://github.com/tdf/libcmis"
 arch = "x86_64"
-size = "408868"
-usize = "1433083"
-sha1sum = "af59be05cddebdb108cb77c4a4001b0f6eaa6a96"
-depends = "['curl>=7.50.3-2', 'libboost>=1.87.0', 'libxml2>=2.14.3']"
+size = "408540"
+usize = "1432955"
+sha1sum = "a1de7c78734e1136a2d1e541c4f0511b7a012fc3"
+depends = "['curl>=7.50.3-2', 'libboost>=1.88.0', 'libxml2>=2.14.3']"
 reverse_depends = "['libreoffice']"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "simgear 2020.3.19-2"
-version = "2020.3.19-2"
+title = "simgear 2024.1.1-1"
+version = "2024.1.1-1"
 description = "Libraries to be used as building blocks for quickly assembling 3d simulations"
-date = "2024-05-08T23:43:54"
+date = "2025-05-26T13:59:47"
 aliases = "/packages/3836"
 categories = ['xlib-extra']
 upstreamurl = "http://www.simgear.org/"
 arch = "x86_64"
-size = "36909104"
-usize = "62017539"
-sha1sum = "71471f468ab572ad9835e4bee8d657a8f669949d"
+size = "48837556"
+usize = "83155939"
+sha1sum = "6682d36efaece2c0cb384c81fb70a059f4dc7f84"
 depends = "['glibc>=2.34']"
 +++
 ### Description: 
@@ -37,6 +37,7 @@ Libraries to be used as building blocks for quickly assembling 3d simulations
 * /usr/include/simgear/bvh/BVHStaticNode.hxx
 * /usr/include/simgear/bvh/BVHStaticTriangle.hxx
 * /usr/include/simgear/bvh/BVHSubTreeCollector.hxx
+* /usr/include/simgear/bvh/BVHTerrainTile.hxx
 * /usr/include/simgear/bvh/BVHTransform.hxx
 * /usr/include/simgear/bvh/BVHVisitor.hxx
 * /usr/include/simgear/canvas/Canvas.hxx
@@ -56,12 +57,14 @@ Libraries to be used as building blocks for quickly assembling 3d simulations
 * /usr/include/simgear/canvas/elements/CanvasMap.hxx
 * /usr/include/simgear/canvas/elements/CanvasPath.hxx
 * /usr/include/simgear/canvas/elements/CanvasText.hxx
+* /usr/include/simgear/canvas/events/CanvasKeyBinding.hxx
 * /usr/include/simgear/canvas/events/CustomEvent.hxx
 * /usr/include/simgear/canvas/events/DeviceEvent.hxx
 * /usr/include/simgear/canvas/events/KeyboardEvent.hxx
 * /usr/include/simgear/canvas/events/MouseEvent.hxx
 * /usr/include/simgear/canvas/layout/AlignFlag_values.hxx
 * /usr/include/simgear/canvas/layout/BoxLayout.hxx
+* /usr/include/simgear/canvas/layout/GridLayout.hxx
 * /usr/include/simgear/canvas/layout/Layout.hxx
 * /usr/include/simgear/canvas/layout/LayoutItem.hxx
 * /usr/include/simgear/canvas/layout/NasalWidget.hxx
@@ -76,9 +79,10 @@ Libraries to be used as building blocks for quickly assembling 3d simulations
 * /usr/include/simgear/debug/debug_types.h
 * /usr/include/simgear/debug/ErrorReportingCallback.hxx
 * /usr/include/simgear/debug/LogCallback.hxx
+* /usr/include/simgear/debug/logdelta.hxx
 * /usr/include/simgear/debug/LogEntry.hxx
 * /usr/include/simgear/debug/logstream.hxx
-* /usr/include/simgear/debug/OsgIoCapture.hxx
+* /usr/include/simgear/debug/Reporting.hxx
 * /usr/include/simgear/embedded_resources/EmbeddedResource.hxx
 * /usr/include/simgear/embedded_resources/EmbeddedResourceManager.hxx
 * /usr/include/simgear/embedded_resources/EmbeddedResourceProxy.hxx
@@ -120,6 +124,7 @@ Libraries to be used as building blocks for quickly assembling 3d simulations
 * /usr/include/simgear/io/raw_socket.hxx
 * /usr/include/simgear/io/sg_binobj.hxx
 * /usr/include/simgear/io/sg_file.hxx
+* /usr/include/simgear/io/sg_mmap.hxx
 * /usr/include/simgear/io/sg_netBuffer.hxx
 * /usr/include/simgear/io/sg_netChannel.hxx
 * /usr/include/simgear/io/sg_netChat.hxx
@@ -157,12 +162,14 @@ Libraries to be used as building blocks for quickly assembling 3d simulations
 * /usr/include/simgear/math/SGVec3.hxx
 * /usr/include/simgear/math/SGVec4.hxx
 * /usr/include/simgear/math/sg_geodesy.hxx
-* /usr/include/simgear/math/sg_random.h
+* /usr/include/simgear/math/sg_random.hxx
 * /usr/include/simgear/math/sg_types.hxx
 * /usr/include/simgear/math/simd.hxx
 * /usr/include/simgear/math/simd4x4.hxx
 * /usr/include/simgear/misc/argparse.hxx
 * /usr/include/simgear/misc/CSSBorder.hxx
+* /usr/include/simgear/misc/inputcolor.hxx
+* /usr/include/simgear/misc/inputvalue.hxx
 * /usr/include/simgear/misc/interpolator.hxx
 * /usr/include/simgear/misc/ListDiff.hxx
 * /usr/include/simgear/misc/lru_cache.hxx
@@ -188,7 +195,6 @@ Libraries to be used as building blocks for quickly assembling 3d simulations
 * /usr/include/simgear/nasal/cppbind/Ghost.hxx
 * /usr/include/simgear/nasal/cppbind/NasalCallContext.hxx
 * /usr/include/simgear/nasal/cppbind/NasalContext.hxx
-* /usr/include/simgear/nasal/cppbind/NasalEmesaryInterface.hxx
 * /usr/include/simgear/nasal/cppbind/NasalHash.hxx
 * /usr/include/simgear/nasal/cppbind/NasalMe.hxx
 * /usr/include/simgear/nasal/cppbind/NasalMethodHolder.hxx
@@ -199,10 +205,12 @@ Libraries to be used as building blocks for quickly assembling 3d simulations
 * /usr/include/simgear/nasal/iolib.h
 * /usr/include/simgear/nasal/naref.h
 * /usr/include/simgear/nasal/nasal.h
+* /usr/include/simgear/nasal/NasalEmesaryInterface.hxx
 * /usr/include/simgear/package/Catalog.hxx
 * /usr/include/simgear/package/Delegate.hxx
 * /usr/include/simgear/package/Install.hxx
 * /usr/include/simgear/package/Package.hxx
+* /usr/include/simgear/package/PackageCommon.hxx
 * /usr/include/simgear/package/Root.hxx
 * /usr/include/simgear/props/AtomicChangeListener.hxx
 * /usr/include/simgear/props/condition.hxx
@@ -218,6 +226,7 @@ Libraries to be used as building blocks for quickly assembling 3d simulations
 * /usr/include/simgear/props/props_io.hxx
 * /usr/include/simgear/props/tiedpropertylist.hxx
 * /usr/include/simgear/props/vectorPropTemplates.hxx
+* /usr/include/simgear/scene/material/Atlas.hxx
 * /usr/include/simgear/scene/material/Effect.hxx
 * /usr/include/simgear/scene/material/EffectBuilder.hxx
 * /usr/include/simgear/scene/material/EffectCullVisitor.hxx
@@ -243,11 +252,13 @@ Libraries to be used as building blocks for quickly assembling 3d simulations
 * /usr/include/simgear/scene/model/persparam.hxx
 * /usr/include/simgear/scene/model/placement.hxx
 * /usr/include/simgear/scene/model/PrimitiveCollector.hxx
+* /usr/include/simgear/scene/model/ReaderWriterGLTF.hxx
 * /usr/include/simgear/scene/model/SGClipGroup.hxx
 * /usr/include/simgear/scene/model/SGInteractionAnimation.hxx
 * /usr/include/simgear/scene/model/SGLight.hxx
 * /usr/include/simgear/scene/model/SGMaterialAnimation.hxx
 * /usr/include/simgear/scene/model/SGOffsetTransform.hxx
+* /usr/include/simgear/scene/model/SGPBRAnimation.hxx
 * /usr/include/simgear/scene/model/SGPickAnimation.hxx
 * /usr/include/simgear/scene/model/SGReaderWriterXML.hxx
 * /usr/include/simgear/scene/model/SGRotateTransform.hxx
@@ -259,6 +270,7 @@ Libraries to be used as building blocks for quickly assembling 3d simulations
 * /usr/include/simgear/scene/sky/cloudfield.hxx
 * /usr/include/simgear/scene/sky/CloudShaderGeometry.hxx
 * /usr/include/simgear/scene/sky/dome.hxx
+* /usr/include/simgear/scene/sky/galaxy.hxx
 * /usr/include/simgear/scene/sky/moon.hxx
 * /usr/include/simgear/scene/sky/newcloud.hxx
 * /usr/include/simgear/scene/sky/oursun.hxx
@@ -266,8 +278,13 @@ Libraries to be used as building blocks for quickly assembling 3d simulations
 * /usr/include/simgear/scene/sky/sphere.hxx
 * /usr/include/simgear/scene/sky/stars.hxx
 * /usr/include/simgear/scene/tgdb/apt_signs.hxx
+* /usr/include/simgear/scene/tgdb/AreaFeatureBin.hxx
+* /usr/include/simgear/scene/tgdb/CoastlineBin.hxx
 * /usr/include/simgear/scene/tgdb/GroundLightManager.hxx
+* /usr/include/simgear/scene/tgdb/LightBin.hxx
+* /usr/include/simgear/scene/tgdb/LineFeatureBin.hxx
 * /usr/include/simgear/scene/tgdb/obj.hxx
+* /usr/include/simgear/scene/tgdb/ObjectInstanceBin.hxx
 * /usr/include/simgear/scene/tgdb/pt_lights.hxx
 * /usr/include/simgear/scene/tgdb/ReaderWriterSPT.hxx
 * /usr/include/simgear/scene/tgdb/ReaderWriterSTG.hxx
@@ -287,20 +304,33 @@ Libraries to be used as building blocks for quickly assembling 3d simulations
 * /usr/include/simgear/scene/tgdb/ShaderGeometry.hxx
 * /usr/include/simgear/scene/tgdb/TreeBin.hxx
 * /usr/include/simgear/scene/tgdb/userdata.hxx
+* /usr/include/simgear/scene/tgdb/VPBBufferData.hxx
+* /usr/include/simgear/scene/tgdb/VPBElevationSlice.hxx
+* /usr/include/simgear/scene/tgdb/VPBLineFeatureRenderer.hxx
+* /usr/include/simgear/scene/tgdb/VPBMaterialHandler.hxx
+* /usr/include/simgear/scene/tgdb/VPBRasterRenderer.hxx
+* /usr/include/simgear/scene/tgdb/VPBTechnique.hxx
+* /usr/include/simgear/scene/tgdb/VPBTileBounds.hxx
 * /usr/include/simgear/scene/tsync/terrasync.hxx
 * /usr/include/simgear/scene/util/ColorInterpolator.hxx
+* /usr/include/simgear/scene/util/color_space.hxx
 * /usr/include/simgear/scene/util/CopyOp.hxx
 * /usr/include/simgear/scene/util/DeletionManager.hxx
+* /usr/include/simgear/scene/util/load_shader.hxx
+* /usr/include/simgear/scene/util/MemoryBarrier.hxx
 * /usr/include/simgear/scene/util/NodeAndDrawableVisitor.hxx
 * /usr/include/simgear/scene/util/Noise.hxx
 * /usr/include/simgear/scene/util/OptionsReadFileCallback.hxx
 * /usr/include/simgear/scene/util/OrthophotoManager.hxx
 * /usr/include/simgear/scene/util/OsgDebug.hxx
+* /usr/include/simgear/scene/util/OsgIoCapture.hxx
 * /usr/include/simgear/scene/util/OsgMath.hxx
 * /usr/include/simgear/scene/util/OsgSingleton.hxx
+* /usr/include/simgear/scene/util/OsgUtils.hxx
 * /usr/include/simgear/scene/util/parse_color.hxx
 * /usr/include/simgear/scene/util/PrimitiveUtils.hxx
 * /usr/include/simgear/scene/util/project.hxx
+* /usr/include/simgear/scene/util/ProjectionMatrix.hxx
 * /usr/include/simgear/scene/util/QuadTreeBuilder.hxx
 * /usr/include/simgear/scene/util/RenderConstants.hxx
 * /usr/include/simgear/scene/util/SGDebugDrawCallback.hxx
@@ -329,6 +359,7 @@ Libraries to be used as building blocks for quickly assembling 3d simulations
 * /usr/include/simgear/screen/extensions.hxx
 * /usr/include/simgear/screen/screen-dump.hxx
 * /usr/include/simgear/screen/tr.h
+* /usr/include/simgear/screen/video-encoder.hxx
 * /usr/include/simgear/serial/serial.hxx
 * /usr/include/simgear/sg_inlines.h
 * /usr/include/simgear/simgear_config.h
@@ -347,8 +378,6 @@ Libraries to be used as building blocks for quickly assembling 3d simulations
 * /usr/include/simgear/structure/function_list.hxx
 * /usr/include/simgear/structure/intern.hxx
 * /usr/include/simgear/structure/map.hxx
-* /usr/include/simgear/structure/OSGUtils.hxx
-* /usr/include/simgear/structure/OSGVersion.hxx
 * /usr/include/simgear/structure/SGAtomic.hxx
 * /usr/include/simgear/structure/SGBinding.hxx
 * /usr/include/simgear/structure/SGExpression.hxx
@@ -357,6 +386,7 @@ Libraries to be used as building blocks for quickly assembling 3d simulations
 * /usr/include/simgear/structure/SGSharedPtr.hxx
 * /usr/include/simgear/structure/SGSmplhist.hxx
 * /usr/include/simgear/structure/SGSmplstat.hxx
+* /usr/include/simgear/structure/SGSourceLocation.hxx
 * /usr/include/simgear/structure/SGWeakPtr.hxx
 * /usr/include/simgear/structure/SGWeakReferenced.hxx
 * /usr/include/simgear/structure/singleton.hpp
@@ -368,24 +398,29 @@ Libraries to be used as building blocks for quickly assembling 3d simulations
 * /usr/include/simgear/threads/SGQueue.hxx
 * /usr/include/simgear/threads/SGThread.hxx
 * /usr/include/simgear/timing/lowleveltime.h
+* /usr/include/simgear/timing/rawprofile.hxx
 * /usr/include/simgear/timing/sg_time.hxx
 * /usr/include/simgear/timing/timestamp.hxx
 * /usr/include/simgear/timing/timezone.h
+* /usr/include/simgear/timing/zonedetect.h
 * /usr/include/simgear/version.h
 * /usr/include/simgear/xml/easyxml.hxx
+* /usr/lib/cmake/SimGear/CreateOSGImportedTargets.cmake
 * /usr/lib/cmake/SimGear/SimGearConfig.cmake
 * /usr/lib/cmake/SimGear/SimGearConfigVersion.cmake
 * /usr/lib/cmake/SimGear/SimGearTargets-release.cmake
 * /usr/lib/cmake/SimGear/SimGearTargets.cmake
+* /usr/lib/libFGExpat.a
+* /usr/lib/libFGUdns.a
 * /usr/lib/libSimGearCore.a
 * /usr/lib/libSimGearScene.a
-* /usr/share/doc/simgear-2020.3.19/AUTHORS
-* /usr/share/doc/simgear-2020.3.19/ChangeLog
-* /usr/share/doc/simgear-2020.3.19/COPYING
-* /usr/share/doc/simgear-2020.3.19/INSTALL
-* /usr/share/doc/simgear-2020.3.19/NEWS
-* /usr/share/doc/simgear-2020.3.19/README
-* /usr/share/doc/simgear-2020.3.19/README.cmake
-* /usr/share/doc/simgear-2020.3.19/README.OSG
-* /usr/share/doc/simgear-2020.3.19/README.sound
-* /usr/share/doc/simgear-2020.3.19/README.zlib
+* /usr/share/doc/simgear-2024.1.1/AUTHORS
+* /usr/share/doc/simgear-2024.1.1/ChangeLog
+* /usr/share/doc/simgear-2024.1.1/COPYING
+* /usr/share/doc/simgear-2024.1.1/INSTALL
+* /usr/share/doc/simgear-2024.1.1/NEWS
+* /usr/share/doc/simgear-2024.1.1/README
+* /usr/share/doc/simgear-2024.1.1/README.cmake
+* /usr/share/doc/simgear-2024.1.1/README.OSG
+* /usr/share/doc/simgear-2024.1.1/README.sound
+* /usr/share/doc/simgear-2024.1.1/README.zlib
