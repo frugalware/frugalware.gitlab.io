@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "blosc 1.21.6-1"
-version = "1.21.6-1"
+title = "blosc 1.21.6-2"
+version = "1.21.6-2"
 description = "A blocking, shuffling and loss-less compression library."
-date = "2024-07-22T11:53:03"
+date = "2025-05-26T12:25:05"
 aliases = "/packages/220208"
 categories = ['xlib-extra']
 upstreamurl = "http://blosc.org/"
 arch = "x86_64"
-size = "306728"
-usize = "437609"
-sha1sum = "b13d8e1ccaf7549a02cf994eb66a69a5c0a56f0d"
+size = "307320"
+usize = "439969"
+sha1sum = "dcc082dd1bbedaa1a29a55158b9a83847f0e4600"
 depends = "['snappy', 'zstd']"
 reverse_depends = "['adios2', 'openvdb']"
 +++

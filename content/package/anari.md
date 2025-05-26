@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "anari 0.13.1-1"
-version = "0.13.1-1"
+title = "anari 0.13.1-2"
+version = "0.13.1-2"
 description = "ANARI Software Development Kit"
-date = "2025-03-16T14:07:21"
+date = "2025-05-26T12:46:05"
 aliases = "/packages/222588"
 categories = ['xlib-extra']
 upstreamurl = "https://github.com/KhronosGroup/ANARI-SDK"
 arch = "x86_64"
-size = "2915952"
-usize = "11637469"
-sha1sum = "743d79f681ddf0a79a9dc49e3f987c7b5f485bad"
+size = "2901444"
+usize = "11614741"
+sha1sum = "e276ca0dd5a66b889f90f8d0b28c961f4cb1e2cf"
 depends = "['libstdc++']"
 reverse_depends = "['vtk']"
 +++
