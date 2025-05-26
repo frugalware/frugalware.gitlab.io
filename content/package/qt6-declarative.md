@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qt6-declarative 6.9.0-1"
-version = "6.9.0-1"
+title = "qt6-declarative 6.9.0-2"
+version = "6.9.0-2"
 description = "The Qt6 toolkit, qtdeclarative"
-date = "2025-04-04T11:11:14"
+date = "2025-05-26T11:13:41"
 aliases = "/packages/220760"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "84684676"
-usize = "254883615"
-sha1sum = "03b432d909a84ee4a11b2f448b2181018269eae1"
-depends = "['qt6-languageserver']"
+size = "82189548"
+usize = "253046141"
+sha1sum = "ddc403ba354882dec7f959dfe4a291d6b61895eb"
+depends = "['qt6-languageserver', 'qt6-svg']"
 reverse_depends = "['accounts-qml-module', 'akonadi-search', 'analitza', 'bluez-qt', 'calamares-frugalware', 'dolphin', 'kaccounts-integration', 'kanagram', 'kate', 'kdenlive', 'khangman', 'kiconthemes', 'kirigami', 'kopeninghours', 'kpublictransport', 'kquickcharts', 'kquickimageeditor', 'ktexttemplate', 'kuserfeedback', 'libkdegames', 'mpvqt', 'print-manager', 'pyside6', 'qcoro', 'qt6-3d', 'qt6-5compat', 'qt6-charts', 'qt6-connectivity', 'qt6-datavis3d', 'qt6-httpserver', 'qt6-location', 'qt6-lottie', 'qt6-positioning', 'qt6-quicktimeline', 'qt6-remoteobjects', 'qt6-scxml', 'qt6-sensors', 'qt6-speech', 'qt6-tools', 'qt6-virtualkeyboard', 'qt6-wayland', 'qt6-webchannel', 'qt6-websockets', 'qtforkawesome', 'sddm', 'solid', 'texstudio']"
 +++
 ### Description: 
@@ -1442,6 +1442,25 @@ The Qt6 toolkit, qtdeclarative
 * /usr/include/qt6/QtQuickTestUtils/QtQuickTestUtilsDepends
 * /usr/include/qt6/QtQuickTestUtils/QtQuickTestUtilsVersion
 * /usr/include/qt6/QtQuickTestUtils/qtquicktestutilsversion.h
+* /usr/include/qt6/QtQuickVectorImage/6.9.0/QtQuickVectorImage/private/qquickvectorimage_p.h
+* /usr/include/qt6/QtQuickVectorImage/6.9.0/QtQuickVectorImage/private/qquickvectorimage_p_p.h
+* /usr/include/qt6/QtQuickVectorImage/QtQuickVectorImage
+* /usr/include/qt6/QtQuickVectorImage/QtQuickVectorImageDepends
+* /usr/include/qt6/QtQuickVectorImage/qtquickvectorimageexports.h
+* /usr/include/qt6/QtQuickVectorImage/QtQuickVectorImageVersion
+* /usr/include/qt6/QtQuickVectorImage/qtquickvectorimageversion.h
+* /usr/include/qt6/QtQuickVectorImageGenerator/6.9.0/QtQuickVectorImageGenerator/private/qquickgenerator_p.h
+* /usr/include/qt6/QtQuickVectorImageGenerator/6.9.0/QtQuickVectorImageGenerator/private/qquickitemgenerator_p.h
+* /usr/include/qt6/QtQuickVectorImageGenerator/6.9.0/QtQuickVectorImageGenerator/private/qquicknodeinfo_p.h
+* /usr/include/qt6/QtQuickVectorImageGenerator/6.9.0/QtQuickVectorImageGenerator/private/qquickqmlgenerator_p.h
+* /usr/include/qt6/QtQuickVectorImageGenerator/6.9.0/QtQuickVectorImageGenerator/private/qquickvectorimageglobal_p.h
+* /usr/include/qt6/QtQuickVectorImageGenerator/6.9.0/QtQuickVectorImageGenerator/private/qsvgvisitorimpl_p.h
+* /usr/include/qt6/QtQuickVectorImageGenerator/6.9.0/QtQuickVectorImageGenerator/private/utils_p.h
+* /usr/include/qt6/QtQuickVectorImageGenerator/QtQuickVectorImageGenerator
+* /usr/include/qt6/QtQuickVectorImageGenerator/QtQuickVectorImageGeneratorDepends
+* /usr/include/qt6/QtQuickVectorImageGenerator/qtquickvectorimagegeneratorexports.h
+* /usr/include/qt6/QtQuickVectorImageGenerator/QtQuickVectorImageGeneratorVersion
+* /usr/include/qt6/QtQuickVectorImageGenerator/qtquickvectorimagegeneratorversion.h
 * /usr/include/qt6/QtQuickWidgets/6.9.0/QtQuickWidgets/private/qaccessiblequickwidgetfactory_p.h
 * /usr/include/qt6/QtQuickWidgets/6.9.0/QtQuickWidgets/private/qaccessiblequickwidget_p.h
 * /usr/include/qt6/QtQuickWidgets/6.9.0/QtQuickWidgets/private/qquickwidget_p.h
@@ -1679,6 +1698,12 @@ The Qt6 toolkit, qtdeclarative
 * /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquicklayoutspluginConfigVersionImpl.cmake
 * /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquicklayoutspluginTargets-release.cmake
 * /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquicklayoutspluginTargets.cmake
+* /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquickvectorimagepluginAdditionalTargetInfo.cmake
+* /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquickvectorimagepluginConfig.cmake
+* /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquickvectorimagepluginConfigVersion.cmake
+* /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquickvectorimagepluginConfigVersionImpl.cmake
+* /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquickvectorimagepluginTargets-release.cmake
+* /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquickvectorimagepluginTargets.cmake
 * /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtqmlcorepluginAdditionalTargetInfo.cmake
 * /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtqmlcorepluginConfig.cmake
 * /usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtqmlcorepluginConfigVersion.cmake
@@ -2567,6 +2592,40 @@ The Qt6 toolkit, qtdeclarative
 * /usr/lib/cmake/Qt6QuickTestUtilsPrivate/Qt6QuickTestUtilsPrivateTargets.cmake
 * /usr/lib/cmake/Qt6QuickTestUtilsPrivate/Qt6QuickTestUtilsPrivateVersionlessAliasTargets.cmake
 * /usr/lib/cmake/Qt6QuickTestUtilsPrivate/Qt6QuickTestUtilsPrivateVersionlessTargets.cmake
+* /usr/lib/cmake/Qt6QuickTools/Qt6QuickToolsAdditionalTargetInfo.cmake
+* /usr/lib/cmake/Qt6QuickTools/Qt6QuickToolsConfig.cmake
+* /usr/lib/cmake/Qt6QuickTools/Qt6QuickToolsConfigVersion.cmake
+* /usr/lib/cmake/Qt6QuickTools/Qt6QuickToolsConfigVersionImpl.cmake
+* /usr/lib/cmake/Qt6QuickTools/Qt6QuickToolsDependencies.cmake
+* /usr/lib/cmake/Qt6QuickTools/Qt6QuickToolsTargets-release.cmake
+* /usr/lib/cmake/Qt6QuickTools/Qt6QuickToolsTargets.cmake
+* /usr/lib/cmake/Qt6QuickTools/Qt6QuickToolsVersionlessTargets.cmake
+* /usr/lib/cmake/Qt6QuickVectorImage/Qt6QuickVectorImageAdditionalTargetInfo.cmake
+* /usr/lib/cmake/Qt6QuickVectorImage/Qt6QuickVectorImageConfig.cmake
+* /usr/lib/cmake/Qt6QuickVectorImage/Qt6QuickVectorImageConfigVersion.cmake
+* /usr/lib/cmake/Qt6QuickVectorImage/Qt6QuickVectorImageConfigVersionImpl.cmake
+* /usr/lib/cmake/Qt6QuickVectorImage/Qt6QuickVectorImageDependencies.cmake
+* /usr/lib/cmake/Qt6QuickVectorImage/Qt6QuickVectorImageTargets-release.cmake
+* /usr/lib/cmake/Qt6QuickVectorImage/Qt6QuickVectorImageTargets.cmake
+* /usr/lib/cmake/Qt6QuickVectorImage/Qt6QuickVectorImageVersionlessAliasTargets.cmake
+* /usr/lib/cmake/Qt6QuickVectorImage/Qt6QuickVectorImageVersionlessTargets.cmake
+* /usr/lib/cmake/Qt6QuickVectorImageGeneratorPrivate/Qt6QuickVectorImageGeneratorPrivateAdditionalTargetInfo.cmake
+* /usr/lib/cmake/Qt6QuickVectorImageGeneratorPrivate/Qt6QuickVectorImageGeneratorPrivateConfig.cmake
+* /usr/lib/cmake/Qt6QuickVectorImageGeneratorPrivate/Qt6QuickVectorImageGeneratorPrivateConfigVersion.cmake
+* /usr/lib/cmake/Qt6QuickVectorImageGeneratorPrivate/Qt6QuickVectorImageGeneratorPrivateConfigVersionImpl.cmake
+* /usr/lib/cmake/Qt6QuickVectorImageGeneratorPrivate/Qt6QuickVectorImageGeneratorPrivateDependencies.cmake
+* /usr/lib/cmake/Qt6QuickVectorImageGeneratorPrivate/Qt6QuickVectorImageGeneratorPrivateTargets-release.cmake
+* /usr/lib/cmake/Qt6QuickVectorImageGeneratorPrivate/Qt6QuickVectorImageGeneratorPrivateTargets.cmake
+* /usr/lib/cmake/Qt6QuickVectorImageGeneratorPrivate/Qt6QuickVectorImageGeneratorPrivateVersionlessAliasTargets.cmake
+* /usr/lib/cmake/Qt6QuickVectorImageGeneratorPrivate/Qt6QuickVectorImageGeneratorPrivateVersionlessTargets.cmake
+* /usr/lib/cmake/Qt6QuickVectorImagePrivate/Qt6QuickVectorImagePrivateAdditionalTargetInfo.cmake
+* /usr/lib/cmake/Qt6QuickVectorImagePrivate/Qt6QuickVectorImagePrivateConfig.cmake
+* /usr/lib/cmake/Qt6QuickVectorImagePrivate/Qt6QuickVectorImagePrivateConfigVersion.cmake
+* /usr/lib/cmake/Qt6QuickVectorImagePrivate/Qt6QuickVectorImagePrivateConfigVersionImpl.cmake
+* /usr/lib/cmake/Qt6QuickVectorImagePrivate/Qt6QuickVectorImagePrivateDependencies.cmake
+* /usr/lib/cmake/Qt6QuickVectorImagePrivate/Qt6QuickVectorImagePrivateTargets.cmake
+* /usr/lib/cmake/Qt6QuickVectorImagePrivate/Qt6QuickVectorImagePrivateVersionlessAliasTargets.cmake
+* /usr/lib/cmake/Qt6QuickVectorImagePrivate/Qt6QuickVectorImagePrivateVersionlessTargets.cmake
 * /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsAdditionalTargetInfo.cmake
 * /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsConfig.cmake
 * /usr/lib/cmake/Qt6QuickWidgets/Qt6QuickWidgetsConfigVersion.cmake
@@ -2760,6 +2819,14 @@ The Qt6 toolkit, qtdeclarative
 * /usr/lib/libQt6QuickTest.so.6.9.0
 * /usr/lib/libQt6QuickTestUtils.a
 * /usr/lib/libQt6QuickTestUtils.prl
+* /usr/lib/libQt6QuickVectorImage.prl
+* /usr/lib/libQt6QuickVectorImage.so
+* /usr/lib/libQt6QuickVectorImage.so.6
+* /usr/lib/libQt6QuickVectorImage.so.6.9.0
+* /usr/lib/libQt6QuickVectorImageGenerator.prl
+* /usr/lib/libQt6QuickVectorImageGenerator.so
+* /usr/lib/libQt6QuickVectorImageGenerator.so.6
+* /usr/lib/libQt6QuickVectorImageGenerator.so.6.9.0
 * /usr/lib/libQt6QuickWidgets.prl
 * /usr/lib/libQt6QuickWidgets.so
 * /usr/lib/libQt6QuickWidgets.so.6
@@ -2804,6 +2871,7 @@ The Qt6 toolkit, qtdeclarative
 * /usr/lib/pkgconfig/Qt6QuickLayouts.pc
 * /usr/lib/pkgconfig/Qt6QuickTemplates2.pc
 * /usr/lib/pkgconfig/Qt6QuickTest.pc
+* /usr/lib/pkgconfig/Qt6QuickVectorImage.pc
 * /usr/lib/pkgconfig/Qt6QuickWidgets.pc
 * /usr/lib/qt6/bin/qml
 * /usr/lib/qt6/bin/qmldom
@@ -2818,6 +2886,7 @@ The Qt6 toolkit, qtdeclarative
 * /usr/lib/qt6/bin/qmltc
 * /usr/lib/qt6/bin/qmltestrunner
 * /usr/lib/qt6/bin/qmltime
+* /usr/lib/qt6/bin/svgtoqml
 * /usr/lib/qt6/metatypes/qt6labsanimation_release_metatypes.json
 * /usr/lib/qt6/metatypes/qt6labsfolderlistmodel_release_metatypes.json
 * /usr/lib/qt6/metatypes/qt6labsplatform_release_metatypes.json
@@ -2866,6 +2935,8 @@ The Qt6 toolkit, qtdeclarative
 * /usr/lib/qt6/metatypes/qt6quicktemplates2_release_metatypes.json
 * /usr/lib/qt6/metatypes/qt6quicktestutilsprivate_release_metatypes.json
 * /usr/lib/qt6/metatypes/qt6quicktest_release_metatypes.json
+* /usr/lib/qt6/metatypes/qt6quickvectorimagegeneratorprivate_release_metatypes.json
+* /usr/lib/qt6/metatypes/qt6quickvectorimage_release_metatypes.json
 * /usr/lib/qt6/metatypes/qt6quickwidgets_release_metatypes.json
 * /usr/lib/qt6/metatypes/qt6quick_release_metatypes.json
 * /usr/lib/qt6/mkspecs/features/qmlcache.prf
@@ -2959,6 +3030,9 @@ The Qt6 toolkit, qtdeclarative
 * /usr/lib/qt6/mkspecs/modules/qt_lib_quicktemplates2.pri
 * /usr/lib/qt6/mkspecs/modules/qt_lib_quicktemplates2_private.pri
 * /usr/lib/qt6/mkspecs/modules/qt_lib_quicktestutilsprivate_private.pri
+* /usr/lib/qt6/mkspecs/modules/qt_lib_quickvectorimage.pri
+* /usr/lib/qt6/mkspecs/modules/qt_lib_quickvectorimagegenerator_private.pri
+* /usr/lib/qt6/mkspecs/modules/qt_lib_quickvectorimage_private.pri
 * /usr/lib/qt6/mkspecs/modules/qt_lib_quickwidgets.pri
 * /usr/lib/qt6/mkspecs/modules/qt_lib_quickwidgets_private.pri
 * /usr/lib/qt6/mkspecs/modules/qt_lib_quick_private.pri
@@ -3012,6 +3086,8 @@ The Qt6 toolkit, qtdeclarative
 * /usr/lib/qt6/modules/QuickTemplates2.json
 * /usr/lib/qt6/modules/QuickTest.json
 * /usr/lib/qt6/modules/QuickTestUtilsPrivate.json
+* /usr/lib/qt6/modules/QuickVectorImage.json
+* /usr/lib/qt6/modules/QuickVectorImageGeneratorPrivate.json
 * /usr/lib/qt6/modules/QuickWidgets.json
 * /usr/lib/qt6/plugins/qmllint/libquicklintplugin.so
 * /usr/lib/qt6/plugins/qmlls/libqmllsquickplugin.so
@@ -4500,6 +4576,9 @@ The Qt6 toolkit, qtdeclarative
 * /usr/lib/qt6/qml/QtQuick/tooling/qmldir
 * /usr/lib/qt6/qml/QtQuick/tooling/quicktooling.qmltypes
 * /usr/lib/qt6/qml/QtQuick/tooling/Signal.qml
+* /usr/lib/qt6/qml/QtQuick/VectorImage/libqquickvectorimageplugin.so
+* /usr/lib/qt6/qml/QtQuick/VectorImage/plugins.qmltypes
+* /usr/lib/qt6/qml/QtQuick/VectorImage/qmldir
 * /usr/lib/qt6/qml/QtQuick/Window/libquickwindowplugin.so
 * /usr/lib/qt6/qml/QtQuick/Window/qmldir
 * /usr/lib/qt6/qml/QtQuick/Window/quickwindow.qmltypes

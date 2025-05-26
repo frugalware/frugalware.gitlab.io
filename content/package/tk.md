@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "tk 9.0.1-1"
-version = "9.0.1-1"
+title = "tk 9.0.1-2"
+version = "9.0.1-2"
 description = "A windowing toolkit for use with tcl"
-date = "2024-12-21T23:25:40"
+date = "2025-05-26T11:44:33"
 aliases = "/packages/200702"
 categories = ['xlib-extra']
 upstreamurl = "http://tcl.tk"
 arch = "x86_64"
-size = "2315008"
-usize = "6151392"
-sha1sum = "2248562be2fdb85dac41ac0b912ff0ff9031fb0d"
+size = "2320196"
+usize = "6155104"
+sha1sum = "59b7191600ead192ea71affa9eb027cb495acb5e"
 depends = "['libx11>=1.6.5-3', 'libxft>=2.3.2-6', 'libxml2>=2.9.7-3', 'libxscrnsaver>=1.2.2-6', 'tcl>=9.0.1']"
 reverse_depends = "['fetchmailconf', 'finch', 'git-gui', 'gitk', 'maxima', 'mercurial-hgk', 'opencascade', 'python3-pillow', 'python3-tk', 'weechat']"
 +++

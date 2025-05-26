@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "farstream 0.2.9-2"
-version = "0.2.9-2"
+title = "farstream 0.2.9-3"
+version = "0.2.9-3"
 description = "Farstream - Audio/Video Communications Framework"
-date = "2022-01-19T13:53:34"
+date = "2025-05-26T11:41:53"
 aliases = "/packages/152998"
 categories = ['xlib']
 upstreamurl = "http://www.freedesktop.org/wiki/Software/Farstream"
 arch = "x86_64"
-size = "428276"
-usize = "2425806"
-sha1sum = "bb7c9833491b6d1c4936e02f45f7d89b6cb7c745"
+size = "425424"
+usize = "2363424"
+sha1sum = "c61602c68a933f95e8b442a2a5120a31d975351f"
 depends = "['gst1-plugins-base>=1.9.2-2', 'libffi>=3.2.1-2', 'nice>=0.1.16']"
 reverse_depends = "['libpurple', 'telepathy-farstream', 'telepathy-qt5']"
 +++
