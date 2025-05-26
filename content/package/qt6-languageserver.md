@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qt6-languageserver 6.9.0-1"
-version = "6.9.0-1"
+title = "qt6-languageserver 6.9.0-2"
+version = "6.9.0-2"
 description = "The Qt6 toolkit, qtlanguageserver"
-date = "2025-04-04T11:02:01"
+date = "2025-05-26T10:49:59"
 aliases = "/packages/220758"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "38908"
-usize = "346270"
-sha1sum = "13ed964a7706658f489809911d770862073ff162"
+size = "38912"
+usize = "346274"
+sha1sum = "a534764c6d5dddb2a18890a1cb64cb2bd2315adb"
 depends = "['qt6-base']"
 reverse_depends = "['qt6-declarative']"
 +++

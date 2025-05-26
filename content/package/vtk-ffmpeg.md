@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vtk-ffmpeg 9.4.2-2"
-version = "9.4.2-2"
+title = "vtk-ffmpeg 9.4.2-3"
+version = "9.4.2-3"
 description = "Openmpi interface and bindings for vtk"
-date = "2025-05-22T09:49:20"
+date = "2025-05-26T08:44:41"
 aliases = "/packages/219067"
 categories = ['xlib-extra']
 upstreamurl = "http://www.vtk.org"
 arch = "x86_64"
-size = "26676"
+size = "26728"
 usize = "76304"
-sha1sum = "a475c6692bbf423b900635f586e1ece26764f114"
+sha1sum = "8d84c85261e38a3bfb00cbc06aad94e269309b6b"
 depends = "['ffmpeg>=7.0', 'vtk>=9.4.2']"
 reverse_depends = "['vtk-java-ffmpeg', 'vtk-python3-ffmpeg']"
 +++

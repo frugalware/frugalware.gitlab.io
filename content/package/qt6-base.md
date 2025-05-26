@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qt6-base 6.9.0-1"
-version = "6.9.0-1"
+title = "qt6-base 6.9.0-2"
+version = "6.9.0-2"
 description = "The Qt6 toolkit, qtbase"
-date = "2025-04-04T10:58:59"
+date = "2025-05-26T10:14:34"
 aliases = "/packages/220751"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "13633080"
-usize = "60596123"
-sha1sum = "4b421df589fc1ed49cfb82f5c7e262f04c08e45f"
+size = "13772696"
+usize = "60803453"
+sha1sum = "6adb466e3bd2fadea02e41e16190c6e1d15a09e5"
 depends = "['at-spi2-core', 'brotli', 'double-conversion', 'fontconfig', 'harfbuzz', 'icu4c>=77.1', 'libb2', 'libcups', 'libglvnd', 'libinput', 'libjpeg-turbo', 'libproxy>=0.5.7', 'libxi', 'libxkbcommon', 'libxrender', 'md4c', 'qt6-translations', 'shared-mime-info', 'sqlite3', 'tslib', 'xcb-util-cursor', 'xcb-util-keysyms', 'xcb-util-wm', 'xdg-utils']"
 reverse_depends = "['akonadi', 'alizams', 'appstream-qt', 'attica', 'breeze-gtk', 'ckb-next', 'dfl-ipc-qt6', 'dfl-login1-qt6', 'dfl-utils-qt6', 'doxywizard', 'falkon', 'freeciv-qt', 'gmic-qt', 'gnuplot', 'gottet', 'karchive', 'kcodecs', 'kcolorpicker', 'kconfig', 'kcoreaddons', 'kdbusaddons', 'kdecoration', 'kdeedu-data', 'kdevelop-pg-qt', 'kdnssd', 'kdsoap', 'kguiaddons', 'kholidays', 'kimageformats', 'kitemmodels', 'kitemviews', 'kplotting', 'kunitconversion', 'kwidgetsaddons', 'ladybird', 'libaccounts-qt', 'libcamera-tools', 'libkdcraw', 'libkexiv2', 'libopenrazer', 'libportal-qt6', 'libqaccessibilityclient', 'libqgpgme', 'lyx', 'mkvtoolnix', 'modemmanager-qt', 'networkmanager-qt', 'ocean-sound-theme', 'ogre', 'packagekit-qt6', 'pavucontrol-qt', 'pinentry-qt6', 'polkit-qt6-1', 'poppler-qt6', 'poxml', 'prison', 'pulseaudio-qt', 'pyqt6', 'qt6-base-mysql', 'qt6-base-platformtheme-gtk3', 'qt6-base-postgresql', 'qt6-imageformats', 'qt6-languageserver', 'qt6-networkauth', 'qt6-serialport', 'qt6-shadertools', 'qt6-svg', 'qtermwidget', 'qtkeychain', 'qtractor', 'qtutilities', 'qxlsx', 'sdlmame', 'seafile-client', 'shiboken6', 'signon', 'simsu', 'sonnet', 'syntax-highlighting', 'tanglet', 'tetzle', 'threadweaver', 'usbguard-qt', 'virtualbox', 'wrapland', 'zulucrypt']"
 +++
