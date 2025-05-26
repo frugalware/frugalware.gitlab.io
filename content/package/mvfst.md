@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mvfst 2025.02.17.00-1"
-version = "2025.02.17.00-1"
+title = "mvfst 2025.05.26.00-1"
+version = "2025.05.26.00-1"
 description = "An implementation of the QUIC transport protocol"
-date = "2025-02-21T07:54:50"
+date = "2025-05-26T17:26:33"
 aliases = "/packages/222639"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/facebook/mvfst"
 arch = "x86_64"
-size = "1228276"
-usize = "5488665"
-sha1sum = "bdd8753c73173f4146099b0606a736a8e05e581d"
+size = "1410536"
+usize = "6162149"
+sha1sum = "66ada056993646915bd95406131c4ba6290c0062"
 depends = "['fizz']"
 +++
 ### Description: 
@@ -24,6 +24,7 @@ An implementation of the QUIC transport protocol
 * /usr/include/quic/api/LibevQuicAsyncUDPSocket.h
 * /usr/include/quic/api/LibevQuicEventBase.h
 * /usr/include/quic/api/LoopDetectorCallback.h
+* /usr/include/quic/api/QuicAckScheduler.h
 * /usr/include/quic/api/QuicAsyncUDPSocket.h
 * /usr/include/quic/api/QuicAsyncUDPSocketImpl.h
 * /usr/include/quic/api/QuicBatchWriter.h
@@ -79,7 +80,8 @@ An implementation of the QUIC transport protocol
 * /usr/include/quic/common/IntervalSet.h
 * /usr/include/quic/common/NetworkData.h
 * /usr/include/quic/common/Optional.h
-* /usr/include/quic/common/SmallCollections.h
+* /usr/include/quic/common/QuicBuffer.h
+* /usr/include/quic/common/QuicRange.h
 * /usr/include/quic/common/SocketUtil.h
 * /usr/include/quic/common/testutil/MockAsyncUDPSocket.h
 * /usr/include/quic/common/third-party/enum.h
@@ -150,12 +152,17 @@ An implementation of the QUIC transport protocol
 * /usr/include/quic/logging/BaseQLogger.h
 * /usr/include/quic/logging/FileQLogger.h
 * /usr/include/quic/logging/QLogger.h
+* /usr/include/quic/logging/QLoggerCommon.h
 * /usr/include/quic/logging/QLoggerConstants.h
 * /usr/include/quic/logging/QLoggerTypes.h
 * /usr/include/quic/loss/QuicLossFunctions.h
+* /usr/include/quic/mvfst-config.h
 * /usr/include/quic/observer/SocketObserverContainer.h
 * /usr/include/quic/observer/SocketObserverInterface.h
 * /usr/include/quic/observer/SocketObserverTypes.h
+* /usr/include/quic/priority/HTTPPriorityQueue.h
+* /usr/include/quic/priority/PriorityQueue.h
+* /usr/include/quic/priority/RoundRobin.h
 * /usr/include/quic/QuicConstants.h
 * /usr/include/quic/QuicException.h
 * /usr/include/quic/server/AcceptObserver.h
@@ -216,87 +223,91 @@ An implementation of the QUIC transport protocol
 * /usr/lib/cmake/mvfst/mvfst-config.cmake
 * /usr/lib/cmake/mvfst/mvfst-targets-release.cmake
 * /usr/lib/cmake/mvfst/mvfst-targets.cmake
+* /usr/lib/libmvfst_ack_scheduler.so
+* /usr/lib/libmvfst_ack_scheduler.so.2025.05.26.00
 * /usr/lib/libmvfst_async_udp_socket.so
-* /usr/lib/libmvfst_async_udp_socket.so.2025.02.17.00
+* /usr/lib/libmvfst_async_udp_socket.so.2025.05.26.00
 * /usr/lib/libmvfst_batch_writer.so
-* /usr/lib/libmvfst_batch_writer.so.2025.02.17.00
+* /usr/lib/libmvfst_batch_writer.so.2025.05.26.00
 * /usr/lib/libmvfst_bufutil.so
-* /usr/lib/libmvfst_bufutil.so.2025.02.17.00
+* /usr/lib/libmvfst_bufutil.so.2025.05.26.00
 * /usr/lib/libmvfst_buf_accessor.so
-* /usr/lib/libmvfst_buf_accessor.so.2025.02.17.00
+* /usr/lib/libmvfst_buf_accessor.so.2025.05.26.00
 * /usr/lib/libmvfst_cc_algo.so
-* /usr/lib/libmvfst_cc_algo.so.2025.02.17.00
+* /usr/lib/libmvfst_cc_algo.so.2025.05.26.00
 * /usr/lib/libmvfst_client.so
-* /usr/lib/libmvfst_client.so.2025.02.17.00
+* /usr/lib/libmvfst_client.so.2025.05.26.00
 * /usr/lib/libmvfst_codec.so
-* /usr/lib/libmvfst_codec.so.2025.02.17.00
+* /usr/lib/libmvfst_codec.so.2025.05.26.00
 * /usr/lib/libmvfst_codec_decode.so
-* /usr/lib/libmvfst_codec_decode.so.2025.02.17.00
+* /usr/lib/libmvfst_codec_decode.so.2025.05.26.00
 * /usr/lib/libmvfst_codec_packet_number_cipher.so
-* /usr/lib/libmvfst_codec_packet_number_cipher.so.2025.02.17.00
+* /usr/lib/libmvfst_codec_packet_number_cipher.so.2025.05.26.00
 * /usr/lib/libmvfst_codec_pktbuilder.so
-* /usr/lib/libmvfst_codec_pktbuilder.so.2025.02.17.00
+* /usr/lib/libmvfst_codec_pktbuilder.so.2025.05.26.00
 * /usr/lib/libmvfst_codec_pktrebuilder.so
-* /usr/lib/libmvfst_codec_pktrebuilder.so.2025.02.17.00
+* /usr/lib/libmvfst_codec_pktrebuilder.so.2025.05.26.00
 * /usr/lib/libmvfst_codec_types.so
-* /usr/lib/libmvfst_codec_types.so.2025.02.17.00
+* /usr/lib/libmvfst_codec_types.so.2025.05.26.00
 * /usr/lib/libmvfst_constants.so
-* /usr/lib/libmvfst_constants.so.2025.02.17.00
+* /usr/lib/libmvfst_constants.so.2025.05.26.00
 * /usr/lib/libmvfst_dsr_frontend.so
-* /usr/lib/libmvfst_dsr_frontend.so.2025.02.17.00
+* /usr/lib/libmvfst_dsr_frontend.so.2025.05.26.00
 * /usr/lib/libmvfst_dsr_types.so
-* /usr/lib/libmvfst_dsr_types.so.2025.02.17.00
+* /usr/lib/libmvfst_dsr_types.so.2025.05.26.00
 * /usr/lib/libmvfst_events.so
-* /usr/lib/libmvfst_events.so.2025.02.17.00
+* /usr/lib/libmvfst_events.so.2025.05.26.00
 * /usr/lib/libmvfst_exception.so
-* /usr/lib/libmvfst_exception.so.2025.02.17.00
+* /usr/lib/libmvfst_exception.so.2025.05.26.00
 * /usr/lib/libmvfst_fizz_client.so
-* /usr/lib/libmvfst_fizz_client.so.2025.02.17.00
+* /usr/lib/libmvfst_fizz_client.so.2025.05.26.00
 * /usr/lib/libmvfst_fizz_handshake.so
-* /usr/lib/libmvfst_fizz_handshake.so.2025.02.17.00
+* /usr/lib/libmvfst_fizz_handshake.so.2025.05.26.00
 * /usr/lib/libmvfst_flowcontrol.so
-* /usr/lib/libmvfst_flowcontrol.so.2025.02.17.00
+* /usr/lib/libmvfst_flowcontrol.so.2025.05.26.00
 * /usr/lib/libmvfst_handshake.so
-* /usr/lib/libmvfst_handshake.so.2025.02.17.00
+* /usr/lib/libmvfst_handshake.so.2025.05.26.00
 * /usr/lib/libmvfst_happyeyeballs.so
-* /usr/lib/libmvfst_happyeyeballs.so.2025.02.17.00
+* /usr/lib/libmvfst_happyeyeballs.so.2025.05.26.00
+* /usr/lib/libmvfst_http_priority_queue.so
 * /usr/lib/libmvfst_looper.so
-* /usr/lib/libmvfst_looper.so.2025.02.17.00
+* /usr/lib/libmvfst_looper.so.2025.05.26.00
 * /usr/lib/libmvfst_loss.so
-* /usr/lib/libmvfst_loss.so.2025.02.17.00
+* /usr/lib/libmvfst_loss.so.2025.05.26.00
 * /usr/lib/libmvfst_observer.so
-* /usr/lib/libmvfst_observer.so.2025.02.17.00
+* /usr/lib/libmvfst_observer.so.2025.05.26.00
 * /usr/lib/libmvfst_qlogger.so
-* /usr/lib/libmvfst_qlogger.so.2025.02.17.00
+* /usr/lib/libmvfst_qlogger.so.2025.05.26.00
+* /usr/lib/libmvfst_round_robin.so
 * /usr/lib/libmvfst_server.so
-* /usr/lib/libmvfst_server.so.2025.02.17.00
+* /usr/lib/libmvfst_server.so.2025.05.26.00
 * /usr/lib/libmvfst_server_async_tran.so
-* /usr/lib/libmvfst_server_async_tran.so.2025.02.17.00
+* /usr/lib/libmvfst_server_async_tran.so.2025.05.26.00
 * /usr/lib/libmvfst_server_state.so
-* /usr/lib/libmvfst_server_state.so.2025.02.17.00
+* /usr/lib/libmvfst_server_state.so.2025.05.26.00
 * /usr/lib/libmvfst_state_ack_handler.so
-* /usr/lib/libmvfst_state_ack_handler.so.2025.02.17.00
+* /usr/lib/libmvfst_state_ack_handler.so.2025.05.26.00
 * /usr/lib/libmvfst_state_datagram_handler.so
-* /usr/lib/libmvfst_state_datagram_handler.so.2025.02.17.00
+* /usr/lib/libmvfst_state_datagram_handler.so.2025.05.26.00
 * /usr/lib/libmvfst_state_functions.so
-* /usr/lib/libmvfst_state_functions.so.2025.02.17.00
+* /usr/lib/libmvfst_state_functions.so.2025.05.26.00
 * /usr/lib/libmvfst_state_machine.so
-* /usr/lib/libmvfst_state_machine.so.2025.02.17.00
+* /usr/lib/libmvfst_state_machine.so.2025.05.26.00
 * /usr/lib/libmvfst_state_pacing_functions.so
-* /usr/lib/libmvfst_state_pacing_functions.so.2025.02.17.00
+* /usr/lib/libmvfst_state_pacing_functions.so.2025.05.26.00
 * /usr/lib/libmvfst_state_simple_frame_functions.so
-* /usr/lib/libmvfst_state_simple_frame_functions.so.2025.02.17.00
+* /usr/lib/libmvfst_state_simple_frame_functions.so.2025.05.26.00
 * /usr/lib/libmvfst_state_stream.so
-* /usr/lib/libmvfst_state_stream.so.2025.02.17.00
+* /usr/lib/libmvfst_state_stream.so.2025.05.26.00
 * /usr/lib/libmvfst_state_stream_functions.so
-* /usr/lib/libmvfst_state_stream_functions.so.2025.02.17.00
+* /usr/lib/libmvfst_state_stream_functions.so.2025.05.26.00
 * /usr/lib/libmvfst_transport.so
-* /usr/lib/libmvfst_transport.so.2025.02.17.00
+* /usr/lib/libmvfst_transport.so.2025.05.26.00
 * /usr/lib/libmvfst_transport_knobs.so
-* /usr/lib/libmvfst_transport_knobs.so.2025.02.17.00
+* /usr/lib/libmvfst_transport_knobs.so.2025.05.26.00
 * /usr/lib/libmvfst_transport_settings_functions.so
-* /usr/lib/libmvfst_transport_settings_functions.so.2025.02.17.00
+* /usr/lib/libmvfst_transport_settings_functions.so.2025.05.26.00
 * /usr/lib/libmvfst_xsk.so
-* /usr/lib/libmvfst_xsk.so.2025.02.17.00
-* /usr/share/doc/mvfst-2025.02.17.00/LICENSE
-* /usr/share/doc/mvfst-2025.02.17.00/README.md
+* /usr/lib/libmvfst_xsk.so.2025.05.26.00
+* /usr/share/doc/mvfst-2025.05.26.00/LICENSE
+* /usr/share/doc/mvfst-2025.05.26.00/README.md
