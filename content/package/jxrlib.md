@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "jxrlib 0.2.4-6"
-version = "0.2.4-6"
+title = "jxrlib 0.2.4-7"
+version = "0.2.4-7"
 description = "Open source implementation of jpegxr"
-date = "2024-05-27T08:23:53"
+date = "2025-05-27T12:13:19"
 aliases = "/packages/220513"
 categories = ['lib']
 upstreamurl = "https://github.com/glencoesoftware/jxrlib"
 arch = "x86_64"
-size = "237548"
-usize = "1556472"
-sha1sum = "9d63b773cee02d564da84ab913149f74ae8ead40"
+size = "181664"
+usize = "619222"
+sha1sum = "5327a9f07a67d8be2b585b7314e53bf2f0f05575"
 depends = "['glibc>=2.34']"
 reverse_depends = "['freeimage', 'sdl2_image', 'sdl3_image']"
 +++
@@ -20,28 +20,20 @@ Open source implementation of jpegxr
 ### Files: 
 * /usr/bin/JxrDecApp
 * /usr/bin/JxrEncApp
-* /usr/include/libjxr/common/guiddef.h
-* /usr/include/libjxr/common/wmsal.h
-* /usr/include/libjxr/common/wmspecstring.h
-* /usr/include/libjxr/common/wmspecstrings_adt.h
-* /usr/include/libjxr/common/wmspecstrings_strict.h
-* /usr/include/libjxr/common/wmspecstrings_undef.h
-* /usr/include/libjxr/glue/JXRGlue.h
-* /usr/include/libjxr/glue/JXRMeta.h
-* /usr/include/libjxr/image/ansi.h
-* /usr/include/libjxr/image/common.h
-* /usr/include/libjxr/image/decode.h
-* /usr/include/libjxr/image/encode.h
-* /usr/include/libjxr/image/perfTimer.h
-* /usr/include/libjxr/image/strcodec.h
-* /usr/include/libjxr/image/strTransform.h
-* /usr/include/libjxr/image/windowsmediaphoto.h
-* /usr/include/libjxr/image/x86/x86.h
-* /usr/include/libjxr/image/xplatform_image.h
-* /usr/include/libjxr/test/JXRTest.h
-* /usr/lib/libjpegxr.a
-* /usr/lib/libjxrglue.a
-* /usr/lib/pkgconfig/libjxr.pc
-* /usr/share/doc/jxr-1.1/JPEGXR_DPK_Spec_1.0.doc
-* /usr/share/doc/jxr-1.1/readme.txt
+* /usr/include/jxrlib/guiddef.h
+* /usr/include/jxrlib/JXRGlue.h
+* /usr/include/jxrlib/JXRMeta.h
+* /usr/include/jxrlib/JXRTest.h
+* /usr/include/jxrlib/windowsmediaphoto.h
+* /usr/include/jxrlib/wmsal.h
+* /usr/include/jxrlib/wmspecstring.h
+* /usr/include/jxrlib/wmspecstrings_adt.h
+* /usr/include/jxrlib/wmspecstrings_strict.h
+* /usr/include/jxrlib/wmspecstrings_undef.h
+* /usr/lib/libjpegxr.so
+* /usr/lib/libjpegxr.so.0
+* /usr/lib/libjpegxr.so.0.0.0
+* /usr/lib/libjxrglue.so
+* /usr/lib/libjxrglue.so.0
+* /usr/lib/libjxrglue.so.0.0.0
 * /usr/share/doc/jxrlib-0.2.4/README.md

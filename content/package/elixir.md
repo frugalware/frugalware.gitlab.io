@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "elixir 1.18.3-1"
-version = "1.18.3-1"
+title = "elixir 1.18.4-1"
+version = "1.18.4-1"
 description = "a functional meta-programming aware language built on top of the Erlang VM"
-date = "2025-03-17T10:18:14"
+date = "2025-05-27T11:42:28"
 aliases = "/packages/219629"
 categories = ['devel-extra']
 upstreamurl = "http://elixir-lang.org"
 arch = "x86_64"
-size = "5543224"
-usize = "8719245"
-sha1sum = "a0c14b3d8f3bfcfdec3988d350f471919d2176a1"
-depends = "['erlang>=26.1']"
+size = "5448528"
+usize = "9177121"
+sha1sum = "3c2b789d3709d6dc4f0a4e32420a9141c72f6e83"
+depends = "['erlang>=28.0']"
 +++
 ### Description: 
 a functional meta-programming aware language built on top of the Erlang VM
@@ -479,10 +479,10 @@ a functional meta-programming aware language built on top of the Erlang VM
 * /usr/lib/elixir/lib/mix/ebin/Elixir.Mix.TasksServer.beam
 * /usr/lib/elixir/lib/mix/ebin/Elixir.Mix.Utils.beam
 * /usr/lib/elixir/lib/mix/ebin/mix.app
-* /usr/share/doc/elixir-1.18.3/LICENSE
-* /usr/share/doc/elixir-1.18.3/README.md
-* /usr/share/doc/elixir-1.18.3/RELEASE.md
-* /usr/share/doc/elixir-1.18.3/VERSION
+* /usr/share/doc/elixir-1.18.4/LICENSE
+* /usr/share/doc/elixir-1.18.4/README.md
+* /usr/share/doc/elixir-1.18.4/RELEASE.md
+* /usr/share/doc/elixir-1.18.4/VERSION
 * /usr/share/man/man1/elixir.1.gz
 * /usr/share/man/man1/elixirc.1.gz
 * /usr/share/man/man1/iex.1.gz

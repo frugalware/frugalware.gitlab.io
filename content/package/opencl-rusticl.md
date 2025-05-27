@@ -12,6 +12,7 @@ size = "8871040"
 usize = "38961412"
 sha1sum = "ac45e074bb7eb877e06dc0951019489f5df364a9"
 depends = "['libclc', 'spirv-llvm-translator']"
+reverse_depends = "['opencv']"
 +++
 ### Description: 
 Mesa OpenCL rusticl

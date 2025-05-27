@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "rocm-cmake 6.4.0-1"
-version = "6.4.0-1"
+title = "rocm-cmake 6.4.1-1"
+version = "6.4.1-1"
 description = "CMake modules for common build tasks needed for the ROCm software stack"
-date = "2025-04-11T19:16:37"
+date = "2025-05-27T11:55:58"
 aliases = "/packages/221247"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/ROCm/rocm-cmake"
 arch = "x86_64"
-size = "24716"
+size = "24752"
 usize = "125729"
-sha1sum = "70657771dc0f0d3bc1a86cede5c9c3c8b2881044"
+sha1sum = "db5a2695cf8b68c836ec7a239414558f0fb0c650"
 depends = "['cmake', 'rocm-core']"
 +++
 ### Description: 
@@ -41,5 +41,5 @@ CMake modules for common build tasks needed for the ROCm software stack
 * /opt/rocm/share/rocmcmakebuildtools/cmake/ROCMSphinxDoc.cmake
 * /opt/rocm/share/rocmcmakebuildtools/cmake/ROCMTest.cmake
 * /opt/rocm/share/rocmcmakebuildtools/cmake/ROCMUtilities.cmake
-* /usr/share/doc/rocm-cmake-6.4.0/LICENSE
-* /usr/share/doc/rocm-cmake-6.4.0/README.md
+* /usr/share/doc/rocm-cmake-6.4.1/LICENSE
+* /usr/share/doc/rocm-cmake-6.4.1/README.md
