@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gvim 9.1.1263-1"
-version = "9.1.1263-1"
+title = "gvim 9.1.1414-1"
+version = "9.1.1414-1"
 description = "VIM - GTK+2 GUI"
-date = "2025-03-31T07:04:55"
+date = "2025-05-27T07:13:36"
 aliases = "/packages/3086"
 categories = ['xapps']
 upstreamurl = "http://www.vim.org"
 arch = "x86_64"
-size = "2129564"
-usize = "5351593"
-sha1sum = "a75670136a12b854107ab07b57a3f3b37cb57ec3"
-depends = "['gpm>=1.20.5-2', 'gtk+3>=3.22.6', 'libice', 'libsm', 'libxpm', 'libxt', 'vim>=9.1.1263']"
+size = "2107632"
+usize = "5097417"
+sha1sum = "af06c837a073292175f9b75fd90a72ca1dbfec0a"
+depends = "['gpm>=1.20.5-2', 'gtk+3>=3.22.6', 'libice', 'libsm', 'libxpm', 'libxt', 'vim>=9.1.1414']"
 +++
 ### Description: 
 VIM - GTK+2 GUI
@@ -26,8 +26,8 @@ VIM - GTK+2 GUI
 * /usr/bin/rgview
 * /usr/bin/rgvim
 * /usr/share/applications/gvim.desktop
-* /usr/share/doc/gvim-9.1.1263/LICENSE
-* /usr/share/doc/gvim-9.1.1263/README.md
-* /usr/share/doc/gvim-9.1.1263/README.txt
-* /usr/share/doc/gvim-9.1.1263/README_VIM9.md
+* /usr/share/doc/gvim-9.1.1414/LICENSE
+* /usr/share/doc/gvim-9.1.1414/README.md
+* /usr/share/doc/gvim-9.1.1414/README.txt
+* /usr/share/doc/gvim-9.1.1414/README_VIM9.md
 * /usr/share/vim/gvimrc
