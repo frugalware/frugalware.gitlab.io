@@ -12,7 +12,7 @@ size = "12508"
 usize = "39460"
 sha1sum = "1fb25144a191cd17caa9ebb43b64b6227fe55ef9"
 depends = "['glibc']"
-reverse_depends = "['comgr', 'hip-runtime-amd', 'hsa-rocr', 'rocm-cmake', 'rocminfo']"
+reverse_depends = "['comgr', 'hip-runtime-amd', 'hipblas-common', 'hsa-rocr', 'rocm-cmake', 'rocminfo']"
 +++
 ### Description: 
 AMD ROCm core package (version files)

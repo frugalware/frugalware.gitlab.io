@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "hipcc 6.4.1-1"
-version = "6.4.1-1"
+title = "hipcc 6.4.1-2"
+version = "6.4.1-2"
 description = "HIP compiler driver"
-date = "2025-05-27T12:30:35"
+date = "2025-05-27T16:27:22"
 aliases = "/packages/221565"
 categories = ['devel-extra']
 upstreamurl = "https://rocm.docs.amd.com/en/latest/reference/rocmcc.html"
 arch = "x86_64"
-size = "102760"
-usize = "569814"
-sha1sum = "359ab1c2483fadb0a85800583a5385b7adc0ec77"
+size = "102676"
+usize = "569638"
+sha1sum = "dcc90af32ef0fec44564195ab3108e02fda6e3c5"
 depends = "['glibc']"
 +++
 ### Description: 
