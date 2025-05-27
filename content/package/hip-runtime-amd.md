@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "hip-runtime-amd 6.4.1-1"
-version = "6.4.1-1"
+title = "hip-runtime-amd 6.4.1-2"
+version = "6.4.1-2"
 description = "Heterogeneous Interface for Portability ROCm"
-date = "2025-05-27T13:10:07"
+date = "2025-05-27T14:08:15"
 aliases = "/packages/221255"
 categories = ['devel-extra']
 upstreamurl = "https://rocm.docs.amd.com/projects/HIP/en/latest/"
 arch = "x86_64"
-size = "9467728"
-usize = "29852373"
-sha1sum = "29a2d7afd0afa55f649c769b1e508469d664fe43"
+size = "9514980"
+usize = "30160280"
+sha1sum = "b8d3915aef9c20710423f9ff1f4533909660094e"
 depends = "['comgr', 'libglvnd', 'rocm-core', 'rocminfo', 'rocprofiler-register']"
 reverse_depends = "['roctracer']"
 +++
@@ -98,13 +98,25 @@ Heterogeneous Interface for Portability ROCm
 * /opt/rocm/include/hip/library_types.h
 * /opt/rocm/include/hip/linker_types.h
 * /opt/rocm/include/hip/math_functions.h
+* /opt/rocm/include/hip/nvidia_detail/nvidia_channel_descriptor.h
+* /opt/rocm/include/hip/nvidia_detail/nvidia_hiprtc.h
+* /opt/rocm/include/hip/nvidia_detail/nvidia_hip_atomics.h
+* /opt/rocm/include/hip/nvidia_detail/nvidia_hip_bf16.h
+* /opt/rocm/include/hip/nvidia_detail/nvidia_hip_complex.h
+* /opt/rocm/include/hip/nvidia_detail/nvidia_hip_cooperative_groups.h
+* /opt/rocm/include/hip/nvidia_detail/nvidia_hip_gl_interop.h
+* /opt/rocm/include/hip/nvidia_detail/nvidia_hip_math_constants.h
+* /opt/rocm/include/hip/nvidia_detail/nvidia_hip_runtime.h
+* /opt/rocm/include/hip/nvidia_detail/nvidia_hip_runtime_api.h
+* /opt/rocm/include/hip/nvidia_detail/nvidia_hip_texture_types.h
+* /opt/rocm/include/hip/nvidia_detail/nvidia_hip_unsafe_atomics.h
 * /opt/rocm/include/hip/surface_types.h
 * /opt/rocm/include/hip/texture_types.h
 * /opt/rocm/include/hip_prof_str.h
 * /opt/rocm/lib/.hipInfo
 * /opt/rocm/lib/cmake/hip-lang/hip-lang-config-version.cmake
 * /opt/rocm/lib/cmake/hip-lang/hip-lang-config.cmake
-* /opt/rocm/lib/cmake/hip-lang/hip-lang-targets-release.cmake
+* /opt/rocm/lib/cmake/hip-lang/hip-lang-targets-none.cmake
 * /opt/rocm/lib/cmake/hip-lang/hip-lang-targets.cmake
 * /opt/rocm/lib/cmake/hip/FindHIP.cmake
 * /opt/rocm/lib/cmake/hip/FindHIP/run_hipcc.cmake
@@ -113,11 +125,11 @@ Heterogeneous Interface for Portability ROCm
 * /opt/rocm/lib/cmake/hip/hip-config-nvidia.cmake
 * /opt/rocm/lib/cmake/hip/hip-config-version.cmake
 * /opt/rocm/lib/cmake/hip/hip-config.cmake
-* /opt/rocm/lib/cmake/hip/hip-targets-release.cmake
+* /opt/rocm/lib/cmake/hip/hip-targets-none.cmake
 * /opt/rocm/lib/cmake/hip/hip-targets.cmake
 * /opt/rocm/lib/cmake/hiprtc/hiprtc-config-version.cmake
 * /opt/rocm/lib/cmake/hiprtc/hiprtc-config.cmake
-* /opt/rocm/lib/cmake/hiprtc/hiprtc-targets-release.cmake
+* /opt/rocm/lib/cmake/hiprtc/hiprtc-targets-none.cmake
 * /opt/rocm/lib/cmake/hiprtc/hiprtc-targets.cmake
 * /opt/rocm/lib/libamdhip64.so
 * /opt/rocm/lib/libamdhip64.so.6
