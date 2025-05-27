@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "hip-runtime-amd 6.4.0-1"
-version = "6.4.0-1"
+title = "hip-runtime-amd 6.4.1-1"
+version = "6.4.1-1"
 description = "Heterogeneous Interface for Portability ROCm"
-date = "2025-04-22T08:49:35"
+date = "2025-05-27T13:10:07"
 aliases = "/packages/221255"
 categories = ['devel-extra']
 upstreamurl = "https://rocm.docs.amd.com/projects/HIP/en/latest/"
 arch = "x86_64"
-size = "9462064"
-usize = "29836908"
-sha1sum = "ccd980822e0a0bb72a44f9cd567b5b94f00605e3"
+size = "9467728"
+usize = "29852373"
+sha1sum = "29a2d7afd0afa55f649c769b1e508469d664fe43"
 depends = "['comgr', 'libglvnd', 'rocm-core', 'rocminfo', 'rocprofiler-register']"
 reverse_depends = "['roctracer']"
 +++
@@ -121,16 +121,16 @@ Heterogeneous Interface for Portability ROCm
 * /opt/rocm/lib/cmake/hiprtc/hiprtc-targets.cmake
 * /opt/rocm/lib/libamdhip64.so
 * /opt/rocm/lib/libamdhip64.so.6
-* /opt/rocm/lib/libamdhip64.so.6.4.43482
+* /opt/rocm/lib/libamdhip64.so.6.4.43483
 * /opt/rocm/lib/libhiprtc-builtins.so
 * /opt/rocm/lib/libhiprtc-builtins.so.6
-* /opt/rocm/lib/libhiprtc-builtins.so.6.4.43482
+* /opt/rocm/lib/libhiprtc-builtins.so.6.4.43483
 * /opt/rocm/lib/libhiprtc.so
 * /opt/rocm/lib/libhiprtc.so.6
-* /opt/rocm/lib/libhiprtc.so.6.4.43482
+* /opt/rocm/lib/libhiprtc.so.6.4.43483
 * /opt/rocm/share/doc/hip-asan/LICENSE.txt
 * /opt/rocm/share/doc/hip/LICENSE.txt
 * /opt/rocm/share/hip/version
-* /usr/share/doc/hip-runtime-amd-6.4.0/README.md
-* /usr/share/doc/hip-runtime-amd-6.4.0/RELEASE.md
-* /usr/share/doc/hip-runtime-amd-6.4.0/VERSION
+* /usr/share/doc/hip-runtime-amd-6.4.1/README.md
+* /usr/share/doc/hip-runtime-amd-6.4.1/RELEASE.md
+* /usr/share/doc/hip-runtime-amd-6.4.1/VERSION

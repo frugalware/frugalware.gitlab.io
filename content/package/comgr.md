@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "comgr 6.4.0-2"
-version = "6.4.0-2"
+title = "comgr 6.4.1-1"
+version = "6.4.1-1"
 description = "Compiler support library for ROCm LLVM"
-date = "2025-04-28T15:30:29"
+date = "2025-05-27T12:30:35"
 aliases = "/packages/221249"
 categories = ['devel-extra']
 upstreamurl = "https://rocm.docs.amd.com/en/latest/reference/rocmcc.html"
 arch = "x86_64"
-size = "46449384"
-usize = "184077290"
-sha1sum = "d118419c0d647eea8d347cb67f6eabc2221bfac4"
+size = "46447520"
+usize = "184080146"
+sha1sum = "ed7dd4cd0773da2374aeea2a41475dd9c5386a70"
 depends = "['rocm-core', 'rocm-device-libs']"
 reverse_depends = "['hip-runtime-amd']"
 +++
