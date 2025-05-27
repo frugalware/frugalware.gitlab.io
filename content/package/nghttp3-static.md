@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "nghttp3-static 1.9.0-2"
-version = "1.9.0-2"
+title = "nghttp3-static 1.10.0-1"
+version = "1.10.0-1"
 description = "Static files for nghttp3"
-date = "2025-05-21T15:07:58"
+date = "2025-05-27T07:51:08"
 aliases = "/packages/221495"
 categories = ['devel-extra']
 upstreamurl = "https://nghttp2.org/nghttp3"
 arch = "x86_64"
-size = "753580"
-usize = "924310"
-sha1sum = "1f78ce8b48b865b387858daa70198cca21584035"
+size = "753644"
+usize = "924806"
+sha1sum = "12fc24b4df110d9b5f26d95cfe4b1b1f9f5660ef"
 depends = "[]"
 +++
 ### Description: 

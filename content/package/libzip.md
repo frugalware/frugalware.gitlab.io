@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libzip 1.11.3-1"
-version = "1.11.3-1"
+title = "libzip 1.11.4-1"
+version = "1.11.4-1"
 description = "libzip is a C library for reading, creating, and modifying zip archives."
-date = "2025-01-20T15:23:54"
+date = "2025-05-27T07:48:23"
 aliases = "/packages/23306"
 categories = ['lib']
 upstreamurl = "http://www.nih.at/libzip/"
 arch = "x86_64"
-size = "129788"
-usize = "1121220"
-sha1sum = "83b5a8622c2d826743d5cfb1d75aa539079be75b"
+size = "134216"
+usize = "1207453"
+sha1sum = "0bdbeabc63c0f30cd2cec02c94cbeb7fa500e615"
 depends = "['bzip2', 'gnutls', 'openssl>=3.0.7', 'zstd']"
 reverse_depends = "['ark', 'ebook-tools', 'libykneomgr', 'naev', 'okular', 'warzone2100']"
 +++
@@ -23,6 +23,8 @@ libzip is a C library for reading, creating, and modifying zip archives.
 * /usr/bin/ziptool
 * /usr/include/zip.h
 * /usr/include/zipconf.h
+* /usr/lib/cmake/libzip/libzip-bin-targets-release.cmake
+* /usr/lib/cmake/libzip/libzip-bin-targets.cmake
 * /usr/lib/cmake/libzip/libzip-config-version.cmake
 * /usr/lib/cmake/libzip/libzip-config.cmake
 * /usr/lib/cmake/libzip/libzip-targets-release.cmake
@@ -34,12 +36,13 @@ libzip is a C library for reading, creating, and modifying zip archives.
 * /usr/lib/libzip.so.5
 * /usr/lib/libzip.so.5.5
 * /usr/lib/pkgconfig/libzip.pc
-* /usr/share/doc/libzip-1.11.3/AUTHORS
-* /usr/share/doc/libzip-1.11.3/INSTALL.md
-* /usr/share/doc/libzip-1.11.3/LICENSE
-* /usr/share/doc/libzip-1.11.3/README.md
-* /usr/share/doc/libzip-1.11.3/THANKS
+* /usr/share/doc/libzip-1.11.4/AUTHORS
+* /usr/share/doc/libzip-1.11.4/INSTALL.md
+* /usr/share/doc/libzip-1.11.4/LICENSE
+* /usr/share/doc/libzip-1.11.4/README.md
+* /usr/share/doc/libzip-1.11.4/THANKS
 * /usr/share/doc/libzip/libzip/libzip.html
+* /usr/share/doc/libzip/libzip/zip.html
 * /usr/share/doc/libzip/libzip/zipcmp.html
 * /usr/share/doc/libzip/libzip/zipmerge.html
 * /usr/share/doc/libzip/libzip/ziptool.html
@@ -51,6 +54,7 @@ libzip is a C library for reading, creating, and modifying zip archives.
 * /usr/share/doc/libzip/libzip/zip_dir_add.html
 * /usr/share/doc/libzip/libzip/zip_discard.html
 * /usr/share/doc/libzip/libzip/zip_encryption_method_supported.html
+* /usr/share/doc/libzip/libzip/zip_error.html
 * /usr/share/doc/libzip/libzip/zip_errors.html
 * /usr/share/doc/libzip/libzip/zip_error_clear.html
 * /usr/share/doc/libzip/libzip/zip_error_code_system.html
@@ -68,6 +72,7 @@ libzip is a C library for reading, creating, and modifying zip archives.
 * /usr/share/doc/libzip/libzip/zip_error_to_str.html
 * /usr/share/doc/libzip/libzip/zip_fclose.html
 * /usr/share/doc/libzip/libzip/zip_fdopen.html
+* /usr/share/doc/libzip/libzip/zip_file.html
 * /usr/share/doc/libzip/libzip/zip_file_add.html
 * /usr/share/doc/libzip/libzip/zip_file_attributes_init.html
 * /usr/share/doc/libzip/libzip/zip_file_error_clear.html
