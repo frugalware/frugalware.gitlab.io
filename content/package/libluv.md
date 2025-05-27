@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libluv 1.51.0-1"
-version = "1.51.0-1"
+title = "libluv 1.51.0-2"
+version = "1.51.0-2"
 description = "Bare libuv bindings for lua"
-date = "2025-05-11T14:25:52"
+date = "2025-05-27T09:22:26"
 aliases = "/packages/219994"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/luvit/luv"
 arch = "x86_64"
-size = "57480"
-usize = "209834"
-sha1sum = "e23983311f6a1da399fd93ba76a1abaefa66ace9"
+size = "57980"
+usize = "211698"
+sha1sum = "a85edd6ff1c188cd4ca2a2919f72ee31a2809e6c"
 depends = "['libuv', 'luajit2']"
 reverse_depends = "['neovim']"
 +++

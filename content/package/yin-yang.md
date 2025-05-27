@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "yin-yang 4.0-1"
-version = "4.0-1"
+title = "yin-yang 4.0.1-1"
+version = "4.0.1-1"
 description = "Light/dark theme switcher for Linux. Supports popular Desktops, text editors and more!"
-date = "2025-04-28T08:36:34"
+date = "2025-05-27T10:07:47"
 aliases = "/packages/220855"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/oskarsh/Yin-Yang"
 arch = "x86_64"
-size = "70712"
-usize = "331761"
-sha1sum = "20308851936e5e76c349464578a36e8e285542e0"
+size = "70708"
+usize = "331718"
+sha1sum = "5c66cba1f187dbb049549dfee679725fd5e0b492"
 depends = "['pyqt6', 'pyside6', 'python3-psutil', 'python3-suntime', 'python3-systemd', 'qt6-positioning']"
 +++
 ### Description: 
@@ -85,6 +85,6 @@ Light/dark theme switcher for Linux. Supports popular Desktops, text editors and
 * /usr/bin/yin_yang
 * /usr/lib/mozilla/native-messaging-hosts/yin_yang.json
 * /usr/share/applications/yin_yang.desktop
-* /usr/share/doc/yin-yang-4.0/LICENSE
-* /usr/share/doc/yin-yang-4.0/README.md
+* /usr/share/doc/yin-yang-4.0.1/LICENSE
+* /usr/share/doc/yin-yang-4.0.1/README.md
 * /usr/share/icons/hicolor/scalable/apps/sh.oskar.yin_yang.svg

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "iotop 1.29-1"
-version = "1.29-1"
+title = "iotop 1.30-1"
+version = "1.30-1"
 description = "Program with a top like UI used to show of behalf of which process is the I/O going on."
-date = "2025-05-11T14:41:48"
+date = "2025-05-27T09:23:10"
 aliases = "/packages/103347"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/Tomas-M/iotop"
 arch = "x86_64"
-size = "61720"
-usize = "154565"
-sha1sum = "1814498c8ee3f5d848f85cfa590f35af329468b4"
+size = "61880"
+usize = "155013"
+sha1sum = "eed0e9af9b9e78ffdda52dcf9705eafddf2f4e77"
 depends = "['ncurses']"
 +++
 ### Description: 
@@ -18,7 +18,7 @@ Program with a top like UI used to show of behalf of which process is the I/O go
 
 ### Files: 
 * /usr/bin/iotop
-* /usr/share/doc/iotop-1.29/COPYING
-* /usr/share/doc/iotop-1.29/LICENSE
-* /usr/share/doc/iotop-1.29/README.md
+* /usr/share/doc/iotop-1.30/COPYING
+* /usr/share/doc/iotop-1.30/LICENSE
+* /usr/share/doc/iotop-1.30/README.md
 * /usr/share/man/man8/iotop.8.gz
