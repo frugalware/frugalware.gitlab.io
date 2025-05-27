@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "xdg-desktop-portal 1.20.0-2"
-version = "1.20.0-2"
+title = "xdg-desktop-portal 1.20.3-1"
+version = "1.20.3-1"
 description = "Desktop integration portals for sandboxed apps"
-date = "2025-03-25T22:02:24"
+date = "2025-05-27T09:01:31"
 aliases = "/packages/220846"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/flatpak/xdg-desktop-portal"
 arch = "x86_64"
-size = "356952"
-usize = "1806656"
-sha1sum = "4787f46b4fe9b3f86c71d25a802939a4b4eb6db0"
+size = "362212"
+usize = "1821788"
+sha1sum = "951aae43db446891ca287d516da36acd738df30b"
 depends = "['fuse3>=3.17.1', 'geoclue2', 'glib2', 'gst1-plugins-base', 'libportal', 'pipewire', 'rtkit', 'systemd']"
 reverse_depends = "['plasma-wayland-session', 'xdg-desktop-portal-gtk']"
 +++
@@ -88,10 +88,11 @@ Desktop integration portals for sandboxed apps
 * /usr/share/dbus-1/services/org.freedesktop.impl.portal.PermissionStore.service
 * /usr/share/dbus-1/services/org.freedesktop.portal.Desktop.service
 * /usr/share/dbus-1/services/org.freedesktop.portal.Documents.service
-* /usr/share/doc/xdg-desktop-portal-1.20.0/COPYING
-* /usr/share/doc/xdg-desktop-portal-1.20.0/README.md
-* /usr/share/doc/xdg-desktop-portal-1.20.0/RELEASE_HOWTO.md
+* /usr/share/doc/xdg-desktop-portal-1.20.3/COPYING
+* /usr/share/doc/xdg-desktop-portal-1.20.3/README.md
+* /usr/share/doc/xdg-desktop-portal-1.20.3/RELEASE_HOWTO.md
 * /usr/share/locale/be/LC_MESSAGES/xdg-desktop-portal.mo
+* /usr/share/locale/bg/LC_MESSAGES/xdg-desktop-portal.mo
 * /usr/share/locale/ca/LC_MESSAGES/xdg-desktop-portal.mo
 * /usr/share/locale/cs/LC_MESSAGES/xdg-desktop-portal.mo
 * /usr/share/locale/da/LC_MESSAGES/xdg-desktop-portal.mo

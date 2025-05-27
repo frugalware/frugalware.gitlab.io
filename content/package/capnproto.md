@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "capnproto 0.10.4-1"
-version = "0.10.4-1"
+title = "capnproto 1.1.0-1"
+version = "1.1.0-1"
 description = "Fast data interchange format and capability-based RPC system"
-date = "2024-05-12T14:32:12"
+date = "2025-05-27T08:37:33"
 aliases = "/packages/219763"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/capnproto/capnproto"
 arch = "x86_64"
-size = "23212504"
-usize = "46347182"
-sha1sum = "7b069f64afaceb42e307849a27d561d4641afc36"
+size = "24308044"
+usize = "47082626"
+sha1sum = "74c6c24b89bcf625470ae221ecb1421e3fc7ed4e"
 depends = "['libstdc++>=11.2']"
 reverse_depends = "['rr']"
 +++
@@ -75,6 +75,7 @@ Fast data interchange format and capability-based RPC system
 * /usr/include/kj/async-unix.h
 * /usr/include/kj/async-win32.h
 * /usr/include/kj/async.h
+* /usr/include/kj/cidr.h
 * /usr/include/kj/common.h
 * /usr/include/kj/compat/gtest.h
 * /usr/include/kj/compat/gzip.h
@@ -140,7 +141,7 @@ Fast data interchange format and capability-based RPC system
 * /usr/lib/pkgconfig/kj-test.pc
 * /usr/lib/pkgconfig/kj-tls.pc
 * /usr/lib/pkgconfig/kj.pc
-* /usr/share/doc/capnproto-0.10.4/CONTRIBUTORS
-* /usr/share/doc/capnproto-0.10.4/LICENSE
-* /usr/share/doc/capnproto-0.10.4/README.md
-* /usr/share/doc/capnproto-0.10.4/RELEASE-PROCESS.md
+* /usr/share/doc/capnproto-1.1.0/CONTRIBUTORS
+* /usr/share/doc/capnproto-1.1.0/LICENSE
+* /usr/share/doc/capnproto-1.1.0/README.md
+* /usr/share/doc/capnproto-1.1.0/RELEASE-PROCESS.md

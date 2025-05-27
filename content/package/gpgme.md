@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gpgme 1.24.2-4"
-version = "1.24.2-4"
+title = "gpgme 1.24.3-1"
+version = "1.24.3-1"
 description = "A high-level crypto API for encryption"
-date = "2025-05-22T08:00:19"
+date = "2025-05-27T08:15:55"
 aliases = "/packages/3620"
 categories = ['apps']
 upstreamurl = "http://www.gnupg.org/related_software/gpgme/"
 arch = "x86_64"
-size = "2322312"
-usize = "4132568"
-sha1sum = "0462129e6df9c791ea6c9288f71aa4d22fd21eba"
+size = "2322136"
+usize = "4134587"
+sha1sum = "6af5d679d879ac8cd402513c5df4ae1d97854911"
 depends = "['glibc>=2.34', 'libassuan>=3.0.1', 'libgpg-error>=1.27-3']"
 reverse_depends = "['claws-mail-plugin-pgpcore', 'claws-mail-plugin-pgpinline', 'claws-mail-plugin-pgpmime', 'claws-mail-plugin-smime', 'fwupd', 'gmime2', 'gmime3', 'kgpg', 'libgpgmepp', 'libjcat', 'libqgpgme', 'libsmbclient', 'mcabber', 'mutt-devel', 'openvas-libraries', 'openvas-manager', 'ostree', 'python3-gpgme', 'sylpheed', 'volume_key', 'wget2']"
 +++
@@ -181,16 +181,16 @@ A high-level crypto API for encryption
 * /usr/share/common-lisp/source/gpgme/gpgme-package.lisp
 * /usr/share/common-lisp/source/gpgme/gpgme.asd
 * /usr/share/common-lisp/source/gpgme/gpgme.lisp
-* /usr/share/doc/gpgme-1.24.2/AUTHORS
-* /usr/share/doc/gpgme-1.24.2/ChangeLog
-* /usr/share/doc/gpgme-1.24.2/COPYING
-* /usr/share/doc/gpgme-1.24.2/COPYING.LESSER
-* /usr/share/doc/gpgme-1.24.2/INSTALL
-* /usr/share/doc/gpgme-1.24.2/NEWS
-* /usr/share/doc/gpgme-1.24.2/README
-* /usr/share/doc/gpgme-1.24.2/THANKS
-* /usr/share/doc/gpgme-1.24.2/TODO
-* /usr/share/doc/gpgme-1.24.2/VERSION
+* /usr/share/doc/gpgme-1.24.3/AUTHORS
+* /usr/share/doc/gpgme-1.24.3/ChangeLog
+* /usr/share/doc/gpgme-1.24.3/COPYING
+* /usr/share/doc/gpgme-1.24.3/COPYING.LESSER
+* /usr/share/doc/gpgme-1.24.3/INSTALL
+* /usr/share/doc/gpgme-1.24.3/NEWS
+* /usr/share/doc/gpgme-1.24.3/README
+* /usr/share/doc/gpgme-1.24.3/THANKS
+* /usr/share/doc/gpgme-1.24.3/TODO
+* /usr/share/doc/gpgme-1.24.3/VERSION
 * /usr/share/info/gpgme.info-1.gz
 * /usr/share/info/gpgme.info-2.gz
 * /usr/share/info/gpgme.info.gz

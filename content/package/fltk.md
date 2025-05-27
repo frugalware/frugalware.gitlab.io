@@ -12,7 +12,7 @@ size = "12187520"
 usize = "20671597"
 sha1sum = "a1a7ac631acbc64eab89b7b0d25bae71965effc2"
 depends = "['gtk+3']"
-reverse_depends = "['htmldoc', 'octave', 'pinentry-fltk']"
+reverse_depends = "['htmldoc', 'octave']"
 +++
 ### Description: 
 FLTK is a cross-platform C++ GUI toolkit for X

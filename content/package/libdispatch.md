@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libdispatch 6.1-2"
-version = "6.1-2"
+title = "libdispatch 6.1.1-1"
+version = "6.1.1-1"
 description = "Comprehensive support for concurrent code execution on multicore hardware"
-date = "2025-05-23T13:17:11"
+date = "2025-05-27T09:14:19"
 aliases = "/packages/220804"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/swiftlang/swift-corelibs-libdispatch"
 arch = "x86_64"
-size = "747336"
-usize = "1236120"
-sha1sum = "f3352ab77e3d306a28da60db59dcba51f8001003"
+size = "745500"
+usize = "1228494"
+sha1sum = "095aab72545909bd40341d84b98cfc0264b8f4a6"
 depends = "['glibc']"
 reverse_depends = "['telegram-desktop']"
 +++
@@ -38,10 +38,10 @@ Comprehensive support for concurrent code execution on multicore hardware
 * /usr/include/os/object.h
 * /usr/lib/libBlocksRuntime.so
 * /usr/lib/libdispatch.so
-* /usr/share/doc/libdispatch-6.1/INSTALL.md
-* /usr/share/doc/libdispatch-6.1/LICENSE
-* /usr/share/doc/libdispatch-6.1/README.md
-* /usr/share/doc/libdispatch-6.1/swift-6.1-RELEASE.tar.gz
+* /usr/share/doc/libdispatch-6.1.1/INSTALL.md
+* /usr/share/doc/libdispatch-6.1.1/LICENSE
+* /usr/share/doc/libdispatch-6.1.1/README.md
+* /usr/share/doc/libdispatch-6.1.1/swift-6.1.1-RELEASE.tar.gz
 * /usr/share/man/man3/dispatch.3.gz
 * /usr/share/man/man3/dispatch_after.3.gz
 * /usr/share/man/man3/dispatch_api.3.gz

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lsp-plugins 1.2.21-1"
-version = "1.2.21-1"
+title = "lsp-plugins 1.2.22-1"
+version = "1.2.22-1"
 description = "Collection of open-source plugins"
-date = "2025-03-01T19:09:51"
+date = "2025-05-27T08:38:06"
 aliases = "/packages/221033"
 categories = ['multimedia-extra']
 upstreamurl = "https://lsp-plug.in"
 arch = "x86_64"
-size = "33400788"
-usize = "86430594"
-sha1sum = "c75fc7a7986ca81685f1c931fd5dd26e02d5c4a3"
+size = "32245180"
+usize = "91810665"
+sha1sum = "86b44a37fb71c491d2d8777da5424544ecf3a779"
 depends = "['cairo', 'jack2', 'libglvnd', 'libxrandr']"
 reverse_depends = "['easyeffects']"
 +++
@@ -135,6 +135,8 @@ Collection of open-source plugins
 * /usr/bin/lsp-plugins-para-equalizer-x8-ms
 * /usr/bin/lsp-plugins-para-equalizer-x8-stereo
 * /usr/bin/lsp-plugins-phase-detector
+* /usr/bin/lsp-plugins-phaser-mono
+* /usr/bin/lsp-plugins-phaser-stereo
 * /usr/bin/lsp-plugins-profiler-mono
 * /usr/bin/lsp-plugins-profiler-stereo
 * /usr/bin/lsp-plugins-referencer-mono
@@ -205,7 +207,7 @@ Collection of open-source plugins
 * /usr/bin/lsp-plugins-trigger-stereo
 * /usr/lib/clap/lsp-plugins.clap
 * /usr/lib/ladspa/lsp-plugins-ladspa.so
-* /usr/lib/lsp-plugins/liblsp-plugins-jack-1.2.21.so
+* /usr/lib/lsp-plugins/liblsp-plugins-jack-1.2.22.so
 * /usr/lib/lv2/lsp-plugins.lv2/ab_tester_x2_mono.ttl
 * /usr/lib/lv2/lsp-plugins.lv2/ab_tester_x2_stereo.ttl
 * /usr/lib/lv2/lsp-plugins.lv2/ab_tester_x4_mono.ttl
@@ -323,6 +325,8 @@ Collection of open-source plugins
 * /usr/lib/lv2/lsp-plugins.lv2/para_equalizer_x8_mono.ttl
 * /usr/lib/lv2/lsp-plugins.lv2/para_equalizer_x8_ms.ttl
 * /usr/lib/lv2/lsp-plugins.lv2/para_equalizer_x8_stereo.ttl
+* /usr/lib/lv2/lsp-plugins.lv2/phaser_mono.ttl
+* /usr/lib/lv2/lsp-plugins.lv2/phaser_stereo.ttl
 * /usr/lib/lv2/lsp-plugins.lv2/phase_detector.ttl
 * /usr/lib/lv2/lsp-plugins.lv2/profiler_mono.ttl
 * /usr/lib/lv2/lsp-plugins.lv2/profiler_stereo.ttl
@@ -509,6 +513,8 @@ Collection of open-source plugins
 * /usr/lib/vst/lsp-plugins.vst/para-equalizer-x8-ms.so
 * /usr/lib/vst/lsp-plugins.vst/para-equalizer-x8-stereo.so
 * /usr/lib/vst/lsp-plugins.vst/phase-detector.so
+* /usr/lib/vst/lsp-plugins.vst/phaser-mono.so
+* /usr/lib/vst/lsp-plugins.vst/phaser-stereo.so
 * /usr/lib/vst/lsp-plugins.vst/profiler-mono.so
 * /usr/lib/vst/lsp-plugins.vst/profiler-stereo.so
 * /usr/lib/vst/lsp-plugins.vst/referencer-mono.so
@@ -688,6 +694,8 @@ Collection of open-source plugins
 * /usr/share/applications/in.lsp_plug.lsp_plugins_para_equalizer_x32_mono.desktop
 * /usr/share/applications/in.lsp_plug.lsp_plugins_para_equalizer_x32_ms.desktop
 * /usr/share/applications/in.lsp_plug.lsp_plugins_para_equalizer_x32_stereo.desktop
+* /usr/share/applications/in.lsp_plug.lsp_plugins_phaser_mono.desktop
+* /usr/share/applications/in.lsp_plug.lsp_plugins_phaser_stereo.desktop
 * /usr/share/applications/in.lsp_plug.lsp_plugins_phase_detector.desktop
 * /usr/share/applications/in.lsp_plug.lsp_plugins_profiler_mono.desktop
 * /usr/share/applications/in.lsp_plug.lsp_plugins_profiler_stereo.desktop
@@ -758,10 +766,10 @@ Collection of open-source plugins
 * /usr/share/applications/in.lsp_plug.lsp_plugins_trigger_mono.desktop
 * /usr/share/applications/in.lsp_plug.lsp_plugins_trigger_stereo.desktop
 * /usr/share/desktop-directories/lsp-plugins.directory
-* /usr/share/doc/lsp-plugins-1.2.21/CHANGELOG
-* /usr/share/doc/lsp-plugins-1.2.21/COPYING
-* /usr/share/doc/lsp-plugins-1.2.21/COPYING.LESSER
-* /usr/share/doc/lsp-plugins-1.2.21/README.md
+* /usr/share/doc/lsp-plugins-1.2.22/CHANGELOG
+* /usr/share/doc/lsp-plugins-1.2.22/COPYING
+* /usr/share/doc/lsp-plugins-1.2.22/COPYING.LESSER
+* /usr/share/doc/lsp-plugins-1.2.22/README.md
 * /usr/share/doc/lsp-plugins/css/style.css
 * /usr/share/doc/lsp-plugins/fonts/notosansdisplay-condensed-webfont.woff
 * /usr/share/doc/lsp-plugins/fonts/notosansdisplay-condensed-webfont.woff2
@@ -890,6 +898,8 @@ Collection of open-source plugins
 * /usr/share/doc/lsp-plugins/html/plugins/para_equalizer_x8_mono.html
 * /usr/share/doc/lsp-plugins/html/plugins/para_equalizer_x8_ms.html
 * /usr/share/doc/lsp-plugins/html/plugins/para_equalizer_x8_stereo.html
+* /usr/share/doc/lsp-plugins/html/plugins/phaser_mono.html
+* /usr/share/doc/lsp-plugins/html/plugins/phaser_stereo.html
 * /usr/share/doc/lsp-plugins/html/plugins/phase_detector.html
 * /usr/share/doc/lsp-plugins/html/plugins/profiler_mono.html
 * /usr/share/doc/lsp-plugins/html/plugins/profiler_stereo.html
@@ -1057,6 +1067,7 @@ Collection of open-source plugins
 * /usr/share/doc/lsp-plugins/img/LSP_logo_text_tablet.png
 * /usr/share/doc/lsp-plugins/img/manuals.png
 * /usr/share/doc/lsp-plugins/img/manuals_hover.png
+* /usr/share/doc/lsp-plugins/img/overlay.png
 * /usr/share/doc/lsp-plugins/img/plugins/ab_tester_x2_mono.png
 * /usr/share/doc/lsp-plugins/img/plugins/ab_tester_x2_stereo.png
 * /usr/share/doc/lsp-plugins/img/plugins/ab_tester_x4_mono.png
@@ -1172,6 +1183,8 @@ Collection of open-source plugins
 * /usr/share/doc/lsp-plugins/img/plugins/para_equalizer_x8_mono.png
 * /usr/share/doc/lsp-plugins/img/plugins/para_equalizer_x8_ms.png
 * /usr/share/doc/lsp-plugins/img/plugins/para_equalizer_x8_stereo.png
+* /usr/share/doc/lsp-plugins/img/plugins/phaser_mono.png
+* /usr/share/doc/lsp-plugins/img/plugins/phaser_stereo.png
 * /usr/share/doc/lsp-plugins/img/plugins/phase_detector.png
 * /usr/share/doc/lsp-plugins/img/plugins/profiler_mono.png
 * /usr/share/doc/lsp-plugins/img/plugins/profiler_stereo.png

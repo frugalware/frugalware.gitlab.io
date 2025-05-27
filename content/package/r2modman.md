@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "r2modman 3.1.58-1"
-version = "3.1.58-1"
+title = "r2modman 3.2.0-1"
+version = "3.2.0-1"
 description = "A simple and easy to use mod manager for several games using Thunderstore."
-date = "2025-04-19T13:44:57"
+date = "2025-05-27T08:40:15"
 aliases = "/packages/221449"
 categories = ['games-extra']
 upstreamurl = "https://github.com/ebkr/r2modmanPlus"
 arch = "x86_64"
-size = "106566604"
-usize = "0"
-sha1sum = "5b900cbbf4a4cdbbc60c5e164c1133a6a00a97ec"
+size = "106587564"
+usize = "116680134"
+sha1sum = "6bd42fd7f6b5320f66d2ce22935736417dd3b7b9"
 depends = "['c-ares', 'ffmpeg', 'gtk+3', 'http-parser', 'libappindicator', 'libevent', 'libnotify', 'libvpx', 'libxscrnsaver', 'libxslt', 'nss', 're2', 'snappy']"
 +++
 ### Description: 
@@ -19,7 +19,8 @@ A simple and easy to use mod manager for several games using Thunderstore.
 ### Files: 
 * /usr/bin/r2modman
 * /usr/share/applications/r2modman.desktop
-* /usr/share/doc/r2modman-3.1.58/README.md
+* /usr/share/doc/r2modman-3.2.0/LICENSE
+* /usr/share/doc/r2modman-3.2.0/README.md
 * /usr/share/icons/hicolor/128x128/apps/r2modman.png
 * /usr/share/icons/hicolor/16x16/apps/r2modman.png
 * /usr/share/icons/hicolor/24x24/apps/r2modman.png
@@ -89,7 +90,6 @@ A simple and easy to use mod manager for several games using Thunderstore.
 * /usr/share/r2modman/locales/te.pak
 * /usr/share/r2modman/locales/th.pak
 * /usr/share/r2modman/locales/tr.pak
-* /usr/share/r2modman/locales/uk.pak
 * /usr/share/r2modman/locales/ur.pak
 * /usr/share/r2modman/locales/vi.pak
 * /usr/share/r2modman/locales/zh-CN.pak

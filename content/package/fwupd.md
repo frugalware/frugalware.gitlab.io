@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "fwupd 2.0.9-1"
-version = "2.0.9-1"
+title = "fwupd 2.0.10-1"
+version = "2.0.10-1"
 description = "A simple daemon to allow session software to update firmware"
-date = "2025-05-12T09:24:29"
+date = "2025-05-27T08:20:09"
 aliases = "/packages/219170"
 categories = ['apps']
 upstreamurl = "https://github.com/fwupd/fwupd"
 arch = "x86_64"
-size = "8363536"
-usize = "52156301"
-sha1sum = "c5c724e218dabc8602a0cb1b071db8dafab408ec"
+size = "8383756"
+usize = "52402154"
+sha1sum = "3e867e89ef0c6a1d71507fbaf8e4c8396daf12d5"
 depends = "['appstream-glib', 'colord', 'efivar', 'flashrom', 'fwupd-efi', 'gnu-efi', 'gpgme', 'gsettings-desktop-schemas', 'libarchive', 'libcbor>=0.12.0', 'libgusb', 'libjcat', 'libqmi', 'libsmbios', 'libxmlb>=0.3.19', 'modemmanager', 'passim', 'protobuf-c', 'tpm2-tss', 'udisks2']"
 reverse_depends = "['discover', 'kinfocenter']"
 +++
@@ -50,11 +50,11 @@ A simple daemon to allow session software to update firmware
 * /usr/include/fwupd-3/libfwupd/fwupd-request.h
 * /usr/include/fwupd-3/libfwupd/fwupd-security-attr.h
 * /usr/include/fwupd-3/libfwupd/fwupd-version.h
-* /usr/lib/fwupd-2.0.9/libfu_plugin_flashrom.so
-* /usr/lib/fwupd-2.0.9/libfu_plugin_modem_manager.so
-* /usr/lib/fwupd-2.0.9/libfwupdengine.so
-* /usr/lib/fwupd-2.0.9/libfwupdplugin.so
-* /usr/lib/fwupd-2.0.9/libfwupdutil.so
+* /usr/lib/fwupd-2.0.10/libfu_plugin_flashrom.so
+* /usr/lib/fwupd-2.0.10/libfu_plugin_modem_manager.so
+* /usr/lib/fwupd-2.0.10/libfwupdengine.so
+* /usr/lib/fwupd-2.0.10/libfwupdplugin.so
+* /usr/lib/fwupd-2.0.10/libfwupdutil.so
 * /usr/lib/fwupd/fwupd
 * /usr/lib/fwupd/fwupd-detect-cet
 * /usr/lib/girepository-1.0/Fwupd-2.0.typelib
@@ -100,9 +100,9 @@ A simple daemon to allow session software to update firmware
 * /usr/share/dbus-1/interfaces/org.freedesktop.fwupd.xml
 * /usr/share/dbus-1/system-services/org.freedesktop.fwupd.service
 * /usr/share/dbus-1/system.d/org.freedesktop.fwupd.conf
-* /usr/share/doc/fwupd-2.0.9/COPYING
-* /usr/share/doc/fwupd-2.0.9/README.md
-* /usr/share/doc/fwupd-2.0.9/RELEASE
+* /usr/share/doc/fwupd-2.0.10/COPYING
+* /usr/share/doc/fwupd-2.0.10/README.md
+* /usr/share/doc/fwupd-2.0.10/RELEASE
 * /usr/share/doc/fwupd/hsi.html
 * /usr/share/doc/fwupd/index.html
 * /usr/share/doc/fwupd/libfwupd
@@ -967,6 +967,7 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupd/type_func.Codec.json_append.html
 * /usr/share/doc/libfwupd/type_func.Codec.json_append_bool.html
 * /usr/share/doc/libfwupd/type_func.Codec.json_append_int.html
+* /usr/share/doc/libfwupd/type_func.Codec.json_append_map.html
 * /usr/share/doc/libfwupd/type_func.Codec.json_append_strv.html
 * /usr/share/doc/libfwupd/type_func.Codec.string_append.html
 * /usr/share/doc/libfwupd/type_func.Codec.string_append_bool.html
@@ -1258,6 +1259,34 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupdplugin/const.COSWID_ENTITY_ROLE_LAST.html
 * /usr/share/doc/libfwupdplugin/const.COSWID_TAG_LAST.html
 * /usr/share/doc/libfwupdplugin/const.CPU_VENDOR_LAST.html
+* /usr/share/doc/libfwupdplugin/const.DEVICE_ICON_AC_ADAPTER.html
+* /usr/share/doc/libfwupdplugin/const.DEVICE_ICON_APPLICATION_CERTIFICATE.html
+* /usr/share/doc/libfwupdplugin/const.DEVICE_ICON_AUDIO_CARD.html
+* /usr/share/doc/libfwupdplugin/const.DEVICE_ICON_AUTH_FINGERPRINT.html
+* /usr/share/doc/libfwupdplugin/const.DEVICE_ICON_COMPUTER.html
+* /usr/share/doc/libfwupdplugin/const.DEVICE_ICON_DOCK.html
+* /usr/share/doc/libfwupdplugin/const.DEVICE_ICON_DOCK_USB.html
+* /usr/share/doc/libfwupdplugin/const.DEVICE_ICON_DRIVE_HARDDISK.html
+* /usr/share/doc/libfwupdplugin/const.DEVICE_ICON_DRIVE_MULTIDISK.html
+* /usr/share/doc/libfwupdplugin/const.DEVICE_ICON_DRIVE_SSD.html
+* /usr/share/doc/libfwupdplugin/const.DEVICE_ICON_GPU.html
+* /usr/share/doc/libfwupdplugin/const.DEVICE_ICON_INPUT_DIALPAD.html
+* /usr/share/doc/libfwupdplugin/const.DEVICE_ICON_INPUT_GAMING.html
+* /usr/share/doc/libfwupdplugin/const.DEVICE_ICON_INPUT_KEYBOARD.html
+* /usr/share/doc/libfwupdplugin/const.DEVICE_ICON_INPUT_MOUSE.html
+* /usr/share/doc/libfwupdplugin/const.DEVICE_ICON_INPUT_TABLET.html
+* /usr/share/doc/libfwupdplugin/const.DEVICE_ICON_INPUT_TOUCHPAD.html
+* /usr/share/doc/libfwupdplugin/const.DEVICE_ICON_MEMORY.html
+* /usr/share/doc/libfwupdplugin/const.DEVICE_ICON_MODEM.html
+* /usr/share/doc/libfwupdplugin/const.DEVICE_ICON_NETWORK_WIRED.html
+* /usr/share/doc/libfwupdplugin/const.DEVICE_ICON_NETWORK_WIRELESS.html
+* /usr/share/doc/libfwupdplugin/const.DEVICE_ICON_PDA.html
+* /usr/share/doc/libfwupdplugin/const.DEVICE_ICON_THUNDERBOLT.html
+* /usr/share/doc/libfwupdplugin/const.DEVICE_ICON_USB_HUB.html
+* /usr/share/doc/libfwupdplugin/const.DEVICE_ICON_USB_RECEIVER.html
+* /usr/share/doc/libfwupdplugin/const.DEVICE_ICON_VIDEO_CAMERA.html
+* /usr/share/doc/libfwupdplugin/const.DEVICE_ICON_VIDEO_DISPLAY.html
+* /usr/share/doc/libfwupdplugin/const.DEVICE_ICON_WEB_CAMERA.html
 * /usr/share/doc/libfwupdplugin/const.DEVICE_METADATA_CPU_MITIGATIONS_REQUIRED.html
 * /usr/share/doc/libfwupdplugin/const.DEVICE_METADATA_CPU_SINKCLOSE_MICROCODE_VER.html
 * /usr/share/doc/libfwupdplugin/const.DEVICE_METADATA_TBT_IS_SAFE_MODE.html
@@ -1422,9 +1451,9 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupdplugin/const.INTEL_THUNDERBOLT_NVM_SECTION_LAST.html
 * /usr/share/doc/libfwupdplugin/const.LID_STATE_LAST.html
 * /usr/share/doc/libfwupdplugin/const.MSGPACK_ITEM_KIND_LAST.html
-* /usr/share/doc/libfwupdplugin/const.OPROM_FIRMWARE_COMPRESSION_TYPE_NONE.html
-* /usr/share/doc/libfwupdplugin/const.OPROM_FIRMWARE_MACHINE_TYPE_X64.html
-* /usr/share/doc/libfwupdplugin/const.OPROM_FIRMWARE_SUBSYSTEM_EFI_BOOT_SRV_DRV.html
+* /usr/share/doc/libfwupdplugin/const.OPROM_COMPRESSION_TYPE_LAST.html
+* /usr/share/doc/libfwupdplugin/const.OPROM_MACHINE_TYPE_LAST.html
+* /usr/share/doc/libfwupdplugin/const.OPROM_SUBSYSTEM_LAST.html
 * /usr/share/doc/libfwupdplugin/const.POWER_STATE_LAST.html
 * /usr/share/doc/libfwupdplugin/const.QUIRKS_ACQUIESCE_DELAY.html
 * /usr/share/doc/libfwupdplugin/const.QUIRKS_BATTERY_THRESHOLD.html
@@ -1647,6 +1676,9 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupdplugin/enum.MkhiStatus.html
 * /usr/share/doc/libfwupdplugin/enum.MsgpackCmd.html
 * /usr/share/doc/libfwupdplugin/enum.MsgpackItemKind.html
+* /usr/share/doc/libfwupdplugin/enum.OpromCompressionType.html
+* /usr/share/doc/libfwupdplugin/enum.OpromMachineType.html
+* /usr/share/doc/libfwupdplugin/enum.OpromSubsystem.html
 * /usr/share/doc/libfwupdplugin/enum.PathKind.html
 * /usr/share/doc/libfwupdplugin/enum.PciDeviceBaseCls.html
 * /usr/share/doc/libfwupdplugin/enum.PeCoffMachine.html
@@ -3096,6 +3128,7 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupdplugin/method.Device.get_request_cnt.html
 * /usr/share/doc/libfwupdplugin/method.Device.get_results.html
 * /usr/share/doc/libfwupdplugin/method.Device.get_root.html
+* /usr/share/doc/libfwupdplugin/method.Device.get_smbios_string.html
 * /usr/share/doc/libfwupdplugin/method.Device.get_specialized_gtype.html
 * /usr/share/doc/libfwupdplugin/method.Device.get_update_image.html
 * /usr/share/doc/libfwupdplugin/method.Device.get_update_message.html
@@ -4103,6 +4136,7 @@ A simple daemon to allow session software to update firmware
 * /usr/share/installed-tests/fwupd/device-tests/nordic-hid-nrf52840-b0.json
 * /usr/share/installed-tests/fwupd/device-tests/nordic-hid-nrf52840-mcuboot.json
 * /usr/share/installed-tests/fwupd/device-tests/parade-ps5512evb.json
+* /usr/share/installed-tests/fwupd/device-tests/pci-psp-strix-enumerate.json
 * /usr/share/installed-tests/fwupd/device-tests/pixart-rf-2862-dongle.json
 * /usr/share/installed-tests/fwupd/device-tests/pixart-rf-GCBBTM25.json
 * /usr/share/installed-tests/fwupd/device-tests/qc-ec25au.json
@@ -4163,6 +4197,7 @@ A simple daemon to allow session software to update firmware
 * /usr/share/installed-tests/fwupd/enumeration-data/logitech-bolt-receiver-setup.json
 * /usr/share/installed-tests/fwupd/enumeration-data/microsoft-usbc-travel-hub-setup.json
 * /usr/share/installed-tests/fwupd/enumeration-data/mnt-pocket-reform-sysctl-setup.json
+* /usr/share/installed-tests/fwupd/enumeration-data/pci-psp-strix.json
 * /usr/share/installed-tests/fwupd/enumeration-data/qc-ec25au-setup.json
 * /usr/share/installed-tests/fwupd/enumeration-data/qc-eg25ggc-fastboot-setup.json
 * /usr/share/installed-tests/fwupd/enumeration-data/qc-em160r-setup.json
@@ -4187,7 +4222,10 @@ A simple daemon to allow session software to update firmware
 * /usr/share/installed-tests/fwupd/fwupdtool-efiboot.test
 * /usr/share/installed-tests/fwupd/fwupdtool.sh
 * /usr/share/installed-tests/fwupd/fwupdtool.test
+* /usr/share/installed-tests/fwupd/fwupdx64.efi.signed
+* /usr/share/installed-tests/fwupd/grub.cfg
 * /usr/share/installed-tests/fwupd/lsan-suppressions.txt
+* /usr/share/installed-tests/fwupd/test.quirk
 * /usr/share/installed-tests/fwupd/tests/America/New_York
 * /usr/share/installed-tests/fwupd/tests/bcm57xx.builder.xml
 * /usr/share/installed-tests/fwupd/tests/bios-attrs/dell-xps13-9310/dell-wmi-sysman/attributes/Asset/current_value
@@ -4321,6 +4359,8 @@ A simple daemon to allow session software to update firmware
 * /usr/share/installed-tests/fwupd/tests/uswid-compressed.builder.xml
 * /usr/share/installed-tests/fwupd/tests/uswid.builder.xml
 * /usr/share/installed-tests/fwupd/tests/wacom-usb.builder.xml
+* /usr/share/installed-tests/fwupd/UEFI
+* /usr/share/installed-tests/fwupd/uefi-update-info.builder.xml
 * /usr/share/locale/af/LC_MESSAGES/fwupd.mo
 * /usr/share/locale/ar/LC_MESSAGES/fwupd.mo
 * /usr/share/locale/ast/LC_MESSAGES/fwupd.mo

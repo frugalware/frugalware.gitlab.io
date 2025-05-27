@@ -12,7 +12,7 @@ size = "14008760"
 usize = "87573626"
 sha1sum = "0b22f9b5cc48afc9b6e2f479e71a42cfb2829706"
 depends = "['glibc']"
-reverse_depends = "['lib32-opencl-clover', 'opencl-clover', 'opencl-rusticl']"
+reverse_depends = "['opencl-rusticl']"
 +++
 ### Description: 
 Library requirements of the OpenCL C programming language

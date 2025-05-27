@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mupdf 1.25.6-1"
-version = "1.25.6-1"
+title = "mupdf 1.26.1-1"
+version = "1.26.1-1"
 description = "Lightweight PDF and XPS viewer"
-date = "2025-04-01T07:22:07"
+date = "2025-05-27T08:35:17"
 aliases = "/packages/218921"
 categories = ['xapps']
 upstreamurl = "https://mupdf.com"
 arch = "x86_64"
-size = "87115540"
-usize = "155413426"
-sha1sum = "06919c757898e7f6b5760dddb1d1705842072030"
+size = "45471088"
+usize = "83228547"
+sha1sum = "5e81c83359878affff270562358577f8c7ab6d09"
 depends = "['curl', 'freetype2', 'harfbuzz', 'libglu', 'libjpeg-turbo', 'libxi', 'libxrandr', 'openjpeg>=2.3.0']"
 +++
 ### Description: 
@@ -19,12 +19,11 @@ Lightweight PDF and XPS viewer
 ### Files: 
 * /usr/bin/mupdf
 * /usr/bin/mupdf-x11
-* /usr/bin/mupdf-x11-curl
-* /usr/bin/muraster
 * /usr/bin/mutool
 * /usr/include/mupdf/fitz.h
 * /usr/include/mupdf/fitz/archive.h
 * /usr/include/mupdf/fitz/band-writer.h
+* /usr/include/mupdf/fitz/barcode.h
 * /usr/include/mupdf/fitz/bidi.h
 * /usr/include/mupdf/fitz/bitmap.h
 * /usr/include/mupdf/fitz/buffer.h
@@ -49,6 +48,7 @@ Lightweight PDF and XPS viewer
 * /usr/include/mupdf/fitz/heap-imp.h
 * /usr/include/mupdf/fitz/heap.h
 * /usr/include/mupdf/fitz/image.h
+* /usr/include/mupdf/fitz/json.h
 * /usr/include/mupdf/fitz/link.h
 * /usr/include/mupdf/fitz/log.h
 * /usr/include/mupdf/fitz/outline.h
@@ -100,10 +100,10 @@ Lightweight PDF and XPS viewer
 * /usr/include/mupdf/pdf/zugferd.h
 * /usr/include/mupdf/ucdn.h
 * /usr/share/applications/mupdf.desktop
-* /usr/share/doc/mupdf-1.25.6/CHANGES
-* /usr/share/doc/mupdf-1.25.6/CONTRIBUTORS
-* /usr/share/doc/mupdf-1.25.6/COPYING
-* /usr/share/doc/mupdf-1.25.6/README
+* /usr/share/doc/mupdf-1.26.1/CHANGES
+* /usr/share/doc/mupdf-1.26.1/CONTRIBUTORS
+* /usr/share/doc/mupdf-1.26.1/COPYING
+* /usr/share/doc/mupdf-1.26.1/README
 * /usr/share/doc/mupdf/CHANGES
 * /usr/share/doc/mupdf/COPYING
 * /usr/share/doc/mupdf/examples/bbox-device.js

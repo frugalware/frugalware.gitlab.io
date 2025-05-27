@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "benchmark 1.9.3-1"
-version = "1.9.3-1"
+title = "benchmark 1.9.4-1"
+version = "1.9.4-1"
 description = "A microbenchmark support library"
-date = "2025-05-11T13:46:18"
+date = "2025-05-27T09:10:06"
 aliases = "/packages/220441"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/google/benchmark"
 arch = "x86_64"
-size = "209656"
-usize = "646026"
-sha1sum = "f56f0960ef7a440d2ab6f13eccd922da06b2be20"
+size = "209468"
+usize = "646269"
+sha1sum = "db91c1f1a71191545f798b58e1b5c4a2c5330000"
 depends = "['libstdc++>=11.2']"
 reverse_depends = "['ospray']"
 +++
@@ -26,16 +26,16 @@ A microbenchmark support library
 * /usr/lib/cmake/benchmark/benchmarkTargets.cmake
 * /usr/lib/libbenchmark.so
 * /usr/lib/libbenchmark.so.1
-* /usr/lib/libbenchmark.so.1.9.3
+* /usr/lib/libbenchmark.so.1.9.4
 * /usr/lib/libbenchmark_main.so
 * /usr/lib/libbenchmark_main.so.1
-* /usr/lib/libbenchmark_main.so.1.9.3
+* /usr/lib/libbenchmark_main.so.1.9.4
 * /usr/lib/pkgconfig/benchmark.pc
 * /usr/lib/pkgconfig/benchmark_main.pc
-* /usr/share/doc/benchmark-1.9.3/AUTHORS
-* /usr/share/doc/benchmark-1.9.3/CONTRIBUTORS
-* /usr/share/doc/benchmark-1.9.3/LICENSE
-* /usr/share/doc/benchmark-1.9.3/README.md
+* /usr/share/doc/benchmark-1.9.4/AUTHORS
+* /usr/share/doc/benchmark-1.9.4/CONTRIBUTORS
+* /usr/share/doc/benchmark-1.9.4/LICENSE
+* /usr/share/doc/benchmark-1.9.4/README.md
 * /usr/share/doc/benchmark/AssemblyTests.md
 * /usr/share/doc/benchmark/assets/images/icon.png
 * /usr/share/doc/benchmark/assets/images/icon.xcf

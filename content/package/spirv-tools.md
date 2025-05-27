@@ -12,7 +12,7 @@ size = "1600232"
 usize = "7165626"
 sha1sum = "ca6ba3638fe78cd289e17060910b592bd0a5610b"
 depends = "['python3']"
-reverse_depends = "['glslang', 'libosmesa', 'mesa-dri-drivers', 'mesa-libegl', 'mesa-libglx', 'mesa-vulkan-intel', 'shaderc', 'spirv-llvm-translator']"
+reverse_depends = "['glslang', 'libosmesa', 'mesa-dri-drivers', 'mesa-libegl', 'mesa-libglx', 'mesa-vulkan-intel', 'shaderc', 'spirv-llvm-translator', 'vkd3d']"
 +++
 ### Description: 
 API and commands for processing SPIR-V modules

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "heroic-games-launcher 2.16.1-2"
-version = "2.16.1-2"
+title = "heroic-games-launcher 2.17.0-1"
+version = "2.17.0-1"
 description = "Native GOG, Epic Games and Amazon games launcher for Linux"
-date = "2025-03-15T18:59:23"
+date = "2025-05-27T08:46:58"
 aliases = "/packages/221432"
 categories = ['games-extra']
 upstreamurl = "https://heroicgameslauncher.com/"
 arch = "x86_64"
-size = "122875652"
-usize = "411385878"
-sha1sum = "93f2747e690e0ace14e3cdadaa3cf47d1316ead0"
+size = "130988244"
+usize = "450362655"
+sha1sum = "3641203031c87b19e247acfc3be08b9d07a5c518"
 depends = "['comet']"
 +++
 ### Description: 
@@ -104,17 +104,26 @@ Native GOG, Epic Games and Amazon games launcher for Linux
 * /opt/heroic/resources/app.asar.unpacked/node_modules/font-list/libs/darwin/fontlist.m
 * /opt/heroic/resources/app.asar.unpacked/node_modules/font-list/libs/darwin/index.js
 * /opt/heroic/resources/app.asar.unpacked/node_modules/font-list/libs/linux/index.js
+* /opt/heroic/resources/app.asar.unpacked/node_modules/font-list/libs/standardize.js
 * /opt/heroic/resources/app.asar.unpacked/node_modules/font-list/libs/win32/fonts.vbs
 * /opt/heroic/resources/app.asar.unpacked/node_modules/font-list/libs/win32/getByPowerShell.js
 * /opt/heroic/resources/app.asar.unpacked/node_modules/font-list/libs/win32/getByVBS.js
 * /opt/heroic/resources/app.asar.unpacked/node_modules/font-list/libs/win32/index.js
 * /opt/heroic/resources/app.asar.unpacked/node_modules/font-list/LICENSE
 * /opt/heroic/resources/app.asar.unpacked/node_modules/font-list/package.json
+* /opt/heroic/resources/app.asar.unpacked/node_modules/register-scheme/build/Release/node-addon-api/src/nothing.a.ar-file-list
+* /opt/heroic/resources/app.asar.unpacked/node_modules/register-scheme/build/Release/register-protocol-handler.node
+* /opt/heroic/resources/app.asar.unpacked/node_modules/register-scheme/index.js
+* /opt/heroic/resources/app.asar.unpacked/node_modules/register-scheme/package.json
+* /opt/heroic/resources/app.asar.unpacked/node_modules/register-scheme/src/register.h
+* /opt/heroic/resources/app.asar.unpacked/node_modules/register-scheme/src/register_linux.cpp
+* /opt/heroic/resources/app.asar.unpacked/node_modules/register-scheme/src/register_mac.m
+* /opt/heroic/resources/app.asar.unpacked/node_modules/register-scheme/src/register_win.cpp
 * /opt/heroic/snapshot_blob.bin
 * /opt/heroic/v8_context_snapshot.bin
 * /opt/heroic/vk_swiftshader_icd.json
 * /usr/bin/heroic
 * /usr/share/applications/heroic-games-launcher.desktop
-* /usr/share/doc/heroic-games-launcher-2.16.1/COPYING
-* /usr/share/doc/heroic-games-launcher-2.16.1/README.md
+* /usr/share/doc/heroic-games-launcher-2.17.0/COPYING
+* /usr/share/doc/heroic-games-launcher-2.17.0/README.md
 * /usr/share/pixmaps/heroic.png
