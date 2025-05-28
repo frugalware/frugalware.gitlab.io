@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "v4l2loopback 0.14.0-13"
-version = "0.14.0-13"
+title = "v4l2loopback 0.15.0-1"
+version = "0.15.0-1"
 description = "v4l2-loopback device"
-date = "2025-05-18T18:07:41"
+date = "2025-05-28T07:19:26"
 aliases = "/packages/220159"
 categories = ['multimedia-extra']
 upstreamurl = "https://github.com/v4l2loopback/v4l2loopback"
 arch = "x86_64"
-size = "234360"
-usize = "277727"
-sha1sum = "4fe9efdcf9f6ee7436308fd02b0b2c3309548ae2"
+size = "235584"
+usize = "280421"
+sha1sum = "239ab6f7c6dd0b180a4125473385595df5e40577"
 depends = "['kernel=6.14.7-1']"
 +++
 ### Description: 
@@ -18,9 +18,9 @@ v4l2-loopback device
 
 ### Files: 
 * /usr/lib/modules/6.14.7-fw1/kernel/extra/v4l2loopback.ko.zst
-* /usr/share/doc/v4l2loopback-0.14.0/AUTHORS
-* /usr/share/doc/v4l2loopback-0.14.0/ChangeLog
-* /usr/share/doc/v4l2loopback-0.14.0/COPYING
-* /usr/share/doc/v4l2loopback-0.14.0/NEWS
-* /usr/share/doc/v4l2loopback-0.14.0/README.md
-* /usr/share/doc/v4l2loopback-0.14.0/TODO
+* /usr/share/doc/v4l2loopback-0.15.0/AUTHORS
+* /usr/share/doc/v4l2loopback-0.15.0/ChangeLog
+* /usr/share/doc/v4l2loopback-0.15.0/COPYING
+* /usr/share/doc/v4l2loopback-0.15.0/NEWS
+* /usr/share/doc/v4l2loopback-0.15.0/README.md
+* /usr/share/doc/v4l2loopback-0.15.0/TODO

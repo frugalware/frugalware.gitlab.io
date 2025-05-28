@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "nss 3.111-1"
-version = "3.111-1"
+title = "nss 3.112-1"
+version = "3.112-1"
 description = "NSS library from mozilla.org"
-date = "2025-05-06T06:45:38"
+date = "2025-05-28T07:14:14"
 aliases = "/packages/3265"
 categories = ['base']
 upstreamurl = "http://www.mozilla.org/projects/security/pki/nss/"
 arch = "x86_64"
-size = "1878388"
-usize = "6327395"
-sha1sum = "0689fabf767df798decdc2fc640953249884904c"
+size = "1882792"
+usize = "6342790"
+sha1sum = "600e87e65c2bc451ade3899b071bf1a8f67bfe5f"
 depends = "['glibc>=2.35', 'libstdc++>=11.3', 'nspr>=4.34', 'sqlite3>=3.14.2-2', 'zlib-ng']"
 reverse_depends = "['apr-util', 'cef', 'chromium-browser', 'discord', 'firefox', 'libblockdev', 'libfprint', 'liboauth', 'libpurple', 'libreswan', 'networkmanager', 'nvu', 'openjre', 'pesign', 'poppler', 'qca', 'qca-nss', 'qca-qt5', 'qemu', 'qt5-webengine', 'qt6-webengine', 'quba', 'r2modman', 'slack-desktop', 'teams-for-linux', 'thunderbird', 'volume_key', 'whalebird', 'xmlsec1']"
 license = "MPL"
@@ -154,6 +154,9 @@ NSS library from mozilla.org
 * /usr/lib/libssl3.so
 * /usr/lib/pkgconfig/nss-softokn.pc
 * /usr/lib/pkgconfig/nss.pc
+* /usr/share/doc/nss-3.112/README.md
+* /usr/share/doc/nss-3.112/RELEASE.md
+* /usr/share/doc/nss-3.112/VERSION
 * /usr/share/man/man1/certutil.1.gz
 * /usr/share/man/man1/cmsutil.1.gz
 * /usr/share/man/man1/crlutil.1.gz

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-nss 3.111-1"
-version = "3.111-1"
+title = "lib32-nss 3.112-1"
+version = "3.112-1"
 description = "NSS library from mozilla.org ( 32bit )"
-date = "2025-05-06T06:45:38"
+date = "2025-05-28T07:14:14"
 aliases = "/packages/218950"
 categories = ['lib32-extra']
 upstreamurl = "http://www.mozilla.org/projects/security/pki/nss/"
 arch = "x86_64"
-size = "1905092"
-usize = "6527877"
-sha1sum = "4236fb8541f33db66dd37ec9f94a046b5da5586d"
+size = "1905252"
+usize = "6528836"
+sha1sum = "1eefa4820c9c399122773ed11ce88f999650caa3"
 depends = "['lib32-nspr>=4.34', 'lib32-sqlite3>=3.14.2-2', 'lib32-zlib-ng']"
 reverse_depends = "['lib32-networkmanager', 'steam-native']"
 +++
