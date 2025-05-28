@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-lij 138.0.4-1"
-version = "138.0.4-1"
+title = "firefox-lij 139.0-1"
+version = "139.0-1"
 description = "Ligurian language support for Firefox"
-date = "2025-05-22T18:56:23"
+date = "2025-05-28T08:54:06"
 aliases = "/packages/152767"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "263916"
-usize = "319035"
-sha1sum = "bcbd504c5880a14be0e85008c1e4dd3309d3888f"
-depends = "['firefox>=138.0.4']"
+size = "266352"
+usize = "321769"
+sha1sum = "858ed57ec0c583ba9d3dd68433b659ba6dd23b65"
+depends = "['firefox>=139.0']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "edencommon 2025.02.17.00-2"
-version = "2025.02.17.00-2"
+title = "edencommon 2025.05.26.00-1"
+version = "2025.05.26.00-1"
 description = "Shared library for Watchman and Eden projects"
-date = "2025-02-24T11:54:55"
+date = "2025-05-28T09:09:21"
 aliases = "/packages/222649"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/facebookexperimental/edencommon"
 arch = "x86_64"
-size = "341296"
-usize = "1182678"
-sha1sum = "9c5fd213e16e553da4d03201cc73cb571539fa34"
+size = "354192"
+usize = "1221180"
+sha1sum = "6a65310b92139026053b62b382f01f3bdd66e496"
 depends = "['fb303']"
 reverse_depends = "['watchman']"
 +++
@@ -43,6 +43,7 @@ Shared library for Watchman and Eden projects
 * /usr/include/eden/common/utils/CoverageSet.h
 * /usr/include/eden/common/utils/DirType.h
 * /usr/include/eden/common/utils/EnumValue.h
+* /usr/include/eden/common/utils/ErrnoUtils.h
 * /usr/include/eden/common/utils/FaultInjector.h
 * /usr/include/eden/common/utils/FileDescriptor.h
 * /usr/include/eden/common/utils/FileOffset.h
@@ -52,6 +53,7 @@ Shared library for Watchman and Eden projects
 * /usr/include/eden/common/utils/FutureUnixSocket.h
 * /usr/include/eden/common/utils/Guid.h
 * /usr/include/eden/common/utils/Handle.h
+* /usr/include/eden/common/utils/Hash.h
 * /usr/include/eden/common/utils/IDGen.h
 * /usr/include/eden/common/utils/ImmediateFuture-inl.h
 * /usr/include/eden/common/utils/ImmediateFuture-pre.h
@@ -85,6 +87,7 @@ Shared library for Watchman and Eden projects
 * /usr/include/eden/common/utils/UserInfo.h
 * /usr/include/eden/common/utils/Utf8.h
 * /usr/include/eden/common/utils/WinError.h
+* /usr/include/eden/common/utils/WinUtil.h
 * /usr/include/eden/common/utils/XAttr.h
 * /usr/lib/cmake/edencommon/edencommon-config.cmake
 * /usr/lib/cmake/edencommon/edencommon-targets-release.cmake
@@ -93,5 +96,5 @@ Shared library for Watchman and Eden projects
 * /usr/lib/libedencommon_telemetry.so
 * /usr/lib/libedencommon_testharness.so
 * /usr/lib/libedencommon_utils.so
-* /usr/share/doc/edencommon-2025.02.17.00/LICENSE
-* /usr/share/doc/edencommon-2025.02.17.00/README.md
+* /usr/share/doc/edencommon-2025.05.26.00/LICENSE
+* /usr/share/doc/edencommon-2025.05.26.00/README.md

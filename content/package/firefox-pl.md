@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-pl 138.0.4-1"
-version = "138.0.4-1"
+title = "firefox-pl 139.0-1"
+version = "139.0-1"
 description = "Polish language support for Firefox"
-date = "2025-05-22T18:56:23"
+date = "2025-05-28T08:54:06"
 aliases = "/packages/3587"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "400316"
-usize = "452925"
-sha1sum = "f563b52deca3f16719787df2c43f573781b12322"
-depends = "['firefox>=138.0.4']"
+size = "407576"
+usize = "459807"
+sha1sum = "cbcffd93d46b4423d93413195103fa9daff5ddf0"
+depends = "['firefox>=139.0']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

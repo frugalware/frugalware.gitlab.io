@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-ko 138.0.4-1"
-version = "138.0.4-1"
+title = "firefox-ko 139.0-1"
+version = "139.0-1"
 description = "Korean language support for Firefox"
-date = "2025-05-22T18:56:23"
+date = "2025-05-28T08:54:06"
 aliases = "/packages/3583"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "414488"
-usize = "467010"
-sha1sum = "02e6bed8358487f5cb3e334c19108ac0303de2b7"
-depends = "['firefox>=138.0.4']"
+size = "419488"
+usize = "471626"
+sha1sum = "8344fcc246fbacfb61113461bb60d656813ef604"
+depends = "['firefox>=139.0']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

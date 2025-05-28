@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-ms 138.0.4-1"
-version = "138.0.4-1"
+title = "firefox-ms 139.0-1"
+version = "139.0-1"
 description = "Malay language support for Firefox"
-date = "2025-05-22T18:56:23"
+date = "2025-05-28T08:54:06"
 aliases = "/packages/200923"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "240924"
-usize = "296037"
-sha1sum = "e797ce35ac020ae86203f86f92376f1893269491"
-depends = "['firefox>=138.0.4']"
+size = "243348"
+usize = "298612"
+sha1sum = "9893abf4c1d5aacdfd6f5762429abcea854add9a"
+depends = "['firefox>=139.0']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

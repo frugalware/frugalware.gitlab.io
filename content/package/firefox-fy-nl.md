@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-fy-nl 138.0.4-1"
-version = "138.0.4-1"
+title = "firefox-fy-nl 139.0-1"
+version = "139.0-1"
 description = "Western Frisian language support for Firefox"
-date = "2025-05-22T18:56:23"
+date = "2025-05-28T08:54:06"
 aliases = "/packages/73627"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "387716"
-usize = "441763"
-sha1sum = "ed5d565d55ad44f9bb3f2b5549b230b2f9e93964"
-depends = "['firefox>=138.0.4']"
+size = "392012"
+usize = "446338"
+sha1sum = "efe31c5f0a88da26f7c5c1202401802a40b741b5"
+depends = "['firefox>=139.0']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 
