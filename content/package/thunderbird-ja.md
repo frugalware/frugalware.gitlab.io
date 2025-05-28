@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "thunderbird-ja 128.10.2-1"
-version = "128.10.2-1"
+title = "thunderbird-ja 128.11.0-1"
+version = "128.11.0-1"
 description = "Japanese language support for Thunderbird"
-date = "2025-05-23T10:20:12"
+date = "2025-05-28T09:56:03"
 aliases = "/packages/5194"
 categories = ['locale-extra']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "765612"
-usize = "822947"
-sha1sum = "1fdc9af9ea60272955e4d9bf9769f213641860f3"
-depends = "['thunderbird>=128.10.2']"
+size = "766636"
+usize = "823998"
+sha1sum = "bf82d6cf7782cd00e5273b00b8235d1df2a9def6"
+depends = "['thunderbird>=128.11.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 

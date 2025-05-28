@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "watchman 2025.02.17.00-2"
-version = "2025.02.17.00-2"
+title = "watchman 2025.05.26.00-1"
+version = "2025.05.26.00-1"
 description = "Watches files and records, or triggers actions, when they change"
-date = "2025-02-24T12:02:45"
+date = "2025-05-28T09:15:23"
 aliases = "/packages/222651"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/facebook/watchman"
 arch = "x86_64"
-size = "2262548"
-usize = "9497165"
-sha1sum = "f9148b5c6573ba638392bf68e94757e892fc8d9e"
+size = "2328128"
+usize = "9796051"
+sha1sum = "2d9240effc08c70f2f0d01dc34b0be106a648b76"
 depends = "['edencommon']"
 reverse_depends = "['rs-git-fsmonitor']"
 +++
@@ -49,5 +49,5 @@ Watches files and records, or triggers actions, when they change
 * /usr/lib/systemd/user/watchman.service
 * /usr/lib/systemd/user/watchman.socket
 * /usr/lib/tmpfiles.d/watchman.conf
-* /usr/share/doc/watchman-2025.02.17.00/LICENSE
-* /usr/share/doc/watchman-2025.02.17.00/README.markdown
+* /usr/share/doc/watchman-2025.05.26.00/LICENSE
+* /usr/share/doc/watchman-2025.05.26.00/README.markdown

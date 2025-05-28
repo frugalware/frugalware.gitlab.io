@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "thunderbird-sr 128.10.2-1"
-version = "128.10.2-1"
+title = "thunderbird-sr 128.11.0-1"
+version = "128.11.0-1"
 description = "Serbian language support for Thunderbird"
-date = "2025-05-23T10:20:12"
+date = "2025-05-28T09:56:03"
 aliases = "/packages/137248"
 categories = ['locale-extra']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "704336"
-usize = "766346"
-sha1sum = "ff30005e2375521e2c81d6057a7eb2d815ed9af3"
-depends = "['thunderbird>=128.10.2']"
+size = "704352"
+usize = "766345"
+sha1sum = "82a360bc7cdf392b7130d1742311f2a8d384b115"
+depends = "['thunderbird>=128.11.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 

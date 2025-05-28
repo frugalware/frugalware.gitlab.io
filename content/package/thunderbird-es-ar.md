@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "thunderbird-es-ar 128.10.2-1"
-version = "128.10.2-1"
+title = "thunderbird-es-ar 128.11.0-1"
+version = "128.11.0-1"
 description = "Argentine Spanish language support for Thunderbird"
-date = "2025-05-23T10:20:12"
+date = "2025-05-28T09:56:03"
 aliases = "/packages/23489"
 categories = ['locale-extra']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "695620"
-usize = "760991"
-sha1sum = "5639a01ef7eebff9440fa17f386997c25019aca0"
-depends = "['thunderbird>=128.10.2']"
+size = "696496"
+usize = "761964"
+sha1sum = "cac096aaa39303ec475e6f9e1892989b2f860775"
+depends = "['thunderbird>=128.11.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 
