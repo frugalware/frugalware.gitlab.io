@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kbd 2.7.1-3"
-version = "2.7.1-3"
+title = "kbd 2.8.0-1"
+version = "2.8.0-1"
 description = "Keyboard maps and console fonts"
-date = "2024-12-20T11:21:17"
+date = "2025-06-01T19:38:01"
 aliases = "/packages/2396"
 categories = ['base']
 upstreamurl = "http://www.kbd-project.org/"
 arch = "x86_64"
-size = "1261364"
-usize = "3217494"
-sha1sum = "b89aed7b84a492f695d4e1a8611be4fe39b1a7a0"
+size = "1268980"
+usize = "3222939"
+sha1sum = "6356abc7cccc05f224d8f1d7a43b0f037fccc0a6"
 depends = "['bash>=4.3_042-5', 'glibc>=2.35', 'pam>=1.3.1-5', 'sed>=4.2.2-3']"
 reverse_depends = "['ckbcomp', 'dracut', 'logkeys', 'terminus-font-console']"
 +++
@@ -228,6 +228,7 @@ Keyboard maps and console fonts
 * /usr/share/consolefonts/LatArCyrHeb-19.psfu.gz
 * /usr/share/consolefonts/latarcyrheb-sun16.psfu.gz
 * /usr/share/consolefonts/latarcyrheb-sun32.psfu.gz
+* /usr/share/consolefonts/LatCyrHebKa-16_GIA.psfu.gz
 * /usr/share/consolefonts/LatGrkCyr-12x22.psfu.gz
 * /usr/share/consolefonts/LatGrkCyr-8x16.psfu.gz
 * /usr/share/consolefonts/LatKaCyrHeb-14.psfu.gz
@@ -351,13 +352,13 @@ Keyboard maps and console fonts
 * /usr/share/consoletrans/viscii1.0_to_tcvn.trans
 * /usr/share/consoletrans/viscii1.0_to_viscii1.1.trans
 * /usr/share/consoletrans/zero
-* /usr/share/doc/kbd-2.7.1/AUTHORS
-* /usr/share/doc/kbd-2.7.1/ChangeLog
-* /usr/share/doc/kbd-2.7.1/COPYING
-* /usr/share/doc/kbd-2.7.1/CREDITS
-* /usr/share/doc/kbd-2.7.1/INSTALL
-* /usr/share/doc/kbd-2.7.1/NEWS
-* /usr/share/doc/kbd-2.7.1/README
+* /usr/share/doc/kbd-2.8.0/AUTHORS
+* /usr/share/doc/kbd-2.8.0/ChangeLog
+* /usr/share/doc/kbd-2.8.0/COPYING
+* /usr/share/doc/kbd-2.8.0/CREDITS
+* /usr/share/doc/kbd-2.8.0/INSTALL
+* /usr/share/doc/kbd-2.8.0/NEWS
+* /usr/share/doc/kbd-2.8.0/README
 * /usr/share/keymaps/amiga/amiga-de.map.gz
 * /usr/share/keymaps/amiga/amiga-us.map.gz
 * /usr/share/keymaps/atari/atari-de.map.gz
@@ -366,6 +367,7 @@ Keyboard maps and console fonts
 * /usr/share/keymaps/atari/atari-us.map.gz
 * /usr/share/keymaps/i386/azerty/azerty.map.gz
 * /usr/share/keymaps/i386/azerty/be-latin1.map.gz
+* /usr/share/keymaps/i386/azerty/fr-afnor.map.gz
 * /usr/share/keymaps/i386/azerty/fr-latin1.map.gz
 * /usr/share/keymaps/i386/azerty/fr-latin9.map.gz
 * /usr/share/keymaps/i386/azerty/fr-pc.map.gz
@@ -465,6 +467,7 @@ Keyboard maps and console fonts
 * /usr/share/keymaps/i386/qwerty/et.map.gz
 * /usr/share/keymaps/i386/qwerty/fa.map.gz
 * /usr/share/keymaps/i386/qwerty/fi.map.gz
+* /usr/share/keymaps/i386/qwerty/ge.map.gz
 * /usr/share/keymaps/i386/qwerty/gr-pc.map.gz
 * /usr/share/keymaps/i386/qwerty/gr.map.gz
 * /usr/share/keymaps/i386/qwerty/hu101.map.gz
