@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gst1-plugins-bad-wayland 1.26.1-2"
-version = "1.26.1-2"
+title = "gst1-plugins-bad-wayland 1.26.2-1"
+version = "1.26.2-1"
 description = "GStreamer Wayland plugin (Bad)."
-date = "2025-05-20T10:55:41"
+date = "2025-06-01T20:11:25"
 aliases = "/packages/221260"
 categories = ['xmultimedia']
 upstreamurl = "http://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "40420"
+size = "40332"
 usize = "120149"
-sha1sum = "bccfc3b9109a47f16150c067914a30c17be21fe8"
-depends = "['gst1-plugins-bad>=1.26.1', 'gst1-plugins-base>=1.26.1', 'wayland']"
+sha1sum = "00a690462e8eeb25cb895d68046155a801739c44"
+depends = "['gst1-plugins-bad>=1.26.2', 'gst1-plugins-base>=1.26.1', 'wayland']"
 +++
 ### Description: 
 GStreamer Wayland plugin (Bad).
@@ -31,5 +31,5 @@ GStreamer Wayland plugin (Bad).
 * /usr/lib/gstreamer-1.0/libgstwaylandsink.so
 * /usr/lib/libgstwayland-1.0.so
 * /usr/lib/libgstwayland-1.0.so.0
-* /usr/lib/libgstwayland-1.0.so.0.2601.0
+* /usr/lib/libgstwayland-1.0.so.0.2602.0
 * /usr/lib/pkgconfig/gstreamer-wayland-1.0.pc
