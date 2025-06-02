@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "tree-sitter 0.25.4-1"
-version = "0.25.4-1"
+title = "tree-sitter 0.25.5-1"
+version = "0.25.5-1"
 description = "Rust bindings to the Tree-sitter parsing library"
-date = "2025-05-11T19:52:46"
+date = "2025-06-02T13:32:14"
 aliases = "/packages/221075"
 categories = ['lib-extra']
 upstreamurl = "http://msgpack.org/"
 arch = "x86_64"
-size = "100608"
+size = "100776"
 usize = "238702"
-sha1sum = "0725201c2d7c3c4d1beacd225b5eed9f44d4b267"
+sha1sum = "fb394ee243b1bb4242642e059fa35ceff698d7c4"
 depends = "['glibc>=2.34']"
 reverse_depends = "['emacs', 'neovim']"
 +++
@@ -23,5 +23,5 @@ Rust bindings to the Tree-sitter parsing library
 * /usr/lib/libtree-sitter.so.0
 * /usr/lib/libtree-sitter.so.0.25
 * /usr/lib/pkgconfig/tree-sitter.pc
-* /usr/share/doc/tree-sitter-0.25.4/LICENSE
-* /usr/share/doc/tree-sitter-0.25.4/README.md
+* /usr/share/doc/tree-sitter-0.25.5/LICENSE
+* /usr/share/doc/tree-sitter-0.25.5/README.md

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "telegram-desktop 5.14.3-1"
-version = "5.14.3-1"
+title = "telegram-desktop 5.14.3-2"
+version = "5.14.3-2"
 description = "Official Telegram Desktop client"
-date = "2025-05-19T20:32:18"
+date = "2025-06-02T13:22:09"
 aliases = "/packages/220077"
 categories = ['xapps-extra']
 upstreamurl = "https://desktop.telegram.org/"
 arch = "x86_64"
-size = "36270440"
-usize = "107670842"
-sha1sum = "0bce9bd91d017b783bd44156da561200181d5151"
-depends = "['abseil-cpp>=20250127.0', 'ffmpeg>=7.0', 'fmtlib', 'glib2', 'glibmm', 'hicolor-icon-theme', 'hunspell', 'jemalloc', 'libboost', 'libdispatch', 'libsigc++3', 'libxrandr', 'libxtst', 'lz4', 'openal', 'openh264>=2.6.0', 'opus', 'pipewire', 'protobuf>=31.0', 'qt6-5compat>=6.8.2', 'qt6-imageformats>=6.6.3', 'qt6-svg>=6.8.2', 'qt6-wayland>=6.8.2', 'rnnoise', 'webkit-gtk3', 'xxhash']"
+size = "36272680"
+usize = "107671802"
+sha1sum = "d5fbb0f63075cd54a23c6225363b3687de37a17c"
+depends = "['abseil-cpp>=20250127.0', 'ffmpeg>=7.0', 'fmtlib', 'glib2', 'glibmm', 'hicolor-icon-theme', 'hunspell', 'jemalloc', 'libboost', 'libdispatch', 'libsigc++3', 'libxrandr', 'libxtst', 'lz4', 'openal', 'openh264>=2.6.0', 'opus', 'pipewire', 'protobuf>=31.1', 'qt6-5compat>=6.8.2', 'qt6-imageformats>=6.6.3', 'qt6-svg>=6.8.2', 'qt6-wayland>=6.8.2', 'rnnoise', 'webkit-gtk3', 'xxhash']"
 +++
 ### Description: 
 Official Telegram Desktop client

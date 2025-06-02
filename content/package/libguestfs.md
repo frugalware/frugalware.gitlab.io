@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libguestfs 1.52.2-2"
-version = "1.52.2-2"
+title = "libguestfs 1.52.2-3"
+version = "1.52.2-3"
 description = "tools for accessing and modifying virtual machine disk images"
-date = "2025-05-22T10:02:22"
+date = "2025-06-02T13:41:24"
 aliases = "/packages/200067"
 categories = ['apps-extra']
 upstreamurl = "http://libguestfs.org/"
 arch = "x86_64"
-size = "8107816"
-usize = "14252194"
-sha1sum = "6bdbd5baf1abea84651ddd0baadcc810d24e59cb"
-depends = "['augeas>=1.9.0', 'cdrtools', 'cpio', 'fuse>=2.9.4', 'glib2>=2.50.1', 'gperf', 'jansson', 'libconfig', 'libvirt>=3.8.0', 'libxml2>=2.14.3', 'qemu>=2.10.1', 'readline>=8.0', 'yajl']"
+size = "8108964"
+usize = "14251082"
+sha1sum = "8f6f582707875a7d91b265ef22894c4c2f4a14a3"
+depends = "['augeas>=1.9.0', 'cdrtools', 'cpio', 'fuse>=2.9.4', 'glib2>=2.50.1', 'gperf', 'jansson', 'libconfig>=1.8.1', 'libvirt>=3.8.0', 'libxml2>=2.14.3', 'qemu>=2.10.1', 'readline>=8.0', 'yajl']"
 +++
 ### Description: 
 tools for accessing and modifying virtual machine disk images

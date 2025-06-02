@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "docker 28.1.1-1"
-version = "28.1.1-1"
+title = "docker 28.2.2-1"
+version = "28.2.2-1"
 description = "Docker - the Linux container runtime"
-date = "2025-04-18T21:13:45"
+date = "2025-06-02T14:02:11"
 aliases = "/packages/217244"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/docker/cli"
 arch = "x86_64"
-size = "25658272"
-usize = "109925516"
-sha1sum = "c1b5950906aedb69a3063eb40e0153bfb3f14719"
+size = "25773188"
+usize = "110431574"
+sha1sum = "ef74d778d918f24c1c8a0ffba94e0a61645a894d"
 depends = "['bridge-utils', 'btrfs-progs>=4.10-2', 'containerd', 'iproute2', 'lvm2', 'runc', 'sqlite3', 'tini']"
 reverse_depends = "['docker-compose']"
 +++
@@ -188,7 +188,6 @@ Docker - the Linux container runtime
 * /usr/share/man/man1/docker-swarm-update.1.gz
 * /usr/share/man/man1/docker-swarm.1.gz
 * /usr/share/man/man1/docker-system-df.1.gz
-* /usr/share/man/man1/docker-system-dial-stdio.1.gz
 * /usr/share/man/man1/docker-system-events.1.gz
 * /usr/share/man/man1/docker-system-info.1.gz
 * /usr/share/man/man1/docker-system-prune.1.gz
