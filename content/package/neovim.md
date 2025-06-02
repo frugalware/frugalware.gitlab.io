@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "neovim 0.11.1-1"
-version = "0.11.1-1"
+title = "neovim 0.11.2-1"
+version = "0.11.2-1"
 description = "Fork of Vim aiming to improve user experience, plugins, and GUIs"
-date = "2025-04-27T09:53:52"
+date = "2025-06-02T09:26:44"
 aliases = "/packages/222573"
 categories = ['apps-extra']
 upstreamurl = "https://neovim.io"
 arch = "x86_64"
-size = "6233796"
-usize = "26142813"
-sha1sum = "fbfd9bbcc16713fdb0e33a978b5de38df07ba915"
+size = "6911344"
+usize = "30272055"
+sha1sum = "d7bd1d41526da0ae2d0d2aae14d813c073538366"
 depends = "['libluv', 'libtermkey', 'libvterm', 'lua51-lpeg', 'msgpack-c', 'tree-sitter>=0.25.1', 'unibilium', 'utf8proc']"
 +++
 ### Description: 
@@ -19,9 +19,39 @@ Fork of Vim aiming to improve user experience, plugins, and GUIs
 ### Files: 
 * /usr/bin/nvim
 * /usr/share/applications/nvim.desktop
-* /usr/share/doc/neovim-0.11.1/INSTALL.md
-* /usr/share/doc/neovim-0.11.1/README.md
+* /usr/share/doc/neovim-0.11.2/INSTALL.md
+* /usr/share/doc/neovim-0.11.2/README.md
 * /usr/share/icons/hicolor/128x128/apps/nvim.png
+* /usr/share/locale/af/LC_MESSAGES/nvim.mo
+* /usr/share/locale/ca/LC_MESSAGES/nvim.mo
+* /usr/share/locale/cs.cp1250/LC_MESSAGES/nvim.mo
+* /usr/share/locale/cs/LC_MESSAGES/nvim.mo
+* /usr/share/locale/da/LC_MESSAGES/nvim.mo
+* /usr/share/locale/de/LC_MESSAGES/nvim.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/nvim.mo
+* /usr/share/locale/eo/LC_MESSAGES/nvim.mo
+* /usr/share/locale/es/LC_MESSAGES/nvim.mo
+* /usr/share/locale/fi/LC_MESSAGES/nvim.mo
+* /usr/share/locale/fr/LC_MESSAGES/nvim.mo
+* /usr/share/locale/ga/LC_MESSAGES/nvim.mo
+* /usr/share/locale/it/LC_MESSAGES/nvim.mo
+* /usr/share/locale/ja.euc-jp/LC_MESSAGES/nvim.mo
+* /usr/share/locale/ja/LC_MESSAGES/nvim.mo
+* /usr/share/locale/ko.UTF-8/LC_MESSAGES/nvim.mo
+* /usr/share/locale/nb/LC_MESSAGES/nvim.mo
+* /usr/share/locale/nl/LC_MESSAGES/nvim.mo
+* /usr/share/locale/no/LC_MESSAGES/nvim.mo
+* /usr/share/locale/pl.UTF-8/LC_MESSAGES/nvim.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/nvim.mo
+* /usr/share/locale/ru/LC_MESSAGES/nvim.mo
+* /usr/share/locale/sk.cp1250/LC_MESSAGES/nvim.mo
+* /usr/share/locale/sk/LC_MESSAGES/nvim.mo
+* /usr/share/locale/sv/LC_MESSAGES/nvim.mo
+* /usr/share/locale/tr/LC_MESSAGES/nvim.mo
+* /usr/share/locale/uk/LC_MESSAGES/nvim.mo
+* /usr/share/locale/vi/LC_MESSAGES/nvim.mo
+* /usr/share/locale/zh_CN.UTF-8/LC_MESSAGES/nvim.mo
+* /usr/share/locale/zh_TW.UTF-8/LC_MESSAGES/nvim.mo
 * /usr/share/man/man1/nvim.1.gz
 * /usr/share/nvim/runtime/autoload/ada.vim
 * /usr/share/nvim/runtime/autoload/adacomplete.vim
@@ -382,6 +412,7 @@ Fork of Vim aiming to improve user experience, plugins, and GUIs
 * /usr/share/nvim/runtime/doc/vi_diff.txt
 * /usr/share/nvim/runtime/doc/vvars.txt
 * /usr/share/nvim/runtime/doc/windows.txt
+* /usr/share/nvim/runtime/example_init.lua
 * /usr/share/nvim/runtime/filetype.lua
 * /usr/share/nvim/runtime/ftoff.vim
 * /usr/share/nvim/runtime/ftplugin.vim
