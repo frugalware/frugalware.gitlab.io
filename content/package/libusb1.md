@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libusb1 1.0.28-1"
-version = "1.0.28-1"
+title = "libusb1 1.0.29-1"
+version = "1.0.29-1"
 description = "A library which allows userspace access to USB devices"
-date = "2025-03-20T09:25:41"
+date = "2025-06-02T08:03:01"
 aliases = "/packages/88314"
 categories = ['base']
 upstreamurl = "https://sourceforge.net/projects/libusb"
 arch = "x86_64"
-size = "85744"
-usize = "269127"
-sha1sum = "b0c37b482c5f4de2a60c3a5071f9026440cd7883"
+size = "86900"
+usize = "271007"
+sha1sum = "7ff2b88da0de27434e39cc1d20f5339c68424ab0"
 depends = "['glibc>=2.34', 'libudev>=242']"
 reverse_depends = "['argyllcms', 'chromium-browser', 'clightd', 'cups', 'ddcutil', 'gnupg2', 'gpsd', 'hplip', 'hplip-driver', 'keepassxc', 'libdc1394', 'libftdi', 'libgphoto2', 'libgusb', 'libhidapi', 'libiio', 'libmtp', 'libpcap', 'librtlsdr', 'libusb', 'libusbmuxd', 'openrgb', 'resetmsmice', 'sane-backends', 'uhubctl', 'upower', 'usb-modeswitch', 'usbredir', 'usbutils', 'wireshark']"
 +++
@@ -23,11 +23,11 @@ A library which allows userspace access to USB devices
 * /usr/lib/libusb-1.0.so.0
 * /usr/lib/libusb-1.0.so.0.5.0
 * /usr/lib/pkgconfig/libusb-1.0.pc
-* /usr/share/doc/libusb1-1.0.28/AUTHORS
-* /usr/share/doc/libusb1-1.0.28/ChangeLog
-* /usr/share/doc/libusb1-1.0.28/COPYING
-* /usr/share/doc/libusb1-1.0.28/INSTALL
-* /usr/share/doc/libusb1-1.0.28/INSTALL_WIN.txt
-* /usr/share/doc/libusb1-1.0.28/NEWS
-* /usr/share/doc/libusb1-1.0.28/README
-* /usr/share/doc/libusb1-1.0.28/TODO
+* /usr/share/doc/libusb1-1.0.29/AUTHORS
+* /usr/share/doc/libusb1-1.0.29/ChangeLog
+* /usr/share/doc/libusb1-1.0.29/COPYING
+* /usr/share/doc/libusb1-1.0.29/INSTALL
+* /usr/share/doc/libusb1-1.0.29/INSTALL_WIN.txt
+* /usr/share/doc/libusb1-1.0.29/NEWS
+* /usr/share/doc/libusb1-1.0.29/README
+* /usr/share/doc/libusb1-1.0.29/TODO
