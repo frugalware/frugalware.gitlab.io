@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "protobuf 31.0-2"
-version = "31.0-2"
+title = "protobuf 31.1-1"
+version = "31.1-1"
 description = "Protocol Buffers are a way of encoding structured data in an efficient yet extensible format"
-date = "2025-05-16T12:58:22"
+date = "2025-06-02T11:36:34"
 aliases = "/packages/74492"
 categories = ['lib']
 upstreamurl = "https://github.com/protocolbuffers/protobuf"
 arch = "x86_64"
-size = "3053460"
-usize = "15403756"
-sha1sum = "60674ca32d49badd9ba3c605354abb15e3bd92fc"
+size = "3063292"
+usize = "15420008"
+sha1sum = "e9cf1ba61d7083d21d7ec0a5d3277c71ee96a9cd"
 depends = "['abseil-cpp>=20250512.0', 'libstdc++>=11.3']"
 reverse_depends = "['android-tools', 'grpc', 'kicad', 'libmarble', 'libphonenumber', 'mixxx', 'mosh', 'mumble', 'murmur', 'opencv', 'pdns-recursor', 'protobuf-c', 'qt5-webengine', 'telegram-desktop', 'usbguard', 'vlc-chromecast']"
 +++
@@ -19,11 +19,11 @@ Protocol Buffers are a way of encoding structured data in an efficient yet exten
 
 ### Files: 
 * /usr/bin/protoc
-* /usr/bin/protoc-31.0.0
+* /usr/bin/protoc-31.1.0
 * /usr/bin/protoc-gen-upb
-* /usr/bin/protoc-gen-upb-31.0.0
+* /usr/bin/protoc-gen-upb-31.1.0
 * /usr/bin/protoc-gen-upbdefs
-* /usr/bin/protoc-gen-upbdefs-31.0.0
+* /usr/bin/protoc-gen-upbdefs-31.1.0
 * /usr/include/google/protobuf/any.h
 * /usr/include/google/protobuf/any.pb.h
 * /usr/include/google/protobuf/any.proto
@@ -110,6 +110,7 @@ Protocol Buffers are a way of encoding structured data in an efficient yet exten
 * /usr/include/google/protobuf/has_bits.h
 * /usr/include/google/protobuf/implicit_weak_message.h
 * /usr/include/google/protobuf/inlined_string_field.h
+* /usr/include/google/protobuf/internal_feature_helper.h
 * /usr/include/google/protobuf/internal_visibility.h
 * /usr/include/google/protobuf/io/coded_stream.h
 * /usr/include/google/protobuf/io/gzip_stream.h
@@ -318,18 +319,18 @@ Protocol Buffers are a way of encoding structured data in an efficient yet exten
 * /usr/lib/cmake/utf8_range/utf8_range-targets-release.cmake
 * /usr/lib/cmake/utf8_range/utf8_range-targets.cmake
 * /usr/lib/libprotobuf-lite.so
-* /usr/lib/libprotobuf-lite.so.31.0.0
+* /usr/lib/libprotobuf-lite.so.31.1.0
 * /usr/lib/libprotobuf.so
-* /usr/lib/libprotobuf.so.31.0.0
+* /usr/lib/libprotobuf.so.31.1.0
 * /usr/lib/libprotoc.so
-* /usr/lib/libprotoc.so.31.0.0
+* /usr/lib/libprotoc.so.31.1.0
 * /usr/lib/libutf8_range.so
-* /usr/lib/libutf8_range.so.31.0.0
+* /usr/lib/libutf8_range.so.31.1.0
 * /usr/lib/libutf8_validity.so
-* /usr/lib/libutf8_validity.so.31.0.0
+* /usr/lib/libutf8_validity.so.31.1.0
 * /usr/lib/pkgconfig/protobuf-lite.pc
 * /usr/lib/pkgconfig/protobuf.pc
 * /usr/lib/pkgconfig/upb.pc
 * /usr/lib/pkgconfig/utf8_range.pc
-* /usr/share/doc/protobuf-31.0/LICENSE
-* /usr/share/doc/protobuf-31.0/README.md
+* /usr/share/doc/protobuf-31.1/LICENSE
+* /usr/share/doc/protobuf-31.1/README.md

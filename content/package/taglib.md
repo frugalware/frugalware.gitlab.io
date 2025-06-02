@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "taglib 2.0.2-1"
-version = "2.0.2-1"
+title = "taglib 2.1-1"
+version = "2.1-1"
 description = "A library for reading and editing the meta-data of several popular audio formats."
-date = "2024-08-25T16:42:52"
+date = "2025-06-02T11:45:42"
 aliases = "/packages/3349"
 categories = ['multimedia']
 upstreamurl = "http://taglib.github.io/"
 arch = "x86_64"
-size = "422736"
-usize = "2025985"
-sha1sum = "ca5f8cb52a59fd401d63a883378c478c460fda12"
+size = "431176"
+usize = "2068170"
+sha1sum = "e8eebe114265e31026536dbe66e91c7218c2f4df"
 depends = "['libstdc++>=11.3']"
 reverse_depends = "['cantata', 'ffmpegthumbs', 'gst1-plugins-good-taglib', 'juk', 'kasts', 'kfilemetadata', 'kio-extras', 'kio5-extras', 'krename', 'kzenexplorer', 'ncmpcpp', 'qmmp', 'vlc-taglib']"
 +++
@@ -90,12 +90,16 @@ A library for reading and editing the meta-data of several popular audio formats
 * /usr/include/taglib/rifffile.h
 * /usr/include/taglib/s3mfile.h
 * /usr/include/taglib/s3mproperties.h
+* /usr/include/taglib/shortenfile.h
+* /usr/include/taglib/shortenproperties.h
+* /usr/include/taglib/shortentag.h
 * /usr/include/taglib/speexfile.h
 * /usr/include/taglib/speexproperties.h
 * /usr/include/taglib/synchronizedlyricsframe.h
 * /usr/include/taglib/tableofcontentsframe.h
 * /usr/include/taglib/tag.h
 * /usr/include/taglib/taglib.h
+* /usr/include/taglib/taglib_config.h
 * /usr/include/taglib/taglib_export.h
 * /usr/include/taglib/tag_c.h
 * /usr/include/taglib/tbytevector.h
@@ -138,14 +142,14 @@ A library for reading and editing the meta-data of several popular audio formats
 * /usr/lib/cmake/taglib/taglib-targets.cmake
 * /usr/lib/libtag.so
 * /usr/lib/libtag.so.2
-* /usr/lib/libtag.so.2.0.2
+* /usr/lib/libtag.so.2.1.0
 * /usr/lib/libtag_c.so
 * /usr/lib/libtag_c.so.2
-* /usr/lib/libtag_c.so.2.0.2
+* /usr/lib/libtag_c.so.2.1.0
 * /usr/lib/pkgconfig/taglib.pc
 * /usr/lib/pkgconfig/taglib_c.pc
-* /usr/share/doc/taglib-2.0.2/AUTHORS
-* /usr/share/doc/taglib-2.0.2/COPYING.LGPL
-* /usr/share/doc/taglib-2.0.2/COPYING.MPL
-* /usr/share/doc/taglib-2.0.2/INSTALL.md
-* /usr/share/doc/taglib-2.0.2/README.md
+* /usr/share/doc/taglib-2.1/AUTHORS
+* /usr/share/doc/taglib-2.1/COPYING.LGPL
+* /usr/share/doc/taglib-2.1/COPYING.MPL
+* /usr/share/doc/taglib-2.1/INSTALL.md
+* /usr/share/doc/taglib-2.1/README.md

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "grpc 1.72.0-2"
-version = "1.72.0-2"
+title = "grpc 1.72.1-1"
+version = "1.72.1-1"
 description = "High performance, open source, general RPC framework that puts mobile and HTTP/2 first."
-date = "2025-05-16T13:24:17"
+date = "2025-06-02T11:53:53"
 aliases = "/packages/219876"
 categories = ['devel']
 upstreamurl = "https://grpc.io"
 arch = "x86_64"
-size = "4838916"
-usize = "21720764"
-sha1sum = "fb9bc18c02d530c666f28c89062cda6b774890b3"
-depends = "['c-ares', 'icu4c>=76.1', 'openssl>=3.1.0', 'protobuf>=30.2', 're2']"
+size = "4845708"
+usize = "21707588"
+sha1sum = "764d201e371085b290875dbb0085c37f52b55787"
+depends = "['c-ares', 'icu4c>=76.1', 'openssl>=3.1.0', 'protobuf>=31.1', 're2']"
 reverse_depends = "['qt6-grpc', 'sysdig']"
 +++
 ### Description: 
@@ -334,31 +334,31 @@ High performance, open source, general RPC framework that puts mobile and HTTP/2
 * /usr/lib/libgpr.so.47.0.0
 * /usr/lib/libgrpc++.so
 * /usr/lib/libgrpc++.so.1.72
-* /usr/lib/libgrpc++.so.1.72.0
+* /usr/lib/libgrpc++.so.1.72.1
 * /usr/lib/libgrpc++_alts.so
 * /usr/lib/libgrpc++_alts.so.1.72
-* /usr/lib/libgrpc++_alts.so.1.72.0
+* /usr/lib/libgrpc++_alts.so.1.72.1
 * /usr/lib/libgrpc++_error_details.so
 * /usr/lib/libgrpc++_error_details.so.1.72
-* /usr/lib/libgrpc++_error_details.so.1.72.0
+* /usr/lib/libgrpc++_error_details.so.1.72.1
 * /usr/lib/libgrpc++_reflection.so
 * /usr/lib/libgrpc++_reflection.so.1.72
-* /usr/lib/libgrpc++_reflection.so.1.72.0
+* /usr/lib/libgrpc++_reflection.so.1.72.1
 * /usr/lib/libgrpc++_unsecure.so
 * /usr/lib/libgrpc++_unsecure.so.1.72
-* /usr/lib/libgrpc++_unsecure.so.1.72.0
+* /usr/lib/libgrpc++_unsecure.so.1.72.1
 * /usr/lib/libgrpc.so
 * /usr/lib/libgrpc.so.47
 * /usr/lib/libgrpc.so.47.0.0
 * /usr/lib/libgrpcpp_channelz.so
 * /usr/lib/libgrpcpp_channelz.so.1.72
-* /usr/lib/libgrpcpp_channelz.so.1.72.0
+* /usr/lib/libgrpcpp_channelz.so.1.72.1
 * /usr/lib/libgrpc_authorization_provider.so
 * /usr/lib/libgrpc_authorization_provider.so.1.72
-* /usr/lib/libgrpc_authorization_provider.so.1.72.0
+* /usr/lib/libgrpc_authorization_provider.so.1.72.1
 * /usr/lib/libgrpc_plugin_support.so
 * /usr/lib/libgrpc_plugin_support.so.1.72
-* /usr/lib/libgrpc_plugin_support.so.1.72.0
+* /usr/lib/libgrpc_plugin_support.so.1.72.1
 * /usr/lib/libgrpc_unsecure.so
 * /usr/lib/libgrpc_unsecure.so.47
 * /usr/lib/libgrpc_unsecure.so.47.0.0
@@ -392,7 +392,7 @@ High performance, open source, general RPC framework that puts mobile and HTTP/2
 * /usr/lib/pkgconfig/grpc.pc
 * /usr/lib/pkgconfig/grpcpp_otel_plugin.pc
 * /usr/lib/pkgconfig/grpc_unsecure.pc
-* /usr/share/doc/grpc-1.72.0/AUTHORS
-* /usr/share/doc/grpc-1.72.0/LICENSE
-* /usr/share/doc/grpc-1.72.0/README.md
+* /usr/share/doc/grpc-1.72.1/AUTHORS
+* /usr/share/doc/grpc-1.72.1/LICENSE
+* /usr/share/doc/grpc-1.72.1/README.md
 * /usr/share/grpc/roots.pem

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "curl 8.13.0-2"
-version = "8.13.0-2"
+title = "curl 8.14.0-1"
+version = "8.14.0-1"
 description = "A command line tool for transferring data specified with URL syntax."
-date = "2025-05-23T14:56:57"
+date = "2025-06-02T11:21:44"
 aliases = "/packages/2359"
 categories = ['network']
 upstreamurl = "http://curl.haxx.se"
 arch = "x86_64"
-size = "1264308"
-usize = "2228480"
-sha1sum = "c3e63afae04d5ec689a4497e7a0151ba9ab25fcd"
+size = "1280812"
+usize = "2266849"
+sha1sum = "a548b86fa57fa8afb63200be4093a39bb3cd7799"
 depends = "['brotli', 'c-ares>=1.13.0-2', 'libidn2>=2.0.0-5', 'libpsl>=0.21.5', 'libssh2>=1.8.2-2', 'nghttp2>=1.37.0-2', 'nghttp3', 'openssl>=3.1.0', 'zstd']"
 reverse_depends = "['alienarena', 'apache', 'appstream', 'appstream-glib', 'assaultcube', 'cargo-c', 'chromium-browser', 'clamav', 'claws-mail-plugin-libravatar', 'claws-mail-plugin-rssyl', 'claws-mail-plugin-spam-report', 'claws-mail-plugin-vcalendar', 'cmake', 'cryfs', 'dovecot', 'elfutils-debuginfod', 'enigma', 'exiv2', 'facter', 'feh', 'firefox', 'flickcurl', 'flutter', 'freeciv', 'freetuxtv', 'get_steam', 'git', 'glyr', 'gmic', 'gnunet', 'hw-probe', 'icecast', 'intel-gpu-tools', 'julia', 'keepassxc', 'kvm', 'libclastfm', 'libcmis', 'libmediainfo', 'libmicrohttpd', 'liboauth', 'libofx', 'libproxy', 'libqalculate', 'libquvi', 'libreswan', 'libvirt', 'libvirt-glib', 'luanti', 'manaplus', 'megaglest', 'mod_security', 'mpd', 'mupdf', 'ncmpcpp', 'networkmanager', 'nushell', 'obs-studio', 'octave', 'openscenegraph', 'ostree', 'pdns', 'pdns-recursor', 'php', 'poppler', 'proj', 'pycurl', 'qemu', 'qmmp', 'r', 'raptor', 'rng-tools', 'rsyslog', 'rust', 'rustup', 'sane-backends', 'scummvm', 'seafile', 'spamassassin', 'spring', 'strongswan', 'supertux', 'supertuxkart', 'sysdig', 'systemd-pull', 'tpm2-tss', 'transmission-cli', 'ufoai', 'uget', 'uwsgi-plugin-curl', 'virtualbox', 'vorbis-tools', 'warzone2100', 'weechat', 'xine-ui', 'xmlrpc-c', 'xonotic']"
 +++
@@ -20,6 +20,7 @@ A command line tool for transferring data specified with URL syntax.
 ### Files: 
 * /usr/bin/curl
 * /usr/bin/curl-config
+* /usr/bin/wcurl
 * /usr/include/curl/curl.h
 * /usr/include/curl/curlver.h
 * /usr/include/curl/easy.h
@@ -37,13 +38,13 @@ A command line tool for transferring data specified with URL syntax.
 * /usr/lib/libcurl.so.4.8.0
 * /usr/lib/pkgconfig/libcurl.pc
 * /usr/share/aclocal/libcurl.m4
-* /usr/share/doc/curl-8.13.0/COPYING
-* /usr/share/doc/curl-8.13.0/README
-* /usr/share/doc/curl-8.13.0/README.md
-* /usr/share/doc/curl-8.13.0/RELEASE-NOTES
+* /usr/share/doc/curl-8.14.0/COPYING
+* /usr/share/doc/curl-8.14.0/README
+* /usr/share/doc/curl-8.14.0/RELEASE-NOTES
 * /usr/share/fish/vendor_completions.d/curl.fish
 * /usr/share/man/man1/curl-config.1.gz
 * /usr/share/man/man1/curl.1.gz
+* /usr/share/man/man1/wcurl.1.gz
 * /usr/share/man/man3/CURLINFO_ACTIVESOCKET.3.gz
 * /usr/share/man/man3/CURLINFO_APPCONNECT_TIME.3.gz
 * /usr/share/man/man3/CURLINFO_APPCONNECT_TIME_T.3.gz
@@ -396,6 +397,7 @@ A command line tool for transferring data specified with URL syntax.
 * /usr/share/man/man3/CURLOPT_SSL_FALSESTART.3.gz
 * /usr/share/man/man3/CURLOPT_SSL_OPTIONS.3.gz
 * /usr/share/man/man3/CURLOPT_SSL_SESSIONID_CACHE.3.gz
+* /usr/share/man/man3/CURLOPT_SSL_SIGNATURE_ALGORITHMS.3.gz
 * /usr/share/man/man3/CURLOPT_SSL_VERIFYHOST.3.gz
 * /usr/share/man/man3/CURLOPT_SSL_VERIFYPEER.3.gz
 * /usr/share/man/man3/CURLOPT_SSL_VERIFYSTATUS.3.gz

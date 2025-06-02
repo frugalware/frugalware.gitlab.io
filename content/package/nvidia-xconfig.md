@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "nvidia-xconfig 575.51.02-1"
-version = "575.51.02-1"
+title = "nvidia-xconfig 575.57.08-1"
+version = "575.57.08-1"
 description = "nVidia settings configuration tool."
-date = "2025-04-17T18:17:41"
+date = "2025-06-02T11:28:26"
 aliases = "/packages/88475"
 categories = ['x11-extra']
 upstreamurl = "http://download.nvidia.com/XFree86/nvidia-xconfig/"
 arch = "x86_64"
-size = "85444"
-usize = "219681"
-sha1sum = "9f7b1a573d13f33183c007e4e603f8cd4342a59f"
+size = "84688"
+usize = "218025"
+sha1sum = "61f20d87878bfa3d95cdd85820d5cf654d3953b7"
 depends = "['libpciaccess']"
 reverse_depends = "['nvidia']"
 +++
@@ -19,5 +19,5 @@ nVidia settings configuration tool.
 
 ### Files: 
 * /usr/bin/nvidia-xconfig
-* /usr/share/doc/nvidia-xconfig-575.51.02/COPYING
+* /usr/share/doc/nvidia-xconfig-575.57.08/COPYING
 * /usr/share/man/man1/nvidia-xconfig.1.gz

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libmarble 25.04.1-3"
-version = "25.04.1-3"
+title = "libmarble 25.04.1-4"
+version = "25.04.1-4"
 description = "Marble libs"
-date = "2025-05-26T11:04:57"
+date = "2025-06-02T12:12:05"
 aliases = "/packages/220195"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3130188"
+size = "3133196"
 usize = "12147762"
-sha1sum = "369de508041e3f9992cc8250e73fe9ba99c2a9bc"
-depends = "['gpsd>=3.26.1', 'knewstuff', 'kparts', 'krunner', 'protobuf>=31.0', 'qt6-serialport', 'qt6-webengine']"
+sha1sum = "b3bcceff71b2c2c5a92774fd7e976c1a999a3465"
+depends = "['gpsd>=3.26.1', 'knewstuff', 'kparts', 'krunner', 'protobuf>=31.1', 'qt6-serialport', 'qt6-webengine']"
 reverse_depends = "['marble']"
 +++
 ### Description: 

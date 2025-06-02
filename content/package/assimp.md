@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "assimp 5.4.3-3"
-version = "5.4.3-3"
+title = "assimp 6.0.1-1"
+version = "6.0.1-1"
 description = "Library to import various well-known 3D model formats in an uniform manner"
-date = "2025-05-21T15:39:06"
+date = "2025-06-02T11:39:35"
 aliases = "/packages/220780"
 categories = ['lib']
 upstreamurl = "https://github.com/assimp/assimp"
 arch = "x86_64"
-size = "2344120"
-usize = "8791560"
-sha1sum = "91ea656134d630b0fd661bd3f43bef6725898ab4"
+size = "2367932"
+usize = "8840676"
+sha1sum = "f48700d134e2a5950401974003024babb481cf2b"
 depends = "['libstdc++', 'zlib-ng']"
 reverse_depends = "['ogre', 'qt5-3d', 'qt6-3d', 'qt6-quick3d']"
 +++
@@ -108,16 +108,16 @@ Library to import various well-known 3D model formats in an uniform manner
 * /usr/include/assimp/XmlParser.h
 * /usr/include/assimp/XMLTools.h
 * /usr/include/assimp/ZipArchiveIOSystem.h
-* /usr/lib/cmake/assimp-5.4/assimpConfig.cmake
-* /usr/lib/cmake/assimp-5.4/assimpConfigVersion.cmake
-* /usr/lib/cmake/assimp-5.4/assimpTargets-release.cmake
-* /usr/lib/cmake/assimp-5.4/assimpTargets.cmake
+* /usr/lib/cmake/assimp-6.0/assimpConfig.cmake
+* /usr/lib/cmake/assimp-6.0/assimpConfigVersion.cmake
+* /usr/lib/cmake/assimp-6.0/assimpTargets-release.cmake
+* /usr/lib/cmake/assimp-6.0/assimpTargets.cmake
 * /usr/lib/libassimp.so
 * /usr/lib/libassimp.so.5
-* /usr/lib/libassimp.so.5.4.3
+* /usr/lib/libassimp.so.6.0.1
 * /usr/lib/pkgconfig/assimp.pc
-* /usr/share/doc/assimp-5.4.3/CHANGES
-* /usr/share/doc/assimp-5.4.3/CREDITS
-* /usr/share/doc/assimp-5.4.3/INSTALL
-* /usr/share/doc/assimp-5.4.3/LICENSE
-* /usr/share/doc/assimp-5.4.3/Readme.md
+* /usr/share/doc/assimp-6.0.1/CHANGES
+* /usr/share/doc/assimp-6.0.1/CREDITS
+* /usr/share/doc/assimp-6.0.1/INSTALL
+* /usr/share/doc/assimp-6.0.1/LICENSE
+* /usr/share/doc/assimp-6.0.1/Readme.md

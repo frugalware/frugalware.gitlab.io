@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "nvidia-settings 575.51.02-2"
-version = "575.51.02-2"
+title = "nvidia-settings 575.57.08-1"
+version = "575.57.08-1"
 description = "nVidia settings configuration tool."
-date = "2025-05-23T14:58:50"
+date = "2025-06-02T11:29:25"
 aliases = "/packages/88474"
 categories = ['x11-extra']
 upstreamurl = "http://download.nvidia.com/XFree86/nvidia-settings/"
 arch = "x86_64"
-size = "246992"
-usize = "662463"
-sha1sum = "4da10516a5d89c5e754e795507911583a470436d"
+size = "246836"
+usize = "662432"
+sha1sum = "43aee8c87c10dd0ea87f0cd641a0bf1eafff968f"
 depends = "['libxxf86vm>=1.1.4-2']"
 reverse_depends = "['nvidia']"
 +++
@@ -21,11 +21,11 @@ nVidia settings configuration tool.
 * /usr/bin/nvidia-settings
 * /usr/include/NVCtrl/NVCtrl.h
 * /usr/include/NVCtrl/NVCtrlLib.h
-* /usr/lib/libnvidia-wayland-client.so.575.51.02
+* /usr/lib/libnvidia-wayland-client.so.575.57.08
 * /usr/lib/libXNVCtrl.a
 * /usr/share/applications/nvidia-settings.desktop
-* /usr/share/doc/nvidia-settings-575.51.02/COPYING
-* /usr/share/doc/nvidia-settings-575.51.02/FRAMELOCK.txt
-* /usr/share/doc/nvidia-settings-575.51.02/NV-CONTROL-API.txt
+* /usr/share/doc/nvidia-settings-575.57.08/COPYING
+* /usr/share/doc/nvidia-settings-575.57.08/FRAMELOCK.txt
+* /usr/share/doc/nvidia-settings-575.57.08/NV-CONTROL-API.txt
 * /usr/share/man/man1/nvidia-settings.1.gz
 * /usr/share/pixmaps/nvidia-settings.png

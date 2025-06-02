@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-curl 8.13.0-2"
-version = "8.13.0-2"
+title = "lib32-curl 8.14.0-1"
+version = "8.14.0-1"
 description = "A command line tool for transferring data specified with URL syntax. ( 32bit )"
-date = "2025-05-23T14:56:57"
+date = "2025-06-02T11:21:44"
 aliases = "/packages/219008"
 categories = ['lib32-extra']
 upstreamurl = "http://curl.haxx.se"
 arch = "x86_64"
-size = "539844"
-usize = "1380539"
-sha1sum = "3879fec9d5f15301862538d1a158e12c3fc6486c"
+size = "555436"
+usize = "1431076"
+sha1sum = "4d70a4ffe26d3a9511df2876c56c80516c3c469a"
 depends = "['lib32-brotli', 'lib32-libpsl', 'lib32-openssl', 'lib32-zlib', 'lib32-zstd']"
 reverse_depends = "['lib32-elfutils-debuginfod', 'lib32-libcurl-gnutls', 'lib32-libmicrohttpd', 'lib32-networkmanager', 'steam-native']"
 +++
@@ -20,6 +20,7 @@ A command line tool for transferring data specified with URL syntax. ( 32bit )
 ### Files: 
 * /usr/i686-frugalware-linux/bin/curl
 * /usr/i686-frugalware-linux/bin/curl-config
+* /usr/i686-frugalware-linux/bin/wcurl
 * /usr/i686-frugalware-linux/include/curl/curl.h
 * /usr/i686-frugalware-linux/include/curl/curlver.h
 * /usr/i686-frugalware-linux/include/curl/easy.h
