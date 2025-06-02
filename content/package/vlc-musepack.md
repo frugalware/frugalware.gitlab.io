@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vlc-musepack 3.0.21-30"
-version = "3.0.21-30"
+title = "vlc-musepack 3.0.21-31"
+version = "3.0.21-31"
 description = "vlc musepack support"
-date = "2025-05-26T06:46:38"
+date = "2025-06-02T12:17:09"
 aliases = "/packages/219579"
 categories = ['vlc-codecs']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "17504"
+size = "17564"
 usize = "9896"
-sha1sum = "53dfa1d2cead01f98f364f7c982d8f5f3cbbca7b"
+sha1sum = "6359004782826003037c5fafbe4f1ef7d41b0edc"
 depends = "['libmpcdec', 'libvlc>=3.0.21']"
 +++
 ### Description: 

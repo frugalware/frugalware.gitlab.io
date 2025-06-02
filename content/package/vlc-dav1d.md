@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vlc-dav1d 3.0.21-30"
-version = "3.0.21-30"
+title = "vlc-dav1d 3.0.21-31"
+version = "3.0.21-31"
 description = "vlc dav1d support"
-date = "2025-05-26T06:46:38"
+date = "2025-06-02T12:17:09"
 aliases = "/packages/220288"
 categories = ['vlc-codecs']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "17964"
+size = "18024"
 usize = "10656"
-sha1sum = "7326f21cfe224566a2ed448dfc4a6abbb5f8741b"
+sha1sum = "136abeb0c78709a04ade4967a10924565a1b1e3f"
 depends = "['dav1d>=1.3.0', 'libvlc>=3.0.21']"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vlc-flac 3.0.21-30"
-version = "3.0.21-30"
+title = "vlc-flac 3.0.21-31"
+version = "3.0.21-31"
 description = "vlc flac support"
-date = "2025-05-26T06:46:38"
+date = "2025-06-02T12:17:09"
 aliases = "/packages/219597"
 categories = ['vlc-codecs']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "21112"
+size = "21180"
 usize = "18032"
-sha1sum = "04e45293a29ef3e47dd31f543132aac4e4318b4b"
+sha1sum = "85a62a2087b5459947fb21efc04df474958ad464"
 depends = "['flac>=1.5.0', 'libvlc>=3.0.21']"
 +++
 ### Description: 

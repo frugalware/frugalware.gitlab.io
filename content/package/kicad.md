@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kicad 9.0.2-1"
-version = "9.0.2-1"
+title = "kicad 9.0.2-2"
+version = "9.0.2-2"
 description = "Electronic schematic and printed circuid board design tools."
-date = "2025-05-16T14:42:41"
+date = "2025-06-02T13:02:35"
 aliases = "/packages/200581"
 categories = ['xapps-extra']
 upstreamurl = "https://www.kicad.org"
 arch = "x86_64"
-size = "83269492"
-usize = "322135544"
-sha1sum = "3dde50ecf96ee919dfda78e19c6f45f1230e2b47"
-depends = "['glew>=2.2.0', 'glm', 'libboost>=1.79.0', 'libgit2>=1.9.0', 'ngspice', 'nng', 'opencascade>=7.9.0', 'openssl>=1.1.1', 'protobuf>=31.0', 'python3>=3.13', 'wxpython']"
+size = "83242204"
+usize = "322106104"
+sha1sum = "58d893e694a3034a139659303f8a337b02badb82"
+depends = "['glew>=2.2.0', 'glm', 'libboost>=1.79.0', 'libgit2>=1.9.0', 'ngspice', 'nng', 'opencascade>=7.9.0', 'openssl>=1.1.1', 'protobuf>=31.1', 'python3>=3.13', 'wxpython']"
 +++
 ### Description: 
 Electronic schematic and printed circuid board design tools.

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "mixxx 2.5.1-1"
-version = "2.5.1-1"
+title = "mixxx 2.5.1-2"
+version = "2.5.1-2"
 description = "An open source DJ tool."
-date = "2025-05-19T09:38:29"
+date = "2025-06-02T12:44:05"
 aliases = "/packages/218622"
 categories = ['xapps-extra']
 upstreamurl = "http://www.mixxx.org/"
 arch = "x86_64"
-size = "15234780"
-usize = "53218492"
-sha1sum = "a0e652f7ac88b3fb0bbd8000d2d8c96568f30098"
-depends = "['chromaprint', 'flac>=1.5.0', 'libebur128', 'libhidapi', 'libkeyfinder', 'libmad', 'libmodplug', 'lilv', 'opus', 'portaudio', 'portmidi', 'protobuf>=31.0', 'qt6-5compat>=6.8.2', 'qt6-shadertools>=6.8.2', 'qt6-svg>=6.8.2', 'qtkeychain', 'rubberband>=4.0.0', 'soundtouch', 'taglib1', 'upower', 'wavpack']"
+size = "15238112"
+usize = "53215228"
+sha1sum = "b5c2647ff7bb76cafd9bf3b68df5c688c69dc933"
+depends = "['chromaprint', 'flac>=1.5.0', 'libebur128', 'libhidapi', 'libkeyfinder', 'libmad', 'libmodplug', 'lilv', 'opus', 'portaudio', 'portmidi', 'protobuf>=31.1', 'qt6-5compat>=6.8.2', 'qt6-shadertools>=6.8.2', 'qt6-svg>=6.8.2', 'qtkeychain', 'rubberband>=4.0.0', 'soundtouch', 'taglib1', 'upower', 'wavpack']"
 +++
 ### Description: 
 An open source DJ tool.

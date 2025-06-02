@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vlc-aa 3.0.21-30"
-version = "3.0.21-30"
+title = "vlc-aa 3.0.21-31"
+version = "3.0.21-31"
 description = "vlc Ascii Art support"
-date = "2025-05-26T06:46:38"
+date = "2025-06-02T12:17:09"
 aliases = "/packages/219576"
 categories = ['vlc-codecs']
 upstreamurl = "http://www.videolan.org/vlc/"
 arch = "x86_64"
-size = "17920"
+size = "17976"
 usize = "11784"
-sha1sum = "080d612e52f99d15e724d7b3ab6efd5584a0b3cc"
+sha1sum = "7a44f57dbd8847859429e312dad02b226d2bbabc"
 depends = "['aalib', 'libvlc>=3.0.21']"
 +++
 ### Description: 
