@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "wrapland 0.602.0-4"
-version = "0.602.0-4"
+title = "wrapland 0.602.0-5"
+version = "0.602.0-5"
 description = "Qt/C++ library wrapping libwayland"
-date = "2025-04-07T16:06:46"
+date = "2025-06-05T09:50:55"
 aliases = "/packages/220135"
 categories = ['kde6-extra']
 upstreamurl = "https://github.com/winft/wrapland"
 arch = "x86_64"
-size = "656100"
-usize = "3838322"
-sha1sum = "8b67ee458f1742111776f70562e061ffe653d980"
+size = "654656"
+usize = "3817842"
+sha1sum = "357f3731e102d41b25bfdb0baaeded8497b95b70"
 depends = "['microsoft-gsl', 'qt6-base>=', 'wayland']"
 reverse_depends = "['disman']"
 +++

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "websocketpp 0.8.2-2"
-version = "0.8.2-2"
+title = "websocketpp 0.8.2-3"
+version = "0.8.2-3"
 description = "C++/Boost Asio based websocket client/server library"
-date = "2022-02-08T19:21:03"
+date = "2025-06-06T08:59:50"
 aliases = "/packages/217431"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/zaphoyd/websocketpp"
 arch = "x86_64"
-size = "112724"
-usize = "902307"
-sha1sum = "9c72655e3b1b6208c420b4dda1748f10fa16adc8"
+size = "112792"
+usize = "896627"
+sha1sum = "37f9975318d470263a5da3dacfe74088ab75978c"
 depends = "['glibc>=2.29-6']"
 reverse_depends = "['obs-studio']"
 +++

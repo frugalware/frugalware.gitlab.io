@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "xdg-desktop-portal-kde 6.3.5-1"
-version = "6.3.5-1"
+title = "xdg-desktop-portal-kde 6.3.5-2"
+version = "6.3.5-2"
 description = "A backend implementation for xdg-desktop-portal using Qt/KF5"
-date = "2025-05-07T09:49:14"
+date = "2025-06-04T14:05:04"
 aliases = "/packages/220562"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "422316"
-usize = "1793446"
-sha1sum = "79450d83fd0c5cc635d79faed6358b9c10d63393"
-depends = "['kio>=6.13.0', 'kio-fuse', 'kirigami>=6.13.0', 'kstatusnotifieritem>=6.13.0', 'kwayland>=_6.3.5']"
+size = "423032"
+usize = "1801862"
+sha1sum = "966f0d9e7e748616d742d2d1f06a4c23f5ef94d7"
+depends = "['kio>=6.14.0', 'kio-fuse', 'kirigami>=6.14.0', 'kstatusnotifieritem>=6.14.0', 'kwayland>=_6.3.5']"
 reverse_depends = "['plasma-integration', 'plasma-wayland-session']"
 +++
 ### Description: 
