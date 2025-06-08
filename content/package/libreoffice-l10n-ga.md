@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libreoffice-l10n-ga 25.2.3.2-4"
-version = "25.2.3.2-4"
+title = "libreoffice-l10n-ga 25.2.4.3-1"
+version = "25.2.4.3-1"
 description = "Installs Irish support in LibreOffice"
-date = "2025-05-26T15:32:55"
+date = "2025-06-08T19:45:18"
 aliases = "/packages/104060"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "507644"
-usize = "2656356"
-sha1sum = "c8f9e47696ab405fdb17d78fc02fc09a357fbd3c"
-depends = "['libreoffice>=25.2.3.2']"
+size = "507856"
+usize = "2656475"
+sha1sum = "3b7abb55423395ae42a37868ef65f546420a3712"
+depends = "['libreoffice>=25.2.4.3']"
 +++
 ### Description: 
 Installs Irish support in LibreOffice

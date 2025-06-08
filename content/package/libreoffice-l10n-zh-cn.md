@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libreoffice-l10n-zh-cn 25.2.3.2-4"
-version = "25.2.3.2-4"
+title = "libreoffice-l10n-zh-cn 25.2.4.3-1"
+version = "25.2.4.3-1"
 description = "Installs Chinese (simplified) support in LibreOffice"
-date = "2025-05-26T15:32:55"
+date = "2025-06-08T19:45:18"
 aliases = "/packages/104138"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "6552516"
-usize = "38554463"
-sha1sum = "6b7e79c2958f020f93825545c11d63bf47756d1e"
-depends = "['libreoffice>=25.2.3.2']"
+size = "6552716"
+usize = "38554907"
+sha1sum = "8f7af9d8218cbf410eb615a87d7506507a2c4485"
+depends = "['libreoffice>=25.2.4.3']"
 +++
 ### Description: 
 Installs Chinese (simplified) support in LibreOffice
