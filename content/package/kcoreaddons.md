@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kcoreaddons 6.14.0-1"
-version = "6.14.0-1"
+title = "kcoreaddons 6.14.0-3"
+version = "6.14.0-3"
 description = "Utilities for core application functionality and accessing the OS."
-date = "2025-05-10T10:54:02"
+date = "2025-06-06T14:24:18"
 aliases = "/packages/218286"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "486556"
-usize = "2129472"
-sha1sum = "9f1eec68dfd2597b865fef5b7650dccf3d933c1e"
-depends = "['qt6-base>=6.9.0', 'shared-mime-info']"
+size = "670180"
+usize = "2986784"
+sha1sum = "bf1d2226b565f61151cc7d5520e5b16a0a3a5053"
+depends = "['qt6-base>=6.9.1', 'shared-mime-info']"
 reverse_depends = "['accessibility-inspector', 'alligator', 'audex', 'audiotube', 'breeze', 'calamares-frugalware', 'discover', 'disman', 'dolphin', 'francis', 'isoimagewriter', 'kalk', 'kalm', 'kauth', 'kcachegrind', 'kclock', 'kconfigwidgets', 'kcontacts', 'kcrash', 'kdav', 'kdebugsettings', 'kdecoration', 'kdeplasma-addons', 'kdiff3', 'kfilemetadata', 'kglobalacceld', 'kirigami-addons', 'kjournald', 'kongress', 'kontrast', 'kosmindoormap', 'kpackage', 'kpimtextedit', 'kpipewire', 'kpty', 'krecorder', 'krunner', 'ksmtp', 'ksvg', 'ktrip', 'kwin', 'libkcompactdisc', 'plasma5support', 'plasmatube', 'purpose', 'qmlkonsole', 'qrca', 'skanlite', 'skladnik', 'svgpart', 'sweeper', 'xwaylandvideobridge']"
 +++
 ### Description: 
@@ -91,6 +91,7 @@ Utilities for core application functionality and accessing the OS.
 * /usr/include/KF6/KCoreAddons/kurlmimedata.h
 * /usr/include/KF6/KCoreAddons/KUser
 * /usr/include/KF6/KCoreAddons/kuser.h
+* /usr/include/PySide6/KCoreAddons/kcoreaddons_python.h
 * /usr/lib/cmake/KF6CoreAddons/KF6CoreAddonsConfig.cmake
 * /usr/lib/cmake/KF6CoreAddons/KF6CoreAddonsConfigVersion.cmake
 * /usr/lib/cmake/KF6CoreAddons/KF6CoreAddonsMacros.cmake
@@ -100,6 +101,7 @@ Utilities for core application functionality and accessing the OS.
 * /usr/lib/libKF6CoreAddons.so.6
 * /usr/lib/libKF6CoreAddons.so.6.14.0
 * /usr/lib/pkgconfig/KF6CoreAddons.pc
+* /usr/lib/python3.13/site-packages/KCoreAddons.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/qt6/qml/org/kde/coreaddons/kcoreaddonsplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/coreaddons/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/coreaddons/libkcoreaddonsplugin.so
@@ -216,5 +218,6 @@ Utilities for core application functionality and accessing the OS.
 * /usr/share/locale/zh_HK/LC_MESSAGES/kcoreaddons6_qt.qm
 * /usr/share/locale/zh_TW/LC_MESSAGES/kcoreaddons6_qt.qm
 * /usr/share/mime/packages/kde6.xml
+* /usr/share/PySide6/typesystems/typesystem_kcoreaddons.xml
 * /usr/share/qlogging-categories6/kcoreaddons.categories
 * /usr/share/qlogging-categories6/kcoreaddons.renamecategories

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kate 25.04.1-1"
-version = "25.04.1-1"
+title = "kate 25.04.1-3"
+version = "25.04.1-3"
 description = "KDE Advanced Text Editor."
-date = "2025-05-09T15:20:00"
+date = "2025-06-06T15:21:15"
 aliases = "/packages/118445"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "10303512"
-usize = "35580027"
-sha1sum = "3e81cfd14ec2432eec0f89dffa46843a07b4ad79"
-depends = "['kitemmodels>=6.13.0', 'knewstuff>=6.13.0', 'ktexteditor>=6.13.0', 'libgit2>=0.26', 'libplasma>=6.3.5', 'qt6-declarative>=6.9.0', 'threadweaver>=6.13.0']"
+size = "10366648"
+usize = "35943059"
+sha1sum = "22fff1506ccc011efa74ea5bbe247f6873681412"
+depends = "['kitemmodels>=6.14.0', 'knewstuff>=6.14.0', 'ktexteditor>=6.14.0', 'libgit2>=0.26', 'libplasma>=6.3.5', 'qt6-declarative>=6.9.1', 'qtkeychain', 'threadweaver>=6.14.0']"
 +++
 ### Description: 
 KDE Advanced Text Editor.
@@ -39,6 +39,7 @@ KDE Advanced Text Editor.
 * /usr/lib/qt6/plugins/kf6/ktexteditor/katereplicodeplugin.so
 * /usr/lib/qt6/plugins/kf6/ktexteditor/katesearchplugin.so
 * /usr/lib/qt6/plugins/kf6/ktexteditor/katesnippetsplugin.so
+* /usr/lib/qt6/plugins/kf6/ktexteditor/katesqlplugin.so
 * /usr/lib/qt6/plugins/kf6/ktexteditor/katesymbolviewerplugin.so
 * /usr/lib/qt6/plugins/kf6/ktexteditor/katexmlcheckplugin.so
 * /usr/lib/qt6/plugins/kf6/ktexteditor/katexmltoolsplugin.so

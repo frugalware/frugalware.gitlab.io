@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kimagemapeditor 25.04.1-1"
-version = "25.04.1-1"
+title = "kimagemapeditor 25.04.1-2"
+version = "25.04.1-2"
 description = "KImageMapEditor is an HTML imagemap editor."
-date = "2025-05-09T19:17:32"
+date = "2025-06-05T08:36:10"
 aliases = "/packages/219525"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1170504"
-usize = "2221431"
-sha1sum = "0aff864b1ff7e16027a6e8e084a9c053b8b98016"
-depends = "['kparts>=6.13.0', 'qt6-webengine>=6.9.0']"
+size = "1170264"
+usize = "2224407"
+sha1sum = "97a5dd27a0751396c3e8ec6a62f8d89ae5f0c2e3"
+depends = "['kparts>=6.14.0', 'qt6-webengine>=6.9.1']"
 +++
 ### Description: 
 KImageMapEditor is an HTML imagemap editor.

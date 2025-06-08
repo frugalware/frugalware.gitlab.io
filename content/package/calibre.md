@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "calibre 8.2.1-1"
-version = "8.2.1-1"
+title = "calibre 8.2.1-2"
+version = "8.2.1-2"
 description = "Ebook management application"
-date = "2025-04-06T14:12:37"
+date = "2025-06-06T06:40:17"
 aliases = "/packages/219010"
 categories = ['xapps-extra']
 upstreamurl = "https://calibre-ebook.com"
 arch = "x86_64"
-size = "27436032"
-usize = "67767182"
-sha1sum = "87c191c9c55b587299abb452d2a94435d8a3ab8a"
+size = "27453148"
+usize = "67783292"
+sha1sum = "f743fbb323b81428175f20e7821b0e3d2fcbdbae"
 depends = "['html5lib-python', 'hunspell', 'hyphen', 'icu4c>=77.1', 'libmtp', 'libstemmer', 'mathjax', 'podofo>=0.10.1', 'pyqt6', 'pyqt6webengine', 'python3-apsw', 'python3-beautifulsoup4', 'python3-css-parser', 'python3-lxml', 'python3-mechanize', 'python3-pillow', 'python3-regex', 'qt6-svg', 'uchardet']"
 +++
 ### Description: 

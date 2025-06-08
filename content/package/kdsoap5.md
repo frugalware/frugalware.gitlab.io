@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kdsoap5 2.2.0-16"
-version = "2.2.0-16"
+title = "kdsoap5 2.2.0-17"
+version = "2.2.0-17"
 description = "Qt-based client-side and server-side SOAP component KF5"
-date = "2025-05-26T07:31:16"
+date = "2025-06-06T06:46:57"
 aliases = "/packages/222707"
 categories = ['kde5']
 upstreamurl = "https://github.com/KDAB/kdsoap"
 arch = "x86_64"
-size = "382544"
-usize = "1185821"
-sha1sum = "02ddcc6b93cb86352f9ef5f71d34cf4b7e23fa5b"
+size = "382676"
+usize = "1185725"
+sha1sum = "162cea7123c58e7bd1fdf93604e2ef3540e51b63"
 depends = "['qt5-base>=5.15.17']"
 reverse_depends = "['kio5-extras']"
 +++

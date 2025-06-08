@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "incidenceeditor 25.04.1-1"
-version = "25.04.1-1"
+title = "incidenceeditor 25.04.1-2"
+version = "25.04.1-2"
 description = "This lib provides incidence editor"
-date = "2025-05-09T16:39:48"
+date = "2025-06-04T16:54:56"
 aliases = "/packages/218490"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "575520"
-usize = "3053351"
-sha1sum = "f2bbe2c764b68586563455f07a991f340e478e44"
-depends = "['akonadi>=25.04.1', 'eventviews>=25.04.1', 'ki18n>=6.13.0']"
+size = "575500"
+usize = "3059815"
+sha1sum = "c484128470f235f45b5b48b17266b989c2ecf0a2"
+depends = "['akonadi>=25.04.1', 'eventviews>=25.04.1', 'ki18n>=6.14.0']"
 reverse_depends = "['kdepim-addons', 'korganizer']"
 +++
 ### Description: 

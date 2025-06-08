@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kded 6.14.0-1"
-version = "6.14.0-1"
+title = "kded 6.14.0-2"
+version = "6.14.0-2"
 description = "Central daemon of KDE workspaces."
-date = "2025-05-10T12:25:33"
+date = "2025-06-04T12:59:30"
 aliases = "/packages/218296"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "56580"
-usize = "122915"
-sha1sum = "48e083b63d386412172dffe2b7a869d4e635ab52"
+size = "56676"
+usize = "124259"
+sha1sum = "d7b91d26f3d443abd691fba79306cff7511b895d"
 depends = "['kservice>=6.14.0']"
 reverse_depends = "['kio']"
 +++

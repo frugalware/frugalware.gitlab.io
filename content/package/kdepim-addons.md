@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdepim-addons 25.04.1-1"
-version = "25.04.1-1"
+title = "kdepim-addons 25.04.1-3"
+version = "25.04.1-3"
 description = "Addons for PIM release-service."
-date = "2025-05-09T17:25:24"
+date = "2025-06-06T18:13:23"
 aliases = "/packages/219159"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1381524"
-usize = "8619523"
-sha1sum = "bc291ec1102412fcae33311ed0b80c5b6ccaf864"
-depends = "['akonadi-import-wizard>=25.04.1', 'discount>=3.0.0', 'incidenceeditor>=25.04.1', 'kaddressbook>=25.04.1', 'kitinerary>=25.04.1', 'kontactinterface>=25.04.1', 'ktnef>=25.04.1', 'libksieve>=25.04.1', 'mailcommon>=25.04.1', 'poppler-qt6']"
+size = "2476516"
+usize = "12564979"
+sha1sum = "ce655a63e7d9efa1466187f1bac0ce43eb680b98"
+depends = "['akonadi-import-wizard>=25.04.1', 'discount>=3.0.0', 'incidenceeditor>=25.04.1', 'kaddressbook>=25.04.1', 'kitinerary>=25.04.1', 'kontactinterface>=25.04.1', 'ktextaddons', 'ktnef>=25.04.1', 'libksieve>=25.04.1', 'mailcommon>=25.04.1', 'poppler-qt6']"
 +++
 ### Description: 
 Addons for PIM release-service.
@@ -23,6 +23,8 @@ Addons for PIM release-service.
 * /usr/bin/kmail_clamav.sh
 * /usr/bin/kmail_fprot.sh
 * /usr/bin/kmail_sav.sh
+* /usr/lib/libadblockplugin.so.6
+* /usr/lib/libadblockplugin.so.6.4.1
 * /usr/lib/libakonadidatasetools.so.6
 * /usr/lib/libakonadidatasetools.so.6.4.1
 * /usr/lib/libdkimverifyconfigure.so.6
@@ -81,9 +83,11 @@ Addons for PIM release-service.
 * /usr/lib/qt6/plugins/pim6/kmail/plugineditorgrammar/kmail_grammalecteplugin.so
 * /usr/lib/qt6/plugins/pim6/kmail/plugineditorgrammar/kmail_languagetoolplugin.so
 * /usr/lib/qt6/plugins/pim6/kmail/plugineditorinit/kmail_externalcomposereditorplugin.so
+* /usr/lib/qt6/plugins/pim6/ldapactivities/kldapactivitiesplugin.so
 * /usr/lib/qt6/plugins/pim6/libksieve/emaillineeditplugin.so
 * /usr/lib/qt6/plugins/pim6/libksieve/imapfoldercompletionplugin.so
 * /usr/lib/qt6/plugins/pim6/mailtransport/mailtransport_sendplugin.so
+* /usr/lib/qt6/plugins/pim6/mailtransportactivities/kmailtransportactivitiesplugin.so
 * /usr/lib/qt6/plugins/pim6/messageviewer/bodypartformatter/messageviewer_bodypartformatter_application_gnupgwks.so
 * /usr/lib/qt6/plugins/pim6/messageviewer/bodypartformatter/messageviewer_bodypartformatter_application_mstnef.so
 * /usr/lib/qt6/plugins/pim6/messageviewer/bodypartformatter/messageviewer_bodypartformatter_pkpass.so
@@ -114,6 +118,7 @@ Addons for PIM release-service.
 * /usr/lib/qt6/plugins/pim6/pimcommon/shorturlengine/pimcommon_tinyurlengineplugin.so
 * /usr/lib/qt6/plugins/pim6/pimcommon/shorturlengine/pimcommon_triopabshorturlengineplugin.so
 * /usr/lib/qt6/plugins/pim6/templateparser/templateparseraddressrequesterplugin.so
+* /usr/lib/qt6/plugins/pim6/webengineviewer/urlinterceptor/webengineviewer_adblockplugin.so
 * /usr/lib/qt6/plugins/pim6/webengineviewer/urlinterceptor/webengineviewer_donottrackplugin.so
 * /usr/lib/qt6/plugins/plasmacalendarplugins/pimevents.so
 * /usr/lib/qt6/plugins/plasmacalendarplugins/pimevents/PimEventsConfig.qml

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "grantleetheme 25.04.1-1"
-version = "25.04.1-1"
+title = "grantleetheme 25.04.1-2"
+version = "25.04.1-2"
 description = "This lib provides grantlee theme support"
-date = "2025-05-09T12:21:54"
+date = "2025-06-04T15:29:00"
 aliases = "/packages/218476"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "64300"
-usize = "224835"
-sha1sum = "4b03508c8536f167c3e208d6a3b7940a575ba740"
-depends = "['knewstuff>=6.13.0', 'ktexttemplate>=6.13.0']"
+size = "64508"
+usize = "227555"
+sha1sum = "d9e4767aceddeba2ed6e168685f9db8be53f83fa"
+depends = "['knewstuff>=6.14.0', 'ktexttemplate>=6.14.0']"
 reverse_depends = "['akonadi-contacts']"
 +++
 ### Description: 

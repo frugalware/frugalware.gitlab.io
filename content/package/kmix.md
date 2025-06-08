@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kmix 25.04.1-1"
-version = "25.04.1-1"
+title = "kmix 25.04.1-2"
+version = "25.04.1-2"
 description = "KDE volume control program"
-date = "2025-05-09T17:16:26"
+date = "2025-06-04T17:24:02"
 aliases = "/packages/219009"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1297056"
-usize = "3264073"
-sha1sum = "d8fd6f639a839eec625be1c22858ef3a01cd88de"
-depends = "['knotifications>=6.13.0', 'kstatusnotifieritem>=6.13.0', 'kxmlgui>=6.13.0', 'solid>=6.13.0']"
+size = "1297308"
+usize = "3269529"
+sha1sum = "8e9185b9f2cb853bf9be6630d6c38beef7dae6b0"
+depends = "['knotifications>=6.14.0', 'kstatusnotifieritem>=6.14.0', 'kxmlgui>=6.14.0', 'solid>=6.14.0']"
 +++
 ### Description: 
 KDE volume control program

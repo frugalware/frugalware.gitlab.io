@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "alligator 25.04.1-1"
-version = "25.04.1-1"
+title = "alligator 25.04.1-2"
+version = "25.04.1-2"
 description = "Kirigami-based RSS reader"
-date = "2025-05-09T18:48:40"
+date = "2025-06-05T07:20:34"
 aliases = "/packages/220959"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "170820"
-usize = "731598"
-sha1sum = "2f4e308107fc10a16418b911a928abc2b4d13a16"
+size = "170288"
+usize = "733262"
+sha1sum = "88a5e2d95c35b52766338bfb68fabb61bc8528f9"
 depends = "['kconfig>=', 'kcoreaddons>=', 'ki18n>=', 'kirigami-addons', 'syndication>=']"
 +++
 ### Description: 

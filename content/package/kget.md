@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kget 25.04.1-1"
-version = "25.04.1-1"
+title = "kget 25.04.1-2"
+version = "25.04.1-2"
 description = "A free download manager for KDE."
-date = "2025-05-09T17:38:25"
+date = "2025-06-05T08:32:02"
 aliases = "/packages/219524"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "5234528"
-usize = "11387171"
-sha1sum = "772ca73351993003d6d5a47c9373d21cef26a2ce"
-depends = "['kcmutils>=6.13.0', 'knotifyconfig>=6.13.0', 'kstatusnotifieritem>=6.13.0', 'libktorrent', 'libmms', 'libqgpgme', 'plasma-workspace>=6.3.5']"
+size = "5232216"
+usize = "11414435"
+sha1sum = "30fcd9f14a178e76c82c60f69eb22567812a4374"
+depends = "['kcmutils>=6.14.0', 'knotifyconfig>=6.14.0', 'kstatusnotifieritem>=6.14.0', 'libktorrent', 'libmms', 'libqgpgme', 'plasma-workspace>=6.3.5']"
 +++
 ### Description: 
 A free download manager for KDE.

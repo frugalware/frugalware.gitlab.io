@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kbookmarks 6.14.0-1"
-version = "6.14.0-1"
+title = "kbookmarks 6.14.0-2"
+version = "6.14.0-2"
 description = "Framework that let you access and manipulate bookmarks stored using XBEL format."
-date = "2025-05-10T12:24:39"
+date = "2025-06-04T12:58:53"
 aliases = "/packages/218277"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "113888"
-usize = "528358"
-sha1sum = "2c5c7366228f083ab2b0f95820df5734bdaa384e"
+size = "114528"
+usize = "531334"
+sha1sum = "f99d8711e80ce02debcc8c5a254ce4d2a13fc801"
 depends = "['kxmlgui>=6.14.0']"
 reverse_depends = "['dolphin', 'kcharselect', 'kio']"
 +++

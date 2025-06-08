@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdeplasma-addons 6.3.5-1"
-version = "6.3.5-1"
+title = "kdeplasma-addons 6.3.5-2"
+version = "6.3.5-2"
 description = "Plasma AddOns"
-date = "2025-05-08T17:40:49"
+date = "2025-06-04T14:29:33"
 aliases = "/packages/221305"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1068688"
-usize = "6606379"
-sha1sum = "44cfd3f1e84f4ec6ff0bfa8afcf9b8e349310d64"
-depends = "['icu4c>=77.1', 'kcmutils>=6.13.0', 'kconfig>=6.13.0', 'kconfigwidgets>=6.13.0', 'kcoreaddons>=6.13.0', 'ki18n>=6.13.0', 'kio>=6.13.0', 'kirigami-addons', 'kitemmodels>=6.13.0', 'knewstuff>=6.13.0', 'krunner>=6.13.0', 'kservice>=6.13.0', 'kunitconversion>=6.13.0', 'plasma-activities>=6.3.5', 'plasma-workspace>=6.3.5', 'purpose>=6.13.0']"
+size = "1071144"
+usize = "6633858"
+sha1sum = "fbc0773260908a1fd3dd4cf87e0adaa88584eabf"
+depends = "['icu4c>=77.1', 'kcmutils>=6.14.0', 'kconfig>=6.14.0', 'kconfigwidgets>=6.14.0', 'kcoreaddons>=6.14.0', 'ki18n>=6.14.0', 'kio>=6.14.0', 'kirigami-addons', 'kitemmodels>=6.14.0', 'knewstuff>=6.14.0', 'krunner>=6.14.0', 'kservice>=6.14.0', 'kunitconversion>=6.14.0', 'plasma-activities>=6.3.5', 'plasma-workspace>=6.3.5', 'purpose>=6.14.0']"
 +++
 ### Description: 
 Plasma AddOns

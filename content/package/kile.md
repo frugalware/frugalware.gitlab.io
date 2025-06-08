@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kile 2.9.94-9"
-version = "2.9.94-9"
+title = "kile 2.9.94-10"
+version = "2.9.94-10"
 description = "A qt latex environment."
-date = "2025-04-06T20:14:14"
+date = "2025-06-05T08:35:13"
 aliases = "/packages/3697"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "7369852"
-usize = "20852514"
-sha1sum = "1e60226a8a8b1ae4b71af470dcc1c35f5d3dc5cf"
-depends = "['ktexteditor>=6.12.0', 'okular>=24.12.3', 'poppler-qt6>=25.01.0', 'qt6-svg>=6.9.0']"
+size = "7387208"
+usize = "20914282"
+sha1sum = "f73f967622ae3d233e0868ba648ed19aa2262a27"
+depends = "['ktexteditor>=6.14.0', 'okular>=25.04.1', 'poppler-qt6>=25.01.0', 'qt6-svg>=6.9.1']"
 +++
 ### Description: 
 A qt latex environment.

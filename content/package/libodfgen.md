@@ -12,7 +12,7 @@ size = "347864"
 usize = "2041849"
 sha1sum = "627e8136731d5e4d26e6570519caefe5bd80791c"
 depends = "['librevenge>=0.0.4-2', 'libxml2>=2.14.3']"
-reverse_depends = "['libreoffice']"
+reverse_depends = "['calligra', 'libreoffice']"
 +++
 ### Description: 
 An ODF generator library

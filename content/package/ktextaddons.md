@@ -12,7 +12,7 @@ size = "578688"
 usize = "2728305"
 sha1sum = "82ba391a60870639491a4be390452e58e03b0385"
 depends = "['kio>=', 'kxmlgui>=', 'qt6-speech>=', 'qtkeychain', 'syntax-highlighting>=']"
-reverse_depends = "['kpimtextedit', 'messagelib', 'pimcommon']"
+reverse_depends = "['kdepim-addons', 'kpimtextedit', 'messagelib', 'pimcommon']"
 +++
 ### Description: 
 Various text handling addons

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "knotifications 6.14.0-1"
-version = "6.14.0-1"
+title = "knotifications 6.14.0-3"
+version = "6.14.0-3"
 description = "KDE Desktop notifications."
-date = "2025-05-10T11:30:40"
+date = "2025-06-06T14:22:04"
 aliases = "/packages/218337"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "110048"
-usize = "370203"
-sha1sum = "b4c8b4d8650e749f818b2f4c5ee7cee61eabb4d1"
-depends = "['kiconthemes>=6.14.0', 'kservice>=6.14.0', 'libcanberra', 'libcanberra-alsa', 'phonon-qt6>=4.9.1-5', 'qt6-speech>=6.9.0']"
+size = "145084"
+usize = "519547"
+sha1sum = "24c5b11afea035cf2301b576819ce43ba91ca2dc"
+depends = "['kiconthemes>=6.14.0', 'kservice>=6.14.0', 'libcanberra', 'libcanberra-alsa', 'phonon-qt6>=4.9.1-5', 'qt6-speech>=6.9.1']"
 reverse_depends = "['calindori', 'dolphin', 'francis', 'kbackup', 'kcalc', 'kde-inotify-survey', 'kjobwidgets', 'kmix', 'kmousetool', 'kongress', 'kruler', 'kvirc', 'kwallet', 'kwrited', 'plasma-browser-integration', 'plasma5support', 'qrca', 'smb4k', 'tokodon', 'wacomtablet', 'xwaylandvideobridge']"
 +++
 ### Description: 
@@ -35,6 +35,7 @@ KDE Desktop notifications.
 * /usr/lib/libKF6Notifications.so
 * /usr/lib/libKF6Notifications.so.6
 * /usr/lib/libKF6Notifications.so.6.14.0
+* /usr/lib/python3.13/site-packages/KNotifications.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/qt6/qml/org/kde/notification/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/notification/knotificationqmlplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/notification/libknotificationqmlplugin.so

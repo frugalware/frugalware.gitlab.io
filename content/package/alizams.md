@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "alizams 1.9.10-11"
-version = "1.9.10-11"
+title = "alizams 1.9.10-12"
+version = "1.9.10-12"
 description = "Qt6 DICOM Viewer"
-date = "2025-04-06T11:58:15"
+date = "2025-06-06T06:36:35"
 aliases = "/packages/220909"
 categories = ['xapps-extra']
 upstreamurl = "https://www.aliza-dicom-viewer.com"
 arch = "x86_64"
-size = "2568428"
-usize = "12901019"
-sha1sum = "f0cb889431a347fdca61128422e0c95273e1c66a"
+size = "2590000"
+usize = "12941835"
+sha1sum = "8f7cde54b88c87fabb144b3fde9543b3035dee8d"
 depends = "['insight-toolkit>=5.4.0', 'qt6-5compat>=6.7.3', 'qt6-base>=6.8.0', 'qt6-base-sql-common>=6.7.3']"
 +++
 ### Description: 

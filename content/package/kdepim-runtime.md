@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdepim-runtime 25.04.1-1"
-version = "25.04.1-1"
+title = "kdepim-runtime 25.04.1-2"
+version = "25.04.1-2"
 description = "KDE PIM Runtime"
-date = "2025-05-09T16:36:54"
+date = "2025-06-04T16:52:34"
 aliases = "/packages/74083"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2670632"
-usize = "14805344"
-sha1sum = "33dc1eda565e25234c09411f0981068649057a7d"
-depends = "['akonadi-calendar>=25.04.1', 'kalarm>=25.04.1', 'kdav>=6.13.0', 'kimap>=25.04.1', 'kmbox>=25.04.1', 'knotifyconfig>=6.13.0', 'libkgapi>=25.04.1', 'pimcommon>=25.04.1', 'qca', 'qt6-networkauth>=6.9.0', 'syndication>=6.13.0']"
+size = "2670960"
+usize = "14856544"
+sha1sum = "26cecbcaae254e9d54ff3849c8fe0873e49b6e3a"
+depends = "['akonadi-calendar>=25.04.1', 'kalarm>=25.04.1', 'kdav>=6.14.0', 'kimap>=25.04.1', 'kmbox>=25.04.1', 'knotifyconfig>=6.14.0', 'libkgapi>=25.04.1', 'pimcommon>=25.04.1', 'qca', 'qt6-networkauth>=6.9.1', 'syndication>=6.14.0']"
 reverse_depends = "['kmail', 'korganizer', 'zanshin']"
 +++
 ### Description: 

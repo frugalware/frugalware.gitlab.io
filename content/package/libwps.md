@@ -12,7 +12,7 @@ size = "800672"
 usize = "2310434"
 sha1sum = "eac19ad3817a0fc638da423c960e2c4d7ab6c3d2"
 depends = "['librevenge>=0.0.4-2']"
-reverse_depends = "['libreoffice']"
+reverse_depends = "['calligra', 'libreoffice']"
 +++
 ### Description: 
 A Microsoft Works file format import filter.

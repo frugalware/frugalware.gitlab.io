@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kcolorchooser 25.04.1-1"
-version = "25.04.1-1"
+title = "kcolorchooser 25.04.1-2"
+version = "25.04.1-2"
 description = "KDE Color Selector."
-date = "2025-05-09T11:37:23"
+date = "2025-06-04T14:56:47"
 aliases = "/packages/88167"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "33088"
-usize = "132093"
-sha1sum = "b0e841912e638075f70ed78e1023f57d1a6d1a0b"
-depends = "['ki18n>=6.13.0', 'kxmlgui>=6.13.0']"
+size = "33076"
+usize = "131725"
+sha1sum = "45b2b7dd092c3ce72e72f02ce7b812ba137d3429"
+depends = "['ki18n>=6.14.0', 'kxmlgui>=6.14.0']"
 +++
 ### Description: 
 KDE Color Selector.

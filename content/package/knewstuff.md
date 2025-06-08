@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "knewstuff 6.14.0-1"
-version = "6.14.0-1"
+title = "knewstuff 6.14.0-2"
+version = "6.14.0-2"
 description = "Framework for downloading and sharing additional application data."
-date = "2025-05-10T12:35:28"
+date = "2025-06-04T13:07:17"
 aliases = "/packages/218336"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "628312"
-usize = "2960815"
-sha1sum = "059f90ead44eeb0942af8a51d8297a8fd2720745"
+size = "628220"
+usize = "2969935"
+sha1sum = "ea1443757277ad8e6ddbef2905caf0b70c27ed61"
 depends = "['kio>=6.14.0', 'kirigami>=6.14.0', 'kpackage>=6.14.0', 'syndication>=6.14.0']"
 reverse_depends = "['blinken', 'cantor', 'discover', 'dolphin', 'frameworkintegration', 'grantleetheme', 'k3b', 'kanagram', 'kate', 'kde-gtk-config', 'kdenlive', 'kdeplasma-addons', 'kgoldrunner', 'khangman', 'kmail-account-wizard', 'konsole', 'konversation', 'kturtle', 'kwin', 'labplot', 'libkdegames', 'libksysguard', 'libmarble', 'parley', 'pimcommon', 'plasma-desktop', 'plasma-welcome', 'plasma-workspace', 'sddm-kcm', 'skrooge', 'spectacle', 'yakuake']"
 +++

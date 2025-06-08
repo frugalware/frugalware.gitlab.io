@@ -12,7 +12,7 @@ size = "10704996"
 usize = "44181365"
 sha1sum = "c7dc4f1d971f6640998f80e32bbdbf6a82f15487"
 depends = "['libstdc++>=11.2']"
-reverse_depends = "['blender', 'calamares-frugalware', 'calibre', 'darktable', 'dovecot', 'freeciv', 'freerdp', 'freerdp2', 'grpc', 'gspell', 'harfbuzz-icu', 'harfbuzz-utils', 'kdeplasma-addons', 'libboost', 'libcdr', 'libe-book', 'libical', 'libiio', 'liblcf', 'libmspub', 'libphonenumber', 'libqalculate', 'libsmbclient', 'libvisio', 'libxml2', 'libxml2-legacy', 'libzmf', 'mpd', 'ncmpcpp', 'netpbm', 'nodejs', 'nodejs20', 'nodejs22', 'openttd', 'poedit', 'postfix', 'postgresql', 'qt5-base', 'qt5-location', 'qt5-webengine', 'qt6-5compat', 'qt6-base', 'qt6-webengine', 'r', 're2', 'rspamd', 'scribus', 'texlive', 'thunderbird', 'uwsgi', 'vte3', 'xerces-c', 'xfsprogs', 'znc']"
+reverse_depends = "['blender', 'calamares-frugalware', 'calibre', 'darktable', 'dovecot', 'firebird', 'freeciv', 'freerdp', 'freerdp2', 'grpc', 'gspell', 'harfbuzz-icu', 'harfbuzz-utils', 'kdeplasma-addons', 'libboost', 'libcdr', 'libe-book', 'libical', 'libiio', 'liblcf', 'libmspub', 'libphonenumber', 'libqalculate', 'libsmbclient', 'libvisio', 'libxml2', 'libxml2-legacy', 'libzmf', 'mpd', 'ncmpcpp', 'netpbm', 'nodejs', 'nodejs20', 'nodejs22', 'openttd', 'poedit', 'postfix', 'postgresql', 'qt5-base', 'qt5-location', 'qt5-webengine', 'qt6-5compat', 'qt6-base', 'qt6-webengine', 'r', 're2', 'rspamd', 'scribus', 'texlive', 'thunderbird', 'uwsgi', 'vte3', 'xerces-c', 'xfsprogs', 'znc']"
 license = "ICU"
 +++
 ### Description: 

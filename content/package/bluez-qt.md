@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "bluez-qt 6.14.0-1"
-version = "6.14.0-1"
+title = "bluez-qt 6.14.0-2"
+version = "6.14.0-2"
 description = "A Qt wrapper for bluez"
-date = "2025-05-10T10:35:35"
+date = "2025-06-04T12:25:33"
 aliases = "/packages/218255"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "313272"
-usize = "1417735"
-sha1sum = "a623c91daaf1dfa377c319df2ff241b2e449087c"
-depends = "['qt6-declarative>=6.9.0']"
+size = "314492"
+usize = "1428047"
+sha1sum = "c92fe8ca213a343c87e08dd2fa6a6a1b8f0226a0"
+depends = "['qt6-declarative>=6.9.1']"
 reverse_depends = "['bluedevil', 'powerdevil']"
 +++
 ### Description: 

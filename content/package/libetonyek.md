@@ -12,7 +12,7 @@ size = "708776"
 usize = "2954197"
 sha1sum = "ece3ebc44660b39c6d57bcf2aac89e7ef75855d3"
 depends = "['libboost>=1.72.0', 'libwpd>=0.10.1-5']"
-reverse_depends = "['libreoffice']"
+reverse_depends = "['calligra', 'libreoffice']"
 +++
 ### Description: 
 Libetonyek is library providing ability to interpret and import Apple Keynote presentations into various applications.

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gnuplot 6.0.2-3"
-version = "6.0.2-3"
+title = "gnuplot 6.0.2-4"
+version = "6.0.2-4"
 description = "Gnuplot is a portable command-line driven interactive data and function plotting utility."
-date = "2025-04-06T20:04:18"
+date = "2025-06-06T06:43:01"
 aliases = "/packages/5328"
 categories = ['xapps-extra']
 upstreamurl = "http://www.gnuplot.info/"
 arch = "x86_64"
-size = "1391916"
-usize = "3710549"
-sha1sum = "f79811b615e18a4da61b5bb6fc69e514fc670648"
+size = "1396152"
+usize = "3717245"
+sha1sum = "34e89f6d3783fabf7cb71a7e0e7605ab7b046ff1"
 depends = "['gd', 'pango', 'qt6-5compat>=6.8.2', 'qt6-base>=6.8.2', 'qt6-svg>=6.8.2', 'readline>=8.0']"
 reverse_depends = "['darktable', 'octave']"
 +++

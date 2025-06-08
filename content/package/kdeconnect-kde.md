@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdeconnect-kde 25.04.1-1"
-version = "25.04.1-1"
+title = "kdeconnect-kde 25.04.1-2"
+version = "25.04.1-2"
 description = "Adds communication between KDE and your smartphone"
-date = "2025-05-09T17:27:56"
+date = "2025-06-05T06:53:42"
 aliases = "/packages/220147"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "5647864"
-usize = "14839082"
-sha1sum = "bebe1725d15cc5e15eb30edb59c4860373f78d17"
-depends = "['kcmutils', 'kirigami-addons', 'kpeople', 'kstatusnotifieritem', 'libfakekey', 'modemmanager-qt', 'pulseaudio-qt', 'qqc2-desktop-style>=6.13.0', 'qt6-connectivity']"
+size = "5667328"
+usize = "14917698"
+sha1sum = "35392fa847317a7739b41fb6d7086fdc5d299770"
+depends = "['kcmutils', 'kirigami-addons', 'kpeople', 'kstatusnotifieritem', 'libfakekey', 'modemmanager-qt', 'pulseaudio-qt', 'qqc2-desktop-style>=6.14.0', 'qt6-connectivity']"
 +++
 ### Description: 
 Adds communication between KDE and your smartphone

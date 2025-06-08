@@ -12,7 +12,7 @@ size = "520676"
 usize = "1994849"
 sha1sum = "ca4725713f7f151b9065eb44cce2728661aa433d"
 depends = "['alsa-topology-conf', 'alsa-ucm-conf', 'glibc>=2.34']"
-reverse_depends = "['allegro', 'alsa-plugins', 'alsa-tools', 'alsa-utils', 'bluez', 'cef', 'enlightenment', 'ffmpeg', 'ffmpeg4.4', 'firefox', 'gst1-plugins-base-alsa', 'intel-gpu-tools', 'jack2', 'libao', 'libcanberra-alsa', 'libpulse', 'libsndfile', 'lirc', 'mlt', 'pcaudiolib', 'portaudio', 'portmidi', 'pyalsa', 'qemu', 'qt5-webengine', 'qv4l2', 'spice-vdagent', 'stepmania', 'teams-for-linux', 'tuxguitar', 'v4l-utils', 'virtualbox', 'vlc', 'volumeicon', 'whalebird', 'wildmidi', 'xonotic']"
+reverse_depends = "['allegro', 'alsa-plugins', 'alsa-tools', 'alsa-utils', 'bluez', 'cef', 'enlightenment', 'ffmpeg', 'ffmpeg4.4', 'firefox', 'flite', 'gst1-plugins-base-alsa', 'intel-gpu-tools', 'jack2', 'libao', 'libcanberra-alsa', 'libpulse', 'libsndfile', 'lirc', 'mlt', 'pcaudiolib', 'portaudio', 'portmidi', 'pyalsa', 'qemu', 'qt5-webengine', 'qv4l2', 'spice-vdagent', 'stepmania', 'teams-for-linux', 'tuxguitar', 'v4l-utils', 'virtualbox', 'vlc', 'volumeicon', 'whalebird', 'wildmidi', 'xonotic']"
 +++
 ### Description: 
 An alternative implementation of Linux sound support

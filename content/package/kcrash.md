@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kcrash 6.14.0-1"
-version = "6.14.0-1"
+title = "kcrash 6.14.0-2"
+version = "6.14.0-2"
 description = "Gracefull handling of application crashes."
-date = "2025-05-10T11:21:02"
+date = "2025-06-04T12:42:10"
 aliases = "/packages/218287"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "25312"
-usize = "69361"
-sha1sum = "dec2ee4a5e25a21ec0c821dba453842f77adaaa2"
+size = "25468"
+usize = "70145"
+sha1sum = "eef3f499f87a34c46a071845c106ef723df9270c"
 depends = "['kcoreaddons>=6.14.0', 'kwindowsystem>=6.14.0']"
 reverse_depends = "['accessibility-inspector', 'audex', 'audiotube', 'dolphin', 'isoimagewriter', 'kalm', 'kglobalacceld', 'kjournald', 'kservice', 'kwin', 'polkit-kde-agent-1', 'skladnik', 'smb4k', 'sweeper', 'telly-skout']"
 +++

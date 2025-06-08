@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kgeography 25.04.1-1"
-version = "25.04.1-1"
+title = "kgeography 25.04.1-2"
+version = "25.04.1-2"
 description = "Geography Trainer."
-date = "2025-05-09T12:00:06"
+date = "2025-06-04T15:12:49"
 aliases = "/packages/152828"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "11211860"
-usize = "32928246"
-sha1sum = "dcc6ce2720dacc4c1fea79b4f7d74d5d86627bcb"
-depends = "['kxmlgui>=6.13.0', 'qt6-svg>=6.9.0']"
+size = "11207916"
+usize = "32931926"
+sha1sum = "839a16314d5d75540a92ad8adb036e373a7a60cd"
+depends = "['kxmlgui>=6.14.0', 'qt6-svg>=6.9.1']"
 +++
 ### Description: 
 Geography Trainer.

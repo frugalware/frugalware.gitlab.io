@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kguiaddons 6.14.0-1"
-version = "6.14.0-1"
+title = "kguiaddons 6.14.0-3"
+version = "6.14.0-3"
 description = "Utilities for graphical user interfaces."
-date = "2025-05-10T11:17:31"
+date = "2025-06-06T14:31:11"
 aliases = "/packages/218310"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "134452"
-usize = "500217"
-sha1sum = "9649920f1515955a765346f0d7e4a3b2e262a7fb"
-depends = "['qt6-base>=6.9.0', 'qt6-wayland>=6.9.0']"
+size = "187868"
+usize = "710569"
+sha1sum = "de85727caba38406645f30f209f4da38ed237c81"
+depends = "['qt6-base>=6.9.1', 'qt6-wayland>=6.9.1']"
 reverse_depends = "['breeze', 'kcolorscheme', 'kirigami-addons', 'kwin', 'pinentry-qt6', 'plasma5support', 'qqc2-breeze-style']"
 +++
 ### Description: 
@@ -63,6 +63,7 @@ Utilities for graphical user interfaces.
 * /usr/lib/libKF6GuiAddons.so.6
 * /usr/lib/libKF6GuiAddons.so.6.14.0
 * /usr/lib/pkgconfig/KF6GuiAddons.pc
+* /usr/lib/python3.13/site-packages/KGuiAddons.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/qt6/qml/org/kde/guiaddons/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/guiaddons/kguiaddonsqml.qmltypes
 * /usr/lib/qt6/qml/org/kde/guiaddons/libkguiaddonsqml.so

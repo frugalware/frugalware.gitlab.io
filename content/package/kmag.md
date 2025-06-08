@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kmag 25.04.1-1"
-version = "25.04.1-1"
+title = "kmag 25.04.1-2"
+version = "25.04.1-2"
 description = "Screen Magnifier"
-date = "2025-05-09T17:39:36"
+date = "2025-06-05T08:37:31"
 aliases = "/packages/153195"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "769044"
-usize = "1624063"
-sha1sum = "c449101800946564aeb9fb46d9eca364fe2d58ad"
-depends = "['kio>=6.13.0', 'libqaccessibilityclient']"
+size = "769104"
+usize = "1624735"
+sha1sum = "4a15d29c7d41666fdc20fd20bf25ea1b32b2dd30"
+depends = "['kio>=6.14.0', 'libqaccessibilityclient']"
 +++
 ### Description: 
 Screen Magnifier

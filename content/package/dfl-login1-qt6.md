@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "dfl-login1-qt6 0.3.0-4"
-version = "0.3.0-4"
+title = "dfl-login1-qt6 0.3.0-5"
+version = "0.3.0-5"
 description = "Implementation of systemd/elogin1d for DFL Qt6"
-date = "2025-05-24T11:14:01"
+date = "2025-06-06T13:45:02"
 aliases = "/packages/221558"
 categories = ['xlib-extra']
 upstreamurl = "https://gitlab.com/desktop-frameworks/login1"
 arch = "x86_64"
-size = "35444"
-usize = "104451"
-sha1sum = "5646cd5dc2c713f0fe1a17f0570b6dc690906c36"
-depends = "['qt6-base>=6.9.0']"
+size = "35688"
+usize = "105763"
+sha1sum = "0b41e78e8724ad846e1ca83946d671d4bc0f9e81"
+depends = "['qt6-base>=6.9.1']"
 reverse_depends = "['greetd-qt6greet']"
 +++
 ### Description: 

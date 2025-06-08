@@ -12,7 +12,7 @@ size = "91129960"
 usize = "283500354"
 sha1sum = "cee88a065fe777369048f64e0e9fe4127db49bfc"
 depends = "['ffmpeg>=7.0', 'icu4c>=77.1', 'libatomic', 'libepoxy', 'libevent', 'libgbm', 'libjpeg-turbo', 'libkrb5', 'libva', 'libxcomposite', 'libxcursor', 'libxkbfile', 'libxml2>=2.14.3', 'libxrandr', 'libxshmfence', 'libxslt', 'mesa-dri-drivers', 'nss', 'opus', 'qt6-positioning', 'qt6-webchannel', 're2', 'snappy>=1.2.0']"
-reverse_depends = "['akonadi-contacts', 'angelfish', 'arianna', 'cantor', 'falkon', 'ghostwriter', 'k3b', 'kaccounts-providers', 'kalgebra', 'kdenlive', 'khelpcenter', 'kimagemapeditor', 'kio-extras', 'konqueror', 'kvirc', 'libkgapi', 'libksysguard', 'libmarble', 'mediainfo-qt', 'parley', 'pyqt6webengine', 'qt6-webview', 'qtcreator', 'rkward', 'seafile-client', 'sigil', 'skanpage', 'skrooge', 'stellarium', 'syncthingtray', 'texmaker']"
+reverse_depends = "['akonadi-contacts', 'angelfish', 'arianna', 'calligra', 'cantor', 'falkon', 'ghostwriter', 'k3b', 'kaccounts-providers', 'kalgebra', 'kdenlive', 'khelpcenter', 'kimagemapeditor', 'kio-extras', 'konqueror', 'kvirc', 'libkgapi', 'libksysguard', 'libmarble', 'mediainfo-qt', 'parley', 'pyqt6webengine', 'qt6-webview', 'qtcreator', 'rkward', 'seafile-client', 'sigil', 'skanpage', 'skrooge', 'stellarium', 'syncthingtray', 'texmaker']"
 +++
 ### Description: 
 The Qt6 toolkit, qtwebengine

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kglobalacceld 6.3.5-1"
-version = "6.3.5-1"
+title = "kglobalacceld 6.3.5-2"
+version = "6.3.5-2"
 description = "Daemon providing Global Keyboard Shortcut (Accelerator) functionality"
-date = "2025-05-07T09:46:53"
+date = "2025-06-04T14:03:22"
 aliases = "/packages/221315"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "98108"
-usize = "329704"
-sha1sum = "61706a0a05fa27ddba542c46825fb099f79e2ae7"
-depends = "['kconfig>=6.13.0', 'kcoreaddons>=6.13.0', 'kcrash>=6.13.0', 'kdbusaddons>=6.13.0', 'kglobalaccel>=6.13.0', 'kio>=6.13.0']"
+size = "97904"
+usize = "332440"
+sha1sum = "c8fc355f43954311196974e80f2b3ed696539b27"
+depends = "['kconfig>=6.14.0', 'kcoreaddons>=6.14.0', 'kcrash>=6.14.0', 'kdbusaddons>=6.14.0', 'kglobalaccel>=6.14.0', 'kio>=6.14.0']"
 reverse_depends = "['kwin']"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kdeclarative 6.14.0-1"
-version = "6.14.0-1"
+title = "kdeclarative 6.14.0-2"
+version = "6.14.0-2"
 description = "Integration of QML and KDE workspaces."
-date = "2025-05-10T12:39:32"
+date = "2025-06-04T13:10:13"
 aliases = "/packages/218294"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "158112"
-usize = "776186"
-sha1sum = "f9335ff40d988a042a0bc32c9aa95c7fc9cc17b8"
+size = "158844"
+usize = "780538"
+sha1sum = "e3090a1b079da798ee50106aabdc91fbf579e79f"
 depends = "['kio>=6.14.0', 'kpackage>=6.14.0', 'libepoxy>=1.3.1-6']"
 reverse_depends = "['blinken', 'colord-kde', 'discover', 'filelight', 'kaccounts-integration', 'kanagram', 'kcmutils', 'kdenetwork-filesharing', 'khangman', 'koko', 'kontrast', 'kwin', 'libkdegames', 'plasma-disks', 'plasma-pa', 'plasma-systemmonitor', 'plasma-workspace', 'purpose', 'sddm-kcm', 'spectacle', 'systemsettings']"
 +++

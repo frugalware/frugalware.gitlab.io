@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "bluedevil 6.3.5-1"
-version = "6.3.5-1"
+title = "bluedevil 6.3.5-2"
+version = "6.3.5-2"
 description = "KDE Bluetooth Framework"
-date = "2025-05-08T17:58:42"
+date = "2025-06-04T14:43:17"
 aliases = "/packages/221282"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "532924"
-usize = "2252638"
-sha1sum = "2cabc3d9516346db8d85793f219beddb3ae7f86b"
-depends = "['bluez-qt>=_F_kf6_full', 'kcmutils>=6.13.0', 'ksvg>=6.13.0', 'libplasma>=6.3.5']"
+size = "532784"
+usize = "2259710"
+sha1sum = "05becedc3aadfa9e3b4e86edff12d295433faf92"
+depends = "['bluez-qt>=_F_kf6_full', 'kcmutils>=6.14.0', 'ksvg>=6.14.0', 'libplasma>=6.3.5']"
 +++
 ### Description: 
 KDE Bluetooth Framework
