@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "picmi 25.04.1-1"
-version = "25.04.1-1"
+title = "picmi 25.04.1-2"
+version = "25.04.1-2"
 description = "A nonogram logic game for KDE."
-date = "2025-05-09T15:07:08"
+date = "2025-06-04T15:59:04"
 aliases = "/packages/184207"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1315044"
-usize = "1983058"
-sha1sum = "88fa1ab11d6dc187304be437c9a1acb2d2ebb563"
-depends = "['knotifyconfig>=6.13.0', 'libkdegames>=25.04.1']"
+size = "1315024"
+usize = "1984114"
+sha1sum = "3bf865773811d02888af731013bd05ff97eca83f"
+depends = "['knotifyconfig>=6.14.0', 'libkdegames>=25.04.1']"
 +++
 ### Description: 
 A nonogram logic game for KDE.

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qt6-translations 6.9.0-1"
-version = "6.9.0-1"
+title = "qt6-translations 6.9.1-2"
+version = "6.9.1-2"
 description = "The Qt6 toolkit, qttranslations"
-date = "2025-04-04T11:24:23"
+date = "2025-06-03T09:16:30"
 aliases = "/packages/220787"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "1803060"
-usize = "14538296"
-sha1sum = "6573ad8aaa290d6177d26d633e805ed3ea5a9ea2"
+size = "1828140"
+usize = "14654557"
+sha1sum = "355b56c782a3e040767475c4bc3c4aff68724ced"
 depends = "['glibc']"
 reverse_depends = "['qt6-base']"
 +++
@@ -18,7 +18,7 @@ reverse_depends = "['qt6-base']"
 The Qt6 toolkit, qttranslations
 
 ### Files: 
-* /usr/lib/qt6/sbom/qttranslations-6.9.0.spdx
+* /usr/lib/qt6/sbom/qttranslations-6.9.1.spdx
 * /usr/share/qt6/translations/assistant_ar.qm
 * /usr/share/qt6/translations/assistant_bg.qm
 * /usr/share/qt6/translations/assistant_cs.qm
@@ -216,6 +216,7 @@ The Qt6 toolkit, qttranslations
 * /usr/share/qt6/translations/qtserialport_ko.qm
 * /usr/share/qt6/translations/qtserialport_pl.qm
 * /usr/share/qt6/translations/qtserialport_ru.qm
+* /usr/share/qt6/translations/qtserialport_tr.qm
 * /usr/share/qt6/translations/qtserialport_uk.qm
 * /usr/share/qt6/translations/qtserialport_zh_CN.qm
 * /usr/share/qt6/translations/qtwebengine_ca.qm
@@ -226,6 +227,7 @@ The Qt6 toolkit, qttranslations
 * /usr/share/qt6/translations/qtwebengine_ko.qm
 * /usr/share/qt6/translations/qtwebengine_pl.qm
 * /usr/share/qt6/translations/qtwebengine_ru.qm
+* /usr/share/qt6/translations/qtwebengine_tr.qm
 * /usr/share/qt6/translations/qtwebengine_uk.qm
 * /usr/share/qt6/translations/qtwebengine_zh_CN.qm
 * /usr/share/qt6/translations/qtwebsockets_ca.qm
@@ -238,6 +240,7 @@ The Qt6 toolkit, qttranslations
 * /usr/share/qt6/translations/qtwebsockets_ko.qm
 * /usr/share/qt6/translations/qtwebsockets_pl.qm
 * /usr/share/qt6/translations/qtwebsockets_ru.qm
+* /usr/share/qt6/translations/qtwebsockets_tr.qm
 * /usr/share/qt6/translations/qtwebsockets_uk.qm
 * /usr/share/qt6/translations/qtwebsockets_zh_CN.qm
 * /usr/share/qt6/translations/qt_ar.qm

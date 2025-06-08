@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "spectacle 6.3.5-1"
-version = "6.3.5-1"
+title = "spectacle 6.3.5-2"
+version = "6.3.5-2"
 description = "KDE screenshot capture utility"
-date = "2025-05-08T18:00:53"
+date = "2025-06-04T14:44:42"
 aliases = "/packages/218413"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2069604"
-usize = "6144999"
-sha1sum = "cb0b331a1045295e6c53618498139f72bc9976c7"
-depends = "['kdeclarative>=6.13.0', 'kio>=6.13.0', 'knewstuff>=6.13.0', 'kpipewire>=6.3.5', 'kscreen>=6.3.5', 'kstatusnotifieritem>=6.13.0', 'openblas', 'opencv>=4.11.0', 'prison>=6.13.0zxing-cpp', 'purpose>=6.13.0', 'xcb-util-cursor']"
+size = "2068764"
+usize = "6157415"
+sha1sum = "3b89bf671942da240e68583254696d3deda39492"
+depends = "['kdeclarative>=6.14.0', 'kio>=6.14.0', 'knewstuff>=6.14.0', 'kpipewire>=6.3.5', 'kscreen>=6.3.5', 'kstatusnotifieritem>=6.14.0', 'openblas', 'opencv>=4.11.0', 'prison>=6.14.0zxing-cpp', 'purpose>=6.14.0', 'xcb-util-cursor']"
 +++
 ### Description: 
 KDE screenshot capture utility

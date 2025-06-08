@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gst1-plugin-libcamera 0.5.1-1"
-version = "0.5.1-1"
+title = "gst1-plugin-libcamera 0.5.1-2"
+version = "0.5.1-2"
 description = "libcamera gstreamer plugin"
-date = "2025-06-02T11:44:02"
+date = "2025-06-06T13:29:50"
 aliases = "/packages/220850"
 categories = ['multimedia-extra']
 upstreamurl = "https://libcamera.org/"
 arch = "x86_64"
-size = "49856"
+size = "49772"
 usize = "149632"
-sha1sum = "e53fd4c0a6d22d1fc3bb7f52cc5fc25a486be8d9"
+sha1sum = "4d4571fc4e045cb7d86ca66625cc80cd7a392e84"
 depends = "['gst1-plugins-base', 'libcamera']"
 +++
 ### Description: 

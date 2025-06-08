@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "llvm 19.1.7-2"
-version = "19.1.7-2"
+title = "llvm 19.1.7-3"
+version = "19.1.7-3"
 description = "Low Level Virtual Machine (Compiler , Tools and Libs)"
-date = "2025-05-19T12:45:17"
+date = "2025-06-04T08:54:43"
 aliases = "/packages/74178"
 categories = ['devel']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "34801100"
-usize = "172136984"
-sha1sum = "b5f94f67f01205c68d5e69d9fb95da3ebb1427bf"
+size = "34798356"
+usize = "172128091"
+sha1sum = "5866a171e9173d2a7d4f8d089e7199c03cd68443"
 depends = "['libstdc++>=15', 'llvm-libs', 'python3>=3.13']"
 reverse_depends = "['ghc', 'llvm-ocaml']"
 +++
@@ -2125,7 +2125,6 @@ Low Level Virtual Machine (Compiler , Tools and Libs)
 * /usr/lib/cmake/llvm/FindLibpfm.cmake
 * /usr/lib/cmake/llvm/FindSphinx.cmake
 * /usr/lib/cmake/llvm/FindZ3.cmake
-* /usr/lib/cmake/llvm/Findzstd.cmake
 * /usr/lib/cmake/llvm/GenerateVersionFromVCS.cmake
 * /usr/lib/cmake/llvm/GetErrcMessages.cmake
 * /usr/lib/cmake/llvm/GetLibraryName.cmake

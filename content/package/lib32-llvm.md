@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-llvm 19.1.7-2"
-version = "19.1.7-2"
+title = "lib32-llvm 19.1.7-3"
+version = "19.1.7-3"
 description = "Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)"
-date = "2025-05-19T12:45:17"
+date = "2025-06-04T08:54:43"
 aliases = "/packages/218876"
 categories = ['lib32-extra']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "43870840"
-usize = "316081164"
-sha1sum = "f81c2a20a4809c2dc9f8dffb843ebad6d0eba21a"
+size = "43891820"
+usize = "316076284"
+sha1sum = "577a79c4a09cbbd7c0b06cc7765c2c4a965ba60e"
 depends = "['libstdc++>=15']"
 +++
 ### Description: 
@@ -2123,7 +2123,6 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)
 * /usr/lib32/cmake/llvm/FindOCaml.cmake
 * /usr/lib32/cmake/llvm/FindSphinx.cmake
 * /usr/lib32/cmake/llvm/FindZ3.cmake
-* /usr/lib32/cmake/llvm/Findzstd.cmake
 * /usr/lib32/cmake/llvm/GenerateVersionFromVCS.cmake
 * /usr/lib32/cmake/llvm/GetErrcMessages.cmake
 * /usr/lib32/cmake/llvm/GetLibraryName.cmake

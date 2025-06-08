@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "simsu 1.4.5-2"
-version = "1.4.5-2"
+title = "simsu 1.4.6-1"
+version = "1.4.6-1"
 description = "Simsu is a basic Sudoku game."
-date = "2025-03-28T21:59:22"
+date = "2025-06-06T12:37:15"
 aliases = "/packages/184380"
 categories = ['games-extra']
 upstreamurl = "https://gottcode.org/simsu"
 arch = "x86_64"
-size = "290312"
-usize = "619155"
-sha1sum = "417a3424d6fb0211d2f893b5ca9b07cae14e5633"
+size = "292284"
+usize = "627773"
+sha1sum = "eda90cd36af25afc3f815bbe9bf0a97fbc4a5412"
 depends = "['qt6-base>=6.8.2']"
 +++
 ### Description: 
@@ -19,11 +19,11 @@ Simsu is a basic Sudoku game.
 ### Files: 
 * /usr/bin/simsu
 * /usr/share/applications/simsu.desktop
-* /usr/share/doc/simsu-1.4.5/ChangeLog
-* /usr/share/doc/simsu-1.4.5/COPYING
-* /usr/share/doc/simsu-1.4.5/CREDITS
-* /usr/share/doc/simsu-1.4.5/INSTALL
-* /usr/share/doc/simsu-1.4.5/README
+* /usr/share/doc/simsu-1.4.6/ChangeLog
+* /usr/share/doc/simsu-1.4.6/COPYING
+* /usr/share/doc/simsu-1.4.6/CREDITS
+* /usr/share/doc/simsu-1.4.6/INSTALL
+* /usr/share/doc/simsu-1.4.6/README
 * /usr/share/icons/hicolor/1024x1024/apps/simsu.png
 * /usr/share/icons/hicolor/128x128/apps/simsu.png
 * /usr/share/icons/hicolor/16x16/apps/simsu.png

@@ -1,61 +1,61 @@
 +++
 draft = false
-title = "qt6-quick3dphysics 6.9.0-1"
-version = "6.9.0-1"
+title = "qt6-quick3dphysics 6.9.1-2"
+version = "6.9.1-2"
 description = "The Qt6 toolkit, qtquick3dphysics"
-date = "2025-04-05T11:12:51"
+date = "2025-06-04T10:33:40"
 aliases = "/packages/220801"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "1545580"
-usize = "5126238"
-sha1sum = "f0c6fbc8fd9eca32855aecd809cc3bca867747c6"
+size = "1551768"
+usize = "5148041"
+sha1sum = "adc3d6e0fa963713bab2450f436c6f0ff7c85c38"
 depends = "['qt6-quick3d']"
 +++
 ### Description: 
 The Qt6 toolkit, qtquick3dphysics
 
 ### Files: 
-* /usr/include/qt6/QtQuick3DPhysics/6.9.0/QtQuick3DPhysics/private/qabstractcollisionshape_p.h
-* /usr/include/qt6/QtQuick3DPhysics/6.9.0/QtQuick3DPhysics/private/qabstractphysicsbody_p.h
-* /usr/include/qt6/QtQuick3DPhysics/6.9.0/QtQuick3DPhysics/private/qabstractphysicsnode_p.h
-* /usr/include/qt6/QtQuick3DPhysics/6.9.0/QtQuick3DPhysics/private/qabstractphysxnode_p.h
-* /usr/include/qt6/QtQuick3DPhysics/6.9.0/QtQuick3DPhysics/private/qboxshape_p.h
-* /usr/include/qt6/QtQuick3DPhysics/6.9.0/QtQuick3DPhysics/private/qcacheutils_p.h
-* /usr/include/qt6/QtQuick3DPhysics/6.9.0/QtQuick3DPhysics/private/qcapsuleshape_p.h
-* /usr/include/qt6/QtQuick3DPhysics/6.9.0/QtQuick3DPhysics/private/qcharactercontroller_p.h
-* /usr/include/qt6/QtQuick3DPhysics/6.9.0/QtQuick3DPhysics/private/qcollisiondebugmeshbuilder_p.h
-* /usr/include/qt6/QtQuick3DPhysics/6.9.0/QtQuick3DPhysics/private/qconvexmeshshape_p.h
-* /usr/include/qt6/QtQuick3DPhysics/6.9.0/QtQuick3DPhysics/private/qdebugdrawhelper_p.h
-* /usr/include/qt6/QtQuick3DPhysics/6.9.0/QtQuick3DPhysics/private/qdynamicrigidbody_p.h
-* /usr/include/qt6/QtQuick3DPhysics/6.9.0/QtQuick3DPhysics/private/qheightfieldshape_p.h
-* /usr/include/qt6/QtQuick3DPhysics/6.9.0/QtQuick3DPhysics/private/qmeshshape_p.h
-* /usr/include/qt6/QtQuick3DPhysics/6.9.0/QtQuick3DPhysics/private/qphysicscommands_p.h
-* /usr/include/qt6/QtQuick3DPhysics/6.9.0/QtQuick3DPhysics/private/qphysicsmaterial_p.h
-* /usr/include/qt6/QtQuick3DPhysics/6.9.0/QtQuick3DPhysics/private/qphysicsmeshutils_p_p.h
-* /usr/include/qt6/QtQuick3DPhysics/6.9.0/QtQuick3DPhysics/private/qphysicsutils_p.h
-* /usr/include/qt6/QtQuick3DPhysics/6.9.0/QtQuick3DPhysics/private/qphysicsworld_p.h
-* /usr/include/qt6/QtQuick3DPhysics/6.9.0/QtQuick3DPhysics/private/qphysxactorbody_p.h
-* /usr/include/qt6/QtQuick3DPhysics/6.9.0/QtQuick3DPhysics/private/qphysxcharactercontroller_p.h
-* /usr/include/qt6/QtQuick3DPhysics/6.9.0/QtQuick3DPhysics/private/qphysxdynamicbody_p.h
-* /usr/include/qt6/QtQuick3DPhysics/6.9.0/QtQuick3DPhysics/private/qphysxrigidbody_p.h
-* /usr/include/qt6/QtQuick3DPhysics/6.9.0/QtQuick3DPhysics/private/qphysxstaticbody_p.h
-* /usr/include/qt6/QtQuick3DPhysics/6.9.0/QtQuick3DPhysics/private/qphysxtriggerbody_p.h
-* /usr/include/qt6/QtQuick3DPhysics/6.9.0/QtQuick3DPhysics/private/qphysxworld_p.h
-* /usr/include/qt6/QtQuick3DPhysics/6.9.0/QtQuick3DPhysics/private/qplaneshape_p.h
-* /usr/include/qt6/QtQuick3DPhysics/6.9.0/QtQuick3DPhysics/private/qsphereshape_p.h
-* /usr/include/qt6/QtQuick3DPhysics/6.9.0/QtQuick3DPhysics/private/qstaticphysxobjects_p.h
-* /usr/include/qt6/QtQuick3DPhysics/6.9.0/QtQuick3DPhysics/private/qstaticrigidbody_p.h
-* /usr/include/qt6/QtQuick3DPhysics/6.9.0/QtQuick3DPhysics/private/qtquick3dphysicsglobal_p.h
-* /usr/include/qt6/QtQuick3DPhysics/6.9.0/QtQuick3DPhysics/private/qtrianglemeshshape_p.h
-* /usr/include/qt6/QtQuick3DPhysics/6.9.0/QtQuick3DPhysics/private/qtriggerbody_p.h
+* /usr/include/qt6/QtQuick3DPhysics/6.9.1/QtQuick3DPhysics/private/qabstractcollisionshape_p.h
+* /usr/include/qt6/QtQuick3DPhysics/6.9.1/QtQuick3DPhysics/private/qabstractphysicsbody_p.h
+* /usr/include/qt6/QtQuick3DPhysics/6.9.1/QtQuick3DPhysics/private/qabstractphysicsnode_p.h
+* /usr/include/qt6/QtQuick3DPhysics/6.9.1/QtQuick3DPhysics/private/qabstractphysxnode_p.h
+* /usr/include/qt6/QtQuick3DPhysics/6.9.1/QtQuick3DPhysics/private/qboxshape_p.h
+* /usr/include/qt6/QtQuick3DPhysics/6.9.1/QtQuick3DPhysics/private/qcacheutils_p.h
+* /usr/include/qt6/QtQuick3DPhysics/6.9.1/QtQuick3DPhysics/private/qcapsuleshape_p.h
+* /usr/include/qt6/QtQuick3DPhysics/6.9.1/QtQuick3DPhysics/private/qcharactercontroller_p.h
+* /usr/include/qt6/QtQuick3DPhysics/6.9.1/QtQuick3DPhysics/private/qcollisiondebugmeshbuilder_p.h
+* /usr/include/qt6/QtQuick3DPhysics/6.9.1/QtQuick3DPhysics/private/qconvexmeshshape_p.h
+* /usr/include/qt6/QtQuick3DPhysics/6.9.1/QtQuick3DPhysics/private/qdebugdrawhelper_p.h
+* /usr/include/qt6/QtQuick3DPhysics/6.9.1/QtQuick3DPhysics/private/qdynamicrigidbody_p.h
+* /usr/include/qt6/QtQuick3DPhysics/6.9.1/QtQuick3DPhysics/private/qheightfieldshape_p.h
+* /usr/include/qt6/QtQuick3DPhysics/6.9.1/QtQuick3DPhysics/private/qmeshshape_p.h
+* /usr/include/qt6/QtQuick3DPhysics/6.9.1/QtQuick3DPhysics/private/qphysicscommands_p.h
+* /usr/include/qt6/QtQuick3DPhysics/6.9.1/QtQuick3DPhysics/private/qphysicsmaterial_p.h
+* /usr/include/qt6/QtQuick3DPhysics/6.9.1/QtQuick3DPhysics/private/qphysicsmeshutils_p_p.h
+* /usr/include/qt6/QtQuick3DPhysics/6.9.1/QtQuick3DPhysics/private/qphysicsutils_p.h
+* /usr/include/qt6/QtQuick3DPhysics/6.9.1/QtQuick3DPhysics/private/qphysicsworld_p.h
+* /usr/include/qt6/QtQuick3DPhysics/6.9.1/QtQuick3DPhysics/private/qphysxactorbody_p.h
+* /usr/include/qt6/QtQuick3DPhysics/6.9.1/QtQuick3DPhysics/private/qphysxcharactercontroller_p.h
+* /usr/include/qt6/QtQuick3DPhysics/6.9.1/QtQuick3DPhysics/private/qphysxdynamicbody_p.h
+* /usr/include/qt6/QtQuick3DPhysics/6.9.1/QtQuick3DPhysics/private/qphysxrigidbody_p.h
+* /usr/include/qt6/QtQuick3DPhysics/6.9.1/QtQuick3DPhysics/private/qphysxstaticbody_p.h
+* /usr/include/qt6/QtQuick3DPhysics/6.9.1/QtQuick3DPhysics/private/qphysxtriggerbody_p.h
+* /usr/include/qt6/QtQuick3DPhysics/6.9.1/QtQuick3DPhysics/private/qphysxworld_p.h
+* /usr/include/qt6/QtQuick3DPhysics/6.9.1/QtQuick3DPhysics/private/qplaneshape_p.h
+* /usr/include/qt6/QtQuick3DPhysics/6.9.1/QtQuick3DPhysics/private/qsphereshape_p.h
+* /usr/include/qt6/QtQuick3DPhysics/6.9.1/QtQuick3DPhysics/private/qstaticphysxobjects_p.h
+* /usr/include/qt6/QtQuick3DPhysics/6.9.1/QtQuick3DPhysics/private/qstaticrigidbody_p.h
+* /usr/include/qt6/QtQuick3DPhysics/6.9.1/QtQuick3DPhysics/private/qtquick3dphysicsglobal_p.h
+* /usr/include/qt6/QtQuick3DPhysics/6.9.1/QtQuick3DPhysics/private/qtrianglemeshshape_p.h
+* /usr/include/qt6/QtQuick3DPhysics/6.9.1/QtQuick3DPhysics/private/qtriggerbody_p.h
 * /usr/include/qt6/QtQuick3DPhysics/QtQuick3DPhysics
 * /usr/include/qt6/QtQuick3DPhysics/QtQuick3DPhysicsDepends
 * /usr/include/qt6/QtQuick3DPhysics/qtquick3dphysicsglobal.h
 * /usr/include/qt6/QtQuick3DPhysics/QtQuick3DPhysicsVersion
 * /usr/include/qt6/QtQuick3DPhysics/qtquick3dphysicsversion.h
-* /usr/include/qt6/QtQuick3DPhysicsHelpers/6.9.0/QtQuick3DPhysicsHelpers/private/qcapsulegeometry_p.h
+* /usr/include/qt6/QtQuick3DPhysicsHelpers/6.9.1/QtQuick3DPhysicsHelpers/private/qcapsulegeometry_p.h
 * /usr/include/qt6/QtQuick3DPhysicsHelpers/QtQuick3DPhysicsHelpers
 * /usr/include/qt6/QtQuick3DPhysicsHelpers/QtQuick3DPhysicsHelpersDepends
 * /usr/include/qt6/QtQuick3DPhysicsHelpers/QtQuick3DPhysicsHelpersVersion
@@ -119,11 +119,11 @@ The Qt6 toolkit, qtquick3dphysics
 * /usr/lib/libQt6Quick3DPhysics.prl
 * /usr/lib/libQt6Quick3DPhysics.so
 * /usr/lib/libQt6Quick3DPhysics.so.6
-* /usr/lib/libQt6Quick3DPhysics.so.6.9.0
+* /usr/lib/libQt6Quick3DPhysics.so.6.9.1
 * /usr/lib/libQt6Quick3DPhysicsHelpers.prl
 * /usr/lib/libQt6Quick3DPhysicsHelpers.so
 * /usr/lib/libQt6Quick3DPhysicsHelpers.so.6
-* /usr/lib/libQt6Quick3DPhysicsHelpers.so.6.9.0
+* /usr/lib/libQt6Quick3DPhysicsHelpers.so.6.9.1
 * /usr/lib/pkgconfig/Qt6Quick3DPhysics.pc
 * /usr/lib/pkgconfig/Qt6Quick3DPhysicsHelpers.pc
 * /usr/lib/qt6/bin/cooker
@@ -208,4 +208,4 @@ The Qt6 toolkit, qtquick3dphysics
 * /usr/lib/qt6/qml/QtQuick3D/Physics/libqquick3dphysicsplugin.so
 * /usr/lib/qt6/qml/QtQuick3D/Physics/plugins.qmltypes
 * /usr/lib/qt6/qml/QtQuick3D/Physics/qmldir
-* /usr/lib/qt6/sbom/qtquick3dphysics-6.9.0.spdx
+* /usr/lib/qt6/sbom/qtquick3dphysics-6.9.1.spdx

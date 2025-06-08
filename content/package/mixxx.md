@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mixxx 2.5.1-2"
-version = "2.5.1-2"
+title = "mixxx 2.5.1-3"
+version = "2.5.1-3"
 description = "An open source DJ tool."
-date = "2025-06-02T12:44:05"
+date = "2025-06-06T07:07:32"
 aliases = "/packages/218622"
 categories = ['xapps-extra']
 upstreamurl = "http://www.mixxx.org/"
 arch = "x86_64"
-size = "15238112"
-usize = "53215228"
-sha1sum = "b5c2647ff7bb76cafd9bf3b68df5c688c69dc933"
+size = "15222236"
+usize = "53286108"
+sha1sum = "fbfa793b17fb1cd5f0a45be0761d08d8edce3a55"
 depends = "['chromaprint', 'flac>=1.5.0', 'libebur128', 'libhidapi', 'libkeyfinder', 'libmad', 'libmodplug', 'lilv', 'opus', 'portaudio', 'portmidi', 'protobuf>=31.1', 'qt6-5compat>=6.8.2', 'qt6-shadertools>=6.8.2', 'qt6-svg>=6.8.2', 'qtkeychain', 'rubberband>=4.0.0', 'soundtouch', 'taglib1', 'upower', 'wavpack']"
 +++
 ### Description: 

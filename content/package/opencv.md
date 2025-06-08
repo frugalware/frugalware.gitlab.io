@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "opencv 4.11.0-7"
-version = "4.11.0-7"
+title = "opencv 4.11.0-8"
+version = "4.11.0-8"
 description = "Intel(R) Open Source Computer Vision Library"
-date = "2025-05-27T11:55:42"
+date = "2025-06-06T10:07:27"
 aliases = "/packages/118859"
 categories = ['xmultimedia-extra']
 upstreamurl = "http://opencv.org/"
 arch = "x86_64"
-size = "24697584"
-usize = "99121590"
-sha1sum = "5520b3a4de8d5ef8ae51811e6d03d7ece91d61eb"
+size = "24547168"
+usize = "99138507"
+sha1sum = "f0fb3446c23592ec0cd4e1351ae12337cc135c51"
 depends = "['eigen', 'ffmpeg>=7.0', 'gdal', 'gst1-plugins-base', 'hdf5', 'intel-tbb', 'jasper>=2.0.10', 'libdc1394>=2.2.7', 'libglvnd', 'libgphoto2', 'libjpeg-turbo', 'libpng', 'libsm', 'libtiff>=4.7.0', 'libwebp>=0.6.0', 'libxt', 'mesa-libglx', 'opencl-rusticl', 'openexr>=3.3.0', 'protobuf>=3.2.0', 'qt6-5compat>=6.8.2', 'tesseract-ocr', 'v4l-utils', 'vtk', 'xine-lib>=1.2.8-3']"
 reverse_depends = "['digikam', 'gmic', 'gst1-plugins-bad-opencv', 'howdy', 'mlt-opencv', 'nomacs', 'opencv-cuda', 'opencv-python3', 'opencv-samples', 'openimageio', 'opentrack', 'performous', 'spectacle']"
 +++

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "signon-kwallet-extension 25.04.1-1"
-version = "25.04.1-1"
+title = "signon-kwallet-extension 25.04.1-2"
+version = "25.04.1-2"
 description = "KWallet signon extension"
-date = "2025-05-09T15:25:17"
+date = "2025-06-04T16:13:25"
 aliases = "/packages/218407"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "19176"
-usize = "49441"
-sha1sum = "5c5a8fb8a99cb4c4062e2b065116e502b19c6834"
-depends = "['kwallet>=6.13.0', 'signon>=8.58-4']"
+size = "19476"
+usize = "50241"
+sha1sum = "41ac5adf957e9c9ba5d64c8d7d17223a9e306d15"
+depends = "['kwallet>=6.14.0', 'signon>=8.58-4']"
 reverse_depends = "['kaccounts-integration']"
 +++
 ### Description: 

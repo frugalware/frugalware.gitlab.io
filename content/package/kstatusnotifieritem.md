@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kstatusnotifieritem 6.14.0-1"
-version = "6.14.0-1"
+title = "kstatusnotifieritem 6.14.0-3"
+version = "6.14.0-3"
 description = "Status Notifier Items"
-date = "2025-05-10T12:49:43"
+date = "2025-06-06T14:34:44"
 aliases = "/packages/221402"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "113552"
-usize = "387151"
-sha1sum = "c08acec2ae7d2da1542cf29a97ffe75688966326"
+size = "139520"
+usize = "498367"
+sha1sum = "ddcc546c1724c8c569ba9576cffeaad59d432454"
 depends = "['kwindowsystem>=6.14.0']"
 reverse_depends = "['akregator', 'discover', 'drkonqi', 'juk', 'kalarm', 'kbackup', 'kclock', 'kdeconnect-kde', 'kdf', 'kget', 'kgpg', 'kleopatra', 'kmail', 'kmix', 'kmousetool', 'konversation', 'krdc', 'krdp', 'krfb', 'kruler', 'krusader', 'ktimer', 'ktorrent', 'kvirc', 'kwalletmanager', 'neochat', 'plasma-browser-integration', 'plasma-integration', 'plasma-pa', 'skrooge', 'smb4k', 'spectacle', 'xdg-desktop-portal-kde', 'xwaylandvideobridge', 'yakuake']"
 +++
@@ -29,6 +29,7 @@ Status Notifier Items
 * /usr/lib/libKF6StatusNotifierItem.so
 * /usr/lib/libKF6StatusNotifierItem.so.6
 * /usr/lib/libKF6StatusNotifierItem.so.6.14.0
+* /usr/lib/python3.13/site-packages/KStatusNotifierItem.cpython-313-x86_64-linux-gnu.so
 * /usr/share/dbus-1/interfaces/kf6_org.kde.StatusNotifierItem.xml
 * /usr/share/dbus-1/interfaces/kf6_org.kde.StatusNotifierWatcher.xml
 * /usr/share/doc/kstatusnotifieritem-6.14.0/README.md

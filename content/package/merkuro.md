@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "merkuro 25.04.1-1"
-version = "25.04.1-1"
+title = "merkuro 25.04.1-3"
+version = "25.04.1-3"
 description = "A calendar application using Akonadi to sync with external services"
-date = "2025-05-09T18:51:17"
+date = "2025-06-08T10:00:38"
 aliases = "/packages/221078"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1685832"
-usize = "8012872"
-sha1sum = "ca43e0f101dbd272c17c819fc978e3d40ea40585"
-depends = "['eventviews', 'kirigami-addons', 'mailcommon', 'mimetreeparser', 'qqc2-desktop-style', 'qt6-location>=']"
+size = "1693132"
+usize = "8210314"
+sha1sum = "d85d624041415920596ae5f32610878512d383e8"
+depends = "['eventviews', 'kirigami-addons', 'libplasma>=', 'mailcommon', 'mimetreeparser', 'qqc2-desktop-style', 'qt6-location>=']"
 +++
 ### Description: 
 A calendar application using Akonadi to sync with external services
@@ -219,9 +219,20 @@ A calendar application using Akonadi to sync with external services
 * /usr/share/locale/zh_TW/LC_MESSAGES/merkurolauncher.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/plasma_applet_org.kde.merkuro.contact.mo
 * /usr/share/metainfo/org.kde.merkuro.calendar.metainfo.xml
+* /usr/share/metainfo/org.kde.merkuro.contact.applet.appdata.xml
 * /usr/share/metainfo/org.kde.merkuro.contact.metainfo.xml
 * /usr/share/metainfo/org.kde.merkuro.mail.metainfo.xml
 * /usr/share/metainfo/org.kde.merkuro.metainfo.xml
+* /usr/share/plasma/plasmoids/org.kde.merkuro.contact.applet/contents/config/main.xml
+* /usr/share/plasma/plasmoids/org.kde.merkuro.contact.applet/contents/resources/fallbackBackground.png
+* /usr/share/plasma/plasmoids/org.kde.merkuro.contact.applet/contents/ui/CompactRepresentation.qml
+* /usr/share/plasma/plasmoids/org.kde.merkuro.contact.applet/contents/ui/ContactPage.qml
+* /usr/share/plasma/plasmoids/org.kde.merkuro.contact.applet/contents/ui/ContactsPage.qml
+* /usr/share/plasma/plasmoids/org.kde.merkuro.contact.applet/contents/ui/Header.qml
+* /usr/share/plasma/plasmoids/org.kde.merkuro.contact.applet/contents/ui/main.qml
+* /usr/share/plasma/plasmoids/org.kde.merkuro.contact.applet/contents/ui/QrCodePage.qml
+* /usr/share/plasma/plasmoids/org.kde.merkuro.contact.applet/metadata.json
+* /usr/share/plasma/plasmoids/org.kde.merkuro.contact.applet/metadata.json.license
 * /usr/share/qlogging-categories6/akonadi.quick.categories
 * /usr/share/qlogging-categories6/merkuro.categories
 * /usr/share/qlogging-categories6/merkuro.contact.categories

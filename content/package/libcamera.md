@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libcamera 0.5.1-1"
-version = "0.5.1-1"
+title = "libcamera 0.5.1-2"
+version = "0.5.1-2"
 description = "A complex camera support library for Linux, Android, and ChromeOS"
-date = "2025-06-02T11:44:02"
+date = "2025-06-06T13:29:50"
 aliases = "/packages/220848"
 categories = ['multimedia']
 upstreamurl = "https://libcamera.org/"
 arch = "x86_64"
-size = "6082932"
-usize = "44286164"
-sha1sum = "1b2cce9dafdd4fcbf36ffbe5f57df7256f2a680a"
+size = "7348044"
+usize = "44243815"
+sha1sum = "752ee60b4ba4c1a1b0ba814174b99b22c1c93302"
 depends = "['gnutls', 'libdrm', 'libjpeg-turbo', 'libunwind', 'libyaml', 'pybind11']"
 reverse_depends = "['gst1-plugin-libcamera', 'libcamera-tools', 'pipewire']"
 +++
@@ -71,8 +71,6 @@ A complex camera support library for Linux, Android, and ChromeOS
 * /usr/lib/python3.13/site-packages/libcamera/__init__.py
 * /usr/share/doc/libcamera-0.5.1/api-html/annotated.html
 * /usr/share/doc/libcamera-0.5.1/api-html/annotated_dup.js
-* /usr/share/doc/libcamera-0.5.1/api-html/bc_s.png
-* /usr/share/doc/libcamera-0.5.1/api-html/bc_sd.png
 * /usr/share/doc/libcamera-0.5.1/api-html/bound__method_8h.html
 * /usr/share/doc/libcamera-0.5.1/api-html/bound__method_8h.js
 * /usr/share/doc/libcamera-0.5.1/api-html/bound__method_8h_source.html
@@ -208,7 +206,6 @@ A complex camera support library for Linux, Android, and ChromeOS
 * /usr/share/doc/libcamera-0.5.1/api-html/classlibcamera_1_1UniqueFD.html
 * /usr/share/doc/libcamera-0.5.1/api-html/classlibcamera_1_1UniqueFD.js
 * /usr/share/doc/libcamera-0.5.1/api-html/clipboard.js
-* /usr/share/doc/libcamera-0.5.1/api-html/closed.png
 * /usr/share/doc/libcamera-0.5.1/api-html/color__space_8h.html
 * /usr/share/doc/libcamera-0.5.1/api-html/color__space_8h.js
 * /usr/share/doc/libcamera-0.5.1/api-html/color__space_8h_source.html
@@ -299,8 +296,6 @@ A complex camera support library for Linux, Android, and ChromeOS
 * /usr/share/doc/libcamera-0.5.1/api-html/dir_f216eccf256e99bbd65d3088a61dbab9_dep.md5
 * /usr/share/doc/libcamera-0.5.1/api-html/dir_f216eccf256e99bbd65d3088a61dbab9_dep.png
 * /usr/share/doc/libcamera-0.5.1/api-html/dir_f9dfd35b172a0e2036ace76497fb239b.html
-* /usr/share/doc/libcamera-0.5.1/api-html/doc.svg
-* /usr/share/doc/libcamera-0.5.1/api-html/docd.svg
 * /usr/share/doc/libcamera-0.5.1/api-html/dot_inline_dotgraph_1.png
 * /usr/share/doc/libcamera-0.5.1/api-html/doxygen.css
 * /usr/share/doc/libcamera-0.5.1/api-html/doxygen.svg
@@ -326,10 +321,6 @@ A complex camera support library for Linux, Android, and ChromeOS
 * /usr/share/doc/libcamera-0.5.1/api-html/flags_8h__incl.map
 * /usr/share/doc/libcamera-0.5.1/api-html/flags_8h__incl.md5
 * /usr/share/doc/libcamera-0.5.1/api-html/flags_8h__incl.png
-* /usr/share/doc/libcamera-0.5.1/api-html/folderclosed.svg
-* /usr/share/doc/libcamera-0.5.1/api-html/folderclosedd.svg
-* /usr/share/doc/libcamera-0.5.1/api-html/folderopen.svg
-* /usr/share/doc/libcamera-0.5.1/api-html/folderopend.svg
 * /usr/share/doc/libcamera-0.5.1/api-html/formats_8h_source.html
 * /usr/share/doc/libcamera-0.5.1/api-html/framebuffer_8h.html
 * /usr/share/doc/libcamera-0.5.1/api-html/framebuffer_8h.js
@@ -514,8 +505,8 @@ A complex camera support library for Linux, Android, and ChromeOS
 * /usr/share/doc/libcamera-0.5.1/api-html/jquery.js
 * /usr/share/doc/libcamera-0.5.1/api-html/libcamera_8h_source.html
 * /usr/share/doc/libcamera-0.5.1/api-html/logging_8h_source.html
-* /usr/share/doc/libcamera-0.5.1/api-html/minus.svg
-* /usr/share/doc/libcamera-0.5.1/api-html/minusd.svg
+* /usr/share/doc/libcamera-0.5.1/api-html/menu.js
+* /usr/share/doc/libcamera-0.5.1/api-html/menudata.js
 * /usr/share/doc/libcamera-0.5.1/api-html/namespacelibcamera.html
 * /usr/share/doc/libcamera-0.5.1/api-html/namespacelibcamera.js
 * /usr/share/doc/libcamera-0.5.1/api-html/namespacelibcamera_1_1controls.html
@@ -558,12 +549,6 @@ A complex camera support library for Linux, Android, and ChromeOS
 * /usr/share/doc/libcamera-0.5.1/api-html/navtreeindex2.js
 * /usr/share/doc/libcamera-0.5.1/api-html/navtreeindex3.js
 * /usr/share/doc/libcamera-0.5.1/api-html/navtreeindex4.js
-* /usr/share/doc/libcamera-0.5.1/api-html/nav_f.png
-* /usr/share/doc/libcamera-0.5.1/api-html/nav_fd.png
-* /usr/share/doc/libcamera-0.5.1/api-html/nav_g.png
-* /usr/share/doc/libcamera-0.5.1/api-html/nav_h.png
-* /usr/share/doc/libcamera-0.5.1/api-html/nav_hd.png
-* /usr/share/doc/libcamera-0.5.1/api-html/open.png
 * /usr/share/doc/libcamera-0.5.1/api-html/orientation_8h.html
 * /usr/share/doc/libcamera-0.5.1/api-html/orientation_8h.js
 * /usr/share/doc/libcamera-0.5.1/api-html/orientation_8h_source.html
@@ -583,8 +568,6 @@ A complex camera support library for Linux, Android, and ChromeOS
 * /usr/share/doc/libcamera-0.5.1/api-html/pixel__format_8h__incl.map
 * /usr/share/doc/libcamera-0.5.1/api-html/pixel__format_8h__incl.md5
 * /usr/share/doc/libcamera-0.5.1/api-html/pixel__format_8h__incl.png
-* /usr/share/doc/libcamera-0.5.1/api-html/plus.svg
-* /usr/share/doc/libcamera-0.5.1/api-html/plusd.svg
 * /usr/share/doc/libcamera-0.5.1/api-html/property__ids_8h.html
 * /usr/share/doc/libcamera-0.5.1/api-html/property__ids_8h.js
 * /usr/share/doc/libcamera-0.5.1/api-html/property__ids_8h_source.html
@@ -603,7 +586,6 @@ A complex camera support library for Linux, Android, and ChromeOS
 * /usr/share/doc/libcamera-0.5.1/api-html/request_8h__incl.map
 * /usr/share/doc/libcamera-0.5.1/api-html/request_8h__incl.md5
 * /usr/share/doc/libcamera-0.5.1/api-html/request_8h__incl.png
-* /usr/share/doc/libcamera-0.5.1/api-html/resize.js
 * /usr/share/doc/libcamera-0.5.1/api-html/rotate0.svg
 * /usr/share/doc/libcamera-0.5.1/api-html/rotate0Mirror.svg
 * /usr/share/doc/libcamera-0.5.1/api-html/rotate180.svg
@@ -644,7 +626,6 @@ A complex camera support library for Linux, Android, and ChromeOS
 * /usr/share/doc/libcamera-0.5.1/api-html/search/classes_3.js
 * /usr/share/doc/libcamera-0.5.1/api-html/search/classes_4.js
 * /usr/share/doc/libcamera-0.5.1/api-html/search/classes_5.js
-* /usr/share/doc/libcamera-0.5.1/api-html/search/close.svg
 * /usr/share/doc/libcamera-0.5.1/api-html/search/defines_0.js
 * /usr/share/doc/libcamera-0.5.1/api-html/search/enums_0.js
 * /usr/share/doc/libcamera-0.5.1/api-html/search/enums_1.js
@@ -709,10 +690,6 @@ A complex camera support library for Linux, Android, and ChromeOS
 * /usr/share/doc/libcamera-0.5.1/api-html/search/functions_d.js
 * /usr/share/doc/libcamera-0.5.1/api-html/search/functions_e.js
 * /usr/share/doc/libcamera-0.5.1/api-html/search/functions_f.js
-* /usr/share/doc/libcamera-0.5.1/api-html/search/mag.svg
-* /usr/share/doc/libcamera-0.5.1/api-html/search/mag_d.svg
-* /usr/share/doc/libcamera-0.5.1/api-html/search/mag_sel.svg
-* /usr/share/doc/libcamera-0.5.1/api-html/search/mag_seld.svg
 * /usr/share/doc/libcamera-0.5.1/api-html/search/namespaces_0.js
 * /usr/share/doc/libcamera-0.5.1/api-html/search/pages_0.js
 * /usr/share/doc/libcamera-0.5.1/api-html/search/pages_1.js
@@ -721,6 +698,10 @@ A complex camera support library for Linux, Android, and ChromeOS
 * /usr/share/doc/libcamera-0.5.1/api-html/search/pages_4.js
 * /usr/share/doc/libcamera-0.5.1/api-html/search/pages_5.js
 * /usr/share/doc/libcamera-0.5.1/api-html/search/pages_6.js
+* /usr/share/doc/libcamera-0.5.1/api-html/search/pages_7.js
+* /usr/share/doc/libcamera-0.5.1/api-html/search/pages_8.js
+* /usr/share/doc/libcamera-0.5.1/api-html/search/pages_9.js
+* /usr/share/doc/libcamera-0.5.1/api-html/search/pages_a.js
 * /usr/share/doc/libcamera-0.5.1/api-html/search/search.css
 * /usr/share/doc/libcamera-0.5.1/api-html/search/search.js
 * /usr/share/doc/libcamera-0.5.1/api-html/search/searchdata.js
@@ -770,8 +751,6 @@ A complex camera support library for Linux, Android, and ChromeOS
 * /usr/share/doc/libcamera-0.5.1/api-html/signal_8h__incl.map
 * /usr/share/doc/libcamera-0.5.1/api-html/signal_8h__incl.md5
 * /usr/share/doc/libcamera-0.5.1/api-html/signal_8h__incl.png
-* /usr/share/doc/libcamera-0.5.1/api-html/splitbar.png
-* /usr/share/doc/libcamera-0.5.1/api-html/splitbard.png
 * /usr/share/doc/libcamera-0.5.1/api-html/stream_8h.html
 * /usr/share/doc/libcamera-0.5.1/api-html/stream_8h.js
 * /usr/share/doc/libcamera-0.5.1/api-html/stream_8h_source.html
@@ -799,17 +778,7 @@ A complex camera support library for Linux, Android, and ChromeOS
 * /usr/share/doc/libcamera-0.5.1/api-html/structlibcamera_1_1StreamConfiguration__coll__graph.map
 * /usr/share/doc/libcamera-0.5.1/api-html/structlibcamera_1_1StreamConfiguration__coll__graph.md5
 * /usr/share/doc/libcamera-0.5.1/api-html/structlibcamera_1_1StreamConfiguration__coll__graph.png
-* /usr/share/doc/libcamera-0.5.1/api-html/sync_off.png
-* /usr/share/doc/libcamera-0.5.1/api-html/sync_on.png
 * /usr/share/doc/libcamera-0.5.1/api-html/tabs.css
-* /usr/share/doc/libcamera-0.5.1/api-html/tab_a.png
-* /usr/share/doc/libcamera-0.5.1/api-html/tab_ad.png
-* /usr/share/doc/libcamera-0.5.1/api-html/tab_b.png
-* /usr/share/doc/libcamera-0.5.1/api-html/tab_bd.png
-* /usr/share/doc/libcamera-0.5.1/api-html/tab_h.png
-* /usr/share/doc/libcamera-0.5.1/api-html/tab_hd.png
-* /usr/share/doc/libcamera-0.5.1/api-html/tab_s.png
-* /usr/share/doc/libcamera-0.5.1/api-html/tab_sd.png
 * /usr/share/doc/libcamera-0.5.1/api-html/thread-safety.html
 * /usr/share/doc/libcamera-0.5.1/api-html/todo.html
 * /usr/share/doc/libcamera-0.5.1/api-html/transform_8h.html
@@ -968,8 +937,6 @@ A complex camera support library for Linux, Android, and ChromeOS
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/bayer__format_8h__incl.map
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/bayer__format_8h__incl.md5
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/bayer__format_8h__incl.png
-* /usr/share/doc/libcamera-0.5.1/internal-api-html/bc_s.png
-* /usr/share/doc/libcamera-0.5.1/internal-api-html/bc_sd.png
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/blc_8h.html
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/blc_8h.js
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/blc_8h_source.html
@@ -1857,7 +1824,6 @@ A complex camera support library for Linux, Android, and ChromeOS
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/class_8h__incl.md5
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/class_8h__incl.png
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/clipboard.js
-* /usr/share/doc/libcamera-0.5.1/internal-api-html/closed.png
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/color__space_8h.html
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/color__space_8h.js
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/color__space_8h_source.html
@@ -2104,8 +2070,6 @@ A complex camera support library for Linux, Android, and ChromeOS
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/dma__buf__allocator_8cpp__incl.md5
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/dma__buf__allocator_8cpp__incl.png
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/dma__buf__allocator_8h_source.html
-* /usr/share/doc/libcamera-0.5.1/internal-api-html/doc.svg
-* /usr/share/doc/libcamera-0.5.1/internal-api-html/docd.svg
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/dot_inline_dotgraph_1.png
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/doxygen.css
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/doxygen.svg
@@ -2185,10 +2149,6 @@ A complex camera support library for Linux, Android, and ChromeOS
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/flags_8h__incl.map
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/flags_8h__incl.md5
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/flags_8h__incl.png
-* /usr/share/doc/libcamera-0.5.1/internal-api-html/folderclosed.svg
-* /usr/share/doc/libcamera-0.5.1/internal-api-html/folderclosedd.svg
-* /usr/share/doc/libcamera-0.5.1/internal-api-html/folderopen.svg
-* /usr/share/doc/libcamera-0.5.1/internal-api-html/folderopend.svg
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/framebuffer_8h.html
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/framebuffer_8h.js
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/framebuffer_8h_source.html
@@ -2956,6 +2916,8 @@ A complex camera support library for Linux, Android, and ChromeOS
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/memfd_8h__incl.map
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/memfd_8h__incl.md5
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/memfd_8h__incl.png
+* /usr/share/doc/libcamera-0.5.1/internal-api-html/menu.js
+* /usr/share/doc/libcamera-0.5.1/internal-api-html/menudata.js
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/message_8h.html
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/message_8h.js
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/message_8h_source.html
@@ -2965,8 +2927,6 @@ A complex camera support library for Linux, Android, and ChromeOS
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/message_8h__incl.map
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/message_8h__incl.md5
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/message_8h__incl.png
-* /usr/share/doc/libcamera-0.5.1/internal-api-html/minus.svg
-* /usr/share/doc/libcamera-0.5.1/internal-api-html/minusd.svg
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/mutex_8h.html
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/mutex_8h.js
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/mutex_8h_source.html
@@ -3034,11 +2994,6 @@ A complex camera support library for Linux, Android, and ChromeOS
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/navtreeindex7.js
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/navtreeindex8.js
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/navtreeindex9.js
-* /usr/share/doc/libcamera-0.5.1/internal-api-html/nav_f.png
-* /usr/share/doc/libcamera-0.5.1/internal-api-html/nav_fd.png
-* /usr/share/doc/libcamera-0.5.1/internal-api-html/nav_g.png
-* /usr/share/doc/libcamera-0.5.1/internal-api-html/nav_h.png
-* /usr/share/doc/libcamera-0.5.1/internal-api-html/nav_hd.png
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/object_8h.html
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/object_8h.js
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/object_8h_source.html
@@ -3048,7 +3003,6 @@ A complex camera support library for Linux, Android, and ChromeOS
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/object_8h__incl.map
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/object_8h__incl.md5
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/object_8h__incl.png
-* /usr/share/doc/libcamera-0.5.1/internal-api-html/open.png
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/orientation_8h.html
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/orientation_8h.js
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/orientation_8h_source.html
@@ -3077,8 +3031,6 @@ A complex camera support library for Linux, Android, and ChromeOS
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/pixel__format_8h__incl.map
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/pixel__format_8h__incl.md5
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/pixel__format_8h__incl.png
-* /usr/share/doc/libcamera-0.5.1/internal-api-html/plus.svg
-* /usr/share/doc/libcamera-0.5.1/internal-api-html/plusd.svg
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/private_8h_source.html
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/process_8h.html
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/process_8h.js
@@ -3125,7 +3077,6 @@ A complex camera support library for Linux, Android, and ChromeOS
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/request_8h__incl.map
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/request_8h__incl.md5
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/request_8h__incl.png
-* /usr/share/doc/libcamera-0.5.1/internal-api-html/resize.js
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/rotate0.svg
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/rotate0Mirror.svg
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/rotate180.svg
@@ -3180,7 +3131,6 @@ A complex camera support library for Linux, Android, and ChromeOS
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/search/classes_d.js
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/search/classes_e.js
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/search/classes_f.js
-* /usr/share/doc/libcamera-0.5.1/internal-api-html/search/close.svg
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/search/defines_0.js
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/search/defines_1.js
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/search/defines_2.js
@@ -3271,10 +3221,6 @@ A complex camera support library for Linux, Android, and ChromeOS
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/search/functions_d.js
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/search/functions_e.js
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/search/functions_f.js
-* /usr/share/doc/libcamera-0.5.1/internal-api-html/search/mag.svg
-* /usr/share/doc/libcamera-0.5.1/internal-api-html/search/mag_d.svg
-* /usr/share/doc/libcamera-0.5.1/internal-api-html/search/mag_sel.svg
-* /usr/share/doc/libcamera-0.5.1/internal-api-html/search/mag_seld.svg
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/search/namespaces_0.js
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/search/pages_0.js
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/search/pages_1.js
@@ -3283,6 +3229,10 @@ A complex camera support library for Linux, Android, and ChromeOS
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/search/pages_4.js
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/search/pages_5.js
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/search/pages_6.js
+* /usr/share/doc/libcamera-0.5.1/internal-api-html/search/pages_7.js
+* /usr/share/doc/libcamera-0.5.1/internal-api-html/search/pages_8.js
+* /usr/share/doc/libcamera-0.5.1/internal-api-html/search/pages_9.js
+* /usr/share/doc/libcamera-0.5.1/internal-api-html/search/pages_a.js
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/search/related_0.js
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/search/search.css
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/search/search.js
@@ -3364,8 +3314,6 @@ A complex camera support library for Linux, Android, and ChromeOS
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/source__paths_8h__incl.map
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/source__paths_8h__incl.md5
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/source__paths_8h__incl.png
-* /usr/share/doc/libcamera-0.5.1/internal-api-html/splitbar.png
-* /usr/share/doc/libcamera-0.5.1/internal-api-html/splitbard.png
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/stream_8h.html
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/stream_8h.js
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/stream_8h_source.html
@@ -3553,8 +3501,6 @@ A complex camera support library for Linux, Android, and ChromeOS
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/structlibcamera_1_1V4L2Subdevice_1_1Stream.js
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/swisp__stats_8h_source.html
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/swstats__cpu_8h_source.html
-* /usr/share/doc/libcamera-0.5.1/internal-api-html/sync_off.png
-* /usr/share/doc/libcamera-0.5.1/internal-api-html/sync_on.png
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/sysfs_8h.html
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/sysfs_8h.js
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/sysfs_8h_source.html
@@ -3562,14 +3508,6 @@ A complex camera support library for Linux, Android, and ChromeOS
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/sysfs_8h__incl.md5
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/sysfs_8h__incl.png
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/tabs.css
-* /usr/share/doc/libcamera-0.5.1/internal-api-html/tab_a.png
-* /usr/share/doc/libcamera-0.5.1/internal-api-html/tab_ad.png
-* /usr/share/doc/libcamera-0.5.1/internal-api-html/tab_b.png
-* /usr/share/doc/libcamera-0.5.1/internal-api-html/tab_bd.png
-* /usr/share/doc/libcamera-0.5.1/internal-api-html/tab_h.png
-* /usr/share/doc/libcamera-0.5.1/internal-api-html/tab_hd.png
-* /usr/share/doc/libcamera-0.5.1/internal-api-html/tab_s.png
-* /usr/share/doc/libcamera-0.5.1/internal-api-html/tab_sd.png
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/thread-safety.html
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/thread.html
 * /usr/share/doc/libcamera-0.5.1/internal-api-html/thread_8h.html

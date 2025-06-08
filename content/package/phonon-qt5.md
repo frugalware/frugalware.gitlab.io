@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "phonon-qt5 4.12.0-20"
-version = "4.12.0-20"
+title = "phonon-qt5 4.12.0-21"
+version = "4.12.0-21"
 description = "The multimedia API for KDE 6."
-date = "2025-05-26T07:49:07"
+date = "2025-06-06T11:38:16"
 aliases = "/packages/201104"
 categories = ['xmultimedia']
 upstreamurl = "http://phonon.kde.org"
 arch = "x86_64"
-size = "219748"
+size = "219656"
 usize = "975054"
-sha1sum = "5998e5c624f98b0d3563517d87b8c8c2f432f374"
+sha1sum = "1053013c1f3e13363538a1db747081829f5cda8f"
 depends = "['libpulse>=9.0-2', 'libuuid>=2.28.2-2', 'libxml2>=2.9.4-3', 'qt5-base>=5.15.17']"
 reverse_depends = "['knotifications5']"
 +++

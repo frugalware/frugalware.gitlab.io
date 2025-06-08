@@ -1,60 +1,60 @@
 +++
 draft = false
-title = "qt6-virtualkeyboard 6.9.0-1"
-version = "6.9.0-1"
+title = "qt6-virtualkeyboard 6.9.1-2"
+version = "6.9.1-2"
 description = "The Qt6 toolkit, qtvirtualkeyboard"
-date = "2025-04-05T10:56:20"
+date = "2025-06-03T11:18:57"
 aliases = "/packages/220793"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "2253692"
-usize = "6156987"
-sha1sum = "be93e2c8a97e16b9bb610e002dc20525e588c612"
-depends = "['hunspell', 'qt6-declarative', 'qt6-svg']"
+size = "2265400"
+usize = "6166647"
+sha1sum = "1c8999dceb8ca07c2390f421fbc31fffad898b70"
+depends = "['hunspell', 'qt6-declarative', 'qt6-multimedia', 'qt6-svg']"
 reverse_depends = "['sddm']"
 +++
 ### Description: 
 The Qt6 toolkit, qtvirtualkeyboard
 
 ### Files: 
-* /usr/include/qt6/QtHunspellInputMethod/6.9.0/QtHunspellInputMethod/private/hunspellinputmethod_p.h
-* /usr/include/qt6/QtHunspellInputMethod/6.9.0/QtHunspellInputMethod/private/hunspellinputmethod_p_p.h
-* /usr/include/qt6/QtHunspellInputMethod/6.9.0/QtHunspellInputMethod/private/hunspellwordlist_p.h
-* /usr/include/qt6/QtHunspellInputMethod/6.9.0/QtHunspellInputMethod/private/hunspellworker_p.h
+* /usr/include/qt6/QtHunspellInputMethod/6.9.1/QtHunspellInputMethod/private/hunspellinputmethod_p.h
+* /usr/include/qt6/QtHunspellInputMethod/6.9.1/QtHunspellInputMethod/private/hunspellinputmethod_p_p.h
+* /usr/include/qt6/QtHunspellInputMethod/6.9.1/QtHunspellInputMethod/private/hunspellwordlist_p.h
+* /usr/include/qt6/QtHunspellInputMethod/6.9.1/QtHunspellInputMethod/private/hunspellworker_p.h
 * /usr/include/qt6/QtHunspellInputMethod/qhunspellinputmethod_global.h
 * /usr/include/qt6/QtHunspellInputMethod/QtHunspellInputMethod
 * /usr/include/qt6/QtHunspellInputMethod/QtHunspellInputMethodDepends
 * /usr/include/qt6/QtHunspellInputMethod/qthunspellinputmethodexports.h
 * /usr/include/qt6/QtHunspellInputMethod/QtHunspellInputMethodVersion
 * /usr/include/qt6/QtHunspellInputMethod/qthunspellinputmethodversion.h
-* /usr/include/qt6/QtVirtualKeyboard/6.9.0/QtVirtualKeyboard/private/abstractinputpanel_p.h
-* /usr/include/qt6/QtVirtualKeyboard/6.9.0/QtVirtualKeyboard/private/appinputpanel_p.h
-* /usr/include/qt6/QtVirtualKeyboard/6.9.0/QtVirtualKeyboard/private/appinputpanel_p_p.h
-* /usr/include/qt6/QtVirtualKeyboard/6.9.0/QtVirtualKeyboard/private/desktopinputpanel_p.h
-* /usr/include/qt6/QtVirtualKeyboard/6.9.0/QtVirtualKeyboard/private/desktopinputselectioncontrol_p.h
-* /usr/include/qt6/QtVirtualKeyboard/6.9.0/QtVirtualKeyboard/private/enterkeyactionattachedtype_p.h
-* /usr/include/qt6/QtVirtualKeyboard/6.9.0/QtVirtualKeyboard/private/enterkeyaction_p.h
-* /usr/include/qt6/QtVirtualKeyboard/6.9.0/QtVirtualKeyboard/private/fallbackinputmethod_p.h
-* /usr/include/qt6/QtVirtualKeyboard/6.9.0/QtVirtualKeyboard/private/gesturerecognizer_p.h
-* /usr/include/qt6/QtVirtualKeyboard/6.9.0/QtVirtualKeyboard/private/handwritinggesturerecognizer_p.h
-* /usr/include/qt6/QtVirtualKeyboard/6.9.0/QtVirtualKeyboard/private/inputmethod_p.h
-* /usr/include/qt6/QtVirtualKeyboard/6.9.0/QtVirtualKeyboard/private/inputselectionhandle_p.h
-* /usr/include/qt6/QtVirtualKeyboard/6.9.0/QtVirtualKeyboard/private/inputview_p.h
-* /usr/include/qt6/QtVirtualKeyboard/6.9.0/QtVirtualKeyboard/private/plaininputmethod_p.h
-* /usr/include/qt6/QtVirtualKeyboard/6.9.0/QtVirtualKeyboard/private/platforminputcontext_p.h
-* /usr/include/qt6/QtVirtualKeyboard/6.9.0/QtVirtualKeyboard/private/qtvirtualkeyboard-config_p.h
-* /usr/include/qt6/QtVirtualKeyboard/6.9.0/QtVirtualKeyboard/private/qvirtualkeyboardabstractinputmethod_p.h
-* /usr/include/qt6/QtVirtualKeyboard/6.9.0/QtVirtualKeyboard/private/qvirtualkeyboardfeatures_namespace_p.h
-* /usr/include/qt6/QtVirtualKeyboard/6.9.0/QtVirtualKeyboard/private/qvirtualkeyboardinputcontext_p.h
-* /usr/include/qt6/QtVirtualKeyboard/6.9.0/QtVirtualKeyboard/private/qvirtualkeyboardnamespace_p.h
-* /usr/include/qt6/QtVirtualKeyboard/6.9.0/QtVirtualKeyboard/private/qvirtualkeyboard_global_p.h
-* /usr/include/qt6/QtVirtualKeyboard/6.9.0/QtVirtualKeyboard/private/settings_p.h
-* /usr/include/qt6/QtVirtualKeyboard/6.9.0/QtVirtualKeyboard/private/shadowinputcontext_p.h
-* /usr/include/qt6/QtVirtualKeyboard/6.9.0/QtVirtualKeyboard/private/shifthandler_p.h
-* /usr/include/qt6/QtVirtualKeyboard/6.9.0/QtVirtualKeyboard/private/virtualkeyboardattachedtype_p.h
-* /usr/include/qt6/QtVirtualKeyboard/6.9.0/QtVirtualKeyboard/private/virtualkeyboarddebug_p.h
-* /usr/include/qt6/QtVirtualKeyboard/6.9.0/QtVirtualKeyboard/private/virtualkeyboard_p.h
+* /usr/include/qt6/QtVirtualKeyboard/6.9.1/QtVirtualKeyboard/private/abstractinputpanel_p.h
+* /usr/include/qt6/QtVirtualKeyboard/6.9.1/QtVirtualKeyboard/private/appinputpanel_p.h
+* /usr/include/qt6/QtVirtualKeyboard/6.9.1/QtVirtualKeyboard/private/appinputpanel_p_p.h
+* /usr/include/qt6/QtVirtualKeyboard/6.9.1/QtVirtualKeyboard/private/desktopinputpanel_p.h
+* /usr/include/qt6/QtVirtualKeyboard/6.9.1/QtVirtualKeyboard/private/desktopinputselectioncontrol_p.h
+* /usr/include/qt6/QtVirtualKeyboard/6.9.1/QtVirtualKeyboard/private/enterkeyactionattachedtype_p.h
+* /usr/include/qt6/QtVirtualKeyboard/6.9.1/QtVirtualKeyboard/private/enterkeyaction_p.h
+* /usr/include/qt6/QtVirtualKeyboard/6.9.1/QtVirtualKeyboard/private/fallbackinputmethod_p.h
+* /usr/include/qt6/QtVirtualKeyboard/6.9.1/QtVirtualKeyboard/private/gesturerecognizer_p.h
+* /usr/include/qt6/QtVirtualKeyboard/6.9.1/QtVirtualKeyboard/private/handwritinggesturerecognizer_p.h
+* /usr/include/qt6/QtVirtualKeyboard/6.9.1/QtVirtualKeyboard/private/inputmethod_p.h
+* /usr/include/qt6/QtVirtualKeyboard/6.9.1/QtVirtualKeyboard/private/inputselectionhandle_p.h
+* /usr/include/qt6/QtVirtualKeyboard/6.9.1/QtVirtualKeyboard/private/inputview_p.h
+* /usr/include/qt6/QtVirtualKeyboard/6.9.1/QtVirtualKeyboard/private/plaininputmethod_p.h
+* /usr/include/qt6/QtVirtualKeyboard/6.9.1/QtVirtualKeyboard/private/platforminputcontext_p.h
+* /usr/include/qt6/QtVirtualKeyboard/6.9.1/QtVirtualKeyboard/private/qtvirtualkeyboard-config_p.h
+* /usr/include/qt6/QtVirtualKeyboard/6.9.1/QtVirtualKeyboard/private/qvirtualkeyboardabstractinputmethod_p.h
+* /usr/include/qt6/QtVirtualKeyboard/6.9.1/QtVirtualKeyboard/private/qvirtualkeyboardfeatures_namespace_p.h
+* /usr/include/qt6/QtVirtualKeyboard/6.9.1/QtVirtualKeyboard/private/qvirtualkeyboardinputcontext_p.h
+* /usr/include/qt6/QtVirtualKeyboard/6.9.1/QtVirtualKeyboard/private/qvirtualkeyboardnamespace_p.h
+* /usr/include/qt6/QtVirtualKeyboard/6.9.1/QtVirtualKeyboard/private/qvirtualkeyboard_global_p.h
+* /usr/include/qt6/QtVirtualKeyboard/6.9.1/QtVirtualKeyboard/private/settings_p.h
+* /usr/include/qt6/QtVirtualKeyboard/6.9.1/QtVirtualKeyboard/private/shadowinputcontext_p.h
+* /usr/include/qt6/QtVirtualKeyboard/6.9.1/QtVirtualKeyboard/private/shifthandler_p.h
+* /usr/include/qt6/QtVirtualKeyboard/6.9.1/QtVirtualKeyboard/private/virtualkeyboardattachedtype_p.h
+* /usr/include/qt6/QtVirtualKeyboard/6.9.1/QtVirtualKeyboard/private/virtualkeyboarddebug_p.h
+* /usr/include/qt6/QtVirtualKeyboard/6.9.1/QtVirtualKeyboard/private/virtualkeyboard_p.h
 * /usr/include/qt6/QtVirtualKeyboard/QtVirtualKeyboard
 * /usr/include/qt6/QtVirtualKeyboard/qtvirtualkeyboard-config.h
 * /usr/include/qt6/QtVirtualKeyboard/QtVirtualKeyboardDepends
@@ -79,14 +79,14 @@ The Qt6 toolkit, qtvirtualkeyboard
 * /usr/include/qt6/QtVirtualKeyboard/qvirtualkeyboardtrace.h
 * /usr/include/qt6/QtVirtualKeyboard/qvirtualkeyboard_global.h
 * /usr/include/qt6/QtVirtualKeyboard/qvirtualkeyboard_namespace.h
-* /usr/include/qt6/QtVirtualKeyboardQml/6.9.0/QtVirtualKeyboardQml/private/qtvirtualkeyboardqml-config_p.h
+* /usr/include/qt6/QtVirtualKeyboardQml/6.9.1/QtVirtualKeyboardQml/private/qtvirtualkeyboardqml-config_p.h
 * /usr/include/qt6/QtVirtualKeyboardQml/QtVirtualKeyboardQml
 * /usr/include/qt6/QtVirtualKeyboardQml/qtvirtualkeyboardqml-config.h
 * /usr/include/qt6/QtVirtualKeyboardQml/QtVirtualKeyboardQmlDepends
 * /usr/include/qt6/QtVirtualKeyboardQml/qtvirtualkeyboardqmlexports.h
 * /usr/include/qt6/QtVirtualKeyboardQml/QtVirtualKeyboardQmlVersion
 * /usr/include/qt6/QtVirtualKeyboardQml/qtvirtualkeyboardqmlversion.h
-* /usr/include/qt6/QtVirtualKeyboardSettings/6.9.0/QtVirtualKeyboardSettings/private/qquickvirtualkeyboardsettings_p.h
+* /usr/include/qt6/QtVirtualKeyboardSettings/6.9.1/QtVirtualKeyboardSettings/private/qquickvirtualkeyboardsettings_p.h
 * /usr/include/qt6/QtVirtualKeyboardSettings/QtVirtualKeyboardSettings
 * /usr/include/qt6/QtVirtualKeyboardSettings/QtVirtualKeyboardSettingsDepends
 * /usr/include/qt6/QtVirtualKeyboardSettings/QtVirtualKeyboardSettingsVersion
@@ -261,19 +261,19 @@ The Qt6 toolkit, qtvirtualkeyboard
 * /usr/lib/libQt6HunspellInputMethod.prl
 * /usr/lib/libQt6HunspellInputMethod.so
 * /usr/lib/libQt6HunspellInputMethod.so.6
-* /usr/lib/libQt6HunspellInputMethod.so.6.9.0
+* /usr/lib/libQt6HunspellInputMethod.so.6.9.1
 * /usr/lib/libQt6VirtualKeyboard.prl
 * /usr/lib/libQt6VirtualKeyboard.so
 * /usr/lib/libQt6VirtualKeyboard.so.6
-* /usr/lib/libQt6VirtualKeyboard.so.6.9.0
+* /usr/lib/libQt6VirtualKeyboard.so.6.9.1
 * /usr/lib/libQt6VirtualKeyboardQml.prl
 * /usr/lib/libQt6VirtualKeyboardQml.so
 * /usr/lib/libQt6VirtualKeyboardQml.so.6
-* /usr/lib/libQt6VirtualKeyboardQml.so.6.9.0
+* /usr/lib/libQt6VirtualKeyboardQml.so.6.9.1
 * /usr/lib/libQt6VirtualKeyboardSettings.prl
 * /usr/lib/libQt6VirtualKeyboardSettings.so
 * /usr/lib/libQt6VirtualKeyboardSettings.so.6
-* /usr/lib/libQt6VirtualKeyboardSettings.so.6.9.0
+* /usr/lib/libQt6VirtualKeyboardSettings.so.6.9.1
 * /usr/lib/pkgconfig/Qt6HunspellInputMethod.pc
 * /usr/lib/pkgconfig/Qt6VirtualKeyboard.pc
 * /usr/lib/pkgconfig/Qt6VirtualKeyboardQml.pc
@@ -378,4 +378,4 @@ The Qt6 toolkit, qtvirtualkeyboard
 * /usr/lib/qt6/qml/QtQuick/VirtualKeyboard/Styles/TraceInputKeyPanel.qml
 * /usr/lib/qt6/qml/QtQuick/VirtualKeyboard/Styles/TraceUtils.js
 * /usr/lib/qt6/qml/QtQuick/VirtualKeyboard/VirtualKeyboardQml.qmltypes
-* /usr/lib/qt6/sbom/qtvirtualkeyboard-6.9.0.spdx
+* /usr/lib/qt6/sbom/qtvirtualkeyboard-6.9.1.spdx

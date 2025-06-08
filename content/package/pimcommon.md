@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "pimcommon 25.04.1-1"
-version = "25.04.1-1"
+title = "pimcommon 25.04.1-3"
+version = "25.04.1-3"
 description = "KdePim common files"
-date = "2025-05-09T15:38:07"
+date = "2025-06-05T14:21:38"
 aliases = "/packages/218468"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "472568"
-usize = "2207750"
-sha1sum = "f81a4d168d2054b9f0598ac5bdf95150bca8a0cb"
-depends = "['kimap>=25.04.1', 'knewstuff>=6.13.0', 'kpimtextedit>=25.04.1', 'ktextaddons>=1.3.1', 'libkdepim>=25.04.1', 'purpose>=6.13.0']"
+size = "481792"
+usize = "2272990"
+sha1sum = "0e828159f9dbe182f247786b424041006e905d43"
+depends = "['kimap>=25.04.1', 'knewstuff>=6.14.0', 'kpimtextedit>=25.04.1', 'ktextaddons>=1.3.1', 'libkdepim>=25.04.1', 'plasma-activities>=6.3.5', 'purpose>=6.14.0']"
 reverse_depends = "['calendarsupport', 'kalarm', 'kdepim-runtime', 'libgravatar', 'libksieve', 'mailimporter']"
 +++
 ### Description: 
@@ -103,6 +103,12 @@ KdePim common files
 * /usr/include/KPim6/PimCommon/PimCommon/WhatsNewTranslationsBase
 * /usr/include/KPim6/PimCommon/pimcommon/whatsnewtranslationsbase.h
 * /usr/include/KPim6/PimCommon/pimcommon_version.h
+* /usr/include/KPim6/PimCommonActivities/PimCommonActivities/ActivitiesBaseManager
+* /usr/include/KPim6/PimCommonActivities/pimcommonactivities/activitiesbasemanager.h
+* /usr/include/KPim6/PimCommonActivities/PimCommonActivities/ConfigureActivitiesWidget
+* /usr/include/KPim6/PimCommonActivities/pimcommonactivities/configureactivitieswidget.h
+* /usr/include/KPim6/PimCommonActivities/pimcommonactivities/pimcommonactivities_export.h
+* /usr/include/KPim6/PimCommonActivities/pimcommonactivities_version.h
 * /usr/include/KPim6/PimCommonAkonadi/PimCommonAkonadi/AddresseeLineEdit
 * /usr/include/KPim6/PimCommonAkonadi/pimcommonakonadi/addresseelineedit.h
 * /usr/include/KPim6/PimCommonAkonadi/PimCommonAkonadi/CheckedCollectionWidget
@@ -145,6 +151,10 @@ KdePim common files
 * /usr/lib/cmake/KPim6PimCommon/KPim6PimCommonConfigVersion.cmake
 * /usr/lib/cmake/KPim6PimCommon/KPim6PimCommonTargets-release.cmake
 * /usr/lib/cmake/KPim6PimCommon/KPim6PimCommonTargets.cmake
+* /usr/lib/cmake/KPim6PimCommonActivities/KPim6PimCommonActivitiesConfig.cmake
+* /usr/lib/cmake/KPim6PimCommonActivities/KPim6PimCommonActivitiesConfigVersion.cmake
+* /usr/lib/cmake/KPim6PimCommonActivities/KPim6PimCommonActivitiesTargets-release.cmake
+* /usr/lib/cmake/KPim6PimCommonActivities/KPim6PimCommonActivitiesTargets.cmake
 * /usr/lib/cmake/KPim6PimCommonAkonadi/KPim6PimCommonAkonadiConfig.cmake
 * /usr/lib/cmake/KPim6PimCommonAkonadi/KPim6PimCommonAkonadiConfigVersion.cmake
 * /usr/lib/cmake/KPim6PimCommonAkonadi/KPim6PimCommonAkonadiTargets-release.cmake
@@ -152,6 +162,9 @@ KdePim common files
 * /usr/lib/libKPim6PimCommon.so
 * /usr/lib/libKPim6PimCommon.so.6
 * /usr/lib/libKPim6PimCommon.so.6.4.1
+* /usr/lib/libKPim6PimCommonActivities.so
+* /usr/lib/libKPim6PimCommonActivities.so.6
+* /usr/lib/libKPim6PimCommonActivities.so.6.4.1
 * /usr/lib/libKPim6PimCommonAkonadi.so
 * /usr/lib/libKPim6PimCommonAkonadi.so.6
 * /usr/lib/libKPim6PimCommonAkonadi.so.6.4.1

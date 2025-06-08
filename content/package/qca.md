@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qca 2.3.10-5"
-version = "2.3.10-5"
+title = "qca 2.3.10-6"
+version = "2.3.10-6"
 description = "QCA aims to provide a straightforward and cross-platform crypto API, using Qt5 datatypes and conventions."
-date = "2025-05-26T08:01:27"
+date = "2025-06-06T11:51:33"
 aliases = "/packages/5422"
 categories = ['xlib']
 upstreamurl = "http://delta.affinix.com/qca/"
 arch = "x86_64"
-size = "581612"
-usize = "2322678"
-sha1sum = "fbc06f3c8566450ae4d80ddd9a66e5773c89abf6"
+size = "580504"
+usize = "2332806"
+sha1sum = "ad6701944a0a64c52232bdf6f50b302629fc4a47"
 depends = "['cyrus-sasl>=2.1.26-3', 'nss>=3.26', 'qt6-5compat>=6.8.2']"
 reverse_depends = "['kdepim-runtime', 'konversation', 'kpmcore', 'ksirk', 'kwallet', 'libktorrent', 'messagelib', 'okular', 'plasma-nm', 'qca-botan', 'qca-cyrus-sasl', 'qca-gcrypt', 'qca-gnupg', 'qca-nss', 'qca-ossl', 'quassel', 'skrooge']"
 license = "LGPL"

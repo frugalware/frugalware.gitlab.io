@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qt6-languageserver-static 6.9.0-2"
-version = "6.9.0-2"
+title = "qt6-languageserver-static 6.9.1-2"
+version = "6.9.1-2"
 description = "Qt6 languageserver static libs."
-date = "2025-05-26T10:49:59"
+date = "2025-06-03T11:59:18"
 aliases = "/packages/222536"
 categories = ['devel-extra']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "7441736"
-usize = "19429932"
-sha1sum = "f1d79dd696b7fecda601911b9bc4428f19b134d1"
+size = "7465900"
+usize = "19476284"
+sha1sum = "c3679c0c29712cf6d9113a7cf6587c698ba805a7"
 depends = "['libstdc++>=11.3']"
 +++
 ### Description: 

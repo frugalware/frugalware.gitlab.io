@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kweather 25.04.1-1"
-version = "25.04.1-1"
+title = "kweather 25.04.1-2"
+version = "25.04.1-2"
 description = "'Weather application for Plasma Mobile"
-date = "2025-05-09T18:34:51"
+date = "2025-06-05T09:02:20"
 aliases = "/packages/220988"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "391816"
-usize = "1607254"
-sha1sum = "fcc4b14b2dc70f1b5f135b6191c61d1e3ddfb2f5"
+size = "391552"
+usize = "1610262"
+sha1sum = "47a529323e2b2575163915117e7db5a315b5fcde"
 depends = "['kirigami-addons', 'kweathercore', 'libplasma', 'qt6-charts']"
 +++
 ### Description: 

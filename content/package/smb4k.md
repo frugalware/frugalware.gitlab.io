@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "smb4k 4.0.0-3"
-version = "4.0.0-3"
+title = "smb4k 4.0.0-4"
+version = "4.0.0-4"
 description = "Smb4K is a SMB/CIFS share browser for KDE."
-date = "2025-04-07T14:05:28"
+date = "2025-06-05T09:44:21"
 aliases = "/packages/3338"
 categories = ['kde6-extra']
 upstreamurl = "https://sourceforge.net/projects/smb4k"
 arch = "x86_64"
-size = "5133052"
-usize = "12447234"
-sha1sum = "9fb9c55904fcddc5466773393690fb57fdfa4342"
-depends = "['kcrash>=6.12.0', 'kdbusaddons>=6.12.0', 'kdnssd', 'kio>=6.12.0', 'kjobwidgets>=6.12.0', 'knotifications>=6.12.0', 'kstatusnotifieritem>=6.12.0', 'kwallet>=6.12.0', 'kxmlgui>=6.12.0', 'libplasma>=6.3.4', 'libsmbclient', 'qtkeychain', 'samba-client']"
+size = "5145852"
+usize = "12510426"
+sha1sum = "07c770592fe188119f148fa16fb2ca51fb628fd0"
+depends = "['kcrash>=6.14.0', 'kdbusaddons>=6.14.0', 'kdnssd', 'kio>=6.14.0', 'kjobwidgets>=6.14.0', 'knotifications>=6.14.0', 'kstatusnotifieritem>=6.14.0', 'kwallet>=6.14.0', 'kxmlgui>=6.14.0', 'libplasma>=6.3.5', 'libsmbclient', 'qtkeychain', 'samba-client']"
 +++
 ### Description: 
 Smb4K is a SMB/CIFS share browser for KDE.

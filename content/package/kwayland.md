@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kwayland 6.3.5-1"
-version = "6.3.5-1"
+title = "kwayland 6.3.5-2"
+version = "6.3.5-2"
 description = "KDE Wayland"
-date = "2025-05-07T09:21:41"
+date = "2025-06-04T13:44:28"
 aliases = "/packages/218361"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1296772"
-usize = "3547515"
-sha1sum = "c40991d11571c5a39850088707cee26bb00a40a6"
-depends = "['qt6-wayland>=6.9.0']"
+size = "1297836"
+usize = "3552699"
+sha1sum = "9875d857fb107a65271f717309c21ddc770e9fd9"
+depends = "['qt6-wayland>=6.9.1']"
 reverse_depends = "['kinfocenter', 'kpipewire', 'krfb', 'kwin', 'libkscreen', 'pinentry-qt6', 'plasma-integration', 'plasma-nano', 'xdg-desktop-portal-kde', 'yakuake']"
 +++
 ### Description: 

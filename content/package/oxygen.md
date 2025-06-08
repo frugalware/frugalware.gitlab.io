@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "oxygen 6.3.5-1"
-version = "6.3.5-1"
+title = "oxygen 6.3.5-2"
+version = "6.3.5-2"
 description = "KDE Oxygen style."
-date = "2025-05-08T18:47:14"
+date = "2025-06-04T14:52:18"
 aliases = "/packages/218391"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3151384"
-usize = "19134027"
-sha1sum = "9d568d0d7b332cf9b37b761bbfa4d19e85ba6f8c"
-depends = "['frameworkintegration>=6.13.0', 'kwin>=6.3.5']"
+size = "3151200"
+usize = "19142395"
+sha1sum = "382652bbda1d490206e9019ad8aa1b0d95990d79"
+depends = "['frameworkintegration>=6.14.0', 'kwin>=6.3.5']"
 reverse_depends = "['lumina-desktop']"
 +++
 ### Description: 

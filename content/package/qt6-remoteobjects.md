@@ -1,40 +1,40 @@
 +++
 draft = false
-title = "qt6-remoteobjects 6.9.0-1"
-version = "6.9.0-1"
+title = "qt6-remoteobjects 6.9.1-1"
+version = "6.9.1-1"
 description = "The Qt6 toolkit, qtremoteobjects"
-date = "2025-04-04T11:21:01"
+date = "2025-06-03T11:41:47"
 aliases = "/packages/220769"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "458600"
-usize = "1864259"
-sha1sum = "295f683dde90346099b1b7c4e424b70d6d8e92c1"
+size = "462168"
+usize = "1869036"
+sha1sum = "4307476bfda53bed86866535b42eb39d48c65294"
 depends = "['qt6-declarative', 'qt6-sensors']"
 +++
 ### Description: 
 The Qt6 toolkit, qtremoteobjects
 
 ### Files: 
-* /usr/include/qt6/QtRemoteObjects/6.9.0/QtRemoteObjects/private/qconnectionfactories_p.h
-* /usr/include/qt6/QtRemoteObjects/6.9.0/QtRemoteObjects/private/qconnection_local_backend_p.h
-* /usr/include/qt6/QtRemoteObjects/6.9.0/QtRemoteObjects/private/qconnection_tcpip_backend_p.h
-* /usr/include/qt6/QtRemoteObjects/6.9.0/QtRemoteObjects/private/qremoteobjectabstractitemmodeladapter_p.h
-* /usr/include/qt6/QtRemoteObjects/6.9.0/QtRemoteObjects/private/qremoteobjectabstractitemmodelreplica_p.h
-* /usr/include/qt6/QtRemoteObjects/6.9.0/QtRemoteObjects/private/qremoteobjectabstractitemmodeltypes_p.h
-* /usr/include/qt6/QtRemoteObjects/6.9.0/QtRemoteObjects/private/qremoteobjectcontainers_p.h
-* /usr/include/qt6/QtRemoteObjects/6.9.0/QtRemoteObjects/private/qremoteobjectnode_p.h
-* /usr/include/qt6/QtRemoteObjects/6.9.0/QtRemoteObjects/private/qremoteobjectpacket_p.h
-* /usr/include/qt6/QtRemoteObjects/6.9.0/QtRemoteObjects/private/qremoteobjectpendingcall_p.h
-* /usr/include/qt6/QtRemoteObjects/6.9.0/QtRemoteObjects/private/qremoteobjectregistrysource_p.h
-* /usr/include/qt6/QtRemoteObjects/6.9.0/QtRemoteObjects/private/qremoteobjectreplica_p.h
-* /usr/include/qt6/QtRemoteObjects/6.9.0/QtRemoteObjects/private/qremoteobjectrepparser_p.h
-* /usr/include/qt6/QtRemoteObjects/6.9.0/QtRemoteObjects/private/qremoteobjectsourceio_p.h
-* /usr/include/qt6/QtRemoteObjects/6.9.0/QtRemoteObjects/private/qremoteobjectsource_p.h
-* /usr/include/qt6/QtRemoteObjects/6.9.0/QtRemoteObjects/private/qremoteobjectstructs_p.h
-* /usr/include/qt6/QtRemoteObjects/6.9.0/QtRemoteObjects/private/qtremoteobjects-config_p.h
-* /usr/include/qt6/QtRemoteObjects/6.9.0/QtRemoteObjects/private/rep_grammar_p.h
+* /usr/include/qt6/QtRemoteObjects/6.9.1/QtRemoteObjects/private/qconnectionfactories_p.h
+* /usr/include/qt6/QtRemoteObjects/6.9.1/QtRemoteObjects/private/qconnection_local_backend_p.h
+* /usr/include/qt6/QtRemoteObjects/6.9.1/QtRemoteObjects/private/qconnection_tcpip_backend_p.h
+* /usr/include/qt6/QtRemoteObjects/6.9.1/QtRemoteObjects/private/qremoteobjectabstractitemmodeladapter_p.h
+* /usr/include/qt6/QtRemoteObjects/6.9.1/QtRemoteObjects/private/qremoteobjectabstractitemmodelreplica_p.h
+* /usr/include/qt6/QtRemoteObjects/6.9.1/QtRemoteObjects/private/qremoteobjectabstractitemmodeltypes_p.h
+* /usr/include/qt6/QtRemoteObjects/6.9.1/QtRemoteObjects/private/qremoteobjectcontainers_p.h
+* /usr/include/qt6/QtRemoteObjects/6.9.1/QtRemoteObjects/private/qremoteobjectnode_p.h
+* /usr/include/qt6/QtRemoteObjects/6.9.1/QtRemoteObjects/private/qremoteobjectpacket_p.h
+* /usr/include/qt6/QtRemoteObjects/6.9.1/QtRemoteObjects/private/qremoteobjectpendingcall_p.h
+* /usr/include/qt6/QtRemoteObjects/6.9.1/QtRemoteObjects/private/qremoteobjectregistrysource_p.h
+* /usr/include/qt6/QtRemoteObjects/6.9.1/QtRemoteObjects/private/qremoteobjectreplica_p.h
+* /usr/include/qt6/QtRemoteObjects/6.9.1/QtRemoteObjects/private/qremoteobjectrepparser_p.h
+* /usr/include/qt6/QtRemoteObjects/6.9.1/QtRemoteObjects/private/qremoteobjectsourceio_p.h
+* /usr/include/qt6/QtRemoteObjects/6.9.1/QtRemoteObjects/private/qremoteobjectsource_p.h
+* /usr/include/qt6/QtRemoteObjects/6.9.1/QtRemoteObjects/private/qremoteobjectstructs_p.h
+* /usr/include/qt6/QtRemoteObjects/6.9.1/QtRemoteObjects/private/qtremoteobjects-config_p.h
+* /usr/include/qt6/QtRemoteObjects/6.9.1/QtRemoteObjects/private/rep_grammar_p.h
 * /usr/include/qt6/QtRemoteObjects/QAbstractItemModelReplica
 * /usr/include/qt6/QtRemoteObjects/QConnectionAbstractServer
 * /usr/include/qt6/QtRemoteObjects/qconnectionfactories.h
@@ -75,7 +75,7 @@ The Qt6 toolkit, qtremoteobjects
 * /usr/include/qt6/QtRemoteObjects/QtROServerFactory
 * /usr/include/qt6/QtRemoteObjects/QtROServerIoDevice
 * /usr/include/qt6/QtRemoteObjects/repparser.h
-* /usr/include/qt6/QtRemoteObjectsQml/6.9.0/QtRemoteObjectsQml/private/qremoteobjectsqml_p.h
+* /usr/include/qt6/QtRemoteObjectsQml/6.9.1/QtRemoteObjectsQml/private/qremoteobjectsqml_p.h
 * /usr/include/qt6/QtRemoteObjectsQml/QtRemoteObjectsQml
 * /usr/include/qt6/QtRemoteObjectsQml/QtRemoteObjectsQmlDepends
 * /usr/include/qt6/QtRemoteObjectsQml/QtRemoteObjectsQmlVersion
@@ -152,11 +152,11 @@ The Qt6 toolkit, qtremoteobjects
 * /usr/lib/libQt6RemoteObjects.prl
 * /usr/lib/libQt6RemoteObjects.so
 * /usr/lib/libQt6RemoteObjects.so.6
-* /usr/lib/libQt6RemoteObjects.so.6.9.0
+* /usr/lib/libQt6RemoteObjects.so.6.9.1
 * /usr/lib/libQt6RemoteObjectsQml.prl
 * /usr/lib/libQt6RemoteObjectsQml.so
 * /usr/lib/libQt6RemoteObjectsQml.so.6
-* /usr/lib/libQt6RemoteObjectsQml.so.6.9.0
+* /usr/lib/libQt6RemoteObjectsQml.so.6.9.1
 * /usr/lib/pkgconfig/Qt6RemoteObjects.pc
 * /usr/lib/pkgconfig/Qt6RemoteObjectsQml.pc
 * /usr/lib/pkgconfig/Qt6RepParser.pc
@@ -181,4 +181,4 @@ The Qt6 toolkit, qtremoteobjects
 * /usr/lib/qt6/qml/QtRemoteObjects/plugins.qmltypes
 * /usr/lib/qt6/qml/QtRemoteObjects/qmldir
 * /usr/lib/qt6/repc
-* /usr/lib/qt6/sbom/qtremoteobjects-6.9.0.spdx
+* /usr/lib/qt6/sbom/qtremoteobjects-6.9.1.spdx

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "clang 19.1.7-2"
-version = "19.1.7-2"
+title = "clang 19.1.7-3"
+version = "19.1.7-3"
 description = "C/C++ language family frontend for LLVM"
-date = "2025-05-19T12:45:17"
+date = "2025-06-04T08:54:43"
 aliases = "/packages/136475"
 categories = ['devel']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "24365448"
-usize = "142317847"
-sha1sum = "7a9b8c0ac3f987e6558f154885050b1b501c90b1"
+size = "24332064"
+usize = "142296691"
+sha1sum = "faa559f1af866991e36ec330a09eeec59141d7c7"
 depends = "['clang-libs>=19.1.7', 'libffi>=3.4', 'libxml2>=2.14.3']"
 reverse_depends = "['insight-toolkit', 'lldb', 'qtcreator', 'zig']"
 +++

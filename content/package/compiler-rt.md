@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "compiler-rt 19.1.7-2"
-version = "19.1.7-2"
+title = "compiler-rt 19.1.7-3"
+version = "19.1.7-3"
 description = "Compiler runtime libraries for clang"
-date = "2025-05-19T12:45:17"
+date = "2025-06-04T08:54:43"
 aliases = "/packages/219834"
 categories = ['devel']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "2575560"
-usize = "21784781"
-sha1sum = "45f1e29eab2dc05f4f5684378cd6fd60b59cff95"
+size = "2577504"
+usize = "21784917"
+sha1sum = "1c3b11846e044df51328508f3caa75d4429cf6f2"
 depends = "[]"
 +++
 ### Description: 

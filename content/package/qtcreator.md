@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qtcreator 16.0.1-1"
-version = "16.0.1-1"
+title = "qtcreator 16.0.2-1"
+version = "16.0.2-1"
 description = "The Qt6 toolkit, qtcreator"
-date = "2025-04-22T13:20:18"
+date = "2025-06-06T12:20:49"
 aliases = "/packages/103815"
 categories = ['xapps-extra']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "35070012"
-usize = "140845438"
-sha1sum = "b981415849b1f1c693f7927eac94ae4d45b22f90"
+size = "35062900"
+usize = "140673651"
+sha1sum = "9c69196639340d4a1525d6538786ce242bcbc821"
 depends = "['clang>=19.1.1', 'cmake', 'gdb', 'litehtml', 'qt6-5compat', 'qt6-base-sql-common', 'qt6-quick3d', 'qt6-svg', 'qt6-tools', 'qt6-webengine', 'rustc-demangle', 'yaml-cpp>=0.8.0']"
 +++
 ### Description: 
@@ -20,51 +20,51 @@ The Qt6 toolkit, qtcreator
 * /usr/bin/qtcreator
 * /usr/bin/qtcreator.sh
 * /usr/lib/qtcreator/libAdvancedDockingSystem.so.16
-* /usr/lib/qtcreator/libAdvancedDockingSystem.so.16.0.1
+* /usr/lib/qtcreator/libAdvancedDockingSystem.so.16.0.2
 * /usr/lib/qtcreator/libAggregation.so.16
-* /usr/lib/qtcreator/libAggregation.so.16.0.1
+* /usr/lib/qtcreator/libAggregation.so.16.0.2
 * /usr/lib/qtcreator/libCmdBridgeClient.so.16
-* /usr/lib/qtcreator/libCmdBridgeClient.so.16.0.1
+* /usr/lib/qtcreator/libCmdBridgeClient.so.16.0.2
 * /usr/lib/qtcreator/libCPlusPlus.so.16
-* /usr/lib/qtcreator/libCPlusPlus.so.16.0.1
+* /usr/lib/qtcreator/libCPlusPlus.so.16.0.2
 * /usr/lib/qtcreator/libExtensionSystem.so.16
-* /usr/lib/qtcreator/libExtensionSystem.so.16.0.1
+* /usr/lib/qtcreator/libExtensionSystem.so.16.0.2
 * /usr/lib/qtcreator/libGLSL.so.16
-* /usr/lib/qtcreator/libGLSL.so.16.0.1
+* /usr/lib/qtcreator/libGLSL.so.16.0.2
 * /usr/lib/qtcreator/libKSyntaxHighlighting.so.16
-* /usr/lib/qtcreator/libKSyntaxHighlighting.so.16.0.1
+* /usr/lib/qtcreator/libKSyntaxHighlighting.so.16.0.2
 * /usr/lib/qtcreator/libLanguageServerProtocol.so.16
-* /usr/lib/qtcreator/libLanguageServerProtocol.so.16.0.1
+* /usr/lib/qtcreator/libLanguageServerProtocol.so.16.0.2
 * /usr/lib/qtcreator/libLanguageUtils.so.16
-* /usr/lib/qtcreator/libLanguageUtils.so.16.0.1
+* /usr/lib/qtcreator/libLanguageUtils.so.16.0.2
 * /usr/lib/qtcreator/libModeling.so.16
-* /usr/lib/qtcreator/libModeling.so.16.0.1
+* /usr/lib/qtcreator/libModeling.so.16.0.2
 * /usr/lib/qtcreator/libNanotrace.so.16
-* /usr/lib/qtcreator/libNanotrace.so.16.0.1
+* /usr/lib/qtcreator/libNanotrace.so.16.0.2
 * /usr/lib/qtcreator/libProParser.so.16
-* /usr/lib/qtcreator/libProParser.so.16.0.1
+* /usr/lib/qtcreator/libProParser.so.16.0.2
 * /usr/lib/qtcreator/libqlitehtml.so.16
-* /usr/lib/qtcreator/libqlitehtml.so.16.0.1
+* /usr/lib/qtcreator/libqlitehtml.so.16.0.2
 * /usr/lib/qtcreator/libQmlDebug.so.16
-* /usr/lib/qtcreator/libQmlDebug.so.16.0.1
+* /usr/lib/qtcreator/libQmlDebug.so.16.0.2
 * /usr/lib/qtcreator/libQmlDesignerCore.so.16
-* /usr/lib/qtcreator/libQmlDesignerCore.so.16.0.1
+* /usr/lib/qtcreator/libQmlDesignerCore.so.16.0.2
 * /usr/lib/qtcreator/libQmlEditorWidgets.so.16
-* /usr/lib/qtcreator/libQmlEditorWidgets.so.16.0.1
+* /usr/lib/qtcreator/libQmlEditorWidgets.so.16.0.2
 * /usr/lib/qtcreator/libQmlJS.so.16
-* /usr/lib/qtcreator/libQmlJS.so.16.0.1
+* /usr/lib/qtcreator/libQmlJS.so.16.0.2
 * /usr/lib/qtcreator/libqtkeychain.so.16
-* /usr/lib/qtcreator/libqtkeychain.so.16.0.1
+* /usr/lib/qtcreator/libqtkeychain.so.16.0.2
 * /usr/lib/qtcreator/libSqlite.so.16
-* /usr/lib/qtcreator/libSqlite.so.16.0.1
+* /usr/lib/qtcreator/libSqlite.so.16.0.2
 * /usr/lib/qtcreator/libTerminalLib.so.16
-* /usr/lib/qtcreator/libTerminalLib.so.16.0.1
+* /usr/lib/qtcreator/libTerminalLib.so.16.0.2
 * /usr/lib/qtcreator/libTracing.so.16
-* /usr/lib/qtcreator/libTracing.so.16.0.1
+* /usr/lib/qtcreator/libTracing.so.16.0.2
 * /usr/lib/qtcreator/libUtils.so.16
-* /usr/lib/qtcreator/libUtils.so.16.0.1
+* /usr/lib/qtcreator/libUtils.so.16.0.2
 * /usr/lib/qtcreator/libZip.so.16
-* /usr/lib/qtcreator/libZip.so.16.0.1
+* /usr/lib/qtcreator/libZip.so.16.0.2
 * /usr/lib/qtcreator/plugins/libAndroid.so
 * /usr/lib/qtcreator/plugins/libAutoTest.so
 * /usr/lib/qtcreator/plugins/libAutotoolsProjectManager.so
@@ -164,7 +164,7 @@ The Qt6 toolkit, qtcreator
 * /usr/lib/qtcreator/qtcreator/cpaster
 * /usr/lib/qtcreator/qtcreator/perf2text
 * /usr/lib/qtcreator/qtcreator/perfparser
-* /usr/lib/qtcreator/qtcreator/qmlpuppet-16.0.1
+* /usr/lib/qtcreator/qtcreator/qmlpuppet-16.0.2
 * /usr/lib/qtcreator/qtcreator/qtc-askpass
 * /usr/lib/qtcreator/qtcreator/qtcreator_process_stub
 * /usr/lib/qtcreator/qtcreator/qtpromaker
@@ -206,6 +206,7 @@ The Qt6 toolkit, qtcreator
 * /usr/share/qtcreator/changelog/changes-15.0.1.md
 * /usr/share/qtcreator/changelog/changes-16.0.0.md
 * /usr/share/qtcreator/changelog/changes-16.0.1.md
+* /usr/share/qtcreator/changelog/changes-16.0.2.md
 * /usr/share/qtcreator/changelog/changes-2.0.0
 * /usr/share/qtcreator/changelog/changes-2.0.1
 * /usr/share/qtcreator/changelog/changes-2.1.0

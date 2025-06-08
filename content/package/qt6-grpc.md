@@ -1,26 +1,26 @@
 +++
 draft = false
-title = "qt6-grpc 6.9.0-3"
-version = "6.9.0-3"
+title = "qt6-grpc 6.9.1-2"
+version = "6.9.1-2"
 description = "The Qt6 toolkit, qtgrpc"
-date = "2025-06-02T11:56:08"
+date = "2025-06-04T10:23:53"
 aliases = "/packages/220947"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "613868"
-usize = "4044400"
-sha1sum = "19b759671165d9a1e852beb2efe5613137aca8a3"
+size = "615108"
+usize = "4063641"
+sha1sum = "0a341d2ee7f224735b9b11f847bf567ff5f2b0fa"
 depends = "['grpc>=1.72.1', 'qt6-quick3d']"
 +++
 ### Description: 
 The Qt6 toolkit, qtgrpc
 
 ### Files: 
-* /usr/include/qt6/QtGrpc/6.9.0/QtGrpc/private/qabstractgrpcchannel_p.h
-* /usr/include/qt6/QtGrpc/6.9.0/QtGrpc/private/qgrpcoperation_p.h
-* /usr/include/qt6/QtGrpc/6.9.0/QtGrpc/private/qtgrpc-config_p.h
-* /usr/include/qt6/QtGrpc/6.9.0/QtGrpc/private/qtgrpclogging_p.h
+* /usr/include/qt6/QtGrpc/6.9.1/QtGrpc/private/qabstractgrpcchannel_p.h
+* /usr/include/qt6/QtGrpc/6.9.1/QtGrpc/private/qgrpcoperation_p.h
+* /usr/include/qt6/QtGrpc/6.9.1/QtGrpc/private/qtgrpc-config_p.h
+* /usr/include/qt6/QtGrpc/6.9.1/QtGrpc/private/qtgrpclogging_p.h
 * /usr/include/qt6/QtGrpc/QAbstractGrpcChannel
 * /usr/include/qt6/QtGrpc/qabstractgrpcchannel.h
 * /usr/include/qt6/QtGrpc/QGrpcBidiStream
@@ -54,12 +54,12 @@ The Qt6 toolkit, qtgrpc
 * /usr/include/qt6/QtGrpc/qtgrpcnamespace.h
 * /usr/include/qt6/QtGrpc/QtGrpcVersion
 * /usr/include/qt6/QtGrpc/qtgrpcversion.h
-* /usr/include/qt6/QtGrpcQuick/6.9.0/QtGrpcQuick/private/qqmlabstractgrpcchannel_p.h
-* /usr/include/qt6/QtGrpcQuick/6.9.0/QtGrpcQuick/private/qqmlgrpcchanneloptions_p.h
-* /usr/include/qt6/QtGrpcQuick/6.9.0/QtGrpcQuick/private/qqmlgrpchttp2channel_p.h
-* /usr/include/qt6/QtGrpcQuick/6.9.0/QtGrpcQuick/private/qqmlgrpcmetadata_p.h
-* /usr/include/qt6/QtGrpcQuick/6.9.0/QtGrpcQuick/private/qqmlgrpcnamespace_p.h
-* /usr/include/qt6/QtGrpcQuick/6.9.0/QtGrpcQuick/private/qtgrpcquicklogging_p.h
+* /usr/include/qt6/QtGrpcQuick/6.9.1/QtGrpcQuick/private/qqmlabstractgrpcchannel_p.h
+* /usr/include/qt6/QtGrpcQuick/6.9.1/QtGrpcQuick/private/qqmlgrpcchanneloptions_p.h
+* /usr/include/qt6/QtGrpcQuick/6.9.1/QtGrpcQuick/private/qqmlgrpchttp2channel_p.h
+* /usr/include/qt6/QtGrpcQuick/6.9.1/QtGrpcQuick/private/qqmlgrpcmetadata_p.h
+* /usr/include/qt6/QtGrpcQuick/6.9.1/QtGrpcQuick/private/qqmlgrpcnamespace_p.h
+* /usr/include/qt6/QtGrpcQuick/6.9.1/QtGrpcQuick/private/qtgrpcquicklogging_p.h
 * /usr/include/qt6/QtGrpcQuick/QQmlAbstractGrpcChannel
 * /usr/include/qt6/QtGrpcQuick/qqmlabstractgrpcchannel.h
 * /usr/include/qt6/QtGrpcQuick/qqmlgrpccalloptions.h
@@ -70,21 +70,21 @@ The Qt6 toolkit, qtgrpc
 * /usr/include/qt6/QtGrpcQuick/QtGrpcQuickVersion
 * /usr/include/qt6/QtGrpcQuick/qtgrpcquickversion.h
 * /usr/include/qt6/QtGrpcQuick/qtqmlgrpcstreamsender.h
-* /usr/include/qt6/QtProtobuf/6.9.0/QtProtobuf/private/protobuffieldpresencechecker_p.h
-* /usr/include/qt6/QtProtobuf/6.9.0/QtProtobuf/private/protobufscalarjsonserializers_p.h
-* /usr/include/qt6/QtProtobuf/6.9.0/QtProtobuf/private/protobufscalarserializers_p.h
-* /usr/include/qt6/QtProtobuf/6.9.0/QtProtobuf/private/qprotobufdeserializerbase_p.h
-* /usr/include/qt6/QtProtobuf/6.9.0/QtProtobuf/private/qprotobufjsonserializer_p.h
-* /usr/include/qt6/QtProtobuf/6.9.0/QtProtobuf/private/qprotobufmessage_p.h
-* /usr/include/qt6/QtProtobuf/6.9.0/QtProtobuf/private/qprotobufpropertyorderingbuilder_p.h
-* /usr/include/qt6/QtProtobuf/6.9.0/QtProtobuf/private/qprotobufregistration_p.h
-* /usr/include/qt6/QtProtobuf/6.9.0/QtProtobuf/private/qprotobufselfcheckiterator_p.h
-* /usr/include/qt6/QtProtobuf/6.9.0/QtProtobuf/private/qprotobufserializerbase_p.h
-* /usr/include/qt6/QtProtobuf/6.9.0/QtProtobuf/private/qprotobufserializer_p.h
-* /usr/include/qt6/QtProtobuf/6.9.0/QtProtobuf/private/qtprotobuf-config_p.h
-* /usr/include/qt6/QtProtobuf/6.9.0/QtProtobuf/private/qtprotobufdefs_p.h
-* /usr/include/qt6/QtProtobuf/6.9.0/QtProtobuf/private/qtprotobuflogging_p.h
-* /usr/include/qt6/QtProtobuf/6.9.0/QtProtobuf/private/qtprotobufserializerhelpers_p.h
+* /usr/include/qt6/QtProtobuf/6.9.1/QtProtobuf/private/protobuffieldpresencechecker_p.h
+* /usr/include/qt6/QtProtobuf/6.9.1/QtProtobuf/private/protobufscalarjsonserializers_p.h
+* /usr/include/qt6/QtProtobuf/6.9.1/QtProtobuf/private/protobufscalarserializers_p.h
+* /usr/include/qt6/QtProtobuf/6.9.1/QtProtobuf/private/qprotobufdeserializerbase_p.h
+* /usr/include/qt6/QtProtobuf/6.9.1/QtProtobuf/private/qprotobufjsonserializer_p.h
+* /usr/include/qt6/QtProtobuf/6.9.1/QtProtobuf/private/qprotobufmessage_p.h
+* /usr/include/qt6/QtProtobuf/6.9.1/QtProtobuf/private/qprotobufpropertyorderingbuilder_p.h
+* /usr/include/qt6/QtProtobuf/6.9.1/QtProtobuf/private/qprotobufregistration_p.h
+* /usr/include/qt6/QtProtobuf/6.9.1/QtProtobuf/private/qprotobufselfcheckiterator_p.h
+* /usr/include/qt6/QtProtobuf/6.9.1/QtProtobuf/private/qprotobufserializerbase_p.h
+* /usr/include/qt6/QtProtobuf/6.9.1/QtProtobuf/private/qprotobufserializer_p.h
+* /usr/include/qt6/QtProtobuf/6.9.1/QtProtobuf/private/qtprotobuf-config_p.h
+* /usr/include/qt6/QtProtobuf/6.9.1/QtProtobuf/private/qtprotobufdefs_p.h
+* /usr/include/qt6/QtProtobuf/6.9.1/QtProtobuf/private/qtprotobuflogging_p.h
+* /usr/include/qt6/QtProtobuf/6.9.1/QtProtobuf/private/qtprotobufserializerhelpers_p.h
 * /usr/include/qt6/QtProtobuf/QAbstractProtobufSerializer
 * /usr/include/qt6/QtProtobuf/qabstractprotobufserializer.h
 * /usr/include/qt6/QtProtobuf/QProtobufJsonSerializer
@@ -112,9 +112,9 @@ The Qt6 toolkit, qtgrpc
 * /usr/include/qt6/QtProtobuf/qtprotobuftypes.h
 * /usr/include/qt6/QtProtobuf/QtProtobufVersion
 * /usr/include/qt6/QtProtobuf/qtprotobufversion.h
-* /usr/include/qt6/QtProtobufQtCoreTypes/6.9.0/QtProtobufQtCoreTypes/private/protobufqtcoretypes_exports.qpb.h
-* /usr/include/qt6/QtProtobufQtCoreTypes/6.9.0/QtProtobufQtCoreTypes/private/QtCore.qpb.h
-* /usr/include/qt6/QtProtobufQtCoreTypes/6.9.0/QtProtobufQtCoreTypes/private/qtprotobufqttypescommon_p.h
+* /usr/include/qt6/QtProtobufQtCoreTypes/6.9.1/QtProtobufQtCoreTypes/private/protobufqtcoretypes_exports.qpb.h
+* /usr/include/qt6/QtProtobufQtCoreTypes/6.9.1/QtProtobufQtCoreTypes/private/QtCore.qpb.h
+* /usr/include/qt6/QtProtobufQtCoreTypes/6.9.1/QtProtobufQtCoreTypes/private/qtprotobufqttypescommon_p.h
 * /usr/include/qt6/QtProtobufQtCoreTypes/QtCore/QtCore.proto
 * /usr/include/qt6/QtProtobufQtCoreTypes/QtProtobufQtCoreTypes
 * /usr/include/qt6/QtProtobufQtCoreTypes/qtprotobufqtcoretypes.h
@@ -123,8 +123,8 @@ The Qt6 toolkit, qtgrpc
 * /usr/include/qt6/QtProtobufQtCoreTypes/qtprotobufqtcoretypesglobal.h
 * /usr/include/qt6/QtProtobufQtCoreTypes/QtProtobufQtCoreTypesVersion
 * /usr/include/qt6/QtProtobufQtCoreTypes/qtprotobufqtcoretypesversion.h
-* /usr/include/qt6/QtProtobufQtGuiTypes/6.9.0/QtProtobufQtGuiTypes/private/protobufqtguitypes_exports.qpb.h
-* /usr/include/qt6/QtProtobufQtGuiTypes/6.9.0/QtProtobufQtGuiTypes/private/QtGui.qpb.h
+* /usr/include/qt6/QtProtobufQtGuiTypes/6.9.1/QtProtobufQtGuiTypes/private/protobufqtguitypes_exports.qpb.h
+* /usr/include/qt6/QtProtobufQtGuiTypes/6.9.1/QtProtobufQtGuiTypes/private/QtGui.qpb.h
 * /usr/include/qt6/QtProtobufQtGuiTypes/QtGui/QtGui.proto
 * /usr/include/qt6/QtProtobufQtGuiTypes/QtProtobufQtGuiTypes
 * /usr/include/qt6/QtProtobufQtGuiTypes/qtprotobufqtguitypes.h
@@ -133,13 +133,13 @@ The Qt6 toolkit, qtgrpc
 * /usr/include/qt6/QtProtobufQtGuiTypes/qtprotobufqtguitypesglobal.h
 * /usr/include/qt6/QtProtobufQtGuiTypes/QtProtobufQtGuiTypesVersion
 * /usr/include/qt6/QtProtobufQtGuiTypes/qtprotobufqtguitypesversion.h
-* /usr/include/qt6/QtProtobufQuick/6.9.0/QtProtobufQuick/private/qqmlprotobuftypes_p.h
+* /usr/include/qt6/QtProtobufQuick/6.9.1/QtProtobufQuick/private/qqmlprotobuftypes_p.h
 * /usr/include/qt6/QtProtobufQuick/QtProtobufQuick
 * /usr/include/qt6/QtProtobufQuick/QtProtobufQuickDepends
 * /usr/include/qt6/QtProtobufQuick/qtprotobufquickexports.h
 * /usr/include/qt6/QtProtobufQuick/QtProtobufQuickVersion
 * /usr/include/qt6/QtProtobufQuick/qtprotobufquickversion.h
-* /usr/include/qt6/QtProtobufWellKnownTypes/6.9.0/QtProtobufWellKnownTypes/private/qprotobufwellknowntypesjsonserializers_p.h
+* /usr/include/qt6/QtProtobufWellKnownTypes/6.9.1/QtProtobufWellKnownTypes/private/qprotobufwellknowntypesjsonserializers_p.h
 * /usr/include/qt6/QtProtobufWellKnownTypes/any.qpb.h
 * /usr/include/qt6/QtProtobufWellKnownTypes/api.qpb.h
 * /usr/include/qt6/QtProtobufWellKnownTypes/duration.qpb.h
@@ -329,31 +329,31 @@ The Qt6 toolkit, qtgrpc
 * /usr/lib/libQt6Grpc.prl
 * /usr/lib/libQt6Grpc.so
 * /usr/lib/libQt6Grpc.so.6
-* /usr/lib/libQt6Grpc.so.6.9.0
+* /usr/lib/libQt6Grpc.so.6.9.1
 * /usr/lib/libQt6GrpcQuick.prl
 * /usr/lib/libQt6GrpcQuick.so
 * /usr/lib/libQt6GrpcQuick.so.6
-* /usr/lib/libQt6GrpcQuick.so.6.9.0
+* /usr/lib/libQt6GrpcQuick.so.6.9.1
 * /usr/lib/libQt6Protobuf.prl
 * /usr/lib/libQt6Protobuf.so
 * /usr/lib/libQt6Protobuf.so.6
-* /usr/lib/libQt6Protobuf.so.6.9.0
+* /usr/lib/libQt6Protobuf.so.6.9.1
 * /usr/lib/libQt6ProtobufQtCoreTypes.prl
 * /usr/lib/libQt6ProtobufQtCoreTypes.so
 * /usr/lib/libQt6ProtobufQtCoreTypes.so.6
-* /usr/lib/libQt6ProtobufQtCoreTypes.so.6.9.0
+* /usr/lib/libQt6ProtobufQtCoreTypes.so.6.9.1
 * /usr/lib/libQt6ProtobufQtGuiTypes.prl
 * /usr/lib/libQt6ProtobufQtGuiTypes.so
 * /usr/lib/libQt6ProtobufQtGuiTypes.so.6
-* /usr/lib/libQt6ProtobufQtGuiTypes.so.6.9.0
+* /usr/lib/libQt6ProtobufQtGuiTypes.so.6.9.1
 * /usr/lib/libQt6ProtobufQuick.prl
 * /usr/lib/libQt6ProtobufQuick.so
 * /usr/lib/libQt6ProtobufQuick.so.6
-* /usr/lib/libQt6ProtobufQuick.so.6.9.0
+* /usr/lib/libQt6ProtobufQuick.so.6.9.1
 * /usr/lib/libQt6ProtobufWellKnownTypes.prl
 * /usr/lib/libQt6ProtobufWellKnownTypes.so
 * /usr/lib/libQt6ProtobufWellKnownTypes.so.6
-* /usr/lib/libQt6ProtobufWellKnownTypes.so.6.9.0
+* /usr/lib/libQt6ProtobufWellKnownTypes.so.6.9.1
 * /usr/lib/pkgconfig/Qt6Grpc.pc
 * /usr/lib/pkgconfig/Qt6GrpcQuick.pc
 * /usr/lib/pkgconfig/Qt6Protobuf.pc
@@ -397,4 +397,4 @@ The Qt6 toolkit, qtgrpc
 * /usr/lib/qt6/qml/QtProtobuf/qmldir
 * /usr/lib/qt6/qtgrpcgen
 * /usr/lib/qt6/qtprotobufgen
-* /usr/lib/qt6/sbom/qtgrpc-6.9.0.spdx
+* /usr/lib/qt6/sbom/qtgrpc-6.9.1.spdx

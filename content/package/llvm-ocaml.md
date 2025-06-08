@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "llvm-ocaml 19.1.7-2"
-version = "19.1.7-2"
+title = "llvm-ocaml 19.1.7-3"
+version = "19.1.7-3"
 description = "OCaml bindings for LLVM"
-date = "2025-05-19T12:45:17"
+date = "2025-06-04T08:54:43"
 aliases = "/packages/136476"
 categories = ['devel-extra']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "596152"
+size = "595820"
 usize = "916557"
-sha1sum = "867767a232aef3a9937c71b32ec5ac31a16bd0bd"
+sha1sum = "fc83b3d8a12e96c44fec4f90169864720ea29123"
 depends = "['llvm>=19.1.7', 'ocaml>=4.10.0']"
 +++
 ### Description: 

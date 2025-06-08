@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qt6-websockets 6.9.0-1"
-version = "6.9.0-1"
+title = "qt6-websockets 6.9.1-2"
+version = "6.9.1-2"
 description = "The Qt6 toolkit, qtwebsockets"
-date = "2025-04-04T11:23:02"
+date = "2025-06-03T11:37:23"
 aliases = "/packages/220772"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "93420"
-usize = "410099"
-sha1sum = "ae455fa7fb44bbcae9b0eb78cf08d8155e155f13"
+size = "94932"
+usize = "414853"
+sha1sum = "fd4e1a6627cc5fd9a7325041fae3df453c69991e"
 depends = "['qt6-declarative']"
 reverse_depends = "['arianna', 'kunifiedpush', 'qcoro', 'qt6-httpserver', 'tokodon']"
 +++
@@ -18,16 +18,16 @@ reverse_depends = "['arianna', 'kunifiedpush', 'qcoro', 'qt6-httpserver', 'tokod
 The Qt6 toolkit, qtwebsockets
 
 ### Files: 
-* /usr/include/qt6/QtWebSockets/6.9.0/QtWebSockets/private/qdefaultmaskgenerator_p.h
-* /usr/include/qt6/QtWebSockets/6.9.0/QtWebSockets/private/qwebsocketcorsauthenticator_p.h
-* /usr/include/qt6/QtWebSockets/6.9.0/QtWebSockets/private/qwebsocketdataprocessor_p.h
-* /usr/include/qt6/QtWebSockets/6.9.0/QtWebSockets/private/qwebsocketframe_p.h
-* /usr/include/qt6/QtWebSockets/6.9.0/QtWebSockets/private/qwebsockethandshakeoptions_p.h
-* /usr/include/qt6/QtWebSockets/6.9.0/QtWebSockets/private/qwebsockethandshakerequest_p.h
-* /usr/include/qt6/QtWebSockets/6.9.0/QtWebSockets/private/qwebsockethandshakeresponse_p.h
-* /usr/include/qt6/QtWebSockets/6.9.0/QtWebSockets/private/qwebsocketprotocol_p.h
-* /usr/include/qt6/QtWebSockets/6.9.0/QtWebSockets/private/qwebsocketserver_p.h
-* /usr/include/qt6/QtWebSockets/6.9.0/QtWebSockets/private/qwebsocket_p.h
+* /usr/include/qt6/QtWebSockets/6.9.1/QtWebSockets/private/qdefaultmaskgenerator_p.h
+* /usr/include/qt6/QtWebSockets/6.9.1/QtWebSockets/private/qwebsocketcorsauthenticator_p.h
+* /usr/include/qt6/QtWebSockets/6.9.1/QtWebSockets/private/qwebsocketdataprocessor_p.h
+* /usr/include/qt6/QtWebSockets/6.9.1/QtWebSockets/private/qwebsocketframe_p.h
+* /usr/include/qt6/QtWebSockets/6.9.1/QtWebSockets/private/qwebsockethandshakeoptions_p.h
+* /usr/include/qt6/QtWebSockets/6.9.1/QtWebSockets/private/qwebsockethandshakerequest_p.h
+* /usr/include/qt6/QtWebSockets/6.9.1/QtWebSockets/private/qwebsockethandshakeresponse_p.h
+* /usr/include/qt6/QtWebSockets/6.9.1/QtWebSockets/private/qwebsocketprotocol_p.h
+* /usr/include/qt6/QtWebSockets/6.9.1/QtWebSockets/private/qwebsocketserver_p.h
+* /usr/include/qt6/QtWebSockets/6.9.1/QtWebSockets/private/qwebsocket_p.h
 * /usr/include/qt6/QtWebSockets/QMaskGenerator
 * /usr/include/qt6/QtWebSockets/qmaskgenerator.h
 * /usr/include/qt6/QtWebSockets/QtWebSockets
@@ -73,7 +73,7 @@ The Qt6 toolkit, qtwebsockets
 * /usr/lib/libQt6WebSockets.prl
 * /usr/lib/libQt6WebSockets.so
 * /usr/lib/libQt6WebSockets.so.6
-* /usr/lib/libQt6WebSockets.so.6.9.0
+* /usr/lib/libQt6WebSockets.so.6.9.1
 * /usr/lib/pkgconfig/Qt6WebSockets.pc
 * /usr/lib/qt6/metatypes/qt6websockets_release_metatypes.json
 * /usr/lib/qt6/mkspecs/modules/qt_lib_websockets.pri
@@ -82,4 +82,4 @@ The Qt6 toolkit, qtwebsockets
 * /usr/lib/qt6/qml/QtWebSockets/libqmlwebsocketsplugin.so
 * /usr/lib/qt6/qml/QtWebSockets/plugins.qmltypes
 * /usr/lib/qt6/qml/QtWebSockets/qmldir
-* /usr/lib/qt6/sbom/qtwebsockets-6.9.0.spdx
+* /usr/lib/qt6/sbom/qtwebsockets-6.9.1.spdx

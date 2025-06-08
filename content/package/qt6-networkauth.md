@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qt6-networkauth 6.9.0-1"
-version = "6.9.0-1"
+title = "qt6-networkauth 6.9.1-2"
+version = "6.9.1-2"
 description = "The Qt6 toolkit, qtnetworkauth"
-date = "2025-04-04T11:20:12"
+date = "2025-06-03T11:35:58"
 aliases = "/packages/220768"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "109288"
-usize = "478013"
-sha1sum = "fdb280217f19a64c56db828750ea3b412be20099"
+size = "110656"
+usize = "478817"
+sha1sum = "bda007bc75d9493764acc0bcb6fa7b66beac1617"
 depends = "['qt6-base']"
 reverse_depends = "['digikam', 'kdenlive', 'kdepim-runtime']"
 +++
@@ -18,16 +18,16 @@ reverse_depends = "['digikam', 'kdenlive', 'kdepim-runtime']"
 The Qt6 toolkit, qtnetworkauth
 
 ### Files: 
-* /usr/include/qt6/QtNetworkAuth/6.9.0/QtNetworkAuth/private/qabstractoauth2_p.h
-* /usr/include/qt6/QtNetworkAuth/6.9.0/QtNetworkAuth/private/qabstractoauthreplyhandler_p.h
-* /usr/include/qt6/QtNetworkAuth/6.9.0/QtNetworkAuth/private/qabstractoauth_p.h
-* /usr/include/qt6/QtNetworkAuth/6.9.0/QtNetworkAuth/private/qoauth1signature_p.h
-* /usr/include/qt6/QtNetworkAuth/6.9.0/QtNetworkAuth/private/qoauth1_p.h
-* /usr/include/qt6/QtNetworkAuth/6.9.0/QtNetworkAuth/private/qoauth2authorizationcodeflow_p.h
-* /usr/include/qt6/QtNetworkAuth/6.9.0/QtNetworkAuth/private/qoauth2deviceauthorizationflow_p.h
-* /usr/include/qt6/QtNetworkAuth/6.9.0/QtNetworkAuth/private/qoauthhttpserverreplyhandler_p.h
-* /usr/include/qt6/QtNetworkAuth/6.9.0/QtNetworkAuth/private/qoauthoobreplyhandler_p.h
-* /usr/include/qt6/QtNetworkAuth/6.9.0/QtNetworkAuth/private/qtnetworkauth-config_p.h
+* /usr/include/qt6/QtNetworkAuth/6.9.1/QtNetworkAuth/private/qabstractoauth2_p.h
+* /usr/include/qt6/QtNetworkAuth/6.9.1/QtNetworkAuth/private/qabstractoauthreplyhandler_p.h
+* /usr/include/qt6/QtNetworkAuth/6.9.1/QtNetworkAuth/private/qabstractoauth_p.h
+* /usr/include/qt6/QtNetworkAuth/6.9.1/QtNetworkAuth/private/qoauth1signature_p.h
+* /usr/include/qt6/QtNetworkAuth/6.9.1/QtNetworkAuth/private/qoauth1_p.h
+* /usr/include/qt6/QtNetworkAuth/6.9.1/QtNetworkAuth/private/qoauth2authorizationcodeflow_p.h
+* /usr/include/qt6/QtNetworkAuth/6.9.1/QtNetworkAuth/private/qoauth2deviceauthorizationflow_p.h
+* /usr/include/qt6/QtNetworkAuth/6.9.1/QtNetworkAuth/private/qoauthhttpserverreplyhandler_p.h
+* /usr/include/qt6/QtNetworkAuth/6.9.1/QtNetworkAuth/private/qoauthoobreplyhandler_p.h
+* /usr/include/qt6/QtNetworkAuth/6.9.1/QtNetworkAuth/private/qtnetworkauth-config_p.h
 * /usr/include/qt6/QtNetworkAuth/QAbstractOAuth
 * /usr/include/qt6/QtNetworkAuth/qabstractoauth.h
 * /usr/include/qt6/QtNetworkAuth/QAbstractOAuth2
@@ -75,10 +75,10 @@ The Qt6 toolkit, qtnetworkauth
 * /usr/lib/libQt6NetworkAuth.prl
 * /usr/lib/libQt6NetworkAuth.so
 * /usr/lib/libQt6NetworkAuth.so.6
-* /usr/lib/libQt6NetworkAuth.so.6.9.0
+* /usr/lib/libQt6NetworkAuth.so.6.9.1
 * /usr/lib/pkgconfig/Qt6NetworkAuth.pc
 * /usr/lib/qt6/metatypes/qt6networkauth_release_metatypes.json
 * /usr/lib/qt6/mkspecs/modules/qt_lib_networkauth.pri
 * /usr/lib/qt6/mkspecs/modules/qt_lib_networkauth_private.pri
 * /usr/lib/qt6/modules/NetworkAuth.json
-* /usr/lib/qt6/sbom/qtnetworkauth-6.9.0.spdx
+* /usr/lib/qt6/sbom/qtnetworkauth-6.9.1.spdx

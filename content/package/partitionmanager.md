@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "partitionmanager 25.04.1-1"
-version = "25.04.1-1"
+title = "partitionmanager 25.04.1-2"
+version = "25.04.1-2"
 description = "A Kf5 utility that allows you to manage disks, partitions, and file systems."
-date = "2025-05-09T18:06:14"
+date = "2025-06-05T09:35:14"
 aliases = "/packages/118282"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2446412"
-usize = "6980460"
-sha1sum = "7e9fe19764778af7875ff5942567c56602e81927"
-depends = "['dosfstools', 'e2fsprogs', 'f2fs-tools', 'jfsutils', 'kiconthemes>=6.13.0', 'kio>=6.13.0', 'kpmcore>=4.1.0', 'reiserfsprogs', 'xfsprogs']"
+size = "2445000"
+usize = "6987020"
+sha1sum = "ccba6083176c2c2547e11688b5a64accf944f1f1"
+depends = "['dosfstools', 'e2fsprogs', 'f2fs-tools', 'jfsutils', 'kiconthemes>=6.14.0', 'kio>=6.14.0', 'kpmcore>=4.1.0', 'reiserfsprogs', 'xfsprogs']"
 +++
 ### Description: 
 A Kf5 utility that allows you to manage disks, partitions, and file systems.

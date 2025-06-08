@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libkeduvocdocument 25.04.1-1"
-version = "25.04.1-1"
+title = "libkeduvocdocument 25.04.1-2"
+version = "25.04.1-2"
 description = "Common libraries for KDE Edu release-service"
-date = "2025-05-09T15:06:06"
+date = "2025-06-04T15:58:02"
 aliases = "/packages/218369"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "166856"
-usize = "791519"
-sha1sum = "a0f4638582c426a6e5fd84093f39805736802acd"
-depends = "['kio>=6.13.0']"
+size = "166744"
+usize = "794879"
+sha1sum = "02b8c0a52f2567ff84238a6cf39e45ca3f0d400c"
+depends = "['kio>=6.14.0']"
 reverse_depends = "['kanagram', 'khangman', 'kwordquiz', 'parley']"
 +++
 ### Description: 

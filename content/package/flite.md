@@ -12,6 +12,7 @@ size = "5130268"
 usize = "9649346"
 sha1sum = "a5777ae89ec0dbe188c16d25b79e32aa3544cd8d"
 depends = "['alsa-lib']"
+reverse_depends = "['qt6-speech']"
 +++
 ### Description: 
 A lightweight speech synthesis engine

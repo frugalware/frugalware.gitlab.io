@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "polly 19.1.7-2"
-version = "19.1.7-2"
+title = "polly 19.1.7-3"
+version = "19.1.7-3"
 description = "High-level loop and data-locality optimizer and optimization infrastructure for LLVM"
-date = "2025-05-19T12:45:17"
+date = "2025-06-04T08:54:43"
 aliases = "/packages/220521"
 categories = ['devel-extra']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "2928488"
-usize = "18548151"
-sha1sum = "69106ee46df39d6a2fbfdb577fc80e015e492633"
+size = "2931864"
+usize = "18548152"
+sha1sum = "02ce2c83e7ec9f386e1632c0ef1f5958ffea8053"
 depends = "['llvm-libs>=19.1.7']"
 +++
 ### Description: 

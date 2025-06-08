@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "networkmanager-qt 6.14.0-1"
-version = "6.14.0-1"
+title = "networkmanager-qt 6.14.0-2"
+version = "6.14.0-2"
 description = "Qt wrapper for NetworkManager API."
-date = "2025-05-10T10:49:14"
+date = "2025-06-04T12:35:46"
 aliases = "/packages/218386"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "389348"
-usize = "1790218"
-sha1sum = "7fbb4aec4b5ffb53558eea32d059e8a93b7c5e0e"
-depends = "['networkmanager>=1.6.2', 'qt6-base>=6.9.0']"
-reverse_depends = "['kasts', 'kpublictransport', 'ksystemstats', 'plasma-nm', 'plasma-settings', 'plasma-vault', 'plasma-workspace', 'qrca']"
+size = "389028"
+usize = "1797770"
+sha1sum = "50fda51eea7b7b0887d0955f64aea83bff160d86"
+depends = "['networkmanager>=1.6.2', 'qt6-base>=6.9.1']"
+reverse_depends = "['kasts', 'kpublictransport', 'ksystemstats', 'plasma-nm', 'plasma-settings', 'plasma-vault', 'plasma-workspace', 'plasma5support', 'qrca']"
 +++
 ### Description: 
 Qt wrapper for NetworkManager API.

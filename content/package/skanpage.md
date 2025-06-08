@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "skanpage 25.04.1-1"
-version = "25.04.1-1"
+title = "skanpage 25.04.1-2"
+version = "25.04.1-2"
 description = "Utility to scan images and multi-page documents"
-date = "2025-05-09T18:59:59"
+date = "2025-06-05T09:40:03"
 aliases = "/packages/220994"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "206332"
-usize = "867446"
-sha1sum = "c218f74a80b1a892805ab03bb31593af9cf2ce61"
+size = "206600"
+usize = "869142"
+sha1sum = "ae87802bde42cf755fcd2f40f023b66ba44ff58e"
 depends = "['kirigami', 'kquickimageeditor', 'ksanecore', 'libgomp', 'purpose', 'qt6-webengine>=', 'tesseract-ocr']"
 +++
 ### Description: 

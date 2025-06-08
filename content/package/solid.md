@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "solid 6.14.0-1"
-version = "6.14.0-1"
+title = "solid 6.14.0-2"
+version = "6.14.0-2"
 description = "KDE Desktop hardware abstraction."
-date = "2025-05-10T12:26:59"
+date = "2025-06-04T13:00:35"
 aliases = "/packages/218411"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "400416"
-usize = "2081278"
-sha1sum = "cf21944ce2084338f78b2d69ea9cb50507635d1b"
-depends = "['libimobiledevice', 'libsystemd>=231-6', 'media-player-info', 'qt6-declarative>=6.9.0', 'udisks2>=2.1.7-2', 'upower>=0.99.4-2']"
+size = "400932"
+usize = "2086654"
+sha1sum = "8ab0b637c8a628a3b70faa2765579c0fd44b85d6"
+depends = "['libimobiledevice', 'libsystemd>=231-6', 'media-player-info', 'qt6-declarative>=6.9.1', 'udisks2>=2.1.7-2', 'upower>=0.99.4-2']"
 reverse_depends = "['discover', 'dolphin', 'isoimagewriter', 'kamoso', 'kinfocenter', 'kio', 'kmix', 'libkcompactdisc', 'plasma5support']"
 +++
 ### Description: 

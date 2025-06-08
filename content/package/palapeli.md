@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "palapeli 25.04.1-1"
-version = "25.04.1-1"
+title = "palapeli 25.04.1-2"
+version = "25.04.1-2"
 description = "Palapeli is a single-player jigsaw puzzle game."
-date = "2025-05-09T17:57:03"
+date = "2025-06-05T09:34:25"
 aliases = "/packages/219532"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2411624"
-usize = "4764355"
-sha1sum = "a0aea15e61c3381f95a1e185446e0fedfc5f0fea"
+size = "2412004"
+usize = "4770019"
+sha1sum = "7250149f97ab8ace91dc53816f81c88453d62606"
 depends = "['libkdegames>=25.04.1']"
 +++
 ### Description: 

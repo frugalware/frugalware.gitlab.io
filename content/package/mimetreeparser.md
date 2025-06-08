@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "mimetreeparser 25.04.1-1"
-version = "25.04.1-1"
+title = "mimetreeparser 25.04.1-2"
+version = "25.04.1-2"
 description = "Parser for MIME trees"
-date = "2025-05-09T12:25:17"
+date = "2025-06-04T15:31:25"
 aliases = "/packages/221365"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "230848"
-usize = "1033091"
-sha1sum = "abf14cbfdac1adfebcde166cbf1eae9fee9b687d"
-depends = "['kcalendarcore>=6.13.0', 'kcodecs>=6.13.0', 'ki18n>=6.13.0', 'kmbox>=25.04.1', 'kmime>=25.04.1', 'libkleo>=25.04.1']"
+size = "231080"
+usize = "1036259"
+sha1sum = "4e56c9bec65f797e272b266fca927255448fbb27"
+depends = "['kcalendarcore>=6.14.0', 'kcodecs>=6.14.0', 'ki18n>=6.14.0', 'kmbox>=25.04.1', 'kmime>=25.04.1', 'libkleo>=25.04.1']"
 reverse_depends = "['kleopatra', 'merkuro']"
 +++
 ### Description: 

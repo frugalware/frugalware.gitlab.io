@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "shiboken6 6.9.0-2"
-version = "6.9.0-2"
+title = "shiboken6 6.9.1-3"
+version = "6.9.1-3"
 description = "Support library for Python bindings."
-date = "2025-05-21T12:55:56"
+date = "2025-06-06T13:56:53"
 aliases = "/packages/220852"
 categories = ['devel-extra']
 upstreamurl = "https://wiki.qt.io/Qt_for_Python"
 arch = "x86_64"
-size = "1041612"
-usize = "3120712"
-sha1sum = "53d27cd8b8e809dcfbb4b4fe4ba55e1da13a24e1"
-depends = "['clang-libs>=19.1.1', 'libxslt', 'qt6-base>=6.9.0']"
+size = "978536"
+usize = "3538363"
+sha1sum = "4039d07496c748060d03c6a5a398d03496b68a8d"
+depends = "['clang-libs>=19.1.1', 'libxslt', 'qt6-base>=6.9.1']"
 +++
 ### Description: 
 Support library for Python bindings.
@@ -55,8 +55,8 @@ Support library for Python bindings.
 * /usr/include/shiboken6/signature_p.h
 * /usr/include/shiboken6/threadstatesaver.h
 * /usr/include/shiboken6/voidptr.h
-* /usr/lib/cmake/Shiboken6/Shiboken6Config.abi3.cmake
 * /usr/lib/cmake/Shiboken6/Shiboken6Config.cmake
+* /usr/lib/cmake/Shiboken6/Shiboken6Config.cpython-313-x86_64-linux-gnu.cmake
 * /usr/lib/cmake/Shiboken6/Shiboken6ConfigVersion.cmake
 * /usr/lib/cmake/Shiboken6/Shiboken6Targets-release.cmake
 * /usr/lib/cmake/Shiboken6/Shiboken6Targets.cmake
@@ -66,10 +66,10 @@ Support library for Python bindings.
 * /usr/lib/cmake/Shiboken6Tools/Shiboken6ToolsTargets-release.cmake
 * /usr/lib/cmake/Shiboken6Tools/Shiboken6ToolsTargets.cmake
 * /usr/lib/pkgconfig/shiboken6.pc
-* /usr/share/doc/shiboken6-6.9.0/README.md
-* /usr/share/doc/shiboken6-6.9.0/README.pyside6.md
-* /usr/share/doc/shiboken6-6.9.0/README.pyside6_addons.md
-* /usr/share/doc/shiboken6-6.9.0/README.pyside6_essentials.md
-* /usr/share/doc/shiboken6-6.9.0/README.pyside6_examples.md
-* /usr/share/doc/shiboken6-6.9.0/README.shiboken6-generator.md
-* /usr/share/doc/shiboken6-6.9.0/README.shiboken6.md
+* /usr/share/doc/shiboken6-6.9.1/README.md
+* /usr/share/doc/shiboken6-6.9.1/README.pyside6.md
+* /usr/share/doc/shiboken6-6.9.1/README.pyside6_addons.md
+* /usr/share/doc/shiboken6-6.9.1/README.pyside6_essentials.md
+* /usr/share/doc/shiboken6-6.9.1/README.pyside6_examples.md
+* /usr/share/doc/shiboken6-6.9.1/README.shiboken6-generator.md
+* /usr/share/doc/shiboken6-6.9.1/README.shiboken6.md

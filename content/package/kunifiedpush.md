@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kunifiedpush 25.04.1-1"
-version = "25.04.1-1"
+title = "kunifiedpush 25.04.1-2"
+version = "25.04.1-2"
 description = "UnifiedPush client components"
-date = "2025-05-09T19:35:17"
+date = "2025-06-05T09:00:31"
 aliases = "/packages/222601"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "117388"
-usize = "448918"
-sha1sum = "b1eb7cb7c265b30a01d361ac1b52051323dc9ab6"
-depends = "['kcmutils>=6.13.0', 'qt6-websockets>=6.9.0']"
+size = "118264"
+usize = "453878"
+sha1sum = "3e82af405b39d450c9ac8220236c4f555b3438fc"
+depends = "['kcmutils>=6.14.0', 'qt6-websockets>=6.9.1']"
 reverse_depends = "['neochat', 'tokodon']"
 +++
 ### Description: 

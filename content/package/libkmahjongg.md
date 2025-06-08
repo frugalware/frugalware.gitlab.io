@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libkmahjongg 25.04.1-1"
-version = "25.04.1-1"
+title = "libkmahjongg 25.04.1-3"
+version = "25.04.1-3"
 description = "Library for KDE mahjongg games."
-date = "2025-05-09T12:28:48"
+date = "2025-06-06T15:10:27"
 aliases = "/packages/184210"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2159856"
-usize = "2321201"
-sha1sum = "e3478cc8ae31521d9534c8fc6741a828e6341f77"
-depends = "['kcompletion>=6.13.0', 'kconfigwidgets>=6.13.0', 'qt6-svg>=6.9.0']"
+size = "1984840"
+usize = "2146835"
+sha1sum = "7f79298c8371cf415c5d6ac96417d98a3540229e"
+depends = "['kcompletion>=6.14.0', 'kconfigwidgets>=6.14.0', 'qt6-svg>=6.9.1']"
 reverse_depends = "['kajongg', 'kmahjongg', 'kshisen']"
 +++
 ### Description: 

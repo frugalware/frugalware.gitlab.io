@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pim-sieve-editor 25.04.1-1"
-version = "25.04.1-1"
+title = "pim-sieve-editor 25.04.1-2"
+version = "25.04.1-2"
 description = "Assistant for editing IMAP Sieve filters"
-date = "2025-05-09T16:43:07"
+date = "2025-06-04T16:57:49"
 aliases = "/packages/218942"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "561740"
-usize = "1429626"
-sha1sum = "aaa768ab155f0165f3494f0a228b33370a8a95ed"
+usize = "1431402"
+sha1sum = "ecf4eb0319a1fc9801807cdfceef4c38f5e145b8"
 depends = "['libksieve>=25.04.1', 'messagelib>=25.04.1']"
 +++
 ### Description: 

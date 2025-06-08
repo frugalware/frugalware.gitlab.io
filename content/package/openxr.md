@@ -12,7 +12,7 @@ size = "1243688"
 usize = "6314582"
 sha1sum = "fe01edb805030dfd2c2e9ae12f6f3a5892583887"
 depends = "['jsoncpp>=1.9.6', 'libglvnd', 'libx11', 'libxrandr', 'libxxf86vm', 'vulkan-icd-loader']"
-reverse_depends = "['vtk']"
+reverse_depends = "['qt6-quick3d', 'vtk']"
 +++
 ### Description: 
 An open standard for virtual reality and augmented reality platforms and devices

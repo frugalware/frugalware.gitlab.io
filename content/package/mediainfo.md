@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mediainfo 25.03-3"
-version = "25.03-3"
+title = "mediainfo 25.03-4"
+version = "25.03-4"
 description = "MediaInfo supplies technical and tag information about a video or audio file."
-date = "2025-04-08T10:02:33"
+date = "2025-06-06T13:35:20"
 aliases = "/packages/136860"
 categories = ['apps-extra']
 upstreamurl = "https://mediaarea.net/MediaInfo"
 arch = "x86_64"
-size = "20284"
-usize = "47199"
-sha1sum = "5b0a53df37ae5973133e04f39db3f521a1104da6"
+size = "20500"
+usize = "47335"
+sha1sum = "031ee6fbd6ed2ade3f515fb7bd715f4c09ac8fe8"
 depends = "['libmediainfo>=25.03']"
 +++
 ### Description: 

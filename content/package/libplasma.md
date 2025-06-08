@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "libplasma 6.3.5-1"
-version = "6.3.5-1"
+title = "libplasma 6.3.5-2"
+version = "6.3.5-2"
 description = "Plasma library and runtime components based upon KF5 and Qt5."
-date = "2025-05-07T09:25:46"
+date = "2025-06-04T13:47:41"
 aliases = "/packages/221364"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2456248"
-usize = "6102443"
-sha1sum = "5d111f8182c443149815a8026268c1acc600c003"
-depends = "['kcmutils>=6.13.0', 'ksvg>=6.13.0', 'plasma-activities>=6.3.5']"
-reverse_depends = "['bluedevil', 'discover', 'kate', 'kclock', 'kdevelop', 'knights', 'kscreen', 'kup', 'kweather', 'kwin', 'milou', 'plasma-nano', 'plasma-pa', 'plasma-sdk', 'plasma-vault', 'plasma-welcome', 'plasma-workspace', 'smb4k', 'wacomtablet']"
+size = "2457532"
+usize = "6122343"
+sha1sum = "3a815f94c47e922d4dd0c043bf0c21d4efc50579"
+depends = "['kcmutils>=6.14.0', 'ksvg>=6.14.0', 'plasma-activities>=6.3.5']"
+reverse_depends = "['bluedevil', 'discover', 'kate', 'kclock', 'kdevelop', 'knights', 'kscreen', 'kup', 'kweather', 'kwin', 'merkuro', 'milou', 'plasma-nano', 'plasma-pa', 'plasma-sdk', 'plasma-vault', 'plasma-welcome', 'plasma-workspace', 'smb4k', 'wacomtablet']"
 +++
 ### Description: 
 Plasma library and runtime components based upon KF5 and Qt5.

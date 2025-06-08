@@ -1,40 +1,40 @@
 +++
 draft = false
-title = "qt6-serialbus 6.9.0-1"
-version = "6.9.0-1"
+title = "qt6-serialbus 6.9.1-2"
+version = "6.9.1-2"
 description = "The Qt6 toolkit, qtserialbus"
-date = "2025-04-05T10:57:03"
+date = "2025-06-04T12:00:27"
 aliases = "/packages/220794"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "253984"
-usize = "1044445"
-sha1sum = "f8e9bcec198bc5d24151c7ea673b0a3dd971b33b"
+size = "257496"
+usize = "1054632"
+sha1sum = "a87c2053cffef46f3917b02cbf82695ff35d5655"
 depends = "['qt6-serialport']"
 +++
 ### Description: 
 The Qt6 toolkit, qtserialbus
 
 ### Files: 
-* /usr/include/qt6/QtSerialBus/6.9.0/QtSerialBus/private/qcanbusdeviceinfo_p.h
-* /usr/include/qt6/QtSerialBus/6.9.0/QtSerialBus/private/qcanbusdevice_p.h
-* /usr/include/qt6/QtSerialBus/6.9.0/QtSerialBus/private/qcandbcfileparser_p.h
-* /usr/include/qt6/QtSerialBus/6.9.0/QtSerialBus/private/qcanframeprocessor_p.h
-* /usr/include/qt6/QtSerialBus/6.9.0/QtSerialBus/private/qcanmessagedescription_p.h
-* /usr/include/qt6/QtSerialBus/6.9.0/QtSerialBus/private/qcansignaldescription_p.h
-* /usr/include/qt6/QtSerialBus/6.9.0/QtSerialBus/private/qcanuniqueiddescription_p.h
-* /usr/include/qt6/QtSerialBus/6.9.0/QtSerialBus/private/qmodbusadu_p.h
-* /usr/include/qt6/QtSerialBus/6.9.0/QtSerialBus/private/qmodbusclient_p.h
-* /usr/include/qt6/QtSerialBus/6.9.0/QtSerialBus/private/qmodbuscommevent_p.h
-* /usr/include/qt6/QtSerialBus/6.9.0/QtSerialBus/private/qmodbusdevice_p.h
-* /usr/include/qt6/QtSerialBus/6.9.0/QtSerialBus/private/qmodbusrtuserialclient_p.h
-* /usr/include/qt6/QtSerialBus/6.9.0/QtSerialBus/private/qmodbusrtuserialserver_p.h
-* /usr/include/qt6/QtSerialBus/6.9.0/QtSerialBus/private/qmodbusserver_p.h
-* /usr/include/qt6/QtSerialBus/6.9.0/QtSerialBus/private/qmodbustcpclient_p.h
-* /usr/include/qt6/QtSerialBus/6.9.0/QtSerialBus/private/qmodbustcpserver_p.h
-* /usr/include/qt6/QtSerialBus/6.9.0/QtSerialBus/private/qmodbus_symbols_p.h
-* /usr/include/qt6/QtSerialBus/6.9.0/QtSerialBus/private/qtserialbus-config_p.h
+* /usr/include/qt6/QtSerialBus/6.9.1/QtSerialBus/private/qcanbusdeviceinfo_p.h
+* /usr/include/qt6/QtSerialBus/6.9.1/QtSerialBus/private/qcanbusdevice_p.h
+* /usr/include/qt6/QtSerialBus/6.9.1/QtSerialBus/private/qcandbcfileparser_p.h
+* /usr/include/qt6/QtSerialBus/6.9.1/QtSerialBus/private/qcanframeprocessor_p.h
+* /usr/include/qt6/QtSerialBus/6.9.1/QtSerialBus/private/qcanmessagedescription_p.h
+* /usr/include/qt6/QtSerialBus/6.9.1/QtSerialBus/private/qcansignaldescription_p.h
+* /usr/include/qt6/QtSerialBus/6.9.1/QtSerialBus/private/qcanuniqueiddescription_p.h
+* /usr/include/qt6/QtSerialBus/6.9.1/QtSerialBus/private/qmodbusadu_p.h
+* /usr/include/qt6/QtSerialBus/6.9.1/QtSerialBus/private/qmodbusclient_p.h
+* /usr/include/qt6/QtSerialBus/6.9.1/QtSerialBus/private/qmodbuscommevent_p.h
+* /usr/include/qt6/QtSerialBus/6.9.1/QtSerialBus/private/qmodbusdevice_p.h
+* /usr/include/qt6/QtSerialBus/6.9.1/QtSerialBus/private/qmodbusrtuserialclient_p.h
+* /usr/include/qt6/QtSerialBus/6.9.1/QtSerialBus/private/qmodbusrtuserialserver_p.h
+* /usr/include/qt6/QtSerialBus/6.9.1/QtSerialBus/private/qmodbusserver_p.h
+* /usr/include/qt6/QtSerialBus/6.9.1/QtSerialBus/private/qmodbustcpclient_p.h
+* /usr/include/qt6/QtSerialBus/6.9.1/QtSerialBus/private/qmodbustcpserver_p.h
+* /usr/include/qt6/QtSerialBus/6.9.1/QtSerialBus/private/qmodbus_symbols_p.h
+* /usr/include/qt6/QtSerialBus/6.9.1/QtSerialBus/private/qtserialbus-config_p.h
 * /usr/include/qt6/QtSerialBus/QCanBus
 * /usr/include/qt6/QtSerialBus/qcanbus.h
 * /usr/include/qt6/QtSerialBus/QCanBusDevice
@@ -144,7 +144,7 @@ The Qt6 toolkit, qtserialbus
 * /usr/lib/libQt6SerialBus.prl
 * /usr/lib/libQt6SerialBus.so
 * /usr/lib/libQt6SerialBus.so.6
-* /usr/lib/libQt6SerialBus.so.6.9.0
+* /usr/lib/libQt6SerialBus.so.6.9.1
 * /usr/lib/pkgconfig/Qt6SerialBus.pc
 * /usr/lib/qt6/bin/canbusutil
 * /usr/lib/qt6/metatypes/qt6serialbus_release_metatypes.json
@@ -156,4 +156,4 @@ The Qt6 toolkit, qtserialbus
 * /usr/lib/qt6/plugins/canbus/libqtsocketcanbus.so
 * /usr/lib/qt6/plugins/canbus/libqttinycanbus.so
 * /usr/lib/qt6/plugins/canbus/libqtvirtualcanbus.so
-* /usr/lib/qt6/sbom/qtserialbus-6.9.0.spdx
+* /usr/lib/qt6/sbom/qtserialbus-6.9.1.spdx

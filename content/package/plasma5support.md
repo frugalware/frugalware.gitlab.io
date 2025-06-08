@@ -1,23 +1,25 @@
 +++
 draft = false
-title = "plasma5support 6.3.5-1"
-version = "6.3.5-1"
+title = "plasma5support 6.3.5-3"
+version = "6.3.5-3"
 description = "Support components for porting from KF5/Qt5 to KF6/Qt6"
-date = "2025-05-07T11:43:18"
+date = "2025-06-05T13:15:48"
 aliases = "/packages/221377"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "398376"
-usize = "1993861"
-sha1sum = "e8203faa8803d8422b178cc5a37fccf324887f97"
-depends = "['kconfig>=6.13.0', 'kcoreaddons>=6.13.0', 'kguiaddons>=6.13.0', 'ki18n>=6.13.0', 'kidletime>=6.13.0', 'knotifications>=6.13.0', 'libksysguard>=6.3.5', 'solid>=6.13.0']"
+size = "443472"
+usize = "2222006"
+sha1sum = "f86a861731fc493a5feb8d0bd0ff08829f885bbd"
+depends = "['kconfig>=6.14.0', 'kcoreaddons>=6.14.0', 'kguiaddons>=6.14.0', 'ki18n>=6.14.0', 'kidletime>=6.14.0', 'knotifications>=6.14.0', 'libksysguard>=6.3.5', 'networkmanager-qt>=6.14.0', 'plasma-activities>=6.3.5', 'solid>=6.14.0']"
 reverse_depends = "['kup', 'plasma-sdk', 'plasma-workspace', 'wacomtablet']"
 +++
 ### Description: 
 Support components for porting from KF5/Qt5 to KF6/Qt6
 
 ### Files: 
+* /usr/include/plasma/geolocation/geolocationprovider.h
+* /usr/include/plasma/geolocation/geolocation_export.h
 * /usr/include/Plasma5Support/Plasma5Support/DataContainer
 * /usr/include/Plasma5Support/plasma5support/datacontainer.h
 * /usr/include/Plasma5Support/Plasma5Support/DataEngine
@@ -40,13 +42,18 @@ Support components for porting from KF5/Qt5 to KF6/Qt6
 * /usr/lib/cmake/Plasma5Support/Plasma5SupportMacros.cmake
 * /usr/lib/cmake/Plasma5Support/Plasma5SupportTargets-release.cmake
 * /usr/lib/cmake/Plasma5Support/Plasma5SupportTargets.cmake
+* /usr/lib/libplasma-geolocation-interface.so
+* /usr/lib/libplasma-geolocation-interface.so.6
+* /usr/lib/libplasma-geolocation-interface.so.6.3.5
 * /usr/lib/libPlasma5Support.so
 * /usr/lib/libPlasma5Support.so.6
 * /usr/lib/libPlasma5Support.so.6.3.5
+* /usr/lib/qt6/plugins/plasma5support/dataengine/plasma_engine_activities.so
 * /usr/lib/qt6/plugins/plasma5support/dataengine/plasma_engine_apps.so
 * /usr/lib/qt6/plugins/plasma5support/dataengine/plasma_engine_devicenotifications.so
 * /usr/lib/qt6/plugins/plasma5support/dataengine/plasma_engine_favicons.so
 * /usr/lib/qt6/plugins/plasma5support/dataengine/plasma_engine_filebrowser.so
+* /usr/lib/qt6/plugins/plasma5support/dataengine/plasma_engine_geolocation.so
 * /usr/lib/qt6/plugins/plasma5support/dataengine/plasma_engine_hotplug.so
 * /usr/lib/qt6/plugins/plasma5support/dataengine/plasma_engine_keystate.so
 * /usr/lib/qt6/plugins/plasma5support/dataengine/plasma_engine_mouse.so
@@ -54,6 +61,7 @@ Support components for porting from KF5/Qt5 to KF6/Qt6
 * /usr/lib/qt6/plugins/plasma5support/dataengine/plasma_engine_places.so
 * /usr/lib/qt6/plugins/plasma5support/dataengine/plasma_engine_powermanagement.so
 * /usr/lib/qt6/plugins/plasma5support/dataengine/plasma_engine_soliddevice.so
+* /usr/lib/qt6/plugins/plasma5support/geolocationprovider/plasma-geolocation-ip.so
 * /usr/lib/qt6/qml/org/kde/plasma/plasma5support/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/plasma/plasma5support/libplasma5supportplugin.so
 * /usr/lib/qt6/qml/org/kde/plasma/plasma5support/plasma5supportplugin.qmltypes
@@ -401,6 +409,7 @@ Support components for porting from KF5/Qt5 to KF6/Qt6
 * /usr/share/locale/zh_TW/LC_MESSAGES/plasma_engine_keystate.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/plasma_engine_powermanagement.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/plasma_engine_soliddevice.mo
+* /usr/share/plasma5support/services/activities.operations
 * /usr/share/plasma5support/services/apps.operations
 * /usr/share/plasma5support/services/dataengineservice.operations
 * /usr/share/plasma5support/services/hotplug.operations

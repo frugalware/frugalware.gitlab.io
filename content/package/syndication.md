@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "syndication 6.14.0-1"
-version = "6.14.0-1"
+title = "syndication 6.14.0-2"
+version = "6.14.0-2"
 description = "KParts Kontact interface."
-date = "2025-05-10T12:32:33"
+date = "2025-06-04T13:05:04"
 aliases = "/packages/218415"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "202800"
-usize = "739574"
-sha1sum = "1a836afb341af321bede12eb45ea3fe4103e285e"
+size = "201560"
+usize = "742358"
+sha1sum = "609927cd5c811003fb8f0daacb63eb7c1c5044f5"
 depends = "['kio>=6.14.0']"
 reverse_depends = "['akregator', 'alligator', 'kasts', 'kdepim-runtime', 'knewstuff', 'ktorrent']"
 +++

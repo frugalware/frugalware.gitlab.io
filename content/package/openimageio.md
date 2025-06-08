@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openimageio 2.5.18.0-8"
-version = "2.5.18.0-8"
+title = "openimageio 2.5.18.0-9"
+version = "2.5.18.0-9"
 description = "A library for reading and writing images, including classes, utilities, and applications."
-date = "2025-05-26T14:27:56"
+date = "2025-06-06T10:11:22"
 aliases = "/packages/169088"
 categories = ['xlib-extra']
 upstreamurl = "http://www.openimageio.org/"
 arch = "x86_64"
-size = "4212284"
-usize = "17732867"
-sha1sum = "5e984a37a42a57288041e18d1a46aa9a334f2f16"
+size = "4212788"
+usize = "17735747"
+sha1sum = "186a55ed43e9961ee347a523ac44e784dab813aa"
 depends = "['fmtlib', 'glew>=2.0.0-2', 'libboost>=1.88.0', 'libheif', 'libraw>=0.21.1', 'libwebp', 'openblas', 'opencolorio', 'opencv>=4.11.0', 'openjpeg>=2.2.0', 'openssl>=1.1.1', 'openvdb>=12.0.0', 'pybind11']"
 reverse_depends = "['blender', 'embree', 'openshadinglanguage']"
 +++

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "pyside6 6.9.0-1"
-version = "6.9.0-1"
+title = "pyside6 6.9.1-4"
+version = "6.9.1-4"
 description = "The PySide project provides LGPL-licensed Python bindings for the Qt cross-platform application and UI framework."
-date = "2025-04-09T11:28:19"
+date = "2025-06-06T14:14:07"
 aliases = "/packages/220854"
 categories = ['lib-extra']
 upstreamurl = "https://wiki.qt.io/Qt_for_Python"
 arch = "x86_64"
-size = "9241592"
-usize = "50517247"
-sha1sum = "0eb30127187e241d163c1959158b98b417bed856"
-depends = "['python3>=3.13', 'python3-shiboken6>=6.9.0', 'qt6-declarative>=6.9.0']"
+size = "10183100"
+usize = "56152884"
+sha1sum = "50a3ef18d75ce3d891faad7f9c9ac71d7131681f"
+depends = "['python3>=3.13', 'python3-shiboken6>=6.9.1', 'qt6-declarative>=6.9.1']"
 reverse_depends = "['yin-yang']"
 +++
 ### Description: 
@@ -136,141 +136,141 @@ The PySide project provides LGPL-licensed Python bindings for the Qt cross-platf
 * /usr/include/PySide6/QtWidgets/pyside6_qtwidgets_python.h
 * /usr/include/PySide6/QtXml/pyside6_qtxml_python.h
 * /usr/include/PySide6/signalmanager.h
-* /usr/lib/cmake/PySide6/PySide6Config.abi3.cmake
 * /usr/lib/cmake/PySide6/PySide6Config.cmake
+* /usr/lib/cmake/PySide6/PySide6Config.cpython-313-x86_64-linux-gnu.cmake
 * /usr/lib/cmake/PySide6/PySide6ConfigVersion.cmake
 * /usr/lib/cmake/PySide6/PySide6Targets-release.cmake
 * /usr/lib/cmake/PySide6/PySide6Targets.cmake
-* /usr/lib/cmake/PySide6Qml/PySide6QmlConfig.abi3.cmake
 * /usr/lib/cmake/PySide6Qml/PySide6QmlConfig.cmake
+* /usr/lib/cmake/PySide6Qml/PySide6QmlConfig.cpython-313-x86_64-linux-gnu.cmake
 * /usr/lib/cmake/PySide6Qml/PySide6QmlConfigVersion.cmake
 * /usr/lib/cmake/PySide6Qml/PySide6QmlTargets-release.cmake
 * /usr/lib/cmake/PySide6Qml/PySide6QmlTargets.cmake
-* /usr/lib/libpyside6.abi3.so
-* /usr/lib/libpyside6.abi3.so.6.9
-* /usr/lib/libpyside6.abi3.so.6.9.0
-* /usr/lib/libpyside6qml.abi3.so
-* /usr/lib/libpyside6qml.abi3.so.6.9
-* /usr/lib/libpyside6qml.abi3.so.6.9.0
+* /usr/lib/libpyside6.cpython-313-x86_64-linux-gnu.so
+* /usr/lib/libpyside6.cpython-313-x86_64-linux-gnu.so.6.9
+* /usr/lib/libpyside6.cpython-313-x86_64-linux-gnu.so.6.9.1
+* /usr/lib/libpyside6qml.cpython-313-x86_64-linux-gnu.so
+* /usr/lib/libpyside6qml.cpython-313-x86_64-linux-gnu.so.6.9
+* /usr/lib/libpyside6qml.cpython-313-x86_64-linux-gnu.so.6.9.1
 * /usr/lib/pkgconfig/pyside6.pc
-* /usr/lib/python3.13/site-packages/PySide6/Qt3DAnimation.abi3.so
+* /usr/lib/python3.13/site-packages/PySide6/Qt3DAnimation.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/PySide6/Qt3DAnimation.pyi
-* /usr/lib/python3.13/site-packages/PySide6/Qt3DCore.abi3.so
+* /usr/lib/python3.13/site-packages/PySide6/Qt3DCore.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/PySide6/Qt3DCore.pyi
-* /usr/lib/python3.13/site-packages/PySide6/Qt3DExtras.abi3.so
+* /usr/lib/python3.13/site-packages/PySide6/Qt3DExtras.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/PySide6/Qt3DExtras.pyi
-* /usr/lib/python3.13/site-packages/PySide6/Qt3DInput.abi3.so
+* /usr/lib/python3.13/site-packages/PySide6/Qt3DInput.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/PySide6/Qt3DInput.pyi
-* /usr/lib/python3.13/site-packages/PySide6/Qt3DLogic.abi3.so
+* /usr/lib/python3.13/site-packages/PySide6/Qt3DLogic.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/PySide6/Qt3DLogic.pyi
-* /usr/lib/python3.13/site-packages/PySide6/Qt3DRender.abi3.so
+* /usr/lib/python3.13/site-packages/PySide6/Qt3DRender.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/PySide6/Qt3DRender.pyi
 * /usr/lib/python3.13/site-packages/PySide6/QtAsyncio/events.py
 * /usr/lib/python3.13/site-packages/PySide6/QtAsyncio/futures.py
 * /usr/lib/python3.13/site-packages/PySide6/QtAsyncio/tasks.py
 * /usr/lib/python3.13/site-packages/PySide6/QtAsyncio/__init__.py
-* /usr/lib/python3.13/site-packages/PySide6/QtBluetooth.abi3.so
+* /usr/lib/python3.13/site-packages/PySide6/QtBluetooth.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/PySide6/QtBluetooth.pyi
-* /usr/lib/python3.13/site-packages/PySide6/QtCharts.abi3.so
+* /usr/lib/python3.13/site-packages/PySide6/QtCharts.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/PySide6/QtCharts.pyi
-* /usr/lib/python3.13/site-packages/PySide6/QtConcurrent.abi3.so
+* /usr/lib/python3.13/site-packages/PySide6/QtConcurrent.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/PySide6/QtConcurrent.pyi
-* /usr/lib/python3.13/site-packages/PySide6/QtCore.abi3.so
+* /usr/lib/python3.13/site-packages/PySide6/QtCore.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/PySide6/QtCore.pyi
-* /usr/lib/python3.13/site-packages/PySide6/QtDataVisualization.abi3.so
+* /usr/lib/python3.13/site-packages/PySide6/QtDataVisualization.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/PySide6/QtDataVisualization.pyi
-* /usr/lib/python3.13/site-packages/PySide6/QtDBus.abi3.so
+* /usr/lib/python3.13/site-packages/PySide6/QtDBus.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/PySide6/QtDBus.pyi
-* /usr/lib/python3.13/site-packages/PySide6/QtDesigner.abi3.so
+* /usr/lib/python3.13/site-packages/PySide6/QtDesigner.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/PySide6/QtDesigner.pyi
-* /usr/lib/python3.13/site-packages/PySide6/QtExampleIcons.abi3.so
-* /usr/lib/python3.13/site-packages/PySide6/QtGraphs.abi3.so
+* /usr/lib/python3.13/site-packages/PySide6/QtExampleIcons.cpython-313-x86_64-linux-gnu.so
+* /usr/lib/python3.13/site-packages/PySide6/QtGraphs.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/PySide6/QtGraphs.pyi
-* /usr/lib/python3.13/site-packages/PySide6/QtGraphsWidgets.abi3.so
+* /usr/lib/python3.13/site-packages/PySide6/QtGraphsWidgets.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/PySide6/QtGraphsWidgets.pyi
-* /usr/lib/python3.13/site-packages/PySide6/QtGui.abi3.so
+* /usr/lib/python3.13/site-packages/PySide6/QtGui.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/PySide6/QtGui.pyi
-* /usr/lib/python3.13/site-packages/PySide6/QtHelp.abi3.so
+* /usr/lib/python3.13/site-packages/PySide6/QtHelp.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/PySide6/QtHelp.pyi
-* /usr/lib/python3.13/site-packages/PySide6/QtHttpServer.abi3.so
+* /usr/lib/python3.13/site-packages/PySide6/QtHttpServer.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/PySide6/QtHttpServer.pyi
-* /usr/lib/python3.13/site-packages/PySide6/QtLocation.abi3.so
+* /usr/lib/python3.13/site-packages/PySide6/QtLocation.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/PySide6/QtLocation.pyi
-* /usr/lib/python3.13/site-packages/PySide6/QtMultimedia.abi3.so
+* /usr/lib/python3.13/site-packages/PySide6/QtMultimedia.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/PySide6/QtMultimedia.pyi
-* /usr/lib/python3.13/site-packages/PySide6/QtMultimediaWidgets.abi3.so
+* /usr/lib/python3.13/site-packages/PySide6/QtMultimediaWidgets.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/PySide6/QtMultimediaWidgets.pyi
-* /usr/lib/python3.13/site-packages/PySide6/QtNetwork.abi3.so
+* /usr/lib/python3.13/site-packages/PySide6/QtNetwork.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/PySide6/QtNetwork.pyi
-* /usr/lib/python3.13/site-packages/PySide6/QtNetworkAuth.abi3.so
+* /usr/lib/python3.13/site-packages/PySide6/QtNetworkAuth.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/PySide6/QtNetworkAuth.pyi
-* /usr/lib/python3.13/site-packages/PySide6/QtNfc.abi3.so
+* /usr/lib/python3.13/site-packages/PySide6/QtNfc.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/PySide6/QtNfc.pyi
-* /usr/lib/python3.13/site-packages/PySide6/QtOpenGL.abi3.so
+* /usr/lib/python3.13/site-packages/PySide6/QtOpenGL.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/PySide6/QtOpenGL.pyi
-* /usr/lib/python3.13/site-packages/PySide6/QtOpenGLWidgets.abi3.so
+* /usr/lib/python3.13/site-packages/PySide6/QtOpenGLWidgets.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/PySide6/QtOpenGLWidgets.pyi
-* /usr/lib/python3.13/site-packages/PySide6/QtPdf.abi3.so
+* /usr/lib/python3.13/site-packages/PySide6/QtPdf.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/PySide6/QtPdf.pyi
-* /usr/lib/python3.13/site-packages/PySide6/QtPdfWidgets.abi3.so
+* /usr/lib/python3.13/site-packages/PySide6/QtPdfWidgets.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/PySide6/QtPdfWidgets.pyi
-* /usr/lib/python3.13/site-packages/PySide6/QtPositioning.abi3.so
+* /usr/lib/python3.13/site-packages/PySide6/QtPositioning.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/PySide6/QtPositioning.pyi
-* /usr/lib/python3.13/site-packages/PySide6/QtPrintSupport.abi3.so
+* /usr/lib/python3.13/site-packages/PySide6/QtPrintSupport.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/PySide6/QtPrintSupport.pyi
-* /usr/lib/python3.13/site-packages/PySide6/QtQml.abi3.so
+* /usr/lib/python3.13/site-packages/PySide6/QtQml.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/PySide6/QtQml.pyi
-* /usr/lib/python3.13/site-packages/PySide6/QtQuick.abi3.so
+* /usr/lib/python3.13/site-packages/PySide6/QtQuick.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/PySide6/QtQuick.pyi
-* /usr/lib/python3.13/site-packages/PySide6/QtQuick3D.abi3.so
+* /usr/lib/python3.13/site-packages/PySide6/QtQuick3D.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/PySide6/QtQuick3D.pyi
-* /usr/lib/python3.13/site-packages/PySide6/QtQuickControls2.abi3.so
+* /usr/lib/python3.13/site-packages/PySide6/QtQuickControls2.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/PySide6/QtQuickControls2.pyi
-* /usr/lib/python3.13/site-packages/PySide6/QtQuickTest.abi3.so
+* /usr/lib/python3.13/site-packages/PySide6/QtQuickTest.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/PySide6/QtQuickTest.pyi
-* /usr/lib/python3.13/site-packages/PySide6/QtQuickWidgets.abi3.so
+* /usr/lib/python3.13/site-packages/PySide6/QtQuickWidgets.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/PySide6/QtQuickWidgets.pyi
-* /usr/lib/python3.13/site-packages/PySide6/QtRemoteObjects.abi3.so
+* /usr/lib/python3.13/site-packages/PySide6/QtRemoteObjects.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/PySide6/QtRemoteObjects.pyi
-* /usr/lib/python3.13/site-packages/PySide6/QtScxml.abi3.so
+* /usr/lib/python3.13/site-packages/PySide6/QtScxml.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/PySide6/QtScxml.pyi
-* /usr/lib/python3.13/site-packages/PySide6/QtSensors.abi3.so
+* /usr/lib/python3.13/site-packages/PySide6/QtSensors.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/PySide6/QtSensors.pyi
-* /usr/lib/python3.13/site-packages/PySide6/QtSerialBus.abi3.so
+* /usr/lib/python3.13/site-packages/PySide6/QtSerialBus.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/PySide6/QtSerialBus.pyi
-* /usr/lib/python3.13/site-packages/PySide6/QtSerialPort.abi3.so
+* /usr/lib/python3.13/site-packages/PySide6/QtSerialPort.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/PySide6/QtSerialPort.pyi
-* /usr/lib/python3.13/site-packages/PySide6/QtSpatialAudio.abi3.so
+* /usr/lib/python3.13/site-packages/PySide6/QtSpatialAudio.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/PySide6/QtSpatialAudio.pyi
-* /usr/lib/python3.13/site-packages/PySide6/QtSql.abi3.so
+* /usr/lib/python3.13/site-packages/PySide6/QtSql.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/PySide6/QtSql.pyi
-* /usr/lib/python3.13/site-packages/PySide6/QtStateMachine.abi3.so
+* /usr/lib/python3.13/site-packages/PySide6/QtStateMachine.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/PySide6/QtStateMachine.pyi
-* /usr/lib/python3.13/site-packages/PySide6/QtSvg.abi3.so
+* /usr/lib/python3.13/site-packages/PySide6/QtSvg.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/PySide6/QtSvg.pyi
-* /usr/lib/python3.13/site-packages/PySide6/QtSvgWidgets.abi3.so
+* /usr/lib/python3.13/site-packages/PySide6/QtSvgWidgets.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/PySide6/QtSvgWidgets.pyi
-* /usr/lib/python3.13/site-packages/PySide6/QtTest.abi3.so
+* /usr/lib/python3.13/site-packages/PySide6/QtTest.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/PySide6/QtTest.pyi
-* /usr/lib/python3.13/site-packages/PySide6/QtTextToSpeech.abi3.so
+* /usr/lib/python3.13/site-packages/PySide6/QtTextToSpeech.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/PySide6/QtTextToSpeech.pyi
-* /usr/lib/python3.13/site-packages/PySide6/QtUiTools.abi3.so
+* /usr/lib/python3.13/site-packages/PySide6/QtUiTools.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/PySide6/QtUiTools.pyi
-* /usr/lib/python3.13/site-packages/PySide6/QtWebChannel.abi3.so
+* /usr/lib/python3.13/site-packages/PySide6/QtWebChannel.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/PySide6/QtWebChannel.pyi
-* /usr/lib/python3.13/site-packages/PySide6/QtWebEngineCore.abi3.so
+* /usr/lib/python3.13/site-packages/PySide6/QtWebEngineCore.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/PySide6/QtWebEngineCore.pyi
-* /usr/lib/python3.13/site-packages/PySide6/QtWebEngineQuick.abi3.so
+* /usr/lib/python3.13/site-packages/PySide6/QtWebEngineQuick.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/PySide6/QtWebEngineQuick.pyi
-* /usr/lib/python3.13/site-packages/PySide6/QtWebEngineWidgets.abi3.so
+* /usr/lib/python3.13/site-packages/PySide6/QtWebEngineWidgets.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/PySide6/QtWebEngineWidgets.pyi
-* /usr/lib/python3.13/site-packages/PySide6/QtWebSockets.abi3.so
+* /usr/lib/python3.13/site-packages/PySide6/QtWebSockets.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/PySide6/QtWebSockets.pyi
-* /usr/lib/python3.13/site-packages/PySide6/QtWebView.abi3.so
+* /usr/lib/python3.13/site-packages/PySide6/QtWebView.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/PySide6/QtWebView.pyi
-* /usr/lib/python3.13/site-packages/PySide6/QtWidgets.abi3.so
+* /usr/lib/python3.13/site-packages/PySide6/QtWidgets.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/PySide6/QtWidgets.pyi
-* /usr/lib/python3.13/site-packages/PySide6/QtXml.abi3.so
+* /usr/lib/python3.13/site-packages/PySide6/QtXml.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/PySide6/QtXml.pyi
 * /usr/lib/python3.13/site-packages/PySide6/support/deprecated.py
 * /usr/lib/python3.13/site-packages/PySide6/support/generate_pyi.py
@@ -279,13 +279,13 @@ The PySide project provides LGPL-licensed Python bindings for the Qt cross-platf
 * /usr/lib/python3.13/site-packages/PySide6/_git_pyside_version.py
 * /usr/lib/python3.13/site-packages/PySide6/__init__.py
 * /usr/lib/qt6/plugins/designer/libPySidePlugin.so
-* /usr/share/doc/pyside6-6.9.0/README.md
-* /usr/share/doc/pyside6-6.9.0/README.pyside6.md
-* /usr/share/doc/pyside6-6.9.0/README.pyside6_addons.md
-* /usr/share/doc/pyside6-6.9.0/README.pyside6_essentials.md
-* /usr/share/doc/pyside6-6.9.0/README.pyside6_examples.md
-* /usr/share/doc/pyside6-6.9.0/README.shiboken6-generator.md
-* /usr/share/doc/pyside6-6.9.0/README.shiboken6.md
+* /usr/share/doc/pyside6-6.9.1/README.md
+* /usr/share/doc/pyside6-6.9.1/README.pyside6.md
+* /usr/share/doc/pyside6-6.9.1/README.pyside6_addons.md
+* /usr/share/doc/pyside6-6.9.1/README.pyside6_essentials.md
+* /usr/share/doc/pyside6-6.9.1/README.pyside6_examples.md
+* /usr/share/doc/pyside6-6.9.1/README.shiboken6-generator.md
+* /usr/share/doc/pyside6-6.9.1/README.shiboken6.md
 * /usr/share/PySide6/doc/qtcore.rst
 * /usr/share/PySide6/doc/qtqml.rst
 * /usr/share/PySide6/doc/qtquicktest.rst

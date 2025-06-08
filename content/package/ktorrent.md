@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ktorrent 25.04.1-1"
-version = "25.04.1-1"
+title = "ktorrent 25.04.1-3"
+version = "25.04.1-3"
 description = "A BitTorrent application for KDE."
-date = "2025-05-09T18:04:52"
+date = "2025-06-07T11:28:12"
 aliases = "/packages/219530"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2611364"
-usize = "12521970"
-sha1sum = "06de1c3477925a2ede6ba776e47bcf94e028317e"
-depends = "['kstatusnotifieritem>=6.13.0', 'libktorrent>=25.04.1', 'plasma-workspace>=6.3.5', 'syndication']"
+size = "2676260"
+usize = "12837450"
+sha1sum = "e114ee6be09b353d44f71f30488a898fc15920d7"
+depends = "['kdnssd>=6.14.0', 'kplotting>=6.14.0', 'kstatusnotifieritem>=6.14.0', 'libktorrent>=25.04.1', 'plasma-workspace>=6.3.5', 'syndication']"
 +++
 ### Description: 
 A BitTorrent application for KDE.
@@ -33,8 +33,10 @@ A BitTorrent application for KDE.
 * /usr/lib/qt6/plugins/ktorrent_plugins/ScanForLostFilesPlugin.so
 * /usr/lib/qt6/plugins/ktorrent_plugins/SearchPlugin.so
 * /usr/lib/qt6/plugins/ktorrent_plugins/ShutdownPlugin.so
+* /usr/lib/qt6/plugins/ktorrent_plugins/StatsPlugin.so
 * /usr/lib/qt6/plugins/ktorrent_plugins/SyndicationPlugin.so
 * /usr/lib/qt6/plugins/ktorrent_plugins/UPnPPlugin.so
+* /usr/lib/qt6/plugins/ktorrent_plugins/ZeroconfPlugin.so
 * /usr/share/applications/org.kde.ktorrent.desktop
 * /usr/share/doc/HTML/ca/ktorrent/index.cache.bz2
 * /usr/share/doc/HTML/ca/ktorrent/index.docbook

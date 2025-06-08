@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libportal 0.9.1-4"
-version = "0.9.1-4"
+title = "libportal 0.9.1-5"
+version = "0.9.1-5"
 description = "GIO-style async APIs for most Flatpak portals"
-date = "2025-05-26T07:44:04"
+date = "2025-06-06T13:31:28"
 aliases = "/packages/220842"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/flatpak/libportal"
 arch = "x86_64"
-size = "1208624"
-usize = "3798759"
-sha1sum = "798e35bb5a6985a7cf2795c17319894dcdceaa16"
+size = "1210464"
+usize = "3810512"
+sha1sum = "efac10e14f6c440ac49bc4277fb73d98b3b63e1f"
 depends = "['glib2']"
 reverse_depends = "['libportal-gtk3', 'libportal-gtk4', 'libportal-qt5', 'libportal-qt6', 'xdg-desktop-portal']"
 +++

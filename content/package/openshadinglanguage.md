@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openshadinglanguage 1.14.5.0-1"
-version = "1.14.5.0-1"
+title = "openshadinglanguage 1.14.5.1-1"
+version = "1.14.5.1-1"
 description = "Advanced shading language for production GI renderers"
-date = "2025-04-14T10:05:12"
+date = "2025-06-06T11:33:41"
 aliases = "/packages/220207"
 categories = ['xlib-extra']
 upstreamurl = "https://github.com/AcademySoftwareFoundation/openshadinglanguage"
 arch = "x86_64"
-size = "5729992"
-usize = "26135729"
-sha1sum = "57a56093212245fd1496ed3c57f92649992ad0e7"
+size = "5765572"
+usize = "25997067"
+sha1sum = "de22e41deabb2574b7cb903b8b06b913da925d63"
 depends = "['clang-libs>=19.1.1', 'intel-tbb', 'openexr', 'openimageio>=2.5', 'partio', 'pugixml', 'python3>=3.13']"
 +++
 ### Description: 
@@ -92,8 +92,8 @@ Advanced shading language for production GI renderers
 * /usr/lib/pkgconfig/oslquery.pc
 * /usr/lib/python3.13/site-packages/oslquery/oslquery.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/oslquery/__init__.py
-* /usr/share/doc/openshadinglanguage-1.14.5.0/INSTALL.md
-* /usr/share/doc/openshadinglanguage-1.14.5.0/README.md
+* /usr/share/doc/openshadinglanguage-1.14.5.1/INSTALL.md
+* /usr/share/doc/openshadinglanguage-1.14.5.1/README.md
 * /usr/share/doc/OSL/CHANGES.md
 * /usr/share/doc/OSL/docdeep.md.html
 * /usr/share/doc/OSL/docs.css

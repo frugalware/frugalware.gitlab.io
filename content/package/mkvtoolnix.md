@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mkvtoolnix 92.0-2"
-version = "92.0-2"
+title = "mkvtoolnix 92.0-3"
+version = "92.0-3"
 description = "MKVToolnix is a set of tools to create, alter and inspect Matroska files under Linux."
-date = "2025-05-26T12:17:13"
+date = "2025-06-06T07:12:16"
 aliases = "/packages/9387"
 categories = ['multimedia-extra']
 upstreamurl = "https://mkvtoolnix.download/"
 arch = "x86_64"
-size = "9873228"
-usize = "31189666"
-sha1sum = "fc5dcbbef7d5f43a7d8a45224068ea0b898d8527"
+size = "9870600"
+usize = "31187014"
+sha1sum = "378a963c6940295197c1f82a7110c6142eee098b"
 depends = "['file>=5.25-3', 'flac>=1.5.0', 'libboost>=1.88.0', 'libdvdread', 'libmatroska>=1.4.5-2', 'libvorbis>=1.3.5-4', 'pugixml', 'qt6-base>=6.8.2']"
 reverse_depends = "['mkvtoolnix-gui']"
 +++
@@ -25,7 +25,6 @@ MKVToolnix is a set of tools to create, alter and inspect Matroska files under L
 * /usr/share/doc/mkvtoolnix-92.0/AUTHORS
 * /usr/share/doc/mkvtoolnix-92.0/COPYING
 * /usr/share/doc/mkvtoolnix-92.0/INSTALL
-* /usr/share/doc/mkvtoolnix-92.0/LICENSE
 * /usr/share/doc/mkvtoolnix-92.0/README.md
 * /usr/share/locale/be/LC_MESSAGES/mkvtoolnix.mo
 * /usr/share/locale/bg/LC_MESSAGES/mkvtoolnix.mo

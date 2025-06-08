@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "signon 8.61-16"
-version = "8.61-16"
+title = "signon 8.61-17"
+version = "8.61-17"
 description = "Framework to provide credential storage and authentication service."
-date = "2025-04-07T13:57:28"
+date = "2025-06-06T12:35:21"
 aliases = "/packages/200096"
 categories = ['xlib']
 upstreamurl = "https://gitlab.com/accounts-sso/signond"
 arch = "x86_64"
-size = "605184"
-usize = "4607810"
-sha1sum = "26d4b811df516556379c5c0c549b1e746ce9229b"
+size = "535544"
+usize = "4168028"
+sha1sum = "8ab8db977da20936c2c63652bc83cc48bcc45106"
 depends = "['libproxy>=0.4.13-2', 'qt6-base>=6.8.2']"
 reverse_depends = "['accounts-qml-module', 'libsignon-glib', 'signon-kwallet-extension', 'signon-plugin-oauth2']"
 +++
@@ -135,25 +135,17 @@ Framework to provide credential storage and authentication service.
 * /usr/share/doc/libsignon-qt/html/classSignOn_1_1AuthService_1_1IdentityRegExp-members.html
 * /usr/share/doc/libsignon-qt/html/classSignOn_1_1AuthService_1_1IdentityRegExp.html
 * /usr/share/doc/libsignon-qt/html/classSignOn_1_1AuthService_1_1IdentityRegExp.js
-* /usr/share/doc/libsignon-qt/html/classSignOn_1_1AuthService__inherit__graph.map
-* /usr/share/doc/libsignon-qt/html/classSignOn_1_1AuthService__inherit__graph.md5
-* /usr/share/doc/libsignon-qt/html/classSignOn_1_1AuthService__inherit__graph.png
+* /usr/share/doc/libsignon-qt/html/classSignOn_1_1AuthService__inherit__graph.dot
 * /usr/share/doc/libsignon-qt/html/classSignOn_1_1AuthSession-members.html
 * /usr/share/doc/libsignon-qt/html/classSignOn_1_1AuthSession.html
 * /usr/share/doc/libsignon-qt/html/classSignOn_1_1AuthSession.js
-* /usr/share/doc/libsignon-qt/html/classSignOn_1_1AuthSession__inherit__graph.map
-* /usr/share/doc/libsignon-qt/html/classSignOn_1_1AuthSession__inherit__graph.md5
-* /usr/share/doc/libsignon-qt/html/classSignOn_1_1AuthSession__inherit__graph.png
+* /usr/share/doc/libsignon-qt/html/classSignOn_1_1AuthSession__inherit__graph.dot
 * /usr/share/doc/libsignon-qt/html/classSignOn_1_1ConnectionManager-members.html
 * /usr/share/doc/libsignon-qt/html/classSignOn_1_1ConnectionManager.html
-* /usr/share/doc/libsignon-qt/html/classSignOn_1_1ConnectionManager__inherit__graph.map
-* /usr/share/doc/libsignon-qt/html/classSignOn_1_1ConnectionManager__inherit__graph.md5
-* /usr/share/doc/libsignon-qt/html/classSignOn_1_1ConnectionManager__inherit__graph.png
+* /usr/share/doc/libsignon-qt/html/classSignOn_1_1ConnectionManager__inherit__graph.dot
 * /usr/share/doc/libsignon-qt/html/classSignOn_1_1DBusInterface-members.html
 * /usr/share/doc/libsignon-qt/html/classSignOn_1_1DBusInterface.html
-* /usr/share/doc/libsignon-qt/html/classSignOn_1_1DBusInterface__inherit__graph.map
-* /usr/share/doc/libsignon-qt/html/classSignOn_1_1DBusInterface__inherit__graph.md5
-* /usr/share/doc/libsignon-qt/html/classSignOn_1_1DBusInterface__inherit__graph.png
+* /usr/share/doc/libsignon-qt/html/classSignOn_1_1DBusInterface__inherit__graph.dot
 * /usr/share/doc/libsignon-qt/html/classSignOn_1_1Error-members.html
 * /usr/share/doc/libsignon-qt/html/classSignOn_1_1Error.html
 * /usr/share/doc/libsignon-qt/html/classSignOn_1_1Error.js
@@ -163,9 +155,7 @@ Framework to provide credential storage and authentication service.
 * /usr/share/doc/libsignon-qt/html/classSignOn_1_1IdentityInfo-members.html
 * /usr/share/doc/libsignon-qt/html/classSignOn_1_1IdentityInfo.html
 * /usr/share/doc/libsignon-qt/html/classSignOn_1_1IdentityInfo.js
-* /usr/share/doc/libsignon-qt/html/classSignOn_1_1Identity__inherit__graph.map
-* /usr/share/doc/libsignon-qt/html/classSignOn_1_1Identity__inherit__graph.md5
-* /usr/share/doc/libsignon-qt/html/classSignOn_1_1Identity__inherit__graph.png
+* /usr/share/doc/libsignon-qt/html/classSignOn_1_1Identity__inherit__graph.dot
 * /usr/share/doc/libsignon-qt/html/classSignOn_1_1SecurityContext-members.html
 * /usr/share/doc/libsignon-qt/html/classSignOn_1_1SecurityContext.html
 * /usr/share/doc/libsignon-qt/html/classSignOn_1_1SecurityContext.js
@@ -183,9 +173,7 @@ Framework to provide credential storage and authentication service.
 * /usr/share/doc/libsignon-qt/html/debug_8h_source.html
 * /usr/share/doc/libsignon-qt/html/deprecated.html
 * /usr/share/doc/libsignon-qt/html/dir_61c9e5842729cb34568d93cb98ad85b9.html
-* /usr/share/doc/libsignon-qt/html/dir_61c9e5842729cb34568d93cb98ad85b9_dep.map
-* /usr/share/doc/libsignon-qt/html/dir_61c9e5842729cb34568d93cb98ad85b9_dep.md5
-* /usr/share/doc/libsignon-qt/html/dir_61c9e5842729cb34568d93cb98ad85b9_dep.png
+* /usr/share/doc/libsignon-qt/html/dir_61c9e5842729cb34568d93cb98ad85b9_dep.dot
 * /usr/share/doc/libsignon-qt/html/dir_e68e8157741866f444e17edd764ebbae.html
 * /usr/share/doc/libsignon-qt/html/doc.svg
 * /usr/share/doc/libsignon-qt/html/docd.svg
@@ -206,9 +194,8 @@ Framework to provide credential storage and authentication service.
 * /usr/share/doc/libsignon-qt/html/functions_func.html
 * /usr/share/doc/libsignon-qt/html/functions_type.html
 * /usr/share/doc/libsignon-qt/html/functions_vars.html
+* /usr/share/doc/libsignon-qt/html/graph_legend.dot
 * /usr/share/doc/libsignon-qt/html/graph_legend.html
-* /usr/share/doc/libsignon-qt/html/graph_legend.md5
-* /usr/share/doc/libsignon-qt/html/graph_legend.png
 * /usr/share/doc/libsignon-qt/html/hierarchy.html
 * /usr/share/doc/libsignon-qt/html/hierarchy.js
 * /usr/share/doc/libsignon-qt/html/identityinfo_8cpp_source.html
@@ -219,27 +206,13 @@ Framework to provide credential storage and authentication service.
 * /usr/share/doc/libsignon-qt/html/index.js
 * /usr/share/doc/libsignon-qt/html/index.qhp
 * /usr/share/doc/libsignon-qt/html/inherits.html
-* /usr/share/doc/libsignon-qt/html/inherit_graph_0.map
-* /usr/share/doc/libsignon-qt/html/inherit_graph_0.md5
-* /usr/share/doc/libsignon-qt/html/inherit_graph_0.png
-* /usr/share/doc/libsignon-qt/html/inherit_graph_1.map
-* /usr/share/doc/libsignon-qt/html/inherit_graph_1.md5
-* /usr/share/doc/libsignon-qt/html/inherit_graph_1.png
-* /usr/share/doc/libsignon-qt/html/inherit_graph_2.map
-* /usr/share/doc/libsignon-qt/html/inherit_graph_2.md5
-* /usr/share/doc/libsignon-qt/html/inherit_graph_2.png
-* /usr/share/doc/libsignon-qt/html/inherit_graph_3.map
-* /usr/share/doc/libsignon-qt/html/inherit_graph_3.md5
-* /usr/share/doc/libsignon-qt/html/inherit_graph_3.png
-* /usr/share/doc/libsignon-qt/html/inherit_graph_4.map
-* /usr/share/doc/libsignon-qt/html/inherit_graph_4.md5
-* /usr/share/doc/libsignon-qt/html/inherit_graph_4.png
-* /usr/share/doc/libsignon-qt/html/inherit_graph_5.map
-* /usr/share/doc/libsignon-qt/html/inherit_graph_5.md5
-* /usr/share/doc/libsignon-qt/html/inherit_graph_5.png
-* /usr/share/doc/libsignon-qt/html/inherit_graph_6.map
-* /usr/share/doc/libsignon-qt/html/inherit_graph_6.md5
-* /usr/share/doc/libsignon-qt/html/inherit_graph_6.png
+* /usr/share/doc/libsignon-qt/html/inherit_graph_0.dot
+* /usr/share/doc/libsignon-qt/html/inherit_graph_1.dot
+* /usr/share/doc/libsignon-qt/html/inherit_graph_2.dot
+* /usr/share/doc/libsignon-qt/html/inherit_graph_3.dot
+* /usr/share/doc/libsignon-qt/html/inherit_graph_4.dot
+* /usr/share/doc/libsignon-qt/html/inherit_graph_5.dot
+* /usr/share/doc/libsignon-qt/html/inherit_graph_6.dot
 * /usr/share/doc/libsignon-qt/html/jquery.js
 * /usr/share/doc/libsignon-qt/html/libsignoncommon_8h_source.html
 * /usr/share/doc/libsignon-qt/html/menu.js
@@ -302,37 +275,27 @@ Framework to provide credential storage and authentication service.
 * /usr/share/doc/signon-plugins/html/classAuthPluginInterface.html
 * /usr/share/doc/signon-plugins/html/classAuthPluginInterface.js
 * /usr/share/doc/signon-plugins/html/classAuthPluginInterface_1_1Interface.html
-* /usr/share/doc/signon-plugins/html/classAuthPluginInterface__inherit__graph.map
-* /usr/share/doc/signon-plugins/html/classAuthPluginInterface__inherit__graph.md5
-* /usr/share/doc/signon-plugins/html/classAuthPluginInterface__inherit__graph.png
+* /usr/share/doc/signon-plugins/html/classAuthPluginInterface__inherit__graph.dot
 * /usr/share/doc/signon-plugins/html/classes.html
 * /usr/share/doc/signon-plugins/html/classSignOn_1_1BlobIOHandler-members.html
 * /usr/share/doc/signon-plugins/html/classSignOn_1_1BlobIOHandler.html
-* /usr/share/doc/signon-plugins/html/classSignOn_1_1BlobIOHandler__inherit__graph.map
-* /usr/share/doc/signon-plugins/html/classSignOn_1_1BlobIOHandler__inherit__graph.md5
-* /usr/share/doc/signon-plugins/html/classSignOn_1_1BlobIOHandler__inherit__graph.png
+* /usr/share/doc/signon-plugins/html/classSignOn_1_1BlobIOHandler__inherit__graph.dot
 * /usr/share/doc/signon-plugins/html/classSignOn_1_1UiSessionData-members.html
 * /usr/share/doc/signon-plugins/html/classSignOn_1_1UiSessionData.html
 * /usr/share/doc/signon-plugins/html/classSignOn_1_1UiSessionData.js
-* /usr/share/doc/signon-plugins/html/classSignOn_1_1UiSessionData__inherit__graph.map
-* /usr/share/doc/signon-plugins/html/classSignOn_1_1UiSessionData__inherit__graph.md5
-* /usr/share/doc/signon-plugins/html/classSignOn_1_1UiSessionData__inherit__graph.png
+* /usr/share/doc/signon-plugins/html/classSignOn_1_1UiSessionData__inherit__graph.dot
 * /usr/share/doc/signon-plugins/html/clipboard.js
 * /usr/share/doc/signon-plugins/html/closed.png
 * /usr/share/doc/signon-plugins/html/cookie.js
 * /usr/share/doc/signon-plugins/html/dir_255383846029633073d68bbe3f80a8e9.html
 * /usr/share/doc/signon-plugins/html/dir_255383846029633073d68bbe3f80a8e9.js
 * /usr/share/doc/signon-plugins/html/dir_61c9e5842729cb34568d93cb98ad85b9.html
-* /usr/share/doc/signon-plugins/html/dir_61c9e5842729cb34568d93cb98ad85b9_dep.map
-* /usr/share/doc/signon-plugins/html/dir_61c9e5842729cb34568d93cb98ad85b9_dep.md5
-* /usr/share/doc/signon-plugins/html/dir_61c9e5842729cb34568d93cb98ad85b9_dep.png
+* /usr/share/doc/signon-plugins/html/dir_61c9e5842729cb34568d93cb98ad85b9_dep.dot
 * /usr/share/doc/signon-plugins/html/dir_af34ae28ea23134a8ded716ce53b273a.html
 * /usr/share/doc/signon-plugins/html/dir_af34ae28ea23134a8ded716ce53b273a.js
 * /usr/share/doc/signon-plugins/html/dir_d823c49a50e17c23ae924694bd3125c3.html
 * /usr/share/doc/signon-plugins/html/dir_d823c49a50e17c23ae924694bd3125c3.js
-* /usr/share/doc/signon-plugins/html/dir_d823c49a50e17c23ae924694bd3125c3_dep.map
-* /usr/share/doc/signon-plugins/html/dir_d823c49a50e17c23ae924694bd3125c3_dep.md5
-* /usr/share/doc/signon-plugins/html/dir_d823c49a50e17c23ae924694bd3125c3_dep.png
+* /usr/share/doc/signon-plugins/html/dir_d823c49a50e17c23ae924694bd3125c3_dep.dot
 * /usr/share/doc/signon-plugins/html/dir_e68e8157741866f444e17edd764ebbae.html
 * /usr/share/doc/signon-plugins/html/doc.svg
 * /usr/share/doc/signon-plugins/html/docd.svg
@@ -349,24 +312,17 @@ Framework to provide credential storage and authentication service.
 * /usr/share/doc/signon-plugins/html/folderopend.svg
 * /usr/share/doc/signon-plugins/html/functions.html
 * /usr/share/doc/signon-plugins/html/functions_func.html
+* /usr/share/doc/signon-plugins/html/graph_legend.dot
 * /usr/share/doc/signon-plugins/html/graph_legend.html
-* /usr/share/doc/signon-plugins/html/graph_legend.md5
-* /usr/share/doc/signon-plugins/html/graph_legend.png
 * /usr/share/doc/signon-plugins/html/hierarchy.html
 * /usr/share/doc/signon-plugins/html/hierarchy.js
 * /usr/share/doc/signon-plugins/html/index.html
 * /usr/share/doc/signon-plugins/html/index.js
 * /usr/share/doc/signon-plugins/html/index.qhp
 * /usr/share/doc/signon-plugins/html/inherits.html
-* /usr/share/doc/signon-plugins/html/inherit_graph_0.map
-* /usr/share/doc/signon-plugins/html/inherit_graph_0.md5
-* /usr/share/doc/signon-plugins/html/inherit_graph_0.png
-* /usr/share/doc/signon-plugins/html/inherit_graph_1.map
-* /usr/share/doc/signon-plugins/html/inherit_graph_1.md5
-* /usr/share/doc/signon-plugins/html/inherit_graph_1.png
-* /usr/share/doc/signon-plugins/html/inherit_graph_2.map
-* /usr/share/doc/signon-plugins/html/inherit_graph_2.md5
-* /usr/share/doc/signon-plugins/html/inherit_graph_2.png
+* /usr/share/doc/signon-plugins/html/inherit_graph_0.dot
+* /usr/share/doc/signon-plugins/html/inherit_graph_1.dot
+* /usr/share/doc/signon-plugins/html/inherit_graph_2.dot
 * /usr/share/doc/signon-plugins/html/ipc_8h_source.html
 * /usr/share/doc/signon-plugins/html/jquery.js
 * /usr/share/doc/signon-plugins/html/menu.js
@@ -412,9 +368,7 @@ Framework to provide credential storage and authentication service.
 * /usr/share/doc/signon/html/closed.png
 * /usr/share/doc/signon/html/cookie.js
 * /usr/share/doc/signon/html/dir_61c9e5842729cb34568d93cb98ad85b9.html
-* /usr/share/doc/signon/html/dir_61c9e5842729cb34568d93cb98ad85b9_dep.map
-* /usr/share/doc/signon/html/dir_61c9e5842729cb34568d93cb98ad85b9_dep.md5
-* /usr/share/doc/signon/html/dir_61c9e5842729cb34568d93cb98ad85b9_dep.png
+* /usr/share/doc/signon/html/dir_61c9e5842729cb34568d93cb98ad85b9_dep.dot
 * /usr/share/doc/signon/html/dir_e68e8157741866f444e17edd764ebbae.html
 * /usr/share/doc/signon/html/doc.svg
 * /usr/share/doc/signon/html/docd.svg
@@ -426,9 +380,8 @@ Framework to provide credential storage and authentication service.
 * /usr/share/doc/signon/html/folderclosedd.svg
 * /usr/share/doc/signon/html/folderopen.svg
 * /usr/share/doc/signon/html/folderopend.svg
+* /usr/share/doc/signon/html/graph_legend.dot
 * /usr/share/doc/signon/html/graph_legend.html
-* /usr/share/doc/signon/html/graph_legend.md5
-* /usr/share/doc/signon/html/graph_legend.png
 * /usr/share/doc/signon/html/index.html
 * /usr/share/doc/signon/html/index.js
 * /usr/share/doc/signon/html/index.qhp

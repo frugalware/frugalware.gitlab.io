@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "texmaker 6.0.0-6"
-version = "6.0.0-6"
+title = "texmaker 6.0.0-7"
+version = "6.0.0-7"
 description = "Texmaker is a free LaTeX editor."
-date = "2025-04-07T15:48:13"
+date = "2025-06-06T13:02:06"
 aliases = "/packages/30512"
 categories = ['xapps-extra']
 upstreamurl = "http://www.xm1math.net/texmaker/"
 arch = "x86_64"
-size = "10139736"
-usize = "38216816"
-sha1sum = "9de742bc629c2ffa174486a05b55542aaf5895c1"
+size = "10149956"
+usize = "38277464"
+sha1sum = "b3bc4c481a7e36319fa8e5cb110323217d05808d"
 depends = "['qt6-5compat>=6.8.2', 'qt6-webengine>=6.8.2', 'xghostscript']"
 +++
 ### Description: 

@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "kplotting 6.14.0-1"
-version = "6.14.0-1"
+title = "kplotting 6.14.0-2"
+version = "6.14.0-2"
 description = "Framework providing easy data-plotting functions."
-date = "2025-05-10T10:37:25"
+date = "2025-06-04T12:26:49"
 aliases = "/packages/218344"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "44228"
-usize = "148742"
-sha1sum = "20ecd8da5902848100a28b711b00ec2c670989ad"
-depends = "['qt6-base>=6.9.0']"
-reverse_depends = "['kdenlive', 'knights']"
+size = "44368"
+usize = "149574"
+sha1sum = "04a294b54b2e14739e912af396256a34ab4b6b69"
+depends = "['qt6-base>=6.9.1']"
+reverse_depends = "['kdenlive', 'knights', 'ktorrent']"
 +++
 ### Description: 
 Framework providing easy data-plotting functions.

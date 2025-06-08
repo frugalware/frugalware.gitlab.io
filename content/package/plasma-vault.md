@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "plasma-vault 6.3.5-1"
-version = "6.3.5-1"
+title = "plasma-vault 6.3.5-2"
+version = "6.3.5-2"
 description = "Plasma applet and services for creating encrypted vaults"
-date = "2025-05-07T12:10:03"
+date = "2025-06-04T14:26:17"
 aliases = "/packages/219484"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "334684"
-usize = "1599277"
-sha1sum = "1f3c10187f4a39863e12285b98685d499ba2deff"
-depends = "['cryfs', 'encfs', 'kitemmodels>=6.13.0', 'libksysguard>=6.3.5', 'libplasma>=6.3.5', 'networkmanager-qt>=6.13.0']"
+size = "335024"
+usize = "1603181"
+sha1sum = "c15d3028abb66872e188ae3fd54123310614e5db"
+depends = "['cryfs', 'encfs', 'kitemmodels>=6.14.0', 'libksysguard>=6.3.5', 'libplasma>=6.3.5', 'networkmanager-qt>=6.14.0']"
 +++
 ### Description: 
 Plasma applet and services for creating encrypted vaults

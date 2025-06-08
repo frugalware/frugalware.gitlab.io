@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kwave 25.04.1-1"
-version = "25.04.1-1"
+title = "kwave 25.04.1-2"
+version = "25.04.1-2"
 description = "Kwave is a sound editor for KDE"
-date = "2025-05-09T17:18:42"
+date = "2025-06-05T07:16:35"
 aliases = "/packages/218945"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "5403912"
-usize = "15449925"
-sha1sum = "9945f97227c01b34bf4c6342c1a2aefa5195a253"
-depends = "['audiofile', 'flac>=1.5.0', 'id3lib', 'kio>=6.13.0', 'libmad', 'libsamplerate', 'opus', 'qt6-multimedia']"
+size = "5422492"
+usize = "15533499"
+sha1sum = "80b25f31d7f2f836401c99b82f5ddac59ddac58f"
+depends = "['audiofile', 'flac>=1.5.0', 'id3lib', 'kio>=6.14.0', 'libmad', 'libsamplerate', 'opus', 'qt6-multimedia']"
 +++
 ### Description: 
 Kwave is a sound editor for KDE
@@ -241,7 +241,10 @@ Kwave is a sound editor for KDE
 * /usr/share/doc/HTML/uk/kwave/kwave-plugin-volume.png
 * /usr/share/doc/kwave-25.04.1/AUTHORS
 * /usr/share/doc/kwave-25.04.1/CHANGES
+* /usr/share/doc/kwave-25.04.1/COPYING
+* /usr/share/doc/kwave-25.04.1/INSTALL
 * /usr/share/doc/kwave-25.04.1/README.md
+* /usr/share/doc/kwave-25.04.1/RELEASES
 * /usr/share/doc/kwave-25.04.1/TODO
 * /usr/share/icons/hicolor/scalable/apps/org.kde.kwave.svg
 * /usr/share/kwave/menus.config

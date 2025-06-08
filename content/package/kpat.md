@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kpat 25.04.1-1"
-version = "25.04.1-1"
+title = "kpat 25.04.1-3"
+version = "25.04.1-3"
 description = "Offers a selection of solitaire card games."
-date = "2025-05-09T17:58:23"
+date = "2025-06-08T09:35:50"
 aliases = "/packages/184195"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3933560"
-usize = "5855361"
-sha1sum = "1af729b39f7e5f2153f558fcf6b011f5efc61d20"
-depends = "['black-hole-solver', 'freecell-solver', 'knotifyconfig>=6.13.0', 'libkdegames>=25.04.1']"
+size = "3882808"
+usize = "5811102"
+sha1sum = "4d948f7a70c2cd1c557cfad70e42082248a00cf2"
+depends = "['black-hole-solver', 'freecell-solver', 'knotifyconfig>=6.14.0', 'libkdegames>=25.04.1']"
 +++
 ### Description: 
 Offers a selection of solitaire card games.

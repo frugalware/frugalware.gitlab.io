@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "konsole 25.04.1-1"
-version = "25.04.1-1"
+title = "konsole 25.04.1-2"
+version = "25.04.1-2"
 description = "KDE Terminal emulator."
-date = "2025-05-09T12:06:01"
+date = "2025-06-04T15:17:34"
 aliases = "/packages/88141"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2092480"
-usize = "9920076"
-sha1sum = "f05949ee2e574aac1e479abe6fb0d07cae3e39e4"
-depends = "['knewstuff>=6.13.0', 'knotifyconfig>=6.13.0', 'kparts>=6.13.0', 'kpty>=6.13.0']"
+size = "2092424"
+usize = "9936956"
+sha1sum = "f3544c2e810b0110d141a125bec8f836b1b43cc6"
+depends = "['knewstuff>=6.14.0', 'knotifyconfig>=6.14.0', 'kparts>=6.14.0', 'kpty>=6.14.0']"
 +++
 ### Description: 
 KDE Terminal emulator.
