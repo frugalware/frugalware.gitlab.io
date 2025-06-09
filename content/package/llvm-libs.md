@@ -12,7 +12,7 @@ size = "33171920"
 usize = "136553390"
 sha1sum = "edd7221aac0b3ce29e183d6be488804116a7d68d"
 depends = "['libedit>=20190324_3.1', 'libffi>=3.4', 'libxml2>=2.14.3', 'ncurses>=6.0-16', 'zstd']"
-reverse_depends = "['bpf', 'clang-libs', 'lib32-mesa-libswrast', 'libosmesa', 'libva-mesa-driver', 'libxatracker', 'lld', 'llvm', 'mesa-dri-drivers', 'mesa-libswrast', 'mesa-nine', 'mesa-pipe-drivers', 'mesa-vdpau-drivers', 'mlir', 'openmp', 'polly', 'pstl', 'rust', 'spirv-llvm-translator']"
+reverse_depends = "['bpf', 'clang-libs', 'lib32-mesa-libswrast', 'libosmesa', 'libva-mesa-driver', 'lld', 'llvm', 'mesa-dri-drivers', 'mesa-libswrast', 'mesa-nine', 'mesa-pipe-drivers', 'mesa-vdpau-drivers', 'mlir', 'openmp', 'polly', 'pstl', 'rust', 'spirv-llvm-translator']"
 +++
 ### Description: 
 LLVM shared libs
