@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "lldb 19.1.7-3"
-version = "19.1.7-3"
+title = "lldb 20.1.6-1"
+version = "20.1.6-1"
 description = "Next generation, high-performance debugger"
-date = "2025-06-04T08:54:43"
+date = "2025-06-08T21:30:12"
 aliases = "/packages/220526"
 categories = ['devel-extra']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "6449744"
-usize = "25698602"
-sha1sum = "d337d9b02165aa83c3f5e29b94c4509cb6608b04"
-depends = "['clang>=19.1.7', 'ncurses>=6.5']"
+size = "6907360"
+usize = "26742038"
+sha1sum = "f9f72e79d04e75086ceb6e5e96a60b53b019c8f8"
+depends = "['clang>=20.1.6', 'ncurses>=6.5']"
 +++
 ### Description: 
 Next generation, high-performance debugger
@@ -68,6 +68,7 @@ Next generation, high-performance debugger
 * /usr/include/lldb/API/SBProcess.h
 * /usr/include/lldb/API/SBProcessInfo.h
 * /usr/include/lldb/API/SBProcessInfoList.h
+* /usr/include/lldb/API/SBProgress.h
 * /usr/include/lldb/API/SBQueue.h
 * /usr/include/lldb/API/SBQueueItem.h
 * /usr/include/lldb/API/SBReproducer.h
@@ -174,21 +175,6 @@ Next generation, high-performance debugger
 * /usr/include/lldb/Core/UniqueCStringMap.h
 * /usr/include/lldb/Core/UserSettingsController.h
 * /usr/include/lldb/Core/Value.h
-* /usr/include/lldb/Core/ValueObject.h
-* /usr/include/lldb/Core/ValueObjectCast.h
-* /usr/include/lldb/Core/ValueObjectChild.h
-* /usr/include/lldb/Core/ValueObjectConstResult.h
-* /usr/include/lldb/Core/ValueObjectConstResultCast.h
-* /usr/include/lldb/Core/ValueObjectConstResultChild.h
-* /usr/include/lldb/Core/ValueObjectConstResultImpl.h
-* /usr/include/lldb/Core/ValueObjectDynamicValue.h
-* /usr/include/lldb/Core/ValueObjectList.h
-* /usr/include/lldb/Core/ValueObjectMemory.h
-* /usr/include/lldb/Core/ValueObjectRegister.h
-* /usr/include/lldb/Core/ValueObjectSyntheticFilter.h
-* /usr/include/lldb/Core/ValueObjectUpdater.h
-* /usr/include/lldb/Core/ValueObjectVariable.h
-* /usr/include/lldb/Core/ValueObjectVTable.h
 * /usr/include/lldb/DataFormatters/CXXFunctionPointer.h
 * /usr/include/lldb/DataFormatters/DataVisualization.h
 * /usr/include/lldb/DataFormatters/DumpValueObjectOptions.h
@@ -196,6 +182,7 @@ Next generation, high-performance debugger
 * /usr/include/lldb/DataFormatters/FormatClasses.h
 * /usr/include/lldb/DataFormatters/FormatManager.h
 * /usr/include/lldb/DataFormatters/FormattersContainer.h
+* /usr/include/lldb/DataFormatters/FormatterSection.h
 * /usr/include/lldb/DataFormatters/FormattersHelpers.h
 * /usr/include/lldb/DataFormatters/LanguageCategory.h
 * /usr/include/lldb/DataFormatters/StringPrinter.h
@@ -226,6 +213,7 @@ Next generation, high-performance debugger
 * /usr/include/lldb/Expression/REPL.h
 * /usr/include/lldb/Expression/UserExpression.h
 * /usr/include/lldb/Expression/UtilityFunction.h
+* /usr/include/lldb/Host/aix/HostInfoAIX.h
 * /usr/include/lldb/Host/Alarm.h
 * /usr/include/lldb/Host/android/HostInfoAndroid.h
 * /usr/include/lldb/Host/common/GetOptInc.h
@@ -323,8 +311,10 @@ Next generation, high-performance debugger
 * /usr/include/lldb/Interpreter/CommandReturnObject.h
 * /usr/include/lldb/Interpreter/Interfaces/OperatingSystemInterface.h
 * /usr/include/lldb/Interpreter/Interfaces/ScriptedInterface.h
+* /usr/include/lldb/Interpreter/Interfaces/ScriptedInterfaceUsages.h
 * /usr/include/lldb/Interpreter/Interfaces/ScriptedPlatformInterface.h
 * /usr/include/lldb/Interpreter/Interfaces/ScriptedProcessInterface.h
+* /usr/include/lldb/Interpreter/Interfaces/ScriptedStopHookInterface.h
 * /usr/include/lldb/Interpreter/Interfaces/ScriptedThreadInterface.h
 * /usr/include/lldb/Interpreter/Interfaces/ScriptedThreadPlanInterface.h
 * /usr/include/lldb/Interpreter/OptionArgParser.h
@@ -421,6 +411,7 @@ Next generation, high-performance debugger
 * /usr/include/lldb/Target/ABI.h
 * /usr/include/lldb/Target/AppleArm64ExceptionClass.h
 * /usr/include/lldb/Target/AssertFrameRecognizer.h
+* /usr/include/lldb/Target/CoreFileMemoryRanges.h
 * /usr/include/lldb/Target/DynamicLoader.h
 * /usr/include/lldb/Target/DynamicRegisterInfo.h
 * /usr/include/lldb/Target/ExecutionContext.h
@@ -455,6 +446,7 @@ Next generation, high-performance debugger
 * /usr/include/lldb/Target/RegisterTypeBuilder.h
 * /usr/include/lldb/Target/RemoteAwarePlatform.h
 * /usr/include/lldb/Target/Runtime.h
+* /usr/include/lldb/Target/ScriptedThreadPlan.h
 * /usr/include/lldb/Target/SectionLoadHistory.h
 * /usr/include/lldb/Target/SectionLoadList.h
 * /usr/include/lldb/Target/StackFrame.h
@@ -476,9 +468,9 @@ Next generation, high-performance debugger
 * /usr/include/lldb/Target/ThreadPlanCallFunctionUsingABI.h
 * /usr/include/lldb/Target/ThreadPlanCallOnFunctionExit.h
 * /usr/include/lldb/Target/ThreadPlanCallUserExpression.h
-* /usr/include/lldb/Target/ThreadPlanPython.h
 * /usr/include/lldb/Target/ThreadPlanRunToAddress.h
 * /usr/include/lldb/Target/ThreadPlanShouldStopHere.h
+* /usr/include/lldb/Target/ThreadPlanSingleThreadTimeout.h
 * /usr/include/lldb/Target/ThreadPlanStack.h
 * /usr/include/lldb/Target/ThreadPlanStepInRange.h
 * /usr/include/lldb/Target/ThreadPlanStepInstruction.h
@@ -490,6 +482,7 @@ Next generation, high-performance debugger
 * /usr/include/lldb/Target/ThreadPlanStepUntil.h
 * /usr/include/lldb/Target/ThreadPlanTracer.h
 * /usr/include/lldb/Target/ThreadSpec.h
+* /usr/include/lldb/Target/TimeoutResumeAll.h
 * /usr/include/lldb/Target/Trace.h
 * /usr/include/lldb/Target/TraceCursor.h
 * /usr/include/lldb/Target/TraceDumper.h
@@ -517,6 +510,7 @@ Next generation, high-performance debugger
 * /usr/include/lldb/Utility/DataEncoder.h
 * /usr/include/lldb/Utility/DataExtractor.h
 * /usr/include/lldb/Utility/Diagnostics.h
+* /usr/include/lldb/Utility/DiagnosticsRendering.h
 * /usr/include/lldb/Utility/Endian.h
 * /usr/include/lldb/Utility/Environment.h
 * /usr/include/lldb/Utility/ErrorMessages.h
@@ -537,6 +531,7 @@ Next generation, high-performance debugger
 * /usr/include/lldb/Utility/Predicate.h
 * /usr/include/lldb/Utility/ProcessInfo.h
 * /usr/include/lldb/Utility/RangeMap.h
+* /usr/include/lldb/Utility/RealpathPrefixes.h
 * /usr/include/lldb/Utility/RegisterValue.h
 * /usr/include/lldb/Utility/RegularExpression.h
 * /usr/include/lldb/Utility/Scalar.h
@@ -570,9 +565,24 @@ Next generation, high-performance debugger
 * /usr/include/lldb/Utility/VMRange.h
 * /usr/include/lldb/Utility/XcodeSDK.h
 * /usr/include/lldb/Utility/ZipFile.h
+* /usr/include/lldb/ValueObject/ValueObject.h
+* /usr/include/lldb/ValueObject/ValueObjectCast.h
+* /usr/include/lldb/ValueObject/ValueObjectChild.h
+* /usr/include/lldb/ValueObject/ValueObjectConstResult.h
+* /usr/include/lldb/ValueObject/ValueObjectConstResultCast.h
+* /usr/include/lldb/ValueObject/ValueObjectConstResultChild.h
+* /usr/include/lldb/ValueObject/ValueObjectConstResultImpl.h
+* /usr/include/lldb/ValueObject/ValueObjectDynamicValue.h
+* /usr/include/lldb/ValueObject/ValueObjectList.h
+* /usr/include/lldb/ValueObject/ValueObjectMemory.h
+* /usr/include/lldb/ValueObject/ValueObjectRegister.h
+* /usr/include/lldb/ValueObject/ValueObjectSyntheticFilter.h
+* /usr/include/lldb/ValueObject/ValueObjectUpdater.h
+* /usr/include/lldb/ValueObject/ValueObjectVariable.h
+* /usr/include/lldb/ValueObject/ValueObjectVTable.h
 * /usr/include/lldb/Version/Version.h
 * /usr/lib/liblldb.so
-* /usr/lib/liblldb.so.19.1
-* /usr/lib/liblldb.so.19.1.7
+* /usr/lib/liblldb.so.20.1
+* /usr/lib/liblldb.so.20.1.6
 * /usr/lib/liblldbIntelFeatures.so
-* /usr/lib/liblldbIntelFeatures.so.19.1
+* /usr/lib/liblldbIntelFeatures.so.20.1

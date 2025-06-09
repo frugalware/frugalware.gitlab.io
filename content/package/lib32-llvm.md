@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-llvm 19.1.7-3"
-version = "19.1.7-3"
+title = "lib32-llvm 20.1.6-1"
+version = "20.1.6-1"
 description = "Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)"
-date = "2025-06-04T08:54:43"
+date = "2025-06-08T21:30:12"
 aliases = "/packages/218876"
 categories = ['lib32-extra']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "43891820"
-usize = "316076284"
-sha1sum = "577a79c4a09cbbd7c0b06cc7765c2c4a965ba60e"
+size = "47260092"
+usize = "348011499"
+sha1sum = "1622b5124baa2a568d800d5ad8c1d1fe9a672382"
 depends = "['libstdc++>=15']"
 +++
 ### Description: 
@@ -33,8 +33,10 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)
 * /usr/i686-frugalware-linux/bin/llvm-c-test
 * /usr/i686-frugalware-linux/bin/llvm-cat
 * /usr/i686-frugalware-linux/bin/llvm-cfi-verify
+* /usr/i686-frugalware-linux/bin/llvm-cgdata
 * /usr/i686-frugalware-linux/bin/llvm-config
 * /usr/i686-frugalware-linux/bin/llvm-cov
+* /usr/i686-frugalware-linux/bin/llvm-ctxprof-util
 * /usr/i686-frugalware-linux/bin/llvm-cvtres
 * /usr/i686-frugalware-linux/bin/llvm-cxxdump
 * /usr/i686-frugalware-linux/bin/llvm-cxxfilt
@@ -157,6 +159,7 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)
 * /usr/i686-frugalware-linux/include/llvm/ADT/ConcurrentHashtable.h
 * /usr/i686-frugalware-linux/include/llvm/ADT/DAGDeltaAlgorithm.h
 * /usr/i686-frugalware-linux/include/llvm/ADT/DeltaAlgorithm.h
+* /usr/i686-frugalware-linux/include/llvm/ADT/DeltaTree.h
 * /usr/i686-frugalware-linux/include/llvm/ADT/DenseMap.h
 * /usr/i686-frugalware-linux/include/llvm/ADT/DenseMapInfo.h
 * /usr/i686-frugalware-linux/include/llvm/ADT/DenseMapInfoVariant.h
@@ -208,6 +211,8 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)
 * /usr/i686-frugalware-linux/include/llvm/ADT/PostOrderIterator.h
 * /usr/i686-frugalware-linux/include/llvm/ADT/PriorityQueue.h
 * /usr/i686-frugalware-linux/include/llvm/ADT/PriorityWorklist.h
+* /usr/i686-frugalware-linux/include/llvm/ADT/RewriteBuffer.h
+* /usr/i686-frugalware-linux/include/llvm/ADT/RewriteRope.h
 * /usr/i686-frugalware-linux/include/llvm/ADT/SCCIterator.h
 * /usr/i686-frugalware-linux/include/llvm/ADT/ScopedHashTable.h
 * /usr/i686-frugalware-linux/include/llvm/ADT/ScopeExit.h
@@ -236,7 +241,10 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)
 * /usr/i686-frugalware-linux/include/llvm/ADT/StringRef.h
 * /usr/i686-frugalware-linux/include/llvm/ADT/StringSet.h
 * /usr/i686-frugalware-linux/include/llvm/ADT/StringSwitch.h
+* /usr/i686-frugalware-linux/include/llvm/ADT/StringTable.h
 * /usr/i686-frugalware-linux/include/llvm/ADT/TinyPtrVector.h
+* /usr/i686-frugalware-linux/include/llvm/ADT/TrieHashIndexGenerator.h
+* /usr/i686-frugalware-linux/include/llvm/ADT/TrieRawHashMap.h
 * /usr/i686-frugalware-linux/include/llvm/ADT/Twine.h
 * /usr/i686-frugalware-linux/include/llvm/ADT/TypeSwitch.h
 * /usr/i686-frugalware-linux/include/llvm/ADT/Uniformity.h
@@ -263,6 +271,7 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)
 * /usr/i686-frugalware-linux/include/llvm/Analysis/ConstantFolding.h
 * /usr/i686-frugalware-linux/include/llvm/Analysis/ConstraintSystem.h
 * /usr/i686-frugalware-linux/include/llvm/Analysis/CostModel.h
+* /usr/i686-frugalware-linux/include/llvm/Analysis/CtxProfAnalysis.h
 * /usr/i686-frugalware-linux/include/llvm/Analysis/CycleAnalysis.h
 * /usr/i686-frugalware-linux/include/llvm/Analysis/DDG.h
 * /usr/i686-frugalware-linux/include/llvm/Analysis/DDGPrinter.h
@@ -276,6 +285,8 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)
 * /usr/i686-frugalware-linux/include/llvm/Analysis/DomPrinter.h
 * /usr/i686-frugalware-linux/include/llvm/Analysis/DomTreeUpdater.h
 * /usr/i686-frugalware-linux/include/llvm/Analysis/DOTGraphTraitsPass.h
+* /usr/i686-frugalware-linux/include/llvm/Analysis/DXILMetadataAnalysis.h
+* /usr/i686-frugalware-linux/include/llvm/Analysis/DXILResource.h
 * /usr/i686-frugalware-linux/include/llvm/Analysis/EHUtils.h
 * /usr/i686-frugalware-linux/include/llvm/Analysis/FunctionPropertiesAnalysis.h
 * /usr/i686-frugalware-linux/include/llvm/Analysis/GenericDomTreeUpdater.h
@@ -299,6 +310,7 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)
 * /usr/i686-frugalware-linux/include/llvm/Analysis/IteratedDominanceFrontier.h
 * /usr/i686-frugalware-linux/include/llvm/Analysis/IVDescriptors.h
 * /usr/i686-frugalware-linux/include/llvm/Analysis/IVUsers.h
+* /usr/i686-frugalware-linux/include/llvm/Analysis/LastRunTrackingAnalysis.h
 * /usr/i686-frugalware-linux/include/llvm/Analysis/LazyBlockFrequencyInfo.h
 * /usr/i686-frugalware-linux/include/llvm/Analysis/LazyBranchProbabilityInfo.h
 * /usr/i686-frugalware-linux/include/llvm/Analysis/LazyCallGraph.h
@@ -351,6 +363,7 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)
 * /usr/i686-frugalware-linux/include/llvm/Analysis/ScalarEvolutionDivision.h
 * /usr/i686-frugalware-linux/include/llvm/Analysis/ScalarEvolutionExpressions.h
 * /usr/i686-frugalware-linux/include/llvm/Analysis/ScalarEvolutionNormalization.h
+* /usr/i686-frugalware-linux/include/llvm/Analysis/ScalarEvolutionPatternMatch.h
 * /usr/i686-frugalware-linux/include/llvm/Analysis/ScalarFuncs.def
 * /usr/i686-frugalware-linux/include/llvm/Analysis/ScopedNoAliasAA.h
 * /usr/i686-frugalware-linux/include/llvm/Analysis/SimplifyQuery.h
@@ -410,6 +423,7 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)
 * /usr/i686-frugalware-linux/include/llvm/BinaryFormat/ELFRelocs/PowerPC.def
 * /usr/i686-frugalware-linux/include/llvm/BinaryFormat/ELFRelocs/PowerPC64.def
 * /usr/i686-frugalware-linux/include/llvm/BinaryFormat/ELFRelocs/RISCV.def
+* /usr/i686-frugalware-linux/include/llvm/BinaryFormat/ELFRelocs/RISCV_nonstandard.def
 * /usr/i686-frugalware-linux/include/llvm/BinaryFormat/ELFRelocs/Sparc.def
 * /usr/i686-frugalware-linux/include/llvm/BinaryFormat/ELFRelocs/SystemZ.def
 * /usr/i686-frugalware-linux/include/llvm/BinaryFormat/ELFRelocs/VE.def
@@ -443,6 +457,14 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)
 * /usr/i686-frugalware-linux/include/llvm/Bitstream/BitCodes.h
 * /usr/i686-frugalware-linux/include/llvm/Bitstream/BitstreamReader.h
 * /usr/i686-frugalware-linux/include/llvm/Bitstream/BitstreamWriter.h
+* /usr/i686-frugalware-linux/include/llvm/CGData/CodeGenData.h
+* /usr/i686-frugalware-linux/include/llvm/CGData/CodeGenData.inc
+* /usr/i686-frugalware-linux/include/llvm/CGData/CodeGenDataReader.h
+* /usr/i686-frugalware-linux/include/llvm/CGData/CodeGenDataWriter.h
+* /usr/i686-frugalware-linux/include/llvm/CGData/OutlinedHashTree.h
+* /usr/i686-frugalware-linux/include/llvm/CGData/OutlinedHashTreeRecord.h
+* /usr/i686-frugalware-linux/include/llvm/CGData/StableFunctionMap.h
+* /usr/i686-frugalware-linux/include/llvm/CGData/StableFunctionMapRecord.h
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/AccelTable.h
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/Analysis.h
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/AntiDepBreaker.h
@@ -461,6 +483,7 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/CFIFixup.h
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/CodeGenCommonISel.h
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/CodeGenPrepare.h
+* /usr/i686-frugalware-linux/include/llvm/CodeGen/CodeGenTargetMachineImpl.h
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/CommandFlags.h
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/ComplexDeinterleavingPass.h
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/CostTable.h
@@ -475,6 +498,7 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/DIEValue.def
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/DwarfEHPrepare.h
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/DwarfStringPoolEntry.h
+* /usr/i686-frugalware-linux/include/llvm/CodeGen/EarlyIfConversion.h
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/EdgeBundles.h
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/ExecutionDomainFix.h
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/ExpandLargeDivRem.h
@@ -518,6 +542,7 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/GlobalISel/RegBankSelect.h
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/GlobalISel/Utils.h
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/GlobalMerge.h
+* /usr/i686-frugalware-linux/include/llvm/CodeGen/GlobalMergeFunctions.h
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/HardwareLoops.h
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/IndirectBrExpand.h
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/IndirectThunks.h
@@ -554,6 +579,7 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/MachineCombinerPattern.h
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/MachineConstantPool.h
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/MachineConvergenceVerifier.h
+* /usr/i686-frugalware-linux/include/llvm/CodeGen/MachineCSE.h
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/MachineCycleAnalysis.h
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/MachineDominanceFrontier.h
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/MachineDominators.h
@@ -567,6 +593,7 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/MachineInstrBundle.h
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/MachineInstrBundleIterator.h
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/MachineJumpTableInfo.h
+* /usr/i686-frugalware-linux/include/llvm/CodeGen/MachineLICM.h
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/MachineLoopInfo.h
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/MachineLoopUtils.h
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/MachineMemOperand.h
@@ -603,6 +630,7 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/ModuloSchedule.h
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/MultiHazardRecognizer.h
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/NonRelocatableStringpool.h
+* /usr/i686-frugalware-linux/include/llvm/CodeGen/OptimizePHIs.h
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/Passes.h
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/PBQP/CostAllocator.h
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/PBQP/Graph.h
@@ -610,6 +638,7 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/PBQP/ReductionRules.h
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/PBQP/Solution.h
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/PBQPRAConstraint.h
+* /usr/i686-frugalware-linux/include/llvm/CodeGen/PeepholeOptimizer.h
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/PHIElimination.h
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/PreISelIntrinsicLowering.h
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/PseudoSourceValue.h
@@ -629,6 +658,8 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/RegisterPressure.h
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/RegisterScavenging.h
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/RegisterUsageInfo.h
+* /usr/i686-frugalware-linux/include/llvm/CodeGen/RegUsageInfoCollector.h
+* /usr/i686-frugalware-linux/include/llvm/CodeGen/RegUsageInfoPropagate.h
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/ReplaceWithVeclib.h
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/ResourcePriorityQueue.h
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/RuntimeLibcallUtil.h
@@ -652,10 +683,13 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/SjLjEHPrepare.h
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/SlotIndexes.h
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/Spiller.h
+* /usr/i686-frugalware-linux/include/llvm/CodeGen/SpillPlacement.h
+* /usr/i686-frugalware-linux/include/llvm/CodeGen/StackColoring.h
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/StackMaps.h
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/StackProtector.h
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/SwiftErrorValueTracking.h
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/SwitchLoweringUtils.h
+* /usr/i686-frugalware-linux/include/llvm/CodeGen/TailDuplication.h
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/TailDuplicator.h
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/TargetCallingConv.h
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/TargetFrameLowering.h
@@ -680,8 +714,6 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/WindowScheduler.h
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/WinEHFuncInfo.h
 * /usr/i686-frugalware-linux/include/llvm/CodeGen/WinEHPrepare.h
-* /usr/i686-frugalware-linux/include/llvm/CodeGenData/OutlinedHashTree.h
-* /usr/i686-frugalware-linux/include/llvm/CodeGenData/OutlinedHashTreeRecord.h
 * /usr/i686-frugalware-linux/include/llvm/CodeGenTypes/LowLevelType.h
 * /usr/i686-frugalware-linux/include/llvm/CodeGenTypes/MachineValueType.h
 * /usr/i686-frugalware-linux/include/llvm/Config/abi-breaking.h
@@ -790,6 +822,7 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)
 * /usr/i686-frugalware-linux/include/llvm/DebugInfo/DWARF/DWARFUnit.h
 * /usr/i686-frugalware-linux/include/llvm/DebugInfo/DWARF/DWARFUnitIndex.h
 * /usr/i686-frugalware-linux/include/llvm/DebugInfo/DWARF/DWARFVerifier.h
+* /usr/i686-frugalware-linux/include/llvm/DebugInfo/GSYM/CallSiteInfo.h
 * /usr/i686-frugalware-linux/include/llvm/DebugInfo/GSYM/DwarfTransformer.h
 * /usr/i686-frugalware-linux/include/llvm/DebugInfo/GSYM/ExtractRanges.h
 * /usr/i686-frugalware-linux/include/llvm/DebugInfo/GSYM/FileEntry.h
@@ -802,6 +835,7 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)
 * /usr/i686-frugalware-linux/include/llvm/DebugInfo/GSYM/LineEntry.h
 * /usr/i686-frugalware-linux/include/llvm/DebugInfo/GSYM/LineTable.h
 * /usr/i686-frugalware-linux/include/llvm/DebugInfo/GSYM/LookupResult.h
+* /usr/i686-frugalware-linux/include/llvm/DebugInfo/GSYM/MergedFunctionsInfo.h
 * /usr/i686-frugalware-linux/include/llvm/DebugInfo/GSYM/ObjectFileTransformer.h
 * /usr/i686-frugalware-linux/include/llvm/DebugInfo/GSYM/OutputAggregator.h
 * /usr/i686-frugalware-linux/include/llvm/DebugInfo/GSYM/StringTable.h
@@ -1021,11 +1055,13 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)
 * /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/MCJIT.h
 * /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/ObjectCache.h
 * /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/OProfileWrapper.h
+* /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/AbsoluteSymbols.h
 * /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/COFFPlatform.h
 * /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/COFFVCRuntimeSupport.h
 * /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/CompileOnDemandLayer.h
 * /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/CompileUtils.h
 * /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/Core.h
+* /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/CoreContainers.h
 * /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/Debugging/DebuggerSupport.h
 * /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/Debugging/DebuggerSupportPlugin.h
 * /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/Debugging/DebugInfoSupport.h
@@ -1033,6 +1069,8 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)
 * /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/Debugging/VTuneSupportPlugin.h
 * /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/DebugObjectManagerPlugin.h
 * /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/DebugUtils.h
+* /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/DylibManager.h
+* /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/EHFrameRegistrationPlugin.h
 * /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/ELFNixPlatform.h
 * /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/EPCDebugObjectRegistrar.h
 * /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/EPCDynamicLibrarySearchGenerator.h
@@ -1046,26 +1084,39 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)
 * /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/ExecutorProcessControl.h
 * /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/IndirectionUtils.h
 * /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/IRCompileLayer.h
+* /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/IRPartitionLayer.h
 * /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/IRTransformLayer.h
+* /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/JITLinkLazyCallThroughManager.h
+* /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/JITLinkRedirectableSymbolManager.h
+* /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/JITLinkReentryTrampolines.h
 * /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/JITTargetMachineBuilder.h
 * /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/Layer.h
+* /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/LazyObjectLinkingLayer.h
 * /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/LazyReexports.h
+* /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/LinkGraphLayer.h
+* /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/LinkGraphLinkingLayer.h
 * /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/LLJIT.h
+* /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/LoadLinkableFile.h
 * /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/LookupAndRecordAddrs.h
+* /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/MachO.h
 * /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/MachOBuilder.h
 * /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/MachOPlatform.h
 * /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/Mangling.h
 * /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/MapperJITLinkMemoryManager.h
+* /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/MaterializationUnit.h
 * /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/MemoryMapper.h
 * /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/ObjectFileInterface.h
 * /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/ObjectLinkingLayer.h
 * /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/ObjectTransformLayer.h
 * /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/OrcABISupport.h
+* /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/RedirectionManager.h
+* /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/ReOptimizeLayer.h
 * /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/RTDyldObjectLinkingLayer.h
 * /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/SectCreate.h
 * /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/Shared/AllocationActions.h
 * /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/Shared/ExecutorAddress.h
 * /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/Shared/ExecutorSymbolDef.h
+* /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/Shared/MachOObjectFormat.h
 * /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/Shared/MemoryFlags.h
 * /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/Shared/ObjectFormats.h
 * /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/Shared/OrcError.h
@@ -1080,6 +1131,7 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)
 * /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/SpeculateAnalyses.h
 * /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/Speculation.h
 * /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/SymbolStringPool.h
+* /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/TargetProcess/DefaultHostBootstrapValues.h
 * /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/TargetProcess/ExecutorBootstrapService.h
 * /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/TargetProcess/ExecutorSharedMemoryMapperService.h
 * /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/TargetProcess/JITLoaderGDB.h
@@ -1090,13 +1142,16 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)
 * /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/TargetProcess/SimpleExecutorMemoryManager.h
 * /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/TargetProcess/SimpleRemoteEPCServer.h
 * /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/TargetProcess/TargetExecutionUtils.h
+* /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/TargetProcess/UnwindInfoManager.h
 * /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/TaskDispatch.h
 * /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/ThreadSafeModule.h
+* /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/Orc/UnwindInfoRegistrationPlugin.h
 * /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/RTDyldMemoryManager.h
 * /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/RuntimeDyld.h
 * /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/RuntimeDyldChecker.h
 * /usr/i686-frugalware-linux/include/llvm/ExecutionEngine/SectionMemoryManager.h
 * /usr/i686-frugalware-linux/include/llvm/FileCheck/FileCheck.h
+* /usr/i686-frugalware-linux/include/llvm/Frontend/Atomic/Atomic.h
 * /usr/i686-frugalware-linux/include/llvm/Frontend/Debug/Options.h
 * /usr/i686-frugalware-linux/include/llvm/Frontend/Directive/DirectiveBase.td
 * /usr/i686-frugalware-linux/include/llvm/Frontend/Driver/CodeGenOptions.h
@@ -1107,7 +1162,6 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)
 * /usr/i686-frugalware-linux/include/llvm/Frontend/OpenACC/ACC.inc
 * /usr/i686-frugalware-linux/include/llvm/Frontend/OpenACC/ACC.td
 * /usr/i686-frugalware-linux/include/llvm/Frontend/OpenMP/ClauseT.h
-* /usr/i686-frugalware-linux/include/llvm/Frontend/OpenMP/ConstructCompositionT.h
 * /usr/i686-frugalware-linux/include/llvm/Frontend/OpenMP/ConstructDecompositionT.h
 * /usr/i686-frugalware-linux/include/llvm/Frontend/OpenMP/OMP.h
 * /usr/i686-frugalware-linux/include/llvm/Frontend/OpenMP/OMP.h.inc
@@ -1144,10 +1198,12 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)
 * /usr/i686-frugalware-linux/include/llvm/IR/BuiltinGCs.h
 * /usr/i686-frugalware-linux/include/llvm/IR/CallingConv.h
 * /usr/i686-frugalware-linux/include/llvm/IR/CFG.h
+* /usr/i686-frugalware-linux/include/llvm/IR/CmpPredicate.h
 * /usr/i686-frugalware-linux/include/llvm/IR/Comdat.h
 * /usr/i686-frugalware-linux/include/llvm/IR/Constant.h
 * /usr/i686-frugalware-linux/include/llvm/IR/ConstantFold.h
 * /usr/i686-frugalware-linux/include/llvm/IR/ConstantFolder.h
+* /usr/i686-frugalware-linux/include/llvm/IR/ConstantFPRange.h
 * /usr/i686-frugalware-linux/include/llvm/IR/ConstantRange.h
 * /usr/i686-frugalware-linux/include/llvm/IR/ConstantRangeList.h
 * /usr/i686-frugalware-linux/include/llvm/IR/Constants.h
@@ -1255,6 +1311,7 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)
 * /usr/i686-frugalware-linux/include/llvm/IR/ModuleSummaryIndex.h
 * /usr/i686-frugalware-linux/include/llvm/IR/ModuleSummaryIndexYAML.h
 * /usr/i686-frugalware-linux/include/llvm/IR/NoFolder.h
+* /usr/i686-frugalware-linux/include/llvm/IR/NVVMIntrinsicUtils.h
 * /usr/i686-frugalware-linux/include/llvm/IR/OperandTraits.h
 * /usr/i686-frugalware-linux/include/llvm/IR/Operator.h
 * /usr/i686-frugalware-linux/include/llvm/IR/OptBisect.h
@@ -1290,6 +1347,7 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)
 * /usr/i686-frugalware-linux/include/llvm/IR/ValueMap.h
 * /usr/i686-frugalware-linux/include/llvm/IR/ValueSymbolTable.h
 * /usr/i686-frugalware-linux/include/llvm/IR/VectorBuilder.h
+* /usr/i686-frugalware-linux/include/llvm/IR/VectorTypeUtils.h
 * /usr/i686-frugalware-linux/include/llvm/IR/Verifier.h
 * /usr/i686-frugalware-linux/include/llvm/IR/VFABIDemangler.h
 * /usr/i686-frugalware-linux/include/llvm/IR/VPIntrinsics.def
@@ -1307,7 +1365,6 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)
 * /usr/i686-frugalware-linux/include/llvm/LTO/legacy/UpdateCompilerUsed.h
 * /usr/i686-frugalware-linux/include/llvm/LTO/LTO.h
 * /usr/i686-frugalware-linux/include/llvm/LTO/LTOBackend.h
-* /usr/i686-frugalware-linux/include/llvm/LTO/SummaryBasedOptimizations.h
 * /usr/i686-frugalware-linux/include/llvm/MC/ConstantPools.h
 * /usr/i686-frugalware-linux/include/llvm/MC/DXContainerPSVInfo.h
 * /usr/i686-frugalware-linux/include/llvm/MC/LaneBitmask.h
@@ -1506,6 +1563,8 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)
 * /usr/i686-frugalware-linux/include/llvm/Pass.h
 * /usr/i686-frugalware-linux/include/llvm/PassAnalysisSupport.h
 * /usr/i686-frugalware-linux/include/llvm/Passes/CodeGenPassBuilder.h
+* /usr/i686-frugalware-linux/include/llvm/Passes/DroppedVariableStats.h
+* /usr/i686-frugalware-linux/include/llvm/Passes/DroppedVariableStatsIR.h
 * /usr/i686-frugalware-linux/include/llvm/Passes/MachinePassRegistry.def
 * /usr/i686-frugalware-linux/include/llvm/Passes/OptimizationLevel.h
 * /usr/i686-frugalware-linux/include/llvm/Passes/PassBuilder.h
@@ -1532,11 +1591,11 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)
 * /usr/i686-frugalware-linux/include/llvm/ProfileData/MemProf.h
 * /usr/i686-frugalware-linux/include/llvm/ProfileData/MemProfData.inc
 * /usr/i686-frugalware-linux/include/llvm/ProfileData/MemProfReader.h
+* /usr/i686-frugalware-linux/include/llvm/ProfileData/MemProfYAML.h
 * /usr/i686-frugalware-linux/include/llvm/ProfileData/MIBEntryDef.inc
 * /usr/i686-frugalware-linux/include/llvm/ProfileData/PGOCtxProfReader.h
 * /usr/i686-frugalware-linux/include/llvm/ProfileData/PGOCtxProfWriter.h
 * /usr/i686-frugalware-linux/include/llvm/ProfileData/ProfileCommon.h
-* /usr/i686-frugalware-linux/include/llvm/ProfileData/RawMemProfReader.h
 * /usr/i686-frugalware-linux/include/llvm/ProfileData/SampleProf.h
 * /usr/i686-frugalware-linux/include/llvm/ProfileData/SampleProfReader.h
 * /usr/i686-frugalware-linux/include/llvm/ProfileData/SampleProfWriter.h
@@ -1553,10 +1612,26 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)
 * /usr/i686-frugalware-linux/include/llvm/Remarks/RemarkStreamer.h
 * /usr/i686-frugalware-linux/include/llvm/Remarks/RemarkStringTable.h
 * /usr/i686-frugalware-linux/include/llvm/Remarks/YAMLRemarkSerializer.h
-* /usr/i686-frugalware-linux/include/llvm/SandboxIR/SandboxIR.h
-* /usr/i686-frugalware-linux/include/llvm/SandboxIR/SandboxIRValues.def
+* /usr/i686-frugalware-linux/include/llvm/SandboxIR/Argument.h
+* /usr/i686-frugalware-linux/include/llvm/SandboxIR/BasicBlock.h
+* /usr/i686-frugalware-linux/include/llvm/SandboxIR/Constant.h
+* /usr/i686-frugalware-linux/include/llvm/SandboxIR/Context.h
+* /usr/i686-frugalware-linux/include/llvm/SandboxIR/Function.h
+* /usr/i686-frugalware-linux/include/llvm/SandboxIR/Instruction.h
+* /usr/i686-frugalware-linux/include/llvm/SandboxIR/IntrinsicInst.h
+* /usr/i686-frugalware-linux/include/llvm/SandboxIR/Module.h
+* /usr/i686-frugalware-linux/include/llvm/SandboxIR/Operator.h
+* /usr/i686-frugalware-linux/include/llvm/SandboxIR/Pass.h
+* /usr/i686-frugalware-linux/include/llvm/SandboxIR/PassManager.h
+* /usr/i686-frugalware-linux/include/llvm/SandboxIR/Region.h
 * /usr/i686-frugalware-linux/include/llvm/SandboxIR/Tracker.h
+* /usr/i686-frugalware-linux/include/llvm/SandboxIR/Type.h
 * /usr/i686-frugalware-linux/include/llvm/SandboxIR/Use.h
+* /usr/i686-frugalware-linux/include/llvm/SandboxIR/User.h
+* /usr/i686-frugalware-linux/include/llvm/SandboxIR/Utils.h
+* /usr/i686-frugalware-linux/include/llvm/SandboxIR/Value.h
+* /usr/i686-frugalware-linux/include/llvm/SandboxIR/Values.def
+* /usr/i686-frugalware-linux/include/llvm/Support/AArch64BuildAttributes.h
 * /usr/i686-frugalware-linux/include/llvm/Support/Alignment.h
 * /usr/i686-frugalware-linux/include/llvm/Support/AlignOf.h
 * /usr/i686-frugalware-linux/include/llvm/Support/Allocator.h
@@ -1682,8 +1757,10 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)
 * /usr/i686-frugalware-linux/include/llvm/Support/MSVCErrorWorkarounds.h
 * /usr/i686-frugalware-linux/include/llvm/Support/Mutex.h
 * /usr/i686-frugalware-linux/include/llvm/Support/NativeFormatting.h
+* /usr/i686-frugalware-linux/include/llvm/Support/NVPTXAddrSpace.h
 * /usr/i686-frugalware-linux/include/llvm/Support/OnDiskHashTable.h
 * /usr/i686-frugalware-linux/include/llvm/Support/OptimizedStructLayout.h
+* /usr/i686-frugalware-linux/include/llvm/Support/OptionStrCmp.h
 * /usr/i686-frugalware-linux/include/llvm/Support/Parallel.h
 * /usr/i686-frugalware-linux/include/llvm/Support/Path.h
 * /usr/i686-frugalware-linux/include/llvm/Support/PerThreadBumpPtrAllocator.h
@@ -1758,6 +1835,7 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)
 * /usr/i686-frugalware-linux/include/llvm/Support/xxhash.h
 * /usr/i686-frugalware-linux/include/llvm/Support/YAMLParser.h
 * /usr/i686-frugalware-linux/include/llvm/Support/YAMLTraits.h
+* /usr/i686-frugalware-linux/include/llvm/TableGen/AArch64ImmCheck.h
 * /usr/i686-frugalware-linux/include/llvm/TableGen/Automaton.td
 * /usr/i686-frugalware-linux/include/llvm/TableGen/DirectiveEmitter.h
 * /usr/i686-frugalware-linux/include/llvm/TableGen/Error.h
@@ -1769,6 +1847,7 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)
 * /usr/i686-frugalware-linux/include/llvm/TableGen/StringMatcher.h
 * /usr/i686-frugalware-linux/include/llvm/TableGen/StringToOffsetTable.h
 * /usr/i686-frugalware-linux/include/llvm/TableGen/TableGenBackend.h
+* /usr/i686-frugalware-linux/include/llvm/TableGen/TGTimer.h
 * /usr/i686-frugalware-linux/include/llvm/Target/CGPassBuilderOption.h
 * /usr/i686-frugalware-linux/include/llvm/Target/CodeGenCWrappers.h
 * /usr/i686-frugalware-linux/include/llvm/Target/GenericOpcodes.td
@@ -1789,6 +1868,7 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)
 * /usr/i686-frugalware-linux/include/llvm/Target/TargetSchedule.td
 * /usr/i686-frugalware-linux/include/llvm/Target/TargetSelectionDAG.td
 * /usr/i686-frugalware-linux/include/llvm/TargetParser/AArch64CPUFeatures.inc
+* /usr/i686-frugalware-linux/include/llvm/TargetParser/AArch64FeatPriorities.inc
 * /usr/i686-frugalware-linux/include/llvm/TargetParser/AArch64TargetParser.h
 * /usr/i686-frugalware-linux/include/llvm/TargetParser/AArch64TargetParserDef.inc
 * /usr/i686-frugalware-linux/include/llvm/TargetParser/ARMTargetParser.def
@@ -1801,6 +1881,7 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)
 * /usr/i686-frugalware-linux/include/llvm/TargetParser/LoongArchTargetParser.def
 * /usr/i686-frugalware-linux/include/llvm/TargetParser/LoongArchTargetParser.h
 * /usr/i686-frugalware-linux/include/llvm/TargetParser/PPCTargetParser.def
+* /usr/i686-frugalware-linux/include/llvm/TargetParser/PPCTargetParser.h
 * /usr/i686-frugalware-linux/include/llvm/TargetParser/RISCVISAInfo.h
 * /usr/i686-frugalware-linux/include/llvm/TargetParser/RISCVTargetParser.h
 * /usr/i686-frugalware-linux/include/llvm/TargetParser/RISCVTargetParserDef.inc
@@ -1809,6 +1890,7 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)
 * /usr/i686-frugalware-linux/include/llvm/TargetParser/Triple.h
 * /usr/i686-frugalware-linux/include/llvm/TargetParser/X86TargetParser.def
 * /usr/i686-frugalware-linux/include/llvm/TargetParser/X86TargetParser.h
+* /usr/i686-frugalware-linux/include/llvm/Telemetry/Telemetry.h
 * /usr/i686-frugalware-linux/include/llvm/Testing/ADT/StringMap.h
 * /usr/i686-frugalware-linux/include/llvm/Testing/ADT/StringMapEntry.h
 * /usr/i686-frugalware-linux/include/llvm/Testing/Annotations/Annotations.h
@@ -1836,15 +1918,21 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)
 * /usr/i686-frugalware-linux/include/llvm/ToolDrivers/llvm-lib/LibDriver.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/AggressiveInstCombine/AggressiveInstCombine.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/CFGuard.h
+* /usr/i686-frugalware-linux/include/llvm/Transforms/Coroutines/ABI.h
+* /usr/i686-frugalware-linux/include/llvm/Transforms/Coroutines/CoroAnnotationElide.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Coroutines/CoroCleanup.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Coroutines/CoroConditionalWrapper.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Coroutines/CoroEarly.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Coroutines/CoroElide.h
+* /usr/i686-frugalware-linux/include/llvm/Transforms/Coroutines/CoroInstr.h
+* /usr/i686-frugalware-linux/include/llvm/Transforms/Coroutines/CoroShape.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Coroutines/CoroSplit.h
+* /usr/i686-frugalware-linux/include/llvm/Transforms/Coroutines/MaterializationUtils.h
+* /usr/i686-frugalware-linux/include/llvm/Transforms/Coroutines/SpillUtils.h
+* /usr/i686-frugalware-linux/include/llvm/Transforms/Coroutines/SuspendCrossingInfo.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/HipStdPar/HipStdPar.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/InstCombine/InstCombine.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/InstCombine/InstCombiner.h
-* /usr/i686-frugalware-linux/include/llvm/Transforms/Instrumentation.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Instrumentation/AddressSanitizer.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Instrumentation/AddressSanitizerCommon.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Instrumentation/AddressSanitizerOptions.h
@@ -1863,13 +1951,15 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Instrumentation/MemorySanitizer.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Instrumentation/MemProfiler.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Instrumentation/NumericalStabilitySanitizer.h
+* /usr/i686-frugalware-linux/include/llvm/Transforms/Instrumentation/PGOCtxProfFlattening.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Instrumentation/PGOCtxProfLowering.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Instrumentation/PGOForceFunctionAttrs.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Instrumentation/PGOInstrumentation.h
-* /usr/i686-frugalware-linux/include/llvm/Transforms/Instrumentation/PoisonChecking.h
+* /usr/i686-frugalware-linux/include/llvm/Transforms/Instrumentation/RealtimeSanitizer.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Instrumentation/SanitizerBinaryMetadata.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Instrumentation/SanitizerCoverage.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Instrumentation/ThreadSanitizer.h
+* /usr/i686-frugalware-linux/include/llvm/Transforms/Instrumentation/TypeSanitizer.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/IPO.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/IPO/AlwaysInliner.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/IPO/Annotation2Metadata.h
@@ -1911,7 +2001,6 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)
 * /usr/i686-frugalware-linux/include/llvm/Transforms/IPO/SCCP.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/IPO/StripDeadPrototypes.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/IPO/StripSymbols.h
-* /usr/i686-frugalware-linux/include/llvm/Transforms/IPO/SyntheticCountsPropagation.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/IPO/ThinLTOBitcodeWriter.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/IPO/WholeProgramDevirt.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/ObjCARC.h
@@ -1960,6 +2049,7 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Scalar/LoopSimplifyCFG.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Scalar/LoopSink.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Scalar/LoopStrengthReduce.h
+* /usr/i686-frugalware-linux/include/llvm/Transforms/Scalar/LoopTermFold.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Scalar/LoopUnrollAndJamPass.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Scalar/LoopUnrollPass.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Scalar/LoopVersioningLICM.h
@@ -1992,7 +2082,6 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Scalar/StraightLineStrengthReduce.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Scalar/StructurizeCFG.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Scalar/TailRecursionElimination.h
-* /usr/i686-frugalware-linux/include/llvm/Transforms/Scalar/TLSVariableHoist.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Scalar/WarnMissedTransforms.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Utils.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Utils/AddDiscriminators.h
@@ -2011,14 +2100,15 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Utils/CodeExtractor.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Utils/CodeLayout.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Utils/CodeMoverUtils.h
+* /usr/i686-frugalware-linux/include/llvm/Transforms/Utils/ControlFlowUtils.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Utils/CountVisits.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Utils/CtorUtils.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Utils/Debugify.h
-* /usr/i686-frugalware-linux/include/llvm/Transforms/Utils/DXILResource.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Utils/DXILUpgrade.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Utils/EntryExitInstrumenter.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Utils/EscapeEnumerator.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Utils/Evaluator.h
+* /usr/i686-frugalware-linux/include/llvm/Transforms/Utils/ExtraPassManager.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Utils/FixIrreducible.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Utils/FunctionComparator.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Utils/FunctionImportUtils.h
@@ -2028,10 +2118,13 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Utils/InjectTLIMappings.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Utils/InstructionNamer.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Utils/InstructionWorklist.h
+* /usr/i686-frugalware-linux/include/llvm/Transforms/Utils/Instrumentation.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Utils/IntegerDivision.h
+* /usr/i686-frugalware-linux/include/llvm/Transforms/Utils/IRNormalizer.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Utils/LCSSA.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Utils/LibCallsShrinkWrap.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Utils/Local.h
+* /usr/i686-frugalware-linux/include/llvm/Transforms/Utils/LongestCommonSequence.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Utils/LoopConstrainer.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Utils/LoopPeel.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Utils/LoopRotationUtils.h
@@ -2044,6 +2137,7 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Utils/LowerInvoke.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Utils/LowerMemIntrinsics.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Utils/LowerSwitch.h
+* /usr/i686-frugalware-linux/include/llvm/Transforms/Utils/LowerVectorIntrinsics.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Utils/MatrixUtils.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Utils/Mem2Reg.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Utils/MemoryOpRemark.h
@@ -2082,6 +2176,19 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Vectorize/LoopIdiomVectorize.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Vectorize/LoopVectorizationLegality.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Vectorize/LoopVectorize.h
+* /usr/i686-frugalware-linux/include/llvm/Transforms/Vectorize/SandboxVectorizer/DependencyGraph.h
+* /usr/i686-frugalware-linux/include/llvm/Transforms/Vectorize/SandboxVectorizer/InstrMaps.h
+* /usr/i686-frugalware-linux/include/llvm/Transforms/Vectorize/SandboxVectorizer/Interval.h
+* /usr/i686-frugalware-linux/include/llvm/Transforms/Vectorize/SandboxVectorizer/Legality.h
+* /usr/i686-frugalware-linux/include/llvm/Transforms/Vectorize/SandboxVectorizer/Passes/BottomUpVec.h
+* /usr/i686-frugalware-linux/include/llvm/Transforms/Vectorize/SandboxVectorizer/Passes/NullPass.h
+* /usr/i686-frugalware-linux/include/llvm/Transforms/Vectorize/SandboxVectorizer/Passes/PrintInstructionCount.h
+* /usr/i686-frugalware-linux/include/llvm/Transforms/Vectorize/SandboxVectorizer/Passes/RegionsFromMetadata.h
+* /usr/i686-frugalware-linux/include/llvm/Transforms/Vectorize/SandboxVectorizer/SandboxVectorizer.h
+* /usr/i686-frugalware-linux/include/llvm/Transforms/Vectorize/SandboxVectorizer/SandboxVectorizerPassBuilder.h
+* /usr/i686-frugalware-linux/include/llvm/Transforms/Vectorize/SandboxVectorizer/Scheduler.h
+* /usr/i686-frugalware-linux/include/llvm/Transforms/Vectorize/SandboxVectorizer/SeedCollector.h
+* /usr/i686-frugalware-linux/include/llvm/Transforms/Vectorize/SandboxVectorizer/VecUtils.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Vectorize/SLPVectorizer.h
 * /usr/i686-frugalware-linux/include/llvm/Transforms/Vectorize/VectorCombine.h
 * /usr/i686-frugalware-linux/include/llvm/WindowsDriver/MSVCPaths.h
@@ -2117,6 +2224,7 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)
 * /usr/lib32/cmake/llvm/CoverageReport.cmake
 * /usr/lib32/cmake/llvm/CrossCompile.cmake
 * /usr/lib32/cmake/llvm/DetermineGCCCompatible.cmake
+* /usr/lib32/cmake/llvm/FileLock.cmake
 * /usr/lib32/cmake/llvm/FindFFI.cmake
 * /usr/lib32/cmake/llvm/FindLibEdit.cmake
 * /usr/lib32/cmake/llvm/FindLibpfm.cmake
@@ -2131,7 +2239,6 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit)
 * /usr/lib32/cmake/llvm/LLVM-Build.cmake
 * /usr/lib32/cmake/llvm/LLVM-Config.cmake
 * /usr/lib32/cmake/llvm/llvm-driver-template.cpp.in
-* /usr/lib32/cmake/llvm/LLVMCheckLinkerFlag.cmake
 * /usr/lib32/cmake/llvm/LLVMConfig.cmake
 * /usr/lib32/cmake/llvm/LLVMConfigExtensions.cmake
 * /usr/lib32/cmake/llvm/LLVMConfigVersion.cmake

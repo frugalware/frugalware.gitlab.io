@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-llvm-static 19.1.7-3"
-version = "19.1.7-3"
+title = "lib32-llvm-static 20.1.6-1"
+version = "20.1.6-1"
 description = "Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit static)"
-date = "2025-06-04T08:54:43"
+date = "2025-06-08T21:30:12"
 aliases = "/packages/219972"
 categories = ['lib32-extra']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "128286656"
-usize = "1586252142"
-sha1sum = "07d9e148ce38a845656b52903bea0aecb854553b"
+size = "139176300"
+usize = "1726652192"
+sha1sum = "27ed0835759bc97d7970a1fe5e18d928baeaa1cf"
 depends = "[]"
 +++
 ### Description: 
@@ -56,8 +56,8 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit static)
 * /usr/lib32/libLLVMBPFInfo.a
 * /usr/lib32/libLLVMCFGuard.a
 * /usr/lib32/libLLVMCFIVerify.a
+* /usr/lib32/libLLVMCGData.a
 * /usr/lib32/libLLVMCodeGen.a
-* /usr/lib32/libLLVMCodeGenData.a
 * /usr/lib32/libLLVMCodeGenTypes.a
 * /usr/lib32/libLLVMCore.a
 * /usr/lib32/libLLVMCoroutines.a
@@ -82,9 +82,11 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit static)
 * /usr/lib32/libLLVMExegesisAArch64.a
 * /usr/lib32/libLLVMExegesisMips.a
 * /usr/lib32/libLLVMExegesisPowerPC.a
+* /usr/lib32/libLLVMExegesisRISCV.a
 * /usr/lib32/libLLVMExegesisX86.a
 * /usr/lib32/libLLVMExtensions.a
 * /usr/lib32/libLLVMFileCheck.a
+* /usr/lib32/libLLVMFrontendAtomic.a
 * /usr/lib32/libLLVMFrontendDriver.a
 * /usr/lib32/libLLVMFrontendHLSL.a
 * /usr/lib32/libLLVMFrontendOffloading.a
@@ -174,6 +176,10 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit static)
 * /usr/lib32/libLLVMSparcDesc.a
 * /usr/lib32/libLLVMSparcDisassembler.a
 * /usr/lib32/libLLVMSparcInfo.a
+* /usr/lib32/libLLVMSPIRVAnalysis.a
+* /usr/lib32/libLLVMSPIRVCodeGen.a
+* /usr/lib32/libLLVMSPIRVDesc.a
+* /usr/lib32/libLLVMSPIRVInfo.a
 * /usr/lib32/libLLVMSupport.a
 * /usr/lib32/libLLVMSymbolize.a
 * /usr/lib32/libLLVMSystemZAsmParser.a
@@ -186,6 +192,7 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (32-bit static)
 * /usr/lib32/libLLVMTableGenCommon.a
 * /usr/lib32/libLLVMTarget.a
 * /usr/lib32/libLLVMTargetParser.a
+* /usr/lib32/libLLVMTelemetry.a
 * /usr/lib32/libLLVMTextAPI.a
 * /usr/lib32/libLLVMTextAPIBinaryReader.a
 * /usr/lib32/libLLVMTransformUtils.a

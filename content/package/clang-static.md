@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "clang-static 19.1.7-3"
-version = "19.1.7-3"
+title = "clang-static 20.1.6-1"
+version = "20.1.6-1"
 description = "C/C++ language family frontend for LLVM (static)"
-date = "2025-06-04T08:54:43"
+date = "2025-06-08T21:30:12"
 aliases = "/packages/219971"
 categories = ['devel-extra']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "43069736"
-usize = "691679940"
-sha1sum = "e4bd03db704d2b1a6e0a283a0276e9d63db1038b"
+size = "43816084"
+usize = "709752696"
+sha1sum = "06b20f336c85faf126c137f0cf0498cc1ecf54a2"
 depends = "[]"
 +++
 ### Description: 
@@ -56,10 +56,6 @@ C/C++ language family frontend for LLVM (static)
 * /usr/lib/libclangLex.a
 * /usr/lib/libclangMove.a
 * /usr/lib/libclangParse.a
-* /usr/lib/libclangPseudo.a
-* /usr/lib/libclangPseudoCLI.a
-* /usr/lib/libclangPseudoCXX.a
-* /usr/lib/libclangPseudoGrammar.a
 * /usr/lib/libclangQuery.a
 * /usr/lib/libclangReorderFields.a
 * /usr/lib/libclangRewrite.a

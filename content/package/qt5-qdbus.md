@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qt5-qdbus 5.15.17-1"
-version = "5.15.17-1"
+title = "qt5-qdbus 5.15.17-2"
+version = "5.15.17-2"
 description = "D-Bus tools for qt5"
-date = "2025-05-23T13:55:23"
+date = "2025-06-09T11:48:02"
 aliases = "/packages/218008"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "63204"
-usize = "211788"
-sha1sum = "b3c895966eb93fa702efc8db4490900ce732db0d"
+size = "63284"
+usize = "211580"
+sha1sum = "1b48c3bff2e31ae82675b8039c12e0a6f65167de"
 depends = "['dbus-x11', 'qt5-base>=5.15.2']"
 reverse_depends = "['murmur', 'qt5-tools', 'telepathy-qt5']"
 +++

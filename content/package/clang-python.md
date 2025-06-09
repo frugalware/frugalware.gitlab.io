@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "clang-python 19.1.7-3"
-version = "19.1.7-3"
+title = "clang-python 20.1.6-1"
+version = "20.1.6-1"
 description = "clang python binding"
-date = "2025-06-04T08:54:43"
+date = "2025-06-08T21:30:12"
 aliases = "/packages/221184"
 categories = ['devel']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "74736"
-usize = "438730"
-sha1sum = "6d7ecbd35d798a68d5f82a3f561a68ae6aa19c1e"
-depends = "['clang-libs>=19.1.7', 'python3']"
+size = "77536"
+usize = "465141"
+sha1sum = "81d364314ec190de36da93a7c77f4efa5334ff87"
+depends = "['clang-libs>=20.1.6', 'python3']"
 +++
 ### Description: 
 clang python binding

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "llvm-ocaml 19.1.7-3"
-version = "19.1.7-3"
+title = "llvm-ocaml 20.1.6-1"
+version = "20.1.6-1"
 description = "OCaml bindings for LLVM"
-date = "2025-06-04T08:54:43"
+date = "2025-06-08T21:30:12"
 aliases = "/packages/136476"
 categories = ['devel-extra']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "595820"
-usize = "916557"
-sha1sum = "fc83b3d8a12e96c44fec4f90169864720ea29123"
-depends = "['llvm>=19.1.7', 'ocaml>=4.10.0']"
+size = "601288"
+usize = "925779"
+sha1sum = "160525bfff1b753e91e34277885053407bd7e146"
+depends = "['llvm>=20.1.6', 'ocaml>=4.10.0']"
 +++
 ### Description: 
 OCaml bindings for LLVM
@@ -187,6 +187,13 @@ OCaml bindings for LLVM
 * /usr/lib/ocaml/llvm/llvm_Sparc.cmx
 * /usr/lib/ocaml/llvm/llvm_Sparc.cmxa
 * /usr/lib/ocaml/llvm/llvm_Sparc.mli
+* /usr/lib/ocaml/llvm/llvm_SPIRV.cma
+* /usr/lib/ocaml/llvm/llvm_SPIRV.cmi
+* /usr/lib/ocaml/llvm/llvm_SPIRV.cmt
+* /usr/lib/ocaml/llvm/llvm_SPIRV.cmti
+* /usr/lib/ocaml/llvm/llvm_SPIRV.cmx
+* /usr/lib/ocaml/llvm/llvm_SPIRV.cmxa
+* /usr/lib/ocaml/llvm/llvm_SPIRV.mli
 * /usr/lib/ocaml/llvm/llvm_SystemZ.cma
 * /usr/lib/ocaml/llvm/llvm_SystemZ.cmi
 * /usr/lib/ocaml/llvm/llvm_SystemZ.cmt
@@ -251,6 +258,7 @@ OCaml bindings for LLVM
 * /usr/lib/ocaml/META.llvm_PowerPC
 * /usr/lib/ocaml/META.llvm_RISCV
 * /usr/lib/ocaml/META.llvm_Sparc
+* /usr/lib/ocaml/META.llvm_SPIRV
 * /usr/lib/ocaml/META.llvm_SystemZ
 * /usr/lib/ocaml/META.llvm_VE
 * /usr/lib/ocaml/META.llvm_WebAssembly

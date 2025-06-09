@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qt6-tools 6.9.1-2"
-version = "6.9.1-2"
+title = "qt6-tools 6.9.1-3"
+version = "6.9.1-3"
 description = "The Qt6 toolkit, qttools"
-date = "2025-06-04T09:34:46"
+date = "2025-06-09T11:44:46"
 aliases = "/packages/220761"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "6044440"
-usize = "20114600"
-sha1sum = "3b486c6eab0505af2fe41ac512b841a17746dc01"
-depends = "['clang-libs>=19.1.1', 'litehtml', 'qt6-declarative', 'zstd']"
+size = "6044368"
+usize = "20118088"
+sha1sum = "01615021e13549661291f41484e2051e5bcbdc91"
+depends = "['clang-libs>=20.1.6', 'litehtml', 'qt6-declarative', 'zstd']"
 reverse_depends = "['kde-dev-utils', 'kdevelop', 'kwin', 'marble', 'plasma-workspace', 'qtcreator']"
 +++
 ### Description: 

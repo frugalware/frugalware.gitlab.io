@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "bcc 0.34.0-1"
-version = "0.34.0-1"
+title = "bcc 0.35.0-1"
+version = "0.35.0-1"
 description = "BPF Compiler Collection"
-date = "2025-04-11T19:04:48"
+date = "2025-06-09T01:08:02"
 aliases = "/packages/220303"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/iovisor/bcc"
 arch = "x86_64"
-size = "1426860"
-usize = "5769332"
-sha1sum = "9ee94d3cfc4f84cfad6fd13043ffe23fa3ddf631"
-depends = "['clang-libs>=19.1.1', 'elfutils', 'python3>=3.12']"
+size = "1432480"
+usize = "5826910"
+sha1sum = "0d7a52da97aef142cd01a78a64fa294d08e4ad32"
+depends = "['clang-libs>=20.1.6', 'elfutils', 'python3>=3.12']"
 +++
 ### Description: 
 BPF Compiler Collection
@@ -34,15 +34,15 @@ BPF Compiler Collection
 * /usr/include/bcc/table_storage.h
 * /usr/lib/libbcc.so
 * /usr/lib/libbcc.so.0
-* /usr/lib/libbcc.so.0.34.0
+* /usr/lib/libbcc.so.0.35.0
 * /usr/lib/libbcc_bpf.so
 * /usr/lib/libbcc_bpf.so.0
-* /usr/lib/libbcc_bpf.so.0.34.0
+* /usr/lib/libbcc_bpf.so.0.35.0
 * /usr/lib/pkgconfig/libbcc.pc
-* /usr/lib/python3.13/site-packages/bcc-0.34.0-py3.13.egg-info/dependency_links.txt
-* /usr/lib/python3.13/site-packages/bcc-0.34.0-py3.13.egg-info/PKG-INFO
-* /usr/lib/python3.13/site-packages/bcc-0.34.0-py3.13.egg-info/SOURCES.txt
-* /usr/lib/python3.13/site-packages/bcc-0.34.0-py3.13.egg-info/top_level.txt
+* /usr/lib/python3.13/site-packages/bcc-0.35.0-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/bcc-0.35.0-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/bcc-0.35.0-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/bcc-0.35.0-py3.13.egg-info/top_level.txt
 * /usr/lib/python3.13/site-packages/bcc/containers.py
 * /usr/lib/python3.13/site-packages/bcc/disassembler.py
 * /usr/lib/python3.13/site-packages/bcc/libbcc.py
@@ -398,6 +398,7 @@ BPF Compiler Collection
 * /usr/share/bcc/tools/doc/mdflush_example.txt
 * /usr/share/bcc/tools/doc/memleak_example.txt
 * /usr/share/bcc/tools/doc/mountsnoop_example.txt
+* /usr/share/bcc/tools/doc/mptcpify_example.txt
 * /usr/share/bcc/tools/doc/mysqld_qslower_example.txt
 * /usr/share/bcc/tools/doc/netqtop_example.txt
 * /usr/share/bcc/tools/doc/nfsdist_example.txt
@@ -510,6 +511,7 @@ BPF Compiler Collection
 * /usr/share/bcc/tools/mdflush
 * /usr/share/bcc/tools/memleak
 * /usr/share/bcc/tools/mountsnoop
+* /usr/share/bcc/tools/mptcpify
 * /usr/share/bcc/tools/mysqld_qslower
 * /usr/share/bcc/tools/netqtop
 * /usr/share/bcc/tools/netqtop.c
@@ -609,6 +611,6 @@ BPF Compiler Collection
 * /usr/share/bcc/tools/xfsslower
 * /usr/share/bcc/tools/zfsdist
 * /usr/share/bcc/tools/zfsslower
-* /usr/share/doc/bcc-0.34.0/FAQ.txt
-* /usr/share/doc/bcc-0.34.0/INSTALL.md
-* /usr/share/doc/bcc-0.34.0/README.md
+* /usr/share/doc/bcc-0.35.0/FAQ.txt
+* /usr/share/doc/bcc-0.35.0/INSTALL.md
+* /usr/share/doc/bcc-0.35.0/README.md

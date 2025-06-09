@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "llvm-static 19.1.7-3"
-version = "19.1.7-3"
+title = "llvm-static 20.1.6-1"
+version = "20.1.6-1"
 description = "Low Level Virtual Machine (Compiler, Tools and Libs) (static)"
-date = "2025-06-04T08:54:43"
+date = "2025-06-08T21:30:12"
 aliases = "/packages/219970"
 categories = ['devel-extra']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "43860568"
-usize = "312210374"
-sha1sum = "7dc83ca28609445b3b99951362585dec5a25d449"
+size = "47038784"
+usize = "340684730"
+sha1sum = "2593bd1cf880d2cc992c771c1f54de3d804aa3ac"
 depends = "[]"
 +++
 ### Description: 
@@ -56,8 +56,8 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (static)
 * /usr/lib/libLLVMBPFInfo.a
 * /usr/lib/libLLVMCFGuard.a
 * /usr/lib/libLLVMCFIVerify.a
+* /usr/lib/libLLVMCGData.a
 * /usr/lib/libLLVMCodeGen.a
-* /usr/lib/libLLVMCodeGenData.a
 * /usr/lib/libLLVMCodeGenTypes.a
 * /usr/lib/libLLVMCore.a
 * /usr/lib/libLLVMCoroutines.a
@@ -82,9 +82,11 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (static)
 * /usr/lib/libLLVMExegesisAArch64.a
 * /usr/lib/libLLVMExegesisMips.a
 * /usr/lib/libLLVMExegesisPowerPC.a
+* /usr/lib/libLLVMExegesisRISCV.a
 * /usr/lib/libLLVMExegesisX86.a
 * /usr/lib/libLLVMExtensions.a
 * /usr/lib/libLLVMFileCheck.a
+* /usr/lib/libLLVMFrontendAtomic.a
 * /usr/lib/libLLVMFrontendDriver.a
 * /usr/lib/libLLVMFrontendHLSL.a
 * /usr/lib/libLLVMFrontendOffloading.a
@@ -174,6 +176,10 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (static)
 * /usr/lib/libLLVMSparcDesc.a
 * /usr/lib/libLLVMSparcDisassembler.a
 * /usr/lib/libLLVMSparcInfo.a
+* /usr/lib/libLLVMSPIRVAnalysis.a
+* /usr/lib/libLLVMSPIRVCodeGen.a
+* /usr/lib/libLLVMSPIRVDesc.a
+* /usr/lib/libLLVMSPIRVInfo.a
 * /usr/lib/libLLVMSupport.a
 * /usr/lib/libLLVMSymbolize.a
 * /usr/lib/libLLVMSystemZAsmParser.a
@@ -186,6 +192,7 @@ Low Level Virtual Machine (Compiler, Tools and Libs) (static)
 * /usr/lib/libLLVMTableGenCommon.a
 * /usr/lib/libLLVMTarget.a
 * /usr/lib/libLLVMTargetParser.a
+* /usr/lib/libLLVMTelemetry.a
 * /usr/lib/libLLVMTextAPI.a
 * /usr/lib/libLLVMTextAPIBinaryReader.a
 * /usr/lib/libLLVMTransformUtils.a

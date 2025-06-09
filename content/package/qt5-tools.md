@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qt5-tools 5.15.17-1"
-version = "5.15.17-1"
+title = "qt5-tools 5.15.17-2"
+version = "5.15.17-2"
 description = "The Qt5 toolkit, qttools"
-date = "2025-05-23T13:55:23"
+date = "2025-06-09T11:48:02"
 aliases = "/packages/217659"
 categories = ['xlib']
 upstreamurl = "http://www.qt.io"
 arch = "x86_64"
-size = "5205336"
-usize = "16461109"
-sha1sum = "8740887e0cc22dd40eff7641da8e70ca38494d0c"
-depends = "['clang-libs>=16.0.6', 'qt5-declarative>=5.15.6', 'qt5-location>=5.15.6', 'qt5-qdbus>=5.15.17']"
+size = "5204880"
+usize = "16459237"
+sha1sum = "1c6308b37825fc39f3c6dae68611f270bc5a91e0"
+depends = "['clang-libs>=20.1.6', 'qt5-declarative>=5.15.6', 'qt5-location>=5.15.6', 'qt5-qdbus>=5.15.17']"
 reverse_depends = "['librecad', 'qscintilla2-qt5']"
 +++
 ### Description: 

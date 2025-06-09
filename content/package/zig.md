@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "zig 0.14.0-2"
-version = "0.14.0-2"
+title = "zig 0.14.1-1"
+version = "0.14.1-1"
 description = "a general-purpose programming language and toolchain for maintaining robust, optimal, and reusable software"
-date = "2025-05-21T09:14:39"
+date = "2025-06-09T22:42:32"
 aliases = "/packages/222720"
 categories = ['devel-extra']
 upstreamurl = "https://ziglang.org"
 arch = "x86_64"
-size = "21347536"
-usize = "171598121"
-sha1sum = "d7be6bd809eddb2e58d02a95ec87102f4178ad19"
-depends = "['clang', 'lld']"
+size = "21812336"
+usize = "171594384"
+sha1sum = "bcf5981de4b446351e01d93722e83fefc10b9d42"
+depends = "['clang19', 'lld19']"
 +++
 ### Description: 
 a general-purpose programming language and toolchain for maintaining robust, optimal, and reusable software
@@ -5136,6 +5136,7 @@ a general-purpose programming language and toolchain for maintaining robust, opt
 * /usr/lib/zig/libc/include/loongarch64-linux-gnusf/bits/wordsize.h
 * /usr/lib/zig/libc/include/loongarch64-linux-gnusf/fpu_control.h
 * /usr/lib/zig/libc/include/loongarch64-linux-gnusf/gnu/lib-names.h
+* /usr/lib/zig/libc/include/loongarch64-linux-gnusf/gnu/stubs-lp64s.h
 * /usr/lib/zig/libc/include/loongarch64-linux-gnusf/gnu/stubs.h
 * /usr/lib/zig/libc/include/loongarch64-linux-gnusf/ieee754.h
 * /usr/lib/zig/libc/include/loongarch64-linux-gnusf/sys/asm.h
@@ -14686,5 +14687,5 @@ a general-purpose programming language and toolchain for maintaining robust, opt
 * /usr/lib/zig/tsan/ubsan/ubsan_platform.h
 * /usr/lib/zig/ubsan_rt.zig
 * /usr/lib/zig/zig.h
-* /usr/share/doc/zig-0.14.0/LICENSE
-* /usr/share/doc/zig-0.14.0/README.md
+* /usr/share/doc/zig-0.14.1/LICENSE
+* /usr/share/doc/zig-0.14.1/README.md

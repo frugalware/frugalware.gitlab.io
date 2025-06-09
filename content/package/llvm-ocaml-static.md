@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "llvm-ocaml-static 19.1.7-3"
-version = "19.1.7-3"
+title = "llvm-ocaml-static 20.1.6-1"
+version = "20.1.6-1"
 description = "OCaml bindings for LLVM (static)"
-date = "2025-06-04T08:54:43"
+date = "2025-06-08T21:30:12"
 aliases = "/packages/219977"
 categories = ['devel-extra']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "75324"
-usize = "687244"
-sha1sum = "0ed80d9ce2b7560a129264d90522804504c764ad"
+size = "75900"
+usize = "693046"
+sha1sum = "6b23d2ed948599133b3a04f451735eb9ea77a642"
 depends = "[]"
 +++
 ### Description: 
@@ -41,6 +41,7 @@ OCaml bindings for LLVM (static)
 * /usr/lib/ocaml/llvm/libllvm_PowerPC.a
 * /usr/lib/ocaml/llvm/libllvm_RISCV.a
 * /usr/lib/ocaml/llvm/libllvm_Sparc.a
+* /usr/lib/ocaml/llvm/libllvm_SPIRV.a
 * /usr/lib/ocaml/llvm/libllvm_SystemZ.a
 * /usr/lib/ocaml/llvm/libllvm_target.a
 * /usr/lib/ocaml/llvm/libllvm_transform_utils.a
@@ -72,6 +73,7 @@ OCaml bindings for LLVM (static)
 * /usr/lib/ocaml/llvm/llvm_PowerPC.a
 * /usr/lib/ocaml/llvm/llvm_RISCV.a
 * /usr/lib/ocaml/llvm/llvm_Sparc.a
+* /usr/lib/ocaml/llvm/llvm_SPIRV.a
 * /usr/lib/ocaml/llvm/llvm_SystemZ.a
 * /usr/lib/ocaml/llvm/llvm_target.a
 * /usr/lib/ocaml/llvm/llvm_transform_utils.a

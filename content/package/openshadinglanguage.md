@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "openshadinglanguage 1.14.5.1-1"
-version = "1.14.5.1-1"
+title = "openshadinglanguage 1.14.5.1-2"
+version = "1.14.5.1-2"
 description = "Advanced shading language for production GI renderers"
-date = "2025-06-06T11:33:41"
+date = "2025-06-09T01:21:19"
 aliases = "/packages/220207"
 categories = ['xlib-extra']
 upstreamurl = "https://github.com/AcademySoftwareFoundation/openshadinglanguage"
 arch = "x86_64"
-size = "5765572"
-usize = "25997067"
-sha1sum = "de22e41deabb2574b7cb903b8b06b913da925d63"
-depends = "['clang-libs>=19.1.1', 'intel-tbb', 'openexr', 'openimageio>=2.5', 'partio', 'pugixml', 'python3>=3.13']"
+size = "5771288"
+usize = "26020830"
+sha1sum = "9f869122b17f87b99ec73a2e00ed817044b3448d"
+depends = "['clang-libs>=20.1.6', 'intel-tbb', 'openexr', 'openimageio>=2.5', 'partio', 'pugixml', 'python3>=3.13']"
 +++
 ### Description: 
 Advanced shading language for production GI renderers
