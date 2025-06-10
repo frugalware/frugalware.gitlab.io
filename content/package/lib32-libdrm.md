@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libdrm 2.4.124-1"
-version = "2.4.124-1"
+title = "lib32-libdrm 2.4.125-1"
+version = "2.4.125-1"
 description = "X.Org Userspace interface to kernel DRM services ( 32bit )"
-date = "2024-12-06T17:57:42"
+date = "2025-06-10T17:48:06"
 aliases = "/packages/217710"
 categories = ['lib32-extra']
 upstreamurl = "http://xorg.freedesktop.org/"
 arch = "x86_64"
-size = "334448"
-usize = "1256295"
-sha1sum = "ffdce64726029afd1bf10f54c60d9315522e73c7"
+size = "339188"
+usize = "1283443"
+sha1sum = "e8ccc4b074b6bf3b68e96a451446aed5fee7120b"
 depends = "['lib32-libpciaccess>=0.13.4-4']"
 reverse_depends = "['lib32-libegl', 'lib32-libgbm', 'lib32-libosmesa', 'lib32-libva', 'lib32-libva-mesa-driver', 'lib32-mesa-dri-drivers', 'lib32-mesa-libegl', 'lib32-mesa-libglx', 'lib32-mesa-nine', 'lib32-mesa-pipe-drivers', 'lib32-mesa-vdpau-drivers', 'lib32-pipewire', 'lib32-vulkan-mesa-layers']"
 +++
@@ -69,19 +69,19 @@ X.Org Userspace interface to kernel DRM services ( 32bit )
 * /usr/i686-frugalware-linux/include/xf86drmMode.h
 * /usr/lib32/libdrm.so
 * /usr/lib32/libdrm.so.2
-* /usr/lib32/libdrm.so.2.124.0
+* /usr/lib32/libdrm.so.2.125.0
 * /usr/lib32/libdrm_amdgpu.so
 * /usr/lib32/libdrm_amdgpu.so.1
-* /usr/lib32/libdrm_amdgpu.so.1.124.0
+* /usr/lib32/libdrm_amdgpu.so.1.125.0
 * /usr/lib32/libdrm_intel.so
 * /usr/lib32/libdrm_intel.so.1
-* /usr/lib32/libdrm_intel.so.1.124.0
+* /usr/lib32/libdrm_intel.so.1.125.0
 * /usr/lib32/libdrm_nouveau.so
 * /usr/lib32/libdrm_nouveau.so.2
-* /usr/lib32/libdrm_nouveau.so.2.124.0
+* /usr/lib32/libdrm_nouveau.so.2.125.0
 * /usr/lib32/libdrm_radeon.so
 * /usr/lib32/libdrm_radeon.so.1
-* /usr/lib32/libdrm_radeon.so.1.124.0
+* /usr/lib32/libdrm_radeon.so.1.125.0
 * /usr/lib32/pkgconfig/libdrm.pc
 * /usr/lib32/pkgconfig/libdrm_amdgpu.pc
 * /usr/lib32/pkgconfig/libdrm_intel.pc

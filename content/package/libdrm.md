@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libdrm 2.4.124-1"
-version = "2.4.124-1"
+title = "libdrm 2.4.125-1"
+version = "2.4.125-1"
 description = "X.Org Userspace interface to kernel DRM services"
-date = "2024-12-06T17:57:42"
+date = "2025-06-10T17:48:06"
 aliases = "/packages/4776"
 categories = ['x11']
 upstreamurl = "http://xorg.freedesktop.org/"
 arch = "x86_64"
-size = "319540"
-usize = "1215299"
-sha1sum = "8594e6b7c71dc98d0c6aa09c1e9ed1f36cb32912"
+size = "324544"
+usize = "1243996"
+sha1sum = "a435b9fba289306c386757a411e21556c3e6c574"
 depends = "['libpciaccess>=0.13.4-4']"
 reverse_depends = "['chromium-browser', 'clightd', 'criu', 'ddcutil', 'efl', 'enlightenment', 'evdi', 'guarddog', 'hsa-rocr', 'intel-compute-runtime', 'intel-gpu-tools', 'intel-media-sdk', 'knoda', 'koverartist', 'lib32-mesa-libswrast', 'libcamera', 'libegl', 'libgbm', 'libosmesa', 'libva', 'libva-mesa-driver', 'libvpl', 'mesa-dri-drivers', 'mesa-libegl', 'mesa-libglx', 'mesa-libswrast', 'mesa-nine', 'mesa-pipe-drivers', 'mesa-vdpau-drivers', 'neatvnc', 'qt5-wayland', 'qt6-wayland', 'redshift', 'spice-vdagent', 'terminology', 'tg_owt', 'vulkan-mesa-layers', 'wayland-utils', 'wlroots', 'wlroots0.17', 'xf86-video-intel']"
 +++
@@ -69,23 +69,23 @@ X.Org Userspace interface to kernel DRM services
 * /usr/include/xf86drmMode.h
 * /usr/lib/libdrm.so
 * /usr/lib/libdrm.so.2
-* /usr/lib/libdrm.so.2.124.0
+* /usr/lib/libdrm.so.2.125.0
 * /usr/lib/libdrm_amdgpu.so
 * /usr/lib/libdrm_amdgpu.so.1
-* /usr/lib/libdrm_amdgpu.so.1.124.0
+* /usr/lib/libdrm_amdgpu.so.1.125.0
 * /usr/lib/libdrm_intel.so
 * /usr/lib/libdrm_intel.so.1
-* /usr/lib/libdrm_intel.so.1.124.0
+* /usr/lib/libdrm_intel.so.1.125.0
 * /usr/lib/libdrm_nouveau.so
 * /usr/lib/libdrm_nouveau.so.2
-* /usr/lib/libdrm_nouveau.so.2.124.0
+* /usr/lib/libdrm_nouveau.so.2.125.0
 * /usr/lib/libdrm_radeon.so
 * /usr/lib/libdrm_radeon.so.1
-* /usr/lib/libdrm_radeon.so.1.124.0
+* /usr/lib/libdrm_radeon.so.1.125.0
 * /usr/lib/pkgconfig/libdrm.pc
 * /usr/lib/pkgconfig/libdrm_amdgpu.pc
 * /usr/lib/pkgconfig/libdrm_intel.pc
 * /usr/lib/pkgconfig/libdrm_nouveau.pc
 * /usr/lib/pkgconfig/libdrm_radeon.pc
-* /usr/share/doc/libdrm-2.4.124/README.rst
+* /usr/share/doc/libdrm-2.4.125/README.rst
 * /usr/share/libdrm/amdgpu.ids
