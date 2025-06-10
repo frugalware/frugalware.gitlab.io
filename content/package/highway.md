@@ -12,6 +12,7 @@ size = "925220"
 usize = "7458675"
 sha1sum = "389a7f300eef85e5ca2fec126cf7f185be245f36"
 depends = "['libstdc++']"
+reverse_depends = "['libjxl']"
 +++
 ### Description: 
 A C++ library that provides portable SIMD/vector intrinsics

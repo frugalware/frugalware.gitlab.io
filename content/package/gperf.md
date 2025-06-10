@@ -12,7 +12,7 @@ size = "150652"
 usize = "493825"
 sha1sum = "64040e8a45891825a8112d06909706274b66a9c6"
 depends = "['libstdc++>=9.1.0-3']"
-reverse_depends = "['freecell-solver', 'libguestfs', 'webkit-gtk3']"
+reverse_depends = "['freecell-solver', 'libguestfs', 'libjxl', 'webkit-gtk3']"
 +++
 ### Description: 
 A perfect hash function generator.
