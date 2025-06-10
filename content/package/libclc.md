@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libclc 19.1.7-1"
-version = "19.1.7-1"
+title = "libclc 20.1.6-1"
+version = "20.1.6-1"
 description = "Library requirements of the OpenCL C programming language"
-date = "2025-01-15T17:11:17"
+date = "2025-06-10T21:15:30"
 aliases = "/packages/217322"
 categories = ['lib']
 upstreamurl = "http://libclc.llvm.org/"
 arch = "x86_64"
-size = "14008760"
-usize = "87573626"
-sha1sum = "0b22f9b5cc48afc9b6e2f479e71a42cfb2829706"
+size = "13210156"
+usize = "81824321"
+sha1sum = "22dcb6a675baedd4815a3e3655a41794e7973636"
 depends = "['glibc']"
 reverse_depends = "['opencl-rusticl']"
 +++
@@ -42,9 +42,7 @@ Library requirements of the OpenCL C programming language
 * /usr/include/clc/atom_decl_int32.inc
 * /usr/include/clc/atom_decl_int64.inc
 * /usr/include/clc/clc.h
-* /usr/include/clc/clcfunc.h
 * /usr/include/clc/clcmacros.h
-* /usr/include/clc/clctypes.h
 * /usr/include/clc/cl_khr_global_int32_base_atomics/atom_add.h
 * /usr/include/clc/cl_khr_global_int32_base_atomics/atom_cmpxchg.h
 * /usr/include/clc/cl_khr_global_int32_base_atomics/atom_dec.h
@@ -103,7 +101,6 @@ Library requirements of the OpenCL C programming language
 * /usr/include/clc/geometric/fast_length.inc
 * /usr/include/clc/geometric/fast_normalize.h
 * /usr/include/clc/geometric/fast_normalize.inc
-* /usr/include/clc/geometric/floatn.inc
 * /usr/include/clc/geometric/length.h
 * /usr/include/clc/geometric/length.inc
 * /usr/include/clc/geometric/normalize.h
@@ -119,7 +116,6 @@ Library requirements of the OpenCL C programming language
 * /usr/include/clc/integer/clz.h
 * /usr/include/clc/integer/clz.inc
 * /usr/include/clc/integer/definitions.h
-* /usr/include/clc/integer/gentype.inc
 * /usr/include/clc/integer/hadd.h
 * /usr/include/clc/integer/hadd.inc
 * /usr/include/clc/integer/integer-gentype.inc
@@ -152,7 +148,6 @@ Library requirements of the OpenCL C programming language
 * /usr/include/clc/math/atan2pi.h
 * /usr/include/clc/math/atanh.h
 * /usr/include/clc/math/atanpi.h
-* /usr/include/clc/math/binary_decl.inc
 * /usr/include/clc/math/binary_decl_tt.inc
 * /usr/include/clc/math/cbrt.h
 * /usr/include/clc/math/ceil.h
@@ -177,7 +172,6 @@ Library requirements of the OpenCL C programming language
 * /usr/include/clc/math/fract.inc
 * /usr/include/clc/math/frexp.h
 * /usr/include/clc/math/frexp.inc
-* /usr/include/clc/math/gentype.inc
 * /usr/include/clc/math/half_cos.h
 * /usr/include/clc/math/half_divide.h
 * /usr/include/clc/math/half_exp.h
@@ -248,18 +242,14 @@ Library requirements of the OpenCL C programming language
 * /usr/include/clc/math/tan.h
 * /usr/include/clc/math/tanh.h
 * /usr/include/clc/math/tanpi.h
-* /usr/include/clc/math/ternary_decl.inc
 * /usr/include/clc/math/tgamma.h
 * /usr/include/clc/math/trunc.h
-* /usr/include/clc/math/unary_decl.inc
 * /usr/include/clc/misc/shuffle.h
 * /usr/include/clc/misc/shuffle2.h
 * /usr/include/clc/relational/all.h
 * /usr/include/clc/relational/any.h
-* /usr/include/clc/relational/binary_decl.inc
 * /usr/include/clc/relational/bitselect.h
 * /usr/include/clc/relational/bitselect.inc
-* /usr/include/clc/relational/floatn.inc
 * /usr/include/clc/relational/isequal.h
 * /usr/include/clc/relational/isfinite.h
 * /usr/include/clc/relational/isgreater.h
@@ -274,9 +264,7 @@ Library requirements of the OpenCL C programming language
 * /usr/include/clc/relational/isordered.h
 * /usr/include/clc/relational/isunordered.h
 * /usr/include/clc/relational/select.h
-* /usr/include/clc/relational/select.inc
 * /usr/include/clc/relational/signbit.h
-* /usr/include/clc/relational/unary_decl.inc
 * /usr/include/clc/shared/clamp.h
 * /usr/include/clc/shared/clamp.inc
 * /usr/include/clc/shared/max.h
@@ -346,6 +334,8 @@ Library requirements of the OpenCL C programming language
 * /usr/share/clc/gfx1151-amdgcn-mesa-mesa3d.bc
 * /usr/share/clc/gfx1152-amdgcn--.bc
 * /usr/share/clc/gfx1152-amdgcn-mesa-mesa3d.bc
+* /usr/share/clc/gfx1153-amdgcn--.bc
+* /usr/share/clc/gfx1153-amdgcn-mesa-mesa3d.bc
 * /usr/share/clc/gfx1200-amdgcn--.bc
 * /usr/share/clc/gfx1200-amdgcn-mesa-mesa3d.bc
 * /usr/share/clc/gfx1201-amdgcn--.bc
@@ -421,5 +411,5 @@ Library requirements of the OpenCL C programming language
 * /usr/share/clc/turks-r600--.bc
 * /usr/share/clc/verde-amdgcn--.bc
 * /usr/share/clc/verde-amdgcn-mesa-mesa3d.bc
-* /usr/share/doc/libclc-19.1.7/README.md
+* /usr/share/doc/libclc-20.1.6/README.md
 * /usr/share/pkgconfig/libclc.pc

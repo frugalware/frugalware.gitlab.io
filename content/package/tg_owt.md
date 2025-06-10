@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "tg_owt 20241104.g8198c4d-3"
-version = "20241104.g8198c4d-3"
+title = "tg_owt 20250610.g8198c4d-1"
+version = "20250610.g8198c4d-1"
 description = "WebRTC build for Telegram"
-date = "2025-05-17T21:12:21"
+date = "2025-06-10T21:47:19"
 aliases = "/packages/220205"
 categories = ['xlib-extra']
 upstreamurl = "https://github.com/desktop-app/tg_owt"
 arch = "x86_64"
-size = "97351880"
-usize = "158061464"
-sha1sum = "a843b604bd5cf037d85cee2bbc821e984a0cbde0"
+size = "97338584"
+usize = "158062827"
+sha1sum = "80d5a3da091331b1b4f366f5d758a3d4f015d30c"
 depends = "['libdrm']"
 +++
 ### Description: 
@@ -2696,4 +2696,4 @@ WebRTC build for Telegram
 * /usr/lib/cmake/tg_owt/tg_owtTargets-release.cmake
 * /usr/lib/cmake/tg_owt/tg_owtTargets.cmake
 * /usr/lib/libtg_owt.a
-* /usr/share/doc/tg_owt-20241104.g8198c4d/LICENSE
+* /usr/share/doc/tg_owt-20250610.g8198c4d/LICENSE
