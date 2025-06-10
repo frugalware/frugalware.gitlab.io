@@ -12,7 +12,6 @@ size = "189544"
 usize = "468107"
 sha1sum = "56a282d2c75beafbed80deebd36d6658e1572c49"
 depends = "['oniguruma>=6.9.8']"
-reverse_depends = "['sysdig']"
 +++
 ### Description: 
 Command-line JSON processor.

@@ -12,7 +12,7 @@ size = "246692"
 usize = "828314"
 sha1sum = "4fc5ae34f69ee2b705c823510e20f50e59193ccb"
 depends = "['elfutils']"
-reverse_depends = "['iproute2', 'pahole', 'qemu', 'sysdig', 'v4l-utils']"
+reverse_depends = "['iproute2', 'pahole', 'qemu', 'v4l-utils']"
 +++
 ### Description: 
 Library for loading eBPF programs and reading and manipulating eBPF objects from user-space

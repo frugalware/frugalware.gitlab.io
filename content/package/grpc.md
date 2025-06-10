@@ -12,7 +12,7 @@ size = "4845708"
 usize = "21707588"
 sha1sum = "764d201e371085b290875dbb0085c37f52b55787"
 depends = "['c-ares', 'icu4c>=76.1', 'openssl>=3.1.0', 'protobuf>=31.1', 're2']"
-reverse_depends = "['qt6-grpc', 'sysdig']"
+reverse_depends = "['falcosecurity-libs', 'qt6-grpc']"
 +++
 ### Description: 
 High performance, open source, general RPC framework that puts mobile and HTTP/2 first.

@@ -12,7 +12,7 @@ size = "362832"
 usize = "2040318"
 sha1sum = "b0f433c12eff04d2c4aef498c05cd26b29dea8e2"
 depends = "['glibc>=2.34']"
-reverse_depends = "['easyeffects', 'embree', 'ispc', 'mold', 'opencascade', 'opencv', 'openshadinglanguage', 'openturns', 'openvdb', 'rkcommon', 'sysdig']"
+reverse_depends = "['easyeffects', 'embree', 'falcosecurity-libs', 'ispc', 'mold', 'opencascade', 'opencv', 'openshadinglanguage', 'openturns', 'openvdb', 'rkcommon']"
 +++
 ### Description: 
 An award-winning C++ runtime library that abstracts the low-level threading details necessary for optimal multi-core performance.

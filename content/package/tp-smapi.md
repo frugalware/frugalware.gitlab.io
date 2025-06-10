@@ -1,24 +1,27 @@
 +++
 draft = false
-title = "tp-smapi 0.44-105"
-version = "0.44-105"
+title = "tp-smapi 0.44-106"
+version = "0.44-106"
 description = "Modules for ThinkPad's SMAPI functionality"
-date = "2025-06-01T19:05:15"
+date = "2025-06-10T11:49:35"
 aliases = "/packages/184262"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/linux-thinkpad/tp_smapi"
 arch = "x86_64"
-size = "239484"
-usize = "242239"
-sha1sum = "743e4377e02dfd17f2931e74a981b068f71a1bbf"
-depends = "['kernel=6.14.9-1']"
+size = "251496"
+usize = "288756"
+sha1sum = "e0af080970aa4188e6dfe881035b50d500810d87"
+depends = "['kernel=6.15.1-1']"
 +++
 ### Description: 
 Modules for ThinkPad's SMAPI functionality
 
 ### Files: 
-* /usr/lib/modules/6.14.9-fw1/kernel/drivers/platform/x86/thinkpad_ec.ko.zst
-* /usr/lib/modules/6.14.9-fw1/kernel/drivers/platform/x86/tp_smapi.ko.zst
+* /usr/lib/modules/6.15.1-fw1/kernel/drivers/platform/x86/thinkpad_ec.ko.zst
+* /usr/lib/modules/6.15.1-fw1/kernel/drivers/platform/x86/tp_smapi.ko.zst
 * /usr/share/doc/tp-smapi-0.44/CHANGES
+* /usr/share/doc/tp-smapi-0.44/COPYING
+* /usr/share/doc/tp-smapi-0.44/LICENSE
 * /usr/share/doc/tp-smapi-0.44/README
+* /usr/share/doc/tp-smapi-0.44/README.md
 * /usr/share/doc/tp-smapi-0.44/TODO

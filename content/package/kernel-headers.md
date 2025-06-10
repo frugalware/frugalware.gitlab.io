@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kernel-headers 6.14.9-1"
-version = "6.14.9-1"
+title = "kernel-headers 6.15.1-1"
+version = "6.15.1-1"
 description = "Linux kernel include files"
-date = "2025-06-01T17:17:26"
+date = "2025-06-10T10:58:37"
 aliases = "/packages/2398"
 categories = ['devel']
 upstreamurl = "https://www.kernel.org"
 arch = "x86_64"
-size = "1256732"
-usize = "5944414"
-sha1sum = "4e64d947615e29ed63c9c7c576c736e2ce2b2b03"
+size = "1266016"
+usize = "5988689"
+sha1sum = "d8771bcef7b4a9802d30293c7c8577fe813089f4"
 depends = "[]"
 +++
 ### Description: 
@@ -120,6 +120,11 @@ Linux kernel include files
 * /usr/include/asm/vm86.h
 * /usr/include/asm/vmx.h
 * /usr/include/asm/vsyscall.h
+* /usr/include/cxl/features.h
+* /usr/include/fwctl/cxl.h
+* /usr/include/fwctl/fwctl.h
+* /usr/include/fwctl/mlx5.h
+* /usr/include/fwctl/pds.h
 * /usr/include/linux/a.out.h
 * /usr/include/linux/acct.h
 * /usr/include/linux/acrn.h
@@ -170,6 +175,7 @@ Linux kernel include files
 * /usr/include/linux/bfs_fs.h
 * /usr/include/linux/binfmts.h
 * /usr/include/linux/bits.h
+* /usr/include/linux/blk-crypto.h
 * /usr/include/linux/blkdev.h
 * /usr/include/linux/blkpg.h
 * /usr/include/linux/blktrace_api.h
@@ -219,6 +225,7 @@ Linux kernel include files
 * /usr/include/linux/const.h
 * /usr/include/linux/coresight-stm.h
 * /usr/include/linux/counter.h
+* /usr/include/linux/counter/microchip-tcb-capture.h
 * /usr/include/linux/cramfs_fs.h
 * /usr/include/linux/cryptouser.h
 * /usr/include/linux/cuda.h
@@ -326,7 +333,6 @@ Linux kernel include files
 * /usr/include/linux/if_arp.h
 * /usr/include/linux/if_bonding.h
 * /usr/include/linux/if_bridge.h
-* /usr/include/linux/if_cablemodem.h
 * /usr/include/linux/if_eql.h
 * /usr/include/linux/if_ether.h
 * /usr/include/linux/if_fc.h
@@ -409,6 +415,7 @@ Linux kernel include files
 * /usr/include/linux/lirc.h
 * /usr/include/linux/llc.h
 * /usr/include/linux/loadpin.h
+* /usr/include/linux/lockd_netlink.h
 * /usr/include/linux/loop.h
 * /usr/include/linux/lp.h
 * /usr/include/linux/lsm.h
@@ -450,6 +457,7 @@ Linux kernel include files
 * /usr/include/linux/mrp_bridge.h
 * /usr/include/linux/msdos_fs.h
 * /usr/include/linux/msg.h
+* /usr/include/linux/mshv.h
 * /usr/include/linux/mtio.h
 * /usr/include/linux/nbd-netlink.h
 * /usr/include/linux/nbd.h
@@ -910,7 +918,6 @@ Linux kernel include files
 * /usr/include/linux/xilinx-v4l2-controls.h
 * /usr/include/linux/zorro.h
 * /usr/include/linux/zorro_ids.h
-* /usr/include/misc/cxl.h
 * /usr/include/misc/fastrpc.h
 * /usr/include/misc/mrvl_cn10k_dpi.h
 * /usr/include/misc/ocxl.h

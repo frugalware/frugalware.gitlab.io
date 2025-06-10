@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "perf 6.14.9-1"
-version = "6.14.9-1"
+title = "perf 6.15.1-1"
+version = "6.15.1-1"
 description = "Kernel performance profiling tool"
-date = "2025-06-01T17:17:26"
+date = "2025-06-10T10:58:37"
 aliases = "/packages/221185"
 categories = ['devel-extra']
 upstreamurl = "https://www.kernel.org"
 arch = "x86_64"
-size = "2325880"
-usize = "11996338"
-sha1sum = "62af1afe870a8e3a0b984e633673d83d03f62c5e"
+size = "2362808"
+usize = "12331830"
+sha1sum = "db68d89009e06bcca468c2b0b28af236a6f924c1"
 depends = "['binutils>=2.44', 'elfutils', 'libtraceevent', 'python3>=3.11', 'slang', 'xz']"
 +++
 ### Description: 
@@ -248,6 +248,7 @@ Kernel performance profiling tool
 * /usr/lib/perf/perf-core/tests/shell/trace_btf_enum.sh
 * /usr/lib/perf/perf-core/tests/shell/trace_btf_general.sh
 * /usr/lib/perf/perf-core/tests/shell/trace_exit_race.sh
+* /usr/lib/perf/perf-core/tests/shell/trace_record_replay.sh
 * /usr/share/doc/perf-tip/tips.txt
 * /usr/share/man/man1/perf-amd-ibs.1.gz
 * /usr/share/man/man1/perf-annotate.1.gz

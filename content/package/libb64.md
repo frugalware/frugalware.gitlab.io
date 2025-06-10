@@ -12,7 +12,7 @@ size = "18016"
 usize = "31199"
 sha1sum = "a2f44d76ca3402932c0fdeebe7c347c7fac9623f"
 depends = "['gcc>=13.2']"
-reverse_depends = "['sysdig', 'transmission-cli']"
+reverse_depends = "['transmission-cli']"
 +++
 ### Description: 
 Base64 Encoding/Decoding Routines

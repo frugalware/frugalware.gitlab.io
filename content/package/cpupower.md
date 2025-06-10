@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "cpupower 6.14.9-1"
-version = "6.14.9-1"
+title = "cpupower 6.15.1-1"
+version = "6.15.1-1"
 description = "Kernel cpu powersaving tool"
-date = "2025-06-01T17:17:26"
+date = "2025-06-10T10:58:37"
 aliases = "/packages/137197"
 categories = ['apps-extra']
 upstreamurl = "https://www.kernel.org"
 arch = "x86_64"
-size = "103560"
+size = "103892"
 usize = "259858"
-sha1sum = "de88dd4a73da96092da8d933ec9f4a636ce22261"
+sha1sum = "5baa0584c624fa9fb55b1c02ad366d54ed512795"
 depends = "['pciutils']"
 +++
 ### Description: 
@@ -27,8 +27,8 @@ Kernel cpu powersaving tool
 * /usr/include/cpuidle.h
 * /usr/include/powercap.h
 * /usr/lib/libcpupower.so
-* /usr/lib/libcpupower.so.0.0.1
 * /usr/lib/libcpupower.so.1
+* /usr/lib/libcpupower.so.1.0.1
 * /usr/lib/systemd/system/cpupower.service
 * /usr/share/bash-completion/completions/cpupower
 * /usr/share/doc/packages/cpupower/cpufreq-bench_script.sh
