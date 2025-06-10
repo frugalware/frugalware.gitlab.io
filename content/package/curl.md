@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "curl 8.14.0-1"
-version = "8.14.0-1"
+title = "curl 8.14.1-1"
+version = "8.14.1-1"
 description = "A command line tool for transferring data specified with URL syntax."
-date = "2025-06-02T11:21:44"
+date = "2025-06-10T20:31:20"
 aliases = "/packages/2359"
 categories = ['network']
 upstreamurl = "http://curl.haxx.se"
 arch = "x86_64"
-size = "1280812"
-usize = "2266849"
-sha1sum = "a548b86fa57fa8afb63200be4093a39bb3cd7799"
+size = "1275932"
+usize = "2243759"
+sha1sum = "9c10e144f71743a158b73292f04c7d40041dea75"
 depends = "['brotli', 'c-ares>=1.13.0-2', 'libidn2>=2.0.0-5', 'libpsl>=0.21.5', 'libssh2>=1.8.2-2', 'nghttp2>=1.37.0-2', 'nghttp3', 'openssl>=3.1.0', 'zstd']"
 reverse_depends = "['alienarena', 'apache', 'appstream', 'appstream-glib', 'assaultcube', 'cargo-c', 'chromium-browser', 'clamav', 'claws-mail-plugin-libravatar', 'claws-mail-plugin-rssyl', 'claws-mail-plugin-spam-report', 'claws-mail-plugin-vcalendar', 'cmake', 'cryfs', 'dovecot', 'elfutils-debuginfod', 'enigma', 'exiv2', 'facter', 'falcosecurity-libs', 'feh', 'firefox', 'flickcurl', 'flutter', 'freeciv', 'freetuxtv', 'get_steam', 'git', 'glyr', 'gmic', 'gnunet', 'hw-probe', 'icecast', 'intel-gpu-tools', 'julia', 'keepassxc', 'kvm', 'libclastfm', 'libcmis', 'libmediainfo', 'libmicrohttpd', 'liboauth', 'libofx', 'libproxy', 'libqalculate', 'libquvi', 'libreswan', 'libvirt', 'libvirt-glib', 'luanti', 'manaplus', 'megaglest', 'mod_security', 'mpd', 'mupdf', 'ncmpcpp', 'networkmanager', 'nushell', 'obs-studio', 'octave', 'openscenegraph', 'ostree', 'pdns', 'pdns-recursor', 'php', 'poppler', 'proj', 'pycurl', 'qemu', 'qmmp', 'r', 'raptor', 'rng-tools', 'rsyslog', 'rust', 'rustup', 'sane-backends', 'scummvm', 'seafile', 'spamassassin', 'spring', 'strongswan', 'supertux', 'supertuxkart', 'systemd-pull', 'tpm2-tss', 'transmission-cli', 'ufoai', 'uget', 'uwsgi-plugin-curl', 'virtualbox', 'vorbis-tools', 'warzone2100', 'weechat', 'xine-ui', 'xmlrpc-c', 'xonotic']"
 +++
@@ -38,9 +38,9 @@ A command line tool for transferring data specified with URL syntax.
 * /usr/lib/libcurl.so.4.8.0
 * /usr/lib/pkgconfig/libcurl.pc
 * /usr/share/aclocal/libcurl.m4
-* /usr/share/doc/curl-8.14.0/COPYING
-* /usr/share/doc/curl-8.14.0/README
-* /usr/share/doc/curl-8.14.0/RELEASE-NOTES
+* /usr/share/doc/curl-8.14.1/COPYING
+* /usr/share/doc/curl-8.14.1/README
+* /usr/share/doc/curl-8.14.1/RELEASE-NOTES
 * /usr/share/fish/vendor_completions.d/curl.fish
 * /usr/share/man/man1/curl-config.1.gz
 * /usr/share/man/man1/curl.1.gz

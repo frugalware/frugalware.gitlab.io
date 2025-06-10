@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "heroic-games-launcher 2.17.0-1"
-version = "2.17.0-1"
+title = "heroic-games-launcher 2.17.2-1"
+version = "2.17.2-1"
 description = "Native GOG, Epic Games and Amazon games launcher for Linux"
-date = "2025-05-27T08:46:58"
+date = "2025-06-10T21:02:46"
 aliases = "/packages/221432"
 categories = ['games-extra']
 upstreamurl = "https://heroicgameslauncher.com/"
 arch = "x86_64"
-size = "130988244"
-usize = "450362655"
-sha1sum = "3641203031c87b19e247acfc3be08b9d07a5c518"
+size = "131303252"
+usize = "450845459"
+sha1sum = "b0eaf418652c270f3a050281bb5f1461b6d8731f"
 depends = "['comet']"
 +++
 ### Description: 
@@ -97,6 +97,7 @@ Native GOG, Epic Games and Amazon games launcher for Linux
 * /opt/heroic/resources/app.asar.unpacked/build/icon-light.png
 * /opt/heroic/resources/app.asar.unpacked/build/icon.icns
 * /opt/heroic/resources/app.asar.unpacked/build/icon.png
+* /opt/heroic/resources/app.asar.unpacked/build/mac-icon.icns
 * /opt/heroic/resources/app.asar.unpacked/build/win_icon.ico
 * /opt/heroic/resources/app.asar.unpacked/node_modules/font-list/demo.js
 * /opt/heroic/resources/app.asar.unpacked/node_modules/font-list/index.js
@@ -124,6 +125,6 @@ Native GOG, Epic Games and Amazon games launcher for Linux
 * /opt/heroic/vk_swiftshader_icd.json
 * /usr/bin/heroic
 * /usr/share/applications/heroic-games-launcher.desktop
-* /usr/share/doc/heroic-games-launcher-2.17.0/COPYING
-* /usr/share/doc/heroic-games-launcher-2.17.0/README.md
+* /usr/share/doc/heroic-games-launcher-2.17.2/COPYING
+* /usr/share/doc/heroic-games-launcher-2.17.2/README.md
 * /usr/share/pixmaps/heroic.png
