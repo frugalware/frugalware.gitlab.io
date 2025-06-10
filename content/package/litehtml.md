@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "litehtml 0.9-2"
-version = "0.9-2"
+title = "litehtml 0.9-3"
+version = "0.9-3"
 description = "Fast and lightweight HTML/CSS rendering engine"
-date = "2025-06-04T09:30:15"
+date = "2025-06-10T08:44:34"
 aliases = "/packages/220883"
-categories = ['lib-extra']
+categories = ['lib']
 upstreamurl = "http://www.litehtml.com/"
 arch = "x86_64"
-size = "239588"
+size = "239704"
 usize = "844467"
-sha1sum = "233ca85510890c0d5f9aaaf141ed6c21ab20e0cd"
+sha1sum = "1319e325a5ff8049e555bb72de2a760a2f946273"
 depends = "['gumbo-parser', 'libstdc++']"
 reverse_depends = "['qt6-tools', 'qtcreator']"
 +++

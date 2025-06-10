@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "xf86-video-vmware 13.4.0-1"
-version = "13.4.0-1"
+title = "xf86-video-vmware 13.4.0-2"
+version = "13.4.0-2"
 description = "X.Org video driver for vmware cards"
-date = "2023-01-24T17:24:03"
+date = "2025-06-10T08:36:45"
 aliases = "/packages/4909"
 categories = ['x11']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "117248"
-usize = "356124"
-sha1sum = "efefaff5c2494c3a0081d23c9574ebe2dbe11f45"
+size = "73084"
+usize = "232942"
+sha1sum = "71744a7b1f5c1329b5cf8eea153a8d3fe2fb2231"
 depends = "['libudev>=242', 'xorg-server>=1.20.4-3']"
 reverse_depends = "['virtualbox-guest-additions']"
 license = "GPL2"

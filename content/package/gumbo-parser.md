@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gumbo-parser 0.10.1-1"
-version = "0.10.1-1"
+title = "gumbo-parser 0.10.1-2"
+version = "0.10.1-2"
 description = "HTML5 parsing library in pure C99"
-date = "2023-01-19T15:43:02"
+date = "2025-06-10T08:50:06"
 aliases = "/packages/220882"
-categories = ['lib-extra']
+categories = ['lib']
 upstreamurl = "https://github.com/google/gumbo-parser"
 arch = "x86_64"
-size = "117176"
-usize = "427296"
-sha1sum = "59e2a96066a7d01e5f5d428903949727611a6636"
+size = "119416"
+usize = "417071"
+sha1sum = "4b9dfd2425963b0d4c2384a4fd7ec49b7ef62f66"
 depends = "['glibc']"
 reverse_depends = "['litehtml']"
 +++

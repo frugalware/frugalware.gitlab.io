@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "flite 2.2-1"
-version = "2.2-1"
+title = "flite 2.2-2"
+version = "2.2-2"
 description = "A lightweight speech synthesis engine"
-date = "2025-06-03T11:54:04"
+date = "2025-06-10T08:41:37"
 aliases = "/packages/222726"
-categories = ['multimedia-extra']
+categories = ['multimedia']
 upstreamurl = "http://www.festvox.org/flite/"
 arch = "x86_64"
-size = "5130268"
+size = "5130836"
 usize = "9649346"
-sha1sum = "a5777ae89ec0dbe188c16d25b79e32aa3544cd8d"
+sha1sum = "efda34fa22738f2867cdd16c5c07a8b46452147d"
 depends = "['alsa-lib']"
 reverse_depends = "['qt6-speech']"
 +++
