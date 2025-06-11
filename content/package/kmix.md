@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kmix 25.04.1-2"
-version = "25.04.1-2"
+title = "kmix 25.04.2-1"
+version = "25.04.2-1"
 description = "KDE volume control program"
-date = "2025-06-04T17:24:02"
+date = "2025-06-11T21:37:02"
 aliases = "/packages/219009"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1297308"
-usize = "3269529"
-sha1sum = "8e9185b9f2cb853bf9be6630d6c38beef7dae6b0"
+size = "1297676"
+usize = "3270096"
+sha1sum = "442cedfb9ac2e2704515715421c9a455832a2d3f"
 depends = "['knotifications>=6.14.0', 'kstatusnotifieritem>=6.14.0', 'kxmlgui>=6.14.0', 'solid>=6.14.0']"
 +++
 ### Description: 
@@ -22,7 +22,7 @@ KDE volume control program
 * /usr/bin/kmix
 * /usr/bin/kmixctrl
 * /usr/bin/kmixremote
-* /usr/lib/libkmixcore.so.25.04.1
+* /usr/lib/libkmixcore.so.25.04.2
 * /usr/lib/libkmixcore.so.6
 * /usr/share/applications/org.kde.kmix.desktop
 * /usr/share/config.kcfg/kmixsettings.kcfg
@@ -107,13 +107,13 @@ KDE volume control program
 * /usr/share/doc/HTML/uk/kmix/kmix-master.png
 * /usr/share/doc/HTML/uk/kmix/kmix-options.png
 * /usr/share/doc/HTML/uk/kmix/kmix.png
-* /usr/share/doc/kmix-25.04.1/AUTHORS
-* /usr/share/doc/kmix-25.04.1/ChangeLog
-* /usr/share/doc/kmix-25.04.1/COPYING
-* /usr/share/doc/kmix-25.04.1/COPYING.DOC
-* /usr/share/doc/kmix-25.04.1/COPYING.LIB
-* /usr/share/doc/kmix-25.04.1/README.oss4
-* /usr/share/doc/kmix-25.04.1/TODO
+* /usr/share/doc/kmix-25.04.2/AUTHORS
+* /usr/share/doc/kmix-25.04.2/ChangeLog
+* /usr/share/doc/kmix-25.04.2/COPYING
+* /usr/share/doc/kmix-25.04.2/COPYING.DOC
+* /usr/share/doc/kmix-25.04.2/COPYING.LIB
+* /usr/share/doc/kmix-25.04.2/README.oss4
+* /usr/share/doc/kmix-25.04.2/TODO
 * /usr/share/icons/hicolor/128x128/actions/kmix.png
 * /usr/share/icons/hicolor/16x16/actions/kmix.png
 * /usr/share/icons/hicolor/32x32/actions/kmix.png

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kpkpass 25.04.1-2"
-version = "25.04.1-2"
+title = "kpkpass 25.04.2-1"
+version = "25.04.2-1"
 description = "Apple Wallet Pass reader"
-date = "2025-06-05T07:01:15"
+date = "2025-06-11T21:41:22"
 aliases = "/packages/219724"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "46164"
-usize = "166314"
-sha1sum = "4f9a57afa9f03f248b92eac52083b0544808cf76"
+size = "46312"
+usize = "166570"
+sha1sum = "e78eceebd385e63f05502b11508162cee6bc08e8"
 depends = "['karchive>=6.14.0', 'shared-mime-info']"
 reverse_depends = "['kitinerary']"
 +++
@@ -36,7 +36,7 @@ Apple Wallet Pass reader
 * /usr/lib/cmake/KPim6PkPass/KPim6PkPassTargets.cmake
 * /usr/lib/libKPim6PkPass.so
 * /usr/lib/libKPim6PkPass.so.6
-* /usr/lib/libKPim6PkPass.so.6.4.1
-* /usr/share/doc/kpkpass-25.04.1/README.md
-* /usr/share/doc/kpkpass-25.04.1/README.md.license
+* /usr/lib/libKPim6PkPass.so.6.4.2
+* /usr/share/doc/kpkpass-25.04.2/README.md
+* /usr/share/doc/kpkpass-25.04.2/README.md.license
 * /usr/share/qlogging-categories6/org_kde_kpkpass.categories

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kdeedu-data 25.04.1-2"
-version = "25.04.1-2"
+title = "kdeedu-data 25.04.2-1"
+version = "25.04.2-1"
 description = "Common libraries for KDE Edu release-service"
-date = "2025-06-04T17:18:09"
+date = "2025-06-11T21:28:31"
 aliases = "/packages/218297"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "332008"
+size = "332056"
 usize = "4291193"
-sha1sum = "1fe7f6a8de02843269f7d010c058e3192957d701"
+sha1sum = "74b4d5d3ad6ad00bbc0bcb003d05e440d59f2d75"
 depends = "['qt6-base>=6.9.1']"
 +++
 ### Description: 
@@ -387,7 +387,7 @@ Common libraries for KDE Edu release-service
 * /usr/share/apps/kvtml/uk/transportation.kvtml
 * /usr/share/apps/kvtml/uk/vegetables.kvtml
 * /usr/share/apps/kvtml/uk/worldcapitals.kvtml
-* /usr/share/doc/kdeedu-data-25.04.1/COPYING
+* /usr/share/doc/kdeedu-data-25.04.2/COPYING
 * /usr/share/icons/hicolor/16x16/actions/editplots.png
 * /usr/share/icons/hicolor/16x16/actions/functionhelp.png
 * /usr/share/icons/hicolor/16x16/actions/integral_func.png

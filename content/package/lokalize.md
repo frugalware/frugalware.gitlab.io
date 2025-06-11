@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lokalize 25.04.1-2"
-version = "25.04.1-2"
+title = "lokalize 25.04.2-1"
+version = "25.04.2-1"
 description = "Computer-Aided Translation System."
-date = "2025-06-04T17:22:35"
+date = "2025-06-11T21:34:53"
 aliases = "/packages/118455"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2333168"
-usize = "8073147"
-sha1sum = "f515336b3dd7c98d9b3dc18e933cdef26bb5913e"
+size = "2333480"
+usize = "8076895"
+sha1sum = "aa75e92c6a0fc0a6284b48bc6a1a814dc09f5c2e"
 depends = "['hunspell>=1.7.0', 'kio>=6.14.0']"
 +++
 ### Description: 
@@ -68,8 +68,8 @@ Computer-Aided Translation System.
 * /usr/share/doc/HTML/uk/lokalize/project_overview.png
 * /usr/share/doc/HTML/uk/lokalize/sync.png
 * /usr/share/doc/HTML/uk/lokalize/tmview.png
-* /usr/share/doc/lokalize-25.04.1/README.md
-* /usr/share/doc/lokalize-25.04.1/TODO
+* /usr/share/doc/lokalize-25.04.2/README.md
+* /usr/share/doc/lokalize-25.04.2/TODO
 * /usr/share/icons/hicolor/128x128/apps/lokalize.png
 * /usr/share/icons/hicolor/32x32/apps/lokalize.png
 * /usr/share/icons/hicolor/64x64/apps/lokalize.png

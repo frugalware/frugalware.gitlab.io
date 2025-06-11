@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kwave 25.04.1-2"
-version = "25.04.1-2"
+title = "kwave 25.04.2-1"
+version = "25.04.2-1"
 description = "Kwave is a sound editor for KDE"
-date = "2025-06-05T07:16:35"
+date = "2025-06-11T21:39:25"
 aliases = "/packages/218945"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "5422492"
-usize = "15533499"
-sha1sum = "80b25f31d7f2f836401c99b82f5ddac59ddac58f"
+size = "5409732"
+usize = "15488503"
+sha1sum = "2ece494a2ca90934a27607eb50e3f88ddcdda2bb"
 depends = "['audiofile', 'flac>=1.5.0', 'id3lib', 'kio>=6.14.0', 'libmad', 'libsamplerate', 'opus', 'qt6-multimedia']"
 +++
 ### Description: 
@@ -19,9 +19,9 @@ Kwave is a sound editor for KDE
 ### Files: 
 * /usr/bin/kwave
 * /usr/lib/libkwave.so.25
-* /usr/lib/libkwave.so.25.04.1
+* /usr/lib/libkwave.so.25.04.2
 * /usr/lib/libkwavegui.so.25
-* /usr/lib/libkwavegui.so.25.04.1
+* /usr/lib/libkwavegui.so.25.04.2
 * /usr/lib/qt6/plugins/kwave/about.so
 * /usr/lib/qt6/plugins/kwave/amplifyfree.so
 * /usr/lib/qt6/plugins/kwave/band_pass.so
@@ -239,13 +239,10 @@ Kwave is a sound editor for KDE
 * /usr/share/doc/HTML/uk/kwave/kwave-plugin-sonagram-window.png
 * /usr/share/doc/HTML/uk/kwave/kwave-plugin-stringenter.png
 * /usr/share/doc/HTML/uk/kwave/kwave-plugin-volume.png
-* /usr/share/doc/kwave-25.04.1/AUTHORS
-* /usr/share/doc/kwave-25.04.1/CHANGES
-* /usr/share/doc/kwave-25.04.1/COPYING
-* /usr/share/doc/kwave-25.04.1/INSTALL
-* /usr/share/doc/kwave-25.04.1/README.md
-* /usr/share/doc/kwave-25.04.1/RELEASES
-* /usr/share/doc/kwave-25.04.1/TODO
+* /usr/share/doc/kwave-25.04.2/AUTHORS
+* /usr/share/doc/kwave-25.04.2/CHANGES
+* /usr/share/doc/kwave-25.04.2/README.md
+* /usr/share/doc/kwave-25.04.2/TODO
 * /usr/share/icons/hicolor/scalable/apps/org.kde.kwave.svg
 * /usr/share/kwave/menus.config
 * /usr/share/kwave/pics/amplify_free.png
