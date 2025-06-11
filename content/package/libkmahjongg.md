@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libkmahjongg 25.04.1-3"
-version = "25.04.1-3"
+title = "libkmahjongg 25.04.2-1"
+version = "25.04.2-1"
 description = "Library for KDE mahjongg games."
-date = "2025-06-06T15:10:27"
+date = "2025-06-11T12:13:35"
 aliases = "/packages/184210"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1984840"
+size = "1984940"
 usize = "2146835"
-sha1sum = "7f79298c8371cf415c5d6ac96417d98a3540229e"
+sha1sum = "36d332235599ce8442041fb295c5e162ec146c8d"
 depends = "['kcompletion>=6.14.0', 'kconfigwidgets>=6.14.0', 'qt6-svg>=6.9.1']"
 reverse_depends = "['kajongg', 'kmahjongg', 'kshisen']"
 +++
@@ -32,8 +32,8 @@ Library for KDE mahjongg games.
 * /usr/lib/cmake/KMahjongglib6/KMahjongglib6Targets.cmake
 * /usr/lib/libKMahjongg6.so
 * /usr/lib/libKMahjongg6.so.6
-* /usr/lib/libKMahjongg6.so.6.0.250401
-* /usr/share/doc/libkmahjongg-25.04.1/README
+* /usr/lib/libKMahjongg6.so.6.0.250402
+* /usr/share/doc/libkmahjongg-25.04.2/README
 * /usr/share/kmahjongglib/backgrounds/chinese_landscape.desktop
 * /usr/share/kmahjongglib/backgrounds/chinese_landscape.svgz
 * /usr/share/kmahjongglib/backgrounds/color_plain.desktop
