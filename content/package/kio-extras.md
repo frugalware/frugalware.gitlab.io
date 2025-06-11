@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kio-extras 25.04.1-2"
-version = "25.04.1-2"
+title = "kio-extras 25.04.2-1"
+version = "25.04.2-1"
 description = "Additional components to increase the functionality of KIO."
-date = "2025-06-04T17:06:19"
+date = "2025-06-11T20:45:40"
 aliases = "/packages/218324"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1759100"
-usize = "7424590"
-sha1sum = "08bb8463805b890dc199bf2e2a744007030cc119"
-depends = "['icoutils', 'kcmutils>=6.14.0', 'kdnssd>=6.14.0', 'kdsoap-ws-discovery-client', 'kpty>=6.14.0', 'libappimage', 'libkexiv2>=25.04.1', 'libmtp>=1.1.12-2', 'libplist>=2.3.0', 'libssh>=0.7.3-2', 'libtirpc', 'openexr>=3.3.0', 'openslp>=2.0.0-3', 'plasma-activities-stats>=6.3.5', 'qcoro', 'qt6-webengine>=6.9.1', 'samba-client>=4.5.0', 'syntax-highlighting>=6.14.0', 'taglib>=2.0']"
+size = "1776656"
+usize = "7463060"
+sha1sum = "0083b7c70ff905edb1c53b8dc329e9cad4908d59"
+depends = "['icoutils', 'kcmutils>=6.14.0', 'kdnssd>=6.14.0', 'kdsoap-ws-discovery-client', 'kpty>=6.14.0', 'libappimage', 'libkexiv2>=25.04.2', 'libmtp>=1.1.12-2', 'libplist>=2.3.0', 'libssh>=0.7.3-2', 'libtirpc', 'openexr>=3.3.0', 'openslp>=2.0.0-3', 'plasma-activities-stats>=6.3.5', 'qcoro', 'qt6-webengine>=6.9.1', 'samba-client>=4.5.0', 'syntax-highlighting>=6.14.0', 'taglib>=2.0']"
 +++
 ### Description: 
 Additional components to increase the functionality of KIO.
@@ -115,6 +115,30 @@ Additional components to increase the functionality of KIO.
 * /usr/share/doc/HTML/ca@valencia/kcontrol6/trash/index.docbook
 * /usr/share/doc/HTML/ca@valencia/kcontrol6/webshortcuts/index.cache.bz2
 * /usr/share/doc/HTML/ca@valencia/kcontrol6/webshortcuts/index.docbook
+* /usr/share/doc/HTML/ca@valencia/kioworker6/bzip2/index.cache.bz2
+* /usr/share/doc/HTML/ca@valencia/kioworker6/bzip2/index.docbook
+* /usr/share/doc/HTML/ca@valencia/kioworker6/fish/index.cache.bz2
+* /usr/share/doc/HTML/ca@valencia/kioworker6/fish/index.docbook
+* /usr/share/doc/HTML/ca@valencia/kioworker6/gzip/index.cache.bz2
+* /usr/share/doc/HTML/ca@valencia/kioworker6/gzip/index.docbook
+* /usr/share/doc/HTML/ca@valencia/kioworker6/info/index.cache.bz2
+* /usr/share/doc/HTML/ca@valencia/kioworker6/info/index.docbook
+* /usr/share/doc/HTML/ca@valencia/kioworker6/man/index.cache.bz2
+* /usr/share/doc/HTML/ca@valencia/kioworker6/man/index.docbook
+* /usr/share/doc/HTML/ca@valencia/kioworker6/nfs/index.cache.bz2
+* /usr/share/doc/HTML/ca@valencia/kioworker6/nfs/index.docbook
+* /usr/share/doc/HTML/ca@valencia/kioworker6/sftp/index.cache.bz2
+* /usr/share/doc/HTML/ca@valencia/kioworker6/sftp/index.docbook
+* /usr/share/doc/HTML/ca@valencia/kioworker6/smb/index.cache.bz2
+* /usr/share/doc/HTML/ca@valencia/kioworker6/smb/index.docbook
+* /usr/share/doc/HTML/ca@valencia/kioworker6/tar/index.cache.bz2
+* /usr/share/doc/HTML/ca@valencia/kioworker6/tar/index.docbook
+* /usr/share/doc/HTML/ca@valencia/kioworker6/thumbnail/index.cache.bz2
+* /usr/share/doc/HTML/ca@valencia/kioworker6/thumbnail/index.docbook
+* /usr/share/doc/HTML/ca@valencia/kioworker6/xz/index.cache.bz2
+* /usr/share/doc/HTML/ca@valencia/kioworker6/xz/index.docbook
+* /usr/share/doc/HTML/ca@valencia/kioworker6/zstd/index.cache.bz2
+* /usr/share/doc/HTML/ca@valencia/kioworker6/zstd/index.docbook
 * /usr/share/doc/HTML/de/kcontrol6/netpref/index.cache.bz2
 * /usr/share/doc/HTML/de/kcontrol6/netpref/index.docbook
 * /usr/share/doc/HTML/de/kcontrol6/proxy/index.cache.bz2
