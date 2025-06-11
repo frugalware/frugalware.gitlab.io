@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "pimcommon 25.04.1-3"
-version = "25.04.1-3"
+title = "pimcommon 25.04.2-1"
+version = "25.04.2-1"
 description = "KdePim common files"
-date = "2025-06-05T14:21:38"
+date = "2025-06-11T13:35:35"
 aliases = "/packages/218468"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "481792"
-usize = "2272990"
-sha1sum = "0e828159f9dbe182f247786b424041006e905d43"
-depends = "['kimap>=25.04.1', 'knewstuff>=6.14.0', 'kpimtextedit>=25.04.1', 'ktextaddons>=1.3.1', 'libkdepim>=25.04.1', 'plasma-activities>=6.3.5', 'purpose>=6.14.0']"
+size = "481260"
+usize = "2272960"
+sha1sum = "8867fdca2884c6702a86bc9c1f6419293ed1e45e"
+depends = "['kimap>=25.04.2', 'knewstuff>=6.14.0', 'kpimtextedit>=25.04.2', 'ktextaddons>=1.3.1', 'libkdepim>=25.04.2', 'plasma-activities>=6.3.5', 'purpose>=6.14.0']"
 reverse_depends = "['calendarsupport', 'kalarm', 'kdepim-runtime', 'libgravatar', 'libksieve', 'mailimporter']"
 +++
 ### Description: 
@@ -161,13 +161,13 @@ KdePim common files
 * /usr/lib/cmake/KPim6PimCommonAkonadi/KPim6PimCommonAkonadiTargets.cmake
 * /usr/lib/libKPim6PimCommon.so
 * /usr/lib/libKPim6PimCommon.so.6
-* /usr/lib/libKPim6PimCommon.so.6.4.1
+* /usr/lib/libKPim6PimCommon.so.6.4.2
 * /usr/lib/libKPim6PimCommonActivities.so
 * /usr/lib/libKPim6PimCommonActivities.so.6
-* /usr/lib/libKPim6PimCommonActivities.so.6.4.1
+* /usr/lib/libKPim6PimCommonActivities.so.6.4.2
 * /usr/lib/libKPim6PimCommonAkonadi.so
 * /usr/lib/libKPim6PimCommonAkonadi.so.6
-* /usr/lib/libKPim6PimCommonAkonadi.so.6.4.1
+* /usr/lib/libKPim6PimCommonAkonadi.so.6.4.2
 * /usr/lib/qt6/plugins/designer/pimcommon6akonadiwidgets.so
 * /usr/lib/qt6/plugins/designer/pimcommon6widgets.so
 * /usr/share/locale/ar/LC_MESSAGES/libpimcommon6.mo

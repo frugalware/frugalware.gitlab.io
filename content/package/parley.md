@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "parley 25.04.1-3"
-version = "25.04.1-3"
+title = "parley 25.04.2-1"
+version = "25.04.2-1"
 description = "Vocabulary Trainer."
-date = "2025-06-04T16:02:05"
+date = "2025-06-11T13:19:04"
 aliases = "/packages/152839"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "7612440"
-usize = "12615133"
-sha1sum = "b02c11b7b32b911b7bd08ab492ff239591b2cab9"
-depends = "['kcmutils>=6.14.0', 'knewstuff>=6.14.0', 'libkeduvocdocument>=25.04.1', 'qt6-multimedia>=6.9.1', 'qt6-webengine>=6.9.1']"
+size = "7611800"
+usize = "12615167"
+sha1sum = "7708ec9638efa40e7881fbb990b4ac3a723adeb8"
+depends = "['kcmutils>=6.14.0', 'knewstuff>=6.14.0', 'libkeduvocdocument>=25.04.2', 'qt6-multimedia>=6.9.1', 'qt6-webengine>=6.9.1']"
 +++
 ### Description: 
 Vocabulary Trainer.
@@ -192,9 +192,9 @@ Vocabulary Trainer.
 * /usr/share/doc/HTML/sv/parley/index.docbook
 * /usr/share/doc/HTML/uk/parley/index.cache.bz2
 * /usr/share/doc/HTML/uk/parley/index.docbook
-* /usr/share/doc/parley-25.04.1/AUTHORS
-* /usr/share/doc/parley-25.04.1/README.md
-* /usr/share/doc/parley-25.04.1/TODO
+* /usr/share/doc/parley-25.04.2/AUTHORS
+* /usr/share/doc/parley-25.04.2/README.md
+* /usr/share/doc/parley-25.04.2/TODO
 * /usr/share/icons/hicolor/128x128/apps/parley.png
 * /usr/share/icons/hicolor/16x16/apps/parley.png
 * /usr/share/icons/hicolor/32x32/apps/parley.png

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kate 25.04.1-3"
-version = "25.04.1-3"
+title = "kate 25.04.2-1"
+version = "25.04.2-1"
 description = "KDE Advanced Text Editor."
-date = "2025-06-06T15:21:15"
+date = "2025-06-11T13:28:26"
 aliases = "/packages/118445"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "10366648"
-usize = "35943059"
-sha1sum = "22fff1506ccc011efa74ea5bbe247f6873681412"
+size = "10357020"
+usize = "35943772"
+sha1sum = "266fb6559b5647db0199441ac025345f72cf2f29"
 depends = "['kitemmodels>=6.14.0', 'knewstuff>=6.14.0', 'ktexteditor>=6.14.0', 'libgit2>=0.26', 'libplasma>=6.3.5', 'qt6-declarative>=6.9.1', 'qtkeychain', 'threadweaver>=6.14.0']"
 +++
 ### Description: 
@@ -19,7 +19,7 @@ KDE Advanced Text Editor.
 ### Files: 
 * /usr/bin/kate
 * /usr/bin/kwrite
-* /usr/lib/libkateprivate.so.25.04.1
+* /usr/lib/libkateprivate.so.25.04.2
 * /usr/lib/qt6/plugins/kf6/ktexteditor/cmaketoolsplugin.so
 * /usr/lib/qt6/plugins/kf6/ktexteditor/compilerexplorer.so
 * /usr/lib/qt6/plugins/kf6/ktexteditor/eslintplugin.so
@@ -416,7 +416,7 @@ KDE Advanced Text Editor.
 * /usr/share/doc/HTML/uk/katepart/vi.docbook
 * /usr/share/doc/HTML/uk/kwrite/index.cache.bz2
 * /usr/share/doc/HTML/uk/kwrite/index.docbook
-* /usr/share/doc/kate-25.04.1/README.md
+* /usr/share/doc/kate-25.04.2/README.md
 * /usr/share/icons/hicolor/128x128/apps/kate.png
 * /usr/share/icons/hicolor/128x128/apps/kwrite.png
 * /usr/share/icons/hicolor/150x150/apps/kate.png

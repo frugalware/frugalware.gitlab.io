@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kgpg 25.04.1-2"
-version = "25.04.1-2"
+title = "kgpg 25.04.2-1"
+version = "25.04.2-1"
 description = "KGpg is a simple interface for GnuPG"
-date = "2025-06-04T16:25:46"
+date = "2025-06-11T13:38:13"
 aliases = "/packages/218933"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3244732"
-usize = "9097916"
-sha1sum = "55f4533a85494dfd4084790f03f39cc5a9dc2b02"
-depends = "['akonadi-contacts>=25.04.1', 'gpg-agent', 'gpgme', 'kstatusnotifieritem>=6.14.0']"
+size = "3244952"
+usize = "9097946"
+sha1sum = "28f2e695d18b3ebc62ccb16870912f002e879f29"
+depends = "['akonadi-contacts>=25.04.2', 'gpg-agent', 'gpgme', 'kstatusnotifieritem>=6.14.0']"
 +++
 ### Description: 
 KGpg is a simple interface for GnuPG
@@ -111,8 +111,8 @@ KGpg is a simple interface for GnuPG
 * /usr/share/doc/HTML/uk/kgpg/keys.png
 * /usr/share/doc/HTML/uk/kgpg/options.png
 * /usr/share/doc/HTML/uk/kgpg/select-secret-key.png
-* /usr/share/doc/kgpg-25.04.1/AUTHORS
-* /usr/share/doc/kgpg-25.04.1/TODO
+* /usr/share/doc/kgpg-25.04.2/AUTHORS
+* /usr/share/doc/kgpg-25.04.2/TODO
 * /usr/share/icons/hicolor/128x128/apps/kgpg.png
 * /usr/share/icons/hicolor/16x16/actions/document-export-key.png
 * /usr/share/icons/hicolor/16x16/actions/document-import-key.png
