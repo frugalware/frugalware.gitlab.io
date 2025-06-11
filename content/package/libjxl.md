@@ -12,7 +12,7 @@ size = "1294280"
 usize = "4351531"
 sha1sum = "d0a6f36c7d09db83de31322a7ad868cf199be684"
 depends = "['brotli', 'gdk-pixbuf2', 'gperf', 'highway', 'libgif', 'libjpeg-turbo', 'libpng']"
-reverse_depends = "['telegram-desktop']"
+reverse_depends = "['darktable', 'ffmpeg', 'imagemagick', 'telegram-desktop']"
 +++
 ### Description: 
 JPEG XL image format reference implementation

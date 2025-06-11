@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "imagemagick 7.1.1-32"
-version = "7.1.1-32"
+title = "imagemagick 7.1.1-33"
+version = "7.1.1-33"
 description = "A robust collection of tools and libraries to read, write and manipulate image files."
-date = "2025-05-20T09:39:02"
+date = "2025-06-11T09:34:28"
 aliases = "/packages/3097"
 categories = ['xapps']
 upstreamurl = "http://www.imagemagick.org"
 arch = "x86_64"
-size = "8567740"
-usize = "22318222"
-sha1sum = "b4ba6233df7546ff2d39847abfecf428016b1627"
-depends = "['djvulibre>=3.5.27-4', 'fftw>=3.3.4-4', 'lcms2>=2.8-2', 'libgomp>=9.1.0-3', 'libheif', 'libjpeg-turbo', 'libraw>=0.21.1', 'librsvg>=2.40.16-3', 'libstdc++>=11.2', 'libtiff>=4.7.0', 'libtool>=2.4.6-4', 'libwebp>=0.5.0', 'openexr>=3.3.0', 'openjpeg', 'perl']"
+size = "8577504"
+usize = "22342626"
+sha1sum = "5b12851800429e09e0533786206fb3204d7df495"
+depends = "['djvulibre>=3.5.27-4', 'fftw>=3.3.4-4', 'lcms2>=2.8-2', 'libgomp>=9.1.0-3', 'libheif', 'libjpeg-turbo', 'libjxl', 'libraw>=0.21.1', 'librsvg>=2.40.16-3', 'libstdc++>=11.2', 'libtiff>=4.7.0', 'libtool>=2.4.6-4', 'libwebp>=0.5.0', 'openexr>=3.3.0', 'openjpeg', 'perl']"
 reverse_depends = "['darktable', 'emacs', 'inkscape', 'kitty', 'libvips', 'polychromatic', 'xine-lib']"
 +++
 ### Description: 
@@ -282,6 +282,8 @@ A robust collection of tools and libraries to read, write and manipulate image f
 * /usr/lib/ImageMagick-7.1.1/modules-Q16HDRI/coders/jpeg.so
 * /usr/lib/ImageMagick-7.1.1/modules-Q16HDRI/coders/json.la
 * /usr/lib/ImageMagick-7.1.1/modules-Q16HDRI/coders/json.so
+* /usr/lib/ImageMagick-7.1.1/modules-Q16HDRI/coders/jxl.la
+* /usr/lib/ImageMagick-7.1.1/modules-Q16HDRI/coders/jxl.so
 * /usr/lib/ImageMagick-7.1.1/modules-Q16HDRI/coders/kernel.la
 * /usr/lib/ImageMagick-7.1.1/modules-Q16HDRI/coders/kernel.so
 * /usr/lib/ImageMagick-7.1.1/modules-Q16HDRI/coders/label.la

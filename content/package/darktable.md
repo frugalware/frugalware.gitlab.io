@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "darktable 5.0.1-4"
-version = "5.0.1-4"
+title = "darktable 5.0.1-5"
+version = "5.0.1-5"
 description = "A virtual lighttable and darkroom for photographers (manage RAW images)"
-date = "2025-05-22T12:29:46"
+date = "2025-06-11T09:30:40"
 aliases = "/packages/219328"
 categories = ['gnome-extra']
 upstreamurl = "https://www.darktable.org"
 arch = "x86_64"
-size = "6670032"
-usize = "34255697"
-sha1sum = "26db53368a3fffae489233daf0f62eb2472f7e86"
-depends = "['colord-gtk3', 'dcraw', 'exiv2>=0.28.1', 'flickcurl', 'ghostscript', 'gmic>=3.4.2', 'gnuplot', 'graphicsmagick', 'icu4c>=77.1', 'imagemagick>=7.1.1', 'iso-codes', 'jasper', 'json-glib', 'lensfun', 'libavif>=1.0.1', 'libgphoto2', 'libjpeg-turbo', 'libsecret', 'lua', 'openexr>=3.3.0', 'openmp', 'perl-image-exiftool', 'portmidi', 'pugixml']"
+size = "6675200"
+usize = "34290345"
+sha1sum = "a09f16381d457168c3e239115c2c32a8c1e80baa"
+depends = "['colord-gtk3', 'dcraw', 'exiv2>=0.28.1', 'flickcurl', 'ghostscript', 'gmic>=3.4.2', 'gnuplot', 'graphicsmagick', 'icu4c>=77.1', 'imagemagick>=7.1.1', 'iso-codes', 'jasper', 'json-glib', 'lensfun', 'libavif>=1.0.1', 'libgphoto2', 'libjpeg-turbo', 'libjxl', 'libsecret', 'lua', 'openexr>=3.3.0', 'openmp', 'perl-image-exiftool', 'portmidi', 'pugixml']"
 reverse_depends = "['gimp']"
 +++
 ### Description: 
@@ -37,6 +37,7 @@ A virtual lighttable and darkroom for photographers (manage RAW images)
 * /usr/lib/darktable/plugins/imageio/format/libexr.so
 * /usr/lib/darktable/plugins/imageio/format/libj2k.so
 * /usr/lib/darktable/plugins/imageio/format/libjpeg.so
+* /usr/lib/darktable/plugins/imageio/format/libjpegxl.so
 * /usr/lib/darktable/plugins/imageio/format/libpdf.so
 * /usr/lib/darktable/plugins/imageio/format/libpfm.so
 * /usr/lib/darktable/plugins/imageio/format/libpng.so
