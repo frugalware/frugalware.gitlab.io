@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kruler 25.04.1-2"
-version = "25.04.1-2"
+title = "kruler 25.04.2-1"
+version = "25.04.2-1"
 description = "KDE Ruler Widget."
-date = "2025-06-04T15:19:10"
+date = "2025-06-11T10:29:28"
 aliases = "/packages/88170"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "282988"
-usize = "644456"
-sha1sum = "1377c3b4a0320e915ad4d78a61849ec0e8f2bb36"
+size = "283040"
+usize = "644507"
+sha1sum = "bbfd4ec2823af888ef7ef7cbe8e97496404e6d54"
 depends = "['knotifications>=6.14.0', 'kstatusnotifieritem>=6.14.0', 'kxmlgui>=6.14.0']"
 +++
 ### Description: 
@@ -56,7 +56,7 @@ KDE Ruler Widget.
 * /usr/share/doc/HTML/uk/kruler/index.cache.bz2
 * /usr/share/doc/HTML/uk/kruler/index.docbook
 * /usr/share/doc/HTML/uk/kruler/kruler-settings.png
-* /usr/share/doc/kruler-25.04.1/TODO
+* /usr/share/doc/kruler-25.04.2/TODO
 * /usr/share/icons/hicolor/128x128/apps/kruler.png
 * /usr/share/icons/hicolor/16x16/actions/kruler-east.png
 * /usr/share/icons/hicolor/16x16/actions/kruler-north.png

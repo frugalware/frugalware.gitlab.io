@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kmbox 25.04.1-2"
-version = "25.04.1-2"
+title = "kmbox 25.04.2-1"
+version = "25.04.2-1"
 description = "A library for handling mbox data."
-date = "2025-06-04T15:24:42"
+date = "2025-06-11T10:37:44"
 aliases = "/packages/218332"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "28724"
+size = "28756"
 usize = "80426"
-sha1sum = "632b024bdca75ad4268b47ed1397f63b4340e089"
-depends = "['kmime>=25.04.1']"
+sha1sum = "8e894994cf95e7b867cdd7ffac2168e729333f10"
+depends = "['kmime>=25.04.2']"
 reverse_depends = "['kdepim-runtime', 'kldap', 'mimetreeparser']"
 +++
 ### Description: 
@@ -30,8 +30,8 @@ A library for handling mbox data.
 * /usr/lib/cmake/KPim6Mbox/KPim6MboxTargets.cmake
 * /usr/lib/libKPim6Mbox.so
 * /usr/lib/libKPim6Mbox.so.6
-* /usr/lib/libKPim6Mbox.so.6.4.1
-* /usr/share/doc/kmbox-25.04.1/README.md
-* /usr/share/doc/kmbox-25.04.1/README.md.license
+* /usr/lib/libKPim6Mbox.so.6.4.2
+* /usr/share/doc/kmbox-25.04.2/README.md
+* /usr/share/doc/kmbox-25.04.2/README.md.license
 * /usr/share/qlogging-categories6/kmbox.categories
 * /usr/share/qlogging-categories6/kmbox.renamecategories
