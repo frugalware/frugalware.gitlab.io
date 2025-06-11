@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libgit2 1.9.0-1"
-version = "1.9.0-1"
+title = "libgit2 1.9.1-1"
+version = "1.9.1-1"
 description = "portable, pure C implementation of the Git core methods"
-date = "2024-12-29T10:26:14"
+date = "2025-06-11T09:05:35"
 aliases = "/packages/200575"
 categories = ['lib']
 upstreamurl = "http://libgit2.github.com/"
 arch = "x86_64"
-size = "924800"
-usize = "3185903"
-sha1sum = "3db1be6dc9cead799037a805e778478c764e5a08"
+size = "932492"
+usize = "3182198"
+sha1sum = "72857cd147f8ddde3cdcdcb1a457b5e2511e6ba6"
 depends = "['http-parser', 'libssh2', 'pcre2']"
 reverse_depends = "['calligra', 'julia', 'kate', 'kicad', 'ktexteditor', 'ktexteditor5', 'kup']"
 +++
@@ -118,8 +118,8 @@ portable, pure C implementation of the Git core methods
 * /usr/lib/cmake/libgit2/libgit2Targets.cmake
 * /usr/lib/libgit2.so
 * /usr/lib/libgit2.so.1.9
-* /usr/lib/libgit2.so.1.9.0
+* /usr/lib/libgit2.so.1.9.1
 * /usr/lib/pkgconfig/libgit2.pc
-* /usr/share/doc/libgit2-1.9.0/AUTHORS
-* /usr/share/doc/libgit2-1.9.0/COPYING
-* /usr/share/doc/libgit2-1.9.0/README.md
+* /usr/share/doc/libgit2-1.9.1/AUTHORS
+* /usr/share/doc/libgit2-1.9.1/COPYING
+* /usr/share/doc/libgit2-1.9.1/README.md
