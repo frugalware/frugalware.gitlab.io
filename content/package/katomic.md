@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "katomic 25.04.1-3"
-version = "25.04.1-3"
+title = "katomic 25.04.2-1"
+version = "25.04.2-1"
 description = "A fun and educational game built around molecular geometry."
-date = "2025-06-06T15:25:02"
+date = "2025-06-11T12:22:35"
 aliases = "/packages/184174"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1480904"
-usize = "2189698"
-sha1sum = "0afabda8bacb33e7399f62342f83c78c2639f14f"
-depends = "['libkdegames>=25.04.1', 'qt6-svg>=6.9.1']"
+size = "1481984"
+usize = "2189719"
+sha1sum = "3719d6e3ce70ec0daf66d4b09f543147686cc6a3"
+depends = "['libkdegames>=25.04.2', 'qt6-svg>=6.9.1']"
 +++
 ### Description: 
 A fun and educational game built around molecular geometry.
@@ -49,8 +49,8 @@ A fun and educational game built around molecular geometry.
 * /usr/share/doc/HTML/uk/katomic/index.cache.bz2
 * /usr/share/doc/HTML/uk/katomic/index.docbook
 * /usr/share/doc/HTML/uk/katomic/mainscreen.png
-* /usr/share/doc/katomic-25.04.1/README.levels
-* /usr/share/doc/katomic-25.04.1/README.themes
+* /usr/share/doc/katomic-25.04.2/README.levels
+* /usr/share/doc/katomic-25.04.2/README.themes
 * /usr/share/icons/hicolor/128x128/apps/katomic.png
 * /usr/share/icons/hicolor/16x16/apps/katomic.png
 * /usr/share/icons/hicolor/22x22/apps/katomic.png

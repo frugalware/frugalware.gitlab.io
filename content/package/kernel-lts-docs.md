@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kernel-lts-docs 6.12.33-1"
-version = "6.12.33-1"
+title = "kernel-lts-docs 6.12.33-2"
+version = "6.12.33-2"
 description = "Linux kernel documentation"
-date = "2025-06-10T14:48:07"
+date = "2025-06-11T12:56:38"
 aliases = "/packages/221101"
 categories = ['devel-extra']
 upstreamurl = "https://www.kernel.org"
 arch = "x86_64"
-size = "9796660"
+size = "9795300"
 usize = "50385797"
-sha1sum = "b475dd6f675511264e17c69f86b02cb8b5dd4262"
+sha1sum = "8d5cf6aec35c4db83e3c11549ba1ecac80a126be"
 depends = "[]"
 +++
 ### Description: 

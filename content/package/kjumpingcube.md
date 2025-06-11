@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kjumpingcube 25.04.1-3"
-version = "25.04.1-3"
+title = "kjumpingcube 25.04.2-1"
+version = "25.04.2-1"
 description = "A simple tactical game."
-date = "2025-06-06T18:04:07"
+date = "2025-06-11T12:37:14"
 aliases = "/packages/184185"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "473628"
-usize = "1326537"
-sha1sum = "47759556c52be20fc16c13bc6539d448b8dfb49d"
-depends = "['knotifyconfig>=6.14.0', 'libkdegames>=25.04.1']"
+size = "473500"
+usize = "1326565"
+sha1sum = "6906dc959eb3e6bacf09d5d5cc1f9af51891dcf5"
+depends = "['knotifyconfig>=6.14.0', 'libkdegames>=25.04.2']"
 +++
 ### Description: 
 A simple tactical game.
@@ -53,11 +53,11 @@ A simple tactical game.
 * /usr/share/doc/HTML/uk/kjumpingcube/index.cache.bz2
 * /usr/share/doc/HTML/uk/kjumpingcube/index.docbook
 * /usr/share/doc/HTML/uk/kjumpingcube/settings.png
-* /usr/share/doc/kjumpingcube-25.04.1/AUTHORS
-* /usr/share/doc/kjumpingcube-25.04.1/ChangeLog
-* /usr/share/doc/kjumpingcube-25.04.1/README
-* /usr/share/doc/kjumpingcube-25.04.1/README.PACKAGERS
-* /usr/share/doc/kjumpingcube-25.04.1/TODO
+* /usr/share/doc/kjumpingcube-25.04.2/AUTHORS
+* /usr/share/doc/kjumpingcube-25.04.2/ChangeLog
+* /usr/share/doc/kjumpingcube-25.04.2/README
+* /usr/share/doc/kjumpingcube-25.04.2/README.PACKAGERS
+* /usr/share/doc/kjumpingcube-25.04.2/TODO
 * /usr/share/icons/hicolor/128x128/apps/kjumpingcube.png
 * /usr/share/icons/hicolor/16x16/apps/kjumpingcube.png
 * /usr/share/icons/hicolor/22x22/apps/kjumpingcube.png

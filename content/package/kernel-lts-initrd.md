@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kernel-lts-initrd 6.12.33-1"
-version = "6.12.33-1"
+title = "kernel-lts-initrd 6.12.33-2"
+version = "6.12.33-2"
 description = "The initrd for the Frugalware Linux Kernel."
-date = "2025-06-10T16:44:25"
+date = "2025-06-11T13:05:56"
 aliases = "/packages/221105"
-categories = ['base']
+categories = ['base-extra']
 upstreamurl = "http://www.frugalware.org"
 arch = "x86_64"
-size = "3876"
+size = "1360"
 usize = "0"
-sha1sum = "2516996ce9c8222afe971be030daca736ef33336"
+sha1sum = "616ef3848c96498d842663d00568723ed33955fd"
 depends = "['btrfs-progs>=6.5', 'coreutils>=9.1', 'cryptsetup-luks>=2.6.0', 'dracut>=056', 'e2fsprogs>=1.46.5', 'frugalware>=2.1', 'gnupg2', 'intel-ucode>=20220809', 'kernel-lts', 'keyutils>=1.5.9-5', 'kmod>=30', 'less', 'linux-firmware>=20230404', 'lvm2>=2.03.16', 'mdadm>=4.0', 'scriptlet-core', 'systemd>=253.3', 'tar', 'terminus-font-console', 'xfsprogs>=6.0.0', 'xz']"
 +++
 ### Description: 
