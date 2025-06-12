@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kdenlive 25.04.1-2"
-version = "25.04.1-2"
+title = "kdenlive 25.04.2-1"
+version = "25.04.2-1"
 description = "A non-linear video editor for Linux using the MLT video framework"
-date = "2025-06-05T08:19:19"
+date = "2025-06-12T09:44:13"
 aliases = "/packages/218299"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "15055732"
-usize = "79120337"
-sha1sum = "ec9789a1e3db0cca3fa92c8a681ccca09bf1f6fe"
+size = "15149872"
+usize = "79406348"
+sha1sum = "1630ce01d6749b2f11d2220ae545beb3e3d14221"
 depends = "['kfilemetadata>=6.14.0', 'knewstuff>=6.14.0', 'knotifyconfig>=6.14.0', 'kplotting>=6.14.0', 'mlt>=7.14.0', 'mlt-qt>=7.14.0', 'mlt-sdl>=7.14.0', 'opentimelineio', 'purpose>=6.14.0', 'qt6-declarative>=6.9.1', 'qt6-networkauth>=6.9.1', 'qt6-svg>=6.9.1', 'qt6-webengine>=6.9.1']"
 +++
 ### Description: 
@@ -117,10 +117,10 @@ A non-linear video editor for Linux using the MLT video framework
 * /usr/share/doc/HTML/uk/kdenlive/kdenlive_quickstart-save-project.png
 * /usr/share/doc/HTML/uk/kdenlive/kdenlive_quickstart-timeline-clips.png
 * /usr/share/doc/HTML/uk/kdenlive/kdenlive_quickstart-timelinecursor.png
-* /usr/share/doc/kdenlive-25.04.1/AUTHORS
-* /usr/share/doc/kdenlive-25.04.1/COPYING
-* /usr/share/doc/kdenlive-25.04.1/README.md
-* /usr/share/doc/kdenlive-25.04.1/README.md.license
+* /usr/share/doc/kdenlive-25.04.2/AUTHORS
+* /usr/share/doc/kdenlive-25.04.2/COPYING
+* /usr/share/doc/kdenlive-25.04.2/README.md
+* /usr/share/doc/kdenlive-25.04.2/README.md.license
 * /usr/share/doc/Kdenlive/AUTHORS
 * /usr/share/doc/Kdenlive/LICENSES/Apache-2.0.txt
 * /usr/share/doc/Kdenlive/LICENSES/BSD-2-Clause.txt
@@ -268,6 +268,7 @@ A non-linear video editor for Linux using the MLT video framework
 * /usr/share/kdenlive/effects/avfilter_rgbashift.xml
 * /usr/share/kdenlive/effects/avfilter_roberts.xml
 * /usr/share/kdenlive/effects/avfilter_sab.xml
+* /usr/share/kdenlive/effects/avfilter_scharr.xml
 * /usr/share/kdenlive/effects/avfilter_scroll.xml
 * /usr/share/kdenlive/effects/avfilter_selectivecolor.xml
 * /usr/share/kdenlive/effects/avfilter_separatefields.xml
@@ -326,9 +327,11 @@ A non-linear video editor for Linux using the MLT video framework
 * /usr/share/kdenlive/effects/frei0r_baltan.xml
 * /usr/share/kdenlive/effects/frei0r_bezier_curves.xml
 * /usr/share/kdenlive/effects/frei0r_bgsubtract0r.xml
+* /usr/share/kdenlive/effects/frei0r_bigsh0t_eq_cap.xml
 * /usr/share/kdenlive/effects/frei0r_bigsh0t_eq_mask.xml
 * /usr/share/kdenlive/effects/frei0r_bigsh0t_eq_to_rect.xml
 * /usr/share/kdenlive/effects/frei0r_bigsh0t_eq_to_stereo.xml
+* /usr/share/kdenlive/effects/frei0r_bigsh0t_eq_wrap.xml
 * /usr/share/kdenlive/effects/frei0r_bigsh0t_hemi_to_eq.xml
 * /usr/share/kdenlive/effects/frei0r_bigsh0t_rect_to_eq.xml
 * /usr/share/kdenlive/effects/frei0r_bigsh0t_stabilize_360.xml
@@ -357,6 +360,7 @@ A non-linear video editor for Linux using the MLT video framework
 * /usr/share/kdenlive/effects/frei0r_equaliz0r.xml
 * /usr/share/kdenlive/effects/frei0r_facebl0r.xml
 * /usr/share/kdenlive/effects/frei0r_facedetect.xml
+* /usr/share/kdenlive/effects/frei0r_filmgrain.xml
 * /usr/share/kdenlive/effects/frei0r_flippo.xml
 * /usr/share/kdenlive/effects/frei0r_G.xml
 * /usr/share/kdenlive/effects/frei0r_glitch0r.xml
@@ -374,6 +378,7 @@ A non-linear video editor for Linux using the MLT video framework
 * /usr/share/kdenlive/effects/frei0r_mask0mate.xml
 * /usr/share/kdenlive/effects/frei0r_medians.xml
 * /usr/share/kdenlive/effects/frei0r_nervous.xml
+* /usr/share/kdenlive/effects/frei0r_normaliz0r.xml
 * /usr/share/kdenlive/effects/frei0r_nosync0r.xml
 * /usr/share/kdenlive/effects/frei0r_pixeliz0r.xml
 * /usr/share/kdenlive/effects/frei0r_pixs0r.xml
@@ -412,6 +417,8 @@ A non-linear video editor for Linux using the MLT video framework
 * /usr/share/kdenlive/effects/gpstext.xml
 * /usr/share/kdenlive/effects/grain.xml
 * /usr/share/kdenlive/effects/greyscale.xml
+* /usr/share/kdenlive/effects/hsl_primaries.xml
+* /usr/share/kdenlive/effects/hsl_range.xml
 * /usr/share/kdenlive/effects/invert.xml
 * /usr/share/kdenlive/effects/ladspa_declipper.xml
 * /usr/share/kdenlive/effects/ladspa_equalizer.xml

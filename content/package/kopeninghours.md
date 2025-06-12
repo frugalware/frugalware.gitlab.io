@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kopeninghours 25.04.1-3"
-version = "25.04.1-3"
+title = "kopeninghours 25.04.2-1"
+version = "25.04.2-1"
 description = "Library for parsing and evaluating OSM opening hours expressions"
-date = "2025-06-06T21:21:53"
+date = "2025-06-12T09:39:32"
 aliases = "/packages/220984"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "124492"
-usize = "496132"
-sha1sum = "39d1230fb677c266f6bdc3995b8d62192149fd41"
+size = "124972"
+usize = "501536"
+sha1sum = "72259c836eca4183f6f2db9b2dbe76a392d643c9"
 depends = "['kholidays', 'ki18n', 'libboost', 'qt6-declarative']"
 reverse_depends = "['kosmindoormap']"
 +++
@@ -34,7 +34,7 @@ Library for parsing and evaluating OSM opening hours expressions
 * /usr/lib/cmake/KOpeningHours/KOpeningHoursTargets.cmake
 * /usr/lib/libKOpeningHours.so
 * /usr/lib/libKOpeningHours.so.1
-* /usr/lib/libKOpeningHours.so.25.4.1
+* /usr/lib/libKOpeningHours.so.25.4.2
 * /usr/lib/python3.13/site-packages/PyKOpeningHours/PyKOpeningHours.pyi
 * /usr/lib/python3.13/site-packages/PyKOpeningHours/PyKOpeningHours.so
 * /usr/lib/python3.13/site-packages/PyKOpeningHours/__init__.py
@@ -42,8 +42,9 @@ Library for parsing and evaluating OSM opening hours expressions
 * /usr/lib/qt6/qml/org/kde/kopeninghours/kopeninghoursqmlplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/kopeninghours/libkopeninghoursqmlplugin.so
 * /usr/lib/qt6/qml/org/kde/kopeninghours/qmldir
-* /usr/share/doc/kopeninghours-25.04.1/README.md
-* /usr/share/doc/kopeninghours-25.04.1/README.md.license
+* /usr/share/doc/kopeninghours-25.04.2/README.md
+* /usr/share/doc/kopeninghours-25.04.2/README.md.license
+* /usr/share/locale/ar/LC_MESSAGES/kopeninghours.mo
 * /usr/share/locale/ast/LC_MESSAGES/kopeninghours.mo
 * /usr/share/locale/ca/LC_MESSAGES/kopeninghours.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/kopeninghours.mo

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kclock 25.04.1-2"
-version = "25.04.1-2"
+title = "kclock 25.04.2-1"
+version = "25.04.2-1"
 description = "Clock app for Plasma Mobile"
-date = "2025-06-05T08:15:01"
+date = "2025-06-12T09:52:14"
 aliases = "/packages/220972"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "223600"
-usize = "1011102"
-sha1sum = "d7c2f5afc597852a3287b160a40c4bb3060f6564"
+size = "223408"
+usize = "1011154"
+sha1sum = "6593715fbf438bcaac2f719b7f86fb8d309cffeb"
 depends = "['kconfig', 'kcoreaddons', 'ki18n', 'kirigami-addons', 'kstatusnotifieritem', 'libplasma', 'qt6-multimedia']"
 +++
 ### Description: 
@@ -29,7 +29,7 @@ Clock app for Plasma Mobile
 * /usr/share/dbus-1/interfaces/org.kde.kclockd.TimerModel.xml
 * /usr/share/dbus-1/interfaces/org.kde.kclockd.Utility.xml
 * /usr/share/dbus-1/services/org.kde.kclockd.service
-* /usr/share/doc/kclock-25.04.1/README.md
+* /usr/share/doc/kclock-25.04.2/README.md
 * /usr/share/icons/hicolor/scalable/apps/kclock_plasmoid_1x2.svg
 * /usr/share/icons/hicolor/scalable/apps/org.kde.kclock.svg
 * /usr/share/knotifications6/kclockd.notifyrc
