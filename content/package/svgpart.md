@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "svgpart 25.04.1-2"
-version = "25.04.1-2"
+title = "svgpart 25.04.2-1"
+version = "25.04.2-1"
 description = "KDE kpart for viewing SVGs."
-date = "2025-06-05T09:45:07"
+date = "2025-06-12T09:11:24"
 aliases = "/packages/135754"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "27532"
-usize = "104740"
-sha1sum = "e668ff4c44f5ae7a70df761f2dd0047f13154763"
+size = "27556"
+usize = "104793"
+sha1sum = "131220041e9306a1937b93161e61487a6a7720a6"
 depends = "['kcoreaddons>=6.14.0', 'kparts>=6.14.0', 'kxmlgui>=6.14.0']"
 +++
 ### Description: 

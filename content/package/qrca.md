@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qrca 25.04.1-1"
-version = "25.04.1-1"
+title = "qrca 25.04.2-1"
+version = "25.04.2-1"
 description = "QR code scanner"
-date = "2025-05-09T19:51:41"
+date = "2025-06-12T08:58:21"
 aliases = "/packages/222706"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "90496"
-usize = "353590"
-sha1sum = "d6b7316fee96b9015264ff190e9c6e6d6dd95780"
-depends = "['kconfig>=6.13.0', 'kcontacts>=6.13.0', 'kcoreaddons>=6.13.0', 'ki18n>=6.13.0', 'kio>=6.13.0', 'kirigami>=6.13.0', 'knotifications>=6.13.0', 'networkmanager-qt>=6.13.0', 'prison>=6.13.0', 'qt6-multimedia>=6.9.0', 'qt6-svg>=6.9.0']"
+size = "90788"
+usize = "355115"
+sha1sum = "8d70847f05791af06a8eee39c258aa189ef0feeb"
+depends = "['kconfig>=6.14.0', 'kcontacts>=6.14.0', 'kcoreaddons>=6.14.0', 'ki18n>=6.14.0', 'kio>=6.14.0', 'kirigami>=6.14.0', 'knotifications>=6.14.0', 'networkmanager-qt>=6.14.0', 'prison>=6.14.0', 'qt6-multimedia>=6.9.1', 'qt6-svg>=6.9.1']"
 +++
 ### Description: 
 QR code scanner
@@ -20,7 +20,7 @@ QR code scanner
 * /usr/bin/qrca
 * /usr/share/applications/org.kde.qrca.desktop
 * /usr/share/applications/org.kde.qrca.wifi.desktop
-* /usr/share/doc/qrca-25.04.1/README.md
+* /usr/share/doc/qrca-25.04.2/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.qrca.svg
 * /usr/share/locale/ar/LC_MESSAGES/qrca.mo
 * /usr/share/locale/ast/LC_MESSAGES/qrca.mo

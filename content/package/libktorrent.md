@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libktorrent 25.04.1-2"
-version = "25.04.1-2"
+title = "libktorrent 25.04.2-1"
+version = "25.04.2-1"
 description = "A BitTorrent library for KDE applications."
-date = "2025-06-05T09:19:14"
+date = "2025-06-12T09:04:10"
 aliases = "/packages/219531"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "737824"
+size = "737604"
 usize = "2834402"
-sha1sum = "b17a9047c73eb11c8f36207aa6d8cf12a8ee31b6"
+sha1sum = "93f44c301342b9768bbb0ab654dba3d0afa85618"
 depends = "['kio>=6.14.0', 'pcre2', 'qca']"
 reverse_depends = "['kget', 'ktorrent']"
 +++
@@ -207,9 +207,9 @@ A BitTorrent library for KDE applications.
 * /usr/lib/cmake/KTorrent6/KTorrent6Targets-release.cmake
 * /usr/lib/cmake/KTorrent6/KTorrent6Targets.cmake
 * /usr/lib/libKTorrent6.so
-* /usr/lib/libKTorrent6.so.25.04.1
+* /usr/lib/libKTorrent6.so.25.04.2
 * /usr/lib/libKTorrent6.so.6
-* /usr/share/doc/libktorrent-25.04.1/ChangeLog
+* /usr/share/doc/libktorrent-25.04.2/ChangeLog
 * /usr/share/locale/ar/LC_MESSAGES/libktorrent6.mo
 * /usr/share/locale/ast/LC_MESSAGES/libktorrent6.mo
 * /usr/share/locale/be/LC_MESSAGES/libktorrent6.mo
