@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "falcosecurity-libs 0.20.0-2"
-version = "0.20.0-2"
+title = "falcosecurity-libs 0.20.0-3"
+version = "0.20.0-3"
 description = "libsinsp, libscap, the scap kernel module"
-date = "2025-06-10T13:54:17"
+date = "2025-06-12T22:01:37"
 aliases = "/packages/222737"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/falcosecurity/libs"
 arch = "x86_64"
-size = "2132232"
+size = "2133432"
 usize = "18737572"
-sha1sum = "e2d3dd50498e227a1b63aa1a7bfd37e157b77c65"
-depends = "['curl', 'grpc', 'intel-tbb', 'jsoncpp', 'libsystemd']"
+sha1sum = "1f6e544c930186eda30ebfefa05f0d6e6f53bb4e"
+depends = "['curl', 'grpc>=1.73.0', 'intel-tbb', 'jsoncpp', 'libsystemd']"
 reverse_depends = "['sysdig']"
 +++
 ### Description: 

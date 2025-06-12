@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "liburing 2.10-1"
-version = "2.10-1"
+title = "liburing 2.11-1"
+version = "2.11-1"
 description = "Linux-native io_uring I/O access library"
-date = "2025-05-26T16:12:55"
+date = "2025-06-12T21:41:24"
 aliases = "/packages/221115"
 categories = ['lib']
 upstreamurl = "https://github.com/axboe/liburing"
 arch = "x86_64"
-size = "217116"
-usize = "464166"
-sha1sum = "aad799ebc7961721d2ef7fc507722401bbf5cfd8"
+size = "210924"
+usize = "443554"
+sha1sum = "82e411d316cc09be211e07274d59364bb97e4ca2"
 depends = "['glibc']"
 reverse_depends = "['folly', 'libdex', 'mariadb-libs', 'mpd', 'plocate', 'qemu', 'qemu-guest']"
 +++
@@ -25,18 +25,17 @@ Linux-native io_uring I/O access library
 * /usr/include/liburing/io_uring_version.h
 * /usr/lib/liburing-ffi.so
 * /usr/lib/liburing-ffi.so.2
-* /usr/lib/liburing-ffi.so.2.10
+* /usr/lib/liburing-ffi.so.2.11
 * /usr/lib/liburing.so
 * /usr/lib/liburing.so.2
-* /usr/lib/liburing.so.2.10
+* /usr/lib/liburing.so.2.11
 * /usr/lib/pkgconfig/liburing-ffi.pc
 * /usr/lib/pkgconfig/liburing.pc
-* /usr/share/doc/liburing-2.10/CHANGELOG
-* /usr/share/doc/liburing-2.10/COPYING
-* /usr/share/doc/liburing-2.10/COPYING.GPL
-* /usr/share/doc/liburing-2.10/LICENSE
-* /usr/share/doc/liburing-2.10/README
-* /usr/share/doc/liburing-2.10/README.md
+* /usr/share/doc/liburing-2.11/CHANGELOG
+* /usr/share/doc/liburing-2.11/COPYING
+* /usr/share/doc/liburing-2.11/COPYING.GPL
+* /usr/share/doc/liburing-2.11/LICENSE
+* /usr/share/doc/liburing-2.11/README
 * /usr/share/man/man2/io_uring_enter.2.gz
 * /usr/share/man/man2/io_uring_enter2.2.gz
 * /usr/share/man/man2/io_uring_register.2.gz

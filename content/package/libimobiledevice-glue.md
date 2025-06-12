@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libimobiledevice-glue 1.3.1-1"
-version = "1.3.1-1"
+title = "libimobiledevice-glue 1.3.2-1"
+version = "1.3.2-1"
 description = "Common library for connecting to mobile devices"
-date = "2024-10-18T15:16:41"
+date = "2025-06-12T21:44:46"
 aliases = "/packages/220958"
 categories = ['lib']
 upstreamurl = "http://libimobiledevice.org/"
 arch = "x86_64"
-size = "43360"
-usize = "135639"
-sha1sum = "0475d546a9954858749870bc14057de910a20275"
+size = "44356"
+usize = "137436"
+sha1sum = "b5db35b26635ded43a0cfb3015a68973446cca19"
 depends = "['libplist>=2.3.0']"
 reverse_depends = "['libimobiledevice']"
 +++
@@ -31,8 +31,8 @@ Common library for connecting to mobile devices
 * /usr/include/libimobiledevice-glue/utils.h
 * /usr/lib/libimobiledevice-glue-1.0.so
 * /usr/lib/libimobiledevice-glue-1.0.so.0
-* /usr/lib/libimobiledevice-glue-1.0.so.0.3.1
+* /usr/lib/libimobiledevice-glue-1.0.so.0.3.2
 * /usr/lib/pkgconfig/libimobiledevice-glue-1.0.pc
-* /usr/share/doc/libimobiledevice-glue-1.3.1/COPYING
-* /usr/share/doc/libimobiledevice-glue-1.3.1/NEWS
-* /usr/share/doc/libimobiledevice-glue-1.3.1/README.md
+* /usr/share/doc/libimobiledevice-glue-1.3.2/COPYING
+* /usr/share/doc/libimobiledevice-glue-1.3.2/NEWS
+* /usr/share/doc/libimobiledevice-glue-1.3.2/README.md
