@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "poppler-glib 25.05.0-3"
-version = "25.05.0-3"
+title = "poppler-glib 25.06.0-1"
+version = "25.06.0-1"
 description = "Poppler glib bindings"
-date = "2025-06-06T13:25:23"
+date = "2025-06-12T20:37:18"
 aliases = "/packages/5055"
 categories = ['xlib']
 upstreamurl = "https://poppler.freedesktop.org/"
 arch = "x86_64"
-size = "169224"
-usize = "636357"
-sha1sum = "4776b555425642daa87f6eb90b71a8527d8ece81"
-depends = "['cairo>=1.14.6-4', 'libffi>=3.2.1-2', 'libpng>=1.6.25', 'libstdc++>=9.1.0-3', 'poppler>=25.05.0']"
+size = "173852"
+usize = "661194"
+sha1sum = "917b830aea35f535d2e3b12792bcf88ab8b1e98b"
+depends = "['cairo>=1.14.6-4', 'libffi>=3.2.1-2', 'libpng>=1.6.25', 'libstdc++>=9.1.0-3', 'poppler>=25.06.0']"
 reverse_depends = "['claws-mail-plugin-pdf_viewer', 'gimp', 'inkscape', 'libreoffice', 'libvips', 'openscenegraph', 'pdf2svg', 'sane-backends']"
 +++
 ### Description: 
@@ -35,5 +35,5 @@ Poppler glib bindings
 * /usr/include/poppler/glib/poppler.h
 * /usr/lib/libpoppler-glib.so
 * /usr/lib/libpoppler-glib.so.8
-* /usr/lib/libpoppler-glib.so.8.29.0
+* /usr/lib/libpoppler-glib.so.8.30.0
 * /usr/lib/pkgconfig/poppler-glib.pc
