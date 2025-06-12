@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "calligra 25.04.1-3"
-version = "25.04.1-3"
+title = "calligra 25.04.2-1"
+version = "25.04.2-1"
 description = "An integrated Office suite for KDE"
-date = "2025-06-08T09:51:11"
+date = "2025-06-12T11:10:36"
 aliases = "/packages/222602"
 categories = ['kde6-extra']
 upstreamurl = "https://www.calligra-suite.org"
 arch = "x86_64"
-size = "40969768"
-usize = "123126139"
-sha1sum = "c6b21a44fbcac0fdc90163708900c1a250622d3a"
+size = "41475912"
+usize = "123660434"
+sha1sum = "99c45ea0960684ef490c4f3ba11240882e933ae2"
 depends = "['eigen', 'gsl', 'imath', 'kcmutils>=', 'kio>=', 'knotifyconfig>=', 'libetonyek', 'libgit2', 'libodfgen', 'librevenge', 'libvisio', 'libwpg', 'libwps', 'okular', 'openexr', 'poppler-qt6>=25.05.0', 'qt6-webengine>=', 'qtkeychain']"
 +++
 ### Description: 
@@ -32,99 +32,99 @@ An integrated Office suite for KDE
 * /usr/bin/karbon
 * /usr/bin/visualimagecompare
 * /usr/lib/libautocorrection.so
-* /usr/lib/libautocorrection.so.25.04.1
+* /usr/lib/libautocorrection.so.25.04.2
 * /usr/lib/libautocorrection.so.40
 * /usr/lib/libbasicflakes.so
-* /usr/lib/libbasicflakes.so.25.04.1
+* /usr/lib/libbasicflakes.so.25.04.2
 * /usr/lib/libbasicflakes.so.40
-* /usr/lib/libbraindumpcore.so.25.04.1
+* /usr/lib/libbraindumpcore.so.25.04.2
 * /usr/lib/libbraindumpcore.so.40
 * /usr/lib/libcalligrasheetscore.so
-* /usr/lib/libcalligrasheetscore.so.25.04.1
+* /usr/lib/libcalligrasheetscore.so.25.04.2
 * /usr/lib/libcalligrasheetscore.so.40
 * /usr/lib/libcalligrasheetsengine.so
-* /usr/lib/libcalligrasheetsengine.so.25.04.1
+* /usr/lib/libcalligrasheetsengine.so.25.04.2
 * /usr/lib/libcalligrasheetsengine.so.40
 * /usr/lib/libcalligrasheetspartlib.so
-* /usr/lib/libcalligrasheetspartlib.so.25.04.1
+* /usr/lib/libcalligrasheetspartlib.so.25.04.2
 * /usr/lib/libcalligrasheetspartlib.so.40
 * /usr/lib/libcalligrasheetsui.so
-* /usr/lib/libcalligrasheetsui.so.25.04.1
+* /usr/lib/libcalligrasheetsui.so.25.04.2
 * /usr/lib/libcalligrasheetsui.so.40
 * /usr/lib/libcalligrastageprivate.so
-* /usr/lib/libcalligrastageprivate.so.25.04.1
+* /usr/lib/libcalligrastageprivate.so.25.04.2
 * /usr/lib/libcalligrastageprivate.so.40
 * /usr/lib/libflake.so
-* /usr/lib/libflake.so.25.04.1
+* /usr/lib/libflake.so.25.04.2
 * /usr/lib/libflake.so.40
 * /usr/lib/libkarboncommon.so
-* /usr/lib/libkarboncommon.so.25.04.1
+* /usr/lib/libkarboncommon.so.25.04.2
 * /usr/lib/libkarboncommon.so.40
 * /usr/lib/libkarbonui.so
-* /usr/lib/libkarbonui.so.25.04.1
+* /usr/lib/libkarbonui.so.25.04.2
 * /usr/lib/libkarbonui.so.40
 * /usr/lib/libkoformula.so
-* /usr/lib/libkoformula.so.25.04.1
+* /usr/lib/libkoformula.so.25.04.2
 * /usr/lib/libkoformula.so.40
 * /usr/lib/libkomain.so
-* /usr/lib/libkomain.so.25.04.1
+* /usr/lib/libkomain.so.25.04.2
 * /usr/lib/libkomain.so.40
 * /usr/lib/libkomsooxml.so
-* /usr/lib/libkomsooxml.so.25.04.1
+* /usr/lib/libkomsooxml.so.25.04.2
 * /usr/lib/libkomsooxml.so.40
 * /usr/lib/libkoodf.so
-* /usr/lib/libkoodf.so.25.04.1
+* /usr/lib/libkoodf.so.25.04.2
 * /usr/lib/libkoodf.so.40
 * /usr/lib/libkoodf2.so
-* /usr/lib/libkoodf2.so.25.04.1
+* /usr/lib/libkoodf2.so.25.04.2
 * /usr/lib/libkoodf2.so.40
 * /usr/lib/libkoodfreader.so
-* /usr/lib/libkoodfreader.so.25.04.1
+* /usr/lib/libkoodfreader.so.25.04.2
 * /usr/lib/libkoodfreader.so.40
 * /usr/lib/libkookularGenerator_odp.so
-* /usr/lib/libkookularGenerator_odp.so.25.04.1
+* /usr/lib/libkookularGenerator_odp.so.25.04.2
 * /usr/lib/libkookularGenerator_odp.so.40
 * /usr/lib/libkookularGenerator_odt.so
-* /usr/lib/libkookularGenerator_odt.so.25.04.1
+* /usr/lib/libkookularGenerator_odt.so.25.04.2
 * /usr/lib/libkookularGenerator_odt.so.40
 * /usr/lib/libkopageapp.so
-* /usr/lib/libkopageapp.so.25.04.1
+* /usr/lib/libkopageapp.so.25.04.2
 * /usr/lib/libkopageapp.so.40
 * /usr/lib/libkoplugin.so
-* /usr/lib/libkoplugin.so.25.04.1
+* /usr/lib/libkoplugin.so.25.04.2
 * /usr/lib/libkoplugin.so.40
 * /usr/lib/libkostore.so
-* /usr/lib/libkostore.so.25.04.1
+* /usr/lib/libkostore.so.25.04.2
 * /usr/lib/libkostore.so.40
 * /usr/lib/libkotext.so
-* /usr/lib/libkotext.so.25.04.1
+* /usr/lib/libkotext.so.25.04.2
 * /usr/lib/libkotext.so.40
 * /usr/lib/libkotextlayout.so
-* /usr/lib/libkotextlayout.so.25.04.1
+* /usr/lib/libkotextlayout.so.25.04.2
 * /usr/lib/libkotextlayout.so.40
 * /usr/lib/libkovectorimage.so
-* /usr/lib/libkovectorimage.so.25.04.1
+* /usr/lib/libkovectorimage.so.25.04.2
 * /usr/lib/libkovectorimage.so.40
 * /usr/lib/libkowidgets.so
-* /usr/lib/libkowidgets.so.25.04.1
+* /usr/lib/libkowidgets.so.25.04.2
 * /usr/lib/libkowidgets.so.40
 * /usr/lib/libkowidgetutils.so
-* /usr/lib/libkowidgetutils.so.25.04.1
+* /usr/lib/libkowidgetutils.so.25.04.2
 * /usr/lib/libkowidgetutils.so.40
 * /usr/lib/libkowv2.so
 * /usr/lib/libkowv2.so.9
 * /usr/lib/libkowv2.so.9.0.0
 * /usr/lib/libkundo2.so
-* /usr/lib/libkundo2.so.25.04.1
+* /usr/lib/libkundo2.so.25.04.2
 * /usr/lib/libkundo2.so.40
 * /usr/lib/libpigmentcms.so
-* /usr/lib/libpigmentcms.so.25.04.1
+* /usr/lib/libpigmentcms.so.25.04.2
 * /usr/lib/libpigmentcms.so.40
 * /usr/lib/libRtfReader.so
-* /usr/lib/libRtfReader.so.25.04.1
+* /usr/lib/libRtfReader.so.25.04.2
 * /usr/lib/libRtfReader.so.40
 * /usr/lib/libwordsprivate.so
-* /usr/lib/libwordsprivate.so.25.04.1
+* /usr/lib/libwordsprivate.so.25.04.2
 * /usr/lib/libwordsprivate.so.40
 * /usr/lib/qt6/plugins/calligra/colorspaces/kolcmsengine.so
 * /usr/lib/qt6/plugins/calligra/dockers/calligra_docker_defaults.so
@@ -4758,13 +4758,13 @@ An integrated Office suite for KDE
 * /usr/share/color/icc/calligra/WideRGB-elle-V4-srgbtrc.icc
 * /usr/share/color/icc/calligra/XYZ-D50-Identity-elle-V4.icc
 * /usr/share/config.kcfg/calligrasheets.kcfg
-* /usr/share/doc/calligra-25.04.1/AUTHORS
-* /usr/share/doc/calligra-25.04.1/COPYING
-* /usr/share/doc/calligra-25.04.1/COPYING-CMAKE-SCRIPTS
-* /usr/share/doc/calligra-25.04.1/COPYING.DOC
-* /usr/share/doc/calligra-25.04.1/COPYING.LIB
-* /usr/share/doc/calligra-25.04.1/README.md
-* /usr/share/doc/calligra-25.04.1/README.PACKAGERS
+* /usr/share/doc/calligra-25.04.2/AUTHORS
+* /usr/share/doc/calligra-25.04.2/COPYING
+* /usr/share/doc/calligra-25.04.2/COPYING-CMAKE-SCRIPTS
+* /usr/share/doc/calligra-25.04.2/COPYING.DOC
+* /usr/share/doc/calligra-25.04.2/COPYING.LIB
+* /usr/share/doc/calligra-25.04.2/README.md
+* /usr/share/doc/calligra-25.04.2/README.PACKAGERS
 * /usr/share/doc/HTML/ca/calligra/index.cache.bz2
 * /usr/share/doc/HTML/ca/calligra/index.docbook
 * /usr/share/doc/HTML/ca/sheets/advanced.docbook
@@ -7694,6 +7694,7 @@ An integrated Office suite for KDE
 * /usr/share/locale/zh_TW/LC_MESSAGES/calligra_shape_threed.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/calligra_shape_vector.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/calligra_shape_video.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/calligra_shape_webshape.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/calligra_textediting_autocorrect.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/calligra_textediting_changecase.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/calligra_textediting_spellcheck.mo
