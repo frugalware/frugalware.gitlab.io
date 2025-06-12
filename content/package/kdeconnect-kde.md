@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdeconnect-kde 25.04.1-2"
-version = "25.04.1-2"
+title = "kdeconnect-kde 25.04.2-1"
+version = "25.04.2-1"
 description = "Adds communication between KDE and your smartphone"
-date = "2025-06-05T06:53:42"
+date = "2025-06-12T07:50:11"
 aliases = "/packages/220147"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "5667328"
-usize = "14917698"
-sha1sum = "35392fa847317a7739b41fb6d7086fdc5d299770"
-depends = "['kcmutils', 'kirigami-addons', 'kpeople', 'kstatusnotifieritem', 'libfakekey', 'modemmanager-qt', 'pulseaudio-qt', 'qqc2-desktop-style>=6.14.0', 'qt6-connectivity']"
+size = "5667748"
+usize = "14942603"
+sha1sum = "ae14e1e2447fa1a3eb2db5d2aebba13bbe9dbf93"
+depends = "['kcmutils', 'kirigami-addons', 'kitemmodels>=6.14.0', 'kpeople', 'kstatusnotifieritem', 'libfakekey', 'modemmanager-qt', 'pulseaudio-qt', 'qqc2-desktop-style>=6.14.0', 'qt6-connectivity']"
 +++
 ### Description: 
 Adds communication between KDE and your smartphone
@@ -26,10 +26,10 @@ Adds communication between KDE and your smartphone
 * /usr/bin/kdeconnect-sms
 * /usr/bin/kdeconnectd
 * /usr/lib/libkdeconnectcore.so.25
-* /usr/lib/libkdeconnectcore.so.25.04.1
+* /usr/lib/libkdeconnectcore.so.25.04.2
 * /usr/lib/libkdeconnectinterfaces.a
 * /usr/lib/libkdeconnectpluginkcm.so.25
-* /usr/lib/libkdeconnectpluginkcm.so.25.04.1
+* /usr/lib/libkdeconnectpluginkcm.so.25.04.2
 * /usr/lib/qt6/plugins/kdeconnect/kcms/kdeconnect_clipboard_config.so
 * /usr/lib/qt6/plugins/kdeconnect/kcms/kdeconnect_findthisdevice_config.so
 * /usr/lib/qt6/plugins/kdeconnect/kcms/kdeconnect_pausemusic_config.so
@@ -119,7 +119,7 @@ Adds communication between KDE and your smartphone
 * /usr/share/doc/HTML/uk/kdeconnect-kde/index.docbook
 * /usr/share/doc/HTML/zh_CN/kdeconnect-kde/index.cache.bz2
 * /usr/share/doc/HTML/zh_CN/kdeconnect-kde/index.docbook
-* /usr/share/doc/kdeconnect-kde-25.04.1/README.md
+* /usr/share/doc/kdeconnect-kde-25.04.2/README.md
 * /usr/share/icons/hicolor/16x16/status/laptopconnected.svg
 * /usr/share/icons/hicolor/16x16/status/laptopdisconnected.svg
 * /usr/share/icons/hicolor/16x16/status/laptoptrusted.svg
@@ -398,6 +398,9 @@ Adds communication between KDE and your smartphone
 * /usr/share/locale/eu/LC_MESSAGES/kdeconnect-sms.mo
 * /usr/share/locale/eu/LC_MESSAGES/kdeconnect-urlhandler.mo
 * /usr/share/locale/eu/LC_MESSAGES/plasma_applet_org.kde.kdeconnect.mo
+* /usr/share/locale/fa/LC_MESSAGES/kdeconnect-app.mo
+* /usr/share/locale/fa/LC_MESSAGES/kdeconnect-cli.mo
+* /usr/share/locale/fa/LC_MESSAGES/kdeconnect-core.mo
 * /usr/share/locale/fi/LC_MESSAGES/kdeconnect-app.mo
 * /usr/share/locale/fi/LC_MESSAGES/kdeconnect-cli.mo
 * /usr/share/locale/fi/LC_MESSAGES/kdeconnect-core.mo

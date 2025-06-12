@@ -12,7 +12,7 @@ size = "144812"
 usize = "548425"
 sha1sum = "436543a246207c5e523ef54b14b37285b4f57cc8"
 depends = "['qt6-base>=6.9.1']"
-reverse_depends = "['akonadi', 'akonadi-mime', 'ark', 'colord-kde', 'discover', 'drkonqi', 'itinerary', 'kate', 'kdeplasma-addons', 'kirigami-gallery', 'kleopatra', 'krunner', 'ktrip', 'libkleo', 'milou', 'neochat', 'plasma-nano', 'plasma-pa', 'plasma-settings', 'plasma-systemmonitor', 'plasma-vault', 'systemsettings', 'tokodon']"
+reverse_depends = "['akonadi', 'akonadi-mime', 'ark', 'colord-kde', 'discover', 'drkonqi', 'itinerary', 'kate', 'kdeconnect-kde', 'kdeplasma-addons', 'kirigami-gallery', 'kleopatra', 'krunner', 'ktrip', 'libkleo', 'milou', 'neochat', 'plasma-nano', 'plasma-pa', 'plasma-settings', 'plasma-systemmonitor', 'plasma-vault', 'systemsettings', 'tokodon']"
 +++
 ### Description: 
 Set of item models extending the Qt model-view framework.

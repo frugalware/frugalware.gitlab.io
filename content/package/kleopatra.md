@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kleopatra 25.04.1-3"
-version = "25.04.1-3"
+title = "kleopatra 25.04.2-1"
+version = "25.04.2-1"
 description = "Certificate manager and GUI for OpenPGP and CMS cryptography."
-date = "2025-06-06T14:45:49"
+date = "2025-06-12T07:40:00"
 aliases = "/packages/219334"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3280600"
-usize = "17103171"
-sha1sum = "d3f16b0883bb6b432c4498bc8b9067bb8c039485"
-depends = "['akonadi-mime>=25.04.1', 'kcmutils>=6.14.0', 'kidentitymanagement>=25.04.1', 'kitemmodels>=6.14.0', 'kmailtransport>=25.04.1', 'kmime>=6.14.0', 'kstatusnotifieritem>=6.14.0', 'libkleo>=25.04.1', 'mimetreeparser>=25.04.1']"
+size = "3278344"
+usize = "17103916"
+sha1sum = "56c6424c1e7fcfe8c155e95b726b1209feb5ef02"
+depends = "['akonadi-mime>=25.04.2', 'kcmutils>=6.14.0', 'kidentitymanagement>=25.04.2', 'kitemmodels>=6.14.0', 'kmailtransport>=25.04.2', 'kmime>=6.14.0', 'kstatusnotifieritem>=6.14.0', 'libkleo>=25.04.2', 'mimetreeparser>=25.04.2']"
 +++
 ### Description: 
 Certificate manager and GUI for OpenPGP and CMS cryptography.
@@ -79,7 +79,7 @@ Certificate manager and GUI for OpenPGP and CMS cryptography.
 * /usr/share/doc/HTML/uk/kleopatra/index.docbook
 * /usr/share/doc/HTML/uk/kwatchgnupg/index.cache.bz2
 * /usr/share/doc/HTML/uk/kwatchgnupg/index.docbook
-* /usr/share/doc/kleopatra-25.04.1/README.packagers
+* /usr/share/doc/kleopatra-25.04.2/README.packagers
 * /usr/share/icons/hicolor/128x128/apps/kleopatra.png
 * /usr/share/icons/hicolor/128x128/apps/org.kde.kwatchgnupg.png
 * /usr/share/icons/hicolor/16x16/apps/kleopatra.png
