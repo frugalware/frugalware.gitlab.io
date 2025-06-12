@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "umbrello 25.04.1-3"
-version = "25.04.1-3"
+title = "umbrello 25.04.2-1"
+version = "25.04.2-1"
 description = "UML Modeller."
-date = "2025-05-26T06:42:05"
+date = "2025-06-12T11:36:10"
 aliases = "/packages/220997"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "24171552"
-usize = "138544578"
-sha1sum = "ec137610f0fbfd7e2bfce54e5086c14fc41060b4"
+size = "24196212"
+usize = "136417669"
+sha1sum = "140c85bc3a84f1ca70234427d857d6846684d651"
 depends = "['doxygen', 'ktexteditor5>=5.116.0', 'libxml2>=2.14.3']"
 +++
 ### Description: 
@@ -255,15 +255,15 @@ UML Modeller.
 * /usr/share/doc/HTML/uk/umbrello/user-interface-settings.png
 * /usr/share/doc/HTML/uk/umbrello/working_with_umbrello.docbook
 * /usr/share/doc/qt5/umbrello.qch
-* /usr/share/doc/umbrello-25.04.1/AUTHORS
-* /usr/share/doc/umbrello-25.04.1/ChangeLog
-* /usr/share/doc/umbrello-25.04.1/COPYING
-* /usr/share/doc/umbrello-25.04.1/COPYING.DOC
-* /usr/share/doc/umbrello-25.04.1/COPYING.LIB
-* /usr/share/doc/umbrello-25.04.1/INSTALL
-* /usr/share/doc/umbrello-25.04.1/README
-* /usr/share/doc/umbrello-25.04.1/THANKS
-* /usr/share/doc/umbrello-25.04.1/TODO
+* /usr/share/doc/umbrello-25.04.2/AUTHORS
+* /usr/share/doc/umbrello-25.04.2/ChangeLog
+* /usr/share/doc/umbrello-25.04.2/COPYING
+* /usr/share/doc/umbrello-25.04.2/COPYING.DOC
+* /usr/share/doc/umbrello-25.04.2/COPYING.LIB
+* /usr/share/doc/umbrello-25.04.2/INSTALL
+* /usr/share/doc/umbrello-25.04.2/README
+* /usr/share/doc/umbrello-25.04.2/THANKS
+* /usr/share/doc/umbrello-25.04.2/TODO
 * /usr/share/icons/hicolor/128x128/apps/umbrello.png
 * /usr/share/icons/hicolor/16x16/apps/umbrello.png
 * /usr/share/icons/hicolor/16x16/mimetypes/application-x-uml.png
@@ -456,8 +456,6 @@ UML Modeller.
 * /usr/share/umbrello5/apidoc/html/basictypes_8cpp.html
 * /usr/share/umbrello5/apidoc/html/basictypes_8h.html
 * /usr/share/umbrello5/apidoc/html/basictypes_8h_source.html
-* /usr/share/umbrello5/apidoc/html/bc_s.png
-* /usr/share/umbrello5/apidoc/html/bc_sd.png
 * /usr/share/umbrello5/apidoc/html/birdview_8cpp.html
 * /usr/share/umbrello5/apidoc/html/birdview_8h.html
 * /usr/share/umbrello5/apidoc/html/birdview_8h_source.html
@@ -1998,7 +1996,6 @@ UML Modeller.
 * /usr/share/umbrello5/apidoc/html/classXMLSchemaWriter-members.html
 * /usr/share/umbrello5/apidoc/html/classXMLSchemaWriter.html
 * /usr/share/umbrello5/apidoc/html/classXMLSchemaWriter.png
-* /usr/share/umbrello5/apidoc/html/closed.png
 * /usr/share/umbrello5/apidoc/html/cmdbaseobjectcommand_8cpp.html
 * /usr/share/umbrello5/apidoc/html/cmdbaseobjectcommand_8h.html
 * /usr/share/umbrello5/apidoc/html/cmdbaseobjectcommand_8h_source.html
@@ -2494,7 +2491,6 @@ UML Modeller.
 * /usr/share/umbrello5/apidoc/html/dir_f67fd583e70457ed579383bdf447fe4c.html
 * /usr/share/umbrello5/apidoc/html/dir_f783dda77c9f7be02e165baabb330ebc.html
 * /usr/share/umbrello5/apidoc/html/dir_fdbb816b115d249a9c5ca4deb3c8b06c.html
-* /usr/share/umbrello5/apidoc/html/doc.svg
 * /usr/share/umbrello5/apidoc/html/docbook2xhtmlgeneratorjob_8cpp.html
 * /usr/share/umbrello5/apidoc/html/docbook2xhtmlgeneratorjob_8h.html
 * /usr/share/umbrello5/apidoc/html/docbook2xhtmlgeneratorjob_8h_source.html
@@ -2504,7 +2500,6 @@ UML Modeller.
 * /usr/share/umbrello5/apidoc/html/docbookgenerator_8cpp.html
 * /usr/share/umbrello5/apidoc/html/docbookgenerator_8h.html
 * /usr/share/umbrello5/apidoc/html/docbookgenerator_8h_source.html
-* /usr/share/umbrello5/apidoc/html/docd.svg
 * /usr/share/umbrello5/apidoc/html/docgenerators_2main_8cpp.html
 * /usr/share/umbrello5/apidoc/html/documentationwidget_8cpp.html
 * /usr/share/umbrello5/apidoc/html/documentationwidget_8h.html
@@ -2572,10 +2567,6 @@ UML Modeller.
 * /usr/share/umbrello5/apidoc/html/floatingtextwidget_8cpp.html
 * /usr/share/umbrello5/apidoc/html/floatingtextwidget_8h.html
 * /usr/share/umbrello5/apidoc/html/floatingtextwidget_8h_source.html
-* /usr/share/umbrello5/apidoc/html/folderclosed.svg
-* /usr/share/umbrello5/apidoc/html/folderclosedd.svg
-* /usr/share/umbrello5/apidoc/html/folderopen.svg
-* /usr/share/umbrello5/apidoc/html/folderopend.svg
 * /usr/share/umbrello5/apidoc/html/folder_8cpp.html
 * /usr/share/umbrello5/apidoc/html/folder_8h.html
 * /usr/share/umbrello5/apidoc/html/folder_8h_source.html
@@ -2888,6 +2879,7 @@ UML Modeller.
 * /usr/share/umbrello5/apidoc/html/listpopupmenu_8h_source.html
 * /usr/share/umbrello5/apidoc/html/Mainpage_8dox.html
 * /usr/share/umbrello5/apidoc/html/main_8cpp.html
+* /usr/share/umbrello5/apidoc/html/menudata.js
 * /usr/share/umbrello5/apidoc/html/messagewidgetlist_8h.html
 * /usr/share/umbrello5/apidoc/html/messagewidgetlist_8h_source.html
 * /usr/share/umbrello5/apidoc/html/messagewidgetpropertiesdialog_8cpp.html
@@ -2897,8 +2889,6 @@ UML Modeller.
 * /usr/share/umbrello5/apidoc/html/messagewidget_8h.html
 * /usr/share/umbrello5/apidoc/html/messagewidget_8h_source.html
 * /usr/share/umbrello5/apidoc/html/method-parameters_8py.html
-* /usr/share/umbrello5/apidoc/html/minus.svg
-* /usr/share/umbrello5/apidoc/html/minusd.svg
 * /usr/share/umbrello5/apidoc/html/moc__activitydialog_8cpp.html
 * /usr/share/umbrello5/apidoc/html/moc__activitydialog_8cpp_8d.html
 * /usr/share/umbrello5/apidoc/html/moc__activitydialog_8cpp_source.html
@@ -3743,11 +3733,6 @@ UML Modeller.
 * /usr/share/umbrello5/apidoc/html/nativeimportbase_8h.html
 * /usr/share/umbrello5/apidoc/html/nativeimportbase_8h_source.html
 * /usr/share/umbrello5/apidoc/html/navtree.css
-* /usr/share/umbrello5/apidoc/html/nav_f.png
-* /usr/share/umbrello5/apidoc/html/nav_fd.png
-* /usr/share/umbrello5/apidoc/html/nav_g.png
-* /usr/share/umbrello5/apidoc/html/nav_h.png
-* /usr/share/umbrello5/apidoc/html/nav_hd.png
 * /usr/share/umbrello5/apidoc/html/nodewidget_8cpp.html
 * /usr/share/umbrello5/apidoc/html/nodewidget_8h.html
 * /usr/share/umbrello5/apidoc/html/nodewidget_8h_source.html
@@ -3783,7 +3768,6 @@ UML Modeller.
 * /usr/share/umbrello5/apidoc/html/object__factory_8cpp.html
 * /usr/share/umbrello5/apidoc/html/object__factory_8h.html
 * /usr/share/umbrello5/apidoc/html/object__factory_8h_source.html
-* /usr/share/umbrello5/apidoc/html/open.png
 * /usr/share/umbrello5/apidoc/html/operation_8cpp.html
 * /usr/share/umbrello5/apidoc/html/operation_8h.html
 * /usr/share/umbrello5/apidoc/html/operation_8h_source.html
@@ -3848,9 +3832,8 @@ UML Modeller.
 * /usr/share/umbrello5/apidoc/html/plugin_8cpp.html
 * /usr/share/umbrello5/apidoc/html/plugin_8h.html
 * /usr/share/umbrello5/apidoc/html/plugin_8h_source.html
-* /usr/share/umbrello5/apidoc/html/plus.svg
-* /usr/share/umbrello5/apidoc/html/plusd.svg
 * /usr/share/umbrello5/apidoc/html/po2xmi_8cpp.html
+* /usr/share/umbrello5/apidoc/html/po2xmi__autogen_2mocs__compilation_8cpp.html
 * /usr/share/umbrello5/apidoc/html/portwidget_8cpp.html
 * /usr/share/umbrello5/apidoc/html/portwidget_8h.html
 * /usr/share/umbrello5/apidoc/html/portwidget_8h_source.html
@@ -3878,7 +3861,6 @@ UML Modeller.
 * /usr/share/umbrello5/apidoc/html/regionwidget_8cpp.html
 * /usr/share/umbrello5/apidoc/html/regionwidget_8h.html
 * /usr/share/umbrello5/apidoc/html/regionwidget_8h_source.html
-* /usr/share/umbrello5/apidoc/html/resize.js
 * /usr/share/umbrello5/apidoc/html/resolutionwidget_8cpp.html
 * /usr/share/umbrello5/apidoc/html/resolutionwidget_8h.html
 * /usr/share/umbrello5/apidoc/html/resolutionwidget_8h_source.html
@@ -3951,8 +3933,6 @@ UML Modeller.
 * /usr/share/umbrello5/apidoc/html/singlepagedialogbase_8cpp.html
 * /usr/share/umbrello5/apidoc/html/singlepagedialogbase_8h.html
 * /usr/share/umbrello5/apidoc/html/singlepagedialogbase_8h_source.html
-* /usr/share/umbrello5/apidoc/html/splitbar.png
-* /usr/share/umbrello5/apidoc/html/splitbard.png
 * /usr/share/umbrello5/apidoc/html/sqlimport_8cpp.html
 * /usr/share/umbrello5/apidoc/html/sqlimport_8h.html
 * /usr/share/umbrello5/apidoc/html/sqlimport_8h_source.html
@@ -4517,17 +4497,7 @@ UML Modeller.
 * /usr/share/umbrello5/apidoc/html/structUMLForeignKeyConstraintDialog_1_1GeneralWidgets-members.html
 * /usr/share/umbrello5/apidoc/html/structUMLForeignKeyConstraintDialog_1_1GeneralWidgets.html
 * /usr/share/umbrello5/apidoc/html/svg2png_8cpp.html
-* /usr/share/umbrello5/apidoc/html/sync_off.png
-* /usr/share/umbrello5/apidoc/html/sync_on.png
 * /usr/share/umbrello5/apidoc/html/tabs.css
-* /usr/share/umbrello5/apidoc/html/tab_a.png
-* /usr/share/umbrello5/apidoc/html/tab_ad.png
-* /usr/share/umbrello5/apidoc/html/tab_b.png
-* /usr/share/umbrello5/apidoc/html/tab_bd.png
-* /usr/share/umbrello5/apidoc/html/tab_h.png
-* /usr/share/umbrello5/apidoc/html/tab_hd.png
-* /usr/share/umbrello5/apidoc/html/tab_s.png
-* /usr/share/umbrello5/apidoc/html/tab_sd.png
 * /usr/share/umbrello5/apidoc/html/tclwriter_8cpp.html
 * /usr/share/umbrello5/apidoc/html/tclwriter_8h.html
 * /usr/share/umbrello5/apidoc/html/tclwriter_8h_source.html
@@ -4881,6 +4851,7 @@ UML Modeller.
 * /usr/share/umbrello5/apidoc/html/xhtmlgenerator_8h.html
 * /usr/share/umbrello5/apidoc/html/xhtmlgenerator_8h_source.html
 * /usr/share/umbrello5/apidoc/html/xmi2pot_8cpp.html
+* /usr/share/umbrello5/apidoc/html/xmi2pot__autogen_2mocs__compilation_8cpp.html
 * /usr/share/umbrello5/apidoc/html/xmlcodecomment_8cpp.html
 * /usr/share/umbrello5/apidoc/html/xmlcodecomment_8h.html
 * /usr/share/umbrello5/apidoc/html/xmlcodecomment_8h_source.html

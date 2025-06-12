@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kig 25.04.1-3"
-version = "25.04.1-3"
+title = "kig 25.04.2-1"
+version = "25.04.2-1"
 description = "Interactive Geometry."
-date = "2025-05-26T14:36:36"
+date = "2025-06-12T11:27:12"
 aliases = "/packages/152830"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3513136"
-usize = "10959790"
-sha1sum = "fb985867be7d6448f4769ae92a88d32c0c5f60af"
+size = "3513292"
+usize = "10959839"
+sha1sum = "c1658daf858b831de60f8c71497711510dee9bd8"
 depends = "['kparts5>=5.116.0', 'libboost>=1.88.0', 'python3>=3.13', 'qt5-svg>=5.15.17', 'qt5-xmlpatterns>=5.15.17']"
 +++
 ### Description: 
@@ -96,12 +96,12 @@ Interactive Geometry.
 * /usr/share/doc/HTML/uk/kig/text_label_attaching.png
 * /usr/share/doc/HTML/uk/kig/text_label_wizard.png
 * /usr/share/doc/HTML/uk/kig/text_label_wizard__select_property.png
-* /usr/share/doc/kig-25.04.1/AUTHORS
-* /usr/share/doc/kig-25.04.1/ChangeLog
-* /usr/share/doc/kig-25.04.1/FEATURES
-* /usr/share/doc/kig-25.04.1/README.Developers
-* /usr/share/doc/kig-25.04.1/README.in
-* /usr/share/doc/kig-25.04.1/TODO
+* /usr/share/doc/kig-25.04.2/AUTHORS
+* /usr/share/doc/kig-25.04.2/ChangeLog
+* /usr/share/doc/kig-25.04.2/FEATURES
+* /usr/share/doc/kig-25.04.2/README.Developers
+* /usr/share/doc/kig-25.04.2/README.in
+* /usr/share/doc/kig-25.04.2/TODO
 * /usr/share/icons/hicolor/128x128/apps/kig.png
 * /usr/share/icons/hicolor/128x128/mimetypes/application-x-kig.png
 * /usr/share/icons/hicolor/16x16/apps/kig.png
