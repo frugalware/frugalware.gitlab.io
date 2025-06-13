@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-lb 25.2.4.3-1"
-version = "25.2.4.3-1"
+title = "libreoffice-l10n-lb 25.2.4.3-2"
+version = "25.2.4.3-2"
 description = "Installs Luxembourgish support in LibreOffice"
-date = "2025-06-08T19:45:18"
+date = "2025-06-13T10:02:08"
 aliases = "/packages/152524"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "122992"
+size = "123004"
 usize = "950802"
-sha1sum = "44c8cd7a9e5d08f05c4d08973e815845037cbf1c"
+sha1sum = "01c492b980ae622315f66320e3b5cc3a28149672"
 depends = "['libreoffice>=25.2.4.3']"
 +++
 ### Description: 

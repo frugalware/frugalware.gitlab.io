@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-scripting-beanshell 25.2.4.3-1"
-version = "25.2.4.3-1"
+title = "libreoffice-scripting-beanshell 25.2.4.3-2"
+version = "25.2.4.3-2"
 description = "Installs scripting beanshell support in LibreOffice"
-date = "2025-06-08T19:45:18"
+date = "2025-06-13T10:02:08"
 aliases = "/packages/119429"
 categories = ['xapps-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "12984"
+size = "12988"
 usize = "0"
-sha1sum = "dcb12ea02210cb9e841a4d195c96fcfecdaf25fc"
+sha1sum = "1901c5d6a6e94ba4d2d02f5ba30f89925cf28851"
 depends = "['bsh', 'libreoffice>=25.2.4.3']"
 +++
 ### Description: 

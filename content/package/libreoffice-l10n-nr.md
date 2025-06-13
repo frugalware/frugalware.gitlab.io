@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-nr 25.2.4.3-1"
-version = "25.2.4.3-1"
+title = "libreoffice-l10n-nr 25.2.4.3-2"
+version = "25.2.4.3-2"
 description = "Installs Ndebele South support in LibreOffice"
-date = "2025-06-08T19:45:18"
+date = "2025-06-13T10:02:08"
 aliases = "/packages/104096"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "214140"
+size = "214352"
 usize = "1316581"
-sha1sum = "a4871a7be73bad71f7fd21cc482b3e36a52e4600"
+sha1sum = "159a6e14e277a551807ce1d4704f599a0a408a42"
 depends = "['libreoffice>=25.2.4.3']"
 +++
 ### Description: 

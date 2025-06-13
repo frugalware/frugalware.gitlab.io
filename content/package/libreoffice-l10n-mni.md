@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-mni 25.2.4.3-1"
-version = "25.2.4.3-1"
+title = "libreoffice-l10n-mni 25.2.4.3-2"
+version = "25.2.4.3-2"
 description = "Installs Manipuri support in LibreOffice"
-date = "2025-06-08T19:45:18"
+date = "2025-06-13T10:02:08"
 aliases = "/packages/104087"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "284580"
+size = "284408"
 usize = "1971707"
-sha1sum = "6aaefe260ccc26ab85ca387c613c22144f5c5050"
+sha1sum = "2c9ce9e2cd6416ee1bbbf6bf75b5c42fc8ec8b41"
 depends = "['libreoffice>=25.2.4.3']"
 +++
 ### Description: 

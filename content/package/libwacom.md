@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libwacom 2.15.0-1"
-version = "2.15.0-1"
+title = "libwacom 2.16.0-1"
+version = "2.16.0-1"
 description = "Tablet Information Client Library"
-date = "2025-03-24T10:50:00"
+date = "2025-06-13T10:23:52"
 aliases = "/packages/153043"
 categories = ['x11']
 upstreamurl = "https://github.com/linuxwacom/libwacom"
 arch = "x86_64"
-size = "143664"
-usize = "1563221"
-sha1sum = "571710ee46bb060c9b802449c43de444cf812ee4"
+size = "144404"
+usize = "1567177"
+sha1sum = "b8d0776e0deea970d259b8241b4e14225c265861"
 depends = "['glib2>=2.49.7-2', 'libevdev', 'libffi>=3.2.1-2', 'libgudev>=230-7', 'libudev>=231-6']"
 reverse_depends = "['libinput']"
 +++
@@ -29,9 +29,9 @@ Tablet Information Client Library
 * /usr/lib/pkgconfig/libwacom.pc
 * /usr/lib/udev/hwdb.d/65-libwacom.hwdb
 * /usr/lib/udev/rules.d/65-libwacom.rules
-* /usr/share/doc/libwacom-2.15.0/COPYING
-* /usr/share/doc/libwacom-2.15.0/NEWS
-* /usr/share/doc/libwacom-2.15.0/README.md
+* /usr/share/doc/libwacom-2.16.0/COPYING
+* /usr/share/doc/libwacom-2.16.0/NEWS
+* /usr/share/doc/libwacom-2.16.0/README.md
 * /usr/share/libwacom/chuwi-minibookx.tablet
 * /usr/share/libwacom/dell-canvas-27.tablet
 * /usr/share/libwacom/elan-0732.tablet
@@ -65,6 +65,7 @@ Tablet Information Client Library
 * /usr/share/libwacom/elan-425b.tablet
 * /usr/share/libwacom/elan-42ec.tablet
 * /usr/share/libwacom/elan-5515.tablet
+* /usr/share/libwacom/framework-laptop12.tablet
 * /usr/share/libwacom/gaomon-1060pro.tablet
 * /usr/share/libwacom/gaomon-1061pro.tablet
 * /usr/share/libwacom/gaomon-a1201.tablet
@@ -447,6 +448,7 @@ Tablet Information Client Library
 * /usr/share/libwacom/wacom-cintiq-13hd.tablet
 * /usr/share/libwacom/wacom-cintiq-13hdt.tablet
 * /usr/share/libwacom/wacom-cintiq-16-2.tablet
+* /usr/share/libwacom/wacom-cintiq-16-3.tablet
 * /usr/share/libwacom/wacom-cintiq-16.tablet
 * /usr/share/libwacom/wacom-cintiq-20wsx.tablet
 * /usr/share/libwacom/wacom-cintiq-21ux.tablet
@@ -454,6 +456,8 @@ Tablet Information Client Library
 * /usr/share/libwacom/wacom-cintiq-22.tablet
 * /usr/share/libwacom/wacom-cintiq-22hd.tablet
 * /usr/share/libwacom/wacom-cintiq-22hdt.tablet
+* /usr/share/libwacom/wacom-cintiq-24-p.tablet
+* /usr/share/libwacom/wacom-cintiq-24-pt.tablet
 * /usr/share/libwacom/wacom-cintiq-24hd-touch.tablet
 * /usr/share/libwacom/wacom-cintiq-24hd.tablet
 * /usr/share/libwacom/wacom-cintiq-27hd.tablet
@@ -476,12 +480,15 @@ Tablet Information Client Library
 * /usr/share/libwacom/wacom-dth-134.tablet
 * /usr/share/libwacom/wacom-dth-2242.tablet
 * /usr/share/libwacom/wacom-dth-2452.tablet
+* /usr/share/libwacom/wacom-dth-246e.tablet
 * /usr/share/libwacom/wacom-dti-520.tablet
 * /usr/share/libwacom/wacom-dtk-1651.tablet
 * /usr/share/libwacom/wacom-dtk-1660e-2.tablet
 * /usr/share/libwacom/wacom-dtk-1660e.tablet
+* /usr/share/libwacom/wacom-dtk-168e.tablet
 * /usr/share/libwacom/wacom-dtk-2241.tablet
 * /usr/share/libwacom/wacom-dtk-2451.tablet
+* /usr/share/libwacom/wacom-dtk-246e.tablet
 * /usr/share/libwacom/wacom-dtu-1031.tablet
 * /usr/share/libwacom/wacom-dtu-1031x.tablet
 * /usr/share/libwacom/wacom-dtu-1141.tablet

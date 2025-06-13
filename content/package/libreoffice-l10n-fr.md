@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-fr 25.2.4.3-1"
-version = "25.2.4.3-1"
+title = "libreoffice-l10n-fr 25.2.4.3-2"
+version = "25.2.4.3-2"
 description = "Installs French support in LibreOffice"
-date = "2025-06-08T19:45:18"
+date = "2025-06-13T10:02:08"
 aliases = "/packages/104059"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "5272472"
+size = "5271512"
 usize = "38399144"
-sha1sum = "2e8672af930d8ceab31a24c83522fed6cc83b5c8"
+sha1sum = "4eca1907cc09339ddf98281945fa9f00de38701b"
 depends = "['libreoffice>=25.2.4.3']"
 +++
 ### Description: 

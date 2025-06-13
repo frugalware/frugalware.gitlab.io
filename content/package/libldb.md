@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libldb 4.22.1-1"
-version = "4.22.1-1"
+title = "libldb 4.22.2-1"
+version = "4.22.2-1"
 description = "Schema-less, ldap like, API and database"
-date = "2025-04-19T10:21:34"
+date = "2025-06-13T10:33:34"
 aliases = "/packages/222544"
 categories = ['network']
 upstreamurl = "http://www.samba.org"
 arch = "x86_64"
-size = "444268"
-usize = "1809143"
-sha1sum = "291afaec3d12fb609172c4b36580222da832e7ae"
+size = "447332"
+usize = "1807654"
+sha1sum = "a620cf81cff5da8c8ed52fe144e6e8b51a004ba8"
 depends = "['libsmbclient', 'lmdb', 'talloc', 'tdb']"
 reverse_depends = "['libsmbclient']"
 +++

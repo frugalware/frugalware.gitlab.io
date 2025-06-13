@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-sk 25.2.4.3-1"
-version = "25.2.4.3-1"
+title = "libreoffice-l10n-sk 25.2.4.3-2"
+version = "25.2.4.3-2"
 description = "Installs Slovak support in LibreOffice"
-date = "2025-06-08T19:45:18"
+date = "2025-06-13T10:02:08"
 aliases = "/packages/104115"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4984336"
+size = "4983848"
 usize = "35619904"
-sha1sum = "a6d99eca53c9a47c01fe9b35bf712e795c62cbfa"
+sha1sum = "a8ccda1260096efed95212b272af90fbd40ed96d"
 depends = "['libreoffice>=25.2.4.3']"
 +++
 ### Description: 
