@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "thunderbird-el 128.11.0-1"
-version = "128.11.0-1"
+title = "thunderbird-el 128.11.1-1"
+version = "128.11.1-1"
 description = "Modern Greek (1453-) language support for Thunderbird"
-date = "2025-05-28T09:56:03"
+date = "2025-06-13T11:49:46"
 aliases = "/packages/135581"
 categories = ['locale-extra']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "834964"
-usize = "893852"
-sha1sum = "742ee999a2900049a6d90ad2acf5f2d69845db32"
-depends = "['thunderbird>=128.11.0']"
+size = "835000"
+usize = "893850"
+sha1sum = "876f24dbe4e58b90d34eca4f67bc95bb65c61996"
+depends = "['thunderbird>=128.11.1']"
 reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "thunderbird-eu 128.11.0-1"
-version = "128.11.0-1"
+title = "thunderbird-eu 128.11.1-1"
+version = "128.11.1-1"
 description = "Basque language support for Thunderbird"
-date = "2025-05-28T09:56:03"
+date = "2025-06-13T11:49:46"
 aliases = "/packages/10573"
 categories = ['locale-extra']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
 size = "677152"
 usize = "738601"
-sha1sum = "8bc16b8b5afdee6074736fc3abf2fa90fca7a123"
-depends = "['thunderbird>=128.11.0']"
+sha1sum = "fc2f4a03d02e5f2bb5f63b1affe5c92b3760b092"
+depends = "['thunderbird>=128.11.1']"
 reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 
