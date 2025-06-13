@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vscode 1.100.2-1"
-version = "1.100.2-1"
+title = "vscode 1.101.0-1"
+version = "1.101.0-1"
 description = "The Open Source build of Visual Studio Code (vscode) editor"
-date = "2025-05-16T11:32:24"
+date = "2025-06-13T13:17:52"
 aliases = "/packages/219983"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/microsoft/vscode"
 arch = "x86_64"
-size = "94368068"
-usize = "372531255"
-sha1sum = "5d1f40163a114dc3c58570e9032555f445e39aed"
+size = "97529612"
+usize = "384843016"
+sha1sum = "2e2f0d9579cfebebd2b3f0eb221369f0caf39732"
 depends = "['ffmpeg', 'libsecret', 'libxkbfile', 'ripgrep', 'sqlite3']"
 +++
 ### Description: 
@@ -22,7 +22,7 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/applications/code-oss.desktop
 * /usr/share/bash-completion/completions/code
 * /usr/share/bash-completion/completions/code-oss
-* /usr/share/doc/vscode-1.100.2/README.md
+* /usr/share/doc/vscode-1.101.0/README.md
 * /usr/share/metainfo/code-oss.appdata.xml
 * /usr/share/pixmaps/code-oss.png
 * /usr/share/vscode/bin/code-oss
@@ -232,8 +232,12 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/extensions/github-authentication/package.json
 * /usr/share/vscode/resources/app/extensions/github-authentication/package.nls.json
 * /usr/share/vscode/resources/app/extensions/github-authentication/README.md
+* /usr/share/vscode/resources/app/extensions/github/dist/430.js
+* /usr/share/vscode/resources/app/extensions/github/dist/555.js
+* /usr/share/vscode/resources/app/extensions/github/dist/698.js
 * /usr/share/vscode/resources/app/extensions/github/dist/extension.js
 * /usr/share/vscode/resources/app/extensions/github/dist/extension.js.LICENSE.txt
+* /usr/share/vscode/resources/app/extensions/github/extension.webpack.config.cjs
 * /usr/share/vscode/resources/app/extensions/github/images/icon.png
 * /usr/share/vscode/resources/app/extensions/github/markdown.css
 * /usr/share/vscode/resources/app/extensions/github/package.json
@@ -705,6 +709,7 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/extensions/prompt-basics/language-configuration.json
 * /usr/share/vscode/resources/app/extensions/prompt-basics/package.json
 * /usr/share/vscode/resources/app/extensions/prompt-basics/package.nls.json
+* /usr/share/vscode/resources/app/extensions/prompt-basics/snippets/chatmode.code-snippets
 * /usr/share/vscode/resources/app/extensions/prompt-basics/snippets/instructions.code-snippets
 * /usr/share/vscode/resources/app/extensions/prompt-basics/snippets/prompt.code-snippets
 * /usr/share/vscode/resources/app/extensions/prompt-basics/syntaxes/prompt.tmLanguage.json
@@ -1863,8 +1868,8 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/node_modules/undici/lib/dispatcher/dispatcher.js
 * /usr/share/vscode/resources/app/node_modules/undici/lib/dispatcher/env-http-proxy-agent.js
 * /usr/share/vscode/resources/app/node_modules/undici/lib/dispatcher/fixed-queue.js
+* /usr/share/vscode/resources/app/node_modules/undici/lib/dispatcher/h2c-client.js
 * /usr/share/vscode/resources/app/node_modules/undici/lib/dispatcher/pool-base.js
-* /usr/share/vscode/resources/app/node_modules/undici/lib/dispatcher/pool-stats.js
 * /usr/share/vscode/resources/app/node_modules/undici/lib/dispatcher/pool.js
 * /usr/share/vscode/resources/app/node_modules/undici/lib/dispatcher/proxy-agent.js
 * /usr/share/vscode/resources/app/node_modules/undici/lib/dispatcher/retry-agent.js
@@ -1887,6 +1892,7 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/node_modules/undici/lib/llhttp/llhttp_simd-wasm.js
 * /usr/share/vscode/resources/app/node_modules/undici/lib/llhttp/utils.js
 * /usr/share/vscode/resources/app/node_modules/undici/lib/mock/mock-agent.js
+* /usr/share/vscode/resources/app/node_modules/undici/lib/mock/mock-call-history.js
 * /usr/share/vscode/resources/app/node_modules/undici/lib/mock/mock-client.js
 * /usr/share/vscode/resources/app/node_modules/undici/lib/mock/mock-errors.js
 * /usr/share/vscode/resources/app/node_modules/undici/lib/mock/mock-interceptor.js
@@ -1896,6 +1902,7 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/node_modules/undici/lib/mock/pending-interceptors-formatter.js
 * /usr/share/vscode/resources/app/node_modules/undici/lib/util/cache.js
 * /usr/share/vscode/resources/app/node_modules/undici/lib/util/date.js
+* /usr/share/vscode/resources/app/node_modules/undici/lib/util/stats.js
 * /usr/share/vscode/resources/app/node_modules/undici/lib/util/timers.js
 * /usr/share/vscode/resources/app/node_modules/undici/lib/web/cache/cache.js
 * /usr/share/vscode/resources/app/node_modules/undici/lib/web/cache/cachestorage.js
@@ -2053,6 +2060,8 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/out/main.js
 * /usr/share/vscode/resources/app/out/media/code-icon.svg
 * /usr/share/vscode/resources/app/out/media/codicon.ttf
+* /usr/share/vscode/resources/app/out/media/github.svg
+* /usr/share/vscode/resources/app/out/media/google.svg
 * /usr/share/vscode/resources/app/out/media/letterpress-dark.svg
 * /usr/share/vscode/resources/app/out/media/letterpress-hcDark.svg
 * /usr/share/vscode/resources/app/out/media/letterpress-hcLight.svg
@@ -2068,10 +2077,6 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/out/vs/base/node/terminateProcess.sh
 * /usr/share/vscode/resources/app/out/vs/base/parts/sandbox/electron-sandbox/preload-aux.js
 * /usr/share/vscode/resources/app/out/vs/base/parts/sandbox/electron-sandbox/preload.js
-* /usr/share/vscode/resources/app/out/vs/code/electron-sandbox/processExplorer/processExplorer.html
-* /usr/share/vscode/resources/app/out/vs/code/electron-sandbox/processExplorer/processExplorer.js
-* /usr/share/vscode/resources/app/out/vs/code/electron-sandbox/processExplorer/processExplorerMain.css
-* /usr/share/vscode/resources/app/out/vs/code/electron-sandbox/processExplorer/processExplorerMain.js
 * /usr/share/vscode/resources/app/out/vs/code/electron-sandbox/workbench/workbench.html
 * /usr/share/vscode/resources/app/out/vs/code/electron-sandbox/workbench/workbench.js
 * /usr/share/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
@@ -2084,7 +2089,10 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/out/vs/editor/common/services/editorWebWorkerMain.js
 * /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/break.mp3
 * /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/chatEditModifiedFile.mp3
+* /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/chatUserActionRequired.mp3
 * /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/clear.mp3
+* /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/codeActionApplied.mp3
+* /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/codeActionTriggered.mp3
 * /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/diffLineDeleted.mp3
 * /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/diffLineInserted.mp3
 * /usr/share/vscode/resources/app/out/vs/platform/accessibilitySignal/browser/media/diffLineModified.mp3
@@ -2140,11 +2148,11 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration.fish
 * /usr/share/vscode/resources/app/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration.ps1
 * /usr/share/vscode/resources/app/out/vs/workbench/contrib/webview/browser/pre/fake.html
-* /usr/share/vscode/resources/app/out/vs/workbench/contrib/webview/browser/pre/index-no-csp.html
 * /usr/share/vscode/resources/app/out/vs/workbench/contrib/webview/browser/pre/index.html
 * /usr/share/vscode/resources/app/out/vs/workbench/contrib/webview/browser/pre/service-worker.js
 * /usr/share/vscode/resources/app/out/vs/workbench/contrib/welcomeGettingStarted/common/media/ai-powered-suggestions.svg
 * /usr/share/vscode/resources/app/out/vs/workbench/contrib/welcomeGettingStarted/common/media/commandPalette.svg
+* /usr/share/vscode/resources/app/out/vs/workbench/contrib/welcomeGettingStarted/common/media/customize-ai.svg
 * /usr/share/vscode/resources/app/out/vs/workbench/contrib/welcomeGettingStarted/common/media/dark-hc.png
 * /usr/share/vscode/resources/app/out/vs/workbench/contrib/welcomeGettingStarted/common/media/dark.png
 * /usr/share/vscode/resources/app/out/vs/workbench/contrib/welcomeGettingStarted/common/media/debug.svg
@@ -2169,7 +2177,6 @@ The Open Source build of Visual Studio Code (vscode) editor
 * /usr/share/vscode/resources/app/out/vs/workbench/contrib/welcomeGettingStarted/common/media/shortcuts.svg
 * /usr/share/vscode/resources/app/out/vs/workbench/contrib/welcomeGettingStarted/common/media/terminal.svg
 * /usr/share/vscode/resources/app/out/vs/workbench/contrib/welcomeGettingStarted/common/media/workspaceTrust.svg
-* /usr/share/vscode/resources/app/out/vs/workbench/services/extensionManagement/common/media/defaultIcon.png
 * /usr/share/vscode/resources/app/out/vs/workbench/services/extensions/worker/webWorkerExtensionHostIframe.html
 * /usr/share/vscode/resources/app/out/vs/workbench/services/languageDetection/browser/languageDetectionWebWorkerMain.js
 * /usr/share/vscode/resources/app/out/vs/workbench/services/search/worker/localFileSearchMain.js
