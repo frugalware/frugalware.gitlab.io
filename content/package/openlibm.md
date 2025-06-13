@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openlibm 0.8.6-1"
-version = "0.8.6-1"
+title = "openlibm 0.8.7-1"
+version = "0.8.7-1"
 description = "Standalone implementation of C mathematical functions"
-date = "2025-03-10T15:34:49"
+date = "2025-06-13T12:40:59"
 aliases = "/packages/222681"
 categories = ['lib-extra']
 upstreamurl = "https://openlibm.org/"
 arch = "x86_64"
-size = "102536"
-usize = "322119"
-sha1sum = "64d764d5e80b5b3841a8bea0826fee50ae8892ce"
+size = "102912"
+usize = "322107"
+sha1sum = "5cfa1d581cbd903af7d70d0f1777e2c501c84fdf"
 depends = "['glibc']"
 reverse_depends = "['julia']"
 +++
@@ -52,4 +52,4 @@ Standalone implementation of C mathematical functions
 * /usr/lib/libopenlibm.so.4
 * /usr/lib/libopenlibm.so.4.0
 * /usr/lib/pkgconfig/openlibm.pc
-* /usr/share/doc/openlibm-0.8.6/README.md
+* /usr/share/doc/openlibm-0.8.7/README.md

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "nng 1.10.1-2"
-version = "1.10.1-2"
+title = "nng 1.11-1"
+version = "1.11-1"
 description = "A lightweight, broker-less library"
-date = "2025-03-13T09:47:51"
+date = "2025-06-13T12:41:58"
 aliases = "/packages/222656"
 categories = ['lib-extra']
 upstreamurl = "https://nng.nanomsg.org"
 arch = "x86_64"
-size = "219592"
-usize = "761802"
-sha1sum = "a31619e32accddc6025ba99c353297d0b2e68e6c"
+size = "221916"
+usize = "765098"
+sha1sum = "d45285cb6cbb8db00cafb30b5f21e822bf6cb075"
 depends = "['mbedtls>=3.6.2']"
 reverse_depends = "['kicad']"
 +++
@@ -60,5 +60,5 @@ A lightweight, broker-less library
 * /usr/lib/cmake/nng/nng-targets.cmake
 * /usr/lib/libnng.so
 * /usr/lib/libnng.so.1
-* /usr/lib/libnng.so.1.10.0
-* /usr/share/doc/nng-1.10.1/README.adoc
+* /usr/lib/libnng.so.1.11.0
+* /usr/share/doc/nng-1.11/README.adoc

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "audiotube 25.04.2-1"
-version = "25.04.2-1"
+title = "audiotube 25.04.2-2"
+version = "25.04.2-2"
 description = "Client for YouTube Music"
-date = "2025-06-12T10:17:51"
+date = "2025-06-13T12:15:19"
 aliases = "/packages/220964"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "473276"
-usize = "1600072"
-sha1sum = "bca53c504a6e1a287a56c10f3d5e150cc2592a7e"
+size = "551736"
+usize = "1944104"
+sha1sum = "14a7215017da46b6e3033bfede22dfe37d847e0f"
 depends = "['futuresql', 'kcoreaddons>=', 'kcrash>=', 'ki18n>=', 'kirigami-addons', 'kwindowsystem>=', 'pybind11', 'python3-ytmusicapi', 'qcoro', 'qt6-multimedia>=', 'qt6-multimedia-gstreamer>=', 'yt-dlp']"
 +++
 ### Description: 
