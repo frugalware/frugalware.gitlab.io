@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kcalendarcore 6.14.0-2"
-version = "6.14.0-2"
+title = "kcalendarcore 6.15.0-1"
+version = "6.15.0-1"
 description = "The KDE calendar access library"
-date = "2025-06-04T13:16:37"
+date = "2025-06-14T12:42:20"
 aliases = "/packages/219991"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "357844"
-usize = "1355355"
-sha1sum = "2cf70c43ea8b5c65e82bc9dfe3958e6e5260a297"
+size = "359888"
+usize = "1375073"
+sha1sum = "84a5616d20628e7ef14fcfdcd552d3f21a642309"
 depends = "['libical>=3.0.3']"
 reverse_depends = "['akonadi-contacts', 'calindori', 'kcalutils', 'kitinerary', 'kongress', 'libkgapi', 'mimetreeparser']"
 +++
@@ -95,12 +95,12 @@ The KDE calendar access library
 * /usr/lib/cmake/KF6CalendarCore/KF6CalendarCoreTargets.cmake
 * /usr/lib/libKF6CalendarCore.so
 * /usr/lib/libKF6CalendarCore.so.6
-* /usr/lib/libKF6CalendarCore.so.6.14.0
+* /usr/lib/libKF6CalendarCore.so.6.15.0
 * /usr/lib/pkgconfig/KF6CalendarCore.pc
 * /usr/lib/qt6/qml/org/kde/calendarcore/kcalendarcoreqml.qmltypes
 * /usr/lib/qt6/qml/org/kde/calendarcore/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/calendarcore/libkcalendarcoreqml.so
 * /usr/lib/qt6/qml/org/kde/calendarcore/qmldir
-* /usr/share/doc/kcalendarcore-6.14.0/README.md
+* /usr/share/doc/kcalendarcore-6.15.0/README.md
 * /usr/share/qlogging-categories6/kcalendarcore.categories
 * /usr/share/qlogging-categories6/kcalendarcore.renamecategories
