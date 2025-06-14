@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kded 6.14.0-2"
-version = "6.14.0-2"
+title = "kded 6.15.0-1"
+version = "6.15.0-1"
 description = "Central daemon of KDE workspaces."
-date = "2025-06-04T12:59:30"
+date = "2025-06-14T12:10:09"
 aliases = "/packages/218296"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "56676"
-usize = "124259"
-sha1sum = "d7b91d26f3d443abd691fba79306cff7511b895d"
-depends = "['kservice>=6.14.0']"
+size = "58916"
+usize = "126379"
+sha1sum = "284e251e56fd5ccdaac28c63b541f5f918d30afc"
+depends = "['kservice>=6.15.0']"
 reverse_depends = "['kio']"
 +++
 ### Description: 
@@ -25,8 +25,9 @@ Central daemon of KDE workspaces.
 * /usr/share/applications/org.kde.kded6.desktop
 * /usr/share/dbus-1/interfaces/org.kde.kded6.xml
 * /usr/share/dbus-1/services/org.kde.kded6.service
-* /usr/share/doc/kded-6.14.0/README.md
+* /usr/share/doc/kded-6.15.0/README.md
 * /usr/share/man/ca/man8/kded6.8.gz
+* /usr/share/man/ca@valencia/man8/kded6.8.gz
 * /usr/share/man/es/man8/kded6.8.gz
 * /usr/share/man/fr/man8/kded6.8.gz
 * /usr/share/man/it/man8/kded6.8.gz
