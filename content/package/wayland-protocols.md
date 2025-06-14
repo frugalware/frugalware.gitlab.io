@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "wayland-protocols 1.44-1"
-version = "1.44-1"
+title = "wayland-protocols 1.45-1"
+version = "1.45-1"
 description = "Wayland protocols that adds functionality not available in the core protocol."
-date = "2025-04-28T07:34:13"
+date = "2025-06-14T14:21:59"
 aliases = "/packages/218049"
 categories = ['x11']
 upstreamurl = "http://wayland.freedesktop.org/"
 arch = "x86_64"
-size = "124768"
-usize = "976181"
-sha1sum = "0ea0a71dcdadc342995e6e2ab6b983b175f92c56"
+size = "126536"
+usize = "989543"
+sha1sum = "1a5332819aca42c9782f3bf626135c44a051f724"
 depends = "['wayland>=1.15.0']"
 reverse_depends = "['efl', 'gtk+4']"
 +++
@@ -25,6 +25,7 @@ Wayland protocols that adds functionality not available in the core protocol.
 * /usr/include/wayland-protocols/content-type-v1-enum.h
 * /usr/include/wayland-protocols/cursor-shape-v1-enum.h
 * /usr/include/wayland-protocols/drm-lease-v1-enum.h
+* /usr/include/wayland-protocols/ext-background-effect-v1-enum.h
 * /usr/include/wayland-protocols/ext-data-control-v1-enum.h
 * /usr/include/wayland-protocols/ext-foreign-toplevel-list-v1-enum.h
 * /usr/include/wayland-protocols/ext-idle-notify-v1-enum.h
@@ -46,6 +47,7 @@ Wayland protocols that adds functionality not available in the core protocol.
 * /usr/include/wayland-protocols/linux-explicit-synchronization-unstable-v1-enum.h
 * /usr/include/wayland-protocols/pointer-constraints-unstable-v1-enum.h
 * /usr/include/wayland-protocols/pointer-gestures-unstable-v1-enum.h
+* /usr/include/wayland-protocols/pointer-warp-v1-enum.h
 * /usr/include/wayland-protocols/presentation-time-enum.h
 * /usr/include/wayland-protocols/primary-selection-unstable-v1-enum.h
 * /usr/include/wayland-protocols/relative-pointer-unstable-v1-enum.h
@@ -73,9 +75,10 @@ Wayland protocols that adds functionality not available in the core protocol.
 * /usr/include/wayland-protocols/xdg-toplevel-tag-v1-enum.h
 * /usr/include/wayland-protocols/xwayland-keyboard-grab-unstable-v1-enum.h
 * /usr/include/wayland-protocols/xwayland-shell-v1-enum.h
+* /usr/include/wayland-protocols/xx-session-management-v1-enum.h
 * /usr/lib/pkgconfig/wayland-protocols.pc
-* /usr/share/doc/wayland-protocols-1.44/COPYING
-* /usr/share/doc/wayland-protocols-1.44/README.md
+* /usr/share/doc/wayland-protocols-1.45/COPYING
+* /usr/share/doc/wayland-protocols-1.45/README.md
 * /usr/share/wayland-protocols/stable/linux-dmabuf/linux-dmabuf-v1.xml
 * /usr/share/wayland-protocols/stable/presentation-time/presentation-time.xml
 * /usr/share/wayland-protocols/stable/tablet/tablet-v2.xml
@@ -88,6 +91,7 @@ Wayland protocols that adds functionality not available in the core protocol.
 * /usr/share/wayland-protocols/staging/content-type/content-type-v1.xml
 * /usr/share/wayland-protocols/staging/cursor-shape/cursor-shape-v1.xml
 * /usr/share/wayland-protocols/staging/drm-lease/drm-lease-v1.xml
+* /usr/share/wayland-protocols/staging/ext-background-effect/ext-background-effect-v1.xml
 * /usr/share/wayland-protocols/staging/ext-data-control/ext-data-control-v1.xml
 * /usr/share/wayland-protocols/staging/ext-foreign-toplevel-list/ext-foreign-toplevel-list-v1.xml
 * /usr/share/wayland-protocols/staging/ext-idle-notify/ext-idle-notify-v1.xml
@@ -99,6 +103,7 @@ Wayland protocols that adds functionality not available in the core protocol.
 * /usr/share/wayland-protocols/staging/fifo/fifo-v1.xml
 * /usr/share/wayland-protocols/staging/fractional-scale/fractional-scale-v1.xml
 * /usr/share/wayland-protocols/staging/linux-drm-syncobj/linux-drm-syncobj-v1.xml
+* /usr/share/wayland-protocols/staging/pointer-warp/pointer-warp-v1.xml
 * /usr/share/wayland-protocols/staging/security-context/security-context-v1.xml
 * /usr/share/wayland-protocols/staging/single-pixel-buffer/single-pixel-buffer-v1.xml
 * /usr/share/wayland-protocols/staging/tearing-control/tearing-control-v1.xml
