@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "sof-firmware 2025.01.1-1"
-version = "2025.01.1-1"
+title = "sof-firmware 2025.05-1"
+version = "2025.05-1"
 description = "Sound Open Firmware"
-date = "2025-04-01T06:45:25"
+date = "2025-06-14T10:13:01"
 aliases = "/packages/220320"
 categories = ['base']
 upstreamurl = "https://www.sofproject.org/"
 arch = "x86_64"
-size = "1636884"
-usize = "35755978"
-sha1sum = "3922c582f3dd331c2f9399991e2af7ac9f450965"
+size = "1674420"
+usize = "39400467"
+sha1sum = "3222a670bcc7a23b8a05342622ba86f6d06fcf75"
 depends = "['glibc>=2.35']"
 +++
 ### Description: 
@@ -37,17 +37,23 @@ Sound Open Firmware
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-arl-cs42l43-l0.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-arl-cs42l43-l2-cs35l56-l3.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-arl-cs42l43-l2.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-arl-dmic-2ch-id5.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-arl-dmic-4ch-id5.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-arl-rt722-l0_rt1320-l2.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-hda-generic-1ch.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-hda-generic-2ch.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-hda-generic-4ch.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-hda-generic-ace1-1ch.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-hda-generic-ace1-2ch.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-hda-generic-ace1-4ch.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-hda-generic-ace1-idisp-2ch.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-hda-generic-ace1-idisp-4ch.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-hda-generic-ace3-1ch.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-hda-generic-ace3-2ch.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-hda-generic-ace3-4ch.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-hda-generic-ace3-idisp-2ch.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-hda-generic-ace3-idisp-4ch.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-hda-generic-cavs25-1ch.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-hda-generic-cavs25-2ch.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-hda-generic-cavs25-4ch.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-hda-generic-cavs25-idisp-2ch.tplg
@@ -56,6 +62,8 @@ Sound Open Firmware
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-hda-generic-idisp-4ch.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-hda-generic-idisp.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-hda-generic.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-hdmi-pcm5-id5.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-hdmi-pcm5-id7.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-lnl-cs42l43-l0-2ch.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-lnl-cs42l43-l0-4ch.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-lnl-cs42l43-l0-cs35l56-l23-2ch.tplg
@@ -65,6 +73,8 @@ Sound Open Firmware
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-lnl-cs42l43-l0-cs35l56-l3.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-lnl-cs42l43-l0.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-lnl-cs42l43-l2-cs35l56x6-l13.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-lnl-dmic-2ch-id5.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-lnl-dmic-4ch-id5.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-lnl-rt1318-l12-rt714-l0.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-lnl-rt711-4ch.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-lnl-rt711-l0-rt1316-l23-rt714-l1.tplg
@@ -78,6 +88,8 @@ Sound Open Firmware
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-mtl-cs42l43-l0-cs35l56-l23.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-mtl-cs42l43-l0.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-mtl-cs42l43-l3-cs35l56-l01-spkagg.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-mtl-dmic-2ch-id5.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-mtl-dmic-4ch-id5.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-mtl-es83x6-ssp1-hdmi-ssp02.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-mtl-es83x6-ssp1.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-mtl-hdmi-ssp02.tplg
@@ -87,11 +99,13 @@ Sound Open Firmware
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-mtl-max98357a-rt5682-ssp2-ssp0-google-aec.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-mtl-max98357a-rt5682-ssp2-ssp0.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-mtl-max98357a-rt5682.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-mtl-max98360a-rt5682.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-mtl-rt1019-rt5682.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-mtl-rt1318-l12-rt714-l0.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-mtl-rt5650-dts-google-aec.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-mtl-rt5650-dts.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-mtl-rt5650.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-mtl-rt711-2ch.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-mtl-rt711-4ch.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-mtl-rt711-l0-rt1316-l23-rt714-l1.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-mtl-rt711-l0-rt1316-l3-2ch.tplg
@@ -108,8 +122,15 @@ Sound Open Firmware
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-mtl-rt713-l0-rt1318-l12-rt1713-l3.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-mtl-rt722-l0.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-mtl-sdw-cs42l42-l0-max98363-l2.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-ptl-cs42l43-l2-cs35l56x6-l13.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-ptl-dmic-2ch-id5.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-ptl-dmic-4ch-id5.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-ptl-rt712-l2-rt1320-l1.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-ptl-rt712-l3-rt1320-l2.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-ptl-rt712-l3-rt1320-l3-4ch.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-ptl-rt712-l3-rt1320-l3.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-ptl-rt713-l2-rt1320-l13.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-ptl-rt713-l3-rt1320-l12.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-ptl-rt721-4ch.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-ptl-rt721.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-ptl-rt722-192k.tplg
@@ -117,6 +138,10 @@ Sound Open Firmware
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-ptl-rt722-96k.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-ptl-rt722.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-rpl-cs42l43-l0.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-sdca-1amp-id2.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-sdca-2amp-id2.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-sdca-jack-id0.tplg
+* /usr/lib/firmware/intel/sof-ipc4-tplg/sof-sdca-mic-id4.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-tgl-cs35l56-l01-fb8.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-tgl-cs42l43-l3-cs35l56-l01.tplg
 * /usr/lib/firmware/intel/sof-ipc4-tplg/sof-tgl-rt711-rt1308-4ch.tplg
@@ -146,6 +171,12 @@ Sound Open Firmware
 * /usr/lib/firmware/intel/sof-ipc4/mtl/community/sof-mtl.ri
 * /usr/lib/firmware/intel/sof-ipc4/mtl/intel-signed/sof-mtl.ri
 * /usr/lib/firmware/intel/sof-ipc4/mtl/sof-mtl.ri
+* /usr/lib/firmware/intel/sof-ipc4/ptl/community/sof-ptl-openmodules.ri
+* /usr/lib/firmware/intel/sof-ipc4/ptl/community/sof-ptl.ri
+* /usr/lib/firmware/intel/sof-ipc4/ptl/intel-signed/sof-ptl-openmodules.ri
+* /usr/lib/firmware/intel/sof-ipc4/ptl/intel-signed/sof-ptl.ri
+* /usr/lib/firmware/intel/sof-ipc4/ptl/sof-ptl-openmodules.ri
+* /usr/lib/firmware/intel/sof-ipc4/ptl/sof-ptl.ri
 * /usr/lib/firmware/intel/sof-ipc4/rpl-s/community/sof-rpl-s.ri
 * /usr/lib/firmware/intel/sof-ipc4/rpl-s/intel-signed/sof-rpl-s.ri
 * /usr/lib/firmware/intel/sof-ipc4/rpl-s/sof-rpl-s.ri
@@ -518,8 +549,5 @@ Sound Open Firmware
 * /usr/lib/firmware/intel/sof/sof-tgl-h.ri
 * /usr/lib/firmware/intel/sof/sof-tgl.ldc
 * /usr/lib/firmware/intel/sof/sof-tgl.ri
-* /usr/share/doc/sof-firmware-2025.01.1/AUTHORS
-* /usr/share/doc/sof-firmware-2025.01.1/LICENSE
-* /usr/share/doc/sof-firmware-2025.01.1/README.Intel
-* /usr/share/doc/sof-firmware-2025.01.1/README.md
-* /usr/share/doc/sof-firmware-2025.01.1/README.txt
+* /usr/share/doc/sof-firmware-2025.05/README.Intel
+* /usr/share/doc/sof-firmware-2025.05/README.md
