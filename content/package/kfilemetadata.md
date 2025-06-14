@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kfilemetadata 6.14.0-2"
-version = "6.14.0-2"
+title = "kfilemetadata 6.15.0-1"
+version = "6.15.0-1"
 description = "A library for extracting file metadata."
-date = "2025-06-04T12:52:37"
+date = "2025-06-14T11:11:38"
 aliases = "/packages/221312"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "238736"
-usize = "1306635"
-sha1sum = "d38743da83c8dc70a68f759bf367ecfe324002d3"
-depends = "['catdoc>=0.95-3', 'ebook-tools>=0.2.2-6', 'exiv2>=0.28.1', 'ffmpeg>=7.0', 'karchive>=6.14.0', 'kcoreaddons>=6.14.0', 'kdegraphics-mobipocket', 'ki18n>=6.14.0', 'libappimage', 'poppler-qt6>=24.11.0', 'qt6-multimedia>=5.10.0', 'taglib>=2.0']"
+size = "239212"
+usize = "1310204"
+sha1sum = "32989c253b324ebd2725e426ef9df7360c840e00"
+depends = "['catdoc>=0.95-3', 'ebook-tools>=0.2.2-6', 'exiv2>=0.28.1', 'ffmpeg>=7.0', 'karchive>=6.15.0', 'kcoreaddons>=6.15.0', 'kdegraphics-mobipocket', 'ki18n>=6.15.0', 'libappimage', 'poppler-qt6>=24.11.0', 'qt6-multimedia>=5.10.0', 'taglib>=2.0']"
 reverse_depends = "['ark', 'baloo', 'digikam', 'dolphin', 'itinerary', 'k3b', 'kdenlive', 'kfind', 'koko', 'plasma-browser-integration']"
 +++
 ### Description: 
@@ -59,7 +59,7 @@ A library for extracting file metadata.
 * /usr/lib/cmake/KF6FileMetaData/KF6FileMetaDataTargets.cmake
 * /usr/lib/libKF6FileMetaData.so
 * /usr/lib/libKF6FileMetaData.so.3
-* /usr/lib/libKF6FileMetaData.so.6.14.0
+* /usr/lib/libKF6FileMetaData.so.6.15.0
 * /usr/lib/qt6/plugins/kf6/kfilemetadata/kfilemetadata_appimageextractor.so
 * /usr/lib/qt6/plugins/kf6/kfilemetadata/kfilemetadata_epubextractor.so
 * /usr/lib/qt6/plugins/kf6/kfilemetadata/kfilemetadata_exiv2extractor.so
@@ -78,7 +78,7 @@ A library for extracting file metadata.
 * /usr/lib/qt6/plugins/kf6/kfilemetadata/kfilemetadata_taglibextractor.so
 * /usr/lib/qt6/plugins/kf6/kfilemetadata/kfilemetadata_xmlextractor.so
 * /usr/lib/qt6/plugins/kf6/kfilemetadata/writers/kfilemetadata_taglibwriter.so
-* /usr/share/doc/kfilemetadata-6.14.0/README.md
+* /usr/share/doc/kfilemetadata-6.15.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/kfilemetadata6.mo
 * /usr/share/locale/ast/LC_MESSAGES/kfilemetadata6.mo
 * /usr/share/locale/az/LC_MESSAGES/kfilemetadata6.mo

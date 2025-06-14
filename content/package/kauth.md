@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kauth 6.14.0-2"
-version = "6.14.0-2"
+title = "kauth 6.15.0-1"
+version = "6.15.0-1"
 description = "Framework which lets applications perform actions as a privileged user."
-date = "2025-06-04T12:41:33"
+date = "2025-06-14T10:54:22"
 aliases = "/packages/218275"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "107988"
-usize = "427420"
-sha1sum = "43410397009acb6ab764e73e5bec2eac77b7a8ae"
-depends = "['kcoreaddons>=6.14.0', 'kwindowsystem>=6.14.0', 'polkit-qt6-1>=0.112.0-11']"
+size = "103508"
+usize = "412634"
+sha1sum = "a98d6d3ae8cf0813772ce4868dc2df167c15cc37"
+depends = "['kcoreaddons>=6.15.0', 'kwindowsystem>=6.15.0', 'polkit-qt6-1>=0.112.0-11']"
 reverse_depends = "['kde-inotify-survey', 'kio', 'kpmcore', 'kwin', 'plasma-desktop']"
 +++
 ### Description: 
@@ -38,11 +38,11 @@ Framework which lets applications perform actions as a privileged user.
 * /usr/lib/kauth/kf6/kauth/kauth-policy-gen
 * /usr/lib/libKF6AuthCore.so
 * /usr/lib/libKF6AuthCore.so.6
-* /usr/lib/libKF6AuthCore.so.6.14.0
+* /usr/lib/libKF6AuthCore.so.6.15.0
 * /usr/lib/qt6/plugins/kf6/kauth/backend/kauth_backend_plugin.so
 * /usr/lib/qt6/plugins/kf6/kauth/helper/kauth_helper_plugin.so
 * /usr/share/dbus-1/system.d/org.kde.kf6auth.conf
-* /usr/share/doc/kauth-6.14.0/README.md
+* /usr/share/doc/kauth-6.15.0/README.md
 * /usr/share/kf6/kauth/dbus_policy.stub
 * /usr/share/kf6/kauth/dbus_service.stub
 * /usr/share/locale/af/LC_MESSAGES/kauth6_qt.qm

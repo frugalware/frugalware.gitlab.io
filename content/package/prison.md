@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "prison 6.14.0-2"
-version = "6.14.0-2"
+title = "prison 6.15.0-1"
+version = "6.15.0-1"
 description = "Qt library to access Open Collaboration Services"
-date = "2025-06-04T12:20:40"
+date = "2025-06-14T10:24:44"
 aliases = "/packages/218991"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "75740"
-usize = "270102"
-sha1sum = "bd9569b21f43e1f9d1c151eaf34e6978dba0f67a"
+size = "76116"
+usize = "273472"
+sha1sum = "9b9d6efba56eb698f7dc102738e49b354b141c38"
 depends = "['libdmtx>=0.7.4', 'qrencode>=4.0.0', 'qt6-base>=6.9.1', 'qt6-multimedia>=6.9.1', 'zxing-cpp']"
 reverse_depends = "['akonadi-contacts', 'itinerary', 'keysmith', 'neochat', 'plasma-workspace', 'qrca', 'spectacle']"
 +++
@@ -41,10 +41,10 @@ Qt library to access Open Collaboration Services
 * /usr/lib/cmake/KF6Prison/KF6PrisonTargets.cmake
 * /usr/lib/libKF6Prison.so
 * /usr/lib/libKF6Prison.so.6
-* /usr/lib/libKF6Prison.so.6.14.0
+* /usr/lib/libKF6Prison.so.6.15.0
 * /usr/lib/libKF6PrisonScanner.so
 * /usr/lib/libKF6PrisonScanner.so.6
-* /usr/lib/libKF6PrisonScanner.so.6.14.0
+* /usr/lib/libKF6PrisonScanner.so.6.15.0
 * /usr/lib/qt6/qml/org/kde/prison/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/prison/libprisonquickplugin.so
 * /usr/lib/qt6/qml/org/kde/prison/prisonquickplugin.qmltypes
@@ -53,6 +53,6 @@ Qt library to access Open Collaboration Services
 * /usr/lib/qt6/qml/org/kde/prison/scanner/libprisonscannerquickplugin.so
 * /usr/lib/qt6/qml/org/kde/prison/scanner/prisonscannerquickplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/prison/scanner/qmldir
-* /usr/share/doc/prison-6.14.0/README.md
+* /usr/share/doc/prison-6.15.0/README.md
 * /usr/share/qlogging-categories6/prison.categories
 * /usr/share/qlogging-categories6/prison.renamecategories

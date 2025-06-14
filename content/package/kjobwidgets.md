@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kjobwidgets 6.14.0-3"
-version = "6.14.0-3"
+title = "kjobwidgets 6.15.0-1"
+version = "6.15.0-1"
 description = "Widgets for showing progress of asynchronous jobs."
-date = "2025-06-06T14:32:46"
+date = "2025-06-14T11:06:28"
 aliases = "/packages/218327"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "153008"
-usize = "701210"
-sha1sum = "6d52500213d18f9febffc5d0f0c85dd893ebd59a"
-depends = "['knotifications>=6.14.0']"
+size = "152716"
+usize = "699279"
+sha1sum = "fe77bd89c3ead10e5ec9b2482535130bc5cc4ee2"
+depends = "['knotifications>=6.15.0']"
 reverse_depends = "['kio', 'smb4k']"
 +++
 ### Description: 
@@ -40,12 +40,12 @@ Widgets for showing progress of asynchronous jobs.
 * /usr/lib/cmake/KF6JobWidgets/KF6JobWidgetsTargets.cmake
 * /usr/lib/libKF6JobWidgets.so
 * /usr/lib/libKF6JobWidgets.so.6
-* /usr/lib/libKF6JobWidgets.so.6.14.0
+* /usr/lib/libKF6JobWidgets.so.6.15.0
 * /usr/lib/python3.13/site-packages/KJobWidgets.cpython-313-x86_64-linux-gnu.so
 * /usr/share/dbus-1/interfaces/kf6_org.kde.JobView.xml
 * /usr/share/dbus-1/interfaces/kf6_org.kde.JobViewServer.xml
 * /usr/share/dbus-1/interfaces/kf6_org.kde.JobViewV2.xml
-* /usr/share/doc/kjobwidgets-6.14.0/README.md
+* /usr/share/doc/kjobwidgets-6.15.0/README.md
 * /usr/share/locale/af/LC_MESSAGES/kjobwidgets6_qt.qm
 * /usr/share/locale/ar/LC_MESSAGES/kjobwidgets6_qt.qm
 * /usr/share/locale/as/LC_MESSAGES/kjobwidgets6_qt.qm

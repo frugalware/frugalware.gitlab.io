@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kconfig 6.14.0-2"
-version = "6.14.0-2"
+title = "kconfig 6.15.0-1"
+version = "6.15.0-1"
 description = "Provides an advanced configuration system."
-date = "2025-06-04T12:40:46"
+date = "2025-06-14T10:53:14"
 aliases = "/packages/218283"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "468208"
-usize = "2267685"
-sha1sum = "eff6c965537c3296eb836f7bebb36fcc7f457f9f"
+size = "469552"
+usize = "2269990"
+sha1sum = "7a7c297ad08bbc6d626382e4024448602b759973"
 depends = "['qt6-base>=6.9.1']"
 reverse_depends = "['akonadi-mime', 'alligator', 'audex', 'breeze', 'calamares-frugalware', 'discover', 'dolphin', 'francis', 'kalk', 'kalm', 'kcachegrind', 'kclock', 'kcolorscheme', 'kcompletion', 'kcontacts', 'kdeplasma-addons', 'kglobalacceld', 'kirigami-addons', 'kongress', 'kpackage', 'krecorder', 'krunner', 'kservice', 'ktrip', 'kwin', 'libkscreen', 'plasma-browser-integration', 'plasma5support', 'plasmatube', 'purpose', 'qmlkonsole', 'qqc2-breeze-style', 'qrca', 'skladnik', 'sweeper', 'telly-skout']"
 +++
@@ -76,19 +76,19 @@ Provides an advanced configuration system.
 * /usr/lib/kconfig/kf6/kconf_update
 * /usr/lib/libKF6ConfigCore.so
 * /usr/lib/libKF6ConfigCore.so.6
-* /usr/lib/libKF6ConfigCore.so.6.14.0
+* /usr/lib/libKF6ConfigCore.so.6.15.0
 * /usr/lib/libKF6ConfigGui.so
 * /usr/lib/libKF6ConfigGui.so.6
-* /usr/lib/libKF6ConfigGui.so.6.14.0
+* /usr/lib/libKF6ConfigGui.so.6.15.0
 * /usr/lib/libKF6ConfigQml.so
 * /usr/lib/libKF6ConfigQml.so.6
-* /usr/lib/libKF6ConfigQml.so.6.14.0
+* /usr/lib/libKF6ConfigQml.so.6.15.0
 * /usr/lib/qt6/qml/org/kde/config/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/config/KF6ConfigQml.qmltypes
 * /usr/lib/qt6/qml/org/kde/config/libKF6ConfigQmlplugin.so
 * /usr/lib/qt6/qml/org/kde/config/qmldir
-* /usr/share/doc/kconfig-6.14.0/README.md
-* /usr/share/doc/kconfig-6.14.0/TODO
+* /usr/share/doc/kconfig-6.15.0/README.md
+* /usr/share/doc/kconfig-6.15.0/TODO
 * /usr/share/locale/af/LC_MESSAGES/kconfig6_qt.qm
 * /usr/share/locale/ar/LC_MESSAGES/kconfig6_qt.qm
 * /usr/share/locale/ast/LC_MESSAGES/kconfig6_qt.qm

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kholidays 6.14.0-2"
-version = "6.14.0-2"
+title = "kholidays 6.15.0-1"
+version = "6.15.0-1"
 description = "C++ library for calendar holidays."
-date = "2025-06-04T12:21:19"
+date = "2025-06-14T10:25:42"
 aliases = "/packages/218312"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "261272"
-usize = "954442"
-sha1sum = "46bc67201c6ca8ea444e56b771c9eb5b01cd9319"
+size = "269384"
+usize = "974158"
+sha1sum = "e6a238cd3457e93298bad42139810050b54f0696"
 depends = "['qt6-base>=6.9.1']"
 reverse_depends = "['calendarsupport', 'kalarm', 'kopeninghours', 'kweathercore', 'plasma-workspace']"
 +++
@@ -27,6 +27,8 @@ C++ library for calendar holidays.
 * /usr/include/KF6/KHolidays/kholidays/kholidays_export.h
 * /usr/include/KF6/KHolidays/KHolidays/LunarPhase
 * /usr/include/KF6/KHolidays/kholidays/lunarphase.h
+* /usr/include/KF6/KHolidays/KHolidays/SunEvents
+* /usr/include/KF6/KHolidays/kholidays/sunevents.h
 * /usr/include/KF6/KHolidays/KHolidays/SunRiseSet
 * /usr/include/KF6/KHolidays/kholidays/sunriseset.h
 * /usr/include/KF6/KHolidays/KHolidays/Zodiac
@@ -38,12 +40,12 @@ C++ library for calendar holidays.
 * /usr/lib/cmake/KF6Holidays/KF6HolidaysTargets.cmake
 * /usr/lib/libKF6Holidays.so
 * /usr/lib/libKF6Holidays.so.6
-* /usr/lib/libKF6Holidays.so.6.14.0
+* /usr/lib/libKF6Holidays.so.6.15.0
 * /usr/lib/qt6/qml/org/kde/kholidays/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/kholidays/kholidaysdeclarativeplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/kholidays/libkholidaysdeclarativeplugin.so
 * /usr/lib/qt6/qml/org/kde/kholidays/qmldir
-* /usr/share/doc/kholidays-6.14.0/README.md
+* /usr/share/doc/kholidays-6.15.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/libkholidays6_qt.qm
 * /usr/share/locale/ast/LC_MESSAGES/libkholidays6_qt.qm
 * /usr/share/locale/az/LC_MESSAGES/libkholidays6_qt.qm

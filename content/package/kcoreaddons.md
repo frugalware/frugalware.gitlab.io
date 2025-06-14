@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kcoreaddons 6.14.0-3"
-version = "6.14.0-3"
+title = "kcoreaddons 6.15.0-1"
+version = "6.15.0-1"
 description = "Utilities for core application functionality and accessing the OS."
-date = "2025-06-06T14:24:18"
+date = "2025-06-14T10:50:44"
 aliases = "/packages/218286"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "670180"
-usize = "2986784"
-sha1sum = "bf1d2226b565f61151cc7d5520e5b16a0a3a5053"
+size = "677604"
+usize = "3024686"
+sha1sum = "bfe251e7d242689aa91e5d2079eb8c1c9cec92a7"
 depends = "['qt6-base>=6.9.1', 'shared-mime-info']"
 reverse_depends = "['accessibility-inspector', 'alligator', 'audex', 'audiotube', 'breeze', 'calamares-frugalware', 'discover', 'disman', 'dolphin', 'francis', 'isoimagewriter', 'kalk', 'kalm', 'kauth', 'kcachegrind', 'kclock', 'kconfigwidgets', 'kcontacts', 'kcrash', 'kdav', 'kdebugsettings', 'kdecoration', 'kdeplasma-addons', 'kdiff3', 'kfilemetadata', 'kglobalacceld', 'kirigami-addons', 'kjournald', 'kongress', 'kontrast', 'kosmindoormap', 'kpackage', 'kpimtextedit', 'kpipewire', 'kpty', 'krecorder', 'krunner', 'ksmtp', 'ksvg', 'ktrip', 'kwin', 'libkcompactdisc', 'plasma5support', 'plasmatube', 'purpose', 'qmlkonsole', 'qrca', 'skanlite', 'skladnik', 'svgpart', 'sweeper', 'xwaylandvideobridge']"
 +++
@@ -85,6 +85,8 @@ Utilities for core application functionality and accessing the OS.
 * /usr/include/KF6/KCoreAddons/ksignalhandler.h
 * /usr/include/KF6/KCoreAddons/KStringHandler
 * /usr/include/KF6/KCoreAddons/kstringhandler.h
+* /usr/include/KF6/KCoreAddons/KSystemClockSkewNotifier
+* /usr/include/KF6/KCoreAddons/ksystemclockskewnotifier.h
 * /usr/include/KF6/KCoreAddons/KTextToHTML
 * /usr/include/KF6/KCoreAddons/ktexttohtml.h
 * /usr/include/KF6/KCoreAddons/KUrlMimeData
@@ -99,14 +101,14 @@ Utilities for core application functionality and accessing the OS.
 * /usr/lib/cmake/KF6CoreAddons/KF6CoreAddonsTargets.cmake
 * /usr/lib/libKF6CoreAddons.so
 * /usr/lib/libKF6CoreAddons.so.6
-* /usr/lib/libKF6CoreAddons.so.6.14.0
+* /usr/lib/libKF6CoreAddons.so.6.15.0
 * /usr/lib/pkgconfig/KF6CoreAddons.pc
 * /usr/lib/python3.13/site-packages/KCoreAddons.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/qt6/qml/org/kde/coreaddons/kcoreaddonsplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/coreaddons/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/coreaddons/libkcoreaddonsplugin.so
 * /usr/lib/qt6/qml/org/kde/coreaddons/qmldir
-* /usr/share/doc/kcoreaddons-6.14.0/README.md
+* /usr/share/doc/kcoreaddons-6.15.0/README.md
 * /usr/share/kf6/jsonschema/kpluginmetadata.schema.json
 * /usr/share/locale/af/LC_MESSAGES/kcoreaddons6_qt.qm
 * /usr/share/locale/ar/LC_MESSAGES/kcoreaddons6_qt.qm
