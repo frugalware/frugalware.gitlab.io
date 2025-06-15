@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "lldb 20.1.6-1"
-version = "20.1.6-1"
+title = "lldb 20.1.7-1"
+version = "20.1.7-1"
 description = "Next generation, high-performance debugger"
-date = "2025-06-08T21:30:12"
+date = "2025-06-15T20:27:44"
 aliases = "/packages/220526"
 categories = ['devel-extra']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "6907360"
+size = "6909772"
 usize = "26742038"
-sha1sum = "f9f72e79d04e75086ceb6e5e96a60b53b019c8f8"
-depends = "['clang>=20.1.6', 'ncurses>=6.5']"
+sha1sum = "394fcc009fb99b9bd9e8109792648c8fa50abd6c"
+depends = "['clang>=20.1.7', 'ncurses>=6.5']"
 +++
 ### Description: 
 Next generation, high-performance debugger
@@ -583,6 +583,6 @@ Next generation, high-performance debugger
 * /usr/include/lldb/Version/Version.h
 * /usr/lib/liblldb.so
 * /usr/lib/liblldb.so.20.1
-* /usr/lib/liblldb.so.20.1.6
+* /usr/lib/liblldb.so.20.1.7
 * /usr/lib/liblldbIntelFeatures.so
 * /usr/lib/liblldbIntelFeatures.so.20.1

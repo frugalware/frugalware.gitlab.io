@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "llvm-ocaml 20.1.6-1"
-version = "20.1.6-1"
+title = "llvm-ocaml 20.1.7-1"
+version = "20.1.7-1"
 description = "OCaml bindings for LLVM"
-date = "2025-06-08T21:30:12"
+date = "2025-06-15T20:27:44"
 aliases = "/packages/136476"
 categories = ['devel-extra']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "601288"
-usize = "925779"
-sha1sum = "160525bfff1b753e91e34277885053407bd7e146"
-depends = "['llvm>=20.1.6', 'ocaml>=4.10.0']"
+size = "602536"
+usize = "925793"
+sha1sum = "1410577227a2a6d4d696c38c64838968b3037356"
+depends = "['llvm>=20.1.7', 'ocaml>=4.10.0']"
 +++
 ### Description: 
 OCaml bindings for LLVM

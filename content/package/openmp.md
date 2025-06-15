@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "openmp 20.1.6-1"
-version = "20.1.6-1"
+title = "openmp 20.1.7-1"
+version = "20.1.7-1"
 description = "LLVM OpenMP Runtime Library"
-date = "2025-06-08T21:30:12"
+date = "2025-06-15T20:27:44"
 aliases = "/packages/220451"
 categories = ['devel-extra']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "531492"
+size = "531552"
 usize = "2006840"
-sha1sum = "30a4bda666f30b032c1ef24d2b6a253bcfc4c190"
-depends = "['llvm-libs>=20.1.6']"
+sha1sum = "b154be6d0b0447827ae0244b230a47706e099049"
+depends = "['llvm-libs>=20.1.7']"
 reverse_depends = "['darktable']"
 +++
 ### Description: 

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libc++ 20.1.6-1"
-version = "20.1.6-1"
+title = "libc++ 20.1.7-1"
+version = "20.1.7-1"
 description = "A new implementation of the C++ standard library"
-date = "2025-06-08T21:30:12"
+date = "2025-06-15T20:27:44"
 aliases = "/packages/219307"
 categories = ['lib-extra']
 upstreamurl = "http://www.llvm.org"
 arch = "x86_64"
-size = "1274924"
-usize = "16840011"
-sha1sum = "676ec4c02e6d8c8d5c5a0ec2019a9f5106096878"
+size = "1275180"
+usize = "16840063"
+sha1sum = "cc7bb876199b6110a48313a6060531b836ae67b6"
 depends = "['libgcc']"
 +++
 ### Description: 
