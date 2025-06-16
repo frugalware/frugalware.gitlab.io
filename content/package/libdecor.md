@@ -12,7 +12,7 @@ size = "42016"
 usize = "162465"
 sha1sum = "e49da64516fc06ac10605aa2405e817193073b08"
 depends = "['dbus', 'gtk+3', 'pango', 'wayland']"
-reverse_depends = "['mesademos']"
+reverse_depends = "['blender', 'mesademos']"
 +++
 ### Description: 
 Client-side decorations library for Wayland clients

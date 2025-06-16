@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "blender 4.4.1-1"
-version = "4.4.1-1"
+title = "blender 4.4.3-1"
+version = "4.4.3-1"
 description = "A 3D modeling/rendering/animation/gaming application"
-date = "2025-04-23T13:49:28"
+date = "2025-06-16T10:09:58"
 aliases = "/packages/2933"
 categories = ['xapps-extra']
 upstreamurl = "https://www.blender.org"
 arch = "x86_64"
-size = "71160260"
-usize = "231965657"
-sha1sum = "bdc178711047e8b49d893e36569d454ff4241388"
-depends = "['alembic', 'embree>=4.3.1', 'fftw', 'freetype2>=2.7', 'glew>=2.2.0', 'icu4c>=75.1', 'jemalloc', 'libboost>=1.87.0', 'libepoxy', 'libjpeg-turbo', 'libpng>=1.6.25', 'libsamplerate', 'libspnav', 'libtiff', 'libxi', 'lzo', 'openal>=1.7.411', 'openblas', 'opencollada', 'opencolorio', 'openexr>=3.3.0', 'openimageio>=2.5', 'openjpeg', 'openvdb>=12.0.0', 'potrace', 'pugixml', 'python3-numpy>=1.19.0', 'python3-requests', 'shaderc']"
+size = "71357304"
+usize = "232582128"
+sha1sum = "190a3752a57bc448437915e84182bbf288af9624"
+depends = "['alembic', 'embree>=4.3.1', 'fftw', 'freetype2>=2.7', 'glew>=2.2.0', 'icu4c>=75.1', 'intel-tbb', 'libboost>=1.87.0', 'libdecor', 'libepoxy', 'libjpeg-turbo', 'libpng>=1.6.25', 'libsamplerate', 'libspnav', 'libtiff', 'libxi', 'lzo', 'openal>=1.7.411', 'openblas', 'opencollada', 'opencolorio', 'openexr>=3.3.0', 'openimageio>=2.5', 'openjpeg', 'openvdb>=12.0.0', 'pipewire', 'potrace', 'pugixml', 'python3-numpy>=1.19.0', 'python3-requests', 'shaderc']"
 +++
 ### Description: 
 A 3D modeling/rendering/animation/gaming application
@@ -2054,10 +2054,9 @@ A 3D modeling/rendering/animation/gaming application
 * /usr/share/blender/4.4/scripts/templates_py/__pycache__/ui_previews_dynamic_enum.cpython-313.pyc
 * /usr/share/blender/4.4/scripts/templates_py/__pycache__/ui_tool_simple.cpython-313.pyc
 * /usr/share/blender/4.4/scripts/templates_toml/blender_manifest.toml
-* /usr/share/doc/blender-4.4.1/AUTHORS
-* /usr/share/doc/blender-4.4.1/COPYING
-* /usr/share/doc/blender-4.4.1/LICENSE
-* /usr/share/doc/blender-4.4.1/README.md
+* /usr/share/doc/blender-4.4.3/AUTHORS
+* /usr/share/doc/blender-4.4.3/COPYING
+* /usr/share/doc/blender-4.4.3/README.md
 * /usr/share/doc/blender/license/license.md
 * /usr/share/doc/blender/license/licenses.json
 * /usr/share/doc/blender/license/others/Arev-Fonts.txt

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "rust 1.87.0-2"
-version = "1.87.0-2"
+title = "rust 1.87.0-3"
+version = "1.87.0-3"
 description = "Programming language focused on safety, speed and concurrency"
-date = "2025-06-08T23:20:37"
+date = "2025-06-16T09:15:09"
 aliases = "/packages/218947"
 categories = ['devel']
 upstreamurl = "https://www.rust-lang.org/"
 arch = "x86_64"
-size = "68286120"
-usize = "311631390"
-sha1sum = "c3f183d6fb3bd15ea9b5741a41823d01bd9427f2"
-depends = "['curl', 'libffi', 'libxml2', 'llvm-libs>=20.1.6']"
+size = "68225568"
+usize = "310831310"
+sha1sum = "e875f5c77efba32ab1bb90bd90d55365f246bef7"
+depends = "['curl', 'libffi', 'libxml2', 'llvm-libs>=20.1.7']"
 reverse_depends = "['corrosion', 'lib32-rust', 'python3-maturin', 'python3-setuptools-rust', 'rust-wasm']"
 +++
 ### Description: 
@@ -29,7 +29,7 @@ Programming language focused on safety, speed and concurrency
 * /usr/bin/rustc
 * /usr/bin/rustdoc
 * /usr/bin/rustfmt
-* /usr/lib/librustc_driver-ea71c2f089b06726.so
+* /usr/lib/librustc_driver-8cf940f2a911a27d.so
 * /usr/lib/rustlib/components
 * /usr/lib/rustlib/etc/gdb_load_rust_pretty_printers.py
 * /usr/lib/rustlib/etc/gdb_lookup.py
@@ -1864,34 +1864,34 @@ Programming language focused on safety, speed and concurrency
 * /usr/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld/wasm-ld
 * /usr/lib/rustlib/x86_64-unknown-linux-gnu/bin/rust-lld
 * /usr/lib/rustlib/x86_64-unknown-linux-gnu/bin/rust-objcopy
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-2a1437f12a964a9e.rlib
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-aa42b4f3910dc432.rlib
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6bf1a37eba084e34.rlib
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-cd26151dd21a60f6.rlib
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-2a8d3afe31a52551.rlib
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-6dba1bbc084052ef.rlib
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgetopts-a1dcd21b7d9900b4.rlib
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-723fc0c38f97c5d2.rlib
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-dbc03b605903f9da.rlib
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-76a36beeaba38a05.rlib
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-6bced5401affc9e1.rlib
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-63415d80bbc9cdaf.rlib
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-616e7039f1896c0b.rlib
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_abort-96acd25ab012e022.rlib
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-87e66c3035db0142.rlib
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libproc_macro-655be118e1ec5edb.rlib
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libprofiler_builtins-44d2f3419c5837cc.rlib
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-b9d8d4a5d1d83f90.rlib
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-d53e2dcb2e4a4537.rlib
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-d2c95dac31c77fe6.rlib
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_std-1dcec5adad57c3df.rlib
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-a706fd9306006e79.rlib
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-a706fd9306006e79.so
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-74fc925174792ed8.rlib
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libsysroot-eedaddeb9d5551d6.rlib
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libtest-c451939e3498e567.rlib
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunicode_width-ad64e278d0e35d29.rlib
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-654af488b0b2f136.rlib
+* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-c8bb1a4ee3f209e2.rlib
+* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-f65e695c2ecd98bb.rlib
+* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-c67eafff919d833a.rlib
+* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-a676fd175cef276a.rlib
+* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-a8b3e17ece03a012.rlib
+* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-5965466119db4f3d.rlib
+* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgetopts-6f7fabf6f8b0369c.rlib
+* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-a6c386ae1f121dd9.rlib
+* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-9a5a407871bd3578.rlib
+* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-f38708af9542e43f.rlib
+* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-56080ce009807ced.rlib
+* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-f32b30dc4a2a731f.rlib
+* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-affb413eee59551c.rlib
+* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_abort-6fff1fdf7e0492d7.rlib
+* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-de22ce79f22e413e.rlib
+* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libproc_macro-2bfe7edbc74059fa.rlib
+* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libprofiler_builtins-25fb7b608caf4a41.rlib
+* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-3be09383946395a3.rlib
+* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-4268db87fba3f77f.rlib
+* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-f9664e67645c868a.rlib
+* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_std-76c10a0401b0be83.rlib
+* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-6459f650d5dabc28.rlib
+* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-6459f650d5dabc28.so
+* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-d67a620506bd59cc.rlib
+* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libsysroot-2d10d2fbb7dc0367.rlib
+* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libtest-065dc81e0401b4e0.rlib
+* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunicode_width-8ba498d20c35c486.rlib
+* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-e9540d23a2e13275.rlib
 * /usr/share/doc/cargo/LICENSE-APACHE
 * /usr/share/doc/cargo/LICENSE-MIT
 * /usr/share/doc/cargo/LICENSE-THIRD-PARTY

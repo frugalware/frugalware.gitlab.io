@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-numpy 2.2.6-1"
-version = "2.2.6-1"
+title = "python3-numpy 2.3.0-1"
+version = "2.3.0-1"
 description = "Numerical Python adds a fast array facility to the Python3 language."
-date = "2025-05-19T08:52:42"
+date = "2025-06-16T09:57:42"
 aliases = "/packages/219648"
 categories = ['devel']
 upstreamurl = "http://pypi.python.org/pypi/numpy"
 arch = "x86_64"
-size = "7918680"
-usize = "48724652"
-sha1sum = "b920924678779d857cf9663c3091644494c5163e"
+size = "7996956"
+usize = "49042545"
+sha1sum = "998590da52a0905b144d47fe4d4bc02b7e4ae5f1"
 depends = "['python3>=3.12']"
 reverse_depends = "['adios2', 'aubio', 'blender', 'face_recognition', 'git-cola', 'howdy', 'krr', 'opencv-python3', 'openrazer', 'python3-pythran', 'python3-rapidfuzz', 'python3-scipy', 'scikit-learn', 'wxpython']"
 +++
@@ -20,24 +20,15 @@ Numerical Python adds a fast array facility to the Python3 language.
 ### Files: 
 * /usr/bin/f2py
 * /usr/bin/numpy-config
-* /usr/lib/python3.13/site-packages/numpy-2.2.6.dist-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/numpy-2.2.6.dist-info/LICENSE.txt
-* /usr/lib/python3.13/site-packages/numpy-2.2.6.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/numpy-2.2.6.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/numpy-2.2.6.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/numpy-2.3.0.dist-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/numpy-2.3.0.dist-info/LICENSE.txt
+* /usr/lib/python3.13/site-packages/numpy-2.3.0.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/numpy-2.3.0.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/numpy-2.3.0.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/numpy/char/__init__.py
 * /usr/lib/python3.13/site-packages/numpy/char/__init__.pyi
 * /usr/lib/python3.13/site-packages/numpy/char/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/numpy/char/__pycache__/__init__.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/numpy/compat/py3k.py
-* /usr/lib/python3.13/site-packages/numpy/compat/tests/__init__.py
-* /usr/lib/python3.13/site-packages/numpy/compat/tests/__pycache__/__init__.cpython-313.opt-1.pyc
-* /usr/lib/python3.13/site-packages/numpy/compat/tests/__pycache__/__init__.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/numpy/compat/__init__.py
-* /usr/lib/python3.13/site-packages/numpy/compat/__pycache__/py3k.cpython-313.opt-1.pyc
-* /usr/lib/python3.13/site-packages/numpy/compat/__pycache__/py3k.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/numpy/compat/__pycache__/__init__.cpython-313.opt-1.pyc
-* /usr/lib/python3.13/site-packages/numpy/compat/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/numpy/conftest.py
 * /usr/lib/python3.13/site-packages/numpy/core/arrayprint.py
 * /usr/lib/python3.13/site-packages/numpy/core/defchararray.py
@@ -100,8 +91,14 @@ Numerical Python adds a fast array facility to the Python3 language.
 * /usr/lib/python3.13/site-packages/numpy/core/__pycache__/_utils.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/numpy/core/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/numpy/core/__pycache__/__init__.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/numpy/ctypeslib.py
-* /usr/lib/python3.13/site-packages/numpy/ctypeslib.pyi
+* /usr/lib/python3.13/site-packages/numpy/ctypeslib/_ctypeslib.py
+* /usr/lib/python3.13/site-packages/numpy/ctypeslib/_ctypeslib.pyi
+* /usr/lib/python3.13/site-packages/numpy/ctypeslib/__init__.py
+* /usr/lib/python3.13/site-packages/numpy/ctypeslib/__init__.pyi
+* /usr/lib/python3.13/site-packages/numpy/ctypeslib/__pycache__/_ctypeslib.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/numpy/ctypeslib/__pycache__/_ctypeslib.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/numpy/ctypeslib/__pycache__/__init__.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/numpy/ctypeslib/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/numpy/doc/ufuncs.py
 * /usr/lib/python3.13/site-packages/numpy/doc/__pycache__/ufuncs.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/numpy/doc/__pycache__/ufuncs.cpython-313.pyc
@@ -110,20 +107,32 @@ Numerical Python adds a fast array facility to the Python3 language.
 * /usr/lib/python3.13/site-packages/numpy/exceptions.py
 * /usr/lib/python3.13/site-packages/numpy/exceptions.pyi
 * /usr/lib/python3.13/site-packages/numpy/f2py/auxfuncs.py
+* /usr/lib/python3.13/site-packages/numpy/f2py/auxfuncs.pyi
 * /usr/lib/python3.13/site-packages/numpy/f2py/capi_maps.py
+* /usr/lib/python3.13/site-packages/numpy/f2py/capi_maps.pyi
 * /usr/lib/python3.13/site-packages/numpy/f2py/cb_rules.py
+* /usr/lib/python3.13/site-packages/numpy/f2py/cb_rules.pyi
 * /usr/lib/python3.13/site-packages/numpy/f2py/cfuncs.py
+* /usr/lib/python3.13/site-packages/numpy/f2py/cfuncs.pyi
 * /usr/lib/python3.13/site-packages/numpy/f2py/common_rules.py
+* /usr/lib/python3.13/site-packages/numpy/f2py/common_rules.pyi
 * /usr/lib/python3.13/site-packages/numpy/f2py/crackfortran.py
+* /usr/lib/python3.13/site-packages/numpy/f2py/crackfortran.pyi
 * /usr/lib/python3.13/site-packages/numpy/f2py/diagnose.py
+* /usr/lib/python3.13/site-packages/numpy/f2py/diagnose.pyi
 * /usr/lib/python3.13/site-packages/numpy/f2py/f2py2e.py
+* /usr/lib/python3.13/site-packages/numpy/f2py/f2py2e.pyi
 * /usr/lib/python3.13/site-packages/numpy/f2py/f90mod_rules.py
+* /usr/lib/python3.13/site-packages/numpy/f2py/f90mod_rules.pyi
 * /usr/lib/python3.13/site-packages/numpy/f2py/func2subr.py
+* /usr/lib/python3.13/site-packages/numpy/f2py/func2subr.pyi
 * /usr/lib/python3.13/site-packages/numpy/f2py/rules.py
+* /usr/lib/python3.13/site-packages/numpy/f2py/rules.pyi
 * /usr/lib/python3.13/site-packages/numpy/f2py/setup.cfg
 * /usr/lib/python3.13/site-packages/numpy/f2py/src/fortranobject.c
 * /usr/lib/python3.13/site-packages/numpy/f2py/src/fortranobject.h
 * /usr/lib/python3.13/site-packages/numpy/f2py/symbolic.py
+* /usr/lib/python3.13/site-packages/numpy/f2py/symbolic.pyi
 * /usr/lib/python3.13/site-packages/numpy/f2py/tests/src/abstract_interface/foo.f90
 * /usr/lib/python3.13/site-packages/numpy/f2py/tests/src/abstract_interface/gh18403_mod.f90
 * /usr/lib/python3.13/site-packages/numpy/f2py/tests/src/array_from_pyobj/wrapmodule.c
@@ -195,6 +204,7 @@ Numerical Python adds a fast array facility to the Python3 language.
 * /usr/lib/python3.13/site-packages/numpy/f2py/tests/src/regression/incfile.f90
 * /usr/lib/python3.13/site-packages/numpy/f2py/tests/src/regression/inout.f90
 * /usr/lib/python3.13/site-packages/numpy/f2py/tests/src/regression/lower_f2py_fortran.f90
+* /usr/lib/python3.13/site-packages/numpy/f2py/tests/src/regression/mod_derived_types.f90
 * /usr/lib/python3.13/site-packages/numpy/f2py/tests/src/return_character/foo77.f
 * /usr/lib/python3.13/site-packages/numpy/f2py/tests/src/return_character/foo90.f90
 * /usr/lib/python3.13/site-packages/numpy/f2py/tests/src/return_complex/foo77.f
@@ -320,11 +330,16 @@ Numerical Python adds a fast array facility to the Python3 language.
 * /usr/lib/python3.13/site-packages/numpy/f2py/tests/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/numpy/f2py/tests/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/numpy/f2py/use_rules.py
+* /usr/lib/python3.13/site-packages/numpy/f2py/use_rules.pyi
 * /usr/lib/python3.13/site-packages/numpy/f2py/_backends/meson.build.template
 * /usr/lib/python3.13/site-packages/numpy/f2py/_backends/_backend.py
+* /usr/lib/python3.13/site-packages/numpy/f2py/_backends/_backend.pyi
 * /usr/lib/python3.13/site-packages/numpy/f2py/_backends/_distutils.py
+* /usr/lib/python3.13/site-packages/numpy/f2py/_backends/_distutils.pyi
 * /usr/lib/python3.13/site-packages/numpy/f2py/_backends/_meson.py
+* /usr/lib/python3.13/site-packages/numpy/f2py/_backends/_meson.pyi
 * /usr/lib/python3.13/site-packages/numpy/f2py/_backends/__init__.py
+* /usr/lib/python3.13/site-packages/numpy/f2py/_backends/__init__.pyi
 * /usr/lib/python3.13/site-packages/numpy/f2py/_backends/__pycache__/_backend.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/numpy/f2py/_backends/__pycache__/_backend.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/numpy/f2py/_backends/__pycache__/_distutils.cpython-313.opt-1.pyc
@@ -334,7 +349,9 @@ Numerical Python adds a fast array facility to the Python3 language.
 * /usr/lib/python3.13/site-packages/numpy/f2py/_backends/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/numpy/f2py/_backends/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/numpy/f2py/_isocbind.py
+* /usr/lib/python3.13/site-packages/numpy/f2py/_isocbind.pyi
 * /usr/lib/python3.13/site-packages/numpy/f2py/_src_pyf.py
+* /usr/lib/python3.13/site-packages/numpy/f2py/_src_pyf.pyi
 * /usr/lib/python3.13/site-packages/numpy/f2py/__init__.py
 * /usr/lib/python3.13/site-packages/numpy/f2py/__init__.pyi
 * /usr/lib/python3.13/site-packages/numpy/f2py/__main__.py
@@ -375,6 +392,7 @@ Numerical Python adds a fast array facility to the Python3 language.
 * /usr/lib/python3.13/site-packages/numpy/f2py/__pycache__/__version__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/numpy/f2py/__pycache__/__version__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/numpy/f2py/__version__.py
+* /usr/lib/python3.13/site-packages/numpy/f2py/__version__.pyi
 * /usr/lib/python3.13/site-packages/numpy/fft/helper.py
 * /usr/lib/python3.13/site-packages/numpy/fft/helper.pyi
 * /usr/lib/python3.13/site-packages/numpy/fft/tests/test_helper.py
@@ -514,6 +532,8 @@ Numerical Python adds a fast array facility to the Python3 language.
 * /usr/lib/python3.13/site-packages/numpy/lib/_array_utils_impl.pyi
 * /usr/lib/python3.13/site-packages/numpy/lib/_datasource.py
 * /usr/lib/python3.13/site-packages/numpy/lib/_datasource.pyi
+* /usr/lib/python3.13/site-packages/numpy/lib/_format_impl.py
+* /usr/lib/python3.13/site-packages/numpy/lib/_format_impl.pyi
 * /usr/lib/python3.13/site-packages/numpy/lib/_function_base_impl.py
 * /usr/lib/python3.13/site-packages/numpy/lib/_function_base_impl.pyi
 * /usr/lib/python3.13/site-packages/numpy/lib/_histograms_impl.py
@@ -576,6 +596,8 @@ Numerical Python adds a fast array facility to the Python3 language.
 * /usr/lib/python3.13/site-packages/numpy/lib/__pycache__/_array_utils_impl.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/numpy/lib/__pycache__/_datasource.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/numpy/lib/__pycache__/_datasource.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/numpy/lib/__pycache__/_format_impl.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/numpy/lib/__pycache__/_format_impl.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/numpy/lib/__pycache__/_function_base_impl.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/numpy/lib/__pycache__/_function_base_impl.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/numpy/lib/__pycache__/_histograms_impl.cpython-313.opt-1.pyc
@@ -675,7 +697,6 @@ Numerical Python adds a fast array facility to the Python3 language.
 * /usr/lib/python3.13/site-packages/numpy/ma/tests/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/numpy/ma/tests/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/numpy/ma/testutils.py
-* /usr/lib/python3.13/site-packages/numpy/ma/timer_comparison.py
 * /usr/lib/python3.13/site-packages/numpy/ma/__init__.py
 * /usr/lib/python3.13/site-packages/numpy/ma/__init__.pyi
 * /usr/lib/python3.13/site-packages/numpy/ma/__pycache__/core.cpython-313.opt-1.pyc
@@ -686,8 +707,6 @@ Numerical Python adds a fast array facility to the Python3 language.
 * /usr/lib/python3.13/site-packages/numpy/ma/__pycache__/mrecords.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/numpy/ma/__pycache__/testutils.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/numpy/ma/__pycache__/testutils.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/numpy/ma/__pycache__/timer_comparison.cpython-313.opt-1.pyc
-* /usr/lib/python3.13/site-packages/numpy/ma/__pycache__/timer_comparison.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/numpy/ma/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/numpy/ma/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/numpy/matlib.py
@@ -853,8 +872,10 @@ Numerical Python adds a fast array facility to the Python3 language.
 * /usr/lib/python3.13/site-packages/numpy/random/tests/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/numpy/random/_bounded_integers.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/numpy/random/_bounded_integers.pxd
+* /usr/lib/python3.13/site-packages/numpy/random/_bounded_integers.pyi
 * /usr/lib/python3.13/site-packages/numpy/random/_common.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/numpy/random/_common.pxd
+* /usr/lib/python3.13/site-packages/numpy/random/_common.pyi
 * /usr/lib/python3.13/site-packages/numpy/random/_examples/cffi/extending.py
 * /usr/lib/python3.13/site-packages/numpy/random/_examples/cffi/parse.py
 * /usr/lib/python3.13/site-packages/numpy/random/_examples/cffi/__pycache__/extending.cpython-313.opt-1.pyc
@@ -987,6 +1008,7 @@ Numerical Python adds a fast array facility to the Python3 language.
 * /usr/lib/python3.13/site-packages/numpy/typing/tests/data/fail/lib_utils.pyi
 * /usr/lib/python3.13/site-packages/numpy/typing/tests/data/fail/lib_version.pyi
 * /usr/lib/python3.13/site-packages/numpy/typing/tests/data/fail/linalg.pyi
+* /usr/lib/python3.13/site-packages/numpy/typing/tests/data/fail/ma.pyi
 * /usr/lib/python3.13/site-packages/numpy/typing/tests/data/fail/memmap.pyi
 * /usr/lib/python3.13/site-packages/numpy/typing/tests/data/fail/modules.pyi
 * /usr/lib/python3.13/site-packages/numpy/typing/tests/data/fail/multiarray.pyi
@@ -1148,6 +1170,7 @@ Numerical Python adds a fast array facility to the Python3 language.
 * /usr/lib/python3.13/site-packages/numpy/typing/tests/data/reveal/lib_utils.pyi
 * /usr/lib/python3.13/site-packages/numpy/typing/tests/data/reveal/lib_version.pyi
 * /usr/lib/python3.13/site-packages/numpy/typing/tests/data/reveal/linalg.pyi
+* /usr/lib/python3.13/site-packages/numpy/typing/tests/data/reveal/ma.pyi
 * /usr/lib/python3.13/site-packages/numpy/typing/tests/data/reveal/matrix.pyi
 * /usr/lib/python3.13/site-packages/numpy/typing/tests/data/reveal/memmap.pyi
 * /usr/lib/python3.13/site-packages/numpy/typing/tests/data/reveal/mod.pyi
@@ -1222,7 +1245,6 @@ Numerical Python adds a fast array facility to the Python3 language.
 * /usr/lib/python3.13/site-packages/numpy/_core/include/numpy/halffloat.h
 * /usr/lib/python3.13/site-packages/numpy/_core/include/numpy/ndarrayobject.h
 * /usr/lib/python3.13/site-packages/numpy/_core/include/numpy/ndarraytypes.h
-* /usr/lib/python3.13/site-packages/numpy/_core/include/numpy/npy_1_7_deprecated_api.h
 * /usr/lib/python3.13/site-packages/numpy/_core/include/numpy/npy_2_compat.h
 * /usr/lib/python3.13/site-packages/numpy/_core/include/numpy/npy_2_complexcompat.h
 * /usr/lib/python3.13/site-packages/numpy/_core/include/numpy/npy_3kcompat.h
@@ -1633,6 +1655,7 @@ Numerical Python adds a fast array facility to the Python3 language.
 * /usr/lib/python3.13/site-packages/numpy/_typing/_extended_precision.py
 * /usr/lib/python3.13/site-packages/numpy/_typing/_nbit.py
 * /usr/lib/python3.13/site-packages/numpy/_typing/_nbit_base.py
+* /usr/lib/python3.13/site-packages/numpy/_typing/_nbit_base.pyi
 * /usr/lib/python3.13/site-packages/numpy/_typing/_nested_sequence.py
 * /usr/lib/python3.13/site-packages/numpy/_typing/_scalars.py
 * /usr/lib/python3.13/site-packages/numpy/_typing/_shape.py
@@ -1687,8 +1710,6 @@ Numerical Python adds a fast array facility to the Python3 language.
 * /usr/lib/python3.13/site-packages/numpy/__init__.pyi
 * /usr/lib/python3.13/site-packages/numpy/__pycache__/conftest.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/numpy/__pycache__/conftest.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/numpy/__pycache__/ctypeslib.cpython-313.opt-1.pyc
-* /usr/lib/python3.13/site-packages/numpy/__pycache__/ctypeslib.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/numpy/__pycache__/dtypes.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/numpy/__pycache__/dtypes.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/numpy/__pycache__/exceptions.cpython-313.opt-1.pyc
@@ -1713,5 +1734,5 @@ Numerical Python adds a fast array facility to the Python3 language.
 * /usr/lib/python3.13/site-packages/numpy/__pycache__/__config__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/numpy/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/numpy/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/python3-numpy-2.2.6/INSTALL.rst
-* /usr/share/doc/python3-numpy-2.2.6/README.md
+* /usr/share/doc/python3-numpy-2.3.0/INSTALL.rst
+* /usr/share/doc/python3-numpy-2.3.0/README.md

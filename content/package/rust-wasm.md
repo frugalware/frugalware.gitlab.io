@@ -1,46 +1,46 @@
 +++
 draft = false
-title = "rust-wasm 1.87.0-2"
-version = "1.87.0-2"
+title = "rust-wasm 1.87.0-3"
+version = "1.87.0-3"
 description = "WebAssembly targets for Rust"
-date = "2025-06-08T23:20:37"
+date = "2025-06-16T09:15:09"
 aliases = "/packages/220953"
 categories = ['devel-extra']
 upstreamurl = "https://www.rust-lang.org/"
 arch = "x86_64"
-size = "18650872"
-usize = "75146322"
-sha1sum = "4ff13551555688266ce5240352e00aa5b490a8f3"
+size = "18649812"
+usize = "75146352"
+sha1sum = "e09a81defb748b22fe582395f8dddfed13a09dfb"
 depends = "['lld', 'rust']"
 +++
 ### Description: 
 WebAssembly targets for Rust
 
 ### Files: 
-* /usr/lib/rustlib/wasm32-unknown-unknown/lib/libaddr2line-7d1266a92ec9a3c8.rlib
-* /usr/lib/rustlib/wasm32-unknown-unknown/lib/libadler2-862ef640659f0904.rlib
-* /usr/lib/rustlib/wasm32-unknown-unknown/lib/liballoc-cb8f135315630888.rlib
-* /usr/lib/rustlib/wasm32-unknown-unknown/lib/libcfg_if-0f50fa235ca5e91d.rlib
-* /usr/lib/rustlib/wasm32-unknown-unknown/lib/libcompiler_builtins-f590b23ceabb90a3.rlib
-* /usr/lib/rustlib/wasm32-unknown-unknown/lib/libcore-69398d934759bff6.rlib
-* /usr/lib/rustlib/wasm32-unknown-unknown/lib/libdlmalloc-7996dc51ac2df2d1.rlib
-* /usr/lib/rustlib/wasm32-unknown-unknown/lib/libgetopts-83a75c95a5c46638.rlib
-* /usr/lib/rustlib/wasm32-unknown-unknown/lib/libgimli-5d86b7d63a4cafed.rlib
-* /usr/lib/rustlib/wasm32-unknown-unknown/lib/libhashbrown-be1a17ad43173631.rlib
-* /usr/lib/rustlib/wasm32-unknown-unknown/lib/liblibc-c77d2e70088967c5.rlib
-* /usr/lib/rustlib/wasm32-unknown-unknown/lib/libmemchr-ab38fab5e16aba3a.rlib
-* /usr/lib/rustlib/wasm32-unknown-unknown/lib/libminiz_oxide-e722a18b7d85b5d7.rlib
-* /usr/lib/rustlib/wasm32-unknown-unknown/lib/libobject-5472c1f7739bc85b.rlib
-* /usr/lib/rustlib/wasm32-unknown-unknown/lib/libpanic_abort-f68abd753299daa9.rlib
-* /usr/lib/rustlib/wasm32-unknown-unknown/lib/libpanic_unwind-87ddc6066eedc591.rlib
-* /usr/lib/rustlib/wasm32-unknown-unknown/lib/libproc_macro-d5434b6a989ed2d5.rlib
-* /usr/lib/rustlib/wasm32-unknown-unknown/lib/librustc_demangle-79b4cd264a1b146b.rlib
-* /usr/lib/rustlib/wasm32-unknown-unknown/lib/librustc_std_workspace_alloc-d114e56fad2eb6e6.rlib
-* /usr/lib/rustlib/wasm32-unknown-unknown/lib/librustc_std_workspace_core-143dc656f87c435b.rlib
-* /usr/lib/rustlib/wasm32-unknown-unknown/lib/librustc_std_workspace_std-f0308191c4787c06.rlib
-* /usr/lib/rustlib/wasm32-unknown-unknown/lib/libstd-fb5d795b53f7e25d.rlib
-* /usr/lib/rustlib/wasm32-unknown-unknown/lib/libstd_detect-9bbaed251fd1ca0b.rlib
-* /usr/lib/rustlib/wasm32-unknown-unknown/lib/libsysroot-67b06101734528a4.rlib
-* /usr/lib/rustlib/wasm32-unknown-unknown/lib/libtest-3517aea689c726eb.rlib
-* /usr/lib/rustlib/wasm32-unknown-unknown/lib/libunicode_width-0fadafe3609e65fe.rlib
-* /usr/lib/rustlib/wasm32-unknown-unknown/lib/libunwind-80c405ad94e35a6a.rlib
+* /usr/lib/rustlib/wasm32-unknown-unknown/lib/libaddr2line-5680b787c0e179e4.rlib
+* /usr/lib/rustlib/wasm32-unknown-unknown/lib/libadler2-36b369282d3d2217.rlib
+* /usr/lib/rustlib/wasm32-unknown-unknown/lib/liballoc-a22e21955ace9eae.rlib
+* /usr/lib/rustlib/wasm32-unknown-unknown/lib/libcfg_if-39849a2ad5527da3.rlib
+* /usr/lib/rustlib/wasm32-unknown-unknown/lib/libcompiler_builtins-880fc00e7dc813c9.rlib
+* /usr/lib/rustlib/wasm32-unknown-unknown/lib/libcore-81cc92d456e438af.rlib
+* /usr/lib/rustlib/wasm32-unknown-unknown/lib/libdlmalloc-445e4eeb298de313.rlib
+* /usr/lib/rustlib/wasm32-unknown-unknown/lib/libgetopts-b62adf8bea5c5933.rlib
+* /usr/lib/rustlib/wasm32-unknown-unknown/lib/libgimli-1bdb2dc6210d2e13.rlib
+* /usr/lib/rustlib/wasm32-unknown-unknown/lib/libhashbrown-bf4caa4e4090d8f4.rlib
+* /usr/lib/rustlib/wasm32-unknown-unknown/lib/liblibc-eb38ee1c18fd8e51.rlib
+* /usr/lib/rustlib/wasm32-unknown-unknown/lib/libmemchr-00df568d840b2886.rlib
+* /usr/lib/rustlib/wasm32-unknown-unknown/lib/libminiz_oxide-64ebb673c3b8425b.rlib
+* /usr/lib/rustlib/wasm32-unknown-unknown/lib/libobject-8fe21d616336584a.rlib
+* /usr/lib/rustlib/wasm32-unknown-unknown/lib/libpanic_abort-e88f4cc8f2497c81.rlib
+* /usr/lib/rustlib/wasm32-unknown-unknown/lib/libpanic_unwind-e94f4051a5de9101.rlib
+* /usr/lib/rustlib/wasm32-unknown-unknown/lib/libproc_macro-dc83e3d860437a76.rlib
+* /usr/lib/rustlib/wasm32-unknown-unknown/lib/librustc_demangle-ae8aab262279b760.rlib
+* /usr/lib/rustlib/wasm32-unknown-unknown/lib/librustc_std_workspace_alloc-de848e0473dc4eb4.rlib
+* /usr/lib/rustlib/wasm32-unknown-unknown/lib/librustc_std_workspace_core-9fa0e45ad1c7248c.rlib
+* /usr/lib/rustlib/wasm32-unknown-unknown/lib/librustc_std_workspace_std-dc7fd690851d05f2.rlib
+* /usr/lib/rustlib/wasm32-unknown-unknown/lib/libstd-a7d057b8db485b16.rlib
+* /usr/lib/rustlib/wasm32-unknown-unknown/lib/libstd_detect-af8e9d35cac6b463.rlib
+* /usr/lib/rustlib/wasm32-unknown-unknown/lib/libsysroot-528b2de7a11850c8.rlib
+* /usr/lib/rustlib/wasm32-unknown-unknown/lib/libtest-2d2d0a3f10c5c397.rlib
+* /usr/lib/rustlib/wasm32-unknown-unknown/lib/libunicode_width-79519a1deec69041.rlib
+* /usr/lib/rustlib/wasm32-unknown-unknown/lib/libunwind-d73493dc6047a757.rlib
