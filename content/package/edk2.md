@@ -12,6 +12,7 @@ size = "8556832"
 usize = "28283602"
 sha1sum = "5907ea3637d65851ff4800280558a8b659fee481"
 depends = "['glibc']"
+reverse_depends = "['qemu']"
 +++
 ### Description: 
 Firmware for Virtual Machines (x86_64, i686)

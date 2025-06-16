@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qemu 10.0.0-1"
-version = "10.0.0-1"
+title = "qemu 10.0.2-1"
+version = "10.0.2-1"
 description = "QEMU is a FAST! processor emulator"
-date = "2025-04-23T15:08:42"
+date = "2025-06-16T12:29:11"
 aliases = "/packages/3815"
 categories = ['xapps-extra']
 upstreamurl = "http://www.nongnu.org/qemu/"
 arch = "x86_64"
-size = "130295840"
-usize = "855895192"
-sha1sum = "6c69dd83ec2bedc52d84fa5b7b2713ec4979a41f"
-depends = "['alsa-lib', 'bluez', 'curl', 'cyrus-sasl', 'dtc', 'fuse3', 'jemalloc', 'libaio', 'libbpf', 'libepoxy', 'libgbm', 'libglu', 'libjpeg-turbo', 'libpng>=1.6.20', 'libseccomp', 'libssh2', 'libsysprof-capture', 'liburing', 'libx11', 'lzo', 'ncurses>=6.0-3', 'nettle>=3.6', 'nss', 'numactl', 'pipewire', 'pixman', 'pulseaudio', 'snappy', 'spice-protocol', 'usbredir>=0.8.0', 'vte3', 'xkeyboard-config']"
+size = "119637676"
+usize = "538757284"
+sha1sum = "968e03a897f42a5a8410b46b8066238b240322d2"
+depends = "['alsa-lib', 'bluez', 'curl', 'cyrus-sasl', 'dtc', 'edk2', 'fuse3', 'gperftools', 'libaio', 'libbpf', 'libcbor', 'libepoxy', 'libgbm', 'libglu', 'libjpeg-turbo', 'libpng>=1.6.20', 'libseccomp', 'libssh2', 'libsysprof-capture', 'liburing', 'libx11', 'lzo', 'ncurses>=6.0-3', 'nettle>=3.6', 'nss', 'numactl', 'pipewire', 'pixman', 'pulseaudio', 'snappy', 'spice-protocol', 'usbredir>=0.8.0', 'vte3', 'xkeyboard-config']"
 reverse_depends = "['libguestfs']"
 +++
 ### Description: 
@@ -116,12 +116,12 @@ QEMU is a FAST! processor emulator
 * /usr/lib/qemu/ui-spice-app.so
 * /usr/lib/qemu/ui-spice-core.so
 * /usr/share/applications/qemu.desktop
-* /usr/share/doc/qemu-10.0.0/COPYING
-* /usr/share/doc/qemu-10.0.0/COPYING.LIB
-* /usr/share/doc/qemu-10.0.0/LICENSE
-* /usr/share/doc/qemu-10.0.0/README.Frugalware
-* /usr/share/doc/qemu-10.0.0/README.rst
-* /usr/share/doc/qemu-10.0.0/VERSION
+* /usr/share/doc/qemu-10.0.2/COPYING
+* /usr/share/doc/qemu-10.0.2/COPYING.LIB
+* /usr/share/doc/qemu-10.0.2/LICENSE
+* /usr/share/doc/qemu-10.0.2/README.Frugalware
+* /usr/share/doc/qemu-10.0.2/README.rst
+* /usr/share/doc/qemu-10.0.2/VERSION
 * /usr/share/doc/qemu/.buildinfo
 * /usr/share/doc/qemu/about/build-platforms.html
 * /usr/share/doc/qemu/about/deprecated.html
@@ -497,6 +497,15 @@ QEMU is a FAST! processor emulator
 * /usr/share/icons/hicolor/512x512/apps/qemu.png
 * /usr/share/icons/hicolor/64x64/apps/qemu.png
 * /usr/share/icons/hicolor/scalable/apps/qemu.svg
+* /usr/share/locale/bg/LC_MESSAGES/qemu.mo
+* /usr/share/locale/de_DE/LC_MESSAGES/qemu.mo
+* /usr/share/locale/fr_FR/LC_MESSAGES/qemu.mo
+* /usr/share/locale/hu/LC_MESSAGES/qemu.mo
+* /usr/share/locale/it/LC_MESSAGES/qemu.mo
+* /usr/share/locale/sv/LC_MESSAGES/qemu.mo
+* /usr/share/locale/tr/LC_MESSAGES/qemu.mo
+* /usr/share/locale/uk/LC_MESSAGES/qemu.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/qemu.mo
 * /usr/share/man/man1/qemu-img.1.gz
 * /usr/share/man/man1/qemu-storage-daemon.1.gz
 * /usr/share/man/man1/qemu.1.gz
@@ -513,19 +522,6 @@ QEMU is a FAST! processor emulator
 * /usr/share/qemu/bios-microvm.bin
 * /usr/share/qemu/bios.bin
 * /usr/share/qemu/canyonlands.dtb
-* /usr/share/qemu/edk2-aarch64-code.fd
-* /usr/share/qemu/edk2-arm-code.fd
-* /usr/share/qemu/edk2-arm-vars.fd
-* /usr/share/qemu/edk2-i386-code.fd
-* /usr/share/qemu/edk2-i386-secure-code.fd
-* /usr/share/qemu/edk2-i386-vars.fd
-* /usr/share/qemu/edk2-licenses.txt
-* /usr/share/qemu/edk2-loongarch64-code.fd
-* /usr/share/qemu/edk2-loongarch64-vars.fd
-* /usr/share/qemu/edk2-riscv-code.fd
-* /usr/share/qemu/edk2-riscv-vars.fd
-* /usr/share/qemu/edk2-x86_64-code.fd
-* /usr/share/qemu/edk2-x86_64-secure-code.fd
 * /usr/share/qemu/efi-e1000.rom
 * /usr/share/qemu/efi-e1000e.rom
 * /usr/share/qemu/efi-eepro100.rom
@@ -534,14 +530,6 @@ QEMU is a FAST! processor emulator
 * /usr/share/qemu/efi-rtl8139.rom
 * /usr/share/qemu/efi-virtio.rom
 * /usr/share/qemu/efi-vmxnet3.rom
-* /usr/share/qemu/firmware/50-edk2-i386-secure.json
-* /usr/share/qemu/firmware/50-edk2-x86_64-secure.json
-* /usr/share/qemu/firmware/60-edk2-aarch64.json
-* /usr/share/qemu/firmware/60-edk2-arm.json
-* /usr/share/qemu/firmware/60-edk2-i386.json
-* /usr/share/qemu/firmware/60-edk2-loongarch64.json
-* /usr/share/qemu/firmware/60-edk2-riscv64.json
-* /usr/share/qemu/firmware/60-edk2-x86_64.json
 * /usr/share/qemu/hppa-firmware.img
 * /usr/share/qemu/hppa-firmware64.img
 * /usr/share/qemu/keymaps/ar

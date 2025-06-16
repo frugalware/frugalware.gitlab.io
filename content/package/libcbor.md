@@ -12,7 +12,7 @@ size = "35148"
 usize = "152005"
 sha1sum = "1f4b7050be174fadc65da79bcf53812ef40d212d"
 depends = "['glibc>=2.34']"
-reverse_depends = "['fwupd', 'libfido2']"
+reverse_depends = "['fwupd', 'libfido2', 'qemu']"
 +++
 ### Description: 
 C library for parsing and generating CBOR, the general-purpose schema-less binary data format

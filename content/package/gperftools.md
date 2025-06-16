@@ -12,7 +12,7 @@ size = "576880"
 usize = "2381711"
 sha1sum = "b95fe3f553d4b03537b8bbe792c9da06ac63e477"
 depends = "['libstdc++', 'libunwind']"
-reverse_depends = "['libjxl', 'mariadb-libs']"
+reverse_depends = "['libjxl', 'mariadb-libs', 'qemu']"
 +++
 ### Description: 
 Fast, multi-threaded malloc() and nifty performance analysis tools

@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "1211000"
 usize = "4025887"
 sha1sum = "d8ef08f1abe65523f0073abc641ad9a3aa3c934d"
-depends = "['glibc', 'grep', 'hyperscan', 'jemalloc', 'shadow']"
+depends = "['glibc', 'grep', 'hyperscan', 'shadow']"
 +++
 ### Description: 
 Redis is an open source in-memory data structure store
