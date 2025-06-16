@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-tensile 6.4.1-1"
-version = "6.4.1-1"
+title = "python3-tensile 6.4.1-2"
+version = "6.4.1-2"
 description = "benchmark-driven backend libraries for general matrix-matrix multiplications"
-date = "2025-06-16T15:03:17"
+date = "2025-06-16T15:25:41"
 aliases = "/packages/222744"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/ROCm/tensile"
 arch = "x86_64"
-size = "2309440"
+size = "2309264"
 usize = "63211734"
-sha1sum = "992bcb81c299d3759d93b4d12b31e87d4938d4d8"
+sha1sum = "be7242f683ad834deeb5cf50a9add693f7c47735"
 depends = "['python3-joblib', 'python3-msgpack', 'pyyaml3']"
 +++
 ### Description: 
@@ -23,8 +23,8 @@ benchmark-driven backend libraries for general matrix-matrix multiplications
 * /usr/bin/TensileCreateLibrary
 * /usr/bin/TensileGetPath
 * /usr/bin/TensileRetuneLibrary
-* /usr/cmake/TensileConfig.cmake
-* /usr/cmake/TensileConfigVersion.cmake
+* /usr/lib/cmake/Tensile/TensileConfig.cmake
+* /usr/lib/cmake/Tensile/TensileConfigVersion.cmake
 * /usr/lib/python3.13/site-packages/tensile-4.43.0.dist-info/entry_points.txt
 * /usr/lib/python3.13/site-packages/tensile-4.43.0.dist-info/licenses/LICENSE.md
 * /usr/lib/python3.13/site-packages/tensile-4.43.0.dist-info/METADATA
