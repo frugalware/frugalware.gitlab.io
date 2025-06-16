@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vscode 1.101.0-2"
-version = "1.101.0-2"
+title = "vscode 1.101.0-3"
+version = "1.101.0-3"
 description = "The Open Source build of Visual Studio Code (vscode) editor"
-date = "2025-06-13T15:04:50"
+date = "2025-06-16T13:36:26"
 aliases = "/packages/219983"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/microsoft/vscode"
 arch = "x86_64"
-size = "97509048"
-usize = "384843016"
-sha1sum = "dc82b6f53c291cab8329c9f5e3d3d05edf40cbc8"
+size = "97511452"
+usize = "384842876"
+sha1sum = "357024f9dcd5ddb959c97ef76311c5989b20668e"
 depends = "['ffmpeg', 'libsecret', 'libxkbfile', 'ripgrep', 'sqlite3']"
 +++
 ### Description: 

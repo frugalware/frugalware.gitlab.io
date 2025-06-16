@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gegl 0.4.58-1"
-version = "0.4.58-1"
+title = "gegl 0.4.62-1"
+version = "0.4.62-1"
 description = "GEGL is a graph based image processing framework."
-date = "2025-03-25T12:57:36"
+date = "2025-06-16T13:48:32"
 aliases = "/packages/38778"
 categories = ['xlib-extra']
 upstreamurl = "http://www.gegl.org/"
 arch = "x86_64"
-size = "1857620"
-usize = "9720643"
-sha1sum = "efa7c3d8e59d4c07080a8868cdad87fa5565be4d"
+size = "1902616"
+usize = "9769473"
+sha1sum = "0334a2e162e60e29507f264710db39d8e7d1c85a"
 depends = "['babl>=0.1.92', 'dejavu-ttf', 'ffmpeg>=7.0', 'jasper>=4.2.4', 'json-glib>=1.0.4-3', 'libffi>=3.2.1', 'libjpeg-turbo', 'libraw>=0.21.1', 'librsvg>=2.40.12-2', 'libstdc++>=9.1.0-3', 'libtiff>=4.7.0', 'libwebp>=0.6.0', 'openexr>=3.3.0', 'suitesparse>=7.0.1']"
 reverse_depends = "['gimp', 'libmypaint']"
 +++
@@ -167,16 +167,16 @@ GEGL is a graph based image processing framework.
 * /usr/lib/girepository-1.0/Gegl-0.4.typelib
 * /usr/lib/libgegl-0.4.so
 * /usr/lib/libgegl-0.4.so.0
-* /usr/lib/libgegl-0.4.so.0.457.1
+* /usr/lib/libgegl-0.4.so.0.461.1
 * /usr/lib/libgegl-npd-0.4.so
 * /usr/lib/libgegl-sc-0.4.so
 * /usr/lib/pkgconfig/gegl-0.4.pc
 * /usr/lib/pkgconfig/gegl-sc-0.4.pc
-* /usr/share/doc/gegl-0.4.58/AUTHORS
-* /usr/share/doc/gegl-0.4.58/COPYING
-* /usr/share/doc/gegl-0.4.58/COPYING.LESSER
-* /usr/share/doc/gegl-0.4.58/NEWS
-* /usr/share/doc/gegl-0.4.58/README
+* /usr/share/doc/gegl-0.4.62/AUTHORS
+* /usr/share/doc/gegl-0.4.62/COPYING
+* /usr/share/doc/gegl-0.4.62/COPYING.LESSER
+* /usr/share/doc/gegl-0.4.62/NEWS
+* /usr/share/doc/gegl-0.4.62/README
 * /usr/share/gir-1.0/Gegl-0.4.gir
 * /usr/share/vala/vapi/gegl-0.4.deps
 * /usr/share/vala/vapi/gegl-0.4.vapi
