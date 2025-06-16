@@ -12,7 +12,7 @@ size = "189592"
 usize = "1020649"
 sha1sum = "428f3ac806786624100b576bf5eef31a7bba4540"
 depends = "['libyaml', 'python3>=3.13']"
-reverse_depends = "['crawl', 'crawl-tiles', 'lirc', 'lutris', 'picard', 'python3-kubernetes', 'python3-myst-parser']"
+reverse_depends = "['crawl', 'crawl-tiles', 'lirc', 'lutris', 'picard', 'python3-kubernetes', 'python3-myst-parser', 'python3-tensile']"
 +++
 ### Description: 
 a complete python YAML 1.1 parser

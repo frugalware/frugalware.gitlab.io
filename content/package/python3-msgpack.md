@@ -12,7 +12,7 @@ size = "87832"
 usize = "294597"
 sha1sum = "c5494bd4c28b5dbf2770b116cc207eecdd8275be"
 depends = "['python3>=3.12']"
-reverse_depends = "['borg', 'python3-cachecontrol']"
+reverse_depends = "['borg', 'python3-cachecontrol', 'python3-tensile']"
 +++
 ### Description: 
 Python module for MessagePack serialization/deserialization library

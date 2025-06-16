@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "redis 7.4.2-1"
-version = "7.4.2-1"
+title = "redis 8.0.2-2"
+version = "8.0.2-2"
 description = "Redis is an open source in-memory data structure store"
-date = "2025-02-24T14:45:59"
+date = "2025-06-16T14:29:12"
 aliases = "/packages/219808"
 categories = ['apps-extra']
 upstreamurl = "https://redis.io/"
 arch = "x86_64"
-size = "1211000"
-usize = "4025887"
-sha1sum = "d8ef08f1abe65523f0073abc641ad9a3aa3c934d"
-depends = "['glibc', 'grep', 'hyperscan', 'shadow']"
+size = "1293140"
+usize = "4198228"
+sha1sum = "ceca8ba585bfb21baae8f828f6a5cc95df1d5a68"
+depends = "['gperftools', 'grep', 'hyperscan', 'libsystemd', 'shadow']"
 +++
 ### Description: 
 Redis is an open source in-memory data structure store
@@ -29,7 +29,7 @@ Redis is an open source in-memory data structure store
 * /usr/lib/systemd/system/redis.service
 * /usr/lib/sysusers.d/redis.conf
 * /usr/lib/tmpfiles.d/redis.conf
-* /usr/share/doc/redis-7.4.2/00-RELEASENOTES
-* /usr/share/doc/redis-7.4.2/BUGS
-* /usr/share/doc/redis-7.4.2/INSTALL
-* /usr/share/doc/redis-7.4.2/README.md
+* /usr/share/doc/redis-8.0.2/00-RELEASENOTES
+* /usr/share/doc/redis-8.0.2/BUGS
+* /usr/share/doc/redis-8.0.2/INSTALL
+* /usr/share/doc/redis-8.0.2/README.md

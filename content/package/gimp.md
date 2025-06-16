@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gimp 3.0.2-1"
-version = "3.0.2-1"
+title = "gimp 3.0.4-1"
+version = "3.0.4-1"
 description = "The GNU Image Manipulation Program"
-date = "2025-03-25T13:03:04"
+date = "2025-06-16T14:24:50"
 aliases = "/packages/3029"
 categories = ['xapps-extra']
 upstreamurl = "http://www.gimp.org/"
 arch = "x86_64"
-size = "20308572"
-usize = "117700349"
-sha1sum = "b075a540a9be03c294acc21b8c21f7f0bd83521d"
-depends = "['aalib', 'appstream-glib', 'darktable>=2.2.5-4', 'gegl>=0.4.58', 'ghostscript>=10.0.0', 'glib-networking', 'iso-codes', 'libgexiv2', 'libheif', 'libmng', 'libmypaint>=1.6', 'libxmu', 'libxpm', 'mypaint-brushes', 'openblas', 'poppler-glib>=0.60.1-2', 'pygobject3-cairo', 'vala', 'xdg-utils']"
+size = "20288528"
+usize = "117486588"
+sha1sum = "04d2f2294812bc8b5c0dde00c72381b17353b611"
+depends = "['aalib', 'appstream-glib', 'darktable>=2.2.5-4', 'gegl>=0.4.62', 'ghostscript>=10.0.0', 'glib-networking', 'iso-codes', 'libgexiv2', 'libheif', 'libmng', 'libmypaint>=1.6', 'libxmu', 'libxpm', 'mypaint-brushes', 'openblas', 'poppler-glib>=0.60.1-2', 'pygobject3-cairo', 'vala', 'xdg-utils']"
 reverse_depends = "['gmic', 'gmic-gimp-plugin']"
 +++
 ### Description: 
@@ -408,6 +408,7 @@ The GNU Image Manipulation Program
 * /usr/lib/gimp/3.0/plug-ins/file-ico/file-ico
 * /usr/lib/gimp/3.0/plug-ins/file-jp2-load/file-jp2-load
 * /usr/lib/gimp/3.0/plug-ins/file-jpeg/file-jpeg
+* /usr/lib/gimp/3.0/plug-ins/file-jpegxl/file-jpegxl
 * /usr/lib/gimp/3.0/plug-ins/file-mng/file-mng
 * /usr/lib/gimp/3.0/plug-ins/file-openraster/file-openraster.py
 * /usr/lib/gimp/3.0/plug-ins/file-pat/file-pat
@@ -492,45 +493,45 @@ The GNU Image Manipulation Program
 * /usr/lib/girepository-1.0/GimpUi-3.0.typelib
 * /usr/lib/libgimp-3.0.so
 * /usr/lib/libgimp-3.0.so.0
-* /usr/lib/libgimp-3.0.so.0.0.2
+* /usr/lib/libgimp-3.0.so.0.0.4
 * /usr/lib/libgimp-scriptfu-3.0.so
 * /usr/lib/libgimp-scriptfu-3.0.so.0
-* /usr/lib/libgimp-scriptfu-3.0.so.0.0.2
+* /usr/lib/libgimp-scriptfu-3.0.so.0.0.4
 * /usr/lib/libgimpbase-3.0.so
 * /usr/lib/libgimpbase-3.0.so.0
-* /usr/lib/libgimpbase-3.0.so.0.0.2
+* /usr/lib/libgimpbase-3.0.so.0.0.4
 * /usr/lib/libgimpcolor-3.0.so
 * /usr/lib/libgimpcolor-3.0.so.0
-* /usr/lib/libgimpcolor-3.0.so.0.0.2
+* /usr/lib/libgimpcolor-3.0.so.0.0.4
 * /usr/lib/libgimpconfig-3.0.so
 * /usr/lib/libgimpconfig-3.0.so.0
-* /usr/lib/libgimpconfig-3.0.so.0.0.2
+* /usr/lib/libgimpconfig-3.0.so.0.0.4
 * /usr/lib/libgimpmath-3.0.so
 * /usr/lib/libgimpmath-3.0.so.0
-* /usr/lib/libgimpmath-3.0.so.0.0.2
+* /usr/lib/libgimpmath-3.0.so.0.0.4
 * /usr/lib/libgimpmodule-3.0.so
 * /usr/lib/libgimpmodule-3.0.so.0
-* /usr/lib/libgimpmodule-3.0.so.0.0.2
+* /usr/lib/libgimpmodule-3.0.so.0.0.4
 * /usr/lib/libgimpthumb-3.0.so
 * /usr/lib/libgimpthumb-3.0.so.0
-* /usr/lib/libgimpthumb-3.0.so.0.0.2
+* /usr/lib/libgimpthumb-3.0.so.0.0.4
 * /usr/lib/libgimpui-3.0.so
 * /usr/lib/libgimpui-3.0.so.0
-* /usr/lib/libgimpui-3.0.so.0.0.2
+* /usr/lib/libgimpui-3.0.so.0.0.4
 * /usr/lib/libgimpwidgets-3.0.so
 * /usr/lib/libgimpwidgets-3.0.so.0
-* /usr/lib/libgimpwidgets-3.0.so.0.0.2
+* /usr/lib/libgimpwidgets-3.0.so.0.0.4
 * /usr/lib/pkgconfig/gimp-3.0.pc
 * /usr/lib/pkgconfig/gimpthumb-3.0.pc
 * /usr/lib/pkgconfig/gimpui-3.0.pc
 * /usr/share/applications/gimp.desktop
-* /usr/share/doc/gimp-3.0.2/AUTHORS
-* /usr/share/doc/gimp-3.0.2/COPYING
-* /usr/share/doc/gimp-3.0.2/INSTALL
-* /usr/share/doc/gimp-3.0.2/LICENSE
-* /usr/share/doc/gimp-3.0.2/NEWS
-* /usr/share/doc/gimp-3.0.2/README
-* /usr/share/doc/gimp-3.0.2/README.i18n
+* /usr/share/doc/gimp-3.0.4/AUTHORS
+* /usr/share/doc/gimp-3.0.4/COPYING
+* /usr/share/doc/gimp-3.0.4/INSTALL
+* /usr/share/doc/gimp-3.0.4/LICENSE
+* /usr/share/doc/gimp-3.0.4/NEWS
+* /usr/share/doc/gimp-3.0.4/README
+* /usr/share/doc/gimp-3.0.4/README.i18n
 * /usr/share/gimp/3.0/brushes/Basic/1-pixel.vbr
 * /usr/share/gimp/3.0/brushes/Basic/Block-01.vbr
 * /usr/share/gimp/3.0/brushes/Basic/Block-02.vbr
