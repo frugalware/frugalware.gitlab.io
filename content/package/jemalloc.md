@@ -12,7 +12,7 @@ size = "311564"
 usize = "1197305"
 sha1sum = "5ab8880c6f3d720646a6ffe74317fd7e838d6d95"
 depends = "['glibc>=2.29-6']"
-reverse_depends = "['blender', 'firefox', 'inkscape', 'mariadb', 'openvdb', 'qemu', 'redis', 'telegram-desktop']"
+reverse_depends = "['blender', 'firefox', 'inkscape', 'openvdb', 'qemu', 'redis', 'telegram-desktop']"
 +++
 ### Description: 
 General-purpose scalable concurrent malloc(3) implementation
