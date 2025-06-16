@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libwacom 2.16.0-1"
-version = "2.16.0-1"
+title = "libwacom 2.16.1-1"
+version = "2.16.1-1"
 description = "Tablet Information Client Library"
-date = "2025-06-13T10:23:52"
+date = "2025-06-16T06:07:03"
 aliases = "/packages/153043"
 categories = ['x11']
 upstreamurl = "https://github.com/linuxwacom/libwacom"
 arch = "x86_64"
-size = "144404"
-usize = "1567177"
-sha1sum = "b8d0776e0deea970d259b8241b4e14225c265861"
+size = "144440"
+usize = "1567205"
+sha1sum = "f227db05841a23059f4b4a8613415252d1ff391f"
 depends = "['glib2>=2.49.7-2', 'libevdev', 'libffi>=3.2.1-2', 'libgudev>=230-7', 'libudev>=231-6']"
 reverse_depends = "['libinput']"
 +++
@@ -29,9 +29,9 @@ Tablet Information Client Library
 * /usr/lib/pkgconfig/libwacom.pc
 * /usr/lib/udev/hwdb.d/65-libwacom.hwdb
 * /usr/lib/udev/rules.d/65-libwacom.rules
-* /usr/share/doc/libwacom-2.16.0/COPYING
-* /usr/share/doc/libwacom-2.16.0/NEWS
-* /usr/share/doc/libwacom-2.16.0/README.md
+* /usr/share/doc/libwacom-2.16.1/COPYING
+* /usr/share/doc/libwacom-2.16.1/NEWS
+* /usr/share/doc/libwacom-2.16.1/README.md
 * /usr/share/libwacom/chuwi-minibookx.tablet
 * /usr/share/libwacom/dell-canvas-27.tablet
 * /usr/share/libwacom/elan-0732.tablet
