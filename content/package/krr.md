@@ -1,0 +1,177 @@
++++
+draft = false
+title = "krr 1.23.0-1"
+version = "1.23.0-1"
+description = "Prometheus-based Kubernetes Resource Recommendations"
+date = "2025-04-15T07:38:16"
+aliases = "/packages/222703"
+categories = ['apps-extra']
+upstreamurl = "https://github.com/robusta-dev/krr"
+arch = "x86_64"
+size = "122352"
+usize = "744142"
+sha1sum = "80bab10bbd47ae6c2e35a552c1157e2902de0fbc"
+depends = "['python3-charset-normalizer', 'python3-click', 'python3-colorama', 'python3-commonmark', 'python3-fonttools', 'python3-idna', 'python3-kubernetes', 'python3-numpy', 'python3-packaging', 'python3-pillow', 'python3-pyasn1', 'python3-pydantic', 'python3-pygments', 'python3-pytz', 'python3-regex', 'python3-requests', 'python3-setuptools', 'python3-shellingham', 'python3-six', 'python3-urllib3', 'python3-zipp']"
++++
+### Description: 
+Prometheus-based Kubernetes Resource Recommendations
+
+### Files: 
+* /usr/bin/krr
+* /usr/lib/python3.13/site-packages/robusta_krr-1.8.2.dev0.dist-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/robusta_krr-1.8.2.dev0.dist-info/LICENSE
+* /usr/lib/python3.13/site-packages/robusta_krr-1.8.2.dev0.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/robusta_krr-1.8.2.dev0.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/robusta_krr-1.8.2.dev0.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/robusta_krr/api/formatters.py
+* /usr/lib/python3.13/site-packages/robusta_krr/api/models.py
+* /usr/lib/python3.13/site-packages/robusta_krr/api/strategies.py
+* /usr/lib/python3.13/site-packages/robusta_krr/api/__pycache__/formatters.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/api/__pycache__/formatters.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/api/__pycache__/models.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/api/__pycache__/models.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/api/__pycache__/strategies.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/api/__pycache__/strategies.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/common/ssl_utils.py
+* /usr/lib/python3.13/site-packages/robusta_krr/common/__pycache__/ssl_utils.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/common/__pycache__/ssl_utils.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/core/abstract/formatters.py
+* /usr/lib/python3.13/site-packages/robusta_krr/core/abstract/metrics.py
+* /usr/lib/python3.13/site-packages/robusta_krr/core/abstract/strategies.py
+* /usr/lib/python3.13/site-packages/robusta_krr/core/abstract/__pycache__/formatters.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/core/abstract/__pycache__/formatters.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/core/abstract/__pycache__/metrics.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/core/abstract/__pycache__/metrics.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/core/abstract/__pycache__/strategies.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/core/abstract/__pycache__/strategies.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/core/integrations/kubernetes/config_patch.py
+* /usr/lib/python3.13/site-packages/robusta_krr/core/integrations/kubernetes/__init__.py
+* /usr/lib/python3.13/site-packages/robusta_krr/core/integrations/kubernetes/__pycache__/config_patch.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/core/integrations/kubernetes/__pycache__/config_patch.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/core/integrations/kubernetes/__pycache__/__init__.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/core/integrations/kubernetes/__pycache__/__init__.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/core/integrations/openshift/token.py
+* /usr/lib/python3.13/site-packages/robusta_krr/core/integrations/openshift/__init__.py
+* /usr/lib/python3.13/site-packages/robusta_krr/core/integrations/openshift/__pycache__/token.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/core/integrations/openshift/__pycache__/token.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/core/integrations/openshift/__pycache__/__init__.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/core/integrations/openshift/__pycache__/__init__.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/core/integrations/prometheus/loader.py
+* /usr/lib/python3.13/site-packages/robusta_krr/core/integrations/prometheus/metrics/base.py
+* /usr/lib/python3.13/site-packages/robusta_krr/core/integrations/prometheus/metrics/cpu.py
+* /usr/lib/python3.13/site-packages/robusta_krr/core/integrations/prometheus/metrics/memory.py
+* /usr/lib/python3.13/site-packages/robusta_krr/core/integrations/prometheus/metrics/__init__.py
+* /usr/lib/python3.13/site-packages/robusta_krr/core/integrations/prometheus/metrics/__pycache__/base.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/core/integrations/prometheus/metrics/__pycache__/base.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/core/integrations/prometheus/metrics/__pycache__/cpu.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/core/integrations/prometheus/metrics/__pycache__/cpu.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/core/integrations/prometheus/metrics/__pycache__/memory.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/core/integrations/prometheus/metrics/__pycache__/memory.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/core/integrations/prometheus/metrics/__pycache__/__init__.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/core/integrations/prometheus/metrics/__pycache__/__init__.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/core/integrations/prometheus/metrics_service/base_metric_service.py
+* /usr/lib/python3.13/site-packages/robusta_krr/core/integrations/prometheus/metrics_service/mimir_metrics_service.py
+* /usr/lib/python3.13/site-packages/robusta_krr/core/integrations/prometheus/metrics_service/prometheus_metrics_service.py
+* /usr/lib/python3.13/site-packages/robusta_krr/core/integrations/prometheus/metrics_service/thanos_metrics_service.py
+* /usr/lib/python3.13/site-packages/robusta_krr/core/integrations/prometheus/metrics_service/victoria_metrics_service.py
+* /usr/lib/python3.13/site-packages/robusta_krr/core/integrations/prometheus/metrics_service/__pycache__/base_metric_service.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/core/integrations/prometheus/metrics_service/__pycache__/base_metric_service.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/core/integrations/prometheus/metrics_service/__pycache__/mimir_metrics_service.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/core/integrations/prometheus/metrics_service/__pycache__/mimir_metrics_service.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/core/integrations/prometheus/metrics_service/__pycache__/prometheus_metrics_service.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/core/integrations/prometheus/metrics_service/__pycache__/prometheus_metrics_service.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/core/integrations/prometheus/metrics_service/__pycache__/thanos_metrics_service.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/core/integrations/prometheus/metrics_service/__pycache__/thanos_metrics_service.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/core/integrations/prometheus/metrics_service/__pycache__/victoria_metrics_service.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/core/integrations/prometheus/metrics_service/__pycache__/victoria_metrics_service.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/core/integrations/prometheus/prometheus_utils.py
+* /usr/lib/python3.13/site-packages/robusta_krr/core/integrations/prometheus/__init__.py
+* /usr/lib/python3.13/site-packages/robusta_krr/core/integrations/prometheus/__pycache__/loader.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/core/integrations/prometheus/__pycache__/loader.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/core/integrations/prometheus/__pycache__/prometheus_utils.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/core/integrations/prometheus/__pycache__/prometheus_utils.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/core/integrations/prometheus/__pycache__/__init__.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/core/integrations/prometheus/__pycache__/__init__.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/core/models/allocations.py
+* /usr/lib/python3.13/site-packages/robusta_krr/core/models/config.py
+* /usr/lib/python3.13/site-packages/robusta_krr/core/models/objects.py
+* /usr/lib/python3.13/site-packages/robusta_krr/core/models/result.py
+* /usr/lib/python3.13/site-packages/robusta_krr/core/models/severity.py
+* /usr/lib/python3.13/site-packages/robusta_krr/core/models/__pycache__/allocations.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/core/models/__pycache__/allocations.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/core/models/__pycache__/config.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/core/models/__pycache__/config.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/core/models/__pycache__/objects.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/core/models/__pycache__/objects.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/core/models/__pycache__/result.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/core/models/__pycache__/result.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/core/models/__pycache__/severity.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/core/models/__pycache__/severity.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/core/runner.py
+* /usr/lib/python3.13/site-packages/robusta_krr/core/__init__.py
+* /usr/lib/python3.13/site-packages/robusta_krr/core/__pycache__/runner.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/core/__pycache__/runner.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/core/__pycache__/__init__.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/core/__pycache__/__init__.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/formatters/csv.py
+* /usr/lib/python3.13/site-packages/robusta_krr/formatters/html.py
+* /usr/lib/python3.13/site-packages/robusta_krr/formatters/json.py
+* /usr/lib/python3.13/site-packages/robusta_krr/formatters/pprint.py
+* /usr/lib/python3.13/site-packages/robusta_krr/formatters/table.py
+* /usr/lib/python3.13/site-packages/robusta_krr/formatters/yaml.py
+* /usr/lib/python3.13/site-packages/robusta_krr/formatters/__init__.py
+* /usr/lib/python3.13/site-packages/robusta_krr/formatters/__pycache__/csv.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/formatters/__pycache__/csv.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/formatters/__pycache__/html.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/formatters/__pycache__/html.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/formatters/__pycache__/json.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/formatters/__pycache__/json.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/formatters/__pycache__/pprint.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/formatters/__pycache__/pprint.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/formatters/__pycache__/table.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/formatters/__pycache__/table.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/formatters/__pycache__/yaml.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/formatters/__pycache__/yaml.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/formatters/__pycache__/__init__.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/formatters/__pycache__/__init__.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/main.py
+* /usr/lib/python3.13/site-packages/robusta_krr/strategies/simple.py
+* /usr/lib/python3.13/site-packages/robusta_krr/strategies/simple_limit.py
+* /usr/lib/python3.13/site-packages/robusta_krr/strategies/__init__.py
+* /usr/lib/python3.13/site-packages/robusta_krr/strategies/__pycache__/simple.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/strategies/__pycache__/simple.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/strategies/__pycache__/simple_limit.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/strategies/__pycache__/simple_limit.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/strategies/__pycache__/__init__.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/strategies/__pycache__/__init__.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/utils/batched.py
+* /usr/lib/python3.13/site-packages/robusta_krr/utils/intro.py
+* /usr/lib/python3.13/site-packages/robusta_krr/utils/object_like_dict.py
+* /usr/lib/python3.13/site-packages/robusta_krr/utils/patch.py
+* /usr/lib/python3.13/site-packages/robusta_krr/utils/progress_bar.py
+* /usr/lib/python3.13/site-packages/robusta_krr/utils/resource_units.py
+* /usr/lib/python3.13/site-packages/robusta_krr/utils/service_discovery.py
+* /usr/lib/python3.13/site-packages/robusta_krr/utils/version.py
+* /usr/lib/python3.13/site-packages/robusta_krr/utils/__pycache__/batched.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/utils/__pycache__/batched.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/utils/__pycache__/intro.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/utils/__pycache__/intro.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/utils/__pycache__/object_like_dict.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/utils/__pycache__/object_like_dict.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/utils/__pycache__/patch.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/utils/__pycache__/patch.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/utils/__pycache__/progress_bar.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/utils/__pycache__/progress_bar.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/utils/__pycache__/resource_units.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/utils/__pycache__/resource_units.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/utils/__pycache__/service_discovery.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/utils/__pycache__/service_discovery.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/utils/__pycache__/version.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/utils/__pycache__/version.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/__init__.py
+* /usr/lib/python3.13/site-packages/robusta_krr/__pycache__/main.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/__pycache__/main.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/__pycache__/__init__.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/__pycache__/__init__.cpython-313.pyc
+* /usr/share/doc/krr-1.23.0/LICENSE
+* /usr/share/doc/krr-1.23.0/README.md

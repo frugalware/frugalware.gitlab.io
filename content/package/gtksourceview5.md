@@ -1,0 +1,196 @@
++++
+draft = false
+title = "gtksourceview5 5.16.0-2"
+version = "5.16.0-2"
+description = "A text widget adding syntax highlighting and more to GNOME"
+date = "2025-05-20T13:50:46"
+aliases = "/packages/222581"
+categories = ['gnome']
+upstreamurl = "http://www.gnome.org/"
+arch = "x86_64"
+size = "948184"
+usize = "5991651"
+sha1sum = "347a176799e1fa8d14b07d89399abd24712a00af"
+depends = "['gtk+4', 'libxml2>=2.14.3']"
+reverse_depends = "['alpaca', 'gtksourceview5-doc', 'librest']"
++++
+### Description: 
+A text widget adding syntax highlighting and more to GNOME
+
+### Files: 
+* /usr/include/gtksourceview-5/gtksourceview/completion-providers/snippets/gtksourcecompletionsnippets.h
+* /usr/include/gtksourceview-5/gtksourceview/completion-providers/words/gtksourcecompletionwords.h
+* /usr/include/gtksourceview-5/gtksourceview/gtksource-enumtypes.h
+* /usr/include/gtksourceview-5/gtksourceview/gtksource.h
+* /usr/include/gtksourceview-5/gtksourceview/gtksourcebuffer.h
+* /usr/include/gtksourceview-5/gtksourceview/gtksourcecompletion.h
+* /usr/include/gtksourceview-5/gtksourceview/gtksourcecompletioncell.h
+* /usr/include/gtksourceview-5/gtksourceview/gtksourcecompletioncontext.h
+* /usr/include/gtksourceview-5/gtksourceview/gtksourcecompletionproposal.h
+* /usr/include/gtksourceview-5/gtksourceview/gtksourcecompletionprovider.h
+* /usr/include/gtksourceview-5/gtksourceview/gtksourceencoding.h
+* /usr/include/gtksourceview-5/gtksourceview/gtksourcefile.h
+* /usr/include/gtksourceview-5/gtksourceview/gtksourcefileloader.h
+* /usr/include/gtksourceview-5/gtksourceview/gtksourcefilesaver.h
+* /usr/include/gtksourceview-5/gtksourceview/gtksourcegutter.h
+* /usr/include/gtksourceview-5/gtksourceview/gtksourcegutterlines.h
+* /usr/include/gtksourceview-5/gtksourceview/gtksourcegutterrenderer.h
+* /usr/include/gtksourceview-5/gtksourceview/gtksourcegutterrendererpixbuf.h
+* /usr/include/gtksourceview-5/gtksourceview/gtksourcegutterrenderertext.h
+* /usr/include/gtksourceview-5/gtksourceview/gtksourcehover.h
+* /usr/include/gtksourceview-5/gtksourceview/gtksourcehovercontext.h
+* /usr/include/gtksourceview-5/gtksourceview/gtksourcehoverdisplay.h
+* /usr/include/gtksourceview-5/gtksourceview/gtksourcehoverprovider.h
+* /usr/include/gtksourceview-5/gtksourceview/gtksourceindenter.h
+* /usr/include/gtksourceview-5/gtksourceview/gtksourceinit.h
+* /usr/include/gtksourceview-5/gtksourceview/gtksourcelanguage.h
+* /usr/include/gtksourceview-5/gtksourceview/gtksourcelanguagemanager.h
+* /usr/include/gtksourceview-5/gtksourceview/gtksourcemap.h
+* /usr/include/gtksourceview-5/gtksourceview/gtksourcemark.h
+* /usr/include/gtksourceview-5/gtksourceview/gtksourcemarkattributes.h
+* /usr/include/gtksourceview-5/gtksourceview/gtksourceprintcompositor.h
+* /usr/include/gtksourceview-5/gtksourceview/gtksourceregion.h
+* /usr/include/gtksourceview-5/gtksourceview/gtksourcescheduler.h
+* /usr/include/gtksourceview-5/gtksourceview/gtksourcesearchcontext.h
+* /usr/include/gtksourceview-5/gtksourceview/gtksourcesearchsettings.h
+* /usr/include/gtksourceview-5/gtksourceview/gtksourcesnippet.h
+* /usr/include/gtksourceview-5/gtksourceview/gtksourcesnippetchunk.h
+* /usr/include/gtksourceview-5/gtksourceview/gtksourcesnippetcontext.h
+* /usr/include/gtksourceview-5/gtksourceview/gtksourcesnippetmanager.h
+* /usr/include/gtksourceview-5/gtksourceview/gtksourcespacedrawer.h
+* /usr/include/gtksourceview-5/gtksourceview/gtksourcestyle.h
+* /usr/include/gtksourceview-5/gtksourceview/gtksourcestylescheme.h
+* /usr/include/gtksourceview-5/gtksourceview/gtksourcestyleschemechooser.h
+* /usr/include/gtksourceview-5/gtksourceview/gtksourcestyleschemechooserbutton.h
+* /usr/include/gtksourceview-5/gtksourceview/gtksourcestyleschemechooserwidget.h
+* /usr/include/gtksourceview-5/gtksourceview/gtksourcestyleschememanager.h
+* /usr/include/gtksourceview-5/gtksourceview/gtksourcestyleschemepreview.h
+* /usr/include/gtksourceview-5/gtksourceview/gtksourcetag.h
+* /usr/include/gtksourceview-5/gtksourceview/gtksourcetypes.h
+* /usr/include/gtksourceview-5/gtksourceview/gtksourceutils.h
+* /usr/include/gtksourceview-5/gtksourceview/gtksourceversion.h
+* /usr/include/gtksourceview-5/gtksourceview/gtksourceview.h
+* /usr/include/gtksourceview-5/gtksourceview/gtksourcevimimcontext.h
+* /usr/lib/girepository-1.0/GtkSource-5.typelib
+* /usr/lib/libgtksourceview-5.so
+* /usr/lib/libgtksourceview-5.so.0
+* /usr/lib/libgtksourceview-5.so.0.0.0
+* /usr/lib/pkgconfig/gtksourceview-5.pc
+* /usr/share/doc/gtksourceview5-5.16.0/AUTHORS
+* /usr/share/doc/gtksourceview5-5.16.0/COPYING
+* /usr/share/doc/gtksourceview5-5.16.0/HACKING
+* /usr/share/doc/gtksourceview5-5.16.0/NEWS
+* /usr/share/doc/gtksourceview5-5.16.0/README.md
+* /usr/share/doc/gtksourceview5-5.16.0/README.win32.md
+* /usr/share/gir-1.0/GtkSource-5.gir
+* /usr/share/gtksourceview-5/fonts/BuilderBlocks.ttf
+* /usr/share/gtksourceview-5/language-specs/frugalbuild.lang
+* /usr/share/gtksourceview-5/language-specs/language.dtd
+* /usr/share/gtksourceview-5/language-specs/language.rng
+* /usr/share/gtksourceview-5/language-specs/language2.rng
+* /usr/share/gtksourceview-5/snippets/snippets.rng
+* /usr/share/gtksourceview-5/styles/styles.rng
+* /usr/share/icons/hicolor/scalable/actions/completion-snippet-symbolic.svg
+* /usr/share/icons/hicolor/scalable/actions/completion-word-symbolic.svg
+* /usr/share/icons/hicolor/scalable/actions/lang-class-symbolic.svg
+* /usr/share/icons/hicolor/scalable/actions/lang-define-symbolic.svg
+* /usr/share/icons/hicolor/scalable/actions/lang-enum-symbolic.svg
+* /usr/share/icons/hicolor/scalable/actions/lang-enum-value-symbolic.svg
+* /usr/share/icons/hicolor/scalable/actions/lang-function-symbolic.svg
+* /usr/share/icons/hicolor/scalable/actions/lang-include-symbolic.svg
+* /usr/share/icons/hicolor/scalable/actions/lang-method-symbolic.svg
+* /usr/share/icons/hicolor/scalable/actions/lang-namespace-symbolic.svg
+* /usr/share/icons/hicolor/scalable/actions/lang-struct-field-symbolic.svg
+* /usr/share/icons/hicolor/scalable/actions/lang-struct-symbolic.svg
+* /usr/share/icons/hicolor/scalable/actions/lang-typedef-symbolic.svg
+* /usr/share/icons/hicolor/scalable/actions/lang-union-symbolic.svg
+* /usr/share/icons/hicolor/scalable/actions/lang-variable-symbolic.svg
+* /usr/share/locale/ab/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/ar/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/as/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/ast/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/az/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/be/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/bg/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/bn/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/bn_IN/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/bs/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/ca/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/cs/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/cy/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/da/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/de/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/dz/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/el/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/en@shaw/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/en_CA/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/eo/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/es/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/et/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/eu/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/fa/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/fi/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/fr/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/fur/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/ga/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/gl/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/gu/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/he/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/hi/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/hr/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/hu/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/id/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/ie/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/is/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/it/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/ja/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/ka/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/kab/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/kk/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/kn/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/ko/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/lt/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/lv/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/mai/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/mg/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/mk/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/ml/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/mn/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/mr/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/ms/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/nb/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/ne/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/nl/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/nn/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/oc/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/or/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/pa/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/pl/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/pt/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/ro/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/ru/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/rw/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/si/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/sk/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/sl/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/sq/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/sr/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/sr@latin/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/sv/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/ta/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/te/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/tg/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/th/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/tr/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/ug/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/uk/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/vi/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/xh/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/zh_HK/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/gtksourceview-5.mo
+* /usr/share/vala/vapi/gtksourceview-5.deps
+* /usr/share/vala/vapi/gtksourceview-5.vapi
