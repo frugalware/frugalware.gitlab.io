@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "plasma-desktop 6.3.5-2"
-version = "6.3.5-2"
+title = "plasma-desktop 6.4.0-1"
+version = "6.4.0-1"
 description = "KDE Plasma Desktop."
-date = "2025-06-04T14:37:28"
+date = "2025-06-17T17:14:22"
 aliases = "/packages/218423"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "17513252"
-usize = "34791983"
-sha1sum = "7af1bb64c71ea171662972ce0768573791638170"
-depends = "['hack', 'kactivitymanagerd>=6.3.5', 'kauth>=6.14.0', 'kcmutils>=6.14.0', 'knewstuff>=6.14.0', 'knotifyconfig>=6.14.0', 'kpeople>=6.14.0', 'kpipewire', 'krunner>=6.14.0', 'libcanberra>=0.30-14', 'libxft>=2.3.2-2', 'libxkbfile>=1.0.9-3', 'noto-emoji', 'packagekit-qt6>=1.0.1', 'plasma-activities-stats>=6.3.5', 'plasma-workspace>=6.3.5', 'qqc2-desktop-style>=6.14.0', 'setxkbmap', 'xdg-user-dirs', 'xf86-input-libinput', 'xkeyboard-config']"
+size = "17409812"
+usize = "34312794"
+sha1sum = "c986f3662e33af91c13374cdcc36de2847291d20"
+depends = "['hack', 'kactivitymanagerd>=6.4.0', 'kauth>=6.15.0', 'kcmutils>=6.15.0', 'knewstuff>=6.15.0', 'knotifyconfig>=6.15.0', 'kpeople>=6.15.0', 'kpipewire', 'krunner>=6.15.0', 'libcanberra>=0.30-14', 'libxft>=2.3.2-2', 'libxkbfile>=1.0.9-3', 'noto-emoji', 'packagekit-qt6>=1.0.1', 'plasma-activities-stats>=6.4.0', 'plasma-workspace>=6.4.0', 'qqc2-desktop-style>=6.15.0', 'setxkbmap', 'xdg-user-dirs', 'xf86-input-libinput', 'xkeyboard-config']"
 +++
 ### Description: 
 KDE Plasma Desktop.
@@ -38,7 +38,6 @@ KDE Plasma Desktop.
 * /usr/lib/qt6/plugins/plasma/kcms/systemsettings/kcm_access.so
 * /usr/lib/qt6/plugins/plasma/kcms/systemsettings/kcm_activities.so
 * /usr/lib/qt6/plugins/plasma/kcms/systemsettings/kcm_baloofile.so
-* /usr/lib/qt6/plugins/plasma/kcms/systemsettings/kcm_componentchooser.so
 * /usr/lib/qt6/plugins/plasma/kcms/systemsettings/kcm_desktoppaths.so
 * /usr/lib/qt6/plugins/plasma/kcms/systemsettings/kcm_gamecontroller.so
 * /usr/lib/qt6/plugins/plasma/kcms/systemsettings/kcm_kded.so
@@ -67,18 +66,26 @@ KDE Plasma Desktop.
 * /usr/lib/qt6/qml/org/kde/plasma/emoji/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/plasma/emoji/libEmojierDeclarativePlugin.so
 * /usr/lib/qt6/qml/org/kde/plasma/emoji/qmldir
+* /usr/lib/qt6/qml/org/kde/plasma/private/kcm_keyboard/kcm_keyboard_declarative.qmltypes
+* /usr/lib/qt6/qml/org/kde/plasma/private/kcm_keyboard/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/plasma/private/kcm_keyboard/libkcm_keyboard_declarative.so
 * /usr/lib/qt6/qml/org/kde/plasma/private/kcm_keyboard/qmldir
+* /usr/lib/qt6/qml/org/kde/plasma/private/kimpanel/kde-qmlmodule.version
+* /usr/lib/qt6/qml/org/kde/plasma/private/kimpanel/kimpanelplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/plasma/private/kimpanel/libkimpanelplugin.so
 * /usr/lib/qt6/qml/org/kde/plasma/private/kimpanel/qmldir
 * /usr/lib/qt6/qml/org/kde/plasma/private/pager/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/plasma/private/pager/libpagerplugin.so
 * /usr/lib/qt6/qml/org/kde/plasma/private/pager/pagerplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/plasma/private/pager/qmldir
+* /usr/lib/qt6/qml/org/kde/plasma/private/showdesktop/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/plasma/private/showdesktop/libshowdesktopplugin.so
 * /usr/lib/qt6/qml/org/kde/plasma/private/showdesktop/qmldir
+* /usr/lib/qt6/qml/org/kde/plasma/private/showdesktop/showdesktopplugin.qmltypes
+* /usr/lib/qt6/qml/org/kde/plasma/private/taskmanager/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/plasma/private/taskmanager/libtaskmanagerplugin.so
 * /usr/lib/qt6/qml/org/kde/plasma/private/taskmanager/qmldir
+* /usr/lib/qt6/qml/org/kde/plasma/private/taskmanager/taskmanagerplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/plasma/private/trash/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/plasma/private/trash/libtrashplugin.so
 * /usr/lib/qt6/qml/org/kde/plasma/private/trash/qmldir
@@ -94,7 +101,6 @@ KDE Plasma Desktop.
 * /usr/share/applications/kcm_activities.desktop
 * /usr/share/applications/kcm_baloofile.desktop
 * /usr/share/applications/kcm_clock.desktop
-* /usr/share/applications/kcm_componentchooser.desktop
 * /usr/share/applications/kcm_desktoppaths.desktop
 * /usr/share/applications/kcm_gamecontroller.desktop
 * /usr/share/applications/kcm_kded.desktop
@@ -137,8 +143,6 @@ KDE Plasma Desktop.
 * /usr/share/doc/HTML/ca/kcontrol/baloo/index.docbook
 * /usr/share/doc/HTML/ca/kcontrol/clock/index.cache.bz2
 * /usr/share/doc/HTML/ca/kcontrol/clock/index.docbook
-* /usr/share/doc/HTML/ca/kcontrol/componentchooser/index.cache.bz2
-* /usr/share/doc/HTML/ca/kcontrol/componentchooser/index.docbook
 * /usr/share/doc/HTML/ca/kcontrol/joystick/index.cache.bz2
 * /usr/share/doc/HTML/ca/kcontrol/joystick/index.docbook
 * /usr/share/doc/HTML/ca/kcontrol/kcmaccess/index.cache.bz2
@@ -196,8 +200,6 @@ KDE Plasma Desktop.
 * /usr/share/doc/HTML/de/kcontrol/baloo/index.docbook
 * /usr/share/doc/HTML/de/kcontrol/clock/index.cache.bz2
 * /usr/share/doc/HTML/de/kcontrol/clock/index.docbook
-* /usr/share/doc/HTML/de/kcontrol/componentchooser/index.cache.bz2
-* /usr/share/doc/HTML/de/kcontrol/componentchooser/index.docbook
 * /usr/share/doc/HTML/de/kcontrol/joystick/index.cache.bz2
 * /usr/share/doc/HTML/de/kcontrol/joystick/index.docbook
 * /usr/share/doc/HTML/de/kcontrol/kcmaccess/index.cache.bz2
@@ -238,8 +240,6 @@ KDE Plasma Desktop.
 * /usr/share/doc/HTML/en/kcontrol/baloo/index.docbook
 * /usr/share/doc/HTML/en/kcontrol/clock/index.cache.bz2
 * /usr/share/doc/HTML/en/kcontrol/clock/index.docbook
-* /usr/share/doc/HTML/en/kcontrol/componentchooser/index.cache.bz2
-* /usr/share/doc/HTML/en/kcontrol/componentchooser/index.docbook
 * /usr/share/doc/HTML/en/kcontrol/joystick/index.cache.bz2
 * /usr/share/doc/HTML/en/kcontrol/joystick/index.docbook
 * /usr/share/doc/HTML/en/kcontrol/joystick/joystick-calibration.png
@@ -315,8 +315,6 @@ KDE Plasma Desktop.
 * /usr/share/doc/HTML/es/kcontrol/baloo/index.docbook
 * /usr/share/doc/HTML/es/kcontrol/clock/index.cache.bz2
 * /usr/share/doc/HTML/es/kcontrol/clock/index.docbook
-* /usr/share/doc/HTML/es/kcontrol/componentchooser/index.cache.bz2
-* /usr/share/doc/HTML/es/kcontrol/componentchooser/index.docbook
 * /usr/share/doc/HTML/es/kcontrol/joystick/index.cache.bz2
 * /usr/share/doc/HTML/es/kcontrol/joystick/index.docbook
 * /usr/share/doc/HTML/es/kcontrol/kcmaccess/index.cache.bz2
@@ -363,8 +361,6 @@ KDE Plasma Desktop.
 * /usr/share/doc/HTML/et/kcontrol/solid-device-automounter/index.docbook
 * /usr/share/doc/HTML/fr/kcontrol/clock/index.cache.bz2
 * /usr/share/doc/HTML/fr/kcontrol/clock/index.docbook
-* /usr/share/doc/HTML/fr/kcontrol/componentchooser/index.cache.bz2
-* /usr/share/doc/HTML/fr/kcontrol/componentchooser/index.docbook
 * /usr/share/doc/HTML/fr/kcontrol/kded/index.cache.bz2
 * /usr/share/doc/HTML/fr/kcontrol/kded/index.docbook
 * /usr/share/doc/HTML/fr/kcontrol/paths/index.cache.bz2
@@ -383,8 +379,6 @@ KDE Plasma Desktop.
 * /usr/share/doc/HTML/id/kcontrol/baloo/index.docbook
 * /usr/share/doc/HTML/id/kcontrol/clock/index.cache.bz2
 * /usr/share/doc/HTML/id/kcontrol/clock/index.docbook
-* /usr/share/doc/HTML/id/kcontrol/componentchooser/index.cache.bz2
-* /usr/share/doc/HTML/id/kcontrol/componentchooser/index.docbook
 * /usr/share/doc/HTML/id/kcontrol/joystick/index.cache.bz2
 * /usr/share/doc/HTML/id/kcontrol/joystick/index.docbook
 * /usr/share/doc/HTML/id/kcontrol/kcmaccess/index.cache.bz2
@@ -423,8 +417,6 @@ KDE Plasma Desktop.
 * /usr/share/doc/HTML/it/kcontrol/baloo/index.docbook
 * /usr/share/doc/HTML/it/kcontrol/clock/index.cache.bz2
 * /usr/share/doc/HTML/it/kcontrol/clock/index.docbook
-* /usr/share/doc/HTML/it/kcontrol/componentchooser/index.cache.bz2
-* /usr/share/doc/HTML/it/kcontrol/componentchooser/index.docbook
 * /usr/share/doc/HTML/it/kcontrol/joystick/index.cache.bz2
 * /usr/share/doc/HTML/it/kcontrol/joystick/index.docbook
 * /usr/share/doc/HTML/it/kcontrol/kcmaccess/index.cache.bz2
@@ -470,8 +462,6 @@ KDE Plasma Desktop.
 * /usr/share/doc/HTML/nl/kcontrol/baloo/index.docbook
 * /usr/share/doc/HTML/nl/kcontrol/clock/index.cache.bz2
 * /usr/share/doc/HTML/nl/kcontrol/clock/index.docbook
-* /usr/share/doc/HTML/nl/kcontrol/componentchooser/index.cache.bz2
-* /usr/share/doc/HTML/nl/kcontrol/componentchooser/index.docbook
 * /usr/share/doc/HTML/nl/kcontrol/joystick/index.cache.bz2
 * /usr/share/doc/HTML/nl/kcontrol/joystick/index.docbook
 * /usr/share/doc/HTML/nl/kcontrol/kcmaccess/index.cache.bz2
@@ -514,8 +504,6 @@ KDE Plasma Desktop.
 * /usr/share/doc/HTML/pt/kcontrol/baloo/index.docbook
 * /usr/share/doc/HTML/pt/kcontrol/clock/index.cache.bz2
 * /usr/share/doc/HTML/pt/kcontrol/clock/index.docbook
-* /usr/share/doc/HTML/pt/kcontrol/componentchooser/index.cache.bz2
-* /usr/share/doc/HTML/pt/kcontrol/componentchooser/index.docbook
 * /usr/share/doc/HTML/pt/kcontrol/joystick/index.cache.bz2
 * /usr/share/doc/HTML/pt/kcontrol/joystick/index.docbook
 * /usr/share/doc/HTML/pt/kcontrol/kcmaccess/index.cache.bz2
@@ -550,8 +538,6 @@ KDE Plasma Desktop.
 * /usr/share/doc/HTML/pt_BR/kcontrol/baloo/index.docbook
 * /usr/share/doc/HTML/pt_BR/kcontrol/clock/index.cache.bz2
 * /usr/share/doc/HTML/pt_BR/kcontrol/clock/index.docbook
-* /usr/share/doc/HTML/pt_BR/kcontrol/componentchooser/index.cache.bz2
-* /usr/share/doc/HTML/pt_BR/kcontrol/componentchooser/index.docbook
 * /usr/share/doc/HTML/pt_BR/kcontrol/joystick/index.cache.bz2
 * /usr/share/doc/HTML/pt_BR/kcontrol/joystick/index.docbook
 * /usr/share/doc/HTML/pt_BR/kcontrol/kcmaccess/index.cache.bz2
@@ -602,8 +588,6 @@ KDE Plasma Desktop.
 * /usr/share/doc/HTML/ru/kcontrol/baloo/index.docbook
 * /usr/share/doc/HTML/ru/kcontrol/clock/index.cache.bz2
 * /usr/share/doc/HTML/ru/kcontrol/clock/index.docbook
-* /usr/share/doc/HTML/ru/kcontrol/componentchooser/index.cache.bz2
-* /usr/share/doc/HTML/ru/kcontrol/componentchooser/index.docbook
 * /usr/share/doc/HTML/ru/kcontrol/joystick/index.cache.bz2
 * /usr/share/doc/HTML/ru/kcontrol/joystick/index.docbook
 * /usr/share/doc/HTML/ru/kcontrol/joystick/joystick-calibration.png
@@ -652,8 +636,6 @@ KDE Plasma Desktop.
 * /usr/share/doc/HTML/sl/kcontrol/baloo/index.docbook
 * /usr/share/doc/HTML/sl/kcontrol/clock/index.cache.bz2
 * /usr/share/doc/HTML/sl/kcontrol/clock/index.docbook
-* /usr/share/doc/HTML/sl/kcontrol/componentchooser/index.cache.bz2
-* /usr/share/doc/HTML/sl/kcontrol/componentchooser/index.docbook
 * /usr/share/doc/HTML/sl/kcontrol/joystick/index.cache.bz2
 * /usr/share/doc/HTML/sl/kcontrol/joystick/index.docbook
 * /usr/share/doc/HTML/sl/kcontrol/kcmaccess/index.cache.bz2
@@ -712,8 +694,6 @@ KDE Plasma Desktop.
 * /usr/share/doc/HTML/sv/kcontrol/baloo/index.docbook
 * /usr/share/doc/HTML/sv/kcontrol/clock/index.cache.bz2
 * /usr/share/doc/HTML/sv/kcontrol/clock/index.docbook
-* /usr/share/doc/HTML/sv/kcontrol/componentchooser/index.cache.bz2
-* /usr/share/doc/HTML/sv/kcontrol/componentchooser/index.docbook
 * /usr/share/doc/HTML/sv/kcontrol/joystick/index.cache.bz2
 * /usr/share/doc/HTML/sv/kcontrol/joystick/index.docbook
 * /usr/share/doc/HTML/sv/kcontrol/kcmaccess/index.cache.bz2
@@ -754,8 +734,6 @@ KDE Plasma Desktop.
 * /usr/share/doc/HTML/tr/kcontrol/baloo/index.docbook
 * /usr/share/doc/HTML/tr/kcontrol/clock/index.cache.bz2
 * /usr/share/doc/HTML/tr/kcontrol/clock/index.docbook
-* /usr/share/doc/HTML/tr/kcontrol/componentchooser/index.cache.bz2
-* /usr/share/doc/HTML/tr/kcontrol/componentchooser/index.docbook
 * /usr/share/doc/HTML/tr/kcontrol/joystick/index.cache.bz2
 * /usr/share/doc/HTML/tr/kcontrol/joystick/index.docbook
 * /usr/share/doc/HTML/tr/kcontrol/kcmaccess/index.cache.bz2
@@ -796,8 +774,6 @@ KDE Plasma Desktop.
 * /usr/share/doc/HTML/uk/kcontrol/baloo/index.docbook
 * /usr/share/doc/HTML/uk/kcontrol/clock/index.cache.bz2
 * /usr/share/doc/HTML/uk/kcontrol/clock/index.docbook
-* /usr/share/doc/HTML/uk/kcontrol/componentchooser/index.cache.bz2
-* /usr/share/doc/HTML/uk/kcontrol/componentchooser/index.docbook
 * /usr/share/doc/HTML/uk/kcontrol/joystick/index.cache.bz2
 * /usr/share/doc/HTML/uk/kcontrol/joystick/index.docbook
 * /usr/share/doc/HTML/uk/kcontrol/kcmaccess/index.cache.bz2
@@ -844,8 +820,8 @@ KDE Plasma Desktop.
 * /usr/share/doc/HTML/uk/plasma-desktop/application-launcher-settings.png
 * /usr/share/doc/HTML/uk/plasma-desktop/index.cache.bz2
 * /usr/share/doc/HTML/uk/plasma-desktop/index.docbook
-* /usr/share/doc/plasma-desktop-6.3.5/COPYING.DOC
-* /usr/share/doc/plasma-desktop-6.3.5/README.md
+* /usr/share/doc/plasma-desktop-6.4.0/COPYING.DOC
+* /usr/share/doc/plasma-desktop-6.4.0/README.md
 * /usr/share/icons/hicolor/128x128/devices/input-touchpad.png
 * /usr/share/icons/hicolor/16x16/devices/input-touchpad.png
 * /usr/share/icons/hicolor/22x22/devices/input-touchpad.png
@@ -871,6 +847,7 @@ KDE Plasma Desktop.
 * /usr/share/kcmsolidactions/solid-action-template.desktop
 * /usr/share/kcm_recentFiles/workspace/settings/qml/recentFiles/ExcludedApplicationView.qml
 * /usr/share/kglobalaccel/org.kde.plasma.emojier.desktop
+* /usr/share/kglobalaccel/org.kde.touchpadshortcuts.desktop
 * /usr/share/knotifications6/kaccess.notifyrc
 * /usr/share/knsrcfiles/krunner.knsrc
 * /usr/share/knsrcfiles/ksplash.knsrc
@@ -878,7 +855,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/af/LC_MESSAGES/kcmkclock.mo
 * /usr/share/locale/af/LC_MESSAGES/kcmmouse.mo
 * /usr/share/locale/af/LC_MESSAGES/kcm_access.mo
-* /usr/share/locale/af/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/af/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/af/LC_MESSAGES/kcm_kded.mo
 * /usr/share/locale/af/LC_MESSAGES/kcm_keyboard.mo
@@ -892,7 +868,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/ar/LC_MESSAGES/kcm_access.mo
 * /usr/share/locale/ar/LC_MESSAGES/kcm_activities.mo
 * /usr/share/locale/ar/LC_MESSAGES/kcm_baloofile.mo
-* /usr/share/locale/ar/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/ar/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/ar/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/ar/LC_MESSAGES/kcm_gamecontroller.mo
@@ -938,7 +913,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/ast/LC_MESSAGES/kcm_access.mo
 * /usr/share/locale/ast/LC_MESSAGES/kcm_activities.mo
 * /usr/share/locale/ast/LC_MESSAGES/kcm_baloofile.mo
-* /usr/share/locale/ast/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/ast/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/ast/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/ast/LC_MESSAGES/kcm_gamecontroller.mo
@@ -982,7 +956,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/az/LC_MESSAGES/kcm_access.mo
 * /usr/share/locale/az/LC_MESSAGES/kcm_activities.mo
 * /usr/share/locale/az/LC_MESSAGES/kcm_baloofile.mo
-* /usr/share/locale/az/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/az/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/az/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/az/LC_MESSAGES/kcm_kded.mo
@@ -1025,7 +998,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/be/LC_MESSAGES/kcm_access.mo
 * /usr/share/locale/be/LC_MESSAGES/kcm_activities.mo
 * /usr/share/locale/be/LC_MESSAGES/kcm_baloofile.mo
-* /usr/share/locale/be/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/be/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/be/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/be/LC_MESSAGES/kcm_gamecontroller.mo
@@ -1077,7 +1049,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/bg/LC_MESSAGES/kcm_access.mo
 * /usr/share/locale/bg/LC_MESSAGES/kcm_activities.mo
 * /usr/share/locale/bg/LC_MESSAGES/kcm_baloofile.mo
-* /usr/share/locale/bg/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/bg/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/bg/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/bg/LC_MESSAGES/kcm_gamecontroller.mo
@@ -1118,7 +1089,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/bn/LC_MESSAGES/kaccess.mo
 * /usr/share/locale/bn/LC_MESSAGES/kcmkclock.mo
 * /usr/share/locale/bn/LC_MESSAGES/kcm_access.mo
-* /usr/share/locale/bn/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/bn/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/bn/LC_MESSAGES/kcm_kded.mo
 * /usr/share/locale/bn/LC_MESSAGES/kcm_keyboard.mo
@@ -1140,7 +1110,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/br/LC_MESSAGES/kcmkclock.mo
 * /usr/share/locale/br/LC_MESSAGES/kcmmouse.mo
 * /usr/share/locale/br/LC_MESSAGES/kcm_access.mo
-* /usr/share/locale/br/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/br/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/br/LC_MESSAGES/kcm_kded.mo
 * /usr/share/locale/br/LC_MESSAGES/kcm_keyboard.mo
@@ -1152,7 +1121,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/bs/LC_MESSAGES/kcmmouse.mo
 * /usr/share/locale/bs/LC_MESSAGES/kcm_access.mo
 * /usr/share/locale/bs/LC_MESSAGES/kcm_baloofile.mo
-* /usr/share/locale/bs/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/bs/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/bs/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/bs/LC_MESSAGES/kcm_kded.mo
@@ -1184,7 +1152,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/ca/LC_MESSAGES/kcm_access.mo
 * /usr/share/locale/ca/LC_MESSAGES/kcm_activities.mo
 * /usr/share/locale/ca/LC_MESSAGES/kcm_baloofile.mo
-* /usr/share/locale/ca/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/ca/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/ca/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/ca/LC_MESSAGES/kcm_gamecontroller.mo
@@ -1229,7 +1196,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/ca@valencia/LC_MESSAGES/kcm_access.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/kcm_activities.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/kcm_baloofile.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/kcm_gamecontroller.mo
@@ -1274,7 +1240,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/cs/LC_MESSAGES/kcm_access.mo
 * /usr/share/locale/cs/LC_MESSAGES/kcm_activities.mo
 * /usr/share/locale/cs/LC_MESSAGES/kcm_baloofile.mo
-* /usr/share/locale/cs/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/cs/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/cs/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/cs/LC_MESSAGES/kcm_gamecontroller.mo
@@ -1315,7 +1280,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/csb/LC_MESSAGES/kaccess.mo
 * /usr/share/locale/csb/LC_MESSAGES/kcmkclock.mo
 * /usr/share/locale/csb/LC_MESSAGES/kcm_access.mo
-* /usr/share/locale/csb/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/csb/LC_MESSAGES/kcm_kded.mo
 * /usr/share/locale/csb/LC_MESSAGES/kcm_keyboard.mo
 * /usr/share/locale/csb/LC_MESSAGES/kcm_smserver.mo
@@ -1329,7 +1293,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/cy/LC_MESSAGES/kcmkclock.mo
 * /usr/share/locale/cy/LC_MESSAGES/kcmmouse.mo
 * /usr/share/locale/cy/LC_MESSAGES/kcm_access.mo
-* /usr/share/locale/cy/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/cy/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/cy/LC_MESSAGES/kcm_kded.mo
 * /usr/share/locale/cy/LC_MESSAGES/kcm_keyboard.mo
@@ -1343,9 +1306,9 @@ KDE Plasma Desktop.
 * /usr/share/locale/da/LC_MESSAGES/kcm_access.mo
 * /usr/share/locale/da/LC_MESSAGES/kcm_activities.mo
 * /usr/share/locale/da/LC_MESSAGES/kcm_baloofile.mo
-* /usr/share/locale/da/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/da/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/da/LC_MESSAGES/kcm_device_automounter.mo
+* /usr/share/locale/da/LC_MESSAGES/kcm_gamecontroller.mo
 * /usr/share/locale/da/LC_MESSAGES/kcm_kded.mo
 * /usr/share/locale/da/LC_MESSAGES/kcm_keyboard.mo
 * /usr/share/locale/da/LC_MESSAGES/kcm_keys.mo
@@ -1385,7 +1348,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/de/LC_MESSAGES/kcm_access.mo
 * /usr/share/locale/de/LC_MESSAGES/kcm_activities.mo
 * /usr/share/locale/de/LC_MESSAGES/kcm_baloofile.mo
-* /usr/share/locale/de/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/de/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/de/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/de/LC_MESSAGES/kcm_gamecontroller.mo
@@ -1430,7 +1392,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/el/LC_MESSAGES/kcm_access.mo
 * /usr/share/locale/el/LC_MESSAGES/kcm_activities.mo
 * /usr/share/locale/el/LC_MESSAGES/kcm_baloofile.mo
-* /usr/share/locale/el/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/el/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/el/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/el/LC_MESSAGES/kcm_gamecontroller.mo
@@ -1475,7 +1436,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/en_GB/LC_MESSAGES/kcm_access.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/kcm_activities.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/kcm_baloofile.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/kcm_gamecontroller.mo
@@ -1520,7 +1480,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/eo/LC_MESSAGES/kcm_access.mo
 * /usr/share/locale/eo/LC_MESSAGES/kcm_activities.mo
 * /usr/share/locale/eo/LC_MESSAGES/kcm_baloofile.mo
-* /usr/share/locale/eo/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/eo/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/eo/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/eo/LC_MESSAGES/kcm_gamecontroller.mo
@@ -1565,7 +1524,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/es/LC_MESSAGES/kcm_access.mo
 * /usr/share/locale/es/LC_MESSAGES/kcm_activities.mo
 * /usr/share/locale/es/LC_MESSAGES/kcm_baloofile.mo
-* /usr/share/locale/es/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/es/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/es/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/es/LC_MESSAGES/kcm_gamecontroller.mo
@@ -1610,7 +1568,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/et/LC_MESSAGES/kcm_access.mo
 * /usr/share/locale/et/LC_MESSAGES/kcm_activities.mo
 * /usr/share/locale/et/LC_MESSAGES/kcm_baloofile.mo
-* /usr/share/locale/et/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/et/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/et/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/et/LC_MESSAGES/kcm_kded.mo
@@ -1650,7 +1607,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/eu/LC_MESSAGES/kcm_access.mo
 * /usr/share/locale/eu/LC_MESSAGES/kcm_activities.mo
 * /usr/share/locale/eu/LC_MESSAGES/kcm_baloofile.mo
-* /usr/share/locale/eu/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/eu/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/eu/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/eu/LC_MESSAGES/kcm_gamecontroller.mo
@@ -1692,7 +1648,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/fa/LC_MESSAGES/kcmkclock.mo
 * /usr/share/locale/fa/LC_MESSAGES/kcmmouse.mo
 * /usr/share/locale/fa/LC_MESSAGES/kcm_access.mo
-* /usr/share/locale/fa/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/fa/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/fa/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/fa/LC_MESSAGES/kcm_kded.mo
@@ -1711,7 +1666,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/fi/LC_MESSAGES/kcm_access.mo
 * /usr/share/locale/fi/LC_MESSAGES/kcm_activities.mo
 * /usr/share/locale/fi/LC_MESSAGES/kcm_baloofile.mo
-* /usr/share/locale/fi/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/fi/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/fi/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/fi/LC_MESSAGES/kcm_gamecontroller.mo
@@ -1756,7 +1710,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/fr/LC_MESSAGES/kcm_access.mo
 * /usr/share/locale/fr/LC_MESSAGES/kcm_activities.mo
 * /usr/share/locale/fr/LC_MESSAGES/kcm_baloofile.mo
-* /usr/share/locale/fr/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/fr/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/fr/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/fr/LC_MESSAGES/kcm_gamecontroller.mo
@@ -1798,7 +1751,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/fy/LC_MESSAGES/kcmkclock.mo
 * /usr/share/locale/fy/LC_MESSAGES/kcmmouse.mo
 * /usr/share/locale/fy/LC_MESSAGES/kcm_access.mo
-* /usr/share/locale/fy/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/fy/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/fy/LC_MESSAGES/kcm_kded.mo
 * /usr/share/locale/fy/LC_MESSAGES/kcm_keyboard.mo
@@ -1813,7 +1765,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/ga/LC_MESSAGES/kcmkclock.mo
 * /usr/share/locale/ga/LC_MESSAGES/kcmmouse.mo
 * /usr/share/locale/ga/LC_MESSAGES/kcm_access.mo
-* /usr/share/locale/ga/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/ga/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/ga/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/ga/LC_MESSAGES/kcm_kded.mo
@@ -1838,7 +1789,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/gl/LC_MESSAGES/kcm_access.mo
 * /usr/share/locale/gl/LC_MESSAGES/kcm_activities.mo
 * /usr/share/locale/gl/LC_MESSAGES/kcm_baloofile.mo
-* /usr/share/locale/gl/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/gl/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/gl/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/gl/LC_MESSAGES/kcm_gamecontroller.mo
@@ -1880,7 +1830,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/gu/LC_MESSAGES/kcmkclock.mo
 * /usr/share/locale/gu/LC_MESSAGES/kcmmouse.mo
 * /usr/share/locale/gu/LC_MESSAGES/kcm_access.mo
-* /usr/share/locale/gu/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/gu/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/gu/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/gu/LC_MESSAGES/kcm_kded.mo
@@ -1901,7 +1850,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/he/LC_MESSAGES/kcm_access.mo
 * /usr/share/locale/he/LC_MESSAGES/kcm_activities.mo
 * /usr/share/locale/he/LC_MESSAGES/kcm_baloofile.mo
-* /usr/share/locale/he/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/he/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/he/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/he/LC_MESSAGES/kcm_gamecontroller.mo
@@ -1946,7 +1894,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/hi/LC_MESSAGES/kcm_access.mo
 * /usr/share/locale/hi/LC_MESSAGES/kcm_activities.mo
 * /usr/share/locale/hi/LC_MESSAGES/kcm_baloofile.mo
-* /usr/share/locale/hi/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/hi/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/hi/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/hi/LC_MESSAGES/kcm_gamecontroller.mo
@@ -1988,7 +1935,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/hne/LC_MESSAGES/kcmkclock.mo
 * /usr/share/locale/hne/LC_MESSAGES/kcmmouse.mo
 * /usr/share/locale/hne/LC_MESSAGES/kcm_access.mo
-* /usr/share/locale/hne/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/hne/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/hne/LC_MESSAGES/kcm_kded.mo
 * /usr/share/locale/hne/LC_MESSAGES/kcm_keyboard.mo
@@ -2002,7 +1948,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/hr/LC_MESSAGES/kcmkclock.mo
 * /usr/share/locale/hr/LC_MESSAGES/kcmmouse.mo
 * /usr/share/locale/hr/LC_MESSAGES/kcm_access.mo
-* /usr/share/locale/hr/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/hr/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/hr/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/hr/LC_MESSAGES/kcm_kded.mo
@@ -2022,7 +1967,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/hsb/LC_MESSAGES/kcmkclock.mo
 * /usr/share/locale/hsb/LC_MESSAGES/kcmmouse.mo
 * /usr/share/locale/hsb/LC_MESSAGES/kcm_access.mo
-* /usr/share/locale/hsb/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/hsb/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/hsb/LC_MESSAGES/kcm_kded.mo
 * /usr/share/locale/hsb/LC_MESSAGES/kcm_keyboard.mo
@@ -2041,7 +1985,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/hu/LC_MESSAGES/kcm_access.mo
 * /usr/share/locale/hu/LC_MESSAGES/kcm_activities.mo
 * /usr/share/locale/hu/LC_MESSAGES/kcm_baloofile.mo
-* /usr/share/locale/hu/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/hu/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/hu/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/hu/LC_MESSAGES/kcm_gamecontroller.mo
@@ -2086,7 +2029,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/ia/LC_MESSAGES/kcm_access.mo
 * /usr/share/locale/ia/LC_MESSAGES/kcm_activities.mo
 * /usr/share/locale/ia/LC_MESSAGES/kcm_baloofile.mo
-* /usr/share/locale/ia/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/ia/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/ia/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/ia/LC_MESSAGES/kcm_gamecontroller.mo
@@ -2131,7 +2073,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/id/LC_MESSAGES/kcm_access.mo
 * /usr/share/locale/id/LC_MESSAGES/kcm_activities.mo
 * /usr/share/locale/id/LC_MESSAGES/kcm_baloofile.mo
-* /usr/share/locale/id/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/id/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/id/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/id/LC_MESSAGES/kcm_gamecontroller.mo
@@ -2183,7 +2124,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/is/LC_MESSAGES/kcm_access.mo
 * /usr/share/locale/is/LC_MESSAGES/kcm_activities.mo
 * /usr/share/locale/is/LC_MESSAGES/kcm_baloofile.mo
-* /usr/share/locale/is/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/is/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/is/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/is/LC_MESSAGES/kcm_gamecontroller.mo
@@ -2227,7 +2167,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/it/LC_MESSAGES/kcm_access.mo
 * /usr/share/locale/it/LC_MESSAGES/kcm_activities.mo
 * /usr/share/locale/it/LC_MESSAGES/kcm_baloofile.mo
-* /usr/share/locale/it/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/it/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/it/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/it/LC_MESSAGES/kcm_gamecontroller.mo
@@ -2272,7 +2211,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/ja/LC_MESSAGES/kcm_access.mo
 * /usr/share/locale/ja/LC_MESSAGES/kcm_activities.mo
 * /usr/share/locale/ja/LC_MESSAGES/kcm_baloofile.mo
-* /usr/share/locale/ja/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/ja/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/ja/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/ja/LC_MESSAGES/kcm_gamecontroller.mo
@@ -2316,7 +2254,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/ka/LC_MESSAGES/kcm_access.mo
 * /usr/share/locale/ka/LC_MESSAGES/kcm_activities.mo
 * /usr/share/locale/ka/LC_MESSAGES/kcm_baloofile.mo
-* /usr/share/locale/ka/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/ka/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/ka/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/ka/LC_MESSAGES/kcm_gamecontroller.mo
@@ -2358,7 +2295,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/kk/LC_MESSAGES/kcmkclock.mo
 * /usr/share/locale/kk/LC_MESSAGES/kcmmouse.mo
 * /usr/share/locale/kk/LC_MESSAGES/kcm_access.mo
-* /usr/share/locale/kk/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/kk/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/kk/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/kk/LC_MESSAGES/kcm_kded.mo
@@ -2381,7 +2317,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/km/LC_MESSAGES/kcmkclock.mo
 * /usr/share/locale/km/LC_MESSAGES/kcmmouse.mo
 * /usr/share/locale/km/LC_MESSAGES/kcm_access.mo
-* /usr/share/locale/km/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/km/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/km/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/km/LC_MESSAGES/kcm_kded.mo
@@ -2402,7 +2337,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/kn/LC_MESSAGES/kcmkclock.mo
 * /usr/share/locale/kn/LC_MESSAGES/kcmmouse.mo
 * /usr/share/locale/kn/LC_MESSAGES/kcm_access.mo
-* /usr/share/locale/kn/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/kn/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/kn/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/kn/LC_MESSAGES/kcm_kded.mo
@@ -2422,7 +2356,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/ko/LC_MESSAGES/kcm_access.mo
 * /usr/share/locale/ko/LC_MESSAGES/kcm_activities.mo
 * /usr/share/locale/ko/LC_MESSAGES/kcm_baloofile.mo
-* /usr/share/locale/ko/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/ko/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/ko/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/ko/LC_MESSAGES/kcm_gamecontroller.mo
@@ -2464,7 +2397,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/ku/LC_MESSAGES/kcmkclock.mo
 * /usr/share/locale/ku/LC_MESSAGES/kcmmouse.mo
 * /usr/share/locale/ku/LC_MESSAGES/kcm_access.mo
-* /usr/share/locale/ku/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/ku/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/ku/LC_MESSAGES/kcm_kded.mo
 * /usr/share/locale/ku/LC_MESSAGES/kcm_keyboard.mo
@@ -2482,7 +2414,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/lt/LC_MESSAGES/kcm_access.mo
 * /usr/share/locale/lt/LC_MESSAGES/kcm_activities.mo
 * /usr/share/locale/lt/LC_MESSAGES/kcm_baloofile.mo
-* /usr/share/locale/lt/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/lt/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/lt/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/lt/LC_MESSAGES/kcm_gamecontroller.mo
@@ -2526,7 +2457,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/lv/LC_MESSAGES/kcm_access.mo
 * /usr/share/locale/lv/LC_MESSAGES/kcm_activities.mo
 * /usr/share/locale/lv/LC_MESSAGES/kcm_baloofile.mo
-* /usr/share/locale/lv/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/lv/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/lv/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/lv/LC_MESSAGES/kcm_gamecontroller.mo
@@ -2568,7 +2498,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/mai/LC_MESSAGES/kcmkclock.mo
 * /usr/share/locale/mai/LC_MESSAGES/kcmmouse.mo
 * /usr/share/locale/mai/LC_MESSAGES/kcm_access.mo
-* /usr/share/locale/mai/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/mai/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/mai/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/mai/LC_MESSAGES/kcm_kded.mo
@@ -2586,7 +2515,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/mk/LC_MESSAGES/kcmkclock.mo
 * /usr/share/locale/mk/LC_MESSAGES/kcmmouse.mo
 * /usr/share/locale/mk/LC_MESSAGES/kcm_access.mo
-* /usr/share/locale/mk/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/mk/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/mk/LC_MESSAGES/kcm_kded.mo
 * /usr/share/locale/mk/LC_MESSAGES/kcm_keyboard.mo
@@ -2603,7 +2531,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/ml/LC_MESSAGES/kcm_access.mo
 * /usr/share/locale/ml/LC_MESSAGES/kcm_activities.mo
 * /usr/share/locale/ml/LC_MESSAGES/kcm_baloofile.mo
-* /usr/share/locale/ml/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/ml/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/ml/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/ml/LC_MESSAGES/kcm_kded.mo
@@ -2637,7 +2564,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/mr/LC_MESSAGES/kcmkclock.mo
 * /usr/share/locale/mr/LC_MESSAGES/kcmmouse.mo
 * /usr/share/locale/mr/LC_MESSAGES/kcm_access.mo
-* /usr/share/locale/mr/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/mr/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/mr/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/mr/LC_MESSAGES/kcm_kded.mo
@@ -2660,7 +2586,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/ms/LC_MESSAGES/kcmkclock.mo
 * /usr/share/locale/ms/LC_MESSAGES/kcmmouse.mo
 * /usr/share/locale/ms/LC_MESSAGES/kcm_access.mo
-* /usr/share/locale/ms/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/ms/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/ms/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/ms/LC_MESSAGES/kcm_kded.mo
@@ -2682,7 +2607,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/nb/LC_MESSAGES/kcm_access.mo
 * /usr/share/locale/nb/LC_MESSAGES/kcm_activities.mo
 * /usr/share/locale/nb/LC_MESSAGES/kcm_baloofile.mo
-* /usr/share/locale/nb/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/nb/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/nb/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/nb/LC_MESSAGES/kcm_gamecontroller.mo
@@ -2725,7 +2649,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/nds/LC_MESSAGES/kcmmouse.mo
 * /usr/share/locale/nds/LC_MESSAGES/kcm_access.mo
 * /usr/share/locale/nds/LC_MESSAGES/kcm_baloofile.mo
-* /usr/share/locale/nds/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/nds/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/nds/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/nds/LC_MESSAGES/kcm_kded.mo
@@ -2753,7 +2676,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/ne/LC_MESSAGES/kcmkclock.mo
 * /usr/share/locale/ne/LC_MESSAGES/kcmmouse.mo
 * /usr/share/locale/ne/LC_MESSAGES/kcm_access.mo
-* /usr/share/locale/ne/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/ne/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/ne/LC_MESSAGES/kcm_kded.mo
 * /usr/share/locale/ne/LC_MESSAGES/kcm_keyboard.mo
@@ -2768,7 +2690,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/nl/LC_MESSAGES/kcm_access.mo
 * /usr/share/locale/nl/LC_MESSAGES/kcm_activities.mo
 * /usr/share/locale/nl/LC_MESSAGES/kcm_baloofile.mo
-* /usr/share/locale/nl/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/nl/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/nl/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/nl/LC_MESSAGES/kcm_gamecontroller.mo
@@ -2813,7 +2734,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/nn/LC_MESSAGES/kcm_access.mo
 * /usr/share/locale/nn/LC_MESSAGES/kcm_activities.mo
 * /usr/share/locale/nn/LC_MESSAGES/kcm_baloofile.mo
-* /usr/share/locale/nn/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/nn/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/nn/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/nn/LC_MESSAGES/kcm_gamecontroller.mo
@@ -2855,7 +2775,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/oc/LC_MESSAGES/kcmkclock.mo
 * /usr/share/locale/oc/LC_MESSAGES/kcmmouse.mo
 * /usr/share/locale/oc/LC_MESSAGES/kcm_access.mo
-* /usr/share/locale/oc/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/oc/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/oc/LC_MESSAGES/kcm_kded.mo
 * /usr/share/locale/oc/LC_MESSAGES/kcm_keyboard.mo
@@ -2866,7 +2785,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/or/LC_MESSAGES/kcmkclock.mo
 * /usr/share/locale/or/LC_MESSAGES/kcmmouse.mo
 * /usr/share/locale/or/LC_MESSAGES/kcm_access.mo
-* /usr/share/locale/or/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/or/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/or/LC_MESSAGES/kcm_kded.mo
 * /usr/share/locale/or/LC_MESSAGES/kcm_keyboard.mo
@@ -2883,7 +2801,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/pa/LC_MESSAGES/kcm_access.mo
 * /usr/share/locale/pa/LC_MESSAGES/kcm_activities.mo
 * /usr/share/locale/pa/LC_MESSAGES/kcm_baloofile.mo
-* /usr/share/locale/pa/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/pa/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/pa/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/pa/LC_MESSAGES/kcm_gamecontroller.mo
@@ -2928,7 +2845,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/pl/LC_MESSAGES/kcm_access.mo
 * /usr/share/locale/pl/LC_MESSAGES/kcm_activities.mo
 * /usr/share/locale/pl/LC_MESSAGES/kcm_baloofile.mo
-* /usr/share/locale/pl/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/pl/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/pl/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/pl/LC_MESSAGES/kcm_gamecontroller.mo
@@ -2973,7 +2889,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/pt/LC_MESSAGES/kcm_access.mo
 * /usr/share/locale/pt/LC_MESSAGES/kcm_activities.mo
 * /usr/share/locale/pt/LC_MESSAGES/kcm_baloofile.mo
-* /usr/share/locale/pt/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/pt/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/pt/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/pt/LC_MESSAGES/kcm_kded.mo
@@ -3016,7 +2931,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/pt_BR/LC_MESSAGES/kcm_access.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/kcm_activities.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/kcm_baloofile.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/kcm_gamecontroller.mo
@@ -3061,7 +2975,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/ro/LC_MESSAGES/kcm_access.mo
 * /usr/share/locale/ro/LC_MESSAGES/kcm_activities.mo
 * /usr/share/locale/ro/LC_MESSAGES/kcm_baloofile.mo
-* /usr/share/locale/ro/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/ro/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/ro/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/ro/LC_MESSAGES/kcm_gamecontroller.mo
@@ -3105,7 +3018,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/ru/LC_MESSAGES/kcm_access.mo
 * /usr/share/locale/ru/LC_MESSAGES/kcm_activities.mo
 * /usr/share/locale/ru/LC_MESSAGES/kcm_baloofile.mo
-* /usr/share/locale/ru/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/ru/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/ru/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/ru/LC_MESSAGES/kcm_gamecontroller.mo
@@ -3150,7 +3062,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/sa/LC_MESSAGES/kcm_access.mo
 * /usr/share/locale/sa/LC_MESSAGES/kcm_activities.mo
 * /usr/share/locale/sa/LC_MESSAGES/kcm_baloofile.mo
-* /usr/share/locale/sa/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/sa/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/sa/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/sa/LC_MESSAGES/kcm_gamecontroller.mo
@@ -3192,7 +3103,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/se/LC_MESSAGES/kcmkclock.mo
 * /usr/share/locale/se/LC_MESSAGES/kcmmouse.mo
 * /usr/share/locale/se/LC_MESSAGES/kcm_access.mo
-* /usr/share/locale/se/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/se/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/se/LC_MESSAGES/kcm_kded.mo
 * /usr/share/locale/se/LC_MESSAGES/kcm_keyboard.mo
@@ -3204,7 +3114,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/si/LC_MESSAGES/kcmkclock.mo
 * /usr/share/locale/si/LC_MESSAGES/kcmmouse.mo
 * /usr/share/locale/si/LC_MESSAGES/kcm_access.mo
-* /usr/share/locale/si/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/si/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/si/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/si/LC_MESSAGES/kcm_kded.mo
@@ -3224,7 +3133,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/sk/LC_MESSAGES/kcm_access.mo
 * /usr/share/locale/sk/LC_MESSAGES/kcm_activities.mo
 * /usr/share/locale/sk/LC_MESSAGES/kcm_baloofile.mo
-* /usr/share/locale/sk/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/sk/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/sk/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/sk/LC_MESSAGES/kcm_gamecontroller.mo
@@ -3269,7 +3177,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/sl/LC_MESSAGES/kcm_access.mo
 * /usr/share/locale/sl/LC_MESSAGES/kcm_activities.mo
 * /usr/share/locale/sl/LC_MESSAGES/kcm_baloofile.mo
-* /usr/share/locale/sl/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/sl/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/sl/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/sl/LC_MESSAGES/kcm_gamecontroller.mo
@@ -3311,7 +3218,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/sq/LC_MESSAGES/kcmkclock.mo
 * /usr/share/locale/sq/LC_MESSAGES/kcmmouse.mo
 * /usr/share/locale/sq/LC_MESSAGES/kcm_access.mo
-* /usr/share/locale/sq/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/sq/LC_MESSAGES/kcm_kded.mo
 * /usr/share/locale/sq/LC_MESSAGES/kcm_keyboard.mo
 * /usr/share/locale/sq/LC_MESSAGES/kcm_smserver.mo
@@ -3330,7 +3236,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/sr/LC_MESSAGES/kcm_access.mo
 * /usr/share/locale/sr/LC_MESSAGES/kcm_activities.mo
 * /usr/share/locale/sr/LC_MESSAGES/kcm_baloofile.mo
-* /usr/share/locale/sr/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/sr/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/sr/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/sr/LC_MESSAGES/kcm_kded.mo
@@ -3364,7 +3269,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/sr@ijekavian/LC_MESSAGES/kcm_access.mo
 * /usr/share/locale/sr@ijekavian/LC_MESSAGES/kcm_activities.mo
 * /usr/share/locale/sr@ijekavian/LC_MESSAGES/kcm_baloofile.mo
-* /usr/share/locale/sr@ijekavian/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/sr@ijekavian/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/sr@ijekavian/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/sr@ijekavian/LC_MESSAGES/kcm_kded.mo
@@ -3398,7 +3302,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kcm_access.mo
 * /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kcm_activities.mo
 * /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kcm_baloofile.mo
-* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kcm_kded.mo
@@ -3432,7 +3335,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/sr@latin/LC_MESSAGES/kcm_access.mo
 * /usr/share/locale/sr@latin/LC_MESSAGES/kcm_activities.mo
 * /usr/share/locale/sr@latin/LC_MESSAGES/kcm_baloofile.mo
-* /usr/share/locale/sr@latin/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/sr@latin/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/sr@latin/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/sr@latin/LC_MESSAGES/kcm_kded.mo
@@ -3467,7 +3369,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/sv/LC_MESSAGES/kcm_access.mo
 * /usr/share/locale/sv/LC_MESSAGES/kcm_activities.mo
 * /usr/share/locale/sv/LC_MESSAGES/kcm_baloofile.mo
-* /usr/share/locale/sv/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/sv/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/sv/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/sv/LC_MESSAGES/kcm_gamecontroller.mo
@@ -3512,7 +3413,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/ta/LC_MESSAGES/kcm_access.mo
 * /usr/share/locale/ta/LC_MESSAGES/kcm_activities.mo
 * /usr/share/locale/ta/LC_MESSAGES/kcm_baloofile.mo
-* /usr/share/locale/ta/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/ta/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/ta/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/ta/LC_MESSAGES/kcm_gamecontroller.mo
@@ -3552,7 +3452,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/te/LC_MESSAGES/kcmkclock.mo
 * /usr/share/locale/te/LC_MESSAGES/kcmmouse.mo
 * /usr/share/locale/te/LC_MESSAGES/kcm_access.mo
-* /usr/share/locale/te/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/te/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/te/LC_MESSAGES/kcm_kded.mo
 * /usr/share/locale/te/LC_MESSAGES/kcm_keyboard.mo
@@ -3568,7 +3467,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/tg/LC_MESSAGES/kcm_access.mo
 * /usr/share/locale/tg/LC_MESSAGES/kcm_activities.mo
 * /usr/share/locale/tg/LC_MESSAGES/kcm_baloofile.mo
-* /usr/share/locale/tg/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/tg/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/tg/LC_MESSAGES/kcm_kded.mo
 * /usr/share/locale/tg/LC_MESSAGES/kcm_keyboard.mo
@@ -3594,7 +3492,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/th/LC_MESSAGES/kcmkclock.mo
 * /usr/share/locale/th/LC_MESSAGES/kcmmouse.mo
 * /usr/share/locale/th/LC_MESSAGES/kcm_access.mo
-* /usr/share/locale/th/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/th/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/th/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/th/LC_MESSAGES/kcm_kded.mo
@@ -3619,7 +3516,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/tr/LC_MESSAGES/kcm_access.mo
 * /usr/share/locale/tr/LC_MESSAGES/kcm_activities.mo
 * /usr/share/locale/tr/LC_MESSAGES/kcm_baloofile.mo
-* /usr/share/locale/tr/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/tr/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/tr/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/tr/LC_MESSAGES/kcm_gamecontroller.mo
@@ -3661,7 +3557,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/ug/LC_MESSAGES/kcmkclock.mo
 * /usr/share/locale/ug/LC_MESSAGES/kcmmouse.mo
 * /usr/share/locale/ug/LC_MESSAGES/kcm_access.mo
-* /usr/share/locale/ug/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/ug/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/ug/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/ug/LC_MESSAGES/kcm_kded.mo
@@ -3687,7 +3582,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/uk/LC_MESSAGES/kcm_access.mo
 * /usr/share/locale/uk/LC_MESSAGES/kcm_activities.mo
 * /usr/share/locale/uk/LC_MESSAGES/kcm_baloofile.mo
-* /usr/share/locale/uk/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/uk/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/uk/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/uk/LC_MESSAGES/kcm_gamecontroller.mo
@@ -3729,7 +3623,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/uz/LC_MESSAGES/kcmkclock.mo
 * /usr/share/locale/uz/LC_MESSAGES/kcmmouse.mo
 * /usr/share/locale/uz/LC_MESSAGES/kcm_access.mo
-* /usr/share/locale/uz/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/uz/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/uz/LC_MESSAGES/kcm_kded.mo
 * /usr/share/locale/uz/LC_MESSAGES/kcm_keyboard.mo
@@ -3740,7 +3633,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/uz@cyrillic/LC_MESSAGES/kcmkclock.mo
 * /usr/share/locale/uz@cyrillic/LC_MESSAGES/kcmmouse.mo
 * /usr/share/locale/uz@cyrillic/LC_MESSAGES/kcm_access.mo
-* /usr/share/locale/uz@cyrillic/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/uz@cyrillic/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/uz@cyrillic/LC_MESSAGES/kcm_kded.mo
 * /usr/share/locale/uz@cyrillic/LC_MESSAGES/kcm_keyboard.mo
@@ -3754,7 +3646,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/vi/LC_MESSAGES/kcm_access.mo
 * /usr/share/locale/vi/LC_MESSAGES/kcm_activities.mo
 * /usr/share/locale/vi/LC_MESSAGES/kcm_baloofile.mo
-* /usr/share/locale/vi/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/vi/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/vi/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/vi/LC_MESSAGES/kcm_kded.mo
@@ -3794,7 +3685,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/wa/LC_MESSAGES/kcmkclock.mo
 * /usr/share/locale/wa/LC_MESSAGES/kcmmouse.mo
 * /usr/share/locale/wa/LC_MESSAGES/kcm_access.mo
-* /usr/share/locale/wa/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/wa/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/wa/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/wa/LC_MESSAGES/kcm_kded.mo
@@ -3813,7 +3703,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/xh/LC_MESSAGES/kcmkclock.mo
 * /usr/share/locale/xh/LC_MESSAGES/kcmmouse.mo
 * /usr/share/locale/xh/LC_MESSAGES/kcm_access.mo
-* /usr/share/locale/xh/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/xh/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/xh/LC_MESSAGES/kcm_kded.mo
 * /usr/share/locale/xh/LC_MESSAGES/kcm_keyboard.mo
@@ -3826,7 +3715,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/zh_CN/LC_MESSAGES/kcm_access.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/kcm_activities.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/kcm_baloofile.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/kcm_gamecontroller.mo
@@ -3871,7 +3759,6 @@ KDE Plasma Desktop.
 * /usr/share/locale/zh_TW/LC_MESSAGES/kcm_access.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kcm_activities.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kcm_baloofile.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kcm_desktoppaths.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kcm_device_automounter.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kcm_gamecontroller.mo
@@ -4152,6 +4039,7 @@ KDE Plasma Desktop.
 * /usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/ui/AbstractKickoffItemDelegate.qml
 * /usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/ui/ActionMenu.qml
 * /usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/ui/ApplicationsPage.qml
+* /usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/ui/Badge.qml
 * /usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/ui/BasePage.qml
 * /usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/ui/code/tools.js
 * /usr/share/plasma/plasmoids/org.kde.plasma.kickoff/contents/ui/ConfigGeneral.qml
@@ -4255,10 +4143,8 @@ KDE Plasma Desktop.
 * /usr/share/plasma/shells/org.kde.plasma.desktop/contents/configuration/AboutPlugin.qml
 * /usr/share/plasma/shells/org.kde.plasma.desktop/contents/configuration/AppletConfiguration.qml
 * /usr/share/plasma/shells/org.kde.plasma.desktop/contents/configuration/ConfigCategoryDelegate.qml
-* /usr/share/plasma/shells/org.kde.plasma.desktop/contents/configuration/ConfigurationAppletPage.qml
 * /usr/share/plasma/shells/org.kde.plasma.desktop/contents/configuration/ConfigurationContainmentActions.qml
 * /usr/share/plasma/shells/org.kde.plasma.desktop/contents/configuration/ConfigurationContainmentAppearance.qml
-* /usr/share/plasma/shells/org.kde.plasma.desktop/contents/configuration/ConfigurationKcmPage.qml
 * /usr/share/plasma/shells/org.kde.plasma.desktop/contents/configuration/ConfigurationShortcuts.qml
 * /usr/share/plasma/shells/org.kde.plasma.desktop/contents/configuration/ContainmentConfiguration.qml
 * /usr/share/plasma/shells/org.kde.plasma.desktop/contents/configuration/MouseEventInputButton.qml
@@ -4282,9 +4168,9 @@ KDE Plasma Desktop.
 * /usr/share/plasma/shells/org.kde.plasma.desktop/contents/lockscreen/MainBlock.qml
 * /usr/share/plasma/shells/org.kde.plasma.desktop/contents/lockscreen/MediaControls.qml
 * /usr/share/plasma/shells/org.kde.plasma.desktop/contents/lockscreen/NoPasswordUnlock.qml
+* /usr/share/plasma/shells/org.kde.plasma.desktop/contents/lockscreen/PasswordSync.qml
+* /usr/share/plasma/shells/org.kde.plasma.desktop/contents/lockscreen/qmldir
 * /usr/share/plasma/shells/org.kde.plasma.desktop/contents/main.js
-* /usr/share/plasma/shells/org.kde.plasma.desktop/contents/osd/Osd.qml
-* /usr/share/plasma/shells/org.kde.plasma.desktop/contents/osd/OsdItem.qml
 * /usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/containmentactions_middlebutton.js
 * /usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/digitalclock_migrate_font_settings.js
 * /usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/digitalclock_migrate_showseconds_setting.js
@@ -4299,6 +4185,7 @@ KDE Plasma Desktop.
 * /usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/move_desktop_layout_config.js
 * /usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/no_middle_click_paste_on_panels.js
 * /usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/systemloadviewer_systemmonitor.js
+* /usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/taskmanager_configUpdate_wheelEnabled.js
 * /usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/unlock_widgets.js
 * /usr/share/plasma/shells/org.kde.plasma.desktop/contents/views/Desktop.qml
 * /usr/share/plasma/shells/org.kde.plasma.desktop/contents/views/DesktopEditMode.qml

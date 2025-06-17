@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "polkit-kde-agent-1 6.3.5-2"
-version = "6.3.5-2"
+title = "polkit-kde-agent-1 6.4.0-1"
+version = "6.4.0-1"
 description = "Daemon providing a polkit authentication UI for KDE"
-date = "2025-06-04T14:40:51"
+date = "2025-06-17T17:37:54"
 aliases = "/packages/118466"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "68336"
-usize = "247711"
-sha1sum = "57fdea2569c073e3cf415ce84420128f738800dc"
-depends = "['kcrash>=6.14.0', 'kdbusaddons>=6.14.0', 'kiconthemes>=6.14.0', 'polkit-qt6-1']"
+size = "68604"
+usize = "248409"
+sha1sum = "10d3f2d667266de5d1485654f927db4b2459bbda"
+depends = "['kcrash>=6.15.0', 'kdbusaddons>=6.15.0', 'kiconthemes>=6.15.0', 'knotifications>=6.15.0', 'polkit-qt6-1']"
 +++
 ### Description: 
 Daemon providing a polkit authentication UI for KDE
@@ -21,7 +21,7 @@ Daemon providing a polkit authentication UI for KDE
 * /usr/lib/polkit-kde-agent-1/polkit-kde-authentication-agent-1
 * /usr/lib/systemd/user/plasma-polkit-agent.service
 * /usr/share/applications/org.kde.polkit-kde-authentication-agent-1.desktop
-* /usr/share/knotifications6/policykit1-kde.notifyrc
+* /usr/share/knotifications6/polkit-kde-authentication-agent-1.notifyrc
 * /usr/share/locale/ar/LC_MESSAGES/polkit-kde-authentication-agent-1.mo
 * /usr/share/locale/ast/LC_MESSAGES/polkit-kde-authentication-agent-1.mo
 * /usr/share/locale/be/LC_MESSAGES/polkit-kde-authentication-agent-1.mo

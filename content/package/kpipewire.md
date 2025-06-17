@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kpipewire 6.3.5-2"
-version = "6.3.5-2"
+title = "kpipewire 6.4.0-1"
+version = "6.4.0-1"
 description = "Components relating to pipewire use in Plasma"
-date = "2025-06-04T14:39:46"
+date = "2025-06-17T17:17:27"
 aliases = "/packages/220610"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "127660"
-usize = "471351"
-sha1sum = "25ea38d34200a261c7d08077fb9d997bd12bdae8"
-depends = "['ffmpeg>=7.0', 'kcoreaddons>=6.14.0', 'ki18n>=6.14.0', 'kwayland>=6.3.5', 'libepoxy', 'pipewire']"
+size = "130056"
+usize = "479908"
+sha1sum = "0cf2711a37097d957c77ef2ccb1224a950602aae"
+depends = "['ffmpeg>=7.0', 'kcoreaddons>=6.15.0', 'ki18n>=6.15.0', 'kwayland>=6.4.0', 'libepoxy', 'pipewire']"
 reverse_depends = "['krdp', 'krfb-pipewire', 'plasma-desktop', 'plasma-wayland-session', 'spectacle', 'xwaylandvideobridge']"
 +++
 ### Description: 
@@ -39,26 +39,26 @@ Components relating to pipewire use in Plasma
 * /usr/lib/cmake/KPipeWire/KPipeWireTargets.cmake
 * /usr/lib/libKPipeWire.so
 * /usr/lib/libKPipeWire.so.6
-* /usr/lib/libKPipeWire.so.6.3.5
+* /usr/lib/libKPipeWire.so.6.4.0
 * /usr/lib/libKPipeWireDmaBuf.so
 * /usr/lib/libKPipeWireDmaBuf.so.6
-* /usr/lib/libKPipeWireDmaBuf.so.6.3.5
+* /usr/lib/libKPipeWireDmaBuf.so.6.4.0
 * /usr/lib/libKPipeWireRecord.so
 * /usr/lib/libKPipeWireRecord.so.6
-* /usr/lib/libKPipeWireRecord.so.6.3.5
+* /usr/lib/libKPipeWireRecord.so.6.4.0
 * /usr/lib/qt6/qml/org/kde/pipewire/kde-qmlmodule.version
-* /usr/lib/qt6/qml/org/kde/pipewire/KPipeWireDeclarative.qmltypes
-* /usr/lib/qt6/qml/org/kde/pipewire/libKPipeWireDeclarative.so
+* /usr/lib/qt6/qml/org/kde/pipewire/KPipeWire.qmltypes
+* /usr/lib/qt6/qml/org/kde/pipewire/libKPipeWireplugin.so
 * /usr/lib/qt6/qml/org/kde/pipewire/monitor/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/pipewire/monitor/KPipeWireMonitorDeclarative.qmltypes
 * /usr/lib/qt6/qml/org/kde/pipewire/monitor/libKPipeWireMonitorDeclarative.so
 * /usr/lib/qt6/qml/org/kde/pipewire/monitor/qmldir
 * /usr/lib/qt6/qml/org/kde/pipewire/qmldir
 * /usr/lib/qt6/qml/org/kde/pipewire/record/kde-qmlmodule.version
-* /usr/lib/qt6/qml/org/kde/pipewire/record/KPipeWireRecordDeclarative.qmltypes
-* /usr/lib/qt6/qml/org/kde/pipewire/record/libKPipeWireRecordDeclarative.so
+* /usr/lib/qt6/qml/org/kde/pipewire/record/KPipeWireRecord.qmltypes
+* /usr/lib/qt6/qml/org/kde/pipewire/record/libKPipeWireRecordplugin.so
 * /usr/lib/qt6/qml/org/kde/pipewire/record/qmldir
-* /usr/share/doc/kpipewire-6.3.5/README.md
+* /usr/share/doc/kpipewire-6.4.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/kpipewire6.mo
 * /usr/share/locale/ast/LC_MESSAGES/kpipewire6.mo
 * /usr/share/locale/bg/LC_MESSAGES/kpipewire6.mo

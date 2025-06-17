@@ -12,7 +12,7 @@ size = "2593140"
 usize = "10221861"
 sha1sum = "bd299c637abfca3a4b0f12da41ac5d09899ddf2c"
 depends = "['cjson', 'ffmpeg>=7.0', 'fuse3>=3.17.1', 'icu4c>=77.1', 'libcups', 'libkrb5', 'libxcursor', 'libxdamage', 'libxinerama', 'libxkbcommon', 'libxkbfile', 'libxrandr', 'pcsc-lite', 'sdl2_ttf', 'sdl3_ttf', 'uriparser']"
-reverse_depends = "['krdc', 'remmina-rdp', 'weston']"
+reverse_depends = "['krdc', 'krdp', 'remmina-rdp', 'weston']"
 +++
 ### Description: 
 Remote Desktop Protocol cliente

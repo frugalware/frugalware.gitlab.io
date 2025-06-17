@@ -1,26 +1,35 @@
 +++
 draft = false
-title = "plasma-welcome 6.3.5-2"
-version = "6.3.5-2"
+title = "plasma-welcome 6.4.0-1"
+version = "6.4.0-1"
 description = "A friendly onboarding wizard for Plasma"
-date = "2025-06-04T14:47:43"
+date = "2025-06-17T18:02:10"
 aliases = "/packages/220919"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "804108"
-usize = "2889295"
-sha1sum = "0f931355afca09e175afee12633cb5e8f873960e"
-depends = "['kaccounts-integration>=25.04.1', 'kirigami>=6.14.0', 'kirigami-addons', 'knewstuff>=6.14.0', 'kuserfeedback', 'libplasma>=']"
+size = "875796"
+usize = "3061475"
+sha1sum = "595b4d2f5aa669909c76d53a0ac6ae6653554e9d"
+depends = "['kaccounts-integration>=25.04.2', 'kirigami>=6.15.0', 'kirigami-addons', 'knewstuff>=6.15.0', 'kuserfeedback', 'libplasma>=']"
 +++
 ### Description: 
 A friendly onboarding wizard for Plasma
 
 ### Files: 
 * /usr/bin/plasma-welcome
+* /usr/lib/libplasma-welcome-publicplugin.a
 * /usr/lib/qt6/plugins/kf6/kded/kded_plasma-welcome.so
+* /usr/lib/qt6/qml/org/kde/plasma/welcome/ApplicationIcon.qml
+* /usr/lib/qt6/qml/org/kde/plasma/welcome/GenericPage.qml
+* /usr/lib/qt6/qml/org/kde/plasma/welcome/KCMPage.qml
+* /usr/lib/qt6/qml/org/kde/plasma/welcome/kde-qmlmodule.version
+* /usr/lib/qt6/qml/org/kde/plasma/welcome/Page.qml
+* /usr/lib/qt6/qml/org/kde/plasma/welcome/plasma-welcome-public.qmltypes
+* /usr/lib/qt6/qml/org/kde/plasma/welcome/qmldir
+* /usr/lib/qt6/qml/org/kde/plasma/welcome/ScrollablePage.qml
 * /usr/share/applications/org.kde.plasma-welcome.desktop
-* /usr/share/doc/plasma-welcome-6.3.5/README.md
+* /usr/share/doc/plasma-welcome-6.4.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/plasma-welcome.mo
 * /usr/share/locale/ast/LC_MESSAGES/plasma-welcome.mo
 * /usr/share/locale/az/LC_MESSAGES/plasma-welcome.mo

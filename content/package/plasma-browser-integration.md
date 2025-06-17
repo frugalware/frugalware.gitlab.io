@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "plasma-browser-integration 6.3.5-2"
-version = "6.3.5-2"
+title = "plasma-browser-integration 6.4.0-1"
+version = "6.4.0-1"
 description = "Qt Platform Theme integration plugins for the Plasma workspaces."
-date = "2025-06-04T14:46:43"
+date = "2025-06-17T17:49:54"
 aliases = "/packages/219689"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "166220"
-usize = "620749"
-sha1sum = "60a1379854932ba24201788fe7dd268f0d84b04e"
-depends = "['kconfig>=6.14.0', 'kdbusaddons>=6.14.0', 'kfilemetadata>=6.14.0', 'ki18n>=6.14.0', 'kio>=6.14.0', 'knotifications>=6.14.0', 'krunner>=6.14.0', 'kstatusnotifieritem>=6.14.0', 'kwindowsystem>=6.14.0', 'plasma-activities>=6.3.5', 'plasma-workspace>=6.3.5', 'purpose>=6.14.0']"
+size = "168232"
+usize = "627774"
+sha1sum = "78f96811067a71ce4de1d9ca4df1318844e68850"
+depends = "['kconfig>=6.15.0', 'kdbusaddons>=6.15.0', 'kfilemetadata>=6.15.0', 'ki18n>=6.15.0', 'kio>=6.15.0', 'knotifications>=6.15.0', 'krunner>=6.15.0', 'kstatusnotifieritem>=6.15.0', 'kwindowsystem>=6.15.0', 'plasma-activities>=6.4.0', 'plasma-workspace>=6.4.0', 'purpose>=6.15.0']"
 +++
 ### Description: 
 Qt Platform Theme integration plugins for the Plasma workspaces.
@@ -21,13 +21,14 @@ Qt Platform Theme integration plugins for the Plasma workspaces.
 * /etc/opt/chrome/native-messaging-hosts/org.kde.plasma.browser_integration.json
 * /etc/opt/edge/native-messaging-hosts/org.kde.plasma.browser_integration.json
 * /usr/bin/plasma-browser-integration-host
+* /usr/lib/librewolf/native-messaging-hosts/org.kde.plasma.browser_integration.json
 * /usr/lib/mozilla/native-messaging-hosts/org.kde.plasma.browser_integration.json
 * /usr/lib/qt6/plugins/kf6/kded/browserintegrationflatpakintegrator.so
 * /usr/lib/qt6/plugins/kf6/kded/browserintegrationreminder.so
 * /usr/share/applications/org.kde.plasma.browser_integration.host.desktop
-* /usr/share/doc/plasma-browser-integration-6.3.5/COPYING-GPL3
-* /usr/share/doc/plasma-browser-integration-6.3.5/dev_README.txt
-* /usr/share/doc/plasma-browser-integration-6.3.5/README.md
+* /usr/share/doc/plasma-browser-integration-6.4.0/COPYING-GPL3
+* /usr/share/doc/plasma-browser-integration-6.4.0/dev_README.txt
+* /usr/share/doc/plasma-browser-integration-6.4.0/README.md
 * /usr/share/krunner/dbusplugins/plasma-runner-browserhistory.desktop
 * /usr/share/krunner/dbusplugins/plasma-runner-browsertabs.desktop
 * /usr/share/locale/ar/LC_MESSAGES/plasma-browser-integration-host.mo

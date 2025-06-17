@@ -1,24 +1,24 @@
 +++
 draft = false
-title = "ocean-sound-theme 6.3.5-2"
-version = "6.3.5-2"
+title = "ocean-sound-theme 6.4.0-1"
+version = "6.4.0-1"
 description = "Ocean Sound Theme for Plasma"
-date = "2025-06-04T14:40:14"
+date = "2025-06-17T17:18:13"
 aliases = "/packages/221370"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2012888"
-usize = "2155570"
-sha1sum = "c0e60df1869c9f91bc417b427191265d686da100"
+size = "2024064"
+usize = "2171311"
+sha1sum = "f90f3c1ad2e1afed7f41a7e6d56d4309d7067e9d"
 depends = "['qt6-base']"
 +++
 ### Description: 
 Ocean Sound Theme for Plasma
 
 ### Files: 
-* /usr/share/doc/ocean-sound-theme-6.3.5/README.md
-* /usr/share/doc/ocean-sound-theme-6.3.5/README.md.license
+* /usr/share/doc/ocean-sound-theme-6.4.0/README.md
+* /usr/share/doc/ocean-sound-theme-6.4.0/README.md.license
 * /usr/share/sounds/ocean/index.theme
 * /usr/share/sounds/ocean/index.theme.license
 * /usr/share/sounds/ocean/stereo/alarm-clock-elapsed.oga
@@ -64,6 +64,8 @@ Ocean Sound Theme for Plasma
 * /usr/share/sounds/ocean/stereo/dialog-information.oga.license
 * /usr/share/sounds/ocean/stereo/dialog-question.oga
 * /usr/share/sounds/ocean/stereo/dialog-question.oga.license
+* /usr/share/sounds/ocean/stereo/dialog-warning-auth.oga
+* /usr/share/sounds/ocean/stereo/dialog-warning-auth.oga.license
 * /usr/share/sounds/ocean/stereo/dialog-warning.oga
 * /usr/share/sounds/ocean/stereo/dialog-warning.oga.license
 * /usr/share/sounds/ocean/stereo/game-over-loser.oga
