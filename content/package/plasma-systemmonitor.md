@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "plasma-systemmonitor 6.3.5-2"
-version = "6.3.5-2"
+title = "plasma-systemmonitor 6.4.0-1"
+version = "6.4.0-1"
 description = "An interface for monitoring system sensors, process information and other system resources"
-date = "2025-06-04T14:02:40"
+date = "2025-06-17T15:43:19"
 aliases = "/packages/220308"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "375760"
-usize = "2122740"
-sha1sum = "ba9ff8bc4257205afcb336becebfa9354896db76"
-depends = "['kdeclarative>=6.14.0', 'kirigami-addons', 'kitemmodels>=6.14.0', 'ksystemstats>=6.3.5']"
+size = "405892"
+usize = "2260664"
+sha1sum = "29c04b4b6cf171864215f8042731c91684083fe9"
+depends = "['kdeclarative>=6.15.0', 'kirigami-addons', 'kitemmodels>=6.15.0', 'ksystemstats>=6.4.0']"
 +++
 ### Description: 
 An interface for monitoring system sensors, process information and other system resources
@@ -57,8 +57,7 @@ An interface for monitoring system sensors, process information and other system
 * /usr/lib/qt6/qml/org/kde/ksysguard/table/TextCellDelegate.qml
 * /usr/lib/qt6/qml/org/kde/ksysguard/table/UserCellDelegate.qml
 * /usr/share/applications/org.kde.plasma-systemmonitor.desktop
-* /usr/share/config.kcfg/systemmonitor.kcfg
-* /usr/share/doc/plasma-systemmonitor-6.3.5/README.md
+* /usr/share/doc/plasma-systemmonitor-6.4.0/README.md
 * /usr/share/kconf_update/plasma-systemmonitor-replace-vmpss.py
 * /usr/share/kconf_update/plasma-systemmonitor.upd
 * /usr/share/kglobalaccel/org.kde.plasma-systemmonitor.desktop
@@ -222,6 +221,8 @@ An interface for monitoring system sensors, process information and other system
 * /usr/share/metainfo/org.kde.plasma-systemmonitor.metainfo.xml
 * /usr/share/plasma-systemmonitor/applications.page
 * /usr/share/plasma-systemmonitor/history.page
+* /usr/share/plasma-systemmonitor/old-history.page
+* /usr/share/plasma-systemmonitor/old-overview.page
 * /usr/share/plasma-systemmonitor/overview.page
 * /usr/share/plasma-systemmonitor/processes.page
 * /usr/share/plasma/kinfocenter/externalmodules/kcm_external_plasma-systemmonitor.desktop

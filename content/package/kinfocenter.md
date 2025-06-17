@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kinfocenter 6.3.5-2"
-version = "6.3.5-2"
+title = "kinfocenter 6.4.0-1"
+version = "6.4.0-1"
 description = "Utility that provides information about a computer system."
-date = "2025-06-04T13:51:32"
+date = "2025-06-17T15:19:01"
 aliases = "/packages/221324"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "879792"
-usize = "2901431"
-sha1sum = "44b00a0c60b6940c2ba692ff0e6f811272f62fa9"
-depends = "['clinfo', 'dmidecode', 'fwupd', 'kcmutils>=6.14.0', 'kirigami>=6.14.0', 'kpackage>=6.14.0', 'kwayland>=6.3.5', 'libglu>=9.0.0-3', 'libraw1394>=2.1.2-2', 'pciutils>=3.5.1-4', 'solid>=6.14.0', 'systemsettings>=6.3.5', 'vulkan-tools', 'wayland-utils']"
+size = "905092"
+usize = "3040756"
+sha1sum = "a3fb7e56b6d5fbda8804605d3a108e9db2f2f78d"
+depends = "['clinfo', 'dmidecode', 'fwupd', 'kcmutils>=6.15.0', 'kirigami>=6.15.0', 'kpackage>=6.15.0', 'kwayland>=6.4.0', 'libglu>=9.0.0-3', 'libraw1394>=2.1.2-2', 'pciutils>=3.5.1-4', 'solid>=6.15.0', 'systemsettings>=6.4.0', 'vulkan-tools', 'wayland-utils']"
 +++
 ### Description: 
 Utility that provides information about a computer system.
@@ -38,11 +38,15 @@ Utility that provides information about a computer system.
 * /usr/lib/qt6/plugins/plasma/kcms/kinfocenter/kcm_opencl.so
 * /usr/lib/qt6/plugins/plasma/kcms/kinfocenter/kcm_pci.so
 * /usr/lib/qt6/plugins/plasma/kcms/kinfocenter/kcm_samba.so
+* /usr/lib/qt6/plugins/plasma/kcms/kinfocenter/kcm_sensors.so
 * /usr/lib/qt6/plugins/plasma/kcms/kinfocenter/kcm_usb.so
 * /usr/lib/qt6/plugins/plasma/kcms/kinfocenter/kcm_vulkan.so
 * /usr/lib/qt6/plugins/plasma/kcms/kinfocenter/kcm_wayland.so
 * /usr/lib/qt6/plugins/plasma/kcms/kinfocenter/kcm_xserver.so
-* /usr/lib/qt6/qml/org/kde/kinfocenter/private/CommandOutputKCM.qml
+* /usr/lib/qt6/qml/org/kde/kinfocenter/private/kde-qmlmodule.version
+* /usr/lib/qt6/qml/org/kde/kinfocenter/private/KInfoCenterInternal.qmltypes
+* /usr/lib/qt6/qml/org/kde/kinfocenter/private/libKInfoCenterInternalplugin.so
+* /usr/lib/qt6/qml/org/kde/kinfocenter/private/qml/CommandOutputKCM.qml
 * /usr/lib/qt6/qml/org/kde/kinfocenter/private/qmldir
 * /usr/share/applications/kcm_about-distro.desktop
 * /usr/share/applications/kcm_energyinfo.desktop
@@ -86,7 +90,7 @@ Utility that provides information about a computer system.
 * /usr/share/doc/HTML/uk/kinfocenter/index.cache.bz2
 * /usr/share/doc/HTML/uk/kinfocenter/index.docbook
 * /usr/share/doc/HTML/uk/kinfocenter/kinfocenter.png
-* /usr/share/doc/kinfocenter-6.3.5/README.md
+* /usr/share/doc/kinfocenter-6.4.0/README.md
 * /usr/share/kinfocenter/categories/basicinformation.desktop
 * /usr/share/kinfocenter/categories/deviceinfocategory.desktop
 * /usr/share/kinfocenter/categories/graphicalinfocategory.desktop

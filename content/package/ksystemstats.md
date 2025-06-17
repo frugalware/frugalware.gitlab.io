@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ksystemstats 6.3.5-2"
-version = "6.3.5-2"
+title = "ksystemstats 6.4.0-1"
+version = "6.4.0-1"
 description = "A plugin based system monitoring daemon"
-date = "2025-06-04T13:58:57"
+date = "2025-06-17T15:38:19"
 aliases = "/packages/220409"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "244644"
-usize = "1524140"
-sha1sum = "8f19d69ddc34aa5858b3c735411cbb04b3b0035e"
-depends = "['libksysguard>=6.3.5', 'networkmanager-qt']"
+size = "254904"
+usize = "1556453"
+sha1sum = "a3b61abc62a2bb98412036acfe4b8ef775ea107e"
+depends = "['libksysguard>=6.4.0', 'networkmanager-qt']"
 reverse_depends = "['plasma-systemmonitor']"
 +++
 ### Description: 
@@ -20,6 +20,7 @@ A plugin based system monitoring daemon
 ### Files: 
 * /usr/bin/kstatsviewer
 * /usr/bin/ksystemstats
+* /usr/lib/ksystemstats/ksystemstats_intel_helper
 * /usr/lib/qt6/plugins/ksystemstats/ksystemstats_plugin_cpu.so
 * /usr/lib/qt6/plugins/ksystemstats/ksystemstats_plugin_disk.so
 * /usr/lib/qt6/plugins/ksystemstats/ksystemstats_plugin_gpu.so
@@ -31,7 +32,7 @@ A plugin based system monitoring daemon
 * /usr/lib/qt6/plugins/ksystemstats/ksystemstats_plugin_pressure.so
 * /usr/lib/systemd/user/plasma-ksystemstats.service
 * /usr/share/dbus-1/services/org.kde.ksystemstats1.service
-* /usr/share/doc/ksystemstats-6.3.5/README.md
+* /usr/share/doc/ksystemstats-6.4.0/README.md
 * /usr/share/locale/ar/LC_MESSAGES/ksystemstats_plugins.mo
 * /usr/share/locale/ast/LC_MESSAGES/ksystemstats_plugins.mo
 * /usr/share/locale/az/LC_MESSAGES/ksystemstats_plugins.mo

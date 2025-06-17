@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qqc2-breeze-style 6.3.5-2"
-version = "6.3.5-2"
+title = "qqc2-breeze-style 6.4.0-1"
+version = "6.4.0-1"
 description = "Breeze inspired QQC2 Style"
-date = "2025-06-04T14:00:01"
+date = "2025-06-17T15:39:41"
 aliases = "/packages/220309"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "345748"
-usize = "2166726"
-sha1sum = "2ea8144d2fa8b6844d99913cbe2a07e2833beb82"
-depends = "['kconfig>=6.14.0', 'kguiaddons>=6.14.0', 'kiconthemes>=6.14.0', 'kirigami>=6.14.0', 'kquickcharts>=6.14.0']"
+size = "345508"
+usize = "2167621"
+sha1sum = "3a60469991aa80b9c8da2c0b5fa0cc7f636a473c"
+depends = "['kconfig>=6.15.0', 'kguiaddons>=6.15.0', 'kiconthemes>=6.15.0', 'kirigami>=6.15.0', 'kquickcharts>=6.15.0']"
 +++
 ### Description: 
 Breeze inspired QQC2 Style
@@ -67,6 +67,7 @@ Breeze inspired QQC2 Style
 * /usr/lib/qt6/qml/org/kde/breeze/impl/SliderHandle.qml
 * /usr/lib/qt6/qml/org/kde/breeze/impl/SmallBoxShadow.qml
 * /usr/lib/qt6/qml/org/kde/breeze/impl/SpinBoxIndicator.qml
+* /usr/lib/qt6/qml/org/kde/breeze/impl/StandardRectangle.qml
 * /usr/lib/qt6/qml/org/kde/breeze/impl/SwitchIndicator.qml
 * /usr/lib/qt6/qml/org/kde/breeze/impl/TextEditBackground.qml
 * /usr/lib/qt6/qml/org/kde/breeze/impl/Theme.qml
@@ -112,4 +113,4 @@ Breeze inspired QQC2 Style
 * /usr/lib/qt6/qml/org/kde/breeze/ToolTip.qml
 * /usr/lib/qt6/qml/org/kde/breeze/Tumbler.qml
 * /usr/lib/qt6/qml/org/kde/breeze/VerticalHeaderView.qml
-* /usr/share/doc/qqc2-breeze-style-6.3.5/README.md
+* /usr/share/doc/qqc2-breeze-style-6.4.0/README.md

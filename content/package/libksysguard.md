@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libksysguard 6.3.5-2"
-version = "6.3.5-2"
+title = "libksysguard 6.4.0-1"
+version = "6.4.0-1"
 description = "Task management and system monitoring library."
-date = "2025-06-04T13:54:48"
+date = "2025-06-17T15:32:44"
 aliases = "/packages/221363"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "547624"
-usize = "3110127"
-sha1sum = "33fff9756f06a6172494c210039a8e26e39dc710"
-depends = "['kconfigwidgets>=6.14.0', 'knewstuff>=6.14.0', 'kwindowsystem>=6.14.0', 'libnl', 'libxres>=1.0.7-4', 'lmsensors', 'qt6-webengine>=6.9.1']"
+size = "588112"
+usize = "3242773"
+sha1sum = "caedeab2c7ec9c9a4b9cfec4a29fd152c9c8f27f"
+depends = "['kconfigwidgets>=6.15.0', 'knewstuff>=6.15.0', 'kwindowsystem>=6.15.0', 'libnl', 'libxres>=1.0.7-4', 'lmsensors', 'qt6-webengine>=6.9.1']"
 reverse_depends = "['kdevelop', 'ksystemstats', 'plasma-vault', 'plasma-workspace', 'plasma5support']"
 +++
 ### Description: 
@@ -62,21 +62,21 @@ Task management and system monitoring library.
 * /usr/lib/kauth/kf6/kauth/ksysguardprocesslist_helper
 * /usr/lib/libKSysGuardFormatter.so
 * /usr/lib/libKSysGuardFormatter.so.2
-* /usr/lib/libKSysGuardFormatter.so.6.3.5
+* /usr/lib/libKSysGuardFormatter.so.6.4.0
 * /usr/lib/libKSysGuardSensorFaces.so
 * /usr/lib/libKSysGuardSensorFaces.so.2
-* /usr/lib/libKSysGuardSensorFaces.so.6.3.5
+* /usr/lib/libKSysGuardSensorFaces.so.6.4.0
 * /usr/lib/libKSysGuardSensors.so
 * /usr/lib/libKSysGuardSensors.so.2
-* /usr/lib/libKSysGuardSensors.so.6.3.5
+* /usr/lib/libKSysGuardSensors.so.6.4.0
 * /usr/lib/libKSysGuardSystemStats.so
 * /usr/lib/libKSysGuardSystemStats.so.2
-* /usr/lib/libKSysGuardSystemStats.so.6.3.5
+* /usr/lib/libKSysGuardSystemStats.so.6.4.0
 * /usr/lib/libprocesscore.so
 * /usr/lib/libprocesscore.so.10
-* /usr/lib/libprocesscore.so.6.3.5
+* /usr/lib/libprocesscore.so.6.4.0
 * /usr/lib/qt6/plugins/kf6/packagestructure/ksysguard_sensorface.so
-* /usr/lib/qt6/plugins/ksysguard/process/ksysguard_plugin_nvidia.so
+* /usr/lib/qt6/plugins/ksysguard/process/ksysguard_plugin_gpu.so
 * /usr/lib/qt6/qml/org/kde/ksysguard/faces/Choices.qml
 * /usr/lib/qt6/qml/org/kde/ksysguard/faces/CompactSensorFace.qml
 * /usr/lib/qt6/qml/org/kde/ksysguard/faces/ExtendedLegend.qml
@@ -468,6 +468,17 @@ Task management and system monitoring library.
 * /usr/share/locale/lt/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.textonly.mo
 * /usr/share/locale/lt/LC_MESSAGES/ksysguard_sensors.mo
 * /usr/share/locale/lt/LC_MESSAGES/processcore.mo
+* /usr/share/locale/lv/LC_MESSAGES/KSysGuardFormatter.mo
+* /usr/share/locale/lv/LC_MESSAGES/KSysGuardSensorFaces.mo
+* /usr/share/locale/lv/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.barchart.mo
+* /usr/share/locale/lv/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.colorgrid.mo
+* /usr/share/locale/lv/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.facegrid.mo
+* /usr/share/locale/lv/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.horizontalbars.mo
+* /usr/share/locale/lv/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.linechart.mo
+* /usr/share/locale/lv/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.piechart.mo
+* /usr/share/locale/lv/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.textonly.mo
+* /usr/share/locale/lv/LC_MESSAGES/ksysguard_sensors.mo
+* /usr/share/locale/lv/LC_MESSAGES/ksysguard_systemstats.mo
 * /usr/share/locale/lv/LC_MESSAGES/processcore.mo
 * /usr/share/locale/mai/LC_MESSAGES/processcore.mo
 * /usr/share/locale/mk/LC_MESSAGES/processcore.mo
@@ -534,17 +545,12 @@ Task management and system monitoring library.
 * /usr/share/locale/pt/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.textonly.mo
 * /usr/share/locale/pt/LC_MESSAGES/ksysguard_sensors.mo
 * /usr/share/locale/pt/LC_MESSAGES/processcore.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/KSysGuardFormatter.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/KSysGuardSensorFaces.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.barchart.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.colorgrid.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.facegrid.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.horizontalbars.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.linechart.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.piechart.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.textonly.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/ksysguard_sensors.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/ksysguard_systemstats.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/processcore.mo
 * /usr/share/locale/ro/LC_MESSAGES/KSysGuardSensorFaces.mo
 * /usr/share/locale/ro/LC_MESSAGES/ksysguard_face_org.kde.ksysguard.barchart.mo

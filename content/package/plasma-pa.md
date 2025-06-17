@@ -1,25 +1,26 @@
 +++
 draft = false
-title = "plasma-pa 6.3.5-2"
-version = "6.3.5-2"
+title = "plasma-pa 6.4.0-1"
+version = "6.4.0-1"
 description = "Plasma applet written in QML for PulseAudio"
-date = "2025-06-04T13:56:28"
+date = "2025-06-17T15:35:01"
 aliases = "/packages/218400"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "306832"
-usize = "1382477"
-sha1sum = "06f0f4705f4f2fc06bbcd6ca56508e50e1eacf37"
-depends = "['kcmutils>=6.14.0', 'kdeclarative>=6.14.0', 'kirigami-addons', 'kitemmodels>=6.14.0', 'kstatusnotifieritem>=6.14.0', 'ksvg>=6.14.0', 'libcanberra', 'libcanberra-pulseaudio', 'libplasma>=6.3.5', 'pulseaudio-qt', 'sound-theme-freedesktop']"
+size = "381492"
+usize = "1706232"
+sha1sum = "57d02831ef6abdf50fc29cba7f588d887c3aaea5"
+depends = "['kcmutils>=6.15.0', 'kdeclarative>=6.15.0', 'kirigami-addons', 'kitemmodels>=6.15.0', 'kstatusnotifieritem>=6.15.0', 'ksvg>=6.15.0', 'libcanberra', 'libcanberra-pulseaudio', 'libplasma>=6.4.0', 'pulseaudio-qt', 'sound-theme-freedesktop']"
 +++
 ### Description: 
 Plasma applet written in QML for PulseAudio
 
 ### Files: 
 * /usr/lib/libplasma-volume.so.6
-* /usr/lib/libplasma-volume.so.6.3.5
+* /usr/lib/libplasma-volume.so.6.4.0
 * /usr/lib/qt6/plugins/kf6/kded/audioshortcutsservice.so
+* /usr/lib/qt6/plugins/plasma/applets/org.kde.plasma.volume.so
 * /usr/lib/qt6/plugins/plasma/kcms/systemsettings/kcm_pulseaudio.so
 * /usr/lib/qt6/qml/org/kde/plasma/private/volume/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/plasma/private/volume/libplasma-volume-declarative.so
@@ -162,14 +163,4 @@ Plasma applet written in QML for PulseAudio
 * /usr/share/locale/zh_CN/LC_MESSAGES/plasma_applet_org.kde.plasma.volume.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kcm_pulseaudio.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/plasma_applet_org.kde.plasma.volume.mo
-* /usr/share/metainfo/org.kde.plasma.volume.appdata.xml
-* /usr/share/plasma/plasmoids/org.kde.plasma.volume/contents/config/main.xml
-* /usr/share/plasma/plasmoids/org.kde.plasma.volume/contents/ui/DeviceListItem.qml
-* /usr/share/plasma/plasmoids/org.kde.plasma.volume/contents/ui/HorizontalStackView.qml
-* /usr/share/plasma/plasmoids/org.kde.plasma.volume/contents/ui/ListItemBase.qml
-* /usr/share/plasma/plasmoids/org.kde.plasma.volume/contents/ui/main.qml
-* /usr/share/plasma/plasmoids/org.kde.plasma.volume/contents/ui/SmallToolButton.qml
-* /usr/share/plasma/plasmoids/org.kde.plasma.volume/contents/ui/StreamListItem.qml
-* /usr/share/plasma/plasmoids/org.kde.plasma.volume/contents/ui/VolumeSlider.qml
-* /usr/share/plasma/plasmoids/org.kde.plasma.volume/metadata.json
 * /usr/share/qlogging-categories6/plasmapa.categories

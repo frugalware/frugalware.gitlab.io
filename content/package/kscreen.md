@@ -1,23 +1,24 @@
 +++
 draft = false
-title = "kscreen 6.3.5-2"
-version = "6.3.5-2"
+title = "kscreen 6.4.0-1"
+version = "6.4.0-1"
 description = "KDE's screen management utility."
-date = "2025-06-04T13:53:01"
+date = "2025-06-17T15:26:56"
 aliases = "/packages/221347"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "297952"
-usize = "1332739"
-sha1sum = "d7f7b1a57bef763b572cff08db8a9d4e99e009ee"
-depends = "['ksvg>=6.14.0', 'layer-shell-qt>=6.3.5', 'libkscreen>=6.3.5', 'libplasma>=6.3.5', 'qt6-sensors>=6.9.1']"
+size = "31890484"
+usize = "33209623"
+sha1sum = "16adb6855dc50e43d26c4b2c575a1ca0358c7491"
+depends = "['ksvg>=6.15.0', 'layer-shell-qt>=6.4.0', 'libkscreen>=6.4.0', 'libplasma>=6.4.0', 'qt6-sensors>=6.9.1']"
 reverse_depends = "['kscreenlocker', 'spectacle']"
 +++
 ### Description: 
 KDE's screen management utility.
 
 ### Files: 
+* /usr/bin/hdrcalibrator
 * /usr/bin/kscreen-console
 * /usr/lib/kscreen/kscreen_osd_service
 * /usr/lib/qt6/plugins/kf6/kded/kscreen.so
@@ -26,8 +27,10 @@ KDE's screen management utility.
 * /usr/lib/systemd/user/plasma-kscreen-osd.service
 * /usr/share/applications/kcm_kscreen.desktop
 * /usr/share/dbus-1/services/org.kde.kscreen.osdService.service
-* /usr/share/doc/kscreen-6.3.5/README.md
+* /usr/share/doc/kscreen-6.4.0/README.md
 * /usr/share/kglobalaccel/org.kde.kscreen.desktop
+* /usr/share/kscreen/graz.png
+* /usr/share/locale/ar/LC_MESSAGES/hdrcalibrator.mo
 * /usr/share/locale/ar/LC_MESSAGES/kcm_kscreen.mo
 * /usr/share/locale/ar/LC_MESSAGES/kscreen_common.mo
 * /usr/share/locale/ar/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
@@ -37,13 +40,16 @@ KDE's screen management utility.
 * /usr/share/locale/az/LC_MESSAGES/kcm_kscreen.mo
 * /usr/share/locale/az/LC_MESSAGES/kscreen_common.mo
 * /usr/share/locale/az/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/bg/LC_MESSAGES/hdrcalibrator.mo
 * /usr/share/locale/bg/LC_MESSAGES/kcm_kscreen.mo
 * /usr/share/locale/bg/LC_MESSAGES/kscreen_common.mo
 * /usr/share/locale/bg/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
 * /usr/share/locale/bs/LC_MESSAGES/kcm_kscreen.mo
+* /usr/share/locale/ca/LC_MESSAGES/hdrcalibrator.mo
 * /usr/share/locale/ca/LC_MESSAGES/kcm_kscreen.mo
 * /usr/share/locale/ca/LC_MESSAGES/kscreen_common.mo
 * /usr/share/locale/ca/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/hdrcalibrator.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/kcm_kscreen.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/kscreen_common.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
@@ -53,6 +59,7 @@ KDE's screen management utility.
 * /usr/share/locale/da/LC_MESSAGES/kcm_kscreen.mo
 * /usr/share/locale/da/LC_MESSAGES/kscreen_common.mo
 * /usr/share/locale/da/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/de/LC_MESSAGES/hdrcalibrator.mo
 * /usr/share/locale/de/LC_MESSAGES/kcm_kscreen.mo
 * /usr/share/locale/de/LC_MESSAGES/kscreen_common.mo
 * /usr/share/locale/de/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
@@ -65,24 +72,30 @@ KDE's screen management utility.
 * /usr/share/locale/eo/LC_MESSAGES/kcm_kscreen.mo
 * /usr/share/locale/eo/LC_MESSAGES/kscreen_common.mo
 * /usr/share/locale/eo/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/es/LC_MESSAGES/hdrcalibrator.mo
 * /usr/share/locale/es/LC_MESSAGES/kcm_kscreen.mo
 * /usr/share/locale/es/LC_MESSAGES/kscreen_common.mo
 * /usr/share/locale/es/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
 * /usr/share/locale/et/LC_MESSAGES/kcm_kscreen.mo
 * /usr/share/locale/et/LC_MESSAGES/kscreen_common.mo
 * /usr/share/locale/et/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/eu/LC_MESSAGES/hdrcalibrator.mo
 * /usr/share/locale/eu/LC_MESSAGES/kcm_kscreen.mo
 * /usr/share/locale/eu/LC_MESSAGES/kscreen_common.mo
 * /usr/share/locale/eu/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/fi/LC_MESSAGES/hdrcalibrator.mo
 * /usr/share/locale/fi/LC_MESSAGES/kcm_kscreen.mo
 * /usr/share/locale/fi/LC_MESSAGES/kscreen_common.mo
 * /usr/share/locale/fi/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/fr/LC_MESSAGES/hdrcalibrator.mo
 * /usr/share/locale/fr/LC_MESSAGES/kcm_kscreen.mo
 * /usr/share/locale/fr/LC_MESSAGES/kscreen_common.mo
 * /usr/share/locale/fr/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/gl/LC_MESSAGES/hdrcalibrator.mo
 * /usr/share/locale/gl/LC_MESSAGES/kcm_kscreen.mo
 * /usr/share/locale/gl/LC_MESSAGES/kscreen_common.mo
 * /usr/share/locale/gl/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/he/LC_MESSAGES/hdrcalibrator.mo
 * /usr/share/locale/he/LC_MESSAGES/kcm_kscreen.mo
 * /usr/share/locale/he/LC_MESSAGES/kscreen_common.mo
 * /usr/share/locale/he/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
@@ -92,9 +105,11 @@ KDE's screen management utility.
 * /usr/share/locale/hsb/LC_MESSAGES/kcm_kscreen.mo
 * /usr/share/locale/hsb/LC_MESSAGES/kscreen_common.mo
 * /usr/share/locale/hsb/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/hu/LC_MESSAGES/hdrcalibrator.mo
 * /usr/share/locale/hu/LC_MESSAGES/kcm_kscreen.mo
 * /usr/share/locale/hu/LC_MESSAGES/kscreen_common.mo
 * /usr/share/locale/hu/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/ia/LC_MESSAGES/hdrcalibrator.mo
 * /usr/share/locale/ia/LC_MESSAGES/kcm_kscreen.mo
 * /usr/share/locale/ia/LC_MESSAGES/kscreen_common.mo
 * /usr/share/locale/ia/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
@@ -104,15 +119,18 @@ KDE's screen management utility.
 * /usr/share/locale/is/LC_MESSAGES/kcm_kscreen.mo
 * /usr/share/locale/is/LC_MESSAGES/kscreen_common.mo
 * /usr/share/locale/is/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/it/LC_MESSAGES/hdrcalibrator.mo
 * /usr/share/locale/it/LC_MESSAGES/kcm_kscreen.mo
 * /usr/share/locale/it/LC_MESSAGES/kscreen_common.mo
 * /usr/share/locale/it/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
 * /usr/share/locale/ja/LC_MESSAGES/kcm_kscreen.mo
 * /usr/share/locale/ja/LC_MESSAGES/kscreen_common.mo
 * /usr/share/locale/ja/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/ka/LC_MESSAGES/hdrcalibrator.mo
 * /usr/share/locale/ka/LC_MESSAGES/kcm_kscreen.mo
 * /usr/share/locale/ka/LC_MESSAGES/kscreen_common.mo
 * /usr/share/locale/ka/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/ko/LC_MESSAGES/hdrcalibrator.mo
 * /usr/share/locale/ko/LC_MESSAGES/kcm_kscreen.mo
 * /usr/share/locale/ko/LC_MESSAGES/kscreen_common.mo
 * /usr/share/locale/ko/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
@@ -127,6 +145,7 @@ KDE's screen management utility.
 * /usr/share/locale/nb/LC_MESSAGES/kcm_kscreen.mo
 * /usr/share/locale/nb/LC_MESSAGES/kscreen_common.mo
 * /usr/share/locale/nb/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/nl/LC_MESSAGES/hdrcalibrator.mo
 * /usr/share/locale/nl/LC_MESSAGES/kcm_kscreen.mo
 * /usr/share/locale/nl/LC_MESSAGES/kscreen_common.mo
 * /usr/share/locale/nl/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
@@ -136,6 +155,7 @@ KDE's screen management utility.
 * /usr/share/locale/pa/LC_MESSAGES/kcm_kscreen.mo
 * /usr/share/locale/pa/LC_MESSAGES/kscreen_common.mo
 * /usr/share/locale/pa/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/pl/LC_MESSAGES/hdrcalibrator.mo
 * /usr/share/locale/pl/LC_MESSAGES/kcm_kscreen.mo
 * /usr/share/locale/pl/LC_MESSAGES/kscreen_common.mo
 * /usr/share/locale/pl/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
@@ -157,6 +177,7 @@ KDE's screen management utility.
 * /usr/share/locale/sk/LC_MESSAGES/kcm_kscreen.mo
 * /usr/share/locale/sk/LC_MESSAGES/kscreen_common.mo
 * /usr/share/locale/sk/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/sl/LC_MESSAGES/hdrcalibrator.mo
 * /usr/share/locale/sl/LC_MESSAGES/kcm_kscreen.mo
 * /usr/share/locale/sl/LC_MESSAGES/kscreen_common.mo
 * /usr/share/locale/sl/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
@@ -168,6 +189,7 @@ KDE's screen management utility.
 * /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kscreen_common.mo
 * /usr/share/locale/sr@latin/LC_MESSAGES/kcm_kscreen.mo
 * /usr/share/locale/sr@latin/LC_MESSAGES/kscreen_common.mo
+* /usr/share/locale/sv/LC_MESSAGES/hdrcalibrator.mo
 * /usr/share/locale/sv/LC_MESSAGES/kcm_kscreen.mo
 * /usr/share/locale/sv/LC_MESSAGES/kscreen_common.mo
 * /usr/share/locale/sv/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
@@ -177,22 +199,20 @@ KDE's screen management utility.
 * /usr/share/locale/tg/LC_MESSAGES/kcm_kscreen.mo
 * /usr/share/locale/tg/LC_MESSAGES/kscreen_common.mo
 * /usr/share/locale/tg/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/tr/LC_MESSAGES/hdrcalibrator.mo
 * /usr/share/locale/tr/LC_MESSAGES/kcm_kscreen.mo
 * /usr/share/locale/tr/LC_MESSAGES/kscreen_common.mo
 * /usr/share/locale/tr/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/uk/LC_MESSAGES/hdrcalibrator.mo
 * /usr/share/locale/uk/LC_MESSAGES/kcm_kscreen.mo
 * /usr/share/locale/uk/LC_MESSAGES/kscreen_common.mo
 * /usr/share/locale/uk/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/hdrcalibrator.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/kcm_kscreen.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/kscreen_common.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/hdrcalibrator.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kcm_kscreen.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kscreen_common.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
-* /usr/share/metainfo/org.kde.kscreen.appdata.xml
-* /usr/share/plasma/plasmoids/org.kde.kscreen/contents/ui/InhibitionHint.qml
-* /usr/share/plasma/plasmoids/org.kde.kscreen/contents/ui/main.qml
-* /usr/share/plasma/plasmoids/org.kde.kscreen/contents/ui/PresentationModeItem.qml
-* /usr/share/plasma/plasmoids/org.kde.kscreen/contents/ui/ScreenLayoutSelection.qml
-* /usr/share/plasma/plasmoids/org.kde.kscreen/metadata.json
 * /usr/share/qlogging-categories6/kscreen.categories
