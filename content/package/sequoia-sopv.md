@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "sequoia-sopv 0.37.1-1"
-version = "0.37.1-1"
+title = "sequoia-sopv 0.37.2-1"
+version = "0.37.2-1"
 description = "An implementation of the Stateless OpenPGP Command Line Interface using Sequoia. verification only"
-date = "2025-04-09T13:08:01"
+date = "2025-06-17T20:06:33"
 aliases = "/packages/222513"
 categories = ['apps']
 upstreamurl = "https://sequoia-pgp.org/"
 arch = "x86_64"
-size = "1902596"
-usize = "7265165"
-sha1sum = "e54f9af45649f5f7645ff81e1a52a14632996318"
+size = "1904464"
+usize = "7273365"
+sha1sum = "193d8e85f48d14de07a630ca3f20d9661048c180"
 depends = "['nettle']"
 +++
 ### Description: 

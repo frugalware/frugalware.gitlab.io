@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "fwupd 2.0.10-1"
-version = "2.0.10-1"
+title = "fwupd 2.0.11-1"
+version = "2.0.11-1"
 description = "A simple daemon to allow session software to update firmware"
-date = "2025-05-27T08:20:09"
+date = "2025-06-17T19:56:47"
 aliases = "/packages/219170"
 categories = ['apps']
 upstreamurl = "https://github.com/fwupd/fwupd"
 arch = "x86_64"
-size = "8383756"
-usize = "52402154"
-sha1sum = "3e867e89ef0c6a1d71507fbaf8e4c8396daf12d5"
+size = "8386108"
+usize = "52408814"
+sha1sum = "5dcb2b6949d6017c7754fd8d4c95a97e8d5c7078"
 depends = "['appstream-glib', 'colord', 'efivar', 'flashrom', 'fwupd-efi', 'gnu-efi', 'gpgme', 'gsettings-desktop-schemas', 'libarchive', 'libcbor>=0.12.0', 'libgusb', 'libjcat', 'libqmi', 'libsmbios', 'libxmlb>=0.3.19', 'modemmanager', 'passim', 'protobuf-c', 'tpm2-tss', 'udisks2']"
 reverse_depends = "['discover', 'kinfocenter']"
 +++
@@ -50,11 +50,11 @@ A simple daemon to allow session software to update firmware
 * /usr/include/fwupd-3/libfwupd/fwupd-request.h
 * /usr/include/fwupd-3/libfwupd/fwupd-security-attr.h
 * /usr/include/fwupd-3/libfwupd/fwupd-version.h
-* /usr/lib/fwupd-2.0.10/libfu_plugin_flashrom.so
-* /usr/lib/fwupd-2.0.10/libfu_plugin_modem_manager.so
-* /usr/lib/fwupd-2.0.10/libfwupdengine.so
-* /usr/lib/fwupd-2.0.10/libfwupdplugin.so
-* /usr/lib/fwupd-2.0.10/libfwupdutil.so
+* /usr/lib/fwupd-2.0.11/libfu_plugin_flashrom.so
+* /usr/lib/fwupd-2.0.11/libfu_plugin_modem_manager.so
+* /usr/lib/fwupd-2.0.11/libfwupdengine.so
+* /usr/lib/fwupd-2.0.11/libfwupdplugin.so
+* /usr/lib/fwupd-2.0.11/libfwupdutil.so
 * /usr/lib/fwupd/fwupd
 * /usr/lib/fwupd/fwupd-detect-cet
 * /usr/lib/girepository-1.0/Fwupd-2.0.typelib
@@ -100,9 +100,9 @@ A simple daemon to allow session software to update firmware
 * /usr/share/dbus-1/interfaces/org.freedesktop.fwupd.xml
 * /usr/share/dbus-1/system-services/org.freedesktop.fwupd.service
 * /usr/share/dbus-1/system.d/org.freedesktop.fwupd.conf
-* /usr/share/doc/fwupd-2.0.10/COPYING
-* /usr/share/doc/fwupd-2.0.10/README.md
-* /usr/share/doc/fwupd-2.0.10/RELEASE
+* /usr/share/doc/fwupd-2.0.11/COPYING
+* /usr/share/doc/fwupd-2.0.11/README.md
+* /usr/share/doc/fwupd-2.0.11/RELEASE
 * /usr/share/doc/fwupd/hsi.html
 * /usr/share/doc/fwupd/index.html
 * /usr/share/doc/fwupd/libfwupd
@@ -324,6 +324,7 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupd/func.install_flags_to_string.html
 * /usr/share/doc/libfwupd/func.status_from_string.html
 * /usr/share/doc/libfwupd/func.status_to_string.html
+* /usr/share/doc/libfwupd/func.strerror.html
 * /usr/share/doc/libfwupd/func.update_state_from_string.html
 * /usr/share/doc/libfwupd/func.update_state_to_string.html
 * /usr/share/doc/libfwupd/func.version_format_from_string.html
@@ -1851,8 +1852,6 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupdplugin/func.hid_item_tag_from_string.html
 * /usr/share/doc/libfwupdplugin/func.hid_item_tag_to_string.html
 * /usr/share/doc/libfwupdplugin/func.ifd_access_to_string.html
-* /usr/share/doc/libfwupdplugin/func.ifd_region_to_access.html
-* /usr/share/doc/libfwupdplugin/func.ifd_region_to_name.html
 * /usr/share/doc/libfwupdplugin/func.ifd_region_to_string.html
 * /usr/share/doc/libfwupdplugin/func.input_stream_chunkify.html
 * /usr/share/doc/libfwupdplugin/func.input_stream_compute_checksum.html
@@ -3722,6 +3721,7 @@ A simple daemon to allow session software to update firmware
 * /usr/share/doc/libfwupdplugin/method.Volume.locker.html
 * /usr/share/doc/libfwupdplugin/method.Volume.mount.html
 * /usr/share/doc/libfwupdplugin/method.Volume.unmount.html
+* /usr/share/doc/libfwupdplugin/method.X509Certificate.get_activation_time.html
 * /usr/share/doc/libfwupdplugin/method.X509Certificate.get_issuer.html
 * /usr/share/doc/libfwupdplugin/method.X509Certificate.get_subject.html
 * /usr/share/doc/libfwupdplugin/modem-manager-README.html

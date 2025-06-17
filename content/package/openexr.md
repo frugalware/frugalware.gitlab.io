@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openexr 3.3.3-1"
-version = "3.3.3-1"
+title = "openexr 3.3.4-1"
+version = "3.3.4-1"
 description = "OpenEXR is a high dynamic-range (HDR) image file format."
-date = "2025-03-24T12:32:08"
+date = "2025-06-17T20:09:53"
 aliases = "/packages/4221"
 categories = ['xapps']
 upstreamurl = "http://www.openexr.com"
 arch = "x86_64"
-size = "876720"
-usize = "4056802"
-sha1sum = "8b748100b86f81cd269920ee1614c32693afb3ac"
+size = "881588"
+usize = "4060722"
+sha1sum = "a7c302ecc510fe792bc3bd17e3b21bf3e2883239"
 depends = "['imath>=3.1.10', 'libdeflate']"
 reverse_depends = "['blender', 'calligra', 'darktable', 'devil', 'freeimage', 'gegl', 'gmic', 'imagemagick', 'kimageformats', 'kimageformats5', 'kio-extras', 'kio5-extras', 'libvips', 'opencolorio', 'opencv', 'openshadinglanguage', 'vigra']"
 +++
@@ -181,26 +181,26 @@ OpenEXR is a high dynamic-range (HDR) image file format.
 * /usr/lib/cmake/OpenEXR/OpenEXRTargets.cmake
 * /usr/lib/libIex-3_3.so
 * /usr/lib/libIex-3_3.so.32
-* /usr/lib/libIex-3_3.so.32.3.3.3
+* /usr/lib/libIex-3_3.so.32.3.3.4
 * /usr/lib/libIex.so
 * /usr/lib/libIlmThread-3_3.so
 * /usr/lib/libIlmThread-3_3.so.32
-* /usr/lib/libIlmThread-3_3.so.32.3.3.3
+* /usr/lib/libIlmThread-3_3.so.32.3.3.4
 * /usr/lib/libIlmThread.so
 * /usr/lib/libOpenEXR-3_3.so
 * /usr/lib/libOpenEXR-3_3.so.32
-* /usr/lib/libOpenEXR-3_3.so.32.3.3.3
+* /usr/lib/libOpenEXR-3_3.so.32.3.3.4
 * /usr/lib/libOpenEXR.so
 * /usr/lib/libOpenEXRCore-3_3.so
 * /usr/lib/libOpenEXRCore-3_3.so.32
-* /usr/lib/libOpenEXRCore-3_3.so.32.3.3.3
+* /usr/lib/libOpenEXRCore-3_3.so.32.3.3.4
 * /usr/lib/libOpenEXRCore.so
 * /usr/lib/libOpenEXRUtil-3_3.so
 * /usr/lib/libOpenEXRUtil-3_3.so.32
-* /usr/lib/libOpenEXRUtil-3_3.so.32.3.3.3
+* /usr/lib/libOpenEXRUtil-3_3.so.32.3.3.4
 * /usr/lib/libOpenEXRUtil.so
 * /usr/lib/pkgconfig/OpenEXR.pc
-* /usr/share/doc/openexr-3.3.3/README.md
+* /usr/share/doc/openexr-3.3.4/README.md
 * /usr/share/doc/OpenEXR/examples/deepExamples.cpp
 * /usr/share/doc/OpenEXR/examples/deepExamples.h
 * /usr/share/doc/OpenEXR/examples/deepTiledExamples.cpp

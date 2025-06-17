@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gnupg2 2.5.6-1"
-version = "2.5.6-1"
+title = "gnupg2 2.5.7-1"
+version = "2.5.7-1"
 description = "GnuPG2 is the new modularized version of GnuPG supporting OpenPGP and S/MIME"
-date = "2025-05-12T09:29:06"
+date = "2025-06-17T20:04:11"
 aliases = "/packages/14925"
 categories = ['apps']
 upstreamurl = "https://www.gnupg.org"
 arch = "x86_64"
-size = "2878172"
-usize = "11241290"
-sha1sum = "21c227d0d5323c785310af74a7b73240d4522db8"
+size = "2883168"
+usize = "11268754"
+sha1sum = "270238d763c971ee1252652509fbd2fea922058e"
 depends = "['libassuan>=3.0.1', 'libksba>=1.3.5-2', 'libsystemd>=231-22', 'libusb1', 'ncurses>=6.0-12', 'npth>=1.5-2', 'readline>=8.0', 'sqlite3>=3.9.2-4']"
 reverse_depends = "['gcr', 'kernel-initrd', 'kernel-lts-initrd', 'qca-gnupg']"
 +++
@@ -41,36 +41,36 @@ GnuPG2 is the new modularized version of GnuPG supporting OpenPGP and S/MIME
 * /usr/lib/gnupg2/gpg-wks-client
 * /usr/lib/gnupg2/keyboxd
 * /usr/lib/gnupg2/scdaemon
-* /usr/share/doc/gnupg2-2.5.6/AUTHORS
-* /usr/share/doc/gnupg2-2.5.6/ChangeLog
-* /usr/share/doc/gnupg2-2.5.6/COPYING
-* /usr/share/doc/gnupg2-2.5.6/COPYING.CC0
-* /usr/share/doc/gnupg2-2.5.6/COPYING.GPL2
-* /usr/share/doc/gnupg2-2.5.6/COPYING.LGPL21
-* /usr/share/doc/gnupg2-2.5.6/COPYING.LGPL3
-* /usr/share/doc/gnupg2-2.5.6/COPYING.other
-* /usr/share/doc/gnupg2-2.5.6/DCO
-* /usr/share/doc/gnupg2-2.5.6/DETAILS
-* /usr/share/doc/gnupg2-2.5.6/examples/common.conf
-* /usr/share/doc/gnupg2-2.5.6/examples/gpgconf.conf
-* /usr/share/doc/gnupg2-2.5.6/examples/gpgconf.rnames
-* /usr/share/doc/gnupg2-2.5.6/examples/pwpattern.list
-* /usr/share/doc/gnupg2-2.5.6/examples/qualified.txt
-* /usr/share/doc/gnupg2-2.5.6/examples/README
-* /usr/share/doc/gnupg2-2.5.6/examples/scd-event
-* /usr/share/doc/gnupg2-2.5.6/examples/trustlist.txt
-* /usr/share/doc/gnupg2-2.5.6/FAQ
-* /usr/share/doc/gnupg2-2.5.6/HACKING
-* /usr/share/doc/gnupg2-2.5.6/INSTALL
-* /usr/share/doc/gnupg2-2.5.6/KEYSERVER
-* /usr/share/doc/gnupg2-2.5.6/NEWS
-* /usr/share/doc/gnupg2-2.5.6/OpenPGP
-* /usr/share/doc/gnupg2-2.5.6/README
-* /usr/share/doc/gnupg2-2.5.6/README.GIT
-* /usr/share/doc/gnupg2-2.5.6/THANKS
-* /usr/share/doc/gnupg2-2.5.6/TODO
-* /usr/share/doc/gnupg2-2.5.6/TRANSLATE
-* /usr/share/doc/gnupg2-2.5.6/VERSION
+* /usr/share/doc/gnupg2-2.5.7/AUTHORS
+* /usr/share/doc/gnupg2-2.5.7/ChangeLog
+* /usr/share/doc/gnupg2-2.5.7/COPYING
+* /usr/share/doc/gnupg2-2.5.7/COPYING.CC0
+* /usr/share/doc/gnupg2-2.5.7/COPYING.GPL2
+* /usr/share/doc/gnupg2-2.5.7/COPYING.LGPL21
+* /usr/share/doc/gnupg2-2.5.7/COPYING.LGPL3
+* /usr/share/doc/gnupg2-2.5.7/COPYING.other
+* /usr/share/doc/gnupg2-2.5.7/DCO
+* /usr/share/doc/gnupg2-2.5.7/DETAILS
+* /usr/share/doc/gnupg2-2.5.7/examples/common.conf
+* /usr/share/doc/gnupg2-2.5.7/examples/gpgconf.conf
+* /usr/share/doc/gnupg2-2.5.7/examples/gpgconf.rnames
+* /usr/share/doc/gnupg2-2.5.7/examples/pwpattern.list
+* /usr/share/doc/gnupg2-2.5.7/examples/qualified.txt
+* /usr/share/doc/gnupg2-2.5.7/examples/README
+* /usr/share/doc/gnupg2-2.5.7/examples/scd-event
+* /usr/share/doc/gnupg2-2.5.7/examples/trustlist.txt
+* /usr/share/doc/gnupg2-2.5.7/FAQ
+* /usr/share/doc/gnupg2-2.5.7/HACKING
+* /usr/share/doc/gnupg2-2.5.7/INSTALL
+* /usr/share/doc/gnupg2-2.5.7/KEYSERVER
+* /usr/share/doc/gnupg2-2.5.7/NEWS
+* /usr/share/doc/gnupg2-2.5.7/OpenPGP
+* /usr/share/doc/gnupg2-2.5.7/README
+* /usr/share/doc/gnupg2-2.5.7/README.GIT
+* /usr/share/doc/gnupg2-2.5.7/THANKS
+* /usr/share/doc/gnupg2-2.5.7/TODO
+* /usr/share/doc/gnupg2-2.5.7/TRANSLATE
+* /usr/share/doc/gnupg2-2.5.7/VERSION
 * /usr/share/gnupg/distsigkey.gpg
 * /usr/share/gnupg/help.be.txt
 * /usr/share/gnupg/help.ca.txt
@@ -100,7 +100,10 @@ GnuPG2 is the new modularized version of GnuPG supporting OpenPGP and S/MIME
 * /usr/share/gnupg/help.txt
 * /usr/share/gnupg/help.zh_CN.txt
 * /usr/share/gnupg/help.zh_TW.txt
-* /usr/share/gnupg/sks-keyservers.netCA.pem
+* /usr/share/gnupg/mail-tube.de.txt
+* /usr/share/gnupg/mail-tube.txt
+* /usr/share/gnupg/wks-utils.de.txt
+* /usr/share/gnupg/wks-utils.txt
 * /usr/share/info/gnupg.info-1.gz
 * /usr/share/info/gnupg.info-2.gz
 * /usr/share/info/gnupg.info-3.gz

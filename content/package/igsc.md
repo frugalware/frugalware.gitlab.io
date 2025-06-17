@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "igsc 0.9.5-4"
-version = "0.9.5-4"
+title = "igsc 0.9.5-5"
+version = "0.9.5-5"
 description = "Intel graphics system controller firmware update library"
-date = "2025-03-23T14:13:04"
+date = "2025-06-17T19:15:28"
 aliases = "/packages/220867"
 categories = ['lib']
 upstreamurl = "https://github.com/intel/igsc"
 arch = "x86_64"
-size = "102648"
-usize = "340613"
-sha1sum = "7fad55ec6f2ab4d1284e529d8376696357841ed5"
-depends = "['intel-metee>=5.0.0']"
+size = "103452"
+usize = "341469"
+sha1sum = "bdb9c12b24ab65be767345bfeaef9cf701b7600d"
+depends = "['intel-metee>=6.0.0']"
 reverse_depends = "['intel-compute-runtime']"
 +++
 ### Description: 
