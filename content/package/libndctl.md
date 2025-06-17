@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libndctl 81-1"
-version = "81-1"
+title = "libndctl 82-1"
+version = "82-1"
 description = "Library for managing the libnvdimm subsystem devices."
-date = "2025-03-24T12:29:21"
+date = "2025-06-17T09:37:28"
 aliases = "/packages/219664"
 categories = ['lib']
 upstreamurl = "https://github.com/pmem/ndctl"
 arch = "x86_64"
-size = "62820"
-usize = "218648"
-sha1sum = "a319f5357592a4c3c8b22c898eccd77b4038c234"
+size = "63276"
+usize = "218008"
+sha1sum = "3bbcbb2c8038270ee7fdd34440818ba5df1b2bc5"
 depends = "['kmod', 'libdaxctl', 'libsystemd', 'libuuid']"
 reverse_depends = "['libblockdev', 'ndctl']"
 +++

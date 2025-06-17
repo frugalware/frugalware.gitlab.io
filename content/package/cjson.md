@@ -12,7 +12,7 @@ size = "25336"
 usize = "79887"
 sha1sum = "9703159bce68f2b62145d4f86c4ad5ffd954d7ed"
 depends = "['glibc']"
-reverse_depends = "['openvas-libraries', 'weechat']"
+reverse_depends = "['freerdp', 'openvas-libraries', 'weechat']"
 +++
 ### Description: 
 Ultralightweight JSON parser in ANSI C

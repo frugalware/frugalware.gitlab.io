@@ -12,6 +12,7 @@ size = "64496"
 usize = "241323"
 sha1sum = "ef76c71fb398389529e13a880c8e5b40f7111ab0"
 depends = "['freetype2', 'libglvnd', 'sdl3']"
+reverse_depends = "['freerdp']"
 +++
 ### Description: 
 SDL_ttf is a TrueType font rendering library.

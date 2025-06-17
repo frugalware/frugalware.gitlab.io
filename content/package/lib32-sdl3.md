@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-sdl3 3.2.16-1"
-version = "3.2.16-1"
+title = "lib32-sdl3 3.2.16-2"
+version = "3.2.16-2"
 description = "Simple DirectMedia Layer library v2 ( 32bit )"
-date = "2025-06-12T19:32:52"
+date = "2025-06-17T09:17:37"
 aliases = "/packages/222623"
 categories = ['lib32-extra']
 upstreamurl = "http://libsdl.org"
 arch = "x86_64"
-size = "1349600"
+size = "1349328"
 usize = "6499321"
-sha1sum = "3b4710b69b2565783464fc99fd8a41e8fc1c25b4"
+sha1sum = "24576a75b8268ef3ccd8e38f1d48434a740c668c"
 depends = "[]"
 reverse_depends = "['lib32-sdl2-compat', 'lib32-sdl3_image']"
 +++

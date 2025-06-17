@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "freerdp 3.15.0-2"
-version = "3.15.0-2"
+title = "freerdp 3.16.0-1"
+version = "3.16.0-1"
 description = "Remote Desktop Protocol cliente"
-date = "2025-05-26T11:48:19"
+date = "2025-06-17T09:34:45"
 aliases = "/packages/136181"
 categories = ['xapps']
 upstreamurl = "https://www.freerdp.com/"
 arch = "x86_64"
-size = "2489184"
-usize = "9333560"
-sha1sum = "d72387aa213c723a58ea2882a5a9b2e1d3d50fc1"
-depends = "['ffmpeg>=7.0', 'fuse3>=3.17.1', 'icu4c>=77.1', 'libcups', 'libkrb5', 'libxcursor', 'libxdamage', 'libxinerama', 'libxkbcommon', 'libxkbfile', 'libxrandr', 'pcsc-lite', 'sdl2_ttf']"
+size = "2593140"
+usize = "10221861"
+sha1sum = "bd299c637abfca3a4b0f12da41ac5d09899ddf2c"
+depends = "['cjson', 'ffmpeg>=7.0', 'fuse3>=3.17.1', 'icu4c>=77.1', 'libcups', 'libkrb5', 'libxcursor', 'libxdamage', 'libxinerama', 'libxkbcommon', 'libxkbfile', 'libxrandr', 'pcsc-lite', 'sdl2_ttf', 'sdl3_ttf', 'uriparser']"
 reverse_depends = "['krdc', 'remmina-rdp', 'weston']"
 +++
 ### Description: 
@@ -20,7 +20,8 @@ Remote Desktop Protocol cliente
 ### Files: 
 * /usr/bin/freerdp-proxy3
 * /usr/bin/freerdp-shadow-cli3
-* /usr/bin/sdl-freerdp3
+* /usr/bin/sdl2-freerdp3
+* /usr/bin/sdl3-freerdp3
 * /usr/bin/sfreerdp-server3
 * /usr/bin/sfreerdp3
 * /usr/bin/winpr-hash3
@@ -79,6 +80,7 @@ Remote Desktop Protocol cliente
 * /usr/include/freerdp3/freerdp/client/location.h
 * /usr/include/freerdp3/freerdp/client/printer.h
 * /usr/include/freerdp3/freerdp/client/rail.h
+* /usr/include/freerdp3/freerdp/client/rdpdr.h
 * /usr/include/freerdp3/freerdp/client/rdpei.h
 * /usr/include/freerdp3/freerdp/client/rdpgfx.h
 * /usr/include/freerdp3/freerdp/client/rdpsnd.h
@@ -183,6 +185,7 @@ Remote Desktop Protocol cliente
 * /usr/include/freerdp3/freerdp/settings_types_private.h
 * /usr/include/freerdp3/freerdp/streamdump.h
 * /usr/include/freerdp3/freerdp/svc.h
+* /usr/include/freerdp3/freerdp/timer.h
 * /usr/include/freerdp3/freerdp/transport_io.h
 * /usr/include/freerdp3/freerdp/types.h
 * /usr/include/freerdp3/freerdp/update.h
@@ -314,28 +317,28 @@ Remote Desktop Protocol cliente
 * /usr/lib/freerdp/server/proxy/plugins/proxy-dyn-channel-dump-plugin.so
 * /usr/lib/libfreerdp-client3.so
 * /usr/lib/libfreerdp-client3.so.3
-* /usr/lib/libfreerdp-client3.so.3.15.0
+* /usr/lib/libfreerdp-client3.so.3.16.0
 * /usr/lib/libfreerdp-server-proxy3.so
 * /usr/lib/libfreerdp-server-proxy3.so.3
-* /usr/lib/libfreerdp-server-proxy3.so.3.15.0
+* /usr/lib/libfreerdp-server-proxy3.so.3.16.0
 * /usr/lib/libfreerdp-server3.so
 * /usr/lib/libfreerdp-server3.so.3
-* /usr/lib/libfreerdp-server3.so.3.15.0
+* /usr/lib/libfreerdp-server3.so.3.16.0
 * /usr/lib/libfreerdp-shadow-subsystem3.so
 * /usr/lib/libfreerdp-shadow-subsystem3.so.3
-* /usr/lib/libfreerdp-shadow-subsystem3.so.3.15.0
+* /usr/lib/libfreerdp-shadow-subsystem3.so.3.16.0
 * /usr/lib/libfreerdp-shadow3.so
 * /usr/lib/libfreerdp-shadow3.so.3
-* /usr/lib/libfreerdp-shadow3.so.3.15.0
+* /usr/lib/libfreerdp-shadow3.so.3.16.0
 * /usr/lib/libfreerdp3.so
 * /usr/lib/libfreerdp3.so.3
-* /usr/lib/libfreerdp3.so.3.15.0
+* /usr/lib/libfreerdp3.so.3.16.0
 * /usr/lib/libwinpr-tools3.so
 * /usr/lib/libwinpr-tools3.so.3
-* /usr/lib/libwinpr-tools3.so.3.15.0
+* /usr/lib/libwinpr-tools3.so.3.16.0
 * /usr/lib/libwinpr3.so
 * /usr/lib/libwinpr3.so.3
-* /usr/lib/libwinpr3.so.3.15.0
+* /usr/lib/libwinpr3.so.3.16.0
 * /usr/lib/pkgconfig/freerdp-client3.pc
 * /usr/lib/pkgconfig/freerdp-server-proxy3.pc
 * /usr/lib/pkgconfig/freerdp-server3.pc
@@ -343,16 +346,17 @@ Remote Desktop Protocol cliente
 * /usr/lib/pkgconfig/freerdp3.pc
 * /usr/lib/pkgconfig/winpr-tools3.pc
 * /usr/lib/pkgconfig/winpr3.pc
-* /usr/share/doc/freerdp-3.15.0/ChangeLog
-* /usr/share/doc/freerdp-3.15.0/LICENSE
-* /usr/share/doc/freerdp-3.15.0/README.md
+* /usr/share/doc/freerdp-3.16.0/ChangeLog
+* /usr/share/doc/freerdp-3.16.0/LICENSE
+* /usr/share/doc/freerdp-3.16.0/README.md
 * /usr/share/FreeRDP/images/test_icon.bmp
 * /usr/share/FreeRDP/images/test_icon.jpg
 * /usr/share/FreeRDP/images/test_icon.png
 * /usr/share/FreeRDP/images/test_icon.webp
 * /usr/share/man/man1/freerdp-proxy3.1.gz
 * /usr/share/man/man1/freerdp-shadow-cli3.1.gz
-* /usr/share/man/man1/sdl-freerdp3.1.gz
+* /usr/share/man/man1/sdl2-freerdp3.1.gz
+* /usr/share/man/man1/sdl3-freerdp3.1.gz
 * /usr/share/man/man1/winpr-hash3.1.gz
 * /usr/share/man/man1/winpr-makecert3.1.gz
 * /usr/share/man/man1/wlfreerdp3.1.gz
