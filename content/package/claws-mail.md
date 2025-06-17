@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "claws-mail 4.3.0-1"
-version = "4.3.0-1"
+title = "claws-mail 4.3.1-1"
+version = "4.3.1-1"
 description = "The extended version of Sylpheed, a GTK+ based, lightweight, and fast e-mail client"
-date = "2024-11-05T22:44:13"
+date = "2025-06-17T13:08:33"
 aliases = "/packages/14966"
 categories = ['xapps-extra']
 upstreamurl = "http://www.claws-mail.org/"
 arch = "x86_64"
-size = "3364844"
-usize = "16683890"
-sha1sum = "ee8e25dc52fc6ace4186e4896a75fe522580f5ac"
+size = "3312904"
+usize = "16645093"
+sha1sum = "f40a17e71dc4754a531bc575f7db4652a85993aa"
 depends = "['dbus-glib>=0.106', 'enchant', 'gnutls>=3.4.8', 'gtk+3', 'libetpan>=1.7.2-2', 'libldap>=2.6.2', 'libsm>=1.2.2-2', 'nettle>=3.6', 'networkmanager>=1.4.0-2', 'startup-notification>=0.12-3']"
 reverse_depends = "['claws-mail-plugin-acpi_notifier', 'claws-mail-plugin-address_keeper', 'claws-mail-plugin-archive', 'claws-mail-plugin-att-remover', 'claws-mail-plugin-attachwarner', 'claws-mail-plugin-bogofilter', 'claws-mail-plugin-bsfilter', 'claws-mail-plugin-clamd', 'claws-mail-plugin-fetchinfo', 'claws-mail-plugin-libravatar', 'claws-mail-plugin-mailmbox', 'claws-mail-plugin-newmail', 'claws-mail-plugin-notification', 'claws-mail-plugin-pdf_viewer', 'claws-mail-plugin-perl', 'claws-mail-plugin-pgpcore', 'claws-mail-plugin-pgpinline', 'claws-mail-plugin-pgpmime', 'claws-mail-plugin-python', 'claws-mail-plugin-rssyl', 'claws-mail-plugin-smime', 'claws-mail-plugin-spam-report', 'claws-mail-plugin-spamassassin', 'claws-mail-plugin-tnef-parse', 'claws-mail-plugin-vcalendar']"
 +++
@@ -284,13 +284,15 @@ The extended version of Sylpheed, a GTK+ based, lightweight, and fast e-mail cli
 * /usr/lib/claws-mail/tools/vcard2xml.py
 * /usr/lib/pkgconfig/claws-mail.pc
 * /usr/share/applications/claws-mail.desktop
-* /usr/share/doc/claws-mail-4.3.0/AUTHORS
-* /usr/share/doc/claws-mail-4.3.0/ChangeLog
-* /usr/share/doc/claws-mail-4.3.0/COPYING
-* /usr/share/doc/claws-mail-4.3.0/INSTALL
-* /usr/share/doc/claws-mail-4.3.0/NEWS
-* /usr/share/doc/claws-mail-4.3.0/README
-* /usr/share/doc/claws-mail-4.3.0/RELEASE_NOTES
+* /usr/share/doc/claws-mail-4.3.1/AUTHORS
+* /usr/share/doc/claws-mail-4.3.1/ChangeLog
+* /usr/share/doc/claws-mail-4.3.1/COPYING
+* /usr/share/doc/claws-mail-4.3.1/INSTALL
+* /usr/share/doc/claws-mail-4.3.1/INSTALL.md
+* /usr/share/doc/claws-mail-4.3.1/NEWS
+* /usr/share/doc/claws-mail-4.3.1/README
+* /usr/share/doc/claws-mail-4.3.1/README.md
+* /usr/share/doc/claws-mail-4.3.1/RELEASE_NOTES
 * /usr/share/icons/hicolor/128x128/apps/claws-mail.png
 * /usr/share/icons/hicolor/48x48/apps/claws-mail.png
 * /usr/share/icons/hicolor/64x64/apps/claws-mail.png

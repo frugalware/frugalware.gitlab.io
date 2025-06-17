@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "claws-mail-plugin-pgpmime 4.3.0-1"
-version = "4.3.0-1"
+title = "claws-mail-plugin-pgpmime 4.3.1-1"
+version = "4.3.1-1"
 description = "Handles PGP/MIME signed and/or encrypted mails."
-date = "2024-11-05T22:44:13"
+date = "2025-06-17T13:08:33"
 aliases = "/packages/200884"
 categories = ['xlib-extra']
 upstreamurl = "http://www.claws-mail.org/"
 arch = "x86_64"
-size = "13368"
-usize = "23680"
-sha1sum = "e88b60dd3cc7a4df577431108ad99ea4be6094f5"
-depends = "['claws-mail=4.3.0', 'gpgme>=1.6.0-3']"
+size = "13388"
+usize = "23656"
+sha1sum = "bb1d9c8f62cde86669f737a2861ddffde30ff105"
+depends = "['claws-mail=4.3.1', 'gpgme>=2.0.0']"
 +++
 ### Description: 
 Handles PGP/MIME signed and/or encrypted mails.

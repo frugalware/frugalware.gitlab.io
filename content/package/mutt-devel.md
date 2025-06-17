@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "mutt-devel 2.2.14-1"
-version = "2.2.14-1"
+title = "mutt-devel 2.2.14-2"
+version = "2.2.14-2"
 description = "A small but very powerful text-based mail client development release."
-date = "2025-02-21T15:59:27"
+date = "2025-06-17T12:51:32"
 aliases = "/packages/3960"
 categories = ['network-extra']
 upstreamurl = "http://www.mutt.org/"
 arch = "x86_64"
-size = "1946780"
-usize = "9218383"
-sha1sum = "3f7844f0184e99808b8913325c49daec6fe688bf"
-depends = "['cyrus-sasl>=2.1.26-7', 'gpgme>=1.6.0-3', 'libidn>=1.35', 'mailcap', 'openssl>=3.1.0']"
+size = "1947228"
+usize = "9220903"
+sha1sum = "12decaef24c1681c11e9b093d64a4938cbaff718"
+depends = "['cyrus-sasl>=2.1.26-7', 'gpgme>=2.0.0', 'libidn>=1.35', 'mailcap', 'openssl>=3.1.0']"
 license = "GPL"
 +++
 ### Description: 

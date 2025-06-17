@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "wget2 2.2.0-1"
-version = "2.2.0-1"
+title = "wget2 2.2.0-2"
+version = "2.2.0-2"
 description = "A network utility to retrieve files from the Web"
-date = "2024-11-25T09:36:26"
+date = "2025-06-17T12:15:36"
 aliases = "/packages/220942"
 categories = ['network']
 upstreamurl = "https://gitlab.com/gnuwget/wget2"
 arch = "x86_64"
-size = "492324"
-usize = "2407638"
-sha1sum = "be88ba8cada627cfedba18b36ce0dccd9de5c39c"
-depends = "['brotli', 'gpgme', 'libpsl', 'nghttp2', 'openssl', 'pcre2', 'zstd']"
+size = "489692"
+usize = "2404210"
+sha1sum = "6ae4e7cde058b56fafcaf7f4773238070e1432c8"
+depends = "['brotli', 'gpgme>=2.0.0', 'libpsl', 'nghttp2', 'openssl', 'pcre2', 'zstd']"
 +++
 ### Description: 
 A network utility to retrieve files from the Web

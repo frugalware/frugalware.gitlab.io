@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "claws-mail-plugin-address_keeper 4.3.0-1"
-version = "4.3.0-1"
+title = "claws-mail-plugin-address_keeper 4.3.1-1"
+version = "4.3.1-1"
 description = "Keeps all recipient addresses in a designated addressbook folder."
-date = "2024-11-05T22:44:13"
+date = "2025-06-17T13:08:33"
 aliases = "/packages/200875"
 categories = ['xlib-extra']
 upstreamurl = "http://www.claws-mail.org/"
 arch = "x86_64"
-size = "11404"
-usize = "19248"
-sha1sum = "0ef8e985c85c799af37ecea0311ac53c63374a22"
-depends = "['claws-mail=4.3.0']"
+size = "11384"
+usize = "18872"
+sha1sum = "809bbd084495ec63272bb60fbaae7f586196b1fe"
+depends = "['claws-mail=4.3.1']"
 +++
 ### Description: 
 Keeps all recipient addresses in a designated addressbook folder.

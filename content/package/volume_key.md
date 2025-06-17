@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "volume_key 0.3.12-11"
-version = "0.3.12-11"
+title = "volume_key 0.3.12-12"
+version = "0.3.12-12"
 description = "A tiny library providing a C class for working with arbitrary big sizes in bytes"
-date = "2024-11-03T21:11:08"
+date = "2025-06-17T12:20:28"
 aliases = "/packages/219661"
 categories = ['lib']
 upstreamurl = "https://pagure.io/volume_key/"
 arch = "x86_64"
-size = "156288"
-usize = "890249"
-sha1sum = "3093d9884e3a45e0b3125a91da65e7824903d1a1"
-depends = "['cryptsetup-luks', 'gpgme', 'libblkid', 'nss', 'python3>=3.13']"
+size = "156708"
+usize = "890567"
+sha1sum = "5031fc06755c7e4555cbe50ababa98d784168ba7"
+depends = "['cryptsetup-luks', 'gpgme>=2.0.0', 'libblkid', 'nss', 'python3>=3.13']"
 reverse_depends = "['libblockdev']"
 +++
 ### Description: 

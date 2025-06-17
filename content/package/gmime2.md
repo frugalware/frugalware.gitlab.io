@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gmime2 2.6.23-7"
-version = "2.6.23-7"
+title = "gmime2 2.6.23-8"
+version = "2.6.23-8"
 description = "Provides a core library and set of utilities for the creation and parsing of messages using MIME"
-date = "2022-07-17T16:23:19"
+date = "2025-06-17T12:55:25"
 aliases = "/packages/153005"
 categories = ['apps']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "329932"
-usize = "2467965"
-sha1sum = "cf5d3b7ff5649d693c9a817a3004e8cab1326a0d"
-depends = "['glib2>=2.60.3', 'gpgme>=1.6.0-3']"
+size = "331648"
+usize = "2459293"
+sha1sum = "908607348ef91c96c000a06af71efb2839e8a890"
+depends = "['glib2>=2.60.3', 'gpgme>=2.0.0']"
 +++
 ### Description: 
 Provides a core library and set of utilities for the creation and parsing of messages using MIME

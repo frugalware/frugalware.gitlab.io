@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "seahorse 47.0.1-1"
-version = "47.0.1-1"
+title = "seahorse 47.0.1-2"
+version = "47.0.1-2"
 description = "A GNOME application for managing PGP keys."
-date = "2024-09-21T21:18:12"
+date = "2025-06-17T12:59:56"
 aliases = "/packages/9219"
 categories = ['gnome-extra']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "1171980"
-usize = "7523193"
-sha1sum = "c9569ba164de1daff6d33e9fe56c28104103de01"
-depends = "['desktop-file-utils', 'gcr-1', 'gnupg2', 'libhandy', 'libldap', 'libpwquality', 'libsecret-vala', 'libsoup3', 'openssh']"
+size = "1172712"
+usize = "7506234"
+sha1sum = "9c6b2de9f1481c6a02a38dbf61dd7bc243f0eaa5"
+depends = "['desktop-file-utils', 'gcr-1', 'gpgme>=2.0.0', 'libhandy', 'libldap', 'libpwquality', 'libsecret-vala', 'libsoup3', 'openssh']"
 +++
 ### Description: 
 A GNOME application for managing PGP keys.

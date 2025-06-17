@@ -1,23 +1,24 @@
 +++
 draft = false
-title = "openvas-libraries 22.21.0-2"
-version = "22.21.0-2"
+title = "openvas-libraries 22.22.0-1"
+version = "22.22.0-1"
 description = "OpenVAS libraries."
-date = "2025-05-21T13:48:37"
+date = "2025-06-17T13:01:05"
 aliases = "/packages/88827"
 categories = ['network-extra']
 upstreamurl = "http://www.openvas.org"
 arch = "x86_64"
-size = "161152"
-usize = "547885"
-sha1sum = "8d13665d39131ffb59dd21ac7e1c4afa59ffa6c8"
-depends = "['cjson', 'gpgme', 'hiredis>=1.3.0', 'json-glib', 'libldap', 'libnet', 'libpcap', 'libxcrypt', 'libxml2>=2.14.3', 'paho-mqtt-c']"
+size = "167020"
+usize = "572965"
+sha1sum = "f409f88d5b7cf4e56f31288f8b26dc615afc92f2"
+depends = "['cjson', 'gpgme>=2.0.0', 'hiredis>=1.3.0', 'json-glib', 'libldap', 'libnet', 'libpcap', 'libxcrypt', 'libxml2>=2.14.3', 'paho-mqtt-c']"
 reverse_depends = "['openvas-manager', 'openvas-scanner']"
 +++
 ### Description: 
 OpenVAS libraries.
 
 ### Files: 
+* /usr/include/gvm/agent_controller/agent_controller.h
 * /usr/include/gvm/base/array.h
 * /usr/include/gvm/base/credentials.h
 * /usr/include/gvm/base/cvss.h
@@ -64,28 +65,33 @@ OpenVAS libraries.
 * /usr/include/gvm/util/sshutils.h
 * /usr/include/gvm/util/uuidutils.h
 * /usr/include/gvm/util/versionutils.h
+* /usr/include/gvm/util/vtparser.h
 * /usr/include/gvm/util/xmlutils.h
+* /usr/lib/libgvm_agent_controller.so
+* /usr/lib/libgvm_agent_controller.so.22
+* /usr/lib/libgvm_agent_controller.so.22.22.0
 * /usr/lib/libgvm_base.so
 * /usr/lib/libgvm_base.so.22
-* /usr/lib/libgvm_base.so.22.21.0
+* /usr/lib/libgvm_base.so.22.22.0
 * /usr/lib/libgvm_boreas.so
 * /usr/lib/libgvm_boreas.so.22
-* /usr/lib/libgvm_boreas.so.22.21.0
+* /usr/lib/libgvm_boreas.so.22.22.0
 * /usr/lib/libgvm_gmp.so
 * /usr/lib/libgvm_gmp.so.22
-* /usr/lib/libgvm_gmp.so.22.21.0
+* /usr/lib/libgvm_gmp.so.22.22.0
 * /usr/lib/libgvm_http.so
 * /usr/lib/libgvm_http.so.22
-* /usr/lib/libgvm_http.so.22.21.0
+* /usr/lib/libgvm_http.so.22.22.0
 * /usr/lib/libgvm_openvasd.so
 * /usr/lib/libgvm_openvasd.so.22
-* /usr/lib/libgvm_openvasd.so.22.21.0
+* /usr/lib/libgvm_openvasd.so.22.22.0
 * /usr/lib/libgvm_osp.so
 * /usr/lib/libgvm_osp.so.22
-* /usr/lib/libgvm_osp.so.22.21.0
+* /usr/lib/libgvm_osp.so.22.22.0
 * /usr/lib/libgvm_util.so
 * /usr/lib/libgvm_util.so.22
-* /usr/lib/libgvm_util.so.22.21.0
+* /usr/lib/libgvm_util.so.22.22.0
+* /usr/lib/pkgconfig/libgvm_agent_controller.pc
 * /usr/lib/pkgconfig/libgvm_base.pc
 * /usr/lib/pkgconfig/libgvm_boreas.pc
 * /usr/lib/pkgconfig/libgvm_gmp.pc
@@ -93,6 +99,6 @@ OpenVAS libraries.
 * /usr/lib/pkgconfig/libgvm_openvasd.pc
 * /usr/lib/pkgconfig/libgvm_osp.pc
 * /usr/lib/pkgconfig/libgvm_util.pc
-* /usr/share/doc/openvas-libraries-22.21.0/COPYING
-* /usr/share/doc/openvas-libraries-22.21.0/INSTALL.md
-* /usr/share/doc/openvas-libraries-22.21.0/README.md
+* /usr/share/doc/openvas-libraries-22.22.0/COPYING
+* /usr/share/doc/openvas-libraries-22.22.0/INSTALL.md
+* /usr/share/doc/openvas-libraries-22.22.0/README.md

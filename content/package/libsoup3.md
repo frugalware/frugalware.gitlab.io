@@ -12,7 +12,7 @@ size = "1611808"
 usize = "8770457"
 sha1sum = "40785a8c58e76d3d2f46e4e6a2f9601ac46b85df"
 depends = "['brotli', 'glib-networking', 'glib2', 'libpsl', 'libsysprof-capture', 'nghttp2', 'sqlite3']"
-reverse_depends = "['geoclue2', 'gssdp', 'gvfs', 'libosinfo', 'librest', 'passim', 'remmina', 'seahorse', 'telepathy-gabble']"
+reverse_depends = "['geoclue2', 'gssdp', 'gvfs', 'libosinfo', 'librest', 'ostree', 'passim', 'remmina', 'seahorse', 'telepathy-gabble']"
 +++
 ### Description: 
 An HTTP library implementation in C

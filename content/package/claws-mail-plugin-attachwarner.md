@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "claws-mail-plugin-attachwarner 4.3.0-1"
-version = "4.3.0-1"
+title = "claws-mail-plugin-attachwarner 4.3.1-1"
+version = "4.3.1-1"
 description = "Warns when the user composes a message mentioning an attachment and no file is attached"
-date = "2024-11-05T22:44:13"
+date = "2025-06-17T13:08:33"
 aliases = "/packages/38664"
 categories = ['xlib-extra']
 upstreamurl = "http://www.claws-mail.org/"
 arch = "x86_64"
-size = "11508"
-usize = "18688"
-sha1sum = "e5a25e6023b281197e1be45508124c74cef584b9"
-depends = "['claws-mail=4.3.0']"
+size = "11464"
+usize = "18248"
+sha1sum = "a0f1a5ed70cff2ec90cf4057f100bf58882d612b"
+depends = "['claws-mail=4.3.1']"
 +++
 ### Description: 
 Warns when the user composes a message mentioning an attachment and no file is attached

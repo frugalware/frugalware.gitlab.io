@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "claws-mail-plugin-pdf_viewer 4.3.0-1"
-version = "4.3.0-1"
+title = "claws-mail-plugin-pdf_viewer 4.3.1-1"
+version = "4.3.1-1"
 description = "This plugin enables the viewing of PDF and PostScript attachments."
-date = "2024-11-05T22:44:13"
+date = "2025-06-17T13:08:33"
 aliases = "/packages/200882"
 categories = ['xlib-extra']
 upstreamurl = "http://www.claws-mail.org/"
 arch = "x86_64"
-size = "21072"
-usize = "49400"
-sha1sum = "1d4c71cd828cf30f82d3ecbe1a212b15b5b57e4e"
-depends = "['claws-mail=4.3.0', 'poppler-glib>=0.60.1-2']"
+size = "21184"
+usize = "49632"
+sha1sum = "9a8bc2337c292c414af4a67bce331b5e12ba2168"
+depends = "['claws-mail=4.3.1', 'poppler-glib>=0.60.1-2']"
 +++
 ### Description: 
 This plugin enables the viewing of PDF and PostScript attachments.

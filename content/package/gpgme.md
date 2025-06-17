@@ -12,7 +12,7 @@ size = "521988"
 usize = "1633449"
 sha1sum = "5980f033e211d1dba104cd9d941529a4a6ecaadb"
 depends = "['glibc>=2.34', 'libassuan>=3.0.1', 'libgpg-error>=1.27-3']"
-reverse_depends = "['claws-mail-plugin-pgpcore', 'claws-mail-plugin-pgpinline', 'claws-mail-plugin-pgpmime', 'claws-mail-plugin-smime', 'fwupd', 'gmime2', 'gmime3', 'kgpg', 'libgpgmepp', 'libjcat', 'libsmbclient', 'mcabber', 'mutt-devel', 'openvas-libraries', 'openvas-manager', 'ostree', 'python3-gpgme', 'sylpheed', 'volume_key', 'wget2']"
+reverse_depends = "['claws-mail-plugin-pgpcore', 'claws-mail-plugin-pgpinline', 'claws-mail-plugin-pgpmime', 'claws-mail-plugin-smime', 'fwupd', 'gmime2', 'gmime3', 'kgpg', 'libgpgmepp', 'libjcat', 'libldb', 'mcabber', 'mutt-devel', 'openvas-libraries', 'openvas-manager', 'ostree', 'python3-gpgme', 'seahorse', 'sylpheed', 'volume_key', 'wget2']"
 +++
 ### Description: 
 A high-level crypto API for encryption

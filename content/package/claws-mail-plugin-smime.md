@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "claws-mail-plugin-smime 4.3.0-1"
-version = "4.3.0-1"
+title = "claws-mail-plugin-smime 4.3.1-1"
+version = "4.3.1-1"
 description = "This plugin handles S/MIME signed and/or encrypted mails."
-date = "2024-11-05T22:44:13"
+date = "2025-06-17T13:08:33"
 aliases = "/packages/200886"
 categories = ['xlib-extra']
 upstreamurl = "http://www.claws-mail.org/"
 arch = "x86_64"
-size = "15336"
-usize = "29664"
-sha1sum = "bc3bb0168580e57312815e6ec58e0a702251a24d"
-depends = "['claws-mail=4.3.0', 'gpgme>=1.6.0-3']"
+size = "15488"
+usize = "29736"
+sha1sum = "697dbda0eea724c8ae74c3b8a3b9bf0189e8dbd1"
+depends = "['claws-mail=4.3.1', 'gpgme>=2.0.0']"
 +++
 ### Description: 
 This plugin handles S/MIME signed and/or encrypted mails.
