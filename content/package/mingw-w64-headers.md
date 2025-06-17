@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mingw-w64-headers 12.0.0-9"
-version = "12.0.0-9"
+title = "mingw-w64-headers 13.0.0-2"
+version = "13.0.0-2"
 description = "MinGW-w64 headers for Windows"
-date = "2025-05-22T08:55:12"
+date = "2025-06-17T21:12:34"
 aliases = "/packages/222555"
 categories = ['devel-extra']
 upstreamurl = "https://sourceforge.net/projects/mingw-w64"
 arch = "x86_64"
-size = "11378300"
-usize = "147271572"
-sha1sum = "df1403e8e924690b3e400276f8e5c97fa09df002"
+size = "12622624"
+usize = "159671808"
+sha1sum = "69df9bd4c8e484f6a5bd0db7c3cff249d98aa9c8"
 depends = "['glibc']"
 reverse_depends = "['mingw-w64-gcc']"
 +++
@@ -190,11 +190,15 @@ MinGW-w64 headers for Windows
 * /usr/i686-w64-mingw32/include/concurrencysal.h
 * /usr/i686-w64-mingw32/include/confpriv.h
 * /usr/i686-w64-mingw32/include/conio.h
+* /usr/i686-w64-mingw32/include/consoleapi.h
+* /usr/i686-w64-mingw32/include/consoleapi2.h
+* /usr/i686-w64-mingw32/include/consoleapi3.h
 * /usr/i686-w64-mingw32/include/control.h
 * /usr/i686-w64-mingw32/include/cor.h
 * /usr/i686-w64-mingw32/include/corecrt.h
 * /usr/i686-w64-mingw32/include/corecrt_startup.h
 * /usr/i686-w64-mingw32/include/corecrt_stdio_config.h
+* /usr/i686-w64-mingw32/include/corecrt_wctype.h
 * /usr/i686-w64-mingw32/include/corecrt_wstdlib.h
 * /usr/i686-w64-mingw32/include/corerror.h
 * /usr/i686-w64-mingw32/include/corhdr.h
@@ -626,6 +630,7 @@ MinGW-w64 headers for Windows
 * /usr/i686-w64-mingw32/include/http.h
 * /usr/i686-w64-mingw32/include/httpext.h
 * /usr/i686-w64-mingw32/include/httpfilt.h
+* /usr/i686-w64-mingw32/include/httprequest.h
 * /usr/i686-w64-mingw32/include/httprequestid.h
 * /usr/i686-w64-mingw32/include/hvsocket.h
 * /usr/i686-w64-mingw32/include/ia64reg.h
@@ -669,6 +674,7 @@ MinGW-w64 headers for Windows
 * /usr/i686-w64-mingw32/include/inputpaneinterop.h
 * /usr/i686-w64-mingw32/include/inputscope.h
 * /usr/i686-w64-mingw32/include/inspectable.h
+* /usr/i686-w64-mingw32/include/interactioncontext.h
 * /usr/i686-w64-mingw32/include/interlockedapi.h
 * /usr/i686-w64-mingw32/include/intrin.h
 * /usr/i686-w64-mingw32/include/intsafe.h
@@ -701,6 +707,7 @@ MinGW-w64 headers for Windows
 * /usr/i686-w64-mingw32/include/ivec.h
 * /usr/i686-w64-mingw32/include/ivectorchangedeventargs.h
 * /usr/i686-w64-mingw32/include/iwamreg.h
+* /usr/i686-w64-mingw32/include/iwscapi.h
 * /usr/i686-w64-mingw32/include/i_cryptasn1tls.h
 * /usr/i686-w64-mingw32/include/jobapi.h
 * /usr/i686-w64-mingw32/include/joystickapi.h
@@ -1432,13 +1439,17 @@ MinGW-w64 headers for Windows
 * /usr/i686-w64-mingw32/include/wdstci.h
 * /usr/i686-w64-mingw32/include/wdstpdi.h
 * /usr/i686-w64-mingw32/include/wdstptmgmt.h
+* /usr/i686-w64-mingw32/include/weakreference.h
 * /usr/i686-w64-mingw32/include/webauthn.h
+* /usr/i686-w64-mingw32/include/webservices.h
 * /usr/i686-w64-mingw32/include/werapi.h
 * /usr/i686-w64-mingw32/include/wfext.h
 * /usr/i686-w64-mingw32/include/wia.h
 * /usr/i686-w64-mingw32/include/wiadef.h
 * /usr/i686-w64-mingw32/include/wiadevd.h
 * /usr/i686-w64-mingw32/include/wiavideo.h
+* /usr/i686-w64-mingw32/include/wia_lh.h
+* /usr/i686-w64-mingw32/include/wia_xp.h
 * /usr/i686-w64-mingw32/include/winable.h
 * /usr/i686-w64-mingw32/include/winapifamily.h
 * /usr/i686-w64-mingw32/include/winbase.h
@@ -1446,6 +1457,7 @@ MinGW-w64 headers for Windows
 * /usr/i686-w64-mingw32/include/wincodec.h
 * /usr/i686-w64-mingw32/include/wincodecsdk.h
 * /usr/i686-w64-mingw32/include/wincon.h
+* /usr/i686-w64-mingw32/include/wincontypes.h
 * /usr/i686-w64-mingw32/include/wincred.h
 * /usr/i686-w64-mingw32/include/wincrypt.h
 * /usr/i686-w64-mingw32/include/winddi.h
@@ -1453,12 +1465,20 @@ MinGW-w64 headers for Windows
 * /usr/i686-w64-mingw32/include/windef.h
 * /usr/i686-w64-mingw32/include/windns.h
 * /usr/i686-w64-mingw32/include/windot11.h
+* /usr/i686-w64-mingw32/include/windows.applicationmodel.activation.h
+* /usr/i686-w64-mingw32/include/windows.applicationmodel.background.h
 * /usr/i686-w64-mingw32/include/windows.applicationmodel.core.h
+* /usr/i686-w64-mingw32/include/windows.applicationmodel.datatransfer.dragdrop.core.h
+* /usr/i686-w64-mingw32/include/windows.applicationmodel.datatransfer.dragdrop.h
+* /usr/i686-w64-mingw32/include/windows.applicationmodel.datatransfer.h
 * /usr/i686-w64-mingw32/include/windows.applicationmodel.h
+* /usr/i686-w64-mingw32/include/windows.data.json.h
+* /usr/i686-w64-mingw32/include/windows.data.xml.dom.h
 * /usr/i686-w64-mingw32/include/windows.devices.bluetooth.h
 * /usr/i686-w64-mingw32/include/windows.devices.enumeration.h
 * /usr/i686-w64-mingw32/include/windows.devices.geolocation.h
 * /usr/i686-w64-mingw32/include/windows.devices.haptics.h
+* /usr/i686-w64-mingw32/include/windows.devices.input.h
 * /usr/i686-w64-mingw32/include/windows.devices.power.h
 * /usr/i686-w64-mingw32/include/windows.devices.radios.h
 * /usr/i686-w64-mingw32/include/windows.devices.usb.h
@@ -1476,6 +1496,7 @@ MinGW-w64 headers for Windows
 * /usr/i686-w64-mingw32/include/windows.graphics.directx.direct3d11.h
 * /usr/i686-w64-mingw32/include/windows.graphics.directx.h
 * /usr/i686-w64-mingw32/include/windows.graphics.effects.h
+* /usr/i686-w64-mingw32/include/windows.graphics.h
 * /usr/i686-w64-mingw32/include/windows.graphics.holographic.h
 * /usr/i686-w64-mingw32/include/windows.graphics.imaging.h
 * /usr/i686-w64-mingw32/include/windows.h
@@ -1494,9 +1515,11 @@ MinGW-w64 headers for Windows
 * /usr/i686-w64-mingw32/include/windows.perception.spatial.h
 * /usr/i686-w64-mingw32/include/windows.perception.spatial.surfaces.h
 * /usr/i686-w64-mingw32/include/windows.security.authentication.onlineid.h
+* /usr/i686-w64-mingw32/include/windows.security.authorization.appcapabilityaccess.h
 * /usr/i686-w64-mingw32/include/windows.security.credentials.h
 * /usr/i686-w64-mingw32/include/windows.security.credentials.ui.h
 * /usr/i686-w64-mingw32/include/windows.security.cryptography.h
+* /usr/i686-w64-mingw32/include/windows.security.enterprisedata.h
 * /usr/i686-w64-mingw32/include/windows.security.exchangeactivesyncprovisioning.h
 * /usr/i686-w64-mingw32/include/windows.security.isolation.h
 * /usr/i686-w64-mingw32/include/windows.storage.fileproperties.h
@@ -1513,8 +1536,12 @@ MinGW-w64 headers for Windows
 * /usr/i686-w64-mingw32/include/windows.ui.composition.interop.h
 * /usr/i686-w64-mingw32/include/windows.ui.core.h
 * /usr/i686-w64-mingw32/include/windows.ui.h
+* /usr/i686-w64-mingw32/include/windows.ui.input.h
+* /usr/i686-w64-mingw32/include/windows.ui.notifications.h
 * /usr/i686-w64-mingw32/include/windows.ui.viewmanagement.h
+* /usr/i686-w64-mingw32/include/windows.ui.xaml.h
 * /usr/i686-w64-mingw32/include/windows.ui.xaml.hosting.desktopwindowxamlsource.h
+* /usr/i686-w64-mingw32/include/windows.ui.xaml.interop.h
 * /usr/i686-w64-mingw32/include/windowscontracts.h
 * /usr/i686-w64-mingw32/include/windowsnumerics.h
 * /usr/i686-w64-mingw32/include/windowsnumerics.impl.h
@@ -1606,6 +1633,7 @@ MinGW-w64 headers for Windows
 * /usr/i686-w64-mingw32/include/ws2ipdef.h
 * /usr/i686-w64-mingw32/include/ws2spi.h
 * /usr/i686-w64-mingw32/include/ws2tcpip.h
+* /usr/i686-w64-mingw32/include/wscapi.h
 * /usr/i686-w64-mingw32/include/wsdapi.h
 * /usr/i686-w64-mingw32/include/wsdattachment.h
 * /usr/i686-w64-mingw32/include/wsdbase.h
@@ -1632,6 +1660,7 @@ MinGW-w64 headers for Windows
 * /usr/i686-w64-mingw32/include/wtypesbase.h
 * /usr/i686-w64-mingw32/include/wuapi.h
 * /usr/i686-w64-mingw32/include/wuerror.h
+* /usr/i686-w64-mingw32/include/x3daudio.h
 * /usr/i686-w64-mingw32/include/xa.h
 * /usr/i686-w64-mingw32/include/xamlom.h
 * /usr/i686-w64-mingw32/include/xapo.h
@@ -1843,11 +1872,15 @@ MinGW-w64 headers for Windows
 * /usr/x86_64-w64-mingw32/include/concurrencysal.h
 * /usr/x86_64-w64-mingw32/include/confpriv.h
 * /usr/x86_64-w64-mingw32/include/conio.h
+* /usr/x86_64-w64-mingw32/include/consoleapi.h
+* /usr/x86_64-w64-mingw32/include/consoleapi2.h
+* /usr/x86_64-w64-mingw32/include/consoleapi3.h
 * /usr/x86_64-w64-mingw32/include/control.h
 * /usr/x86_64-w64-mingw32/include/cor.h
 * /usr/x86_64-w64-mingw32/include/corecrt.h
 * /usr/x86_64-w64-mingw32/include/corecrt_startup.h
 * /usr/x86_64-w64-mingw32/include/corecrt_stdio_config.h
+* /usr/x86_64-w64-mingw32/include/corecrt_wctype.h
 * /usr/x86_64-w64-mingw32/include/corecrt_wstdlib.h
 * /usr/x86_64-w64-mingw32/include/corerror.h
 * /usr/x86_64-w64-mingw32/include/corhdr.h
@@ -2279,6 +2312,7 @@ MinGW-w64 headers for Windows
 * /usr/x86_64-w64-mingw32/include/http.h
 * /usr/x86_64-w64-mingw32/include/httpext.h
 * /usr/x86_64-w64-mingw32/include/httpfilt.h
+* /usr/x86_64-w64-mingw32/include/httprequest.h
 * /usr/x86_64-w64-mingw32/include/httprequestid.h
 * /usr/x86_64-w64-mingw32/include/hvsocket.h
 * /usr/x86_64-w64-mingw32/include/ia64reg.h
@@ -2322,6 +2356,7 @@ MinGW-w64 headers for Windows
 * /usr/x86_64-w64-mingw32/include/inputpaneinterop.h
 * /usr/x86_64-w64-mingw32/include/inputscope.h
 * /usr/x86_64-w64-mingw32/include/inspectable.h
+* /usr/x86_64-w64-mingw32/include/interactioncontext.h
 * /usr/x86_64-w64-mingw32/include/interlockedapi.h
 * /usr/x86_64-w64-mingw32/include/intrin.h
 * /usr/x86_64-w64-mingw32/include/intsafe.h
@@ -2354,6 +2389,7 @@ MinGW-w64 headers for Windows
 * /usr/x86_64-w64-mingw32/include/ivec.h
 * /usr/x86_64-w64-mingw32/include/ivectorchangedeventargs.h
 * /usr/x86_64-w64-mingw32/include/iwamreg.h
+* /usr/x86_64-w64-mingw32/include/iwscapi.h
 * /usr/x86_64-w64-mingw32/include/i_cryptasn1tls.h
 * /usr/x86_64-w64-mingw32/include/jobapi.h
 * /usr/x86_64-w64-mingw32/include/joystickapi.h
@@ -3085,13 +3121,17 @@ MinGW-w64 headers for Windows
 * /usr/x86_64-w64-mingw32/include/wdstci.h
 * /usr/x86_64-w64-mingw32/include/wdstpdi.h
 * /usr/x86_64-w64-mingw32/include/wdstptmgmt.h
+* /usr/x86_64-w64-mingw32/include/weakreference.h
 * /usr/x86_64-w64-mingw32/include/webauthn.h
+* /usr/x86_64-w64-mingw32/include/webservices.h
 * /usr/x86_64-w64-mingw32/include/werapi.h
 * /usr/x86_64-w64-mingw32/include/wfext.h
 * /usr/x86_64-w64-mingw32/include/wia.h
 * /usr/x86_64-w64-mingw32/include/wiadef.h
 * /usr/x86_64-w64-mingw32/include/wiadevd.h
 * /usr/x86_64-w64-mingw32/include/wiavideo.h
+* /usr/x86_64-w64-mingw32/include/wia_lh.h
+* /usr/x86_64-w64-mingw32/include/wia_xp.h
 * /usr/x86_64-w64-mingw32/include/winable.h
 * /usr/x86_64-w64-mingw32/include/winapifamily.h
 * /usr/x86_64-w64-mingw32/include/winbase.h
@@ -3099,6 +3139,7 @@ MinGW-w64 headers for Windows
 * /usr/x86_64-w64-mingw32/include/wincodec.h
 * /usr/x86_64-w64-mingw32/include/wincodecsdk.h
 * /usr/x86_64-w64-mingw32/include/wincon.h
+* /usr/x86_64-w64-mingw32/include/wincontypes.h
 * /usr/x86_64-w64-mingw32/include/wincred.h
 * /usr/x86_64-w64-mingw32/include/wincrypt.h
 * /usr/x86_64-w64-mingw32/include/winddi.h
@@ -3106,12 +3147,20 @@ MinGW-w64 headers for Windows
 * /usr/x86_64-w64-mingw32/include/windef.h
 * /usr/x86_64-w64-mingw32/include/windns.h
 * /usr/x86_64-w64-mingw32/include/windot11.h
+* /usr/x86_64-w64-mingw32/include/windows.applicationmodel.activation.h
+* /usr/x86_64-w64-mingw32/include/windows.applicationmodel.background.h
 * /usr/x86_64-w64-mingw32/include/windows.applicationmodel.core.h
+* /usr/x86_64-w64-mingw32/include/windows.applicationmodel.datatransfer.dragdrop.core.h
+* /usr/x86_64-w64-mingw32/include/windows.applicationmodel.datatransfer.dragdrop.h
+* /usr/x86_64-w64-mingw32/include/windows.applicationmodel.datatransfer.h
 * /usr/x86_64-w64-mingw32/include/windows.applicationmodel.h
+* /usr/x86_64-w64-mingw32/include/windows.data.json.h
+* /usr/x86_64-w64-mingw32/include/windows.data.xml.dom.h
 * /usr/x86_64-w64-mingw32/include/windows.devices.bluetooth.h
 * /usr/x86_64-w64-mingw32/include/windows.devices.enumeration.h
 * /usr/x86_64-w64-mingw32/include/windows.devices.geolocation.h
 * /usr/x86_64-w64-mingw32/include/windows.devices.haptics.h
+* /usr/x86_64-w64-mingw32/include/windows.devices.input.h
 * /usr/x86_64-w64-mingw32/include/windows.devices.power.h
 * /usr/x86_64-w64-mingw32/include/windows.devices.radios.h
 * /usr/x86_64-w64-mingw32/include/windows.devices.usb.h
@@ -3129,6 +3178,7 @@ MinGW-w64 headers for Windows
 * /usr/x86_64-w64-mingw32/include/windows.graphics.directx.direct3d11.h
 * /usr/x86_64-w64-mingw32/include/windows.graphics.directx.h
 * /usr/x86_64-w64-mingw32/include/windows.graphics.effects.h
+* /usr/x86_64-w64-mingw32/include/windows.graphics.h
 * /usr/x86_64-w64-mingw32/include/windows.graphics.holographic.h
 * /usr/x86_64-w64-mingw32/include/windows.graphics.imaging.h
 * /usr/x86_64-w64-mingw32/include/windows.h
@@ -3147,9 +3197,11 @@ MinGW-w64 headers for Windows
 * /usr/x86_64-w64-mingw32/include/windows.perception.spatial.h
 * /usr/x86_64-w64-mingw32/include/windows.perception.spatial.surfaces.h
 * /usr/x86_64-w64-mingw32/include/windows.security.authentication.onlineid.h
+* /usr/x86_64-w64-mingw32/include/windows.security.authorization.appcapabilityaccess.h
 * /usr/x86_64-w64-mingw32/include/windows.security.credentials.h
 * /usr/x86_64-w64-mingw32/include/windows.security.credentials.ui.h
 * /usr/x86_64-w64-mingw32/include/windows.security.cryptography.h
+* /usr/x86_64-w64-mingw32/include/windows.security.enterprisedata.h
 * /usr/x86_64-w64-mingw32/include/windows.security.exchangeactivesyncprovisioning.h
 * /usr/x86_64-w64-mingw32/include/windows.security.isolation.h
 * /usr/x86_64-w64-mingw32/include/windows.storage.fileproperties.h
@@ -3166,8 +3218,12 @@ MinGW-w64 headers for Windows
 * /usr/x86_64-w64-mingw32/include/windows.ui.composition.interop.h
 * /usr/x86_64-w64-mingw32/include/windows.ui.core.h
 * /usr/x86_64-w64-mingw32/include/windows.ui.h
+* /usr/x86_64-w64-mingw32/include/windows.ui.input.h
+* /usr/x86_64-w64-mingw32/include/windows.ui.notifications.h
 * /usr/x86_64-w64-mingw32/include/windows.ui.viewmanagement.h
+* /usr/x86_64-w64-mingw32/include/windows.ui.xaml.h
 * /usr/x86_64-w64-mingw32/include/windows.ui.xaml.hosting.desktopwindowxamlsource.h
+* /usr/x86_64-w64-mingw32/include/windows.ui.xaml.interop.h
 * /usr/x86_64-w64-mingw32/include/windowscontracts.h
 * /usr/x86_64-w64-mingw32/include/windowsnumerics.h
 * /usr/x86_64-w64-mingw32/include/windowsnumerics.impl.h
@@ -3259,6 +3315,7 @@ MinGW-w64 headers for Windows
 * /usr/x86_64-w64-mingw32/include/ws2ipdef.h
 * /usr/x86_64-w64-mingw32/include/ws2spi.h
 * /usr/x86_64-w64-mingw32/include/ws2tcpip.h
+* /usr/x86_64-w64-mingw32/include/wscapi.h
 * /usr/x86_64-w64-mingw32/include/wsdapi.h
 * /usr/x86_64-w64-mingw32/include/wsdattachment.h
 * /usr/x86_64-w64-mingw32/include/wsdbase.h
@@ -3285,6 +3342,7 @@ MinGW-w64 headers for Windows
 * /usr/x86_64-w64-mingw32/include/wtypesbase.h
 * /usr/x86_64-w64-mingw32/include/wuapi.h
 * /usr/x86_64-w64-mingw32/include/wuerror.h
+* /usr/x86_64-w64-mingw32/include/x3daudio.h
 * /usr/x86_64-w64-mingw32/include/xa.h
 * /usr/x86_64-w64-mingw32/include/xamlom.h
 * /usr/x86_64-w64-mingw32/include/xapo.h

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mingw-w64-crt 12.0.0-9"
-version = "12.0.0-9"
+title = "mingw-w64-crt 13.0.0-2"
+version = "13.0.0-2"
 description = "MinGW-w64 CRT for Windows"
-date = "2025-05-22T08:55:12"
+date = "2025-06-17T21:12:34"
 aliases = "/packages/222556"
 categories = ['devel-extra']
 upstreamurl = "https://sourceforge.net/projects/mingw-w64"
 arch = "x86_64"
-size = "8521048"
-usize = "246673043"
-sha1sum = "e1bb676b5cd3e395b5308c67ef30878c766ddc93"
+size = "11447972"
+usize = "274971735"
+sha1sum = "3a3474ff7b89769a25b26681dd630dd3b1625db5"
 depends = "['glibc']"
 reverse_depends = "['mingw-w64-gcc']"
 +++
@@ -58,6 +58,7 @@ MinGW-w64 CRT for Windows
 * /usr/i686-w64-mingw32/lib/libavifil32.a
 * /usr/i686-w64-mingw32/lib/libavrt.a
 * /usr/i686-w64-mingw32/lib/libbcrypt.a
+* /usr/i686-w64-mingw32/lib/libbcryptprimitives.a
 * /usr/i686-w64-mingw32/lib/libbits.a
 * /usr/i686-w64-mingw32/lib/libbluetoothapis.a
 * /usr/i686-w64-mingw32/lib/libbootvid.a
@@ -279,13 +280,19 @@ MinGW-w64 CRT for Windows
 * /usr/i686-w64-mingw32/lib/libmsvcp120_app.a
 * /usr/i686-w64-mingw32/lib/libmsvcp60.a
 * /usr/i686-w64-mingw32/lib/libmsvcr100.a
+* /usr/i686-w64-mingw32/lib/libmsvcr100d.a
 * /usr/i686-w64-mingw32/lib/libmsvcr110.a
+* /usr/i686-w64-mingw32/lib/libmsvcr110d.a
 * /usr/i686-w64-mingw32/lib/libmsvcr120.a
 * /usr/i686-w64-mingw32/lib/libmsvcr120d.a
 * /usr/i686-w64-mingw32/lib/libmsvcr120_app.a
+* /usr/i686-w64-mingw32/lib/libmsvcr40d.a
 * /usr/i686-w64-mingw32/lib/libmsvcr70.a
+* /usr/i686-w64-mingw32/lib/libmsvcr70d.a
 * /usr/i686-w64-mingw32/lib/libmsvcr71.a
+* /usr/i686-w64-mingw32/lib/libmsvcr71d.a
 * /usr/i686-w64-mingw32/lib/libmsvcr80.a
+* /usr/i686-w64-mingw32/lib/libmsvcr80d.a
 * /usr/i686-w64-mingw32/lib/libmsvcr90.a
 * /usr/i686-w64-mingw32/lib/libmsvcr90d.a
 * /usr/i686-w64-mingw32/lib/libmsvcrt-os.a
@@ -293,6 +300,7 @@ MinGW-w64 CRT for Windows
 * /usr/i686-w64-mingw32/lib/libmsvcrt10.a
 * /usr/i686-w64-mingw32/lib/libmsvcrt20.a
 * /usr/i686-w64-mingw32/lib/libmsvcrt40.a
+* /usr/i686-w64-mingw32/lib/libmsvcrtd.a
 * /usr/i686-w64-mingw32/lib/libmsvfw32.a
 * /usr/i686-w64-mingw32/lib/libmswsock.a
 * /usr/i686-w64-mingw32/lib/libmsxml2.a
@@ -306,6 +314,7 @@ MinGW-w64 CRT for Windows
 * /usr/i686-w64-mingw32/lib/libnetjoin.a
 * /usr/i686-w64-mingw32/lib/libnetutils.a
 * /usr/i686-w64-mingw32/lib/libnewdev.a
+* /usr/i686-w64-mingw32/lib/libninput.a
 * /usr/i686-w64-mingw32/lib/libnormaliz.a
 * /usr/i686-w64-mingw32/lib/libntdll.a
 * /usr/i686-w64-mingw32/lib/libntdllcrt.a
@@ -398,6 +407,7 @@ MinGW-w64 CRT for Windows
 * /usr/i686-w64-mingw32/lib/libucrt.a
 * /usr/i686-w64-mingw32/lib/libucrtapp.a
 * /usr/i686-w64-mingw32/lib/libucrtbase.a
+* /usr/i686-w64-mingw32/lib/libucrtbased.a
 * /usr/i686-w64-mingw32/lib/libuiautomationcore.a
 * /usr/i686-w64-mingw32/lib/liburl.a
 * /usr/i686-w64-mingw32/lib/liburlmon.a
@@ -410,6 +420,8 @@ MinGW-w64 CRT for Windows
 * /usr/i686-w64-mingw32/lib/libusp10.a
 * /usr/i686-w64-mingw32/lib/libuuid.a
 * /usr/i686-w64-mingw32/lib/libuxtheme.a
+* /usr/i686-w64-mingw32/lib/libvcruntime140.a
+* /usr/i686-w64-mingw32/lib/libvcruntime140d.a
 * /usr/i686-w64-mingw32/lib/libvcruntime140_app.a
 * /usr/i686-w64-mingw32/lib/libvdmdbg.a
 * /usr/i686-w64-mingw32/lib/libversion.a
@@ -435,9 +447,11 @@ MinGW-w64 CRT for Windows
 * /usr/i686-w64-mingw32/lib/libwevtapi.a
 * /usr/i686-w64-mingw32/lib/libwevtfwd.a
 * /usr/i686-w64-mingw32/lib/libwiadss.a
+* /usr/i686-w64-mingw32/lib/libwiaguid.a
 * /usr/i686-w64-mingw32/lib/libwimgapi.a
 * /usr/i686-w64-mingw32/lib/libwin32k.a
 * /usr/i686-w64-mingw32/lib/libwin32spl.a
+* /usr/i686-w64-mingw32/lib/libwinbrand.a
 * /usr/i686-w64-mingw32/lib/libwindows.ai.machinelearning.a
 * /usr/i686-w64-mingw32/lib/libwindows.data.pdf.a
 * /usr/i686-w64-mingw32/lib/libwindows.networking.a
@@ -462,6 +476,7 @@ MinGW-w64 CRT for Windows
 * /usr/i686-w64-mingw32/lib/libwofutil.a
 * /usr/i686-w64-mingw32/lib/libwow32.a
 * /usr/i686-w64-mingw32/lib/libws2_32.a
+* /usr/i686-w64-mingw32/lib/libwscapi.a
 * /usr/i686-w64-mingw32/lib/libwsdapi.a
 * /usr/i686-w64-mingw32/lib/libwsmsvc.a
 * /usr/i686-w64-mingw32/lib/libwsnmp32.a
@@ -561,6 +576,7 @@ MinGW-w64 CRT for Windows
 * /usr/x86_64-w64-mingw32/lib/libbatmeter.a
 * /usr/x86_64-w64-mingw32/lib/libbatt.a
 * /usr/x86_64-w64-mingw32/lib/libbcrypt.a
+* /usr/x86_64-w64-mingw32/lib/libbcryptprimitives.a
 * /usr/x86_64-w64-mingw32/lib/libbits.a
 * /usr/x86_64-w64-mingw32/lib/libbluetoothapis.a
 * /usr/x86_64-w64-mingw32/lib/libbootvid.a
@@ -1018,11 +1034,14 @@ MinGW-w64 CRT for Windows
 * /usr/x86_64-w64-mingw32/lib/libmsvcp120_app.a
 * /usr/x86_64-w64-mingw32/lib/libmsvcp60.a
 * /usr/x86_64-w64-mingw32/lib/libmsvcr100.a
+* /usr/x86_64-w64-mingw32/lib/libmsvcr100d.a
 * /usr/x86_64-w64-mingw32/lib/libmsvcr110.a
+* /usr/x86_64-w64-mingw32/lib/libmsvcr110d.a
 * /usr/x86_64-w64-mingw32/lib/libmsvcr120.a
 * /usr/x86_64-w64-mingw32/lib/libmsvcr120d.a
 * /usr/x86_64-w64-mingw32/lib/libmsvcr120_app.a
 * /usr/x86_64-w64-mingw32/lib/libmsvcr80.a
+* /usr/x86_64-w64-mingw32/lib/libmsvcr80d.a
 * /usr/x86_64-w64-mingw32/lib/libmsvcr90.a
 * /usr/x86_64-w64-mingw32/lib/libmsvcr90d.a
 * /usr/x86_64-w64-mingw32/lib/libmsvcrt-os.a
@@ -1062,6 +1081,7 @@ MinGW-w64 CRT for Windows
 * /usr/x86_64-w64-mingw32/lib/libnetui1.a
 * /usr/x86_64-w64-mingw32/lib/libnetui2.a
 * /usr/x86_64-w64-mingw32/lib/libnewdev.a
+* /usr/x86_64-w64-mingw32/lib/libninput.a
 * /usr/x86_64-w64-mingw32/lib/libnntpapi.a
 * /usr/x86_64-w64-mingw32/lib/libnormaliz.a
 * /usr/x86_64-w64-mingw32/lib/libnpptools.a
@@ -1282,6 +1302,7 @@ MinGW-w64 CRT for Windows
 * /usr/x86_64-w64-mingw32/lib/libucrt.a
 * /usr/x86_64-w64-mingw32/lib/libucrtapp.a
 * /usr/x86_64-w64-mingw32/lib/libucrtbase.a
+* /usr/x86_64-w64-mingw32/lib/libucrtbased.a
 * /usr/x86_64-w64-mingw32/lib/libudhisapi.a
 * /usr/x86_64-w64-mingw32/lib/libufat.a
 * /usr/x86_64-w64-mingw32/lib/libuiautomationcore.a
@@ -1308,6 +1329,8 @@ MinGW-w64 CRT for Windows
 * /usr/x86_64-w64-mingw32/lib/libutildll.a
 * /usr/x86_64-w64-mingw32/lib/libuuid.a
 * /usr/x86_64-w64-mingw32/lib/libuxtheme.a
+* /usr/x86_64-w64-mingw32/lib/libvcruntime140.a
+* /usr/x86_64-w64-mingw32/lib/libvcruntime140d.a
 * /usr/x86_64-w64-mingw32/lib/libvcruntime140_app.a
 * /usr/x86_64-w64-mingw32/lib/libvdsutil.a
 * /usr/x86_64-w64-mingw32/lib/libverifier.a
@@ -1352,10 +1375,12 @@ MinGW-w64 CRT for Windows
 * /usr/x86_64-w64-mingw32/lib/libwevtapi.a
 * /usr/x86_64-w64-mingw32/lib/libwevtfwd.a
 * /usr/x86_64-w64-mingw32/lib/libwiadss.a
+* /usr/x86_64-w64-mingw32/lib/libwiaguid.a
 * /usr/x86_64-w64-mingw32/lib/libwiarpc.a
 * /usr/x86_64-w64-mingw32/lib/libwiaservc.a
 * /usr/x86_64-w64-mingw32/lib/libwiashext.a
 * /usr/x86_64-w64-mingw32/lib/libwimgapi.a
+* /usr/x86_64-w64-mingw32/lib/libwinbrand.a
 * /usr/x86_64-w64-mingw32/lib/libwindows.ai.machinelearning.a
 * /usr/x86_64-w64-mingw32/lib/libwindows.data.pdf.a
 * /usr/x86_64-w64-mingw32/lib/libwindows.networking.a

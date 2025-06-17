@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mingw-w64-winpthreads 12.0.0-9"
-version = "12.0.0-9"
+title = "mingw-w64-winpthreads 13.0.0-2"
+version = "13.0.0-2"
 description = "MinGW-w64 winpthreads library"
-date = "2025-05-22T08:55:12"
+date = "2025-06-17T21:12:34"
 aliases = "/packages/222557"
 categories = ['devel-extra']
 upstreamurl = "https://sourceforge.net/projects/mingw-w64"
 arch = "x86_64"
-size = "167416"
-usize = "1213026"
-sha1sum = "6290ae47a5410a364a3a9e303bd338a5e7c908c7"
+size = "174992"
+usize = "1268740"
+sha1sum = "87fa753bb80c106b2b523f3bf723a7c4d6883d23"
 depends = "['glibc']"
 reverse_depends = "['mingw-w64-gcc']"
 +++
