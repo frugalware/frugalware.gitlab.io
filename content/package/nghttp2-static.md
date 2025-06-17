@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "nghttp2-static 1.65.0-2"
-version = "1.65.0-2"
+title = "nghttp2-static 1.66.0-1"
+version = "1.66.0-1"
 description = "Static files for nghttp2"
-date = "2025-05-21T15:05:43"
+date = "2025-06-17T18:59:09"
 aliases = "/packages/219928"
 categories = ['devel-extra']
 upstreamurl = "http://nghttp2.org"
 arch = "x86_64"
-size = "859256"
-usize = "1041862"
-sha1sum = "d06403b143d4cab34bbb292755dbaf9d031c2d46"
+size = "860504"
+usize = "1043016"
+sha1sum = "a852ce41ef7d91f1723d7f95e0226645c81d4eb0"
 depends = "[]"
 +++
 ### Description: 

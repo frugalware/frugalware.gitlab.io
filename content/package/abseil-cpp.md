@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "abseil-cpp 20250512.0-1"
-version = "20250512.0-1"
+title = "abseil-cpp 20250512.1-1"
+version = "20250512.1-1"
 description = "Abseil Common Libraries (C++)"
-date = "2025-05-16T12:06:28"
+date = "2025-06-17T18:53:33"
 aliases = "/packages/220293"
 categories = ['lib']
 upstreamurl = "https://abseil.io"
 arch = "x86_64"
-size = "1066028"
-usize = "5500085"
-sha1sum = "13dbd8d3f4714232ed9977cd50162fe71709f44f"
+size = "1066264"
+usize = "5500133"
+sha1sum = "69b06096ab836a08ce2a7dc8c35bc469e5570cd5"
 depends = "['libstdc++']"
 reverse_depends = "['protobuf', 're2', 'telegram-desktop', 'webrtc-audio-processing']"
 +++
@@ -774,7 +774,7 @@ Abseil Common Libraries (C++)
 * /usr/lib/pkgconfig/absl_vlog_config_internal.pc
 * /usr/lib/pkgconfig/absl_vlog_is_on.pc
 * /usr/lib/pkgconfig/absl_weakly_mixed_integer.pc
-* /usr/share/doc/abseil-cpp-20250512.0/AUTHORS
-* /usr/share/doc/abseil-cpp-20250512.0/FAQ.md
-* /usr/share/doc/abseil-cpp-20250512.0/LICENSE
-* /usr/share/doc/abseil-cpp-20250512.0/README.md
+* /usr/share/doc/abseil-cpp-20250512.1/AUTHORS
+* /usr/share/doc/abseil-cpp-20250512.1/FAQ.md
+* /usr/share/doc/abseil-cpp-20250512.1/LICENSE
+* /usr/share/doc/abseil-cpp-20250512.1/README.md

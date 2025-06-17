@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libxml2-static 2.14.3-1"
-version = "2.14.3-1"
+title = "libxml2-static 2.14.4-1"
+version = "2.14.4-1"
 description = "XML parsing library ( static)"
-date = "2025-05-19T09:45:48"
+date = "2025-06-17T19:01:32"
 aliases = "/packages/222697"
 categories = ['devel-extra']
 upstreamurl = "https://gitlab.gnome.org/GNOME/libxml2/-/wikis/home"
 arch = "x86_64"
-size = "5404596"
-usize = "5999744"
-sha1sum = "47c1f5aece3b7e99f97cc8bf3724ca26b99943b1"
+size = "5405792"
+usize = "6001080"
+sha1sum = "509fa8f12938d5b6eb0b457b02bf77987ff76999"
 depends = "['icu4c-static', 'xz-static']"
 +++
 ### Description: 

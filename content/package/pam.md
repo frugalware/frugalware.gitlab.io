@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pam 1.7.0-1"
-version = "1.7.0-1"
+title = "pam 1.7.1-1"
+version = "1.7.1-1"
 description = "Linux-PAM (Pluggable Authentication Modules)"
-date = "2024-10-25T08:27:53"
+date = "2025-06-17T18:34:06"
 aliases = "/packages/73298"
 categories = ['base']
 upstreamurl = "https://github.com/linux-pam/linux-pam"
 arch = "x86_64"
-size = "573736"
-usize = "2860930"
-sha1sum = "41a83d7725a63a6ef4446cf96c8855a98d095daf"
+size = "575784"
+usize = "2879327"
+sha1sum = "89e743b5d9b9a501d49164f6018e28bdb97eb042"
 depends = "['gdbm', 'glibc>=2.35', 'libaudit', 'libsystemd', 'libxcrypt']"
 reverse_depends = "['cups', 'dovecot', 'dropbear', 'enlightenment', 'greetd', 'inetutils', 'kbd', 'kwallet-pam', 'libcups', 'libpwquality', 'lighttpd', 'lxc', 'monit', 'openssh', 'openvpn', 'pam-frugalware', 'pam-python', 'pam_wrapper', 'polkit', 'saslauthd', 'screen', 'systemd-sysvinit', 'util-linux', 'virtualbox-guest-additions', 'vsftpd', 'xorg-server', 'xrdp']"
 +++
@@ -253,10 +253,10 @@ Linux-PAM (Pluggable Authentication Modules)
 * /usr/share/doc/Linux-PAM/sag-security-issues.html
 * /usr/share/doc/Linux-PAM/sag-see-also.html
 * /usr/share/doc/Linux-PAM/sag-text-conventions.html
-* /usr/share/doc/pam-1.7.0/AUTHORS
-* /usr/share/doc/pam-1.7.0/COPYING
-* /usr/share/doc/pam-1.7.0/NEWS
-* /usr/share/doc/pam-1.7.0/README
+* /usr/share/doc/pam-1.7.1/AUTHORS
+* /usr/share/doc/pam-1.7.1/COPYING
+* /usr/share/doc/pam-1.7.1/NEWS
+* /usr/share/doc/pam-1.7.1/README
 * /usr/share/locale/af/LC_MESSAGES/Linux-PAM.mo
 * /usr/share/locale/am/LC_MESSAGES/Linux-PAM.mo
 * /usr/share/locale/ar/LC_MESSAGES/Linux-PAM.mo
