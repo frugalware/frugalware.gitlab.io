@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-fy 25.2.4.3-2"
-version = "25.2.4.3-2"
+title = "libreoffice-l10n-fy 25.2.4.3-3"
+version = "25.2.4.3-3"
 description = "Installs Frisian support in LibreOffice"
-date = "2025-06-13T10:02:08"
+date = "2025-06-17T14:24:11"
 aliases = "/packages/219694"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "646204"
+size = "646164"
 usize = "3329475"
-sha1sum = "c15532d13f61ebcc8f2a33ee169c6f0f9d1ade12"
+sha1sum = "a332901c44922a0cba97dcf8614d15830bdacd67"
 depends = "['libreoffice>=25.2.4.3']"
 +++
 ### Description: 

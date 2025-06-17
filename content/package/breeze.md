@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "breeze 6.3.5-2"
-version = "6.3.5-2"
+title = "breeze 6.4.0-1"
+version = "6.4.0-1"
 description = "Artwork, styles and assets for the Breeze visual style for the Plasma Desktop."
-date = "2025-06-04T13:42:09"
+date = "2025-06-17T14:57:17"
 aliases = "/packages/218256"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "44823492"
-usize = "75340928"
-sha1sum = "87bb5d34c05384eabb72f34518f9dc7f65025d2a"
-depends = "['frameworkintegration>=6.14.0', 'kcmutils>=6.14.0', 'kcolorscheme>=6.14.0', 'kconfig>=6.14.0', 'kcoreaddons>=6.14.0', 'kdecoration>=6.3.5', 'kguiaddons>=6.14.0', 'ki18n>=6.14.0', 'kiconthemes>=6.14.0', 'kirigami>=6.14.0', 'kwindowsystem>=6.14.0']"
+size = "41858292"
+usize = "72412892"
+sha1sum = "64802758279a3298b41d08699643d9ae992fed53"
+depends = "['frameworkintegration>=6.15.0', 'kcmutils>=6.15.0', 'kcolorscheme>=6.15.0', 'kconfig>=6.15.0', 'kcoreaddons>=6.15.0', 'kdecoration>=6.4.0', 'kguiaddons>=6.15.0', 'ki18n>=6.15.0', 'kiconthemes>=6.15.0', 'kirigami>=6.15.0', 'kwindowsystem>=6.15.0']"
 reverse_depends = "['kwin', 'plasma-integration']"
 +++
 ### Description: 
@@ -31,8 +31,8 @@ Artwork, styles and assets for the Breeze visual style for the Plasma Desktop.
 * /usr/share/color-schemes/BreezeClassic.colors
 * /usr/share/color-schemes/BreezeDark.colors
 * /usr/share/color-schemes/BreezeLight.colors
-* /usr/share/doc/breeze-6.3.5/AUTHORS
-* /usr/share/doc/breeze-6.3.5/README.md
+* /usr/share/doc/breeze-6.4.0/AUTHORS
+* /usr/share/doc/breeze-6.4.0/README.md
 * /usr/share/icons/breeze_cursors/cursors/00000000000000020006000e7e9ffc3f
 * /usr/share/icons/breeze_cursors/cursors/00008160000006810000408080010102
 * /usr/share/icons/breeze_cursors/cursors/03b6e0fcb3499374a867c041f52298f0
@@ -793,44 +793,10 @@ Artwork, styles and assets for the Breeze visual style for the Plasma Desktop.
 * /usr/share/locale/zh_TW/LC_MESSAGES/breeze_kwin_deco.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/breeze_style_config.mo
 * /usr/share/QtCurve/Breeze.qtcurve
-* /usr/share/wallpapers/Next/contents/images/1024x768.png
-* /usr/share/wallpapers/Next/contents/images/1080x1920.png
-* /usr/share/wallpapers/Next/contents/images/1280x1024.png
-* /usr/share/wallpapers/Next/contents/images/1280x800.png
-* /usr/share/wallpapers/Next/contents/images/1366x768.png
-* /usr/share/wallpapers/Next/contents/images/1440x900.png
-* /usr/share/wallpapers/Next/contents/images/1600x1200.png
-* /usr/share/wallpapers/Next/contents/images/1680x1050.png
-* /usr/share/wallpapers/Next/contents/images/1920x1080.png
-* /usr/share/wallpapers/Next/contents/images/1920x1200.png
-* /usr/share/wallpapers/Next/contents/images/2560x1440.png
-* /usr/share/wallpapers/Next/contents/images/2560x1600.png
-* /usr/share/wallpapers/Next/contents/images/3200x1800.png
-* /usr/share/wallpapers/Next/contents/images/3200x2000.png
-* /usr/share/wallpapers/Next/contents/images/360x720.png
-* /usr/share/wallpapers/Next/contents/images/3840x2160.png
-* /usr/share/wallpapers/Next/contents/images/440x247.png
+* /usr/share/wallpapers/Next/contents/images/1440x2960.png
 * /usr/share/wallpapers/Next/contents/images/5120x2880.png
-* /usr/share/wallpapers/Next/contents/images/720x1440.png
 * /usr/share/wallpapers/Next/contents/images/7680x2160.png
-* /usr/share/wallpapers/Next/contents/images_dark/1024x768.png
-* /usr/share/wallpapers/Next/contents/images_dark/1080x1920.png
-* /usr/share/wallpapers/Next/contents/images_dark/1280x1024.png
-* /usr/share/wallpapers/Next/contents/images_dark/1280x800.png
-* /usr/share/wallpapers/Next/contents/images_dark/1366x768.png
-* /usr/share/wallpapers/Next/contents/images_dark/1440x900.png
-* /usr/share/wallpapers/Next/contents/images_dark/1600x1200.png
-* /usr/share/wallpapers/Next/contents/images_dark/1680x1050.png
-* /usr/share/wallpapers/Next/contents/images_dark/1920x1080.png
-* /usr/share/wallpapers/Next/contents/images_dark/1920x1200.png
-* /usr/share/wallpapers/Next/contents/images_dark/2560x1440.png
-* /usr/share/wallpapers/Next/contents/images_dark/2560x1600.png
-* /usr/share/wallpapers/Next/contents/images_dark/3200x1800.png
-* /usr/share/wallpapers/Next/contents/images_dark/3200x2000.png
-* /usr/share/wallpapers/Next/contents/images_dark/360x720.png
-* /usr/share/wallpapers/Next/contents/images_dark/3840x2160.png
-* /usr/share/wallpapers/Next/contents/images_dark/440x247.png
+* /usr/share/wallpapers/Next/contents/images_dark/1440x2960.png
 * /usr/share/wallpapers/Next/contents/images_dark/5120x2880.png
-* /usr/share/wallpapers/Next/contents/images_dark/720x1440.png
 * /usr/share/wallpapers/Next/contents/images_dark/7680x2160.png
 * /usr/share/wallpapers/Next/metadata.json

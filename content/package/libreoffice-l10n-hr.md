@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-hr 25.2.4.3-2"
-version = "25.2.4.3-2"
+title = "libreoffice-l10n-hr 25.2.4.3-3"
+version = "25.2.4.3-3"
 description = "Installs Croatian support in LibreOffice"
-date = "2025-06-13T10:02:08"
+date = "2025-06-17T14:24:11"
 aliases = "/packages/104066"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4256572"
+size = "4257460"
 usize = "33182227"
-sha1sum = "adcf5f56ce1fb9f2ac2173739f2d86565a9e939d"
+sha1sum = "dd07ba338ed4354565f2a25d9dd8564b6655516d"
 depends = "['libreoffice>=25.2.4.3']"
 +++
 ### Description: 

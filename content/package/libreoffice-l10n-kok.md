@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-kok 25.2.4.3-2"
-version = "25.2.4.3-2"
+title = "libreoffice-l10n-kok 25.2.4.3-3"
+version = "25.2.4.3-3"
 description = "Installs Konkani support in LibreOffice"
-date = "2025-06-13T10:02:08"
+date = "2025-06-17T14:24:11"
 aliases = "/packages/104078"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "293500"
+size = "293628"
 usize = "1970523"
-sha1sum = "a58d03073b30398fe387be321002be6d1435b43f"
+sha1sum = "65ca6f556773c91fd3fb8f2f9cb1e350eb4154ec"
 depends = "['libreoffice>=25.2.4.3']"
 +++
 ### Description: 

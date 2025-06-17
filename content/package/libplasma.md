@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libplasma 6.3.5-2"
-version = "6.3.5-2"
+title = "libplasma 6.4.0-1"
+version = "6.4.0-1"
 description = "Plasma library and runtime components based upon KF5 and Qt5."
-date = "2025-06-04T13:47:41"
+date = "2025-06-17T15:10:36"
 aliases = "/packages/221364"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2457532"
-usize = "6122343"
-sha1sum = "3a815f94c47e922d4dd0c043bf0c21d4efc50579"
-depends = "['kcmutils>=6.14.0', 'ksvg>=6.14.0', 'plasma-activities>=6.3.5']"
+size = "2455504"
+usize = "6132697"
+sha1sum = "f6e12df5bb2cbbf6867fc26dd6b2dc56e085999f"
+depends = "['kcmutils>=6.15.0', 'ksvg>=6.15.0', 'plasma-activities>=6.4.0']"
 reverse_depends = "['bluedevil', 'discover', 'kate', 'kclock', 'kdevelop', 'knights', 'kscreen', 'kup', 'kweather', 'kwin', 'merkuro', 'milou', 'plasma-nano', 'plasma-pa', 'plasma-sdk', 'plasma-vault', 'plasma-welcome', 'plasma-workspace', 'smb4k', 'wacomtablet']"
 +++
 ### Description: 
@@ -68,10 +68,10 @@ Plasma library and runtime components based upon KF5 and Qt5.
 * /usr/lib/cmake/PlasmaQuick/PlasmaQuickTargets.cmake
 * /usr/lib/libPlasma.so
 * /usr/lib/libPlasma.so.6
-* /usr/lib/libPlasma.so.6.3.5
+* /usr/lib/libPlasma.so.6.4.0
 * /usr/lib/libPlasmaQuick.so
 * /usr/lib/libPlasmaQuick.so.6
-* /usr/lib/libPlasmaQuick.so.6.3.5
+* /usr/lib/libPlasmaQuick.so.6.4.0
 * /usr/lib/qt6/plugins/kf6/kirigami/platform/KirigamiPlasmaStyle.so
 * /usr/lib/qt6/plugins/kf6/packagestructure/plasma_applet.so
 * /usr/lib/qt6/plugins/kf6/packagestructure/plasma_containmentactions.so
@@ -176,7 +176,7 @@ Plasma library and runtime components based upon KF5 and Qt5.
 * /usr/lib/qt6/qml/org/kde/plasma/extras/Representation.qml
 * /usr/lib/qt6/qml/org/kde/plasma/extras/SearchField.qml
 * /usr/lib/qt6/qml/org/kde/plasma/extras/ShadowedLabel.qml
-* /usr/share/doc/libplasma-6.3.5/README.md
+* /usr/share/doc/libplasma-6.4.0/README.md
 * /usr/share/kdevappwizard/templates/cpp-plasmoid6.tar.bz2
 * /usr/share/kdevappwizard/templates/plasma6-wallpaper-with-qml-extension.tar.bz2
 * /usr/share/kdevappwizard/templates/plasma6-wallpaper.tar.bz2

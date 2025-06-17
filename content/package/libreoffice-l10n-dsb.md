@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-dsb 25.2.4.3-2"
-version = "25.2.4.3-2"
+title = "libreoffice-l10n-dsb 25.2.4.3-3"
+version = "25.2.4.3-3"
 description = "Installs Lower Sorbian support in LibreOffice"
-date = "2025-06-13T10:02:08"
+date = "2025-06-17T14:24:11"
 aliases = "/packages/219836"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4973768"
+size = "4974268"
 usize = "36596067"
-sha1sum = "2fc2534ccff608be13e019912cb5da2d5bf9be24"
+sha1sum = "5083b77cc2dfcb2d28ab88ee5d43e15d0765677d"
 depends = "['libreoffice>=25.2.4.3']"
 +++
 ### Description: 
