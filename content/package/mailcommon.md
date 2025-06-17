@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mailcommon 25.04.2-1"
-version = "25.04.2-1"
+title = "mailcommon 25.04.2-2"
+version = "25.04.2-2"
 description = "KdePim mail-common files"
-date = "2025-06-11T13:48:52"
+date = "2025-06-17T13:31:59"
 aliases = "/packages/218481"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "849480"
-usize = "4442805"
-sha1sum = "4698d900a80300b750da86564f30b8ac55008f24"
+size = "849500"
+usize = "4442517"
+sha1sum = "82a95a9b1d3d09d8cdcbc31dcca2386a39f08382"
 depends = "['mailimporter>=25.04.2', 'messagelib>=25.04.2']"
 reverse_depends = "['akonadi-import-wizard', 'kaddressbook', 'kalarm', 'kdepim-addons', 'kmail', 'kmail-account-wizard', 'kontact', 'korganizer', 'mbox-importer', 'merkuro', 'pim-data-exporter']"
 +++
