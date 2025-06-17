@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdeplasma-addons 6.3.5-2"
-version = "6.3.5-2"
+title = "kdeplasma-addons 6.4.0-1"
+version = "6.4.0-1"
 description = "Plasma AddOns"
-date = "2025-06-04T14:29:33"
+date = "2025-06-17T17:05:18"
 aliases = "/packages/221305"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1071144"
-usize = "6633858"
-sha1sum = "fbc0773260908a1fd3dd4cf87e0adaa88584eabf"
-depends = "['icu4c>=77.1', 'kcmutils>=6.14.0', 'kconfig>=6.14.0', 'kconfigwidgets>=6.14.0', 'kcoreaddons>=6.14.0', 'ki18n>=6.14.0', 'kio>=6.14.0', 'kirigami-addons', 'kitemmodels>=6.14.0', 'knewstuff>=6.14.0', 'krunner>=6.14.0', 'kservice>=6.14.0', 'kunitconversion>=6.14.0', 'plasma-activities>=6.3.5', 'plasma-workspace>=6.3.5', 'purpose>=6.14.0']"
+size = "1138232"
+usize = "6976696"
+sha1sum = "7188d415fdc6b982918e4c657e5ce6fc245a54de"
+depends = "['icu4c>=77.1', 'kcmutils>=6.15.0', 'kconfig>=6.15.0', 'kconfigwidgets>=6.15.0', 'kcoreaddons>=6.15.0', 'ki18n>=6.15.0', 'kio>=6.15.0', 'kirigami-addons', 'kitemmodels>=6.15.0', 'knewstuff>=6.15.0', 'krunner>=6.15.0', 'kservice>=6.15.0', 'kunitconversion>=6.15.0', 'plasma-activities>=6.4.0', 'plasma-workspace>=6.4.0', 'purpose>=6.15.0']"
 +++
 ### Description: 
 Plasma AddOns
@@ -32,6 +32,7 @@ Plasma AddOns
 * /usr/lib/qt6/plugins/kf6/krunner/kcms/kcm_krunner_dictionary.so
 * /usr/lib/qt6/plugins/kf6/krunner/kcms/kcm_krunner_spellcheck.so
 * /usr/lib/qt6/plugins/kf6/krunner/krunner_charrunner.so
+* /usr/lib/qt6/plugins/kf6/krunner/krunner_colors.so
 * /usr/lib/qt6/plugins/kf6/krunner/krunner_dictionary.so
 * /usr/lib/qt6/plugins/kf6/krunner/krunner_katesessions.so
 * /usr/lib/qt6/plugins/kf6/krunner/krunner_konsoleprofiles.so
@@ -42,8 +43,6 @@ Plasma AddOns
 * /usr/lib/qt6/plugins/kwin/effects/configs/kwin_cube_config.so
 * /usr/lib/qt6/plugins/plasma/applets/org.kde.plasma.comic.so
 * /usr/lib/qt6/plugins/plasma/applets/org.kde.plasma.grouping.so
-* /usr/lib/qt6/plugins/plasma/applets/org.kde.plasma.private.grouping.so
-* /usr/lib/qt6/plugins/plasma/applets/org.kde.plasma.weather.so
 * /usr/lib/qt6/plugins/plasmacalendarplugins/alternatecalendar.so
 * /usr/lib/qt6/plugins/plasmacalendarplugins/alternatecalendar/AlternateCalendarConfig.qml
 * /usr/lib/qt6/plugins/plasmacalendarplugins/astronomicalevents.so
@@ -109,7 +108,7 @@ Plasma AddOns
 * /usr/lib/qt6/qml/org/kde/plasmacalendar/astronomicaleventsconfig/qmldir
 * /usr/share/dbus-1/system-services/org.kde.kameleonhelper.service
 * /usr/share/dbus-1/system.d/org.kde.kameleonhelper.conf
-* /usr/share/doc/kdeplasma-addons-6.3.5/README.md
+* /usr/share/doc/kdeplasma-addons-6.4.0/README.md
 * /usr/share/icons/hicolor/scalable/apps/accessories-dictionary.svgz
 * /usr/share/icons/hicolor/scalable/apps/fifteenpuzzle.svgz
 * /usr/share/kdevappwizard/templates/plasmapotdprovider.tar.bz2
@@ -160,6 +159,7 @@ Plasma AddOns
 * /usr/share/locale/ar/LC_MESSAGES/plasma_calendar_alternatecalendar.mo
 * /usr/share/locale/ar/LC_MESSAGES/plasma_calendar_astronomicalevents.mo
 * /usr/share/locale/ar/LC_MESSAGES/plasma_runner_CharacterRunner.mo
+* /usr/share/locale/ar/LC_MESSAGES/plasma_runner_colors.mo
 * /usr/share/locale/ar/LC_MESSAGES/plasma_runner_converterrunner.mo
 * /usr/share/locale/ar/LC_MESSAGES/plasma_runner_datetime.mo
 * /usr/share/locale/ar/LC_MESSAGES/plasma_runner_katesessions.mo
@@ -266,6 +266,7 @@ Plasma AddOns
 * /usr/share/locale/bg/LC_MESSAGES/plasma_calendar_alternatecalendar.mo
 * /usr/share/locale/bg/LC_MESSAGES/plasma_calendar_astronomicalevents.mo
 * /usr/share/locale/bg/LC_MESSAGES/plasma_runner_CharacterRunner.mo
+* /usr/share/locale/bg/LC_MESSAGES/plasma_runner_colors.mo
 * /usr/share/locale/bg/LC_MESSAGES/plasma_runner_converterrunner.mo
 * /usr/share/locale/bg/LC_MESSAGES/plasma_runner_datetime.mo
 * /usr/share/locale/bg/LC_MESSAGES/plasma_runner_katesessions.mo
@@ -315,6 +316,7 @@ Plasma AddOns
 * /usr/share/locale/ca/LC_MESSAGES/plasma_calendar_alternatecalendar.mo
 * /usr/share/locale/ca/LC_MESSAGES/plasma_calendar_astronomicalevents.mo
 * /usr/share/locale/ca/LC_MESSAGES/plasma_runner_CharacterRunner.mo
+* /usr/share/locale/ca/LC_MESSAGES/plasma_runner_colors.mo
 * /usr/share/locale/ca/LC_MESSAGES/plasma_runner_converterrunner.mo
 * /usr/share/locale/ca/LC_MESSAGES/plasma_runner_datetime.mo
 * /usr/share/locale/ca/LC_MESSAGES/plasma_runner_katesessions.mo
@@ -347,6 +349,7 @@ Plasma AddOns
 * /usr/share/locale/ca@valencia/LC_MESSAGES/plasma_calendar_alternatecalendar.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/plasma_calendar_astronomicalevents.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/plasma_runner_CharacterRunner.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/plasma_runner_colors.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/plasma_runner_converterrunner.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/plasma_runner_datetime.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/plasma_runner_katesessions.mo
@@ -443,6 +446,7 @@ Plasma AddOns
 * /usr/share/locale/de/LC_MESSAGES/plasma_calendar_alternatecalendar.mo
 * /usr/share/locale/de/LC_MESSAGES/plasma_calendar_astronomicalevents.mo
 * /usr/share/locale/de/LC_MESSAGES/plasma_runner_CharacterRunner.mo
+* /usr/share/locale/de/LC_MESSAGES/plasma_runner_colors.mo
 * /usr/share/locale/de/LC_MESSAGES/plasma_runner_converterrunner.mo
 * /usr/share/locale/de/LC_MESSAGES/plasma_runner_datetime.mo
 * /usr/share/locale/de/LC_MESSAGES/plasma_runner_katesessions.mo
@@ -561,6 +565,7 @@ Plasma AddOns
 * /usr/share/locale/es/LC_MESSAGES/plasma_calendar_alternatecalendar.mo
 * /usr/share/locale/es/LC_MESSAGES/plasma_calendar_astronomicalevents.mo
 * /usr/share/locale/es/LC_MESSAGES/plasma_runner_CharacterRunner.mo
+* /usr/share/locale/es/LC_MESSAGES/plasma_runner_colors.mo
 * /usr/share/locale/es/LC_MESSAGES/plasma_runner_converterrunner.mo
 * /usr/share/locale/es/LC_MESSAGES/plasma_runner_datetime.mo
 * /usr/share/locale/es/LC_MESSAGES/plasma_runner_katesessions.mo
@@ -621,6 +626,7 @@ Plasma AddOns
 * /usr/share/locale/eu/LC_MESSAGES/plasma_calendar_alternatecalendar.mo
 * /usr/share/locale/eu/LC_MESSAGES/plasma_calendar_astronomicalevents.mo
 * /usr/share/locale/eu/LC_MESSAGES/plasma_runner_CharacterRunner.mo
+* /usr/share/locale/eu/LC_MESSAGES/plasma_runner_colors.mo
 * /usr/share/locale/eu/LC_MESSAGES/plasma_runner_converterrunner.mo
 * /usr/share/locale/eu/LC_MESSAGES/plasma_runner_datetime.mo
 * /usr/share/locale/eu/LC_MESSAGES/plasma_runner_katesessions.mo
@@ -653,6 +659,7 @@ Plasma AddOns
 * /usr/share/locale/fi/LC_MESSAGES/plasma_calendar_alternatecalendar.mo
 * /usr/share/locale/fi/LC_MESSAGES/plasma_calendar_astronomicalevents.mo
 * /usr/share/locale/fi/LC_MESSAGES/plasma_runner_CharacterRunner.mo
+* /usr/share/locale/fi/LC_MESSAGES/plasma_runner_colors.mo
 * /usr/share/locale/fi/LC_MESSAGES/plasma_runner_converterrunner.mo
 * /usr/share/locale/fi/LC_MESSAGES/plasma_runner_datetime.mo
 * /usr/share/locale/fi/LC_MESSAGES/plasma_runner_katesessions.mo
@@ -685,6 +692,7 @@ Plasma AddOns
 * /usr/share/locale/fr/LC_MESSAGES/plasma_calendar_alternatecalendar.mo
 * /usr/share/locale/fr/LC_MESSAGES/plasma_calendar_astronomicalevents.mo
 * /usr/share/locale/fr/LC_MESSAGES/plasma_runner_CharacterRunner.mo
+* /usr/share/locale/fr/LC_MESSAGES/plasma_runner_colors.mo
 * /usr/share/locale/fr/LC_MESSAGES/plasma_runner_converterrunner.mo
 * /usr/share/locale/fr/LC_MESSAGES/plasma_runner_datetime.mo
 * /usr/share/locale/fr/LC_MESSAGES/plasma_runner_katesessions.mo
@@ -733,6 +741,7 @@ Plasma AddOns
 * /usr/share/locale/gl/LC_MESSAGES/plasma_calendar_alternatecalendar.mo
 * /usr/share/locale/gl/LC_MESSAGES/plasma_calendar_astronomicalevents.mo
 * /usr/share/locale/gl/LC_MESSAGES/plasma_runner_CharacterRunner.mo
+* /usr/share/locale/gl/LC_MESSAGES/plasma_runner_colors.mo
 * /usr/share/locale/gl/LC_MESSAGES/plasma_runner_converterrunner.mo
 * /usr/share/locale/gl/LC_MESSAGES/plasma_runner_datetime.mo
 * /usr/share/locale/gl/LC_MESSAGES/plasma_runner_katesessions.mo
@@ -765,6 +774,7 @@ Plasma AddOns
 * /usr/share/locale/he/LC_MESSAGES/plasma_calendar_alternatecalendar.mo
 * /usr/share/locale/he/LC_MESSAGES/plasma_calendar_astronomicalevents.mo
 * /usr/share/locale/he/LC_MESSAGES/plasma_runner_CharacterRunner.mo
+* /usr/share/locale/he/LC_MESSAGES/plasma_runner_colors.mo
 * /usr/share/locale/he/LC_MESSAGES/plasma_runner_converterrunner.mo
 * /usr/share/locale/he/LC_MESSAGES/plasma_runner_datetime.mo
 * /usr/share/locale/he/LC_MESSAGES/plasma_runner_katesessions.mo
@@ -843,6 +853,7 @@ Plasma AddOns
 * /usr/share/locale/hu/LC_MESSAGES/plasma_calendar_alternatecalendar.mo
 * /usr/share/locale/hu/LC_MESSAGES/plasma_calendar_astronomicalevents.mo
 * /usr/share/locale/hu/LC_MESSAGES/plasma_runner_CharacterRunner.mo
+* /usr/share/locale/hu/LC_MESSAGES/plasma_runner_colors.mo
 * /usr/share/locale/hu/LC_MESSAGES/plasma_runner_converterrunner.mo
 * /usr/share/locale/hu/LC_MESSAGES/plasma_runner_datetime.mo
 * /usr/share/locale/hu/LC_MESSAGES/plasma_runner_katesessions.mo
@@ -875,6 +886,7 @@ Plasma AddOns
 * /usr/share/locale/ia/LC_MESSAGES/plasma_calendar_alternatecalendar.mo
 * /usr/share/locale/ia/LC_MESSAGES/plasma_calendar_astronomicalevents.mo
 * /usr/share/locale/ia/LC_MESSAGES/plasma_runner_CharacterRunner.mo
+* /usr/share/locale/ia/LC_MESSAGES/plasma_runner_colors.mo
 * /usr/share/locale/ia/LC_MESSAGES/plasma_runner_converterrunner.mo
 * /usr/share/locale/ia/LC_MESSAGES/plasma_runner_datetime.mo
 * /usr/share/locale/ia/LC_MESSAGES/plasma_runner_katesessions.mo
@@ -936,6 +948,7 @@ Plasma AddOns
 * /usr/share/locale/is/LC_MESSAGES/plasma_calendar_alternatecalendar.mo
 * /usr/share/locale/is/LC_MESSAGES/plasma_calendar_astronomicalevents.mo
 * /usr/share/locale/is/LC_MESSAGES/plasma_runner_CharacterRunner.mo
+* /usr/share/locale/is/LC_MESSAGES/plasma_runner_colors.mo
 * /usr/share/locale/is/LC_MESSAGES/plasma_runner_converterrunner.mo
 * /usr/share/locale/is/LC_MESSAGES/plasma_runner_datetime.mo
 * /usr/share/locale/is/LC_MESSAGES/plasma_runner_katesessions.mo
@@ -968,6 +981,7 @@ Plasma AddOns
 * /usr/share/locale/it/LC_MESSAGES/plasma_calendar_alternatecalendar.mo
 * /usr/share/locale/it/LC_MESSAGES/plasma_calendar_astronomicalevents.mo
 * /usr/share/locale/it/LC_MESSAGES/plasma_runner_CharacterRunner.mo
+* /usr/share/locale/it/LC_MESSAGES/plasma_runner_colors.mo
 * /usr/share/locale/it/LC_MESSAGES/plasma_runner_converterrunner.mo
 * /usr/share/locale/it/LC_MESSAGES/plasma_runner_datetime.mo
 * /usr/share/locale/it/LC_MESSAGES/plasma_runner_katesessions.mo
@@ -1032,6 +1046,7 @@ Plasma AddOns
 * /usr/share/locale/ka/LC_MESSAGES/plasma_calendar_alternatecalendar.mo
 * /usr/share/locale/ka/LC_MESSAGES/plasma_calendar_astronomicalevents.mo
 * /usr/share/locale/ka/LC_MESSAGES/plasma_runner_CharacterRunner.mo
+* /usr/share/locale/ka/LC_MESSAGES/plasma_runner_colors.mo
 * /usr/share/locale/ka/LC_MESSAGES/plasma_runner_converterrunner.mo
 * /usr/share/locale/ka/LC_MESSAGES/plasma_runner_datetime.mo
 * /usr/share/locale/ka/LC_MESSAGES/plasma_runner_katesessions.mo
@@ -1096,6 +1111,7 @@ Plasma AddOns
 * /usr/share/locale/ko/LC_MESSAGES/plasma_calendar_alternatecalendar.mo
 * /usr/share/locale/ko/LC_MESSAGES/plasma_calendar_astronomicalevents.mo
 * /usr/share/locale/ko/LC_MESSAGES/plasma_runner_CharacterRunner.mo
+* /usr/share/locale/ko/LC_MESSAGES/plasma_runner_colors.mo
 * /usr/share/locale/ko/LC_MESSAGES/plasma_runner_converterrunner.mo
 * /usr/share/locale/ko/LC_MESSAGES/plasma_runner_datetime.mo
 * /usr/share/locale/ko/LC_MESSAGES/plasma_runner_katesessions.mo
@@ -1172,6 +1188,7 @@ Plasma AddOns
 * /usr/share/locale/lv/LC_MESSAGES/plasma_calendar_alternatecalendar.mo
 * /usr/share/locale/lv/LC_MESSAGES/plasma_calendar_astronomicalevents.mo
 * /usr/share/locale/lv/LC_MESSAGES/plasma_runner_CharacterRunner.mo
+* /usr/share/locale/lv/LC_MESSAGES/plasma_runner_colors.mo
 * /usr/share/locale/lv/LC_MESSAGES/plasma_runner_converterrunner.mo
 * /usr/share/locale/lv/LC_MESSAGES/plasma_runner_datetime.mo
 * /usr/share/locale/lv/LC_MESSAGES/plasma_runner_katesessions.mo
@@ -1290,6 +1307,7 @@ Plasma AddOns
 * /usr/share/locale/nl/LC_MESSAGES/plasma_calendar_alternatecalendar.mo
 * /usr/share/locale/nl/LC_MESSAGES/plasma_calendar_astronomicalevents.mo
 * /usr/share/locale/nl/LC_MESSAGES/plasma_runner_CharacterRunner.mo
+* /usr/share/locale/nl/LC_MESSAGES/plasma_runner_colors.mo
 * /usr/share/locale/nl/LC_MESSAGES/plasma_runner_converterrunner.mo
 * /usr/share/locale/nl/LC_MESSAGES/plasma_runner_datetime.mo
 * /usr/share/locale/nl/LC_MESSAGES/plasma_runner_katesessions.mo
@@ -1375,6 +1393,7 @@ Plasma AddOns
 * /usr/share/locale/pl/LC_MESSAGES/plasma_calendar_alternatecalendar.mo
 * /usr/share/locale/pl/LC_MESSAGES/plasma_calendar_astronomicalevents.mo
 * /usr/share/locale/pl/LC_MESSAGES/plasma_runner_CharacterRunner.mo
+* /usr/share/locale/pl/LC_MESSAGES/plasma_runner_colors.mo
 * /usr/share/locale/pl/LC_MESSAGES/plasma_runner_converterrunner.mo
 * /usr/share/locale/pl/LC_MESSAGES/plasma_runner_datetime.mo
 * /usr/share/locale/pl/LC_MESSAGES/plasma_runner_katesessions.mo
@@ -1438,6 +1457,7 @@ Plasma AddOns
 * /usr/share/locale/pt_BR/LC_MESSAGES/plasma_calendar_alternatecalendar.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/plasma_calendar_astronomicalevents.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/plasma_runner_CharacterRunner.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/plasma_runner_colors.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/plasma_runner_converterrunner.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/plasma_runner_datetime.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/plasma_runner_katesessions.mo
@@ -1598,6 +1618,7 @@ Plasma AddOns
 * /usr/share/locale/sl/LC_MESSAGES/plasma_calendar_alternatecalendar.mo
 * /usr/share/locale/sl/LC_MESSAGES/plasma_calendar_astronomicalevents.mo
 * /usr/share/locale/sl/LC_MESSAGES/plasma_runner_CharacterRunner.mo
+* /usr/share/locale/sl/LC_MESSAGES/plasma_runner_colors.mo
 * /usr/share/locale/sl/LC_MESSAGES/plasma_runner_converterrunner.mo
 * /usr/share/locale/sl/LC_MESSAGES/plasma_runner_datetime.mo
 * /usr/share/locale/sl/LC_MESSAGES/plasma_runner_katesessions.mo
@@ -1738,6 +1759,7 @@ Plasma AddOns
 * /usr/share/locale/sv/LC_MESSAGES/plasma_calendar_alternatecalendar.mo
 * /usr/share/locale/sv/LC_MESSAGES/plasma_calendar_astronomicalevents.mo
 * /usr/share/locale/sv/LC_MESSAGES/plasma_runner_CharacterRunner.mo
+* /usr/share/locale/sv/LC_MESSAGES/plasma_runner_colors.mo
 * /usr/share/locale/sv/LC_MESSAGES/plasma_runner_converterrunner.mo
 * /usr/share/locale/sv/LC_MESSAGES/plasma_runner_datetime.mo
 * /usr/share/locale/sv/LC_MESSAGES/plasma_runner_katesessions.mo
@@ -1829,6 +1851,7 @@ Plasma AddOns
 * /usr/share/locale/tr/LC_MESSAGES/plasma_calendar_alternatecalendar.mo
 * /usr/share/locale/tr/LC_MESSAGES/plasma_calendar_astronomicalevents.mo
 * /usr/share/locale/tr/LC_MESSAGES/plasma_runner_CharacterRunner.mo
+* /usr/share/locale/tr/LC_MESSAGES/plasma_runner_colors.mo
 * /usr/share/locale/tr/LC_MESSAGES/plasma_runner_converterrunner.mo
 * /usr/share/locale/tr/LC_MESSAGES/plasma_runner_datetime.mo
 * /usr/share/locale/tr/LC_MESSAGES/plasma_runner_katesessions.mo
@@ -1877,6 +1900,7 @@ Plasma AddOns
 * /usr/share/locale/uk/LC_MESSAGES/plasma_calendar_alternatecalendar.mo
 * /usr/share/locale/uk/LC_MESSAGES/plasma_calendar_astronomicalevents.mo
 * /usr/share/locale/uk/LC_MESSAGES/plasma_runner_CharacterRunner.mo
+* /usr/share/locale/uk/LC_MESSAGES/plasma_runner_colors.mo
 * /usr/share/locale/uk/LC_MESSAGES/plasma_runner_converterrunner.mo
 * /usr/share/locale/uk/LC_MESSAGES/plasma_runner_datetime.mo
 * /usr/share/locale/uk/LC_MESSAGES/plasma_runner_katesessions.mo
@@ -1952,6 +1976,7 @@ Plasma AddOns
 * /usr/share/locale/zh_CN/LC_MESSAGES/plasma_calendar_alternatecalendar.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/plasma_calendar_astronomicalevents.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/plasma_runner_CharacterRunner.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/plasma_runner_colors.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/plasma_runner_converterrunner.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/plasma_runner_datetime.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/plasma_runner_katesessions.mo
@@ -1984,6 +2009,7 @@ Plasma AddOns
 * /usr/share/locale/zh_TW/LC_MESSAGES/plasma_calendar_alternatecalendar.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/plasma_calendar_astronomicalevents.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/plasma_runner_CharacterRunner.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/plasma_runner_colors.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/plasma_runner_converterrunner.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/plasma_runner_datetime.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/plasma_runner_katesessions.mo
@@ -1997,7 +2023,6 @@ Plasma AddOns
 * /usr/share/metainfo/org.kde.plasma.binaryclock.appdata.xml
 * /usr/share/metainfo/org.kde.plasma.calculator.appdata.xml
 * /usr/share/metainfo/org.kde.plasma.colorpicker.appdata.xml
-* /usr/share/metainfo/org.kde.plasma.comic.appdata.xml
 * /usr/share/metainfo/org.kde.plasma.diskquota.appdata.xml
 * /usr/share/metainfo/org.kde.plasma.fifteenpuzzle.appdata.xml
 * /usr/share/metainfo/org.kde.plasma.fuzzyclock.appdata.xml
@@ -2039,17 +2064,6 @@ Plasma AddOns
 * /usr/share/plasma/plasmoids/org.kde.plasma.colorpicker/contents/ui/logic.js
 * /usr/share/plasma/plasmoids/org.kde.plasma.colorpicker/contents/ui/main.qml
 * /usr/share/plasma/plasmoids/org.kde.plasma.colorpicker/metadata.json
-* /usr/share/plasma/plasmoids/org.kde.plasma.comic/contents/config/config.qml
-* /usr/share/plasma/plasmoids/org.kde.plasma.comic/contents/ui/ButtonBar.qml
-* /usr/share/plasma/plasmoids/org.kde.plasma.comic/contents/ui/ComicBottomInfo.qml
-* /usr/share/plasma/plasmoids/org.kde.plasma.comic/contents/ui/ComicCentralView.qml
-* /usr/share/plasma/plasmoids/org.kde.plasma.comic/contents/ui/configAdvanced.qml
-* /usr/share/plasma/plasmoids/org.kde.plasma.comic/contents/ui/configAppearance.qml
-* /usr/share/plasma/plasmoids/org.kde.plasma.comic/contents/ui/configGeneral.qml
-* /usr/share/plasma/plasmoids/org.kde.plasma.comic/contents/ui/FullViewWidget.qml
-* /usr/share/plasma/plasmoids/org.kde.plasma.comic/contents/ui/ImageWidget.qml
-* /usr/share/plasma/plasmoids/org.kde.plasma.comic/contents/ui/main.qml
-* /usr/share/plasma/plasmoids/org.kde.plasma.comic/metadata.json
 * /usr/share/plasma/plasmoids/org.kde.plasma.diskquota/contents/ui/ListDelegateItem.qml
 * /usr/share/plasma/plasmoids/org.kde.plasma.diskquota/contents/ui/main.qml
 * /usr/share/plasma/plasmoids/org.kde.plasma.diskquota/metadata.json
@@ -2067,6 +2081,11 @@ Plasma AddOns
 * /usr/share/plasma/plasmoids/org.kde.plasma.fuzzyclock/contents/ui/FuzzyClock.qml
 * /usr/share/plasma/plasmoids/org.kde.plasma.fuzzyclock/contents/ui/main.qml
 * /usr/share/plasma/plasmoids/org.kde.plasma.fuzzyclock/metadata.json
+* /usr/share/plasma/plasmoids/org.kde.plasma.grouping/contents/applet/CompactApplet.qml
+* /usr/share/plasma/plasmoids/org.kde.plasma.grouping/contents/config/config.qml
+* /usr/share/plasma/plasmoids/org.kde.plasma.grouping/contents/config/main.xml
+* /usr/share/plasma/plasmoids/org.kde.plasma.grouping/contents/ui/items/AbstractItem.qml
+* /usr/share/plasma/plasmoids/org.kde.plasma.grouping/contents/ui/items/PlasmoidItem.qml
 * /usr/share/plasma/plasmoids/org.kde.plasma.grouping/contents/ui/main.qml
 * /usr/share/plasma/plasmoids/org.kde.plasma.grouping/metadata.json
 * /usr/share/plasma/plasmoids/org.kde.plasma.keyboardindicator/contents/config/config.qml
@@ -2089,13 +2108,6 @@ Plasma AddOns
 * /usr/share/plasma/plasmoids/org.kde.plasma.notes/contents/ui/main.qml
 * /usr/share/plasma/plasmoids/org.kde.plasma.notes/contents/ui/ShortcutMenuItem.qml
 * /usr/share/plasma/plasmoids/org.kde.plasma.notes/metadata.json
-* /usr/share/plasma/plasmoids/org.kde.plasma.private.grouping/contents/applet/CompactApplet.qml
-* /usr/share/plasma/plasmoids/org.kde.plasma.private.grouping/contents/config/config.qml
-* /usr/share/plasma/plasmoids/org.kde.plasma.private.grouping/contents/config/main.xml
-* /usr/share/plasma/plasmoids/org.kde.plasma.private.grouping/contents/ui/items/AbstractItem.qml
-* /usr/share/plasma/plasmoids/org.kde.plasma.private.grouping/contents/ui/items/PlasmoidItem.qml
-* /usr/share/plasma/plasmoids/org.kde.plasma.private.grouping/contents/ui/main.qml
-* /usr/share/plasma/plasmoids/org.kde.plasma.private.grouping/metadata.json
 * /usr/share/plasma/plasmoids/org.kde.plasma.quicklaunch/contents/config/config.qml
 * /usr/share/plasma/plasmoids/org.kde.plasma.quicklaunch/contents/config/main.xml
 * /usr/share/plasma/plasmoids/org.kde.plasma.quicklaunch/contents/ui/ConfigGeneral.qml
@@ -2171,3 +2183,4 @@ Plasma AddOns
 * /usr/share/plasma/wallpapers/org.kde.potd/metadata.json
 * /usr/share/polkit-1/actions/org.kde.kameleonhelper.policy
 * /usr/share/qlogging-categories6/kdeplasma-addons.categories
+* /usr/share/qlogging-categories6/kdeplasma-addons.renamecategories

@@ -1,26 +1,26 @@
 +++
 draft = false
-title = "plasma-workspace-wallpapers 6.3.5-2"
-version = "6.3.5-2"
+title = "plasma-workspace-wallpapers 6.4.0-1"
+version = "6.4.0-1"
 description = "Additional wallpapers for the Plasma Workspace."
-date = "2025-06-04T14:26:52"
+date = "2025-06-17T17:02:16"
 aliases = "/packages/218404"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "131070364"
-usize = "131968517"
-sha1sum = "8d39b94c415a174b1abb466f71f812bf49280231"
+size = "146673544"
+usize = "147572270"
+sha1sum = "cb4f6d982a9abefe643fc09e983f385983103327"
 depends = "[]"
 +++
 ### Description: 
 Additional wallpapers for the Plasma Workspace.
 
 ### Files: 
-* /usr/share/doc/plasma-workspace-wallpapers-6.3.5/AUTHORS
-* /usr/share/doc/plasma-workspace-wallpapers-6.3.5/COPYING
-* /usr/share/doc/plasma-workspace-wallpapers-6.3.5/COPYING.LGPL3
-* /usr/share/doc/plasma-workspace-wallpapers-6.3.5/README.md
+* /usr/share/doc/plasma-workspace-wallpapers-6.4.0/AUTHORS
+* /usr/share/doc/plasma-workspace-wallpapers-6.4.0/COPYING
+* /usr/share/doc/plasma-workspace-wallpapers-6.4.0/COPYING.LGPL3
+* /usr/share/doc/plasma-workspace-wallpapers-6.4.0/README.md
 * /usr/share/wallpapers/Altai/contents/images/1080x1920.png
 * /usr/share/wallpapers/Altai/contents/images/5120x2880.png
 * /usr/share/wallpapers/Altai/contents/screenshot.png
@@ -201,6 +201,13 @@ Additional wallpapers for the Plasma Workspace.
 * /usr/share/wallpapers/Nexus/contents/images_dark/1080x1920.png
 * /usr/share/wallpapers/Nexus/contents/images_dark/5120x2880.png
 * /usr/share/wallpapers/Nexus/metadata.json
+* /usr/share/wallpapers/Nuvole/contents/images/1080x1920.png
+* /usr/share/wallpapers/Nuvole/contents/images/5120x2880.png
+* /usr/share/wallpapers/Nuvole/contents/images/7680x2160.png
+* /usr/share/wallpapers/Nuvole/contents/images_dark/1080x1920.png
+* /usr/share/wallpapers/Nuvole/contents/images_dark/5120x2880.png
+* /usr/share/wallpapers/Nuvole/contents/images_dark/7680x2160.png
+* /usr/share/wallpapers/Nuvole/metadata.json
 * /usr/share/wallpapers/OneStandsOut/contents/images/1280x1024.jpg
 * /usr/share/wallpapers/OneStandsOut/contents/images/1280x800.jpg
 * /usr/share/wallpapers/OneStandsOut/contents/images/1440x900.jpg

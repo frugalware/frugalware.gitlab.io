@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "plasma-workspace 6.3.5-2"
-version = "6.3.5-2"
+title = "plasma-workspace 6.4.0-1"
+version = "6.4.0-1"
 description = "KDE Plasma Workspace."
-date = "2025-06-04T14:23:05"
+date = "2025-06-17T16:54:06"
 aliases = "/packages/218402"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "20538436"
-usize = "57566929"
-sha1sum = "a628fdb5906096cadcc62db19cfe4b260d774c99"
-depends = "['appstream-qt', 'baloo>=6.14.0', 'kcmutils>=6.14.0', 'kdeclarative>=6.14.0', 'kholidays>=6.14.0', 'kidletime>=6.14.0', 'kirigami-addons', 'knewstuff>=6.14.0', 'knotifyconfig>=6.14.0', 'kpackage>=6.14.0', 'kparts>=6.14.0', 'kquickcharts>=6.14.0', 'krunner>=6.14.0', 'ksvg>=6.14.0', 'ktexteditor>=6.14.0', 'kunitconversion>=6.14.0', 'kuserfeedback>=6.14.0', 'kwin>=6.3.5', 'libkexiv2', 'libksysguard>=6.3.5', 'libplasma>=6.3.5', 'libqalculate>=5.0.0', 'libxft', 'networkmanager-qt>=6.14.0', 'plasma-activities-stats>=6.3.5', 'plasma5-integration>=6.3.5', 'plasma5support>=6.3.5', 'prison>=6.14.0', 'qcoro', 'qt6-tools']"
+size = "22292268"
+usize = "60466557"
+sha1sum = "599e0856058b09bde40eb367444db8adc008d53c"
+depends = "['appstream-qt', 'baloo>=6.15.0', 'kcmutils>=6.15.0', 'kdeclarative>=6.15.0', 'kholidays>=6.15.0', 'kidletime>=6.15.0', 'kirigami-addons', 'knewstuff>=6.15.0', 'knotifyconfig>=6.15.0', 'kpackage>=6.15.0', 'kparts>=6.15.0', 'kquickcharts>=6.15.0', 'krunner>=6.15.0', 'ksvg>=6.15.0', 'ktexteditor>=6.15.0', 'kunitconversion>=6.15.0', 'kuserfeedback>=6.15.0', 'kwin>=6.4.0', 'libkexiv2', 'libksysguard>=6.4.0', 'libplasma>=6.4.0', 'libqalculate>=5.0.0', 'libxft', 'networkmanager-qt>=6.15.0', 'plasma-activities-stats>=6.4.0', 'plasma5-integration>=6.4.0', 'plasma5support>=6.4.0', 'prison>=6.15.0', 'qcoro', 'qt6-location>=6.9.1', 'qt6-tools']"
 reverse_depends = "['kde-cli-tools', 'kdeplasma-addons', 'kget', 'ktorrent', 'plasma-browser-integration', 'plasma-desktop', 'plasma-nm', 'plasma-wayland-session', 'powerdevil']"
 +++
 ### Description: 
@@ -121,35 +121,36 @@ KDE Plasma Workspace.
 * /usr/lib/kconf_update_bin/plasma6.0-remove-dpi-settings
 * /usr/lib/kconf_update_bin/plasma6.0-remove-old-shortcuts
 * /usr/lib/kconf_update_bin/plasma6.3-update-clipboard-database-2-to-3
+* /usr/lib/kconf_update_bin/plasma6.4-migrate-fullscreen-notifications-to-dnd
 * /usr/lib/kconf_update_bin/plasmashell-6.0-keep-custom-position-of-panels
 * /usr/lib/kconf_update_bin/plasmashell-6.0-keep-default-floating-setting-for-plasma-5-panels
 * /usr/lib/libbatterycontrol.so
 * /usr/lib/libbatterycontrol.so.6
-* /usr/lib/libbatterycontrol.so.6.3.5
+* /usr/lib/libbatterycontrol.so.6.4.0
 * /usr/lib/libcolorcorrect.so
 * /usr/lib/libcolorcorrect.so.6
-* /usr/lib/libcolorcorrect.so.6.3.5
+* /usr/lib/libcolorcorrect.so.6.4.0
 * /usr/lib/libkfontinst.so
 * /usr/lib/libkfontinst.so.6
-* /usr/lib/libkfontinst.so.6.3.5
+* /usr/lib/libkfontinst.so.6.4.0
 * /usr/lib/libkfontinstui.so
 * /usr/lib/libkfontinstui.so.6
-* /usr/lib/libkfontinstui.so.6.3.5
+* /usr/lib/libkfontinstui.so.6.4.0
 * /usr/lib/libklipper.so
 * /usr/lib/libklipper.so.6
-* /usr/lib/libklipper.so.6.3.5
+* /usr/lib/libklipper.so.6.4.0
 * /usr/lib/libkmpris.so.6
-* /usr/lib/libkmpris.so.6.3.5
+* /usr/lib/libkmpris.so.6.4.0
 * /usr/lib/libkrdb.so
 * /usr/lib/libkworkspace6.so
 * /usr/lib/libkworkspace6.so.6
-* /usr/lib/libkworkspace6.so.6.3.5
+* /usr/lib/libkworkspace6.so.6.4.0
 * /usr/lib/libnotificationmanager.so
 * /usr/lib/libnotificationmanager.so.1
-* /usr/lib/libnotificationmanager.so.6.3.5
+* /usr/lib/libnotificationmanager.so.6.4.0
 * /usr/lib/libtaskmanager.so
 * /usr/lib/libtaskmanager.so.6
-* /usr/lib/libtaskmanager.so.6.3.5
+* /usr/lib/libtaskmanager.so.6.4.0
 * /usr/lib/libweather_ion.so
 * /usr/lib/libweather_ion.so.7
 * /usr/lib/libweather_ion.so.7.0.0
@@ -201,9 +202,9 @@ KDE Plasma Workspace.
 * /usr/lib/qt6/plugins/plasma/applets/org.kde.plasma.appmenu.so
 * /usr/lib/qt6/plugins/plasma/applets/org.kde.plasma.calendar.so
 * /usr/lib/qt6/plugins/plasma/applets/org.kde.plasma.icon.so
+* /usr/lib/qt6/plugins/plasma/applets/org.kde.plasma.mediacontroller.so
 * /usr/lib/qt6/plugins/plasma/applets/org.kde.plasma.notifications.so
 * /usr/lib/qt6/plugins/plasma/applets/org.kde.plasma.panelspacer.so
-* /usr/lib/qt6/plugins/plasma/applets/org.kde.plasma.private.systemtray.so
 * /usr/lib/qt6/plugins/plasma/applets/org.kde.plasma.systemmonitor.so
 * /usr/lib/qt6/plugins/plasma/applets/org.kde.plasma.systemtray.so
 * /usr/lib/qt6/plugins/plasma/containmentactions/org.kde.applauncher.so
@@ -216,6 +217,7 @@ KDE Plasma Workspace.
 * /usr/lib/qt6/plugins/plasma/kcminit/kcm_style_init.so
 * /usr/lib/qt6/plugins/plasma/kcms/systemsettings/kcm_autostart.so
 * /usr/lib/qt6/plugins/plasma/kcms/systemsettings/kcm_colors.so
+* /usr/lib/qt6/plugins/plasma/kcms/systemsettings/kcm_componentchooser.so
 * /usr/lib/qt6/plugins/plasma/kcms/systemsettings/kcm_cursortheme.so
 * /usr/lib/qt6/plugins/plasma/kcms/systemsettings/kcm_desktoptheme.so
 * /usr/lib/qt6/plugins/plasma/kcms/systemsettings/kcm_feedback.so
@@ -269,6 +271,8 @@ KDE Plasma Workspace.
 * /usr/lib/qt6/qml/org/kde/notificationmanager/qmldir
 * /usr/lib/qt6/qml/org/kde/plasma/lookandfeel/liblookandfeelqmlplugin.so
 * /usr/lib/qt6/qml/org/kde/plasma/lookandfeel/qmldir
+* /usr/lib/qt6/qml/org/kde/plasma/private/appmenu/appmenuplugin.qmltypes
+* /usr/lib/qt6/qml/org/kde/plasma/private/appmenu/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/plasma/private/appmenu/libappmenuplugin.so
 * /usr/lib/qt6/qml/org/kde/plasma/private/appmenu/qmldir
 * /usr/lib/qt6/qml/org/kde/plasma/private/battery/batterycontrol.qmltypes
@@ -312,10 +316,10 @@ KDE Plasma Workspace.
 * /usr/lib/qt6/qml/org/kde/plasma/private/keyboardindicator/keyboardindicatorplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/plasma/private/keyboardindicator/libkeyboardindicatorplugin.so
 * /usr/lib/qt6/qml/org/kde/plasma/private/keyboardindicator/qmldir
+* /usr/lib/qt6/qml/org/kde/plasma/private/kicker/kde-qmlmodule.version
+* /usr/lib/qt6/qml/org/kde/plasma/private/kicker/kickerplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/plasma/private/kicker/libkickerplugin.so
 * /usr/lib/qt6/qml/org/kde/plasma/private/kicker/qmldir
-* /usr/lib/qt6/qml/org/kde/plasma/private/mediacontroller/libmediacontrollerplugin.so
-* /usr/lib/qt6/qml/org/kde/plasma/private/mediacontroller/qmldir
 * /usr/lib/qt6/qml/org/kde/plasma/private/mpris/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/plasma/private/mpris/kmpris.qmltypes
 * /usr/lib/qt6/qml/org/kde/plasma/private/mpris/libkmprisplugin.so
@@ -354,11 +358,25 @@ KDE Plasma Workspace.
 * /usr/lib/qt6/qml/org/kde/plasma/workspace/dbus/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/plasma/workspace/dbus/libdbusplugin.so
 * /usr/lib/qt6/qml/org/kde/plasma/workspace/dbus/qmldir
-* /usr/lib/qt6/qml/org/kde/plasma/workspace/dialogs/examples/test.qml
+* /usr/lib/qt6/qml/org/kde/plasma/workspace/dialogs/kde-qmlmodule.version
+* /usr/lib/qt6/qml/org/kde/plasma/workspace/dialogs/libsystemdialogs.so
 * /usr/lib/qt6/qml/org/kde/plasma/workspace/dialogs/qmldir
 * /usr/lib/qt6/qml/org/kde/plasma/workspace/dialogs/SystemDialog.qml
+* /usr/lib/qt6/qml/org/kde/plasma/workspace/dialogs/systemdialogs.qmltypes
 * /usr/lib/qt6/qml/org/kde/plasma/workspace/keyboardlayout/libkeyboardlayoutplugin.so
 * /usr/lib/qt6/qml/org/kde/plasma/workspace/keyboardlayout/qmldir
+* /usr/lib/qt6/qml/org/kde/plasma/workspace/osd/kde-qmlmodule.version
+* /usr/lib/qt6/qml/org/kde/plasma/workspace/osd/libplasmashell_osd.so
+* /usr/lib/qt6/qml/org/kde/plasma/workspace/osd/Osd.qml
+* /usr/lib/qt6/qml/org/kde/plasma/workspace/osd/OsdItem.qml
+* /usr/lib/qt6/qml/org/kde/plasma/workspace/osd/plasmashell_osd.qmltypes
+* /usr/lib/qt6/qml/org/kde/plasma/workspace/osd/qmldir
+* /usr/lib/qt6/qml/org/kde/plasma/workspace/timezoneselector/GeoJsonDelegate.qml
+* /usr/lib/qt6/qml/org/kde/plasma/workspace/timezoneselector/kde-qmlmodule.version
+* /usr/lib/qt6/qml/org/kde/plasma/workspace/timezoneselector/libtimezoneplugin.so
+* /usr/lib/qt6/qml/org/kde/plasma/workspace/timezoneselector/qmldir
+* /usr/lib/qt6/qml/org/kde/plasma/workspace/timezoneselector/timezoneplugin.qmltypes
+* /usr/lib/qt6/qml/org/kde/plasma/workspace/timezoneselector/TimezoneSelector.qml
 * /usr/lib/qt6/qml/org/kde/plasma/workspace/trianglemousefilter/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/plasma/workspace/trianglemousefilter/libtrianglemousefilterplugin.so
 * /usr/lib/qt6/qml/org/kde/plasma/workspace/trianglemousefilter/qmldir
@@ -384,6 +402,7 @@ KDE Plasma Workspace.
 * /usr/lib/systemd/user/plasma-xembedsniproxy.service
 * /usr/share/applications/kcm_autostart.desktop
 * /usr/share/applications/kcm_colors.desktop
+* /usr/share/applications/kcm_componentchooser.desktop
 * /usr/share/applications/kcm_cursortheme.desktop
 * /usr/share/applications/kcm_desktoptheme.desktop
 * /usr/share/applications/kcm_feedback.desktop
@@ -473,6 +492,8 @@ KDE Plasma Workspace.
 * /usr/share/doc/HTML/ca/kcontrol/autostart/index.docbook
 * /usr/share/doc/HTML/ca/kcontrol/colors/index.cache.bz2
 * /usr/share/doc/HTML/ca/kcontrol/colors/index.docbook
+* /usr/share/doc/HTML/ca/kcontrol/componentchooser/index.cache.bz2
+* /usr/share/doc/HTML/ca/kcontrol/componentchooser/index.docbook
 * /usr/share/doc/HTML/ca/kcontrol/cursortheme/index.cache.bz2
 * /usr/share/doc/HTML/ca/kcontrol/cursortheme/index.docbook
 * /usr/share/doc/HTML/ca/kcontrol/desktopthemedetails/get-new-theme.png
@@ -510,6 +531,8 @@ KDE Plasma Workspace.
 * /usr/share/doc/HTML/de/kcontrol/autostart/index.docbook
 * /usr/share/doc/HTML/de/kcontrol/colors/index.cache.bz2
 * /usr/share/doc/HTML/de/kcontrol/colors/index.docbook
+* /usr/share/doc/HTML/de/kcontrol/componentchooser/index.cache.bz2
+* /usr/share/doc/HTML/de/kcontrol/componentchooser/index.docbook
 * /usr/share/doc/HTML/de/kcontrol/cursortheme/index.cache.bz2
 * /usr/share/doc/HTML/de/kcontrol/cursortheme/index.docbook
 * /usr/share/doc/HTML/de/kcontrol/desktopthemedetails/index.cache.bz2
@@ -536,6 +559,8 @@ KDE Plasma Workspace.
 * /usr/share/doc/HTML/en/kcontrol/autostart/index.docbook
 * /usr/share/doc/HTML/en/kcontrol/colors/index.cache.bz2
 * /usr/share/doc/HTML/en/kcontrol/colors/index.docbook
+* /usr/share/doc/HTML/en/kcontrol/componentchooser/index.cache.bz2
+* /usr/share/doc/HTML/en/kcontrol/componentchooser/index.docbook
 * /usr/share/doc/HTML/en/kcontrol/cursortheme/cursor-size.png
 * /usr/share/doc/HTML/en/kcontrol/cursortheme/get-new-stuff.png
 * /usr/share/doc/HTML/en/kcontrol/cursortheme/index.cache.bz2
@@ -596,6 +621,8 @@ KDE Plasma Workspace.
 * /usr/share/doc/HTML/es/kcontrol/autostart/index.docbook
 * /usr/share/doc/HTML/es/kcontrol/colors/index.cache.bz2
 * /usr/share/doc/HTML/es/kcontrol/colors/index.docbook
+* /usr/share/doc/HTML/es/kcontrol/componentchooser/index.cache.bz2
+* /usr/share/doc/HTML/es/kcontrol/componentchooser/index.docbook
 * /usr/share/doc/HTML/es/kcontrol/cursortheme/index.cache.bz2
 * /usr/share/doc/HTML/es/kcontrol/cursortheme/index.docbook
 * /usr/share/doc/HTML/es/kcontrol/desktopthemedetails/index.cache.bz2
@@ -618,6 +645,8 @@ KDE Plasma Workspace.
 * /usr/share/doc/HTML/es/kcontrol/screenlocker/index.docbook
 * /usr/share/doc/HTML/es/klipper/index.cache.bz2
 * /usr/share/doc/HTML/es/klipper/index.docbook
+* /usr/share/doc/HTML/fr/kcontrol/componentchooser/index.cache.bz2
+* /usr/share/doc/HTML/fr/kcontrol/componentchooser/index.docbook
 * /usr/share/doc/HTML/fr/kcontrol/desktopthemedetails/index.cache.bz2
 * /usr/share/doc/HTML/fr/kcontrol/desktopthemedetails/index.docbook
 * /usr/share/doc/HTML/fr/kcontrol/fontinst/index.cache.bz2
@@ -626,6 +655,8 @@ KDE Plasma Workspace.
 * /usr/share/doc/HTML/id/kcontrol/autostart/index.docbook
 * /usr/share/doc/HTML/id/kcontrol/colors/index.cache.bz2
 * /usr/share/doc/HTML/id/kcontrol/colors/index.docbook
+* /usr/share/doc/HTML/id/kcontrol/componentchooser/index.cache.bz2
+* /usr/share/doc/HTML/id/kcontrol/componentchooser/index.docbook
 * /usr/share/doc/HTML/id/kcontrol/cursortheme/index.cache.bz2
 * /usr/share/doc/HTML/id/kcontrol/cursortheme/index.docbook
 * /usr/share/doc/HTML/id/kcontrol/desktopthemedetails/index.cache.bz2
@@ -650,6 +681,8 @@ KDE Plasma Workspace.
 * /usr/share/doc/HTML/it/kcontrol/autostart/index.docbook
 * /usr/share/doc/HTML/it/kcontrol/colors/index.cache.bz2
 * /usr/share/doc/HTML/it/kcontrol/colors/index.docbook
+* /usr/share/doc/HTML/it/kcontrol/componentchooser/index.cache.bz2
+* /usr/share/doc/HTML/it/kcontrol/componentchooser/index.docbook
 * /usr/share/doc/HTML/it/kcontrol/cursortheme/index.cache.bz2
 * /usr/share/doc/HTML/it/kcontrol/cursortheme/index.docbook
 * /usr/share/doc/HTML/it/kcontrol/desktopthemedetails/index.cache.bz2
@@ -684,6 +717,8 @@ KDE Plasma Workspace.
 * /usr/share/doc/HTML/nl/kcontrol/autostart/index.docbook
 * /usr/share/doc/HTML/nl/kcontrol/colors/index.cache.bz2
 * /usr/share/doc/HTML/nl/kcontrol/colors/index.docbook
+* /usr/share/doc/HTML/nl/kcontrol/componentchooser/index.cache.bz2
+* /usr/share/doc/HTML/nl/kcontrol/componentchooser/index.docbook
 * /usr/share/doc/HTML/nl/kcontrol/cursortheme/index.cache.bz2
 * /usr/share/doc/HTML/nl/kcontrol/cursortheme/index.docbook
 * /usr/share/doc/HTML/nl/kcontrol/desktopthemedetails/index.cache.bz2
@@ -712,6 +747,8 @@ KDE Plasma Workspace.
 * /usr/share/doc/HTML/pt/kcontrol/autostart/index.docbook
 * /usr/share/doc/HTML/pt/kcontrol/colors/index.cache.bz2
 * /usr/share/doc/HTML/pt/kcontrol/colors/index.docbook
+* /usr/share/doc/HTML/pt/kcontrol/componentchooser/index.cache.bz2
+* /usr/share/doc/HTML/pt/kcontrol/componentchooser/index.docbook
 * /usr/share/doc/HTML/pt/kcontrol/cursortheme/index.cache.bz2
 * /usr/share/doc/HTML/pt/kcontrol/cursortheme/index.docbook
 * /usr/share/doc/HTML/pt/kcontrol/desktopthemedetails/index.cache.bz2
@@ -734,6 +771,8 @@ KDE Plasma Workspace.
 * /usr/share/doc/HTML/pt_BR/kcontrol/autostart/index.docbook
 * /usr/share/doc/HTML/pt_BR/kcontrol/colors/index.cache.bz2
 * /usr/share/doc/HTML/pt_BR/kcontrol/colors/index.docbook
+* /usr/share/doc/HTML/pt_BR/kcontrol/componentchooser/index.cache.bz2
+* /usr/share/doc/HTML/pt_BR/kcontrol/componentchooser/index.docbook
 * /usr/share/doc/HTML/pt_BR/kcontrol/cursortheme/index.cache.bz2
 * /usr/share/doc/HTML/pt_BR/kcontrol/cursortheme/index.docbook
 * /usr/share/doc/HTML/pt_BR/kcontrol/desktopthemedetails/customizing.png
@@ -769,6 +808,8 @@ KDE Plasma Workspace.
 * /usr/share/doc/HTML/ru/kcontrol/autostart/index.docbook
 * /usr/share/doc/HTML/ru/kcontrol/colors/index.cache.bz2
 * /usr/share/doc/HTML/ru/kcontrol/colors/index.docbook
+* /usr/share/doc/HTML/ru/kcontrol/componentchooser/index.cache.bz2
+* /usr/share/doc/HTML/ru/kcontrol/componentchooser/index.docbook
 * /usr/share/doc/HTML/ru/kcontrol/cursortheme/index.cache.bz2
 * /usr/share/doc/HTML/ru/kcontrol/cursortheme/index.docbook
 * /usr/share/doc/HTML/ru/kcontrol/desktopthemedetails/index.cache.bz2
@@ -805,6 +846,8 @@ KDE Plasma Workspace.
 * /usr/share/doc/HTML/sl/kcontrol/autostart/index.docbook
 * /usr/share/doc/HTML/sl/kcontrol/colors/index.cache.bz2
 * /usr/share/doc/HTML/sl/kcontrol/colors/index.docbook
+* /usr/share/doc/HTML/sl/kcontrol/componentchooser/index.cache.bz2
+* /usr/share/doc/HTML/sl/kcontrol/componentchooser/index.docbook
 * /usr/share/doc/HTML/sl/kcontrol/cursortheme/index.cache.bz2
 * /usr/share/doc/HTML/sl/kcontrol/cursortheme/index.docbook
 * /usr/share/doc/HTML/sl/kcontrol/desktopthemedetails/index.cache.bz2
@@ -839,6 +882,8 @@ KDE Plasma Workspace.
 * /usr/share/doc/HTML/sv/kcontrol/autostart/index.docbook
 * /usr/share/doc/HTML/sv/kcontrol/colors/index.cache.bz2
 * /usr/share/doc/HTML/sv/kcontrol/colors/index.docbook
+* /usr/share/doc/HTML/sv/kcontrol/componentchooser/index.cache.bz2
+* /usr/share/doc/HTML/sv/kcontrol/componentchooser/index.docbook
 * /usr/share/doc/HTML/sv/kcontrol/cursortheme/index.cache.bz2
 * /usr/share/doc/HTML/sv/kcontrol/cursortheme/index.docbook
 * /usr/share/doc/HTML/sv/kcontrol/desktopthemedetails/index.cache.bz2
@@ -865,6 +910,8 @@ KDE Plasma Workspace.
 * /usr/share/doc/HTML/tr/kcontrol/autostart/index.docbook
 * /usr/share/doc/HTML/tr/kcontrol/colors/index.cache.bz2
 * /usr/share/doc/HTML/tr/kcontrol/colors/index.docbook
+* /usr/share/doc/HTML/tr/kcontrol/componentchooser/index.cache.bz2
+* /usr/share/doc/HTML/tr/kcontrol/componentchooser/index.docbook
 * /usr/share/doc/HTML/tr/kcontrol/cursortheme/index.cache.bz2
 * /usr/share/doc/HTML/tr/kcontrol/cursortheme/index.docbook
 * /usr/share/doc/HTML/tr/kcontrol/desktopthemedetails/index.cache.bz2
@@ -891,6 +938,8 @@ KDE Plasma Workspace.
 * /usr/share/doc/HTML/uk/kcontrol/autostart/index.docbook
 * /usr/share/doc/HTML/uk/kcontrol/colors/index.cache.bz2
 * /usr/share/doc/HTML/uk/kcontrol/colors/index.docbook
+* /usr/share/doc/HTML/uk/kcontrol/componentchooser/index.cache.bz2
+* /usr/share/doc/HTML/uk/kcontrol/componentchooser/index.docbook
 * /usr/share/doc/HTML/uk/kcontrol/cursortheme/index.cache.bz2
 * /usr/share/doc/HTML/uk/kcontrol/cursortheme/index.docbook
 * /usr/share/doc/HTML/uk/kcontrol/desktopthemedetails/index.cache.bz2
@@ -921,8 +970,8 @@ KDE Plasma Workspace.
 * /usr/share/doc/HTML/uk/klipper/index.docbook
 * /usr/share/doc/HTML/uk/klipper/klipper-widget.png
 * /usr/share/doc/HTML/uk/klipper/screenshot.png
-* /usr/share/doc/plasma-workspace-6.3.5/HACKING
-* /usr/share/doc/plasma-workspace-6.3.5/README.md
+* /usr/share/doc/plasma-workspace-6.4.0/HACKING
+* /usr/share/doc/plasma-workspace-6.4.0/README.md
 * /usr/share/icons/hicolor/128x128/mimetypes/fonts-package.png
 * /usr/share/icons/hicolor/16x16/apps/kfontview.png
 * /usr/share/icons/hicolor/16x16/mimetypes/fonts-package.png
@@ -940,6 +989,7 @@ KDE Plasma Workspace.
 * /usr/share/kconf_update/plasma6.0-remove-dpi-settings.upd
 * /usr/share/kconf_update/plasma6.0-remove-old-shortcuts.upd
 * /usr/share/kconf_update/plasma6.3-update-clipboard-database-2-to-3.upd
+* /usr/share/kconf_update/plasma6.4-migrate-fullscreen-notifications-to-dnd.upd
 * /usr/share/kconf_update/plasmashell-6.0-keep-custom-position-of-panels.upd
 * /usr/share/kconf_update/plasmashell-6.0-keep-default-floating-setting-for-plasma-5-panels.upd
 * /usr/share/kfontinst/icons/hicolor/16x16/actions/addfont.png
@@ -982,6 +1032,7 @@ KDE Plasma Workspace.
 * /usr/share/kxmlgui5/kfontview/kfontviewpart.rc
 * /usr/share/kxmlgui5/kfontview/kfontviewui.rc
 * /usr/share/locale/af/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/af/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/af/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/af/LC_MESSAGES/kcm_fonts.mo
 * /usr/share/locale/af/LC_MESSAGES/kcm_icons.mo
@@ -995,6 +1046,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/ar/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/ar/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/ar/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/ar/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/ar/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/ar/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/ar/LC_MESSAGES/kcm_feedback.mo
@@ -1039,8 +1091,8 @@ KDE Plasma Workspace.
 * /usr/share/locale/ar/LC_MESSAGES/plasma_applet_org.kde.plasma.manageinputmethod.mo
 * /usr/share/locale/ar/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/ar/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/ar/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
 * /usr/share/locale/ar/LC_MESSAGES/plasma_applet_org.kde.plasma.systemmonitor.mo
+* /usr/share/locale/ar/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/ar/LC_MESSAGES/plasma_containmentactions_applauncher.mo
 * /usr/share/locale/ar/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/ar/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
@@ -1070,6 +1122,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/ast/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/ast/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/ast/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/ast/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/ast/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/ast/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/ast/LC_MESSAGES/kcm_feedback.mo
@@ -1111,8 +1164,8 @@ KDE Plasma Workspace.
 * /usr/share/locale/ast/LC_MESSAGES/plasma_applet_org.kde.plasma.manageinputmethod.mo
 * /usr/share/locale/ast/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/ast/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/ast/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
 * /usr/share/locale/ast/LC_MESSAGES/plasma_applet_org.kde.plasma.systemmonitor.mo
+* /usr/share/locale/ast/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/ast/LC_MESSAGES/plasma_containmentactions_applauncher.mo
 * /usr/share/locale/ast/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/ast/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
@@ -1142,6 +1195,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/az/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/az/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/az/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/az/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/az/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/az/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/az/LC_MESSAGES/kcm_feedback.mo
@@ -1183,8 +1237,8 @@ KDE Plasma Workspace.
 * /usr/share/locale/az/LC_MESSAGES/plasma_applet_org.kde.plasma.manageinputmethod.mo
 * /usr/share/locale/az/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/az/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/az/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
 * /usr/share/locale/az/LC_MESSAGES/plasma_applet_org.kde.plasma.systemmonitor.mo
+* /usr/share/locale/az/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/az/LC_MESSAGES/plasma_containmentactions_applauncher.mo
 * /usr/share/locale/az/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/az/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
@@ -1214,6 +1268,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/be/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/be/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/be/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/be/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/be/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/be/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/be/LC_MESSAGES/kcm_feedback.mo
@@ -1257,8 +1312,8 @@ KDE Plasma Workspace.
 * /usr/share/locale/be/LC_MESSAGES/plasma_applet_org.kde.plasma.manageinputmethod.mo
 * /usr/share/locale/be/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/be/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/be/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
 * /usr/share/locale/be/LC_MESSAGES/plasma_applet_org.kde.plasma.systemmonitor.mo
+* /usr/share/locale/be/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/be/LC_MESSAGES/plasma_containmentactions_applauncher.mo
 * /usr/share/locale/be/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/be/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
@@ -1302,6 +1357,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/bg/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/bg/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/bg/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/bg/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/bg/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/bg/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/bg/LC_MESSAGES/kcm_feedback.mo
@@ -1346,8 +1402,8 @@ KDE Plasma Workspace.
 * /usr/share/locale/bg/LC_MESSAGES/plasma_applet_org.kde.plasma.manageinputmethod.mo
 * /usr/share/locale/bg/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/bg/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/bg/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
 * /usr/share/locale/bg/LC_MESSAGES/plasma_applet_org.kde.plasma.systemmonitor.mo
+* /usr/share/locale/bg/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/bg/LC_MESSAGES/plasma_containmentactions_applauncher.mo
 * /usr/share/locale/bg/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/bg/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
@@ -1373,6 +1429,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/bg/LC_MESSAGES/plasma_wallpaper_org.kde.image.mo
 * /usr/share/locale/bg/LC_MESSAGES/session-shortcuts-kded.mo
 * /usr/share/locale/bg/LC_MESSAGES/soliduiserver.mo
+* /usr/share/locale/bn/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/bn/LC_MESSAGES/kcm_fonts.mo
 * /usr/share/locale/bn/LC_MESSAGES/kcm_icons.mo
 * /usr/share/locale/bn/LC_MESSAGES/kcm_style.mo
@@ -1405,6 +1462,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/bn_IN/LC_MESSAGES/plasma_wallpaper_org.kde.image.mo
 * /usr/share/locale/bn_IN/LC_MESSAGES/soliduiserver.mo
 * /usr/share/locale/br/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/br/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/br/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/br/LC_MESSAGES/kcm_fonts.mo
 * /usr/share/locale/br/LC_MESSAGES/kcm_icons.mo
@@ -1417,6 +1475,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/bs/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/bs/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/bs/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/bs/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/bs/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/bs/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/bs/LC_MESSAGES/kcm_fonts.mo
@@ -1442,7 +1501,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/bs/LC_MESSAGES/plasma_applet_org.kde.plasma.lock_logout.mo
 * /usr/share/locale/bs/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/bs/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/bs/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
+* /usr/share/locale/bs/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/bs/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/bs/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
 * /usr/share/locale/bs/LC_MESSAGES/plasma_engine_applicationjobs.mo
@@ -1468,6 +1527,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/ca/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/ca/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/ca/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/ca/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/ca/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/ca/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/ca/LC_MESSAGES/kcm_feedback.mo
@@ -1512,8 +1572,8 @@ KDE Plasma Workspace.
 * /usr/share/locale/ca/LC_MESSAGES/plasma_applet_org.kde.plasma.manageinputmethod.mo
 * /usr/share/locale/ca/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/ca/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/ca/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
 * /usr/share/locale/ca/LC_MESSAGES/plasma_applet_org.kde.plasma.systemmonitor.mo
+* /usr/share/locale/ca/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/ca/LC_MESSAGES/plasma_containmentactions_applauncher.mo
 * /usr/share/locale/ca/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/ca/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
@@ -1543,6 +1603,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/ca@valencia/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/kcm_feedback.mo
@@ -1587,8 +1648,8 @@ KDE Plasma Workspace.
 * /usr/share/locale/ca@valencia/LC_MESSAGES/plasma_applet_org.kde.plasma.manageinputmethod.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/ca@valencia/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/plasma_applet_org.kde.plasma.systemmonitor.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/plasma_containmentactions_applauncher.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
@@ -1618,6 +1679,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/cs/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/cs/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/cs/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/cs/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/cs/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/cs/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/cs/LC_MESSAGES/kcm_feedback.mo
@@ -1660,8 +1722,8 @@ KDE Plasma Workspace.
 * /usr/share/locale/cs/LC_MESSAGES/plasma_applet_org.kde.plasma.manageinputmethod.mo
 * /usr/share/locale/cs/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/cs/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/cs/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
 * /usr/share/locale/cs/LC_MESSAGES/plasma_applet_org.kde.plasma.systemmonitor.mo
+* /usr/share/locale/cs/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/cs/LC_MESSAGES/plasma_containmentactions_applauncher.mo
 * /usr/share/locale/cs/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/cs/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
@@ -1689,6 +1751,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/cs/LC_MESSAGES/soliduiserver.mo
 * /usr/share/locale/csb/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/csb/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/csb/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/csb/LC_MESSAGES/kcm_fonts.mo
 * /usr/share/locale/csb/LC_MESSAGES/kcm_icons.mo
 * /usr/share/locale/csb/LC_MESSAGES/kcm_style.mo
@@ -1716,6 +1779,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/csb/LC_MESSAGES/plasma_wallpaper_org.kde.image.mo
 * /usr/share/locale/csb/LC_MESSAGES/soliduiserver.mo
 * /usr/share/locale/cy/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/cy/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/cy/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/cy/LC_MESSAGES/kcm_fonts.mo
 * /usr/share/locale/cy/LC_MESSAGES/kcm_icons.mo
@@ -1729,6 +1793,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/da/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/da/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/da/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/da/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/da/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/da/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/da/LC_MESSAGES/kcm_feedback.mo
@@ -1762,8 +1827,8 @@ KDE Plasma Workspace.
 * /usr/share/locale/da/LC_MESSAGES/plasma_applet_org.kde.plasma.lock_logout.mo
 * /usr/share/locale/da/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/da/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/da/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
 * /usr/share/locale/da/LC_MESSAGES/plasma_applet_org.kde.plasma.systemmonitor.mo
+* /usr/share/locale/da/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/da/LC_MESSAGES/plasma_containmentactions_applauncher.mo
 * /usr/share/locale/da/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/da/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
@@ -1791,6 +1856,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/de/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/de/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/de/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/de/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/de/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/de/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/de/LC_MESSAGES/kcm_feedback.mo
@@ -1835,8 +1901,8 @@ KDE Plasma Workspace.
 * /usr/share/locale/de/LC_MESSAGES/plasma_applet_org.kde.plasma.manageinputmethod.mo
 * /usr/share/locale/de/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/de/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/de/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
 * /usr/share/locale/de/LC_MESSAGES/plasma_applet_org.kde.plasma.systemmonitor.mo
+* /usr/share/locale/de/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/de/LC_MESSAGES/plasma_containmentactions_applauncher.mo
 * /usr/share/locale/de/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/de/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
@@ -1866,6 +1932,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/el/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/el/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/el/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/el/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/el/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/el/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/el/LC_MESSAGES/kcm_feedback.mo
@@ -1908,8 +1975,8 @@ KDE Plasma Workspace.
 * /usr/share/locale/el/LC_MESSAGES/plasma_applet_org.kde.plasma.manageinputmethod.mo
 * /usr/share/locale/el/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/el/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/el/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
 * /usr/share/locale/el/LC_MESSAGES/plasma_applet_org.kde.plasma.systemmonitor.mo
+* /usr/share/locale/el/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/el/LC_MESSAGES/plasma_containmentactions_applauncher.mo
 * /usr/share/locale/el/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/el/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
@@ -1939,6 +2006,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/en_GB/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/kcm_feedback.mo
@@ -1982,8 +2050,8 @@ KDE Plasma Workspace.
 * /usr/share/locale/en_GB/LC_MESSAGES/plasma_applet_org.kde.plasma.manageinputmethod.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/en_GB/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/plasma_applet_org.kde.plasma.systemmonitor.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/plasma_containmentactions_applauncher.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
@@ -2013,6 +2081,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/eo/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/eo/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/eo/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/eo/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/eo/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/eo/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/eo/LC_MESSAGES/kcm_feedback.mo
@@ -2054,8 +2123,8 @@ KDE Plasma Workspace.
 * /usr/share/locale/eo/LC_MESSAGES/plasma_applet_org.kde.plasma.manageinputmethod.mo
 * /usr/share/locale/eo/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/eo/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/eo/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
 * /usr/share/locale/eo/LC_MESSAGES/plasma_applet_org.kde.plasma.systemmonitor.mo
+* /usr/share/locale/eo/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/eo/LC_MESSAGES/plasma_containmentactions_applauncher.mo
 * /usr/share/locale/eo/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/eo/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
@@ -2085,6 +2154,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/es/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/es/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/es/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/es/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/es/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/es/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/es/LC_MESSAGES/kcm_feedback.mo
@@ -2129,8 +2199,8 @@ KDE Plasma Workspace.
 * /usr/share/locale/es/LC_MESSAGES/plasma_applet_org.kde.plasma.manageinputmethod.mo
 * /usr/share/locale/es/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/es/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/es/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
 * /usr/share/locale/es/LC_MESSAGES/plasma_applet_org.kde.plasma.systemmonitor.mo
+* /usr/share/locale/es/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/es/LC_MESSAGES/plasma_containmentactions_applauncher.mo
 * /usr/share/locale/es/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/es/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
@@ -2160,6 +2230,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/et/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/et/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/et/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/et/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/et/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/et/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/et/LC_MESSAGES/kcm_feedback.mo
@@ -2194,8 +2265,8 @@ KDE Plasma Workspace.
 * /usr/share/locale/et/LC_MESSAGES/plasma_applet_org.kde.plasma.lock_logout.mo
 * /usr/share/locale/et/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/et/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/et/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
 * /usr/share/locale/et/LC_MESSAGES/plasma_applet_org.kde.plasma.systemmonitor.mo
+* /usr/share/locale/et/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/et/LC_MESSAGES/plasma_containmentactions_applauncher.mo
 * /usr/share/locale/et/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/et/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
@@ -2223,6 +2294,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/eu/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/eu/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/eu/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/eu/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/eu/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/eu/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/eu/LC_MESSAGES/kcm_feedback.mo
@@ -2267,8 +2339,8 @@ KDE Plasma Workspace.
 * /usr/share/locale/eu/LC_MESSAGES/plasma_applet_org.kde.plasma.manageinputmethod.mo
 * /usr/share/locale/eu/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/eu/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/eu/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
 * /usr/share/locale/eu/LC_MESSAGES/plasma_applet_org.kde.plasma.systemmonitor.mo
+* /usr/share/locale/eu/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/eu/LC_MESSAGES/plasma_containmentactions_applauncher.mo
 * /usr/share/locale/eu/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/eu/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
@@ -2298,6 +2370,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/fa/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/fa/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/fa/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/fa/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/fa/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/fa/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/fa/LC_MESSAGES/kcm_fonts.mo
@@ -2321,6 +2394,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/fi/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/fi/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/fi/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/fi/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/fi/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/fi/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/fi/LC_MESSAGES/kcm_feedback.mo
@@ -2365,8 +2439,8 @@ KDE Plasma Workspace.
 * /usr/share/locale/fi/LC_MESSAGES/plasma_applet_org.kde.plasma.manageinputmethod.mo
 * /usr/share/locale/fi/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/fi/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/fi/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
 * /usr/share/locale/fi/LC_MESSAGES/plasma_applet_org.kde.plasma.systemmonitor.mo
+* /usr/share/locale/fi/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/fi/LC_MESSAGES/plasma_containmentactions_applauncher.mo
 * /usr/share/locale/fi/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/fi/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
@@ -2396,6 +2470,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/fr/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/fr/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/fr/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/fr/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/fr/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/fr/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/fr/LC_MESSAGES/kcm_feedback.mo
@@ -2440,8 +2515,8 @@ KDE Plasma Workspace.
 * /usr/share/locale/fr/LC_MESSAGES/plasma_applet_org.kde.plasma.manageinputmethod.mo
 * /usr/share/locale/fr/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/fr/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/fr/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
 * /usr/share/locale/fr/LC_MESSAGES/plasma_applet_org.kde.plasma.systemmonitor.mo
+* /usr/share/locale/fr/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/fr/LC_MESSAGES/plasma_containmentactions_applauncher.mo
 * /usr/share/locale/fr/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/fr/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
@@ -2470,6 +2545,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/fy/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/fy/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/fy/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/fy/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/fy/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/fy/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/fy/LC_MESSAGES/kcm_fonts.mo
@@ -2503,6 +2579,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/ga/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/ga/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/ga/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/ga/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/ga/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/ga/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/ga/LC_MESSAGES/kcm_fonts.mo
@@ -2541,6 +2618,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/gl/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/gl/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/gl/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/gl/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/gl/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/gl/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/gl/LC_MESSAGES/kcm_feedback.mo
@@ -2585,8 +2663,8 @@ KDE Plasma Workspace.
 * /usr/share/locale/gl/LC_MESSAGES/plasma_applet_org.kde.plasma.manageinputmethod.mo
 * /usr/share/locale/gl/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/gl/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/gl/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
 * /usr/share/locale/gl/LC_MESSAGES/plasma_applet_org.kde.plasma.systemmonitor.mo
+* /usr/share/locale/gl/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/gl/LC_MESSAGES/plasma_containmentactions_applauncher.mo
 * /usr/share/locale/gl/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/gl/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
@@ -2616,6 +2694,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/gu/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/gu/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/gu/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/gu/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/gu/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/gu/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/gu/LC_MESSAGES/kcm_fonts.mo
@@ -2652,6 +2731,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/he/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/he/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/he/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/he/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/he/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/he/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/he/LC_MESSAGES/kcm_feedback.mo
@@ -2696,8 +2776,8 @@ KDE Plasma Workspace.
 * /usr/share/locale/he/LC_MESSAGES/plasma_applet_org.kde.plasma.manageinputmethod.mo
 * /usr/share/locale/he/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/he/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/he/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
 * /usr/share/locale/he/LC_MESSAGES/plasma_applet_org.kde.plasma.systemmonitor.mo
+* /usr/share/locale/he/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/he/LC_MESSAGES/plasma_containmentactions_applauncher.mo
 * /usr/share/locale/he/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/he/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
@@ -2727,6 +2807,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/hi/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/hi/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/hi/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/hi/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/hi/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/hi/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/hi/LC_MESSAGES/kcm_feedback.mo
@@ -2770,8 +2851,8 @@ KDE Plasma Workspace.
 * /usr/share/locale/hi/LC_MESSAGES/plasma_applet_org.kde.plasma.manageinputmethod.mo
 * /usr/share/locale/hi/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/hi/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/hi/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
 * /usr/share/locale/hi/LC_MESSAGES/plasma_applet_org.kde.plasma.systemmonitor.mo
+* /usr/share/locale/hi/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/hi/LC_MESSAGES/plasma_containmentactions_applauncher.mo
 * /usr/share/locale/hi/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/hi/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
@@ -2800,6 +2881,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/hne/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/hne/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/hne/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/hne/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/hne/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/hne/LC_MESSAGES/kcm_fonts.mo
 * /usr/share/locale/hne/LC_MESSAGES/kcm_icons.mo
@@ -2821,6 +2903,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/hr/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/hr/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/hr/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/hr/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/hr/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/hr/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/hr/LC_MESSAGES/kcm_fonts.mo
@@ -2858,6 +2941,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/hsb/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/hsb/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/hsb/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/hsb/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/hsb/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/hsb/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/hsb/LC_MESSAGES/kcm_fonts.mo
@@ -2891,6 +2975,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/hu/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/hu/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/hu/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/hu/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/hu/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/hu/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/hu/LC_MESSAGES/kcm_feedback.mo
@@ -2935,8 +3020,8 @@ KDE Plasma Workspace.
 * /usr/share/locale/hu/LC_MESSAGES/plasma_applet_org.kde.plasma.manageinputmethod.mo
 * /usr/share/locale/hu/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/hu/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/hu/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
 * /usr/share/locale/hu/LC_MESSAGES/plasma_applet_org.kde.plasma.systemmonitor.mo
+* /usr/share/locale/hu/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/hu/LC_MESSAGES/plasma_containmentactions_applauncher.mo
 * /usr/share/locale/hu/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/hu/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
@@ -2971,6 +3056,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/ia/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/ia/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/ia/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/ia/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/ia/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/ia/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/ia/LC_MESSAGES/kcm_feedback.mo
@@ -3015,8 +3101,8 @@ KDE Plasma Workspace.
 * /usr/share/locale/ia/LC_MESSAGES/plasma_applet_org.kde.plasma.manageinputmethod.mo
 * /usr/share/locale/ia/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/ia/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/ia/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
 * /usr/share/locale/ia/LC_MESSAGES/plasma_applet_org.kde.plasma.systemmonitor.mo
+* /usr/share/locale/ia/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/ia/LC_MESSAGES/plasma_containmentactions_applauncher.mo
 * /usr/share/locale/ia/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/ia/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
@@ -3046,6 +3132,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/id/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/id/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/id/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/id/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/id/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/id/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/id/LC_MESSAGES/kcm_feedback.mo
@@ -3090,8 +3177,8 @@ KDE Plasma Workspace.
 * /usr/share/locale/id/LC_MESSAGES/plasma_applet_org.kde.plasma.manageinputmethod.mo
 * /usr/share/locale/id/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/id/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/id/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
 * /usr/share/locale/id/LC_MESSAGES/plasma_applet_org.kde.plasma.systemmonitor.mo
+* /usr/share/locale/id/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/id/LC_MESSAGES/plasma_containmentactions_applauncher.mo
 * /usr/share/locale/id/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/id/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
@@ -3135,6 +3222,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/is/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/is/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/is/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/is/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/is/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/is/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/is/LC_MESSAGES/kcm_feedback.mo
@@ -3176,8 +3264,8 @@ KDE Plasma Workspace.
 * /usr/share/locale/is/LC_MESSAGES/plasma_applet_org.kde.plasma.manageinputmethod.mo
 * /usr/share/locale/is/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/is/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/is/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
 * /usr/share/locale/is/LC_MESSAGES/plasma_applet_org.kde.plasma.systemmonitor.mo
+* /usr/share/locale/is/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/is/LC_MESSAGES/plasma_containmentactions_applauncher.mo
 * /usr/share/locale/is/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/is/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
@@ -3207,6 +3295,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/it/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/it/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/it/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/it/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/it/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/it/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/it/LC_MESSAGES/kcm_feedback.mo
@@ -3251,8 +3340,8 @@ KDE Plasma Workspace.
 * /usr/share/locale/it/LC_MESSAGES/plasma_applet_org.kde.plasma.manageinputmethod.mo
 * /usr/share/locale/it/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/it/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/it/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
 * /usr/share/locale/it/LC_MESSAGES/plasma_applet_org.kde.plasma.systemmonitor.mo
+* /usr/share/locale/it/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/it/LC_MESSAGES/plasma_containmentactions_applauncher.mo
 * /usr/share/locale/it/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/it/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
@@ -3282,6 +3371,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/ja/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/ja/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/ja/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/ja/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/ja/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/ja/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/ja/LC_MESSAGES/kcm_feedback.mo
@@ -3324,8 +3414,8 @@ KDE Plasma Workspace.
 * /usr/share/locale/ja/LC_MESSAGES/plasma_applet_org.kde.plasma.manageinputmethod.mo
 * /usr/share/locale/ja/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/ja/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/ja/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
 * /usr/share/locale/ja/LC_MESSAGES/plasma_applet_org.kde.plasma.systemmonitor.mo
+* /usr/share/locale/ja/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/ja/LC_MESSAGES/plasma_containmentactions_applauncher.mo
 * /usr/share/locale/ja/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/ja/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
@@ -3354,6 +3444,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/ka/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/ka/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/ka/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/ka/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/ka/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/ka/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/ka/LC_MESSAGES/kcm_feedback.mo
@@ -3398,8 +3489,8 @@ KDE Plasma Workspace.
 * /usr/share/locale/ka/LC_MESSAGES/plasma_applet_org.kde.plasma.manageinputmethod.mo
 * /usr/share/locale/ka/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/ka/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/ka/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
 * /usr/share/locale/ka/LC_MESSAGES/plasma_applet_org.kde.plasma.systemmonitor.mo
+* /usr/share/locale/ka/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/ka/LC_MESSAGES/plasma_containmentactions_applauncher.mo
 * /usr/share/locale/ka/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/ka/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
@@ -3429,6 +3520,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/kk/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/kk/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/kk/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/kk/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/kk/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/kk/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/kk/LC_MESSAGES/kcm_fonts.mo
@@ -3445,7 +3537,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/kk/LC_MESSAGES/plasma_applet_org.kde.plasma.devicenotifier.mo
 * /usr/share/locale/kk/LC_MESSAGES/plasma_applet_org.kde.plasma.lock_logout.mo
 * /usr/share/locale/kk/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/kk/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
+* /usr/share/locale/kk/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/kk/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/kk/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
 * /usr/share/locale/kk/LC_MESSAGES/plasma_engine_applicationjobs.mo
@@ -3467,6 +3559,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/km/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/km/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/km/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/km/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/km/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/km/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/km/LC_MESSAGES/kcm_fonts.mo
@@ -3504,6 +3597,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/kn/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/kn/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/kn/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/kn/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/kn/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/kn/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/kn/LC_MESSAGES/kcm_fonts.mo
@@ -3539,6 +3633,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/ko/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/ko/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/ko/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/ko/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/ko/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/ko/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/ko/LC_MESSAGES/kcm_feedback.mo
@@ -3583,8 +3678,8 @@ KDE Plasma Workspace.
 * /usr/share/locale/ko/LC_MESSAGES/plasma_applet_org.kde.plasma.manageinputmethod.mo
 * /usr/share/locale/ko/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/ko/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/ko/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
 * /usr/share/locale/ko/LC_MESSAGES/plasma_applet_org.kde.plasma.systemmonitor.mo
+* /usr/share/locale/ko/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/ko/LC_MESSAGES/plasma_containmentactions_applauncher.mo
 * /usr/share/locale/ko/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/ko/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
@@ -3613,6 +3708,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/ku/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/ku/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/ku/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/ku/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/ku/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/ku/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/ku/LC_MESSAGES/kcm_fonts.mo
@@ -3640,6 +3736,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/lt/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/lt/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/lt/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/lt/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/lt/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/lt/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/lt/LC_MESSAGES/kcm_feedback.mo
@@ -3681,8 +3778,8 @@ KDE Plasma Workspace.
 * /usr/share/locale/lt/LC_MESSAGES/plasma_applet_org.kde.plasma.manageinputmethod.mo
 * /usr/share/locale/lt/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/lt/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/lt/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
 * /usr/share/locale/lt/LC_MESSAGES/plasma_applet_org.kde.plasma.systemmonitor.mo
+* /usr/share/locale/lt/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/lt/LC_MESSAGES/plasma_containmentactions_applauncher.mo
 * /usr/share/locale/lt/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/lt/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
@@ -3711,6 +3808,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/lv/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/lv/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/lv/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/lv/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/lv/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/lv/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/lv/LC_MESSAGES/kcm_feedback.mo
@@ -3725,6 +3823,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/lv/LC_MESSAGES/kcm_users.mo
 * /usr/share/locale/lv/LC_MESSAGES/kded_devicenotifications.mo
 * /usr/share/locale/lv/LC_MESSAGES/kded_donationmessage.mo
+* /usr/share/locale/lv/LC_MESSAGES/kded_geotimezoned.mo
 * /usr/share/locale/lv/LC_MESSAGES/kfontinst.mo
 * /usr/share/locale/lv/LC_MESSAGES/kio_applications.mo
 * /usr/share/locale/lv/LC_MESSAGES/kio_desktop.mo
@@ -3754,8 +3853,8 @@ KDE Plasma Workspace.
 * /usr/share/locale/lv/LC_MESSAGES/plasma_applet_org.kde.plasma.manageinputmethod.mo
 * /usr/share/locale/lv/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/lv/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/lv/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
 * /usr/share/locale/lv/LC_MESSAGES/plasma_applet_org.kde.plasma.systemmonitor.mo
+* /usr/share/locale/lv/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/lv/LC_MESSAGES/plasma_containmentactions_applauncher.mo
 * /usr/share/locale/lv/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/lv/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
@@ -3785,6 +3884,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/mai/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/mai/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/mai/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/mai/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/mai/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/mai/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/mai/LC_MESSAGES/kcm_fonts.mo
@@ -3821,6 +3921,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/mk/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/mk/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/mk/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/mk/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/mk/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/mk/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/mk/LC_MESSAGES/kcm_fonts.mo
@@ -3847,6 +3948,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/ml/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/ml/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/ml/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/ml/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/ml/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/ml/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/ml/LC_MESSAGES/kcm_feedback.mo
@@ -3879,7 +3981,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/ml/LC_MESSAGES/plasma_applet_org.kde.plasma.lock_logout.mo
 * /usr/share/locale/ml/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/ml/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/ml/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
+* /usr/share/locale/ml/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/ml/LC_MESSAGES/plasma_containmentactions_applauncher.mo
 * /usr/share/locale/ml/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/ml/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
@@ -3907,6 +4009,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/mr/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/mr/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/mr/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/mr/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/mr/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/mr/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/mr/LC_MESSAGES/kcm_fonts.mo
@@ -3946,6 +4049,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/ms/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/ms/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/ms/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/ms/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/ms/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/ms/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/ms/LC_MESSAGES/kcm_fonts.mo
@@ -3983,6 +4087,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/nb/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/nb/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/nb/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/nb/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/nb/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/nb/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/nb/LC_MESSAGES/kcm_feedback.mo
@@ -4027,8 +4132,8 @@ KDE Plasma Workspace.
 * /usr/share/locale/nb/LC_MESSAGES/plasma_applet_org.kde.plasma.manageinputmethod.mo
 * /usr/share/locale/nb/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/nb/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/nb/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
 * /usr/share/locale/nb/LC_MESSAGES/plasma_applet_org.kde.plasma.systemmonitor.mo
+* /usr/share/locale/nb/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/nb/LC_MESSAGES/plasma_containmentactions_applauncher.mo
 * /usr/share/locale/nb/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/nb/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
@@ -4058,6 +4163,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/nds/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/nds/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/nds/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/nds/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/nds/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/nds/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/nds/LC_MESSAGES/kcm_fonts.mo
@@ -4083,7 +4189,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/nds/LC_MESSAGES/plasma_applet_org.kde.plasma.lock_logout.mo
 * /usr/share/locale/nds/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/nds/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/nds/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
+* /usr/share/locale/nds/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/nds/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/nds/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
 * /usr/share/locale/nds/LC_MESSAGES/plasma_engine_applicationjobs.mo
@@ -4107,6 +4213,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/nds/LC_MESSAGES/soliduiserver.mo
 * /usr/share/locale/ne/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/ne/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/ne/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/ne/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/ne/LC_MESSAGES/kcm_fonts.mo
 * /usr/share/locale/ne/LC_MESSAGES/kcm_icons.mo
@@ -4125,6 +4232,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/nl/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/nl/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/nl/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/nl/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/nl/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/nl/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/nl/LC_MESSAGES/kcm_feedback.mo
@@ -4169,8 +4277,8 @@ KDE Plasma Workspace.
 * /usr/share/locale/nl/LC_MESSAGES/plasma_applet_org.kde.plasma.manageinputmethod.mo
 * /usr/share/locale/nl/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/nl/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/nl/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
 * /usr/share/locale/nl/LC_MESSAGES/plasma_applet_org.kde.plasma.systemmonitor.mo
+* /usr/share/locale/nl/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/nl/LC_MESSAGES/plasma_containmentactions_applauncher.mo
 * /usr/share/locale/nl/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/nl/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
@@ -4200,6 +4308,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/nn/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/nn/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/nn/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/nn/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/nn/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/nn/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/nn/LC_MESSAGES/kcm_feedback.mo
@@ -4242,8 +4351,8 @@ KDE Plasma Workspace.
 * /usr/share/locale/nn/LC_MESSAGES/plasma_applet_org.kde.plasma.manageinputmethod.mo
 * /usr/share/locale/nn/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/nn/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/nn/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
 * /usr/share/locale/nn/LC_MESSAGES/plasma_applet_org.kde.plasma.systemmonitor.mo
+* /usr/share/locale/nn/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/nn/LC_MESSAGES/plasma_containmentactions_applauncher.mo
 * /usr/share/locale/nn/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/nn/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
@@ -4271,6 +4380,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/nn/LC_MESSAGES/soliduiserver.mo
 * /usr/share/locale/oc/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/oc/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/oc/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/oc/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/oc/LC_MESSAGES/kcm_fonts.mo
 * /usr/share/locale/oc/LC_MESSAGES/kcm_icons.mo
@@ -4288,6 +4398,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/or/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/or/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/or/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/or/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/or/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/or/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/or/LC_MESSAGES/kcm_fonts.mo
@@ -4314,6 +4425,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/pa/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/pa/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/pa/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/pa/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/pa/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/pa/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/pa/LC_MESSAGES/kcm_feedback.mo
@@ -4355,8 +4467,8 @@ KDE Plasma Workspace.
 * /usr/share/locale/pa/LC_MESSAGES/plasma_applet_org.kde.plasma.manageinputmethod.mo
 * /usr/share/locale/pa/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/pa/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/pa/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
 * /usr/share/locale/pa/LC_MESSAGES/plasma_applet_org.kde.plasma.systemmonitor.mo
+* /usr/share/locale/pa/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/pa/LC_MESSAGES/plasma_containmentactions_applauncher.mo
 * /usr/share/locale/pa/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/pa/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
@@ -4386,6 +4498,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/pl/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/pl/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/pl/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/pl/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/pl/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/pl/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/pl/LC_MESSAGES/kcm_feedback.mo
@@ -4430,8 +4543,8 @@ KDE Plasma Workspace.
 * /usr/share/locale/pl/LC_MESSAGES/plasma_applet_org.kde.plasma.manageinputmethod.mo
 * /usr/share/locale/pl/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/pl/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/pl/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
 * /usr/share/locale/pl/LC_MESSAGES/plasma_applet_org.kde.plasma.systemmonitor.mo
+* /usr/share/locale/pl/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/pl/LC_MESSAGES/plasma_containmentactions_applauncher.mo
 * /usr/share/locale/pl/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/pl/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
@@ -4461,6 +4574,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/pt/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/pt/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/pt/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/pt/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/pt/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/pt/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/pt/LC_MESSAGES/kcm_feedback.mo
@@ -4497,8 +4611,8 @@ KDE Plasma Workspace.
 * /usr/share/locale/pt/LC_MESSAGES/plasma_applet_org.kde.plasma.manageinputmethod.mo
 * /usr/share/locale/pt/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/pt/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/pt/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
 * /usr/share/locale/pt/LC_MESSAGES/plasma_applet_org.kde.plasma.systemmonitor.mo
+* /usr/share/locale/pt/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/pt/LC_MESSAGES/plasma_containmentactions_applauncher.mo
 * /usr/share/locale/pt/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/pt/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
@@ -4526,6 +4640,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/pt_BR/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/kcm_feedback.mo
@@ -4570,8 +4685,8 @@ KDE Plasma Workspace.
 * /usr/share/locale/pt_BR/LC_MESSAGES/plasma_applet_org.kde.plasma.manageinputmethod.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/plasma_applet_org.kde.plasma.systemmonitor.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/plasma_containmentactions_applauncher.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
@@ -4601,6 +4716,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/ro/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/ro/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/ro/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/ro/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/ro/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/ro/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/ro/LC_MESSAGES/kcm_feedback.mo
@@ -4642,8 +4758,8 @@ KDE Plasma Workspace.
 * /usr/share/locale/ro/LC_MESSAGES/plasma_applet_org.kde.plasma.manageinputmethod.mo
 * /usr/share/locale/ro/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/ro/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/ro/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
 * /usr/share/locale/ro/LC_MESSAGES/plasma_applet_org.kde.plasma.systemmonitor.mo
+* /usr/share/locale/ro/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/ro/LC_MESSAGES/plasma_containmentactions_applauncher.mo
 * /usr/share/locale/ro/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/ro/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
@@ -4673,6 +4789,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/ru/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/ru/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/ru/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/ru/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/ru/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/ru/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/ru/LC_MESSAGES/kcm_feedback.mo
@@ -4717,8 +4834,8 @@ KDE Plasma Workspace.
 * /usr/share/locale/ru/LC_MESSAGES/plasma_applet_org.kde.plasma.manageinputmethod.mo
 * /usr/share/locale/ru/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/ru/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/ru/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
 * /usr/share/locale/ru/LC_MESSAGES/plasma_applet_org.kde.plasma.systemmonitor.mo
+* /usr/share/locale/ru/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/ru/LC_MESSAGES/plasma_containmentactions_applauncher.mo
 * /usr/share/locale/ru/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/ru/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
@@ -4748,6 +4865,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/sa/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/sa/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/sa/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/sa/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/sa/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/sa/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/sa/LC_MESSAGES/kcm_feedback.mo
@@ -4791,8 +4909,8 @@ KDE Plasma Workspace.
 * /usr/share/locale/sa/LC_MESSAGES/plasma_applet_org.kde.plasma.manageinputmethod.mo
 * /usr/share/locale/sa/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/sa/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/sa/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
 * /usr/share/locale/sa/LC_MESSAGES/plasma_applet_org.kde.plasma.systemmonitor.mo
+* /usr/share/locale/sa/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/sa/LC_MESSAGES/plasma_containmentactions_applauncher.mo
 * /usr/share/locale/sa/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/sa/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
@@ -4820,6 +4938,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/sa/LC_MESSAGES/soliduiserver.mo
 * /usr/share/locale/se/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/se/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/se/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/se/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/se/LC_MESSAGES/kcm_fonts.mo
 * /usr/share/locale/se/LC_MESSAGES/kcm_icons.mo
@@ -4838,6 +4957,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/si/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/si/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/si/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/si/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/si/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/si/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/si/LC_MESSAGES/kcm_fonts.mo
@@ -4872,6 +4992,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/sk/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/sk/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/sk/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/sk/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/sk/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/sk/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/sk/LC_MESSAGES/kcm_feedback.mo
@@ -4915,8 +5036,8 @@ KDE Plasma Workspace.
 * /usr/share/locale/sk/LC_MESSAGES/plasma_applet_org.kde.plasma.manageinputmethod.mo
 * /usr/share/locale/sk/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/sk/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/sk/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
 * /usr/share/locale/sk/LC_MESSAGES/plasma_applet_org.kde.plasma.systemmonitor.mo
+* /usr/share/locale/sk/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/sk/LC_MESSAGES/plasma_containmentactions_applauncher.mo
 * /usr/share/locale/sk/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/sk/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
@@ -4946,6 +5067,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/sl/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/sl/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/sl/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/sl/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/sl/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/sl/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/sl/LC_MESSAGES/kcm_feedback.mo
@@ -4990,8 +5112,8 @@ KDE Plasma Workspace.
 * /usr/share/locale/sl/LC_MESSAGES/plasma_applet_org.kde.plasma.manageinputmethod.mo
 * /usr/share/locale/sl/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/sl/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/sl/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
 * /usr/share/locale/sl/LC_MESSAGES/plasma_applet_org.kde.plasma.systemmonitor.mo
+* /usr/share/locale/sl/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/sl/LC_MESSAGES/plasma_containmentactions_applauncher.mo
 * /usr/share/locale/sl/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/sl/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
@@ -5020,6 +5142,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/sq/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/sq/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/sq/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/sq/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/sq/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/sq/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/sq/LC_MESSAGES/kcm_fonts.mo
@@ -5056,6 +5179,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/sr/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/sr/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/sr/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/sr/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/sr/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/sr/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/sr/LC_MESSAGES/kcm_fonts.mo
@@ -5085,7 +5209,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/sr/LC_MESSAGES/plasma_applet_org.kde.plasma.lock_logout.mo
 * /usr/share/locale/sr/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/sr/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/sr/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
+* /usr/share/locale/sr/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/sr/LC_MESSAGES/plasma_containmentactions_applauncher.mo
 * /usr/share/locale/sr/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/sr/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
@@ -5112,6 +5236,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/sr@ijekavian/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/sr@ijekavian/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/sr@ijekavian/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/sr@ijekavian/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/sr@ijekavian/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/sr@ijekavian/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/sr@ijekavian/LC_MESSAGES/kcm_fonts.mo
@@ -5141,7 +5266,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/sr@ijekavian/LC_MESSAGES/plasma_applet_org.kde.plasma.lock_logout.mo
 * /usr/share/locale/sr@ijekavian/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/sr@ijekavian/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/sr@ijekavian/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
+* /usr/share/locale/sr@ijekavian/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/sr@ijekavian/LC_MESSAGES/plasma_containmentactions_applauncher.mo
 * /usr/share/locale/sr@ijekavian/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/sr@ijekavian/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
@@ -5168,6 +5293,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/kcm_fonts.mo
@@ -5197,7 +5323,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/plasma_applet_org.kde.plasma.lock_logout.mo
 * /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
+* /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/plasma_containmentactions_applauncher.mo
 * /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
@@ -5224,6 +5350,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/sr@latin/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/sr@latin/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/sr@latin/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/sr@latin/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/sr@latin/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/sr@latin/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/sr@latin/LC_MESSAGES/kcm_fonts.mo
@@ -5253,7 +5380,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/sr@latin/LC_MESSAGES/plasma_applet_org.kde.plasma.lock_logout.mo
 * /usr/share/locale/sr@latin/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/sr@latin/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/sr@latin/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
+* /usr/share/locale/sr@latin/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/sr@latin/LC_MESSAGES/plasma_containmentactions_applauncher.mo
 * /usr/share/locale/sr@latin/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/sr@latin/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
@@ -5280,6 +5407,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/sv/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/sv/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/sv/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/sv/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/sv/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/sv/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/sv/LC_MESSAGES/kcm_feedback.mo
@@ -5324,8 +5452,8 @@ KDE Plasma Workspace.
 * /usr/share/locale/sv/LC_MESSAGES/plasma_applet_org.kde.plasma.manageinputmethod.mo
 * /usr/share/locale/sv/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/sv/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/sv/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
 * /usr/share/locale/sv/LC_MESSAGES/plasma_applet_org.kde.plasma.systemmonitor.mo
+* /usr/share/locale/sv/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/sv/LC_MESSAGES/plasma_containmentactions_applauncher.mo
 * /usr/share/locale/sv/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/sv/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
@@ -5355,6 +5483,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/ta/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/ta/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/ta/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/ta/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/ta/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/ta/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/ta/LC_MESSAGES/kcm_feedback.mo
@@ -5396,8 +5525,8 @@ KDE Plasma Workspace.
 * /usr/share/locale/ta/LC_MESSAGES/plasma_applet_org.kde.plasma.manageinputmethod.mo
 * /usr/share/locale/ta/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/ta/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/ta/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
 * /usr/share/locale/ta/LC_MESSAGES/plasma_applet_org.kde.plasma.systemmonitor.mo
+* /usr/share/locale/ta/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/ta/LC_MESSAGES/plasma_containmentactions_applauncher.mo
 * /usr/share/locale/ta/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/ta/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
@@ -5426,6 +5555,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/te/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/te/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/te/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/te/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/te/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/te/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/te/LC_MESSAGES/kcm_fonts.mo
@@ -5452,6 +5582,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/tg/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/tg/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/tg/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/tg/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/tg/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/tg/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/tg/LC_MESSAGES/kcm_fonts.mo
@@ -5479,7 +5610,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/tg/LC_MESSAGES/plasma_applet_org.kde.plasma.icon.mo
 * /usr/share/locale/tg/LC_MESSAGES/plasma_applet_org.kde.plasma.lock_logout.mo
 * /usr/share/locale/tg/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/tg/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
+* /usr/share/locale/tg/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/tg/LC_MESSAGES/plasma_containmentactions_applauncher.mo
 * /usr/share/locale/tg/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/tg/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
@@ -5505,19 +5636,15 @@ KDE Plasma Workspace.
 * /usr/share/locale/th/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/th/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/th/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/th/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/th/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/th/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/th/LC_MESSAGES/kcm_feedback.mo
 * /usr/share/locale/th/LC_MESSAGES/kcm_fonts.mo
 * /usr/share/locale/th/LC_MESSAGES/kcm_icons.mo
-* /usr/share/locale/th/LC_MESSAGES/kcm_lookandfeel.mo
-* /usr/share/locale/th/LC_MESSAGES/kcm_nightlight.mo
-* /usr/share/locale/th/LC_MESSAGES/kcm_notifications.mo
 * /usr/share/locale/th/LC_MESSAGES/kcm_regionandlang.mo
 * /usr/share/locale/th/LC_MESSAGES/kcm_soundtheme.mo
 * /usr/share/locale/th/LC_MESSAGES/kcm_style.mo
-* /usr/share/locale/th/LC_MESSAGES/kcm_users.mo
-* /usr/share/locale/th/LC_MESSAGES/kded_devicenotifications.mo
 * /usr/share/locale/th/LC_MESSAGES/kded_donationmessage.mo
 * /usr/share/locale/th/LC_MESSAGES/kded_geotimezoned.mo
 * /usr/share/locale/th/LC_MESSAGES/kfontinst.mo
@@ -5525,43 +5652,30 @@ KDE Plasma Workspace.
 * /usr/share/locale/th/LC_MESSAGES/kio_desktop.mo
 * /usr/share/locale/th/LC_MESSAGES/klipper.mo
 * /usr/share/locale/th/LC_MESSAGES/krdb.mo
-* /usr/share/locale/th/LC_MESSAGES/krunner.mo
 * /usr/share/locale/th/LC_MESSAGES/ksmserver.mo
-* /usr/share/locale/th/LC_MESSAGES/libkicker.mo
-* /usr/share/locale/th/LC_MESSAGES/libkmpris.mo
 * /usr/share/locale/th/LC_MESSAGES/libkworkspace.mo
-* /usr/share/locale/th/LC_MESSAGES/libnotificationmanager.mo
 * /usr/share/locale/th/LC_MESSAGES/oom-notifier.mo
 * /usr/share/locale/th/LC_MESSAGES/phonon_kde_plugin.mo
 * /usr/share/locale/th/LC_MESSAGES/plasmashell.mo
-* /usr/share/locale/th/LC_MESSAGES/plasmashellprivateplugin.mo
 * /usr/share/locale/th/LC_MESSAGES/plasmawindowed.mo
 * /usr/share/locale/th/LC_MESSAGES/plasma_applet_org.kde.plasma.activitybar.mo
 * /usr/share/locale/th/LC_MESSAGES/plasma_applet_org.kde.plasma.analogclock.mo
 * /usr/share/locale/th/LC_MESSAGES/plasma_applet_org.kde.plasma.appmenu.mo
 * /usr/share/locale/th/LC_MESSAGES/plasma_applet_org.kde.plasma.calendar.mo
-* /usr/share/locale/th/LC_MESSAGES/plasma_applet_org.kde.plasma.cameraindicator.mo
 * /usr/share/locale/th/LC_MESSAGES/plasma_applet_org.kde.plasma.clipboard.mo
 * /usr/share/locale/th/LC_MESSAGES/plasma_applet_org.kde.plasma.devicenotifier.mo
-* /usr/share/locale/th/LC_MESSAGES/plasma_applet_org.kde.plasma.digitalclock.mo
 * /usr/share/locale/th/LC_MESSAGES/plasma_applet_org.kde.plasma.icon.mo
 * /usr/share/locale/th/LC_MESSAGES/plasma_applet_org.kde.plasma.lock_logout.mo
 * /usr/share/locale/th/LC_MESSAGES/plasma_applet_org.kde.plasma.manageinputmethod.mo
-* /usr/share/locale/th/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/th/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/th/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
 * /usr/share/locale/th/LC_MESSAGES/plasma_applet_org.kde.plasma.systemmonitor.mo
 * /usr/share/locale/th/LC_MESSAGES/plasma_containmentactions_applauncher.mo
 * /usr/share/locale/th/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/th/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
 * /usr/share/locale/th/LC_MESSAGES/plasma_engine_applicationjobs.mo
 * /usr/share/locale/th/LC_MESSAGES/plasma_engine_notifications.mo
-* /usr/share/locale/th/LC_MESSAGES/plasma_engine_time.mo
 * /usr/share/locale/th/LC_MESSAGES/plasma_engine_weather.mo
-* /usr/share/locale/th/LC_MESSAGES/plasma_interactiveconsole.mo
-* /usr/share/locale/th/LC_MESSAGES/plasma_lookandfeel_org.kde.lookandfeel.mo
 * /usr/share/locale/th/LC_MESSAGES/plasma_runner_appstream.mo
-* /usr/share/locale/th/LC_MESSAGES/plasma_runner_baloosearch.mo
 * /usr/share/locale/th/LC_MESSAGES/plasma_runner_bookmarksrunner.mo
 * /usr/share/locale/th/LC_MESSAGES/plasma_runner_calculatorrunner.mo
 * /usr/share/locale/th/LC_MESSAGES/plasma_runner_kill.mo
@@ -5572,7 +5686,6 @@ KDE Plasma Workspace.
 * /usr/share/locale/th/LC_MESSAGES/plasma_runner_sessions.mo
 * /usr/share/locale/th/LC_MESSAGES/plasma_runner_shell.mo
 * /usr/share/locale/th/LC_MESSAGES/plasma_runner_webshortcuts.mo
-* /usr/share/locale/th/LC_MESSAGES/plasma_wallpaper_org.kde.color.mo
 * /usr/share/locale/th/LC_MESSAGES/plasma_wallpaper_org.kde.image.mo
 * /usr/share/locale/th/LC_MESSAGES/session-shortcuts-kded.mo
 * /usr/share/locale/th/LC_MESSAGES/soliduiserver.mo
@@ -5616,8 +5729,8 @@ KDE Plasma Workspace.
 * /usr/share/locale/tok/LC_MESSAGES/plasma_applet_org.kde.plasma.manageinputmethod.mo
 * /usr/share/locale/tok/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/tok/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/tok/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
 * /usr/share/locale/tok/LC_MESSAGES/plasma_applet_org.kde.plasma.systemmonitor.mo
+* /usr/share/locale/tok/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/tok/LC_MESSAGES/plasma_containmentactions_applauncher.mo
 * /usr/share/locale/tok/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/tok/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
@@ -5645,6 +5758,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/tr/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/tr/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/tr/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/tr/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/tr/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/tr/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/tr/LC_MESSAGES/kcm_feedback.mo
@@ -5689,8 +5803,8 @@ KDE Plasma Workspace.
 * /usr/share/locale/tr/LC_MESSAGES/plasma_applet_org.kde.plasma.manageinputmethod.mo
 * /usr/share/locale/tr/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/tr/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/tr/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
 * /usr/share/locale/tr/LC_MESSAGES/plasma_applet_org.kde.plasma.systemmonitor.mo
+* /usr/share/locale/tr/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/tr/LC_MESSAGES/plasma_containmentactions_applauncher.mo
 * /usr/share/locale/tr/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/tr/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
@@ -5720,6 +5834,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/ug/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/ug/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/ug/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/ug/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/ug/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/ug/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/ug/LC_MESSAGES/kcm_fonts.mo
@@ -5758,6 +5873,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/uk/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/uk/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/uk/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/uk/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/uk/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/uk/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/uk/LC_MESSAGES/kcm_feedback.mo
@@ -5802,8 +5918,8 @@ KDE Plasma Workspace.
 * /usr/share/locale/uk/LC_MESSAGES/plasma_applet_org.kde.plasma.manageinputmethod.mo
 * /usr/share/locale/uk/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/uk/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/uk/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
 * /usr/share/locale/uk/LC_MESSAGES/plasma_applet_org.kde.plasma.systemmonitor.mo
+* /usr/share/locale/uk/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/uk/LC_MESSAGES/plasma_containmentactions_applauncher.mo
 * /usr/share/locale/uk/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/uk/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
@@ -5830,6 +5946,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/uk/LC_MESSAGES/session-shortcuts-kded.mo
 * /usr/share/locale/uk/LC_MESSAGES/soliduiserver.mo
 * /usr/share/locale/uz/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/uz/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/uz/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/uz/LC_MESSAGES/kcm_fonts.mo
 * /usr/share/locale/uz/LC_MESSAGES/kcm_icons.mo
@@ -5839,6 +5956,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/uz/LC_MESSAGES/klipper.mo
 * /usr/share/locale/uz/LC_MESSAGES/ksmserver.mo
 * /usr/share/locale/uz@cyrillic/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/uz@cyrillic/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/uz@cyrillic/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/uz@cyrillic/LC_MESSAGES/kcm_fonts.mo
 * /usr/share/locale/uz@cyrillic/LC_MESSAGES/kcm_icons.mo
@@ -5852,6 +5970,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/vi/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/vi/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/vi/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/vi/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/vi/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/vi/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/vi/LC_MESSAGES/kcm_feedback.mo
@@ -5888,8 +6007,8 @@ KDE Plasma Workspace.
 * /usr/share/locale/vi/LC_MESSAGES/plasma_applet_org.kde.plasma.manageinputmethod.mo
 * /usr/share/locale/vi/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/vi/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/vi/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
 * /usr/share/locale/vi/LC_MESSAGES/plasma_applet_org.kde.plasma.systemmonitor.mo
+* /usr/share/locale/vi/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/vi/LC_MESSAGES/plasma_containmentactions_applauncher.mo
 * /usr/share/locale/vi/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/vi/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
@@ -5917,6 +6036,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/wa/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/wa/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/wa/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/wa/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/wa/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/wa/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/wa/LC_MESSAGES/kcm_fonts.mo
@@ -5951,6 +6071,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/wa/LC_MESSAGES/plasma_wallpaper_org.kde.image.mo
 * /usr/share/locale/wa/LC_MESSAGES/soliduiserver.mo
 * /usr/share/locale/xh/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/xh/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/xh/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/xh/LC_MESSAGES/kcm_fonts.mo
 * /usr/share/locale/xh/LC_MESSAGES/kcm_icons.mo
@@ -5963,6 +6084,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/zh_CN/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/kcm_feedback.mo
@@ -6007,8 +6129,8 @@ KDE Plasma Workspace.
 * /usr/share/locale/zh_CN/LC_MESSAGES/plasma_applet_org.kde.plasma.manageinputmethod.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/plasma_applet_org.kde.plasma.systemmonitor.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/plasma_containmentactions_applauncher.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
@@ -6038,6 +6160,7 @@ KDE Plasma Workspace.
 * /usr/share/locale/zh_TW/LC_MESSAGES/kcminit.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kcm_autostart.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kcm_colors.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/kcm_componentchooser.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kcm_cursortheme.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kcm_desktoptheme.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kcm_feedback.mo
@@ -6082,8 +6205,8 @@ KDE Plasma Workspace.
 * /usr/share/locale/zh_TW/LC_MESSAGES/plasma_applet_org.kde.plasma.manageinputmethod.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/plasma_applet_org.kde.plasma.mediacontroller.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/plasma_applet_org.kde.plasma.systemmonitor.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/plasma_applet_org.kde.plasma.systemtray.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/plasma_containmentactions_applauncher.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/plasma_containmentactions_contextmenu.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/plasma_containmentactions_switchwindow.mo
@@ -6124,7 +6247,6 @@ KDE Plasma Workspace.
 * /usr/share/metainfo/org.kde.plasma.digitalclock.appdata.xml
 * /usr/share/metainfo/org.kde.plasma.lock_logout.appdata.xml
 * /usr/share/metainfo/org.kde.plasma.manage-inputmethod.appdata.xml
-* /usr/share/metainfo/org.kde.plasma.mediacontroller.appdata.xml
 * /usr/share/metainfo/org.kde.plasma.notifications.appdata.xml
 * /usr/share/metainfo/org.kde.plasma.panelspacer.appdata.xml
 * /usr/share/metainfo/org.kde.plasma.systemmonitor.appdata.xml
@@ -6198,8 +6320,6 @@ KDE Plasma Workspace.
 * /usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/logout/Logout.qml
 * /usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/logout/LogoutButton.qml
 * /usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/logout/timer.js
-* /usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/osd/Osd.qml
-* /usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/osd/OsdItem.qml
 * /usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/previews/fullscreenpreview.jpg
 * /usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/previews/lockscreen.png
 * /usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/previews/preview.png
@@ -6273,11 +6393,6 @@ KDE Plasma Workspace.
 * /usr/share/plasma/plasmoids/org.kde.plasma.lock_logout/metadata.json
 * /usr/share/plasma/plasmoids/org.kde.plasma.manage-inputmethod/contents/ui/main.qml
 * /usr/share/plasma/plasmoids/org.kde.plasma.manage-inputmethod/metadata.json
-* /usr/share/plasma/plasmoids/org.kde.plasma.mediacontroller/contents/ui/AlbumArtStackView.qml
-* /usr/share/plasma/plasmoids/org.kde.plasma.mediacontroller/contents/ui/CompactRepresentation.qml
-* /usr/share/plasma/plasmoids/org.kde.plasma.mediacontroller/contents/ui/ExpandedRepresentation.qml
-* /usr/share/plasma/plasmoids/org.kde.plasma.mediacontroller/contents/ui/main.qml
-* /usr/share/plasma/plasmoids/org.kde.plasma.mediacontroller/metadata.json
 * /usr/share/plasma/plasmoids/org.kde.plasma.notifications/contents/ui/CompactRepresentation.qml
 * /usr/share/plasma/plasmoids/org.kde.plasma.notifications/contents/ui/components/ActionContainer.qml
 * /usr/share/plasma/plasmoids/org.kde.plasma.notifications/contents/ui/components/Body.qml
@@ -6292,6 +6407,7 @@ KDE Plasma Workspace.
 * /usr/share/plasma/plasmoids/org.kde.plasma.notifications/contents/ui/components/ModelInterface.qml
 * /usr/share/plasma/plasmoids/org.kde.plasma.notifications/contents/ui/components/NotificationHeader.qml
 * /usr/share/plasma/plasmoids/org.kde.plasma.notifications/contents/ui/components/NotificationReplyField.qml
+* /usr/share/plasma/plasmoids/org.kde.plasma.notifications/contents/ui/components/SpeedChart.qml
 * /usr/share/plasma/plasmoids/org.kde.plasma.notifications/contents/ui/components/Summary.qml
 * /usr/share/plasma/plasmoids/org.kde.plasma.notifications/contents/ui/components/ThumbnailStrip.qml
 * /usr/share/plasma/plasmoids/org.kde.plasma.notifications/contents/ui/delegates/BaseDelegate.qml
@@ -6309,24 +6425,6 @@ KDE Plasma Workspace.
 * /usr/share/plasma/plasmoids/org.kde.plasma.panelspacer/contents/config/main.xml
 * /usr/share/plasma/plasmoids/org.kde.plasma.panelspacer/contents/ui/main.qml
 * /usr/share/plasma/plasmoids/org.kde.plasma.panelspacer/metadata.json
-* /usr/share/plasma/plasmoids/org.kde.plasma.private.systemtray/contents/applet/CompactApplet.qml
-* /usr/share/plasma/plasmoids/org.kde.plasma.private.systemtray/contents/config/config.qml
-* /usr/share/plasma/plasmoids/org.kde.plasma.private.systemtray/contents/config/main.xml
-* /usr/share/plasma/plasmoids/org.kde.plasma.private.systemtray/contents/ui/ConfigEntries.qml
-* /usr/share/plasma/plasmoids/org.kde.plasma.private.systemtray/contents/ui/ConfigGeneral.qml
-* /usr/share/plasma/plasmoids/org.kde.plasma.private.systemtray/contents/ui/CurrentItemHighLight.qml
-* /usr/share/plasma/plasmoids/org.kde.plasma.private.systemtray/contents/ui/ExpandedRepresentation.qml
-* /usr/share/plasma/plasmoids/org.kde.plasma.private.systemtray/contents/ui/ExpanderArrow.qml
-* /usr/share/plasma/plasmoids/org.kde.plasma.private.systemtray/contents/ui/HiddenItemsView.qml
-* /usr/share/plasma/plasmoids/org.kde.plasma.private.systemtray/contents/ui/items/AbstractItem.qml
-* /usr/share/plasma/plasmoids/org.kde.plasma.private.systemtray/contents/ui/items/ItemLoader.qml
-* /usr/share/plasma/plasmoids/org.kde.plasma.private.systemtray/contents/ui/items/PlasmoidItem.qml
-* /usr/share/plasma/plasmoids/org.kde.plasma.private.systemtray/contents/ui/items/PulseAnimation.qml
-* /usr/share/plasma/plasmoids/org.kde.plasma.private.systemtray/contents/ui/items/StatusNotifierItem.qml
-* /usr/share/plasma/plasmoids/org.kde.plasma.private.systemtray/contents/ui/main.qml
-* /usr/share/plasma/plasmoids/org.kde.plasma.private.systemtray/contents/ui/PlasmoidPopupsContainer.qml
-* /usr/share/plasma/plasmoids/org.kde.plasma.private.systemtray/contents/ui/SystemTrayState.qml
-* /usr/share/plasma/plasmoids/org.kde.plasma.private.systemtray/metadata.json
 * /usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.cpu/contents/config/faceproperties
 * /usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.cpu/metadata.json
 * /usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor.cpucore/contents/config/faceproperties
@@ -6348,7 +6446,23 @@ KDE Plasma Workspace.
 * /usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor/contents/ui/FullRepresentation.qml
 * /usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor/contents/ui/main.qml
 * /usr/share/plasma/plasmoids/org.kde.plasma.systemmonitor/metadata.json
+* /usr/share/plasma/plasmoids/org.kde.plasma.systemtray/contents/applet/CompactApplet.qml
+* /usr/share/plasma/plasmoids/org.kde.plasma.systemtray/contents/config/config.qml
+* /usr/share/plasma/plasmoids/org.kde.plasma.systemtray/contents/config/main.xml
+* /usr/share/plasma/plasmoids/org.kde.plasma.systemtray/contents/ui/ConfigEntries.qml
+* /usr/share/plasma/plasmoids/org.kde.plasma.systemtray/contents/ui/ConfigGeneral.qml
+* /usr/share/plasma/plasmoids/org.kde.plasma.systemtray/contents/ui/CurrentItemHighLight.qml
+* /usr/share/plasma/plasmoids/org.kde.plasma.systemtray/contents/ui/ExpandedRepresentation.qml
+* /usr/share/plasma/plasmoids/org.kde.plasma.systemtray/contents/ui/ExpanderArrow.qml
+* /usr/share/plasma/plasmoids/org.kde.plasma.systemtray/contents/ui/HiddenItemsView.qml
+* /usr/share/plasma/plasmoids/org.kde.plasma.systemtray/contents/ui/items/AbstractItem.qml
+* /usr/share/plasma/plasmoids/org.kde.plasma.systemtray/contents/ui/items/ItemLoader.qml
+* /usr/share/plasma/plasmoids/org.kde.plasma.systemtray/contents/ui/items/PlasmoidItem.qml
+* /usr/share/plasma/plasmoids/org.kde.plasma.systemtray/contents/ui/items/PulseAnimation.qml
+* /usr/share/plasma/plasmoids/org.kde.plasma.systemtray/contents/ui/items/StatusNotifierItem.qml
 * /usr/share/plasma/plasmoids/org.kde.plasma.systemtray/contents/ui/main.qml
+* /usr/share/plasma/plasmoids/org.kde.plasma.systemtray/contents/ui/PlasmoidPopupsContainer.qml
+* /usr/share/plasma/plasmoids/org.kde.plasma.systemtray/contents/ui/SystemTrayState.qml
 * /usr/share/plasma/plasmoids/org.kde.plasma.systemtray/metadata.json
 * /usr/share/plasma/wallpapers/org.kde.color/contents/config/main.xml
 * /usr/share/plasma/wallpapers/org.kde.color/contents/ui/config.qml
@@ -6393,6 +6507,7 @@ KDE Plasma Workspace.
 * /usr/share/qlogging-categories6/libnotificationmanager.categories
 * /usr/share/qlogging-categories6/plasma-workspace.categories
 * /usr/share/solid/actions/openWithFileManager.desktop
+* /usr/share/timezonefiles/timezones.json
 * /usr/share/xdg-desktop-portal/kde-portals.conf
 * /usr/share/xsessions
 * /usr/share/zsh/site-functions/_krunner

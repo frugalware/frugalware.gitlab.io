@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "plasma-nm 6.3.5-2"
-version = "6.3.5-2"
+title = "plasma-nm 6.4.0-1"
+version = "6.4.0-1"
 description = "Plasma applet written in QML for managing network connections."
-date = "2025-06-04T14:33:01"
+date = "2025-06-17T17:09:23"
 aliases = "/packages/218399"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1418152"
-usize = "9645336"
-sha1sum = "a23d595bab28c0932eacc02cb0348498021c75d6"
-depends = "['mobile-broadband-provider-info', 'modemmanager-qt>=6.14.0', 'networkmanager-qt>=6.14.0', 'plasma-workspace>=6.3.5', 'qca>=2.1.1-6', 'qcoro']"
+size = "1592328"
+usize = "10697371"
+sha1sum = "5634276d704aa02a0922e0f365901eabcefea8f2"
+depends = "['mobile-broadband-provider-info', 'modemmanager-qt>=6.15.0', 'networkmanager-qt>=6.15.0', 'plasma-workspace>=6.4.0', 'qca>=2.1.1-6', 'qcoro']"
 +++
 ### Description: 
 Plasma applet written in QML for managing network connections.
@@ -20,6 +20,9 @@ Plasma applet written in QML for managing network connections.
 * /usr/lib/libplasmanm_editor.so
 * /usr/lib/libplasmanm_internal.so
 * /usr/lib/qt6/plugins/kf6/kded/networkmanagement.so
+* /usr/lib/qt6/plugins/plasma/kcms/systemsettings/kcm_cellular_network.so
+* /usr/lib/qt6/plugins/plasma/kcms/systemsettings/kcm_mobile_hotspot.so
+* /usr/lib/qt6/plugins/plasma/kcms/systemsettings/kcm_mobile_wifi.so
 * /usr/lib/qt6/plugins/plasma/kcms/systemsettings_qwidgets/kcm_networkmanagement.so
 * /usr/lib/qt6/plugins/plasma/network/vpn/plasmanetworkmanagement_fortisslvpnui.so
 * /usr/lib/qt6/plugins/plasma/network/vpn/plasmanetworkmanagement_iodineui.so
@@ -35,15 +38,20 @@ Plasma applet written in QML for managing network connections.
 * /usr/lib/qt6/qml/org/kde/plasma/networkmanagement/libplasmanm_internalplugin.so
 * /usr/lib/qt6/qml/org/kde/plasma/networkmanagement/plasmanm_internal.qmltypes
 * /usr/lib/qt6/qml/org/kde/plasma/networkmanagement/qmldir
+* /usr/share/applications/kcm_cellular_network.desktop
+* /usr/share/applications/kcm_mobile_hotspot.desktop
+* /usr/share/applications/kcm_mobile_wifi.desktop
 * /usr/share/applications/kcm_networkmanagement.desktop
 * /usr/share/applications/org.kde.vpnimport.desktop
-* /usr/share/doc/plasma-nm-6.3.5/README.md
+* /usr/share/doc/plasma-nm-6.4.0/README.md
 * /usr/share/kcm_networkmanagement/qml/AddConnectionDialog.qml
 * /usr/share/kcm_networkmanagement/qml/ConfigurationDialog.qml
 * /usr/share/kcm_networkmanagement/qml/ConnectionItem.qml
-* /usr/share/kcm_networkmanagement/qml/ListItem.qml
 * /usr/share/kcm_networkmanagement/qml/main.qml
 * /usr/share/knotifications6/networkmanagement.notifyrc
+* /usr/share/locale/ar/LC_MESSAGES/kcm_cellular_network.mo
+* /usr/share/locale/ar/LC_MESSAGES/kcm_mobile_hotspot.mo
+* /usr/share/locale/ar/LC_MESSAGES/kcm_mobile_wifi.mo
 * /usr/share/locale/ar/LC_MESSAGES/plasmanetworkmanagement-kcm.mo
 * /usr/share/locale/ar/LC_MESSAGES/plasmanetworkmanagement-kded.mo
 * /usr/share/locale/ar/LC_MESSAGES/plasmanetworkmanagement-libs.mo
@@ -58,6 +66,9 @@ Plasma applet written in QML for managing network connections.
 * /usr/share/locale/ar/LC_MESSAGES/plasmanetworkmanagement_strongswanui.mo
 * /usr/share/locale/ar/LC_MESSAGES/plasmanetworkmanagement_vpncui.mo
 * /usr/share/locale/ar/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
+* /usr/share/locale/ast/LC_MESSAGES/kcm_cellular_network.mo
+* /usr/share/locale/ast/LC_MESSAGES/kcm_mobile_hotspot.mo
+* /usr/share/locale/ast/LC_MESSAGES/kcm_mobile_wifi.mo
 * /usr/share/locale/ast/LC_MESSAGES/plasmanetworkmanagement-kcm.mo
 * /usr/share/locale/ast/LC_MESSAGES/plasmanetworkmanagement-kded.mo
 * /usr/share/locale/ast/LC_MESSAGES/plasmanetworkmanagement-libs.mo
@@ -72,6 +83,9 @@ Plasma applet written in QML for managing network connections.
 * /usr/share/locale/ast/LC_MESSAGES/plasmanetworkmanagement_strongswanui.mo
 * /usr/share/locale/ast/LC_MESSAGES/plasmanetworkmanagement_vpncui.mo
 * /usr/share/locale/ast/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
+* /usr/share/locale/az/LC_MESSAGES/kcm_cellular_network.mo
+* /usr/share/locale/az/LC_MESSAGES/kcm_mobile_hotspot.mo
+* /usr/share/locale/az/LC_MESSAGES/kcm_mobile_wifi.mo
 * /usr/share/locale/az/LC_MESSAGES/plasmanetworkmanagement-kcm.mo
 * /usr/share/locale/az/LC_MESSAGES/plasmanetworkmanagement-kded.mo
 * /usr/share/locale/az/LC_MESSAGES/plasmanetworkmanagement-libs.mo
@@ -100,6 +114,9 @@ Plasma applet written in QML for managing network connections.
 * /usr/share/locale/be/LC_MESSAGES/plasmanetworkmanagement_strongswanui.mo
 * /usr/share/locale/be/LC_MESSAGES/plasmanetworkmanagement_vpncui.mo
 * /usr/share/locale/be/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
+* /usr/share/locale/bg/LC_MESSAGES/kcm_cellular_network.mo
+* /usr/share/locale/bg/LC_MESSAGES/kcm_mobile_hotspot.mo
+* /usr/share/locale/bg/LC_MESSAGES/kcm_mobile_wifi.mo
 * /usr/share/locale/bg/LC_MESSAGES/plasmanetworkmanagement-kcm.mo
 * /usr/share/locale/bg/LC_MESSAGES/plasmanetworkmanagement-kded.mo
 * /usr/share/locale/bg/LC_MESSAGES/plasmanetworkmanagement-libs.mo
@@ -123,6 +140,9 @@ Plasma applet written in QML for managing network connections.
 * /usr/share/locale/bs/LC_MESSAGES/plasmanetworkmanagement_strongswanui.mo
 * /usr/share/locale/bs/LC_MESSAGES/plasmanetworkmanagement_vpncui.mo
 * /usr/share/locale/bs/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
+* /usr/share/locale/ca/LC_MESSAGES/kcm_cellular_network.mo
+* /usr/share/locale/ca/LC_MESSAGES/kcm_mobile_hotspot.mo
+* /usr/share/locale/ca/LC_MESSAGES/kcm_mobile_wifi.mo
 * /usr/share/locale/ca/LC_MESSAGES/plasmanetworkmanagement-kcm.mo
 * /usr/share/locale/ca/LC_MESSAGES/plasmanetworkmanagement-kded.mo
 * /usr/share/locale/ca/LC_MESSAGES/plasmanetworkmanagement-libs.mo
@@ -137,6 +157,9 @@ Plasma applet written in QML for managing network connections.
 * /usr/share/locale/ca/LC_MESSAGES/plasmanetworkmanagement_strongswanui.mo
 * /usr/share/locale/ca/LC_MESSAGES/plasmanetworkmanagement_vpncui.mo
 * /usr/share/locale/ca/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/kcm_cellular_network.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/kcm_mobile_hotspot.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/kcm_mobile_wifi.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/plasmanetworkmanagement-kcm.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/plasmanetworkmanagement-kded.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/plasmanetworkmanagement-libs.mo
@@ -151,6 +174,9 @@ Plasma applet written in QML for managing network connections.
 * /usr/share/locale/ca@valencia/LC_MESSAGES/plasmanetworkmanagement_strongswanui.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/plasmanetworkmanagement_vpncui.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
+* /usr/share/locale/cs/LC_MESSAGES/kcm_cellular_network.mo
+* /usr/share/locale/cs/LC_MESSAGES/kcm_mobile_hotspot.mo
+* /usr/share/locale/cs/LC_MESSAGES/kcm_mobile_wifi.mo
 * /usr/share/locale/cs/LC_MESSAGES/plasmanetworkmanagement-kcm.mo
 * /usr/share/locale/cs/LC_MESSAGES/plasmanetworkmanagement-kded.mo
 * /usr/share/locale/cs/LC_MESSAGES/plasmanetworkmanagement-libs.mo
@@ -165,6 +191,8 @@ Plasma applet written in QML for managing network connections.
 * /usr/share/locale/cs/LC_MESSAGES/plasmanetworkmanagement_strongswanui.mo
 * /usr/share/locale/cs/LC_MESSAGES/plasmanetworkmanagement_vpncui.mo
 * /usr/share/locale/cs/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
+* /usr/share/locale/da/LC_MESSAGES/kcm_mobile_hotspot.mo
+* /usr/share/locale/da/LC_MESSAGES/kcm_mobile_wifi.mo
 * /usr/share/locale/da/LC_MESSAGES/plasmanetworkmanagement-kcm.mo
 * /usr/share/locale/da/LC_MESSAGES/plasmanetworkmanagement-kded.mo
 * /usr/share/locale/da/LC_MESSAGES/plasmanetworkmanagement-libs.mo
@@ -179,6 +207,9 @@ Plasma applet written in QML for managing network connections.
 * /usr/share/locale/da/LC_MESSAGES/plasmanetworkmanagement_strongswanui.mo
 * /usr/share/locale/da/LC_MESSAGES/plasmanetworkmanagement_vpncui.mo
 * /usr/share/locale/da/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
+* /usr/share/locale/de/LC_MESSAGES/kcm_cellular_network.mo
+* /usr/share/locale/de/LC_MESSAGES/kcm_mobile_hotspot.mo
+* /usr/share/locale/de/LC_MESSAGES/kcm_mobile_wifi.mo
 * /usr/share/locale/de/LC_MESSAGES/plasmanetworkmanagement-kcm.mo
 * /usr/share/locale/de/LC_MESSAGES/plasmanetworkmanagement-kded.mo
 * /usr/share/locale/de/LC_MESSAGES/plasmanetworkmanagement-libs.mo
@@ -206,6 +237,9 @@ Plasma applet written in QML for managing network connections.
 * /usr/share/locale/el/LC_MESSAGES/plasmanetworkmanagement_strongswanui.mo
 * /usr/share/locale/el/LC_MESSAGES/plasmanetworkmanagement_vpncui.mo
 * /usr/share/locale/el/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/kcm_cellular_network.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/kcm_mobile_hotspot.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/kcm_mobile_wifi.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/plasmanetworkmanagement-kcm.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/plasmanetworkmanagement-kded.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/plasmanetworkmanagement-libs.mo
@@ -220,6 +254,9 @@ Plasma applet written in QML for managing network connections.
 * /usr/share/locale/en_GB/LC_MESSAGES/plasmanetworkmanagement_strongswanui.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/plasmanetworkmanagement_vpncui.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
+* /usr/share/locale/eo/LC_MESSAGES/kcm_cellular_network.mo
+* /usr/share/locale/eo/LC_MESSAGES/kcm_mobile_hotspot.mo
+* /usr/share/locale/eo/LC_MESSAGES/kcm_mobile_wifi.mo
 * /usr/share/locale/eo/LC_MESSAGES/plasmanetworkmanagement-kcm.mo
 * /usr/share/locale/eo/LC_MESSAGES/plasmanetworkmanagement-kded.mo
 * /usr/share/locale/eo/LC_MESSAGES/plasmanetworkmanagement-libs.mo
@@ -234,6 +271,9 @@ Plasma applet written in QML for managing network connections.
 * /usr/share/locale/eo/LC_MESSAGES/plasmanetworkmanagement_strongswanui.mo
 * /usr/share/locale/eo/LC_MESSAGES/plasmanetworkmanagement_vpncui.mo
 * /usr/share/locale/eo/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
+* /usr/share/locale/es/LC_MESSAGES/kcm_cellular_network.mo
+* /usr/share/locale/es/LC_MESSAGES/kcm_mobile_hotspot.mo
+* /usr/share/locale/es/LC_MESSAGES/kcm_mobile_wifi.mo
 * /usr/share/locale/es/LC_MESSAGES/plasmanetworkmanagement-kcm.mo
 * /usr/share/locale/es/LC_MESSAGES/plasmanetworkmanagement-kded.mo
 * /usr/share/locale/es/LC_MESSAGES/plasmanetworkmanagement-libs.mo
@@ -248,6 +288,8 @@ Plasma applet written in QML for managing network connections.
 * /usr/share/locale/es/LC_MESSAGES/plasmanetworkmanagement_strongswanui.mo
 * /usr/share/locale/es/LC_MESSAGES/plasmanetworkmanagement_vpncui.mo
 * /usr/share/locale/es/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
+* /usr/share/locale/et/LC_MESSAGES/kcm_mobile_hotspot.mo
+* /usr/share/locale/et/LC_MESSAGES/kcm_mobile_wifi.mo
 * /usr/share/locale/et/LC_MESSAGES/plasmanetworkmanagement-kcm.mo
 * /usr/share/locale/et/LC_MESSAGES/plasmanetworkmanagement-kded.mo
 * /usr/share/locale/et/LC_MESSAGES/plasmanetworkmanagement-libs.mo
@@ -262,6 +304,9 @@ Plasma applet written in QML for managing network connections.
 * /usr/share/locale/et/LC_MESSAGES/plasmanetworkmanagement_strongswanui.mo
 * /usr/share/locale/et/LC_MESSAGES/plasmanetworkmanagement_vpncui.mo
 * /usr/share/locale/et/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
+* /usr/share/locale/eu/LC_MESSAGES/kcm_cellular_network.mo
+* /usr/share/locale/eu/LC_MESSAGES/kcm_mobile_hotspot.mo
+* /usr/share/locale/eu/LC_MESSAGES/kcm_mobile_wifi.mo
 * /usr/share/locale/eu/LC_MESSAGES/plasmanetworkmanagement-kcm.mo
 * /usr/share/locale/eu/LC_MESSAGES/plasmanetworkmanagement-kded.mo
 * /usr/share/locale/eu/LC_MESSAGES/plasmanetworkmanagement-libs.mo
@@ -277,6 +322,9 @@ Plasma applet written in QML for managing network connections.
 * /usr/share/locale/eu/LC_MESSAGES/plasmanetworkmanagement_vpncui.mo
 * /usr/share/locale/eu/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
 * /usr/share/locale/fa/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
+* /usr/share/locale/fi/LC_MESSAGES/kcm_cellular_network.mo
+* /usr/share/locale/fi/LC_MESSAGES/kcm_mobile_hotspot.mo
+* /usr/share/locale/fi/LC_MESSAGES/kcm_mobile_wifi.mo
 * /usr/share/locale/fi/LC_MESSAGES/plasmanetworkmanagement-kcm.mo
 * /usr/share/locale/fi/LC_MESSAGES/plasmanetworkmanagement-kded.mo
 * /usr/share/locale/fi/LC_MESSAGES/plasmanetworkmanagement-libs.mo
@@ -291,6 +339,9 @@ Plasma applet written in QML for managing network connections.
 * /usr/share/locale/fi/LC_MESSAGES/plasmanetworkmanagement_strongswanui.mo
 * /usr/share/locale/fi/LC_MESSAGES/plasmanetworkmanagement_vpncui.mo
 * /usr/share/locale/fi/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
+* /usr/share/locale/fr/LC_MESSAGES/kcm_cellular_network.mo
+* /usr/share/locale/fr/LC_MESSAGES/kcm_mobile_hotspot.mo
+* /usr/share/locale/fr/LC_MESSAGES/kcm_mobile_wifi.mo
 * /usr/share/locale/fr/LC_MESSAGES/plasmanetworkmanagement-kcm.mo
 * /usr/share/locale/fr/LC_MESSAGES/plasmanetworkmanagement-kded.mo
 * /usr/share/locale/fr/LC_MESSAGES/plasmanetworkmanagement-libs.mo
@@ -306,6 +357,9 @@ Plasma applet written in QML for managing network connections.
 * /usr/share/locale/fr/LC_MESSAGES/plasmanetworkmanagement_vpncui.mo
 * /usr/share/locale/fr/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
 * /usr/share/locale/ga/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
+* /usr/share/locale/gl/LC_MESSAGES/kcm_cellular_network.mo
+* /usr/share/locale/gl/LC_MESSAGES/kcm_mobile_hotspot.mo
+* /usr/share/locale/gl/LC_MESSAGES/kcm_mobile_wifi.mo
 * /usr/share/locale/gl/LC_MESSAGES/plasmanetworkmanagement-kcm.mo
 * /usr/share/locale/gl/LC_MESSAGES/plasmanetworkmanagement-kded.mo
 * /usr/share/locale/gl/LC_MESSAGES/plasmanetworkmanagement-libs.mo
@@ -320,6 +374,9 @@ Plasma applet written in QML for managing network connections.
 * /usr/share/locale/gl/LC_MESSAGES/plasmanetworkmanagement_strongswanui.mo
 * /usr/share/locale/gl/LC_MESSAGES/plasmanetworkmanagement_vpncui.mo
 * /usr/share/locale/gl/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
+* /usr/share/locale/he/LC_MESSAGES/kcm_cellular_network.mo
+* /usr/share/locale/he/LC_MESSAGES/kcm_mobile_hotspot.mo
+* /usr/share/locale/he/LC_MESSAGES/kcm_mobile_wifi.mo
 * /usr/share/locale/he/LC_MESSAGES/plasmanetworkmanagement-kcm.mo
 * /usr/share/locale/he/LC_MESSAGES/plasmanetworkmanagement-kded.mo
 * /usr/share/locale/he/LC_MESSAGES/plasmanetworkmanagement-libs.mo
@@ -334,6 +391,9 @@ Plasma applet written in QML for managing network connections.
 * /usr/share/locale/he/LC_MESSAGES/plasmanetworkmanagement_strongswanui.mo
 * /usr/share/locale/he/LC_MESSAGES/plasmanetworkmanagement_vpncui.mo
 * /usr/share/locale/he/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
+* /usr/share/locale/hi/LC_MESSAGES/kcm_cellular_network.mo
+* /usr/share/locale/hi/LC_MESSAGES/kcm_mobile_hotspot.mo
+* /usr/share/locale/hi/LC_MESSAGES/kcm_mobile_wifi.mo
 * /usr/share/locale/hi/LC_MESSAGES/plasmanetworkmanagement-kcm.mo
 * /usr/share/locale/hi/LC_MESSAGES/plasmanetworkmanagement-kded.mo
 * /usr/share/locale/hi/LC_MESSAGES/plasmanetworkmanagement-libs.mo
@@ -352,6 +412,9 @@ Plasma applet written in QML for managing network connections.
 * /usr/share/locale/hsb/LC_MESSAGES/plasmanetworkmanagement-kded.mo
 * /usr/share/locale/hsb/LC_MESSAGES/plasmanetworkmanagement-libs.mo
 * /usr/share/locale/hsb/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
+* /usr/share/locale/hu/LC_MESSAGES/kcm_cellular_network.mo
+* /usr/share/locale/hu/LC_MESSAGES/kcm_mobile_hotspot.mo
+* /usr/share/locale/hu/LC_MESSAGES/kcm_mobile_wifi.mo
 * /usr/share/locale/hu/LC_MESSAGES/plasmanetworkmanagement-kcm.mo
 * /usr/share/locale/hu/LC_MESSAGES/plasmanetworkmanagement-kded.mo
 * /usr/share/locale/hu/LC_MESSAGES/plasmanetworkmanagement-libs.mo
@@ -366,6 +429,9 @@ Plasma applet written in QML for managing network connections.
 * /usr/share/locale/hu/LC_MESSAGES/plasmanetworkmanagement_strongswanui.mo
 * /usr/share/locale/hu/LC_MESSAGES/plasmanetworkmanagement_vpncui.mo
 * /usr/share/locale/hu/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
+* /usr/share/locale/ia/LC_MESSAGES/kcm_cellular_network.mo
+* /usr/share/locale/ia/LC_MESSAGES/kcm_mobile_hotspot.mo
+* /usr/share/locale/ia/LC_MESSAGES/kcm_mobile_wifi.mo
 * /usr/share/locale/ia/LC_MESSAGES/plasmanetworkmanagement-kcm.mo
 * /usr/share/locale/ia/LC_MESSAGES/plasmanetworkmanagement-kded.mo
 * /usr/share/locale/ia/LC_MESSAGES/plasmanetworkmanagement-libs.mo
@@ -380,6 +446,9 @@ Plasma applet written in QML for managing network connections.
 * /usr/share/locale/ia/LC_MESSAGES/plasmanetworkmanagement_strongswanui.mo
 * /usr/share/locale/ia/LC_MESSAGES/plasmanetworkmanagement_vpncui.mo
 * /usr/share/locale/ia/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
+* /usr/share/locale/id/LC_MESSAGES/kcm_cellular_network.mo
+* /usr/share/locale/id/LC_MESSAGES/kcm_mobile_hotspot.mo
+* /usr/share/locale/id/LC_MESSAGES/kcm_mobile_wifi.mo
 * /usr/share/locale/id/LC_MESSAGES/plasmanetworkmanagement-kcm.mo
 * /usr/share/locale/id/LC_MESSAGES/plasmanetworkmanagement-kded.mo
 * /usr/share/locale/id/LC_MESSAGES/plasmanetworkmanagement-libs.mo
@@ -394,6 +463,8 @@ Plasma applet written in QML for managing network connections.
 * /usr/share/locale/id/LC_MESSAGES/plasmanetworkmanagement_strongswanui.mo
 * /usr/share/locale/id/LC_MESSAGES/plasmanetworkmanagement_vpncui.mo
 * /usr/share/locale/id/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
+* /usr/share/locale/is/LC_MESSAGES/kcm_mobile_hotspot.mo
+* /usr/share/locale/is/LC_MESSAGES/kcm_mobile_wifi.mo
 * /usr/share/locale/is/LC_MESSAGES/plasmanetworkmanagement-kcm.mo
 * /usr/share/locale/is/LC_MESSAGES/plasmanetworkmanagement-kded.mo
 * /usr/share/locale/is/LC_MESSAGES/plasmanetworkmanagement-libs.mo
@@ -408,6 +479,9 @@ Plasma applet written in QML for managing network connections.
 * /usr/share/locale/is/LC_MESSAGES/plasmanetworkmanagement_strongswanui.mo
 * /usr/share/locale/is/LC_MESSAGES/plasmanetworkmanagement_vpncui.mo
 * /usr/share/locale/is/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
+* /usr/share/locale/it/LC_MESSAGES/kcm_cellular_network.mo
+* /usr/share/locale/it/LC_MESSAGES/kcm_mobile_hotspot.mo
+* /usr/share/locale/it/LC_MESSAGES/kcm_mobile_wifi.mo
 * /usr/share/locale/it/LC_MESSAGES/plasmanetworkmanagement-kcm.mo
 * /usr/share/locale/it/LC_MESSAGES/plasmanetworkmanagement-kded.mo
 * /usr/share/locale/it/LC_MESSAGES/plasmanetworkmanagement-libs.mo
@@ -422,6 +496,9 @@ Plasma applet written in QML for managing network connections.
 * /usr/share/locale/it/LC_MESSAGES/plasmanetworkmanagement_strongswanui.mo
 * /usr/share/locale/it/LC_MESSAGES/plasmanetworkmanagement_vpncui.mo
 * /usr/share/locale/it/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
+* /usr/share/locale/ja/LC_MESSAGES/kcm_cellular_network.mo
+* /usr/share/locale/ja/LC_MESSAGES/kcm_mobile_hotspot.mo
+* /usr/share/locale/ja/LC_MESSAGES/kcm_mobile_wifi.mo
 * /usr/share/locale/ja/LC_MESSAGES/plasmanetworkmanagement-kcm.mo
 * /usr/share/locale/ja/LC_MESSAGES/plasmanetworkmanagement-kded.mo
 * /usr/share/locale/ja/LC_MESSAGES/plasmanetworkmanagement-libs.mo
@@ -436,6 +513,9 @@ Plasma applet written in QML for managing network connections.
 * /usr/share/locale/ja/LC_MESSAGES/plasmanetworkmanagement_strongswanui.mo
 * /usr/share/locale/ja/LC_MESSAGES/plasmanetworkmanagement_vpncui.mo
 * /usr/share/locale/ja/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
+* /usr/share/locale/ka/LC_MESSAGES/kcm_cellular_network.mo
+* /usr/share/locale/ka/LC_MESSAGES/kcm_mobile_hotspot.mo
+* /usr/share/locale/ka/LC_MESSAGES/kcm_mobile_wifi.mo
 * /usr/share/locale/ka/LC_MESSAGES/plasmanetworkmanagement-kcm.mo
 * /usr/share/locale/ka/LC_MESSAGES/plasmanetworkmanagement-kded.mo
 * /usr/share/locale/ka/LC_MESSAGES/plasmanetworkmanagement-libs.mo
@@ -451,6 +531,9 @@ Plasma applet written in QML for managing network connections.
 * /usr/share/locale/ka/LC_MESSAGES/plasmanetworkmanagement_vpncui.mo
 * /usr/share/locale/ka/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
 * /usr/share/locale/km/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
+* /usr/share/locale/ko/LC_MESSAGES/kcm_cellular_network.mo
+* /usr/share/locale/ko/LC_MESSAGES/kcm_mobile_hotspot.mo
+* /usr/share/locale/ko/LC_MESSAGES/kcm_mobile_wifi.mo
 * /usr/share/locale/ko/LC_MESSAGES/plasmanetworkmanagement-kcm.mo
 * /usr/share/locale/ko/LC_MESSAGES/plasmanetworkmanagement-kded.mo
 * /usr/share/locale/ko/LC_MESSAGES/plasmanetworkmanagement-libs.mo
@@ -465,6 +548,9 @@ Plasma applet written in QML for managing network connections.
 * /usr/share/locale/ko/LC_MESSAGES/plasmanetworkmanagement_strongswanui.mo
 * /usr/share/locale/ko/LC_MESSAGES/plasmanetworkmanagement_vpncui.mo
 * /usr/share/locale/ko/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
+* /usr/share/locale/lt/LC_MESSAGES/kcm_cellular_network.mo
+* /usr/share/locale/lt/LC_MESSAGES/kcm_mobile_hotspot.mo
+* /usr/share/locale/lt/LC_MESSAGES/kcm_mobile_wifi.mo
 * /usr/share/locale/lt/LC_MESSAGES/plasmanetworkmanagement-kcm.mo
 * /usr/share/locale/lt/LC_MESSAGES/plasmanetworkmanagement-kded.mo
 * /usr/share/locale/lt/LC_MESSAGES/plasmanetworkmanagement-libs.mo
@@ -479,6 +565,9 @@ Plasma applet written in QML for managing network connections.
 * /usr/share/locale/lt/LC_MESSAGES/plasmanetworkmanagement_strongswanui.mo
 * /usr/share/locale/lt/LC_MESSAGES/plasmanetworkmanagement_vpncui.mo
 * /usr/share/locale/lt/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
+* /usr/share/locale/lv/LC_MESSAGES/kcm_cellular_network.mo
+* /usr/share/locale/lv/LC_MESSAGES/kcm_mobile_hotspot.mo
+* /usr/share/locale/lv/LC_MESSAGES/kcm_mobile_wifi.mo
 * /usr/share/locale/lv/LC_MESSAGES/plasmanetworkmanagement-kcm.mo
 * /usr/share/locale/lv/LC_MESSAGES/plasmanetworkmanagement-kded.mo
 * /usr/share/locale/lv/LC_MESSAGES/plasmanetworkmanagement-libs.mo
@@ -494,6 +583,7 @@ Plasma applet written in QML for managing network connections.
 * /usr/share/locale/lv/LC_MESSAGES/plasmanetworkmanagement_vpncui.mo
 * /usr/share/locale/lv/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
 * /usr/share/locale/mai/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
+* /usr/share/locale/ml/LC_MESSAGES/kcm_mobile_wifi.mo
 * /usr/share/locale/ml/LC_MESSAGES/plasmanetworkmanagement-kcm.mo
 * /usr/share/locale/ml/LC_MESSAGES/plasmanetworkmanagement-kded.mo
 * /usr/share/locale/ml/LC_MESSAGES/plasmanetworkmanagement-libs.mo
@@ -531,6 +621,9 @@ Plasma applet written in QML for managing network connections.
 * /usr/share/locale/nds/LC_MESSAGES/plasmanetworkmanagement_strongswanui.mo
 * /usr/share/locale/nds/LC_MESSAGES/plasmanetworkmanagement_vpncui.mo
 * /usr/share/locale/nds/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
+* /usr/share/locale/nl/LC_MESSAGES/kcm_cellular_network.mo
+* /usr/share/locale/nl/LC_MESSAGES/kcm_mobile_hotspot.mo
+* /usr/share/locale/nl/LC_MESSAGES/kcm_mobile_wifi.mo
 * /usr/share/locale/nl/LC_MESSAGES/plasmanetworkmanagement-kcm.mo
 * /usr/share/locale/nl/LC_MESSAGES/plasmanetworkmanagement-kded.mo
 * /usr/share/locale/nl/LC_MESSAGES/plasmanetworkmanagement-libs.mo
@@ -545,6 +638,9 @@ Plasma applet written in QML for managing network connections.
 * /usr/share/locale/nl/LC_MESSAGES/plasmanetworkmanagement_strongswanui.mo
 * /usr/share/locale/nl/LC_MESSAGES/plasmanetworkmanagement_vpncui.mo
 * /usr/share/locale/nl/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
+* /usr/share/locale/nn/LC_MESSAGES/kcm_cellular_network.mo
+* /usr/share/locale/nn/LC_MESSAGES/kcm_mobile_hotspot.mo
+* /usr/share/locale/nn/LC_MESSAGES/kcm_mobile_wifi.mo
 * /usr/share/locale/nn/LC_MESSAGES/plasmanetworkmanagement-kcm.mo
 * /usr/share/locale/nn/LC_MESSAGES/plasmanetworkmanagement-kded.mo
 * /usr/share/locale/nn/LC_MESSAGES/plasmanetworkmanagement-libs.mo
@@ -559,6 +655,9 @@ Plasma applet written in QML for managing network connections.
 * /usr/share/locale/nn/LC_MESSAGES/plasmanetworkmanagement_strongswanui.mo
 * /usr/share/locale/nn/LC_MESSAGES/plasmanetworkmanagement_vpncui.mo
 * /usr/share/locale/nn/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
+* /usr/share/locale/pa/LC_MESSAGES/kcm_cellular_network.mo
+* /usr/share/locale/pa/LC_MESSAGES/kcm_mobile_hotspot.mo
+* /usr/share/locale/pa/LC_MESSAGES/kcm_mobile_wifi.mo
 * /usr/share/locale/pa/LC_MESSAGES/plasmanetworkmanagement-kded.mo
 * /usr/share/locale/pa/LC_MESSAGES/plasmanetworkmanagement-libs.mo
 * /usr/share/locale/pa/LC_MESSAGES/plasmanetworkmanagement_iodineui.mo
@@ -570,6 +669,9 @@ Plasma applet written in QML for managing network connections.
 * /usr/share/locale/pa/LC_MESSAGES/plasmanetworkmanagement_strongswanui.mo
 * /usr/share/locale/pa/LC_MESSAGES/plasmanetworkmanagement_vpncui.mo
 * /usr/share/locale/pa/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
+* /usr/share/locale/pl/LC_MESSAGES/kcm_cellular_network.mo
+* /usr/share/locale/pl/LC_MESSAGES/kcm_mobile_hotspot.mo
+* /usr/share/locale/pl/LC_MESSAGES/kcm_mobile_wifi.mo
 * /usr/share/locale/pl/LC_MESSAGES/plasmanetworkmanagement-kcm.mo
 * /usr/share/locale/pl/LC_MESSAGES/plasmanetworkmanagement-kded.mo
 * /usr/share/locale/pl/LC_MESSAGES/plasmanetworkmanagement-libs.mo
@@ -584,6 +686,9 @@ Plasma applet written in QML for managing network connections.
 * /usr/share/locale/pl/LC_MESSAGES/plasmanetworkmanagement_strongswanui.mo
 * /usr/share/locale/pl/LC_MESSAGES/plasmanetworkmanagement_vpncui.mo
 * /usr/share/locale/pl/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
+* /usr/share/locale/pt/LC_MESSAGES/kcm_cellular_network.mo
+* /usr/share/locale/pt/LC_MESSAGES/kcm_mobile_hotspot.mo
+* /usr/share/locale/pt/LC_MESSAGES/kcm_mobile_wifi.mo
 * /usr/share/locale/pt/LC_MESSAGES/plasmanetworkmanagement-kcm.mo
 * /usr/share/locale/pt/LC_MESSAGES/plasmanetworkmanagement-kded.mo
 * /usr/share/locale/pt/LC_MESSAGES/plasmanetworkmanagement-libs.mo
@@ -598,6 +703,9 @@ Plasma applet written in QML for managing network connections.
 * /usr/share/locale/pt/LC_MESSAGES/plasmanetworkmanagement_strongswanui.mo
 * /usr/share/locale/pt/LC_MESSAGES/plasmanetworkmanagement_vpncui.mo
 * /usr/share/locale/pt/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/kcm_cellular_network.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/kcm_mobile_hotspot.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/kcm_mobile_wifi.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/plasmanetworkmanagement-kcm.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/plasmanetworkmanagement-kded.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/plasmanetworkmanagement-libs.mo
@@ -612,6 +720,8 @@ Plasma applet written in QML for managing network connections.
 * /usr/share/locale/pt_BR/LC_MESSAGES/plasmanetworkmanagement_strongswanui.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/plasmanetworkmanagement_vpncui.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
+* /usr/share/locale/ro/LC_MESSAGES/kcm_mobile_hotspot.mo
+* /usr/share/locale/ro/LC_MESSAGES/kcm_mobile_wifi.mo
 * /usr/share/locale/ro/LC_MESSAGES/plasmanetworkmanagement-kcm.mo
 * /usr/share/locale/ro/LC_MESSAGES/plasmanetworkmanagement-kded.mo
 * /usr/share/locale/ro/LC_MESSAGES/plasmanetworkmanagement-libs.mo
@@ -626,6 +736,9 @@ Plasma applet written in QML for managing network connections.
 * /usr/share/locale/ro/LC_MESSAGES/plasmanetworkmanagement_strongswanui.mo
 * /usr/share/locale/ro/LC_MESSAGES/plasmanetworkmanagement_vpncui.mo
 * /usr/share/locale/ro/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
+* /usr/share/locale/ru/LC_MESSAGES/kcm_cellular_network.mo
+* /usr/share/locale/ru/LC_MESSAGES/kcm_mobile_hotspot.mo
+* /usr/share/locale/ru/LC_MESSAGES/kcm_mobile_wifi.mo
 * /usr/share/locale/ru/LC_MESSAGES/plasmanetworkmanagement-kcm.mo
 * /usr/share/locale/ru/LC_MESSAGES/plasmanetworkmanagement-kded.mo
 * /usr/share/locale/ru/LC_MESSAGES/plasmanetworkmanagement-libs.mo
@@ -640,6 +753,9 @@ Plasma applet written in QML for managing network connections.
 * /usr/share/locale/ru/LC_MESSAGES/plasmanetworkmanagement_strongswanui.mo
 * /usr/share/locale/ru/LC_MESSAGES/plasmanetworkmanagement_vpncui.mo
 * /usr/share/locale/ru/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
+* /usr/share/locale/sa/LC_MESSAGES/kcm_cellular_network.mo
+* /usr/share/locale/sa/LC_MESSAGES/kcm_mobile_hotspot.mo
+* /usr/share/locale/sa/LC_MESSAGES/kcm_mobile_wifi.mo
 * /usr/share/locale/sa/LC_MESSAGES/plasmanetworkmanagement-kcm.mo
 * /usr/share/locale/sa/LC_MESSAGES/plasmanetworkmanagement-kded.mo
 * /usr/share/locale/sa/LC_MESSAGES/plasmanetworkmanagement-libs.mo
@@ -654,6 +770,9 @@ Plasma applet written in QML for managing network connections.
 * /usr/share/locale/sa/LC_MESSAGES/plasmanetworkmanagement_strongswanui.mo
 * /usr/share/locale/sa/LC_MESSAGES/plasmanetworkmanagement_vpncui.mo
 * /usr/share/locale/sa/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
+* /usr/share/locale/sk/LC_MESSAGES/kcm_cellular_network.mo
+* /usr/share/locale/sk/LC_MESSAGES/kcm_mobile_hotspot.mo
+* /usr/share/locale/sk/LC_MESSAGES/kcm_mobile_wifi.mo
 * /usr/share/locale/sk/LC_MESSAGES/plasmanetworkmanagement-kcm.mo
 * /usr/share/locale/sk/LC_MESSAGES/plasmanetworkmanagement-kded.mo
 * /usr/share/locale/sk/LC_MESSAGES/plasmanetworkmanagement-libs.mo
@@ -668,6 +787,9 @@ Plasma applet written in QML for managing network connections.
 * /usr/share/locale/sk/LC_MESSAGES/plasmanetworkmanagement_strongswanui.mo
 * /usr/share/locale/sk/LC_MESSAGES/plasmanetworkmanagement_vpncui.mo
 * /usr/share/locale/sk/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
+* /usr/share/locale/sl/LC_MESSAGES/kcm_cellular_network.mo
+* /usr/share/locale/sl/LC_MESSAGES/kcm_mobile_hotspot.mo
+* /usr/share/locale/sl/LC_MESSAGES/kcm_mobile_wifi.mo
 * /usr/share/locale/sl/LC_MESSAGES/plasmanetworkmanagement-kcm.mo
 * /usr/share/locale/sl/LC_MESSAGES/plasmanetworkmanagement-kded.mo
 * /usr/share/locale/sl/LC_MESSAGES/plasmanetworkmanagement-libs.mo
@@ -738,6 +860,9 @@ Plasma applet written in QML for managing network connections.
 * /usr/share/locale/sr@latin/LC_MESSAGES/plasmanetworkmanagement_strongswanui.mo
 * /usr/share/locale/sr@latin/LC_MESSAGES/plasmanetworkmanagement_vpncui.mo
 * /usr/share/locale/sr@latin/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
+* /usr/share/locale/sv/LC_MESSAGES/kcm_cellular_network.mo
+* /usr/share/locale/sv/LC_MESSAGES/kcm_mobile_hotspot.mo
+* /usr/share/locale/sv/LC_MESSAGES/kcm_mobile_wifi.mo
 * /usr/share/locale/sv/LC_MESSAGES/plasmanetworkmanagement-kcm.mo
 * /usr/share/locale/sv/LC_MESSAGES/plasmanetworkmanagement-kded.mo
 * /usr/share/locale/sv/LC_MESSAGES/plasmanetworkmanagement-libs.mo
@@ -752,13 +877,19 @@ Plasma applet written in QML for managing network connections.
 * /usr/share/locale/sv/LC_MESSAGES/plasmanetworkmanagement_strongswanui.mo
 * /usr/share/locale/sv/LC_MESSAGES/plasmanetworkmanagement_vpncui.mo
 * /usr/share/locale/sv/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
+* /usr/share/locale/ta/LC_MESSAGES/kcm_cellular_network.mo
+* /usr/share/locale/ta/LC_MESSAGES/kcm_mobile_wifi.mo
 * /usr/share/locale/ta/LC_MESSAGES/plasmanetworkmanagement-kcm.mo
 * /usr/share/locale/ta/LC_MESSAGES/plasmanetworkmanagement-libs.mo
 * /usr/share/locale/ta/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
+* /usr/share/locale/tg/LC_MESSAGES/kcm_mobile_wifi.mo
 * /usr/share/locale/tg/LC_MESSAGES/plasmanetworkmanagement-libs.mo
 * /usr/share/locale/tg/LC_MESSAGES/plasmanetworkmanagement_fortisslvpnui.mo
 * /usr/share/locale/tg/LC_MESSAGES/plasmanetworkmanagement_iodineui.mo
 * /usr/share/locale/th/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
+* /usr/share/locale/tr/LC_MESSAGES/kcm_cellular_network.mo
+* /usr/share/locale/tr/LC_MESSAGES/kcm_mobile_hotspot.mo
+* /usr/share/locale/tr/LC_MESSAGES/kcm_mobile_wifi.mo
 * /usr/share/locale/tr/LC_MESSAGES/plasmanetworkmanagement-kcm.mo
 * /usr/share/locale/tr/LC_MESSAGES/plasmanetworkmanagement-kded.mo
 * /usr/share/locale/tr/LC_MESSAGES/plasmanetworkmanagement-libs.mo
@@ -781,6 +912,9 @@ Plasma applet written in QML for managing network connections.
 * /usr/share/locale/ug/LC_MESSAGES/plasmanetworkmanagement_pptpui.mo
 * /usr/share/locale/ug/LC_MESSAGES/plasmanetworkmanagement_vpncui.mo
 * /usr/share/locale/ug/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
+* /usr/share/locale/uk/LC_MESSAGES/kcm_cellular_network.mo
+* /usr/share/locale/uk/LC_MESSAGES/kcm_mobile_hotspot.mo
+* /usr/share/locale/uk/LC_MESSAGES/kcm_mobile_wifi.mo
 * /usr/share/locale/uk/LC_MESSAGES/plasmanetworkmanagement-kcm.mo
 * /usr/share/locale/uk/LC_MESSAGES/plasmanetworkmanagement-kded.mo
 * /usr/share/locale/uk/LC_MESSAGES/plasmanetworkmanagement-libs.mo
@@ -795,6 +929,9 @@ Plasma applet written in QML for managing network connections.
 * /usr/share/locale/uk/LC_MESSAGES/plasmanetworkmanagement_strongswanui.mo
 * /usr/share/locale/uk/LC_MESSAGES/plasmanetworkmanagement_vpncui.mo
 * /usr/share/locale/uk/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/kcm_cellular_network.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/kcm_mobile_hotspot.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/kcm_mobile_wifi.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/plasmanetworkmanagement-kcm.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/plasmanetworkmanagement-kded.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/plasmanetworkmanagement-libs.mo
@@ -809,6 +946,9 @@ Plasma applet written in QML for managing network connections.
 * /usr/share/locale/zh_CN/LC_MESSAGES/plasmanetworkmanagement_strongswanui.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/plasmanetworkmanagement_vpncui.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/kcm_cellular_network.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/kcm_mobile_hotspot.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/kcm_mobile_wifi.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/plasmanetworkmanagement-kcm.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/plasmanetworkmanagement-kded.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/plasmanetworkmanagement-libs.mo

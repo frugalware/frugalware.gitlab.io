@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "powerdevil 6.3.5-2"
-version = "6.3.5-2"
+title = "powerdevil 6.4.0-1"
+version = "6.4.0-1"
 description = "KDE power management tools."
-date = "2025-06-04T14:25:10"
+date = "2025-06-17T16:59:54"
 aliases = "/packages/221379"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1300896"
-usize = "5033163"
-sha1sum = "f79e03414404f5a36ee670b8fc84a67629858c79"
-depends = "['bluez-qt>=6.14.0', 'ddcutil', 'plasma-workspace>=6.3.5', 'power-profiles-daemon']"
+size = "1341608"
+usize = "5297668"
+sha1sum = "0d48d871e2889903a5347edde343a99633602777"
+depends = "['bluez-qt>=6.15.0', 'ddcutil', 'plasma-workspace>=6.4.0', 'power-profiles-daemon']"
 +++
 ### Description: 
 KDE power management tools.
@@ -23,9 +23,10 @@ KDE power management tools.
 * /usr/lib/kauth/kf6/kauth/discretegpuhelper
 * /usr/lib/libpowerdevilcore.so
 * /usr/lib/libpowerdevilcore.so.2
-* /usr/lib/libpowerdevilcore.so.6.3.5
+* /usr/lib/libpowerdevilcore.so.6.4.0
 * /usr/lib/powerdevil/org_kde_powerdevil
 * /usr/lib/qt6/plugins/kf6/krunner/krunner_powerdevil.so
+* /usr/lib/qt6/plugins/plasma/kcms/systemsettings/kcm_mobile_power.so
 * /usr/lib/qt6/plugins/plasma/kcms/systemsettings/kcm_powerdevilprofilesconfig.so
 * /usr/lib/qt6/plugins/powerdevil/action/powerdevil_brightnesscontrolaction.so
 * /usr/lib/qt6/plugins/powerdevil/action/powerdevil_dimdisplayaction.so
@@ -45,6 +46,7 @@ KDE power management tools.
 * /usr/lib/qt6/qml/org/kde/plasma/private/brightnesscontrolplugin/libbrightnesscontrolplugin.so
 * /usr/lib/qt6/qml/org/kde/plasma/private/brightnesscontrolplugin/qmldir
 * /usr/lib/systemd/user/plasma-powerdevil.service
+* /usr/share/applications/kcm_mobile_power.desktop
 * /usr/share/applications/kcm_powerdevilprofilesconfig.desktop
 * /usr/share/dbus-1/system-services/org.kde.powerdevil.backlighthelper.service
 * /usr/share/dbus-1/system-services/org.kde.powerdevil.chargethresholdhelper.service
@@ -91,20 +93,23 @@ KDE power management tools.
 * /usr/share/doc/HTML/uk/kcontrol/powerdevil/energy.png
 * /usr/share/doc/HTML/uk/kcontrol/powerdevil/index.cache.bz2
 * /usr/share/doc/HTML/uk/kcontrol/powerdevil/index.docbook
-* /usr/share/doc/powerdevil-6.3.5/COPYING
-* /usr/share/doc/powerdevil-6.3.5/README.md
+* /usr/share/doc/powerdevil-6.4.0/COPYING
+* /usr/share/doc/powerdevil-6.4.0/README.md
 * /usr/share/knotifications6/powerdevil.notifyrc
+* /usr/share/locale/ar/LC_MESSAGES/kcm_mobile_power.mo
 * /usr/share/locale/ar/LC_MESSAGES/kcm_powerdevilprofilesconfig.mo
 * /usr/share/locale/ar/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/ar/LC_MESSAGES/plasma_applet_org.kde.plasma.brightness.mo
 * /usr/share/locale/ar/LC_MESSAGES/plasma_runner_powerdevil.mo
 * /usr/share/locale/ar/LC_MESSAGES/powerdevil.mo
 * /usr/share/locale/as/LC_MESSAGES/powerdevil.mo
+* /usr/share/locale/ast/LC_MESSAGES/kcm_mobile_power.mo
 * /usr/share/locale/ast/LC_MESSAGES/kcm_powerdevilprofilesconfig.mo
 * /usr/share/locale/ast/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/ast/LC_MESSAGES/plasma_applet_org.kde.plasma.brightness.mo
 * /usr/share/locale/ast/LC_MESSAGES/plasma_runner_powerdevil.mo
 * /usr/share/locale/ast/LC_MESSAGES/powerdevil.mo
+* /usr/share/locale/az/LC_MESSAGES/kcm_mobile_power.mo
 * /usr/share/locale/az/LC_MESSAGES/kcm_powerdevilprofilesconfig.mo
 * /usr/share/locale/az/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/az/LC_MESSAGES/plasma_applet_org.kde.plasma.brightness.mo
@@ -117,6 +122,7 @@ KDE power management tools.
 * /usr/share/locale/be/LC_MESSAGES/powerdevil.mo
 * /usr/share/locale/be@latin/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/be@latin/LC_MESSAGES/powerdevil.mo
+* /usr/share/locale/bg/LC_MESSAGES/kcm_mobile_power.mo
 * /usr/share/locale/bg/LC_MESSAGES/kcm_powerdevilprofilesconfig.mo
 * /usr/share/locale/bg/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/bg/LC_MESSAGES/plasma_applet_org.kde.plasma.brightness.mo
@@ -129,16 +135,19 @@ KDE power management tools.
 * /usr/share/locale/bs/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/bs/LC_MESSAGES/plasma_runner_powerdevil.mo
 * /usr/share/locale/bs/LC_MESSAGES/powerdevil.mo
+* /usr/share/locale/ca/LC_MESSAGES/kcm_mobile_power.mo
 * /usr/share/locale/ca/LC_MESSAGES/kcm_powerdevilprofilesconfig.mo
 * /usr/share/locale/ca/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/ca/LC_MESSAGES/plasma_applet_org.kde.plasma.brightness.mo
 * /usr/share/locale/ca/LC_MESSAGES/plasma_runner_powerdevil.mo
 * /usr/share/locale/ca/LC_MESSAGES/powerdevil.mo
+* /usr/share/locale/ca@valencia/LC_MESSAGES/kcm_mobile_power.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/kcm_powerdevilprofilesconfig.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/plasma_applet_org.kde.plasma.brightness.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/plasma_runner_powerdevil.mo
 * /usr/share/locale/ca@valencia/LC_MESSAGES/powerdevil.mo
+* /usr/share/locale/cs/LC_MESSAGES/kcm_mobile_power.mo
 * /usr/share/locale/cs/LC_MESSAGES/kcm_powerdevilprofilesconfig.mo
 * /usr/share/locale/cs/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/cs/LC_MESSAGES/plasma_applet_org.kde.plasma.brightness.mo
@@ -151,6 +160,7 @@ KDE power management tools.
 * /usr/share/locale/da/LC_MESSAGES/plasma_applet_org.kde.plasma.brightness.mo
 * /usr/share/locale/da/LC_MESSAGES/plasma_runner_powerdevil.mo
 * /usr/share/locale/da/LC_MESSAGES/powerdevil.mo
+* /usr/share/locale/de/LC_MESSAGES/kcm_mobile_power.mo
 * /usr/share/locale/de/LC_MESSAGES/kcm_powerdevilprofilesconfig.mo
 * /usr/share/locale/de/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/de/LC_MESSAGES/plasma_applet_org.kde.plasma.brightness.mo
@@ -160,16 +170,19 @@ KDE power management tools.
 * /usr/share/locale/el/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/el/LC_MESSAGES/plasma_runner_powerdevil.mo
 * /usr/share/locale/el/LC_MESSAGES/powerdevil.mo
+* /usr/share/locale/en_GB/LC_MESSAGES/kcm_mobile_power.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/kcm_powerdevilprofilesconfig.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/plasma_applet_org.kde.plasma.brightness.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/plasma_runner_powerdevil.mo
 * /usr/share/locale/en_GB/LC_MESSAGES/powerdevil.mo
+* /usr/share/locale/eo/LC_MESSAGES/kcm_mobile_power.mo
 * /usr/share/locale/eo/LC_MESSAGES/kcm_powerdevilprofilesconfig.mo
 * /usr/share/locale/eo/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/eo/LC_MESSAGES/plasma_applet_org.kde.plasma.brightness.mo
 * /usr/share/locale/eo/LC_MESSAGES/plasma_runner_powerdevil.mo
 * /usr/share/locale/eo/LC_MESSAGES/powerdevil.mo
+* /usr/share/locale/es/LC_MESSAGES/kcm_mobile_power.mo
 * /usr/share/locale/es/LC_MESSAGES/kcm_powerdevilprofilesconfig.mo
 * /usr/share/locale/es/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/es/LC_MESSAGES/plasma_applet_org.kde.plasma.brightness.mo
@@ -179,17 +192,20 @@ KDE power management tools.
 * /usr/share/locale/et/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/et/LC_MESSAGES/plasma_runner_powerdevil.mo
 * /usr/share/locale/et/LC_MESSAGES/powerdevil.mo
+* /usr/share/locale/eu/LC_MESSAGES/kcm_mobile_power.mo
 * /usr/share/locale/eu/LC_MESSAGES/kcm_powerdevilprofilesconfig.mo
 * /usr/share/locale/eu/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/eu/LC_MESSAGES/plasma_applet_org.kde.plasma.brightness.mo
 * /usr/share/locale/eu/LC_MESSAGES/plasma_runner_powerdevil.mo
 * /usr/share/locale/eu/LC_MESSAGES/powerdevil.mo
 * /usr/share/locale/fa/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
+* /usr/share/locale/fi/LC_MESSAGES/kcm_mobile_power.mo
 * /usr/share/locale/fi/LC_MESSAGES/kcm_powerdevilprofilesconfig.mo
 * /usr/share/locale/fi/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/fi/LC_MESSAGES/plasma_applet_org.kde.plasma.brightness.mo
 * /usr/share/locale/fi/LC_MESSAGES/plasma_runner_powerdevil.mo
 * /usr/share/locale/fi/LC_MESSAGES/powerdevil.mo
+* /usr/share/locale/fr/LC_MESSAGES/kcm_mobile_power.mo
 * /usr/share/locale/fr/LC_MESSAGES/kcm_powerdevilprofilesconfig.mo
 * /usr/share/locale/fr/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/fr/LC_MESSAGES/plasma_applet_org.kde.plasma.brightness.mo
@@ -202,6 +218,7 @@ KDE power management tools.
 * /usr/share/locale/ga/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/ga/LC_MESSAGES/plasma_runner_powerdevil.mo
 * /usr/share/locale/ga/LC_MESSAGES/powerdevil.mo
+* /usr/share/locale/gl/LC_MESSAGES/kcm_mobile_power.mo
 * /usr/share/locale/gl/LC_MESSAGES/kcm_powerdevilprofilesconfig.mo
 * /usr/share/locale/gl/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/gl/LC_MESSAGES/plasma_applet_org.kde.plasma.brightness.mo
@@ -211,11 +228,13 @@ KDE power management tools.
 * /usr/share/locale/gu/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/gu/LC_MESSAGES/plasma_runner_powerdevil.mo
 * /usr/share/locale/gu/LC_MESSAGES/powerdevil.mo
+* /usr/share/locale/he/LC_MESSAGES/kcm_mobile_power.mo
 * /usr/share/locale/he/LC_MESSAGES/kcm_powerdevilprofilesconfig.mo
 * /usr/share/locale/he/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/he/LC_MESSAGES/plasma_applet_org.kde.plasma.brightness.mo
 * /usr/share/locale/he/LC_MESSAGES/plasma_runner_powerdevil.mo
 * /usr/share/locale/he/LC_MESSAGES/powerdevil.mo
+* /usr/share/locale/hi/LC_MESSAGES/kcm_mobile_power.mo
 * /usr/share/locale/hi/LC_MESSAGES/kcm_powerdevilprofilesconfig.mo
 * /usr/share/locale/hi/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/hi/LC_MESSAGES/plasma_applet_org.kde.plasma.brightness.mo
@@ -229,16 +248,19 @@ KDE power management tools.
 * /usr/share/locale/hsb/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/hsb/LC_MESSAGES/plasma_runner_powerdevil.mo
 * /usr/share/locale/hsb/LC_MESSAGES/powerdevil.mo
+* /usr/share/locale/hu/LC_MESSAGES/kcm_mobile_power.mo
 * /usr/share/locale/hu/LC_MESSAGES/kcm_powerdevilprofilesconfig.mo
 * /usr/share/locale/hu/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/hu/LC_MESSAGES/plasma_applet_org.kde.plasma.brightness.mo
 * /usr/share/locale/hu/LC_MESSAGES/plasma_runner_powerdevil.mo
 * /usr/share/locale/hu/LC_MESSAGES/powerdevil.mo
+* /usr/share/locale/ia/LC_MESSAGES/kcm_mobile_power.mo
 * /usr/share/locale/ia/LC_MESSAGES/kcm_powerdevilprofilesconfig.mo
 * /usr/share/locale/ia/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/ia/LC_MESSAGES/plasma_applet_org.kde.plasma.brightness.mo
 * /usr/share/locale/ia/LC_MESSAGES/plasma_runner_powerdevil.mo
 * /usr/share/locale/ia/LC_MESSAGES/powerdevil.mo
+* /usr/share/locale/id/LC_MESSAGES/kcm_mobile_power.mo
 * /usr/share/locale/id/LC_MESSAGES/kcm_powerdevilprofilesconfig.mo
 * /usr/share/locale/id/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/id/LC_MESSAGES/plasma_runner_powerdevil.mo
@@ -248,16 +270,19 @@ KDE power management tools.
 * /usr/share/locale/is/LC_MESSAGES/plasma_applet_org.kde.plasma.brightness.mo
 * /usr/share/locale/is/LC_MESSAGES/plasma_runner_powerdevil.mo
 * /usr/share/locale/is/LC_MESSAGES/powerdevil.mo
+* /usr/share/locale/it/LC_MESSAGES/kcm_mobile_power.mo
 * /usr/share/locale/it/LC_MESSAGES/kcm_powerdevilprofilesconfig.mo
 * /usr/share/locale/it/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/it/LC_MESSAGES/plasma_applet_org.kde.plasma.brightness.mo
 * /usr/share/locale/it/LC_MESSAGES/plasma_runner_powerdevil.mo
 * /usr/share/locale/it/LC_MESSAGES/powerdevil.mo
+* /usr/share/locale/ja/LC_MESSAGES/kcm_mobile_power.mo
 * /usr/share/locale/ja/LC_MESSAGES/kcm_powerdevilprofilesconfig.mo
 * /usr/share/locale/ja/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/ja/LC_MESSAGES/plasma_applet_org.kde.plasma.brightness.mo
 * /usr/share/locale/ja/LC_MESSAGES/plasma_runner_powerdevil.mo
 * /usr/share/locale/ja/LC_MESSAGES/powerdevil.mo
+* /usr/share/locale/ka/LC_MESSAGES/kcm_mobile_power.mo
 * /usr/share/locale/ka/LC_MESSAGES/kcm_powerdevilprofilesconfig.mo
 * /usr/share/locale/ka/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/ka/LC_MESSAGES/plasma_applet_org.kde.plasma.brightness.mo
@@ -273,6 +298,7 @@ KDE power management tools.
 * /usr/share/locale/km/LC_MESSAGES/powerdevil.mo
 * /usr/share/locale/kn/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/kn/LC_MESSAGES/plasma_runner_powerdevil.mo
+* /usr/share/locale/ko/LC_MESSAGES/kcm_mobile_power.mo
 * /usr/share/locale/ko/LC_MESSAGES/kcm_powerdevilprofilesconfig.mo
 * /usr/share/locale/ko/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/ko/LC_MESSAGES/plasma_applet_org.kde.plasma.brightness.mo
@@ -281,11 +307,13 @@ KDE power management tools.
 * /usr/share/locale/ku/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/ku/LC_MESSAGES/plasma_runner_powerdevil.mo
 * /usr/share/locale/ku/LC_MESSAGES/powerdevil.mo
+* /usr/share/locale/lt/LC_MESSAGES/kcm_mobile_power.mo
 * /usr/share/locale/lt/LC_MESSAGES/kcm_powerdevilprofilesconfig.mo
 * /usr/share/locale/lt/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/lt/LC_MESSAGES/plasma_applet_org.kde.plasma.brightness.mo
 * /usr/share/locale/lt/LC_MESSAGES/plasma_runner_powerdevil.mo
 * /usr/share/locale/lt/LC_MESSAGES/powerdevil.mo
+* /usr/share/locale/lv/LC_MESSAGES/kcm_mobile_power.mo
 * /usr/share/locale/lv/LC_MESSAGES/kcm_powerdevilprofilesconfig.mo
 * /usr/share/locale/lv/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/lv/LC_MESSAGES/plasma_applet_org.kde.plasma.brightness.mo
@@ -318,11 +346,13 @@ KDE power management tools.
 * /usr/share/locale/nds/LC_MESSAGES/plasma_runner_powerdevil.mo
 * /usr/share/locale/nds/LC_MESSAGES/powerdevil.mo
 * /usr/share/locale/ne/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
+* /usr/share/locale/nl/LC_MESSAGES/kcm_mobile_power.mo
 * /usr/share/locale/nl/LC_MESSAGES/kcm_powerdevilprofilesconfig.mo
 * /usr/share/locale/nl/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/nl/LC_MESSAGES/plasma_applet_org.kde.plasma.brightness.mo
 * /usr/share/locale/nl/LC_MESSAGES/plasma_runner_powerdevil.mo
 * /usr/share/locale/nl/LC_MESSAGES/powerdevil.mo
+* /usr/share/locale/nn/LC_MESSAGES/kcm_mobile_power.mo
 * /usr/share/locale/nn/LC_MESSAGES/kcm_powerdevilprofilesconfig.mo
 * /usr/share/locale/nn/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/nn/LC_MESSAGES/plasma_applet_org.kde.plasma.brightness.mo
@@ -332,35 +362,42 @@ KDE power management tools.
 * /usr/share/locale/or/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/or/LC_MESSAGES/plasma_runner_powerdevil.mo
 * /usr/share/locale/or/LC_MESSAGES/powerdevil.mo
+* /usr/share/locale/pa/LC_MESSAGES/kcm_mobile_power.mo
 * /usr/share/locale/pa/LC_MESSAGES/kcm_powerdevilprofilesconfig.mo
 * /usr/share/locale/pa/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/pa/LC_MESSAGES/plasma_applet_org.kde.plasma.brightness.mo
 * /usr/share/locale/pa/LC_MESSAGES/plasma_runner_powerdevil.mo
 * /usr/share/locale/pa/LC_MESSAGES/powerdevil.mo
+* /usr/share/locale/pl/LC_MESSAGES/kcm_mobile_power.mo
 * /usr/share/locale/pl/LC_MESSAGES/kcm_powerdevilprofilesconfig.mo
 * /usr/share/locale/pl/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/pl/LC_MESSAGES/plasma_applet_org.kde.plasma.brightness.mo
 * /usr/share/locale/pl/LC_MESSAGES/plasma_runner_powerdevil.mo
 * /usr/share/locale/pl/LC_MESSAGES/powerdevil.mo
+* /usr/share/locale/pt/LC_MESSAGES/kcm_mobile_power.mo
 * /usr/share/locale/pt/LC_MESSAGES/kcm_powerdevilprofilesconfig.mo
 * /usr/share/locale/pt/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/pt/LC_MESSAGES/plasma_runner_powerdevil.mo
 * /usr/share/locale/pt/LC_MESSAGES/powerdevil.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/kcm_mobile_power.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/kcm_powerdevilprofilesconfig.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/plasma_applet_org.kde.plasma.brightness.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/plasma_runner_powerdevil.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/powerdevil.mo
+* /usr/share/locale/ro/LC_MESSAGES/kcm_mobile_power.mo
 * /usr/share/locale/ro/LC_MESSAGES/kcm_powerdevilprofilesconfig.mo
 * /usr/share/locale/ro/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/ro/LC_MESSAGES/plasma_applet_org.kde.plasma.brightness.mo
 * /usr/share/locale/ro/LC_MESSAGES/plasma_runner_powerdevil.mo
 * /usr/share/locale/ro/LC_MESSAGES/powerdevil.mo
+* /usr/share/locale/ru/LC_MESSAGES/kcm_mobile_power.mo
 * /usr/share/locale/ru/LC_MESSAGES/kcm_powerdevilprofilesconfig.mo
 * /usr/share/locale/ru/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/ru/LC_MESSAGES/plasma_applet_org.kde.plasma.brightness.mo
 * /usr/share/locale/ru/LC_MESSAGES/plasma_runner_powerdevil.mo
 * /usr/share/locale/ru/LC_MESSAGES/powerdevil.mo
+* /usr/share/locale/sa/LC_MESSAGES/kcm_mobile_power.mo
 * /usr/share/locale/sa/LC_MESSAGES/kcm_powerdevilprofilesconfig.mo
 * /usr/share/locale/sa/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/sa/LC_MESSAGES/plasma_applet_org.kde.plasma.brightness.mo
@@ -370,11 +407,13 @@ KDE power management tools.
 * /usr/share/locale/si/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/si/LC_MESSAGES/plasma_runner_powerdevil.mo
 * /usr/share/locale/si/LC_MESSAGES/powerdevil.mo
+* /usr/share/locale/sk/LC_MESSAGES/kcm_mobile_power.mo
 * /usr/share/locale/sk/LC_MESSAGES/kcm_powerdevilprofilesconfig.mo
 * /usr/share/locale/sk/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/sk/LC_MESSAGES/plasma_applet_org.kde.plasma.brightness.mo
 * /usr/share/locale/sk/LC_MESSAGES/plasma_runner_powerdevil.mo
 * /usr/share/locale/sk/LC_MESSAGES/powerdevil.mo
+* /usr/share/locale/sl/LC_MESSAGES/kcm_mobile_power.mo
 * /usr/share/locale/sl/LC_MESSAGES/kcm_powerdevilprofilesconfig.mo
 * /usr/share/locale/sl/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/sl/LC_MESSAGES/plasma_applet_org.kde.plasma.brightness.mo
@@ -399,11 +438,13 @@ KDE power management tools.
 * /usr/share/locale/sr@latin/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/sr@latin/LC_MESSAGES/plasma_runner_powerdevil.mo
 * /usr/share/locale/sr@latin/LC_MESSAGES/powerdevil.mo
+* /usr/share/locale/sv/LC_MESSAGES/kcm_mobile_power.mo
 * /usr/share/locale/sv/LC_MESSAGES/kcm_powerdevilprofilesconfig.mo
 * /usr/share/locale/sv/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/sv/LC_MESSAGES/plasma_applet_org.kde.plasma.brightness.mo
 * /usr/share/locale/sv/LC_MESSAGES/plasma_runner_powerdevil.mo
 * /usr/share/locale/sv/LC_MESSAGES/powerdevil.mo
+* /usr/share/locale/ta/LC_MESSAGES/kcm_mobile_power.mo
 * /usr/share/locale/ta/LC_MESSAGES/kcm_powerdevilprofilesconfig.mo
 * /usr/share/locale/ta/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/ta/LC_MESSAGES/plasma_applet_org.kde.plasma.brightness.mo
@@ -422,6 +463,7 @@ KDE power management tools.
 * /usr/share/locale/th/LC_MESSAGES/powerdevil.mo
 * /usr/share/locale/tok/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/tok/LC_MESSAGES/plasma_runner_powerdevil.mo
+* /usr/share/locale/tr/LC_MESSAGES/kcm_mobile_power.mo
 * /usr/share/locale/tr/LC_MESSAGES/kcm_powerdevilprofilesconfig.mo
 * /usr/share/locale/tr/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/tr/LC_MESSAGES/plasma_applet_org.kde.plasma.brightness.mo
@@ -431,22 +473,26 @@ KDE power management tools.
 * /usr/share/locale/ug/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/ug/LC_MESSAGES/plasma_runner_powerdevil.mo
 * /usr/share/locale/ug/LC_MESSAGES/powerdevil.mo
+* /usr/share/locale/uk/LC_MESSAGES/kcm_mobile_power.mo
 * /usr/share/locale/uk/LC_MESSAGES/kcm_powerdevilprofilesconfig.mo
 * /usr/share/locale/uk/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/uk/LC_MESSAGES/plasma_applet_org.kde.plasma.brightness.mo
 * /usr/share/locale/uk/LC_MESSAGES/plasma_runner_powerdevil.mo
 * /usr/share/locale/uk/LC_MESSAGES/powerdevil.mo
+* /usr/share/locale/vi/LC_MESSAGES/kcm_mobile_power.mo
 * /usr/share/locale/vi/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/vi/LC_MESSAGES/plasma_runner_powerdevil.mo
 * /usr/share/locale/wa/LC_MESSAGES/kcm_powerdevilprofilesconfig.mo
 * /usr/share/locale/wa/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/wa/LC_MESSAGES/plasma_runner_powerdevil.mo
 * /usr/share/locale/wa/LC_MESSAGES/powerdevil.mo
+* /usr/share/locale/zh_CN/LC_MESSAGES/kcm_mobile_power.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/kcm_powerdevilprofilesconfig.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/plasma_applet_org.kde.plasma.brightness.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/plasma_runner_powerdevil.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/powerdevil.mo
+* /usr/share/locale/zh_TW/LC_MESSAGES/kcm_mobile_power.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/kcm_powerdevilprofilesconfig.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/plasma_applet_org.kde.plasma.battery.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/plasma_applet_org.kde.plasma.brightness.mo
