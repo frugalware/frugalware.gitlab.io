@@ -12,6 +12,7 @@ size = "2853320"
 usize = "11221809"
 sha1sum = "6e94cc96dc1dc0522cdc188ead42b64e6f484f47"
 depends = "['libcap-ng', 'openssl>=3.1.0']"
+reverse_depends = "['mininet']"
 license = "Apache"
 +++
 ### Description: 

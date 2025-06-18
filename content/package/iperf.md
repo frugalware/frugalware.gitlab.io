@@ -12,6 +12,7 @@ size = "95120"
 usize = "266397"
 sha1sum = "f86c0bbaf556b8c852cea988d654dba815d70990"
 depends = "['libstdc++>=7.3.0-7']"
+reverse_depends = "['mininet']"
 +++
 ### Description: 
 Iperf is a tool to measure maximum TCP bandwidth

@@ -12,7 +12,7 @@ size = "1106184"
 usize = "2916688"
 sha1sum = "918b075bcbdba08ff7f4a2d107b13f9a8c8401c6"
 depends = "['iptables>=1.6.1-4', 'libbpf']"
-reverse_depends = "['dhclient', 'dhcp', 'docker', 'dracut-network', 'inxi', 'iputils', 'libvirt', 'networkmanager', 'openvpn', 'pptp', 'strongswan', 'virtualbox', 'vpnc']"
+reverse_depends = "['dhclient', 'dhcp', 'docker', 'dracut-network', 'inxi', 'iputils', 'libvirt', 'mininet', 'networkmanager', 'openvpn', 'pptp', 'strongswan', 'virtualbox', 'vpnc']"
 +++
 ### Description: 
 kernel routing and traffic control utilities.

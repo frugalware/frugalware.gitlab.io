@@ -12,6 +12,7 @@ size = "370084"
 usize = "1296551"
 sha1sum = "b3a504993ce0c355b797229e40967655e54130d6"
 depends = "['libcap', 'libxcrypt', 'ncurses', 'pam']"
+reverse_depends = "['mininet']"
 +++
 ### Description: 
 A collection of common network programs

@@ -12,7 +12,7 @@ size = "69952"
 usize = "239468"
 sha1sum = "912af99586114da3ec688dc345f19d829ca4c850"
 depends = "['iproute2', 'libcap', 'libidn2', 'openssl>=3.0.7']"
-reverse_depends = "['dracut-network', 'prettyping']"
+reverse_depends = "['dracut-network', 'mininet', 'prettyping']"
 +++
 ### Description: 
 The ping program for checking to see if network hosts are alive.

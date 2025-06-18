@@ -12,7 +12,7 @@ size = "258444"
 usize = "823210"
 sha1sum = "8b60dabf2b12792fe697e6da7a7a0812c14d1e76"
 depends = "['libmnl']"
-reverse_depends = "['aircrack-ng', 'networkmanager', 'pm-utils', 'rdma-core']"
+reverse_depends = "['aircrack-ng', 'mininet', 'networkmanager', 'pm-utils', 'rdma-core']"
 +++
 ### Description: 
 A tool for setting ethernet parameters

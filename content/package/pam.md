@@ -12,7 +12,7 @@ size = "575784"
 usize = "2879327"
 sha1sum = "89e743b5d9b9a501d49164f6018e28bdb97eb042"
 depends = "['gdbm', 'glibc>=2.35', 'libaudit', 'libsystemd', 'libxcrypt']"
-reverse_depends = "['cups', 'dovecot', 'dropbear', 'enlightenment', 'greetd', 'inetutils', 'kbd', 'kwallet-pam', 'libcups', 'libpwquality', 'lighttpd', 'lxc', 'monit', 'openssh', 'openvpn', 'pam-frugalware', 'pam-python', 'pam_wrapper', 'polkit', 'saslauthd', 'screen', 'systemd-sysvinit', 'util-linux', 'virtualbox-guest-additions', 'vsftpd', 'xorg-server', 'xrdp']"
+reverse_depends = "['cups', 'dovecot', 'dropbear', 'enlightenment', 'greetd', 'inetutils', 'kbd', 'kwallet-pam', 'libcgroup', 'libcups', 'libpwquality', 'lighttpd', 'lxc', 'monit', 'openssh', 'openvpn', 'pam-frugalware', 'pam-python', 'pam_wrapper', 'polkit', 'saslauthd', 'screen', 'systemd-sysvinit', 'util-linux', 'virtualbox-guest-additions', 'vsftpd', 'xorg-server', 'xrdp']"
 +++
 ### Description: 
 Linux-PAM (Pluggable Authentication Modules)

@@ -12,7 +12,7 @@ size = "267196"
 usize = "845550"
 sha1sum = "f38f07fe4d642a041db6d8de9a766bd9c97e07b1"
 depends = "['ncurses>=6.1-2']"
-reverse_depends = "['dcron', 'scriptlet-core']"
+reverse_depends = "['dcron', 'mininet', 'scriptlet-core']"
 +++
 ### Description: 
 Miscellaneous procfs tools

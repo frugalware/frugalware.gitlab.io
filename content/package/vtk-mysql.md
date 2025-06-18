@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vtk-mysql 9.4.2-3"
-version = "9.4.2-3"
+title = "vtk-mysql 9.4.2-4"
+version = "9.4.2-4"
 description = "MySql interface and bindings for vtk"
-date = "2025-05-26T08:44:41"
+date = "2025-06-18T14:49:48"
 aliases = "/packages/219048"
 categories = ['xlib-extra']
 upstreamurl = "http://www.vtk.org"
 arch = "x86_64"
-size = "38932"
+size = "39044"
 usize = "112694"
-sha1sum = "81ef4410adcb11532df3a51bd15b518fb417bc93"
+sha1sum = "b45a0844bca30b187689d898773d8604e891e546"
 depends = "['mariadb-libs>=10.3.14', 'vtk>=9.4.2']"
 reverse_depends = "['vtk-java-mysql']"
 +++
