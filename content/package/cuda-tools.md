@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "cuda-tools 12.9.0-2"
-version = "12.9.0-2"
+title = "cuda-tools 12.9.1-1"
+version = "12.9.1-1"
 description = "NVIDIA GPU programming toolkit extra tools: nvvp, nsight"
-date = "2025-05-22T08:11:34"
+date = "2025-06-18T13:25:05"
 aliases = "/packages/220620"
 categories = ['devel-extra']
 upstreamurl = "https://developer.nvidia.com/cuda-zone"
 arch = "x86_64"
-size = "794338108"
-usize = "2390878135"
-sha1sum = "21958b9349aa837256bd58958cc7fb66f3b4b668"
+size = "794402024"
+usize = "2390930482"
+sha1sum = "27caff45e6c7401537b396e71903140d40a16442"
 depends = "['cuda', 'libjpeg6-turbo', 'libtiff5', 'openucx']"
 reverse_depends = "['opencv-cuda']"
 +++
@@ -24,20 +24,20 @@ NVIDIA GPU programming toolkit extra tools: nvvp, nsight
 * /opt/cuda/libnvvp/configuration/config.ini
 * /opt/cuda/libnvvp/configuration/org.eclipse.update/platform.xml
 * /opt/cuda/libnvvp/epl-v10.html
-* /opt/cuda/libnvvp/features/com.nvidia.cuda.ide.editor.feature_12.9.0.202503040346/feature.xml
-* /opt/cuda/libnvvp/features/com.nvidia.cuda.ide.editor.feature_12.9.0.202503040346/META-INF/MANIFEST.MF
-* /opt/cuda/libnvvp/features/com.nvidia.cuda.ide.editor.feature_12.9.0.202503040346/META-INF/maven/com.nvidia.cuda.ide/com.nvidia.cuda.ide.editor.feature/pom.properties
-* /opt/cuda/libnvvp/features/com.nvidia.cuda.ide.editor.feature_12.9.0.202503040346/META-INF/maven/com.nvidia.cuda.ide/com.nvidia.cuda.ide.editor.feature/pom.xml
-* /opt/cuda/libnvvp/features/com.nvidia.cuda.ide.remote.feature_12.9.0.202503040346/feature.properties
-* /opt/cuda/libnvvp/features/com.nvidia.cuda.ide.remote.feature_12.9.0.202503040346/feature.xml
-* /opt/cuda/libnvvp/features/com.nvidia.cuda.ide.remote.feature_12.9.0.202503040346/license.html
-* /opt/cuda/libnvvp/features/com.nvidia.cuda.ide.remote.feature_12.9.0.202503040346/META-INF/MANIFEST.MF
-* /opt/cuda/libnvvp/features/com.nvidia.cuda.ide.remote.feature_12.9.0.202503040346/META-INF/maven/com.nvidia.cuda.ide/com.nvidia.cuda.ide.remote.feature/pom.properties
-* /opt/cuda/libnvvp/features/com.nvidia.cuda.ide.remote.feature_12.9.0.202503040346/META-INF/maven/com.nvidia.cuda.ide/com.nvidia.cuda.ide.remote.feature/pom.xml
-* /opt/cuda/libnvvp/features/com.nvidia.viper.feature_12.9.0.202503040346/feature.xml
-* /opt/cuda/libnvvp/features/com.nvidia.viper.feature_12.9.0.202503040346/META-INF/MANIFEST.MF
-* /opt/cuda/libnvvp/features/com.nvidia.viper.feature_12.9.0.202503040346/META-INF/maven/com.nvidia.viper/com.nvidia.viper.feature/pom.properties
-* /opt/cuda/libnvvp/features/com.nvidia.viper.feature_12.9.0.202503040346/META-INF/maven/com.nvidia.viper/com.nvidia.viper.feature/pom.xml
+* /opt/cuda/libnvvp/features/com.nvidia.cuda.ide.editor.feature_12.9.0.202505122155/feature.xml
+* /opt/cuda/libnvvp/features/com.nvidia.cuda.ide.editor.feature_12.9.0.202505122155/META-INF/MANIFEST.MF
+* /opt/cuda/libnvvp/features/com.nvidia.cuda.ide.editor.feature_12.9.0.202505122155/META-INF/maven/com.nvidia.cuda.ide/com.nvidia.cuda.ide.editor.feature/pom.properties
+* /opt/cuda/libnvvp/features/com.nvidia.cuda.ide.editor.feature_12.9.0.202505122155/META-INF/maven/com.nvidia.cuda.ide/com.nvidia.cuda.ide.editor.feature/pom.xml
+* /opt/cuda/libnvvp/features/com.nvidia.cuda.ide.remote.feature_12.9.0.202505122155/feature.properties
+* /opt/cuda/libnvvp/features/com.nvidia.cuda.ide.remote.feature_12.9.0.202505122155/feature.xml
+* /opt/cuda/libnvvp/features/com.nvidia.cuda.ide.remote.feature_12.9.0.202505122155/license.html
+* /opt/cuda/libnvvp/features/com.nvidia.cuda.ide.remote.feature_12.9.0.202505122155/META-INF/MANIFEST.MF
+* /opt/cuda/libnvvp/features/com.nvidia.cuda.ide.remote.feature_12.9.0.202505122155/META-INF/maven/com.nvidia.cuda.ide/com.nvidia.cuda.ide.remote.feature/pom.properties
+* /opt/cuda/libnvvp/features/com.nvidia.cuda.ide.remote.feature_12.9.0.202505122155/META-INF/maven/com.nvidia.cuda.ide/com.nvidia.cuda.ide.remote.feature/pom.xml
+* /opt/cuda/libnvvp/features/com.nvidia.viper.feature_12.9.0.202505122155/feature.xml
+* /opt/cuda/libnvvp/features/com.nvidia.viper.feature_12.9.0.202505122155/META-INF/MANIFEST.MF
+* /opt/cuda/libnvvp/features/com.nvidia.viper.feature_12.9.0.202505122155/META-INF/maven/com.nvidia.viper/com.nvidia.viper.feature/pom.properties
+* /opt/cuda/libnvvp/features/com.nvidia.viper.feature_12.9.0.202505122155/META-INF/maven/com.nvidia.viper/com.nvidia.viper.feature/pom.xml
 * /opt/cuda/libnvvp/features/org.eclipse.e4.rcp_1.3.100.v20140909-1633/epl-v10.html
 * /opt/cuda/libnvvp/features/org.eclipse.e4.rcp_1.3.100.v20140909-1633/feature.properties
 * /opt/cuda/libnvvp/features/org.eclipse.e4.rcp_1.3.100.v20140909-1633/feature.xml
@@ -199,30 +199,30 @@ NVIDIA GPU programming toolkit extra tools: nvvp, nsight
 * /opt/cuda/libnvvp/nvvp
 * /opt/cuda/libnvvp/nvvp.ini
 * /opt/cuda/libnvvp/p2/org.eclipse.equinox.p2.core/cache/artifacts.xml
-* /opt/cuda/libnvvp/p2/org.eclipse.equinox.p2.core/cache/binary/com.nvidia.viper.application.product.executable.gtk.linux.x86_64_12.9.0.202503040346
+* /opt/cuda/libnvvp/p2/org.eclipse.equinox.p2.core/cache/binary/com.nvidia.viper.application.product.executable.gtk.linux.x86_64_12.9.0.202505122155
 * /opt/cuda/libnvvp/p2/org.eclipse.equinox.p2.core/cache/binary/org.eclipse.platform_root_4.4.0.v20140925-0400
 * /opt/cuda/libnvvp/p2/org.eclipse.equinox.p2.core/cache/binary/org.eclipse.rcp_root_4.4.0.v20140925-0400
 * /opt/cuda/libnvvp/p2/org.eclipse.equinox.p2.engine/.settings/org.eclipse.equinox.p2.artifact.repository.prefs
 * /opt/cuda/libnvvp/p2/org.eclipse.equinox.p2.engine/.settings/org.eclipse.equinox.p2.metadata.repository.prefs
 * /opt/cuda/libnvvp/p2/org.eclipse.equinox.p2.engine/profileRegistry/DefaultProfile.profile/.lock
-* /opt/cuda/libnvvp/p2/org.eclipse.equinox.p2.engine/profileRegistry/DefaultProfile.profile/1741059980691.profile.gz
-* /opt/cuda/libnvvp/p2/org.eclipse.equinox.p2.engine/profileRegistry/DefaultProfile.profile/1741059980707.profile.gz
-* /opt/cuda/libnvvp/p2/org.eclipse.equinox.p2.engine/profileRegistry/DefaultProfile.profile/1741059981789.profile.gz
-* /opt/cuda/libnvvp/p2/org.eclipse.equinox.p2.engine/profileRegistry/DefaultProfile.profile/1741059981983.profile.gz
+* /opt/cuda/libnvvp/p2/org.eclipse.equinox.p2.engine/profileRegistry/DefaultProfile.profile/1747086978383.profile.gz
+* /opt/cuda/libnvvp/p2/org.eclipse.equinox.p2.engine/profileRegistry/DefaultProfile.profile/1747086978415.profile.gz
+* /opt/cuda/libnvvp/p2/org.eclipse.equinox.p2.engine/profileRegistry/DefaultProfile.profile/1747086980269.profile.gz
+* /opt/cuda/libnvvp/p2/org.eclipse.equinox.p2.engine/profileRegistry/DefaultProfile.profile/1747086980553.profile.gz
 * /opt/cuda/libnvvp/plugins/com.ibm.icu_52.1.0.v201404241930.jar
 * /opt/cuda/libnvvp/plugins/com.jcraft.jsch_0.1.50.v201403120620.jar
 * /opt/cuda/libnvvp/plugins/com.lowagie.text_2.1.7.v201004222200.jar
-* /opt/cuda/libnvvp/plugins/com.nvidia.common_12.9.0.202503040346.jar
-* /opt/cuda/libnvvp/plugins/com.nvidia.cuda.ide.editor_12.9.0.202503040346.jar
-* /opt/cuda/libnvvp/plugins/com.nvidia.cuda.ide.remote.connection_12.9.0.202503040346.jar
+* /opt/cuda/libnvvp/plugins/com.nvidia.common_12.9.0.202505122155.jar
+* /opt/cuda/libnvvp/plugins/com.nvidia.cuda.ide.editor_12.9.0.202505122155.jar
+* /opt/cuda/libnvvp/plugins/com.nvidia.cuda.ide.remote.connection_12.9.0.202505122155.jar
 * /opt/cuda/libnvvp/plugins/com.nvidia.help.bpg_12.9.0.jar
 * /opt/cuda/libnvvp/plugins/com.nvidia.help.pug_12.9.0.jar
-* /opt/cuda/libnvvp/plugins/com.nvidia.pgprof.application_12.9.0.202503040346.jar
+* /opt/cuda/libnvvp/plugins/com.nvidia.pgprof.application_12.9.0.202505122155.jar
 * /opt/cuda/libnvvp/plugins/com.nvidia.pgprof.help.pug_12.9.0.jar
-* /opt/cuda/libnvvp/plugins/com.nvidia.viper.application_12.9.0.202503040346.jar
-* /opt/cuda/libnvvp/plugins/com.nvidia.viper.birt_12.9.0.202503040346.jar
-* /opt/cuda/libnvvp/plugins/com.nvidia.viper.help_12.9.0.202503040346.jar
-* /opt/cuda/libnvvp/plugins/com.nvidia.viper_12.9.0.202503040346.jar
+* /opt/cuda/libnvvp/plugins/com.nvidia.viper.application_12.9.0.202505122155.jar
+* /opt/cuda/libnvvp/plugins/com.nvidia.viper.birt_12.9.0.202505122155.jar
+* /opt/cuda/libnvvp/plugins/com.nvidia.viper.help_12.9.0.202505122155.jar
+* /opt/cuda/libnvvp/plugins/com.nvidia.viper_12.9.0.202505122155.jar
 * /opt/cuda/libnvvp/plugins/com.sun.el_2.2.0.v201303151357.jar
 * /opt/cuda/libnvvp/plugins/javax.annotation_1.2.0.v201401042248.jar
 * /opt/cuda/libnvvp/plugins/javax.el_2.2.0.v201303151357.jar
@@ -478,7 +478,7 @@ NVIDIA GPU programming toolkit extra tools: nvvp, nsight
 * /opt/cuda/libnvvp/plugins/org.eclipse.jsch.ui_1.1.500.v20131112-1442.jar
 * /opt/cuda/libnvvp/plugins/org.eclipse.ltk.core.refactoring_3.6.101.v20140817-1500.jar
 * /opt/cuda/libnvvp/plugins/org.eclipse.ltk.ui.refactoring_3.7.100.v20140324-1358.jar
-* /opt/cuda/libnvvp/plugins/org.eclipse.nebula.widgets.pshelf_1.0.0.202503040346.jar
+* /opt/cuda/libnvvp/plugins/org.eclipse.nebula.widgets.pshelf_1.0.0.202505122155.jar
 * /opt/cuda/libnvvp/plugins/org.eclipse.osgi.compatibility.state_1.0.1.v20140709-1414.jar
 * /opt/cuda/libnvvp/plugins/org.eclipse.osgi.services_3.4.0.v20140312-2051.jar
 * /opt/cuda/libnvvp/plugins/org.eclipse.osgi.util_3.3.0.v20131023-1243.jar
@@ -1162,6 +1162,7 @@ NVIDIA GPU programming toolkit extra tools: nvvp, nsight
 * /opt/cuda/nsight_compute/docs/ReleaseNotes/topics/updates-2024-4.html
 * /opt/cuda/nsight_compute/docs/ReleaseNotes/topics/updates-2025-1-1.html
 * /opt/cuda/nsight_compute/docs/ReleaseNotes/topics/updates-2025-1.html
+* /opt/cuda/nsight_compute/docs/ReleaseNotes/topics/updates-2025-2-1.html
 * /opt/cuda/nsight_compute/docs/ReleaseNotes/topics/updates-2025-2.html
 * /opt/cuda/nsight_compute/docs/search.html
 * /opt/cuda/nsight_compute/docs/searchindex.js
