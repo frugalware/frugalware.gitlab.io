@@ -12,6 +12,7 @@ size = "16456"
 usize = "40889"
 sha1sum = "91d780235389cc74d2c24412c9ef43c4f21f04d2"
 depends = "['libdrm']"
+reverse_depends = "['wlroots']"
 +++
 ### Description: 
 Lightweight KMS plane library
