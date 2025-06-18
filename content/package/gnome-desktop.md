@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gnome-desktop 44.1-2"
-version = "44.1-2"
+title = "gnome-desktop 44.3-1"
+version = "44.3-1"
 description = "The GNOME Desktop"
-date = "2024-10-15T09:21:09"
+date = "2025-06-18T20:29:04"
 aliases = "/packages/220201"
 categories = ['gnome']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "619612"
-usize = "3920704"
-sha1sum = "a9b7aa9915a030f97f4d6627174d447819fceed9"
+size = "654116"
+usize = "4042938"
+sha1sum = "b9ecb276c257b7a597ea86bb0c2c821b6bfa5145"
 depends = "['gsettings-desktop-schemas>=3.28.0', 'gtk+4', 'iso-codes>=3.70-2', 'libseccomp', 'libxkbfile>=1.0.9-3', 'xkeyboard-config>=2.18-2']"
 reverse_depends = "['gnome-desktop-doc', 'lutris', 'xdg-desktop-portal-gnome']"
 +++
@@ -59,26 +59,39 @@ The GNOME Desktop
 * /usr/lib/gnome-desktop/gnome-desktop-debug/test-xkb-info
 * /usr/lib/libgnome-bg-4.so
 * /usr/lib/libgnome-bg-4.so.2
-* /usr/lib/libgnome-bg-4.so.2.1.1
+* /usr/lib/libgnome-bg-4.so.2.1.3
 * /usr/lib/libgnome-desktop-3.so
 * /usr/lib/libgnome-desktop-3.so.20
 * /usr/lib/libgnome-desktop-3.so.20.0.0
 * /usr/lib/libgnome-desktop-4.so
 * /usr/lib/libgnome-desktop-4.so.2
-* /usr/lib/libgnome-desktop-4.so.2.1.1
+* /usr/lib/libgnome-desktop-4.so.2.1.3
 * /usr/lib/libgnome-rr-4.so
 * /usr/lib/libgnome-rr-4.so.2
-* /usr/lib/libgnome-rr-4.so.2.1.1
+* /usr/lib/libgnome-rr-4.so.2.1.3
 * /usr/lib/pkgconfig/gnome-bg-4.pc
 * /usr/lib/pkgconfig/gnome-desktop-3.0.pc
 * /usr/lib/pkgconfig/gnome-desktop-4.pc
 * /usr/lib/pkgconfig/gnome-rr-4.pc
-* /usr/share/doc/gnome-desktop-44.1/AUTHORS
-* /usr/share/doc/gnome-desktop-44.1/COPYING
-* /usr/share/doc/gnome-desktop-44.1/COPYING-DOCS
-* /usr/share/doc/gnome-desktop-44.1/COPYING.LIB
-* /usr/share/doc/gnome-desktop-44.1/NEWS
-* /usr/share/doc/gnome-desktop-44.1/README.md
+* /usr/share/doc/gnome-desktop-44.3/AUTHORS
+* /usr/share/doc/gnome-desktop-44.3/ChangeLog
+* /usr/share/doc/gnome-desktop-44.3/COPYING
+* /usr/share/doc/gnome-desktop-44.3/COPYING-DOCS
+* /usr/share/doc/gnome-desktop-44.3/COPYING.LIB
+* /usr/share/doc/gnome-desktop-44.3/LICENSE
+* /usr/share/doc/gnome-desktop-44.3/NEWS
+* /usr/share/doc/gnome-desktop-44.3/README
+* /usr/share/doc/gnome-desktop-44.3/README.0overview
+* /usr/share/doc/gnome-desktop-44.3/README.1prerequisites
+* /usr/share/doc/gnome-desktop-44.3/README.2building
+* /usr/share/doc/gnome-desktop-44.3/README.3installing
+* /usr/share/doc/gnome-desktop-44.3/README.4layout
+* /usr/share/doc/gnome-desktop-44.3/README.5configure
+* /usr/share/doc/gnome-desktop-44.3/README.6coding
+* /usr/share/doc/gnome-desktop-44.3/README.7continuous
+* /usr/share/doc/gnome-desktop-44.3/README.md
+* /usr/share/doc/gnome-desktop-44.3/README.rst
+* /usr/share/doc/gnome-desktop-44.3/README.usergroups
 * /usr/share/gir-1.0/GnomeBG-4.0.gir
 * /usr/share/gir-1.0/GnomeDesktop-3.0.gir
 * /usr/share/gir-1.0/GnomeDesktop-4.0.gir
@@ -190,6 +203,7 @@ The GNOME Desktop
 * /usr/share/locale/eu/LC_MESSAGES/gnome-desktop-3.0.mo
 * /usr/share/locale/fa/LC_MESSAGES/gnome-desktop-3.0.mo
 * /usr/share/locale/fi/LC_MESSAGES/gnome-desktop-3.0.mo
+* /usr/share/locale/fil/LC_MESSAGES/gnome-desktop-3.0.mo
 * /usr/share/locale/fr/LC_MESSAGES/gnome-desktop-3.0.mo
 * /usr/share/locale/fur/LC_MESSAGES/gnome-desktop-3.0.mo
 * /usr/share/locale/fy/LC_MESSAGES/gnome-desktop-3.0.mo
@@ -203,6 +217,7 @@ The GNOME Desktop
 * /usr/share/locale/hr/LC_MESSAGES/gnome-desktop-3.0.mo
 * /usr/share/locale/hu/LC_MESSAGES/gnome-desktop-3.0.mo
 * /usr/share/locale/hy/LC_MESSAGES/gnome-desktop-3.0.mo
+* /usr/share/locale/ia/LC_MESSAGES/gnome-desktop-3.0.mo
 * /usr/share/locale/id/LC_MESSAGES/gnome-desktop-3.0.mo
 * /usr/share/locale/ig/LC_MESSAGES/gnome-desktop-3.0.mo
 * /usr/share/locale/is/LC_MESSAGES/gnome-desktop-3.0.mo

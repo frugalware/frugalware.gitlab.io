@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-cryptography 44.0.2-1"
-version = "44.0.2-1"
+title = "python3-cryptography 45.0.4-1"
+version = "45.0.4-1"
 description = "Cryptography expose cryptographic recipes and primitives in a python module"
-date = "2025-03-26T13:50:17"
+date = "2025-06-18T20:49:59"
 aliases = "/packages/219789"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/cryptography"
 arch = "x86_64"
-size = "1095512"
-usize = "5199161"
-sha1sum = "767b8f9239c91e40f40821849bb70175ac3b53bf"
+size = "1140160"
+usize = "5409763"
+sha1sum = "504710ef7172f594aa7530a55a2727f768a7110e"
 depends = "['openssl>=3.1.0', 'python3>=3.12', 'python3-asn1crypto', 'python3-cffi', 'python3-idna', 'python3-six']"
 reverse_depends = "['lutris', 'paramiko', 'python3-adal', 'python3-oauthlib', 'python3-openssl', 'python3-secretstorage']"
 +++
@@ -18,12 +18,12 @@ reverse_depends = "['lutris', 'paramiko', 'python3-adal', 'python3-oauthlib', 'p
 Cryptography expose cryptographic recipes and primitives in a python module
 
 ### Files: 
-* /usr/lib/python3.13/site-packages/cryptography-44.0.2.dist-info/licenses/LICENSE
-* /usr/lib/python3.13/site-packages/cryptography-44.0.2.dist-info/licenses/LICENSE.APACHE
-* /usr/lib/python3.13/site-packages/cryptography-44.0.2.dist-info/licenses/LICENSE.BSD
-* /usr/lib/python3.13/site-packages/cryptography-44.0.2.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/cryptography-44.0.2.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/cryptography-44.0.2.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/cryptography-45.0.4.dist-info/licenses/LICENSE
+* /usr/lib/python3.13/site-packages/cryptography-45.0.4.dist-info/licenses/LICENSE.APACHE
+* /usr/lib/python3.13/site-packages/cryptography-45.0.4.dist-info/licenses/LICENSE.BSD
+* /usr/lib/python3.13/site-packages/cryptography-45.0.4.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/cryptography-45.0.4.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/cryptography-45.0.4.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/cryptography/exceptions.py
 * /usr/lib/python3.13/site-packages/cryptography/fernet.py
 * /usr/lib/python3.13/site-packages/cryptography/hazmat/backends/openssl/backend.py
@@ -262,12 +262,5 @@ Cryptography expose cryptographic recipes and primitives in a python module
 * /usr/lib/python3.13/site-packages/cryptography/__pycache__/__about__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/cryptography/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/cryptography/__pycache__/__init__.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/rust/Cargo.toml
-* /usr/lib/python3.13/site-packages/rust/cryptography-cffi/Cargo.toml
-* /usr/lib/python3.13/site-packages/rust/cryptography-keepalive/Cargo.toml
-* /usr/lib/python3.13/site-packages/rust/cryptography-key-parsing/Cargo.toml
-* /usr/lib/python3.13/site-packages/rust/cryptography-openssl/Cargo.toml
-* /usr/lib/python3.13/site-packages/rust/cryptography-x509-verification/Cargo.toml
-* /usr/lib/python3.13/site-packages/rust/cryptography-x509/Cargo.toml
-* /usr/share/doc/python3-cryptography-44.0.2/LICENSE
-* /usr/share/doc/python3-cryptography-44.0.2/README.rst
+* /usr/share/doc/python3-cryptography-45.0.4/LICENSE
+* /usr/share/doc/python3-cryptography-45.0.4/README.rst

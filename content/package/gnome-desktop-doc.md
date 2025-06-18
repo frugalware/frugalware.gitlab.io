@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gnome-desktop-doc 44.1-2"
-version = "44.1-2"
+title = "gnome-desktop-doc 44.3-1"
+version = "44.3-1"
 description = "gnome-desktop documention"
-date = "2024-10-15T09:21:09"
+date = "2025-06-18T20:29:04"
 aliases = "/packages/220202"
 categories = ['gnome-docs']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "10292"
+size = "10320"
 usize = "0"
-sha1sum = "fcda6a385a0ac485d064b15bcf58e599aab1743b"
-depends = "['gnome-desktop>=44.1']"
+sha1sum = "c425fcb784f331b453c84037f7729198a5ddc9a1"
+depends = "['gnome-desktop>=44.3']"
 +++
 ### Description: 
 gnome-desktop documention

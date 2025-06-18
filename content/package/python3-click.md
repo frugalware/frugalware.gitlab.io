@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-click 8.1.8-1"
-version = "8.1.8-1"
+title = "python3-click 8.2.1-1"
+version = "8.2.1-1"
 description = "Simple wrapper around optparse for powerful command line utilities"
-date = "2024-12-24T10:32:21"
+date = "2025-06-18T20:35:04"
 aliases = "/packages/220481"
 categories = ['devel-extra']
 upstreamurl = "https://click.palletsprojects.com/"
 arch = "x86_64"
-size = "197604"
-usize = "1244078"
-sha1sum = "a08af614a2018c17f131aecdd2b5a1c1a271d0d0"
+size = "197520"
+usize = "1233113"
+sha1sum = "d465ebb9a0b029cce89bf5789027e3dec40230bd"
 depends = "['python3']"
 reverse_depends = "['face_recognition', 'howdy', 'krr', 'python3-dotenv', 'python3-typer', 'python3-userpath']"
 +++
@@ -18,10 +18,10 @@ reverse_depends = "['face_recognition', 'howdy', 'krr', 'python3-dotenv', 'pytho
 Simple wrapper around optparse for powerful command line utilities
 
 ### Files: 
-* /usr/lib/python3.13/site-packages/click-8.1.8.dist-info/LICENSE.txt
-* /usr/lib/python3.13/site-packages/click-8.1.8.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/click-8.1.8.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/click-8.1.8.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/click-8.2.1.dist-info/licenses/LICENSE.txt
+* /usr/lib/python3.13/site-packages/click-8.2.1.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/click-8.2.1.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/click-8.2.1.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/click/core.py
 * /usr/lib/python3.13/site-packages/click/decorators.py
 * /usr/lib/python3.13/site-packages/click/exceptions.py
@@ -71,4 +71,4 @@ Simple wrapper around optparse for powerful command line utilities
 * /usr/lib/python3.13/site-packages/click/__pycache__/_winconsole.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/click/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/click/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/python3-click-8.1.8/README.md
+* /usr/share/doc/python3-click-8.2.1/README.md
