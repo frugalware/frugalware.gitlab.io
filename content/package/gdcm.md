@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gdcm 3.0.25-1"
-version = "3.0.25-1"
+title = "gdcm 3.0.26-1"
+version = "3.0.26-1"
 description = "C++ library for DICOM medical files"
-date = "2025-02-07T21:59:42"
+date = "2025-06-18T09:09:00"
 aliases = "/packages/220907"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/malaterre/GDCM"
 arch = "x86_64"
-size = "2598596"
-usize = "17307707"
-sha1sum = "44b33cf4f3d243e2d0646fc76b5c67792bd7c029"
+size = "2649224"
+usize = "17417628"
+sha1sum = "927bb392b35dac4c9b5524bab347d15206cef632"
 depends = "['openjpeg', 'python3>=3.13']"
 reverse_depends = "['insight-toolkit']"
 +++
@@ -432,49 +432,51 @@ C++ library for DICOM medical files
 * /usr/lib/libgdcmcharls.so.2.0
 * /usr/lib/libgdcmCommon.so
 * /usr/lib/libgdcmCommon.so.3.0
-* /usr/lib/libgdcmCommon.so.3.0.25
+* /usr/lib/libgdcmCommon.so.3.0.26
 * /usr/lib/libgdcmDICT.so
 * /usr/lib/libgdcmDICT.so.3.0
-* /usr/lib/libgdcmDICT.so.3.0.25
+* /usr/lib/libgdcmDICT.so.3.0.26
 * /usr/lib/libgdcmDSED.so
 * /usr/lib/libgdcmDSED.so.3.0
-* /usr/lib/libgdcmDSED.so.3.0.25
+* /usr/lib/libgdcmDSED.so.3.0.26
 * /usr/lib/libgdcmexpat.so
 * /usr/lib/libgdcmexpat.so.2.0
 * /usr/lib/libgdcmexpat.so.2.0.0
 * /usr/lib/libgdcmIOD.so
 * /usr/lib/libgdcmIOD.so.3.0
-* /usr/lib/libgdcmIOD.so.3.0.25
+* /usr/lib/libgdcmIOD.so.3.0.26
 * /usr/lib/libgdcmjpeg12.so
 * /usr/lib/libgdcmjpeg12.so.3.0
-* /usr/lib/libgdcmjpeg12.so.3.0.25
+* /usr/lib/libgdcmjpeg12.so.3.0.26
 * /usr/lib/libgdcmjpeg16.so
 * /usr/lib/libgdcmjpeg16.so.3.0
-* /usr/lib/libgdcmjpeg16.so.3.0.25
+* /usr/lib/libgdcmjpeg16.so.3.0.26
 * /usr/lib/libgdcmjpeg8.so
 * /usr/lib/libgdcmjpeg8.so.3.0
-* /usr/lib/libgdcmjpeg8.so.3.0.25
+* /usr/lib/libgdcmjpeg8.so.3.0.26
 * /usr/lib/libgdcmMEXD.so
 * /usr/lib/libgdcmMEXD.so.3.0
-* /usr/lib/libgdcmMEXD.so.3.0.25
+* /usr/lib/libgdcmMEXD.so.3.0.26
 * /usr/lib/libgdcmMSFF.so
 * /usr/lib/libgdcmMSFF.so.3.0
-* /usr/lib/libgdcmMSFF.so.3.0.25
+* /usr/lib/libgdcmMSFF.so.3.0.26
 * /usr/lib/libgdcmuuid.so
 * /usr/lib/libgdcmuuid.so.3.0
-* /usr/lib/libgdcmuuid.so.3.0.25
+* /usr/lib/libgdcmuuid.so.3.0.26
 * /usr/lib/libgdcmzlib.so
 * /usr/lib/libgdcmzlib.so.3.0
-* /usr/lib/libgdcmzlib.so.3.0.25
+* /usr/lib/libgdcmzlib.so.3.0.26
 * /usr/lib/libsocketxx.so
 * /usr/lib/libsocketxx.so.1.2
 * /usr/lib/libsocketxx.so.1.2.0
 * /usr/lib/_gdcmswig.so
-* /usr/share/doc/gdcm-3.0.25/AUTHORS
-* /usr/share/doc/gdcm-3.0.25/INSTALL.txt
-* /usr/share/doc/gdcm-3.0.25/README.Copyright.txt
-* /usr/share/doc/gdcm-3.0.25/README.md
-* /usr/share/doc/gdcm-3.0.25/TODO
+* /usr/share/doc/gdcm-3.0.26/AUTHORS
+* /usr/share/doc/gdcm-3.0.26/COPYING
+* /usr/share/doc/gdcm-3.0.26/INSTALL
+* /usr/share/doc/gdcm-3.0.26/INSTALL.txt
+* /usr/share/doc/gdcm-3.0.26/README.Copyright.txt
+* /usr/share/doc/gdcm-3.0.26/README.md
+* /usr/share/doc/gdcm-3.0.26/TODO
 * /usr/share/gdcm-3.0/XML/cp699.xml
 * /usr/share/gdcm-3.0/XML/CSAHeader.xml
 * /usr/share/gdcm-3.0/XML/Part3.xml

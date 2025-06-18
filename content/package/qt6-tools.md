@@ -12,7 +12,7 @@ size = "6044368"
 usize = "20118088"
 sha1sum = "01615021e13549661291f41484e2051e5bcbdc91"
 depends = "['clang-libs>=20.1.6', 'litehtml', 'qt6-declarative', 'zstd']"
-reverse_depends = "['kde-dev-utils', 'kdevelop', 'kwin', 'marble', 'plasma-workspace', 'qtcreator']"
+reverse_depends = "['aurorae', 'kde-dev-utils', 'kdevelop', 'kwin', 'marble', 'plasma-workspace', 'qtcreator']"
 +++
 ### Description: 
 The Qt6 toolkit, qttools

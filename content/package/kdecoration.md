@@ -12,7 +12,7 @@ size = "87124"
 usize = "364395"
 sha1sum = "f7a0d2be8f6a934330b4d0b1e229d6f88396cf6c"
 depends = "['kcoreaddons>=6.15.0', 'ki18n>=6.15.0', 'qt6-base>=6.9.1']"
-reverse_depends = "['breeze', 'kde-gtk-config']"
+reverse_depends = "['aurorae', 'breeze', 'kde-gtk-config']"
 +++
 ### Description: 
 KDE Decoration

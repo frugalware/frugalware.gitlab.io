@@ -1,26 +1,26 @@
 +++
 draft = false
-title = "python3-zeroconf 0.146.5-1"
-version = "0.146.5-1"
+title = "python3-zeroconf 0.147.0-1"
+version = "0.147.0-1"
 description = "A pure python implementation of multicast DNS service discovery"
-date = "2025-04-22T18:22:38"
+date = "2025-06-18T09:11:42"
 aliases = "/packages/220272"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/python-zeroconf/python-zeroconf"
 arch = "x86_64"
-size = "1166844"
-usize = "6371737"
-sha1sum = "d6c8ba9941f0a6c0ad3dceac35d88a76468495e5"
+size = "1201164"
+usize = "6542548"
+sha1sum = "1e1c8a7db1a7ead892bec6cb1e026304decd10b1"
 depends = "['python3-ifaddr', 'python3-netifaces', 'python3-six']"
 +++
 ### Description: 
 A pure python implementation of multicast DNS service discovery
 
 ### Files: 
-* /usr/lib/python3.13/site-packages/zeroconf-0.146.5.dist-info/COPYING
-* /usr/lib/python3.13/site-packages/zeroconf-0.146.5.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/zeroconf-0.146.5.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/zeroconf-0.146.5.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/zeroconf-0.147.0.dist-info/COPYING
+* /usr/lib/python3.13/site-packages/zeroconf-0.147.0.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/zeroconf-0.147.0.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/zeroconf-0.147.0.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/zeroconf/asyncio.py
 * /usr/lib/python3.13/site-packages/zeroconf/const.py
 * /usr/lib/python3.13/site-packages/zeroconf/py.typed
@@ -157,5 +157,5 @@ A pure python implementation of multicast DNS service discovery
 * /usr/lib/python3.13/site-packages/zeroconf/__pycache__/_updates.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/zeroconf/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/zeroconf/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/python3-zeroconf-0.146.5/COPYING
-* /usr/share/doc/python3-zeroconf-0.146.5/README.rst
+* /usr/share/doc/python3-zeroconf-0.147.0/COPYING
+* /usr/share/doc/python3-zeroconf-0.147.0/README.rst
