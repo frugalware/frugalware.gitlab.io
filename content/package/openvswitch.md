@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openvswitch 3.5.0-1"
-version = "3.5.0-1"
+title = "openvswitch 3.5.1-3"
+version = "3.5.1-3"
 description = "A production quality, multilayer virtual switch"
-date = "2025-02-21T16:05:43"
+date = "2025-06-18T15:28:07"
 aliases = "/packages/200352"
 categories = ['network-extra']
 upstreamurl = "http://openvswitch.org/"
 arch = "x86_64"
-size = "2853320"
-usize = "11221809"
-sha1sum = "6e94cc96dc1dc0522cdc188ead42b64e6f484f47"
+size = "2880076"
+usize = "11261695"
+sha1sum = "c72fc43e0da7bfec38864479c56e6446752da608"
 depends = "['libcap-ng', 'openssl>=3.1.0']"
 reverse_depends = "['mininet']"
 license = "Apache"
@@ -108,9 +108,12 @@ A production quality, multilayer virtual switch
 * /usr/lib/pkgconfig/libopenvswitch.pc
 * /usr/lib/pkgconfig/libovsdb.pc
 * /usr/lib/pkgconfig/libsflow.pc
-* /usr/share/doc/openvswitch-3.5.0/LICENSE
-* /usr/share/doc/openvswitch-3.5.0/NEWS
-* /usr/share/doc/openvswitch-3.5.0/README.rst
+* /usr/lib/systemd/system/ovs-vswitchd.service
+* /usr/lib/systemd/system/ovsdb-server.service
+* /usr/lib/tmpfiles.d/openvswitch.conf
+* /usr/share/doc/openvswitch-3.5.1/LICENSE
+* /usr/share/doc/openvswitch-3.5.1/NEWS
+* /usr/share/doc/openvswitch-3.5.1/README.rst
 * /usr/share/man/man1/ovs-pcap.1.gz
 * /usr/share/man/man1/ovsdb-client.1.gz
 * /usr/share/man/man1/ovsdb-server.1.gz
