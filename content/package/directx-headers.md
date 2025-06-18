@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "directx-headers 1.615.0-2"
-version = "1.615.0-2"
+title = "directx-headers 1.616.0-1"
+version = "1.616.0-1"
 description = "DirectX headers for using D3D12"
-date = "2025-05-05T11:14:16"
+date = "2025-06-18T17:36:00"
 aliases = "/packages/220935"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/microsoft/DirectX-Headers"
 arch = "x86_64"
-size = "372172"
-usize = "3727531"
-sha1sum = "c4f18f4ff87dcbbc3b996d258e6b155ddf8b451f"
+size = "374852"
+usize = "3771845"
+sha1sum = "b3a5e71c8ac58e214ed71da6847561c19cd170b0"
 depends = "['glibc>=2.38']"
 +++
 ### Description: 
@@ -63,5 +63,5 @@ DirectX headers for using D3D12
 * /usr/lib/libd3dx12-format-properties.a
 * /usr/lib/libDirectX-Guids.a
 * /usr/lib/pkgconfig/DirectX-Headers.pc
-* /usr/share/doc/directx-headers-1.615.0/LICENSE
-* /usr/share/doc/directx-headers-1.615.0/README.md
+* /usr/share/doc/directx-headers-1.616.0/LICENSE
+* /usr/share/doc/directx-headers-1.616.0/README.md
