@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openturns 1.24-2"
-version = "1.24-2"
+title = "openturns 1.25.1-1"
+version = "1.25.1-1"
 description = "Uncertainty treatment library"
-date = "2025-05-20T13:19:10"
+date = "2025-06-18T09:15:28"
 aliases = "/packages/220263"
 categories = ['lib-extra']
 upstreamurl = "http://www.openturns.org"
 arch = "x86_64"
-size = "6178252"
-usize = "28699836"
-sha1sum = "4e7387f6a0d56970b76a3d49f16d7cf904779dea"
+size = "6297000"
+usize = "29127129"
+sha1sum = "40845a71be350609ead21e72c46bd69a5e87d2c3"
 depends = "['intel-tbb', 'libxml2>=2.14.3']"
 reverse_depends = "['vtk']"
 +++
@@ -112,6 +112,7 @@ Uncertainty treatment library
 * /usr/include/openturns/Cobyla.hxx
 * /usr/include/openturns/Collection.hxx
 * /usr/include/openturns/Combinations.hxx
+* /usr/include/openturns/CombinationsDistribution.hxx
 * /usr/include/openturns/CombinatorialGenerator.hxx
 * /usr/include/openturns/CombinatorialGeneratorImplementation.hxx
 * /usr/include/openturns/Compact.hxx
@@ -131,9 +132,10 @@ Uncertainty treatment library
 * /usr/include/openturns/CompositeDistribution.hxx
 * /usr/include/openturns/CompositeProcess.hxx
 * /usr/include/openturns/CompositeRandomVector.hxx
-* /usr/include/openturns/ConditionalRandomVector.hxx
 * /usr/include/openturns/ConditionedGaussianProcess.hxx
 * /usr/include/openturns/ConstantBasisFactory.hxx
+* /usr/include/openturns/ConstantEvaluation.hxx
+* /usr/include/openturns/ConstantFunction.hxx
 * /usr/include/openturns/ConstantGradient.hxx
 * /usr/include/openturns/ConstantHessian.hxx
 * /usr/include/openturns/ConstantRandomVector.hxx
@@ -150,13 +152,14 @@ Uncertainty treatment library
 * /usr/include/openturns/CovariatesResult.hxx
 * /usr/include/openturns/CrossEntropyImportanceSampling.hxx
 * /usr/include/openturns/CrossEntropyResult.hxx
-* /usr/include/openturns/csv_parser_state.hxx
+* /usr/include/openturns/CSVParser.hxx
 * /usr/include/openturns/CubaIntegration.hxx
 * /usr/include/openturns/CumulativeDistributionNetwork.hxx
 * /usr/include/openturns/Curve.hxx
 * /usr/include/openturns/DatabaseEvaluation.hxx
 * /usr/include/openturns/DatabaseFunction.hxx
 * /usr/include/openturns/DeconditionedDistribution.hxx
+* /usr/include/openturns/DeconditionedRandomVector.hxx
 * /usr/include/openturns/Description.hxx
 * /usr/include/openturns/DesignProxy.hxx
 * /usr/include/openturns/DickeyFullerTest.hxx
@@ -229,6 +232,7 @@ Uncertainty treatment library
 * /usr/include/openturns/FaureSequence.hxx
 * /usr/include/openturns/Fehlberg.hxx
 * /usr/include/openturns/FejerAlgorithm.hxx
+* /usr/include/openturns/FejerExperiment.hxx
 * /usr/include/openturns/FFT.hxx
 * /usr/include/openturns/FFTImplementation.hxx
 * /usr/include/openturns/Field.hxx
@@ -284,8 +288,11 @@ Uncertainty treatment library
 * /usr/include/openturns/GaussianNonLinearCalibration.hxx
 * /usr/include/openturns/GaussianProcess.hxx
 * /usr/include/openturns/GaussianProcessConditionalCovariance.hxx
+* /usr/include/openturns/GaussianProcessEvaluation.hxx
 * /usr/include/openturns/GaussianProcessFitter.hxx
 * /usr/include/openturns/GaussianProcessFitterResult.hxx
+* /usr/include/openturns/GaussianProcessGradient.hxx
+* /usr/include/openturns/GaussianProcessRandomVector.hxx
 * /usr/include/openturns/GaussianProcessRegression.hxx
 * /usr/include/openturns/GaussianProcessRegressionResult.hxx
 * /usr/include/openturns/GaussKronrod.hxx
@@ -440,6 +447,7 @@ Uncertainty treatment library
 * /usr/include/openturns/Last.hxx
 * /usr/include/openturns/LatentVariableModel.hxx
 * /usr/include/openturns/LeastSquaresDistributionFactory.hxx
+* /usr/include/openturns/LeastSquaresEquationsSolver.hxx
 * /usr/include/openturns/LeastSquaresExpansion.hxx
 * /usr/include/openturns/LeastSquaresMetaModelSelection.hxx
 * /usr/include/openturns/LeastSquaresMetaModelSelectionFactory.hxx
@@ -474,6 +482,7 @@ Uncertainty treatment library
 * /usr/include/openturns/LinearModelValidation.hxx
 * /usr/include/openturns/LinearProfile.hxx
 * /usr/include/openturns/LinearTaylor.hxx
+* /usr/include/openturns/LineSampling.hxx
 * /usr/include/openturns/Log.hxx
 * /usr/include/openturns/Logistic.hxx
 * /usr/include/openturns/LogisticFactory.hxx
@@ -484,6 +493,7 @@ Uncertainty treatment library
 * /usr/include/openturns/LogNormalMuSigmaOverMu.hxx
 * /usr/include/openturns/LogUniform.hxx
 * /usr/include/openturns/LogUniformFactory.hxx
+* /usr/include/openturns/LOLAVoronoi.hxx
 * /usr/include/openturns/LowDiscrepancyExperiment.hxx
 * /usr/include/openturns/LowDiscrepancySequence.hxx
 * /usr/include/openturns/LowDiscrepancySequenceImplementation.hxx
@@ -494,6 +504,7 @@ Uncertainty treatment library
 * /usr/include/openturns/MarginalTransformationEvaluation.hxx
 * /usr/include/openturns/MarginalTransformationGradient.hxx
 * /usr/include/openturns/MarginalTransformationHessian.hxx
+* /usr/include/openturns/MarginalUniformOrderStatistics.hxx
 * /usr/include/openturns/MarshallOlkinCopula.hxx
 * /usr/include/openturns/MartinezSensitivityAlgorithm.hxx
 * /usr/include/openturns/MaternModel.hxx
@@ -501,7 +512,6 @@ Uncertainty treatment library
 * /usr/include/openturns/MatrixImplementation.hxx
 * /usr/include/openturns/MauntzKucherenkoSensitivityAlgorithm.hxx
 * /usr/include/openturns/MaximumDistribution.hxx
-* /usr/include/openturns/MaximumEntropyOrderStatisticsCopula.hxx
 * /usr/include/openturns/MaximumEntropyOrderStatisticsDistribution.hxx
 * /usr/include/openturns/MaximumLikelihoodFactory.hxx
 * /usr/include/openturns/MediumSafe.hxx
@@ -623,7 +633,6 @@ Uncertainty treatment library
 * /usr/include/openturns/OTKriging.hxx
 * /usr/include/openturns/OTLinearModel.hxx
 * /usr/include/openturns/OTMarginalTransformation.hxx
-* /usr/include/openturns/OTmemory.hxx
 * /usr/include/openturns/OTMetaModel.hxx
 * /usr/include/openturns/OTModel.hxx
 * /usr/include/openturns/OTNatafEllipticalCopula.hxx
@@ -722,6 +731,7 @@ Uncertainty treatment library
 * /usr/include/openturns/QuadraticFunction.hxx
 * /usr/include/openturns/QuadraticLeastSquares.hxx
 * /usr/include/openturns/QuadraticTaylor.hxx
+* /usr/include/openturns/QuantileConfidence.hxx
 * /usr/include/openturns/QuantileMatchingFactory.hxx
 * /usr/include/openturns/RandomDirection.hxx
 * /usr/include/openturns/RandomGenerator.hxx
@@ -734,7 +744,7 @@ Uncertainty treatment library
 * /usr/include/openturns/RandomWalkMetropolisHastings.hxx
 * /usr/include/openturns/RankMCovarianceModel.hxx
 * /usr/include/openturns/RankSobolSensitivityAlgorithm.hxx
-* /usr/include/openturns/RatioDistribution.hxx
+* /usr/include/openturns/RatioOfUniforms.hxx
 * /usr/include/openturns/Rayleigh.hxx
 * /usr/include/openturns/RayleighFactory.hxx
 * /usr/include/openturns/RegularGrid.hxx
@@ -757,6 +767,8 @@ Uncertainty treatment library
 * /usr/include/openturns/SamplingStrategy.hxx
 * /usr/include/openturns/SamplingStrategyImplementation.hxx
 * /usr/include/openturns/Secant.hxx
+* /usr/include/openturns/SequentialSamplingAlgorithm.hxx
+* /usr/include/openturns/SequentialSamplingAlgorithmImplementation.hxx
 * /usr/include/openturns/SimplicialCubature.hxx
 * /usr/include/openturns/SimulatedAnnealingLHS.hxx
 * /usr/include/openturns/SimulationAlgorithm.hxx
@@ -885,6 +897,7 @@ Uncertainty treatment library
 * /usr/include/openturns/UserDefinedStationaryCovarianceModel.hxx
 * /usr/include/openturns/UsualRandomVector.hxx
 * /usr/include/openturns/ValueFunction.hxx
+* /usr/include/openturns/VertexFieldToPointFunction.hxx
 * /usr/include/openturns/VertexValueFunction.hxx
 * /usr/include/openturns/VertexValuePointToFieldFunction.hxx
 * /usr/include/openturns/VisualTest.hxx
@@ -912,25 +925,26 @@ Uncertainty treatment library
 * /usr/lib/cmake/openturns/OpenTURNSConfig.cmake
 * /usr/lib/cmake/openturns/OpenTURNSConfigVersion.cmake
 * /usr/lib/libOT.so
-* /usr/lib/libOT.so.0.25
-* /usr/lib/libOT.so.0.25.0
-* /usr/share/doc/openturns-1.24/ChangeLog
-* /usr/share/doc/openturns-1.24/COPYING
-* /usr/share/doc/openturns-1.24/COPYING.cephes
-* /usr/share/doc/openturns-1.24/COPYING.cobyla
-* /usr/share/doc/openturns-1.24/COPYING.dsfmt
-* /usr/share/doc/openturns-1.24/COPYING.ev3
-* /usr/share/doc/openturns-1.24/COPYING.exprtk
-* /usr/share/doc/openturns-1.24/COPYING.faddeeva
-* /usr/share/doc/openturns-1.24/COPYING.fastgl
-* /usr/share/doc/openturns-1.24/COPYING.kendall
-* /usr/share/doc/openturns-1.24/COPYING.kissfft
-* /usr/share/doc/openturns-1.24/COPYING.LESSER
-* /usr/share/doc/openturns-1.24/COPYING.tnc
-* /usr/share/doc/openturns-1.24/LICENSE
-* /usr/share/doc/openturns-1.24/README.rst
-* /usr/share/doc/openturns-1.24/TODO
-* /usr/share/doc/openturns-1.24/VERSION
+* /usr/lib/libOT.so.0.26
+* /usr/lib/libOT.so.0.26.0
+* /usr/share/doc/openturns-1.25.1/ChangeLog
+* /usr/share/doc/openturns-1.25.1/COPYING
+* /usr/share/doc/openturns-1.25.1/COPYING.cephes
+* /usr/share/doc/openturns-1.25.1/COPYING.cobyla
+* /usr/share/doc/openturns-1.25.1/COPYING.dsfmt
+* /usr/share/doc/openturns-1.25.1/COPYING.ev3
+* /usr/share/doc/openturns-1.25.1/COPYING.exprtk
+* /usr/share/doc/openturns-1.25.1/COPYING.faddeeva
+* /usr/share/doc/openturns-1.25.1/COPYING.fastgl
+* /usr/share/doc/openturns-1.25.1/COPYING.kendall
+* /usr/share/doc/openturns-1.25.1/COPYING.kissfft
+* /usr/share/doc/openturns-1.25.1/COPYING.LESSER
+* /usr/share/doc/openturns-1.25.1/COPYING.rapidcsv
+* /usr/share/doc/openturns-1.25.1/COPYING.tnc
+* /usr/share/doc/openturns-1.25.1/LICENSE
+* /usr/share/doc/openturns-1.25.1/README.rst
+* /usr/share/doc/openturns-1.25.1/TODO
+* /usr/share/doc/openturns-1.25.1/VERSION
 * /usr/share/doc/openturns/COPYING
 * /usr/share/doc/openturns/COPYING.cephes
 * /usr/share/doc/openturns/COPYING.cobyla
@@ -943,4 +957,4 @@ Uncertainty treatment library
 * /usr/share/doc/openturns/COPYING.kissfft
 * /usr/share/doc/openturns/COPYING.LESSER
 * /usr/share/doc/openturns/COPYING.tnc
-* /usr/share/gdb/auto-load/usr/lib/libOT.so.0.25.0-gdb.py
+* /usr/share/gdb/auto-load/usr/lib/libOT.so.0.26.0-gdb.py

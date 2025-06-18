@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ultrastardx 2025.4.0-1"
-version = "2025.4.0-1"
+title = "ultrastardx 2025.6.0-1"
+version = "2025.6.0-1"
 description = "Free and open source karaoke game"
-date = "2025-04-11T15:33:06"
+date = "2025-06-18T09:17:02"
 aliases = "/packages/220454"
 categories = ['games-extra']
 upstreamurl = "http://usdx.eu/"
 arch = "x86_64"
-size = "45814140"
-usize = "82715794"
-sha1sum = "53ea902883c0c63d3dfc679ae9c33022fe4606fd"
+size = "45812684"
+usize = "82720375"
+sha1sum = "51a5b25a74c87770f68fb4525c8eea527b243289"
 depends = "['ffmpeg>=7.0', 'freetype2', 'lua', 'sdl2_image']"
 +++
 ### Description: 
@@ -19,10 +19,10 @@ Free and open source karaoke game
 ### Files: 
 * /usr/bin/ultrastardx
 * /usr/share/applications/ultrastardx.desktop
-* /usr/share/doc/ultrastardx-2025.4.0/COPYRIGHT.txt
-* /usr/share/doc/ultrastardx-2025.4.0/LICENSE
-* /usr/share/doc/ultrastardx-2025.4.0/README.md
-* /usr/share/doc/ultrastardx-2025.4.0/VERSION
+* /usr/share/doc/ultrastardx-2025.6.0/COPYRIGHT.txt
+* /usr/share/doc/ultrastardx-2025.6.0/LICENSE
+* /usr/share/doc/ultrastardx-2025.6.0/README.md
+* /usr/share/doc/ultrastardx-2025.6.0/VERSION
 * /usr/share/pixmaps/ultrastardx.png
 * /usr/share/ultrastardx/avatars/1.png
 * /usr/share/ultrastardx/avatars/2.png

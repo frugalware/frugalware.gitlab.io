@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "syncthingtray 1.7.7-3"
-version = "1.7.7-3"
+title = "syncthingtray 1.7.8-1"
+version = "1.7.8-1"
 description = "tray app for syncthing"
-date = "2025-06-06T12:45:36"
+date = "2025-06-18T09:40:21"
 aliases = "/packages/222522"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/Martchus/syncthingtray"
 arch = "x86_64"
-size = "901984"
-usize = "3702831"
-sha1sum = "9a129f5d90dbc374f4ca5026a6f9e374302b757a"
+size = "905156"
+usize = "3710968"
+sha1sum = "bd81e82947fdc3269f06d0a8b5b0b377ea3af321"
 depends = "['cpp-utilities', 'libboost>=1.88.0', 'qt6-webengine', 'qtforkawesome', 'qtutilities', 'syncthing']"
 +++
 ### Description: 
@@ -72,14 +72,14 @@ tray app for syncthing
 * /usr/include/syncthingwidgets/webview/webpage.h
 * /usr/include/syncthingwidgets/webview/webviewdialog.h
 * /usr/lib/libsyncthingconnector.so
-* /usr/lib/libsyncthingconnector.so.1.7.7
-* /usr/lib/libsyncthingconnector.so.25
+* /usr/lib/libsyncthingconnector.so.1.7.8
+* /usr/lib/libsyncthingconnector.so.26
 * /usr/lib/libsyncthingmodel.so
-* /usr/lib/libsyncthingmodel.so.1.7.7
-* /usr/lib/libsyncthingmodel.so.25
+* /usr/lib/libsyncthingmodel.so.1.7.8
+* /usr/lib/libsyncthingmodel.so.26
 * /usr/lib/libsyncthingwidgets.so
-* /usr/lib/libsyncthingwidgets.so.1.7.7
-* /usr/lib/libsyncthingwidgets.so.25
+* /usr/lib/libsyncthingwidgets.so.1.7.8
+* /usr/lib/libsyncthingwidgets.so.26
 * /usr/lib/pkgconfig/syncthingconnector.pc
 * /usr/lib/pkgconfig/syncthingfileitemaction.pc
 * /usr/lib/pkgconfig/syncthingmodel.pc
@@ -90,8 +90,8 @@ tray app for syncthing
 * /usr/share/applications/syncthingtray.desktop
 * /usr/share/bash-completion/completions/syncthingctl
 * /usr/share/bash-completion/completions/syncthingtray
-* /usr/share/doc/syncthingtray-1.7.7/LICENSE
-* /usr/share/doc/syncthingtray-1.7.7/README.md
+* /usr/share/doc/syncthingtray-1.7.8/LICENSE
+* /usr/share/doc/syncthingtray-1.7.8/README.md
 * /usr/share/icons/hicolor/scalable/apps/syncthingtray.svg
 * /usr/share/metainfo/io.github.martchus.syncthingfileitemaction.metainfo.xml
 * /usr/share/metainfo/io.github.martchus.syncthingplasmoid.metainfo.xml

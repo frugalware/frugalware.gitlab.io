@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "quba 1.4.2-1"
-version = "1.4.2-1"
+title = "quba 1.5.0-1"
+version = "1.5.0-1"
 description = "Quba is a viewer for electronic invoices"
-date = "2024-12-04T12:38:35"
+date = "2025-06-18T09:28:36"
 aliases = "/packages/222595"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/ZUGFeRD/quba-viewer"
 arch = "x86_64"
-size = "100246656"
-usize = "435562211"
-sha1sum = "c1d03a9ca6b3b960a3237afad32d0fc6dbca4e3b"
+size = "100393712"
+usize = "437644929"
+sha1sum = "0a337b64b20129bbb1276333e2a81b83168f9ed1"
 depends = "['gtk+3', 'libsecret', 'libxscrnsaver', 'libxtst', 'nss']"
 +++
 ### Description: 
@@ -93,6 +93,6 @@ Quba is a viewer for electronic invoices
 * /opt/quba/vk_swiftshader_icd.json
 * /usr/bin/quba
 * /usr/share/applications/quba.desktop
-* /usr/share/doc/quba-1.4.2/LICENSE
-* /usr/share/doc/quba-1.4.2/README.md
+* /usr/share/doc/quba-1.5.0/LICENSE
+* /usr/share/doc/quba-1.5.0/README.md
 * /usr/share/icons/hicolor/512x512/apps/quba.png
