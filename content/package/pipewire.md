@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pipewire 1.4.1-2"
-version = "1.4.1-2"
+title = "pipewire 1.4.1-3"
+version = "1.4.1-3"
 description = "A project that aims to greatly improve handling of audio and video under Linux"
-date = "2025-04-04T07:01:40"
+date = "2025-06-19T09:28:48"
 aliases = "/packages/219857"
 categories = ['xmultimedia']
 upstreamurl = "https://pipewire.org/"
 arch = "x86_64"
-size = "4529580"
-usize = "43333014"
-sha1sum = "4ca528c17bcf1b8ae3022298356c8fda93b50f4b"
+size = "4535848"
+usize = "41465580"
+sha1sum = "1534de7965c53ae6323b26aec31ec93f5af38d85"
 depends = "['fdk-aac', 'ldacbt', 'libcamera>=0.5.0', 'libcanberra', 'libfreeaptx', 'libmysofa', 'lilv', 'sbc', 'vulkan-icd-loader', 'webrtc-audio-processing>=2.1']"
 reverse_depends = "['blender', 'clightd', 'easyeffects', 'kpipewire', 'kwin', 'kwin-x11', 'obs-studio', 'qemu', 'telegram-desktop', 'weston', 'wireplumber', 'xdg-desktop-portal']"
 +++
@@ -467,8 +467,6 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/share/doc/pipewire/html/audio_2raw_8h_source.html
 * /usr/share/doc/pipewire/html/audio_8h.html
 * /usr/share/doc/pipewire/html/audio_8h_source.html
-* /usr/share/doc/pipewire/html/bc_s.png
-* /usr/share/doc/pipewire/html/bc_sd.png
 * /usr/share/doc/pipewire/html/bluez-session_8c-example.html
 * /usr/share/doc/pipewire/html/buffers-types_8h.html
 * /usr/share/doc/pipewire/html/buffers-types_8h_source.html
@@ -487,7 +485,6 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/share/doc/pipewire/html/client_8h.html
 * /usr/share/doc/pipewire/html/client_8h_source.html
 * /usr/share/doc/pipewire/html/clipboard.js
-* /usr/share/doc/pipewire/html/closed.png
 * /usr/share/doc/pipewire/html/color_8h.html
 * /usr/share/doc/pipewire/html/color_8h_source.html
 * /usr/share/doc/pipewire/html/compare_8h.html
@@ -551,8 +548,6 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/share/doc/pipewire/html/dir_f880834161c9b0b22ffe664e43579a3f.html
 * /usr/share/doc/pipewire/html/dir_fdc1f3113a079005838a3ed3356ed61a.html
 * /usr/share/doc/pipewire/html/dll_8h_source.html
-* /usr/share/doc/pipewire/html/doc.svg
-* /usr/share/doc/pipewire/html/docd.svg
 * /usr/share/doc/pipewire/html/doxygen-awesome.css
 * /usr/share/doc/pipewire/html/doxygen.css
 * /usr/share/doc/pipewire/html/doxygen.svg
@@ -583,10 +578,6 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/share/doc/pipewire/html/flac-utils_8h_source.html
 * /usr/share/doc/pipewire/html/flac_8h.html
 * /usr/share/doc/pipewire/html/flac_8h_source.html
-* /usr/share/doc/pipewire/html/folderclosed.svg
-* /usr/share/doc/pipewire/html/folderclosedd.svg
-* /usr/share/doc/pipewire/html/folderopen.svg
-* /usr/share/doc/pipewire/html/folderopend.svg
 * /usr/share/doc/pipewire/html/format-types_8h.html
 * /usr/share/doc/pipewire/html/format-types_8h_source.html
 * /usr/share/doc/pipewire/html/format-utils_8h.html
@@ -988,13 +979,13 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/share/doc/pipewire/html/main-loop_8h_source.html
 * /usr/share/doc/pipewire/html/map_8h.html
 * /usr/share/doc/pipewire/html/map_8h_source.html
+* /usr/share/doc/pipewire/html/menu.js
+* /usr/share/doc/pipewire/html/menudata.js
 * /usr/share/doc/pipewire/html/metadata_8h.html
 * /usr/share/doc/pipewire/html/metadata_8h_source.html
 * /usr/share/doc/pipewire/html/meta_8h.html
 * /usr/share/doc/pipewire/html/meta_8h_source.html
 * /usr/share/doc/pipewire/html/midi-src_8c-example.html
-* /usr/share/doc/pipewire/html/minus.svg
-* /usr/share/doc/pipewire/html/minusd.svg
 * /usr/share/doc/pipewire/html/mjpg-utils_8h.html
 * /usr/share/doc/pipewire/html/mjpg-utils_8h_source.html
 * /usr/share/doc/pipewire/html/mjpg_8h.html
@@ -1042,18 +1033,12 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/share/doc/pipewire/html/navtreeindex7.js
 * /usr/share/doc/pipewire/html/navtreeindex8.js
 * /usr/share/doc/pipewire/html/navtreeindex9.js
-* /usr/share/doc/pipewire/html/nav_f.png
-* /usr/share/doc/pipewire/html/nav_fd.png
-* /usr/share/doc/pipewire/html/nav_g.png
-* /usr/share/doc/pipewire/html/nav_h.png
-* /usr/share/doc/pipewire/html/nav_hd.png
 * /usr/share/doc/pipewire/html/node_2command_8h.html
 * /usr/share/doc/pipewire/html/node_2command_8h_source.html
 * /usr/share/doc/pipewire/html/node_2event_8h.html
 * /usr/share/doc/pipewire/html/node_2event_8h_source.html
 * /usr/share/doc/pipewire/html/node_2type-info_8h.html
 * /usr/share/doc/pipewire/html/node_2type-info_8h_source.html
-* /usr/share/doc/pipewire/html/open.png
 * /usr/share/doc/pipewire/html/opus_8h.html
 * /usr/share/doc/pipewire/html/opus_8h_source.html
 * /usr/share/doc/pipewire/html/pages.html
@@ -1240,8 +1225,6 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/share/doc/pipewire/html/plugin-loader_8h_source.html
 * /usr/share/doc/pipewire/html/plugin_8h.html
 * /usr/share/doc/pipewire/html/plugin_8h_source.html
-* /usr/share/doc/pipewire/html/plus.svg
-* /usr/share/doc/pipewire/html/plusd.svg
 * /usr/share/doc/pipewire/html/pod_2command_8h.html
 * /usr/share/doc/pipewire/html/pod_2command_8h_source.html
 * /usr/share/doc/pipewire/html/pod_2event_8h.html
@@ -1279,7 +1262,6 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/share/doc/pipewire/html/raw-json_8h_source.html
 * /usr/share/doc/pipewire/html/ra_8h.html
 * /usr/share/doc/pipewire/html/ra_8h_source.html
-* /usr/share/doc/pipewire/html/resize.js
 * /usr/share/doc/pipewire/html/resource_8h.html
 * /usr/share/doc/pipewire/html/resource_8h_source.html
 * /usr/share/doc/pipewire/html/result_8h.html
@@ -1326,7 +1308,6 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/share/doc/pipewire/html/search/classes_0.js
 * /usr/share/doc/pipewire/html/search/classes_1.js
 * /usr/share/doc/pipewire/html/search/classes_2.js
-* /usr/share/doc/pipewire/html/search/close.svg
 * /usr/share/doc/pipewire/html/search/defines_0.js
 * /usr/share/doc/pipewire/html/search/defines_1.js
 * /usr/share/doc/pipewire/html/search/defines_2.js
@@ -1382,10 +1363,6 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/share/doc/pipewire/html/search/groups_d.js
 * /usr/share/doc/pipewire/html/search/groups_e.js
 * /usr/share/doc/pipewire/html/search/groups_f.js
-* /usr/share/doc/pipewire/html/search/mag.svg
-* /usr/share/doc/pipewire/html/search/mag_d.svg
-* /usr/share/doc/pipewire/html/search/mag_sel.svg
-* /usr/share/doc/pipewire/html/search/mag_seld.svg
 * /usr/share/doc/pipewire/html/search/pages_0.js
 * /usr/share/doc/pipewire/html/search/pages_1.js
 * /usr/share/doc/pipewire/html/search/pages_10.js
@@ -1399,6 +1376,7 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/share/doc/pipewire/html/search/pages_18.js
 * /usr/share/doc/pipewire/html/search/pages_19.js
 * /usr/share/doc/pipewire/html/search/pages_1a.js
+* /usr/share/doc/pipewire/html/search/pages_1b.js
 * /usr/share/doc/pipewire/html/search/pages_2.js
 * /usr/share/doc/pipewire/html/search/pages_3.js
 * /usr/share/doc/pipewire/html/search/pages_4.js
@@ -1492,8 +1470,6 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/share/doc/pipewire/html/spa_2include_2spa_2utils_2keys_8h_source.html
 * /usr/share/doc/pipewire/html/spa_2include_2spa_2utils_2type_8h.html
 * /usr/share/doc/pipewire/html/spa_2include_2spa_2utils_2type_8h_source.html
-* /usr/share/doc/pipewire/html/splitbar.png
-* /usr/share/doc/pipewire/html/splitbard.png
 * /usr/share/doc/pipewire/html/src_2pipewire_2buffers_8h.html
 * /usr/share/doc/pipewire/html/src_2pipewire_2buffers_8h_source.html
 * /usr/share/doc/pipewire/html/src_2pipewire_2context_8h.html
@@ -2104,19 +2080,9 @@ A project that aims to greatly improve handling of audio and video under Linux
 * /usr/share/doc/pipewire/html/structspa__video__info__mjpg.js
 * /usr/share/doc/pipewire/html/structspa__video__info__raw.html
 * /usr/share/doc/pipewire/html/structspa__video__info__raw.js
-* /usr/share/doc/pipewire/html/sync_off.png
-* /usr/share/doc/pipewire/html/sync_on.png
 * /usr/share/doc/pipewire/html/system_8h.html
 * /usr/share/doc/pipewire/html/system_8h_source.html
 * /usr/share/doc/pipewire/html/tabs.css
-* /usr/share/doc/pipewire/html/tab_a.png
-* /usr/share/doc/pipewire/html/tab_ad.png
-* /usr/share/doc/pipewire/html/tab_b.png
-* /usr/share/doc/pipewire/html/tab_bd.png
-* /usr/share/doc/pipewire/html/tab_h.png
-* /usr/share/doc/pipewire/html/tab_hd.png
-* /usr/share/doc/pipewire/html/tab_s.png
-* /usr/share/doc/pipewire/html/tab_sd.png
 * /usr/share/doc/pipewire/html/tag-types_8h.html
 * /usr/share/doc/pipewire/html/tag-types_8h_source.html
 * /usr/share/doc/pipewire/html/tag-utils_8h.html

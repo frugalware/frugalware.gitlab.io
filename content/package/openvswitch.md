@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openvswitch 3.5.1-3"
-version = "3.5.1-3"
+title = "openvswitch 3.5.1-4"
+version = "3.5.1-4"
 description = "A production quality, multilayer virtual switch"
-date = "2025-06-18T15:28:07"
+date = "2025-06-19T09:21:54"
 aliases = "/packages/200352"
 categories = ['network-extra']
 upstreamurl = "http://openvswitch.org/"
 arch = "x86_64"
-size = "2880076"
+size = "2880040"
 usize = "11261695"
-sha1sum = "c72fc43e0da7bfec38864479c56e6446752da608"
+sha1sum = "6dff96ad6699c37e60f634f79126ef3438ad748f"
 depends = "['libcap-ng', 'openssl>=3.1.0']"
 reverse_depends = "['mininet']"
 license = "Apache"

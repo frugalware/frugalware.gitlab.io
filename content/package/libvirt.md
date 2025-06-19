@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libvirt 11.3.0-1"
-version = "11.3.0-1"
+title = "libvirt 11.4.0-1"
+version = "11.4.0-1"
 description = "libvirt is a library providing access to information from various virtualization tools"
-date = "2025-05-19T15:25:36"
+date = "2025-06-19T09:16:10"
 aliases = "/packages/14198"
 categories = ['xlib-extra']
 upstreamurl = "http://libvirt.org"
 arch = "x86_64"
-size = "8881704"
-usize = "52814942"
-sha1sum = "8357aab8733673fbe839c314c919815bc7ae5cfd"
+size = "8881840"
+usize = "52870194"
+sha1sum = "1d6be9b2915230de0d11ced002fc9a5cea058e5a"
 depends = "['avahi', 'bridge-utils', 'curl', 'cyrus-sasl', 'dmidecode', 'dnsmasq', 'fuse', 'gnutls>=3.4.2', 'iproute2', 'iscsi', 'libnl>=3.2.9', 'libpciaccess', 'libssh2', 'libtirpc', 'libudev', 'libxml2>=2.14.3', 'lvm2>=2.02.96', 'numactl', 'parted>=3.3', 'polkit', 'readline>=8.0', 'systemd>=228', 'yajl']"
 reverse_depends = "['libguestfs', 'libvirt-glib', 'libvirt-python3']"
 +++
@@ -123,16 +123,16 @@ libvirt is a library providing access to information from various virtualization
 * /usr/lib/libnss_libvirt_guest.so.2
 * /usr/lib/libvirt-admin.so
 * /usr/lib/libvirt-admin.so.0
-* /usr/lib/libvirt-admin.so.0.11003.0
+* /usr/lib/libvirt-admin.so.0.11004.0
 * /usr/lib/libvirt-lxc.so
 * /usr/lib/libvirt-lxc.so.0
-* /usr/lib/libvirt-lxc.so.0.11003.0
+* /usr/lib/libvirt-lxc.so.0.11004.0
 * /usr/lib/libvirt-qemu.so
 * /usr/lib/libvirt-qemu.so.0
-* /usr/lib/libvirt-qemu.so.0.11003.0
+* /usr/lib/libvirt-qemu.so.0.11004.0
 * /usr/lib/libvirt.so
 * /usr/lib/libvirt.so.0
-* /usr/lib/libvirt.so.0.11003.0
+* /usr/lib/libvirt.so.0.11004.0
 * /usr/lib/libvirt/connection-driver/libvirt_driver_ch.so
 * /usr/lib/libvirt/connection-driver/libvirt_driver_interface.so
 * /usr/lib/libvirt/connection-driver/libvirt_driver_lxc.so
@@ -266,9 +266,9 @@ libvirt is a library providing access to information from various virtualization
 * /usr/share/augeas/lenses/virtsecretd.aug
 * /usr/share/augeas/lenses/virtstoraged.aug
 * /usr/share/augeas/lenses/virtvboxd.aug
-* /usr/share/doc/libvirt-11.3.0/COPYING
-* /usr/share/doc/libvirt-11.3.0/COPYING.LESSER
-* /usr/share/doc/libvirt-11.3.0/README.rst
+* /usr/share/doc/libvirt-11.4.0/COPYING
+* /usr/share/doc/libvirt-11.4.0/COPYING.LESSER
+* /usr/share/doc/libvirt-11.4.0/README.rst
 * /usr/share/doc/libvirt/examples/c/admin/client_close.c
 * /usr/share/doc/libvirt/examples/c/admin/client_info.c
 * /usr/share/doc/libvirt/examples/c/admin/client_limits.c
@@ -582,6 +582,7 @@ libvirt is a library providing access to information from various virtualization
 * /usr/share/libvirt/cpu_map/arm_vendors.xml
 * /usr/share/libvirt/cpu_map/index.xml
 * /usr/share/libvirt/cpu_map/ppc64_POWER10.xml
+* /usr/share/libvirt/cpu_map/ppc64_POWER11.xml
 * /usr/share/libvirt/cpu_map/ppc64_POWER6.xml
 * /usr/share/libvirt/cpu_map/ppc64_POWER7.xml
 * /usr/share/libvirt/cpu_map/ppc64_POWER8.xml
