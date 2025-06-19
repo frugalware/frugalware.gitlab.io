@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-jsonschema 4.23.0-2"
-version = "4.23.0-2"
+title = "python3-jsonschema 4.24.0-1"
+version = "4.24.0-1"
 description = "An implementation of JSON Schema validation for Python"
-date = "2024-11-01T22:15:34"
+date = "2025-06-19T08:23:02"
 aliases = "/packages/220537"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/jsonschema"
 arch = "x86_64"
-size = "174448"
-usize = "1401822"
-sha1sum = "faab43530782883ea222eee5ec5f9044a9de9097"
+size = "175224"
+usize = "1402334"
+sha1sum = "c45b6bfa39475c25991634ef602a889ec5c13e62"
 depends = "['python3-attrs', 'python3-jsonschema-specifications', 'python3-pyrsistent', 'python3-typing_extensions']"
 reverse_depends = "['python3-poetry-core']"
 +++
@@ -19,11 +19,11 @@ An implementation of JSON Schema validation for Python
 
 ### Files: 
 * /usr/bin/jsonschema
-* /usr/lib/python3.13/site-packages/jsonschema-4.23.0.dist-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/jsonschema-4.23.0.dist-info/licenses/COPYING
-* /usr/lib/python3.13/site-packages/jsonschema-4.23.0.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/jsonschema-4.23.0.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/jsonschema-4.23.0.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/jsonschema-4.24.0.dist-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/jsonschema-4.24.0.dist-info/licenses/COPYING
+* /usr/lib/python3.13/site-packages/jsonschema-4.24.0.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/jsonschema-4.24.0.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/jsonschema-4.24.0.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/jsonschema/benchmarks/const_vs_enum.py
 * /usr/lib/python3.13/site-packages/jsonschema/benchmarks/contains.py
 * /usr/lib/python3.13/site-packages/jsonschema/benchmarks/issue232.py
@@ -127,5 +127,5 @@ An implementation of JSON Schema validation for Python
 * /usr/lib/python3.13/site-packages/jsonschema/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/jsonschema/__pycache__/__main__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/jsonschema/__pycache__/__main__.cpython-313.pyc
-* /usr/share/doc/python3-jsonschema-4.23.0/COPYING
-* /usr/share/doc/python3-jsonschema-4.23.0/README.rst
+* /usr/share/doc/python3-jsonschema-4.24.0/COPYING
+* /usr/share/doc/python3-jsonschema-4.24.0/README.rst

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-puremagic 1.28-1"
-version = "1.28-1"
+title = "python3-puremagic 1.28-2"
+version = "1.28-2"
 description = "A Python module that will identify a file based off it's magic numbers"
-date = "2025-02-16T13:45:30"
+date = "2025-06-19T08:45:35"
 aliases = "/packages/222632"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/puremagic"
 arch = "x86_64"
-size = "43148"
-usize = "213375"
-sha1sum = "2eea06efa48b2881d0473aa66f2c8006840f6955"
+size = "43320"
+usize = "213397"
+sha1sum = "fcde9fc457d7dfe77fb0961d669dafd00a0c1d4d"
 depends = "['python3-packaging']"
 reverse_depends = "['psutils']"
 +++

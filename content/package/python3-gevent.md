@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-gevent 25.4.1-1"
-version = "25.4.1-1"
+title = "python3-gevent 25.5.1-1"
+version = "25.5.1-1"
 description = "Network library that uses greenlet and libev for easy and scalable concurrency"
-date = "2025-04-22T17:38:32"
+date = "2025-06-19T08:17:07"
 aliases = "/packages/219796"
 categories = ['devel-extra']
 upstreamurl = "http://eventlet.net"
 arch = "x86_64"
-size = "1800352"
-usize = "7618361"
-sha1sum = "d94041dc675406c0d0aaaef0941740fda46750db"
+size = "1810720"
+usize = "7641889"
+sha1sum = "dbdabb49032eb594fafeea55f6c47ebd2f59b013"
 depends = "['c-ares', 'python3>=3.12', 'python3-greenlet']"
 reverse_depends = "['python3-gunicorn']"
 +++
@@ -18,13 +18,13 @@ reverse_depends = "['python3-gunicorn']"
 Network library that uses greenlet and libev for easy and scalable concurrency
 
 ### Files: 
-* /usr/lib/python3.13/site-packages/gevent-25.4.1-py3.13.egg-info/dependency_links.txt
-* /usr/lib/python3.13/site-packages/gevent-25.4.1-py3.13.egg-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/gevent-25.4.1-py3.13.egg-info/not-zip-safe
-* /usr/lib/python3.13/site-packages/gevent-25.4.1-py3.13.egg-info/PKG-INFO
-* /usr/lib/python3.13/site-packages/gevent-25.4.1-py3.13.egg-info/requires.txt
-* /usr/lib/python3.13/site-packages/gevent-25.4.1-py3.13.egg-info/SOURCES.txt
-* /usr/lib/python3.13/site-packages/gevent-25.4.1-py3.13.egg-info/top_level.txt
+* /usr/lib/python3.13/site-packages/gevent-25.5.1-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/gevent-25.5.1-py3.13.egg-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/gevent-25.5.1-py3.13.egg-info/not-zip-safe
+* /usr/lib/python3.13/site-packages/gevent-25.5.1-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/gevent-25.5.1-py3.13.egg-info/requires.txt
+* /usr/lib/python3.13/site-packages/gevent-25.5.1-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/gevent-25.5.1-py3.13.egg-info/top_level.txt
 * /usr/lib/python3.13/site-packages/gevent/ares.py
 * /usr/lib/python3.13/site-packages/gevent/backdoor.py
 * /usr/lib/python3.13/site-packages/gevent/baseserver.py
@@ -572,7 +572,7 @@ Network library that uses greenlet and libev for easy and scalable concurrency
 * /usr/lib/python3.13/site-packages/gevent/__pycache__/_util.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/gevent/__pycache__/_waiter.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/gevent/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/python3-gevent-25.4.1/AUTHORS
-* /usr/share/doc/python3-gevent-25.4.1/LICENSE
-* /usr/share/doc/python3-gevent-25.4.1/README.rst
-* /usr/share/doc/python3-gevent-25.4.1/TODO
+* /usr/share/doc/python3-gevent-25.5.1/AUTHORS
+* /usr/share/doc/python3-gevent-25.5.1/LICENSE
+* /usr/share/doc/python3-gevent-25.5.1/README.rst
+* /usr/share/doc/python3-gevent-25.5.1/TODO

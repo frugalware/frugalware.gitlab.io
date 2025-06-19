@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-tomlkit 0.13.2-2"
-version = "0.13.2-2"
+title = "python3-tomlkit 0.13.3-1"
+version = "0.13.3-1"
 description = "Style-preserving TOML library for Python"
-date = "2024-11-02T20:33:06"
+date = "2025-06-19T08:59:12"
 aliases = "/packages/221172"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/tomlkit"
 arch = "x86_64"
-size = "93872"
-usize = "604487"
-sha1sum = "f7d6d6352d17e4071da53a7731e1e5513fde2e40"
+size = "96448"
+usize = "620808"
+sha1sum = "936607963c35602ff7c4cbad71d3bcd7e1e96a74"
 depends = "['python3>=3.13']"
 reverse_depends = "['python3-poetry', 'python3-reuse']"
 +++
@@ -18,10 +18,10 @@ reverse_depends = "['python3-poetry', 'python3-reuse']"
 Style-preserving TOML library for Python
 
 ### Files: 
-* /usr/lib/python3.13/site-packages/tomlkit-0.13.2.dist-info/LICENSE
-* /usr/lib/python3.13/site-packages/tomlkit-0.13.2.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/tomlkit-0.13.2.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/tomlkit-0.13.2.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/tomlkit-0.13.3.dist-info/LICENSE
+* /usr/lib/python3.13/site-packages/tomlkit-0.13.3.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/tomlkit-0.13.3.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/tomlkit-0.13.3.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/tomlkit/api.py
 * /usr/lib/python3.13/site-packages/tomlkit/container.py
 * /usr/lib/python3.13/site-packages/tomlkit/exceptions.py
@@ -62,5 +62,5 @@ Style-preserving TOML library for Python
 * /usr/lib/python3.13/site-packages/tomlkit/__pycache__/_utils.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/tomlkit/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/tomlkit/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/python3-tomlkit-0.13.2/LICENSE
-* /usr/share/doc/python3-tomlkit-0.13.2/README.md
+* /usr/share/doc/python3-tomlkit-0.13.3/LICENSE
+* /usr/share/doc/python3-tomlkit-0.13.3/README.md

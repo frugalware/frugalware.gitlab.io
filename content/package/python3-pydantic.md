@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-pydantic 2.11.3-1"
-version = "2.11.3-1"
+title = "python3-pydantic 2.11.5-1"
+version = "2.11.5-1"
 description = "Data validation using Python type hints"
-date = "2025-04-22T17:55:36"
+date = "2025-06-19T08:47:24"
 aliases = "/packages/221058"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/pydantic"
 arch = "x86_64"
-size = "762708"
-usize = "5417370"
-sha1sum = "810722ffb8caf2d55c993f871d01780aa9e80111"
+size = "763608"
+usize = "5421061"
+sha1sum = "043c3cc7e7029aa029fb22203a77e6198d93469b"
 depends = "['python3-annotated-types', 'python3-pydantic-core']"
 reverse_depends = "['input-remapper', 'krr']"
 +++
@@ -18,10 +18,10 @@ reverse_depends = "['input-remapper', 'krr']"
 Data validation using Python type hints
 
 ### Files: 
-* /usr/lib/python3.13/site-packages/pydantic-2.11.3.dist-info/licenses/LICENSE
-* /usr/lib/python3.13/site-packages/pydantic-2.11.3.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/pydantic-2.11.3.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/pydantic-2.11.3.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/pydantic-2.11.5.dist-info/licenses/LICENSE
+* /usr/lib/python3.13/site-packages/pydantic-2.11.5.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/pydantic-2.11.5.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/pydantic-2.11.5.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/pydantic/aliases.py
 * /usr/lib/python3.13/site-packages/pydantic/alias_generators.py
 * /usr/lib/python3.13/site-packages/pydantic/annotated_handlers.py
@@ -336,5 +336,5 @@ Data validation using Python type hints
 * /usr/lib/python3.13/site-packages/pydantic/__pycache__/_migration.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pydantic/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pydantic/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/python3-pydantic-2.11.3/LICENSE
-* /usr/share/doc/python3-pydantic-2.11.3/README.md
+* /usr/share/doc/python3-pydantic-2.11.5/LICENSE
+* /usr/share/doc/python3-pydantic-2.11.5/README.md

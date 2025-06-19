@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-greenlet 3.2.1-1"
-version = "3.2.1-1"
+title = "python3-greenlet 3.2.3-1"
+version = "3.2.3-1"
 description = "Lightweight in-process concurrent programming"
-date = "2025-04-22T17:39:52"
+date = "2025-06-19T08:18:30"
 aliases = "/packages/219778"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/greenlet"
 arch = "x86_64"
-size = "201496"
-usize = "849448"
-sha1sum = "52950ab739433713d2a8ade884f750c0f31bf72d"
+size = "202672"
+usize = "853025"
+sha1sum = "48fcb5b305abbec230a2c351c400d7e2e6d5d165"
 depends = "['python3>=3.13']"
 reverse_depends = "['python3-eventlet', 'python3-gevent', 'uwsgi-plugin-python']"
 +++
@@ -19,12 +19,12 @@ Lightweight in-process concurrent programming
 
 ### Files: 
 * /usr/include/python3.13/greenlet/greenlet.h
-* /usr/lib/python3.13/site-packages/greenlet-3.2.1-py3.13.egg-info/dependency_links.txt
-* /usr/lib/python3.13/site-packages/greenlet-3.2.1-py3.13.egg-info/not-zip-safe
-* /usr/lib/python3.13/site-packages/greenlet-3.2.1-py3.13.egg-info/PKG-INFO
-* /usr/lib/python3.13/site-packages/greenlet-3.2.1-py3.13.egg-info/requires.txt
-* /usr/lib/python3.13/site-packages/greenlet-3.2.1-py3.13.egg-info/SOURCES.txt
-* /usr/lib/python3.13/site-packages/greenlet-3.2.1-py3.13.egg-info/top_level.txt
+* /usr/lib/python3.13/site-packages/greenlet-3.2.3-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/greenlet-3.2.3-py3.13.egg-info/not-zip-safe
+* /usr/lib/python3.13/site-packages/greenlet-3.2.3-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/greenlet-3.2.3-py3.13.egg-info/requires.txt
+* /usr/lib/python3.13/site-packages/greenlet-3.2.3-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/greenlet-3.2.3-py3.13.egg-info/top_level.txt
 * /usr/lib/python3.13/site-packages/greenlet/CObjects.cpp
 * /usr/lib/python3.13/site-packages/greenlet/greenlet.cpp
 * /usr/lib/python3.13/site-packages/greenlet/greenlet.h
@@ -33,6 +33,7 @@ Lightweight in-process concurrent programming
 * /usr/lib/python3.13/site-packages/greenlet/greenlet_cpython_compat.hpp
 * /usr/lib/python3.13/site-packages/greenlet/greenlet_exceptions.hpp
 * /usr/lib/python3.13/site-packages/greenlet/greenlet_internal.hpp
+* /usr/lib/python3.13/site-packages/greenlet/greenlet_msvc_compat.hpp
 * /usr/lib/python3.13/site-packages/greenlet/greenlet_refs.hpp
 * /usr/lib/python3.13/site-packages/greenlet/greenlet_slp_switch.hpp
 * /usr/lib/python3.13/site-packages/greenlet/greenlet_thread_support.hpp
@@ -137,6 +138,6 @@ Lightweight in-process concurrent programming
 * /usr/lib/python3.13/site-packages/greenlet/_greenlet.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/greenlet/__init__.py
 * /usr/lib/python3.13/site-packages/greenlet/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/python3-greenlet-3.2.1/AUTHORS
-* /usr/share/doc/python3-greenlet-3.2.1/LICENSE
-* /usr/share/doc/python3-greenlet-3.2.1/README.rst
+* /usr/share/doc/python3-greenlet-3.2.3/AUTHORS
+* /usr/share/doc/python3-greenlet-3.2.3/LICENSE
+* /usr/share/doc/python3-greenlet-3.2.3/README.rst

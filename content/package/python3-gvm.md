@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-gvm 26.1.1-1"
-version = "26.1.1-1"
+title = "python3-gvm 26.2.1-1"
+version = "26.2.1-1"
 description = "OpenVAS Python3 bindings"
-date = "2025-03-26T15:04:01"
+date = "2025-06-19T09:13:53"
 aliases = "/packages/219867"
 categories = ['network-extra']
 upstreamurl = "http://www.openvas.org"
 arch = "x86_64"
-size = "170752"
-usize = "1809175"
-sha1sum = "7780fbc1c5a76e07438a9f9266cf80c926c74e25"
+size = "173404"
+usize = "1863267"
+sha1sum = "1e548e1bfd1f773d283d34445e76ec58e371730e"
 depends = "['python3>=3.12']"
 reverse_depends = "['openvas-cli']"
 +++
@@ -199,6 +199,12 @@ OpenVAS Python3 bindings
 * /usr/lib/python3.13/site-packages/gvm/protocols/gmp/requests/v226/__pycache__/_resource_names.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/gvm/protocols/gmp/requests/v226/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/gvm/protocols/gmp/requests/v226/__pycache__/__init__.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/gvm/protocols/gmp/requests/v227/_scanners.py
+* /usr/lib/python3.13/site-packages/gvm/protocols/gmp/requests/v227/__init__.py
+* /usr/lib/python3.13/site-packages/gvm/protocols/gmp/requests/v227/__pycache__/_scanners.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/gvm/protocols/gmp/requests/v227/__pycache__/_scanners.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/gvm/protocols/gmp/requests/v227/__pycache__/__init__.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/gvm/protocols/gmp/requests/v227/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/gvm/protocols/gmp/requests/_entity_id.py
 * /usr/lib/python3.13/site-packages/gvm/protocols/gmp/requests/_version.py
 * /usr/lib/python3.13/site-packages/gvm/protocols/gmp/requests/__init__.py
@@ -212,6 +218,7 @@ OpenVAS Python3 bindings
 * /usr/lib/python3.13/site-packages/gvm/protocols/gmp/_gmp224.py
 * /usr/lib/python3.13/site-packages/gvm/protocols/gmp/_gmp225.py
 * /usr/lib/python3.13/site-packages/gvm/protocols/gmp/_gmp226.py
+* /usr/lib/python3.13/site-packages/gvm/protocols/gmp/_gmp227.py
 * /usr/lib/python3.13/site-packages/gvm/protocols/gmp/__init__.py
 * /usr/lib/python3.13/site-packages/gvm/protocols/gmp/__pycache__/_gmp.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/gvm/protocols/gmp/__pycache__/_gmp.cpython-313.pyc
@@ -221,6 +228,8 @@ OpenVAS Python3 bindings
 * /usr/lib/python3.13/site-packages/gvm/protocols/gmp/__pycache__/_gmp225.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/gvm/protocols/gmp/__pycache__/_gmp226.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/gvm/protocols/gmp/__pycache__/_gmp226.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/gvm/protocols/gmp/__pycache__/_gmp227.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/gvm/protocols/gmp/__pycache__/_gmp227.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/gvm/protocols/gmp/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/gvm/protocols/gmp/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/gvm/protocols/latest.py
@@ -259,9 +268,9 @@ OpenVAS Python3 bindings
 * /usr/lib/python3.13/site-packages/gvm/__pycache__/__version__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/gvm/__pycache__/__version__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/gvm/__version__.py
-* /usr/lib/python3.13/site-packages/python_gvm-26.1.1.dist-info/LICENSE
-* /usr/lib/python3.13/site-packages/python_gvm-26.1.1.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/python_gvm-26.1.1.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/python_gvm-26.1.1.dist-info/WHEEL
-* /usr/share/doc/python3-gvm-26.1.1/LICENSE
-* /usr/share/doc/python3-gvm-26.1.1/README.md
+* /usr/lib/python3.13/site-packages/python_gvm-26.2.1.dist-info/LICENSE
+* /usr/lib/python3.13/site-packages/python_gvm-26.2.1.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/python_gvm-26.2.1.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/python_gvm-26.2.1.dist-info/WHEEL
+* /usr/share/doc/python3-gvm-26.2.1/LICENSE
+* /usr/share/doc/python3-gvm-26.2.1/README.md

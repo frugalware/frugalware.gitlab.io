@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-poetry-core 2.1.2-1"
-version = "2.1.2-1"
+title = "python3-poetry-core 2.1.3-1"
+version = "2.1.3-1"
 description = "Poetry PEP 517 Build Backend & Core Utilities"
-date = "2025-04-22T17:54:24"
+date = "2025-06-19T08:42:43"
 aliases = "/packages/221114"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/poetry_core"
 arch = "x86_64"
-size = "618500"
-usize = "3837730"
-sha1sum = "0cbf02b1a46e569d0f12ca38e75d6e39de55d225"
+size = "619220"
+usize = "3841929"
+sha1sum = "6c82da46bcce9bc63c54d226fdb834d49b14e364"
 depends = "['python3-jsonschema', 'python3-lark-parser', 'python3-packaging']"
 reverse_depends = "['python3-poetry']"
 +++
@@ -464,9 +464,9 @@ Poetry PEP 517 Build Backend & Core Utilities
 * /usr/lib/python3.13/site-packages/poetry/core/__pycache__/poetry.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/poetry/core/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/poetry/core/__pycache__/__init__.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/poetry_core-2.1.2.dist-info/LICENSE
-* /usr/lib/python3.13/site-packages/poetry_core-2.1.2.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/poetry_core-2.1.2.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/poetry_core-2.1.2.dist-info/WHEEL
-* /usr/share/doc/python3-poetry-core-2.1.2/LICENSE
-* /usr/share/doc/python3-poetry-core-2.1.2/README.md
+* /usr/lib/python3.13/site-packages/poetry_core-2.1.3.dist-info/LICENSE
+* /usr/lib/python3.13/site-packages/poetry_core-2.1.3.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/poetry_core-2.1.3.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/poetry_core-2.1.3.dist-info/WHEEL
+* /usr/share/doc/python3-poetry-core-2.1.3/LICENSE
+* /usr/share/doc/python3-poetry-core-2.1.3/README.md

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-networkx 3.4.2-1"
-version = "3.4.2-1"
+title = "python3-networkx 3.5-1"
+version = "3.5-1"
 description = "Python package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks"
-date = "2024-12-24T11:50:35"
+date = "2025-06-19T08:37:12"
 aliases = "/packages/220217"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/networkx/networkx"
 arch = "x86_64"
-size = "2815068"
-usize = "21532720"
-sha1sum = "71424853845f624394bb5069a4a356cac8774a7a"
+size = "3159384"
+usize = "22450991"
+sha1sum = "331b70ca747c86d872992ccba1daa8611779b5de"
 depends = "['python3-decorator']"
 reverse_depends = "['python3-pythran']"
 +++
@@ -18,15 +18,16 @@ reverse_depends = "['python3-pythran']"
 Python package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks
 
 ### Files: 
-* /usr/lib/python3.13/site-packages/networkx-3.4.2.dist-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/networkx-3.4.2.dist-info/LICENSE.txt
-* /usr/lib/python3.13/site-packages/networkx-3.4.2.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/networkx-3.4.2.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/networkx-3.4.2.dist-info/top_level.txt
-* /usr/lib/python3.13/site-packages/networkx-3.4.2.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/networkx-3.5.dist-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/networkx-3.5.dist-info/licenses/LICENSE.txt
+* /usr/lib/python3.13/site-packages/networkx-3.5.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/networkx-3.5.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/networkx-3.5.dist-info/top_level.txt
+* /usr/lib/python3.13/site-packages/networkx-3.5.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/networkx/algorithms/approximation/clique.py
 * /usr/lib/python3.13/site-packages/networkx/algorithms/approximation/clustering_coefficient.py
 * /usr/lib/python3.13/site-packages/networkx/algorithms/approximation/connectivity.py
+* /usr/lib/python3.13/site-packages/networkx/algorithms/approximation/density.py
 * /usr/lib/python3.13/site-packages/networkx/algorithms/approximation/distance_measures.py
 * /usr/lib/python3.13/site-packages/networkx/algorithms/approximation/dominating_set.py
 * /usr/lib/python3.13/site-packages/networkx/algorithms/approximation/kcomponents.py
@@ -37,6 +38,7 @@ Python package for the creation, manipulation, and study of the structure, dynam
 * /usr/lib/python3.13/site-packages/networkx/algorithms/approximation/tests/test_approx_clust_coeff.py
 * /usr/lib/python3.13/site-packages/networkx/algorithms/approximation/tests/test_clique.py
 * /usr/lib/python3.13/site-packages/networkx/algorithms/approximation/tests/test_connectivity.py
+* /usr/lib/python3.13/site-packages/networkx/algorithms/approximation/tests/test_density.py
 * /usr/lib/python3.13/site-packages/networkx/algorithms/approximation/tests/test_distance_measures.py
 * /usr/lib/python3.13/site-packages/networkx/algorithms/approximation/tests/test_dominating_set.py
 * /usr/lib/python3.13/site-packages/networkx/algorithms/approximation/tests/test_kcomponents.py
@@ -54,6 +56,8 @@ Python package for the creation, manipulation, and study of the structure, dynam
 * /usr/lib/python3.13/site-packages/networkx/algorithms/approximation/tests/__pycache__/test_clique.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/networkx/algorithms/approximation/tests/__pycache__/test_connectivity.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/networkx/algorithms/approximation/tests/__pycache__/test_connectivity.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/networkx/algorithms/approximation/tests/__pycache__/test_density.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/networkx/algorithms/approximation/tests/__pycache__/test_density.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/networkx/algorithms/approximation/tests/__pycache__/test_distance_measures.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/networkx/algorithms/approximation/tests/__pycache__/test_distance_measures.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/networkx/algorithms/approximation/tests/__pycache__/test_dominating_set.cpython-313.opt-1.pyc
@@ -86,6 +90,8 @@ Python package for the creation, manipulation, and study of the structure, dynam
 * /usr/lib/python3.13/site-packages/networkx/algorithms/approximation/__pycache__/clustering_coefficient.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/networkx/algorithms/approximation/__pycache__/connectivity.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/networkx/algorithms/approximation/__pycache__/connectivity.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/networkx/algorithms/approximation/__pycache__/density.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/networkx/algorithms/approximation/__pycache__/density.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/networkx/algorithms/approximation/__pycache__/distance_measures.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/networkx/algorithms/approximation/__pycache__/distance_measures.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/networkx/algorithms/approximation/__pycache__/dominating_set.cpython-313.opt-1.pyc
@@ -155,6 +161,7 @@ Python package for the creation, manipulation, and study of the structure, dynam
 * /usr/lib/python3.13/site-packages/networkx/algorithms/bipartite/edgelist.py
 * /usr/lib/python3.13/site-packages/networkx/algorithms/bipartite/extendability.py
 * /usr/lib/python3.13/site-packages/networkx/algorithms/bipartite/generators.py
+* /usr/lib/python3.13/site-packages/networkx/algorithms/bipartite/link_analysis.py
 * /usr/lib/python3.13/site-packages/networkx/algorithms/bipartite/matching.py
 * /usr/lib/python3.13/site-packages/networkx/algorithms/bipartite/matrix.py
 * /usr/lib/python3.13/site-packages/networkx/algorithms/bipartite/projection.py
@@ -167,6 +174,7 @@ Python package for the creation, manipulation, and study of the structure, dynam
 * /usr/lib/python3.13/site-packages/networkx/algorithms/bipartite/tests/test_edgelist.py
 * /usr/lib/python3.13/site-packages/networkx/algorithms/bipartite/tests/test_extendability.py
 * /usr/lib/python3.13/site-packages/networkx/algorithms/bipartite/tests/test_generators.py
+* /usr/lib/python3.13/site-packages/networkx/algorithms/bipartite/tests/test_link_analysis.py
 * /usr/lib/python3.13/site-packages/networkx/algorithms/bipartite/tests/test_matching.py
 * /usr/lib/python3.13/site-packages/networkx/algorithms/bipartite/tests/test_matrix.py
 * /usr/lib/python3.13/site-packages/networkx/algorithms/bipartite/tests/test_project.py
@@ -187,6 +195,8 @@ Python package for the creation, manipulation, and study of the structure, dynam
 * /usr/lib/python3.13/site-packages/networkx/algorithms/bipartite/tests/__pycache__/test_extendability.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/networkx/algorithms/bipartite/tests/__pycache__/test_generators.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/networkx/algorithms/bipartite/tests/__pycache__/test_generators.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/networkx/algorithms/bipartite/tests/__pycache__/test_link_analysis.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/networkx/algorithms/bipartite/tests/__pycache__/test_link_analysis.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/networkx/algorithms/bipartite/tests/__pycache__/test_matching.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/networkx/algorithms/bipartite/tests/__pycache__/test_matching.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/networkx/algorithms/bipartite/tests/__pycache__/test_matrix.cpython-313.opt-1.pyc
@@ -214,6 +224,8 @@ Python package for the creation, manipulation, and study of the structure, dynam
 * /usr/lib/python3.13/site-packages/networkx/algorithms/bipartite/__pycache__/extendability.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/networkx/algorithms/bipartite/__pycache__/generators.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/networkx/algorithms/bipartite/__pycache__/generators.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/networkx/algorithms/bipartite/__pycache__/link_analysis.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/networkx/algorithms/bipartite/__pycache__/link_analysis.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/networkx/algorithms/bipartite/__pycache__/matching.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/networkx/algorithms/bipartite/__pycache__/matching.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/networkx/algorithms/bipartite/__pycache__/matrix.cpython-313.opt-1.pyc
@@ -385,6 +397,8 @@ Python package for the creation, manipulation, and study of the structure, dynam
 * /usr/lib/python3.13/site-packages/networkx/algorithms/community/kclique.py
 * /usr/lib/python3.13/site-packages/networkx/algorithms/community/kernighan_lin.py
 * /usr/lib/python3.13/site-packages/networkx/algorithms/community/label_propagation.py
+* /usr/lib/python3.13/site-packages/networkx/algorithms/community/leiden.py
+* /usr/lib/python3.13/site-packages/networkx/algorithms/community/local.py
 * /usr/lib/python3.13/site-packages/networkx/algorithms/community/louvain.py
 * /usr/lib/python3.13/site-packages/networkx/algorithms/community/lukes.py
 * /usr/lib/python3.13/site-packages/networkx/algorithms/community/modularity_max.py
@@ -395,6 +409,8 @@ Python package for the creation, manipulation, and study of the structure, dynam
 * /usr/lib/python3.13/site-packages/networkx/algorithms/community/tests/test_kclique.py
 * /usr/lib/python3.13/site-packages/networkx/algorithms/community/tests/test_kernighan_lin.py
 * /usr/lib/python3.13/site-packages/networkx/algorithms/community/tests/test_label_propagation.py
+* /usr/lib/python3.13/site-packages/networkx/algorithms/community/tests/test_leiden.py
+* /usr/lib/python3.13/site-packages/networkx/algorithms/community/tests/test_local.py
 * /usr/lib/python3.13/site-packages/networkx/algorithms/community/tests/test_louvain.py
 * /usr/lib/python3.13/site-packages/networkx/algorithms/community/tests/test_lukes.py
 * /usr/lib/python3.13/site-packages/networkx/algorithms/community/tests/test_modularity_max.py
@@ -413,6 +429,10 @@ Python package for the creation, manipulation, and study of the structure, dynam
 * /usr/lib/python3.13/site-packages/networkx/algorithms/community/tests/__pycache__/test_kernighan_lin.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/networkx/algorithms/community/tests/__pycache__/test_label_propagation.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/networkx/algorithms/community/tests/__pycache__/test_label_propagation.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/networkx/algorithms/community/tests/__pycache__/test_leiden.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/networkx/algorithms/community/tests/__pycache__/test_leiden.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/networkx/algorithms/community/tests/__pycache__/test_local.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/networkx/algorithms/community/tests/__pycache__/test_local.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/networkx/algorithms/community/tests/__pycache__/test_louvain.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/networkx/algorithms/community/tests/__pycache__/test_louvain.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/networkx/algorithms/community/tests/__pycache__/test_lukes.cpython-313.opt-1.pyc
@@ -440,6 +460,10 @@ Python package for the creation, manipulation, and study of the structure, dynam
 * /usr/lib/python3.13/site-packages/networkx/algorithms/community/__pycache__/kernighan_lin.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/networkx/algorithms/community/__pycache__/label_propagation.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/networkx/algorithms/community/__pycache__/label_propagation.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/networkx/algorithms/community/__pycache__/leiden.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/networkx/algorithms/community/__pycache__/leiden.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/networkx/algorithms/community/__pycache__/local.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/networkx/algorithms/community/__pycache__/local.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/networkx/algorithms/community/__pycache__/louvain.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/networkx/algorithms/community/__pycache__/louvain.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/networkx/algorithms/community/__pycache__/lukes.cpython-313.opt-1.pyc
@@ -1258,6 +1282,11 @@ Python package for the creation, manipulation, and study of the structure, dynam
 * /usr/lib/python3.13/site-packages/networkx/drawing/nx_latex.py
 * /usr/lib/python3.13/site-packages/networkx/drawing/nx_pydot.py
 * /usr/lib/python3.13/site-packages/networkx/drawing/nx_pylab.py
+* /usr/lib/python3.13/site-packages/networkx/drawing/tests/baseline/test_display_complex.png
+* /usr/lib/python3.13/site-packages/networkx/drawing/tests/baseline/test_display_empty_graph.png
+* /usr/lib/python3.13/site-packages/networkx/drawing/tests/baseline/test_display_house_with_colors.png
+* /usr/lib/python3.13/site-packages/networkx/drawing/tests/baseline/test_display_labels_and_colors.png
+* /usr/lib/python3.13/site-packages/networkx/drawing/tests/baseline/test_display_shortest_path.png
 * /usr/lib/python3.13/site-packages/networkx/drawing/tests/baseline/test_house_with_colors.png
 * /usr/lib/python3.13/site-packages/networkx/drawing/tests/test_agraph.py
 * /usr/lib/python3.13/site-packages/networkx/drawing/tests/test_latex.py
@@ -1732,5 +1761,5 @@ Python package for the creation, manipulation, and study of the structure, dynam
 * /usr/lib/python3.13/site-packages/networkx/__pycache__/relabel.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/networkx/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/networkx/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/python3-networkx-3.4.2/INSTALL.rst
-* /usr/share/doc/python3-networkx-3.4.2/README.rst
+* /usr/share/doc/python3-networkx-3.5/INSTALL.rst
+* /usr/share/doc/python3-networkx-3.5/README.rst

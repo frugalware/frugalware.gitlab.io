@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-jsonschema-specifications 2024.10.1-1"
-version = "2024.10.1-1"
+title = "python3-jsonschema-specifications 2025.4.1-1"
+version = "2025.4.1-1"
 description = "The JSON Schema meta-schemas and vocabularies, exposed as a Registry"
-date = "2024-11-01T22:16:35"
+date = "2025-06-19T08:23:42"
 aliases = "/packages/221463"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/jsonschema_specifications"
 arch = "x86_64"
-size = "10424"
-usize = "57504"
-sha1sum = "685f4abaf05c63bc7d237a69939311b6e03e3379"
+size = "10512"
+usize = "57422"
+sha1sum = "618a32f5222f193c9e06cf32ec495d758ed49d8a"
 depends = "['python3-referencing']"
 reverse_depends = "['python3-jsonschema']"
 +++
@@ -18,10 +18,10 @@ reverse_depends = "['python3-jsonschema']"
 The JSON Schema meta-schemas and vocabularies, exposed as a Registry
 
 ### Files: 
-* /usr/lib/python3.13/site-packages/jsonschema_specifications-2024.10.1.dist-info/licenses/COPYING
-* /usr/lib/python3.13/site-packages/jsonschema_specifications-2024.10.1.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/jsonschema_specifications-2024.10.1.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/jsonschema_specifications-2024.10.1.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/jsonschema_specifications-2025.4.1.dist-info/licenses/COPYING
+* /usr/lib/python3.13/site-packages/jsonschema_specifications-2025.4.1.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/jsonschema_specifications-2025.4.1.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/jsonschema_specifications-2025.4.1.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/jsonschema_specifications/schemas/draft201909/metaschema.json
 * /usr/lib/python3.13/site-packages/jsonschema_specifications/schemas/draft201909/vocabularies/applicator
 * /usr/lib/python3.13/site-packages/jsonschema_specifications/schemas/draft201909/vocabularies/content
@@ -54,5 +54,5 @@ The JSON Schema meta-schemas and vocabularies, exposed as a Registry
 * /usr/lib/python3.13/site-packages/jsonschema_specifications/__pycache__/_core.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/jsonschema_specifications/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/jsonschema_specifications/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/python3-jsonschema-specifications-2024.10.1/COPYING
-* /usr/share/doc/python3-jsonschema-specifications-2024.10.1/README.rst
+* /usr/share/doc/python3-jsonschema-specifications-2025.4.1/COPYING
+* /usr/share/doc/python3-jsonschema-specifications-2025.4.1/README.rst

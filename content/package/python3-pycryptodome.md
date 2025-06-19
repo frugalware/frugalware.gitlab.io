@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-pycryptodome 3.22.0-1"
-version = "3.22.0-1"
+title = "python3-pycryptodome 3.23.0-1"
+version = "3.23.0-1"
 description = "Collection of cryptographic algorithms and protocols, implemented for use from Python 3."
-date = "2025-03-26T14:09:05"
+date = "2025-06-19T08:46:40"
 aliases = "/packages/220285"
 categories = ['devel-extra']
 upstreamurl = "https://www.pycryptodome.org/"
 arch = "x86_64"
-size = "1521448"
-usize = "6405351"
-sha1sum = "c1075a718d72ced9527a99d92e11b1ba589cfb6f"
+size = "1532644"
+usize = "6456160"
+sha1sum = "f67f35a44b9f7b0a063cb96d37fa4b3a21d118b9"
 depends = "['gmp', 'python3>=3.12']"
 reverse_depends = "['streamlink']"
 +++
@@ -60,6 +60,8 @@ Collection of cryptographic algorithms and protocols, implemented for use from P
 * /usr/lib/python3.13/site-packages/Crypto/Cipher/_mode_ecb.pyi
 * /usr/lib/python3.13/site-packages/Crypto/Cipher/_mode_gcm.py
 * /usr/lib/python3.13/site-packages/Crypto/Cipher/_mode_gcm.pyi
+* /usr/lib/python3.13/site-packages/Crypto/Cipher/_mode_kw.py
+* /usr/lib/python3.13/site-packages/Crypto/Cipher/_mode_kwp.py
 * /usr/lib/python3.13/site-packages/Crypto/Cipher/_mode_ocb.py
 * /usr/lib/python3.13/site-packages/Crypto/Cipher/_mode_ocb.pyi
 * /usr/lib/python3.13/site-packages/Crypto/Cipher/_mode_ofb.py
@@ -107,6 +109,8 @@ Collection of cryptographic algorithms and protocols, implemented for use from P
 * /usr/lib/python3.13/site-packages/Crypto/Cipher/__pycache__/_mode_eax.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/Crypto/Cipher/__pycache__/_mode_ecb.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/Crypto/Cipher/__pycache__/_mode_gcm.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/Crypto/Cipher/__pycache__/_mode_kw.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/Crypto/Cipher/__pycache__/_mode_kwp.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/Crypto/Cipher/__pycache__/_mode_ocb.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/Crypto/Cipher/__pycache__/_mode_ofb.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/Crypto/Cipher/__pycache__/_mode_openpgp.cpython-313.pyc
@@ -331,6 +335,7 @@ Collection of cryptographic algorithms and protocols, implemented for use from P
 * /usr/lib/python3.13/site-packages/Crypto/SelfTest/Cipher/test_DES3.py
 * /usr/lib/python3.13/site-packages/Crypto/SelfTest/Cipher/test_EAX.py
 * /usr/lib/python3.13/site-packages/Crypto/SelfTest/Cipher/test_GCM.py
+* /usr/lib/python3.13/site-packages/Crypto/SelfTest/Cipher/test_KW.py
 * /usr/lib/python3.13/site-packages/Crypto/SelfTest/Cipher/test_OCB.py
 * /usr/lib/python3.13/site-packages/Crypto/SelfTest/Cipher/test_OFB.py
 * /usr/lib/python3.13/site-packages/Crypto/SelfTest/Cipher/test_OpenPGP.py
@@ -355,6 +360,7 @@ Collection of cryptographic algorithms and protocols, implemented for use from P
 * /usr/lib/python3.13/site-packages/Crypto/SelfTest/Cipher/__pycache__/test_DES3.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/Crypto/SelfTest/Cipher/__pycache__/test_EAX.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/Crypto/SelfTest/Cipher/__pycache__/test_GCM.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/Crypto/SelfTest/Cipher/__pycache__/test_KW.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/Crypto/SelfTest/Cipher/__pycache__/test_OCB.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/Crypto/SelfTest/Cipher/__pycache__/test_OFB.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/Crypto/SelfTest/Cipher/__pycache__/test_OpenPGP.cpython-313.pyc
@@ -564,10 +570,10 @@ Collection of cryptographic algorithms and protocols, implemented for use from P
 * /usr/lib/python3.13/site-packages/Crypto/__init__.py
 * /usr/lib/python3.13/site-packages/Crypto/__init__.pyi
 * /usr/lib/python3.13/site-packages/Crypto/__pycache__/__init__.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/pycryptodome-3.22.0-py3.13.egg-info/dependency_links.txt
-* /usr/lib/python3.13/site-packages/pycryptodome-3.22.0-py3.13.egg-info/not-zip-safe
-* /usr/lib/python3.13/site-packages/pycryptodome-3.22.0-py3.13.egg-info/PKG-INFO
-* /usr/lib/python3.13/site-packages/pycryptodome-3.22.0-py3.13.egg-info/SOURCES.txt
-* /usr/lib/python3.13/site-packages/pycryptodome-3.22.0-py3.13.egg-info/top_level.txt
-* /usr/share/doc/python3-pycryptodome-3.22.0/INSTALL.rst
-* /usr/share/doc/python3-pycryptodome-3.22.0/README.rst
+* /usr/lib/python3.13/site-packages/pycryptodome-3.23.0-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/pycryptodome-3.23.0-py3.13.egg-info/not-zip-safe
+* /usr/lib/python3.13/site-packages/pycryptodome-3.23.0-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/pycryptodome-3.23.0-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/pycryptodome-3.23.0-py3.13.egg-info/top_level.txt
+* /usr/share/doc/python3-pycryptodome-3.23.0/INSTALL.rst
+* /usr/share/doc/python3-pycryptodome-3.23.0/README.rst

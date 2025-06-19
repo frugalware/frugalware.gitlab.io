@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-google-auth 2.39.0-1"
-version = "2.39.0-1"
+title = "python3-google-auth 2.40.3-1"
+version = "2.40.3-1"
 description = "Google Authentication Library"
-date = "2025-04-22T17:39:16"
+date = "2025-06-19T08:17:48"
 aliases = "/packages/222667"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/google-auth"
 arch = "x86_64"
-size = "249184"
-usize = "2207631"
-sha1sum = "b97fc0d31dc386d578419b2d062fc29889201147"
+size = "254544"
+usize = "2241775"
+sha1sum = "5f7ff97c874ddfc29d2e1505e566890d6b9c6e54"
 depends = "['certifi', 'python3-cachetools', 'python3-cgi', 'python3-oauth2client', 'python3-packaging', 'python3-pyasn1-modules', 'python3-rsa']"
 reverse_depends = "['python3-kubernetes']"
 +++
@@ -28,9 +28,12 @@ Google Authentication Library
 * /usr/lib/python3.13/site-packages/google/auth/aio/transport/__pycache__/sessions.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/google/auth/aio/transport/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/google/auth/aio/transport/__pycache__/__init__.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/google/auth/aio/_helpers.py
 * /usr/lib/python3.13/site-packages/google/auth/aio/__init__.py
 * /usr/lib/python3.13/site-packages/google/auth/aio/__pycache__/credentials.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/google/auth/aio/__pycache__/credentials.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/google/auth/aio/__pycache__/_helpers.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/google/auth/aio/__pycache__/_helpers.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/google/auth/aio/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/google/auth/aio/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/google/auth/api_key.py
@@ -233,10 +236,10 @@ Google Authentication Library
 * /usr/lib/python3.13/site-packages/google/oauth2/__pycache__/_service_account_async.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/google/oauth2/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/google/oauth2/__pycache__/__init__.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/google_auth-2.39.0.dist-info/licenses/LICENSE
-* /usr/lib/python3.13/site-packages/google_auth-2.39.0.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/google_auth-2.39.0.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/google_auth-2.39.0.dist-info/top_level.txt
-* /usr/lib/python3.13/site-packages/google_auth-2.39.0.dist-info/WHEEL
-* /usr/share/doc/python3-google-auth-2.39.0/LICENSE
-* /usr/share/doc/python3-google-auth-2.39.0/README.rst
+* /usr/lib/python3.13/site-packages/google_auth-2.40.3.dist-info/licenses/LICENSE
+* /usr/lib/python3.13/site-packages/google_auth-2.40.3.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/google_auth-2.40.3.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/google_auth-2.40.3.dist-info/top_level.txt
+* /usr/lib/python3.13/site-packages/google_auth-2.40.3.dist-info/WHEEL
+* /usr/share/doc/python3-google-auth-2.40.3/LICENSE
+* /usr/share/doc/python3-google-auth-2.40.3/README.rst

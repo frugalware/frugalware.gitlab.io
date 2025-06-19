@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-snowballstemmer 2.2.0-6"
-version = "2.2.0-6"
+title = "python3-snowballstemmer 3.0.1-1"
+version = "3.0.1-1"
 description = "Python stemming library"
-date = "2024-11-02T17:09:11"
+date = "2025-06-19T08:58:33"
 aliases = "/packages/220105"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/snowballstemmer"
 arch = "x86_64"
-size = "206832"
-usize = "1825208"
-sha1sum = "ed2d1c2561af32c0db04c38ae5c418bca3490835"
+size = "232192"
+usize = "1977494"
+sha1sum = "074e993f85bc3303d709c3572efbb60ea41cc242"
 depends = "['python3>=3.13']"
 reverse_depends = "['python3-sphinx']"
 +++
@@ -18,10 +18,10 @@ reverse_depends = "['python3-sphinx']"
 Python stemming library
 
 ### Files: 
-* /usr/lib/python3.13/site-packages/snowballstemmer-2.2.0-py3.13.egg-info/dependency_links.txt
-* /usr/lib/python3.13/site-packages/snowballstemmer-2.2.0-py3.13.egg-info/PKG-INFO
-* /usr/lib/python3.13/site-packages/snowballstemmer-2.2.0-py3.13.egg-info/SOURCES.txt
-* /usr/lib/python3.13/site-packages/snowballstemmer-2.2.0-py3.13.egg-info/top_level.txt
+* /usr/lib/python3.13/site-packages/snowballstemmer-3.0.1-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/snowballstemmer-3.0.1-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/snowballstemmer-3.0.1-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/snowballstemmer-3.0.1-py3.13.egg-info/top_level.txt
 * /usr/lib/python3.13/site-packages/snowballstemmer/among.py
 * /usr/lib/python3.13/site-packages/snowballstemmer/arabic_stemmer.py
 * /usr/lib/python3.13/site-packages/snowballstemmer/armenian_stemmer.py
@@ -29,8 +29,11 @@ Python stemming library
 * /usr/lib/python3.13/site-packages/snowballstemmer/basque_stemmer.py
 * /usr/lib/python3.13/site-packages/snowballstemmer/catalan_stemmer.py
 * /usr/lib/python3.13/site-packages/snowballstemmer/danish_stemmer.py
+* /usr/lib/python3.13/site-packages/snowballstemmer/dutch_porter_stemmer.py
 * /usr/lib/python3.13/site-packages/snowballstemmer/dutch_stemmer.py
 * /usr/lib/python3.13/site-packages/snowballstemmer/english_stemmer.py
+* /usr/lib/python3.13/site-packages/snowballstemmer/esperanto_stemmer.py
+* /usr/lib/python3.13/site-packages/snowballstemmer/estonian_stemmer.py
 * /usr/lib/python3.13/site-packages/snowballstemmer/finnish_stemmer.py
 * /usr/lib/python3.13/site-packages/snowballstemmer/french_stemmer.py
 * /usr/lib/python3.13/site-packages/snowballstemmer/german_stemmer.py
@@ -61,8 +64,11 @@ Python stemming library
 * /usr/lib/python3.13/site-packages/snowballstemmer/__pycache__/basque_stemmer.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/snowballstemmer/__pycache__/catalan_stemmer.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/snowballstemmer/__pycache__/danish_stemmer.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/snowballstemmer/__pycache__/dutch_porter_stemmer.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/snowballstemmer/__pycache__/dutch_stemmer.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/snowballstemmer/__pycache__/english_stemmer.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/snowballstemmer/__pycache__/esperanto_stemmer.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/snowballstemmer/__pycache__/estonian_stemmer.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/snowballstemmer/__pycache__/finnish_stemmer.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/snowballstemmer/__pycache__/french_stemmer.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/snowballstemmer/__pycache__/german_stemmer.cpython-313.pyc
@@ -86,6 +92,6 @@ Python stemming library
 * /usr/lib/python3.13/site-packages/snowballstemmer/__pycache__/turkish_stemmer.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/snowballstemmer/__pycache__/yiddish_stemmer.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/snowballstemmer/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/python3-snowballstemmer-2.2.0/COPYING
-* /usr/share/doc/python3-snowballstemmer-2.2.0/NEWS
-* /usr/share/doc/python3-snowballstemmer-2.2.0/README.rst
+* /usr/share/doc/python3-snowballstemmer-3.0.1/COPYING
+* /usr/share/doc/python3-snowballstemmer-3.0.1/NEWS
+* /usr/share/doc/python3-snowballstemmer-3.0.1/README.rst

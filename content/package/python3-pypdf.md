@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-pypdf 5.4.0-1"
-version = "5.4.0-1"
+title = "python3-pypdf 5.6.0-1"
+version = "5.6.0-1"
 description = "Python library for manipulating pages of PDF files"
-date = "2025-03-26T14:12:53"
+date = "2025-06-19T08:49:50"
 aliases = "/packages/222577"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/pypdf"
 arch = "x86_64"
-size = "595460"
-usize = "4329844"
-sha1sum = "b531d6ee8c4fe014e2b7c9d52b0d8ec981e9baab"
+size = "599660"
+usize = "4357766"
+sha1sum = "be94f0cb28aa21c44f17e272d56c4a10b122cca7"
 depends = "['python3']"
 reverse_depends = "['alpaca', 'psutils']"
 +++
@@ -18,10 +18,10 @@ reverse_depends = "['alpaca', 'psutils']"
 Python library for manipulating pages of PDF files
 
 ### Files: 
-* /usr/lib/python3.13/site-packages/pypdf-5.4.0.dist-info/licenses/LICENSE
-* /usr/lib/python3.13/site-packages/pypdf-5.4.0.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/pypdf-5.4.0.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/pypdf-5.4.0.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/pypdf-5.6.0.dist-info/licenses/LICENSE
+* /usr/lib/python3.13/site-packages/pypdf-5.6.0.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/pypdf-5.6.0.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/pypdf-5.6.0.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/pypdf/annotations/_base.py
 * /usr/lib/python3.13/site-packages/pypdf/annotations/_markup_annotations.py
 * /usr/lib/python3.13/site-packages/pypdf/annotations/_non_markup_annotations.py
@@ -182,5 +182,5 @@ Python library for manipulating pages of PDF files
 * /usr/lib/python3.13/site-packages/pypdf/__pycache__/_xobj_image_helpers.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pypdf/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/pypdf/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/python3-pypdf-5.4.0/LICENSE
-* /usr/share/doc/python3-pypdf-5.4.0/README.md
+* /usr/share/doc/python3-pypdf-5.6.0/LICENSE
+* /usr/share/doc/python3-pypdf-5.6.0/README.md

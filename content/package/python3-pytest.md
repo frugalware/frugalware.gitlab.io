@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-pytest 8.3.5-1"
-version = "8.3.5-1"
+title = "python3-pytest 8.4.1-1"
+version = "8.4.1-1"
 description = "Simple powerful testing with Python"
-date = "2025-03-26T14:13:35"
+date = "2025-06-19T08:50:29"
 aliases = "/packages/221194"
 categories = ['devel-extra']
 upstreamurl = "https://pytest.org/"
 arch = "x86_64"
-size = "661992"
-usize = "4129601"
-sha1sum = "92a8ce18574d7b2586a38f8ecf24450d4baaa6bc"
+size = "700544"
+usize = "4389784"
+sha1sum = "5d5e43809b0e5cc3ed0e96d3702a7088256b2cd7"
 depends = "['python3-iniconfig', 'python3-packaging', 'python3-pluggy']"
 +++
 ### Description: 
@@ -20,13 +20,13 @@ Simple powerful testing with Python
 * /usr/bin/py.test
 * /usr/bin/pytest
 * /usr/lib/python3.13/site-packages/py.py
-* /usr/lib/python3.13/site-packages/pytest-8.3.5.dist-info/AUTHORS
-* /usr/lib/python3.13/site-packages/pytest-8.3.5.dist-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/pytest-8.3.5.dist-info/LICENSE
-* /usr/lib/python3.13/site-packages/pytest-8.3.5.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/pytest-8.3.5.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/pytest-8.3.5.dist-info/top_level.txt
-* /usr/lib/python3.13/site-packages/pytest-8.3.5.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/pytest-8.4.1.dist-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/pytest-8.4.1.dist-info/licenses/AUTHORS
+* /usr/lib/python3.13/site-packages/pytest-8.4.1.dist-info/licenses/LICENSE
+* /usr/lib/python3.13/site-packages/pytest-8.4.1.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/pytest-8.4.1.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/pytest-8.4.1.dist-info/top_level.txt
+* /usr/lib/python3.13/site-packages/pytest-8.4.1.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/pytest/py.typed
 * /usr/lib/python3.13/site-packages/pytest/__init__.py
 * /usr/lib/python3.13/site-packages/pytest/__main__.py
@@ -95,7 +95,7 @@ Simple powerful testing with Python
 * /usr/lib/python3.13/site-packages/_pytest/pytester_assertions.py
 * /usr/lib/python3.13/site-packages/_pytest/python.py
 * /usr/lib/python3.13/site-packages/_pytest/python_api.py
-* /usr/lib/python3.13/site-packages/_pytest/python_path.py
+* /usr/lib/python3.13/site-packages/_pytest/raises.py
 * /usr/lib/python3.13/site-packages/_pytest/recwarn.py
 * /usr/lib/python3.13/site-packages/_pytest/reports.py
 * /usr/lib/python3.13/site-packages/_pytest/runner.py
@@ -109,6 +109,7 @@ Simple powerful testing with Python
 * /usr/lib/python3.13/site-packages/_pytest/threadexception.py
 * /usr/lib/python3.13/site-packages/_pytest/timing.py
 * /usr/lib/python3.13/site-packages/_pytest/tmpdir.py
+* /usr/lib/python3.13/site-packages/_pytest/tracemalloc.py
 * /usr/lib/python3.13/site-packages/_pytest/unittest.py
 * /usr/lib/python3.13/site-packages/_pytest/unraisableexception.py
 * /usr/lib/python3.13/site-packages/_pytest/warnings.py
@@ -197,8 +198,8 @@ Simple powerful testing with Python
 * /usr/lib/python3.13/site-packages/_pytest/__pycache__/python.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/_pytest/__pycache__/python_api.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/_pytest/__pycache__/python_api.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/_pytest/__pycache__/python_path.cpython-313.opt-1.pyc
-* /usr/lib/python3.13/site-packages/_pytest/__pycache__/python_path.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/_pytest/__pycache__/raises.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/_pytest/__pycache__/raises.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/_pytest/__pycache__/recwarn.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/_pytest/__pycache__/recwarn.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/_pytest/__pycache__/reports.cpython-313.opt-1.pyc
@@ -225,6 +226,8 @@ Simple powerful testing with Python
 * /usr/lib/python3.13/site-packages/_pytest/__pycache__/timing.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/_pytest/__pycache__/tmpdir.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/_pytest/__pycache__/tmpdir.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/_pytest/__pycache__/tracemalloc.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/_pytest/__pycache__/tracemalloc.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/_pytest/__pycache__/unittest.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/_pytest/__pycache__/unittest.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/_pytest/__pycache__/unraisableexception.cpython-313.opt-1.pyc
@@ -241,6 +244,6 @@ Simple powerful testing with Python
 * /usr/lib/python3.13/site-packages/_pytest/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/__pycache__/py.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/__pycache__/py.cpython-313.pyc
-* /usr/share/doc/python3-pytest-8.3.5/AUTHORS
-* /usr/share/doc/python3-pytest-8.3.5/LICENSE
-* /usr/share/doc/python3-pytest-8.3.5/README.rst
+* /usr/share/doc/python3-pytest-8.4.1/AUTHORS
+* /usr/share/doc/python3-pytest-8.4.1/LICENSE
+* /usr/share/doc/python3-pytest-8.4.1/README.rst

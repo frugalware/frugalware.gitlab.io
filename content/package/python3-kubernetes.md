@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-kubernetes 32.0.1-2"
-version = "32.0.1-2"
+title = "python3-kubernetes 33.1.0-1"
+version = "33.1.0-1"
 description = "Python client for the kubernetes API"
-date = "2025-02-26T14:31:37"
+date = "2025-06-19T08:24:30"
 aliases = "/packages/222670"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/kubernetes"
 arch = "x86_64"
-size = "1059316"
-usize = "42904582"
-sha1sum = "e6bfe30c92773ea976a9d8cd446473ca24308958"
+size = "1228952"
+usize = "47257130"
+sha1sum = "3c1a9ffa443a19df1252875d0220aabed79f8b01"
 depends = "['certifi', 'python3-adal', 'python3-dateutil', 'python3-durationpy', 'python3-google-auth', 'python3-requests-oauthlib', 'python3-six', 'python3-urllib3', 'python3-websocket_client', 'pyyaml3']"
 reverse_depends = "['krr']"
 +++
@@ -18,11 +18,11 @@ reverse_depends = "['krr']"
 Python client for the kubernetes API
 
 ### Files: 
-* /usr/lib/python3.13/site-packages/kubernetes-32.0.1.dist-info/LICENSE
-* /usr/lib/python3.13/site-packages/kubernetes-32.0.1.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/kubernetes-32.0.1.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/kubernetes-32.0.1.dist-info/top_level.txt
-* /usr/lib/python3.13/site-packages/kubernetes-32.0.1.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/kubernetes-33.1.0.dist-info/licenses/LICENSE
+* /usr/lib/python3.13/site-packages/kubernetes-33.1.0.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/kubernetes-33.1.0.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/kubernetes-33.1.0.dist-info/top_level.txt
+* /usr/lib/python3.13/site-packages/kubernetes-33.1.0.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/kubernetes/client/api/admissionregistration_api.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/api/admissionregistration_v1alpha1_api.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/api/admissionregistration_v1beta1_api.py
@@ -35,7 +35,6 @@ Python client for the kubernetes API
 * /usr/lib/python3.13/site-packages/kubernetes/client/api/apps_api.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/api/apps_v1_api.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/api/authentication_api.py
-* /usr/lib/python3.13/site-packages/kubernetes/client/api/authentication_v1beta1_api.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/api/authentication_v1_api.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/api/authorization_api.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/api/authorization_v1_api.py
@@ -46,9 +45,11 @@ Python client for the kubernetes API
 * /usr/lib/python3.13/site-packages/kubernetes/client/api/batch_v1_api.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/api/certificates_api.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/api/certificates_v1alpha1_api.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/api/certificates_v1beta1_api.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/api/certificates_v1_api.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/api/coordination_api.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/api/coordination_v1alpha2_api.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/api/coordination_v1beta1_api.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/api/coordination_v1_api.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/api/core_api.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/api/core_v1_api.py
@@ -75,6 +76,7 @@ Python client for the kubernetes API
 * /usr/lib/python3.13/site-packages/kubernetes/client/api/resource_api.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/api/resource_v1alpha3_api.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/api/resource_v1beta1_api.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/api/resource_v1beta2_api.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/api/scheduling_api.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/api/scheduling_v1_api.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/api/storagemigration_api.py
@@ -110,8 +112,6 @@ Python client for the kubernetes API
 * /usr/lib/python3.13/site-packages/kubernetes/client/api/__pycache__/apps_v1_api.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/api/__pycache__/authentication_api.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/api/__pycache__/authentication_api.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/kubernetes/client/api/__pycache__/authentication_v1beta1_api.cpython-313.opt-1.pyc
-* /usr/lib/python3.13/site-packages/kubernetes/client/api/__pycache__/authentication_v1beta1_api.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/api/__pycache__/authentication_v1_api.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/api/__pycache__/authentication_v1_api.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/api/__pycache__/authorization_api.cpython-313.opt-1.pyc
@@ -132,12 +132,16 @@ Python client for the kubernetes API
 * /usr/lib/python3.13/site-packages/kubernetes/client/api/__pycache__/certificates_api.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/api/__pycache__/certificates_v1alpha1_api.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/api/__pycache__/certificates_v1alpha1_api.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/api/__pycache__/certificates_v1beta1_api.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/api/__pycache__/certificates_v1beta1_api.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/api/__pycache__/certificates_v1_api.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/api/__pycache__/certificates_v1_api.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/api/__pycache__/coordination_api.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/api/__pycache__/coordination_api.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/api/__pycache__/coordination_v1alpha2_api.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/api/__pycache__/coordination_v1alpha2_api.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/api/__pycache__/coordination_v1beta1_api.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/api/__pycache__/coordination_v1beta1_api.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/api/__pycache__/coordination_v1_api.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/api/__pycache__/coordination_v1_api.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/api/__pycache__/core_api.cpython-313.opt-1.pyc
@@ -190,6 +194,8 @@ Python client for the kubernetes API
 * /usr/lib/python3.13/site-packages/kubernetes/client/api/__pycache__/resource_v1alpha3_api.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/api/__pycache__/resource_v1beta1_api.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/api/__pycache__/resource_v1beta1_api.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/api/__pycache__/resource_v1beta2_api.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/api/__pycache__/resource_v1beta2_api.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/api/__pycache__/scheduling_api.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/api/__pycache__/scheduling_api.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/api/__pycache__/scheduling_v1_api.cpython-313.opt-1.pyc
@@ -273,6 +279,8 @@ Python client for the kubernetes API
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1alpha3_allocation_result.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1alpha3_basic_device.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1alpha3_cel_device_selector.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1alpha3_counter.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1alpha3_counter_set.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1alpha3_device.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1alpha3_device_allocation_configuration.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1alpha3_device_allocation_result.py
@@ -284,9 +292,17 @@ Python client for the kubernetes API
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1alpha3_device_class_list.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1alpha3_device_class_spec.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1alpha3_device_constraint.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1alpha3_device_counter_consumption.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1alpha3_device_request.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1alpha3_device_request_allocation_result.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1alpha3_device_selector.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1alpha3_device_sub_request.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1alpha3_device_taint.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1alpha3_device_taint_rule.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1alpha3_device_taint_rule_list.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1alpha3_device_taint_rule_spec.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1alpha3_device_taint_selector.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1alpha3_device_toleration.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1alpha3_network_device_data.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1alpha3_opaque_device_configuration.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1alpha3_resource_claim.py
@@ -306,6 +322,11 @@ Python client for the kubernetes API
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta1_audit_annotation.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta1_basic_device.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta1_cel_device_selector.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta1_cluster_trust_bundle.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta1_cluster_trust_bundle_list.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta1_cluster_trust_bundle_spec.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta1_counter.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta1_counter_set.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta1_device.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta1_device_allocation_configuration.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta1_device_allocation_result.py
@@ -318,13 +339,20 @@ Python client for the kubernetes API
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta1_device_class_list.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta1_device_class_spec.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta1_device_constraint.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta1_device_counter_consumption.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta1_device_request.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta1_device_request_allocation_result.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta1_device_selector.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta1_device_sub_request.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta1_device_taint.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta1_device_toleration.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta1_expression_warning.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta1_ip_address.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta1_ip_address_list.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta1_ip_address_spec.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta1_lease_candidate.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta1_lease_candidate_list.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta1_lease_candidate_spec.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta1_match_condition.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta1_match_resources.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta1_named_rule_with_operations.py
@@ -345,8 +373,6 @@ Python client for the kubernetes API
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta1_resource_slice.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta1_resource_slice_list.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta1_resource_slice_spec.py
-* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta1_self_subject_review.py
-* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta1_self_subject_review_status.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta1_service_cidr.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta1_service_cidr_list.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta1_service_cidr_spec.py
@@ -363,6 +389,45 @@ Python client for the kubernetes API
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta1_variable.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta1_volume_attributes_class.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta1_volume_attributes_class_list.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta2_allocated_device_status.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta2_allocation_result.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta2_cel_device_selector.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta2_counter.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta2_counter_set.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta2_device.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta2_device_allocation_configuration.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta2_device_allocation_result.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta2_device_attribute.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta2_device_capacity.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta2_device_claim.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta2_device_claim_configuration.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta2_device_class.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta2_device_class_configuration.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta2_device_class_list.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta2_device_class_spec.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta2_device_constraint.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta2_device_counter_consumption.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta2_device_request.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta2_device_request_allocation_result.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta2_device_selector.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta2_device_sub_request.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta2_device_taint.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta2_device_toleration.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta2_exact_device_request.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta2_network_device_data.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta2_opaque_device_configuration.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta2_resource_claim.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta2_resource_claim_consumer_reference.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta2_resource_claim_list.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta2_resource_claim_spec.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta2_resource_claim_status.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta2_resource_claim_template.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta2_resource_claim_template_list.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta2_resource_claim_template_spec.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta2_resource_pool.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta2_resource_slice.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta2_resource_slice_list.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1beta2_resource_slice_spec.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1_affinity.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1_aggregation_rule.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1_api_group.py
@@ -501,6 +566,7 @@ Python client for the kubernetes API
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1_flow_schema_list.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1_flow_schema_spec.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1_flow_schema_status.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1_for_node.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1_for_zone.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1_gce_persistent_disk_volume_source.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1_git_repo_volume_source.py
@@ -536,6 +602,9 @@ Python client for the kubernetes API
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1_ingress_spec.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1_ingress_status.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1_ingress_tls.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1_ip_address.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1_ip_address_list.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1_ip_address_spec.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1_ip_block.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1_iscsi_persistent_volume_source.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1_iscsi_volume_source.py
@@ -605,6 +674,7 @@ Python client for the kubernetes API
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1_node_selector_term.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1_node_spec.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1_node_status.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1_node_swap_status.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1_node_system_info.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1_non_resource_attributes.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1_non_resource_policy_rule.py
@@ -616,6 +686,7 @@ Python client for the kubernetes API
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1_owner_reference.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1_param_kind.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1_param_ref.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1_parent_reference.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1_persistent_volume.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1_persistent_volume_claim.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1_persistent_volume_claim_condition.py
@@ -740,6 +811,10 @@ Python client for the kubernetes API
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1_service_account_subject.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1_service_account_token_projection.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1_service_backend_port.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1_service_cidr.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1_service_cidr_list.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1_service_cidr_spec.py
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/v1_service_cidr_status.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1_service_list.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1_service_port.py
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/v1_service_spec.py
@@ -954,6 +1029,10 @@ Python client for the kubernetes API
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1alpha3_basic_device.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1alpha3_cel_device_selector.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1alpha3_cel_device_selector.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1alpha3_counter.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1alpha3_counter.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1alpha3_counter_set.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1alpha3_counter_set.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1alpha3_device.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1alpha3_device.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1alpha3_device_allocation_configuration.cpython-313.opt-1.pyc
@@ -976,12 +1055,28 @@ Python client for the kubernetes API
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1alpha3_device_class_spec.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1alpha3_device_constraint.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1alpha3_device_constraint.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1alpha3_device_counter_consumption.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1alpha3_device_counter_consumption.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1alpha3_device_request.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1alpha3_device_request.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1alpha3_device_request_allocation_result.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1alpha3_device_request_allocation_result.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1alpha3_device_selector.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1alpha3_device_selector.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1alpha3_device_sub_request.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1alpha3_device_sub_request.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1alpha3_device_taint.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1alpha3_device_taint.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1alpha3_device_taint_rule.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1alpha3_device_taint_rule.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1alpha3_device_taint_rule_list.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1alpha3_device_taint_rule_list.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1alpha3_device_taint_rule_spec.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1alpha3_device_taint_rule_spec.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1alpha3_device_taint_selector.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1alpha3_device_taint_selector.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1alpha3_device_toleration.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1alpha3_device_toleration.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1alpha3_network_device_data.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1alpha3_network_device_data.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1alpha3_opaque_device_configuration.cpython-313.opt-1.pyc
@@ -1020,6 +1115,16 @@ Python client for the kubernetes API
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_basic_device.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_cel_device_selector.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_cel_device_selector.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_cluster_trust_bundle.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_cluster_trust_bundle.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_cluster_trust_bundle_list.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_cluster_trust_bundle_list.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_cluster_trust_bundle_spec.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_cluster_trust_bundle_spec.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_counter.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_counter.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_counter_set.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_counter_set.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_device.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_device.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_device_allocation_configuration.cpython-313.opt-1.pyc
@@ -1044,12 +1149,20 @@ Python client for the kubernetes API
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_device_class_spec.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_device_constraint.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_device_constraint.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_device_counter_consumption.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_device_counter_consumption.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_device_request.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_device_request.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_device_request_allocation_result.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_device_request_allocation_result.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_device_selector.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_device_selector.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_device_sub_request.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_device_sub_request.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_device_taint.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_device_taint.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_device_toleration.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_device_toleration.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_expression_warning.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_expression_warning.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_ip_address.cpython-313.opt-1.pyc
@@ -1058,6 +1171,12 @@ Python client for the kubernetes API
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_ip_address_list.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_ip_address_spec.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_ip_address_spec.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_lease_candidate.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_lease_candidate.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_lease_candidate_list.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_lease_candidate_list.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_lease_candidate_spec.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_lease_candidate_spec.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_match_condition.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_match_condition.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_match_resources.cpython-313.opt-1.pyc
@@ -1098,10 +1217,6 @@ Python client for the kubernetes API
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_resource_slice_list.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_resource_slice_spec.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_resource_slice_spec.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_self_subject_review.cpython-313.opt-1.pyc
-* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_self_subject_review.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_self_subject_review_status.cpython-313.opt-1.pyc
-* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_self_subject_review_status.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_service_cidr.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_service_cidr.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_service_cidr_list.cpython-313.opt-1.pyc
@@ -1134,6 +1249,84 @@ Python client for the kubernetes API
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_volume_attributes_class.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_volume_attributes_class_list.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta1_volume_attributes_class_list.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_allocated_device_status.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_allocated_device_status.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_allocation_result.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_allocation_result.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_cel_device_selector.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_cel_device_selector.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_counter.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_counter.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_counter_set.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_counter_set.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_device.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_device.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_device_allocation_configuration.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_device_allocation_configuration.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_device_allocation_result.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_device_allocation_result.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_device_attribute.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_device_attribute.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_device_capacity.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_device_capacity.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_device_claim.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_device_claim.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_device_claim_configuration.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_device_claim_configuration.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_device_class.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_device_class.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_device_class_configuration.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_device_class_configuration.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_device_class_list.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_device_class_list.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_device_class_spec.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_device_class_spec.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_device_constraint.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_device_constraint.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_device_counter_consumption.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_device_counter_consumption.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_device_request.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_device_request.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_device_request_allocation_result.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_device_request_allocation_result.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_device_selector.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_device_selector.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_device_sub_request.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_device_sub_request.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_device_taint.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_device_taint.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_device_toleration.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_device_toleration.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_exact_device_request.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_exact_device_request.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_network_device_data.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_network_device_data.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_opaque_device_configuration.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_opaque_device_configuration.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_resource_claim.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_resource_claim.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_resource_claim_consumer_reference.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_resource_claim_consumer_reference.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_resource_claim_list.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_resource_claim_list.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_resource_claim_spec.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_resource_claim_spec.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_resource_claim_status.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_resource_claim_status.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_resource_claim_template.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_resource_claim_template.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_resource_claim_template_list.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_resource_claim_template_list.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_resource_claim_template_spec.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_resource_claim_template_spec.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_resource_pool.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_resource_pool.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_resource_slice.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_resource_slice.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_resource_slice_list.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_resource_slice_list.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_resource_slice_spec.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1beta2_resource_slice_spec.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1_affinity.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1_affinity.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1_aggregation_rule.cpython-313.opt-1.pyc
@@ -1410,6 +1603,8 @@ Python client for the kubernetes API
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1_flow_schema_spec.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1_flow_schema_status.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1_flow_schema_status.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1_for_node.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1_for_node.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1_for_zone.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1_for_zone.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1_gce_persistent_disk_volume_source.cpython-313.opt-1.pyc
@@ -1480,6 +1675,12 @@ Python client for the kubernetes API
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1_ingress_status.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1_ingress_tls.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1_ingress_tls.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1_ip_address.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1_ip_address.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1_ip_address_list.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1_ip_address_list.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1_ip_address_spec.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1_ip_address_spec.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1_ip_block.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1_ip_block.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1_iscsi_persistent_volume_source.cpython-313.opt-1.pyc
@@ -1618,6 +1819,8 @@ Python client for the kubernetes API
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1_node_spec.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1_node_status.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1_node_status.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1_node_swap_status.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1_node_swap_status.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1_node_system_info.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1_node_system_info.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1_non_resource_attributes.cpython-313.opt-1.pyc
@@ -1640,6 +1843,8 @@ Python client for the kubernetes API
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1_param_kind.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1_param_ref.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1_param_ref.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1_parent_reference.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1_parent_reference.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1_persistent_volume.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1_persistent_volume.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1_persistent_volume_claim.cpython-313.opt-1.pyc
@@ -1888,6 +2093,14 @@ Python client for the kubernetes API
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1_service_account_token_projection.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1_service_backend_port.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1_service_backend_port.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1_service_cidr.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1_service_cidr.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1_service_cidr_list.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1_service_cidr_list.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1_service_cidr_spec.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1_service_cidr_spec.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1_service_cidr_status.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1_service_cidr_status.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1_service_list.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1_service_list.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/client/models/__pycache__/v1_service_port.cpython-313.opt-1.pyc
@@ -2219,5 +2432,5 @@ Python client for the kubernetes API
 * /usr/lib/python3.13/site-packages/kubernetes/__init__.py
 * /usr/lib/python3.13/site-packages/kubernetes/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/kubernetes/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/python3-kubernetes-32.0.1/LICENSE
-* /usr/share/doc/python3-kubernetes-32.0.1/README.md
+* /usr/share/doc/python3-kubernetes-33.1.0/LICENSE
+* /usr/share/doc/python3-kubernetes-33.1.0/README.md

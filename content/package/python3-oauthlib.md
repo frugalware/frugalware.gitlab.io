@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-oauthlib 3.2.2-1"
-version = "3.2.2-1"
+title = "python3-oauthlib 3.3.0-1"
+version = "3.3.0-1"
 description = "A generic, spec-compliant, thorough implementation of the OAuth request-signing logic"
-date = "2025-02-26T14:22:22"
+date = "2025-06-19T08:37:57"
 aliases = "/packages/222668"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/oauthlib"
 arch = "x86_64"
-size = "178808"
-usize = "1520213"
-sha1sum = "4319a95dee6373ae393c522a40d94d858ea070cc"
+size = "194260"
+usize = "1624136"
+sha1sum = "261259dc39e0644f505ed3d1eda9663e29cd1091"
 depends = "['python3-cryptography']"
 reverse_depends = "['python3-requests-oauthlib']"
 +++
@@ -18,11 +18,20 @@ reverse_depends = "['python3-requests-oauthlib']"
 A generic, spec-compliant, thorough implementation of the OAuth request-signing logic
 
 ### Files: 
-* /usr/lib/python3.13/site-packages/oauthlib-3.2.2.dist-info/LICENSE
-* /usr/lib/python3.13/site-packages/oauthlib-3.2.2.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/oauthlib-3.2.2.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/oauthlib-3.2.2.dist-info/top_level.txt
-* /usr/lib/python3.13/site-packages/oauthlib-3.2.2.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/examples/device_code_flow.py
+* /usr/lib/python3.13/site-packages/examples/skeleton_oauth2_web_application_server.py
+* /usr/lib/python3.13/site-packages/examples/__init__.py
+* /usr/lib/python3.13/site-packages/examples/__pycache__/device_code_flow.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/examples/__pycache__/device_code_flow.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/examples/__pycache__/skeleton_oauth2_web_application_server.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/examples/__pycache__/skeleton_oauth2_web_application_server.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/examples/__pycache__/__init__.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/examples/__pycache__/__init__.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/oauthlib-3.3.0.dist-info/licenses/LICENSE
+* /usr/lib/python3.13/site-packages/oauthlib-3.3.0.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/oauthlib-3.3.0.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/oauthlib-3.3.0.dist-info/top_level.txt
+* /usr/lib/python3.13/site-packages/oauthlib-3.3.0.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/oauthlib/common.py
 * /usr/lib/python3.13/site-packages/oauthlib/oauth1/rfc5849/endpoints/access_token.py
 * /usr/lib/python3.13/site-packages/oauthlib/oauth1/rfc5849/endpoints/authorization.py
@@ -162,7 +171,28 @@ A generic, spec-compliant, thorough implementation of the OAuth request-signing 
 * /usr/lib/python3.13/site-packages/oauthlib/oauth2/rfc8628/clients/__pycache__/device.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/oauthlib/oauth2/rfc8628/clients/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/oauthlib/oauth2/rfc8628/clients/__pycache__/__init__.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/oauthlib/oauth2/rfc8628/endpoints/device_authorization.py
+* /usr/lib/python3.13/site-packages/oauthlib/oauth2/rfc8628/endpoints/pre_configured.py
+* /usr/lib/python3.13/site-packages/oauthlib/oauth2/rfc8628/endpoints/__init__.py
+* /usr/lib/python3.13/site-packages/oauthlib/oauth2/rfc8628/endpoints/__pycache__/device_authorization.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/oauthlib/oauth2/rfc8628/endpoints/__pycache__/device_authorization.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/oauthlib/oauth2/rfc8628/endpoints/__pycache__/pre_configured.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/oauthlib/oauth2/rfc8628/endpoints/__pycache__/pre_configured.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/oauthlib/oauth2/rfc8628/endpoints/__pycache__/__init__.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/oauthlib/oauth2/rfc8628/endpoints/__pycache__/__init__.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/oauthlib/oauth2/rfc8628/errors.py
+* /usr/lib/python3.13/site-packages/oauthlib/oauth2/rfc8628/grant_types/device_code.py
+* /usr/lib/python3.13/site-packages/oauthlib/oauth2/rfc8628/grant_types/__init__.py
+* /usr/lib/python3.13/site-packages/oauthlib/oauth2/rfc8628/grant_types/__pycache__/device_code.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/oauthlib/oauth2/rfc8628/grant_types/__pycache__/device_code.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/oauthlib/oauth2/rfc8628/grant_types/__pycache__/__init__.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/oauthlib/oauth2/rfc8628/grant_types/__pycache__/__init__.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/oauthlib/oauth2/rfc8628/request_validator.py
 * /usr/lib/python3.13/site-packages/oauthlib/oauth2/rfc8628/__init__.py
+* /usr/lib/python3.13/site-packages/oauthlib/oauth2/rfc8628/__pycache__/errors.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/oauthlib/oauth2/rfc8628/__pycache__/errors.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/oauthlib/oauth2/rfc8628/__pycache__/request_validator.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/oauthlib/oauth2/rfc8628/__pycache__/request_validator.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/oauthlib/oauth2/rfc8628/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/oauthlib/oauth2/rfc8628/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/oauthlib/oauth2/__init__.py
@@ -227,5 +257,5 @@ A generic, spec-compliant, thorough implementation of the OAuth request-signing 
 * /usr/lib/python3.13/site-packages/oauthlib/__pycache__/uri_validate.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/oauthlib/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/oauthlib/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/python3-oauthlib-3.2.2/LICENSE
-* /usr/share/doc/python3-oauthlib-3.2.2/README.rst
+* /usr/share/doc/python3-oauthlib-3.3.0/LICENSE
+* /usr/share/doc/python3-oauthlib-3.3.0/README.rst

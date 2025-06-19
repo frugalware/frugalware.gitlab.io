@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-pythran 0.17.0-2"
-version = "0.17.0-2"
+title = "python3-pythran 0.18.0-1"
+version = "0.18.0-1"
 description = "Ahead of Time compiler for numeric kernels"
-date = "2025-03-13T07:51:30"
+date = "2025-06-19T08:51:20"
 aliases = "/packages/220487"
 categories = ['devel-extra']
 upstreamurl = "https://pythran.readthedocs.io/"
 arch = "x86_64"
-size = "872804"
-usize = "6298386"
-sha1sum = "50efb0afe426054402956944a36ee8816aaaa0fa"
+size = "886068"
+usize = "6340552"
+sha1sum = "43951e160b75eebb4508e797d6476b3b89984b81"
 depends = "['boost', 'python3-beniget', 'python3-gast', 'python3-networkx', 'python3-numpy', 'python3-ply', 'python3-six']"
 +++
 ### Description: 
@@ -21,12 +21,12 @@ Ahead of Time compiler for numeric kernels
 * /usr/bin/pythran-config
 * /usr/lib/python3.13/site-packages/omp/__init__.py
 * /usr/lib/python3.13/site-packages/omp/__pycache__/__init__.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/pythran-0.17.0-py3.13.egg-info/dependency_links.txt
-* /usr/lib/python3.13/site-packages/pythran-0.17.0-py3.13.egg-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/pythran-0.17.0-py3.13.egg-info/PKG-INFO
-* /usr/lib/python3.13/site-packages/pythran-0.17.0-py3.13.egg-info/requires.txt
-* /usr/lib/python3.13/site-packages/pythran-0.17.0-py3.13.egg-info/SOURCES.txt
-* /usr/lib/python3.13/site-packages/pythran-0.17.0-py3.13.egg-info/top_level.txt
+* /usr/lib/python3.13/site-packages/pythran-0.18.0-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/pythran-0.18.0-py3.13.egg-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/pythran-0.18.0-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/pythran-0.18.0-py3.13.egg-info/requires.txt
+* /usr/lib/python3.13/site-packages/pythran-0.18.0-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/pythran-0.18.0-py3.13.egg-info/top_level.txt
 * /usr/lib/python3.13/site-packages/pythran/analyses/aliases.py
 * /usr/lib/python3.13/site-packages/pythran/analyses/ancestors.py
 * /usr/lib/python3.13/site-packages/pythran/analyses/argument_effects.py
@@ -2145,7 +2145,7 @@ Ahead of Time compiler for numeric kernels
 * /usr/lib/python3.13/site-packages/pythran/__pycache__/utils.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pythran/__pycache__/version.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/pythran/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/python3-pythran-0.17.0/AUTHORS
-* /usr/share/doc/python3-pythran-0.17.0/Changelog
-* /usr/share/doc/python3-pythran-0.17.0/LICENSE
-* /usr/share/doc/python3-pythran-0.17.0/README.rst
+* /usr/share/doc/python3-pythran-0.18.0/AUTHORS
+* /usr/share/doc/python3-pythran-0.18.0/Changelog
+* /usr/share/doc/python3-pythran-0.18.0/LICENSE
+* /usr/share/doc/python3-pythran-0.18.0/README.rst
