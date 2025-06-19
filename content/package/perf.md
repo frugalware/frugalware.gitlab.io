@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "perf 6.15.2-1"
-version = "6.15.2-1"
+title = "perf 6.15.3-1"
+version = "6.15.3-1"
 description = "Kernel performance profiling tool"
-date = "2025-06-11T07:39:08"
+date = "2025-06-19T20:14:08"
 aliases = "/packages/221185"
 categories = ['devel-extra']
 upstreamurl = "https://www.kernel.org"
 arch = "x86_64"
-size = "2363448"
-usize = "12331831"
-sha1sum = "39d42b9ceaba502c503fba3d9b7d937a729ba3f0"
+size = "2366372"
+usize = "12327946"
+sha1sum = "c04a1c18534f875958dd071fa34671dc71eb804c"
 depends = "['binutils>=2.44', 'elfutils', 'libtraceevent', 'python3>=3.11', 'slang', 'xz']"
 +++
 ### Description: 
@@ -172,11 +172,9 @@ Kernel performance profiling tool
 * /usr/lib/perf/perf-core/tests/shell/base_probe/test_basic.sh
 * /usr/lib/perf/perf-core/tests/shell/base_probe/test_invalid_options.sh
 * /usr/lib/perf/perf-core/tests/shell/base_probe/test_line_semantics.sh
-* /usr/lib/perf/perf-core/tests/shell/base_report/test_adding_blacklisted.sh
-* /usr/lib/perf/perf-core/tests/shell/base_report/test_adding_kernel.sh
+* /usr/lib/perf/perf-core/tests/shell/base_report/setup.sh
+* /usr/lib/perf/perf-core/tests/shell/base_report/stderr-whitelist.txt
 * /usr/lib/perf/perf-core/tests/shell/base_report/test_basic.sh
-* /usr/lib/perf/perf-core/tests/shell/base_report/test_invalid_options.sh
-* /usr/lib/perf/perf-core/tests/shell/base_report/test_line_semantics.sh
 * /usr/lib/perf/perf-core/tests/shell/buildid.sh
 * /usr/lib/perf/perf-core/tests/shell/common/check_all_lines_matched.pl
 * /usr/lib/perf/perf-core/tests/shell/common/check_all_patterns_found.pl
