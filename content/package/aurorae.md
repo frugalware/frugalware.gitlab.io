@@ -12,7 +12,7 @@ size = "94696"
 usize = "405316"
 sha1sum = "ac161e75d4779281a5dd99fc1ed4c01b5ceab65a"
 depends = "['kcmutils>=6.15.0', 'kdecoration>=6.4.0', 'knewstuff>=6.15.0', 'ksvg>=6.15.0', 'qt6-tools>=6.9.1']"
-reverse_depends = "['kwin']"
+reverse_depends = "['kwin', 'kwin-x11']"
 +++
 ### Description: 
 Themeable window decoration for KWin

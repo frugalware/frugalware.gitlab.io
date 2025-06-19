@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "xorg-server 21.1.17-1"
-version = "21.1.17-1"
+title = "xorg-server 21.1.18-1"
+version = "21.1.18-1"
 description = "Modular X.Org X Server"
-date = "2025-06-17T19:07:17"
+date = "2025-06-19T07:29:28"
 aliases = "/packages/4942"
 categories = ['x11']
 upstreamurl = "http://xorg.freedesktop.org"
 arch = "x86_64"
-size = "3872288"
-usize = "17770995"
-sha1sum = "f6853780b33a2b2dc5280f689cca3c8e7694e7cf"
+size = "3876988"
+usize = "17778271"
+sha1sum = "f84edda82e019814b8bac043432dca88a3eacebe"
 depends = "['dbus', 'libepoxy>=1.5.2', 'libgbm>=19.0.0', 'libglvnd', 'libsystemd>=242', 'libudev>=242', 'libxcvt', 'libxfont2>=2.0.1', 'mesa-dri-drivers', 'mesa-libegl>=19.0.0', 'mesa-libglx>=19.0.0', 'pam', 'pixman>=0.32.8-3', 'xf86-input-evdev']"
-reverse_depends = "['i3', 'ksynaptics', 'lumina-desktop', 'xf86-input-acecad', 'xf86-input-elographics', 'xf86-input-evdev', 'xf86-input-fpit', 'xf86-input-hyperpen', 'xf86-input-joystick', 'xf86-input-libinput', 'xf86-input-mouse', 'xf86-input-mtrack', 'xf86-input-mutouch', 'xf86-input-penmount', 'xf86-input-synaptics', 'xf86-input-vmmouse', 'xf86-input-void', 'xf86-input-wacom', 'xf86-video-amdgpu', 'xf86-video-ast', 'xf86-video-ati', 'xf86-video-chips', 'xf86-video-dummy', 'xf86-video-fbdev', 'xf86-video-i810', 'xf86-video-intel', 'xf86-video-nouveau', 'xf86-video-qxl', 'xf86-video-s3virge', 'xf86-video-sunbw2', 'xf86-video-suncg14', 'xf86-video-suncg3', 'xf86-video-suncg6', 'xf86-video-sunffb', 'xf86-video-sunleo', 'xf86-video-suntcx', 'xf86-video-vboxvideo', 'xf86-video-vesa', 'xf86-video-vmware', 'xorg-compat']"
+reverse_depends = "['i3', 'ksynaptics', 'lumina-desktop', 'plasma-x11-session', 'xf86-input-acecad', 'xf86-input-elographics', 'xf86-input-evdev', 'xf86-input-fpit', 'xf86-input-hyperpen', 'xf86-input-joystick', 'xf86-input-libinput', 'xf86-input-mouse', 'xf86-input-mtrack', 'xf86-input-mutouch', 'xf86-input-penmount', 'xf86-input-synaptics', 'xf86-input-vmmouse', 'xf86-input-void', 'xf86-input-wacom', 'xf86-video-amdgpu', 'xf86-video-ast', 'xf86-video-ati', 'xf86-video-chips', 'xf86-video-dummy', 'xf86-video-fbdev', 'xf86-video-i810', 'xf86-video-intel', 'xf86-video-nouveau', 'xf86-video-qxl', 'xf86-video-s3virge', 'xf86-video-sunbw2', 'xf86-video-suncg14', 'xf86-video-suncg3', 'xf86-video-suncg6', 'xf86-video-sunffb', 'xf86-video-sunleo', 'xf86-video-suntcx', 'xf86-video-vboxvideo', 'xf86-video-vesa', 'xf86-video-vmware', 'xorg-compat']"
 license = "GPL2"
 +++
 ### Description: 
@@ -196,10 +196,10 @@ Modular X.Org X Server
 * /usr/lib/xorg/modules/libwfb.so
 * /usr/lib/xorg/protocol.txt
 * /usr/share/aclocal/xorg-server.m4
-* /usr/share/doc/xorg-server-21.1.17/ChangeLog
-* /usr/share/doc/xorg-server-21.1.17/COPYING
-* /usr/share/doc/xorg-server-21.1.17/INSTALL
-* /usr/share/doc/xorg-server-21.1.17/README.md
+* /usr/share/doc/xorg-server-21.1.18/ChangeLog
+* /usr/share/doc/xorg-server-21.1.18/COPYING
+* /usr/share/doc/xorg-server-21.1.18/INSTALL
+* /usr/share/doc/xorg-server-21.1.18/README.md
 * /usr/share/man/man1/gtf.1.gz
 * /usr/share/man/man1/Xephyr.1.gz
 * /usr/share/man/man1/Xnest.1.gz

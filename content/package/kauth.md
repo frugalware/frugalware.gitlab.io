@@ -12,7 +12,7 @@ size = "103508"
 usize = "412634"
 sha1sum = "a98d6d3ae8cf0813772ce4868dc2df167c15cc37"
 depends = "['kcoreaddons>=6.15.0', 'kwindowsystem>=6.15.0', 'polkit-qt6-1>=0.112.0-11']"
-reverse_depends = "['kde-inotify-survey', 'kio', 'kpmcore', 'kwin', 'plasma-desktop']"
+reverse_depends = "['kde-inotify-survey', 'kio', 'kpmcore', 'kwin', 'kwin-x11', 'plasma-desktop']"
 +++
 ### Description: 
 Framework which lets applications perform actions as a privileged user.

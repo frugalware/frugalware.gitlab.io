@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-evdev 1.9.1-1"
-version = "1.9.1-1"
+title = "python3-evdev 1.9.2-1"
+version = "1.9.2-1"
 description = "Python bindings for the linux input handling subsystem"
-date = "2025-03-26T13:57:57"
+date = "2025-06-19T08:13:44"
 aliases = "/packages/219862"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/evdev"
 arch = "x86_64"
-size = "101056"
-usize = "463231"
-sha1sum = "b50e94ac7aad0a1340210b1014847d028af69226"
+size = "101264"
+usize = "463948"
+sha1sum = "b227b6aa907f14b221d31b7b03a576934c69d215"
 depends = "['libevdev', 'python3>=3.12']"
 reverse_depends = "['input-remapper', 'lutris', 'piper']"
 +++
@@ -18,10 +18,10 @@ reverse_depends = "['input-remapper', 'lutris', 'piper']"
 Python bindings for the linux input handling subsystem
 
 ### Files: 
-* /usr/lib/python3.13/site-packages/evdev-1.9.1-py3.13.egg-info/dependency_links.txt
-* /usr/lib/python3.13/site-packages/evdev-1.9.1-py3.13.egg-info/PKG-INFO
-* /usr/lib/python3.13/site-packages/evdev-1.9.1-py3.13.egg-info/SOURCES.txt
-* /usr/lib/python3.13/site-packages/evdev-1.9.1-py3.13.egg-info/top_level.txt
+* /usr/lib/python3.13/site-packages/evdev-1.9.2-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/evdev-1.9.2-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/evdev-1.9.2-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/evdev-1.9.2-py3.13.egg-info/top_level.txt
 * /usr/lib/python3.13/site-packages/evdev/device.py
 * /usr/lib/python3.13/site-packages/evdev/ecodes.py
 * /usr/lib/python3.13/site-packages/evdev/ecodes_runtime.py
@@ -54,5 +54,5 @@ Python bindings for the linux input handling subsystem
 * /usr/lib/python3.13/site-packages/evdev/__pycache__/uinput.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/evdev/__pycache__/util.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/evdev/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/python3-evdev-1.9.1/LICENSE
-* /usr/share/doc/python3-evdev-1.9.1/README.md
+* /usr/share/doc/python3-evdev-1.9.2/LICENSE
+* /usr/share/doc/python3-evdev-1.9.2/README.md

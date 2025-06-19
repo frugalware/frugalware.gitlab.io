@@ -12,7 +12,7 @@ size = "41858292"
 usize = "72412892"
 sha1sum = "64802758279a3298b41d08699643d9ae992fed53"
 depends = "['frameworkintegration>=6.15.0', 'kcmutils>=6.15.0', 'kcolorscheme>=6.15.0', 'kconfig>=6.15.0', 'kcoreaddons>=6.15.0', 'kdecoration>=6.4.0', 'kguiaddons>=6.15.0', 'ki18n>=6.15.0', 'kiconthemes>=6.15.0', 'kirigami>=6.15.0', 'kwindowsystem>=6.15.0']"
-reverse_depends = "['kwin', 'plasma-integration']"
+reverse_depends = "['kwin', 'kwin-x11', 'plasma-integration']"
 +++
 ### Description: 
 Artwork, styles and assets for the Breeze visual style for the Plasma Desktop.

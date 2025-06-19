@@ -12,7 +12,7 @@ size = "9076"
 usize = "24506"
 sha1sum = "5459c436a85ae11bf290d1407e02a346c2e7abdd"
 depends = "['glibc>=2.34']"
-reverse_depends = "['kwin', 'xorg-server', 'xorg-server-xwayland']"
+reverse_depends = "['kwin', 'kwin-x11', 'xorg-server', 'xorg-server-xwayland']"
 license = "GPL2"
 +++
 ### Description: 

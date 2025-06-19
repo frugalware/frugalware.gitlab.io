@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-dbusmock 0.34.3-1"
-version = "0.34.3-1"
+title = "python3-dbusmock 0.35.0-1"
+version = "0.35.0-1"
 description = "python-dbusmock: mock D-Bus objects for tests"
-date = "2025-03-13T08:42:57"
+date = "2025-06-19T08:12:33"
 aliases = "/packages/219601"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/python-dbusmock"
 arch = "x86_64"
-size = "123588"
-usize = "811527"
-sha1sum = "696cd55ad7e955142c0ca20ee9e95ea51d7a5bbe"
+size = "123792"
+usize = "813027"
+sha1sum = "89935b1aa0a9e92bd44209f25b0186bcac19a535"
 depends = "['dbus-python']"
 +++
 ### Description: 
@@ -93,11 +93,11 @@ python-dbusmock: mock D-Bus objects for tests
 * /usr/lib/python3.13/site-packages/dbusmock/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/dbusmock/__pycache__/__main__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/dbusmock/__pycache__/__main__.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/python_dbusmock-0.34.3.dist-info/COPYING
-* /usr/lib/python3.13/site-packages/python_dbusmock-0.34.3.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/python_dbusmock-0.34.3.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/python_dbusmock-0.34.3.dist-info/top_level.txt
-* /usr/lib/python3.13/site-packages/python_dbusmock-0.34.3.dist-info/WHEEL
-* /usr/share/doc/python3-dbusmock-0.34.3/COPYING
-* /usr/share/doc/python3-dbusmock-0.34.3/NEWS
-* /usr/share/doc/python3-dbusmock-0.34.3/README.md
+* /usr/lib/python3.13/site-packages/python_dbusmock-0.35.0.dist-info/licenses/COPYING
+* /usr/lib/python3.13/site-packages/python_dbusmock-0.35.0.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/python_dbusmock-0.35.0.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/python_dbusmock-0.35.0.dist-info/top_level.txt
+* /usr/lib/python3.13/site-packages/python_dbusmock-0.35.0.dist-info/WHEEL
+* /usr/share/doc/python3-dbusmock-0.35.0/COPYING
+* /usr/share/doc/python3-dbusmock-0.35.0/NEWS
+* /usr/share/doc/python3-dbusmock-0.35.0/README.md

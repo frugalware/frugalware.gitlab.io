@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-eventlet 0.39.1-1"
-version = "0.39.1-1"
+title = "python3-eventlet 0.40.0-1"
+version = "0.40.0-1"
 description = "Highly concurrent networking library"
-date = "2025-03-26T13:58:34"
+date = "2025-06-19T08:14:21"
 aliases = "/packages/219795"
 categories = ['devel-extra']
 upstreamurl = "http://eventlet.net"
 arch = "x86_64"
-size = "167304"
-usize = "638206"
-sha1sum = "0135e2b887a6225f493a4f9cdbe70de43fadc400"
+size = "167344"
+usize = "638372"
+sha1sum = "db862d5461822770a454ddfe6ce4d666dcb370cb"
 depends = "['python3>=3.12', 'python3-dnspython', 'python3-greenlet', 'python3-httplib2', 'python3-monotonic', 'python3-openssl', 'python3-pyzmq']"
 reverse_depends = "['python3-gunicorn']"
 +++
@@ -67,7 +67,7 @@ Highly concurrent networking library
 * /usr/lib/python3.13/site-packages/eventlet/__pycache__/wsgi.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/eventlet/__pycache__/_version.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/eventlet/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/python3-eventlet-0.39.1/AUTHORS
-* /usr/share/doc/python3-eventlet-0.39.1/LICENSE
-* /usr/share/doc/python3-eventlet-0.39.1/NEWS
-* /usr/share/doc/python3-eventlet-0.39.1/README.rst
+* /usr/share/doc/python3-eventlet-0.40.0/AUTHORS
+* /usr/share/doc/python3-eventlet-0.40.0/LICENSE
+* /usr/share/doc/python3-eventlet-0.40.0/NEWS
+* /usr/share/doc/python3-eventlet-0.40.0/README.rst

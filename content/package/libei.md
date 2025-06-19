@@ -12,7 +12,7 @@ size = "107924"
 usize = "427556"
 sha1sum = "e8a535e766a9aae6590bf71f0d052a8c0bb1a131"
 depends = "['libevdev', 'libsystemd']"
-reverse_depends = "['kwin']"
+reverse_depends = "['kwin', 'kwin-x11']"
 +++
 ### Description: 
 Library for Emulated Input

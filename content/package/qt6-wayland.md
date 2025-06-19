@@ -12,7 +12,7 @@ size = "1180896"
 usize = "8530057"
 sha1sum = "81c4149c7cc3d6483a0f8c7ccc63b5e68578dbce"
 depends = "['libdrm', 'libxkbcommon', 'qt6-declarative', 'qt6-svg', 'wayland']"
-reverse_depends = "['dfl-wayqt-qt6', 'kguiaddons', 'kwayland', 'kwin', 'kwindowsystem', 'ladybird', 'layer-shell-qt', 'plasma-wayland-session', 'telegram-desktop']"
+reverse_depends = "['dfl-wayqt-qt6', 'kguiaddons', 'kwayland', 'kwin', 'kwin-x11', 'kwindowsystem', 'ladybird', 'layer-shell-qt', 'plasma-wayland-session', 'telegram-desktop']"
 +++
 ### Description: 
 The Qt6 toolkit, qtwayland

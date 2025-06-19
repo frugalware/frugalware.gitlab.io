@@ -1,24 +1,23 @@
 +++
 draft = false
-title = "plasma-workspace 6.4.0-1"
-version = "6.4.0-1"
+title = "plasma-workspace 6.4.0-2"
+version = "6.4.0-2"
 description = "KDE Plasma Workspace."
-date = "2025-06-17T16:54:06"
+date = "2025-06-19T08:07:24"
 aliases = "/packages/218402"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "22292268"
-usize = "60466557"
-sha1sum = "599e0856058b09bde40eb367444db8adc008d53c"
+size = "22248456"
+usize = "60262702"
+sha1sum = "8a125279ff8dcc9a294d3f42406b215cbc18dc12"
 depends = "['appstream-qt', 'baloo>=6.15.0', 'kcmutils>=6.15.0', 'kdeclarative>=6.15.0', 'kholidays>=6.15.0', 'kidletime>=6.15.0', 'kirigami-addons', 'knewstuff>=6.15.0', 'knotifyconfig>=6.15.0', 'kpackage>=6.15.0', 'kparts>=6.15.0', 'kquickcharts>=6.15.0', 'krunner>=6.15.0', 'ksvg>=6.15.0', 'ktexteditor>=6.15.0', 'kunitconversion>=6.15.0', 'kuserfeedback>=6.15.0', 'kwin>=6.4.0', 'libkexiv2', 'libksysguard>=6.4.0', 'libplasma>=6.4.0', 'libqalculate>=5.0.0', 'libxft', 'networkmanager-qt>=6.15.0', 'plasma-activities-stats>=6.4.0', 'plasma5-integration>=6.4.0', 'plasma5support>=6.4.0', 'prison>=6.15.0', 'qcoro', 'qt6-location>=6.9.1', 'qt6-tools']"
-reverse_depends = "['kde-cli-tools', 'kdeplasma-addons', 'kget', 'ktorrent', 'plasma-browser-integration', 'plasma-desktop', 'plasma-nm', 'plasma-wayland-session', 'powerdevil']"
+reverse_depends = "['kde-cli-tools', 'kdeplasma-addons', 'kget', 'ktorrent', 'plasma-browser-integration', 'plasma-desktop', 'plasma-nm', 'plasma-wayland-session', 'plasma-x11-session', 'powerdevil']"
 +++
 ### Description: 
 KDE Plasma Workspace.
 
 ### Files: 
-* /etc/X11/sessions/plasmax11.desktop
 * /etc/xdg/autostart/gmenudbusmenuproxy.desktop
 * /etc/xdg/autostart/org.kde.plasma-fallback-session-restore.desktop
 * /etc/xdg/autostart/org.kde.plasmashell.desktop
@@ -48,7 +47,6 @@ KDE Plasma Workspace.
 * /usr/bin/plasmawindowed
 * /usr/bin/plasma_session
 * /usr/bin/plasma_waitforname
-* /usr/bin/startplasma-x11
 * /usr/bin/xembedsniproxy
 * /usr/include/colorcorrect/colorcorrectconstants.h
 * /usr/include/colorcorrect/colorcorrect_export.h
@@ -117,7 +115,6 @@ KDE Plasma Workspace.
 * /usr/lib/cmake/LibTaskManager/LibTaskManagerLibraryTargets.cmake
 * /usr/lib/kauth/kf6/kauth/fontinst
 * /usr/lib/kauth/kf6/kauth/fontinst_helper
-* /usr/lib/kauth/kf6/kauth/fontinst_x11
 * /usr/lib/kconf_update_bin/plasma6.0-remove-dpi-settings
 * /usr/lib/kconf_update_bin/plasma6.0-remove-old-shortcuts
 * /usr/lib/kconf_update_bin/plasma6.3-update-clipboard-database-2-to-3
@@ -396,8 +393,6 @@ KDE Plasma Workspace.
 * /usr/lib/systemd/user/plasma-ksplash.service
 * /usr/lib/systemd/user/plasma-plasmashell.service
 * /usr/lib/systemd/user/plasma-restoresession.service
-* /usr/lib/systemd/user/plasma-workspace-wayland.target
-* /usr/lib/systemd/user/plasma-workspace-x11.target
 * /usr/lib/systemd/user/plasma-workspace.target
 * /usr/lib/systemd/user/plasma-xembedsniproxy.service
 * /usr/share/applications/kcm_autostart.desktop

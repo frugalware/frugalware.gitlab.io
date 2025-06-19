@@ -12,7 +12,7 @@ size = "142720"
 usize = "501434"
 sha1sum = "e443c21aa411b918030cf5476301b30325aff6b8"
 depends = "['karchive>=6.15.0', 'kcolorscheme>=6.15.0', 'kcoreaddons>=6.15.0', 'kirigami>=6.15.0']"
-reverse_depends = "['aurorae', 'bluedevil', 'knights', 'kscreen', 'kwin', 'libplasma', 'milou', 'plasma-pa', 'plasma-workspace']"
+reverse_depends = "['aurorae', 'bluedevil', 'knights', 'kscreen', 'kwin', 'kwin-x11', 'libplasma', 'milou', 'plasma-pa', 'plasma-workspace']"
 +++
 ### Description: 
 A library for rendering SVG-based themes with stylesheet re-coloring and on-disk caching.
