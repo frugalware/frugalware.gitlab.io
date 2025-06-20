@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openblas64 0.3.29-1"
-version = "0.3.29-1"
+title = "openblas64 0.3.30-1"
+version = "0.3.30-1"
 description = "An optimized BLAS library based on GotoBLAS2 1.13 BSD 64-bit"
-date = "2025-01-13T13:45:29"
+date = "2025-06-20T08:29:53"
 aliases = "/packages/221241"
 categories = ['lib-extra']
 upstreamurl = "https://www.openblas.net/"
 arch = "x86_64"
-size = "5323040"
-usize = "36289237"
-sha1sum = "f441dd63d9e2a0630e4af4f71aeef2b9c9119563"
+size = "5385448"
+usize = "36044350"
+sha1sum = "6e2d3af0773164a459aff03a2afa7557f9ab854a"
 depends = "['libgfortran']"
 reverse_depends = "['cantor', 'opencv-python3']"
 +++

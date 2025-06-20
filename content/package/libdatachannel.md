@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libdatachannel 0.22.6-2"
-version = "0.22.6-2"
+title = "libdatachannel 0.23.0-1"
+version = "0.23.0-1"
 description = "C/C++ WebRTC network library featuring Data Channels, Media Transport, and WebSockets"
-date = "2025-04-01T08:11:59"
+date = "2025-06-20T09:07:42"
 aliases = "/packages/222607"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/paullouisageneau/libdatachannel"
 arch = "x86_64"
-size = "538264"
-usize = "2058874"
-sha1sum = "8eacd5be4488d4842a6ab39474382281e1333855"
+size = "558632"
+usize = "2133650"
+sha1sum = "5c0cb2784c3f391a0a78509440aaa35a2b3da7d3"
 depends = "['libjuice>=1.6.0', 'libsrtp', 'libstdc++', 'openssl', 'usrsctp']"
 reverse_depends = "['obs-studio']"
 +++
@@ -24,13 +24,16 @@ C/C++ WebRTC network library featuring Data Channels, Media Transport, and WebSo
 * /usr/include/rtc/common.hpp
 * /usr/include/rtc/configuration.hpp
 * /usr/include/rtc/datachannel.hpp
+* /usr/include/rtc/dependencydescriptor.hpp
 * /usr/include/rtc/description.hpp
 * /usr/include/rtc/frameinfo.hpp
 * /usr/include/rtc/global.hpp
 * /usr/include/rtc/h264rtpdepacketizer.hpp
 * /usr/include/rtc/h264rtppacketizer.hpp
 * /usr/include/rtc/h265nalunit.hpp
+* /usr/include/rtc/h265rtpdepacketizer.hpp
 * /usr/include/rtc/h265rtppacketizer.hpp
+* /usr/include/rtc/iceudpmuxlistener.hpp
 * /usr/include/rtc/mediahandler.hpp
 * /usr/include/rtc/message.hpp
 * /usr/include/rtc/nalunit.hpp
@@ -58,7 +61,7 @@ C/C++ WebRTC network library featuring Data Channels, Media Transport, and WebSo
 * /usr/lib/cmake/LibDataChannel/LibDataChannelTargets-release.cmake
 * /usr/lib/cmake/LibDataChannel/LibDataChannelTargets.cmake
 * /usr/lib/libdatachannel.so
-* /usr/lib/libdatachannel.so.0.22
-* /usr/lib/libdatachannel.so.0.22.6
-* /usr/share/doc/libdatachannel-0.22.6/LICENSE
-* /usr/share/doc/libdatachannel-0.22.6/README.md
+* /usr/lib/libdatachannel.so.0.23
+* /usr/lib/libdatachannel.so.0.23.0
+* /usr/share/doc/libdatachannel-0.23.0/LICENSE
+* /usr/share/doc/libdatachannel-0.23.0/README.md
