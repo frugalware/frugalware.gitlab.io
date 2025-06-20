@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "nushell 0.104.1-1"
-version = "0.104.1-1"
+title = "nushell 0.105.1-1"
+version = "0.105.1-1"
 description = "A new type of shell"
-date = "2025-05-27T09:45:25"
+date = "2025-06-20T10:05:33"
 aliases = "/packages/220917"
 categories = ['apps-extra']
 upstreamurl = "https://www.nushell.sh"
 arch = "x86_64"
-size = "15388672"
-usize = "70658024"
-sha1sum = "ed2d9e8ca95fd30a4ff7c522537f08a7061f49d4"
+size = "15772712"
+usize = "71985336"
+sha1sum = "5fac6b5ffceb066a5bf402d4c9fb131728401a60"
 depends = "['bzip2', 'curl', 'libx11', 'libxcb', 'openssl>=3.1.0']"
 +++
 ### Description: 
@@ -24,5 +24,5 @@ A new type of shell
 * /usr/bin/nu_plugin_gstat
 * /usr/bin/nu_plugin_inc
 * /usr/bin/nu_plugin_query
-* /usr/share/doc/nushell-0.104.1/LICENSE
-* /usr/share/doc/nushell-0.104.1/README.md
+* /usr/share/doc/nushell-0.105.1/LICENSE
+* /usr/share/doc/nushell-0.105.1/README.md

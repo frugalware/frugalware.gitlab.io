@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "streamlink 7.3.0-1"
-version = "7.3.0-1"
+title = "streamlink 7.4.0-1"
+version = "7.4.0-1"
 description = "CLI program that launches streams from various streaming services in a custom video player"
-date = "2025-04-27T09:38:32"
+date = "2025-06-20T09:17:36"
 aliases = "/packages/220284"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/streamlink/streamlink"
 arch = "x86_64"
-size = "824600"
-usize = "4138333"
-sha1sum = "32957e4a4acfd796491ddc771f921f0fbf8a0eca"
+size = "826732"
+usize = "4149474"
+sha1sum = "a18c2fa659ccf6ecbd9702c35b01e57d03fbd390"
 depends = "['ffmpeg', 'python3-isodate', 'python3-pycountry', 'python3-pycryptodome', 'python3-requests', 'python3-websocket_client', 'rtmpdump']"
 +++
 ### Description: 
@@ -65,6 +65,7 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.13/site-packages/streamlink/plugins/bfmtv.py
 * /usr/lib/python3.13/site-packages/streamlink/plugins/bigo.py
 * /usr/lib/python3.13/site-packages/streamlink/plugins/bilibili.py
+* /usr/lib/python3.13/site-packages/streamlink/plugins/blasttv.py
 * /usr/lib/python3.13/site-packages/streamlink/plugins/blazetv.py
 * /usr/lib/python3.13/site-packages/streamlink/plugins/bloomberg.py
 * /usr/lib/python3.13/site-packages/streamlink/plugins/brightcove.py
@@ -179,7 +180,6 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.13/site-packages/streamlink/plugins/vinhlongtv.py
 * /usr/lib/python3.13/site-packages/streamlink/plugins/vk.py
 * /usr/lib/python3.13/site-packages/streamlink/plugins/vkvideo.py
-* /usr/lib/python3.13/site-packages/streamlink/plugins/vtvgo.py
 * /usr/lib/python3.13/site-packages/streamlink/plugins/welt.py
 * /usr/lib/python3.13/site-packages/streamlink/plugins/wwenetwork.py
 * /usr/lib/python3.13/site-packages/streamlink/plugins/youtube.py
@@ -203,6 +203,7 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.13/site-packages/streamlink/plugins/__pycache__/bfmtv.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink/plugins/__pycache__/bigo.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink/plugins/__pycache__/bilibili.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/streamlink/plugins/__pycache__/blasttv.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink/plugins/__pycache__/blazetv.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink/plugins/__pycache__/bloomberg.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink/plugins/__pycache__/brightcove.cpython-313.pyc
@@ -317,7 +318,6 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.13/site-packages/streamlink/plugins/__pycache__/vinhlongtv.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink/plugins/__pycache__/vk.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink/plugins/__pycache__/vkvideo.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/streamlink/plugins/__pycache__/vtvgo.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink/plugins/__pycache__/welt.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink/plugins/__pycache__/wwenetwork.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink/plugins/__pycache__/youtube.cpython-313.pyc
@@ -537,6 +537,6 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.13/site-packages/streamlink_cli/__pycache__/_parser.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink_cli/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink_cli/__pycache__/__main__.cpython-313.pyc
-* /usr/share/doc/streamlink-7.3.0/AUTHORS
-* /usr/share/doc/streamlink-7.3.0/LICENSE
-* /usr/share/doc/streamlink-7.3.0/README.md
+* /usr/share/doc/streamlink-7.4.0/AUTHORS
+* /usr/share/doc/streamlink-7.4.0/LICENSE
+* /usr/share/doc/streamlink-7.4.0/README.md

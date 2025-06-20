@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "partclone 0.3.36-2"
-version = "0.3.36-2"
+title = "partclone 0.3.37-1"
+version = "0.3.37-1"
 description = "File System Clone Utilities for ext2/3/4, reiserfs, hfs+, fat, ntfs File System."
-date = "2025-05-22T07:53:17"
+date = "2025-06-20T09:55:06"
 aliases = "/packages/103350"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/Thomas-Tsai/partclone"
 arch = "x86_64"
-size = "209572"
-usize = "1095063"
-sha1sum = "2355a2faf315dbd70ef344ec1f64684b68b4c8af"
+size = "213456"
+usize = "1101162"
+sha1sum = "9322125c50a29fada1d5d4c4203f3981315d965c"
 depends = "['dosfstools', 'e2fsprogs>=1.42.4', 'ncurses>=6.0-3', 'nilfs-utils', 'ntfs-3g>=2021.8.22', 'ntfsprogs', 'openssl>=3.1.0']"
 +++
 ### Description: 
@@ -42,13 +42,13 @@ File System Clone Utilities for ext2/3/4, reiserfs, hfs+, fat, ntfs File System.
 * /usr/bin/partclone.ntfsreloc
 * /usr/bin/partclone.restore
 * /usr/bin/partclone.vfat
-* /usr/share/doc/partclone-0.3.36/AUTHORS
-* /usr/share/doc/partclone-0.3.36/ChangeLog
-* /usr/share/doc/partclone-0.3.36/COPYING
-* /usr/share/doc/partclone-0.3.36/HACKING
-* /usr/share/doc/partclone-0.3.36/INSTALL
-* /usr/share/doc/partclone-0.3.36/NEWS
-* /usr/share/doc/partclone-0.3.36/README.md
+* /usr/share/doc/partclone-0.3.37/AUTHORS
+* /usr/share/doc/partclone-0.3.37/ChangeLog
+* /usr/share/doc/partclone-0.3.37/COPYING
+* /usr/share/doc/partclone-0.3.37/HACKING
+* /usr/share/doc/partclone-0.3.37/INSTALL
+* /usr/share/doc/partclone-0.3.37/NEWS
+* /usr/share/doc/partclone-0.3.37/README.md
 * /usr/share/locale/de/LC_MESSAGES/partclone.mo
 * /usr/share/locale/fr_FR/LC_MESSAGES/partclone.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/partclone.mo
