@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "stunnel 5.74-2"
-version = "5.74-2"
+title = "stunnel 5.75-1"
+version = "5.75-1"
 description = "Universal SSL Wrapper"
-date = "2025-02-16T14:14:41"
+date = "2025-06-20T15:20:53"
 aliases = "/packages/38977"
 categories = ['network-extra']
 upstreamurl = "https://www.stunnel.org"
 arch = "x86_64"
-size = "198600"
-usize = "585975"
-sha1sum = "1a6cfe8047bd71743e0ee2f2bd7408d6d301e724"
+size = "202432"
+usize = "596836"
+sha1sum = "0dfe37ffcc96631f65915162b81ac815d2854fa6"
 depends = "['mimalloc>=3.0.1', 'openssl>=3.1.0', 'perl']"
 +++
 ### Description: 
@@ -23,14 +23,14 @@ Universal SSL Wrapper
 * /usr/bin/stunnel3
 * /usr/lib/stunnel/libstunnel.so
 * /usr/lib/systemd/system/stunnel.service
-* /usr/share/doc/stunnel-5.74/BUGS.md
-* /usr/share/doc/stunnel-5.74/COPYING.md
-* /usr/share/doc/stunnel-5.74/COPYRIGHT.md
-* /usr/share/doc/stunnel-5.74/INSTALL.FIPS.md
-* /usr/share/doc/stunnel-5.74/INSTALL.W32.md
-* /usr/share/doc/stunnel-5.74/INSTALL.WCE.md
-* /usr/share/doc/stunnel-5.74/README.Frugalware
-* /usr/share/doc/stunnel-5.74/README.md
+* /usr/share/doc/stunnel-5.75/BUGS.md
+* /usr/share/doc/stunnel-5.75/COPYING.md
+* /usr/share/doc/stunnel-5.75/COPYRIGHT.md
+* /usr/share/doc/stunnel-5.75/INSTALL.FIPS.md
+* /usr/share/doc/stunnel-5.75/INSTALL.W32.md
+* /usr/share/doc/stunnel-5.75/INSTALL.WCE.md
+* /usr/share/doc/stunnel-5.75/README.Frugalware
+* /usr/share/doc/stunnel-5.75/README.md
 * /usr/share/doc/stunnel/AUTHORS.md
 * /usr/share/doc/stunnel/BUGS.md
 * /usr/share/doc/stunnel/COPYING.md
