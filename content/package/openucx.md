@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "openucx 1.18.0-2"
-version = "1.18.0-2"
+title = "openucx 1.18.1-1"
+version = "1.18.1-1"
 description = "Unified Communication X"
-date = "2025-02-05T14:48:27"
+date = "2025-06-20T16:57:11"
 aliases = "/packages/220865"
 categories = ['network-extra']
 upstreamurl = "http://www.openucx.org"
 arch = "x86_64"
-size = "1461824"
-usize = "5055840"
-sha1sum = "b91b6b8177768358f44302f2e47a0c2f70a7b04d"
+size = "1488940"
+usize = "5098524"
+sha1sum = "b307307c3e38443f2ccce8f57dacd28d18fed173"
 depends = "['binutils>=2.44', 'libgomp', 'numactl', 'rdma-core']"
-reverse_depends = "['cuda-tools']"
+reverse_depends = "['cuda-tools', 'openucx-cuda', 'openucx-rocm']"
 +++
 ### Description: 
 Unified Communication X
@@ -140,11 +140,11 @@ Unified Communication X
 * /usr/lib/ucx/libucx_perftest_mad.so
 * /usr/lib/ucx/libucx_perftest_mad.so.0
 * /usr/lib/ucx/libucx_perftest_mad.so.0.0.0
-* /usr/share/doc/openucx-1.18.0/AUTHORS
-* /usr/share/doc/openucx-1.18.0/LICENSE
-* /usr/share/doc/openucx-1.18.0/NEWS
-* /usr/share/doc/openucx-1.18.0/README
-* /usr/share/doc/openucx-1.18.0/README.md
+* /usr/share/doc/openucx-1.18.1/AUTHORS
+* /usr/share/doc/openucx-1.18.1/LICENSE
+* /usr/share/doc/openucx-1.18.1/NEWS
+* /usr/share/doc/openucx-1.18.1/README
+* /usr/share/doc/openucx-1.18.1/README.md
 * /usr/share/ucx/examples/hello_world_util.h
 * /usr/share/ucx/examples/ucp_client_server.c
 * /usr/share/ucx/examples/ucp_hello_world.c

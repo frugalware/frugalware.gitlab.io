@@ -12,7 +12,7 @@ size = "9514980"
 usize = "30160280"
 sha1sum = "b8d3915aef9c20710423f9ff1f4533909660094e"
 depends = "['comgr', 'libglvnd', 'rocm-core', 'rocminfo', 'rocprofiler-register']"
-reverse_depends = "['roctracer']"
+reverse_depends = "['openucx-rocm', 'roctracer']"
 +++
 ### Description: 
 Heterogeneous Interface for Portability ROCm
