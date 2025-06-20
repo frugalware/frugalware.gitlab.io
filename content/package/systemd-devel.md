@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "systemd-devel 257.6-1"
-version = "257.6-1"
+title = "systemd-devel 257.6-2"
+version = "257.6-2"
 description = "Systemd development files."
-date = "2025-06-01T19:35:27"
+date = "2025-06-20T11:50:47"
 aliases = "/packages/219951"
 categories = ['devel-extra']
 upstreamurl = "http://www.freedesktop.org/wiki/Software/systemd"
 arch = "x86_64"
-size = "62788"
+size = "62900"
 usize = "235237"
-sha1sum = "2ea6eab1a46c8b41bb18de148842970fdf687ae2"
+sha1sum = "1a12d1a931766830bdc9401761b5f483afaf46f1"
 depends = "[]"
 +++
 ### Description: 

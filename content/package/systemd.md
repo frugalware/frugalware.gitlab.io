@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "systemd 257.6-1"
-version = "257.6-1"
+title = "systemd 257.6-2"
+version = "257.6-2"
 description = "A System and Service Manager"
-date = "2025-06-01T19:35:27"
+date = "2025-06-20T11:50:47"
 aliases = "/packages/103627"
 categories = ['base']
 upstreamurl = "http://www.freedesktop.org/wiki/Software/systemd"
 arch = "x86_64"
-size = "4823976"
-usize = "21689270"
-sha1sum = "278efa196c91c9fe9ce8ff10e03a9552461afa6c"
+size = "4824560"
+usize = "21689901"
+sha1sum = "3405537e17cbd1ff811024469021f220f8a3439e"
 depends = "['cryptsetup-luks>=2.0.1-3', 'dbus>=1.12.2-4', 'frugalware>=2.1-129', 'hwdata', 'kmod>=25-2', 'libidn2', 'libseccomp', 'libsystemd>=257.6', 'libudev>=257.6', 'lz4>=1.8.1.2-2', 'openssl>=3.1.0', 'pcre2', 'scriptlet-core', 'shadow>=4.6-5', 'systemd-systemctl>=257.6', 'systemd-sysvinit']"
 reverse_depends = "['amavisd-new', 'bitlbee-common', 'bolt', 'ccid', 'dracut', 'flightgear', 'greetd', 'guvcview', 'iio-sensor-proxy', 'kernel-initrd', 'kernel-lts-initrd', 'kscreenlocker', 'libfido2', 'libvirt', 'php-fpm', 'plocate', 'profile-sync-daemon', 'python3-systemd', 'pyudev', 'seatd', 'systemd-pull', 'systemd-remote', 'systemd-swap', 'systemd-sysvinit', 'tcplay', 'umockdev', 'usb-modeswitch-data', 'uwsgi-plugin-systemd', 'xdg-desktop-portal', 'xf86-input-wacom']"
 +++
