@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openloco 25.04-1"
-version = "25.04-1"
+title = "openloco 25.05-1"
+version = "25.05-1"
 description = "An open source re-implementation of Locomotion"
-date = "2025-04-29T13:48:18"
+date = "2025-06-21T12:00:15"
 aliases = "/packages/220332"
 categories = ['games-extra']
 upstreamurl = "https://github.com/openloco/openloco"
 arch = "x86_64"
-size = "2574284"
-usize = "29796380"
-sha1sum = "14d23bc45c849faf6ae3f99f85fb6b0d49dc5bd7"
+size = "2578572"
+usize = "29835129"
+sha1sum = "1da70b056d62f73a9361190c3bd323d091e00a31"
 depends = "['lib32-libpng', 'lib32-openal', 'lib32-sdl2_mixer', 'lib32-yaml-cpp', 'libstdc++']"
 +++
 ### Description: 
@@ -139,8 +139,8 @@ An open source re-implementation of Locomotion
 * /usr/lib/cmake/fmt/fmt-targets.cmake
 * /usr/lib/pkgconfig/fmt.pc
 * /usr/share/applications/openloco.desktop
-* /usr/share/doc/openloco-25.04/LICENSE
-* /usr/share/doc/openloco-25.04/README.md
+* /usr/share/doc/openloco-25.05/LICENSE
+* /usr/share/doc/openloco-25.05/README.md
 * /usr/share/doc/openloco/CHANGELOG.md
 * /usr/share/doc/openloco/CONTRIBUTORS.md
 * /usr/share/doc/openloco/LICENSE

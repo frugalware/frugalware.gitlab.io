@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "fox 1.7.85-2"
-version = "1.7.85-2"
+title = "fox 1.7.86-1"
+version = "1.7.86-1"
 description = "FOX is a C++ based Toolkit for developing Graphical User Interfaces easily and effectively."
-date = "2025-03-14T10:48:14"
+date = "2025-06-21T11:48:00"
 aliases = "/packages/3598"
 categories = ['xlib-extra']
 upstreamurl = "http://www.fox-toolkit.org/"
 arch = "x86_64"
-size = "4333680"
-usize = "11434743"
-sha1sum = "b4cbc2eb71bf9abfc14e3fbc0b1ed84ff017304d"
+size = "4404180"
+usize = "11662977"
+sha1sum = "2b44c8c0dcb517d59a987cd3ce7207dc8ced0c9f"
 depends = "['libglu', 'libjpeg-turbo', 'libpng', 'libtiff>=4.7.0', 'libxcursor', 'libxft', 'libxi', 'libxrandr']"
 +++
 ### Description: 
@@ -52,6 +52,7 @@ FOX is a C++ based Toolkit for developing Graphical User Interfaces easily and e
 * /usr/include/fox-1.7/FX88598Codec.h
 * /usr/include/fox-1.7/FX88599Codec.h
 * /usr/include/fox-1.7/FXAccelTable.h
+* /usr/include/fox-1.7/fxadler32.h
 * /usr/include/fox-1.7/FXApp.h
 * /usr/include/fox-1.7/FXArray.h
 * /usr/include/fox-1.7/FXArrowButton.h
@@ -395,15 +396,15 @@ FOX is a C++ based Toolkit for developing Graphical User Interfaces easily and e
 * /usr/include/fox-1.7/xincs.h
 * /usr/lib/libCHART-1.7.so
 * /usr/lib/libCHART-1.7.so.0
-* /usr/lib/libCHART-1.7.so.0.0.85
+* /usr/lib/libCHART-1.7.so.0.0.86
 * /usr/lib/libFOX-1.7.so
 * /usr/lib/libFOX-1.7.so.0
-* /usr/lib/libFOX-1.7.so.0.0.85
+* /usr/lib/libFOX-1.7.so.0.0.86
 * /usr/lib/pkgconfig/fox17.pc
-* /usr/share/doc/fox-1.7.85/AUTHORS
-* /usr/share/doc/fox-1.7.85/INSTALL
-* /usr/share/doc/fox-1.7.85/LICENSE
-* /usr/share/doc/fox-1.7.85/README
+* /usr/share/doc/fox-1.7.86/AUTHORS
+* /usr/share/doc/fox-1.7.86/INSTALL
+* /usr/share/doc/fox-1.7.86/LICENSE
+* /usr/share/doc/fox-1.7.86/README
 * /usr/share/doc/fox-1.7/html/adie.html
 * /usr/share/doc/fox-1.7/html/app.html
 * /usr/share/doc/fox-1.7/html/art/bigpenguin.png

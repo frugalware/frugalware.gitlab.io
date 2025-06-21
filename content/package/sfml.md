@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "sfml 3.0.0-3"
-version = "3.0.0-3"
+title = "sfml 3.0.1-1"
+version = "3.0.1-1"
 description = "SFML is a free multimedia C++ API."
-date = "2025-02-14T15:15:42"
+date = "2025-06-21T11:55:39"
 aliases = "/packages/218691"
 categories = ['xlib-extra']
 upstreamurl = "http://sfml-dev.org/"
 arch = "x86_64"
-size = "562748"
-usize = "2406426"
-sha1sum = "6d924327512ea7c46d10eb432f0a2d105a073e39"
+size = "571484"
+usize = "2419027"
+sha1sum = "5066e9951718e6cdfacc4320f484a06bad6b4a24"
 depends = "['flac>=1.5.0', 'freetype2', 'glew>=1.10.0', 'libjpeg-turbo', 'libsndfile', 'libudev', 'libxcursor', 'libxrandr', 'openal', 'xcb-util-image']"
 +++
 ### Description: 
@@ -153,19 +153,19 @@ SFML is a free multimedia C++ API.
 * /usr/lib/cmake/SFML/SFMLWindowSharedTargets.cmake
 * /usr/lib/libsfml-audio.so
 * /usr/lib/libsfml-audio.so.3.0
-* /usr/lib/libsfml-audio.so.3.0.0
+* /usr/lib/libsfml-audio.so.3.0.1
 * /usr/lib/libsfml-graphics.so
 * /usr/lib/libsfml-graphics.so.3.0
-* /usr/lib/libsfml-graphics.so.3.0.0
+* /usr/lib/libsfml-graphics.so.3.0.1
 * /usr/lib/libsfml-network.so
 * /usr/lib/libsfml-network.so.3.0
-* /usr/lib/libsfml-network.so.3.0.0
+* /usr/lib/libsfml-network.so.3.0.1
 * /usr/lib/libsfml-system.so
 * /usr/lib/libsfml-system.so.3.0
-* /usr/lib/libsfml-system.so.3.0.0
+* /usr/lib/libsfml-system.so.3.0.1
 * /usr/lib/libsfml-window.so
 * /usr/lib/libsfml-window.so.3.0
-* /usr/lib/libsfml-window.so.3.0.0
+* /usr/lib/libsfml-window.so.3.0.1
 * /usr/lib/pkgconfig/sfml-all.pc
 * /usr/lib/pkgconfig/sfml-audio.pc
 * /usr/lib/pkgconfig/sfml-graphics.pc
