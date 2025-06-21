@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "uwsgi-plugin-lua 2.0.29-2"
-version = "2.0.29-2"
+title = "uwsgi-plugin-lua 2.0.30-1"
+version = "2.0.30-1"
 description = "UWSGI Lua Plugin"
-date = "2025-05-22T07:14:31"
+date = "2025-06-21T08:58:08"
 aliases = "/packages/200404"
 categories = ['network-extra']
 upstreamurl = "http://projects.unbit.it/"
 arch = "x86_64"
-size = "11772"
+size = "11816"
 usize = "27304"
-sha1sum = "f6a9eb4f16ee62648619717b50d2bdf1a4816120"
+sha1sum = "445d454f948b3b4cb509199fa4eb66f9613fc0df"
 depends = "['lua>=5.4', 'uwsgi']"
 +++
 ### Description: 

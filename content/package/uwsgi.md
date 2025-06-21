@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "uwsgi 2.0.29-2"
-version = "2.0.29-2"
+title = "uwsgi 2.0.30-1"
+version = "2.0.30-1"
 description = "A fast, self-healing and developer/sysadmin-friendly application container server coded in pure C"
-date = "2025-05-22T07:14:31"
+date = "2025-06-21T08:58:08"
 aliases = "/packages/200398"
 categories = ['network-extra']
 upstreamurl = "http://projects.unbit.it/"
 arch = "x86_64"
-size = "469640"
-usize = "1505059"
-sha1sum = "e3d3fc284b623d492eea52b58ed51631a1586630"
+size = "470784"
+usize = "1505507"
+sha1sum = "11795453f67c3fffa981d88b2a8f4e2e103ecda9"
 depends = "['icu4c>=77.1', 'jansson', 'libcap', 'libuuid>=2.40.2', 'libxml2>=2.14.3', 'mono', 'openssl>=3.1.0', 'pcre', 'zeromq']"
 reverse_depends = "['uwsgi-plugin-airbrake', 'uwsgi-plugin-carbon', 'uwsgi-plugin-cplusplus', 'uwsgi-plugin-curl', 'uwsgi-plugin-emperor_pg', 'uwsgi-plugin-ffi', 'uwsgi-plugin-geoip', 'uwsgi-plugin-gevent', 'uwsgi-plugin-graylog', 'uwsgi-plugin-ldap', 'uwsgi-plugin-lua', 'uwsgi-plugin-mongrel', 'uwsgi-plugin-mono', 'uwsgi-plugin-nagios', 'uwsgi-plugin-pam', 'uwsgi-plugin-psgi', 'uwsgi-plugin-python', 'uwsgi-plugin-rack', 'uwsgi-plugin-router', 'uwsgi-plugin-ruby', 'uwsgi-plugin-sqlite', 'uwsgi-plugin-systemd', 'uwsgi-plugin-webdav', 'uwsgi-plugin-xmpp', 'uwsgi-plugin-xslt', 'uwsgi-plugin-zergpool']"
 license = "GPL2"
@@ -72,6 +72,6 @@ A fast, self-healing and developer/sysadmin-friendly application container serve
 * /usr/lib/uwsgi/ugreen_plugin.so
 * /usr/lib/uwsgi/xattr_plugin.so
 * /usr/lib/uwsgi/zabbix_plugin.so
-* /usr/share/doc/uwsgi-2.0.29/CONTRIBUTORS
-* /usr/share/doc/uwsgi-2.0.29/LICENSE
-* /usr/share/doc/uwsgi-2.0.29/README
+* /usr/share/doc/uwsgi-2.0.30/CONTRIBUTORS
+* /usr/share/doc/uwsgi-2.0.30/LICENSE
+* /usr/share/doc/uwsgi-2.0.30/README

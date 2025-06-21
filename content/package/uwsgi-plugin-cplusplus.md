@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "uwsgi-plugin-cplusplus 2.0.29-2"
-version = "2.0.29-2"
+title = "uwsgi-plugin-cplusplus 2.0.30-1"
+version = "2.0.30-1"
 description = "UWSGI C++ Plugin"
-date = "2025-05-22T07:14:31"
+date = "2025-06-21T08:58:08"
 aliases = "/packages/200430"
 categories = ['network-extra']
 upstreamurl = "http://projects.unbit.it/"
 arch = "x86_64"
-size = "7228"
+size = "7280"
 usize = "10448"
-sha1sum = "7490356ca50088e4d99cee566d2e2c741fb3289d"
+sha1sum = "8c92f09238a160ea2eaeff34fceb89904a47ed18"
 depends = "['libstdc++>=6.2.1-5', 'uwsgi']"
 +++
 ### Description: 
