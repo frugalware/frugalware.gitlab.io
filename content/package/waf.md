@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "waf 2.1.5-1"
-version = "2.1.5-1"
+title = "waf 2.1.6-1"
+version = "2.1.6-1"
 description = "General-purpose build system modelled after Scons"
-date = "2025-02-10T19:25:28"
+date = "2025-06-21T08:39:30"
 aliases = "/packages/221477"
 categories = ['devel-extra']
 upstreamurl = "http://waf.io/"
 arch = "x86_64"
-size = "811196"
-usize = "5414546"
-sha1sum = "5e81f399bf041e5e34fa37459992be118d565ccd"
+size = "818532"
+usize = "5456481"
+sha1sum = "1f15363e56a91f3a6a3f93074549c2a53b3b75c8"
 depends = "['python3>=3.13']"
 +++
 ### Description: 
@@ -86,6 +86,7 @@ General-purpose build system modelled after Scons
 * /usr/lib/python3.13/site-packages/waf/waflib/extras/midl.py
 * /usr/lib/python3.13/site-packages/waf/waflib/extras/msvcdeps.py
 * /usr/lib/python3.13/site-packages/waf/waflib/extras/msvc_pdb.py
+* /usr/lib/python3.13/site-packages/waf/waflib/extras/msvc_toolset.py
 * /usr/lib/python3.13/site-packages/waf/waflib/extras/msvs.py
 * /usr/lib/python3.13/site-packages/waf/waflib/extras/netcache_client.py
 * /usr/lib/python3.13/site-packages/waf/waflib/extras/objcopy.py
@@ -256,6 +257,8 @@ General-purpose build system modelled after Scons
 * /usr/lib/python3.13/site-packages/waf/waflib/extras/__pycache__/msvcdeps.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/waf/waflib/extras/__pycache__/msvc_pdb.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/waf/waflib/extras/__pycache__/msvc_pdb.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/waf/waflib/extras/__pycache__/msvc_toolset.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/waf/waflib/extras/__pycache__/msvc_toolset.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/waf/waflib/extras/__pycache__/msvs.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/waf/waflib/extras/__pycache__/msvs.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/waf/waflib/extras/__pycache__/netcache_client.cpython-313.opt-1.pyc
@@ -579,7 +582,7 @@ General-purpose build system modelled after Scons
 * /usr/lib/python3.13/site-packages/waf/waflib/__pycache__/Utils.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/waf/waflib/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/waf/waflib/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/waf-2.1.5/ChangeLog
-* /usr/share/doc/waf-2.1.5/LICENSE
-* /usr/share/doc/waf-2.1.5/README.md
+* /usr/share/doc/waf-2.1.6/ChangeLog
+* /usr/share/doc/waf-2.1.6/LICENSE
+* /usr/share/doc/waf-2.1.6/README.md
 * /usr/share/waf/wscript

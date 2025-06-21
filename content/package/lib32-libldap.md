@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libldap 2.6.9-1"
-version = "2.6.9-1"
+title = "lib32-libldap 2.6.10-1"
+version = "2.6.10-1"
 description = "OpenLDAP library ( 32bit )"
-date = "2024-12-23T19:17:15"
+date = "2025-06-21T08:45:28"
 aliases = "/packages/220098"
 categories = ['lib32-extra']
 upstreamurl = "http://www.openldap.org/"
 arch = "x86_64"
-size = "165772"
-usize = "468916"
-sha1sum = "e2ec5c57625b94a9e5ad734b1b94c4c366ebb1ad"
+size = "168552"
+usize = "477142"
+sha1sum = "2f4ff3b64c1eb6164b8b3092d075ea73c6f508bb"
 depends = "['lib32-libtool', 'lib32-openssl>=3.0.7']"
 reverse_depends = "['lib32-audit', 'wine', 'wine-devel']"
 +++

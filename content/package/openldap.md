@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "openldap 2.6.9-1"
-version = "2.6.9-1"
+title = "openldap 2.6.10-1"
+version = "2.6.10-1"
 description = "A suite of the Lightweight Directory Access Protocol servers"
-date = "2024-12-23T19:17:15"
+date = "2025-06-21T08:45:28"
 aliases = "/packages/3272"
 categories = ['network-extra']
 upstreamurl = "http://www.openldap.org/"
 arch = "x86_64"
-size = "1188656"
-usize = "3291863"
-sha1sum = "2d2fc5bc16f6e6f75982d6a8bf8d2b92b6aaad80"
-depends = "['libldap>=2.6.9', 'libtool>=2.4.6-5', 'libxcrypt']"
+size = "1188416"
+usize = "3255864"
+sha1sum = "0023ede1a5099b38b3c937f553c2f26d6812bc64"
+depends = "['libldap>=2.6.10', 'libtool>=2.4.6-5', 'libxcrypt']"
 +++
 ### Description: 
 A suite of the Lightweight Directory Access Protocol servers
@@ -80,11 +80,11 @@ A suite of the Lightweight Directory Access Protocol servers
 * /usr/lib/pkgconfig/ldap.pc
 * /usr/lib/systemd/system/slapd.service
 * /usr/lib/sysusers.d/openldap.conf
-* /usr/share/doc/openldap-2.6.9/CHANGES
-* /usr/share/doc/openldap-2.6.9/COPYRIGHT
-* /usr/share/doc/openldap-2.6.9/INSTALL
-* /usr/share/doc/openldap-2.6.9/LICENSE
-* /usr/share/doc/openldap-2.6.9/README
+* /usr/share/doc/openldap-2.6.10/CHANGES
+* /usr/share/doc/openldap-2.6.10/COPYRIGHT
+* /usr/share/doc/openldap-2.6.10/INSTALL
+* /usr/share/doc/openldap-2.6.10/LICENSE
+* /usr/share/doc/openldap-2.6.10/README
 * /usr/share/man/man1/ldapadd.1.gz
 * /usr/share/man/man1/ldapcompare.1.gz
 * /usr/share/man/man1/ldapdelete.1.gz
