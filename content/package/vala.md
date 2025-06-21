@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "vala 0.56.18-1"
-version = "0.56.18-1"
+title = "vala 0.56.18-2"
+version = "0.56.18-2"
 description = "Vala is a prgramming language that aims to bring modern programming language features to GNOME developers"
-date = "2025-03-17T12:17:36"
+date = "2025-06-21T10:21:51"
 aliases = "/packages/38773"
 categories = ['devel-extra']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "2502012"
-usize = "16308557"
-sha1sum = "f6f0d3625836d0fbc6ddd3043ae592c0eac70b30"
-depends = "['glib2>=2.60.0', 'graphviz', 'libffi>=3.2.1-2']"
+size = "2504412"
+usize = "16307946"
+sha1sum = "8afa2ca39cd2480097ab85051cd965c80032b373"
+depends = "['glib2>=2.60.0', 'graphviz>=13.0.1', 'libffi>=3.2.1-2']"
 reverse_depends = "['gimp', 'libproxy-vala', 'libsecret-vala']"
 +++
 ### Description: 
@@ -76,7 +76,6 @@ Vala is a prgramming language that aims to bring modern programming language fea
 * /usr/share/doc/vala-0.56.18/NEWS
 * /usr/share/doc/vala-0.56.18/README
 * /usr/share/doc/vala-0.56.18/README.md
-* /usr/share/doc/vala-0.56.18/RELEASE
 * /usr/share/doc/vala-0.56.18/THANKS
 * /usr/share/man/man1/vala-gen-introspect-0.56.1.gz
 * /usr/share/man/man1/vala-gen-introspect.1.gz

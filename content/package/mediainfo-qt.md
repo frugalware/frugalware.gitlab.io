@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mediainfo-qt 25.03-4"
-version = "25.03-4"
+title = "mediainfo-qt 25.04-1"
+version = "25.04-1"
 description = "Qt6 based gui for mediainfo."
-date = "2025-06-06T13:35:20"
+date = "2025-06-21T10:20:05"
 aliases = "/packages/136862"
 categories = ['xapps-extra']
 upstreamurl = "https://mediaarea.net/MediaInfo"
 arch = "x86_64"
-size = "486292"
-usize = "1943762"
-sha1sum = "4a8b1648aee2c20eaaec846ad138e70fed25378b"
+size = "487972"
+usize = "1952818"
+sha1sum = "af916fedbc2c322c458ef91b0f108ce98fc3da58"
 depends = "['qt6-webengine>=6.9.1']"
 +++
 ### Description: 
