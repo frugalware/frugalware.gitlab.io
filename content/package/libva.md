@@ -12,7 +12,7 @@ size = "204628"
 usize = "1020991"
 sha1sum = "b4c7c770962f0689a5e6bceb42426ab11cf31dcc"
 depends = "['libdrm>=2.4.70-2', 'libglvnd', 'libxext>=1.3.3-3', 'libxfixes>=5.0.1-3', 'wayland>=1.11.0-3']"
-reverse_depends = "['chromium-browser', 'ffmpeg', 'ffmpeg4.4', 'gst1-plugins-bad-libva', 'intel-compute-runtime', 'intel-media-sdk', 'libva-intel-driver', 'libva-utils', 'libva-vdpau-driver', 'libvdpau-va-gl', 'libvpl', 'media-driver', 'mpv', 'qt6-webengine', 'stepmania', 'vlc', 'weston', 'xine-lib']"
+reverse_depends = "['chromium-browser', 'ffmpeg', 'ffmpeg4.4', 'gst1-plugins-bad-libva', 'intel-compute-runtime', 'intel-media-sdk', 'libva-intel-driver', 'libva-utils', 'libva-vdpau-driver', 'libvdpau-va-gl', 'libvpl', 'media-driver', 'mpv', 'qt6-webengine', 'stepmania', 'virglrenderer', 'vlc', 'weston', 'xine-lib']"
 +++
 ### Description: 
 Uniform library API for hardware acceleration of video decoding.
