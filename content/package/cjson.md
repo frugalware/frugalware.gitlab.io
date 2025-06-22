@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "cjson 1.7.18-1"
-version = "1.7.18-1"
+title = "cjson 1.7.18-2"
+version = "1.7.18-2"
 description = "Ultralightweight JSON parser in ANSI C"
-date = "2024-11-05T21:20:17"
+date = "2025-06-22T11:20:42"
 aliases = "/packages/222561"
-categories = ['lib-extra']
+categories = ['lib']
 upstreamurl = "https://github.com/DaveGamble/cjson"
 arch = "x86_64"
-size = "25336"
-usize = "79887"
-sha1sum = "9703159bce68f2b62145d4f86c4ad5ffd954d7ed"
+size = "25488"
+usize = "79896"
+sha1sum = "e018be2e7175600052cc8eab6179592b5e12c351"
 depends = "['glibc']"
 reverse_depends = "['freerdp', 'openvas-libraries', 'weechat']"
 +++
