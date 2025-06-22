@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "wine-devel 10.10-1"
-version = "10.10-1"
+title = "wine-devel 10.10-2"
+version = "10.10-2"
 description = "An Open Source implementation of the Windows API on top of X and Unix. (Development)"
-date = "2025-06-18T11:33:52"
+date = "2025-06-22T10:39:54"
 aliases = "/packages/136362"
 categories = ['xapps-extra']
 upstreamurl = "http://www.winehq.org"
 arch = "x86_64"
-size = "279390300"
+size = "279413664"
 usize = "1588367557"
-sha1sum = "51bd121c4d881327fb329b9092bfdd75647e01dd"
+sha1sum = "107eeedcbfd4baa6654c13fb37200c3f86f1a277"
 depends = "['faudio', 'gettext', 'gst1-plugins-base', 'lcms2', 'lib32-faudio', 'lib32-freetype2', 'lib32-lcms2', 'lib32-libldap>=2.5.4', 'lib32-libxcomposite', 'lib32-libxcursor', 'lib32-libxi', 'lib32-libxinerama', 'lib32-libxkbcommon', 'lib32-libxml2', 'lib32-libxrandr', 'lib32-libxrender', 'lib32-ncurses', 'lib32-ocl-icd', 'lib32-vkd3d', 'lib32-vulkan-icd-loader', 'lib32-wayland', 'libglu', 'libgphoto2', 'libldap>=2.5.4', 'libmpg123', 'libpcap', 'libpulse', 'libxcomposite', 'libxcursor', 'libxi', 'libxinerama', 'libxkbcommon', 'libxml2', 'libxrandr', 'libxrender', 'libxslt', 'ocl-icd', 'openal', 'pcsc-lite', 'sane-backends', 'v4l-utils', 'vkd3d', 'vulkan-icd-loader', 'wayland']"
 +++
 ### Description: 

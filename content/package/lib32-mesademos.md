@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-mesademos 9.0.0-4"
-version = "9.0.0-4"
+title = "lib32-mesademos 9.0.0-5"
+version = "9.0.0-5"
 description = "OpenGL demonstration and test programs. ( 32bit )"
-date = "2025-05-09T14:25:08"
+date = "2025-06-22T10:47:21"
 aliases = "/packages/222714"
 categories = ['lib32-extra']
 upstreamurl = "https://ww.mesa3d.org"
 arch = "x86_64"
-size = "4384192"
-usize = "38852520"
-sha1sum = "be0adb61949e0b96fab6fa9d2e848fe11a7193de"
+size = "4388616"
+usize = "38838312"
+sha1sum = "431ab597c351ba367cf83a21bf11ef698431db27"
 depends = "['lib32-freeglut', 'lib32-libdbus', 'lib32-libdecor', 'lib32-libglu', 'lib32-libglvnd', 'lib32-pango', 'lib32-vulkan-icd-loader', 'lib32-wayland']"
 +++
 ### Description: 

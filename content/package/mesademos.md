@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mesademos 9.0.0-4"
-version = "9.0.0-4"
+title = "mesademos 9.0.0-5"
+version = "9.0.0-5"
 description = "OpenGL demonstration and test programs."
-date = "2025-05-09T14:25:08"
+date = "2025-06-22T10:47:21"
 aliases = "/packages/4821"
 categories = ['x11']
 upstreamurl = "https://ww.mesa3d.org"
 arch = "x86_64"
-size = "3119780"
-usize = "23492570"
-sha1sum = "b7cb8aca272b8551e52c09b87a0e65bac0465123"
+size = "3102964"
+usize = "23440394"
+sha1sum = "fb6b688cc2cc4027edda9769ab666af7d0b6cd35"
 depends = "['freeglut', 'libdecor', 'libglu', 'vulkan-icd-loader']"
 +++
 ### Description: 
@@ -144,9 +144,6 @@ OpenGL demonstration and test programs.
 * /usr/bin/noise
 * /usr/bin/noise2
 * /usr/bin/offset
-* /usr/bin/osdemo
-* /usr/bin/osdemo16
-* /usr/bin/osdemo32
 * /usr/bin/overlay
 * /usr/bin/paltex
 * /usr/bin/pbdemo
