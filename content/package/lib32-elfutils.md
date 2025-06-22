@@ -12,7 +12,7 @@ size = "785000"
 usize = "4180977"
 sha1sum = "33f03aaa51551df23bcf19ce6a553be9a9a79421"
 depends = "['lib32-bzip2>=1.0.6-16', 'lib32-json-c', 'lib32-libarchive', 'lib32-xz>=5.2.4-2', 'lib32-zlib-ng', 'lib32-zstd']"
-reverse_depends = "['lib32-elfutils-debuginfod', 'lib32-glib2', 'lib32-libosmesa', 'lib32-libva-mesa-driver', 'lib32-mesa-dri-drivers', 'lib32-mesa-nine', 'lib32-mesa-pipe-drivers', 'lib32-mesa-vdpau-drivers', 'lib32-v4l-utils']"
+reverse_depends = "['lib32-elfutils-debuginfod', 'lib32-glib2', 'lib32-libva-mesa-driver', 'lib32-mesa-dri-drivers', 'lib32-mesa-pipe-drivers', 'lib32-mesa-vdpau-drivers', 'lib32-v4l-utils']"
 +++
 ### Description: 
 Collection of libraries and utilities for working with ELF object files and DWARF debugging information ( 32bit )

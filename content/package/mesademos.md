@@ -11,7 +11,7 @@ arch = "x86_64"
 size = "3119780"
 usize = "23492570"
 sha1sum = "b7cb8aca272b8551e52c09b87a0e65bac0465123"
-depends = "['freeglut', 'libdecor', 'libglu', 'libosmesa', 'vulkan-icd-loader']"
+depends = "['freeglut', 'libdecor', 'libglu', 'vulkan-icd-loader']"
 +++
 ### Description: 
 OpenGL demonstration and test programs.

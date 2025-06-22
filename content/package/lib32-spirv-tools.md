@@ -12,7 +12,7 @@ size = "1448124"
 usize = "6464191"
 sha1sum = "a8ccf0408ea1d9cfae5154413325b8f9f05d2e38"
 depends = "['python3']"
-reverse_depends = "['lib32-libosmesa', 'lib32-mesa-dri-drivers', 'lib32-mesa-libegl', 'lib32-mesa-libglx', 'lib32-mesa-vulkan-intel', 'lib32-spirv-llvm-translator', 'lib32-vkd3d']"
+reverse_depends = "['lib32-mesa-dri-drivers', 'lib32-mesa-libegl', 'lib32-mesa-libglx', 'lib32-mesa-vulkan-intel', 'lib32-spirv-llvm-translator', 'lib32-vkd3d']"
 +++
 ### Description: 
 API and commands for processing SPIR-V modules ( 32bit )

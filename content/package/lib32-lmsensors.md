@@ -12,7 +12,7 @@ size = "250596"
 usize = "333447"
 sha1sum = "cd73699dfa4eb39769ea3e69d95574db45489041"
 depends = "[]"
-reverse_depends = "['lib32-mesa-dri-drivers', 'lib32-mesa-nine']"
+reverse_depends = "['lib32-mesa-dri-drivers']"
 +++
 ### Description: 
 Linux System Hardware Monitor ( 32bit )

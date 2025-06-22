@@ -12,7 +12,7 @@ size = "130212"
 usize = "511750"
 sha1sum = "9edcc21027f84d9eb86c6ac731c6a2d56ac6d1d6"
 depends = "['coreutils>=6.26-2', 'glibc>=2.35']"
-reverse_depends = "['apache', 'apr-util', 'avahi', 'dbus', 'efl', 'elinks', 'enlightenment', 'exempi', 'exiv2', 'fontconfig', 'gdal', 'gdb', 'git', 'guarddog', 'insight-toolkit', 'intltool', 'kasablanca', 'kat', 'ksniffer', 'lftp', 'lib32-mesa-libswrast', 'libarchive', 'libdom', 'libextractor', 'liblcf', 'libosmesa', 'libreoffice', 'libva-mesa-driver', 'mesa-dri-drivers', 'mesa-libglx', 'mesa-libswrast', 'mesa-nine', 'mesa-vdpau-drivers', 'neon', 'perl-xml-parser', 'polkit', 'pwmanager', 'python3', 'qtparted', 'sablotron', 'terminology', 'unbound', 'wayland']"
+reverse_depends = "['apache', 'apr-util', 'avahi', 'dbus', 'efl', 'elinks', 'enlightenment', 'exempi', 'exiv2', 'fontconfig', 'gdal', 'gdb', 'git', 'guarddog', 'insight-toolkit', 'intltool', 'kasablanca', 'kat', 'ksniffer', 'lftp', 'lib32-mesa-libswrast', 'libarchive', 'libdom', 'libextractor', 'liblcf', 'libreoffice', 'libva-mesa-driver', 'mesa-dri-drivers', 'mesa-libglx', 'mesa-libswrast', 'mesa-vdpau-drivers', 'neon', 'perl-xml-parser', 'polkit', 'pwmanager', 'python3', 'qtparted', 'sablotron', 'terminology', 'unbound', 'wayland']"
 +++
 ### Description: 
 An XML Parser library written in C

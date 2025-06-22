@@ -12,7 +12,7 @@ size = "622488"
 usize = "1637788"
 sha1sum = "e6948bbe39233a83e815fe795dc547a0abefb72b"
 depends = "['lib32-libxau>=1.0.8-8', 'lib32-libxcb>=1.13.1', 'lib32-libxdmcp>=1.1.2-8']"
-reverse_depends = "['lib32-cairo', 'lib32-gdk-pixbuf2', 'lib32-libdmx', 'lib32-libegl', 'lib32-libepoxy', 'lib32-libglvnd', 'lib32-libosmesa', 'lib32-libpulse', 'lib32-libva-mesa-driver', 'lib32-libvdpau', 'lib32-libxcomposite', 'lib32-libxcursor', 'lib32-libxdamage', 'lib32-libxext', 'lib32-libxfixes', 'lib32-libxft', 'lib32-libxi', 'lib32-libxinerama', 'lib32-libxkbfile', 'lib32-libxmu', 'lib32-libxpm', 'lib32-libxrandr', 'lib32-libxrender', 'lib32-libxres', 'lib32-libxscrnsaver', 'lib32-libxt', 'lib32-libxtst', 'lib32-libxv', 'lib32-libxvmc', 'lib32-libxxf86dga', 'lib32-libxxf86vm', 'lib32-mangohud', 'lib32-mesa-libegl', 'lib32-mesa-vdpau-drivers', 'lib32-v4l-utils', 'lib32-vulkan-loader-layers']"
+reverse_depends = "['lib32-cairo', 'lib32-gdk-pixbuf2', 'lib32-libdmx', 'lib32-libegl', 'lib32-libepoxy', 'lib32-libglvnd', 'lib32-libpulse', 'lib32-libva-mesa-driver', 'lib32-libvdpau', 'lib32-libxcomposite', 'lib32-libxcursor', 'lib32-libxdamage', 'lib32-libxext', 'lib32-libxfixes', 'lib32-libxft', 'lib32-libxi', 'lib32-libxinerama', 'lib32-libxkbfile', 'lib32-libxmu', 'lib32-libxpm', 'lib32-libxrandr', 'lib32-libxrender', 'lib32-libxres', 'lib32-libxscrnsaver', 'lib32-libxt', 'lib32-libxtst', 'lib32-libxv', 'lib32-libxvmc', 'lib32-libxxf86dga', 'lib32-libxxf86vm', 'lib32-mangohud', 'lib32-mesa-libegl', 'lib32-mesa-vdpau-drivers', 'lib32-v4l-utils', 'lib32-vulkan-loader-layers']"
 +++
 ### Description: 
 X.Org X11 library ( 32bit )
