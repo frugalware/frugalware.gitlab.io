@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libvirt 11.4.0-1"
-version = "11.4.0-1"
+title = "libvirt 11.4.0-2"
+version = "11.4.0-2"
 description = "libvirt is a library providing access to information from various virtualization tools"
-date = "2025-06-19T09:16:10"
+date = "2025-06-23T14:58:30"
 aliases = "/packages/14198"
 categories = ['xlib-extra']
 upstreamurl = "http://libvirt.org"
 arch = "x86_64"
-size = "8881840"
-usize = "52870194"
-sha1sum = "1d6be9b2915230de0d11ced002fc9a5cea058e5a"
+size = "8885460"
+usize = "52870185"
+sha1sum = "9b85dade6eb59f4c6ca5a4f3628de8fd8a91e9fc"
 depends = "['avahi', 'bridge-utils', 'curl', 'cyrus-sasl', 'dmidecode', 'dnsmasq', 'fuse', 'gnutls>=3.4.2', 'iproute2', 'iscsi', 'libnl>=3.2.9', 'libpciaccess', 'libssh2', 'libtirpc', 'libudev', 'libxml2>=2.14.3', 'lvm2>=2.02.96', 'numactl', 'parted>=3.3', 'polkit', 'readline>=8.0', 'systemd>=228', 'yajl']"
 reverse_depends = "['libguestfs', 'libvirt-glib', 'libvirt-python3']"
 +++

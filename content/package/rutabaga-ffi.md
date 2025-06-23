@@ -12,6 +12,7 @@ size = "572916"
 usize = "2461013"
 sha1sum = "36fd5b6b1eab9a0a0a053b6e9904fa34c2f93af1"
 depends = "['gfxstream', 'virglrenderer']"
+reverse_depends = "['qemu']"
 +++
 ### Description: 
 VGI cross-platform abstraction for GPU and display virtualization.

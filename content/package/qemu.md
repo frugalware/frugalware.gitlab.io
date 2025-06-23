@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "qemu 10.0.2-1"
-version = "10.0.2-1"
+title = "qemu 10.0.2-2"
+version = "10.0.2-2"
 description = "QEMU is a FAST! processor emulator"
-date = "2025-06-16T12:29:11"
+date = "2025-06-23T14:36:04"
 aliases = "/packages/3815"
 categories = ['xapps-extra']
 upstreamurl = "http://www.nongnu.org/qemu/"
 arch = "x86_64"
-size = "119637676"
-usize = "538757284"
-sha1sum = "968e03a897f42a5a8410b46b8066238b240322d2"
-depends = "['alsa-lib', 'bluez', 'curl', 'cyrus-sasl', 'dtc', 'edk2', 'fuse3', 'gperftools', 'libaio', 'libbpf', 'libcbor', 'libepoxy', 'libgbm', 'libglu', 'libjpeg-turbo', 'libpng>=1.6.20', 'libseccomp', 'libssh2', 'libsysprof-capture', 'liburing', 'libx11', 'lzo', 'ncurses>=6.0-3', 'nettle>=3.6', 'nss', 'numactl', 'pipewire', 'pixman', 'pulseaudio', 'snappy', 'spice-protocol', 'usbredir>=0.8.0', 'vte3', 'xkeyboard-config']"
+size = "119853340"
+usize = "540401294"
+sha1sum = "cf4056b93433cfd85be9adf223b41785d9d19cc3"
+depends = "['alsa-lib', 'bluez', 'curl', 'cyrus-sasl', 'dtc', 'edk2', 'fuse3', 'gperftools', 'libaio', 'libbpf', 'libcbor', 'libepoxy', 'libgbm', 'libglu', 'libjpeg-turbo', 'libpng>=1.6.20', 'libseccomp', 'libslirp', 'libssh2', 'libsysprof-capture', 'liburing', 'libx11', 'lzo', 'ncurses>=6.0-3', 'nettle>=3.6', 'nss', 'numactl', 'pipewire', 'pixman', 'pulseaudio', 'rutabaga-ffi', 'snappy', 'spice-protocol', 'usbredir>=0.8.0', 'vte3', 'xkeyboard-config']"
 reverse_depends = "['libguestfs']"
 +++
 ### Description: 
@@ -99,8 +99,14 @@ QEMU is a FAST! processor emulator
 * /usr/lib/qemu/block-ssh.so
 * /usr/lib/qemu/chardev-spice.so
 * /usr/lib/qemu/hw-display-qxl.so
+* /usr/lib/qemu/hw-display-virtio-gpu-gl.so
+* /usr/lib/qemu/hw-display-virtio-gpu-pci-gl.so
+* /usr/lib/qemu/hw-display-virtio-gpu-pci-rutabaga.so
 * /usr/lib/qemu/hw-display-virtio-gpu-pci.so
+* /usr/lib/qemu/hw-display-virtio-gpu-rutabaga.so
 * /usr/lib/qemu/hw-display-virtio-gpu.so
+* /usr/lib/qemu/hw-display-virtio-vga-gl.so
+* /usr/lib/qemu/hw-display-virtio-vga-rutabaga.so
 * /usr/lib/qemu/hw-display-virtio-vga.so
 * /usr/lib/qemu/hw-s390x-virtio-gpu-ccw.so
 * /usr/lib/qemu/hw-uefi-vars.so
@@ -115,6 +121,7 @@ QEMU is a FAST! processor emulator
 * /usr/lib/qemu/ui-sdl.so
 * /usr/lib/qemu/ui-spice-app.so
 * /usr/lib/qemu/ui-spice-core.so
+* /usr/lib/qemu/vhost-user-gpu
 * /usr/share/applications/qemu.desktop
 * /usr/share/doc/qemu-10.0.2/COPYING
 * /usr/share/doc/qemu-10.0.2/COPYING.LIB
@@ -609,5 +616,6 @@ QEMU is a FAST! processor emulator
 * /usr/share/qemu/vgabios-virtio.bin
 * /usr/share/qemu/vgabios-vmware.bin
 * /usr/share/qemu/vgabios.bin
+* /usr/share/qemu/vhost-user/50-qemu-gpu.json
 * /usr/share/qemu/vof-nvram.bin
 * /usr/share/qemu/vof.bin

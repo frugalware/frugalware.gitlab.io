@@ -12,7 +12,7 @@ size = "64768"
 usize = "156385"
 sha1sum = "1175269a9adbabef9d1fa6026479169aab7fa69c"
 depends = "['glib2']"
-reverse_depends = "['dosbox-x']"
+reverse_depends = "['dosbox-x', 'qemu']"
 +++
 ### Description: 
 General purpose TCP-IP emulator
