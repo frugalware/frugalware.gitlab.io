@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "darktable 5.0.1-5"
-version = "5.0.1-5"
+title = "darktable 5.2.0-1"
+version = "5.2.0-1"
 description = "A virtual lighttable and darkroom for photographers (manage RAW images)"
-date = "2025-06-11T09:30:40"
+date = "2025-06-23T10:14:52"
 aliases = "/packages/219328"
 categories = ['gnome-extra']
 upstreamurl = "https://www.darktable.org"
 arch = "x86_64"
-size = "6675200"
-usize = "34290345"
-sha1sum = "a09f16381d457168c3e239115c2c32a8c1e80baa"
+size = "6714228"
+usize = "34975271"
+sha1sum = "12ee01774545ed772ffabdbecc10672afcd789c2"
 depends = "['colord-gtk3', 'dcraw', 'exiv2>=0.28.1', 'flickcurl', 'ghostscript', 'gmic>=3.4.2', 'gnuplot', 'graphicsmagick', 'icu4c>=77.1', 'imagemagick>=7.1.1', 'iso-codes', 'jasper', 'json-glib', 'lensfun', 'libavif>=1.0.1', 'libgphoto2', 'libjpeg-turbo', 'libjxl', 'libsecret', 'lua', 'openexr>=3.3.0', 'openmp', 'perl-image-exiftool', 'portmidi', 'pugixml']"
 reverse_depends = "['gimp']"
 +++
@@ -116,6 +116,7 @@ A virtual lighttable and darkroom for photographers (manage RAW images)
 * /usr/lib/darktable/plugins/liboverlay.so
 * /usr/lib/darktable/plugins/libprimaries.so
 * /usr/lib/darktable/plugins/libprofile_gamma.so
+* /usr/lib/darktable/plugins/librasterfile.so
 * /usr/lib/darktable/plugins/librawdenoise.so
 * /usr/lib/darktable/plugins/librawoverexposed.so
 * /usr/lib/darktable/plugins/librawprepare.so
@@ -239,7 +240,6 @@ A virtual lighttable and darkroom for photographers (manage RAW images)
 * /usr/share/darktable/lua/darktable/debug.lua
 * /usr/share/darktable/luarc
 * /usr/share/darktable/noiseprofiles.json
-* /usr/share/darktable/pixmaps/clock.svg
 * /usr/share/darktable/pixmaps/darktable.svg
 * /usr/share/darktable/pixmaps/dt_logo_128x128.png
 * /usr/share/darktable/pixmaps/dt_text.svg
@@ -903,6 +903,30 @@ A virtual lighttable and darkroom for photographers (manage RAW images)
 * /usr/share/darktable/styles/darktable_Sony_ZV-E1.dtstyle
 * /usr/share/darktable/styles/darktable_Sony_ZV-E10.dtstyle
 * /usr/share/darktable/styles/darktable__l10n_generic.dtstyle
+* /usr/share/darktable/styles/examples_colors_autumn.dtstyle
+* /usr/share/darktable/styles/examples_colors_blue LED lighting fix (strong).dtstyle
+* /usr/share/darktable/styles/examples_colors_blue LED lighting fix.dtstyle
+* /usr/share/darktable/styles/examples_colors_extreme saturation.dtstyle
+* /usr/share/darktable/styles/examples_colors_faded.dtstyle
+* /usr/share/darktable/styles/examples_colors_pastels.dtstyle
+* /usr/share/darktable/styles/examples_colors_sepia.dtstyle
+* /usr/share/darktable/styles/examples_contrast and sharpness_dehaze (strong, luminance only).dtstyle
+* /usr/share/darktable/styles/examples_contrast and sharpness_extreme local contrast.dtstyle
+* /usr/share/darktable/styles/examples_contrast and sharpness_sharpen finest details.dtstyle
+* /usr/share/darktable/styles/examples_effects_4-up on US Letter paper.dtstyle
+* /usr/share/darktable/styles/examples_effects_day for night.dtstyle
+* /usr/share/darktable/styles/examples_effects_day for twilight.dtstyle
+* /usr/share/darktable/styles/examples_effects_fog.dtstyle
+* /usr/share/darktable/styles/examples_effects_motion blur.dtstyle
+* /usr/share/darktable/styles/examples_effects_red-eye reduction.dtstyle
+* /usr/share/darktable/styles/examples_spot color_blue.dtstyle
+* /usr/share/darktable/styles/examples_spot color_cyan.dtstyle
+* /usr/share/darktable/styles/examples_spot color_green.dtstyle
+* /usr/share/darktable/styles/examples_spot color_magenta.dtstyle
+* /usr/share/darktable/styles/examples_spot color_orange.dtstyle
+* /usr/share/darktable/styles/examples_spot color_purple.dtstyle
+* /usr/share/darktable/styles/examples_spot color_red.dtstyle
+* /usr/share/darktable/styles/examples_spot color_yellow.dtstyle
 * /usr/share/darktable/themes/darktable-elegant-dark.css
 * /usr/share/darktable/themes/darktable-elegant-darker.css
 * /usr/share/darktable/themes/darktable-elegant-grey.css
@@ -928,10 +952,10 @@ A virtual lighttable and darkroom for photographers (manage RAW images)
 * /usr/share/darktable/watermarks/simple-text-shadow.svg
 * /usr/share/darktable/watermarks/simple-text.svg
 * /usr/share/darktable/wb_presets.json
-* /usr/share/doc/darktable-5.0.1/AUTHORS
-* /usr/share/doc/darktable-5.0.1/LICENSE
-* /usr/share/doc/darktable-5.0.1/README.md
-* /usr/share/doc/darktable-5.0.1/RELEASE_NOTES.md
+* /usr/share/doc/darktable-5.2.0/AUTHORS
+* /usr/share/doc/darktable-5.2.0/LICENSE
+* /usr/share/doc/darktable-5.2.0/README.md
+* /usr/share/doc/darktable-5.2.0/RELEASE_NOTES.md
 * /usr/share/doc/darktable/AUTHORS
 * /usr/share/doc/darktable/LICENSE
 * /usr/share/doc/darktable/README.md
@@ -956,13 +980,13 @@ A virtual lighttable and darkroom for photographers (manage RAW images)
 * /usr/share/locale/fi/LC_MESSAGES/darktable.mo
 * /usr/share/locale/fr/LC_MESSAGES/darktable.mo
 * /usr/share/locale/hu/LC_MESSAGES/darktable.mo
+* /usr/share/locale/it/LC_MESSAGES/darktable.mo
 * /usr/share/locale/ja/LC_MESSAGES/darktable.mo
 * /usr/share/locale/nl/LC_MESSAGES/darktable.mo
-* /usr/share/locale/pl/LC_MESSAGES/darktable.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/darktable.mo
+* /usr/share/locale/ru/LC_MESSAGES/darktable.mo
 * /usr/share/locale/sl/LC_MESSAGES/darktable.mo
 * /usr/share/locale/sq/LC_MESSAGES/darktable.mo
-* /usr/share/locale/sv/LC_MESSAGES/darktable.mo
 * /usr/share/locale/uk/LC_MESSAGES/darktable.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/darktable.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/darktable.mo
