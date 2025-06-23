@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "calamares-frugalware 3.3.14-6"
-version = "3.3.14-6"
+title = "calamares-frugalware 3.3.14-7"
+version = "3.3.14-7"
 description = "Distribution-independent installer framework"
-date = "2025-06-06T06:38:22"
+date = "2025-06-23T13:47:22"
 aliases = "/packages/218846"
 categories = ['installer-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "4114136"
-usize = "9527934"
-sha1sum = "9c6e7b68119a12e7e9cd51c7dfc81003d147e712"
+size = "4147376"
+usize = "9662181"
+sha1sum = "63340a27d9eb6ce1ac08502bd6d6614b10a7b3f8"
 depends = "['icu4c>=77.1', 'kconfig', 'kcoreaddons', 'kdbusaddons', 'kpmcore>=25.04.0', 'libboost>=1.85.0', 'libpwquality', 'parted', 'polkit-qt5-1', 'python3>=3.12', 'qt6-declarative>=6.8.2', 'qt6-svg>=6.8.2', 'rsync', 'squashfs', 'yaml-cpp>=0.8.0']"
 +++
 ### Description: 
@@ -254,6 +254,39 @@ Distribution-independent installer framework
 * /usr/share/calamares/branding/default/squid.png
 * /usr/share/calamares/branding/default/squid.png.license
 * /usr/share/calamares/branding/default/stylesheet.qss
+* /usr/share/calamares/modules/bootloader.conf
+* /usr/share/calamares/modules/displaymanager.conf
+* /usr/share/calamares/modules/dracut.conf
+* /usr/share/calamares/modules/finished.conf
+* /usr/share/calamares/modules/finishedq.conf
+* /usr/share/calamares/modules/fstab.conf
+* /usr/share/calamares/modules/grubcfg.conf
+* /usr/share/calamares/modules/keyboard.conf
+* /usr/share/calamares/modules/keyboardq.conf
+* /usr/share/calamares/modules/license.conf
+* /usr/share/calamares/modules/locale.conf
+* /usr/share/calamares/modules/localeq.conf
+* /usr/share/calamares/modules/luksbootkeyfile.conf
+* /usr/share/calamares/modules/machineid.conf
+* /usr/share/calamares/modules/mount.conf
+* /usr/share/calamares/modules/netinstall.conf
+* /usr/share/calamares/modules/notesqml.conf
+* /usr/share/calamares/modules/oemid.conf
+* /usr/share/calamares/modules/packagechooser.conf
+* /usr/share/calamares/modules/packagechooserq.conf
+* /usr/share/calamares/modules/packages.conf
+* /usr/share/calamares/modules/partition.conf
+* /usr/share/calamares/modules/removeuser.conf
+* /usr/share/calamares/modules/services-systemd.conf
+* /usr/share/calamares/modules/shellprocess.conf
+* /usr/share/calamares/modules/umount.conf
+* /usr/share/calamares/modules/unpackfs.conf
+* /usr/share/calamares/modules/unpackfsc.conf
+* /usr/share/calamares/modules/users.conf
+* /usr/share/calamares/modules/usersq.conf
+* /usr/share/calamares/modules/welcome.conf
+* /usr/share/calamares/modules/welcomeq.conf
+* /usr/share/calamares/modules/zfs.conf
 * /usr/share/calamares/qml/calamares/slideshow/BackButton.qml
 * /usr/share/calamares/qml/calamares/slideshow/ForwardButton.qml
 * /usr/share/calamares/qml/calamares/slideshow/NavButton.qml
@@ -262,6 +295,7 @@ Distribution-independent installer framework
 * /usr/share/calamares/qml/calamares/slideshow/qmldir.license
 * /usr/share/calamares/qml/calamares/slideshow/Slide.qml
 * /usr/share/calamares/qml/calamares/slideshow/SlideCounter.qml
+* /usr/share/calamares/settings.conf
 * /usr/share/doc/calamares-frugalware-3.3.14/AUTHORS
 * /usr/share/doc/calamares-frugalware-3.3.14/README.md
 * /usr/share/icons/hicolor/scalable/apps/calamares-frugalware.svg

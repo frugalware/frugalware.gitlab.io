@@ -12,6 +12,7 @@ size = "398784"
 usize = "1388948"
 sha1sum = "bb0f26a0d5365cc442d8f4afb6232baf9f4676f1"
 depends = "['libepoxy', 'libva', 'vulkan-icd-loader']"
+reverse_depends = "['rutabaga-ffi']"
 +++
 ### Description: 
 A virtual 3D GPU library, that allows the guest operating system to use the host GPU to accelerate 3D rendering
