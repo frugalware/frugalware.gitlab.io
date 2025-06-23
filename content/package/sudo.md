@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "sudo 1.9.16-1"
-version = "1.9.16-1"
+title = "sudo 1.9.17-1"
+version = "1.9.17-1"
 description = "Give limited root privileges to certain users"
-date = "2024-09-06T08:46:22"
+date = "2025-06-23T10:00:43"
 aliases = "/packages/3346"
 categories = ['base']
 upstreamurl = "http://www.sudo.ws/"
 arch = "x86_64"
-size = "1857376"
-usize = "8179702"
-sha1sum = "e1b9827982dea46eb239f5de1800c9986b19081b"
+size = "1837936"
+usize = "8256139"
+sha1sum = "11ce620d0bf2ed6d29df528aff8e9323f168b1f5"
 depends = "['glibc>=2.34', 'libxcrypt', 'openssl>=3.1.0']"
 reverse_depends = "['inxi']"
 +++
@@ -41,26 +41,26 @@ Give limited root privileges to certain users
 * /usr/lib/sudo/sudo/sudo_noexec.so
 * /usr/lib/sudo/sudo/system_group.so
 * /usr/lib/tmpfiles.d/sudo.conf
-* /usr/share/doc/sudo-1.9.16/ChangeLog
-* /usr/share/doc/sudo-1.9.16/CONTRIBUTING.md
-* /usr/share/doc/sudo-1.9.16/CONTRIBUTORS.md
-* /usr/share/doc/sudo-1.9.16/examples/cvtsudoers.conf
-* /usr/share/doc/sudo-1.9.16/examples/pam.conf
-* /usr/share/doc/sudo-1.9.16/examples/sudo.conf
-* /usr/share/doc/sudo-1.9.16/examples/sudoers
-* /usr/share/doc/sudo-1.9.16/examples/sudo_logsrvd.conf
-* /usr/share/doc/sudo-1.9.16/examples/syslog.conf
-* /usr/share/doc/sudo-1.9.16/HISTORY.md
-* /usr/share/doc/sudo-1.9.16/INSTALL.configure
-* /usr/share/doc/sudo-1.9.16/INSTALL.md
-* /usr/share/doc/sudo-1.9.16/LICENSE.md
-* /usr/share/doc/sudo-1.9.16/MANIFEST
-* /usr/share/doc/sudo-1.9.16/NEWS
-* /usr/share/doc/sudo-1.9.16/README.LDAP.md
-* /usr/share/doc/sudo-1.9.16/README.md
-* /usr/share/doc/sudo-1.9.16/SECURITY.md
-* /usr/share/doc/sudo-1.9.16/TROUBLESHOOTING.md
-* /usr/share/doc/sudo-1.9.16/UPGRADE.md
+* /usr/share/doc/sudo-1.9.17/ChangeLog
+* /usr/share/doc/sudo-1.9.17/CONTRIBUTING.md
+* /usr/share/doc/sudo-1.9.17/CONTRIBUTORS.md
+* /usr/share/doc/sudo-1.9.17/examples/cvtsudoers.conf
+* /usr/share/doc/sudo-1.9.17/examples/pam.conf
+* /usr/share/doc/sudo-1.9.17/examples/sudo.conf
+* /usr/share/doc/sudo-1.9.17/examples/sudoers
+* /usr/share/doc/sudo-1.9.17/examples/sudo_logsrvd.conf
+* /usr/share/doc/sudo-1.9.17/examples/syslog.conf
+* /usr/share/doc/sudo-1.9.17/HISTORY.md
+* /usr/share/doc/sudo-1.9.17/INSTALL.configure
+* /usr/share/doc/sudo-1.9.17/INSTALL.md
+* /usr/share/doc/sudo-1.9.17/LICENSE.md
+* /usr/share/doc/sudo-1.9.17/MANIFEST
+* /usr/share/doc/sudo-1.9.17/NEWS
+* /usr/share/doc/sudo-1.9.17/README.LDAP.md
+* /usr/share/doc/sudo-1.9.17/README.md
+* /usr/share/doc/sudo-1.9.17/SECURITY.md
+* /usr/share/doc/sudo-1.9.17/TROUBLESHOOTING.md
+* /usr/share/doc/sudo-1.9.17/UPGRADE.md
 * /usr/share/locale/ast/LC_MESSAGES/sudo.mo
 * /usr/share/locale/ast/LC_MESSAGES/sudoers.mo
 * /usr/share/locale/ca/LC_MESSAGES/sudo.mo
@@ -131,6 +131,7 @@ Give limited root privileges to certain users
 * /usr/share/locale/uk/LC_MESSAGES/sudoers.mo
 * /usr/share/locale/vi/LC_MESSAGES/sudo.mo
 * /usr/share/locale/vi/LC_MESSAGES/sudoers.mo
+* /usr/share/locale/yue/LC_MESSAGES/sudo.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/sudo.mo
 * /usr/share/locale/zh_CN/LC_MESSAGES/sudoers.mo
 * /usr/share/locale/zh_TW/LC_MESSAGES/sudo.mo

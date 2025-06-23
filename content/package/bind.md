@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "bind 9.21.8-1"
-version = "9.21.8-1"
+title = "bind 9.21.9-1"
+version = "9.21.9-1"
 description = "DNS server and utilities"
-date = "2025-05-22T13:47:28"
+date = "2025-06-23T10:05:35"
 aliases = "/packages/2930"
 categories = ['network']
 upstreamurl = "https://www.isc.org/bind/"
 arch = "x86_64"
-size = "1920176"
-usize = "6632547"
-sha1sum = "e251908452cb9a46a209b77014d822f4e7bb4b16"
+size = "1932112"
+usize = "6656411"
+sha1sum = "a1a55a999d9de491dcc1a6728e2d56b07752fb5e"
 depends = "['liburcu', 'libuv', 'libxml2>=2.14.3', 'ncurses>=6.1-2', 'nghttp2', 'openssl>=3.1.0', 'python3-ply', 'readline>=8.0']"
 +++
 ### Description: 
@@ -135,6 +135,7 @@ DNS server and utilities
 * /usr/include/dns/tsig.h
 * /usr/include/dns/ttl.h
 * /usr/include/dns/types.h
+* /usr/include/dns/unreachcache.h
 * /usr/include/dns/update.h
 * /usr/include/dns/validator.h
 * /usr/include/dns/view.h
@@ -271,24 +272,24 @@ DNS server and utilities
 * /usr/include/ns/xfrout.h
 * /usr/lib/bind/filter-a.so
 * /usr/lib/bind/filter-aaaa.so
-* /usr/lib/libdns-9.21.8.so
+* /usr/lib/libdns-9.21.9.so
 * /usr/lib/libdns.so
-* /usr/lib/libisc-9.21.8.so
+* /usr/lib/libisc-9.21.9.so
 * /usr/lib/libisc.so
-* /usr/lib/libisccc-9.21.8.so
+* /usr/lib/libisccc-9.21.9.so
 * /usr/lib/libisccc.so
-* /usr/lib/libisccfg-9.21.8.so
+* /usr/lib/libisccfg-9.21.9.so
 * /usr/lib/libisccfg.so
-* /usr/lib/libns-9.21.8.so
+* /usr/lib/libns-9.21.9.so
 * /usr/lib/libns.so
 * /usr/lib/systemd/system/bind.service
-* /usr/share/doc/bind-9.21.8/AUTHORS
-* /usr/share/doc/bind-9.21.8/ChangeLog
-* /usr/share/doc/bind-9.21.8/COPYING
-* /usr/share/doc/bind-9.21.8/COPYRIGHT
-* /usr/share/doc/bind-9.21.8/LICENSE
-* /usr/share/doc/bind-9.21.8/NEWS
-* /usr/share/doc/bind-9.21.8/README.md
+* /usr/share/doc/bind-9.21.9/AUTHORS
+* /usr/share/doc/bind-9.21.9/ChangeLog
+* /usr/share/doc/bind-9.21.9/COPYING
+* /usr/share/doc/bind-9.21.9/COPYRIGHT
+* /usr/share/doc/bind-9.21.9/LICENSE
+* /usr/share/doc/bind-9.21.9/NEWS
+* /usr/share/doc/bind-9.21.9/README.md
 * /usr/share/man/man1/arpaname.1.gz
 * /usr/share/man/man1/delv.1.gz
 * /usr/share/man/man1/dig.1.gz

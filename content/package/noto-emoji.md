@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "noto-emoji 2.047-1"
-version = "2.047-1"
+title = "noto-emoji 2.048-1"
+version = "2.048-1"
 description = "Noto Emoji fonts"
-date = "2024-10-14T08:10:23"
+date = "2025-06-23T10:02:39"
 aliases = "/packages/219172"
 categories = ['x11']
 upstreamurl = "https://www.google.com/get/noto/"
 arch = "x86_64"
-size = "39921348"
-usize = "55439103"
-sha1sum = "db1019acf865af16dddc3604eb2537f63a65fd59"
+size = "38395764"
+usize = "53641671"
+sha1sum = "026cf9933993c49d97f7fdddb94b6db540bd526d"
 depends = "['fontconfig', 'mkfontscale']"
 reverse_depends = "['plasma-desktop', 'plasma-integration', 'plasma5-integration']"
 +++
@@ -18,10 +18,10 @@ reverse_depends = "['plasma-desktop', 'plasma-integration', 'plasma5-integration
 Noto Emoji fonts
 
 ### Files: 
-* /usr/share/doc/noto-emoji-2.047/AUTHORS
-* /usr/share/doc/noto-emoji-2.047/CONTRIBUTORS
-* /usr/share/doc/noto-emoji-2.047/LICENSE
-* /usr/share/doc/noto-emoji-2.047/README.md
+* /usr/share/doc/noto-emoji-2.048/AUTHORS
+* /usr/share/doc/noto-emoji-2.048/CONTRIBUTORS
+* /usr/share/doc/noto-emoji-2.048/LICENSE
+* /usr/share/doc/noto-emoji-2.048/README.md
 * /usr/share/fonts/X11/TTF/Noto-COLRv1-emojicompat.ttf
 * /usr/share/fonts/X11/TTF/Noto-COLRv1-noflags.ttf
 * /usr/share/fonts/X11/TTF/Noto-COLRv1.ttf

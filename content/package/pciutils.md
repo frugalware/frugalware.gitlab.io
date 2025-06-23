@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "pciutils 3.13.0-1"
-version = "3.13.0-1"
+title = "pciutils 3.14.0-1"
+version = "3.14.0-1"
 description = "PCI utilities"
-date = "2024-06-09T14:16:53"
+date = "2025-06-23T09:57:25"
 aliases = "/packages/2426"
 categories = ['base']
 upstreamurl = "http://atrey.karlin.mff.cuni.cz/~mj/pciutils.html"
 arch = "x86_64"
-size = "170400"
-usize = "475336"
-sha1sum = "fc744b0db99f526704b4c8b115985ceba28efacd"
-depends = "['glibc>=2.35', 'hwdata', 'libudev>=242']"
+size = "177552"
+usize = "498848"
+sha1sum = "809a225e33ea08b7d223d61658a1cffb761ca2bb"
+depends = "['glibc>=2.35', 'hwdata', 'kmod>=25-2', 'libudev>=242']"
 reverse_depends = "['chromium-browser', 'cpupower', 'efibootmgr', 'hexchat', 'hw-probe', 'inxi', 'kinfocenter', 'kvm', 'net-snmp', 'x86_energy_perf_policy']"
 +++
 ### Description: 
@@ -26,13 +26,16 @@ PCI utilities
 * /usr/include/pci/pci.h
 * /usr/include/pci/types.h
 * /usr/lib/libpci.so
-* /usr/lib/libpci.so.3.13.0
+* /usr/lib/libpci.so.3.14.0
 * /usr/lib/pkgconfig/libpci.pc
-* /usr/share/doc/pciutils-3.13.0/ChangeLog
-* /usr/share/doc/pciutils-3.13.0/COPYING
-* /usr/share/doc/pciutils-3.13.0/README
-* /usr/share/doc/pciutils-3.13.0/README.Windows
-* /usr/share/doc/pciutils-3.13.0/TODO
+* /usr/share/doc/pciutils-3.14.0/ChangeLog
+* /usr/share/doc/pciutils-3.14.0/COPYING
+* /usr/share/doc/pciutils-3.14.0/LICENSE
+* /usr/share/doc/pciutils-3.14.0/README
+* /usr/share/doc/pciutils-3.14.0/README.chromeos.md
+* /usr/share/doc/pciutils-3.14.0/README.md
+* /usr/share/doc/pciutils-3.14.0/README.Windows
+* /usr/share/doc/pciutils-3.14.0/TODO
 * /usr/share/man/man5/pci.ids.5.gz
 * /usr/share/man/man7/pcilib.7.gz
 * /usr/share/man/man8/lspci.8.gz
