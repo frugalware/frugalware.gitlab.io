@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "dbus 1.16.2-3"
-version = "1.16.2-3"
+title = "dbus 1.16.2-4"
+version = "1.16.2-4"
 description = "A message bus system"
-date = "2025-06-23T15:44:27"
+date = "2025-06-23T16:22:41"
 aliases = "/packages/2961"
 categories = ['base']
 upstreamurl = "http://freedesktop.org/wiki/Software/dbus"
 arch = "x86_64"
-size = "502524"
-usize = "1627039"
-sha1sum = "ba3014cb9e87b249455ebabd0f4f772e6fe51aed"
+size = "502228"
+usize = "1625369"
+sha1sum = "077d3491050b0ba2e056f6bce4cd9f7674aafd77"
 depends = "['expat>=2.7.0', 'libsystemd>=242', 'scriptlet-core']"
 reverse_depends = "['at-spi2-core', 'avahi', 'bluez', 'cef', 'cups', 'dbus-c++', 'dbus-glib', 'dbus-x11', 'dnsmasq', 'efl', 'enlightenment', 'gvfs', 'hexchat', 'inkscape', 'jack2', 'kdbus', 'kitty', 'libatspi', 'libdecor', 'libnvme', 'libpcap', 'libproxy', 'libpulse', 'libvlc', 'lumina-desktop', 'mp3splt-gtk', 'pulseaudio', 'pulseaudio-bluetooth', 'qt5-base', 'rtkit', 'systemd', 'terminology', 'threema-desktop', 'whalebird', 'wireshark', 'wpa_supplicant', 'xorg-server']"
 +++
@@ -18,8 +18,6 @@ reverse_depends = "['at-spi2-core', 'avahi', 'bluez', 'cef', 'cups', 'dbus-c++',
 A message bus system
 
 ### Files: 
-* /etc/dbus-1/session.conf
-* /etc/dbus-1/system.conf
 * /usr/bin/dbus-cleanup-sockets
 * /usr/bin/dbus-daemon
 * /usr/bin/dbus-monitor
