@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libdbus 1.16.2-2"
-version = "1.16.2-2"
+title = "lib32-libdbus 1.16.2-3"
+version = "1.16.2-3"
 description = "A message bus system ( 32bit )"
-date = "2025-03-15T16:52:02"
+date = "2025-06-23T15:44:27"
 aliases = "/packages/218859"
 categories = ['lib32-extra']
 upstreamurl = "http://freedesktop.org/wiki/Software/dbus"
 arch = "x86_64"
-size = "151968"
-usize = "492423"
-sha1sum = "2ddd5b10a1dc7ff37c3b02094fc86490e0762dd6"
+size = "152984"
+usize = "491887"
+sha1sum = "9902f2cde41b4cdb43ab888026e0de7199a547b1"
 depends = "['glibc>=2.34']"
 reverse_depends = "['lib32-dbus-glib', 'lib32-glib2', 'lib32-libdecor', 'lib32-libpulse', 'lib32-mesademos', 'lib32-xorg-server']"
 +++
