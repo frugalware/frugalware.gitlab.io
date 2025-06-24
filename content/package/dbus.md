@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "dbus 1.16.2-4"
-version = "1.16.2-4"
+title = "dbus 1.16.2-5"
+version = "1.16.2-5"
 description = "A message bus system"
-date = "2025-06-23T16:22:41"
+date = "2025-06-24T08:26:48"
 aliases = "/packages/2961"
 categories = ['base']
 upstreamurl = "http://freedesktop.org/wiki/Software/dbus"
 arch = "x86_64"
-size = "502228"
-usize = "1625369"
-sha1sum = "077d3491050b0ba2e056f6bce4cd9f7674aafd77"
+size = "502036"
+usize = "1625370"
+sha1sum = "d00b7d90e23a52c1ecab9c5b08a7c43c770c065e"
 depends = "['expat>=2.7.0', 'libsystemd>=242', 'scriptlet-core']"
 reverse_depends = "['at-spi2-core', 'avahi', 'bluez', 'cef', 'cups', 'dbus-c++', 'dbus-glib', 'dbus-x11', 'dnsmasq', 'efl', 'enlightenment', 'gvfs', 'hexchat', 'inkscape', 'jack2', 'kdbus', 'kitty', 'libatspi', 'libdecor', 'libnvme', 'libpcap', 'libproxy', 'libpulse', 'libvlc', 'lumina-desktop', 'mp3splt-gtk', 'pulseaudio', 'pulseaudio-bluetooth', 'qt5-base', 'rtkit', 'systemd', 'terminology', 'threema-desktop', 'whalebird', 'wireshark', 'wpa_supplicant', 'xorg-server']"
 +++

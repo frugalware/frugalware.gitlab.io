@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "clamav 1.4.2-2"
-version = "1.4.2-2"
+title = "clamav 1.4.3-1"
+version = "1.4.3-1"
 description = "Clam AntiVirus is a GPL anti-virus toolkit for UNIX"
-date = "2025-05-20T09:00:12"
+date = "2025-06-24T08:18:58"
 aliases = "/packages/2948"
 categories = ['apps-extra']
 upstreamurl = "https://www.clamav.net"
 arch = "x86_64"
-size = "8005764"
-usize = "43747550"
-sha1sum = "090614269ad7d55a90242e84c982b969bc900cbe"
+size = "8033792"
+usize = "39882381"
+sha1sum = "8e7c31390d28be90ed8e1713d8e4df5eba515660"
 depends = "['curl', 'libmspack', 'libsystemd', 'libtool', 'libxml2>=2.14.3', 'ncurses>=6.5', 'openssl>=3.1.0', 'pcre2', 'shadow']"
 reverse_depends = "['klamav']"
 +++
@@ -56,12 +56,12 @@ Clam AntiVirus is a GPL anti-virus toolkit for UNIX
 * /usr/lib/systemd/system/clamav-freshclam.service
 * /usr/lib/sysusers.d/clamav.conf
 * /usr/lib/tmpfiles.d/clamav.conf
-* /usr/share/doc/clamav-1.4.2/COPYING.txt
-* /usr/share/doc/clamav-1.4.2/INSTALL-cross-linux-arm64.md
-* /usr/share/doc/clamav-1.4.2/INSTALL-cross-windows-arm64.md
-* /usr/share/doc/clamav-1.4.2/INSTALL.md
-* /usr/share/doc/clamav-1.4.2/README.Docker.md
-* /usr/share/doc/clamav-1.4.2/README.md
+* /usr/share/doc/clamav-1.4.3/COPYING.txt
+* /usr/share/doc/clamav-1.4.3/INSTALL-cross-linux-arm64.md
+* /usr/share/doc/clamav-1.4.3/INSTALL-cross-windows-arm64.md
+* /usr/share/doc/clamav-1.4.3/INSTALL.md
+* /usr/share/doc/clamav-1.4.3/README.Docker.md
+* /usr/share/doc/clamav-1.4.3/README.md
 * /usr/share/doc/ClamAV/html/404.html
 * /usr/share/doc/ClamAV/html/ace.js
 * /usr/share/doc/ClamAV/html/appendix/Appendix.html
@@ -184,7 +184,6 @@ Clam AntiVirus is a GPL anti-virus toolkit for UNIX
 * /usr/share/doc/ClamAV/html/print.html
 * /usr/share/doc/ClamAV/html/searcher.js
 * /usr/share/doc/ClamAV/html/searchindex.js
-* /usr/share/doc/ClamAV/html/searchindex.json
 * /usr/share/doc/ClamAV/html/sitemap.xml
 * /usr/share/doc/ClamAV/html/theme-dawn.js
 * /usr/share/doc/ClamAV/html/theme-tomorrow_night.js
