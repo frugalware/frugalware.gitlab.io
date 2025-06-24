@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "rtkit 0.13-7"
-version = "0.13-7"
+title = "rtkit 0.13-8"
+version = "0.13-8"
 description = "Realtime Policy and Watchdog Daemon"
-date = "2024-06-17T14:01:47"
+date = "2025-06-24T07:04:13"
 aliases = "/packages/153721"
-categories = ['base-extra']
+categories = ['base']
 upstreamurl = "https://github.com/heftig/rtkit"
 arch = "x86_64"
-size = "27080"
-usize = "82178"
-sha1sum = "c74abec36aa8e8d290f51c6e54e962dbd9040c8c"
+size = "26196"
+usize = "83050"
+sha1sum = "560349a1c062af51b6ff9b65e144ca54bae479e1"
 depends = "['dbus', 'polkit']"
 reverse_depends = "['xdg-desktop-portal']"
 +++

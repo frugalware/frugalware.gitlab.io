@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kwayland-integration 6.4.0-1"
-version = "6.4.0-1"
+title = "kwayland-integration 6.4.0-2"
+version = "6.4.0-2"
 description = "KDE Plasma Wayland Integration"
-date = "2025-06-17T18:28:49"
+date = "2025-06-24T06:57:24"
 aliases = "/packages/218362"
-categories = ['kde6-extra']
+categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "38660"
+size = "43224"
 usize = "158771"
-sha1sum = "530f17c7686d40529805008573f2e6b3b87064c3"
+sha1sum = "35417454cffdee2ddd546694bb5dcf419ef30430"
 depends = "['kguiaddons5>=5.116.0', 'kidletime5>=5.116.0', 'kwayland5>=5.116.0', 'kwindowsystem5>=5.116.0']"
 reverse_depends = "['plasma-wayland-session']"
 +++

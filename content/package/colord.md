@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "colord 1.4.7-4"
-version = "1.4.7-4"
+title = "colord 1.4.8-1"
+version = "1.4.8-1"
 description = "color daemon"
-date = "2024-06-17T15:13:05"
+date = "2025-06-24T06:46:47"
 aliases = "/packages/136178"
 categories = ['xlib']
 upstreamurl = "http://www.freedesktop.org/software/colord/"
 arch = "x86_64"
-size = "1541352"
-usize = "5167949"
-sha1sum = "6218a28578c3fbf7af8901738c92033cef725ae9"
+size = "1693708"
+usize = "6558992"
+sha1sum = "859aaa373a1488986b6b2272155730d1e4c1102c"
 depends = "['argyllcms>=1.8.3-2', 'glib2>=2.60.0', 'lcms2>=2.8-2', 'libffi>=3.2.1-2', 'libgudev>=232-4', 'libgusb>=0.3.0-2', 'libudev>=242', 'libxslt', 'polkit>=0.113-6', 'sqlite3>=3.9.2-4']"
 reverse_depends = "['colord-gtk', 'colord-kde', 'fwupd', 'gtk+3', 'gtk+4']"
 +++
@@ -86,6 +86,7 @@ color daemon
 * /usr/lib/pkgconfig/colorhug.pc
 * /usr/lib/systemd/system/colord.service
 * /usr/lib/systemd/user/colord-session.service
+* /usr/lib/sysusers.d/colord-sysusers.conf
 * /usr/lib/sysusers.d/colord.conf
 * /usr/lib/tmpfiles.d/colord.conf
 * /usr/lib/udev/rules.d/69-cd-sensors.rules
@@ -185,15 +186,18 @@ color daemon
 * /usr/share/dbus-1/services/org.freedesktop.ColorHelper.service
 * /usr/share/dbus-1/system-services/org.freedesktop.ColorManager.service
 * /usr/share/dbus-1/system.d/org.freedesktop.ColorManager.conf
-* /usr/share/doc/colord-1.4.7/AUTHORS
-* /usr/share/doc/colord-1.4.7/COPYING
-* /usr/share/doc/colord-1.4.7/NEWS
-* /usr/share/doc/colord-1.4.7/README.md
-* /usr/share/doc/colord-1.4.7/RELEASE
+* /usr/share/doc/colord-1.4.8/AUTHORS
+* /usr/share/doc/colord-1.4.8/COPYING
+* /usr/share/doc/colord-1.4.8/NEWS
+* /usr/share/doc/colord-1.4.8/README.md
+* /usr/share/doc/colord-1.4.8/RELEASE
 * /usr/share/gir-1.0/Colord-1.0.gir
 * /usr/share/gir-1.0/Colorhug-1.0.gir
 * /usr/share/glib-2.0/schemas/org.freedesktop.ColorHelper.gschema.xml
+* /usr/share/locale/ar/LC_MESSAGES/colord.mo
 * /usr/share/locale/as/LC_MESSAGES/colord.mo
+* /usr/share/locale/be/LC_MESSAGES/colord.mo
+* /usr/share/locale/bg/LC_MESSAGES/colord.mo
 * /usr/share/locale/bn_IN/LC_MESSAGES/colord.mo
 * /usr/share/locale/ca/LC_MESSAGES/colord.mo
 * /usr/share/locale/cs/LC_MESSAGES/colord.mo
@@ -252,6 +256,7 @@ color daemon
 * /usr/share/man/man1/cd-fix-profile.1.gz
 * /usr/share/man/man1/cd-it8.1.gz
 * /usr/share/man/man1/colormgr.1.gz
+* /usr/share/metainfo/org.freedesktop.colord.metainfo.xml
 * /usr/share/polkit-1/actions/org.freedesktop.color.policy
 * /usr/share/vala/vapi/colord.deps
 * /usr/share/vala/vapi/colord.vapi

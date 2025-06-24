@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "eglexternalplatform 1.2.1-1"
-version = "1.2.1-1"
+title = "eglexternalplatform 1.2.1-2"
+version = "1.2.1-2"
 description = "EGL External Platform interface"
-date = "2025-04-04T07:58:29"
+date = "2025-06-24T07:14:40"
 aliases = "/packages/220621"
-categories = ['xlib-extra']
+categories = ['xlib']
 upstreamurl = "https://github.com/NVIDIA/eglexternalplatform"
 arch = "x86_64"
-size = "8436"
+size = "8136"
 usize = "30813"
-sha1sum = "36fe954f3940a4de81e89f9d1bcac8b80180ed08"
+sha1sum = "2f7f66df609aca9052d656dd36cd02413ee530a5"
 depends = "['libegl']"
 reverse_depends = "['egl-wayland']"
 +++
