@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "thin-provisioning-tools 1.1.0-1"
-version = "1.1.0-1"
+title = "thin-provisioning-tools 1.2.0-1"
+version = "1.2.0-1"
 description = "Suite of tools for manipulating the metadata of the dm-thin device-mapper target"
-date = "2024-08-06T20:26:34"
+date = "2025-06-24T14:04:22"
 aliases = "/packages/219473"
 categories = ['base']
 upstreamurl = "https://github.com/jthornber/thin-provisioning-tools"
 arch = "x86_64"
-size = "989912"
-usize = "3232166"
-sha1sum = "1a500d5983befddf5dcfc7a92aae9ed8263b89c3"
+size = "1056972"
+usize = "3526191"
+sha1sum = "394a71f8fc0a56e8488385fcef4def17c19e0cc7"
 depends = "['libcap', 'libgcc', 'libudev']"
 reverse_depends = "['lvm2']"
 +++
@@ -41,9 +41,9 @@ Suite of tools for manipulating the metadata of the dm-thin device-mapper target
 * /usr/bin/thin_restore
 * /usr/bin/thin_rmap
 * /usr/bin/thin_trim
-* /usr/share/doc/thin-provisioning-tools-1.1.0/CHANGES
-* /usr/share/doc/thin-provisioning-tools-1.1.0/COPYING
-* /usr/share/doc/thin-provisioning-tools-1.1.0/README.md
+* /usr/share/doc/thin-provisioning-tools-1.2.0/CHANGES
+* /usr/share/doc/thin-provisioning-tools-1.2.0/COPYING
+* /usr/share/doc/thin-provisioning-tools-1.2.0/README.md
 * /usr/share/man/man8/cache_check.8.gz
 * /usr/share/man/man8/cache_dump.8.gz
 * /usr/share/man/man8/cache_metadata_size.8.gz
