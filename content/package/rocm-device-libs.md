@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "rocm-device-libs 6.4.1-2"
-version = "6.4.1-2"
+title = "rocm-device-libs 6.4.1-3"
+version = "6.4.1-3"
 description = "ROCm Device Libraries"
-date = "2025-05-27T16:27:22"
+date = "2025-06-24T15:31:33"
 aliases = "/packages/221248"
 categories = ['devel-extra']
 upstreamurl = "https://rocm.docs.amd.com/en/latest/reference/rocmcc.html"
 arch = "x86_64"
-size = "470336"
+size = "465888"
 usize = "3329742"
-sha1sum = "213c5b3ab4d081b21b03907bbfaae617867b639c"
+sha1sum = "c326d5a9493bb6d8dd9bf78e0613348945bb7d79"
 depends = "['glibc']"
 reverse_depends = "['comgr', 'hsa-rocr']"
 +++
