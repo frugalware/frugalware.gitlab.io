@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-tensile 6.4.1-2"
-version = "6.4.1-2"
+title = "python3-tensile 6.4.1-3"
+version = "6.4.1-3"
 description = "benchmark-driven backend libraries for general matrix-matrix multiplications"
-date = "2025-06-16T15:25:41"
+date = "2025-06-24T17:10:24"
 aliases = "/packages/222744"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/ROCm/tensile"
 arch = "x86_64"
-size = "2309264"
-usize = "63211734"
-sha1sum = "be7242f683ad834deeb5cf50a9add693f7c47735"
+size = "2309920"
+usize = "63211591"
+sha1sum = "74aa734a6fbe388bfccafab4690feeb5bca46617"
 depends = "['python3-joblib', 'python3-msgpack', 'pyyaml3']"
 +++
 ### Description: 

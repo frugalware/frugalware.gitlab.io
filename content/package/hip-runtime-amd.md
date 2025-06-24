@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "hip-runtime-amd 6.4.1-2"
-version = "6.4.1-2"
+title = "hip-runtime-amd 6.4.1-3"
+version = "6.4.1-3"
 description = "Heterogeneous Interface for Portability ROCm"
-date = "2025-05-27T14:08:15"
+date = "2025-06-24T16:14:23"
 aliases = "/packages/221255"
 categories = ['devel-extra']
 upstreamurl = "https://rocm.docs.amd.com/projects/HIP/en/latest/"
 arch = "x86_64"
-size = "9514980"
-usize = "30160280"
-sha1sum = "b8d3915aef9c20710423f9ff1f4533909660094e"
+size = "9509812"
+usize = "30163327"
+sha1sum = "e942d05720c528e1507734723ca89ccfbc137a0d"
 depends = "['comgr', 'libglvnd', 'rocm-core', 'rocminfo', 'rocprofiler-register']"
 reverse_depends = "['openucx-rocm', 'roctracer']"
 +++
@@ -30,6 +30,11 @@ Heterogeneous Interface for Portability ROCm
 * /opt/rocm/bin/roc-obj-extract.bat
 * /opt/rocm/bin/roc-obj-ls
 * /opt/rocm/bin/roc-obj-ls.bat
+* /opt/rocm/hip/bin/hipcc.bat
+* /opt/rocm/hip/bin/hipcc.pl
+* /opt/rocm/hip/bin/hipconfig.bat
+* /opt/rocm/hip/bin/hipconfig.pl
+* /opt/rocm/hip/bin/hipvars.pm
 * /opt/rocm/include/hip/amd_detail/amd_channel_descriptor.h
 * /opt/rocm/include/hip/amd_detail/amd_device_functions.h
 * /opt/rocm/include/hip/amd_detail/amd_hip_atomic.h
@@ -142,6 +147,8 @@ Heterogeneous Interface for Portability ROCm
 * /opt/rocm/lib/libhiprtc.so.6.4.43483
 * /opt/rocm/share/doc/hip-asan/LICENSE.txt
 * /opt/rocm/share/doc/hip/LICENSE.txt
+* /opt/rocm/share/doc/hipcc/LICENSE.txt
+* /opt/rocm/share/doc/hipcc/README.md
 * /opt/rocm/share/hip/version
 * /usr/share/doc/hip-runtime-amd-6.4.1/README.md
 * /usr/share/doc/hip-runtime-amd-6.4.1/RELEASE.md
