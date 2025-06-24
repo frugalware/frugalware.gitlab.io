@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "scummvm 2.9.0-4"
-version = "2.9.0-4"
+title = "scummvm 2.9.1-1"
+version = "2.9.1-1"
 description = "ScummVM is a program which allows you to run certain classic graphical point-and-click adventure games."
-date = "2025-05-22T11:30:55"
+date = "2025-06-24T10:17:30"
 aliases = "/packages/16071"
 categories = ['games-extra']
 upstreamurl = "http://www.scummvm.org/"
 arch = "x86_64"
-size = "104747752"
-usize = "192186163"
-sha1sum = "b8447c1efe180a7969c605439ea3ded5223ff320"
+size = "104839732"
+usize = "192433692"
+sha1sum = "cfcc1337b7a14084e77b3e77ffd4dfe2ce04155f"
 depends = "['curl', 'faad2', 'flac>=1.5.0', 'fluidsynth', 'freetype2', 'fribidi', 'glib2', 'libjpeg-turbo', 'libmad', 'libtheora>=1.2.0', 'sdl2_net']"
 reverse_depends = "['scummvm-tools']"
 +++
@@ -20,28 +20,28 @@ ScummVM is a program which allows you to run certain classic graphical point-and
 ### Files: 
 * /usr/bin/scummvm
 * /usr/share/applications/org.scummvm.scummvm.desktop
-* /usr/share/doc/scummvm-2.9.0/AUTHORS
-* /usr/share/doc/scummvm-2.9.0/CatharonLicense.txt
-* /usr/share/doc/scummvm-2.9.0/CONTRIBUTING.md
-* /usr/share/doc/scummvm-2.9.0/COPYING
-* /usr/share/doc/scummvm-2.9.0/COPYING.Apache
-* /usr/share/doc/scummvm-2.9.0/COPYING.BSD
-* /usr/share/doc/scummvm-2.9.0/COPYING.BSL
-* /usr/share/doc/scummvm-2.9.0/COPYING.FREEFONT
-* /usr/share/doc/scummvm-2.9.0/COPYING.GLAD
-* /usr/share/doc/scummvm-2.9.0/COPYING.ISC
-* /usr/share/doc/scummvm-2.9.0/COPYING.LGPL
-* /usr/share/doc/scummvm-2.9.0/COPYING.LUA
-* /usr/share/doc/scummvm-2.9.0/COPYING.MIT
-* /usr/share/doc/scummvm-2.9.0/COPYING.MKV
-* /usr/share/doc/scummvm-2.9.0/COPYING.MPL
-* /usr/share/doc/scummvm-2.9.0/COPYING.OFL
-* /usr/share/doc/scummvm-2.9.0/COPYING.TINYGL
-* /usr/share/doc/scummvm-2.9.0/COPYRIGHT
-* /usr/share/doc/scummvm-2.9.0/COPYRIGHT.Roland_SC-55
-* /usr/share/doc/scummvm-2.9.0/NEWS.md
-* /usr/share/doc/scummvm-2.9.0/README.md
-* /usr/share/doc/scummvm-2.9.0/TODO
+* /usr/share/doc/scummvm-2.9.1/AUTHORS
+* /usr/share/doc/scummvm-2.9.1/CatharonLicense.txt
+* /usr/share/doc/scummvm-2.9.1/CONTRIBUTING.md
+* /usr/share/doc/scummvm-2.9.1/COPYING
+* /usr/share/doc/scummvm-2.9.1/COPYING.Apache
+* /usr/share/doc/scummvm-2.9.1/COPYING.BSD
+* /usr/share/doc/scummvm-2.9.1/COPYING.BSL
+* /usr/share/doc/scummvm-2.9.1/COPYING.FREEFONT
+* /usr/share/doc/scummvm-2.9.1/COPYING.GLAD
+* /usr/share/doc/scummvm-2.9.1/COPYING.ISC
+* /usr/share/doc/scummvm-2.9.1/COPYING.LGPL
+* /usr/share/doc/scummvm-2.9.1/COPYING.LUA
+* /usr/share/doc/scummvm-2.9.1/COPYING.MIT
+* /usr/share/doc/scummvm-2.9.1/COPYING.MKV
+* /usr/share/doc/scummvm-2.9.1/COPYING.MPL
+* /usr/share/doc/scummvm-2.9.1/COPYING.OFL
+* /usr/share/doc/scummvm-2.9.1/COPYING.TINYGL
+* /usr/share/doc/scummvm-2.9.1/COPYRIGHT
+* /usr/share/doc/scummvm-2.9.1/COPYRIGHT.Roland_SC-55
+* /usr/share/doc/scummvm-2.9.1/NEWS.md
+* /usr/share/doc/scummvm-2.9.1/README.md
+* /usr/share/doc/scummvm-2.9.1/TODO
 * /usr/share/icons/hicolor/scalable/apps/org.scummvm.scummvm.svg
 * /usr/share/man/man6/scummvm.6.gz
 * /usr/share/metainfo/org.scummvm.scummvm.metainfo.xml
