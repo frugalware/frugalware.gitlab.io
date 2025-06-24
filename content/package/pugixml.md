@@ -1,24 +1,23 @@
 +++
 draft = false
-title = "pugixml 1.15-3"
-version = "1.15-3"
+title = "pugixml 1.15-4"
+version = "1.15-4"
 description = "Light-weight, simple and fast XML parser for C++ with XPath support"
-date = "2025-05-20T09:31:07"
+date = "2025-06-24T20:09:33"
 aliases = "/packages/219327"
 categories = ['lib-extra']
 upstreamurl = "http://pugixml.org"
 arch = "x86_64"
-size = "93152"
-usize = "302790"
-sha1sum = "61882a4f23dbc7441d7b357b8fd8e6b050fc49b0"
-depends = "['glibc>=2.29-6']"
+size = "92588"
+usize = "300582"
+sha1sum = "df10c4d36f05ced54eda612705cff95a517c773b"
+depends = "['libstdc++']"
 reverse_depends = "['blender', 'darktable', 'manaplus', 'mkvtoolnix', 'ogre', 'openshadinglanguage', 'poedit']"
 +++
 ### Description: 
 Light-weight, simple and fast XML parser for C++ with XPath support
 
 ### Files: 
-* /etc/ld.so.conf.d/pugixml.conf
 * /usr/include/pugiconfig.hpp
 * /usr/include/pugixml.hpp
 * /usr/lib/cmake/pugixml/pugixml-config-version.cmake
