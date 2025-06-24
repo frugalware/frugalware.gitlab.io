@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-bg 139.0.4-1"
-version = "139.0.4-1"
+title = "firefox-bg 140.0-1"
+version = "140.0-1"
 description = "Bulgarian language support for Firefox"
-date = "2025-06-10T19:50:25"
+date = "2025-06-24T07:46:40"
 aliases = "/packages/73616"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "401992"
-usize = "454356"
-sha1sum = "b0d1f7f92bdf7f0b3f2b2682070e2d4a4f63979e"
-depends = "['firefox>=139.0.4']"
+size = "397320"
+usize = "448617"
+sha1sum = "af925241b22ba085550e435eafd42f62b77ef1cf"
+depends = "['firefox>=140.0']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

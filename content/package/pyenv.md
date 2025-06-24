@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pyenv 2.5.7-1"
-version = "2.5.7-1"
+title = "pyenv 2.6.3-1"
+version = "2.6.3-1"
 description = "Easily switch between multiple versions of Python"
-date = "2025-05-12T13:26:53"
+date = "2025-06-24T08:09:10"
 aliases = "/packages/221127"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/pyenv/pyenv"
 arch = "x86_64"
-size = "290708"
-usize = "3454159"
-sha1sum = "557a2ce349d99a1e21fc1936930b9f5354fa3fce"
+size = "292528"
+usize = "3468403"
+sha1sum = "ffefa3f89af625fb89fc129a9c4e5d41cedfcd06"
 depends = "['bash']"
 +++
 ### Description: 
@@ -22,8 +22,8 @@ Easily switch between multiple versions of Python
 * /usr/bin/pyenv-uninstall
 * /usr/bin/python-build
 * /usr/share/bash-completion/completions/pyenv
-* /usr/share/doc/pyenv-2.5.7/LICENSE
-* /usr/share/doc/pyenv-2.5.7/README.md
+* /usr/share/doc/pyenv-2.6.3/LICENSE
+* /usr/share/doc/pyenv-2.6.3/README.md
 * /usr/share/doc/pyenv/CHANGELOG.md
 * /usr/share/doc/pyenv/COMMANDS.md
 * /usr/share/doc/pyenv/README-python-build.md
@@ -124,6 +124,7 @@ Easily switch between multiple versions of Python
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.10.15
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.10.16
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.10.17
+* /usr/share/pyenv/plugins/python-build/share/python-build/3.10.18
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.10.2
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.10.3
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.10.4
@@ -138,6 +139,7 @@ Easily switch between multiple versions of Python
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.11.10
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.11.11
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.11.12
+* /usr/share/pyenv/plugins/python-build/share/python-build/3.11.13
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.11.2
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.11.3
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.11.4
@@ -150,6 +152,7 @@ Easily switch between multiple versions of Python
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.12.0
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.12.1
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.12.10
+* /usr/share/pyenv/plugins/python-build/share/python-build/3.12.11
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.12.2
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.12.3
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.12.4
@@ -167,10 +170,14 @@ Easily switch between multiple versions of Python
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.13.2t
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.13.3
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.13.3t
+* /usr/share/pyenv/plugins/python-build/share/python-build/3.13.4
+* /usr/share/pyenv/plugins/python-build/share/python-build/3.13.4t
+* /usr/share/pyenv/plugins/python-build/share/python-build/3.13.5
+* /usr/share/pyenv/plugins/python-build/share/python-build/3.13.5t
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.13t-dev
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.14-dev
-* /usr/share/pyenv/plugins/python-build/share/python-build/3.14.0b1
-* /usr/share/pyenv/plugins/python-build/share/python-build/3.14.0b1t
+* /usr/share/pyenv/plugins/python-build/share/python-build/3.14.0b3
+* /usr/share/pyenv/plugins/python-build/share/python-build/3.14.0b3t
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.14t-dev
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.15-dev
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.15t-dev
@@ -288,6 +295,7 @@ Easily switch between multiple versions of Python
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.9.20
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.9.21
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.9.22
+* /usr/share/pyenv/plugins/python-build/share/python-build/3.9.23
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.9.4
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.9.5
 * /usr/share/pyenv/plugins/python-build/share/python-build/3.9.6

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "colord 1.4.8-1"
-version = "1.4.8-1"
+title = "colord 1.4.8-2"
+version = "1.4.8-2"
 description = "color daemon"
-date = "2025-06-24T06:46:47"
+date = "2025-06-24T07:19:25"
 aliases = "/packages/136178"
 categories = ['xlib']
 upstreamurl = "http://www.freedesktop.org/software/colord/"
 arch = "x86_64"
-size = "1693708"
-usize = "6558992"
-sha1sum = "859aaa373a1488986b6b2272155730d1e4c1102c"
+size = "1690872"
+usize = "6558931"
+sha1sum = "5ba4fe597e3042db0570bf259812985c863364eb"
 depends = "['argyllcms>=1.8.3-2', 'glib2>=2.60.0', 'lcms2>=2.8-2', 'libffi>=3.2.1-2', 'libgudev>=232-4', 'libgusb>=0.3.0-2', 'libudev>=242', 'libxslt', 'polkit>=0.113-6', 'sqlite3>=3.9.2-4']"
 reverse_depends = "['colord-gtk', 'colord-kde', 'fwupd', 'gtk+3', 'gtk+4']"
 +++
@@ -86,7 +86,6 @@ color daemon
 * /usr/lib/pkgconfig/colorhug.pc
 * /usr/lib/systemd/system/colord.service
 * /usr/lib/systemd/user/colord-session.service
-* /usr/lib/sysusers.d/colord-sysusers.conf
 * /usr/lib/sysusers.d/colord.conf
 * /usr/lib/tmpfiles.d/colord.conf
 * /usr/lib/udev/rules.d/69-cd-sensors.rules

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-kk 139.0.4-1"
-version = "139.0.4-1"
+title = "firefox-kk 140.0-1"
+version = "140.0-1"
 description = "Kazakh language support for Firefox"
-date = "2025-06-10T19:50:25"
+date = "2025-06-24T07:46:40"
 aliases = "/packages/73635"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "450268"
-usize = "507021"
-sha1sum = "d1e5cbd3953261b8cd2095511d0138d1d79c39d6"
-depends = "['firefox>=139.0.4']"
+size = "449232"
+usize = "500403"
+sha1sum = "af1d7614fcbe60636521dcb48d794ebc077c014f"
+depends = "['firefox>=140.0']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

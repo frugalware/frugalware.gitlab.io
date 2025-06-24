@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-trs 139.0.4-1"
-version = "139.0.4-1"
+title = "firefox-trs 140.0-1"
+version = "140.0-1"
 description = "Chicahuaxtla Triqui language support for Firefox"
-date = "2025-06-10T19:50:25"
+date = "2025-06-24T07:46:40"
 aliases = "/packages/220014"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "271296"
-usize = "326657"
-sha1sum = "b4eac24a7fc738ef20d656bb4bb542cd1feafcb2"
-depends = "['firefox>=139.0.4']"
+size = "267316"
+usize = "322013"
+sha1sum = "b1a0a6ee3169db0c7f5f180781a0b23a113caa43"
+depends = "['firefox>=140.0']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 
