@@ -12,7 +12,7 @@ size = "181496"
 usize = "531563"
 sha1sum = "ea3861b8c219f3b6ed9bc4e35c9e19bc2aa68509"
 depends = "['glibc>=2.35']"
-reverse_depends = "['7zip', 'borg', 'cmake', 'efl', 'enlightenment', 'flann', 'libsystemd', 'libvlc', 'mariadb-libs', 'openconnect', 'pacman-g2', 'squashfs', 'squashfuse', 'systemd', 'systemd-remote', 'systemd-sysvinit', 'telegram-desktop', 'terminology', 'zstd']"
+reverse_depends = "['7zip', 'borg', 'cmake', 'efl', 'enlightenment', 'flann', 'libsystemd', 'libvlc', 'mariadb-libs', 'openconnect', 'pacman-g2', 'python3-lz4', 'squashfs', 'squashfuse', 'systemd', 'systemd-remote', 'systemd-sysvinit', 'telegram-desktop', 'terminology', 'zstd']"
 +++
 ### Description: 
 Extremely Fast Compression algorithm

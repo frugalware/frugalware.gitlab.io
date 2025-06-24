@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "python3-joblib 1.5.1-1"
-version = "1.5.1-1"
+title = "python3-joblib 1.5.1-2"
+version = "1.5.1-2"
 description = "Set of tools to provide lightweight pipelining in Python"
-date = "2025-06-16T14:57:00"
+date = "2025-06-24T18:53:50"
 aliases = "/packages/222743"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/joblib"
 arch = "x86_64"
-size = "504832"
+size = "505012"
 usize = "2918959"
-sha1sum = "d468711678324e01de2dd77b51802c02064c28d1"
-depends = "['python3']"
+sha1sum = "6fb9412c4029f8910f334fad8403ffb06d6214f0"
+depends = "['python3-lz4', 'python3-numpy']"
 reverse_depends = "['python3-tensile']"
 +++
 ### Description: 

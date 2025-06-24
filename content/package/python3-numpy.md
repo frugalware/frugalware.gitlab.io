@@ -12,7 +12,7 @@ size = "7996956"
 usize = "49042545"
 sha1sum = "998590da52a0905b144d47fe4d4bc02b7e4ae5f1"
 depends = "['python3>=3.12']"
-reverse_depends = "['adios2', 'aubio', 'blender', 'face_recognition', 'git-cola', 'howdy', 'krr', 'opencv-python3', 'openrazer', 'python3-pythran', 'python3-rapidfuzz', 'python3-scipy', 'scikit-learn', 'wxpython']"
+reverse_depends = "['adios2', 'aubio', 'blender', 'face_recognition', 'git-cola', 'howdy', 'krr', 'opencv-python3', 'openrazer', 'python3-joblib', 'python3-pythran', 'python3-rapidfuzz', 'python3-scipy', 'scikit-learn', 'wxpython']"
 +++
 ### Description: 
 Numerical Python adds a fast array facility to the Python3 language.
