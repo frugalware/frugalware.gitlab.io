@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "cryptsetup-luks 2.7.5-1"
-version = "2.7.5-1"
+title = "cryptsetup-luks 2.8.0-1"
+version = "2.8.0-1"
 description = "cryptsetup-luks is intended as a complete replacement for the original cryptsetup."
-date = "2024-09-05T16:18:03"
+date = "2025-06-24T12:33:51"
 aliases = "/packages/14464"
 categories = ['base']
 upstreamurl = "https://gitlab.com/cryptsetup/cryptsetup"
 arch = "x86_64"
-size = "752264"
-usize = "3164666"
-sha1sum = "0d056df20fbd6c7cf9e3cec2d9a53bf81826e3d1"
+size = "794432"
+usize = "3461548"
+sha1sum = "13c1f4c5c98edcdfa4bd68bbe4c17aa12dbb622e"
 depends = "['argon2', 'json-c>=0.14', 'libblkid', 'libssh', 'libuuid>=2.40.2', 'lvm2-libs>=2.02.177-4', 'openssl>=3.1.0', 'popt>=1.16-9']"
 reverse_depends = "['dracut-ykfde', 'kernel-initrd', 'kernel-lts-initrd', 'systemd', 'systemd-nspawn', 'systemd-systemctl', 'volume_key', 'zulucrypt']"
 +++
@@ -26,14 +26,14 @@ cryptsetup-luks is intended as a complete replacement for the original cryptsetu
 * /usr/lib/cryptsetup/libcryptsetup-token-ssh.so
 * /usr/lib/libcryptsetup.so
 * /usr/lib/libcryptsetup.so.12
-* /usr/lib/libcryptsetup.so.12.10.0
+* /usr/lib/libcryptsetup.so.12.11.0
 * /usr/lib/pkgconfig/libcryptsetup.pc
-* /usr/share/doc/cryptsetup-luks-2.7.5/AUTHORS
-* /usr/share/doc/cryptsetup-luks-2.7.5/COPYING
-* /usr/share/doc/cryptsetup-luks-2.7.5/COPYING.LGPL
-* /usr/share/doc/cryptsetup-luks-2.7.5/FAQ.md
-* /usr/share/doc/cryptsetup-luks-2.7.5/README.Frugalware
-* /usr/share/doc/cryptsetup-luks-2.7.5/README.md
+* /usr/share/doc/cryptsetup-luks-2.8.0/AUTHORS
+* /usr/share/doc/cryptsetup-luks-2.8.0/COPYING
+* /usr/share/doc/cryptsetup-luks-2.8.0/FAQ.md
+* /usr/share/doc/cryptsetup-luks-2.8.0/README.Frugalware
+* /usr/share/doc/cryptsetup-luks-2.8.0/README.licensing
+* /usr/share/doc/cryptsetup-luks-2.8.0/README.md
 * /usr/share/locale/cs/LC_MESSAGES/cryptsetup.mo
 * /usr/share/locale/da/LC_MESSAGES/cryptsetup.mo
 * /usr/share/locale/de/LC_MESSAGES/cryptsetup.mo
@@ -49,6 +49,7 @@ cryptsetup-luks is intended as a complete replacement for the original cryptsetu
 * /usr/share/locale/pt_BR/LC_MESSAGES/cryptsetup.mo
 * /usr/share/locale/ro/LC_MESSAGES/cryptsetup.mo
 * /usr/share/locale/ru/LC_MESSAGES/cryptsetup.mo
+* /usr/share/locale/sk/LC_MESSAGES/cryptsetup.mo
 * /usr/share/locale/sr/LC_MESSAGES/cryptsetup.mo
 * /usr/share/locale/sv/LC_MESSAGES/cryptsetup.mo
 * /usr/share/locale/uk/LC_MESSAGES/cryptsetup.mo

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "crawl 0.32.1-1"
-version = "0.32.1-1"
+title = "crawl 0.33.1-1"
+version = "0.33.1-1"
 description = "Dungeon Crawl Stone Soup is an open-source, single-player, role-playing roguelike game of exploration and treasure-hunting"
-date = "2024-10-18T15:45:30"
+date = "2025-06-24T11:26:35"
 aliases = "/packages/153713"
 categories = ['games-extra']
 upstreamurl = "https://crawl.develz.org"
 arch = "x86_64"
-size = "21468368"
-usize = "54715284"
-sha1sum = "126b0df4b3b39f54447bd8d52b99a08ba32b70eb"
+size = "22157308"
+usize = "43087589"
+sha1sum = "4e0f78172589b31de4f9bd19953524493fe11565"
 depends = "['dejavu-ttf', 'freetype2', 'libglu', 'libpng', 'lua51', 'pyyaml3', 'sdl2_image', 'sdl2_ttf', 'sqlite3']"
 +++
 ### Description: 
@@ -18,8 +18,8 @@ Dungeon Crawl Stone Soup is an open-source, single-player, role-playing roguelik
 
 ### Files: 
 * /usr/bin/crawl
-* /usr/share/doc/crawl-0.32.1/INSTALL.md
-* /usr/share/doc/crawl-0.32.1/LICENSE
+* /usr/share/doc/crawl-0.33.1/INSTALL.md
+* /usr/share/doc/crawl-0.33.1/LICENSE
 * /usr/share/games/crawl/data/dat/clua/autofight.lua
 * /usr/share/games/crawl/data/dat/clua/automagic.lua
 * /usr/share/games/crawl/data/dat/clua/delays.lua
@@ -116,7 +116,6 @@ Dungeon Crawl Stone Soup is an open-source, single-player, role-playing roguelik
 * /usr/share/games/crawl/data/dat/des/branches/tomb.des
 * /usr/share/games/crawl/data/dat/des/branches/vaults.des
 * /usr/share/games/crawl/data/dat/des/branches/vaults_rooms_empty.des
-* /usr/share/games/crawl/data/dat/des/branches/vaults_rooms_ghost.des
 * /usr/share/games/crawl/data/dat/des/branches/vaults_rooms_hard.des
 * /usr/share/games/crawl/data/dat/des/branches/vaults_rooms_standard.des
 * /usr/share/games/crawl/data/dat/des/branches/zot.des
@@ -152,6 +151,7 @@ Dungeon Crawl Stone Soup is an open-source, single-player, role-playing roguelik
 * /usr/share/games/crawl/data/dat/des/portals/desolation.des
 * /usr/share/games/crawl/data/dat/des/portals/gauntlet.des
 * /usr/share/games/crawl/data/dat/des/portals/icecave.des
+* /usr/share/games/crawl/data/dat/des/portals/necropolis.des
 * /usr/share/games/crawl/data/dat/des/portals/ossuary.des
 * /usr/share/games/crawl/data/dat/des/portals/sewer.des
 * /usr/share/games/crawl/data/dat/des/portals/trove.des
@@ -203,7 +203,6 @@ Dungeon Crawl Stone Soup is an open-source, single-player, role-playing roguelik
 * /usr/share/games/crawl/data/dat/des/variable/d_encompass.des
 * /usr/share/games/crawl/data/dat/des/variable/float.des
 * /usr/share/games/crawl/data/dat/des/variable/geyser.des
-* /usr/share/games/crawl/data/dat/des/variable/ghost.des
 * /usr/share/games/crawl/data/dat/des/variable/grated_community.des
 * /usr/share/games/crawl/data/dat/des/variable/large_abstract.des
 * /usr/share/games/crawl/data/dat/des/variable/large_themed.des
@@ -506,7 +505,6 @@ Dungeon Crawl Stone Soup is an open-source, single-player, role-playing roguelik
 * /usr/share/games/crawl/data/dat/dist_bones/bones.store.Lair-3
 * /usr/share/games/crawl/data/dat/dist_bones/bones.store.Lair-4
 * /usr/share/games/crawl/data/dat/dist_bones/bones.store.Lair-5
-* /usr/share/games/crawl/data/dat/dist_bones/bones.store.Lair-6
 * /usr/share/games/crawl/data/dat/dist_bones/bones.store.Orc
 * /usr/share/games/crawl/data/dat/dist_bones/bones.store.Pan
 * /usr/share/games/crawl/data/dat/dist_bones/bones.store.Shoals
@@ -612,6 +610,7 @@ Dungeon Crawl Stone Soup is an open-source, single-player, role-playing roguelik
 * /usr/share/games/crawl/data/dat/tiles/title_baconkid_gastronok.png
 * /usr/share/games/crawl/data/dat/tiles/title_baconkid_mnoleg.png
 * /usr/share/games/crawl/data/dat/tiles/title_benadryl_antaeus.png
+* /usr/share/games/crawl/data/dat/tiles/title_benadryl_oni.png
 * /usr/share/games/crawl/data/dat/tiles/title_Cws_Minotauros.png
 * /usr/share/games/crawl/data/dat/tiles/title_denzi_dragon.png
 * /usr/share/games/crawl/data/dat/tiles/title_denzi_evil_mage.png
