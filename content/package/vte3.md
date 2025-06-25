@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vte3 0.80.2-1"
-version = "0.80.2-1"
+title = "vte3 0.80.2-2"
+version = "0.80.2-2"
 description = "Virtual Terminal Emulator (gtk+4)"
-date = "2025-05-27T08:08:28"
+date = "2025-06-25T13:54:47"
 aliases = "/packages/118797"
 categories = ['xapps']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "556832"
-usize = "3101008"
-sha1sum = "666f840f6936d8a1f3834b7cbd40361280e3977d"
+size = "555308"
+usize = "3093957"
+sha1sum = "9223a553bccf76903ac07d2d5fb32b348a3eb8e0"
 depends = "['gobject-introspection>=1.60.0', 'gtk+4', 'icu4c>=77.1']"
 reverse_depends = "['alpaca', 'gamt', 'geany', 'qemu', 'remmina', 'sakura', 'sunflower', 'virt-manager']"
 +++
@@ -65,7 +65,6 @@ Virtual Terminal Emulator (gtk+4)
 * /usr/share/doc/vte3-0.80.2/COPYING.GPL3
 * /usr/share/doc/vte3-0.80.2/COPYING.LGPL3
 * /usr/share/doc/vte3-0.80.2/COPYING.XTERM
-* /usr/share/doc/vte3-0.80.2/FAQ.md
 * /usr/share/doc/vte3-0.80.2/README.md
 * /usr/share/gir-1.0/Vte-2.91.gir
 * /usr/share/gir-1.0/Vte-3.91.gir

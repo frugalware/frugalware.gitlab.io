@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "packagekit-glib 1.3.0-3"
-version = "1.3.0-3"
+title = "packagekit-glib 1.3.1-1"
+version = "1.3.1-1"
 description = "GLib Libraries and headers for PackageKit"
-date = "2024-11-03T16:35:54"
+date = "2025-06-25T13:32:25"
 aliases = "/packages/217763"
 categories = ['lib-extra']
 upstreamurl = "http://www.packagekit.org/"
 arch = "x86_64"
-size = "121520"
-usize = "586160"
-sha1sum = "0313354f5136d678f5c8f270f278a9314ae16af9"
+size = "123068"
+usize = "586423"
+sha1sum = "3ead68aecd02477474a6d5f4266c8fba233d2107"
 depends = "['glib2>=2.50.0']"
 reverse_depends = "['packagekit']"
 +++
