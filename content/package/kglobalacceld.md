@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kglobalacceld 6.4.0-1"
-version = "6.4.0-1"
+title = "kglobalacceld 6.4.1-1"
+version = "6.4.1-1"
 description = "Daemon providing Global Keyboard Shortcut (Accelerator) functionality"
-date = "2025-06-17T15:45:07"
+date = "2025-06-25T08:24:33"
 aliases = "/packages/221315"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "97952"
-usize = "332440"
-sha1sum = "40bc3ba85eb0796686fddb054a80617fe18f75ae"
+size = "98636"
+usize = "333400"
+sha1sum = "5599dd48700b6b71397089246bf6cdf42e6a6bc6"
 depends = "['kconfig>=6.15.0', 'kcoreaddons>=6.15.0', 'kcrash>=6.15.0', 'kdbusaddons>=6.15.0', 'kglobalaccel>=6.15.0', 'kio>=6.15.0']"
 reverse_depends = "['kwin', 'kwin-x11']"
 +++
@@ -28,6 +28,6 @@ Daemon providing Global Keyboard Shortcut (Accelerator) functionality
 * /usr/lib/cmake/KGlobalAccelD/KGlobalAccelDTargets.cmake
 * /usr/lib/kglobalacceld/kglobalacceld
 * /usr/lib/libKGlobalAccelD.so.0
-* /usr/lib/libKGlobalAccelD.so.6.4.0
+* /usr/lib/libKGlobalAccelD.so.6.4.1
 * /usr/lib/qt6/plugins/org.kde.kglobalacceld.platforms/KGlobalAccelDXcb.so
 * /usr/lib/systemd/user/plasma-kglobalaccel.service

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "aurorae 6.4.0-1"
-version = "6.4.0-1"
+title = "aurorae 6.4.1-1"
+version = "6.4.1-1"
 description = "Themeable window decoration for KWin"
-date = "2025-06-18T08:24:57"
+date = "2025-06-25T08:53:53"
 aliases = "/packages/222748"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "94696"
-usize = "405316"
-sha1sum = "ac161e75d4779281a5dd99fc1ed4c01b5ceab65a"
-depends = "['kcmutils>=6.15.0', 'kdecoration>=6.4.0', 'knewstuff>=6.15.0', 'ksvg>=6.15.0', 'qt6-tools>=6.9.1']"
+size = "94716"
+usize = "407486"
+sha1sum = "12e36bbe3dd102b487666764065fa922557afb5e"
+depends = "['kcmutils>=6.15.0', 'kdecoration>=6.4.1', 'knewstuff>=6.15.0', 'ksvg>=6.15.0', 'qt6-tools>=6.9.1']"
 reverse_depends = "['kwin', 'kwin-x11']"
 +++
 ### Description: 
@@ -32,9 +32,9 @@ Themeable window decoration for KWin
 * /usr/lib/qt6/qml/org/kde/kwin/decoration/qmldir
 * /usr/lib/qt6/qml/org/kde/kwin/decorations/plastik/libplastikplugin.so
 * /usr/lib/qt6/qml/org/kde/kwin/decorations/plastik/qmldir
-* /usr/share/doc/aurorae-6.4.0/AUTHORS
-* /usr/share/doc/aurorae-6.4.0/README
-* /usr/share/doc/aurorae-6.4.0/TODO
+* /usr/share/doc/aurorae-6.4.1/AUTHORS
+* /usr/share/doc/aurorae-6.4.1/README
+* /usr/share/doc/aurorae-6.4.1/TODO
 * /usr/share/knsrcfiles/aurorae.knsrc
 * /usr/share/kwin/aurorae/AppMenuButton.qml
 * /usr/share/kwin/aurorae/aurorae.qml
@@ -69,6 +69,7 @@ Themeable window decoration for KWin
 * /usr/share/locale/nb/LC_MESSAGES/aurorae.mo
 * /usr/share/locale/nl/LC_MESSAGES/aurorae.mo
 * /usr/share/locale/pl/LC_MESSAGES/aurorae.mo
+* /usr/share/locale/ru/LC_MESSAGES/aurorae.mo
 * /usr/share/locale/sl/LC_MESSAGES/aurorae.mo
 * /usr/share/locale/sv/LC_MESSAGES/aurorae.mo
 * /usr/share/locale/tr/LC_MESSAGES/aurorae.mo

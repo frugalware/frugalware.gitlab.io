@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "plasma-x11-session 6.4.0-3"
-version = "6.4.0-3"
+title = "plasma-x11-session 6.4.1-1"
+version = "6.4.1-1"
 description = "Plasma X11 session"
-date = "2025-06-21T15:49:20"
+date = "2025-06-25T09:07:16"
 aliases = "/packages/222754"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "76580"
+size = "76708"
 usize = "203342"
-sha1sum = "2f9d6db617e69eed6042ce738b4f2a429be84e9e"
+sha1sum = "cced8572b835f93fc429c60f307136e8ca47e449"
 depends = "['appmenu-gtk', 'iso-codes', 'kio-fuse', 'kwin-x11', 'plasma-workspace', 'xorg-server']"
 +++
 ### Description: 
