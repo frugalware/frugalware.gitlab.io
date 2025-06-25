@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "plasma-desktop 6.4.0-1"
-version = "6.4.0-1"
+title = "plasma-desktop 6.4.1-1"
+version = "6.4.1-1"
 description = "KDE Plasma Desktop."
-date = "2025-06-17T17:14:22"
+date = "2025-06-25T09:23:49"
 aliases = "/packages/218423"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "17409812"
-usize = "34312794"
-sha1sum = "c986f3662e33af91c13374cdcc36de2847291d20"
-depends = "['hack', 'kactivitymanagerd>=6.4.0', 'kauth>=6.15.0', 'kcmutils>=6.15.0', 'knewstuff>=6.15.0', 'knotifyconfig>=6.15.0', 'kpeople>=6.15.0', 'kpipewire', 'krunner>=6.15.0', 'libcanberra>=0.30-14', 'libxft>=2.3.2-2', 'libxkbfile>=1.0.9-3', 'noto-emoji', 'packagekit-qt6>=1.0.1', 'plasma-activities-stats>=6.4.0', 'plasma-workspace>=6.4.0', 'qqc2-desktop-style>=6.15.0', 'setxkbmap', 'xdg-user-dirs', 'xf86-input-libinput', 'xkeyboard-config']"
+size = "17411636"
+usize = "34347659"
+sha1sum = "7355bcb8ff3f217670e6faf6969836b32f08c821"
+depends = "['hack', 'kactivitymanagerd>=6.4.1', 'kauth>=6.15.0', 'kcmutils>=6.15.0', 'knewstuff>=6.15.0', 'knotifyconfig>=6.15.0', 'kpeople>=6.15.0', 'kpipewire', 'krunner>=6.15.0', 'libcanberra>=0.30-14', 'libxft>=2.3.2-2', 'libxkbfile>=1.0.9-3', 'noto-emoji', 'packagekit-qt6>=1.0.1', 'plasma-activities-stats>=6.4.1', 'plasma-workspace>=6.4.1', 'qqc2-desktop-style>=6.15.0', 'setxkbmap', 'xdg-user-dirs', 'xf86-input-libinput', 'xkeyboard-config']"
 +++
 ### Description: 
 KDE Plasma Desktop.
@@ -820,8 +820,8 @@ KDE Plasma Desktop.
 * /usr/share/doc/HTML/uk/plasma-desktop/application-launcher-settings.png
 * /usr/share/doc/HTML/uk/plasma-desktop/index.cache.bz2
 * /usr/share/doc/HTML/uk/plasma-desktop/index.docbook
-* /usr/share/doc/plasma-desktop-6.4.0/COPYING.DOC
-* /usr/share/doc/plasma-desktop-6.4.0/README.md
+* /usr/share/doc/plasma-desktop-6.4.1/COPYING.DOC
+* /usr/share/doc/plasma-desktop-6.4.1/README.md
 * /usr/share/icons/hicolor/128x128/devices/input-touchpad.png
 * /usr/share/icons/hicolor/16x16/devices/input-touchpad.png
 * /usr/share/icons/hicolor/22x22/devices/input-touchpad.png

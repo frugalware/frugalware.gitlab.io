@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "aom 3.4.0-4"
-version = "3.4.0-4"
+title = "aom 3.12.1-1"
+version = "3.12.1-1"
 description = "Alliance for Open Media video codec"
-date = "2024-05-16T05:12:09"
+date = "2025-06-25T09:49:55"
 aliases = "/packages/220565"
 categories = ['multimedia']
 upstreamurl = "https://aomedia.org"
 arch = "x86_64"
-size = "1806824"
-usize = "6241869"
-sha1sum = "582ae492d18a07dd734a73bb2c1b050575ea890d"
+size = "1920680"
+usize = "5899975"
+sha1sum = "2b8700a1befc3b67e0b5f2c62140618c44ad0045"
 depends = "['libstdc++']"
 reverse_depends = "['ffmpeg', 'firefox', 'libavif', 'libheif', 'thunderbird']"
 +++
@@ -32,9 +32,9 @@ Alliance for Open Media video codec
 * /usr/include/aom/aom_integer.h
 * /usr/lib/libaom.so
 * /usr/lib/libaom.so.3
-* /usr/lib/libaom.so.3.4.0
+* /usr/lib/libaom.so.3.12.1
 * /usr/lib/pkgconfig/aom.pc
-* /usr/share/doc/aom-3.4.0/AUTHORS
-* /usr/share/doc/aom-3.4.0/CHANGELOG
-* /usr/share/doc/aom-3.4.0/LICENSE
-* /usr/share/doc/aom-3.4.0/README.md
+* /usr/share/doc/aom-3.12.1/AUTHORS
+* /usr/share/doc/aom-3.12.1/CHANGELOG
+* /usr/share/doc/aom-3.12.1/LICENSE
+* /usr/share/doc/aom-3.12.1/README.md

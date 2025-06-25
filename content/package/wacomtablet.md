@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "wacomtablet 6.4.0-1"
-version = "6.4.0-1"
+title = "wacomtablet 6.4.1-1"
+version = "6.4.1-1"
 description = "GUI for Wacom Linux drivers that supports different button/pen layout profiles"
-date = "2025-06-17T18:12:07"
+date = "2025-06-25T09:53:46"
 aliases = "/packages/221410"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "807236"
-usize = "2768006"
-sha1sum = "f01dda4a4aa0b30c1a037d8e3f6f657208131b22"
-depends = "['kcmutils>=6.15.0', 'kdbusaddons>=6.15.0', 'kglobalaccel>=6.15.0', 'kio>=6.15.0', 'knotifications>=6.15.0', 'kwidgetsaddons>=6.15.0', 'kwindowsystem>=6.15.0', 'kxmlgui>=6.15.0', 'libplasma>=6.4.0', 'plasma5support>=6.4.0', 'xf86-input-wacom']"
+size = "807220"
+usize = "2767462"
+sha1sum = "156215009e70f1ab9476900a38b13034f32ac740"
+depends = "['kcmutils>=6.15.0', 'kdbusaddons>=6.15.0', 'kglobalaccel>=6.15.0', 'kio>=6.15.0', 'knotifications>=6.15.0', 'kwidgetsaddons>=6.15.0', 'kwindowsystem>=6.15.0', 'kxmlgui>=6.15.0', 'libplasma>=6.4.1', 'plasma5support>=6.4.1', 'xf86-input-wacom']"
 +++
 ### Description: 
 GUI for Wacom Linux drivers that supports different button/pen layout profiles
@@ -54,9 +54,9 @@ GUI for Wacom Linux drivers that supports different button/pen layout profiles
 * /usr/share/doc/HTML/uk/kcontrol/wacomtablet/tabletarea.png
 * /usr/share/doc/HTML/zh_CN/kcontrol/wacomtablet/index.cache.bz2
 * /usr/share/doc/HTML/zh_CN/kcontrol/wacomtablet/index.docbook
-* /usr/share/doc/wacomtablet-6.4.0/AUTHORS
-* /usr/share/doc/wacomtablet-6.4.0/COPYING
-* /usr/share/doc/wacomtablet-6.4.0/README.md
+* /usr/share/doc/wacomtablet-6.4.1/AUTHORS
+* /usr/share/doc/wacomtablet-6.4.1/COPYING
+* /usr/share/doc/wacomtablet-6.4.1/README.md
 * /usr/share/knotifications6/wacomtablet.notifyrc
 * /usr/share/locale/ar/LC_MESSAGES/plasma_applet_org.kde.plasma.wacomtablet.mo
 * /usr/share/locale/ar/LC_MESSAGES/wacomtablet.mo

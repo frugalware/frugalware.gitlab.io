@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kwin-x11 6.4.0-1"
-version = "6.4.0-1"
+title = "kwin-x11 6.4.1-1"
+version = "6.4.1-1"
 description = "KDE Window Manager for X11"
-date = "2025-06-19T07:44:16"
+date = "2025-06-25T09:39:20"
 aliases = "/packages/222753"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "7600796"
-usize = "26159125"
-sha1sum = "f1474c469457b57017e0808a9846d7bfc07cc1bf"
+size = "7675948"
+usize = "26325195"
+sha1sum = "15dbda20c97ac546d01962f081a210d61a351b4a"
 depends = "['aurorae>=', 'breeze>=', 'kauth>=', 'kcmutils>=', 'kconfig>=', 'kconfigwidgets>=', 'kcoreaddons>=', 'kcrash>=', 'kdbusaddons>=', 'kdeclarative>=', 'kglobalacceld>=', 'kguiaddons>=', 'ki18n>=', 'kidletime>=', 'knewstuff>=', 'kpackage>=', 'kscreenlocker>=', 'kservice>=', 'ksvg>=', 'kwayland>=', 'kwidgetsaddons>=', 'kwindowsystem>=', 'kxmlgui>=', 'lcms2', 'libdisplay-info>=0.2.0', 'libei', 'libplasma>=', 'libqaccessibilityclient', 'libxcvt', 'pipewire', 'plasma-activities>=', 'qt6-5compat>=_F_kdever_qt6', 'qt6-sensors>=', 'qt6-tools>=', 'qt6-wayland>=']"
 reverse_depends = "['plasma-x11-session']"
 +++
@@ -301,10 +301,10 @@ KDE Window Manager for X11
 * /usr/lib/kwin-x11/kwin-applywindowdecoration-x11
 * /usr/lib/kwin-x11/kwin_killer_helper_x11
 * /usr/lib/libkcmkwincommon-x11.so.6
-* /usr/lib/libkcmkwincommon-x11.so.6.4.0
+* /usr/lib/libkcmkwincommon-x11.so.6.4.1
 * /usr/lib/libkwin-x11.so
 * /usr/lib/libkwin-x11.so.6
-* /usr/lib/libkwin-x11.so.6.4.0
+* /usr/lib/libkwin-x11.so.6.4.1
 * /usr/lib/qt6/plugins/kf6/packagestructure/kwin_aurorae_x11.so
 * /usr/lib/qt6/plugins/kf6/packagestructure/kwin_decoration_x11.so
 * /usr/lib/qt6/plugins/kf6/packagestructure/kwin_effect_x11.so
@@ -452,6 +452,24 @@ KDE Window Manager for X11
 * /usr/share/doc/HTML/en/kcontrol/windowspecific-x11/window-matching-tbird-compose.png
 * /usr/share/doc/HTML/en/kcontrol/windowspecific-x11/window-matching-tbird-main.png
 * /usr/share/doc/HTML/en/kcontrol/windowspecific-x11/window-matching-tbird-reminder.png
+* /usr/share/doc/HTML/it/kcontrol/desktop-x11/index.cache.bz2
+* /usr/share/doc/HTML/it/kcontrol/desktop-x11/index.docbook
+* /usr/share/doc/HTML/it/kcontrol/kwindecoration-x11/index.cache.bz2
+* /usr/share/doc/HTML/it/kcontrol/kwindecoration-x11/index.docbook
+* /usr/share/doc/HTML/it/kcontrol/kwineffects-x11/index.cache.bz2
+* /usr/share/doc/HTML/it/kcontrol/kwineffects-x11/index.docbook
+* /usr/share/doc/HTML/it/kcontrol/kwinscreenedges-x11/index.cache.bz2
+* /usr/share/doc/HTML/it/kcontrol/kwinscreenedges-x11/index.docbook
+* /usr/share/doc/HTML/it/kcontrol/kwintabbox-x11/index.cache.bz2
+* /usr/share/doc/HTML/it/kcontrol/kwintabbox-x11/index.docbook
+* /usr/share/doc/HTML/it/kcontrol/kwintouchscreen-x11/index.cache.bz2
+* /usr/share/doc/HTML/it/kcontrol/kwintouchscreen-x11/index.docbook
+* /usr/share/doc/HTML/it/kcontrol/kwinvirtualkeyboard-x11/index.cache.bz2
+* /usr/share/doc/HTML/it/kcontrol/kwinvirtualkeyboard-x11/index.docbook
+* /usr/share/doc/HTML/it/kcontrol/windowbehaviour-x11/index.cache.bz2
+* /usr/share/doc/HTML/it/kcontrol/windowbehaviour-x11/index.docbook
+* /usr/share/doc/HTML/it/kcontrol/windowspecific-x11/index.cache.bz2
+* /usr/share/doc/HTML/it/kcontrol/windowspecific-x11/index.docbook
 * /usr/share/doc/HTML/nl/kcontrol/desktop-x11/index.cache.bz2
 * /usr/share/doc/HTML/nl/kcontrol/desktop-x11/index.docbook
 * /usr/share/doc/HTML/nl/kcontrol/kwindecoration-x11/index.cache.bz2
@@ -488,7 +506,7 @@ KDE Window Manager for X11
 * /usr/share/doc/HTML/uk/kcontrol/windowbehaviour-x11/index.docbook
 * /usr/share/doc/HTML/uk/kcontrol/windowspecific-x11/index.cache.bz2
 * /usr/share/doc/HTML/uk/kcontrol/windowspecific-x11/index.docbook
-* /usr/share/doc/kwin-x11-6.4.0/README.md
+* /usr/share/doc/kwin-x11-6.4.1/README.md
 * /usr/share/icons/hicolor/16x16/apps/kwin-x11.png
 * /usr/share/icons/hicolor/32x32/apps/kwin-x11.png
 * /usr/share/icons/hicolor/48x48/apps/kwin-x11.png
@@ -1220,6 +1238,7 @@ KDE Window Manager for X11
 * /usr/share/locale/pt_BR/LC_MESSAGES/kcmkwincompositing_x11.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/kcmkwinscreenedges_x11.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/kcmkwm_x11.mo
+* /usr/share/locale/pt_BR/LC_MESSAGES/kcm_animations_x11.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/kcm_kwindecoration_x11.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/kcm_kwinrules_x11.mo
 * /usr/share/locale/pt_BR/LC_MESSAGES/kcm_kwintabbox_x11.mo

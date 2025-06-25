@@ -12,7 +12,7 @@ size = "314028"
 usize = "1038584"
 sha1sum = "480189ae20c306dcb72c0d8dfd3c15424e94a27d"
 depends = "['alsa-lib>=1.1.2-2', 'flac>=1.5.0', 'lame', 'libmpg123', 'libogg>=1.3.2-5', 'libvorbis>=1.3.5-5', 'opus', 'speex', 'sqlite3>=3.9.2-4']"
-reverse_depends = "['efl', 'enlightenment', 'fluidsynth', 'libbs2b', 'libpulse', 'libreoffice', 'libsamplerate', 'lv2', 'mednafen', 'mumble', 'pulseaudio', 'qtractor', 'sfml', 'speech-dispatcher', 'terminology', 'twolame', 'vamp-plugin-sdk']"
+reverse_depends = "['efl', 'enlightenment', 'fluidsynth', 'ladspa_sdk', 'libbs2b', 'libpulse', 'libreoffice', 'libsamplerate', 'lv2', 'mednafen', 'mumble', 'pulseaudio', 'qtractor', 'sfml', 'speech-dispatcher', 'terminology', 'twolame', 'vamp-plugin-sdk']"
 +++
 ### Description: 
 Libsndfile is a C library for reading and writing files containing sampled sound
