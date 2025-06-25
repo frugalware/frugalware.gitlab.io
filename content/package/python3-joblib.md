@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-joblib 1.5.1-2"
-version = "1.5.1-2"
+title = "python3-joblib 1.4.2-1"
+version = "1.4.2-1"
 description = "Set of tools to provide lightweight pipelining in Python"
-date = "2025-06-24T18:53:50"
+date = "2025-06-25T16:05:12"
 aliases = "/packages/222743"
 categories = ['devel-extra']
 upstreamurl = "http://pypi.python.org/pypi/joblib"
 arch = "x86_64"
-size = "505012"
-usize = "2918959"
-sha1sum = "6fb9412c4029f8910f334fad8403ffb06d6214f0"
+size = "494144"
+usize = "2850121"
+sha1sum = "5fd338e624e787513de7ef06529ff9c9027c1884"
 depends = "['python3-lz4', 'python3-numpy']"
 reverse_depends = "['python3-tensile']"
 +++
@@ -18,11 +18,11 @@ reverse_depends = "['python3-tensile']"
 Set of tools to provide lightweight pipelining in Python
 
 ### Files: 
-* /usr/lib/python3.13/site-packages/joblib-1.5.1.dist-info/licenses/LICENSE.txt
-* /usr/lib/python3.13/site-packages/joblib-1.5.1.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/joblib-1.5.1.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/joblib-1.5.1.dist-info/top_level.txt
-* /usr/lib/python3.13/site-packages/joblib-1.5.1.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/joblib-1.4.2.dist-info/licenses/LICENSE.txt
+* /usr/lib/python3.13/site-packages/joblib-1.4.2.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/joblib-1.4.2.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/joblib-1.4.2.dist-info/top_level.txt
+* /usr/lib/python3.13/site-packages/joblib-1.4.2.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/joblib/backports.py
 * /usr/lib/python3.13/site-packages/joblib/compressor.py
 * /usr/lib/python3.13/site-packages/joblib/disk.py
@@ -307,4 +307,4 @@ Set of tools to provide lightweight pipelining in Python
 * /usr/lib/python3.13/site-packages/joblib/__pycache__/_utils.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/joblib/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/joblib/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/python3-joblib-1.5.1/README.rst
+* /usr/share/doc/python3-joblib-1.4.2/README.rst
