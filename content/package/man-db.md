@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "man-db 2.13.1-1"
-version = "2.13.1-1"
+title = "man-db 2.13.1-3"
+version = "2.13.1-3"
 description = "A utility for reading man pages"
-date = "2025-05-05T10:11:02"
+date = "2025-06-25T14:46:47"
 aliases = "/packages/118506"
 categories = ['base']
 upstreamurl = "http://www.nongnu.org/man-db/"
 arch = "x86_64"
-size = "521308"
-usize = "2215740"
-sha1sum = "a72d48800198c8104cfb2e5fbb8c4f7a8c389abd"
+size = "520676"
+usize = "2216412"
+sha1sum = "2b1ca5f1a3986df4d5cd1b497e7f84ccc5354255"
 depends = "['gdbm>=1.15', 'groff>=1.22.3-4', 'less>=481-4', 'libpipeline>=1.4.1-5']"
 reverse_depends = "['man2html']"
 +++
