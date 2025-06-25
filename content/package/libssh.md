@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libssh 0.11.1-2"
-version = "0.11.1-2"
+title = "libssh 0.11.2-1"
+version = "0.11.2-1"
 description = "The SSH library"
-date = "2025-01-02T09:10:18"
+date = "2025-06-25T07:48:07"
 aliases = "/packages/15212"
 categories = ['base']
 upstreamurl = "http://www.libssh.org/"
 arch = "x86_64"
-size = "256924"
-usize = "848300"
-sha1sum = "9fdfb39864531676fc4ff18d1567947d26089a60"
+size = "259752"
+usize = "853997"
+sha1sum = "21ffdf05ed0bb62887b0091fc4331925e2e8f629"
 depends = "['libgcrypt>=1.7.3-2', 'openssl>=3.0.7', 'zlib-ng']"
 reverse_depends = "['cryptsetup-luks', 'exiv2', 'kio-extras', 'kio5-extras', 'remmina', 'wireshark']"
 +++
@@ -32,12 +32,12 @@ The SSH library
 * /usr/lib/cmake/libssh/libssh-config.cmake
 * /usr/lib/libssh.so
 * /usr/lib/libssh.so.4
-* /usr/lib/libssh.so.4.10.1
+* /usr/lib/libssh.so.4.10.2
 * /usr/lib/pkgconfig/libssh.pc
-* /usr/share/doc/libssh-0.11.1/AUTHORS
-* /usr/share/doc/libssh-0.11.1/CHANGELOG
-* /usr/share/doc/libssh-0.11.1/COPYING
-* /usr/share/doc/libssh-0.11.1/INSTALL
-* /usr/share/doc/libssh-0.11.1/README
-* /usr/share/doc/libssh-0.11.1/README.mbedtls
-* /usr/share/doc/libssh-0.11.1/README.md
+* /usr/share/doc/libssh-0.11.2/AUTHORS
+* /usr/share/doc/libssh-0.11.2/CHANGELOG
+* /usr/share/doc/libssh-0.11.2/COPYING
+* /usr/share/doc/libssh-0.11.2/INSTALL
+* /usr/share/doc/libssh-0.11.2/README
+* /usr/share/doc/libssh-0.11.2/README.mbedtls
+* /usr/share/doc/libssh-0.11.2/README.md

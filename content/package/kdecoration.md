@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kdecoration 6.4.0-1"
-version = "6.4.0-1"
+title = "kdecoration 6.4.1-1"
+version = "6.4.1-1"
 description = "KDE Decoration"
-date = "2025-06-17T14:55:57"
+date = "2025-06-25T07:53:03"
 aliases = "/packages/218295"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "87124"
-usize = "364395"
-sha1sum = "f7a0d2be8f6a934330b4d0b1e229d6f88396cf6c"
+size = "87304"
+usize = "364306"
+sha1sum = "3001616df4083403a79b4b474d857a8891fc04e0"
 depends = "['kcoreaddons>=6.15.0', 'ki18n>=6.15.0', 'qt6-base>=6.9.1']"
 reverse_depends = "['aurorae', 'breeze', 'kde-gtk-config']"
 +++
@@ -50,11 +50,11 @@ KDE Decoration
 * /usr/lib/cmake/KDecoration3/KDecoration3Targets.cmake
 * /usr/lib/libkdecorations3.so
 * /usr/lib/libkdecorations3.so.6
-* /usr/lib/libkdecorations3.so.6.4.0
+* /usr/lib/libkdecorations3.so.6.4.1
 * /usr/lib/libkdecorations3private.so
 * /usr/lib/libkdecorations3private.so.2
-* /usr/lib/libkdecorations3private.so.6.4.0
-* /usr/share/doc/kdecoration-6.4.0/README.md
+* /usr/lib/libkdecorations3private.so.6.4.1
+* /usr/share/doc/kdecoration-6.4.1/README.md
 * /usr/share/locale/ar/LC_MESSAGES/kdecoration.mo
 * /usr/share/locale/ast/LC_MESSAGES/kdecoration.mo
 * /usr/share/locale/az/LC_MESSAGES/kdecoration.mo
