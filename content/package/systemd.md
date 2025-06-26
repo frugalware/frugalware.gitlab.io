@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "systemd 257.6-2"
-version = "257.6-2"
+title = "systemd 257.7-1"
+version = "257.7-1"
 description = "A System and Service Manager"
-date = "2025-06-20T11:50:47"
+date = "2025-06-26T06:51:07"
 aliases = "/packages/103627"
 categories = ['base']
 upstreamurl = "http://www.freedesktop.org/wiki/Software/systemd"
 arch = "x86_64"
-size = "4824560"
-usize = "21689901"
-sha1sum = "3405537e17cbd1ff811024469021f220f8a3439e"
-depends = "['cryptsetup-luks>=2.0.1-3', 'dbus>=1.12.2-4', 'frugalware>=2.1-129', 'hwdata', 'kmod>=25-2', 'libidn2', 'libseccomp', 'libsystemd>=257.6', 'libudev>=257.6', 'lz4>=1.8.1.2-2', 'openssl>=3.1.0', 'pcre2', 'scriptlet-core', 'shadow>=4.6-5', 'systemd-systemctl>=257.6', 'systemd-sysvinit']"
+size = "4826804"
+usize = "21698669"
+sha1sum = "4aea1fe042a88b40f9fb7a66b5b7d74098bd467a"
+depends = "['cryptsetup-luks>=2.0.1-3', 'dbus>=1.12.2-4', 'frugalware>=2.1-129', 'hwdata', 'kmod>=25-2', 'libidn2', 'libseccomp', 'libsystemd>=257.7', 'libudev>=257.7', 'lz4>=1.8.1.2-2', 'openssl>=3.1.0', 'pcre2', 'scriptlet-core', 'shadow>=4.6-5', 'systemd-systemctl>=257.7', 'systemd-sysvinit']"
 reverse_depends = "['amavisd-new', 'bitlbee-common', 'bolt', 'ccid', 'dracut', 'flightgear', 'greetd', 'guvcview', 'iio-sensor-proxy', 'kernel-initrd', 'kernel-lts-initrd', 'kscreenlocker', 'libfido2', 'libvirt', 'php-fpm', 'plocate', 'profile-sync-daemon', 'python3-systemd', 'pyudev', 'seatd', 'systemd-pull', 'systemd-remote', 'systemd-swap', 'systemd-sysvinit', 'tcplay', 'umockdev', 'usb-modeswitch-data', 'uwsgi-plugin-systemd', 'xdg-desktop-portal', 'xf86-input-wacom']"
 +++
 ### Description: 
@@ -592,6 +592,7 @@ A System and Service Manager
 * /usr/lib/udev/hwdb.d/70-mouse.hwdb
 * /usr/lib/udev/hwdb.d/70-pda.hwdb
 * /usr/lib/udev/hwdb.d/70-pointingstick.hwdb
+* /usr/lib/udev/hwdb.d/70-software-radio.hwdb
 * /usr/lib/udev/hwdb.d/70-sound-card.hwdb
 * /usr/lib/udev/hwdb.d/70-touchpad.hwdb
 * /usr/lib/udev/hwdb.d/80-ieee1394-unit-function.hwdb
@@ -719,10 +720,10 @@ A System and Service Manager
 * /usr/share/dbus-1/system.d/org.freedesktop.systemd1.conf
 * /usr/share/dbus-1/system.d/org.freedesktop.timedate1.conf
 * /usr/share/dbus-1/system.d/org.freedesktop.timesync1.conf
-* /usr/share/doc/systemd-257.6/NEWS
-* /usr/share/doc/systemd-257.6/README
-* /usr/share/doc/systemd-257.6/README.md
-* /usr/share/doc/systemd-257.6/TODO
+* /usr/share/doc/systemd-257.7/NEWS
+* /usr/share/doc/systemd-257.7/README
+* /usr/share/doc/systemd-257.7/README.md
+* /usr/share/doc/systemd-257.7/TODO
 * /usr/share/doc/systemd/CODING_STYLE.md
 * /usr/share/doc/systemd/DISTRO_PORTING.md
 * /usr/share/doc/systemd/ENVIRONMENT.md

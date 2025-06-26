@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "systemd-systemctl 257.6-2"
-version = "257.6-2"
+title = "systemd-systemctl 257.7-1"
+version = "257.7-1"
 description = "The systemd system and service manager"
-date = "2025-06-20T11:50:47"
+date = "2025-06-26T06:51:07"
 aliases = "/packages/219952"
 categories = ['base']
 upstreamurl = "http://www.freedesktop.org/wiki/Software/systemd"
 arch = "x86_64"
-size = "130740"
+size = "130776"
 usize = "297512"
-sha1sum = "039d99dfacc747292c8b00cd6b2eca8be0c48893"
-depends = "['cryptsetup-luks', 'kmod', 'libidn2', 'libseccomp', 'libsystemd>=257.6']"
+sha1sum = "5be22666d64dacac789a41777890882f5e29a0ab"
+depends = "['cryptsetup-luks', 'kmod', 'libidn2', 'libseccomp', 'libsystemd>=257.7']"
 reverse_depends = "['lvm2', 'systemd']"
 +++
 ### Description: 
