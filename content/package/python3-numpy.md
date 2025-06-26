@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-numpy 2.3.0-1"
-version = "2.3.0-1"
+title = "python3-numpy 2.3.1-1"
+version = "2.3.1-1"
 description = "Numerical Python adds a fast array facility to the Python3 language."
-date = "2025-06-16T09:57:42"
+date = "2025-06-26T12:47:54"
 aliases = "/packages/219648"
 categories = ['devel']
 upstreamurl = "http://pypi.python.org/pypi/numpy"
 arch = "x86_64"
-size = "7996956"
-usize = "49042545"
-sha1sum = "998590da52a0905b144d47fe4d4bc02b7e4ae5f1"
+size = "7994480"
+usize = "49071801"
+sha1sum = "36d090931fc4a42508d9a65a490ed6c82fefe07b"
 depends = "['python3>=3.12']"
 reverse_depends = "['adios2', 'aubio', 'blender', 'face_recognition', 'git-cola', 'howdy', 'krr', 'opencv-python3', 'openrazer', 'python3-joblib', 'python3-pythran', 'python3-rapidfuzz', 'python3-scipy', 'scikit-learn', 'wxpython']"
 +++
@@ -20,11 +20,11 @@ Numerical Python adds a fast array facility to the Python3 language.
 ### Files: 
 * /usr/bin/f2py
 * /usr/bin/numpy-config
-* /usr/lib/python3.13/site-packages/numpy-2.3.0.dist-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/numpy-2.3.0.dist-info/LICENSE.txt
-* /usr/lib/python3.13/site-packages/numpy-2.3.0.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/numpy-2.3.0.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/numpy-2.3.0.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/numpy-2.3.1.dist-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/numpy-2.3.1.dist-info/LICENSE.txt
+* /usr/lib/python3.13/site-packages/numpy-2.3.1.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/numpy-2.3.1.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/numpy-2.3.1.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/numpy/char/__init__.py
 * /usr/lib/python3.13/site-packages/numpy/char/__init__.pyi
 * /usr/lib/python3.13/site-packages/numpy/char/__pycache__/__init__.cpython-313.opt-1.pyc
@@ -1734,5 +1734,5 @@ Numerical Python adds a fast array facility to the Python3 language.
 * /usr/lib/python3.13/site-packages/numpy/__pycache__/__config__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/numpy/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/numpy/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/python3-numpy-2.3.0/INSTALL.rst
-* /usr/share/doc/python3-numpy-2.3.0/README.md
+* /usr/share/doc/python3-numpy-2.3.1/INSTALL.rst
+* /usr/share/doc/python3-numpy-2.3.1/README.md
