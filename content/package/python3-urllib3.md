@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "python3-urllib3 2.4.0-1"
-version = "2.4.0-1"
+title = "python3-urllib3 2.5.0-1"
+version = "2.5.0-1"
 description = "HTTP library with thread-safe connection pooling and file post support"
-date = "2025-04-22T18:21:02"
+date = "2025-06-26T07:34:34"
 aliases = "/packages/219478"
 categories = ['devel']
 upstreamurl = "http://pypi.python.org/pypi/urllib3"
 arch = "x86_64"
-size = "215368"
-usize = "1327065"
-sha1sum = "99cd6598b76dfc295cbc2fdaeae07db635543436"
+size = "221104"
+usize = "1349224"
+sha1sum = "cfdfe929b0a61d599ff1e3802040f88e5e9f9d80"
 depends = "['python3-pysocks']"
 reverse_depends = "['krr', 'lutris', 'python3-cachecontrol', 'python3-dulwich', 'python3-kubernetes', 'python3-poetry', 'python3-requests', 'python3-selenium', 'python3-sentry-sdk']"
 +++
@@ -18,10 +18,10 @@ reverse_depends = "['krr', 'lutris', 'python3-cachecontrol', 'python3-dulwich', 
 HTTP library with thread-safe connection pooling and file post support
 
 ### Files: 
-* /usr/lib/python3.13/site-packages/urllib3-2.4.0.dist-info/licenses/LICENSE.txt
-* /usr/lib/python3.13/site-packages/urllib3-2.4.0.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/urllib3-2.4.0.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/urllib3-2.4.0.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/urllib3-2.5.0.dist-info/licenses/LICENSE.txt
+* /usr/lib/python3.13/site-packages/urllib3-2.5.0.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/urllib3-2.5.0.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/urllib3-2.5.0.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/urllib3/connection.py
 * /usr/lib/python3.13/site-packages/urllib3/connectionpool.py
 * /usr/lib/python3.13/site-packages/urllib3/contrib/emscripten/connection.py
@@ -132,4 +132,5 @@ HTTP library with thread-safe connection pooling and file post support
 * /usr/lib/python3.13/site-packages/urllib3/__pycache__/_version.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/urllib3/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/urllib3/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/python3-urllib3-2.4.0/README.md
+* /usr/share/doc/python3-urllib3-2.5.0/FAQ.md
+* /usr/share/doc/python3-urllib3-2.5.0/README.md
