@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "rust 1.87.0-3"
-version = "1.87.0-3"
+title = "rust 1.88.0-1"
+version = "1.88.0-1"
 description = "Programming language focused on safety, speed and concurrency"
-date = "2025-06-16T09:15:09"
+date = "2025-06-27T12:49:48"
 aliases = "/packages/218947"
 categories = ['devel']
 upstreamurl = "https://www.rust-lang.org/"
 arch = "x86_64"
-size = "68225568"
-usize = "310831310"
-sha1sum = "e875f5c77efba32ab1bb90bd90d55365f246bef7"
+size = "68156068"
+usize = "294276654"
+sha1sum = "de929ba8cec320822c4be35fef423147f888671b"
 depends = "['curl', 'libffi', 'libxml2', 'llvm-libs>=20.1.7']"
 reverse_depends = "['corrosion', 'lib32-rust', 'python3-maturin', 'python3-setuptools-rust', 'rust-wasm']"
 +++
@@ -29,7 +29,7 @@ Programming language focused on safety, speed and concurrency
 * /usr/bin/rustc
 * /usr/bin/rustdoc
 * /usr/bin/rustfmt
-* /usr/lib/librustc_driver-8cf940f2a911a27d.so
+* /usr/lib/librustc_driver-3741a40d151b8fc5.so
 * /usr/lib/rustlib/components
 * /usr/lib/rustlib/etc/gdb_load_rust_pretty_printers.py
 * /usr/lib/rustlib/etc/gdb_lookup.py
@@ -154,6 +154,7 @@ Programming language focused on safety, speed and concurrency
 * /usr/lib/rustlib/src/rust/library/alloctests/tests/lib.rs
 * /usr/lib/rustlib/src/rust/library/alloctests/tests/linked_list.rs
 * /usr/lib/rustlib/src/rust/library/alloctests/tests/misc_tests.rs
+* /usr/lib/rustlib/src/rust/library/alloctests/tests/num.rs
 * /usr/lib/rustlib/src/rust/library/alloctests/tests/rc.rs
 * /usr/lib/rustlib/src/rust/library/alloctests/tests/slice.rs
 * /usr/lib/rustlib/src/rust/library/alloctests/tests/sort/ffi_types.rs
@@ -176,6 +177,7 @@ Programming language focused on safety, speed and concurrency
 * /usr/lib/rustlib/src/rust/library/backtrace/.github/actions/report-code-size-changes/action.yml
 * /usr/lib/rustlib/src/rust/library/backtrace/.github/workflows/check-binary-size.yml
 * /usr/lib/rustlib/src/rust/library/backtrace/.github/workflows/main.yml
+* /usr/lib/rustlib/src/rust/library/backtrace/.github/workflows/publish.yml
 * /usr/lib/rustlib/src/rust/library/backtrace/benches/benchmarks.rs
 * /usr/lib/rustlib/src/rust/library/backtrace/bindings.txt
 * /usr/lib/rustlib/src/rust/library/backtrace/Cargo.lock
@@ -264,6 +266,7 @@ Programming language focused on safety, speed and concurrency
 * /usr/lib/rustlib/src/rust/library/core/src/array/drain.rs
 * /usr/lib/rustlib/src/rust/library/core/src/array/equality.rs
 * /usr/lib/rustlib/src/rust/library/core/src/array/iter.rs
+* /usr/lib/rustlib/src/rust/library/core/src/array/iter/iter_inner.rs
 * /usr/lib/rustlib/src/rust/library/core/src/array/mod.rs
 * /usr/lib/rustlib/src/rust/library/core/src/ascii.rs
 * /usr/lib/rustlib/src/rust/library/core/src/ascii/ascii_char.rs
@@ -273,7 +276,8 @@ Programming language focused on safety, speed and concurrency
 * /usr/lib/rustlib/src/rust/library/core/src/async_iter/mod.rs
 * /usr/lib/rustlib/src/rust/library/core/src/bool.rs
 * /usr/lib/rustlib/src/rust/library/core/src/borrow.rs
-* /usr/lib/rustlib/src/rust/library/core/src/bstr.rs
+* /usr/lib/rustlib/src/rust/library/core/src/bstr/mod.rs
+* /usr/lib/rustlib/src/rust/library/core/src/bstr/traits.rs
 * /usr/lib/rustlib/src/rust/library/core/src/cell.rs
 * /usr/lib/rustlib/src/rust/library/core/src/cell/lazy.rs
 * /usr/lib/rustlib/src/rust/library/core/src/cell/once.rs
@@ -464,6 +468,7 @@ Programming language focused on safety, speed and concurrency
 * /usr/lib/rustlib/src/rust/library/core/src/panicking.rs
 * /usr/lib/rustlib/src/rust/library/core/src/pat.rs
 * /usr/lib/rustlib/src/rust/library/core/src/pin.rs
+* /usr/lib/rustlib/src/rust/library/core/src/pin/unsafe_pinned.rs
 * /usr/lib/rustlib/src/rust/library/core/src/prelude/mod.rs
 * /usr/lib/rustlib/src/rust/library/core/src/prelude/v1.rs
 * /usr/lib/rustlib/src/rust/library/core/src/primitive.rs
@@ -586,6 +591,7 @@ Programming language focused on safety, speed and concurrency
 * /usr/lib/rustlib/src/rust/library/coretests/tests/future.rs
 * /usr/lib/rustlib/src/rust/library/coretests/tests/hash/mod.rs
 * /usr/lib/rustlib/src/rust/library/coretests/tests/hash/sip.rs
+* /usr/lib/rustlib/src/rust/library/coretests/tests/hint.rs
 * /usr/lib/rustlib/src/rust/library/coretests/tests/intrinsics.rs
 * /usr/lib/rustlib/src/rust/library/coretests/tests/io/borrowed_buf.rs
 * /usr/lib/rustlib/src/rust/library/coretests/tests/io/mod.rs
@@ -1109,9 +1115,39 @@ Programming language focused on safety, speed and concurrency
 * /usr/lib/rustlib/src/rust/library/std/src/sys/anonymous_pipe/unix.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/anonymous_pipe/unsupported.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/anonymous_pipe/windows.rs
+* /usr/lib/rustlib/src/rust/library/std/src/sys/args/common.rs
+* /usr/lib/rustlib/src/rust/library/std/src/sys/args/mod.rs
+* /usr/lib/rustlib/src/rust/library/std/src/sys/args/sgx.rs
+* /usr/lib/rustlib/src/rust/library/std/src/sys/args/uefi.rs
+* /usr/lib/rustlib/src/rust/library/std/src/sys/args/unix.rs
+* /usr/lib/rustlib/src/rust/library/std/src/sys/args/unsupported.rs
+* /usr/lib/rustlib/src/rust/library/std/src/sys/args/wasi.rs
+* /usr/lib/rustlib/src/rust/library/std/src/sys/args/windows.rs
+* /usr/lib/rustlib/src/rust/library/std/src/sys/args/windows/tests.rs
+* /usr/lib/rustlib/src/rust/library/std/src/sys/args/xous.rs
+* /usr/lib/rustlib/src/rust/library/std/src/sys/args/zkvm.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/backtrace.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/cmath.rs
+* /usr/lib/rustlib/src/rust/library/std/src/sys/env/common.rs
+* /usr/lib/rustlib/src/rust/library/std/src/sys/env/hermit.rs
+* /usr/lib/rustlib/src/rust/library/std/src/sys/env/mod.rs
+* /usr/lib/rustlib/src/rust/library/std/src/sys/env/sgx.rs
+* /usr/lib/rustlib/src/rust/library/std/src/sys/env/solid.rs
+* /usr/lib/rustlib/src/rust/library/std/src/sys/env/uefi.rs
+* /usr/lib/rustlib/src/rust/library/std/src/sys/env/unix.rs
+* /usr/lib/rustlib/src/rust/library/std/src/sys/env/unsupported.rs
+* /usr/lib/rustlib/src/rust/library/std/src/sys/env/wasi.rs
+* /usr/lib/rustlib/src/rust/library/std/src/sys/env/windows.rs
+* /usr/lib/rustlib/src/rust/library/std/src/sys/env/xous.rs
+* /usr/lib/rustlib/src/rust/library/std/src/sys/env/zkvm.rs
+* /usr/lib/rustlib/src/rust/library/std/src/sys/env_consts.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/exit_guard.rs
+* /usr/lib/rustlib/src/rust/library/std/src/sys/fd/hermit.rs
+* /usr/lib/rustlib/src/rust/library/std/src/sys/fd/mod.rs
+* /usr/lib/rustlib/src/rust/library/std/src/sys/fd/sgx.rs
+* /usr/lib/rustlib/src/rust/library/std/src/sys/fd/unix.rs
+* /usr/lib/rustlib/src/rust/library/std/src/sys/fd/unix/tests.rs
+* /usr/lib/rustlib/src/rust/library/std/src/sys/fd/wasi.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/fs/common.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/fs/hermit.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/fs/mod.rs
@@ -1157,9 +1193,6 @@ Programming language focused on safety, speed and concurrency
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/common/mod.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/common/small_c_string.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/common/tests.rs
-* /usr/lib/rustlib/src/rust/library/std/src/sys/pal/hermit/args.rs
-* /usr/lib/rustlib/src/rust/library/std/src/sys/pal/hermit/env.rs
-* /usr/lib/rustlib/src/rust/library/std/src/sys/pal/hermit/fd.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/hermit/futex.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/hermit/mod.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/hermit/os.rs
@@ -1187,9 +1220,6 @@ Programming language focused on safety, speed and concurrency
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/sgx/abi/usercalls/mod.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/sgx/abi/usercalls/raw.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/sgx/abi/usercalls/tests.rs
-* /usr/lib/rustlib/src/rust/library/std/src/sys/pal/sgx/args.rs
-* /usr/lib/rustlib/src/rust/library/std/src/sys/pal/sgx/env.rs
-* /usr/lib/rustlib/src/rust/library/std/src/sys/pal/sgx/fd.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/sgx/libunwind_integration.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/sgx/mod.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/sgx/os.rs
@@ -1205,7 +1235,6 @@ Programming language focused on safety, speed and concurrency
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/solid/abi/fs.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/solid/abi/mod.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/solid/abi/sockets.rs
-* /usr/lib/rustlib/src/rust/library/std/src/sys/pal/solid/env.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/solid/error.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/solid/mod.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/solid/os.rs
@@ -1214,18 +1243,12 @@ Programming language focused on safety, speed and concurrency
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/teeos/os.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/teeos/thread.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/trusty/mod.rs
-* /usr/lib/rustlib/src/rust/library/std/src/sys/pal/uefi/args.rs
-* /usr/lib/rustlib/src/rust/library/std/src/sys/pal/uefi/env.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/uefi/helpers.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/uefi/mod.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/uefi/os.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/uefi/tests.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/uefi/thread.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/uefi/time.rs
-* /usr/lib/rustlib/src/rust/library/std/src/sys/pal/unix/args.rs
-* /usr/lib/rustlib/src/rust/library/std/src/sys/pal/unix/env.rs
-* /usr/lib/rustlib/src/rust/library/std/src/sys/pal/unix/fd.rs
-* /usr/lib/rustlib/src/rust/library/std/src/sys/pal/unix/fd/tests.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/unix/fuchsia.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/unix/futex.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/unix/kernel_copy.rs
@@ -1245,17 +1268,12 @@ Programming language focused on safety, speed and concurrency
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/unix/thread_parking.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/unix/time.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/unix/weak.rs
-* /usr/lib/rustlib/src/rust/library/std/src/sys/pal/unsupported/args.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/unsupported/common.rs
-* /usr/lib/rustlib/src/rust/library/std/src/sys/pal/unsupported/env.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/unsupported/mod.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/unsupported/os.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/unsupported/pipe.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/unsupported/thread.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/unsupported/time.rs
-* /usr/lib/rustlib/src/rust/library/std/src/sys/pal/wasi/args.rs
-* /usr/lib/rustlib/src/rust/library/std/src/sys/pal/wasi/env.rs
-* /usr/lib/rustlib/src/rust/library/std/src/sys/pal/wasi/fd.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/wasi/helpers.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/wasi/mod.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/wasi/os.rs
@@ -1265,18 +1283,14 @@ Programming language focused on safety, speed and concurrency
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/wasip2/mod.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/wasm/atomics/futex.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/wasm/atomics/thread.rs
-* /usr/lib/rustlib/src/rust/library/std/src/sys/pal/wasm/env.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/wasm/mod.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/windows/api.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/windows/api/tests.rs
-* /usr/lib/rustlib/src/rust/library/std/src/sys/pal/windows/args.rs
-* /usr/lib/rustlib/src/rust/library/std/src/sys/pal/windows/args/tests.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/windows/c.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/windows/c/bindings.txt
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/windows/c/README.md
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/windows/c/windows_sys.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/windows/compat.rs
-* /usr/lib/rustlib/src/rust/library/std/src/sys/pal/windows/env.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/windows/futex.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/windows/handle.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/windows/handle/tests.rs
@@ -1288,7 +1302,6 @@ Programming language focused on safety, speed and concurrency
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/windows/stack_overflow_uwp.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/windows/thread.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/windows/time.rs
-* /usr/lib/rustlib/src/rust/library/std/src/sys/pal/xous/args.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/xous/mod.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/xous/os.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/xous/os/params.rs
@@ -1296,8 +1309,6 @@ Programming language focused on safety, speed and concurrency
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/xous/thread.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/xous/time.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/zkvm/abi.rs
-* /usr/lib/rustlib/src/rust/library/std/src/sys/pal/zkvm/args.rs
-* /usr/lib/rustlib/src/rust/library/std/src/sys/pal/zkvm/env.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/zkvm/mod.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/pal/zkvm/os.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/path/mod.rs
@@ -1313,6 +1324,7 @@ Programming language focused on safety, speed and concurrency
 * /usr/lib/rustlib/src/rust/library/std/src/sys/personality/emcc.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/personality/gcc.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/personality/mod.rs
+* /usr/lib/rustlib/src/rust/library/std/src/sys/process/env.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/process/mod.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/process/uefi.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/process/unix/common.rs
@@ -1415,10 +1427,9 @@ Programming language focused on safety, speed and concurrency
 * /usr/lib/rustlib/src/rust/library/std/src/sys/thread_local/native/eager.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/thread_local/native/lazy.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/thread_local/native/mod.rs
+* /usr/lib/rustlib/src/rust/library/std/src/sys/thread_local/no_threads.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys/thread_local/os.rs
-* /usr/lib/rustlib/src/rust/library/std/src/sys/thread_local/statik.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys_common/mod.rs
-* /usr/lib/rustlib/src/rust/library/std/src/sys_common/process.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys_common/tests.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys_common/wstr.rs
 * /usr/lib/rustlib/src/rust/library/std/src/sys_common/wtf8.rs
@@ -1498,8 +1509,7 @@ Programming language focused on safety, speed and concurrency
 * /usr/lib/rustlib/src/rust/library/stdarch/ci/docker/riscv64gc-unknown-linux-gnu/Dockerfile
 * /usr/lib/rustlib/src/rust/library/stdarch/ci/docker/s390x-unknown-linux-gnu/Dockerfile
 * /usr/lib/rustlib/src/rust/library/stdarch/ci/docker/wasm32-wasip1/Dockerfile
-* /usr/lib/rustlib/src/rust/library/stdarch/ci/docker/x86_64-unknown-linux-gnu-emulated/cpuid.def
-* /usr/lib/rustlib/src/rust/library/stdarch/ci/docker/x86_64-unknown-linux-gnu-emulated/Dockerfile
+* /usr/lib/rustlib/src/rust/library/stdarch/ci/docker/x86_64-unknown-linux-gnu/cpuid.def
 * /usr/lib/rustlib/src/rust/library/stdarch/ci/docker/x86_64-unknown-linux-gnu/Dockerfile
 * /usr/lib/rustlib/src/rust/library/stdarch/ci/dox.sh
 * /usr/lib/rustlib/src/rust/library/stdarch/ci/run-docker.sh
@@ -1711,7 +1721,6 @@ Programming language focused on safety, speed and concurrency
 * /usr/lib/rustlib/src/rust/library/stdarch/crates/std_detect/src/detect/os/linux/aarch64.rs
 * /usr/lib/rustlib/src/rust/library/stdarch/crates/std_detect/src/detect/os/linux/arm.rs
 * /usr/lib/rustlib/src/rust/library/stdarch/crates/std_detect/src/detect/os/linux/auxvec.rs
-* /usr/lib/rustlib/src/rust/library/stdarch/crates/std_detect/src/detect/os/linux/cpuinfo.rs
 * /usr/lib/rustlib/src/rust/library/stdarch/crates/std_detect/src/detect/os/linux/loongarch.rs
 * /usr/lib/rustlib/src/rust/library/stdarch/crates/std_detect/src/detect/os/linux/mips.rs
 * /usr/lib/rustlib/src/rust/library/stdarch/crates/std_detect/src/detect/os/linux/mod.rs
@@ -1720,6 +1729,7 @@ Programming language focused on safety, speed and concurrency
 * /usr/lib/rustlib/src/rust/library/stdarch/crates/std_detect/src/detect/os/linux/s390x.rs
 * /usr/lib/rustlib/src/rust/library/stdarch/crates/std_detect/src/detect/os/openbsd/aarch64.rs
 * /usr/lib/rustlib/src/rust/library/stdarch/crates/std_detect/src/detect/os/other.rs
+* /usr/lib/rustlib/src/rust/library/stdarch/crates/std_detect/src/detect/os/riscv.rs
 * /usr/lib/rustlib/src/rust/library/stdarch/crates/std_detect/src/detect/os/windows/aarch64.rs
 * /usr/lib/rustlib/src/rust/library/stdarch/crates/std_detect/src/detect/os/x86.rs
 * /usr/lib/rustlib/src/rust/library/stdarch/crates/std_detect/src/detect/test_data/linux-artificial-aarch64.auxv
@@ -1858,40 +1868,36 @@ Programming language focused on safety, speed and concurrency
 * /usr/lib/rustlib/src/rust/src/llvm-project/libunwind/test/unw_getcontext.pass.cpp
 * /usr/lib/rustlib/src/rust/src/llvm-project/libunwind/test/unw_resume.pass.cpp
 * /usr/lib/rustlib/uninstall.sh
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld/ld.lld
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld/ld64.lld
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld/lld-link
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld/wasm-ld
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/bin/rust-lld
 * /usr/lib/rustlib/x86_64-unknown-linux-gnu/bin/rust-objcopy
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-c8bb1a4ee3f209e2.rlib
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-f65e695c2ecd98bb.rlib
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-c67eafff919d833a.rlib
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-a676fd175cef276a.rlib
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-a8b3e17ece03a012.rlib
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-5965466119db4f3d.rlib
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgetopts-6f7fabf6f8b0369c.rlib
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-a6c386ae1f121dd9.rlib
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-9a5a407871bd3578.rlib
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-f38708af9542e43f.rlib
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-56080ce009807ced.rlib
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-f32b30dc4a2a731f.rlib
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-affb413eee59551c.rlib
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_abort-6fff1fdf7e0492d7.rlib
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-de22ce79f22e413e.rlib
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libproc_macro-2bfe7edbc74059fa.rlib
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libprofiler_builtins-25fb7b608caf4a41.rlib
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-3be09383946395a3.rlib
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-4268db87fba3f77f.rlib
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-f9664e67645c868a.rlib
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_std-76c10a0401b0be83.rlib
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-6459f650d5dabc28.rlib
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-6459f650d5dabc28.so
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-d67a620506bd59cc.rlib
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libsysroot-2d10d2fbb7dc0367.rlib
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libtest-065dc81e0401b4e0.rlib
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunicode_width-8ba498d20c35c486.rlib
-* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-e9540d23a2e13275.rlib
+* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-1e9875efe0a38c1d.rlib
+* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f2c5ba4b8317d0f.rlib
+* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-ced28f7c691082a2.rlib
+* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-d93f408a649da3be.rlib
+* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-a1659261213e9984.rlib
+* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-ea67bfcea9a0e93d.rlib
+* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgetopts-15a20f7f119b586e.rlib
+* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-d3b0cf3e9e7fb6da.rlib
+* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-82420b8dba03ce00.rlib
+* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-bd70b8a2afc1a327.rlib
+* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-e64dcf0ba7807cd2.rlib
+* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-a011eb22730c1164.rlib
+* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-9b41f43f27def682.rlib
+* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_abort-c4c74e3b4e50d0ec.rlib
+* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-0a018fd087ee2213.rlib
+* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libproc_macro-df0998fe12f74385.rlib
+* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libprofiler_builtins-a9cf8245b86d9555.rlib
+* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-c32a1ce227ce788e.rlib
+* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_literal_escaper-4b8273034db8ffe4.rlib
+* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-2a77af3a5eee6587.rlib
+* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-2f2b28f9574bbffc.rlib
+* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_std-397f33b373683a2d.rlib
+* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-76769f210f870b4c.rlib
+* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-76769f210f870b4c.so
+* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-a9fc5ae0509901a7.rlib
+* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libsysroot-a980a8e1a803867e.rlib
+* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libtest-3a49a1cec175d10f.rlib
+* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunicode_width-831e546aff5a63af.rlib
+* /usr/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-350735b12792af11.rlib
 * /usr/share/doc/cargo/LICENSE-APACHE
 * /usr/share/doc/cargo/LICENSE-MIT
 * /usr/share/doc/cargo/LICENSE-THIRD-PARTY
@@ -1899,9 +1905,9 @@ Programming language focused on safety, speed and concurrency
 * /usr/share/doc/clippy/LICENSE-APACHE
 * /usr/share/doc/clippy/LICENSE-MIT
 * /usr/share/doc/clippy/README.md
-* /usr/share/doc/rust-1.87.0/COPYRIGHT
-* /usr/share/doc/rust-1.87.0/README.md
-* /usr/share/doc/rust-1.87.0/RELEASES.md
+* /usr/share/doc/rust-1.88.0/COPYRIGHT
+* /usr/share/doc/rust-1.88.0/README.md
+* /usr/share/doc/rust-1.88.0/RELEASES.md
 * /usr/share/doc/rustc/COPYRIGHT-library.html
 * /usr/share/doc/rustc/COPYRIGHT.html
 * /usr/share/doc/rustc/licenses/Apache-2.0.txt
