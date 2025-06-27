@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "nettle 3.10.1-2"
-version = "3.10.1-2"
+title = "nettle 3.10.2-1"
+version = "3.10.2-1"
 description = "A low-level cryptographic library"
-date = "2025-05-21T12:53:15"
+date = "2025-06-27T08:23:10"
 aliases = "/packages/136587"
 categories = ['base']
 upstreamurl = "http://www.lysator.liu.se/~nisse/nettle/"
 arch = "x86_64"
-size = "596800"
-usize = "1744687"
-sha1sum = "554d71ee95bdad8b9348300e6c4159f70c522c3c"
+size = "597956"
+usize = "1747297"
+sha1sum = "6988f512824b1ef7cfb6d0612237221eeea1d737"
 depends = "['gmp>=6.1.2-12']"
 reverse_depends = "['aria2', 'chrony', 'claws-mail', 'gnutls', 'gst1-plugins-bad', 'libarchive', 'opendht', 'pacman-g2', 'qemu', 'rdfind', 'sequoia-sop', 'sequoia-sopv', 'sequoia-sq', 'sequoia-sqv', 'squid', 'supertuxkart', 'telepathy-salut', 'xorg-server-xwayland']"
 +++
@@ -98,19 +98,19 @@ A low-level cryptographic library
 * /usr/include/nettle/yarrow.h
 * /usr/lib/libhogweed.so
 * /usr/lib/libhogweed.so.6
-* /usr/lib/libhogweed.so.6.10
+* /usr/lib/libhogweed.so.6.11
 * /usr/lib/libnettle.so
 * /usr/lib/libnettle.so.8
-* /usr/lib/libnettle.so.8.10
+* /usr/lib/libnettle.so.8.11
 * /usr/lib/pkgconfig/hogweed.pc
 * /usr/lib/pkgconfig/nettle.pc
-* /usr/share/doc/nettle-3.10.1/AUTHORS
-* /usr/share/doc/nettle-3.10.1/ChangeLog
-* /usr/share/doc/nettle-3.10.1/COPYING.LESSERv3
-* /usr/share/doc/nettle-3.10.1/COPYINGv2
-* /usr/share/doc/nettle-3.10.1/COPYINGv3
-* /usr/share/doc/nettle-3.10.1/descore.README
-* /usr/share/doc/nettle-3.10.1/INSTALL
-* /usr/share/doc/nettle-3.10.1/NEWS
-* /usr/share/doc/nettle-3.10.1/README
+* /usr/share/doc/nettle-3.10.2/AUTHORS
+* /usr/share/doc/nettle-3.10.2/ChangeLog
+* /usr/share/doc/nettle-3.10.2/COPYING.LESSERv3
+* /usr/share/doc/nettle-3.10.2/COPYINGv2
+* /usr/share/doc/nettle-3.10.2/COPYINGv3
+* /usr/share/doc/nettle-3.10.2/descore.README
+* /usr/share/doc/nettle-3.10.2/INSTALL
+* /usr/share/doc/nettle-3.10.2/NEWS
+* /usr/share/doc/nettle-3.10.2/README
 * /usr/share/info/nettle.info.gz

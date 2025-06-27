@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-nettle 3.10.1-2"
-version = "3.10.1-2"
+title = "lib32-nettle 3.10.2-1"
+version = "3.10.2-1"
 description = "A low-level cryptographic library ( 32bit )"
-date = "2025-05-21T12:53:15"
+date = "2025-06-27T08:23:10"
 aliases = "/packages/217894"
 categories = ['lib32-extra']
 upstreamurl = "http://www.lysator.liu.se/~nisse/nettle/"
 arch = "x86_64"
-size = "497216"
-usize = "1641864"
-sha1sum = "2870758d0cfef5a2008f988f25764b855c10fb9e"
+size = "499840"
+usize = "1642060"
+sha1sum = "7c4b3620370b0852c7cc0eca04a986cf0a1db094"
 depends = "['lib32-gmp>=6.1.2-12']"
 reverse_depends = "['lib32-gnutls', 'lib32-libarchive', 'lib32-libcurl-gnutls']"
 +++
@@ -98,9 +98,9 @@ A low-level cryptographic library ( 32bit )
 * /usr/i686-frugalware-linux/include/nettle/yarrow.h
 * /usr/lib32/libhogweed.so
 * /usr/lib32/libhogweed.so.6
-* /usr/lib32/libhogweed.so.6.10
+* /usr/lib32/libhogweed.so.6.11
 * /usr/lib32/libnettle.so
 * /usr/lib32/libnettle.so.8
-* /usr/lib32/libnettle.so.8.10
+* /usr/lib32/libnettle.so.8.11
 * /usr/lib32/pkgconfig/hogweed.pc
 * /usr/lib32/pkgconfig/nettle.pc
