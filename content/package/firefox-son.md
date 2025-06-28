@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-son 140.0-1"
-version = "140.0-1"
+title = "firefox-son 140.0.2-1"
+version = "140.0.2-1"
 description = "Songhai languages language support for Firefox"
-date = "2025-06-24T07:46:40"
+date = "2025-06-28T10:32:25"
 aliases = "/packages/118585"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "217060"
-usize = "272640"
-sha1sum = "e654554229b763592182077c12c449e183658560"
-depends = "['firefox>=140.0']"
+size = "217016"
+usize = "272634"
+sha1sum = "415438831b286912fe99a3f8a037e9302d7c4453"
+depends = "['firefox>=140.0.2']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 
