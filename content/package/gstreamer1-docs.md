@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gstreamer1-docs 1.26.2-1"
-version = "1.26.2-1"
+title = "gstreamer1-docs 1.26.3-1"
+version = "1.26.3-1"
 description = "GStreamer $pkgver Documentation."
-date = "2025-06-01T19:47:35"
+date = "2025-06-28T11:22:16"
 aliases = "/packages/168882"
 categories = ['docs-extra']
 upstreamurl = "https://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "8917972"
-usize = "113806590"
-sha1sum = "c64c8528b8a52b59dbd42c5a66c08d345a0de51e"
+size = "8918972"
+usize = "113845669"
+sha1sum = "6295a354a5fd3397ca865ae0b7f4f8fa5adbfbf2"
 depends = "[]"
 +++
 ### Description: 
@@ -3085,6 +3085,8 @@ GStreamer $pkgver Documentation.
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/vpx/vp9enc.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/vulkan-wayland/index.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/vulkan-wayland/vulkan/wayland/gstvkdisplay_wayland.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/vulkan-xcb/index.html
+* /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/vulkan-xcb/vulkan/xcb/gstvkdisplay_xcb.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/vulkan/index.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/vulkan/vulkancolorconvert.html
 * /usr/share/gtk-doc/html/gstreamer-1.0/GStreamer/vulkan/vulkandownload.html

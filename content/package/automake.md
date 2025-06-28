@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "automake 1.18-1"
-version = "1.18-1"
+title = "automake 1.18.1-1"
+version = "1.18.1-1"
 description = "A tool for automatically generating Makefiles"
-date = "2025-06-02T09:59:03"
+date = "2025-06-28T11:20:04"
 aliases = "/packages/2925"
 categories = ['devel']
 upstreamurl = "http://www.gnu.org/software/automake"
 arch = "x86_64"
-size = "911600"
-usize = "3053210"
-sha1sum = "0fb76e534a4c6a7b15fb20cb129927d9f46d1030"
+size = "911724"
+usize = "3056244"
+sha1sum = "26334cd15dd12531d1e85d4133038af4b26827f2"
 depends = "['bash', 'perl>=5.34']"
 +++
 ### Description: 
@@ -134,15 +134,15 @@ A tool for automatically generating Makefiles
 * /usr/share/automake-1.18/test-driver
 * /usr/share/automake-1.18/texinfo.tex
 * /usr/share/automake-1.18/ylwrap
-* /usr/share/doc/automake-1.18/amhello-1.0.tar.gz
-* /usr/share/doc/automake-1.18/AUTHORS
-* /usr/share/doc/automake-1.18/ChangeLog
-* /usr/share/doc/automake-1.18/COPYING
-* /usr/share/doc/automake-1.18/HACKING
-* /usr/share/doc/automake-1.18/INSTALL
-* /usr/share/doc/automake-1.18/NEWS
-* /usr/share/doc/automake-1.18/README
-* /usr/share/doc/automake-1.18/THANKS
+* /usr/share/doc/automake-1.18.1/amhello-1.0.tar.gz
+* /usr/share/doc/automake-1.18.1/AUTHORS
+* /usr/share/doc/automake-1.18.1/ChangeLog
+* /usr/share/doc/automake-1.18.1/COPYING
+* /usr/share/doc/automake-1.18.1/HACKING
+* /usr/share/doc/automake-1.18.1/INSTALL
+* /usr/share/doc/automake-1.18.1/NEWS
+* /usr/share/doc/automake-1.18.1/README
+* /usr/share/doc/automake-1.18.1/THANKS
 * /usr/share/info/automake-history.info.gz
 * /usr/share/info/automake.info-1.gz
 * /usr/share/info/automake.info-2.gz
