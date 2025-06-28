@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gst1-plugins-bad-vulkan 1.26.2-1"
-version = "1.26.2-1"
+title = "gst1-plugins-bad-vulkan 1.26.3-1"
+version = "1.26.3-1"
 description = "GStreamer Vulkan plugin (Bad)."
-date = "2025-06-01T20:11:25"
+date = "2025-06-28T12:38:01"
 aliases = "/packages/221258"
 categories = ['xmultimedia']
 upstreamurl = "http://gstreamer.freedesktop.org"
 arch = "x86_64"
-size = "206484"
-usize = "774333"
-sha1sum = "8cffc2d8945fdad62ed4adec0a27cde249adab1c"
-depends = "['gst1-plugins-bad>=1.26.2', 'gst1-plugins-base>=1.26.1', 'libxkbcommon', 'vulkan-icd-loader', 'wayland']"
+size = "207504"
+usize = "776317"
+sha1sum = "ce5f1a0addb62b75998e6b21e9144f4a6c46da71"
+depends = "['gst1-plugins-bad>=1.26.3', 'gst1-plugins-base>=1.26.3', 'libxkbcommon', 'vulkan-icd-loader', 'wayland']"
 +++
 ### Description: 
 GStreamer Vulkan plugin (Bad).
@@ -61,7 +61,7 @@ GStreamer Vulkan plugin (Bad).
 * /usr/lib/gstreamer-1.0/libgstvulkan.so
 * /usr/lib/libgstvulkan-1.0.so
 * /usr/lib/libgstvulkan-1.0.so.0
-* /usr/lib/libgstvulkan-1.0.so.0.2602.0
+* /usr/lib/libgstvulkan-1.0.so.0.2603.0
 * /usr/lib/pkgconfig/gstreamer-vulkan-1.0.pc
 * /usr/lib/pkgconfig/gstreamer-vulkan-wayland-1.0.pc
 * /usr/lib/pkgconfig/gstreamer-vulkan-xcb-1.0.pc
