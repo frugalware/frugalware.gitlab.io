@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "linux-firmware 20250613-1"
-version = "20250613-1"
+title = "linux-firmware 20250627-1"
+version = "20250627-1"
 description = "The linux kernel firmware."
-date = "2025-06-14T10:15:28"
+date = "2025-06-28T09:08:39"
 aliases = "/packages/119179"
 categories = ['base']
 upstreamurl = "http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git/"
 arch = "x86_64"
-size = "750543092"
-usize = "780146287"
-sha1sum = "681e4271ec86bcad6f0d8da5c014b78e0a2e205a"
+size = "751984664"
+usize = "781988500"
+sha1sum = "d457052939c956d165c75c691c8005d481cd66f9"
 depends = "[]"
 reverse_depends = "['kernel-initrd', 'kernel-lts-initrd']"
 +++
@@ -46,6 +46,7 @@ The linux kernel firmware.
 * /usr/lib/firmware/amd/amd_sev_fam19h_model1xh.sbin.zst
 * /usr/lib/firmware/amd/amd_sev_fam19h_modelaxh.sbin.zst
 * /usr/lib/firmware/amd/amd_sev_fam1ah_model0xh.sbin.zst
+* /usr/lib/firmware/amdgpu/aldebaran_ip_discovery.bin.zst
 * /usr/lib/firmware/amdgpu/aldebaran_mec.bin.zst
 * /usr/lib/firmware/amdgpu/aldebaran_mec2.bin.zst
 * /usr/lib/firmware/amdgpu/aldebaran_rlc.bin.zst
@@ -58,6 +59,7 @@ The linux kernel firmware.
 * /usr/lib/firmware/amdgpu/aldebaran_vcn.bin.zst
 * /usr/lib/firmware/amdgpu/arcturus_asd.bin.zst
 * /usr/lib/firmware/amdgpu/arcturus_gpu_info.bin.zst
+* /usr/lib/firmware/amdgpu/arcturus_ip_discovery.bin.zst
 * /usr/lib/firmware/amdgpu/arcturus_mec.bin.zst
 * /usr/lib/firmware/amdgpu/arcturus_mec2.bin.zst
 * /usr/lib/firmware/amdgpu/arcturus_rlc.bin.zst
@@ -154,6 +156,7 @@ The linux kernel firmware.
 * /usr/lib/firmware/amdgpu/gc_10_3_7_pfp.bin.zst
 * /usr/lib/firmware/amdgpu/gc_10_3_7_rlc.bin.zst
 * /usr/lib/firmware/amdgpu/gc_11_0_0_imu.bin.zst
+* /usr/lib/firmware/amdgpu/gc_11_0_0_imu_kicker.bin.zst
 * /usr/lib/firmware/amdgpu/gc_11_0_0_me.bin.zst
 * /usr/lib/firmware/amdgpu/gc_11_0_0_mec.bin.zst
 * /usr/lib/firmware/amdgpu/gc_11_0_0_mes.bin.zst
@@ -162,6 +165,7 @@ The linux kernel firmware.
 * /usr/lib/firmware/amdgpu/gc_11_0_0_pfp.bin.zst
 * /usr/lib/firmware/amdgpu/gc_11_0_0_rlc.bin.zst
 * /usr/lib/firmware/amdgpu/gc_11_0_0_rlc_1.bin.zst
+* /usr/lib/firmware/amdgpu/gc_11_0_0_rlc_kicker.bin.zst
 * /usr/lib/firmware/amdgpu/gc_11_0_1_imu.bin.zst
 * /usr/lib/firmware/amdgpu/gc_11_0_1_me.bin.zst
 * /usr/lib/firmware/amdgpu/gc_11_0_1_mec.bin.zst
@@ -238,6 +242,9 @@ The linux kernel firmware.
 * /usr/lib/firmware/amdgpu/gc_9_4_4_mec.bin.zst
 * /usr/lib/firmware/amdgpu/gc_9_4_4_rlc.bin.zst
 * /usr/lib/firmware/amdgpu/gc_9_4_4_sjt_mec.bin.zst
+* /usr/lib/firmware/amdgpu/gc_9_5_0_mec.bin.zst
+* /usr/lib/firmware/amdgpu/gc_9_5_0_rlc.bin.zst
+* /usr/lib/firmware/amdgpu/gc_9_5_0_sjt_mec.bin.zst
 * /usr/lib/firmware/amdgpu/green_sardine_asd.bin.zst
 * /usr/lib/firmware/amdgpu/green_sardine_ce.bin.zst
 * /usr/lib/firmware/amdgpu/green_sardine_dmcub.bin.zst
@@ -368,6 +375,7 @@ The linux kernel firmware.
 * /usr/lib/firmware/amdgpu/picasso_asd.bin.zst
 * /usr/lib/firmware/amdgpu/picasso_ce.bin.zst
 * /usr/lib/firmware/amdgpu/picasso_gpu_info.bin.zst
+* /usr/lib/firmware/amdgpu/picasso_ip_discovery.bin.zst
 * /usr/lib/firmware/amdgpu/picasso_me.bin.zst
 * /usr/lib/firmware/amdgpu/picasso_mec.bin.zst
 * /usr/lib/firmware/amdgpu/picasso_mec2.bin.zst
@@ -448,11 +456,15 @@ The linux kernel firmware.
 * /usr/lib/firmware/amdgpu/polaris12_uvd.bin.zst
 * /usr/lib/firmware/amdgpu/polaris12_vce.bin.zst
 * /usr/lib/firmware/amdgpu/psp_13_0_0_sos.bin.zst
+* /usr/lib/firmware/amdgpu/psp_13_0_0_sos_kicker.bin.zst
 * /usr/lib/firmware/amdgpu/psp_13_0_0_ta.bin.zst
+* /usr/lib/firmware/amdgpu/psp_13_0_0_ta_kicker.bin.zst
 * /usr/lib/firmware/amdgpu/psp_13_0_10_sos.bin.zst
 * /usr/lib/firmware/amdgpu/psp_13_0_10_ta.bin.zst
 * /usr/lib/firmware/amdgpu/psp_13_0_11_ta.bin.zst
 * /usr/lib/firmware/amdgpu/psp_13_0_11_toc.bin.zst
+* /usr/lib/firmware/amdgpu/psp_13_0_12_sos.bin.zst
+* /usr/lib/firmware/amdgpu/psp_13_0_12_ta.bin.zst
 * /usr/lib/firmware/amdgpu/psp_13_0_14_sos.bin.zst
 * /usr/lib/firmware/amdgpu/psp_13_0_14_ta.bin.zst
 * /usr/lib/firmware/amdgpu/psp_13_0_4_ta.bin.zst
@@ -480,6 +492,7 @@ The linux kernel firmware.
 * /usr/lib/firmware/amdgpu/raven2_asd.bin.zst
 * /usr/lib/firmware/amdgpu/raven2_ce.bin.zst
 * /usr/lib/firmware/amdgpu/raven2_gpu_info.bin.zst
+* /usr/lib/firmware/amdgpu/raven2_ip_discovery.bin.zst
 * /usr/lib/firmware/amdgpu/raven2_me.bin.zst
 * /usr/lib/firmware/amdgpu/raven2_mec.bin.zst
 * /usr/lib/firmware/amdgpu/raven2_mec2.bin.zst
@@ -492,6 +505,7 @@ The linux kernel firmware.
 * /usr/lib/firmware/amdgpu/raven_ce.bin.zst
 * /usr/lib/firmware/amdgpu/raven_dmcu.bin.zst
 * /usr/lib/firmware/amdgpu/raven_gpu_info.bin.zst
+* /usr/lib/firmware/amdgpu/raven_ip_discovery.bin.zst
 * /usr/lib/firmware/amdgpu/raven_kicker_rlc.bin.zst
 * /usr/lib/firmware/amdgpu/raven_me.bin.zst
 * /usr/lib/firmware/amdgpu/raven_mec.bin.zst
@@ -514,6 +528,7 @@ The linux kernel firmware.
 * /usr/lib/firmware/amdgpu/renoir_ta.bin.zst
 * /usr/lib/firmware/amdgpu/renoir_vcn.bin.zst
 * /usr/lib/firmware/amdgpu/sdma_4_4_2.bin.zst
+* /usr/lib/firmware/amdgpu/sdma_4_4_4.bin.zst
 * /usr/lib/firmware/amdgpu/sdma_4_4_5.bin.zst
 * /usr/lib/firmware/amdgpu/sdma_5_2_6.bin.zst
 * /usr/lib/firmware/amdgpu/sdma_5_2_7.bin.zst
@@ -540,6 +555,7 @@ The linux kernel firmware.
 * /usr/lib/firmware/amdgpu/sienna_cichlid_ta.bin.zst
 * /usr/lib/firmware/amdgpu/sienna_cichlid_vcn.bin.zst
 * /usr/lib/firmware/amdgpu/smu_13_0_0.bin.zst
+* /usr/lib/firmware/amdgpu/smu_13_0_0_kicker.bin.zst
 * /usr/lib/firmware/amdgpu/smu_13_0_10.bin.zst
 * /usr/lib/firmware/amdgpu/smu_13_0_14.bin.zst
 * /usr/lib/firmware/amdgpu/smu_13_0_6.bin.zst
@@ -607,10 +623,12 @@ The linux kernel firmware.
 * /usr/lib/firmware/amdgpu/vcn_4_0_6.bin.zst
 * /usr/lib/firmware/amdgpu/vcn_4_0_6_1.bin.zst
 * /usr/lib/firmware/amdgpu/vcn_5_0_0.bin.zst
+* /usr/lib/firmware/amdgpu/vcn_5_0_1.bin.zst
 * /usr/lib/firmware/amdgpu/vega10_acg_smc.bin.zst
 * /usr/lib/firmware/amdgpu/vega10_asd.bin.zst
 * /usr/lib/firmware/amdgpu/vega10_ce.bin.zst
 * /usr/lib/firmware/amdgpu/vega10_gpu_info.bin.zst
+* /usr/lib/firmware/amdgpu/vega10_ip_discovery.bin.zst
 * /usr/lib/firmware/amdgpu/vega10_me.bin.zst
 * /usr/lib/firmware/amdgpu/vega10_mec.bin.zst
 * /usr/lib/firmware/amdgpu/vega10_mec2.bin.zst
@@ -625,6 +643,7 @@ The linux kernel firmware.
 * /usr/lib/firmware/amdgpu/vega12_asd.bin.zst
 * /usr/lib/firmware/amdgpu/vega12_ce.bin.zst
 * /usr/lib/firmware/amdgpu/vega12_gpu_info.bin.zst
+* /usr/lib/firmware/amdgpu/vega12_ip_discovery.bin.zst
 * /usr/lib/firmware/amdgpu/vega12_me.bin.zst
 * /usr/lib/firmware/amdgpu/vega12_mec.bin.zst
 * /usr/lib/firmware/amdgpu/vega12_mec2.bin.zst
@@ -638,6 +657,7 @@ The linux kernel firmware.
 * /usr/lib/firmware/amdgpu/vega12_vce.bin.zst
 * /usr/lib/firmware/amdgpu/vega20_asd.bin.zst
 * /usr/lib/firmware/amdgpu/vega20_ce.bin.zst
+* /usr/lib/firmware/amdgpu/vega20_ip_discovery.bin.zst
 * /usr/lib/firmware/amdgpu/vega20_me.bin.zst
 * /usr/lib/firmware/amdgpu/vega20_mec.bin.zst
 * /usr/lib/firmware/amdgpu/vega20_mec2.bin.zst
@@ -1014,8 +1034,8 @@ The linux kernel firmware.
 * /usr/lib/firmware/brcm/brcmfmac43455-sdio.AW-CM256SM.txt.zst
 * /usr/lib/firmware/brcm/brcmfmac43455-sdio.beagle,am5729-beagleboneai.txt.zst
 * /usr/lib/firmware/brcm/brcmfmac43455-sdio.bin.zst
-* /usr/lib/firmware/brcm/brcmfmac43455-sdio.brcmfmac43455-sdio.khadas,vim.txt.zst
 * /usr/lib/firmware/brcm/brcmfmac43455-sdio.clm_blob.zst
+* /usr/lib/firmware/brcm/brcmfmac43455-sdio.khadas,vim.txt.zst
 * /usr/lib/firmware/brcm/brcmfmac43455-sdio.MINIX-NEO Z83-4.txt.zst
 * /usr/lib/firmware/brcm/brcmfmac43455-sdio.pine64,pinebook-pro.txt.zst
 * /usr/lib/firmware/brcm/brcmfmac43455-sdio.pine64,pinenote-v1.1.txt.zst
@@ -4003,6 +4023,8 @@ The linux kernel firmware.
 * /usr/lib/firmware/qcom/apq8096/modemr.jsn
 * /usr/lib/firmware/qcom/gen70500_gmu.bin.zst
 * /usr/lib/firmware/qcom/gen70500_sqe.fw.zst
+* /usr/lib/firmware/qcom/gen71500_gmu.bin.zst
+* /usr/lib/firmware/qcom/gen71500_sqe.fw.zst
 * /usr/lib/firmware/qcom/leia_pfp_470.fw.zst
 * /usr/lib/firmware/qcom/leia_pm4_470.fw.zst
 * /usr/lib/firmware/qcom/qcm2290/a702_zap.mbn.zst
@@ -4114,6 +4136,7 @@ The linux kernel firmware.
 * /usr/lib/firmware/qcom/venus-5.2/venus.mdt.zst
 * /usr/lib/firmware/qcom/venus-5.4/venus.mbn.zst
 * /usr/lib/firmware/qcom/venus-5.4/venus.mdt.zst
+* /usr/lib/firmware/qcom/venus-5.4/venus_s2.mbn.zst
 * /usr/lib/firmware/qcom/venus-6.0/venus.mbn.zst
 * /usr/lib/firmware/qcom/vpu-1.0/venus.mbn.zst
 * /usr/lib/firmware/qcom/vpu-1.0/venus.mdt.zst
@@ -4157,6 +4180,7 @@ The linux kernel firmware.
 * /usr/lib/firmware/qcom/x1e80100/LENOVO/83ED/X1E80100-LENOVO-Yoga-Slim7x-tplg.bin.zst
 * /usr/lib/firmware/qcom/x1e80100/X1E80100-LENOVO-Thinkpad-T14s-tplg.bin.zst
 * /usr/lib/firmware/qcom/x1e80100/X1E80100-LENOVO-Yoga-Slim7x-tplg.bin.zst
+* /usr/lib/firmware/qcom/x1p42100/gen71500_zap.mbn.zst
 * /usr/lib/firmware/qcom/yamato_pfp.fw.zst
 * /usr/lib/firmware/qcom/yamato_pm4.fw.zst
 * /usr/lib/firmware/qed/qed_init_values-8.10.9.0.bin.zst
@@ -4890,96 +4914,107 @@ The linux kernel firmware.
 * /usr/lib/firmware/yamaha/ds1_ctrl.fw.zst
 * /usr/lib/firmware/yamaha/ds1_dsp.fw.zst
 * /usr/lib/firmware/yamaha/yss225_registers.bin.zst
-* /usr/share/doc/linux-firmware-20250613/GPL-3
-* /usr/share/doc/linux-firmware-20250613/LICENCE.Abilis
-* /usr/share/doc/linux-firmware-20250613/LICENCE.adsp_sst
-* /usr/share/doc/linux-firmware-20250613/LICENCE.agere
-* /usr/share/doc/linux-firmware-20250613/LICENCE.atheros_firmware
-* /usr/share/doc/linux-firmware-20250613/LICENCE.broadcom_bcm43xx
-* /usr/share/doc/linux-firmware-20250613/LICENCE.ca0132
-* /usr/share/doc/linux-firmware-20250613/LICENCE.cadence
-* /usr/share/doc/linux-firmware-20250613/LICENCE.cavium
-* /usr/share/doc/linux-firmware-20250613/LICENCE.cavium_liquidio
-* /usr/share/doc/linux-firmware-20250613/LICENCE.chelsio_firmware
-* /usr/share/doc/linux-firmware-20250613/LICENCE.cnm
-* /usr/share/doc/linux-firmware-20250613/LICENCE.cw1200
-* /usr/share/doc/linux-firmware-20250613/LICENCE.cypress
-* /usr/share/doc/linux-firmware-20250613/LICENCE.e100
-* /usr/share/doc/linux-firmware-20250613/LICENCE.ene_firmware
-* /usr/share/doc/linux-firmware-20250613/LICENCE.fw_sst_0f28
-* /usr/share/doc/linux-firmware-20250613/LICENCE.go7007
-* /usr/share/doc/linux-firmware-20250613/LICENCE.ibt_firmware
-* /usr/share/doc/linux-firmware-20250613/LICENCE.IntcSST2
-* /usr/share/doc/linux-firmware-20250613/LICENCE.it913x
-* /usr/share/doc/linux-firmware-20250613/LICENCE.iwlwifi_firmware
-* /usr/share/doc/linux-firmware-20250613/LICENCE.kaweth
-* /usr/share/doc/linux-firmware-20250613/LICENCE.linaro
-* /usr/share/doc/linux-firmware-20250613/LICENCE.mali_csffw
-* /usr/share/doc/linux-firmware-20250613/LICENCE.Marvell
-* /usr/share/doc/linux-firmware-20250613/LICENCE.mediatek
-* /usr/share/doc/linux-firmware-20250613/LICENCE.microchip
-* /usr/share/doc/linux-firmware-20250613/LICENCE.moxa
-* /usr/share/doc/linux-firmware-20250613/LICENCE.myri10ge_firmware
-* /usr/share/doc/linux-firmware-20250613/LICENCE.Netronome
-* /usr/share/doc/linux-firmware-20250613/LICENCE.nvidia
-* /usr/share/doc/linux-firmware-20250613/LICENCE.NXP
-* /usr/share/doc/linux-firmware-20250613/LICENCE.OLPC
-* /usr/share/doc/linux-firmware-20250613/LICENCE.open-ath9k-htc-firmware
-* /usr/share/doc/linux-firmware-20250613/LICENCE.phanfw
-* /usr/share/doc/linux-firmware-20250613/LICENCE.qat_firmware
-* /usr/share/doc/linux-firmware-20250613/LICENCE.qla1280
-* /usr/share/doc/linux-firmware-20250613/LICENCE.qla2xxx
-* /usr/share/doc/linux-firmware-20250613/LICENCE.r8a779x_usb3
-* /usr/share/doc/linux-firmware-20250613/LICENCE.ralink-firmware.txt
-* /usr/share/doc/linux-firmware-20250613/LICENCE.ralink_a_mediatek_company_firmware
-* /usr/share/doc/linux-firmware-20250613/LICENCE.rockchip
-* /usr/share/doc/linux-firmware-20250613/LICENCE.rtlwifi_firmware.txt
-* /usr/share/doc/linux-firmware-20250613/LICENCE.siano
-* /usr/share/doc/linux-firmware-20250613/LICENCE.ti-connectivity
-* /usr/share/doc/linux-firmware-20250613/LICENCE.ti-keystone
-* /usr/share/doc/linux-firmware-20250613/LICENCE.ti-tspa
-* /usr/share/doc/linux-firmware-20250613/LICENCE.ueagle-atm4-firmware
-* /usr/share/doc/linux-firmware-20250613/LICENCE.via_vt6656
-* /usr/share/doc/linux-firmware-20250613/LICENCE.wl1251
-* /usr/share/doc/linux-firmware-20250613/LICENCE.xc4000
-* /usr/share/doc/linux-firmware-20250613/LICENCE.xc5000
-* /usr/share/doc/linux-firmware-20250613/LICENCE.xc5000c
-* /usr/share/doc/linux-firmware-20250613/LICENSE
-* /usr/share/doc/linux-firmware-20250613/LICENSE.aeonsemi
-* /usr/share/doc/linux-firmware-20250613/LICENSE.airoha
-* /usr/share/doc/linux-firmware-20250613/LICENSE.amd-sev
-* /usr/share/doc/linux-firmware-20250613/LICENSE.amd-ucode
-* /usr/share/doc/linux-firmware-20250613/LICENSE.amdgpu
-* /usr/share/doc/linux-firmware-20250613/LICENSE.amdisp
-* /usr/share/doc/linux-firmware-20250613/LICENSE.amdnpu
-* /usr/share/doc/linux-firmware-20250613/LICENSE.amd_pmf
-* /usr/share/doc/linux-firmware-20250613/LICENSE.amlogic
-* /usr/share/doc/linux-firmware-20250613/LICENSE.amlogic_vdec
-* /usr/share/doc/linux-firmware-20250613/LICENSE.amphion_vpu
-* /usr/share/doc/linux-firmware-20250613/LICENSE.atmel
-* /usr/share/doc/linux-firmware-20250613/LICENSE.bmi260
-* /usr/share/doc/linux-firmware-20250613/LICENSE.cirrus
-* /usr/share/doc/linux-firmware-20250613/LICENSE.dib0700
-* /usr/share/doc/linux-firmware-20250613/LICENSE.hfi1_firmware
-* /usr/share/doc/linux-firmware-20250613/LICENSE.i915
-* /usr/share/doc/linux-firmware-20250613/LICENSE.ice
-* /usr/share/doc/linux-firmware-20250613/LICENSE.ice_enhanced
-* /usr/share/doc/linux-firmware-20250613/LICENSE.intel
-* /usr/share/doc/linux-firmware-20250613/LICENSE.intel_vpu
-* /usr/share/doc/linux-firmware-20250613/LICENSE.ipu3_firmware
-* /usr/share/doc/linux-firmware-20250613/LICENSE.ivsc
-* /usr/share/doc/linux-firmware-20250613/LICENSE.ixp4xx
-* /usr/share/doc/linux-firmware-20250613/LICENSE.Lontium
-* /usr/share/doc/linux-firmware-20250613/LICENSE.montage
-* /usr/share/doc/linux-firmware-20250613/LICENSE.nxp
-* /usr/share/doc/linux-firmware-20250613/LICENSE.nxp_mc_firmware
-* /usr/share/doc/linux-firmware-20250613/LICENSE.powervr
-* /usr/share/doc/linux-firmware-20250613/LICENSE.qcom
-* /usr/share/doc/linux-firmware-20250613/LICENSE.qcom-2
-* /usr/share/doc/linux-firmware-20250613/LICENSE.qcom_yamato
-* /usr/share/doc/linux-firmware-20250613/LICENSE.QualcommAtheros_ar3k
-* /usr/share/doc/linux-firmware-20250613/LICENSE.QualcommAtheros_ath10k
-* /usr/share/doc/linux-firmware-20250613/LICENSE.radeon
-* /usr/share/doc/linux-firmware-20250613/LICENSE.sdma_firmware
-* /usr/share/doc/linux-firmware-20250613/LICENSE.xe
-* /usr/share/doc/linux-firmware-20250613/WHENCE
+* /usr/share/doc/linux-firmware-20250627/GPL-3
+* /usr/share/doc/linux-firmware-20250627/LICENCE.Abilis
+* /usr/share/doc/linux-firmware-20250627/LICENCE.adsp_sst
+* /usr/share/doc/linux-firmware-20250627/LICENCE.advansys
+* /usr/share/doc/linux-firmware-20250627/LICENCE.agere
+* /usr/share/doc/linux-firmware-20250627/LICENCE.alacritech
+* /usr/share/doc/linux-firmware-20250627/LICENCE.atheros_firmware
+* /usr/share/doc/linux-firmware-20250627/LICENCE.bnx2
+* /usr/share/doc/linux-firmware-20250627/LICENCE.bnx2x
+* /usr/share/doc/linux-firmware-20250627/LICENCE.broadcom_bcm43xx
+* /usr/share/doc/linux-firmware-20250627/LICENCE.ca0132
+* /usr/share/doc/linux-firmware-20250627/LICENCE.cadence
+* /usr/share/doc/linux-firmware-20250627/LICENCE.cavium
+* /usr/share/doc/linux-firmware-20250627/LICENCE.cavium_liquidio
+* /usr/share/doc/linux-firmware-20250627/LICENCE.chelsio_firmware
+* /usr/share/doc/linux-firmware-20250627/LICENCE.cnm
+* /usr/share/doc/linux-firmware-20250627/LICENCE.cw1200
+* /usr/share/doc/linux-firmware-20250627/LICENCE.cw1200-sdd
+* /usr/share/doc/linux-firmware-20250627/LICENCE.cxgb3
+* /usr/share/doc/linux-firmware-20250627/LICENCE.cypress
+* /usr/share/doc/linux-firmware-20250627/LICENCE.dabusb
+* /usr/share/doc/linux-firmware-20250627/LICENCE.e100
+* /usr/share/doc/linux-firmware-20250627/LICENCE.emi26
+* /usr/share/doc/linux-firmware-20250627/LICENCE.ene_firmware
+* /usr/share/doc/linux-firmware-20250627/LICENCE.fw_sst_0f28
+* /usr/share/doc/linux-firmware-20250627/LICENCE.go7007
+* /usr/share/doc/linux-firmware-20250627/LICENCE.ibt_firmware
+* /usr/share/doc/linux-firmware-20250627/LICENCE.IntcSST2
+* /usr/share/doc/linux-firmware-20250627/LICENCE.it913x
+* /usr/share/doc/linux-firmware-20250627/LICENCE.iwlwifi_firmware
+* /usr/share/doc/linux-firmware-20250627/LICENCE.kaweth
+* /usr/share/doc/linux-firmware-20250627/LICENCE.keyspan
+* /usr/share/doc/linux-firmware-20250627/LICENCE.linaro
+* /usr/share/doc/linux-firmware-20250627/LICENCE.mali_csffw
+* /usr/share/doc/linux-firmware-20250627/LICENCE.Marvell
+* /usr/share/doc/linux-firmware-20250627/LICENCE.mediatek
+* /usr/share/doc/linux-firmware-20250627/LICENCE.microchip
+* /usr/share/doc/linux-firmware-20250627/LICENCE.moxa
+* /usr/share/doc/linux-firmware-20250627/LICENCE.myri10ge_firmware
+* /usr/share/doc/linux-firmware-20250627/LICENCE.Netronome
+* /usr/share/doc/linux-firmware-20250627/LICENCE.nvidia
+* /usr/share/doc/linux-firmware-20250627/LICENCE.NXP
+* /usr/share/doc/linux-firmware-20250627/LICENCE.OLPC
+* /usr/share/doc/linux-firmware-20250627/LICENCE.open-ath9k-htc-firmware
+* /usr/share/doc/linux-firmware-20250627/LICENCE.phanfw
+* /usr/share/doc/linux-firmware-20250627/LICENCE.qat_firmware
+* /usr/share/doc/linux-firmware-20250627/LICENCE.qla1280
+* /usr/share/doc/linux-firmware-20250627/LICENCE.qla2xxx
+* /usr/share/doc/linux-firmware-20250627/LICENCE.r8a779x_usb3
+* /usr/share/doc/linux-firmware-20250627/LICENCE.ralink-firmware.txt
+* /usr/share/doc/linux-firmware-20250627/LICENCE.ralink_a_mediatek_company_firmware
+* /usr/share/doc/linux-firmware-20250627/LICENCE.rockchip
+* /usr/share/doc/linux-firmware-20250627/LICENCE.rtlwifi_firmware.txt
+* /usr/share/doc/linux-firmware-20250627/LICENCE.siano
+* /usr/share/doc/linux-firmware-20250627/LICENCE.ti-connectivity
+* /usr/share/doc/linux-firmware-20250627/LICENCE.ti-keystone
+* /usr/share/doc/linux-firmware-20250627/LICENCE.ti-tspa
+* /usr/share/doc/linux-firmware-20250627/LICENCE.tigon
+* /usr/share/doc/linux-firmware-20250627/LICENCE.typhoon
+* /usr/share/doc/linux-firmware-20250627/LICENCE.ueagle-atm4-firmware
+* /usr/share/doc/linux-firmware-20250627/LICENCE.via_vt6656
+* /usr/share/doc/linux-firmware-20250627/LICENCE.wl1251
+* /usr/share/doc/linux-firmware-20250627/LICENCE.xc4000
+* /usr/share/doc/linux-firmware-20250627/LICENCE.xc5000
+* /usr/share/doc/linux-firmware-20250627/LICENCE.xc5000c
+* /usr/share/doc/linux-firmware-20250627/LICENSE
+* /usr/share/doc/linux-firmware-20250627/LICENSE.aeonsemi
+* /usr/share/doc/linux-firmware-20250627/LICENSE.airoha
+* /usr/share/doc/linux-firmware-20250627/LICENSE.amd-sev
+* /usr/share/doc/linux-firmware-20250627/LICENSE.amd-ucode
+* /usr/share/doc/linux-firmware-20250627/LICENSE.amdgpu
+* /usr/share/doc/linux-firmware-20250627/LICENSE.amdisp
+* /usr/share/doc/linux-firmware-20250627/LICENSE.amdnpu
+* /usr/share/doc/linux-firmware-20250627/LICENSE.amd_pmf
+* /usr/share/doc/linux-firmware-20250627/LICENSE.amlogic
+* /usr/share/doc/linux-firmware-20250627/LICENSE.amlogic_vdec
+* /usr/share/doc/linux-firmware-20250627/LICENSE.amphion_vpu
+* /usr/share/doc/linux-firmware-20250627/LICENSE.atmel
+* /usr/share/doc/linux-firmware-20250627/LICENSE.bmi260
+* /usr/share/doc/linux-firmware-20250627/LICENSE.cirrus
+* /usr/share/doc/linux-firmware-20250627/LICENSE.dib0700
+* /usr/share/doc/linux-firmware-20250627/LICENSE.hfi1_firmware
+* /usr/share/doc/linux-firmware-20250627/LICENSE.i915
+* /usr/share/doc/linux-firmware-20250627/LICENSE.ice
+* /usr/share/doc/linux-firmware-20250627/LICENSE.ice_enhanced
+* /usr/share/doc/linux-firmware-20250627/LICENSE.intel
+* /usr/share/doc/linux-firmware-20250627/LICENSE.intel_vpu
+* /usr/share/doc/linux-firmware-20250627/LICENSE.ipu3_firmware
+* /usr/share/doc/linux-firmware-20250627/LICENSE.ivsc
+* /usr/share/doc/linux-firmware-20250627/LICENSE.ixp4xx
+* /usr/share/doc/linux-firmware-20250627/LICENSE.Lontium
+* /usr/share/doc/linux-firmware-20250627/LICENSE.montage
+* /usr/share/doc/linux-firmware-20250627/LICENSE.nxp
+* /usr/share/doc/linux-firmware-20250627/LICENSE.nxp_mc_firmware
+* /usr/share/doc/linux-firmware-20250627/LICENSE.powervr
+* /usr/share/doc/linux-firmware-20250627/LICENSE.qcom
+* /usr/share/doc/linux-firmware-20250627/LICENSE.qcom-2
+* /usr/share/doc/linux-firmware-20250627/LICENSE.qcom_yamato
+* /usr/share/doc/linux-firmware-20250627/LICENSE.QualcommAtheros_ar3k
+* /usr/share/doc/linux-firmware-20250627/LICENSE.QualcommAtheros_ath10k
+* /usr/share/doc/linux-firmware-20250627/LICENSE.radeon
+* /usr/share/doc/linux-firmware-20250627/LICENSE.sdma_firmware
+* /usr/share/doc/linux-firmware-20250627/LICENSE.xe
+* /usr/share/doc/linux-firmware-20250627/WHENCE
