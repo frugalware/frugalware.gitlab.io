@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "duplicity 3.0.5-1"
-version = "3.0.5-1"
+title = "duplicity 3.0.5.1-1"
+version = "3.0.5.1-1"
 description = "Encrypted bandwidth-efficient backup using the rsync algorithm."
-date = "2025-06-20T09:09:28"
+date = "2025-06-30T09:28:57"
 aliases = "/packages/50298"
 categories = ['apps-extra']
 upstreamurl = "https://duplicity.us"
 arch = "x86_64"
-size = "806448"
-usize = "5426689"
-sha1sum = "45815dd2da19a5f2fba6b1db2108bd6d8dd376ff"
+size = "806252"
+usize = "5426361"
+sha1sum = "660e9404e8e2c1b21f0ee414d9ea3ca70e806e7e"
 depends = "['librsync>=0.9.7', 'ncftp', 'python3-boto>=2.5.2', 'python3-fasteners', 'python3-gnupginterface>=0.3.2', 'python3-lockfile', 'python3-setuptools_scm']"
 +++
 ### Description: 
@@ -18,12 +18,12 @@ Encrypted bandwidth-efficient backup using the rsync algorithm.
 
 ### Files: 
 * /usr/bin/duplicity
-* /usr/lib/python3.13/site-packages/duplicity-3.0.5-py3.13.egg-info/dependency_links.txt
-* /usr/lib/python3.13/site-packages/duplicity-3.0.5-py3.13.egg-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/duplicity-3.0.5-py3.13.egg-info/PKG-INFO
-* /usr/lib/python3.13/site-packages/duplicity-3.0.5-py3.13.egg-info/requires.txt
-* /usr/lib/python3.13/site-packages/duplicity-3.0.5-py3.13.egg-info/SOURCES.txt
-* /usr/lib/python3.13/site-packages/duplicity-3.0.5-py3.13.egg-info/top_level.txt
+* /usr/lib/python3.13/site-packages/duplicity-3.0.5.1-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/duplicity-3.0.5.1-py3.13.egg-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/duplicity-3.0.5.1-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/duplicity-3.0.5.1-py3.13.egg-info/requires.txt
+* /usr/lib/python3.13/site-packages/duplicity-3.0.5.1-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/duplicity-3.0.5.1-py3.13.egg-info/top_level.txt
 * /usr/lib/python3.13/site-packages/duplicity/argparse311.py
 * /usr/lib/python3.13/site-packages/duplicity/backend.py
 * /usr/lib/python3.13/site-packages/duplicity/backends/adbackend.py
@@ -257,14 +257,14 @@ Encrypted bandwidth-efficient backup using the rsync algorithm.
 * /usr/lib/python3.13/site-packages/duplicity/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/duplicity/__pycache__/__main__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/duplicity/__pycache__/__main__.cpython-313.pyc
-* /usr/share/doc/duplicity-3.0.5/AUTHORS.md
-* /usr/share/doc/duplicity-3.0.5/CHANGELOG.md
-* /usr/share/doc/duplicity-3.0.5/COPYING
-* /usr/share/doc/duplicity-3.0.5/README-LOG.md
-* /usr/share/doc/duplicity-3.0.5/README-REPO.md
-* /usr/share/doc/duplicity-3.0.5/README-SNAP.md
-* /usr/share/doc/duplicity-3.0.5/README-TESTING.md
-* /usr/share/doc/duplicity-3.0.5/README.md
+* /usr/share/doc/duplicity-3.0.5.1/AUTHORS.md
+* /usr/share/doc/duplicity-3.0.5.1/CHANGELOG.md
+* /usr/share/doc/duplicity-3.0.5.1/COPYING
+* /usr/share/doc/duplicity-3.0.5.1/README-LOG.md
+* /usr/share/doc/duplicity-3.0.5.1/README-REPO.md
+* /usr/share/doc/duplicity-3.0.5.1/README-SNAP.md
+* /usr/share/doc/duplicity-3.0.5.1/README-TESTING.md
+* /usr/share/doc/duplicity-3.0.5.1/README.md
 * /usr/share/locale/af_ZA/LC_MESSAGES/duplicity.mo
 * /usr/share/locale/ar_SA/LC_MESSAGES/duplicity.mo
 * /usr/share/locale/ca_ES/LC_MESSAGES/duplicity.mo

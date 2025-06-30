@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "signal-desktop 7.58.0-1"
-version = "7.58.0-1"
+title = "signal-desktop 7.59.0-1"
+version = "7.59.0-1"
 description = "Signal Private Messenger for Linux"
-date = "2025-06-20T14:43:47"
+date = "2025-06-30T09:50:59"
 aliases = "/packages/220437"
 categories = ['xapps-extra']
 upstreamurl = "https://signal.org"
 arch = "x86_64"
-size = "108578252"
-usize = "432520043"
-sha1sum = "04d7b804ad9b4ad095bdb7c4b2059051ed278674"
+size = "108883568"
+usize = "434650095"
+sha1sum = "6b0f5a3e625842b4bdcca1dc313c20c972d9ff1a"
 depends = "['gtk+3', 'hicolor-icon-theme', 'libvips', 'libxscrnsaver']"
 +++
 ### Description: 
@@ -130,14 +130,16 @@ Signal Private Messenger for Linux
 * /usr/lib/signal-desktop/resources/app.asar.unpacked/node_modules/@signalapp/sqlcipher/prebuilds/linux-x64/@signalapp+sqlcipher.node
 * /usr/lib/signal-desktop/resources/app.asar.unpacked/node_modules/fs-xattr/build/Release/xattr.node
 * /usr/lib/signal-desktop/resources/apparmor-profile
+* /usr/lib/signal-desktop/resources/org.signalapp.enable-backups.policy
+* /usr/lib/signal-desktop/resources/org.signalapp.view-aep.policy
 * /usr/lib/signal-desktop/resources/package-type
 * /usr/lib/signal-desktop/signal-desktop
 * /usr/lib/signal-desktop/snapshot_blob.bin
 * /usr/lib/signal-desktop/v8_context_snapshot.bin
 * /usr/lib/signal-desktop/vk_swiftshader_icd.json
 * /usr/share/applications/signal-desktop.desktop
-* /usr/share/doc/signal-desktop-7.58.0/LICENSE
-* /usr/share/doc/signal-desktop-7.58.0/README.md
+* /usr/share/doc/signal-desktop-7.59.0/LICENSE
+* /usr/share/doc/signal-desktop-7.59.0/README.md
 * /usr/share/icons/hicolor/1024x1024/apps/signal-desktop.png
 * /usr/share/icons/hicolor/128x128/apps/signal-desktop.png
 * /usr/share/icons/hicolor/16x16/apps/signal-desktop.png
