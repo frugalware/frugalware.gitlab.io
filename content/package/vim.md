@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vim 9.1.1414-1"
-version = "9.1.1414-1"
+title = "vim 9.1.1497-1"
+version = "9.1.1497-1"
 description = "VIM - Vi IMproved console"
-date = "2025-05-27T07:10:07"
+date = "2025-06-30T08:04:56"
 aliases = "/packages/218458"
 categories = ['base']
 upstreamurl = "http://www.vim.org"
 arch = "x86_64"
-size = "8265452"
-usize = "35870833"
-sha1sum = "a2b7fa1dcfda90b3f70e6cd1d72ba666991ffaaf"
+size = "8107212"
+usize = "34566957"
+sha1sum = "8997d532922320d88301e2d40a877211b895485b"
 depends = "['ncurses>=6.1', 'xfsprogs-acl>=2.2.52-5']"
 reverse_depends = "['gvim']"
 +++
@@ -28,11 +28,11 @@ VIM - Vi IMproved console
 * /usr/bin/vimtutor
 * /usr/bin/xxd
 * /usr/share/applications/vim.desktop
-* /usr/share/doc/vim-9.1.1414/LICENSE
-* /usr/share/doc/vim-9.1.1414/README.Frugalware
-* /usr/share/doc/vim-9.1.1414/README.md
-* /usr/share/doc/vim-9.1.1414/README.txt
-* /usr/share/doc/vim-9.1.1414/README_VIM9.md
+* /usr/share/doc/vim-9.1.1497/LICENSE
+* /usr/share/doc/vim-9.1.1497/README.Frugalware
+* /usr/share/doc/vim-9.1.1497/README.md
+* /usr/share/doc/vim-9.1.1497/README.txt
+* /usr/share/doc/vim-9.1.1497/README_VIM9.md
 * /usr/share/icons/hicolor/48x48/apps/gvim.png
 * /usr/share/icons/locolor/16x16/apps/gvim.png
 * /usr/share/icons/locolor/32x32/apps/gvim.png
@@ -592,6 +592,7 @@ VIM - Vi IMproved console
 * /usr/share/vim/doc/vim9class.txt
 * /usr/share/vim/doc/visual.txt
 * /usr/share/vim/doc/vi_diff.txt
+* /usr/share/vim/doc/wayland.txt
 * /usr/share/vim/doc/windows.txt
 * /usr/share/vim/doc/workshop.txt
 * /usr/share/vim/evim.vim
@@ -626,6 +627,8 @@ VIM - Vi IMproved console
 * /usr/share/vim/ftplugin/bindzone.vim
 * /usr/share/vim/ftplugin/bitbake.vim
 * /usr/share/vim/ftplugin/bp.vim
+* /usr/share/vim/ftplugin/brighterscript.vim
+* /usr/share/vim/ftplugin/brightscript.vim
 * /usr/share/vim/ftplugin/bst.vim
 * /usr/share/vim/ftplugin/btm.vim
 * /usr/share/vim/ftplugin/bzl.vim
@@ -1195,6 +1198,7 @@ VIM - Vi IMproved console
 * /usr/share/vim/keymap/arabic_utf-8.vim
 * /usr/share/vim/keymap/armenian-eastern_utf-8.vim
 * /usr/share/vim/keymap/armenian-western_utf-8.vim
+* /usr/share/vim/keymap/azerbaijani.vim
 * /usr/share/vim/keymap/belarusian-jcuken.vim
 * /usr/share/vim/keymap/brazilian_portuguese-abnt.vim
 * /usr/share/vim/keymap/brazilian_portuguese-compact.vim
@@ -2366,9 +2370,8 @@ VIM - Vi IMproved console
 * /usr/share/vim/tutor/en/vim-02-beginner.tutor.json
 * /usr/share/vim/tutor/it/vim-01-beginner.tutor
 * /usr/share/vim/tutor/it/vim-01-beginner.tutor.json
-* /usr/share/vim/tutor/README.el.cp737.txt
 * /usr/share/vim/tutor/README.el.txt
-* /usr/share/vim/tutor/README.ru.utf-8.txt
+* /usr/share/vim/tutor/README.ru.txt
 * /usr/share/vim/tutor/README.txt
 * /usr/share/vim/tutor/ru/vim-01-beginner.tutor
 * /usr/share/vim/tutor/ru/vim-01-beginner.tutor.json
@@ -2383,82 +2386,43 @@ VIM - Vi IMproved console
 * /usr/share/vim/tutor/tutor.vim
 * /usr/share/vim/tutor/tutor1
 * /usr/share/vim/tutor/tutor1.bar
-* /usr/share/vim/tutor/tutor1.bar.utf-8
-* /usr/share/vim/tutor/tutor1.bg.utf-8
+* /usr/share/vim/tutor/tutor1.bg
 * /usr/share/vim/tutor/tutor1.ca
-* /usr/share/vim/tutor/tutor1.ca.utf-8
 * /usr/share/vim/tutor/tutor1.cs
-* /usr/share/vim/tutor/tutor1.cs.cp1250
-* /usr/share/vim/tutor/tutor1.cs.utf-8
 * /usr/share/vim/tutor/tutor1.da
-* /usr/share/vim/tutor/tutor1.da.utf-8
 * /usr/share/vim/tutor/tutor1.de
-* /usr/share/vim/tutor/tutor1.de.utf-8
 * /usr/share/vim/tutor/tutor1.el
-* /usr/share/vim/tutor/tutor1.el.cp737
-* /usr/share/vim/tutor/tutor1.el.utf-8
 * /usr/share/vim/tutor/tutor1.eo
-* /usr/share/vim/tutor/tutor1.eo.utf-8
 * /usr/share/vim/tutor/tutor1.es
-* /usr/share/vim/tutor/tutor1.es.utf-8
 * /usr/share/vim/tutor/tutor1.fr
-* /usr/share/vim/tutor/tutor1.fr.utf-8
 * /usr/share/vim/tutor/tutor1.gl
-* /usr/share/vim/tutor/tutor1.gl.utf-8
 * /usr/share/vim/tutor/tutor1.hr
-* /usr/share/vim/tutor/tutor1.hr.cp1250
-* /usr/share/vim/tutor/tutor1.hr.utf-8
 * /usr/share/vim/tutor/tutor1.hu
-* /usr/share/vim/tutor/tutor1.hu.cp1250
-* /usr/share/vim/tutor/tutor1.hu.utf-8
 * /usr/share/vim/tutor/tutor1.it
-* /usr/share/vim/tutor/tutor1.it.utf-8
-* /usr/share/vim/tutor/tutor1.ja.euc
-* /usr/share/vim/tutor/tutor1.ja.sjis
-* /usr/share/vim/tutor/tutor1.ja.utf-8
+* /usr/share/vim/tutor/tutor1.ja
 * /usr/share/vim/tutor/tutor1.ko
-* /usr/share/vim/tutor/tutor1.ko.euc
-* /usr/share/vim/tutor/tutor1.ko.utf-8
-* /usr/share/vim/tutor/tutor1.lt.utf-8
-* /usr/share/vim/tutor/tutor1.lv.utf-8
+* /usr/share/vim/tutor/tutor1.lt
+* /usr/share/vim/tutor/tutor1.lv
 * /usr/share/vim/tutor/tutor1.nb
-* /usr/share/vim/tutor/tutor1.nb.utf-8
 * /usr/share/vim/tutor/tutor1.nl
-* /usr/share/vim/tutor/tutor1.nl.utf-8
 * /usr/share/vim/tutor/tutor1.no
-* /usr/share/vim/tutor/tutor1.no.utf-8
 * /usr/share/vim/tutor/tutor1.pl
-* /usr/share/vim/tutor/tutor1.pl.cp1250
-* /usr/share/vim/tutor/tutor1.pl.utf-8
 * /usr/share/vim/tutor/tutor1.pt
-* /usr/share/vim/tutor/tutor1.pt.utf-8
 * /usr/share/vim/tutor/tutor1.ru
-* /usr/share/vim/tutor/tutor1.ru.cp1251
-* /usr/share/vim/tutor/tutor1.ru.utf-8
 * /usr/share/vim/tutor/tutor1.sk
-* /usr/share/vim/tutor/tutor1.sk.cp1250
-* /usr/share/vim/tutor/tutor1.sk.utf-8
-* /usr/share/vim/tutor/tutor1.sr.cp1250
-* /usr/share/vim/tutor/tutor1.sr.utf-8
+* /usr/share/vim/tutor/tutor1.sr
 * /usr/share/vim/tutor/tutor1.sv
-* /usr/share/vim/tutor/tutor1.sv.utf-8
-* /usr/share/vim/tutor/tutor1.tr.iso9
-* /usr/share/vim/tutor/tutor1.tr.utf-8
-* /usr/share/vim/tutor/tutor1.uk.utf-8
-* /usr/share/vim/tutor/tutor1.utf-8
-* /usr/share/vim/tutor/tutor1.vi.utf-8
-* /usr/share/vim/tutor/tutor1.zh.big5
-* /usr/share/vim/tutor/tutor1.zh.euc
-* /usr/share/vim/tutor/tutor1.zh.utf-8
-* /usr/share/vim/tutor/tutor1.zh_cn.utf-8
-* /usr/share/vim/tutor/tutor1.zh_tw.utf-8
+* /usr/share/vim/tutor/tutor1.tr
+* /usr/share/vim/tutor/tutor1.uk
+* /usr/share/vim/tutor/tutor1.vi
+* /usr/share/vim/tutor/tutor1.zh
+* /usr/share/vim/tutor/tutor1.zh_cn
+* /usr/share/vim/tutor/tutor1.zh_tw
 * /usr/share/vim/tutor/tutor2
+* /usr/share/vim/tutor/tutor2.fr
 * /usr/share/vim/tutor/tutor2.gl
-* /usr/share/vim/tutor/tutor2.gl.utf-8
 * /usr/share/vim/tutor/tutor2.it
-* /usr/share/vim/tutor/tutor2.it.utf-8
-* /usr/share/vim/tutor/tutor2.ru.utf-8
-* /usr/share/vim/tutor/tutor2.sr.utf-8
-* /usr/share/vim/tutor/tutor2.utf-8
+* /usr/share/vim/tutor/tutor2.ru
+* /usr/share/vim/tutor/tutor2.sr
 * /usr/share/vim/vimrc
 * /usr/share/vim/vimrc_example.vim

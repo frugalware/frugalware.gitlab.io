@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "at-spi2-core 2.56.2-1"
-version = "2.56.2-1"
+title = "at-spi2-core 2.57.0-1"
+version = "2.57.0-1"
 description = "Gnome Accessibility Toolkit"
-date = "2025-04-29T07:40:48"
+date = "2025-06-30T07:47:50"
 aliases = "/packages/118746"
 categories = ['xlib']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "181824"
-usize = "793264"
-sha1sum = "69844b1a88540c0236ed8322bcc87d605e5d1976"
-depends = "['dbus>=1.10.10-4', 'glib2>=2.60.0', 'libatspi>=2.56.2', 'libxml2', 'libxtst>=1.2.2-3']"
+size = "183980"
+usize = "798647"
+sha1sum = "01f93a342d87994bffa9de019e84171fe3e33d21"
+depends = "['dbus>=1.10.10-4', 'glib2>=2.60.0', 'libatspi>=2.57.0', 'libxml2', 'libxtst>=1.2.2-3']"
 reverse_depends = "['gail', 'gtk+2-libs', 'gtk+3', 'qt6-base']"
 +++
 ### Description: 
@@ -62,18 +62,20 @@ Gnome Accessibility Toolkit
 * /usr/lib/gtk-2.0/modules/libatk-bridge.so
 * /usr/lib/libatk-1.0.so
 * /usr/lib/libatk-1.0.so.0
-* /usr/lib/libatk-1.0.so.0.25611.1
+* /usr/lib/libatk-1.0.so.0.25709.1
 * /usr/lib/libatk-bridge-2.0.so
 * /usr/lib/libatk-bridge-2.0.so.0
 * /usr/lib/libatk-bridge-2.0.so.0.0.0
 * /usr/lib/pkgconfig/atk-bridge-2.0.pc
 * /usr/lib/pkgconfig/atk.pc
+* /usr/lib/python3.13/site-packages/gi/overrides/Atspi.py
+* /usr/lib/python3.13/site-packages/gi/overrides/__pycache__/Atspi.cpython-313.pyc
 * /usr/lib/systemd/user/at-spi-dbus-bus.service
 * /usr/share/dbus-1/accessibility-services/org.a11y.atspi.Registry.service
 * /usr/share/dbus-1/services/org.a11y.Bus.service
 * /usr/share/defaults/at-spi2/accessibility.conf
-* /usr/share/doc/at-spi2-core-2.56.2/COPYING
-* /usr/share/doc/at-spi2-core-2.56.2/INSTALL
-* /usr/share/doc/at-spi2-core-2.56.2/NEWS
-* /usr/share/doc/at-spi2-core-2.56.2/README.md
-* /usr/share/doc/at-spi2-core-2.56.2/README.msvc
+* /usr/share/doc/at-spi2-core-2.57.0/COPYING
+* /usr/share/doc/at-spi2-core-2.57.0/INSTALL
+* /usr/share/doc/at-spi2-core-2.57.0/NEWS
+* /usr/share/doc/at-spi2-core-2.57.0/README.md
+* /usr/share/doc/at-spi2-core-2.57.0/README.msvc

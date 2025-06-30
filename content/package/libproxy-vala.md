@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libproxy-vala 0.5.9-3"
-version = "0.5.9-3"
+title = "libproxy-vala 0.5.10-1"
+version = "0.5.10-1"
 description = "libproxy vala support"
-date = "2025-02-11T18:25:05"
+date = "2025-06-30T07:50:33"
 aliases = "/packages/88687"
 categories = ['xlib-extra']
 upstreamurl = "https://github.com/libproxy/libproxy"
 arch = "x86_64"
-size = "4772"
+size = "4812"
 usize = "915"
-sha1sum = "321bf334f88b3bce373b29e2ece83695e2f01510"
-depends = "['libproxy>=0.5.9', 'vala>=0.30.0-3']"
+sha1sum = "dd04415bb81bfeb43b0bee1fd569401b1da793ea"
+depends = "['libproxy>=0.5.10', 'vala>=0.30.0-3']"
 +++
 ### Description: 
 libproxy vala support
