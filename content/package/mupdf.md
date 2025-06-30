@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mupdf 1.26.2-1"
-version = "1.26.2-1"
+title = "mupdf 1.26.3-1"
+version = "1.26.3-1"
 description = "Lightweight PDF and XPS viewer"
-date = "2025-06-17T20:26:42"
+date = "2025-06-30T08:42:49"
 aliases = "/packages/218921"
 categories = ['xapps']
 upstreamurl = "https://mupdf.com"
 arch = "x86_64"
-size = "45456132"
-usize = "83233778"
-sha1sum = "c19b810be480a9fd6f7a545836b234d8a0048b22"
+size = "45479148"
+usize = "83255010"
+sha1sum = "39dc3f3669777c03fc0499c6949040ae1fb41c43"
 depends = "['curl', 'freetype2', 'harfbuzz', 'libglu', 'libjpeg-turbo', 'libxi', 'libxrandr', 'openjpeg>=2.3.0']"
 +++
 ### Description: 
@@ -100,10 +100,10 @@ Lightweight PDF and XPS viewer
 * /usr/include/mupdf/pdf/zugferd.h
 * /usr/include/mupdf/ucdn.h
 * /usr/share/applications/mupdf.desktop
-* /usr/share/doc/mupdf-1.26.2/CHANGES
-* /usr/share/doc/mupdf-1.26.2/CONTRIBUTORS
-* /usr/share/doc/mupdf-1.26.2/COPYING
-* /usr/share/doc/mupdf-1.26.2/README
+* /usr/share/doc/mupdf-1.26.3/CHANGES
+* /usr/share/doc/mupdf-1.26.3/CONTRIBUTORS
+* /usr/share/doc/mupdf-1.26.3/COPYING
+* /usr/share/doc/mupdf-1.26.3/README
 * /usr/share/doc/mupdf/CHANGES
 * /usr/share/doc/mupdf/COPYING
 * /usr/share/doc/mupdf/examples/bbox-device.js

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "shaderc 2025.2-1"
-version = "2025.2-1"
+title = "shaderc 2025.3-1"
+version = "2025.3-1"
 description = "Collection of tools, libraries and tests for shader compilation"
-date = "2025-04-24T07:47:58"
+date = "2025-06-30T08:41:22"
 aliases = "/packages/220401"
 categories = ['apps']
 upstreamurl = "https://github.com/google/shaderc"
 arch = "x86_64"
-size = "103660"
-usize = "363256"
-sha1sum = "ded683262f3def9e133ace6e08e4debd411b647e"
+size = "103800"
+usize = "363652"
+sha1sum = "2c70190df0281150e33871bc8d6902f94b7b60f4"
 depends = "['glslang>=14.3', 'spirv-tools']"
 reverse_depends = "['blender', 'libplacebo']"
 +++
@@ -29,8 +29,8 @@ Collection of tools, libraries and tests for shader compilation
 * /usr/lib/pkgconfig/shaderc.pc
 * /usr/lib/pkgconfig/shaderc_combined.pc
 * /usr/lib/pkgconfig/shaderc_static.pc
-* /usr/share/doc/shaderc-2025.2/AUTHORS
-* /usr/share/doc/shaderc-2025.2/CHANGES
-* /usr/share/doc/shaderc-2025.2/CONTRIBUTORS
-* /usr/share/doc/shaderc-2025.2/LICENSE
-* /usr/share/doc/shaderc-2025.2/README.md
+* /usr/share/doc/shaderc-2025.3/AUTHORS
+* /usr/share/doc/shaderc-2025.3/CHANGES
+* /usr/share/doc/shaderc-2025.3/CONTRIBUTORS
+* /usr/share/doc/shaderc-2025.3/LICENSE
+* /usr/share/doc/shaderc-2025.3/README.md

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "glslang 15.3.0-2"
-version = "15.3.0-2"
+title = "glslang 15.4.0-1"
+version = "15.4.0-1"
 description = "An OpenGL and OpenGL ES shader front end and validator"
-date = "2025-05-22T07:58:03"
+date = "2025-06-30T08:28:10"
 aliases = "/packages/219802"
 categories = ['apps']
 upstreamurl = "https://github.com/KhronosGroup/glslang"
 arch = "x86_64"
-size = "17116452"
-usize = "29535596"
-sha1sum = "2bdb300ab3ecba6b92ff70345fb6211d2a763ada"
+size = "1111564"
+usize = "4108009"
+sha1sum = "fd3d63a0193c92709e8b0151160a4141f71ace98"
 depends = "['spirv-tools']"
 reverse_depends = "['ogre', 'shaderc', 'vkbasalt']"
 +++
@@ -33,31 +33,24 @@ An OpenGL and OpenGL ES shader front end and validator
 * /usr/include/glslang/SPIRV/disassemble.h
 * /usr/include/glslang/SPIRV/GlslangToSpv.h
 * /usr/include/glslang/SPIRV/Logger.h
-* /usr/include/glslang/SPIRV/spirv.hpp
+* /usr/include/glslang/SPIRV/spirv.hpp11
 * /usr/include/glslang/SPIRV/SPVRemapper.h
 * /usr/include/glslang/SPIRV/SpvTools.h
 * /usr/lib/cmake/glslang/glslang-config-version.cmake
 * /usr/lib/cmake/glslang/glslang-config.cmake
 * /usr/lib/cmake/glslang/glslang-targets-release.cmake
 * /usr/lib/cmake/glslang/glslang-targets.cmake
-* /usr/lib/libGenericCodeGen.a
-* /usr/lib/libglslang-default-resource-limits.a
 * /usr/lib/libglslang-default-resource-limits.so
 * /usr/lib/libglslang-default-resource-limits.so.15
-* /usr/lib/libglslang-default-resource-limits.so.15.3.0
-* /usr/lib/libglslang.a
+* /usr/lib/libglslang-default-resource-limits.so.15.4.0
 * /usr/lib/libglslang.so
 * /usr/lib/libglslang.so.15
-* /usr/lib/libglslang.so.15.3.0
-* /usr/lib/libMachineIndependent.a
-* /usr/lib/libOSDependent.a
-* /usr/lib/libSPIRV.a
+* /usr/lib/libglslang.so.15.4.0
 * /usr/lib/libSPIRV.so
 * /usr/lib/libSPIRV.so.15
-* /usr/lib/libSPIRV.so.15.3.0
-* /usr/lib/libSPVRemapper.a
+* /usr/lib/libSPIRV.so.15.4.0
 * /usr/lib/libSPVRemapper.so
 * /usr/lib/libSPVRemapper.so.15
-* /usr/lib/libSPVRemapper.so.15.3.0
-* /usr/share/doc/glslang-15.3.0/README-spirv-remap.txt
-* /usr/share/doc/glslang-15.3.0/README.md
+* /usr/lib/libSPVRemapper.so.15.4.0
+* /usr/share/doc/glslang-15.4.0/README-spirv-remap.txt
+* /usr/share/doc/glslang-15.4.0/README.md
