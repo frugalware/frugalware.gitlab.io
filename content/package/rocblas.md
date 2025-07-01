@@ -12,6 +12,7 @@ size = "146716888"
 usize = "3946896795"
 sha1sum = "ceeed5a73832909ea157c44e81da80cfd1e5534b"
 depends = "['hip-runtime-amd', 'libcblas', 'openmp', 'rocm-core', 'roctracer']"
+reverse_depends = "['rocsolver']"
 +++
 ### Description: 
 Next generation BLAS implementation for ROCm platform

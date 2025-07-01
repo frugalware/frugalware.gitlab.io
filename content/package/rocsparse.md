@@ -12,6 +12,7 @@ size = "15208884"
 usize = "67531631"
 sha1sum = "393eb2e96cf5bf9ec4f818dc847e1623f372d92b"
 depends = "['hip-runtime-amd', 'rocm-core', 'rocprim']"
+reverse_depends = "['rocsolver']"
 +++
 ### Description: 
 BLAS for sparse computation on top of ROCm

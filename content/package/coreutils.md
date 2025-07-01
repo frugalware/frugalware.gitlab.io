@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "coreutils 9.7-1"
-version = "9.7-1"
+title = "coreutils 9.7-3"
+version = "9.7-3"
 description = "These are the GNU core utilities, the basic command line programs"
-date = "2025-04-10T13:18:50"
+date = "2025-07-01T21:29:28"
 aliases = "/packages/2357"
 categories = ['base']
 upstreamurl = "http://www.gnu.org/software/coreutils"
 arch = "x86_64"
-size = "3003216"
-usize = "17348765"
-sha1sum = "b83e14cce13133411881bf6067c6079f7426623f"
+size = "3028756"
+usize = "17479880"
+sha1sum = "af2b3021927b20db19bf928fac083a245a33db7f"
 depends = "['bash>=4.4.12-3', 'glibc>=2.35', 'gmp>=6.1.2-6', 'libcap>=2.25-8', 'xfsprogs-acl>=2.2.52-7', 'xfsprogs-attr>=2.4.47-8']"
 reverse_depends = "['e2fsprogs', 'expat', 'inxi', 'kernel-initrd', 'kernel-lts-initrd', 'pacman-g2', 'pulse-autoconf', 'scriptlet-core', 'syslinux']"
 +++
@@ -54,6 +54,7 @@ These are the GNU core utilities, the basic command line programs
 * /usr/bin/fmt
 * /usr/bin/fold
 * /usr/bin/ginstall
+* /usr/bin/groups
 * /usr/bin/head
 * /usr/bin/hostid
 * /usr/bin/id
@@ -136,10 +137,6 @@ These are the GNU core utilities, the basic command line programs
 * /usr/share/doc/coreutils-9.7/README-install
 * /usr/share/doc/coreutils-9.7/THANKS
 * /usr/share/doc/coreutils-9.7/TODO
-* /usr/share/doc/coreutils-9.7/xsane-WIN32-README.txt
-* /usr/share/doc/coreutils-9.7/xsane.BUGS
-* /usr/share/doc/coreutils-9.7/xsane.COPYING
-* /usr/share/doc/coreutils-9.7/xsane.FAQ
 * /usr/share/info/coreutils.info.gz
 * /usr/share/locale/af/LC_MESSAGES/coreutils.mo
 * /usr/share/locale/af/LC_TIME/coreutils.mo
@@ -264,6 +261,7 @@ These are the GNU core utilities, the basic command line programs
 * /usr/share/man/man1/fmt.1.gz
 * /usr/share/man/man1/fold.1.gz
 * /usr/share/man/man1/ginstall.1.gz
+* /usr/share/man/man1/groups.1.gz
 * /usr/share/man/man1/head.1.gz
 * /usr/share/man/man1/hostid.1.gz
 * /usr/share/man/man1/id.1.gz
