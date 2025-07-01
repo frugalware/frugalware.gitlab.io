@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "noto-fonts 2025.06.01-1"
-version = "2025.06.01-1"
+title = "noto-fonts 2025.07.01-1"
+version = "2025.07.01-1"
 description = "Noto fonts"
-date = "2025-06-02T09:29:36"
+date = "2025-07-01T07:36:04"
 aliases = "/packages/218387"
 categories = ['x11']
 upstreamurl = "https://www.google.com/get/noto/"
 arch = "x86_64"
-size = "34306872"
-usize = "117632890"
-sha1sum = "083827ab69de265e81a58f4a8a04074ac1a74a08"
+size = "34308540"
+usize = "117647070"
+sha1sum = "d17e97414a6b120142f56047a7d472e2947aa2cb"
 depends = "['fontconfig', 'mkfontscale']"
 reverse_depends = "['frameworkintegration', 'frameworkintegration5', 'i3', 'lumina-desktop', 'plasma-integration', 'plasma5-integration']"
 +++
@@ -18,8 +18,8 @@ reverse_depends = "['frameworkintegration', 'frameworkintegration5', 'i3', 'lumi
 Noto fonts
 
 ### Files: 
-* /usr/share/doc/noto-fonts-2025.06.01/LICENSE
-* /usr/share/doc/noto-fonts-2025.06.01/README.md
+* /usr/share/doc/noto-fonts-2025.07.01/LICENSE
+* /usr/share/doc/noto-fonts-2025.07.01/README.md
 * /usr/share/fontconfig/conf.avail/46-noto-mono.conf
 * /usr/share/fontconfig/conf.avail/46-noto-sans.conf
 * /usr/share/fontconfig/conf.avail/46-noto-serif.conf
@@ -381,6 +381,7 @@ Noto fonts
 * /usr/share/fonts/X11/TTF/NotoSansSundanese-Bold.ttf
 * /usr/share/fonts/X11/TTF/NotoSansSundanese-Medium.ttf
 * /usr/share/fonts/X11/TTF/NotoSansSundanese-Regular.ttf
+* /usr/share/fonts/X11/TTF/NotoSansSunuwar-Regular.ttf
 * /usr/share/fonts/X11/TTF/NotoSansSylotiNagri-Regular.ttf
 * /usr/share/fonts/X11/TTF/NotoSansSymbols-Black.ttf
 * /usr/share/fonts/X11/TTF/NotoSansSymbols-Bold.ttf

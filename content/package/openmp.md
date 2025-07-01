@@ -12,7 +12,7 @@ size = "531552"
 usize = "2006840"
 sha1sum = "b154be6d0b0447827ae0244b230a47706e099049"
 depends = "['llvm-libs>=20.1.7']"
-reverse_depends = "['darktable']"
+reverse_depends = "['darktable', 'rocblas']"
 +++
 ### Description: 
 LLVM OpenMP Runtime Library

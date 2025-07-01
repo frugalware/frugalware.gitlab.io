@@ -12,6 +12,7 @@ size = "275668"
 usize = "1529525"
 sha1sum = "8dcc51699105df80ac1caf54ea9b1c0f2d03fbfd"
 depends = "['hip-runtime-amd', 'libatomic']"
+reverse_depends = "['rocblas']"
 +++
 ### Description: 
 ROCm tracer library for performance tracing
