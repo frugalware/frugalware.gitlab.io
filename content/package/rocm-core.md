@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "rocm-core 6.4.1-4"
-version = "6.4.1-4"
+title = "rocm-core 6.4.1-5"
+version = "6.4.1-5"
 description = "AMD ROCm core package (version files)"
-date = "2025-06-25T15:16:10"
+date = "2025-07-01T09:13:37"
 aliases = "/packages/221246"
 categories = ['devel-extra']
 upstreamurl = "https://rocm.docs.amd.com/"
 arch = "x86_64"
-size = "12668"
-usize = "39528"
-sha1sum = "d381d688d659498fc90e5f493830a39922cf19ed"
+size = "12708"
+usize = "39520"
+sha1sum = "ff27543d440f854efb548aa275de09fecf4e0a1c"
 depends = "['glibc']"
 reverse_depends = "['comgr', 'hip-runtime-amd', 'hipblas-common', 'hsa-rocr', 'rocblas', 'rocm-cmake', 'rocminfo']"
 +++
