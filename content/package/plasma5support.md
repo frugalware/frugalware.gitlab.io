@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "plasma5support 6.4.1-1"
-version = "6.4.1-1"
+title = "plasma5support 6.4.2-1"
+version = "6.4.2-1"
 description = "Support components for porting from KF5/Qt5 to KF6/Qt6"
-date = "2025-06-25T08:33:09"
+date = "2025-07-02T10:18:15"
 aliases = "/packages/221377"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "443112"
+size = "443876"
 usize = "2221669"
-sha1sum = "b407f718905f46b72996e5254f5fcf79ffc9a0a4"
-depends = "['kconfig>=6.15.0', 'kcoreaddons>=6.15.0', 'kguiaddons>=6.15.0', 'ki18n>=6.15.0', 'kidletime>=6.15.0', 'knotifications>=6.15.0', 'libksysguard>=6.4.1', 'networkmanager-qt>=6.15.0', 'plasma-activities>=6.4.1', 'solid>=6.15.0']"
+sha1sum = "ffe239aaa1e283ab31c513d74dd6d2634eda814d"
+depends = "['kconfig>=6.15.0', 'kcoreaddons>=6.15.0', 'kguiaddons>=6.15.0', 'ki18n>=6.15.0', 'kidletime>=6.15.0', 'knotifications>=6.15.0', 'libksysguard>=6.4.2', 'networkmanager-qt>=6.15.0', 'plasma-activities>=6.4.2', 'solid>=6.15.0']"
 reverse_depends = "['kup', 'plasma-sdk', 'plasma-workspace', 'wacomtablet']"
 +++
 ### Description: 
@@ -44,10 +44,10 @@ Support components for porting from KF5/Qt5 to KF6/Qt6
 * /usr/lib/cmake/Plasma5Support/Plasma5SupportTargets.cmake
 * /usr/lib/libplasma-geolocation-interface.so
 * /usr/lib/libplasma-geolocation-interface.so.6
-* /usr/lib/libplasma-geolocation-interface.so.6.4.1
+* /usr/lib/libplasma-geolocation-interface.so.6.4.2
 * /usr/lib/libPlasma5Support.so
 * /usr/lib/libPlasma5Support.so.6
-* /usr/lib/libPlasma5Support.so.6.4.1
+* /usr/lib/libPlasma5Support.so.6.4.2
 * /usr/lib/qt6/plugins/plasma5support/dataengine/plasma_engine_activities.so
 * /usr/lib/qt6/plugins/plasma5support/dataengine/plasma_engine_apps.so
 * /usr/lib/qt6/plugins/plasma5support/dataengine/plasma_engine_devicenotifications.so
@@ -66,7 +66,7 @@ Support components for porting from KF5/Qt5 to KF6/Qt6
 * /usr/lib/qt6/qml/org/kde/plasma/plasma5support/libplasma5supportplugin.so
 * /usr/lib/qt6/qml/org/kde/plasma/plasma5support/plasma5supportplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/plasma/plasma5support/qmldir
-* /usr/share/doc/plasma5support-6.4.1/README.md
+* /usr/share/doc/plasma5support-6.4.2/README.md
 * /usr/share/locale/ar/LC_MESSAGES/libplasma5support.mo
 * /usr/share/locale/ar/LC_MESSAGES/plasma_engine_devicenotifications.mo
 * /usr/share/locale/ar/LC_MESSAGES/plasma_engine_hotplug.mo
