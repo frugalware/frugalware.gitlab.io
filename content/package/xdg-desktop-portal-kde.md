@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "xdg-desktop-portal-kde 6.4.1-1"
-version = "6.4.1-1"
+title = "xdg-desktop-portal-kde 6.4.2-1"
+version = "6.4.2-1"
 description = "A backend implementation for xdg-desktop-portal using Qt/KF5"
-date = "2025-06-25T08:26:56"
+date = "2025-07-02T10:12:13"
 aliases = "/packages/220562"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "465568"
-usize = "1937573"
-sha1sum = "806b2ea4524c2c0edaeecf6c269f4e4784e61580"
-depends = "['kio>=6.15.0', 'kio-fuse', 'kirigami>=6.15.0', 'kstatusnotifieritem>=6.15.0', 'kwayland>=_6.4.1']"
+size = "465288"
+usize = "1944174"
+sha1sum = "3a602fb2f766de4d81bcdede4feeb3dcd6757bf1"
+depends = "['kio>=6.15.0', 'kio-fuse', 'kirigami>=6.15.0', 'kstatusnotifieritem>=6.15.0', 'kwayland>=_6.4.2']"
 reverse_depends = "['plasma-integration', 'plasma-wayland-session']"
 +++
 ### Description: 
@@ -22,8 +22,8 @@ A backend implementation for xdg-desktop-portal using Qt/KF5
 * /usr/lib/xdg-desktop-portal-kde/xdg-desktop-portal-kde
 * /usr/share/applications/org.freedesktop.impl.portal.desktop.kde.desktop
 * /usr/share/dbus-1/services/org.freedesktop.impl.portal.desktop.kde.service
-* /usr/share/doc/xdg-desktop-portal-kde-6.4.1/README.md
-* /usr/share/doc/xdg-desktop-portal-kde-6.4.1/TODO
+* /usr/share/doc/xdg-desktop-portal-kde-6.4.2/README.md
+* /usr/share/doc/xdg-desktop-portal-kde-6.4.2/TODO
 * /usr/share/knotifications6/xdg-desktop-portal-kde.notifyrc
 * /usr/share/locale/ar/LC_MESSAGES/xdg-desktop-portal-kde.mo
 * /usr/share/locale/ast/LC_MESSAGES/xdg-desktop-portal-kde.mo

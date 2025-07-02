@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kscreen 6.4.1-1"
-version = "6.4.1-1"
+title = "kscreen 6.4.2-1"
+version = "6.4.2-1"
 description = "KDE's screen management utility."
-date = "2025-06-25T08:09:55"
+date = "2025-07-02T09:55:05"
 aliases = "/packages/221347"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "31891620"
-usize = "33219571"
-sha1sum = "7cb9acc5aef9336b1c061e7f9b6e324910272464"
-depends = "['ksvg>=6.15.0', 'layer-shell-qt>=6.4.1', 'libkscreen>=6.4.1', 'libplasma>=6.4.1', 'qt6-sensors>=6.9.1']"
+size = "31891720"
+usize = "33221680"
+sha1sum = "a4f28ef1c03983a417f99dc076ca523fab95d684"
+depends = "['ksvg>=6.15.0', 'layer-shell-qt>=6.4.2', 'libkscreen>=6.4.2', 'libplasma>=6.4.2', 'qt6-sensors>=6.9.1']"
 reverse_depends = "['kscreenlocker', 'spectacle']"
 +++
 ### Description: 
@@ -27,7 +27,7 @@ KDE's screen management utility.
 * /usr/lib/systemd/user/plasma-kscreen-osd.service
 * /usr/share/applications/kcm_kscreen.desktop
 * /usr/share/dbus-1/services/org.kde.kscreen.osdService.service
-* /usr/share/doc/kscreen-6.4.1/README.md
+* /usr/share/doc/kscreen-6.4.2/README.md
 * /usr/share/kglobalaccel/org.kde.kscreen.desktop
 * /usr/share/kscreen/graz.png
 * /usr/share/locale/ar/LC_MESSAGES/hdrcalibrator.mo
@@ -169,6 +169,7 @@ KDE's screen management utility.
 * /usr/share/locale/ro/LC_MESSAGES/kcm_kscreen.mo
 * /usr/share/locale/ro/LC_MESSAGES/kscreen_common.mo
 * /usr/share/locale/ro/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
+* /usr/share/locale/ru/LC_MESSAGES/hdrcalibrator.mo
 * /usr/share/locale/ru/LC_MESSAGES/kcm_kscreen.mo
 * /usr/share/locale/ru/LC_MESSAGES/kscreen_common.mo
 * /usr/share/locale/ru/LC_MESSAGES/plasma_applet_org.kde.kscreen.mo
