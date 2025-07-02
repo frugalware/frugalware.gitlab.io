@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "plasma-workspace 6.4.1-1"
-version = "6.4.1-1"
+title = "plasma-workspace 6.4.2-1"
+version = "6.4.2-1"
 description = "KDE Plasma Workspace."
-date = "2025-06-25T09:07:16"
+date = "2025-07-02T11:22:16"
 aliases = "/packages/218402"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "22240780"
-usize = "60249563"
-sha1sum = "f0a87d712666ff59feca2e2e02abbac77b3c02c5"
-depends = "['appstream-qt', 'baloo>=6.15.0', 'kcmutils>=6.15.0', 'kdeclarative>=6.15.0', 'kholidays>=6.15.0', 'kidletime>=6.15.0', 'kirigami-addons', 'knewstuff>=6.15.0', 'knotifyconfig>=6.15.0', 'kpackage>=6.15.0', 'kparts>=6.15.0', 'kquickcharts>=6.15.0', 'krunner>=6.15.0', 'ksvg>=6.15.0', 'ktexteditor>=6.15.0', 'kunitconversion>=6.15.0', 'kuserfeedback>=6.15.0', 'kwin>=6.4.1', 'libkexiv2', 'libksysguard>=6.4.1', 'libplasma>=6.4.1', 'libqalculate>=5.0.0', 'libxft', 'networkmanager-qt>=6.15.0', 'plasma-activities-stats>=6.4.1', 'plasma5-integration>=6.4.1', 'plasma5support>=6.4.1', 'prison>=6.15.0', 'qcoro', 'qt6-location>=6.9.1', 'qt6-tools']"
+size = "22249340"
+usize = "60253792"
+sha1sum = "90eef83f9a2f17d4039f32ca4c6ba29f75e7ef4e"
+depends = "['appstream-qt', 'baloo>=6.15.0', 'kcmutils>=6.15.0', 'kdeclarative>=6.15.0', 'kholidays>=6.15.0', 'kidletime>=6.15.0', 'kirigami-addons', 'knewstuff>=6.15.0', 'knotifyconfig>=6.15.0', 'kpackage>=6.15.0', 'kparts>=6.15.0', 'kquickcharts>=6.15.0', 'krunner>=6.15.0', 'ksvg>=6.15.0', 'ktexteditor>=6.15.0', 'kunitconversion>=6.15.0', 'kuserfeedback>=6.15.0', 'kwin>=6.4.2', 'libkexiv2', 'libksysguard>=6.4.2', 'libplasma>=6.4.2', 'libqalculate>=5.0.0', 'libxft', 'networkmanager-qt>=6.15.0', 'plasma-activities-stats>=6.4.2', 'plasma5-integration>=6.4.2', 'plasma5support>=6.4.2', 'prison>=6.15.0', 'qcoro', 'qt6-location>=6.9.1', 'qt6-tools']"
 reverse_depends = "['kde-cli-tools', 'kdeplasma-addons', 'kget', 'ktorrent', 'plasma-browser-integration', 'plasma-desktop', 'plasma-nm', 'plasma-wayland-session', 'plasma-x11-session', 'powerdevil']"
 +++
 ### Description: 
@@ -123,31 +123,31 @@ KDE Plasma Workspace.
 * /usr/lib/kconf_update_bin/plasmashell-6.0-keep-default-floating-setting-for-plasma-5-panels
 * /usr/lib/libbatterycontrol.so
 * /usr/lib/libbatterycontrol.so.6
-* /usr/lib/libbatterycontrol.so.6.4.1
+* /usr/lib/libbatterycontrol.so.6.4.2
 * /usr/lib/libcolorcorrect.so
 * /usr/lib/libcolorcorrect.so.6
-* /usr/lib/libcolorcorrect.so.6.4.1
+* /usr/lib/libcolorcorrect.so.6.4.2
 * /usr/lib/libkfontinst.so
 * /usr/lib/libkfontinst.so.6
-* /usr/lib/libkfontinst.so.6.4.1
+* /usr/lib/libkfontinst.so.6.4.2
 * /usr/lib/libkfontinstui.so
 * /usr/lib/libkfontinstui.so.6
-* /usr/lib/libkfontinstui.so.6.4.1
+* /usr/lib/libkfontinstui.so.6.4.2
 * /usr/lib/libklipper.so
 * /usr/lib/libklipper.so.6
-* /usr/lib/libklipper.so.6.4.1
+* /usr/lib/libklipper.so.6.4.2
 * /usr/lib/libkmpris.so.6
-* /usr/lib/libkmpris.so.6.4.1
+* /usr/lib/libkmpris.so.6.4.2
 * /usr/lib/libkrdb.so
 * /usr/lib/libkworkspace6.so
 * /usr/lib/libkworkspace6.so.6
-* /usr/lib/libkworkspace6.so.6.4.1
+* /usr/lib/libkworkspace6.so.6.4.2
 * /usr/lib/libnotificationmanager.so
 * /usr/lib/libnotificationmanager.so.1
-* /usr/lib/libnotificationmanager.so.6.4.1
+* /usr/lib/libnotificationmanager.so.6.4.2
 * /usr/lib/libtaskmanager.so
 * /usr/lib/libtaskmanager.so.6
-* /usr/lib/libtaskmanager.so.6.4.1
+* /usr/lib/libtaskmanager.so.6.4.2
 * /usr/lib/libweather_ion.so
 * /usr/lib/libweather_ion.so.7
 * /usr/lib/libweather_ion.so.7.0.0
@@ -965,8 +965,8 @@ KDE Plasma Workspace.
 * /usr/share/doc/HTML/uk/klipper/index.docbook
 * /usr/share/doc/HTML/uk/klipper/klipper-widget.png
 * /usr/share/doc/HTML/uk/klipper/screenshot.png
-* /usr/share/doc/plasma-workspace-6.4.1/HACKING
-* /usr/share/doc/plasma-workspace-6.4.1/README.md
+* /usr/share/doc/plasma-workspace-6.4.2/HACKING
+* /usr/share/doc/plasma-workspace-6.4.2/README.md
 * /usr/share/icons/hicolor/128x128/mimetypes/fonts-package.png
 * /usr/share/icons/hicolor/16x16/apps/kfontview.png
 * /usr/share/icons/hicolor/16x16/mimetypes/fonts-package.png
