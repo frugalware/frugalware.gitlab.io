@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-openssl 3.5.0-2"
-version = "3.5.0-2"
+title = "lib32-openssl 3.5.1-1"
+version = "3.5.1-1"
 description = "The Open Source toolkit for Secure Sockets Layer and Transport Layer Security ( 32bit )"
-date = "2025-05-21T11:56:03"
+date = "2025-07-02T06:54:49"
 aliases = "/packages/217921"
 categories = ['lib32-extra']
 upstreamurl = "https://openssl-library.org"
 arch = "x86_64"
-size = "28879700"
-usize = "43357203"
-sha1sum = "54997477f1e426099c387e3f22828c3e39e2a5cc"
+size = "28940500"
+usize = "43411466"
+sha1sum = "e1f7c67ad67f18590c49d0feefcbf220ad26fa0a"
 depends = "[]"
 reverse_depends = "['lib32-curl', 'lib32-libarchive', 'lib32-libcups', 'lib32-libevent', 'lib32-libldap', 'lib32-libpulse', 'lib32-libssh2', 'lib32-libsystemd', 'lib32-libzip']"
 +++
