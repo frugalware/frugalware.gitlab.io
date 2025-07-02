@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "xscreensaver-data 6.10.1-2"
-version = "6.10.1-2"
+title = "xscreensaver-data 6.11-1"
+version = "6.11-1"
 description = "Screensavers for Xscreensaver"
-date = "2025-05-21T12:58:45"
+date = "2025-07-02T15:58:35"
 aliases = "/packages/10216"
 categories = ['xlib']
 upstreamurl = "https://www.jwz.org/xscreensaver"
 arch = "x86_64"
-size = "18490056"
-usize = "48138930"
-sha1sum = "d3fcf9565816f7636d4f9759edd812d6ea3e556e"
+size = "18512264"
+usize = "48167376"
+sha1sum = "9c1699ee1761c21af8e1336e57d15effb031f14e"
 depends = "['gdk-pixbuf2>=2.42.0', 'libglu', 'libxcrypt', 'libxft']"
 reverse_depends = "['xscreensaver']"
 +++

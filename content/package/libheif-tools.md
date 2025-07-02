@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libheif-tools 1.19.8-1"
-version = "1.19.8-1"
+title = "libheif-tools 1.20.1-1"
+version = "1.20.1-1"
 description = "libheif tools"
-date = "2025-04-28T13:33:31"
+date = "2025-07-02T16:02:07"
 aliases = "/packages/220877"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/strukturag/libheif"
 arch = "x86_64"
-size = "108292"
-usize = "331400"
-sha1sum = "126b9e1f08ffc721dd23a2b01fda0e635ccdde2c"
+size = "116956"
+usize = "358144"
+sha1sum = "42327b3a34e7f1e6400b4313eb16e93553388626"
 depends = "['libheif']"
 +++
 ### Description: 

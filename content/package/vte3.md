@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vte3 0.80.2-2"
-version = "0.80.2-2"
+title = "vte3 0.81.0-1"
+version = "0.81.0-1"
 description = "Virtual Terminal Emulator (gtk+4)"
-date = "2025-06-25T13:54:47"
+date = "2025-07-02T16:09:31"
 aliases = "/packages/118797"
 categories = ['xapps']
 upstreamurl = "http://www.gnome.org/"
 arch = "x86_64"
-size = "555308"
-usize = "3093957"
-sha1sum = "9223a553bccf76903ac07d2d5fb32b348a3eb8e0"
+size = "684740"
+usize = "4033047"
+sha1sum = "35de302a36c41b43c3462fd4bd6d6b3eb701d121"
 depends = "['gobject-introspection>=1.60.0', 'gtk+4', 'icu4c>=77.1']"
 reverse_depends = "['alpaca', 'gamt', 'geany', 'qemu', 'remmina', 'sakura', 'sunflower', 'virt-manager']"
 +++
@@ -27,6 +27,7 @@ Virtual Terminal Emulator (gtk+4)
 * /usr/include/vte-2.91-gtk4/vte/vteenums.h
 * /usr/include/vte-2.91-gtk4/vte/vteglobals.h
 * /usr/include/vte-2.91-gtk4/vte/vtemacros.h
+* /usr/include/vte-2.91-gtk4/vte/vteproperties.h
 * /usr/include/vte-2.91-gtk4/vte/vtepty.h
 * /usr/include/vte-2.91-gtk4/vte/vteregex.h
 * /usr/include/vte-2.91-gtk4/vte/vteterminal.h
@@ -39,6 +40,7 @@ Virtual Terminal Emulator (gtk+4)
 * /usr/include/vte-2.91/vte/vteenums.h
 * /usr/include/vte-2.91/vte/vteglobals.h
 * /usr/include/vte-2.91/vte/vtemacros.h
+* /usr/include/vte-2.91/vte/vteproperties.h
 * /usr/include/vte-2.91/vte/vtepty.h
 * /usr/include/vte-2.91/vte/vteregex.h
 * /usr/include/vte-2.91/vte/vteterminal.h
@@ -52,20 +54,20 @@ Virtual Terminal Emulator (gtk+4)
 * /usr/lib/libvte-2.91-gtk4.so.0
 * /usr/lib/libvte-2.91.so
 * /usr/lib/libvte-2.91.so.0
-* /usr/lib/libvte-2.91.so.0.8000.2
+* /usr/lib/libvte-2.91.so.0.8100.0
 * /usr/lib/pkgconfig/vte-2.91-gtk4.pc
 * /usr/lib/pkgconfig/vte-2.91.pc
 * /usr/lib/systemd/user/vte-spawn-.scope.d/defaults.conf
 * /usr/lib/vte3/vte-urlencode-cwd
 * /usr/share/applications/org.gnome.Vte.App.Gtk3.desktop
 * /usr/share/applications/org.gnome.Vte.App.Gtk4.desktop
-* /usr/share/doc/vte3-0.80.2/AUTHORS
-* /usr/share/doc/vte3-0.80.2/ChangeLog
-* /usr/share/doc/vte3-0.80.2/COPYING.CC-BY-4-0
-* /usr/share/doc/vte3-0.80.2/COPYING.GPL3
-* /usr/share/doc/vte3-0.80.2/COPYING.LGPL3
-* /usr/share/doc/vte3-0.80.2/COPYING.XTERM
-* /usr/share/doc/vte3-0.80.2/README.md
+* /usr/share/doc/vte3-0.81.0/AUTHORS
+* /usr/share/doc/vte3-0.81.0/ChangeLog
+* /usr/share/doc/vte3-0.81.0/COPYING.CC-BY-4-0
+* /usr/share/doc/vte3-0.81.0/COPYING.GPL3
+* /usr/share/doc/vte3-0.81.0/COPYING.LGPL3
+* /usr/share/doc/vte3-0.81.0/COPYING.XTERM
+* /usr/share/doc/vte3-0.81.0/README.md
 * /usr/share/gir-1.0/Vte-2.91.gir
 * /usr/share/gir-1.0/Vte-3.91.gir
 * /usr/share/glade/catalogs/vte-2.91.xml
@@ -75,5 +77,6 @@ Virtual Terminal Emulator (gtk+4)
 * /usr/share/vala/vapi/vte-2.91-gtk4.vapi
 * /usr/share/vala/vapi/vte-2.91.deps
 * /usr/share/vala/vapi/vte-2.91.vapi
+* /usr/share/vte-2.91/terminfo/x/xterm-256color
 * /usr/share/xdg-terminals/org.gnome.Vte.App.Gtk3.desktop
 * /usr/share/xdg-terminals/org.gnome.Vte.App.Gtk4.desktop

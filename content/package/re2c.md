@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "re2c 4.2-1"
-version = "4.2-1"
+title = "re2c 4.3-1"
+version = "4.3-1"
 description = "re2c is an tool for generating C based recognizers from regular expressions"
-date = "2025-04-24T08:58:58"
+date = "2025-07-02T15:20:37"
 aliases = "/packages/30486"
 categories = ['devel']
 upstreamurl = "http://re2c.org/"
 arch = "x86_64"
-size = "794084"
-usize = "11719595"
-sha1sum = "244ff9060af974e24e84d9aa949a00ca0bc80343"
+size = "797972"
+usize = "11779948"
+sha1sum = "a01dd7a9c32cb12ab7e9e998e6c6b8d6676e43bf"
 depends = "['libstdc++>=7.3.0-4']"
 reverse_depends = "['php']"
 +++
@@ -29,9 +29,9 @@ re2c is an tool for generating C based recognizers from regular expressions
 * /usr/bin/re2swift
 * /usr/bin/re2v
 * /usr/bin/re2zig
-* /usr/share/doc/re2c-4.2/CHANGELOG
-* /usr/share/doc/re2c-4.2/LICENSE
-* /usr/share/doc/re2c-4.2/README.md
+* /usr/share/doc/re2c-4.3/CHANGELOG
+* /usr/share/doc/re2c-4.3/LICENSE
+* /usr/share/doc/re2c-4.3/README.md
 * /usr/share/man/man1/re2c.1.gz
 * /usr/share/man/man1/re2d.1.gz
 * /usr/share/man/man1/re2go.1.gz

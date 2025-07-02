@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mbedtls 3.6.3.1-1"
-version = "3.6.3.1-1"
+title = "mbedtls 3.6.4-1"
+version = "3.6.4-1"
 description = "Portable cryptographic and SSL/TLS library, aka polarssl"
-date = "2025-05-16T12:47:00"
+date = "2025-07-02T16:07:50"
 aliases = "/packages/218827"
 categories = ['lib']
 upstreamurl = "https://tls.mbed.org"
 arch = "x86_64"
-size = "928748"
-usize = "4605103"
-sha1sum = "e3f3759652836641d427b53eb73251bb5d3f5119"
+size = "936188"
+usize = "4631487"
+sha1sum = "a3d4e1e57c332784c8e2661ec2c7becb5f18804c"
 depends = "['glibc>=2.34']"
 reverse_depends = "['julia', 'librist', 'neko', 'nng', 'obs-studio', 'openrgb']"
 +++
@@ -194,7 +194,7 @@ Portable cryptographic and SSL/TLS library, aka polarssl
 * /usr/lib/libmbedtls.so.21
 * /usr/lib/libmbedx509.so
 * /usr/lib/libmbedx509.so.7
-* /usr/share/doc/mbedtls-3.6.3.1/BUGS.md
-* /usr/share/doc/mbedtls-3.6.3.1/ChangeLog
-* /usr/share/doc/mbedtls-3.6.3.1/LICENSE
-* /usr/share/doc/mbedtls-3.6.3.1/README.md
+* /usr/share/doc/mbedtls-3.6.4/BUGS.md
+* /usr/share/doc/mbedtls-3.6.4/ChangeLog
+* /usr/share/doc/mbedtls-3.6.4/LICENSE
+* /usr/share/doc/mbedtls-3.6.4/README.md
