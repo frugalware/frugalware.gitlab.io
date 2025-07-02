@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "nodejs 24.2.0-1"
-version = "24.2.0-1"
+title = "nodejs 24.3.0-1"
+version = "24.3.0-1"
 description = "Evented I/O for V8 javascript"
-date = "2025-06-10T20:55:33"
+date = "2025-07-02T16:55:35"
 aliases = "/packages/153770"
 categories = ['devel-extra']
 upstreamurl = "https://nodejs.org/"
 arch = "x86_64"
-size = "17076548"
-usize = "75797864"
-sha1sum = "5446635ce96ff631491d6a4cbdb3c02d5c6fb0ca"
+size = "17093956"
+usize = "75875982"
+sha1sum = "1e51851a0feba4f0a34f2a34f3d9942e3f6be05c"
 depends = "['brotli', 'c-ares', 'icu4c>=77.1', 'libuv', 'nghttp2', 'nghttp3', 'ngtcp2', 'openssl>=3.1.0', 'python3-setuptools']"
 license = "MIT"
 +++
@@ -241,7 +241,7 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/docs/content/commands/npm-repo.md
 * /usr/lib/node_modules/npm/docs/content/commands/npm-restart.md
 * /usr/lib/node_modules/npm/docs/content/commands/npm-root.md
-* /usr/lib/node_modules/npm/docs/content/commands/npm-run-script.md
+* /usr/lib/node_modules/npm/docs/content/commands/npm-run.md
 * /usr/lib/node_modules/npm/docs/content/commands/npm-sbom.md
 * /usr/lib/node_modules/npm/docs/content/commands/npm-search.md
 * /usr/lib/node_modules/npm/docs/content/commands/npm-shrinkwrap.md
@@ -325,7 +325,7 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/docs/output/commands/npm-repo.html
 * /usr/lib/node_modules/npm/docs/output/commands/npm-restart.html
 * /usr/lib/node_modules/npm/docs/output/commands/npm-root.html
-* /usr/lib/node_modules/npm/docs/output/commands/npm-run-script.html
+* /usr/lib/node_modules/npm/docs/output/commands/npm-run.html
 * /usr/lib/node_modules/npm/docs/output/commands/npm-sbom.html
 * /usr/lib/node_modules/npm/docs/output/commands/npm-search.html
 * /usr/lib/node_modules/npm/docs/output/commands/npm-shrinkwrap.html
@@ -420,7 +420,7 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/lib/commands/repo.js
 * /usr/lib/node_modules/npm/lib/commands/restart.js
 * /usr/lib/node_modules/npm/lib/commands/root.js
-* /usr/lib/node_modules/npm/lib/commands/run-script.js
+* /usr/lib/node_modules/npm/lib/commands/run.js
 * /usr/lib/node_modules/npm/lib/commands/sbom.js
 * /usr/lib/node_modules/npm/lib/commands/search.js
 * /usr/lib/node_modules/npm/lib/commands/set.js
@@ -523,7 +523,7 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/man/man1/npm-repo.1
 * /usr/lib/node_modules/npm/man/man1/npm-restart.1
 * /usr/lib/node_modules/npm/man/man1/npm-root.1
-* /usr/lib/node_modules/npm/man/man1/npm-run-script.1
+* /usr/lib/node_modules/npm/man/man1/npm-run.1
 * /usr/lib/node_modules/npm/man/man1/npm-sbom.1
 * /usr/lib/node_modules/npm/man/man1/npm-search.1
 * /usr/lib/node_modules/npm/man/man1/npm-shrinkwrap.1
@@ -817,6 +817,10 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/node_modules/@sigstore/protobuf-specs/dist/__generated__/google/protobuf/any.js
 * /usr/lib/node_modules/npm/node_modules/@sigstore/protobuf-specs/dist/__generated__/google/protobuf/descriptor.js
 * /usr/lib/node_modules/npm/node_modules/@sigstore/protobuf-specs/dist/__generated__/google/protobuf/timestamp.js
+* /usr/lib/node_modules/npm/node_modules/@sigstore/protobuf-specs/dist/__generated__/rekor/v2/dsse.js
+* /usr/lib/node_modules/npm/node_modules/@sigstore/protobuf-specs/dist/__generated__/rekor/v2/entry.js
+* /usr/lib/node_modules/npm/node_modules/@sigstore/protobuf-specs/dist/__generated__/rekor/v2/hashedrekord.js
+* /usr/lib/node_modules/npm/node_modules/@sigstore/protobuf-specs/dist/__generated__/rekor/v2/verifier.js
 * /usr/lib/node_modules/npm/node_modules/@sigstore/protobuf-specs/dist/__generated__/sigstore_bundle.js
 * /usr/lib/node_modules/npm/node_modules/@sigstore/protobuf-specs/dist/__generated__/sigstore_common.js
 * /usr/lib/node_modules/npm/node_modules/@sigstore/protobuf-specs/dist/__generated__/sigstore_rekor.js
@@ -2300,7 +2304,6 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/node_modules/tinyglobby/node_modules/fdir/dist/api/functions/get-array.js
 * /usr/lib/node_modules/npm/node_modules/tinyglobby/node_modules/fdir/dist/api/functions/group-files.js
 * /usr/lib/node_modules/npm/node_modules/tinyglobby/node_modules/fdir/dist/api/functions/invoke-callback.js
-* /usr/lib/node_modules/npm/node_modules/tinyglobby/node_modules/fdir/dist/api/functions/is-recursive-symlink.js
 * /usr/lib/node_modules/npm/node_modules/tinyglobby/node_modules/fdir/dist/api/functions/join-path.js
 * /usr/lib/node_modules/npm/node_modules/tinyglobby/node_modules/fdir/dist/api/functions/push-directory.js
 * /usr/lib/node_modules/npm/node_modules/tinyglobby/node_modules/fdir/dist/api/functions/push-file.js
@@ -2311,8 +2314,11 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/node_modules/tinyglobby/node_modules/fdir/dist/api/walker.js
 * /usr/lib/node_modules/npm/node_modules/tinyglobby/node_modules/fdir/dist/builder/api-builder.js
 * /usr/lib/node_modules/npm/node_modules/tinyglobby/node_modules/fdir/dist/builder/index.js
+* /usr/lib/node_modules/npm/node_modules/tinyglobby/node_modules/fdir/dist/index.cjs
+* /usr/lib/node_modules/npm/node_modules/tinyglobby/node_modules/fdir/dist/index.d.cts
+* /usr/lib/node_modules/npm/node_modules/tinyglobby/node_modules/fdir/dist/index.d.mts
 * /usr/lib/node_modules/npm/node_modules/tinyglobby/node_modules/fdir/dist/index.js
-* /usr/lib/node_modules/npm/node_modules/tinyglobby/node_modules/fdir/dist/optimizer.js
+* /usr/lib/node_modules/npm/node_modules/tinyglobby/node_modules/fdir/dist/index.mjs
 * /usr/lib/node_modules/npm/node_modules/tinyglobby/node_modules/fdir/dist/types.js
 * /usr/lib/node_modules/npm/node_modules/tinyglobby/node_modules/fdir/dist/utils.js
 * /usr/lib/node_modules/npm/node_modules/tinyglobby/node_modules/fdir/LICENSE
@@ -2426,6 +2432,6 @@ Evented I/O for V8 javascript
 * /usr/lib/node_modules/npm/README.md
 * /usr/share/doc/node/gdbinit
 * /usr/share/doc/node/lldb_commands.py
-* /usr/share/doc/nodejs-24.2.0/LICENSE
-* /usr/share/doc/nodejs-24.2.0/README.md
+* /usr/share/doc/nodejs-24.3.0/LICENSE
+* /usr/share/doc/nodejs-24.3.0/README.md
 * /usr/share/man/man1/node.1.gz

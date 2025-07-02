@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "sdl3-static 3.2.16-2"
-version = "3.2.16-2"
+title = "sdl3-static 3.2.16-3"
+version = "3.2.16-3"
 description = "SDL3 static libs."
-date = "2025-06-17T09:17:37"
+date = "2025-07-02T16:25:21"
 aliases = "/packages/222745"
 categories = ['devel-extra']
 upstreamurl = "http://libsdl.org"
 arch = "x86_64"
-size = "282472"
-usize = "329816"
-sha1sum = "dff8d3d192cebf8328ca5dbafa8fe1fd229b8971"
+size = "282548"
+usize = "329792"
+sha1sum = "3000afdfd57488aeaea4611253ec109fce6e1195"
 depends = "[]"
 +++
 ### Description: 

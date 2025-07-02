@@ -1,18 +1,18 @@
 +++
 draft = false
-title = "sdl3 3.2.16-2"
-version = "3.2.16-2"
+title = "sdl3 3.2.16-3"
+version = "3.2.16-3"
 description = "Simple DirectMedia Layer library v2"
-date = "2025-06-17T09:17:37"
+date = "2025-07-02T16:25:21"
 aliases = "/packages/222622"
 categories = ['xlib']
 upstreamurl = "http://libsdl.org"
 arch = "x86_64"
-size = "1332536"
-usize = "6341409"
-sha1sum = "c1b1e0c6d799a9a15a8466fde4b0b6ac656898bf"
+size = "1335056"
+usize = "6346849"
+sha1sum = "d5a2f564f34fd6595d05fbca243819d78d5e6765"
 depends = "['glibc>=2.34']"
-reverse_depends = "['sdl2-compat', 'sdl3_image', 'sdl3_ttf']"
+reverse_depends = "['faudio', 'sdl2-compat', 'sdl3_image', 'sdl3_ttf']"
 +++
 ### Description: 
 Simple DirectMedia Layer library v2
