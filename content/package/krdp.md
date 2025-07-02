@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "krdp 6.4.1-1"
-version = "6.4.1-1"
+title = "krdp 6.4.2-1"
+version = "6.4.2-1"
 description = "Library and examples for creating an RDP server"
-date = "2025-06-25T09:30:50"
+date = "2025-07-02T14:02:36"
 aliases = "/packages/221525"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "171116"
+size = "171360"
 usize = "720376"
-sha1sum = "89192c90e51972c7999edd044dc80931ddc2c1ac"
-depends = "['freerdp', 'kcmutils>=6.15.0', 'kpipewire>=6.4.1', 'kstatusnotifieritem>=6.15.0', 'qtkeychain']"
+sha1sum = "c306ede11e280d4380b70c1fc09cb446e1c76d2f"
+depends = "['freerdp', 'kcmutils>=6.15.0', 'kpipewire>=6.4.2', 'kstatusnotifieritem>=6.15.0', 'qtkeychain']"
 +++
 ### Description: 
 Library and examples for creating an RDP server
@@ -22,13 +22,13 @@ Library and examples for creating an RDP server
 * /usr/lib/cmake/KRdp/KRdpConfigVersion.cmake
 * /usr/lib/libKRdp.so
 * /usr/lib/libKRdp.so.6
-* /usr/lib/libKRdp.so.6.4.1
+* /usr/lib/libKRdp.so.6.4.2
 * /usr/lib/qt6/plugins/plasma/kcms/systemsettings/kcm_krdpserver.so
 * /usr/lib/systemd/user/app-org.kde.krdpserver.service
 * /usr/share/applications/kcm_krdpserver.desktop
 * /usr/share/applications/org.kde.krdpserver.desktop
-* /usr/share/doc/krdp-6.4.1/README.md
-* /usr/share/doc/krdp-6.4.1/README.md.license
+* /usr/share/doc/krdp-6.4.2/README.md
+* /usr/share/doc/krdp-6.4.2/README.md.license
 * /usr/share/locale/ar/LC_MESSAGES/kcm_krdpserver.mo
 * /usr/share/locale/ar/LC_MESSAGES/krdpserver.mo
 * /usr/share/locale/bg/LC_MESSAGES/kcm_krdpserver.mo

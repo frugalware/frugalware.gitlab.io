@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "powerdevil 6.4.1-1"
-version = "6.4.1-1"
+title = "powerdevil 6.4.2-1"
+version = "6.4.2-1"
 description = "KDE power management tools."
-date = "2025-06-25T09:09:50"
+date = "2025-07-02T11:25:31"
 aliases = "/packages/221379"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1342816"
-usize = "5298232"
-sha1sum = "e3073a7e1e75c59d3c31b3b1425e3e40c769dbcc"
-depends = "['bluez-qt>=6.15.0', 'ddcutil', 'plasma-workspace>=6.4.1', 'power-profiles-daemon']"
+size = "1343708"
+usize = "5299766"
+sha1sum = "1cbbad7f9263ad88e39c60ba7ad2f542275eee6a"
+depends = "['bluez-qt>=6.15.0', 'ddcutil', 'plasma-workspace>=6.4.2', 'power-profiles-daemon']"
 +++
 ### Description: 
 KDE power management tools.
@@ -23,7 +23,7 @@ KDE power management tools.
 * /usr/lib/kauth/kf6/kauth/discretegpuhelper
 * /usr/lib/libpowerdevilcore.so
 * /usr/lib/libpowerdevilcore.so.2
-* /usr/lib/libpowerdevilcore.so.6.4.1
+* /usr/lib/libpowerdevilcore.so.6.4.2
 * /usr/lib/powerdevil/org_kde_powerdevil
 * /usr/lib/qt6/plugins/kf6/krunner/krunner_powerdevil.so
 * /usr/lib/qt6/plugins/plasma/kcms/systemsettings/kcm_mobile_power.so
@@ -93,8 +93,8 @@ KDE power management tools.
 * /usr/share/doc/HTML/uk/kcontrol/powerdevil/energy.png
 * /usr/share/doc/HTML/uk/kcontrol/powerdevil/index.cache.bz2
 * /usr/share/doc/HTML/uk/kcontrol/powerdevil/index.docbook
-* /usr/share/doc/powerdevil-6.4.1/COPYING
-* /usr/share/doc/powerdevil-6.4.1/README.md
+* /usr/share/doc/powerdevil-6.4.2/COPYING
+* /usr/share/doc/powerdevil-6.4.2/README.md
 * /usr/share/knotifications6/powerdevil.notifyrc
 * /usr/share/locale/ar/LC_MESSAGES/kcm_mobile_power.mo
 * /usr/share/locale/ar/LC_MESSAGES/kcm_powerdevilprofilesconfig.mo

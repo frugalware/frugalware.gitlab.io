@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kpipewire 6.4.1-1"
-version = "6.4.1-1"
+title = "kpipewire 6.4.2-1"
+version = "6.4.2-1"
 description = "Components relating to pipewire use in Plasma"
-date = "2025-06-25T09:26:46"
+date = "2025-07-02T13:58:45"
 aliases = "/packages/220610"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "129856"
+size = "129868"
 usize = "479684"
-sha1sum = "24b7a48f48a36b53a85b37ed2581dac379ad9cf6"
-depends = "['ffmpeg>=7.0', 'kcoreaddons>=6.15.0', 'ki18n>=6.15.0', 'kwayland>=6.4.1', 'libepoxy', 'pipewire']"
+sha1sum = "f7fe62beccb236ec95a041ea91ab080fe478c7ef"
+depends = "['ffmpeg>=7.0', 'kcoreaddons>=6.15.0', 'ki18n>=6.15.0', 'kwayland>=6.4.2', 'libepoxy', 'pipewire']"
 reverse_depends = "['krdp', 'krfb-pipewire', 'plasma-desktop', 'plasma-wayland-session', 'spectacle', 'xwaylandvideobridge']"
 +++
 ### Description: 
@@ -39,13 +39,13 @@ Components relating to pipewire use in Plasma
 * /usr/lib/cmake/KPipeWire/KPipeWireTargets.cmake
 * /usr/lib/libKPipeWire.so
 * /usr/lib/libKPipeWire.so.6
-* /usr/lib/libKPipeWire.so.6.4.1
+* /usr/lib/libKPipeWire.so.6.4.2
 * /usr/lib/libKPipeWireDmaBuf.so
 * /usr/lib/libKPipeWireDmaBuf.so.6
-* /usr/lib/libKPipeWireDmaBuf.so.6.4.1
+* /usr/lib/libKPipeWireDmaBuf.so.6.4.2
 * /usr/lib/libKPipeWireRecord.so
 * /usr/lib/libKPipeWireRecord.so.6
-* /usr/lib/libKPipeWireRecord.so.6.4.1
+* /usr/lib/libKPipeWireRecord.so.6.4.2
 * /usr/lib/qt6/qml/org/kde/pipewire/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/pipewire/KPipeWire.qmltypes
 * /usr/lib/qt6/qml/org/kde/pipewire/libKPipeWireplugin.so
@@ -58,7 +58,7 @@ Components relating to pipewire use in Plasma
 * /usr/lib/qt6/qml/org/kde/pipewire/record/KPipeWireRecord.qmltypes
 * /usr/lib/qt6/qml/org/kde/pipewire/record/libKPipeWireRecordplugin.so
 * /usr/lib/qt6/qml/org/kde/pipewire/record/qmldir
-* /usr/share/doc/kpipewire-6.4.1/README.md
+* /usr/share/doc/kpipewire-6.4.2/README.md
 * /usr/share/locale/ar/LC_MESSAGES/kpipewire6.mo
 * /usr/share/locale/ast/LC_MESSAGES/kpipewire6.mo
 * /usr/share/locale/bg/LC_MESSAGES/kpipewire6.mo

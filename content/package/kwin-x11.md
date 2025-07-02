@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kwin-x11 6.4.1-1"
-version = "6.4.1-1"
+title = "kwin-x11 6.4.2-1"
+version = "6.4.2-1"
 description = "KDE Window Manager for X11"
-date = "2025-06-25T09:39:20"
+date = "2025-07-02T14:11:01"
 aliases = "/packages/222753"
 categories = ['plasma']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "7675948"
-usize = "26325195"
-sha1sum = "15dbda20c97ac546d01962f081a210d61a351b4a"
+size = "7677280"
+usize = "26337075"
+sha1sum = "e2cf79bbe4051fce2769b0e10baf98153a76805f"
 depends = "['aurorae>=', 'breeze>=', 'kauth>=', 'kcmutils>=', 'kconfig>=', 'kconfigwidgets>=', 'kcoreaddons>=', 'kcrash>=', 'kdbusaddons>=', 'kdeclarative>=', 'kglobalacceld>=', 'kguiaddons>=', 'ki18n>=', 'kidletime>=', 'knewstuff>=', 'kpackage>=', 'kscreenlocker>=', 'kservice>=', 'ksvg>=', 'kwayland>=', 'kwidgetsaddons>=', 'kwindowsystem>=', 'kxmlgui>=', 'lcms2', 'libdisplay-info>=0.2.0', 'libei', 'libplasma>=', 'libqaccessibilityclient', 'libxcvt', 'pipewire', 'plasma-activities>=', 'qt6-5compat>=_F_kdever_qt6', 'qt6-sensors>=', 'qt6-tools>=', 'qt6-wayland>=']"
 reverse_depends = "['plasma-x11-session']"
 +++
@@ -301,10 +301,10 @@ KDE Window Manager for X11
 * /usr/lib/kwin-x11/kwin-applywindowdecoration-x11
 * /usr/lib/kwin-x11/kwin_killer_helper_x11
 * /usr/lib/libkcmkwincommon-x11.so.6
-* /usr/lib/libkcmkwincommon-x11.so.6.4.1
+* /usr/lib/libkcmkwincommon-x11.so.6.4.2
 * /usr/lib/libkwin-x11.so
 * /usr/lib/libkwin-x11.so.6
-* /usr/lib/libkwin-x11.so.6.4.1
+* /usr/lib/libkwin-x11.so.6.4.2
 * /usr/lib/qt6/plugins/kf6/packagestructure/kwin_aurorae_x11.so
 * /usr/lib/qt6/plugins/kf6/packagestructure/kwin_decoration_x11.so
 * /usr/lib/qt6/plugins/kf6/packagestructure/kwin_effect_x11.so
@@ -506,7 +506,7 @@ KDE Window Manager for X11
 * /usr/share/doc/HTML/uk/kcontrol/windowbehaviour-x11/index.docbook
 * /usr/share/doc/HTML/uk/kcontrol/windowspecific-x11/index.cache.bz2
 * /usr/share/doc/HTML/uk/kcontrol/windowspecific-x11/index.docbook
-* /usr/share/doc/kwin-x11-6.4.1/README.md
+* /usr/share/doc/kwin-x11-6.4.2/README.md
 * /usr/share/icons/hicolor/16x16/apps/kwin-x11.png
 * /usr/share/icons/hicolor/32x32/apps/kwin-x11.png
 * /usr/share/icons/hicolor/48x48/apps/kwin-x11.png
@@ -1216,6 +1216,7 @@ KDE Window Manager for X11
 * /usr/share/locale/pl/LC_MESSAGES/kcmkwincompositing_x11.mo
 * /usr/share/locale/pl/LC_MESSAGES/kcmkwinscreenedges_x11.mo
 * /usr/share/locale/pl/LC_MESSAGES/kcmkwm_x11.mo
+* /usr/share/locale/pl/LC_MESSAGES/kcm_animations_x11.mo
 * /usr/share/locale/pl/LC_MESSAGES/kcm_kwindecoration_x11.mo
 * /usr/share/locale/pl/LC_MESSAGES/kcm_kwinrules_x11.mo
 * /usr/share/locale/pl/LC_MESSAGES/kcm_kwintabbox_x11.mo
@@ -1261,6 +1262,7 @@ KDE Window Manager for X11
 * /usr/share/locale/ru/LC_MESSAGES/kcmkwincompositing_x11.mo
 * /usr/share/locale/ru/LC_MESSAGES/kcmkwinscreenedges_x11.mo
 * /usr/share/locale/ru/LC_MESSAGES/kcmkwm_x11.mo
+* /usr/share/locale/ru/LC_MESSAGES/kcm_animations_x11.mo
 * /usr/share/locale/ru/LC_MESSAGES/kcm_kwindecoration_x11.mo
 * /usr/share/locale/ru/LC_MESSAGES/kcm_kwinrules_x11.mo
 * /usr/share/locale/ru/LC_MESSAGES/kcm_kwintabbox_x11.mo
