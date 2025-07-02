@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "plasma-welcome 6.4.1-1"
-version = "6.4.1-1"
+title = "plasma-welcome 6.4.2-1"
+version = "6.4.2-1"
 description = "A friendly onboarding wizard for Plasma"
-date = "2025-06-25T09:49:40"
+date = "2025-07-02T14:37:45"
 aliases = "/packages/220919"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "876096"
-usize = "3067281"
-sha1sum = "4470dceebc9bb5a02ad80953863201155ebff881"
+size = "876188"
+usize = "3067280"
+sha1sum = "7374d28c27cad4066d64200645652af1671eb8ca"
 depends = "['kaccounts-integration>=25.04.2', 'kirigami>=6.15.0', 'kirigami-addons', 'knewstuff>=6.15.0', 'kuserfeedback', 'libplasma>=']"
 +++
 ### Description: 
@@ -29,7 +29,7 @@ A friendly onboarding wizard for Plasma
 * /usr/lib/qt6/qml/org/kde/plasma/welcome/qmldir
 * /usr/lib/qt6/qml/org/kde/plasma/welcome/ScrollablePage.qml
 * /usr/share/applications/org.kde.plasma-welcome.desktop
-* /usr/share/doc/plasma-welcome-6.4.1/README.md
+* /usr/share/doc/plasma-welcome-6.4.2/README.md
 * /usr/share/locale/ar/LC_MESSAGES/plasma-welcome.mo
 * /usr/share/locale/ast/LC_MESSAGES/plasma-welcome.mo
 * /usr/share/locale/az/LC_MESSAGES/plasma-welcome.mo
