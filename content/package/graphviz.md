@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "graphviz 13.0.1-1"
-version = "13.0.1-1"
+title = "graphviz 13.1.0-1"
+version = "13.1.0-1"
 description = "Open Source Graph Visualization Software"
-date = "2025-06-20T14:38:17"
+date = "2025-07-02T17:15:34"
 aliases = "/packages/4238"
 categories = ['xapps-extra']
 upstreamurl = "https://www.graphviz.org"
 arch = "x86_64"
-size = "3206052"
-usize = "7701220"
-sha1sum = "654345c1f8cd0c4d0a6ca277d8f0146641f5e2c8"
+size = "3204672"
+usize = "7703088"
+sha1sum = "d8bcb0a42349acb1ea513a3d5c176d0afe3c91a9"
 depends = "['devil>=1.8.0', 'freeglut', 'gd>=2.1.1-4', 'guile>=3.0.4', 'libgs>=10.0.0', 'librsvg', 'libxaw', 'libxpm', 'perl>=5.22.1', 'python3>=3.13']"
 reverse_depends = "['kgraphviewer', 'libmediainfo', 'vala']"
 +++
@@ -152,87 +152,87 @@ Open Source Graph Visualization Software
 * /usr/lib/pkgconfig/libxdot.pc
 * /usr/lib/python3.13/site-packages/gv.py
 * /usr/lib/python3.13/site-packages/_gv.so
-* /usr/share/doc/graphviz-13.0.1/acyclic.1.pdf
-* /usr/share/doc/graphviz-13.0.1/Agraph.pdf
-* /usr/share/doc/graphviz-13.0.1/AUTHORS
-* /usr/share/doc/graphviz-13.0.1/bcomps.1.pdf
-* /usr/share/doc/graphviz-13.0.1/build.html
-* /usr/share/doc/graphviz-13.0.1/ccomps.1.pdf
-* /usr/share/doc/graphviz-13.0.1/cdt.3.pdf
-* /usr/share/doc/graphviz-13.0.1/cgraph.3.pdf
-* /usr/share/doc/graphviz-13.0.1/ChangeLog
-* /usr/share/doc/graphviz-13.0.1/CHANGELOG.md
-* /usr/share/doc/graphviz-13.0.1/char.html
-* /usr/share/doc/graphviz-13.0.1/circo.1.pdf
-* /usr/share/doc/graphviz-13.0.1/cluster.1.pdf
-* /usr/share/doc/graphviz-13.0.1/COPYING
-* /usr/share/doc/graphviz-13.0.1/cpl1.0.txt
-* /usr/share/doc/graphviz-13.0.1/diffimg.1.pdf
-* /usr/share/doc/graphviz-13.0.1/dijkstra.1.pdf
-* /usr/share/doc/graphviz-13.0.1/dot.1.pdf
-* /usr/share/doc/graphviz-13.0.1/Dot.ref
-* /usr/share/doc/graphviz-13.0.1/dot2gxl.1.pdf
-* /usr/share/doc/graphviz-13.0.1/dotguide.pdf
-* /usr/share/doc/graphviz-13.0.1/edgepaint.1.pdf
-* /usr/share/doc/graphviz-13.0.1/expr.3.pdf
-* /usr/share/doc/graphviz-13.0.1/FAQ.html
-* /usr/share/doc/graphviz-13.0.1/fdp.1.pdf
-* /usr/share/doc/graphviz-13.0.1/gc.1.pdf
-* /usr/share/doc/graphviz-13.0.1/gdtclft.entities.example.png
-* /usr/share/doc/graphviz-13.0.1/gml2gv.1.pdf
-* /usr/share/doc/graphviz-13.0.1/graphml2gv.1.pdf
-* /usr/share/doc/graphviz-13.0.1/gv.3guile.pdf
-* /usr/share/doc/graphviz-13.0.1/gv.3perl.pdf
-* /usr/share/doc/graphviz-13.0.1/gv.3python.pdf
-* /usr/share/doc/graphviz-13.0.1/gv2gml.1.pdf
-* /usr/share/doc/graphviz-13.0.1/gv2gxl.1.pdf
-* /usr/share/doc/graphviz-13.0.1/gvc.3.pdf
-* /usr/share/doc/graphviz-13.0.1/gvcolor.1.pdf
-* /usr/share/doc/graphviz-13.0.1/gvgen.1.pdf
-* /usr/share/doc/graphviz-13.0.1/gvmap.1.pdf
-* /usr/share/doc/graphviz-13.0.1/gvmap.sh.1.pdf
-* /usr/share/doc/graphviz-13.0.1/gvpack.1.pdf
-* /usr/share/doc/graphviz-13.0.1/gvpr.1.pdf
-* /usr/share/doc/graphviz-13.0.1/gvpr.3.pdf
-* /usr/share/doc/graphviz-13.0.1/gxl2dot.1.pdf
-* /usr/share/doc/graphviz-13.0.1/gxl2gv.1.pdf
-* /usr/share/doc/graphviz-13.0.1/index.html
-* /usr/share/doc/graphviz-13.0.1/info/arrows.html
-* /usr/share/doc/graphviz-13.0.1/info/attrs.html
-* /usr/share/doc/graphviz-13.0.1/info/colors.html
-* /usr/share/doc/graphviz-13.0.1/info/command.html
-* /usr/share/doc/graphviz-13.0.1/info/index.html
-* /usr/share/doc/graphviz-13.0.1/info/lang.html
-* /usr/share/doc/graphviz-13.0.1/info/output.html
-* /usr/share/doc/graphviz-13.0.1/info/shapes.html
-* /usr/share/doc/graphviz-13.0.1/INSTALL
-* /usr/share/doc/graphviz-13.0.1/internal_todo.html
-* /usr/share/doc/graphviz-13.0.1/latex_suggestions.txt
-* /usr/share/doc/graphviz-13.0.1/libguide.pdf
-* /usr/share/doc/graphviz-13.0.1/mm2gv.1.pdf
-* /usr/share/doc/graphviz-13.0.1/neato.1.pdf
-* /usr/share/doc/graphviz-13.0.1/neatoguide.pdf
-* /usr/share/doc/graphviz-13.0.1/NEWS
-* /usr/share/doc/graphviz-13.0.1/nop.1.pdf
-* /usr/share/doc/graphviz-13.0.1/osage.1.pdf
-* /usr/share/doc/graphviz-13.0.1/pack.3.pdf
-* /usr/share/doc/graphviz-13.0.1/patchwork.1.pdf
-* /usr/share/doc/graphviz-13.0.1/pathplan.3.pdf
-* /usr/share/doc/graphviz-13.0.1/prune.1.pdf
-* /usr/share/doc/graphviz-13.0.1/pspdf.png
-* /usr/share/doc/graphviz-13.0.1/README
-* /usr/share/doc/graphviz-13.0.1/sccmap.1.pdf
-* /usr/share/doc/graphviz-13.0.1/schema/arguments.xml
-* /usr/share/doc/graphviz-13.0.1/schema/attributes.xml
-* /usr/share/doc/graphviz-13.0.1/schema/attributes.xslt
-* /usr/share/doc/graphviz-13.0.1/sfdp.1.pdf
-* /usr/share/doc/graphviz-13.0.1/todo.html
-* /usr/share/doc/graphviz-13.0.1/tred.1.pdf
-* /usr/share/doc/graphviz-13.0.1/twopi.1.pdf
-* /usr/share/doc/graphviz-13.0.1/unflatten.1.pdf
-* /usr/share/doc/graphviz-13.0.1/vimdot.1.pdf
-* /usr/share/doc/graphviz-13.0.1/winbuild.html
-* /usr/share/doc/graphviz-13.0.1/xdot.3.pdf
+* /usr/share/doc/graphviz-13.1.0/acyclic.1.pdf
+* /usr/share/doc/graphviz-13.1.0/Agraph.pdf
+* /usr/share/doc/graphviz-13.1.0/AUTHORS
+* /usr/share/doc/graphviz-13.1.0/bcomps.1.pdf
+* /usr/share/doc/graphviz-13.1.0/build.html
+* /usr/share/doc/graphviz-13.1.0/ccomps.1.pdf
+* /usr/share/doc/graphviz-13.1.0/cdt.3.pdf
+* /usr/share/doc/graphviz-13.1.0/cgraph.3.pdf
+* /usr/share/doc/graphviz-13.1.0/ChangeLog
+* /usr/share/doc/graphviz-13.1.0/CHANGELOG.md
+* /usr/share/doc/graphviz-13.1.0/char.html
+* /usr/share/doc/graphviz-13.1.0/circo.1.pdf
+* /usr/share/doc/graphviz-13.1.0/cluster.1.pdf
+* /usr/share/doc/graphviz-13.1.0/COPYING
+* /usr/share/doc/graphviz-13.1.0/cpl1.0.txt
+* /usr/share/doc/graphviz-13.1.0/diffimg.1.pdf
+* /usr/share/doc/graphviz-13.1.0/dijkstra.1.pdf
+* /usr/share/doc/graphviz-13.1.0/dot.1.pdf
+* /usr/share/doc/graphviz-13.1.0/Dot.ref
+* /usr/share/doc/graphviz-13.1.0/dot2gxl.1.pdf
+* /usr/share/doc/graphviz-13.1.0/dotguide.pdf
+* /usr/share/doc/graphviz-13.1.0/edgepaint.1.pdf
+* /usr/share/doc/graphviz-13.1.0/expr.3.pdf
+* /usr/share/doc/graphviz-13.1.0/FAQ.html
+* /usr/share/doc/graphviz-13.1.0/fdp.1.pdf
+* /usr/share/doc/graphviz-13.1.0/gc.1.pdf
+* /usr/share/doc/graphviz-13.1.0/gdtclft.entities.example.png
+* /usr/share/doc/graphviz-13.1.0/gml2gv.1.pdf
+* /usr/share/doc/graphviz-13.1.0/graphml2gv.1.pdf
+* /usr/share/doc/graphviz-13.1.0/gv.3guile.pdf
+* /usr/share/doc/graphviz-13.1.0/gv.3perl.pdf
+* /usr/share/doc/graphviz-13.1.0/gv.3python.pdf
+* /usr/share/doc/graphviz-13.1.0/gv2gml.1.pdf
+* /usr/share/doc/graphviz-13.1.0/gv2gxl.1.pdf
+* /usr/share/doc/graphviz-13.1.0/gvc.3.pdf
+* /usr/share/doc/graphviz-13.1.0/gvcolor.1.pdf
+* /usr/share/doc/graphviz-13.1.0/gvgen.1.pdf
+* /usr/share/doc/graphviz-13.1.0/gvmap.1.pdf
+* /usr/share/doc/graphviz-13.1.0/gvmap.sh.1.pdf
+* /usr/share/doc/graphviz-13.1.0/gvpack.1.pdf
+* /usr/share/doc/graphviz-13.1.0/gvpr.1.pdf
+* /usr/share/doc/graphviz-13.1.0/gvpr.3.pdf
+* /usr/share/doc/graphviz-13.1.0/gxl2dot.1.pdf
+* /usr/share/doc/graphviz-13.1.0/gxl2gv.1.pdf
+* /usr/share/doc/graphviz-13.1.0/index.html
+* /usr/share/doc/graphviz-13.1.0/info/arrows.html
+* /usr/share/doc/graphviz-13.1.0/info/attrs.html
+* /usr/share/doc/graphviz-13.1.0/info/colors.html
+* /usr/share/doc/graphviz-13.1.0/info/command.html
+* /usr/share/doc/graphviz-13.1.0/info/index.html
+* /usr/share/doc/graphviz-13.1.0/info/lang.html
+* /usr/share/doc/graphviz-13.1.0/info/output.html
+* /usr/share/doc/graphviz-13.1.0/info/shapes.html
+* /usr/share/doc/graphviz-13.1.0/INSTALL
+* /usr/share/doc/graphviz-13.1.0/internal_todo.html
+* /usr/share/doc/graphviz-13.1.0/latex_suggestions.txt
+* /usr/share/doc/graphviz-13.1.0/libguide.pdf
+* /usr/share/doc/graphviz-13.1.0/mm2gv.1.pdf
+* /usr/share/doc/graphviz-13.1.0/neato.1.pdf
+* /usr/share/doc/graphviz-13.1.0/neatoguide.pdf
+* /usr/share/doc/graphviz-13.1.0/NEWS
+* /usr/share/doc/graphviz-13.1.0/nop.1.pdf
+* /usr/share/doc/graphviz-13.1.0/osage.1.pdf
+* /usr/share/doc/graphviz-13.1.0/pack.3.pdf
+* /usr/share/doc/graphviz-13.1.0/patchwork.1.pdf
+* /usr/share/doc/graphviz-13.1.0/pathplan.3.pdf
+* /usr/share/doc/graphviz-13.1.0/prune.1.pdf
+* /usr/share/doc/graphviz-13.1.0/pspdf.png
+* /usr/share/doc/graphviz-13.1.0/README
+* /usr/share/doc/graphviz-13.1.0/sccmap.1.pdf
+* /usr/share/doc/graphviz-13.1.0/schema/arguments.xml
+* /usr/share/doc/graphviz-13.1.0/schema/attributes.xml
+* /usr/share/doc/graphviz-13.1.0/schema/attributes.xslt
+* /usr/share/doc/graphviz-13.1.0/sfdp.1.pdf
+* /usr/share/doc/graphviz-13.1.0/todo.html
+* /usr/share/doc/graphviz-13.1.0/tred.1.pdf
+* /usr/share/doc/graphviz-13.1.0/twopi.1.pdf
+* /usr/share/doc/graphviz-13.1.0/unflatten.1.pdf
+* /usr/share/doc/graphviz-13.1.0/vimdot.1.pdf
+* /usr/share/doc/graphviz-13.1.0/winbuild.html
+* /usr/share/doc/graphviz-13.1.0/xdot.3.pdf
 * /usr/share/graphviz/demo/modgraph.pl
 * /usr/share/graphviz/demo/modgraph.py
 * /usr/share/graphviz/graphs/directed/abstract.gv
