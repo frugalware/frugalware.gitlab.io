@@ -12,6 +12,7 @@ size = "113420964"
 usize = "138648162"
 sha1sum = "9924e6b5d88268f5fb60afe848aa59134159a0b8"
 depends = "['hip-runtime-amd', 'rocblas', 'rocm-core', 'rocsparse']"
+reverse_depends = "['hipblas']"
 +++
 ### Description: 
 Subset of LAPACK functionality on the ROCm platform

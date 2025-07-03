@@ -12,6 +12,7 @@ size = "5588"
 usize = "17498"
 sha1sum = "b2e28ffdbba4be9ecc394a0635698be80a12d7d8"
 depends = "['rocm-core']"
+reverse_depends = "['hipblas']"
 +++
 ### Description: 
 Common files shared by hipBLAS and hipBLASLt

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-mesa-vulkan-amd 25.1.4-1"
-version = "25.1.4-1"
+title = "lib32-mesa-vulkan-amd 25.1.5-1"
+version = "25.1.5-1"
 description = "AMD Mesa Support for Vulkan (32-bit)"
-date = "2025-06-19T09:37:12"
+date = "2025-07-03T07:30:20"
 aliases = "/packages/218912"
 categories = ['lib32-extra']
 upstreamurl = "https://www.mesa3d.org"
 arch = "x86_64"
-size = "2649572"
-usize = "17281001"
-sha1sum = "cf80c747b66f2f81bc4c1f7437b48911d15441ef"
+size = "2649192"
+usize = "17285097"
+sha1sum = "b9689beb64bb1efae610d5b0d92d638f45cae348"
 depends = "['lib32-libudev', 'lib32-vulkan-icd-loader', 'lib32-xcb-util-keysyms', 'lib32-zstd']"
 +++
 ### Description: 
