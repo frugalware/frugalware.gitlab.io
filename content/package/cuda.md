@@ -12,7 +12,7 @@ size = "1538371212"
 usize = "3667545752"
 sha1sum = "b86f2c2710db3c7152fd531c57fa2bdfe7292b2b"
 depends = "['gcc-14', 'nvidia', 'python3']"
-reverse_depends = "['cuda-tools', 'gst1-plugins-bad-cuda', 'openucx-cuda']"
+reverse_depends = "['cuda-tools', 'gst1-plugins-bad-cuda', 'ollama-cuda', 'openucx-cuda']"
 +++
 ### Description: 
 NVIDIA's GPU programming toolkit

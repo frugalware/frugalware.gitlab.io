@@ -12,6 +12,7 @@ size = "235884"
 usize = "4399831"
 sha1sum = "f898522830c5d98c06605345b64894bb55521bb4"
 depends = "['hip-runtime-amd', 'hipblas-common', 'rocblas', 'rocm-core', 'rocsolver']"
+reverse_depends = "['ollama-rocm']"
 +++
 ### Description: 
 ROCm BLAS marshalling library

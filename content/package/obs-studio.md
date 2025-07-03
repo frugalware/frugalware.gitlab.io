@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "obs-studio 31.0.4-1"
-version = "31.0.4-1"
+title = "obs-studio 31.0.4-2"
+version = "31.0.4-2"
 description = "Free, open source software for live streaming and recording"
-date = "2025-06-30T09:44:23"
+date = "2025-07-03T11:56:31"
 aliases = "/packages/219145"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/obsproject/obs-studio"
 arch = "x86_64"
-size = "8083144"
-usize = "31755031"
-sha1sum = "12e5cde7536d03011f3cbb75b0a17df098d97246"
+size = "7855400"
+usize = "31755831"
+sha1sum = "280ef2726c5d7cf2bade413861b9fb690f0fc290"
 depends = "['asio', 'cef', 'curl', 'fdk-aac', 'ffmpeg>=7.0', 'gtk+3', 'jansson', 'libdatachannel>=0.23.0', 'libxcomposite', 'libxinerama', 'libxkbcommon', 'luajit2', 'mbedtls>=3.6.2', 'pipewire', 'python3>=3.13', 'qr-code-generator', 'qt6-svg>=6.8.2', 'rnnoise', 'vlc', 'websocketpp', 'x264>=20230712.ga8b68eb']"
 +++
 ### Description: 

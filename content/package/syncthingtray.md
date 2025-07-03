@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "syncthingtray 1.7.8-1"
-version = "1.7.8-1"
+title = "syncthingtray 1.7.9-1"
+version = "1.7.9-1"
 description = "tray app for syncthing"
-date = "2025-06-18T09:40:21"
+date = "2025-07-03T10:00:14"
 aliases = "/packages/222522"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/Martchus/syncthingtray"
 arch = "x86_64"
-size = "905156"
-usize = "3710968"
-sha1sum = "bd81e82947fdc3269f06d0a8b5b0b377ea3af321"
+size = "938804"
+usize = "3942462"
+sha1sum = "6cf641c8d08bbc3f469c24824af25cfd949a16b4"
 depends = "['cpp-utilities', 'libboost>=1.88.0', 'qt6-webengine', 'qtforkawesome', 'qtutilities', 'syncthing']"
 +++
 ### Description: 
@@ -72,14 +72,14 @@ tray app for syncthing
 * /usr/include/syncthingwidgets/webview/webpage.h
 * /usr/include/syncthingwidgets/webview/webviewdialog.h
 * /usr/lib/libsyncthingconnector.so
-* /usr/lib/libsyncthingconnector.so.1.7.8
-* /usr/lib/libsyncthingconnector.so.26
+* /usr/lib/libsyncthingconnector.so.1.7.9
+* /usr/lib/libsyncthingconnector.so.27
 * /usr/lib/libsyncthingmodel.so
-* /usr/lib/libsyncthingmodel.so.1.7.8
-* /usr/lib/libsyncthingmodel.so.26
+* /usr/lib/libsyncthingmodel.so.1.7.9
+* /usr/lib/libsyncthingmodel.so.27
 * /usr/lib/libsyncthingwidgets.so
-* /usr/lib/libsyncthingwidgets.so.1.7.8
-* /usr/lib/libsyncthingwidgets.so.26
+* /usr/lib/libsyncthingwidgets.so.1.7.9
+* /usr/lib/libsyncthingwidgets.so.27
 * /usr/lib/pkgconfig/syncthingconnector.pc
 * /usr/lib/pkgconfig/syncthingfileitemaction.pc
 * /usr/lib/pkgconfig/syncthingmodel.pc
@@ -90,8 +90,8 @@ tray app for syncthing
 * /usr/share/applications/syncthingtray.desktop
 * /usr/share/bash-completion/completions/syncthingctl
 * /usr/share/bash-completion/completions/syncthingtray
-* /usr/share/doc/syncthingtray-1.7.8/LICENSE
-* /usr/share/doc/syncthingtray-1.7.8/README.md
+* /usr/share/doc/syncthingtray-1.7.9/LICENSE
+* /usr/share/doc/syncthingtray-1.7.9/README.md
 * /usr/share/icons/hicolor/scalable/apps/syncthingtray.svg
 * /usr/share/metainfo/io.github.martchus.syncthingfileitemaction.metainfo.xml
 * /usr/share/metainfo/io.github.martchus.syncthingplasmoid.metainfo.xml
@@ -123,6 +123,7 @@ tray app for syncthing
 * /usr/share/syncthingconnector/translations/syncthingconnector_cs_CZ.qm
 * /usr/share/syncthingconnector/translations/syncthingconnector_de_DE.qm
 * /usr/share/syncthingconnector/translations/syncthingconnector_en_US.qm
+* /usr/share/syncthingconnector/translations/syncthingconnector_ru_RU.qm
 * /usr/share/syncthingconnector/translations/syncthingconnector_zh_CN.qm
 * /usr/share/syncthingfileitemaction/cmake/syncthingfileitemactionConfig.cmake
 * /usr/share/syncthingfileitemaction/cmake/syncthingfileitemactionConfigVersion.cmake
@@ -131,6 +132,7 @@ tray app for syncthing
 * /usr/share/syncthingfileitemaction/translations/syncthingfileitemaction_cs_CZ.qm
 * /usr/share/syncthingfileitemaction/translations/syncthingfileitemaction_de_DE.qm
 * /usr/share/syncthingfileitemaction/translations/syncthingfileitemaction_en_US.qm
+* /usr/share/syncthingfileitemaction/translations/syncthingfileitemaction_ru_RU.qm
 * /usr/share/syncthingfileitemaction/translations/syncthingfileitemaction_zh_CN.qm
 * /usr/share/syncthingmodel/cmake/syncthingmodelConfig.cmake
 * /usr/share/syncthingmodel/cmake/syncthingmodelConfigVersion.cmake
@@ -139,16 +141,21 @@ tray app for syncthing
 * /usr/share/syncthingmodel/translations/syncthingmodel_cs_CZ.qm
 * /usr/share/syncthingmodel/translations/syncthingmodel_de_DE.qm
 * /usr/share/syncthingmodel/translations/syncthingmodel_en_US.qm
+* /usr/share/syncthingmodel/translations/syncthingmodel_ru_RU.qm
 * /usr/share/syncthingmodel/translations/syncthingmodel_zh_CN.qm
 * /usr/share/syncthingplasmoid/cmake/syncthingplasmoidConfig.cmake
 * /usr/share/syncthingplasmoid/cmake/syncthingplasmoidConfigVersion.cmake
 * /usr/share/syncthingplasmoid/cmake/syncthingplasmoidTargets-release.cmake
 * /usr/share/syncthingplasmoid/cmake/syncthingplasmoidTargets.cmake
+* /usr/share/syncthingplasmoid/translations/syncthingplasmoid_cs_CZ.qm
 * /usr/share/syncthingplasmoid/translations/syncthingplasmoid_de_DE.qm
 * /usr/share/syncthingplasmoid/translations/syncthingplasmoid_en_US.qm
+* /usr/share/syncthingplasmoid/translations/syncthingplasmoid_ru_RU.qm
+* /usr/share/syncthingplasmoid/translations/syncthingplasmoid_zh_CN.qm
 * /usr/share/syncthingtray/translations/syncthingtray_cs_CZ.qm
 * /usr/share/syncthingtray/translations/syncthingtray_de_DE.qm
 * /usr/share/syncthingtray/translations/syncthingtray_en_US.qm
+* /usr/share/syncthingtray/translations/syncthingtray_ru_RU.qm
 * /usr/share/syncthingtray/translations/syncthingtray_zh_CN.qm
 * /usr/share/syncthingwidgets/cmake/syncthingwidgetsConfig.cmake
 * /usr/share/syncthingwidgets/cmake/syncthingwidgetsConfigVersion.cmake
@@ -157,4 +164,5 @@ tray app for syncthing
 * /usr/share/syncthingwidgets/translations/syncthingwidgets_cs_CZ.qm
 * /usr/share/syncthingwidgets/translations/syncthingwidgets_de_DE.qm
 * /usr/share/syncthingwidgets/translations/syncthingwidgets_en_US.qm
+* /usr/share/syncthingwidgets/translations/syncthingwidgets_ru_RU.qm
 * /usr/share/syncthingwidgets/translations/syncthingwidgets_zh_CN.qm
