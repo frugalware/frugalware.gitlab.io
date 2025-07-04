@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "perl-try-tiny 0.32-1"
-version = "0.32-1"
+title = "perl-try-tiny 0.32-2"
+version = "0.32-2"
 description = "Minimal try/catch with proper preservation"
-date = "2024-11-14T09:55:42"
+date = "2025-07-04T12:19:02"
 aliases = "/packages/153571"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "19064"
-usize = "32193"
-sha1sum = "4c51b0c9a13583dc9ff1f79ca14798c061cf9c03"
-depends = "['perl>=5.34.0']"
+size = "19152"
+usize = "32236"
+sha1sum = "046ed117f8aa800260f31e3954e5cb26bf1977d5"
+depends = "['perl>=5.42.0']"
 reverse_depends = "['perl-datetime', 'perl-http-daemon', 'perl-module-implementation']"
 +++
 ### Description: 

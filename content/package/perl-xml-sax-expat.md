@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "perl-xml-sax-expat 0.51-9"
-version = "0.51-9"
+title = "perl-xml-sax-expat 0.51-10"
+version = "0.51-10"
 description = "SAX2 Driver for Expat (XML::Parser)"
-date = "2025-06-18T17:07:56"
+date = "2025-07-04T12:47:49"
 aliases = "/packages/49613"
 categories = ['devel']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "7480"
-usize = "21954"
-sha1sum = "725b58d3ccbf032ce19d682b9d69338b8455eb91"
-depends = "['perl>=5.34.0', 'perl-xml-namespacesupport>=1.11-4', 'perl-xml-parser>=2.44-4', 'perl-xml-sax>=0.99-3']"
+size = "7568"
+usize = "21988"
+sha1sum = "5be275beeae3122cac42c03eb2d657259dd17a74"
+depends = "['perl>=5.42.0', 'perl-xml-namespacesupport>=1.11-4', 'perl-xml-parser>=2.44-4', 'perl-xml-sax>=0.99-3']"
 reverse_depends = "['docbook2x', 'perl-xml-simple']"
 +++
 ### Description: 

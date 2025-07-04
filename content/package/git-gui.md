@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "git-gui 2.50.0-1"
-version = "2.50.0-1"
+title = "git-gui 2.50.0-2"
+version = "2.50.0-2"
 description = "Git GUI tool."
-date = "2025-06-18T17:11:05"
+date = "2025-07-04T13:02:10"
 aliases = "/packages/23488"
 categories = ['xapps-extra']
 upstreamurl = "http://git-scm.com/"
 arch = "x86_64"
-size = "238092"
+size = "238080"
 usize = "1463885"
-sha1sum = "d42af204836d86394ea09e643832bd365c725562"
+sha1sum = "eb7bf45e273eb529045d4c0f89601eeeebec1402"
 depends = "['git>=2.50.0', 'tk>=9.0']"
 +++
 ### Description: 

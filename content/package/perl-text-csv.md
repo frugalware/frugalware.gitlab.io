@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "perl-text-csv 2.05-1"
-version = "2.05-1"
+title = "perl-text-csv 2.05-2"
+version = "2.05-2"
 description = "Text::CSV provides facilities for the composition and decomposition of comma-separated values"
-date = "2025-02-21T11:52:54"
+date = "2025-07-04T12:17:53"
 aliases = "/packages/103336"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "111296"
-usize = "365396"
-sha1sum = "aa78c8bf42933832acc4b976021c874e4c5fab87"
-depends = "['perl>=5.34.0']"
+size = "111112"
+usize = "365535"
+sha1sum = "9fa4b1eacf2990bbaa011278359f36c74a6a28fc"
+depends = "['perl>=5.42.0']"
 +++
 ### Description: 
 Text::CSV provides facilities for the composition and decomposition of comma-separated values

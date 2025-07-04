@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "hivex-python 1.3.24-5"
-version = "1.3.24-5"
+title = "hivex-python 1.3.24-6"
+version = "1.3.24-6"
 description = "Python bindings for hivex"
-date = "2025-05-22T09:58:10"
+date = "2025-07-04T13:08:25"
 aliases = "/packages/220832"
 categories = ['devel-extra']
 upstreamurl = "http://libguestfs.org/hivex.3.html"
 arch = "x86_64"
-size = "9708"
+size = "9752"
 usize = "30546"
-sha1sum = "a691ef9833b1abd9de514e3427a59b80c4f9b7c6"
+sha1sum = "cd439c561c2df365de4a5057453f026a2431a3fb"
 depends = "['hivex', 'python3']"
 +++
 ### Description: 

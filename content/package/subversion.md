@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "subversion 1.14.5-2"
-version = "1.14.5-2"
+title = "subversion 1.14.5-4"
+version = "1.14.5-4"
 description = "A version control system that is a compelling replacement for CVS."
-date = "2025-05-22T09:19:00"
+date = "2025-07-04T13:00:31"
 aliases = "/packages/3844"
 categories = ['devel-extra']
 upstreamurl = "http://subversion.apache.org/"
 arch = "x86_64"
-size = "2550816"
-usize = "8990328"
-sha1sum = "0bf1a0b1eee6e35a5a02ecbe535894639016103c"
+size = "2548460"
+usize = "8983656"
+sha1sum = "f1d1bce87921a3676e31c4413ec943978cc18545"
 depends = "['file>=5.25-3', 'serf>=1.3.9-4', 'utf8proc>=2.9.0']"
 reverse_depends = "['kdevelop', 'mod_svn', 'subversion-bindings', 'subversion-svnserve']"
 +++

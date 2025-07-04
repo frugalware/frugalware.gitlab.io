@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "subversion-bindings 1.14.5-2"
-version = "1.14.5-2"
+title = "subversion-bindings 1.14.5-4"
+version = "1.14.5-4"
 description = "Python,Perl and Java bindings for subversion"
-date = "2025-05-22T09:19:00"
+date = "2025-07-04T13:00:31"
 aliases = "/packages/14126"
 categories = ['devel-extra']
 upstreamurl = "http://subversion.apache.org/"
 arch = "x86_64"
-size = "4852916"
-usize = "24901096"
-sha1sum = "a871a5a1c893173dd70c00871a61786f65efac02"
-depends = "['openjre', 'perl>=5.22.0', 'python3', 'subversion=1.14.5']"
+size = "4873572"
+usize = "24906806"
+sha1sum = "7d01d123267cce66546a55ff4a14f6bb8bab38c5"
+depends = "['openjre', 'perl>=5.42.0', 'python3', 'subversion=1.14.5']"
 +++
 ### Description: 
 Python,Perl and Java bindings for subversion
@@ -25,21 +25,21 @@ Python,Perl and Java bindings for subversion
 * /usr/lib/libsvn_swig_py-1.so
 * /usr/lib/libsvn_swig_py-1.so.0
 * /usr/lib/libsvn_swig_py-1.so.0.0.0
-* /usr/lib/perl5/5.40/site_perl/auto/SVN/_Client/_Client.so
-* /usr/lib/perl5/5.40/site_perl/auto/SVN/_Core/_Core.so
-* /usr/lib/perl5/5.40/site_perl/auto/SVN/_Delta/_Delta.so
-* /usr/lib/perl5/5.40/site_perl/auto/SVN/_Fs/_Fs.so
-* /usr/lib/perl5/5.40/site_perl/auto/SVN/_Ra/_Ra.so
-* /usr/lib/perl5/5.40/site_perl/auto/SVN/_Repos/_Repos.so
-* /usr/lib/perl5/5.40/site_perl/auto/SVN/_Wc/_Wc.so
-* /usr/lib/perl5/5.40/site_perl/SVN/Base.pm
-* /usr/lib/perl5/5.40/site_perl/SVN/Client.pm
-* /usr/lib/perl5/5.40/site_perl/SVN/Core.pm
-* /usr/lib/perl5/5.40/site_perl/SVN/Delta.pm
-* /usr/lib/perl5/5.40/site_perl/SVN/Fs.pm
-* /usr/lib/perl5/5.40/site_perl/SVN/Ra.pm
-* /usr/lib/perl5/5.40/site_perl/SVN/Repos.pm
-* /usr/lib/perl5/5.40/site_perl/SVN/Wc.pm
+* /usr/lib/perl5/5.42/site_perl/auto/SVN/_Client/_Client.so
+* /usr/lib/perl5/5.42/site_perl/auto/SVN/_Core/_Core.so
+* /usr/lib/perl5/5.42/site_perl/auto/SVN/_Delta/_Delta.so
+* /usr/lib/perl5/5.42/site_perl/auto/SVN/_Fs/_Fs.so
+* /usr/lib/perl5/5.42/site_perl/auto/SVN/_Ra/_Ra.so
+* /usr/lib/perl5/5.42/site_perl/auto/SVN/_Repos/_Repos.so
+* /usr/lib/perl5/5.42/site_perl/auto/SVN/_Wc/_Wc.so
+* /usr/lib/perl5/5.42/site_perl/SVN/Base.pm
+* /usr/lib/perl5/5.42/site_perl/SVN/Client.pm
+* /usr/lib/perl5/5.42/site_perl/SVN/Core.pm
+* /usr/lib/perl5/5.42/site_perl/SVN/Delta.pm
+* /usr/lib/perl5/5.42/site_perl/SVN/Fs.pm
+* /usr/lib/perl5/5.42/site_perl/SVN/Ra.pm
+* /usr/lib/perl5/5.42/site_perl/SVN/Repos.pm
+* /usr/lib/perl5/5.42/site_perl/SVN/Wc.pm
 * /usr/lib/python3.13/site-packages/libsvn/client.py
 * /usr/lib/python3.13/site-packages/libsvn/core.py
 * /usr/lib/python3.13/site-packages/libsvn/delta.py

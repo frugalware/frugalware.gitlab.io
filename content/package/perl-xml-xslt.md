@@ -1,25 +1,25 @@
 +++
 draft = false
-title = "perl-xml-xslt 0.48-8"
-version = "0.48-8"
+title = "perl-xml-xslt 0.48-9"
+version = "0.48-9"
 description = "A perl module for processing XSLT"
-date = "2022-02-21T15:27:16"
+date = "2025-07-04T12:28:25"
 aliases = "/packages/30925"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "35688"
-usize = "176027"
-sha1sum = "8274eccda0dcafea552dc7a79a3547f0ff6f5840"
-depends = "['perl>=5.34.0']"
+size = "35524"
+usize = "175148"
+sha1sum = "9c6967ef6bb484b05737a7ce7ca462f7d6cb7146"
+depends = "['perl>=5.42.0']"
 reverse_depends = "['docbook2x']"
 +++
 ### Description: 
 A perl module for processing XSLT
 
 ### Files: 
-* /usr/bin/xslt-parser
-* /usr/lib/perl5/site_perl/current/XML/XSLT.pm
+* /usr/bin/site_perl/xslt-parser
+* /usr/lib/perl5/site_perl/XML/XSLT.pm
 * /usr/share/doc/perl-xml-xslt-0.48/ChangeLog
 * /usr/share/doc/perl-xml-xslt-0.48/MANIFEST
 * /usr/share/doc/perl-xml-xslt-0.48/README

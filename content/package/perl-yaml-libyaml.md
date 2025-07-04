@@ -1,28 +1,28 @@
 +++
 draft = false
-title = "perl-yaml-libyaml v0.903.0-1"
-version = "v0.903.0-1"
+title = "perl-yaml-libyaml v0.903.0-2"
+version = "v0.903.0-2"
 description = "Perl YAML Serialization using XS and libyaml"
-date = "2025-02-21T12:06:34"
+date = "2025-07-04T12:26:21"
 aliases = "/packages/222520"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "81976"
-usize = "240831"
-sha1sum = "55ff4a7c1159f7c6f80806d5b2301c419e4f2cd3"
-depends = "['perl>=5.34.0']"
+size = "82284"
+usize = "234572"
+sha1sum = "566386799d7b77328bd7058eb42e3164028161ef"
+depends = "['perl>=5.42.0']"
 +++
 ### Description: 
 Perl YAML Serialization using XS and libyaml
 
 ### Files: 
-* /usr/lib/perl5/5.40/site_perl/auto/YAML/XS/LibYAML/LibYAML.so
-* /usr/lib/perl5/5.40/site_perl/YAML/LibYAML.pm
-* /usr/lib/perl5/5.40/site_perl/YAML/LibYAML.pod
-* /usr/lib/perl5/5.40/site_perl/YAML/XS.pm
-* /usr/lib/perl5/5.40/site_perl/YAML/XS.pod
-* /usr/lib/perl5/5.40/site_perl/YAML/XS/LibYAML.pm
+* /usr/lib/perl5/5.42/site_perl/auto/YAML/XS/LibYAML/LibYAML.so
+* /usr/lib/perl5/5.42/site_perl/YAML/LibYAML.pm
+* /usr/lib/perl5/5.42/site_perl/YAML/LibYAML.pod
+* /usr/lib/perl5/5.42/site_perl/YAML/XS.pm
+* /usr/lib/perl5/5.42/site_perl/YAML/XS.pod
+* /usr/lib/perl5/5.42/site_perl/YAML/XS/LibYAML.pm
 * /usr/share/doc/perl-yaml-libyaml-v0.903.0/LICENSE
 * /usr/share/doc/perl-yaml-libyaml-v0.903.0/MANIFEST
 * /usr/share/doc/perl-yaml-libyaml-v0.903.0/README

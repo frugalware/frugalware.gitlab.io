@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "mod_svn 1.14.5-2"
-version = "1.14.5-2"
+title = "mod_svn 1.14.5-4"
+version = "1.14.5-4"
 description = "SVN module for apache 2.X webservers to use SVN server via apache"
-date = "2025-05-22T09:19:00"
+date = "2025-07-04T13:00:31"
 aliases = "/packages/14124"
 categories = ['devel-extra']
 upstreamurl = "http://subversion.apache.org/"
 arch = "x86_64"
-size = "79932"
+size = "79892"
 usize = "229609"
-sha1sum = "a55bb22bfb71a31e339e05b2344601dc515c48c6"
+sha1sum = "fca65f6723af876eaa7e34411dd79d581d976174"
 depends = "['apache>=2.4.35', 'apr-util>=1.5.4-3', 'subversion=1.14.5']"
 +++
 ### Description: 

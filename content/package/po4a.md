@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "po4a 0.72-1"
-version = "0.72-1"
+title = "po4a 0.73-1"
+version = "0.73-1"
 description = "Eases translation work, and in particular the maintenance of translations."
-date = "2024-06-05T11:50:34"
+date = "2025-07-04T12:52:32"
 aliases = "/packages/4444"
 categories = ['devel-extra']
 upstreamurl = "https://po4a.org/"
 arch = "x86_64"
-size = "2037888"
-usize = "3694353"
-sha1sum = "a060345f3642685f9cf95d8cb93070e25c42ea81"
+size = "2114084"
+usize = "3948267"
+sha1sum = "b13aa9d2264d2c02547ee115b83e21538039adea"
 depends = "['perl-gettext', 'perl-pod-parser', 'perl-sgmlspm', 'perl-syntax-keyword-try', 'perl-text-wrapi18n', 'perl-unicode-linebreak', 'perl-yaml-tiny']"
 +++
 ### Description: 
@@ -52,12 +52,12 @@ Eases translation work, and in particular the maintenance of translations.
 * /usr/lib/perl5/vendor_perl/Locale/Po4a/Xhtml.pm
 * /usr/lib/perl5/vendor_perl/Locale/Po4a/Xml.pm
 * /usr/lib/perl5/vendor_perl/Locale/Po4a/Yaml.pm
-* /usr/share/doc/po4a-0.72/COPYING
-* /usr/share/doc/po4a-0.72/MANIFEST
-* /usr/share/doc/po4a-0.72/NEWS
-* /usr/share/doc/po4a-0.72/README.maintainers
-* /usr/share/doc/po4a-0.72/README.md
-* /usr/share/doc/po4a-0.72/TODO
+* /usr/share/doc/po4a-0.73/COPYING
+* /usr/share/doc/po4a-0.73/MANIFEST
+* /usr/share/doc/po4a-0.73/NEWS
+* /usr/share/doc/po4a-0.73/README.maintainers
+* /usr/share/doc/po4a-0.73/README.md
+* /usr/share/doc/po4a-0.73/TODO
 * /usr/share/locale/ace/LC_MESSAGES/po4a.mo
 * /usr/share/locale/af/LC_MESSAGES/po4a.mo
 * /usr/share/locale/ar/LC_MESSAGES/po4a.mo
@@ -85,6 +85,7 @@ Eases translation work, and in particular the maintenance of translations.
 * /usr/share/locale/pt_BR/LC_MESSAGES/po4a.mo
 * /usr/share/locale/ru/LC_MESSAGES/po4a.mo
 * /usr/share/locale/sl/LC_MESSAGES/po4a.mo
+* /usr/share/locale/sr/LC_MESSAGES/po4a.mo
 * /usr/share/locale/sr_Cyrl/LC_MESSAGES/po4a.mo
 * /usr/share/locale/sv/LC_MESSAGES/po4a.mo
 * /usr/share/locale/uk/LC_MESSAGES/po4a.mo
@@ -443,6 +444,39 @@ Eases translation work, and in particular the maintenance of translations.
 * /usr/share/man/ru/man3/Locale::Po4a::Xml.3pm.gz
 * /usr/share/man/ru/man3/Locale::Po4a::Yaml.3pm.gz
 * /usr/share/man/ru/man7/po4a.7.gz
+* /usr/share/man/sr/man1/msguntypot.1p.gz
+* /usr/share/man/sr/man1/po4a-display-man.1.gz
+* /usr/share/man/sr/man1/po4a-display-pod.1.gz
+* /usr/share/man/sr/man1/po4a-gettextize.1p.gz
+* /usr/share/man/sr/man1/po4a-normalize.1p.gz
+* /usr/share/man/sr/man1/po4a-translate.1p.gz
+* /usr/share/man/sr/man1/po4a-updatepo.1p.gz
+* /usr/share/man/sr/man1/po4a.1p.gz
+* /usr/share/man/sr/man3/Locale::Po4a::AsciiDoc.3pm.gz
+* /usr/share/man/sr/man3/Locale::Po4a::BibTeX.3pm.gz
+* /usr/share/man/sr/man3/Locale::Po4a::Chooser.3pm.gz
+* /usr/share/man/sr/man3/Locale::Po4a::Common.3pm.gz
+* /usr/share/man/sr/man3/Locale::Po4a::Dia.3pm.gz
+* /usr/share/man/sr/man3/Locale::Po4a::Docbook.3pm.gz
+* /usr/share/man/sr/man3/Locale::Po4a::Guide.3pm.gz
+* /usr/share/man/sr/man3/Locale::Po4a::Halibut.3pm.gz
+* /usr/share/man/sr/man3/Locale::Po4a::Ini.3pm.gz
+* /usr/share/man/sr/man3/Locale::Po4a::KernelHelp.3pm.gz
+* /usr/share/man/sr/man3/Locale::Po4a::LaTeX.3pm.gz
+* /usr/share/man/sr/man3/Locale::Po4a::Man.3pm.gz
+* /usr/share/man/sr/man3/Locale::Po4a::Po.3pm.gz
+* /usr/share/man/sr/man3/Locale::Po4a::Pod.3pm.gz
+* /usr/share/man/sr/man3/Locale::Po4a::RubyDoc.3pm.gz
+* /usr/share/man/sr/man3/Locale::Po4a::Sgml.3pm.gz
+* /usr/share/man/sr/man3/Locale::Po4a::TeX.3pm.gz
+* /usr/share/man/sr/man3/Locale::Po4a::Texinfo.3pm.gz
+* /usr/share/man/sr/man3/Locale::Po4a::Text.3pm.gz
+* /usr/share/man/sr/man3/Locale::Po4a::TransTractor.3pm.gz
+* /usr/share/man/sr/man3/Locale::Po4a::Wml.3pm.gz
+* /usr/share/man/sr/man3/Locale::Po4a::Xhtml.3pm.gz
+* /usr/share/man/sr/man3/Locale::Po4a::Xml.3pm.gz
+* /usr/share/man/sr/man3/Locale::Po4a::Yaml.3pm.gz
+* /usr/share/man/sr/man7/po4a.7.gz
 * /usr/share/man/sr_Cyrl/man1/msguntypot.1p.gz
 * /usr/share/man/sr_Cyrl/man1/po4a-display-man.1.gz
 * /usr/share/man/sr_Cyrl/man1/po4a-display-pod.1.gz
@@ -464,7 +498,9 @@ Eases translation work, and in particular the maintenance of translations.
 * /usr/share/man/sr_Cyrl/man3/Locale::Po4a::LaTeX.3pm.gz
 * /usr/share/man/sr_Cyrl/man3/Locale::Po4a::Man.3pm.gz
 * /usr/share/man/sr_Cyrl/man3/Locale::Po4a::Po.3pm.gz
+* /usr/share/man/sr_Cyrl/man3/Locale::Po4a::Pod.3pm.gz
 * /usr/share/man/sr_Cyrl/man3/Locale::Po4a::RubyDoc.3pm.gz
+* /usr/share/man/sr_Cyrl/man3/Locale::Po4a::Sgml.3pm.gz
 * /usr/share/man/sr_Cyrl/man3/Locale::Po4a::TeX.3pm.gz
 * /usr/share/man/sr_Cyrl/man3/Locale::Po4a::Texinfo.3pm.gz
 * /usr/share/man/sr_Cyrl/man3/Locale::Po4a::Text.3pm.gz
@@ -473,6 +509,7 @@ Eases translation work, and in particular the maintenance of translations.
 * /usr/share/man/sr_Cyrl/man3/Locale::Po4a::Xhtml.3pm.gz
 * /usr/share/man/sr_Cyrl/man3/Locale::Po4a::Xml.3pm.gz
 * /usr/share/man/sr_Cyrl/man3/Locale::Po4a::Yaml.3pm.gz
+* /usr/share/man/sr_Cyrl/man7/po4a.7.gz
 * /usr/share/man/uk/man1/msguntypot.1p.gz
 * /usr/share/man/uk/man1/po4a-display-man.1.gz
 * /usr/share/man/uk/man1/po4a-display-pod.1.gz

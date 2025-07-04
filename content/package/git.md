@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "git 2.50.0-1"
-version = "2.50.0-1"
+title = "git 2.50.0-2"
+version = "2.50.0-2"
 description = "A fast, scalable, distributed revision control system."
-date = "2025-06-18T17:11:05"
+date = "2025-07-04T13:02:10"
 aliases = "/packages/218767"
 categories = ['devel-extra']
 upstreamurl = "http://git-scm.com/"
 arch = "x86_64"
-size = "9355980"
+size = "9354408"
 usize = "44812347"
-sha1sum = "7e2a576628e3687ab3d9ea10beee79dc08de9a72"
+sha1sum = "95e417694ae2513cea2ca2f762391cdf453e5154"
 depends = "['curl>=7.19.0', 'expat', 'openssl>=3.1.0', 'pcre2', 'perl-authen-sasl', 'perl-error']"
 reverse_depends = "['discover', 'etckeeper', 'flutter', 'git-crypt', 'git-gui', 'git-imerge', 'git-lfs', 'gitk', 'gitweb', 'opam', 'qgit', 'steamtinkerlaunch']"
 +++

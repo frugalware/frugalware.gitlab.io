@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "perl-text-wrapi18n 0.06-9"
-version = "0.06-9"
+title = "perl-text-wrapi18n 0.06-10"
+version = "0.06-10"
 description = "Line wrapping module with support for multibyte."
-date = "2024-06-11T12:44:20"
+date = "2025-07-04T12:18:27"
 aliases = "/packages/4438"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "6432"
-usize = "9656"
-sha1sum = "728c9fb4fc8f7e07004abf419327309e122147fd"
-depends = "['perl>=5.34.0']"
+size = "6508"
+usize = "9695"
+sha1sum = "ec4c8eb04bad9c9649e8f3b7443e0668cf48ed84"
+depends = "['perl>=5.42.0']"
 reverse_depends = "['po4a']"
 +++
 ### Description: 
