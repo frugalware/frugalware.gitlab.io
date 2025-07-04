@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "perl-dbi 1.647-1"
-version = "1.647-1"
+title = "perl-dbi 1.647-2"
+version = "1.647-2"
 description = "Database independent interface for Perl"
-date = "2025-02-21T11:55:16"
+date = "2025-07-04T11:02:17"
 aliases = "/packages/3279"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "822684"
-usize = "2589485"
-sha1sum = "3ea931a458c099f1f154b3637aae9f4a60b20b69"
-depends = "['perl>=5.34.0']"
+size = "826076"
+usize = "2592889"
+sha1sum = "f81c387f7af6250c87e899b7397476f5811ab052"
+depends = "['perl>=5.42.0']"
 reverse_depends = "['spamassassin']"
 +++
 ### Description: 
@@ -21,69 +21,69 @@ Database independent interface for Perl
 * /usr/bin/site_perl/dbilogstrip
 * /usr/bin/site_perl/dbiprof
 * /usr/bin/site_perl/dbiproxy
-* /usr/lib/perl5/5.40/site_perl/auto/DBI/dbd_xsh.h
-* /usr/lib/perl5/5.40/site_perl/auto/DBI/DBI.so
-* /usr/lib/perl5/5.40/site_perl/auto/DBI/dbipport.h
-* /usr/lib/perl5/5.40/site_perl/auto/DBI/dbivport.h
-* /usr/lib/perl5/5.40/site_perl/auto/DBI/DBIXS.h
-* /usr/lib/perl5/5.40/site_perl/auto/DBI/dbixs_rev.h
-* /usr/lib/perl5/5.40/site_perl/auto/DBI/dbi_sql.h
-* /usr/lib/perl5/5.40/site_perl/auto/DBI/Driver.xst
-* /usr/lib/perl5/5.40/site_perl/auto/DBI/Driver_xst.h
-* /usr/lib/perl5/5.40/site_perl/Bundle/DBI.pm
-* /usr/lib/perl5/5.40/site_perl/DBD/DBM.pm
-* /usr/lib/perl5/5.40/site_perl/DBD/ExampleP.pm
-* /usr/lib/perl5/5.40/site_perl/DBD/File.pm
-* /usr/lib/perl5/5.40/site_perl/DBD/File/Developers.pod
-* /usr/lib/perl5/5.40/site_perl/DBD/File/HowTo.pod
-* /usr/lib/perl5/5.40/site_perl/DBD/File/Roadmap.pod
-* /usr/lib/perl5/5.40/site_perl/DBD/Gofer.pm
-* /usr/lib/perl5/5.40/site_perl/DBD/Gofer/Policy/Base.pm
-* /usr/lib/perl5/5.40/site_perl/DBD/Gofer/Policy/classic.pm
-* /usr/lib/perl5/5.40/site_perl/DBD/Gofer/Policy/pedantic.pm
-* /usr/lib/perl5/5.40/site_perl/DBD/Gofer/Policy/rush.pm
-* /usr/lib/perl5/5.40/site_perl/DBD/Gofer/Transport/Base.pm
-* /usr/lib/perl5/5.40/site_perl/DBD/Gofer/Transport/corostream.pm
-* /usr/lib/perl5/5.40/site_perl/DBD/Gofer/Transport/null.pm
-* /usr/lib/perl5/5.40/site_perl/DBD/Gofer/Transport/pipeone.pm
-* /usr/lib/perl5/5.40/site_perl/DBD/Gofer/Transport/stream.pm
-* /usr/lib/perl5/5.40/site_perl/DBD/Mem.pm
-* /usr/lib/perl5/5.40/site_perl/DBD/NullP.pm
-* /usr/lib/perl5/5.40/site_perl/DBD/Proxy.pm
-* /usr/lib/perl5/5.40/site_perl/DBD/Sponge.pm
-* /usr/lib/perl5/5.40/site_perl/DBI.pm
-* /usr/lib/perl5/5.40/site_perl/DBI/Changes.pm
-* /usr/lib/perl5/5.40/site_perl/DBI/Const/GetInfo/ANSI.pm
-* /usr/lib/perl5/5.40/site_perl/DBI/Const/GetInfo/ODBC.pm
-* /usr/lib/perl5/5.40/site_perl/DBI/Const/GetInfoReturn.pm
-* /usr/lib/perl5/5.40/site_perl/DBI/Const/GetInfoType.pm
-* /usr/lib/perl5/5.40/site_perl/DBI/DBD.pm
-* /usr/lib/perl5/5.40/site_perl/DBI/DBD/Metadata.pm
-* /usr/lib/perl5/5.40/site_perl/DBI/DBD/SqlEngine.pm
-* /usr/lib/perl5/5.40/site_perl/DBI/DBD/SqlEngine/Developers.pod
-* /usr/lib/perl5/5.40/site_perl/DBI/DBD/SqlEngine/HowTo.pod
-* /usr/lib/perl5/5.40/site_perl/DBI/Gofer/Execute.pm
-* /usr/lib/perl5/5.40/site_perl/DBI/Gofer/Request.pm
-* /usr/lib/perl5/5.40/site_perl/DBI/Gofer/Response.pm
-* /usr/lib/perl5/5.40/site_perl/DBI/Gofer/Serializer/Base.pm
-* /usr/lib/perl5/5.40/site_perl/DBI/Gofer/Serializer/DataDumper.pm
-* /usr/lib/perl5/5.40/site_perl/DBI/Gofer/Serializer/Storable.pm
-* /usr/lib/perl5/5.40/site_perl/DBI/Gofer/Transport/Base.pm
-* /usr/lib/perl5/5.40/site_perl/DBI/Gofer/Transport/pipeone.pm
-* /usr/lib/perl5/5.40/site_perl/DBI/Gofer/Transport/stream.pm
-* /usr/lib/perl5/5.40/site_perl/DBI/Profile.pm
-* /usr/lib/perl5/5.40/site_perl/DBI/ProfileData.pm
-* /usr/lib/perl5/5.40/site_perl/DBI/ProfileDumper.pm
-* /usr/lib/perl5/5.40/site_perl/DBI/ProfileDumper/Apache.pm
-* /usr/lib/perl5/5.40/site_perl/DBI/ProfileSubs.pm
-* /usr/lib/perl5/5.40/site_perl/DBI/ProxyServer.pm
-* /usr/lib/perl5/5.40/site_perl/DBI/PurePerl.pm
-* /usr/lib/perl5/5.40/site_perl/DBI/SQL/Nano.pm
-* /usr/lib/perl5/5.40/site_perl/DBI/Util/CacheMemory.pm
-* /usr/lib/perl5/5.40/site_perl/DBI/Util/_accessor.pm
-* /usr/lib/perl5/5.40/site_perl/DBI/W32ODBC.pm
-* /usr/lib/perl5/5.40/site_perl/dbixs_rev.pl
-* /usr/lib/perl5/5.40/site_perl/Win32/DBIODBC.pm
+* /usr/lib/perl5/5.42/site_perl/auto/DBI/dbd_xsh.h
+* /usr/lib/perl5/5.42/site_perl/auto/DBI/DBI.so
+* /usr/lib/perl5/5.42/site_perl/auto/DBI/dbipport.h
+* /usr/lib/perl5/5.42/site_perl/auto/DBI/dbivport.h
+* /usr/lib/perl5/5.42/site_perl/auto/DBI/DBIXS.h
+* /usr/lib/perl5/5.42/site_perl/auto/DBI/dbixs_rev.h
+* /usr/lib/perl5/5.42/site_perl/auto/DBI/dbi_sql.h
+* /usr/lib/perl5/5.42/site_perl/auto/DBI/Driver.xst
+* /usr/lib/perl5/5.42/site_perl/auto/DBI/Driver_xst.h
+* /usr/lib/perl5/5.42/site_perl/Bundle/DBI.pm
+* /usr/lib/perl5/5.42/site_perl/DBD/DBM.pm
+* /usr/lib/perl5/5.42/site_perl/DBD/ExampleP.pm
+* /usr/lib/perl5/5.42/site_perl/DBD/File.pm
+* /usr/lib/perl5/5.42/site_perl/DBD/File/Developers.pod
+* /usr/lib/perl5/5.42/site_perl/DBD/File/HowTo.pod
+* /usr/lib/perl5/5.42/site_perl/DBD/File/Roadmap.pod
+* /usr/lib/perl5/5.42/site_perl/DBD/Gofer.pm
+* /usr/lib/perl5/5.42/site_perl/DBD/Gofer/Policy/Base.pm
+* /usr/lib/perl5/5.42/site_perl/DBD/Gofer/Policy/classic.pm
+* /usr/lib/perl5/5.42/site_perl/DBD/Gofer/Policy/pedantic.pm
+* /usr/lib/perl5/5.42/site_perl/DBD/Gofer/Policy/rush.pm
+* /usr/lib/perl5/5.42/site_perl/DBD/Gofer/Transport/Base.pm
+* /usr/lib/perl5/5.42/site_perl/DBD/Gofer/Transport/corostream.pm
+* /usr/lib/perl5/5.42/site_perl/DBD/Gofer/Transport/null.pm
+* /usr/lib/perl5/5.42/site_perl/DBD/Gofer/Transport/pipeone.pm
+* /usr/lib/perl5/5.42/site_perl/DBD/Gofer/Transport/stream.pm
+* /usr/lib/perl5/5.42/site_perl/DBD/Mem.pm
+* /usr/lib/perl5/5.42/site_perl/DBD/NullP.pm
+* /usr/lib/perl5/5.42/site_perl/DBD/Proxy.pm
+* /usr/lib/perl5/5.42/site_perl/DBD/Sponge.pm
+* /usr/lib/perl5/5.42/site_perl/DBI.pm
+* /usr/lib/perl5/5.42/site_perl/DBI/Changes.pm
+* /usr/lib/perl5/5.42/site_perl/DBI/Const/GetInfo/ANSI.pm
+* /usr/lib/perl5/5.42/site_perl/DBI/Const/GetInfo/ODBC.pm
+* /usr/lib/perl5/5.42/site_perl/DBI/Const/GetInfoReturn.pm
+* /usr/lib/perl5/5.42/site_perl/DBI/Const/GetInfoType.pm
+* /usr/lib/perl5/5.42/site_perl/DBI/DBD.pm
+* /usr/lib/perl5/5.42/site_perl/DBI/DBD/Metadata.pm
+* /usr/lib/perl5/5.42/site_perl/DBI/DBD/SqlEngine.pm
+* /usr/lib/perl5/5.42/site_perl/DBI/DBD/SqlEngine/Developers.pod
+* /usr/lib/perl5/5.42/site_perl/DBI/DBD/SqlEngine/HowTo.pod
+* /usr/lib/perl5/5.42/site_perl/DBI/Gofer/Execute.pm
+* /usr/lib/perl5/5.42/site_perl/DBI/Gofer/Request.pm
+* /usr/lib/perl5/5.42/site_perl/DBI/Gofer/Response.pm
+* /usr/lib/perl5/5.42/site_perl/DBI/Gofer/Serializer/Base.pm
+* /usr/lib/perl5/5.42/site_perl/DBI/Gofer/Serializer/DataDumper.pm
+* /usr/lib/perl5/5.42/site_perl/DBI/Gofer/Serializer/Storable.pm
+* /usr/lib/perl5/5.42/site_perl/DBI/Gofer/Transport/Base.pm
+* /usr/lib/perl5/5.42/site_perl/DBI/Gofer/Transport/pipeone.pm
+* /usr/lib/perl5/5.42/site_perl/DBI/Gofer/Transport/stream.pm
+* /usr/lib/perl5/5.42/site_perl/DBI/Profile.pm
+* /usr/lib/perl5/5.42/site_perl/DBI/ProfileData.pm
+* /usr/lib/perl5/5.42/site_perl/DBI/ProfileDumper.pm
+* /usr/lib/perl5/5.42/site_perl/DBI/ProfileDumper/Apache.pm
+* /usr/lib/perl5/5.42/site_perl/DBI/ProfileSubs.pm
+* /usr/lib/perl5/5.42/site_perl/DBI/ProxyServer.pm
+* /usr/lib/perl5/5.42/site_perl/DBI/PurePerl.pm
+* /usr/lib/perl5/5.42/site_perl/DBI/SQL/Nano.pm
+* /usr/lib/perl5/5.42/site_perl/DBI/Util/CacheMemory.pm
+* /usr/lib/perl5/5.42/site_perl/DBI/Util/_accessor.pm
+* /usr/lib/perl5/5.42/site_perl/DBI/W32ODBC.pm
+* /usr/lib/perl5/5.42/site_perl/dbixs_rev.pl
+* /usr/lib/perl5/5.42/site_perl/Win32/DBIODBC.pm
 * /usr/share/doc/perl-dbi-1.647/ChangeLog
 * /usr/share/doc/perl-dbi-1.647/INSTALL
 * /usr/share/doc/perl-dbi-1.647/LICENSE

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "perl-http-message 7.00-1"
-version = "7.00-1"
+title = "perl-http-message 7.00-2"
+version = "7.00-2"
 description = "HTTP style message (base class)."
-date = "2024-11-14T09:53:37"
+date = "2025-07-04T11:13:53"
 aliases = "/packages/200385"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "82488"
-usize = "209956"
-sha1sum = "63e15e894ac6da9259445b3cc463416fab67fd76"
-depends = "['perl>=5.34.0', 'perl-encode-locale', 'perl-http-date', 'perl-io-html', 'perl-lwp-mediatypes', 'perl-uri']"
+size = "82216"
+usize = "210333"
+sha1sum = "dfdbe3b4d89ed26bac8cdec0baa0d59890a521c5"
+depends = "['perl>=5.42.0', 'perl-encode-locale', 'perl-http-date', 'perl-io-html', 'perl-lwp-mediatypes', 'perl-uri']"
 reverse_depends = "['perl-http-daemon', 'perl-http-negotiate']"
 +++
 ### Description: 

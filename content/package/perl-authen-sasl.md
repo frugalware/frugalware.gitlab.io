@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "perl-authen-sasl 2.1700-2"
-version = "2.1700-2"
+title = "perl-authen-sasl 2.1700-3"
+version = "2.1700-3"
 description = "SASL Authentication framework"
-date = "2024-06-11T13:06:52"
+date = "2025-07-04T10:30:17"
 aliases = "/packages/219222"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "43556"
-usize = "109892"
-sha1sum = "5417e3eb103e9e030e572935399bf0b82c8d5336"
-depends = "['perl>=5.34.0']"
+size = "44096"
+usize = "110195"
+sha1sum = "9d2c2cbfc8b0d5c83ed9f56c179facbca092a657"
+depends = "['perl>=5.42.0']"
 reverse_depends = "['git']"
 +++
 ### Description: 

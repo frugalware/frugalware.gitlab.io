@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "perl-convert-binhex 1.125-7"
-version = "1.125-7"
+title = "perl-convert-binhex 1.125-8"
+version = "1.125-8"
 description = "extract data from Macintosh BinHex files"
-date = "2024-06-11T13:02:01"
+date = "2025-07-04T10:33:21"
 aliases = "/packages/135758"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "34364"
-usize = "98710"
-sha1sum = "8f1ee20f93d55189a3f6eea2b71391f8ab5e0366"
-depends = "['perl>=5.34.0']"
+size = "34400"
+usize = "98826"
+sha1sum = "356b12b72697a6f7868a1b5d089c775db4ccc1c2"
+depends = "['perl>=5.42.0']"
 reverse_depends = "['amavisd-new']"
 +++
 ### Description: 

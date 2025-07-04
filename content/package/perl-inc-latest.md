@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "perl-inc-latest 0.500-13"
-version = "0.500-13"
+title = "perl-inc-latest 0.500-14"
+version = "0.500-14"
 description = "use modules bundled in inc/ if they are newer than installed ones"
-date = "2024-06-11T13:20:35"
+date = "2025-07-04T10:22:30"
 aliases = "/packages/218565"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "15216"
-usize = "35714"
-sha1sum = "d71162e84cbe016d5ced495e0507fa5fab98d462"
-depends = "['perl>=5.34.0']"
+size = "15224"
+usize = "35794"
+sha1sum = "3c3dca88fc3e3622f8c76ee07224e6912ecbf3fd"
+depends = "['perl>=5.42.0']"
 reverse_depends = "['perl-module-build']"
 +++
 ### Description: 

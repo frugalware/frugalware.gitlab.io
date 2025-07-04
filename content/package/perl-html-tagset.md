@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "perl-html-tagset 3.24-2"
-version = "3.24-2"
+title = "perl-html-tagset 3.24-3"
+version = "3.24-3"
 description = "data tables useful in parsing HTML"
-date = "2024-06-11T13:29:37"
+date = "2025-07-04T11:11:02"
 aliases = "/packages/3281"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "10136"
-usize = "17658"
-sha1sum = "9ee915ef025fcd7ad69d2ef39b26bc3111010081"
-depends = "['perl>=5.34.0']"
+size = "10236"
+usize = "17701"
+sha1sum = "6101deca92baebbb98e684efcd43140fc2d3b880"
+depends = "['perl>=5.42.0']"
 reverse_depends = "['perl-html-parser']"
 +++
 ### Description: 

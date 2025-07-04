@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "perl-class-singleton 1.6-3"
-version = "1.6-3"
+title = "perl-class-singleton 1.6-4"
+version = "1.6-4"
 description = "Implementation of a Singleton class"
-date = "2024-06-11T13:01:02"
+date = "2025-07-04T10:32:21"
 aliases = "/packages/60090"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "10672"
-usize = "19982"
-sha1sum = "b347f446e152f646dae54acb8a2faf553b32d79a"
-depends = "['perl>=5.34.0']"
+size = "10748"
+usize = "20021"
+sha1sum = "bd4ddecb50f9f2773763216184e2ddaa7f02dd34"
+depends = "['perl>=5.42.0']"
 reverse_depends = "['perl-datetime-timezone']"
 +++
 ### Description: 

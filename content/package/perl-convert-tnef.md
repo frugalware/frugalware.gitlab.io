@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "perl-convert-tnef 0.18-8"
-version = "0.18-8"
+title = "perl-convert-tnef 0.18-9"
+version = "0.18-9"
 description = "Perl module to read TNEF files"
-date = "2024-06-11T13:02:30"
+date = "2025-07-04T10:33:51"
 aliases = "/packages/3761"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "12376"
-usize = "31788"
-sha1sum = "710b5d885125d7b94f84c2851a15144373e48fee"
-depends = "['perl>=5.34.0']"
+size = "12480"
+usize = "31823"
+sha1sum = "98820d9db48430f58a7f90a88a1997260b0ddbf3"
+depends = "['perl>=5.42.0']"
 reverse_depends = "['amavisd-new']"
 +++
 ### Description: 

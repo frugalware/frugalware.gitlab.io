@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "perl-class-inspector 1.36-1"
-version = "1.36-1"
+title = "perl-class-inspector 1.36-2"
+version = "1.36-2"
 description = "Get information about a class and its structure"
-date = "2024-11-14T10:07:22"
+date = "2025-07-04T10:31:14"
 aliases = "/packages/222584"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "20824"
-usize = "56683"
-sha1sum = "a0c36e33368a16c0df6e0dc876efba03bfb69eee"
+size = "20984"
+usize = "56761"
+sha1sum = "1a17a9c529b48595b505eabe81c953764f417b0f"
 depends = "['perl']"
 reverse_depends = "['perl-syntax-keyword-try']"
 +++

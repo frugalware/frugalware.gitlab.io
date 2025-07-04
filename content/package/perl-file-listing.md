@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "perl-file-listing 6.16-2"
-version = "6.16-2"
+title = "perl-file-listing 6.16-3"
+version = "6.16-3"
 description = "File::Listing - parse directory listing."
-date = "2024-06-11T13:08:59"
+date = "2025-07-04T11:07:50"
 aliases = "/packages/200373"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "16992"
-usize = "42912"
-sha1sum = "39ab3f365cc35acbbe760e5e2733ace79ea962ed"
-depends = "['perl>=5.34.0', 'perl-http-date']"
+size = "16928"
+usize = "42948"
+sha1sum = "a3414a66919f097591b849dd10d65fa5c1b0e990"
+depends = "['perl>=5.42.0', 'perl-http-date']"
 reverse_depends = "['perl-libwww']"
 +++
 ### Description: 

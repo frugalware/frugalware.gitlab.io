@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "perl-digest-hmac 1.05-1"
-version = "1.05-1"
+title = "perl-digest-hmac 1.05-2"
+version = "1.05-2"
 description = "Keyed-Hashing for Message Authentication"
-date = "2024-11-14T09:52:47"
+date = "2025-07-04T11:03:52"
 aliases = "/packages/3765"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "13936"
-usize = "29811"
-sha1sum = "76682010aac3ae87474c900de851b1314bf2bbad"
-depends = "['perl>=5.34.0']"
+size = "14148"
+usize = "29919"
+sha1sum = "07c60166e1609293384f909167fc4669b6d89c25"
+depends = "['perl>=5.42.0']"
 reverse_depends = "['perl-net-dns']"
 +++
 ### Description: 

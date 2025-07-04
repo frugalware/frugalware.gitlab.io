@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "perl-data-optlist 0.114-2"
-version = "0.114-2"
+title = "perl-data-optlist 0.114-3"
+version = "0.114-3"
 description = "Parse and validate simple name/value option pairs"
-date = "2024-06-11T13:07:56"
+date = "2025-07-04T10:58:51"
 aliases = "/packages/220185"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "13808"
-usize = "34172"
-sha1sum = "fbb9107996e1063c05ab59c27d6e01975c1dd86d"
-depends = "['perl>=5.34.0', 'perl-params-util', 'perl-sub-install']"
+size = "13892"
+usize = "34207"
+sha1sum = "419f7e239b3a899d0eb81ede16fa08bd201c2491"
+depends = "['perl>=5.42.0', 'perl-params-util', 'perl-sub-install']"
 reverse_depends = "['perl-sub-exporter']"
 +++
 ### Description: 

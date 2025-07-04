@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "perl-error 0.17030-1"
-version = "0.17030-1"
+title = "perl-error 0.17030-2"
+version = "0.17030-2"
 description = "Error/exception handling in an OO-ish way"
-date = "2025-02-21T11:55:57"
+date = "2025-07-04T11:06:35"
 aliases = "/packages/39480"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "30752"
-usize = "75387"
-sha1sum = "a980ee70a3741a87288f1200b38a9769ff788aeb"
-depends = "['perl>=5.34.0']"
+size = "30908"
+usize = "75473"
+sha1sum = "b0d0dec4718082ac7df1fb1ab240662566dcb0fc"
+depends = "['perl>=5.42.0']"
 reverse_depends = "['git', 'perl-mail-spf']"
 +++
 ### Description: 

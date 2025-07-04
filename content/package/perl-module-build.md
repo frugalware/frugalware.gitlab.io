@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "perl-module-build 0.4234-1"
-version = "0.4234-1"
+title = "perl-module-build 0.4234-2"
+version = "0.4234-2"
 description = "Build and install Perl modules"
-date = "2023-12-04T13:19:51"
+date = "2025-07-04T10:23:35"
 aliases = "/packages/218567"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "187260"
-usize = "515230"
-sha1sum = "e6ea9898906130293c3123236a18da4005256fcb"
-depends = "['perl>=5.34.0', 'perl-inc-latest>=0.500-4']"
+size = "187864"
+usize = "516132"
+sha1sum = "2ce7a11dac6e62b35e5236b1da31c49fb2c4a704"
+depends = "['perl>=5.42.0', 'perl-inc-latest>=0.500-4']"
 reverse_depends = "['perl-module-runtime']"
 +++
 ### Description: 

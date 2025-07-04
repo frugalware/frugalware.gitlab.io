@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "perl-datetime-locale 1.44-1"
-version = "1.44-1"
+title = "perl-datetime-locale 1.44-2"
+version = "1.44-2"
 description = "Localization support for DateTime.pm"
-date = "2024-11-14T09:29:31"
+date = "2025-07-04T11:01:06"
 aliases = "/packages/217574"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "3191284"
-usize = "23600405"
-sha1sum = "41fc47da2293ecb04a5b7113d332674e1b405f40"
-depends = "['perl>=5.34.0', 'perl-file-sharedir', 'perl-file-sharedir-install', 'perl-list-moreutils', 'perl-params-validate>=0.13']"
+size = "3249440"
+usize = "23621203"
+sha1sum = "21dd07a417e7a4f01c06799bd740facb0474bc36"
+depends = "['perl>=5.42.0', 'perl-file-sharedir', 'perl-file-sharedir-install', 'perl-list-moreutils', 'perl-params-validate>=0.13']"
 reverse_depends = "['perl-datetime']"
 +++
 ### Description: 
@@ -2127,13 +2127,10 @@ Localization support for DateTime.pm
 * /usr/lib/perl5/site_perl/DateTime/Locale/zh_Hant_TW.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/zu.pod
 * /usr/lib/perl5/site_perl/DateTime/Locale/zu_ZA.pod
-* /usr/share/doc/perl-datetime-locale-1.44/AUTHORS
-* /usr/share/doc/perl-datetime-locale-1.44/COPYING.LIB
 * /usr/share/doc/perl-datetime-locale-1.44/INSTALL
 * /usr/share/doc/perl-datetime-locale-1.44/LICENSE
 * /usr/share/doc/perl-datetime-locale-1.44/MANIFEST
 * /usr/share/doc/perl-datetime-locale-1.44/README.md
-* /usr/share/doc/perl-datetime-locale-1.44/VERSION
 * /usr/share/man/man3/DateTime::Locale.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::aa.3perl.gz
 * /usr/share/man/man3/DateTime::Locale::aa_DJ.3perl.gz

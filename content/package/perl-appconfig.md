@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "perl-appconfig 1.71-6"
-version = "1.71-6"
+title = "perl-appconfig 1.71-7"
+version = "1.71-7"
 description = "Perl/CPAN AppConfig module - Read configuration files and parse command line arguments"
-date = "2024-06-11T12:59:38"
+date = "2025-07-04T10:29:18"
 aliases = "/packages/219725"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "67864"
-usize = "187691"
-sha1sum = "64b69d8d421a8a62f335a8d3ad7eb8bb5caf27cf"
-depends = "['perl>=5.34.0']"
+size = "68240"
+usize = "187966"
+sha1sum = "18eee1c5deb37a5bde26cb19ffa2c777bfcbe27b"
+depends = "['perl>=5.42.0']"
 reverse_depends = "['perl-template-toolkit']"
 +++
 ### Description: 
