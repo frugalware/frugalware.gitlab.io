@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ksanecore 25.04.2-1"
-version = "25.04.2-1"
+title = "ksanecore 25.04.3-1"
+version = "25.04.3-1"
 description = "Library providing logic to interface scanners"
-date = "2025-06-11T12:14:40"
+date = "2025-07-04T15:31:39"
 aliases = "/packages/220585"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "89676"
+size = "89996"
 usize = "316349"
-sha1sum = "54856f7b949f2d51e069b923ffab7541cba94685"
-depends = "['ki18n>=6.14.0', 'sane-backends>=1.0.25-3']"
+sha1sum = "ebd835f14cd4b73026ccd87cee8852f0eca80e54"
+depends = "['ki18n>=6.15.0', 'sane-backends>=1.0.25-3']"
 reverse_depends = "['libksane', 'skanpage']"
 +++
 ### Description: 
@@ -32,9 +32,9 @@ Library providing logic to interface scanners
 * /usr/lib/cmake/KSaneCore6/KSaneCore6Targets.cmake
 * /usr/lib/libKSaneCore6.so
 * /usr/lib/libKSaneCore6.so.1
-* /usr/lib/libKSaneCore6.so.25.04.2
-* /usr/share/doc/ksanecore-25.04.2/README.md
-* /usr/share/doc/ksanecore-25.04.2/TODO
+* /usr/lib/libKSaneCore6.so.25.04.3
+* /usr/share/doc/ksanecore-25.04.3/README.md
+* /usr/share/doc/ksanecore-25.04.3/TODO
 * /usr/share/locale/ar/LC_MESSAGES/ksanecore.mo
 * /usr/share/locale/bg/LC_MESSAGES/ksanecore.mo
 * /usr/share/locale/ca/LC_MESSAGES/ksanecore.mo

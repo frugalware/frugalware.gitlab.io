@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kollision 25.04.2-1"
-version = "25.04.2-1"
+title = "kollision 25.04.3-1"
+version = "25.04.3-1"
 description = "A simple ball dodging game."
-date = "2025-06-11T13:07:26"
+date = "2025-07-04T15:59:28"
 aliases = "/packages/184193"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
 size = "390992"
-usize = "777298"
-sha1sum = "e4dc55ad9c3b26deb4b9d13df2737c87c1d877a4"
-depends = "['knotifyconfig>=6.14.0', 'libkdegames>=25.04.2']"
+usize = "777287"
+sha1sum = "9c088499290b2292891489a74c0092d0ca71d979"
+depends = "['knotifyconfig>=6.15.0', 'libkdegames>=25.04.3']"
 +++
 ### Description: 
 A simple ball dodging game.

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kblocks 25.04.2-1"
-version = "25.04.2-1"
+title = "kblocks 25.04.3-1"
+version = "25.04.3-1"
 description = "The classic falling blocks game."
-date = "2025-06-11T12:24:47"
+date = "2025-07-04T15:41:28"
 aliases = "/packages/184176"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2300188"
-usize = "2875036"
-sha1sum = "1e1bec1d718643cd4ac77610c54bbf2f4d8d2135"
-depends = "['libkdegames>=25.04.2', 'qt6-svg>=6.9.1']"
+size = "2300356"
+usize = "2875407"
+sha1sum = "394412a141a7663e1c0aa6e610a64493c2c58f41"
+depends = "['libkdegames>=25.04.3', 'qt6-svg>=6.9.1']"
 +++
 ### Description: 
 The classic falling blocks game.
@@ -53,9 +53,9 @@ The classic falling blocks game.
 * /usr/share/doc/HTML/uk/kblocks/gameboard.png
 * /usr/share/doc/HTML/uk/kblocks/index.cache.bz2
 * /usr/share/doc/HTML/uk/kblocks/index.docbook
-* /usr/share/doc/kblocks-25.04.2/COPYING
-* /usr/share/doc/kblocks-25.04.2/COPYING.DOC
-* /usr/share/doc/kblocks-25.04.2/README.PACKAGERS
+* /usr/share/doc/kblocks-25.04.3/COPYING
+* /usr/share/doc/kblocks-25.04.3/COPYING.DOC
+* /usr/share/doc/kblocks-25.04.3/README.PACKAGERS
 * /usr/share/icons/hicolor/128x128/apps/kblocks.png
 * /usr/share/icons/hicolor/16x16/apps/kblocks.png
 * /usr/share/icons/hicolor/22x22/apps/kblocks.png

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libkleo 25.04.2-2"
-version = "25.04.2-2"
+title = "libkleo 25.04.3-1"
+version = "25.04.3-1"
 description = "This lib provides crypto for mails."
-date = "2025-06-17T13:15:48"
+date = "2025-07-04T15:16:10"
 aliases = "/packages/218474"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "872632"
-usize = "4550344"
-sha1sum = "2b65f8350786d5ca7078d237b82df8f4a6e12bf7"
-depends = "['kitemmodels>=6.15.0', 'kpimtextedit>=25.04.2', 'libqgpgme>=2.0.0']"
+size = "873244"
+usize = "4551656"
+sha1sum = "c5c664bc3359b6cdd37bf0abc8dbe41db11472a7"
+depends = "['kitemmodels>=6.15.0', 'kpimtextedit>=25.04.3', 'libqgpgme>=2.0.0']"
 reverse_depends = "['akonadi-contacts', 'kleopatra', 'kmail-account-wizard', 'mimetreeparser']"
 +++
 ### Description: 
@@ -183,7 +183,7 @@ This lib provides crypto for mails.
 * /usr/lib/cmake/KPim6Libkleo/KPim6LibkleoTargets.cmake
 * /usr/lib/libKPim6Libkleo.so
 * /usr/lib/libKPim6Libkleo.so.6
-* /usr/lib/libKPim6Libkleo.so.6.4.2
+* /usr/lib/libKPim6Libkleo.so.6.4.3
 * /usr/share/KPim6Libkleo/find-modules/FindLibAssuan.cmake
 * /usr/share/KPim6Libkleo/find-modules/FindLibGpgError.cmake
 * /usr/share/libkleopatra/pics/smartcard.xpm

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kbounce 25.04.2-1"
-version = "25.04.2-1"
+title = "kbounce 25.04.3-1"
+version = "25.04.3-1"
 description = "A single player arcade game with the elements of puzzle."
-date = "2025-06-11T12:25:57"
+date = "2025-07-04T15:42:30"
 aliases = "/packages/184177"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "3187876"
-usize = "3840782"
-sha1sum = "960b5c6c8bcd3dc9a4e313e5e12777d308768db4"
-depends = "['libkdegames>=25.04.2', 'qt6-svg>=6.9.1']"
+size = "3187908"
+usize = "3840769"
+sha1sum = "cc0ce530020e7a4742a0222f4958b4f54ff2095f"
+depends = "['libkdegames>=25.04.3', 'qt6-svg>=6.9.1']"
 +++
 ### Description: 
 A single player arcade game with the elements of puzzle.

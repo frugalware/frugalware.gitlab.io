@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kmailtransport 25.04.2-1"
-version = "25.04.2-1"
+title = "kmailtransport 25.04.3-1"
+version = "25.04.3-1"
 description = "Mail Transport Service"
-date = "2025-06-11T12:07:00"
+date = "2025-07-04T15:29:48"
 aliases = "/packages/218331"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "258504"
-usize = "1272988"
-sha1sum = "338b7a1a8b379eec5748e7c179405ee523156a1f"
-depends = "['akonadi-contacts>=25.04.2', 'kcmutils>=6.14.0', 'ksmtp>=25.04.2', 'libkgapi>=25.04.2', 'qtkeychain']"
+size = "258344"
+usize = "1272978"
+sha1sum = "f92c94d54125d061d3ff601b2a7bccdcea11e257"
+depends = "['akonadi-contacts>=25.04.3', 'kcmutils>=6.15.0', 'ksmtp>=25.04.3', 'libkgapi>=25.04.3', 'qtkeychain']"
 reverse_depends = "['akonadi-calendar', 'kalarm', 'kleopatra', 'kmail-account-wizard', 'libksieve', 'messagelib']"
 +++
 ### Description: 
@@ -56,10 +56,10 @@ Mail Transport Service
 * /usr/lib/cmake/KPim6MailTransport/KPim6MailTransportTargets.cmake
 * /usr/lib/libKPim6MailTransport.so
 * /usr/lib/libKPim6MailTransport.so.6
-* /usr/lib/libKPim6MailTransport.so.6.4.2
+* /usr/lib/libKPim6MailTransport.so.6.4.3
 * /usr/lib/qt6/plugins/pim6/mailtransport/mailtransport_smtpplugin.so
 * /usr/share/config.kcfg/mailtransport.kcfg
-* /usr/share/doc/kmailtransport-25.04.2/TODO
+* /usr/share/doc/kmailtransport-25.04.3/TODO
 * /usr/share/locale/ar/LC_MESSAGES/libmailtransport6.mo
 * /usr/share/locale/ast/LC_MESSAGES/libmailtransport6.mo
 * /usr/share/locale/be/LC_MESSAGES/libmailtransport6.mo
