@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kget 25.04.2-2"
-version = "25.04.2-2"
+title = "kget 25.04.3-1"
+version = "25.04.3-1"
 description = "A free download manager for KDE."
-date = "2025-06-17T13:57:43"
+date = "2025-07-04T19:13:47"
 aliases = "/packages/219524"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "5231896"
-usize = "11414611"
-sha1sum = "acdedf8fd843f14b9e5dbdec3accb3d998423afa"
-depends = "['kcmutils>=6.15.0', 'knotifyconfig>=6.15.0', 'kstatusnotifieritem>=6.15.0', 'libktorrent', 'libmms', 'libqgpgme>=2.0.0', 'plasma-workspace>=6.3.5']"
+size = "5233460"
+usize = "11415238"
+sha1sum = "3c2de8a3dedc3c41922e575f5b29de96dc1f9187"
+depends = "['kcmutils>=6.15.0', 'knotifyconfig>=6.15.0', 'kstatusnotifieritem>=6.15.0', 'libktorrent', 'libmms', 'libqgpgme>=2.0.0', 'plasma-workspace>=6.4.2']"
 +++
 ### Description: 
 A free download manager for KDE.
@@ -199,14 +199,14 @@ A free download manager for KDE.
 * /usr/share/doc/HTML/uk/kget/metalink1.png
 * /usr/share/doc/HTML/uk/kget/metalink2.png
 * /usr/share/doc/HTML/uk/kget/metalink3.png
-* /usr/share/doc/kget-25.04.2/AUTHORS
-* /usr/share/doc/kget-25.04.2/Changelog
-* /usr/share/doc/kget-25.04.2/COPYING
-* /usr/share/doc/kget-25.04.2/COPYING.DOC
-* /usr/share/doc/kget-25.04.2/COPYING.LIB
-* /usr/share/doc/kget-25.04.2/HACKING
-* /usr/share/doc/kget-25.04.2/README
-* /usr/share/doc/kget-25.04.2/TODO
+* /usr/share/doc/kget-25.04.3/AUTHORS
+* /usr/share/doc/kget-25.04.3/Changelog
+* /usr/share/doc/kget-25.04.3/COPYING
+* /usr/share/doc/kget-25.04.3/COPYING.DOC
+* /usr/share/doc/kget-25.04.3/COPYING.LIB
+* /usr/share/doc/kget-25.04.3/HACKING
+* /usr/share/doc/kget-25.04.3/README
+* /usr/share/doc/kget-25.04.3/TODO
 * /usr/share/icons/hicolor/scalable/apps/org.kde.kget.svg
 * /usr/share/kget/pics/kget_splash.png
 * /usr/share/kio/servicemenus/kget_download.desktop

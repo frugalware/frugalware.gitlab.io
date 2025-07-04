@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kitinerary 25.04.2-2"
-version = "25.04.2-2"
+title = "kitinerary 25.04.3-1"
+version = "25.04.3-1"
 description = "Data model and extraction system for travel reservation information"
-date = "2025-06-13T08:02:13"
+date = "2025-07-04T18:29:37"
 aliases = "/packages/219723"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1523864"
-usize = "4826704"
-sha1sum = "c6441dfddc550ace766b3c616ce4ffba22756670"
-depends = "['kcalendarcore>=6.14.0', 'kcontacts>=6.14.0', 'ki18n>=6.14.0', 'kmime>=6.14.0', 'kpkpass>=25.04.2', 'libphonenumber>=9.0.2', 'libxml2>=2.14.3', 'poppler>=25.06.0', 'zxing-cpp']"
+size = "1527992"
+usize = "4851488"
+sha1sum = "2d1053c30ea5042540ded789a94e1536f58f173d"
+depends = "['kcalendarcore>=6.15.0', 'kcontacts>=6.15.0', 'ki18n>=6.15.0', 'kmime>=6.15.0', 'kpkpass>=25.04.3', 'libphonenumber>=9.0.2', 'libxml2>=2.14.3', 'poppler>=25.06.0', 'zxing-cpp']"
 reverse_depends = "['itinerary', 'kdepim-addons']"
 +++
 ### Description: 
@@ -172,9 +172,9 @@ Data model and extraction system for travel reservation information
 * /usr/lib/kitinerary/kf6/kitinerary-extractor
 * /usr/lib/libKPim6Itinerary.so
 * /usr/lib/libKPim6Itinerary.so.6
-* /usr/lib/libKPim6Itinerary.so.6.4.2
-* /usr/share/doc/kitinerary-25.04.2/README.md
-* /usr/share/doc/kitinerary-25.04.2/README.md.license
+* /usr/lib/libKPim6Itinerary.so.6.4.3
+* /usr/share/doc/kitinerary-25.04.3/README.md
+* /usr/share/doc/kitinerary-25.04.3/README.md.license
 * /usr/share/locale/ar/LC_MESSAGES/kitinerary6.mo
 * /usr/share/locale/ast/LC_MESSAGES/kitinerary6.mo
 * /usr/share/locale/ca/LC_MESSAGES/kitinerary6.mo
