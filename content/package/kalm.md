@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "kalm 25.04.2-1"
-version = "25.04.2-1"
+title = "kalm 25.04.3-1"
+version = "25.04.3-1"
 description = "Kalm can teach you different breathing techniques"
-date = "2025-06-12T10:29:57"
+date = "2025-07-04T20:40:05"
 aliases = "/packages/221489"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "73444"
-usize = "468947"
-sha1sum = "d9517a741094b70b5913102404cde1ee689e03ab"
+size = "73700"
+usize = "469318"
+sha1sum = "f16b37c722c0829488e342c6583b229f0810f7c7"
 depends = "['kconfig', 'kcoreaddons', 'kcrash', 'ki18n', 'kirigami', 'kirigami-addons', 'qqc2-desktop-style']"
 +++
 ### Description: 
@@ -19,7 +19,7 @@ Kalm can teach you different breathing techniques
 ### Files: 
 * /usr/bin/kalm
 * /usr/share/applications/org.kde.kalm.desktop
-* /usr/share/doc/kalm-25.04.2/README.md
+* /usr/share/doc/kalm-25.04.3/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.kalm.svg
 * /usr/share/locale/ar/LC_MESSAGES/kalm.mo
 * /usr/share/locale/ast/LC_MESSAGES/kalm.mo

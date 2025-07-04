@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdevelop 25.04.2-1"
-version = "25.04.2-1"
+title = "kdevelop 25.04.3-1"
+version = "25.04.3-1"
 description = "The KDevelop integrated C/C++ application development environment"
-date = "2025-06-12T10:38:13"
+date = "2025-07-04T20:48:36"
 aliases = "/packages/10830"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kdevelop.org/"
 arch = "x86_64"
-size = "10581584"
-usize = "39294204"
-sha1sum = "56d59a7d4e7b9cc03282441d55ff69894cf35063"
-depends = "['kcmutils>=6.14.0', 'kdevelop-pg-qt', 'knotifyconfig>=6.14.0', 'krunner>=6.14.0', 'ktexteditor>=6.14.0', 'ktexttemplate>=6.14.0', 'libkomparediff2', 'libksysguard>=6.3.5', 'libplasma>=6.3.5', 'purpose>=6.14.0', 'qt6-tools>=6.9.1', 'subversion']"
+size = "10576148"
+usize = "39295681"
+sha1sum = "d75841606f4950c22b7d3c653c388b76904d05e9"
+depends = "['kcmutils>=6.15.0', 'kdevelop-pg-qt', 'knotifyconfig>=6.15.0', 'krunner>=6.15.0', 'ktexteditor>=6.15.0', 'ktexttemplate>=6.15.0', 'libkomparediff2', 'libksysguard>=6.4.2', 'libplasma>=6.4.2', 'purpose>=6.15.0', 'qt6-tools>=6.9.1', 'subversion']"
 reverse_depends = "['kdev-php', 'kdev-python']"
 +++
 ### Description: 
@@ -410,37 +410,37 @@ The KDevelop integrated C/C++ application development environment
 * /usr/lib/libKDevCompileAnalyzerCommon.so.62
 * /usr/lib/libKDevelopSessionsWatch.so
 * /usr/lib/libKDevPlatformDebugger.so
-* /usr/lib/libKDevPlatformDebugger.so.6.2.250402
+* /usr/lib/libKDevPlatformDebugger.so.6.2.250403
 * /usr/lib/libKDevPlatformDebugger.so.62
 * /usr/lib/libKDevPlatformDocumentation.so
-* /usr/lib/libKDevPlatformDocumentation.so.6.2.250402
+* /usr/lib/libKDevPlatformDocumentation.so.6.2.250403
 * /usr/lib/libKDevPlatformDocumentation.so.62
 * /usr/lib/libKDevPlatformInterfaces.so
-* /usr/lib/libKDevPlatformInterfaces.so.6.2.250402
+* /usr/lib/libKDevPlatformInterfaces.so.6.2.250403
 * /usr/lib/libKDevPlatformInterfaces.so.62
 * /usr/lib/libKDevPlatformLanguage.so
-* /usr/lib/libKDevPlatformLanguage.so.6.2.250402
+* /usr/lib/libKDevPlatformLanguage.so.6.2.250403
 * /usr/lib/libKDevPlatformLanguage.so.62
 * /usr/lib/libKDevPlatformOutputView.so
-* /usr/lib/libKDevPlatformOutputView.so.6.2.250402
+* /usr/lib/libKDevPlatformOutputView.so.6.2.250403
 * /usr/lib/libKDevPlatformOutputView.so.62
 * /usr/lib/libKDevPlatformProject.so
-* /usr/lib/libKDevPlatformProject.so.6.2.250402
+* /usr/lib/libKDevPlatformProject.so.6.2.250403
 * /usr/lib/libKDevPlatformProject.so.62
 * /usr/lib/libKDevPlatformSerialization.so
-* /usr/lib/libKDevPlatformSerialization.so.6.2.250402
+* /usr/lib/libKDevPlatformSerialization.so.6.2.250403
 * /usr/lib/libKDevPlatformSerialization.so.62
 * /usr/lib/libKDevPlatformShell.so
-* /usr/lib/libKDevPlatformShell.so.6.2.250402
+* /usr/lib/libKDevPlatformShell.so.6.2.250403
 * /usr/lib/libKDevPlatformShell.so.62
 * /usr/lib/libKDevPlatformSublime.so
-* /usr/lib/libKDevPlatformSublime.so.6.2.250402
+* /usr/lib/libKDevPlatformSublime.so.6.2.250403
 * /usr/lib/libKDevPlatformSublime.so.62
 * /usr/lib/libKDevPlatformUtil.so
-* /usr/lib/libKDevPlatformUtil.so.6.2.250402
+* /usr/lib/libKDevPlatformUtil.so.6.2.250403
 * /usr/lib/libKDevPlatformUtil.so.62
 * /usr/lib/libKDevPlatformVcs.so
-* /usr/lib/libKDevPlatformVcs.so.6.2.250402
+* /usr/lib/libKDevPlatformVcs.so.6.2.250403
 * /usr/lib/libKDevPlatformVcs.so.62
 * /usr/lib/qt6/plugins/kdevplatform/62/kdevandroid.so
 * /usr/lib/qt6/plugins/kdevplatform/62/kdevappwizard.so
@@ -584,10 +584,10 @@ The KDevelop integrated C/C++ application development environment
 * /usr/share/doc/HTML/sv/kdevelop/index.docbook
 * /usr/share/doc/HTML/uk/kdevelop/index.cache.bz2
 * /usr/share/doc/HTML/uk/kdevelop/index.docbook
-* /usr/share/doc/kdevelop-25.04.2/AUTHORS
-* /usr/share/doc/kdevelop-25.04.2/COPYING.DOC
-* /usr/share/doc/kdevelop-25.04.2/INSTALL
-* /usr/share/doc/kdevelop-25.04.2/README.md
+* /usr/share/doc/kdevelop-25.04.3/AUTHORS
+* /usr/share/doc/kdevelop-25.04.3/COPYING.DOC
+* /usr/share/doc/kdevelop-25.04.3/INSTALL
+* /usr/share/doc/kdevelop-25.04.3/README.md
 * /usr/share/icons/hicolor/1024x1024/apps/kdevelop.png
 * /usr/share/icons/hicolor/128x128/apps/bazaar.png
 * /usr/share/icons/hicolor/128x128/apps/clazy.png

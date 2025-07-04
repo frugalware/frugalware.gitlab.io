@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "merkuro 25.04.2-2"
-version = "25.04.2-2"
+title = "merkuro 25.04.3-1"
+version = "25.04.3-1"
 description = "A calendar application using Akonadi to sync with external services"
-date = "2025-06-17T13:52:01"
+date = "2025-07-04T20:25:03"
 aliases = "/packages/221078"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1690608"
-usize = "8215563"
-sha1sum = "63533422d5948c8869889da5ea0304885a34db47"
+size = "1691820"
+usize = "8229671"
+sha1sum = "1ba281f9d84c7fafb7174c2d86ac5ea556070987"
 depends = "['eventviews', 'kirigami-addons', 'libplasma>=', 'mailcommon', 'mimetreeparser', 'qqc2-desktop-style', 'qt6-location>=']"
 +++
 ### Description: 
@@ -21,10 +21,10 @@ A calendar application using Akonadi to sync with external services
 * /usr/bin/merkuro-contact
 * /usr/bin/merkuro-mail
 * /usr/lib/libMerkuroComponents.so
-* /usr/lib/libMerkuroComponents.so.25.04.2
+* /usr/lib/libMerkuroComponents.so.25.04.3
 * /usr/lib/libMerkuroComponents.so.6
 * /usr/lib/libmerkuro_contact.so
-* /usr/lib/libmerkuro_contact.so.25.04.2
+* /usr/lib/libmerkuro_contact.so.25.04.3
 * /usr/lib/libmerkuro_contact.so.6
 * /usr/lib/qt6/qml/org/kde/akonadi/AgentConfigurationForm.qml
 * /usr/lib/qt6/qml/org/kde/akonadi/akonadi_quick_plugin.qmltypes
@@ -86,7 +86,7 @@ A calendar application using Akonadi to sync with external services
 * /usr/share/applications/org.kde.merkuro.contact.desktop
 * /usr/share/applications/org.kde.merkuro.desktop
 * /usr/share/applications/org.kde.merkuro.mail.desktop
-* /usr/share/doc/merkuro-25.04.2/README.md
+* /usr/share/doc/merkuro-25.04.3/README.md
 * /usr/share/icons/hicolor/128x128/apps/org.kde.merkuro.calendar.png
 * /usr/share/icons/hicolor/128x128/apps/org.kde.merkuro.contact.png
 * /usr/share/icons/hicolor/128x128/apps/org.kde.merkuro.mail.png

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "skladnik 25.04.2-1"
-version = "25.04.2-1"
+title = "skladnik 25.04.3-1"
+version = "25.04.3-1"
 description = "An implementation of the Japanese warehouse keeper game Sokoban"
-date = "2025-06-12T10:31:03"
+date = "2025-07-04T20:41:11"
 aliases = "/packages/221490"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "395776"
-usize = "631965"
-sha1sum = "bdd40996047eb53815730aaf1b44a3c016f755bb"
+size = "396300"
+usize = "634190"
+sha1sum = "29d976db47c51f02cfaf24731f9e4b8a03a55676"
 depends = "['kconfig', 'kconfigwidgets', 'kcoreaddons', 'kcrash', 'kdbusaddons', 'ki18n', 'kio', 'kwidgetsaddons', 'kxmlgui', 'libkdegames']"
 +++
 ### Description: 
@@ -19,9 +19,9 @@ An implementation of the Japanese warehouse keeper game Sokoban
 ### Files: 
 * /usr/bin/skladnik
 * /usr/share/applications/org.kde.skladnik.desktop
-* /usr/share/doc/skladnik-25.04.2/AUTHORS
-* /usr/share/doc/skladnik-25.04.2/COPYING
-* /usr/share/doc/skladnik-25.04.2/README
+* /usr/share/doc/skladnik-25.04.3/AUTHORS
+* /usr/share/doc/skladnik-25.04.3/COPYING
+* /usr/share/doc/skladnik-25.04.3/README
 * /usr/share/icons/hicolor/128x128/apps/skladnik.png
 * /usr/share/icons/hicolor/16x16/apps/skladnik.png
 * /usr/share/icons/hicolor/22x22/apps/skladnik.png

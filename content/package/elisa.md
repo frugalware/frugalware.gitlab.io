@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "elisa 25.04.2-1"
-version = "25.04.2-1"
+title = "elisa 25.04.3-1"
+version = "25.04.3-1"
 description = "A simple music player aiming to provide a nice experience for its users"
-date = "2025-06-12T10:19:21"
+date = "2025-07-04T20:29:15"
 aliases = "/packages/220967"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1768580"
-usize = "5968073"
-sha1sum = "fd86afc5f435cd7768f227e44b5e80092f5a9453"
+size = "1768376"
+usize = "5979819"
+sha1sum = "ebc4957d65f779544d52470d6658000f2572858c"
 depends = "['baloo>=', 'kirigami-addons', 'qqc2-desktop-style>=', 'qt6-multimedia>=', 'vlc']"
 +++
 ### Description: 
@@ -22,9 +22,9 @@ A simple music player aiming to provide a nice experience for its users
 * /usr/lib/elisa/libelisaLib.so.0.1
 * /usr/share/applications/org.kde.elisa.desktop
 * /usr/share/dbus-1/services/org.kde.elisa.service
-* /usr/share/doc/elisa-25.04.2/COPYING
-* /usr/share/doc/elisa-25.04.2/README.md
-* /usr/share/doc/elisa-25.04.2/README.packagers
+* /usr/share/doc/elisa-25.04.3/COPYING
+* /usr/share/doc/elisa-25.04.3/README.md
+* /usr/share/doc/elisa-25.04.3/README.packagers
 * /usr/share/icons/hicolor/128x128/apps/elisa.png
 * /usr/share/icons/hicolor/16x16/apps/elisa.png
 * /usr/share/icons/hicolor/22x22/apps/elisa.png

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "khealthcertificate 25.04.2-1"
-version = "25.04.2-1"
+title = "khealthcertificate 25.04.3-1"
+version = "25.04.3-1"
 description = "Handling of digital vaccination, test and recovery certificates"
-date = "2025-06-12T10:21:15"
+date = "2025-07-04T20:31:12"
 aliases = "/packages/221412"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "533256"
-usize = "1502866"
-sha1sum = "aa7076ff1fb5ee2ddde3af5b70472774c7b79003"
+size = "533468"
+usize = "1502962"
+sha1sum = "6e402eb40b2db71b536ea1c79712f71049cdb576"
 depends = "['karchive>=', 'kcodecs>=', 'ki18n>=']"
 reverse_depends = "['itinerary']"
 +++
@@ -37,9 +37,9 @@ Handling of digital vaccination, test and recovery certificates
 * /usr/lib/cmake/KHealthCertificate/KHealthCertificateTargets.cmake
 * /usr/lib/libKHealthCertificate.so
 * /usr/lib/libKHealthCertificate.so.1
-* /usr/lib/libKHealthCertificate.so.25.04.2
+* /usr/lib/libKHealthCertificate.so.25.04.3
 * /usr/lib/qt6/qml/org/kde/khealthcertificate/libkhealthcertificateqmlplugin.so
 * /usr/lib/qt6/qml/org/kde/khealthcertificate/qmldir
-* /usr/share/doc/khealthcertificate-25.04.2/README.md
-* /usr/share/doc/khealthcertificate-25.04.2/README.md.license
+* /usr/share/doc/khealthcertificate-25.04.3/README.md
+* /usr/share/doc/khealthcertificate-25.04.3/README.md.license
 * /usr/share/qlogging-categories6/org_kde_khealthcertificate.categories
