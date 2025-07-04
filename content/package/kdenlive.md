@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdenlive 25.04.2-1"
-version = "25.04.2-1"
+title = "kdenlive 25.04.3-1"
+version = "25.04.3-1"
 description = "A non-linear video editor for Linux using the MLT video framework"
-date = "2025-06-12T09:44:13"
+date = "2025-07-04T19:53:14"
 aliases = "/packages/218299"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "15149872"
-usize = "79406348"
-sha1sum = "1630ce01d6749b2f11d2220ae545beb3e3d14221"
-depends = "['kfilemetadata>=6.14.0', 'knewstuff>=6.14.0', 'knotifyconfig>=6.14.0', 'kplotting>=6.14.0', 'mlt>=7.14.0', 'mlt-qt>=7.14.0', 'mlt-sdl>=7.14.0', 'opentimelineio', 'purpose>=6.14.0', 'qt6-declarative>=6.9.1', 'qt6-networkauth>=6.9.1', 'qt6-svg>=6.9.1', 'qt6-webengine>=6.9.1']"
+size = "15126404"
+usize = "79627392"
+sha1sum = "b63c268bc9879651ee4f4d5b381ba8b4898710c2"
+depends = "['kfilemetadata>=6.15.0', 'knewstuff>=6.15.0', 'knotifyconfig>=6.15.0', 'kplotting>=6.15.0', 'mlt>=7.14.0', 'mlt-qt>=7.14.0', 'mlt-sdl>=7.14.0', 'opentimelineio', 'purpose>=6.15.0', 'qt6-declarative>=6.9.1', 'qt6-networkauth>=6.9.1', 'qt6-svg>=6.9.1', 'qt6-webengine>=6.9.1']"
 +++
 ### Description: 
 A non-linear video editor for Linux using the MLT video framework
@@ -117,10 +117,10 @@ A non-linear video editor for Linux using the MLT video framework
 * /usr/share/doc/HTML/uk/kdenlive/kdenlive_quickstart-save-project.png
 * /usr/share/doc/HTML/uk/kdenlive/kdenlive_quickstart-timeline-clips.png
 * /usr/share/doc/HTML/uk/kdenlive/kdenlive_quickstart-timelinecursor.png
-* /usr/share/doc/kdenlive-25.04.2/AUTHORS
-* /usr/share/doc/kdenlive-25.04.2/COPYING
-* /usr/share/doc/kdenlive-25.04.2/README.md
-* /usr/share/doc/kdenlive-25.04.2/README.md.license
+* /usr/share/doc/kdenlive-25.04.3/AUTHORS
+* /usr/share/doc/kdenlive-25.04.3/COPYING
+* /usr/share/doc/kdenlive-25.04.3/README.md
+* /usr/share/doc/kdenlive-25.04.3/README.md.license
 * /usr/share/doc/Kdenlive/AUTHORS
 * /usr/share/doc/Kdenlive/LICENSES/Apache-2.0.txt
 * /usr/share/doc/Kdenlive/LICENSES/BSD-2-Clause.txt

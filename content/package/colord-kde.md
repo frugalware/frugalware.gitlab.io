@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "colord-kde 25.04.2-1"
-version = "25.04.2-1"
+title = "colord-kde 25.04.3-1"
+version = "25.04.3-1"
 description = "Interfaces and session daemon to colord for KDE"
-date = "2025-06-12T09:48:27"
+date = "2025-07-04T19:57:44"
 aliases = "/packages/220966"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "205860"
-usize = "925893"
-sha1sum = "15d97deb11a5a3c39df1fbc102eeeafc70b73846"
+size = "206224"
+usize = "925957"
+sha1sum = "4c224bf0ac9956a98083f95d8288fdda07414831"
 depends = "['colord', 'kcmutils', 'kdeclarative', 'kirigami-addons', 'kitemmodels', 'libxrandr']"
 +++
 ### Description: 
@@ -22,8 +22,8 @@ Interfaces and session daemon to colord for KDE
 * /usr/lib/qt6/plugins/plasma/kcms/systemsettings/kcm_colord.so
 * /usr/share/applications/colordkdeiccimporter.desktop
 * /usr/share/applications/kcm_colord.desktop
-* /usr/share/doc/colord-kde-25.04.2/COPYING
-* /usr/share/doc/colord-kde-25.04.2/TODO
+* /usr/share/doc/colord-kde-25.04.3/COPYING
+* /usr/share/doc/colord-kde-25.04.3/TODO
 * /usr/share/locale/ar/LC_MESSAGES/colord-kde.mo
 * /usr/share/locale/ast/LC_MESSAGES/colord-kde.mo
 * /usr/share/locale/az/LC_MESSAGES/colord-kde.mo

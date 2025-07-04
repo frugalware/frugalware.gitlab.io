@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ksudoku 25.04.2-1"
-version = "25.04.2-1"
+title = "ksudoku 25.04.3-1"
+version = "25.04.3-1"
 description = "KSudoku is a logic-based symbol placement puzzle"
-date = "2025-06-12T09:21:18"
+date = "2025-07-04T19:29:29"
 aliases = "/packages/219460"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1888952"
-usize = "3758235"
-sha1sum = "6c0b47f565e8b3015e5bddd9f09215fc305ae934"
-depends = "['libglu', 'libkdegames>=25.04.2']"
+size = "1889284"
+usize = "3758512"
+sha1sum = "95c4540475add2a28871e0677ce1e965f583841e"
+depends = "['libglu', 'libkdegames>=25.04.3']"
 +++
 ### Description: 
 KSudoku is a logic-based symbol placement puzzle
@@ -50,11 +50,11 @@ KSudoku is a logic-based symbol placement puzzle
 * /usr/share/doc/HTML/sv/ksudoku/index.docbook
 * /usr/share/doc/HTML/uk/ksudoku/index.cache.bz2
 * /usr/share/doc/HTML/uk/ksudoku/index.docbook
-* /usr/share/doc/ksudoku-25.04.2/ChangeLog
-* /usr/share/doc/ksudoku-25.04.2/COPYING
-* /usr/share/doc/ksudoku-25.04.2/COPYING.DOC
-* /usr/share/doc/ksudoku-25.04.2/README
-* /usr/share/doc/ksudoku-25.04.2/README.PACKAGERS
+* /usr/share/doc/ksudoku-25.04.3/ChangeLog
+* /usr/share/doc/ksudoku-25.04.3/COPYING
+* /usr/share/doc/ksudoku-25.04.3/COPYING.DOC
+* /usr/share/doc/ksudoku-25.04.3/README
+* /usr/share/doc/ksudoku-25.04.3/README.PACKAGERS
 * /usr/share/icons/hicolor/128x128/apps/ksudoku.png
 * /usr/share/icons/hicolor/16x16/apps/ksudoku.png
 * /usr/share/icons/hicolor/32x32/apps/ksudoku.png

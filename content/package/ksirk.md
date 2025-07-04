@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ksirk 25.04.2-1"
-version = "25.04.2-1"
+title = "ksirk 25.04.3-1"
+version = "25.04.3-1"
 description = "KsirK is a computerized version of the well known strategic board game Risk."
-date = "2025-06-12T09:18:04"
+date = "2025-07-04T19:26:10"
 aliases = "/packages/219528"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "4504976"
-usize = "10563455"
-sha1sum = "023dc4e9af843477921c10d9638e327a5f6bcc5e"
-depends = "['libkdegames>=25.04.2', 'qca']"
+size = "4505916"
+usize = "10564146"
+sha1sum = "60a1911ab875ffb66bbee2a6b40231a9ce45ee5f"
+depends = "['libkdegames>=25.04.3', 'qca']"
 +++
 ### Description: 
 KsirK is a computerized version of the well known strategic board game Risk.
@@ -139,14 +139,14 @@ KsirK is a computerized version of the well known strategic board game Risk.
 * /usr/share/doc/HTML/uk/ksirk/shownumberofarmies.png
 * /usr/share/doc/HTML/uk/ksirkskineditor/index.cache.bz2
 * /usr/share/doc/HTML/uk/ksirkskineditor/index.docbook
-* /usr/share/doc/ksirk-25.04.2/AUTHORS
-* /usr/share/doc/ksirk-25.04.2/ChangeLog
-* /usr/share/doc/ksirk-25.04.2/COPYING
-* /usr/share/doc/ksirk-25.04.2/COPYING.DOC
-* /usr/share/doc/ksirk-25.04.2/COPYING.LIB
-* /usr/share/doc/ksirk-25.04.2/INSTALL
-* /usr/share/doc/ksirk-25.04.2/README
-* /usr/share/doc/ksirk-25.04.2/TODO
+* /usr/share/doc/ksirk-25.04.3/AUTHORS
+* /usr/share/doc/ksirk-25.04.3/ChangeLog
+* /usr/share/doc/ksirk-25.04.3/COPYING
+* /usr/share/doc/ksirk-25.04.3/COPYING.DOC
+* /usr/share/doc/ksirk-25.04.3/COPYING.LIB
+* /usr/share/doc/ksirk-25.04.3/INSTALL
+* /usr/share/doc/ksirk-25.04.3/README
+* /usr/share/doc/ksirk-25.04.3/TODO
 * /usr/share/icons/hicolor/128x128/apps/ksirk.png
 * /usr/share/icons/hicolor/16x16/apps/ksirk.png
 * /usr/share/icons/hicolor/22x22/apps/ksirk.png

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ktorrent 25.04.2-1"
-version = "25.04.2-1"
+title = "ktorrent 25.04.3-1"
+version = "25.04.3-1"
 description = "A BitTorrent application for KDE."
-date = "2025-06-12T09:31:52"
+date = "2025-07-04T19:40:24"
 aliases = "/packages/219530"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2676816"
-usize = "12837487"
-sha1sum = "2e230c66a47e54c44648f5790228454f27a33c2c"
-depends = "['kdnssd>=6.14.0', 'kplotting>=6.14.0', 'kstatusnotifieritem>=6.14.0', 'libktorrent>=25.04.2', 'plasma-workspace>=6.3.5', 'syndication']"
+size = "2678680"
+usize = "12844805"
+sha1sum = "4ce63a69567db8bd640f4ba84391007532778d41"
+depends = "['kdnssd>=6.15.0', 'kplotting>=6.15.0', 'kstatusnotifieritem>=6.15.0', 'libktorrent>=25.04.3', 'plasma-workspace>=6.4.2', 'syndication']"
 +++
 ### Description: 
 A BitTorrent application for KDE.
@@ -70,7 +70,7 @@ A BitTorrent application for KDE.
 * /usr/share/doc/HTML/uk/ktorrent/index.docbook
 * /usr/share/doc/HTML/zh_CN/ktorrent/index.cache.bz2
 * /usr/share/doc/HTML/zh_CN/ktorrent/index.docbook
-* /usr/share/doc/ktorrent-25.04.2/ChangeLog
+* /usr/share/doc/ktorrent-25.04.3/ChangeLog
 * /usr/share/icons/hicolor/128x128/apps/ktorrent.png
 * /usr/share/icons/hicolor/16x16/actions/kt-add-feeds.png
 * /usr/share/icons/hicolor/16x16/actions/kt-add-filters.png
