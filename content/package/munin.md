@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "munin 2.0.76-2"
-version = "2.0.76-2"
+title = "munin 2.0.76-3"
+version = "2.0.76-3"
 description = "Munin is a tool for graphing all sorts of information about one or more servers and displaying it in a web interface."
-date = "2024-06-18T14:36:20"
+date = "2025-07-04T13:16:02"
 aliases = "/packages/9441"
 categories = ['network-extra']
 upstreamurl = "http://munin-monitoring.org/"
 arch = "x86_64"
-size = "907608"
-usize = "3105887"
-sha1sum = "52c022495f9674b13eae4c76b2dd6ea3125262cb"
+size = "906356"
+usize = "3107807"
+sha1sum = "23608d01932e56d1dc46a1e14f1c64ddce923bf9"
 depends = "['perl-html-template', 'rrdtool>=1.7.1']"
 +++
 ### Description: 
@@ -346,7 +346,6 @@ Munin is a tool for graphing all sorts of information about one or more servers 
 * /usr/share/doc/munin-2.0.76/README.Frugalware
 * /usr/share/doc/munin-2.0.76/README.HP-UX
 * /usr/share/doc/munin-2.0.76/README.OSX
-* /usr/share/doc/munin-2.0.76/RELEASE
 * /usr/share/man/man1/munin-get.1perl.gz
 * /usr/share/man/man1/munin-node-configure.1perl.gz
 * /usr/share/man/man1/munin-node.1perl.gz

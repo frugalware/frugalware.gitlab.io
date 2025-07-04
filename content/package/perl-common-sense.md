@@ -12,7 +12,7 @@ size = "10212"
 usize = "34363"
 sha1sum = "91cf71d28f8a51bcc6c8d8f69485def2c7953a7a"
 depends = "['perl>=5.42.0']"
-reverse_depends = "['perl-json-xs']"
+reverse_depends = "['perl-convert-uulib', 'perl-json-xs']"
 +++
 ### Description: 
 save a tree AND a kitten, use common::sense!

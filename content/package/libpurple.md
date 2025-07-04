@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libpurple 2.14.14-1"
-version = "2.14.14-1"
+title = "libpurple 2.14.14-2"
+version = "2.14.14-2"
 description = "Library intended to be used by programmers seeking to write an IM client that connects to many IM networks."
-date = "2025-05-20T13:29:44"
+date = "2025-07-04T13:28:37"
 aliases = "/packages/50023"
 categories = ['xlib']
 upstreamurl = "http://www.pidgin.im/"
 arch = "x86_64"
-size = "1617964"
-usize = "7219712"
-sha1sum = "d95e0eed7a9be4addc75f98dcc70e0aab1563323"
+size = "1616308"
+usize = "7203824"
+sha1sum = "6056c0a6afc42f16499c6b8e7fc91a3d537bc897"
 depends = "['cyrus-sasl', 'dbus-glib', 'farstream', 'libgadu', 'libidn>=1.35', 'meanwhile', 'nss']"
 reverse_depends = "['bitlbee-libpurple', 'finch', 'pidgin', 'pidgin-facebookchat', 'pidgin-skypeweb', 'telepathy-haze']"
 +++

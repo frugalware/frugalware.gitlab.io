@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "pidgin 2.14.14-1"
-version = "2.14.14-1"
+title = "pidgin 2.14.14-2"
+version = "2.14.14-2"
 description = "A multi-protocol instant messaging (IM) client"
-date = "2025-05-20T13:29:44"
+date = "2025-07-04T13:28:37"
 aliases = "/packages/16192"
 categories = ['xapps-extra']
 upstreamurl = "http://www.pidgin.im/"
 arch = "x86_64"
-size = "4849512"
-usize = "26055001"
-sha1sum = "0ba57397f13c10a3ffbf61edaa15de89f259e87c"
+size = "4854372"
+usize = "26055019"
+sha1sum = "740fedf5d753cb67e91133b716dc193eff73ed47"
 depends = "['audiofile', 'dbus-x11', 'gtk+2', 'libao', 'libpurple', 'libsm', 'libxscrnsaver', 'startup-notification']"
 reverse_depends = "['pidgin-otr']"
 +++

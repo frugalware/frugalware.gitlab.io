@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "perl-syntax-keyword-try 0.30-2"
-version = "0.30-2"
+title = "perl-syntax-keyword-try 0.30-3"
+version = "0.30-3"
 description = "try/catch/finally syntax for perl"
-date = "2025-07-04T12:12:50"
+date = "2025-07-04T14:12:55"
 aliases = "/packages/221500"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "31276"
-usize = "89084"
-sha1sum = "165e7d6e0ae891e022a2e0412673cd739b597a6f"
+size = "31572"
+usize = "89273"
+sha1sum = "5e7e2283d928a8ba6177c381d15e8aec84d7d8ed"
 depends = "['perl-class-inspector', 'perl-file-sharedir', 'perl-xs-parse-keyword']"
 reverse_depends = "['po4a']"
 +++

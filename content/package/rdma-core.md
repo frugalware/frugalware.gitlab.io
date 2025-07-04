@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "rdma-core 58.0-1"
-version = "58.0-1"
+title = "rdma-core 58.0-2"
+version = "58.0-2"
 description = "RDMA core userspace libraries and daemons"
-date = "2025-06-20T15:31:01"
+date = "2025-07-04T13:30:36"
 aliases = "/packages/220864"
 categories = ['network-extra']
 upstreamurl = "https://github.com/linux-rdma/rdma-core"
 arch = "x86_64"
-size = "1224440"
+size = "1224468"
 usize = "3469799"
-sha1sum = "e2681aef3bdcc4e4f87a71dbcbc5b347b87b1bef"
+sha1sum = "0ad41a17a62d6868073820dbf73e779816df1f6b"
 depends = "['ethtool', 'libnl', 'libsystemd', 'perl', 'python3']"
 reverse_depends = "['openucx']"
 +++

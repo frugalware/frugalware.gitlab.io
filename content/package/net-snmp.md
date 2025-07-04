@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "net-snmp 5.9.4-4"
-version = "5.9.4-4"
+title = "net-snmp 5.9.4-5"
+version = "5.9.4-5"
 description = "A suite of applications used to implement SNMP v1, SNMP v2c and SNMP v3 using both IPv4 and IPv6"
-date = "2024-06-11T13:36:08"
+date = "2025-07-04T13:26:11"
 aliases = "/packages/3746"
 categories = ['network-extra']
 upstreamurl = "http://www.net-snmp.org/"
 arch = "x86_64"
-size = "2660480"
-usize = "14002394"
-sha1sum = "05d2f2d3ad9331bc01ed707db4cecee85a499719"
+size = "2676744"
+usize = "13952096"
+sha1sum = "cf361b22cfe258bc02190fedcab1316123de4542"
 depends = "['ncurses>=6.5', 'openssl>=3.1.0', 'pciutils>=3.4.1', 'perl>=5.38']"
 reverse_depends = "['hplip-driver', 'rsyslog-snmp']"
 +++
@@ -252,30 +252,30 @@ A suite of applications used to implement SNMP v1, SNMP v2c and SNMP v3 using bo
 * /usr/lib/libnetsnmptrapd.so
 * /usr/lib/libnetsnmptrapd.so.40
 * /usr/lib/libnetsnmptrapd.so.40.2.1
-* /usr/lib/perl5/5.40/site_perl/auto/NetSNMP/agent/agent.so
-* /usr/lib/perl5/5.40/site_perl/auto/NetSNMP/agent/autosplit.ix
-* /usr/lib/perl5/5.40/site_perl/auto/NetSNMP/agent/default_store/autosplit.ix
-* /usr/lib/perl5/5.40/site_perl/auto/NetSNMP/agent/default_store/default_store.so
-* /usr/lib/perl5/5.40/site_perl/auto/NetSNMP/ASN/ASN.so
-* /usr/lib/perl5/5.40/site_perl/auto/NetSNMP/ASN/autosplit.ix
-* /usr/lib/perl5/5.40/site_perl/auto/NetSNMP/default_store/autosplit.ix
-* /usr/lib/perl5/5.40/site_perl/auto/NetSNMP/default_store/default_store.so
-* /usr/lib/perl5/5.40/site_perl/auto/NetSNMP/OID/autosplit.ix
-* /usr/lib/perl5/5.40/site_perl/auto/NetSNMP/OID/OID.so
-* /usr/lib/perl5/5.40/site_perl/auto/NetSNMP/TrapReceiver/autosplit.ix
-* /usr/lib/perl5/5.40/site_perl/auto/NetSNMP/TrapReceiver/TrapReceiver.so
-* /usr/lib/perl5/5.40/site_perl/auto/SNMP/autosplit.ix
-* /usr/lib/perl5/5.40/site_perl/auto/SNMP/SNMP.so
-* /usr/lib/perl5/5.40/site_perl/Bundle/MakefileSubs.pm
-* /usr/lib/perl5/5.40/site_perl/NetSNMP/agent.pm
-* /usr/lib/perl5/5.40/site_perl/NetSNMP/agent/default_store.pm
-* /usr/lib/perl5/5.40/site_perl/NetSNMP/agent/netsnmp_request_infoPtr.pm
-* /usr/lib/perl5/5.40/site_perl/NetSNMP/agent/Support.pm
-* /usr/lib/perl5/5.40/site_perl/NetSNMP/ASN.pm
-* /usr/lib/perl5/5.40/site_perl/NetSNMP/default_store.pm
-* /usr/lib/perl5/5.40/site_perl/NetSNMP/OID.pm
-* /usr/lib/perl5/5.40/site_perl/NetSNMP/TrapReceiver.pm
-* /usr/lib/perl5/5.40/site_perl/SNMP.pm
+* /usr/lib/perl5/5.42/site_perl/auto/NetSNMP/agent/agent.so
+* /usr/lib/perl5/5.42/site_perl/auto/NetSNMP/agent/autosplit.ix
+* /usr/lib/perl5/5.42/site_perl/auto/NetSNMP/agent/default_store/autosplit.ix
+* /usr/lib/perl5/5.42/site_perl/auto/NetSNMP/agent/default_store/default_store.so
+* /usr/lib/perl5/5.42/site_perl/auto/NetSNMP/ASN/ASN.so
+* /usr/lib/perl5/5.42/site_perl/auto/NetSNMP/ASN/autosplit.ix
+* /usr/lib/perl5/5.42/site_perl/auto/NetSNMP/default_store/autosplit.ix
+* /usr/lib/perl5/5.42/site_perl/auto/NetSNMP/default_store/default_store.so
+* /usr/lib/perl5/5.42/site_perl/auto/NetSNMP/OID/autosplit.ix
+* /usr/lib/perl5/5.42/site_perl/auto/NetSNMP/OID/OID.so
+* /usr/lib/perl5/5.42/site_perl/auto/NetSNMP/TrapReceiver/autosplit.ix
+* /usr/lib/perl5/5.42/site_perl/auto/NetSNMP/TrapReceiver/TrapReceiver.so
+* /usr/lib/perl5/5.42/site_perl/auto/SNMP/autosplit.ix
+* /usr/lib/perl5/5.42/site_perl/auto/SNMP/SNMP.so
+* /usr/lib/perl5/5.42/site_perl/Bundle/MakefileSubs.pm
+* /usr/lib/perl5/5.42/site_perl/NetSNMP/agent.pm
+* /usr/lib/perl5/5.42/site_perl/NetSNMP/agent/default_store.pm
+* /usr/lib/perl5/5.42/site_perl/NetSNMP/agent/netsnmp_request_infoPtr.pm
+* /usr/lib/perl5/5.42/site_perl/NetSNMP/agent/Support.pm
+* /usr/lib/perl5/5.42/site_perl/NetSNMP/ASN.pm
+* /usr/lib/perl5/5.42/site_perl/NetSNMP/default_store.pm
+* /usr/lib/perl5/5.42/site_perl/NetSNMP/OID.pm
+* /usr/lib/perl5/5.42/site_perl/NetSNMP/TrapReceiver.pm
+* /usr/lib/perl5/5.42/site_perl/SNMP.pm
 * /usr/lib/pkgconfig/netsnmp-agent.pc
 * /usr/lib/pkgconfig/netsnmp.pc
 * /usr/lib/systemd/system/snmpd.service
