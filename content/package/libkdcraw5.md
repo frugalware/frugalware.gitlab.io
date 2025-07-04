@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libkdcraw5 25.04.2-1"
-version = "25.04.2-1"
+title = "libkdcraw5 25.04.3-1"
+version = "25.04.3-1"
 description = "KDE Paint Program. kf5"
-date = "2025-06-11T13:23:28"
+date = "2025-07-04T16:57:59"
 aliases = "/packages/222685"
 categories = ['kde5-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "39844"
+size = "39884"
 usize = "130513"
-sha1sum = "d18893c079e93ce85264b8692f979b0af3eecc8d"
+sha1sum = "c77683dfe706ad0428eb7bc4169e5a41434d7ac9"
 depends = "['qt5-base>=5.15.17']"
 reverse_depends = "['krita']"
 +++

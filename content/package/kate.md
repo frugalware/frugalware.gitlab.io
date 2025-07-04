@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kate 25.04.2-1"
-version = "25.04.2-1"
+title = "kate 25.04.3-1"
+version = "25.04.3-1"
 description = "KDE Advanced Text Editor."
-date = "2025-06-11T13:28:26"
+date = "2025-07-04T17:03:15"
 aliases = "/packages/118445"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "10357020"
-usize = "35943772"
-sha1sum = "266fb6559b5647db0199441ac025345f72cf2f29"
-depends = "['kitemmodels>=6.14.0', 'knewstuff>=6.14.0', 'ktexteditor>=6.14.0', 'libgit2>=0.26', 'libplasma>=6.3.5', 'qt6-declarative>=6.9.1', 'qtkeychain', 'threadweaver>=6.14.0']"
+size = "10355384"
+usize = "35992724"
+sha1sum = "4c9f14d0dda8cbe6d7d8e90b58fd6d16cc270dec"
+depends = "['kitemmodels>=6.15.0', 'knewstuff>=6.15.0', 'ktexteditor>=6.15.0', 'libgit2>=0.26', 'libplasma>=6.4.2', 'qt6-declarative>=6.9.1', 'qtkeychain', 'threadweaver>=6.15.0']"
 +++
 ### Description: 
 KDE Advanced Text Editor.
@@ -19,7 +19,7 @@ KDE Advanced Text Editor.
 ### Files: 
 * /usr/bin/kate
 * /usr/bin/kwrite
-* /usr/lib/libkateprivate.so.25.04.2
+* /usr/lib/libkateprivate.so.25.04.3
 * /usr/lib/qt6/plugins/kf6/ktexteditor/cmaketoolsplugin.so
 * /usr/lib/qt6/plugins/kf6/ktexteditor/compilerexplorer.so
 * /usr/lib/qt6/plugins/kf6/ktexteditor/eslintplugin.so
@@ -416,7 +416,7 @@ KDE Advanced Text Editor.
 * /usr/share/doc/HTML/uk/katepart/vi.docbook
 * /usr/share/doc/HTML/uk/kwrite/index.cache.bz2
 * /usr/share/doc/HTML/uk/kwrite/index.docbook
-* /usr/share/doc/kate-25.04.2/README.md
+* /usr/share/doc/kate-25.04.3/README.md
 * /usr/share/icons/hicolor/128x128/apps/kate.png
 * /usr/share/icons/hicolor/128x128/apps/kwrite.png
 * /usr/share/icons/hicolor/150x150/apps/kate.png
@@ -1027,6 +1027,7 @@ KDE Advanced Text Editor.
 * /usr/share/locale/he/LC_MESSAGES/kateexternaltoolsplugin.mo
 * /usr/share/locale/he/LC_MESSAGES/katefilebrowserplugin.mo
 * /usr/share/locale/he/LC_MESSAGES/katefiletree.mo
+* /usr/share/locale/he/LC_MESSAGES/kategdbplugin.mo
 * /usr/share/locale/he/LC_MESSAGES/kategitblameplugin.mo
 * /usr/share/locale/he/LC_MESSAGES/katekeyboardmacros.mo
 * /usr/share/locale/he/LC_MESSAGES/katekonsoleplugin.mo

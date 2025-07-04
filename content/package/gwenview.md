@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gwenview 25.04.2-1"
-version = "25.04.2-1"
+title = "gwenview 25.04.3-1"
+version = "25.04.3-1"
 description = "KDE Image Viewer."
-date = "2025-06-11T13:26:19"
+date = "2025-07-04T17:01:03"
 aliases = "/packages/74209"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "6789608"
-usize = "11922226"
-sha1sum = "6f3be4e7afdbdb18800a2f0705e60da12871b4b5"
-depends = "['baloo>=6.14.0', 'cfitsio>=4.2.0', 'exiv2>=0.28.1', 'kimageannotator', 'kparts>=6.14.0', 'libkdcraw>=25.04.2', 'libtiff>=4.7.0', 'plasma-activities>=6.3.5', 'purpose>=6.14.0', 'qt6-imageformats>=6.9.1']"
+size = "6788036"
+usize = "11921318"
+sha1sum = "9c9defece44428008b640c743b5f814773c696c6"
+depends = "['baloo>=6.15.0', 'cfitsio>=4.2.0', 'exiv2>=0.28.1', 'kimageannotator', 'kparts>=6.15.0', 'libkdcraw>=25.04.3', 'libtiff>=4.7.0', 'plasma-activities>=6.4.2', 'purpose>=6.15.0', 'qt6-imageformats>=6.9.1']"
 +++
 ### Description: 
 KDE Image Viewer.
@@ -25,10 +25,10 @@ KDE Image Viewer.
 * /usr/lib/qt6/plugins/kf6/parts/gvpart.so
 * /usr/share/applications/org.kde.gwenview.desktop
 * /usr/share/applications/org.kde.gwenview_importer.desktop
-* /usr/share/doc/gwenview-25.04.2/COPYING
-* /usr/share/doc/gwenview-25.04.2/COPYING.DOC
-* /usr/share/doc/gwenview-25.04.2/NEWS
-* /usr/share/doc/gwenview-25.04.2/README.md
+* /usr/share/doc/gwenview-25.04.3/COPYING
+* /usr/share/doc/gwenview-25.04.3/COPYING.DOC
+* /usr/share/doc/gwenview-25.04.3/NEWS
+* /usr/share/doc/gwenview-25.04.3/README.md
 * /usr/share/doc/HTML/ca/gwenview/browse_mode.png
 * /usr/share/doc/HTML/ca/gwenview/index.cache.bz2
 * /usr/share/doc/HTML/ca/gwenview/index.docbook

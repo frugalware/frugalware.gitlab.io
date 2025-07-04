@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "libkdepim 25.04.2-1"
-version = "25.04.2-1"
+title = "libkdepim 25.04.3-1"
+version = "25.04.3-1"
 description = "KDEPim library."
-date = "2025-06-11T13:33:58"
+date = "2025-07-04T17:08:37"
 aliases = "/packages/218466"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "92128"
-usize = "381869"
-sha1sum = "fcbfdf8f778ea578fcc30d901a0ebf48082ba836"
-depends = "['akonadi>=25.04.2', 'akonadi-contacts>=25.04.2', 'akonadi-search>=25.04.2', 'kldap>=25.04.2']"
+size = "92144"
+usize = "381933"
+sha1sum = "6e1dbdab4725b4676b7c23ff5fffeba593901d56"
+depends = "['akonadi>=25.04.3', 'akonadi-contacts>=25.04.3', 'akonadi-search>=25.04.3', 'kldap>=25.04.3']"
 reverse_depends = "['kmail-account-wizard', 'mailimporter', 'pimcommon']"
 +++
 ### Description: 
@@ -45,7 +45,7 @@ KDEPim library.
 * /usr/lib/cmake/KPim6MailTransportDBusService/KPim6MailTransportDBusServiceConfig.cmake
 * /usr/lib/libKPim6Libkdepim.so
 * /usr/lib/libKPim6Libkdepim.so.6
-* /usr/lib/libKPim6Libkdepim.so.6.4.2
+* /usr/lib/libKPim6Libkdepim.so.6.4.3
 * /usr/lib/qt6/plugins/designer/kdepim6widgets.so
 * /usr/share/dbus-1/interfaces/org.kde.addressbook.service.xml
 * /usr/share/dbus-1/interfaces/org.kde.mailtransport.service.xml
