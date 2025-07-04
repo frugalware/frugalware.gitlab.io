@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kcharselect 25.04.2-1"
-version = "25.04.2-1"
+title = "kcharselect 25.04.3-1"
+version = "25.04.3-1"
 description = "Character selector."
-date = "2025-06-11T09:57:49"
+date = "2025-07-04T14:44:31"
 aliases = "/packages/153202"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "445708"
-usize = "748950"
-sha1sum = "76c90a78d71c43cf50efac52d47378ad73daa207"
-depends = "['kbookmarks>=6.14.0', 'kxmlgui>=6.14.0']"
+size = "445660"
+usize = "749001"
+sha1sum = "37ef01ffc59d4b1279e7855a9b56e9d03077fcca"
+depends = "['kbookmarks>=6.15.0', 'kxmlgui>=6.15.0']"
 +++
 ### Description: 
 Character selector.
@@ -68,7 +68,7 @@ Character selector.
 * /usr/share/doc/HTML/uk/kcharselect/index.cache.bz2
 * /usr/share/doc/HTML/uk/kcharselect/index.docbook
 * /usr/share/doc/HTML/uk/kcharselect/kcharselect.png
-* /usr/share/doc/kcharselect-25.04.2/COPYING
+* /usr/share/doc/kcharselect-25.04.3/COPYING
 * /usr/share/locale/af/LC_MESSAGES/kcharselect.mo
 * /usr/share/locale/ar/LC_MESSAGES/kcharselect.mo
 * /usr/share/locale/ast/LC_MESSAGES/kcharselect.mo

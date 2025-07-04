@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ffmpegthumbs 25.04.2-1"
-version = "25.04.2-1"
+title = "ffmpegthumbs 25.04.3-1"
+version = "25.04.3-1"
 description = "FFmpeg based thumbnail generator."
-date = "2025-06-11T09:48:20"
+date = "2025-07-04T14:36:10"
 aliases = "/packages/218426"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "27032"
-usize = "86749"
-sha1sum = "cc128c4ae1bb1eaa5b97452698f110deaffd2531"
-depends = "['ffmpeg>=7.0', 'kio>=6.14.0', 'taglib']"
+size = "27124"
+usize = "86832"
+sha1sum = "b8c98126d26f481df80d347cdcbc161a9166a50d"
+depends = "['ffmpeg>=7.0', 'kio>=6.15.0', 'taglib']"
 reverse_depends = "['dolphin']"
 +++
 ### Description: 

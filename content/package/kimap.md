@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kimap 25.04.2-1"
-version = "25.04.2-1"
+title = "kimap 25.04.3-1"
+version = "25.04.3-1"
 description = "C++ API for IMAP support."
-date = "2025-06-11T10:36:45"
+date = "2025-07-04T15:07:30"
 aliases = "/packages/218320"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "254556"
-usize = "1005572"
-sha1sum = "e926929c8785802628ea31e71439756b6e2a0b7b"
-depends = "['cyrus-sasl>=2.1.26-3', 'kio>=6.14.0', 'kmime>=25.04.2']"
+size = "254788"
+usize = "1005828"
+sha1sum = "ccea6a414553760906ef2fee627fb885817f7987"
+depends = "['cyrus-sasl>=2.1.26-3', 'kio>=6.15.0', 'kmime>=25.04.3']"
 reverse_depends = "['kdepim-runtime', 'pimcommon']"
 +++
 ### Description: 
@@ -152,9 +152,9 @@ C++ API for IMAP support.
 * /usr/lib/cmake/KPim6IMAP/KPim6IMAPTargets.cmake
 * /usr/lib/libKPim6IMAP.so
 * /usr/lib/libKPim6IMAP.so.6
-* /usr/lib/libKPim6IMAP.so.6.4.2
-* /usr/share/doc/kimap-25.04.2/README.md
-* /usr/share/doc/kimap-25.04.2/README.md.license
+* /usr/lib/libKPim6IMAP.so.6.4.3
+* /usr/share/doc/kimap-25.04.3/README.md
+* /usr/share/doc/kimap-25.04.3/README.md.license
 * /usr/share/locale/ar/LC_MESSAGES/libkimap6.mo
 * /usr/share/locale/ast/LC_MESSAGES/libkimap6.mo
 * /usr/share/locale/bs/LC_MESSAGES/libkimap6.mo
