@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "perl-net-cidr-lite 0.22-2"
-version = "0.22-2"
+title = "perl-net-cidr-lite 0.22-3"
+version = "0.22-3"
 description = "Perl extension for merging IPv4 or IPv6 CIDR addresses"
-date = "2025-02-13T15:30:21"
+date = "2025-07-04T11:28:58"
 aliases = "/packages/10720"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "10256"
-usize = "22153"
-sha1sum = "88b74a404dd7b7b26ae48e2cdcb72fdf84dcdeb0"
-depends = "['perl>=5.34.0']"
+size = "10396"
+usize = "22192"
+sha1sum = "492126ad334221029053bcac422fd26b736597ce"
+depends = "['perl>=5.42.0']"
 +++
 ### Description: 
 Perl extension for merging IPv4 or IPv6 CIDR addresses

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "perl-math-round 0.08-2"
-version = "0.08-2"
+title = "perl-math-round 0.08-3"
+version = "0.08-3"
 description = "Perl extension for rounding numbers"
-date = "2024-06-11T13:29:10"
+date = "2025-07-04T11:25:07"
 aliases = "/packages/153569"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "12884"
-usize = "31573"
-sha1sum = "4493e36aebc10b646b64487d7f83befaa56402b3"
-depends = "['perl>=5.34.0']"
+size = "12940"
+usize = "31611"
+sha1sum = "150193ef5caeb90c515347a525854202edd912e4"
+depends = "['perl>=5.42.0']"
 +++
 ### Description: 
 Perl extension for rounding numbers

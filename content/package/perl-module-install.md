@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "perl-module-install 1.21-2"
-version = "1.21-2"
+title = "perl-module-install 1.21-3"
+version = "1.21-3"
 description = "Standalone, extensible Perl module installer"
-date = "2024-06-11T13:09:56"
+date = "2025-07-04T11:26:46"
 aliases = "/packages/219555"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "126104"
-usize = "317352"
-sha1sum = "d734d18086a090e65320ae9d79460322fae2ff65"
-depends = "['perl>=5.34.0', 'perl-file-remove', 'perl-yaml-tiny']"
+size = "126900"
+usize = "318096"
+sha1sum = "282f1d0544aa8dd2c3b9c358f8a82edeadb9b85c"
+depends = "['perl>=5.42.0', 'perl-file-remove', 'perl-yaml-tiny']"
 +++
 ### Description: 
 Standalone, extensible Perl module installer

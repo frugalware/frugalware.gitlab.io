@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "perl-io-socket-ssl 2.089-1"
-version = "2.089-1"
+title = "perl-io-socket-ssl 2.089-2"
+version = "2.089-2"
 description = "Perl extension Nearly transparent SSL encapsulation for IO::Socket::INET"
-date = "2024-09-08T19:39:37"
+date = "2025-07-04T11:17:54"
 aliases = "/packages/169189"
 categories = ['devel']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "188048"
-usize = "617577"
-sha1sum = "9ca63edae681fe203044f696829468850678be86"
-depends = "['perl>=5.34.0', 'perl-net-ssleay>=1.85-3', 'perl-uri>=1.76-2']"
+size = "188404"
+usize = "617812"
+sha1sum = "dd07e7d0536436a288c4234500dbb5638521c76e"
+depends = "['perl>=5.42.0', 'perl-net-ssleay>=1.85-3', 'perl-uri>=1.76-2']"
 reverse_depends = "['spamassassin']"
 +++
 ### Description: 

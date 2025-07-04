@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "perl-io-stringy 2.113-3"
-version = "2.113-3"
+title = "perl-io-stringy 2.113-4"
+version = "2.113-4"
 description = "Perl5 modules for IO from scalars and arrays"
-date = "2024-06-11T12:46:46"
+date = "2025-07-04T11:18:26"
 aliases = "/packages/3779"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "48996"
-usize = "118805"
-sha1sum = "5a48a347f465186609f1ba16ce21dd2b7815e8c5"
-depends = "['perl>=5.34.0']"
+size = "49284"
+usize = "119111"
+sha1sum = "6a65211438cb01a4b99e620c296d382bfc1318c0"
+depends = "['perl>=5.42.0']"
 reverse_depends = "['amavisd-new', 'perl-mime-tools']"
 +++
 ### Description: 

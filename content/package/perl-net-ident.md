@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "perl-net-ident 1.25-2"
-version = "1.25-2"
+title = "perl-net-ident 1.25-3"
+version = "1.25-3"
 description = "Perl extension for lookup the username on the remote end of a TCP/IP connection"
-date = "2025-02-13T15:31:47"
+date = "2025-07-04T11:31:06"
 aliases = "/packages/10715"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "22380"
-usize = "61495"
-sha1sum = "abadfc38f64d4669911daff23dc7795b4df4ddc3"
-depends = "['perl>=5.34.0']"
+size = "22496"
+usize = "61543"
+sha1sum = "278dcd859c2972013c09f4ca44caeae7b63761fc"
+depends = "['perl>=5.42.0']"
 reverse_depends = "['spamassassin']"
 +++
 ### Description: 

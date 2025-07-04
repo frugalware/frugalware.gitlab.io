@@ -1,25 +1,25 @@
 +++
 draft = false
-title = "perl-role-tiny 2.002004-2"
-version = "2.002004-2"
+title = "perl-role-tiny 2.002004-3"
+version = "2.002004-3"
 description = "Roles. Like a nouvelle cuisine portion size slice of Moose."
-date = "2022-02-15T13:58:31"
+date = "2025-07-04T11:38:16"
 aliases = "/packages/220181"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "20520"
-usize = "54117"
-sha1sum = "024c82b6b6dde7cd14db135cc34ea53100f50e3b"
-depends = "['perl>=5.34.0']"
+size = "20152"
+usize = "53267"
+sha1sum = "f69480bad60fc17cbff0bf919db7c687eb28bb80"
+depends = "['perl>=5.42.0']"
 reverse_depends = "['perl-moo']"
 +++
 ### Description: 
 Roles. Like a nouvelle cuisine portion size slice of Moose.
 
 ### Files: 
-* /usr/lib/perl5/site_perl/current/Role/Tiny.pm
-* /usr/lib/perl5/site_perl/current/Role/Tiny/With.pm
+* /usr/lib/perl5/site_perl/Role/Tiny.pm
+* /usr/lib/perl5/site_perl/Role/Tiny/With.pm
 * /usr/share/doc/perl-role-tiny-2.002004/LICENSE
 * /usr/share/doc/perl-role-tiny-2.002004/MANIFEST
 * /usr/share/doc/perl-role-tiny-2.002004/README

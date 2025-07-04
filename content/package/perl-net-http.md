@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "perl-net-http 6.23-2"
-version = "6.23-2"
+title = "perl-net-http 6.23-3"
+version = "6.23-3"
 description = "Low-level HTTP connection (client)"
-date = "2024-06-11T13:10:25"
+date = "2025-07-04T11:30:35"
 aliases = "/packages/200363"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "29904"
-usize = "75368"
-sha1sum = "f4a2113f10d6ea560970237b024ee215788b386b"
-depends = "['perl>=5.34.0']"
+size = "29972"
+usize = "75505"
+sha1sum = "76a31f7fda95dc3f61a0b78736a0426a04369cda"
+depends = "['perl>=5.42.0']"
 reverse_depends = "['perl-libwww']"
 +++
 ### Description: 

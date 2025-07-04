@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "perl-sub-quote 2.006008-2"
-version = "2.006008-2"
+title = "perl-sub-quote 2.006008-3"
+version = "2.006008-3"
 description = "efficient generation of subroutines via string eval"
-date = "2024-06-11T12:50:03"
+date = "2025-07-04T11:41:36"
 aliases = "/packages/220180"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "25128"
-usize = "64391"
-sha1sum = "f9ba317c331b87135815d4f7c339c6b1faaebabd"
-depends = "['perl>=5.34.0']"
+size = "25180"
+usize = "64469"
+sha1sum = "4d2a622a681c624ec638b95819af24a31a43ef76"
+depends = "['perl>=5.42.0']"
 reverse_depends = "['perl-moo']"
 +++
 ### Description: 

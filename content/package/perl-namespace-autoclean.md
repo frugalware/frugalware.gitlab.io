@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "perl-namespace-autoclean 0.31-1"
-version = "0.31-1"
+title = "perl-namespace-autoclean 0.31-2"
+version = "0.31-2"
 description = "Keep imports out of your namespace"
-date = "2024-11-14T09:55:04"
+date = "2025-07-04T11:28:25"
 aliases = "/packages/218680"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "9396"
-usize = "20264"
-sha1sum = "cb7388f04a1609ee36f130fcdfa9e0a6c37d189d"
-depends = "['perl>=5.34.0']"
+size = "9496"
+usize = "20308"
+sha1sum = "ed8a24877d4b83f73374e63c1b4527a301081b4f"
+depends = "['perl>=5.42.0']"
 +++
 ### Description: 
 Keep imports out of your namespace

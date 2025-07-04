@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "perl-libwww 6.78-1"
-version = "6.78-1"
+title = "perl-libwww 6.78-2"
+version = "6.78-2"
 description = "A set of Perl modules which provides a simple and consistent API to the WWW."
-date = "2025-02-21T11:59:25"
+date = "2025-07-04T11:20:39"
 aliases = "/packages/3282"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "142188"
-usize = "352974"
-sha1sum = "0cbecf0921356a7d2244c6431a05a00cce5da90e"
-depends = "['perl>=5.34.0', 'perl-file-listing', 'perl-html-parser', 'perl-http-cookies', 'perl-http-daemon', 'perl-http-negotiate', 'perl-net-http', 'perl-www-robotrules']"
+size = "142800"
+usize = "353514"
+sha1sum = "f0c1e0886e6de864a3b9e6a63390ea474c0fc1ad"
+depends = "['perl>=5.42.0', 'perl-file-listing', 'perl-html-parser', 'perl-http-cookies', 'perl-http-daemon', 'perl-http-negotiate', 'perl-net-http', 'perl-www-robotrules']"
 reverse_depends = "['spamassassin']"
 +++
 ### Description: 

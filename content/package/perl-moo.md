@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "perl-moo 2.005005-3"
-version = "2.005005-3"
+title = "perl-moo 2.005005-4"
+version = "2.005005-4"
 description = "Minimalist Object Orientation (with Moose compatiblity)"
-date = "2025-02-13T15:28:32"
+date = "2025-07-04T11:27:48"
 aliases = "/packages/220176"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "52944"
-usize = "164072"
-sha1sum = "f6ed31b3c211d70c0f4c9ebe2caf1dcd23250bd9"
-depends = "['perl>=5.34.0', 'perl-class-method-modifiers', 'perl-devel-globaldestruction', 'perl-import-into', 'perl-module-runtime', 'perl-role-tiny', 'perl-sub-quote']"
+size = "53140"
+usize = "164192"
+sha1sum = "427478918df46978e0bbb5458d0b124223aab7af"
+depends = "['perl>=5.42.0', 'perl-class-method-modifiers', 'perl-devel-globaldestruction', 'perl-import-into', 'perl-module-runtime', 'perl-role-tiny', 'perl-sub-quote']"
 +++
 ### Description: 
 Minimalist Object Orientation (with Moose compatiblity)

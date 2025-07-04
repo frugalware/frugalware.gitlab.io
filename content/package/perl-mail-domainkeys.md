@@ -1,31 +1,31 @@
 +++
 draft = false
-title = "perl-mail-domainkeys 1.0-6"
-version = "1.0-6"
+title = "perl-mail-domainkeys 1.0-7"
+version = "1.0-7"
 description = "A perl implementation of DomainKeys"
-date = "2022-02-21T15:07:07"
+date = "2025-07-04T11:23:24"
 aliases = "/packages/74400"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "10136"
-usize = "30267"
-sha1sum = "fd6598b199722041dcf8d9a7254e0571caacb83a"
-depends = "['perl>=5.34.0']"
+size = "10024"
+usize = "29554"
+sha1sum = "53c5a4102b4f3ccf44c72772ddf61a7e36f44c1e"
+depends = "['perl>=5.42.0']"
 reverse_depends = "['spamassassin']"
 +++
 ### Description: 
 A perl implementation of DomainKeys
 
 ### Files: 
-* /usr/lib/perl5/site_perl/current/Mail/DomainKeys.pm
-* /usr/lib/perl5/site_perl/current/Mail/DomainKeys/Header.pm
-* /usr/lib/perl5/site_perl/current/Mail/DomainKeys/Key.pm
-* /usr/lib/perl5/site_perl/current/Mail/DomainKeys/Key/Private.pm
-* /usr/lib/perl5/site_perl/current/Mail/DomainKeys/Key/Public.pm
-* /usr/lib/perl5/site_perl/current/Mail/DomainKeys/Message.pm
-* /usr/lib/perl5/site_perl/current/Mail/DomainKeys/Policy.pm
-* /usr/lib/perl5/site_perl/current/Mail/DomainKeys/Signature.pm
+* /usr/lib/perl5/site_perl/Mail/DomainKeys.pm
+* /usr/lib/perl5/site_perl/Mail/DomainKeys/Header.pm
+* /usr/lib/perl5/site_perl/Mail/DomainKeys/Key.pm
+* /usr/lib/perl5/site_perl/Mail/DomainKeys/Key/Private.pm
+* /usr/lib/perl5/site_perl/Mail/DomainKeys/Key/Public.pm
+* /usr/lib/perl5/site_perl/Mail/DomainKeys/Message.pm
+* /usr/lib/perl5/site_perl/Mail/DomainKeys/Policy.pm
+* /usr/lib/perl5/site_perl/Mail/DomainKeys/Signature.pm
 * /usr/share/doc/perl-mail-domainkeys-1.0/MANIFEST
 * /usr/share/doc/perl-mail-domainkeys-1.0/README
 * /usr/share/doc/perl-mail-domainkeys-1.0/THANKS

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "perl-net-server 2.014-2"
-version = "2.014-2"
+title = "perl-net-server 2.014-3"
+version = "2.014-3"
 description = "Extensible, general Perl server engine"
-date = "2024-06-11T13:07:23"
+date = "2025-07-04T11:32:16"
 aliases = "/packages/3785"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
 size = "170080"
-usize = "523670"
-sha1sum = "d7375ea67678d6ab89b452fd894bd7fce6977b37"
-depends = "['perl>=5.34.0']"
+usize = "524473"
+sha1sum = "c4c83c7f26c2168f6eadd58e0af4efe6e4651400"
+depends = "['perl>=5.42.0']"
 reverse_depends = "['amavisd-new', 'munin-node']"
 +++
 ### Description: 

@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "perl-mailtools 2.22-1"
-version = "2.22-1"
+title = "perl-mailtools 2.22-2"
+version = "2.22-2"
 description = "Manipulate email in perl programs"
-date = "2025-02-13T15:25:17"
+date = "2025-07-04T11:24:30"
 aliases = "/packages/3781"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "83192"
-usize = "203232"
-sha1sum = "853439255dd110494fc902aabfb1be68fce5abc9"
-depends = "['perl>=5.34.0', 'perl-date-parse', 'perl-test-pod']"
+size = "83716"
+usize = "203720"
+sha1sum = "18fea6187286b6bfdbb7789f5b575221b91dd5dc"
+depends = "['perl>=5.42.0', 'perl-date-parse', 'perl-test-pod']"
 reverse_depends = "['amavisd-new', 'perl-mail-dkim', 'perl-mime-tools']"
 +++
 ### Description: 

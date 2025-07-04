@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "perl-mail-spf 3.20240923-1"
-version = "3.20240923-1"
+title = "perl-mail-spf 3.20240923-2"
+version = "3.20240923-2"
 description = "An object-oriented implementation of Sender Policy Framework"
-date = "2024-11-14T09:50:07"
+date = "2025-07-04T11:23:57"
 aliases = "/packages/23511"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "111224"
-usize = "307822"
-sha1sum = "0ab4c6a045fae484c72201c6cd11a9c9b260ea99"
-depends = "['perl>=5.34.0', 'perl-error', 'perl-net-dns', 'perl-netaddr-ip', 'perl-uri']"
+size = "112508"
+usize = "308905"
+sha1sum = "afe19ccd9541da44f5e5a99b05f6c321e98b824d"
+depends = "['perl>=5.42.0', 'perl-error', 'perl-net-dns', 'perl-netaddr-ip', 'perl-uri']"
 reverse_depends = "['spamassassin']"
 +++
 ### Description: 

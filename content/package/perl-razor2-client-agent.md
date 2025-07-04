@@ -1,51 +1,51 @@
 +++
 draft = false
-title = "perl-razor2-client-agent 2.86-2"
-version = "2.86-2"
+title = "perl-razor2-client-agent 2.86-3"
+version = "2.86-3"
 description = "Razor2 is a distributed, collaborative, spam detection and filtering network tool"
-date = "2022-02-21T15:18:16"
+date = "2025-07-04T11:37:42"
 aliases = "/packages/218575"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "76676"
-usize = "268072"
-sha1sum = "7873aca21dfe2503ad56c706f09752d7a7f26622"
-depends = "['perl>=5.34.0']"
+size = "73916"
+usize = "261002"
+sha1sum = "8032a381f555727bcdacc6994aa59b4841779915"
+depends = "['perl>=5.42.0']"
 reverse_depends = "['spamassassin']"
 +++
 ### Description: 
 Razor2 is a distributed, collaborative, spam detection and filtering network tool
 
 ### Files: 
-* /usr/bin/razor-admin
-* /usr/bin/razor-check
-* /usr/bin/razor-client
-* /usr/bin/razor-report
-* /usr/bin/razor-revoke
-* /usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/auto/Razor2/Preproc/deHTMLxs/autosplit.ix
-* /usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/auto/Razor2/Preproc/deHTMLxs/deHTMLxs.so
-* /usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/auto/Razor2/Syslog/autosplit.ix
-* /usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/Razor2/Client/Agent.pm
-* /usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/Razor2/Client/Config.pm
-* /usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/Razor2/Client/Core.pm
-* /usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/Razor2/Client/Engine.pm
-* /usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/Razor2/Client/Version.pm
-* /usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/Razor2/Engine/VR8.pm
-* /usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/Razor2/Errorhandler.pm
-* /usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/Razor2/Logger.pm
-* /usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/Razor2/Preproc/deBase64.pm
-* /usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/Razor2/Preproc/deHTML.pm
-* /usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/Razor2/Preproc/deHTMLxs.pm
-* /usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/Razor2/Preproc/deHTML_comment.pm
-* /usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/Razor2/Preproc/deNewline.pm
-* /usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/Razor2/Preproc/deQP.pm
-* /usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/Razor2/Preproc/enBase64.pm
-* /usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/Razor2/Preproc/Manager.pm
-* /usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/Razor2/Signature/Ephemeral.pm
-* /usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/Razor2/Signature/Whiplash.pm
-* /usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/Razor2/String.pm
-* /usr/lib/perl5/site_perl/current/x86_64-linux-thread-multi/Razor2/Syslog.pm
+* /usr/bin/site_perl/razor-admin
+* /usr/bin/site_perl/razor-check
+* /usr/bin/site_perl/razor-client
+* /usr/bin/site_perl/razor-report
+* /usr/bin/site_perl/razor-revoke
+* /usr/lib/perl5/5.42/site_perl/auto/Razor2/Preproc/deHTMLxs/autosplit.ix
+* /usr/lib/perl5/5.42/site_perl/auto/Razor2/Preproc/deHTMLxs/deHTMLxs.so
+* /usr/lib/perl5/5.42/site_perl/auto/Razor2/Syslog/autosplit.ix
+* /usr/lib/perl5/5.42/site_perl/Razor2/Client/Agent.pm
+* /usr/lib/perl5/5.42/site_perl/Razor2/Client/Config.pm
+* /usr/lib/perl5/5.42/site_perl/Razor2/Client/Core.pm
+* /usr/lib/perl5/5.42/site_perl/Razor2/Client/Engine.pm
+* /usr/lib/perl5/5.42/site_perl/Razor2/Client/Version.pm
+* /usr/lib/perl5/5.42/site_perl/Razor2/Engine/VR8.pm
+* /usr/lib/perl5/5.42/site_perl/Razor2/Errorhandler.pm
+* /usr/lib/perl5/5.42/site_perl/Razor2/Logger.pm
+* /usr/lib/perl5/5.42/site_perl/Razor2/Preproc/deBase64.pm
+* /usr/lib/perl5/5.42/site_perl/Razor2/Preproc/deHTML.pm
+* /usr/lib/perl5/5.42/site_perl/Razor2/Preproc/deHTMLxs.pm
+* /usr/lib/perl5/5.42/site_perl/Razor2/Preproc/deHTML_comment.pm
+* /usr/lib/perl5/5.42/site_perl/Razor2/Preproc/deNewline.pm
+* /usr/lib/perl5/5.42/site_perl/Razor2/Preproc/deQP.pm
+* /usr/lib/perl5/5.42/site_perl/Razor2/Preproc/enBase64.pm
+* /usr/lib/perl5/5.42/site_perl/Razor2/Preproc/Manager.pm
+* /usr/lib/perl5/5.42/site_perl/Razor2/Signature/Ephemeral.pm
+* /usr/lib/perl5/5.42/site_perl/Razor2/Signature/Whiplash.pm
+* /usr/lib/perl5/5.42/site_perl/Razor2/String.pm
+* /usr/lib/perl5/5.42/site_perl/Razor2/Syslog.pm
 * /usr/share/doc/perl-razor2-client-agent-2.86/BUGS
 * /usr/share/doc/perl-razor2-client-agent-2.86/CREDITS
 * /usr/share/doc/perl-razor2-client-agent-2.86/FAQ

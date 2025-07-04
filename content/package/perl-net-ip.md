@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "perl-net-ip 1.26-7"
-version = "1.26-7"
+title = "perl-net-ip 1.26-8"
+version = "1.26-8"
 description = "Perl extension for manipulating IPv4/IPv6 addresses"
-date = "2025-02-13T15:33:27"
+date = "2025-07-04T11:31:40"
 aliases = "/packages/9338"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "26176"
-usize = "88269"
-sha1sum = "f10c6d4732711526c714c2984bd14631cae4ff6b"
-depends = "['perl>=5.34.0']"
+size = "26264"
+usize = "88303"
+sha1sum = "da92f290cca61812905141fa92b203242fefddf3"
+depends = "['perl>=5.42.0']"
 reverse_depends = "['perl-net-dns']"
 +++
 ### Description: 

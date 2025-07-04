@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "perl-sgmlspm 1.1-8"
-version = "1.1-8"
+title = "perl-sgmlspm 1.1-9"
+version = "1.1-9"
 description = "class for postprocessing the output from the sgmls and nsgmls parsers."
-date = "2024-12-20T23:46:05"
+date = "2025-07-04T11:38:49"
 aliases = "/packages/30709"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "31424"
+size = "31504"
 usize = "88516"
-sha1sum = "22c62b51ea9968b954b54f69ed47f6a8d617b737"
-depends = "['perl>=5.34.0']"
+sha1sum = "027776846d531955c740c680c3bff9d2d8d95ddb"
+depends = "['perl>=5.42.0']"
 reverse_depends = "['docbook2x', 'po4a']"
 +++
 ### Description: 

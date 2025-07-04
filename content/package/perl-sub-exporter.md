@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "perl-sub-exporter 0.991-2"
-version = "0.991-2"
+title = "perl-sub-exporter 0.991-3"
+version = "0.991-3"
 description = "A sophisticated exporter for custom-built routines"
-date = "2024-06-11T13:08:26"
+date = "2025-07-04T11:39:56"
 aliases = "/packages/220186"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "51860"
-usize = "157196"
-sha1sum = "9ecd4d231b1850d7de994ff73b930f7f678e57cb"
-depends = "['perl>=5.34.0', 'perl-data-optlist', 'perl-params-util', 'perl-sub-install']"
+size = "51984"
+usize = "157361"
+sha1sum = "bde4bf6c9232f1367e6c49cbfb5f5c24a54b758d"
+depends = "['perl>=5.42.0', 'perl-data-optlist', 'perl-params-util', 'perl-sub-install']"
 reverse_depends = "['perl-devel-globaldestruction']"
 +++
 ### Description: 

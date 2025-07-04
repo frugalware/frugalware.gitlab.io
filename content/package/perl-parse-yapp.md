@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "perl-parse-yapp 1.21-7"
-version = "1.21-7"
+title = "perl-parse-yapp 1.21-8"
+version = "1.21-8"
 description = "Parse::YappGenerates OO LALR parser modules"
-date = "2024-06-11T12:42:53"
+date = "2025-07-04T11:35:37"
 aliases = "/packages/220071"
 categories = ['lib']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "35000"
-usize = "106662"
-sha1sum = "879dc8c9eb114f094745b6434d6d01fd4feb5180"
-depends = "['perl>=5.34.0']"
+size = "35124"
+usize = "106742"
+sha1sum = "6b48489071b953623e115c78d637244a5d939c15"
+depends = "['perl>=5.42.0']"
 reverse_depends = "['samba']"
 +++
 ### Description: 

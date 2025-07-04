@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "perl-json 4.10-2"
-version = "4.10-2"
+title = "perl-json 4.10-3"
+version = "4.10-3"
 description = "JSON (JavaScript Object Notation) encoder/decoder"
-date = "2024-06-11T12:43:56"
+date = "2025-07-04T11:19:33"
 aliases = "/packages/220473"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "82488"
-usize = "263350"
-sha1sum = "b750550a6c37b9987f93babcd58ee480f85654ef"
-depends = "['perl>=5.34.0']"
+size = "82388"
+usize = "263576"
+sha1sum = "df05a428da5e07c4379f4b1b09d832af6a13c68b"
+depends = "['perl>=5.42.0']"
 +++
 ### Description: 
 JSON (JavaScript Object Notation) encoder/decoder

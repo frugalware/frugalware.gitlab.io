@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "perl-ip-country 2.28-7"
-version = "2.28-7"
+title = "perl-ip-country 2.28-8"
+version = "2.28-8"
 description = "Perl extension for fast lookup of country codes from IP addresses"
-date = "2025-02-13T15:22:47"
+date = "2025-07-04T11:18:58"
 aliases = "/packages/10714"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "272592"
-usize = "634968"
-sha1sum = "74e1ad486a9cc4f87710c525b195e7b8067d1db6"
-depends = "['perl>=5.34.0']"
+size = "272912"
+usize = "635247"
+sha1sum = "fa9a7e7d6d95a82626378833197a98ce0d43c47c"
+depends = "['perl>=5.42.0']"
 reverse_depends = "['spamassassin']"
 +++
 ### Description: 

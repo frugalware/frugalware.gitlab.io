@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "perl-log-log4perl 1.57-2"
-version = "1.57-2"
+title = "perl-log-log4perl 1.57-3"
+version = "1.57-3"
 description = "Log4j implementation for Perl"
-date = "2024-06-11T12:47:19"
+date = "2025-07-04T11:21:45"
 aliases = "/packages/219253"
 categories = ['devel-extra']
 upstreamurl = "http://cpan.org/"
 arch = "x86_64"
-size = "334484"
-usize = "908689"
-sha1sum = "df80b1bc4f95c369bc348f336eab5f9a175f276f"
-depends = "['perl>=5.34.0']"
+size = "335044"
+usize = "910869"
+sha1sum = "301449b4f4a9a672cd5a75b010bc72e4e8f1c565"
+depends = "['perl>=5.42.0']"
 +++
 ### Description: 
 Log4j implementation for Perl
