@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "readline 8.3-1"
-version = "8.3-1"
+title = "readline 8.3-2"
+version = "8.3-2"
 description = "GNU readline library"
-date = "2025-07-04T09:11:28"
+date = "2025-07-04T09:38:05"
 aliases = "/packages/2436"
 categories = ['base']
 upstreamurl = "http://www.gnu.org/"
 arch = "x86_64"
-size = "413408"
+size = "413868"
 usize = "1576946"
-sha1sum = "8a7f91e2fba106a85eb39985c5058663c01b040f"
+sha1sum = "10cf59f571a226ef461b0a97f9faa52501136a51"
 depends = "['ncurses>=6.5']"
 reverse_depends = "['augeas', 'bash', 'bc', 'bind', 'bluez', 'chrony', 'clisp', 'connman', 'fluidsynth', 'fontforge', 'freeciv', 'freetds', 'gawk', 'gdb', 'gdbm', 'gftp', 'ghc', 'gimp-print', 'ginac', 'gnokii', 'gnucap', 'gnupg2', 'gnuplot', 'gpg-agent', 'gphoto2', 'guile', 'gutenprint', 'hivex', 'hunspell', 'iwd', 'kalgebra', 'lftp', 'libguestfs', 'libqalculate', 'libvirt', 'lua', 'lua51', 'lua53', 'lvm2', 'mariadb', 'maxima', 'mdbtools', 'multipath-tools', 'ncmpcpp', 'networkmanager', 'nftables', 'ngspice', 'octave', 'opendht', 'pari', 'parted', 'pcre', 'pcre2', 'php', 'physfs', 'postgresql', 'postgresql-upgrade-from-13', 'postgresql-upgrade-from-14', 'postgresql-upgrade-from-15', 'postgresql-upgrade-from-16', 'python3', 'r', 'ruby', 'samba', 'samba-client', 'socat', 'sqlcipher', 'sqlite3', 'texlive-xindy', 'tftp-hpa', 'unixodbc', 'util-linux', 'wpa_supplicant', 'xfsprogs', 'xine-ui', 'xmlrpc-c', 'xorriso']"
 +++

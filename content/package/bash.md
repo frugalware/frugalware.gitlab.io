@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "bash 5.2.37-1"
-version = "5.2.37-1"
+title = "bash 5.3-1"
+version = "5.3-1"
 description = "The GNU Bourne Again shell"
-date = "2024-09-24T09:30:43"
+date = "2025-07-04T09:42:23"
 aliases = "/packages/2347"
 categories = ['base']
 upstreamurl = "http://tiswww.case.edu/php/chet/bash/bashtop.html"
 arch = "x86_64"
-size = "1839532"
-usize = "9594818"
-sha1sum = "3b5c4a8f29177732d30bafaeafc0aa330d20f99f"
-depends = "['glibc>=2.37', 'readline>=8.2']"
+size = "1314620"
+usize = "4761987"
+sha1sum = "f56e8a7edef00f76e553b6f8adc3703b88170d29"
+depends = "['glibc>=2.37', 'readline>=8.3']"
 reverse_depends = "['autoconf', 'automake', 'backupninja', 'bash-completion', 'bzip2', 'coreutils', 'cpio', 'diffutils', 'dosfstools', 'dracut', 'findutils', 'flex', 'gradle', 'gzip', 'kbd', 'keychain', 'less', 'lesspipe', 'libtool', 'lxc', 'lynis', 'make', 'maxima', 'neofetch', 'nvm', 'openresolv', 'os-prober', 'pacman-tools', 'prettyping', 'pulse-autoconf', 'pyenv', 'rpcbind', 'screenfetch', 'scriptlet-core', 'steamtinkerlaunch', 'systemd-swap', 'tar', 'wgetpaste']"
 +++
 ### Description: 
@@ -58,6 +58,7 @@ The GNU Bourne Again shell
 * /usr/include/bash/include/ocache.h
 * /usr/include/bash/include/posixdir.h
 * /usr/include/bash/include/posixjmp.h
+* /usr/include/bash/include/posixselect.h
 * /usr/include/bash/include/posixstat.h
 * /usr/include/bash/include/posixtime.h
 * /usr/include/bash/include/posixwait.h
@@ -67,8 +68,10 @@ The GNU Bourne Again shell
 * /usr/include/bash/include/stat-time.h
 * /usr/include/bash/include/stdc.h
 * /usr/include/bash/include/systimes.h
+* /usr/include/bash/include/timer.h
 * /usr/include/bash/include/typemax.h
 * /usr/include/bash/include/unionwait.h
+* /usr/include/bash/include/unlocked-io.h
 * /usr/include/bash/jobs.h
 * /usr/include/bash/make_cmd.h
 * /usr/include/bash/pathnames.h
@@ -86,15 +89,18 @@ The GNU Bourne Again shell
 * /usr/include/bash/y.tab.h
 * /usr/lib/bash/accept
 * /usr/lib/bash/basename
+* /usr/lib/bash/chmod
 * /usr/lib/bash/csv
 * /usr/lib/bash/cut
 * /usr/lib/bash/dirname
 * /usr/lib/bash/dsv
 * /usr/lib/bash/fdflags
 * /usr/lib/bash/finfo
+* /usr/lib/bash/fltexpr
 * /usr/lib/bash/getconf
 * /usr/lib/bash/head
 * /usr/lib/bash/id
+* /usr/lib/bash/kv
 * /usr/lib/bash/ln
 * /usr/lib/bash/loadables.h
 * /usr/lib/bash/logname
@@ -116,6 +122,7 @@ The GNU Bourne Again shell
 * /usr/lib/bash/sleep
 * /usr/lib/bash/stat
 * /usr/lib/bash/strftime
+* /usr/lib/bash/strptime
 * /usr/lib/bash/sync
 * /usr/lib/bash/tee
 * /usr/lib/bash/truefalse
@@ -124,60 +131,21 @@ The GNU Bourne Again shell
 * /usr/lib/bash/unlink
 * /usr/lib/bash/whoami
 * /usr/lib/pkgconfig/bash.pc
-* /usr/share/doc/bash-5.2.37/AUTHORS
-* /usr/share/doc/bash-5.2.37/bash.html
-* /usr/share/doc/bash-5.2.37/bashref.html
-* /usr/share/doc/bash-5.2.37/ChangeLog
-* /usr/share/doc/bash-5.2.37/CHANGES
-* /usr/share/doc/bash-5.2.37/COMPAT
-* /usr/share/doc/bash-5.2.37/COPYING
-* /usr/share/doc/bash-5.2.37/FAQ
-* /usr/share/doc/bash-5.2.37/INSTALL
-* /usr/share/doc/bash-5.2.37/INTRO
-* /usr/share/doc/bash-5.2.37/MANIFEST
-* /usr/share/doc/bash-5.2.37/NEWS
-* /usr/share/doc/bash-5.2.37/POSIX
-* /usr/share/doc/bash-5.2.37/RBASH
-* /usr/share/doc/bash-5.2.37/README
+* /usr/share/doc/bash-5.3/AUTHORS
+* /usr/share/doc/bash-5.3/bash.html
+* /usr/share/doc/bash-5.3/bashref.html
+* /usr/share/doc/bash-5.3/ChangeLog
+* /usr/share/doc/bash-5.3/CHANGES
+* /usr/share/doc/bash-5.3/COMPAT
+* /usr/share/doc/bash-5.3/COPYING
+* /usr/share/doc/bash-5.3/FAQ
+* /usr/share/doc/bash-5.3/INSTALL
+* /usr/share/doc/bash-5.3/INTRO
+* /usr/share/doc/bash-5.3/MANIFEST
+* /usr/share/doc/bash-5.3/NEWS
+* /usr/share/doc/bash-5.3/POSIX
+* /usr/share/doc/bash-5.3/RBASH
+* /usr/share/doc/bash-5.3/README
 * /usr/share/info/bash.info.gz
-* /usr/share/locale/af/LC_MESSAGES/bash.mo
-* /usr/share/locale/bg/LC_MESSAGES/bash.mo
-* /usr/share/locale/ca/LC_MESSAGES/bash.mo
-* /usr/share/locale/cs/LC_MESSAGES/bash.mo
-* /usr/share/locale/da/LC_MESSAGES/bash.mo
-* /usr/share/locale/de/LC_MESSAGES/bash.mo
-* /usr/share/locale/el/LC_MESSAGES/bash.mo
-* /usr/share/locale/en@boldquot/LC_MESSAGES/bash.mo
-* /usr/share/locale/en@quot/LC_MESSAGES/bash.mo
-* /usr/share/locale/eo/LC_MESSAGES/bash.mo
-* /usr/share/locale/es/LC_MESSAGES/bash.mo
-* /usr/share/locale/et/LC_MESSAGES/bash.mo
-* /usr/share/locale/fi/LC_MESSAGES/bash.mo
-* /usr/share/locale/fr/LC_MESSAGES/bash.mo
-* /usr/share/locale/ga/LC_MESSAGES/bash.mo
-* /usr/share/locale/gl/LC_MESSAGES/bash.mo
-* /usr/share/locale/hr/LC_MESSAGES/bash.mo
-* /usr/share/locale/hu/LC_MESSAGES/bash.mo
-* /usr/share/locale/id/LC_MESSAGES/bash.mo
-* /usr/share/locale/it/LC_MESSAGES/bash.mo
-* /usr/share/locale/ja/LC_MESSAGES/bash.mo
-* /usr/share/locale/ko/LC_MESSAGES/bash.mo
-* /usr/share/locale/lt/LC_MESSAGES/bash.mo
-* /usr/share/locale/nb/LC_MESSAGES/bash.mo
-* /usr/share/locale/nl/LC_MESSAGES/bash.mo
-* /usr/share/locale/pl/LC_MESSAGES/bash.mo
-* /usr/share/locale/pt/LC_MESSAGES/bash.mo
-* /usr/share/locale/pt_BR/LC_MESSAGES/bash.mo
-* /usr/share/locale/ro/LC_MESSAGES/bash.mo
-* /usr/share/locale/ru/LC_MESSAGES/bash.mo
-* /usr/share/locale/sk/LC_MESSAGES/bash.mo
-* /usr/share/locale/sl/LC_MESSAGES/bash.mo
-* /usr/share/locale/sr/LC_MESSAGES/bash.mo
-* /usr/share/locale/sv/LC_MESSAGES/bash.mo
-* /usr/share/locale/tr/LC_MESSAGES/bash.mo
-* /usr/share/locale/uk/LC_MESSAGES/bash.mo
-* /usr/share/locale/vi/LC_MESSAGES/bash.mo
-* /usr/share/locale/zh_CN/LC_MESSAGES/bash.mo
-* /usr/share/locale/zh_TW/LC_MESSAGES/bash.mo
 * /usr/share/man/man1/bash.1.gz
 * /usr/share/man/man1/bashbug.1.gz
