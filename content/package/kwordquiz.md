@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kwordquiz 25.04.2-1"
-version = "25.04.2-1"
+title = "kwordquiz 25.04.3-1"
+version = "25.04.3-1"
 description = "Flash Card Trainer."
-date = "2025-06-11T20:48:09"
+date = "2025-07-04T18:01:37"
 aliases = "/packages/152837"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "951676"
-usize = "1513020"
-sha1sum = "2f23b491c487b417d85c79e2c6ec902a412b2a34"
-depends = "['kirigami-addons', 'knotifyconfig>=6.14.0', 'libkdegames>=25.04.2', 'libkeduvocdocument>=25.04.2']"
+size = "952684"
+usize = "1517903"
+sha1sum = "a5c93543529d74f33a1020bf53b7f2095e5c98f2"
+depends = "['kirigami-addons', 'knotifyconfig>=6.15.0', 'libkdegames>=25.04.3', 'libkeduvocdocument>=25.04.3']"
 +++
 ### Description: 
 Flash Card Trainer.
@@ -35,10 +35,10 @@ Flash Card Trainer.
 * /usr/share/doc/HTML/en/kwordquiz/kwq-multiple.png
 * /usr/share/doc/HTML/en/kwordquiz/kwq-qanda.png
 * /usr/share/doc/HTML/en/kwordquiz/kwq-welcome.png
-* /usr/share/doc/kwordquiz-25.04.2/AUTHORS
-* /usr/share/doc/kwordquiz-25.04.2/INSTALL
-* /usr/share/doc/kwordquiz-25.04.2/README
-* /usr/share/doc/kwordquiz-25.04.2/TODO
+* /usr/share/doc/kwordquiz-25.04.3/AUTHORS
+* /usr/share/doc/kwordquiz-25.04.3/INSTALL
+* /usr/share/doc/kwordquiz-25.04.3/README
+* /usr/share/doc/kwordquiz-25.04.3/TODO
 * /usr/share/icons/hicolor/128x128/apps/kwordquiz.png
 * /usr/share/icons/hicolor/128x128/mimetypes/application-x-kwordquiz.png
 * /usr/share/icons/hicolor/16x16/apps/kwordquiz.png

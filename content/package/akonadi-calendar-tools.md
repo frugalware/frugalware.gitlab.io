@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "akonadi-calendar-tools 25.04.2-1"
-version = "25.04.2-1"
+title = "akonadi-calendar-tools 25.04.3-1"
+version = "25.04.3-1"
 description = "Akonadi calendar tools"
-date = "2025-06-11T13:45:41"
+date = "2025-07-04T17:21:05"
 aliases = "/packages/218922"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "412636"
-usize = "1646205"
-sha1sum = "db5aa64c15773c1d65f97766fc433dc8d8cded9a"
-depends = "['calendarsupport>=25.04.2']"
+size = "412748"
+usize = "1646220"
+sha1sum = "cbb21943e191b9504ed852a5450ce6fca4b6c9db"
+depends = "['calendarsupport>=25.04.3']"
 +++
 ### Description: 
 Akonadi calendar tools

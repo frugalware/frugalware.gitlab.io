@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kmail 25.04.2-2"
-version = "25.04.2-2"
+title = "kmail 25.04.3-1"
+version = "25.04.3-1"
 description = "Email client, supporting POP3 and IMAP mailboxes"
-date = "2025-06-17T13:50:04"
+date = "2025-07-04T17:53:56"
 aliases = "/packages/218934"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "7175372"
-usize = "23962849"
-sha1sum = "0dc191fadec29c3c83f271f762bbd03111647911"
-depends = "['akonadi-import-wizard>=25.04.2', 'kcalutils>=25.04.2', 'kdepim-runtime>=25.04.2', 'kmail-account-wizard>=25.04.2', 'knotifyconfig>=6.15.0', 'kontactinterface>=25.04.2', 'kstatusnotifieritem>=6.15.0', 'ktnef>=25.04.2', 'libksieve>=25.04.2', 'mailcommon>=25.04.2', 'mbox-importer>=']"
+size = "7171136"
+usize = "23964051"
+sha1sum = "06a551133f302581e14a33ad7d8a03858ed95a70"
+depends = "['akonadi-import-wizard>=25.04.3', 'kcalutils>=25.04.3', 'kdepim-runtime>=25.04.3', 'kmail-account-wizard>=25.04.3', 'knotifyconfig>=6.15.0', 'kontactinterface>=25.04.3', 'kstatusnotifieritem>=6.15.0', 'ktnef>=25.04.3', 'libksieve>=25.04.3', 'mailcommon>=25.04.3', 'mbox-importer>=']"
 +++
 ### Description: 
 Email client, supporting POP3 and IMAP mailboxes
@@ -27,9 +27,9 @@ Email client, supporting POP3 and IMAP mailboxes
 * /usr/bin/kmail-refresh-settings
 * /usr/bin/ktnef
 * /usr/lib/libkmailprivate.so.6
-* /usr/lib/libkmailprivate.so.6.4.2
+* /usr/lib/libkmailprivate.so.6.4.3
 * /usr/lib/libmailfilteragentprivate.so.6
-* /usr/lib/libmailfilteragentprivate.so.6.4.2
+* /usr/lib/libmailfilteragentprivate.so.6.4.3
 * /usr/lib/qt6/plugins/kmailpart.so
 * /usr/lib/qt6/plugins/pim6/akonadi/config/archivemailagentconfig.so
 * /usr/lib/qt6/plugins/pim6/akonadi/config/followupreminderagentconfig.so

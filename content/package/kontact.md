@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kontact 25.04.2-1"
-version = "25.04.2-1"
+title = "kontact 25.04.3-1"
+version = "25.04.3-1"
 description = "Personal Information Manager"
-date = "2025-06-11T20:24:10"
+date = "2025-07-04T17:38:36"
 aliases = "/packages/218938"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "816796"
-usize = "1971740"
-sha1sum = "d305469dfccacc728376ce72185ec09423b7a0ae"
-depends = "['kontactinterface>=25.04.2', 'mailcommon>=25.04.2']"
+size = "816996"
+usize = "1972013"
+sha1sum = "d809c43afd087c2cb2a5abcdf1c3a8adc00b3cd5"
+depends = "['kontactinterface>=25.04.3', 'mailcommon>=25.04.3']"
 +++
 ### Description: 
 Personal Information Manager
@@ -19,7 +19,7 @@ Personal Information Manager
 ### Files: 
 * /usr/bin/kontact
 * /usr/lib/libkontactprivate.so.6
-* /usr/lib/libkontactprivate.so.6.4.2
+* /usr/lib/libkontactprivate.so.6.4.3
 * /usr/lib/qt6/plugins/pim6/kcms/kontact/kcm_kontact.so
 * /usr/share/applications/org.kde.kontact.desktop
 * /usr/share/config.kcfg/kontact.kcfg
@@ -65,7 +65,7 @@ Personal Information Manager
 * /usr/share/doc/HTML/sv/kontact/index.docbook
 * /usr/share/doc/HTML/uk/kontact/index.cache.bz2
 * /usr/share/doc/HTML/uk/kontact/index.docbook
-* /usr/share/doc/kontact-25.04.2/HACKING
+* /usr/share/doc/kontact-25.04.3/HACKING
 * /usr/share/icons/hicolor/128x128/apps/kontact.png
 * /usr/share/icons/hicolor/144x144/apps/kontact.png
 * /usr/share/icons/hicolor/16x16/apps/kontact.png
