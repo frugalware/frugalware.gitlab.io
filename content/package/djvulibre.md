@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "djvulibre 3.5.28-3"
-version = "3.5.28-3"
+title = "djvulibre 3.5.29-1"
+version = "3.5.29-1"
 description = "DjVu is a web-centric format for distributing documents and images."
-date = "2025-03-13T17:41:30"
+date = "2025-07-05T07:59:50"
 aliases = "/packages/15143"
 categories = ['xlib']
 upstreamurl = "http://djvulibre.djvuzone.org/"
 arch = "x86_64"
-size = "967132"
-usize = "2977974"
-sha1sum = "c25805e298c6ef08a404c7fc6d3277d9e82c6005"
+size = "978260"
+usize = "2990913"
+sha1sum = "65c416e194da3a462ab258fb76d14bc160fa3fd9"
 depends = "['libjpeg-turbo', 'libstdc++>=9.1.0-3', 'libtiff>=4.7.0', 'xdg-utils']"
 reverse_depends = "['imagemagick', 'okular']"
 +++
@@ -41,7 +41,7 @@ DjVu is a web-centric format for distributing documents and images.
 * /usr/include/libdjvu/miniexp.h
 * /usr/lib/libdjvulibre.so
 * /usr/lib/libdjvulibre.so.21
-* /usr/lib/libdjvulibre.so.21.7.0
+* /usr/lib/libdjvulibre.so.21.8.0
 * /usr/lib/pkgconfig/ddjvuapi.pc
 * /usr/share/djvu/osi/cs/messages.xml
 * /usr/share/djvu/osi/de/libdjvu++.xml
@@ -59,11 +59,11 @@ DjVu is a web-centric format for distributing documents and images.
 * /usr/share/djvu/pubtext/DjVuMessages.dtd
 * /usr/share/djvu/pubtext/DjVuOCR.dtd
 * /usr/share/djvu/pubtext/DjVuXML-s.dtd
-* /usr/share/doc/djvulibre-3.5.28/COPYING
-* /usr/share/doc/djvulibre-3.5.28/COPYRIGHT
-* /usr/share/doc/djvulibre-3.5.28/INSTALL
-* /usr/share/doc/djvulibre-3.5.28/NEWS
-* /usr/share/doc/djvulibre-3.5.28/README
+* /usr/share/doc/djvulibre-3.5.29/COPYING
+* /usr/share/doc/djvulibre-3.5.29/COPYRIGHT
+* /usr/share/doc/djvulibre-3.5.29/INSTALL
+* /usr/share/doc/djvulibre-3.5.29/NEWS
+* /usr/share/doc/djvulibre-3.5.29/README
 * /usr/share/icons/hicolor/128x128/mimetypes/image-vnd.djvu.png
 * /usr/share/icons/hicolor/16x16/mimetypes/image-vnd.djvu.png
 * /usr/share/icons/hicolor/20x20/mimetypes/image-vnd.djvu.png
