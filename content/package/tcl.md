@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "tcl 9.0.1-2"
-version = "9.0.1-2"
+title = "tcl 9.0.2-1"
+version = "9.0.2-1"
 description = "The Tcl scripting language"
-date = "2025-05-22T11:00:45"
+date = "2025-07-07T14:43:02"
 aliases = "/packages/3350"
 categories = ['devel']
 upstreamurl = "http://tcl.tk"
 arch = "x86_64"
-size = "3538424"
-usize = "12667083"
-sha1sum = "ccdbb8fd5864e86b65abe0940e46911217326311"
+size = "3551912"
+usize = "12741141"
+sha1sum = "c52cfb2bb6da25b124e0758ba94138c604d36773"
 depends = "[]"
 reverse_depends = "['insight-toolkit', 'sqlite3-tcl', 'tk', 'usb-modeswitch']"
 +++
@@ -83,40 +83,40 @@ The Tcl scripting language
 * /usr/include/tdbc.h
 * /usr/include/tdbcDecls.h
 * /usr/include/tdbcInt.h
-* /usr/lib/itcl4.3.2/itcl.tcl
-* /usr/lib/itcl4.3.2/itclConfig.sh
-* /usr/lib/itcl4.3.2/itclHullCmds.tcl
-* /usr/lib/itcl4.3.2/itclWidget.tcl
-* /usr/lib/itcl4.3.2/libitcl4.3.2.so
-* /usr/lib/itcl4.3.2/libtcl9itcl4.3.2.so
-* /usr/lib/itcl4.3.2/pkgIndex.tcl
+* /usr/lib/itcl4.3.3/itcl.tcl
+* /usr/lib/itcl4.3.3/itclConfig.sh
+* /usr/lib/itcl4.3.3/itclHullCmds.tcl
+* /usr/lib/itcl4.3.3/itclWidget.tcl
+* /usr/lib/itcl4.3.3/libitcl4.3.3.so
+* /usr/lib/itcl4.3.3/libtcl9itcl4.3.3.so
+* /usr/lib/itcl4.3.3/pkgIndex.tcl
 * /usr/lib/libtcl.so
 * /usr/lib/libtcl9.0.so
 * /usr/lib/pkgconfig/tcl.pc
-* /usr/lib/tcl9/9.0/tdbc/sqlite3-1.1.10.tm
-* /usr/lib/tcl9/9.0/tdbc/sqlite3-1.1.10.uuid
+* /usr/lib/tcl9/9.0/tdbc/sqlite3-1.1.11.tm
+* /usr/lib/tcl9/9.0/tdbc/sqlite3-1.1.11.uuid
 * /usr/lib/tclConfig.sh
 * /usr/lib/tclooConfig.sh
-* /usr/lib/tdbc1.1.10/libtcl9tdbc1.1.10.so
-* /usr/lib/tdbc1.1.10/libtdbc1.1.10.so
-* /usr/lib/tdbc1.1.10/pkgIndex.tcl
-* /usr/lib/tdbc1.1.10/tdbc.tcl
-* /usr/lib/tdbc1.1.10/tdbcConfig.sh
-* /usr/lib/tdbcmysql1.1.10/libtcl9tdbcmysql1.1.10.so
-* /usr/lib/tdbcmysql1.1.10/libtdbcmysql1.1.10.so
-* /usr/lib/tdbcmysql1.1.10/pkgIndex.tcl
-* /usr/lib/tdbcmysql1.1.10/tdbcmysql.tcl
-* /usr/lib/tdbcodbc1.1.10/libtcl9tdbcodbc1.1.10.so
-* /usr/lib/tdbcodbc1.1.10/libtdbcodbc1.1.10.so
-* /usr/lib/tdbcodbc1.1.10/pkgIndex.tcl
-* /usr/lib/tdbcodbc1.1.10/tdbcodbc.tcl
-* /usr/lib/tdbcpostgres1.1.10/libtcl9tdbcpostgres1.1.10.so
-* /usr/lib/tdbcpostgres1.1.10/libtdbcpostgres1.1.10.so
-* /usr/lib/tdbcpostgres1.1.10/pkgIndex.tcl
-* /usr/lib/tdbcpostgres1.1.10/tdbcpostgres.tcl
-* /usr/lib/thread3.0.1/libtcl9thread3.0.1.so
-* /usr/lib/thread3.0.1/pkgIndex.tcl
-* /usr/share/doc/tcl-9.0.1/README.md
+* /usr/lib/tdbc1.1.11/libtcl9tdbc1.1.11.so
+* /usr/lib/tdbc1.1.11/libtdbc1.1.11.so
+* /usr/lib/tdbc1.1.11/pkgIndex.tcl
+* /usr/lib/tdbc1.1.11/tdbc.tcl
+* /usr/lib/tdbc1.1.11/tdbcConfig.sh
+* /usr/lib/tdbcmysql1.1.11/libtcl9tdbcmysql1.1.11.so
+* /usr/lib/tdbcmysql1.1.11/libtdbcmysql1.1.11.so
+* /usr/lib/tdbcmysql1.1.11/pkgIndex.tcl
+* /usr/lib/tdbcmysql1.1.11/tdbcmysql.tcl
+* /usr/lib/tdbcodbc1.1.11/libtcl9tdbcodbc1.1.11.so
+* /usr/lib/tdbcodbc1.1.11/libtdbcodbc1.1.11.so
+* /usr/lib/tdbcodbc1.1.11/pkgIndex.tcl
+* /usr/lib/tdbcodbc1.1.11/tdbcodbc.tcl
+* /usr/lib/tdbcpostgres1.1.11/libtcl9tdbcpostgres1.1.11.so
+* /usr/lib/tdbcpostgres1.1.11/libtdbcpostgres1.1.11.so
+* /usr/lib/tdbcpostgres1.1.11/pkgIndex.tcl
+* /usr/lib/tdbcpostgres1.1.11/tdbcpostgres.tcl
+* /usr/lib/thread3.0.2/libtcl9thread3.0.2.so
+* /usr/lib/thread3.0.2/pkgIndex.tcl
+* /usr/share/doc/tcl-9.0.2/README.md
 * /usr/share/man/man1/tclsh.1.gz
 * /usr/share/man/man3/DString.3.gz
 * /usr/share/man/man3/Notifier.3.gz
@@ -187,6 +187,7 @@ The Tcl scripting language
 * /usr/share/man/man3/Tcl_ClassSetMetadata.3.gz
 * /usr/share/man/man3/Tcl_ClearChannelHandlers.3.gz
 * /usr/share/man/man3/Tcl_Close.3.gz
+* /usr/share/man/man3/Tcl_CloseEx.3.gz
 * /usr/share/man/man3/Tcl_CommandComplete.3.gz
 * /usr/share/man/man3/Tcl_CommandTraceInfo.3.gz
 * /usr/share/man/man3/Tcl_Concat.3.gz
@@ -446,6 +447,7 @@ The Tcl scripting language
 * /usr/share/man/man3/Tcl_Gets.3.gz
 * /usr/share/man/man3/Tcl_GetServiceMode.3.gz
 * /usr/share/man/man3/Tcl_GetSizeFromStat.3.gz
+* /usr/share/man/man3/Tcl_GetSizeIntFromObj.3.gz
 * /usr/share/man/man3/Tcl_GetsObj.3.gz
 * /usr/share/man/man3/Tcl_GetStackedChannel.3.gz
 * /usr/share/man/man3/Tcl_GetStartupScript.3.gz
@@ -533,6 +535,7 @@ The Tcl scripting language
 * /usr/share/man/man3/Tcl_MethodIsPrivate.3.gz
 * /usr/share/man/man3/Tcl_MethodIsPublic.3.gz
 * /usr/share/man/man3/Tcl_MethodIsType.3.gz
+* /usr/share/man/man3/Tcl_MethodIsType2.3.gz
 * /usr/share/man/man3/Tcl_MethodName.3.gz
 * /usr/share/man/man3/Tcl_MutexFinalize.3.gz
 * /usr/share/man/man3/Tcl_MutexLock.3.gz
@@ -543,10 +546,12 @@ The Tcl scripting language
 * /usr/share/man/man3/Tcl_NewDictObj.3.gz
 * /usr/share/man/man3/Tcl_NewDoubleObj.3.gz
 * /usr/share/man/man3/Tcl_NewInstanceMethod.3.gz
+* /usr/share/man/man3/Tcl_NewInstanceMethod2.3.gz
 * /usr/share/man/man3/Tcl_NewIntObj.3.gz
 * /usr/share/man/man3/Tcl_NewListObj.3.gz
 * /usr/share/man/man3/Tcl_NewLongObj.3.gz
 * /usr/share/man/man3/Tcl_NewMethod.3.gz
+* /usr/share/man/man3/Tcl_NewMethod2.3.gz
 * /usr/share/man/man3/Tcl_NewObj.3.gz
 * /usr/share/man/man3/Tcl_NewObjectInstance.3.gz
 * /usr/share/man/man3/Tcl_NewStringObj.3.gz
@@ -809,6 +814,7 @@ The Tcl scripting language
 * /usr/share/man/mann/binary.n.gz
 * /usr/share/man/mann/body.n.gz
 * /usr/share/man/mann/break.n.gz
+* /usr/share/man/mann/buildinfo.n.gz
 * /usr/share/man/mann/callback.n.gz
 * /usr/share/man/mann/catch.n.gz
 * /usr/share/man/mann/cd.n.gz
