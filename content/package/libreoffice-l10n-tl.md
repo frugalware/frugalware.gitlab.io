@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-tl 25.2.4.3-3"
-version = "25.2.4.3-3"
+title = "libreoffice-l10n-tl 25.2.4.3-4"
+version = "25.2.4.3-4"
 description = "Installs Tagalog support in LibreOffice"
-date = "2025-06-17T14:24:11"
+date = "2025-07-07T09:07:32"
 aliases = "/packages/222574"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "5024432"
+size = "5024344"
 usize = "37726324"
-sha1sum = "9f88d34d1946ae68ecc25680c041bef8021c20ad"
+sha1sum = "ab23c5e8b6c46000976e5573587754f0c17ece12"
 depends = "['libreoffice>=25.2.4.3']"
 +++
 ### Description: 

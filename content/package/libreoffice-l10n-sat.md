@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-sat 25.2.4.3-3"
-version = "25.2.4.3-3"
+title = "libreoffice-l10n-sat 25.2.4.3-4"
+version = "25.2.4.3-4"
 description = "Installs Santali support in LibreOffice"
-date = "2025-06-17T14:24:11"
+date = "2025-07-07T09:07:32"
 aliases = "/packages/104110"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "359088"
+size = "358844"
 usize = "2439675"
-sha1sum = "b1506b809685ff90183e795db038a2c057980d2a"
+sha1sum = "8eb9d92e4ee3f7fb6d69266444a3cf9eb1fe4a2b"
 depends = "['libreoffice>=25.2.4.3']"
 +++
 ### Description: 

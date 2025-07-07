@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libreoffice-l10n-ka 25.2.4.3-3"
-version = "25.2.4.3-3"
+title = "libreoffice-l10n-ka 25.2.4.3-4"
+version = "25.2.4.3-4"
 description = "Installs Georgian support in LibreOffice"
-date = "2025-06-17T14:24:11"
+date = "2025-07-07T09:07:32"
 aliases = "/packages/104073"
 categories = ['locale-extra']
 upstreamurl = "http://www.libreoffice.org/"
 arch = "x86_64"
-size = "4606144"
+size = "4605908"
 usize = "38492387"
-sha1sum = "1f2379d543cb5c4c0fa20030331bcbaea24c74bc"
+sha1sum = "4178d76f59fbebf6bbac8926fe091ac559ecfad3"
 depends = "['libreoffice>=25.2.4.3']"
 +++
 ### Description: 
