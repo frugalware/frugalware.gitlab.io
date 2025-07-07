@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "calligra 25.04.3-1"
-version = "25.04.3-1"
+title = "calligra 25.04.3-2"
+version = "25.04.3-2"
 description = "An integrated Office suite for KDE"
-date = "2025-07-04T21:24:11"
+date = "2025-07-07T07:38:28"
 aliases = "/packages/222602"
 categories = ['kde6-extra']
 upstreamurl = "https://www.calligra-suite.org"
 arch = "x86_64"
-size = "41442628"
-usize = "123637535"
-sha1sum = "953d48fa0695313a02850edb55f3b41b69226d08"
-depends = "['eigen', 'gsl', 'imath', 'kcmutils>=', 'kio>=', 'knotifyconfig>=', 'libetonyek', 'libgit2', 'libodfgen', 'librevenge', 'libvisio', 'libwpg', 'libwps', 'okular', 'openexr', 'poppler-qt6>=25.06.0', 'qt6-webengine>=', 'qtkeychain']"
+size = "41445720"
+usize = "123637023"
+sha1sum = "083c8cdee77b9bf5fc8b5ae98da11b8645e80532"
+depends = "['eigen', 'gsl', 'imath', 'kcmutils>=', 'kio>=', 'knotifyconfig>=', 'libetonyek', 'libgit2', 'libodfgen', 'librevenge', 'libvisio', 'libwpg', 'libwps', 'okular', 'openexr', 'poppler-qt6>=25.07.0', 'qt6-webengine>=', 'qtkeychain']"
 +++
 ### Description: 
 An integrated Office suite for KDE
