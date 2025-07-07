@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "td2e 1.8.0.g51743df-3"
-version = "1.8.0.g51743df-3"
+title = "td2e 1.8.0.g51743df-4"
+version = "1.8.0.g51743df-4"
 description = "Td E2 lib"
-date = "2025-05-16T16:55:49"
+date = "2025-07-07T15:51:14"
 aliases = "/packages/222719"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/tdlib/td"
 arch = "x86_64"
-size = "9939312"
-usize = "16615471"
-sha1sum = "4bd4f41d3cd2585432869ae7fc654e74c9e9d69b"
+size = "9938848"
+usize = "16623134"
+sha1sum = "23453e8aeb82b814c852338b57fb9b01afcd387c"
 depends = "['glibc']"
 +++
 ### Description: 

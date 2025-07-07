@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "td 1.8.0.g51743df-3"
-version = "1.8.0.g51743df-3"
+title = "td 1.8.0.g51743df-4"
+version = "1.8.0.g51743df-4"
 description = "Cross-platform library for building Telegram clients"
-date = "2025-05-16T16:55:49"
+date = "2025-07-07T15:51:14"
 aliases = "/packages/222718"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/tdlib/td"
 arch = "x86_64"
-size = "546879332"
-usize = "1150616574"
-sha1sum = "6e51ad5f06b712bef2ebc29c2f35cdd84f4fa9bf"
+size = "556050200"
+usize = "1169782848"
+sha1sum = "74f0872b3acc47a5bbf9fd6be024ce079cc26977"
 depends = "['openssl']"
 +++
 ### Description: 
@@ -38,7 +38,7 @@ Cross-platform library for building Telegram clients
 * /usr/lib/libtddb.a
 * /usr/lib/libtde2e.a
 * /usr/lib/libtdjson.so
-* /usr/lib/libtdjson.so.1.8.49
+* /usr/lib/libtdjson.so.1.8.51
 * /usr/lib/libtdjson_private.a
 * /usr/lib/libtdjson_static.a
 * /usr/lib/libtdmtproto.a
