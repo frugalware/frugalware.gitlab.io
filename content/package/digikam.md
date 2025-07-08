@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "digikam 8.6.0-5"
-version = "8.6.0-5"
+title = "digikam 8.7.0-1"
+version = "8.7.0-1"
 description = "Digital photo management application for kde"
-date = "2025-06-05T08:01:17"
+date = "2025-07-08T18:24:48"
 aliases = "/packages/3549"
 categories = ['kde6-extra']
 upstreamurl = "https://www.digikam.org"
 arch = "x86_64"
-size = "33306708"
-usize = "112175375"
-sha1sum = "8999b4f382caa8e5442e08fd6cd62a1ea82e98b3"
-depends = "['akonadi-contacts', 'kfilemetadata>=6.14.0', 'knotifyconfig>=6.14.0', 'lensfun', 'libksane>=25.04.1', 'libxml2>=2.14.3', 'openblas', 'opencv>=4.11.0', 'qt6-networkauth>=6.9.1', 'qt6-scxml>=6.9.1', 'threadweaver>=6.14.0']"
+size = "29075900"
+usize = "109360128"
+sha1sum = "10f0662c0ebf2173f4950673972145ed81ece247"
+depends = "['akonadi-contacts', 'kfilemetadata>=6.15.0', 'knotifyconfig>=6.15.0', 'lensfun', 'libksane>=25.04.3', 'libxml2>=2.14.3', 'openblas', 'opencv>=4.11.0', 'qt6-networkauth>=6.9.1', 'qt6-scxml>=6.9.1', 'threadweaver>=6.15.0']"
 +++
 ### Description: 
 Digital photo management application for kde
@@ -44,6 +44,7 @@ Digital photo management application for kde
 * /usr/include/digikam/dcolorpixelaccess.h
 * /usr/include/digikam/dcolorselector.h
 * /usr/include/digikam/dexpanderbox.h
+* /usr/include/digikam/dfiledialog.h
 * /usr/include/digikam/dhistoryview.h
 * /usr/include/digikam/digikam_config.h
 * /usr/include/digikam/digikam_core_export.h
@@ -65,6 +66,9 @@ Digital photo management application for kde
 * /usr/include/digikam/ditemslist.h
 * /usr/include/digikam/ditemtooltip.h
 * /usr/include/digikam/dmessagebox.h
+* /usr/include/digikam/dmetadata.h
+* /usr/include/digikam/dmetadatasettings.h
+* /usr/include/digikam/dmetadatasettingscontainer.h
 * /usr/include/digikam/dmetainfoiface.h
 * /usr/include/digikam/dplugin.h
 * /usr/include/digikam/dpluginaboutdlg.h
@@ -115,6 +119,8 @@ Digital photo management application for kde
 * /usr/include/digikam/managedloadsavethread.h
 * /usr/include/digikam/metadatainfo.h
 * /usr/include/digikam/metaengine.h
+* /usr/include/digikam/metaenginesettings.h
+* /usr/include/digikam/metaenginesettingscontainer.h
 * /usr/include/digikam/metaengine_data.h
 * /usr/include/digikam/modelcompleter.h
 * /usr/include/digikam/photoinfocontainer.h
@@ -128,6 +134,7 @@ Digital photo management application for kde
 * /usr/include/digikam/statesavingobject.h
 * /usr/include/digikam/thumbnailinfo.h
 * /usr/include/digikam/thumbnailloadthread.h
+* /usr/include/digikam/videoinfocontainer.h
 * /usr/include/digikam/wbcontainer.h
 * /usr/include/digikam/wsitem.h
 * /usr/include/digikam/wslogindialog.h
@@ -146,11 +153,11 @@ Digital photo management application for kde
 * /usr/lib/cmake/DigikamGui/DigikamGuiConfigVersion.cmake
 * /usr/lib/cmake/DigikamPlugin/DigikamPluginConfig.cmake
 * /usr/lib/libdigikamcore.so
-* /usr/lib/libdigikamcore.so.8.6.0
+* /usr/lib/libdigikamcore.so.8.7.0
 * /usr/lib/libdigikamdatabase.so
-* /usr/lib/libdigikamdatabase.so.8.6.0
+* /usr/lib/libdigikamdatabase.so.8.7.0
 * /usr/lib/libdigikamgui.so
-* /usr/lib/libdigikamgui.so.8.6.0
+* /usr/lib/libdigikamgui.so.8.7.0
 * /usr/lib/qt6/plugins/digikam/bqm/Bqm_AntiVignetting_Plugin.so
 * /usr/lib/qt6/plugins/digikam/bqm/Bqm_ApplyMetadata_Plugin.so
 * /usr/lib/qt6/plugins/digikam/bqm/Bqm_Assigncaptions_Plugin.so
@@ -158,6 +165,7 @@ Digital photo management application for kde
 * /usr/lib/qt6/plugins/digikam/bqm/Bqm_AssignTags_Plugin.so
 * /usr/lib/qt6/plugins/digikam/bqm/Bqm_AssignTemplate_Plugin.so
 * /usr/lib/qt6/plugins/digikam/bqm/Bqm_AutoCorrection_Plugin.so
+* /usr/lib/qt6/plugins/digikam/bqm/Bqm_AutoRotate_Plugin.so
 * /usr/lib/qt6/plugins/digikam/bqm/Bqm_BcgCorrection_Plugin.so
 * /usr/lib/qt6/plugins/digikam/bqm/Bqm_Blur_Plugin.so
 * /usr/lib/qt6/plugins/digikam/bqm/Bqm_Border_Plugin.so
@@ -168,6 +176,7 @@ Digital photo management application for kde
 * /usr/lib/qt6/plugins/digikam/bqm/Bqm_Convert16To8_Plugin.so
 * /usr/lib/qt6/plugins/digikam/bqm/Bqm_Convert8To16_Plugin.so
 * /usr/lib/qt6/plugins/digikam/bqm/Bqm_ConvertToAVIF_Plugin.so
+* /usr/lib/qt6/plugins/digikam/bqm/Bqm_ConvertToDNG_Plugin.so
 * /usr/lib/qt6/plugins/digikam/bqm/Bqm_ConvertToHEIF_Plugin.so
 * /usr/lib/qt6/plugins/digikam/bqm/Bqm_ConvertToJP2lugin_Plugin.so
 * /usr/lib/qt6/plugins/digikam/bqm/Bqm_ConvertToJPEG_Plugin.so
@@ -256,6 +265,7 @@ Digital photo management application for kde
 * /usr/lib/qt6/plugins/digikam/generic/Generic_Box_Plugin.so
 * /usr/lib/qt6/plugins/digikam/generic/Generic_Calendar_Plugin.so
 * /usr/lib/qt6/plugins/digikam/generic/Generic_DigitalScanner_Plugin.so
+* /usr/lib/qt6/plugins/digikam/generic/Generic_DNGConverter_Plugin.so
 * /usr/lib/qt6/plugins/digikam/generic/Generic_DropBox_Plugin.so
 * /usr/lib/qt6/plugins/digikam/generic/Generic_ExpoBlending_Plugin.so
 * /usr/lib/qt6/plugins/digikam/generic/Generic_FileCopy_Plugin.so
@@ -315,8 +325,8 @@ Digital photo management application for kde
 * /usr/share/digikam/about/css/bootstrap-theme.min.css
 * /usr/share/digikam/about/css/bootstrap.min.css
 * /usr/share/digikam/about/css/digikam.css
-* /usr/share/digikam/about/images/body-background.jpg
-* /usr/share/digikam/about/images/top-left-digikam.png
+* /usr/share/digikam/about/images/body-background.webp
+* /usr/share/digikam/about/images/top-left-digikam.webp
 * /usr/share/digikam/about/js/bootstrap.min.js
 * /usr/share/digikam/about/js/digikam.js
 * /usr/share/digikam/about/js/jquery.min.js
@@ -331,84 +341,84 @@ Digital photo management application for kde
 * /usr/share/digikam/colorschemes/shadeofgray.colors
 * /usr/share/digikam/colorschemes/sunsetcolor.colors
 * /usr/share/digikam/colorschemes/whitebalance.colors
-* /usr/share/digikam/data/assistant-enfuse.png
-* /usr/share/digikam/data/assistant-hugin.png
-* /usr/share/digikam/data/assistant-preprocessing.png
-* /usr/share/digikam/data/assistant-stack.png
-* /usr/share/digikam/data/assistant-tripod.png
-* /usr/share/digikam/data/banner-digikam.png
-* /usr/share/digikam/data/bluejean-texture.png
+* /usr/share/digikam/data/assistant-enfuse.webp
+* /usr/share/digikam/data/assistant-hugin.webp
+* /usr/share/digikam/data/assistant-preprocessing.webp
+* /usr/share/digikam/data/assistant-stack.webp
+* /usr/share/digikam/data/assistant-tripod.webp
+* /usr/share/digikam/data/banner-digikam.webp
+* /usr/share/digikam/data/bluejean-texture.webp
 * /usr/share/digikam/data/bothhorz.png
 * /usr/share/digikam/data/bothvert.png
-* /usr/share/digikam/data/bricks-texture.png
-* /usr/share/digikam/data/bricks2-texture.png
-* /usr/share/digikam/data/burlap-texture.png
-* /usr/share/digikam/data/canvas-texture.png
-* /usr/share/digikam/data/cellwood-texture.png
+* /usr/share/digikam/data/bricks-texture.webp
+* /usr/share/digikam/data/bricks2-texture.webp
+* /usr/share/digikam/data/burlap-texture.webp
+* /usr/share/digikam/data/canvas-texture.webp
+* /usr/share/digikam/data/cellwood-texture.webp
 * /usr/share/digikam/data/centerheight.png
 * /usr/share/digikam/data/centerwidth.png
-* /usr/share/digikam/data/chalk-pattern.png
+* /usr/share/digikam/data/chalk-pattern.webp
 * /usr/share/digikam/data/colors-chromablue.png
 * /usr/share/digikam/data/colors-chromared.png
 * /usr/share/digikam/data/colors-luma.png
-* /usr/share/digikam/data/craters-pattern.png
+* /usr/share/digikam/data/craters-pattern.webp
 * /usr/share/digikam/data/curvefree.png
 * /usr/share/digikam/data/curvemooth.png
-* /usr/share/digikam/data/dried-pattern.png
+* /usr/share/digikam/data/dried-pattern.webp
 * /usr/share/digikam/data/duplicatebothhorz.png
 * /usr/share/digikam/data/duplicatebothvert.png
 * /usr/share/digikam/data/editimage.png
 * /usr/share/digikam/data/exifinfo.png
-* /usr/share/digikam/data/fabric-texture.png
-* /usr/share/digikam/data/granit-pattern.png
-* /usr/share/digikam/data/ice-pattern.png
+* /usr/share/digikam/data/fabric-texture.webp
+* /usr/share/digikam/data/granit-pattern.webp
+* /usr/share/digikam/data/ice-pattern.webp
 * /usr/share/digikam/data/image-full.png
 * /usr/share/digikam/data/image-selection.png
-* /usr/share/digikam/data/leaf-pattern.png
-* /usr/share/digikam/data/logo-beta.png
-* /usr/share/digikam/data/logo-cimg.png
-* /usr/share/digikam/data/logo-digikam.png
-* /usr/share/digikam/data/logo-gphoto.png
-* /usr/share/digikam/data/logo-lcms.png
-* /usr/share/digikam/data/logo-piwigo.png
-* /usr/share/digikam/data/lut3d/bleach.png
-* /usr/share/digikam/data/lut3d/blue_crush.png
-* /usr/share/digikam/data/lut3d/bw_contrast.png
-* /usr/share/digikam/data/lut3d/instant.png
-* /usr/share/digikam/data/lut3d/original.png
-* /usr/share/digikam/data/lut3d/punch.png
-* /usr/share/digikam/data/lut3d/summer.png
-* /usr/share/digikam/data/lut3d/tokyo.png
-* /usr/share/digikam/data/lut3d/vintage.png
-* /usr/share/digikam/data/lut3d/washout.png
-* /usr/share/digikam/data/lut3d/washout_color.png
-* /usr/share/digikam/data/lut3d/x_process.png
-* /usr/share/digikam/data/marble-pattern.png
-* /usr/share/digikam/data/marble-texture.png
-* /usr/share/digikam/data/marble2-texture.png
-* /usr/share/digikam/data/metalwire-texture.png
-* /usr/share/digikam/data/modern-texture.png
-* /usr/share/digikam/data/moss-texture.png
+* /usr/share/digikam/data/leaf-pattern.webp
+* /usr/share/digikam/data/logo-beta.webp
+* /usr/share/digikam/data/logo-cimg.webp
+* /usr/share/digikam/data/logo-digikam.webp
+* /usr/share/digikam/data/logo-gphoto.webp
+* /usr/share/digikam/data/logo-lcms.webp
+* /usr/share/digikam/data/logo-piwigo.webp
+* /usr/share/digikam/data/lut3d/bleach.webp
+* /usr/share/digikam/data/lut3d/blue_crush.webp
+* /usr/share/digikam/data/lut3d/bw_contrast.webp
+* /usr/share/digikam/data/lut3d/instant.webp
+* /usr/share/digikam/data/lut3d/original.webp
+* /usr/share/digikam/data/lut3d/punch.webp
+* /usr/share/digikam/data/lut3d/summer.webp
+* /usr/share/digikam/data/lut3d/tokyo.webp
+* /usr/share/digikam/data/lut3d/vintage.webp
+* /usr/share/digikam/data/lut3d/washout.webp
+* /usr/share/digikam/data/lut3d/washout_color.webp
+* /usr/share/digikam/data/lut3d/x_process.webp
+* /usr/share/digikam/data/marble-pattern.webp
+* /usr/share/digikam/data/marble-texture.webp
+* /usr/share/digikam/data/marble2-texture.webp
+* /usr/share/digikam/data/metalwire-texture.webp
+* /usr/share/digikam/data/modern-texture.webp
+* /usr/share/digikam/data/moss-texture.webp
 * /usr/share/digikam/data/original.png
-* /usr/share/digikam/data/paper-pattern.png
-* /usr/share/digikam/data/paper-texture.png
-* /usr/share/digikam/data/paper2-texture.png
-* /usr/share/digikam/data/parque-pattern.png
-* /usr/share/digikam/data/pine-pattern.png
-* /usr/share/digikam/data/pink-pattern.png
+* /usr/share/digikam/data/paper-pattern.webp
+* /usr/share/digikam/data/paper-texture.webp
+* /usr/share/digikam/data/paper2-texture.webp
+* /usr/share/digikam/data/parque-pattern.webp
+* /usr/share/digikam/data/pine-pattern.webp
+* /usr/share/digikam/data/pink-pattern.webp
 * /usr/share/digikam/data/process-working.png
-* /usr/share/digikam/data/rain-pattern.png
-* /usr/share/digikam/data/rock-pattern.png
-* /usr/share/digikam/data/sample-aix.png
-* /usr/share/digikam/data/splash-digikam.png
-* /usr/share/digikam/data/stone-pattern.png
-* /usr/share/digikam/data/stone-texture.png
+* /usr/share/digikam/data/rain-pattern.webp
+* /usr/share/digikam/data/rock-pattern.webp
+* /usr/share/digikam/data/sample-aix.webp
+* /usr/share/digikam/data/splash-digikam.webp
+* /usr/share/digikam/data/stone-pattern.webp
+* /usr/share/digikam/data/stone-texture.webp
 * /usr/share/digikam/data/target.png
 * /usr/share/digikam/data/togglemouseover.png
 * /usr/share/digikam/data/video-digikam.mp4
-* /usr/share/digikam/data/wall-pattern.png
-* /usr/share/digikam/data/wall-texture.png
-* /usr/share/digikam/data/wood-pattern.png
+* /usr/share/digikam/data/wall-pattern.webp
+* /usr/share/digikam/data/wall-texture.webp
+* /usr/share/digikam/data/wood-pattern.webp
 * /usr/share/digikam/database/dbconfig.xml
 * /usr/share/digikam/database/mysql-global.conf
 * /usr/share/digikam/dnnmodels/dnnmodels.conf
@@ -1883,12 +1893,12 @@ Digital photo management application for kde
 * /usr/share/digikam/themes/vanilla/template.xsl
 * /usr/share/digikam/themes/vanilla/vanilla.desktop
 * /usr/share/digikam/utils/digikam-camera
-* /usr/share/doc/digikam-8.6.0/AUTHORS
-* /usr/share/doc/digikam-8.6.0/ChangeLog
-* /usr/share/doc/digikam-8.6.0/COPYING
-* /usr/share/doc/digikam-8.6.0/NEWS
-* /usr/share/doc/digikam-8.6.0/README.BUNDLES
-* /usr/share/doc/digikam-8.6.0/README.md
+* /usr/share/doc/digikam-8.7.0/AUTHORS
+* /usr/share/doc/digikam-8.7.0/ChangeLog
+* /usr/share/doc/digikam-8.7.0/COPYING
+* /usr/share/doc/digikam-8.7.0/NEWS
+* /usr/share/doc/digikam-8.7.0/README.BUNDLES
+* /usr/share/doc/digikam-8.7.0/README.md
 * /usr/share/icons/hicolor/128x128/apps/digikam.png
 * /usr/share/icons/hicolor/128x128/apps/expoblending.png
 * /usr/share/icons/hicolor/128x128/apps/panorama.png
@@ -2066,7 +2076,7 @@ Digital photo management application for kde
 * /usr/share/man/man1/digitaglinktree.1.gz
 * /usr/share/metainfo/org.kde.digikam.appdata.xml
 * /usr/share/metainfo/org.kde.showfoto.appdata.xml
-* /usr/share/showfoto/data/banner-showfoto.png
-* /usr/share/showfoto/data/logo-showfoto.png
-* /usr/share/showfoto/data/splash-showfoto.png
+* /usr/share/showfoto/data/banner-showfoto.webp
+* /usr/share/showfoto/data/logo-showfoto.webp
+* /usr/share/showfoto/data/splash-showfoto.webp
 * /usr/share/solid/actions/digikam-opencamera.desktop

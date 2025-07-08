@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "jq 1.8.0-1"
-version = "1.8.0-1"
+title = "jq 1.8.1-1"
+version = "1.8.1-1"
 description = "Command-line JSON processor."
-date = "2025-06-19T08:10:06"
+date = "2025-07-08T18:56:02"
 aliases = "/packages/219620"
 categories = ['chroot-core']
 upstreamurl = "https://github.com/jqlang/jq"
 arch = "x86_64"
-size = "200016"
-usize = "490178"
-sha1sum = "ffc3cb118b494a621f746d5514154b5d454f3145"
+size = "200760"
+usize = "492962"
+sha1sum = "fe8e213f0259203749a7b896640f8c9ed3f334e4"
 depends = "['oniguruma>=6.9.8']"
 +++
 ### Description: 
@@ -24,9 +24,9 @@ Command-line JSON processor.
 * /usr/lib/libjq.so.1
 * /usr/lib/libjq.so.1.0.4
 * /usr/lib/pkgconfig/libjq.pc
-* /usr/share/doc/jq-1.8.0/AUTHORS
-* /usr/share/doc/jq-1.8.0/ChangeLog
-* /usr/share/doc/jq-1.8.0/COPYING
-* /usr/share/doc/jq-1.8.0/NEWS.md
-* /usr/share/doc/jq-1.8.0/README.md
+* /usr/share/doc/jq-1.8.1/AUTHORS
+* /usr/share/doc/jq-1.8.1/ChangeLog
+* /usr/share/doc/jq-1.8.1/COPYING
+* /usr/share/doc/jq-1.8.1/NEWS.md
+* /usr/share/doc/jq-1.8.1/README.md
 * /usr/share/man/man1/jq.1.gz
