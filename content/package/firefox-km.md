@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-km 140.0.2-1"
-version = "140.0.2-1"
+title = "firefox-km 140.0.4-1"
+version = "140.0.4-1"
 description = "Central Khmer language support for Firefox"
-date = "2025-06-28T10:32:25"
+date = "2025-07-08T10:54:36"
 aliases = "/packages/153589"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "294712"
-usize = "348180"
-sha1sum = "cee76d388f064e7c92248aad140ce8280ebd8490"
-depends = "['firefox>=140.0.2']"
+size = "294668"
+usize = "348186"
+sha1sum = "39fcf1d41a236dcfaaf855926acbfa0915c2c4b7"
+depends = "['firefox>=140.0.4']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

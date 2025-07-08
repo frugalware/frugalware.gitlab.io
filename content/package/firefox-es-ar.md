@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-es-ar 140.0.2-1"
-version = "140.0.2-1"
+title = "firefox-es-ar 140.0.4-1"
+version = "140.0.4-1"
 description = "Argentine Spanish language support for Firefox"
-date = "2025-06-28T10:32:25"
+date = "2025-07-08T10:54:36"
 aliases = "/packages/73622"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "391448"
-usize = "444783"
-sha1sum = "a26fb11b4d618c2e0451f91ae523faf3566891bc"
-depends = "['firefox>=140.0.2']"
+size = "391172"
+usize = "444777"
+sha1sum = "e9fa3a0eb589aca187dd9dc2735027fbb790378c"
+depends = "['firefox>=140.0.4']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

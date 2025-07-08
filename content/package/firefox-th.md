@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-th 140.0.2-1"
-version = "140.0.2-1"
+title = "firefox-th 140.0.4-1"
+version = "140.0.4-1"
 description = "Thai language support for Firefox"
-date = "2025-06-28T10:32:25"
+date = "2025-07-08T10:54:36"
 aliases = "/packages/73655"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "452280"
-usize = "502956"
-sha1sum = "6932f6e7b14c7a00980d2ccbc387005f5fe6de93"
-depends = "['firefox>=140.0.2']"
+size = "452812"
+usize = "502947"
+sha1sum = "36d7acb9a877b7e9fe5d31432aaa0657c5a2dfb3"
+depends = "['firefox>=140.0.4']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 

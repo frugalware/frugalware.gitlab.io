@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "firefox-da 140.0.2-1"
-version = "140.0.2-1"
+title = "firefox-da 140.0.4-1"
+version = "140.0.4-1"
 description = "Danish language support for Firefox"
-date = "2025-06-28T10:32:25"
+date = "2025-07-08T10:54:36"
 aliases = "/packages/3573"
 categories = ['firefox-extensions']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "379172"
-usize = "430387"
-sha1sum = "f344fe117f6403a5b5d4d8a3cf91ad8acf966ef5"
-depends = "['firefox>=140.0.2']"
+size = "377344"
+usize = "430381"
+sha1sum = "979c5206586f40f0133d467a1eac96ccaf211ca1"
+depends = "['firefox>=140.0.4']"
 reverse_depends = "['firefox-i18n']"
 +++
 ### Description: 
