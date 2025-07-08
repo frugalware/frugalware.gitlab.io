@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gi-docgen 2025.3-1"
-version = "2025.3-1"
+title = "gi-docgen 2025.4-1"
+version = "2025.4-1"
 description = "Documentation generator for GObject-based libraries"
-date = "2025-03-01T11:19:02"
+date = "2025-07-08T15:35:28"
 aliases = "/packages/220816"
 categories = ['devel-extra']
 upstreamurl = "https://gnome.pages.gitlab.gnome.org/gi-docgen/"
 arch = "x86_64"
-size = "1230032"
-usize = "2262466"
-sha1sum = "e930d258360cee622f44cd995e55341e52d67d68"
+size = "1230636"
+usize = "2267096"
+sha1sum = "d0a4aac20c0b8d96ba172fa8a7743fdd3b7885be"
 depends = "['python3-jinja', 'python3-markdown', 'python3-markupsafe', 'python3-pygments', 'python3-toml', 'python3-typogrify']"
 +++
 ### Description: 
@@ -109,5 +109,5 @@ Documentation generator for GObject-based libraries
 * /usr/lib/python3.13/site-packages/gidocgen/__pycache__/mdext.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/gidocgen/__pycache__/utils.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/gidocgen/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/gi-docgen-2025.3/README.md
+* /usr/share/doc/gi-docgen-2025.4/README.md
 * /usr/share/pkgconfig/gi-docgen.pc

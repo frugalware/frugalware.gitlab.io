@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "cef 132.3.2-4"
-version = "132.3.2-4"
+title = "cef 138.0.17-1"
+version = "138.0.17-1"
 description = "Chromium Embedded Framework standard release"
-date = "2025-02-11T18:34:34"
+date = "2025-07-08T15:12:04"
 aliases = "/packages/220418"
 categories = ['lib-extra']
 upstreamurl = "https://bitbucket.org/chromiumembedded/cef"
 arch = "x86_64"
-size = "292012272"
-usize = "1516971784"
-sha1sum = "fd276e4c9d137c98bde73fe176e89548ac282af7"
+size = "318562648"
+usize = "1646811009"
+sha1sum = "733130c99481c744a298ff32f6992b68d0264eb5"
 depends = "['alsa-lib', 'dbus', 'libglvnd', 'libxcomposite', 'libxcursor', 'libxrandr', 'libxscrnsaver', 'libxtst', 'nss', 'pango']"
 reverse_depends = "['obs-studio']"
 +++
@@ -49,24 +49,26 @@ Chromium Embedded Framework standard release
 * /opt/cef/cmake/cef_variables.cmake
 * /opt/cef/cmake/FindCEF.cmake
 * /opt/cef/CMakeCache.txt
-* /opt/cef/CMakeFiles/3.31.5/CMakeCCompiler.cmake
-* /opt/cef/CMakeFiles/3.31.5/CMakeCXXCompiler.cmake
-* /opt/cef/CMakeFiles/3.31.5/CMakeDetermineCompilerABI_C.bin
-* /opt/cef/CMakeFiles/3.31.5/CMakeDetermineCompilerABI_CXX.bin
-* /opt/cef/CMakeFiles/3.31.5/CMakeSystem.cmake
-* /opt/cef/CMakeFiles/3.31.5/CompilerIdC/a.out
-* /opt/cef/CMakeFiles/3.31.5/CompilerIdC/CMakeCCompilerId.c
-* /opt/cef/CMakeFiles/3.31.5/CompilerIdCXX/a.out
-* /opt/cef/CMakeFiles/3.31.5/CompilerIdCXX/CMakeCXXCompilerId.cpp
+* /opt/cef/CMakeFiles/4.0.3/CMakeCCompiler.cmake
+* /opt/cef/CMakeFiles/4.0.3/CMakeCXXCompiler.cmake
+* /opt/cef/CMakeFiles/4.0.3/CMakeDetermineCompilerABI_C.bin
+* /opt/cef/CMakeFiles/4.0.3/CMakeDetermineCompilerABI_CXX.bin
+* /opt/cef/CMakeFiles/4.0.3/CMakeSystem.cmake
+* /opt/cef/CMakeFiles/4.0.3/CompilerIdC/a.out
+* /opt/cef/CMakeFiles/4.0.3/CompilerIdC/CMakeCCompilerId.c
+* /opt/cef/CMakeFiles/4.0.3/CompilerIdCXX/a.out
+* /opt/cef/CMakeFiles/4.0.3/CompilerIdCXX/CMakeCXXCompilerId.cpp
 * /opt/cef/CMakeFiles/cmake.check_cache
 * /opt/cef/CMakeFiles/CMakeConfigureLog.yaml
 * /opt/cef/CMakeFiles/CMakeDirectoryInformation.cmake
+* /opt/cef/CMakeFiles/InstallScripts.json
 * /opt/cef/CMakeFiles/Makefile.cmake
 * /opt/cef/CMakeFiles/Makefile2
 * /opt/cef/CMakeFiles/progress.marks
 * /opt/cef/CMakeFiles/TargetDirectories.txt
 * /opt/cef/CMakeLists.txt
 * /opt/cef/cmake_install.cmake
+* /opt/cef/CREDITS.html
 * /opt/cef/Doxyfile
 * /opt/cef/include/base/cef_atomic_flag.h
 * /opt/cef/include/base/cef_atomic_ref_count.h
@@ -80,6 +82,7 @@ Chromium Embedded Framework standard release
 * /opt/cef/include/base/cef_cancelable_callback.h
 * /opt/cef/include/base/cef_compiler_specific.h
 * /opt/cef/include/base/cef_dump_without_crashing.h
+* /opt/cef/include/base/cef_immediate_crash.h
 * /opt/cef/include/base/cef_lock.h
 * /opt/cef/include/base/cef_logging.h
 * /opt/cef/include/base/cef_macros.h
@@ -178,6 +181,7 @@ Chromium Embedded Framework standard release
 * /opt/cef/include/capi/cef_x509_certificate_capi.h
 * /opt/cef/include/capi/cef_xml_reader_capi.h
 * /opt/cef/include/capi/cef_zip_reader_capi.h
+* /opt/cef/include/capi/test/cef_api_version_test_capi.h
 * /opt/cef/include/capi/test/cef_test_helpers_capi.h
 * /opt/cef/include/capi/test/cef_test_server_capi.h
 * /opt/cef/include/capi/test/cef_translator_test_capi.h
@@ -204,6 +208,7 @@ Chromium Embedded Framework standard release
 * /opt/cef/include/capi/views/cef_window_delegate_capi.h
 * /opt/cef/include/cef_accessibility_handler.h
 * /opt/cef/include/cef_api_hash.h
+* /opt/cef/include/cef_api_versions.h
 * /opt/cef/include/cef_app.h
 * /opt/cef/include/cef_audio_handler.h
 * /opt/cef/include/cef_auth_callback.h
@@ -234,6 +239,7 @@ Chromium Embedded Framework standard release
 * /opt/cef/include/cef_frame.h
 * /opt/cef/include/cef_frame_handler.h
 * /opt/cef/include/cef_i18n_util.h
+* /opt/cef/include/cef_id_mappers.h
 * /opt/cef/include/cef_image.h
 * /opt/cef/include/cef_jsdialog_handler.h
 * /opt/cef/include/cef_keyboard_handler.h
@@ -284,6 +290,7 @@ Chromium Embedded Framework standard release
 * /opt/cef/include/cef_v8.h
 * /opt/cef/include/cef_values.h
 * /opt/cef/include/cef_version.h
+* /opt/cef/include/cef_version_info.h
 * /opt/cef/include/cef_waitable_event.h
 * /opt/cef/include/cef_x509_certificate.h
 * /opt/cef/include/cef_xml_reader.h
@@ -311,6 +318,7 @@ Chromium Embedded Framework standard release
 * /opt/cef/include/internal/cef_types_osr.h
 * /opt/cef/include/internal/cef_types_runtime.h
 * /opt/cef/include/internal/cef_types_wrappers.h
+* /opt/cef/include/test/cef_api_version_test.h
 * /opt/cef/include/test/cef_test_helpers.h
 * /opt/cef/include/test/cef_test_server.h
 * /opt/cef/include/test/cef_translator_test.h
@@ -427,6 +435,8 @@ Chromium Embedded Framework standard release
 * /opt/cef/libcef_dll/cpptoc/pdf_print_callback_cpptoc.h
 * /opt/cef/libcef_dll/cpptoc/permission_handler_cpptoc.cc
 * /opt/cef/libcef_dll/cpptoc/permission_handler_cpptoc.h
+* /opt/cef/libcef_dll/cpptoc/preference_observer_cpptoc.cc
+* /opt/cef/libcef_dll/cpptoc/preference_observer_cpptoc.h
 * /opt/cef/libcef_dll/cpptoc/print_handler_cpptoc.cc
 * /opt/cef/libcef_dll/cpptoc/print_handler_cpptoc.h
 * /opt/cef/libcef_dll/cpptoc/read_handler_cpptoc.cc
@@ -455,12 +465,26 @@ Chromium Embedded Framework standard release
 * /opt/cef/libcef_dll/cpptoc/scheme_handler_factory_cpptoc.h
 * /opt/cef/libcef_dll/cpptoc/server_handler_cpptoc.cc
 * /opt/cef/libcef_dll/cpptoc/server_handler_cpptoc.h
+* /opt/cef/libcef_dll/cpptoc/setting_observer_cpptoc.cc
+* /opt/cef/libcef_dll/cpptoc/setting_observer_cpptoc.h
 * /opt/cef/libcef_dll/cpptoc/set_cookie_callback_cpptoc.cc
 * /opt/cef/libcef_dll/cpptoc/set_cookie_callback_cpptoc.h
 * /opt/cef/libcef_dll/cpptoc/string_visitor_cpptoc.cc
 * /opt/cef/libcef_dll/cpptoc/string_visitor_cpptoc.h
 * /opt/cef/libcef_dll/cpptoc/task_cpptoc.cc
 * /opt/cef/libcef_dll/cpptoc/task_cpptoc.h
+* /opt/cef/libcef_dll/cpptoc/test/api_version_test_ref_ptr_client_child_cpptoc.cc
+* /opt/cef/libcef_dll/cpptoc/test/api_version_test_ref_ptr_client_child_cpptoc.h
+* /opt/cef/libcef_dll/cpptoc/test/api_version_test_ref_ptr_client_child_v2_cpptoc.cc
+* /opt/cef/libcef_dll/cpptoc/test/api_version_test_ref_ptr_client_child_v2_cpptoc.h
+* /opt/cef/libcef_dll/cpptoc/test/api_version_test_ref_ptr_client_cpptoc.cc
+* /opt/cef/libcef_dll/cpptoc/test/api_version_test_ref_ptr_client_cpptoc.h
+* /opt/cef/libcef_dll/cpptoc/test/api_version_test_scoped_client_child_cpptoc.cc
+* /opt/cef/libcef_dll/cpptoc/test/api_version_test_scoped_client_child_cpptoc.h
+* /opt/cef/libcef_dll/cpptoc/test/api_version_test_scoped_client_child_v2_cpptoc.cc
+* /opt/cef/libcef_dll/cpptoc/test/api_version_test_scoped_client_child_v2_cpptoc.h
+* /opt/cef/libcef_dll/cpptoc/test/api_version_test_scoped_client_cpptoc.cc
+* /opt/cef/libcef_dll/cpptoc/test/api_version_test_scoped_client_cpptoc.h
 * /opt/cef/libcef_dll/cpptoc/test/test_server_handler_cpptoc.cc
 * /opt/cef/libcef_dll/cpptoc/test/test_server_handler_cpptoc.h
 * /opt/cef/libcef_dll/cpptoc/test/translator_test_ref_ptr_client_child_cpptoc.cc
@@ -473,14 +497,14 @@ Chromium Embedded Framework standard release
 * /opt/cef/libcef_dll/cpptoc/test/translator_test_scoped_client_cpptoc.h
 * /opt/cef/libcef_dll/cpptoc/urlrequest_client_cpptoc.cc
 * /opt/cef/libcef_dll/cpptoc/urlrequest_client_cpptoc.h
-* /opt/cef/libcef_dll/cpptoc/v8accessor_cpptoc.cc
-* /opt/cef/libcef_dll/cpptoc/v8accessor_cpptoc.h
-* /opt/cef/libcef_dll/cpptoc/v8array_buffer_release_callback_cpptoc.cc
-* /opt/cef/libcef_dll/cpptoc/v8array_buffer_release_callback_cpptoc.h
-* /opt/cef/libcef_dll/cpptoc/v8handler_cpptoc.cc
-* /opt/cef/libcef_dll/cpptoc/v8handler_cpptoc.h
-* /opt/cef/libcef_dll/cpptoc/v8interceptor_cpptoc.cc
-* /opt/cef/libcef_dll/cpptoc/v8interceptor_cpptoc.h
+* /opt/cef/libcef_dll/cpptoc/v8_accessor_cpptoc.cc
+* /opt/cef/libcef_dll/cpptoc/v8_accessor_cpptoc.h
+* /opt/cef/libcef_dll/cpptoc/v8_array_buffer_release_callback_cpptoc.cc
+* /opt/cef/libcef_dll/cpptoc/v8_array_buffer_release_callback_cpptoc.h
+* /opt/cef/libcef_dll/cpptoc/v8_handler_cpptoc.cc
+* /opt/cef/libcef_dll/cpptoc/v8_handler_cpptoc.h
+* /opt/cef/libcef_dll/cpptoc/v8_interceptor_cpptoc.cc
+* /opt/cef/libcef_dll/cpptoc/v8_interceptor_cpptoc.h
 * /opt/cef/libcef_dll/cpptoc/views/browser_view_delegate_cpptoc.cc
 * /opt/cef/libcef_dll/cpptoc/views/browser_view_delegate_cpptoc.h
 * /opt/cef/libcef_dll/cpptoc/views/button_delegate_cpptoc.cc
@@ -611,6 +635,28 @@ Chromium Embedded Framework standard release
 * /opt/cef/libcef_dll/ctocpp/task_manager_ctocpp.h
 * /opt/cef/libcef_dll/ctocpp/task_runner_ctocpp.cc
 * /opt/cef/libcef_dll/ctocpp/task_runner_ctocpp.h
+* /opt/cef/libcef_dll/ctocpp/test/api_version_test_ctocpp.cc
+* /opt/cef/libcef_dll/ctocpp/test/api_version_test_ctocpp.h
+* /opt/cef/libcef_dll/ctocpp/test/api_version_test_ref_ptr_library_child_child_ctocpp.cc
+* /opt/cef/libcef_dll/ctocpp/test/api_version_test_ref_ptr_library_child_child_ctocpp.h
+* /opt/cef/libcef_dll/ctocpp/test/api_version_test_ref_ptr_library_child_child_v1_ctocpp.cc
+* /opt/cef/libcef_dll/ctocpp/test/api_version_test_ref_ptr_library_child_child_v1_ctocpp.h
+* /opt/cef/libcef_dll/ctocpp/test/api_version_test_ref_ptr_library_child_child_v2_ctocpp.cc
+* /opt/cef/libcef_dll/ctocpp/test/api_version_test_ref_ptr_library_child_child_v2_ctocpp.h
+* /opt/cef/libcef_dll/ctocpp/test/api_version_test_ref_ptr_library_child_ctocpp.cc
+* /opt/cef/libcef_dll/ctocpp/test/api_version_test_ref_ptr_library_child_ctocpp.h
+* /opt/cef/libcef_dll/ctocpp/test/api_version_test_ref_ptr_library_ctocpp.cc
+* /opt/cef/libcef_dll/ctocpp/test/api_version_test_ref_ptr_library_ctocpp.h
+* /opt/cef/libcef_dll/ctocpp/test/api_version_test_scoped_library_child_child_ctocpp.cc
+* /opt/cef/libcef_dll/ctocpp/test/api_version_test_scoped_library_child_child_ctocpp.h
+* /opt/cef/libcef_dll/ctocpp/test/api_version_test_scoped_library_child_child_v1_ctocpp.cc
+* /opt/cef/libcef_dll/ctocpp/test/api_version_test_scoped_library_child_child_v1_ctocpp.h
+* /opt/cef/libcef_dll/ctocpp/test/api_version_test_scoped_library_child_child_v2_ctocpp.cc
+* /opt/cef/libcef_dll/ctocpp/test/api_version_test_scoped_library_child_child_v2_ctocpp.h
+* /opt/cef/libcef_dll/ctocpp/test/api_version_test_scoped_library_child_ctocpp.cc
+* /opt/cef/libcef_dll/ctocpp/test/api_version_test_scoped_library_child_ctocpp.h
+* /opt/cef/libcef_dll/ctocpp/test/api_version_test_scoped_library_ctocpp.cc
+* /opt/cef/libcef_dll/ctocpp/test/api_version_test_scoped_library_ctocpp.h
 * /opt/cef/libcef_dll/ctocpp/test/test_server_connection_ctocpp.cc
 * /opt/cef/libcef_dll/ctocpp/test/test_server_connection_ctocpp.h
 * /opt/cef/libcef_dll/ctocpp/test/test_server_ctocpp.cc
@@ -635,16 +681,16 @@ Chromium Embedded Framework standard release
 * /opt/cef/libcef_dll/ctocpp/unresponsive_process_callback_ctocpp.h
 * /opt/cef/libcef_dll/ctocpp/urlrequest_ctocpp.cc
 * /opt/cef/libcef_dll/ctocpp/urlrequest_ctocpp.h
-* /opt/cef/libcef_dll/ctocpp/v8context_ctocpp.cc
-* /opt/cef/libcef_dll/ctocpp/v8context_ctocpp.h
-* /opt/cef/libcef_dll/ctocpp/v8exception_ctocpp.cc
-* /opt/cef/libcef_dll/ctocpp/v8exception_ctocpp.h
-* /opt/cef/libcef_dll/ctocpp/v8stack_frame_ctocpp.cc
-* /opt/cef/libcef_dll/ctocpp/v8stack_frame_ctocpp.h
-* /opt/cef/libcef_dll/ctocpp/v8stack_trace_ctocpp.cc
-* /opt/cef/libcef_dll/ctocpp/v8stack_trace_ctocpp.h
-* /opt/cef/libcef_dll/ctocpp/v8value_ctocpp.cc
-* /opt/cef/libcef_dll/ctocpp/v8value_ctocpp.h
+* /opt/cef/libcef_dll/ctocpp/v8_context_ctocpp.cc
+* /opt/cef/libcef_dll/ctocpp/v8_context_ctocpp.h
+* /opt/cef/libcef_dll/ctocpp/v8_exception_ctocpp.cc
+* /opt/cef/libcef_dll/ctocpp/v8_exception_ctocpp.h
+* /opt/cef/libcef_dll/ctocpp/v8_stack_frame_ctocpp.cc
+* /opt/cef/libcef_dll/ctocpp/v8_stack_frame_ctocpp.h
+* /opt/cef/libcef_dll/ctocpp/v8_stack_trace_ctocpp.cc
+* /opt/cef/libcef_dll/ctocpp/v8_stack_trace_ctocpp.h
+* /opt/cef/libcef_dll/ctocpp/v8_value_ctocpp.cc
+* /opt/cef/libcef_dll/ctocpp/v8_value_ctocpp.h
 * /opt/cef/libcef_dll/ctocpp/value_ctocpp.cc
 * /opt/cef/libcef_dll/ctocpp/value_ctocpp.h
 * /opt/cef/libcef_dll/ctocpp/views/box_layout_ctocpp.cc
@@ -679,10 +725,10 @@ Chromium Embedded Framework standard release
 * /opt/cef/libcef_dll/ctocpp/views/window_ctocpp.h
 * /opt/cef/libcef_dll/ctocpp/waitable_event_ctocpp.cc
 * /opt/cef/libcef_dll/ctocpp/waitable_event_ctocpp.h
-* /opt/cef/libcef_dll/ctocpp/x509certificate_ctocpp.cc
-* /opt/cef/libcef_dll/ctocpp/x509certificate_ctocpp.h
-* /opt/cef/libcef_dll/ctocpp/x509cert_principal_ctocpp.cc
-* /opt/cef/libcef_dll/ctocpp/x509cert_principal_ctocpp.h
+* /opt/cef/libcef_dll/ctocpp/x509_certificate_ctocpp.cc
+* /opt/cef/libcef_dll/ctocpp/x509_certificate_ctocpp.h
+* /opt/cef/libcef_dll/ctocpp/x509_cert_principal_ctocpp.cc
+* /opt/cef/libcef_dll/ctocpp/x509_cert_principal_ctocpp.h
 * /opt/cef/libcef_dll/ctocpp/xml_reader_ctocpp.cc
 * /opt/cef/libcef_dll/ctocpp/xml_reader_ctocpp.h
 * /opt/cef/libcef_dll/ctocpp/zip_reader_ctocpp.cc
@@ -802,6 +848,8 @@ Chromium Embedded Framework standard release
 * /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/pdf_print_callback_cpptoc.cc.o.d
 * /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/permission_handler_cpptoc.cc.o
 * /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/permission_handler_cpptoc.cc.o.d
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/preference_observer_cpptoc.cc.o
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/preference_observer_cpptoc.cc.o.d
 * /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/print_handler_cpptoc.cc.o
 * /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/print_handler_cpptoc.cc.o.d
 * /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/read_handler_cpptoc.cc.o
@@ -830,12 +878,26 @@ Chromium Embedded Framework standard release
 * /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/scheme_handler_factory_cpptoc.cc.o.d
 * /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/server_handler_cpptoc.cc.o
 * /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/server_handler_cpptoc.cc.o.d
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/setting_observer_cpptoc.cc.o
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/setting_observer_cpptoc.cc.o.d
 * /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/set_cookie_callback_cpptoc.cc.o
 * /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/set_cookie_callback_cpptoc.cc.o.d
 * /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/string_visitor_cpptoc.cc.o
 * /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/string_visitor_cpptoc.cc.o.d
 * /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/task_cpptoc.cc.o
 * /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/task_cpptoc.cc.o.d
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/test/api_version_test_ref_ptr_client_child_cpptoc.cc.o
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/test/api_version_test_ref_ptr_client_child_cpptoc.cc.o.d
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/test/api_version_test_ref_ptr_client_child_v2_cpptoc.cc.o
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/test/api_version_test_ref_ptr_client_child_v2_cpptoc.cc.o.d
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/test/api_version_test_ref_ptr_client_cpptoc.cc.o
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/test/api_version_test_ref_ptr_client_cpptoc.cc.o.d
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/test/api_version_test_scoped_client_child_cpptoc.cc.o
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/test/api_version_test_scoped_client_child_cpptoc.cc.o.d
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/test/api_version_test_scoped_client_child_v2_cpptoc.cc.o
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/test/api_version_test_scoped_client_child_v2_cpptoc.cc.o.d
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/test/api_version_test_scoped_client_cpptoc.cc.o
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/test/api_version_test_scoped_client_cpptoc.cc.o.d
 * /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/test/test_server_handler_cpptoc.cc.o
 * /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/test/test_server_handler_cpptoc.cc.o.d
 * /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/test/translator_test_ref_ptr_client_child_cpptoc.cc.o
@@ -848,14 +910,14 @@ Chromium Embedded Framework standard release
 * /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/test/translator_test_scoped_client_cpptoc.cc.o.d
 * /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/urlrequest_client_cpptoc.cc.o
 * /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/urlrequest_client_cpptoc.cc.o.d
-* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/v8accessor_cpptoc.cc.o
-* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/v8accessor_cpptoc.cc.o.d
-* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/v8array_buffer_release_callback_cpptoc.cc.o
-* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/v8array_buffer_release_callback_cpptoc.cc.o.d
-* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/v8handler_cpptoc.cc.o
-* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/v8handler_cpptoc.cc.o.d
-* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/v8interceptor_cpptoc.cc.o
-* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/v8interceptor_cpptoc.cc.o.d
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/v8_accessor_cpptoc.cc.o
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/v8_accessor_cpptoc.cc.o.d
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/v8_array_buffer_release_callback_cpptoc.cc.o
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/v8_array_buffer_release_callback_cpptoc.cc.o.d
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/v8_handler_cpptoc.cc.o
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/v8_handler_cpptoc.cc.o.d
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/v8_interceptor_cpptoc.cc.o
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/v8_interceptor_cpptoc.cc.o.d
 * /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/views/browser_view_delegate_cpptoc.cc.o
 * /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/views/browser_view_delegate_cpptoc.cc.o.d
 * /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/views/button_delegate_cpptoc.cc.o
@@ -984,6 +1046,28 @@ Chromium Embedded Framework standard release
 * /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/task_manager_ctocpp.cc.o.d
 * /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/task_runner_ctocpp.cc.o
 * /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/task_runner_ctocpp.cc.o.d
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/test/api_version_test_ctocpp.cc.o
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/test/api_version_test_ctocpp.cc.o.d
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/test/api_version_test_ref_ptr_library_child_child_ctocpp.cc.o
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/test/api_version_test_ref_ptr_library_child_child_ctocpp.cc.o.d
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/test/api_version_test_ref_ptr_library_child_child_v1_ctocpp.cc.o
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/test/api_version_test_ref_ptr_library_child_child_v1_ctocpp.cc.o.d
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/test/api_version_test_ref_ptr_library_child_child_v2_ctocpp.cc.o
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/test/api_version_test_ref_ptr_library_child_child_v2_ctocpp.cc.o.d
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/test/api_version_test_ref_ptr_library_child_ctocpp.cc.o
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/test/api_version_test_ref_ptr_library_child_ctocpp.cc.o.d
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/test/api_version_test_ref_ptr_library_ctocpp.cc.o
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/test/api_version_test_ref_ptr_library_ctocpp.cc.o.d
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/test/api_version_test_scoped_library_child_child_ctocpp.cc.o
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/test/api_version_test_scoped_library_child_child_ctocpp.cc.o.d
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/test/api_version_test_scoped_library_child_child_v1_ctocpp.cc.o
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/test/api_version_test_scoped_library_child_child_v1_ctocpp.cc.o.d
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/test/api_version_test_scoped_library_child_child_v2_ctocpp.cc.o
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/test/api_version_test_scoped_library_child_child_v2_ctocpp.cc.o.d
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/test/api_version_test_scoped_library_child_ctocpp.cc.o
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/test/api_version_test_scoped_library_child_ctocpp.cc.o.d
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/test/api_version_test_scoped_library_ctocpp.cc.o
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/test/api_version_test_scoped_library_ctocpp.cc.o.d
 * /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/test/test_server_connection_ctocpp.cc.o
 * /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/test/test_server_connection_ctocpp.cc.o.d
 * /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/test/test_server_ctocpp.cc.o
@@ -1008,16 +1092,16 @@ Chromium Embedded Framework standard release
 * /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/unresponsive_process_callback_ctocpp.cc.o.d
 * /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/urlrequest_ctocpp.cc.o
 * /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/urlrequest_ctocpp.cc.o.d
-* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/v8context_ctocpp.cc.o
-* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/v8context_ctocpp.cc.o.d
-* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/v8exception_ctocpp.cc.o
-* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/v8exception_ctocpp.cc.o.d
-* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/v8stack_frame_ctocpp.cc.o
-* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/v8stack_frame_ctocpp.cc.o.d
-* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/v8stack_trace_ctocpp.cc.o
-* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/v8stack_trace_ctocpp.cc.o.d
-* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/v8value_ctocpp.cc.o
-* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/v8value_ctocpp.cc.o.d
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/v8_context_ctocpp.cc.o
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/v8_context_ctocpp.cc.o.d
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/v8_exception_ctocpp.cc.o
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/v8_exception_ctocpp.cc.o.d
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/v8_stack_frame_ctocpp.cc.o
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/v8_stack_frame_ctocpp.cc.o.d
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/v8_stack_trace_ctocpp.cc.o
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/v8_stack_trace_ctocpp.cc.o.d
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/v8_value_ctocpp.cc.o
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/v8_value_ctocpp.cc.o.d
 * /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/value_ctocpp.cc.o
 * /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/value_ctocpp.cc.o.d
 * /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/views/box_layout_ctocpp.cc.o
@@ -1052,10 +1136,10 @@ Chromium Embedded Framework standard release
 * /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/views/window_ctocpp.cc.o.d
 * /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/waitable_event_ctocpp.cc.o
 * /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/waitable_event_ctocpp.cc.o.d
-* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/x509certificate_ctocpp.cc.o
-* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/x509certificate_ctocpp.cc.o.d
-* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/x509cert_principal_ctocpp.cc.o
-* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/x509cert_principal_ctocpp.cc.o.d
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/x509_certificate_ctocpp.cc.o
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/x509_certificate_ctocpp.cc.o.d
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/x509_cert_principal_ctocpp.cc.o
+* /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/x509_cert_principal_ctocpp.cc.o.d
 * /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/xml_reader_ctocpp.cc.o
 * /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/xml_reader_ctocpp.cc.o.d
 * /opt/cef/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/zip_reader_ctocpp.cc.o
@@ -1106,7 +1190,6 @@ Chromium Embedded Framework standard release
 * /opt/cef/Release/libGLESv2.so
 * /opt/cef/Release/libvk_swiftshader.so
 * /opt/cef/Release/libvulkan.so.1
-* /opt/cef/Release/snapshot_blob.bin
 * /opt/cef/Release/v8_context_snapshot.bin
 * /opt/cef/Release/vk_swiftshader_icd.json
 * /opt/cef/Resources/chrome_100_percent.pak
@@ -1169,5 +1252,9 @@ Chromium Embedded Framework standard release
 * /opt/cef/Resources/locales/zh-TW.pak
 * /opt/cef/Resources/resources.pak
 * /opt/cef/WORKSPACE
-* /usr/share/doc/cef-132.3.2/README.md
-* /usr/share/doc/cef-132.3.2/README.txt
+* /usr/share/doc/cef-138.0.17/AUTHORS
+* /usr/share/doc/cef-138.0.17/COPYING
+* /usr/share/doc/cef-138.0.17/INSTALL
+* /usr/share/doc/cef-138.0.17/README.md
+* /usr/share/doc/cef-138.0.17/README.rst
+* /usr/share/doc/cef-138.0.17/README.txt

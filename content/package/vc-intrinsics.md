@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "vc-intrinsics 0.22.1-2"
-version = "0.22.1-2"
+title = "vc-intrinsics 0.23.1-1"
+version = "0.23.1-1"
 description = "Set of new intrinsics on top of core LLVM IR instructions that represent SIMD semantics of a program targeting GPU"
-date = "2025-05-22T09:21:41"
+date = "2025-07-08T15:32:59"
 aliases = "/packages/220563"
 categories = ['devel-extra']
 upstreamurl = "https://github.com/intel/vc-intrinsics"
 arch = "x86_64"
-size = "125460"
-usize = "789536"
-sha1sum = "8294181a0021617d5a9a40922a166c7a994cef5c"
+size = "126628"
+usize = "794170"
+sha1sum = "9c9e9a4b3c006209477800b76e7dd5d1efb7e77e"
 depends = "['glibc']"
 +++
 ### Description: 
@@ -28,7 +28,7 @@ Set of new intrinsics on top of core LLVM IR instructions that represent SIMD se
 * /usr/include/llvm/GenXIntrinsics/GenXVersion.h
 * /usr/lib/cmake/LLVMGenXIntrinsics/LLVMGenXIntrinsicsConfig-release.cmake
 * /usr/lib/cmake/LLVMGenXIntrinsics/LLVMGenXIntrinsicsConfig.cmake
-* /usr/lib/cmake/VCIntrinsics19/VCIntrinsics19Config-release.cmake
-* /usr/lib/cmake/VCIntrinsics19/VCIntrinsics19Config.cmake
+* /usr/lib/cmake/VCIntrinsics20/VCIntrinsics20Config-release.cmake
+* /usr/lib/cmake/VCIntrinsics20/VCIntrinsics20Config.cmake
 * /usr/lib/libLLVMGenXIntrinsics.a
-* /usr/share/doc/vc-intrinsics-0.22.1/Readme.md
+* /usr/share/doc/vc-intrinsics-0.23.1/Readme.md

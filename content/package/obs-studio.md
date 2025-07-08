@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "obs-studio 31.0.4-2"
-version = "31.0.4-2"
+title = "obs-studio 31.1.0-1"
+version = "31.1.0-1"
 description = "Free, open source software for live streaming and recording"
-date = "2025-07-03T11:56:31"
+date = "2025-07-08T15:22:05"
 aliases = "/packages/219145"
 categories = ['xapps-extra']
 upstreamurl = "https://github.com/obsproject/obs-studio"
 arch = "x86_64"
-size = "7855400"
-usize = "31755831"
-sha1sum = "280ef2726c5d7cf2bade413861b9fb690f0fc290"
+size = "105351664"
+usize = "354971416"
+sha1sum = "8e401e8ca0ed5f0758d84c2b90931dba33c042a5"
 depends = "['asio', 'cef', 'curl', 'fdk-aac', 'ffmpeg>=7.0', 'gtk+3', 'jansson', 'libdatachannel>=0.23.0', 'libxcomposite', 'libxinerama', 'libxkbcommon', 'luajit2', 'mbedtls>=3.6.2', 'pipewire', 'python3>=3.13', 'qr-code-generator', 'qt6-svg>=6.8.2', 'rnnoise', 'vlc', 'websocketpp', 'x264>=20230712.ga8b68eb']"
 +++
 ### Description: 
@@ -144,16 +144,82 @@ Free, open source software for live streaming and recording
 * /usr/lib/libobs.so.30
 * /usr/lib/obs-plugins/aja-output-ui.so
 * /usr/lib/obs-plugins/aja.so
+* /usr/lib/obs-plugins/chrome-sandbox
+* /usr/lib/obs-plugins/chrome_100_percent.pak
+* /usr/lib/obs-plugins/chrome_200_percent.pak
 * /usr/lib/obs-plugins/decklink-captions.so
 * /usr/lib/obs-plugins/decklink-output-ui.so
 * /usr/lib/obs-plugins/decklink.so
 * /usr/lib/obs-plugins/frontend-tools.so
+* /usr/lib/obs-plugins/icudtl.dat
 * /usr/lib/obs-plugins/image-source.so
+* /usr/lib/obs-plugins/libcef.so
+* /usr/lib/obs-plugins/libEGL.so
+* /usr/lib/obs-plugins/libGLESv2.so
+* /usr/lib/obs-plugins/libvk_swiftshader.so
+* /usr/lib/obs-plugins/libvulkan.so.1
 * /usr/lib/obs-plugins/linux-alsa.so
 * /usr/lib/obs-plugins/linux-capture.so
 * /usr/lib/obs-plugins/linux-pipewire.so
 * /usr/lib/obs-plugins/linux-pulseaudio.so
 * /usr/lib/obs-plugins/linux-v4l2.so
+* /usr/lib/obs-plugins/locales/af.pak
+* /usr/lib/obs-plugins/locales/am.pak
+* /usr/lib/obs-plugins/locales/ar.pak
+* /usr/lib/obs-plugins/locales/bg.pak
+* /usr/lib/obs-plugins/locales/bn.pak
+* /usr/lib/obs-plugins/locales/ca.pak
+* /usr/lib/obs-plugins/locales/cs.pak
+* /usr/lib/obs-plugins/locales/da.pak
+* /usr/lib/obs-plugins/locales/de.pak
+* /usr/lib/obs-plugins/locales/el.pak
+* /usr/lib/obs-plugins/locales/en-GB.pak
+* /usr/lib/obs-plugins/locales/en-US.pak
+* /usr/lib/obs-plugins/locales/es-419.pak
+* /usr/lib/obs-plugins/locales/es.pak
+* /usr/lib/obs-plugins/locales/et.pak
+* /usr/lib/obs-plugins/locales/fa.pak
+* /usr/lib/obs-plugins/locales/fi.pak
+* /usr/lib/obs-plugins/locales/fil.pak
+* /usr/lib/obs-plugins/locales/fr.pak
+* /usr/lib/obs-plugins/locales/gu.pak
+* /usr/lib/obs-plugins/locales/he.pak
+* /usr/lib/obs-plugins/locales/hi.pak
+* /usr/lib/obs-plugins/locales/hr.pak
+* /usr/lib/obs-plugins/locales/hu.pak
+* /usr/lib/obs-plugins/locales/id.pak
+* /usr/lib/obs-plugins/locales/it.pak
+* /usr/lib/obs-plugins/locales/ja.pak
+* /usr/lib/obs-plugins/locales/kn.pak
+* /usr/lib/obs-plugins/locales/ko.pak
+* /usr/lib/obs-plugins/locales/lt.pak
+* /usr/lib/obs-plugins/locales/lv.pak
+* /usr/lib/obs-plugins/locales/ml.pak
+* /usr/lib/obs-plugins/locales/mr.pak
+* /usr/lib/obs-plugins/locales/ms.pak
+* /usr/lib/obs-plugins/locales/nb.pak
+* /usr/lib/obs-plugins/locales/nl.pak
+* /usr/lib/obs-plugins/locales/pl.pak
+* /usr/lib/obs-plugins/locales/pt-BR.pak
+* /usr/lib/obs-plugins/locales/pt-PT.pak
+* /usr/lib/obs-plugins/locales/ro.pak
+* /usr/lib/obs-plugins/locales/ru.pak
+* /usr/lib/obs-plugins/locales/sk.pak
+* /usr/lib/obs-plugins/locales/sl.pak
+* /usr/lib/obs-plugins/locales/sr.pak
+* /usr/lib/obs-plugins/locales/sv.pak
+* /usr/lib/obs-plugins/locales/sw.pak
+* /usr/lib/obs-plugins/locales/ta.pak
+* /usr/lib/obs-plugins/locales/te.pak
+* /usr/lib/obs-plugins/locales/th.pak
+* /usr/lib/obs-plugins/locales/tr.pak
+* /usr/lib/obs-plugins/locales/uk.pak
+* /usr/lib/obs-plugins/locales/ur.pak
+* /usr/lib/obs-plugins/locales/vi.pak
+* /usr/lib/obs-plugins/locales/zh-CN.pak
+* /usr/lib/obs-plugins/locales/zh-TW.pak
+* /usr/lib/obs-plugins/obs-browser-page
+* /usr/lib/obs-plugins/obs-browser.so
 * /usr/lib/obs-plugins/obs-ffmpeg.so
 * /usr/lib/obs-plugins/obs-filters.so
 * /usr/lib/obs-plugins/obs-libfdk.so
@@ -165,8 +231,11 @@ Free, open source software for live streaming and recording
 * /usr/lib/obs-plugins/obs-webrtc.so
 * /usr/lib/obs-plugins/obs-websocket.so
 * /usr/lib/obs-plugins/obs-x264.so
+* /usr/lib/obs-plugins/resources.pak
 * /usr/lib/obs-plugins/rtmp-services.so
 * /usr/lib/obs-plugins/text-freetype2.so
+* /usr/lib/obs-plugins/v8_context_snapshot.bin
+* /usr/lib/obs-plugins/vk_swiftshader_icd.json
 * /usr/lib/obs-plugins/vlc-video.so
 * /usr/lib/obs-scripting/obslua.so
 * /usr/lib/obs-scripting/obspython.py
@@ -174,10 +243,10 @@ Free, open source software for live streaming and recording
 * /usr/lib/pkgconfig/libobs.pc
 * /usr/lib/pkgconfig/obs-frontend-api.pc
 * /usr/share/applications/com.obsproject.Studio.desktop
-* /usr/share/doc/obs-studio-31.0.4/AUTHORS
-* /usr/share/doc/obs-studio-31.0.4/COPYING
-* /usr/share/doc/obs-studio-31.0.4/INSTALL
-* /usr/share/doc/obs-studio-31.0.4/README.rst
+* /usr/share/doc/obs-studio-31.1.0/AUTHORS
+* /usr/share/doc/obs-studio-31.1.0/COPYING
+* /usr/share/doc/obs-studio-31.1.0/INSTALL
+* /usr/share/doc/obs-studio-31.1.0/README.rst
 * /usr/share/icons/hicolor/128x128/apps/com.obsproject.Studio.png
 * /usr/share/icons/hicolor/256x256/apps/com.obsproject.Studio.png
 * /usr/share/icons/hicolor/512x512/apps/com.obsproject.Studio.png
@@ -285,6 +354,7 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-plugins/aja/locale/hu-HU.ini
 * /usr/share/obs/obs-plugins/aja/locale/hy-AM.ini
 * /usr/share/obs/obs-plugins/aja/locale/id-ID.ini
+* /usr/share/obs/obs-plugins/aja/locale/is-IS.ini
 * /usr/share/obs/obs-plugins/aja/locale/it-IT.ini
 * /usr/share/obs/obs-plugins/aja/locale/ja-JP.ini
 * /usr/share/obs/obs-plugins/aja/locale/ka-GE.ini
@@ -516,6 +586,7 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-plugins/image-source/locale/si-LK.ini
 * /usr/share/obs/obs-plugins/image-source/locale/sk-SK.ini
 * /usr/share/obs/obs-plugins/image-source/locale/sl-SI.ini
+* /usr/share/obs/obs-plugins/image-source/locale/sq-AL.ini
 * /usr/share/obs/obs-plugins/image-source/locale/sr-CS.ini
 * /usr/share/obs/obs-plugins/image-source/locale/sr-SP.ini
 * /usr/share/obs/obs-plugins/image-source/locale/sv-SE.ini
@@ -645,6 +716,7 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-plugins/linux-capture/locale/si-LK.ini
 * /usr/share/obs/obs-plugins/linux-capture/locale/sk-SK.ini
 * /usr/share/obs/obs-plugins/linux-capture/locale/sl-SI.ini
+* /usr/share/obs/obs-plugins/linux-capture/locale/sq-AL.ini
 * /usr/share/obs/obs-plugins/linux-capture/locale/sr-CS.ini
 * /usr/share/obs/obs-plugins/linux-capture/locale/sr-SP.ini
 * /usr/share/obs/obs-plugins/linux-capture/locale/sv-SE.ini
@@ -825,6 +897,7 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-plugins/linux-v4l2/locale/si-LK.ini
 * /usr/share/obs/obs-plugins/linux-v4l2/locale/sk-SK.ini
 * /usr/share/obs/obs-plugins/linux-v4l2/locale/sl-SI.ini
+* /usr/share/obs/obs-plugins/linux-v4l2/locale/sq-AL.ini
 * /usr/share/obs/obs-plugins/linux-v4l2/locale/sr-CS.ini
 * /usr/share/obs/obs-plugins/linux-v4l2/locale/sr-SP.ini
 * /usr/share/obs/obs-plugins/linux-v4l2/locale/sv-SE.ini
@@ -840,6 +913,73 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-plugins/linux-v4l2/locale/vi-VN.ini
 * /usr/share/obs/obs-plugins/linux-v4l2/locale/zh-CN.ini
 * /usr/share/obs/obs-plugins/linux-v4l2/locale/zh-TW.ini
+* /usr/share/obs/obs-plugins/obs-browser/error.html
+* /usr/share/obs/obs-plugins/obs-browser/locale/af-ZA.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/ar-SA.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/az-AZ.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/ba-RU.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/be-BY.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/bg-BG.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/bn-BD.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/ca-ES.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/cs-CZ.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/da-DK.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/de-DE.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/el-GR.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/en-GB.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/en-US.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/eo-UY.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/es-ES.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/et-EE.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/eu-ES.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/fa-IR.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/fi-FI.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/fil-PH.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/fr-FR.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/gd-GB.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/gl-ES.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/he-IL.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/hi-IN.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/hr-HR.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/hu-HU.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/hy-AM.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/id-ID.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/it-IT.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/ja-JP.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/ka-GE.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/kaa.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/kab-KAB.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/kmr-TR.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/ko-KR.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/lt-LT.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/mn-MN.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/ms-MY.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/nb-NO.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/nl-NL.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/nn-NO.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/oc-FR.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/pl-PL.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/pt-BR.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/pt-PT.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/ro-RO.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/ru-RU.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/si-LK.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/sk-SK.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/sl-SI.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/sr-CS.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/sr-SP.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/sv-SE.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/szl-PL.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/ta-IN.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/th-TH.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/tr-TR.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/tt-RU.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/ug-CN.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/uk-UA.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/ur-PK.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/vi-VN.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/zh-CN.ini
+* /usr/share/obs/obs-plugins/obs-browser/locale/zh-TW.ini
 * /usr/share/obs/obs-plugins/obs-ffmpeg/locale/af-ZA.ini
 * /usr/share/obs/obs-plugins/obs-ffmpeg/locale/ar-SA.ini
 * /usr/share/obs/obs-plugins/obs-ffmpeg/locale/ba-RU.ini
@@ -1078,6 +1218,8 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-plugins/obs-nvenc/locale/it-IT.ini
 * /usr/share/obs/obs-plugins/obs-nvenc/locale/ja-JP.ini
 * /usr/share/obs/obs-plugins/obs-nvenc/locale/ka-GE.ini
+* /usr/share/obs/obs-plugins/obs-nvenc/locale/kaa.ini
+* /usr/share/obs/obs-plugins/obs-nvenc/locale/kmr-TR.ini
 * /usr/share/obs/obs-plugins/obs-nvenc/locale/ko-KR.ini
 * /usr/share/obs/obs-plugins/obs-nvenc/locale/ms-MY.ini
 * /usr/share/obs/obs-plugins/obs-nvenc/locale/nb-NO.ini
@@ -1273,6 +1415,7 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-plugins/obs-transitions/locale/si-LK.ini
 * /usr/share/obs/obs-plugins/obs-transitions/locale/sk-SK.ini
 * /usr/share/obs/obs-plugins/obs-transitions/locale/sl-SI.ini
+* /usr/share/obs/obs-plugins/obs-transitions/locale/sq-AL.ini
 * /usr/share/obs/obs-plugins/obs-transitions/locale/sr-CS.ini
 * /usr/share/obs/obs-plugins/obs-transitions/locale/sr-SP.ini
 * /usr/share/obs/obs-plugins/obs-transitions/locale/sv-SE.ini
@@ -1459,11 +1602,13 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-plugins/obs-websocket/locale/it-IT.ini
 * /usr/share/obs/obs-plugins/obs-websocket/locale/ja-JP.ini
 * /usr/share/obs/obs-plugins/obs-websocket/locale/ka-GE.ini
+* /usr/share/obs/obs-plugins/obs-websocket/locale/kaa.ini
 * /usr/share/obs/obs-plugins/obs-websocket/locale/kmr-TR.ini
 * /usr/share/obs/obs-plugins/obs-websocket/locale/ko-KR.ini
 * /usr/share/obs/obs-plugins/obs-websocket/locale/ms-MY.ini
 * /usr/share/obs/obs-plugins/obs-websocket/locale/nb-NO.ini
 * /usr/share/obs/obs-plugins/obs-websocket/locale/nl-NL.ini
+* /usr/share/obs/obs-plugins/obs-websocket/locale/nn-NO.ini
 * /usr/share/obs/obs-plugins/obs-websocket/locale/pl-PL.ini
 * /usr/share/obs/obs-plugins/obs-websocket/locale/pt-BR.ini
 * /usr/share/obs/obs-plugins/obs-websocket/locale/pt-PT.ini
@@ -1472,7 +1617,10 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-plugins/obs-websocket/locale/si-LK.ini
 * /usr/share/obs/obs-plugins/obs-websocket/locale/sk-SK.ini
 * /usr/share/obs/obs-plugins/obs-websocket/locale/sl-SI.ini
+* /usr/share/obs/obs-plugins/obs-websocket/locale/sq-AL.ini
+* /usr/share/obs/obs-plugins/obs-websocket/locale/sr-SP.ini
 * /usr/share/obs/obs-plugins/obs-websocket/locale/sv-SE.ini
+* /usr/share/obs/obs-plugins/obs-websocket/locale/th-TH.ini
 * /usr/share/obs/obs-plugins/obs-websocket/locale/tr-TR.ini
 * /usr/share/obs/obs-plugins/obs-websocket/locale/tt-RU.ini
 * /usr/share/obs/obs-plugins/obs-websocket/locale/ug-CN.ini
@@ -1531,6 +1679,7 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-plugins/obs-x264/locale/si-LK.ini
 * /usr/share/obs/obs-plugins/obs-x264/locale/sk-SK.ini
 * /usr/share/obs/obs-plugins/obs-x264/locale/sl-SI.ini
+* /usr/share/obs/obs-plugins/obs-x264/locale/sq-AL.ini
 * /usr/share/obs/obs-plugins/obs-x264/locale/sr-CS.ini
 * /usr/share/obs/obs-plugins/obs-x264/locale/sr-SP.ini
 * /usr/share/obs/obs-plugins/obs-x264/locale/sv-SE.ini
@@ -1595,6 +1744,7 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-plugins/rtmp-services/locale/si-LK.ini
 * /usr/share/obs/obs-plugins/rtmp-services/locale/sk-SK.ini
 * /usr/share/obs/obs-plugins/rtmp-services/locale/sl-SI.ini
+* /usr/share/obs/obs-plugins/rtmp-services/locale/sq-AL.ini
 * /usr/share/obs/obs-plugins/rtmp-services/locale/sr-CS.ini
 * /usr/share/obs/obs-plugins/rtmp-services/locale/sr-SP.ini
 * /usr/share/obs/obs-plugins/rtmp-services/locale/sv-SE.ini
@@ -1727,6 +1877,7 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-plugins/vlc-video/locale/si-LK.ini
 * /usr/share/obs/obs-plugins/vlc-video/locale/sk-SK.ini
 * /usr/share/obs/obs-plugins/vlc-video/locale/sl-SI.ini
+* /usr/share/obs/obs-plugins/vlc-video/locale/sq-AL.ini
 * /usr/share/obs/obs-plugins/vlc-video/locale/sr-CS.ini
 * /usr/share/obs/obs-plugins/vlc-video/locale/sr-SP.ini
 * /usr/share/obs/obs-plugins/vlc-video/locale/sv-SE.ini
@@ -1821,6 +1972,7 @@ Free, open source software for live streaming and recording
 * /usr/share/obs/obs-studio/locale/zh-CN.ini
 * /usr/share/obs/obs-studio/locale/zh-TW.ini
 * /usr/share/obs/obs-studio/OBSPublicRSAKey.pem
+* /usr/share/obs/obs-studio/striped_line.effect
 * /usr/share/obs/obs-studio/themes/Acri/bot_hook.png
 * /usr/share/obs/obs-studio/themes/Acri/bot_hook2.png
 * /usr/share/obs/obs-studio/themes/Acri/checkbox_checked.png
