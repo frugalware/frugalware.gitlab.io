@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "krr 1.23.0-1"
-version = "1.23.0-1"
+title = "krr 1.24.0-1"
+version = "1.24.0-1"
 description = "Prometheus-based Kubernetes Resource Recommendations"
-date = "2025-04-15T07:38:16"
+date = "2025-07-08T09:05:55"
 aliases = "/packages/222703"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/robusta-dev/krr"
 arch = "x86_64"
-size = "122352"
-usize = "744142"
-sha1sum = "80bab10bbd47ae6c2e35a552c1157e2902de0fbc"
+size = "126124"
+usize = "774456"
+sha1sum = "1abd990dd18a23f6a092531bb89062aa509174c9"
 depends = "['python3-charset-normalizer', 'python3-click', 'python3-colorama', 'python3-commonmark', 'python3-fonttools', 'python3-idna', 'python3-kubernetes', 'python3-numpy', 'python3-packaging', 'python3-pillow', 'python3-pyasn1', 'python3-pydantic', 'python3-pygments', 'python3-pytz', 'python3-regex', 'python3-requests', 'python3-setuptools', 'python3-shellingham', 'python3-six', 'python3-urllib3', 'python3-zipp']"
 +++
 ### Description: 
@@ -114,6 +114,7 @@ Prometheus-based Kubernetes Resource Recommendations
 * /usr/lib/python3.13/site-packages/robusta_krr/core/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/robusta_krr/core/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/robusta_krr/formatters/csv.py
+* /usr/lib/python3.13/site-packages/robusta_krr/formatters/csv_raw.py
 * /usr/lib/python3.13/site-packages/robusta_krr/formatters/html.py
 * /usr/lib/python3.13/site-packages/robusta_krr/formatters/json.py
 * /usr/lib/python3.13/site-packages/robusta_krr/formatters/pprint.py
@@ -122,6 +123,8 @@ Prometheus-based Kubernetes Resource Recommendations
 * /usr/lib/python3.13/site-packages/robusta_krr/formatters/__init__.py
 * /usr/lib/python3.13/site-packages/robusta_krr/formatters/__pycache__/csv.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/robusta_krr/formatters/__pycache__/csv.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/formatters/__pycache__/csv_raw.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/robusta_krr/formatters/__pycache__/csv_raw.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/robusta_krr/formatters/__pycache__/html.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/robusta_krr/formatters/__pycache__/html.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/robusta_krr/formatters/__pycache__/json.cpython-313.opt-1.pyc
@@ -173,5 +176,5 @@ Prometheus-based Kubernetes Resource Recommendations
 * /usr/lib/python3.13/site-packages/robusta_krr/__pycache__/main.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/robusta_krr/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/robusta_krr/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/krr-1.23.0/LICENSE
-* /usr/share/doc/krr-1.23.0/README.md
+* /usr/share/doc/krr-1.24.0/LICENSE
+* /usr/share/doc/krr-1.24.0/README.md

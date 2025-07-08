@@ -1,23 +1,22 @@
 +++
 draft = false
-title = "ortp 5.4.11-1"
-version = "5.4.11-1"
+title = "ortp 5.4.24-1"
+version = "5.4.24-1"
 description = "A Real-time Transport Protocol stack."
-date = "2025-04-24T11:30:15"
+date = "2025-07-08T09:03:23"
 aliases = "/packages/9466"
 categories = ['apps-extra']
 upstreamurl = "http://www.linphone.org/ortp/"
 arch = "x86_64"
-size = "200600"
-usize = "601184"
-sha1sum = "13ba3fc0c15a94db4728a3c3fe37bbb8bd2f9439"
+size = "46076"
+usize = "200698"
+sha1sum = "188b8b028561c8ee1dd1eb8c9368c4ca5b95109f"
 depends = "['bctoolbox']"
 +++
 ### Description: 
 A Real-time Transport Protocol stack.
 
 ### Files: 
-* /usr/bin/ortp-tester
 * /usr/include/ortp/event.h
 * /usr/include/ortp/logging.h
 * /usr/include/ortp/nack.h
@@ -38,8 +37,7 @@ A Real-time Transport Protocol stack.
 * /usr/share/doc/ortp-5.4.0/CHANGELOG.md
 * /usr/share/doc/ortp-5.4.0/LICENSE.txt
 * /usr/share/doc/ortp-5.4.0/README.md
-* /usr/share/doc/ortp-5.4.11/README.md
-* /usr/share/ortp-tester/raw/h265-iframe
+* /usr/share/doc/ortp-5.4.24/README.md
 * /usr/share/Ortp/cmake/OrtpConfig.cmake
 * /usr/share/Ortp/cmake/OrtpConfigVersion.cmake
 * /usr/share/Ortp/cmake/OrtpTargets-release.cmake

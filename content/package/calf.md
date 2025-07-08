@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "calf 0.90.7-1"
-version = "0.90.7-1"
+title = "calf 0.90.8-1"
+version = "0.90.8-1"
 description = "LV2/DSSI/LADSPA plug-in suite and standalone Jack host"
-date = "2025-05-11T15:30:39"
+date = "2025-07-08T09:04:16"
 aliases = "/packages/219829"
 categories = ['apps-extra']
 upstreamurl = "https://calf-studio-gear.org"
 arch = "x86_64"
-size = "13441476"
-usize = "22664197"
-sha1sum = "05cb15f52ab4eb341d1cda0cce6ee019501025ac"
+size = "13440680"
+usize = "22666809"
+sha1sum = "69acc0e84374f68f117bbd51fb84103ecdd49170"
 depends = "['dssi', 'fftw', 'fluidsynth>=2.2.5', 'gtk+2']"
 +++
 ### Description: 
@@ -716,14 +716,14 @@ LV2/DSSI/LADSPA plug-in suite and standalone Jack host
 * /usr/share/calf/styles/Calf_Wood/tubeH2.png
 * /usr/share/calf/styles/Calf_Wood/tubeV1.png
 * /usr/share/calf/styles/Calf_Wood/tubeV2.png
-* /usr/share/doc/calf-0.90.7/AUTHORS
-* /usr/share/doc/calf-0.90.7/ChangeLog
-* /usr/share/doc/calf-0.90.7/COPYING
-* /usr/share/doc/calf-0.90.7/COPYING.GPL
-* /usr/share/doc/calf-0.90.7/INSTALL
-* /usr/share/doc/calf-0.90.7/INSTALL-AUTOMAKE
-* /usr/share/doc/calf-0.90.7/README.md
-* /usr/share/doc/calf-0.90.7/TODO
+* /usr/share/doc/calf-0.90.8/AUTHORS
+* /usr/share/doc/calf-0.90.8/ChangeLog
+* /usr/share/doc/calf-0.90.8/COPYING
+* /usr/share/doc/calf-0.90.8/COPYING.GPL
+* /usr/share/doc/calf-0.90.8/INSTALL
+* /usr/share/doc/calf-0.90.8/INSTALL-AUTOMAKE
+* /usr/share/doc/calf-0.90.8/README.md
+* /usr/share/doc/calf-0.90.8/TODO
 * /usr/share/doc/calf/About.html
 * /usr/share/doc/calf/Analyzer.html
 * /usr/share/doc/calf/Bass Enhancer.html

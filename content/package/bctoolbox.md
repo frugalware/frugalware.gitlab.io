@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "bctoolbox 5.4.11-1"
-version = "5.4.11-1"
+title = "bctoolbox 5.4.24-1"
+version = "5.4.24-1"
 description = "A library written in C that allows you to create and run audio and video streams"
-date = "2025-04-24T11:29:30"
+date = "2025-07-08T09:02:07"
 aliases = "/packages/218828"
 categories = ['lib-extra']
 upstreamurl = "http://www.linphone.org"
 arch = "x86_64"
-size = "153752"
-usize = "538963"
-sha1sum = "cc116969c5aad54f0675c50a3ab948955e35aa6b"
+size = "110636"
+usize = "388243"
+sha1sum = "3ba3dc17760172f63bb3638f972925763d1f5519"
 depends = "['openssl']"
 reverse_depends = "['ortp']"
 +++
@@ -18,7 +18,6 @@ reverse_depends = "['ortp']"
 A library written in C that allows you to create and run audio and video streams
 
 ### Files: 
-* /usr/bin/bctoolbox-tester
 * /usr/include/bctoolbox/charconv.h
 * /usr/include/bctoolbox/compiler.h
 * /usr/include/bctoolbox/defs.h
@@ -31,17 +30,13 @@ A library written in C that allows you to create and run audio and video streams
 * /usr/include/bctoolbox/parser.h
 * /usr/include/bctoolbox/port.h
 * /usr/include/bctoolbox/regex.h
-* /usr/include/bctoolbox/tester.h
 * /usr/include/bctoolbox/utils.hh
 * /usr/include/bctoolbox/vconnect.h
 * /usr/include/bctoolbox/vfs.h
 * /usr/include/bctoolbox/vfs_encrypted.hh
 * /usr/include/bctoolbox/vfs_standard.h
-* /usr/lib/libbctoolbox-tester.so
-* /usr/lib/libbctoolbox-tester.so.1
 * /usr/lib/libbctoolbox.so
 * /usr/lib/libbctoolbox.so.1
-* /usr/lib/pkgconfig/bctoolbox-tester.pc
 * /usr/lib/pkgconfig/bctoolbox.pc
 * /usr/share/BCToolbox/cmake/BCGitVersion.cmake
 * /usr/share/BCToolbox/cmake/BCToolboxCMakeUtils.cmake
@@ -52,4 +47,4 @@ A library written in C that allows you to create and run audio and video streams
 * /usr/share/BCToolbox/cmake/ConfigureSpecfile.cmake
 * /usr/share/BCToolbox/cmake/gitversion.h.in
 * /usr/share/BCToolbox/cmake/MakeArchive.cmake
-* /usr/share/doc/bctoolbox-5.4.11/README.md
+* /usr/share/doc/bctoolbox-5.4.24/README.md
