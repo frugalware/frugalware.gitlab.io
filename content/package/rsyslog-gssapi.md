@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "rsyslog-gssapi 8.2502.0-1"
-version = "8.2502.0-1"
+title = "rsyslog-gssapi 8.2506.0-1"
+version = "8.2506.0-1"
 description = "GSSAPI authentication and encryption support for rsyslog"
-date = "2025-04-24T13:23:35"
+date = "2025-07-08T17:09:10"
 aliases = "/packages/135787"
 categories = ['apps-extra']
 upstreamurl = "http://www.rsyslog.com/"
 arch = "x86_64"
-size = "15060"
-usize = "42928"
-sha1sum = "192d8b235374896d13e893510b4f4f4253d4091a"
-depends = "['libkrb5>=1.17-2', 'rsyslog>=8.2502.0']"
+size = "15200"
+usize = "42768"
+sha1sum = "a45899ae6d8aeac2a31f2f367f2da196eb553cfd"
+depends = "['libkrb5>=1.17-2', 'rsyslog>=8.2506.0']"
 +++
 ### Description: 
 GSSAPI authentication and encryption support for rsyslog

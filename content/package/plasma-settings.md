@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "plasma-settings 25.02.0-4"
-version = "25.02.0-4"
+title = "plasma-settings 25.07.0-1"
+version = "25.07.0-1"
 description = "Settings application for Plasma Mobile"
-date = "2025-06-05T09:36:00"
+date = "2025-07-08T17:49:28"
 aliases = "/packages/220617"
 categories = ['kde6-extra']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "104360"
-usize = "404809"
-sha1sum = "e6e7b4e42afd7f0e4d489ec1a17cfa0b4db2a3b9"
-depends = "['kcmutils', 'kirigami-addons', 'kitemmodels>=6.14.0', 'modemmanager-qt', 'networkmanager-qt']"
+size = "115788"
+usize = "438655"
+sha1sum = "5fdaebacac6467e4ad779bb3081538be4ca93d33"
+depends = "['kcmutils', 'kirigami-addons', 'kitemmodels>=6.15.0', 'modemmanager-qt', 'networkmanager-qt']"
 +++
 ### Description: 
 Settings application for Plasma Mobile
@@ -19,7 +19,7 @@ Settings application for Plasma Mobile
 ### Files: 
 * /usr/bin/plasma-settings
 * /usr/share/applications/org.kde.mobile.plasmasettings.desktop
-* /usr/share/doc/plasma-settings-25.02.0/README.md
+* /usr/share/doc/plasma-settings-25.07.0/README.md
 * /usr/share/icons/hicolor/scalable/apps/org.kde.mobile.plasmasettings.svg
 * /usr/share/locale/ar/LC_MESSAGES/mobile.plasmasettings.mo
 * /usr/share/locale/ast/LC_MESSAGES/mobile.plasmasettings.mo
@@ -65,6 +65,7 @@ Settings application for Plasma Mobile
 * /usr/share/locale/sv/LC_MESSAGES/mobile.plasmasettings.mo
 * /usr/share/locale/ta/LC_MESSAGES/mobile.plasmasettings.mo
 * /usr/share/locale/tg/LC_MESSAGES/mobile.plasmasettings.mo
+* /usr/share/locale/th/LC_MESSAGES/mobile.plasmasettings.mo
 * /usr/share/locale/tr/LC_MESSAGES/mobile.plasmasettings.mo
 * /usr/share/locale/uk/LC_MESSAGES/mobile.plasmasettings.mo
 * /usr/share/locale/vi/LC_MESSAGES/mobile.plasmasettings.mo
