@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "qtutilities 6.15.0-3"
-version = "6.15.0-3"
+title = "qtutilities 6.17.0-1"
+version = "6.17.0-1"
 description = "Common Qt related C++ classes and routines used by my applications such as dialogs, widgets and models"
-date = "2025-06-06T12:28:55"
+date = "2025-07-08T07:57:40"
 aliases = "/packages/222519"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/Martchus/qtutilities"
 arch = "x86_64"
-size = "200396"
-usize = "787451"
-sha1sum = "a6b5f60f85401e9982b5dc872bd4c36cf80b734a"
+size = "217996"
+usize = "846552"
+sha1sum = "02115403fe2de317005d749bcfc2d789595af4d9"
 depends = "['cpp-utilities', 'qt6-base>=6.8.2']"
 reverse_depends = "['syncthingtray']"
 +++
@@ -44,6 +44,7 @@ Common Qt related C++ classes and routines used by my applications such as dialo
 * /usr/include/qtutilities/settingsdialog/optionpage.h
 * /usr/include/qtutilities/settingsdialog/qtsettings.h
 * /usr/include/qtutilities/settingsdialog/settingsdialog.h
+* /usr/include/qtutilities/setup/updater.h
 * /usr/include/qtutilities/version.h
 * /usr/include/qtutilities/widgets/buttonoverlay.h
 * /usr/include/qtutilities/widgets/clearcombobox.h
@@ -54,10 +55,10 @@ Common Qt related C++ classes and routines used by my applications such as dialo
 * /usr/include/qtutilities/widgets/pathselection.h
 * /usr/lib/libqtutilities.so
 * /usr/lib/libqtutilities.so.6
-* /usr/lib/libqtutilities.so.6.15.0
+* /usr/lib/libqtutilities.so.6.17.0
 * /usr/lib/pkgconfig/qtutilities.pc
-* /usr/share/doc/qtutilities-6.15.0/LICENSE
-* /usr/share/doc/qtutilities-6.15.0/README.md
+* /usr/share/doc/qtutilities-6.17.0/LICENSE
+* /usr/share/doc/qtutilities-6.17.0/README.md
 * /usr/share/qtutilities/cmake/modules/QtConfig.cmake
 * /usr/share/qtutilities/cmake/modules/QtGuiConfig.cmake
 * /usr/share/qtutilities/cmake/modules/QtJsProviderConfig.cmake

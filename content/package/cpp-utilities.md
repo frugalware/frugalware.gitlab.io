@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "cpp-utilities 5.28.1-1"
-version = "5.28.1-1"
+title = "cpp-utilities 5.29.0-1"
+version = "5.29.0-1"
 description = "Common C++ classes and routines such as argument parser, IO and conversion utilities"
-date = "2025-04-20T10:48:56"
+date = "2025-07-08T07:56:42"
 aliases = "/packages/222518"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/Martchus/cpp-utilities"
 arch = "x86_64"
-size = "165384"
-usize = "731768"
-sha1sum = "730cf7dbbb664f4d144fe4422300e0a92d8de141"
+size = "167184"
+usize = "738055"
+sha1sum = "e691409f5d4b6ecfded7df83964780d0614b36d6"
 depends = "['glibc']"
 reverse_depends = "['qtutilities', 'syncthingtray']"
 +++
@@ -49,13 +49,14 @@ Common C++ classes and routines such as argument parser, IO and conversion utili
 * /usr/include/c++utilities/misc/multiarray.h
 * /usr/include/c++utilities/misc/parseerror.h
 * /usr/include/c++utilities/misc/traits.h
+* /usr/include/c++utilities/misc/verification.h
 * /usr/include/c++utilities/tests/cppunit.h
 * /usr/include/c++utilities/tests/outputcheck.h
 * /usr/include/c++utilities/tests/testutils.h
 * /usr/include/c++utilities/version.h
 * /usr/lib/libc++utilities.so
 * /usr/lib/libc++utilities.so.5
-* /usr/lib/libc++utilities.so.5.28.1
+* /usr/lib/libc++utilities.so.5.29.0
 * /usr/lib/pkgconfig/c++utilities.pc
 * /usr/share/c++utilities/cmake/c++utilitiesConfig.cmake
 * /usr/share/c++utilities/cmake/c++utilitiesConfigVersion.cmake
@@ -87,5 +88,5 @@ Common C++ classes and routines such as argument parser, IO and conversion utili
 * /usr/share/c++utilities/cmake/templates/version.h.in
 * /usr/share/c++utilities/coding-style.clang-format
 * /usr/share/c++utilities/tests/calculateoverallcoverage.awk
-* /usr/share/doc/cpp-utilities-5.28.1/LICENSE
-* /usr/share/doc/cpp-utilities-5.28.1/README.md
+* /usr/share/doc/cpp-utilities-5.29.0/LICENSE
+* /usr/share/doc/cpp-utilities-5.29.0/README.md

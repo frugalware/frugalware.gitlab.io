@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "intel-graphics-compiler 2.12.5-1"
-version = "2.12.5-1"
+title = "intel-graphics-compiler 2.14.1-1"
+version = "2.14.1-1"
 description = "Intel Graphics Compiler for OpenCL"
-date = "2025-06-26T08:05:14"
+date = "2025-07-08T07:38:29"
 aliases = "/packages/220084"
 categories = ['devel']
 upstreamurl = "https://github.com/intel/intel-graphics-compiler"
 arch = "x86_64"
-size = "56502164"
-usize = "213211064"
-sha1sum = "de9fbecd57448c2d21332ae60cbcd8079d91e416"
+size = "56597676"
+usize = "213388893"
+sha1sum = "0150dcef939554643441adb575021645b1d9127a"
 depends = "['libxml2>=2.14.3']"
 reverse_depends = "['intel-compute-runtime']"
 +++
@@ -122,14 +122,14 @@ Intel Graphics Compiler for OpenCL
 * /usr/include/visa/RelocationInfo.h
 * /usr/lib/igc2/NOTICES.txt
 * /usr/lib/libiga64.so.2
-* /usr/lib/libiga64.so.2.12.0+0
+* /usr/lib/libiga64.so.2.14.0+0
 * /usr/lib/libigc.so.2
-* /usr/lib/libigc.so.2.12.0+0
+* /usr/lib/libigc.so.2.14.0+0
 * /usr/lib/libigdfcl.so.2
-* /usr/lib/libigdfcl.so.2.12.0+0
+* /usr/lib/libigdfcl.so.2.14.0+0
 * /usr/lib/libopencl-clang.so.15
 * /usr/lib/pkgconfig/igc-opencl.pc
-* /usr/share/doc/intel-graphics-compiler-2.12.5/CHANGES
-* /usr/share/doc/intel-graphics-compiler-2.12.5/LICENSE
-* /usr/share/doc/intel-graphics-compiler-2.12.5/README.md
-* /usr/share/doc/intel-graphics-compiler-2.12.5/Readme.md
+* /usr/share/doc/intel-graphics-compiler-2.14.1/CHANGES
+* /usr/share/doc/intel-graphics-compiler-2.14.1/LICENSE
+* /usr/share/doc/intel-graphics-compiler-2.14.1/README.md
+* /usr/share/doc/intel-graphics-compiler-2.14.1/Readme.md
