@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "r2modman 3.2.0-1"
-version = "3.2.0-1"
+title = "r2modman 3.2.1-1"
+version = "3.2.1-1"
 description = "A simple and easy to use mod manager for several games using Thunderstore."
-date = "2025-05-27T08:40:15"
+date = "2025-07-08T16:37:01"
 aliases = "/packages/221449"
 categories = ['games-extra']
 upstreamurl = "https://github.com/ebkr/r2modmanPlus"
 arch = "x86_64"
-size = "106587564"
-usize = "116680134"
-sha1sum = "6bd42fd7f6b5320f66d2ce22935736417dd3b7b9"
+size = "107355044"
+usize = "119520552"
+sha1sum = "0918548e6f2159487efbcc048ce01cb07f71c53b"
 depends = "['c-ares', 'ffmpeg', 'gtk+3', 'http-parser', 'libappindicator', 'libevent', 'libnotify', 'libvpx', 'libxscrnsaver', 'libxslt', 'nss', 're2', 'snappy']"
 +++
 ### Description: 
@@ -19,8 +19,12 @@ A simple and easy to use mod manager for several games using Thunderstore.
 ### Files: 
 * /usr/bin/r2modman
 * /usr/share/applications/r2modman.desktop
-* /usr/share/doc/r2modman-3.2.0/LICENSE
-* /usr/share/doc/r2modman-3.2.0/README.md
+* /usr/share/doc/r2modman-3.2.1/COPYING
+* /usr/share/doc/r2modman-3.2.1/COPYING-data.txt
+* /usr/share/doc/r2modman-3.2.1/COPYING-dll.txt
+* /usr/share/doc/r2modman-3.2.1/COPYING-fonts.txt
+* /usr/share/doc/r2modman-3.2.1/LICENSE
+* /usr/share/doc/r2modman-3.2.1/README.md
 * /usr/share/icons/hicolor/128x128/apps/r2modman.png
 * /usr/share/icons/hicolor/16x16/apps/r2modman.png
 * /usr/share/icons/hicolor/24x24/apps/r2modman.png

@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "openshadinglanguage 1.14.5.1-2"
-version = "1.14.5.1-2"
+title = "openshadinglanguage 1.14.6.0-1"
+version = "1.14.6.0-1"
 description = "Advanced shading language for production GI renderers"
-date = "2025-06-09T01:21:19"
+date = "2025-07-08T16:28:19"
 aliases = "/packages/220207"
 categories = ['xlib-extra']
 upstreamurl = "https://github.com/AcademySoftwareFoundation/openshadinglanguage"
 arch = "x86_64"
-size = "5771288"
-usize = "26020830"
-sha1sum = "9f869122b17f87b99ec73a2e00ed817044b3448d"
+size = "5767736"
+usize = "26022601"
+sha1sum = "325932a1d26817425c02d30c1ed4eb238539277d"
 depends = "['clang-libs>=20.1.6', 'intel-tbb', 'openexr', 'openimageio>=2.5', 'partio', 'pugixml', 'python3>=3.13']"
 +++
 ### Description: 
@@ -65,19 +65,19 @@ Advanced shading language for production GI renderers
 * /usr/lib/cmake/OSL/OSLTargets.cmake
 * /usr/lib/liboslcomp.so
 * /usr/lib/liboslcomp.so.1.14
-* /usr/lib/liboslcomp.so.1.14.5
+* /usr/lib/liboslcomp.so.1.14.6
 * /usr/lib/liboslexec.so
 * /usr/lib/liboslexec.so.1.14
-* /usr/lib/liboslexec.so.1.14.5
+* /usr/lib/liboslexec.so.1.14.6
 * /usr/lib/liboslnoise.so
 * /usr/lib/liboslnoise.so.1.14
-* /usr/lib/liboslnoise.so.1.14.5
+* /usr/lib/liboslnoise.so.1.14.6
 * /usr/lib/liboslquery.so
 * /usr/lib/liboslquery.so.1.14
-* /usr/lib/liboslquery.so.1.14.5
+* /usr/lib/liboslquery.so.1.14.6
 * /usr/lib/libtestshade.so
 * /usr/lib/libtestshade.so.1.14
-* /usr/lib/libtestshade.so.1.14.5
+* /usr/lib/libtestshade.so.1.14.6
 * /usr/lib/lib_b16_AVX512_noFMA_oslexec.so
 * /usr/lib/lib_b16_AVX512_oslexec.so
 * /usr/lib/lib_b4_SSE2_oslexec.so
@@ -92,8 +92,8 @@ Advanced shading language for production GI renderers
 * /usr/lib/pkgconfig/oslquery.pc
 * /usr/lib/python3.13/site-packages/oslquery/oslquery.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/oslquery/__init__.py
-* /usr/share/doc/openshadinglanguage-1.14.5.1/INSTALL.md
-* /usr/share/doc/openshadinglanguage-1.14.5.1/README.md
+* /usr/share/doc/openshadinglanguage-1.14.6.0/INSTALL.md
+* /usr/share/doc/openshadinglanguage-1.14.6.0/README.md
 * /usr/share/doc/OSL/CHANGES.md
 * /usr/share/doc/OSL/docdeep.md.html
 * /usr/share/doc/OSL/docs.css
