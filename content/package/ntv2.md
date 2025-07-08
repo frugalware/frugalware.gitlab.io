@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ntv2 16.2-5"
-version = "16.2-5"
+title = "ntv2 16.2-6"
+version = "16.2-6"
 description = "AJA NTV2 SDK"
-date = "2025-05-21T15:02:47"
+date = "2025-07-08T14:09:45"
 aliases = "/packages/220573"
 categories = ['lib']
 upstreamurl = "https://github.com/aja-video/ntv2"
 arch = "x86_64"
-size = "25581484"
-usize = "85646898"
-sha1sum = "93f640d9da30dccaf87921776c99482c68177631"
+size = "26007692"
+usize = "85663434"
+sha1sum = "59895a7720996a07c2aa4df4ab6b7b394ca1c32d"
 depends = "['libstdc++']"
 +++
 ### Description: 

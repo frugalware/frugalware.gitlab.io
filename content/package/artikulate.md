@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "artikulate 25.04.2-1"
-version = "25.04.2-1"
+title = "artikulate 25.04.3-1"
+version = "25.04.3-1"
 description = "Memory Enhancement Game."
-date = "2025-06-12T11:22:59"
+date = "2025-07-08T13:41:46"
 aliases = "/packages/200752"
 categories = ['kde5']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1135532"
-usize = "2507788"
-sha1sum = "4882f47c0e8710f0c1b197ee18dd72ace36d86ae"
+size = "1134972"
+usize = "2507123"
+sha1sum = "f6bd383b95e6251553e8d4f3753c9786b8f9b22c"
 depends = "['kdeclarative5>=5.116.0', 'knewstuff5>=5.116.0', 'qt5-gstreamer>=1.2.0', 'qt5-multimedia>=5.15.17', 'qt5-xmlpatterns>=5.15.17']"
 +++
 ### Description: 
@@ -24,9 +24,9 @@ Memory Enhancement Game.
 * /usr/lib/libartikulatesound.so.0
 * /usr/share/applications/org.kde.artikulate.desktop
 * /usr/share/config.kcfg/artikulate.kcfg
-* /usr/share/doc/artikulate-25.04.2/COPYING
-* /usr/share/doc/artikulate-25.04.2/COPYING.DOC
-* /usr/share/doc/artikulate-25.04.2/README.md
+* /usr/share/doc/artikulate-25.04.3/COPYING
+* /usr/share/doc/artikulate-25.04.3/COPYING.DOC
+* /usr/share/doc/artikulate-25.04.3/README.md
 * /usr/share/doc/HTML/ca/artikulate/first-steps-1-create-profile.png
 * /usr/share/doc/HTML/ca/artikulate/first-steps-3-download-course.png
 * /usr/share/doc/HTML/ca/artikulate/first-steps-4-start-training.png
