@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libtextstyle 0.25-2"
-version = "0.25-2"
+title = "libtextstyle 0.25.1-1"
+version = "0.25.1-1"
 description = "gettext lib"
-date = "2025-05-19T13:15:52"
+date = "2025-07-09T14:53:49"
 aliases = "/packages/221103"
 categories = ['devel-core']
 upstreamurl = "http://www.gnu.org/software/gettext"
 arch = "x86_64"
-size = "161832"
-usize = "495234"
-sha1sum = "247ed10c24b01f68596014a66b4895a5a28b5b44"
+size = "162024"
+usize = "495509"
+sha1sum = "ca0b639b520037bca2d09c6735c0d62c40d1e381"
 depends = "['ncurses>=6.5']"
 reverse_depends = "['bison', 'gettext']"
 +++
@@ -25,13 +25,13 @@ gettext lib
 * /usr/lib/libtextstyle.so
 * /usr/lib/libtextstyle.so.0
 * /usr/lib/libtextstyle.so.0.2.5
-* /usr/share/doc/gettext-0.25/libtextstyle_1.html
-* /usr/share/doc/gettext-0.25/libtextstyle_2.html
-* /usr/share/doc/gettext-0.25/libtextstyle_3.html
-* /usr/share/doc/gettext-0.25/libtextstyle_4.html
-* /usr/share/doc/gettext-0.25/libtextstyle_5.html
-* /usr/share/doc/gettext-0.25/libtextstyle_6.html
-* /usr/share/doc/gettext-0.25/libtextstyle_7.html
-* /usr/share/doc/gettext-0.25/libtextstyle_abt.html
-* /usr/share/doc/gettext-0.25/libtextstyle_toc.html
+* /usr/share/doc/gettext-0.25.1/libtextstyle_1.html
+* /usr/share/doc/gettext-0.25.1/libtextstyle_2.html
+* /usr/share/doc/gettext-0.25.1/libtextstyle_3.html
+* /usr/share/doc/gettext-0.25.1/libtextstyle_4.html
+* /usr/share/doc/gettext-0.25.1/libtextstyle_5.html
+* /usr/share/doc/gettext-0.25.1/libtextstyle_6.html
+* /usr/share/doc/gettext-0.25.1/libtextstyle_7.html
+* /usr/share/doc/gettext-0.25.1/libtextstyle_abt.html
+* /usr/share/doc/gettext-0.25.1/libtextstyle_toc.html
 * /usr/share/info/libtextstyle.info.gz

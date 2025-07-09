@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "e2fsprogs 1.47.2-1"
-version = "1.47.2-1"
+title = "e2fsprogs 1.47.3-1"
+version = "1.47.3-1"
 description = "Utilities needed to create and maintain ext2 and ext3 filesystems"
-date = "2025-01-30T08:50:41"
+date = "2025-07-09T14:35:45"
 aliases = "/packages/2367"
 categories = ['base']
 upstreamurl = "http://e2fsprogs.sourceforge.net/"
 arch = "x86_64"
-size = "1207744"
-usize = "5368993"
-sha1sum = "fb020f68280860610293929709faf7a329a22345"
+size = "1217240"
+usize = "5425900"
+sha1sum = "181e4437571b499ec335e9ee9b8577c35630cabb"
 depends = "['coreutils>=8.29-5', 'glibc>=2.34', 'libblkid>=2.31.1-2', 'libuuid>=2.40.2', 'util-linux>=2.31.1-2']"
 reverse_depends = "['aide', 'btrfs-progs', 'cyrus-sasl', 'cyrus-sasl-sql', 'dovecot', 'e2fsimage', 'fsarchiver', 'kernel-initrd', 'kernel-lts-initrd', 'krb5', 'libkrb5', 'partclone', 'parted', 'partitionmanager', 'quota-tools', 'reiserfsprogs']"
 +++
@@ -83,10 +83,10 @@ Utilities needed to create and maintain ext2 and ext3 filesystems
 * /usr/lib/pkgconfig/ss.pc
 * /usr/lib/udev/rules.d/64-ext4.rules
 * /usr/lib/udev/rules.d/96-e2scrub.rules
-* /usr/share/doc/e2fsprogs-1.47.2/INSTALL
-* /usr/share/doc/e2fsprogs-1.47.2/INSTALL.elfbin
-* /usr/share/doc/e2fsprogs-1.47.2/README
-* /usr/share/doc/e2fsprogs-1.47.2/RELEASE-NOTES
+* /usr/share/doc/e2fsprogs-1.47.3/INSTALL
+* /usr/share/doc/e2fsprogs-1.47.3/INSTALL.elfbin
+* /usr/share/doc/e2fsprogs-1.47.3/README
+* /usr/share/doc/e2fsprogs-1.47.3/RELEASE-NOTES
 * /usr/share/et/et_c.awk
 * /usr/share/et/et_h.awk
 * /usr/share/info/libext2fs.info.gz
@@ -102,6 +102,7 @@ Utilities needed to create and maintain ext2 and ext3 filesystems
 * /usr/share/locale/hu/LC_MESSAGES/e2fsprogs.mo
 * /usr/share/locale/id/LC_MESSAGES/e2fsprogs.mo
 * /usr/share/locale/it/LC_MESSAGES/e2fsprogs.mo
+* /usr/share/locale/ka/LC_MESSAGES/e2fsprogs.mo
 * /usr/share/locale/ms/LC_MESSAGES/e2fsprogs.mo
 * /usr/share/locale/nl/LC_MESSAGES/e2fsprogs.mo
 * /usr/share/locale/pl/LC_MESSAGES/e2fsprogs.mo
