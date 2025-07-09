@@ -12,7 +12,7 @@ size = "160520"
 usize = "549344"
 sha1sum = "2dda4afb14c7a65b3a927e4ba99b8a8cd3bf9657"
 depends = "['glibc>=2.34']"
-reverse_depends = "['bind', 'cmake', 'libluv', 'libwebsockets', 'nodejs', 'nodejs20', 'nodejs22', 'ocaml-luv']"
+reverse_depends = "['bind', 'cmake', 'libluv', 'libwebsockets', 'nodejs', 'nodejs20', 'ocaml-luv']"
 +++
 ### Description: 
 Multi-platform support library with a focus on asynchronous I/O

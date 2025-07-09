@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "go 1.24.4-1"
-version = "1.24.4-1"
+title = "go 1.24.5-1"
+version = "1.24.5-1"
 description = "Compiler and tools for the Go programming language from Google"
-date = "2025-06-10T21:00:10"
+date = "2025-07-09T16:26:42"
 aliases = "/packages/200076"
 categories = ['devel-extra']
 upstreamurl = "http://golang.org/"
 arch = "x86_64"
-size = "118694980"
-usize = "327461959"
-sha1sum = "8784537a960e1bdbbbd7673103a0ea0b1b442ed5"
+size = "118714164"
+usize = "327468852"
+sha1sum = "2529649fe930b0330367a5584263d5f3c2a4c270"
 depends = "['gawk', 'perl>=5.28.2']"
 reverse_depends = "['audit-go']"
 +++
@@ -642,6 +642,10 @@ Compiler and tools for the Go programming language from Google
 * /usr/lib/go/src/cmd/cgo/internal/testsanitizers/testdata/asan_global3_fail.go
 * /usr/lib/go/src/cmd/cgo/internal/testsanitizers/testdata/asan_global4_fail.go
 * /usr/lib/go/src/cmd/cgo/internal/testsanitizers/testdata/asan_global5.go
+* /usr/lib/go/src/cmd/cgo/internal/testsanitizers/testdata/asan_global_asm/asm.s
+* /usr/lib/go/src/cmd/cgo/internal/testsanitizers/testdata/asan_global_asm/main.go
+* /usr/lib/go/src/cmd/cgo/internal/testsanitizers/testdata/asan_global_asm2_fail/asm.s
+* /usr/lib/go/src/cmd/cgo/internal/testsanitizers/testdata/asan_global_asm2_fail/main.go
 * /usr/lib/go/src/cmd/cgo/internal/testsanitizers/testdata/asan_linkerx/main.go
 * /usr/lib/go/src/cmd/cgo/internal/testsanitizers/testdata/asan_linkerx/p/p.go
 * /usr/lib/go/src/cmd/cgo/internal/testsanitizers/testdata/asan_unsafe_fail1.go
@@ -2837,6 +2841,7 @@ Compiler and tools for the Go programming language from Google
 * /usr/lib/go/src/cmd/go/testdata/script/test_match_only_subtests_parallel.txt
 * /usr/lib/go/src/cmd/go/testdata/script/test_match_only_tests.txt
 * /usr/lib/go/src/cmd/go/testdata/script/test_minus_n.txt
+* /usr/lib/go/src/cmd/go/testdata/script/test_multivcs.txt
 * /usr/lib/go/src/cmd/go/testdata/script/test_no_run_example.txt
 * /usr/lib/go/src/cmd/go/testdata/script/test_no_tests.txt
 * /usr/lib/go/src/cmd/go/testdata/script/test_n_cover_std.txt
@@ -13234,6 +13239,8 @@ Compiler and tools for the Go programming language from Google
 * /usr/lib/go/test/fixedbugs/issue7316.go
 * /usr/lib/go/test/fixedbugs/issue7346.go
 * /usr/lib/go/test/fixedbugs/issue7366.go
+* /usr/lib/go/test/fixedbugs/issue73748a.go
+* /usr/lib/go/test/fixedbugs/issue73748b.go
 * /usr/lib/go/test/fixedbugs/issue7405.go
 * /usr/lib/go/test/fixedbugs/issue7419.go
 * /usr/lib/go/test/fixedbugs/issue7525.go
@@ -14161,9 +14168,9 @@ Compiler and tools for the Go programming language from Google
 * /usr/lib/go/test/writebarrier.go
 * /usr/lib/go/test/zerodivide.go
 * /usr/lib/go/test/zerosize.go
-* /usr/share/doc/go-1.24.4/LICENSE
-* /usr/share/doc/go-1.24.4/README.md
-* /usr/share/doc/go-1.24.4/VERSION
+* /usr/share/doc/go-1.24.5/LICENSE
+* /usr/share/doc/go-1.24.5/README.md
+* /usr/share/doc/go-1.24.5/VERSION
 * /usr/share/go/doc/asm.html
 * /usr/share/go/doc/go1.17_spec.html
 * /usr/share/go/doc/godebug.md
