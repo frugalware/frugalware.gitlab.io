@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "intel-tbb 2022.1.0-1"
-version = "2022.1.0-1"
+title = "intel-tbb 2022.2.0-1"
+version = "2022.2.0-1"
 description = "An award-winning C++ runtime library that abstracts the low-level threading details necessary for optimal multi-core performance."
-date = "2025-04-11T19:13:55"
+date = "2025-07-10T12:12:03"
 aliases = "/packages/136209"
 categories = ['devel-core']
 upstreamurl = "http://www.threadingbuildingblocks.org/"
 arch = "x86_64"
-size = "362832"
-usize = "2040318"
-sha1sum = "b0f433c12eff04d2c4aef498c05cd26b29dea8e2"
+size = "363888"
+usize = "2046625"
+sha1sum = "7db0508315256d75b7e8160558bb5a90d3876f76"
 depends = "['glibc>=2.34']"
 reverse_depends = "['blender', 'easyeffects', 'embree', 'falcosecurity-libs', 'ispc', 'mold', 'opencascade', 'opencv', 'openshadinglanguage', 'openturns', 'openvdb', 'rkcommon']"
 +++
@@ -170,36 +170,32 @@ An award-winning C++ runtime library that abstracts the low-level threading deta
 * /usr/lib/libirml.so.1
 * /usr/lib/libtbb.so
 * /usr/lib/libtbb.so.12
-* /usr/lib/libtbb.so.12.15
+* /usr/lib/libtbb.so.12.16
 * /usr/lib/libtbbmalloc.so
 * /usr/lib/libtbbmalloc.so.2
-* /usr/lib/libtbbmalloc.so.2.15
+* /usr/lib/libtbbmalloc.so.2.16
 * /usr/lib/libtbbmalloc_proxy.so
 * /usr/lib/libtbbmalloc_proxy.so.2
-* /usr/lib/libtbbmalloc_proxy.so.2.15
+* /usr/lib/libtbbmalloc_proxy.so.2.16
 * /usr/lib/pkgconfig/tbb.pc
-* /usr/lib/python3.13/site-packages/TBB-0.2-py3.13-linux-x86_64.egg/EGG-INFO/dependency_links.txt
-* /usr/lib/python3.13/site-packages/TBB-0.2-py3.13-linux-x86_64.egg/EGG-INFO/native_libs.txt
-* /usr/lib/python3.13/site-packages/TBB-0.2-py3.13-linux-x86_64.egg/EGG-INFO/not-zip-safe
-* /usr/lib/python3.13/site-packages/TBB-0.2-py3.13-linux-x86_64.egg/EGG-INFO/PKG-INFO
-* /usr/lib/python3.13/site-packages/TBB-0.2-py3.13-linux-x86_64.egg/EGG-INFO/SOURCES.txt
-* /usr/lib/python3.13/site-packages/TBB-0.2-py3.13-linux-x86_64.egg/EGG-INFO/top_level.txt
-* /usr/lib/python3.13/site-packages/TBB-0.2-py3.13-linux-x86_64.egg/TBB.py
-* /usr/lib/python3.13/site-packages/TBB-0.2-py3.13-linux-x86_64.egg/tbb/api.py
-* /usr/lib/python3.13/site-packages/TBB-0.2-py3.13-linux-x86_64.egg/tbb/pool.py
-* /usr/lib/python3.13/site-packages/TBB-0.2-py3.13-linux-x86_64.egg/tbb/test.py
-* /usr/lib/python3.13/site-packages/TBB-0.2-py3.13-linux-x86_64.egg/tbb/_api.cpython-313-x86_64-linux-gnu.so
-* /usr/lib/python3.13/site-packages/TBB-0.2-py3.13-linux-x86_64.egg/tbb/_api.py
-* /usr/lib/python3.13/site-packages/TBB-0.2-py3.13-linux-x86_64.egg/tbb/__init__.py
-* /usr/lib/python3.13/site-packages/TBB-0.2-py3.13-linux-x86_64.egg/tbb/__main__.py
-* /usr/lib/python3.13/site-packages/TBB-0.2-py3.13-linux-x86_64.egg/tbb/__pycache__/api.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/TBB-0.2-py3.13-linux-x86_64.egg/tbb/__pycache__/pool.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/TBB-0.2-py3.13-linux-x86_64.egg/tbb/__pycache__/test.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/TBB-0.2-py3.13-linux-x86_64.egg/tbb/__pycache__/_api.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/TBB-0.2-py3.13-linux-x86_64.egg/tbb/__pycache__/__init__.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/TBB-0.2-py3.13-linux-x86_64.egg/tbb/__pycache__/__main__.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/TBB-0.2-py3.13-linux-x86_64.egg/__pycache__/TBB.cpython-313.pyc
-* /usr/share/doc/intel-tbb-2022.1.0/INSTALL.md
-* /usr/share/doc/intel-tbb-2022.1.0/README.md
-* /usr/share/doc/intel-tbb-2022.1.0/RELEASE_NOTES.md
+* /usr/lib/python3.13/site-packages/TBB-0.2-py3.13.egg-info/dependency_links.txt
+* /usr/lib/python3.13/site-packages/TBB-0.2-py3.13.egg-info/PKG-INFO
+* /usr/lib/python3.13/site-packages/TBB-0.2-py3.13.egg-info/SOURCES.txt
+* /usr/lib/python3.13/site-packages/TBB-0.2-py3.13.egg-info/top_level.txt
+* /usr/lib/python3.13/site-packages/TBB.py
+* /usr/lib/python3.13/site-packages/tbb/api.py
+* /usr/lib/python3.13/site-packages/tbb/pool.py
+* /usr/lib/python3.13/site-packages/tbb/test.py
+* /usr/lib/python3.13/site-packages/tbb/_api.cpython-313-x86_64-linux-gnu.so
+* /usr/lib/python3.13/site-packages/tbb/__init__.py
+* /usr/lib/python3.13/site-packages/tbb/__main__.py
+* /usr/lib/python3.13/site-packages/tbb/__pycache__/api.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/tbb/__pycache__/pool.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/tbb/__pycache__/test.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/tbb/__pycache__/__init__.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/tbb/__pycache__/__main__.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/__pycache__/TBB.cpython-313.pyc
+* /usr/share/doc/intel-tbb-2022.2.0/INSTALL.md
+* /usr/share/doc/intel-tbb-2022.2.0/README.md
+* /usr/share/doc/intel-tbb-2022.2.0/RELEASE_NOTES.md
 * /usr/share/doc/TBB/README.md

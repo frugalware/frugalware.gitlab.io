@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "libclc 20.1.6-1"
-version = "20.1.6-1"
+title = "libclc 20.1.8-1"
+version = "20.1.8-1"
 description = "Library requirements of the OpenCL C programming language"
-date = "2025-06-10T21:15:30"
+date = "2025-07-10T11:24:02"
 aliases = "/packages/217322"
 categories = ['lib']
 upstreamurl = "http://libclc.llvm.org/"
 arch = "x86_64"
-size = "13210156"
+size = "13208556"
 usize = "81824321"
-sha1sum = "22dcb6a675baedd4815a3e3655a41794e7973636"
+sha1sum = "35507c5fd6dd641cb33d27eab3e6110c46fde741"
 depends = "['glibc']"
 reverse_depends = "['opencl-rusticl']"
 +++
@@ -411,5 +411,5 @@ Library requirements of the OpenCL C programming language
 * /usr/share/clc/turks-r600--.bc
 * /usr/share/clc/verde-amdgcn--.bc
 * /usr/share/clc/verde-amdgcn-mesa-mesa3d.bc
-* /usr/share/doc/libclc-20.1.6/README.md
+* /usr/share/doc/libclc-20.1.8/README.md
 * /usr/share/pkgconfig/libclc.pc
