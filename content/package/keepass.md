@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "keepass 2.58-1"
-version = "2.58-1"
+title = "keepass 2.59-1"
+version = "2.59-1"
 description = "KeePass Password Safe, the free, open source, light-weight and easy-to-use password manager."
-date = "2025-03-05T13:56:26"
+date = "2025-07-10T10:52:20"
 aliases = "/packages/152821"
 categories = ['xapps-extra']
 upstreamurl = "http://keepass.info/"
 arch = "x86_64"
-size = "2221000"
-usize = "4137223"
-sha1sum = "f6445b4f3dd5187ac8e816b00b95c0f94d28f540"
+size = "2215864"
+usize = "4076323"
+sha1sum = "2c9cbe45ab120c789e1a70321d73623923a19a52"
 depends = "['desktop-file-utils', 'libgdiplus', 'mono>=2.6', 'xdg-utils']"
 +++
 ### Description: 
