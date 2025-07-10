@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "streamlink 7.4.0-1"
-version = "7.4.0-1"
+title = "streamlink 7.5.0-1"
+version = "7.5.0-1"
 description = "CLI program that launches streams from various streaming services in a custom video player"
-date = "2025-06-20T09:17:36"
+date = "2025-07-10T09:38:54"
 aliases = "/packages/220284"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/streamlink/streamlink"
 arch = "x86_64"
-size = "826732"
-usize = "4149474"
-sha1sum = "a18c2fa659ccf6ecbd9702c35b01e57d03fbd390"
+size = "828396"
+usize = "4157132"
+sha1sum = "aefc43bd6fe6920d7da4814fd33db6a4d54f17ee"
 depends = "['ffmpeg', 'python3-isodate', 'python3-pycountry', 'python3-pycryptodome', 'python3-requests', 'python3-websocket_client', 'rtmpdump']"
 +++
 ### Description: 
@@ -113,7 +113,6 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.13/site-packages/streamlink/plugins/mdstrm.py
 * /usr/lib/python3.13/site-packages/streamlink/plugins/mediaklikk.py
 * /usr/lib/python3.13/site-packages/streamlink/plugins/mediavitrina.py
-* /usr/lib/python3.13/site-packages/streamlink/plugins/mitele.py
 * /usr/lib/python3.13/site-packages/streamlink/plugins/mixcloud.py
 * /usr/lib/python3.13/site-packages/streamlink/plugins/mjunoon.py
 * /usr/lib/python3.13/site-packages/streamlink/plugins/mrtmk.py
@@ -123,6 +122,7 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.13/site-packages/streamlink/plugins/nicolive.py
 * /usr/lib/python3.13/site-packages/streamlink/plugins/nimotv.py
 * /usr/lib/python3.13/site-packages/streamlink/plugins/nos.py
+* /usr/lib/python3.13/site-packages/streamlink/plugins/nowtvtr.py
 * /usr/lib/python3.13/site-packages/streamlink/plugins/nrk.py
 * /usr/lib/python3.13/site-packages/streamlink/plugins/okru.py
 * /usr/lib/python3.13/site-packages/streamlink/plugins/olympicchannel.py
@@ -251,7 +251,6 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.13/site-packages/streamlink/plugins/__pycache__/mdstrm.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink/plugins/__pycache__/mediaklikk.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink/plugins/__pycache__/mediavitrina.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/streamlink/plugins/__pycache__/mitele.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink/plugins/__pycache__/mixcloud.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink/plugins/__pycache__/mjunoon.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink/plugins/__pycache__/mrtmk.cpython-313.pyc
@@ -261,6 +260,7 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.13/site-packages/streamlink/plugins/__pycache__/nicolive.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink/plugins/__pycache__/nimotv.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink/plugins/__pycache__/nos.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/streamlink/plugins/__pycache__/nowtvtr.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink/plugins/__pycache__/nrk.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink/plugins/__pycache__/okru.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink/plugins/__pycache__/olympicchannel.cpython-313.pyc
@@ -390,6 +390,7 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.13/site-packages/streamlink/utils/processoutput.py
 * /usr/lib/python3.13/site-packages/streamlink/utils/random.py
 * /usr/lib/python3.13/site-packages/streamlink/utils/socket.py
+* /usr/lib/python3.13/site-packages/streamlink/utils/thread.py
 * /usr/lib/python3.13/site-packages/streamlink/utils/times.py
 * /usr/lib/python3.13/site-packages/streamlink/utils/url.py
 * /usr/lib/python3.13/site-packages/streamlink/utils/__init__.py
@@ -406,6 +407,7 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.13/site-packages/streamlink/utils/__pycache__/processoutput.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink/utils/__pycache__/random.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink/utils/__pycache__/socket.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/streamlink/utils/__pycache__/thread.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink/utils/__pycache__/times.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink/utils/__pycache__/url.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink/utils/__pycache__/__init__.cpython-313.pyc
@@ -537,6 +539,6 @@ CLI program that launches streams from various streaming services in a custom vi
 * /usr/lib/python3.13/site-packages/streamlink_cli/__pycache__/_parser.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink_cli/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/streamlink_cli/__pycache__/__main__.cpython-313.pyc
-* /usr/share/doc/streamlink-7.4.0/AUTHORS
-* /usr/share/doc/streamlink-7.4.0/LICENSE
-* /usr/share/doc/streamlink-7.4.0/README.md
+* /usr/share/doc/streamlink-7.5.0/AUTHORS
+* /usr/share/doc/streamlink-7.5.0/LICENSE
+* /usr/share/doc/streamlink-7.5.0/README.md
