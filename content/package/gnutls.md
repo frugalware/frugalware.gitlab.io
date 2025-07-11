@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gnutls 3.8.9-1"
-version = "3.8.9-1"
+title = "gnutls 3.8.10-1"
+version = "3.8.10-1"
 description = "A library which provides a secure layer over a reliable transport layer"
-date = "2025-02-08T15:39:40"
+date = "2025-07-11T09:11:51"
 aliases = "/packages/3065"
 categories = ['apps']
 upstreamurl = "https://www.gnutls.org"
 arch = "x86_64"
-size = "3346096"
-usize = "8214564"
-sha1sum = "4dcdce03ab8b614a6946979755ddad66f4fc24fa"
+size = "3368972"
+usize = "8271701"
+sha1sum = "0f8edb08c9c9f1503fbc5fe25ae51667860d4be1"
 depends = "['brotli', 'libidn2>=1.35', 'libunistring>=1.1', 'nettle>=3.6', 'p11-kit>=0.23.2-10', 'zstd']"
 reverse_depends = "['aria2', 'bitlbee-common', 'claws-mail', 'connman', 'dirmngr', 'dirmngr-ldap', 'emacs', 'ethereal', 'ffmpeg', 'ffmpeg4.4', 'glib-networking', 'gloox', 'kvm', 'lftp', 'libcamera', 'libcups', 'libgadu', 'libjcat', 'libmicrohttpd', 'libvirt', 'libvncserver', 'libzip', 'loudmouth', 'mencoder', 'mplayer', 'msmtp', 'neatvnc', 'nice', 'openconnect', 'opendht', 'rsyslog', 'rtmpdump', 'squid', 'weechat', 'wireshark', 'wput']"
 +++
@@ -49,30 +49,30 @@ A library which provides a secure layer over a reliable transport layer
 * /usr/lib/libgnutls-openssl.so.27.0.2
 * /usr/lib/libgnutls.so
 * /usr/lib/libgnutls.so.30
-* /usr/lib/libgnutls.so.30.40.3
+* /usr/lib/libgnutls.so.30.40.4
 * /usr/lib/libgnutlsxx.so
 * /usr/lib/libgnutlsxx.so.30
 * /usr/lib/libgnutlsxx.so.30.0.0
 * /usr/lib/pkgconfig/gnutls.pc
-* /usr/share/doc/gnutls-3.8.9/AUTHORS
-* /usr/share/doc/gnutls-3.8.9/ChangeLog
-* /usr/share/doc/gnutls-3.8.9/COPYING
-* /usr/share/doc/gnutls-3.8.9/COPYING.LESSERv2
-* /usr/share/doc/gnutls-3.8.9/gnutls-client-server-use-case.png
-* /usr/share/doc/gnutls-3.8.9/gnutls-crypto-layers.png
-* /usr/share/doc/gnutls-3.8.9/gnutls-handshake-sequence.png
-* /usr/share/doc/gnutls-3.8.9/gnutls-handshake-state.png
-* /usr/share/doc/gnutls-3.8.9/gnutls-internals.png
-* /usr/share/doc/gnutls-3.8.9/gnutls-layers.png
-* /usr/share/doc/gnutls-3.8.9/gnutls-logo.png
-* /usr/share/doc/gnutls-3.8.9/gnutls-modauth.png
-* /usr/share/doc/gnutls-3.8.9/gnutls-x509.png
-* /usr/share/doc/gnutls-3.8.9/INSTALL.md
-* /usr/share/doc/gnutls-3.8.9/NEWS
-* /usr/share/doc/gnutls-3.8.9/pkcs11-vision.png
-* /usr/share/doc/gnutls-3.8.9/README.md
-* /usr/share/doc/gnutls-3.8.9/RELEASES.md
-* /usr/share/doc/gnutls-3.8.9/THANKS
+* /usr/share/doc/gnutls-3.8.10/AUTHORS
+* /usr/share/doc/gnutls-3.8.10/ChangeLog
+* /usr/share/doc/gnutls-3.8.10/COPYING
+* /usr/share/doc/gnutls-3.8.10/COPYING.LESSERv2
+* /usr/share/doc/gnutls-3.8.10/gnutls-client-server-use-case.png
+* /usr/share/doc/gnutls-3.8.10/gnutls-crypto-layers.png
+* /usr/share/doc/gnutls-3.8.10/gnutls-handshake-sequence.png
+* /usr/share/doc/gnutls-3.8.10/gnutls-handshake-state.png
+* /usr/share/doc/gnutls-3.8.10/gnutls-internals.png
+* /usr/share/doc/gnutls-3.8.10/gnutls-layers.png
+* /usr/share/doc/gnutls-3.8.10/gnutls-logo.png
+* /usr/share/doc/gnutls-3.8.10/gnutls-modauth.png
+* /usr/share/doc/gnutls-3.8.10/gnutls-x509.png
+* /usr/share/doc/gnutls-3.8.10/INSTALL.md
+* /usr/share/doc/gnutls-3.8.10/NEWS
+* /usr/share/doc/gnutls-3.8.10/pkcs11-vision.png
+* /usr/share/doc/gnutls-3.8.10/README.md
+* /usr/share/doc/gnutls-3.8.10/RELEASES.md
+* /usr/share/doc/gnutls-3.8.10/THANKS
 * /usr/share/info/gnutls-client-server-use-case.png.gz
 * /usr/share/info/gnutls-crypto-layers.png.gz
 * /usr/share/info/gnutls-handshake-sequence.png.gz

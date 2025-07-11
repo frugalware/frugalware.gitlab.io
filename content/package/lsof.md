@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lsof 4.99.4-1"
-version = "4.99.4-1"
+title = "lsof 4.99.5-1"
+version = "4.99.5-1"
 description = "Displays information about files open to Unix processes."
-date = "2024-11-18T19:51:48"
+date = "2025-07-11T08:58:45"
 aliases = "/packages/3218"
 categories = ['apps']
 upstreamurl = "http://people.freebsd.org/~abe/"
 arch = "x86_64"
-size = "243884"
-usize = "745057"
-sha1sum = "4ff3c9f8c934edc2fcbc4267bf0736f51e096d78"
+size = "245456"
+usize = "745551"
+sha1sum = "940bf6195eeee1bd90d52c189a0bb9ee13e88943"
 depends = "['libtirpc']"
 +++
 ### Description: 
@@ -23,11 +23,11 @@ Displays information about files open to Unix processes.
 * /usr/lib/liblsof.so
 * /usr/lib/liblsof.so.0
 * /usr/lib/liblsof.so.0.0.0
-* /usr/share/doc/lsof-4.99.4/00.README.FIRST
-* /usr/share/doc/lsof-4.99.4/00FAQ
-* /usr/share/doc/lsof-4.99.4/00README
-* /usr/share/doc/lsof-4.99.4/ChangeLog
-* /usr/share/doc/lsof-4.99.4/COPYING
-* /usr/share/doc/lsof-4.99.4/INSTALL
-* /usr/share/doc/lsof-4.99.4/README
+* /usr/share/doc/lsof-4.99.5/00.README.FIRST
+* /usr/share/doc/lsof-4.99.5/00FAQ
+* /usr/share/doc/lsof-4.99.5/00README
+* /usr/share/doc/lsof-4.99.5/ChangeLog
+* /usr/share/doc/lsof-4.99.5/COPYING
+* /usr/share/doc/lsof-4.99.5/INSTALL
+* /usr/share/doc/lsof-4.99.5/README
 * /usr/share/man/man8/lsof.8.gz

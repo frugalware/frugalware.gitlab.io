@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "evdi 1.14.10-7"
-version = "1.14.10-7"
+title = "evdi 1.14.10-8"
+version = "1.14.10-8"
 description = "Extensible Virtual Display Interface"
-date = "2025-07-07T11:56:49"
+date = "2025-07-11T08:24:45"
 aliases = "/packages/219800"
 categories = ['lib-extra']
 upstreamurl = "https://github.com/DisplayLink/evdi"
 arch = "x86_64"
-size = "181628"
-usize = "375564"
-sha1sum = "d4637d509a47af7b218ceafd974f4c47607d71e0"
-depends = "['kernel=6.15.5-1', 'libdrm', 'python3>=3.13']"
+size = "182016"
+usize = "375671"
+sha1sum = "a59b2b85aece12066b084bdfc43d0be460fa86aa"
+depends = "['kernel=6.15.6-1', 'libdrm', 'python3>=3.13']"
 reverse_depends = "['displaylink']"
 +++
 ### Description: 
@@ -21,7 +21,7 @@ Extensible Virtual Display Interface
 * /usr/lib/libevdi.so
 * /usr/lib/libevdi.so.1
 * /usr/lib/libevdi.so.1.14.10
-* /usr/lib/modules/6.15.5-fw1/kernel/drivers/gpu/drm/evdi/evdi.ko.zst
+* /usr/lib/modules/6.15.6-fw1/kernel/drivers/gpu/drm/evdi/evdi.ko.zst
 * /usr/lib/python3.13/site-packages/PyEvdi.cpython-313-x86_64-linux-gnu.so
 * /usr/lib/python3.13/site-packages/PyEvdi.cpython-313-x86_64-linux-gnu.so.1
 * /usr/share/doc/evdi-1.14.10/LICENSE

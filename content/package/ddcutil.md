@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ddcutil 2.2.0-1"
-version = "2.2.0-1"
+title = "ddcutil 2.2.1-1"
+version = "2.2.1-1"
 description = "Query and change Linux monitor settings using DDC/CI and USB."
-date = "2025-02-18T22:29:40"
+date = "2025-07-11T09:00:12"
 aliases = "/packages/220890"
 categories = ['apps']
 upstreamurl = "http://ddcutil.com/"
 arch = "x86_64"
-size = "831976"
-usize = "2749362"
-sha1sum = "783f3f38eac0de7413068900ccc5eecc11d16391"
+size = "873508"
+usize = "2848809"
+sha1sum = "39d16c5b861948dfb824f9f4b9cbab90f6991976"
 depends = "['glib2', 'i2c-tools', 'jansson', 'libdrm', 'libusb1', 'libxrandr']"
 reverse_depends = "['clightd', 'hw-probe', 'powerdevil']"
 +++
@@ -26,7 +26,7 @@ Query and change Linux monitor settings using DDC/CI and USB.
 * /usr/lib/cmake/ddcutil/FindDDCUtil.cmake
 * /usr/lib/libddcutil.so
 * /usr/lib/libddcutil.so.5
-* /usr/lib/libddcutil.so.5.2.0
+* /usr/lib/libddcutil.so.5.3.0
 * /usr/lib/modules-load.d/ddcutil.conf
 * /usr/lib/pkgconfig/ddcutil.pc
 * /usr/lib/udev/rules.d/60-ddcutil-i2c.rules
@@ -34,8 +34,8 @@ Query and change Linux monitor settings using DDC/CI and USB.
 * /usr/share/ddcutil/data/60-ddcutil-usb.rules
 * /usr/share/ddcutil/data/90-nvidia-i2c.conf
 * /usr/share/ddcutil/data/nvidia-i2c.conf
-* /usr/share/doc/ddcutil-2.2.0/AUTHORS
-* /usr/share/doc/ddcutil-2.2.0/COPYING
-* /usr/share/doc/ddcutil-2.2.0/README.gitignore
-* /usr/share/doc/ddcutil-2.2.0/README.md
+* /usr/share/doc/ddcutil-2.2.1/AUTHORS
+* /usr/share/doc/ddcutil-2.2.1/COPYING
+* /usr/share/doc/ddcutil-2.2.1/README.gitignore
+* /usr/share/doc/ddcutil-2.2.1/README.md
 * /usr/share/man/man1/ddcutil.1.gz
