@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kirigami-addons 1.8.1-1"
-version = "1.8.1-1"
+title = "kirigami-addons 1.9.0-1"
+version = "1.9.0-1"
 description = "Add-ons for the Kirigami framework"
-date = "2025-05-22T13:45:51"
+date = "2025-07-11T09:18:11"
 aliases = "/packages/220616"
 categories = ['kde6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "1922548"
-usize = "5918138"
-sha1sum = "4816dbd740c531f539f266eb4fa713cf6587d286"
-depends = "['kconfig>=6.14.0', 'kcoreaddons>=6.14.0', 'kglobalaccel>=6.14.0', 'kguiaddons>=6.14.0', 'kirigami>=6.14.0']"
+size = "1965960"
+usize = "6164586"
+sha1sum = "11f385953cdc45dbb4fc69385b5d4ee27251f08d"
+depends = "['kconfig>=6.15.0', 'kcoreaddons>=6.15.0', 'kglobalaccel>=6.15.0', 'kguiaddons>=6.15.0', 'kirigami>=6.15.0']"
 reverse_depends = "['alligator', 'angelfish', 'arianna', 'audiotube', 'colord-kde', 'discover', 'elisa', 'filelight', 'francis', 'itinerary', 'kalm', 'kapptemplate', 'kasts', 'kclock', 'kcron', 'kdeconnect-kde', 'kdeplasma-addons', 'kidentitymanagement', 'koko', 'kongress', 'kontrast', 'krecorder', 'ktrip', 'kweather', 'kwordquiz', 'merkuro', 'neochat', 'plasma-pa', 'plasma-settings', 'plasma-systemmonitor', 'plasma-welcome', 'plasma-workspace', 'plasmatube', 'qmlkonsole', 'telly-skout', 'tokodon']"
 +++
 ### Description: 
@@ -29,7 +29,7 @@ Add-ons for the Kirigami framework
 * /usr/lib/cmake/KF6KirigamiAddons/KirigamiAddonsTargets-release.cmake
 * /usr/lib/cmake/KF6KirigamiAddons/KirigamiAddonsTargets.cmake
 * /usr/lib/libKirigamiAddonsStatefulApp.so
-* /usr/lib/libKirigamiAddonsStatefulApp.so.1.8.1
+* /usr/lib/libKirigamiAddonsStatefulApp.so.1.9.0
 * /usr/lib/libKirigamiAddonsStatefulApp.so.6
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/components/Avatar.qml
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/components/AvatarButton.qml
@@ -61,12 +61,14 @@ Add-ons for the Kirigami framework
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/dateandtime/qmldir
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/dateandtime/TimePicker.qml
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/dateandtime/TimePopup.qml
+* /usr/lib/qt6/qml/org/kde/kirigamiaddons/delegates/CheckDelegate.qml
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/delegates/DefaultContentItem.qml
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/delegates/delegatesplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/delegates/IndicatorItemDelegate.qml
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/delegates/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/delegates/libdelegatesplugin.so
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/delegates/qmldir
+* /usr/lib/qt6/qml/org/kde/kirigamiaddons/delegates/RadioDelegate.qml
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/delegates/RoundedItemDelegate.qml
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/delegates/RoundedTreeDelegate.qml
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/delegates/SubtitleContentItem.qml
@@ -86,6 +88,8 @@ Add-ons for the Kirigami framework
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/FormDateTimeDelegate.qml
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/FormDelegateBackground.qml
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/FormDelegateSeparator.qml
+* /usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/FormFileDelegate.qml
+* /usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/FormFolderDelegate.qml
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/FormGridContainer.qml
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/FormHeader.qml
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/FormIconDelegate.qml
@@ -179,7 +183,7 @@ Add-ons for the Kirigami framework
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/treeview/styles/org.kde.desktop/TreeViewDecoration.qml
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/treeview/TreeViewDecoration.qml
 * /usr/lib/qt6/qml/org/kde/kirigamiaddons/treeview/treeviewplugin.qmltypes
-* /usr/share/doc/kirigami-addons-1.8.1/README.md
+* /usr/share/doc/kirigami-addons-1.9.0/README.md
 * /usr/share/kdevappwizard/templates/kirigamiaddons6.tar.bz2
 * /usr/share/kdevappwizard/templates/librarymanager6.tar.bz2
 * /usr/share/locale/ar/LC_MESSAGES/kirigami-addons6.mo
