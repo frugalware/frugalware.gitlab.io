@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kiconthemes 6.15.0-1"
-version = "6.15.0-1"
+title = "kiconthemes 6.16.0-1"
+version = "6.16.0-1"
 description = "Icon GUI utilities."
-date = "2025-06-14T11:04:01"
+date = "2025-07-12T07:43:02"
 aliases = "/packages/218316"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "156120"
-usize = "590623"
-sha1sum = "a86e3861804c8373683625fb2f6e1411e098e0c3"
-depends = "['breeze-icons>=6.15.0', 'karchive>=6.15.0', 'kconfigwidgets>=6.15.0', 'kitemviews>=6.15.0', 'qt6-declarative>=6.9.1', 'qt6-svg>=6.9.1']"
+size = "156748"
+usize = "592609"
+sha1sum = "9990cec8e11b77f0f5c43e5a514ca31b54d05a78"
+depends = "['breeze-icons>=6.16.0', 'karchive>=6.16.0', 'kconfigwidgets>=6.16.0', 'kitemviews>=6.16.0', 'qt6-declarative>=6.9.1', 'qt6-svg>=6.9.1']"
 reverse_depends = "['audex', 'breeze', 'discover', 'dolphin', 'isoimagewriter', 'kbackup', 'kdiff3', 'kmousetool', 'knotifications', 'ktextwidgets', 'partitionmanager', 'polkit-kde-agent-1', 'qqc2-breeze-style', 'qqc2-desktop-style']"
 +++
 ### Description: 
@@ -46,17 +46,17 @@ Icon GUI utilities.
 * /usr/lib/cmake/KF6IconThemes/KF6IconThemesTargets.cmake
 * /usr/lib/libKF6IconThemes.so
 * /usr/lib/libKF6IconThemes.so.6
-* /usr/lib/libKF6IconThemes.so.6.15.0
+* /usr/lib/libKF6IconThemes.so.6.16.0
 * /usr/lib/libKF6IconWidgets.so
 * /usr/lib/libKF6IconWidgets.so.6
-* /usr/lib/libKF6IconWidgets.so.6.15.0
+* /usr/lib/libKF6IconWidgets.so.6.16.0
 * /usr/lib/qt6/plugins/designer/kiconthemes6widgets.so
 * /usr/lib/qt6/plugins/kiconthemes6/iconengines/KIconEnginePlugin.so
 * /usr/lib/qt6/qml/org/kde/iconthemes/iconthemesplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/iconthemes/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/iconthemes/libiconthemesplugin.so
 * /usr/lib/qt6/qml/org/kde/iconthemes/qmldir
-* /usr/share/doc/kiconthemes-6.15.0/README.md
+* /usr/share/doc/kiconthemes-6.16.0/README.md
 * /usr/share/locale/af/LC_MESSAGES/kiconthemes6.mo
 * /usr/share/locale/ar/LC_MESSAGES/kiconthemes6.mo
 * /usr/share/locale/ast/LC_MESSAGES/kiconthemes6.mo

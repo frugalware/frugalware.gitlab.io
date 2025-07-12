@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kcompletion 6.15.0-1"
-version = "6.15.0-1"
+title = "kcompletion 6.16.0-1"
+version = "6.16.0-1"
 description = "Provides widgets with advanced completion support."
-date = "2025-06-14T11:07:26"
+date = "2025-07-12T07:46:26"
 aliases = "/packages/218282"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "116516"
-usize = "416670"
-sha1sum = "02417898235f9018289725f8094c8123d587ef53"
-depends = "['kcodecs>=6.15.0', 'kconfig>=6.15.0', 'kwidgetsaddons>=6.15.0']"
+size = "116808"
+usize = "416734"
+sha1sum = "205e513916dbd80d4ae225277ebf010bf6e80596"
+depends = "['kcodecs>=6.16.0', 'kconfig>=6.16.0', 'kwidgetsaddons>=6.16.0']"
 reverse_depends = "['akonadi-contacts', 'audex', 'dolphin', 'kdebugsettings', 'kldap', 'ktextwidgets', 'libkmahjongg']"
 +++
 ### Description: 
@@ -44,9 +44,9 @@ Provides widgets with advanced completion support.
 * /usr/lib/cmake/KF6Completion/KF6CompletionTargets.cmake
 * /usr/lib/libKF6Completion.so
 * /usr/lib/libKF6Completion.so.6
-* /usr/lib/libKF6Completion.so.6.15.0
+* /usr/lib/libKF6Completion.so.6.16.0
 * /usr/lib/qt6/plugins/designer/kcompletion6widgets.so
-* /usr/share/doc/kcompletion-6.15.0/README.md
+* /usr/share/doc/kcompletion-6.16.0/README.md
 * /usr/share/locale/af/LC_MESSAGES/kcompletion6_qt.qm
 * /usr/share/locale/ar/LC_MESSAGES/kcompletion6_qt.qm
 * /usr/share/locale/as/LC_MESSAGES/kcompletion6_qt.qm
