@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "ktexteditor 6.15.0-1"
-version = "6.15.0-1"
+title = "ktexteditor 6.16.0-1"
+version = "6.16.0-1"
 description = "Provides a powerful text editor component."
-date = "2025-06-14T12:37:27"
+date = "2025-07-12T08:24:44"
 aliases = "/packages/218354"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "2767144"
-usize = "14333497"
-sha1sum = "2e7cfc437541bafd0aa7da0ff1b211baaaa58086"
-depends = "['editorconfig-core-c', 'kparts>=6.15.0', 'libgit2>=1.3.0', 'syntax-highlighting>=6.15.0']"
+size = "2773704"
+usize = "14339594"
+sha1sum = "71eb5177d12e30204b8be94949d359f2a1459704"
+depends = "['editorconfig-core-c', 'kparts>=6.16.0', 'libgit2>=1.3.0', 'syntax-highlighting>=6.16.0']"
 reverse_depends = "['akregator', 'cantor', 'dolphin-plugins', 'grantlee-editor', 'kate', 'kdevelop', 'kile', 'kmail-account-wizard', 'kompare', 'kpimtextedit', 'plasma-sdk', 'plasma-workspace', 'rkward']"
 +++
 ### Description: 
@@ -78,11 +78,11 @@ Provides a powerful text editor component.
 * /usr/lib/kauth/kf6/kauth/kauth_ktexteditor_helper
 * /usr/lib/libKF6TextEditor.so
 * /usr/lib/libKF6TextEditor.so.6
-* /usr/lib/libKF6TextEditor.so.6.15.0
+* /usr/lib/libKF6TextEditor.so.6.16.0
 * /usr/lib/qt6/plugins/kf6/parts/katepart.so
 * /usr/share/dbus-1/system-services/org.kde.ktexteditor6.katetextbuffer.service
 * /usr/share/dbus-1/system.d/org.kde.ktexteditor6.katetextbuffer.conf
-* /usr/share/doc/ktexteditor-6.15.0/README.md
+* /usr/share/doc/ktexteditor-6.16.0/README.md
 * /usr/share/kdevappwizard/templates/ktexteditor6-plugin.tar.bz2
 * /usr/share/locale/af/LC_MESSAGES/ktexteditor6.mo
 * /usr/share/locale/ar/LC_MESSAGES/ktexteditor6.mo

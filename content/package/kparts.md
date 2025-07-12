@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kparts 6.15.0-1"
-version = "6.15.0-1"
+title = "kparts 6.16.0-1"
+version = "6.16.0-1"
 description = "Plugin framework for user interface components."
-date = "2025-06-14T12:30:57"
+date = "2025-07-12T08:18:43"
 aliases = "/packages/218341"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "166924"
-usize = "543215"
-sha1sum = "17eb27915a20724484b70aea8d7c2d7652091641"
-depends = "['kio>=6.15.0']"
+size = "166932"
+usize = "543022"
+sha1sum = "15dc2d6e302b31ab06dd36a18d370148d405a914"
+depends = "['kio>=6.16.0']"
 reverse_depends = "['ark', 'dolphin', 'dragon', 'filelight', 'gwenview', 'kde-dev-utils', 'kdiff3', 'keditbookmarks', 'kgraphviewer', 'kimagemapeditor', 'kmplot', 'konqueror', 'konsole', 'kontactinterface', 'konversation', 'krusader', 'ktexteditor', 'kvirc', 'libmarble', 'markdownpart', 'okular', 'plasma-workspace', 'skrooge', 'svgpart', 'yakuake']"
 +++
 ### Description: 
@@ -59,10 +59,10 @@ Plugin framework for user interface components.
 * /usr/lib/cmake/KF6Parts/KF6PartsTargets.cmake
 * /usr/lib/libKF6Parts.so
 * /usr/lib/libKF6Parts.so.6
-* /usr/lib/libKF6Parts.so.6.15.0
-* /usr/share/doc/kparts-6.15.0/AUTHORS
-* /usr/share/doc/kparts-6.15.0/README.KF6.md
-* /usr/share/doc/kparts-6.15.0/README.md
+* /usr/lib/libKF6Parts.so.6.16.0
+* /usr/share/doc/kparts-6.16.0/AUTHORS
+* /usr/share/doc/kparts-6.16.0/README.KF6.md
+* /usr/share/doc/kparts-6.16.0/README.md
 * /usr/share/kdevappwizard/templates/kparts6-app.tar.bz2
 * /usr/share/locale/af/LC_MESSAGES/kparts6.mo
 * /usr/share/locale/ar/LC_MESSAGES/kparts6.mo

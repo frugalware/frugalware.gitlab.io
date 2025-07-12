@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "kdeclarative 6.15.0-1"
-version = "6.15.0-1"
+title = "kdeclarative 6.16.0-1"
+version = "6.16.0-1"
 description = "Integration of QML and KDE workspaces."
-date = "2025-06-14T12:33:04"
+date = "2025-07-12T08:20:45"
 aliases = "/packages/218294"
 categories = ['kf6']
 upstreamurl = "http://www.kde.org"
 arch = "x86_64"
-size = "159220"
-usize = "782973"
-sha1sum = "96f5aba7998e6e738d306723f0123576855090f2"
-depends = "['kio>=6.15.0', 'kpackage>=6.15.0', 'libepoxy>=1.3.1-6']"
+size = "162304"
+usize = "782554"
+sha1sum = "3bea196d82cad730af5230411783a93a2c9bff20"
+depends = "['kio>=6.16.0', 'kpackage>=6.16.0', 'libepoxy>=1.3.1-6']"
 reverse_depends = "['blinken', 'colord-kde', 'discover', 'filelight', 'kaccounts-integration', 'kanagram', 'kcmutils', 'kdenetwork-filesharing', 'khangman', 'koko', 'kontrast', 'kwin', 'kwin-x11', 'libkdegames', 'plasma-disks', 'plasma-pa', 'plasma-systemmonitor', 'plasma-workspace', 'purpose', 'sddm-kcm', 'spectacle', 'systemsettings']"
 +++
 ### Description: 
@@ -28,9 +28,9 @@ Integration of QML and KDE workspaces.
 * /usr/lib/cmake/KF6Declarative/KF6DeclarativeTargets.cmake
 * /usr/lib/libKF6CalendarEvents.so
 * /usr/lib/libKF6CalendarEvents.so.6
-* /usr/lib/libKF6CalendarEvents.so.6.15.0
+* /usr/lib/libKF6CalendarEvents.so.6.16.0
 * /usr/lib/libkquickcontrolsprivate.so.0
-* /usr/lib/libkquickcontrolsprivate.so.6.15.0
+* /usr/lib/libkquickcontrolsprivate.so.6.16.0
 * /usr/lib/qt6/qml/org/kde/draganddrop/draganddropplugin.qmltypes
 * /usr/lib/qt6/qml/org/kde/draganddrop/kde-qmlmodule.version
 * /usr/lib/qt6/qml/org/kde/draganddrop/libdraganddropplugin.so
@@ -55,7 +55,7 @@ Integration of QML and KDE workspaces.
 * /usr/lib/qt6/qml/org/kde/private/kquickcontrols/kquickcontrolsprivate.qmltypes
 * /usr/lib/qt6/qml/org/kde/private/kquickcontrols/libkquickcontrolsprivateplugin.so
 * /usr/lib/qt6/qml/org/kde/private/kquickcontrols/qmldir
-* /usr/share/doc/kdeclarative-6.15.0/README.md
+* /usr/share/doc/kdeclarative-6.16.0/README.md
 * /usr/share/locale/af/LC_MESSAGES/kdeclarative6.mo
 * /usr/share/locale/ar/LC_MESSAGES/kdeclarative6.mo
 * /usr/share/locale/as/LC_MESSAGES/kdeclarative6.mo
