@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "udisks2 2.10.1-3"
-version = "2.10.1-3"
+title = "udisks2 2.10.1-4"
+version = "2.10.1-4"
 description = "Storage Management Service"
-date = "2024-01-30T09:24:40"
+date = "2025-07-12T06:59:12"
 aliases = "/packages/153053"
 categories = ['xapps']
 upstreamurl = "http://www.freedesktop.org/wiki/Software/udisks"
 arch = "x86_64"
-size = "1228860"
-usize = "17437642"
-sha1sum = "e11926ad58482b3ff14a8c4cd6b899b431b094bc"
+size = "1255000"
+usize = "17513981"
+sha1sum = "4b13a3828924b112e5ced51d17beaeb7511b57bc"
 depends = "['btrfs-progs', 'dosfstools>=4.0-3', 'libatasmart>=0.19-4', 'libblockdev>=3.0.1', 'libffi>=3.2.1-2', 'libgudev>=232', 'libsystemd>=231-6', 'lvm2', 'mtools>=4.0.18-3', 'ntfs-3g', 'polkit>=0.113-6', 'sg3-utils>=1.42-2', 'util-linux>=2.28.2-2']"
 reverse_depends = "['fwupd', 'gvfs', 'solid', 'solid5', 'udiskie']"
 +++
