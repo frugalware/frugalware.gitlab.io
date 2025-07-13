@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "thunderbird-rm 128.12.0-1"
-version = "128.12.0-1"
+title = "thunderbird-rm 140.0-1"
+version = "140.0-1"
 description = "Romansh language support for Thunderbird"
-date = "2025-07-01T08:58:52"
+date = "2025-07-13T21:10:22"
 aliases = "/packages/119958"
 categories = ['locale-extra']
 upstreamurl = "http://www.mozilla.org/projects/l10n/mlp.html"
 arch = "x86_64"
-size = "691884"
-usize = "752556"
-sha1sum = "b1293c63d35c9742781d2cdb318096d8c916277f"
-depends = "['thunderbird>=128.12.0']"
+size = "427864"
+usize = "487173"
+sha1sum = "596652dee620a86e5feb28b753cdd0e08cf20d81"
+depends = "['thunderbird>=140.0']"
 reverse_depends = "['thunderbird-i18n']"
 +++
 ### Description: 
