@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "thunderbird 128.12.0-1"
-version = "128.12.0-1"
+title = "thunderbird 140.0.1-1"
+version = "140.0.1-1"
 description = "Mozilla Thunderbird mail and newsgroup client"
-date = "2025-07-01T08:40:13"
+date = "2025-07-13T21:07:01"
 aliases = "/packages/3355"
 categories = ['xapps']
 upstreamurl = "http://www.mozilla.org/products/thunderbird/"
 arch = "x86_64"
-size = "66648984"
-usize = "241552625"
-sha1sum = "13c3eac1772bb75d5dd2419fcd8616894006b661"
+size = "72658100"
+usize = "266426940"
+sha1sum = "fdb31e79cce3512c90b791a64fecc3eee80c2b00"
 depends = "['aom', 'bzip2', 'dav1d>=1.3.0', 'dbus-glib', 'gdk-pixbuf2', 'gtk+2', 'gtk+3', 'harfbuzz', 'hunspell>=1.7', 'icu4c>=77.1', 'libevent>=2.1.11', 'libffi>=3.4', 'libnotify', 'libotr', 'libpulse>=6.0', 'librsvg', 'libvpx>=1.15.1', 'libwebp', 'libxt', 'mailcap', 'nspr', 'nss>=3.81', 'pango', 'sqlite3>=3.31']"
 reverse_depends = "['thunderbird-af', 'thunderbird-ar', 'thunderbird-ast', 'thunderbird-be', 'thunderbird-bg', 'thunderbird-br', 'thunderbird-ca', 'thunderbird-cak', 'thunderbird-cs', 'thunderbird-cy', 'thunderbird-da', 'thunderbird-de', 'thunderbird-dsb', 'thunderbird-el', 'thunderbird-en-ca', 'thunderbird-en-gb', 'thunderbird-en-us', 'thunderbird-es-ar', 'thunderbird-es-es', 'thunderbird-es-mx', 'thunderbird-et', 'thunderbird-eu', 'thunderbird-fi', 'thunderbird-fr', 'thunderbird-fy-nl', 'thunderbird-ga-ie', 'thunderbird-gd', 'thunderbird-gl', 'thunderbird-he', 'thunderbird-hr', 'thunderbird-hsb', 'thunderbird-hu', 'thunderbird-hy-am', 'thunderbird-i18n', 'thunderbird-id', 'thunderbird-is', 'thunderbird-it', 'thunderbird-ja', 'thunderbird-ka', 'thunderbird-kab', 'thunderbird-kk', 'thunderbird-ko', 'thunderbird-lt', 'thunderbird-lv', 'thunderbird-ms', 'thunderbird-nb-no', 'thunderbird-nl', 'thunderbird-nn-no', 'thunderbird-pa-in', 'thunderbird-pl', 'thunderbird-pt', 'thunderbird-pt-br', 'thunderbird-pt-pt', 'thunderbird-rm', 'thunderbird-ro', 'thunderbird-ru', 'thunderbird-sk', 'thunderbird-sl', 'thunderbird-sq', 'thunderbird-sr', 'thunderbird-sv-se', 'thunderbird-th', 'thunderbird-tr', 'thunderbird-uk', 'thunderbird-uz', 'thunderbird-vi', 'thunderbird-zh-cn', 'thunderbird-zh-tw']"
 +++
@@ -35,6 +35,7 @@ Mozilla Thunderbird mail and newsgroup client
 * /usr/lib/thunderbird/chrome/icons/default/msgcomposeWindow24.png
 * /usr/lib/thunderbird/chrome/icons/default/msgcomposeWindow32.png
 * /usr/lib/thunderbird/chrome/icons/default/msgcomposeWindow48.png
+* /usr/lib/thunderbird/chrome/icons/default/TB-symbolic.svg
 * /usr/lib/thunderbird/defaults/messenger/mailViews.dat
 * /usr/lib/thunderbird/defaults/pref/channel-prefs.js
 * /usr/lib/thunderbird/defaults/preferences/vendor.js
@@ -67,9 +68,9 @@ Mozilla Thunderbird mail and newsgroup client
 * /usr/lib/thunderbird/thunderbird-bin
 * /usr/lib/thunderbird/vaapitest
 * /usr/share/applications/thunderbird.desktop
-* /usr/share/doc/thunderbird-128.12.0/AUTHORS
-* /usr/share/doc/thunderbird-128.12.0/LICENSE
-* /usr/share/doc/thunderbird-128.12.0/README.txt
+* /usr/share/doc/thunderbird-140.0.1/AUTHORS
+* /usr/share/doc/thunderbird-140.0.1/LICENSE
+* /usr/share/doc/thunderbird-140.0.1/README.md
 * /usr/share/icons/hicolor/16x16/apps/thunderbird.png
 * /usr/share/icons/hicolor/22x22/apps/thunderbird.png
 * /usr/share/icons/hicolor/24x24/apps/thunderbird.png
