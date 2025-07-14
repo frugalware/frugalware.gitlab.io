@@ -1,27 +1,27 @@
 +++
 draft = false
-title = "scikit-build-core 0.11.1-1"
-version = "0.11.1-1"
+title = "scikit-build-core 0.11.5-1"
+version = "0.11.5-1"
 description = "Next generation Python CMake adaptor and Python API for plugins"
-date = "2025-03-26T14:23:08"
+date = "2025-07-14T08:41:16"
 aliases = "/packages/221528"
 categories = ['devel-extra']
 upstreamurl = "https://scikit-build.org/"
 arch = "x86_64"
-size = "256724"
-usize = "1599801"
-sha1sum = "5d2c74aadb0894df78e8103b33436366be243f73"
+size = "269736"
+usize = "1676783"
+sha1sum = "59ed20cc4263bee825f83fd01376adbf9cc2cf62"
 depends = "['cmake', 'ninja', 'python3', 'python3-packaging', 'python3-pathspec']"
 +++
 ### Description: 
 Next generation Python CMake adaptor and Python API for plugins
 
 ### Files: 
-* /usr/lib/python3.13/site-packages/scikit_build_core-0.11.1.dist-info/entry_points.txt
-* /usr/lib/python3.13/site-packages/scikit_build_core-0.11.1.dist-info/licenses/LICENSE
-* /usr/lib/python3.13/site-packages/scikit_build_core-0.11.1.dist-info/METADATA
-* /usr/lib/python3.13/site-packages/scikit_build_core-0.11.1.dist-info/RECORD
-* /usr/lib/python3.13/site-packages/scikit_build_core-0.11.1.dist-info/WHEEL
+* /usr/lib/python3.13/site-packages/scikit_build_core-0.11.5.dist-info/entry_points.txt
+* /usr/lib/python3.13/site-packages/scikit_build_core-0.11.5.dist-info/licenses/LICENSE
+* /usr/lib/python3.13/site-packages/scikit_build_core-0.11.5.dist-info/METADATA
+* /usr/lib/python3.13/site-packages/scikit_build_core-0.11.5.dist-info/RECORD
+* /usr/lib/python3.13/site-packages/scikit_build_core-0.11.5.dist-info/WHEEL
 * /usr/lib/python3.13/site-packages/scikit_build_core/ast/ast.py
 * /usr/lib/python3.13/site-packages/scikit_build_core/ast/tokenizer.py
 * /usr/lib/python3.13/site-packages/scikit_build_core/ast/__init__.py
@@ -42,6 +42,7 @@ Next generation Python CMake adaptor and Python API for plugins
 * /usr/lib/python3.13/site-packages/scikit_build_core/build/_scripts.py
 * /usr/lib/python3.13/site-packages/scikit_build_core/build/_wheelfile.py
 * /usr/lib/python3.13/site-packages/scikit_build_core/build/__init__.py
+* /usr/lib/python3.13/site-packages/scikit_build_core/build/__main__.py
 * /usr/lib/python3.13/site-packages/scikit_build_core/build/__pycache__/generate.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/scikit_build_core/build/__pycache__/generate.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/scikit_build_core/build/__pycache__/metadata.cpython-313.opt-1.pyc
@@ -64,12 +65,15 @@ Next generation Python CMake adaptor and Python API for plugins
 * /usr/lib/python3.13/site-packages/scikit_build_core/build/__pycache__/_wheelfile.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/scikit_build_core/build/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/scikit_build_core/build/__pycache__/__init__.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/scikit_build_core/build/__pycache__/__main__.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/scikit_build_core/build/__pycache__/__main__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/scikit_build_core/builder/builder.py
 * /usr/lib/python3.13/site-packages/scikit_build_core/builder/generator.py
 * /usr/lib/python3.13/site-packages/scikit_build_core/builder/get_requires.py
 * /usr/lib/python3.13/site-packages/scikit_build_core/builder/macos.py
 * /usr/lib/python3.13/site-packages/scikit_build_core/builder/sysconfig.py
 * /usr/lib/python3.13/site-packages/scikit_build_core/builder/wheel_tag.py
+* /usr/lib/python3.13/site-packages/scikit_build_core/builder/_load_provider.py
 * /usr/lib/python3.13/site-packages/scikit_build_core/builder/__init__.py
 * /usr/lib/python3.13/site-packages/scikit_build_core/builder/__main__.py
 * /usr/lib/python3.13/site-packages/scikit_build_core/builder/__pycache__/builder.cpython-313.opt-1.pyc
@@ -84,6 +88,8 @@ Next generation Python CMake adaptor and Python API for plugins
 * /usr/lib/python3.13/site-packages/scikit_build_core/builder/__pycache__/sysconfig.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/scikit_build_core/builder/__pycache__/wheel_tag.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/scikit_build_core/builder/__pycache__/wheel_tag.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/scikit_build_core/builder/__pycache__/_load_provider.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/scikit_build_core/builder/__pycache__/_load_provider.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/scikit_build_core/builder/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/scikit_build_core/builder/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/scikit_build_core/builder/__pycache__/__main__.cpython-313.opt-1.pyc
@@ -139,6 +145,7 @@ Next generation Python CMake adaptor and Python API for plugins
 * /usr/lib/python3.13/site-packages/scikit_build_core/metadata/fancy_pypi_readme.py
 * /usr/lib/python3.13/site-packages/scikit_build_core/metadata/regex.py
 * /usr/lib/python3.13/site-packages/scikit_build_core/metadata/setuptools_scm.py
+* /usr/lib/python3.13/site-packages/scikit_build_core/metadata/template.py
 * /usr/lib/python3.13/site-packages/scikit_build_core/metadata/__init__.py
 * /usr/lib/python3.13/site-packages/scikit_build_core/metadata/__pycache__/fancy_pypi_readme.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/scikit_build_core/metadata/__pycache__/fancy_pypi_readme.cpython-313.pyc
@@ -146,6 +153,8 @@ Next generation Python CMake adaptor and Python API for plugins
 * /usr/lib/python3.13/site-packages/scikit_build_core/metadata/__pycache__/regex.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/scikit_build_core/metadata/__pycache__/setuptools_scm.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/scikit_build_core/metadata/__pycache__/setuptools_scm.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/scikit_build_core/metadata/__pycache__/template.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/scikit_build_core/metadata/__pycache__/template.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/scikit_build_core/metadata/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/scikit_build_core/metadata/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/scikit_build_core/program_search.py
@@ -171,13 +180,13 @@ Next generation Python CMake adaptor and Python API for plugins
 * /usr/lib/python3.13/site-packages/scikit_build_core/settings/auto_requires.py
 * /usr/lib/python3.13/site-packages/scikit_build_core/settings/documentation.py
 * /usr/lib/python3.13/site-packages/scikit_build_core/settings/json_schema.py
-* /usr/lib/python3.13/site-packages/scikit_build_core/settings/skbuild_docs.py
+* /usr/lib/python3.13/site-packages/scikit_build_core/settings/skbuild_docs_readme.py
+* /usr/lib/python3.13/site-packages/scikit_build_core/settings/skbuild_docs_sphinx.py
 * /usr/lib/python3.13/site-packages/scikit_build_core/settings/skbuild_model.py
 * /usr/lib/python3.13/site-packages/scikit_build_core/settings/skbuild_overrides.py
 * /usr/lib/python3.13/site-packages/scikit_build_core/settings/skbuild_read_settings.py
 * /usr/lib/python3.13/site-packages/scikit_build_core/settings/skbuild_schema.py
 * /usr/lib/python3.13/site-packages/scikit_build_core/settings/sources.py
-* /usr/lib/python3.13/site-packages/scikit_build_core/settings/_load_provider.py
 * /usr/lib/python3.13/site-packages/scikit_build_core/settings/__init__.py
 * /usr/lib/python3.13/site-packages/scikit_build_core/settings/__pycache__/auto_cmake_version.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/scikit_build_core/settings/__pycache__/auto_cmake_version.cpython-313.pyc
@@ -187,8 +196,10 @@ Next generation Python CMake adaptor and Python API for plugins
 * /usr/lib/python3.13/site-packages/scikit_build_core/settings/__pycache__/documentation.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/scikit_build_core/settings/__pycache__/json_schema.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/scikit_build_core/settings/__pycache__/json_schema.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/scikit_build_core/settings/__pycache__/skbuild_docs.cpython-313.opt-1.pyc
-* /usr/lib/python3.13/site-packages/scikit_build_core/settings/__pycache__/skbuild_docs.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/scikit_build_core/settings/__pycache__/skbuild_docs_readme.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/scikit_build_core/settings/__pycache__/skbuild_docs_readme.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/scikit_build_core/settings/__pycache__/skbuild_docs_sphinx.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/scikit_build_core/settings/__pycache__/skbuild_docs_sphinx.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/scikit_build_core/settings/__pycache__/skbuild_model.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/scikit_build_core/settings/__pycache__/skbuild_model.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/scikit_build_core/settings/__pycache__/skbuild_overrides.cpython-313.opt-1.pyc
@@ -199,8 +210,6 @@ Next generation Python CMake adaptor and Python API for plugins
 * /usr/lib/python3.13/site-packages/scikit_build_core/settings/__pycache__/skbuild_schema.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/scikit_build_core/settings/__pycache__/sources.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/scikit_build_core/settings/__pycache__/sources.cpython-313.pyc
-* /usr/lib/python3.13/site-packages/scikit_build_core/settings/__pycache__/_load_provider.cpython-313.opt-1.pyc
-* /usr/lib/python3.13/site-packages/scikit_build_core/settings/__pycache__/_load_provider.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/scikit_build_core/settings/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/scikit_build_core/settings/__pycache__/__init__.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/scikit_build_core/setuptools/build_cmake.py
@@ -215,6 +224,7 @@ Next generation Python CMake adaptor and Python API for plugins
 * /usr/lib/python3.13/site-packages/scikit_build_core/setuptools/__pycache__/wrapper.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/scikit_build_core/setuptools/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/scikit_build_core/setuptools/__pycache__/__init__.cpython-313.pyc
+* /usr/lib/python3.13/site-packages/scikit_build_core/_compat/argparse.py
 * /usr/lib/python3.13/site-packages/scikit_build_core/_compat/builtins.py
 * /usr/lib/python3.13/site-packages/scikit_build_core/_compat/importlib/metadata.py
 * /usr/lib/python3.13/site-packages/scikit_build_core/_compat/importlib/resources.py
@@ -228,6 +238,8 @@ Next generation Python CMake adaptor and Python API for plugins
 * /usr/lib/python3.13/site-packages/scikit_build_core/_compat/tomllib.py
 * /usr/lib/python3.13/site-packages/scikit_build_core/_compat/typing.py
 * /usr/lib/python3.13/site-packages/scikit_build_core/_compat/__init__.py
+* /usr/lib/python3.13/site-packages/scikit_build_core/_compat/__pycache__/argparse.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/scikit_build_core/_compat/__pycache__/argparse.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/scikit_build_core/_compat/__pycache__/builtins.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/scikit_build_core/_compat/__pycache__/builtins.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/scikit_build_core/_compat/__pycache__/tomllib.cpython-313.opt-1.pyc
@@ -258,6 +270,7 @@ Next generation Python CMake adaptor and Python API for plugins
 * /usr/lib/python3.13/site-packages/scikit_build_core/_version.py
 * /usr/lib/python3.13/site-packages/scikit_build_core/_version.pyi
 * /usr/lib/python3.13/site-packages/scikit_build_core/__init__.py
+* /usr/lib/python3.13/site-packages/scikit_build_core/__main__.py
 * /usr/lib/python3.13/site-packages/scikit_build_core/__pycache__/cmake.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/scikit_build_core/__pycache__/cmake.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/scikit_build_core/__pycache__/errors.cpython-313.opt-1.pyc
@@ -274,5 +287,7 @@ Next generation Python CMake adaptor and Python API for plugins
 * /usr/lib/python3.13/site-packages/scikit_build_core/__pycache__/_version.cpython-313.pyc
 * /usr/lib/python3.13/site-packages/scikit_build_core/__pycache__/__init__.cpython-313.opt-1.pyc
 * /usr/lib/python3.13/site-packages/scikit_build_core/__pycache__/__init__.cpython-313.pyc
-* /usr/share/doc/scikit-build-core-0.11.1/LICENSE
-* /usr/share/doc/scikit-build-core-0.11.1/README.md
+* /usr/lib/python3.13/site-packages/scikit_build_core/__pycache__/__main__.cpython-313.opt-1.pyc
+* /usr/lib/python3.13/site-packages/scikit_build_core/__pycache__/__main__.cpython-313.pyc
+* /usr/share/doc/scikit-build-core-0.11.5/LICENSE
+* /usr/share/doc/scikit-build-core-0.11.5/README.md
