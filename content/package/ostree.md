@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "ostree 2025.2-3"
-version = "2025.2-3"
+title = "ostree 2025.3-1"
+version = "2025.3-1"
 description = "Operating system and container binary deployment and upgrades"
-date = "2025-06-17T12:23:33"
+date = "2025-07-14T10:06:02"
 aliases = "/packages/220840"
 categories = ['apps-extra']
 upstreamurl = "https://github.com/ostreedev/ostree"
 arch = "x86_64"
-size = "693664"
-usize = "4207701"
-sha1sum = "66099904c93bffd0e24e3084d98493d6273bf812"
+size = "703836"
+usize = "4283061"
+sha1sum = "45519e893c4cf84a22f63b17b35ece7a50b94e19"
 depends = "['curl', 'fuse3>=3.17.1', 'gpgme>=2.0.0', 'libarchive', 'libsodium>=1.0.19', 'libsoup3']"
 reverse_depends = "['flatpak']"
 +++
@@ -70,10 +70,11 @@ Operating system and container binary deployment and upgrades
 * /usr/lib/systemd/system/ostree-state-overlay@.service
 * /usr/lib/tmpfiles.d/ostree-tmpfiles.conf
 * /usr/share/bash-completion/completions/ostree
-* /usr/share/doc/ostree-2025.2/COPYING
-* /usr/share/doc/ostree-2025.2/README.md
-* /usr/share/doc/ostree-2025.2/TODO
+* /usr/share/doc/ostree-2025.3/COPYING
+* /usr/share/doc/ostree-2025.3/README.md
+* /usr/share/doc/ostree-2025.3/TODO
 * /usr/share/gir-1.0/OSTree-1.0.gir
+* /usr/share/gtk-doc/html/ostree/annotation-glossary.html
 * /usr/share/gtk-doc/html/ostree/home.png
 * /usr/share/gtk-doc/html/ostree/index.html
 * /usr/share/gtk-doc/html/ostree/left-insensitive.png
@@ -116,6 +117,7 @@ Operating system and container binary deployment and upgrades
 * /usr/share/man/man1/ostree-admin-os-init.1.gz
 * /usr/share/man/man1/ostree-admin-pin.1.gz
 * /usr/share/man/man1/ostree-admin-post-copy.1.gz
+* /usr/share/man/man1/ostree-admin-prepare-soft-reboot.1.gz
 * /usr/share/man/man1/ostree-admin-set-default.1.gz
 * /usr/share/man/man1/ostree-admin-set-origin.1.gz
 * /usr/share/man/man1/ostree-admin-stateroot-init.1.gz
