@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "tk 9.0.1-2"
-version = "9.0.1-2"
+title = "tk 9.0.2-1"
+version = "9.0.2-1"
 description = "A windowing toolkit for use with tcl"
-date = "2025-05-26T11:44:33"
+date = "2025-07-14T07:29:45"
 aliases = "/packages/200702"
 categories = ['xlib-extra']
 upstreamurl = "http://tcl.tk"
 arch = "x86_64"
-size = "2320196"
-usize = "6155104"
-sha1sum = "59b7191600ead192ea71affa9eb027cb495acb5e"
-depends = "['libx11>=1.6.5-3', 'libxft>=2.3.2-6', 'libxml2>=2.9.7-3', 'libxscrnsaver>=1.2.2-6', 'tcl>=9.0.1']"
+size = "2323036"
+usize = "6158443"
+sha1sum = "54fac8cf847d4827bc71d6df42f326f7b28a7c19"
+depends = "['libx11>=1.6.5-3', 'libxft>=2.3.2-6', 'libxml2>=2.9.7-3', 'libxscrnsaver>=1.2.2-6', 'tcl>=9.0.2']"
 reverse_depends = "['fetchmailconf', 'finch', 'git-gui', 'gitk', 'maxima', 'mercurial-hgk', 'opencascade', 'python3-pillow', 'python3-tk', 'weechat']"
 +++
 ### Description: 
@@ -156,7 +156,7 @@ A windowing toolkit for use with tcl
 * /usr/lib/tk9.0/demos/windowicons.tcl
 * /usr/lib/tk9.0/pkgIndex.tcl
 * /usr/lib/tkConfig.sh
-* /usr/share/doc/tk-9.0.1/README.md
+* /usr/share/doc/tk-9.0.2/README.md
 * /usr/share/man/man1/wish.1.gz
 * /usr/share/man/man3/FindPhoto.3.gz
 * /usr/share/man/man3/FontId.3.gz

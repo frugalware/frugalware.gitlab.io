@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lincity-ng 2.13.1-3"
-version = "2.13.1-3"
+title = "lincity-ng 2.14.0-1"
+version = "2.14.0-1"
 description = "A City Simulation Game. It is a polished and improved version of the classic LinCity game."
-date = "2025-05-21T15:03:15"
+date = "2025-07-14T07:21:52"
 aliases = "/packages/38889"
 categories = ['games-extra']
 upstreamurl = "https://github.com/lincity-ng/lincity-ng"
 arch = "x86_64"
-size = "45517712"
-usize = "56663568"
-sha1sum = "13da495d81062e4e5dea613e11e918246c53fe7f"
+size = "47272496"
+usize = "58759310"
+sha1sum = "222ff35b09b17396841d10df986641b14bb3978f"
 depends = "['libxml++2', 'libxslt', 'physfs>=2.0.3-3', 'sdl2_gfx', 'sdl2_image', 'sdl2_mixer', 'sdl2_ttf']"
 license = "GPL"
 +++
@@ -20,11 +20,11 @@ A City Simulation Game. It is a polished and improved version of the classic Lin
 ### Files: 
 * /usr/bin/lincity-ng
 * /usr/share/applications/lincity-ng.desktop
-* /usr/share/doc/lincity-ng-2.13.1/COPYING
-* /usr/share/doc/lincity-ng-2.13.1/COPYING-data.txt
-* /usr/share/doc/lincity-ng-2.13.1/COPYING-dll.txt
-* /usr/share/doc/lincity-ng-2.13.1/COPYING-fonts.txt
-* /usr/share/doc/lincity-ng-2.13.1/README.md
+* /usr/share/doc/lincity-ng-2.14.0/COPYING
+* /usr/share/doc/lincity-ng-2.14.0/COPYING-data.txt
+* /usr/share/doc/lincity-ng-2.14.0/COPYING-dll.txt
+* /usr/share/doc/lincity-ng-2.14.0/COPYING-fonts.txt
+* /usr/share/doc/lincity-ng-2.14.0/README.md
 * /usr/share/doc/lincity-ng/CHANGELOG.md
 * /usr/share/doc/lincity-ng/CONTRIBUTING.md
 * /usr/share/doc/lincity-ng/COPYING
@@ -42,50 +42,11 @@ A City Simulation Game. It is a polished and improved version of the classic Lin
 * /usr/share/lincity-ng/gui/credits.xml
 * /usr/share/lincity-ng/gui/creditslist.xml
 * /usr/share/lincity-ng/gui/dialog.xml
-* /usr/share/lincity-ng/gui/dialogs/allgone.xml
-* /usr/share/lincity-ng/gui/dialogs/blacksmithup.xml
-* /usr/share/lincity-ng/gui/dialogs/bulldoze_monument_yn.xml
-* /usr/share/lincity-ng/gui/dialogs/bulldoze_river_yn.xml
-* /usr/share/lincity-ng/gui/dialogs/bulldoze_shanty_yn.xml
-* /usr/share/lincity-ng/gui/dialogs/coalmineup.xml
-* /usr/share/lincity-ng/gui/dialogs/coalpowerup.xml
 * /usr/share/lincity-ng/gui/dialogs/coal_survey_yn.xml
-* /usr/share/lincity-ng/gui/dialogs/cricketup.xml
-* /usr/share/lincity-ng/gui/dialogs/fire.xml
-* /usr/share/lincity-ng/gui/dialogs/firestationup.xml
 * /usr/share/lincity-ng/gui/dialogs/gamestats.xml
-* /usr/share/lincity-ng/gui/dialogs/healthup.xml
-* /usr/share/lincity-ng/gui/dialogs/hvindustryup.xml
-* /usr/share/lincity-ng/gui/dialogs/import-exportup.xml
-* /usr/share/lincity-ng/gui/dialogs/launch-evac.xml
-* /usr/share/lincity-ng/gui/dialogs/launch-fail.xml
-* /usr/share/lincity-ng/gui/dialogs/launch-gone.xml
-* /usr/share/lincity-ng/gui/dialogs/launch-good.xml
 * /usr/share/lincity-ng/gui/dialogs/launch_rocket_yn.xml
-* /usr/share/lincity-ng/gui/dialogs/ltindustryup.xml
-* /usr/share/lincity-ng/gui/dialogs/millup.xml
-* /usr/share/lincity-ng/gui/dialogs/mod_wind_up.xml
-* /usr/share/lincity-ng/gui/dialogs/no-credit-parkland.xml
-* /usr/share/lincity-ng/gui/dialogs/no-credit-recycle.xml
-* /usr/share/lincity-ng/gui/dialogs/no-credit-rocket.xml
-* /usr/share/lincity-ng/gui/dialogs/no-credit-solar-power.xml
-* /usr/share/lincity-ng/gui/dialogs/no-credit-university.xml
-* /usr/share/lincity-ng/gui/dialogs/nobull-tip.xml
-* /usr/share/lincity-ng/gui/dialogs/parkup.xml
 * /usr/share/lincity-ng/gui/dialogs/portdialog.xml
-* /usr/share/lincity-ng/gui/dialogs/potteryup.xml
-* /usr/share/lincity-ng/gui/dialogs/railwayup.xml
-* /usr/share/lincity-ng/gui/dialogs/recycleup.xml
-* /usr/share/lincity-ng/gui/dialogs/riverup.xml
-* /usr/share/lincity-ng/gui/dialogs/roadup.xml
-* /usr/share/lincity-ng/gui/dialogs/rocketup.xml
-* /usr/share/lincity-ng/gui/dialogs/schoolup.xml
-* /usr/share/lincity-ng/gui/dialogs/solarpowerup.xml
-* /usr/share/lincity-ng/gui/dialogs/sustain.xml
 * /usr/share/lincity-ng/gui/dialogs/tradedialog.xml
-* /usr/share/lincity-ng/gui/dialogs/universityup.xml
-* /usr/share/lincity-ng/gui/dialogs/warning.xml
-* /usr/share/lincity-ng/gui/dialogs/windmillup.xml
 * /usr/share/lincity-ng/gui/helpwindow.xml
 * /usr/share/lincity-ng/gui/loadgame.xml
 * /usr/share/lincity-ng/gui/mainmenu.xml

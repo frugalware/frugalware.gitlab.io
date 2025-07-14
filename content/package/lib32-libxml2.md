@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-libxml2 2.14.4-1"
-version = "2.14.4-1"
+title = "lib32-libxml2 2.14.4-2"
+version = "2.14.4-2"
 description = "XML parsing library ( 32bit )"
-date = "2025-06-17T19:01:32"
+date = "2025-07-14T07:19:48"
 aliases = "/packages/217730"
 categories = ['lib32-extra']
 upstreamurl = "https://gitlab.gnome.org/GNOME/libxml2/-/wikis/home"
 arch = "x86_64"
-size = "5978992"
-usize = "7807720"
-sha1sum = "750a465a51f36ac7fd9971fa689b8c4120346ec2"
+size = "5979872"
+usize = "7808906"
+sha1sum = "5b07f4137b62f153152242c1271a7002dd45ada3"
 depends = "['lib32-icu4c>=77.1', 'lib32-xz>=5.2.4-2', 'lib32-zlib>=1.2.12']"
 reverse_depends = "['get_steam', 'lib32-at-spi2-core', 'lib32-clang', 'lib32-clang-libs', 'lib32-gconf', 'lib32-libbluray', 'lib32-libcroco', 'lib32-libxkbcommon', 'lib32-shared-mime-info', 'lib32-spirv-llvm-translator', 'lib32-wayland', 'wine', 'wine-devel']"
 +++
