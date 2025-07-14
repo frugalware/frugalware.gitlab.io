@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "wine-devel 10.11-1"
-version = "10.11-1"
+title = "wine-devel 10.12-1"
+version = "10.12-1"
 description = "An Open Source implementation of the Windows API on top of X and Unix. (Development)"
-date = "2025-07-03T09:41:41"
+date = "2025-07-14T07:01:04"
 aliases = "/packages/136362"
 categories = ['xapps-extra']
 upstreamurl = "http://www.winehq.org"
 arch = "x86_64"
-size = "280022052"
-usize = "1589561584"
-sha1sum = "00901006494514acc4bf378b76743764033e19d4"
+size = "280118224"
+usize = "1590009138"
+sha1sum = "5080a26a211fb274408e6658b3837d4f4a70f349"
 depends = "['faudio', 'gettext', 'gst1-plugins-base', 'lcms2', 'lib32-faudio', 'lib32-freetype2', 'lib32-lcms2', 'lib32-libldap>=2.5.4', 'lib32-libxcomposite', 'lib32-libxcursor', 'lib32-libxi', 'lib32-libxinerama', 'lib32-libxkbcommon', 'lib32-libxml2', 'lib32-libxrandr', 'lib32-libxrender', 'lib32-ncurses', 'lib32-ocl-icd', 'lib32-vkd3d', 'lib32-vulkan-icd-loader', 'lib32-wayland', 'libglu', 'libgphoto2', 'libldap>=2.5.4', 'libmpg123', 'libpcap', 'libpulse', 'libxcomposite', 'libxcursor', 'libxi', 'libxinerama', 'libxkbcommon', 'libxml2', 'libxrandr', 'libxrender', 'libxslt', 'ocl-icd', 'openal', 'pcsc-lite', 'sane-backends', 'v4l-utils', 'vkd3d', 'vulkan-icd-loader', 'wayland']"
 +++
 ### Description: 
@@ -194,8 +194,10 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/include/wine/windows/bits5_0.idl
 * /usr/include/wine/windows/bitsmsg.h
 * /usr/include/wine/windows/bluetoothapis.h
+* /usr/include/wine/windows/bluetoothleapis.h
 * /usr/include/wine/windows/bthdef.h
 * /usr/include/wine/windows/bthioctl.h
+* /usr/include/wine/windows/bthledef.h
 * /usr/include/wine/windows/bthsdpdef.h
 * /usr/include/wine/windows/cderr.h
 * /usr/include/wine/windows/cdosys.h
@@ -373,6 +375,7 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/include/wine/windows/dde.h
 * /usr/include/wine/windows/dde.rh
 * /usr/include/wine/windows/ddeml.h
+* /usr/include/wine/windows/ddk/bthguid.h
 * /usr/include/wine/windows/ddk/compstui.h
 * /usr/include/wine/windows/ddk/csq.h
 * /usr/include/wine/windows/ddk/d3dkmthk.h
@@ -408,11 +411,14 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/include/wine/windows/ddstream.idl
 * /usr/include/wine/windows/delayloadhandler.h
 * /usr/include/wine/windows/devenum.idl
+* /usr/include/wine/windows/devfiltertypes.h
 * /usr/include/wine/windows/devguid.h
 * /usr/include/wine/windows/devicetopology.h
 * /usr/include/wine/windows/devicetopology.idl
 * /usr/include/wine/windows/devpkey.h
 * /usr/include/wine/windows/devpropdef.h
+* /usr/include/wine/windows/devquery.h
+* /usr/include/wine/windows/devquerydef.h
 * /usr/include/wine/windows/dhcpcsdk.h
 * /usr/include/wine/windows/dhtmldid.h
 * /usr/include/wine/windows/dhtmled.h
@@ -4031,11 +4037,11 @@ An Open Source implementation of the Windows API on top of X and Unix. (Developm
 * /usr/lib/wine/x86_64-windows/xpsprint.dll
 * /usr/lib/wine/x86_64-windows/xpssvcs.dll
 * /usr/share/applications/wine.desktop
-* /usr/share/doc/wine-devel-10.11/AUTHORS
-* /usr/share/doc/wine-devel-10.11/COPYING.LIB
-* /usr/share/doc/wine-devel-10.11/LICENSE
-* /usr/share/doc/wine-devel-10.11/README.md
-* /usr/share/doc/wine-devel-10.11/VERSION
+* /usr/share/doc/wine-devel-10.12/AUTHORS
+* /usr/share/doc/wine-devel-10.12/COPYING.LIB
+* /usr/share/doc/wine-devel-10.12/LICENSE
+* /usr/share/doc/wine-devel-10.12/README.md
+* /usr/share/doc/wine-devel-10.12/VERSION
 * /usr/share/man/de.UTF-8/man1/wine.1.gz
 * /usr/share/man/de.UTF-8/man1/winemaker.1.gz
 * /usr/share/man/de.UTF-8/man1/wineserver.1.gz
