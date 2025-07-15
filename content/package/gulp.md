@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "gulp 5.0.0-1"
-version = "5.0.0-1"
+title = "gulp 5.0.1-1"
+version = "5.0.1-1"
 description = "The streaming build system"
-date = "2024-06-29T19:36:02"
+date = "2025-07-15T08:28:35"
 aliases = "/packages/219982"
 categories = ['devel-extra']
 upstreamurl = "https://gulpjs.com/"
 arch = "x86_64"
-size = "862096"
-usize = "3741381"
-sha1sum = "4cd522d888b67c217775fdc94333a8e5cfd67fff"
+size = "860432"
+usize = "3738223"
+sha1sum = "307b832300e94560459e4ead17518a2769f9d2f7"
 depends = "['glibc']"
 +++
 ### Description: 
@@ -60,10 +60,6 @@ The streaming build system
 * /usr/lib/node_modules/gulp/docs/getting-started/7-using-plugins.md
 * /usr/lib/node_modules/gulp/docs/getting-started/8-watching-files.md
 * /usr/lib/node_modules/gulp/docs/getting-started/README.md
-* /usr/lib/node_modules/gulp/docs/locale/pl_PL/api/concepts.md
-* /usr/lib/node_modules/gulp/docs/locale/pl_PL/getting-started/1-quick-start.md
-* /usr/lib/node_modules/gulp/docs/locale/pl_PL/getting-started/2-javascript-and-gulpfiles.md
-* /usr/lib/node_modules/gulp/docs/locale/pl_PL/README.md
 * /usr/lib/node_modules/gulp/docs/README.md
 * /usr/lib/node_modules/gulp/docs/recipes/automate-releases.md
 * /usr/lib/node_modules/gulp/docs/recipes/browserify-multiple-destination.md
@@ -167,6 +163,7 @@ The streaming build system
 * /usr/lib/node_modules/gulp/node_modules/bach/LICENSE
 * /usr/lib/node_modules/gulp/node_modules/bach/package.json
 * /usr/lib/node_modules/gulp/node_modules/bach/README.md
+* /usr/lib/node_modules/gulp/node_modules/bare-events/index.d.ts
 * /usr/lib/node_modules/gulp/node_modules/bare-events/index.js
 * /usr/lib/node_modules/gulp/node_modules/bare-events/lib/errors.js
 * /usr/lib/node_modules/gulp/node_modules/bare-events/LICENSE
@@ -238,11 +235,6 @@ The streaming build system
 * /usr/lib/node_modules/gulp/node_modules/cliui/LICENSE.txt
 * /usr/lib/node_modules/gulp/node_modules/cliui/package.json
 * /usr/lib/node_modules/gulp/node_modules/cliui/README.md
-* /usr/lib/node_modules/gulp/node_modules/clone-stats/index.js
-* /usr/lib/node_modules/gulp/node_modules/clone-stats/LICENSE.md
-* /usr/lib/node_modules/gulp/node_modules/clone-stats/package.json
-* /usr/lib/node_modules/gulp/node_modules/clone-stats/README.md
-* /usr/lib/node_modules/gulp/node_modules/clone-stats/test.js
 * /usr/lib/node_modules/gulp/node_modules/clone/.npmignore
 * /usr/lib/node_modules/gulp/node_modules/clone/clone.iml
 * /usr/lib/node_modules/gulp/node_modules/clone/clone.js
@@ -290,10 +282,12 @@ The streaming build system
 * /usr/lib/node_modules/gulp/node_modules/end-of-stream/README.md
 * /usr/lib/node_modules/gulp/node_modules/escalade/dist/index.js
 * /usr/lib/node_modules/gulp/node_modules/escalade/dist/index.mjs
+* /usr/lib/node_modules/gulp/node_modules/escalade/index.d.mts
 * /usr/lib/node_modules/gulp/node_modules/escalade/index.d.ts
 * /usr/lib/node_modules/gulp/node_modules/escalade/license
 * /usr/lib/node_modules/gulp/node_modules/escalade/package.json
 * /usr/lib/node_modules/gulp/node_modules/escalade/readme.md
+* /usr/lib/node_modules/gulp/node_modules/escalade/sync/index.d.mts
 * /usr/lib/node_modules/gulp/node_modules/escalade/sync/index.d.ts
 * /usr/lib/node_modules/gulp/node_modules/escalade/sync/index.js
 * /usr/lib/node_modules/gulp/node_modules/escalade/sync/index.mjs
@@ -344,6 +338,7 @@ The streaming build system
 * /usr/lib/node_modules/gulp/node_modules/fastq/package.json
 * /usr/lib/node_modules/gulp/node_modules/fastq/queue.js
 * /usr/lib/node_modules/gulp/node_modules/fastq/README.md
+* /usr/lib/node_modules/gulp/node_modules/fastq/SECURITY.md
 * /usr/lib/node_modules/gulp/node_modules/fastq/test/example.ts
 * /usr/lib/node_modules/gulp/node_modules/fastq/test/promise.js
 * /usr/lib/node_modules/gulp/node_modules/fastq/test/test.js
@@ -723,13 +718,6 @@ The streaming build system
 * /usr/lib/node_modules/gulp/node_modules/picomatch/LICENSE
 * /usr/lib/node_modules/gulp/node_modules/picomatch/package.json
 * /usr/lib/node_modules/gulp/node_modules/picomatch/README.md
-* /usr/lib/node_modules/gulp/node_modules/queue-tick/.github/workflows/test-node.yml
-* /usr/lib/node_modules/gulp/node_modules/queue-tick/LICENSE
-* /usr/lib/node_modules/gulp/node_modules/queue-tick/package.json
-* /usr/lib/node_modules/gulp/node_modules/queue-tick/process-next-tick.js
-* /usr/lib/node_modules/gulp/node_modules/queue-tick/queue-microtask.js
-* /usr/lib/node_modules/gulp/node_modules/queue-tick/README.md
-* /usr/lib/node_modules/gulp/node_modules/queue-tick/test.js
 * /usr/lib/node_modules/gulp/node_modules/readable-stream/CONTRIBUTING.md
 * /usr/lib/node_modules/gulp/node_modules/readable-stream/errors-browser.js
 * /usr/lib/node_modules/gulp/node_modules/readable-stream/errors.js
@@ -893,16 +881,20 @@ The streaming build system
 * /usr/lib/node_modules/gulp/node_modules/resolve/test/shadowed_core/node_modules/util/index.js
 * /usr/lib/node_modules/gulp/node_modules/resolve/test/subdirs.js
 * /usr/lib/node_modules/gulp/node_modules/resolve/test/symlinks.js
-* /usr/lib/node_modules/gulp/node_modules/reusify/.coveralls.yml
-* /usr/lib/node_modules/gulp/node_modules/reusify/.travis.yml
+* /usr/lib/node_modules/gulp/node_modules/reusify/.github/dependabot.yml
+* /usr/lib/node_modules/gulp/node_modules/reusify/.github/workflows/ci.yml
 * /usr/lib/node_modules/gulp/node_modules/reusify/benchmarks/createNoCodeFunction.js
 * /usr/lib/node_modules/gulp/node_modules/reusify/benchmarks/fib.js
 * /usr/lib/node_modules/gulp/node_modules/reusify/benchmarks/reuseNoCodeFunction.js
+* /usr/lib/node_modules/gulp/node_modules/reusify/eslint.config.js
 * /usr/lib/node_modules/gulp/node_modules/reusify/LICENSE
 * /usr/lib/node_modules/gulp/node_modules/reusify/package.json
 * /usr/lib/node_modules/gulp/node_modules/reusify/README.md
+* /usr/lib/node_modules/gulp/node_modules/reusify/reusify.d.ts
 * /usr/lib/node_modules/gulp/node_modules/reusify/reusify.js
+* /usr/lib/node_modules/gulp/node_modules/reusify/SECURITY.md
 * /usr/lib/node_modules/gulp/node_modules/reusify/test.js
+* /usr/lib/node_modules/gulp/node_modules/reusify/tsconfig.json
 * /usr/lib/node_modules/gulp/node_modules/safe-buffer/index.d.ts
 * /usr/lib/node_modules/gulp/node_modules/safe-buffer/index.js
 * /usr/lib/node_modules/gulp/node_modules/safe-buffer/LICENSE
@@ -986,6 +978,7 @@ The streaming build system
 * /usr/lib/node_modules/gulp/node_modules/teex/README.md
 * /usr/lib/node_modules/gulp/node_modules/teex/test.js
 * /usr/lib/node_modules/gulp/node_modules/text-decoder/index.js
+* /usr/lib/node_modules/gulp/node_modules/text-decoder/lib/browser-decoder.js
 * /usr/lib/node_modules/gulp/node_modules/text-decoder/lib/pass-through-decoder.js
 * /usr/lib/node_modules/gulp/node_modules/text-decoder/lib/utf8-decoder.js
 * /usr/lib/node_modules/gulp/node_modules/text-decoder/LICENSE
@@ -1245,5 +1238,5 @@ The streaming build system
 * /usr/lib/node_modules/root/tests/test-routes.js
 * /usr/lib/node_modules/root/tests/test-sub-app-route.js
 * /usr/lib/node_modules/root/tests/test-urls.js
-* /usr/share/doc/gulp-5.0.0/LICENSE
-* /usr/share/doc/gulp-5.0.0/README.md
+* /usr/share/doc/gulp-5.0.1/LICENSE
+* /usr/share/doc/gulp-5.0.1/README.md
