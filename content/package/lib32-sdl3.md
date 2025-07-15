@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "lib32-sdl3 3.2.16-3"
-version = "3.2.16-3"
+title = "lib32-sdl3 3.2.18-1"
+version = "3.2.18-1"
 description = "Simple DirectMedia Layer library v2 ( 32bit )"
-date = "2025-07-02T16:25:21"
+date = "2025-07-15T06:28:18"
 aliases = "/packages/222623"
 categories = ['lib32-extra']
 upstreamurl = "http://libsdl.org"
 arch = "x86_64"
-size = "1357084"
-usize = "6503246"
-sha1sum = "96abca6fd5f04a9215a38044612c33dc01f76044"
+size = "1354092"
+usize = "6507003"
+sha1sum = "aff0647ae76bf9b309da145b0d324c412bf2235e"
 depends = "[]"
 reverse_depends = "['lib32-faudio', 'lib32-sdl2-compat', 'lib32-sdl3_image']"
 +++
@@ -103,7 +103,14 @@ Simple DirectMedia Layer library v2 ( 32bit )
 * /usr/i686-frugalware-linux/include/SDL3/SDL_version.h
 * /usr/i686-frugalware-linux/include/SDL3/SDL_video.h
 * /usr/i686-frugalware-linux/include/SDL3/SDL_vulkan.h
+* /usr/lib32/cmake/SDL3/SDL3Config.cmake
+* /usr/lib32/cmake/SDL3/SDL3ConfigVersion.cmake
+* /usr/lib32/cmake/SDL3/SDL3headersTargets.cmake
+* /usr/lib32/cmake/SDL3/SDL3sharedTargets-release.cmake
+* /usr/lib32/cmake/SDL3/SDL3sharedTargets.cmake
+* /usr/lib32/cmake/SDL3/SDL3testTargets-release.cmake
+* /usr/lib32/cmake/SDL3/SDL3testTargets.cmake
 * /usr/lib32/libSDL3.so
 * /usr/lib32/libSDL3.so.0
-* /usr/lib32/libSDL3.so.0.2.16
+* /usr/lib32/libSDL3.so.0.2.18
 * /usr/lib32/pkgconfig/sdl3.pc

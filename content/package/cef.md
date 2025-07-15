@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "cef 138.0.17-1"
-version = "138.0.17-1"
+title = "cef 138.0.21-1"
+version = "138.0.21-1"
 description = "Chromium Embedded Framework standard release"
-date = "2025-07-08T15:12:04"
+date = "2025-07-15T06:47:42"
 aliases = "/packages/220418"
 categories = ['lib-extra']
 upstreamurl = "https://bitbucket.org/chromiumembedded/cef"
 arch = "x86_64"
-size = "318562648"
-usize = "1646811009"
-sha1sum = "733130c99481c744a298ff32f6992b68d0264eb5"
+size = "318569464"
+usize = "1646803701"
+sha1sum = "d4c943f69268be24dabf34318c9c42339acc5a36"
 depends = "['alsa-lib', 'dbus', 'libglvnd', 'libxcomposite', 'libxcursor', 'libxrandr', 'libxscrnsaver', 'libxtst', 'nss', 'pango']"
 reverse_depends = "['obs-studio']"
 +++
@@ -1252,9 +1252,5 @@ Chromium Embedded Framework standard release
 * /opt/cef/Resources/locales/zh-TW.pak
 * /opt/cef/Resources/resources.pak
 * /opt/cef/WORKSPACE
-* /usr/share/doc/cef-138.0.17/AUTHORS
-* /usr/share/doc/cef-138.0.17/COPYING
-* /usr/share/doc/cef-138.0.17/INSTALL
-* /usr/share/doc/cef-138.0.17/README.md
-* /usr/share/doc/cef-138.0.17/README.rst
-* /usr/share/doc/cef-138.0.17/README.txt
+* /usr/share/doc/cef-138.0.21/README.md
+* /usr/share/doc/cef-138.0.21/README.txt

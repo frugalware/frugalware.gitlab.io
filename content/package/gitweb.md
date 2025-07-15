@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "gitweb 2.50.0-2"
-version = "2.50.0-2"
+title = "gitweb 2.50.1-1"
+version = "2.50.1-1"
 description = "Web interface for Git."
-date = "2025-07-04T13:02:10"
+date = "2025-07-15T06:40:03"
 aliases = "/packages/23231"
 categories = ['network-extra']
 upstreamurl = "http://git-scm.com/"
 arch = "x86_64"
-size = "91660"
+size = "91676"
 usize = "366076"
-sha1sum = "3390bb4b8eddfbe551f785366bb3be427b91eb45"
-depends = "['git>=2.50.0']"
+sha1sum = "7011bfc1eb24ed1bb959fab00df764b94724ad79"
+depends = "['git>=2.50.1']"
 +++
 ### Description: 
 Web interface for Git.

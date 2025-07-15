@@ -1,17 +1,17 @@
 +++
 draft = false
-title = "git-gui 2.50.0-2"
-version = "2.50.0-2"
+title = "git-gui 2.50.1-1"
+version = "2.50.1-1"
 description = "Git GUI tool."
-date = "2025-07-04T13:02:10"
+date = "2025-07-15T06:40:03"
 aliases = "/packages/23488"
 categories = ['xapps-extra']
 upstreamurl = "http://git-scm.com/"
 arch = "x86_64"
-size = "238080"
-usize = "1463885"
-sha1sum = "eb7bf45e273eb529045d4c0f89601eeeebec1402"
-depends = "['git>=2.50.0', 'tk>=9.0']"
+size = "238484"
+usize = "1465353"
+sha1sum = "a8c27fc19b8e64a8286cdb1204ab81075e030683"
+depends = "['git>=2.50.1', 'tk>=9.0']"
 +++
 ### Description: 
 Git GUI tool.
@@ -20,8 +20,8 @@ Git GUI tool.
 * /usr/lib/git/git-core/git-citool
 * /usr/lib/git/git-core/git-gui
 * /usr/lib/git/git-core/git-gui--askpass
-* /usr/share/doc/git-2.50.0/git-citool.html
-* /usr/share/doc/git-2.50.0/git-gui.html
+* /usr/share/doc/git-2.50.1/git-citool.html
+* /usr/share/doc/git-2.50.1/git-gui.html
 * /usr/share/git-gui/lib/about.tcl
 * /usr/share/git-gui/lib/blame.tcl
 * /usr/share/git-gui/lib/branch.tcl
