@@ -1,16 +1,16 @@
 +++
 draft = false
-title = "neovim 0.11.2-1"
-version = "0.11.2-1"
+title = "neovim 0.11.3-1"
+version = "0.11.3-1"
 description = "Fork of Vim aiming to improve user experience, plugins, and GUIs"
-date = "2025-06-02T09:26:44"
+date = "2025-07-15T07:26:44"
 aliases = "/packages/222573"
 categories = ['apps-extra']
 upstreamurl = "https://neovim.io"
 arch = "x86_64"
-size = "6911344"
-usize = "30272055"
-sha1sum = "d7bd1d41526da0ae2d0d2aae14d813c073538366"
+size = "6932752"
+usize = "30290895"
+sha1sum = "a8c8430a50b7f4f539b855be50519df0e0085a69"
 depends = "['libluv', 'libtermkey', 'libvterm', 'lua51-lpeg', 'msgpack-c', 'tree-sitter>=0.25.1', 'unibilium', 'utf8proc']"
 +++
 ### Description: 
@@ -19,8 +19,8 @@ Fork of Vim aiming to improve user experience, plugins, and GUIs
 ### Files: 
 * /usr/bin/nvim
 * /usr/share/applications/nvim.desktop
-* /usr/share/doc/neovim-0.11.2/INSTALL.md
-* /usr/share/doc/neovim-0.11.2/README.md
+* /usr/share/doc/neovim-0.11.3/INSTALL.md
+* /usr/share/doc/neovim-0.11.3/README.md
 * /usr/share/icons/hicolor/128x128/apps/nvim.png
 * /usr/share/locale/af/LC_MESSAGES/nvim.mo
 * /usr/share/locale/ca/LC_MESSAGES/nvim.mo
@@ -281,7 +281,6 @@ Fork of Vim aiming to improve user experience, plugins, and GUIs
 * /usr/share/nvim/runtime/doc/api.txt
 * /usr/share/nvim/runtime/doc/arabic.txt
 * /usr/share/nvim/runtime/doc/autocmd.txt
-* /usr/share/nvim/runtime/doc/builtin.txt
 * /usr/share/nvim/runtime/doc/change.txt
 * /usr/share/nvim/runtime/doc/channel.txt
 * /usr/share/nvim/runtime/doc/cmdline.txt
@@ -299,7 +298,6 @@ Fork of Vim aiming to improve user experience, plugins, and GUIs
 * /usr/share/nvim/runtime/doc/digraph.txt
 * /usr/share/nvim/runtime/doc/editing.txt
 * /usr/share/nvim/runtime/doc/editorconfig.txt
-* /usr/share/nvim/runtime/doc/eval.txt
 * /usr/share/nvim/runtime/doc/faq.txt
 * /usr/share/nvim/runtime/doc/filetype.txt
 * /usr/share/nvim/runtime/doc/fold.txt
@@ -407,6 +405,8 @@ Fork of Vim aiming to improve user experience, plugins, and GUIs
 * /usr/share/nvim/runtime/doc/usr_toc.txt
 * /usr/share/nvim/runtime/doc/various.txt
 * /usr/share/nvim/runtime/doc/vietnamese.txt
+* /usr/share/nvim/runtime/doc/vimeval.txt
+* /usr/share/nvim/runtime/doc/vimfn.txt
 * /usr/share/nvim/runtime/doc/vim_diff.txt
 * /usr/share/nvim/runtime/doc/visual.txt
 * /usr/share/nvim/runtime/doc/vi_diff.txt
@@ -2071,6 +2071,8 @@ Fork of Vim aiming to improve user experience, plugins, and GUIs
 * /usr/share/nvim/runtime/syntax/zsh.vim
 * /usr/share/nvim/runtime/tutor/en/vim-01-beginner.tutor
 * /usr/share/nvim/runtime/tutor/en/vim-01-beginner.tutor.json
+* /usr/share/nvim/runtime/tutor/en/vim-02-beginner.tutor
+* /usr/share/nvim/runtime/tutor/en/vim-02-beginner.tutor.json
 * /usr/share/nvim/runtime/tutor/ja/vim-01-beginner.tutor
 * /usr/share/nvim/runtime/tutor/ja/vim-01-beginner.tutor.json
 * /usr/share/nvim/runtime/tutor/tutor.tutor
